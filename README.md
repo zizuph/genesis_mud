@@ -11,9 +11,11 @@ For those interested in understanding how the game mechanics
 work:
 
 Standard weapon attack code is located in [cbase.c](std/combat/cbase.c).
+
 Formulas for translating weapon pen and skill are located [here](sys/formulas.h).
 
 Guild abilities are all based on the [specials library](d/Genesis/specials/new/ability.h).
+
 Each guild ability inherits a core version maintained by the
 balance team, swapping out the various messages for their own
 guild-specific version.  Combat aid is specified within the
@@ -26,16 +28,25 @@ Tax documents specify the skills and combat aid that each has
 assigned to them.
 
 A few examples are here:
+
 [Fire Knives](d/Faerun/guilds/fire_knives/doc/tax_doc_new.txt)
+
 [Mercenaries](d/Sparkle/guilds/new_merc/doc/tax_doc.txt)
+
 [Neidar](d/Ansalon/guild/neidar/docs/docs.txt)
+
 [POT](d/Ansalon/guild/new_pot/tax_doc.txt)
+
 [Shadow Union](d/Avenir/union/doc/union_tax_.txt)
+
 [WOHS](d/Krynn/guilds/wohs/doc/WoHS.txt)
 
 Core rules for guild balance are here:
+
 [tax](d/Genesis/doc/rules/wizard/guilds/tax)
+
 [types](d/Genesis/doc/rules/wizard/guilds/types)
+
 [skills](d/Genesis/doc/rules/wizard/guilds/skills)
 
 Magical items tend to be another area of interest.  While
@@ -44,17 +55,29 @@ necessarily consistent.
 
 These details are often split across multiple files.  Some
 can be found here:
+
 [Ansalon](d/Ansalon/private/magic/weapons)
+
 [Avenir](d/Avenir/private/MAGIC/weapons)
+
 [Calia](d/Calia/open/MAGIC)
+
 [Earthsea](d/Earthsea/private/MAGIC/unholy_halberd.txt)
+
 [Emerald](d/Emerald/open/MAGIC)
+
 [Faerun](d/Faerun/open/MAGIC)
+
 [Kalad](d/Kalad/private/MAGIC/weapons)
+
 [Khalakhor](d/Khalakhor/private/MAGIC)
+
 [Krynn](d/Krynn/info/MAGIC)
+
 [Raumdor](d/Raumdor/open/MAGIC)
+
 [Shire](d/Shire/private/MAGIC)
+
 [Terel](d/Terel/private/MAGIC_WEAPONS)
 
 An interesting thing to note is that many domains would
