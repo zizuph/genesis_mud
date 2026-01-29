@@ -1,0 +1,214 @@
+   *=============================================================*
+                   Magical ARMOURS in Avenir Domain
+   *=============================================================*
+
+
+Scarlet-gold set                (~Avenir/common/dark/obj/worm_armor)
+Creator:        Boriska
+Desc:           Scarlet-gold helmet, robe and shield.
+Stats:          AC = 30, AC mods are 5, -2, -3
+Special:        Low weight and volume, acid and fire resistance.
+Magic:          enchantment
+Props:          OBJ_M_NO_BUY
+Cloned by:      Can be made by player (miniquest)
+Difficulty:     Requires tough monster to be killed in order to make it.
+
+Spider Amulet:                   (~Avenir/common/port/obj/uw_amulet )
+Creator:        Glinda, Cirion
+Desc:           Black amulet
+Stats:          AC = 1, no AC mods
+Special:        Gives MAGIC_I_RES_POISON of 30 (additive) to the wearer
+Magic:          life
+Props:          MAGIC_AM_MAGIC, OBJ_I_IS_MAGIC_ARMOUR, MAGIC_AM_ID_INFO
+Cloned by:      ~Avenir/common/port/uw11
+Difficulty:     Difficult, requires defeating a difficult monster in a
+                deadly area, and even then only appears 50% of the time
+
+Golden Gauntlets:                (~Avenir/common/port/obj/uw_gauntlets )
+Creator:        Glinda, Cirion
+Desc:           Pair of golden gauntlets
+Stats:          AC = 17, AC mods 1, 2, -3
+Special:        Gives the prop LIVE_I_QUICKNESS to the wearer, based on
+                his dex. It is also increased if the player is currently
+                resistant to death or earth. Those resistant to life, air,
+                or who are undead, can not wear them. The range of increase
+                is 35 - 60.
+Magic:          life, air
+Props:          MAGIC_AM_MAGIC, OBJ_I_IS_MAGIC_ARMOUR, MAGIC_AM_ID_INFO
+Cloned by:      ~Avenir/common/port/uw11
+Difficulty:     Difficult, requires defeating a difficult monster in a
+                deadly area, and even then only appears 50% of the time
+
+
+Ruby-eyed snake ring:         (~Avenir/common/bazaar/Obj/worn/jband )
+Creator:        Ilyian / Cirion
+Desc:           Ruby-eyed snake ring
+Stats:          AC = 3, no AC mods
+Special:        Conveys the following resistances to the wearer:
+                    MAGIC_I_RES_FIRE:  15 (additive)
+                    MAGIC_I_RES_AIR:    8 (additive)
+                    MAGIC_I_RES_MAGIC:  3 (non-additive)
+Magic:          water, enchantment, earth
+Props:          MAGIC_AM_MAGIC, OBJ_I_IS_MAGIC_ARMOUR, MAGIC_AM_ID_INFO
+Cloned by:      ~Avenir/common/bazaar/NPCS/jadestone
+Where:          ~Avenir/common/bazaar/extr/hill
+Difficulty:     Fairly difficult - must kill Jadestone Doll to get it
+
+Coral necklace:              (~Avenir/common/dead/obj/necklace )
+Creator:        Cirion
+Desc:           Long coral necklace
+Stats:          AC = 18, no AM
+Special:        Conveys the following resistances to the wearer:
+                  MAGIC_I_RES_WATER: 55 (additive)
+                  MAGIC_I_RES_EARTH: 60 (additive)
+                  MAGIC_I_RES_MAGIC:  8 (non-additive)
+Magic:          life, enchantment
+Props:          MAGIC_AM_MAGIC, OBJ_I_IS_MAGIC_ARMOUR, MAGIC_AM_ID_INFO,
+                MAGIC_I_RES_WATER, MAGIC_I_RES_EARTH
+Cloned by:      ~Avenir/common/dead/mon/naiad
+Where:          ~Avenir/common/dead/marsh/marsh_hill
+Difficulty:     Indirect reward for a large (50k) quest
+
+scale boots     /d/Avenir/common/holm/obj/m_boots1.c
+Creator:        Lilith, 1/20/97
+Desc:           pair of scarlet-gold scale boots
+Stats:          AC 35; AM -1, 2, -1.
+Special:        Conveys MAGIC_I_RES_FIRE 20, MAGIC_I_RES_ACID 15
+Checks:         Intox cant be > 50%
+Magic:          transformation
+Props:          MAGIC_AM_MAGIC, OBJ_I_IS_MAGIC_ARMOUR, MAGIC_AM_ID_INFO,
+                MAGIC_I_RES_FIRE, MAGIC_I_RES_ACID.
+Cloned by:      /d/Avenir/common/holm/mon/noble
+Where:          /d/Avenir/common/holm/*
+Difficulty:     Moderate difficulty. There is one chance in six that
+                the npc will clone this item.
+
+sneak boots     /d/Avenir/common/holm/obj/m_boots2.c
+Creator:        Lilith, 1/20/97
+Desc:           pair of fur-lined leather boots
+Stats:          AC 35; AM 1, 1, -2.
+Special:        Conveys SS_SNEAK 10 & SS_HIDE 10 on wearer.
+Checks:         Intox cant be >50%; 
+Magic:          enchantment
+Props:          MAGIC_AM_MAGIC, OBJ_I_IS_MAGIC_ARMOUR, MAGIC_AM_ID_INFO,
+Cloned by:      /d/Avenir/common/holm/mon/noble
+Where:          /d/Avenir/common/holm/*
+Difficulty:     Moderate difficulty. There is one chance in six that
+                the npc will clone this item.
+
+leather gloves  /d/Avenir/common/holm/obj/m_gloves.c
+Creator:        Lilith 1/20/96
+Desc:           pair of leather gloves
+Stats:          AC 25 ; AM 2, -1, -1.
+Special:        Conveys MAGIC_I_RES_POISON, 15 & SS_ANI_HANDL, 25
+Checks:         Intox can't be >50%; mana cost.
+Magic:          life
+Props:          MAGIC_AM_MAGIC, OBJ_I_IS_MAGIC_ARMOUR, MAGIC_AM_ID_INFO,
+Cloned by:      /d/Avenir/common/holm/mon/priest.c
+Where:          /d/Avenir/common/holm/*
+Difficulty:     Fairly difficult.
+
+
+ruby amulet     /d/Avenir/common/holm/obj/amulet
+Creator:        Rangorn  6/97
+Desc:           glittering ruby amulet (cursed)
+Stats:          AC 10; AM None.
+Special:        Conveys SPELLCRAFT 15 when worn; using certain
+                commands grant: LIVE_I_SEE_DARKNESS 5, and AWARENESS 20,
+                heal mana with hp and fatigue expense.
+Magic:          enchantment
+Props:          MAGIC_AM_MAGIC, OBJ_I_IS_MAGIC_ARMOUR, MAGIC_AM_ID_INFO,
+Cloned by:      /d/Avenir/common/holm/mon/wizard
+Where:          /d/Avenir/common/holm/t_camp/w1
+Difficulty:     Moderate. Have to kill 2 npcs to get it.
+
+
+wizard robe     /d/Avenir/common/holm/obj/wiz_robe
+Creator:        Rangorn 6/97
+Desc:           flowing ermine-lined robe
+Stats:          AC 35; AM None.
+Special:        Adds RES_MAGIC 20, and RES_FIRE 40.
+Magic:          enchantment
+Props:          MAGIC_AM_MAGIC, OBJ_I_IS_MAGIC_ARMOUR, MAGIC_AM_ID_INFO,
+Cloned by:      /d/Avenir/common/holm/mon/wizard
+Where:          /d/Avenir/common/holm/t_camp/w1
+Difficulty:     Moderate. Have to kill 2 npcs to get it.
+
+
+webcloth bodystocking /d/Avenir/common/city/obj/worn/stocking
+Creator:        Lilith Aug 2003
+Desc:           webcloth bodystocking
+Stats:          AC 50; AM: 1, 2, -3.
+Special:        none
+Magic:          life
+Checks:         No intox > 50%; does not protect chest/torso.
+Props:          MAGIC_AM_MAGIC, OBJ_I_IS_MAGIC_ARMOUR, MAGIC_AM_ID_INFO,
+Cloned by:      /d/Avenir/common/city/mon/dej-minha3
+Where:          Arena in the Forbidden City
+Difficulty:     Tough, scaled to size, anti-teaming.
+
+Cahor's Amulet: ( ~Avenir/common/zigg/obj/camulet )
+Creator:        Lucius, Apr 2007
+Desc:           engraved chromatic amulet
+Stats:          AC = 1, no AC mods
+Special:        Detects when illusion magic is used on wearer,
+                aids in the detection of invisible people/items
+                Will also grant see_invis when proper command used.
+Magic:          Illusion / Counter-Illusion (mystery)
+Props:          MAGIC_AM_MAGIC, OBJ_I_IS_MAGIC_ARMOUR, MAGIC_AM_ID_INFO
+Cloned by:      ~Avenir/common/zigg/mon/rynal.c
+Difficulty:     Difficult, requires defeating a difficult monster that
+                grows stronger each time a player defeats him.
+
+thief_gloves    /d/Avenir/common/port/obj/thief_gloves
+Creator:        Ibun, summer 2007
+Desc:           pair of black leather gloves
+Stats:          AC 2;
+Magic:          none
+Props:          MAGIC_AM_MAGIC, MAGIC_AM_ID_INFO
+Cloned by:      /d/Avenir/common/port/mon/thief
+Where:          /d/Avenir/common/port
+Difficulty:     Moderate. Have to kill 4 npcs to get it.
+Special:        Adds 10 to SS_PICK_POCKET.
+                Allows to distract opponents to lower their
+                awareness up to max 40 (single opps) or max 20
+                numeral opps.
+                Together with shadow_cloak (see below)
+                they form a set that add bonuses.
+
+shadow_cloak    /d/Avenir/common/port/obj/shadow_cloak
+Creator:        Ibun, summer 2007
+Desc:           dull gray cloak
+Stats:          AC 3;
+Magic:          none
+Props:          MAGIC_AM_MAGIC, MAGIC_AM_ID_INFO
+Cloned by:      /d/Avenir/common/port/mon/thief2
+Where:          /d/Avenir/common/port
+Difficulty:     Moderate. Nonbouncable opponent.
+Special:        Adds 10 to SS_HIDE.
+                Together with thief_gloves (see above)
+                they form a set that add bonuses.
+Setbonus:       Wearing both gloves and cloak adds +10 to SS_SNEAK
+                and SS_KNIFE.
+                Wearing both items allows the player to hide in the
+                shadows. An action that raises SS_HIDE by 100 for
+                this hide. NOTE the hide in shadows is severely
+                limited due to the terrain demands, TERRAIN_SHADOWS,
+                is a must. TERRAIN LIMIT REMOVE - TERRAINS ARE ONLY
+		SPORADICALLY APPLIED AND NOT A RELIABLE DETERMINER
+
+
+
+===================================================================
+SAMPLE
+<object name>                (~Avenir/common/ )
+Creator:
+Desc:
+Stats:
+Special:
+Magic:
+Props:          MAGIC_AM_MAGIC, OBJ_I_IS_MAGIC_ARMOUR, MAGIC_AM_ID_INFO,
+Cloned by:
+Where:
+Difficulty:
+

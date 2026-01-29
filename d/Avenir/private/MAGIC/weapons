@@ -1,0 +1,164 @@
+
+   *=============================================================*
+                   Magical WEAPONS in Avenir Domain
+   *=============================================================*
+
+Shintor                      (~Avenir/common/bazaar/Obj/wield/shintor)
+Creator:        Ilyian
+Desc:           shimmering longsword
+Stats:          normal 40/45; shimmering 50/50
+Special:        Special damage type dependant on the alignment of the
+                last creature slain with the sword
+Magic:          Enchantment
+Props:          OBJ_M_NO_BUY, MAGIC_AM_MAGIC, OBJ_I_IS_MAGIC_WEAPON
+Cloned by:      Jadestone Doll (/d/Avenir/common/bazaar/NPCS/jadestone)
+Where:          (~Avenir/common/bazaar/extr/hill)
+Difficulty:     Quite difficult. Must defeat Jadestone Doll to get
+                it, who, aside from being a very tough Npcs, heals
+                and poisons.
+
+Glimmering acid-etched blade     (~Avenir/common/dark/obj/tooth_knife)
+Creator:        Boriska
+Desc:           white tooth-knife
+Stats           hit(35), pen(40)
+Special:        
+Magic:          Enchantment
+Props:          OBJ_M_NO_BUY
+Cloned by:      Can be made by player (miniquest)
+Difficulty:     Requires tough monster to be killed in order to make it,
+                requires certain item and skills to wield it.
+                Chance of death, mana and fatigue penalties when
+                trying to wield it.
+
+Hallor                          (~Avenir/common/bazaar/infidel/obj/hallor)
+Creator:        Cirion
+Desc:           oaken cudgel
+Stats:          hit(45), pen(49)
+Special:        The club drains fatigue when it gets a good hit. If the
+                enemy has resistances, there is a chance that the effect
+                will be deflected back on to the wielder.
+Magic:          Enchantment
+Props:          OBJ_M_NO_BUY, MAGIC_AM_MAGIC, OBJ_I_IS_MAGIC_WEAPON
+Cloned by:      Nochipa Silve (~Avenir/common/bazaar/infidel/mon/nochipa)
+Where:          (~Avenir/common/bazaar/infidel/quar8)
+Difficulty:     Quite difficult, requires difficult npc to be killed
+                to get it, who heals herself and blinds players. 
+
+Feather knife                (~Avenir/common/dark/obj/f_knife)
+Creator:        Grace, June 1996
+Desc:           irridescent rainbow-hued feather        
+Stats:          hit(20), pen(40)
+Special:        Has light of +2, is lightweight, and sharp.
+                Light property fails after one hour.
+Magic:          Fire, 75; Life, 25;
+Props:          All required props, plus OBJ_I_LIGHT, 2
+Cloned by:      (/d/Avenir/common/dark/mon/w_wolf) &
+                (/d/Avenir/common/dark/l2/n5b)
+Where:          (/d/Avenir/common/dark/l2/n5 & 5a)
+Difficulty:     Should provide a challange to get for 'normal' players.
+                The wolf has special healing ability, and 
+                does serious damage with its bite, claws, and wing-tips.
+
+Cwicseolfor     /d/Avenir/common/holm/obj/falchion.c   
+Creator:        Lilith, January 1997
+Desc:           basket-hilt falchion    
+Stats:          hit(50) pen(46)
+Special:        This is a Sword of Quickening, adds LIVE_I_QUICKNESS +55
+Checks:         Checks for DEX, AWARENESS, and SWORD. Cannot be wielded 
+                if gloves are worn or if intox > 50%. Mana and fatigue costs.
+Magic:          enchantment
+Props:          OBJ_I_IS_MAGIC_WEAPON, MAGIC_AM_MAGIC, MAGIC_AM_ID_INFO,
+                OBJ_M_NO_BUY, OBJ_S_WIZINFO
+Cloned by:      /d/Avenir/common/holm/mon/noble
+Where:          /d/Avenir/common/holm/*
+Difficulty:     The npc is very hard to kill. 
+
+Serpent Staff   /d/Avenir/common/holm/obj/serpent_staff.c
+Creator:        Lilith 01/25/97
+Desc:           serpentine staff
+Stats:          WT polearm; hit(30) pen(25).
+Special:        Transforms into a serpent when dropped.
+Checks:         The serpent checks for Dex and animal handling using
+                resolve_task formidable. Recharge time for transformation.
+Magic:          enchantment
+Props:          OBJ_I_IS_MAGIC_WEAPON, MAGIC_AM_MAGIC, MAGIC_AM_ID_INFO,
+Cloned by:      /d/Avenir/common/holm/mon/priest
+Where:          /d/Avenir/common/holm/cave/*
+Difficulty:     The npc which carries it would have a random 1 in 5
+                chance of being cloned. It is a decent fighter.
+
+Falcata         /d/Avenir/common/dead/obj/falcata.c
+Creator:        Lilith, August 2001
+Desc:           sybarun falcata
+Stats:          hit (50)  pen (42)  Slash|Impale
+Special:        Does MAGIC_DT to Enemies of Sybarus.
+Checks:         STR, DIS & SWORD; cannot be more than 50% max intox, costs 
+                fatigue to wield. Cannot be wielded by infidels.
+Magic:          enchantment, death 
+Props:          OBJ_I_IS_MAGIC_WEAPON, MAGIC_AM_MAGIC, MAGIC_AM_ID_INFO,
+                OBJ_M_NO_BUY,  OBJ_S_WIZINFO
+Cloned by:      /d/Avenir/common/dead/mon/wight
+Where:          /d/Avenir/common/dead/marsh/*
+Difficulty:     This npc is a good fighter, a challenge to get to.
+
+Khopesh         /d/Avenir/common/city/obj/wep/khopesh.c
+Creator:        Lilith, July 2003
+Desc:           sybarun khopesh
+Stats:		    hit (45)   pen (46)  Slash
+Special:        adds up to 20 levels of SS_WEP_SWORD, max 100.
+Checks:         INT, DEX, SWORD; no infidels; intox must be <50%.
+                Costs fatigue to wield and unwield.
+Magic:		    enchantment  
+Props:          OBJ_I_IS_MAGIC_WEAPON, MAGIC_AM_MAGIC, MAGIC_AM_ID_INFO,
+                OBJ_M_NO_BUY,  OBJ_S_WIZINFO, OBJ_M_NO_STEAL
+Cloned by:      /d/Avenir/common/city/mon/dej-minah3.c 
+Where:          /d/Avenir/common/city/entry/e1
+Difficulty:     NPC is an excellent fighter. Access is restricted, player
+                must obtain access to the City first.
+
+Akram's Dagger  /d/Avenir/union/obj/akram_dagger
+Creator:        Lilith Dec 2003
+Desc:           <name>'s dagger  (knife)
+Stats:          35  / 40; W_IMPALE & MAGIC_DT
+Special:        Bonus to guild-specific skills & +10 to 2h combat, does
+                damage attack to enemies of Sybarus (like falcata).
+Magic:          transformation
+Props:          OBJ_I_IS_MAGIC_WEAPON, MAGIC_AM_MAGIC, MAGIC_AM_ID_INFO,etc
+Cloned by:      /d/Avenir/union/npc/hephamenios
+Where:          /d/Avenir/union/room/forge
+Difficulty:     Union members only. Member must complete guru quest and 
+                then the dagger quest.  Quest is repeatable to make the
+                dagger again, as desired. Member must gather several items
+                which can take a while, and then wait 30+ minutes while 
+                NPC makes it. Not wieldable by non-members.
+
+Kesoit Bow      /d/Avenir/common/bazaar/infidels/bj/kesoit_bow	
+Creator:        Lilith, June 2004
+Desc:           kesoit short bow
+Stats:          Hit 43-47; Pen 42-47
+Special:        Heals 30 - 60 fatigue every 15 minutes; adds quickness 50.
+Checks:         Can't wield if intox > 50%
+Magic:          Enchantment
+Props:          OBJ_I_IS_MAGIC_WEAPON, MAGIC_AM_MAGIC, MAGIC_AM_ID_INFO,
+Cloned by:      Nochipa /d/Avenir/common/bazaar/infidel/mon/nochipa
+Where:          /d/Avenir/common/bazaar/infidel/quar8
+Difficulty:     Quite difficult, requires difficult npc to be killed
+                to get it, who heals herself and blinds players, and
+                clones air spirits to help her. 
+               
+
+===================================================================
+SAMPLE
+<object name>                (~Avenir/common/ )
+Creator:
+Desc:
+Stats:
+Special:
+Magic:
+Props:          OBJ_I_IS_MAGIC_WEAPON, MAGIC_AM_MAGIC, MAGIC_AM_ID_INFO,
+Cloned by:      
+Where:
+Difficulty:
+
+
+                
