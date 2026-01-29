@@ -1,0 +1,9 @@
+He has completed the work on /open/rfc0007 which is:
+A series of commerce libraries that allow wizards to "commerce-enable"
+a room or NPC. The room or NPC will then either buy or sell a
+certain commodity to or from the player, who will get a reward
+of cash and general experience. The reward will be greated depending
+on the amount of strategy the player applies in their trades.
+
+All domains are encouraged to implement code based on this library.
+Talk to Raven about how.

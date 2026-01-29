@@ -1,0 +1,19 @@
+NAME
+	gwiz - gozzip on the intermud wizline
+
+SYNOPSIS
+	gwiz [-c] [message]
+
+DESCRIPTION
+	With this command you can send messages on the intermud wizard
+	communication line. All such messages will be prependend with
+	the string "@ <your name>.Mudname" in order for people to know
+	who sent the message and from which mud.
+
+OPTIONS
+	-c	If you want a list of the muds the message was sent to.
+	
+SEE ALSO
+	wiz, busy, mudlist, gtell, rwho
+
+

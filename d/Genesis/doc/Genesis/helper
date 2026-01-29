@@ -1,0 +1,72 @@
+The Arch Helper - Admin Team Member
+===================================
+
+General
+-------
+
+Admin Teams are formed of Helpers to a given Arch. These Helpers are
+simply normal wizards who have been given membership in the needs of the
+work that gets done by a given Arch team. 
+
+Helper in Admin
+---------------
+
+The Helper is not a member of the administration proper. He does not
+speak for the administration, or indeed even for the Archwizard to
+whom he is associated in general matters. The Helper can only make
+specific decisions in the area he is assigned to. Any rules or sweeping
+policy decisions is set down by the Archwizard. The helper must defer
+to the Arch any decisions in matters that affect other wizards directly.
+
+For instance this means that a Balance Team Helper will not make reports
+to domains directly. All his findings must go to the AoB who in turn will
+read and sign the report before handing it on, in his name. Similarly, a
+Player Team Helper can not on his own decide that all mortals who gained
+too much experience due to a perhaps badly coded monster should be adjusted
+to a lower level. This has to be settled by the AoP him or herself.
+
+What the Helper does
+--------------------
+
+To reference what a given Arch Team Member (Helper) can be asked to do,
+check the <man> pages on AoB, AoD, AoE, etc. Each Arch Team can be
+listed with the <finger> command as well (i.e. <finger aop>). 
+
+Naturally a lot of flexibility must be allowed the Arch in the matter
+of the responsabilities of the Helper. However, it must be recognized
+that the Helper can't speak for the Administration or the Arch
+himself. It must not be seen as if the administration randomly can
+expand or shrink with no prior notice, that a Helper wizard suddenly
+pops in to a Lord and demands changes in the domain code or perhaps
+even rearrangement of the domain members.
+
+The amount of helpers in the game
+---------------------------------
+
+The Keeper decides what number of Helpers a certain Arch may recruit.
+In practice however, the Keeper will naturally listen to the views
+brougth forth by the Arches. The number of helpers can differ from
+Arch to Arch.
+
+Duration of Helper position and choice of specific Helper
+---------------------------------------------------------
+
+The Arch decides how long a Helper remains a helper just as he decides
+what they do. However, to change Helpers often might prove confusing
+to the wizard community, so a certain amount of continuity is indeed
+recommended.
+
+The Arch may ask anyone he pleases to become Helper. If the chosen
+wizard turns out to be a generally disliked and distrusted person this
+will be matter of discussion between the Arch and the Keeper, not over
+the chosen Helper but over the reason of this choise and need not be
+mentioned here.
+
+Helper implementation
+---------------------
+
+As stated the Helper can be an ordinary wizard, which means he needs
+special handling in the mudlib in order to work. There are specific
+read and write sanctions automatically granted to all Helpers on a given
+Archwizard Team, based on the scope of that Team's typical operations.
+

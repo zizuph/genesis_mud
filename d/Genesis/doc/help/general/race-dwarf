@@ -1,0 +1,36 @@
+NAME
+        Race-dwarf
+
+SYNOPSIS
+        This is not a command, simply information.
+        
+DESCRIPTION
+        As a dwarf you may select two of the following six racial abilities:
+    
+        Stalwart        
+            You will be able to carry heavier loads than other people before
+            becoming encumbered by it.
+                        
+        Good memory
+            You will be able to remember twenty-five percent more names 
+            compared to other people.
+                        
+        Resilient
+            Your resistance to magic, and especially poison, will be stronger
+            than other people.
+                        
+        Strong liver
+            You will heal slightly faster due to your ability to consume 
+            more alcohol than other people.
+                        
+        Insatiable
+            You will be able to eat more food than other people, meaning you
+            will not tire as easily.
+                        
+        Eye for detail
+            You will get a twenty skill level bonus (up to superior guru) in
+            trading, appraise object, and appraise value.
+
+SEE ALSO
+        races, rabilities, race-human, race-elf, race-hobbit, race-gnome,
+        race-goblin, race-ogre, race-undead. 

@@ -1,0 +1,110 @@
+RELATIONS IN GENESIS
+====================
+
+INTRODUCTION
+============
+
+In this file you can read about the way Genesis handles relations between
+players. Many forms of relationships are possible in principle. However,
+currently only marriage is a relation that is possible. The fact that a
+relation consists of a minimum of two people sounds trivial and it is true
+also. It allows three or more people to have a relation, though such a
+relation does not exist yet. Within the relation, there are no roles defined.
+This means that within marriage, the husband and wife are not defined.
+Code can obviously check the sex of a player and determine its role based on
+the sex, but basically man and wife are equal in a relationship, as opposed
+to for instance father and son. Relations as defined by the system are
+therefore all kinds of relations (ie forms of living together) that are
+based on equality of all partners in the relationship.
+
+All relations that will be allowed shall have to fit in the midiaeval
+environment that Genesis has, so marriage is the only allowed yet.
+
+/Mercade
+
+WHAT ARE RELATIONS MEANT FOR
+============================
+
+Relations are meant to add to the vividness of the game. They are meant for
+players to get a bond with eachother. Obviously a relationship like marriage
+is not as momentous in Genesis as it is in the normal world, though people
+might want to share things with eachother in the world of Genesis.
+
+Relationships can exist amongst mortal players, between wizards and between
+wizards and mortal players, though the latter forms or relations are rather
+dangerous with respect to security and the rules about interaction between
+mortals and wizards. They are not forbidden though.
+
+People might enjoy advantages of being married, but they may also come across
+disadvantages of having a relationship with eachother. An advantage might be
+the right to live in a home together and a disadvantage might be the fact
+that people who have a relationship are prohibited to go to a brothel with
+eachother.
+
+IMPLEMENTATION
+==============
+
+To be able to use the registration of relations, you only have to #include
+a file and use the macros that are defined in that file. These macros will
+allow you to do anything needed to keep up the administration of relations.
+If you #include the following file, you will get all macros described below.
+
+#include "/d/Genesis/homes/relation.h"
+
+
+QUERY_RELATION(string player_name)
+    Return whether player_name has a relationship with one or more other
+    players. Returns 1/0
+
+QUERY_RELATION_TYPE(string player_name)
+
+    Return the type of relation player_name has. The different types of
+    relations are defined below. Returns 1/0
+
+QUERY_PARTNERS(string player_name)
+
+    Returns an array of string with the (lower case) names of all people
+    player_name has a relation with or 0 if the player doesn't have a
+    relation. Returns an array of string
+
+QUERY_HAVE_A_RELATION(string player_name_1, string player_name_2)
+
+    Returns whether player_name_1 and player_name_2 have a relation with
+    eachother. This does not mean they are the only two members of the
+    relation. Returns 1/0
+
+ADD_RELATION(string *player_names, int relation_type)
+
+    Adds a relation to the master meaning that player_names have a relation
+    of relation_type. The relation types are defined below. Returns 1/0
+
+REMOVE_RELATION(string player_name)
+
+    Removes the relation player_name is involved in from the list of known
+    relations. Returns 1/0
+
+REMOVE_PLAYER_FROM_RELATION(string player_name)
+
+    Remove player_name from the relation he is involved in. If there are
+    only two people in the relation, the entire relation is removed.
+    Returns 1/0
+
+CHANGE_RELATION_TYPE(string player_name, relation_type)
+
+    Change the relation player_name is involved in to relation_type. The
+    types that are possible are defined below. Returns 1/0
+
+DUMP_RELATIONS
+
+    This routine dumps all relations stored into the master to the currently
+    active wizard. If this_interactive() is not a wizard, nothing will
+    happen. Returns 1/0
+
+
+Currently only one type of relation is defined:
+
+RELATION_TYPE_MARRIAGE defines a marriage.
+
+RELATION_TYPE_STRING(index)
+    This defines the type of relation in a string, RELATION_TYPE_MARRIAGE
+    as index will return the string "marriage".

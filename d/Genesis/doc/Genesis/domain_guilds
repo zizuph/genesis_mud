@@ -1,0 +1,69 @@
+Domains and Guild Policy
+========================
+
+Guilds are a fundamental expression of any domain. Due to the influence of
+mortals and by mortals, guilds are special constructs. They require more 
+care and thought in their implementation than the typical area.
+
+Certain expectations are placed on domains with respect to guilds:
+
+- Guilds must be contextually correct within Genesis, that is, they must fall
+  under the umbrella of "medieval fantasy". Lieges are expected to ensure that
+  guilds are thematically correct within their domain.
+
+- Guilds must be reasonably maintained. Domain membership rises and falls, and
+  so it is cautioned that a domain should not over-extend itself when it comes
+  to the number and maintenance requirements of guilds.
+
+- Before a guild project can begin, a proposal must be submitted to the
+  AoD, AoB, and Keeper for approval.
+
+- Domains wishing to lay claim to an idea for a guild should post a notice of
+  intent on the Genesis "guild" board, and place a document in the domain's
+  open GUILDS directory (see domain_info). If a domain wishes to halt
+  the development of a guild idea, it would also be polite to mention that on
+  the guild board.
+
+- Wizards should be careful not to over-extend their time with respect to 
+  working on guilds. For most wizards, actively working on one new guild is
+  enough. Exceptions occur under exceptional circumstances, however.
+
+- Domains should be considerate and realistic in terms of guild development
+  within the domain. Thus, it is asked that domains actively plan or code no
+  more than three new guilds at any one time.
+
+- The liege should inform the AoD and the AoB when he/she has decided that a 
+  guild is ready to be opened or re-opened to mortals.
+
+- Openings, closings, and re-openings of guilds to mortals must be announced on
+  the Genesis "guild" board.  Disciplinary action may be taken if the following
+  occur:
+      o The opening or re-opening of a guild is not announced beforehand.   
+      o The long-term closing of a guild to mortals is not announced.   
+      o Documentation of the guild is inadequate at time of opening.   
+      o Inappropriate skills or skill-levels are offered in the guild.   
+      o Specials or spells are notably out-of-balance/over-powered.
+
+- Guilds opened to mortals may be closed, but the code may not be erased or
+  moved outside the domain without the express permission of the Keeper. Guilds
+  erased or moved without approval will simply be re-instated from back-up.
+  (See /d/Genesis/open/legal for a discussion of copyright.)
+
+- The closing of a guild requires:
+      o Documentation of the reason(s) for the guild closure in the domain's
+        info or open/GUILDS directory, including unforeseen circumstances which
+        led to the closure.
+      o Informing the admin and domain members of the existence of the
+        document. 
+      o A two week period after informing the admin and domain members for
+        discussion and deliberation.
+  
+-------------------------------------------------------------------------------
+Any of the above expectations may be made unnecessary with the permission of,
+or by intent of, the Keeper, the AoD, or the AoB.
+
+See also: domain_info, guilds, skills, and skill_list; as well as the 
+magic and magic01 through magic04 pages if they apply.
+
+
+

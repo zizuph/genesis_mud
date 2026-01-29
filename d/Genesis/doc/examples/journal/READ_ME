@@ -1,0 +1,10 @@
+This directory contains examples to illustrate how /std/journal.c can be
+used. What you should do:
+
+    1. Clone the example_journal.c file.
+    2. Read all the entries in the journal in order, and follow their
+       instructions as to where to look in the code to see how it is
+       done.
+    3. Read all the code you see in this directory and the subdirectory
+       to get an idea of how it all works.
+    4. Mail Gorboth if you have any questions! :-)

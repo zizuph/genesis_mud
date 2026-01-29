@@ -1,0 +1,314 @@
+This is a brief instruction for writing web pages for Genesis.
+
+Setup:
+
+  All domain web pages reside in the domain top level 'www' directory
+  and in there become available for external access through a web
+  browser. Other domains can also link to any page in any 'www' top
+  level dir; for instance Gondor may link to Shire in their web pages
+  when speaking of that area.
+
+  While the top level dir is called '/d/<domain>/www' in the mud, from
+  the web perspective the path is always '/d/<domain>/', leaving out
+  the 'www' part. This might seem a bit confusing, but it's a
+  consequence of the underlying php mechanism the web site is built
+  on. Believe me when I'm saying that it makes sense from that
+  perspective even if it feels a tad confusing to you.
+
+Page mechanics:
+
+  Web pages *can* be written in pure HTML if you wish. This is not
+  encouraged however, as it makes you entirely responsible for the
+  entire layout of those pages. However, if you still wish to write
+  such pages that's just fine. Make sure they have the '.HTML'
+  extension of any regular HTML file, that's all.
+
+  The reason we're not encouraging this is that while writing HTML one
+  often spends an unproportionate amount of time jiggling with
+  presentation as compared to that spent on the actual content. From
+  the game point of view the content of the pages is the important
+  bit, the presentation is something we'd rather handle for you.
+
+  For that purpose you can write ordinary text files, ending in the
+  extension '.txt' which the web system then will automatically
+  translate into HTML when they are viewed, applying a unified
+  presentation scheme for seemless integration into the already
+  existing pages.
+
+Page layout:
+
+  Obviously there's some special gadgettery involved to make the pages
+  work. We've tried to keep this to a minimum though, to make them as
+  easy to write as possible.
+
+  * The entry page is called 'index.html' or 'index.txt' depending on
+    your choise of scheme. If both exists, the 'html' page will be
+    chosen in preference of the 'txt' one.
+
+  * The first line in a file, that is, line #1, NOT the first line
+    with text in it after a series of newlines, should contain the
+    page title. If you don't want a page title leave this line blank
+    but please note that this will leave an awkward-looking blank
+    space in the path field of the resulting page in the browser.
+
+  * The actual text content must start on the second line in a file,
+    that is, line #2, NOT the second line with text in it after a
+    series of newlines. The reason for this being that the web
+    mechanism replaces the first ordinary typed letter with a nice
+    gothic initial.
+
+  * Any newlines in the text will - unlike ordinary HTML - be
+    preserved in the output. This means that unless you specifically
+    want a line break you shouldn't write one either, and instead just
+    write one long line of text. The browser will break the lines
+    suitably when viewed later.
+
+  * You should write and check. I.e. just put the text into the www
+    dir and then immediately go to the web site to see the result.
+    Occasionally you'll have to reload a page (usualy shift-reload) in
+    order to make your browser drop the already cached data to see the
+    change, but most often just reloading it will suffice.
+
+  * You may link to external sources if you like, but please don't.
+    We *know* the stuff on the server works because we maintain it but
+    when linking outside there's no guarantees. I think you agree that
+    there's nothing as frustrating as being met by '404 Page not
+    found' message when surfing...
+
+  * You may insert as much HTML markup as necessary in order to
+    produce a desired effect, but please spend as little time on this
+    as you can. For those of you who haven't bothered learning HTML
+    yet there's a small but quite sufficient list HTML tutorial at the
+    end of this text.
+
+  !!!! Do *NOT* add Javascript, CSS, Applets or anything like that to
+       your pages without the explicit consent of the webmaster. Apart
+       from most of the time being just vagely compatible with various
+       types of servers it's also almost impossible to maintain over a
+       longer period of time, and as you know by now Genesis is a very
+       long-term project. I'm worried enough about the web server
+       setup from that perspective without having you add more
+       problems. :)
+
+Short HTML tutorial:
+
+  You'll need to know a small bit of HTML in order to link to other
+  pages, add images to your text and so on. There's a ton of web sites
+  on the net that will teach you beginner level HTML and you are
+  welcome to use them as well. However, this text with a very minimum
+  of HTML should suffice for writing Genesis pages.
+
+  You can add any HTML you like to the text pages you write, so don't
+  hesitate to make use of them if you feel them improve on the result.
+
+  For the remainder of this text I'm assuming that your domain is
+  'Genesis', just replace that by whatever domain you're a member of
+  in your web code.
+
+  Web site structure:
+  
+    Just a short note here about structure. Just as in the domain it
+    makes little sense to keep everything in one directory. Instead
+    organise your material as logically as possible and you'll find
+    that it becomes a lot easier to maintain. Strictly speaking the
+    only thing that absolutely needs to be on the web top level is the
+    index file.
+
+  Links:
+ 
+    All links must be absolute relative to the web top of your domain.
+    Assume you want to link to the document 'foobar.txt' you have put
+    in the www dir:
+
+        This is a <A HREF="/d/Genesis/foobar">foobar</A> link.
+
+    The word 'foobar' will become clickable and lead to the foobar.txt
+    page.
+
+  Special links:
+
+    The web server mechanism provides a special link developed only
+    for our use. If you look at the bottomm of the page
+    http://genesis.tekno.chalmers.se:81/d, you'll notice two very
+    particular-looking links "Continue reading:" and "Show me how to".
+
+    Assume you want to add a 'Next page: Barfoo' link to the page
+    'barfoo.txt', you do that like this:
+
+    {strip}
+      {pagelink pre="Next page:" name="Barfoo" href="d/Genesis/barfoo.txt"}
+    {/strip}
+
+    NB! There is no leading '/' at the beginning of the href argument and
+        all instructions are written in lowercase!
+
+  Images:
+
+    Images should naturally be small in order to make it possible for
+    people on dial-up connections to view the pages without having to
+    wait ages for the data to be downloaded.
+
+    For resaons of structure I suggest you put all images in an
+    'images' directory in the 'www' directory. You can show JPG, 
+    PNG and GIF images in our pages.
+
+    Add an image 'foo.jpg' to the page like this:
+
+        This <IMG SRC="/d/Genesis/images/foo.jpg" ALT="Foo image"> is a
+	nice foo image.
+
+    The 'ALT="Foo image"' instruction tells the browser to display
+    that text instead if the browser can't show image for some
+    reason. Usually these reasons are treefold:
+
+    1: You fucked up and forgot to upload the image to the www
+       directory, or put it somewhere else from where you said it
+       would be.
+
+    2: The user has instructed the browser not to display images.
+
+    3: The user is using a browser incapable of displaying them, like
+       lynx or something.
+
+    The 'ALT' instruction is strictly speaking not necessary, but very
+    nice to have in there.
+
+    If you have a very big picture you want to make available to
+    people, the proper way of doing that is using a "thumbnail". A
+    thumbnail is very small version of the original image linking to
+    the big one. This makes the page easy to display for everyone and
+    those who want to spend the time waiting for the big image can
+    easily choose to do so.
+
+    First start by producing a small version of the original using any
+    image processing tool. There's any number of free programs out
+    there for that purpose, so that shouldn't be a problem. Call that
+    image 'foo_small.jpg'. Now wrap the big image in the small, using
+    a link:
+
+        This <A HREF="/d/Genesis/images/foo.jpg" BORDER="2"><IMG
+	SRC="/d/Genesis/images/foo_small.jpg" ALT="Foo image"></A> is
+	a nice foo image.
+
+    The 'BORDER="2"' (NB! Quotes around the number!) tells the browser
+    to put a 2-pixel wide border around the picture, making it easy
+    for the viewer to see that it is a clickable link.
+
+  Text enhancement:
+
+        This is <B>bold</B> text.
+
+        This is <I>italicised</I> text.
+
+        This is <B><I>bold and italicised</I></B> text.
+
+    And yes, as you'll discover soon after reading your first HTML
+    tutorial, it *is* possible to make blinking text. Blinking web
+    pages, however, should be outlawed by international treaty with
+    the perpetrators sent off to face serious charges of chrimes
+    against humanity in the Haag international court, so I won't teach
+    you how here. *grin*
+
+  Lists:
+
+    There's three types of ordered, unordered and definition. You
+    write the first two in much the same way:
+
+    An unordered list is simply a list with a bullet in front of each
+    entry
+
+    <UL>
+       <LI>First entry
+       <LI>Second entry
+    </UL>
+
+    This will produce a list like:
+
+       * First entry
+       * Second entry
+
+    In an ordered list the bullets are replaced by numbers, enumerating
+    the entries. You create one by using <OL></OL> instead of <UL></UL>.
+
+    This will produce a list like:
+
+       1 First entry
+       2 Second entry
+
+    A definition list is a list where you get to define the 'index' part
+    of the list yourself. Here is one:
+
+    <DL>
+      <DT> First entry
+        <DD> Foo
+      <DT> Second entry
+        <DD> Bar
+    </DL>
+
+    This produces a list like:
+
+        First entry
+	    Foo
+	Second entry
+	    Bar
+
+  Tables:
+
+    Tables are strictly speaking rather complicated things as compared
+    to the previous instructions. However, as I myself aren't too fond
+    of the layout of the aforementioned definition lists with the
+    index part on one line and the defined text on another, the only
+    good way of organising text on the screen is using tables. Because
+    of that I'd like to tell you about them here.
+
+    For instance you may view the domain top page
+    (http://genesis.tekno.chalmers.se:81/d) as an example of a page
+    making use of tables to display text with sidelines.
+
+    Tables are organised into table rows and table columns. You simply
+    add as man rows as you need, one after the other, and on each row
+    you add as many columns as you need. NB! You must define *all*
+    columns on *all* rows even though they may be empty. I.e. if the
+    widest row contains five columns but all the rest only contains
+    one, you *still* have to type in empty columns for the rest.
+
+    Write a table like this:
+
+    <TABLE CELLPADDING="5">
+      <TR>
+         <TD>foo</TD>
+         <TD></TD>
+         <TD>Bar</TD>
+      </TR>
+      <TR>
+         <TD></TD>
+         <TD>Ack</TD>
+         <TD>Poo</TD>
+      </TR>
+      <TR>
+         <TD>Voo</TD>
+         <TD>hoo</TD>
+         <TD></TD>
+      </TR>
+    </TABLE>
+
+    The resulting table will look like this:
+    
+    foo     Bar
+        Ack Poo
+    Voo hoo
+
+    You may put anything within <TD></TD> pairs; images, text, even
+    other tables. Putting a BORDER statement in the TABLE statement
+    will produce a drawn border between the cells. You can also
+    experiment with the CELLPADDING statement that puts in separation
+    between the contents of the different cells.
+
+    There's a lot more statements available in tables and cells too,
+    for instance for aligning text, adding colour, defining width etc,
+    but you'll have to look them up on the 'net if you feel you need
+    them.
+
+
+This should be sufficient information to get you going writing your
+own web pages, so... get going!

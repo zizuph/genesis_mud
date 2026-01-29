@@ -1,0 +1,87 @@
+
+GENESIS DOMAINS AND THEIR THEMES
+================================
+Genesis is extremely large and grows larger by the day.
+
+As individual Domains grow, some of them, particularly the dynamic non-
+book-based Domains, find themselves struggling to maintain uniqueness of 
+Theme and implementation of ideas.  This is not an easy task.  It is made 
+more difficult when there are Domains whose themes, ideas, and projects 
+are not clearly outlined in commonly available documents.  Additionally, 
+difficulties arise when wizards decide to pursue tangents which are un-
+related to the original Theme stated upon the Domains' founding.
+
+
+An ounce of prevention is worth a pound of cure.  
+
+To prevent the occurance of Theme or Project encroachment by one Domain 
+of another, we are asking a few things of the Lieges, particularly those 
+of non- and quasi- book based Domains:
+
+   -Please be sure that the /d/Domain/open/README or other document 
+    which outlines the Theme as well as current and future projects 
+    is up-to-date.
+
+   -Please update your Domain idea documents (if you have any) and 
+    inform the AoD of the path.
+
+   -Please post on the Lords board and/or inform the AoD of any 
+    projects which are in-progress or under consideration -if- these 
+    projects will be pursuing an idea which is questionably related 
+    to the Domain's original Theme or to any other Domain's Theme. 
+
+   -Please read the documentation available in other Domains' open 
+    dirs.  If you know what others are doing or planning, there is 
+    less chance of unintentional overlap of another Domain's themes 
+    or projects.
+
+   -If you are duplicating another Domain (or feel that another 
+    is doing so) please inform the AoD and speak to the Liege of 
+    that Domain.  If the conversation (with the other Liege) does 
+    not meet your expectations, or if you are not comfortable with 
+    speaking to that Liege, then please approach the AoD for help
+    in resolving the issue.
+
+
+Doing the above insures early detection of Theme and project conflicts 
+and overlaps.  The AoD should (hopes to) be familiar enough with the 
+themes of the various Domains to know whether code or ideas duplicate or
+infringe upon another Domain's theme and projects.  Should this occur, 
+there are four possible outcomes:
+
+   -One, the Liege of the Domain (hereafter referred to as Domain 
+    Aa) with 'rights' to the theme/idea may offer to include the 
+    code (and possibly the coder) in question into the Domain.  
+
+   -Two, the Liege of Domain Aa may relinquish exclusive rights 
+    to the theme or idea, in which case it may be pursued by the 
+    other Domain (hereafter referred to as Domain Bb)--providing
+    that this arrangement has the approval of the AoD and Keeper.
+
+   -Three, if the files in question have been opened to mortals,
+    they may be permitted to remain 'open' in Domain Bb, providing 
+    the code is altered to minimize Domain Aa's thematic objections.  
+    This must be done in consultation with Aa's Liege, and all work 
+    along this theme would cease in Domain Bb.  Lack of success in 
+    this attempt will lead automatically to outcome Four, below.
+    
+   -Four, the code in question would be closed in Domain Bb and 
+    the wizards told to cease pursuing those ideas.  Should the 
+    code remain 'open' or the wizards continue to create along 
+    that theme, they, their home Domain, and their Liege may be 
+    in jeopardy of discipline or erasure.
+
+
+This Administration is of the belief that Domains should restrain them-
+selves to coding on those projects which are intimately related to the 
+Theme or Purpose stated at the time of the Domain's creation.  Any Domain 
+which deviates significantly from its original Theme is likely to come up 
+for thematic review by the AoD.  Additionally, any Domain which duplicates 
+another Domain may be considered redundant, thus unnecessary, and a likely 
+candidate for removal. 
+
+Wizards who wish to pursue projects unrelated to their Domains' Themes 
+(and that of any other) should petition the AoD for permission to create 
+a new Domain (see man domain_creation), since such projects endanger the 
+coherency of a Domain. 
+        Patchwork quilts are lovely.  Patchwork Domains are not.

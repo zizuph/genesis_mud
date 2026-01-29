@@ -1,0 +1,135 @@
+
+DOMAIN INFORMATION
+==================
+
+Every Genesis Domain is required to make and maintain certain information
+files. These files should be structured in such a way as to make it possible
+to find the desired information in the minimum amount of time. They are
+invaluable to the Administration when dealing with bugs that need fixing
+when no Domain wizards are logged in. Additionally, these files provide
+interested people with insight into the Domain's theme and projects.
+
+Most domain information must be put within the /d/Domain/open/ hierarchy 
+so that everyone has read access. However, common security concerns about 
+certain categories of information mean that they needn't all be placed where 
+everyone can read them i.e. you may move certain categories into other 
+common directories such as /d/Domain/private/ or /d/Domain/info/. 
+This document will tell you what should go where and what may go elsewhere. 
+In the event that you choose to move domain information always remember to 
+leave a clear pointer to its new location. 
+
+The required files are:
+
+ADV_GUILDS    /d/Domain/open/ADV_GUILDS
+     This file should give details of the adventurer guilds in your 
+     domain. For each one you should give the room path, the skills  
+     taught, the levels to which they can be trained and the total 
+     of all levels taught.
+
+AUTOLOADING    /d/Domain/open/AUTOLOADING
+     This file should give details of all autoloading objects in your 
+     domain which may have to be restored when players lose their 
+     inventories due to bugs. They might for instance be quest rewards 
+     or special guild items. Details should include the path, how they 
+     are obtained, any special features they offer the owner and any 
+     special information about restoration. Usually it is preferable for 
+     the domain offering such objects to provide a means for players to 
+     restore themselves, thus saving time and effort for others. 
+     Since this info may possibly give away quest details, you may move
+     it elsewhere. 
+
+BITS           /d/Domain/open/BITS
+     This file should contain a table with three columns: the bit numbers, 
+     the experience (if it is a quest) and a very brief description of 
+     what the bit is used for.  If quests are binary coded, please explain 
+     the levels in the binary coding.  Since this doc is for bit-listing, 
+     do -not- add long quest descriptions here.  Those should be in the 
+     QUESTS directory.  The ideal BITS file should have -one- line per bit.
+
+GUILDS         /d/Domain/open/GUILDS/<guild>
+     This directory should have individual files for each major and minor 
+     guild in the Domain.  Each file should contain a paragraph of back-
+     ground information which describes the Guild and how it fits into the 
+     Domain's theme.  The pathnames for the soul, shadow, joinroom, guild 
+     object(s) and other important files should be listed, as well as the 
+     computation summary of the Guilds' tax (with skills, specials, and spells 
+     accounted for).  See /doc/man/general/guilds for additional require-
+     ments.  More indepth information is desirable, but not mandatory, 
+     and may be placed in a different directory if privacy or secrecy is
+     considered a necessity.
+
+MAGIC          /d/Domain/open/MAGIC 
+     This file should list -every- magical object in the Domain that is
+     available to mortals.  If the file becomes very large, you may make
+     this a directory with individual files for armours, weapons, and
+     others.  The following should be listed in some form: object's short
+     description, path, coder, place to which it is cloned, magic type, 
+     magical properties, skill and/or stat enhancements, type (if weapon 
+     or armour), class (AC, WC), obtainability, special effects, and any
+     other pertinent information.  Lack of documentation of a Magical 
+     Object is a disciplinary offense.  This information may be moved 
+     elsewhere. 
+
+QUESTS         /d/Domain/QUESTS/<quest>
+     These files should contain a (brief) description of the quest and
+     the experience that is given for the quest. It would be nice to
+     add the creator of the quest for reference. You may include the 
+     solution, but that is not mandatory. Since it is not mandatory you 
+     may of course put it in the domain's private directory if you want 
+     it present but with extra security. Adding pathnames is very helpful, 
+     but is not mandatory either.  
+
+README         /d/Domain/open/README
+     Originally intended as an 'advertisement' file for attracting new
+     wizards, this file has evolved into a brief statement of a Domain's
+     theme and projects.  README's intended audience is primarily people 
+     outside the Domain, but it should also be useful to Domain wizards 
+     in determining the thematic relevance of possible projects.  You 
+     may divide the information contained in this file however you like, 
+     even going so far as to create other files such as Projects, Theme, 
+     History, or what have you--just so long as somewhere in the Domain's
+     open directory there is information regarding the Theme as well as
+     current and future projects.  
+
+SPELLS         /d/Domain/open/SPELLS/<spell>
+     Each spell your domain offers should be described here in a file.
+     You should include what it does if you cast the spell and what the
+     casting requirements are (mana cost, skills, etc).  List the path-
+     name of the object and the ingredients.  Add chances of success or 
+     failure and perhaps the name of the creator. (See 'man spell_form' 
+     for more information.) This information may be moved elsewhere. 
+
+SHIPLINES      /d/Domain/open/SHIPLINES
+     Shiplines have almost always been a problem, especially newly created
+     or modified ones.  With this in mind, as well as the probability that
+     eventually some of the Domains in Genesis will be 'frozen', it would
+     be best for Domains to list all of their shiplines.  Please take the 
+     time to list the path, ship name/designation, captain, start location, 
+     destination, and cost of all shiplines that originate in your Domain.
+     (See /d/Avenir/open/SHIPLINES for an example).  Listing the shiplines
+     which visit your Domain from other Domains is helpful, but not man-
+     datory, since it (should be) redundant.
+
+SHOPS          /d/Domain/open/SHOPS
+     List here all of the shops, pubs and inns within the Domain.  This
+     includes every object that sells/buys stuff or handles money like 
+     a shop, such as travelling salesmen. The name, path, and what is 
+     sold or bought is desired.
+     Banks should also be listed here, and if there is a Gnomes of Genesis
+     deposit, it should also list the Bank ID to keep that number unique.
+
+SKILLS        /d/Domain/open/SKILLS 
+     This file should give details of all skills that are specific to your 
+     domain, for instance special guild skills. You should group then under
+     appropriate headings and list their define names with their skill 
+     numbers. 
+
+
+Lieges are responsible for keeping these files current, but since no one
+is omnipotent, do make sure that your wizards also know these files, and 
+see to it that they inform you or make the necessary changes to the docs 
+themselves.
+
+
+----
+

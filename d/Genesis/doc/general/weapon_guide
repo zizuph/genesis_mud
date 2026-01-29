@@ -1,0 +1,127 @@
+
+A guide to medieval weapons from Europe
+
+  In the following list WC is tohit/penetration. CODE consists of
+up to 4 letters, the first representing the grip while the others
+represent type(s) of damage. These are:
+
+one of:                            any of:     
+     B -- both hands needed             I -- impaling weapon
+     R -- right hand only               S -- slashing weapon
+     L -- left hand only                B -- bludgeoning weapon
+     A -- any hand
+
+ WEAPONTYPE        CODE     WC       DESCRIPTION
+-------------------------------------------------------------------------
+
+ KNIVES:
+
+knife              A-S     10/11   : short bladed weapon with a single
+                                     cutting edge
+ballock knife      A-S     10/12   : a knife with two large protuberances
+                                     where the grip joins blade, there is also
+                                     a two-edged version (dagger)
+
+dagger             A-IS    14/14   : short bladed weapon with two cutting
+                                     edges and a blade tapering to a point
+rondel dagger      A-IS    14/15   : a dagger with a pommel and crossguard 
+                                     that are round discs of metal
+dirk               A-IS    14/13   : late version of the ballock knife, used
+                                     by the highlanders
+swiss dagger       A-IS    14/15   : a dagger with a pommel and crossguard
+                                     that are half-moon shaped
+main gauche        L-IS    14/14   : a dagger with a large downward curved
+                                     crossguard, used in the left hand in
+                                     conjunction with a sword
+cinquedea          A-IS    16/14   : a large and broad dagger
+
+stilleto           A-I     12/16   : a thin and narrow bladed weapon
+misericord         A-I     12/16   : a stilleto used to give the 
+                                     coup-de-grace to a stunned opponent
+bodkin             A-I     12/14   : a stilleto without edge
+
+ SWORDS:
+
+curved swords:
+scramasax          A-S     18/19   : early single-edged shortsword
+
+falchion           A-S     21/25   : single-edged, heavy slashing sword
+scimitar           A-S     30/21   : single-edged, light slashing sword
+
+straight swords:
+gladius            A-I     21/16   : double-edged shortsword
+
+longsword          A-S     25/23   : early longsword, slashing only
+longsword          A-IS    29/25   : ordinary longsword, the common sword of
+                                     the knights
+
+two-handed swords:
+courtelas          B-S     27/30   : a curved hand-and-half sword
+bastard sword      B-IS    33/28   : also known as hand-and-half sword,
+                                     broad double-edged, mostly slashing
+estoc              B-I     22/21   : thrusting only, without edge
+two-handed sword   B-S     32/32   : double-edged heavy sword
+
+very late medieval swords:
+broadsword         A-S     28/27   : broad slashing sword
+rapier             A-I     35/20   : light narrow blade
+
+ AXES:
+
+hand axe           A-S     15/19   : normal tool 
+beard axe          A-S     16/22   : early axe, developed as tool
+battle axe         A-S     22/29   : the axe is usually balanced by a small
+                                     hammer at the back
+
+broad axe          B-S     21/37   : a two-handed axe used by the Danes when
+                                     they conquered England
+bardiche           B-S     20/31   : a long curved axe-head, the lower end
+                                     of the blade is fastened to the shaft
+lochaber axe       B-IS    24/35   : the end of the axe blade can be used
+                                     to impale with, a hook is on the back
+
+ CLUBS:
+
+wooden club        A-B     16/8    : big stick
+spiked club        A-IB    20/17   : metal spikes, wooden handle
+flail              A-B     20/15   : military version of farm tool
+morningstar        A-B     24/27   : handle, chain and spiked ball
+mace               A-B     29/20   : metal club with a winged head
+warhammer          A-IB    21/30   : a hammer-pick, a beak to punch through
+                                     armour with and on the back a large
+                                     hammer head
+
+spiked club        B-IB    21/27   : two-handed spiked club
+flail              B-B     21/21   : two-handed flail
+morningstar        B-B     24/35   : two-handed morningstar
+
+ POLEARMS:
+
+quarterstaff       B-B     34/10   : a long and stout pole
+
+spear              B-I     22/16   : normal spear
+
+glaive             B-S     21/28   : a single-edged blade mounted upon a pole
+fauchard           B-IS    23/30   : a glaive with a bladecatcher, the end
+                                     can be used to impale with
+gisarme            B-IS    27/32   : a long concave edge with a hook at the
+                                     back and its shaft terminates in a 
+                                     spear-head
+
+halberd            B-IS    26/39   : has a large axe blade, a spear-head at 
+                                     the end and a hook on the back
+luzern hammer      B-I     23/35   : a beak to punch through armour, a spear-
+                                     head at the end and four small points
+                                     at the back
+
+partisan           B-I     23/19   : a broad spear-head with two small blades
+                                     (ears) projecting out at the base of the
+                                     spear-head
+roncone            B-I     25/21   : similar to the partisan; the ears have
+                                     enlarged, and they curve to point
+                                     backwards
+corseques          B-I     24/25   : similar to the partisan; the ears have
+                                     enlarged, they are straight and pointy
+military fork      B-I     22/22   : developed from the pitchfork, has two
+                                     long prongs and two backward hooks to
+                                     parry and catch weapons with

@@ -1,0 +1,47 @@
+GMCP - GENERIC MUD COMMUNICATION PROTOCOL
+=========================================
+
+Genesis supports the Generic Mud Communication Protocol, or GMCP, to pass
+easily parsable information to your mudclient. It's an extension to the normal
+telnet protocol, and sends messages invisible to the user (even when running a
+client that do not support GMCP). 
+
+The primary purpose of GMCP is to improve the availability of information
+relevant to your game without providing players with a distinct advantage. As
+such, any information passed through the protocol will have the same precision
+or textual representation as through the normal text interface.
+
+For details on the packages supported and the format of the parameters, see:
+	/doc/help/general/gmcp_tech	(aka "help gmcp_tech")
+
+For further information: <help gmcp> and <help gmcp_tech>
+
+Idea list:
+
+General
+x Character information (stats, name, guilds, skills)
+x Mail waiting indication
+x Vitals updates (health, fatigue, etc)
+- Notification when someone on your contact list logs on
+X Communication channels (such as newbie line)
+- Inventory
+
+Equipment
+- Worn & wielded EQ
+- Updates on the EQ status such as dulling and rusting
+
+Team
+X Show team members
+- Updates on team member health
+
+Movement
+X Room information (directions, descriptions)
+
+Combat
+- Show when in combat
+- Enemy list
+- Updates on the enemy's health
+- Available special abilities / spells
+- Cast / cooldown timers for abilities
+
+

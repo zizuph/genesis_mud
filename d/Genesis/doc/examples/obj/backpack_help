@@ -1,0 +1,7 @@
+EXAMPLE HELP FILE FOR BACKPACK - FILL and EMPTY
+
+Syntax: fill <backpack>   ->  fill the backpack with stuff you hold in your
+                              inventory.
+
+        empty <backpack>  ->  take the contents of the backpack and put it
+                              in your pockets.

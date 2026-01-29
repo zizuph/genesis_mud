@@ -1,0 +1,126 @@
+
+======           A guide to medieval armours from Europe           ======
+
+Here follows several tables of standard armours. The armours are divided 
+into three sections, body armour, helmets and shields.  
+
+Note that other armour types than those given are provided for. However, 
+in no case does wearing this armour provide direct protection. These are 
+allowed to give the protection in terms of magical bonuses to armour.  
+For example, a ring or cloak of protection may be created this way.  
+
+
+ARMOUR WEIGHTS
+
+The weights listed in the body armour tables are for a whole suit of that 
+type. The recommended multiplicative factors for the armor types listed are:
+
+        A_TORSO    0.4
+        A_LEGS     0.3
+        A_R_ARM    0.1
+        A_L_ARM    0.1
+        A_HEAD     0.1
+        A_SHIELD   0.2
+        A_ROBE     0.2
+
+
+BODY ARMOUR
+
+Body armour may use the types:  A_TORSO, A_L_ARM, A_R_ARM, A_ARMS, A_L_LEG, 
+A_R_LEG, and A_LEGS.  It is recommended that the construction type provided 
+in the table be put into the long or the short description.  
+
+The following table shows the main types of body armour used throughout the 
+ages, along with materials, armour class, modifiers, and weights:
+
+CONSTRUCTION       AC MODIFIERS     WEIGHT   NOTES
+   MATERIALS          (I/S/B)   
+---------------------------------------------------------------------------
+thin cloth          1 (0,0,0)         0      assumed to be worn
+medium cloth        2 (0,0,0)       1.0 kg   linen
+heavy cloth         3 (0,0,0)       2.5 kg   canvas
+soft leather        5 (0,0,0)       2.5 kg   doeskin
+hard leather        8 (0,+1,-1)     4.0 kg   rigid leather plate
+woven cord          8 (-1,0,+1)     4.0 kg   made from thick cords or reeds
+padded             10 (-1,-1,+2)    4.0 kg   very thick cloth
+heavy animal hide  10 (-1,0,+1)     4.0 kg   untreated thick hide 
+quilt              12 (-1,-1,+2)    4.0 kg   two layers of cloth with filler 
+cuir-bouili        12 (+1,0,-1)     4.0 kg   leather boiled in oil
+studded            15 (0,+1,-1)     6.0 kg   studs set in hard leather
+ringmail           17 (-1,+2,-1)    6.0 kg   rings sewn to hard leather
+bezainted          17 (+1,+1,-2)    9.0 kg   studs closely set in cour-bouilli
+scale mail         19 (+1,+1,-2)   19.0 kg   overlapping scales riveted to
+                                             leather
+splint mail        21 (+1,+1,-2)   19.0 kg   vertical strips of metal riveted
+                                             to a hard leather backing
+brigandine         23 (+1,+1,-2)   21.0 kg   same, but scales are sandwiched 
+                                             between two layers of leather
+chainmail          25 (-2,+3,-1)   19.0 kg   interlinking rings
+double mail        29 (-1,+1,0)    21.0 kg   chainmail where links are a
+                                             sufficient diameter to fill gaps
+bar mail           32 (-1,+1,0)    19.0 kg   alternate links have metal bars
+augmented mail     34 (-1,+1,0)    21.0 kg   strips of metal through links
+banded             37 (0,0,0)      19.0 kg   overlapping plates of metal
+plate              40 (0,0,0)      24.0 kg   larger pieces of metal
+
+Note.  Platemail has been deliberately omitted.  This is due to the fact
+that platemail usually implies breastplate over chainmail, which would
+be represented by A_TORSO being 40, with the other armour types being 20.
+
+
+HELMETS
+
+The following list of helmets was constructed from the body armour list,
+deleting helmet types which don't really make sense.  Furthermore, the
+scores were all reduced to represent the relative vulnerability of the
+head.
+
+Helmets use the A_HEAD armour slot.
+
+CONSTRUCTION       AC MODIFIERS     WEIGHT   NOTES
+   MATERIALS          (I/S/B)   
+---------------------------------------------------------------------------
+soft leather        2 (0,0,0)       0.2 kg   doeskin
+hard leather        5 (0,+1,-1)     0.4 kg   rigid leather plate
+woven cord          5 (-1,0,+1)     0.4 kg   made from thick cords or reeds
+quilt               7 (-1,-1,+2)    0.4 kg   cap of two layers of cloth with
+                                             filler material
+cuir-bouili         7 (+1,0,-1)     0.4 kg   leather cap, boiled in oil
+studded             9 (0,+1,-1)     0.6 kg   studs set in hard leather cap
+ringmail           12 (-1,+2,-1)    0.6 kg   rings sewn to hard leather cap
+chainmail          15 (-2,+3,-1)    1.9 kg   chainmail coif worn over padding
+double mail        18 (-1,+1,0)     2.1 kg   same, except finer mail.
+plate              20 (0,0,0)       2.4 kg   helm made from sheet metal.
+helm w/tabard      22 (0,0,0)       2.4 kg   same, except with nose guard.
+helm w/visor       25 (0,0,0)       3.0 kg   same, with visor
+great helm         30 (0,0,0)       4.0 kg   extra large helm.  Limited
+                                             vision with visor down.
+
+SHIELDS
+
+There are three basic types of shield. The small shield is typified by the 
+buckler.  It simply protects the arm it is on. The medium shield is typified 
+by the kite shield.  This gives protection to the torso as well as the arm.
+Finally, the pavise was a footmans shield, meant to cover the soldier from 
+archery fire.  This shield provides some coverage to the legs as well.  We 
+will say, for hand-to-hand combat, that only the leg on the side of the 
+shield is protected.
+
+Shields use the A_SHIELD armour slot.
+
+CONSTRUCTION          AC MODIFIERS     WEIGHT   NOTES
+   MATERIALS             (I/S/B)   
+---------------------------------------------------------------------------
+canvas                 2 (-1,0,+1)     1.0 kg   canvas stretched over a frame.
+soft leather           5 (0,0,0)       1.5 kg   same, but hide or leather 
+rigid leather plate    8 (0,+1,-1)     1.5 kg   hardened leather over frame
+reinforced leather    13 (0,+1,-1)     1.5 kg   rings/plate sewn in
+wood                  15 (0,0,0)       2.0 kg   carved wooden shield
+metal                 20 (0,0,0)       3.0 kg   thin metal plate over a frame
+thick metal           25 (0,0,0)       5.0 kg   _very_ heavy
+
+Until we have a system for protecting more areas of the body, we will
+give a shield +5 if it is large, normal if it is medium, and -5 for a
+buckler (soft leather and canvas bucklers aren't too practical...)
+Large shield is double weight, small shield is half.
+ 

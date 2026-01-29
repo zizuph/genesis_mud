@@ -1,0 +1,139 @@
+                    ===============================
+                            CHAPTER TWO
+                    The manifestation of spellcraft
+                    ===============================
+
+Magic is science, spellcasting is handicraft. 
+
+This is an attempt to make the basis for a working magic system.
+
+Spells are divided into magic spells and antimagic ones.
+
+All spells that protect against magic are antimagic, all others are
+considered magic.
+
+MAGIC SPELLS
+============
+
+Magic spells can belong to 2 categories:
+
+- Instant spells
+	Take effect, and then the magic is gone.
+	These are spells like fireball, heal, resurrect etc.
+
+- Duration spells
+	In these spells the magic is present for the duration of the spell.
+	When the magic fails, the effects of the spell go away. Duration
+	can be infinite.
+
+	Shield, wall of fire, enchant weapon
+
+There is an other parameter for magic spells, in reference to antimagic.
+They can either be reduceable or destructable.
+
+ANTI-MAGIC SPELLS
+=================
+
+- Dispelling
+	Dispelling affects duration spells in one way or an other, either by
+	reducing the spell effect, or by removing it. Dispelling spells
+	are always instant.
+
+- Protective spells
+	Protective spells affect instant spells and duration spells at the
+	moment of casting, either by reducing spell effect, or by making the
+	spell fail. Protective spells always have duration.
+
+DOUBLE CATEGORY SPELLS
+======================
+Certain spells can be both magic and antimagic in nature. For instance, a Wall
+of Fire would have the magic category "Fire", and the antimagic category
+"Water", since water is the diametrically opposed element of fire.
+When you cast a drowning spell in the room, the antimagic properties of
+the wall will diminish the effects of the drowning spell. When someone tries
+to pass the wall, the magic properties of the wall will attack.
+
+SPELL STRENGTH
+==============
+
+All spells, magic as well as antimagic are given a strength number.
+When a magic spell encounters an antimagic, these numbers are compared,
+and the outcome is determined. Possible results are:
+
+- Magic spell is unaffected.
+- Magic spell fails if it is of the destructable type
+- Magic spell is reduced if it is of the reduceable type.
+
+SPELL TYPES
+===========
+
+Each magic spell in the game must belong to one of the 6 elements (air,
+fire, earth, water, life and death). Each antimagic spell must belong to one
+or more of the 6 elements. An antimagic spell is only effective against
+magic spells that belong to the same category.
+
+MAGIC OBJECTS
+=============
+
+Magic objects are considered to be normal objects with duration spells cast
+on them. This includes magic objects with charges.
+
+AREA OF EFFECT
+==============
+
+Spells can affect:
+- Beings
+- Objects (non-living)
+- Locations
+
+Spells can either affect single or multiple beings/objects/locations
+A single object or being is selected with the methods that are used for
+normal commands, or if no target is specified the being that the
+spellcaster is attacking.
+
+Single being can be:
+- Spellcaster
+- Other being in the same room as the spellcaster
+
+Single object can be:
+- Object in the environment or the inventory of the spellcaster
+- Object in the inventory of an other object or being
+- Object in the recursive inventory of an object or being
+
+Single location can be:
+- The location of the spellcaster
+- A location that has somehow been previously marked as spell target
+
+Multiple beings can be:
+- Spellcaster and team
+- Everyone in the location
+- Everyone in the location apart from the spellcaster
+- Everyone in the location apart from the spellcaster and his team
+
+Multiple objects can be:
+- All objects in the inventory of a single location, object or being
+- All objects in the recursive inventory of a single location, object or being
+
+Multiple locations should be exremely rare for spells and each case should
+be discussed with an arch.
+
+INTERNAL PROCEDURES WHEN A SPELL IS CAST
+========================================
+
+- The code of the spell determines if all requirements for successful casting
+  of the spell are fulfilled, calculates strength, mana cost etc.
+- The spell object calls the central spell object with parameters indicating
+  spell properties, target and area of effect
+- The central spell object calculates the outcome of spell vs spell interaction
+  for every object in the area of effect, and calls the spell object that
+  initiated the spell for each object
+- The spell object produces the spell effect for each object affected
+
+CASTING REQUIREMENTS
+====================
+
+All spells should have a number showing required magic skill for the
+element and the form of the spell. If your skills are high enough you
+can cast the spell without risk. If they aren't high enough, you can
+still try to cast the spell, but the risk of failing and taking damage
+or even dying should be high.

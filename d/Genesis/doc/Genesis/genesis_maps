@@ -1,0 +1,178 @@
+OVERVIEW:
+
+The Magic Map was created to help the game seem more user friendly to the
+modern gamer. The idea is that in those areas that choose to support the
+functionality of the map, players looking at the map see a text-based birds-
+eye view of their area, with an asterisk placed on the room they are in. As
+the player moves, so does the asterisk.
+
+With the inclusion of the magic map into the official Genesis client, we
+have magic map functionality that is dynamic and constantly updated for the
+player to see. It is therefore mandatory that all new areas in Genesis be
+presented with magic map functionality.
+
+The map object itself is:
+
+    /d/Sparkle/std/obj/magic_map.c
+
+FUNCTIONALITY:
+
+The map is an object that players carry with them in their inventory. When
+the map is examined, it checks the room the player is in for the prop
+ROOM_S_MAP_FILE which is intended to provide the name of the text file
+that the given area will correspond to. The pathname is not given in the
+prop, but merely the name of the file (e.g. "minas_tirith_map.txt"). The
+actual map must be placed in the /d/*/open/MAP_FILES/ where * is the
+specific domain the area is in. 
+
+By typing <exa map> the player will see the area they are in. The map
+supports the functionality to have sub-areas within a larger area, and
+the <exa map> action brings up the sub-area that the given map may have
+defined. There is also the option to <zoom> to scale back and see the
+larger area (the "main" map) that the player is in rather than the specific
+sub-map of the immediate area.
+
+IMPLEMENTATION:
+
+To have the magic map function with rooms in your area, you will need to do
+two things:
+
+    1. Create a map using the methods described below. Save it to the open
+       directory of your domain in the MAP_FILES/ directory. For instance,
+       if you are a Gondor wizard and want to make a map of Minas Tirith,
+       you would save it as follows:
+
+       /d/Gondor/open/MAP_FILES/minas_tirith_map.txt
+
+    2. Use the <map> command to register room files with the central map
+       handler. For information, use <help map> to see details on the
+       functionality of this command.
+
+CREATING A MAP FILE:
+
+The information that follows is the sort of thing that is easiest to understand
+by looking at an example while learning the format. Refer to the following
+file while reading this document.
+
+    /d/Sparkle/open/MAP_FILES/tutorial_map.txt
+
+Each map file must contain at least the "main" map, followed by as many sub-
+maps as you wish to include (if any.) Each additional map you wish to include
+must be preceeded by the text "::NEWMAP::" on its own line in the file. By 
+including this text, you separate the file into various map sections.
+
+An example map section is as follows:
+
+(beginning of section)
+caves
+::MAPDATA::
+cave_1 6 4
+cave_2 11 4
+cave_3 11 1
+cave_4 16 1
+cave_5 16 4
+cave_lair 21 4
+::MAPDATA::
+
+          o -- o
+          |    |
+          |    |
+  -- o -- o    o -- o
+(end of section)
+
+Shown above are the 3 required data fields in each map section, separated by 
+the text "::MAPDATA::". The first field is the word "caves" which represents the
+name for this section of the map. The second section is a list of the names
+of the files for each room, followed by the x,y on which each room is shown in
+the ascii grid of the map text itself. The third section is the actual map
+text that will be shown when the player types <exa map>.
+
+A tip for generating a nice alphabetized list of file names for the rooms that
+appear on the map is to use the following exec statement (again using the
+Minas Tirith example):
+
+> exec string *rooms = get_dir("/d/Gondor/minas/rooms/"); foreach(string
+ room:rooms) { write(room[..-3] + " 0 0\n"); }
+
+This will take all the file names from a directory, strip the ".c" extension 
+from the end of each file, and print an alphabetized list with the dummy 
+coordinates 0 0 following each filename. Then, as you count rows and spaces in
+your text grid to determine the coordinates for each room, you just replace
+the 0 0 with the x,y coordinates for that room. Remember to treat the first
+line and row on each grid as zero since we are dealing with arrays (that begin
+with zero instead of one.)
+
+In the tutorial_map.txt you can see that the coordinate data field has an
+additional word that follows the x,y numbers. For example:
+
+plateau 19 10 cliffs
+outside_castle 19 10 cliffs
+portcullis 19 10 cliffs
+bedroom 5 10 castle
+combat_lair 5 10 castle
+
+The reason for this is that when sub-maps are included in the file, the
+main section requires that not only do you include *ALL* room names that occur
+in each submap in the "main" data field, but you must also indicate the name
+of the submap after the coordinate information (as seen above.)
+
+To discuss the specifics of what is happening, lets assume the player is 
+standing in the room "portcullis" and types <zoom>. In this case, the "main" 
+map will be displayed, with the asterisk drawn at the x,y coordinates 19 10. 
+However, if in the same room the player types <exa map> the interpreter sees 
+that the word "cliffs" has been given after the coordinates, and skips down to
+that sub map section of the text file (see tutorial_map.txt) and instead draws
+the text map defined in the "cliffs" map section with the asterisk being drawn
+at coordinates 41 19.
+
+A very special aspect of the <zoom> feature will occur if you wish to separate
+your "main" map in to various zones, as I have in the tutorial map. Do do this,
+you must use periods ". . . . . " spaced thusly to form the borders of each
+zone that you want to exist. If the borders are vertical, rather than
+horizontal, you do not need to skip a line per period, as the ascii grid is
+taller than it is wide, making the borders look right:
+
+              . . . . . . . . . . .
+              .                   .
+              .                   .
+              .             . . . .
+              .             .
+              .             .
+            . .             .
+            .               .
+            . . . . . . . . .
+
+The borders do not need to be symmetrical, but they do need to line up 
+correctly. If the asterisk representing where the player stands is within
+a given zone, that zone's periods will be changed to "X" to indicate that
+a player is standing within a certain zone. Credit for this very nifty feature
+of the <zoom> goes to Novo, who helped me implement the concept correctly.
+
+One danger of this, though, is that if (like me) you want to include nifty
+ascii artwork in your maps, you will need to avoid the use of the period "."
+on any lines that run on the same line that an asterisk will appear. Otherwise,
+the map will try to count your artwork as part of the border with disastrous
+results.
+
+Be advised that if two rooms in an area have the same name, but different
+directory, the map will not function properly. For example:
+
+    /d/Gondor/minas/rooms/guardroom.c
+    /d/Gondor/minas/rooms/streets/guardhouse/guardroom.c
+
+Because both locations have the same filename, the map will not draw them
+properly. You can get around this problem in one of two ways. One could
+rename one of the two room locations (this can be problematic unless you
+are EXTREMELY confident you know all files that reference that location -
+connecting exits are the obvious example, but sometimes rooms are referenced
+by other things.) The safer route would be to simply have the two different
+locations reference separate map files.
+
+CONCLUSION:
+
+Hopefully this document has been helpful for you as you try to create maps
+for the players. A great way to try to understand this is to simply create
+a new character and walk around using the map in the tutorial while at the
+same time rereading this document and staring at the tutorial_map.txt.
+
+

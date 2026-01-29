@@ -1,0 +1,19 @@
+HEADER Mudlib support for guild implementation
+
+Basically guilds are coded with auto loading shadows. Shadows are
+pieces of code that are added to the object in runtime and replace the
+original objects functions. So if a shadow defines 'query_title' and
+it shadows a player, then when 'query_title' is called in the player,
+it gets called in the shadow instead. There is a number of functions
+that a shadow can not define, these are the functions defined 'nomask'
+in the object that is to be shadowed. Functions like 'query_wiz_level()'
+for example :-)
+
+There are some examples in the /doc/examples/guild/ directory.
+
+To implement the 'tax', you must set the corresponding guild pref,
+much like the learn prefs. When a player joins the guild a starting
+value will be set according to the 'query_tax()' function. If you want
+to change the tax the player pays later, you must call
+'set_guild_pref()' in the player. When you do stat on a player you will
+see what tax he pays to different types of guilds.

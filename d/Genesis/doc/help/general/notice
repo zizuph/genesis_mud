@@ -1,0 +1,19 @@
+NAME
+	notice
+
+SYNOPSYS
+	notice <target>
+	notice everything
+
+OPTIONS
+	<target> - the target or targets you want to perform the command
+		   on. This may be a name or description of a living or
+		   item, singular or plural ie. Mercade, the dwarf wizard,
+		   dwarves, sword, weapons, etc, are all valid targets.
+      everything - a simple way to notice everything in your environment or
+		   inventory. It notices beings (people, monsters, animals)
+		   as well as items all in one go for just one gold coin
+		   per succesful use.
+
+SEE ALSO
+	exploration

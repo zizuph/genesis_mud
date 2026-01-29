@@ -1,0 +1,69 @@
+MAIL IN GENESIS
+===============
+
+Here in Genesis we have a sophisticated system of post offices that allows
+all players to send mail to other players. When you enter a post office,
+a mail reader will be presented to you and with that reader, you can
+manage your mail.
+
+MAIL FUNCTIONS
+==============
+
+The following functions are offered to handle your mail. For their syntax,
+I refer to the mail reader itself. You can examine it to get a list of the
+commands attached to it and when you are in mail reading mode, you can
+give the command "?" to get a list of all commands supported, with a brief
+explanation of the syntax.
+
+- Mail a message to one [or more] players;
+- Add a list of people to receive a carbon copy (CC) of the message. It
+  is possible (command "autocc") to automatically send a carbon copy of
+  each mail you write to yourself. This means that you will have to
+  clean out your mailbox regularly;
+- Resend the last message if you forgot an addressee;
+- List the headers of your [newly] received messages;
+- Read a message [using more];
+- Reply to a message. It is possible to include the message you reply to
+  and edit it before you send it;
+- Forward a message to one [or more] other players. It is possible to add
+  some comments to the message before you send it, but you cannot edit the
+  message you received. Your comments are placed before the inclusion of
+  the forwarded message;
+- Delete messages. Messages will first be marked for deletion, so you can
+  change your mind and unmark them. However, if you erase them or leave
+  mail reading mode, the messages are lost forever;
+- Archive messages. For players, the archive will be on the website for
+  immediate download, and for wizards it will go into their home directory.
+
+ALIASES
+=======
+
+The mail reader supports several levels of aliases. When your list of
+addressees is resolved for individual player names, they are evaluated in
+the order below:
+
+- Global aliases, like the name of a domain to mail all members of a
+  certain domain and classes of wizards, like "liege" to mail all domain-
+  lieges or "admin" to mail all administrators of Genesis;
+- Post office related aliases. Some post offices in guilds or cities may
+  allow you to mail to the "council", the "guildmaster" or maybe the
+  "mayor" of a town, "steward" of an area, etcetera;
+- Personal aliases. If you mail to several individuals that do not form
+  one of the above mentioned cathegories, you may assign a name to them
+  as a group, i.e. "mudlib" if I want to mail Tintin and Glindor to
+  discuss new and cool mudlib features. ;-) (command "malias")
+
+MASSIVE MAILING
+===============
+
+The mail system is designed and implemented to handle single messages with
+perhaps a few people receiving a carbon copy. It is expressly not meant to
+send massive amounts of mails. Many people on such a mailing list do not
+want to read the message in the first place, and people replying to such
+massive messages only make it worse. Massive mailing is therefore forbidden
+in Genesis.
+
+If have a great idea to be implemented, have critisism or want to share
+anything else with regard to mail, you can mail the mudlib developing
+archwizards (see "help wizards") or you can mail the author of this
+document, Mercade. 

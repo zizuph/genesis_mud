@@ -1,0 +1,74 @@
+Added also to /doc/man/objects/resistance
+
+Determining combat aid for guild resistance specials
+====================================================
+
+Spells that provide resistance protection are quite common, specials less
+so. Regardless, any guild ability that offers resistance protection will 
+have a combat aid cost applied to their guild's total combat aid cap 
+equating to 1% of combat aid per point of resistance offered.
+
+Only one magical damage type can be applied from a magical attack, so the 
+benefit of multiple resistance types technically do not stack when 
+determining the aid of specials or spells that provide multiple resistances.
+
+However this is not a balanced way of looking at resistances, and runs the
+risk of spells and specials providing blanket immunity across all forms
+at the same combat aid cost as targeted/tailored resistance options that 
+make players actually think about the damage types they are likely to face.
+
+So the following guidelines should be followed when incorporating resistance
+abilities to a guild and determining the combat aid benefit to be applied 
+towards the guild's combat aid cap:
+
+* For a guild special that isn't a spell, each point of form resistance costs 
+  1% combat aid.
+
+* Resistance spells must use the /d/Genesis/specials/std/spells/resistance.c
+  base spell as the spell template.
+
+* Up to three MAGIC_I_RES_* form resistances may be included in such a 
+  resistance spell for a combat aid cost of 1% per resistance point of the
+  highest MAGIC_I_RES_* form resistance offered by the spell.
+
+  So a resistance spell offering MAGIC_I_RES_FIRE of 15, MAGIC_I_RES_COLD of
+  14, and MAGIC_I_RES_POISON of 13 would have a combat aid benefit of 15%.
+
+* If the spell offers more than three MAGIC_I_RES_* resistances, an additional
+  combat aid multiple of x1.1 (i.e 10% extra) is applied for each of the 
+  additional spell form resistances over the original three.
+
+  So a resistance spell offering MAGIC_I_RES_FIRE, MAGIC_I_RES_COLD,
+  MAGIC_I_RES_POISON, MAGIC_I_RES_AIR, and MAGIC_I_RES_EARTH of 15 would have a 
+  combat aid benefit of 15% multipled by a factor of x1.2 (two additional
+  resistances over the base three), providing a combat aid benefit of 18%.
+
+* If the spell offers less than three MAGIC_I_RES_* form resistances, that
+  spell's combat aid is calculated at a multiple reduction of 1.1 (10%) per 
+  resistance less than the base three.
+
+  So a resistance spell offering only MAGIC_I_RES_FIRE at 15 will have an
+  effective combat aid benefit reduced by 20% (2 less resistances than the 
+  base three) for a combat aid of 12%, while a resistance spell that offers
+  both MAGIC_I_RES_FIRE and MAGIC_I_RES_AIR at 15 will have an effective
+  combat aid reduced by 10% (1 less resistance than the base three) for 
+  a combat aid of 13.5%.
+
+* As MAGIC_I_RES_MAGIC resistance provides resistance against all the forms
+  of which there are 14 (12 if you exclude *_MAGIC and *_IDENTIFY), this
+  resistance type is treated differently from individual forms when 
+  determining combat aid benefit. Every point of MAGIC_I_RES_MAGIC is counted
+  as 2% combat aid. This aid is cumulative with other form resistances 
+  offered.
+
+  So a resistance spell offering MAGIC_I_RES_MAGIC at 15 would have a combat
+  aid benefit of 30%.  A spell offering MAGIC_I_RES_MAGIC at 15 and 
+  MAGIC_I_RES_AIR at 15 would have a combat aid benefit of 42% (30% for the
+  *_RES_MAGIC component and 12% for the *_RES_AIR component).
+
+* Resistance spells shouldn't mix meta and physical resistances (i.e. 
+  physical being acid/cold/fire and meta being life/death etc), however this
+  guideline can be bent for appropriate thematic reasons. Any such spells
+  need to be approved by both the domain Liege and AoB.
+
+

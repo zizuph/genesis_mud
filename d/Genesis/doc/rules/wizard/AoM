@@ -1,0 +1,26 @@
+The Mudlib Arch
+
+Formal definition
+-----------------
+
+This Arch is in charge of the mudlib code. He supervises and suggests
+changes that should be made to the mudlib in order to meet new demands
+or changes in the gamedriver, or changes and modfications that are
+needed to improve the game as such. Naturally he must work in close
+contact with the Balance Arch (AoB) at all times. A great degree of
+understanding and cooperation is required between them to make the
+game work.
+
+Amendments
+----------
+
+Any changes for the mudlib must be verified by the AoM, if nothing
+else so only in order to coordinate what is being done. It's very easy
+for two people to find that they have been working on something that's
+either already been done or abandoned long ago for some reason. Besides
+it all needs to be merged into the source database at the CD computer.
+
+The 'mudlib' in this context means _any_ changes of anything not in a
+regular domain (Genesis is considered part of the mudlib).
+
+

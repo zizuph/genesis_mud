@@ -1,0 +1,94 @@
+             ============================================
+                             CHAPTER FOUR
+             Spell classification and computing mana cost
+             ============================================
+
+Rating Spells
+-------------
+Each spell has a form skill rating and an element skill rating, a
+Defensive Power Rating (DPR) and an Offensive Power Rating (OPR).  For
+abjuration form spells, a list of up to 5 elements can be provided.
+Only elements listed will be affected by the defensive magic.
+
+The form rating of the spell is the minimum form skill required to cast
+the spell.  Likewise, the element rating of a spell is the minimum
+skill in the element to cast the spell.  The OPR of a spell is defined
+to be FR + ER.  The DPR of a spell is just ER for an offensive spell,
+and is FR + ER for a purely defensive spell.
+
+The class of a spell is directly related to the form and element rating
+of the spell.  The Spell Class is then defined by the following table:
+
+Spell class | (ER + FR)
+class 0     |    0-19
+class 1     |   20-59
+class 2     |   60-119
+class 3     |  120-159
+class 4     |  160-200
+
+Mana cost
+---------
+The base mana cost is ER + FR.
+
+In general, an attack spell may do no more damage than a weapon with
+penetration equal to the OPR/2 of the spell.  A defense spell may not
+provide more protection from weapons than the equivalent armour of the
+same ac as the DPR/2.
+
+If the class of things affected by the spell is restricted in some way,
+the benefit can be changed upwards proportionally.  Judgement on this is
+required, but examples might be "protection from evil", "anti-magic
+shield" etc.  Also, a physical barrier to combat ("wall of stone") Isn't
+armour, because the caster (or recipient) cannot fight an opponent
+either.
+
+Modifiers exist for all sorts of things.  They are expressed as a
+multiplier.  All multipliers are multiplied together to yield the final
+multiplier which is then multiplied by the power rating to yield the
+mana cost.
+
+Area of Effect - One object................................ x1
+Area of Effect - All objects in room....................... x1.5
+Area of Effect - All objects in room except caster......... x2
+Area of Effect - All objects in room except caster's group. x2
+Area of Effect - Object in another living's inventory...... x1.5
+Area of Effect - Object in another room.................... x3
+
+Casting Time instant....................................... x3
+Casting Time < 1 heartbeat................................. x2
+Casting Time < 5 heartbeats................................ x1
+Casting Time < 30 seconds.................................. x0.9
+Casting Time < 1 minute.................................... x0.8
+Casting Time < 2 minutes................................... x0.7
+Casting Time special -- a procedure is required > 2 min.... Consult an Arch
+
+Duration (attack spell with duration not instant).......... x1.5
+Duration instant (non-attack spell)........................ x0.7
+Duration < 1 minute........................................ x0.8
+Duration > 1 minute........................................ x1
+Duration > 10 minutes...................................... x1.5
+Duration > 1 hour.......................................... x2
+Duration "permanent" (this play session only).............. x2
+
+Difficulty is based on the task system, where a maximum bonus of 200 is
+allowed.  Note that impossible spells simply cannot be cast under most
+circumstances.  You should discuss "impossible" spells with an arch
+before implementing them.
+Difficulty (Automatic)..................................... x2
+Difficulty (Simple)........................................ x1.5
+Difficulty (Routine)....................................... x1.0
+Difficulty (Difficult)..................................... x0.5
+Difficulty (Formidable).................................... x0.25
+Difficulty (Impossible).................................... x0.125
+
+Components (no gestures)................................... x1.5
+Components (no verbal)..................................... x1.5
+Components (no material)................................... x1.5
+Components (< 1 sp value).................................. x2.0
+Components (>=1 sp value).................................. x1.0
+Components (>=1 gp value).................................. x0.8
+Components (>=1 pp value).................................. x0.7
+Components (>=12 pp value)................................. x0.6
+Components (>=144pp value)................................. x0.5
+
+

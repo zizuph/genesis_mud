@@ -1,0 +1,59 @@
+NAME
+        Races
+
+SYNOPSIS
+        This is not a command, simply information.
+
+DESCRIPTION
+        Core Races
+            Genesis has six so-called core races, meaning these are the races
+            that can be selected when a new character is created. The six
+            races are human, elf, dwarf, hobbit, gnome, and goblin. All races
+            are equally strong in terms of stats, however, their different
+            racial abilities set them apart. 
+            
+            Each race has six different racial abilities and you may select 
+            any two of them. Some abilities are unique while others are
+            shared between some races. For example, both elves and hobbits
+            can be 'fleet-footed' while only gnomes can be 'well-connected'.
+            
+            To learn more about the abilities of the different races, please 
+            see <help race 'race name'>. For example <help race-human>, <help 
+            race-elf>, etc.
+        
+            To see which racial abilities you currently have, simply use the
+            command <rabilities> or <ra>.
+
+        Sub-races
+            In addition to the core races it is possible to be transformed
+            into many different sub-races by joining specific guilds. For
+            example, a hobbit can be transformed into a halfling or a kender 
+            by joining the appropriate guild, however, doing so will NOT 
+            change the core race. So, a hobbit that has become a halfling will
+            look like a halfling but will keep their hobbit abilities. There
+            are two exceptions to this, namely the ogre and undead sub-races.
+            These two sub-races completely transform a character so that
+            nothing of the old race remains. Please see <help race-ogre> and
+            <help race-undead> to learn more about these unique sub-races.
+
+        Changing race
+            Changing sub-race is usually as simple as leaving the guild that 
+            transformed you in the first place. Changing core race can only
+            be done by selecting a new body when you die, and also comes with 
+            the additional cost of losing half of your skills. However, 
+            changing your core race does not come with a penalty in the
+            tutorial area. If you are in the tutorial area you can simply
+            visit the library to change your race without penalty.
+
+        Changing racial abilities
+            If you want to keep your core race but change your racial 
+            abilities you can do so by selecting a new body when you die. 
+            Simply select the same race and you will get to reselect your 
+            abilities. Since you are selecting a new body you will of course
+            still suffer the additional penalty of losing half of your 
+            skills. Changing abilities is, just like race change, without 
+            penalty in the tutorial area.       
+
+SEE ALSO
+        rabilities, race-human, race-elf, race-dwarf, race-hobbit, race-gnome, 
+        race-goblin, race-ogre, race-undead.

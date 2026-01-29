@@ -1,0 +1,56 @@
+DOMAIN STATUS
+=============
+
+For the purposes of communication and administration, domains are labelled
+with a status that is a reflection of domain activity, goals, and focus.
+As activities and goals change, so may domain status.
+
+A domain has one of the following statuses:
+
+- Active     - a domain which focuses on the creation of new areas, while
+               occasionally recoding old ones. It is in some way open to
+               mortals.
+
+- Closed     - a domain which has been discarded.
+
+- Closing    - a domain which focuses on the transfer of important code to
+               other domains and on rendering its own code unnecessary to other
+               domains, with a stated goal of becoming closed. 
+
+- Limbo      - a domain which, for one reason or another, has an uncertain 
+               present and future. No new code may be opened.
+
+- Maintained - a domain which focuses on the recoding of old areas, and the
+               updating of older areas when required by mudlib changes. New
+               areas are occasionally opened.
+
+- Opening    - a domain which focuses on the creation of new areas and updating
+               older areas when required by mudlib changes. It is not open to 
+               mortals.
+
+-------------------------------------------------------------------------------
+         CURRENT DOMAIN STATUS LIST
+-------------------------------------------------------------------------------
+
+    Ansalon:    - Maintained
+    Avenir:     - Maintained
+    Calia:      - Active
+    Cirath:     - Maintained
+    Earthsea:   - Maintained
+    Emerald:    - Limbo
+    Faerun:     - Active
+    Genesis:    - Maintained
+    Gondor:     - Active
+    Immortal:   - Limbo
+    Kalad:      - Maintained
+    Khalakhor:  - Limbo
+    Krynn:      - Active
+    Liwitch:    - [redacted]
+    Raumdor:    - Limbo
+    Ravenloft:  - Closed
+    Relic:      - Closed
+    Roke:       - Closing/Closed
+    Shire:      - Maintained
+    Sparkle:    - Active
+    Terel:      - Maintained
+

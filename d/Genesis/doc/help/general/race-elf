@@ -1,0 +1,36 @@
+NAME
+        Race-elf
+
+SYNOPSIS
+        This is not a command, simply information.
+        
+DESCRIPTION
+        As an elf you may select two of the following six racial abilities:
+    
+        Fleet-footed     
+            If you are not in combat, you will be able to recover your energy
+            quicker after you get tired.
+                           
+        Scotopic vision  
+            You will be able to see inside many areas covered in non-magical 
+            darkness.
+                           
+        Apothecary      
+            The cooldown time between using herbs will be slightly reduced
+            for you.
+        
+        Explorer         
+            You will get a ten skill level bonus (up to superior guru) in 
+            herbalism, awareness, location sense, and tracking.
+                           
+        Stealthy         
+            You will get a ten skill level bonus (up to superior guru) in 
+            sneak and hide.
+                           
+        Light-footed    
+            There will be a ten percent chance that you will not leave any 
+            tracks behind when moving.
+
+SEE ALSO
+        races, rabilities, race-human, race-dwarf, race-hobbit, race-gnome, 
+        race-goblin, race-ogre, race-undead.

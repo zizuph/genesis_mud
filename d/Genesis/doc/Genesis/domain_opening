@@ -1,0 +1,38 @@
+OPENING A NEW DOMAIN/AREA
+=========================
+Prior to the opening of a new Domain, or area in an already open domain,
+Lieges should do the following:    
+   
+  * Review all areas to be opened to mortals.        
+      Walk through the areas.
+         Look for mis-matched exits and loading errors, incoherent and
+         mis-spelled room descriptions, and lack of add_item usage.  Do 
+         make sure that the weapons and armours to be available to the
+         mortals are within the legal limits.
+      Consider asking the AoB team to review the areas you believe to be 
+         'openable'.  They have a global view of Balance and might bring 
+         to your attention things that you have missed.
+
+  * Review Quests thoroughly.
+      Be sure that the quest experience awards are reasonable for the
+         level of difficulty. Ask other Lieges and/or Arches for opinions.
+      Be sure that quest exp for each quest will be awarded one time only.
+
+  * Check and double-check all documentation.
+      Inadequate documentation will delay the opening. See 'man 
+         domain_info'.    
+
+  * Inform the AoD and the AoB of the geographical areas to be opened.
+      (Pathnames, please) 
+
+  * Inform the AoD and most particularly the AoB of any guilds, major or 
+      minor, intended for opening.  (This rule holds true in all circum-
+         stances, not just when a Domain is first opened.)   
+
+  * In the case of a new domain, wait for the AoD's formal approval to
+    'open', then:     
+      Post (formal) notice of the Domain's opening to mortals on the 
+         wizard 'domain' board.        
+      Unblock exits and start shiplines. 
+         You're in Business!
+

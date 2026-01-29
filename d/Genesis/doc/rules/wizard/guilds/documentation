@@ -1,0 +1,15 @@
+HEADER What to document, where to put it
+
+All guilds must be described in files in the '/d/<domain>/open/GUILDS'
+directory. The documentation should include the calculation of the
+tax (how much tax for the skills that are trained, how much tax for
+extra abilities or benefits, how much tax for combat aid, how is the
+comabt aid estimated). It should also describe all special guild
+skills, all extra abilities and benefits and list the
+guildmaster(s). See the manual 'domain_info' for details.
+
+In the same directory you should put a file for each adventurers guild
+in your domain. It should contain a list of all skills that are taught
+in the guild, the maxima to which those skills are taught, the cost if
+that is different from the default price, the path to the guild and
+any other special information worth of including.

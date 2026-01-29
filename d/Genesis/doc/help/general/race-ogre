@@ -1,0 +1,46 @@
+NAME
+        Race-ogre
+
+SYNOPSIS
+        This is not a command, simply information.
+        
+DESCRIPTION
+        Since becoming an ogre is a complete transformation of your mind and 
+        body you will remember nothing of your old racial abilities. As an 
+        ogre you will be granted the following preset racial abilities 
+        instead:
+
+        Insatiable    
+            You will be able to eat more food than other people, meaning you 
+            will not tire as easily.
+            
+        Resilient
+            Your resistance to magic, and especially poison, will be stronger
+            than other people.
+            
+        Being an ogre also means you will have other ogre-specific benefits
+        and drawbacks.
+
+        Ogre benefits
+            - You will receive a considerable strength and constitution boost.
+            - You will be able to wield two-handed weapons in one hand.
+            - Your thick hide will act as a natural armour. 
+            
+        Ogre drawbacks
+            - Your intelligence and wisdom will be extremely low and your
+              dexterity will suffer a little bit as well.
+            - Due to your size you will fight at a slower pace.
+            - You will not be able to wield one-handed weapons.
+            - You will not be able to wear shields.
+            - You will not be able to wear armours other than special 
+              ogre-sized armours.
+            - You will not be able to sneak or hide.
+            - You will not be able to whisper without being overheard.
+
+        If you stop being an ogre you will return to your old race and the 
+        benefits and drawbacks of being an ogre goes away. You will also get
+        your old racial abilities back.
+
+SEE ALSO
+        races, rabilities, race-human, race-elf, race-dwarf, race-hobbit, 
+        race-gnome, race-goblin, race-undead.

@@ -1,0 +1,39 @@
+HEADER Membership rules and management
+
+Entering:
+
+  The guild can choose to accept or deny any player for any reason.
+  However, there should be formalised guidelines. Individual players
+  may be denied by a council if one is created, but wizards may never
+  accept or deny at a personal level. Otherwise, the accept/deny rules
+  should be put into code. You may for instance disallow people with
+  certain styles of guilds, certain alignment requirements, whatever,
+  but you should be very careful with disallowing specificly named
+  other guilds.
+
+Leaving:
+
+  The punishment for leaving a guild can be anything, even death, AS
+  LONG AS the player is informed of this BEFORE he joins the
+  guild. The punishment for leaving a major guild should be very
+  strict. For minor guilds it should be very small, maybe even none.
+
+Expelling:
+
+  If a guild wants to be able to remove members from the guild, for
+  example in case they break guild rules, the removal may not be
+  executed by a wizard. It has to be coded so that it either happens
+  automatically or that it is decided and executed by mortals.
+
+Council:
+
+  If a guild has a council, then the procedures for joining and leaving
+  the council (voting, appointment or otherwise) must be embedded in the
+  code. In order for a council to function, its members should be active.
+  There must be a way for the guild to remove idle members from the
+  council. This can be either automatically based on certain parameters
+  or through an action of one or more members (but not require wizards).
+
+  In general, it is encouraged for a guild to have a mechanism through which
+  members can remove a council member they feel should not be in the council
+  (due to idleness, abuse of power, killing someone or otherwise).

@@ -1,0 +1,18 @@
+NAME
+	exploration
+
+SYNOPSYS
+	exploration
+	exploration guess <number>
+
+DESCRIPTION
+	The exploration command will display the number of rooms you have
+	visited, and the number of items (weapons, armours, food, herbs,
+	drinks, potions, torches and containers) and beings (persons,
+	monsters or animals) you have noticed using the "notice" command.
+
+OPTIONS
+	<number> - your guess for the total number of rooms in the realms.
+
+SEE ALSO
+	notice

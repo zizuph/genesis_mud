@@ -1,0 +1,24 @@
+HEADER Guild stats
+
+Each type of guild is given a stat in the player. As all stats it is
+governed by how much experience the player gains. Each time the player
+gains experience %tax of it will end up in the guilds stat.
+
+For normal stats, players can set the %pref values. For the guild stat
+this % value is the guild tax. This also means that if a player has
+joined a guild, then he can not set his learn prefs to more than 100 -
+%tax.
+
+It is up to the guild to supply an interpretation of the guild
+stat. Some might choose not to do this and that is quite ok. The main
+purpose is to tax the players for joining a guild. It is of course
+more entertaining if the guild stat actually means something.
+
+If a player joins or leaves a guild, the guild stat can be reset to 1
+(Use 'clear_guild_stat()').
+
+If you want one or more variables in the player measuring some
+prestige or other advancement in the guild, this is easily solved
+using the skills mechanism. Skills are in effect extra identifiable
+variables stored in the player. You do not of course have to display
+the value as a skill.

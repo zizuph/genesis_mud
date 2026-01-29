@@ -1,0 +1,293 @@
+            Balance Documentation for Random Item Imbuement
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                 +----------------------------------+
+                 | Prepared by Gorboth and Lavellan |
+                 |      -**- January 2011 -**-      |
+                 +----------------------------------+
+
+
++--------------------------+
+| Statement of Philosophy: |
++--------------------------+
+
+People love random chances for rewards - Las Vegas is standing proof. This
+project has been a method to introduce into Genesis a constant and varied
+way for players to feel like every kill of a monster is a pull at the slot
+machine - one more random chance for an unknown fun reward.
+
+People also love collecting. This system of imbuement will create a whole
+new type of collecting based on an economy of imbuement potential.
+
+Additionally, people *really* love magic and rarely accessible powers.
+The ability to wield a power that only appears in the game during a
+blue moon is exciting and fun. Such effects we allow to be unbalanced
+perhaps even to the point of pushing the limits of the game due to the
+fact that they are so rare and unsustainable.
+
+Finally, many people love lore and crafting-mastery. This system will
+introduce into the game a rich and varied world of colorful magic that
+players will have the opportunity to recognize at-a-glance, and craft
+at will.
+
+
++------------------------+
+| Overview of the Build: |
++------------------------+
+
+VARIETY OF EFFECTS:
+~~~~~~~~~~~~~~~~~~
+
+  Many individual magical effects (mods) have been created to shadow weapons
+  or wearable items. Categories for these effects are currently thus:
+
+  (11) Banes---------provide aid in fighting against various races
+  ( 8) Damage--------create a damage special based on elemental magics
+  ( 6) Stat Boost----give the user a boost in various stats
+  (19) Skill Boost---give the user a boost in various skills
+  (11) Resistances---give the user additional levels of various resistances
+  (11) Other Effects-many different individual effects
+
+  (66) Total mods (currently)
+
+
+VARIETY OF EFFECT POWER:
+~~~~~~~~~~~~~~~~~~~~~~~
+
+  There are three potential power levels for any given mod:
+
+    Low    (Level 1): Some useful combat aid           -- common to see.
+    Medium (Level 2): Much more useful combat aid      -- quite rare.
+    High   (Level 3): Excitingly powerful combat aid   -- phenomenally rare.
+
+
+PROBABILITIES AND DISTRIBUTION:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  The way in which these mods will appear in the game is as follows.
+
+  Whenever a weapon or armour is cloned into the game, it will first check
+  to see whether it has been cloned onto an npc. It will then check to see
+  if the npc has already had one of its items roll for an imbuement. If
+  it has not, then this item will have a chance for an imbuement (dice) roll.
+  What we set up is that 1 out of every 100 npcs that carry weapons or
+  armours will have a *single* piece of equipment spawn with an imbuement.
+  Thus, the only way for players to find imbued items is by taking them from
+  an npc.
+
+  The dice rolls for probability of an imbuement work as follows:
+
+    A roll is made to determine the number of mods added to an item:
+
+    - 1% of npcs get a single mod on one of their items. (1/100 chance)
+    - 10% of single mod items are upgraded to having two mods. (1/1,000)
+    - 10% of two mod items are upgraded to having three mods. (1/10,000)
+
+    When any mod is added, a roll is made to determine its power level:
+
+    - Mods are automatically Level 1. (1/100 chance)
+    - 10% of level 1 items are upgraded to Level 2. (1/1,000 chance)
+    - 20% of level 2 upgraded to Level 3. (1/5,000 chance)
+
+    This results in the following odds:
+
+    - Mods at Power Level 1:
+        - A given item rolls a single lvl 1 mod:  1/100    
+        - A given item rolls two lvl 1 mods:      1/1,000  
+        - A given item rolls three lvl 1 mods:    1/10,000 
+
+    - Mods at Power Level 2:
+        - A given item rolls a single lvl 2 mod:  1/1,000     
+        - A given item rolls two lvl 2 mods:      1/100,000   
+        - A given item rolls three lvl 3 mods:    1/10,000,000 
+
+    - Mods at Power Level 3:
+        - A given item rolls a single lvl 3 mod:  1/5,000      
+        - A given item rolls two lvl 3 mods:      1/500,000  
+        - A given item rolls three lvl 3 mods:    1/50,000,000 
+
+    Lets say we want to roll a specific mod, like haste, that will
+    give us just the power we want, or even more difficult, roll a
+    specific powerful combination like a darkvision mod coupled with
+    a darkness mod.
+
+    Currently: (as of this writing there are 66 different mods)
+    - Odds of rolling a particular mod (Level 1): 1/6,600
+    - Odds of rolling a particular mod (Level 2): 1/66,000 
+    - Odds of rolling a particular mod (Level 3): 1/330,000
+    - Odds of rolling a specific 2-mod combo (Level 1): 1/4,356,000
+    - Odds of rolling a specific 3-mod combo (Level 1): 1/2,874,960,000
+    - Odds of rolling a specific 3-mod combo (Level 3): astronomical!
+
+  So, in the end, the main way we control the balance of the imbuement
+  system in the game is through rarity. Yes, there are some very powerful
+  potential combinations, but they will be things that occur only once
+  in a blue moon. Some will almost certainly never occur. (miracles are fun!)
+
+
+CRAFTING:
+~~~~~~~~
+
+  Perhaps one of the greatest concerns for balance is the ability players
+  will have to craft their own imbuements. The entire idea of putting
+  into the game fully unbalanced effects hinges on the notion that these
+  effects will be fleeting. Therefore, we limit the degree to which
+  players can sustain unbalanced power by making the crafting requirements
+  very steep three key ways - Credits required, distribution, and money.
+
+  First though, a brief summary of the crafting theme is necessary. When
+  players discover an imbued item, they may bring it to the Enchanter in
+  Sparkle. Here they may purchase a so-called "nullstone" for 25 platinum
+  coins. Then, the enchanter will disenchant their item, storing the
+  energies of the enchantment in the "nullstone" which will be transformed
+  into the corresponding "stone" type for that enchantment based on the
+  imbuement lore. These stones are the currency (credits) of the craft, and
+  can be stored in a portable bank of sorts called a lapidarium. Using the
+  Enchanter's Forge, players can then use their collected imbuement stones
+  to transfer imbuements of their choice into selected items.
+
+  The first limiting factor, then, is the credits required. The economy
+  of imbuements works on a 9:1 ratio. That meaning, any imbuement that
+  a player finds, and has disenchanted, becomes 9 times weaker than the
+  original imbuement, and must therefore be found 9 times in order to
+  recreate the power of that imbuement. We can think of this in terms of
+  credits. There are 5 "levels" of imbuements stones in terms of credit
+  value:
+
+      "cracked stone"     = 1  credit
+      "blemished stone"   = 3  credits
+      "ordinary stone"    = 9  credits
+      "unblemished stone" = 27 credits
+      "glittering stone"  = 81 credits <-- note the exponential factoring
+
+  Stones may be <combined> when you have 3 of equal quality. Thus,
+  3 "cracked" stones can combine to create a single "blemished" stone
+  and so on up the chain.
+
+  Therefore, the crafting economy factors thusly:
+
+  +===========================+===============+============================+
+  | HARVESTING PRACTICE:      | YIELDS:       | CRAFTING OPTIONS:          |
+  +===========================+===============+============================+
+  |Disenchant a lvl 1 mod --> |1 "cracked"    | --> Combine 3 to upgrade   |
+  |                           |   stone       |     to 1 "blemished"       |
+  |                           |               |     stone                  |
+  +---------------------------+---------------+----------------------------+
+  |Disenchant a lvl 2 mod --> |1 "blemished"  | --> Combine 3 to upgrade   |
+  |or Combine 3 "cracked"     |   stone       |     to 1 "ordinary" stone  |
+  |stones                     |               |                            |
+  +---------------------------+---------------+----------------------------+
+  |Disenchant a lvl 3 mod --> |1 "ordinary"   | --> Use to craft lvl 1 mod |
+  |or Combine 3 "blemished"   |   stone       |     or combine 3 to upgrade|
+  |stones                     |               |     to 1 "unblemished"     |
+  |                           |               |     stone                  |
+  +---------------------------+---------------+----------------------------+
+  |Combine 3 "ordinary" ----> |1 "unblemished"| --> Use to craft lvl 2 mod |
+  |stones                     |   stone       |     or combine 3 to upgrade|
+  |                           |               |     to 1 "glittering"      |
+  |                           |               |     stone                  |
+  +---------------------------+---------------+----------------------------+
+  |Combine 3 "unblemished" -> |1 "glittering" | --> Use to craft lvl 3 mod |
+  |stones                     |   stone       |     (cannot be upgraded)   |
+  +---------------------------+---------------+----------------------------+
+
+  Here, then, the 9:1 ratio becomes apparent. When a player harvests
+  a lvl 1 mod via disenchantment, they receive a single "cracked"
+  stone. To craft a single lvl 1 mod, they would need 9 of these stones
+  to create an "ordinary" stone of the needed type. If a player were to
+  harvest a lvl 3 mod, they would receive a single "ordinary" stone, which
+  would mean they needed to collect 9 more of these "ordinary" stones to
+  produce the 9 needed to work their way up to a "glittering" stone of
+  that type which would produce a crafted mod at lvl 3. The 9:1 ratio of
+  credits-required to power-lvl-crafted is what creates a strong limiting
+  factor here.
+
+  Distribution as a limiting factor plays directly into the amount of
+  credits required. Imbuements are distributed to only 1 out of every
+  100 items put into the game on npcs. These imbuements are all lvl 1
+  mods. Lvl 2 mods appear one every 1,000, and lvl 3 every 5,000.
+  In addition, there are over 60 *different* imbuement types. Thus, to
+  craft a particular imbuement, haste for example, you would need 
+  to find 9 different instances of a lvl 1 haste mod in the game before
+  you could craft a *single* lvl 1 instance of it on an item of your
+  choice. To craft a single lvl 3 haste mod, you would need to find 81
+  separate instances of a lvl 1 haste mod in the game, or 27 instances
+  of a lvl 2 haste mod in the game, or 9 instances of a lvl 3 haste
+  mod in the game. In this way, perhaps the easiest way to craft
+  quickly is to simply seek out any lvl 3 mods or "ordinary" stones that
+  people may have, and use them to craft a lvl 1 mod. To craft lvl 2
+  or lvl 3 mods will be *very* difficult, but certainly possible. It
+  is for this reason that we have lvl 2 and 3 mods be considerably more
+  powerful and less balanced than those of lvl 1.
+
+  Distribution, of course, will also play out based on how many npcs
+  are killed in a given time frame in the game. Tests have shown a
+  range from 750 - 900 npcs killed per hour, with the mean average
+  hovering just below 800. If these numbers hold true, then we would
+  expect somewhere between 7-9 new imbuements to spawn in the game
+  in a typical hour, with the average being around 8. This, too, will
+  not mean that players notice the imbued items, take them, and
+  harvest them - merely that they spawn into the inventories of npcs
+  for players to find.
+
+  We must, however, take into account the hardcore player who makes it
+  their sole mission to do nothing but harvest imbuements in a fully
+  researched and optimized manner. These players always exist, and
+  are the ones who find ways to break the system. We can look at
+  results from the Ogre guild to get an idea of what is possible
+  (the Ogre guild rewards players for how many npcs they are able
+  to kill in a single hour.) The record set by a player for a single
+  hour of npc killing is around 350. If we extrapolate that rate of
+  killing to an 8 hour playing session, we would have 2800 kills,
+  which would mathematically yield almost 30 imbuements. Given that
+  there are 66 imbuements in the game, a player of this hardcore
+  nature would need to log around 18 hours of play to find a specific
+  imbuement that they might be looking for. Unless the player is using
+  a bot, such a time would need to be stretched over 2 days of
+  gaming at 9-hours per session. Therefore, we say a specific
+  imbuement can be found by the most hardcore type of player, on
+  average, once every 2 days. Using the 9:1 ratio, we then know that
+  only once every 18 days will a player be able, by their own
+  efforts, to craft a lvl 1 imbuement of this specific type. To
+  work their way up to a lvl 3 imbuement of a specific type would
+  require 162 days or around 5 months. All of this, too, is what we
+  would expect only from the most hardcore of players - not the
+  "Average Joe."
+
+  The distribution will be further influenced by the trading market
+  that will undoubtedly spring up surrounding the crafting potentials.
+  This is an unpredictable factor that will require wizard monitoring
+  to ascertain the final impact as it develops over time. We take
+  comfort in the fact that even the full collecting power of an entire
+  playerbase is likely to yield only 8 imbuements per hour - meaning
+  that a given item will require around 8 hours to be found by anyone
+  in the entire playerbase. 
+
+  The final limiting factor is money. Each time an items is disenchanted
+  it will require a nullstone, which will cost the player 25 platinum
+  coins. In that the vast majority of stones will be made from lvl 1
+  imbued items, the basic math gives us 25*9 = 225 plats to craft a
+  single lvl 1 mod. If a player wants to try to actively harvest mods
+  for their lapidarium at a rate of, lets say, 10 mods a day, then it
+  will cost them 250 plats every day simply to *harvest* mods that will
+  be random and not immediately useful. To actually craft your way up
+  to a lvl 3 mod, assuming a player is typically only finding lvl 1
+  mods from which to harvest, the math looks like 25*81 = 2,025 plats.
+
+  One very important limitation of crafting is that unlike the random
+  rolls weapons and armours get when they are cloned to npcs, crafting
+  is only able to attach a *single* mod to a given item. There will be
+  no "peculiar" (2-mod) or "exotic" (3-mod) items built via crafting.
+  Only "unusual" (1-mod) items are possible. Crafting cannot occur on an 
+  already-imbued item.
+
+  Players always surprise us. They will find ways to harvest efficiently
+  and they have plenty of money. As such, it is probable that there will
+  occasionally be a player who cashes in a bunch of stones on a big
+  crafting blitz to outfit themselves with power that *far* exceeds
+  what we normally consider balanced. The ability to do this on any
+  regular basis, however, is hopefully sufficiently limited by the above
+  described factors.
+
+  The ability to monitor imbuements and restore, recreate, or generate
+  new imbued items is reserved expressly to the Admin and their teams.

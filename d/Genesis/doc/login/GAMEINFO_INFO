@@ -1,0 +1,310 @@
+##0##
+
+Main gameinfo menu.
+~~~~~~~~~~~~~~~~~~~~
+Section 1.    The MUD concept.
+        2.    History.
+	3.    Getting started.
+	4.    How to get around in the game.
+	5.    What to strive for. The main goal.
+
+Section 6.    Updates on Genesis 3.0
+        7.    The hierarchy of Genesis.
+	8.    Pilgrims.
+
+If you are running a frontend of some kind then you might have problems
+with this service. If so, try using telnet to milou instead.
+
+Entering 0 will always return you to this menu.
+Entering 'quit' will terminate gameinfo mode.
+##1##
+
+1. THE MUD CONCEPT.
+
+    A mud game can take many forms. However, common between all muds' is
+    the fact that many people are able to interact within the game at the
+    same time. MUD is the acronym for Multi User Dungeon. As the name
+    implies, the first muds was set in a fantasy environment. Even though
+    many still are, it is far from the only environment possible. What kind
+    of world you play in is entirely up to the administrators of the game
+    to decide. It can be anything from a science fiction universe in the
+    far future to a medieval world with castles and dungeons. This particular
+    world, Genesis, is set in a medieval fantasy environment.
+
+    You play the role of an adventurer. As you explore the world you will
+    meet other adventurers who might be friendly (or unfriendly) to you.
+    It will be up to you to choose your friends and enemies. As you treat
+    others, they are likely to treat you. Some creatures may prove hard to
+    deal with and some might be willing to trade. A few will flee as you
+    approach while others will stay and fight. As you gain experience as an
+    adventurer you will get better at the skills that you choose to practise.
+    Whether that is to wield powerful magic or lethal swords is again your
+    choice. Maybe you wish to do both...
+
+Entering 0 will take you to the main menu. Enter 2 for the next section.
+##2##
+
+2. HISTORY.
+
+    Earlier there were many different kinds of mud versions. The old mud
+    games have made way for newer versions with new features but the idea
+    is still the same. You roamed the world looking for treasures to find
+    and monsters to slay. When you gained experience you advanced in level
+    until you finally made it to Wizard level where you were immortal.
+    Unfortunately the old muds had a major fault. You were not able to
+    affect the world in any major ways. Some muds allowed you to add
+    descriptions but designing new adventures and to expand the world
+    was restricted to the administrator.
+
+    Then there was new light. A guy named Lars Pensj| designed a new
+    version of mud and called it LPmud. It was early spring 1990.
+    Every item and object was now defined by a piece of C code. If you
+    wished to make a change, that specific code were edited. Players
+    who finally reached the desired wizard level was given the ability
+    to code and make changes. Suddenly the game began to grow. Wizards
+    designed their own castles and filled the dungeons with monsters,
+    quests and treasures.
+
+    A new world was created. The first of its kind.  Genesis.
+
+    After a while some things were made quite clear. Not everyone is an
+    ideal designer. Some wizards created enormous treasure hoards guarded
+    by a whimpy monster just to attract the players to HIS castle. Others
+    were making vast empty areas which wasn't very much fun to play in.
+    Again something had to be done...
+    The light above the inventors head grew brighter and some new rules
+    were adapted. The wizards now had to join in domains supported by a
+    domain lord. Each domain were to work towards a specific goal and the
+    lord was responsible to the Gods if the wizards showed bad judgement.
+    With the Gods overseeing their followers work, things got more
+    organized and Genesis was cleaned up.
+
+    In the summer of '91 we were about to make a new great change of
+    the game. Things that we had learned to be bad were removed or
+    improved. Features that had been missed were added. The changes was
+    so profound that it again became a new LPmud version. People were
+    coding like crazy during the summer and made good progress.
+    Today we have the game running a beta version 3.0 and things
+    are beginning to take the form we wanted. The future is so bright...
+
+    However, a large number of other LPmud games (other worlds) has popped
+    up here and there. The earlier LPmud versions has been exported to
+    sites near and far. The game has grown to be quite popular and we are
+    proud to be able to say that Genesis is the original.
+
+Entering 0 will take you to the main menu. Enter 3 for the next section.
+##3##
+
+3. GETTING STARTED.
+
+    Since you have gotten this far I assume you know how to connect to
+    Genesis. What you need to do in order to be able to play the game is
+    to create a player character. Your adventurer.
+
+    [name]
+    First you get a question where you are asked to type your name.
+    (That was where you typed 'gameinfo' to get this stupid text...)
+    Be advised that the name you enter there is the name of your
+    adventurer in the game. The name you choose is for you to keep
+    all through the game and it can not be changed.
+
+    [password]
+    When you have chosen a name you will be asked to enter a password.
+    This password is for you to know and none to find out. It prevents
+    others from playing your character and thus imposing as you.
+    The password has to be at least 6 characters long and will not be
+    echoed on your screen as you type it. You will have to confirm it
+    by typing it a second time.
+
+    [E-mail address]
+    Now you will be asked to enter your E-mail address if you have one.
+    It enables us to get in contact with you if the need should arise.
+    If you don't have one, just enter 'none'. This can be changed later.
+
+    You will now be created as a pure newbie soul. A ghost.
+    When you enter the game your first task will be to find yourself a
+    body. A body will dramaticaly improve your chances of success in this
+    game. When you find one, you might wish to examine it and compare it
+    to other bodies lying around. One might be a female gnome, another might
+    be a male Human. One may be strong while another might be weak etc.
+    This is for you to find out before you slip into your new body.
+
+    Bodies found can be of six different races. Human, Elf, Dwarf, Hobbit,
+    Goblin or Gnome. Otherwise they might look rather alike. It is up to 
+    you to determine their looks and features. You will have to decide what
+    kind of life you wish to live and choose your needed skills acordingly.
+    When you finaly have molded your body to your likeing, you will descend
+    through space and enter the world of Genesis.
+
+Entering 0 will take you to the main menu. Enter 4 for the next section.
+##4##
+
+4. HOW TO GET AROUND IN THE GAME.
+
+    When you enter the world, things might seem strange to you at first
+    sight. However, there are a lot of different commands intended to
+    make things easier for you. Here is a short list of some useful ones.
+
+      [north east west south up down]  [n e w s u d]
+      These are the six basic directions for you to move in.
+      If you wish to go north, type "north" or "n" to move that way.
+
+      [look]  [look at]  [examine]
+      By typing "look" you look around in your present location.
+      If you "look at apple" you will take a closer look at the apple
+      and resieve a longer description if that item. "examine" or "exa"
+      will perform the same way.  This is a very useful command!
+
+      [get] [drop]  [get all] [drop all]
+      These commands allows you to pick up things that you find. You can
+      of course drop the things you carry along with you as well.
+      Typing "get all red ones" will get you all red items lying around.
+
+      [inventory] [i]
+      Allows you to see what you are carrying. If you carry a bag, you will
+      have to type "look in bag" to see what is in it.
+
+      [say] [shout]
+      This is very very useful if you wish to talk to someone. Just type
+      "say Hello, who are you?" when there is someone to talk to. If you
+      shout you will be heard in the next room as well but not further away.
+
+      [commune all]  [commune <wizard_name>]
+      This is for emergencies only! If you really need to contact a wizard
+      or Keeper of the game, this is how you do it. The keepers are busy
+      deities so don't bother them for nothing if you wish to keep your head.
+      "commune all I want more money!" will send your wish to ALL wizards
+      in the game but if your wish is for more money you might just find
+      yourself in the midst of a thunderstorm all of a sudden. 
+      "commune Fatty I hear you make wonderful donuts. Could you possibly
+      help me out?" would have a higher chanse of success since Fatty loves
+      donuts and is the only one to be interupted by your message. 
+
+      [wield]  [kill]
+      This might be useful if you are attacked...   Assume you are about
+      to be eaten by a lion and can't run away. Well, you can fight by
+      wielding a weapon ("wield sword") and kill the lion ("kill lion").
+      But then, the lion might kill you anyway.
+
+      [wear] [remove]
+      If you have some sort of armor and wish to use it, you will have
+      to wear it first. If you wish to change armor you must remove
+      your old one. (remove leather armor)  (wear platemail)
+
+      [introduce]
+      When you meet someone in the game you do not instinctively know
+      their name. Naturally you have to introduce yourself and your
+      fellow companions to the new person.  Example: Gubgub the gnome
+      and Bergabur the dwarf meet a tall handsome human wizard.
+      Gubgub bows to the wizard and introduces himself. (introduce myself)
+      He then introduces Bergabur to the wizard. (introduce Bergabur)
+      The human wizard bows to them and introduces himself as
+      Lord Styles - Ruler of Liwitch Island, male human (devious).
+
+Entering 0 will take you to the main menu. Enter 5 for the next section.
+##5##
+
+5. WHAT TO STRIVE FOR. THE ULTIMATE GOAL.
+
+    Well, basically this is a game so the main goal should be to have fun.
+    In reality there are as many definitions of 'having fun' as there are
+    people to ask. Some like to explore and kill monsters. Some like to
+    solve quests and riddles. Others prefer to just meet people and talk
+    while some crave for power and domination. However, there are always
+    people who enjoy making life miserable for others... If one of the
+    big guys steal your stuff or just keep on harassing you, round up a
+    couple of friends and give him a good beating. It is generally very
+    easy to create a player and then only use it to be mean. If we find
+    this to be common we will reject connections from that site or machine.
+    We don't pretend that Genesis is a democracy and given a reason the
+    administrators of the game will surely use their divine intervention.
+
+    What generally is considered a major goal is to reach wizardhood.
+    To become a wizard is not an easy task but perhaps one of the finest
+    endings of ones mortal life. As a wizard you will become immortal.
+    You will be granted power over life and death. Over the land and the
+    oceans. You will be able to create new realms and fill them with
+    creatures of your own and before to long you will have mortals who
+    come to visit. Some will stay and explore your dungeons and some
+    will try to lift a few jewels from your treasury. 
+
+    Since a wizard is immortal it isn't really fair to harass players anymore.
+    In fact we have made rules against such actions. As a wizard you are to
+    set an example of good judgement and decent behavior when associating
+    with mortals. As a wizard you are one of the most powerful beings in
+    the game. Never forget what you are and never abuse your power.
+
+    Life as a mortal can be hard and tedious. There will be times when
+    you wonder why you ever got involved in this stupid game. The answer
+    is easy. It is fun. You meet a lot of people from all over the real
+    world inside this virtual world. The fact that real live persons play
+    some of the creatures you meet on your journeys in Genesis, just makes
+    it so very much more interesting. Whatever your definition of fun is,
+    go for it. That is your main goal. 
+
+Enter 0 to get back to the main menu.
+##6##
+
+6. UPDATES ON GENESIS 3.0.   SPECIAL INFORMATION.
+
+    The game is now open for everyone. However, we're still in a testphase
+    so please expect things to be chaotic for a while yet. If you choose
+    to play despite the current confusing status, please be generous with
+    bug reports so that we can get things in order as soon as possible.
+    Remember the [bug]  [typo]  [idea] and [praise] commands.
+
+Enter 0 to get back to the main menu.
+##7##
+
+7. THE HIERARCHY OF GENESIS.
+
+
+    At the top of the pyramid are		   Keepers
+    the Keepers.				     /|\
+						    / | \
+    To help them they have		         Archwizards
+    the Archwizards.			          /   |   \
+					         /    |    \
+    Each lord is responsible 		     Lord    Lord   Lord
+    for a number of wizards.		     /        |         \
+				        -----      -------      --- 
+				        | | |      | | | |      | | 
+    Each wizard work in		        W W W      W W W W      W W
+    a domain. (A realm)		        | | |      | | | |      | | 
+				      [domain]    [domain]    [domain]
+    Some are apprentice				    
+    wizards until they	          A   A   A   A   A   A   A   A   A   A   A
+    find a domain to join.
+				m m m m m m m m m m m m m m m m m m m m m m m
+    Mortals are the source     m m m m m m m m m m m m m m m m m m m m m m m m
+    of the deities powers.    m m m m m m m m m m m m m m m m m m m m m m m m m
+    Without mortals there
+    would be no game.
+
+    Finally there is the Mages and Pilgrims. Mages are Lords without domains.
+    A mage is usually a very competent and experienced maker of things in the
+    world. The Pilgrim is described in a special chapter.
+
+
+Enter 0 to get back to the main menu or 8 to read about Pilgrims.
+##8##
+
+8. PILGRIMS
+
+    You might come across pilgrims as you wander in the world of Genesis.
+    Pilgrims are people who has been specially invited to Genesis as visitors.
+    They are wizards, but does not contribute to the game by adding to the
+    world code like ordinary wizards.
+
+    Usually they are people who have contributed to Genesis by writing game-
+    driver applications or LPC-code that makes up the basics of the game in
+    some way.
+
+    Applications for Pilgrim status can be made to the Keepers of Genesis,
+    but please don't bother unless you know that you are part of the above
+    cathegory. Usually the people involved haven't even made a formal
+    application; they have been invited. Having successfully performed the 
+    commands "ftp", "uncompress", "tar" and "make" (i.e. being Keeper of 
+    some other mud) is not a sufficient reason for becoming a Pilgrim here.
+
+Enter 0 to get back to the main menu.

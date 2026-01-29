@@ -1,0 +1,36 @@
+NAME
+        Race-goblin
+
+SYNOPSIS
+        This is not a command, simply information.
+        
+DESCRIPTION
+        As a goblin you may select two of the following six racial abilities:
+
+        Stalwart
+            You will be able to carry heavier loads than other people before 
+            becoming encumbered by it.
+                        
+        Scavenger
+            You will occasionally find more coins on fallen enemies compared 
+            to other people.
+        
+        Opportunistic
+            You will have a slightly higher chance of scoring a critical hit 
+            (additional damage) on your enemy.
+                        
+        Light-fingered
+            You will get a twenty skill level bonus (up to superior guru) in 
+            pick pocket.
+                        
+        Stealthy
+            You will get a ten skill level bonus (up to superior guru) in 
+            sneak and hide.
+                        
+        Resilient
+            Your resistance to magic, and especially poison, will be stronger
+            than other people.
+
+SEE ALSO
+        races, rabilities, race-human, race-elf, race-dwarf, race-hobbit, 
+        race-gnome, race-ogre, race-undead.

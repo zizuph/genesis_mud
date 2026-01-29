@@ -1,0 +1,36 @@
+NAME
+        Race-hobbit
+
+SYNOPSIS
+        This is not a command, simply information.
+        
+DESCRIPTION
+        As a hobbit you may select two of the following six racial abilities:
+
+        Stealthy
+            You will get a ten skill level bonus (up to superior guru) in 
+            sneak and hide.
+                         
+        Fleet-footed
+            If you are not in combat, you will be able to recover your energy
+            quicker after you get tired.
+                         
+        Insatiable    
+            You will be able to eat more food than other people, meaning you 
+            will not tire as easily.
+                         
+        Tenacious
+            You will recover lost experience (from death, leaving guilds, 
+            etc.) faster than other people.
+                         
+        Opportunistic
+            You will have a slightly higher chance of scoring a critical hit
+            (additional damage) on your enemy.
+                         
+        Explorer
+            You will get a ten skill level bonus in herbalism, awareness, 
+            location sense, and tracking.
+
+SEE ALSO
+        races, rabilities, race-human, race-elf, race-dwarf, race-gnome, 
+        race-goblin, race-ogre, race-undead.

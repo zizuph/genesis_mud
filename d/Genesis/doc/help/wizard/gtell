@@ -1,0 +1,14 @@
+NAME
+	gtell - send a message to a given wizard on another mud
+
+SYNOPSIS
+	gtell wizard@mud message
+	gtell wizard.mud message
+
+DESCRIPTION
+	With this command you can send messages to any wizard on any mud
+	known to Genesis.
+
+SEE ALSO
+	gwiz, rwho, mudlist
+

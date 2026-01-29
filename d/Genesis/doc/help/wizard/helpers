@@ -1,0 +1,72 @@
+
+The task of administrating and maintaining Genesis has been
+separated into several departments. Each 'department' is run
+by an Archwizard, who is in turn assisted by a group of helpers,
+who may or may not have special abilities which are necessary
+for their department. Listed below is a list of all departments,
+the Archwizard in charge of the area, and his or her helpers.
+
+
+========================================================================
+Arch Position: AoC (Code Arch)
+Archwizard   : Shiva 
+Helpers      : Lilith
+========================================================================
+The AoC and the helpers to the AoC will be able to help you debug your
+code, suggest ways to improve your code, and generally help out with
+coding in general. The AoC will be responsible for catching bugs in
+the logs, reporting or fixing them, keeping the example and standard
+files up to date and functional, and reviewing code to ensure quality.
+The helpers could be considered as 'Code Consultants'.
+
+========================================================================
+Arch Position: AoP (Player Arch)
+Archwizard   : Wisk
+Helpers      : Mercade, Shiva and Teth
+========================================================================
+The Arch of Players and helper(s) are mainly here to help fix buggy
+players.  Also, naturally, they are in charge of catching and punishing
+those who will not follow the rules of Genesis.
+
+========================================================================
+Arch Position: AoB (Balance Arch)
+Archwizard   : Igneous
+Helpers      : Maniac, Mercade, Olorin and Shiva
+========================================================================
+The balance team is responsible for enforcing general game balance
+rules.  The helpers to the AoB will undertake specific projects under
+the supervision of the AoB. They are not to be approached independantly
+due to the sensitivity of their work.
+
+========================================================================
+Arch Position: AoD (Domain Arch)
+Archwizard   : Teth
+Helpers      : Gnadnar, Maniac and Mercade
+========================================================================
+The Arch of Domains and his helpers deal with applications for wizardhood, 
+handle the creation of new domains and removal of old ones, promote the 
+smooth running of existing domains, handle the unretirement of wizards and 
+the promotion and demotion of wizards where necessary, and promote effective 
+communication between lieges and the administration. 
+
+========================================================================
+Arch Position: AoG (Gamedriver Arch)
+Archwizard   : Tintin
+Helpers      : Cygnus, Marvin, Mercade, and Plugh
+========================================================================
+The gamedriver department spends most of its time making sure that the
+gamedriver keeps running the game smoothly. This is generally done by
+not tinkering with the gamedriver.
+We also do our hardest to ignore bugs in the hope that they will go away.
+Sometimes bugs refuse to go away no matter how much you ignore them. When
+that happends we do some coding, to replace the bug with a new one that
+we can ignore.
+When things get too boring we introduce new bugs, disguised as features.
+
+========================================================================
+Arch Position: AoM (Mudlib Arch)
+Archwizard   : Mercade
+Helpers      : Shiva and Wisk
+========================================================================
+The mudlib department is in charge of development of the standard game
+code outside of the gamedriver.

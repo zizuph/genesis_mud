@@ -1,0 +1,15 @@
+NAME
+        rabilities - see your racial abilities
+        ra         - a global alias for 'rabilities'
+        
+SYNOPSIS
+        rabilities
+        ra
+    
+DESCRIPTION
+        With this command you can see which special abilities your race is
+        granting you.
+
+SEE ALSO
+        races, race-human, race-elf, race-dwarf, race-hobbit, race-gnome,
+        race-goblin, race-ogre, race-undead.    

@@ -1,0 +1,15 @@
+NAME
+	account
+
+SYNOPSYS
+	account [-g] <name>
+
+DESCRIPTION
+	Allows an archwizard to check the GoG bank account of a player.
+	It will display the coins account of the player in two columns.
+	The first column contains the actual account value and the second
+	the coins in the minimized version.
+
+ARGUMENTS
+	-g	Display also the gems stored at the various deposits.
+	<name>	The name of the player.

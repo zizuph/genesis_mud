@@ -1,0 +1,169 @@
+                  ==================================
+                             CHAPTER THREE
+                  Magical schools, guilds and orders
+                  ==================================
+
+It is beyond mortal comprehension to completely understand all the
+various magical forms and elements described in the former chapter.
+If every creature had to determine the aforementioned principles of
+magic on their own, magic would be scarce indeed.  To combat this,
+various groups of mortals have joined together to a storehouse of
+knowledge of magic.  
+
+There are two main types of magic on Genesis.  The first sort is that of
+the common mage. Schools of mages have sprung up throughout the land,
+each having its own particular flavour, or emphasis in the teaching of
+its knowledge.  Some favour fire, others water.  Some life, some death.
+Some teach a kind of balance, treating no one type of magic as above the
+others.  Some schools favour a particular form, others a particular
+element.  The common thread that links all these types of schools
+together is the reliance on self.  The power of these mages comes from
+their own study of the elements and of magic.  
+
+The second main form of teaching is that of the clerical order.  Each
+such order is devoted to one or more deities, which are the 
+source of power for these casters.  The deities themselves grant the
+spells, and prayer from the cleric channels the deities power into the
+world of Genesis.  Despite this seeming singularity of the skills
+involved in casting this sort of spell, nonetheless all the forms and
+elements still apply.  This is so because the magic must be properly
+channeled through the caster, and without careful control, the deity may
+burn his priest out of existence.  Without proper skill with the various
+forms and elements, the deity is limited in what he may do through his
+priest.
+
+All places of learning magic will hereafter be referred to as "guilds."
+Certain strictures must bind all guilds, both priestly and magical.  
+
+Guild tax is developed as described in the 'guilds' man page.  In
+addition to the costs listed there, guilds offering spells must abide by
+the following tax guidelines.  The table lists the tax per spell offered
+by the guild.
+
+Guild      Magical                Non-magical
+           Layman   Occupational  Layman   Occupational
+Class 1      0.25%      0.1%        1%         0.5%
+Class 2      0.5%       0.25%       2%         1%
+Class 3      1%         0.5%        N/A        N/A
+Class 4      N/A        1%          N/A        N/A
+
+Spell classes are defined in the following general way.  If it is not
+clear which class a spell falls under, ask the arch responsible for
+magic within the game.
+
+Class 0  -- Cantrips
+    Generally spells that only have cosmetic effects within the game.  
+*Very* limited informational spells might be placed in this category as
+well.
+
+Class 1  -- Very minor spells
+    Typically spells that harms no one, only gives limited information
+and help. Examples of this kind of magic is temporary light and
+darkness spells, limited information detection spells.
+
+Class 2  -- Minor spells
+    Very minor healing/damage, easy detection spells, minor defensive,
+dispelling spells.
+
+Class 3  -- Intermediate Spells
+    Ordinary healing/damage, detection, defense, dispelling etc.
+
+Class 4  -- Advanced spells
+    Advanced detection spells (see stuff in other rooms, know other
+people's inventories etc). Powerful attack/healing spells. Advanced
+dispelling, maybe even stat-affecting spells. Limited conjuring power
+for very advanced players.
+
+Balance Requirements
+--------------------
+At most one third of the spells may cause damage.
+At most one third of the spells may increase defence.
+Each additional attack or defence spell costs 0.5% tax.
+
+Each spell violating these strictures adds 0.5% tax.
+
+Each spell is expected to have a material, a somatic, and a verbal
+component.  Class 0 spells are not required to have any components, but
+their use is suggested wherever it makes sense.  Each spell lacking one
+or more of these costs extra, as defined by the following table.
+
+missing 1: 150% normal cost.
+missing 2: 200% normal cost.
+missing 3: 250% normal cost.
+
+Standard material components are valueless, other than for
+spellcasting, and are available from the guild for a "small" fee.
+These components disappear when the player leaves the game.  More
+complex procedures to obtain components and more expensive components
+may reduce the cost of a spell.  To gain a bonus, components must always
+be consumed.
+
+Quest required to get component : -25%*quest level
+Component guarded by creature   : -avg_stat_of_creature
+Component cost is < 1 gp        : 0%
+Component cost is >=1 gp        : -25%
+Component cost is >=1 pp        : -50%
+Component cost is >=12 pp       : -75%
+Component cost is >=144 pp      : -90%
+
+Other special circumstances may be devised which could result in bonuses
+(or penalties!) to your tax rate.  The exact details will have to be
+decided by an archwizard as they are needed. 
+
+Spell Acquisition
+-----------------
+Logically, each caster should not immediately be able to cast every
+spell his guild offers immediately upon joining.  Rather, spells should
+be learned individually or in small groups as the caster learns more and
+more about his guild.  There are a plethora of methods you can use to control
+this in your guild.  
+
+o Guild stat.  All the experience earned in your guild is credited
+towards the character's guild stat.  This gives an easy method of
+determining the experience of the character within the guild.
+Average stat may be used also, but this doesn't incorporate time spent
+in the guild.  Some combination of this may be used also.
+
+o Guild skill.  A special skill can be defined in the character which is
+needed to cast spells of that guild.  This skill can be treated as a
+normal skill, trained with money, or any other concievable system may be
+used to increase the skill.
+
+o Quests.  Learning each spell may require the completion of a quest.  
+
+o Buying spells.  Each spell might be available for a price.
+Availability of spells may very well be controlled by any of the above
+factors.
+
+o All available.  It is quite possible to make all spells available from
+the start. In this case, most spells should have an infinitesimal chance
+of working until the player has progressed somewhat in the guild.
+Chances should slowly improve though probably never reach perfection.
+This might be appropriate in a clerical guild.
+
+Magical Skills
+--------------
+All guilds will want to offer training for magical skills to their
+members.  While the skills themselves are discussed elsewhere, the
+rules on offering magical skills are not.  
+
+Each guild will have a primary element.  It is up to the guild as to
+whether to emphasise breadth or just one element.  In any case, this one
+element is permitted to be trained to 100% of the intelligence of the
+member.  No other skill may exceed 80%, the opposite element may not be
+trained at all, and the sum of the casters skills may not exceed 200% of
+his intelligence.
+
+As Element skills depend upon intelligence, so Form skills depend upon wisdom.  There are no restrictions as to which form skills a guild may train, or
+as to their maximum potential.  
+
+To summarize:
+Element skill      % of members intelligence
+main                       100
+opposite                     0
+total                      200
+other                       80
+
+Form skill         % of members wisdom
+any                        100
+total                      200

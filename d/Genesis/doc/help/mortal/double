@@ -1,0 +1,51 @@
+NAME
+        double - do a double emote
+ 
+SYNOPSIS
+        double list 
+        double <emote> and <emote> 
+        double <emote> while <emote> 
+ 
+DESCRIPTION
+        This command allows you to do two emotes in one sentence. Adverbs can
+        be used with the emotes normally and targets can be selected as you
+        do with the single emotes.
+        
+        You can use two different targets with the two emotes, but it is also
+        possible to have both emotes directed at one person. It is possible to
+        use an objective (him/her/it) in the second emote to refer to the same
+        person you are refering to in the first emote. For your convenience,
+        'it' will work on livings of all genders.
+ 
+        It is possible to create an alias with your favourite double emotes.
+        To insert the name of the person at the right place, you can use the
+        term XX in the following syntax:
+        
+        alias mydouble double (<emote> XX and <emote>)
+ 
+        The double emote ability will only work with the emotes listed in
+        "double list". It does not work with other emotes, nor does it work
+        with guild emotes.
+ 
+OPTIONS
+        list                   - list all available verbs for double emotes
+        <emote> and <emote>    - carry out the specified emotes in sequence
+        <emote> while <emote>  - carry out the specified emotes simultaneously
+  
+EXAMPLES
+    (1) double nod and wave sadly elf
+            You nod solemnly and wave sadly in the elf's direction.
+            
+    (2) double kick kroug while grin wizard
+            You kick the kroug fanatically while grinning evilly at the wizard.
+        
+    (3) double glare goblin and poke it eye
+            You glare stonily at the goblin and poke him in the eye.
+            
+    (4) double ack while panic
+            You go ack while panicking and looking for a place to hide!
+            
+    (5) alias myemote double (smile XX and wave it)
+        myemote dwarf
+            [As if you typed: double smile dwarf and wave it]
+            You smile happily at the dwarf and wave happily in his direction.

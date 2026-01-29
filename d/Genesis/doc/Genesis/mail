@@ -1,0 +1,174 @@
+MAIL IN GENESIS
+===============
+
+This document describes how mail is implemented in Genesis and which
+features it offers. The most important feature for coding wizards is the
+area-related alias. Other externally callable functions are the mail-flag
+and a query to get the time the player last handled his/her mail.
+Naturally we start by explaning how to clone the mail reader. For user
+help, "help mail" exists.
+
+/Mercade
+
+CLONING THE MAILREADER
+======================
+
+The easiest way to add the mail reader to the player in a post office
+is to do the following in the post office. The advantage of doing it
+here rather than in the enter_inv() is that init() is not called for
+non-living objects.
+
+#define MAIL_READER    "/d/Genesis/postmaster/mail_reader"
+#define MAIL_READER_ID "_reader_"
+
+public void
+init()
+{
+    object reader;
+
+    /* _Always_ call ::init() */
+    ::init();
+
+    /* Do not bother to clone if the player already has a reader. This is
+     * mostly the case for wizards. */
+    if (!present(MAIL_READER_ID, this_player()))
+    {
+	/* We are going to clone, so we much have an euid. */
+	setuid();
+	seteuid(getuid());
+
+	reader = clone_object(MAIL_READER);
+	reader->move(this_player());
+    }
+}
+
+When the player leaves the post office, you _must_ remove the mail reader
+from him again. This can be done by doing the following:
+
+public void
+leave_inv(object ob, object to)
+{
+    /* _Always_ call ::leave_inv() */
+    ::leave_inv(ob, to);
+
+    /* There can only be one mailreader in a player, so we do not have
+     * to check in a while-loop. In fact, due to a protection that
+     * disallows the reader to be removed while busy, an error might
+     * occur if you try a while-loop while the reader is still active.
+     */
+    present(MAIL_READER_ID, ob)->remove_object();
+}
+
+AREA RELATED ALIASES
+====================
+
+After the mail reader is cloned, area-related aliases can be added to it.
+This means that in your guild, you can for instance define aliases for
+the "council" and the "guildmaster"(s) or "mayor" in a city. To do this,
+you must call the function void set_alias(string alias, string *names) in
+the reader before it is moved into the player. The arguments are
+respectively the name of the alias and a list of names of individual
+players to replace the alias with. In the init() function of the post
+office, you should alter the above described to the following:
+
+	reader = clone_object(MAIL_READER);
+	reader->set_alias("alias", ({ "name1", "name2", ... }) );
+	    /* repeat for each additional alias. */
+	reader->move(this_player());
+
+Be advised that for (i.e.) a council-alias, the names must be generated
+from the council-code since it is not legal to hard-code the names of
+mortal players! For each alias, a new call has to be made to the reader.
+In the long descriptions of the room (or elsewhere) you have to tell the
+players about the area-related aliases, for they are not visible anywhere
+from the reader itself. Also, in the addressee-list, the player will get
+the substituted player-names, so they are not secret.
+
+NEW MAIL FLAG
+=============
+
+The new-mail-flag has four possible values now. To query the mail-status
+of a player, make the following call:
+
+int "/d/Genesis/postmaster/mail_checker"->query_mail(object player);
+	0 - no mail;
+	1 - mail, all read;
+	2 - new mail;
+	3 - unread mail (no new, but not all read yet either).
+
+The object player is optional. If omitted, this_player() will be used.
+By default, for instance on login, this_player() can be taken
+In the general code in the post-office that displays the message when
+players log in, this_player() is active, so you won't have to add the
+object player. Be advised that the old system of trying to restore the
+mail-file from the player yourself does not function any more due to
+privacy reasons!
+
+Code to use the mail flag to let the player know what his mail-status
+is on login, should be in the post office and can look as follows:
+
+#define MAIL_CHECKER "/d/Genesis/postmaster/mail_checker"
+
+public void
+query_mail()
+{
+    int    new_mail = MAIL_CHECKER->query_mail();
+    string status   = "";
+
+    /* No mail at all. */
+    if (new_mail = 0)
+    {
+	return;
+    }
+
+    /* Check for new or unread mail. */
+    switch(new_mail)
+    {
+	case 2: status = "NEW ";
+	case 3: status = "UNREAD ";
+    }
+
+    /* Give the player the message. */
+    write("\nThere is " + status +
+	"mail for you in the post office of Sparkle.\n\n");
+}
+
+ASSIGNING A POST OFFICE TO YOUR GUILD
+=====================================
+
+Guilds often have a post office, or otherwise there is a post office in
+a town nearby. You may want to tell players the mail is in a specific
+post office other than the default office in their racial starting
+location. In order to do this, you must add the following function to the
+shadow of your guild. Notice that you may not make the function nomask
+since other guilds may redefine this function. Therefore, it is always
+possible that people get their mail in a different guild since they are
+a member in more than one. Messing with the shadows or in any other way
+trying to get your post office to be listed is _not_ appreciated!
+
+#define POST_OFFICE "/d/Genesis/start/human/town/post"
+
+public string
+query_def_post()
+{
+    return POST_OFFICE;
+}
+
+LAST TIME HANDLED FLAG
+======================
+
+Mainly developed for the finger-information, it is also possible to query
+the time the player last handled his/her mail. To get this time, use the
+following call:
+
+int "/d/Genesis/postmaster/mail_checker"->check_date(object player);
+	0   - there is no mail for the player;
+	int - the time() the player last handled his/her mail.
+
+The object player is optional. If omitted, this_player() will be used.
+Note that when fingering someone, this_playar() points to you and not to
+the player you are fingering. Therefore the finger-command uses the
+pointer itself. If you are for any reason interested in this function,
+make sure you add the objectpointer to the active player or use the
+finger-player from SECURITY. This function is not meant for general use,
+though since it exists, I think it should be documented too.

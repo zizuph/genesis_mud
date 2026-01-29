@@ -1,0 +1,56 @@
+=========================================================================
+                    Bulletin Board Use for Wizards
+=========================================================================
+
+Boards are where important developments and information in Genesis are
+posted. It is important that wizards make reading these boards a priority
+and regular practice. Posting, yourself, on the correct board is also an
+expected behavior, should you have something people need to know.
+
+Mrpr's Board Soul allows wizards to remotely access all the boards in
+the game. Any wizard seen physically walking to a board rather than using
+the <mbs> tool, therefore, should be shamed into a corner and forced to
+wear a live piglet for a hat for three weeks.
+
+Learn how to use it:
+
+    <help mbs>     - brief intro
+    <mbh mbs>      - Full feature synopsis
+    <mbh tutorial> - How to use the system
+
+Now that you've got that down, please be sure to regularly check and
+read posts on the following boards which are considered mandatory reading
+for all wizards:
+
+    Board        Category     Description
+    -----        ---------    -----------
+    Info         Adm          Information to the mortals (Common Board)
+    News         Adm          News of general interest
+    Gd           Develop      Gamedriver development
+    Lpc          Develop      Lpc development
+    Mudlib       Develop      Mudlib development
+   [Your_Domain] Domain       ..wizard domain board for your domain
+
+These boards are considered optional, but are recommended reading:
+
+    Board        Category     Description
+    -----        ---------    -----------
+    Discuss      Adm          Genesis discussions
+    Domain       Adm          Domain announcements
+    Guild        Adm          Guild announcements
+    Idea         Adm          Ideas for genesis
+    Magic        Develop      Magic system development 
+    Human        Area         The Sparkle Board
+   [all boards]  Area         ..all mortal boards in your domain
+
+Required reading for Lieges:
+
+    Board        Category     Description
+    -----        ---------    -----------
+    Domain       Adm          Domain announcements
+    Guild        Adm          Guild announcements
+    Lords        Adm          The lord board
+    Wizapp       Admint       Wizard applications
+
+Thanks for staying current. :-)
+

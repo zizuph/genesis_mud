@@ -1,0 +1,26 @@
+SYNOPSIS
+	banks
+
+DESCRIPTION
+	Banks can be found throughout the realms. They generally offer two
+	types of service: changing coins and deposits.
+
+	Since the lowest denomination of money generally is the most common,
+	travellers can get burdoned with large quantities of low value coins.
+	For a fee, many banks will change coins, or minimize all your coins to
+	the highest denominations.
+
+	The second service offered by many banks is the deposit. Again at a
+	fee, the banks will safely keep your money. Due to a sophisticated
+	system for information exchange, money can withdrawn at any branch
+	office.
+
+	In addition to money deposits, some banks also offer gem deposits.
+	Contrary to money, gems can only be retrieved at the same branch where
+	they were deposited in the first place. After all, one wouldn't want
+	to be given back a chipped diamond where you stored a flawless one.
+
+	For detailed syntax, visit a local bank office.
+
+SEE ALSO
+	money

@@ -1,0 +1,36 @@
+NAME
+        Race-human
+
+SYNOPSIS
+        This is not a command, simply information.      
+
+DESCRIPTION
+        As a human you may select two of the following six racial abilities:
+    
+        Good memory
+            You will be able to remember twenty-five percent more names 
+            compared to other people.
+                          
+        Eye for detail
+            You will get a twenty skill level bonus (up to superior guru) in 
+            trading, appraise object, and appraise value.
+                          
+        Light-fingered
+            You will get a twenty skill level bonus (up to superior guru) in 
+            pick pocket.
+
+        Tenacious
+            You will recover lost experience (from death, leaving guilds, 
+            etc.) faster than other people.
+           
+        Scavenger
+            You will occasionally find more coins on fallen enemies compared 
+            to other people.
+                          
+        Apothecary
+            The cooldown time between using herbs will be slightly reduced 
+            for you. 
+
+SEE ALSO
+        races, rabilities, race-elf, race-dwarf, race-hobbit, race-gnome, 
+        race-goblin, race-ogre, race-undead.

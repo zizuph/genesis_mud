@@ -1,0 +1,77 @@
+Robot Behaviour:
+================
+
+  Automation designed for UNATTENDED control of the character is unwelcome
+  in Genesis. This being said, not all types of botting are bad for the 
+  game. Here, therefore, are specifics on various types of botting and the 
+  consequences.
+
+  IDLE-BOTTING: Idle-botting occurs when a player uses timed automated
+                commands to prevent them from being logged out even if
+                they are idle longer than the idle time limit (See
+                <help idle>). Formerly, it was considered illegal to idle
+                bot with good gear in your inventory (back when items 
+                did not automatically save at logout.) This is no longer
+                the case, and it is now permitted to idle-bot, even if you
+                have good gear. Stay in the game as long as you like! :-)
+    
+  FORGE-BOTTING: Forge-botting occurs when a player uses triggers to
+                 continually forge without stopping, thus generating
+                 large amounts of items that can be sold for money, and
+                 increasing their smith skills.
+
+      1st offense: A warning.
+      2nd offense: Removal of all smith skills, removal of smith guildstat,
+                   forged items destroyed.
+      Beyond this: All your general experience and half your combat experience
+                   removed, no death recovery. Smith skills and guild stat
+                   will also be removed and forged items destroyed.
+
+  HERB-BOTTING: Herb-botting is much like forge-botting, but occurs when
+                a robot is set up to scour large areas of Genesis for
+                herbs, resulting in huge herb stores and general experience.
+
+      1st offense: A warning.
+      2nd offense: All herbs and spell components created using herbs
+                   destroyed.
+      Beyond this: All your general experience and half your combat experience
+                   removed, no death recovery. Herbs and spell components 
+                   created using herbs destroyed.
+
+  COMBAT-BOTTING: Combat-botting is the robot style that is the most harmful
+                  to the game. It occurs when a player sets up client
+                  triggers which allow the character to fight endlessly
+                  gaining massive experience. Most often this occurs in
+                  a team (who can protect and guide the bot) but it can
+                  also be set up for solo play.
+
+      1st offense: A warning.
+      2nd offense: Death, no recovery, loss of equipment.
+      Beyond this: Deletion (including removal of all combat experience).
+  
+  GENERAL-BOTTING: For extreme clarity with respect to botting any 
+                   automated activity that gains a player a benefit of any
+                   kind shall be considered botting if they are not present at
+                   the keyboard.
+				   
+      1st offense: A warning.
+      2nd offense: Removal of the benefit gained.
+      Beyond this: Deletion (including removal of all combat experience).
+  
+  All punishments are character based, not player based.
+  
+  Be warned. Wizards will actively test players to see if they are botting, 
+  and the ways of doing this will vary. All tests will however be very easy
+  to pass for someone at the screen, but if you do not watch your screen for
+  extended periods of time you will always be at risk.
+
+  Note: The automated captcha test is one of several ways to test for
+  bots, and should you for some reason have trouble with the test, even if
+  you are at the screen, simply use the <commune all> command to alert
+  wizards that you are indeed playing actively.
+
+  Also, remember, triggers are NOT illegal! The above types of scenarios
+  are only illegal if the bots are unattended. If you are actively
+  watching the screen (in other words, playing the game) script without
+  fear!
+

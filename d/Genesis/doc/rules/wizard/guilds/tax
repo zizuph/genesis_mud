@@ -1,0 +1,322 @@
+HEADER Guild taxation
+
+Major guilds charge a certain percentage of all gained xp in a 'guild
+tax'. The actual %tax should depend on the advantages gained through
+the guild.
+
+Taxes are based on three things: combat aid, skills trained, and additional
+abilities or objects offered by the guild. Besides following the details for
+the calculation of the tax as laid down in this file, the guild must also
+be balanced as a whole when taking all benefits and costs together.
+
+Tax values listed below are subject to change. If they are modified, guild
+taxes will have to be adjusted accordingly.
+
+
+Combat Aid:
+
+  With %aid in combat is meant that a given player with the helping
+  features fight that much better than without help. Having 100% aid
+  in combat therefore means that the fighting capability is doubled,
+  it does not mean that monsters fall dead instantly.
+
+  For every 6% of combat aid, 1% tax has to be charged for melee guilds.
+
+  Magic guild spells will be taxed for their combat aid in addition to 
+  the per spell tax costs. Because of magic's potentially higher combat 
+  aid yield, this can quickly grow to unreasonable levels. Additionally, 
+  caster guilds "pay" for their spells in terms of components already. 
+  According to the current magic system, 1% of tax will be charged for 
+  every 25% combat aid.
+
+  The tax is calculated according to the maximal potential combat aid
+  a player can get. In most cases this means, you should assume stats
+  and skills of about 100.
+
+  All combat specials (where possible) should use the standardised
+  special templates in /d/Genesis/specials/.
+
+  Combat aid is rather hard to calculate exactly, however the use of
+  the standardised specials makes it straight forward to balance. 
+  The calculation of the combat aid has to be explained in the guild 
+  documents in /d/Domain/open/GUILD/.
+
+
+Combat aid caps:
+
+  OCCUPATIONAL GUILDS:
+  An occupational melee guild may give up to 100% combat aid (16.7% tax).
+
+  An occupational magic guild may give up to 250% combat aid due to
+  their offensive spells not generating 'white damage' hits (10.0% tax).
+
+
+  LAYMAN GUILDS:
+  A layman MELEE guild may give up to 50% combat aid (8.3% tax).
+
+  If a layman melee guild allows the option of an offensive and a
+  defensive special, these offensive and defensive specials should 
+  not individually exceed a cap of 40% combat aid.
+
+  If a layman melee guild has an offensive OR defensive ability only,
+  that ability may provide combat aid up to the 50% combat aid cap.
+
+  A layman MAGIC guild may give up to 80% combat aid (3.2% tax) under
+  specific circumstances:
+     - Total maintained spells may not exceed 45% combat aid at any one 
+       point in time.
+     - Individual maintained spells capped at maximum 30% combat aid
+       benefit.
+     - instant heal/harm spells are capped at maximum 50% combat aid 
+       benefit.
+
+  Anything outside these parameters needs a good reason and approval from 
+  the AoB.
+
+
+  RACE GUILDS:
+  A race guild may give up to 25% combat aid (4.2% tax).
+
+  Combat aid abilities for racial guilds is unusual, and should be
+  considered the exception rather than the rule. Racial guilds planning
+  on providing combat aid should be cleared first by the AoD and AoB.
+
+
+  CRAFT GUILDS:
+  A craft guild may not give any combat aid what so ever.
+
+
+  MULTI-GUILDSLOT GUILDS:
+  A guild occupying multiple slots will loose 5% combat aid for each
+  slot occupied.
+
+  An occupational + layman melee guild may give up to 145% combat aid.
+
+  An occupational + layman magic guild may give up to 325% combat aid.
+
+  Examples of how combat aid works:
+  In the majority of cases combat aid is worked out for you through
+  the templated specials in /d/Genesis/specials/. However there may
+  be an occasion where you need to determine caid for abilities 
+  outside the box.
+
+  Two examples of determining caid formula:
+
+  Let us assume a special attack which disables an opponent for three
+  combat rounds. The special attack can be used every ten combat
+  rounds, with a cb_tohit value of 50 (48% chance to hit). Thus, you
+  would have a combat aid of about 14.4% (3/10 * 48%).
+
+  Or, a special attack hurting an opponent, which can be used every
+  four combat rounds. The pen value depends on strength, and the guild
+  stat is used as skill: F_PENMOD(str/4, guild_stat). For strength and
+  guild stat of 100, this gives 200. The best 'normal', ie non-magical
+  weapons have a pen value of 40: F_PENMOD(40, 100) = 280. This attack
+  uses a cb_tohit value of 80 (75% chance to hit). Thus the combat
+  aid is 13.4% ((25% * 200/280) * 75%).
+
+
+Skills:
+
+  If a feature giving combat aid to a guild member that does not
+  require the training of a special, guild defined skill, the tax is
+  increased to 150% of normal.
+
+  Each major guild will train skills. Most of those skills will be
+  mudlib defined skills, as listed in /sys/ss_types.h. In addition, a
+  guild can define guild specific special skills, like 'bash' as a
+  special attack of a fighter guild.
+
+  Mudlib defined skills are generally taxed 1% tax for every 60 levels
+  a guild member can train over the maximum values that can be trained
+  in open (adventurers') guilds. A tax multiplier is then applied to
+  this tax for the skills, determining the final amount of tax applied
+  to this skill. These skill multipliers are listed in 'man guilds3'
+  and the maximum values for adventurers guilds are listed in 'man
+  skills'.
+
+  Guild specific skills are taxed according to the guidelines
+  mentioned above under 'combat aid', if the skills and the
+  corresponding abilities help the guild members in combat.
+
+  Other guild specific skills are taxed according to the benefits
+  guild members gain from those skills. The tax should not be lower
+  than for mudlib defined skills.
+
+  At the end of this files you will find an example of the tax
+  calculation for a guild.
+
+
+Additional features:
+
+  Here follows a list of %costs for typical guild features. This list
+  is neither complete nor final.
+
+  The tell line tax requirement outlined below does not go for
+  guilds of type "magic" and "cleric", those guild types shall tax the
+  spell as any other spell, dependant on components etc.
+
+  Tell lines in occupational and layman guilds other than magic and
+  cleric occupational guilds:
+
+  Member to member tell:         4% tax + 10 mana.
+  Member to non-member tell:    10% tax + 20 mana.
+  Member to all members line:    8% tax +  5 mana for each receiver.
+
+  If a guild offers both 'tell' between members and a guild line,
+  there is a 2% tax discount so that the total tax is 10%.
+
+  Craft and race guilds may not offer a tell line.
+
+  The mana has to be paid by the sender of the message for each
+  message and receiver. A 'tell' command from a guild member to a
+  non-member may not enable the non-member to reply to the message.
+
+  Tell lines have to be coded as spells, including a skill check for
+  an appropriate skill and a chance of failure.
+
+  The tax for member to non-member 'tell' in all guilds except
+  occupational mage and cleric guilds has been set on purpose to the
+  hopefully prohibitively high value. There will be no discounts.
+
+  Messengers should have a _significant_ risk of failure of
+  delivering the message.
+
+Special bargains:
+
+  1%      If your guild has a shop, bank, pub and other places money
+          is in use, where the members have advantages they won't
+          normally find. Like, better trade for members at a shop.
+          Add 1% for each such location.
+
+Magic spells:
+
+  Spell class tax - Each spell begins with a base tax, which may then 
+  be modified due to other factors (like herbs or restrictions). This 
+  is in addition to the combat aid tax.  The base taxes are:
+
+  Guild      Magical                Non-magical
+             Layman   Occupational  Layman   Occupational
+  Class 1      0.25%      0.1%        1%         0.5%
+  Class 2      0.5%       0.25%       2%         1%
+  Class 3      1%         0.5%        N/A        N/A
+  Class 4      N/A        1%          N/A        N/A
+
+
+Extra abilities:
+
+    Extra abilities which help in combat are taxed according to
+    'combat aid'. Other extra abilities are taxed according to
+    'skills', if they require a guild specific skill. If they do not,
+    the tax has to be fixed according to the benefit the ability has
+    for the guild members.
+
+Tax reductions:
+
+    If a guild imposes heavy restraints on the guild members tax and
+    caid reductions are possible. This does not include restraints that
+    balance special features, but restraints that handicap a guild
+    member considerably compared to other players. Possible examples
+    might be to make guild members incapable of drinking alcohol or of
+    making it impossible for them to wield anything but non-magical
+    knives while the unarmed combat skill is set permanently to 0.
+    The maximum possible tax reduction is 2%, all in all. The tax
+    reduction has to be documented in an aptly labelled file in the
+    directory /d/<Domain>/open/GUILD/.
+
+
+Total tax:
+
+  When you sum up for the tax, an occupational guild may have a
+  maximum tax of 35%, layman 20%, craft and race 10%. That would make
+  a player that has joined all four types of guilds with max tax pay
+  75% of all his gained experience as tax. This includes both combat
+  and general experience, only quest is not taxed.
+
+
+Sample calculation and tables:
+
+  To leave room for new ideas and variations, this file does not try
+  to cover all eventualities. Thus by following all numbers but not
+  the spirit it might still be possible to create an unbalanced and
+  thus illegal guild. For example, a guild with 100% combat aid and
+  offering only sword, defence, parry, and two handed combat up to 90
+  will most likely not be accepted.
+
+
+  --------------------------------------------------------------------
+
+  Example of the tax calculation for a guild (occupational, fighter):
+
+  - mudlib skills:   max level   untaxed   tax levels    tax in %
+
+  o sword             90         30          60           1.5
+
+  o defence           80          0          80           2.0
+  o parry             50          0          50           1.3
+  o two handed combat 50          0          50           1.3
+
+  o awareness         75         50          25           0.4
+  o appraise enemy    70         50          20           0.3
+  o appraise object   70         50          20           0.3
+  o climb             70         50          20           0.3
+
+  o hide (thief)      70         50          20           0.3
+    alien skill: x2  140                     40
+
+  Sum                695                    365           7.7
+
+  - guild abilities:
+
+  o trip             100
+    A special attack which will prevent the enemy from
+    fighting for up to 60% of the time = 60% combat aid,
+    since it uses a skill 50% tax reduction               5.0
+
+  o see              100
+    A special ability which allows players to see an
+    enemy in the next room = little combat aid, 50% tax
+    reduction for skill required                          1.0
+
+  - extras:
+
+  o a shop in the guild head quarters which uses the
+    average of guild stat and trading skill as trading
+    skill for guild members                               1.0
+
+  ---------------------------------------------------------------
+  Total                                                  14.7 %
+
+  
+                         
+  These tables are just a summary of rules which are explained in
+  detail above. In doubt, the full rules are decisive, not these
+  tables.
+  
+               |       G u i l d   T a x             |
+               |                                     |
+        type   | max total | max skills  | max c aid |
+        -------|-----------|-------------|-----------|
+        occ    |     35 %  | 11.7-17.5 % |   16.7 %  |
+               |           |             |           |
+        layman |     20 %  |  6.7-10.0 % |    8.3 %  |
+               |           |             |           |
+        craft  |     10 %  |  3.3-(5) %  |    4.2 %  |
+               |           |             |           |
+        race   |     10 %  |  3.3-(5) %  |    4.2 %  |
+               |           |             |           |
+
+
+               |                   G u i l d   S k i l l s                |
+               |                                                          |
+               |                      mudlib                      | guild |
+        type   | sum all | sum tax | general | spec fight | other | spec  |
+        -------|---------|---------|---------|------------|-------|-------|
+        occ    |    700  |     550 |     90  |        90  |   90  |  100  |
+               |         |         |         |            |       |       |
+        layman |    700  |     350 |     60  |        50  |   50  |  100  |
+               |         |         |         |            |       |       |
+        craft  |    400  |     150 |  50/60  |         0  |    0  |  100  |
+               |         |         |         |            |       |       |
+        race   |    400  |     150 |  50/60  |         0  |   50  |  100  |
+               |         |         |         |            |       |       |

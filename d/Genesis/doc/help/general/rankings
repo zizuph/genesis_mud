@@ -1,0 +1,48 @@
+SYNOPSIS
+	rankings
+
+DESCRIPTION
+	Genesis website (http://www.genesismud.org/) publishes
+	rankings of mortal players on a weekly basis. The publishing
+	occurs automatically every night between Saturday and Sunday,
+	and the address of the rankings is:
+
+	http://www.genesismud.org/players/rankings
+
+	Apart from the remarks on the web page, here is a bit more
+	detailed explanation of the rankings:
+
+	1) Not all players appear in the rankings -
+	   * Players below wanderer level are excluded automatically
+	   * Some players indicated they do not wish to appear in the
+	     rankings using 'options web no'.
+	   * Only active (i.e. logged in during past week) players are
+	     represented.
+
+	2) The upper tables rank characters on their lifetime data
+	   in Genesis and are explained as follows:
+	   * Athletes - average of strength, dexterity and constitution
+	   * Minds    - average of intelligence, wisdom and discipline
+	   * Careers  - normalized averaged guild experience
+	   * Overall  - average of the three positions above
+	   * Elders   - player's age in Genesis
+
+	3) The bottom tables rank characters on their achievements
+	   during the past week and are divided into two categories:
+	   * Heavyweight - players above expert level
+	   * Lightweight - player between wanderer and expert level
+
+	   The tables ranking subjects themselves are:
+	   * Killing machines - combat experience during the week
+	   * Money makers     - change in amount of money in bank and
+				on character during the week
+	   * Habitues         - time spent in the game during the week
+	   * Craftsmen        - general experience during the week
+
+	4) The archive of the rankings is kept for four weeks.
+
+	5) In case Genesis administration decides a player abuses game
+           mechanics solely to advance in the rankings, ranking of
+           that player might be suspended.
+
+	For any question regarding the rankings you should mail AoW.

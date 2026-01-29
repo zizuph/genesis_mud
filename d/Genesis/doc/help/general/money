@@ -1,0 +1,18 @@
+SYNOPSYS
+	money
+
+DESCRIPTION
+	Genesis operates under a single currency, in principle your money is
+	valid everywhere without having to exchange it. Money comes in the
+	form of coins made of copper, silver, gold or platinum in ascending
+	value.
+
+	The values of the coins are based on a duodecimal system. Each coin
+	of a higher denomination is worth 12 of a lower coin. For example, a
+	gold coin is worth 12 silver coins.
+
+	Around the lands you will find banks where money may be deposited or
+	changed for higher denominations.
+
+SEE ALSO
+	banks

@@ -1,0 +1,190 @@
+Height & Width in livings:
+
+Height and width in living creatures is a bit of a
+confusing point these days, as the routines using it
+are a little wide spread. First I'll explain the general
+functionality of the system, then go into specifics.
+
+Char. Creation:
+When a player creates a character, the currently enter
+the halls of mirrors after selecting a body. In these
+halls the player picks a specific height desc, then a
+specific width desc. Height must be selected first,
+as the results are used in finalizing weight calcs.
+When a height desc is selected, the hall calculates
+what CONT_I_HEIGHT integer value in centimeters is
+required for that player to have that height desc,
+and then sets that prop.
+
+After a height is selected, then the player selects
+a width desc. Again, the hall makes a calculation based
+on the player's race and height as to the appropriate
+CONT_I_WEIGHT prop value to make that character appear
+to be the desired width. Note that when this routine
+is run, the resulting value is used to set the player's
+CONT_I_WEIGHT _and_ CONT_I_VOLUME prop to the same
+integer value, so they can be used interchangingly.
+
+In The Game:
+When a player is in the game, his height and width
+desc should appear as selected in character creation,
+based on the prop values set in character creation.
+What happens is that the height subloc generator
+reverse-engineers the process. It takes the values
+for the CONT_I_HEIGHT and CONT_I_WEIGHT props and 
+calculates backwards what the height & width descs
+should be.
+
+In Npcs:
+Height and width descs sometimes appear in npcs. Any
+living with set_race_name() set to one of the player
+races (goblin, dwarf, human, etc.) automatically gets
+width & height descs. Unless the coder manually sets
+the npcs CONT_I_WEIGHT & CONT_I_HEIGHT props, these
+will result in a short & fat npc based on default prop
+values (160 cm and 70 kg).
+
+Technical stuff:
+First off, the height & weight calculations and descs
+are based off of values contained in /d/Genesis/login/login.h.
+There are a few defines relevant to this:
+
+RACEATTR = (["human"  : ({180, 70, 50, 50, 70, 389 }),
+             "elf"    : ({200, 50, 40, 40, 60, 250 }),
+             "dwarf"  : ({130, 70, 60, 60, 60, 538 }),
+             "hobbit" : ({110, 40, 30, 30, 40, 364 }),
+             "gnome"  : ({ 90, 50, 20, 20, 50, 555 }),
+             "goblin" : ({100, 45, 90, 90, 45, 450 })])
+This mapping contains several default values for various
+props for each of the different races. In order, they are
+standard height (cm), standard weight (kg), standard
+opinion (0-100), standard appearance (1-100), standard
+volume (dm^3) and standard fatness (g/cm).
+
+HEIGHTDESC = ({"extremely short",
+               "very short",
+               "short",
+               "of normal length",
+               "tall",
+               "very tall",
+               "extremely tall"})
+This array contains the seven possible height descs going
+from shortest to tallest.
+
+WEIGHTDESC = ({"very skinny",
+               "skinny",
+               "lean",
+               "of normal width",
+               "plump",
+               "fat",
+               "very fat"})
+This array contains the seven possible width descs going
+from the thinnest to fattest.
+
+SPREAD_PROC = ({70, 80, 90, 100, 110, 120, 130})
+This array appears to just be a list of percentages that
+defines how the seven possible descs are spread as a 
+percentage of normal width or height.
+
+HEIGHT CALCULATION:
+File: /d/Genesis/login/mirrors_1.c
+Function: enter_something(string str)
+Now, a player starts by selecting a height desc. The 
+selection is resolved to an index matching with the HEIGHTDESC
+array (i.e. 0 to 6). The actual value used for the prop is
+
+    height = (attr[0] * SPREAD_PROC[index]) / 100 -
+             random(attr[0] / 20);
+
+Where attr is the array value of the RACEATTR mapping to which
+the player's race is an index. For example, for a human the
+attr = ({180, 70, 50, 50, 70, 389 }). attr[0] is the default
+height, 180 cm in this case.
+
+WEIGHT CALCULATION:
+File: /d/Genesis/login/mirrors_2.c
+Function: enter_something(string str)
+Weight calculation is done much the same way. An index matching
+the desired desc in the WIDTHDESC array is first obtained,
+as well as the player's default weight (attr[5]), and his
+height (determined in the previous calc). Then the weight
+calc is:
+
+    width = (attr[5] * TP->query_prop(CONT_I_HEIGHT) *
+        (index + 7) / 10);
+
+Furthermore, to add some randomness, the following is done
+afterwards:
+
+    if (random(2))
+        width = width - random(width * attr[5] / 8000);
+    else
+        width = width + random(width * attr[5] / 5000);
+
+The resulting value for 'width' is set as the CONT_I_WEIGHT and
+CONT_I_VOLUME props. You'll note that the standard weight value
+isn't used here, but is calculated from current height and standard
+fatness. I don't know why, it's a carry-over from the previous
+version, but attr[0] * attr[5] is approx equal to attr[1] for
+all races.
+
+IMPORTANT: The described randomness should be removed from the
+creation sequence, as the + random value cannot be handled by
+the subloc generator. It results in about 50% of players being
+one desc fatter than they wanted.
+
+SUBLOC DESCS:
+When you examine a player, their width and height descs are generated
+based upon their height and weight props.
+Subloc name: _subloc_misc_extra
+File       : /cmd/live/state.c
+Function   : show_subloc_size(object on, object for_obj)
+The math used here is miserable, so I won't go into details, but
+basically what it does is normalize the CONT_I_HEIGHT and
+CONT_I_WEIGHT prop values to a percentage scale of a normal
+creature of that race. Then once it's got a percentage, it
+for-loops through the SPREAD_PROC values until it hits one
+that is greater than or equal to the percentage. The current
+SPREAD_PROC index is what the subloc uses to pull a desc from
+the HEIGHTDESC and WIDTHDESC arrays. For example: take a human
+with a CONT_I_HEIGHT of 229. The percentage is then simply
+
+    scale = 100 * 229 / 180 (180 is base height for humans).
+          = 127.
+
+Now, we for loop through the SPREAD_PROC indexes, (0 through 6),
+until we hit one that is greater than my scale. In this case,
+we don't hit a greater spread proc until we hit the 6th, which
+is 130. We then look for the 6th element in the HEIGHTDESC
+array, which is 'extremely tall', which is what my description
+will show. If by some chance we got a value which was off the
+scale, it will default to the tallest desc.
+
+Resolving a width desc is the same in principle, only it divides
+your CONT_I_WEIGHT by CONT_I_HEIGHT, and normalizes it against
+standard fatness (index 6 in the RACEATTR value arrays), then
+performs the same looping to find a WIDTHDESC string.
+
+HEIGHT & WEIGHT IN NPCS:
+As I stated earlier, only 'major races' npcs have height and
+width descriptions. This is because they're the only ones that
+have 'normalized' values in login.h, so the subloc generator
+has not baseline to compare them too. However, any npc that
+is a goblin, dwarf, human, hobbit, gnome or elf set as a race
+name will have height and width descs in their description.
+Npc's have default props of CONT_I_HEIGHT = 160, and
+CONT_I_WEIGHT = 70000. This results in some rather odd looking
+descriptions. All hobbits are extremely tall, for example, all
+humans are short. So you have to tweak the props around until
+you get the right looking description by trial and error. Remember
+that the CONT_I_WEIGHT and CONT_I_VOLUME properties should be
+the same, however.
+
+As an option to this, I've set up a little module I use that can
+be inherited into any npc (it's a lib-type module) which allows
+their size desc to be set with simply 'set_size("extremely tall",
+"of normal width");' in the npc's create function. The function
+calculates the appropriate prop values and sets them in the npc
+so it will appear with those descs.
+
+Khail, August 7th, 1997.

@@ -1,0 +1,59 @@
+
+Robot Behaviour:
+================
+
+  Automation designed for UNATTENDED control of the character is unwelcome in 
+  Genesis. This being said, not all types of botting are bad for the game.
+  Here, therefore, are specifics on various types of botting and the 
+  consequences.
+
+  IDLE-BOTTING: Idle-botting occurs when a player uses timed automated
+                commands to prevent them from being logged out. Idle-
+                botting is ONLY illegal if the player is carrying items
+                (wielded/worn or otherwise) that other players might want
+                to use. We do not allow living droprooms! (In other
+                words, if you want to stay logged on without holding a
+                bunch of useful stuff other players might want to use,
+                go right ahead.)
+
+      1st offense: Items you are carrying are destroyed.
+      2nd offense: 1 week suspension from Genesis (and items destroyed)
+      Beyond this: Suspension or deletion as needed.
+
+  FORGE-BOTTING: Forge-botting occurs when a player uses triggers to
+                 continually forge without stopping, thus generating
+                 large amounts of items that can be sold for money, and
+                 increasing their smith skills.
+
+      1st offense: All forged items destroyed.
+      2nd offense: Removal of all smith skills, removal of smith guildstat,
+                   forged items destroyed
+      Beyond this: Suspension or deletion as needed.
+
+  HERB-BOTTING: Herb-botting is much like forge-botting, but occurs when
+                a robot is set up to scour large areas of Genesis for
+                herbs, resulting in huge herb stores and general experience.
+
+      1st offense: All herbs destroyed.
+      2nd offense: Death, skill loss (and all herbs destroyed)
+      Beyond this: Suspension or deletion as needed.
+
+  COMBAT-BOTTING: Combat-botting is the robot style that is the most harmful
+                  to the game. It occurs when a player sets up client
+                  triggers which allow the character to fight endlessly
+                  gaining massive experience. Most often this occurs in
+                  a team (who can protect and guide the bot) but it can
+                  also be set up for solo play.
+
+      1st offense: Death, and destruction of items you are carrying.
+      2nd offense: Death, destruction, and one week suspension.
+      Beyond this: Suspension or deletion as needed (plus death, of course)
+
+  Be warned, methods have been devised to test for bots, and the
+  administration plans to pursue these types of cheaters very aggressively.
+
+  Also, remember, triggers are not illegal! The above types of scenarios
+  are only illegal if the bots are unattended. If you are actively
+  watching the screen (in other words, playing the game) script without
+  fear!
+

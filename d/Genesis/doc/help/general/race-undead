@@ -1,0 +1,53 @@
+NAME
+        Race-undead
+
+SYNOPSIS
+        This is not a command, simply information.
+        
+DESCRIPTION
+        Since becoming undead is a complete transformation of your mind and 
+        body you will remember nothing of your old racial abilities. As an 
+        undead you will be granted the following preset racial abilities 
+        instead:
+
+        Stalwart
+            You will be able to carry heavier loads than other people before
+            becoming encumbered by it.
+            
+        Good memory
+            You will be able to remember twenty-five percent more names 
+            compared to other people.
+            
+        Being undead also means you will have other undead-specific benefits
+        and drawbacks.
+
+        Undead benefits
+            - You will be immune to poison.
+            - You will have natural darkvision.
+            - You cannot drown.
+            - You will have increased fatigue regeneration.
+            - All forms of death magic will heal you instead of damage you.
+            - You cannot be stunned. Note that this generally only applies 
+              to effects that prevent you from fighting. It usually does not 
+              apply to effects that paralyze you completely or stop you from 
+              moving.
+
+        Undead drawbacks
+            - Your undead body cannot process any food or herbs. This means
+              that you will not be able to eat anything at all and you will 
+              not be able to consume herbs in other ways either, for example 
+              by smearing, chewing, etc.
+            - You will not be able to drink, which means you will not get any
+              benefit from alcohol or other drinks. The only exception is
+              magical potions that can be quaffed.
+            - You will be harmed by all kinds of healing spells (except the
+              ones that use death magic).
+            - You will be extra vulnerable to life magic.
+
+        If you stop being undead you will return to your old race and the 
+        benefits and drawbacks of being undead goes away. You will also get 
+        your old racial abilities back.
+
+SEE ALSO
+        races, rabilities, race-human, race-elf, race-dwarf, race-hobbit, 
+        race-gnome, race-goblin, race-ogre.
