@@ -1,0 +1,30 @@
+/* magical objects */
+The large stone tablet(/d/Kalad/common/wild/pass/obj/tablet) which is
+part of the tablet quest has magical properties that allows it to have
+a light value of 2.
+
+-Antharanos-
+
+The sparkling red gem(/d/Kalad/common/wild/pass/obj/srgem) which can
+be found hidden in the moss of the troglodyte complex, located in the
+dark dominion(/d/Kalad/common/wild/pass/underdark/u19b) has magical
+properties that give it a light value of 1.
+
+-Antharanos-
+
+The flying carpet (/d/Kalad/common/wild/pass/desert/carpet/carpet) is
+the carpet magically enchanted by Duthrala, the Bedellin witch, to
+ferry travellers from the nomad camp in Kalad to the border between
+Kalad and Cirath.
+
+-Antharanos-
+
+   The gem of light, gem of darkness and bag of holding are all magical
+items sold by the merchant in the bazaar of Undraeth. The two gems
+emit light and darkness to 1 lvl, respectively. The bag is simply a
+standard sack with a bit more room for items. The file names are:
+Gem of Light (/d/Kalad/common/wild/pass/drow/obj/gem_light)
+Gem of Darkness (/d/Kalad/common/wild/pass/drow/obj/gem_dark)
+Bag of Holding (/d/Kalad/common/wild/pass/drow/obj/bag_holding)
+
+-Antharanos-

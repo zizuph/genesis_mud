@@ -1,0 +1,250 @@
+Item: Battle chainmail
+Coder:  Redhawk, Sorgum, Torm
+Pathname: /d/Terel/LoD/armour/battle_chainmail
+Skill Enhancement: None
+            Skill: 
+            Level: 
+Stat Enhancement:  None
+Type: Armour, Body
+     AC: 45
+Magic: 40, enchantment
+Magic Resistance:  None
+Specials: Only wearable by elves, human, half-elves, or dwarves
+Game Location: Legion of Darkness, LoD
+Remarks and Comments: These chainmails are found on Lieutenants
+    and Captains in the Legion of Darkness. Fairly tough and racially
+    restricted.
+
+
+Item: Black steel bracers
+Coder:  Shinto
+Pathname: /d/Terel/common/moor/tcaves/armour/tbracers.c
+Skill Enhancement: 
+            Skill:  Two handed combat
+            Level: 10+ SS_DEX/10
+Stat Enhancement:  None
+Type: Armour, Arms
+     AC: 40
+Magic: 55, enchantment
+Magic Resistance:  None
+Specials: Only wearable by elves, human, half-elves, or dwarves
+           who are swordsman, 75 or greater sword skill.
+Game Location: /d/Terel/common/moor/tcaves/tcavet.c
+Remarks and Comments: These bracers are hidden in the northern
+    troll caves. You have to defeat a giant troll and regular troll
+    in order to obtain these, they are fairly tough.
+
+
+
+Item: suit of shining armour
+Coder:  Trofast
+Pathname: /d/Terel/LoD/armour/suit_armour.c
+Skill Enhancement:  None
+            Skill: 
+            Level: 
+Stat Enhancement:  None
+Type: Armour, A_BODY, A_TORSO, A_HEAD ,A_LEGS ,A_ARMS ,A_HANDS ,A_FEET 
+           AC: (50, 50, 40)
+Magic: 55, enchantment
+Magic Resistance:  None
+Specials: 
+Game Location:  /d/Terel/LoD/armour/suit_armour.c
+Remarks and Comments: The armour has a str restriction, you 
+    need to have 160 str or you will recieve some negative quickness.
+    The armour also covers the whole body, and requires the assistance
+    of another player to wear it.  Simulation of a 15th century
+    medieval suit of armour.
+
+
+Item: Devils chainmail
+Coder:  Redhawk, Sorgum
+Pathname: /d/Terel/LoD/armour/devils_chainmail.c
+Skill Enhancement:  None
+            Skill: 
+            Level: 
+Stat Enhancement:  None
+Type: Armour Body
+                  AC: 37(5, -2, -3)
+Magic: 50, enchantment
+Magic Resistance:  MAGIC_I_RES_FIRE 40
+Specials: None
+Game Location:  /d/Terel/LoD/monster/devils_knight.c
+Remarks and Comments: Obtained when slaying a devils knight.
+
+
+Item: Megula's gloves	
+Coder:  Redhawk, Sorgum
+Pathname: /d/Terel/LoD/armour/ew_gloves.c
+Skill Enhancement: YES
+            Skill: SS_DEX
+            Level: MAx 10
+Stat Enhancement:  None
+Type: Armour HANDS
+                  AC: 20
+Magic: 40, conjuration
+Magic Resistance:  None
+Specials: None
+Game Location:  /d/Terel/LoD/monster/warlord.c
+Remarks and Comments: Mergula must be killed to obtain.
+
+
+Item: Mergula's breastplate
+Coder:  Redhawk, Sorgum
+Pathname: /d/Terel/LoD/armour/ew_mail.c
+Skill Enhancement:  None
+            Skill: 
+            Level: 
+Stat Enhancement:  None
+Type: Armour Body
+                  AC: 42
+Magic: 50, enchantment
+Magic Resistance:  MAGIC_I_RES_FIRE  20
+                   MAGIC_I_RES_MAGIC 30
+Specials: None
+Game Location:  /d/Terel/LoD/monster/warlord.c
+Remarks and Comments: Obtained via slaying Mergula.
+
+
+Item: pair of black boots (NOT_USED)
+Coder:  Shinto
+Pathname: /d/Terel/last/armour/sboots.c
+Skill Enhancement:  None
+            Skill: 
+            Level: 
+Stat Enhancement:  None
+Type: Armour, A_FEET 
+           AC: 20
+Magic: 55, enchantment
+Magic Resistance:  None
+Specials: Adds LIVE_I_QUICKNESS, 100
+Game Location:  /d/Terel/last/npc/assassin.c
+Remarks and Comments: The boots can only be worn by elves,
+           humans, or half-elves. They are worn by Trevin the 
+           assassin hidden in the Inn of Last.
+
+
+Item: pair of black boots
+Coder:  Shinto
+Pathname: /d/Terel/last/armour/trev_boots.c
+Skill Enhancement:  YES
+            Skill: SS_DEFENCE
+            Level: Up to 10 based on Dex
+Stat Enhancement:  None
+Type: Armour, A_FEET AC: 20
+Magic: 55, enchantment
+Magic Resistance:  None
+Game Location:  /d/Terel/last/npc/assassin.c
+Remarks and Comments: They are worn by Trevin the 
+           assassin hidden in the Black dragons cave.
+
+
+Item: pair of black steel bracers
+Coder:  Shinto
+Pathname: /d/Terel/last/armour/trev_bracers.c
+Skill Enhancement:  YES
+            Skill: SS_HIDE + SS_SNEAK
+            Level: Up to 10 based on Dex
+Stat Enhancement:  None
+Type: Armour, A_ARMS AC: 45
+Magic: 55, enchantment
+Magic Resistance:  None
+Game Location:  /d/Terel/last/npc/assassin.c
+Remarks and Comments: They are worn by Trevin the 
+           assassin hidden in the Black dragons cave.
+
+
+
+Item: Heavy Fur Robe
+Coder: Tomas  
+Pathname:  /d/Terel/mountains/goblincave/armour/furrobe.c
+Skill Enhancement: None
+             Skill: 
+             Level:
+Type: Robe
+Magic: 40, enchantment
+Magic Resistance: COLD
+Limitations: SMALL sized only.
+Specials: The robe is ac 18 armour, but provides 25% of cold resistance 
+Game Location: /d/Terel/mountains/goblincave/goblinlord.c
+
+
+Item: pair of thick leather gloves
+Coder: Tomas  
+Pathname:  /d/Terel/calathin/houses/armour/herb_gloves.c
+Skill Enhancement: None
+             Skill: SS_HERBALISM (36)
+             Level: 25 max, depending on current HERBALISM skill being <100
+Type: Gloves
+Magic: 1, enchantment
+Magic Resistance: N/A
+Limitations: Wearer must be neutral or better due to the wards placed 
+             by their creator. Goblins must have herbalism of atleast 50 or 
+             greater to wear them.
+Specials: ac 15 and Herbalism increase 
+Game Location: /d/Terel/calathin/houses/house3a.c
+
+
+Item: black eyepatch
+Coder: Goldberry
+Pathname:  /d/Terel/dabaay/obj/eyepatch.c
+Skill Enhancement: 
+             Skill: SS_AWARENESS (110)
+             Level: +20 (maximum 100 skill level)  
+             Skill: SS_DEFENCE (24)
+             Level: -10 (minimum 0 skill level)
+             Skill: SS_PARRY (23)
+             Level: -10 (minimum 0 skill level)
+Type: eyepatch
+Magic: 60, enchantment
+Magic Resistance: None
+Limitations: None.
+Specials: Awareness increase, Defence and Parry decrease
+Game Location: /d/Terel/dabaay/npc/dabaayhab.c
+
+Item: heavy iron chainmail
+Coder:  Goldberry
+Pathname: /d/Terel/dabaay/armour/ogre_chain.c
+Skill Enhancement:  None
+            Skill:
+            Level:
+Stat Enhancement:  None
+Type: Armour, A_BODY
+           AC: 55+ random(5)
+Magic: 55, enchantment
+Magic Resistance:  None
+Specials: none
+Game Location:  /d/Terel/dabaay/npc/rogre.c
+Remarks and Comments: The boots can only be worn by ogre or giant
+           sized creatures.
+
+
+Item: black steel bracers
+Coder: Shinto
+Pathname: /d/Terel/last/armour/thbracers.c
+Skill Enhancement:
+            Skill: Pick Pocket
+            Level: 10 + SS_DEX/10 Max 25
+            Skill: Open L:ocks
+            Level: 10 + SS_DEX/10 Max 25
+Stat Enhancement: None
+Type: Armour, A_ARMS
+          AC: 45
+Magic: 55, enchantment
+Magic Resistance: None
+Specials: None
+Game Location: /d/Terel/last/npc/assassin.c
+Remarks and Comments: On Trevin, a quest npc. 
+
+
+Item: Crumpled sparkling hat
+Coder: Znagsnuf
+Pathname: /d/Terel/mountains/ghastly_keep/arm/gkeep_wizhat.c
+Skill Enhancement: None
+Stat Enhancement:  None
+Type: Armour, Helm
+     AC: 10, 50
+Magic: 70, enchantment
+Specials: Only wearable by players with high WIS, and SPELLCRAFT
+Game Location: Ghastly Keep, Terel
+Remarks and Comments: This hat is worn by Sabine Scarletwound,
+and it absorbed portions on hits to the head.

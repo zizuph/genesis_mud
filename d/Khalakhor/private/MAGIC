@@ -1,0 +1,109 @@
+This file contains the magic items used in the domain of Khalakhor.
+
+Last modified: Teth, January 24, 1998
+               Glindor, January 12, 2002
+
+MAGICAL WEAPONS
+===============
+File:          /d/Khalakhor/inisi/roke/wep/jabsword.c
+Creator:       Gresolle/Glindor
+Date:          January 12, 2002
+Cloned by:     /d/Khalakhor/inisi/roke/wild/c5.c
+Related Files: 
+Magic prop:    ({ 38, "enchantment" })
+Other info:    This vorpal sword makes excessive damage against
+               a jabberwock. Agains other creatures it is practically
+               useless.
+
+File:          /d/Khalakhor/inisi/roke/wep/h_holy_w_sprinkler.c
+Creator:       Calonderiel/Glindor
+Date:          January 12, 2002
+Cloned by:     /d/Khalakhor/inisi/roke/npc/van_helsing.c
+Related Files: 
+Magic prop:    ({ 25, "enchantment" })
+Other info:    The holy water sprinkler makes extra damage agains vampyrs.
+               Otherwise an ordinary club.
+
+MAGICAL ARMOURS
+===============
+File:          /d/Khalakhor/inisi/roke/wep/h_necklace.c
+Creator:       Calonderiel/Glindor
+Date:          January 12, 2002
+Cloned by:     /d/Khalakhor/inisi/roke/npc/van_helsing.c
+Related Files: 
+Magic prop:    ({ 20, "enchantment" })
+Other info:    A necklace with AC 41.
+
+MAGICAL OBJECTS
+===============
+File:          /d/Khalakhor/common/herbs/beatha.c
+Creator:       Teth
+Date:          January 22, 1998
+Cloned by:     /d/Khalakhor/common/herbs/herb_master.c
+Related Files: /d/Khalakhor/common/poisons/beathap.c
+Magic prop:    ({ 85, "life" })
+Other info:    This herb has a two-fold effect. It has an
+               overwhelming amount of life magic, and thus
+               heals living creatures upon ingestion,
+               depending on a random amount added to 
+               a 2x multiplier on life spells skill.
+               However, to undeads, it clones a poison
+               which will cause grave harm, causing reductions
+               in stats, hp, and fatigue.
+
+File:          /d/Khalakhor/inisi/roke/obj/dust.c
+Creator:       Gresolle/Glindor
+Date:          January 12, 2002
+Cloned by:     /d/Khalakhor/inisi/roke/npc/grugg.c
+Related Files: 
+Magic prop:    ({ 100, "enchantment" })
+Other info:    Dust of Cold Feet. Makes it possible to walk on lava.
+
+File:          /d/Khalakhor/inisi/roke/obj/wand.c
+Creator:       Arman
+Date:          February 16, 2019
+Cloned by:     /d/Khalakhor/inisi/roke/npc/refnas.c
+Related Files: Heal spell /d/Khalakhor/inisi/roke/obj/wand_heal_spell.c
+Magic prop:    ({ 25, "enchantment" })
+Other info:    Wand of Healing.
+
+               Recoded by Arman to align with the new magic system.
+               Based on the original magic wand coded by Gresolle 
+               and later Glindor.
+
+               This strange wooden stick is a wand of healing. 
+               For those with spellcraft greater than 20, they 
+               can hold it and use it to heal themselves or others 
+               with the 'zap' command.
+
+               The heal spell of the wand is based on the standardised 
+               heal spell /d/Genesis/specials/std/spells/heal.c, with 
+               a combat aid assigned to it of 35. This results in a 
+               heal range of somewhere between 30 to 80 hitpoints per
+               casting.
+
+               The effectiveness of the heal is dependent on the holders 
+               spellcraft skill. The wand has 10 charges, which recharge 
+               at 1 charge every 30 minutes.
+
+File:          /d/Khalakhor/inisi/roke/obj/wand.old
+Creator:       Gresolle/Glindor
+Date:          January 12, 2002
+Cloned by:     /d/Khalakhor/inisi/roke/npc/refnas.c
+Related Files: Inherits /d/Khalakhor/inisi/roke/lib/wand.c
+Magic prop:    ({ 25, "enchantment" })
+Other info:    Wand of Healing.
+               Contains 10 charges, each healing 20+rand(40) hp.
+
+               Obsolete and no longer in circulation. Replaced with
+               /d/Khalakhor/inisi/roke/obj/wand.c
+
+STANDARD FORMAT
+===============
+File:
+Creator:
+Date:
+Cloned by:
+Related Files:
+Magic prop:
+Info prop:

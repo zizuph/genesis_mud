@@ -1,0 +1,329 @@
+/* magical weapons */
+The Master Knight's sword(/d/Kalad/common/caravan/wep/mksword) which
+belongs to Artharkan the Master Knight(/d/Kalad/common/caravan/npc/mknight)
+is an enchanted weapon that can only be wielded by individuals with a
+dis over 100, if someone tries to wield it and fails, they lose a
+   randomly determined amount of mana. In addition a minimum sword skill
+of 40 (Superior Acolyte) is needed to wield it. This is cumulative
+with the >100 dis requirement. Also, the wielder must have an alignment
+less than 500. The wielder can also do several emotes.
+HIT:41
+PEN:41
+HANDS:BOTH
+UNIQNESS: 4 (only 4 allowed in the game)
+-Antharanos-
+
+The Merchant's Bodyguard's axe(/d/Kalad/common/caravan/wep/mbgaxe) which
+can be found on the guard(/d/Kalad/common/caravan/npc/mbguard) is an
+enchanted weapon that can only be wielded by an individual with a str
+over 100, a dis over 100, an axe skill of at least 60 and a spellcraft
+skill of at least 20. In addition, no hobbits can wield the weapon due
+to its great size. Failure to wield the axe results in a loss of 1000
+hp. The axe also has limited healing capabilities. Upon typing the
+command word, the axe will heal 500 hp of damage to
+its wielder. The axe initially has but 3 charges of healing power,
+however, every time someone tries to wield the axe and fails, their
+energy is siphoned off and converted into a charge on the axe. The
+weapon also has several unique emotes available to its wielder.
+HIT:46
+PEN:46
+HANDS:ONE
+UNIQNESS: 4
+-Antharanos-
+
+The Skull Knight's warhammer(club)(/d/Kalad/common/caravan/wep/skwarham)
+is an enchanted weapon that is wieldable only by individuals with a wis
+over 100. If someone tries to wield it and fails, they will lose a
+random amount of hit points. A player must also have a strength stat
+greater than 50 to wield it.
+HIT:41
+PEN:43
+HANDS:BOTH
+-Antharanos-
+
+In the trade district, there is an old human named Penance. He has in 
+his possession 2 magic daggers.Penance can be found in 
+/d/Kalad/common/trade/cliffside/xzintra.c. The first of his daggers
+is a poisoned dagger with 
+an increased hit/pen(/d/Kalad/common/trade/cliffside/obj/pdagger).
+To wield it, the player must have a con of 80, a dex of 100, and a 
+knife skill of 65. Failure to have these stats does no damage, but
+increases panic.
+HIT:15
+PEN:30
+HANDS:ANY
+Milashk...
+
+The second of Penance's daggers is a parrying dagger. It is enchanted
+with an increased hit/pen, as well as additional parry and defence 
+skill. To wield it, a player must have a 100 dex, 80 dis, plus a 
+75 knife skill. Failure to have these increases panic.
+The dagger can be found in /d/Kalad/common/trade/cliffside/obj/p2dagger.c
+HIT:30
+PEN:25
+HANDS:ANY
+Milashk...
+
+   The two-handed mithril club (/d/Kalad/common/wild/pass/wep/gk_club) 
+which belongs to the goblin king (/d/Kalad/common/wild/pass/npc/gob_king)
+has the following magical properties. To wield the club, the wielder
+must be skilled in its use (50 club skill), cannot be entirely dedicated
+to good (alignment < 500) and must not have an intelligence over 100.
+Failure to meet any of these requirements when attempting to wield
+the club will result in severe fatigue for the person that attempted
+the act. The club also has several emotes available.
+HIT:44
+PEN:44
+HANDS:BOTH
+-Antharanos-
+
+   The foul stygion-black sword...
+(/d/Kalad/common/caravan/wep/sword_of_thanar) belongs to the avatar
+of Thanar (/d/Kalad/common/caravan/npc/avatar_thanar) and can only be
+wielded by someone with a sword skill of 90, spellcraft of 20 as well
+as str,dex,con,int,wis, and dis of at least 100. The weapon has the
+special ability, upon utterance of the command word, to grant
+temporary invisibility (a little over one minute in RL, or about 20
+minutes Kalad time) to its wielder. This ability can only be used 5
+times before the weapon becomes powerless.
+HIT:50
+PEN:50
+HANDS:BOTH
+UNIQUE: 4
+-Antharanos-
+
+   The pure snow-white sword...
+(/d/Kalad/common/wild/pass/wep/sword_of_solara) is a weapon blessed by
+Solara, the Kaladian goddess of the sun. To wield it, someone must have
+an alignment of at least 1000. The weapon grants upon its wielder the
+ability to see into one level of darkness, but only to the wielder, and
+only when the weapon is being wielded. The weapon also has the very
+limited ability to allow the wielder to see invisible objects (1 level),
+but this lasts for little over 1 minute in RL (20 minutes or so Kalad
+time). This ability can only be used once before the weapon becomes
+powerless.
+HIT:45
+PEN:45
+HANDS:BOTH
+-Antharanos-
+
+   The blackened whip...
+(/d/Kalad/common/central/wep/lord_whip.c) belongs to the
+High Lord of Kabal. It is made of the skin from a black dragon, 
+and has a dragon-tooth inside its handle. This weapon is 
+'intelligent' in the sence that it has some powers that the 
+wielder can use if he/she manages to control the whip. This power 
+consists of a special inherit in the weapon. When it hits
+a head, and does damage on it, it will add a delay to the
+enemy's fighting. (add_attack_delay) for the time: 
+20+random(20). The enemy can during this time use their own
+specials etch. but they will not use any weapon themselves.
+For this special to work, the wielder _must_ set his/her
+wimpy to brave.
+For each special that is done, the wielder is penaltied 
+with max 65 and min 33, depending on spellcraft-skill,
+off less mana. If the players mana
+reaches 0, the whip will unwield itself and hurt the
+wielder with 400 hp. This after a time, so the wielder can
+avoid it if fast enough.
+   To wield this whip, the player must have Spellcraft of 10,
+a club-skill of 60, and a dis of 60. Failure to wield it
+means 400hp of damage.
+   This whip is un-brawlable when the High Lord wields it.
+
+HIT:48
+PEN:40
+HANDS:ANY
+-Korat-
+
+   The Great War Trident
+(/d/Kalad/common/wild/pass/wep/lmk_trident) belongs to the Lizard Man
+King. An artifact from some lost civilization within the desert waste,
+it becomes a more effective weapon when wielded by someone of great
+strength (STR > 125, hit/pen increases to 48/48). However, it will shock
+anyone that attempts to wield it and is insufficiently strong (STR <
+126, the weapon will also return to its normal 36/36 hit/pen). The
+weapon is coated with the saliva of the Lizard Man King, which acts as
+a poison.
+
+HIT:<varies> 48(max)
+PEN:<varies> 48(max)
+HANDS:BOTH
+-Antharanos-
+
+-The Dark Adamantine Sword-(/d/Kalad/common/wild/pass/drow/wep/h5_1b_sword)
+  This sword belongs to the firstboy of House Kilsek in the drow city
+of Undraeth (/d/Kalad/common/wild/pass/drow/npc/h5_firstboy). If a 
+person with alignment less than 500 and a sword skill of at least 40
+wields it, the sword will radiate 1 level of darkness. If dropped or
+unwielded, the sword will cease to radiate darkness.
+HIT:29
+PEN:25
+HANDS:Any
+-Antharanos-
+
+-The Delicate Adamantine Sword-(/d/Kalad/common/wild/pass/drow/wep/h5_pat_sword)
+   This sword belongs to the patron of House Kilsek in the drow city of
+Undraeth (/d/Kalad/common/wild/pass/npc/h5_patron). If a person of
+alignment that is less than 500 and a sword skill of at least 40, with
+dex of 100 minimum wields the sword, they will be able to command the
+weapon to (randomly) transport them throughout the Dark Dominion.
+HIT:40
+PEN:32
+HANDS:Any
+-Antharanos-
+
+-The Great Three-headed Adamantine Flail-(/d/Kalad/common/wild/pass/drow/wep/h5_p2_flail)
+  This flail, found on the Priestess of House Kilsek in the drow city of
+Undraeth (/d/Kalad/common/wild/pass/drow/npc/h5_priest2) will, if 
+wielded by a female with a wisdom over 99, have its hit/pen increased
+from its normal 20/15 to 40/33. resultantly, when the flail is not
+wielded or is wielded by someone that doesn't meet the above 
+requirements, it will only have its normal hit/pen. Anyone failing to
+wield the flail will be shocked for 500hp of damage.
+HIT:<varies>
+PEN:<varies>
+HANDS:Any
+-Antharanos-
+
+-The Jet-black Adamantine Mace-(/d/Kalad/common/wild/pass/drow/wep/h5_p1_mace)
+   This mace, found on the high priestess of House Kilsek in the drow
+city of Undraeth (/d/Kalad/common/wild/pass/drow/npc/h5_priest1) will,
+if wielded by a female with a wisdom over 119, have its hit/pen increased
+from its normal 29/20 to 38/35. resultantly, when the mace isn't wielded
+or is wielded by anyone not fitting the above requirements, it will only
+have its normal hit/pen. Also, this player will be shocked for 500hp
+of damage.
+HIT:<varies>
+PEN:<varies>
+HANDS:Any
+-Antharanos-
+
+-The Large Three-headed Snake Whip-(/d/Kalad/common/wild/pass/drow/wep/h5_mat_whip)
+   This whip, found on the matron mother of House Kilsek in the drow city
+of Undraeth (/d/Kalad/common/wild/pass/drow/npc/h5_matron) will, if
+wielded by a female with wisdom over 132 and club over 49, have its
+hit/pen increased from its normal 25/25 to 40/40. resultantly
+when it isn't wielded or is wielded by anyone else, it will only have
+its normal hit/pen. Also, this player will be shocked for 750hp of
+damage.
+HIT:<varies>
+PEN:<varies>
+HANDS:Any
+-Antharanos-
+
+
+-The Large Adamantine Morning Star-(/d/Kalad/common/wild/pass/drow/wep/h7_pat_mstar)
+
+   This morning star, found on the patron of House Claddath in the city
+of Undraeth (/d/Kalad/common/wild/pass/drow/npc/h7_patron) will, if wielded
+by someone with an alignment less than 500 and with a club skill of
+at least 50, as well as strength of at least 100, be able to call upon
+the morning star's power via a command word. The weapon will do one of
+3 things, it will either 1)Heal them physically 2)Heal them mentally or
+3) Damage them physically and mentally. If they fail to wield the weapon
+then they will lose mana.
+HIT:35
+PEN:35
+HANDS:Any
+-Antharanos-
+
+- The holy silver longsword of Drakmere -
+
+  This is wielded by the captain of the elite guards of Drakmere, guarding 
+Lord Drakmere himself. Only holy people can wield it, and evil will be 
+burned by it depending on their alignment. It has a special againts 
+undead.
+HIT: 45
+PEN: 40 
+HANDS:both
+UNIQNESS: 1
+-Sarr-
+
+- The holy jeweld scepter of Drakmere -
+
+   This is wielded by Lord Drakmere himself. It has two charges that can 
+be used to heal. The amount of points healed is the alignment of the user. 
+Thus if you are evil,(which no evil one can really use, and if they try, 
+they will get hurt.) you will be damaged. It also has a damage attack to 
+undead.
+HIT: 30
+PEN: 40
+Hands: One
+-Sarr-
+
+
+- The blue longsword of Sir Gilbert -
+   This is wielded by the deadly avenger of Drakmere, Sir Gilbert. He comes out
+with 5 other knights to kill any player who has killed more than 5 citizens or
+guards and who has a stat ave of 150 or greater. This sword is only wieldable
+by players with alignment of >900, and evil players will be hurt by it with
+damage to them equal to their alignment. Players must also have a greater than
+100 wisdom. When wielded it adds 8 to your dis. Further, there is a 1/6 change
+at each hit that if the enemy is undead, it will do double damage.
+HIT: 42
+PEN: 40
+Hands: Any
+-Sarr-
+
+- The  long sharp naginata -
+
+   This is wielded by the beast lord (/d/Kalad/common/raum/npc/blord) who
+sits in the dungeons of the temple of the Khiraa. This weapon is special
+in that its hit and pen depend on the users skill in polearm. master or
+over is 40, veteran and over 30, while the default is 20.
+HIT: 45(max)
+PEN: 45(max)
+Hands: both
+
+- Sarr -
+
+
+- The fire axe -
+
+    This axe is wielded by the High-Lord's most trusted, and personal
+guard captain. He guards the High-Lord's wife, in his castle. It is very
+hard to get, because in order to kill him, you have to go through 8 of his
+guards first, at the same time. Plus, the axe is very deadly, with a hit
+and pen of 70/70 when the captain wields it. It has a drawback, tho. It
+has a fire special, that goes off randomly. It does about 100 damage a
+blow, and takes 100 mana from the wielder. Once the mana runs out, it
+stops. So whoever wields this, will have thier mana drained very fast.
+HIT: 45
+PEN: 48
+Hands: both
+UNIQUNESS: 4
+
+- Minotaur's Dark-bladed Lochaber Axe -
+
+    This axe is a quest reward, as well as a battle reward. The quest
+allows the player to find, and fight the minotaur statue. If the player
+defeats it, then the axe is theirs. It is an evil axe, created and
+enhanced by an evil warlock. So it can only be wielded by very evil
+characters. The quest is a level 3.
+HIT: 40
+PEN: 48
+Hands: left-hand
+
+- Giant Glowing Mace -
+
+    This is wielded by the captain of the guards in the noble houses of
+teh Noble district. It has a huge mana drain when you try to wield it,
+since it draws upon your essence for power. So, when someone wields this,
+its wise not to unwield it again. -600 mana is the drain. You must defeat
+the guards and the captain to get it, which is not easy.
+HIT: 39
+PEN: 33
+Hands: both
+UNIQNESS: 5
+
+- Shimmering mace -
+
+    This is a green mace wielded by the knight in the High-Lord's castle.
+It has a special that you can do to make light for a while. The knight is
+tough for a 100 stat ave player.
+HIT: 40
+PEN: 30
+Hands: any
+UNIQNESS: 4
+

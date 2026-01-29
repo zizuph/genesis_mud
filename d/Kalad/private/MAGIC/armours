@@ -1,0 +1,59 @@
+   /* magical armours */
+
+   The black grand breastplate...
+(/d/Kalad/common/central/arm/lord_breastplate.c) ... is worn
+by the High Lord of Kabal, to protect him from mele attack
+as well as magically attacks. It can be worn only by them
+who have a dis of 70, and are almost sober. To remove it one must be almost
+sober too. If they try, but fail, they will loose 50 manapoints.
+AC:43
+OBJ_I_RES_MAGIC : 10
+OBJ_I_RES_FIRE  : 30
+OBJ_I_RES_AIR   : 20
+-Korat-
+
+  The holy golden platemail..
+(/d/Kalad/common/raum/drakmere/arm/dl_plate) 
+It is the armour worn by Lord Drakmere of the City of Drakmere
+AC:44
+
+  The robe of penthalus
+(/d/Kalad/common/raum/arm/pen_robe)
+ This is a magical robe of dark magic. It protects the wearer from death 
+magic.
+AC: 10
+MAGIC_I_RES_DEATH : 50
+
+ 
+  The medallion of penthalus
+(/d/Kalad/common/raum/arm/pen_medallion)
+  This is a very powerful and ancient medallion that has been passed down 
+from master of apprentice in a long line of necromancers. It contains the 
+lifes blood of a thousand sacrificed individuals. When worn, it gives the 
+wearer a small fraction of their combined inttelect.
+AC: 1
+adds 10 int to wearer
+adds 20 wis to wearer
+
+They holy platemail of Lord Drakmere -
+(/d/Kalad/common/raum/drakmere/arm/dl_plate.c)
+
+This is a magical forged and blessed armour, resulting in higher strenght 
+and durability.
+AC: 44
+
+- Ancient mithril chainmail -
+
+This is the chainmail worn by the captain of the elite guards of the
+High-Lord. He protects the lady of the High-Lord, and is very tough. See
+the weapons doc on the fire axe for more info.
+AC: 42/48/44
+
+- shimmering kite-shield -
+(~drakmere/arm/shim_shield)
+
+This is from Sir Gilbert (~drakmere/npc/crystaline_knight) who, as said in
+the sword entry in weapons, is hard to kill. This shield is ac 40, and
+gives the wearer a +2 to light, and a magical resistance to magic +25
+additive.
+

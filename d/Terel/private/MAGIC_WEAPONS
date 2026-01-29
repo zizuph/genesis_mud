@@ -1,0 +1,395 @@
+Item: obsidian silver-tipped spear THIS WAS MOVED TO AVENIR
+Coder: Shinto
+Pathname: /d/Terel/dark/obj/evil_spear.c
+Skill Enhancement: None
+            Skill:
+            Level:
+Type: Weapon Polearm
+          Hit: 40
+          Pen: 45
+Magic: 55, enchantment
+Magic Resistance: None
+Specials: This spear adds 2 levels of LIVE_I_SEE_DARK.
+Game Location: /d/Terel/dark/mon/maivia.c 
+Remarks and Comments: In order to wield this spear your
+    alignment must be less then 40.
+
+Item: Long-handled mithril battleaxe
+Coder:  Shinto
+Pathname: /d/Terel/silver/weapon/dwarf_axe.c
+Skill Enhancement:  None
+            Skill: 
+            Level: 
+Stat Enhancement:  None
+Type: Weapon, Axe
+     Hit: 45
+     Pen: 45
+     Hands: Any
+Magic: 40, enchantment
+Magic Resistance:  None
+Specials: Extra damage to goblins. Only useable by dwarves.
+Game Location: /d/Terel/silver/monster/body_guard
+Remarks and Comments: The body guard that wields this axe if 
+    fairly tough, and the axe can only be wielded by a small 
+    population of mortals.
+
+
+Item: Ancient sword
+Coder:  Cedric
+Pathname: /d/Terel/cedric/thane/tsword
+Skill Enhancement:  None
+            Skill: 
+            Level: 
+Stat Enhancement:  None
+Type: Weapon,
+     Hit: 100
+     Pen: 100
+Magic: 100, enchantment
+Magic Resistance:  None
+Specials: This sword can only be used against the Dark One for
+     the Thane quest in Terel.
+Game Location: /d/Terel/mountains/chasm2
+Remarks and Comments: Not useable on anything in the game except
+    the Dark One. Also has a no drop, no sell, and no give props.
+
+
+Item: Frost club
+Coder: Sorgum 951216
+Pathname:  /d/Terel/common/frost/weapon/frost_club
+Skill Enhancement: None
+Type: Weapon Club  ANY_HANDED
+          Hit: 45
+          Pen: 45
+Magic: 40, enchantment
+Magic Resistance: None
+Limitations: None
+Specials:   Does extra damage via 
+   hit_me((dam-dam*res/100), MAGIC_DT, TP, -1)
+   where 'res' is magic resistance to cold.
+Game Location: /d/Terel/common/frost/npc/frost_giant
+               /d/Terel/common/frost/frost2.c
+
+
+Item: Mysterious sword
+Coder:  Mortricia
+Pathname: /d/Terel/enchanted/weapon/eg_sword.c
+Skill Enhancement:  None
+            Skill: 
+            Level: 
+Stat Enhancement:  None
+Type: Weapon Sword 
+                  Hit: 8-15-30
+                  Pen: 8-15-30
+Magic: 50, enchantment
+Magic Resistance: Adds MAGIC_I_RES_POISON
+Specials:  The mysterious sword is a reward for solving the 
+magicians treasure quest. The sword must suit the player to
+recieve the full benefit of 30 hit and pen. It is alignment based. 
+Game Location:  /d/Terel/enchanted/obj/coffin.c
+Remarks and Comments: Quest reward.
+
+Item: Tanto
+Coder:  Sorgum
+Pathname: /d/Terel/sorgum/weapon/corpse_knife.c
+Skill Enhancement:  None
+            Skill: 
+            Level: 
+Stat Enhancement:  None
+Type: Weapon Knife 
+                  Hit: 44
+                  Pen: 44
+Magic: 50, enchantment
+Magic Resistance: None
+Specials:  Tanto has a chance of doing extra damage to good targets.
+Game Location:  /d/Terel/sorgum/tomb/ccorpse.c
+Remarks and Comments: Tanto is extremely hard to get as Benton
+the canibal corpse has it. Benton breaks arms, paralyzes, throws
+fireballs, and some other things. Tanto can only be wielded by
+evil players with 50+ knife skill.
+
+Item: Bluebolt
+Coder:  Mortricia
+Pathname: /d/Terel/silver/cottage/bluebolt.c
+Skill Enhancement:  None
+            Skill: 
+            Level: 
+Stat Enhancement:  None
+Type: Weapon Sword 
+                  Hit: 34->58
+                  Pen: 34->58
+Magic: 
+Magic Resistance: None
+Specials:  When the player shouts bluebolt the sword is enchanced
+                and jumps to 58 hit and pen for 220 seconds.
+Game Location:  /d/Terel/silver/cottage/prince.c
+Remarks and Comments: 
+    The player must kill the witch for her key or steal it, kiss the toad
+to release the prince from his imprisonment, then kill the prince to
+gain the sword.
+
+
+Item:  Obsidian longsword
+Coder:  Vader, Commander, Olorin
+Pathname: /d/Terel/mountains/goblincave/weapon/sword_w_darkness.c
+Skill Enhancement:  None
+            Level: 
+Stat Enhancement:  None
+Type: Weapon Sword 
+                  Hit: 45
+                  Pen: 45
+Magic: Enchantment, 20 
+Magic Resistance: None
+Specials:  Creates Darkness when wielded by player with > 20 death
+            Death spells or the player is undead.
+                Death spells.
+Game Location:  /d/Terel/mountains/goblincave/monster/orcchief.c
+Remarks and Comments: 
+    After defeating the chief, you must defeat his ghost to obtain the
+sword.
+
+
+Item: Devils sword
+Coder:  Redhawk, Mortricia, Sorgum
+Pathname: /d/Terel/LoD/weapon/devils_sword.c
+Skill Enhancement:  None
+            Skill: 
+            Level: 
+Stat Enhancement:  None
+Type: Weapon Sword 
+                  Hit: 34-44
+                  Pen: 33-42
+Magic: Enchantment, 45
+Magic Resistance: None
+Specials:  
+    Depending on your negative alignment the hit and pen of the sword
+increases the more evil the player is. Max of 44 hit and 42 pen.
+Game Location:  /d/Terel/LoD/monster/devils_knight.c
+Remarks and Comments: 
+    Devils knights tend to be fairly formidable with various magical
+attacks so obtaining the sword is not simple.
+
+
+Item: Mergula's sword
+Coder:  Mortricia
+Pathname: /d/Terel/LoD/weapon/ew_sword.c
+Skill Enhancement:  None
+            Skill: 
+            Level: 
+Stat Enhancement:  None
+Type: Weapon TWO-HANDED SWORD
+                  Hit: 55
+                  Pen: 60
+Magic: Enchantment, 60
+Magic Resistance: None
+Specials: None    
+Game Location:  /d/Terel/LoD/monster/warlord.c
+Remarks and Comments: 
+    Mergula is very difficult to kill, having numerous magical attacks.
+
+
+
+Item: Dragon tooth
+Coder:  Shinto
+Pathname: /d/Terel/mountains/redlair/weapon/dtooth.c
+Skill Enhancement:  None
+            Skill: 
+            Level: 
+Stat Enhancement:  None
+Type: Weapon, Knife
+            Hit: 42
+            Pen: 42
+Magic: 100, enchantment
+Magic Resistance:  MAGIC_I_RES_FIRE 20 Additive
+Specials: None
+Game Location:  /d/Terel/orc_cave/monster/dragon.c
+Remarks and Comments: Obtained when slaying the Red Dragon, 200
+            stat ave dragon with a fire breath. It also only appears 
+            2/3 of the time.
+
+
+
+Item: dirty sword
+Coder: Unknown, Shinto
+Pathname: /d/Terel/common/swamp/dirty_sword.c
+Skill Enhancement: None
+            Skill:
+            Level:
+Type: Weapon Sword
+          Hit: 20-42
+          Pen: 20-42
+Magic: 55, enchantment
+Magic Resistance: None
+Specials: This sword is enchanted to improve in the hand of smaller
+          players. It is normally 20/20 but changes to 42/42 for 
+          players below stat ave 75.
+Game Location: /d/Terel/common/swamp/chiefkob.c 
+Remarks and Comments: For the smaller players this will be very
+          beneficial for useless for super champs.
+
+Item: Ivory-handled sabre
+Coder: Tomas  -- many thanks to Shinto and Goldberry  for swatting bugs
+Pathname:  /d/Terel/calathin/houses/weapon/isabre.c
+Skill Enhancement: None
+             Skill: 
+             Level:
+Type: Weapon Sword
+          Hit: 42
+          Pen: 42
+Magic: 40, enchantment
+Magic Resistance: None
+Specials: The sabre does 1/2 more damage of the total damage to
+          Trolls, Giants and Ogres. 
+Game Location: /d/Terel/calathin/houses/npc/house4_captain.c
+
+
+Item: Glistering shortsword
+Coder: Goldberry
+Pathname:  /d/Terel/dabaay/weapon/dshort.c
+Skill Enhancement: None
+Type: Weapon Sword
+          Hit: 45
+          Pen: 42
+Magic: 62, enchantment
+Magic Resistance: None
+Limitations: Requires (SS_WEP_SWORD/3 + SS_DEX/2) >= 75
+            and 0 intox to wield.
+Specials:   Does extra damage to intoxicated targets.
+            On a random(12)>3 against a target with
+            query_intoxicated > 0, it will do additional
+            damage equal to the target's percentage of
+            intoxication (query_intoxicated/intoxicated_max)
+            multiplied by the initial hit.
+            Max damage is dam * 2
+Game Location: /d/Terel/dabaay/npc/slugg.c
+
+
+Item: Blackened Staff/Blackened Steel Scythe/Blackened Steel Spear
+Coder: Goldberry
+Pathname:  /d/Terel/dabaay/weapon/jstaff.c
+Skill Enhancement: None
+Type: Weapon Polearm
+          Hit: 35/44/44
+          Pen: 32/52/49
+Magic: 62, enchantment
+Magic Resistance: None
+Limitations: Requires (SS_WEP_POLEARM/3 + SS_DEX/2) >= 75
+            and 0 intox to wield as scythe.
+Specials:   Scythe and spear do extra damage to intoxicated targets.
+            On a random(12)>3 against a target with
+            query_intoxicated > 0, it will do additional
+            damage equal to the target's percentage of
+            intoxication (query_intoxicated/intoxicated_max)
+            multiplied by the initial hit.
+            Max damage is dam * 2
+Game Location: /d/Terel/dabaay/obj/jchest.c
+
+
+Item: sickle-shaped dagger
+Coder: Goldberry
+Pathname:  /d/Terel/dabaay/weapon/ssickle.c
+Skill Enhancement: None
+             Skill: 
+             Level:
+Type: Weapon Knife
+          Hit: 25
+          Pen: 35
+Magic: 40, enchantment
+Magic Resistance: None
+Limitations: None
+Specials:    None
+Game Location: /d/Terel/dabaay/npc/jenglea.c
+
+
+Item: Mithril-spiked mace
+Coder: Goldberry
+Pathname:  /d/Terel/dabaay/weapon/dmace.c
+Skill Enhancement: None
+Type: Weapon Club
+          Hit: 45
+          Pen: 48
+Magic: 62, enchantment
+Magic Resistance: None
+Limitations: Requires (SS_WEP_CLUB/3 + SS_DEX/2) >= 75
+            and 0 intox to wield.
+Specials:   Does extra damage to intoxicated targets.
+            On a random(12)>3 against a target with
+            query_intoxicated > 0, it will do additional
+            damage equal to the target's percentage of
+            intoxication (query_intoxicated/intoxicated_max)
+            multiplied by the initial hit.
+            Max damage is dam * 2
+Game Location: /d/Terel/dabaay/npc/rogre.c
+
+
+Item: Mithril-bladed dagger
+Coder: Goldberry
+Pathname:  /d/Terel/dabaay/weapon/ddagger.c
+Skill Enhancement: None
+Type: Weapon knife
+          Hit: 35
+          Pen: 40
+Magic: 62, enchantment
+Magic Resistance: None
+Limitations: Requires (SS_WEP_KNIFE/3 + SS_DEX/2) >= 75
+            and 0 intox to wield.
+Specials:   Does extra damage to intoxicated targets.
+            On a random(12)>3 against a target with
+            query_intoxicated > 0, it will do additional
+            damage equal to the target's percentage of
+            intoxication (query_intoxicated/intoxicated_max)
+            multiplied by the initial hit.
+            Max damage is dam * 2
+Game Location: /d/Terel/dabaay/npc/dabaayhab.c
+
+
+Pathname: /d/Terel/silver(_new)/weapon/burr_arrow.c
+Skill Enhancement:  None
+            Skill:
+            Level:
+Stat Enhancement:  None
+Type: Prjectile, arrow
+     Hit: 45
+     Pen: 45
+     Hands: -
+Magic: -
+Magic Resistance:  None
+Specials: On good hits arrows are stuck (couse of thier
+        burrs). Stuck arrows couse bleeding, and decrease
+        dexterity. Can be broken, or pulled out.
+Game Location: /d/Terel/silver(new)/npc/bandit_leader
+Remarks and Comments: Guy using the arrows is rather
+        tough. He also have decent allies with him.
+        arrows comes in very small heaps (3 per heap).EOF
+
+
+
+Pathname: /d/Terel/silver(_new)/weapon/flamberge.c
+Skill Enhancement:  None
+            Skill:
+            Level:
+Stat Enhancement:  None
+Type: Weapon, Sword
+     Hit: 55
+     Pen: 50
+     Hands: 2
+Magic: 71, enchantment
+Magic Resistance:  None
+Specials: Good hits on enemy can affect his mana,
+        break his magical armour, reduce a random
+	skill on him for 1-2 minutes.
+
+Game Location: /d/Terel/silver(new)/forest_hp/inside
+Remarks and Comments: Wielding the sword couses:
+        - 400 mana loss.                                                                 
+        - heavy health loss if player have < 400 mana
+        - breaking of all other magic items player
+          possess. (With AM_MAGIC < 71)
+        - clearing of his remember list and making
+	  him unable to remember anyone (also meaning
+	  all livings are considered non met to him).
+	  Effect wears off when the sword is unwielded.
+        of the effects at random.
+                Sword is found only as a q reward,
+        only once per char.EOF
+
+

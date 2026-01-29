@@ -1,0 +1,1697 @@
+MAGIC items in Krynn
+====================
+Last modified by:
+Ckrik, Dec 2021
+
+Weapons:
+--------
+
+Draconian Claymore    (/d/Krynn/solamn/splains/obj/bclaymore.c)
+
+   Creator: Aridor
+
+      A magical sword that tests the wisdom of its wielder. The
+      wielder mentally has to overcome the sword in order to able
+      to wield it. (Requirement: WIS > 60)
+
+      The sword is magically balanced, thus behaving lighter in combat
+      than it actually is, allowing an increased HIT.
+
+      (Values: hit 49, pen 40).
+
+      It is a two handed weapon.
+
+      Wielded by: Dragon Highlord Kitiara
+                  (/d/Krynn/solamn/splains/living/highlord.c)
+
+                  Kitiara appears only in the event of an attack on
+                  Vingaard Keep (every 2.6 to 7.6 RL days).
+
+      Wielded by: some Auraks (see below)
+                  (/d/Krynn/solamn/splains/living/aurak.c)
+                  The highest level auraks may (randomly) have this
+                  weapon wielded.
+
+      Wielded by: some Sivaks (see below)
+                  (/d/Krynn/solamn/splains/living/sivak.c)
+                  The highest level sivaks may (randomly) have this
+                  weapon wielded.
+
+
+
+Blue Heavy Battleaxe    (/d/Krynn/solamn/splains/obj/bbattleaxe.c)
+
+   Creator: Aridor
+
+      A magical axe that tests the strength of its wielder.
+      (Requirement: STR > 60)
+
+      The axe is magically made lighter, thus allowing effectiveness
+      not normally available in combat. It hits as though it was still
+      as heavy as it should be, allowing an increased PEN.
+
+      (Values: hit 32, pen 52).
+
+      It is a two handed weapon.
+
+      Wielded by: some Auraks (see below)
+                  (/d/Krynn/solamn/splains/living/aurak.c)
+                  The higher level auraks may (randomly) have this
+                  weapon wielded.
+
+      Wielded by: some Sivaks (see below)
+                  (/d/Krynn/solamn/splains/living/sivak.c)
+                  The highest level sivaks may (randomly) have this
+                  weapon wielded.
+
+
+Nightbringer    (/d/Krynn/pax/weapon/nightbringer.c)
+
+   Creator: Jeremiah
+
+   Modified by: Blizzard
+
+   Hit: 45 (50 for player with align < -500)
+   Pen: 40
+
+ Special: blind.
+
+
+ Old: A magical mace, only wieldable by evilaligned players.
+      (Requirement: Alignment < -600)
+
+ Now: Wieldable by all players, but those with alignment higher than 0,
+      will have it lowered by value of 200. Also, they will get blinded
+      for 2-5 minutes, with each attempt to wield. Evil players will have
+      the weapon to_hit increased by 5 upon wielding.
+
+      This mace is a 1 handed mace, that draws upon its powers from
+      the dark queen Thakisis herself. It has the ability to blind
+      its opponent when the right word of command is spoken, 'Midnight'.
+      The blinding lasts for about 30 secs. This costs 100 manapoints,
+      and the blinding will only be effective if the mace does damage
+      in the turn where the word of command is spoken. It is avaliable
+      only in combat. If the mace is wielded by Verminaard, it is also
+      unbrawlable. Players with alignment higher than 100 will get hurt
+      while trying to use the power word.
+
+      It is a 1 handed weapon.
+
+      Wielded by: Dragon Highlord Verminaard
+                  (/d/Krynn/pax/monster/verminaard.c)
+
+
+
+Wyrmsbane    (/d/Krynn/common/weapons/wyrmsbane.c)
+
+   Creator: Jeremiah
+
+      A magic sword, wieldable by those with alignment > 600.
+      It was crafted by the Silvanesti elves during the second dragon
+      war, and does extra damage  while fighting dragonkin (ie. Draconians
+      and Dragons). The sword is given to the one who kills the slug
+      crawling around in the burial chamber of Kith-kanan. The weapon is
+      thus only available through combat. The old skeletal remains of the
+      elven king, will give the sword to the one who slayed it.
+
+      (Values: hit 35, pen 35). Special dam = dam + dam against dragons
+      and draconians, dam * 3 against black dragons.
+
+      It is a 1 handed weapon.
+
+      Wielded by : no one.
+
+
+
+Sword of Fire (/d/Krynn/solace/puzzle/weapons/sword_fire.c)
+
+   Creator: Mucalytic
+
+      A magical sword that upon wielding, bursts into flames.
+      The fire from the sword produces light, and does fire damage
+      to opponents. This object is given as a reward from the
+      Solace Puzzle Quest. It is entirely resistant to damage
+      by fire, having a resistance of 100. Pen: 32. Hit: 32.
+      This sword cannot be bought, and has enchantment magic.
+
+      *** Note the Solace Puzzle Quest is no longer open. 
+      *** Nor is this sword.
+
+
+
+Bladed Silver Staff     (/d/Krynn/haven/road/bladed_staff.c)
+
+Creator: Morrigan
+
+
+The bladed silver staff is a magical staff, blessed by the Goddess
+of Neutral Magic, Lunitari. It behaves as a "normal" staff, albeit
+an exceptional one, when wielded by someone who is _not_ a wizard
+of high sorcery. If the wielder is a wizard of high sorcery, and is
+on Krynn somewhere, Lunitari will bestow her blessings upon the
+follower of the Moons, and the staff will charge itself on one swing,
+then the normal swing will be replaced by a magical spell. The spell
+will either be a blast of crimson light, or a shower of crimson
+light that stuns the opponent for a few seconds.
+
+
+Wielded by: No one, it is attained from the hooded draconian patrol
+near Solace, where it appears randomly. (about 20% of the time)
+
+
+
+
+Elegant Jewel-Encrusted Sabre   (/d/Krynn/solamn/splains/obj/kit_sword.c)
+
+Creator: Morrigan
+
+Hit/Pen: 45/40
+
+Magical Abilities: Sentient, Speed
+
+Wielded by:This is the sword of Kitiara the Highlord, who raids VK.
+
+
+The sword is sentient, very arrogant and ambitious and seeks fame and
+fortune. It is jealous, it will not allow itself to be wielded while
+the attempted wielder wields another weapon, and the wielder will not
+be able to wield another weapon while wielding it. It requires that the
+dis of the wielder not be less than 80% of the highest stat, and sword
+skill must be >= 60 for the sabre to be wielded. The sword gets angry
+in battle, and will begin to glow as its anger increases. When the
+fury reaches a certain level it will drain the life of the enemy. The
+damage is regular damage for the sabre, but one half of it is directed
+at the wielder (all of it is directed at the wielder if it is a killing
+blow). The sabre adds a quickness of 33, and sword skill / 10 to parry.
+It also will have a random chance to magically parry about 1% of blows
+per ten levels of parry (max of 10%). The sabre is particularly jealous
+of other magical weapons, and the magical parry chance as well as the
+rate in which the sabre gets mad is doubled when fighting an enemy
+wielding a magical weapon. Finally, when the sword is angry, there is
+a chance that it will force the wielder to attack the largest of his
+current enemies.
+
+
+
+slender elven longsword (/d/Krynn/icewall/castle2/obj/weapons/fael_sword)
+
+Hit/Pen 47/45
+
+Creator: Kessie
+
+Magical Abilities: Lighter weight, increased hit/pen.
+
+Wielded by: Fael-Thas, General of the White Dragonarmy on Icewall.
+
+This sword has been crafted in Silvanesti for a certain
+promising magic user of rich standing. However, found a
+user of black arts, and a traitor, he was banned from
+Silvanesti, and fled with many a magic item, this sword
+included.
+
+
+
+sturdy one-bladed axe (/d/Krynn/icewall/castle2/obj/weapons/hrun_axe)
+
+Creator: Kessie
+
+Hit/Pen 34/38 (when wielded by minotaur 40/44)
+
+Wielded by: Hrun, minotaur commander on Icewall.
+
+This is a neat minotaur axe, as per the books. Due to the unique
+balance, and heavy axehead, minotaurs and ogres with their huge fists
+can do much more damage with it then any other race. The
+enchantment upon it is minor.
+
+
+
+lethal dragon-forged dagger (/d/Krynn/icewall/castle2/obj/weapons/wknife)
+
+Creator: Kessie and Boron
+
+Hit/Pen 30+random(8)/35+random(10)
+
+Wielded by: Auraks on the whole of Krynn/Ansalon,
+            Fael-thas on Icewall.
+
+
+The weapon supplements the magically forged Claymores and Battleaxes for
+the elite troops of Takhisis, Queen of the Abyss.
+
+This nearly a foot long, left handed dagger looks lethal.
+
+Its straight, solid blade has been forged with vicious
+teeth set at regular intervals along a razor-sharp
+edge that looks capable of cutting skin and bone in
+the blink of an eye.A large "color" gem has been mounted
+in a steel dragon claw at the end of the hilt, and
+serves as the counterbalance.The hilt itself has
+been wrapped in the skin of baby dragons.
+
+The weapon glows with a fierce, unholy light, but what
+unnerves you the most is the fact that the tiny, not
+yet hardened scales on the hilt glow with a silvery
+and bronze sheen, and the abominable artifact seems to
+emit wails of undescribable agony.
+
+
+
+long composite bow (/d/Krynn/qualinesti/wep/singing_bow)
+
+Creator: Blizzard
+
+Hit/Pen 44/42 (49/47 as humming long bow, 54/52 as singing elven longbow)
+
+Wielded by: Qualthas in Qualinesti (/d/Krynn/qualinesti/npc/qualthas)
+
+ The bow requires combination of SS_STR and SS_DEX to be wielded.
+
+ It is magicial longbow, that begins to hum in hands of skilled archer,
+ and if he is an elf of half-elf the longbows starts changes into 
+ singing elven longbow. Its hit and pen changes also (+5 as humming and
+ by another 5 as singing bow). If the wielder has at least superior layman
+ in SS_WEP_MISSILE, the skill will increase by maximum value of 10 and
+ if he is an elf maximum value will be 20. SS_DEFENCE will decrease by
+ value equal to gained SS_WEP_MISSILE skill. While being under the 
+ influeace of the bow's song, the player's quickness increase by 50.
+
+
+
+wide eagle-shaped dagger (/d/Krynn/qualinesti/wep/eagle_dagger)
+
+Creator: Blizzard
+
+Hit/Pen 36/35 ( 42/41 if mastered, 28/27 after failed mastering )
+
+Wielded by: Qualthas in Qualinesti (/d/Krynn/qualinesti/npc/qualthas)
+
+ The dagger requires 60 in SS_WEP_KNIFE to be wielded.
+
+ It is a powerfull artifact. The dagger images an eagle stiking its 
+ victim and it seems to have its own soul. While wielding player 
+ attempts to calm the dagger, what depends on resolve_task (that considers
+ TS_INT, TS_WIS, TS_DIS). If it is succesfully mastered the hit and pen
+ values increase, if the playes loses those values decrease. Also, during
+ the fight the dagger may become wild again and then its stats return to
+ normal, unless the command 'gaze into the black onyx eyes' is used. Then
+ the wielded will attempt to calm the knife once again. The dagger also
+ drains player's mana slowly during the fight.
+
+
+
+slender silvery longbow (/d/Krynn/qualinesti/wep/silver_bow)
+
+Creator: Blizzard
+
+Hit/Pen: 46/48
+
+Wielded by: Qualthas in Qualinesti (/d/Krynn/qualinesti/npc/qualthas)
+
+ This longbows is wielded by Qualthas as replacement for singing elven bow.
+ It was created by Qualinesti elves, who are masters of creating bows, and
+ thus it is extremely lethal.
+
+
+sleek ashwood longbow (/d/Krynn/qualinesti/wep/ash_bow)
+
+Creator: Blizzard
+
+Hit/Pen 44/45
+
+Wielded by: Qualinesti elves
+
+ The longbow commonly used by Qualinesti elves, who are masters of creating
+ bows. It was made of branch of ash wood by using technic known only to its
+ creators. It is extremely light and lethal.
+
+
+azure rune-etched longsword (/d/Krynn/qualinesti/wep/elven_blade)
+
+Creator: Blizzard
+
+Hit/Pen 47/46
+
+Wielded by: noone
+
+ It is Sarist's family longsword. Made of strange azure metal and enchanted
+ by elven magic is very light and extremely well balanced, thus lethal. 
+ There are runes, that glow during combat, on its blade. The sword can not
+ be wielded by evil people. Quest reward.
+
+
+leaf-headed arrow (/d/Krynn/qualinesti/wep/leaf_arrow)
+
+Creator: Blizzard
+
+Hit/Pen 43/43
+
+Used by: Qualinesti elves
+ 
+ Those arrows were made by Qualinesti elves, masters of archery. The arrow
+ is perfectly balanced. It has flanged arrowhead to inflic greated damage.  
+
+
+narrow-headed arrow (/d/Krynn/qualinesti/wep/piercing_arrow)
+
+Creator: Blizzard
+
+Hit/Pen 48/48
+
+Used by: Qualinesti elves
+
+
+ Those arrows were made by Qualinesti elves, masters of archery. The arrow
+ is perfectly balanced and has narrow spiked head, what increases the 
+ chance of piercing through armours. 
+
+
+
+jet black war-sword (/d/Krynn/pax/weapon/war_sword)
+
+Creator: Blizzard
+
+Hit: 49
+Pen: 54
+
+Used by: Verminaard in Pax Tharkas (/d/Krynn/pax/monster/verminaard),
+
+         Kitiara (/d/Krynn/solamn/splains/living/highlord),
+
+Magic abilities: the nasty special, that hits all of the wielder's enemies.
+
+
+ This composite sword is similar to a great sword but due to its 
+ construction it is both lighter and stronger. The sword is made 
+ from up to ten strips of metal that are then twisted and forged 
+ together  to give a  flexible but strong blade that  can resist 
+ more punishment than a standard sword. The blade edges are also 
+ combined  with carbon so  that a  sharper edge can be achieved. 
+ This is why the sword has increased  damage and a lower weight. 
+ It has also the nasty  special, that  allows the wielder to hit 
+ all of his  enemies with  a single  swipe, and as a result they 
+ may get even stunned (  time : 4 + random(4),  and for  undeads 
+ time: 8 + random(4) ). After such attack, the wielder will have
+ his parry and defence lowered (by 5) for one minute, however.
+
+
+
+dwarven war-mace, "Knee-Crusher" (/d/Krynn/common/weapons/war-mace)
+
+Creator: Blizzard
+
+Hit: 43, (36 if wielded by non-dwarves, 50 if wielded by Neidars)
+Pen: 37, (30 if wielded by non-dwarves, 43 if wielded by Neidars)
+
+Used by: Shale the Banished member of the Neidar Clan
+
+                  (/d/Ansalon/balifor/flotsam-forest/living/shale),
+
+         Colin Ironfist, the leader of dwarven merchants
+                  (/d/Krynn/haven/dwarf_camp/npc/colin)
+
+
+ Magic abilities: The mace has damaging special, which if hits the
+      enemy's legs will make him unable to walk for a short while. 
+
+
+ Ths war-mace has was constructed by the Neidar blacksmith long time 
+ ago and after that  blessed by priests of Reorx and  thus it is the
+ most effective in the hands of a dwarf,  especially hill one. Stats 
+ of the war-mace will increase upon wielding by hill dwarves (both 
+ +7). His quickness also will be increased by 33. If mace is wielded 
+ by non-dwarf, its stats will go down by 7, as it was crafted for 
+ dwarven hands. Since the dwarves often fight bigger enemies, like
+ ogres, trolls or giants, they usually hit their legs, delivering 
+ painfull blows, which may limit the mobility of those creatures. 
+ And thus this dwarven war-mace has been named the "Knee-Crusher".
+
+ Every hill dwarf using this mace will become more tired with each 
+ hit. Also the offensive style of fighting leaves the hill dwarf
+ more vulnerable to attacks (lowering SS_DEFENCE by 5).
+
+ 
+
+lethal flame-bladed glaive (/d/Krynn/common/weapons/flame_glaive)
+
+Creator: Blizzard
+
+Hit: 37 (maximum 47)
+Pen: 43 (maximum 53)
+
+Used by: Verminaard (/d/Krynn/pax/monster/verminaard),
+         the highest level auraks may wield this weapon randomly.       
+
+ Magic abilities: It has a damaging special, which if hits the enemy's
+      arms will add attack delay for a short while, but if it hits the
+      legs, it will make the enemy unable to move for a moment.
+
+ The weapon consists of a long, broad knife-like bladed attached to a 
+ wooden staff. It has a wavy bladed edged on the convex side for 
+ slashing and pointed at the tip for trhusting. There are also two
+ smaller, crooked blades, which may be used for tearing into opponents
+ body. The weapons stats depend on the wielder's SS_WEP_POLEARM skill. 
+
+ The skill of superior layman is required to wield this weapon at all, 
+ and only the high races have a chance to use it. In hands of a person 
+ whose skill is higher than 55, the stats will increase slightly, but
+ if he is a real master of polearm, the stats will increase even more.
+
+ While performing the special attack, the wielder's mana is drained,
+ but while being metally exhausted, he will become more tired with 
+ every next special hit.
+
+
+
+frostreaver (/d/Krynn/icewall/plains/obj/frostreaver)
+
+Creator: Macker/Arman
+
+Hit: 45
+Pen: 60
+
+Used by: Icewall Warriors
+
+
+This battleaxe is made of ice gathered from a secret location on Icewall 
+Glacier by the Revered Priests of the Ice Folk. The blade of this weapon 
+is formed through a mystical and painstaking process known only to these
+priests, however the end result is a weapon as deadly as any! However, 
+temperatures above freezing (ie if it leaves Icewall) will eventually rend 
+this weapon useless (it melts).
+
+
+
+ancient two-handed claymore (/d/Krynn/solamn/vin/weapon/kclaymore)
+
+Creator: Arman
+Hit: 49
+Pen: 40
+
+Used by: Knights of Solamnia
+
+This is pretty much a carbon copy of the draconian claymore, however is wielded
+by knight npcs.
+
+
+deadly footman's lance (/d/Krynn/solamn/vin/weapon/kn_lance)
+
+Creator: Arman
+
+Hit: 43
+Pen: 45
+
+Used by: Knights of Solamnia
+
+This lance has some minor enchantments put on it, increasing its hit and pen slightly.
+
+
+
+tempered spear (/d/Ansalon/goodlund/nethosak/forest/obj/weapon/spear)
+
+Creator: Elmore, April 2001
+
+Modified by: Navarre, October 2005
+
+Hit: 32+random(5)
+Pen: 48+random(2)
+Speed: 32+random(10)
+
+Wielding: left hand
+
+Guarded by: Ancient Black Dragon (Onyx) on Mithas
+
+(Original spear: two-handed, hit: 40, pen: 40.)
+
+
+This spear can be found in the corpse of a kender laying in the caves of the 
+ancient black dragon, Onyx, in the swamp area of the forest on Mithas.
+
+To obtain the spear the player must first defeat the tough dragon, and figure
+out, and be strong enough to pull the roots to reveal the crack to enter.
+It is limited who can enter the crack after the dragon has been defeated, 
+depending on the constitution of the player. Players of significant 
+constitution will not be able to enter the crack.
+
+
+
+stone giant thighbone (/d/Krynn/tharkadan/weapon/giant_thighbone.c)
+
+    Creator : Arman
+
+    A two-handed magical club, the thighbone cut from the corpse of
+    a stone giant (~tharkadan/living/stone_giant.c) - 10% chance of
+    spawning on the corpse.
+
+    Provides higher pen than non-magical two-handed clubs.
+
+    hit: 35; pen: 50
+
+massive blue battleaxe (/d/Krynn/tharkadan/weapon/magic_2haxe.c) 
+
+    Creator : Arman
+
+    A massive two-handed battleaxe made of the rare star metal ore.
+    Found on the battlefields of the Dwarfgate Wars, is a chance of
+    being wielded by ogre barbarians of the Tharkadan ranges
+    (~tharkadan/living/ogre.c). 25% chance of an ogre wielding an 
+    axe, with a clone_unique set at 15.
+
+    High hit and pen. Lower chance of dulling/corroding/breaking.
+    Very heavy.
+
+    hit: 45; pen: 55
+
+huge blue halberd (/d/Krynn/tharkadan/weapon/magic_2hhalberd.c) 
+
+    Creator : Arman
+
+    A huge blue halberd made of the rare star metal ore.
+    Found on the battlefields of the Dwarfgate Wars, is a chance of
+    being wielded by ogre barbarians of the Tharkadan ranges
+    (~tharkadan/living/ogre.c). 25% chance of an ogre wielding an 
+    halberd, with a clone_unique set at 15.
+
+    High hit and pen. Lower chance of dulling/corroding/breaking.
+    Very heavy.
+
+    hit: 45; pen: 55
+
+blue two-handed warhammer (/d/Krynn/tharkadan/weapon/magic_2hhammer.c) 
+
+    Creator : Arman
+
+    A blue two-handed warhammer made of the rare star metal ore.
+    Found on the battlefields of the Dwarfgate Wars, is a chance of
+    being wielded by ogre barbarians of the Tharkadan ranges
+    (~tharkadan/living/ogre.c). 25% chance of an ogre wielding a 
+    warhammer, with a clone_unique set at 15.
+
+    High hit and pen. Lower chance of dulling/corroding/breaking.
+    Very heavy.
+
+    hit: 47; pen: 55    
+
+blue two-handed sword (/d/Krynn/tharkadan/weapon/magic_2hsword.c) 
+
+    Creator : Arman
+
+    A blue two-handed sword made of the rare star metal ore.
+    Found on the battlefields of the Dwarfgate Wars, is a chance of
+    being wielded by ogre barbarians of the Tharkadan ranges
+    (~tharkadan/living/ogre.c). 25% chance of an ogre wielding a 
+    warhammer, with a clone_unique set at 15.
+
+    High hit and pen. Lower chance of dulling/corroding/breaking.
+    Very heavy.
+
+    hit: 47; pen: 54
+
+runed ironwood staff (/d/Krynn/tharkadan/weapon/magic_ironwood_staff.c) 
+
+    Creator : Arman
+
+    This staff was created long before the Catacylsm by a black-robed 
+    Wizard of High Sorcery battlemage. Loving the thrill of hand-to-hand 
+    combat, he enchanted this staff to draw on the holders magecraft and 
+    their skill with the element of wind to empower the staff to be quick 
+    in the hands, but powerful enough to fell a warhorse in a hit.
+
+    This weapon gets a bonus to hit/pen depending on the holders SPELLCRAFT 
+    and ELEMENT_AIR skills, wielded by /d/Krynn/tharkadan/living/ogre_magi.c 
+    The staff is also very light.
+
+    hit = 10 + min(50, who->query_skill(SS_ELEMENT_AIR) / 2);
+    pen = 10 + min(50, who->query_skill(SS_SPELLCRAFT) / 2);
+
+    The staff has a clone unique set at 15.    
+        
+cruel oakwood arrow (/d/Krynn/tharkadan/weapon/poison_arrow.c)
+
+    Creator : Arman
+
+    This arrow has been alchemically enhanced to poison its victims.
+    This arrow poisons its target on a hit:
+         interval 10
+         time 120
+         damage:   fatigue 15, hp 50
+
+    Hit 30; pen 30
+
+    These arrows are carried by hobgoblin trackers found along the path
+    south of Pax Tharkas with a draconian hunting party:
+    /d/Krynn/tharkadan/living/hob_archer.c
+
+    The hunting party only clones when the pass through the mountain is open
+    (i.e. not winter).
+
+short steel-tipped hoopak (/d/Krynn/tharkadan/weapon/hoopak.c)
+
+    Creator : Arman
+
+    An enchanted hoopak, allowing increased hit and pen when wielded by
+    a kender. Has a 1/4 chance of spawning in the cocoon corpse dropped by 
+    the giant spider /d/Krynn/tharkadan/living/giant_spider.c) in the 
+    Tharkanan mountain range caverns /d/Krynn/tharkadan/obj/cocoon_corpse.c,
+    with a clone_unique value of 15.
+
+    Two-handed.
+
+    Hit: 15 / 48 (kender)
+    Pen: 15 / 44 (kender)
+
+star metal warhammer (/d/Krynn/tharkadan/weapon/magic_theiwar_hammer.c)
+
+    Creator : Arman
+
+    A warhammer crafted by the smiths of the Theiwar clan out of the rare star 
+    metal, and enchanted by dark dwarf savants to be a warhammer of exceptional 
+    strength and lightness.
+
+    Has a 1/4 chance of spawning in the cocoon corpse dropped by 
+    the giant spider (/d/Krynn/tharkadan/living/giant_spider.c) in the 
+    Tharkanan mountain range caverns /d/Krynn/tharkadan/obj/cocoon_corpse.c,
+    with a clone_unique value of 15.
+
+    Also has a chance of cloning on the Theiwar warleader, 
+    /d/Krynn/tharkadan/living/theiwar_chieftain.c with a clone unique value of
+    10.
+
+    Weapon any hand.
+
+    Hit: 40
+    Pen: 45
+
+star metal waraxe (/d/Krynn/tharkadan/weapon/magic_theiwar_waraxe.c)
+
+    Creator : Arman
+
+    A waraxe crafted by the smiths of the Theiwar clan out of the rare star 
+    metal, and enchanted by dark dwarf savants to be a waraxe of exceptional 
+    strength and lightness.
+
+    Has a chance of cloning on the Theiwar warleader, 
+    /d/Krynn/tharkadan/living/theiwar_chieftain.c with a clone unique value of
+    10.
+
+    Weapon any hand.
+
+    Hit: 40
+    Pen: 45
+
+heavy runed greatsword (/d/Krynn/guilds/wohs/test/obj/wohs_test_greatsword.c)
+
+    Creator : Arman
+
+    An illusionary weapon that is wielded by the commander of the Ergothian
+    forces part of the Test of High Sorcery. If taken from the Test it
+    disappears into mist. No real opportunity for players to use.
+
+    Weapon two-handed.
+
+    Hit: 60
+    Pen: 60
+
+staff of the archmage (/d/Krynn/guilds/wohs/test/obj/wohs_test_staff.c)
+
+    Creator : Arman
+
+    An illusionary staff that can be found in the vault of the Daltigoth
+    Tower of High Sorcery as part of the Test of High Sorcery. While this
+    staff has impressive descriptions, it has no real powers.If taken from 
+    the Test it disappears into mist. No real opportunity for players to 
+    use.
+
+    Weapon two-handed.
+
+    Hit: 40
+    Pen: 40
+
+silvery willow-wood longbow (/d/Krynn/guilds/elven_archers/guru/dryad_bow.c)
+
+    Creator : Carnak
+
+    This bow is from the elven archer guru quest. It creates its own arrows 
+    and has high hit and pen. It can only be obtained once by completing the 
+    guru quest.
+
+    Weapon two-handed.
+
+    Hit: 55
+    Pen: 55
+
+deadly black-tipped lance (/d/Krynn/throtyl/weapon/moor_lance.c)
+
+    Creator : Arman
+
+    This horseman's lance has had enchantments placed upon it
+    to make it deadlier when the wielder is mounted.
+
+    This lance that has a chance to be wielded by the mounted Riders 
+    in the Moor, /d/Krynn/throtyl/living/moors_rider.c
+
+    Weapon two-handed.
+
+    Hit: 40
+    Pen: 30 (50 when mounted)
+
+long adamantine warhammer (/d/Krynn/throtyl/weapon/thane_mace.c)
+
+    Creator : Arman
+
+    This warhammer is a powerful magical weapon wielded by a ghost dwarven 
+    thane in the Throtyl region /d/Krynn/throtyl/living/thane_ghost.c
+
+    The warhammer is WC 50, but does between 1.5x and 2x damage on dwarves 
+    and on humans.
+
+    This warhammer also doesn't dull.
+
+    Hit: 50
+    Pen: 50    
+
+narwhal hornblade (/d/Krynn/turbidus_ocean/obj/hornblade.c)
+
+    Creator : Arman
+
+    This knife has high hit/pen, however its main power is that a
+    waterbreathing effect can be activated upon the wielder if their
+    spellcraft is superior amateur or higher. 
+    This effect costs 100 mana (base propchange spell x5) upon activation,
+    and lasts for 30 minutes or until the blade is unwielded.
+
+    /d/Krynn/turbidus_ocean/spells/waterbreathe.c
+    /d/Krynn/turbidus_ocean/spells/waterbreathe_sh.c
+
+    It can be wielded by sahuagin priestesses (clone unique 15)
+    /d/Krynn/turbidus_ocean/living/sahuagin_priestess.c
+
+    Hit: 35
+    Pen: 40
+
+phoenix-bladed axe ((/d/Krynn/turbidus_ocean/obj/phoenix_axe.c)
+
+    Creator : Arman
+
+    This left-handed axe can be wielded by the Erothian captain 
+    /d/Krynn/turbidus_ocean/living/ergothian_captain.c.  It dulls at 
+    33% the rate of normal weapons, and when the command 'praise 
+    habbakuk' is used it grants a quickness enhancement that is outlined 
+    in /d/Krynn/turbidus_ocean/spells/phoenix_axe_haste.c, equating to 
+    a boost of 27 live_i_quickness or 15 caid. This effect lasts for 
+    15 minutes and costs 150 mana to activate, with standard ongoing 
+    spell maintenance cost as with all standardised maintained spell 
+    effects.
+
+    /d/Krynn/turbidus_ocean/spells/phoenix_axe_haste.c
+    /d/Krynn/turbidus_ocean/spells/phoenix_axe_haste_obj.c
+
+    Hit: 35
+    Pen: 35
+
+
+staff of skulls (/d/Krynn/tharkadan/weapon/staff_of_skulls.c)
+
+    Creator : Arman
+
+    This staff can be wielded by the Theiwar dark dwarf magi in the
+    caverns of Tharkadan (/d/Krynn/tharkadan/living/theiwar_magi.c).
+    When wielded by someone with 75+ SS_SPELLCRAFT skill, it provides
+    a spellpower to the wielder ranging from 51 to 59. When wielded, 
+    it will drain either 20% of the wielder's health or mana.
+
+    Hit : 40
+    Pen : 20
+
+
+Armours:
+
+--------
+
+ Name:            clear silver ring
+
+ Filename:        /d/Krynn/icewall/castle2/obj/armours/fael_ring.c
+
+
+ Description:     This ring was created by Fael-Thas to protect
+                  him against assination attempts with poison.
+                  He was extreemly paranoid, thats the reasson
+                  why he had items like this.
+
+                  Also, it makes it harder for mortals to slay him
+                  easily with poison ;-)
+
+                  It adds additative resist to poison of 40
+
+ Worn by:         /d/Krynn/icewall/castle2/npc/fael-thas.c
+
+
+
+Blue Dragonscale Armour  (/d/Krynn/solamn/splains/obj/bdragonarm.c)
+
+   Creator: Aridor
+
+      A magical armour made of real blue dragon scales. These scales
+      are magical, increasing the armour value to (AC: 45).
+      The wearer feels uneasy if he has alignment > 100.
+
+      To wear the armour the player will only dare if he has a certain
+      self-discipline (DIS > 50).
+
+      Upon removing the armour, the wearer needs to have (15 * STR > alignment)
+      or he cannot remove the armour again and will hurt himself every
+      time he tries.
+
+      Gives the wearer protection against:
+
+               MAGIC_I_RES_FIRE  30 (additive)
+
+               MAGIC_I_RES_LIGHT 30 (additive)
+
+      Worn by: Dragon Highlord Kitiara
+
+               (/d/Krynn/solamn/splains/living/highlord.c)
+
+               Kitiara appears only in the event of an attack on
+               Vingaard Keep (every 2.6 to 7.6 RL days).
+
+      Worn by: some Auraks (see below)
+
+               (/d/Krynn/solamn/splains/living/aurak.c)
+
+               The highest level auraks may (randomly) wear this
+               armour.
+
+      Worn by: some Sivaks (see below)
+
+               (/d/Krynn/solamn/splains/living/sivak.c)
+
+               The highest level sivaks may (randomly) wear this
+               armour.
+
+
+
+Amulet of Morgion  (/d/Krynn/common/armours/wcm_amulet.c)
+
+  Creators: Teth and Aridor
+
+      A magical neck armour that has a few minor magics. It is the
+      talisman of Clerics of Morgion. If a Knight of Solamnia attempts
+      to wear it, they lose some prestige. This is repeatable and
+      additive effect. If someone of align > 400 and has their
+      current stat > or = their base stat in both con and dex,
+      then the amulet will add_tmp_stat for both dex and con,
+      halving the stats. In addition, this amulet also has the effect
+      of being able to count how many livings in the room have
+      Krynn's 'sickness' poison (see the doc on POISONS).
+
+    Worn by: Cleric of Morgion (/d/Krynn/common/npcs/wand_cl_morgion.c)
+
+             Found randomly over the entire domain.
+
+
+
+Mask of despair (/d/Krynn/common/armours/warhelm.c)
+
+   Creator: Boron
+
+   AC: 40.
+
+   This helmet allows the wearer to see level 1 invisible objects at
+   the cost of mana (drains 1 mana point per second). It also does
+   not like undeads at all. While entering the undead's inventory 
+   the helmet witl explode, draining all of the undead's mana and 
+   hurting him. The explosion removes the mask from the game.
+
+   Worn by: Verminaard (/d/Krynn/pax/monster/verminaard.c)
+
+
+Amulet of Strength  (/d/Krynn/solace/puzzle/armour/str_amulet.c)
+
+  Creators: Mucalytic, based on an idea by Zork
+
+      A neck armour, this magical amulet gives its wearer a
+      small measure of strength when worn (5 bonus when worn, and it
+      is reduced when removed).
+
+    Worn by: No one. This is a reward for doing the Puzzle Quest.
+             The quest is currently in /d/Krynn/solace/puzzle.
+
+
+
+shiny silver ring (/d/Krynn/icewall/castle2/obj/nice_ring)
+
+  Creator: Kessie
+
+        The ring gives the wearer a strength bonus of 10
+        This drains 4 fatigue every 60 seconds.
+
+
+
+night-blue stone (/d/Krynn/icewall/castle2/obj/blue_ioun_stone)
+
+  Creator: Kessie
+
+        This magic ioun stone gives infravision (3 levels nightvision)
+        when held.
+
+
+
+leaf-green stone (/d/Krynn/icewall/castle2/obj/green_ioun_stone)
+
+  Creator: Kessie
+
+        This magic ioun stone grants the holder the power of
+        regeneration. This drains mana every 60 seconds and heals
+
+        the holder:         holder->heal_hp(150+random(150))
+                            holder->add_mana(-25-random(25))
+
+icy black stone (/d/Krynn/pax/obj/spirit_stone)
+  Creator: Arman
+         This is a spirit stone, used by powerful elven mages to  
+         chain the soul of an evil elf of ages past for unspeakable  
+         crimes. When held, the stone will enhances SS_FORM_ENCHANTMENT by
+         +10, however the residual icy cold of undeath will drain your 
+         health and increase panic every 120 seconds:
+             holder->heal_hp(-100)
+             holder->add_panic(20 + random(10))    
+
+         Is a task object for SoHM to get the psychic blast spell. 
+
+         Used to add mana, but this feature was removed following an AoB  
+         decision that no further mana restoration for hp items are to be allowed.
+
+
+silvanesti tower shield (/d/Krynn/icewall/castle2/obj/armours/silvanesti_shield)
+
+  Creator: Kessie
+
+        This quest item has a 50% of appearing after a yeti is slain
+        on Icewall and a spirit of dead elven guard of Sylvanos is
+        layed to rest.
+
+        This shield was forged by the magicsmiths of Silvanesti
+        for use by the Royal Guard of Sylvanos. Made out of elven
+        steel and enchanted by the magic of the White Robed
+        Wizards of High Sorcery, as well as blessed by the High
+        Priests of Paladine, it offers unrivaled protection (AC 50)
+
+        It also gives a 40% resistance against dragonbreaths (all types).
+
+        Only those with high wisdom and appraise object skill (elves
+        get a bonus of 150% on their skills) will be able to properly
+        use the spirit of the shield (see formula in code). For those
+        failing to meet the requirements the shield is an AC 50 item,
+        no resistances added.
+
+
+blackened kite-shield (/d/Krynn/common/armours/kite-shield)
+
+Creator: Blizzard
+
+AC: 39 (45 if used on the horseback)
+
+Used by: Kitiara (/d/Krynn/solamn/splains/living/highlord)
+         Shale   (/d/Ansalon/balifor/flotsam_forest/living/shale)
+         Colin   (/d/Krynn/haven/dwarf_camp/npc/colin)
+
+ Magic abilities: While fighting on foot, the kite-shield may be used
+         for bashing your enemies.
+
+ This shield is more suitable for protecting a mounted warrior and that 
+ is why such person will receive additional 6 AC. However, while fighting
+ on foot it will be recompensed, by giving the wearer ability to bash his
+ opponent.  The shield has also a long strap, which allows it to be slung
+ upside-down over the warrior's back while travelling.
+
+
+deep-blue full plate armour (/d/Krynn/common/armours/fullplate)
+
+Creator: Blizzard
+
+AC: 53
+
+Used by the Dragonarmy Highlords:
+
+         Verminaard (/d/Krynn/pax/monster/verminaard)
+
+         Kitiara    (/d/Krynn/solamn/splains/living/highlord)
+
+ The armour has been created especially for the Dragonarmy Highlords and
+ enchanted so it protects the wearer against magic attacks, what - this
+ depends on the colour of the army; Blue - against electricity, Green -
+ against poison, Black - against acid, White - against cold and finally
+ Red against death and fire. The resistance is additive and of value 35.
+ This will happen at the cost of mana. Since this is the best quality 
+ complete suit of armour it provides excellent protection. However, metal 
+ plates are limiting a mobility of the wearer so the LIVE_I_QUICKNESS is 
+ lowered by 35. It requires SS_STR not lower than 80 to be worn.
+
+
+scale-plated chainmail (/d/Krynn/common/armours/elite_chain)
+
+Creator: Blizzard
+
+AC: 43
+
+ Used by: the most powerful auraks.
+
+ Magical ability: Increases one of the wearer's stats by 10.
+
+ This is the elite draconian armour, worn only by the most skilled members
+ of the dragonarmy. It will increase one of the wearer's stat, depending 
+ on the colour of the army (Blue - SS_DEX, Red - SS_DIS, Black - SS_STR,
+ Green - SS_CON, White - SS_INT). It requirest at least 50 in the average
+ stat to be worn. As a drawback it increases greaty resistance against
+ magical healing (MAGIC_I_RES_LIFE), and sets it at 75 (non-additive).
+
+
+pair of dragon-hide boots (/d/Krynn/common/armours/hide_boots)
+
+(different colors)
+
+AC: 35 HIT: 41 PEN: 43
+
+ Used by: the most powerfull auraks and sivaks.
+
+ Magical abilities: Damaging special.
+
+ This pair of boots is made of the dragon hide. They have been enchanted
+ and from to time the wearer may perform the kick, damagin his opponent.
+ The special will work only if the option UNARMED_COMBAT_OFF has been
+ disabled. The boots also provide additive resistance against fire (15).
+ Boots may be in different colors (red, blue, white, green, black).
+
+
+ash-grey scaled spint mail (/d/Krynn/qualinesti/arm/ashchain)
+
+  Creator: Blizzard
+
+  Worn by: Qualthas in Qualinesti (/d/Krynn/qualinesti/npc/qualthas)
+
+  AC: 45 ( 50 if worn by players of elven blood)
+
+  This strong mail is of Qualinesti elf construction. It has wyvern scales
+  bound to a chain backing. Thanks to that feature is provides resistance
+  against fire (30). This is elven armour and those of elven blood receive
+  additional AC. Since such armours are granted only to especialy brave
+  elves, it can not be worn by players with average stat below 70.
+
+           
+earth-colored firebane cloak (/d/Krynn/qualinesti/arm/firebane_cloak)
+
+  Creator: Blizzard
+
+  Worn by: Qualthas in Qualinesti (/d/Krynn/qualinesti/npc/qualthas)
+
+  AC: 25
+  
+  This firebane cloak is treated with heat-absorbing oils from the 
+  elathas plant and thus it provides fire resistance (20). Thanks to
+  earth toned color it increases the player's ability to hide by maximum
+  value of 20. It will not be sold to someone who is not an elf or 
+  a half-elf.
+
+
+
+warm dark-brown pelt (/d/Krynn/qualinesti/arm/dog_pelt_b)
+warm dark-green pelt (/d/Krynn/qualinesti/arm/dog_pelt_g)
+
+  Creator: Blizzard
+
+  Worn by: Cut as leftover from wild dogs in Qualinesti.
+
+  AC: 10
+  
+  This is a pelt of cooshee, the elven hound. The natural coloration of 
+  those dogs helps them to camouflage in the woods. This cloak increaes
+  the wearer's SS_HIDE by small amount of 5. Leftover.
+
+  
+
+Decorated iron champron  (/d/Krynn/solace/lake/obj/champron.c) and
+                         (/d/Krynn/solace/lake/obj/mino_ac_obj.c)
+
+   Creator: Cherek
+
+      By default minotaur players may not wear helmets since their
+      horns already provide quite good AC. However, this partical
+      headpiece is a one of a kind item that will provide minotaurs
+      with a small amount of additional AC. The champron is not 
+      magical in itself, however, when worn it clones the 
+      "mino_ac_obj", which is an invisible object that is cloned to
+      the wearer and provides the small amount of magical AC. This 
+      is a work-around to achieve the head armour since normal head 
+      armours cannot be worn my minotaurs.
+
+      Worn by: Toron tribe minotaur chieftain Kadez
+
+               (/d/Krynn/solace/lake/npc/minotaur_kadez.c)
+
+      AC: 5
+
+
+Red-spiked steel club (/d/Krynn/solace/lake/obj/dwarf_bane.c)
+
+    Creator: Navarre (Based on goblin bane in flotsam)
+
+    Worn by: Toron tribe sage.
+
+             (/d/Krynn/solace/lake/npc/minotaur_takchuk.c).
+    
+
+    Effect: Does additional damage to dwarves, same amount as goblin bane in flotsam.
+            Can be wielded by damned dwarves also.
+
+
+magi robe  (/d/Krynn/tharkadan/armour/magi_robe.c)
+
+   Creator : Arman
+
+        A (potentially) magical robe that is worn by a 
+        powerful ogre magi found deep within the Tharkadan 
+        mountain ranges (~tharkadan/living/ogre_magi.c)
+
+        Armour: A_ROBE 30 
+
+        40% chance of it being non-magical.
+        10% chance it offers a bonus 10 skill points to 
+        one the six SS_ELEMENT_* skills, plus 25 resistance 
+        to the opposite element:
+           + 10 life skill/ +25 death resistance
+           + 10 fire skill/ +25 water resistance
+           + 10 water skill/ +25 fire resistance
+           + 10 death skill/ +25 life resistance
+           + 10 earth skill/ +25 air resistance
+           + 10 air skill/ +25 earth resistance
+
+
+snow-white pelt (/d/Krynn/tharkadan/armour/pelt.c)
+
+    Creator : Arman
+
+        A leftover cut from the corpse of a winter wolf
+        (~tharkadan/living/winter_wolf.c). The winter wolf appears
+        in two locations. The first is when the winter snows 
+        close the path through the Tharkadan mountains. The second
+        is a short summoning by the ogre magi. So considered a 
+        rare spawn!
+
+        20% chance of spawning on the corpse.
+
+        Armour: A_ROBE 30
+
+        Provides the wearer with 25 cold protection.
+
+
+stone giant braid (/d/Krynn/tharkadan/armour/stonegiant_braid.c)
+
+    Creator : Arman
+
+    The tightly braided length of thick black hair from the head 
+    of a stone giant. Can be worn around the waist as a belt.
+    (~tharkadan/living/stone_giant.c).
+
+    The braid is required as part of the WoHS quest to gain the 
+    advanced spell eruption.
+
+    10% chance of spawning on corpse.
+
+    Provides +20 resistance to earth and poison.
+
+
+runed dwarven fullplate (/d/Krynn/tharkadan/armour/theiwar_fullplate.c)
+
+    Creator : Arman
+
+    This is a suit of beautifully crafted fullplate, made from rare 
+    blue ore referred to as 'star-metal' by ancient alchemists - a metal 
+    of extraordinary strength and hardness. Dwarven runes have been carved 
+    over the armour that pulse with a dark energy.
+
+    This is a magical fullplate that is occasionally worn by the dark dwarf 
+    chieftain in the Tharkadan mountain range caverns, 
+    /d/Krynn/tharkadan/living/theiwar_chieftain. It provides excellent magical 
+    protection, however can only be worn by the smaller races. Those smaller 
+    races that aren't dwarves get an AC penalty as it doesn't quite fit them 
+    perfectly. Being fullplate, it is quite heavy - weighing around 30 
+    kilograms. set_likely_cond has also been set from 3 to 2, reducing the 
+    chance somewhat of it wearing down.
+
+    Clone unique value of 10.
+
+    Armour: 50 (dwarves) 42 (other small races) A_TORSO | A_ARMS | A_LEGS
+
+
+reinforced star-metal shield (/d/Krynn/tharkadan/armour/theiwar_mag_shield)
+
+    Creator : Arman
+
+    This is a dwarven shield reinforced with bands of the rare material 
+    referred to by ancient alchemists as 'star metal' - a blue ore of  
+    extraordinary strength and hardness. In the hands of a dwarf or  
+    similar sized race this shield provides the protection of a tower 
+    shield.
+
+    This is a magical dwarven shield that is occasionally worn by the 
+    dark dwarf chieftain in the Tharkadan mountain range caverns, 
+    /d/Krynn/tharkadan/living/theiwar_chieftain. It provides excellent 
+    protection as a tower shield for the smaller races. set_likely_cond 
+    has also been set from 3 to 2, reducing the chance somewhat of it 
+    wearing down.
+
+    Armour: 50 (small races) A_SHIELD | A_BODY | A_LEGS
+            50 (tall races)  A_SHIELD
+
+
+bracers of the umber hulk (/d/Krynn/tharkadan/armour/umberhulk_bracers.c)
+
+    Creator : Arman
+
+    This is a pair of bracers made from the carapace of an umber hulk.
+    Incredibly tough, and further enchanted by dark savant enchantments,
+    it provides incredible protection to the arms.
+
+    Further, it allows the wearer to call on one of the innate powers of
+    an umber hulk - tremor sense - 3 times.
+    /d/Krynn/tharkadan/spells/tremorsense.c
+
+    This armour may be worn by the dark dwarf savant lord
+    /d/Krynn/tharkadan/living/theiwar_magi.c, and is a very tough fight
+    to obtain. 
+
+    Clone unique value of 10.
+
+    Armour: 50 (-2, 3, 0)
+
+
+
+carmine robe (/d/Krynn/turbidus_ocean/obj/ergothian_robe.c)
+
+    Creator : Arman
+
+    This is the traditional robe worn by those battlemages of the 
+    Ergothian Empire held in highest of esteem by the royal family. 
+    It is enchanted to provide great protection, dependent on the 
+    wearer's skill in abjuration magic.
+
+    This robe is worn by the Ergothian battlemage found on a ship 
+    in the Turbidus Ocean, /d/Krynn/turbidus_ocean/living/ergothian_wizard.c
+    This robe provides armour protection to A_ROBE of between 5 and 45, 
+    dependent on the wearer's SS_FORM_ABJURATION skill 
+    (50% of skill = ac value, max 45).
+
+    It changes its adjective from dull to carmine to scarlet to crimson
+    to vermillion depending on the ac value it provides.
+
+
+
+blue-gemmed ring (/d/Krynn/turbidus_ocean/obj/ring_of_swimming.c)
+
+    This is an enchanted ring, and provides the wearer some additional 
+    proficiency at swimming when worn (+25 SS_SWIM).
+
+    It can be cloned on an Ergothian ship captain:
+    /d/Krynn/turbidus_ocean/living/ergothian_captain.c
+
+    ac:   1
+    slot: A_FINGERS
+
+
+black dragon turtle shell (/d/Krynn/south_courrain/obj/great_dr_turtle_shell)
+
+  Creator: Arman
+
+        Based off /d/Ansalon/goodlund/bloodsea/obj/dr_turtle_shell.c,
+        this is a more powerful version that can be cut from the
+        corpse of a rare gigantic dragon turtle:
+        /d/Krynn/south_courrain/living/ancient_dragon_turtle.c
+
+        This foe is a powerful (275 stat average) creature that would
+        need a strong team to take down.
+
+        Gigantic dragon turtles have a 10% chance of spawning from the
+        ominous dark shape object that randomly appears in the Southern
+        Courrain Sea rooms:
+        /d/Krynn/south_courrain/living/courrain_water_shape.c
+
+        The chance of the shell cloning as a leftover is based on
+        CLONE_MASTER->may_clone(SHIELD, 20), which means there is a 
+        declining chance of one spawning the more there are in the realms.
+
+        It gives unrivaled protection as a shield (ac 60), as well as 
+        offers resistance to acid attacks when worn (55 resistance).
+
+        ac:   60
+        slot: A_SHIELD (A_BODY, A_LEGS)
+
+Objects:
+
+--------
+
+Disks of Mishakal (/d/Krynn/common/objects/disks_of_mish.c)
+
+  Creators: Percy?, updated by Teth
+
+      A holy and sacred artifact, this is the object to be retrieved in the
+      Black Dragon quest. It is difficult to get, and has no real benefits.
+
+      However, any evil or undead creature handling this item will suffer
+      some damage (for the first time they handle it). Furthermore, there
+      are glyphs on the disks, that are unreadable, however, any attempt
+      at doing so by an evil or undead creature will result in a death,
+      5 % of the time. They are found in a chest in /d/Krynn/xak/
+      caverns/cavern.c. They are protected by an aged black dragon,
+      Khisanth.
+
+
+
+Anti-magic Scroll  (/d/Krynn/common/scrolls/antimag_scroll.c)
+
+  Creator: Teth
+
+      This scroll is a magical item found in the chest located in
+      /d/Krynn/xak/caverns/cavern.c. It is in the same chest as the
+      Disks of Mishakal, an increased reward for the tougher dragon.
+
+      The scroll, when read by someone who has the ability to read it
+      (based on a resolve_task, clone the object for more info),
+      will add the ROOM_M_NO_MAGIC prop to the room it is read in,
+      then destruct. Failure to read the scroll will cause a loss of
+      all mana, and some damage.
+
+
+Identify scroll (/d/Krynn/icewall/castle2/obj/id_scroll.c)
+
+  Creator: Genesis property, modified by Kessie.
+
+      This is a medium strength identify scroll. When recited
+      over a magic item, it helps appraise the object as if
+      a player had a skill of 100 in appraise object, and gives
+      some of the magic info available (random effectivness).
+
+
+serpentine figurine (/d/Krynn/tharkadan/obj/polymorph_figurine)
+
+    Creator : Arman
+
+    This curious serpent figurine made of quartz is a figurine of transformation.
+    Under certain conditions, the figurine will release icy vapours from its maw
+    which can be inhaled by the holder. Those vapours transform the holder into
+    a white dragon hatchling. The polymorphed player then flies up into the sky
+    and wings his/her way over the Tharkadan mountain range and into the vale
+    overlooked by an ancient volcano. Shortly after landing the player reverts
+    to normal form.
+
+    The main purpose of this magic item is to allow players to access the vale
+    when the pass is blocked by winter snows.
+
+    Conditions of use:
+           * be in an outdoor room in the Tharkadan mountain range directory 
+             (/d/Krynn/tharkadan/room/*)
+           * it is winter in Krynn.
+           * the player is holding the figurine when activating it.
+
+    The item makes use of the shapeshift.c base spell, which has been customised
+    at /d/Krynn/tharkadan/spells/polymorph_self.c
+
+    The hatchling form the player turns into is at:
+    /d/Krynn/race/shapeshift/thark_polymorph_self_hatchling.c
+
+    Multiple figurines in the same player/room result in them merging into one.
+
+
+pale wand (/d/Krynn/tharkadan/obj/light_wand.c)
+
+    Creator : Arman & Carnak
+
+    A magical wand that, when held and waved, activates a light spell - 
+    (/d/Krynn/tharkadan/spells/wand_light_spell.c) that clones the SOHM light 
+    spell object (/d/Krynn/guilds/sohm/spells/objs/light_obj.c). This provides
+    a 15 minute light source with a light level ranging from 1 to 5 depending
+    on the spell query_spell_effect_power().
+
+    While active the light drains mana as it would a standard spell would. Upon
+    releasing the wand the light the light source dissipates.
+
+    The wand has a 1/4 chance of spawning in the cocoon corpse dropped by 
+    the giant spider (/d/Krynn/tharkadan/living/giant_spider.c) in the 
+    Tharkanan mountain range caverns (/d/Krynn/tharkadan/obj/cocoon_corpse.c),
+    and in the magical strongbox in the troll caves 
+    (~tharkadan/room/troll_cave/troll_caves7).
+
+
+magical strongbox (/d/Krynn/tharkadan/obj/magical_strongbox.c)
+
+    Creator : Arman
+
+    A standard container that can only be unlocked by reciting an incantation,
+    the words of which are revealed through any identify spell on the strongbox.
+    SS_SPELLCRAFT of 40 and SS_FORMS_ABJURATION of 20 is required to adequately
+    recite the incantation properly.
+
+    It cannot be re-locked after opening.
+
+    The strongbox can be found in a pile of skeletal remains one can search 
+    after defeating the two-headed troll boss in the trolls caves. 
+    (~tharkadan/room/troll_cave/troll_caves7).
+
+    The strongbox in itself has a high monetary value, with OBJ_I_VALUE set at 
+    12000. This is largely due to it being the only item drop in the entire 
+    cave, and to reach it one needs to defeat 8 standard trolls and the 
+    two-headed boss troll.
+    (~tharkadan/living/cave_troll.c, 
+     ~tharkadan/living/two_headed_cave_troll.c).
+
+    The strongbox contains a multi-hued disk, which is required to complete 
+    the WoHS quest to obtain the advanced spell protection from magic.
+ 
+   
+leather-bound grimoire (/d/Krynn/guilds/wohs/test/obj/test_grimoire.c)
+
+    Creator : Arman
+
+    An illusionary  grimoire that is part of the Test of High Sorcery. If 
+    taken from the Test it disappears into mist. No real opportunity for 
+    players to use outside of the Test. Contains the spells magic mirror,
+    invisibility, and scry.
+
+
+ivory wand (/d/Krynn/turbidus_ocean/obj/wand_ice.c)
+
+    Creator : Arman
+
+    This ivory wand has been enchanted by the ice wizards of the Ice Folk, 
+    the winternorns. For holders of this wand with adequate water elemental 
+    skill and spellcraft skill they are able to use the wand to 'freeze' 
+    their enemies, sending harmful shards of ice in their direction.
+
+    This is a standard wand that provides some minor spellpower benefits. 
+    It can be used to cast an ice harm spell that has an aid based on the 
+    users water skill and spellcraft:
+        /d/Krynn/turbidus_ocean/spells/wand_ice_spell.c
+
+Living:
+
+-------
+
+Baaz draconian     (/d/Krynn/solamn/splains/living/baaz.c)
+
+   Creator: Aridor
+
+      A magical creature, hatched from eggs of good dragons
+      that were enchanted by evil magic.
+
+      The baaz turns into a stone statue when he dies.
+
+      Properties: OBJ_I_RES_ACID 50
+
+                  OBJ_I_RES_FIRE 50
+
+                  MAGIC_AM_MAGIC ({ 100, "transmutation"})
+
+
+
+
+
+Kapak draconian    (/d/Krynn/solamn/splains/living/kapak.c)
+
+   Creator: Aridor
+
+      A magical creature, hatched from eggs of good dragons
+      that were enchanted by evil magic.
+
+      The kapak turns into a pool of acid when he dies.
+
+      Properties: OBJ_I_RES_ACID 100
+
+                  OBJ_I_RES_FIRE 80
+
+                  MAGIC_AM_MAGIC ({ 100, "transmutation"})
+
+
+
+
+
+Bozak draconian    (/d/Krynn/solamn/splains/living/bozak.c)
+
+   Creator: Aridor
+
+      A magical creature, hatched from eggs of good dragons
+      that were enchanted by evil magic.
+
+      The bozak is a magic user and uses a fire spell as a
+      special attack.
+
+      The bones of the bozak explode when he dies.
+
+      Properties: OBJ_I_RES_ACID 80
+
+                  OBJ_I_RES_FIRE 80
+
+                  MAGIC_AM_MAGIC ({ 100, "transmutation"})
+
+
+
+
+
+Sivak draconian    (/d/Krynn/solamn/splains/living/sivak.c)
+
+   Creator: Aridor
+
+      A magical creature, hatched from eggs of good dragons
+      that were enchanted by evil magic.
+
+      The sivak burst into flames when he dies.
+      The sivak only appears on the Plains of Solamnia,
+      according to a random table, in every room there that
+      clones a monster he has a 1/17 chance to appear.
+
+      Properties: OBJ_I_RES_ACID 80
+
+                  OBJ_I_RES_FIRE 100
+
+                  MAGIC_AM_MAGIC ({ 100, "transmutation"})
+
+
+
+
+Aurak draconian    (/d/Krynn/solamn/splains/living/aurak.c)
+
+   Creator: Aridor
+
+      A magical creature, hatched from eggs of good dragons
+
+      that were enchanted by evil magic.
+
+      The aurak does not die the first time he reaches 0 hp,
+
+      instead goes berserk with increased STR, DEX CON and
+
+      DIS, but lower INT and WIS and some new hp. When he
+
+      dies the second time, he turns into a drifting cloud
+
+      and lightning strikes down from it.
+
+      The aurak only appears on the Plains of Solamnia,
+
+      according to a random table, in every room there that
+
+      clones a monster he has a 1/34 chance to appear.
+
+      Properties: OBJ_I_RES_ACID 100
+
+                  OBJ_I_RES_FIRE 100
+
+                  MAGIC_AM_MAGIC ({ 100, "transmutation"})
+
+
+
+Skie, blue dragon  (/d/Krynn/solamn/splains/living/skie.c)
+
+   Creator: Aridor
+
+      This is a 'normal' dragon in Krynn. He is quite power-
+      ful and has 2 special attacks, a lightning bolt and
+      the dragonfear. The lightning bolt can be evaded, but
+      has a devastating effect when it hits. The dragonfear
+      will add_attack_delay to the enemies.
+
+      All Krynn dragons are magical by nature. They would
+      be way too heavy to fly without magical aid anyway.
+      Properties: MAGIC_AM_MAGIC      ({ 100, "divination"})
+
+                  OBJ_I_RES_ACID          90
+
+                  OBJ_I_RES_FIRE         100
+
+                  OBJ_I_RES_ELECTRICITY  100
+
+                  OBJ_I_RES_MAGIC         50
+
+
+
+
+Other Objects:
+
+--------------
+Enchantable Krynn warfare armours, weapons, and augmentation
+   crystals
+
+   Creator: Arman
+
+      See /d/Krynn/common/warfare/rewards/README.txt for
+      details.
+
+
+Teleporting Ring   (/d/Krynn/solamn/splains/obj/kitring.c)
+
+   Creator: Aridor
+
+      This is a magical ring that, when worn, will teleport
+      the wearer around in Genesis at random intervals.
+      There is no way of controlling the ring, not even
+      removing the ring will stop the effect. Only dropping
+      the ring will stop the teleporting, but if no one else
+      picks up the ring, it may just return to the dropper.
+      The ring cannot be sold.
+
+      Worn by: Dragon Highlord Kitiara
+
+               (/d/Krynn/solamn/splains/living/highlord.c)
+
+               Kitiara appears only in the event of an attack on
+               Vingaard Keep (every 2.6 to 7.6 RL days).
+
+
+
+Questmaster's Spectacles (/d/Krynn/solace/village/obj/glasses.c)
+
+   Creator: Aridor
+
+      These are magic spectacles that, when worn, will increase
+      the language skill of the wearer by 3-7 skillpoints. The
+      glasses are part of the fourth small adventure which involves
+      finding the glasses and bringing them to the questmaster.
+
+      The glasses are randomly placed in the area under the Vingaard
+      Mountains (/d/Krynn/solamn/thief/*). There is only one pair of
+      glasses in the game at any time!
+
+Petrified stick (/d/Krynn/throtyl/obj/petrified_stick.c)
+
+  Creator: Arman
+
+     This is a standard wand that provides some minor spellpower benefits. 
+     It is largely used by WoHS to claim the 'stellar alignment' spell 
+     from the Tree of Ancestors at /d/Ansalon/guild/neidar/rooms/ancestor_tree.c 
+
+     It also can be used to cast an earth harm spell that has an aid based on 
+     the users earth skill and spellcraft (max 75 caid):
+     /d/Krynn/throtyl/spells/wand_petrify_spell.c
+
+     It can be obtained by defeating the difficult dwarven ghost doomseeker
+     /d/Krynn/throtyl/living/thane_ghost.c
+

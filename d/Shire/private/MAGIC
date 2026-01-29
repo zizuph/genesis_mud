@@ -1,0 +1,374 @@
+MAGIC ITEMS IN THE DOMAIN SHIRE
+=================================
+As required, all magical items will be found here. However, if any questions remain, contact the coder, the Liege or Steward of the Shire, or any other member of the domain on at the time (in case of emergency).
+ 
+Magical equipment throughout the Shire->
+----------------------------------
+ 
+Weapons:
+----------------------------------
+Item: Leech, Magebane, jagged black scimitar
+Coder: Mayhem
+Path name: /d/Shire/mountain/wep/magebane.c
+Skill/Stat enhancements: None
+Type: Sword
+    WC: 52/42
+    Hands: Any
+    Wield: SS_SWORD > 50 and non-mage  
+    Extra: Drains and stores some amount of mana from the enemy 
+        on a hit, once the stored energy is enough it increases the
+        damage caused by the next blow by delivering a magic shock
+        of greater damage then the hit, in addition to the normal damage.
+        Checks MAGIC_I_RES_DEATH for mana drain, MAGIC_I_RES_MAGIC
+        for the extra damage.
+Magic: 78, Enchantment
+Resistance: None
+Specials: Intelligent, possession attempts. See "Extra" above.
+Location: Used by Hzzz (/d/Shire/mountain/npc/hzzz.c)
+Notes: Difficult to obtain, although not impossible.
+ 
+Item: Elfblade, gleaming short sword
+Coder: Morinir
+Path name: /d/Shire/common/weapon/elfblade
+Skill/Stat enhancements: None
+Type: Sword
+    WC: 20/35 or 10/10 if wieled by a goblin. 
+    Hands: Any
+    Wield: None  
+ 
+Magic: 60, Enchantment
+Resistance: None
+Specials: Detects orcs/goblins/uruks in the room and adjacent rooms when
+          you examine the blade.
+Location: Part of a Troll treasure.
+ 
+Item: Giant Black Maul
+Coder: Rogon
+Path name: /d/Shire/moria/wep/maul.c
+Skill/Stat enhancements: None
+Type: Poelarm
+    WC: 35/45
+    Hands: W_LEFT, W_RIGHT, or W_BOTH
+    Wield: SS_STR of 100 to wield it two handed
+           SS_STR of 140 and SS_DEX of 110 to wield it single handed.  
+    Extra: If you do 100 points of damage with this weapon it attempts
+           to slay any armour that is in its way damaging the armour
+           or breaking it completely. If there is no armour stopping
+           the force of this blow double damage is produced.  
+Magic: 60, Enchantment
+       50, armour-slaying
+Resistance: None
+Specials: Armour-slaying see Extra.
+Location: Used by Ashburz, formally Bolg (/d/Shire/moria/npc/urukcap.c)
+Notes: Should be quite difficult to obtain, although not impossible.
+ 
+Item:  Balin's Axe (was Dain's Axe, but he's still alive!)
+Coder: Rogon
+Path name: /d/Shire/moria/wep/dainaxe.c
+Skill/Stat enhancements: None
+Type: Axe
+    WC: 30/52
+    Hands: Both or single-haned
+    Wield: SS_AXE > 50 as well as a high int, wis and str... these
+           stat requirements are of course lowered for dwarves.  
+Magic: 22, Enchantment
+       40, orc-slaying
+       40, troll_slaying
+Resistance: None
+Specials: Slays orcs and trolls.
+Location: Used by  (/d/Shire/moria/npc/bigtroll.c)
+Notes: Difficult to obtain, although not impossible.
+ 
+Item: Excellent Halberd
+Coder: Milan?
+Path name: /d/Shire/misty/wep/halberd_sup.c
+Skill/Stat enhancements: None
+Type: Polearm
+    WC: 42/52
+    Hands: For proper usage W_BOTH
+    Wield: No requirements.  
+Magic: 10, Enchantment
+Resistance: None
+Specials: A damage special where the halberd acts on it's own which
+          is based off the players strength and polearm skill.
+Location: Used by Goblin Lord (/d/Shire/misty/npc/gcave_lord.c)
+Notes:    Now GL always wields this weapon, its much harder to get
+          to the Goblin Lord, and he breaks weapons instead of hand-
+          ing out bleeding wounds.
+       
+ 
+Item: Heavy steel club
+Coder: Milan?
+Path name: /d/Shire/misty/wep/club_sup.c
+Skill/Stat enhancements: None
+Type: Club
+    WC: 35-39,41-49
+    Hands: Any
+    Wield: None
+Magic: 10, Enchantment
+Resistance: None
+Specials: Drains mana, when enemy has no mana left it renders them
+          Unconscious.
+Location: Used by goblins that inherit /d/Shire/misty/npc/goblin_sup.c
+Notes: 
+ 
+Item: Morningstar
+Coder: Milan?
+Path name: /d/Shire/misty/wep/club_sup.c
+Skill/Stat enhancements: None
+Type: Club
+    WC: 32-36,39-46
+    Hands: Any
+    Wield: None
+Magic: 10, Enchantment
+Resistance: None
+Specials: Drains mana, when enemy has no mana left it renders them
+          Unconscious.
+Location: Used by goblins that inherit /d/Shire/misty/npc/goblin_sup.c
+Notes: 
+ 
+Item: runed mithril warhammer
+Coder: Igneous
+Path name: /d/Shire/easroad/eastern/wep/warhammer.c
+Skill/Stat enhancements: 5-15 STR increase depending on the INT
+                         of the wielder.
+Type: Club
+    WC: 42,47
+    Hands: LEFT
+    Wield: None
+Magic: 60, Enchantment
+       20, Enhancement
+Resistance: None
+Specials: None
+Location: ~Shire/eastroad/eastern/inn2.c by Khaaz
+Notes:  Fairily hard club to get, created because of the lack of
+good npcs in the game wielding nice clubs. A little welcoming
+present to the Shire for the Angmar guild If they can get it ;-)
+ 
+Item: Runed longsword
+Coder: Finwe
+Path name: /d/Shire/rivendell/wep/m_longsword.c
+Skill/Stat enhancements: None
+Type: Sword
+    WC: 55,50
+    Hands: ANY
+    Wield: None
+Magic: 80, Enchantment
+Resistance: None
+Specials: Allows players to know if evil players or npcs are nearby
+Location: /d/Shire/rivendell/npc/elrond.c and glorfindel.c
+Notes:  Not available to mortals. Evil aligned creatures cannot wield 
+        sword.
+ 
+Item: Elven longsword
+Coder: Finwe
+Path name: /d/Shire/rivendell/wep/m_longsword.c
+Skill/Stat enhancements: None
+Type: Sword
+    WC: 45,40
+    Hands: ANY
+    Wield: None
+Magic: 80, Enchantment
+Resistance: None
+Specials: Allows players to know if evil players or npcs are nearby
+Location: /d/Shire/rivendell/npc/elfmaker.c
+Notes:  Not available to mortals. Evil aligned creatures cannot wield 
+        sword. Wielded by elves of Rivendell.
+ 
+Item: Thin Wooden Quarterstaff
+Coder: Jaypeg
+Path name: /d/Shire/common/trollsh/weapon/oakstaff.c
+Skill/Stat enhancements: None
+Type: Polearm
+    WC: 45,42
+    Hands: BOTH
+    Wield: None
+Magic: 60, Enchantment
+Resistance: None
+Specials: Very light, increased hit/pen.
+Location: /d/Shire/common/trollsh/npc/ruletroll.c
+Notes:    Replaced the Cruel Black Halberd
+
+
+Item: Corrupted Mithril Weapons
+Coder: Finwe
+Path name: /d/Shire/common/trollsh/weapon/gem_*.c
+Skill/Stat enhancements: None
+Type: Varies based on weapon
+    WC: Varies based on gem inserted
+    Hands: BOTH
+    Wield: None
+Magic: 75, Enchantment
+Resistance: None
+Specials: Increased hit/pen based on gem rarity
+Location: /d/Shire/common/trollsh/npc/grothaur.c
+Notes:    The rarer the gem inserted into the weapon, the higher the hit/pen, 
+          ranging from 40/41 to 50/50. When no gem is in the weapon, then 
+          the hit/pen is 35/35.
+
+ 
+-----------------------------------------------------------
+Armours
+-----------------------------------------------------------
+Item: Black steel hauberk
+Coder: Mayhem
+Path: /d/Shire/mountain/arm/mmail.c
+Skill/Stat enhancements: None
+Type: Armour
+    AC: 50
+    Locs: Torso
+    Wear: Nothing special
+    Extra: Provides improved protection. Weighs more than twice the
+        normal weight for an armour of AC 50.
+        Difficult to worsen the condition of, will not break under 
+        normal circumstances.
+Magic: 64, Enchantment
+Resistance: None
+Specials: None
+Location: Worn by /d/Shire/mountain/npc/mzzz.c in mountain/camp...
+Notes: Will be difficult to obtain, although not impossible.
+ 
+Item: Pair of light elven bracers
+Coder: Finwe
+Path: /d/Shire/rivendell/arm/bracers.c
+Skill/Stat enhancements: None
+Type: Armour
+    AC: 43
+    Locs: Arms
+    Wear: Nothing Special
+    Extra: Provides improved protection.
+Magic: 80, Enchantment
+Resistance: None
+Specials: None
+Location: Worn by Rivendell elves.
+ 
+Item: Elven silver chainmail
+Coder: Finwe
+Path: /d/Shire/rivendell/arm/chainmail.c
+Skill/Stat enhancements: None
+Type: Armour
+    AC: 43
+    Locs: Torso
+    Wear: Nothing Special
+    Extra: Provides improved protection.
+Magic: 80, Enchantment
+Resistance: None
+Specials: None
+Location: Worn by Rivendell elves.
+ 
+Item: Light elven greaves
+Coder: Finwe
+Path: /d/Shire/rivendell/arm/greaves.c
+Skill/Stat enhancements: None
+Type: Armour
+    AC: 43
+    Locs: Legs
+    Wear: Nothing Special
+    Extra: Provides improved protection.
+Magic: 80, Enchantment
+Resistance: None
+Specials: None
+Location: Worn by Rivendell elves.
+ 
+Item: Mithril bracers
+Coder: Finwe
+Path: /d/Shire/rivendell/arm/m_bracers.c
+Skill/Stat enhancements: None
+Type: Armour
+    AC: 50
+    Locs: Arms
+    Wear: Nothing Special
+    Extra: Provides improved protection.
+Magic: 80, Enchantment
+Resistance: None
+Specials: None
+Location: Worn by Rivendell elves
+ 
+Item: Mithril greaves
+Coder: Finwe
+Path: /d/Shire/rivendell/arm/m_greaves.c
+Skill/Stat enhancements: None
+Type: Armour
+    AC: 50
+    Locs: Legs
+    Wear: Nothing Special
+    Extra: Provides improved protection.
+Magic: 80, Enchantment
+Resistance: None
+Specials: None
+Location: Worn by Rivendell elves
+
+Item: Ancient elven helmet
+Coder: Finwe
+Path: /d/Shire/rivendell/arm/glow_helmet.c
+Skill/Stat enhancements: None
+Type: Armour
+    AC: 55
+    Locs: Head
+    Wear: Nothing Special
+    Extra: Provides improved protection and burns players who 
+        attack the wearer.
+Magic: 80, Enchantment
+Resistance: None
+Specials: None
+Location: Worn by Elrond.
+ 
+Item: Ancient elven glowing platemail
+Coder: Finwe
+Path: /d/Shire/rivendell/arm/glow_platemail.c
+Skill/Stat enhancements: None
+Type: Armour
+    AC: 55
+    Locs: Head
+    Wear: Nothing Special
+    Extra: Provides improved protection and burns players who 
+        attack the wearer.
+Magic: 80, Enchantment
+Resistance: None
+Specials: None
+Location: Worn by Elrond.
+ 
+Item: Ancient elven glowing platemail
+Coder: Finwe
+Path: /d/Shire/rivendell/arm/glow_platemail.c
+Skill/Stat enhancements: None
+Type: Armour
+    AC: 55
+    Locs: Head
+    Wear: Nothing Special
+    Extra: Provides improved protection and burns players who 
+        attack the wearer.
+Magic: 80, Enchantment
+Resistance: None
+Specials: None
+Location: Worn by Elrond.
+ 
+Item: Ancient glowing shield
+Coder: Finwe
+Path: /d/Shire/rivendell/arm/glow_shield.c
+Skill/Stat enhancements: None
+Type: Armour
+    AC: 55
+    Locs: Shield
+    Wear: Nothing Special
+    Extra: Provides improved protection and burns players who 
+        attack the wearer.
+Magic: 80, Enchantment
+Resistance: None
+Specials: None
+Location: Worn by Elrond.
+
+Item: frightening looking skull helmet
+Coder: Unknown
+Path: /d/Shire/moria/arm/skullhel.c
+Skill/Stat enhancements: None
+Type: Armour
+    AC: 43
+    Locs: head
+    Wear: Nothing Special
+    Extra: Provides wearer the ability to frighten others by 
+        casting a frighten spell.
+Magic: 20, Spells
+Resistance: None
+Specials: Provides a spell to frighten others.
+Location: Worn by Ashburz of Moria
