@@ -98,6 +98,22 @@ even as the vast majority of this code was written in
 the 90s and naughts.
 
 
+The License for this code remains as it was originally
+written.  It references ownership by Genesis Internet
+Association, a non-profit that has been not been 
+registered in Sweden for decades.  This leaves the
+actual ownership rights of the code in a grey zone, as
+a trustee or member of the board would be responsible
+for reassigning ownership to another entity upon
+dissolution.  Rights to freely copy and use, with
+limits to monetary profit remain exactly as were
+initially created.  All code here was retrieved by
+official granted access by the game administrators.
+
+Many books and other documents remain absent, due to
+them possibly being user generated content and not
+necessarily subject to the license.
+
 
 
 
