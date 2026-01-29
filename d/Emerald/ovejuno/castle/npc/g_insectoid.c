@@ -1,0 +1,51 @@
+/* An insectoid for the Manor's Garden.
+ * This is a crossbreed created by magic by
+ * the evil wizard that lives in the manor.
+ * Coded by Marisol (9/23/97)
+ * Modified by Marisol (07/27/98) to be used in the village of Ovejuno
+ * in Emerald.
+ * Copyright (c) Marisol Ramos 1997 */
+
+#pragma strict_types
+
+inherit "/d/Emerald/std/emerald_monster";
+
+#include "../../defs.h"
+#include <ss_types.h> /* Contains skills */
+#include <const.h>
+
+void
+create_emerald_monster()
+{
+    set_name("insectoid");
+    set_short("ugly insectoid");
+    set_adj("ugly");
+    set_race_name("insectoids");
+    add_name("g_insectoid");
+    set_long("This misfit of nature is half-human and "+
+        "half-insect. He looks like the result of a "+
+        "wizard spell that backfired. Its facet eyes "+
+        "shine with a glint of evil.\n");
+
+    set_act_time(10);
+    add_act("emote grits his jaws with a horrible sound.");
+    add_act("emotes cleans his face with his hands like a cockroach.");
+    add_act("emote swings his machete in the air menacingly.");
+
+    set_alignment(-50);
+
+    set_gender(G_MALE);
+
+    set_skill(SS_WEP_KNIFE, 5);
+    set_skill(SS_PARRY, 5);
+    set_skill(SS_DEFENCE, 5);
+    set_skill(SS_BLIND_COMBAT, 10);
+    set_skill(SS_AWARENESS, 100);    
+
+              /* str, dex, con, int, wis, dis */
+    set_stats(({  6,  6,  6,  15,  15,  9 }));
+
+    add_equipment( ({
+        GARDEN_WEP_DIR + "machete",
+        GARDEN_ARM_DIR + "tunic" }) );
+}

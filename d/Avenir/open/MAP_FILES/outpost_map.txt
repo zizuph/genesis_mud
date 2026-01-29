@@ -1,0 +1,53 @@
+outpost
+::MAPDATA::
+bridge 14 19
+cave1 14 13
+cave2 17 15
+cave3 14 17
+chasm_south 14 21
+fort1 30 13
+fort2 30 15
+fort4 38 13
+fort5 38 15
+fort6 38 17
+fort7 41 13
+fort8 44 15
+path1 6 5
+path2 8 7
+path3 10 9
+path4 12 11
+tomb 12 15
+tower_floor 30 17
+tower_middle1 30 17
+tower_middle2 30 17
+tower_office 30 17
+tower_top 30 17
+shop 30 17
+
+::MAPDATA::
+Fort Area of Sybarus
+                                                |
+ To the Port                                   (_)
+  of Sybarus                        ___|___   _| |____   |
+     \                             (_)__)__|_| []|[]  |_/_\_
+      o                            | |__| [] |   |[]  |  | |
+       \
+        o                          Boat to the Bazaar Island
+         \                      (<hit pipe> to summon transport)
+          o                                  o
+           \                                /
+            o                              o
+             \      Gate                  /
+              o      ||       o  ---  o  o
+               \     ||       |       | /
+            o    o - || ----  o  ---  o --- o Notary
+             \  /    ||       |       |
+              o      ||       o  uuu  o
+              |     Gate   Tower | |
+              o          uuu     | |uu
+              |         uuu|=====| | |
+              o         | |======| |'|
+              |         | | .==. | | |
+              |         |___|##|___|/
+    To the Utterdark
+

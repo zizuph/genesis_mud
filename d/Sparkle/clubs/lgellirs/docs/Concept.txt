@@ -1,0 +1,282 @@
+====CONCEPT===================================================================
+
+----------------------------------------------------
+CONCEPT DOCUMENT for a CLUB by Vitwitch, August 2022
+----------------------------------------------------
+
+----NAMES:
+
+The Gellirs of Lars
+Larsgellirs
+
+----NOTE: 
+
+This is a much simplified concept based on the ILLUMINATED of LARS
+proposal put forward by Vitwitch in September 2021. That club concept
+is abandoned as being too complex for actual game-play in practice.
+
+----GOALS: 
+
+1. Provide an alternate growth activity to combat alone, that rewards 
+   wide exploration, discovery and appreciation of the room and
+   room item descriptions already in existence.
+
+2. Give more agency to new and/or smaller players -- who prioritise
+   roleplay over 'power playing'.
+
+3. To exploit the inherent word-based play environment of Genesis; in
+   contrast to games based in video environments.
+
+4. To *not* affect skills, ability and guild balance *at all* -- to be
+   open to all without limitation.
+
+5. To weave into backstory a narrative reason behind the game-mechanic of
+   player-characters always returning after death -- making a narrative
+   distinction between player-characters and non-player characters.
+
+----JOINING REQUIREMENTS:
+
+None. All races, guilds, sizes and alignments are welcome.
+
+Players can join and leave the club as many times as they wish
+without penalty. Accumulated unclaimed benefits remain in place
+even if a player leaves the club. They can be redeemed if the
+player chooses to rejoin.
+
+----PREMISE:
+
+LARS is sometimes called The Implementor... (eg. /d/Genesis/std/death_room.c)
+players typically only come across him in death... he is all powerful but 
+it is notoriously hard to otherwise attract his attention... so....
+
+The Larsgellirs muse upon words found in Lars's works of Creation to form
+and bind chants (galdrar) to their essence. When they die, these galdrar
+can be yelled in the hearing of Lars to attract his attention and
+favour.
+
+By finding and using words of power (kraftords) of particular rarity, they
+give their galdrar greater ability to attract the attention and favour of
+Lars. At the end of each Armageddon cycle, Lars chooses the Gellir who
+caught his attention most effectively and for the longest time and grants
+them a great boon of creative growth (experience points).
+
+----ABILITIES and BENEFITS:
+
+1. No skills or combat abilities of any kind are provided.
+
+2. Gellirs have the ability to <muse> words from room and room-item
+   descriptions. These words, and only these words, can be used to
+   <form> a simple magical chant (galdr) involving formatted text and ascii
+   art (if desired, without game effect) -- all of the player's choosing.
+   A gellir can <bind> such a chant to themselves, so that when they
+   next die, this chant can be <yell>ed in the hearing of Lars.
+
+3. The effectiveness of the bound galdr depends on the rareness of the 
+   <muse>d adjectives and how early before Armageddon it was heard. Rareness
+   changes dynamically with use and non-use by gellirs from one Armageddon
+   to the next -- encouraging a continual search for fresh words to create
+   more effective bound galdrar. Those gellirs who participate more actively
+   will be better aware of the current state of rareness of <muse>d adjectives,
+   and will have the associated galdrar heard earlier to accumulate a higher
+   effectiveness score.
+
+4. Each Gellir who <yell>s in extremis in the hearing of Lars, is eligible
+   to be granted a prize (boon) of general experience after the Armageddon
+   in which the hearing occurred. This boon is the total of all combat/general
+   experience lost by all gellirs heard since the previous Armageddon. The 
+   gellir with the highest effectiveness score wins this boon and is
+   notified by mail to redeem it in a special club-room (the Larsether).
+   When a gellir redeems a boon as general experience it is increased to
+   offset the gellir's guild taxes -- the rationale being that tax has
+   already been paid on all the lost experience that makes up the boon. 
+
+5. Passage through the special club-room, the Larsether, provides the
+   experience bonus, full recovery of mana, health and fatigue, a snapshot
+   of the adjectives (only the adjectives) of all the players awake at the
+   time, a unique magic-map experience, and a splash-down at a random
+   location in Sparkle harbour. 
+
+6. All (3) club locations are non-teleport, non-blocking, non-scrying
+   outside rooms. One of these rooms is also open to non-members, and is
+   the destination of an introductory quest.  
+
+----TAX / COSTS / GAMING:
+
+1. There is no direct tax on experience.
+
+2. However, each Larsgellir must die for their Larsgaldr to be in the hearing of
+   Lars and so be eligible to win the boon at the next Armageddon. In effect,
+   each gellir is wagering the experience cost of that death against that
+   of all other gellirs heard in the same period.
+
+3. All but one Larsgellir will *not* win the experience boon. So the cost in
+   experience is usually significant.
+
+4. Obviously, players who choose to aggressively pursue wins as a Larsgellir
+   will die more frequently. They will tend to be both smaller and more aware
+   of the current state of rareness of words than players who seldom
+   participate.
+
+5. All large players will likely become Larsgellirs and <bind> galdrar so
+   that they have a chance of winning and not losing as much combat/general
+   experience if they happen to die involuntarily -- like an insurance policy.
+   However, these players will not know the current state of rareness of the
+   words which go into Larsgaldrar (except perhaps through small seconds) and
+   will not likely have died early in the cycle to accumulate a competitive
+   effectiveness score.
+
+6. Still, even infrequent Larsgellirs who die, with a bound Larsgaldr, have
+   a chance of winning the boon and mitigating the cost of involuntary
+   death and experience loss.
+
+7. More often, the death of infrequent (large sized) Larsgellirs will swell
+   the experience point prize (boon) pool won by a devoted (small sized)
+   Larsgellir.
+
+8. The extreme archetype of a Larsgellir is a player with much quest
+   experience (but with many many scars and not much accumulated
+   combat/general experience) who fearlessly explores the big wide world.
+   Such a player likely has a considerable pool of unclaimed boon points
+   that they are saving (subject to 5% decay Arma-on-Arma) until they
+   retire from active Larsgelling. Perhaps if they win big one Armageddon
+   they may claim all their boons, grow big and go do other things... or not.
+
+----GOVERNANCE:
+
+There is no Council. All club functions, including all galdrar judging, are
+fully automated.
+
+Larsgellirs are, in effect, in friendly competition with one another.
+
+----DEVELOPMENTAL STATUS:
+
+All code and supporting documentation has been written.
+It has been comprehensively alpha-tested as of 5th August 2022.
+
+
+====REFERENCE MATERIAL=========================================================
+
+see separate GLOSSARY file
+see separate EXAMPLE_GALDRAR file
+see separate FIRE_AND_FOLK backstory file
+
+----MECHANICS:
+
+1. Club members (GELLIRS) use their club object (LARSREYKR) to <muse> upon
+   words from room and room-item descriptions in the rest of the game,
+   collecting them for later use.
+
+2. They use these collected words to form magical chants (GALDRAR) which
+   are bound to their essence and are yelled into the hearing of Lars in
+   the after-death-before-life place (called Extermis by gellirs). Only
+   <mused> collected words can be used. It is not enough to know a words
+   exists, it must be found.  Word collecting (<musing>) is like a normal
+   search in duration, and appears as such to onlookers.
+
+3. Immediately after death, between Death and returning to life, GELLIRs
+   <yell> their bound GALDR in the hearing of Lars, borne on their LARSREYKR.
+
+4. At the end of each Arma cycle, all heard GALDRAR are compared in terms
+   of POWER x TIME. POWER is determined by the rarity of the rarest adjective
+   (kraftord) in each galdr and TIME is the length of time between the 
+   hearing of the galdr and Armageddon. The Gellir with the greatest
+   POWER x TIME score is the winner.
+
+5. That Gellir is awarded a 'boon' of points equal to the pool of non-quest
+   experience points lost by all Gellirs heard in that Arma cycle. This boon
+   can be redeemed at any time as general experience. The boon DOES NOT need
+   to be redeemed immediately. Awarded boon points accumulate if they are not
+   redeemed as experience. Unredeemed boon points decay at a rate of 5%
+   per Armageddon cycle.
+
+6. Active Larsgellirs will die a lot (in order to be heard early and with 
+   powerful galdrar) over successive Arma cycles and so pretty quickly will
+   only be losing general experience equal to what they have amassed in a
+   given cycle... with the hope of winning the pool of experience lost by
+   all gellirs. Many will choose to defer redeeming their boons as experience
+   to avoid that experience being subject to death-losses. This will keep
+   these players small until they decide to stop being active gellirs. They
+   will need to weigh the trade-off of defering experience redemption against
+   the decay of boon points due to the 5% tax they attract each Armageddon.
+
+7. If large players want to reliably win the experience pool -- with no actual
+   interest in searching out rare words and forming strong galdrar and
+   having those galdrar heard early and on purpose -- they have some obstacles:
+
+   a) Active gellirs will know where all the currently rarest adjectives
+      are to be found and will be keeping them a secret in order to win
+      the experience pool for themselves. It takes time and diligence
+      to find and use these words -- especially since using them actually
+      decreases their rarity. A large player will not likely be an
+      active gellir.
+
+   b) Active gellirs will try to have their best attempt at a powerful
+      galdr heard as early as possible after Armageddon -- involving dying
+      on purpose after binding that galdr. This is so that galdr accumulates
+      a lot of TIME (see 4. above) as well as possessing much POWER.
+
+   c) Large gellirs risk more experience when dying than do small gellirs.
+      All deaths with bound galdrar, no matter the size of the gellir, warrant
+      a hearing by Lars.
+
+8. To prevent griefing of active gellirs by non-gellirs, there are these
+   considerations :
+
+   a) Active gellirs don't mind dying... since they are going to have to
+      do so anyway. Any death they suffer with a bound galdr will contribute
+      experience points to the pool, which they hope to win at the end of
+      the current Arma cycle.
+
+   b) Gellirs are not obvious to onlookers. Their club object is invisible,
+      and their actions are indistinguishable from normal actions. To <muse> 
+      appears like an ordinary <search>. To <form> a galdr appears as 
+      writing a message. To <bind> a galdr gives no outward indication.
+      Gellirs become obvious when they die and their bound galdr is heard
+      by all present in the room of their death.
+
+9. Given all of the above, a dynamic and shifting competition will exist to
+    find and use and keep-secret rare kraftords. This will encourage closer
+    attention being paid to rooms and room-items in the Realms; competitve 
+    interplay between club members and cooperative interplay between club
+    members and non-members in social groupings.
+   
+
+----KRAFTORDS:
+
+1. Kraftords are adjectives collected among all the words from room and
+   room-item descriptions in the Realms by <musing> with the invisible
+   club-object (larsreykr).
+   Musing has the same paralysis duration as a search. Larsgellirs can
+   <examine> descriptions like anyone else.  If they see words they want,
+   they can <muse> that room or room-item and collect all those words for
+   later use.
+
+2. The rarity of the rarest adjective (kraftord) used by a gellir among all
+   the description elements determines the 'power' of their Larsgaldr. The
+   gellir with the greatest POWER x TIME summed over all their galdrar 
+   heard in the current Arma cycle, is awarded the pooled experience losses
+   by all gellirs heard in that cycle, at the start of the next cycle.
+
+3. Kraftord eligibility and rarity is determined from a read-only mapping of
+   english language adjective frequency (covering 4300 words) -- modified
+   by actual usage in hearings, changes being made each Armageddon.  If a
+   rare kraftord is used in a galdr hearing, it becomes less rare by the
+   amount of time between its hearing and Armageddon. This makes it
+   proportionally less powerful after that Armageddon. The rarity of words
+   increases when they are not used cycle on cycle -- so their 'power'
+   slowly recovers to their english-language base frequency with time. 
+
+----SETTING:
+
+1. The club's in-realm rooms are accessed from a single outside room in
+   the northern forest of Sparkle.
+
+2. Apart from joining, leaving and redeeming boons, all other club functions
+   do not require presence in the club rooms.
+
+3. The club does not provide food, accommodation, notice board nor member lists.
+
+
+====END OF FILE===============================================================
+
+

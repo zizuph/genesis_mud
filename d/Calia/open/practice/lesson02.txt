@@ -1,0 +1,241 @@
+Guide to coding in Calia
+
+Lesson 2, by Uhclem
+
+Directories
+
+In Lesson 1, all data used to define the example rooms, other than the contents
+of the inherited standard room, was typed directly into the room files
+themselves.  This method, while perfectly functional, results in a great
+duplication of efort when defining many rooms with common attributes, wastes
+disk space, and makes maintenance arduous.  Also, the examples in Lesson 1 were
+simply placed in a "practice" directory.  Beginning with this lesson, all
+examples will be arranged the following directory structure:
+
+/d/Calia/open/wilderness|
+                        |-living
+                        |-object
+                        |-room
+                        |-special
+
+I've purposely chosen a simple directory structure because there will only be a
+small number of example files.  If the "wilderness" were an actual playing
+area, it might have hundreds of rooms, wildlife, and well-equipped npc's.  In
+that case the rooms might be divided into subdirectories named "desert,"
+"oasis,", "mountain", etc., living objects might be separated into "npc" and
+"animal," and other objects might be divided into "armour," "weapon," and
+"misc."  You can generally put up to 500 files in a single directory before
+game performance is degraded, but you'll usually want to put far fewer than
+that in any directory just to make management easier.  Rearranging files into a
+new directory structure is a laborious and error-prone task, so it pays to
+plan:  estimate the number and variety of rooms and objects that will be in an
+area before you design its directory structure.
+
+Definitions
+
+You'll need to use directory names in code whenever you want to refer to a room
+or object.  If for no other reason than to save yourself a lot of typing, it's
+better to define short names for directories than to type the full directory
+names every time you need to refer to them.  The following example is similar
+to the third example in Lesson 1 but uses definitions for the directory names:
+
+--------------------------------------------------------------------------
+
+// ROOM:  Calian desert - /d/Calia/open/practice/wilderness/desert01
+
+    /*  Calia Domain
+
+        HISTORY
+        1998-08-26 Created by Uhclem.
+
+        PURPOSE
+        This is a coding example for new Calian wizards.  There is no desert in
+        Calia - this code is strictly for practice!
+
+    */
+
+// INCLUSIONS AND DEFINITIONS
+
+inherit "/std/room";
+
+#define WILDERNESS_ROOM    "/d/Calia/open/practice/wilderness/room"
+
+// ROOM DEFINITION
+
+void
+create_room()
+{
+
+    /* DESCRIPTION */
+
+    set_short("Calian desert");
+
+    set_long("You stand in the midst of a great desert." +
+        " Blazing sand stretches before you in all" +
+        " directions, reflecting the heat of the relentless" +
+        " sun and scorching your feet. The air is motionless, and" +
+        " not a single cloud offers hope of relief. Only an" +
+        " old trail, barely visible in the sand, gives evidence" +
+        " that some other travelers have passed this way before you.\n");
+
+    /* ITEMS */
+
+    add_item(({"sand", "desert"}), "The sand stretches on" +
+        " endlessly in all directions.\n");
+
+    add_item(({"trail", "old trail"}), "The trail leads east and" +
+        " west to the horizon.\n");
+
+    add_item(({"sun", "horizon", "sky"}), "The sun is" +
+        " directly overhead, and the horizon is merely a" +
+        " flat line dividing sand from sky.\n");
+
+    /* EXITS */
+
+    add_exit(WILDERNESS_ROOM + "desert02", "east", 0, 5);
+    add_exit(WILDERNESS_ROOM + "desert03", "north", 0, 5);
+
+    /* PROPERTIES */
+
+    add_prop(ROOM_I_LIGHT, 2);
+    add_prop(ROOM_I_HIDE, 98);
+
+    }
+
+--------------------------------------------------------------------------
+
+
+
+Using all-caps for definitions is an important Genesis coding convention -
+never use all-caps for any other type of variable.
+
+The preceding example illustrates the proper use of a definition in an
+individual file, but it hardly demonstrates the great efficiency and
+consistency definitions provide.  The advantages become apparent when you put
+them in "header" files whih can be shared by many individual room files.
+Header file names generally end in ".h" and can contain a variety of types of
+code.  Those which contain sets of definitions are commonly named "defs.h".  I
+can put the definitions I expect to need in the wilderness into such a file:
+
+--------------------------------------------------------------------------
+
+#define WILDERNESS_LIVING  "/d/Calia/open/practice/wilderness/living/"
+#define WILDERNESS_OBJECT  "/d/Calia/open/practice/wilderness/object/"
+#define WILDERNESS_ROOM    "/d/Calia/open/practice/wilderness/room/"
+#define WILDERNESS_SPECIAL "/d/Calia/open/practice/wilderness/special/"
+
+--------------------------------------------------------------------------
+
+
+
+Definitions can be formed from other definitions, and when you're developing a
+large area with a big header file this is a good strategy.  The following text
+produces the same definitions as the preceding example (plus one that refers to
+the parent directory):
+
+--------------------------------------------------------------------------
+
+#define WILDERNESS         "/d/Calia/open/practice/wilderness/"
+#define WILDERNESS_LIVING  WILDERNESS + "living"/
+#define WILDERNESS_OBJECT  WILDERNESS + "object/"
+#define WILDERNESS_ROOM    WILDERNESS + "room/"
+#define WILDERNESS_SPECIAL WILDERNESS + "special/"
+
+--------------------------------------------------------------------------
+
+
+
+This version is much easier to change should the affected area e moved from one
+domain to another (it happens!) or some other change occurs that alters the
+directory names.  The header file appears in the room file on an #include
+statement.  To facilitate sharing the definitions between files in various
+subdirectories, the header file in the parent directory contains the actual
+definitions, and the header file in each subdirectory contains a statement that
+includes it.  Thus for our examples, file "defs.h" in
+/d/Calia/open/practice/wilderness contains the definitions above, and file
+"defs.h" in each of the four subdirectories contains:
+
+--------------------------------------------------------------------------
+
+#include "../defs.h"
+
+--------------------------------------------------------------------------
+
+
+
+A room example using the header file would look like:
+
+--------------------------------------------------------------------------
+
+// ROOM:  Calian desert - /d/Calia/open/practice/wilderness/desert02
+
+    /*  Calia Domain
+
+        HISTORY
+        1998-08-26 Created by Uhclem.
+
+        PURPOSE
+        This is a coding example for new Calian wizards.  There is no desert in
+        Calia - this code is strictly for practice!
+
+    */
+
+// INCLUSIONS AND DEFINITIONS
+
+inherit "/std/room";
+
+#include "defs.h"
+
+// ROOM DEFINITION
+
+void
+create_room()
+{
+
+    /* DESCRIPTION */
+
+    set_short("Calian desert");
+
+    set_long("You stand in the midst of a great desert." +
+        " Blazing sand stretches before you in all" +
+        " directions, reflecting the heat of the relentless" +
+        " sun and scorching your feet. The air is motionless, and" +
+        " not a single cloud offers hope of relief. Only an" +
+        " old trail, barely visible in the sand, gives evidence" +
+        " that some other travelers have passed this way before you.\n");
+
+    /* ITEMS */
+
+    add_item(({"sand", "desert"}), "The sand stretches on" +
+        " endlessly in all directions.\n");
+
+    add_item(({"trail", "old trail"}), "The trail leads east and" +
+        " west to the horizon.\n");
+
+    add_item(({"sun", "horizon", "sky"}), "The sun is" +
+        " directly overhead, and the horizon is merely a" +
+        " flat line dividing sand from sky.\n");
+
+    /* EXITS */
+
+    add_exit(WILDERNESS_ROOM + "desert01", "west", 0, 5);
+    add_exit(WILDERNESS_ROOM + "desert03", "northwest", 0, 5);
+
+    /* PROPERTIES */
+
+    add_prop(ROOM_I_LIGHT, 2);
+    add_prop(ROOM_I_HIDE, 98);
+
+    }
+
+--------------------------------------------------------------------------
+
+
+
+This example meets all the requirements of basic rooms in Calia.  It has
+sufficient detail, appropriate properties, properly structured code, and the
+file is properly placed in an appropriate directory.  You can use this room as
+a model for simple rooms, and it can be the starting point for more complicated
+rooms.  Rooms that contain traps, treasures, monsters, and other surprises
+generally begin with a simple room file like the one above, to which the
+aditional features are added.

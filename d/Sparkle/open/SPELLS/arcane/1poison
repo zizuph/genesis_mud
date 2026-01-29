@@ -1,0 +1,19 @@
+Name: Poison
+
+Object: /d/Sparkle/guilds/arcane/spells/poison.c
+
+Cost: 
+
+Skills: 
+
+Description: Tier 1 spell
+                 Targets: 1, specified target required
+		 Minorly poisons a target. Clones a spell effect object
+		 in the target that periodically causes very minimal
+		 damage, plus minimal fatigue. Can not be cast during
+		 combat.
+		 
+Requirements: 
+    SS_ELEMENT_WATER   
+    SS_FORM_CONJURATION    
+    Tea

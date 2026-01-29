@@ -1,0 +1,37 @@
+/*
+ * File:    path3.c
+ * Creator: Cirion, 1998.12.04
+ * Purpose: Mountain path leading up to the monastery
+ */
+#pragma strict_types
+
+// since this is a guild room, save the binary of the file
+// to facilitate quick loading after reboots
+#pragma save_binary
+
+#include "defs.h"
+
+inherit ROOMBASE;
+
+void
+create_room ()
+{
+    set_short("rocky mountain path");
+    set_long("Level with the treetops, this rocky path follows the face of the "
+        + "cliff as it makes its increasingly steep path to the north. Southwards, "
+        + "the path separates from the trail and opens up onto a "
+        + "gentler slope that leads into the forest.\n");
+    add_item(({"trail","path"}),
+        " It rises to the north and goes south into the "
+        + "forest.\n");
+    add_prop(ROOM_I_INSIDE, 0); // this is an outside room
+
+    // where, command
+    add_exit("path2", "south");
+    add_exit("path4", "north");
+
+    // when we come from DIRECTION, we see MESSAGE
+    ENTRANCE_MSG("south", "You climb the steep, rocky path.\n");
+    ENTRANCE_MSG("north", "You descend the steep, rocky mountain path.\n");
+}
+

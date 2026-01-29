@@ -1,0 +1,21 @@
+   This is the adventurers' guild in the city of Kabal, which is more
+formerly known as the Wayfarer's Guild of Kabal.
+
+-located in /d/Kalad/common/caravan/shop/wayfar_guild and in
+/d/Kalad/common/caravan/shop/w_g_train
+
+The following skills are taught at the guild:
+SS_WEP_SWORD:30
+SS_WEP_AXE:30
+SS_WEP_CLUB:30
+SS_WEP_KNIFE:30
+SS_PICK_POCKET:20
+SS_HIDE:30
+SS_SNEAK:30
+SS_ANI_HANDL:30
+SS_SWIM:30
+SS_CLIMB:30
+SS_TRADING:30
+SS_AWARENESS:30
+
+-There are no restrictions to training.

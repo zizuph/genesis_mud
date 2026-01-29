@@ -1,0 +1,29 @@
+ 			     J U L Y   2 0 2 1
+
+Cadu
+* Kato behaves more consistently when handling the quests.
+* The wishing well is now operating.
+* The spellpaper is no longer reacting to 'eat'.
+* The descriptions and the map of the pier should now be fixed.
+* The roses work as intended by the original creators.
+* Access to Refnas and he himself have been slightly modified.
+* Fixed the skin bug, showing as ob_XXXX
+* Fixed the description of the strange brew when not in buyers'
+  inventory
+* Improved the tailor
+* Fixed the moralist that thought soft drinks are bad for your liver.
+
+Port Macdunn
+* The wicks can be cut using any weapon that is a knife or sword TYPE.
+* Beekeeper suit converted to a wearable item that can fit over most
+  armours. Now minotaurs can do the quest.
+* Improved the syntax for the fountain in the kirk
+
+Sa Morgan
+* You can 'answer' Julia's riddles now.
+* The NPCs in the shops and in the pub should now reset properly
+* The tunics purchased in the village now keep their properties
+
+Dozen of typos, nonsense responses from NPCs cleaned, some details
+and items added per requests.
+

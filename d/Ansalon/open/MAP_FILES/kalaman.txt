@@ -1,0 +1,275 @@
+main
+::MAPDATA::
+path1 18 12 kalaman_harbour
+path2 18 12 kalaman_harbour
+path3 18 12 kalaman_harbour
+path4 18 12 kalaman_harbour
+path5 18 12 kalaman_harbour 
+path6 18 12 kalaman_harbour
+path7 18 12 kalaman_harbour
+path8 18 12 kalaman_harbour
+path9 18 12 kalaman_harbour
+path10 18 12 kalaman_harbour
+road1 18 12 kalaman_harbour
+road2 18 12 kalaman_harbour
+road3 18 12 kalaman_harbour
+road4 18 12 kalaman_harbour
+road5 18 12 kalaman_harbour
+dock1 18 12 kalaman_harbour
+dock2 18 12 kalaman_harbour
+dock3 18 12 kalaman_harbour
+dock4 18 12 kalaman_harbour
+dock5 18 12 kalaman_harbour
+dock6 18 12 kalaman_harbour
+warehouse 18 12 kalaman_harbour
+office 18 12 kalaman_harbour
+charter_room 18 12 kalaman_harbour
+inn 18 12 kalaman_harbour
+tower 18 12 kalaman_harbour
+storeroom 18 12 kalaman_harbour
+gate 18 12 kalaman_city
+guard1 18 12 kalaman_city
+guard2 18 12 kalaman_city
+gate1 18 12 kalaman_city
+guard3 18 12 kalaman_city
+guard4 18 12 kalaman_city
+r1 18 12 kalaman_city
+r2 18 12 kalaman_city
+r3 18 12 kalaman_city
+r4 18 12 kalaman_city
+r5 18 12 kalaman_city
+r6 18 12 kalaman_city
+tower01 18 12 kalaman_city
+tower02 18 12 kalaman_city
+r7 18 12 kalaman_city
+r8 18 12 kalaman_city
+r9 18 12 kalaman_city
+r10 18 12 kalaman_city
+r11 18 12 kalaman_city
+r12 18 12 kalaman_city
+r13 18 12 kalaman_city
+r14 18 12 kalaman_city
+r15 18 12 kalaman_city
+r16 18 12 kalaman_city
+r17 18 12 kalaman_city
+r18 18 12 kalaman_city
+r19 18 12 kalaman_city
+r20 18 12 kalaman_city
+r21 18 12 kalaman_city
+r22 18 12 kalaman_city
+r23 18 12 kalaman_city
+r24 18 12 kalaman_city
+r25 18 12 kalaman_city
+r26 18 12 kalaman_city
+r27 18 12 kalaman_city
+r28 18 12 kalaman_city
+r29 18 12 kalaman_city
+r30 18 12 kalaman_city
+r31 18 12 kalaman_city
+r32 18 12 kalaman_city
+r33 18 12 kalaman_city
+r34 18 12 kalaman_city
+b1 18 12 kalaman_city
+b2 18 12 kalaman_city
+b3 18 12 kalaman_city
+b4 18 12 kalaman_city
+b5 18 12 kalaman_city
+b6 18 12 kalaman_city
+g1 18 12 kalaman_city
+g2 18 12 kalaman_city
+g3 18 12 kalaman_city
+g4 18 12 kalaman_city
+g5 18 12 kalaman_city
+m1 18 12 kalaman_city
+m2 18 12 kalaman_city
+m3 18 12 kalaman_city
+m4 18 12 kalaman_city
+m5 18 12 kalaman_city
+m6 18 12 kalaman_city
+m7 18 12 kalaman_city
+m8 18 12 kalaman_city
+m9 18 12 kalaman_city
+garden 18 12 kalaman_city
+::MAPDATA::
+~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~ ,   ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~   ; '', ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~  ;     ',  ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+~~ ~~    ,     ~~ ~~ ~~ ~~ ~~ :        ',  ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~ , ,
+ ~~ ~ ,'' '`\ ~~ ~~ ~~ ~~ ~~,'          : ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~  ,' " '',
+  ~~ :       '; ~~ ~~ ~~ ~    NORDMAAR   ': ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ .'    ,  ;
+ ~~  ;       '   ~~ ~~ ,', '              ;  ~~ ~~ ~~ ~~ ~~ ~    ~~  '[ ]" ';:
+~~  '         '`` ~~  ;   '                '  ~~ ~~ ~~ ~~    ;'': ~~ Winston's
+    ;            '`: ~ ',       /\         : ~~ ~~      ,~ ;'  ' ',  Tower ~~
+ "''                :~~ ,     @/\        [ ]  ~~ ~~  ;"',~ `,SAIFHUM
+            ~~~~~~~,' ~~:     @@/\      Jennison  ~ ,   ;~ ',   ; ~ ~~  :'"'';
+          ~'     [ ],~  ,'    @/\          ; ~~  ,'"    : ~  ',' ~ ~~   ,   :
+ SOLAMNIA      Kalaman `     @/\          , ~~ ,'     ,' ~~ ~~ ~~ ~~ ~ MITHAS,
+     ~                      @/\         ,' ~~ ;      ,' ~~ ~~ ~~ ~~ ~~  :    ;  
+    ~                                 ,'  ~~ :       ; ~ ~         ~ ~~ ,  ,,
+   ~      /\_     ESTWILDE  /\     /\  `,  ,'      :' ~ ~           ~ ~  "" ~
+  ~      /\  \  ^  PLAINS         /\     `'  KERN ; ~ ~              ~ ~~ ~~
+         [#]/\            ^      /\      /\     ,' ~ ~ ~  Blood Sea ~ ~~:'"''; 
+        Dargaard    ^        /\         /\    /\ :  ~ ~   of Istar  ~ ~~`   ;
+        Keep /\               /\       /\ @@@/\   ;  ~ ~ ~         ~ ~~ `,  ,
+         /\            [^]   /\       /\_ @@@/\  ; ~ ~ ~ ~ ~      ~ ~~ ~~ ""
+           /\         Iron           /\  \@@/\  ;  ~~ ~~ ~~ ~~ ~~ ~~ ~ KOTHAS
+         @/\ /\       Delving            /\/\    '   ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+        @/\_
+
+::NEWMAP::
+kalaman_harbour
+::MAPDATA::
+path1 23 22
+path2 7 7
+path3 26 19
+path4 26 16
+path5 26 13 
+path6 26 10
+path7 10 4
+path8 14 4
+path9 18 4
+path10 22 4
+road1 10 13
+road2 16 19
+road3 7 10
+road4 19 22
+road5 13 16
+dock1 22 13
+dock2 19 16
+dock3 22 19
+dock4 16 7
+dock5 13 10
+dock6 10 7
+warehouse 16 21
+office 16 21
+charter_room 10 16
+inn 7 13
+tower 28 9
+storeroom 16 21
+::MAPDATA::
+
+                     %
+        &&&&&&&&&&&  v  ~~ ~~ ~~
+      &&&&&&&&&&&&& /^\  ~~ ~~ ~
+     &&&& o---o---o---o ~~ ~~ ~~
+         / ~~ ~~ ~~ ~~ ~~ ~~ ~~
+        / ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+       o  6 ~~  4 ~~ ~~ ~~ ~   ~          
+       | / ~~  / ~~ ~~ ~~    % ~      
+       |/ ~~  / ~~ ~~ ~~     v ~
+       o ~~  5 ~~ ~~ ~~   o /^\        
+        \   / ~~ ~~ ~~    | &&&         -= Kalaman Harbour =-
+         \ / ~~ ~~ ~~ ~~  | &&&             
+       i--o   ~~ ~~ ~ 1   o &&&       M  Harbourmaster's office
+           \ ~~ ~~ ~ / ~~ | &&&       i  abandonned inn
+            \ ~~ ~  / ~~  | &&&       1  Pier - Pelargir / Kalaman / Gelan 
+          M--o ~~  2   ~~ o &&&       2  Pier - Sparkle dock
+            / \ ~ / ~~ ~~ | &&&       3  Shipyard of Kalaman
+           /   \ / ~~ ~~  | &&&       4  Pier - Flotsam dock
+     City       o ~~  3 ~ o &&&       5  Pier - Vingaard Keep dock
+      of        |\ ~ / ~ / &&&&       6  Pier - Palanthas dock
+    Kalaman     w \ / ~ /  &&&&&      w  warehouse  
+                   o---o  &&&&&&
+
+::NEWMAP::
+kalaman_city
+::MAPDATA::
+gate 54 10
+gate1 22 10
+guard1 52 8
+guard2 56 12
+guard3 24 8
+guard4 20 12
+r1 51 13
+r2 48 16
+r3 51 19
+r4 45 13
+r5 45 19
+r6 54 22
+tower01 58 24
+tower02 58 22
+r7 51 22
+r8 54 19
+r9 45 31
+r10 45 22
+r11 45 25
+r12 42 28
+r13 38 28
+r14 38 31
+r15 42 31
+r16 34 28
+r17 31 25
+r18 31 22
+r19 31 19
+r20 34 16
+r21 38 16
+r22 42 16
+r23 38 13
+r24 45 10
+r25 31 13
+r26 28 16
+r27 25 13
+r28 25 19
+r29 22 19
+r30 25 22
+r31 25 25
+r32 28 28
+r33 31 31
+r34 34 31
+b1 57 19
+b2 60 19
+b3 48 10
+b4 50 10
+b5 22 17
+b6 22 15
+g1 51 25
+g2 51 28
+g3 48 28
+g4 54 28
+g5 51 31
+m1 38 10
+m2 42 10
+m3 34 10
+m4 34 8
+m5 38 8
+m6 42 8
+m7 34 6
+m8 38 6
+m9 42 6
+garden 35 26
+::MAPDATA::
+
+                             -= City of Kalaman =-                          
+
+                                   Poor
+                                   District
+                                      |     
+            Solamnian             s---o---o P
+            Plains                |   |   |               Kalaman
+                    \  [g]        p---n---G        [g]  / docks
+                     \ /          |   |   | \        \ /
+                      o           m---t---B  o--o-o   o
+                     / \         /    |    \ |       / \
+                   [g]  \       /     |     \|      /  [g]
+                         o     o      o      o     o     
+                          \   /       |       \   /
+                      o    \ /        |        \ /
+                      |     o     o---o---o     o
+                      o    / \   /    |    \   / \
+                      |   /   \ /           \ /   \                     
+                      o--o     o     ++++    o     o--o--o--o
+                         |     |     [||]    |     |\                
+                         |     |     /^^\    |     | \    _        
+-= Market Square =-      o     o    /\/\/\   o     o  o  [=]               
+                         |     |    ||||||   |     |   \ | |        
+p Pigeon breeder         |     |   @::::::@  |    ===    |n|
+s Smithy                 o .   o    @ @@ @   o     @
+m Meat roll hawker        \     \@         @/     /|\ 
+t Torch merchant           \     \@ @ @ @ @/     / | \
+b Bowyer                    o    o----o---o     @--@--@          
+P Pawnbroker of Kalaman      \        |       '\ \ | /
+G Gnomes of Genesis Bank      \       |       /'\ \|/
+n Market square notice board   o--o---o---o--o  '  @
+
+

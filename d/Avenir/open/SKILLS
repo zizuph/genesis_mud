@@ -1,0 +1,18 @@
+                 * Skill Numbers Used in Avenir *
+
+139001 	SS_AV_HOLM      Holm book timestamp var
+139002  SS_MASQ_STAGE   Mascarvin Quest stage counter
+
+139010 	SS_FAITHFUL     Faithful Actions Counter
+139011	SS_INFIDEL      Murder & Blasphemy Counter
+
+139040 	SS_MUMMER	    Mummer proficiency counter
+139041 	SS_DANCER	    Dancer proficiency counter
+
+139050 	SS_SWAY   	    Union special ability
+139051 	SS_SLASH  	    Union special attack 'Slash'
+139052 	SS_FLING  	    Union special attack 'Fling'
+139053 - 139058  	    For internal use in the Union
+
+139060 - 139069         Reserved for Anchorites
+

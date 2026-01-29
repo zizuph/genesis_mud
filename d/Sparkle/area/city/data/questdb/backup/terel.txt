@@ -1,0 +1,38 @@
+domain,quest desc,group,bit,validation,arguments
+Terel,Orc Fire,0,0,default
+Terel,Balance Quest,0,1,default
+Terel,Death Quest,0,2,default
+Terel,Maze and Box,0,3,default
+Terel,Lost Child,0,4,default
+Terel,Jester's Hat,0,5,default
+Terel,Beardly Woman,0,6,default
+Terel,Wrestler's Belt,0,7,default
+Terel,Juggling,0,8,default
+Terel,Tight Rope Walking,0,9,default
+Terel,Magician's Treasure,0,10,default
+Terel,Release Spectre,0,11,default
+Terel,Rescue Virgin,0,12,default
+Terel,Porcia Riddle,0,13,default
+Terel,Tear Tapestry,0,14,default
+Terel,Dead Dark One,0,15,default
+Terel,Mystics Entrance,0,16,false_unless_done
+Terel,Zodiac Gem,0,17,default
+Terel,Mine Gem,0,18,default
+Terel,Witch's Ring,0,19,default
+Terel,Lost Cat,1,0,default
+Terel,Lost Bracelet,1,1,default
+Terel,Bug Queen,1,2,default
+Terel,Evil Dragon,1,3,default
+Terel,Rescue Prisoner,1,4,default
+Terel,Dungeon,1,5,default
+Terel,Vote Room Puzzle,1,6,default
+Terel,Missing Sandal,1,7,default
+Terel,Missing Flower,1,8,default
+Terel,Pick Batdung,1,9,default
+Terel,Sign Register,1,10,default
+Terel,Sacrifice Wreath,1,11,default
+Terel,Hunt Assassin,1,12,default
+Terel,Bandits Treasure,1,13,default
+Terel,Caravan Quest,1,14,default
+
+

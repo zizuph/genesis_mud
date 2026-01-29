@@ -1,0 +1,46 @@
+main
+::MAPDATA::
+nt11 24 3
+nt10 29 3
+nt9 36 3
+nt8 40 3
+nt7 44 3
+nt6 48 3
+nt5 52 3
+nt4 56 3
+nt3 60 3
+nwt1 22 5
+nwt2 20 7
+nwt3 18 9
+nwt4 16 11
+nwt5 14 13
+nwt6 12 15
+nwt7 10 17
+nwt8 8 19
+nwt9 6 21
+nwt10 4 23
+::MAPDATA::
+
+
+                     
+                       [ ] - o------o - o - o - o - o - o - o-----
+                       / 
+                      o
+                     /
+                    o
+                   /
+                  o
+                 /
+                o
+               /
+              o
+             /
+            o
+           /
+          o 
+         /
+        o
+       /
+      o 
+     / 
+   [ ]

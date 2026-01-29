@@ -1,0 +1,22 @@
+Knights of Solamnia:
+--------------------
+Occupational:   Set bit (Krynn,1,0)
+                Run this command:
+exec clone_object("/d/Krynn/solamn/vin/knight/obj/occ_shadow")->shadow_me(find_living(<name>),"occupational","fighter","Solamnian Knights");
+
+exec clone_object("/d/Krynn/solamn/vin/knight/obj/medal")->move(find_living(<name>));
+Call <name> add_cmdsoul /d/Krynn/solamn/vin/knight/obj/solamnian_soul
+Call <name> update_hooks
+
+The special skills are the following:
+- prestige:  108111   (Call <name> change_prestige <num>%%1)
+- rescue:    67530
+- kattack:   67531
+- block:     67532
+
+Occupational only:   Set which order the knight should be in:
+Crown:       Call <name> set_knight_level 3               
+Sword:       Set bit (Krynn,1,9)    - sword quest must be solved
+             Call <name> set_knight_level 4
+Rose:        Set bit (Krynn,1,10)   - rose quest must be solved
+             Call <name> set_knight_level 5

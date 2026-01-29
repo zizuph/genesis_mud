@@ -1,0 +1,125 @@
+main
+::MAPDATA::
+p16 33 6 elfpathmid
+p17 34 6 elfpathmid
+p18 35 7 elfpathmid
+p19 36 7 elfpathmid
+p20 37 7 elfpathmid
+p21 38 7 elfpathmid
+p22 39 7 elfpathmid
+p23 40 6 elfpathmid
+p24 41 6 elfpathmid
+p25 42 6 elfpathmid
+p26 43 5 elfpathmid
+p27 44 5 elfpathmid
+p28 45 5 elfpathmid
+p29 46 5 elfpathmid
+p30 47 5 elfpathmid
+p31 48 4 elfpathmid
+p32 49 4 elfpathmid
+p33 50 4 elfpatheast
+p34 51 4 elfpatheast
+p35 52 4 elfpatheast
+p36 53 3 elfpatheast
+p37 54 3 elfpatheast
+entrance 53 3 elfpatheast
+::MAPDATA::
+
+     ~~~~         oOOOOOOoOoOOoOOOoOoOOoOOOOOoOOOoOOOOo
+      ~~~~        OOOOOOOOoOOOoOOOOoOOOoOOOOOOOOOOOoOOO
+      ~~~~        OoOOOoOOOOOOOOoOOOOOOOOoOOoOoOOoOO /--
+       ~~~~       oOOOOOOoOoOOoOOOoOoOOoOOOOOoOO/---/o
+       ~~~~       OOOOOOoOOOOOOOOoOOOOOOOOo/---/ooOoOOo
+      ~~~~        ---- Elf Path --\oOoOO/-/OOoOoOOooOOoO
+      ~~~~         OoOOOOOoOOoOOOOO\---/OOOOoOOoOOOOOoOOo
+       ~~~~         OooOoOOooOooOoOOooOooOoOooOOooOoOOooOo
+       ~~~~            ooOOoOoOOooOOoOoOooOOooOoOOooOOoOoO
+        ~~~~             OoOOoOOOOOoOOoOOOOOOOOoOOOOOoOOoO
+        ~~~~             OOooOooOoOOooOOOOoOOooOooOoOOooOo
+         ~~~~            OOoOoOOo+----------+oOoOOooOOoOoOO
+         ~~~~            OoOOoOOO| MIRKWOOD |OOoOOOOOoOOoOOO
+         ~~~~            OOooOooO+----------+ooOooOoOOooOooOoOO
+         ~~~~            OOoOooOooOOoOoOooOOOoOoOOooOOoOOoOooOOoOo
+          ~~~~           OoOOoOOOOOoOOoOOOOOoOOoOOOO^^^^oOOoOOoOOoO
+          ~~~~           OOooOOoOooOooOooOo^^ooOooOoO^^^^OoOoOOoOOoo
+          ~~~~           OOoOoOOoOoOoOoOOo^^^^^^^^^^^^^^^^^oOOooOoOOo
+          ~~~~           OoOOoOOOOOOOOo^^^^^^^^^^^^^^^^^^^OOOOO.OoOOO
+           ~~~~          OOoooOoOooOooOooOoOOoOoOo^^^^^^OooOoOOooOooO
+           ~~~~         oOOoOOoOoOoOoOoOOooOOooOOOoo^^oOoOOooOOoOoOOo
+
+::NEWMAP::
+elfpathmid
+::MAPDATA::
+p16 7 13 
+p17 11 13 
+p18 15 15 
+p19 19 15 
+p20 23 15 
+p21 27 15 
+p22 31 15 
+p23 35 13 
+p24 39 13 
+p25 43 13 
+p26 47 11 
+p27 51 11 
+p28 55 11 
+p29 59 11 
+p30 63 11 
+p31 67 9 
+p32 71 9
+::MAPDATA::
+
+ OOOOoOOooOOOOOOOoOOooOOOOOOOoOO ~~~ OooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOO
+ OOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOO ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ooOOOOOO
+ OOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOO ~ OoOOooOOOO ~~~OoOOOO
+ OOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOO ~ OOOOOoOOOoOOOO ~~~~ OO
+ OOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOO ~ OOOOoOOOOOOoOOOOoOO ~~~
+ OOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOoo ~~~~~~ OOOOOOOOoOOOOOOOOOOOoO ~~
+ OOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOo ~ ooOOOOOooOOOooOOOOOooOOOooOOOOO
+ OOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoO ~~~~~~~ OOoOOooOOOOOOOoOOo
+ OOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOO ~ OOOoOOOOOOOoOOOoOOOOOOOoO   o - o - o -
+ OOOooOOOOOooOOOooOOOOOooOOOoo~~~~~~~ OOOOoO                     /
+ OOOOoOOooOOOOOOOoOOooOOOOOO ~ OOOOOOOoOOOO    o - o - o - o - o     oOOOOoOOOO
+              OOOOOoOOOoOOO ~ ooO            /                    OOOOOOOOOOOoO
+ - o - o - o   OoOOOO ~~~~~~~ OO   o - o - o   OOOooOOOOOooOOOooOOOOOooOOOooOOO
+             \       ~           /           OOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOo
+ OOOooOOOoo    o - o ~ o - o - o     OOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoO
+ ooOOOOOOOo       ~~~            oOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOO
+ OOOoOOOOOOOoOOO ~  OOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoO
+ OOOoOOOOoOOOOOO ~ OOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOO
+ OOOOOOOOOOOoOOO ~ oOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOo
+ OOOooOOOooOOOOOo ~~~ OOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoO
+ ooOOOOOOOoOOooOOOOO ~  OOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOO
+
+::NEWMAP::
+elfpatheast
+::MAPDATA::
+p33 36 9 
+p34 40 9 
+p35 44 9 
+p36 48 7 
+p37 52 7 
+entrance 44 7 
+::MAPDATA::
+
+ ooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOO
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ OOooOOOOOOOoOOooOOOOO
+ OOOOOOOOOoOOOOOO ~ OOOoOOOOoO ~~~OOOoOOOOOOOoOOOoOOO
+ OooOOOooOOOOOo ~ OoOOOOOOOOOOOo ~~~~ OOOOoOOOOOOoOOO
+ OOOOOOOoOOoo ~ ooOOOOOooOOOooOOOOO ~~~ OOOOOoOOOOOOO
+ OoOOOO ~~~~~~ OOoOOooOOOOOOOoOOooOOO ~~~ ooO ~~~~~~~
+ OoOO ~ OOOoOOOOOOOoOOOoOOOOOOOoOOOoOOO ~~~ o = o - o
+ ~~~~~ OOOOoOOOOoOOOOOOoO                 ~~~ /
+ OOOOOOoOOOOOOOOOOOoOOOOO   o - o - o - o - o   O
+ OOOo                     /                   OOOoo
+ OOO    o - o - o - o - o     oOOOOOOOoOOooOOOOOOOoO
+      /                    OoOOOoOOOOOOOoOOOoOOOOOOOo
+  - o   oOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOO
+      OOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOO
+ ooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOO
+ OoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOo
+ OOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoO
+ oOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOO
+ OOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOO
+ ooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOoo
+ OoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOo

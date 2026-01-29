@@ -1,0 +1,58 @@
+Hi
+
+I am finishing a new area in Sparkle.
+
+There are two items that I want to approve in sense of balancing:
+
+Lets start with more simple item.
+I have very deadly spider in my area.
+Size: 250+random(50) in every stat.
+Specials: depends on random, it may have poison, stun or damage special.
+It also blocks exit.
+Sounds like a dead trap. But there is a easy way out: player can cut web and spider will fall into water.
+
+After killing this spider. Player may tear two mandibles from corpse.
+I want to make it poisonous dagger:
+Hit/pen: 35+random(5)
+3 poisons for 20 strength time 60 interval 10. (I'd love your advice if it is not too weak).
+
+
+Second item is magic resistance amulet
+I have some shamans in the area. Shamans have a aura that block hits that are coming from player of specific alignment:
+Black aura -> no damage from evil players.
+Grey aura -> no damage from neutral players. (-400..400)
+White aura -> no damage from good players.
+
+Main shaman has aura that blocks hits from all players of the same alignment as tanking player.
+That will require team of two players that have different alignments.
+
+Main shaman will have an amulet with following perks:
+The amulet provides resistance according to gem inserted.
+The gem dissolves after some time and amulet starts to shine
+After amulet stops to shine, player will be able to insert another gem
+If no gem inserted for some time, amulet itself will dissolve
+
+Times:
+From gem inserted to warning about dissolve: 2:50 hours
+From warning to gem dissolve: 0:10
+From gem dissolve to light is out: 1:00
+from light is out to amulet dissolve: 2:00
+
+Gems and resistances:
+I think it is easier to explain it by code:
+		if(gems[gem_index] == "ruby" && (prop == MAGIC_I_RES_FIRE || prop ==  MAGIC_I_RES_LIFE))
+			return ({ 30, 1 });
+		if(gems[gem_index] == "sapphire" && (prop == MAGIC_I_RES_COLD || prop ==  MAGIC_I_RES_WATER))
+			return ({ 30, 1 });
+		if(gems[gem_index] == "emerald" && (prop == MAGIC_I_RES_POISON || prop ==  MAGIC_I_RES_ACID))
+			return ({ 30, 1 });
+		if(gems[gem_index] == "diamond" && (prop == MAGIC_I_RES_DEATH || prop ==  MAGIC_I_RES_AIR))
+			return ({ 30, 1 });
+		if(gems[gem_index] == "topaz" && (prop == MAGIC_I_RES_ELECTRICITY || prop ==  MAGIC_I_RES_EARTH))
+			return ({ 30, 1 });
+
+Probably should add illusion and identify but I am not sure that these are used (maybe alexandrite)
+
+I don't want to have this item cloned as unique because it fades away in six hours if left in racks.
+
+I'd like to have your opinion on these times, power and gem/resistance mapping

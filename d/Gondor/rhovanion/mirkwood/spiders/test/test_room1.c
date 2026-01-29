@@ -1,0 +1,1 @@
+inherit "/d/Gondor/rhovanion/mirkwood/spiders/test/test_room";

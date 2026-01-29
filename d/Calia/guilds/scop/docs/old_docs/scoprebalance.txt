@@ -1,0 +1,251 @@
+Rebalancing the SCoP (long).
+
+This letter is a proposal for rebalancing the Spirit Circle of Psuchae, a
+cleric guild in Calia. It was quickly designed and put into the game by Jaacar
+last fall, and is now facing numerous issues as I will outline in the
+following. I'm going to to start off with some general thoughts on guild
+balance, then move on to each of the individual spells - explaining what they
+now do, then detailing the changes I want to make, if any. Their skills are
+fine as they are, no changes necessary there.
+
+Guilds need to be designed according to an overarching design. The creator must
+ask: what will a guild member do in combat? What do they excel at? What is the
+experience of playing as a guild member like? One gets the feeling, looking 
+through the SCoP spells, that no such design was performed. Had the gameplay
+experience of the current guild been analysed, the current problems could have
+been avoided. I consider this not only a failure of Jaacar's, but also of
+balance - someone should have caught on to the fact that the guild is barely
+playable. There's no point in pointing fingers and assigning blame, but these 
+problems need to be addressed quickly, if the guild is to survive. Right now
+the members feel like they're in a roleplaying club, and are surviving pretty
+much on the strength of their weapon creation spell and decent combat skills.
+
+I'm sure the guild could benefit from a complete redesign of their spell
+selection. I have no intention of doing that though - what I want to do is 
+work with the spells they currently have, doing a few changes and some power-
+ups, in order to make the guild playable. A complete overhaul would take too
+much time (like I said, the guild needs change fast) and I do have other 
+projects I'd like to work on.
+
+A note on components: nearly all the spells in the guild uses gems as
+components. The gems are either used by themselves, or combined with a herb
+in order to produce a component. Given the difficulty of finding gems, Jaacar
+thought to balance this by having a gem shop in the guild that would produce
+a small amount of gems every time it reset. This does not translate into good
+playability for the members. For one the shop does not save anything over 
+armageddon. Even if it did, it does not produce anything close to enough gems
+in order to supply members. Even if it did produce plenty of gems, you're
+still facing a huge money investment just to use the spells, and you're offered
+no predictable way in which to collect specific gems. My solution to this is to
+introduce a percentage chance of the gems/components surviving a casting. This
+could vary from high to low depending on the power of the spell and how often 
+it is intended to be used.
+
+I used the following key when rebalancing (1 weakest, 5 strongest):
+Offensive power - 3 (4-5 vs undead)
+Defensive power - 2
+Healing power   - 4
+Various utility - 3
+
+This is what I feel the guild powers should be like. Current offensive power 
+is 1 vs everything, defensive power 1 and healing/utility 3. Approximate 
+values of course, this is just to give an idea of where I'm headed with this.
+
+I'm not stating every spell variable here. Casting time, casting difficulty and
+mana cost can be used as balancing tools later on. I'm not proposing any major 
+changes in those variables for the moment. Also note that this is not a final
+proposal. Other good ideas may come up while I'm implementing it - if they do
+I'll bring them up with you on an individual basis. I'm planning to put these
+changes into the game gradually, not all at once. Like I said, speed is of the
+essence, and members will enjoy seeing gradual improvement.
+
+
+				The spells:
+
+Healing (two spells):
+
+-Therapeaou (cure wounds)
+This is a standard hit-point healing spell. It's fairly powerful and a mainstay
+of the guild. It can heal up to 600 hp at the most. The only thing I want to 
+change about it is the component. It currently uses a pearl as a component. 
+This is a signature spell that is meant to be used often, so I propose a 90% 
+chance of the pearl actually surviving a casting of the spell.
+
+-Giatreou (neutralize poison)
+A cleansing spell that can affect any type of poison. Members have complained
+that this spell is rarely effective, but to me it looks rather powerful. I
+don't think any change should be made here for the time being, except perhaps
+to make it less random. It currently uses the rare gem yellow topaz. This is
+fine, but there should be a 70% chance of the gem surviving.
+
+
+Utility (twelve spells):
+
+-Exevrisko (detect alignment)
+No proposed change.
+
+-Magikos (identify magic)
+No proposed change.
+
+-Fos (light)
+This spell produces two light levels, and uses a quartz gem. Change it so the
+gem survives 80% of the time.
+
+-Synithis (summon familiar)
+This is just a roleplaying tool, the familiar does not do anything substantial.
+No proposed change. 
+
+-Psychi (tell line)
+The spell uses no component for inter-guild tells, but a quartz gem otherwise.
+I think it's reasonable that the gem should survuve 90% of the gem.
+
+-Gsechon (name forget)
+The target forgets the caster's name. This spell does consume a gem, but I
+think that's fine for a spell that will be used only rarely. No proposed
+change.
+
+-Siopi (silence)
+The target gets LIVE_M_MOUTH_BLOCKED. Useful against spellcasters and to ward
+off annoying chatter from fools. It uses a Lapis gem. Change it so the gem
+survives 70% of the time.
+
+-Skiamati (shadow eyes)
+This spells allows two levels of darkvision, and a 20% chance of a single 
+level of seeing invisible. Component is an alexandrite.
+Rather underpowered spell. I propose a three-tiered spell here. Perform some
+sort of check at casting, depending on stats/skills/guild level and a random 
+element:
+Result 1: 2 levels of darkvision.
+Result 2: As above, plus a level of seeing invisible.
+Result 3: As above, and only applicable if caster is in shadow form (see
+          below), creates a level of darkness that follows the caster.
+It should be balanced so that, for an experienced member, result 2 is the 
+most likely with result 3 some of the time. 80% chance of alexandrite 
+surviving (it's a really expensive gem).
+
+ -Anakalo (word of recall)
+This limited teleport spells allows one to mark a location, then later teleport
+to that spot. Alternatively the caster can specify to simply be teleported 
+back to the temple. You combine a chalcedony (gem) with a breadroot to create 
+the component for the spell. Here I'd like 80% chance of the component 
+surviving. Otherwise no change.
+
+-Anagnoriz (true identity)
+This spell allows the caster to learn the name of a target. The caster can 
+remember the name. The spell uses a black diamond (!) as a component. As an
+additional penalty for this effect, the caster is paralyzed for 60 to 90 
+seconds and loses 100 hp. 
+The cost of this spell is outrageous. In my book this effect is little more 
+than a cantrip. I want to do away with all the paralyzation/lose hp stuff, move
+the component to a lesser gem and only have a 50% chance of the gem to be 
+consumed.
+
+-Skiamorfi (shadow form)
+In game terms, this spell currently does very little. It's a disguise spell, 
+allowing the caster to remain anonymous even to people who know him/her.
+While it's active, it sucks mana from the caster at regular intervals. The
+component is made by combining an amber gem and a cranberry.
+I want to change this a lot and make it an integral part of their abilities. 
+It's one of their most unique spells, so let's run with it. In addition to 
+boosting the power of the Skiamati spell, as above, I want it to be a 
+requirement for casting the Energia spell below. It should also grant
+abilities in its own right. I want it to have tiered results, as per the 
+Skiamati spell:
+Result 1: As a result of being less substantial, the caster's defensive skills
+	  are boosted and his/her offensive skills are reduced. Hide and sneak 
+	  skills are also improved.
+Result 2: A minor AC shield is granted in addition to the above.
+Result 3: Some magic resistance is granted in addition to the above.
+Result 4: Caster gains a level of invisibility for the spell's duration. Caster
+	  becomes visible if he/she enters a room with more then two light 
+	  levels or ends up in a fight.
+Result 3 should be regularly achievable for experienced members. The component
+should stay the same, and be consumed upon casting.
+
+-Metaballo (weapon conversion)
+This spell converts any weapon into a glowing staff usable by the guild
+members (they can only use bludgeoning weapons). The staff gets 95% of the hit
+and pen of the converted weapon. Max is 60/60. Component is made from the gem
+red spinel and sargassum. 
+This is the only spell that I feel is currently overpowered. Right now the 
+members depend on the spell to survive, but with offensive spells that actually
+do something such a powerful weapon spell is no longer required. What the 
+members do now is use it on the boulders wielded by giants in Sparkle, getting
+them a straight up 47/60 weapon (the boulders are 50/75). This makes using 
+other weapons pointless. I want to change this so that the power of the staff
+created depends not only on the hit/pen of the target weapon, but also on that
+weapon's value, and the caster's skill and stats. I want to balance it so that 
+a servicable - good weapon is created, but no so good that hunting for a better
+club is pointless. Component can stay the same.
+
+
+Offensive spells (four spells):
+
+-Vekpos (turn undead)
+A weak spell, this makes the target undead creature run away, if successful. 
+The undead creature can be made to run away up to four times, before this spell
+is no longer effective. Of course, the undead creature is free to come back 
+again immediately. Component is a skull.
+I want this spell to be a powerful weapon against the undead. In addition to
+running away, undead affected by the spell should autimatically flee whenever
+they enter the vicinity of the caster for a duration. Also, I want a chance to
+outright destroy weak or weakened undead. Let's say you perform a check like 
+this: 
+if (2x (caster's SS_WIS + SS_OCC) + 5x spellcasting_success (0-100 value))
+    is greater than (5x target's LIVE_I_UNDEAD prop + target's remaining hp).
+then undead is annihilated.
+This will make the spell useful in finishing off undead foes. Component needs
+to be upgraded in light if this change. Use a moderate gem with a low % chance
+of the gem being consumed. Turning is a core ability after all for this guild, 
+whose chief foes are the undead.
+
+-Apergo (soul strike)
+Currently an anemic harm spell. It has a pen of 100-389, with a 30% bonus 
+against the undead. For a 100 guildstat, skill maxed player, the average pen
+this spell will have is 190. The pen is figured with a function that has high 
+variance, resulting in the minimum pen a large percentage of the time. Using
+a highly random function here is pointless, as hit_me already randomizes. 
+Component is a ruby, a high-value gem.
+My idea for this spell is to have it be a spell that does not affect undead at
+all, as they do not have souls. Furthermore it should not do anything against
+good-aligned targets. Evil targets are dealt more damage the more evil they 
+are. I propose the following for damage:
+200-500 pen based on caster's skills and stats + 0-400 extra pen based on how
+evilaligned the target is. Someone at -1000 or lower gets the full 400, less
+evil targets gets a proportion of 400 depending on how close they are to -1000.
+The ruby can stay as a component, but have it survive 90% of the time (this 
+spell is meant to be cast repeatedly).
+
+-Energia (soul drain)
+This spell is a joke as it stands. Touted as their most powerful offensive
+weapon, it's currently weaker than even Apergo. It drains hit points from a 
+target and transfers half back to the caster. It drains 0-300 hp according to 
+3x spellcasting_success, with further limits on how big a percentage of a
+target's health you're allowed to drain, as if that were necessary. Component 
+is made from a sapphire gem and the sea bubble herb.
+This should be their most powerful offensive spell, and as such I think it's
+appropriate that it can only be cast while in the shadow form (see Skiamorfi
+spell above). Instead of a damage formula based on hit points, I'd like to use
+one based on percentages of current health. I propose it drains 15-40 percent
+of the target's health, transferring half to the caster. That way, repeated
+castings are less effective, and other spells or weapons need to be used in
+order to finish off a target. Component can stand as it is with a 50% chance
+of being consumed.
+
+-Sfyri (spiritual hammer)
+A bolt spell that can have a pen from 100-324. The pen here is figured 
+similarly as it is in the Apergo spell, with high variance. Expected damage 
+with 100 guildstat and maxed skills is 135. Since this is a bolt spell, there's
+the added chance of the target avoiding a hit. The component is fashioned from
+a garnet gem, a heart and a weapon.
+This spell should have a lot more bite. I want this to be a good all-round 
+damage source, with some bonus damage against the undead. My idea is to not
+have this as a standard bolt spell, but as a spell that creates a spiritual
+hammer. This (no-drop) hammer could then be used as a throwing weapon,
+requiring one hand free for the caster. The idea is that a spirit is bound
+within the hammer, and the spirit grows in stature as it is used in combat.
+It will act much as a limited duration combat special, with a chance of 
+hammer breakage on each throw. I'd say the pen of hammer throws could vary
+between 150 and 500 depending on a lot of things, with a reset time of 10 to
+20 seconds. Component can stay the same, except with a  caveat that the 
+weapon used is a bludgeoning weapon.

@@ -1,0 +1,55 @@
+main
+::MAPDATA::
+waterfall 7 9
+back_waterfall 11 9
+cave 15 9
+path3 20 9
+cavern15 17 11
+cavern14 13 11
+cavern13 9 11
+cavern12 5 11
+cavern11 1 11
+path2 20 11
+cavern9 7 13
+cavern2 11 13
+cavern3 15 13
+path1 20 13
+cavern16 3 15
+cavern8 7 15
+cavern1 11 15
+cavern4 15 15
+dryland 20 15
+to_drag_1 24 15
+to_drag_2 28 15
+cavern7 7 17
+cavern6 11 17
+cavern5 15 17
+to_drag_3 30 17
+iceblock 34 17
+cavern19 19 19
+cavern17 11 21
+cavern18 19 21
+cavern20 23 21
+::MAPDATA::
+
+----....___~~~~~~~~....-------
+           | |    |
+           |   |  |
+           | |    |
+           |    | |
+           |` . `.|
+___________|oo0o0o|___________
+
+                  -[ ]
+
+ o - o - o - o   o [ ]
+      ~~~~~~~~  /   |
+    ~~ o   o - o    o                  ___
+    ~~~  \ | / ~~                     /  /|
+   o - o - o - o -- o - o - o        /__/ |
+     ~~~ / | \  ~~           \      |   | |
+    ~~ o   o   o              o - o |___|/
+     ~~~   | ~~~ \
+       ~~~ |       o
+           |       | \
+           o ----- o - o

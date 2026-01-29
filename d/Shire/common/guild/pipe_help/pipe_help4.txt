@@ -1,0 +1,12 @@
+
+These commands are added by the pipe of the Shires:
+
+ adore Nob Nar            Start to sing for Nob Nar.
+ bonk    <player>         Bonk a player on the head with your pipe.
+ message <player> <text> Send a message to one guild member. [msg]
+ shon                     Turn theShire-line  on.
+ shoff                    Turn theShire-line  off.
+ shirelist                Print a list of all active guild members. [sl]
+ polish                   Polish your pipe.
+ break pipe               Destruct the pipe.
+

@@ -1,0 +1,113 @@
+Message: 7
+From   : Zuma
+Subject: Ranger Guild Recode Ideas
+CC     : Zuma
+Date   : Thu Dec 21 06:39:52 2017
+
+Finwe,
+
+I was advised that I should send you some of the ideas that I had for a
+'recode' of the current Ranger guilds. Many of these ideas might have been
+shared with others several years ago, as I presented some of them to one or two
+wizards several years ago. Forgive the formatting, I typed this in google docs
+so it isn't Genesis mail compliant.
+
+-Zuma's player
+
+----------
+
+Close RoN. Restructure RoI to be a wing or forward base of Gondor's fighting
+force. (potential layman guild that adds stealth and such abilities)
+
+Shift focus of guild to be based around Minas Tirith and Gondor as opposed to
+Arnor and Ithilien.
+
+Move guild to forest outside Gondor (former RoG headquarters). - potential to
+move within city walls or within the outer walls, but a guild house already
+exists and could be useful and cut down on re-coding rooms.
+
+Restrict enrollment to those who are members of a Middle Earth Racial Guild: If
+players are required to be part of one of the Middle Earth racial guilds, then
+Herbalism and an auxiliary weapon skill are already provided from the racial
+choice. Potential problems with this is include the lack of Herbalism training
+present in the Rockfriends guild as well as the potential of Humans being
+removed from a Dunedain House. In the case of Dwarves a work around exists in
+the form of the Gardeners, but for Humans potential changes or a variation to
+this code/rule might be required.
+
+Remove spell casting skills, and spell casting abilities. - The men of Gondor
+did not cast spells, this was never really appropriate in the lore of the era.
+Improve alchemy skills used by the guild. These can take the place of healing,
+and other current ranger spells. In order to limit the use of these potions by
+other guilds, some of the most useful potions benefits should only be
+applicable to individuals with the ranger soul.
+Institute buff potions, such as haste, regen (heal over time), damage
+resistance, etc. These could function much like maintained spell effects and
+have diminishing returns for each additional potion use. - Would require new
+tech. Potential of preventing offensive and defensive potions from functioning
+at the same time to preserve balance.
+
+Remove Brawl - Ability is dated and highly exploitable. It also makes very
+little sense in the current game. The ability, while iconic, does not fit the
+noble ideals and legends of the elite of Gondor and Arnor. It was also fairly
+exploitable, in that it could be used to prevent NPCs from assisting their
+allies, remove weapons from NPCs without killing them, Prevent NPCs from
+re-wielding weapons after disarm timer is up, ect. (Replace brawl with a damage
+special that is more on par with current balance of Melee Fighter guilds).
+
+The removal of brawl and transition to a Melee fighting guild would require the
+following skill adjustments:
+Increase Defence and Parry skills to compensate for lack of spell casting and
+the defensive bonuses that Brawl afforded.
+Increase primary Weapon skill to Guru level - Requires the addition of a Guru
+Quest
+Possible addition of Two-Handed fighting
+Possible addition of second weapon skill
+Possible addition of mechanic to allow player to choose primary and secondary
+weapon focus, allowing for player to create more than one type of character.
+Removal or reduction of Hide, Sneak, and Stealth Mode - Removing or reducing
+this ability from the OCC branch of the guild frees up some guild tax to be
+spent in areas that are more useful in the current meta of Genesis at present.
+Additionally, the stealth mechanic in Genesis is in my opinion rather broken
+and useless against Player Characters who are larger than you. Most OCC guilds
+have awareness levels that negate most of the stealth that Rangers use.
+Additionally the lack of a Backstab or Sneak attack/Ambush mechanic in the
+guild relegated this to a RP flavor skill. Side note: If the rangers are to
+remain a stealth based guild, it is rather pointless to 'recode' and rebalance
+them before the Stealth and Awareness systems are rebalanced across the mud as
+a whole.
+Remove Spellcraft, Life Spells, Abjuration Spells, Conjuration Spells, etc. -
+These have no place among the armies of Gondor, they had no spell casters,
+their healers were based around medicine and knowledge. 
+Potentially remove Herbalism skill, this skill could be acquired by healing
+focused Layman guilds, Racial Guilds (Dunedain, Noldor, Hobbits) , or the
+Gardeners. 
+Reduction of Tracking, Animal Handling, and Location sense skills. Narrowing
+the focus of the guild would allow for for these abilities to be reduced or
+removed to free up skill points and tax values for other skills within the
+focus of Gondor.
+
+Create a layman branch that is only open to the OCC branch, the Rangers of
+Gondor/Ithilien. This branch could be based out of the current Ithilien
+headquarters and would be based around stealth, tracking, and have a special to
+make use of that subset of skills and abilities. Potential exists to give this
+branch a modified version of Brawl, with Blind and/or Trip/Knee. (note disarm
+is not included as it had the potential to be exploited and caused problems
+with looting. Additional options for special include Ambush, an first strike
+ability that functions like sneak attack if used from stealth, would require
+successful hide/sneak and have a long cooldown to prevent abuse from bouncing.
+Much of the current code for this layman guild can be repurposed from the
+current rangers guilds. 
+
+Using other OCC fighting guilds as a baseline the Rangers could be recoded to
+fill a damage role that is in the second tier of melee guilds (less than the
+Union and Calians) and a tanking role that is in the second tier (less than the
+Monks). With the use of their potions and the buffs they could gain from them
+they can have the flexibility to increase their offense or defence, but not
+both at the same time. They would also have the ability to choose from a
+multiple of Layman guilds, with the Heralds offering a healing option, the
+Blademasters and Militia offering offensive options, and the potential of a
+'Ranger' guild in Ithilien opening up the door for a stealth based guild to
+round out their kits.
+
+

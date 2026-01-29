@@ -1,0 +1,107 @@
+*** This file is not up to date at all. Many of the features listed here
+*** were never implemented. It is kept for historical curiousity only.
+***
+*** Gorboth
+Balance Considerations Pro and Con for the Army of Darkness
+
+Advantages:
+
+Able to wield two-handed weapons in one hand.
+As per above, able to wield two separate two-handed weapons simultaneously.
+At top level, superior guru two-handed combat skill augments above features.
+Bonus AC added to all hitlocations due to thick Ogre hide.
+Strength stat augmented by 200%
+Constitution stat augmented by 150%
+Special attack has the change to damage and break armours.
+Special attack has the chance to force enemy to drop their shield.
+Special attack has the chance to launch enemy into the next room.
+Special defence maneuver has chance to block incoming attacks.
+Able to purchase high AC armour at Forge.
+Able to purchase high DC weapons at Forge.
+
+Disadvantages:
+
+Unable to wield single-handed weapons.
+Unable to wear any armour in the game other than those produced by
+  the Ogre Forge.
+Unable to use shields.
+Intelligence stat reduced by 50%.
+Wisdom stat reduced by 50%.
+Dexteroty stat reduced by 10%.
+While using special defense, the ogre is unable to attack.
+Armour and Weapons at the forge are extremely expensive, and require
+  the ogre to bring in scavanged weapons and armours to melt down for
+  raw materials.
+Ogres are unable to sneak.
+Ogres are unable to hide.
+
+Ability checks and balances:
+
+I. Ogres are able to wield two-handed weapons in one hand.
+    A. Advantages:
+        1. Two-handed weapons can have higher hit/pen values.
+        2. This means that ogres can double-wield two-handed weapons.
+        3. In conjunction with superior guru 2-handed combat, this is
+           an awesome factor in combat.
+    B. Balancing features and rationale:
+        1. Ogres are unable to wield anything *but* two-handed weapons.
+        2. Most weapons in the game are one-handed.
+        3. There are relatively few good options in terms of
+               two-handed weapons out there.
+II. Ogres receive a bonus AC to all hitlocations due to tough hide.
+    A. Advantages:
+        1. This means that ogres are naturally armoured at all times.
+        2. In conjunction with ogre-sized armour, this means that
+           ogres get a bonus on top of normal armour AC.
+    B. Balancing features and rationale:
+        1. Ogres can only wear armour forged specifically by their own
+           guild smith. All other armour in the game does not fit
+           them.
+        2. This means that all armours that grant magical properties
+           can not be worn by ogres.
+III. Ogres receive an increase to their strength stat of 200%.
+    A. Advantages:
+        1. This means that ogres can carry a lot!
+        2. This may artificially increase the stat average of a player.
+    B. Balancing features and rationale:
+        1. In order to use the forge, ogres must bring back massive
+           amounts of scavenged armours and weapons to melt down. They
+           will need to be able to carry a lot to accomplish this.
+        2. Strength doesn't really affect combat in any way, so this
+           isn't any really huge advantage.
+        3. Artificially increasing stat average is actually not good
+           for the player due to the fact that exp is granted based on
+           the ratio of your stat average as compared to that of your
+           slain opponent.
+        4. Ogres are slow, and receive a 10% dex penalty.
+IV. Ogres receive an increase to their constitution stat of 150%.
+    A. Advantages:
+        1. This means that ogres get a big boost to their hitpoints!
+        2. Ogres will be able to travel farther without being tired
+           as quickly.
+    B. Balancing features and rationale:
+        1. Ogres cannot use shields! The game is balanced in such a way
+           that shields have become one of the single greatest factors
+           in effectively protecting onesself in combat. Without
+           shields the ogres will need extra con to stand toe-to-toe
+           with their fellow players.
+        2. Ogre defensive skills are not trained particularly high.
+           Both parry and defense max out at 75.
+V. Ogres are able to purchase elite armours and weapons at their forge.
+    A. Advantages:
+        1. This means that players will have the ability to double-wield
+           60/60 clubs in combat.
+        2. This means that players will have the ability to wear
+           armour that is potentially AC 60 in most hitlocations.
+    B. Balancing features and rationale:
+        1. These items are extremely expensive, costing 200 plats at
+           the highest level.
+        2. More difficult than normal weapons to create, these weapons
+           will require that players bring to the forge between 25 and
+           50 magical weapons or armour to be melted down. This will not
+           be easy at all! My balancing estimates have determined that
+           this should take players weeks to accomplish for a single
+           purchase, unless they are the most extreme hardcore players,
+           in which case it would require up to 10 hours of continues
+           single-minded effort for a single purchase.
+        

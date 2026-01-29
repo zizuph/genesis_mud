@@ -1,0 +1,20 @@
+
+                         entrance
+                             |
+                             |
+                        trade_road_1 -- magestone_place
+                            /
+                          /
+           cairn -- trade_road_2
+                          \
+                           \
+                       trade_road_3
+                            |
+                            |
+                       trade_road_4
+                           /
+                          /
+    trade_road_6 -- trade_road_5
+        /                |
+       /                 |
+  <village>            begin

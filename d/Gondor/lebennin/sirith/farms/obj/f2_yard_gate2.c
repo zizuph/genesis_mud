@@ -1,0 +1,41 @@
+/*
+ * /d/Gondor/lebennin/sirith/farms/obj/f2_yard_gate2.c
+ *
+ * Copyright (C) 1997 by Nancy L. Mintz (Gnadnar)
+ * gate from farm2/eastyard to track9
+ *
+ *
+ *    2006.08.29, Toby: Fixed a missing \n.
+ */
+
+#pragma strict_types
+
+inherit "/std/door";
+
+#include "../defs.h"
+
+public void	create_door();
+
+
+/*
+ * Function name:	create_door
+ * Description	:	set up the gate
+ */
+public void
+create_door() 
+{
+    ::create_door();
+    set_door_name( ({ "farmyard gate", "gate", "farmstead gate",
+	"hedge gate" }) );
+    set_door_id("farm2_gate");
+    set_pass_command( ({"e","east"}) );
+    set_door_desc("The farmyard gate is made of heavy timbers "
+		+ "and leads east.\n");
+    set_open_desc(0);
+    set_closed_desc(0);
+
+    set_other_room(SIRITH_FARMS_DIR + "fields/track9");
+
+    set_open(0);         /* 1 if open, 0 if closed */
+    set_locked(0);       /* 1 if locked, 0 if unlocked */
+} /* create_door */

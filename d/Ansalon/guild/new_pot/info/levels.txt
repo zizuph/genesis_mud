@@ -1,0 +1,195 @@
+Priest of Takhisis levels
+
+There are three levels within the priesthood (cleric, priest, high priest)
+with each level split by 5 sub levels:
+
+INITIATE               PRIEST                HIGH PRIEST
+Initiate (0)                Priest (50)                High Priest (100)
+Acolyte (10)               Canon (60)                Dark Bishop (110)
+Deacon  (20)               Demon Priest (70)          Dragonlord (120)
+Adept   (30)               Spiritor (80)              Nightmaster (130)
+Dragon Cleric (40)          Nightreaver (90)          Nightlord (140)
+
+To progress currently you need to be promoted up the ranks.
+
+The number in brackets is the "guild skill" (gs) level that needs to be 
+set to promote to that rank.
+
+
+MANUALLY CHANGING POT LEVELS:
+Cleric
+    new_lvl = lev / 10;
+    GUILD_ADMIN->set_promoted(arg, (new_lvl + 1) * 10);
+            eg  Call admin.c set_guild_level "armanjr"%%10
+
+Priest
+    GUILD_ADMIN->set_promoted(arg, gs + 10);
+            e.g Call admin set_promoted "armanjr"%%60 promotes you to canon from priest
+            Note you can only promote one time (or need to pray multiple times at
+            the abbey)
+
+Promoting from cleric to priest (From promotion scroll)
+            tar->set_skill(PS_GUILD_LEVEL, 50);
+            eg  Call armanjr set_skill 143004%%50
+            GUILD_ADMIN->clear_promotions(tar->query_real_name());
+            eg  Call admin.c clear_promotions "armanjr"
+            GUILD_ADMIN->set_guild_level(tar->query_real_name(), 50);
+            eg  Call admin.c set_guild_level "armanjr"%%50
+
+High priest
+    GUILD_ADMIN->set_promoted(arg, 110);
+    e.g Call admin set_promoted "armanjr"%%130 (promotes from HP to DB)
+
+To promote from priest to high priest:
+
+            tar->set_skill(PS_GUILD_LEVEL, 100);
+            eg  Call armanjr set_skill 143004%%100
+            GUILD_ADMIN->set_guild_level(tar->query_real_name(), 100);
+            eg  Call admin.c set_guild_level "armanjr"%%100
+            GUILD_ADMIN->clear_promotions(tar->query_real_name());
+            eg  Call admin.c clear_promotions "armanjr"
+
+
+
+
+
+---------- working notes --------------------------------------------------
+
+The guild level skill (PS_GUILD_LEVEL) is 143004
+The guild stat skill (PS_SKILL_POINTS) is 143008
+
+PS_SPELLS	(143005)   ?? Maps out the spells for the priest?
+
+Targeting ~admin/admin.c
+set_guild_level [name] sets the guild level of a player (PS_GUILD_LEVEL)
+query_guild_level [name] queries the guild level of player
+
+
+YOU USED TO!!!
+To progress from Initiate to Priest to High Priest you are required to be
+promoted to those ranks.
+
+The sub level formula is
+(OCCUP STAT x2 + exp_to_stat(PS_SKILL_POINTS) x3) / 5 + game_days_in_level
+
+#define FORMULA(x)  (((x)->query_stat(SS_OCCUP) * 2 + \
+                        (x)->exp_to_stat((x)->query_skill(PS_SKILL_POINTS)) * 3) / 5 + \
+                        GUILD_ADMIN->query_days_in_level((x)->query_real_name()))
+
+
+
+        case 0:
+        case 1:
+        case 2:
+        case 3:
+            return R_CLERIC;
+        case 4:
+            return R_PRIEST;
+        case 5:
+            return 5; // 30
+        case 6:
+            return 10; // 45
+        case 7:
+            return 15; // 68
+        case 8:
+            return 20; // 100
+        case 9:
+            return R_HIGHPRIEST;
+        case 10:
+            return 15; // 60
+        case 11:
+            return 20; // 90
+        case 12:
+            return 25; // 136
+        case 13:
+            return 30; // 200
+        case 14:
+            return R_LEADER;
+
+
+
+
+int
+set_promoted(string name, int gs)
+{
+    if (!gGuildlist[name])
+        return -1;
+    
+    gGuildlist[name][M_PROMO] = gs;
+    save_vars();
+    
+    return 1;
+}
+
+varargs public int
+query_priest_level(int gs = -1)
+{
+    if (gs < 0)
+        gs = shadow_who->query_skill(PS_GUILD_LEVEL);
+    if(gs > 149)
+        gs = 149; 
+        
+    switch(gs)
+    {
+        case 100..149:
+            return 2;
+        case 50..99:
+            return 1;
+        default:
+            return 0;
+    }
+}
+
+
+varargs public int
+query_priest_sublevel(int gs = -1)
+{
+    if (gs < 0)
+        gs = shadow_who->query_skill(PS_GUILD_LEVEL);
+    if (gs > 149)
+        gs = 149; 
+    return (gs % 50) / 10;
+}
+
+
+/* Function name: set_guild_level
+ * Description:   Sets the guild level of a player (PS_GUILD_LEVEL) to
+ *                allow for queries when the player is not logged on.
+ *                We cannot use /secure/finger_player for this as it does
+ *                not support skills
+ * Arguments:     string name - the priest
+ *                int lev     - the lev to set to
+ * Returns:       int, -1 - no such priest
+ *                      1 - successfully set
+ */
+int
+set_guild_level(string name, int lev)
+{
+    if (!gGuildlist[name])
+        return -1;
+    
+    gGuildlist[name][M_GLEV] = lev;
+    save_vars();
+    
+    return 1;
+}
+
+/* Function name: query_guild_level
+ * Description:   Returns the last set guild level for a player. See
+ *                set_guild_level for a more explanatory description.
+ * Arguments:     string name - the priest
+ * Returns:       int, -1 - no such priest
+ *                    >=0 - the previously set guild level
+ */
+int
+query_guild_level(string name)
+{
+    if (!gGuildlist[name])
+        return -1;
+
+    return gGuildlist[name][M_GLEV];
+}
+
+Call admin.c query_guild_level "genea"
+
+

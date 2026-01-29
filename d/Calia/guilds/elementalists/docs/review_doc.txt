@@ -1,0 +1,71 @@
+
+This document is meant for whomever is reviewing this guild in terms of 
+balance. 
+
+A few things to note about the guild.
+
+1. This guild takes both their occupational and layman guild slots (and
+   optionally their racial slot once they hit Full Master Cleric). For
+   that reason, their defence and parry skills are high as they will 
+   have no other way of defending themselves once they run out of mana.
+   A Cleric with no mana is like a player in a combat guild with no
+   kind of combat special - yes they'll have a weapon (they can only 
+   wield clubs) but they have no type of combat special or anything and
+   will have to wait until they gain mana back (which doesn't come 
+   back in combat very quickly).
+   
+2. The members of the guild have three 'currencies' that determine 
+   numerous things in the guild. "Mana" is of course their power source
+   for all of their prayers (spells). "Chymos" (personal_conduit as it's
+   known in the code) is used by Syndyasmos (combo spells). Chymos is
+   gained by using prayers (casting spells) and doing chores around
+   the Temple. Chymos is spent by using Syndyasmos or sacrificing it
+   to the Temple Conduit (controls things like how much of a discount
+   the Temple herb shop has for members, etc...). Lastly, there is 
+   "practice level". This currency is used in determining the players
+   title and rank. It is gained by using prayers (casting spells). It
+   is a mechanism to help curb the 'I just joined a new guild so I'm 
+   going to go kill myself so I can race up the titles/gain new spells
+   quickly' issues that some people like to do. All of these currencies
+   are stored in the player's player file (/d/Calia/guilds/elementalists/
+   data/<playername>.o).
+
+3. Speaking of data files, the guild control mechanism is in /d/Calia/
+   guilds/elementalists/lib/guild_manager.c. It handles all of the player
+   file data and guild data (ie. council members, etc...).
+   
+4. Most of the numbers for CAID came from reviewing other guilds that
+   are currently open (such as Morgul Mages, Society of High Magic, 
+   Priest of Takhesis, etc...). I have stayed under the limits that were
+   allowable however I realize that some of these numbers will have to be
+   adjusted (if necessary). During player-testing I have been watching the
+   numbers and adjusting things so as not being underpowered or overpowered
+   compared to other guilds. In the /d/Calia/guilds/elementalists/spells dir,
+   you will see a file called <spellname>_damage for each spell that does
+   direct damage to a target. Those files show the pen/damage and resist for
+   each successful casting of the prayers.
+   
+5. I tried to stay thematic throughout the guild in terms of what powers
+   players are granted as well as staying true to their branches 'duty' in
+   the guild. The exception is that all branches do have at least two damage
+   spells (a big bang and an at-will). This is done simply because without
+   any way to do damage, the branch really wouldn't be playable without any
+   other guild members or teammates around. I did however lower the damage
+   of all branches compared to Fire (which is supposed to be the damage
+   dealing branch).
+   
+6. I'm sure there are other questions that will come up. Please feel free
+   to let me know any questions you have in terms of 'why the heck did you
+   do that?' or 'why is this so high/low?'. I'll add them to this doc as
+   you ask them (and I answer them) and then incorporate that into the 
+   wizinfo document for anyone else looking at the guild at a later date.
+   
+7. Finally, thanks for taking the time to review the guild. It's been a
+   long time in the making and I'm really excited to see it open. I know
+   there will be things to adjust and I'm walking into this with as open
+   a mind as I can. I'm sure we will have arguments over things but know
+   that it's only because I'm passionate about the creation and it's 
+   nothing personal.
+   
+Thanks!
+Jaacar

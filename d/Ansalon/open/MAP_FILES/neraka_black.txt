@@ -1,0 +1,199 @@
+main
+::MAPDATA::
+b1 44 16 neraka_outer_south
+abovegate 44 16 neraka_outer_black
+b2 44 16 neraka_outer_black
+b3 44 16 neraka_outer_black
+b4 44 16 neraka_outer_black
+b5 44 16 neraka_outer_black
+b8 44 16 neraka_outer_black
+b9 44 16 neraka_outer_black
+b10 44 16 neraka_outer_black
+b11 44 16 neraka_outer_black
+b12 44 16 neraka_outer_black
+b13 44 16 neraka_outer_black
+b14 44 16 neraka_outer_black
+b15 44 16 neraka_outer_black
+b16 44 16 neraka_outer_black
+b17 44 16 neraka_outer_black
+b18 44 16 neraka_outer_black
+b19 44 16 neraka_outer_black
+b20 44 16 neraka_outer_black
+b21 44 16 neraka_outer_black
+b22 44 16 neraka_outer_black
+b23 44 16 neraka_outer_black
+b24 44 16 neraka_outer_black
+b25 44 16 neraka_outer_black
+gatehouse 44 16 neraka_outer_black
+hut 44 16 neraka_outer_black
+inn 44 16 neraka_outer_black
+shop 44 16 neraka_outer_black
+stable 44 16 neraka_outer_black
+t1 44 16 neraka_outer_black
+t2 44 16 neraka_outer_black
+t3 44 16 neraka_outer_black
+t4 44 16 neraka_outer_black
+t5 44 16 neraka_outer_black
+t6 44 16 neraka_outer_black
+t7 44 16 neraka_outer_black
+tow1 44 16 neraka_outer_black
+yard 44 16 neraka_outer_black
+::MAPDATA::
+                        
+                                                                            
+      N                 
+      ^                                         
+      |                                       _                    _____      
+   <--o-->                                  ,/ \                  /    /      
+      |                              __     |   \,    ,     ,    `\_^_\       
+      =                            _/  \  _/`    |  _/|    /|__     _ '       
+                        __      __/    / |       / /  |   /_  /    / \_       
+                        \ \    /^    [] _|      / /  /`     |/     \   \      
+             ,_          \ |  |^  Kalaman`     /_/  /       '       []Mithas  
+             | \         /^ [] ^           ^        |              /___/      
+             |^@\    Palanthas^      ^    ^        /'              ____       
+             | ^@\       |  ^        ^    ^   ^^  /                \  /       
+     __     /`  ^@|      | ^  []Vingaard     ^^   |                /__\       
+    /^^\    \  ^@ |      | ^    Keep     ^^ Neraka|/\              `  '       
+   /^^^^\    \___/       | ^           ^^^^[ ]    '  \                      
+   \^^^^^|                \ ^      @  ^  ^           |           ,            
+  |\|@__/    _____,        |    ^  @   ,[ ]^^^       |        __/|            
+  |@_/      /     |        |   ^  @@ __|Sanction_  _ `\  _/\_/   |            
+  |/       /@ ^   |        |____/\__/   _/` ^^ | \/ |  []`       |            
+           |@^|\_/                     /   ^^^ |__  \ Flotsam,/| |            
+           | @|___           ____      |  ^^^   ,/   \       | | |            
+           '\_@  /          /    \ { } |  ^ ^   |Port []    /   \|            
+              \_/         ,/  ^  |     '\ ^  ^  Balifor\___/     '            
+                     Solace []   |   _   |^  ^    \                 
+                         / @@   /   | \  \         \         { }   
+                     New Ports[]    |  |_|          \__     
+                        | @@@  \  ,/'           Kurinost[]            
+                       / @@@@@  \_|                 @@@@@@@\                  
+     
+
+::NEWMAP::
+neraka_outer_black
+::MAPDATA::
+abovegate 42 20
+b2 46 24
+b3 46 22
+b4 46 20
+b5 44 18
+b8 46 16
+b9 46 14
+b10 44 12
+b11 42 10
+b12 40 8
+b13 48 16
+b14 48 20
+b15 50 18
+b16 48 14
+b17 50 12
+b18 52 18
+b19 54 18
+b20 54 16
+b21 54 20
+b22 56 16
+b23 56 18
+b24 56 20
+b25 56 22
+gatehouse 42 20
+hut 58 18
+inn 52 20
+shop 50 14
+stable 52 22
+t1 52 10
+t2 56 24
+t3 58 14
+t4 54 14
+t5 56 14
+t6 54 22
+t7 58 22
+tow1 42 6
+yard 50 20 
+::MAPDATA::
+
+                                  |
+                                w-W
+                                  |
+                              o-o-o
+    WHITE DRAGONARMY         /    |
+       ENCAMPMENT           o     o-o-o   T 
+                           /|     |    \ /   BLACK DRAGONARMY
+          ^               o T     o     o       ENCAMPMENT
+           \             /        |\     \
+        ^   o       w o-o   /::::[x]T::\  o         ^
+         \  |       |/     :::        :::  \       /
+      ^   o o ^   s o     /::          ::\  o     o
+       \   \|/     \|    /::            :::  \   /
+        o-o-o-o-o-o-o-o  ::              ::   o o S   ^ ^ ^
+         /  |/     /|\   ::              ::    \|/    |/ /
+        o ^-o     o t o-T::              ::   o-o     o-o
+       / \  |    /     \ ::              ::  /   \   /  |
+      o   ^ ^   o       [x]   NERAKA    [x]-o     o-o-o-o-P
+      |         |       ::    INNER     :: / \   /|  \| |
+      o         o       ::    CITY      ::T   o o o-i o-o
+                 \      ::              ::    |/   \  |\|
+                  o     ::              ::    o     h ^ o-^
+                  |     ::              ::    |         |
+                  o     ::              ::    o         ^
+                  |     \::             ::/   | 
+                 
+                        
+
+                      ~= City of Neraka =~
+
+     h  stable				S  shop
+     i  Black Ship Inn			s  scarf seller's shack
+     P  slave pen                       w  warehouse
+     T  guard tower			W  wagon to Sanction
+     t  closed tavern			x  Neraka gate
+
+::NEWMAP::
+neraka_outer_south
+::MAPDATA::
+b1 46 2 
+::MAPDATA::
+
+                |      :::              ::    | 
+              T-o      ::               ::    o   T 
+                 \     ::              ::      \ /
+                  o    ::               ::      o  [t]
+                  |    ::               :::     |   |
+                  o    ::                ::     o-o-o
+                 / \   ::               :::     |
+                o w o  ::    NERAKA     :::     o   H   ^   ^
+                |/  |   ::   INNER       :::    |\ /     \ /  
+              w o w o  ::    CITY         [x]-o-o o-o-o   o-^                            
+               \|/  |  ::                ::  /|  \|\   \ /
+              p o   o T :::             ::: T o   o b   o-o-^
+               \|   |/ :::             :::    |  /|     |\ \
+      ^   o-o-o-o-o-o--[x]             ::     o w S     ^ o o
+       \ /     /|\     :::            :::    /           /| |
+    ^   o-^   Q o o     :::          :::    o           ^ ^ ^
+     \  |      / \ \      ::::     :::     /
+      o-o     o   ^ o       : T[x]:::   T o   BLUE DRAGONARMY
+        |    / \     \         \|        \|     ENCAMPMENT
+        o-o-o   ^     o   T     o         o
+       / \             \ /      |       /
+      ^   ^             o       o      o
+   GREEN DRAGONARMY      \      |      |   ~= City of Neraka =~
+     ENCAMPMENT           o     o      o   b  Bank
+                          |\    |      |   H  The Hanged Knight pub
+                          o o-o-o      o   S  shop
+                          |     |     /    T  guard tower
+                          o     o    o     t  Templar Knights guild
+                          |    /|\ /       W  wagon to Flotsam
+                          o a-o-o-o-R      w  warehouse
+                          |  /|\|/         P  Lute's Loot pawnshop
+                          o s o o          R  Red Rooster pub
+                           \ /  |\         a  animal shop
+                            o   o P        s  smithy
+                               / \         p  post office
+                              o   W        Q  Queen's Heads bar
+                              |
+    RED DRAGONARMY        o-o-o-o
+     ENCAMPMENT          /|  /|\ \
+                        ^ ^ o o ^ ^ 
+                           /  |       
+                          ^   ^

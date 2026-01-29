@@ -1,0 +1,9 @@
+Name:		Visus
+Object:		/d/Terel/mecien/valley/guild/spells/visus.c
+Cost:		25 mana, no components
+Skills:		Divination, Life
+Description:	Reveals the location of a player by descriping 
+		the short description of the room where the player is
+		(of course it won't work on immortals)
+Requirements:   Wis > 30
+

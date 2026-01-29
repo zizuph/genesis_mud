@@ -1,0 +1,38 @@
+                                The Ladies Club
+                                An Introduction
+                                 by the Nobles
+                                      /\                                      
+                                   ..(<>)..                                   
+                                  '  |\/|  `                                  
+  ,________________________________./    \.________________________________.
+ /                                                                          \
+|     Drakmere has been the central locality of Raumdor for many years. The  |
+| Nobles of Raumdor have chosen Drakmere as a prime spot to invest in a club |
+| for gentleman. This was a choice location and it is here that many         |
+| gentlemen have come to gather and be with other gentlemen of their stature.|
+| But the ladies of these fine noble families needed a place to gather as    |
+| well. So a club for them was established in a timely fashion as could be   |
+| arranged.                                                                  |
+|                                                                            |
+|     Many ladies come to discuss many different subjects of interest.       |
+| Although there isn't a guest dining available here there is a parlor that  |
+| ladies may entertain guests in. This is an intimate ladies club and only   |
+| proper ladies may join. Those who are engaged in unwanted behaviors are not|
+| allowed to join, such as dancers. No self-respecting lady of quality and   |
+| breeding would dare to be a dancer.                                        |
+|                                                                            |
+|     Some members like to display their charm and sophistication and so they|
+| like to wear their pleated charmeuse hat or long silk gloves. Whatever the |
+| reason for ladies to come and enjoy the club matters not. The Nobles of    |
+| Raumdor are proud to have it available for those who have asked for it.    |
+| They also hope that Ladies of genteel birth everywhere will enjoy.         |
+|                                                                            |
+| ,________________________________.      .________________________________. |
+|//\_/\\|                           \    /                           |//\_/\\|
+( \___/ )                            |/\|                            ( \___/ )
+ \_____/                          `..(<>)..'                          \_____/
+                                      \/                                     
+Soul:           guilds/lc/soul.c
+Guild Object:   guilds/lc/lc_item.c
+Join Room:      guilds/lc/room/join.c
+

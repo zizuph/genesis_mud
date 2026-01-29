@@ -1,0 +1,14 @@
+
+inherit "/std/object";
+#include <stdproperties.h>
+#include <macros.h>
+
+create_object()
+{
+    set_name("_choosen_");
+    add_prop(OBJ_I_WEIGHT,0);
+    add_prop(OBJ_I_VOLUME,0);
+    add_prop(OBJ_I_NO_DROP,1);
+    add_prop(OBJ_I_NO_STEAL,1);
+    set_no_show();
+}

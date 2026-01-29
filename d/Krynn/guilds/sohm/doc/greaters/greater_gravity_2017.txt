@@ -1,0 +1,42 @@
+
+     Spell name: Gravity
+                 haddross
+         Effect: Increases the weight impact on target
+           Type: Maintained
+        Targets: Other living
+        
+        Element: Earth           / 50
+           Form: Transmutation   / 60
+    Spell power: Power 4 [Advanced spell]
+     Spell type: haste spell 
+     
+       Peaceful: No
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: breadroot (110 cc) and tangleshoot (25 cc)
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_HARD
+     Combat Aid: 45% 
+
+            Tax:  1.0
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.75  Hard difficulty
+                  x1.0   material component < 1 gp value 
+                 ------
+                   0.75%  total tax
+   ------------------------------------------------------------
+   Comments: Using the formula for applying quickness to a 
+             target through the haste spell, gravity provides
+             the equivalent to the target as a negative  
+             quickness value.
+
+   Other spells such as dominate, curse, and haste can't be
+   cast when this spell is active.
+   ------------------------------------------------------------

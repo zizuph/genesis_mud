@@ -1,0 +1,48 @@
+main
+::MAPDATA::
+path1 10 2
+path2 8 2
+path3 6 4
+path4 4 6
+path5 2 8
+path6 4 8
+path7 6 8
+path8 4 10
+path9 1 1 hidden
+path10 6 12
+path11 8 12
+::MAPDATA::
+
+           /                                                             
+        o-o                                                              
+       /                                                                 
+      o                                                                  
+     /                                                                   
+    o                                                                    
+ \ /|\                                                                   
+ -o-o-o                                                                  
+ / \|/                                                                  
+    o                                                                   
+     \                                                                   
+      o-o  
+
+::NEWMAP::
+hidden
+::MAPDATA::
+path9 8 10
+::MAPDATA::
+
+           /                                                             
+        o-o                                                              
+       /                                                                 
+      o                                                                  
+     /                                                                   
+    o                                                                    
+ \ /|\                                                                   
+ -o-o-o                                                                  
+ / \|/ \                                                                 
+    o   o                                                                
+     \                                                                   
+      o-o                                                                
+               
+          

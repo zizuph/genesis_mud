@@ -1,0 +1,17 @@
+Name: 		Beatus
+
+Object:		/d/Terel/mecien/valley/guild/spells/beatus.c
+
+Cost: 		Cast on other: 1
+		Cast on self: 5
+                No components (yet)
+
+Skills:    	defence, wisdom
+                NEED TWO VALID SKILLS!  FORM + ELEMENT! should be task too. 8)
+
+Description:	Invokes a blessing, setting a prop ("blessed")
+
+Requirements:	Here you list any requirements that exist on the player to 
+		obtain and use the spell. For example required intelligence,
+		wisdom, if he has to be a member of a certain guild, if he
+		has to have a certain level in the guild etc.

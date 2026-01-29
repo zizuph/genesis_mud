@@ -1,0 +1,73 @@
+main
+::MAPDATA::
+forest01x07 4 18
+forest01x08 4 16
+forest01x10 4 12
+forest02x06 6 20
+forest02x07 6 18
+forest02x09 6 14
+forest03x06 8 20
+forest03x07 8 18
+forest03x08 8 16
+forest03x09 8 14
+forest04x06 10 20
+forest04x08 10 16
+forest05x07 12 18
+nforest01_03 1 4
+nforest02_03 3 4
+nforest03_03 5 4
+nforest04_01 7 0
+nforest04_02 7 2
+nforest04_03 7 4
+nforest04_04 7 6
+nforest04_05 7 8
+nforest05_02 9 2
+nforest05_03 9 4
+nforest06_03 11 4
+shrine01x11 4 10
+shrine_low1 3 13
+shrine_low2 3 12
+::MAPDATA::
+     || ||
+   |||| || ||
+   ||      || ||
+ ||   __H__'' ||
+ ||   // \\   ||
+ ''||       ||''
+   ||       ||
+   ''       ''
+::NEWMAP::
+ratcave
+::MAPDATA::
+cave04x10 6 7
+cave04x11 6 5
+cave05x09 8 7
+cave05x11 8 5
+::MAPDATA::
+
+   Cave of the 
+     Rat-Men 
+
+     \
+      o-o
+       /|
+      o o
+     /  |
+
+::NEWMAP::
+::MAPDATA::
+trail01 11 7
+trail02 11 5
+trail03 13 3
+trail04 11 3
+trail05 11 1
+::MAPDATA::
+
+  ^        o
+//|\\      |
+//|\\      o-o
+  |         / 
+  l        o
+           |
+           o
+          /

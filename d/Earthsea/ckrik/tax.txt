@@ -1,0 +1,58 @@
+Race					
+Skill		Skill Level	Levels Taxed	Rate	Tax Rate
+Defence		50		30		0.02500%	0.75%
+Polearm		50		20		0.02500%	0.50%
+Parry		50		50		0.02500%	1.25%
+Appraise Object	50		20		0.01667%	0.33%
+Appraise Value	50		20		0.01667%	0.33%
+Herbalism	50		30		0.01667%	0.50%
+Alchemy		50		30		0.01667%	0.50%
+		350		200		4.17%
+
+Occupational (Apprentice - Sorcerer)					
+Skill		Skill Level	Levels Taxed	Rate	Tax Rate
+Spell Craft		60		40	0.01667%	0.67%
+Fire Spells		50		30	0.01667%	0.50%
+Water Spells		30		10	0.01667%	0.17%
+Air Spells		30		10	0.01667%	0.17%
+Earth Spells		30		10	0.01667%	0.17%
+Life Spells		30		10	0.01667%	0.17%
+Conjuration Spells	50		50	0.01667%	0.83%
+Divination Spells	30		30	0.01667%	0.50%
+Enchantment Spells	30		30	0.01667%	0.50%
+Illusion Spells		30		30	0.01667%	0.50%
+Transmutation Spells	30		30	0.01667%	0.50%
+			400		280			4.67%
+
+
+Occupational (Apprentice Wizard - Wizard)					
+Skill		Skill Level	Levels Taxed	Rate	Tax Rate
+Spell Craft		90		70	0.01667%	1.17%
+Fire Spells		85		65	0.01667%	1.08%
+Water Spells		70		50	0.01667%	0.83%
+Air Spells		50		30	0.01667%	0.50%		
+Earth Spells		50		30	0.01667%	0.50%		
+Life Spells		50		30	0.01667%	0.50%		
+Conjuration Spells	85		85	0.01667%	1.42%		
+Divination Spells	70		70	0.01667%	1.17%		
+Enchantment Spells	50		50	0.01667%	0.83%		
+Illusion Spells		50		50	0.01667%	0.83%		
+Transmutation Spells	50		50	0.01667%	0.83%		
+			700		580			9.67%		
+
+Occupational / Lay (Mage - Epic Mage)							
+Skill		Max (w/Quest)	Occ	Lay	Lvl Taxed	Tax Rate
+Spell Craft	100		100		80		1.33%
+Fire Spells	100		100		80		1.33%
+Water Spells	90		90		70		1.17%
+Air Spells	50			50	30		0.50%
+Earth Spells	50			50	30		0.50%
+Life Spells	50			50	30		0.50%
+Conj. Spells	100		100		100		1.67%
+Divin. Spells	90		90		90		1.50%
+Enchant. Spells	100		100	50	100		1.67%
+Illusion Spells	50			50	50		0.83%
+Trans. Spells	50			50	50		0.83%
+Herbalism	60		60		40		0.67%
+Alchemy		60		60		40		0.67%
+		950		700	300	790		13.17%

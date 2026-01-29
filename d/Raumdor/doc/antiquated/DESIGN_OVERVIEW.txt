@@ -1,0 +1,311 @@
+
+With this document, I wish to share some of my ideas of design and 
+future development of the new Raumdor domain.
+
+- Nerull.
+
+
+
+
+The Original map made by Sarr.
+
+
+                           ----  RAUMDOR ----
+--------------------------------------------------------------------------
+                
+   ^                  To the castle of Gylar
+          ^      ^                              
+                                |@|             ^               ^       ^
+    ^       ^                   |@|                                   ^
+               ^        ^       /@@\                Kolpharian           ^
+          Kolpharian           /@/\@\__              Mountains
+           Mountains          /@/  \@@@\         ^                ^
+ \   ^          ____    ^    /@/    --\@\          ^      ^
+  \        _   /####\__     /@/        \@\
+   \      /*\_/########\   /@/          \@\__                     ^       
+   |     /****##########\_/@/       ^    \@@@\    ^                       
+   |  __/****##############/              --\@\__________________________
+    \/*******##############\    ^   ^        \@            ###
+     ********###############|                / @         @@#1#@@@@@@@@@@@
+     #######################|         ^    _/   @       @  ###          @
+d    #######################|    ^        /      @     @    @@@         @
+o   O#######################|            |        @   @        @        @
+c ==O######################/             |         @ @          @       @
+k   O##########/--\########|          ^  |          @            @      @
+s    ##########|     \###/     ^         |           @            @     @
+     #########|       ---                |            @      !     @   ###
+      ****** /   ^                       |             @    !!!     @ @#2#
+        ****|                  ^         |            @ @     !!     @ ###
+         **/          Worldsrim          |           @   @           @  @
+           \     ^    Mountains     ^    |          ###   @          @  @
+            \                            |        @@#3#@@@@@        @
+             \             ^      ^      |_         ###     @       @   
+              \                            \         @       @      @    
+               \     ^              ^       |         @       @@    @    
+ Gulf of        \                           |          @@       @   @    
+    Canthyr      \         ^                |           @        @ @     
+                  \                 ^       |           @         @      |
+                   \                        |           @         @      |
+                   |          ^             |          ###       ###     |
+                   |                        |_       @@#4#@@@@@@@#5#@@   |
+                   |                ^         \        ###       ###    /
+                   |        ^                  |        @         @    /
+                   \                           |_            !!       /
+                    |              ^             \___________________/
+                    \__
+                       \                              ^              ^
+                        \             Worldsrim 
+                         \            Mountains            ^
+                          \__
+         Sea of              \           ^          ^              ^
+            Canthyr           \
+--------------------------------------------------------------------------
+--- Key ---
+# = Forest
+O = Beach
+* = Flats
+^ = Mountains
+  = Plains
+@ = Road
+! = Ruins
+1 = City: Drakmere
+2 = City: Carpathia
+3 = City: Torbodon
+4 = City: Kapak
+5 = City: Zhaal
+
+
+
+                                  
+
+
+
+What actually exist (minus the underground areas, which is also 
+quite large)
+
+                           ----  RAUMDOR ----
+-------------------------------------------------------------------------
+                
+   ^                  To the castle of Gylar
+          ^      ^                              
+                                |P|             ^               ^       ^
+    ^       ^                   |P|                                   ^
+               ^        ^       /@@\                Kolpharian           
+          Kolpharian           /@/\@\__              Mountains
+           Mountains          /@/  \@@@\         ^                ^
+ \   ^          ____    ^    /@/    --\@\          ^      ^
+  \        _   /####\__     /@/        \@\
+   \      /*\_/########\   /@/          \@\__                     ^       
+   |     /****##########\_/@/       ^    \@@@\    ^                      
+   |  __/****#############@/              --\@\_________________________
+    \/*******############@#\    ^   ^        \@            ###
+     ********###########@###|                / @         @@#1#
+     ##################@####|         ^    _/   @       @  ###          
+d    ##########@@@@@@@@#####|    ^        /      @     @                
+o   B#########@#############|            |        @   @                
+c ==B@@@@@@@@@#############/             |         @ @                 
+k   B##########/--\########|          ^  |          @                  
+s    ##########|     \###/     ^         |                             
+     #########|       ---                |            P      !       
+      ****** /   ^                       |             P    !!! - P     
+        ****|                  ^         |              P     !!     
+         **/          Worldsrim          |               P            
+           \     ^    Mountains     ^    |                P            
+            \                            |                 P        
+             \             ^      ^      |_                 P          
+              \                            \                 P         
+               \     ^              ^       |                 PP          
+ Gulf of        \                           |                   P        
+    Canthyr      \         ^                |                    P P     
+                  \                 ^       |                     P     |
+                   \                        |                     P     |
+                   |          ^             |                    ###    |
+                   |                        |_                   #5#    |
+                   |                ^         \                  ###   /
+                   |        ^                  |                      /
+                   \                           |_                    /
+                    |              ^             \__________________/
+                    \__
+                       \                              ^              ^
+                        \             Worldsrim 
+                         \            Mountains            ^
+                          \__
+         Sea of              \           ^          ^              ^
+            Canthyr           \
+-------------------------------------------------------------------------
+--- Key ---
+
+# = Forest   (The forest on this map is close to the actual layout, but
+              not 100%).
+B = Beach
+* = Flats
+^ = Mountains
+  = Plains
+@ = Road
+P = Planned road (do not exist yet)
+! = Ruins       (Coded, but not live. Needs a few revisions)
+1 = City: Drakmere
+5 = City: Zhaal (Under planning - will balance out Drakmere)
+
+
+
+----------------------- THE HISTORY OF RAUMDOR --------------------------
+
+
+	Raumdor is an ancient and evil land, with a dark and mysterious 
+history.  The night(although there technically is no night in Kalad, the 
+curse on the land brings huge black clouds that cover the sky during what 
+would be night, if there was one, casting a darkness over the land) brings 
+terror that you find in only your worst nightmares. 
+
+Fear and death are commonplace. People live out their meager 
+existance in fear of the night, and what terrors it holds. People 
+mysteriously vanish, or are found dead....horribly mangled or blood 
+drained from their corpse. The graveyards are places where the creatures 
+of the night dance. The plains and forests are abandon, for no one has 
+returned alive from them. Just stick to the road, and you will be 
+safe, and don't travel at night...so the saying goes. As for the history 
+of this dark land, this is all that people know...
+
+	A great warrior from the far north eastern regions, named 
+Ryu-Khan, set out on an expedition to conqure the west lands of what is 
+now known as Kalad. He was already a great and powerful warrior, and had 
+a lot of power in his own land...but as any normal War Lord, always 
+hungered for more. He raised up his army, and headed west to the lands 
+now known as Raumdor.
+
+	Raumdor was called Gylar back then, named after its ruler, Lord 
+Gylar I.  Gylar was a great wizard and warrior, who practiced the darker 
+side of magic, and was the leader of an ancient cult known as Khiraa, the 
+cult of the dead.
+
+	Gylar knew of Ryu-Khan's plans to take his lands, and to push 
+further west into Kalad. He raised up his army in defence, and awaited 
+Ryu-Khan's attack.
+
+	Ryu-Khan's warrior swept down the mountains and met Gylar's troops 
+in the plains.  The battle was one to remember forever. Both troops fought 
+hard and long bloody battles, fighting to the last man. However, Ryu-Khan 
+managed to push Gylar back through the mountain pass and into the forest, 
+taking most of the cities located in the plains. It appeared that 
+Ryu-Khan was winning, but at a heavy price.
+
+	This is where things become unclear. As the legend goes, in 
+desperation, Gylar turned to his magic. He decided to try a very powerful 
+and difficult spell to help him turn the tides. He planned to cast this 
+spell over the lands to raise the dead, which he would control to fight 
+once again. 
+
+	Ryu-Khan, getting desperate, and wanting to finish off the 
+battle, decided to assassinate Gylar, knowing that this would crush the 
+moral of his troops to the point were they would surrender. He plotted 
+and planed, then set off alone into the night.
+
+	During this one night, it is said that Gylar was preparing his 
+spell. He was just about to finish the ritual when Ryu-Khan, easily 
+evading his guards, pounced out of the shadows and beheaded Gylar in one 
+stroke of his katana. The spell went awry.
+
+	Something did happen. The sky turned blood red, then black. The 
+ground turned black. The trees withered, the plains began to tremble. And 
+the dead began to rise...masterless. The land became poisoned and cursed.
+
+	Ryu-Khan fled with his men. They were killed by the undead 
+creatures of the darkness, and in turn, transformed into living-dead 
+monsters...and it began to spred.
+
+	Gylar was dead, the armies were gone. The people were in chaos, 
+as the night brought on the onslaught of these creatures of death. Their 
+numbers dwindled as each night more and more people were taken and eaten 
+or killed or dragged into the forest and never seen again as living 
+beings. Panic spread. 
+
+	From the midst of the panic arose a mighty warrior, named 
+Raumdor. Possessing knowledge of these creatures, he learned how to fight 
+them off. He united the people under him, and created a milita to defend 
+themselves. He created a huge walled city, and defended its walls well.  
+Soon, his power grew, and he constructed more and more walled cities and 
+towns, each with its own millita. He assigned a Lord for each city and 
+town to take care of its people. The land was renamed Raumdor, after him, 
+and he became the absolute ruler and protector. Life was much better. But 
+still out there, were the dark and evil creatures of the dead, more 
+angrier than ever, lusting for live blood and flesh....
+
+     One day, a decendant of Raumdor, King Raumdor VI, was 
+assassinated, leaving no heir.  The way the King was assassinated was 
+horrible.  His heart was torn out, and blood drained from him. The 
+kingdom was thrown in panic once again. The question of who would be king 
+was undetermined. Each of the five lords thought they should be king. 
+Each  of the lords were very suspicous of eachother, blaming the death on 
+eachother. 
+
+    Each Lord closed off their city-state and declared themselves ruler 
+of it. It would appear that the new ruler would be determined through 
+battle. Each Lord raised an army and declared themselves independent. No
+talks or negotiations were called, each Lord was too suspicious.
+
+    This is the current state of Raumdor.  Chaos among the people, mixed 
+allegiance, and a great sadness for the death of their great King.
+ 
+    And all the while, dark, evil eyes out in the wilderness narrow.  
+Their cruel smiles widen, as they see their chance to feast like they 
+did once before....
+
+
+- By Lor, the scribe of Drakmere.
+
+--------------------------------------------------------------------------
+
+
+All above is what players have come to know about Raumdor for a decade.
+Furthermore, instead of rebooting the entire thing involving nothing
+of the past, I plan to expand the old code, and build upon its old
+wellestablished lore.
+
+With that said, Here is my development plan:
+
+1. Import and reestablish old code from /d/Kalad/common/raum/
+   and put it in /d/Raumdor/common/   (DONE)
+
+2. A facelift on the different roomtells, and lower the time
+   of their arrival.
+   
+3. Global overview of quests, their experiencerewards, and bits.
+   
+3. Globalize (Domainwise) npc parameters for easy balance and
+   tailoring for propher player target levels for grinding. This
+   should make the AoB work much easier.
+   
+4. A revision of current gear, both normal and boss-drops. This
+   is sorely needed. In addition, more drops will be added to
+   the bosses (so they don't drop a single static weapon for
+   every kill, but do some cycling. This attracts a wider
+   spectrum of players to compete over gear). This will be
+   done in conjunction with the AoB for approval.
+   
+5. Begin the construction of Zhaal (evil city, good align grinder
+   + factionsettings. Zhaal was one of 5 strongholds vs Khiraa
+   and the undead, but has recently been overrun). This will not 
+   begin until a propher standarization of code is set.
+   
+             ----------------------------------
+      
+A. Link the current active guilds in Raumdor (2 active guilds,
+   Gentleman's club and Ladies club, both located in Drakmere)
+   
+B. Import the Necromancers(optional). Their alternative method of
+   joining the guild is present here in the northern part of the
+   haunted forest, and, the guild get a wizard somewhat familiar 
+   with the code. ;)
+   
+X. Begin the long haul of revising all the current and active
+   code to match better standards. This will be an long 
+   ongoing progress that begins quite shortly, that will
+   continue betveen or during other content creation.
+   
+Y. Revive Khiraa, or an Occ necropart, if Gorboth wishes.
+
+
+- That will suffice for now.
+
+Nerull.

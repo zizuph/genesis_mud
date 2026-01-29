@@ -1,0 +1,70 @@
+main                
+::MAPDATA::                   
+entry 0 0 
+path8 0 0
+path9 0 0
+shore10 0 0
+shore11 0 0
+shore12 0 0
+shore13 0 0
+shore14 0 0
+shore15 0 0
+shore16 0 0
+shore17 0 0
+shore18 0 0
+shore19 0 0
+shore20 0 0
+shore21 0 0
+shore22 0 0
+shore23 0 0
+shore24 0 0
+shore25 0 0
+shore28 0 0
+shore29 0 0
+shore30 0 0
+shore31 0 0
+shore6 0 0
+shore7 0 0
+shore8 0 0
+shore9 0 0
+::MAPDATA::					  					  
+					  	
+						
+
+                            o      
+                           /|\      C
+                        o-o-o-o     L
+                       /| |   |\    I
+                      o-       -o   F
+                      |    C    |   F
+                      o-   A   -o   S
+                     /|    I    |  
+                    o-     R    o 
+		    	   /|      N   {|} <-Gate 
+                  o-            o     
+                 /|         |      
+                o-   M     -o-   CLIFF  
+                |    A     /|       
+                o-   R   -o-   M     
+                |    S    |         
+                o-   H   -o-   A     
+                |          \       
+                o-         -o- R    
+                 \|         |      
+                  o-       -o- S    
+                  |        /        
+                  o-     -o-   H -o
+                 /|       |       |
+                o-       -o-     -o
+                |    M     \      |
+                o-   A     -o-   -o
+                |    R      |   |/ 
+                o-   S     -o- -o  
+                |    H      |   |  
+                o-         -o- -o  
+                 \|     | | | |/   
+                  o-   -o-o-o-o    
+                   \| |/    |      
+                    o-o     o      
+                            |      
+                            o      

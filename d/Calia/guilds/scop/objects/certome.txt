@@ -1,0 +1,54 @@
+------------------------------------------------------------------------
+       Promotion to Archon or Patriarch/Matriarch, or Council.
+------------------------------------------------------------------------
+ 
+Preparations:
+- The person being promoted is called the Member.
+- The person leading the ceremony is called the Primary Member (PM)
+- The person(s) sponsoring the Member is/are called the Sponsors (SP)
+  (The PM is also an SP if only two members are available)
+- All participants should be wearing white robes, especially the
+  PM, SP and Member.
+- The PM and the SP may wear a mantle and alb.
+- The new ranking to be given to the Member during the ceremony
+  should be determined AHEAD of time.
+- The PM must carry a quantity of incense (two or three is a good idea).
+- All participants should gather in the chapel where the ceremony
+  must take place.
+- NOTE: Once the ceremony has begun (the incense is loaded), the chapel
+  doors will be locked to all non-members, and will not unlock until
+  the incense burns out.
+ 
+Ceremony:
+1  The PM informally welcomes all and announces/introduces the Member
+2  The PM starts the incense with the command 'load incense'. It will
+   start to burn immediately, but will take a while to fill the room,
+   which must happen before the rest of the ceremony.
+3  The PM asks the Member to affirm his/her willingness to abide by
+   the objectives of the Circle in their new rank ("I do" type of deal)
+4  The PM asks "Who will sponsor this Member?"
+5  The SP answers "I do" and lays his/her hands on the Member with the
+   command 'lay hands on <Member>'. 
+6  The second SP or the PM (if only one Sp) does likewise. Any other
+   members present may do likewise now, if they choose or the PM deems
+   it necessary or wanted.
+7  The PM anoints the Member with oil by doing the command 'anoint 
+   <Member>'.
+8  The PM announces the promotion with something like "With your pledge
+   of fidelity and the support of those present, I promote you to the
+   rank of <Title>"
+9  The PM promotes the Member with the command 'promote <member> <Title>'
+   Note the title should be capitalized. A list of 'official' titles are
+   listed below. 
+   For example: 'promote jaacar Archon' or 'promote jaacar Patriarch'
+
+Summary of necessary commands:
+'load censor'              (must have incense)
+'lay hands on <Member>'    ex: 'lay hands on Jaacar'
+'anoint <Member>           ex: 'anoint Jaacar'
+'promote <Member> <Title>' ex: 'promote Jaacar Archon'
+                               'promote Jaacar Patriarch'
+
+Official Titles:
+Liberator, Cultivator, Beacon, Missionary, Luminary, Emissary, Conservator, Illuminati,
+Intercessor, Master, Elder, Harbinger, Theurgist, Archon, Patriarch, Matriarch.

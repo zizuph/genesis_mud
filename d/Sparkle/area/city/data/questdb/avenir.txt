@@ -1,0 +1,37 @@
+domain,quest desc,group,bit,hint,validation,arguments
+Avenir,Elven Ghost,0,0,elvenghost.txt,default
+Avenir,Catacombs Gate,0,1,catacombsgate.txt,default
+Avenir,Magic Square,0,2,magicsquares.txt,default
+Avenir,Rat Hunt,0,3,rathunt.txt,default
+Avenir,Food Poisoning,0,4,foodpoisoning.txt,default
+Avenir,Return Book,0,5,returnbook.txt,default
+Avenir,Help Fisherman,0,6,fisherman.txt,default
+Avenir,Jadestone's Letter,0,7,letter.txt,default
+Avenir,Relieve Itch,0,8,itch.txt,default
+Avenir,Infidel Plans,0,9,infidel.txt,default
+Avenir,Nochipa's Head,0,10,nochipa.txt,default
+Avenir,Banshee's Mask,0,11,bansheemask.txt,default
+Avenir,Thirsty Kilnar,0,12,thirsty.txt,default
+Avenir,Tomato Drop,0,13,tomato.txt,default
+Avenir,Rescue Faerie,0,14,rescuefaerie.txt,default
+Avenir,Jadestone's Flower,0,15,flower.txt,default
+Avenir,Fix Captain's Watch,0,16,watch.txt,default
+Avenir,Bury Captain's Bones,0,17,burybones.txt,default
+Avenir,Wolf Song,0,18,wolfsong.txt,default
+Avenir,Falchion Sacrifice,0,19,falchion.txt,default
+Avenir,Bakona's Hat,1,0,hat.txt,default
+Avenir,Hegemon's Ghost,1,1,hegemonghost.txt,default
+Avenir,Statue Defiler,1,3,statue.txt,default
+Avenir,Dark Elf's Task #1,1,6,darkelfmaster.txt,default
+Avenir,Dark Elf's Task #2,1,8,darkelfmaster.txt,default
+Avenir,Meet Mascarvin,1,9,meetmascarvin.txt,default
+Avenir,Ry'nals Gift,1,10,ziggurat.txt,default
+Avenir,Cheynal's Perfumes,1,11,ziggurat.txt,default
+Avenir,Gemdust Delivery,1,12,ziggurat.txt,default
+Avenir,Find Sair's Shrine,1,13,sairshrine.txt,default
+Avenir,Union Bit #1,3,0,,always_false,3,0
+Avenir,Union Bit #2,3,1,,always_false,3,1
+Avenir,Union Bit #3,3,2,,always_false,3,2
+Avenir,Union Bit #4,3,3,,always_false,3,3
+Avenir,Union Bit #4,3,4,,always_false,3,4
+

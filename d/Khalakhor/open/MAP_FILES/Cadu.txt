@@ -1,0 +1,136 @@
+emovMain
+::MAPDATA::
+cadu_water 27 44
+waterroom.c 28 46
+cadu_b3 27 42
+cadu_tower 27 40
+cadu_b2 31 42
+cadu_b4 31 38
+entrance 27 38
+cadu_pier1 35 38
+cadu_pier_food 39 38
+cadu_pier2 43 38
+cadu_pier_drink 47 38
+cadu_pier3 51 38
+cadu_pier_toilet 55 38
+cadu_pier4 59 38
+cadu_pier5 63 38
+cadu_b1 31 36
+cadu_s6 15 34
+cadu_s4 19 34
+cadu_s3 23 34
+cadu_h3 23 32
+cadu_s2 27 34
+cadu_h2 27 32
+cadu_s1 31 34
+cadu_s5 35 34
+orc_road1 39 34
+orc_road2 43 34
+orc_road3 47 34
+orc_play 43 32
+orc_sand 38 32
+orc_slide 48 32
+orc_house 43 30
+cadu_p1 31 32
+cadu_p2 31 30
+cadu_p3 29 28
+cadu_p4 29 26
+cadu_m 21 24
+cadu_q1 25 24
+cadu_q2 29 24
+cadu_q3 33 24
+cadu_l 33 26
+cadu_smith 40 24
+cadu_out 21 20
+cadu_inn 21 16
+cadu_hotel 21 14
+cadu_q4 25 20
+cadu_q5 29 20
+cadu_q6 33 20
+cadu_casino 37 20
+cadu_casino2 37 22
+cadu_casino1 37 18
+cadu_q7 25 16
+cadu_q8 29 16
+cadu_q9 33 16
+cadu_a1 40 16
+cadu_bank 40 20
+cadu_shop 40 11
+red_pub 1 11
+red_r1 5 11
+red_bordell 5 13
+red_r2 9 11
+red_brewery 9 9
+red_r3 13 11
+red_r4 13 13
+red_r5 13 15
+red_h1 9 15
+red_jabroom 13 17
+cadu_a5 17 11
+cadu_guild 17 13
+cadu_a4 21 11
+cadu_pig 21 9
+cadu_pos 25 9
+cadu_a3 25 11
+cadu_a2 29 11
+cadu_a6 29 9
+cadu_a7 29 7
+cadu_stable 27 5
+cadu_pier-mariners 63 40
+f1 31 5
+f2 29 3
+::MAPDATA::
+
+     _____
+    /    /`.                 |
+   /____/   `.               o
+  /     `.   /       ____     \ /     _____
+ /========`./\      /   /\ o   o     /    /\
+  \    .  \  /     /___/ /  \ /     /____/ /
+   \__\ \__\/      \___\/    o      \____\/
+                         PO  |                      _______
+         o   Pigeons o - o   o                     /      /|
+Pub      |           |   |   |         Store      /      / |
+ o - o - o - o - o - o - o - o   _____  o        /______/  |
+     |       |   |       |   |  /    /\ |       |       |  |
+     o       o   o       |   | /____/ / |       |       | /
+~~~~~        |   AG  o   |   | \____\/  |       |__[]___|/
+   ~~~   o - o       |   |   |          |
+     ~~~~~   |  Inn [ ]  o - o - o ---- o           _______
+         ~~~ o       |   |\  |  /|      |          /      /|
+           ~~~~~     |   | \ | / |   o  |         /      / |
+        ~~~~~~~~     |   |  \|/  |   |  |        /______/  |
+          ~~~   Cafe o - o - & - o - o  o Bank  |       |  |
+           ~~~~          |  /|\  |   |          |       | /
+          ~~~~           | / | \ |   o Casino   |__[]___|/
+           ~~~~          |/  |  \|
+            ~~~~     o - o - o - o ---- o Smith
+             ~~~~  Mayor     |   |
+               ~~~~~~~~~~    o   o Library   _____
+                ~~~~~~~~~~   |              /    /\
+                  ~~~~~~~~   o     _____   /____/\/
+                    ~~~~~     \   /    /\  \____\/
+                      ~~~~~~   o /____/ /  o
+             ~~~~~~~ Tailor    | \____\/   |
+               ~~~~    o   o   o      o - [ ] - o
+                ~~~~~  |   |   |           |
+               o - o - o - o - o - o - o - o - o
+                ~~~~~~~~~~     |
+                 ~~~~~~~~~~    o P2  Snack    Drink  Public     
+ GSL - Office     ~~~~~~~~~~   |     Stand    Stand  Toilet       
+ P1 - Sparkle       ~~~GSL o - o - o - o - o - o - o - o - o - o
+ P2 - Circle Line    ~~~~~~    |   PX      P3      P4      P5 ~| ~~~
+ P3 - Port Macdunn  ~~~~  [ ]  |                ~~~~~~~~~~~~~  PM~
+ P4 - Sa Morgan      ~~~~  |   |    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ P5 - Eil Galaith   ~~~~   o - o P1    ~~~~~~~~~~~~~~~~~~~
+ PX - Unused         ~~~~  |     ~~~~~~~~~~~~~~~~~~~
+ PM - Mariners        ~~~ [ ] ~~~~~~~~~~~~~~~~~~~~
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                  ~~~~~~~~~~to~~~~~~~~~~~~~~~~~~~~~~~~~~
+               ~~~~~~~~~~~~~Carisca~~~~~~~~~~~~~~~~~~~~~~~~
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~
+                       ~~~~~~~~~~~~~~~~~~~~~
+                              ~~~~~~~~~~~

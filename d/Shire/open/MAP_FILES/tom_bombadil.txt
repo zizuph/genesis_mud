@@ -1,0 +1,28 @@
+main
+::MAPDATA::
+rm_sewing 21 2
+rm_study 12 4
+rm_bdrm 16 4
+rm_hall03 21 4
+rm_closet 16 6
+::MAPDATA::
+
+
+                     o
+                     |
+            o - o - [ ]
+                |
+                o
+
+          ________
+         |\  /\  /|
+         | \/  \/ |
+         |_/_[]_\_|
+         [ Y    Y ]
+         [  .--.  ]
+         [__|  |__]
+              __
+               __
+                __
+                 __
+         

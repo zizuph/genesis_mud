@@ -1,0 +1,27 @@
+Ranger apprentices may train up to the following
+skill levels:
+
+          ~~APPRENTICE SKILLS~~
+--------------------------------------------
+  SKILL               LEVEL                 
+--------------------------------------------
+  Sword               Superior  Journeyman   
+  Polearm             Superior  Layman
+  Bow                 Superior  Layman
+  Defence             Superior  Journeyman
+  Spellcraft          Superior  Layman
+  Life Spells         Superior  Layman
+  Herbalism           Confident Acolyte
+  Alchemy             Superior  Amateur
+  Conjuration Spells  Superior  Student
+  Sneak               Superior  Journeyman
+  Hide                Superior  Journeyman
+  Animal Handling     Superior  Layman
+  Location Sense      Superior  Layman
+  Tracking            Superior  Acolyte
+  Hunting             Superior  Layman
+  Awareness           Superior  Professional
+  Brawling            Superior  Journeyman
+  Hearing             Superior  Journeyman
+
+(Turn page to <num>)

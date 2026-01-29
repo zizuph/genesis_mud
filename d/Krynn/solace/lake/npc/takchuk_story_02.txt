@@ -1,0 +1,21 @@
+say The standard is the symbol of our defeat. If we could take it back, history would not remember our defeat and our honour would be regained. 
+4
+say None shall ever look at us with pity again.
+2
+think
+2
+say We escaped from Khotas in ships. However, somewhere between the isles Karthay and Mithas the dishonourable Orilg tribe ambushed us with their warships. Greatly outnumbered we lost many ships that day. One of them was carrying the standard.
+7
+say We unfortunate souls who survived eventually ended up here.              
+3
+say The standard itself is deep green in color and decorated with three embroidered golden swords. 
+3
+say It is placed in an ornate wooden case...
+2
+ponder
+3
+say I suppose... If you could bring the case as well I might give you an even bigger reward.
+5
+say You should start searching somewhere near Karthay. That is all I know. It might be lost forever, but if it is not it would mean a lot to our entire tribe.
+8
+emote turns around and starts flipping through an old book, clearly this conversation is over.

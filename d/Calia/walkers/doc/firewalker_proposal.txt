@@ -1,0 +1,226 @@
+Detailed look at the Firewalkers.
+
+For reference, here is the old spell list:
+
+Everywhere in this document, when I refer to a potion being a component,
+it means that you quaff the potion, then you can keep casting the spell
+as long as the potion lasts.
+
+
+-Tell line. 5 mana. Component: Collectible at guild.
+-Name forget. 24 mana. Target forgets you. Component: Collectible at guild.
+-Alcohol. Duration 4 minutes. 28 mana. Summons a container of alcohol.
+Component: A potion made out of water and poison ivy.
+-Blind. Duration 40 seconds. 46 mana. Targets LIVE_I_SEE_DARK property is
+reduced by 10, usually causing blindness. Needs laminaria to cast.
+-Peace. 46 mana. Caster makes peace with all enemies. Component: A potion
+made out of water and elkhorn kelp. 
+-Wall of fire. Duration 3 minutes. 96 mana. Blocks an exit. Component:
+Potion made out of fucus and water.
+-Fire shield. Duration 10 minutes. 80 mana. Creates a shield around caster
+of AC 30. Component : Potion out of water and bull kelp.
+-Healing. 120 mana. Heals 100 + guildstat/2 hp. Component: Fireweed and
+brown slime.
+-Flame arrow. 64 mana. A bolt of 300 pen. Component: Potion made out of
+components collectible at guild, and alcohol.
+-Light. 24 mana. Duration 5 minutes. Component: Collectible at guild.
+-Fireball. 96 mana. A bolt of 400 pen. Component: Potion made out of
+coral alga and alcohol.
+-Nightvision. 96 mana. Duration 10 minutes. 2 levels of LIVE_I_SEE_DARK.
+Component: Potion made out of sea lettuce and water.
+-Flame wind. 120 mana. Bolt with 500 pen. Component: A potion made out of
+salt wort and alcohol.
+-Invisibility. 150 mana. Duration 15 minutes. Standard invisibility and
+a level of LIVE_I_SEE_INVIS. Component: Potion of sea bubble and alcohol.
+-Resist fire. Duration 3 minutes. 130 mana. Gives fire resistance of 45. 
+Component: Potion of sargassum and water.
+-Daylight. Duration 8 minutes. 88 mana. Provides 2 levels of light. 
+Requires laminaria to cast.
+-Shapechange. 150 mana. Lasts until out of mana, drains 25 mana every
+100 seconds. Only technical effect is disguise. Component: A potion with
+fireweed and alcohol.
+-Column of fire. 216 mana. Bolt with 600 pen. Component: A potion with
+sargassum, poison ivy and alcohol.
+-Nova. 216 mana. Bolt with 900 pen that hits all enemies. You need to be
+shapechanged to use it. Component: Potion with laminaria, surf grass
+and alcohol.
+-Flame weapon. 4 minutes. 152 mana. Increases a weapons hit and pen with
+10, with a limited number of uses on a particular weapon. Uses a potion
+with laminaria, fireweed and alcohol. 
+
+All spells require the skills channeling and SS_ELEMENT_FIRE. Channeling
+is a special Walker skill that's used as form skill for all the spells.
+The spells "Flame weapon", "Resist fire", "Invisibility", "Nightvision",
+"Light", "Fire shield", "Heal" and "Alcohol" can be cast on any target, 
+not just self.
+
+
+The numbers used here should be considered a rough guess at the spells
+power - They will be tweaked of course. If the proposed 
+components/mana cost aren't considered to be in tune with the power 
+of the spell, it would as a rule be more desirable to up the 
+components/mana cost than reduce the spell power.
+
+Proposed revised spell list:
+
+-Tell line. Only a cosmetic change here. It will appear as a fire 
+spirit whispering a message to the recipent - thus visible to others
+in the room. Conjuration spell.
+-Light. Only cosmetic change, except no longer castable at others
+than self. Not stackable. Conjuration spell.
+-Blind. Component change to the herb smooth camas. Conjuration spell.
+-Wall of fire. Blocks an exit. Players with enough dis can pass, but
+take damage. Dis needed could be equal to three fourths of casters
+intelligence. Damage could be resolved by a hit_me with five times
+casters int as pen, or negative heal_hp of three times casters int.
+Component is now a potion made out of alcohol and gray willow.
+Mana unchanged. Conjuration spell.
+-Flame shield. Doesn't offer any defensive bonus as such, but damages
+attackers with each hit they make. The shield provides a level of 
+light also. The damage the attacker takes with each melee blow would 
+be equal to the damage the blow dealt, with a certain maximum 
+dependent on the Walkers skills/stats. Component: Cranberry and some 
+collectible item from the guild. Mana cost and duration unchanged, 
+and it cannot be cast on others than self. Conjuration spell.
+-Flame arrow. Bolt, with a penetration of :
+2*guildstat + fire skill + dex + conjuration skill, to a maximum
+of 500. The bolt can be aimed at a certain location, and if this 
+location is unarmoured, the bolt receives +40% pen. A potion
+mixed out of fireweed and alcohol would be the component. Mana
+cost 75. Conjuration spell.
+-Enrage. Target gets a 50% increase in discipline, and a 50%
+reduction of dexterity. When the spell wears off after five 
+minutes, the target should lose 90% of fatigue points. 
+Only works if target is fighting, and the spell can't be "stacked".
+Mana cost: 110. Component: the herb chicory and some component 
+collectible at the guild. Enchantment spell.
+-Resist fire. Same as the old spell, except that the duration goes
+up to five minutes, and the component is now just the herb
+fireweed, not a potion. It can still be cast on others to protect
+them. Abjuration spell.
+-Flame wind. Bolt, with a penetration of two times the penetration
+of the "Flame arrow" spell, to a max of 1200. All armours the target
+is wearing, that aren't magical or above AC 20, are consumed by the 
+spell. Mana cost 160, component is a potion of fireweed, gray willow
+and alcohol. Conjuration spell.
+-Luminosity. Walker becomes as bright as the sun, emitting 5 light
+levels. Not stackable, 80 mana, component is black currant. Duration
+is 15 minutes. Enchantment spell.
+-Flame weapon. Summons a staff of flame. It's a polearm with a
+hit and pen of: (guildstat + fire skill + conjuration skill) / 5.
+Max is 60/60. It will have special hit descriptions and do a
+heal_hp of -random(150) with each blow that hits. The spear can't 
+be un-wielded for the duration (though it is possible to dismiss 
+it), nor given away. Duration is 20 minutes. Mana cost 120.
+Components: Fireweed and cladina. Conjuration spell.
+-Fire spirit. A vengeful fire spirit arrives and hunts a target.
+This won't be an NPC as such, but keeps damaging the target for a
+duration. It would deal damage somewhere between 10 and 20 times,
+with 5-10 seconds between each time. A hit_me of 300-400 pen
+each time. This spell *can* be stacked. Mana cost: 180. Component
+is a potion of fireweed, black currant, poison ivy and alcohol.
+Conjuration spell.
+-Burst of light. Blinds and does add_attack_delay to all others 
+in the room. Attack delay is half the duration of the blindness.
+Blindness lasting 30-60 seconds. Mana cost 150. Components are
+Chicory and beaked sedge. Conjuration spell.
+-Fire storm. This is a bolt that hits all present enemies. Damage would
+be equal to the "Flame wind" spell except with a ceiling of 1500. Mana
+cost 200. Component: Potion of fireweed, chantrelle, grey willow and
+alcohol. Conjuration spell.
+-Hellscape. Room temperature increases by a couple of hundred degrees
+or so. People with high fire resist are safe, others keep taking damage.
+The caster is not excluded from the effect, unless of course he cast
+resist fire on himself first. The damage is equal to a random number
+between 100 and 200 every 5-10 seconds for 15-20 times. This spell 
+can't be stacked. Since NPCs do not normally know to move out of 
+danger, the spell would include code to give a certain % chance for
+an NPC to try and flee with each time damage is dealt. Mana cost:
+220. Component: Onoclea, cladina and poison ivy. Enchantment spell.
+
+The Walker guild will have a total of six cooperative spells, only
+usable with two Walkers present of different elements. These spells
+have not yet been planned in detail, but here's a preliminary
+suggestion for the ones involving fire:
+
+-Fire/Water: Boiling blood. Persistent damage spell.
+-Fire/Air: Flaming chariot. Summons a chariot that can fly to any
+outdoor location in the Realms that has been marked. Up to four
+Walkers can board it.
+-Fire/Earth: Lava globule. Bolt spell, destroys equipment randomly.
+
+Component rarity and value:
+
+Only in Eldoral:
+-Onoclea, find 6, value 365.
+-Chantrelle, find 9, value 160.
+
+Calian moors:
+-Fireweed, find 8, value 1232
+-Grey willow, find: 4, value 214. 
+-Cladina, find: 7, value 930.
+-Chicory, find 5, value 564.
+-Cranberry, find: 4, value 246. 
+-Black currant, find 4, value 40.
+-Smooth camas, find: 7, value 20.
+
+Beach:
+-Poison ivy, find 2, value 10.
+
+
+
+As you can see, a Firewalker gets a good deal of offensive versatility,
+but no tools with which to get out of trouble other than trying to
+kill what's hurting him. On this list there are 14 spells, while the
+old one had 20. The more powerful spells need more components than
+before, but mana costs have been reduced overall. I haven't done a tax
+appraisal yet, and to tell the truth it doesn't concern me greatly
+where we end up with respect to tax. I think most players will pay
+tax to have more fun (at least the ones we want in this guild).
+
+The main thing with the skill change is to make use of the form
+skills instead of the old channeling skill, which was something of
+an easy way out. Combat skills have been reduced, though not entirely
+removed, as I don't see it as possible to function in Genesis without
+some kind of combat skill. Polearm is the obvious choice to me, as
+axes, swords and maces are really fighters weapons. Of course, halberds
+are fighters weapons too, but at least staves are included in the
+polearm category. Polearms also have long reach, so one can keep
+out of harms way. 
+
+
+
+Skill changes:
+
+Old skill list:
+
+Channeling: 100.
+Spellcraft:  90.
+Fire magic:  90.
+Alchemy:     90.
+Language:    75.
+Awareness:   75.
+Herbalism:   75.
+Defence:     70.
+Polearm:     50.
+
+New proposed skill list:
+
+Magic ritual:100.
+Spellcraft:   90.
+Fire magic:   90. 
+Alchemy:      60. (+20 if specialized)
+Conjuration:  80.
+Enchantment:  60.
+Abjuration:   40.
+Language:     70. (+20 if specialized)
+Awareness:    70.
+Herbalism:    70. (+20 if specialized)
+Defence:      50.
+Polearm:      50.
+
+        
+The magical ritual skill is for using cooperative magic. The
+level/title system the guild will use is in 
+~Calia/walkers/WalkerTitles.txt.
+

@@ -1,0 +1,21 @@
+Name:           Soothe
+Object:         /d/Terel/cedric/guild/power/soothe
+Cost:           50 mana, Components: instrument, songbook.
+Casting Time:   5
+Skills:         SS_DEX, SS_DIS, SG_READ_MUSIC, SG_VOCAL, SG_INSTRUMENTAL
+Resolution:     Result = resolve_task(TASK_ROUTINE - 100, ((SS_DEX +
+			 SG_INSTRUMENTAL) + (SS_DIS+SG_VOCAL) + Guild_Stat*2))
+Failure:        Result = -1   the song fails completely;
+			  0   the song couldn't be played;
+			 1-20 the song succeeds somewhat but with possible 
+			      accompanying instrument damage.
+			 >20  the song succeeds completely.
+
+Description:    A song of healing.
+		Amount of damage healed = (50 + Result/2) * Effectiveness 
+		modifier.  Effectiveness modifier is a function of the 
+		condition of the instrument (or vocal chords) and whether or 
+		not the performer is part of a choir.  It is expressed as a 
+		percent.  Amount of damage healed will not be > 200.  
+Duration:       Permanent.
+Requirements:   SG_READ_MUSIC > 20

@@ -1,0 +1,231 @@
+EAST village, examinable items:
+
+1.  view, surroundings
+2.  ground , floor, path, paths, road, roads, substance, mud
+3.  tower, stone tower, watch tower, watchtower, sentinel
+4.  lake, loch, loch rannoch, lake rannoch, rannoch
+5.  mountain, mountains, range, mountain range, spine,
+    peaks, peak
+6.  village
+7.  western village, western half, western half of village,
+    lower village, lower half, lower half of village
+8.  wall, walls, village wall, village walls, high wall, high wooden wall,
+    wooden wall, defences, village defences
+9.  hills, hill
+10. river, stream, flow, inlet
+11. woods, forest, trees, woodlands, carpet, vegetation
+12. shoreline, shore
+13. west shoreline, western shoreline, strip, narrow strip,
+    western shore, western shore
+14. north shoreline, northern shoreline, north shore, northern shore
+15. east shoreline, eastern shoreline, wall of rock, rock wall, east shore, eastern shore
+16. south shoreline, southern shoreline, south shore, southern shore
+17. reflection, reflections, images, image
+18. cliff, cliffs, cliffside, cliffsides, rocks
+19. hilltop, top of the hill, summit, hill summit
+20. roof, roofs, thatch, straw, grass
+21. house, houses, buildings, building
+22. door, doors, entrance, entrances
+23. shutter, shutters, window, windows, closed shutter, closed shutters
+24. alley, alleway, alleys, narrow alley
+
+EAST village, default long desc:
+
+You are in the eastern half of the village, where
+narrow roads wind between the many houses and up
+the hill eastwards. You can get a good sight of
+your surroundings from up here, the lake being
+what dominates the scene. All around you are the
+homes of the villagers, in different sizes and shapes
+
+EAST village, room tells: 56 (150)
+
+*********************************
+
+WEST village, examinable items:
+
+1.  view, surroundings
+2.  ground, floor, path, paths, road, roads
+3.  plank, planks,wide plank, wide planks, wooden plank, wooden planks
+4.  tower, stone tower, watch tower, watchtower, sentinel 
+5.  lake, loch, loch rannoch, lake rannoch, rannoch, inlet 
+6.  mountain, mountains, range, mountain range, spine, peaks, peak
+7.  village
+8.  wall, walls, village wall, village walls, high wall, high wooden wall,
+    wooden wall, defences, village defences
+9.  hills, hill
+10. river, stream, flow, inlet
+11. woods, forest, trees, woodlands, carpet, vegetation
+12. shoreline
+13. west shoreline, western shoreline, strip, narrow strip
+14. north shoreline, northern shoreline
+15. east shoreline, eastern shoreline, wall of rock
+16. south shoreline, southern shoreline
+17. reflection, reflections, images, image
+18. cliff, cliffs, cliffside, cliffsides, rocks
+19. hilltop, top of the hill, summit, hill summit
+20. house, houses, building, buildings, warehouse, warehouses, barn, barns,
+    fishing shed, fishing sheds, shed, sheds,
+    boat-house, boat house, bouthouse, boat-houses, boat houses, boathouses
+21. roof, roofs, thatch
+
+WEST village, default long desc:
+
+You are in the western half of the village, where
+straight paths wind between the buildings. This half
+of the village contains mostly warehouses, barns,
+boat-houses, fishing sheds, probably a tavern,
+and finally the marketplace.
+
+EAST village, room tells: 47 (150)
+
+*************
+SPECIAL ROOMS
+*************
+
+The Walkway Pub
+/d/Khalakhor/se_speir/rannoch/village/pub.c
+/d/Khalakhor/se_speir/rannoch/village/pub_kitchen.c
+/d/Khalakhor/se_speir/rannoch/village/pub_terrace.c
+
+The barkeep doesn't appear right away...annoying
+You can buy stuff without barkeep present
+
+* Actions needed (pub):
+  read plaque, sit
+* Actions needed (terrace):
+  look below at walkway (by examining it), order by shouting
+
+***************************************************
+The Smithy (needs major overhaul)
+/d/Khalakhor/se_speir/rannoch/village/smith_forge.c
+/d/Khalakhor/se_speir/rannoch/village/smith_store.c
+
+***************************************************
+
+The bank (done, maybe small additions)
+/d/Khalakhor/se_speir/rannoch/village/bank.c
+
+* Actions needed:
+  open drawer, open window, rob banker 
+
+***************************************************
+
+The marketplace (needs lots of work)
+/d/Khalakhor/se_speir/rannoch/village/h_04.c
+
+***************************************************
+
+The western inn (not even started)
+/d/Khalakhor/se_speir/rannoch/village/inn_01.c
+/d/Khalakhor/se_speir/rannoch/village/inn_02.c
+
+***************************************************
+
+The western gate (needs work)
+/d/Khalakhor/se_speir/rannoch/village/i_00.c
+
+***************************************************
+
+The eastern gate (needs work)
+/d/Khalakhor/se_speir/rannoch/village/a_16.c
+
+***************************************************
+
+The tower (needs look)
+/d/Khalakhor/se_speir/rannoch/village/g_18.c
+
+***************************************************
+
+The end of the alley + alleyway (needs look)
+/d/Khalakhor/se_speir/rannoch/village/e_13.c
+/d/Khalakhor/se_speir/rannoch/village/d_14.c to d_16.c
+
+***************************************************
+
+Square (needs look)
+/d/Khalakhor/se_speir/rannoch/village/g_15.c
+
+***************************************************
+
+Large house (need contents or shut)
+/d/Khalakhor/se_speir/rannoch/village/f_05.c
+
+***************************************************
+
+All rooms with main road (needs look)
+/d/Khalakhor/se_speir/rannoch/village/g_09.c to g_17.c
+
+***************************************************
+
+Garbage room (done, too disgusting maybe?)
+/d/Khalakhor/se_speir/rannoch/village/f_08.c
+
+***************************************************
+
+Piers (needs look)
+/d/Khalakhor/se_speir/rannoch/village/k_02.c
+/d/Khalakhor/se_speir/rannoch/village/k_03.c
+/d/Khalakhor/se_speir/rannoch/village/l_03.c
+/d/Khalakhor/se_speir/rannoch/village/k_04.c
+/d/Khalakhor/se_speir/rannoch/village/c_10.c
+
+***************************************************
+
+Bridge (needs look)
+/d/Khalakhor/se_speir/rannoch/village/g_08.c
+
+***************************************************
+
+All walkway rooms (needs look, possible new basefile)
+/d/Khalakhor/se_speir/rannoch/village/j_11.c
+/d/Khalakhor/se_speir/rannoch/village/j_12.c
+/d/Khalakhor/se_speir/rannoch/village/i_13.c
+/d/Khalakhor/se_speir/rannoch/village/i_14.c
+/d/Khalakhor/se_speir/rannoch/village/j_14.c
+/d/Khalakhor/se_speir/rannoch/village/k_15.c
+/d/Khalakhor/se_speir/rannoch/village/k_16.c
+/d/Khalakhor/se_speir/rannoch/village/j_16.c
+/d/Khalakhor/se_speir/rannoch/village/i_17.c
+/d/Khalakhor/se_speir/rannoch/village/h_17.c
+
+***************************************************
+
+Stair leading to walkway (needs look)
+/d/Khalakhor/se_speir/rannoch/village/1_10.c
+
+***************************************************
+NPCS
+***************************************************
+Bathar - Landlord of the Walkway Inn.
+/d/Khalakhor/se_speir/rannoch/npc/bathar.c
+
+*Former fisherman celebrity, fought the Blackfish
+*Talk of an artist named Ealanta, who made some paintings for him. One of
+ the paintings is special.
+*His granddaughter Seile is very interested in that painting. She hangs
+ with her fellow adventurous friends somewhere in town.
+
+Problems:
+* Does not show up properly
+* Does not wear his stuff
+* Not sure about him running away and such, thinking of just making him a 
+  badass fighter (for an old guy) instead
+* Updating the room creates error
+
+Future:
+* Be part of a quest involving the painting
+
+********************************************
+Ceard - village Blacksmith
+d/Khalakhor/se_speir/rannoch/npc/ceard.c
+
+Just a standard blacksmith
+
+Future:
+* Special weapons/armor
+********************************************
+
+
+
+

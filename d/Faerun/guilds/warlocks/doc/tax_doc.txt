@@ -1,0 +1,699 @@
+*****************************************************************************
+             TAX INFORMATION FOR THE WARLOCKS OF FAERUN (Layman)
+*****************************************************************************
+AG = Adventures Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)
+			 
+			 
+ ¤- A warlock can select an offensive position (default offensive), or a 
+    defensive position (available after selecting patron), 
+    giving a 25/55% caid split in either direction, total combination is 
+    80% caid, which can't be surpassed. Requires a complete shutdown of 
+    all ongoing spell effects in order to switch mode.
+	
+ ¤- A warlock may select 1 of 3 of the spells in the specialized 
+    tier (4 tiers, pact magic), totalling of 18 spells available of 22, 
+    and therefore taxed only for 18.
+    
+ ¤- All spells except specialized shields (first tier) and the harm spells
+    use components that cost over 1 gold each at average. They herb, buy 
+    and collect 3 components in order to form 1 charm, which when sacrificed, 
+    gives the warlock x charges for that particular spell to cast, similar 
+    to MM potions.
+    
+ ¤- Warlocks are inspired and slightly based on the Warlocks from d&d 5th 
+    edition. Hence many of the spells and invocations found their way here
+    as spells, some with altered functionality.
+    
+ ¤- A member is ranked as "Follower" until rank 7 in guildstat & after  
+    have selected a patron. The "follower"-ranks give spells per 10
+    guildstat, but this changes when the player go full Warlock. Only
+    rituals can unlock more spells for a Warlock. A ritual is possible
+    only in a specia location related to their patron. It requires that
+    the Warlock is "primed" by doing consume/immolate/desecrate on eligible
+    targets/items, which make them eligible for a ritual. Rituals are
+    different for each patron, but functions the same for gainint spells.
+    
+    Once primed, the Warlock can perform the ritual and gain 1 
+    ritualpoint. The cooldown between each ritual is 5 hours, and
+    the warlock must be 'primed' again.
+    
+    The default/lowest setting for the ritual-point is 6, and the
+    scale go from 6 to 60. See Ritual_level in the spells to see
+    how many rituals are necessary to unlock them.
+    
+    
+
+
+                   max level   taxed(AG)    taxable    modifier      tax
+--------------------------------------------------------------------------
+General
+--------------------------------------------------------------------------
+SS_ELEMENT_AIR         50         20          30          1.0        0.500
+SS_ELEMENT_WATER       50         20          30          1.0        0.500
+SS_ELEMENT_EARTH       50         20          30          1.0        0.500
+SS_FORM_ABJURATION     50         20          30          1.0        0.500
+SS_FORM_CONJURATION    50         20          30          1.0        0.500
+SS_FORM_ENCHANTMENT    50         20          30          1.0        0.500
+SS_FORM_TRANSMUTATION  50         20          30          1.0        0.500
+SS_FORM_ILLUSION       50         20          30          1.0        0.500
+SS_FORM_DIVINATION     50         20          30          1.0        0.500
+SS_SPELLCRAFT          60         20          40          1.0        0.667
+SS_HERBALISM           50         20          40          1.0        0.667
+--------------------------------------------------------------------------
+Totals                560        220         350                     5.834%
+
+Taxable Slots Allowed   : 350. Used: 350.
+
+TOTAL TAX FOR SKILLS:  5.834%
+
+
+Spell Name      Tax
+====================================================================
+Gate                                0.375 %     (Teleport home)             
+Ascend Step                         0.1875%     (Leave no footprints)        
+Coldlight                           0.1875%     (Light aura)            
+Witchstep                           0.1875%     (Featherweight)           
+Sculptor of Flesh                   0.750 %     (Stat boost)                               
+....................................................................
+Consume / Immolate / Desecrate      0.1875%     (Primarily cosmetic)
+Disenchant                          0.375 %     (Identify + destroy object)   
+Mask of Many Faces                  0.1875%     (Disguise)                   
+Eldritch Sight                      0.350 %     (See darkness/invisible)               
+False Life                          0.1875%     (Appear at feeling very well)
+Rejuvenation                        0.75  %     (Heal)                    
+Scry                                0.375 %     (Scry distant target)       
+Warp Reality                        0.750 %     (Haste)                       
+Hex                                 0.1875%     (Enemy appear gravely wounded) 
+Infusion                            0.1875%     (Fatigue restoration)                
+
+..........Specialization spells. Select 1 of 3 per tier..............
+barkskin/a.agathys/spikes           1.5   %     (Ac/evade/damageshield)       
+Aversion/spook/dread                0.375 %     (Fear, 2 races per type)       
+mist/a.shadows/shroud               0.750 %     (Resist shield, 2 per type)    
+witchbolt/dream/detonate            1.5   %     (Harm nuke)                                      
+=====================================================================
+Total                               9.3   %
+
+
+Combat aid will be taxed for the entire guild's maximum of 80%
+
+TOTAL TAX FOR COMBAT AID:           Warlock CAID:  80% / 25 =  3.20%
+
+
+           |skills       |spells       |combat aid   |    TOTAL
+-----------|-------------|-------------|-------------|---------
+TOTAL TAX: |5.667%   +   |9.3%   +     |3.20%        | =  18.1334%
+                                                     |
+                                                     |    18% rounded down.
+                                                          =================
+                                                          =================
+
+
+
+
+
+========================================
+WARLOCK SPELLS DESCRIPTION
+========================================
+
+
+Gate (Teleport Home)
+======================
+Guild type          : Layman
+Effect              : Transports caster back to the Warlock guildhall.
+Spell Time          : 12 seconds
+Element             : Air
+Form                : Conjuration
+Mana cost           : 30
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : Yes
+Offensive           : No
+Renewable:          : N/A
+Difficulty          : TASK_ROUTINE
+Acquire Level       : Membes start with this spell.
+Spell Class Level   : Power 2 - Minor Spell
+Area of effect      : Self
+Duration            : Delayed Instant
+Components          : None
+Tax                 : 0.375%
+Special Description : None
+
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+                        (but set to 12 seconds)
+
+Tax Calculations:   + 0.50% (Power 2 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.375%
+
+                      
+Ascendant step (leaves no footprint)
+====================================
+Guild type          : Layman
+Effect              : Slightly levitates the player over ground. leaves
+                      no footprints.
+Spell Time          : 4 seconds
+Element             : Air
+Form                : Abjuration
+Mana cost           : 30
+Vocal               : Yes
+Visual              : no
+Stationary          : Yes
+Peaceful            : no
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 10 guild stat
+Spell Class Level   : Power 2 - Minor Spell
+Area of effect      : Self
+Duration            : Delayed Instant
+Components          : bone charm
+Tax                 : 0.375%
+Special Description : None
+
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 0.25% (Power 1 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.1875%
+
+                      
+Coldlight          (light aura)
+=====================
+Effect              : Creates an illuminating aura of light
+Element             : Water
+Form                : Conjuration
+Mana cost           : Default
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_EASY
+Acquire Level       : 30 guild stat
+Area of effect      : Caster
+Spell Class Level   : Power 2 - Minor Spell
+Components          : hardened fiery heart charm
+Tax                 : 0.1875%
+Special Description :
+
+
+
+Witchstep (Featherweight)
+=========================
+Guild type          : Layman
+Effect              : Reduces the overall weight of the user's carrying
+                      capacity. Based on the featherweight spell. Factor of
+                      140 set (means caster can carry 40% more things).
+Spell Time          : 4 seconds
+Element             : Earth
+Form                : Transmutation
+Mana cost           : Default
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 40 guild stat
+Spell Class Level   : Power 2 - Minor Spell
+Area of effect      : Self
+Duration            : Maintained
+Components          : bone charm
+Tax                 : 0.1875%
+Special Description : None
+
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 0.25% (Power 1 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.1875%
+
+
+
+Sculptor of Flesh (Stat Boosts)
+===============================
+Guild type          : Layman
+Effect              : Adds boost to Strength (20%), Constitution (20%),
+                      and Discipline (15%).
+Spell Time          : 4 seconds
+Element             : Earth
+Form                : Enchantment
+Mana cost           : 30
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_HARD
+Acquire Level       : 50 guild stat
+Spell Class Level   : Power 3 - Intermediate Spell
+Area of effect      : Self
+Duration            : Maintained
+Components          : hardened frosty heart charm
+Tax                 : 0.75%
+Special Description : Spell can have either 25% or 55% combat aid.
+
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 1.00% (Power 3 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.75%
+
+
+
+Disenchant        (Identify + destroy object)
+=============================
+Effect              : Identify + destroy object
+Element             : Air
+Form                : Divination
+Mana cost           : 30
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : N/A
+Difficulty          : TASK_ROUTINE
+Acquire Level       : Ritual_level: 6
+Area of effect      : One magical item
+Spell Class Level   : Power 2 - Minor Spell
+Components          : hardened gleamy heart charm
+CAID                : None
+Tax                 : 0.375%
+Special Description : This spell identifies the magical properties
+                      of an item, but also destroys it in the process.
+                      
+                      
+                      
+Consume / Immolate / Desecrate     (Sacrificial)
+=============================
+Effect              : Consume (eat an infant), Immolate (kill
+                      boys, girls, prisoners), Desecrate (destroy
+                      a piece of magical armor)                      
+Element             : Air
+Form                : Conjuration / enchantment
+Mana cost           : Default
+Vocal               : Yes
+Visual              : Yes
+Stationary          : Yes
+Peaceful            : No
+Offensive           : Yes / No
+Renewable:          : N/A
+Difficulty          : TASK_ROUTINE
+Acquire Level       : Ritual_level: 6
+Area of effect      : Caster
+Spell Class Level   : Power 2 - Minor Spell
+Components          : None / Targetted item
+CAID                : None
+Tax                 : 0.1875%
+Special Description : Spell (A warlock only gets one of these, depending
+                      on patron selection) performs a sacrifice to 
+                      prime the warlock for a ritual for their
+                      patron. The spell has 1000 seconds cooldowntimer,
+                      and only eligible on small npc's of certain type.
+                      This is their main method of spell advancement after
+                      becoming full warlocks. A ritual can be performed once
+                      per 5 hours if a warlock is primed.
+                      
+                      
+Mask of Many Faces        (Disguise)
+=============================
+Effect              : Alters the description of a player
+Element             : Air
+Form                : Illusion
+Mana cost           : 30
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : N/A
+Difficulty          : TASK_ROUTINE
+Acquire Level       : Ritual_level: 7
+Area of effect      : Caster
+Spell Class Level   : Power 2 - Minor Spell
+Components          : hardened gleamy heart charm
+CAID                : None
+Tax                 : 0.1875%
+Special Description : Spell mask the player's appearance and sets LIVE_I_NEVERKNOWN
+                      since the "new" person is alien/unknown to others. May break
+                      combat since it doesn't make any sense for an hunting agent
+                      to randomly assault unknown denizens.
+
+
+
+Eldritch sight (see invis and darkness)
+=====================
+Effect              : See invisible creatures, and in darkness
+Element             : Air
+Form                : Enchantment
+Mana cost           : Default
+Vocal               : Yes
+Visual              : No
+Stationary          : No
+Peaceful            : No
+Offensive           : No
+Renewable:          : N/A
+Difficulty          : TASK_ROUTINE
+Acquire Level       : Ritual_level: 10
+Area of effect      : One present target
+Spell Class Level   : Power 2 - Minor Spell
+Components          : hardened black heart charm
+CAID                : 20
+Tax                 : 0.35%
+Special Description :
+
+
+
+False life (Appear healthy. Illusion)
+=====================
+Effect              : Caster appears at feeling very well
+Element             : Air
+Form                : Illusion
+Mana cost           : 30
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : N/A
+Difficulty          : TASK_ROUTINE
+Acquire Level       : Ritual_level: 13
+Area of effect      : Self
+Spell Class Level   : Power 2 - Minor Spell
+Components          : hardened rotten heart charm
+CAID                : None
+Tax                 : 0.1875%
+Special Description :
+
+
+
+Rejuvenation (Healing)
+======================
+Guild type          : Layman
+Effect              : Restores lost HP
+Spell Time          : 8 seconds
+Element             : Water
+Form                : Enchantment
+Mana cost           : Default
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No (Not even against undead)
+Renewable:          : N/A
+Difficulty          : TASK_HARD
+Acquire Level       : Ritual_level: 16
+Spell Class Level   : Power 3 - Intermediate Spell
+Area of effect      : Selected target
+Duration            : Instant
+Components          : hardened blood-soaked heart charm
+Tax                 : 0.75%
+Special Description : Spell can have either 25% or 55% combat aid
+
+
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 1.00% (Power 3 Spell / Layman)
+                    * 0.75% (Component >= 1gp))
+                    =======
+                      0.75%
+
+
+Scry
+============
+Effect              : Discern a player's location.
+Element             : Air
+Form                : Divination
+Mana cost           : Default
+Vocal               : Yes
+Visual              : Yes
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Acquire Level       : Ritual_level: 20
+Area of effect      : One target anywhere
+Spell Class Level   : Power 2 - Minor Spell
+Components          : bone charm
+CAID                : None
+Tax                 : 0.375%
+Special Description :
+
+
+
+Warp Reality (Haste)
+======================
+Guild type          : Layman
+Effect              : Adds haste ability with combat aid of 25 / 55% to
+                      the caster
+Spell Time          : 4 seconds
+Element             : Earth
+Form                : Enchantment
+Mana cost           : 30
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_HARD
+Acquire Level       : Ritual_level: 24
+Spell Class Level   : Power 3 - Intermediate Spell
+Area of effect      : Self
+Duration            : Maintained
+Components          : bone charm
+Tax                 : 0.75%
+Special Description : Spell can have either 25% or 55% combat aid.
+
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 1.00% (Power 3 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.75%
+
+
+Hex                (illusion, curse)
+====================
+Effect              : Makes target appear in bad health
+Element             : Water
+Form                : Illusion
+Mana cost           : 30
+Vocal               : Yes
+Visual              : Yes
+Stationary          : No
+Peaceful            : No
+Offensive           : No
+Difficulty          : TASK_ROUTINE
+Acquire Level       : Ritual_level: 28
+Area of effect      : One present living target
+Spell Class Level   : Power 2 - Minor Spell
+Components          : bone charm
+Tax                 : 0.1875%
+Special Description : This spell causes the target to appear in          
+                      terrible shape. Illusion.
+
+
+Infusion (Restores fatigue)
+=======================================
+Effect              : Restores fatigue
+Element             : Air
+Form                : Illusion
+Vocal               : Yes
+Visual              : Yes
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Difficulty          : TASK_ROUTINE
+Acquire Level       : Ritual_level: 32
+Area of effect      : One present target
+Spell Class Level   : Minor Spell
+Components          : flat x bone charm
+CAID                : None
+Tax                 : 0.1875%
+Special Description :
+
+
+-------------------SPECIALIZED SPELLS. A player selects 1 of 3 per tier.-----
+
+Barkskin (ac) / Armor of Agathys (evade) / Spikes (damageshield)
+================================================================
+Guild type          : Layman
+Effect              : Creates 3 different shields, depending on
+                      specialization.
+Spell Time          : 4 seconds
+Element             : Varies (earth, water, air)
+Form                : Abjuration
+Mana cost           : Default
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_HARD
+Acquire Level       : Ritual_level: 38
+Spell Class Level   : Power 3 - Intermediate Spell
+Area of effect      : Self
+Duration            : Maintained
+Components          : None
+CAID                : 25 / 55%
+Tax                 : 1.5%
+Special Description : None
+
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Somatic)
+                    =====
+                        8 seconds (minimum)
+
+Tax Calculations:   + 1.00% (Power 3 Spell / Layman)
+                    * 1.5   (no components)
+                    =======
+                      1.5%
+
+
+Aversion / Spook / Dread
+==================================================
+Guild type          : Layman
+Effect              : Fears the target
+Element             : Varies
+Form                : Illusion
+Mana cost           : Default
+Vocal               : Yes
+Visual              : Yes
+Stationary          : No
+Peaceful            : No
+Offensive           : Yes
+Renewable:          : No
+Acquire Level       : Ritual_level: 44
+Area of effect      : One opponent in same room
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : Curved heart charm
+CAID                : N/A
+Tax                 : 0.375%
+Special Description : Each type of spell can fear 2 base races.
+
+
+
+Mist / Armor of Shadows / Shroud   (resistance shield)
+======================================================
+Guild type          : Layman
+Effect              : Adds 25% / 55% combat aid worth of elemental
+                      resistance for fire, earth, water, air, death and life
+					 (varies, 2 elements per spell)
+Spell Time          : 4 seconds
+Element             : Varies
+Form                : Abjuration
+Mana cost           : 30
+Vocal               : Yes
+Visual              : Yes
+Stationary          : No
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_ROUTINE
+Acquire Level       : Ritual_level: 50
+Spell Class Level   : Power 3 - Intermediate Spell
+Area of effect      : Self
+Duration            : Maintained
+Components          : curved bone charm
+CAID                : 25 / 55%
+Tax                 : 0.75%
+Special Description : Do not mix meta and physical resistances.
+
+
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 1.00% (Power 3 Spell / Layman)
+                    * 0.75% (Component >= 1 gp)
+                    =======
+                      0.75%
+
+
+Witchbolt / Dream / Detonate (nuke)
+===================================
+Guild type          : Layman
+Effect              : Attacks a single enemy with water/illusion/earthbased attacks
+                      Combat aid of 55% given for harm-based spell.
+Spell Time          : 4 seconds
+Element             : Varies
+Form                : Illusion
+Mana cost           : 30
+Vocal               : Yes
+Visual              : Yes
+Stationary          : No
+Peaceful            : No
+Offensive           : Yes
+Renewable           : N/A
+Difficulty          : TASK_HARD
+Acquire Level       : Ritual_level: 60
+Spell Class Level   : Power 3 - Intermediate Spell
+Area of effect      : One opponent in same room
+Duration            : Instant
+Components          : None
+CAID                : 25 / 55%
+Tax                 : 0.750%
+Special Description : Spell can have either 25% or 55% combat aid
+
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 1.00% (Power 3 Spell / Layman)
+                    * 1.5% No components
+                    =======
+                      1.5%
+
+                      
+                      
+Documented by Nerull, September 2017
+Revised by Nerull, October 2017
+Revised by Nerull, February 2018
+Revised by Nerull, 1 June 2018. Post-AoB Review.

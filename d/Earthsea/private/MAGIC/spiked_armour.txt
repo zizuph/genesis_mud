@@ -1,0 +1,12 @@
+Name: blacked spiked platemail
+File: /d/Earthsea/gont_city/arm/bl_platemail.c
+Armour Class: 50
+Special:
+    The armour is enchanted to be abnormally strong and has 
+    protruding spikes covering it that inflicts damage at
+    its wearers attackers with 40 pen.
+Props:
+    OBJ_I_IS_MAGIC_WEAPON, OBJ_S_WIZINFO, MAGIC_AM_ID_INFO, 
+    MAGIC_AM_MAGIC
+Obtainability: 
+    Obtained from a difficult to find and kill smuggler leader

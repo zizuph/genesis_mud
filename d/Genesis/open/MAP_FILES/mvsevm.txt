@@ -1,0 +1,249 @@
+main
+::MAPDATA::
+entrance 8 16 entrance
+lobby 8 16 lobby
+booth 8 16 lobby
+vip_entrance 8 16 lobby
+escalator 8 16 lobby
+landing 8 16 level1
+escalator_down 8 16 level1
+c_west 8 16 level1
+c_hole 8 16 level1
+partyroom 8 16 level1
+c_northwest 8 16 level1
+stew_chamber 8 16 level1
+c_north 8 16 level1
+poetry_exhibit 8 16 level1
+stamp_exhibit 8 16 level1
+c_northeast 8 16 level1
+easter_chamber_2005 8 16 level1
+egg_room_2013 8 16 level1
+c_east 8 16 level1
+costume_shop 8 16 level1
+lottery_room 8 16 level1
+souvenir_shop 8 16 level1
+exit 8 16 level1
+c_southa 8 16 level1
+c_south 8 16 level1
+c_south2 8 16 level1
+c_south4 8 16 level1
+chasm 8 16 level1
+shrine 8 16 level1
+skull_chamber 8 16 level1
+c_south3 8 16 level1
+construction 8 16 level1
+garden_entrance 8 16 level1
+garbage_chamber 8 16 level1
+garden_shaft 8 16 level1
+slide_room 8 16 garden
+sliding_down 8 16 garden
+gardener_room 8 16 garden
+mortal_controlroom 8 16 garden
+wizard_room 8 16 garden
+g00 8 16 garden
+g01 8 16 garden
+g02 8 16 garden
+g03 8 16 garden
+g04 8 16 garden
+fountain 8 16 garden
+g05 8 16 garden
+g06 8 16 garden
+g07 8 16 garden
+g08 8 16 garden
+g09 8 16 garden
+g10 8 16 garden
+g11 8 16 garden
+g12 8 16 garden
+g13 8 16 garden
+g14 8 16 garden
+::MAPDATA::
+                          =====================
+                           The City of Sparkle
+                              Hub of Genesis    
+                          =====================
+     (Please note, due to increased traffic, the city is currently under 
+   construction in many areas to meet the demands of local commerce. Expect
+    changes to occur to this map and the city structure without warning.)
+                   . . . . . . . . . . . . . . . . . . . . . . . . . . .      
+     . . . . . . . .                     .                             .
+     .             .                     .           All major Ports   .
+     .  o - o      .                     .           of Call can be    .
+     .  |          .                     .           reached via these .
+     .- o  Town    .    o - o - o - o - o.- o - o    various shipping  .
+     .  | Center   .    |                .      |    lines.            .
+     .  o          .    o                .      o                      .
+     .  |          . .  |    Western     .                             .
+     .  o - o - o - o.- o     Docks      .   Eastern Docks             .
+     .               .  |                .                             .
+     . . . . . . . . .  o - o - o - o - o.- o - o - o - o - o - o - o  .
+                     .      |            .                             .
+                     . . . .|. . . . . . . . . . . . . . . . . . . . . .
+
+::NEWMAP::
+entrance
+::MAPDATA::
+entrance 45 19
+::MAPDATA::
+____________________________________________________________________________
+|                                                \                          |
+|               ||\  \                            \                         |
+|               || \  \                            \                        |
+|              |  ||\  \_ _ _ _ _ _ _ _ _ _ _ _ _ _ _                       |
+|              |  |o/\ /                              \                     |
+|              |  (  |\||        M V S E V M         ||                     |
+|              |  |` o/||_ _ _ _ _ _ _ _ _ _ _ _ _ _ ||                     |
+|             |    |( |  | \o/ \o/     \o/ \o/ \o/ ||  |                    |
+|             |    |\`|  | { } ( ) [  ]( ) { } ( ) ||  |                    |
+|             |    | \|  |_`_`_`_`_['']`_`_`_`_`_`_||  |                    |
+|             |    |  |  | _ _ _ _ \==\ _ _ _ _ _ _ |  |                    |
+|             |    | |    |   o    \====\    o     |    |                   |
+|                  \ |    |   </   |\====\  \>     |    |                   |
+|                   \|    |  /\    | \====\  /\    |    |                   |
+|                    |    |_ _ _ _ | \======\ _ _ _|    |                   |
+|                    |    |[[[[[[[[|  \======\]]]]]|    |                   |
+|                                      \======\                             |
+|                                      \========\                           |
+|                                       \====o===\                          |
+|                                        \========\                         |
+|                                         \========\                        |
+|                                      |\  \========\                       |
+|                                      \\\  \========\                      |
+|                                       \|  \==========\                    |
+|                                            \==========\                   |
+|                                             \==========\                  |
+|                                                                           |
+|___________________________________________________________________________|
+::NEWMAP::
+lobby
+::MAPDATA::
+lobby 58 13
+booth 26 13
+vip_entrance 12 8
+escalator 12 16
+::MAPDATA::
+
+                                _ __ _____   _____  _____   ___ __ ___
+                               | '_ ` _ \ \ / / __|/ _ \ \ / / '_ ` _ \
+                               | | | | | \ V /\__ \  __/\ V /| | | | | |
+     #####################     |_| |_| |_|\_/ |___/\___| \_/ |_| |_| |_|
+     #                    #
+     #   Sponsors          #           Mvsevm of Genesis Events
+     #                      #
+     #      o ---------      ###################################
+     #                 \__                                     #
+     #####     #####      \____________________________        #
+     #             #                                   \       #
+     #  Escalator                                       \      #
+     #   ~~~~~~~          o ----------------------------- o ------------
+     #   |== ==|                                               #
+     #   |== ==|   #   Tickets                                 #
+     #   |== ==|   #                                           #
+     #   |== ==|   #############################################
+     #   |== ==|   #
+     #             #
+     ###############
+
+::NEWMAP::
+level1
+::MAPDATA::
+landing 36 9
+escalator_down 36 9
+c_west 28 9
+c_hole 20 9
+partyroom 16 7
+c_northwest 32 7
+stew_chamber 28 7
+c_north 36 4
+poetry_exhibit 44 4
+stamp_exhibit 36 2
+c_northeast 42 6
+easter_chamber_2005 49 6
+egg_room_2013 56 6
+c_east 40 9
+costume_shop 48 9
+lottery_room 48 11
+souvenir_shop 55 9
+exit 63 9
+c_southa 36 12
+c_south 36 15
+c_south2 44 15
+c_south4 44 17
+chasm 52 17
+shrine 44 19
+skull_chamber 36 17
+c_south3 28 17
+construction 28 15
+garden_entrance 28 19
+garbage_chamber 24 17
+garden_shaft 28 19
+::MAPDATA::
+
+  +------------------+            Stamps
+  |    Mvsevm of     |              o
+  |  Genesis Events  |              :    Poetry
+  +------------------+              o ----- o                     ##
+                                    |           Easter eggs       ##
+          Party           Stew      |     o ---- o ---- o         ##
+           Hall o           o - o   |   /                         ##
+                  \               \ | /      Costumes
+                    o ----- o ----- o - o ----- o ---- o ----- o ---- Exit
+                  Hole            / | \         |  Souvenirs
+                                    |           o                 ##
+                                    o        Lottery              ##
+                                    |                             ##
+                                    |                             ##
+                            o ----- o ----- o
+                            |               |
+               Cleaning o - o ----- o ----- o ----- o
+               Campaign     |     Skull     |
+                            o     hunt      o
+                         Garden          Mother's
+                                           day
+
+::NEWMAP::
+garden
+::MAPDATA::
+slide_room 43 1
+sliding_down 43 1
+gardener_room 37 5
+mortal_controlroom 29 4
+wizard_room 49 5
+g00 37 9
+g01 43 9
+g02 49 9
+g03 31 13
+g04 37 13
+fountain 43 13
+g05 49 13
+g06 55 13
+g07 31 17
+g08 37 17
+g09 43 17
+g10 49 17
+g11 55 17
+g12 37 21
+g13 43 21
+g14 49 21
+::MAPDATA::
+
+  +------------------+                     o
+  |    Mvsevm of     |    Control        /   \
+  |  Genesis Events  |     room         /     \
+  |                  |       o         /       \
+  |   Plant Event    |       :...... o           o
+  +------------------+               |           |
+                                     |           |
+                                     |           |
+                                     o --- o --- o
+                                   / | \ / | \ / | \
+                                  /  |  x  |  x  |  \
+                                 /   | / \ | / \ |   \
+                               o --- o --- o --- o --- o
+                               | \ / | \ / | \ / | \ / |
+                               |  x  |  x  |  x  |  x  |
+                               | / \ | / \ | / \ | / \ |
+                               o --- o --- o --- o --- o
+                                 \   | \ / | \ / |   /
+                                  \  |  x  |  x  |  /
+                                   \ | / \ | / \ | /
+                                     o --- o --- o

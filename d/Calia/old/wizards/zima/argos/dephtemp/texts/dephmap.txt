@@ -1,0 +1,71 @@
+***************************************************************************
+**               MAP OF DEPHTEMP AREA OF ARGOS - TEMPLE OF DEPHONIA      **
+***************************************************************************
+ALL ROOMS FOUND IN ~ZIMA/ARGOS/DEPHTEMP/ROOMS
+EXCEPTION:         ~ZIMA/ARGOS/NWTERR/FOLD.C is where the lamb which must
+                    be killed for the quest is found, attatched to PAST7.C
+ 
+***************************************************************************
+**                    LEVEL 1 AND PATH TO TEMPLE                         **
+***************************************************************************
+                                     (~zima/argos/swterr/rooms/for14.c)
+                                    /
+                                TDPATH1
+                                   |
+                                TDPATH2
+                                    \
+                                  TDPATH3
+                                     |
+                                  TDPATH4
+                                    /
+                                TDPATH5
+                                  |
+                                COURT
+                                  + (steps)
+                                PORTICO
+                                  |
+                                FOYER
+                                  |
+                                  |
+                      CLASSRM---CORR11-- RECEPT
+                              /       \
+                            /           \
+            MASTRNOV---CORR12   SACRIS CORR18---- CAPTNGRD
+                       /          |         \
+                     /            |           \
+    LIBRARY1 --CORR13--ANTERMW--SANCT--ANTERME-CORR17 -- CHAPEL
+            \        \            |            /
+              \        \          |          /
+            LIBRARY2   CORR14 HIERCHAM CORR16---- ARMOURY
+                    \       \           /
+                      \       \       /
+                    LIBRARY3   CORR15--- TALIS
+                                  |
+                                  |
+                               STAIR1 >>> STAIR2
+                                     (up)
+ 
+***************************************************************************
+**                               LEVEL 2                                 **
+***************************************************************************
+ 
+                                LOUNGE
+                                  |
+                                  |
+                     QUARTNPR--CORR27--QUARTNPS
+                                  |
+                                  |
+              QRTPRN  QUARTCH--CORR24--QUARTSL   QRTPSN
+                  |            /     \             |
+                  |          /         \           |
+      QRTPRW ---CORR26--CORR25 (Sanct  CORR23---CORR28---QRTPSE
+                  |          \  Tower) /           |
+                  |            \     /             |
+              QRTPRS   WINERY   CORR22  DINE1    QRTPSS
+                          |       |       |
+                          |       |       |
+                       KITCHEN--CORR21--DINE2
+                                  |
+                                  |
+                     STAIR1 <<< STAIR2 >>> STAIR3 (look out tower)
+                             (dn)    (up)

@@ -1,0 +1,34 @@
+Waymeet Outside
+::MAPDATA::
+street_1
+street_2
+street_3
+street_4
+street_5
+street_6
+street_7
+street_8
+street_9
+street_10
+firework_shop
+novelty_shop
+post
+::MAPDATA::
+..........................................
+.         o - o - o   o - o   o - o - o  .
+.         |   |   |   |   |   |   |   |  .
+.         o - o - o   o - o   o - o - o  .
+.         |   |   |   |   |   |   |   |  .
+.         o - o - o - o - o - o - o - o  .
+.                         |              .
+.                         o path         .
+.                         |              .
+.     To Grey Havens <- - o - -> To Bree .
+.                         |              .
+.                         o              .
+.                         |              .
+.                     o - o - o Inn      .
+.                         |              .
+.                         |              .
+.                     o - o - o PO       .
+..........................................

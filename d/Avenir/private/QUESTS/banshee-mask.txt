@@ -1,0 +1,60 @@
+Title:    Banshee Mask Quest - Necronisi Quest 2
+By:       Lilith Summer 2021 
+Location: Necronisi
+Exp:      7000
+Group:    0
+Bit:      11
+
+     Bring the Banshee the death mask of her Beloved. 
+At first glance this seems like just another simple tour quest. Npc wants 
+something and asks you to find it and bring it back to them for a reward. 
+Simple right? Not.
+
+So, first you have to get to the Isle of the Dead, aka The Necronisi. For
+most people this involves 3 boat trips: 
+1) taking a boat to the port of Sybarus, 
+2) walking to the Outpost and then taking the boat to the Bazaar,
+3) and then walking to the north end of the Bazaar island, hopping into a
+   coffin, and waiting for the coffin to be dragged onto the ferry to the
+   Necronisi (the ferryman only transports the dead).
+  
+Then, you find your way up to the top of the hill on the Necronisi and meet
+up with the Banshee--whom most people won't be able to understand because 
+her existence is at a faster speed than ours. When she walks, all we hear
+is fast-paced screeching.
+
+If the questor has completed the Fix Watch quest and has the watch on them,
+they can wind the watch for a boost to quickness and this will make it 
+possible for them to interact with and understand the banshee. There are 
+other +quickness items, and the required quickness is pretty low (25), so
+players don't have to have the watch. 
+
+The banshee won't talk to the questor about the mask she wants until they
+have completed the Catacomb Gate quest. Once the Catacombs Gate quest is
+done, she will tell the questor that there is a specific mask she wants,
+the death mask of her beloved. It is one of 16 possible masks cloned
+to 7 possible locations.
+
+From there, the player can either go through the Catacomb Gate or be 
+dropped into the Catacombs by the Banshee. 
+
+The main Catacombs area is 140 rooms, give or take. It is populated with
+autoattacking revenants, exit-blocking skeletons, and critters like rats,
+spiders, hellbenders, and grubs. There are 7 myth-sized revenants that
+guard 7 rooms with sarcophagi that contain the death masks of the High
+Lords. The tunnels are three interconnected lobes, so questors are likely 
+to circle back on themselves as they hack through the mobs trying to locate 
+the one specific mask that may or not be cloned yet. It is quite likely
+that a player would have to comb the catacombs 2 times or more to find
+what they are looking for. 
+
+The questor will take an extensive amount of damage, as the myth revenants 
+guarding the sarcophagi have 60/60 fists, 100 skillstats, and a special 
+bite attack that poisons. It can't really be done as a walk-through, 
+because there is no certainty as to whether or not the correct mask
+exists at that time, nor which of the 7 locations it would be in.
+
+Files Involved:
+Cairn      /d/Avenir/common/dead/hill/cairn.c
+Banshee    /d/Avenir/common/dead/mon/banshee.c
+Death Mask /d/Avenir/common/dead/obj/death_mask.c

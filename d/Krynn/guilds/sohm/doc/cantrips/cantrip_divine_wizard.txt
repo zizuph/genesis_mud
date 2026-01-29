@@ -1,0 +1,33 @@
+
+     Spell name: Divine magus
+                 Ehtahhewa
+         Effect: Cosmetic
+           Type: Maintained
+        Targets: Personal
+        
+        Element: Water       / 5
+           Form: Divination  / 5
+    Spell power: Power 0 [Cantrip spells]
+     Spell type: Shadow Spell
+     
+       Peaceful: Yes
+     Stationary: Yes
+          Vocal: No
+         Visual: Yes
+       
+     Components: none
+     
+   Casting time:  4s 
+                   
+      Mana cost: Reduced, 5 mana
+     Difficulty: TASK_SIMPLE
+     Combat Aid: 0%
+
+            Tax:   0.0   
+                 ------
+                  0.00%  total tax
+   ------------------------------------------------------------
+   Comments: This cantrip is the guilds 'guild list' spell.
+   As it is an untaxed ability for all other guilds, so is 
+   this spell.
+   ------------------------------------------------------------

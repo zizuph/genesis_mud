@@ -1,0 +1,43 @@
+
+Teaming problems in steeds, Wout de Zeeuw, August 1997
+------------------------------------------------------
+
+Leave and arrive messages:
+Team of 2 riders on 2 steeds: solved. The problem was that the horse
+wasn't moved yet to the destination when the 2nd team member arrived.
+So the team member didn't see his leader when he arrived.
+Solved it by moving the steed first, which also solves the next problem.
+
+Second rider is forced to execute the same command as the driver
+when teaming and the team leader is also driving. But since the second
+rider cannot move around he gets a "But you're not driving the steed."
+message all the time.
+Solved by this:
+- set no_follow to 1 in the call of move_living in the driver,
+- see if the driver is the team-leader,
+- find the team members,
+- filter out the co-riders
+- move the co-riders and the horse
+- move the rest of the team if no_follow was zero.
+This solves the funny temporary solution of changing the rider's short
+description so the rest of the team sees the steed in the destination room
+when moving (see previous problem).
+
+Solved: second rider (and beyond) are forced to execute the same command as
+the team leader when riding. The leader is not riding himself in this case,
+so it's a different problem than the last one. Solved by shadowing
+follow_leader in the steed shadow. This might also be a solution to the
+previous problem if it weren't that it would raise the problem that the
+other team members would be moved before the co-riders are.
+
+Second rider sees the first rider and himself already in the destination room.
+Though a bit odd I don't see this as a serious problem.
+
+The follow_leader function only works if it's called by the leader object.
+So when I shadow follow_leader I cannot call somebody->follow_leader from
+the shadow, because it is not the leader object making the call. Therefore
+I put in the simple code: set_this_player(who); who->command("$" + command);
+like in the original follow_leader code. The only problem then is that
+wizards cannot be force this way. But assuming they won't be teaming a lot
+with mortals it's not that serious a problem. It would be easier if the
+leader check in follow_leader would be lifted.

@@ -1,0 +1,80 @@
+TYR - BANK
+   Shop Structure: Standard bank.
+   Room: "The Bank of Tyr" = /d/Cirath/tyr/noble/bank.c
+   ==================================================================
+   Standard bank (30% fee).  No gnomish deposit.
+ 
+TYR - MERCHANT: ARMOUR
+   Shop Structure: Shop is a room with functions prevented if no NPC.
+   Room: "birk's leather and hides" = /d/Cirath/tyr/caravan/armrmrch.c
+   Storeroom: /d/Cirath/tyr/caravan/armrstor.c
+   NPC: "Birk" = /d/Cirath/tyr/npc/armrdude.c
+   ==================================================================
+   Buys only armours.
+   Initial stock includes 1 studded leather vest and 2 leather 
+       jerkins. These are not restocked.
+ 
+TYR - MERCHANT: GENERAL
+   Shop Structure: Shop is a room with functions prevented if no NPC.
+   Room: "the tarnished cup" = /d/Cirath/tyr/caravan/spplmrch.c
+   Storeroom: /d/Cirath/tyr/caravan/spplstor.c
+   NPC: "Trink" = /d/Cirath/tyr/npc/sppldude.c
+   ==================================================================
+   Buys only not weapon/non armour equipment.
+   Sells only what it has bought.
+ 
+TYR - MERCHANT: WEAPON
+   Shop Structure: Shop is a room with functions prevented if no NPC.
+   Room: "grik's weaponry" = /d/Cirath/tyr/caravan/weapmrch.c
+   Storeroom: /d/Cirath/tyr/caravan/weapstor.c
+   NPC: "Grik" = /d/Cirath/tyr/npc/weapdude.c
+   ==================================================================
+   Buys only weapons.
+   Initial stock includes 1 flaked stone axe, 1 old quabone (bone
+       club), and 1 stone dagger.  These are not restocked.
+ 
+TYR - PUB: POOR
+   Shop Structure: Room is a standard food/drink selling pub.
+   Room: "lobby of the golden inix inn" = /d/Cirath/tyr/caravan/innlobby.c
+   ==================================================================
+   Sells food (bread, erdlu skewer, inix tail).
+   Sells drink (broy, tyrian ale, asticles wine).
+   Buys nothing.
+ 
+TYR - PUB: RICH
+   Shop Structure: Room is a standard food/drink selling pub.
+   Room: "senators' hall" = /d/Cirath/tyr/hallnble/sh_lobby.c
+   ==================================================================
+   Sells food (mekillot steak, cha'thrang cutlet, ray filet).
+   Sells drink (broy, tyrian ale, asticles wine).
+   Buys nothing.
+ 
+TYR - PUB: SPECIAL
+   Shop Structure: Room is a standard food/drink selling pub.
+   Room: "the Inn of the Hungry Hungry Halfling"=/d/Cirath/tyr/market/hhh.c
+   ==================================================================
+   Sells food (dried mul ears, elf stew, roast elf leg).
+   Sells drink (water, bulis wine, elf blood).
+   Buys nothing.
+ 
+TYR - ROOM: INN
+   Shop Structure: Shop is an NPC.
+   Room: "reception desk" = /d/Cirath/tyr/caravan/innrcpt.c
+   NPC: "Mila" = /d/Cirath/tyr/npc/rcptnist.c
+   ==================================================================
+   Sells only a room key to the inn for 144 copper.  Buys nothing.
+ 
+TYR - SPECIAL: BODY PAINTER
+   Shop Structure: Room and npc with special functions.
+   Room: "body painting shop" = /d/Cirath/tyr/paint/bdpnt.c
+   NPC: "Alstor" = /d/Cirath/tyr/paint/painter.c
+   ==================================================================
+   Sells a subloc of skin colour for 1 platinum coin.
+ 
+TYR - SPECIAL: OBSIDIAN BUYER
+   Shop Structure: A room with odd functions.
+   Room: "the Black Stone" = /d/Cirath/tyr/slave/obsdmrch.c
+   ==================================================================
+   Buys huge obsidian clubs that are on the floor from people with a
+       stat average under 30 for 1 silver coin.
+   Sells nothing.

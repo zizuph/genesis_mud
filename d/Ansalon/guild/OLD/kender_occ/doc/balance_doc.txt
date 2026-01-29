@@ -1,0 +1,118 @@
+COMBAT SPECIALS
+===============
+
+  SLING
+  ~~~~~
+    Files: /d/Ansalon/guild/kender_occ/sling.c
+
+    This damage dealing ability requires a hoopak, pebble and proper
+    wimpy to use.
+    
+    Combat Aid
+    ----------
+    The sling has been set to a maximum of 65% combat aid, but if it
+    is used at the same time as dodge, then it is decreased to 48%.
+    
+    Frequency
+    ---------
+    The ability prep time has been set to 3 seconds and cooldown time
+    has been set to 4 seconds, this should give the sling an average
+    performance of once every 7 seconds.
+    
+    Hit chance
+    ----------
+    Tohit is set to be 90. This is calculated to be 82% hit chance
+    according to 'man cb_tohit'.
+    
+    Penetration
+    -----------
+    The skill weight set for the sling is 51 dexterity, 28 wisdom and
+    21 strength. The damage type has been set to bludgeon.
+    
+    Everything else is calculated by the Genesis Specials system.
+    
+    
+  DODGE
+  ~~~~~
+    Files: /d/Ansalon/guild/kender_occ/dodge.c
+           /d/Ansalon/guild/kender_occ/dodge_obj.c
+           
+    This evade ability requires a proper wimpy to use.
+    
+    Combat Aid
+    ----------
+    The dodge has been set to 95% combat aid, but is lowered if used
+    simultaneously as sling. The modified combat aid is 48%.
+
+    There is an additional modification to the combat aid, if shields
+    are worn or if not wielding a hoopak. The formula for shield deduction
+    is sizeof(shields) * sizeof(shields) * 5 and not wielding a hoopak is
+    penalized by 20.
+    
+    Frequency
+    ---------
+    The prep time for dodge is 30 seconds and no cooldown time has been
+    set.
+  
+  TAUNT
+  ~~~~~
+    Files: /d/Ansalon/guild/kender_occ/taunt.c
+           /d/Ansalon/guild/kender_occ/taunt_sh.c
+    
+    Taunt lowers all the defensive and weapon skills of an enemy, and
+    sometimes forces that target to attack the taunting kender. This
+    ability changes slightly depending on which other abilities are
+    active.
+    
+    Hit chance
+    ----------
+    The success of the taunt is determined by a TASK_ROUTINE matching
+    the kenders SKILL_AVG, TS_OCC, TS_WIS, SKILL_END, SS_TAUNT_SPECIAL
+    against the enemy SKILL_AVG, TS_DIS, TS_INT, SKILL_END.
+    
+    Frequency
+    ---------
+    The taunt adds a value to the target depending on its success.
+    The maximum result from a single taunt results in 13, and minimum
+    being 5.
+    
+    The value determines the time of the taunt, as the value is
+    decreased by 1 every 2 seconds, meaning it will at its peak expire
+    after 26 seconds and the least being 10 seconds.
+
+    The taunt has an ability cooldown time of 25 seconds and prep time
+    of five seconds.
+    
+    Skill Effects
+    -------------
+    The aforementioned value is also the amount of skill levels lowered,
+    with a minimum cap set to 5 and maximum cap set to 50.
+    
+    This ability can be stacked should there be enough kenders present
+    to do so, and thus a maximum cap has been set. The more stacks you
+    have, the less each new taunt applies.
+    
+    Combat Aid
+    ----------
+    The best case scenario has an 87% uptime, resulting in an average
+    of 6 skill levels decrease and the worst having an uptime of 33%
+    which results in an average of 1,5 skill decrease.
+    
+    Taunt + Dodge: While dodging a taunted targets attack, you have a
+    chance (!random(value)) to increase the value by 3. This appears
+    to keep the taunt value averaged at 7.
+            Combat aid estimate: 5%
+    
+    Taunt + Sling: Has a chance to increase the damage done by a party
+    members "did_hit" attacks to the taunted target by 25%. The formula
+    bases the chance on the size of the team and amount of active taunts
+    from slinging kenders.
+    The formula is random((sizeof(team) * 10) / sizeof(kenders)) < 10.
+    I have rated this ability to 20% combat aid (This is likely around
+    14% caid increase while solo, but can potentially go up to 25% if
+    the team is composed of enough kenders) and the skill decrease is
+    estimated at 4% combat aid.
+            Combat aid estimate: 24%
+    
+    Taunt + Sling + Dodge: No additional bonuses.
+            Combat aid estimate: 4%

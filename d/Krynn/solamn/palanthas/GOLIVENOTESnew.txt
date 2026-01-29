@@ -1,0 +1,66 @@
+/* I am updating this file with all the changes to files
+   that will need to be made when we change the current 'palan'
+   dir to my 'palanthas' dir.
+
+1.  /d/Krynn/raceguild/  Exits need to be verified that they
+    lead to my palanthas library not the old one.
+>>> Done.
+
+2.  Duplicate room of plaza, update it.
+   Mortis 08.2005 */
+
+/*
+3.  /d/Krynn/solamn/thief/ship/captain.c will have to have his
+    emote about Leiden changed since there will be more inns.
+
+*/
+/*
+4.  /w/mortis/palanthas/city/jailfoyer.c has a #define statement
+    to change.
+
+5.  /w/mortis/palanthas/city/jailcell.c too
+*/
+/*
+~/palanthas/nobles/living/havecius.c will need to have
+KEYROOM1 redefined to the correct dir.
+*/
+/*
+~Krynn/solamn/palan/ship2/pier.c will have to change its south exit
+to southwest and be ~mortis/palanthas/shipping/s15.c
+>>> Done.
+*/
+/*
+NOBLE + "jeweler" will have to change all its file names to
+new dir structure.
+and other jeweler files
+*/
+/*
+Change /d/Krynn/clubs/pkc/club1 to exit north instead of east
+to /w/mortis/palanthas/nobles/tower1
+*/
+/*
+change quests/innquests.h to new dirs from /w/mortis
+*/
+/*
+change jeweler folder dirs from /w/mortis
+*/
+/*
+Change /d/Krynn/solamn/moor/room/road1 to lead east to wr6 in merchants
+>>> Done via ../local.h.
+*/
+/*
+Change palace/office15's jail to real dir from /w/mortis
+*/
+/*
+change all jail dirs
+change all clerk files and base files in LIV
+*/
+
+>>> Changed /d/Krynn/solamn/vin_mount/local.h PALAN definition
+
+>>> Changed /d/Krynn/neraka/hole23.c to use new palanthas dir
+
+>>> Changed /d/Krynn/solamn/thief/local.h to use new palanthas dir
+
+>>> Changed /d/Krynn/clubs/pkc   club_defs.h and club1.c for NE exit to
+    nobles/tower1

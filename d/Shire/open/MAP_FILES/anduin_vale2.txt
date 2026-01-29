@@ -1,0 +1,285 @@
+main
+::MAPDATA::
+valen19w7 51 6 valenorth
+valen18w7 51 7 valenorth
+valen18w6 52 7 valenorth
+valen17w7 51 8 valenorth
+valen17w6 52 8 valenorth
+valen17w5 53 8 valenorth
+valen16w7 51 9 valenorth
+valen16w6 52 9 valenorth
+valen16w5 53 9 valenorth
+valen16w4 54 9 valenorth
+valen16w3 55 9 valenorth
+valen16w2 56 9 valenorth
+valen15w7 51 10 valenorth
+valen15w6 52 10 valenorth
+valen15w5 53 10 valenorth
+valen15w4 54 10 valenorth
+valen15w3 55 10 valenorth
+valen15w2 56 10 valenorth
+valen15w1 57 10 valenorth
+valen15w0 58 10 valenorth
+valen14w7 51 11 valenorth
+valen14w6 52 11 valenorth
+valen14w5 53 11 valenorth
+valen14w4 54 11 valenorth
+valen14w3 55 11 valenorth
+valen14w2 56 11 valenorth
+valen14w1 57 11 valenorth
+valen14w0 58 11 valenorth
+valen13w7 51 12 valenorth
+valen13w6 52 12 valenorth
+valen13w5 53 12 valenorth
+valen13w4 54 12 valenorth
+valen13w3 55 12 valenorth
+valen13w2 56 12 valenorth
+valen13w1 57 12 valenorth
+valen13w0 58 12 valenorth
+valen12w7 51 13 valemid
+valen12w6 52 13 valemid
+valen12w5 53 13 valemid
+valen12w4 54 13 valemid
+valen12w3 55 13 valemid
+valen12w2 56 13 valemid
+valen12w1 57 13 valemid
+valen12w0 58 13 valemid
+valen11w7 51 14 valemid
+valen11w6 52 14 valemid
+valen11w5 53 14 valemid
+valen11w4 54 14 valemid
+valen11w3 55 14 valemid
+valen11w2 56 14 valemid
+valen11w1 57 14 valemid
+valen11w0 58 14 valemid
+valen10w7 51 15 valemid
+valen10w6 52 15 valemid
+valen10w5 53 15 valemid
+valen10w4 54 15 valemid
+valen10w3 55 15 valemid
+valen10w2 56 15 valemid
+valen10w1 57 15 valemid
+valen10w0 58 15 valemid
+valen9w7 51 16 valemid
+valen9w6 52 16 valemid
+valen9w5 53 16 valemid
+valen9w4 54 16 valemid
+valen9w3 55 16 valemid
+valen9w2 56 16 valemid
+valen9w1 57 16 valemid
+valen9w0 58 16 valemid
+valen8w7 51 17 valemid
+valen8w6 52 17 valemid
+valen8w5 53 17 valemid
+valen8w4 54 17 valemid
+valen8w3 55 17 valemid
+valen8w2 56 17 valemid
+valen8w1 57 17 valemid
+valen8w0 58 17 valemid
+valen7w7 51 18 valemid
+valen7w6 52 18 valemid
+valen7w5 53 18 valemid
+valen7w4 54 18 valemid
+valen7w3 55 18 valemid
+valen7w2 56 18 valemid
+valen7w1 57 18 valemid
+valen7w0 58 18 valemid
+valen6w7 51 19 valemid
+valen6w6 52 19 valemid
+valen6w5 53 19 valemid
+valen6w4 54 19 valemid
+valen6w3 55 19 valemid
+valen6w2 56 19 valemid
+valen6w1 57 19 valemid
+valen6w0 58 19 valemid
+valen5w7 51 20 valemid
+valen5w6 52 20 valemid
+valen5w5 53 20 valemid
+valen5w4 54 20 valemid
+valen5w3 55 20 valemid
+valen5w2 56 20 valemid
+valen5w1 57 20 valemid
+valen5w0 58 20 valemid
+cave1 47 17 valemid
+cave2 47 17 valemid
+carrock 47 17 valemid
+::MAPDATA::
+
+            /   ^ \/ \   ^  \           ~~~~         oOOOOOOoOoOOoOOOoOoOOoOOOO
+               / \/   \ / \              ~~~~        OOOOOOOOoOOOoOOOOoOOOoOOOO
+              Misty Mountains            ~~~~        OoOOOoOOOOOOOOoOOOOOOOOoOO
+             /  ^  / \/ / \ \             ~~~~       oOOOOOOoOoOOoOOOoOoOOoOOOO
+               / \/   \/   \              ~~~~       OOOOOOoOOOOOOOOoOOOOOOOOo/
+              /   \  ^/   ^ \            ~~~~        ---- Elf Path --\oOoOO/-/O
+             /   ^ \/ \  / \ \           ~~~~         OoOOOOOoOOoOOOOO\---/OOOO
+                / \/   \/   \             ~~~~         OooOoOOooOooOoOOooOooOoO
+               /   \  ^/     \            ~~~~            ooOOoOoOOooOOoOoOooOO
+              /   ^ \/ \   ^  \            ~~~~             OoOOoOOOOOoOOoOOOOO
+                 / \/   \ / \              ~~~~             OOooOooOoOOooOOOOoO
+                /   \ ^  / ^ \              ~~~~            OOoOoOOo+----------
+               /  ^  / \/ / \ \             ~~~~            OoOOoOOO| MIRKWOOD
+                 / \/   \/   \              ~~~~            OOooOooO+----------
+                /   \  ^/     \             ~~~~            OOoOooOooOOoOoOooOO
+               /   ^ \/ \   ^  \             ~~~~           OoOOoOOOOOoOOoOOOOO
+                  / \/   \ / \               ~~~~           OOooOOoOooOooOooOo^
+          ~~~~~~ /   \ ^  /   \              ~~~~           OOoOoOOoOoOoOoOOo^^
+      ~~~~      /  ^  / \/ ^   \             ~~~~           OoOOoOOOOOOOOo^^^^^
+  ~~~~            / \/   \/ \                 ~~~~          OOoooOoOooOooOooOoO
+ ~               /   \    \  \                ~~~~         oOOoOOoOoOoOoOoOOooO
+
+::NEWMAP::
+valenorth
+::MAPDATA::
+valen19w7 11 6 
+valen18w7 11 8 
+valen18w6 15 8 
+valen17w7 11 10 
+valen17w6 15 10 
+valen17w5 19 10 
+valen16w7 11 12 
+valen16w6 15 12 
+valen16w5 19 12 
+valen16w4 23 12 
+valen16w3 27 12 
+valen16w2 31 12 
+valen15w7 11 14 
+valen15w6 15 14 
+valen15w5 19 14 
+valen15w4 23 14 
+valen15w3 27 14 
+valen15w2 31 14 
+valen15w1 35 14 
+valen15w0 39 14 
+valen14w7 11 16 
+valen14w6 15 16 
+valen14w5 19 16 
+valen14w4 23 16 
+valen14w3 27 16 
+valen14w2 31 16 
+valen14w1 35 16 
+valen14w0 39 16 
+valen13w7 11 18 
+valen13w6 15 18 
+valen13w5 19 18 
+valen13w4 23 18 
+valen13w3 27 18 
+valen13w2 31 18 
+valen13w1 35 18 
+valen13w0 39 18
+::MAPDATA::
+
+ ~~~~         oOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOO
+ ~~~~         OOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoO
+  ~~~~~~       oOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOO
+    ~~~~~~     oOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOo
+    ~~~~~~
+     ~~~~~-    o - o - o - o - o - o - o - o - o - o - o - o - o - o - o - o -
+     ~~~~~
+     ~~~~~         OOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOo
+     ~~~~~           OOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOo
+    ~~~~~~             OOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOO
+    ~~~~~~                       OOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOo
+    ~~~~~~                         OoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOO
+     ~~~~~                               OoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOo
+     ~~~~~                                oOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOo
+     ~~~~~                                 OOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOO
+     ~~~~~                                 oOOOooOOOOOooOOOooOOOOOooOOOooOOOOOo
+      ~~~~~                                OOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOO
+      ~~~~~                                OOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOo
+      ~~~~~                               oOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOo
+     ~~~~~                                OOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOO
+     ~~~~~                                ooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOo
+
+::NEWMAP::
+valemid
+::MAPDATA::
+valen12w7 11 4 
+valen12w6 15 4 
+valen12w5 19 4 
+valen12w4 23 4 
+valen12w3 27 4 
+valen12w2 31 4 
+valen12w1 35 4 
+valen12w0 39 4 
+valen11w7 11 6 
+valen11w6 15 6 
+valen11w5 19 6 
+valen11w4 23 6 
+valen11w3 27 6 
+valen11w2 31 6 
+valen11w1 35 6 
+valen11w0 39 6 
+valen10w7 11 8 
+valen10w6 15 8 
+valen10w5 19 8 
+valen10w4 23 8 
+valen10w3 27 8 
+valen10w2 31 8 
+valen10w1 35 8 
+valen10w0 39 8 
+valen9w7 11 10 
+valen9w6 15 10 
+valen9w5 19 10 
+valen9w4 23 10 
+valen9w3 27 10 
+valen9w2 31 10 
+valen9w1 35 10 
+valen9w0 39 10 
+valen8w7 11 12 
+valen8w6 15 12 
+valen8w5 19 12 
+valen8w4 23 12 
+valen8w3 27 12 
+valen8w2 31 12 
+valen8w1 35 12 
+valen8w0 39 12 
+valen7w7 11 14 
+valen7w6 15 14 
+valen7w5 19 14 
+valen7w4 23 14 
+valen7w3 27 14 
+valen7w2 31 14 
+valen7w1 35 14 
+valen7w0 39 14 
+valen6w7 11 16 
+valen6w6 15 16 
+valen6w5 19 16 
+valen6w4 23 16 
+valen6w3 27 16 
+valen6w2 31 16 
+valen6w1 35 16 
+valen6w0 39 16 
+valen5w7 11 18 
+valen5w6 15 18 
+valen5w5 19 18 
+valen5w4 23 18 
+valen5w3 27 18 
+valen5w2 31 18 
+valen5w1 35 18 
+valen5w0 39 18
+cave1 7 12 
+cave2 7 12 
+carrock 7 12
+::MAPDATA::
+
+      ~~~~~                                OOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooO
+      ~~~~~                                oOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOO
+      ~~~~~                               OoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOO
+     ~~~~~                                OOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOO
+     ~~~~~                                OooOOOooOOOOOooOOOooOOOOOooOOOooOOOOO
+     ~~~~~                                OOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooO
+    ~~~~~~                                OoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOO
+    ~~~~~                                 OoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOO
+    ~~~~~                                OOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOO
+     ~~~~~                               OOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOO
+     ~~~~~                               oOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooO
+     ~~~~~                                OoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOO
+     ~~~~~                                OoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOO
+     ~~~~~                                OOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOO
+     ~~~~~~                               OooOOOooOOOOOooOOOooOOOOOooOOOooOOOOO
+      ~~~~~                              oOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooO
+      ~~~~~                               OoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOO
+     ~~~~~                                OoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOO
+     ~~~~~                               OOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOO
+     ~~~~~                             OOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOO
+     ~~~~~                            OOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooO

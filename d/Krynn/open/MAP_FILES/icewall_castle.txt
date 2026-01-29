@@ -1,0 +1,28 @@
+main
+::MAPDATA::
+staff_bath 1 2
+oak_room 9 2
+secret1 13 2
+secret2 17 2
+west_corner 1 4
+west_hall 5 4
+north_hall 9 4
+east_hall 13 4
+east_corner 17 4
+staff_sleep 1 6
+study 5 6
+main_hall 9 6
+kitchen 13 6
+top_stairs 17 6
+::MAPDATA::
+  Icewall Castle
+
+ o       o              |>>
+ |       |             _|  _
+ o - o - o - o - o    | |_| |
+ |       |       |    |     |
+ o   o -[ ]- o  [ ]   | [ ] |
+         |           _|  _  |_
+                    | |_| |_| |
+                    |    ^    |
+                    |   | |   |

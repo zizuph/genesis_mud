@@ -1,0 +1,42 @@
+Herbs of Earthsea:
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+LWD: /d/Earthsea/herbs
+CWD: /d/Earthsea/herbs/herb_files
+
+file name:      set/terrain      herb_name         effect    special
+--------------------------------------------------------------------------
+aspen_bark.c     forest          aspen bark        10/heal   headache/quest
+bergamot.c       forest/garden   bergamot          20/heal   perfumes
+black_rose.c     wiz garden      midnight's angel  1/poison  mild nausea
+blue_gentian.c   meadow/garden   blue gentian      20/heal mana     
+broccoli.c       garden          broccoli          30/heal mana        
+cinquefoil.c     garden/wild     cinquefoil        20/heal hp     
+clover3.c        meadow          three-leaf clover 10/heal hp 
+clover4.c        meadow          four-leaf clover  10/heal hp  lucky/quest
+coffee.c         mountain/garden coffee            10/heal fat 
+corn_pollen.c    garden/meadow   corn pollen       35/heal mana    
+emmelti.c        seashore        emmelti           35/heal fat
+ginseng.c        forest/mountain ginseng           50/heal mana
+kelp.c           seashore        sea kelp          20/heal fat
+lebannen.c       forest/mountain lebannen          35/cure    
+moly.c           garden/meadow   moly              15/enh mag
+monkshood.c      forest/garden   monkshood         50/rub      poison eaten
+morel.c          forest/meadow   morel             35/mana
+morning_glory.c  meadow/garden   morning glory     20/poison
+nilgu.c          seashore        nilgu             15/heal
+oakmoss.c        forest          oakmoss           35/mana     perfumes
+paramol.c        forest/meadow   paramol           20/fatigue
+pendick_flower.c forest/garden   pendick-flower    10/enh wis
+red_maple.c      forest (oranea) red maple         none
+red_rose.c       Manor garden    crimson's tippler 1/special
+rushwash.c       forest/meadow   rushwash          10/fatigue
+sea_moss.c       seashore        sea moss          10/heal hp
+skunk.c          garden/meadow   skunk berries     25/gradual heal  flatulence
+sparkweed.c      garden/meadow   sparkweed         30/enh fire
+spinach.c        garden          spinach           20/enh str
+tomato.c         garden          tomato            15/heal mana
+w_hallow.c       forest/meadow   white hallow      50/heal hp
+white_rose.c     Manor garden    snowy angels      15/heal mana
+wintergreen.c    garden/mountain wintergreen       25/heal hp
+witch_grass.c    garden/forest   witch grass       20/herb poison
+yarrow.c         garden/forest   yarrow            30/enh con

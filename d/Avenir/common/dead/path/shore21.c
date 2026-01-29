@@ -1,0 +1,41 @@
+// file name: shore21
+// creator: Ilyian, September 21, 1995
+// last update: room along the Shore path around the
+//              Isle of the Dead
+// purpose:
+// note: Most of the code for this room is contained
+//       in the inherited file /d/Avenir/common/dead/dead.c
+// bug(s):
+// to_do:
+
+inherit "/d/Avenir/common/dead/dead.c";
+#include "../dead.h"
+
+void
+create_room()
+{
+   shore_long("The path heads west, and to the northeast "
+             +"it goes out to a promontory. South lies "
+             +"the grim fens, and to the east a dry "
+             +"hillock rises out of the swamp."); 
+   AI(({"promontory"}),"The shoreline to the northeast "
+             +"juts out into the water like a crooked "
+             +"finger.\n");
+   AI(({"hill","hillock"}),"The small hillock rises out "
+             +"of the dismal swamp to the east. There seems "
+             +"to be a large shape at the top of it.\n");
+   AI(({"shape"}),"You cannot make it out from here.\n");
+
+   shore_exit("northeast","22");
+   shore_exit("west","20");
+   shore_marsh("south","51");
+   shore_marsh("east","_hill");
+
+   reset_room();
+}
+
+void
+reset_room()
+{
+   shore_reset();
+}

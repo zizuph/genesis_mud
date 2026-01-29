@@ -1,0 +1,180 @@
+main
+::MAPDATA::
+crypt0 22 10
+crypt1 8 8
+crypt10 2 16
+crypt100 36 30
+crypt101 40 24
+crypt102 40 26
+crypt103 38 28
+crypt104 26 18
+crypt105 26 16
+crypt106 32 12
+crypt107 30 12
+crypt108 18 0
+crypt109 12 4
+crypt11 2 14
+crypt110 12 6
+crypt111 32 34
+crypt112 32 34
+crypt113 32 34
+crypt114 32 34
+crypt115 30 2
+crypt116 28 2
+crypt117 26 14
+crypt12 4 24
+crypt13 8 22
+crypt14 10 22
+crypt15 6 22
+crypt16 8 24
+crypt17 8 26
+crypt18 8 28 
+crypt19 10 28
+crypt2 10 8
+crypt20 12 28
+crypt21 10 26
+crypt22 10 24
+crypt23 12 24 
+crypt24 14 24 
+crypt25 16 24
+crypt26 14 26
+crypt27 12 30
+crypt28 14 30
+crypt29 14 28
+crypt3 8 10
+crypt30 16 30
+crypt31 24 18
+crypt32 22 18
+crypt33 18 30
+crypt34 20 20
+crypt35 18 22
+crypt36 20 32
+crypt37 20 30 
+crypt38 20 28 
+crypt39 24 28
+crypt4 6 10
+crypt40 28 30
+crypt41 22 26
+crypt42 26 28
+crypt43 30 32
+crypt44 32 34
+crypt45 18 28
+crypt46 18 26
+crypt47 24 10
+crypt48 24 12
+crypt49 24 14
+crypt5 6 12
+crypt50 28 14
+crypt51 28 16
+crypt52 28 18
+crypt53 30 18
+crypt54 32 18
+crypt55 32 18
+crypt56 32 14
+crypt57 30 16
+crypt58 34 14
+crypt59 34 12
+crypt6 4 14
+crypt60 34 16
+crypt61 34 18
+crypt62 34 20
+crypt63 36 20
+crypt64 36 18
+crypt65 38 20
+crypt66 36 16
+crypt67 36 14
+crypt68 38 14
+crypt69 36 10
+crypt7 20 8
+crypt70 36 8
+crypt71 6 20
+crypt72 4 20
+crypt73 2 18
+crypt74 18 6
+crypt75 18 4
+crypt76 16 4
+crypt77 16 6
+crypt78 14 6
+crypt79 14 4
+crypt8 4 16
+crypt80 20 2
+crypt81 22 2
+crypt82 24 2
+crypt83 26 2
+crypt84 32 2
+crypt85 34 4
+crypt86 36 6
+crypt87 38 4
+crypt88 38 2
+crypt89 36 2
+crypt9 6 16
+crypt90 38 6
+crypt91 38 10
+crypt92 38 12
+crypt93 41 14
+crypt94 32 30
+crypt95 34 28
+crypt96 36 26
+crypt97 38 26
+crypt98 38 22
+crypt99 28 24
+crypt_entr 0 0
+crypt_out 0 0
+crypt_s1 4 26
+crypt_s2 22 0
+crypt_s3 4 18
+crypt_s4 38 8
+crypt_s5 38 32
+crypt_s6 8 6
+crypt_s7 22 34
+pit_fell 32 34
+pit_falling 32 34
+pit_of_despair 32 34
+falling 0 0 
+fell 0 0    
+::MAPDATA::
+                  o   o                  
+                   \  |                  
+                    o-o-o-o-o-o-o   o-o  
+                   /             \ /  |  
+            o-o o-o               o   o  
+            | | | |                \ /|  
+        o   o o-o o                 o o  
+        |  /       \                | |  
+        o-o         o               o o  
+       / /           \              |\   
+      o o             o o           o o  
+      |/               \|          /  | 
+      o                 o     o-o o   o 
+     /     ,-'""`-.     |       | |   |  
+  o o     ;        :    o-o-o   o-o-o-o--o
+  | |    :          :       |   | |      
+  o-o-o  : (_)  (_) ;     o-o o-o o-o    
+  |  /    `   '`   '      | |   | |      
+  o o      :`++++';   o-o-o-o-o-o o o    
+   \        ``..''   /            | |\   
+    o-o             o             o-o o  
+      |            /                  |  
+      o-o-o       o                   o  
+     /  |        /                    |  
+    o   o o-o-o-o                     o o
+    |   | |   |  \                   /  |
+    o   o o   o   o   o             o-o-o
+        | |   |   |\ / \           /   / 
+        o-o-o o   o o   o-o       o   o  
+            | |\  | |      \     / \ /   
+            o-o o-o o       o   o   o    
+                   \|        \ /     \   
+                    o         o       o  
+                     \         \         
+                      o         o
+					  
+                               
+            ( \._____________./ )    
+           ( \                 / )    
+          ( \ )   Catacombs   ( / )       
+         ( ) (       of        ) ( )       
+          ( / )    Sybarus    ( \ )       
+           ( /  _____________  \ )
+            ( /'             '\ )
+ 

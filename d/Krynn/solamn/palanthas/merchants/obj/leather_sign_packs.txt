@@ -1,0 +1,36 @@
+ ___________________________________________________________________
+|\._________________________________________________________________\.
+| |                                                                  |
+| | o                                                              o |
+| |                     Daronius' General Items                      |
+| |                                                                  |
+| |                                                                  |
+| |  Customization   Colour        Leather     Item         Silver   |
+| |  -------------   ------        -------     ----         ------   |
+| |  dark            black         hard        backpack       50     |
+| |  flat            white         hide        belt-pouch     12     |
+| |  fur-trimmed     charcoal      leather     knapsack       50     |
+| |  glistening      grey          soft        lootsack       40     |
+| |  light           crimson       studded     rucksack       50     |
+| |  noble           maroon        suede       sack           30     |
+| |  ornate          yellow                    saddlebag      60     |
+| |  plain*          forest-green              satchel        30     |
+| |  rich            mottled-green             thigh-pouch    24     |
+| |  supple          olive-green                                     |
+| |  thin            blue                      bandeleria     50     |
+| |                  raven-blue                back-holster   40     |
+| |                  purple                    belt-sheath    24     |
+| |                  silvery                   boot-sheath    24     |
+| |                  brown                     forearm-sheath 24     |
+| |                  mottled-brown             scabbard       36     |
+| |                                            side-holster   40     |
+| |                                            thigh-sheath   24     |
+| |                                            wrist-sheath   24     |
+| |                                                                  |
+| |          <buy> <customization> <colour> <leather> <item>         |
+| |                                                                  |
+| |                      <check> <leather/item>                      |
+| |                                                                  |
+| |                           <buy saddlebag>                        |
+| | o                                                              o | 
+ \|__________________________________________________________________|

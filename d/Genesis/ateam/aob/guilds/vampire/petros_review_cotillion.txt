@@ -1,0 +1,67 @@
+Problem: Spell System uses Novo's homegrown solution
+> We should fix Novos system.
+> The spell and special system should use the same code as far as
+> possible.
+         
+            
+Problem: Drain Stacking
+Problem: Magic Resistance is coded incorrectly
+> Should be fixed, drain should be removed from the shadow.
+
+Problem: Vampires have far too much damage according model
+> Well, what number we'll end on depends on exactly how
+> much room there is left when we've done the changes.    
+
+Problem: Hit Location Targeting is not taxed
+> This should be handled by the ability system.
+> The combat aid set for an ability should take this into account.
+
+Problem: Vampires can escape combat easily
+> A cooldown is needed on dash, extreme fatigue perhaps?
+> Right now it can be used to tank through triggers.
+> Being hard to catch is a core vampire ability.
+        
+Problem: Short Casting Speed means combining with Melee Specials
+> This is not really a vamp problem, should be fixed globally.
+
+Problem: Vampire Scry Spell is overpowered
+> They are mentalist, don't see this as a huge problem.
+> Stationary would be nice though.
+
+Problem: Notification to Vamp of Underlying Mudlib Calls
+> Zap this, some items do it too. Need a new call for when
+> magic actually is used against someone.
+
+
+Problem: Flicker currently acts like a Stun
+> This should be a much shorter effect.
+> Like a stun.
+        
+Problem: Obfuscate (Invis) Fighting Causes Issues
+> Obfuscate should break as soon as combat starts.
+        
+Problem: Obfuscate can be stacked without caps
+> Bad code should be fixed.
+
+Problem: Vampire guild using guild stat for specials differently
+> Easy fix.
+
+Problem: Dominate and Summon together form the perfect spy
+> Should be fixed.
+
+Problem: Mesmerize should use standard stun
+> Sure
+
+Problem: Vampires are not hurt by the sun
+> This is not an easy thing to solve.
+> Sunlight made vamp life very hard once upon a time, we need to find a balance.
+
+Problem: Vampire regeneration much faster than intox healing
+> Should be possible to just fake full intox.
+    
+Problem: Herb benefits can be taken by eating
+> It might be best to consider that fight lost and just get rid of
+> the restriction, it's not really a real restriction anyway.
+        
+Problem: Vocal Spells should display vocal descriptions
+> Better if the spells were reclassified to not be vocal then.

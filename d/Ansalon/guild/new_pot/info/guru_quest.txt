@@ -1,0 +1,36 @@
+Priests of Takhisis guru quest (Arman, October 2018)
+
+When a PoT reaches the 'priest' rank they will be able
+to begin their guru quest, which gives them an extra
+possible 10 levels in spellcraft.
+
+'Possible', due to the skill scaling that occurs in
+the PoT, progressing past superior master skill
+essentially requires them to be of High Priest rank.
+
+The guru quest starts in the Great Hall of Audience
+in the Temple of Neraka,
+/d/Ansalon/taman_busuk/neraka/temple/altar.c
+
+Here a PoT may 'favour' a particular Dragonarmy and
+support them in conquering the warfare battlefields
+of Krynn.
+
+At priest level, those who pray here will be provided
+a vision of the five headed dragon - the Queen of
+Darkness. One of the heads of the dragon will then
+speak to the priest, commanding them to 'favour' that
+army and conquer a random warfare location in that
+armies name.
+
+This needs to be done for each of the five armies.
+A priest can change their favoured army at the Great
+Hall at will.
+
+Upon completing the fifth conquest, the Priest is
+notified they may now access guru training.
+
+This aspect of the quest is found in the guild
+shadow, /d/Ansalon/guild/new_pot/shadow/occ_shadow.c
+
+The bit set for this quest is Ansalon 3 19.

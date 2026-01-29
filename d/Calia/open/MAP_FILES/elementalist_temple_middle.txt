@@ -1,0 +1,48 @@
+main
+::MAPDATA::
+middle1 15 10
+middle2 17 10
+middle3 19 10
+middle4 13 12
+middle5 21 12
+hall1 11 14
+middle6 13 14
+middle7 21 14
+hall2 23 14
+meeting 11 16
+middle8 13 16
+middle9 21 16
+sacristy 13 18
+middle10 15 18
+private_chapel 17 18
+middle11 19 18
+::MAPDATA::
+***********************************
+*                                 *     A - Lady Aeria
+*  A             B             C  *     B - Psuchae
+*   \            |            /   *     C - Lord Diabrecho
+*    o-o-o-o-o-o-o-o-o-o-o-o-o    *     D - Carving Room/Forge
+*    |                       |    *     E - Pavillion
+*    o   Q       R     J-S   o    *     F - Meditation Chamber
+*    |  /        |     |  \  |    *     G - Lady Gu
+*    o I   o-o-o-o-o-o-o   K o    *     H - Lord Pyros
+*    |  \ /      |      \ /  |    *     I - Lapidary
+*    o   o     o-o-o     o   o    *     J - Refectory
+*    |   |    /  |  \    |   |    *     K - Herbalist
+*    o   o   o       o   o   o    *     L - Post Office
+*    |   |   |       |   |   |    *     M - Chapel
+*  D-o T-o-o-o       o-o-o-U o-E  *     N - Library
+*    |   |   |       |   |   |    *     P - Bank
+*    o   o o o       o F-o   o    *     Q - Gem Garden
+*    |   |    \  |  /    |   |    *     R - Psuchae Start
+*    o   o   Z-o-@-o-Y   o   o    *     S - Herb Garden
+*    |  / \  |   |   |  / \  |    *     T - Lady Aeria Start
+*    o L   o-o-o-o-o-o-o   P o    *     U - Lord Diabrecho Start
+*    |    /  |   |   |  \    |    *     V - Lady Gu Start
+*    o   V   M   o   N   W   o    *     W - Lord Pyros Start
+*    |           |           |    *     Y - Seeker Start
+*    o-o-o-o-o-o-o-o-o-o-o-o-o    *     Z - Sacristy
+*   /            |            \   *     @ - Private Chapel
+*  G             o             H  *
+*                                 *
+***********************************

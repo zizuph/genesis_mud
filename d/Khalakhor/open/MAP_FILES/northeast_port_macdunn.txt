@@ -1,0 +1,51 @@
+main
+::MAPDATA::
+road_12_1 3 5
+jail_storage 31 5
+road_12_2 3 7
+road_13_2 7 7
+road_14_2 11 7
+road_15_2 15 7
+road_16_2 19 7
+road_17_2 23 7
+jail 27 7
+jail_corridor_1 31 7
+jail_corridor_2 35 7
+jail_cell_1 39 7
+road_12_3 3 9
+road_15_3 15 9
+shop 19 9
+road_17_3 23 9
+jail_garrison 27 9
+jail_cell_3 31 9
+jail_corridor_3 35 9
+jail_cell_2 39 9
+road_12_4 3 11
+road_15_4 15 11
+dshop 19 11
+road_17_4 23 11
+road_12_5 3 13
+road_15_5 15 13
+road_17_5 23 13
+road_12_6 3 15
+road_15_6 15 15
+road_17_6 23 15
+::MAPDATA::
+
+                       ____
+           ____       /   /\
+          /   /\     /___/\/
+   |     /___/\/     \___\/
+ - o -   \___\/                o   Jail
+   |                           |
+   o - o - o - o - o - o - o - o - o - o
+   |           |       |   |       |
+   o    ____   o - S   o   o   o - o - o
+   |   /   /\  |       |      ____________
+   o  /___/\/  o - D   o     /           /|
+   |  \___\/   |   r   |    /           / |
+   o           o   e   o   /___________/  |
+   |           |   s   |  |            |  |
+   o           o   s   o  |  [|]  [|]  |  /
+   |           |       |  |            | /
+                          |_____[]_____|/

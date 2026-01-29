@@ -1,0 +1,32 @@
+-The Thanarian human race guild-
+
+   This guild is an expansion on the theme used in the Holy Order of
+Thanar club, a theme of human supremacy fostered by the deity known as
+Thanar. Thanar fosters himself as the patron god of humanity, and as
+such has followers who share in his outlook on life. This race guild
+provides a roleplaying option for those humans with an evil bent, or
+for those that simply don't like non-humans. The emotes and the titles
+of the guild all reflect the guild theme of human supremacy and
+immorality at the cost of the other races' well being. The guild is
+located east of the current headquarters of the Holy Order of Thanar,
+beneath the city of Kabal. It is located here since the Thanar
+organization is considered illegal by the Kabal authorities.
+
+All the guild files are located in /d/Kalad/common/caravan/thanar/
+with the soul being in this file /thanar_soul.c
+         the shadow in this file /thanar_shadow.c
+   and the joinroom in this file /joinroom.c
+
+This is the tax computation for the guild:
+
+SS_WEP_SWORD 40 (10 above adv. guild), taxed at 1.5% per 60 levels
+10/60 = .167
+.167 * 1.5% = .2505%
+0.2505% rounded up to 1.0000% TOTAL TAX
+
+-The other skills taught at the guild are all at adv. guild levels
+ and below:
+-SS_AWARENESS:50
+-SS_SPELLCRAFT:30
+-SS_LANGUAGE:30
+-SS_APPR_MON:40

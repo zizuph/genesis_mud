@@ -1,0 +1,40 @@
+main
+::MAPDATA::
+barrow0 12 8
+barrow1 4 4
+barrow10 2 6
+barrow11 8 6
+barrow12 10 6
+barrow13 12 6
+barrow14 14 6
+barrow15 16 6
+barrow16 6 2
+barrow17 10 2
+barrow18 14 2
+barrow19 18 2
+barrow2 6 4
+barrow3 8 4
+barrow4 10 4
+barrow5 12 4
+barrow6 14 4
+barrow7 16 4
+barrow8 18 4
+barrow9 20 4
+barrow_armr 22 6
+sliding 22 6
+::MAPDATA::
+
+
+      W   o   o   o            ,      ,  
+      |   |   |   |           /(.-""-.)\        W=Wisewoman Herbalist
+    o-o-o-o-o-o-o-o-o     |\  \/      \/  /|    S=Blacksmith
+   /     \  |  /     \    |^\ / =.  .= \ /^|    C=Camp cook
+  o     o-o-C-o-o     S   \( \   o\/o   / )/
+           \|/             \_, '-/  \-' ,_/
+            o                /.  \__/  .\   
+             \               \ \__/\__/ / 
+                           ___\ \|--|/ /___
+    Barrow Encampment    /`    \      /    `\
+     Brotherhood  of    /       '----'       \
+     Goblin Laborers   /       B.O.G.L.       \
+	  

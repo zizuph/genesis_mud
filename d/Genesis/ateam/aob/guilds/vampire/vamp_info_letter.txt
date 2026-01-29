@@ -1,0 +1,163 @@
+Vampires,
+
+As you all (I believe) know, the move from the old Emerald Coven to your
+new existance in Terel under the influence of the Eldest has been a journey
+that has taken many twists and turns. The wizard Novo was not originally
+going to be involved with the process, but recognizing both the passion
+and talent that he possessed for the enterprise, I made it possible for
+him to be the one to create the content revisions that create the Vampire
+experience, along with Lilith, who supplied the ambiance, lore, and your
+wonderful new guildhall.
+
+Novo was extremely innovative with his approaches to bringing the various
+ideas he had to life. Unfortunately, these approaches have not all proven
+to be compatible with our centralized approach to all guild creation as 
+overseen by the Balance Team. Additionally, there are a few places where
+Novo's creations have revealed slight tears in the fabric of space
+(bugs, design errors, etc.) that have only become apparent as the guild
+has been put through the paces by you, the dedicated players.
+
+My philosophy in guiding Novo in this process was to not open with too
+much power, because starting too weak and requiring a boost is far more
+fun from a playing standpoint than starting too strong and requiring
+a nerf. Novo took my advice in some ways, but in general tended to err
+on the side of "too strong." In addressing the issue, I have asked the
+Balance Team to come up with a list of concrete problems with the guild
+which include only things which are clearly out of some boundary with
+respect to the rest of the game, or, involve some breach of creation
+rules or design errors.
+
+Below, I am describing to you the things that will change in the
+experience of playing a vampire and the reasons for this change. The
+specifics are not always able to be conveyed, but I will always 
+at least strive to communicate what I think is necessary knowledge for
+you to understand what has happened and why.
+
+Decided Changes to the Vampire Guild:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Change: Vampires and Bloodguards will not be able to gain quite as
+        many benefits from draining their victims.
+Reason: The simultaneous effect of drained skills and certain types
+        of resistance was not sufficiently taxed according to
+        regulations. The Vampires cannot continue to raise their tax,
+        so the only alternative is to reduce the range of the drain
+        ability.
+
+Change: Vampires will do slightly less damage with their main melee
+        special attack.
+Reason: When the guild first opened, Novo agreed that we would set the
+        special attack power lower than we thought appropriate (we'll
+        call this "Level A".) It was eventually increased to a level
+        we thought was actually more appropriate for the guild
+        ("Level B".) Then, however, the special was again bumped up
+        much higher than Novo or I had ever agreed upon ("Level C".)
+        We are going back to somewhere closer to "Level B."
+
+Change: Vampires will not be able to use the Dash ability quite as
+        freely.
+Reason: The ability, as it had been set up, rendered Vampires
+        practically immune if they knew how to optimize their
+        circumstances. We want them to be hard to catch, but not
+        utterly impossible.
+
+Change: Vampires will no longer be able to Fly out of a room if they
+        have recently been in combat (utilizing the same timing check
+        as trying to quit.)
+Reason: Similar to above. Fly is meant to provide transportation, not
+        to make Vampirse immune to being hunted or cornered. Moreover,
+        there is a global precedent in place against combat porting
+        for *any* guild.
+
+Change: Vampires will no longer be able to use their scry spell while
+        moving.
+Reason: There is a new global standard for the simple scry spell, and
+        all scries will now have these similar aspects.
+
+Change: Vampires will no longer be given notification when magic
+        resistance is being used against them.
+Reason: This is classified as wiz info, unless some spell is cast which
+        can detect it. It has existed as an innate and undocumented
+        ability up till now, and must be removed.
+
+Change: Vampires will still be able to extinguish annoying sources
+        of natural light using flicker, but the duration of the effect
+        will be far less than it has been in the past.
+Reason: Flicker is a GREAT and cool ability, and we want to keep it
+        because it so well represents the theme of terrifying masters
+        of the Night. However ... a Vampire carrying many darkness
+        sources who casts flicker should not be able to completely
+        ruin a pvp opponent's chances for the entire duration of a
+        fight.
+
+Change: Vampires can no longer remain obfuscated once they enter
+        combat.
+Reason: Invisible combat is something that both Novo and I agreed was
+        too controversial and too problematic for the game. It has 
+        since been decided that any invisible combat is outright
+        forbidden for *any* guild. Obfuscate has allowed Vampires to
+        remain invisible to all but the one they are attacking, which
+        is a sort of hybrid-invis combat. This sort of thing just isn't
+        working for Genesis. Any guilds who use invisibility of any 
+        kind will find this change imposed on them.
+
+Change: Vampires will no longer be able to dominate messengers of
+        any kind. 
+Reason: Dominate in combination with the ability to purchase or summon
+        a messenger gives the ability for a Vampire to have a scry-like
+        combo which was never part of the thematic justification for
+        this spell. The spell was designed to give Vampires the ability
+        to see through the eyes of the denizens of the game, not to glue
+        their eyes to postcards. ;-)
+
+Change: Vampires will experience slightly different functionality with
+        the Mesmerize spell.
+Reason: When the spell was first created, the game did not have a 
+        standard method for employing stun effects. Now that this standard
+        has been created, the spell will be converted to its use.
+
+Up for Discussion and Player Input:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+On one item, we need to know the preferences of the Vampire players
+themselves. Currently the Vampires are given healing rates that out-
+perform what is available when fully intoxicated. The Vampires
+currently do not pay any tax for this ability. The justification for
+the tax break was the idea that Vampires cannot drink alcohol or eat
+herbs for healing (and other) benefits. But, of these, only the part
+about not being able to become intoxicated are true. Vampires are able
+to eat and gain the effects of herbs. So, we need to know what the
+players would prefer. Would you rather:
+
+    A. Lose regeneration, and function normally with regard to
+       eating and drinking (like normal mortals) or ...
+    B. Keep regeneration, but lose the ability to benefit (healing or
+       otherwise) from eating herbs.
+
+Plese let the AoB team know your preference!
+
+This concludes the list. I'm sure in reading this, it feels like a great
+many things have been either slightly or heavily nerfed. Unfortunately,
+that is probably an accurate feeling. The important thing to me has been
+that in making these changes we keep the guild:
+
+    1. Fun to play
+    2. Accurate to the Vampire Theme
+    3. Scary for players who fight Vampires
+    4. Powerful and potent
+
+I believe all of these four things remain true. No abilities have been
+removed. Instead, the changes here take existing abilities that were
+functioning outside of design or acceptable parameters and bring them
+into balance with the standards we have for the game.
+
+I wish we'd been able to err more on the side of "too weak" when opening
+so that this didn't feel the way it does. I am hoping that these changes
+will not constitute a drastic shift for any of you, but they are indeed
+necessary and are beyond further discussion.
+
+I'm interested in hearing how things feel once you have walked in your
+new shoes for a few miles. The changes will be taking place over the next
+week or so.
+
+G.

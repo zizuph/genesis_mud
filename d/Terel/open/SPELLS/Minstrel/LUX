@@ -1,0 +1,24 @@
+Name:           Lux
+Object:         /d/Terel/cedric/guild/power/lux
+Cost:           15 mana, Components: instrument, songbook.
+Casting Time:   5
+Skills:         SS_DEX, SS_DIS, SG_READ_MUSIC, SG_VOCAL, SG_INSTRUMENTAL
+Resolution:     Result = resolve_task(TASK_ROUTINE, ((SS_DEX+SG_INSTRUMENTAL)+
+			 (SS_DIS+SG_VOCAL)+Guild_Stat*2))
+Failure:        Result = -1   the song fails completely;
+			  0   the song couldn't be played;
+			 1-20 the song succeeds somewhat but with possible 
+			      accompanying instrument damage.
+			 >20  the song succeeds completely.
+
+Description:    Magically brightens the surroundings.  This is currently
+		accomplished by temporarily setting the property ROOM_I_LIGHT()
+		to 2 * Effectiveness modifier, waiting the appropriate duration,
+		then resetting ROOM_I_LIGHT().  Eventually this will be 
+		replaced by a cloned light_obj.  Effectiveness modifier 
+		is a function of the condition of the instrument 
+		(or vocal chords) and whether or not the performer is part 
+		of a choir.  It is expressed as a percent.
+		
+Duration:       60 * Effectiveness modifier.
+Requirements:   SG_READ_MUSIC > 15

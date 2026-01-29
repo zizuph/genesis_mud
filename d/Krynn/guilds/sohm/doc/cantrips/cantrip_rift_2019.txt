@@ -1,0 +1,43 @@
+
+     Spell name: Dimensional rift
+                 Reskafar
+         Effect: Summoning
+           Type: Maintained
+        Targets: None
+        
+        Element: Air          / 60
+           Form: Conjuration  / 60
+    Spell power: Power 0 [Cantrip spells]
+     Spell type: summon spell
+     
+       Peaceful: Yes
+     Stationary: Yes
+          Vocal: Yes
+         Visual: Yes
+       
+     Components: brown slime (76cc)
+     
+   Casting time:  4s 
+                   
+      Mana cost: Standard, 30 mana
+     Difficulty: TASK_HARD
+     Combat Aid: 0%
+
+            Tax:   0.0   
+                 ------
+                  0.00%  total tax
+   ------------------------------------------------------------
+   Comments: This is a cantrip accessible to WoHS members. 
+
+   It tears a rift in time and space, which is a summonable
+   container, /d/Krynn/guilds/sohm/spells/objs/reskafar_rift.c
+
+   This container is controlled by the summon spell object,
+   /d/Krynn/guilds/sohm/spells/objs/reskafar_obj.c 
+   which allows the rift to remain in place for 30 seconds 
+   before being removed, making this container essentially a
+   temporary trash can.
+
+   There is a mana penalty when this spell ends, draining
+   25% of the casters maximum mana pool.  
+   ------------------------------------------------------------

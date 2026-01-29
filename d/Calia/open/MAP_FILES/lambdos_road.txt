@@ -1,0 +1,21 @@
+main
+::MAPDATA::
+r27 1 5
+arch 5 5
+lroad1 9 5
+lroad2 13 5
+lroad3 17 5
+lroad4 21 5
+court1 21 3
+court2 21 1
+lroad5 25 5
+lroad6 29 5
+::MAPDATA::
+
+                     o
+                     |
+                     o
+\                    |
+ o - o - o - o - o - o - o - o-
+
+      Lambdos Road

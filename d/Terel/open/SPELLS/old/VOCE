@@ -1,0 +1,7 @@
+Name:          Voce
+Object:        /d/Terel/mecien/valley/guild/spells/voce.c
+Cost:          5 mana, no components
+Skills:        None
+Description:   Sends a message to another character
+Requirements:  None
+

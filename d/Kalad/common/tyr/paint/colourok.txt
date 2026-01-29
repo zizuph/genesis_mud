@@ -1,0 +1,59 @@
+red                                red
+strawberry red                     red
+ruby red                           red
+dark red                           red
+blood red                          red
+meat red                           red
+crimson red                        red
+dawn red                           red
+pale red                           red
+purple                             red
+blue                               blue
+steel blue                         blue
+sea blue                           blue
+deep blue                          blue
+dark blue                          blue
+diamond blue                       blue
+pale blue                          blue
+green                              green
+moss green                         green
+sea green                          green
+dark green                         green
+turf green                         green
+orc green                          green
+pale green                         green
+turquoise                          green
+yellow                             yellow
+orange                             yellow
+pale orange                        yellow
+dark yellow                        yellow
+pale yellow                        yellow
+white                              white
+frost white                        white
+snow white                         white
+glowing white                      white
+shimmering white                   white
+marble white                       white
+milk white                         white
+ebony                              black
+black                              black
+jet black                          black
+midnight black                     black
+velvet black                       black
+grey                               grey
+dark grey                          grey
+pale grey                          grey
+brown                              brown
+earth brown                        brown
+dark brown                         brown
+dung brown                         brown
+pale brown                         brown
+bronze                             misc
+tanned                             misc
+pale                               misc
+pink                               misc
+golden                             misc
+silver                             misc
+faded                              misc
+chartreuse                         misc
+END

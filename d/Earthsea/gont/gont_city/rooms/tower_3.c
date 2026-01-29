@@ -1,0 +1,30 @@
+#pragma strict_types
+#pragma no_clone
+
+inherit "/std/room";
+
+#include <stdproperties.h>
+
+public void
+create_room()
+{
+    add_prop(ROOM_S_MAP_FILE, "earthsea_map.txt");
+    set_short("Third floor of guard tower");
+    set_long("You are on the third floor of "+
+        "the guard tower. The walls are made of black stone "+
+        "carefully fitted together without mortar. "+
+        "Granite flagstones pave the floor. Entries lead to four corner "+
+        "rooms, and a dark passage leads to the north.\n");
+    add_item((({"floor", "ceiling", "walls", "stone",
+        "flagstones", "granite flagstones", "black stone"})),
+        "The walls, floor and ceiling are all constructed from the "+
+        "same dark stone as the city walls. The large blocks are fitted "+
+        "together without mortar.\n");
+    add_prop(ROOM_I_INSIDE, 1);
+    add_exit("tower_ne3", "northeast");
+    add_exit("tower_nw3", "northwest");
+    add_exit("tower_se3", "southeast");
+    add_exit("tower_sw3", "southwest");
+    add_exit("tower_hall1", "north");
+    add_exit("tower_2", "down");
+}

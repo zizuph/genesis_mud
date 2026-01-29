@@ -1,0 +1,80 @@
+main
+::MAPDATA::
+cave1 60 3 caves
+cave2 60 3 caves
+cave3 60 3 caves
+cave12 60 3 caves
+cave13 60 3 caves
+cave4 60 3 caves
+cave11 60 3 caves
+cave5 60 3 caves
+cave10 60 3 caves
+cave6 60 3 caves
+cave9 60 3 caves
+cave7 60 3 caves
+cave8 60 3 caves
+cave14 60 3 caves
+cave15 60 3 caves
+nest 60 3 caves
+::MAPDATA::
+
+  \               ~~~~           OOooOOoOooOooOooOo^^ooOooOoO^^^^OoOoOOoOOoo
+   \              ~~~~           OOoOoOOoOoOoOoOOo^^^^^^^^^^^^^^^^^oOOooOoOOo
+    \             ~~~~           OoOOoOOOOOOOOo^^^^^^^^^^^^^^^^^^^OOOOO.OoOOO
+ \                 ~~~~          OOoooOoOooOooOooOoOOoOoOo^^^^^^OooOoOOooOooO
+  \                ~~~~         oOOoOOoOoOoOoOoOOooOOooOOOoo^^oOoOOooOOoOoOOo
+ tains              ~~~~        OOoOOoOOOOOoOOoOOOOOOOOoOOOOOoOOoOOOOOoOOoOOO
+                    ~~~~        oOOooOooOoOOooOooOoOOooOooOoOOooOooOoOOooOooO
+                   ~~~~         oOOoOoOOooOOoOoOOooOOoOoOOooOOoOoOOooOOoOoOOoo
+ ------------+-----====-------------- The Old Forest Road ---------------------
+             |     ~~~~        OOoOOOoOOOOoOOOoOOOOoOOOoOOOOoOOOoOOOOoOOOoOOOO
+             |      ~~~~       OoOOoOOOoOoOOoOOOoOoOOoOOOoOoOOoOOOoOoOOOOOOoO
+             |   A N D U I N   OOOOoOOOOoOOOoOOOOoOOOoOOOOoOOOoOOOOoOOOOOoOOO
+             |      ~~~~~      OOOOOOoOOOOOOOOoOOOOOOOOoOOOOOOOOoOOOOOOOOoOOO
+ tains       |       ~~~~      OoOOoOOOoOoOOoOOOoOoOOoOOOoOoOOoOOOoOoOOOOOOoO
+             |       ~~~~      OOOOoOOOOoOOOoOOOOoOOOoOOOOoOOOoOOOOoOOOOOoOO
+             |      ~~~~       OOOOOOoOOOOOOOOoO+----------+OOOOoOOOOOOOOoOO
+             |      ~~~~       OoOOoOOOoOoOOoOOO| MIRKWOOD |OOoOOOoOoOOOOOOo
+             |      ~~~~       OOOOoOOOOoOOOoOOO+----------+OOoOOOOoOOOOOoOO
+ \           |      ~~~~       OOOOOOoOOOOOOOOoOOOoOoOOoOOOoOoOOoOOOOOOOOoOO
+             |      ~~~~       OoOOoOOOoOoOOOOoOOOOoOOOoOOOOoOOOOOoOoOOOOOOo
+             |       ~~~~      OOOOoOOOOoOOOOOOOoOOOOOOOOoOOOOoOOOOoOOOOOoOO
+
+::NEWMAP::
+caves
+::MAPDATA::
+cave1 7 1
+cave2 11 3
+cave3 11 5
+cave12 43 5
+cave13 47 5
+cave4 15 7
+cave11 39 7
+cave5 19 9  
+cave10 35 9
+cave6 19 11
+cave9 31 11
+cave7 23 13
+cave8 27 13
+cave14 19 15
+cave15 23 15
+nest 27 17
+::MAPDATA::
+
+       o
+         \         Deep beneath the Mountains of Mirkwood
+           o
+           |
+           o                               o - o
+             \                           /
+               o                       o
+                 \                   /
+                   o               o
+                   |             /
+                   o           o
+                     \       /
+                       o - o
+                     /
+                   o - o
+                         \
+                           o

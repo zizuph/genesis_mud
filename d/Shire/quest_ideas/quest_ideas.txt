@@ -1,0 +1,93 @@
+Ranger in Prancing Pony:
+For many years the Dunedain lived in the fair lands of Cardolan. It was a division of Arnor and founded in the TA 861. However, the witch-king Angmar waged war against us. We bravely fought him, but were overwhelmed and retreated south to the Barrow Downs, the sacred burial grounds of the first men of Middle earth. While he sought us out and destroyed us, his corrupting hand tainted those who rested in peace, but sadly, they never were able to. He raised the souls and imprisoned them to do his bidding.  During while of our last battles, the last prince of Cardolan was killed by the witch-king. In malevolent mockery, he raised the corpse. Curses to the witch-king! Curses to him! The poor soul needs to be put to rest. Please put him out of his misery, for he wanders somewhere in the barrows. Some say they have seen him surrounded by other souls, so it may be dangerous. Do not put yourself in danger for you may fall under their spell, but be do be careful. When you have put his soul to rest, bring back proof and I shall be forever grateful for your kind deed.
+
+Cleanse the Downs
+Go kill each of the Kings in the Downs and bring back proof you have killed them to the ranger in the PP.
+Worth abt 40k exp
+------------------------
+Bill Ferny:
+So, you want to help me? Can I trust you? <check alignment> Hmm...I'm not sure, but I'll give you a small asignment. If you prove yourself, I may give you a more dangerous task. Here is what you must do. I'm expecting some 'friends' from the south. Go to the gate and keep an eye out for them. when they enter Bree, come back and tell me. I may have more work for you later.
+
+I guess I Can trust you with a more dangerous task. Go to the gatekeeper and spy on him. He seems to be robbing me blind. He's suppose to give me some of the fees he's collecting, but hasn't. Find out why.
+
+I have a news that must go to Sharkey. I dare not trust my spies here and I must keep an eye on Bree. Take this report to him, and return with any other instructions from him.
+------------------------
+Troll quest
+ 
+Along the way to Rivendell, there are 3 troll statues. Actually, they are trolls that turned to stone because they were out in the morning sun. One of them had a key in his pocket that fell out of his pocket when they searched for the dwarves and is buried in the ground near him. Find the key, open the door to the cave, and get the treasure and weapons therein. As a bonus, there is treasure hidden nearby. The player will have to dig for it to retrieve the buried treasure.
+ 
+1. Search ground near the statues until key is found.
+2. Find cave and unlock door.
+3. Push door open if strong enough.
+4. Retrieve weapons, treaure, clothes, food, etc. from cave.
+5. Go to the river's edge and begin digging for gold. When 
+   found, retrieve pots of gold.
+6. Get exp if this is first time.
+ 
+Experience will be low since there is a great deal of loot involved that players can get and sell
+ 
+This 'quest' can be repeated but exp will only be given once. Objects in cave can be retrieved numerous times. Weapons will be low quality since the good ones were taken already. :)
+------------------------
+Lobelia Quest
+ 
+Lobelia Sackville-Baggins wants to move into Bag End, but can't because it is owned by Frodo Baggins. Nonetheless, she is making plans to one day to own the Hill. Help her in her efforts to gain knowledge about the place and maybe even get some items that she wants.
+ 
+Frodo guards his place, so be sure and have some items he wants in order to bribe him and gain entrance into rooms in the Row. Also, Sam Gamgee protects his master so he will be a foe to overcome too.
+ 
+The most important thing to get is floor plans of the row. To do this, the player will have to have paper and a pen. He will have to visit each room and draw it and any distinguishing features such as windows, bookcases, etc. All features of the room must be on the map before moving onto the next room. 
+
+For additional points, the player will have to pick up the any five of the following items as they travel through the different rooms. 
+ 
+* silver spoons from the kitchen
+* book on hobbit genealogy from the study
+* jams from the pantry
+* bright wrapping paper from a closet
+* ink pot from sitting room desk
+* shirt from closet
+* deed to hole
+* embossed clothes hangers 
+ 
+Items necessary for the quest
+1. paper and pen
+2. Some seeds to bribe Sam
+3. Pipeweed to bribe hobbits in Bag End
+4. Fruits from the garden
+------------------------
+Tom Bombadil Quests
+
+1. Get lilies for from river for Tom to give to Goldberry
+2. Find replacement feathers for his hat
+3. Repair his cloak. Quality based on dex, con, and int
+	* Buy cloth from shop
+    * Return to house and measure Tom (arm, legs, chest, back, neck)
+    * Visit sewing room in house
+    * Spread cloth out on table
+    * Cut cloth based on measurements
+        - If dex <> high enough, cloth will be ruined. Must use new cloth 
+          and try again
+    * Get needle and thread from shelf
+    * Sew cloak
+        - May mes up sewing. if this happens, must rip out stiching and 
+          try again. Check Con, dex, int for this.
+    * When finished, give cloak to Tom. Exp awareded based on quality. 
+      May repeat quest for better quality.  
+        - Poor, Average, Good, Very Good, Excellent
+------------------------
+Put out the fire
+* checks for dex and str. Requires paper, quill, and ink from bree
+* Requires at least 2 people to complete quest. Timers set when players begin on house and trolls. If trolls and fire not out within 5-7 min(?) and within 1-2 min of each other, quest fails and house collapses in on itself. player must redo quest later.
+* Player must find large buckets behind house. takes buckets to stream nearby, fills them, returns, throws water on house, and repeats. Must be strong to carry empty buckets to carry buckets to stream (50-75) and strong and dextrous enough to carry them full of water and toss on house (100-125 str, 90 dex)
+
+Sonic is distressed. Found out why.
+
+Sonic's wife ran out on him for some reason; he was unfaithful to her. She left Bree with a new husband and now lives somewhere south of the town. He wants to make amends but knows it's  hopeless. However, he asks you find her and give her a final note of remorse and he'll leave her alone forever. 
+
+    * Take note and go to her house.
+    * Find house on fire and surround by trolls
+        - If player puts out fire first, trolls will rush house and kill people in basement.
+        - If player kill trolls first, house will burn down and kill everyone inside.
+            * Requires at least 2 people to do quest. 1 puts out the fire while the other kills the trolls. Both must be done about the same time otherwise the same problem happens.
+    * Find family huddled in basement, guarded by last troll. Kill troll to save family.
+    * Give note to wife. She gets distressed. Wants to send note to sonic. Nothing to write with. 
+    * Give paper, pen, ink to wife. She writes note. Seals it.
+    * Return to sonic. give note to her. Sonic feels better but sad at turn of events. gives exp.

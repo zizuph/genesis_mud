@@ -1,0 +1,69 @@
+Adventuresome Hobbit Race Guild
+------------------------------
+(Last updated on October 8th 1996)
+
+Things to know about the guild
+------------------------------
+Join room:		/d/Shire/hobbit/join
+Start room:             /d/Shire/hobbit/start
+Library:                /d/Shire/hobbit/libraryroom
+(Where members may write books)
+Board room:             /d/Shire/hobbit/board
+Guild object:	  	/d/Shire/hobbit/pipe
+Guild cmdsoul:  	/d/Shire/hobbit/hobbit_soul
+Guild shadow:  		/d/Shire/hobbit/hobbit_shadow
+Fun thing:		/d/Shire/hobbit/bath.c
+
+N.B. Working backups of most of the above files have been
+made should an error occur and then only this would be
+necessary: mv (offending file).c (offending file).buggy
+mv (offending file).bak (offending file).c
+This should fix problems with the shadow, soul and pipe instantly.
+
+N.B. You must complete the entrance quest given by /d/Shire/
+hobbit/doorhobbit in order to be able to join the guild.
+This quest is open to all players of Genesis.
+For more info on the quest, please see:
+/d/Shire/QUESTS/hobentrance.
+
+What the guild offers
+---------------------
+The guild offers the chance to join a hobbit family, and get a family
+name: e.g. Dunstable Took.  It is a hobbit racial guild based on the
+Lord of the Rings trilogy by J.R.R. Tolkien and is meant to add a
+roleplaying flavor to life in the Shire. The hobbits were the last
+racial guild to be added in Genesis, but here's hoping it was worth
+the wait! :)
+The guild offers many emotes which can be found by cloning the pipe
+and typing: help hobbit emotions.  The pipe will probably self-destruct
+on you, so type quickly. :)
+Of course you may just change your race to hobbit and join the guild normally.
+The guild trains skills as listed below, has a common board, a guild board,
+it's own library for the members to use, a post office, a start room, and an
+inn which gives members discounts.
+
+
+Tax Calculation
+------------------------------
+
+
+Skill                Max level    Untaxed        Tax levels    Tax in %
+Sneak                  50           30              20             .33%
+Hide                   50           30              20             .33%
+Knife	               50           30              20(*1.5)       .50%
+Herbalism              50           20              30             .50%
+                      ---          ---             -----          -----
+                      200          110               90           1.67%  
+
+The guild also offers an inn where food and drink are 1/2 price,
+as well the inn offers members pipe-weed which is smoked by their pipes,
+which according to man guilds cost 1% tax.
+
+Therefore the tax calculation comes to 2.67% tax.
+Assigned tax will be 3%.
+
+Lord Dunstable Uruva, Mayor of the Shire
+/Updated by Igneous Oct. 21th 1996
+
+TODO:
+Add the birthday system to the guild and set up birthday parties.

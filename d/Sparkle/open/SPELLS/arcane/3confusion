@@ -1,0 +1,25 @@
+Name: Confusion
+
+Object: /d/Sparkle/guilds/arcane/spells/confusion.c
+
+Cost: 
+
+Skills: 
+
+Description: Tier 3 spell
+                 Targets: 1, specified target required
+		 Makes the target confused. Creates a spell effect
+		 object in the target, which, for a short duration of
+		 time, causes the target to randomly perform actions
+		 from a list of predefined actions. This will not be
+		 nearly as extreme as the old Mystic version, where
+		 players might have been invoked to 'drop all'. The
+		 actions would range from 'drop <random number> item'
+		 to 'eat/drink all' to walking in spurts of random
+		 directions, to speaking/shouting random phrases and
+		 performing random emotes.
+		 
+Requirements: 
+    SS_ELEMENT_LIFE
+    SS_FORM_CONJURATION
+    Lemon

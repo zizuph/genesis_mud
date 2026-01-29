@@ -1,0 +1,499 @@
+The Heralds of the Valar spell doc.
+- Arman Kharas, May 2018
+
+All spells can be found in /d/Shire/guilds/herald/spells/
+All spell objects in /d/Shire/guilds/herald/spells/obj/
+
+All spells use the standard Genesis magic system, inheriting templated
+spells from /d/Genesis/specials/std/spells/
+
+GENERAL SPELL RESTRICTIONS:
+==========================================================================
+Heralds of the Valar get all their spells when they join, however they
+are restricted in their power and usage depending on a few factors.
+
+Maintained spells that require combat aid (of which there are 4)
+are capped at 15 caid, and only three may be maintained at any time.
+
+Also the heal spell is less effective if too many maintained spells are
+being channelled.
+
+Spells are also impacted by guild rank and player corruption through 
+either of the following spell functions:
+
+query_spell_guild_strength()
+query_spell_combat_aid_modifier()
+
+These functions alter the power or combat aid of spells, allowing a
+percentage of the spell power / caid to be utilised, so if one of these
+functions returns '60', then the spell will only work at 60% power or 
+max caid. A return of '100' allows the spell to be cast at full power.
+
+All Herald spells power or caid return a value for these functions
+dependent on the following formula:
+
+40 + (guild level * 3) - corruption.
+
+So a new member's spells will work at 43% effectiveness, while a capped
+level member with no corruption would have their spells working at 100%
+effectiveness.
+
+CORRUPTION:
+==========================================================================
+Corruption is an evocative theme introduced in Tolkien's works focusing on
+the influences of power and illegitimate magic. Examples include Gandalf's
+wariness in handling the One Ring, and Saruman the White being corrupted
+by Sauron through the overuse of his powers for purposes other than
+combatting darkness or maintaining the balance.
+
+This corruption theme has been introduced into the Heralds of the Valar
+as a numerical value between 0 and 100, and is managed through functions
+within /d/Shire/guilds/herald/lib/herald_manager.c for each member.
+
+Each corruption point reduces a member's combat aid or spell power by 1%.
+
+Corruption points can be gained through spellcasting failure, or killing/
+healing good aligned creatures and creatures that fight against the Forces 
+of Shadow. Corruption points can only be reduced through a random decay
+function within the guild shadow that 'ticks' on average every 45 minutes,
+and if the player is active it reduces corruption by a point.
+
+If a player's corruption level is greater than 75 they lose access to their
+spells entirely, and gain the title 'Fallen Herald'.
+
+SPELL EFFECTIVENESS AND HFOCUS 
+==========================================================================
+A Herald may choose to 'focus' on two maintained powers or one maintained
+power, forgoing access to the rest of their spells. This allows them to 
+have two maintained spells active of up to 22 caid each, or one maintained 
+spell active of up to 35 caid. This is managed through the hfocus 
+command <singular> / <dual> / <none>.
+
+As layman magic guilds may have up to 45 caid max in maintained spells 
+active at any one time, focusing on a singular or dual option does result 
+in less potential optimisation (35 and 44 max caid respectively).
+
+HERALDS OF THE VALAR SPELL LIST
+==========================================================================
+engwagalad      A prayer to Lorien to tend poisons and inflictions
+haetir          Call upon the farsight of Manwe
+hortale         Channel the swiftness of the Mearas
+khil            Call Vaire to divine the touch of Shadow
+lissinen        Ask Este to heal your wounds
+namotir         Protection from Shadow magic
+noleme          Channel the wisdom of Ulmo
+nornore         Detect other Heralds in the realms
+ondo            Channel the hardness of the earth
+rada            Call upon Vana to find nearby herbs
+ramar           Call upon Manwe to summon a winged messenger
+riel            Create a herb garden by channelling the Earth-mother
+silme           Appeal to Elbereth to light your way
+
+SPELLS
+==========================================================================
+Spell name:      engwagalad                Element:      Water (20)
+Spell effect:    cleanse spell             Form:         Conjuration (20)
+Type:            instant                   Difficulty:   ROUTINE
+Target:          living                    Combat aid:   0
+Spell power:     Class 2                   Mana cost:    Standard (30)
+
+Peaceful:        No                        Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (standard spell time) 
+Components:      pawnrose herb (410cc) 
+                 * optional component athelas herb (576cc)
+
+TAX:             0.375% (magical layman class 2 spell, 
+                         Component cost >=1 gp: -25%)
+
+ --- --- --- --- --- --- ====== Comments ====== --- --- --- --- --- --- 
+A Herald may supplicate Irmo, otherwise known as Lorien, for access to 
+the Fountain of Renewal he is master of. By doing so a Herald may cleanse 
+themselves or others of poisons and inflictions.
+
+Standard cleanse spell.
+
+Optional component athelas doubles the result outcome in the
+resolve_cleanse_spell function, increasing its chance of success.
+
+query_spell_guild_strength() function returns: 
+   [40 + (guild level * 3) - corruption] (see spell restrictions above).
+
+If cleansing someone of alignment < -79, the Herald gains a corruption 
+point.
+
+==========================================================================
+Spell name:      haetir                    Element:      Air (15)
+Spell effect:    scry spell                Form:         Divination (25)
+Type:            instant                   Difficulty:   ROUTINE
+Target:          living                    Combat aid:   0
+Spell power:     Class 2                   Mana cost:    Std scry (100)
+
+Peaceful:        No                        Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    10s (standard scry cast time) 
+Components:      parsley herb (96cc)
+
+TAX:             0.5%  (magical layman class 2 spell, 
+                         Component cost < 1 gp: -0%)
+
+ --- --- --- --- --- --- ====== Comments ====== --- --- --- --- --- --- 
+A Herald may channel the farsight of Manwe, seeking out a birds-eye view 
+of their target.
+
+Restricted scry spell, providing room description upon success only
+when the target is outdoors, otherwise caster only gets informed that
+they are indoors or underground in a specific domain.
+
+==========================================================================
+Spell name:      hortale                   Element:      Air (30)
+Spell effect:    haste spell               Form:         Conjuration (20)
+Type:            Maintained                Difficulty:   HARD
+Target:          living                    Combat aid:   special
+Spell power:     Class 3                   Mana cost:    Standard (30)
+
+Peaceful:        No                        Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (standard spell cast time) 
+Components:      tyelka (644cc) 
+                 evendim grass (175cc)
+                 horse/steed [not consumed]
+
+TAX:             0.75%  (magical layman class 3 spell, 
+                         Component cost >=1 gp: -25%)
+
+ --- --- --- --- --- --- ====== Comments ====== --- --- --- --- --- --- 
+A Herald may call upon Orome to channel the quickness of his stallion 
+Nahar upon their mount, enhancing their steed's speed - and by extension 
+their own speed while mounted - to rival that of the Mearas.
+
+A haste spell that can only be cast and maintained while mounted on
+a steed.
+
+Max combat aid is set at 35, influenced by the following:
+* level and corruption, within query_spell_combat_aid_modifier() 
+   caid = [40 + (guild level * 3) - corruption] / 100
+   (see spell restrictions above).
+
+* hfocus settings (singular focus / dual focus / no focus)
+   max base caid of 35 / 22 / 15 before level and corruption influence
+   taken into account (see spell effectiveness and hfocus above).
+
+==========================================================================
+Spell name:      khil                      Element:      Earth (10)
+Spell effect:    alignment spell           Form:         Divination (15)
+Type:            instant                   Difficulty:   ROUTINE
+Target:          living                    Combat aid:   0
+Spell power:     Class 1                   Mana cost:    Standard (30)
+
+Peaceful:        No                        Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard) 
+Components:      none
+
+TAX:             0.375% (magical layman class 1 spell, no component 150% 
+                         normal cost)
+
+ --- --- --- --- --- --- ====== Comments ====== --- --- --- --- --- --- 
+A Herald may beseech Vaire and search through the threads linked to the 
+deeds of an individual, divining their past actions and whether they have 
+acted on behalf of the forces of darkness or light.
+
+Standard detect alignment spell.
+
+Power of spell dependent on query_spell_guild_strength() function: 
+   [40 + (guild level * 3) - corruption] (see spell restrictions above).
+
+==========================================================================
+Spell name:      lissinen                  Element:      Water (20)
+Spell effect:    heal spell                Form:         Conjuration (20)
+Type:            instant                   Difficulty:   ROUTINE
+Target:          living                    Combat aid:   up to 50
+Spell power:     Class 3                   Mana cost:    Standard (30)
+
+Peaceful:        No                        Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    1.5x, 6s 
+Components:      huckleberry herb (211cc)
+                 * optional component lothore herb (600cc)
+
+TAX:             0.75% (magical layman class 3 spell, 
+                       Component cost >=1 gp: -25%)
+
+ --- --- --- --- --- --- ====== Comments ====== --- --- --- --- --- --- 
+When a Herald channels the blessings of Este they call upon her healing
+powers, mending themselves - or the focus of their channelling. 
+
+Calling lissinen against the unliving results in the channelling of Mandos 
+- the Keeper of the Dead, painfully draining their essence.
+
+Based on standard heal spell. 
+
+Power of spell modified through query_spell_guild_strength() function: 
+   [40 + (guild level * 3) - corruption] (see spell restrictions above).
+
+Optional component athelas doubles the result outcome in the
+resolve_heal_spell function, increasing the potential heal outcome (noting
+it is very randomised and may not be very noticeable).
+
+Combat aid base is 50 
+* reduced to 35 if hfocus is set to 'dual' or 'singular' focus or three
+  blessing active.
+
+If healing someone of alignment < -79, the Herald gains a corruption point.
+
+===========================================================================
+Spell name:      namotir                   Element:      Earth (40)
+Spell effect:    resistance spell          Form:         Abjuration (40)
+Type:            maintained                Difficulty:   HARD
+Target:          caster                    Combat aid:   special
+Spell power:     Class 3                   Mana cost:    Standard (30)
+
+Peaceful:        No                        Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard) 
+Components:      nasturtium (350cc), blackroot (427cc)
+
+TAX:             0.75% (magical layman class 3 spell, 
+                         Component cost >=1 gp: -25%)
+
+ --- --- --- --- --- --- ====== Comments ====== --- --- --- --- --- --- 
+Standard resistance base spell.
+Protects against death magic, add_resistance(MAGIC_I_RES_DEATH, x);
+
+Resistance between 8 to 44, influenced by rank, corruption, and hfocus 
+setting:
+* level and corruption, within query_spell_combat_aid_modifier() 
+   caid = [40 + (guild level * 3) - corruption] / 100
+   (see spell restrictions above).
+
+* hfocus settings (singular focus / dual focus / no focus)
+   resistance of 19-44 / 12-28 / 8- 19 before corruption influence
+   taken into account (see spell effectiveness and hfocus above).
+
+* resistance values determined by caid benefit for one resistance type
+  and hfocus setting:
+   caid:    15  /  22  / 35
+   hfocus: none / dual / singular
+
+===========================================================================
+Spell name:      noleme                    Element:      Water (30)
+Spell effect:    statboost spell           Form:         Conjuration (30)
+Type:            maintained                Difficulty:   HARD
+Target:          caster                    Combat aid:   special
+Spell power:     Class 3                   Mana cost:    Standard (30)
+
+Peaceful:        No                        Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard)
+Components:      adillyp (herb, 356cc)  water lily (special, 50cc-99cc)
+
+TAX:             0.75% (magical layman class 3, Components >=1 gp: -25%)
+
+ --- --- --- --- --- --- ====== Comments ====== --- --- --- --- --- ---
+In channelling Ulmo a Herald taps into his deep temperance and 
+understanding, enhancing their wisdom considerably.
+
+Standard statboost maintained spell that increases add_stat_boost SS_WIS.
+
+Max combat aid is set at 35, influenced by the following:
+* level and corruption, within query_spell_guild_strength() 
+   caid = [40 + (guild level * 3) - corruption] / 100
+   (see spell restrictions above).
+
+* hfocus settings (singular focus / dual focus / no focus)
+   max add_stat_boost of 35 / 22 / 15 before level and corruption 
+   influence taken into account (see spell effectiveness and hfocus above).
+
+The water lily is a unique object (/d/Shire/bombadil/obj/lily.c) that can 
+only be picked from a single location on the banks of the Withywindle - a 
+minor tributary of the River Brandywine that flowed through the Old Forest
+on the borders of the Shire.
+
+===========================================================================
+Spell name:      nornore                   Element:      Earth (10)
+Spell effect:    shadow spell              Form:         Divination (5)
+Type:            Instant                   Difficulty:   SIMPLE
+Target:          Caster                    Combat aid:   0%
+Spell power:     Class 0 (cosmetic)        Mana cost:    Reduced (5)
+
+Peaceful:        Yes                       Stationary:   Yes
+Verbal:          No                        Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard)
+Components:      None.
+
+TAX:             0.0% (magical layman cosmetic spell)
+
+ --- --- --- --- --- --- ====== Comments ====== --- --- --- --- --- ---
+When a Herald channels Astaldo, he seeks to divine those other Heralds 
+walking the realms who share a like bond of 
+loyalty.
+
+This is a cosmetic spell that lists the other guild members that are
+currently online.
+
+===========================================================================
+Spell name:      ondo                      Element:      Earth (30)
+Spell effect:    stoneskin spell           Form:         Abjuration (30)
+Type:            maintained                Difficulty:   HARD
+Target:          caster                    Combat aid:   special
+Spell power:     Class 3                   Mana cost:    Standard (30)
+
+Peaceful:        Yes                       Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard) 
+Components:      fungiarbo herb (325cc), rock (0cc)
+
+TAX:             0.75% (magical layman class 3 spell
+                        Components >=1 gp: -25%)
+
+ --- --- --- --- --- --- ====== Comments ====== --- --- --- --- --- ---
+Aule holds mastery over Earth-weaving, and a Herald may channel a type of 
+earth-form, hardening their body and making them better able to absorb 
+blows against them.
+
+Standard stoneskin spell.
+
+Max combat aid is set at 35, influenced by the following:
+* level and corruption, within query_spell_combat_aid_modifier() 
+   caid = [40 + (guild level * 3) - corruption] / 100
+   (see spell restrictions above).
+
+* hfocus settings (singular focus / dual focus / no focus)
+   max base caid of 35 / 22 / 15 before level and corruption influence
+   taken into account (see spell effectiveness and hfocus above).
+
+===========================================================================
+Spell name:      rada                      Element:      Earth (20)
+Spell effect:    locate spell              Form:         Divination (20)
+Type:            maintained                Difficulty:   ROUTINE
+Target:          herb object               Combat aid:   0
+Spell power:     Class 2                   Mana cost:    Standard (30)
+
+Peaceful:        No                        Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard) 
+Components:      silver coin (12cc)
+
+TAX:             0.5%  (magical layman class 2 spell, 
+                         Component cost < 1 gp: -0%)
+
+ --- --- --- --- --- --- ====== Comments ====== --- --- --- --- --- --- 
+Heralds who channel Vana in search of a specific herb bring in to being a 
+path of glimmering light that will guide them to any herbs that are within 
+range of their channelling.
+
+Range of locate detection is based on Herald rank:
+   range = 4 rooms + (herald rank / 2) rooms, to a max of 14 room range.
+
+Range is modified by query_spell_guild_strength() function:
+   range = range * ([40 + (guild level * 3) - corruption] / 100)
+
+==========================================================================
+Spell name:      ramar                     Element:      Air (10)
+Spell effect:    summon spell              Form:         Conjuration (10)
+Type:            maintained                Difficulty:   ROUTINE
+Target:          caster                    Combat aid:   0
+Spell power:     Class 1                   Mana cost:    Standard (30)
+
+Peaceful:        Yes                       Stationary:   No
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard) 
+Components:      none
+
+TAX:             0.375%  (magical layman class 1 spell, 
+                          no component 150% normal cost)
+
+ --- --- --- --- --- --- ====== Comments ====== --- --- --- --- --- --- 
+A Herald may channel Manwe, calling upon one of his winged allies - in 
+the form of an eagle - to aid them as a messenger.
+
+Standard summon spell, cloning /d/Shire/guild/heralds/spells/obj/eagle.c
+
+This messenger is restricted to being able to deliver to people outdoors,
+and cannot be summoned when under water.
+
+==========================================================================
+Spell name:      riel                      Element:      Earth (45)
+Spell effect:    plant spell               Form:         Conjuration (25)
+Type:            maintained                Difficulty:   ROUTINE
+Target:          caster                    Combat aid:   0
+Spell power:     Class 2                   Mana cost:    Standard (30)
+
+Peaceful:        No                        Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard) 
+Components:      water (10cc), ashes from a campfire (special), opal (864cc).
+
+TAX:             0.5%    (magical layman class 2 spell, 
+                          no component < 1gc: -0%)
+
+ --- --- --- --- --- --- ====== Comments ====== --- --- --- --- --- --- 
+Heralds who call upon Yavanna and channel her endowment can have the 
+earth around them accept a herb of their choosing, allowing the 
+cultivation of that herb in that location for a variable duration, 
+dependent on the value of the herb.
+
+The duration of the spell effect is based on the following formula:
+
+duration time = 8640000 / herb_value 
+
+...with a maximum of 10 days for a herb valued at 10 copper. The spell
+effect for a herb of 1 platinum value will have a duration of 
+approximately 84 minutes.  This is managed within
+/d/Shire/guild/heralds/spells/obj/riel_room_obj.c
+
+Standard plant spell, allowing a herb to be added to a room's 'herbs'
+array. Will only work in rooms where herbs currently grow.
+
+The herb planted is naturally consumed in the casting.
+
+Components required are water, which can be purchased at a number of
+inns and pubs around Genesis; as well as ashes, of which the most common
+source is from ranger npcs that make campfires around Gondor and the 
+Shire (i.e /d/Gondor/guilds/rangers/obj/firewood.c).
+
+==========================================================================
+Spell name:      silme                     Element:      Air (10)
+Spell effect:    light spell               Form:         Conjuration (10)
+Type:            maintained                Difficulty:   ROUTINE
+Target:          none                      Combat aid:   0%
+Spell power:     Class 1                   Mana cost:    Standard (30)
+
+Peaceful:        No                        Stationary:   No
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard)
+Components:      none
+
+TAX:             0.375% (magical layman class 1 spell, no component 150% 
+                         normal cost)
+
+ --- --- --- --- --- --- ====== Comments ====== --- --- --- --- --- --- 
+Heralds may call upon Elbereth in their hours of deepest darkness, 
+channelling her radiant creations - the stars - to guide their way. 
+
+This channelling requires the Herald to be wearing their robe.
+
+Standard light spell of 30 minute duration.
+
+Offers between 1 and 10 light levels depending on spell power:
+light = min(10, max(1, (power - 250) / 10));
+
+Spell power is influenced by guild rank and corruption through the spell's 
+query_spell_guild_strength() function:
+   power = power * ([40 + (guild level * 3) - corruption] / 100)
+
+==========================================================================

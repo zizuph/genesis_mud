@@ -1,0 +1,51 @@
+------------------------------------------------------------------------
+           Initiation into the Quondam Mistici Society
+------------------------------------------------------------------------
+Requirements:
+- A seeker must be sponsored by at least two current members.
+- At least two sponsors (preferably three) must participate in the
+  ceremony.
+ 
+Preparations:
+- The person being initiated is called the Seeker.
+- The person leading the ceremony is called the Primary Initiator (PI)
+- The person(s) sponsoring the Seeker is/are called the Sponsors (Sp)
+  (The PI is also a Sp if only two members are available)
+- All participants should be wearing white robes, especially the
+  PI, Sp and Seeker.
+- The PI may wear a mantle and alb, and the Sp a mantle
+- The society title to be given to the Seeker during the ceremony
+  should be determined AHEAD of time.
+- The PI must carry a quantity of incense.
+- All participants should gather in the sanctuary where the ceremony
+  must take place.
+ 
+Ceremony:
+1 The PI informally welcomes all and announces/introduces the Seeker
+2 The PI starts the incense with the command 'load incense'. It will
+  sburn immediately, but will take a while to fill the room, which
+  must happen before the laying on of hands.
+3 The PI instructs the seeker in the objectives of the society, which
+  are to perpetuate the bond of friendship amongst those of the former
+  arcane faith, and to preserve the memory of the Ancient Mystic Order
+  for posterity.
+4 The PI asks the Seeker to affirm his/her willingness to abide by
+  the objectives of the society ("I do" type of deal)
+5 The PI asks "Who sponsors this seeker"
+6 The Sp answers "I do" and lays his/her hands on the seeker with the
+  command 'lay hands on <seeker>'. Any other members present may do
+  likewise if they choose.
+7 The second Sp or the PI (if only one Sp) does likewise.
+8 The PI announces the induction with something like "With your pledge
+  of fidelity and the support of those present, I induct you into
+  the Society of Quondam Mistici"
+9 The PI inducts the Seeker with the command 'induct <seeker> <title>'
+  Note the title should fit in the sentence "He is ___________"
+  For example: 'induct zima a Quondam Mystic Cantor' or 'induct mumon
+               the Dictator of the Club'
+
+Summary of necessary commands:
+'load censor'              (must have incense)
+'lay hands on <seeker>'    ex: 'lay hands on digit'
+'induct <seeker> <title>'  ex: 'induct digit a Quondam Mystic Acolyte'
+                               'induct digit the Eternal Majesty'

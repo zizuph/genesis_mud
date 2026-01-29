@@ -1,0 +1,166 @@
+main
+::MAPDATA::
+road2 7 9 vingaard_road 
+road3 7 9 vingaard_road
+road4 7 9 vingaard_road
+road5 7 9 vingaard_road
+road6 7 9 vingaard_road
+road7 7 9 vingaard_road
+road8 7 9 vingaard_road
+road9 7 9 vingaard_road
+road10 7 9 vingaard_road
+road13 7 9 vingaard_road
+road14 7 9 vingaard_road
+road15 7 9 vingaard_road
+road11 7 9 vingaard_road  
+road12 7 9 vingaard_road
+landing1 7 9 vingaard_road
+backex 8 11 westgate_pass
+hall1 8 11 westgate_pass
+hall2 8 11 westgate_pass
+hall3 8 11 westgate_pass
+hall4 8 11 westgate_pass
+hall5 8 11 westgate_pass
+hall6 8 11 westgate_pass
+hall7 8 11 westgate_pass
+east_gap 8 11 westgate_pass
+bridge 8 11 westgate_pass 
+west_gap 8 11 westgate_pass
+frontdoor 8 11 westgate_pass
+entrance 8 11 westgate_pass
+tunnel1 8 11 westgate_pass
+tunnel2 8 11 westgate_pass
+tunnel3 8 11 westgate_pass
+::MAPDATA::
+
+~~ ~~ ~~ ~~ ~~ '
+ `"`:~~ ,"`,`"`        
+ /\ ; ~~:         /\       Hinterlund
+  /\`,~,'        /\
+     [ ] /\ /\ /\                   ~~~ ~~
+ Palanthas/\ /\  /\             ~~~~~  ~~
+     /\_   /\ /\               ~~~
+    /   \/\                    ~
+  /\ /\ /\                    ~~     /\_ 
+   /\  /\      PLAINS OF      ~     /\  \
+     /\[ ]     SOLAMNIA      ~~    [#]/\ 
+ High Clerist               ~      Dargaard
+     Tower\                ~~      Keep /\
+   /\      \____________[ ]~        /\    
+    /\                Vingaard        /\    
+   /\                 Keep          /\   
+  /\   Heartlund        ~           @/\ /\ 
+ /\                   ~~           @/\_
+
+::NEWMAP::
+vingaard_road
+::MAPDATA::
+road2 15 6
+road3 19 6
+road4 15 10
+road5 19 10
+road6 23 14
+road7 19 14
+road8 19 17
+road9 15 21
+road10 19 25
+road13 19 28
+road14 15 32
+road15 19 36
+road11 24 25  
+road12 26 20
+landing1 16 15
+::MAPDATA::
+
+
+        City of Palanthas
+
+             \
+              \
+         /\    o---o
+        /  \__    /      /\
+       /      \  ,      /~~\__
+        /\      /      /      \
+       /~~\__  o---o        /\ \
+      /      \      \      /~~\ _
+     /        \      '    /    / \
+    /          \      \    @@ /   \
+            /\     o---o     /~~~~~\
+        /\ /  \    |   ~~~  /       \
+       /~~\__  \   |   ~~  /         \
+      /    \ \  \  o   
+     /      \ \   /  __           Vingaard Mountains
+                 ,  /  \     
+                /  /~~~~\     !!   Winter snows can    !!
+      /\       o  /      \/\  !!   block the trail     !!
+     /  \  _    \        /  \ !! through the mountains !!
+    /~~~~\/ \    '      /~~~~\
+   /      \~~\    \   _/      \__
+  /  __    \  \    o /           \
+    /~~\           |    _/\       \
+   /    \          |   /~~~\       \
+  /                o  /     \
+   /\      ^      /  /       \
+  /~~\    /.\    ,       /\
+ /    \   \./   /       /~~\   /\
+ /\       |.|  o       /    \_/~~\
+/  \     /...\  \     /       \   \
+         ) @ (   '   /         \
+         )...(    \    
+        /.....\    o
+       /.......\    \
+     ...________...  '   High Clerist
+    |....[.|.].....|  \     Tower
+
+
+::NEWMAP::
+westgate_pass
+::MAPDATA::
+backex 15 6
+hall1 17 8
+hall2 19 10
+hall3 21 12
+hall4 23 14
+hall5 25 16
+hall6 27 18
+hall7 29 20
+east_gap 31 22
+bridge 27 22 
+west_gap 23 22
+frontdoor 33 24
+entrance 35 26
+tunnel1 25 14
+tunnel2 27 14
+tunnel3 29 14
+::MAPDATA::
+
+  /\                         /\
+ /~~\    pass through       /~~\  /\
+/    \ Vingaard Mountains  /    \/  \
+   /\                     /      \   \
+  /  \        \
+               o                     /\
+               \ \    Westgate Pass /~~\
+    /\           o                 /    \
+   /~~\           \
+  /    \      @@@  o   @@@@@@@@
+ / _    \      @@@  \   @@@@@@@@
+  / \      ^    @@@  o   @@@@@@@@   
+ /   \    /.\    @@@  \      @@@@@   Knights' Spur
+          \./     @@@  s-o-o-s @@@@  
+          |.|      @@@  \      @@@@@
+         /...\      @@@  o   @@@@@@@@
+         ) @ (       @@@  \   @@@@@@@@
+         )...(        @@@  o   @@@@@@@@
+        /.....\        @@@  \   @@@@@@@@
+       /.......\        @@@  o   @@@@@@@@
+     ...________...           \
+    |....[.|.].....|   o---o---o
+                                \   Westgate Pass
+     High Clerist                o
+        Tower                    \ \
+                                   o
+                                    \
+
+                            to the Plains of Solamnia
+

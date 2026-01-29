@@ -1,0 +1,446 @@
+NOTE: This tome and all Ceremonial Garb (albs, mantles, robes, oils, 
+      drums, chimes, candles, bells, extra incense) should be 
+      returned to the Sacristy cabinet after the ceremony has 
+      been completed.
+
+Ceremonial Garb:
+Robes   - meant to be worn as an undergarment by all Clerics (below 
+          Elder), Worshippers and Seekers.
+Albs    - meant to be worn as an undergarment by all Elder Clerics.
+Mantles - meant to be worn as an overgarment by all Master Clerics
+          and higher.
+Cloaks  - The shifting cloaks are not normally worn during ceremonies.
+
+------------------------------------------------------------------------
+      Gennisi Ceremony ("Birth" - Seeker joining Elemental Clerics)
+------------------------------------------------------------------------
+Preparations:
+- The person joining is called the Seeker.
+- After joining, the Seeker is then referred to as a Child.
+- The person leading the ceremony is called the Primary Member (PM)
+- The person sponsoring the Seeker is called the Sponsor (SP)
+  (The PM can also be an SP if nobody else is available).
+- All participants must be wearing white robes, especially the
+  PM, SP and Seeker.
+- The SP must be wearing a mantle.
+- The PM must be wearing a mantle and alb.
+- The PM must carry a quantity of incense (two or three is a good idea).
+- The PM must carry a water vial and bread (both found in the Sacristy
+  cabinet).
+- The PM must carry an anointing oil (found in the Sacristy cabinet).
+- All participants should gather in the private chapel where the
+  ceremony must take place.
+- NOTE: Once the ceremony has begun (the incense is loaded), the chapel
+  doors will be locked to all non-members, and will not unlock until
+  the incense burns out.
+- NOTE: Do not use 'say to <Seeker>' unless you want to have it look
+  funny (i.e. 'say to john hi' would look like 'Bob says to John who
+  is praying 'hi').
+
+Ceremony:
+1  The PM sets the Ceremony (ceremony Gennisi) and then formally 
+   welcomes all and announces/introduces the Seeker.
+2  The PM casts a pentagram on the floor (cast pentagram).
+3  The PM starts the incense with the command 'load incense'. It will
+   start to burn immediately, but will take a while to fill the room.
+   While you are waiting for this to happen, the PM will have the 
+   Seeker stand in the pentagram (stand in pentagram).
+4  The PM asks the Seeker to affirm his/her willingness to abide by
+   the objectives of the Circle ("I do" type of deal).
+5  The PM faces the Seeker to the Northeast (face <Seeker> northeast).
+6  The PM says:
+   "I call to Lord Diabrecho, Powers and creatures of Water"
+   "Greet this Seeker and give him/her your blessings"
+7  The PM offers the Seeker his/her chalice to drink from 
+   (offer <Seeker>). This will automatically consume the water vial.
+8  The PM faces the Seeker to the Southeast (face <Seeker> southeast).
+9  The PM says:
+   "I call to Lord Pyros, Powers and creatures of Fire".
+   "Greet this Seeker and give him/her your blessings".
+10 The PM touches the Seeker on his/her right shoulder with his/her
+   Fire Wand (rtouch <Seeker>).
+11 The PM faces the Seeker to the Southwest (face <Seeker> southwest).
+12 The PM says:
+   "I call to Lady Gu, Powers and creatures of Earth".
+   "Greet this Seeker and give him/her your blessings".
+13 The PM feeds the Seeker from his/her pentacle (efeed <Seeker>). This 
+   will automatically consume the bread.
+14 The PM faces the Seeker to the Northwest (face <Seeker> northwest).
+15 The PM says:
+   "I call to Lady Aeria, Powers and creatures of Air".
+   "Greet this Seeker and give him/her your blessings".
+16 The PM touches the Seeker on his/her left shoulder with his/her
+   Air Dagger (ltouch <Seeker>).
+17 The PM faces the Seeker to the North (face <Seeker> north).
+18 The PM says:
+   "I call to Psuchae, Powers and creatures of Spirit".
+   "Greet this Seeker and give him/her your blessings".
+19 The PM touches the Seeker on his/her forehead with his/her
+   Sacred Mandala (ftouch <Seeker>).   
+20 The PM says:
+   "Creators, we bring this Seeker before You".
+   "Asking that You embrace him/her in body and spirit".
+   "Guide him/her upon his/her path".
+   "And witness that we accept him/her into our Family".
+21 The PM has the Seeker kneel (kneel).   
+22 The PM asks "Who has offered to guide this Seeker?"
+23 The SP answers "I do" and lays his/her hands on the 
+   Seeker (lay hands on <Member>).
+24 The PM does likewise. Any other members present may do 
+   likewise now, if they choose or the PM deems it 
+   necessary or wanted.
+25 The PM anoints the Seeker with oil (anoint <Seeker>).
+26 The SP confirms choosing the Seeker (echoose <Seeker>).
+27 The PM announces the joining with something like "With your pledge
+   of fidelity and the support of those present, I accept you to the
+   Circle as a Cleric of the Elementals".
+28 The Seeker prays to the Elementals (pray to the Elementals).
+29 The PM confirms they have joined and then announces them as
+   a Child of the Elementals. (the Child is experiencing a vision
+   for a few moments (about 10 seconds), give them time to do so)
+30 Ask the Child to rise.
+31 The PM reminds the Child that they should seek out Jardeth
+   and ask him about their Sporos (and you'll probably want
+   to give them a Ceremonial Dagger to take with them).
+32 The PM formally ends the Ceremony (ceremony end).
+
+Summary of necessary commands:
+'ceremony Gennisi'
+'cast pentagram'
+'load censor'              (must have incense)
+'stand in pentagram'
+'offer <Seeker>'           ex: 'offer Jaacar'
+'rtouch <Seeker>'          ex: 'rtouch Jaacar'
+'efeed <Seeker>'           ex: 'efeed Jaacar'
+'ltouch <Seeker>'          ex: 'ltouch Jaacar'
+'ftouch <Seeker>'          ex: 'ftouch Jaacar'
+'lay hands on <Seeker>'    ex: 'lay hands on Jaacar'
+'anoint <Seeker>           ex: 'anoint Jaacar'
+'echoose <Seeker>'         ex: 'echoose Jaacar'
+'ceremony end'
+
+
+------------------------------------------------------------------------
+     Enarxi Ceremony ("Commencement" - Child becoming Master Cleric)
+------------------------------------------------------------------------
+Preparations:
+- The person being promoted is called the Child.
+- After joining, the Child is then referred to as a Master or Cleric.
+- The person leading the ceremony is called the Primary Member (PM)
+- All participants must be wearing white robes, especially the Child.
+- The PM must be wearing a mantle and alb.
+- The PM must carry a quantity of incense (two or three is a good idea).
+- The PM must carry an anoining oil (found in the Sacristy cabinet).
+- The PM should have a speech ready for the ceremony including any 
+  special deeds the Child has taken to get to this point and what it
+  means to be a Master prepared beforehand.
+- The Child should be prepared to follow the instructions of the PM and
+  should have reasons they are thankful to each Diety prepared
+  beforehand.
+- All participants should gather in the private chapel where the
+  ceremony must take place.
+- NOTE: Once the ceremony has begun (the incense is loaded), the chapel
+  doors will be locked to all non-members, and will not unlock until
+  the incense burns out.
+- NOTE: Do not use 'say to <Seeker>' unless you want to have it look
+  funny (i.e. 'say to john hi' would look like 'Bob says to John who
+  is praying 'hi').
+
+Ceremony:
+1  The PM sets the Ceremony (ceremony Enarxi) and then formally 
+   welcomes all and announces/introduces Child.
+2  The PM casts a pentagram on the floor (cast pentagram).
+3  The PM starts the incense with the command 'load incense'. It will
+   start to burn immediately, but will take a while to fill the room.
+   While you are waiting for this to happen, the PM will have the 
+   Child stand in the pentagram (stand in pentagram).
+4  The PM asks the Child to reaffirm his/her willingness to abide by
+   the objectives of the Circle in their new rank ("I do" type of deal).
+5  The PM asks the Child to kneel.
+6  The PM says:
+   "Child, the delusion of anger becomes the mirror like wisdom. Turn 
+   to the Northeast and thank Lord Diabrecho for guidance"
+   (Child does 'turn northeast').
+7  The Child turns to the Northeast and thanks Lord Diabrecho for
+   guidance (the Child should give the reasons they are thankful for
+   Lord Diabrecho's aid).
+8  The Child prays to Lord Diabrecho (pray to Lord Diabrecho).
+9  The PM says:
+   "Child, the delusion of attachment becomes the wisdom of discernment.
+   Turn to the Southeast and thank Lord Pyros for guidance"
+   (Child does 'turn southeast').
+10 The Child turns to the Southeast and thanks Lord Pyros for
+   guidance (the Child should give the reasons they are thankful for
+   Lord Pyros' aid).
+11 The Child prays to Lord Pyros (pray to Lord Pyros).
+12 The PM says:
+   "Child, the delusion of jealousy becomes the wisdom of accomplishment.
+   Turn to the Southwest and thank Lady Gu for guidance"
+   (Child does 'turn southwest').
+13 The Child turns to the Southwest and thanks Lady Gu for
+   guidance (the Child should give the reasons they are thankful for
+   Lady Gu's aid).
+14 The Child prays to Lady Gu (pray to Lady Gu).
+15 The PM says:
+   "Child, the delusion of ignorance becomes the wisdom of reality.
+   Turn to the Northwest and thank Lady Aeria for guidance"
+   (Child does 'turn northwest').
+16 The Child turns to the Northwest and thanks Lady Aeria for
+   guidance (the Child should give the reasons they are thankful for
+   Lady Aeria's aid).
+17 The Child prays to Lady Aeria (pray to Lady Aeria).
+18 The PM says:
+   "Child, the delusion of pride becomes the wisdom of humility. 
+   Turn to the North and thank Psuchae for guidance"
+   (Child does 'turn north').
+19 The Child turns to the North and thanks Psuchae for
+   guidance (the Child should give the reasons they are thankful for
+   Psuchae's aid).
+20 The Child prays to Psuchae (pray to Psuchae).
+21 The PM gives their speech about how much dedication it took for
+   the Child to get to this point and what it is to be a Master.   
+22 The PM anoints the Member with oil by doing the command 'anoint 
+   <Member>'.
+23 The PM asks the Child if they are prepared to fulfil their duties
+   and responsibilities as a Master ("I will" type of deal).
+24 The PM promotes the Member using the 'promote <Member> Master'
+   command.
+25 The PM asks the Master to rise.
+26 The PM instructs the Master to seek out the Conduit Chamber and 
+   once there they should <seek> the visions.
+27 The PM erases the pentagram (erase pentagram). 
+28 The PM formally ends the Ceremony (ceremony end).
+
+Summary of necessary commands:
+'ceremony Enarxi'
+'cast pentagram'
+'load censor'              (must have incense)
+'stand in pentagram'
+'turn <direction>'         ex: 'turn North'
+'pray to <diety>'          ex: 'pray to Lord Pyros'
+'anoint <Member>           ex: 'anoint Jaacar'
+'promote <Member> Master'  ex: 'promote Jaacar Master'
+'erase pentagram'
+'ceremony end'
+   
+
+------------------------------------------------------------------------
+   Anavasi Ceremony ("Acension" - Master becoming Full Master Cleric)
+------------------------------------------------------------------------
+Preparations:
+- The person being promoted is called the Master.
+- The person leading the ceremony is called the Primary Member (PM)
+- All participants must be wearing white robes, especially the Master.
+- The PM and Master bust be wearing a mantle.
+- The PM must be wearing an alb.
+- The PM must carry a quantity of incense (two or three is a good idea).
+- The PM must carry an anoining oil (found in the Sacristy cabinet).
+- The PM should have a speech ready for the ceremony including any 
+  special deeds the Master has taken to get to this point and what it
+  means to be a Full Master prepared beforehand.
+- The Master should be prepared to follow the instructions of the PM and
+  should have reasons they are thankful to their Diety prepared
+  beforehand.
+- All participants should gather in the private chapel where the
+  ceremony must take place.
+- NOTE: Once the ceremony has begun (the incense is loaded), the chapel
+  doors will be locked to all non-members, and will not unlock until
+  the incense burns out.
+- NOTE: Do not use 'say to <Master>' unless you want to have it look
+  funny (i.e. 'say to john hi' would look like 'Bob says to John who
+  is praying 'hi').
+
+Ceremony:
+1  The PM sets the Ceremony (ceremony Anavasi) and then formally 
+   welcomes all and announces/introduces the Master.
+2  The PM casts a pentagram on the floor (cast pentagram).
+3  The PM starts the incense with the command 'load incense'. It will
+   start to burn immediately, but will take a while to fill the room.
+   While you are waiting for this to happen, the PM will have the 
+   Master stand in the pentagram (stand in pentagram).
+4  The PM asks the Master to affirm his/her willingness to abide by
+   the objectives of the Circle ("I do" type of deal).
+5  The PM says:
+   "Master, turn to <your Diety> and thank them for guidance"
+   (Master does 'turn <diety direction>').
+   NOTE: Replace <your Diety> with their selected Diety. They
+   *should* know which way to turn on their own, however if they
+   don't, here is the list:
+   Psuchae: North
+   Lord Diabrecho: Northeast
+   Lord Pyros: Southeast
+   Lady Gu: Southwest
+   Lady Aeria: Northwest
+6  The Master turns to the appropriate direction and thanks their 
+   Diety for guidance (the Master should give the reasons they are 
+   thankful for their Diety's aid).
+7  The PM asks the Master to kneel.
+8  The PM instructs the Master to pray to their Diety.
+9  The Master prays to their Diety (pray to <Diety>).   
+10 The PM gives their speech about how much dedication it took for
+   the Master to get to this point and what it is to be a Full Master.   
+11 The PM anoints the Master with oil by doing the command 'anoint 
+   <Master>'.
+12 The PM asks the Master if they are prepared to fulfil their duties
+   and responsibilities as a Full Master ("I will" type of deal).
+13 The PM promotes the Master using the 'promote <Master> Fmaster'
+   command.
+14 The PM asks the Master to rise.
+15 The PM erases the pentagram (erase pentagram). 
+16 The PM formally ends the Ceremony (ceremony end).
+
+Summary of necessary commands:
+'ceremony Anavasi'
+'cast pentagram'
+'load censor'              (must have incense)
+'stand in pentagram'
+'turn <direction>'         ex: 'turn North'
+'pray to <diety>'          ex: 'pray to Lord Pyros'
+'anoint <Master>           ex: 'anoint Jaacar'
+'promote <Master> Fmaster' ex: 'promote Jaacar Fmaster'
+'erase pentagram'
+'ceremony end'
+
+   
+------------------------------------------------------------------------
+    Kyverno Ceremony ("Govern" - Full Master becoming Elder Cleric)
+------------------------------------------------------------------------
+Preparations:
+- The person being promoted is called the Master.
+- After joining, the Master is then referred to as an Elder.
+- The person leading the ceremony is called the Primary Member (PM)
+- All participants must be wearing white robes, especially the Master.
+- The PM and Master must be wearing a mantle and alb.
+- The PM must carry a quantity of incense (two or three is a good idea).
+- The PM must carry an anoining oil (found in the Sacristy cabinet).
+- The PM should have a speech ready for the ceremony including any 
+  special deeds the Master has taken to get to this point and what it
+  means to be a Elder prepared beforehand.
+- The Master should be prepared to follow the instructions of the PM and
+  should have reasons they are thankful to their Diety prepared
+  beforehand.
+- All participants should gather in the private chapel where the
+  ceremony must take place.
+- NOTE: Once the ceremony has begun (the incense is loaded), the chapel
+  doors will be locked to all non-members, and will not unlock until
+  the incense burns out.
+- NOTE: Do not use 'say to <Seeker>' unless you want to have it look
+  funny (i.e. 'say to john hi' would look like 'Bob says to John who
+  is praying 'hi').
+
+Ceremony:
+1  The PM sets the Ceremony (ceremony Kyverno) and then formally 
+   welcomes all and announces/introduces the Master.
+2  The PM casts a pentagram on the floor (cast pentagram).
+3  The PM starts the incense with the command 'load incense'. It will
+   start to burn immediately, but will take a while to fill the room.
+   While you are waiting for this to happen, the PM will have the 
+   Master stand in the pentagram (stand in pentagram).
+4  The PM asks the Master to affirm his/her willingness to abide by
+   the objectives of the Circle ("I do" type of deal). 
+5  The PM says:
+   "Master, turn to <your Diety> and thank them for guidance"
+   (Master does 'turn <diety direction>').
+   NOTE: Replace <your Diety> with their selected Diety. They
+   *better* know which way to turn on their own, however if they
+   don't, here is the list (and you should belittle them for not 
+   knowing):
+   Psuchae: North
+   Lord Diabrecho: Northeast
+   Lord Pyros: Southeast
+   Lady Gu: Southwest
+   Lady Aeria: Northwest
+6  The Master turns to the appropriate direction and thanks their 
+   Diety for guidance (the Master should give the reasons they are 
+   thankful for their Diety's aid).
+7  The PM asks the Master to kneel.
+8  The PM instructs the Master to pray to their Diety.
+9  The Master prays to their Diety (pray to <Diety>).   
+10 The PM gives their speech about how much dedication it took for
+   the Master to get to this point and what it is to be an Elder.   
+11 The PM anoints the Master with oil by doing the command 'anoint 
+   <Master>'.
+12 The PM asks the Master if they are prepared to fulfil their duties
+   and responsibilities as an Elder ("I will" type of deal).
+13 The PM promotes the Master using the 'promote <Master> Elder'
+   command.
+14 The PM asks the Elder to rise.
+15 The PM erases the pentagram (erase pentagram). 
+16 The PM formally ends the Ceremony (ceremony end).   
+
+Summary of necessary commands:
+'ceremony Kyverno'
+'cast pentagram'
+'load censor'              (must have incense)
+'stand in pentagram'
+'turn <direction>'         ex: 'turn North'
+'pray to <diety>'          ex: 'pray to Lord Pyros'
+'anoint <Master>           ex: 'anoint Jaacar'
+'promote <Master> Elder'   ex: 'promote Jaacar Elder'
+'erase pentagram'
+'ceremony end'
+
+   
+------------------------------------------------------------------------
+     Provoli Ceremony ("Promotion" - Master Cleric (or higher rank)
+                      getting Special Rank)
+------------------------------------------------------------------------ 
+Preparations:
+- The person being promoted is called the Member.
+- The person leading the ceremony is called the Primary Member (PM)
+- All participants should be wearing white robes, especially the Member.
+- The PM may wear a mantle and alb.
+- The PM must carry an anointing oil (found in the Sacristy cabinet).
+- The new ranking to be given to the Member during the ceremony
+  should be determined AHEAD of time.
+- The PM must carry a quantity of incense (two or three is a good idea).
+- All participants should gather in the chapel where the ceremony
+  must take place.
+- NOTE: Once the ceremony has begun (the incense is loaded), the chapel
+  doors will be locked to all non-members, and will not unlock until
+  the incense burns out.
+- NOTE: Do not use 'say to <Seeker>' unless you want to have it look
+  funny (i.e. 'say to john hi' would look like 'Bob says to John who
+  is praying 'hi').
+ 
+Ceremony:
+1  The PM sets the Ceremony (ceremony Provoli) and then formally 
+   welcomes all and announces/introduces Member.
+2  The PM casts a pentagram on the floor (cast pentagram).
+3  The PM starts the incense with the command 'load incense'. It will
+   start to burn immediately, but will take a while to fill the room.
+   While you are waiting for this to happen, the PM will have the 
+   Member stand in the pentagram (stand in pentagram).
+4  The PM asks the Member to reaffirm his/her willingness to abide by
+   the objectives of the Circle in their new rank ("I do" type of deal)
+5  The PM asks the Member to kneel.
+5  The PM anoints the Member with oil by doing the command 'anoint 
+   <Member>'.
+6  The PM announces the promotion with something like "With your pledge
+   of fidelity and the support of those present, I promote you to the
+   rank of <Title>"
+7  The PM promotes the Member with the command 'promote <member> <Title>'
+   Note the title should be capitalized. A list of 'official' titles are
+   listed below. 
+   For example: 'promote jaacar Archa' or 'promote jaacar Liberator'
+   NOTE: If the PM is not a council member or one of the Official titles
+   below isn't used, the title will not be an Official title that is 
+   granted.
+8  The PM asks the Member to rise.
+9  The PM erases the pentagram (erase pentagram).
+10 The PM formally ends the Ceremony (ceremony end).
+
+Summary of necessary commands:
+'ceremony Provoli'
+'cast pentagram'
+'load censor'              (must have incense)
+'anoint <Member>           ex: 'anoint Jaacar'
+'promote <Member> <Title>' ex: 'promote Jaacar archa'
+                               'promote Jaacar Liberator'
+'erase pentagram'
+'ceremony end'							   
+
+Official Titles:
+Luminary, Illuminati, Emissary, Cultivator, Liberator, Conservator,
+Harbinger, Archon of Revelation (archr), Archon of Deliverance (archd),
+Archon of Apotheosis (archa), Focus.

@@ -1,0 +1,29 @@
+__________________________________________________
+Listing of shipline-information.
+
+Each directory includes all the shipline-files.
+captain.c -> the ships captain.
+ship.c -> the ship.
+__________________________________________________
+
+Kalad - Roke:
+   /d/Kalad/antharanos/shipline/
+
+Kalad - Shire:
+   /d/Kalad/common/port/shipline1/
+
+Kalad - Terel
+   /d/Kalad/common/port/shipline2/
+
+Kalad - Gondor:
+   /d/Kalad/common/port/shipline3/
+
+Kalad - City:
+   /d/Kalad/common/port/shipline4/
+
+Kalad - Emerald:
+   /d/Kalad/common/port/shipline5/
+
+Kalad - Raumdor in Kalad:
+   /d/Kalad/common/port/shipline6/
+

@@ -1,0 +1,57 @@
+Drow guild of Undraeth
+==============================================================================
+
+The drow guild is a race guild for elves located in Undraeth.
+It was previously a part of Kalad.
+
+
+
+Tax calculation for the drow race guild.
+----------------------------------------
+
+Skills:
+
+                   Trained   Untaxed   To be taxed    Tax
+
+   Sword:          50        30        20             0.5% **
+   Language:       50        50        0
+   Pick pocket:    20        20        0
+   Hide:           30        20        10             0.16%
+   Sneak:          30        20        10             0.16%
+   Climb:          50        50        0
+   Awareness:      50        50        0
+   Tracking:       40        30        10             0.16%
+
+   Total					      0.98%
+
+   ** Taxed at 1.5 rate.
+
+
+Abilities:
+
+   Nightvision:					      2%
+
+
+Total:						      3%
+
+
+Important files
+---------------
+
+The shadow: /d/Avenir/drow/drow_shadow.c
+The soul: /d/Avenir/drow/drow_soul.c
+The guild object: /d/Avenir/drow/obj/d_insignia.c
+
+The master object: /d/Avenir/drow/d_master.c
+The master object documentation: /d/Avenir/drow/drow_master.doc
+List of members: /d/Avenir/drow/log/d_master.o
+
+Guild abilities
+---------------
+Drow have some race emotes and a darksight (command: dsight) ability -
+which allows to see in the dark. It has a disadvantage - if while
+using it player enters an outside lit room, he will be blinded for
+a short period of time.
+
+
+Wizard in charge: Nikklaus

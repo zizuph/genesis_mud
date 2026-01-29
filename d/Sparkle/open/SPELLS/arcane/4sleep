@@ -1,0 +1,25 @@
+Name: Sleep
+
+Object: /d/Sparkle/guilds/arcane/spells/sleep.c
+
+Cost: 
+
+Skills: 
+
+Description: Tier 4 spell
+                 Targets: N/A
+		 Causes the caster to fall asleep, increasing the
+		 rengeration rates of health, fatigue and mana. The
+		 amount of sleep time is variable, and the cost of mana
+		 for casting the spell is rather high, so there is a chance
+		 that the caster will in fact lose mana as a result of
+		 this spell. This spell can not be cast in combat, and the
+		 caster, once asleep, can not move or use any commands.
+		 If the caster is attacked, the regen benefits cease, and
+		 the caster becomes essentially 'stunned' until they fully
+		 wake up.
+		 
+Requirements:
+    SS_ELEMENT_LIFE
+    SS_FORM_DIVINATION
+    Pear

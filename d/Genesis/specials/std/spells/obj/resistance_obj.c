@@ -1,0 +1,238 @@
+/*
+ * Standard Spell Resistance Object
+ *
+ * This is the spell object for the standard Genesis Magic System Resistance
+ * spell. When started, the resistance spell clones this object to provide
+ * protection against particular types of resistances. The combat aid
+ * given will be translated into exact resistance values.
+ *
+ * Specific guild implementations must inherit from this one to get
+ * the standard AoB approved effects.
+ *
+ * Created by Petros, March 2010
+ *
+ * Comments:
+ * Carnak 2018-04-14: We have moved the formulas in this file, if you encounter
+ *                    any issues you can restore the _bak file.
+ */
+
+#pragma strict_types
+#pragma save_binary
+
+#include <stdproperties.h>
+#include <ss_types.h>
+#include <macros.h>
+#include <wa_types.h>
+#include <files.h>
+
+#include "defs.h"
+
+inherit "/d/Genesis/specials/std/spells/obj/spell_obj_base";
+
+#include "/d/Genesis/specials/calculations.c"
+
+public mapping      resistance_mapping = ([ ]);
+
+/*
+ * Function:    create_spell_object
+ * Description: Override this to customize properties for the spell object
+ */
+public void 
+create_spell_object()
+{
+    set_name("_resistance_object_");
+    set_short("resistance spell object");    
+    set_long("This is the standard resistance spell's object. It protects "
+        + "one against certain elements.\n");
+
+    add_prop(OBJ_S_WIZINFO, "This is a spell object " +
+                            "created by the resistance spell.\n");
+    set_spell_effect_desc("magic resistance");    
+}
+
+public string
+query_subloc_name(string element) 
+{
+    return "_subloc_resistance" + element;
+}
+
+
+/*
+ * Function:    setup_spell_effect
+ * Description: This is called to set up all the things for the
+ *              spell. Must call the parent's setup_spell_effect
+ *              in order to get the maintainence stuff.
+ */
+public int
+setup_spell_effect()
+{
+    int result = ::setup_spell_effect();
+    if (!result)
+    {
+        return result;
+    }
+
+    int power = query_spell_effect_power();
+    // Power determines how long the spell lasts
+    int duration = power * 5; // F_PENMOD(60, 100) = 396 * 5 = 33 minutes
+    set_dispel_time(duration);
+    
+    // The input to the spell object will be a mapping of element type and
+    // the combat aid that the element type should have.
+    mapping resistance_aid = query_spell_effect_input();
+    object target = query_effect_target();
+    foreach (string element, int aid : resistance_aid)
+    {
+        resistance_mapping[element] = convert_caid_to_resistance(target, aid,
+            element);
+        
+        target->add_subloc(query_subloc_name(element), this_object());        
+    }
+    
+    return result;
+}
+
+/* 
+ * Function:    query_magic_protection
+ * Description: This will return the resistence percentages stored
+ *              for this resistance object.
+ */
+public mixed
+query_magic_protection(string prop, object what)
+{
+    if (resistance_mapping[prop])
+    {
+        return ({ resistance_mapping[prop], 1 });
+    }
+
+    return ::query_magic_protection(prop, what);
+}
+
+/*
+ * Function:    hook_spell_effect_started
+ * Description: Override this to customize the message when this spell effect
+ *              is added to th target.
+ */
+public void
+hook_spell_effect_started()
+{
+    object target = query_effect_target();
+
+    if (objectp(target))
+    {
+        target->catch_tell("You feel yourself protected from magical effects.\n");
+        tell_room(environment(target), QCTNAME(target) + " glows briefly, "
+            + "protected now from magical effects.\n", ({ target }));
+    }    
+}
+
+/*
+ * Function:    hook_spell_effect_ended
+ * Description: Override this to customize the message when this spell effect
+ *              is dispelled.
+ */
+public void
+hook_spell_effect_ended()
+{
+    object target = query_effect_target();
+
+    if (objectp(target))
+    {
+        target->catch_tell("You feel your magical protection disappear.\n");
+        tell_room(environment(target), QCTPNAME(target) + " skin "
+            + "seems to lose a bit of luster as magical protection "
+            + "dissipates.\n", ({ target }));
+    }
+}
+
+/*
+ * Function:    hook_spell_effect_warn_fading
+ * Description: Override this to customize the message for when
+ *              the effect has only a minute left.
+ */
+public void
+hook_spell_effect_warn_fading()
+{
+    object target = query_effect_target();
+    
+    if (objectp(target))
+    {
+        target->catch_tell("You feel the your magical protection begin to "
+            + "fade.\n");
+    }
+}
+
+/* 
+ * Function:    hook_spell_effect_not_maintained
+ * Description: Override this to describe the effect when the caster
+ *              cannot maintain the effect.
+ */
+public void
+hook_spell_effect_not_maintained()
+{
+    object caster = query_effect_caster();
+    
+    if (objectp(caster))
+    {
+        caster->catch_tell("You are mentally unable to maintain "
+            + "the magical protection.\n");
+    }    
+}
+
+/*
+ * Function name: leave_env
+ * Description:   Called when this object is moved from another object
+ * Arguments:     from - The object this object is moved from
+ *		  to   - The object to which this object is being moved
+ */
+void
+leave_env(object from, object to)
+{
+    ::leave_env(from, to);
+
+    if (interactive(from))
+    {
+        foreach (string element, int amount : resistance_mapping)
+        {
+            object subloc_obj = from->query_subloc_obj(query_subloc_name(element));
+            if (subloc_obj == this_object())
+            {
+                RESISTANCE_OBJECT->move_subloc_owner(from, subloc_obj);            
+            }
+        }
+    }
+}
+
+/*
+ * Function:    query_subloc_description
+ * Description: When someone examines a person with this spell effect,
+ *              they will see whatever is returned by this function.
+ */
+public string
+query_subloc_description(object on, object for_obj, string element)
+{
+    string subloc = RESISTANCE_OBJECT->query_resistance_description(element);
+    if (for_obj == on) {
+        subloc = "Your " + subloc;
+    } else {
+        subloc = capitalize(on->query_possessive()) + " " + subloc;
+    }
+    return subloc;
+}
+
+public string
+show_subloc(string subloc, object on, object for_obj)
+{
+    string data;
+
+    if (on->query_prop(TEMP_SUBLOC_SHOW_ONLY_THINGS))
+        return "";
+
+    string element;
+    if (!sscanf(subloc, "_subloc_resistance%s", element))
+    {
+        return "";
+    }
+    
+    return query_subloc_description(on, for_obj, element);
+}

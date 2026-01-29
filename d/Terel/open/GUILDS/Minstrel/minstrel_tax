@@ -1,0 +1,66 @@
+Guild Tax Calculation for the Minstrel Guild
+
+COMBAT AID
+
+The minstrels do not provide any special attacks, or even train any
+combat oriented skills.  The do have an attack spell though.  As I did
+for the mystics, I will tax this under the 'Additional Features'
+category.
+
+SKILLS
+
+                 <109> language:  60 
+
+I will consider this to be worth 1% tax. This is conservative, if anything;
+the rules imply that this should be about 0.5% tax
+
+The following skills are guild-specific and serve only to qualify
+the abilities of novice Minstrels, so I do not tax them. Or, put
+another way, I calculate the guild tax based on the assumption that
+the Minstrel has maxed each of these skills.
+
+                  <130051> sing: 100      = 100
+<130053> tune/repair instrument: 100      = 100 
+            <130052> read music: 100      = 100
+       <130050> play instrument: 100      = 100
+
+
+SPECIAL ABILITIES
+
+Inherent telepathic abilities:
+
+Members are notifed when another member logs on but they do not know
+which guildmember it was unless they have that guildmember remembered.
+There is no tell line but the members have the ability to play certain 
+songs (Ballads); all listening minstrels will hear the ballad title and 
+the name of the performer.  I do not think this qualifies as a tell line
+but is certainly worth something. Since a full-blown member-to-member tell 
+costs 2% tax, I charge 1% tax for the Ballads.
+
+Special bargains:
+
+There is a post offce and a tavern inside the guild.  The shop does
+not offer any special bargains however.
+
+Weapon racks:
+
+None
+
+Magic spells:
+
+Songs of power:
+blast:    attack spell                                    2.0%
+soothe:   healing spell                                   2.0%
+brave:    temp. increase dis stat                         0.5%
+lux:      light spell (adds light to room)                0.5%
+refresh:  improves fatigue                                0.5%
+peace:    stops fighting (re-attack is possible though)   0.5%
+                                                          -----
+TOTAL                                                     4.0%
+
+Total Tax:                                                6.0%
+
+Cedric has a lot of changes planned for the minstrels.  Long term
+plans include making occ and club branches.  
+
+

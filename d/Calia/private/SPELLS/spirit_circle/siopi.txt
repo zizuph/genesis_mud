@@ -1,0 +1,7 @@
+Silence -          The target will get the LIVE_M_MOUTH_BLOCKED added
+                   to them. They will not be able to speak for a 
+                   variable duration depending on guild_stat and spell
+                   skills. This spell will not initiate combat and will
+                   be able to be cast during battle. Requires a blue
+                   lapis lazuli. 25 mana. This spell is available to 
+                   all level 2 and higher guild members.

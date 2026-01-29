@@ -1,0 +1,13 @@
+Blade Barrier -    This spell will place a barrier of blades on an exit
+                   to a room. This barrier will be passable, but all 
+                   those who do will take damage,including the caster.
+                   The damage will depend upon the guild_stat of the
+                   caster as well as the spell skills of the caster. 
+                   This spell will not initiate combat and can be 
+                   cast in combat. Requires a pre-made component (can
+                   only be made in guildhome) consisting of onyx and 
+                   bloodweed. 75 mana. Lasts 60 to 180 seconds. Does
+                   50 to 400 HPs damage. If player trying to go through
+                   has magic resistance of higher than 40, no damage.
+                   This spell is available to all level 3 Master members
+                   (guild level 6) and higher.

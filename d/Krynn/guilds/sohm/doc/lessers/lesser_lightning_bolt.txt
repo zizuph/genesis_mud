@@ -1,0 +1,41 @@
+
+     Spell name: Lightning bolt
+                 shochraos
+         Effect: Harm spell
+           Type: Instant
+        Targets: Single target
+        
+        Element: Air           / 40
+           Form: Conjuration   / 40
+    Spell power: Power 3 [Intermediate spell]
+     Spell type: harm spell 
+     
+       Peaceful: No
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: shochraos potion (1728cc), 12 charges
+     
+   Casting time:  12s (x3.0 spell time factor)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_HARD
+     Combat Aid: 113%
+
+            Tax:  0.5
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.75   Hard difficulty
+                  x1.0   material component 
+                 ------
+                  0.375%  total tax
+   ------------------------------------------------------------
+   Comments: A standard harm spell, requiring a wand or staff
+   held/wielded to cast.
+
+   Identical to three other lesser harm spells, apart from
+   element and form: [physic blast, lightning bolt, flame lance,
+   ice strike]
+   ------------------------------------------------------------

@@ -1,0 +1,50 @@
+domain,quest desc,group,bit,hint,validation,arguments
+Gondor,Smuggle the Herb,1,0,herb_smuggler.txt,default
+Gondor,Minas Tirith (Tour 1),0,0,minas_tirith_tour_1.txt,sequential_bits,0,0,4,1
+Gondor,Minas Tirith (Tour 2),0,1,minas_tirith_tour_2.txt,sequential_bits,0,0,4,2
+Gondor,Minas Tirith (Tour 3),0,2,minas_tirith_tour_3.txt,sequential_bits,0,0,4,3
+Gondor,Minas Tirith (Tour 4),0,3,minas_tirith_tour_4.txt,sequential_bits,0,0,4,4
+Gondor,Aid Gilraen,0,5,aid_gilraen.txt,default
+Gondor,The Harad Banner,0,6,harad_banner.txt,default
+Gondor,The Arraw Horn,0,7,araw_horn.txt,default
+Gondor,Pelargir Statue,0,8,pelargir_statue.txt,default
+Gondor,Kill mosquito larvae,0,9,mosquito_larvae.txt,default
+Gondor,The Chess Challenge,0,10,chess.txt,default
+Gondor,The Vengeful Wight,0,11,vengeful_wight.txt,default
+Gondor,The Minas Tirith Murder!,0,12,minas_tirith_whodunnit.txt,default
+Gondor,The Lighthouse of Pelargir,0,13,pelargir_lighthouse.txt,default
+Gondor,Riverstead Tour,0,14,riverstead_tour.txt,is_riverstead_newbie
+Gondor,Repair the Dock,0,15,pelargir_dock_repair.txt,default
+Gondor,Pelargir (Tour 1),0,17,pelargir_tour_1.txt,sequential_bits,0,17,19,1
+Gondor,Pelargir (Tour 2),0,18,pelargir_tour_2.txt,sequential_bits,0,17,19,2
+Gondor,Pelargir (Tour 3),0,19,pelargir_tour_3.txt,sequential_bits,0,17,19,3
+Gondor,The Ranger Trap,1,1,ranger_trap.txt,default
+Gondor,The Enchanted Seed,1,2,enchanted_seed.txt,default
+Gondor,The Lost Ranger,1,3,lost_ranger.txt,default
+Gondor,The Lost Ring of Edoras,1,4,edoras_ring.txt,default
+Gondor,Elfhelms Job,1,5,elfhelm_uruk.txt,default
+Gondor,The Rabbit Stew,1,6,rabbit_stew.txt,default
+Gondor,The Eagles Egg,1,7,eagles_egg.txt,default
+Gondor,The Spying Orc,1,11,spying_orc.txt,default
+Gondor,Sirith Pig,1,12,sirith_pig.txt,default
+Gondor,Paint Quest,1,13,paint_quest.txt,default
+Gondor,Ranger Guild Bit,1,16,,always_false,1,16
+Gondor,Ranger Guild Bit,1,17,,always_false,1,17
+Gondor,Ranger Guild Bit,1,18,,always_false,1,18
+Gondor,Ranger Guild Bit,1,19,,always_false,1,19
+Gondor,Guild Bit,2,0,,always_false,2,0
+Gondor,Guild Bit,2,1,,always_false,2,1
+Gondor,Guild Bit,2,2,,always_false,2,2
+Gondor,Guild Bit,2,3,,always_false,2,3
+Gondor,Guild Bit,2,4,,always_false,2,4
+Gondor,Entering Minas Morgul,2,5,minas_morgul_entrance.txt,default
+Gondor,The Standard of Angmar,2,6,battle_standard.txt,default
+Gondor,Beacon Signal Sabotage,2,7,beacon_sabotage.txt,default
+Gondor,Corsair Captain,2,8,corsair_captain.txt,default
+Gondor,Porter Quest,3,5,porter_quest.txt,default
+Gondor,Oat Quest,3,6,oat_quest.txt,default
+Gondor,Denethor Quest,3,7,denethor_pyre.txt,default
+Gondor,The Courier of Isengard,3,8,isengard_courier.txt,default
+Gondor,Evidence in Isengard,3,9,evidence_in_isengard.txt,default
+Gondor,Trust of the Haradrim War Chief,2,10,haradrim_war_chief.txt,default
+Gondor,Jaine Sword Quest,3,11,jaine_sword_quest.txt,default

@@ -1,0 +1,47 @@
+    	/* city noises */
+    add_tell("Through the small pipes, you can hear the hustle and bustle "
+        + "of the city.\n");
+
+    	/* park noises */
+    add_tell("Through the small pipes, songbirds can be barely heard "
+    	+ "chirping and singing.\n");    
+
+        /* Harbor noises */   
+    add_tell("Through the small pipes, you can hear the hustle and bustle "
+        + "of the city.\n");
+    add_tell("Through the small pipes, you can hear the muffled echo of "
+        + "seagulls calling.\n");
+
+        /* pub noises */
+    add_tell("Through the small pipes, you hear drunken sailors singing "
+        + "songs.\n");  
+
+        /* warehouse noises */
+    add_tell("Through the small pipes, you can hear workers grumbling "
+        + "about hauling heavy loads.\n");
+
+	/* guard noises */
+    add_tell("Through the small pipes, you hear the sounds of boots "
+	+ "marching.\n");
+    add_tell("Through the small pipes, you hear someone say, 'Patrol duty "
+	+ "again? The captain has it out for me!'\n");
+    add_tell("Through the small pipes, you hear someone ask, 'Did you hear "
+	+ "that Jensin lost his helmet? Ooooooooh, the captain is gonna be "
+	+ "mad!'\n");
+    add_tell("The loud clanging sound of a sword dropping to the ground can "
+	+ "be heard from above.\n");
+
+
+        /* Travellers noises */
+    add_tell("Through the small grate, you can hear people talking "
+        + "about their adventures.\n");
+    add_tell("Through the small grate, you can hear the shuffle of "
+        + "feet and general carrying-on.\n");   
+    add_tell("You hear, through the small grate, two people arguing "
+        + "about routes and maps.\n"); 
+    add_tell("You hear a hushed voice through the small grate say, "
+        + "'Soft wood? Yeah, the ocean waves soften wood.' A second voice "
+        + "says, 'Good, I'll check the beach at low tide.'\n");
+    add_tell("Through the small grate, you hear a heavy cask or barrel "
+        + "sliding across the floor.\n");       
+    

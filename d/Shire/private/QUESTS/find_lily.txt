@@ -1,0 +1,35 @@
+Group:      1
+
+Bit:        4
+
+Name:       Find Lilies for Tom Bombadil
+
+Programmed: Finwe, January 2002
+
+Problem:    Tom Bombadil needs a new lily for his Goldberry. Go 
+            and find a new one for her. 
+
+Solution:   Go down to the Withywindle and search the river for 
+            the flowers. Pick then and return to Tom with the flowers.
+
+Skills:     None needed
+
+Risks:      None needed
+
+XP-Scale:   500
+
+Remarks:    This is a simple quest, almost a tour.
+
+Relevant
+Files:      
+            Rooms
+            -------------
+            river room - /d/Shire/bombadil/rooms/withy06.c
+
+            NPCs
+            --------------
+            Tom Bombadil - /d/Shire/bombadil/npc/tom.c
+
+            Objects
+            --------------
+            lily - /d/Shire/bombadil/obj/lily.c

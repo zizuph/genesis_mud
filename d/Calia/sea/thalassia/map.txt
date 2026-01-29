@@ -1,0 +1,146 @@
+
+           ================================
+           | Underwater City of Thalassia |
+           ================================
+
+
+                  *-P-*
+                 /|X|X|\
+                *-*-*-*-*                      A - Temple of Diabrecho
+               / \  |  / \                     B - Hot Water Spring House
+              *   # @ #   *                    C - Royal Fountain
+             / \ /  |  \ / \                   D - Cold Water Spring House
+            *   # *-*-* #   *                  E - Royal Palace
+           / \ / /|X|X|\ \ / \                 F - Guard Towers
+          *   # *-*-$-*-* #   *                G - Surveyor's Obelisk
+         / \ / /   /|\   \ \ / \               H - Royal Grandstand
+        *   # *   $ @ $   * #   *              I - Guard Barracks
+       / \ / /   /  |  \   \ \ / \             J - Hospital
+      *   # *   $ *-*-* $   * #   *            K - Bank
+     /|    /|  / / /|\ \ \  |\    |\           L - Smithy
+    Q-* I-*-* $ * * A * * $ * *-I *-R          M - Post Office
+    |X|   |X|/  |/ \|/ \|  \|X|   |X|          N - Zoo
+  L-*-*-@-*-$-@-*-B-C-D-*-@-$-*-@-*-*-N        O - Shop
+    |X|   |X|\  |\ /|\ /|  /|X|   |X|          P - Statue of Psuchae
+  M-*-* J-*-* $ * * E * * $ * *-K *-*-O        Q - Statue of Lady Aeria
+     \|    \|  \ \ \|/ / /  |/    |/           R - Statue of Lord Diabrecho
+      *   # *   $ *-*-H $   * #   *            S - Statue of Lady Gu
+       \ / \ \   \  |  /   / / \ /             T - Statue of Lord Pyros
+        *   # *   $ @ $   * #   *              $ - Grove of Diabrecho
+         \ / \ \   \|/   / / \ /               @ - Bridge Guard Towers
+          *   # *-*-$-*-* #   *                # - History Murals
+           \ / \ \|X|X|/ / \ /                 * - Normal Road/Pathway
+            *   # *-*-* #   *
+             \ / \  |  / \ /
+              S   # @ #   T
+               \ /  |  \ /
+                *-*-*-*-*
+                 \|X|X|/
+                  *-*-*
+                    |
+                    @
+                    |
+                  F-*-F
+                    |
+                  F-G-F
+                    |
+                    *
+                     \
+                      *
+                       \
+                        * ---> To sea (existing gate)
+
+=============================================================================
+
+    ================
+    | Guard Towers |
+    ================
+
+   Level 2    D-2    D - Stairs Down to Level 1
+              | |    1 - Sleeping Quarters
+              1-1    2 - Lookout
+
+   Level 1    U-D    U - Stairs Up to Level 2
+              | |    D - Stairs Down to Basement
+              1-1    1 - Guard Rooms
+
+   Basement   1 U    U - Stairs Up to Level 1
+              | |    1 - Weapons/Armour Storage
+              2-3-   2 - Guard Room
+                     3 - Elephant/Horse Stables
+
+============================================================================
+
+     =======================
+     | Bridge Guard Towers |
+     =======================
+
+    Level 3     D    D - Stairs Down to Level 2/Lookout
+
+    Level 2    U/D   U - Stairs Up to Level 3
+                     D - Stairs Down to Level 1
+              
+                |
+    Level 1     U    U - Stairs Up to Level 2
+                |    
+              
+============================================================================
+
+     ====================
+     | Royal Grandstand |
+     ====================
+
+         1-2-1       1 - Seating
+           |         2 - Betting Chamber
+           3         3 - Grandstand Entrance
+           |
+
+============================================================================
+
+     ==================
+     | Guard Barracks |
+     ==================
+
+         2-*-3       1 - Weapons/Armour Storage
+           |         2 - Sleeping Quarters
+         1-*-*-      3 - Mess Hall
+           |         4 - Pub
+         2-*-4       * - Normal Hallway
+           
+         
+============================================================================
+
+     =======================
+     | Temple of Diabrecho |
+     =======================
+             |
+         *-*-*-*-*   1 - Altar
+         | S S S |   S - Statue of Diabrecho
+         * S S S 1   * - Normal Hallway
+         | S S S |
+         *-*-*-*-*
+             |
+
+=============================================================================
+
+     ================
+     | Royal Palace |
+     ================
+
+    Level 2   1-1   2 3   1 - Royal Bedroom
+              | |   | |   2 - Royal Guard Sleeping Quarters
+              *-*-5-*-*   3 - Administration Sleeping Quarters
+              |       |   4 - Administration Offices
+              D-4-*-4-D   5 - Royal Baths
+                          D - Stairs Down to Level 1 
+
+                  |
+    Level 1   4-4 * 5-*   1 - Palace Entranceway
+              | | | | |   2 - Palace Guard Houses
+              3-2-1-2-*   3 - Throne Room
+              | | | | |   4 - Private Meeting Chambers
+              U-* * *-U   5 - Royal Library
+                  |       U - Stairs Up to Level 2
+                          * - Normal Hallway/Road
+
+

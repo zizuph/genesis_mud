@@ -1,0 +1,13 @@
+A sceptre from port macdunn, a quest object
+
+Properties:
+
+Weight: 1kg
+Volume: 2liters
+Value: 1000cc
+Holdable
+
+Adjectives: majestic
+
+Actions:
+none thought about yet

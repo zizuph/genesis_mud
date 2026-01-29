@@ -1,0 +1,470 @@
+Hello.
+Here it is. A new guild in the Krynn domain, I've talked to Boron and Milan
+about it, and they basicly only need your permission for me to continue my
+work with the guild. Some of the abilities that the knights can have might
+seem to hard to balance, but let me know because I'm always open for
+suggestions.
+
+Cheers
+Elmore.
+
+------------------------------------------------------------------------------
+
+
+
+
+DEATH KNIGHTS OF KRYNN.
+-----------------------
+
+Type: Fighter / Magic
+Slots: Occ and Layman guild
+Tax: Squire - 21 %
+     Crown  - 33 %
+     Sword  - 34 %
+     Rose   - 36 %
+
+History
+-------
+(The history of the Death Knights of Krynn is placed in
+ the file /d/Ansalon/guild/dknights/doc/history.txt)
+
+                     Death Knights
+                     -------------
+If a player wishes to become a death knight, they must first
+solve the entrance quest for the guild. But before that, they
+must first be allowed to solve it. This is done by a vote in
+the council and by using the following number of votes:
+
+   Head of Council   - 2 Votes.
+   Council member    - 1 Vote.
+   Council member    - 1 Vote.
+   Council member    - 1 Vote.
+
+This also means that if one of the council members or the head
+of the council is inactive, the remaining council can still
+vote new members in.
+If the player gets three or more votes in his favour, he will
+be allowed to solve the entrance quest. The quest can be started
+by one of the council members. (See the EntranceQuest.txt file
+in the /d/Ansalon/guild/dknights/doc dir).
+The new member will enter the role of one of the loyal knights
+that Lord Soth commanded when he was a solamnian knight. Even
+loyal in death, the knights within the keep was cursed as well
+when the Keep burned and therefore they are cursed to an
+eternal life as an undead.
+
+
+Rules of the Death Knights
+--------------------------
+All death knights were once proud and able warriors, and their 
+statistics reflect this. Even the most inexperienced death 
+knight must have had some ability before it died, or it would 
+not have been made a death knight in the first place. As a 
+result, death knights always have some rules that must be 
+followed, these are listed below.
+
+- All death knights are evil in alignment. (Alignment < -500,
+  if a death knight goes above this alignment, they will be 
+  banished from the guild).
+- A death knight must still uphold his code of honour. 
+  Therefore a death knight may never attack an unarmed enemy, 
+  cowardly flee from battle or anything else that should 
+  question their honour.
+  (I would like to leave this up the each player, their character
+   might still uphold their honour while others might prefer
+   to ignore it).
+- They hate all that reminds them of their previous glory as
+  true solamian knights. 
+  (I would like to leave this up the each player, their character
+   might still accept them while others might not).
+- No tattoos. The death knights are undead, they barely have 
+  any skin left on their decaying bodies. Therefore the 
+  members may not have any tattoos at all.
+- Correct eyes/hair/skin. The council must make sure that the
+  members stay 'in character' this means that a member may 
+  not get crystal blue eyes, green skin etc. They must 
+  follow the 'real' ideal for a true death knight.
+(See rules.txt for more information)
+
+Abilities
+---------
+Here are the abilities that the death knights have. Each of 
+these abilities depend on their level within the guild and 
+their skills.
+
+  * Each death knight gains a magic resistance equal to their
+    occ guildstat / 2. To a maximum of 75%.
+  * No death knight can eat or drink nor use any item that
+    must be ingested, since it has no natural bodily functions
+    and cannot eat, drink, or breathe, even if it desired.
+    This also means that a death knight can not become exhausted
+    like a normal mortal.
+
+
+Special
+-------
+The death knights have two special attacks. They can only
+perform one of these at a time, so I will only tax the one
+with the highest tax.
+
+
+Name: Reap
+Requirements: 3 mana.
+Desc: This special will reap the lifeforce of a living being, 
+      and therefore it will not work on any object that has the 
+      prop LIVE_I_UNDEAD. The special will add 50% of the 
+      damage to the death knight as hp.
+Special time: approx once every 5 combat rounds.
+Chance to hit: cb_tohit value is 95 (84% chance to hit).
+Combat aid: 
+Tax:
+     hitres = target->hit_me(F_PENMOD(
+             (attacker->query_stat(SS_WIS) +
+              attacker->query_stat(SS_INT)) /4,
+              attacker->query_skill(SS_GUILD_SPECIAL_REAP)),
+              MAGIC_DT, attacker, -1);
+
+     Considering skills and stats of 100 the max pen will be
+     336. The following formula is used to calculate combat aid. 
+        
+     combat aid: (20% * 336/280) * 84% = 20.16% combat aid.
+
+     I'll add 50% tax because it heals the death knight 50% of the damage given.
+     Total reap tax = 20.16 / 6 = 3,36 * 1,5 = 5,04 %
+                                               =======
+      
+-----------------------------------------------------------------------------
+
+Name: Assault
+Requirements: 3 mana.
+Desc: This special uses one or both of the weapons that the death
+      knight is wielding, to stab or crush the enemy. The special
+      can not be used if the death knight isn't wielding a weapon.
+Special time: approx once every 2,5 combat rounds.
+Combat aid: 80.4%
+Tax:
+    hitres = target->hit_me(F_PENMOD(
+            (attacker->query_stat(SS_DEX) * 1,5 +
+             attacker->query_stat(SS_STR) + (weapon_damage * 2)) /2,
+             attacker->query_skill(SS_GUILD_SPECIAL_DASSAULT)),
+             weapon->query_dt(), attacker, -1);
+
+     Considering skills, stats of 100 and a weapon with 35/35 the max pen will be
+     670. The following formula is used to calculate combat aid. 
+        
+     combat aid: (40% * 670/280) * 84% = 80.4% combat aid.
+
+     Total reap tax = 80.4 / 6 = 13.4 %
+                                =======
+
+
+Titles
+------
+The death knight title system, doesn’t just require enough 
+guild stat. It uses the same system that the Solamnian Knights
+have. Everyone starts out as a squire, after some time, the
+squire will be allowed to enter the Crown Order, later on
+they will be allowed into the Sword Order and lastly they
+will become a member of the Rose Order.
+The titles that the death knight can get:
+
+Squire:
+    Dark Squire of Dargaard Keep
+    Ashen Squire of Dargaard Keep
+    Blackened Squire of Dargaard Keep
+
+Crown Knight:
+    Knight of the Iron Crown
+    Death Warrior of Dargaard Keep
+    Lord Death Warrior of Dargaard Keep
+    Lord of the Iron Crown
+
+Sword Knight:
+    Knight of the Burning Sword
+    Ashen Clerist of Dargaard Keep
+    Black Clerist of Dargaard Keep
+    Lord of the Burning Sword
+
+Rose Knight:
+    Knight of the Black Rose
+    Death Knight of Pain
+    Death Knight of Dargaard Keep
+    Lord Death Knight of Dargaard Keep
+    Lord of the Black Rose
+
+
+Spells
+------
+Every death knight will have the option of gaining spells, 
+these spells will depend on the level of the death knight. 
+The successrate will increase depending on the level of the
+Death Knight.
+
+Squire       : Cause Fear
+               Detect Magic
+
+Crown Order  : Symbol of Pain
+               Symbol of Fear
+
+Sword Knight : Fireball
+               Wall of Ice
+
+Rose Order   : Power Word Stun
+               Power Word Kill
+               Power Word Blind
+  
+If the target has enough magic resistance, the spells will 
+reduced their damage or fail.
+(See the tax doc for each spell in the dir
+ /d/Ansalon/guild/dknights/doc/spells/)
+                     
+Skills
+------
+Using the basic skills from the Knights of Solamnia, I have 
+constructed the list below that the death knight can get.
+Once the death knight enters the Crown Order he or she will
+have the chance to select club instead of sword skill.
+
+                ----------( SQUIRE )----------
+------------------------------------------------------------
+SKILLS OOC-GUILD     MAX        TAXABLE      MULTIPLY  TOTAL
+------------------------------------------------------------
+SS_WEP_SWORD          50           20          1.5      30.0
+SS_DEFENCE            50           30          1.5      45.0
+SS_PARRY              50           50          1.5      75.0
+SS_2H_COMBAT          50           50          2.0     100.0
+SS_AWARENESS          50           20          1.0      20.0
+SS_APPR_MON           50           20          1.0      20.0
+SS_DASSAULT(SPECIAL)  50           00          0.0      00.0
+____________________________________________________________
+TOTAL:               350          190           -      290.0
+============================================================
+
+------------------------------------------------------------
+ SKILLS LAY-GUILD     MAX       TAXABLE      MULTIPLY   TOTAL
+------------------------------------------------------------
+SS_ELEMENT_FIRE       50           30          1.0      30.0
+SS_ELEMENT_DEATH      50           30          1.0      30.0 
+SS_FORM_CONJURNATION  50           30          1.0      30.0
+SS_SPELLCRAFT         50           30          1.0      30.0
+SS_REAP(SPECIAL)      50           00          0.0      00.0
+____________________________________________________________
+TOTAL:               250          120           -      120.0
+============================================================
+
+Tax from occ skills    : 290.0 Total / 60   =  4.83 %
+Tax from layman skills : 120.0 Total / 60   =  2.00 %
+Reap (Special)         :  5.04 / 2          =  0.00 % (2.52%)
+Assault (Special)      : 13.40 / 2          =  6.70 %
+Spell - Cause Fear     : (Estimate)         =  0.50 %
+Spell - Detect Magic   : (Estimate)         =  0.50 %
+Magic resistance       : (Estimate)         =  2.00 %
+Unable to eat/drink    : (Estimate)         =  0.00 %
+Unexhaustable/Regen    : (Estimate)         =  2.00 %
+
+                       OCC GUILD:     LAYMAN GUILD:
+---------------------------------------------------
+Skills (occ)           :  4.83 %         -.-- %
+Skills (lay)           :  -.-- %         2.00 %
+Reap (Special)         :  -.-- %         -.-- %
+Assault (Special)      :  7.70 %         -.-- %
+Spells                 :  -.-- %         1.00 %
+Magic Resistance       :  -.-- %         2.00 %
+Unable to eat/drink    :  -.-- %         -.-- %
+Unexhaustable/Regen    :  2.00 %         -.-- %
+Smith in Guild         :  1.00 %         -.-- %
+----------------------------------------------------------
+Squire Total Tax       : 15.53 %    +    5.00 % => 21.00 %
+==========================================================
+
+
+
+
+           ----------( CROWN KNIGHT )----------
+------------------------------------------------------------
+SKILLS OOC-GUILD     MAX        TAXABLE      MULTIPLY  TOTAL
+------------------------------------------------------------
+SS_WEP_SWORD          90           60          1.5      90.0
+SS_WEP_CLUB           90           60          1.5      --.-
+SS_DEFENCE            90           60          1.5      90.0
+SS_PARRY              90           90          1.5      90.0
+SS_2H_COMBAT          85           85          2.0     170.0
+SS_AWARENESS          70           50          1.0      50.0
+SS_APPR_MON           60           30          1.0      30.0
+SS_DASSAULT(SPECIAL) 100           00          0.0      00.0
+____________________________________________________________
+TOTAL:               675          435           -      520.0
+============================================================
+
+------------------------------------------------------------
+ SKILLS LAY-GUILD     MAX       TAXABLE      MULTIPLY   TOTAL
+------------------------------------------------------------
+SS_ELEMENT_FIRE       60           40          1.0      40.0
+SS_ELEMENT_DEATH      60           40          1.0      40.0 
+SS_FORM_CONJURNATION  60           40          1.0      40.0
+SS_SPELLCRAFT         60           40          1.0      40.0
+SS_REAP(SPECIAL)     100           00          0.0      00.0
+____________________________________________________________
+TOTAL:               300          160           -      160.0
+============================================================
+
+Tax from occ skills      : 520.0 Total / 60   =  8.66 %
+Tax from layman skills   : 160.0 Total / 60   =  2.66 %
+Reap (Special)           :  5.04              =  0.00 % (5.04%)
+Assault (Special)        : 13.40              = 13.40 %
+Spell - Cause Fear       : (Estimate)         =  0.50 %
+Spell - Detect Magic     : (Estimate)         =  0.50 %
+Spell - Symbol of Pain   : (Estimate)         =  0.75 %
+Spell - Symbol of Fear   : (Estimate)         =  0.75 %
+Magic resistance         : (Estimate)         =  2.00 %
+Unable to eat/drink      : (Estimate)         =  0.00 %
+Unexhaustable/Regen      : (Estimate)         =  2.00 %
+
+                       OCC GUILD:       LAYMAN GUILD:
+-----------------------------------------------------------
+Skills (occ)             :  8.66 %         -.-- %
+Skills (lay)             :  -.-- %         2.66 %
+Reap (Special)           :  -.-- %         0.00 %
+Assault (Special)        : 13.40 %         -.-- %
+Spells                   :  -.-- %         2.50 %
+Magic Resistance         :  -.-- %         2.00 %
+Unable to eat/drink      :  -.-- %         -.-- %
+Unexhaustable/Regen      :  2.00 %         -.-- %
+Smith in Guild           :  1.00 %         -.-- %
+------------------------------------------------------------
+Squire Total Tax         : 25.06 %    +    7.16 % => 33 %
+============================================================
+
+
+
+
+           ----------( SWORD KNIGHT )----------
+------------------------------------------------------------
+SKILLS OOC-GUILD     MAX        TAXABLE      MULTIPLY  TOTAL
+------------------------------------------------------------
+SS_WEP_SWORD          90           60          1.5      90.0
+SS_WEP_CLUB           90           60          1.5      --.-
+SS_DEFENCE            90           60          1.5      90.0
+SS_PARRY              90           90          1.5      90.0
+SS_2H_COMBAT          85           85          2.0     170.0
+SS_AWARENESS          70           50          1.0      50.0
+SS_APPR_MON           60           30          1.0      30.0
+SS_DASSAULT(SPECIAL) 100           00          0.0      00.0
+____________________________________________________________
+TOTAL:               675          435           -      520.0
+============================================================
+
+------------------------------------------------------------
+ SKILLS LAY-GUILD     MAX       TAXABLE      MULTIPLY   TOTAL
+------------------------------------------------------------
+SS_ELEMENT_FIRE       60           40          1.0      40.0
+SS_ELEMENT_DEATH      60           40          1.0      40.0 
+SS_FORM_CONJURNATION  60           40          1.0      40.0
+SS_SPELLCRAFT         60           40          1.0      40.0
+SS_REAP(SPECIAL)     100           00          0.0      00.0
+____________________________________________________________
+TOTAL:               300          160           -      160.0
+============================================================
+
+Tax from occ skills      : 520.0 Total / 60   =  8.66 %
+Tax from layman skills   : 160.0 Total / 60   =  2.66 %
+Reap (Special)           :  5.04              =  0.00 % (5.04%)
+Assault (Special)        : 13.40              = 13.40 %
+Spell - Cause Fear       : (Estimate)         =  0.50 %
+Spell - Detect Magic     : (Estimate)         =  0.50 %
+Spell - Symbol of Pain   : (Estimate)         =  0.75 %
+Spell - Symbol of Fear   : (Estimate)         =  0.75 %
+Spell - Fireball         : (Estimate)         =  0.75 %
+Spell - Wall of Ice      : (Estimate)         =  0.50 %
+Magic resistance         : (Estimate)         =  2.00 %
+Unable to eat/drink      : (Estimate)         =  0.00 %
+Unexhaustable/Regen      : (Estimate)         =  2.00 %
+
+                       OCC GUILD:     LAYMAN GUILD:
+---------------------------------------------------------
+Skills (occ)             :  8.66 %         -.-- %
+Skills (lay)             :  -.-- %         2.66 %
+Reap (Special)           :  -.-- %         0.00 %
+Assault (Special)        : 13.40 %         -.-- %
+Spells                   :  -.-- %         3.75 %
+Magic Resistance         :  -.-- %         2.00 %
+Unable to eat/drink      :  -.-- %         -.-- %
+Unexhaustable/Regen      :  2.00 %         -.-- %
+Smith in Guild           :  1.00 %         -.-- %
+----------------------------------------------------------
+Squire Total Tax         : 25.06 %    +    8.41 % => 34 %
+==========================================================
+
+
+
+
+
+
+           ----------( ROSE KNIGHT )----------
+------------------------------------------------------------
+SKILLS OOC-GUILD     MAX        TAXABLE      MULTIPLY  TOTAL
+------------------------------------------------------------
+SS_WEP_SWORD          90           60          1.5      90.0
+SS_WEP_CLUB           90           60          1.5      --.-
+SS_DEFENCE            90           60          1.5      90.0
+SS_PARRY              90           90          1.5      90.0
+SS_2H_COMBAT          85           85          2.0     170.0
+SS_AWARENESS          70           50          1.0      50.0
+SS_APPR_MON           60           30          1.0      30.0
+SS_DASSAULT(SPECIAL) 100           00          0.0      00.0
+____________________________________________________________
+TOTAL:               675          435           -      520.0
+============================================================
+
+------------------------------------------------------------
+ SKILLS LAY-GUILD     MAX       TAXABLE      MULTIPLY   TOTAL
+------------------------------------------------------------
+SS_ELEMENT_FIRE       60           40          1.0      40.0
+SS_ELEMENT_DEATH      60           40          1.0      40.0 
+SS_FORM_CONJURNATION  60           40          1.0      40.0
+SS_SPELLCRAFT         60           40          1.0      40.0
+SS_REAP(SPECIAL)     100           00          0.0      00.0
+____________________________________________________________
+TOTAL:               300          160           -      160.0
+============================================================
+
+Tax from occ skills      : 520.0 Total / 60   =  8.66 %
+Tax from layman skills   : 160.0 Total / 60   =  2.66 %
+Reap (Special)           :  5.04              =  0.00 % (5.04%)
+Assault (Special)        : 13.40              = 13.40 %
+Spell - Cause Fear       : (Estimate)         =  0.50 %
+Spell - Detect Magic     : (Estimate)         =  0.50 %
+Spell - Symbol of Pain   : (Estimate)         =  0.75 %
+Spell - Symbol of Fear   : (Estimate)         =  0.75 %
+Spell - Wall of Ice      : (Estimate)         =  0.75 %
+Spell - Fireball         : (Estimate)         =  0.75 %
+Spell - Power Word Kill  : (Estimate)         =  0.75 %
+Spell - Power Word Blind : (Estimate)         =  0.75 %
+Spell - Power Word Stun  : (Estimate)         =  0.75 %
+Magic resistance         : (Estimate)         =  2.00 %
+Unable to eat/drink      : (Estimate)         =  0.00 %
+Unexhaustable/Regen      : (Estimate)         =  2.00 %
+
+                       OCC GUILD:         LAYMAN GUILD:
+------------------------------------------------------------
+Skills (occ)             :  8.66 %           -.-- %
+Skills (lay)             :  -.-- %           2.66 %
+Reap (Special)           :  -.-- %           -.-- %
+Assault (Special)        : 13.40 %           -.-- %
+Spells                   :  -.-- %           5.50 %
+Magic Resistance         :  -.-- %           2.00 %
+Unable to eat/drink      :  -.-- %           -.-- %
+Unexhaustable/Regen      :  2.00 %           -.-- %
+Smith in Guild           :  1.00 %           -.-- %
+-------------------------------------------------------------
+Squire Total Tax         : 25.06 %      +   10.16 % => 36 %
+=============================================================
+
+Leaving The Death Knights
+-------------------------
+If a player wants to leave the death knights, he or she must
+seek out the desecrated altar of Paladin in Dargaard Keep.
+The player can here 'pray for forgiveness' and Paladine will
+grant the player his wish of mortal life and therefore 
+killing the player and thowing him out of the guild.
+

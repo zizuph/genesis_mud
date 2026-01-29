@@ -1,0 +1,16 @@
+main
+::MAPDATA::
+landing 2 1
+entrance 7 1
+stairs 10 1
+jazsis 6 3
+sanctorium 10 3
+mizrun 14 3
+cahor2 10 5
+::MAPDATA::
+
+  o - [ ][ ]
+          |
+      o - o - o
+
+               

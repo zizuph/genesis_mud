@@ -1,0 +1,283 @@
+******************************************************************************
+*                         QUESTS OF THE METRO AREA                           *
+******************************************************************************
+INTRODUCTION:
+   PURPOSE:
+   The major purpose for each quest is to get the player to thoroughly explore
+   the area of Argos. Thus very few hints are given for quests. An exploration
+   of the area (including outside the city) is needed to solve the quests.
+ 
+   QUEST MASTER
+   All tours/quests in the metro area are given by Alexis (monsters/alexis.*)
+   who is cloned in rooms/park5.c (PK5 on map). Once cloned, Alexis wanders
+   but stays in the park (rooms/parkX.c;PKx) via add_act(north/south/east/west).
+   All bit manipulation and EXP additions are coded in this NPC.
+ 
+   QUEST BITS
+   Three bits are assigned to track a player's progression of the quests
+   which must be done in order. DOMAN=CALIA, GROUP=2, BITS=3,4,5.
+   000=no quests done, 001=first quest done, ... 101=fifth quest done.
+   Therefore, room left for 2 more quests.  metro/monsters/alexis.c and
+   metro/tours.h coded in such a way that only a few changes need to
+   be made to tours.h for Alexis to handle a new quest.
+   All bit manipulations and EXP additions are coded in monsters/alexis.*.
+ 
+   QUEST CONSTANTS
+   Most are held in argos/metro/tours.h. However, parts of some quests
+   involve areas outside of argos/metro, so some constants are defined
+   in ~zima/argos/argos.h. All objects involved in any quest includes
+   this file argos/metro/tours.h
+ 
+   LOG FILE
+   The Player Name, Quest Name, amount of Exp given and time are recorded
+   each time Alexis gives a reward (via log_file() in monters/alexis.ext).
+   The file is ~zima/log/metro_tours
+ 
+   OPERATION
+   To get a quest, the player does 'ask alexis for tour'. Alexis then
+   says the instructions/hints for the quest, and tells the player to
+   return to him for the reward. If the player asks Alexis for a quest
+   again, and the player hasn't finished the quest he is on, Alexis
+   repeats the instructions.
+   Once the quest is done, the player does 'ask alexis for reward'.
+   If the player has finished the quest, Alexis adjusts the player's
+   quest bits and EXP appropriately.
+ 
+   GENERAL IMPLEMENTATION (coded in argos/metro/tours.h).
+   A quest prop (ARGOS_QUEST_PROP) is maintained in the player. The
+   integer value of the prop determines the general quest state of the
+   player, according to the following chart:
+   0     - Player not on an Argos Metro Quest
+           Prop set to 0 when a player finishes a quest (at 'ask reward')
+   1-5   - Player on Quest, the number of which is the value of the prop (1-5)
+           Prop set to value when player asks for quest (at 'ask tour')
+   51-55 - Indicates player has completed quest#=(prop-50)
+           This value set at the end of a quest (where dependent upon which
+           quest)
+   In general, prop=0 means not_on_quest, prop<50 means on_some_quest,
+               prop>50 means finished_some quest
+ 
+   SPECIAL NOTE:
+   The first step to each quest is to 'ask alexis for tour' and the last
+   step of each quest is to 'ask alexis for reward', thus these steps
+   are not included in the following descriptions.
+   Also, "optional" means the code does not require a certain step,
+   but the player wouldn't know what to do without it (unless he is
+   cheating). All "optional" steps are marked with an asterisk (*)
+ 
+REGISTRY QUEST - QUEST 1
+   General Description:
+   The player must sign the registry (which keeps a list of visitors) in
+   the visitor's center. This involves exploring the Visitor's Center and
+   the Bank of Argos.
+   The Hostess of the Visitors Center (metro/monsters/vcnoble) may be asked
+   for clues in metro/rooms/visitctr.c, where the registry is found.
+   All rooms mentioned are in zima/argos/metro/rooms/
+ 
+   Experience given: ??
+ 
+   Alexis' Instructions:
+     "Find the visitor's center in Argos and sign the registry."
+     "We like to keep a record of our visitors."
+     "Then come back to me and ask for your reward."
+ 
+   Steps:
+     *GOTO: visitctr.c
+     *DO:   try to 'sign registry' -> 'you need pen/quill'
+     *DO:   'ask human about quill' -> 'the bursar has one'
+     *DO:   'ask human about bursar'-> 'he runs the bank'
+     GOTO:  bank.c
+     DO:    'ask bursar for quill' -> Bursar gives quill to player
+            quill=metro/object/reqquill.c
+            (note: bursar is "hidden" behind counter of bank, ie: he is
+             not an NPC, just an illusion created in the bank descripts.)
+     GOTO:  visitctr.c
+     DO:    'dip quill in ink' -> gets ink on quill
+            (if player doesn't do this, 'sign registry' tells 'there is no
+            ink on the quill'
+     DO:    'sign registry' -> quill disappears; ARGOS_QUEST_PROP set to done.
+     *DO:   'read registry' tail()s the names/titles of all who have signed.
+ 
+TOE QUEST - QUEST 2
+   General Description:
+   The player must find and rub the toe of each of the statues of
+   the former (and present) monarchs of Argos, which are spread throughout
+   the city. The statues are located near a structure or place for which
+   the monarch was noted (ie: Thespia's is in the Amphitheatre, etc.).
+   Player can get a list of and some info on each monarch in lib2.c.
+   Statues are all clearly mentioned in the set_long of each room. There
+   are many other statues around the city, so the player must examine
+   each closely to determine if it is a monarch or not. This quest causes
+   the player to visit some of the hidden corners of the city, and require
+   him to go into the connected areas (Palace Courtyard, Academie Courtyard,
+   etc.).
+ 
+   Alexis' Instructions:
+     "It is said to bring luck to rub the toes of all the statues of the "+
+        "monarchs of Argos.",
+     "Find all the statues of our monarchs in the city and rub their toes.",
+     "Come back to me and ask for a reward when you are done."
+ 
+   Exp: ???
+ 
+   Locations of statues:
+      ARGOSIUS  - aeropagus.c (open air public forum)
+      PAXEUS    - argos/palace/rooms/court1.c (courtyard of the palace)
+                  (goto aroad11.c, then south,west)
+      AGRARIUS  - trroad9.c (artisan/professional road of commercial dist.)
+      BASILEUS  - droad11.c (center of commercial district)
+      SOCARTES  - argos/academie/rooms/court2.c (Courtyard of Academie)
+                  (goto lroad4.c, then north,north)
+      COLLISIMUS- argos/arena/rooms/court.c (CYard of Arena)
+                  (goto aroad7.c, then southwest)
+      THESPIA   - amph1.c (entrance of amphitheatre)
+      BIBLIONUS - libhall2.c (Library hallway)
+      COSMOPOLITUS - arch.c (Arch to city; newly built to "welcome" visitors)
+ 
+   Operation:
+   GOTO: each room mentioned above (in any order)
+   DO:   'rub toe of statue' -> 'You feel like this might be your lucky day.'
+         (if last statue rubbed, 'You feel lie it MUST be your lucky day.'
+ 
+   Implementation: (found in metro/rooms/toequest.h, and metro/tours.h)
+      When the player rubs the first toe, a property is added which is
+      an array of 9 integers (one for each statue). As each statue's
+      toe is rubbed, the corresponding int in the array is set to 1.
+      When all are set to one, the ARGOS_QUEST_PROP is set to the "done"
+      value for the quest.
+ 
+STOLEN CASSOCK QUEST - QUEST 3
+   General Description:
+   Alexis tells the player to find his friend who keeps the collections of
+   his travels (player must find this NPC in library, curator of the
+   collection). Alexis tells the player that something was stolen, and
+   to ask his friend about it. The player asks the friend about the
+   object, and basically gets the info that it was a white cassock
+   stolen, and all he knows about the thief is that he was wearing a
+   green tunic with a gold axe embroidered on it. This is the tunic
+   of the evil woodsmen in the forest of the southwest territory.
+ 
+   The player must have seen (or find new) these woodsmen and recognize
+   their attire. The woodsmen are found at their campsite in the
+   evil forest. The player must 'search forest' and will find the
+   cassock hidden there. If the player tries to leave with the cassock,
+   and the woodsmen are there, they will not allow him to leave the
+   room and will attack him. The player must drop the cassock to
+   escape (the woodsmen tell him to do this), or must kill the woodsmen
+   to get out.
+ 
+   The player then returns the cassock to the friend/curator, who thanks
+   him and tells him to return to Alexis.
+ 
+   Alexis' Instructions:
+      "I heard that something was stolen from the collections of my travels.",
+      "Find Epsoros who takes care of my collection and ask him about it.",
+      "Return the stolen object to him and come back and ask for your reward."
+ 
+   Exp given: ???
+ 
+   Skills required:
+      SS_AWARENESS of 10 or above for 'search forest' to be successful.
+      Must be able to kill 3 woodsmen, get someone to kill them, or
+         be lucky enough to find them dead.
+ 
+   Steps:
+   *GOTO: lib3.c
+   *DO:   look around at descriptions and 'ask curator about stolen object'
+          and 'ask curator about thieves'
+    GOTO: zima/argos/swterr/rooms/for13.c
+    DO:   'search forest' -> find cassock
+          (if woodsmen there, must get past them with cassock)
+    GOTO: lib3.c
+    DO:   'give cassock to curator' -> sets QUEST_PROP to quest done
+ 
+GRANDMA QUEST - QUEST 4
+   General description:
+   The player is to get a NEW cloak and a NEW tunic for Alexis' friend.
+   The only clue to where she is, is that her old clothes are stained
+   with grapes and dirt (she's in the vineyard area). NEW clothes may
+   only be obtained at the wool works shop where they are made. A player
+   must bring wool to the shop for the seamstress to make them. The
+   wool must come from shearing a sheep in the pasture. A pair of
+   sheep shears, bought in the brass works shop, are needed to shear
+   the sheep.
+ 
+   Alexis' Instructions:
+      "My old friend Giagia needs some new clothes. Her old ones are so "+
+         "stained with grapes and dirt.",
+      "I promised to send her a newly made tunic and cloak.",
+      "Go have those two things made and take them to her.",
+      "Then return to me and ask for your reward."
+ 
+   Probable steps player would take:
+   - discover that new clothes are made in Wool Works
+   - discover that wool is needed for the seamstress to make the clothes
+   - know that wool comes from sheep.
+   - discover and buy sheep shears in the Brass Works shop.
+   - shear the sheep in the pasture (2 needed)
+   - have the clothes made at the Wool Works
+   - find Giagia in the house of the vineyard
+   - give her the items
+   - she thanks player and he returns to Alexis.
+ 
+   Straight Forward Steps:
+   GOTO: brasswrk.c
+   DO:   'buy shears' -> get a pair of shears (metro/objects/sheep_shears.c)
+   GOTO: zima/argos/nwterr/rooms/pastX.c
+   DO:   find 2 living sheep; 'wield shears','shear sheep with shears'(twice)
+   GOTO: woolwrk.c
+   DO:   'ask seamstress to spin wool into yarn'->get objects/yarn.c
+         (do this twice)
+         'ask seamstress to weave yarn into a tunic'->get armours/new_tunic.c
+         'ask seamstress to weave yarn into a cloak'->get armours/new_cloak.c
+   GOTO: zima/argos/nwterr/rooms/vyardd.c
+   DO:   'give cloak to giagia', 'give tunic to giagia' ->
+         Giagia thanks player and sends him back to Alexis
+ 
+NEW WINE QUEST - QUEST 5
+   General Description:
+   Alexis tells the player to bring a bottle of NEW wine to his friend
+   Dramaticus. The player must pick grapes in the vineyard, buy an
+   empty glass bottle at the Glass Shop, press the
+   grapes into juice, get a Pharosian priest to bless the juice into
+   wine, and take the wine to Dramaticus.
+ 
+   Alexis' Instructions
+      "My friend Dramaticus works too hard.",
+      "Managing the guild of our only queen is a big job.",
+      "He really likes newly made wine. Deliver a bottle to him and "+
+         "come back and ask for your reward."
+ 
+   Exp: ???
+ 
+   Steps:
+   *GOTO: press.c
+   *DO:   'read sign' -> tells you that you need grapes.
+   GOTO:  zima/nwterr/rooms/vyardX.c
+   DO:    'pick grapes'
+   GOTO:  glasswrk.c
+   DO:    'buy bottle' -> get objects/empty_bottle.c
+          (player probably won't figure this out until he tries the next
+           step only to find the juice runs on the floor, since he has
+           no bottle to catch it in.)
+   GOTO:   press.c
+   DO:     'place grapes in bin','pull lever'->exchanges bottle of grapejuice
+           for empty bottle...get objects/grape_juice.c
+   GOTO:   zima/argos/phartemp/port1.c  and find priest
+           (phartemp/monsters/outpriest.c) who walks up and down portico.
+   DO:    'ask priest for blessing' -> priest turns juice into new wine
+   GOTO:  thesp2.c
+   DO:    'give wine to dramaticus' -> Dram. thanks and sends back to Alex.
+
+The following rooms in already open areas have been modified for the
+quests:
+ 
+~zima/argos/nwterr/monsters/grandma.c - new NPC, cloned in
+~zima/argos/nwterr/rooms/vyardd.c
+ 
+~zima/argos/swterr/rooms/for13.c -
+   search command added for cassock quest.
+   Check done on exit. If player has stolen cassock, woodsmen
+   will autoattack and not let player leave till he drops the
+   cassock (or the woodsmen die)
+ 

@@ -1,0 +1,24 @@
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ c4 - c5 - c6     LEGEND:
+^^NORTHWEST^^^^^^^^^^^^^^^^ /  : x  : x  |
+^^^^^^^^^^^^^^^^^^^^^^^^ c3 = w3b= w3 = c7     obvious exits: /,\,-
+^^^^^^^^^^^^^^^^^^^^^^ /  : x  : x  : x  |     non-obvious  : x,:,=
+^^^^^^^^^^^^^^^^^^^ c2 = w2b= w2 = s2 - s3     c = cliff
+^^^^^^^^^^^^^^^^^ /  : x  : x  : /  ~~~~~~     w = wood
+^^^^^^^^^^^^^^ c1 = w1b= w1 = s1  ~~~~~~~~     s = shore
+-------------/--:-x--:-x--:-/-------------     p = parth
+^^^^^^^^^ c5 = w5b= w5 = s5  ~~~~~~~~~~~~~
+^^^^^^^^^  | x  : x  : x  | ~~~~~~~~~~~~~~    *To find the correct
+^^^^^^^^^ c4 = w4b= w4 = s4 ~~~~~~~~~~~~~~     pathname, look at the
+^^^^^^^^^  | x  : x  : x  | ~~~~~~NEN~~~~~     compass direction, and
+^^WEST^^^ c3 = w3b= w3 = s3 ~~~~~~~~~~~~~~     then translate the
+^^^^^^^^^  | x  : x  : x  | ~~~~HITHOEL~~~     abbreviated map symbol
+^^^^^^^^^ c2 = w2b= w2 = s2 ~~~~~~~~~~~~~~     with the above key.
+^^^^^^^^^  | x  : x  : x  | ~~~~~~~~~~~~~~
+^^^^^^^^^ c1 = w1b= w1 = s1  ~~~~~~~~~~~~~     EXAMPLE:
+-------------\--:-x--:-x--:-\-------------
+^^^^^^^^^^^^^^ c5 = w3b= w3 = s1  ~~~~~~~~     The bottom-most room
+^^^^^^^^^^^^^^^^^ \  : x  : x  : \  ~~~~~~     on the right is labeled
+^^^^^^^^^^^^^^^^^^^ c4 = w2b= w2 = p2 - p1     'w1', so it would be   
+^^^^^^^^^^^^^^^^^^^^^^ \  : x  : x  :     
+^^SOUTHWEST^^^^^^^^^^^^^ c3 - c2 = w1          ~lakeside/sw_wood1.c
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

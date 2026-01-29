@@ -1,0 +1,81 @@
+Balance Review Feedback Thanar Temple
+-------------------------------------
+Arman Kharas, 23 July 2019
+
+
+IN GENERAL:
+Overall some really nice features with how the npcs are coded.
+They are quite intelligent and will offer more of a challenge for 
+players than some other areas.
+
+Approved from a balance point of view to open.
+
+NPCS IN GENERAL:
+
+When looking at the npcs in the temple, there are a few things that 
+need to be considered from a balance perspective that were picked up
+by one of Cotillion's exp tools.
+
+                              (  #): Avg  Loot     XP      Score   XP Error
+~new_thanar/npc/mpriest       ( 68): 199  66.91gc  63673   35328   80%
+~new_thanar/npc/caster_priest ( 69): 193  66.62gc  61676   34595   78%
+
+Looking at the data, we have a very high concentration of npcs (around 140) 
+with high experience values (greater than Ghastly Keep), with very high
+total loot values. Clearing this area could - if all the gear was sold for
+its value - generate around 780 platinum.
+
+I don't think this would be a likely outcome, as none of the loot has a
+coin value. So there would be quite a bit of effort for players in getting
+a coin reward through selling armour and weapons. So am ok with the 
+current equipment mix for the npcs.
+
+The XP Error is largely driven by the high stat average and defence/parry
+of 70. All in all I think that is ok, mindful of the special attacks or
+spells that aren't taken into account. So I think they are reasonably 
+balanced stat and skillwise.
+
+My only concern is the number of npcs in this area. I am ok to leave it
+as is for the time being, but if we find that this area is too much of
+an xp farm then i think we may need to reduce the number of npcs by
+about 20%.
+
+
+Just want to flag I have only reviewed:
+Caster Priest - /d/Kalad/common/guilds/new_thanar/npc/caster_priest.c
+Melee Priest - /d/Kalad/common/guilds/new_thanar/npc/mpriest.c
+Priest Standard File - /d/Kalad/common/guilds/new_thanar/npc/std_priest.c
+
+If there are other npcs you plan on opening with (there seem to be a few
+in the npc directory), i'd need to review those too.
+
+SPELLS:
+The spells are look fine to me. There was one issue that I fixed globally:
+
+/d/Kalad/common/guilds/new_thanar/spells/obj/thanar_resist_obj#3665258
+
+When these npcs die when using this spell, the stop concentrating message
+goes to the killer.
+
+The pious athletic male priest says: Thanar grant me peace and smite my foe.
+The pious athletic male priest attempts to pray through gurgling blood.
+You stop concentrating on maintaining tresist.
+The pious athletic male priest is no longer surrounded by dark shadows.
+The pious athletic male priest died.
+You killed the pious athletic male priest.
+
+I've fixed that within /d/Genesis/specials/guilds/souls/spell_manager_soul.c
+
+ROOMS:
+Standard Files - /d/Kalad/common/guilds/new_thanar/std
+Rooms - /d/Kalad/common/guilds/new_thanar/rooms
+
+Apart from checking the standard files, I didn't have a close look at 
+any of the room files beyond having a walk around the area. Was there anything
+specifically you feel should be pointed out for particular attention?
+
+ARMOUR:
+No issues with the armours.
+
+WEAPONS:
+No issue with pclub.c

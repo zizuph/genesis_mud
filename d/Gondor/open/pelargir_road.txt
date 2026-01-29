@@ -1,0 +1,336 @@
+main
+::MAPDATA::
+nr9 28 11 north
+nr10 28 11 north
+fieldr1 27 12 north
+fieldr2 27 12 north
+fieldr3 27 12 north
+nr11 27 12 north
+nr12 27 12 north
+nr13 26 13 north
+path_1 26 13 north
+path_2 26 13 north
+pathend 26 13 north
+nr14 25 14 north
+nr15 25 14 north
+nr16 25 14 north
+track2 24 13 north
+track3 24 13 north
+track4 24 13 north
+field2 24 13 north
+field1 24 13 north
+track5 24 13 north
+field4 24 13 north
+field3 24 13 north
+track6 24 13 north
+field5 24 13 north
+track7 24 13 north
+field6 24 13 north
+field7 24 13 north
+pasture2 24 13 north
+pasture1 24 13 north
+pasture3 24 13 north
+track8 24 13 north
+field8 24 13 north
+field9 24 13 north
+pasture4 24 13 north
+track9 24 13 north
+pasture5 24 13 north
+pasture6 24 13 north
+nr17 25 14 center
+fieldr4 24 15 center
+fieldr5 24 15 center
+fieldr6 24 15 center
+fieldr8 24 15 center
+fieldr7 24 15 center
+nr18 24 15 center
+n_gate_out 23 16 center
+rr7 21 17 center
+rr6 21 17 center
+track1 21 17 center
+rbdg2 21 17 center
+rr5 21 17 center
+rr4 21 17 center
+rr3 21 17 center
+rbdg1 21 17 center
+s_gate_out 22 18 center
+rr2 22 18 south
+rr1 22 18 south
+sr1 22 18 south
+sirithb 22 18 south
+sr2 22 18 south
+entrance 22 18 south
+sr3 22 18 south
+south_pier 22 18 south
+sr4 22 18 south
+sr5 22 18 south
+smokehouse 24 13 farm
+barn2 24 13 farm
+barn1 24 13 farm
+hayloft 24 13 farm
+northyard 24 13 farm
+shed 24 13 farm
+westyard 24 13 farm
+eastyard 24 13 farm
+house 24 13 farm
+hedgeyard 24 13 farm
+garden 24 13 farm
+trees 24 13 farm
+southyard 24 13 farm
+pigsty 24 13 farm
+path1 22 18 corsair_north
+path2 22 18 corsair_north
+path3 22 18 corsair_north
+path4 22 18 corsair
+path5 22 18 corsair
+path6 22 18 corsair
+path7 22 18 corsair
+path8 22 18 corsair
+path9 22 18 corsair
+path10 22 18 corsair
+path11 22 18 corsair
+path12 22 18 corsair
+::MAPDATA::
+
+                   \              ~~~~~                    |  Mountains
+                    --------\      ~~~~~                   |     of
+                       MINAS \      ~~~~~                  |   Shadow  +------+
+   White Mountains     TIRITH \  OSGILIATH                 |           |MORDOR|
+                            O-+----O=====------------------+--\ MINAS  +------+
+               +------+       |   / ~~~~~                  |   \MORGUL
+               |GONDOR|       |  / ~~~~~                   |    O
+               +------+       | / ~~~~~     Southern       |
+                              L/ ~~~~~      Ithilien       |
+                             / ~~~~~~                      |
+                            / ~~~~~~            Emyn Arnen |
+                           / ~~~~~~               o--------+
+                          / ~~~~~~                         |
+                         / ~~~~~~                          |
+                        / ~~~~~~                           |
+                       /~~~~~~~~                          / \
+                      O~~~~~~~~                        ~~o~~ \
+ ~~~~~           PELARGIR~~~~~~~                 ~~~~~~Poros  |
+ ~~~~~~~~           ~~~~~~~~~~~            ~~~~~~             |
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~   ~     ~~~~~~                   | Harondor
+ ~~~~~~~~~~~~~~~~~~~~~~~~~      ~~~~~                         |
+
+::NEWMAP::
+north
+::MAPDATA::
+nr9 42 4
+nr10 42 6
+fieldr1 46 8
+fieldr2 50 8
+fieldr3 54 6
+nr11 38 8
+nr12 38 10
+nr13 38 12
+path_1 34 12
+path_2 30 12
+pathend 26 12
+nr14 38 14
+nr15 35 16
+nr16 31 18
+track2 7 18
+track3 7 16
+track4 7 12
+field2 11 12
+field1 3 12
+track5 7 10
+field4 11 10
+field3 3 10
+track6 7 8
+field5 11 8
+track7 7 6
+field6 3 6
+field7 11 6
+pasture2 7 4
+pasture1 3 4
+pasture3 11 4
+track8 19 10
+field8 15 10
+field9 23 10
+pasture4 23 8
+track9 19 8
+pasture5 19 6
+pasture6 23 6
+::MAPDATA::
+
+                                          |
+                                          o
+                                          |                                  ~
+                                          o                              ~~~~~
+                                          |                             ~~~~~~
+       o                                  o           o                ~~~~~~~
+       |                                /   \       /                ~~~~~~~~~
+       o           o                  o       o - o              ~~~~~~~~~~~~~
+       |           |                  |                           ~~~~~~~~~~~~
+       o           o                  o                          ~~~~~~~~~~~~~
+       |         /                    |                         ~~~~~~~~~~~~~
+       o       /          o - o - o - o                        ~~~~~~~~~~~~
+       |     /                        |                         ~~~~~~~~~~~~
+       |   /                          o                      ~~~~~~~~~~~~
+       | /                           /                     ~~~~~~~~~~~~~~
+       o                           o                       ~~~~~~~~~~~
+       |                         /                       ~~~~~~~~~~~~~~~
+       o                       o       o                ~~~~~~~~~~~~~
+         \                   /         |                ~~~~~~~~~~~
+           \               o - o - o - o - o           ~~~~~~~~~~~~~~
+             \           /                            ~~~~~~~~~~~~
+
+::NEWMAP::
+center
+::MAPDATA::
+nr17 27 4
+fieldr4 31 4
+fieldr5 35 4
+fieldr6 39 4
+fieldr8 39 2
+fieldr7 43 4
+nr18 23 6
+n_gate_out 23 8
+rr7 19 6
+rr6 15 8
+track1 15 6
+rbdg2 11 10
+rr5 7 12
+rr4 7 14
+rr3 7 16
+rbdg1 11 18
+s_gate_out 31 18
+::MAPDATA::
+
+       |                         /                       ~~~~~~~~~~~~~~~
+       o                       o       o                ~~~~~~~~~~~~~
+         \                   /         |                ~~~~~~~~~~~
+           \               o - o - o - o - o           ~~~~~~~~~~~~~~
+             \           /                            ~~~~~~~~~~~~
+               o   o - o                             ~~~~~~~~~~~~~
+               | /     |                             ~~~~~~~~~~~~~~~
+               o       o                           ~~~~~~~~~~~~~~
+             /         |                          ~~~~~~~~~~~~~~~
+           o                                     ~~~~~~~~~~~~~~~~~
+         /                                      ~~~~~~~~~~~~~~~~~~
+       o                                          ~~~~~~~~~~~~~~
+       |            Pelargir                     ~~~~~~~~~~~~~
+       o                                       ~~~~~~~~~~~~~~
+       |                                    ~~~~~~~~~~~~~~~
+       o                                     ~~~~~~~~~~~~~~
+         \                     |             ~~~~~~~~~~~
+           o                   o           ~~~~~~~~~~~~~~~
+             \               /            ~~~~~~~~~~~~~
+               o           o              ~~~~~~~~~~~~~~~~
+                 \       /               ~~~~~~~~~~~~~~
+
+::NEWMAP::
+south
+::MAPDATA::
+rr2 15 4
+rr1 19 6
+sr1 23 6
+sirithb 27 4
+sr2 19 8
+entrance 23 8
+sr3 15 10
+south_pier 19 10
+sr4 11 12
+sr5 7 14
+::MAPDATA::
+
+         \                     |             ~~~~~~~~~~~
+           o                   o           ~~~~~~~~~~~~~~~
+             \               /            ~~~~~~~~~~~~~
+               o           o              ~~~~~~~~~~~~~~~~
+                 \       /               ~~~~~~~~~~~~~~
+                   o - o                ~~~~~~~~~~~~~~~
+                     /                 ~~~~~~~~~~~~~
+                   o - o             ~~~~~~~~~~~~~~~~~
+                 / |              ~~~~~~~~~~~~~~~~~
+               o   o               ~~~~~~~~~~~~~~~~~~~
+             /                  ~~~~~~~~~~~~~~~~~~~~
+           o      Docks         ~~~~~~~~~~~~~~~~~~~~
+         /                     ~~~~~~~~~~~~~~~~~~
+       o                   ~~~~~~~~~~~~~~~~~~
+     /                    ~~~~~~~~~~~
+
+
+::NEWMAP::
+farm
+::MAPDATA::
+barn1 36 9
+barn2 30 9
+eastyard 46 14
+garden 42 19
+hayloft 36 9
+hedgeyard 36 19
+house 23 19
+northyard 46 11
+pigsty 46 23
+shed 29 14
+smokehouse 46 7
+southyard 46 19
+trees 36 23
+westyard 36 14
+::MAPDATA::
+
+                          Lebennin Farm
+                       ===================
+                                                    
+             _____ ,-,                              
+           /  \[|]\|=|                              
+          |_""_|___| |                      +---+
+          |_o__|[x]| |    +-------------+   | o |
+                          |             |   +- -+
+                          |   o --- o   |     |          _____
+                          |         |   |     |      ^..^     \9
+                          +--------- ---+     o      (oo)_____/
+                                    |         |         WW  WW
+   []____                  +---+    |         |
+  /_-_- / \                | o = -- o ------- o --
+ / -  -/_*_\               +---+    |         |
+ |-[][]|- -|                        |         |
+                 +----------+       |         |
+                 |          |       |         |
+                 |     o    = ----- o --- o   o
+                 |          |       |   /     |
+                 +----------+   _   |  /      |
+                               {x}  | /  _    |
+                                Y   o   {x}   o
+                                   _     Y
+                                  {x}
+                                   Y
+
+::NEWMAP::
+corsair_north
+::MAPDATA::
+path1 7 1 
+path2 7 3 
+path3 5 5
+::MAPDATA::
+       |
+       o
+       |
+       o
+      /
+     o
+ 
+::NEWMAP::
+corsair
+::MAPDATA::
+path4 7 2 
+path5 11 2 
+path6 15 2
+path7 7 4
+path8 11 4 
+path9 15 4
+path10 7 6
+path11 11 6
+path12 15 6
+::MAPDATA::
+   
+      \
+       o - o - o
+       | x | x |
+       o - o - o
+       | x | x |
+       o - o - o

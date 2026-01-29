@@ -1,0 +1,512 @@
+main
+::MAPDATA::
+guard_tower1 17 17 guard_tower
+tower_nw1 17 17 guard_tower
+tower_ne1 17 17 guard_tower
+tower_sw1 17 17 guard_tower
+tower_se1 17 17 guard_tower
+tower_2 17 17 guard_tower
+tower_nw2 17 17 guard_tower
+tower_ne2 17 17 guard_tower
+tower_sw2 17 17 guard_tower
+tower_se2 17 17 guard_tower
+tower_3 17 17 guard_tower
+tower_nw3 17 17 guard_tower
+tower_ne3 17 17 guard_tower
+tower_sw3 17 17 guard_tower
+tower_se3 17 17 guard_tower
+tower_hall1 17 17 guard_tower
+tower_hall2 17 17 guard_tower
+tower_hall3 17 17 guard_tower
+tower_wall 17 17 guard_tower
+capt_office 17 17 vorn
+gran_tower2 9 57 armed_cliffs_w
+w_cliff1 9 57 armed_cliffs_w
+west_stairs 9 57 armed_cliffs_w
+e_cliff1 43 27 armed_cliffs_e
+e_cliff2 43 27 armed_cliffs_e
+e_cliff3 47 25 armed_cliffs_e
+e_cliff4 47 23 armed_cliffs_e
+gran_tower1 43 27 armed_cliffs_e
+roc_nest 43 27 armed_cliffs_e
+cliff01 47 27 armed_cliffs_e
+cliff02 47 27 armed_cliffs_e
+cliff03 47 27 armed_cliffs_e
+cliff04 47 27 armed_cliffs_e
+cliff05 51 27 armed_cliffs_e
+east_stairs 43 27 armed_cliffs_e
+beach01 29 13 beach
+beach02 29 13 beach
+beach03 29 13 beach
+beach04 29 13 beach
+beach05 33 11 beach
+beach06 33 11 beach
+beach07 29 15 beach
+beach08 29 15 beach
+beach09 29 15 beach
+beach09a 29 15 beach
+beach10 33 15 beach
+beach11 33 15 beach
+beach11a 33 15 beach
+beach12 33 15 beach
+beach13 37 13 beach
+beach14 41 13 beach
+beach15 41 15 beach
+beach16 41 15 beach
+beach17 41 15 beach
+beach18 41 15 beach
+beach19 45 17 beach
+karg_landing01 49 15 beach
+karg_landing02 49 15 beach
+karg_landing03 49 15 beach
+karg_landing04 49 13 beach
+karg_landing05 53 11 beach
+up_tree 41 15 beach
+adv_guild 9 23 gont
+bank 29 19 gont
+board_room 9 23 gont
+city_road1 17 15 gont
+city_road10 13 19 gont
+city_road11 13 19 gont
+city_road12 9 23 gont
+city_road13 9 23 gont
+city_road14 9 23 gont
+city_road15 9 23 gont
+city_road16 13 19 gont
+city_road17 17 19 gont
+city_road18 21 19 gont
+city_road19 25 21 gont
+city_road1a 17 15 gont
+city_road2 13 17 gont
+city_road20 25 21 gont
+city_road21 25 23 gont
+city_road22 25 25 gont
+city_road23 21 27 gont
+city_road23a 21 27 gont
+city_road24 25 25 gont
+city_road25 29 23 gont
+city_road26 29 23 gont
+city_road27 29 21 gont
+city_road28 29 21 gont
+city_road29 29 19 gont
+city_road3 21 17 gont
+city_road30 29 19 gont
+city_road31 29 19 gont
+city_road32 25 17 gont
+city_road33 25 25 gont
+city_road34 29 19 gont
+city_road4 13 17 gont
+city_road5 13 17 gont
+city_road6 13 17 gont
+city_road7 9 19 gont
+city_road8 9 21 gont
+city_road9 9 21 gont
+cobbled_road1 17 11 gont
+common_board 9 23 gont
+e_cliff4 25 23 gont
+east_pier1 21 23 gont
+east_pier2 21 23 gont
+equip_shop 25 17 gont
+general_shop 21 17 gont
+harbour_capt 25 23 gont
+harrekki_room 29 19 gont
+inside_gate 17 13 gont
+jailhouse 29 21 gont
+landbridge 17 13 gont
+north_pier1 17 21 gont
+north_pier2 17 21 gont
+north_pier3 17 21 gont
+out_landbridge 17 13 gont
+park_1 5 25 gont
+park_2 5 25 gont
+park_3 5 25 gont
+park_4 5 25 gont
+park_5 5 25 gont
+post_office 29 19 gont
+pub_sleep_room 9 19 gont
+roc_nest 25 23 gont
+shire_pier 13 23 gont
+tavern 9 19 gont
+warehouse1 9 21 gont
+warehouse2 13 19 gont
+warehouse3 25 21 gont
+warehouse4 25 25 gont
+west_pier1 13 23 gont
+west_pier2 13 23 gont
+west_pier3 9 23 gont
+yard 13 17 gont
+house 13 17 small_house
+house2 13 17 small_house
+house_upstairs 13 17 small_house
+under_wh2 25 25 ware4
+under_wh1 25 25 ware4
+::MAPDATA::
+
+                       =========
+                       GONT PORT
+                       =========
+
+                                . . . . . . . . . . . . .
+                                .                       .
+                                .      -----            .
+                                .      GONT             .
+. . . . . . . . . . . . . . . . .      BEACH            .
+.              \          .    \       -----            .
+.                o        .      o                   o  .
+.                |        .    / |                 /    .
+.    ----        o        .  o   o   o - o       o      .
+.    GONT        |        .    /   /     |       |      .
+.    ----        o        .  o - o       o       o      .
+.              / | \      . . . . . . . .  \   /        .
+.            o   T   o - o              .    o          .
+.          /               \            . . . . . . . . .
+.        o   o - o - o       o          .  -----------  .
+.        | /     |     \     |          .  GONT CLIFFS  .
+.    o - o       o       o   o          .  -----------  .
+.        |               |   |          .    \          .
+.        o - o       o - o   o          .      o        .
+.      /                 | /            .      |        .
+.    o                   o              .  + - o        .
+.                      /                .  |   :        .
+.                    o                  .  o   o - o    .
+.                                       .  :   :   :    .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+::NEWMAP::
+guard_tower
+::MAPDATA::
+guard_tower1 13 34
+tower_nw1 9 32
+tower_ne1 17 32
+tower_sw1 9 36
+tower_se1 17 36
+tower_2 13 25
+tower_nw2 9 23
+tower_ne2 17 23
+tower_sw2 9 27
+tower_se2 17 27
+tower_3 13 16
+tower_nw3 9 14
+tower_ne3 17 14
+tower_sw3 9 18
+tower_se3 17 18
+tower_hall1 13 14
+tower_hall2 13 12
+tower_hall3 13 10
+tower_wall 13 8
+::MAPDATA::
+
+        ===========
+           GONT
+        GUARD TOWER
+        ===========
+
+-- Third Floor ----
+
+             o
+             |
+             o
+             |
+             o
+             |
+         o   o   o
+           \ | /
+             o
+           /   \
+         o       o
+
+
+-- Second Floor ----
+
+         o       o
+           \   /
+             o
+           /   \
+         o       o
+
+
+-- First Floor ----
+        
+         o       o
+           \ | /
+             o
+           /   \
+         o       o
+::NEWMAP::
+vorn
+::MAPDATA::
+capt_office 9 9
+::MAPDATA::
+
+      ================
+           GONT
+        GUARD TOWER,
+      CAPTAIN'S OFFICE
+      ================
+
+-- Third Floor -------
+
+         o - o
+             |
+             o
+             |
+             o
+             |
+         o   o   o
+           \ | /
+             o
+           /   \
+         o       o
+::NEWMAP::
+armed_cliffs_e
+::MAPDATA::
+e_cliff1 11 15
+e_cliff2 11 13
+e_cliff3 18 9
+e_cliff4 18 7
+gran_tower1 15 15
+roc_nest 18 5
+cliff01 18 11
+cliff02 22 15
+cliff03 22 13
+cliff04 18 16
+cliff05 22 16
+east_stairs 11 17
+::MAPDATA::
+
+           ===========
+           GONT CLIFFS
+           ===========
+
+                  o
+                \ :
+                  o
+                  |
+           +----- o
+           |      :
+           |      o
+           |      : \
+           o      v   o
+           |        / :
+           o - o   /  o
+           :      o - o
+           o          :
+           :          v
+           v
+
+::NEWMAP::
+armed_cliffs_w
+::MAPDATA::
+gran_tower2 12 5
+w_cliff1 16 5
+west_stairs 16 7
+::MAPDATA::
+
+      =================
+      WEST ARMED CLIFFS
+      =================
+
+            o - o
+                :
+                o
+                :
+                v
+::NEWMAP::
+beach
+::MAPDATA::
+beach01 2 1
+beach02 6 3
+beach03 11 5
+beach04 15 3
+beach05 19 3
+beach06 19 5
+beach07 15 7
+beach08 11 9
+beach09 11 11
+beach09a 7 11
+beach10 15 11
+beach11 19 9
+beach11a 23 9
+beach12 27 7
+beach13 31 5
+beach14 35 5
+beach15 39 7
+beach16 39 9
+beach17 39 11
+beach18 39 13
+beach19 43 15
+karg_landing01 47 13
+karg_landing02 47 11
+karg_landing03 47 9
+karg_landing04 47 7
+karg_landing05 51 5
+up_tree 39 7
+::MAPDATA::
+
+  o                            -----
+    \              |           GONT
+      o        o - o           BEACH
+             /     |           -----
+           o       o           o - o               o
+                 /           /       \           /
+               o           o           o       o
+             /           /             |       |
+           o       o - o               o       o
+         /       /                     |       |
+       o - o - o                       o       o
+                                       |       |
+                                       o       o
+                                         \   /
+                                           o
+::NEWMAP::
+gont
+::MAPDATA::
+cobbled_road1 30 6
+out_landbridge 30 8
+landbridge 30 10
+inside_gate 30 12
+city_road1 30 14
+city_road1a 30 16
+city_road2 26 16
+city_road3 34 16
+city_road4 22 16
+city_road5 18 18
+city_road6 14 18
+city_road7 10 21
+city_road8 14 23
+city_road9 18 25
+city_road10 22 23
+city_road11 18 21
+city_road12 10 25
+city_road13 14 27
+city_road14 18 27
+city_road15 18 29
+city_road16 26 21
+city_road17 30 21
+city_road18 34 21
+city_road19 38 23
+city_road20 38 25
+city_road21 38 27
+city_road22 38 34
+city_road23 34 36
+city_road23a 34 38
+city_road24 42 34
+city_road25 46 31
+city_road26 46 28
+city_road27 46 25
+city_road28 42 25
+city_road29 46 22
+city_road30 42 20
+city_road31 42 18
+city_road32 38 16
+city_road33 38 31
+city_road34 46 20
+yard 22 18
+east_pier1 36 27
+east_pier2 34 27
+warehouse1 18 23
+warehouse2 23 19
+warehouse3 40 23
+warehouse4 42 31
+jailhouse 42 23
+harbour_capt 42 27
+e_cliff4 44 30
+roc_nest 44 28
+equip_shop 38 18
+general_shop 34 18
+post_office 42 14
+harrekki_room 38 14
+bank 46 18
+adv_guild 14 25
+west_pier1 22 27
+west_pier2 26 27
+west_pier3 18 31
+shire_pier 22 29
+galaith_pier 26 29
+adv_guild 14 25
+board_room 14 25
+common_board 14 25
+park_1 10 29
+park_2 6 31
+park_3 6 29
+park_4 2 29
+park_5 2 27
+tavern 30 19
+pub_sleep_room 30 19
+north_pier1 30 23
+north_pier2 30 25
+north_pier3 30 27
+::MAPDATA::
+
+                             ====
+                             GONT
+                             ====
+
+                            \
+                              o
+                              |
+                              o
+                              |
+                              o
+                              |
+                              o
+                              |
+                              o       o - P
+                            / | \         |
+                      o - o   o   o - o   |
+                    /         |   |   | \ |
+              o - o - o       T   S   E   o - B     ^, : = Up/Down 
+             /    |    W      t           |         A = Adv. Guild 
+            /     |      \    |           o   o     B = Bank       
+          o       o       o - o - o         \ |     E - Equip. Shop
+            \       \   /     |     \         o     G = Guild      
+          G - o   o   o       o       o-W J   |     J = Jail       
+            /   \ | /         |       |   |   |     P = Post       
+          o   A   o           o       o   o - o     S = Shop       
+            \ |   |           |       | /     |     t = Tavern     
+  o           o - o - o - o   o   o-o-o - o   |     T = Tower      
+  |         /     |                   | \   o o     W = Warehouse  
+  o   o   o      ^o - o - o           |   \ : |
+    \ | /         |                   |     o |
+      o           o                   o - W   o
+                                      |      /
+                                      |    /
+                                      o - o
+                                    /
+                                 ^o
+                                  |
+                                  o
+::NEWMAP::
+small_house
+::MAPDATA::
+house 25 13
+house2 27 9
+house_upstairs 23 6
+::MAPDATA::
+
+                    ===========
+                    SMALL HOUSE
+                    ===========
+
+                     Attic
+                       o
+                       :   Main
+                       :  Bedroom
+                       :   o
+                       :   |
+                       Small
+                       House
+                    --   o
+::NEWMAP::
+ware4
+::MAPDATA::
+under_wh1 20 7
+under_wh2 15 5
+::MAPDATA::
+
+        =================
+        BENEATH WAREHOUSE
+        =================
+
+               o
+                 \
+                   ^o 

@@ -1,0 +1,64 @@
+﻿*****************************************************************************
+     TAX INFORMATION FOR HALF ORCS OF FAERUN (Racial)
+*****************************************************************************
+
+All guilds are 
+
+occ  = 550 taxable slots       (and 100 caid)
+lay  = 350 taxable slots       (and 50 caid)
+race = 150 taxable slots       (and 25 caid) (N/A)
+
+
+*****************************************************************************
+SKILLS
+*****************************************************************************
+AG = Adventurers Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)	 
+			 
+ ¤- Information will be inserted here.
+ 
+ *   = Alien skill, 2x towards skill cap.
+ **  = Primary skill, 0.5x towards skill cap.
+ *** = Guildspecific skill. 0 vs cap.
+    
+    
+
+Style: Race
+------------------------------------------------------------------------------
+Racial skills    maxlvl  taxed(AG)   taxable  mod  tax     skillcap
+------------------------------------------------------------------------------
+
+
+..............................................................................
+SUBTOTAL                                                   150/150 
+    
+
+*****************************************************************************
+TOTAL TAX
+*****************************************************************************
+           |skills       |spells       |combat aid   |    TOTAL
+-----------|-------------|-------------|-------------|---------
+TOTAL TAX: |0.0%  +      |0.000%  +    |0.00%        | =  0.0%
+                                                     |
+                                                     |    0% rounded up.
+                                                          =================
+    
+    
+    
+
+===================================================================
+ABOUT HALF ORCS OF FAERUN
+===================================================================
+Currently, as of date 22.08.2022, The racial Half orc guild of 
+Faerun is purely cosmetic. It gives no benefit beside adding
+medium size (if goblin), some emotes, random subloc tusks and
+a race name of half orc.
+
+Skills and benefits may be added later, but for now, nothing.
+It has been requested by some goblin players and human players
+the option to become an half orc, and I think that is quite fine
+and is one of the main character classes in 5th edition d&d, and
+native to Faerun.
+
+Nerull

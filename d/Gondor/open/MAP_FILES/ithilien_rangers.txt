@@ -1,0 +1,39 @@
+main
+::MAPDATA::
+boardchamber 16 3
+shop 12 5
+start 16 5
+closet 20 5
+vantage1 8 6
+pool 5 7
+window 8 7
+rockchamber 12 7
+rackchamber 16 7
+train 20 7
+foodchamber 20 9
+entrance 20 11
+passage4 12 12
+passage5 16 12
+passage6 20 12
+passage3 12 13
+passage1 8 14
+passage2 12 14
+post 8 15
+::MAPDATA::
+            ```  ``
+ ` `  ``` ` ` ` ___ `
+`` ` `` `  ``  /BB \ ```
+ ` ` `  /\____| o   \ ` `
+  ```  |   Shop |    \  `
+` ``  /     o   o   o \  ``
+ ` ` / [ ]  |   |   |  |____ ` 
+ `` |o [ ]- o - o - o Train \` `
+ ` ` \  |         \         / `
+  `  /  |           o Food  |``
+    /   |
+ ` |    |          [ ]
+   |    |  [ ]- o -[ ] |
+ ` |    |  [ ]  ______/ `
+ `` \  [ ]-[ ] / ` `   `
+   `/  [ ]    / ` ` ``
+`` `\__PO____/ ` ` ` ``

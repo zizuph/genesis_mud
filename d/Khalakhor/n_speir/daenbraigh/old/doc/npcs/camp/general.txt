@@ -1,0 +1,20 @@
+The general of the goblin garrison
+
+Properties:
+goblin garrison soldier
+
+Stats:
+180,140,160,120,120,170
+
+Skills:
+Club, defence, parry 95
+
+Objects:
+general chainmail, shield, helm, club, badge, cloak, bracers, greaves
+dagger, questitem? magic item?
+coins - about 4800 cc
+
+Special:
+Guarded
+QM
+

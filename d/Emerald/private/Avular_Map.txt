@@ -1,0 +1,61 @@
+
+This is a map of the city of Avular, pointing out the
+eight focii that make up the rune structure that allows
+the gateway (located on the roof of 5) to open.
+
+
+                               1
+                              / \
+                             /   \
+                            /     \
+                           2 --3-- 4
+                            \     /
+                             \   /
+                              \ /
+                      6--------5--------7
+                               |
+                               |
+                               |
+                               |
+                               |
+                               8
+
+Below is a standard map of the city of Avular, including
+all of the locations, not just the ones that are part of
+the rune structure.
+
+
+                               E
+                I+-------------+-------------+J
+                 |            / \            |
+                 |   C       /   \       D   |
+                 |          /     \          |
+                 |    +----+ --A-- +----+    |
+                 |    |     \     /     |    |
+                L+----+      \   /      +----+K
+                              \ /
+                F+    +--------+--------+    +H
+                 |    |        |        |    |             /
+                 |    |        |        |    |            /
+                 |    |        |        |    |           +
+                M+----+        |        +----+G          |
+                               |             |           |
+                               +--------------------------B
+                                                         |
+                                                         |
+                                                         +
+                                                          \
+                                                           \
+A = Central Library (facade) , real library underneath
+B = City Gates
+C = Large Fountain and Pool
+D = Large Fountain and Pool
+E = Cone and Sphere Sculpture (Animated)
+F = Avular Lounge (pub)
+G = Hall of the Dark Knights
+H = Avular Outdoor Theatre
+I = Grist Mill
+J = Jeweler
+K = Forge
+L = Potter
+M = Artisan's Store (painting,crafting,quilting,etc)

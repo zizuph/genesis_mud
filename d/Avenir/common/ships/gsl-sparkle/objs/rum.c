@@ -1,0 +1,26 @@
+#pragma strict_types
+// name:  rum   /d/Avenir/common/ships/sparkle/rum.c
+// creator(s):    Boriska, Mar 26 1995
+// purpose:       To be placed in chest in the Sparkle-Avenir ship
+// last update:   
+//
+// * Lucius May 2009: Removed unused bits, cleaned up.
+//
+inherit "/std/drink";
+#include <stdproperties.h>
+
+public void
+create_drink(void)
+{
+    set_name("rum");
+    add_name("bottle");
+    set_short("bottle of rum");
+    set_long("A bottle of strong exotic rum, "+
+	"covered with dust and cobwebs.\n");
+
+    set_soft_amount(200);
+    set_alco_amount(100);
+
+    add_prop(OBJ_I_WEIGHT, 500);
+    add_prop(OBJ_I_VOLUME, 500);
+}

@@ -1,0 +1,60 @@
+domain,quest desc,group,bit,hint,validation,arguments
+Genesis,Orc Figurine,0,0,figurine.txt,false_unless_done
+Sparkle,Orc Figurine,0,0,figurine.txt,old_orc_figurine
+Genesis,Duck Sacrifice,0,1,sacrifice.txt,false_unless_done
+Sparkle,Duck Sacrifice,0,1,sacrifice.txt,old_sacrifice_duck
+Genesis,Dwarfheim King,2,0,dwarfheimking.txt,false_unless_done
+Sparkle,Dwarfheim King,2,0,dwarfheimking.txt,old_dwarfheim_king
+Genesis,Monk Guru,1,5,,false_unless_done
+Sparkle,Monk Guru,3,0,,is_monk,3,0
+Sparkle,Faerie Tour #1,4,19,faerie.txt,sequential_bits,1,0,2,1
+Sparkle,Faerie Tour #2,4,19,faerie.txt,sequential_bits,1,0,2,2
+Sparkle,Faerie Tour #3,4,19,faerie.txt,sequential_bits,1,0,2,3
+Sparkle,Faerie Tour #4,4,19,faerie.txt,sequential_bits,1,0,2,4
+Sparkle,Faerie Tour #5,4,19,faerie.txt,sequential_bits,1,0,2,5
+Sparkle,Faerie Tour #6,4,19,faerie.txt,sequential_bits,1,0,2,6
+Sparkle,Faerie Tour #7,4,19,faerie.txt,sequential_bits,1,0,2,7
+Sparkle,Goblin Armourer,1,5,goblin_armourer.txt,default
+Sparkle,Goblin Love,1,6,goblin_love.txt,default
+Sparkle,Darts Challenge,1,7,darts_challenge.txt,default
+Sparkle,Perfect Score,1,8,perfect_score.txt,default
+Sparkle,Push Cart,1,14,pushcart.txt,default
+Sparkle,Clean Wagon,1,15,,false_unless_done
+Sparkle,Statue Eyes,1,16,,false_unless_done
+Sparkle,Witch Mirror,1,17,,false_unless_done
+Sparkle,Gather Honey,1,18,gatherhoney.txt,default
+Sparkle,Rescue Slave Girl,1,19,,false_unless_done
+Sparkle,Herbalist Salve Quest,1,20,,false_unless_done
+Sparkle,Market Vendor,4,7,,false_unless_done
+Sparkle,Auction,4,8,auction.txt,default
+Sparkle,Librarian Census,4,9,census.txt,default
+Sparkle,Document Restoration,4,10,docrestoration.txt,default
+Sparkle,Deliver Hammer,4,11,,false_unless_done
+Sparkle,Merc Spy,4,12,merc_spy.txt,default
+Sparkle,Tutorial Potion,4,0,tut_potion.txt,in_area,/d/Sparkle/area/tutorial/
+Sparkle,Tutorial Carrot,4,1,tut_carrot.txt,in_area,/d/Sparkle/area/tutorial/
+Sparkle,Tutorial Bunny,4,2,tut_bunny.txt,in_area,/d/Sparkle/area/tutorial/
+Sparkle,Tutorial Garlic,4,3,tut_garlic.txt,in_area,/d/Sparkle/area/tutorial/
+Sparkle,Tutorial Rope,4,4,tut_rope.txt,in_area,/d/Sparkle/area/tutorial/
+Sparkle,Tutorial Journal,4,5,tut_journal.txt,in_area,/d/Sparkle/area/tutorial/
+Sparkle,Tutorial Vampire,4,6,tut_vampire.txt,in_area,/d/Sparkle/area/tutorial/
+Sparkle,Enchanter Weapon,4,14,enchanter.txt,default
+Sparkle,Enchanter Journal,4,15,enchanter.txt,default
+Sparkle,Enchanter Flute,4,16,enchanter.txt,default
+Sparkle,Enchanter Ghost,4,17,enchanter.txt,default
+Sparkle,Chef Herbs,4,19,,false_unless_done
+Sparkle,Sparkle Tour #1,2,5,sparkle_tours.txt,default
+Sparkle,Sparkle Tour #2,2,7,sparkle_tours.txt,default
+Sparkle,Sparkle Tour #3,2,8,sparkle_tours.txt,default
+Sparkle,Sparkle Tour #4,2,6,sparkle_tours.txt,default
+Sparkle,Sparkle Tour #5,2,9,sparkle_tours.txt,default
+Sparkle,Sparkle Tour #6,2,10,sparkle_tours.txt,default
+Sparkle,Sparkle Tour #7,2,11,sparkle_tours.txt,default
+Sparkle,Arm-Wrestler #1,2,16,arm_wrestling.txt,default
+Sparkle,Arm-Wrestler #2,2,17,arm_wrestling.txt,default
+Sparkle,Arm-Wrestler #3,2,18,arm_wrestling.txt,default
+Sparkle,Arm-Wrestler #4,2,19,arm_wrestling.txt,default
+Sparkle,Arm-Wrestler #5,2,15,arm_wrestling.txt,default
+Sparkle,Pub-Betting #1,2,13,arm_wrestling.txt,default
+Sparkle,Pub-Betting #1,2,14,arm_wrestling.txt,default
+Sparkle,Pub Ingredient,1,10,geyser.txt,default

@@ -1,0 +1,213 @@
+
+
+Indoor locations.				Styles 080513
+"""""""""""""""""
+
+This is an experiment and if it goes well, pehaps a proposal.
+Considdering that one city location is 5x5 indoor locations,
+we end up with 25 potential rooms on each floor.
+I would like to draw them on a slightly larger scale than the
+previous - o - o - measurements. This will leave us with more
+space to put text or other things like furniture etc.
+A 5x5 map without connections between the rooms would look
+something like this:
+
+
++-----------------------------------------------------------+ 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+|     o     .     o     .     o     .     o     .     o     | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+|     o     .     o     .     o     .     o     .     o     | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+|     o     .     o     .     o     .     o     .     o     | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+|     o     .     o     .     o     .     o     .     o     | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+|     o     .     o     .     o     .     o     .     o     | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
++-----------------------------------------------------------+ 
+
+
+
+Now, to put connections between every room could be done in
+more than one way. One example could be, 1:
+
++-----------------------------------------------------------+ 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+|     o    ---    o    ---    o    ---    o    ---    o     | 
+|           .           .           .           .           | 
+|     |     .     |     .     |     .     |     .     |     | 
+| . . | . . . . . | . . . . . | . . . . . | . . . . . | . . | 
+|     |     .     |     .     |     .     |     .     |     | 
+|           .           .           .           .           | 
+|     o    ---    o    ---    o    ---    o    ---    o     | 
+|           .           .           .           .           | 
+|     |     .     |     .     |     .     |     .     |     | 
+| . . | . . . . . | . . . . . | . . . . . | . . . . . | . . | 
+|     |     .     |     .     |     .     |     .     |     | 
+|           .           .           .           .           | 
+|     o    ---    o    ---    o    ---    o    ---    o     | 
+|           .           .           .           .           | 
+|     |     .     |     .     |     .     |     .     |     | 
+| . . | . . . . . | . . . . . | . . . . . | . . . . . | . . | 
+|     |     .     |     .     |     .     |     .     |     | 
+|           .           .           .           .           | 
+|     o    ---    o    ---    o    ---    o    ---    o     | 
+|           .           .           .           .           | 
+|     |     .     |     .     |     .     |     .     |     | 
+| . . | . . . . . | . . . . . | . . . . . | . . . . . | . . | 
+|     |     .     |     .     |     .     |     .     |     | 
+|           .           .           .           .           | 
+|     o    ---    o    ---    o    ---    o    ---    o     | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
++-----------------------------------------------------------+ 
+
+
+
+Another way to do it is, 2:
+
++-----------------------------------------------------------+ 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+|     o   --.--   o   --.--   o   --.--   o   --.--   o     | 
+|           .           .           .           .           | 
+|     |     .     |     .     |     .     |     .     |     | 
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | 
+|     |     .     |     .     |     .     |     .     |     | 
+|           .           .           .           .           | 
+|     o   --.--   o   --.--   o   --.--   o   --.--   o     | 
+|           .           .           .           .           | 
+|     |     .     |     .     |     .     |     .     |     | 
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | 
+|     |     .     |     .     |     .     |     .     |     | 
+|           .           .           .           .           | 
+|     o   --.--   o   --.--   o   --.--   o   --.--   o     | 
+|           .           .           .           .           | 
+|     |     .     |     .     |     .     |     .     |     | 
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | 
+|     |     .     |     .     |     .     |     .     |     | 
+|           .           .           .           .           | 
+|     o   --.--   o   --.--   o   --.--   o   --.--   o     | 
+|           .           .           .           .           | 
+|     |     .     |     .     |     .     |     .     |     | 
+| . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | 
+|     |     .     |     .     |     .     |     .     |     | 
+|           .           .           .           .           | 
+|     o   --.--   o   --.--   o   --.--   o   --.--   o     | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
++-----------------------------------------------------------+ 
+
+
+
+Or, 3:
+
++-----------------------------------------------------------+ 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+|     o    ---    o    ---    o    ---    o    ---    o     | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+| . . | . . . . . | . . . . . | . . . . . | . . . . . | . . | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+|     o    ---    o    ---    o    ---    o    ---    o     | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+| . . | . . . . . | . . . . . | . . . . . | . . . . . | . . | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+|     o    ---    o    ---    o    ---    o    ---    o     | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+| . . | . . . . . | . . . . . | . . . . . | . . . . . | . . | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+|     o    ---    o    ---    o    ---    o    ---    o     | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+| . . | . . . . . | . . . . . | . . . . . | . . . . . | . . | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
+|     o    ---    o    ---    o    ---    o    ---    o     | 
+|           .           .           .           .           | 
+|           .           .           .           .           | 
++-----------------------------------------------------------+ 
+
+
+
+Perhaps it is a matter of taste. I'll stick with the 3rd way
+for now. While drawing the layout for "Gayryn's Prodigal Pub"
+I found that I don't use all 25 locatons and that some rooms
+are larger, have different shape than others. This is not all
+that easy to show in a text description but with the map it
+becomes somewhat clearer. From one room you might see into
+the other but between other rooms there is a ### wall to
+hinder sight and movement.
+
+
+The ground floor in the pub would look like this:
+
+
+                 -= Gayryn's Prodigal Pub =-
+############################################################# 
+#                       #   H       #                       # 
+#                       #   H       #                       # 
+#        Storage        #   H       # v #    Lounge         #  v = Stairs
+#                       #   H       # v #                   #  v   down
+#                       #   H       #####                   # 
+#           o           #   H       #           o           # 
+#                       #   H       #                       #  A = Stairs
+# V #                   #   H       #                       #  A   up
+# V #                   #   H Bar   #                       # 
+#####                   #   H       #                       # 
+#                       #   H       #                       # 
+################# | #####   H  o    # . . . . . | . . . . . #  H = Bar
+#                       #   H       .                       #      counter
+#                       # o H       .                       # 
+#        Kitchen        #   H       .        Sitting        # 
+#                       #   H       .         Area          # 
+#                       #   H       .                       # 
+#           o          ---  H      ---          o           # 
+#                       #  H        .                       # 
+#####                   #HH         .                       # 
+# A #                   #           .                       # 
+# A #                   #           .                       # 
+#                       #           .                       # 
+################# | ##### . . | . . ##### . . . | . . . ##### 
+#                       #           #                       # 
+#       Dart room       # Dice room #       Hall way        # 
+#           o          ---    o    ---          o          --- West Pier
+#                       #           #                       # 
+#                       #           #                       # 
+################# | ######################################### 
+
+             Lars Square                   
+
+
+
+
+How does this look?  Views and ideas are welcome. :)
+
+  --Styles.
+

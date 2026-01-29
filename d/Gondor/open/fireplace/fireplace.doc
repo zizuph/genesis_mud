@@ -1,0 +1,264 @@
+
+Documentation for /d/Gondor/open/fireplace/fireplace.c
+
+Copyright (C) 1997 by Nancy L. Mintz (Gnadnar)
+
+/d/Gondor/open/fireplace/fireplace.c provides a general-purpose fire_container
+for a room (e.g., fireplace, forge, kiln, fire pit, oven ...).  It handles
+the state of the fire and all player verbs; the inheriting rooms must
+handle descriptions.  Typically, descriptions are handled via VBFC, since
+the descriptions vary with the state of the fire.
+
+See /d/Gondor/open/fireplace/fireplace_example.c for an example room.
+
+It's really pretty simple and you probably can get your fireplace set up
+by just following the example.  However, if you want to know the gory 
+details, read on ...
+
+
+
+The name of the fire_container may vary, but for simplicity I'm going to
+call it a "fireplace" in the following discussion.
+
+In a room with a fireplace, players may:
+  light fire/wood/firewood [in fireplace]
+  extinguish/kick fire/wood/firewood [in fireplace]
+  get fire/wood/firewood/ash/ashes [from fireplace]   (if fire is not lit)
+  put wood/firewood in fireplace
+  put wood/firewood in/on fire			      (if fire is lit)
+  search wood/firewood/ash/ashes/fire/fireplace	      (if fire is not lit)
+
+The fireplace uses /d/Gondor/open/fireplace/firewood.c for wood.  It does not
+use the ranger firewood because the campfires are a ranger privilege and
+should not be generally available.  open/fireplace/firewood.c will burn only
+in fireplaces, not in piles on the ground.  However, ranger firewood
+will also work in fireplaces.
+
+The fire generates atmospheric msgs (flickers, makes noises, etc)
+as it burns.  The msgs may be customized.
+
+Fire states:  When created, the state is FIRE_UNLIT_WOOD and there are
+WOOD_AMT pieces of wood in the fireplace.  If the fire is lit, the state
+becomes FIRE_BURNING and wood is slowly consumed.  When all the wood is
+burned, the state becomes FIRE_ASHES.  If the fire is extinguished before
+all the wood is consumed, the state becomes FIRE_UNLIT_WOOD.
+
+The only state change made by the fireplace.c code on its own is the
+change from FIRE_BURNING to FIRE_ASHES when all the wood is consumed.
+Any other changes must be triggered by player action or set_fire_state()
+or set_wood(0).
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+To use the fireplace, you need to do the steps described here.
+Don't be worried by the length; most of this is optional.
+(Complete descriptions of the fireplace.c routines are at the end of this doc.)
+
+
+1) Inherit and include the standard files, and provide a prototype 
+   for the VBFC:
+
+	inherit "/std/room";	/* or whatever base room you use */
+	inherit "/d/Gondor/open/fireplace/fireplace";
+
+        #include "your-domains-defs.h"
+        /* it's important to include fireplace.h LAST */
+	#include "/d/Gondor/open/fireplace/fireplace.h"
+	
+	public string	fire_desc(string arg);	/* VBFC for fire */
+
+
+2) In create_room() (or whatever your base room's creator function is):
+
+	Set the room long description, and the descriptions of any items that
+	change when the fire changes, to use the VBFC routine:
+	    set_long(fire_desc);
+	    add_item("fireplace", &fire_desc("fireplace"));
+	    add_item( ({ "fire", "flame", "flames" }), &fire_desc("fire"));
+	    ...
+	Notice that for add_item(), you pass an argument to fire_desc()
+	telling it what was examined.  You will almost always need these
+	items:
+	    fireplace, fire, flame, flames, wood, firewood, ash, ashes,
+	    wood in fireplace, firewood in fireplace, ash in fireplace,
+	    ashes in fireplace
+	The "... in fireplace" items are necessary so that players may
+	examine things in the fireplace even they have firewood or ashes
+	in their inventory.
+
+	If the fire_container is not a fireplace, call set_fire_container()
+	with its name.
+
+	Call set_parse_pattern() to set the pattern argument with which
+	parse_command() may identify the fire container.  This should at
+	the very least allow for an optional 'the' before the name of the
+	fire container; if in your descriptions you apply adjectives to the
+	the container, the pattern should allow those as well.  For example,
+	if your descriptions talk about a "wide stone fireplace", then the
+	pattern would be:
+		"[the] [wide] [stone] 'fireplace'"
+	Then players could "put wood in the fireplace", "put wood in stone
+	fireplace", "put wood in the wide fireplace", etc.
+
+
+	If extinguishing the fire is allowed to make the room go dark,
+	call set_dark_room_ok(1).  By default, extinguishing the fire will
+	never make the room dark.
+
+	Set the light level of the room to whatever it should be when a
+	fire is not burning.
+
+	Do not add (or remove) the OBJ_I_HAS_FIRE property; the fireplace
+	code will take care of it when needed.
+
+	If you want players to be able to get ashes, call set_ashes_path()
+	with the name of an ashes object.  By default, the ashes just
+	"slip through your fingers" when you try to get them.
+
+	If you want to customize the fireplace noise/light effects, call
+	set_effects(string *msgs) where msgs is an array of strings to
+	tell the room.  By default, the noise/light effects are generic
+	msgs about burning wood, flames, shadows, etc. (e.g., they don't
+	mention the fire container, nor anything in the room).  You can
+	vary the time (in seconds) between the special effects msgs by
+	calling set_effects_time(int t).  the default is EFFECTS_TIME
+	(defined in fireplace.h).
+	
+	If you want no noise/light effects, call set_effects_time(0);
+
+	Call reset_room to set/replenish fire state ...
+
+3) In reset_room():
+
+	If you want to replenish the wood in the fireplace, call
+	set_wood(n) to provide n pieces of wood.  If n is negative,
+	the default WOOD_AMT (defined in fireplace.h) will be used.
+
+	If you want the fire to be in a specific state, verify its
+	state by calling query_fire_state() and, if necessary, change
+	it via set_fire_state(state).  Valid states are FIRE_BURNING,
+	FIRE_UNLIT_WOOD and FIRE_ASHES (defined in fireplace.h)
+
+	N.B. If you change the state of the fire via set_fire_state(...),
+	or if you extinguish it via set_wood(0), you are responsible for
+	providing any messages to the room about the change.  Notice, too,
+	that if you're going to say something like "the guard tosses some
+	wood in the fireplace and sets it ablaze", it'd be a good idea to
+	be sure there is a guard present. :-)
+
+	Of course, you don't have to replenish wood or change the fire
+	state; you could leave it up to the players to bring in wood
+	and light it if they want a fire.
+
+4) In init():
+
+	You must call init_fire() to add the player actions.
+
+5) In your VBFC routine (named "fire_desc" in the code above):
+	
+	Basically, you have to provide a description for the room and any
+	items that depend on the fire, for each of the fire states
+	(FIRE_BURNING, FIRE_UNLIT_WOOD and FIRE_ASHES).
+
+	The argument to fire_desc() tells you what the player examined
+	(null string implies it's the room description), and
+	query_fire_state() tells you what state they should see.
+	All you have to do is return the description. :-)
+
+	See /d/Gondor/open/fireplace/fireplace_example.c for a complete
+	fire_desc() routine.
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Routines provided by fireplace.c:
+
+
+void init_fire();
+	call from init() to add player verbs
+
+void set_fire_container(string name);
+	where name is the name of whatever holds the fire
+	("fireplace", "fire pit", "kiln", "oven", "forge", ...)
+	if not configured, container is "fireplace".
+
+string query_fire_container();
+	returns the name of the fire container.
+
+void set_parse_pattern(string pattern);
+	set the pattern to be used by parse_command() to identify the
+	fire container.  should allow for an optional leading 'the'
+	and optional adjectives.  e.g., if your descriptions talk about
+	a "wide stone fireplace", then set the parse pattern to
+	"[the] [wide] [stone] 'fireplace'".  N.B. the pattern must
+	be a simple string -- it may not contain % formats.
+	the default pattern is "[the] '"+query_fire_container()+"'"
+
+string query_parse_pattern();
+	returns the parse pattern.
+
+void set_fire_state(int arg);
+	where arg is one of FIRE_ASHES, FIRE_UNLIT_WOOD or
+	FIRE_BURNING (defined in /d/Gondor/open/fireplace/fireplace.h).
+	the calling routine must issue any necessary msgs to the room
+	re the change in state.
+
+int query_fire_state();
+	returns the fire state.
+
+void set_dark_room_ok(int ok)
+	if ok is zero, then extinguishing the fire will never
+	reduce the room's light level to 0. if ok is non-zero,
+	then extinguishing the fire may make the room dark.
+	default is 0.
+
+int query_dark_room_ok()
+	returns dark_room_ok.
+
+void set_wood(int n);
+	set how many pieces of wood are in the fire container;
+	each piece of wood will burn for BURNTIME (defined in 
+	fireplace.h) seconds.
+	if n == 0 and the fire is burning, it's extinguished.
+	if n < 0, WOOD_AMT (defined in fireplace.h) is used.
+
+int query_wood();
+	query how much wood is in the fire container.
+
+int query_ashes();
+	query how many ashes are in the fire container.
+	ashes available are determined by how much wood is burned,
+	and cannot be set directly.
+
+int set_ashes_path(string path);
+	where path is the name of an object to clone and give to player
+	when s/he tries to "get ashes from fire_container".  returns 0 if
+	path can be loaded, !0 if there's an error.
+	by default, the path is null, and "the ashes slip through your
+	fingers" when you try to get them.
+
+string guery_ashes_path();
+	returns the ashes path.
+
+void	set_effects(string *msgs);
+	set the messages for noise/light effects to be displayed to the
+	room.  if msgs is null, there will be no noise/light effects.
+	by default, the noise/light effects are generic msgs about burning
+	wood, flames, shadows, etc. (e.g., they don't mention the fire
+	container, nor anything in the room).
+
+string	*query_effects();
+	returns the noise/light msgs.
+
+void	set_effects_time(int t);
+	set the time (in seconds) between noise/light effects. if t is <=
+	0, there will be no noise/light effects. default is EFFECTS_TIME,
+	defined in fireplace.h
+
+int	query_effects_time();
+	return the time (in seconds) between noise/light msgs.
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+

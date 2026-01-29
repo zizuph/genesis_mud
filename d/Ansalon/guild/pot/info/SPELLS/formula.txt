@@ -1,0 +1,37 @@
+---------------------------------------------------------------
+| Spell name:     <name of the spell i.e. dollost>
+| Spell level:    <levels of the spell 1-5, 1 being trivial>
+| Spell path(s):  <path to spell object(s)>
+| Spell Description: <A description of the spell>
+|
+| Mana requirements:
+| Skill requirements:
+| Casting difficulty:
+|
+| Other requirements:
+|
+| Components:
+| --------------------------------------------------------------
+| | Component name:  <name of the component>
+| | Component level: <Availability (1 to 5) - 1 being trivial>
+| | Component price: <Price of the component>
+| | Component path:  <Path for the component, if any>
+| --------------------------------------------------------------
+| --------------------------------------------------------------
+| | Component name:  <name of the component>
+| | Component level: <Availability (1 to 5) - 1 being trivial>
+| | Component price: <Price of the component>
+| | Component path:  <Path for the component, if any>
+| --------------------------------------------------------------
+| --------------------------------------------------------------
+| | Balance:    <Comments from the balance team>
+| |
+| --------------------------------------------------------------
+|
+|  Tax:         <Tax before discounts>
+|  Discount:    <discount%>  - <For what>
+|               <discount%>  - <For what>
+|               <discount%>  - <For what>
+|  FINAL TAX:   <The tax after discount>
+|
+----------------------------------------------------------------

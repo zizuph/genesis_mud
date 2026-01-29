@@ -1,0 +1,84 @@
+main
+::MAPDATA::
+aeria_g 3 2
+psuchae_g 17 2
+diabrecho_g 31 2
+garden_01a 5 4
+garden_01b 7 4
+garden_01c 9 4
+garden_01d 11 4
+garden_01e 13 4
+garden_01f 15 4
+garden_01g 17 4
+garden_01h 19 4
+garden_01i 21 4
+garden_01j 23 4
+garden_01k 25 4
+garden_01l 27 4
+garden_01m 29 4
+garden_02a 5 6
+garden_02m 29 6
+garden_03a 5 8
+garden_03m 29 8
+garden_04a 5 10
+garden_04m 29 10
+garden_05a 5 12
+garden_05m 29 12
+carving_chamber 3 14
+garden_06a 5 14
+garden_06m 29 14
+pavillion 31 14
+garden_07a 5 16
+garden_07m 29 16
+garden_08a 5 18
+garden_08m 29 18
+garden_09a 5 20
+garden_09m 29 20
+garden_10a 5 22
+garden_10m 29 22
+garden_11a 5 24
+garden_11b 7 24
+garden_11c 9 24
+garden_11d 11 24
+garden_11e 13 24
+garden_11f 15 24
+garden_11g 17 24
+garden_11h 19 24
+garden_11i 21 24
+garden_11j 23 24
+garden_11k 25 24
+garden_11l 27 24
+garden_11m 29 24
+gu_g 3 26
+path3 17 26
+pyros_g 31 26
+::MAPDATA::
+***********************************
+*                                 *     A - Lady Aeria
+*  A             B             C  *     B - Psuchae
+*   \            |            /   *     C - Lord Diabrecho
+*    o-o-o-o-o-o-o-o-o-o-o-o-o    *     D - Carving Room/Forge
+*    |                       |    *     E - Pavillion
+*    o   o       o     J-o   o    *     F - Meditation Chamber
+*    |  /        |     |  \  |    *     G - Lady Gu
+*    o I   o-o-o-o-o-o-o   K o    *     H - Lord Pyros
+*    |  \ /      |      \ /  |    *     I - Lapidary
+*    o   o               o   o    *     J - Refectory
+*    |   |               |   |    *     K - Herbalist
+*    o   o               o   o    *     L - Post Office
+*    |   |               |   |    *     M - Chapel
+*  D-o o-o-             -o-o o-E  *     N - Library
+*    |   |               |   |    *     P - Bank
+*    o   o             F-o   o    *
+*    |   |               |   |    *
+*    o   o           o   o   o    *
+*    |  / \  |   |   |  / \  |    *
+*    o L   o-o-o-o-o-o-o   P o    *
+*    |    /  |   |   |  \    |    *
+*    o   o   M   o   N   o   o    *
+*    |           |           |    *
+*    o-o-o-o-o-o-o-o-o-o-o-o-o    *
+*   /            |            \   *
+*  G             o             H  *
+*                                 *
+***********************************

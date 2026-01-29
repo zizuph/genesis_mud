@@ -1,0 +1,8 @@
+#include "/d/Calia/argos/argos.h"
+#define OBJ_DIR    ARGOS_DIR+"swterr/objects/" 
+#define NPC_DIR    ARGOS_DIR+"swterr/monsters/"
+#define WEAPON_DIR    ARGOS_DIR+"swterr/weapons/"
+#define ARMOUR_DIR    ARGOS_DIR+"swterr/armours/"
+#define ROOM_DIR   ARGOS_DIR+"swterr/rooms/"
+#define NWTERR_ROOM_DIR   ARGOS_DIR+"nwterr/rooms/"
+#include "/d/Calia/abbrev.h"

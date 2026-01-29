@@ -1,0 +1,279 @@
+Date:       July 16, 2017
+Subject:    Initial Review of Spells
+
+Overall Comments
+----------------
+- Would like to see more scaling of spell effects based on the caster's
+  skills and stats. Most of the effects are basically 100% effective
+  once the spell has been cast.
+
+*** Response: I'll probably need to know which ones specifically you
+*** are referring to that don't scale. In most cases I used the
+*** query_spell_effect_power to scale spells such as the light spells,
+*** faery fire, enchant weapon, truesight and mage strength - which
+*** are influenced by skills and stats?  The only ones I can think of
+*** that don't are the cosmetic/cantrip style spells that are so weak
+*** there is little to scale ;)
+
+- Headers for most spells need to be adjusted. They are mostly copies
+  of the original files, with sometimes incorrect comments about who
+  authored the spell.
+
+*** FIXED.
+
+- Overall combat aid calculations need to be worked on. Will need to
+  have a deeper conversation as some of them (like the stoneskin aid)
+  can actually have an effect on the structure and build of the guild.
+
+*** Would really appreciate what you think the combat aid should be.
+*** The documentation for working out caid for spells is pretty lacking
+*** in particular with maintained spells.  So i'd happily take your
+*** estimation on how to work out the caid and modify them accordingly.
+
+- Rotating at-will spells actually means that their aid will overlap.
+  That means that the calculations will need to be adjusted. It's
+  also why it's the most effective setup because it basically is
+  granting additional aid.
+
+*** That makes sense. Can you give me an idea of the formula i should use?
+
+- query_spell_can_be_learned should probably check if they are a guild
+  member or not.
+
+*** Initially they did, but I removed that for a couple of reasons.
+*** I can see a few of these spells potentially being used across guilds
+*** (specifically with the Wizard of High Sorcery). Also, we were thinking
+*** of allowing some of the scrolls you find the spells on to potentially
+*** be "one of casts" as long as you have the spell skill. So for example,
+*** a player finds a scroll with the light spell on it. If they have the
+*** magic skills required, they could cast that spell and the scroll would
+*** be destroyed. 
+***
+*** Its a bit of a segue away from the guild, but one thing that was 
+*** discussed while i was making the guild was that new players didn't see
+*** the point in training magic skills in adventurer guilds. They offered no 
+*** benefit. Being able to cast a spell from a disposable scroll would be
+*** one reason to justify such training. And really, collecting scrolls like
+*** a "light" spell would be little different from players carrying torches
+*** around. Anyway, it was a concept that we were thinking about that still
+*** needed Balance input... but it is the main reason this check isn't in 
+*** place. :)
+
+- In general, it wasn't immediately obvious how the overall limits of
+  combat aid were handled. There were a few cases where spells were
+  restricted (can't cast offensive if defensive was active).
+
+*** The summary doc does highlight this, but it probably isn't clear until
+*** the code is reviewed.
+
+- Most spells used the layman terms instead of the spell word. Eg.
+  you can't cast magic missile instead of arcanisvaes. Is that the
+  intention?
+
+*** Yes... ideally i would have preferred to have the ability to "cast
+*** magic missile"... problem is you can't have spells that have two
+*** seperated strings, so I had to make up single string spell names and
+*** have it translated in the spell book. Still, my preference is the use
+*** of the layman term. Having said that I am not precious about that.
+
+Individual Spell Comments
+-------------------------
+Spell(s): magic missile, fire dart, acid arrow, prismatic spray
+Comments: the actual elements that are used by the spell can affect how
+          others can defend against them. do the descriptions both for
+          the caster as well as the target help them to figure this
+          out? Certain elements like air for magic missile have very
+          few resistance objects out there.
+
+*** In my mind most can be worked out by the spell descriptions. And the
+*** caster of the spell will be able to be certain of the element required
+*** to cast the spell from the spell help file, which provides that info.
+
+Spell(s): blink
+Comments: Even though technically not a combat aid ability, we will
+          need to discuss whether this spell needs to be taxed
+          differently, as Calians and Knights do pay for this ability
+          separately.
+
+*** Well, all the spells are taxed. This one doesn't have the "combat aid"
+*** tax. Having said that happy to have what is proposed increased as is
+*** appropriate.
+
+Spell(s): curse
+Comments: "Petros" didn't create the illfortunate spell, as the comments
+          seem to indicate. The base spell has its own set of problems,
+          which need to be addressed first. It's also not been well
+          tested.
+
+*** Indeed! Changed to Navarre. Let me know what you want to do with the
+*** base spell.
+
+          Currently, it uses a percentage miss setting, which doesn't
+          translate automatically to combat aid. At the current level
+          of 10% miss, it's actually only doing 11% combat aid. At 15%
+          miss (which I think is your intention), that translates to
+          17% combat aid.
+
+*** UPDATED TO NEW ILLFORTUNATE CODE. SHADOW NOT WORKING AS INTENDED.
+
+Spell(s): dazzle
+Comments: Pretty powerful PvP utility spell, even though it technically
+          doesn't have any combat aid. Will need to be taxed.
+
+*** All the spells are taxed :). Just not with the caid tax. As with 
+*** blink happy to modify as appropriate.
+
+Spell(s): scare
+Comments: Powerful PvP utility spell, even though it technically doesn't
+          have any combat aid. Will need to be taxed.
+          Not sure how I feel about adding panic and fatigue together in
+          the same spell. Would prefer to make it a generic drain spell
+          that does this in a configurable base spell. Need to discuss
+          further.
+
+*** In beta testing, this spell wasn't found to be particularly useful in
+*** pvp. The beta testers came to the conclusion they'd rather not use of
+*** of their few spell slots to have this spell, even if they were focusing
+*** on pvp. Anyway, I am happy to change this spell based on your thoughts.
+
+Spell(s): protect_fear
+Comments: Is using resistance as the base spell the most appropriate? It
+          doesn't appear to be doing anything other than adding a prop.
+          It looks like you need a separate base spell for this? If so,
+          let's do that instead.
+
+*** Initially this spell had a small resistance to some elements. But by 
+*** including that it caused me a headache when working out how much combat
+*** aid a mage could potentially have. It basically inflated maintained 
+*** combat aid for little to no benefit, so I removed the resistance
+*** component. The prop addition was the primary benefit to be provided
+*** anyway. If you think there is a better seperate base spell for me to
+*** use happy to transfer it to that.
+
+Spell(s): stoneskin
+Comments: 120% combat aid maintained by a spell actually exceeds the amounts
+          granted to an OCC guild. A magic guild is capable of bursting
+          beyond the normal limits, but it can't have a maintained state
+          in the "burst" range. We will need to discuss further on how this
+          restriction affects the overall guild design.
+
+*** Okay. That wasn't outlined anywhere. There really is very little documentation
+*** around maintained spells and how combat aid can be applied.
+*** Mindful that magic guilds don't get the benefit of defensive skills as
+*** combat guilds do, they will be reliant on defensive spells to be viable.
+*** This was the spell the beta testers thought made the guild playable.
+***
+*** Anyway, interested in what caid you think should be the maximum?
+
+          I like the checks for overlapping effects, but instead of checking
+          props, I prefer that we look for the objects instead. There are
+          certain spells where you do this, but this is not one of them.
+
+*** SPELL NOW CHECKS FOR OBJECT RATHER THAN PROP.
+*** Funnily I actually did try and code this so that it looked for the object,
+*** but I couldn't get it to work :). Searching for the prop worked, so I 
+*** stuck with that.   
+
+Spell(s): magic_shield
+Comments: Message says "stoneskin" for "You can only cast stoneskin on
+          yourself". _sohm_blur_effect check says "Your magic shield spell
+          interferes with your ability to cast the magic shield spell" Seems
+          to be wrong and redundant?
+
+*** Yep! Typo. Fixed.
+
+          Same comment as stoneskin on checking for the effect object rather
+          than the prop.
+
+*** SPELL NOW CHECKS FOR OBJECT RATHER THAN PROP.
+
+Spell(s): dominate
+Comments: no comments
+
+Spell(s): reflect_damage
+Comments: Tax documents state 60%, but the combat aid is set to 100%.
+          Comments in the spell also say 80% and 60% separately. I see the
+          likelihood has been set to 60% and that's probably the point of
+          confusion. The spell automatically takes the likelihood into
+          account in increasing the spell damage. Just set the combat aid
+          to what you want.
+
+*** SPELL NOW CHECKS FOR OBJECT RATHER THAN PROP.
+*** It is a pretty confusing spell base :). I believe the base code says
+*** that 100% combat aid results in 80% of damage being reflected. I
+*** assumed that a 60% probability would reduce the benefit? Anyway, i'll
+*** update the tax document so that it is taxed for 100% combat aid.
+
+Spell(s): gloom
+Comments: Would like to make this a base spell instead, and will need addl
+          testing on it. The darkness cloud is fun, but the darkness will
+          grant a good amount of caid. Will need to tax accordingly.
+
+*** Cool. Let me know when you have such a base spell :). And again, let
+*** me know what you think the caid should be.
+
+Spell(s): truesight
+Comments: Combining see in darkness, with see invis, with awareness skill
+          gain. It's actually three spells in one. Will need to discuss
+          how we can a) make it a base spell that can be configured and b)
+          how we will tax this or allow this. Cotillion is especially not
+          a fan of spells that combine multiple effects.
+
+*** As a "greater" divination form spell, it has to offer enough of a
+*** benefit for a player to consider specialising in divination over the
+*** other spell forms... they are essentially sacrificing the choice of 
+*** being able to cast gloom, reflect damage, dominate or stoneskin for
+*** this spell.  As it stands, it is still probably the weakest of the
+*** five greater spells... but with those three benefits it offers
+*** decent utility and aligns well with the theme of being a "Diviner".
+***
+*** My preference is to keep it as a three in one. It is meant to be a
+*** powerful spell.  I'll leave it to you to figure out how we do it :)
+
+Spell(s): protect_acid, protect_cold, protect_fire, protect_lightning,
+          protect_poison
+Comments: No Comments
+
+Spell(s): blur
+Comments: blur_obj.c overrides things like setup_spell_effect when it
+          doesn't need to. Any reason you don't just have hook functions
+          here?
+
+*** I have no idea why I coded that object that way. I've changed it to
+*** simply inherit the base evade_obj.c, and stripped out all those 
+*** overrides that don't need to be there.
+
+Spell(s): flame lance, psychic blast, lightning bolt, ice strike
+Comments: Understand that increasing the casting time by 3x gives 3x the
+          damage when it actually strikes. It does come at a cost of
+          potentially failing during that time, during whith all aid is
+          then lost. Also, normal attacks and other specials (laymans)
+          cannot be used during a casting time. This is one we'll have
+          to test to understand the impact of more.
+
+*** Personally I don't like how these harm spells work. And yeah, I did
+*** figure out that the increased spell cast time resulted in more damage.
+*** I essentially had to increase cast time considerably, as the 1x damage
+*** was paltry for the mana drain. Even with the extended cast time 3x
+*** damage, the beta testers didn't like these spells compared to the 
+*** rotation of the minor at_will spells.  So would love your thoughts on
+*** what i may be able to do to make these spells a bit more attractive :)
+***
+*** The impact of not being able to use layman specials while casting is
+*** massive. Basically it will really restrict players choice of lay 
+*** guilds, which I think is a real shame. I'd like variability in 
+*** player play style options :).
+
+Spell(s): invisibility
+Comments: required parameter is that it's cast while peaceful, but it
+          may be good to include it in the spell anyway to make it more
+          clear.
+          Should not use your own invisibility_sh. Use the one in the
+          base spell or help me understand why you needed to create your
+          own.
+
+*** No good reason for it having its own shadow :).  
+*** I've changed the invisibility_sh so it inherits the base one.
+*** Added set_spell_peaceful(1) to the spell.
+
+

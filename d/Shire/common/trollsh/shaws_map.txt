@@ -1,0 +1,41 @@
+Trollshaw Map
+==========================
+
+This is the map of the surface in the Trollshaws                                                         
+                                                                                
+    23-22-21-20                                                    
+    |\/ \/ \/|                                                      
+    |/\ /\ /\|                                            
+    24-25-16-19                                              
+       |  |  |                                            
+     9-13-15-18                                                   
+     |/|  |  |                                               
+     8 12-14-17                                                  
+     /|/|                                                    
+  3-6 7 11                                                     
+  | |/                                                      
+  2-5                                                       
+  | |                                                       
+  1-4                                                       
+                                
+The following rooms creats trolls : 16,5
+There are two rooms with secret exits :
+                                                                                
+--------------------------------------------------------
+										
+       stu = stunnel                                                    
+
+                                                            
+     n_groom1                                                     
+         |                                                   
+     hallroom.c-tunnel5.c--tunnel4.c                     more?          
+         |         |      /       |                          |       
+     sgroom1.c  tunnel6.c      tunnel7.c                   stu6                   
+                                   \                         |      
+                                  tunnel3.c                stu5                  
+                                    |                        |      
+                                  tunnel2.c-stu1-stu2-stu0-stu3                                  
+                                                             |
+                                                           stu4
+                                                            
+       

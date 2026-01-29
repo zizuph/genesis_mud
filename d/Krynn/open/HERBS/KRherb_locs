@@ -1,0 +1,47 @@
+This document explains in what sort of ecosystems and communities one can
+find the various herbs that have been coded in Krynn for the use of all 
+of Genesis. If I find that an herb has been coded in an area that I believe
+does not belong in that area, I will complain. Bitterly. ;-) Seriously, 
+though, please use the best judgment you can.
+
+KRYNN ONLY:        - elidross (forests), solinaith (forests)
+
+TERRESTRIAL Communities:
+
+Mixed Forest     : - those marked below with an asterisk
+
+Coniferous Forest: - amanita, *bunchberry, *chantrelle, *cladina, cranberry,
+(evergreens/         *fdlhead, *hazelnut, *horsetail, labr_tea, 
+ needles)            *lady_slipper, *onoclea, *poison_ivy, *saskatoon, 
+                     sphagnum, *tiger_lily
+
+Deciduous Forest : - amanita, *asparagus, *bkd_sedge, *blk_currant, *chicory,
+(with 'normal'       *chokecherry, *dandelion, *fdlhead, *fireweed, 
+ leaves)             *grey_willow, *hawthorn, *hazelnut, *hop, jewelweed 
+                     *lady_slipper, *onoclea, *poison_ivy, *raspberry, 
+                     *sarsaparilla, *saskatoon, veronica, *wild_plum
+
+Marsh/Swamp      : - asparagus, bkd_sedge, bur_reed, cattail, cranberry, 
+                     grey_willow, mandrake, poison_ivy, raspberry, sphagnum, 
+                     veronica, wild_cuke
+
+Riverbank        : - asparagus, bkd_sedge, bur_reed, cattail, chokecherry,
+                     grey_willow, hop, horsetail, jewelweed, poison_ivy,
+                     raspberry, saskatoon, wild_cuke
+
+Plains/Prairies  : - breadroot, chicory, cladina, crocus, dandelion, 
+                     fireweed, grey_willow, hawthorn, horsetail, 
+                     locoweed, poison_ivy, raspberry, saskatoon, sm_camas, 
+                     soapweed, tiger_lily
+
+Beaches          : - bch_plum, bch_willow, cattail, cord_grass, dandelion, 
+                     horsetail, poison_ivy, salt_wort, ss_grass
+
+AQUATIC Communities:
+
+Intertide/       : - coral_alga, cord_grass, eel_grass, fucus, salt_wort,
+Nearshore            sea_bubble, sea_lettuce, surf_grass
+
+Farshore Bottom  : - bull_kelp, elkhorn_kelp, laminaria, sea_bubble
+
+Ocean (floating) : - sargassum

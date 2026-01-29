@@ -1,0 +1,282 @@
+
+Arman's AoB ponderings on mana and how it works in spellcasting, 
+9 November 2021.
+
+************************************************************************
+MANA REGEN (as outlined in /sys/formulas.h) is influenced by the 
+player's wisdom stat, their % intoxication, and their spellcraft
+skill:
+
+F_MANA_HEAL_FORMULA(sc, pintox, wis) = 
+(3 + ((wis) * (100 - (pintox) / 2) * ((sc) > 30 ? (sc) : 30)) / 50000)
+
+F_INTERVAL_BETWEEN_MANA_HEALING		20  /*(in sec)*/
+
+Standard occ magic guild regen rate
+[Wisdom      Intox %     Spellcraft  ][  MANA REGEN   ]  
+                                      [  per 20 sec   ][  per minute  ]
+[50          0           100         ][  13 mana      ][ 39 mana      ]
+[100         0           100         ][  23 mana      ][ 69 mana      ]
+[150         0           100         ][  33 mana      ][ 99 mana      ]
+[200         0           100         ][  43 mana      ][ 129 mana     ]
+[250         0           100         ][  53 mana      ][ 159 mana     ]
+
+Standard layman magic
+[Wisdom      Intox %     Spellcraft  ][  MANA REGEN   ]  
+                                      [  per 20 sec   ][  per minute  ]
+[50          0           60          ][  9 mana       ][ 27 mana      ]
+[100         0           60          ][  15 mana      ][ 45 mana      ]
+[150         0           60          ][  21 mana      ][ 63 mana      ]
+[200         0           60          ][  27 mana      ][ 81 mana      ]
+[250         0           60          ][  33 mana      ][ 99 mana      ]
+
+Minimum mana regen
+[Wisdom      Intox %     Spellcraft  ][  MANA REGEN   ]  
+                                      [  per 20 sec   ][  per minute  ]
+[50          0           30          ][  6 mana       ][ 18 mana      ]
+[100         0           30          ][  9 mana       ][ 27 mana      ]
+[150         0           30          ][  12 mana      ][ 36 mana      ]
+[200         0           30          ][  15 mana      ][ 45 mana      ]
+[250         0           30          ][  18 mana      ][ 54 mana      ]
+
+************************************************************************
+MANA POOL as defined in /sys/formulas.h is based on the player's
+int stat, plus a small base pool.
+
+F_MAX_MANA(int)                 ((10 * (int) / 3) + 90)
+
+Mana pool
+[Int            Max mana   ]
+[11 (ogre)      126        ]
+[50             256        ]
+[100            423        ]
+[150            590        ]
+[200            756        ]
+[250            923        ]
+
+************************************************************************
+STANDARD HARM SPELLS
+
+default harm - /d/Genesis/specials/new/magic/spells/harm.c
+[CAID       cast time    mana cost  ]  
+[100        4            30         ]
+
+REALLY ROUGH ballpark length of time able to continously cast 
+(mana regen based on 100 spellcraft and equivalent wisdom stat):
+[Int            Max mana   #casts   #mana regens  OOM after      full mana regen time ]
+[11 (ogre)      126        4        0             ~16 seconds    4 minutes?           ]
+[50             256        9        1             ~36 seconds    6.5 minutes          ]
+[100            423        16       3             ~64 seconds    6.1 minutes          ]
+[150            590        24       5             ~96 seconds    6.0 minutes          ]
+[200            756        29       6             ~116 seconds   5.8 minutes          ]
+[250            923        48       10            ~192 seconds   5.8 minutes          ]
+
+
+30 mana is the default unchangeable harm spell cost... How are magic guilds
+then currently viable?  Through two methods:
+* heavily leverage at-will spells, where mana scales to size.
+
+* increase cast times (which increases damage output proportionally) 
+to maximise damage per mana costs.
+
+e.g
+- SoHM/WoHS harm spells time factor of x3.0
+- MM morthul harm spell time factor of x1.5 
+- PoT ptalon harm and pheal spell time factor of x1.5
+
+** note, mana cost is now managed through /d/Genesis/specials/new/resource.c
+** query_ability_resource_cost function
+** and after the white damage introduction Carnak introduced a temporary reduction 
+** in mana costs, reducing it to a flat 15 (half normal). 
+
+
+### Issue 1.  Spellcasters should be able to maintain casting far
+### better than they currently can, without having to lean on the
+### at will spell type, which has become a crutch for all occupational
+### spellcasting guilds. I think the at-will crutch needs to be removed
+### and we just fix up how instant cast spells use mana.
+
+### Issue 2.  Smaller players are far more greatly impacted by a flat mana
+### cost for spells.  Mana cost needs to scale better so that all magic
+### users can have a sustained CAID.  
+
+### Issue 3.  Mana cost doesn't scale based on combat aid at all. Low
+### CAID harm spells are as mana intensive as the most powerful of CAID
+### harm spells. I am thinking mana cost should scale with damage/pen 
+### output... so either scale with int/wis (depending on which stat is 
+### set for the guild damage spell) and caid.  It helps simplify balancing 
+### magic guilds too if it is based around what they can sustain rather than
+### max potential caid combinations (although that could be still part
+### of the consideration).
+
+### In my mind the mana cost REALLY needs to be more dynamic.
+
+
+************************************************************************
+STANDARD MAINTAIN SPELL
+Maintained spells have a casting mana cost and then a mana 'drain'
+for as long as they remain active.
+
+This seems to be managed through 
+/d/Genesis/specials/new/magic/spells/objs/spell_obj_lib.c
+
+Where a flat 5 mana is drained every 60 seconds. If there is not 
+enough mana in the pool the maintained spell ends.
+
+### Issue 4. There is no link between the power of the spell being
+### maintained and mana consumption. It does not take into account
+### player size, player stats, player skills, spell difficulty, 
+### intoxication, or spell CAID.
+
+### Issue 5. The issue with layman magic guild versatility. Almost
+### exclusively all layman magic guilds focus on maintained spells,
+### as they do not interfere with white damage or special attacks,
+### and even at the lowest of stats (like ogres, with a tiny mana
+### pool) they can easily have 3 maintained spells active with
+### no risk of running out of mana. It doesn't sit well with me
+### that a layman magic guild can have a myth warrior with 10
+### int and 50 wisdom not negatively impacted due to their 
+### mental stat deficiencies.  I feel there needs to be some 
+### mana cost dynamism with maintained spells where it works for
+### those who do prioritise mentals over physicals, and penalises
+### those who don't.
+
+### Issue 6 isn't mana related, but I have a strong feeling that
+### the benefit of maintained spells like quickness, evade, and
+### stoneskin... those that provide a caid benefit, don't scale
+### based on a stat like other defensive specials do like
+### the pirates stagger (which is influenced by dex). I think it 
+### is a flat benefit irrespective of mental stats or magic skills?
+
+************************************************************************
+AT-WILL HARM SPELLS
+
+At-will harm spells were introduced as a way to allow casters to
+still grind while having casting "downtime" after burning through
+their mana with "normal" spells.  But due to the nature of how players
+play, there is a high reliance on at-will spells.
+
+They work off a very different mana use system that actually is dynamic..
+but a system that scales badly the bigger you get. So it has its own
+issues. For example, the way the formula works results in weird scenarios 
+where someone with 300 int / 150 wis could spam at-will spells twice as 
+long as a 300 int / 300 wis caster... where it is detrimental to have
+high wisdom if you primarily want to use at-will spells!
+
+At-will spells are capped at a max of 60 CAID.
+
+The mana use formula for at-will spells is outlined in
+/d/Genesis/specials/new/magic/spells/centralized_spell.c
+
+mana cost is determined in the get_at_will_spell_mana function, with
+the formula being:
+
+mana = (1 + 100 * wisdom * spellcasting / 50000) * 
+            AT_WILL_SPELL_TIME / F_INTERVAL_BETWEEN_MANA_HEALING;
+
+mana = ftoi(itof(mana + 1) * AT_WILL_MANA_COST_FACTOR / 100.0);
+    
+// Mana cost can never be 0
+return max(1, ftoi(itof(mana) * query_spell_mana_factor()));
+
+Where:
+AT_WILL_MANA_COST_FACTOR                75.0
+AT_WILL_SPELL_TIME                      15
+F_INTERVAL_BETWEEN_MANA_HEALING		20  /*(in sec)*/
+
+So standard mana costs for an at-will spell based on spellcraft/wisdom:
+
+MAX SPELLCRAFT
+[ Wisdom      Spellcraft       Mana cost ]
+[ 50          100              6         ]
+[ 100         100              12        ]
+[ 150         100              18        ]
+[ 200         100              23        ]
+[ 250         100              29        ]
+[ 300         100              34        ]
+
+MM MAX SPELLCRAFT (no guru quest still)
+[ Wisdom      Spellcraft       Mana cost ]
+[ 50          90               6         ]
+[ 100         90               11        ]
+[ 150         90               16        ]
+[ 200         90               21        ]
+[ 250         90               26        ]
+[ 300         90               31        ]
+
+SoHM MAX SPELLCRAFT 
+[ Wisdom      Spellcraft       Mana cost ]
+[ 50          80               5         ]
+[ 100         80               9         ]
+[ 150         80               14        ]
+[ 200         80               18        ]
+[ 250         80               23        ]
+[ 300         80               27        ]
+
+### Issue 7: At high wisdom at-will spells end up costing more
+### mana than standard spells (30+ mana cost)! And standard spells 
+### are not sustainable at any stat level... so the bigger you get
+### the less efficient you are. A bit paradoxical.
+
+### Issue 8: For some reason the lower your spellcasting skill
+### the less mana you pay. I am not sure on the logic of that...
+### but it may be linked to how at-will damage is worked out,
+### so linking damage output with mana output.
+
+### As mentioned earlier, at-will spells feel like a bit of a
+### hack/patch-up addition because normal harm spells don't
+### work well in practice.  I think we need the normal spell
+### system to work better, and get rid of the at-will patch.
+
+************************************************************************
+WHAT IS THE SOLUTION?
+
+Not sure, but I think we move from a static mana cost to a dynamic one
+for spell mana cost. And that solution would sit in modding
+/d/Genesis/specials/new/resource.c query_ability_resource_cost function,
+and probably also 
+/d/Genesis/specials/new/magic/spells/objs/spell_obj_lib.c
+
+With harm/heal spells, damage is dictated by one of the mental stats
+in int or wis. Mana pool and mana regen is dictated by int and wis.
+So damage and mana pool / regen are linked to stats/size. 
+
+I think what would work is spell mana cost be dynamically linked to CAID 
+and the guild spell damage stat, with the aim that a guild like the SoHM
+can sustain up to 200 caid (100 special caid + 100 white damage from non-
+casting) indefinitely (or close to) before the mana pool begins to 
+deplete (assuming wisdom is balanced with int). Occ+lay guilds up to 250.
+Lay magic guilds up to 50.
+
+Guilds can have stacked caid spells that exceed this sustainable cap,
+which then burns through the mana pool... more rapidly the greater the
+caid they they exceed the cap.
+
+We may have a balance issue where magic users nuke through a hunting
+area and regens mana while waiting for areas to respawn... so is that
+something we can factor in to the formula?  Say if a player has 
+a potential CAID range above standard guild caid caps, should the 
+sustainable caid be lower than the max?  Like 80% of the sustainable
+max?  So SoHM would have a sustainable caid of 160 caid, but can
+burst for a period above 200 caid?  MM/WoHS/PoT could sustain
+200 caid but can burst for an unsustainable period above 250?
+
+Coming up with a formula that can replicate this thinking is the
+challenge for someone better with formulas than me :)
+
+
+We may also want to consider flipping the dynamic of how spells affect
+mana.
+
+Right now instant spells are mana intensive while maintained spells
+aren't.  Maybe it should be the other way around?  Low mana cost instant
+spells but higher cost maintenance?  
+
+That would mean grinding/healing isn't what will burn through mana...
+it would be more the spells you maintain that do. So the meta will be
+around what spells you maintain and when?
+
+************************************************************************
+TESTING NOTES:
+
+exec int wisdom = 100; int spellcasting = 100; int mana = (1 + 100 * wisdom * spellcasting / 50000) * 15 / 20; mana = ftoi(itof(mana + 1) * 75.0 / 100.0); return mana;

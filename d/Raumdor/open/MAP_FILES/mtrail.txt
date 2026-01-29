@@ -1,0 +1,62 @@
+main
+::MAPDATA::
+mtrail_path1 26 24
+mtrail_path2 26 15
+mtrail_path3 29 12
+mtrail_path4 31 10
+mtrail_path5 43 10
+drawbridge 46 10
+siegecamp_1 29 8
+siegecamp_2 26 8
+siegecamp_3 26 10
+siegecamp_4 23 10
+siegecamp_5 20 10
+siegecamp_6 17 10
+siegecamp_7 14 10
+siegecamp_8 11 10
+siegecamp_9 8 10
+siegecamp_10 23 8
+siegecamp_11 20 8
+siegecamp_12 17 8
+siegecamp_13 14 8
+siegecamp_14 11 8
+siegecamp_15 26 6
+siegecamp_16 23 6
+siegecamp_17 20 6
+siegecamp_18 17 6
+siegecamp_19 14 6
+siegecamp_20 11 6
+siegecamp_21 8 6
+siegecamp_22 8 4
+siegecamp_23 11 4
+siegecamp_24 14 4
+siegecamp_25 17 4
+::MAPDATA::
+
+                                                    CASTLE GYLAR
+        Siege camp                                 
+   /\                  .  .  .  .  .  .               
+        o--o--o--o                     .        ..................
+        |     |                         .      .    ___   /\   __ .
+        o--o--o--o--o--o--o       /\     .     .   /|__|______|__| .
+              |        |                 .      . / | #      #   |  .
+   /\      o--o--o--o--o--o--o            .      |  |    #  #    | .
+              |     |     |   \     /\    .      |/||__ ______ __| .
+        o--o--o--o--o--o--o    o-----------o##o## / |__|  o  /|__| .
+                              /           .      | /  /__o__/ /  / .
+      /\                     o          ..       |/__/      |/__/  .
+     /  \                   /    /\   .         ..................         
+    /    \                 /        .          .               .
+   /      \         /\    o          .           .              .
+                          |         .             .            .
+                          |     /\  .              .          .
+                          |         .      
+                /\        |         .   
+               /  \       |         .      
+                          |    /\   .        
+                          |          .     
+                          |          .       
+          /\              o          .
+         /  \             |           .
+
+                

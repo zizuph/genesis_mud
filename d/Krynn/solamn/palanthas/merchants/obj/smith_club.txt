@@ -1,0 +1,21 @@
+ ________________________________________________
+|        _                              _        |
+|  o====(_)          Clubs             (_)====o  |
+|                                                |
+|      Styles         16gc        Types          |
+|      ------                     -----          |
+|      beaked                     club           |
+|      blackened                  flail          |
+|      heavy                      hammer         |
+|      hooked                     mace           |
+|      large                      maul           |
+|      light                      morning-star   |
+|      polished                   pick           |
+|      shining                    war-chain      |
+|      spiked                     warhammer      |
+|      steel                                     |
+|                                                |
+|        <order> <style1> <style2> <type>        |
+|       _         <check type>          _        |
+| o====(_)                             (_)====o  |
+|________________________________________________|

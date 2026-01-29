@@ -1,0 +1,19 @@
+/*  fixed \n at end of set_long  Amelia October 15, 1997 */
+#include "/d/Earthsea/sys/paths.h"
+
+inherit EARTHSEA_OBJECT;
+
+#include <stdproperties.h>
+
+void
+create_earthsea_object()
+{
+    set_name("badge");
+    set_short("badge");
+    set_long("This is an authorization badge.\n");
+
+    add_prop(OBJ_I_WEIGHT, 150);
+    add_prop(OBJ_I_VOLUME, 100);
+    remove_prop(OBJ_I_VALUE);
+}
+

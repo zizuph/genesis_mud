@@ -1,0 +1,115 @@
+main
+::MAPDATA::
+north_gate 49 5
+north_road1 49 7
+north_road2 49 9
+north_road3 49 11
+northwest_gate 31 13
+north_road4 49 13
+northwest_road1 33 15
+north_road5 49 15
+northwest_road2 35 17
+north_road6 49 17
+northwest_road3 37 19
+north_road7 49 19
+nw_path2d 23 21
+nw_path2c 27 21
+nw_path2b 31 21
+nw_path2a 35 21
+northwest_road4 39 21
+north_road8 49 21
+nw_path2e 23 23
+northwest_road5 41 23
+north_road9 49 23
+nw_dome2 23 25
+northwest_road6 43 25
+north_road10 49 25
+isle3 45 27
+isle2 49 27
+cavern_entrance 1 29
+west_road1 5 29
+west_road2 9 29
+west_road3 13 29
+west_road4 17 29
+west_road5 21 29
+west_road6 25 29
+west_road7 29 29
+west_road8 33 29
+west_road9 37 29
+west_road10 41 29
+isle4 45 29
+sw_path1a 21 31
+isle5 45 31
+sw_path1b 21 33
+southwest_road6 43 33
+sw_path1c 21 35
+southwest_road5 41 35
+sw_dome1 21 37
+southwest_road4 39 37
+sw_path2a 41 38
+southwest_road3 37 39
+sw_path2b 41 40
+southwest_road2 35 41
+sw_path2c 41 42
+southwest_road1 33 43
+sw_path2k 37 44
+sw_path2d 41 44
+sw_path2e 45 44
+southwest_gate 31 45
+sw_path2j 37 46
+sw_dome2 41 46
+sw_path2f 45 46
+sw_path2i 37 48
+sw_path2h 41 48
+sw_path2g 45 48
+::MAPDATA::
+                                                ___
+                                               / | \
+                                              |  |  |
+                                              |  |  |
+
+                                                 o
+                                                 |
+                                                 o
+                           ___                   |
+                          / | \                  o
+                         |  |  |                 |
+                         |  |  |                 o
+                                                 |
+                               o                 o
+                                \                |  ,     ^     ,
+                                 o               o  |\   / \   /|
+                                  \              |  | \__| |__/ |
+                                   o             o  |    | |    |
+                                    \            |   \   | |   /
+                                     o           o    |  | |  |
+               @                      \          |    |  | |  |
+                @      o - o - o - o - o         o    |  | |  |
+                 @ _   |                \        |    |  | |  |
+                  | |  o                 o       o    |  | |  | =======
+                  | |  |                  \      |    |  | |  | Orthanc
+                  | |  o                   o     o    |  | |  | =======
+                                            \    |    |  | |  |
+                                             o - o -  |  | |  |
+                                             |        |  | |  |
+ o - o - o - o - o - o - o - o - o - o - o - o        |  | |  |
+                     |                       |        |  | |  |
+                     o                       o -      |  | |  |
+              @      |                      /
+               @     o                     o
+                @ _  |                    /
+                 | | o                   o
+                 | | |                  /|
+                 | | o                 o |
+                                      /  o
+                                     o   |
+                                    /    o
+                                   o     |
+                                  /      o          @@@
+                                 o       |         @
+                                /    o - o - o  _ @ 
+                               o     |       | | |
+                        ___          o   o   o | |
+                       / | \         |   |   | | |
+                      |  |  |        o - o - o
+                      |  |  |

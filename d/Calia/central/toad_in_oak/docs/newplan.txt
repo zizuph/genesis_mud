@@ -1,0 +1,99 @@
+1. General
+
+* The village is built into the trees, and consists of several layers, 
+the forest floor and one or more levels of platforms and walkways in 
+the trees. 
+
+* It is laidd out in a rough ring shape around an exceptionally
+large and ancient oak in the center which has special significance
+to the inhabitants.
+
+* The common name of the village refers to the large numbers of toads that
+live in and around the Great Oak
+
+* A stream flows through the village from a spring on a nearby hill. The 
+stream forms a small waterfall and a pool at the bottom of the hill that is
+used for bathing. There is also a small pond beneath the village that is home
+to ducks and other animals.
+
+* The homes, walkways, and other structures of the village are not built in 
+the trees, but are part of the trees themselves, which are encouraged to grow 
+into the desired shapes without being harmed.  
+
+* There are often animals of various types wandering through the village. As
+long as they don't harm anyone (and preferably not each other much) they are
+left alone. 
+
+2. People
+
+* The elves of TiO are generally peaceful, fun-loving, and carefree. They 
+enjoy flowers, music, art, swimming in the pool, and just about anything 
+that isn't hard work.  
+
+* They try to live in harmony with nature as much as possible, and don't hurt
+any person, plant, or animal unless necessary. They are not absolute 
+vegetarians but very little meat is served in the village. 
+
+* The elves have the ability to magically shape wood without harming the 
+plant it comes from. Some or more talented than others, with only a very few
+able to create the structures of the village itself. The ability works best
+with the oaks around the village, and may not work at all without Calian wood
+that has soaked up ethereals. 
+
+* The elves don't like to fight, but will defend themselves and their village
+when needed. If somebody in the village is attacked anybody close by will 
+likely rush to their defence. In some cases certain people might come no 
+matter how far away they are. (Doe and Allerdice especially)
+
+* Money is not exchanged among the villagers at all. Recently they have 
+recognized it's usefullness in dealing with outsiders, and offer a few 
+products and services in exchange for coin. 
+
+3. Locations 
+
+* Pond
+* Great Oak (Base)
+* Flowers
+* Spring/Waterfall/Swimming hole
+* Village green?
+* Store
+* Post office
+* Pub/Restaurant/Inn
+* Training area (AG)
+* Wood "Carver" (For trinkets)
+* Animal Trainer ?
+* Doe and Allerdice's home
+
+4. Fauna
+
+* Long-tusked Boar Mouse
+* Ducks
+* Frogs of some sort for the pond
+* Toads in the oak. Maybe several types. 
+* Rainbow Turtles
+* Red herrings in the stream and pond
+* The elusive red trout
+* Turtlehawk
+* Timber wolf (one, mostly domesticated. May live with Doe and Allerdice)
+* Lizards?
+* Song birds
+* Butterflies for the gardens. 
+
+5. NPC's 
+
+* Doe and Allerdice need to be included somewhere in the village.
+
+* Commercial ventures like a store and inn may be be run by the siblings 
+Nahasa, Peema, and Petilon. 
+
+6. Code concerns
+
+* I orignally wanted NPC's to act in very complicated ways. This will 
+probably be toned down somewhat, at least at first. I'd still like to have
+them react to each other and their surroundings in certain ways, but only
+if it can be done without coding complex AI's for them. 
+
+* Other complicated things I wanted to do are going to have to be toned down 
+as well. The mushrooms and vegetable garden are gone completely, and the 
+flower garden will be simplified.
+

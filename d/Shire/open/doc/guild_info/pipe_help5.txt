@@ -1,0 +1,9 @@
+ expell  <player>         Throw a player out of the guild.
+ addlist -m/-b <name>     Add a name to the indicated list.
+ rmlist  -m/-b <name>     Remove a name from the indicated list.
+ showlist ?               Show more help on the showlist command.
+ backup                   Backup the members-list.
+ restore                  Restore the members-list.
+ replace (-s)             Replace all pipes (silently).
+ news                     Show the latest docs in common/doc.
+

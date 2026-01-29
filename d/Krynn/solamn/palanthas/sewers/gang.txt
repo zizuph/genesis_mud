@@ -1,0 +1,7 @@
+/* Perhaps a gang blocks a passageway (either above or
+below ground in the sewers) and they won't let you pass
+through until you do them a favor.  Perhaps the passageway
+unlocks more rooms (gang's lair) than the simple passageway
+expected.
+
+Mortis 07.2005 */

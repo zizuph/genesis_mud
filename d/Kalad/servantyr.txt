@@ -1,0 +1,3 @@
+./common/wild/pass/drow/wep/h5_pat_sword.c
+./common/wild/pass/drow/npc/h7_patron.c
+./common/wild/pass/drow/npc/h5_patron.c

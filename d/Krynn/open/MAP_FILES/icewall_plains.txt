@@ -1,0 +1,90 @@
+main
+::MAPDATA::
+conquer1 27 2
+conquer2 31 2
+conquer3 35 2
+conquer4 19 4
+conquer5 23 4
+conquer6 27 4
+conquer7 31 4
+conquer8 35 4
+conquer9 39 4
+conquer10 15 6
+conquer11 19 6
+conquer12 23 6
+conquer13 27 6
+conquer14 31 6
+snow_plain6 35 6
+conquer15 39 6
+east_path6 7 8
+east_path5 11 8
+snow_plain1 15 8
+snow_plain2 19 8
+snow_plain3 23 8
+conquer16 27 8
+snow_plain5 31 8
+conquer17 35 8
+snow_plain7 39 8
+snow_plain8 43 8
+snow_plain9 47 8
+east_path4 11 10
+conquer18 15 10
+conquer19 19 10
+conquer20 23 10
+snow_plain4 27 10
+conquer21 31 10
+conquer22 35 10
+conquer23 39 10
+snow_plain11 51 10
+east_path3 11 12
+conquer24 19 12
+conquer25 23 12
+conquer26 27 12
+conquer27 31 12
+conquer28 35 12
+conquer29 39 12
+east_path1 3 14
+east_path2 7 14
+ice_clearing1 15 14
+conquer30 23 14
+conquer31 27 14
+conquer32 31 14
+conquer33 35 14
+conquer34 39 14
+conquer35 43 14
+ice_clearing2 19 16
+conquer36 31 16
+conquer37 35 16
+conquer38 39 16
+conquer39 43 16
+conquer40 31 18
+conquer41 35 18
+conquer42 39 18
+conquer43 43 18
+conquer44 35 20
+conquer45 39 20
+::MAPDATA::
+                      __ ___________ 
+                     |__| ____|___|_|___
+                    ___               |_|_
+               _   |_|_|                |_|   ~~~~~
+              |_|                        ^   ~~~~
+                                           ^ ~~~
+                                           ^   ~~~
+                                            ^  ~~~~~
+       o - o                               o - o  ~~~~
+           |                                     \___  ~~~
+           o                              ^      __o_| ~~~~
+           | ^                            ^      ~ || Palanthas
+           o   ^                           ^   ~~~~~~~~~~
+         /                                   ^   ~~
+   o - o           ^                          ^ ~~
+ /                   ^   ^                   ^ ~~~~~~
+    .      .               ^                  ^  ~~~
+    _\/  \/_                ^                 ^ ~~~
+     _\/\/_                                  ^ ~~~~
+ _\_\_\/\/_/_/_              ^              ^  ~~~~
+  / /_/\/\_\ \                ^            ^ ~~~~~
+     _/\/\_                  _________  ___
+     /\  /\                 |_____|   ||__|
+    `      

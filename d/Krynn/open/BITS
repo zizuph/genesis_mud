@@ -1,0 +1,116 @@
+BITS USED IN KRYNN
+==================
+
+This is a list over what bits we are using in Krynn.
+
+[x] means that the bit x is set when the first quest of the type is solved!
+<=>   [x] denotes the least significant bit of a binary encoded number.
+
+group   number   used for                           EXP/info
+-----   ------   --------                           --------
+
+  0     0 -  5   Touristing quests [5]
+                  1.Adventurer's Guild in Solace    60
+                  2.Several small things in Neraka  500
+                  3.Grave of Drakmar Dragonbane     60
+                  4.Lighthouse in Palanthas         100
+                  5.Delivery Office in Newports     40
+                  6.Courtyard in Vingaard Keep      100
+                  7.Tavern in Flotsam               60
+                  8.Seeker Temple in Haven          100
+  0     6 - 12   Minor Quests      [12]
+                  1.Pick Apple                      900
+                  2.Five Beers from Neraka          3500
+                  3.LifeQuest of Brimsch            5000
+                  4.Questmaster's glasses           1500
+  0    13 - 19   Major quests      [19]
+                  1.Free Salamic                    0
+                  2.Collected Reward from Salamic   5000-10500   (% salamic)
+
+  1       0      Occ member of Solamnic Knights
+  1       1      Banished from the Knighthood
+  1       2      Layman of the Knights (now unused)
+  1       3      Black Knight
+  1       4      Squire=00, Crown member=01
+  1       5      Sword member=10. Rose member=11
+  1       6      Knight Sup Guru Quest
+  1       7      Sickness: Player was sick at least once.
+  1       8      Sickness: Player is immune to sickness.
+  1       9      (sword quest, now unused, some players still may have this bit set)
+  1      10      (rose quest, now unused, some players still may have this bit set)
+  1   11-13      Cabal of Hiddukel Thief guild
+  1   11-12      01 banished/left guild
+                 11 layman member
+                 10 (reserved for occ membership)
+  1      13      Thief guild entrance quest         1000
+  1      14      Gnome guild entrance quest         1500
+  1      15      Gnome guild membership bit
+  1      16      Schorsch board Quest               700
+  1      17      Haven Seeker Chalice tour          60
+  1      18      Help Refugees                      500          (% help_refugees)
+  1      19      Qualinesti / Lost Scout            N/A
+
+  2       0      Crypt quest                        6000         (% crypt)
+  2       1      Chicken Ingredient (Pee) Quest     1000
+  2       2      Black dragon quest                 6000-24000
+  2       3      Pax Tharkas prisoner Quest         3550-25000   (% prisoner)
+  2       4      Dragon lair Quest                  (not open)
+  2       5      Kitiara's Ring Quest               (not open)
+  2       6      Identify Draconians Quest          500
+  2     7-9      Palanthas quests (inn)  [7]
+                  1.Hop and Malt from Garden        250
+                  2.Peat                            500
+                  3.Authorization Form              6500
+  2      10      Free Gunthar                       1000
+  2      11      Griffon Quest                      1100
+  2      12      Dwarfgate Quest                    40000-50000
+  2   13-16      Dragonlance Quest [13]
+                  1.Retrieved Broken Lance          15000
+  2      17      Bear Quest                         2500
+  2      18      Furnace Quest, Cast a weapon       3500
+  2      19      Kender Quest                       750-3000
+
+  3       0      Gnome Explosive Device             100-300 (+item)
+  3       1      Pickaxe Quest                      500 (+item)
+  3       2      Knight museum tour                 60
+  3     3-5      Knights' Spur
+                   3. Wood                          50
+                   4. Question draconian            1500
+                   5. Free Draconian                3500
+  3     6-8      Wizards of High Sorcery
+        6-7      Full Membership bits
+                   Black=10, White=01, Red=11
+          8        Apprentice
+  3       9      Bless Frozen Corpse                5000
+  3      10      Thanoi Wine                         750
+  3      11      Imprisoned Griffon                  750
+  3   12-14      Nightbird Quests                   (not open)
+  3      15      The Puzzle Quest (closed)         60000
+  3   16-17      Cleanse/Dirty Solace Fountain      3000
+  3      18      Recover standard for the Toron     4000-12000
+                 tribe
+  3      19      Elven Archers Guru quest           NA 
+ 
+  4       0      Vault EI                           100
+  4       1      Vingaard Mountain Top EI           40
+
+  4       2      Bishon Fishing Quest               3500
+  4       3      Bishon Shark Fin Soup Quest        3000
+  4       4      Bishon Black Noodles Quest         5000
+  4       5      Bishon Swimming Potion Quest       10000
+  4       6     Flaw in the Jewel of Solamnia EI    120
+  4       7     [empty]
+  4       8     [empty]
+  4       9     [empty]
+  4       10    [empty]
+  4       11    [empty]
+  4       12    [empty]
+  4       13    [empty]
+  4       14    [empty]
+  4       15    [empty]
+  4       16    [empty]
+  4       17    [empty]
+  4       18    [empty]
+
+EI: Explore Item (see below)
+Group 4 quests (Explore Items, really) are tours which are not "given out" by anyone. The experience is given out when a player first entersthis specific room (or comes in touch with an object, in the future, or even looks at an add_item somewhere). How he/she gets to the room is not important (alone or in a team). With a good number of such rooms/tours, it will be possible to gain experience by being a goodexplorer alone.

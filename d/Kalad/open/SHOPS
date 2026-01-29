@@ -1,0 +1,90 @@
+A LIST OF THE EXISTING SHOPS IN EACH DISTRICT
+(If you make a new shop, please add it to this list)
+
+CARAVAN DISTRICT
+_______________________________________________________________
+General Store - Anthios' (/d/Kalad/common/caravan/shop/gshop.c)
+   A shop where players may buy/sell equipment.
+Money-Changer - Turale's (/d/Kalad/common/caravan/shop/mchange.c)
+   A bank where players may exchange and keep money.
+Food&Booze shop - Jenn's (/d/Kalad/common/caravan/shop/jeinn.c)
+   A combination inn/restaurant.
+Dealer's Store - Pendras (/d/Kalad/common/caravan/lot/s16.c)
+   An equipment shop (i.e. Backpacks, sacks, torches, etc.)
+Mapmaker's - Ystof (/d/Kalad/common/caravan/shop/mmshop.c)
+   A place where players may buy maps of the city & surroundings.
+The Perfume Shop - Amey (/d/Kalad/common/caravan/shop/perfume_shop.c)
+   A place to buy perfumes/colognes that remove dirtiness.
+
+TRADESMEN'S DISTRICT
+_______________________________________________________________
+Weapon shop - (/d/Kalad/common/trade/tsquare/weapon_shop.c)
+   Sells low hit/pen weapons.
+Clothes shop - (/d/Kalad/common/trade/tsquare/clothes_shop.c)
+   Sells low ac armours (i.e. pants, etc.)
+Basket shop - (/d/Kalad/common/trade/tsquare/basket_shop.c)
+   Sells baskets (i.e. containers)
+Liquor shop - (/d/Kalad/common/trade/tsquare/liquor_shop.c)
+   Sells liquors.
+Rope shop - (/d/Kalad/common/trade/cliffside/ropeshop1.c)
+   Sells ropes (Part of a quest)
+Jewel shop - (/d/Kalad/common/trade/tsquare/jewel_shop.c)
+   Sells relatively expensive jewels (Role-playing purpose only)
+Wine shop - (/d/Kalad/common/trade/tsquare/wine_shop.c)
+   Sells wines & liquor.
+
+CENTRAL DISTRICT
+_______________________________________________________________
+Money-Changer - (/d/Kalad/common/central/plaza/sq_bank.c)
+   A bank for players to change and keep their money.
+Beggars-Club - (/d/Kalad/common/central/circle/beggar_hut.c)
+   A club for players to join.
+
+MARKET DISTRICT
+_______________________________________________________________
+
+PORT DISTRICT
+_______________________________________________________________
+The Liquid Booty - (/d/Kalad/common/port/s60.c)
+   Where players may buy liquor.
+Skeever's Tattoo Shop - (/d/Kalad/common/port/s35.c)
+   Here players may get tattoos.
+Goldblum's Watches - (/d/Kalad/common/port/s37.c)
+   A shop that sells watches with Kalad time.
+Gorumn's Netweaver Shop - (/d/Kalad/common/port/s22.c)
+   A shop that sells nets (Nets serve only a role-playing function)
+Telbruin's Tannery - (/d/Kalad/common/port/s21.c)
+   A shop that sells tanned goods (i.e. pants, shirts, etc.)
+The Halfling Brewery - (/d/Kalad/common/port/s39.c)
+   A merchant resides here that sells halfling liquor.
+Mardon's Tar Shop - (/d/Kalad/common/port/s54.c)
+   A shop that sells tar (Part of a quest)
+Orgadar the Sailmaker - (/d/Kalad/common/port/s31.c)
+   A shop that sells ships' sails (Part of a quest)
+Bank -(/d/Kalad/common/port/bank)
+
+UPPER CLASS DISTRICT
+_______________________________________________________________
+none
+
+RAUMDOR
+---------------------------------------------------------------
+
+Equipment shop - /d/Kalad/common/raum/drakmere/shop/eshop
+  Lamps, torches, backpacks and sacks
+General Emporium - /d/Kalad/common/raum/drakmere/shop/gshop
+  Weapons and armours
+Drakmere Inn - /d/Kalad/common/raum/drakmere/shop/inn
+Drakmere Bank - /d/Kalad/common/raum/drakmere/shop/d_bank
+---------------------------------------------------------------
+
+
+BANK ID -
+---------------------------------------------------------------
+
+/d/Kalad/common/port/bank ID - 3501
+/d/Kalad/common/caravan/shop/mchange.c ID - 3502
+/d/Kalad/common/central/plaza/sq_bank.c ID -3503
+/d/Kalad/common/raum/drakmere/shop/d_bank ID -3504
+/d/Kalad/common/noble/bank ID - 3505
+/d/Kalad/common/wild/pass/drow/shop/bank ID - 3506

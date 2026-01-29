@@ -1,0 +1,10 @@
+Convert Weapon -   This will turn the target of the spell (a weapon) 
+                   into a staff (club with bludgeoning damage) with
+                   95% of the original hit and pen of the weapon.
+                   The weapon cannot be sold, nor will it save past
+                   armageddon. It can still break like regular weapons.
+                   This spell will not initiate combat and cannot be
+                   used during combat. Requires a pre-made component (can
+                   only be made in the guildhome) consisting of red
+                   spinel and sargassum. 200 mana. This spell is only
+                   available to Elder members (guild level 8).

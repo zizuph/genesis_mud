@@ -1,0 +1,1 @@
+#define GOLD 12312312

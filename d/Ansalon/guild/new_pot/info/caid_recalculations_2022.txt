@@ -1,0 +1,65 @@
+
+Going through the PoT tax files I am proposing this is how we will
+re-balance them. Key changes mindful of white damage now directly going in to
+harm/heals and new combat aid caps:
+
+pscourge (at-will) remain at 60 caid (so new effective aid is 86 caid).
+
+'dark warrior' ptalon (harm) from 130 caid to 90 caid (so new effective aid is 190).
+'other aspect' ptalon (harm) from 70 caid to 20 caid (so new effective aid is 120).
+[there are some unique caid modifiers for ptalon, but this will be modifying
+ the base caid values]
+
+'dark lady' oheal (heal) from 150 caid to 70 caid (new effective aid 170).
+'other aspect' oheal (heal) from 70 to 20 caid (new effective aid 120).
+
+pPain (stun) reduced from 90 caid to 60 caid.
+
+These changes will allow the PoT to fall under a point-in-time CAID of
+210 for all three of their 'aspects' (unaligned, Dark Warrior, Dark Lady).
+
+And 210 is the new caid cap I have come up with for the PoT based on the
+following formulation:
+
+Occupational caid base                                             += 100
+Layman caid base                                                   += 50
+Sobriety penalty                                                   += 10
+Sub-optimal defence skills (94 vs 150 base)                        += 50 
+[based on additional hits against player from lower skills
+ from /d/Genesis/ateam/aob/doc/combat_aid/defence_vs_tohit.txt]
+
+=========================================================================
+TOTAL MAX CAID                                                     == 210
+=========================================================================
+
+
+Spell name CL   PR   HP  OLD caid      NEW caid       
+                         (u/W/L)       (u/W/L) 
+pTell       *    *    *  -             -
+pAlign      *    *    *  -             -
+pHearing    *    *    *  -             -
+pHammer     *    *    *  40/40/-       40/40/-
+pScourge    *    *    *  60            60 **
+pEyes       *    *    *  20            20
+                       -=120         -=120(60)/120(60)/80(20) 
+
+pBless           *    *  40/40/60      40/40/60   
+pHeal            *    *  70/70/150     20/20/70 ** 
+[dark lady pheal can be increased by the pBless aid if not being used (+60)]
+pTalon           *    *  70/130/70     20/90/20 **
+pRestore         *    *  ? /- / ?      ? /- / ? 
+pIdentify        *    *  -             -
+pBlind           *    *  20/20/30      20/20/30
+pScry            *    *  -             -
+pSlow            *    *  -             -
+pCurse           *    *  30/- /30      30/- /30
+                        -=xx/xx/xx   -=110(90)/150(60)/130(60) 
+
+pMirage               *  -            
+pGem                  *  -   
+pPlaneswalk           *  -          
+pPain                 *  40 /- /90     40(40)/--/60(60)  **  
+[ppain cannot be cast with pCurse or pBlind and vice versa]
+=========================================================================
+                                       (u/W/L) 
+     MAX POINT IN TIME CAID             210/210/210             

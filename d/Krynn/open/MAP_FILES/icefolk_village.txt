@@ -1,0 +1,67 @@
+main
+::MAPDATA::
+fishing_2 15 1
+trade 11 3
+fishing_1 13 3
+village_4 11 5
+village_3 9 7
+gathering 11 7
+village_2 11 9
+village_1 13 11
+plain_4 13 13
+sea 29 13
+plain_3 15 15
+plain_5 19 15
+plain_7 23 15
+plain_11 29 15
+plain_13 33 15
+path_7 11 17
+plain_2 15 17
+plain_8 25 17
+plain_12 29 17
+plain_14 33 17
+path_5 5 19
+path_6 9 19
+plain_1 13 19
+plain_10 25 19
+tunnel 33 19
+path_4 3 21
+plain_9 25 21
+plain_6 19 22
+path_3 3 23
+path_2 1 25
+path_1 3 27
+::MAPDATA::
+        __        ~~~
+       /\ \    o ~~~~~
+              /   ~~~
+           S o
+   __      |/
+  /\ \     o
+          /|   Ice Folk
+         o o   Village
+      __  \|
+     /\ \  o
+            \             ~~~~~~~~~~~~~
+             o          ~~~~~~~~~~~~
+             |        ~~~~~~~~~~~~
+             o 
+              \
+               o - o - o     o - o  Plains
+               |   |    \  / |        of
+           o   o   |     o - o - o  Icewall
+          / \ /    |    /|
+     o - o   o     |   / o
+    /              |  /
+   o               | /
+   |               o             ___
+   o                        ,.-"',..'"-.
+  /                       ,' `.,' : '`'.`.
+ o                       ;`-. " `. ``:` `.'.
+  \                     ..   '`-.:...-:-` ' .
+   o -                  ; `.;   .      :   ' .
+                        |. . ```:---...,;,, .|
+                        | `:--..:    /   \ ' |
+                         `.;    :```' "./##\:'
+                           ``-..:___|  |####|
+                                     `.|##"'

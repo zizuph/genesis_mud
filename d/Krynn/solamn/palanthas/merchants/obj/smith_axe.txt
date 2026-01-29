@@ -1,0 +1,24 @@
+ ________________________________________________
+|                                                |
+|  o                  Axes                    o  |
+|                                                |
+|      Styles         16gc        Types          |
+|      ------                     -----          |
+|      blackened                  axe            |
+|      double-bladed              battleaxe      |
+|      folded-steel               cleaver        |
+|      grensh                     handaxe        |
+|      heavy                                     |
+|      hooked                         .          |
+|      large                         /^\         |
+|      light       _________________.---.______  |
+|      long       (_(______________(_o o_(____() |
+|      polished                .___.'. .'.___.   |
+|      shining                 \ o    Y    o /   |
+|      spiked                   \ \__   __/ /    |
+|                                '.__'-'__.'     |
+|                                    '''         |
+|        <order> <style1> <style2> <type>        |
+|                  <check type>                  |
+|  o                                          o  |
+|________________________________________________|

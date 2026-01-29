@@ -1,0 +1,3 @@
+*QUESTS - Quests in the domain
+------------------------------
+These files should contain a (brief) description of the quest and the experience that is given for the quest. It would be nice to add the creator of the quest for reference. You may include the solution, but that is not mandatory. Since it is not mandatory you may of course put it in the domain's private directory if you want it present but with extra security. Adding pathnames is very helpful, but is not mandatory either. 

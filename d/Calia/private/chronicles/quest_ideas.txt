@@ -1,0 +1,523 @@
+                                 1 Gourmet Club
+
+     The restaurant on the ground floor is open to everyone.  Only members and
+their guests (teammates count as guests, or one may issue invitations purchased
+from Shimram and Mezzlebeb) may use the banquet and ballrooms upstairs.  In the
+restaurant there are six menus available, one for each race.  Each menu is
+further divided into salads, soups, entrees, desserts, and probably a couple of
+other distinctive Calian categories.  The insufferable waiter will only give
+you the menu appropriate to your race.  If you're a dwarf and you really want
+to order something from the elf menu, you'll have to bring an elf friend with
+you and swap menus after the waiter hands them to you.  Or you could ask an elf
+to take a menu from the restaurant (the waiter is much too busy to keep track
+of all the menus) and leave it where you can find it.
+
+     Of course, if you know the elf menu by heart, you can order any item you
+know is on it, but that can be tricky - the specials change daily!  There are
+six master chefs in the employ of the club, but only two are on duty at any
+given time.  Each chef has distinct specialities; thus the varying menus.
+
+1.1 Tip Quest
+
+     This is a really tiny quest with minimal xp.  You simply "tip waiter"
+after a meal and you feel a bit more experienced.  However, the club wants to
+encourage frequent tipping, so I'd like to have certain other quests reset the
+Tip Quest bit back to zero.  Thus, after joining the club, if the player tips
+the waiter again he'll get another tidbit of xp.  I'm not aware of any other
+quest in the game that resets this way, and I have no idea if Admin would allow
+it, but I think it would be a fun variation and a way to ensure that the
+insufferable waiter makes a decent living.
+
+1.2 Gourmet Club Membership Quest
+
+     No hints, no help.  If you're going to be a real Gourmet, you'll have to
+prove you're worthy.  You do that by acting like one.  If you visit the
+restaurant and sufficiently impress the waiter with your conoisseurship, you
+will be invited to join.
+
+     To be a true Gourmet is to devote one's dining experiences to the highest
+quality and greatest variety.  Technically, you must eat the best item in each
+category (soup, entree, etc.) and drink the ideal wine for this combination of
+foods.  The combination of "best" foods will always be drawn from more than one
+menu (elf, dwarf, etc.).  When the insufferable waiter notices that you order
+only the finest foods with the perfect wine to accompany them, he will send you
+an invitation to join the club AFTER you leave the restaurant.  However, you
+lose his respect completely if you do any of the following during your visit:
+
+     Order or eat any second-class food.
+     Drink anything but the ideal accompanying wine.
+     Fail to eat anything you have ordered (gorging).
+     Vomit, burp, or hiccup (watch out if you have swallowed a gem!).
+     Ask to join.
+     Fail to tip the insufferable waiter.
+
+     To find out which master chefs are on duty, you'll have to find your way
+to the kitchen door, where a plaque will tell you the chefs of the day.  You're
+not welcome in the kitchen, so you'll have to find some other employees in
+other rooms to ask about the chefs.  They'll tell you the chefs' specialities,
+such as "anything he cooks with onions is fabulous," or "she's famous for her
+cream sauces."  If those are the two specialities of the chefs of the day, then
+you can expect to find one item in each category that either features onions or
+cream sauce in the description; however, you may have to search all six menus
+to find them.
+
+     Among the employees is the wine steward, who you'll find in the wine
+cellar (I might as well make ONE thing obvious in the quest!).  In the example
+above, if you were to mention both onions and cream sauce to him, he would say
+something like, "Hmmm.... an interesting problem from a wine perspective.  The
+only suitable vintage would be the Lantia White."  Now you know the roster of
+foods and wine that are required for the quest.
+
+     The foods will be neither especially big nor expensive, although big
+enough that anyone smaller than a wanderer probably won't be able to finish
+them.  If you eat all of the required foods and drink the appropriate wine, and
+you don't do anything on the prohibited list above, you'll get a message some
+time after you leave the restaurant inviting you to join.  When you go to the
+club office, you can sign up and receive your bib of membership (Maniac - be
+sure there's a location for a bib that doesn't interfere with the medallion!).
+
+     The insufferable waiter will be of little help in this process.  Not only
+will he make it difficult for you to get menus for races other than you own
+(better just take 5 friends with you), but he will recommend dishes and
+beverages that will wreck the quest.  The chefs won't be very helpful either -
+as soon as someone joins, the kitchen shift will change, and new chefs with new
+menus will go on duty.  With any luck, this will be a particularly hard quest
+for anyone to pass along a run-through to his friends, and there's even a
+chance that someone will be invited to join without ever realizing what he did
+to earn the honor.
+
+1.3 Vomit Quest
+
+     I hear you asking, "does Calia really need a Vomit Quest?"  Alas, the
+answer is yes.  On the menu for each race is a single food that only members of
+that race can stomach.  For example, on the goblin menu you may see an
+appetizer of:
+
+     Chewy chicken chunks - chunks of fresh chicken quickly seared and served
+     with their own natural deep-red juices.
+
+     Heaving yet?  Well, if anyone but a goblin tries to eat this, he feels a
+strange sensation.  A few seconds later, his stomach is making really strange
+noises, and 30 seconds after eating this dish he emits a stupendous plume of
+vomit.  Of course the insufferable waiter is obliged to clean up the mess, so
+no invitation for this player, and even a tip won't earn you any xp today!
+
+     However, if the player leaves the room and vomits outside, he gets a
+little xp for showing such good sense.  He still won't be invited to join the
+club though.  Completing this quest also resets the Tip Quest bit.
+
+1.4 Cheapmeat's Pickle Quest
+
+     The Gourmet Club will have various suppliers throughout the domain, and
+probably a few in other domains eventually.  One of them is Cheapmeat, who
+specializes in ham.  Cheapmeat loves ham and pickle sandwiches and will ask
+players to bring him a nice big pickle, the biggest one they can get.
+
+     Pickles are cured on the north side of the Gourmet Club.  Saurkraut,
+smoked fish, and various other pungent foods are cured there as well.  There's
+a guard, but he's not much of a threat.  If you ask him what he's doing there,
+he'll tell you he's there to keep people from stealing the pickles.  But if you
+ask him nicely, he'll say, "Oh, if you ask, then I guess you're not stealing,"
+and he'll let you take a pickle out of the barrel.
+
+     The biggest pickles are on the bottom, out of reach of any player's bare
+hand.  But you can get some tongs in the kitchen.  The size of the pickle
+depends on how you go after it:
+
+     1. take pickle from barrel:  random pickle, small to large.
+     2. take pickle from bottom of barrel:  random pickle, large to very large.
+     3. take pickle from barrel with tongs:  random pickle, medium to huge.
+     4. take pickle from bottom of barrel with tongs:  first try - huge,
+     second try - enormous, third try - the Mother of All Pickles.
+
+     If you get the enormous pickle, its description will tell you that you've
+never seen such a large pickle.  If you get the Mother of All Pickles, you will
+feel confident that there can't possibly be a larger pickle in the barrel.  The
+reward you get when you give the pickle to Cheapmeat depends upon these
+factors:
+
+     1. Did you ask for the pickle (+) or kill the guard to get it (-)?
+     2. How big is your pickle?
+     3. Were you wearing metal armour on your arms (-) when you reached into
+     the barrel?  If you were, then your arm armour will quickly rust from the
+     brine.
+
+1.5 The Sausage Quest
+
+     I'll leave the details up to your imagniation.  This one can get as
+grotesque as you want.  The idea is to help Bollonio, a supplier to the Club,
+make his special frog-garlic sausage.  If you don't know how sausages are made
+in real life, well, you may just want to remain ignorant.
+
+                           2 The Intellectual League
+
+2.1 The Eastern Wing
+
+    2.1.1 The barking dog
+
+         The Zem master asvises you, "when you hear the yellow dog bark twice
+    at you, you will feel more experienced."
+
+         The yellow dog wanders around Gelan.  He's a friendly fellow and runs
+    away if attacked.  His sole purpose in life is to enlighten people on this
+    quest.  If a player asks the dog to "speak," he will bark once.  The player
+    receives a marker so that the dog will not bark at him again until
+    reboot/relogin.
+
+         The key to solving the quest lies in the Administrative Center.  The
+    Department of Redundancy Department has an echo chamber.  Any sound in the
+    echo chamber is echoed, as you might expect.  On your screen you'll see
+    such things as:
+
+    Uhclem lets go of a real rip-roarer.
+    Uhclem lets go of a real rip-roarer.
+    Uhclem peers at you quizzically.          /* Not a sound, not repeated. */
+    Uhclem asks you:  did you hear that?
+    Uhclem asks you:  did you hear that?
+
+         If you can lead the yellow dog into the chamber and then ask him to
+    "speak," you will hear him bark twice and get your xp.  To lead him in, buy
+    a bag of meat chunks ("walking meat") from the Gourmet Club and drop them
+    one at a time as you walk from wherever the dog is to the echo chamber.
+    He'll follow you in and give you about 1 minute to ask him to speak before
+    he gets distracted and goes off to play somewhere else.
+
+    2.1.2 The Ow
+
+         You are in a tidy, uncluttered chamber.  The walls are decorated in a
+    subtle pattern conducive to contemplation.  In the middle of the floor is a
+    single mat on which a Zem master sits cross-legged.  There are two obvious
+    exits:  east, west.
+    A Zem master.
+
+         > ask master task
+
+         The Zem master says:  The task is where you find it.  It lies within
+    the Ow.  [The master can spout all sorts of inscrutable nonsense.  Since
+    the quest occurs just one room away, he really doesn't have to tell you
+    anything.  But to give people a clue to the solution to the quest, he can
+    occasionally say "Do not be one with the object of your desire, but rather
+    be its object of desire."  Stuff like that.]
+
+         > ask master where
+
+         The Zem master points east.
+
+         > east
+
+         You are in a small room of exquisite Zem sparseness.  The walls are
+    decorated in a subtle pattern conducive to contemplation.  Against the back
+    wall is a Zem object, wholly enveloped in its Ow.  On the floor are two
+    mats.  There is one obvious exit: west.
+    Two Zem students.
+
+         > exa student
+
+         He is a student of Zem.  He sits on the mat and contemplates the
+    perfection of the relationship between the object and the room.
+
+         > exa object
+
+         This Zem object is complete in and of itself, and it conforms to the
+    needs of the room just as the room conforms to its needs.  Yet despite its
+    completeness, you feel that it represents a task for you to accomplish.
+
+         > exa ow
+
+         Your attempt is well-meaning, but the Ow is unfathomable.
+
+         > take object
+
+         To take the object would be to disturb the Zem perfection of the
+    room.  You decide to leave it where it is.
+
+         > search object
+
+         You find perfection, but it eludes your grasp.  [I figure we can code
+    an annoying Zem response to just about every action a player can perform on
+    the object.]
+
+         > exa mat
+
+         It's a small mat for sitting.  It has room for only one person at a
+    time, and it is currently occupied.
+
+         > kill student
+
+         [These guys won't be really ferocious fighters, so you can kill him,
+    but you'll make a mess of the mat in the process so you can't use it.
+    Assuming that you decide not to kill the student, the process might
+    continue as follows:]
+
+         > ask student mat
+
+         The student says: You would like to sit on the mat?
+
+         > nod
+
+         Unable to leave the Zem perfection of the room yet wanting to fulfill
+    your desire, the student draws a knife and plunges it into his own chest.
+    He rolls over and dies, leaving a vacant mat where you may sit.
+
+         > sit on mat
+
+         You sit on the mat.  The corpse of the Zem student is absorbed into
+    the Ow.
+
+         > contemplate object
+
+         [This could be the completion of the quest with an appropriate message
+    of enlightenment and, of course, experience.  But I think it would be fun
+    to carry it further a bit...]
+
+         The object mesmerizes you with its aura of the Ow which fills the
+    room.  This object was obviously destined for this room since the beginning
+    of Genesis.  It is of the room, both part of the room and separate from it
+    at the same time.  You wish you had the same relationship with this
+    mystical object as the room.
+
+         > be the room
+    -or-
+         > be room
+    -or-
+         > become room
+    -or-
+         > be one with the room
+    etc.
+
+         The object is of you, both a part of you and separate from you, as you
+    are now the object of its desire.  You release the Ow and achieve Zem!
+    You feel more experienced.
+
+    [This may be stretching it a bit, especially for players for whom English
+    is a second language.  But I thought I'd let you see my "extreme" version.
+    If we used it, I think we'd need to allow a lot of leeway in the wording of
+    the last command.  By the way, anyone else in the room should see "<Player>
+    goes owwwww...."]
+
+                     3 The Quest of the Seven Sacred Meats
+
+     This quest is given by members of the Meat Cult.  This cult is actually
+led by a few of the more intelligent krougs, who remain hidden most of the
+time.  They have stumbled upon some old documents in Kroug's library describing
+the Ritual of the Seven Sacred Meats, a ritual with such restorative power that
+it may even be able to revivie Kroug himself.  Fear and a lack of understanding
+prevent the krougians from trying this very dangerous ritual themselves, so
+they try to entice travellers to perform it.  Should the traveller succeed, the
+krougians hope to learn all the details and then assist Kroug in attempting it.
+
+     ["Meat Cult Meets at Noon" is a sign posted on the wall in a Firesign
+Theatre radio play, Don't Crush That Dwarf, Hand Me the Pliers.  There is never
+any reference to the sign or the cult in the action or dialog; it is merely an
+indicator of the surreal nature of Firesign radio productions that you can
+"hear" signs on the wall.]
+
+     I envision this quest as being very complicated and offering a variety of
+ways to get killed.  The mortal will have to arrange for a Master Chef (can be
+hired at the Gourmet Club) to do the cooking and range over the length and
+breadth of Calia to procure the ingredients.  We may even want to require a few
+foreign spices in the recipe.
+
+     Once the ingredients are all delivered to the chef, he prepares a
+seven-course meat feast which the mortal must eat.  The meats are different for
+each mortal - he can find out which are best for him by trying a variety of
+foods at the Gourmet Club.  Those which disagree with him in their 'normal'
+form in the restaurant will certainly kill him in their 'magic' form.  However,
+even if the mortal chooses the optimum seven meats, the resulting feast is
+still poisonous.  Dishes that may be part of the feast include the black meat
+of the giant aquatic centipede [inspired by William Burroughs' novel Naked
+Lunch], frog-garlic sausage, and bug tongue soup.  Further suggestions are
+always welcome!
+
+     The Surgeons Guild can prescribe herbs and elixirs that will counteract
+the effect of the magic feast.  Again, the remedies are different for each
+mortal.  On top of all that, the meats and remedies must be consumed in the
+proper order!  Some wise npc's at the Intellectual League can offer advice on
+this.
+
+     Once the mortal begins the feast, which takes some time, there is a
+disturbance which is felt back at Meat Cult headquarters.  The members want to
+know how the quest is performed, so they seek out the feasting mortal and try
+to observe him.  Alas, they also try to help, and their assistance is likely to
+be fatal.  Therefore, the mortal performing the quest will need the help of
+some friends to thwart the efforts of these 'helpers.'  They're not a big
+threat as far as combat is concerned, but they're persistent, so the friends
+may have to dispose of quite a few of them before the quest is complete.
+
+     Really smart mortals will discover the BIG secret of this quest:  there
+are eight sacred meats!  However, there is no special remedy for the eighth
+meat.  It delivers a standard heavyweight poison, and the mortal may need the
+help of alcohol, herbs, and standard healing spells to survive it.  Just for
+fun, the eighth meat causes convulsions and spasmodic behavior, so the mortal
+may find himself running around and babbling incoherently while the poison is
+in his system.  There's nothing dangerous about these actions except that it
+may cause the mortal to run away just when a friend is trying to cast a healing
+spell on him.
+
+     Assuming that the mortal completes the quest, he gets a final choice:  to
+report to the Meat Cult what has transpired (and thus help Kroug), to lie to
+the Meat Cult (and thus thwart Kroug), or to remain silent.  If he reports, he
+gets xp + alignment change toward evil.  If he lies, he gets xp + alignment
+change toward good.  If he does neither, he simply gets the appropriate xp.
+
+                                   4 Sponges
+
+     Sponge divers work along the coast south of Gelan.  There they dive for
+sponges, dry them, and sell them.  Players can dive for their own sponges if
+they want; all it takes is some swimming skill, a little awareness, and a good
+knife to cut the sponge's hold on the rock it occupies.
+
+4.1 The Sponge Quest
+
+     A sponge collector lives in a modest house in which he displays his
+impressive shelves of sponges.  There's the jagged black sponge, the large
+serrated sponge, the splendid sponge, the gold broadsponge... well, you get the
+idea.  There are 25 varieties of sponge available, each of which has a
+description inspired by a popular weapon.  Alas, the collector only has 24 of
+them!
+
+     The task is to bring the collector a sponge of a type he does not already
+own.  All the player has to do is note the 24 types on the shelves and then
+bring one that doesn't match any of them.  He can buy a sponge, but he gets
+extra points for diving for it himself, and extra points again if he takes the
+time to dry the sponge before presenting it to the collector.  When the
+collector accepts the sponge, he awards xp to the player, then places the
+sponge on the shelf.  In the process of displaying the new sponge, the
+collector will accidentally step on, drop into a hole in the floor, or
+otherwise destroy or lose one of the others, thus reducing his collection to 24
+again.  It will not be immediately obvious which sponge was lost - players will
+have to examine the shelves again to get an inventory.
+
+4.2 The Bath Quest
+
+     Install a bath house in Gelan near the lavatory.  This bath house will
+have tubs, each of which may accommodate two players at most.  The process of
+taking a bath is simple and provides only a tiny bit of xp.  You need to get a
+sponge and some soap; soap will be available at a Gelan store.  Pay the
+attendant to fill the tub with water, get into the tub, and then you can bathe
+yourself or your partner.  The fun part is in the mock-combat emotes produced
+by the sponge & soap if you wash someone else:
+
+     > Uhclem washes you!
+     > You aim for Uhclem's head with your splendid sponge but miss, slinging
+     soapsuds all over the room.  [others see you slinging soapsuds, and the
+     attendant probably makes some comment about having to clean up.]
+     > Uhclem lightly lathers your left arm with his jagged black sponge.
+     > You brutally scrub Uhclem's back with your splendid sponge.
+
+     [etc., etc., etc.
+     Depending upon stats and skills, one player is eventually cleaned.]
+
+     > Uhclem completely washes you from head to toe!
+       You drop your splendid sponge.
+       You have a strange feeling.
+       You are clean!
+
+     It may be possible to include some guild-based emotes, such as "<Calian>
+sneaks around your defenses and powerfully scrubs your head with his jagged
+black sponge," or "<Gladiator> lathers himself into a wild bathing rage," but
+these will take some coordination with the other domains.  I only envision at
+most two people at a time in a tub; if they want to wash in teams, they can go
+to the seashore or to the fountain in Gelan with their soap and sponges,
+although we should probably think of some fun "penalty" for doing this in a
+no-bathing area.
+
+4.3 The Sponge Thief Quest
+
+     The collector described above has a friend who shares this hobby, but
+someone has been stealing the friend's sponges!  The assignment is to identify
+the culprit, and the player who accepts the assignment is given a key to the
+friend's house.
+
+     The friend's house is easy to find, and he is never at home.  A player
+inspecting the house will find a locked room which the front-door key will
+open.  In this room is the sponge collection.  There will be any number of
+interesting items to examine, but few real clues.  Only a tiny window
+illuminates the room, and there are no hidden entrances.  In the area
+surrounding the house will be many npc's, and if questioned they will offer
+answers that sound suspicious but are merely red herrings.
+
+     A player can solve the conundrum by hiding in the room (there's plenty of
+stuff to hide behind).  If a player hides in the room for 1 minute, a tiny frog
+will enter through the window, grab a sponge, and exit - the player will have
+no opportunity to stop him.  By then exiting the house and going around the
+back to thw window he can begin tracking the frog back to its lair (only a
+player who has seen the frog can track it - anyone simply doing general
+"tracking" outside the house would not be looking for such tiny footprints).
+
+     Options at this point:
+
+     1. If the player goes back to the collector to 'identify frog,' the
+     collector will laugh and demand proof.
+     2. If the player should mistakenly identify anyone else, he will receive
+     less xp if he completes the quest during this session, not to mention some
+     abuse from the collector, who will always know of an alibi for the
+     accused.
+     3. If the player should, for any reason, take a sponge from the friend's
+     house, he will instantly be branded a sponge thief by the locals and be
+     forbidden to do any more quests in the area until next reboot.
+
+     The player must track the frog to his lair and then search for him.  The
+frog will be holding the stolen sponge in his mouth.  When he is found, the
+frog may be killed or taken.  If the player kills the frog, the sponge may be
+collected.  However, if the player takes the frog, a firm squeeze will make the
+sponge "pop" out of its mouth.  The collector requires the presentation of both
+frog and sponge to call the quest complete.
+
+     Completion options:
+
+     1. Present frog corpse and sponge to collector.  He remarks that the death
+     penalty was a bit severe for the theft of a sponge, but that the player
+     was only doing what he thought was necessary.  Standard xp awarded.
+     2. Present live frog holding the sponge in his mouth.  This is smoking-gun
+     proof, but the collector will insist that you separate sponge from frog.
+     You now have the choice of killing or squeezing the frog as above.  If you
+     squeeze the frog to release the sponge in the collector's presence, you
+     get bonus xp.
+     3. Present the live frog and the sponge separately.  If you squeeze the
+     frog before you get back to the collector, you ruin the evidence.  He will
+     not believe the frog stole the sponge - the quest is busted.
+     4. Big bonus - when you find the frog, search the same area again for
+     sponges.  You'll find a few.  Bring them with you and present them along
+     with the frog as in option 2 to get even larger xp.
+
+                         5 The Invade-the-Palace Quest
+
+     This quest is still in the early planning stages and involves getting into
+the palace by using magic fire to melt a hole in the wall.  It's an idea I've
+been bouncing around with Glykron and Maniac, and there are still some basic
+facets of how and why one would do this that remain to be settled.  The basics
+of the break-in process are described in the Chronicles in Annals of the Guild
+II.  In general, the process is evil, so this is an adventure strictly for
+enemies of Calia.  The steps in breaching the wall are:
+
+     Acquire ingredients.  Some of them are rare and hard to get, such as a
+     mineral from the Bleak Zone.  Others may require extraction from a victim,
+     which would be performed in Kroug's torture chamber.
+
+     Cast the spell to make the magic fire mixture.
+
+     Spread the mixture liberally on the palace wall.  To spread it properly,
+     you'll need a giant spatula that can be found in the Gourmet Club
+     kitchen.  The spatula is hung alongside all the other utensils, but nobody
+     in the Club seems to know what it's for.  The kitchen staff will usually
+     prevent people from stealing utensils, but they consider this one
+     worthless, perhaps suspecting it's a wallpapering tool placed here by
+     mistake, so they'll probably let you have it for a fee, or won't try too
+     hard to stop you if you grab it and run.
+
+     Ignite the mixture.  This is dangerous!  The mixture immediately generates
+     intense heat, and you're sure to get burned if you're standing next to it
+     lighting it with a torch or candle.  The damage it does is major, and even
+     to the biggest player there is a risk of death.  To make matters worse,
+     the flame from a candle or torch isn't quite right for generating the
+     concentrated heat against the palace wall - you'll damage it for sure, but
+     not make a hole you can go through.  Instead, you need a magic wand that
+     shoots tiny fireballs.  You can stand one room away and "fire east" and
+     have a pretty good chance of hitting the mixture with no danger to
+     yourself.  However, don't leave the wand out in the sunlight too long or
+     it weakens, and then you'd have to stand up close to ignite the mixture.
+
+     The next step has not been decided - do we want to have the infiltrator
+     steal something?  Write something on the wall?  Push over the altar (maybe
+     find something interesting underneath)?  Ideas are welcome.

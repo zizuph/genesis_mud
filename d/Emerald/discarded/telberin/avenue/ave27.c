@@ -1,0 +1,24 @@
+/* 
+ * Outer road of Telberin
+ * By Finwe, January 1997
+ */
+ 
+#include "default.h"
+ 
+inherit AVENUE;
+ 
+ 
+void
+create_avenue()
+{
+    add_my_desc("\n\n");                
+    add_exit(THIS_DIR + "rg06",  "north");
+    add_exit(AVENUE_DIR + "ave28", "west");
+    add_exit(AVENUE_DIR + "ave26", "southeast");
+    set_alarm(1.0,0.0,"reset_room");
+}
+ 
+void
+reset_room()
+{
+}

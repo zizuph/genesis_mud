@@ -1,0 +1,30 @@
+Ok, this one is really good, but I don't know how feasible it is. Anyway, here goes:
+
+There's a bitter old man in Michel Delving or somewhere complaining that he lost his son (a Shirriffe) to those stinkin' trolls in the Trollshaws. He would give anything if anyone was brave enough to take 'em out for him.
+
+Obviously, you can just kill all the trolls in the Trollshaws. Else it wouldn't be much of a quest.
+
+Anyway, here's what yon adventurer has to do.
+1) get the assignment from the bitter old man.
+2) Go to the trollshaws (obvious so far, right? )
+3) Go to the very bottom level of the tunnels beneath the
+   T'shaws.
+4) Sneak past or kill any troll he comes across.
+5) Find a (somewhat random) place in the bottom of the tunnels
+that seems to have a rushing sound of water behind it.
+6) Bash/kick/break/tear/rip the wall down, letting the water in.
+7) Manage to get out before the entire tunnel system is flooded.
+
+
+
+Codewise, we're going to have to do the following things:
+
+First, make a flood object that 'floods' the room and tells the room nice messages like "If you don't get out of here in five seconds, you will be drowned." This flood object should spread exit by exit through each room of the tunnels, just by breaking down the wall next to the underground river. ;) Adventurer gets time in a flooding room based on str and swim skill.
+
+Newbies will never get out of there alive. Nor will people who think they won't really drown ;)
+
+Just a thought of a quest that varied the 'retrieve-object' rut that I seem to have been in lately.
+
+Comments, suggestions welcome!
+
+Dunstable July 1994

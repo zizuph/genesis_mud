@@ -1,0 +1,38 @@
+
+There is a shop in Thranduil's Caverns,
+path: /d/Rhovanion/common/mirkwood/thranduil/shop.c.
+
+Pub in Thranduil's Caverns,
+path: /d/Rhovanion/common/mirkwood/thranduil/pub.c
+ 
+Shop in Goblin caves (misty mountains)
+path: /d/Rhovanion/common/misty/gcaves/shop.c
+
+Ratfarm in Goblin caves
+path: /d/Rhovanion/common/misty/gcaves/rat_farm.c
+
+Shop in Esgaroth
+path: /d/Rhovanion/common/esgaroth/es-5-12.c
+path: /d/Rhovanion/common/esgaroth/es-5-12.c (special pack shop)
+
+Pub in Esgaroth (two)
+paths: /d/Rhovanion/common/esgaroth/ es-4-4.c and es-10-4.c
+
+Rat House in ltown_ne (Large Town, NE) in Rhun
+path: /d/Rhovanion/common/rhun/ltown_ne/bldgs/rats.c
+
+Pub in Large Town, SW side of Bay, NW corner, Sea of Rhun
+path: /d/Rhovanion/common/rhun/ltown_sw/bldgs/bar.c
+
+Shop in Large Town, SW side of Bay, NW corner, Sea of Rhun
+path: /d/Rhovanion/common/rhun/ltown_sw/bldgs/shop.c
+
+Shop in Small Town #3 of Rhun
+path: /d/Rhovanion/common/rhun/stown3/shop.c
+
+Shop in shield_club_guild
+/d/Rhovanion/common/shield_guild/shop.c
+
+Pub in shield_club_guild
+/d/Rhovanion/common/shield_guild/pub.c
+

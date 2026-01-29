@@ -1,0 +1,99 @@
+Updated camp of Golbar warriors
+
+Purpose: Increase the size of the camp to provide a larger hunting area than today.
+
+Today the camp consists of six smaller NPCs and the camp leader, located in the forest (wild) north of Cadu.
+The camp will be moved to a more thematic place, close to the water (warriors comes from an Island).
+Old camp site will be shown as abandoned. Perhaps mayor can give a hint that prior spies has found them in the forest, but no more. Now rumours are that the drunken sailor saw something at the pier. The drunken sailor could give hint that he saw people land with a small boat east of the pier.
+
+The new camp will consist of eleven more rooms with two-three NPCs, each "layer" providing slightly tougher oponents but nothing out of the ordinary.
+They will stay within the existing size, guards smallest with 35 and camp leader biggest with 80.
+
+The magical map for Cadu will receive only a minor update, a new exit from the room marked X2. When leaving from either of the three rooms X1, X2 or X3 it will load a new map over the camp as further below.
+
+     _____
+    /    /`.                 |
+   /____/   `.               o
+  /     `.   /       ____     \ /     _____
+ /========`./\      /   /\ o   o     /    /\
+  \    .  \  /     /___/ /  \ /     /____/ /
+   \__\ \__\/      \___\/    o      \____\/
+                         PO  |                      _______
+         o   Pigeons o - o   o                     /      /|
+Pub      |           |   |   |         Store      /      / |
+ o - o - o - o - o - o - o - o   _____  o        /______/  |
+     |       |   |       |   |  /    /\ |       |       |  |
+     o       o   o       |   | /____/ / |       |       | /
+~~~~~        |   AG  o   |   | \____\/  |       |__[]___|/
+   ~~~   o - o       |   |   |          |
+     ~~~~~   |  Inn [ ]  o - o - o ---- o           _______
+         ~~~ o       |   |\  |  /|      |          /      /|
+           ~~~~~     |   | \ | / |   o  |         /      / |
+        ~~~~~~~~     |   |  \|/  |   |  |        /______/  |
+          ~~~   Cafe o - o - & - o - o  o Bank  |       |  |
+           ~~~~          |  /|\  |   |          |       | /
+          ~~~~           | / | \ |   o Casino   |__[]___|/
+           ~~~~          |/  |  \|
+            ~~~~     o - o - o - o ---- o Smith
+             ~~~~  Mayor     |   |
+               ~~~~~~~~~~    X1  o Library   _____
+                ~~~~~~~~~~   |              /    /\
+                  ~~~~~~~~   o     _____   /____/\/
+                    ~~~~~     \   /    /\  \____\/
+                      ~~~~~~   o /____/ /  o
+             ~~~~~~~ Tailor    | \____\/   |
+               ~~~~    o   o   o      o - [ ] - o
+                ~~~~~  |   |   |           |
+               o - o - o - o - o - o - o - o - X2
+                ~~~~~~~~~~     |
+                 ~~~~~~~~~~    o P2  Snack    Drink  Public     
+ GSL - Office     ~~~~~~~~~~   |     Stand    Stand  Toilet       
+ P1 - Sparkle       ~~~GSL o - o - o - o - o - o - o - o - o - X3
+ P2 - Circle Line    ~~~~~~    |   PX      P3      P4      P5 ~~~~
+ P3 - Port Macdunn  ~~~~  [ ]  |                ~~~~~~~~~~~~~~~~
+ P4 - Sa Morgan      ~~~~  |   |    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ P5 - Eil Galaith   ~~~~   o - o P1    ~~~~~~~~~~~~~~~~~~~
+ PX - Unused         ~~~~  |     ~~~~~~~~~~~~~~~~~~~
+                      ~~~ [ ] ~~~~~~~~~~~~~~~~~~~~
+ 
+X1 - New non-obvious exit to SE, but faint hint in room description (perhas skill dependant?) that there are signs of people walking off the road
+     Starts a non-obvious trail to new Golbar Camp, east of the orc playground
+X2 - New obvious exit leading to a path, which will show a new magic map, the the Golbar Camp
+X3 - Last pier will receive a ladder leading down to a beach room. There signs of activity will show.
+     Dragmarks of small boats, and people leaving the beach north into a path to the camp.
+     
+	 
+New map over Golbar camp and paths leading to it     
+                                                               2 - 2
+                                                             / | X |
+                             X1        o - o - o - o - e - 1 - 2 -[ ]
+                              \      /                     | X | X | \
+                               3 - o                       1 - 2 - 2 - 2
+                                                             \ | X | X |
+                                                               1 - 1 - 1
+                                                             /         |
+                                                       o - e           e
+                                                     /                 |
+                                               X2- o                   o
+                                                                     /
+                                                                   o
+                                                                   |
+                                                               X3->o
+                                                               
+
+e - Outside camp, existing guards blocking entrance to camp. Used in quest (needs to be killed, or bypassed unseen).
+    Untouched stats (35) and eq.
+1 - Existing warriors, untouched stats (35) and eq.
+2 - New warriors, slightly higher stats (50) and slightly better eq.
+[ ] - Outside tent: new warriors, higher stats (70) and better eq. 
+      Inside tent: existing room with existing camp leader, untouched stats (80) and eq.
+3 - Two hiding warriors, spying on the road to the town. New warriors level (50)
+   
+Prerequisite - The mayor's quest should not become any harder.
+Existing quest - spy on camp. Player needs to enter camp, find the tent and go into it. Existing guards blocking camp entrance untouched, no change to quest. Camp consist of non-aggressive npcs, so no changed difficulty to walk in camp just a bit harder to find the tent. Tent with leader left unchanged.
+
+Notes:
+NPCs are refered to as evil but neutral or close to it; guards (0), warriors (-10) and leader (-50). Increase evil align?
+The squad is from "evil island Golbar" - introduce new island Golbar?
+
+The last quest from the mayor ends with retrieving this strange stick - possible to continue the story and actually use the stick? Possible way to make people aware of Golbar island?

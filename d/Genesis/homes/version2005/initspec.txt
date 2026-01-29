@@ -1,0 +1,400 @@
+Houses for mortal players
+
+1. General
+
+Various ways of enhancing the game of the players of Genesis have been
+debated. The ones that serve alternative to playing a killing machine
+receive top priority. Houses for the mortal players are seen as a such
+alternative.
+
+2. Purpose
+
+This document is proposing a specification for the initial stage of
+introducing rudimentary houses for players' usage. It is by no means 
+final and doesn't need to be implemented fully as well. This document
+does not discuss even vague software engineering aspects of the
+implementation. 
+
+The houses will provide players:
+* with a luxurious status
+* with a way to spend the mighty financial assets they collected
+* with certain benefits owner of a house receives
+* with additional objectives against houses of their enemies
+
+The houses will provide the game:
+* with the infrastructure for erection of new buildings by players
+* with an open road to develop more intricated structures such as
+  o forts
+  o guildhouses
+  o commanding of npcs
+
+  
+3. Method
+
+A. The 1995 version
+
+Ten years ago an attempt to create such a system was launched. Despite
+the honest effort, the process waned slowly and the design is started
+anew. Nevertheless it is possible that the some from 1995 version will
+still be used.
+
+B. The 2005 version
+
+This document indicates the project being restarted. No team was
+drafted for it so far, but the first signs indicate that the
+specifications for the project will be prepared by Tapakah, Arch of
+Players, with close participation of 1995 version author, Mercade,
+Arch of Mudlib.
+
+4. Definitions
+
+* Room - a space with exits that may be arbitrarily described and
+  contain various objects. Each room shall have a single-word
+  description as well.
+
+* House - a set of one or more rooms with one or more exits, at least
+  one of which is used to get from a room outside the set into the room
+  inside and vice versa. House is located next to the room it is
+  ordered in and has a separate description.
+
+* Exit - a way between two rooms, may be two-way or one-way and may be
+  provided via doors.
+
+* Doors - a manageable blocker of an exit, gates are considered same
+  as doors, and both may have locks, and also may be opened, closed or
+  broken.
+
+* Locks - a device installed upon the doors or the gates which disable
+  or enable their opening. The locks may be locked, unlocked or
+  picked.
+
+* Descriptions - short and long descriptions of rooms and the items
+  listed in the room.
+
+* Objects - concentrations of matter that may be practically and
+  theoretically moved between rooms.
+
+* Containers - objects that may contain other objects.
+
+5. Location
+
+On the place where the house is ordered to be built, upon the
+completion of the house it appears as an object. A new exit, 'enter'
+is added to that room that leads into the house.
+
+While in general the location of the house is arbitrary, the following
+limitations may be considered:
+1) Two houses may not be built adjacent to the same spot.
+2) A house may not be built adjacent to a room that is an INSIDE room.
+3) A house may not be built adjacent to a room that has an 'enter' exit.
+4) A house may not be built on a set of terrains.
+5) A house may not be built in a room that has a property forbidding it.
+
+Alternatively, a property for a room might be introduced that DOES
+allow building a house. The houses won't be buildable in any other
+rooms then.
+
+6. Contents
+
+Obviously, in potential houses may have as rich contents as human
+imagination is. Nevertheless an attempt to classify and prioritize the
+contents of the house is made below:
+
+A. Descriptions
+
+Any descriptions that are within the rules of the game (i.e. no
+harrassment, quest information, etc.) can be used for a room or for a
+house.
+
+Special note about windows: in general, windows are, of course,
+allowed. But at initial stage, to avoid burglary conflicts, they will
+be reinforced with grates or placed too high for reach.
+
+B. Objects
+
+Any object in the game that is available for carrying and doesn't have
+problems with inside rooms may be brought into the house. The glowing
+items may be set to reload when reboot catches them inside.
+
+o Developer's note: limit each room's volume.
+
+See also 9.C Carpenters and 9.D Freighters.
+
+C. Containers
+
+Similarly to the objects, various containers may be placed in the
+rooms. See also Developer's note in 6.B. Objects and points 9.C
+Carpenters and 9.D. Freighters below.
+
+D. Doors
+
+Exits between the rooms might be filled with doors which must be
+ordered separately. The descriptions of doors may be arbitrary
+complying with the rules of rooms' descriptions. The doors may have
+locks that must be purchased separately. The doors may be broken by
+applying a great force and/or using bludgeon weapons or
+explosives. The broken door cannot be locked or fixed and must be
+ordered anew.
+
+E. Exits
+
+Normally, the rooms will have exits that work both ways. The house
+initially shall have one exit communicating with the outside
+world. The exits shall be named either as geographic directions or as
+room one-word descriptions.
+
+o Developer's note: later one-way exits, non-obvious exits and
+  multiple exits to outside world may be considered.
+  
+7. Access
+
+The statements below refer to entering the house, exiting it and
+travelling between house rooms altogether.
+
+Normally, without a door, or with open door, anyone can enter the
+house. When the entrance door is closed but unlocked, it should be
+opened or broken first.
+
+A. Locks
+
+A lock prevents the door from opening. Any lock may be picked up. The
+lock doesn't protect the door from being broken as well.
+
+A unique key would fit the lock. See 9.B. Locksmiths for multiplying
+the keys.
+
+o Developer's note: for a great price or on special condition
+  non-pickable locks may be supplied.
+
+B. Thieves and Burglars
+
+As stated before, in general nothing protects a house from a
+robbery. Better locks and doors help guarding the house. See also
+13.A House enhancements and 13.B House expansions on possible future
+protections.
+
+o Developer's note: allow conditional hints discovery about an
+  occurred robbery.
+
+C. Snoops
+
+The houses shall be snoopable at least by Lieges of the domains the
+houses are located in and arches.
+
+8. Actions
+
+The house rooms will immediately allow certain roleplaying actions to
+be performed by the player. Objects present in the room may add
+actions regardless of the actions defined by the rooms themselves.
+
+A. Startloc
+
+A house room can be turned into startloc for a player.
+In addition meditation may be allowed in a room of the house.
+
+B. Commands
+
+Aside from pure RP actions, a command 'relax' or likewise may be
+allowed to improve restoration of fatigue for a player inside his or
+her own home.
+
+9. Ordering
+
+The ordering in general is similar to armour/weapon ordering procedure
+of Genesis public smithies or clothing shops. The differences are
+listed below:
+
+* Houses with initial doors, locks, keys and possibly generic
+  furniture are ordered directly from the stonemasons. The player
+  finds a spot for his or her house and summons a stonemason foreman
+  to it, and if the location (see 5. Location) is approved, the
+  construction shall start.
+
+* As the project develops additional improvements may be bought - new
+  rooms built, new locks purchased from locksmiths, new objects made
+  by carpenters. Too heavy objects may be carried by freighters.
+
+All the craftsmen named above would prototype future craftsmen guilds.    
+They're described more detailedly below. All the craftsmen have
+synchronized offices in various locations on the Donut.
+
+A. Stonemasons
+
+They are the builders of the house. They will have offices around the
+Donut where they would advertise their services. The service is
+performed as following:
+
+1) The potential customer is handed a special messenger that should be
+   sent from a location where the customer wishes the house to be
+   built.
+2) When the message is sent, a foreman arrives immediately and
+   evaluates whether the proposed place is suitable for the house
+   according to 5. Location. If it isn't, a new messenger is handed
+   and cycle repeats.
+3) If the place is suitable, the foreman starts to construct an order
+   in the way smiths do:
+   o Number of rooms
+   o Names and descriptions of the rooms
+   o Exits
+   o Doors
+   o Locks
+   o Generic furniture
+4) After the order is complete, the construction starts and takes some
+   time. An advance payment has to be made. When the house is
+   completed, the payment can be done in several transfers, but only
+   when the payment is complete, the player can use the house (until
+   then the 'enter' exit is blocked)
+
+   o Developer's note: consider allowing review of insides.
+
+Pricing: Consult AoB. A draft proposal would be:
+House: 1000 plats + 5000 plats per room
+Doors: 200-600 plats per door
+Locks: 400-1600 plats per lock, 10 plats per extra key.
+Furniture: 100-600 plats per item
+      
+B. Locksmiths
+
+They are makers of locks and may multiply the keys. They will have
+offices around the Donut. The service is performed as follows:
+
+1) Multiplication of keys is done on the spot.
+
+2) Purchase and installation of the lock. When the lock is ordered,
+   the locksmiths know how to locate player's house and install the lock
+   themselves.
+
+Pricing:
+Keys: 10 plats per key
+Locks: 400-1600 plats per lock
+
+C. Carpenters
+
+They can make objects for use of players' and the new doors. They will
+have offices around the Donut. The service is performed as follows:
+
+1) Some items may be done on the spot. The order procedure resembles
+   the one of a public smithy. The following items may be considered:
+   o beds
+   o wardrobes
+   o racks
+   o cupboards
+   o tables
+   o desks
+   o others
+   
+2) Some of the items may be too heavy for a player to carry. The
+   player may then ask for a delivery to his own house or organize the
+   delivery by him/hefself.
+
+Pricing:
+Beds: 20-60 plats
+Wardrobes: 50-800 plats
+Racks: 30-500 plats
+Cupboards: 100-400 plats
+Tables and desks: 30-100 plats
+Deliveries: function of price, weight, volume and distance of delivery.
+
+See also Developer's Note 2 in 9.D Freighters.
+     
+D. Freighters
+
+They have carts and wagons and are also of great strength. They can
+haul objects for players around the Donut. Their offices are in major
+cities of the world. The service is performed as follows:
+
+1) The player arrives at the office and places an order. The office
+   knows a set of destinations. All the carpentry offices and all
+   players' houses are known destinations. The order also contains the
+   name of the object or of objects to transfer.
+
+2) The player must pay an advance payment and then the order is being
+   performed.
+
+3) On any difficulties in delivery process, a messenger would be sent
+   out to the customer and a meeting location will be proposed.
+
+o Developer's note: would the freighters actually travel, or transfer
+  momentarily.
+o Developer's note #2: should delivery into locked houses occur?
+
+E. Maintenance
+
+In prospect, any items supplied by Stonemasons, Locksmiths and
+Carpenters may wear out and request fixing or replacement.
+
+10. Control
+
+Logging of some of the procedures performed during house construction
+and enhancement should be logged. Also possibly all entrances to the
+houses should be logged.
+
+Considering the financial sums involved, all transactions should also
+be logged.
+
+Our players are very creative. We will surely run into some unintended
+usage and thus we may be forced to cooperate with mortals during the
+whole process of development to achieve best results.
+
+11. Implementation
+
+A. Method
+
+For the near time, only text documents will be rotated. Only after the
+minimal set of features for the prototype is finalized and
+well-defined and the regular set of features is also normalized and
+clear by about 90% will the prototype be created.
+
+B. Process
+
+The following aforementioned features are considered mandatory for the
+most slim prototype:
+
+- 5., 6.A, 6.B, 6.C, 6.D, 6.E, 7.A, 7.C, 8.A, 8.B, 9.A
+
+12. Testing plan
+
+When a rudimentary house is completed well enough to try and use it on
+the players.
+
+A. Area
+
+The preferred area for testing is the Khalakhor area north of Port
+Macdunn which is mundane plain area.
+
+B. Participants
+
+Although juniors are always available, we might consider involving
+more experienced and trustworthy players for the pilot, considering
+exposure of unintended usage and addition of creative ideas.
+
+13. Future developments
+
+Very briefly.
+
+A. House enhancements
+* Additional exits to other outside spaces.
+* Windows
+* Traps
+* Fancy objects
+
+B. House expansions
+* Gardens
+* Hedges
+* Guard dogs
+
+C. Other buildings
+* Guild houses
+* Player-run inns
+* Forts
+* Barracks
+* Warehouses
+
+D. Servants
+Hireable npcs to perform various tasks:
+* Guards
+* Maintenance
+* Craftsmen
+* RP
+* Trainable?
+

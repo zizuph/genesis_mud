@@ -1,0 +1,40 @@
+/*********************************************************************
+ * - dagger.c                                                      - *
+ * - Created by Damaris 3/2003                                     - *
+ *********************************************************************/
+#pragma strict_types
+inherit "/std/weapon.c";
+#include <stdproperties.h>
+#include <macros.h>
+#include <wa_types.h>
+#include <ss_types.h>
+#include <formulas.h>
+#include "/d/Khalakhor/sys/basic.h"
+
+void
+create_weapon()
+{
+    set_name(({"dagger", "knife"}));
+    set_pname(({"daggers", "knives"}));
+    set_short("slender dagger");
+    set_adj(({"slender"}));
+    set_long("This is a " + short() + " it is a lighter than "+
+      "normal daggers. There are small etchings along "+
+      "the slender handle.\n");
+    add_item(({"etching", "etchings"}),
+      "The etchings along the handle are faded.\n");
+    add_item(({"handle", "slender handle"}),
+      "The handle is slender with etchings along the side.\n");
+    add_item(({"blade"}),
+      "The blade is two sided and appears to have a jagged edge "+
+      "to one side.\n");
+    add_item(({"jagged edge", "edge"}),
+      "The jagged edge has a sheen to it.\n");
+    set_default_weapon(14, 14, W_KNIFE, W_SLASH | W_IMPALE, W_ANYH);
+    add_prop(OBJ_I_VALUE, query_prop(OBJ_I_VALUE)+random(1000));
+    set_wf(TO);
+    set_likely_dull(5);
+    set_likely_break(5);
+
+}
+

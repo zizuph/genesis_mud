@@ -1,0 +1,46 @@
+make a road to archet, and also some houses there.
+Make some hobbits in some real live houses there.
+Make a small Inn/pub there too
+The place must have a quest before opening!
+
+Archet1.c 	- Just east of the Old North road, in some shrubs.
+Archet2.c 	- North of the Bree-hill.
+Archet3.c 	- At the edge of Chetwood.
+Archet4.c 	- Inside Chetwood, west an opening can be seen, 
+			  east only woodlands.(w,e)
+Archet5.c 	- Inside Chetwood, Only forest all around.(w,e)
+Archet6.c 	- Inside Chetwood, a road leading southwest.(w,e,sw)
+Archet7.c 	- Inside Chetwood, some settlement seen further east.(w,e)
+Archet8.c 	- Archet.(w[archet7],e[archet9],n[archet8n],s[archet8s])
+Archet9.c 	- Archet.(w[archet8],e[archet10],n[archet9n],s[archet9s])
+Archet10.c	- Archet. North of a small Inn, offering food.(w,e,s,n)
+Archet11.c	- Archet. Outside a building, where a timberman lives.
+Archet12.c	- Archet. (nw,n,e)
+Archet13.c	- Archet. (w,e)
+Archet14.c	- Archet. (n,w,e)
+Archet15.c	- Archet. (nw,w,e)
+Archet16.c	- Archet. Outside a small cottage. Here a timberman will live.
+				He has trouble with cutting some wood for his fire and need 
+				some help. Go to Archet11n and enter the forest there.
+				You will come to a tree, which suits you, cut it down and 
+				carry it with you to him. He will then tell you that he 
+				cant light the fireplace with a whole tree. Maybe an idea
+				to go find a saw, and cut the tree in nice, suitable pieces.
+				EXP - Something around 2000xp I guess. Rather easy. Might
+				be hard to find the right place to enter. Might be hard to
+				know that you need to cut the tree. Need awareness > 40.
+
+
+											 8n- 9n- 10n- 11n - forest
+		  									 |	 |	  |	   |
+Old North Road - 1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 10 - 11
+									/		 |	 |	  |	   |
+								  6_1 		 8s- 9s  Inn  11s - 11se
+								  /			  \	 |		   | \	 |
+								6_2			    12 - 13 - 14-15-16 - cottage
+								/										|
+							  6_3								where to cut the wood
+							  /									=====================
+							6_4
+							/
+							Bree-hill

@@ -1,0 +1,16 @@
+-The Shadow Walkers of Kabal (layman thief guild)
+
+  All the guild files are in /d/Kalad/common/guilds/shadow_walkers/
+  with the soul being /shadow_soul.c
+  shadow in /shadow_shadow.c
+  and joinroom in /joinroom.c
+
+The tax file is: /TAX
+skills: 3%
+traps: 2%
+bombs: 2%
+steal: 3%
+
+Total Tax is 10%
+
+More detailed information are to be found in the mentioned directory.

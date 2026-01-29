@@ -1,0 +1,259 @@
+***************************************************************************
+**        Descriptions of rooms in DEPHTEMP area  - see map for refrence **
+***************************************************************************
+NOTES:
+   rooms: all found in ~zima/argos/dephtemp/rooms
+   obj:   all found in ~zima/argos/dephtemp/objects
+   npc:   the monsters in the room, found in ~zima/argos/dephtemp/monsters
+   quest: location of quest objects and hints
+ 
+ZIMA/ARGOS/NWTERR/ROOMS/FOLD.C - sheep fold where lamb is found
+              npc: Lamb (NWTERR/MONSTERS/LAMB.C) can only be attacked if
+                      attacker is wearing robe/medallion and wielding
+                      the sacred dagger.
+                   Lamb's corpse needed to do quest.
+              obj: LAMBBODY.C - this "corpse" replaces the regular corpse
+                   and does not decay. needed for quest.
+ 
+ANTERME.C   - Eastern anteroom of sanctuary - a meeting hall
+              quest: Delta tome found here
+              obj:   TOMED.C found with 'take tome from pulpit'
+ 
+ANTERMW.C   - Western anteroom of sanctuary - a meeting hall
+              quest: Gamma tome found here
+              obj:   TOMEG.C found with 'take tome from pulpit'
+ 
+ARMOURY.C   - Armoury/forge of the temple
+              obj: FOHAMMER.C, SWORD.C - just found laying on anvil
+                   (free loot).
+ 
+CAPTNGRD.C  - Office of the captain of the guard
+              npc:   CAPTNGRD.C
+              quest: 8th scene/prayer found on tapestry.
+              obj:   CPTNSEAL.C - the Captain gives these to anyone who
+                                  requests them
+              The player may 'request permission from captain' here and
+              receive the captain's seal; with the seal, the TOWGUARDs
+              in STAIR1/2 will allow the player to pass.
+ 
+CHAPEL.C    - Prayer Chapel of the temple
+              quest: If the player is wearing robe/medallion and is poisoned
+                        by the sacramental wine which has received the
+                        "blessing of the talisman", the player can
+                        'pray for revelation' and get the text of the
+                        scene he must find in the artwork of the temple.
+                     If the player is wearing robe/medallion and is poisoned,
+                        he can 'pray <prayer assigned to scene>' here and
+                        receive the 'blessing of being chosen', indicated by
+                        the invisible object VDQBLESS.C
+              special: To pray properly, the player must 'kneel before altar'
+                       which gives him the VDQKNEEL.C invisible object.
+                       The player can not go west (out of room) until he
+                       does 'rise from meditation', which removes the
+                       invisible kneeling object. This instruction is
+                       given if the player tries to exit while kneeling.
+              obj: VISKNEEL.C (invis) - given at   'kneel before altar'
+                                        removed at 'rise from meditation'
+                                        required to do prayers
+                   VISBLESS.C (invis) - given when player prays the correct
+                                        prayer assigned to him.
+                                        required to take 'take dagger from
+                                        pedestal' in SACRIS.C
+ 
+CLASSRM.C   - Classroom for children and novice priests
+              quest: - Beta tome found on poteum
+                     - Plaque on wall lists letters of Greek (Argosian)
+                       alphabet in order. This is the key to reading the
+                       seven tomes in order, as they are each marked by
+                       a letter of the Greek alphabet (alpha tome, etc)
+              obj:   TOMEB.C
+ 
+CORRxy.C    - Corridor rooms through the temple, x=level, y=corr room #
+              12, 14, 16, 18: npc:   CORGUARD.C (1)
+              26:             quest: Sculpture with 13th scene/prayer
+              28:             quest: Sculpture with 7th  scene/prayer
+ 
+COURT.C     - Courtyard in front of temple
+ 
+DINE1.C     - Dining Room (north)
+              quest: 6th scene/prayer found on mural here
+              obj:   DBOWL.C, DGOBLET.C - just some loot that can be
+                        taken with 'take bowl/goblet from table'. These
+                        "dirty" objects can then be taken to KITCHEN.C
+                        to be washed, increasing their value.
+ 
+DINE2.C     - Dining Room (south)
+              quest: 3rd scene/prayer found on mural here
+ 
+FOYER.C     - Foyer (Entrance room) of the temple
+ 
+HIERCHAM.C  - Hierophant's chamber
+              npc:   HIERPHNT.C - The leader of the Order
+                     ATKRAVEN.C - 6 of these appear when the Hierophant
+                                  is attacked and she casts a spell to
+                                  create them. They auto-attack.
+              quest: the robe is found here
+              obj:   VISROBE.C found in wardrobe; do 'take robe from
+                        wardrobe' to get it.
+ 
+KITCHEN.C   - Kitchen of the temple; food being prepared
+              npc:     OLDSERV.C, YUNGSERV.C - "good aligned"
+              special: If player finds dirty bowl (objects/dbowl) and/or
+                       dirty goblet (objects/dgoblet) in the dining room
+                       (DINE1.C), he can 'wash bowl' and 'wash goblet'
+                       here which cleans them up and increases the value
+                       of the objects 5 times. (nothing to do with quest,
+                       just something to do to get loot).
+ 
+LIBRARY1.C  - Front room of library
+              npc:   LIBRARYN.C
+              quest: The librarian gives hints to read books in temple
+                     for "wisdom"
+ 
+LIBRARY2.C  - Central room of library
+              quest: books on shelves can be read to give history of the
+                     Order, which are in turn hints for the quest.
+ 
+LIBRARY3.C  - Back room of the library - room where sacred scrolls are kept
+              quest: 2 of the 7 scrolls are found here, Alpha (first) and
+                     Eta (last).
+              obj:   TOMEA.C, TOMEE.C - 'take tome(s) from altar'
+ 
+LOUNGE.C    - Lounge/rec-room of temple
+              npc: ELDERPST.C (2) - two old priests playing a chess-like game
+                                    to kill for loot
+              quest: Epsilon tome found here
+                     5th Scene/prayer found here on mural
+              obj:   TOMEE.C - 'take tome from desk'
+ 
+MASTRNOV.C  - Office of the Master of Novices
+              npc:   MASTRNOV.C
+              quest: Fourth scene/prayer found on tapestry
+ 
+QRTPRN.C &  - Priests' quarters.
+QRTPRS.C      npc: QRTPRST.C (3) - someones to kill for loot
+ 
+QRTPRW.C    - Training room
+              npc: PRACPRST.C (2) - young priests practicing/training
+ 
+QRTPSE.C    - Priestess' quarters, bathing pool
+              npc: BATHPRST.C - to kill for loot.
+              has some artwork, but none helps for quest :(
+ 
+QRTPSN.C    - Priestess' quarters
+              npc:   QRTPRSTS.C (3) - someones to kill for loot
+              quest: Zeta Tome found here
+              obj:   TOMEZ.C - with 'take tome from desk'
+QRTPSS.C    - Priestess' quarters
+              npc:   QRTPRSTS.C (3) - someones to kill for loot
+ 
+QUARTNPR.C  - Novice Priests' quarters
+              npc:   NOVPRST.C (3) - lower levels to kill for loot
+              quest: 10th scene/prayer found here
+ 
+QUARTNPS.C  - Novice Priestess' quarters
+              npc:   NOVPRSTS.C (3) - lower levels to kill for loot
+              quest: 11th scene/prayer found here
+ 
+QUARTCH.C   - Children's quarters
+              npc:   CHILD.C (4) - little someones to kill for loot
+              quest: 1rst scene/prayer found on picture here
+ 
+QUARTSLV.C  - Servants' quarters
+              npc: ASERVANT.C (3) - "good aligned"
+ 
+RECEPT.C    - Reception chamber of the temple; a meeting of "rebel allies"
+              is forming here. This is why the Dephonians aren't "too"
+              upset about outsiders wandering about--they are expecting guests.
+              npc: RECKRETN.C - representative of Kretos
+                   RECNOBLE.C - representative of rebles inside city of Argos
+                   RECPRSTS.C - hostess for meeting
+              obj: BACHLAVA.C (8) - refreshments (pastries); found on tray
+                   OUZO.C     (4) - refreshments (beerlike); found on tray
+              quest: 9th scene/prayer found here.
+ 
+PORTICO.C   - Portico (front porch) of the temple
+              npc:   PORGUARD.C (3)
+              quest: The 12th scene/prayer found on ceiling here
+ 
+SACRIS.C    - Sacristy of the temple - where sacred objects are kept
+              npc:   SACRIS.C - the sacristan, gives some quest hints
+              quest: This is where the 3 sacred objects needed to do the
+                     quest are found, each on one of three pedestals in
+                     the room.
+              obj:   ARMOURS/VISMEDAL.C - medallion of dephonia
+                        player must wear this in all parts of the quest
+                        player must wear the hierophant's robe
+                           (armours/visrobe.c) found in her chambers
+                           (HIERCHAM.C) to 'take medallion from pedestal'
+                     WEAPONS/VISDAGGR.C - sacred dagger
+                        needed to kill the 'innocent' lamb
+                           (~zima/nwterr/monsters/lamb.c) found in the fold
+                           (~zima/nwterr/rooms/fold.c)
+                        player must wear robe/medallion and be blessed in
+                           chapel (have VDQBLESS.C invis obj) to
+                           'take dagger from pedestal'
+                     VISBOWL.C - ritualistic bowl to hold blood of the lamb
+                        needed to do final rite in SANCT.C
+                        player must wear robe/medallion and have the lamb
+                           corpse (objects/lambbody) to
+                           'take bowl from pedestal'
+ 
+SANCT.C     - Central Sanctuary of the Temple; where 'final rite' is done
+              quest: This is where the 'final rite' is performed and where
+                        the quest EXP is given.
+                     Player must wear robe/medallion and have the bowl
+                        and lamb corpse to start.
+                     'fill bowl with blood' - fills the bowl with blood
+                        from the corpse
+                     'drink from bowl' - adds VDQDRANK.C invis object to
+                        the player
+                     'place corpse on altar' - must be dressed and have
+                        VDQDRANK.C object
+                     'shout praise unto the Light of Darkness and to Our
+                        Mother who brings it.' - removes the quest objects
+                        and gives the quest exp.
+              obj: VDQDRANK.C - invisible object given to player when he
+                      does 'drink blood from bowl'; removed at end of quest.
+ 
+STAIR1.C    - Stairwell between levels; first level
+              npc: TOWGUARD.C (1) will not allow player to go up unless
+                     he has the Captain's seal (objects/cptnseal.c) gotten
+                     in CAPTNGRD.C
+ 
+STAIR2.C    - Stairwell between levels; second level
+              npc: TOWGUARD.C (1) will not allow player to go up or north
+                       unless he has the Captain's seal (objects/cptnseal.c)
+                       gotten in CAPTNGRD.C
+                   ATKRAVEN.C (1) flies in when player takes her eggs.
+                       auto-attacks.
+              special: The player can 'look out window' and see a branch
+                       with a nest with eggs in it. the player can
+                       'take eggs from nest' to get 2 eggs (objects/ravenegg.c)
+                       These have nothing to do with anything else (quest),
+                       just something to do. When player takes eggs, the
+                       mother raven flies in and auto-attacks.
+ 
+STAIR3.C    - Lookout tower of the temple - can "see" Argos, forest, mountains
+              npc: TOWGUARD.C (3)
+ 
+TALIS.C     - Chamber of the Keeper of the Talisman
+              npc:   TALISPRS.C - gives some quest hints
+              quest: Player must get the priestess to bless the sacramental
+                        wine found in WINERY.C. This blessing makes the
+                        wine poisonous. The poison object is needed to
+                        "be in the right state of mind" to pray in CHAPEL.C
+                     'ask priestess for blessing' Priestess says to 'pray'
+                     'pray for blessing' if player wears robe/medallion and
+                        has bottle of sacramental wine, priestess blesses the
+                        wine and makes it poisonous.
+ 
+ 
+TDPATHx.C   - Path from forest to temple
+ 
+WINERY.C    - The winery/brewery of the temple
+              quest: The sacramental wine needed is found here
+              obj:   VISWINE.C - the sacramental wine.
+                        If player is wearing robe/medallion, can
+                        'take wine from table' to get it.
+ 

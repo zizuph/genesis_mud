@@ -1,0 +1,22 @@
+Gondor IMPORTs into Krynn
+-------------------------
+Last modified by:
+Teth, Feb 19, 1997
+
+NB: Krynn would like to recognize Gondor for its many unique
+objects that have added much to Genesis.
+
+Gondorian herbs can be found throughout Krynn, placed by the
+herb_master.c found in /d/Krynn/common/herbs. Much care has been
+taken to place the herbs in appropriate places, and, Gondor-
+restricted herbs are not used.
+
+Much of the herbsearching functionality in Krynn is through
+the efforts of Gondor of establishing a useful skill_enhance.c,
+a herb_master.c and a herbsearch.c. As well, herb-specific
+containers can be found in Krynn, also Gondorian in origin or
+inspiration.
+
+Gondorian oil_lamps and oilflasks are sold in:
+/d/Krynn/solamn/thief/theiwar/r22.c
+

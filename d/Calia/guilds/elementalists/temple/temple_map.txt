@@ -1,0 +1,56 @@
+
+           1st Level Temple          2nd Level for        3rd Level for 
+                                      Worshippers            Clerics
+          s       x     t-u
+         /        |     |  \
+        f   o-o-o-1-o-o-o   b
+         \ /      |      \ /
+          o     o-*-o     o         
+          |    /  |  \    |
+          o   o o-g-o o   o              l   m                   n
+          |   | | | | |   |               \ /                    |
+        x-4-o-o o h o o-o-3-x              *                   q-*-r
+          |   | |   | |   |               / \                   /|
+          o-v o o-i-o o !-o              j   k                 # p
+          |    \  |  /    |
+          o   w-o-y-o-x   o
+         / \  |   |   |  / \
+        c   5-o-o-z-o-o-2   d
+           /  |   |   |  \                             
+          x   e   o   a   x
+                  |
+                  o
+
+         Basement for Clerics
+
+                  $
+                  |
+                  *
+                  |
+                  o
+                  |
+                  @
+
+
+
+ a - public library       e - public chapel   i - statue room
+ b - herb store           f - lapidary        j - EW racks
+ c - post office          g - pool            k - EW board
+ d - bank                 h - ritual chamber  l - Lounge
+
+ m - EW/EC practice room  s - gem garden      w - sacristy
+ n - EC practice room     t - refectory       y - private chapel
+ q - EC racks             u - herb garden     z - greathall
+ r - EC boardroom         v - meeting room    ! - meditation chamber
+
+* - stairwell
+p - Council Chambers
+x - Starting Location
+1 - Psuchae Statue
+2 - Pyros Statue
+3 - Diabrecho Statue
+4 - Aeria Statue
+5 - Gu Statue
+@ - Conduit Room
+# - EC Study
+$ - EC Vault

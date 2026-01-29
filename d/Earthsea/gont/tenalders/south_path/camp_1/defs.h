@@ -1,0 +1,6 @@
+#define KARG1 "/d/Earthsea/gont/tenalders/npc/karg1"
+#define KARG2 "/d/Earthsea/gont/tenalders/npc/karg2"
+#define KARG3 "/d/Earthsea/gont/tenalders/npc/karg3"
+#define KARG4 "/d/Earthsea/gont/tenalders/npc/karg4"
+#define KARG5 "/d/Earthsea/gont/tenalders/npc/karg5"
+#define KARG6 "/d/Earthsea/gont/tenalders/npc/karg6"

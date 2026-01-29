@@ -1,0 +1,114 @@
+"Nothing"
+---------
+
+This is a very preliminary plan for a dwarven village based somewhere
+in western Calia. (ie somewhere where it can be attached to the 
+existing domain rather than the Great Central Forest.) I really don't
+want to have it named Nothing but I have yet to come up with 
+something I do like, and so chose Nothing from the inhabitants habit
+of insisting there's nothing of value there. 
+
+I want the area to have a fair amount of humour in it, hopefully 
+without going over the top and making it just plain stupid. There 
+may be a few references to Terry Pratchett and his particular type of
+dwarves, but no outright theft. For instance the dwarves will likely 
+fight with axes, but I may include a single loaf of hard bread that 
+can be wielded as a club. (If I can make an object both a weapon and 
+food.)
+
+As I've been writing this I've begun to suspect I may also be taking 
+a little inspiration from the Iraqi Information Minister . "There is 
+most definately no diamond mine here." 
+
+The Dwarves
+
+- The inhabitants will be fairly typical dwarves for the most part, 
+    short, bearded, like axes, that sort of thing.
+- They will be somewhat greedy. If possible I'd like to have 
+    prices in the village reflect this. Things will be sold for
+    more than they would be elsewhere, and where applicable 
+    bought for less. 
+- Rather than a King or Thane the local dwarves will be lead by a
+    Chairman. Local affairs are run a bit like a business, but the 
+    title comes from the fact that this is the man (or woman, since
+    dwarves don't really care as long as you have a proper beard) 
+    with the Chair. Everyone else has to sit on stools, benches, or 
+    whatever. 
+- The dwarves insist that there is nothing of significant value in 
+    the village. Most npcs will have an add_act where they say 
+    something about this. They have nothing of value, they really 
+    don't have a diamond mine, and they certainly don't have a very 
+    large and valuabe blue diamond worked by expert gemcutters in the
+    treasury.  
+- Important figures in the village besides the Chairman are the 
+    Treasurer, who guards the entrance to the treasury (which has 
+    nothing in it), and the Clerk, who keeps track of all the 
+    nothing. (There could be more people along these lines if I come
+    with roles for them.) 
+
+The Village 
+
+- The village is built at the base of a cliff. The most important 
+    buildings are actually in a complex carved into the rock. Outside
+    there are a number of well built stone buildings which include 
+    the homes of most of the population. 
+- Things inside include the Chairmain's office and quarters, the 
+    Treasury (which has nothing in it), the Clerk's office, and the
+    local bank. 
+- The local pub is the largest and most important building on the
+    outside. They serve a number of potent beverages, such as Red
+    Tick Beer, and a number of local delecacies, including deep fried
+    hamsters. There may be a local bard here as well, playing old 
+    favorites like "Gold Gold Gold Gold" and "The Hiho Song"
+- The post office and general store will be located oustide, as well 
+    as the adventurer's guild if I choose to include one. (The store 
+    could be inside, but I don't want it to get crowded in there. 
+    also it says something about the locals that the bank is in there
+    and the pub isn't.)
+- The population of the village is small, and several people may live 
+    in one building, so there won't need to be very many houses. 
+    These may or may not be open to players, depending on wether or 
+    not I need them for anything. 
+
+
+Notes
+
+- Even though the village has nothing of value, there will be signs
+    of wealth in various places. For instance, the chair itself will
+    be very ornate and covered in jewels. (It's too heavy to steal
+    though.)
+- The big quest in this area will be to find a way into the Treasury
+    and grab whats not there. I'd like this to be fun yet somewhat
+    complex. More than just beating up the Treasurer and opening the 
+    door. Maybe having more than one way to accomplish parts of it. 
+- I'm not certain yet how I want players to find out about the 
+    quest. The nice thing to do would be to have an npc somewhere who
+    wants whats in the treasury. It might be fun to have players 
+    figure out for themselves that there is something there based on 
+    the denials and such. 
+- The players should be able to get some part of what's in the 
+    treasury as a reward, but I'll have to find some way to make this
+    reasonable, even though there theoretically should be a ton of 
+    loot there. 
+- Other quests may include getting some delecacy for the pub 
+    (long-coated creamy weasels?), or maybe doing something to the 
+    Chair (No whoopee cushions, but a tack or nail could work. :P)
+- I don't know what the rules, if any, for gems are. That will have 
+    to be looked into before deciding what the mine will actually be.
+    Originally I had intended this to be a gold mine, but diamonds
+    or some other gem makes it easier to figure out what the special
+    treasure in the treasury is.  
+- The mine, which doesn't exist, has it's enterance hidden somewhere
+    in the cave complex. Maybe a hidden trapdoor underneath some well
+    woven carpet. (Finding it might be another quest.) The mine 
+    does not necessarily have to very large, or even accessible to 
+    players. It could also be left out for now and developed further
+    later. 
+- This plan is still preliminary, and I could decide to make 
+    significant changes. For instance the entire village could be in
+    inside the cliff face, and the mine could be outside of the 
+    village looking like a normal cave. ("There is no cave, and it's
+    definately not a mine.") 
+
+
+

@@ -1,0 +1,164 @@
+============================================================================
+The Vampyr of Terel, open guild document.
+
+   Guild re-coded by Novo, April - July 2008
+   Guild mansion coded by Louie - June 2005
+   Guild inner sanctum coded by Lilith - June 2008
+
+   Guild document by Lilith -  July 2008
+============================================================================
+
+--------
+OVERVIEW
+--------
+  The Emerald coven of Vampires, ever nomadic and mysterious, abandoned their
+tower on the mist isle in Emerald and joined with a vampyr in Terel, one who
+guarded the vampyr known simply as "The Eldest". There, a new coven was formed,
+and the Emerald kindred transformed, their line empowered through the ability 
+to drink of the potent blood of the ancient one himself.
+
+
+----------
+FILE NAMES
+----------
+   The following file names are of particular importance:
+
+~Terel/guilds/vamp/room/MAP.txt    Map of the area
+~Terel/guilds/vamp/room/uppertomb  The start room 
+~Terel/guilds/vamp/room/library    Library and guild board
+~Terel/guilds/vamp/room/crypt      The join, leave, and training room
+
+~Terel/guilds/vamp/npc/statue      The npc that controls joining 
+~Terel/guilds/vamp/lib/manager     Guild data manager
+~Terel/guilds/vamp/lib/occ_train   Managing object for training
+
+~Terel/guilds/vamp/shadow/occ_shadow     The guild shadow
+~Terel/guilds/vamp/soul/occ_soul         The guild soul
+
+
+------------------
+JOINING THE VAMPYR
+------------------
+  To join the guild, the player must first be a Bloodguard, which any player
+can become just by walking into the crypt and accepting blood from the npc
+known as The Eldest. From there, a Bloodguard must be 'embraced' by an
+active vampyr player in order to become a vampyr. The player then dies and
+is transformed into an undead vampyr upon reincarnation.
+
+  There are no restrictions on races. A player cannot join who is already 
+undead. A Vampyr can embrace another player anywhere, there is no need to
+be at the guild hall.
+
+
+------------------
+LEAVING THE VAMPYR
+------------------
+  While the Bloodguards have to <break oath> at the joining room and die as
+a consequence, a Vampyr can leave the guild anytime and anywhere using the 
+<vleave> command. There is no death penelty for Vampyrs leaving as they died 
+once upon joining. There is no code in place to restrict members who leave 
+from rejoining.
+
+The guild-specific skills and the stat SS_OCCUP is also cleared upon leaving.
+
+
+--------------------
+SKILLS IN THE VAMPYR
+--------------------
+  The maximum possible skills to train are defined in the file 
+           ~Terel/guilds/vamp/lib/occ_train
+
+The guild skills are still in flux pending implementation of mudlib
+skills and changes, so the mudlib skills are not posted to this doc yet.
+
+Guild specific skills:
+VAMP_SKILL_BITE         130010
+VAMP_SKILL_FLURRY       130011
+VAMP_BLOOD              130012
+VAMP_FAVOR              130013
+
+
+--------------------------
+SPECIAL ABILITIES & SPELLS
+--------------------------
+  The following special abilities are available for the Vampyr:
+ 
+  cling
+  celerity
+  constrict
+  dash
+  doll
+  dominate
+  delve
+  drain
+  flicker
+  fly
+  incognito
+  meld
+  mesmerize
+  obfuscate
+  scry
+  sight
+  summon
+  telepath
+
+  2 of 15 spells are offensive
+  2 of 15 spells are defensive
+
+  Full documentation on these abilities can be found in 
+     ~Terel/guilds/vamp/doc/*
+
+
+---------------
+SPECIAL ATTACKS
+---------------
+  The following special attacks are available for members of the guild:
+
+  bite - The vampire's main attack. This is a standard attack which allows
+selection of the specific hit location. This uses the standard damage library, 
+with combat aid set to 80.
+
+  flurry - Unleashes a string of 4 attacks to a single target with the weapon
+in hand. This does 80% combat aid, and is occupational only.  It cannot be 
+used at the same time as bite.
+
+  Full documentation on these abilities can be found in 
+     ~Terel/guilds/vamp/doc/abilities.txt
+
+
+---------------
+VAMPYR GUILD TAX
+---------------
+
+  The Vampyr of Terel pay a 51% tax that encompasses three guild slots:
+race, lay, and occ.
+
+  The specifics of the guild tax are still in flux pending implementation of 
+mudlib changes, skills, and tweaks to the guild so the particulars of the 
+taxation will not be posted until the early implementation phase has passed.
+
+  Full documentation on the current guild tax calculations can be found at
+     ~Terel/guilds/vamp/doc/occ_tax.txt
+  
+
+
+Tax reductions:
+	
+Lay:
+  There is a 2% tax break for blood thirst. Members are required to drink
+blood from livings, as they receive no nourishment from food or drink. If 
+their blood-level drops too low they are incapacitated and can die. Blood is
+also an ingredient for special abilities and tends to be used up rather 
+quickly, requiring members to feed frequently. Additionally, they do not 
+experience the healing benefits of intoxication, since they cannot drink
+alcohol.
+
+Occ:
+  There is a 2% tax break for a sunlight penelty. The four largest domains
+in Genesis use sunlight, increasing levels of it through their day cycles,
+and the Vampyr receive a significant CON stat poison when in sunlight which
+can also kill them if they remain in the sunlight for too long.
+
+  Full documentation on these penelties can be found in the doc
+     ~Terel/guilds/vamp/doc/penalties.txt
+

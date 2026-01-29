@@ -1,0 +1,266 @@
+main
+::MAPDATA::
+path1 58 2 roadnorth
+nr11 59 4 roadnorth
+nr12 61 4 roadnorth
+nr10 59 6 roadnorth
+nr9 59 6 roadnorth
+nr8 59 7 roadnorth
+nr7 59 7 roadnorth
+nr6 59 8 roadnorth
+nr5 59 9 roadnorth2
+nr4 59 10 roadnorth2
+nr3 59 10 roadnorth2
+nr2 59 11 roadnorth2
+nr1 59 12 crossroads
+crossroads 59 13 crossroads
+mrd1 60 13 crossroads
+mrd2 60 13 crossroads
+mrd3 61 13 crossroads
+mmead2 61 13 crossroads
+mbridge 61 13 crossroads
+mmead1 62 13 crossroads
+mrd4 62 13 crossroads
+mmead3 62 13 crossroads
+mmead4 62 13 crossroads
+o_ngate 63 14 crossroads
+w_wall1 63 14 crossroads
+w_wall 63 14 crossroads
+er7 58 13 crossroads
+er6 56 13 crossroads
+er5 55 13 crossroads
+er4 53 13 crossroads
+er3 51 13 crossroads
+er2 49 13 crossroads
+er1 47 13 crossroads
+sr1 59 14 crossroads
+sr2 59 14 crossroads
+sr3 59 15 crossroads
+thicket1 59 14 crossroads
+thicket2 59 14 crossroads
+thicket3 59 15 crossroads
+thicket4 59 15 crossroads
+path2 59 15 crossroads
+sr4 59 16 crossroads
+sr5 59 18 south1
+sr6 59 20 south1
+srd1 58 20 south1
+srd2 57 20 south1
+sr7 59 21 south1
+sr8 59 21 south1
+sr9 59 21 south1
+eosgbridge 41 13 west
+eosg5 43 13 west
+eosg2 44 13 west
+eosg1 45 13 west
+::MAPDATA::
+
+                ~                 ~~~~                   \
+    West Emnet   ~               ~~~~                     \
+ \                ~~~~         ~~~~                        \ Morannon
+  \                   ~       ~~~~                         | o
+   \-----+------       ~~~~~~~~~~~~                        |/
+         |      \            ~~~~~                         |
+         O       \             ~~~~~       Northern        |
+       EDORAS     \              ~~~~~     Ithilien        |
+                   \              ~~~~~                    |  Mountains
+                    --------\      ~~~~~                   |     of
+                       MINAS \      ~~~~~                  |   Shadow  +------+
+   White Mountains     TIRITH \  OSGILIATH                 |           |MORDOR|
+                            O-+----O=====------------------+--\ MINAS  +------+
+               +------+       |   / ~~~~~                  |   \MORGUL
+               |GONDOR|       |  / ~~~~~                   |    O
+               +------+       | / ~~~~~     Southern       |
+                              L/ ~~~~~      Ithilien       |
+                             / ~~~~~~                      |
+                            / ~~~~~~            Emyn Arnen |
+                           / ~~~~~~               o--------+
+                          / ~~~~~~                         |
+
+::NEWMAP::
+roadnorth
+::MAPDATA::
+path1 55 4
+nr11 59 6
+nr12 59 4
+nr10 59 8
+nr9 59 10
+nr8 59 12
+nr7 59 16
+nr6 59 18
+::MAPDATA::
+
+                                                       |
+                                                       o
+                                                       |     /
+                                                       o   o
+                                                         \ |
+                                                           o
+                                                           |
+                                                           o
+                                                           |
+                                                       o   o
+                                                       |   |
+                                   o       o           o : o
+                                 / | \   /           /     |
+           o                   o - o - o       o - o       |
+         /   \               / | /   \ |     /             |
+ - o - o       o       o   o - o       o - o               o
+                 \   /   \   \ |       |                   |
+                   o       o - o       o                   o
+                               | \   / |                   |
+                               o - o - o                   |
+                             /                             |
+
+::NEWMAP::
+roadnorth2
+::MAPDATA::
+nr5 59 4
+nr4 59 8
+nr3 59 10
+nr2 59 14
+::MAPDATA::
+
+                               | \   / |                   |
+                               o - o - o                   |
+                             /                             |
+                   o - o - o                               o
+                 /                                         |
+       o - o - o                                           |
+     / |       |                                           |
+   o   o       o                                           o
+ /     |     /                                             |
+       o - o                N O R T H E R N                o
+       |                                                   |
+       o                       I T H I L I E N             |
+       |                                                   |
+       o                                                   o
+         \                                                 |
+           o                                               |
+             \                                             |
+               o ----- o                                   o
+                 \   /                                     |
+                   o                                       |
+                     :                                     |
+
+::NEWMAP::
+crossroads
+::MAPDATA::
+nr1 57 6
+crossroads 57 10
+mrd1 65 10
+mrd2 69 12
+mrd3 73 12
+mmead2 77 12
+mbridge 73 14
+mmead1 69 14
+mrd4 69 16
+mmead3 65 16
+mmead4 73 16
+o_ngate 73 18
+w_wall1 69 18
+w_wall 65 18
+er7 42 10
+er6 25 10
+er5 21 10
+er4 17 10
+er3 13 10
+er2 9 10
+er1 5 10
+sr1 57 12
+sr2 57 14
+sr3 57 16
+thicket1 53 16
+thicket2 49 14
+thicket3 45 14
+thicket4 49 18
+path2 45 18
+sr4 57 18
+::MAPDATA::
+
+     |                                                   |
+     o                                                   o
+       \                                                 |
+         o                                               |
+           \                                             |
+             o ----- o                                   o
+               \   /                                     |
+                 o                                       |
+                   :                                     |
+ o - o - o - o - o - o - o -------------- o ------------ o ----- o
+         :               |                               |         \
+         o               o                               o           o - o - o
+         |               |                               |             / |
+ o       o               o                       o       o           o   o
+       /                 |                         \     |             /
+     o                   o                           o - o       o - o - o
+     |                 /                           /     |             \
+     o   o - o - o - o                           o       o               o
+     |   |   |   |   |       S O U T H E R N             |               |
+     o - o - o - o - o                                   |
+     |   |   |   | /             I T H I L I E N         |         Minas Morgul
+
+::NEWMAP::
+west
+::MAPDATA::
+eosgbridge 56 10
+eosg5 60 10
+eosg2 64 10
+eosg1 72 10
+::MAPDATA::
+
+                                 ~~~~~~~~~~~                |               |
+                                    ~~~~~~~~~~~             o               o
+                                ~~~~~~~~~~~~~~              |                 \
+                                  ~~~~~~~~~~~~~~~           o
+                                    ~~~~~~~~~~~~~~~         |
+                                      ~~~~~~~~~~~           o
+                                   ~~~~~~~~~~~~~~~          |
+                                     ~~~~~~~~~~~            |
+                                                            |
+                                        Osgiliath     - o - o - o ----- o - o -
+  \                                                               \
+    o                                   ~~~~~~~~~~~                 o
+    |                                 ~~~~~~~~~~~                     \
+    o                                    ~~~~~~~~~~~    o ------------- o
+    | \                       /       ~~~~~~~~~~~~      |                     /
+    o   o - o               o        ~~~~~~~~~~~~~      |                   o
+    |         \           /          ~~~~~~~~~          |                   |
+                o - o - o           ~~~~~~~~~~~~        o                   o
+                  \   / |           ~~~~~~~~~           |                   |
+                    o - o          ~~~~~~~~~            |                   o -
+                  / |   |         ~~~~~~~~~~~           |                   |
+
+::NEWMAP::
+south1
+::MAPDATA::
+sr5 57 6
+sr6 57 10
+srd1 54 12
+srd2 50 12
+sr7 57 12
+sr8 57 14
+sr9 57 18
+::MAPDATA::
+
+     |                 /                           /     |             \
+     o   o - o - o - o                           o       o               o
+     |   |   |   |   |       S O U T H E R N             |               |
+     o - o - o - o - o                                   |
+     |   |   |   | /             I T H I L I E N         |         Minas Morgul
+ o - o - o - o - o                                       o
+ |   |   |   |                                           |
+ o - o - o - o - o                                       |
+     |   |   |                                           |
+     o - o - o - o                                       o
+         |                                Emyn         / |
+     o - o - o - o                       Arnen  - o - o  o
+     |   |   |   |                                       |
+     o - o - o - o                                       o
+         |   |   |                                       |
+         o - o - o                                       |
+                                                         |
+                                 o                       o
+                                 |                       |
+                     o - o       o                       o
+                           \   /                         |

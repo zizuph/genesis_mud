@@ -1,0 +1,222 @@
+---------------------------------------------------------------------------
+                       THE ORDER OF THE ILLUMINATI
+---------------------------------------------------------------------------
+In General:
+The Order of the Illuminati is an occupational magic-users' guild. It is
+mystical in nature and hierarchical in organization and government.
+The Illuminati seek for "illumination" in Truth through the pursuit of
+Wisdom cloaked in Mystery, the applications of which are promoted
+throughout the general society for Good while guarding the secret
+of such knowledge from which they derive their magical powers.
+ 
+---------------------------------------------------------------------------
+Membership Levels:
+Membership is divided amongst 5 major hierarchical orders. Admission to a
+higher order is granted only by a vote of the Magisterium (council). Progression
+through the sub-titles of each order are made automatically as the player
+acquires experience in the game. Admission to a higher major order can
+only be done when the member is at the highest sub-title of his/her current
+major order. Promotions are made through a ceremony, which may be conducted
+by an Episcopos or Presbyter, a Presbyter when raised to Episcopos, and
+by the Hierophant when raised to a Presbyter.
+ 
+Major orders and Subtitles:
+Presbyter -
+    Eminent Presbyter
+    Hallowed Presbyter
+    Presbyter
+Episcopos -
+    Sublime Episcopos
+    Enigmatic Episcopos
+    Episcopos
+Diakonos -
+   Reverent Diakonos
+   Pious Diakonos
+   Diakonos
+Adelphos
+   Esteemed Adelphos
+   Faithful Adelphos
+   Adelphos
+Neophyte
+   Enlightened Neophyte
+   Accomplished Neophyte
+   Neophyte
+ 
+Special Titles:
+Hierophant - Leader of the Order; selected by guildmaster from amongst the
+             Presbyters; life term; removed by guildmaster for negligence,
+             at request of H., etc.
+Paedagogue - In charge of recruitment and training of Neophytes; appointed
+             and discharged by the Hierophant; must be a Presbyter
+Other offices created if deemed necessary by the Hierophant and Magisterium.
+ 
+---------------------------------------------------------------------------
+Admission to the Order: (steps of progression)
+Seeker of Illumination:
+  A player who wishes to join must receive the Diakonotic Blessing, which
+  can be granted by any member of Diakonos level or higher. The player
+  then becomes a Seeker of Illumination. An auto-loading/non-loosable
+  object is given to the Seeker to identify him/her as such (when blessed).
+  This object will identify the progression of the Seeker in a subloc
+  description (ie: He is a Seeker of Illumination,etc)
+  PREREQ: Player must be on the "good" side of neutral in alignment
+ 
+Worthy Seeker of Illumination:
+  The Seeker must solve an entrance quest to prove his/her worthiness
+  to continue.
+ 
+Accepted Seeker of Illumination:
+  The Magisterium votes (by majority) to accept the Worthy Seeker.
+  The Worthy Seeker may return to the Temple of the Order at any time
+  to check on his acceptance through a meditation. Once accepted
+  by the Magisterium, the Worthy Seeker becomes an Accepted Seeker
+  upon meditation in the Temple.
+ 
+Neophyte: - actually joins the Order
+  Accepted Seekers must be initiated into the Order of Neophytes by
+  a ceremony, which may be conducted by any Episcopos or Presbyter.
+  PREREQ: must still be on "good" side of evil; must belong to no other guilds.
+ 
+Expulsion from the rank of Seeker:
+  any Episcopos or Presbyter may remove the Seeker status (and thus the
+  seeker object) from a seeker at any time.
+ 
+---------------------------------------------------------------------------
+Leaving the Order:
+Any member who leaves the Order will die automatically and immediately
+loose any skills learned in the Order. The apostate will not be
+automatically considered an enemy of the Order as long as he/she maintains
+the secrecy learned within the Order and makes no hostile acts towards
+the Order.
+ 
+A member may be expelled from the Order by a majority vote of the
+Magisterium. Such members will not die and will not loose any skills
+learned.
+ 
+---------------------------------------------------------------------------
+Governance of the Order:
+Hierophant:
+   - the supreme ruler of the Order. Holds all legislative, judicial and
+     executive powers not explicitly given to other members/bodies.
+   - Selected (and dismissed if necessary) by the guildmaster
+The Magisterium is composed of all Presbyters of the Order. It is
+    responsible for:
+    - electing seekers (by majority vote)
+    - approving promotions of members to higher major ranks (by majority vote)
+    - advising the Hierophant
+    - demoting members of its own body.
+      NOTE: an inactive member whose inactivity makes it difficult or
+            impossible to acquire majority or unanimous votes may be
+            moved to the Order of Episcopos. This is not considered
+            a demotion, and the member should be restored to Presbyter
+            as soon as he/she becomes active again.
+ 
+---------------------------------------------------------------------------
+Restrictions of Membership:
+- All members must stay on the "good" side of neutral; failure to do so
+  automatically results in loss of all guild abilities/privileges.
+- All members must submit to the authority of the Hierophant and Magisterium
+- No member may belong to any other guild. Membership in clubs may be
+  allowed by the vote of the Magisterium, though membership in any such
+  club should not be detrimental in any way to the honor or unity of
+  the Order.
+- Members shall not be allowed to use any weapons except the magical staff
+  which a the guild item and is used as a polearm weapon. (Exceptions
+  may be made/coded where weilding a weapon is necessary for completion
+  of a quest.)
+- No members shall disclose any esoteric information about the Order.
+  Specific rules and judgements set by the Hierophant and Magisterium.
+- Absolute unity must be striven for in the Order; under no circumstances
+  should a member display disunity toward the Order or any member
+  in the presence of non-members, including but not limited to attacking
+  other members or teaming with enemies of the Order. The Hierophant
+  and Magisterium are responsible for making regulations to maintain
+  the unity of the Order.
+ 
+---------------------------------------------------------------------------
+Guild Tax: 30% - no special advantages in guildhouse (temple) except
+                 purchase of guild items (no sell). Tax is for spells.
+ 
+ 
+---------------------------------------------------------------------------
+Skills taught:
+   Spellcraft plus all applicable spell types (fire spells, life spells, etc)
+   Defense - to a reasonable level, higher than Adv. Guild, lower than
+             common occup fighting guild.
+   Polearm - ditto
+ 
+---------------------------------------------------------------------------
+Spells:
+Members receive new spells as they are "enlightened" by progressing
+through the ranks of the Order. Thus new spells are added as the member
+is promoted.
+Some spells may require other prerequisites (as listed).
+<> = required parameter
+[] = optional parameter
+*  = spell strength strengthened by sundeso
+** = not a spell, just an ability
+NOTE: since the name of some spells is long, spell may be activated by
+      typing first 3-4 letters.
+ 
+Neophyte Spells and commands:
+   psostizomai         - lighten a room temporarily
+   logo <member> <msg> - tell line spell (to other members)
+*  psos [enemy]        - strike enemy with a beam of light (attack spell)
+** isay <msg>          - speak in the Esoteric Language of the Illuminati
+   sundeso <member>    - allows mental link with another member. Member must
+                         be in the same room. This link increases the potency
+                         of some spells, marked by * in this list.
+Adelphos Spells and commands:
+   thorakisae          - Increase armour strength of cassock (must be
+                         wearing cassock, a guild item (robe))
+                         temporary.
+   phloga              - Cause staff to flame (increase hit/pen values of
+                         staff guild object). temporary.
+   onomazo <player>    - divine (get) the name of an unintroduced player,
+                         where <player> = short_desc of player.
+   eiraenae            - conjures a crystal pyramid which causes "peace"
+                         in the room (stops fighting)
+ 
+Diakonos Spells and commands:
+   opasae <player>     - see short desc of room of remote player (scry)
+   podalotaeta         - cause the cassock to glow (light room). Must
+                         be wearing cassock. Temporary
+   eulogo <player>     - give the Diakonate Blessing to a player; makes
+                         player an official seeker of the Order.
+*  amoluno <player>    - heal poison in <player>
+*  kourazo <player>    - tire (increase weariness) of player
+*  aetozo  <player>    - rest (decrease weariness) of player
+*  ekraezae [enemy]    - strike enemy with a sunburst (fire)
+ 
+Episcopos Spells and commands:
+   stalaktitaes        - conjure stalactite from the ground which blocks
+                         an exit temporarily.
+*  moluno [player]     - Poison <player>. Must have a handfull of magic
+                         dust for each poisoning.
+*  astrapae [enemy]    - call lightning down to strike player; must be
+                         outside; must be wearing lightning bolt amulet
+                         (limited number) to cast this spell.
+** aeulogo             - remove Diakonatic Blessing from a seeker
+ 
+ 
+ 
+Presbyter Spells and commands:
+   udroroae        - player casts down staff which turns into a gargoyle
+                     to attack his/her enemies. Note that without staff,
+                     no other spell can be cast. If gargoyle
+                      is killed, staff not returned. If gargoyle lives
+                      through his temporary life span, turns back into staff
+                      which is returned to the player.
+202
+*  ekbiazo <player> <direction> - force a player to go in <direction>
+                                  (take exit).
+   diabazo <player>    - read the mind of a player; adds in invisible
+                         object to the player; all things heard/said by
+                         <player> are transmitted to member who casts
+                         spell (watered down snoop). Must be holding
+                         a rare crystal pyramid to cast this spell.
+                         Temporary.
+ 
+Hierophant Commands:
+** Expel <player>
+** Demote <player>

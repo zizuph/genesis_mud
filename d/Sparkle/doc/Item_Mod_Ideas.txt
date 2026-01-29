@@ -1,0 +1,97 @@
+Random Weapon/Armour Modification Ideas:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+These ideas are my proposal for going about implementing a random element of
+to the normal weapon drops in the game. 
+
+  - When cloned, there is a 1% chance that any weapon or armour will have
+    mods added to them. If this happens, there is a 10% chance that the
+    weapon will have an additional second mod. If this happens there is a
+    further 10% chance that the weapon will have a third and final mod.
+    We do not allow more than 3 mods. But, the chance that a weapon will
+    clone with three mods is quite low:
+
+        with 1 mod  = 1 in 100 items
+        with 2 mods = 1 in 1000 items
+        with 3 mods = 1 in 10000 items
+
+  - I don't have a good way to actually add the mods. Shadows probably?
+    I'll let the code gurus thinktank this issue.
+
+  - Many mods will be of the type that will allow weak/average/strong
+    quality. So, we will use this as much as possible. For example,
+    if the mod adds poison resistance to the user:
+
+        weak    = 10% resistance
+        average = 20% resistance
+        strong  = 30% resistance
+
+    We should find a way to set the potency of the mod in the standard
+    code (function?) that is used when a mod is added.
+
+  - Mods will each have a unique subloc that they add to the description
+    of the item. This will allow players to know they have found something
+    with a mod on it at a glance. It will also allow people to build up a
+    database of what the various sublocs mean. For example:
+
+        "You notice that it is emitting a low-pitched ringing sound."
+        "You notice that it is emitting a dull ringing sound."
+        "You notice that it is emitting a high-pitched ringing sound."
+
+    These are potential descriptors to describe weak/average/strong
+    sublocs added when something is cloned with a mod that does double
+    damage to gnomes.
+
+List of potential mods:
+
+  - Human hating (double-damage)
+  - Dwarf hating
+  - Gnome hating
+  - Elf hating
+  - Goblin hating
+  - Hobbit hating
+  - Kender hating
+  - Minotaur Hating
+  - Undead hating
+  - Ogre hating
+
+  - Strength boost (10, 15, 20%)
+  - Dexterity Boost
+  - Constitution Boost
+  - Intelligence Boost
+  - Wisdom Boost
+  - Discipline Boost
+
+  - Weapon-Type Skill Boost (increases skill in weapon type of modded object)
+                             10, 20, 30 pts, but cannot go over 100)
+  - Awareness Skill Boost (10, 20, 30, same as above)
+  - Defense Skill Boost
+  - Unarmed Combat Skill Boost
+  - Parry Skill Boost
+  - Blind Combat Skill Boost
+  - Spellcraft Skill Boost
+  - Sneak and Hide Skill Boost (both coupled together)
+  - Fire Element Skill Boost
+  - Water Element Skill Boost
+  - Air Element Skill Boost
+  - Earth Element Skill Boost
+  - Life Element Skill Boost
+  - Death Element Skill Boost
+
+  - Elemental Protection from Fire (10, 20, 30%)
+  - Elemental Protection from Earth
+  - Elemental Protection from Water
+  - Elemental Protection from Air
+  - Elemental Protection from Death
+  - Elemental Protection from Poison
+  - Elemental Protection from Acid
+  - Elemental Protection from Electricity
+
+  - Darkvision (1, 5, 10 levels)
+  - Create Darkness (1, 5, 10 levels)
+  - Create Light (1, 5, 10 levels)
+  - Unbreakable
+  - Extra Damage (5, 10, 20 extra pen - cannot exceed 60)
+  - Extra Accuracy (5, 10, 20 extra hit - cannot exceed 60)
+  - Poison Blade (1, 5, 10 charges, 5% chance to spend charge per blow)
+

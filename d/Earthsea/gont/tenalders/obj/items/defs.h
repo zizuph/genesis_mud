@@ -1,0 +1,5 @@
+#define BRASS_KEY 123654
+#define CRYSTAL_KEY 1000004
+#define DIAMOND_KEY 2000004
+#define MITHRIL_KEY 3000004
+#define PLAYER_I_FOUND_PARCHMENT "_player_i_found_parchment_"

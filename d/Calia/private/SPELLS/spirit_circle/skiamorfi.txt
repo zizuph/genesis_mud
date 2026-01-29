@@ -1,0 +1,15 @@
+Shadow Form -      This spell will turn the caster into a shadowy form.
+                   This form will conceal their identities (unless
+                   they introduce themselves again) until which time
+                   they either run out of mana or dispel the effects.
+                   It continuously takes mana from the player to
+                   remain in this form. Players can attack and be
+                   attacked as normal in this form (they do not get
+                   any special abilities other than emotes). This spell
+                   cannot be cast in combat and will not initiate
+                   combat. Requires a pre-made component (can only be
+                   created in the guildhome) consisting of amber and
+                   cranberry. 100 mana. Lasts until the caster runs
+                   out of mana (taking 25 mana every 100 seconds).
+                   This spell is available to all level 3 and higher
+                   guild members.

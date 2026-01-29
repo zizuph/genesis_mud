@@ -1,0 +1,67 @@
+The types of places, in Avenir, where money Changes hands:
+
+===========================================================================
+ROOM NAME                FILE NAME                        STYLE
+---------------------------------------------------------------------------
+Apothecary Shop         ~bazaar/intr/apoth1.c             Misc & Magic
+Forge/Smithy            ~bazaar/intr/armr.c               Weapons + Repair
+Armourer of Sybarus     ~bazaar/intr/armr_shop.c          Armours + Repair
+Moody Muffin Bakery     ~bazaar/intr/bakery.c             Food
+Bank of Sybarus         ~bazaar/intr/bank.c               Bank | ID: 3901
+Butcher                 ~bazaar/intr/butcher_shop         Food
+Flower shop             ~bazaar/intr/flower_stall         Custom flowers
+Heboba's Hat Shop       ~bazaar/intr/hatshop.c            Custom Hats
+Stormy Haven Inn        ~bazaar/intr/inn.c                Inn/Food/startloc
+Junkshop                ~bazaar/intr/junk.c               Novelty Items
+Lapidary shop           ~bazaar/intr/lapidary             Gems
+Tailor                  ~bazaar/intr/men_shop	          Mens Clothing
+Messenger Office        ~bazaar/intr/office.c             Child Messenger
+Icky Bod's              ~bazaar/intr/pub.c                Pub/drinks
+Sackseller's Emporium   ~bazaar/intr/sackshop.c           Packs
+Silken Pillow           ~bazaar/intr/silkshop.c           Womens Clothing
+Bazaar Shop             ~bazaar/intr/shop.c               Std. Shop
+Ziggurat Exchange       ~city/zigg/level3/bank.c          Bank | ID: 3903
+Confectionary           ~city/zigg/level3/candy.c         Candy
+Hair clips              ~city/zigg/level3/clips.c         Hair Items
+Fetish shop             ~city/zigg/level3/fetish.c        Fetish Items
+Public Gardens          ~city/zigg/level3/garden.c        Garden/Picknic
+Makeovers Shop          ~city/zigg/level3/makeovers.c     Makeovers
+Beauty Store            ~city/zigg/level3/makeup.c        Makeup Items
+Perfumery               ~city/zigg/level3/perfumery.c     Cologne/Perfume
+Bank of Amblo           ~dark/l4/center.c                 Bank | ID: 3904
+BOGL Smithy             ~dead/barrow/barrow_armr.c        Weapon tender
+Bank of Sybarus         ~outpost/tower_office.c           Bank | ID: 3902
+Fort Sybarus Shop       ~outpost/shop.c                   Std. shop
+Fort Sybarus Smithy     ~outpost/smithy.c                 Weapon tender
+Fort Sybarus Armorers   ~outpost/armourer.c               Armour tender
+Fort Sybarus Mess Hall  ~outpost/fort4.c                  Food & Drink
+Good As New             ~outpost/paint_shop.c             Gear painter
+Barber Shop             ~vanity/barber_shop.c             Beards/Mustaches
+
+
+===========================================================================
+NPC NAME                 FILE NAME                        STYLE
+---------------------------------------------------------------------------
+Fisherman               ~bazaar/NPCS/fisherman.c          Fish
+Shillish the Herbalist  ~bazaar/NPCS/herbmerchant.c       Herbs
+Medallion Seller        ~bazaar/NPCS/medal_seller.c       Medals
+Wandering Peddler       ~bazaar/NPCS/torch_peddler.c      Torches
+Amblo the Merchant      ~dark/mon/merchant.c              Std. Shop
+Eavriz the Herbalist    ~dead/mon/bogl_wisewoman.c        Herbs
+BOGL Cook               ~dead/mon/bogl_cook.c             Food                
+Wandering Merchant      ~holm/mon/merchant.c              Std. Shop
+Wandering Merchant      ~outpath/mon/merchant.c           Std. Shop
+Riglor the Merchant     ~outpost/mon/food_merch           Food
+Bartol the Cobbler      ~village/npc/cobbler              Shoe Maker
+Sarnoy the Clothier     ~village/npc/dressmaker           Shirt Maker
+Charbuno the Furrier    ~village/npc/furrier              Fur Seller
+Eramia the Glover       ~village/npc/glover               Glove Maker
+Dwinna the Haberdasher  ~village/npc/haberdasher          Scarves/Cravats
+Gilibeth the Hosier     ~village/npc/hosier               Hose Maker
+Semmee the Pantmaker    ~village/npc/pantmaker            Trouser Seller
+Marzil the Shawlmaker   ~village/npc/shawlmaker           Shawl Maker
+Pikkara the Clothier    ~village/npc/shirtmaker_f         Shirt Maker
+Bruk the Tailor         ~village/npc/vestier              Vest Maker
+
+
+-Last updated May 2020: Lilith

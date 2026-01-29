@@ -1,0 +1,46 @@
+These are the special skill numbers used in guilds in Calia
+-----------------------------------------------------------
+
+Calian warriors occupational guild:
+swarm combat ability (form)  - 114000
+move behind combat ability   - 114001
+council punishment           - 114002
+council reward               - 114003
+calian options               - 114004
+maul combat ability (form)   - 114005
+calian rack points           - 114006
+swarm knowledge              - 114007
+maul knowledge               - 114008
+
+Note:
+Swarm and maul skills are split into two components, 
+knowledge and form, levels in the former kind are not 
+forgotten, levels in the latter kind vary with 
+practice. 
+
+Spirit Circle of Psuchae occupational/layman guild:
+guild title:       114020
+ss_element spirit: 114021
+guild punishments: 114022
+guild chosen:      114023
+spells casted:     114024
+
+Cadets of Gelan layman guild: 
+primary offensive skill selection:    114030
+secondary offensive skill selection:  114031
+drop room points:                     114032
+donk ban lift time                    114033
+graduate identification               114034
+
+Elemental Worshippers of Calia layman guild: 
+carved skill: 114050
+council punishment: 114051
+patron elemental: 114052
+
+Colleges of Magic occupational guild:
+college bits: 114053
+college spell status: 114054
+ritual magic: 114055
+
+Eldoral:
+Skill used for area met/nonmet system - 114090

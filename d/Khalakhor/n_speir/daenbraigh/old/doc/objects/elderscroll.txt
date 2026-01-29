@@ -1,0 +1,23 @@
+A scroll for a control spell.
+
+Properties:
+Weight: 150gr
+Volume: 100ml
+Value: magical
+Scroll
+
+Adjectives:
+thin old
+
+Items: writing
+
+Actions:
+adds a cast action
+In case of success an npc or a player comes under the control.
+If you killed the goblin elder, the scroll will crumble in your hands
+unless you wash his blood from your hands.
+
+If you stole it, it will work for you.
+
+The control drains mana permanently.
+The controlled player/npc tries to revolt permanently.

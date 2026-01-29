@@ -1,0 +1,49 @@
+Message: 4
+From   : Darien
+Subject: mwarn
+To     : Adriel, Rowan, Amelia and Nogard
+CC     : Darien
+Date   : Jun 17 1998
+
+Mwarn will be the new requirement for acceptable Kahedan player-fighting.  In order to pfight (either by 'kill' or 'assist'), a Kahedan will have to 'mwarn' an opponent.  If mwarn is used on a non-player object, this message is given: "The <object name> lacks sufficient sentience to benefit from such warning."
+
+Mwarn will relate a two stage message to all present in the room.  First a declaration of intent:
+
+    Darien's focuses his stern gaze upon you as he declares with cold
+    intensity:
+      I am Darien, Enlightened Bishop of Kaheda, and as is my
+      Way, I offer you this warning.  Depart or I shall attack.
+
+    [Here I thought perhaps a DIS check might compare the Kahedan's
+     DIS with the object of the kwarn, relaying different messages
+     to people in the room, like "Dorkboy gulps loudly as he
+     recognizes Darien's intent." or something like that depending
+     on difference in DISs between the two players.]
+
+There will then be a delay during which the object of the mwarn can leave.  If they are still present, the second stage will occur with the Kahedan being drawn into combat with the object.
+
+    Seeing you yet insulting his presence, Darien fluidly slips into
+    an offensive martial form and prepares to strike.
+    Darien attacks you!
+
+This command would thereafter moderate combat for us.  If you
+attack or assist someone whom you have not <mwarn>ed, you will
+be automatically disgraced, a state similar to banishment,
+but also modifying downward the unarmed combat, weapon skill,
+and defense of the Kahedan by 10 levels or more until a
+Council member has reviewed the case and deemed the cause of
+the fight acceptable.  If this does not occur, they will be
+automatically moved into banishment.
+If, though, the Kahedan used <mwarn>, then their victim will be
+listed in an array for that day, and so they will have "warned"
+an individual of their intent to slay... after that, we would
+consider that if the person wanted to stick around to fight,
+then, well... everyone gets what they deserved in the matter.
+
+Well, there's the suggestion for altering our approach to
+pfighting. People will still be required to log their fights
+within the rules and report the incidents to Council.  If
+people complain, then, we have the reports we need.
+
+D.
+

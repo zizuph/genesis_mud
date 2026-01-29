@@ -1,0 +1,105 @@
+             DOCUMENTATION FOR THE ABILITIES AND LIMITATIONS
+                    OF THE BLADEMASTERS OF KHALAKHOR
+           FOR THE PURPOSE OF DETERMINING BALANCE AND TAXATION
+
+
+  * Relevant Files/functions listed below each item where necessary.
+
+Guild Overview and Purpose (from joining document)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Being a Blademaster means a number of things, most important only 
+to those of us who bear the Chain and the Thistle.
+
+The Thistle is a symbol for the Blademasters, though the reason is
+lost with the passage of time, the symbol is still used. Wherever
+you see it, a Blademaster has been. There are many allies to the
+society, tailors and smiths who service our dress and weapons,
+particularly, will display the thistle on their shops, so that we
+might recognize it.
+
+The Chain is a symbol as old as the thistle, but is remembered.
+It symbolizes the chain of attack in a fight, where each position,
+parry, and thrust must be as strong as the others. As the strength
+of a chain depends on its weakest link, so does the strength of your
+blade depend on your weakest ability. You can always see a Blademaster
+by the chain on his or her collar.
+
+There is no guildhall for the Blademasters, but past members, those
+merchants and craftsmen who bear display the thistle, will often
+allow us to make use of their places of business. In these places,
+you may elect to start there.
+
+As we have no guildhall, and as such no trainers, the guild tax is
+minor, and put towards only those few abilities you will obtain as
+a Blademaster.
+
+The Blademasters have no regard for alignment or race, for us there
+is only the sword. As such, anyone of sufficient skill may be a 
+Bladeveteran. Beware your skill does not fall below confident veteran,
+else your claim to the title is forfeit, and you will no longer be a
+Blademaster.
+
+Branches
+~~~~~~~~
+One can join the blademasters as a layman guild.
+
+Skills Trained:
+~~~~~~~~~~~~~~
+The guild itself offers no training in any skills. It simply builds
+on the sword ability that they already have.
+    
+Combat Specials:
+~~~~~~~~~~~~~~~
+
+  Battack
+  ~~~~~~~
+    Files: /d/Khalakhor/guilds/blademasters/special/blade_attack.c
+    
+    Battack is a very standard damage special that now uses the
+    Genesis common specials system. The combat aid given is 48%, as
+    it is the only ability that the guild offers.
+            
+    Combat Aid
+    ----------
+    Using the Genesis Specials system, we simply set the combat aid
+    and all other calculations are set. It is currently set to 48%.
+        
+    Frequency
+    ---------
+    Being a layman special, the frequency of the battack is rather
+    long. It takes 25 seconds for a full cycle of Blademasters. There
+    may be reason to bring down this rather slow special.
+    
+    Hit chance
+    ----------
+    Tohit maxes out at 90, which gives a hit percentage of 82%. The actual
+    tohit formula is found here:
+    
+    /* attack_hit modifications added by Teth, 8 Feb 2002 */
+    /* Ok, let's deal with the attack_hit modifications */
+    /* First we halve the wchit value over 40           */
+    if ( tohit > 40 )
+    {
+        tohit = 40 + ( (tohit - 40) / 2 );
+    }
+
+    /* Ok, increase hit by guildstat as a %, capped at 100% */
+    guildstat = player->query_base_stat(SS_LAYMAN);
+    guildstat = ( guildstat > 100 ) ? 100 : guildstat;
+    tohit += ftoi( itof(tohit) * itof(guildstat) / 100.0 );
+
+    /* But we don't want attack_hit getting any higher than */
+    /* 90 in any event. This is a layman attack, after all  */
+    tohit = ( tohit > 90 ) ? 90 : tohit;    
+    
+    Penetration
+    -----------
+    Penetration is calculated using the person's strength and guild stat
+    for the stat portion, and the sword skill for the
+    skill portion of it. Of course, penetration also depends on the
+    weapon's pen.
+
+    Everything else is calculated by the Genesis Specials system.
+    
+
+Petros, July 2008

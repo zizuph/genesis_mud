@@ -1,0 +1,30 @@
+Here are some rules of creating new words. (when there is needed an not
+understood word). All this stuff is coded into language_obj.c
+Function code_word() is responsible for creatnig one word.
+
+First, function gets needed length. It also checks for chars like
+'!' '?' '.' at end of the word, so it would pass it at end
+of the new word. But.. if person doesn't understand the language, how
+would he know if it is question, or anything else? One of these
+three chars is randomly picked. Also, the word after such mark
+gets capitalized.
+
+Then it start to make the new word. It looks how many chars are to be 
+added yet, and accordingly to that number it randomly picks 
+a part from the *parts variable. Generally, it tries to avoid
+1-letter parts, and uses it only, if the needed length is 1.
+That is because words made of 1letter parts sound ugly and look not nice.
+Following rules aree set to ensure this:
+
+needed length:
+1	- only 1-letter part can be used
+2	- only 2-letter part can be used
+3	- only 3-letter part can be used
+4	- it picks 2 or 4 letter part
+5	- picks 2 or 3 letter part
+6	- picks 2 or 3 or 4 letter part
+...	-            -||-
+
+Hope it makes some sense :)
+
+Belize

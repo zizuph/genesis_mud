@@ -1,0 +1,251 @@
+/* /d/Gondor/info/GUILD/rangers_addendum */
+
+Addendum to Rangers Tax Documentation (/d/Gondor/info/GUILD/rangers)
+
+   Tigerlily, January, 2004
+---------------------------------------------------------------------
+I. Introduction
+---------------------------------------------------------------------
+Carrying forward the Ranger tradition that was created by
+Elessar, Olorin, Mercade, and other great Gondorian wizards, the 
+basic theme and characterization of the ranger guild will remain 
+the same as always.  However, between the years 2001-2004, 
+the guild was recoded by the team of Alto and Gwyneth, with 
+some later minor adjustments by Tigerlily, in order to update 
+the rangers to modern standards.
+
+There are two major changes that affect Rangers with the recoded 
+version: general administration of the guild, based upon a principle
+of choice determined by vote of the membership, and an updated skill 
+set including a selection or specialization in weapon options. 
+
+The following directory contains the ranger guild recode: 
+    
+    /d/Gondor/guilds/rangers/..
+
+See documentation in the above directory for more information 
+on file specifications.
+
+---------------------------------------------------------------------
+II.  Administration of the Ranger guild. 
+---------------------------------------------------------------------
+    With the recoded version of the guild, there are two companies,
+    the Rangers of Ithilien and the Rangers of the North. The 
+    Rangers of Gondor will no longer be extant, and the guildhouse
+    in Gondor will become home to apprentice rangers (formerly 
+    pupils).
+
+    Formerly known as the Rangers of Gondor, the guild will now
+    be known as the Rangers of the Westlands. 
+
+    Players will be able to join the Rangers by answering a 
+    set of questions administered by Amaron upon finding the
+    headquarters in Gondor (/d/Gondor/guilds/rangers/hq/join.c) 
+
+    New rangers become apprentices and will have a limited period 
+    of time (4 months) to prove their worth before becoming a full 
+    ranger. After completion of tasks administered by a wise
+    woman, apprentices become eligible to apply to either the 
+    Ithilien Company (RoI) or the Grey Company (RoN).
+
+    Apprentices are subject both to limited skills and to
+    limited spell usage, and thus their tax rates are discounted by 
+    comparison with a full ranger (see below).
+
+    The outcome of a vote among the ranger membership determines
+    whether an apprentice will be accepted to join one of the
+    companies as a full ranger.  In the event that the membership
+    fails in its duties to complete the vote over a period of time, 
+    the apprentice will become a full ranger by default.
+
+    The voting process will also be used to select and support the 
+    leadership roles of the guild. Votes will be prompted at six month 
+    intervals, to ensure that the leadership has the full support
+    of the guild membership.
+
+---------------------------------------------------------------------
+III.  Skills Update
+---------------------------------------------------------------------
+    Ranger skills have been upgraded to allow for a weapon choice
+    for both the RoN and the RoI as reflects their somewhat different
+    guild styles. The Rangers of the North following Aragorn live a
+    secluded life in the lost realm of Arnor. In secret they defend the
+    borders of the Shire and require stealth, herbalism and magical 
+    abilities in addition to basic fighting skills. They will have
+    a choice between the sword and the bow for as a preference
+    based upon their fighting style. 
+
+    The Rangers of Ithilien under Captain Faramir live beneath the
+    Shadow of Mordor and have honed more advanced fighting skills 
+    to battle orcs and trolls in defence of Gondor. At the
+    same time they are are less skilled in magic and stealth. Their
+    weapon choices will be either the sword or polearm.
+
+    In addition to allowing a choice, ranger weapon skills have
+    been upgraded to Superior Master (for RoI) and Superior
+    Veteran (for RoN), following the varying company profiles.
+
+    Apprentices have lower skills and are not allowed a choice
+    in weapon beyond sword to level 50 and other weapons
+    to adventurer guild levels only.  In addition, they are 
+    capable with only two spells (Communing and Heal) and
+    limited ability with brawl and listen.
+
+    Below is a summary of supported skill levels for Apprentices,
+    Rangers of Ithilien, and Rangers of the North including the
+    tax computation per company for primary mud skills.
+
+---------------------------------------------------------------------
+    Apprentice Skills
+
+    SKILL          Mul | AG | Lev | slot | tax |
+      Sword        1.5 | 30 | 50  | 20*  |     |
+      Bow              | 30 |  0  |      |     |
+      Parry        1.5 |  0 |  0  |      |     |
+      Defense      1.5 | 20 | 50  | 30   |     |
+    Sub-total                     50(1.5)  1.25  =50*.15/6
+
+      Herbalism        | 20 | 35  | 15   |     |
+      Spellcraft       | 20 | 30  | 10   |     |
+      Abjuration       |  0 |  0  |      |     |
+      Life             | 20 | 30  | 10   |     |
+      Conjuration      |  0 | 10  | 10   |     |
+    Sub-total                       45     0.75  = 45 * .1/6
+
+      Sneak            | 20 | 50  | 30   |     |
+      Hide             | 20 | 50  | 30   |     |
+      Tracking         | 30 | 40  | 20   |     |
+      Awareness        | 30 | 70  | 40   |     |
+    Sub-total                       120    2.0   = 120 *.1/6
+
+    TOTAL MUD SKILLS   |    |     | 215  | 4.0 |
+
+    *Apprentices do not have option of weapon specialization
+------------------------------------------------------------------
+
+Rangers of Ithilien
+
+(includes a choice or specialization in weapon 
+ between Polearm and Sword to Superior Master--
+ the alternate weapon will train to Superior
+ Layman--three total weapon choices between Ithilien
+ and North at .6%)
+
+    Ithilien
+    SKILL          Mul | AG | Lev | slot | Tax %|
+      Sword        1.5 | 30 | 90  |105** | 2.625| = 105 *.15/6
+      Polearm      0.0 | 30 |  0  |      | 0.000| = 0/mutually exclusive choice
+      Parry        1.5 |  0 | 75  | 75   | 1.875| = 75 * .15/6
+      Defense      1.5 | 20 | 75  | 50   | 1.250| = 50 * .15/6
+    Sub-total                      230     5.75
+
+      Herbalism        | 20 | 60  | 40   |      |
+      Spellcraft       | 20 | 50  | 30   |      |
+      Abjuration       |  0 | 15  | 15   |      |
+      Life             | 20 | 55  | 35   |      |
+      Conjuration      |  0 | 20  | 20   |      |
+    Sub-total                      140     2.330    = 140*.1/6
+
+      Sneak            | 20 | 70  | 50   |      |
+      Hide             | 20 | 70  | 50   |      |
+      Tracking         | 30 | 60  | 30   |      |
+      Awareness        | 30 | 75  | 45   |      |
+    Sub-total                      175   | 2.920   = 175 *.1/6
+
+    TOTAL MUD SKILLS   |    |     |545   |11.000|
+
+**=(75-30) + (90-75)*4 = 105 for Ranger weapon skills with
+  4 multiplier for over 75 level fighter skills
+---------------------------------------------------------------
+
+Rangers of the North
+
+(includes a choice or specialization in weapon 
+ between Sword or Bow to Superior Veteran --
+ the alternate weapon will train to Superior
+ Layman)
+
+    North
+    SKILL          Mul | AG | Lev | slot  | Tax %|
+      Sword        1.5 | 30 | 80  |  65***| 1.625| = 65*.15/6
+      Bow          0.0 | 30 |  0  |       | 0.00 | = 0/mutually exclusive choice
+      Parry        1.5 |  0 |  0  |       | 0.0  |
+      Defense      1.5 | 20 | 75  |  55   | 1.375| = 55*.15/6
+    Sub-total                       120   | 3.00
+
+      Herbalism        | 20 | 70  |  50   |      |
+      Spellcraft       | 20 | 70  |  50   |      |
+      Abjuration       |  0 | 30  |  30   |      |
+      Life             | 20 | 65  |  45   |      |
+      Conjuration      |  0 | 35  |  35   |      |
+    Sub-total                       210     3.50 |= 210*.1/6
+
+      Sneak            | 20 | 80  |  60   |      |
+      Hide             | 20 | 80  |  60   |      |
+      Tracking         | 30 | 75  |  45   |      |
+      Awareness        | 30 | 85  |  55   |      |
+    Sub-total                     | 220   | 3.667|= 205*.1/6
+
+
+TOTAL MUD SKILLS                    550   |10.167|
+Stealth cloak for RoN Only****               .500
+TOTAL RON SKILLS                           10.667
+
+***=(75-30)+(80-75)*4 -- Ranger weapon skills w/4 multiplier
+over 75
+
+****For RoN cloak functions see the following file:
+/d/Gondor/guilds/rangers/obj/cloak_base.c
+
+---------------------------------------------------------------------
+IV. Tax Updates
+---------------------------------------------------------------------
+
+Previous tax was computed as follows (last modification: Olorin, 
+August 1997):
+
+TAX LEVELS (August 1997, see /d/Gondor/info/GUILD/rangers document)
+Summary
+                 Ranger pupils:  Gondor:      Ithilien:       North:
+Skill-levels     3.17%            8.72%        8.92%           8.22%
+Brawl            2.91%            5.83%        5.83%           5.83%  
+Listen           0.25%            0.50%        0.50%           0.50%
+Spells           0.50%            1.70%        1.60%           1.60%
+Potions          0.75%            0.75%        0.75%           0.75%         
+                 7.58%           17.50%       17.60%          16.90%
+
+        Actual:  8   %           18   %       18   %          18   %
+---------------------------------------------------------------------
+    
+Under the assumption (as of April, 2004, subject to future
+revision as needed) that the basic spells, brawl and listen have not 
+changed significantly since the last evaluation, and that the other 
+items relating to tax computation have not changed substantially, 
+the revised tax for the updated Ranger skills and items is as follows:
+
+TAX LEVELS (April 2004)&
+Summary
+               Apprentices:        Ithilien:         North:
+Skill-levels     4.00%              11.000%          10.667%
+Brawl            2.91%               5.830%           5.83%  
+Listen           0.25%               0.500%           0.50%
+Spells           0.50%               1.600%           1.60%
+Potions          0.75%               0.750%           0.75%
+                 8.41%              19.680%          19.347%
+
+        Actual:  8   %              20   %           20   %
+
+&The file /d/Gondor/guilds/rangers/rangers.h includes the 
+definitions for tax and skill profiles per company.
+
+Currently the occupational tax is set to 20%. Additional spells
+and potions may be added later.
+---------------------------------------------------------------------
+V. Next Phase
+---------------------------------------------------------------------
+Additions and updates can be expected later in 2004 due to AoB 
+review of brawl as well as additions of new spells and potions.  
+
+--To be determined.
+
+--Tigerlily, updated finally May 21, 2004

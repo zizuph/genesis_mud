@@ -1,0 +1,591 @@
+Calculation of Combat Advantage in Special Attacks
+--------------------------------------------------
+
+It is my hopes that this document will serve as a better,
+more descriptive resource when it comes to the balancing
+of special attacks. Most of it deals with combat advantage
+rather than tax, as once the advantage has been determined,
+the tax is comparitively a walk in the park.
+
+One thing to keep in mind, is that guild combat special
+attacks are balanced off of the 'average player'. This
+is a pretty much fictional player with the following
+traits:
+
+    * All stats and skills at 100.
+    * Only wields non-magical weapons with a max
+      WC of 40 (both tohit and pen values).
+    * Only wears non-magical armour with a max AC
+      of 40 (against all damage types).
+    * Has a normal quickness of 100, which produces
+      5 second combat rounds.
+
+Combat Advantage vs. Combat Effectiveness.
+------------------------------------------
+These are two terms I'll frequently refer too throughout
+this document, particularly in the final sections. Explaining
+them now will hopefully make it easier to understand
+without re-reading it half a dozen times. At their most
+basic forms:
+
+    * Combat Effectiveness (CE) is how well a player
+      fights.
+    * Combat Advantage (CA) is how much better than
+      normal a player fights.
+
+Combat effectiveness usually refers to how well the average
+player fights at the time of interest. Normally, this is
+100% combat effectiveness, but it might be higher due to
+certain causes such as a stun special that causes prolonged
+increased combat effectiveness.
+
+Combat advantage is usually refers to how much better than
+_the current combat effectiveness_ the average player fights.
+
+A formula for combat effectiveness is given as:
+
+    New CE = Current CE + (CA of Current CE)
+
+For example:
+
+    A combat special offers 10% combat advantage. The
+    average player is fighting normally, with a CE of
+    100%. The new CE produced for the duration of the
+    special is therefore
+
+    New CE = 100% + (10% of 100%)
+           = 100% + 10%
+           = 110%
+
+    A less intuitive example would be the same situation,
+    but assuming the average player has a current CE of
+    150%, perhaps because he's stunned his opponent.
+
+    New CE = 150% + (10% of 150%)
+           = 150% + 15%
+           = 165%
+
+That should be enough on CA and CE for now. More examples
+exist below after the logistics of combat specials are
+explained a bit more.
+
+Special Attacks:
+----------------
+Almost all non-magical guild specials are physical attacks.
+Fortunately, they're the easiest to code, and easiest to
+balance. Typical examples from the game are the Calian's
+swarm and the Gladiator's charge. Guilds pay tax based
+on these (and other specials), and that tax is primarily
+based on the combat advantage offered by the special.
+
+The combat advantage of a special attack is calculated
+simply by multiplying several modifiers together. For
+normal damage attacks, the modifiers most often taken
+into consideration are:
+
+    * Reset modifier.
+    * Tohit modifier.
+    * Wcpen modifier.
+
+Reset modifier
+--------------
+The reset modifier is simply the relative frequency a
+special can be used, and is determined by how many rounds
+a player must wait before he can use the special again.
+If I code a special that can only be used once every
+30 seconds, then for the average player that means it
+can be used once every 6 rounds (remember, 1 round is
+equal to 5 seconds for an average player). The reset
+modifier is then simply:
+
+    1 attack every 6 rounds = 1/6
+
+Tohit modifier
+--------------
+The tohit modifier determines the liklihood of a special
+attack actually hitting the opponent. This check is
+performed by calling the function cb_tohit() in the
+attacker's combat object. The return value will either
+be a 1, signifying the attack hit it's target, or a
+negative value indicating how badly we missed. Most
+people simply check it for returning a hit and never bother
+with seeing how badly they missed.
+
+cb_tohit() takes three arguments. The attack id number,
+which for a special attack is usually just -1, the base
+chance tohit, and the target being hit.
+
+In a normal attack by the average player, the attack id
+number would be the attack id of the weapon he's hitting
+his target with. The tohit value would be the tohit of
+the weapon he's hitting the target with, and the target
+is simply that, his target. The only arguments to cb_tohit()
+of relevance to combat advantage is therefore the value
+supplied as the second argument, the base chance to hit.
+
+The tohit modifier is created simply by dividing the
+tohit value of the special by the tohit value of the
+average player, 40. Were I to code a special with a tohit
+value of 60, the resulting modifier would be simply:
+
+    tohit modifier = special tohit / average tohit
+                   = 60 / 40
+
+Wcpen modifier
+--------------
+The final most common used modifier is the wcpen modifier.
+This is the one that indicates the maximum possible damage
+inflicted if the attack hits its target. This is most
+frequently done using the F_PENMOD macro. This macro
+produces a wc_pen value that is supplied to the hit_me
+function, which determines how much damage to do to the
+target, then does it. Damage is basically calculated by
+taking the the wc_pen, reducing it according to any armour
+worn by the target, then selecting a value randomly from
+the result. For example, inflicting wc_pen 200 damage in
+an unarmoured opponent will do random(200) points of actual
+damage.
+
+Now, that explained, F_PENMOD takes two arguments. In a
+normal attack, they are the pen value of the weapon used,
+and the attacker's skill with the weapon used. A normal
+attack by the average player (wielding a sword with a pen
+of 40 and having a sword skill of 100) would have it
+appearing as:
+
+    F_PENMOD(40, 100) = 280
+
+The F_PENMOD macro does the calculations itself, and the
+easiest way to see what it would be is using your exec
+command. I.e. if you type
+
+    exec return F_PENMOD(40, 100);
+
+You should get a return value of 280. Remember this, it
+will make your life much easier when it comes to these
+calculations.
+
+To determine the wc_pen modifier of a special, all you
+do is compare your wc_pen value to the normal one. If a
+special attack produces a wc_pen of 400, the modifier
+is simply
+
+    wc_pen modifier = special pen / normal pen
+                    = 400 / 280
+
+The final combat advantage for this special is simply
+calculated by multiplying these together. Using these
+examples:
+
+    CA = reset mod. * tohit mod. * wc_pen mod.
+       = 1/6 * 60/40 + 400/280
+       = 0.347
+       = 34.7%
+    CE = 100% + (34.7% of 100%)
+       = 137.4%
+
+Damage Example 1 - A simple damage special:
+-------------------------------------------
+Let's assume I code a special that can be executed once
+every 25 seconds, or 5 rounds. I don't want it to be
+particularly damaging, but I want to have it almost always
+hit it's target. So what I'll do, is base the tohit value
+off the player's 'damage' skill. For the wc_pen, I'll
+use F_PENMOD, with the first argument being 10% above
+the wielded weapon's pen, and the weapon skill being
+the second argument.
+
+Reset modifier:
+The attack can be launched once every 5 rounds, so our
+reset modifier is simply:
+
+    reset mod = 1/5;
+
+Tohit modifier:
+As I use the players 'damage' skill for the base tohit
+chance, we must assume the average player has a 'damage'
+skill of 100. As normal attacks would have a base tohit
+chance of 40, the tohit modifier would be:
+
+    tohit mod = 100/40;
+
+Wcpen modifier:
+I've decided to have the special use a weapon the player is
+wielding. The first arg to the F_PENMOD macro is 10% above
+that weapon's pen value, the second arg is the player's
+skill in that weapon. Assuming a weapons's pen of 40,
+and a weapon skill of 100:
+
+    wc_pen = F_PENMOD(40 + (10% of 40), 100);
+           = F_PENMOD(44, 100);
+           = 302
+
+Given that for a normal attack:
+
+    wc_pen = F_PENMOD(40, 100);
+           = 280
+
+The wc_pen modifier is:
+
+    wc_pen mod = 302/280
+
+The overall CA for this attack would be:
+
+    CA = 1/5 * 100/40 * 302/280
+       = 53.9%
+
+Other Special Attacks:
+----------------------
+A variety of other special attack possibilities exist, and
+many require individual attention and cannot be narrowed
+down to a specific set of rules. It's for this reason
+the Arch of Balance exists, as there will always be times
+when you'll have to guess at modifiers and get a ruling
+from balance on it. WHEN IN DOUBT, ASK! Trust me, it'll
+save you some aggravation and a lot of embarrasment down
+the road. Here are some procedures for a couple of non
+damage special attacks that should help.
+
+Stuns:
+------
+Stuns are simply attacks that render an opponent incapable
+of activity for a period of times. Stuns usually only last
+a matter of seconds, but as anyone who's ever been in a tight
+situation can tell you, a couple seconds can decide the victor
+of a fight. Stuns are calculated a bit differently, in that
+you have to determine how much of the time an opponent will
+be stunned, and use that to determine a CA. As a rule of
+thumb, a stun that lasts for 50% of the time will result in
+a CA of 100%. The reasoning is this:
+
+A combat advantage of 100% means you are fighting with a 
+CE of 200%, or twice your normal effectiveness. A stunned
+opponent doesn't fight back (a properly stunned opponent,
+anyway). If that opponent is stunned half the time, then
+you are fighting twice as effectively as normal. Remember,
+combat advantage doesn't mean you're abilities have increased,
+it can also mean your opponent's have decreased. The actual
+combat advantage of a stun is calculated by using the formula:
+
+    CA = ((100 / (100 - %time stunned)) - 1) * 100;
+
+The percent time stunned is calculated as the ratio of time
+in a fight in which your opponent is stunned.
+
+First, a normal attack is considered of instant duration.
+That is, one attack lasts for 1 round per reset time. Stuns
+last for prolonged periods of time. A stun that lasts for
+10 seconds (or 2 rounds) and can be attempted every 20
+seconds (4 rounds) has a reset modifier of 2 rounds every
+4 rounds, or simply
+
+    2 / 4
+
+The tohit modifier is actually completely unchanged from
+treatment as a damage attack.
+
+The wc_pen modifier requires some thought, however. In a
+damage special, we simply compare the max possible damage
+of the special with the max possible damage of a normal
+attack. A stun that inflicts no damage, therefore, has a
+somewhat different wc_pen modifier, the nature of which
+is pretty much dependant on the nature of the attack, and
+further explanation to this requires examples:
+
+Stun example 1 - stun with no damage:
+-------------------------------------
+Imagine a stun special that will stun a target for 2
+rounds, and can be used every 30 seconds. Furthermore,
+I'll base the chance of it hitting off it 1/2 the
+player's 'stun' skill.
+
+The reset modifier is then simply 2/6.
+For the tohit modifier, the average player's skill is
+100, so his base chance of hitting is 100/2 = 50. The
+normal base tohit is 40, so the tohit mod is 50/40.
+
+The percent of time stunned is then calculated simply by:
+
+    2/6 * 50/40 = 41.7%
+
+And the CA is then:
+
+    CA = ((100 / (100 - 41.7)) - 1) * 100;
+       = ((100 / 58.3) - 1) * 100;
+       = (1.715 - 1) * 100;
+       = 71.5%
+
+Stun example 2 - Stun with damage:
+----------------------------------
+A more complicated stun would be a similar stun to above,
+the only difference being it inflicts damage, and only
+stuns if the percent of damage done compared to the
+target's current health (or %hurt) is greater than 20%.
+The wc_pen of damage inflicted is determined by using
+1/2 the attacker's str as the first arg to F_PENMOD,
+and the 'stun' skill as the second.
+
+The reset and tohit modifiers are identical to above,
+but other considerations must be taken into account now.
+Foremost is the fact that now we have a special with
+two effects; damage and stun. They should be calculated
+separatly then the individual CAs combined.
+
+The damage is calculated like a normal damage-only
+special. 
+
+The reset modifier varies only that the stun duration is
+not taken into account, as the damage inflicted is instant.
+The reset modifier is therefore simply 1/6.
+
+The tohit modifier is identical to the one used in the
+previous example, 50/40.
+
+    wc_pen = F_PENMOD(50, 100);
+           = 336
+
+For a normal attack:
+
+    wc_pen = F_PENMOD(40, 100);
+           = 280
+
+The wc_pen modifier is therefore 336/280
+
+The combat advantage for the stun's damage is therefore:
+
+    1/6 * 50/40 * 336/280 = 25%
+
+For the stun, the reset modifier is again 2/6 as in the
+first example, same with the tohit modifier, 50/40. The
+wc_pen modifier has differed somewhat now. It no longer
+represents the extra possible damage over a normal attack,
+but acts more like an extension on the tohit value. So,
+we make a few considerations. The first consideration,
+is that our tohit modifier represents the stun's basic
+chance to stun. The second, is that in order to stun,
+we have to inflict more than 20% damage in the target.
+The third, is that our chances of inflicting 20% damage
+are increased by the wc_pen modifier used in the damage
+CA calculations. So, our tohit modifier changes to
+
+    tohit_mod = 50/40 * (chance of doing > 20% damage)
+    tohit_mod = 50/40 * (chance of inflicting damage *
+                         chance of damage > 20%)
+              = 50/40 * (336/280 * chance of damage > 20%)
+
+The final part in the tohit_mod calculation requires a bit
+more math than usual, and some knowledge as to how hit_me
+works. 20% damage is equivalent to inflicting 200 points
+of damage in a target with 1000 hit points. The odds of
+doing this, is basically the odds of the attack's wc_pen
+being capable of doing 200 points of damage in an attack.
+The damage produced by an attack through the hit_me() function
+is calculated by subtracting random(armour class of the target)
+from random(wc_pen). Therefore, if our attack has a wc_pen of
+336, and we assume our target is another 'average player' with
+an AC of 40, the maximum possible damage we produce is:
+
+    damage = random(336) - random(40);
+
+On average, the random(40) will result in a value of 20, so:
+
+    damage = random(336) - 20;
+           = (0 to 335) - 20;
+           = -20 to 325;
+
+Since damage below 1 is set to a damage of 0, our range of damage
+values is:
+
+    damage = 0 to 325
+
+Now, in order for our stun to take effect, we must inflict
+more than 20% damage. The average player has a 100 con, which
+provides 1900 hit points. Because %hurt is relative to the
+target's health (it's easier to stun an opponent with few hit
+points, harder to stun an opponent with many hit points), we'll
+assume an average health of around 1000 hp. This means in order
+to stun, we must do at least 200 hp damage. This means of
+the 325 possible points we can do, only the last 125 will actually
+result in a stun, so our final tohit modifier is
+
+    (325 - 200) / 325 = 125 / 325
+
+So, the time stunned for the actual stun is:
+
+    2/6 * 50/40 * 336/280 * 95/295 = 19.2%
+
+And the CA is:
+
+    CA = ((100 / (100 - 19.2) - 1) * 100;
+       = ((100 / 80.8) - 1) * 100;
+       = (1.238 - 1) * 100;
+       = 23.8%
+
+Now, the total combat advantage for the stun is simply
+the CA for the damage, and the CA for the stun itself.
+
+    CA = 25% + 23.8% = 48.8%
+             
+Skill effecting:
+----------------
+Another possible source for a guild special, is one that
+enhances or reduces the effectiveness of skills. A good
+CA approximation could be attained by comparing the results
+of a fight to those without the enhancements.
+
+Skill Example 1 - Weapon skill enchancing:
+------------------------------------------
+Imagine a special that is a sort of trance. While in this
+trance, the player's skill with a sword becomes enhanced
+by 10%. The trance can be entered once every minute, and
+lasts for 30 seconds. We can actually make a pretty good
+CA here using a combination of stun and normal damage attack
+methods.
+
+Reset modifier:
+The enhancement lasts for 30 seconds (6 rounds) and can
+be entered every minute (12 rounds). The reset modifier
+is therefore:
+
+    reset mod = 6/12
+              = 1/2
+
+Tohit modifier:
+Enhancing the sword skill actually has nothing to do with
+the player's chance to hit, so the enhancement has no
+effect on his chances to hit his target.
+
+    tohit mod = 100% (normal)
+
+Wc_pen modifier:
+In a normal attack, the player's weapon skill is used as
+the second argument to F_PENMOD. So, we'll assume the 
+average player is using a weapon with a pen of 40, and
+before enhancement, has a sword skill of 100. The special
+attack wc_pen after the 10% skill enhancement is then:
+
+    wc_pen = F_PENMOD(40, 110);
+           = 295
+
+    wc_pen mod = 295/280
+
+The overall CA for this special would therefore be:
+
+    CA = 1/2 * 1 * 295/280
+       = 52.7%
+
+Combining Combat Advantages:
+----------------------------
+There are limits to the amount of combat advantage any guild
+can give, dependant on guild type.
+
+    occupational - 100%
+    layman       - 50%
+    racial       - 25%
+
+This is an overall limit, not per special, so all abilities
+must be taken into consideration. Consider the previous
+examples. If a guild had only one special, any would be
+legal for an occ guild. For a layman guild, only the two
+stun examples would be legal. None would be legal for a
+racial guild. 
+
+Combined Example 1 - Simple damage + skill enhance:
+---------------------------------------------------
+Now, we'll see what happens if an occ guild
+offers both the simple damage special, as well as the
+skill enhancement special.
+
+First, we'll assume that the enhancement special increases
+the player's sword skill. Second, we'll assume that the
+simple damage special uses a sword. Now, as we use the
+player's sword skill to determine his wc_pen for the damage
+special, it becomes obvious that the enhancement skill makes
+the damage special more effective. Therefore, the total
+combat advantage of these specials is multiplicative, as
+they complement one another.
+
+Referring back to the information on combat effectiveness
+vs. combat advantage, we'll begin by determining the CE
+of the skill enhancing special.
+
+    New CE = Current CE + (CA of Current CE);
+           = 100% + (52.7% of 100%);
+           = 100% + 52.7%;
+           = 152.7%
+
+Now, we take the damage into consideration. As it's
+multiplicative, the CA of the damage special is taken
+from the current CE, which is now 152.7%.
+
+    New CE = 152.7% + (53.9% of 152.7%);
+           = 152.7% + 63.8%;
+           = 216.5%
+
+Which translates to an overall combat advantage of 116.5%,
+an illegal combination of specials. However, this is only
+the case 1/2 of the time, as the skill enhancement can only
+be used 6 out of every 12 rounds. So, we can reduce this a
+bit with the following consideration, recalculating a second
+overall CA when not enhanced:
+
+    New CE = 100% + (52.7% of 100%);
+           = 152.7%
+
+As this calculation does not take the enhanced effects into
+consideration, we'll consider the damage separately.
+
+    New CE = 152.7% + (53.9% of 100%);
+           = 152.7% + 53.9%
+           = 206.6%
+
+Or a combat advantage of 106.6% So, half the time it's 
+106.6%, the other half it's 116.5%. We can claim that
+on _average_, the combat advantage is therefore
+
+    CA = (106.6 * 1/2 + 116.5 * 1/2)
+       = 53.3% + 58.3%
+       = 111.6%
+
+Still illegal, unfortunately, either the specials must
+be changed, or a new combination must be selected.
+
+Combined Example 2 - Simple Damage + No Damage Stun:
+----------------------------------------------------
+We'll start this calculation by restating the CA's of the damage
+special example, and the no damage stun special example:
+
+    simple damage special  - 53.9%
+    no damage stun special - 71.5%
+
+It's quite apparent this will result in an illegal combination of
+specials right away, but we'll carry through the equation simply
+to see the mechanics of the routine.
+
+First off, you have to consider that the opponent will be stunned
+2/6 of the time with this routine. Thus, 2/6th of the time the damage
+special will be enhanced by the stun special, or that the CA of the
+damage special will be a percentage of the CE while stun is in effect:
+
+    New CE = 100% + (71.5% of 100%)
+           = 171.5%
+
+    New CE = 171.5% + (52.9% of 171.5%)
+           = 171.5% + 90.7%
+           = 262.2%
+
+So 2/6 of the time, the overall CA would be 162.2%
+
+The other 4/6 of the time, the effects are not complimentary, so the
+CA's can simply be added together.
+
+    New CE = 100% + (71.5% of 100%) + (52.9% of 100%)
+           = 224.4%
+
+So 4/6 of the time, the overall CA would be 124.4%
+
+Overall CA would therefore be:
+
+    Overall CA = (162.2 * 2 / 6) + (124.4 * 4 / 6);
+               = 54.1 + 82.9
+               = 137%

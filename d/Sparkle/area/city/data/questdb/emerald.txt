@@ -1,0 +1,16 @@
+domain,quest desc,group,bit,hint,validation,arguments
+Emerald,Old Quest Bit,0,4,,always_false,0,4
+Emerald,Antique Sword,0,6,Fog undulates within the orb\, shifting in color and clarity. Out of the haze the image of an ancient and forgotten weapon appears followed by that of a man polishing a similar relic in his collection. As the images fades you wonder what it all must mean.,default
+Emerald,Find Rillian,2,1,The fog that is within the orb quickly gives way to the image of a shining city of light which can only be Telberin. You see yourself walking through the streets to locate the Mage Guild\, and within\, talking with a tall regal elf. The scene shifts to a young intrepid elf\, exploring the wilderness of Emerald. Finally\, you see yourself walking the same path as the young elf before the vision fades.,default
+Emerald,Torque Quest (Right Fragment),2,3,Visions float before your eyes. You see yourself wandering the wilderness around a lake. You see yourself examining many things. You see yourself\, at the last\, holding the right portion of a broken tablet.,default
+Emerald,Torque Quest (Left Fragment),2,4,Visions float before your eyes. You see yourself wandering the wilderness around a lake. You see yourself examining many things. You see yourself\, at the last\, holding the left portion of a broken tablet.,default
+Emerald,Torque Quest (Found Grotto),2,2,Dark fog swirls in the orb. At first\, you feel you are not able to see anything in the crystal. Then\, as your eyes adjust\, you realize that you are indeed seeing something\, but in a very dark place. You realize you are looking at yourself\, dripping wet\, studying ancient carvings.,default
+Emerald,Torque Quest (Signal),2,5,Whisps of fog part\, and you feel you are looking at nothing more than a stunning vista of high cliffs. Suddenly\, you see yourself walking along one of the high cliffs to disappear from sight behind an outcropping of rock. All is still\, and then suddenly birds launch from the trees as if frightened by a sudden piercing sound.,default
+Emerald,Torque Quest (Found Tower),2,6,Darkness fills the orb\, and you fear you are unable to see anything at all. Suddenly\, you notice what appears to be light reflected off of ripples in a vast\, dark lake. The ripples appear closer and closer until you see yourself stepping dripping from the water to stand basked in an intense glow of illumination.,default
+Emerald,Torque Quest (Acquired Torque),2,7,A fog dances in the orb\, shimmering with many colors. The fog slowly condenses and you see your own face\, illuminated by the same dancing colors. You see your own hands reaching out and grasping something which you have been seeking for a long time.,default
+Emerald,Torque Quest (Final Stage),2,0,A vision of your own face appears to you. On your brow is a beautiful crystal torque. A powerful magic flashes in the scene\, and the vision fades.,default
+Emerald,Torque Quest Removal,2,8,,always_false,2,8
+Emerald,Old Quest Bit,3,0,,always_false,3,0
+Emerald,Old Quest Bit,3,2,,always_false,3,2
+Emerald,Old Quest Bit,3,3,,always_false,3,3
+

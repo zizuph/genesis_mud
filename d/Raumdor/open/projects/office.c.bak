@@ -1,0 +1,168 @@
+/**********************************************************************
+ * - office.c                                                       - *
+ * - This is the Raumdor domain office.                             - *
+ * - Created by Damaris 8/2002                                      - *
+ * - It is based upon  /d/Genesis/room/info_office.c which was      - *
+ * - created by Maniac 7/1/97.                                      - *
+ **********************************************************************/
+
+#include "/d/Genesis/start/human/town/tower.h"
+#include "/d/Raumdor/defs.h"
+#include <std.h>
+#include <filter_funs.h>
+inherit TOWER_OFFICE;
+int alarmid;
+int eventnumber = 0;
+int events_is_on = 0;
+
+string *events = (({"The mural images shift...\n\n"+
+  "The almost fluid images become suddenly clearer. There "+
+  "is a battle torn city with majestic and ancient buildings "+
+  "that stretch nobly upward. Several humans are walking along "+
+  "a street leading towards an aristocratic Keep. Their clothes "+
+  "are elegant and it looks as if they are heading for some "+
+  "kind of an event or ball. There are also Kuhl standing "+
+  "around the entrance speaking with guards. Across the way there are "+
+  "also Kuhl stepping into a large temple that has a symbol "+
+  "of a shining sun rising... suddenly the images shift "+
+  "into blurry motion once again...\n\n",
+  "The mural images shift...\n\n"+
+  "The almost fluid images become suddenly clearer. A darkened "+
+  "forest rises in the distance and there is unimaginable "+
+  "movement within the trees. There are elves, which seem to "+
+  "be swallowed up within the shadows of the north. A long "+
+  "road twists and turns through the forest and there is a "+
+  "priest blessing the road by sprinkling holy water to make "+
+  "the passage safe... suddenly the images shift "+
+  "into blurry motion once again...\n\n",
+  "The mural images shift...\n\n"+
+  "The almost fluid images become suddenly clearer. There are "+
+  "small isles scattered beyond the northwestern coast with "+
+  "troubles seas. One isle seems to stand out above the rest. "+
+  "There is a path running west and east across a quiet, lush "+
+  "meadow sprinkled with sweet honeysuckle. Overhead, "+
+  "billowing clouds drift smoothly through a sultry blue sky. "+
+  "The quiet harbor cuts into the meadow to the immediate "+
+  "south. A sanctuary tower rises majestically to the immediate "+
+  "north. A dense forest stands nearby to the northwest. A soft "+
+  "breeze carries the sweet scent of the sea... suddenly the "+
+  "images shift into blurry motion once again...\n\n",
+  "The mural images shift...\n\n"+
+  "The almost fluid images become suddenly clearer. The mural "+
+  "almost seems to project screams as a darkened city of undead "+
+  "appears. Shadowy figures of darkness move fluidly through "+
+  "the streets seeking those of light to awaken them unto "+
+  "malevolence. Strange shops and building cascade down the "+
+  "filtered street leading to various mansions and ancient "+
+  "buildings. Packs of wolves roam the streets without anyone "+
+  "giving notice. A silhouette of a sign appears and the words "+
+  "etched in blood read... suddenly the images shift into "+
+  "blurry motion once again...\n\n",
+  "The mural images shift...\n\n"+
+  "The almost fluid images become suddenly clearer. Large desert "+
+  "mountain ranges rise upwards in the south. There are desert "+
+  "trails and sand storms filtering along the desert floor. "+
+  "There are tribes of goblins running with their wolves in "+
+  "raiding parties. The sun scorches the land overhead with "+
+  "a slight glimpse of a city in the southeastern reaches of the plains... "+
+  "suddenly the images shift into blurry motion once again...\n\n"}));
+
+void
+create_tower_office()
+{
+    set_long("This is a large darkened chamber that has "+
+      "been filled with various devices hanging along a "+
+      "few of the walls. It gives an impression of gloom "+
+      "and yet there is something more brilliant underlying "+
+      "this deception of misery. A huge mural stretches across "+
+      "the entire length and width of the far wall. There is a "+
+      "sign dangling from one of the devices.\n");
+    add_item(({"area", "chamber", "room", "large chamber", "darkened chamber", "dark chamber"}), query_long);
+    add_item(({"mural", "huge mural"}),
+      "It is a huge mural that extends from ceiling to floor and "+
+      "from one edge of a wall to the other. Oddly there are images "+
+      "that appear to be fluidly moving withing the mural.\n");
+    add_item(({"image", "images"}),
+      "The mural images fluidly move giving only a glimpse clarity "+
+      "now and again before they blur in motion once again.\n");
+    add_item(({"floor", "ground", "flooring"}),
+      "The flooring is made up of darkened stones.\n");
+    add_item(({"wall", "walls"}),
+      "The walls are made up of darkened stones.\n");
+    add_item(({"device", "devices"}),
+      "It is quite obvious these are torture devices.\n");
+    add_item(({"torture devices", "torture device"}),
+      "The torture devices are too numerous to list, but they "+
+      "all do look very well used not to mention kept in perfect "+
+      "working condition.\n");
+    add_item(({"hanging device", "hanging devices"}),
+      "There are chains, whips and a few items you are not even "+
+      "sure what they are hanging from various places on the walls.\n");
+    add_item("sign", OFFICE_SIGN_TEXT);
+    add_cmd_item("sign", "read", OFFICE_SIGN_TEXT);
+    add_item( ({ "graph", "player graph" }), "@@graph@@");
+    disable_logged_in_display();
+    set_project_dir("/d/Raumdor/open/projects/");
+    add_tower_link("tower");
+}
+/*
+ * start_events()
+ * Starts the alarm that echoes text-events to the players in this room.
+ *
+*/
+void
+start_events()
+{
+    alarmid = set_alarm(30.0,60.0,"do_event");
+    events_is_on = 1;
+    return;
+}
+
+/*
+ * do_event()
+ * Echoes the next text in a list of texts to all players in the room.
+ * Will turn off the alarm calling this function if no players are
+ * present here.
+ *
+*/
+void
+do_event()
+{
+    object *all_players_here;
+   string str;
+
+    all_players_here = FILTER_LIVE(all_inventory(TO));
+    if (!sizeof(all_players_here))
+    {
+    remove_alarm(alarmid); /* remove the repeating alarm! */
+    events_is_on = 0;
+    return;
+    }
+
+    eventnumber = eventnumber + 1;
+    if (sizeof(events) < (eventnumber + 1)) eventnumber = 0;
+
+    str = events[eventnumber];
+    tell_room(TO, str);
+    return;
+}
+
+/*
+ * init()
+ * Is called when an object enters this room.
+ * Is used here to start events if the events are not already on.
+ *
+*/
+void
+init()
+{
+    object *all_in_room;
+    ::init();
+
+    all_in_room = FILTER_LIVE(all_inventory(TO));
+    if (sizeof(all_in_room) && events_is_on == 0)
+    {
+        start_events();
+    }
+    return;
+}

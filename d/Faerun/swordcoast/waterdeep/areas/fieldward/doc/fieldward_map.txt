@@ -1,0 +1,176 @@
+main
+::MAPDATA::
+breezeway 65 27
+burnt_inn_st 20 19
+cg_keep01 64 23
+cg_keep02 64 23
+cg_keep03 64 23
+cg_keep04 64 23
+cg_keep05 64 23
+cg_keep06 64 23
+cg_keep07 64 23
+cg_keep08 64 23
+cg_keep09 64 23
+cg_keep10 64 23
+cg_keep11 64 23
+cg_keep12 64 23
+cg_keep13 64 23
+cg_keep14 64 23
+endshift_inn 62 25
+endshift_st 62 25
+fieldway01 27 20 mid_section
+fieldway02 24 18 mid_section
+fieldway03 17 18
+fieldway04 15 16
+fieldway05 12 13
+firewine_alley 16 16
+fork 40 10
+gatehouse01 36 14 mid_section
+gatehouse02 36 14 mid_section
+gatehouse03 36 14 mid_section
+gatehouse04 36 14 mid_section
+gatehouse05 36 14 mid_section
+gatehouse06 36 14 mid_section
+gatehouse07 36 14 mid_section
+gawenknife_st01 45 21 mid_section
+gawenknife_st02 45 21 mid_section
+gawenknife_st03 45 21 mid_section
+highroad01 36 20 mid_section
+highroad02 36 24 mid_section
+nanze_st 24 15 mid_section
+northgate 36 12
+northyard 36 17 mid_section
+saltpork_st 16 16
+tanner_alley 45 21
+thrakkus_meat 24 15
+trollfort01 6 11
+trollfort02 6 11
+trollfort03 6 11
+trollfort04 6 11
+trollfort05 6 11
+trollfort06 6 11
+trollyard 7 13
+wall01 16 10
+wall02 21 12
+wall03 26 12 mid_section
+wall04 45 14 mid_section
+wall05 50 16 mid_section
+wall06 55 19 mid_section
+waystation01 52 9 waystation
+waystation02 52 9 waystation
+::MAPDATA::
+ _____________________________________________________________________________ 
+|                                                                             |
+|                          =========================                          |
+|                          Waterdeep, the Field Ward                          |
+|                          =========================                          |
+|                     . . . . . . . . . . . . . . . . . . .                   |
+|                     .           The High Road           .                   |
+| . . . . . . . . . . .                 *  /\    _____    .                   |
+| .                   .                 * |  | / \     \  .                   |
+| .  / \              .                 *     |   | #  |  .                   |
+| . | + | - - - -     .                 *  *  *  *  * * * . *                 |
+| ./| # | _ _ _ _| \  .               *                   .   *               |
+| ./              \   .- - -        *                     .     *             |
+| .      ^ ^       \| ._ _ _|  \  ^ _ ^                   .      To           |
+| .          ^ ^      .       \  |  _  | - - -            .   Undercliff      |
+| .   __           ^  .^ ^      \| |#| | _ _ _| \         .                   |
+| .  /  \       ^     .  ^^         *          \  \       .                   |
+| ._| ++ |  ^         .    ^      *****    ^     \  \     .                   |
+| ._|  # |\    ^ ^^   .            ***    ^        \  \   . . . . . . . . .   |
+| .      \ \  _       .             *      ^^ ^     \  \  .               .   |
+| .   ^   \ |   |\    .^    ^       *           ^     \  \.               .   |
+| .          - - \ \  .  ^          *  ^               \  . /\____/\      .   |
+| .    ^^          \ \.  ^          *     ^^             \.|  +  +  |     .   |
+| .         ^   ^    \. \       /\  *   /\      ^ ^ . . . .|   88   |     .   |
+| .  ^ ^  ^           . \ \ _ _|  | *  |  | _ _ _   . ^  ^ ^              .   |
+| .           ^  ^    .   \ _ _   | *  |  | _ _ _| \.         ^ ^   \\    .   |
+| .    ^^             .             *              \.\   ^^ ^        \\\  .   |
+| . . . . . . . . . . . . . . . . . . . . . . . . . .\ \            \\\   .   |
+|                                                   .  \ \  /\    \\\\    .   |
+|                                                   .    \ |  | \\\\      .   |
+|                                                   . . . . . . . . . . . .   |
+|_____________________________________________________________________________|
+::NEWMAP::
+waystation
+::MAPDATA::
+waystation01 28 18
+waystation02 55 18
+::MAPDATA::
+
+ _____________________________________________________________________________
+|    |    \ |                                                           |     |
+|    |     \ |                                                           |    |
+|    |      \ |                                                           |   |
+|    |       \ |                                                           |  |
+|    |        \|                                                           |  |
+|    |         \____________________________________________________________  |
+|    |         |                                               |            | |
+|    |         |              O                                             | |
+|    |         |     ________/|\_________                      |            | |
+|    |         |  _ |\____________________\    _    _   _   _               | |
+|     \        |     \|____________________|       _______      \           | |
+|      \       |                                 /   @@    \                | |
+|       \      |                            |_  |   @@@@@   |   _| \        | |
+|        \     |                            | | \    @@@    |  | |          | |
+|         \    |         ______                  \ ________/          \     | |
+|          \   |        |      |                                            | |
+|           \  |        |   o  |                       o                 \  | |
+|            \ |        |      |                                            | |
+|             \|________|      |____________________________________________| |
+|                                                                             |
+|                                                                             |
+|                                                                             |
+|_____________________________________________________________________________|
+::NEWMAP::
+mid_section
+::MAPDATA::
+fieldway01 17 19
+fieldway02 8 16
+gatehouse01 25 12
+gatehouse02 43 12
+gatehouse03 25 7
+gatehouse04 34 7
+gatehouse05 43 7
+gatehouse06 25 4
+gatehouse07 43 4
+gawenknife_st01 47 21
+gawenknife_st02 57 23
+gawenknife_st03 67 25
+highroad01 34 19 
+highroad02 34 24
+nanze_st 7 13
+northyard 34 14
+wall03 10 5
+wall04 65 7
+wall05 70 9
+wall06 73 11
+::MAPDATA::
+ _____________________________________________________________________________
+|                       /\    Northgate    /\                                 |
+|     ^               /    \             /    \                               |
+|       \            /       \_________/       \                              |
+|     \   ^         |    o                 o    |   The Outer                 |
+|       \ o \       |   ||                 ||   |       Trollwall             |
+|         \   - ^ - |         ||     ||         | - ^ - ^ - ^ - ^ - ^         |
+|           \  -----|    o        o        o    |----------------o-   \       |
+|   \        |      |                           |                 | \   ^     |
+|     \      |      |   ||       ___       ||   |                 |   o   \   |
+|       \    |      |          _  #  _          |                 |    \   ^  |
+|         \  |      |    _    | ##### |    _    |                 |      o    |
+|           \|______|___|o|___| ##### |___|o|___|_________________|           |
+|                              :     :                             \          |
+|     Nanze Street           :    o    :                             \        |
+|                          :  Northyard  :      Chop Street           \       |
+|  ~ ~  o                   :           :                                     |
+|          ~                  :       :      Tanner            Shanty         |
+|             ~    Fieldway    :     :         Alley              Lane        |
+|                o ~ ~ ~ ~ ~ ~ :  o  :                                        |
+|                              :     : ~ ~                                    |
+| _ /\                         :     :     ~ ~ o  Gawenknife                  |
+|      \    The Inner          :     :           ~ ~    Street                |
+|        \     Trollwall  /\   :     :   /\          ~ ~ o                    |
+|          \ /\ _ _ _ _ |    | :  o  : |    | _ _ /\       ~ ~                |
+|                       |    | :     : |    |        \         ~ ~ o          |
+|                           The Upper Towers           \             ~ ~      |
+|_____________________________________________________________________________|

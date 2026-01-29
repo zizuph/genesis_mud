@@ -1,0 +1,26 @@
+domain,quest desc,group,bit,validation,arguments
+Khalakhor,Port Macdunn Introduction Tour,0,0,default
+Khalakhor,Port Macdunn Inspection Tour,0,1,default
+Khalakhor,Incense Quest,0,2,default
+Khalakhor,Post Office Tour,0,3,default
+Khalakhor,Honeycombs,0,4,default
+Khalakhor,Blubber Oil,0,5,default
+Khalakhor,Eil-Galaith Entrance,0,6,default
+Khalakhor,Statue Quest,3,0,default
+Khalakhor,Scroll Quest,3,1,default
+Khalakhor,Skeleton Quest,3,2,default
+Khalakhor,Feed Beggar,3,3,default
+Khalakhor,Paper Quest,3,4,default
+Khalakhor,Grovel Quest,4,19,reverse_sequential,3,5,8,1
+Khalakhor,Snail Quest,4,19,reverse_sequential,3,5,8,2
+Khalakhor,Spy Camp,4,19,reverse_sequential,3,5,8,3
+Khalakhor,Element Quest,4,19,reverse_sequential,3,5,8,4
+Khalakhor,Transform Quest,4,19,reverse_sequential,3,5,8,5
+Khalakhor,Ogion Maze,3,9,default
+Khalakhor,Cadu Rescue Girl,3,10,default
+Khalakhor,Spirit Quest,3,11,default
+Khalakhor,Potion Quest,3,12,default
+Khalakhor,Paint Dragon,3,13,default
+Khalakhor,Blue Dragon,3,14,default
+Khalakhor,Jabberwock,3,15,default
+Khalakhor,Blademaster Membership,4,0,always_false,4,0

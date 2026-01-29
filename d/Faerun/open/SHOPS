@@ -1,0 +1,26 @@
+Faerun's domain number is 52
+execr SECURITY->query_domain_number("Faerun");
+
+
+Faerun Shops
+------------
+Bandit Hidehout:
+/d/Faerun/highroad/bandits/rooms/shop
+
+Taverns and Inns
+----------------
+
+
+Banks
+-----
+Leilon:
+/d/Faerun/leilon/rooms/bank.c , ID 5200
+
+Bandit Hideout:
+/d/Faerun/highroad/bandits/rooms/bank.c , ID 5202
+
+Halfling Settlement:
+/d/Faerun/halflings/rooms/bank.c , ID 5203
+
+Dockward Fishgut Street:
+/d/Faerun/waterdeep/dockward/fishgutbank , ID 5210

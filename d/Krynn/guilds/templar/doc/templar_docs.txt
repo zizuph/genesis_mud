@@ -1,0 +1,71 @@
+** tattack combat aid revised from max 45% combat aid to 40% following global review of layman guilds.
+** Arman Kharas (AoB) August 2019
+
+The templar knights layman guild has 3 guild abilities.
+Evade, Regular combat attack special (tattack), and an initial attack(tsap) to start a fight that can stun the opponent 50% of the times it hits.
+
+Besides having these abilities the templars are capable of focusing on fighting defensively or not.
+If they fight defensively they will get 25% combat aid to evade, and 20% to tattack.
+If they are not fighting defensively they will get 40% combat aid to tattack.
+
+Tsap can only be used to initiate combat. Neither of the templar or his enemy can be in combat when this attack is performed.
+The attacker can only use the tsap ability once every 120 seconds.
+When the attack occurs, it takes 5 seconds to prepare for it to hit. 
+
+The tsap is only a supplement for tattack, therefore no combat aid for the regular damage.
+We only count the combat aid for the stun.
+
+Since the tsap can only be used once every 125 seconds, and we only hit 75% of the times, and stun only occurs every other time we do hit...
+
+We will hit with a stun every: 125 * (100/75) * 2 = 312.5 seconds.
+
+The combat system special library now supports handling percent chances to hit, so all this is now handled.
+
+    set_stun_combat_aid(5); // base combat aid
+    set_stun_chance(50); // percentage chance of stunning
+    set_stun_tohit(75); // hit percentage of the tsap
+    set_stun_cycle_time(125);
+
+Total Combat Aid:
+
+Evade  : 25%
+Tattack: 20%
+Tsap   :  5% 
+------------
+Total  : 50%
+============
+
+Tax for combat aid: 
+
+6% combat aid = 1% tax, so tax is (50 / 6)% = 8.33% tax
+
+Skills:
+=======
+
+Skill Name (type)   Untaxed Taxed     Mod  Total TotalAgainstLayLimit
++---------------------------------------------------------+
+SS_WEP_CLUB (f)       30     20(30)   1.5   50      20          
+SS_UNARM_COMBAT (f)   30     20(30)   1.5   50      20
+SS_DEFENCE (f)        20     30(30)   1.5   50      30
+SS_PARRY (f)           0     50(75)   1.5   50      50
+SS_BLIND_COMBAT (f)   20     30(60)   2.0   50      30
+SS_APPR_MON (g)       30     30(15)   0.5   60      30
+SS_TRACKING (g)       30     15(15)   1.0   45      15
+SS_AWARENESS (g)      30     30(30)   1.0   60      30
+SS_LOC_SENSE (g)      30     30(15)   0.5   60      30
+SS_LANGUAGE  (g)      30     30(30)   1.0   60      30
+                            ----           ----    ----
+                             330            535     285 (out of 350 max)
+                             
+Tax is (Taxable Skills / 60) or 330/60 = 5.5% tax for skills.
+
+
+Guild specific skills:
+tattack trains to 100.
+tfocus trains to 100.
+tsap trains to 100.
+
+Total tax: 8.33% + 5.5% = 13.83%  ~ 14%
+                                    ===
+
+

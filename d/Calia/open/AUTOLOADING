@@ -1,0 +1,104 @@
+
+Details of auto loading files in the Calia domain:
+--------------------------------------------------
+Mermaid ring:      /d/Calia/sea/objects/mermaid_ring.c
+                   A reward for completing the mermaid sea quest, it has 
+                   magical properties (see the domain's MAGIC file). It is 
+                   automatically restored to players who have done the quest 
+                   and lost it if they visit the room containing the mermaid 
+                   (/d/Calia/sea/sector_0_0_0/rock). 
+
+Calian medallions: These are issued to Calian warriors and add the guild
+                   soul. They may be be restored simply by asking the npc 
+                   guildmaster for a medallion at: 
+                   /d/Calia/glykron/palace/rooms/light/trainroom.c
+                   Path: /d/Calia/glykron/palace/objects/calian_medallion.c
+
+Combat boots:      The guild item of the Cadets of Gelan layman guild, it 
+                   adds the command soul, and can be personalised a little
+                   by writing on them. They can be restored by going to the
+                   guildmaster at /d/Calia/gelan/cadet/cadet_trainroom.c and 
+                   typing <ask xorfin shoes> 
+                   Path: /d/Calia/gelan/cadet/cadet_shoes.c
+
+Ghost code:        This is added to players who kill shopkeepers in Gelan,
+                   a type of haunting that lasts for a few minutes. 
+                   Restoring these is not at all likely to be requested :)
+                   Path: /d/Calia/gelan/objects/ghost.c
+
+Hair shadow:       Players may buy a hairstyle from the hairdresser in Gelan.
+                   Restoration is best achieved by the player purchasing 
+                   a new haircut :)  Unfortunately autoloading shadows cause
+                   other major headaches if they fail to load, so care should
+                   be taken with the hair shadow file.
+                   Path: /d/Calia/gelan/specials/hair_shadow.c
+
+Tattoos:           Players who obtain tattoos from the tattoo parlour in
+                   Gelan recieve their tattoos as autoloading objects
+                   which use tattoo save files to remember what designs
+                   that player had. The tattoo object is found in
+                   /d/Calia/gelan/tattoos/tattoo.c
+
+Serpent Ring:      An incidental reward in the Seer and the Lord Quest
+                   in Eldoral. The ring is a permanent autoloader, until
+                   the player uses the spell contained within the ring,
+                   at which point it's lost forever. Before restoring
+                   this object to players, check
+                   /d/Calia/log/serpent_ring_usage. This log contains a
+                   list of the players who have used the spell in the
+                   ring. Only restore 'lost' serpent rings to players
+                   whose name doesn not appear in this log. The file for
+                   the ring itself is /d/Calia/eldoral/armours/magic_ring.c
+
+Silver Air Dagger        This is one of the spell items for the 
+                         Elemental Worshippers of Calia.  They
+                         are easily recoverable by having the 
+                         player type 'recover dagger' in the east
+                         chamber (forging chamber) of the Elemental
+                         temple.  Found in:
+                         /d/Calia/worshippers/objects/dagger.c
+
+Platinum Earth Pentacle  This is one of the spell items for the 
+                         Elemental Worshippers of Calia.  They
+                         are easily recoverable by having the 
+                         player type 'recover pentacle' in the east
+                         chamber (forging chamber) of the worshipper
+                         temple.  Found in:
+                         /d/Calia/worshippers/objects/pentacle.c
+
+Gold Water Chalice       This is one of the spell items for the
+                         Elemental Worshippers of Calia.  They
+                         are easily recoverable by having the
+                         player type 'recover chalice' in the east
+                         chamber (forging chamber) of the worshipper
+                         temple.  Found in:
+                         /d/Calia/worshippers/objects/chalice.c
+
+Copper Fire Wand         This is one of the spell items for the
+                         Elemental Worshippers of Calia.  They
+                         are easily recoverable by having the
+                         player type 'recover wand' in the east
+                         chamber of the temple (forging chamber).
+                         Found in:
+                         /d/Calia/worshippers/objects/wand.c
+
+Long Sceptre             This is the guild item for the Elemental
+                         Worshippers of Calia.  They are easily
+                         recoverable by having the player type
+                         'recover sceptre' in the east chamber 
+                         (forging chamber) of the worshippers 
+                         temple.  Found in:
+                         /d/Calia/worshippers/objects/sceptre.c
+
+Holy Symbol       This is the guild item for the Spirit Circle
+                  of Psuchae. Players can recover it by entering
+                  the starting chamber of the guild hall (temple)
+                  and typing 'recover symbol'.  Found in: 
+                  /d/Calia/guilds/scop/objects/holy_symbol.c
+                  
+Staff of Aeria    This is a quest item earned from completing the
+                  Staff of Aeria quest. Players cannot recover it
+                  once it has been broken. Do not recover this item
+                  for any players whatsoever. Found in:
+                  /d/Calia/sea/objects/aeria_staff.c
+

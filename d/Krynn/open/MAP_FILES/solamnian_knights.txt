@@ -1,0 +1,47 @@
+main
+::MAPDATA::
+high_armoury_rack 10 2
+high_armoury 10 4
+armoury 10 6
+knight_po 6 8
+north_hallway 10 8
+knightroom 14 8
+chapel 2 10
+west_hallway 6 10
+startroom 10 10
+east_hallway 14 10
+war_room 18 10
+common 26 10
+discuss 29 10
+south_hallway 10 12
+balcony 10 14
+::MAPDATA::
+
+
+          o
+          |      =================
+          o      Solamnian Knights
+          |      =================
+          o
+    PO    |
+      o - o - o
+          |
+  o - o -[ ]- o - o      [ ][ ]
+          |
+          o
+          |
+          o     /\_^_/\
+                \  |  /
+           .-.   \/_\/  .-.
+          /   \    _,  /   \
+         /  /  \ <` | /  \  \
+        / /     \/  |/     \ \
+       //////   '    `   \\\\\\
+      //// / // :    : \\ \ \\\\
+     // /   /  /`    '\  \   \ \\
+    //      /   //..\\          \\
+        o==|===UU====UU====>
+            \  '//||\\`
+                  ,~.
+                 {;@;}
+                  `~' 

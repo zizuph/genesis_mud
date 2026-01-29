@@ -1,0 +1,26 @@
+
+Topic: voting
+
+Commands:
+
+- call for vote <text>
+    Call the Council to vote on a topic.
+    The text should be self explanatory, and it must be possible to answer with
+    'aye' or 'nay'.
+
+- read call for vote
+- read calls
+    Read all present topics that you are asked to vote on.
+
+- read vote <n>
+    Read the present votes on topic number <n>.
+
+- clear call for vote <n>
+    Abort voting on topic number <n>.
+
+- terminate vote <n>
+    End the voting on topic number <n> and log the results in the library.
+
+- vote on <n> with <vote>
+    Vote on topic number <n>. Accepted votes are yes, aye, no, nay.
+

@@ -1,0 +1,115 @@
+Magical items in Calia
+----------------------
+
+The Crystalline Palace and Foothills:
+-------------------------------------
+There are magical items found in the crystalline palace and on the foothills, 
+having the relevant properties.  The items are: 
+
+     sword of light (~Calia/palace/weapons/sword_of_light.c, 
+     polearm of light ~Calia/palace/weapons/polearm_of_light.c)
+     sword of darkness (~Calia/palace/weapons/sword_of_darkness.c, 
+     polearm of darkness ~Calia/palace/weapons/polearm_of_darkness.c)
+     mithril platemail (~Calia/palace/armours/mithril/platemail.c)
+
+The sword/polearm of light emits light of strength 1, and the sword/polearm 
+of darkness emits darkness of strength 1. They are wielded by the white 
+warrior (/d/Calia/palace/monsters/white_calian.c) and black kroug 
+(/d/Calia/mountain/monsters/kroug_commander.c) respectively, the white 
+warrior being in the palace and the black kroug on the foothills, their hit 
+and pen are both 40. A sword or polearm of darkness may be converted to their 
+light equivalents by entering the room /d/Calia/palace/rooms/light/lightroom.c. 
+The mithril platemail has nothing special about it apart from being well 
+made armour with a bit of enchantment (ac 36). It is worn by the white 
+warrior only. 
+
+Gelan
+-----
+Gamalus, the guard at the entrance of Gelan 
+(/d/Calia/gelan/monsters/entrance_guard.c) has a magic cloak 
+(/d/Calia/gelan/armours/magic_cloak_guard_eye.c), which has armour class
+of 30 but no other special effects. Gamalus uses a special magical attack 
+when fighting. This takes the form of a spell that, when successful, either
+(a) puts a special flame object into the inventory of the enemy, which 
+periodically burns the victim, or (b) increases the intensity of the flame
+if the enemy already has one.
+This flame object is magical and its effectiveness determined by
+the resistance on the player of MAGIC_I_RES_FIRE. It can do serious damage
+as the amount of time it remains burning a victim varies, and each periodic
+damage is quite high.
+
+Moor
+----
+The magical items on the moor all relate to the polymorph quest, see
+/d/Calia/QUESTS/polymorph_quest. The polymorph demon is a magical being
+with strong transmutation magic, and its attacks do damage depending on
+the magical cold, fire and acid resistance of the player.
+The three types of items deposited by its attacks (icicle, charcoal and
+acid drop) are all slightly enchanted, but are only useful in the quest
+itself. The magical stone chipping and sapphire of draining that are 
+obtainable in the quest are both powerfully enchanted, but are only useful 
+in the quest itself.
+The magical shield in the quest is highly enchanted and resists fire, 
+cold and acid attacks when worn. The magic runs out and it disappears
+after a couple of hours. Naturally it is only possible for any one person
+to get this once in his/her player life. 
+
+Sea
+---
+The reward for the mermaid quest is a silver ring which allows one 
+to breathe water in the sea of Calia with effectiveness 70 when
+worn (/d/Calia/sea/objects/mermaid_ring.c). For magic purposes the ring
+is enchanted. 
+
+Eldoral
+-------
+There are two magic items involved with quests in Eldoral.
+The first is the Serpent ring (~Calia/eldoral/armours/magic_ring.c).
+This object is an 'incidental' reward players get when they've
+solved the Sword and the Lord Quest. It contains a spell, which
+when cast will do up to 1000 hp of damage to any undead in the room
+at a cost of 1000 mana. Once done, the ring destroys itself (so once
+it's been used once, it's gone). Usage is logged in
+~Calia/log/serpent_ring_usage, which notes when players used the
+powers of the ring at it removed itself. Once a ring has been used
+in this way, it cannot be obtained again, and should never be
+given back to a player by a wizard.
+
+The second magic item is the 'King's Hand', an object required by
+players doing the Calian Sup. Guru Quest, and is located in
+~Calia/eldoral/armours/gauntlet.c. It must be 'recharged' when
+first found, which is part of the quest, before it becomes magic.
+After that, a player can use it to crush weapons, armours, or the
+chain which must be broken to solve the quest. Each gauntlet can
+only be used once by each player, though a player can still use
+other gauntlets. The gauntlet retains it's powers after use, ideally
+to be passed to another Calian who may use it.
+
+There is another magic item in Eldoral, in the undead tunnels. A pair
+of snake-skin gloves. They slightly modify the hit descriptions of 
+the attacker if they are unarmed and raise their unarmed combat skill
+by 5 points while worn.
+
+Thalassia
+---------
+
+There are two magic items in the underwater city of Thalassia. The
+King of Thalassia (found at /d/Calia/sea/thalassia/citadel/palace_1_6.c)
+wields a magical trident (/d/Calia/sea/weapons/magic_trident.c). This is
+a clone_unique item and only two of them can ever be in the game at any
+one time. The weapon requires 65 strength, 80 intelligence and 65 polearm
+skill to wield, is intelligent (it talks to the wielder), does 10-40% 
+extra damage to krougs, and has a hit of 50 + random(10) and a pen of
+50 + random(10). When the person wields it, it lowers their defence and
+parry skill by 10 points each using set_skill_extra. If they do not have
+10 points of defence, no penalty is given. If they do not have 10 points
+of parry, no penalty is given.
+
+There are five triton magicians wandering around the Citadel area of the
+city. They carry a magical water staff. This staff gets a higher hit/pen
+for a wielder that has skill in water magic and has a 1 in 8 chance of
+doing a short attack delay on hit if that is the case. The weapon gets
+a +1 hit/+1 pen bonus for every 10 points of water magic skill the wielder
+has over 30. This staff (and a fire/water/earth/air/life version of them)
+are also wielded by the elder temple NPCs in the Elemental Temple.
+

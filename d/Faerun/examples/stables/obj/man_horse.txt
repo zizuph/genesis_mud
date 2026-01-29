@@ -1,0 +1,161 @@
+Bree Steed Help File
+
+Last Updated Feb 9, 2003
+
+Thank you for renting a Bree steed. Our steeds are high quality Rohan-bred
+animals. With proper understanding of how to use and take care of your steed
+we know you will have a most pleasurable riding experience.
+
+Note: I use the word 'steed' in this document, which you can use instead of
+'horse' or 'pony' in any of the commands.
+
+Your new steed understands several commands and and can do several emotes,
+controlled by you.
+
+Your steed will have a different set of commands and emotes, depending on
+whether you are leading or riding the steed.
+
+
+Riding and Leading Your Steed
+-----------------------------
+To mount your steed, simply use:
+
+mount <steed>
+
+To get off your horse:
+
+dismount
+or
+dismount <steed>
+
+<steed> Can be 'horse' or 'pony', depending on which you rented.
+
+To lead your steed use the same format:
+
+lead <steed>
+
+To stop leading your horse:
+unlead <steed>
+
+If you are leading your horse you may also:
+mount <steed>
+
+This makes you unlead, then mount your steed.
+
+In general you will want to stay mounted, as opposed to leading your steed,
+in most situations. Your steed is not very fond of water, so you must be
+mounted to cross rivers.
+
+
+Boarding Ships
+--------------
+When you board a ship you must be mounted, not leading. Our steeds don't
+particularly enjoy water so they won't be led onto a ship.
+
+Your steed does not ride for free (Except the Circle Line). To make boarding
+and purchasing tickets easier, you have the 'hboard' command. This simply buys
+two tickets and boards the ship.
+
+Disembarking a ship with your steed works the same as if you had no steed.
+Simply 'disembark' or 'leave ship'.
+
+
+Feeding and Watering Your Steed
+_______________________________
+A happy steed is a well-fed and watered steed. Your steed is a hearty eater
+and enjoys hay, oats, apples and of course sugar cubes. To feed your
+steed, simply:
+
+feed horse/pony with <food>
+
+Example:
+feed pony with apple
+
+To make your steed drink, simply:
+
+hdrink from <water source>
+
+Basically any room that has a water source that you can drink from,
+your steed can too. So if you can 'drink from river' yourself, you can
+make your steed drink too with 'hdrink from river'.
+
+Try it in the Bree Stables. The east yard has a water trough.
+
+
+Using the Bree Saddlebags
+_________________________
+Your new steed isn't just your best friend. Its also a fantastic pack
+animal. With the saddlebags in the Bree Tack Shop you can carry quite
+a load on your steed. The saddlebag doubles as a regular pack also.
+
+After purchasing a saddlebag you'll want to put it on your steed:
+strap saddlebag on steed
+
+To fill your saddlebag with whatever is in your inventory:
+fill saddlebag on steed
+
+To empty the contents of the saddlebag:
+empty saddlebag on steed
+
+To close your saddlebag on the steed:
+close saddlebag on steed
+
+To open your saddlebag on the steed:
+open saddlebag on steed
+
+To take the saddlebag off your steed:
+unstrap saddlebag on steed
+
+To view the contents of your saddlebag:
+hpack
+
+Note: Only the person riding can see the contents.
+
+
+Automount / Autodismount
+-------------------------
+Some indoor rooms allow steeds inside, but you have to be leading, not mounted.
+In this case, if you have typed 'autodismount', you will dismount your steed
+and lead it into the room.
+
+If you have 'automount' set you will automatically mount your steed when you
+lead it back outside.
+
+Some indoor rooms do not allow steeds at all and autodismount will not help
+you. You will have to manually dismount or unlead your horse.
+
+
+Galloping or Trotting
+---------------------
+You can make your horse gallop or trot.
+
+To make your horse gallop:
+hgallop on
+
+To make your horse trot:
+hgallop off
+
+
+Horse Behavior
+______________
+You can set your horses agressiveness towards others
+with the 'hnice' command:
+
+To make your horse friendly:
+hnice on
+
+To make your horse bite people when touched:
+hnice off
+
+Bree Stables can not and will not be held responsible if your steed bites
+someone. Use at your own risk.
+
+
+Emotes
+------
+
+List of emotes:
+
+hsnort
+hscrape <adverb>
+hnuzzle <player>

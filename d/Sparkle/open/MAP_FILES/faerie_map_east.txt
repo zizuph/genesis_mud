@@ -1,0 +1,468 @@
+main
+::MAPDATA::
+pier00 0 0 ctr_n
+landing 46 9 ctr_n
+pier01n  ctr_n
+beach01n 43 7 ctr_n
+beach02n 43 7 ctr_n
+beach03n 39 5 ctr_n
+beach04n 39 5 ctr_n
+beach01s 50 9 ctr_n
+beach02s 54 11 ctr_n
+beach03s 54 11 ctr_n
+ctroad01 42 21 ctr_s
+ctroad02 42 21 ctr_s
+ctroad03 42 21 ctr_s
+ctroad04 42 21 ctr_s
+ctroad05 42 21 ctr_s
+ctroad06 46 19 ctr_s
+ctroad07 46 19 ctr_s
+ctroad08 46 19 ctr_s
+ctroad09 46 19 ctr_s
+ctroad10 46 19 ctr_s
+ctroad11 46 19 ctr_s
+ctroad12 46 17 ctr_s
+ctroad13 46 17 ctr_s
+ctroad14 46 15 ctr_s
+ctroad15 42 13 ctr_s
+ctroad16 46 11 ctr_n
+ctroad17 46 11 ctr_n
+ctroad18 46 11 ctr_n
+ctroad19 46 11 ctr_n
+ctroad20 46 11 ctr_n
+ctroad21 46 11 ctr_n
+begin 42 18 ctr_s
+glade 46 11 ctr_n
+crypt01 52 18 gr1
+crypt01_in 52 18 gr1
+gr1_00 52 18 gr1
+gr1_01 52 18 gr1
+gr1_02 52 18 gr1
+gr1_03 52 18 gr1
+gr1_04 52 18 gr1
+gr1_05 52 18 gr1
+gr1_06 52 18 gr1
+gr1_07 52 18 gr1
+gr1_08 52 18 gr1
+gr1_09 52 18 gr1
+gr1_10 52 18 gr1
+gr1_11 52 18 gr1
+gr1_12 52 18 gr1
+gr1_13 52 18 gr1
+gr1_14 52 18 gr1
+gr1_15 52 18 gr1
+gr1_16 52 18 gr1
+gr1_17 52 18 gr1
+gr1_18 52 18 gr1
+gr1_19 52 18 gr1
+gr1_20 52 18 gr1
+gr1_21 52 18 gr1
+gr1_22 52 18 gr1
+gr1_23 52 18 gr1
+crypt02 52 18 gr2
+gr2_00 52 18 gr2
+gr2_01 52 18 gr2
+gr2_02 52 18 gr2
+gr2_03 52 18 gr2
+gr2_04 52 18 gr2
+gr2_05 52 18 gr2
+gr2_06 52 18 gr2
+gr2_07 52 18 gr2
+gr2_08 52 18 gr2
+gr2_09 52 18 gr2
+gr2_10 52 18 gr2
+gr2_11 52 18 gr2
+gr2_12 52 18 gr2
+gr2_13 52 18 gr2
+gr2_14 52 18 gr2
+gr2_15 52 18 gr2
+gr2_16 52 18 gr2
+gr2_17 52 18 gr2
+gr2_18 52 18 gr2
+gr2_19 52 18 gr2
+gr2_20 52 18 gr2
+gr2_21 52 18 gr2
+gr2_22 52 18 gr2
+gr2_23 52 18 gr2
+crypt03 52 18 gr3
+gr3_00 52 18 gr3
+gr3_01 52 18 gr3
+gr3_02 52 18 gr3
+gr3_03 52 18 gr3
+gr3_04 52 18 gr3
+gr3_05 52 18 gr3
+gr3_06 52 18 gr3
+gr3_07 52 18 gr3
+gr3_08 52 18 gr3
+gr3_09 52 18 gr3
+gr3_10 52 18 gr3
+gr3_11 52 18 gr3
+gr3_12 52 18 gr3
+gr3_13 52 18 gr3
+gr3_14 52 18 gr3
+gr3_15 52 18 gr3
+gr3_16 52 18 gr3
+gr3_17 52 18 gr3
+gr3_18 52 18 gr3
+gr3_19 52 18 gr3
+gr3_20 52 18 gr3
+gr3_21 52 18 gr3
+gr3_22 52 18 gr3
+gr3_23 52 18 gr3
+gib01 40 16 gib
+gib02 40 16 gib
+gib03 40 16 gib
+gib04 40 16 gib
+gib05 40 16 gib
+gib06 40 16 gib
+gib07 40 16 gib
+gib08 40 16 gib
+gib09 40 16 gib
+gib10 40 16 gib
+gib11 40 16 gib
+gib12 40 16 gib
+gib13 40 16 gib
+gib14 40 16 gib
+gib15 40 16 gib
+gib16 40 16 gib
+gib17 40 16 gib
+gib18 40 16 gib
+gib19 40 16 gib
+gib20 40 16 gib
+gib21 40 16 gib
+road01 40 16 gib
+road02 40 16 gib
+road03 40 16 gib
+::MAPDATA::
+                  ===================
+                      Faerie and
+                   Surrounding Lands
+                  ===================
+                                    . . . . . . . . . . . .
+  -------------                     .  O                  .
+  Mountain Road                     .    \    1  2        .
+  -------------                     .      O  O  O  Piers .
+. . . . . . . . .                   .   ^   \ | /         .
+.  /\     O ->  .                   .  /|\    O - O       .
+.       /       .                   .   |     |     \     .
+.     O    /\   .                   .         O    ^  O   .
+.   /   \    /\ .                   .       /     /|\     .
+. O      O /\   .                   .     O        |      .
+. |  Orc |  /\  .                   .   /   \             .
+. O  Camp  /\   .                   . Cairn   O       +   .
+. |   [ ] /\    .                   .  [ ]    |     +     .
+. O             .                   .         O - Graves  .
+.   \    \      .                   .     S   |    [ ]  + .
+.     O   O     . . . . . . . . . . . . . |   O -------   .
+. /\    \ |     .                       . | /   Central   .
+.    /\   O     . O - O - O - O - O     . O      Trade    .
+.       /\  \   . |   |   |   |   |    /.        Road     .
+.             O .-O - O - O - O - O - O .       -------   .
+. . . . . . . . . |   |   |   |   |     . . . . . . . . . .
+                . O - O - O   O   O     .
+                . |   |   |     /       . Piers
+ Map not to     . O   O   O - O         . -----------------------
+ scale, and     .   \       /  ------   . 1-Faerun > Faerie >
+ directions     .     O - O    Green    .   Pelargir Circle Line
+ approximate    .         |     Oaks    . 2-Faerie > Sparkle Line
+                .         O    ------   .
+                . . . . . . . . . . . . .
+::NEWMAP::
+ctr_n
+::MAPDATA::
+pier00 17 11
+landing 13 13
+pier01n 13 11
+beach01n 9 11
+beach02n 9 9
+beach03n 5 7
+beach04n 5 5
+beach01s 17 13
+beach02s 21 15
+beach03s 25 15
+ctroad16 9 25
+ctroad17 9 23
+ctroad18 13 21
+ctroad19 13 19
+ctroad20 13 17
+ctroad21 13 15
+glade 13 25
+::MAPDATA::
+
+            ===========================
+             Central Trade Road, North
+            ===========================
+
+     O
+     |
+     O
+       \
+         O
+         |   1   2
+         O   O   O
+           \ | /
+             O - O
+             |     \
+             O       O - O
+             |
+             O
+             |              Piers
+             O              -------------------------
+             |              1 - Faerun > Faerie >
+             O                  Pelargir Circle Line
+           /                2 - Faerie > Sparkle Line
+         O
+         |
+         O - P
+         |
+::NEWMAP::
+ctr_s
+::MAPDATA::
+begin 13 22
+ctroad01 13 30
+ctroad02 13 28
+ctroad03 13 26
+ctroad04 13 24
+ctroad05 17 24
+ctroad06 21 22
+ctroad07 21 20
+ctroad08 21 18
+ctroad09 21 16
+ctroad10 17 14
+ctroad11 13 12
+ctroad12 13 10
+ctroad13 17 10
+ctroad14 13 8
+ctroad15 9 6
+::MAPDATA::
+
+            ===========================
+             Central Trade Road, South
+            ===========================
+
+         |
+         O
+       /   \
+    Caves    O  Graveyard
+             |     /
+             O - O
+             |
+             O
+               \
+                 O
+                   \
+                     O
+                     |
+                     O
+                     |
+         Glade of    O
+        Beginnings   |
+            [ ]      O
+             |     /
+             O   O
+             | /
+             O
+             |
+             O
+             |
+             O
+           /
+::NEWMAP::
+gr1
+::MAPDATA::
+crypt01 14 11
+crypt01_in 14 11
+gr1_00 18 7
+gr1_01 10 9
+gr1_02 14 9
+gr1_03 6 11
+gr1_04 18 11
+gr1_05 22 11
+gr1_06 6 13
+gr1_07 10 13
+gr1_08 18 13
+gr1_09 26 13
+gr1_10 30 13
+gr1_11 10 15
+gr1_12 14 15
+gr1_13 18 15
+gr1_14 22 15
+gr1_15 30 15
+gr1_16 6 17
+gr1_17 14 17
+gr1_18 22 17
+gr1_19 26 17
+gr1_20 10 19
+gr1_21 18 19
+gr1_22 30 19
+gr1_23 34 19
+::MAPDATA::
+
+        ====================
+          Faerie Graveyard
+               - o -
+              Level 1
+        ====================
+
+                  O
+                /
+          O - O
+        /
+      O       C   T - O
+    / |     /     |     \
+ Road O - O       O       O - O
+          | \     | \         |
+          O   O - O   O       O
+        /     |       |     /
+      T       O       O - O
+            /   \   /       \
+          O       O           O - T
+::NEWMAP::
+gr2
+::MAPDATA::
+crypt02 14 11
+gr2_00 18 7
+gr2_01 10 9
+gr2_02 14 9
+gr2_03 6 11
+gr2_04 18 11
+gr2_05 22 11
+gr2_06 6 13
+gr2_07 10 13
+gr2_08 18 13
+gr2_09 26 13
+gr2_10 30 13
+gr2_11 10 15
+gr2_12 14 15
+gr2_13 18 15
+gr2_14 22 15
+gr2_15 30 15
+gr2_16 6 17
+gr2_17 14 17
+gr2_18 22 17
+gr2_19 26 17
+gr2_20 10 19
+gr2_21 18 19
+gr2_22 30 19
+gr2_23 34 19
+::MAPDATA::
+
+        ====================
+          Faerie Graveyard
+               - & -
+              Level 2
+        ====================
+
+                  D
+                /
+          O - O
+        /     |
+      O       U - U - D
+        \           /
+      D - O       O       D - O
+            \     |     /     |
+          O - O - O - O       O
+        /     |
+      U       O       O - O
+            /   \   /       \
+          O       D           D - U
+::NEWMAP::
+gr3
+::MAPDATA::
+crypt03 14 11
+gr3_00 18 7
+gr3_01 10 9
+gr3_02 14 9
+gr3_03 6 11
+gr3_04 18 11
+gr3_05 22 11
+gr3_06 6 13
+gr3_07 10 13
+gr3_08 18 13
+gr3_09 26 13
+gr3_10 30 13
+gr3_11 10 15
+gr3_12 14 15
+gr3_13 18 15
+gr3_14 22 15
+gr3_15 30 15
+gr3_16 6 17
+gr3_17 14 17
+gr3_18 22 17
+gr3_19 26 17
+gr3_20 10 19
+gr3_21 18 19
+gr3_22 30 19
+gr3_23 34 19
+::MAPDATA::
+
+        ====================
+          Faerie Graveyard
+               - v -
+              Level 3
+        ====================
+
+                  U
+                /
+          O - O
+              |
+      O       O   O - U
+      |     /     |     \
+      U   O       O       U   O
+        \ |       |     /     |
+          O - O - O - O       O
+        /     |       |     /
+      O       O       O - O
+        \       \           \
+          O       U           U - O
+::NEWMAP::
+gib
+::MAPDATA::
+gib01 6 10
+gib02 14 10
+gib03 18 10
+gib04 10 12
+gib05 14 12
+gib06 18 12
+gib07 2 14
+gib08 6 14
+gib09 10 14
+gib10 18 14
+gib11 2 16
+gib12 6 16
+gib13 14 16
+gib14 10 18
+gib15 14 18
+gib16 18 18
+gib17 22 18
+gib18 10 20
+gib19 14 20
+gib20 18 20
+gib21 14 22
+road01 6 8
+road02 10 6
+road03 14 6
+::MAPDATA::
+
+      ================
+       Gibberer Cairn
+      ================
+
+                /
+          R - R
+        /
+      R
+      %
+      O       O   O
+        \       X
+          O   O   O
+        /   /     |
+  O - O - O       O
+  |         \   /
+  O   O       D
+        \   / :
+          O   U - O - O
+            /   X   /
+          O   O   O
+            \ |
+              O

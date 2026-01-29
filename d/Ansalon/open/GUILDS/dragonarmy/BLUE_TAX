@@ -1,0 +1,37 @@
+Note that skill training is dependant on SS_OCCUP. That means there will
+be no instant maxing skills after joining as SS_OCCUP is reset to 0.
+
+
+TAX CALCULATION FOR THE BLUE DRAGONARMY
+=======================================
+
+SKILL NAME     SKILL LVL     TAXABLE     TAX MOD     TAX PAID
+Sword          85            55          1.5         1.375%
+Ss_defence     75            55          1.5         1.375%
+Ss_parry       75            75          1.5         1.875%
+Ss_two_handed  75            75          1.5         1.875%
+Animal handl.  70            40          1.0         0.667%
+-----------------------------------------------------------
+TOTAL          395                                   7.167%
+Sword for 1     +5            5          1.5        +0.125%
+Sword for 2    +10           10          1.5        +0.25%
+Sword for 3,4  +15           15          1.5        +0.375%
+
+
+Slash special attack : 3.93%
+(See slash_doc)
+
+Dragonarmy steed : +3.0% for promotion levels 2,3,4
+(See dragonsteed_doc)
+
+Dragonfear ability : +1.455% for promotion levels 2
+                     +4.85%  for promotion levels 3
+                     +8.84%  for promotion levels 4
+(See dragonfear_doc)
+
+TOTAL TAX:
+promotion level 0   11.097%     TAXED:   14.0%
+promotion level 1   11.222%     TAXED:   16.0%
+promotion level 2   15.802%     TAXED:   18.0%
+promotion level 3   19.322%     TAXED:   20.0%
+promotion level 4   23.312%     TAXED:   24.0%

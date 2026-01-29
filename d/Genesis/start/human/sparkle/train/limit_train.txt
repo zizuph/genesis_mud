@@ -1,0 +1,77 @@
+Message: 20
+From   : Mercade
+Subject: Limiting training.
+Date   : Dec  5 1999
+
+The following code can be used to register the age of the player at which he
+or she last trained a particular skill. Just put this code in the object, and
+use the following two functions:
+
+- mark_training(player, skill) every time a player trains a certain skill.
+- allow_training(player, skill, limit) to find out whether a player is allowed
+      to train a particular skill now. Use 1800 seconds as limit to disallow
+      training again within half an hour of player age. 
+
+M.
+
+/*
+ * Global mapping keeping the age of the player at which he or she last
+ * trained that particular skill (reset every reboot). The mapping is of
+ * the type ([ (string) name+skill : (int) age ])
+ * We make a string of the name plus the skill number as index. */
+static mapping last_train = ([ ]);
+
+/*
+ * Function name: mark_training
+ * Description  : Call this whenever a player trains a certain skill. It
+ *                stores the 'age' of the player at which he or she last
+ *                trained.
+ * Arguments    : object player - the player that trains a skill.
+ *              : int skill - the number of the skill the player trained.
+ */
+void
+mark_training(object player, int skill)
+{
+    last_train[player->query_real_name() + "" + skill] = player->query_age();
+}
+
+/*
+ * Function name: query_last_training
+ * Description  : Call this to query the 'age' of the player at which he or
+ *                she last trained a certain skill (this reboot).
+ * Arguments    : object player - the player to find out about.
+ *                int skill - the number of the skill to test.
+ * Returns      : int - the 'age' of the player at the time, or 0 if the skill
+ *                    was not trained (this reboot).
+ */
+int
+query_last_training(object player, int skill)
+{
+    return last_train[player->query_real_name() + "" + skill];
+}
+
+/*
+ * Function name: allow_training
+ * Description  : Call this to check whether a player is allowed to train a
+ *                certain skill.
+ * Arguments    : object player - the player to find out about.
+ *                int skill - the number of the skill to test.
+ *                int limit - the limit in seconds within which the player
+ *                    may not train the skill again.
+ * Returns      : int 1/0 - true (1) if the player MAY train the skill, or 0
+ *                    if the training is NOT allowed.
+ */
+int
+allow_training(object player, int skill, int limit)
+{
+    int train_age = query_last_training(player, skill);
+
+    if (!train_age)
+    {
+        return 1;
+    }
+
+    return ((player->query_age() - train_age) > (limit / 2));
+}
+
+

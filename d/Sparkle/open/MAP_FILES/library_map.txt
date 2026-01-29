@@ -1,0 +1,261 @@
+main
+::MAPDATA::
+bedroom 38 31 library2
+circulation 38 31 library1
+clubs_craft_guilds 38 31 library1
+domains 38 31 library1
+entrance 38 31 library1
+guides_tutorials 38 31 library1
+headoffice 38 31 library2
+layman_guilds 38 31 library1
+map_reference 38 31 library1
+ne_stairwell 38 31 library1
+nw_stairwell 38 31 library1
+occ_guilds 38 31 library1
+poetry 38 31 library1
+racial_guilds 38 31 library1
+restorer 38 31 library2
+rooftop_east 38 31 roof
+rooftop_garden 38 31 roof
+rooftop_west 38 31 roof
+sewer1 38 31 sewer
+sewer2 38 31 sewer
+sewer3 38 31 sewer
+sewer4 38 31 sewer
+sewer5 38 31 sewer
+sewer6 38 31 sewer
+sewer_entrance 38 31 passage
+theology 38 31 library1
+upper_ne_stairwell 38 31 library2
+upper_nw_stairwell 38 31 library2
+waiting_room 38 31 library2
+writing_room 38 31 library1
+::MAPDATA::
+
+           "":"""""""::""""
+         :"""Construction :"
+        """"":""  Zone  """"
+             """"":"""""":""              __________
+     _____     "":""":":"""              /   AoP   /\
+    /    /\                             /  Office /  \
+   /____/\/ -- -- -- o -- -- -- -- o --/_________/   /
+   \____\/           |             |   \         \  /
+  Archives   :""":   |             |    \_________\/     
+            """"""   |             |                    ==================
+          " Work "   |             |                         Sparkle
+          " Area "   |        _____|_______                Town Center
+         ""::"""":   |       /Post Office /\                 [under]
+ -- -- o -- -- -- -- o      /____________/ /              [construction]
+                     |      \____________\/             ==================
+                     |
+   """"""""""        |               /.
+  """"""""""""       |              /  `.               ==-        Donations
+ "":"""""":""""      |             /      `.           .|.           Office
+" Construction "     |          + / Church   `._      .`- '`.       .--------.
+"""   Zone  """      o           \     of       /    | Bank  |___  .--------./
+ :"""":""":"""       |          /  `. Sparkle  / \  /`.___ . `   /\ \__\|\__\/
+      __________     |         /   \\ `.      /  / /_/    `.____/ /     |
+     /         /\    |       _/     -    `._ /  /  \/ `.   /\___\/      |
+    /         /  \   |        \    .---.    \  /   / /`.`./ /    Market |
+   / Genesis /   /   |         \____\ | \____\/    \_\ |\_\/   ___Square|
+  /  MVSEVM / /\/    |                |                |      /\__\     |
+ /         / / -- -- o -- -- -- -- -- o -- -- -- -- -- o -- -- -- -- -- o --
+/_________/  \       |                |                |   Auction Tent |
+\   __    \  /    __ |          ______|_____           |             __ |
+ \.---.`\__\/    /  /`.       .------.     /`       ~-:::-~         /  /`.
+  \____\/      .--./    `.   ,------./    /`\    ~-:       :-~    .--./    `.
+              /    `.    /  / \_____\/   /`  \  ~-:The Tower:-~  /  _ `.    /
+             / =   =  `.//,-------------.`   /  ~-:of Realms:-~ /        `.//
+              \________\/  \  Library    \  /    ~-:       :-~   \___..___\/
+           Adventurer Guild \_____________\/        ~-:::-~     General Store
+                            (YOU ARE HERE)
+::NEWMAP::
+library1
+::MAPDATA::
+circulation 35 11
+clubs_craft_guilds 24 23
+domains 46 15
+entrance 35 4
+guides_tutorials 46 11
+layman_guilds 24 19
+map_reference 46 19
+ne_stairwell 63 11
+nw_stairwell 7 11
+occ_guilds 24 15
+poetry 35 23
+racial_guilds 24 11
+theology 46 23
+writing_room 35 19
+::MAPDATA::
+
+  .----.----.----.----.----.----._ | _.----.----.----.----.----.----.
+ | .---------------------------- | | | ----------------------------. |
+ | |       |:R:|    |:G:|          |          |:G:|    |:&:|       | |
+  .|       |:a:|    |:u:|          o          |:u:|    |: :|       |.
+ | |       |:c:|    |:i:|          |          |:i:|    |:H:|       | |
+ | |       |:i:|    |:l:|          |          |:d:|    |:e:|       | |
+  .|       |:a:|    |:d:|          |          |:e:|    |:l:|       |.
+ | |       |:l:|    |:s:|          |          |:s:|    |:p:|       | |
+ | |                               |                               | |
+  .| Spiral                        |                        Spiral |.
+ | |   o -- -- -- -- -- o -- -- -- o -- -- -- o -- -- -- -- -- o   | |
+ | | Stair              |   Circulation Desk  |              Stair | |
+  .|                    |                     |                    |.
+ | |----------------    |   .-------------.   |    ----------------| | 
+ | |::Occ::Guilds:::    o  |               |  o    ::::Domains:::::| |
+  .|----------------    |  |      The      |  |    ----------------|.
+ | |                    |  | Writing Room  |  |                    | |
+ | |----------------    |  |               |  |    ----------------| |
+  .|:Layman::Guilds:    o  |       o       |  o    Maps:&:Reference|.
+ | |----------------    |  |       |       |  |    ----------------| |
+ | |                    |   `-----:|:-----'   |                    | |
+  .|----------------    |          |          |    ----------------|.
+ | |::Craft:Guilds::    o -- -- -- o -- -- -- o    ::::Theology::::| |
+ | |----------------        ---------------        ----------------| |
+ |  ._______________________:Poetry::Books:_______________________.  |
+  .____.____.____.____.____.____._____.____.____.____.____.____.____.
+
+                           =================
+                            Sparkle Library
+                              [1st floor]
+                           =================
+
+::NEWMAP::
+passage
+::MAPDATA::
+sewer_entrance 35 25
+::MAPDATA::
+
+  .----.----.----.----.----.----._ | _.----.----.----.----.----.----.
+ | .---------------------------- | | | ----------------------------. |
+ | |       |:R:|    |:G:|          |          |:G:|    |:&:|       | |
+  .|       |:a:|    |:u:|          o          |:u:|    |: :|       |.
+ | |       |:c:|    |:i:|          |          |:i:|    |:H:|       | |
+ | |       |:i:|    |:l:|          |          |:d:|    |:e:|       | |
+  .|       |:a:|    |:d:|          |          |:e:|    |:l:|       |.
+ | |       |:l:|    |:s:|          |          |:s:|    |:p:|       | |
+ | |                               |                               | |
+  .| Spiral                        |                        Spiral |.
+ | |   o -- -- -- -- -- o -- -- -- o -- -- -- o -- -- -- -- -- o   | |
+ | | Stair              |   Circulation Desk  |              Stair | |
+  .|                    |                     |                    |.
+ | |----------------    |   .-------------.   |    ----------------| | 
+ | |::Occ::Guilds:::    o  |               |  o    ::::Domains:::::| |
+  .|----------------    |  |      The      |  |    ----------------|.
+ | |                    |  | Writing Room  |  |                    | |
+ | |----------------    |  |               |  |    ----------------| |
+  .|:Layman::Guilds:    o  |       o       |  o    Maps:&:Reference|.
+ | |----------------    |  |       |       |  |    ----------------| |
+ | |                    |   `-----:|:-----'   |                    | |
+  .|----------------    |          |          |    ----------------|.
+ | |::Craft:Guilds::    o -- -- -- o -- -- -- o    ::::Theology::::| |
+ | |----------------        ---------------        ----------------| |
+ |  ._______________________:::::: o ::::::_______________________.  |
+  .____.____.____.____.____.____._____.____.____.____.____.____.____.
+
+                           =================
+                            Sparkle Library
+                              [1st floor]
+                           =================
+
+::NEWMAP::
+library2
+::MAPDATA::
+bedroom 43 15
+headoffice 43 11
+restorer 16 13
+upper_ne_stairwell 54 5
+upper_nw_stairwell 16 5
+waiting_room 43 5
+::MAPDATA::
+
+  .----.----.----.----.----.----._____.----.----.----.----.----.----.
+ | .---------:=====:--+------------+---------------:=====:---------. |
+ | |                  |            |    |_____|                    | |
+  .| Spiral           |            |                        Spiral |.
+ | | Stairs     o     |            |       o -- -- -- o     Stairs | |
+ | |  Down      |     |            |       |                 Down  | |
+  .|-------|    |     |  Storage   |       |               |-------|.
+ | |=======|    |     |   Area     |       |               |=======| |
+ | | ======|---:|:----|            |------:|:--------------|====== | |
+  .|   ====|    |     |            |       |               |====   |.
+ | |      =|    |     |            |       o   Librarian's |=      | |
+ | |_______|    |     |            |       |     Office    |_______| |
+  .|            o     :            |------:|:--------------|       |.
+ | | Book             |            |       |               |       | | 
+ | | Restoration      |            |       o    Bedroom    :       | |
+  .| Office           |            |                       |       |.
+ | |__________________|            |----------------------'  Attic | |
+ |  .______________________________|______________________________.  |
+  .____.____.____.____.____.____._____.____.____.____.____.____.____.
+
+                           =================
+                            Sparkle Library
+                              [2nd floor]
+                           =================
+
+::NEWMAP::
+sewer
+::MAPDATA::
+sewer1 28 9
+sewer2 14 9
+sewer3 42 9
+sewer4 14 5
+sewer5 28 5
+sewer6 42 5
+::MAPDATA::
+
+     .---------------------------------------------.
+     |  .______.;..._.._____._.___.--..__.______.  |
+     |  |                                       |  |
+     |  ;                                       |  |
+     |  .     o -- -- -- -- o -- -- -- -- o     :  |
+     |  |     |             |             |     `. |
+     |  |     |             |             |      ; |
+     |   `    |             |             |     ;  |  ================
+     |  |     o -- -- -- -- o -- -- -- -- o     |  |   Library Sewers
+     |  |               Ladder up               |  |  ================
+     |   ._____.-`,______.______.._____.^ ._____;  |
+     |_____________________________________________|
+
+
+::NEWMAP::
+roof
+::MAPDATA::
+rooftop_east 54 9
+rooftop_garden 35 9
+rooftop_west 16 9
+::MAPDATA::
+
+  .OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.
+ Oc`nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn,pO
+ Occ`nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn,ppO
+ Occc`nnnnnnn _____ nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn _____ nnnnnnn,pppO
+ Occcc`nnnnnn:=====:nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn:=====:nnnnnn,ppppO
+ Occccc`nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn,pppppO
+ Occccc.------------------------------------------------------.ppppppO
+ Occccc|                                                      |ppppppO
+ Occccc|        o  -- -- -- -- --  o  -- -- -- -- --  o       |ppppppO
+ Occccc|                    Rooftop Garden                    |ppppppO
+ Occccc|                                                      |ppppppO
+ Occccc|   .-----------------------------------------------.  |ppppppO
+ Occccc|   |`.OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO.`|  |ppppppO
+ Occccc|   |Oc`nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn,pO|  |ppppppO
+ Occccc|   |Occ`nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn,ppO|  |ppppppO
+ Occccc|   |Occc:::::::::::::::::::::::::::::::::::::::pppO|  |ppppppO
+ Occccc|   |Occ,uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu`ppO|  |ppppppO
+ Occccc|   |Oc,uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu`pO|  |ppppppO
+ Occccc|   |,`OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO`.|  |ppppppO
+ Occccc|    "---------------------------------------------"   |ppppppO
+ Occccc.______________________________________________________|ppppppO
+ Occcc,uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu.pppppO
+ Occc,uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu.ppppO
+ Occ,uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu.ppO
+ Oc,uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu`.O
+ O`uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu.O
+   OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+
+                           =================
+                            Sparkle Library
+                            [rooftop ledge]
+                           =================

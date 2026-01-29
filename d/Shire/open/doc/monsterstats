@@ -1,0 +1,60 @@
+Monster-standards - the list (Elessar, Mar 21)
+Monster/Race  * Home-area   * Example   * MERP * Avrg * Stats +  * Stats -
+=============================================================================
+Normal orcs   * Anywhere!   * Snaga     *    7 *   20 * DEX      *WIS/INT/DIS
+White Hand orcs* Isengard   * Lugdush   *   10 *   25 * DEX      * WIS/INT
+Red Eye orcs  * Mordor      * Gorbag    *   10 *   25 * DEX      * WIS/INT
+Uruk-Hai      * Iseng/Mordor* Grishnakh *  ~20 *   40 * CON/STR  * WIS
+-----------------------------------------------------------------------------
+Stone Trolls  * Rhudaur/MM  *Bert Huggins*  15 *   35 * CON/STR  *WIS/INT/DIS
+Olog-Hai      * Mordor/Moria* Moriatroll*   20 *   40 * CON/STR  *WIS/INT
+----------------------------------------------------------------------------
+Ents         * Fangorn     * Treebeard *   55 *   95 * STR/CON/WIS*    -
+Huorns       *Fangorn/Shire* Willow-man*   -  *   -  * Not really alive
+----------------------------------------------------------------------------
+Dwarves      *Mountaincaves* Thorin    *   30 *   55 * STR/CON/INT*  DEX
+----------------------------------------------------------------------------
+Hobbits      * Eriador/Shire* Frodo    *   12 *   28 * DEX/INT/WIS*  STR
+----------------------------------------------------------------------------
+Elves - Noldor* Aman/random* Gil-Galad *  100 *  160 * all high *    -
+  "  - Sindar* Forests     * Celeborn  *   40 *   70 *DEX/INT/WIS/DIS*
+  "  - Silvan* Forests.... * Haldir    *   25 *   50 * DEX/WIS/CON/DIS*   -
+Half-elves   * Forests...  * Elrond    *   65 *  110 * DEX/INT/WIS/DIS
+----------------------------------------------------------------------------
+Men - Dunedain* Gondor     * Elessar   *   40 *  70  * CON/WIS/INT *  -
+   Arnorians  * Arnor      * Theoden   *   30 *  55  * 
+   Gondorians * Gondor     * Beregond  *   30 *  55  *
+   Northmen   * Bree/north *Bard of Dale*  25 *  45  * 
+   Druedain   * Gondor     * Ghan      *   20 *  40  * WIS
+   Dunlendings* Eriador    * -         *   20 *  40  * 
+
+============================================================================
+Explanations: 
+Monster/Race - the type or race of the monster.
+Home-area    - where the monster can be found.
+Example      - a character of that race from the books of Tolkien.
+MERP         - the approximately max-level for that race in the MERP.
+Avrg         - Suggested average stats of monsters of that type/race.
+Stats +      - Stats that should be higher than the Avrg.
+Stats -      - Stats that should be lower than the Avrg.
+
+Other abbreviations:
+      MM- Misty Mountains.
+      Iseng. - Isengard (Orthanc)
+      random - lives somewhat randomly with other elves.
+      Aman - the land across the sea to the west, where the Gods live.
+      Rhudaur - the wild that lies on the west side of the Misty Mountains,
+                where for example Rivendell is.
+      Eriador - the part of Middle-Earth west of Misty Mountains, including
+                the Shire, Rhudaur and Arnor.
+
+Last comment:
+       All these figures are just suggestions. But I hope they are good
+enough to use as pointers to how the monsters really look like. Do comment
+on what you like/don't like/don't agree with/agree with in this list, so
+that we soon can reach a common agreement.
+If any of you are interested in the stats of the most important characters
+from the Lord of the Rings, the Silmarillion, or the Hobbit, they are all
+in these books, so just ask me :)
+
+              Lord Elessar Telcontar of Gondor.

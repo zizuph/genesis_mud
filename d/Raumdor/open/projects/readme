@@ -1,0 +1,16 @@
+/d/Raumdor/open/projects/
+
+In this Directory Raumdor wizards should have a
+file that vaguely describes what projects they 
+are working on. The description should be vague
+since all info in this directory is available to
+mortals through the tower of domains in Sparkle.
+
+Create files as follows:
+
+<wizards name>.prj
+The files with personal info on projects under work.
+
+Raumdor.prj
+This will be the domain information file.
+This file is the responsibility of the liege.

@@ -1,0 +1,62 @@
+This document describes balance and technical properties of the WoHS language.
+
+Each understanding check is made for two skills: Spellcraft and Language.
+Language in the check is a bit more important, thus has weight = 400,
+while spellcraft's weight = 300.
+
+The result is percent of words understood in one sentence.
+
+Following checks has been made in a 1000 cycle loop, so they are
+rather realistic ;-)
+
+
+Here is it:
+
+Chart describing how well the language of magic can be understood
+by non-members.
+ skills of the listener         percent of understood sentence   related
+Spellcraft	Language	min	AVG	max   amplitude   guild
+----------------------------------------------------------------------------
+   20		  50	       -47%    -23%      0%	  47    (max in adv
+								  guild)
+   40		  50	       -34%    -10%     13%   	  47    (a Ranger of
+								  the North)
+   20		  70           -30%     -6%     16%       46    (a minstrel)
+
+   60		  50	       -22%	 1%     25%	  47	(a Ranger of
+								  Gondor)
+   60		  70		-7%	16%     41%	  48    (a RoG +
+								  minstrel)
+   90		  50		-5%     18%     43%	  48    (a morgul
+								  mage)
+   90		  90		26%     50%     75%       49    (a mystic)
+----------------------------------------------------------------------------
+
+
+Most people won't be able to pick any word at all. Some more skillful
+of them, will be able to pick sometimes single words. Notice, that
+usually average value is a bit lower, than average of max and min.
+It means, that results reaching the max value are quite rare.
+
+Here are some characteristics of it:
+
+ o  Each word which is not understood is replaced by another, strange
+    sounding word of similiar length. (+/- 1 letter).
+ o  Each nod-understood word, which is said and heard by the same people,
+    when repeated looks still the same. Let's say that if XXX says
+    in the language 'test', and YYY understands 'lomak'. Each next time,
+    when XXX says 'test', YYY will understand 'lomak'.
+ o  The property explained above is valid only between the same reboots.
+ o  If ZZZ hears 'test' said by XXX, he will hear somthing else, than YYY
+    did. In other words, the language is by each person understood in
+    a diffrent way.
+ o  Not-understood word is supposed to sound a bit familiar. Which is
+    meant to fool those, who try to guess meaning of sentence.
+    (this may not work properly though, at least now doesn't ;-)
+    It depends on set of *parts variable, which is used in
+    construction of words).
+ o  People with INT < 30, spellcraft < 20 or language < 30 will
+    not hear anything at all.
+
+Thats all folks
+Sir Belize Darksoul of Palanthas, Master of the Lost Citadel.

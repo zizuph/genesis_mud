@@ -1,0 +1,38 @@
+
+The intent of staging delivery of the general experience win is to allow the
+player's brutality to function normally. Currently the number of delivery stages
+is 9, but this can easily be increased up to 36 with just a change in the defs.h
+file. Delivery occurs in a period of about 36-40 seconds.
+
+The delivery of general experience to the winning member occurs via calls to
+ ... std/living/savevars.c/add_exp_general( exp )     (line 1106 of savevars.c)
+
+This function uses brutality to reduce the actual experience gain (stat_exp)
+  of the player down from the input experience (exp)
+ ... query_brute_factor()                        (line 981 of savevars.c)
+ ... update_acc_exp(stat_exp, guild_exp)         (line 1146 of savevars.c)
+
+-----
+
+The club code makes calls to add_exp_general at:
+
+Code: daemon.c
+Line 1715:  plyr->add_exp_general( (gxp % nstages) );
+
+Code: room/larsether_base.c  
+Line 91:  ob->add_exp_general(gxp_incr);
+
+The first call delivers the integer remainder of (experience / nstages)
+and the second delivers the per-stage experience increment.
+
+------
+
+So high-brutality players will actually get very little of the experience prize.
+Apparently, < 10% of each increment once past 'violent'.
+
+Low-brutality players will get significant amounts of the early increments, but
+for large prizes they will not get much from the later increments, because their
+brutality will have gone up in the normal way with each successive increment.
+
+------
+

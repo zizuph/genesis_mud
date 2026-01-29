@@ -1,0 +1,22 @@
+
+
+
+	    p
+       	   /|\
+	  p l c
+	 / /|\ \
+Village=p-s-g-C-c
+	 \ \|/ /
+	  p s c
+	   \|/
+	    p
+
+
+Legend:
+c - corporal tents
+C - Captain  tent
+g - General  tent
+l - Lieutenant tent
+p - private tents
+s - sergeant tents
+

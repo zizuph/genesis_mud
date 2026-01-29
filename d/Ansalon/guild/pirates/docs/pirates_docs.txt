@@ -1,0 +1,111 @@
+Name : Pirates of the Bloodsea.
+Style: Fighter.
+Type : Layman.
+Tax  : 14%
+
+
+INTRODUCTION
+------------
+The Pirates of the Bloodsea is a small society that
+has taken up residence in an underground cave system
+on the Isle of Mithas. The pirates can, from their
+headquarters, spread their corrupted operations
+further into the Lands of Ansalon, plundering and
+killing as they move forward. The pirates ultimate
+goal is to completely gain control of the Bloodsea
+and the port cities that surrounds the sea.
+
+
+BECOMING A PIRATE
+-----------------
+Becoming a pirate is fairly easy. One must be voted
+into the sociaty by the guild leader and if he/she
+thinks you are worthy, you'll be invited to join.
+The pirates are considered neutral since they both
+attack dragonarmy ships and innocent merchant 
+ships. This means that it's up to the persons 
+OCC guild to decide weather he or she can join 
+(Of course a neidar might have some  difficulties
+joining since they are proud and noble warriors 
+unlike the ruthless mercenaries of the Dragonarmies
+or the mad gladiators of Athas).
+
+
+TITLES
+------
+Since the Pirates don't really care about age or
+wisdom, but instead respect brute force, their
+titles in the society depends purely on your layman
+guild stat. However the guild leader will get the
+special title 'Legend of the Bloodsea'.
+
+
+LOCATION
+--------
+The guild is hidden. In order to find it one must
+first search the floor of an old warehouse. The player
+will then notice a way down, that'll take him to the
+sea beneth the pier of Nethosak. The sea there only
+consists of 2 rooms. In one of the rooms, the player
+can examine some stones or rocks, and he'll discover
+a small cave, that he can enter, which will take him
+to the underground pirate cave.
+A non-pirate player will only have access to the
+first two rooms of the pirate cave. Once he becomes
+a member, they will be allowed to enter the rest of
+the cave system. This will give them access to a 
+droproom, a board, a shop, a training room and a
+room where they can collect a free parrot, once
+each day.
+
+
+SKILLS AND TAX
+--------------
+
+SKILL NAME     SKILL LVL     TAXABLE     TAX MOD    TAX
+-----------------------------------------------------------
+Sword            50            20          1.5      0.50 %
+Knife            60            30          1.0      0.50 %
+Defence          50            30          1.5      0.75 %
+Parry            50            50          1.5      1.25 %
+Trading          50            20          1.0      0.33 %
+Language         60            30          1.0      0.50 %
+Awareness        60            30          1.0      0.50 %
+Acrobat          40          2x20(alien)   1.0      0,33 %
+Swimming         50            20          1.0      0.50 %
+Open Lock        50          2x30(alien)   1.0      0.50 %
+Sailing          85            -           -        0.00 %
+
+Example of calculating: TAXABLE * TAX_MOD / 60 = TAX
+Note: Documentation states you don't pay extra tax for alien skill, just use more skill points.
+      
+
+Tax from skills: 5.65%
+
+Also training SS_SPECIAL_STAGGER - alcohol lore, to 100.
+
+Total: (20+30+30+50+20+30+30+2*20+20+2*30) = 330 taxable skills points out of 350.
+
+Abilities
+---------
+Stagger (evade ability automatically applied when the pirate is more than 50% drunk).
+
+The stagger is set to 40% combat aid:  set_evade_combat_aid(40), based on dexterity, and pirate alcohol lore skill.
+
+Pbash, an attack special using a bottle to hit the enemy.
+This is set to 10% combat aid:  set_combat_aid(10), based on strength and dex, and pirate alcohol lore skill
+
+Sailing skill - pirates get 85 skill levels in sailing, allowing them
+to sail boats of a certain size across the seas of Krynn.
+
+Skills          :  5.65 %
+Stagger         :  6.67 % (40% combat aid / 6)
+Pbash attack    :  1.67 % (10% combat aid / 6)
+-----------------------------------------------------------
+Total           : 13.99 %  => 14 %
+===========================================================
+
+
+
+
+

@@ -1,0 +1,42 @@
+                   . . . . . . . . . . . . 
+                   .                     . . . . . . . . . . .|. . . . . . .
+                   .  o - o - o - o - o  .        o - o - o - o            .
+                   .  |               |  .        |       |  Northeastern  .
+                   .  o   Northern    o -.o - o - o       o   Sparkle o    .
+   . . . . . . . . .  |    Sparkle    |  .        |       |           |    .
+   .               .  o               o  .        o       o - o - o - o    .
+   . Northwestern  .  |               |  .        |                        .
+   .  Sparkle o - o.- o - o - o - o - o  .        o                        .
+   .          |    .                 . . . . . . .|. . . . . . . . . . . . . .
+   .          o    .                 .            o                          .
+   .          |    .                 .            |                          .
+   .          o    . . . . . . . . . .    o - o - o - o - o - o - o          .
+ . . . . . . .|. . .   .             .    |                       |          .
+ .            o        .  o - o      .    o                       o          .
+ .  Western   |        .  |          .    |      Eastern                     .
+-.o - o - o - o - o - o.- o  Town    .o - o        Sparkle                o  .
+ .  Sparkle   |        .  | Center   .    |                               |  .
+ .            o        .  o          . .  o                               o  .
+ . . . . . . .|. . . . .  |            .  |                               |  .
+   .  o - o - o        .  o - o - o - o.- o - o - o - o - o - o - o - o - o  .
+   .  |       |        .               .      |                              .
+   .  o       o - o - o. . . . . . . . .      o                              .
+   .  |       |        .           .   . . . .|. . . . . . . . . . . . . . . .
+   .  o - o - o  . . . .           .          o                    .
+   . South    |  .                 .          |                    .
+   .  Western o -.o - o - o - o - o.- o - o - o                    .
+   .   Sparkle   .        |        .  |                            .
+   . . . . . . . .        o        .  o        Southeastern        .
+                 .    Southern     .  |          Sparkle           .
+                 .      Sparkle    .  o                            .
+                 .                 .  |                            .
+                 . . . . . . . . . .  o                            .
+                                   . .|. . . . . . . . . . . . . . .  
+ 
+==================================[Legend]====================================
+     . . .  Borders of the sections of town (shown as X if you are within)
+     - o -  Room locations and obvious direction exits
+     - * -  Room you are current standing in
+==============================================================================
+ The <zoom> command displays a detailed map of the section of town you are in.
+

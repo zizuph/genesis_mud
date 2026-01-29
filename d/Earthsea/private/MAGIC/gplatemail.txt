@@ -1,0 +1,10 @@
+Name: green steel platemail
+File: /d/Earthsea/gont/gont_city/arm/gplatemail.c
+Armour Class: 45
+Special:
+    Just extra high AC
+Props:
+    OBJ_I_IS_MAGIC_ARMOUR, OBJ_S_WIZINFO, MAGIC_AM_ID_INFO, 
+    MAGIC_AM_MAGIC
+Obtainability: Obtained from the marshal of Gont, who's backhand is
+    well known to be quite nasty.

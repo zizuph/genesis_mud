@@ -1,0 +1,65 @@
+[Tax]-----------------------------------------------------------------------
+
+06/09/13 Arandir        First complete tax document from notes approved by Cotillion
+
+
+Please see the combat documentation for detailed calculations of aid.
+
+
+[Combat].........................................................
+
+Note that because the unarmed combat skill can be used with
+weapons of two types, it is counted as two offensive skills.
+
+ SKILL                PUBLIC    LAY    OCC    LAY TAX    OCC TAX
+-----------------------------------------------------------------
+SS_UNARM_COMBAT         30       50    100      2.5%       3.5%
+SS_BLIND_COMBAT         20       45     90      0.83%      2.33%
+SS_DEFENCE              20       50    100      1.25%      2%
+-----------------------------------------------------------------
+                                                4.58%      7.33%
+
+ SPECIAL                LAY AID    OCC AID    LAY TAX    OCC TAX
+-----------------------------------------------------------------
+PLEXUS                     0%        54%        0%         9%
+STRIKE                    32.9%      40.1%      5.49%      6.69%
+-----------------------------------------------------------------
+                                                5.49%     15.69%
+
+
+[Extras].........................................................
+
+ SKILL                PUBLIC    LAY    OCC    LAY TAX    OCC TAX
+-----------------------------------------------------------------
+SS_AWARENESS            30      60      90      0.5%       1%
+SS_HERBALISM            20      50      75      0.5%       0.92%
+SS_ELEMENT_AIR          20       5       5      0%         0%
+SS_FORM_DIVINATION       0       5       5      0.01%      0.01%
+SS_APPR_OBJ             30      50      60      0.17%      0.25%
+SS_APPR_MON             30      50      60      0.33%      0.5%
+-----------------------------------------------------------------
+                                                1.51%      2.68%
+
+Member to member tell is given for 4% tax.
+
+
+[Totals].........................................................
+
+Rules checklist:
+
+ - OCC Total taxable skill slots can be at most 550.
+ - LAY Total taxable skill slots can be at most 350.
+ - Current sum is OCC 400 and LAY 180.
+
+ - OCC The maximum teaching level in mudlib defined skills is 90.
+ - LAY The maximum teaching level for mudlib defined skills is 50
+       for multiplier above 1.0 and 60 for other multiplier.
+
+ - OCC Maximum combat aid is 100%
+ - LAY Maximum combat aid is 50%.
+ - Current sum is OCC 94.1% and LAY 32.9%.
+
+ - OCC Maximum tax is 35%.
+ - LAY Maximum tax is 20%.
+ - Current sum is OCC 29.7% and LAY 15.58%.
+

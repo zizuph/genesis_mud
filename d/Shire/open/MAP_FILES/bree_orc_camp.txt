@@ -1,0 +1,150 @@
+main 
+::MAPDATA::
+path01 34 6 road1
+path02 34 6 road1
+path03 34 6 road1
+path04 34 6 road1
+path05 34 6 road1
+path06 34 6 road1
+path07 34 6 road1
+path08 34 6 road1
+path09 34 6 road1
+path10 34 6 road1
+path11 34 6 road1
+path12 34 6 road1
+path13 34 6 road1
+path14 34 6 road1
+path15 34 6 road1
+path16 34 6 road1
+path17 34 6 road1
+path18 34 6 road1
+path19 34 6 road1
+path20 34 6 road1
+path21 34 6 road1
+path22 34 6 road1
+path23 34 6 road1
+path24 34 6 road1
+path25 34 6 road1
+path26 34 6 road1
+tent01 34 6 road1
+tent02 34 6 road1
+tent03 34 6 road1
+tent04 34 6 road1
+tent05 34 6 road1
+tent06 34 6 road1
+tent07 34 6 road1
+tent08 34 6 road1
+tent09 34 6 road1
+tent10 34 6 road1
+tent11 34 6 road1
+tent12 34 6 road1
+tent13 34 6 road1
+tent14 34 6 road1
+tent15 34 6 road1
+tent16 34 6 road1
+tent17 34 6 road1
+tent18 34 6 road1
+tent19 34 6 road1
+tent20 34 6 road1
+tent21 34 6 road1
+tent22 34 6 road1
+tent23 34 6 road1
+tent24 34 6 road1
+tent25 34 6 road1
+::MAPDATA::
+
+    +---------+
+ ~  |THE SHIRE|
+ ~~ +---------+        Fornost
+  ~~                      o
+   ~~~                    |
+     ~~~                  |
+ \     ~~~                |
+  \      ~~~              |                                    Weathertop
+  |Frogmorton             |   BREE   Midgewater   /----------------*-\
+  o------===--------------+----O---\ Marshes/----/                    \------
+ /   |  Brandywine        |         \------/
+ ing |    Bridge          |
+     o   ~~~     Barrow   |
+  Whitfurrows     Downs   |
+        ~~~               |
+ ----- ~~~ o--------------\
+     ~~~  Sarn Ford        \
+   ~~~                      \
+ ~~~                         \   
+
+::NEWMAP::
+road1
+::MAPDATA::
+path01 7 1 
+path02 4 3 
+path03 7 3 
+path04 10 3 
+path05 1 5 
+path06 4 5 
+path07 7 5 
+path08 10 5 
+path09 13 5 
+path10 1 7 
+path11 4 7 
+path12 7 7 
+path13 10 7 
+path14 13 7 
+path15 1 9 
+path16 4 9 
+path17 7 9 
+path18 10 9 
+path19 13 9 
+path20 4 11 
+path21 7 11 
+path22 10 11 
+path23 7 13 
+path24 7 15 
+path25 9 17 
+path26 7 19 
+tent01 8 1 
+tent02 3 3 
+tent03 8 3 
+tent04 11 3 
+tent05 2 5 
+tent06 5 5 
+tent07 8 5 
+tent08 11 5 
+tent09 14 5 
+tent10 2 7 
+tent11 5 7 
+tent12 8 7 
+tent13 11 7 
+tent14 14 7 
+tent15 2 9 
+tent16 5 9 
+tent17 8 9 
+tent18 11 9 
+tent19 14 9 
+tent20 5 11 
+tent21 8 11 
+tent22 11 11 
+tent23 8 13 
+tent24 8 15 
+tent25 10 17 
+::MAPDATA::
+
+       o 		
+       |
+    o--o--o  
+  / |  |  | \       
+ o--o--o--o--o 
+ |  |  |  |  |
+ o--o--o--o--o 
+ |  |  |  |  |
+ o--o--o--o--o 
+  \ |  |  | /   
+    o--o--o                      _______________
+       |                        | BREE ORC CAMP |
+       o                        |_______________|
+       |
+       o 
+        \ 
+         o 		
+        / 
+     --o 

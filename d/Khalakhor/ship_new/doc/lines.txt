@@ -1,0 +1,90 @@
+After the reorganization the lines within and without Khalakhor will
+be established like this:
+
+1. Interdomain line:
+   Cadu <-> Sparkle
+
+2. Intradomain lines:
+   Cadu <-> Eil Galaith
+   Cadu <-> Sa Morgan
+   Cadu <-> Port Macdunn
+
+   Port Macdunn <-> Tabor Sogh
+   Port Macdunn <-> Baile Ashlagh
+
+3. Newbie lines:
+   Sparkle - Gelan - Cadu - Enchanted Garden (Terel) (N1)
+   Gelan - Sparkle - Port Macdunn - Grey Havens (N2)
+
+Efficiently, Cadu is turning into sub-hub of the domain. Considering
+its cosmopolitan nature and popularity this looks justified.
+
+The following code will be placed:
+
+Cadu:
+* GS (Genesis ShipLines) Office
+* 4 piers stretching east from the office:
+  - Newbie line
+  - Eil Galaith
+  - Port Macdunn
+  - Sa Morgan
+* 3 stalls between the piers:
+  - Snacks
+  - Soft Drinks
+  - Toilet
+
+Eil Galaith:
+* 1 pier to Cadu (utilizing current)
+* 1 slot to future elven-only line
+
+Port Macdunn:
+* 4 piers utilizing 2/3 of the current piers:
+  - Cadu line
+  - Newbie line
+  - Baile Ashlagh
+  - Tabor Sogh
+
+Sa Morgan:
+* 1 pier to Cadu (utilizing current)
+* Boarding block to Eil Galaith will be moved to the captain itself
+
+Tabor Sogh:
+* 1 pier to Cadu (utilizing current, unused)
+
+Baile Ashlagh:
+* 1 pier to Cadu (utilizing current)
+
+Pan-domain:
+In directory /d/Khalakhor/ship_new:
+Each line will get a directory:
+(*) Consider links to "both ways"
+
+cadu-sparkle/
+cadu-eilgalaith/
+cadu-samorgan/
+cadu-portmacdunn/
+cadu-newbie/
+
+portmacdunn-taborsogh/
+portmacdunn-baileashlagh/
+portmacdunn-newbie/
+
+subdirectories:
+
+ship: ship, deck, cabin code
+crew: captains, crew code
+objs: tickets, other objects code
+
+As much as possible of the old ship code will be salvaged:
+Line Cadu <-> Sparkle will be used as usual, but code moved
+Line Port Macdunn <-> Sparkle will be converted for newbie usage (N2).
+Line Port Macdunn <-> Baile Ashlagh will be just converted to new
+code.
+Line Eil Galaith <-> Sa Morgan will be used for Cadu - EG
+Line Port Macdunn <-> Sa Morgan will be used for Cadu - SM
+Line Port Macdunn <-> Kalaman will be used for PM - Tabor Sogh
+Line Port Macdunn <-> Gelan will be converted for newbie usage (N1).
+Line Port Macdunn <-> Grey Havens will be used for PM - Cadu
+
+That means from 8 old ships 8 new will be created.
+Unemployment rate - 0%

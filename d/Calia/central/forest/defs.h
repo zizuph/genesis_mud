@@ -1,0 +1,20 @@
+#include "../defs.h"
+
+#define FOREST_COVERT_CONTAINER   FOREST_SPECIALS + "covert_container"
+#define FOREST_DROPPING_OBJECT    FOREST_SPECIALS + "dropping_object"
+#define FOREST_FALL_ROOM          FOREST_SPECIALS + "fall_room"
+#define FOREST_FALL_FROM_TREE     FOREST_SPECIALS + "fall_from_tree"
+#define FOREST_FALLING_OBJECT     FOREST_SPECIALS + "fall_from_tree"
+#define FOREST_NOSEEUM            FOREST_SPECIALS + "noseeum"
+#define FOREST_TREE_COMBAT        FOREST_SPECIALS + "tree_combat"
+
+#define FOREST_QUEST      "/d/Calia/central/forest/specials/forest_quest.h"
+
+#define FOREST_ADJACENT_ROOMS     "_forest_adjacent_rooms"
+#define FOREST_COMBAT_INVENTORY   "_forest_combat_inventory"
+#define FOREST_DISLODGE           "_forest_dislodge"
+#define FOREST_DROP_ON_SOMEONE    "_forest_drop_on_someone"
+#define FOREST_LOCATION           "_forest_location"
+#define FOREST_LOOSE_OBJECTS      "_forest_loose_objects"
+#define FOREST_SLOPE              "_forest_slope"
+#define FOREST_TREE_TYPES         "_forest_tree_types"

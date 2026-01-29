@@ -1,0 +1,234 @@
+*****************************************************************************
+          TAX INFORMATION FOR THE DRAGONARMIES OF ANSALON (Occupational)
+*****************************************************************************
+AG = Adventures Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)
+
+Red Dragonarmy
+
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+General
+--------------------------------------------------------------------------
+SS_WEP_POLEARM         85         30          55          1.5        1.375
+SS_BLIND_COMBAT        75         20          55          2.0        1.833
+SS_DEFENCE             85         20          65          1.5        1.625
+SS_PARRY               85          0          85          1.5        2.000
+SS_APPR_MON            70         30          40          1.0        0.667
+SS_AWARENESS           60         30          30          1.0        0.500
+SS_ANI_HANDL           70         30          40          0.5        0.333
+--------------------------------------------------------------------------
+Totals                530        160         370                     8.333%
+          
+Polearm:  1           +10         0          +10          1.5       +0.250%
+Polearm:  2,3,4       +15         0          +15          1.5       +0.375%
+
+Blue Dragonarmy
+
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+General
+--------------------------------------------------------------------------
+SS_WEP_SWORD           85         30          55          1.5        1.375% 
+SS_BLIND_COMBAT        75         20          55          2.0        1.833%
+SS_DEFENCE             85         20          65          1.5        1.625%
+SS_PARRY               85          0          85          1.5        2.000%
+SS_APPR_MON            70         30          40          1.0        0.667%
+SS_AWARENESS           60         30          30          1.0        0.500%
+SS_ANI_HANDL handl.    70         30          40          0.5        0.333%
+SS_2H_COMBAT           85          0          85          2.0        2.833%
+---------------------------------------------------------------------------
+TOTAL                 595        160         455                    11.166%
+
+Sword: 1              +10          0         +10          1.5       +0.250%
+Sword: 2,3,4          +15          0         +15          1.5       +0.375%
+     
+--------------------------------------------------------------------------
+Guild Specific Skills
+--------------------------------------------------------------------------
+SS_DRAGONARMY_ATTACK    100      0       0     0.0       0.000
+--------------------------------------------------------------------------
+             
+Taxable Slots Allowed   : 550
+
+TOTAL TAX FOR SKILLS:
+    RDA Level 0:     8.333%
+    RDA Level 1:     8.583%
+    RDA Level 2,3,4: 8.708%
+
+    BDA LEVEL 0:     11.166%
+    BDA Level 1:     11.416%
+    BDA Level 2,3,4: 11.541%
+        
+// Changes to skills in 2017:
+// Earlier access to weapon skills
+// Decrease in awareness from 75 to 60
+
+                       
+========
+SPECIALS
+========
+
+----------------------------
+| BLUE DRAGONARMY SPECIALS |
+----------------------------
+
+// Intimidate (indoor dragonfear) removed as part of the August 2017 changes.
+// Arman - August 2017
+
+SLASH
+
+    A blue dragonarmy member can use a slashing attack against their
+    opponent. This ability is given 80% combat aid.
+    
+    Tax for Slash: 80 / 6 = 13.33%
+    
+SUMMON DRAGONFEAR
+
+    The ability to reduce an opponents defence has been measured in our
+    internal tests. With a reduction of 10 defence and parry, the opponent
+    actually loses about 9% total aid overall. Since this ability cannot be
+    used indoors and the actual amount of aid given by it can differ
+    depending on the situation, I suggest we charge only 5% combat aid
+    for this ability.
+
+    Tax for Dragonfear: 5 / 6 = 0.833% [does not stack with intimidate]
+  
+         
+DRAGON SWOOP ATTACK
+
+    Dragonarmy members can direct their dragons to make a swooping attack
+    on their opponents. This ability is given 15% combat aid according
+    to the Genesis specials system.
+    
+    Tax for Dragon Swoop: 15 / 6 = 2.5% [does not stack with dragon breath]
+    
+DRAGON BREATH ATTACK
+
+    Dragonarmy members who have summoned dragonfear have the ability
+    to call upon their dragons to perform a dragon breath attack. The
+    combat aid is 15%. It cannot be used at the same time as a Dragon
+    Swoop attack.
+    
+    Tax for Dragon Swoop: 15 / 6 = 2.5% [does not stack with dragon swoop]
+
+Total Tax for BDA Mercenaries :                                     13.33% (caid total 80)   
+Total Tax for BDA Soldiers and Officers:   : 13.33 + 0.833 + 2.5% = 16.67% (caid total 100)
+        
+-------------------------------
+|   RED DRAGONARMY SPECIALS   |
+-------------------------------
+
+// Wounding impale 75% combat aid [65% normal, 10% wounding] 
+// converted to simply impale 75% combat aid [75% normal]
+//
+// Autoimpale removed as part of the August 2017 changes.
+//
+// Arman - August 2017
+
+
+WOUNDING IMPALE:    75% combat aid [65% normal, 10% wounding]
+
+    A red dragonarmy member can use an impaling attack against their
+    opponent. This ability is given 75% combat aid.
+    
+    Tax for impale: 75 / 6 = 12.5%
+    
+SUMMON DRAGONFEAR
+
+    The ability to reduce an opponents defence has been measured in our
+    internal tests. With a reduction of 10 defence and parry, the opponent
+    actually loses about 9% total aid overall. Since this ability cannot be
+    used indoors and the actual amount of aid given by it can differ
+    depending on the situation, I suggest we charge only 5% combat aid
+    for this ability.
+
+    Available from rank 1 (soldier).
+
+    Tax for Dragonfear: 5 / 6 = 0.833%
+        
+DRAGON SWOOP ATTACK
+
+    Dragonarmy members can direct their dragons to make a swooping attack
+    on their opponents. This ability is given 10% combat aid according
+    to the Genesis specials system.
+
+    Available from rank 1 (soldier).
+    
+    Tax for Dragon Swoop: 20 / 6 = 3.33% [does not stack with dragon breath]
+    
+DRAGON BREATH ATTACK
+
+    Dragonarmy members who have summoned dragonfear have the ability
+    to call upon their dragons to perform a dragon breath attack. The
+    combat aid is 10%. It cannot be used at the same time as a Dragon
+    Swoop attack.
+
+    Available from rank 1 (soldier).
+    
+    Tax for Dragon Swoop: 20 / 6 = 3.33% [does not stack with dragon swoop]
+
+
+
+Total Tax for RDA Mercenaries :                          12.5 = 12.5%  (caid total 75)
+Total Tax for RDA Soldiers and Officers:  12.5 + 0.833 + 3.33 = 16.67% (caid total 100)
+
+====================
+ADDITIONAL FEATURES:
+====================
+
+Dragonfear Immunity:
+--------------------
+Dragons of Krynn emit dragonfear to mortals who behold them. This is a
+mixture of magical terror and awe at the sight of a magnificent beast.
+Members of the Dragonarmies who have become accustomed to having these
+magnificent beasts around are no longer affected by the magical 
+dragonfear. Not taxed, as it is Krynn-specific.
+
+Available from rank 2 (officers), meaning while soldiers can summon
+dragons they are also impacted by dragonfear! So a double-edged special
+for soldiers. 
+
+Tax for Dragonfear Immunity: 0%
+
+Summon Dragonsteed:
+-------------------
+
+Dragonarmy members of sufficient rank can summon a dragon to transport 
+them elsewhere. The dragons can be used to transport back and forth
+between a location and one of the predetermined locations.
+
+We charge 2% tax for the ability to travel via a dragon or a wyvern.
+
+TOTAL TAX FOR ADDITIONAL FEATURES: 2%
+                                   
+
+***************************************************************************
+             Taxation Summary
+***************************************************************************
+        
+Red Dragonarmy
+                         
+    Skill Tax Total        :  8.333, 8.583, 8.708, 8.708
+    Combat Specials        :  12.50, 16.67, 16.67, 16.67  
+    Additional Features    :   2.00  
+                              -----
+    Total Tax              :  22.83, 27.25, 27.38, 27.38
+
+    Rounded Total Tax      :  23% (Mercs), 28% (Soldiers+)
+
+Blue Dragonarmy
+
+    Skill Tax Total        : 11.166, 11.416, 11.541, 11.541
+    Combat Specials        : 13.333, 16.667, 16.667, 16.667  
+    Additional Features    : 2.000   
+                              ----
+    Total Tax              : 26.499, 30.083, 30.208, 30.208
+
+    Rounded Total Tax      : 27% (Mercs), 31% (Soldiers+)
+
+*****************************************************************************
+
+Document by Petros, March 2009
+Updated by Arman, August 2017

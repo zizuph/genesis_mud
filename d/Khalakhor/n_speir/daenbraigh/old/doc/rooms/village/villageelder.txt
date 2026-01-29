@@ -1,0 +1,23 @@
+An inside room, the village's elder tent
+
+Properties:
+none
+
+Items:
+skulls, sketches, bottles
+
+Objects:
+a closed and locked chest
+the elder
+a servant
+[guard outside]
+
+Actions:
+none
+
+Exits: out
+
+Special:
+attacking someone in this room will cause the guards to
+arrive immediately.
+

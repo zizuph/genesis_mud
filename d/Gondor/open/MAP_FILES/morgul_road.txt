@@ -1,0 +1,97 @@
+main
+::MAPDATA::
+gateh1 7 15
+i_ngate 11 15
+gateh2 15 15
+ng_office 19 15
+b3up 22 16
+b11up 30 16
+barrack6 36 16
+barrstr5 40 16
+stall 48 16
+barrack3 22 17
+darkstr5 26 17
+barrack11 30 17
+stable 48 17
+b7up 36 18
+barrack1 7 19
+mmr1 11 19
+priv_board_room 16 19
+darkstr4 26 19
+post 30 19
+barrack7 36 19
+barrstr4 40 19
+archway 44 19
+court 48 19
+office 52 19
+cellar1 7 20
+pub_board_room 16 20
+b5up 22 20
+hotel 30 20
+mmr2 11 21
+barrack5 22 21
+darkstr3 26 21
+inn 30 21
+barrack8 36 21
+barrstr3 40 21
+gateh3 44 21
+b8up 36 22
+mmr3 11 23
+mmr4 26 23
+mmr5 40 23
+i_egate 44 23
+shop 22 25
+darkstr2 26 25
+pub 30 25
+new_pub 30 25
+barrack9 36 25
+barrstr2 40 25
+gateh4 44 25
+b9upback 32 26
+b9up 36 26
+commonb 19 27
+boardroom 22 27
+darkstr1 26 27
+bank 30 27
+eg_office 44 27
+barrack10 36 28
+barrstr1 40 28
+trainhall 22 29
+darkstr0 26 29
+armoury 30 29
+mage_forge 26 31
+forge_supplies 30 31
+::MAPDATA::
+
+                             ============
+                             Minas Morgul
+                __TT__       ============
+                T    T
+                |    |
+                |    |
+ ,              |    |              ,
+ |\    ^     ^  |    |  ^     ^    /|
+ | \  | |   | | |    | | |   | |  / |
+ |  \_| |___| |_|_/\_|_| |___| |_/  |
+ |    | |   | | | || | | |   | |    |
+ |____| |___|_|_|_||_|_|_|___|_|____|
+
+           |
+       o - o - o - o
+           |         [ ]     [ ]    o -[ ]
+           |         [ ]- o -[ ]        |       o
+         \ | /            |        [ ]  |       |    Stable
+      [ ]- o   [ ]        o - o PO [ ]- o - o - o - o
+      [ ]  |   [ ] - [ ]  |  [ ]        |
+           o   BB    [ ]- o -[ ]   [ ]-[ ]  o
+  __       |              |  inn   [ ]  |   |
+ |__|\     o ------------ o ----------- o - o
+  \.\ \  /         Shop   |  Pub        |   |
+   \.\ \/             o - o - o    [ ]-[ ]  o
+   | .\ \            BB   |     o -[ ]  |   |
+    \. \ |        [ ][ ]- o - o         |   o
+     \__\/            |   |   Bank  o -[ ]
+                      o   o -[ ]
+ Tower of           Train    Arms
+    Black Sorcery         o -[ ]
+                    

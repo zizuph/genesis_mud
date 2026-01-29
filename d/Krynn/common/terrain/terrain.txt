@@ -1,0 +1,142 @@
+This is the help file for the usage of the terradder. With this,
+you will be able to understand where to add each feature to the
+environment. It is IMPORTANT that you place these items only when
+they are actually present in the room you are in, not off in the distance
+somewhere. Eg. add 'mountain' when 'You are walking through mountains...',
+but not when 'You can see mountains in the distance...'.
+
+Terrain types and usage.
+------------------------
+plain - areas of the following types: plain, meadow, prairie, savannah
+      - generally expansive and wild grassland areas, flat.
+
+moor - As opposed to a plain, this is an area of flatness, but not populated
+       by grasses, but rather low-lying herbs and mosses (due to the
+       soil structure, typically).
+
+forest - large expansive forests of most types, including especially wild
+         areas. Do not include forests that have been domesticated, nor
+         jungles or thickets. (these are explained below.)
+
+thicket - A semi-forested area, without large trees, but where movement
+          is difficult since there are many young trees in the way,
+          growing close together.
+
+jungle - Tropical forests.
+
+bush - domesticated forests, woodlots.
+
+mountain - craggy, rocky, mountains. Hills are a separate category.
+
+hill - Hilly terrain, whether it be highlands, foothills of mountains,
+       or rolling hills.
+
+cliff - A cliff, embankment, ridge. A rock face.
+
+desert - sandy, isolated, and with little life. This one is self-
+         explanatory. No real rocky features.
+
+badlands - This is an area with outstanding rock structures, typically
+           found near plains and deserts. By outstanding rock structures,
+           it is meant that there are towers and monoliths of rock,
+           interspersed with open flat areas.
+
+swamp - These are forested wetlands, or previously forested wetlands
+        with dead trees. True swamps, mangrove forests and areas flooded
+        by beaver dams all fit within this category.
+
+wetland - As opposed to a swamp, this includes marshes and bogs, areas
+          which are not entirely water, but allow passage by walking
+          through them (with difficulty). The difference here is that
+          the area doesn't have trees.
+
+glacier - This is a land body composed of ice and compacted snow.
+
+riverbank - The land edge of a river.
+
+beach - The land edge of a sea or lake, if sandy.
+
+coast - The land edge of a sea or ocean (saltwater body), if rocky.
+
+lakeshore - The land edge of a lake, if rocky.
+
+sea - The ocean or sea. Large salt water bodies.
+
+river - A large body of fresh water, flowing typically.
+
+lake - A large body of standing fresh water.
+
+pond - A small body of standing fresh water. Includes pools.
+
+stream - A small body of flowing fresh water.
+
+waterfall - A body of water that is descending from a height.
+
+in ship - Rooms inside a ship. Don't include the deck!
+
+natural cave - A naturally formed cave, typically with stalagmites
+               and stalactites.
+
+crypt - A place where the dead are buried or entombed.
+
+house - A living place/residence.
+
+hall - A hallway.
+
+sewer - Usually underground constructed tunnels where waste flows.
+
+constructed cave - A cave that has been built, this is also typically
+                   used for the rooms within a constructed cave, rather
+                   than the tunnels themselves.
+
+tunnel - The tunnels of a constructed cave, a natural cave, or some
+         place that you have to dig.
+
+inside ruins - These are ruins that occur inside, ruins being an area
+               that once had buildings, which have now fallen into disrepair.
+
+littered - A room with items in it that are in disarray.
+
+snow - A room with snow.
+
+ice - A room with ice.
+
+mud - A room with mud.
+
+fog - A room with fog or mist.
+
+leaf litter - A room with leaf litter.
+
+lava - A room with lava.
+
+water well - The room contains a well.
+
+village - A village room.
+
+city - A room in a city.
+
+street - A street, typically a more open area than an alley.
+
+alley - An alley is usually a shadowy street, rarely frequented.
+
+fortress - A room in a fortress, keep, or castle.
+
+outside ruins - Ruins that occur outside in the open air. An abandoned
+                fortress for example.
+
+path - A poorly maintained walkway, or one that is 'informal'. Also 
+       includes animal trails.
+
+road - A maintained walkway, that sees much traffic.
+
+bridge - A construction used to cross something that couldn't otherwise
+         be crossed.
+
+garden - A place where someone is actively growing food or herbs, typically
+         for personal use.
+
+field - A larger area used for agricultural purposes to grow food or herbs,
+        possibly for commercial use.
+
+pier - A place where ships land!
+

@@ -1,0 +1,103 @@
+- orc_temple.txt                 3594  May 25 2010 06:57
+- orc_temple_hidden.txt          3210  May 25 2010 06:50
+- sparkle_wide.txt              16741  May 15 2010 10:03
+- dead_ed_sparkle_wide.txt       8034  May 11 2010 22:24
+- sparkle_wide.bak              11480  May 11 2010 22:24
+- south_of_sparkle.txt           2760  May  7 2010 07:18
+- sparkle_city_genesis.txt       8683  Mar 29 2010 09:16
+- sparkle_city_genesis.old       8755  Aug 19 2009 23:30
+> cat orc_temple.txt
+main
+::MAPDATA::
+bckroom 20 4 temple
+guardroom 20 4 temple
+hall1 20 4 temple
+hall2 20 4 temple
+hall3 20 4 temple
+inn2 20 4 temple
+orc_fort 20 4 temple
+r1 20 4 temple
+r2 20 4 temple
+r3 20 4 temple
+r4 20 4 temple
+r5 20 4 temple
+sleeproom 20 4 temple
+stair 20 4 temple
+temple 20 4 temple
+::MAPDATA::
+
+     \   \       \ ___\     \         ^              /|\
+      \   \|\_.---'    '---._\/|     /|\             /|================
+       \  /    `==.___.=='    /      /|\            //| The Orc Forest
+        \/_______/  o /______/      //|\\        ^    |================
+                    |                 |         /|\              //|\\
+    Orc Fortress    |       _______       ^     /|\                |
+                    |      /\ |    |     /|\   //|\\
+              ^     o - - -\o\|____|     /|\     |            ^
+             /|\    |       \/____/     //|\\                /|\
+    ^        /|\    |                     |                  /|\
+   /|\      //|\\   |                                       //|\\
+   /|\        |     o - - - o - - - o                         |
+  //|\\                     |       |
+    |                       |       |             Orc Road
+                            |       |
+            o - - - o - - - o - - - o - - - o - - - o - - - o - - - o - - 
+          , 
+        ,                                    ^
+      ,                                     /|\                  ^
+    o      Road south        ^              /|\                 /|\
+    |      to Faerie        /|\            //|\\                /|\
+    |                       /|\              |                 //|\\
+
+::NEWMAP::
+temple
+::MAPDATA::
+bckroom 21 8
+guardroom 45 8
+hall3 45 12
+hall2 45 16
+hall1 45 20
+inn2 21 12
+orc_fort 29 30
+r1 45 24
+r2 29 24
+r3 13 24
+r4 13 12
+r5 13 8
+sleeproom 53 20
+stair 29 12
+temple 29 18
+::MAPDATA::
+
+
+     .--.-.---.---.-.                     .-.---.-.--.-.--.
+    |               |                     |               |
+    |               .----.-.--...----.-.--.               |
+    `                                                     |
+    |                                    Guard Room       |
+    |                                                     |
+    `--.     o       o     _____             o        .--'
+       |     |       |     |===|             |        |
+       |     |   Orc |     |===|             |        |    ============
+       |     |   Bar |     |===|             |        :     Orc Temple
+       :     o - - - o       o Stairs        o        |     Main Level
+       |     |               |               |        |    ============
+       |     |               |               |        |
+       .     |               |               |         \
+       |     |               |               o         |
+       |     |               | Temple        |         .
+       |     |               o   to          |          |
+       :     |               | Kalach        |    Bunks |
+       |     |               |               o - - - o  ;
+       |     |               |               |        ./
+       `     |               |               |        |
+       |     |               |               |        |
+    .--'     o - - - - - - - o - - - - - - - o        .--.
+    |                        |                           :
+    |                        |                           |
+    :                        |                           |
+    |              .------|  |  |----`---.               |
+    |              |         |           |               |
+    `__.___.-___.__.         o           `.__._____.____-.
+                             |
+

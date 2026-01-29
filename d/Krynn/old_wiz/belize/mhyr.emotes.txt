@@ -1,0 +1,92 @@
+Message: 47
+From   : Teth
+Subject: emotes (forwarded)
+To     : Belize, Kentari and Karath
+Date   : Apr 20 1997
+
+Author : Mhyrmarius
+To     : Rastlin
+CC     : Teth and Rocque
+Date   : Oct 30 1996
+
+Some emotes for you to consider :)
+
+Lets's start out with some emotes allowing us to be slightly rude
+to people being rude to us. *grin*
+
+wsmirk [target] (target being all,none, name,elf,elves etc)
+
+	Mhyrmarius smirks <at target> in a slightly condescending
+	manner, apparently amused <by his/her/their ignorance>.
+
+wrubbish [target]
+
+	Mhyrmarius dismisses [targets] opinions as utter rubbish.
+
+wignore [target]
+
+	Mhyrmarius <adjectively> raises the hood of his robe and
+	starts to ignore <target> (or everyone).
+
+wdismiss [target]
+	
+	Mhyrmarius <adjectively> waves a hand in <targets> direction
+	saying : <text>
+
+wcurse [target]
+	
+	Would be nice if it compared for example guild stat with DIS
+	or something and then had special results like.
+	
+	<target> laughs at Mhyrmarius' pathetic powers.
+	<target> remains calm and completely undisturbed
+	<target> squirms, feeling a bit uncomfortable.
+	<target> goes pale, obviously fearstruck by Mhyrmarius' powers.
+	<target> collapses, trembling with fear of Mhyrmarius'
+		 powers, begging for forgiveness.
+
+wbow
+	Could we have an opportunity keep the hood on please ?
+	perhaps wbowhood if we want to remove the hood.
+	Perhaps the females could be able to bow also ? 
+	I feel no urge to curtsey, but not all females wishes 
+	to do so either.
+
+wlaugh
+	white robes - Mhyrmarius bursts out in a hearty laughter
+		      which leaves him gasping for breath.
+
+	red robes - Rocque laughs out loud, leaving an amused
+	            smile on her lips.
+
+	black robes - Wilwarin laughs menacingly, a moldering
+		      decaying sound of dark pleasure.
+
+wcautious [target]
+	
+	Mhyrmarius looks around [or at target]  with caution,
+	ready to use his powers	at the first sign of danger.
+		
+wclean (spell ? )
+
+	Mhyrmarius waves his hands in a cryptical pattern,
+	while uttering a wooshing sound, and suddenly he and
+	his clothing is impeccably clean.
+	
+	Work against Kabal sweat and dirt, shire puddle dirt,
+	goblin dung.
+
+wdry (spell ? )
+	
+	Mhyrmarius utters a word in the spidery language of magic,
+	and suddenly all water on his body disappears in a cloud of
+	steam.
+	
+	Works to remove Icewall wetness.
+
+Thats all for now.
+I can even provide code for the emotes if you wish :)
+
+Mhyrmarius Istanandus.
+
+

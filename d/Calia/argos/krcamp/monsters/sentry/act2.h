@@ -1,0 +1,18 @@
+   set_act_time(10);
+   add_act("emote stares at you suspiciously.");
+   add_act("emote glances down the dirt road.");
+   add_act("say I'm ready for any infidel that comes this way.");
+   add_act("say I'll kill any intruders who come down this road.");
+   add_act("say We're ready to move out anytime, sir");
+   add_act("emote paces nervously.");
+   add_act("emote glances into the forest.");
+   add_act("east");
+   add_act("west");
+   set_cact_time(5);
+   add_cact("emote swings his weapon over his head triumphantly.");
+   add_cact("shout You shall die for your intrusion, infidel!");
+   add_cact("shout I shall crush your head like a melon, infidel!");
+   add_cact("emote cackles maniacally with an evil glare.");
+   add_cact("say Your corpse on a pole shall be a warning to others, intruder!");
+   add_cact("say Your kind will be crushed by the heel of Kretos, infidel!");
+   add_cact("emote yells a shrill battle cry!");

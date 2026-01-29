@@ -1,0 +1,19 @@
+ ***TEREL DOMAIN SHOPS PUBS INN'S, ETC***
+
+SHOP NAME                     FILE NAME                    STORE ROOM FILE
+---------------------------------------------------------------------------
+Bank of Last                 ~Terel/last/bank.c           Bank ID: 3002
+Big Rock Pub                 ~Terel/common/town/pub.c     NONE
+Calathin Bank                ~Terel/calathin/bank         Bank ID: 3001
+Fisherman's shop             ~Terel/common/port/shop.c    ~store.c
+Inn of Calathin              ~Terel/common/town/inn.c     NONE
+Knights Pub                  ~vader/ribos/bar.c           NONE
+Kyrsis the Instrumentalist   ~cedric/guild/npc/mc.c       SAME
+Last Armour Shop             ~Terel/last/armshop.c        ~astore.c
+Last Weapon Shop             ~Terel/last/wepshop.c        ~wstore.c
+Minstrel's Banquet Hall      ~cedric/guild/banquet.c      NONE
+Ribos Shop *temp. closed*    ~vader/ribos/shop.c          ~store.c
+Silver Forest Trading Post   ~Terel/common/town/shop.c    ~store.c
+Snowhouse of Last            ~Terel/last/snowhouse.c      NONE
+Weird shop                   ~mortricia/camp/weird_shop.c ~store.c
+White Dragon Inn             ~Terel/last/whdragon.c       NONE

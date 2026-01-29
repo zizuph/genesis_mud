@@ -1,0 +1,64 @@
+/*
+ *  /d/Kalad/common/farmland/camps/rooms/redfang_camp11
+ *
+ *  One of the rooms in the redfang camp in Kalad
+ *
+ *  Created October 2015, by Andreas Bergstrom (Zignur)
+ */
+#pragma strict_types
+#include "../defs.h"
+
+inherit ROOMS_DIR + "std_redfang_camp";
+
+
+/* Prototypes */
+public void         create_redfang_camp_room();
+
+
+/*
+ * Function name:        create_redfang_camp_room
+ * Description  :        constructor for the room
+ */
+public void
+create_redfang_camp_room()
+{
+    set_short("in the middle of the camp");
+    set_long("In the middle of a Red Fang training camp."
+      + " @@get_camp_state_desc@@ The area is dominated by a large"
+      + " training pit. The camp stretch out to the north,"
+      + " east, west and to the south.\n\n");      
+
+    add_redfang_camp_items();
+   /* special item for this room */
+    add_item( ({ "pit", "large pit","large training pit","training pit"}),
+                 "You see a large pit, most likely used as a sparring" +
+                 " area for new recruits.\n");
+    
+    add_redfang_camp_subscriber();
+    
+    /* We want loads of monsters in this room */
+    int totalMobs = 0;
+    int mobs = 0;
+    mobs = random(10)+2;
+    totalMobs = totalMobs + mobs;
+    
+    add_npc(NPC_DIR + "goblin_warrior", mobs, &->arm_me());
+  
+    mobs = random(5)+2;
+    add_npc(NPC_DIR + "goblin_trainer", mobs, &->arm_me());
+    totalMobs = totalMobs + mobs;
+   
+    mobs = random(2)+2;
+    add_npc(NPC_DIR + "goblin_wolf", mobs, &->arm_me());
+    totalMobs = totalMobs + mobs;
+    
+    /* Add the mobs to the counter */
+    RF_WAR_ROOM->add_goblin_warriors(totalMobs);
+
+    add_exit("redfang_camp15", "north");
+    add_exit("redfang_camp6", "south");
+    add_exit("redfang_camp12", "east");
+    add_exit("redfang_camp10", "west");
+    
+    
+} /* create_redfang_camp_room */

@@ -1,0 +1,87 @@
+***To the Shire ***
+
+     R
+       \
+	R						**LEGEND**
+         \						
+	  R					R = Road
+           \					r = path
+	    R					G = Meditation Garden
+            |					B = Main Bridge
+            R                                   b = Garden Bridge  
+            |					D = Docks
+            R--R                  R             P = Pier 
+            |   \                 |             O = Oceanside View
+            R    R                R             L = Mountainside View     
+            |     \               |                     
+            R      R              R  
+            |       \             |             1 = Cirdan's Holding
+            R        R            R             2 = Shipyard    
+            |         \           |             3 = Board Room
+     G      R          R          R             4 = Post Office     
+     |\     |          |          |             5 = Portside Fountain
+     G G    R          R-R-R-R    R             6 = Weavers (Looms/Cloth)
+     |  \   |                |    |             7 = Herbalist
+     G   G  12               R    R             8 = Gnomes Bank
+     |    \  \               |   /              9 = Stones&Metals (Jeweler)
+     G     G- R              R  R              10 = Weaponsmith
+     |     |                 | /               11 = Battle Sanctuary (combat)
+     G     G                 R                 12 = Meditative Sanctuary
+     |     |                 |                 13 = Bakery ($$Lembas?)  
+     G     G-G             R-R                 14 = Drinking Establishment
+     |      \              |                   15 = Food Establishment
+     G       G             B
+     |       |              \
+     G       G              BBB
+     |      /                \\\ 
+     G     G                  BBB
+     |    /                   \\\
+     G   Gb                    BBB   O-O
+      \  / \                   |    /  |
+      G G   b                  B   O   O                  
+      \/    |                  |   |    \
+       G    G-G-G-G            R   O     O
+            |     |            |   /    /
+            G     G-G          R  O  O-O
+            |       |          |  |  |
+            G      G           R--O--O    D-P
+           /        \          |          |
+          G          G       R-R          D
+         /          /        |           /
+        G          G         R          D-P
+         \        /          |          |
+          G      G         R-R          D
+           \     |         |\          /
+            G    G         R R-R      D-P
+             \  /          |   |      |
+              GG           R   1-R-2  D
+             /  \         /          /
+         11 G-G -G       R          D-P
+         |              /           |
+         R    R-R-10   R   3     R- D
+          \  /     |    \  |     |  |
+            R-R    R     R-R-R-R-5  D-P
+             /     |      |          \
+            R      R      9-R-R-R-R   D
+            |     /\        |     /   |
+          R-R  R-R  R-R-R-R-R-8  r    DP
+          |     /      \      |  |     \
+          14  R         R   R-R  r      D
+          |  /          |  |    |       |
+          R-13        R-R-R-7   r       DP
+          |          /     \   /         \
+          15        R-4     6 r           D
+                    |          \          |
+                    r           r         DP
+                    |          /          \
+                    r         r            D
+                     \        |            |
+                      r       r            DP
+                      |       |             \
+                      r       r              D
+                      |       |              |
+                      r-r-L-r-r              D-P
+                       \       |              
+                        rL-L-r-r
+                         \    /
+                          r-r

@@ -1,0 +1,60 @@
+ROOM-TELL                                                  (by Aridor)
+=========
+
+The code for room-tells can be found in
+              /d/Krynn/open/room_tell.c
+
+This code allows you add tells to a room exactly like you add chats or
+acts to monsters.
+Please copy the room_tell.c file to your own domain before using it.
+Here's an example room:
+
+/* example room that uses room_tell functions. */
+
+inherit "/std/room";
+inherit "/d/Krynn/open/room_tell";
+
+int alrm;
+
+void
+create_room()
+{
+    set_short("In a swamp");
+    set_long("You are standing somewhere in the middle of a swamp.\n");
+    set_tell_time(0);
+    add_tell("The swamp to the left of you starts to blubber.\n");
+    add_tell("@@drag_down@@");
+    add_tell("A swarm of mosquitos buzzes around you head.\n");
+}
+
+string
+drag_down()
+{
+    object *players;
+    int i;
+    if (alrm)
+        return "";
+    if (random(100))
+	return "Your feet slowly start to sink into the swamp but you are " +
+	   "able to find a little more secure ground again.";
+    players = FILTER_PLAYERS(all_inventory(this_object()));
+    i = random(sizeof(players));
+    tell_room(this_object(), QCTNAME(players[i]) + " slowly drowns in the " +
+	"swamp.\n",players[i]);
+    players[i]->catch_msg("You start to sink down slowly into the swamp!\n");
+    alrm = set_alarm(10.0,0.0,"drowned",players[i]);
+    return "";
+}
+
+void
+drowned(object who)
+{
+    alrm = 0;
+    if (!present(who,this_object()))
+        return;
+    tell_room(this_object(), QCTNAME(who) + " completely vanishes into the " +
+              "swamp.\n",who);
+    who->catch_msg("You are fully submerged now, and suddenly find yourself " +
+	"in a different place.\n");
+    who->move_living("M","/d/Genesis/heaven/above");
+}

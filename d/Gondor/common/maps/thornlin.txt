@@ -1,0 +1,13 @@
+      ----====> Village(Thornlin) by Boromir <====----
+
+                    *f9 *t2-*of *f6 *f7 *f8
+               \   /     |   |   |   |   |
+                *r1 *h1 *t1 *h2 *r5-*r6-*r7-
+                   \ | / |     /         |
+                *h3-*r2-*r3-*r4 *f1-*f2-*hf
+                   / |    |   | \ | / |
+                 *h4 *h5 *h6 *f3-*f4-*f5
+
+    *r?  = roads                       *h?  = houses
+    *f?  = fields                      *t?  = some trees
+    *hf  = a bigger farm, 4 rooms...   *of  = open field

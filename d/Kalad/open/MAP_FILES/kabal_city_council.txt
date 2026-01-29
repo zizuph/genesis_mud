@@ -1,0 +1,23 @@
+main
+::MAPDATA::
+cc_lord 13 4
+cc_up 17 4
+cc_deb 13 6
+cc_off2 13 8
+cc_hall2 17 8
+cc_off1 13 10
+cc_hall1 17 10
+::MAPDATA::
+
+             City
+            Council
+
+             o -[ ]
+
+             o
+  .-===-.      \
+  | . . |    o -[ ]
+  | .'. |        |
+ ()_____()   o - o
+ ||_____||
+  W     W

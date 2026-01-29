@@ -1,0 +1,267 @@
+============================================================================
+The Union of the Warriors of Shadow, detailed information document by
+	Cirion, May 1996.
+
+Modifcations:
+Cirion, March 2nd, 1997: Adjusted the tax to comply with the new skill
+        levels available at adventurer guilds.
+Cirion, March 24th, 1997: Removed langage skill from the Union, as the
+        previous total skill levels were > 700.
+Cirion, April 11th, 1997: Lifted the alignment restriction, the Union
+        members can now be any alignment they choose.
+Cirion, June 21st, 1997: Adjusted the max skill levels to allow for a
+        sup-guru quest in knife, defence, and sway.
+Lilith, July 3rd, 2001: Adjusted tax for balance changes on specials, 
+        skills, etc
+Lucius, May 31st, 2005: Recalculated tax numbers based on current docs.
+Lilith, Jan 2006: removed Sway Con bonus. It was deemed not worth
+        the 1% tax paid and removed upon request of the Elders. 
+Lilith, Jan 2006: upped darksight bonus so that it begins in the 
+        first phase and increases to 4 levels instead of 3, also
+        per req of Elders. Tax was increased from .50% to 1.0% 
+Lilith, Jan 2006: lowered blightfighting 20 levels and increased
+        2H, sword, and language per request of elders.
+
+============================================================================
+
+--------
+OVERVIEW
+--------
+  The Union of the Warriors of Shadow is an original guild, not based on
+any novels or other gaming themes. They are a school of warriors that
+were origionally founded to be the elite guard for the royalty of Sybarus 
+City in Avenir, and have since branched out to form their own Union, 
+almost a cult even, based on pride, dignity, grace, and power.
+
+----------
+FILE NAMES
+----------
+   The following file names are of particular importance:
+~Avenir/union/list              Master object for the Union
+
+~Avenir/union/room/pendentive   The join/leave room
+~Avenir/union/room/guild        The start room & where the guild flame is
+~Avenir/union/room/train        Training room for the Union
+~Avenir/union/room/white             ""
+~Avenir/union/room/forge             ""
+~Avenir/union/room/alcove            ""
+~Avenir/union/room/library           ""
+~Avenir/union/room/council      Room were Elect & Elder commands are performed
+
+~Avenir/union/obj/stone         The guild token
+~Avenir/union/shadow            The guild shadow
+~Avenir/union/occ_soul          The guild soul
+
+  The Union soul includes the following files in ~Avenir/union/lib/:
+attack.h        The functions for the special attacks 'fling' and 'slash'
+ability.h       The functions for the abilities 'contrast' and 'sway'
+emotions.h      All the emotions of the Union
+filters.h       Various filters and miscellaneous functions
+help.h          The help files
+language.h      The code for the Union tongue
+
+-----------------
+JOINING THE UNION
+-----------------
+  To join the Union, the player must first find the guildhall, which
+is hidden deep in the Underdark tunnels of Avenir. The guildhall
+was origionally in Sybarus City, but repeated attempts by Infidel 
+revolutionaries to destroy it forced it to move 'underground',
+thus making it somewhat difficult to find. Once granted leave, the 
+player may join in ~Avenir/union/room/pendentive, where he can 'reach 
+within the stone', to obtain one of the entry quests. 
+The player must obtain the approval of the Elders by mailing an 
+application to the 'voice' at the Union post office. A quest is given
+to those who are approved for entry. When the quest is solved,
+and if the player not a goblin or dwarf (races which are seen as too 
+clumsy to be a proper member), the player can then join the Union.
+A member of the Union will have the guild shadow ~Avenir/union/shadow.c,
+the command soul ~Avenir/union/occ_soul.c, and the guild token,
+~Avenir/union/obj/stone.c
+
+-----------------
+LEAVING THE UNION
+-----------------
+  A player may at any time leave the Union by doing 'betray the union'
+in the pendentive. Death is the penalty for leaving of your own
+accord. The player will have been previousley aware of this, because
+it is written on the pillar in the pendentive. The player also loses 
+all the guild skills associated with the Union, and has a bit set that
+prevents him from ever joining the Union again. The stat SS_OCCUP is 
+also cleared.
+
+-------------------
+SKILLS IN THE UNION
+-------------------
+  The maximum possible skills to train are defined in the file 
+~Avenir/union/lib/skills.h, and it is that file that should be altered 
+should the skill levels need to be changed for any reason. Most of the 
+skills cannot be trained up to maximum immediatley, but are limited by 
+various stats, mostly SS_OCCUP, but also some require SS_WIS and SS_DEX 
+as well. The following skills are available to train in the Union guild 
+hall in various places:
+
+Skill-name                 Max level              Trained at
+-------------------------------------------------------------------
+SS_WEP_KNIFE                 100          ~Avenir/union/room/train.c
+SS_WEP_SWORD                  84                      ""
+SS_PARRY                      84                      ""
+SS_2H_COMBAT                  90                      ""
+SS_FLING                     100                      ""
+SS_SLASH (#139055)            94                      ""
+SS_DEFENCE                    90          ~Avenir/union/room/white.c
+SS_SWAY (#139050)             90                      ""
+
+SS_APPR_OBJ                   64          ~Avenir/union/room/forge.c
+
+SS_LANGUAGE                   81          ~Avenir/union/room/novlib0.c     
+
+SS_AWARENESS                  80          ~Avenir/union/room/alcove.c
+SS_LOC_SENSE                  50                      ""
+SS_BLINDFIGHTING              40                      ""
+
+SS_WEP_KNIFE                *100          ~Avenir/union/room/elite.c
+SS_SWAY (#139050)           *100                      ""
+
+* Can only be trained when the player has solved a certain quest
+
+ 
+Guild specific skills:
+SS_SWAY       #139050   (see above)
+SS_SLASH      #139051   (see above)
+SS_FLING      #139052   (see above)
+OCC_LEVEL     #139053   Defines whether you are in the council or not
+PUNISHMENT    #139054   Whether the member is punished, and to what degree
+DIGNITY       #139055   The dignity of the member
+
+-----------------
+SPECIAL ABILITIES
+-----------------
+  The following special abilities are available for members of the Union:
+
+Usay <what>: This is the special language for the Union. It can be 
+   understood automaticaly by other members of the guild, or bits of it 
+   can be understood by non-members if your language ability is high enough.
+
+Sway: The 'sway' is a sort of trance that a member of the Union can make 
+   himself fall into, provided he is not already in combat, he is rested 
+   enough, and has enough mana. It is _not_ a spell, but rather a sort of 
+   higher mental state, in which the skill SS_AWARENESS and the stat DEX 
+   are raised, and the props LIVE_I_QUICKNESS and LIVE_I_SEE _DARK are
+   added to the player. True masters of the sway are granted a brief 
+   LIVE_I_SEE_INVIS of one level if they are lucky. 
+   Limitations: The sway cannot be entered if the fire in the start room 
+   has gone out, if the player is in combat, if the player is too tired, 
+   or if the player is drunk (The idea behind not entering it while in 
+   combat is that it is meant to be used as a preparation for combat, and 
+   requires a massive amount of concentration to fall into. The player must 
+   shut his eyes to go into it, and thus is blinded for 10 seconds). 
+   The skill for the sway is no. 139050
+
+---------------
+SPECIAL ATTACKS
+---------------
+  The following special attacks are available for members of the Union:
+
+Slash <enemy>: This is a general special attack that requires that
+   the warrior is wielding both a sword and a knife at the same time.
+   The attack is one that uses both weapons together, such as
+   feinting with the sword which stabbing in low with the knife, etc.
+   The skill for slash is no. 139051, and it is evaluated
+   together with the warrior's SS_WEP_SWORD and SS_WEP_KNIFE against
+   the enemy's SS_DEFENCE, SS_DEX, and SS_PARRY to determine the
+   success of the attack.
+
+Fling <knife> at <enemy>: This is a missile attack, where the warrior
+   throws a knife or dagger at the enemy, doing damage. It is
+   a rather powerful attack, limited by the result of the knife
+   being moved into the inventory of the enemy if the hit is
+   successful (if he misses, the knife will either land in the
+   warrior's room, or fly off into an adjacent room), as well
+   as the knife becoming more and more dull as it hits more. The
+   skills used are the warrior's SS_FLING, SS_WEP_KNIFE, and
+   SS_DEX evaluated against the enemy's SS_DEFENCE, SS_DEX and
+   SS_PARRY. The attack will be much less effective if the
+   player is drunk or is too loaded down with weight. The skill
+   for fling is no. 139052.
+
+------------------------
+THE COUNCIL OF THE UNION
+------------------------
+  The council of the Union consists of one Elect, the master of the
+Union, and three Elders. When there is no Elect, the Elders themselves
+are able to perform all the of the most powerful commands. Otherwise,
+only the Elect is able to banish members, etc. The Elders are able
+to declare people are allies or enemies of the Union (with the
+result that the players will be treated differently by the NPC's
+in the Halls, and enemies will not be allowed to pass through the
+gate), as well as accept people for membership into the Union.
+Council commands can be performed at ~Avenir/union/room/council.
+
+
+---------------
+UNION GUILD TAX
+---------------
+
+Skill-name                 Max level  Taxable  Modifer  Taxed level
+-------------------------------------------------------------------
+SS_WEP_KNIFE               100 - 30  =  70     x 1.0   =    70 
+SS_WEP_SWORD                84 - 30  =  54     x 1.5   =    81 
+SS_PARRY                    84 - 00  =  84     x 1.5   =   126 
+SS_BLINDFIGHTING            40 - 20  =  20     x 2.0   =    40 
+SS_DEFENCE                  90 - 20  =  70     x 1.5   =   105 
+SS_2H_COMBAT                90 - 00  =  90     x 2.0   =   180 
+-------------------------------------------------------------------
+Combat aid:       Totals:  488 - 100 = 388    ~ 10.05% |   602
+===================================================================
+SS_APPR_OBJ                 64 - 30  =  34     x 0.5   =    17 
+SS_AWARENESS                80 - 30  =  50     x 1.0   =    50 
+SS_LANGUAGE                 81 - 30  =  51     x 1.0   =    51
+SS_LOC_SENSE                50 - 30  =  20     x 0.5   =    10 
+-------------------------------------------------------------------
+Non-Combat        Totals:  275 - 120 = 155     ~2.10%  |    128
+===================================================================
+            Grand Totals:  763 - 220 = 543     ~12.15%  | 730 / 60 = 12.17%
+-------------------------------------------------------------------
+     Max OCC Skill Slots:              543 - 550 (max)  =   7 left 
+-------------------------------------------------------------------
+
+Other Taxable abilities:
+
+Slash & Fling: 10.5% See ~Avenir/union/doc/combat for a breakdown
+  of the calculation for the combat aid.
+
+Sway: 8.85% See ~Avenir/union/doc/sway for information.
+
+Shops, pubs, &ct:
+   While there are npcs in the guildhall that sell items only to
+members of the Union and those who have been declared as friends
+of the Union, they give no special discounts to members, and
+the items are in no way special (light armours, knives, knapsacks,
+torchs, etc.) There are no pubs in the guildhall. The Union has no
+tell line or rebootable weapon rack.
+
+Tax reductions:
+   While it is possible for a member of the Union to consume
+alcohol, his specials fling, slash, and sway will be adversly
+affected by it, proportional to how drunk you are (if you are
+at 100% intox, you will always miss with the specials). You also
+may not enter the Sway if you are more than 40% max intox. 
+Additionally, drinking lowers the member's level of purity, 
+and they are commanded to remain pure at all times. Since alcohol
+itself is such a massive combat aid for the rest of the game,
+I reduce tax by 2% because of it. Additionally, specials are
+severely impaired when the player is encumbered.
+
+-----------
+TAX SUMMARY
+-----------
+Skill levels      	12.17%
+Slash & Fling       	10.05% (see ~Avenir/union/doc/combat)
+Sway                	 8.85% (see ~Avenir/union/doc/sway)
+                       -------
+                        31.07%
+Limitations             -2.00% (no alcohol for healing, encumberance)
+                       -------
+                        29.07%  
+Round up                30.00%

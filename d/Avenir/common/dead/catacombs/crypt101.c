@@ -1,0 +1,39 @@
+// file name: crypt101
+// creator: Ilyian (September 1, 1995)
+// last update:   Lilith & Zizuph, May-July 2021: finishing area for launch
+// purpose: Room in the underground crypts
+// note: Most of the code for these rooms is in
+//         dead.c - see that file for info on these rooms.
+// bug(s):
+// to_do:
+
+inherit "/d/Avenir/common/dead/crypt_base";
+#include "../dead.h"
+
+void
+create_crypt_room()
+{
+  acat("102","south");
+//  acat("97","west");
+
+/* Default is the standard random description. */
+    crypt_long(crypt_desc[random(sizeof(crypt_desc))] 
+	    +" A pool of water has accumulated here. It smells brackish and "
+        +"would probably make you sick if you tried to drink it. "
+		+crypt_desc2[random(sizeof(crypt_desc2))]);
+    add_item(({"pool", "water", "pool of water"}), 
+	    "Water has accumulated here, or perhaps is bubbling up from below. "
+		+"It is difficult to tell. It is so dark it is impossible to "
+		+"see into it, and it smells a bit brackish.\n");
+
+/* Room light values from -11 to 0 */
+//   add_prop(ROOM_I_LIGHT, random(12)-12);
+
+  reset_domain_room();
+ }
+
+void
+reset_domain_room()
+ {
+  set_searched(0);    ::reset_domain_room();
+ }

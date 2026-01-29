@@ -1,0 +1,7 @@
+/*
+ * Armour Rack for Ithilien
+ * Lavellan, 29 October 2010: created for new saving rack system.
+ */
+#include "../../rangers.h"
+
+inherit RANGERS_OBJ + "racks/a_rack";

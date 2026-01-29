@@ -1,0 +1,308 @@
+#pragma save_binary
+
+/* 
+   Code that is included into the calian_cmdsoul to handle the 
+   informative help options that are offered to players. 
+
+   Coded by Maniac
+
+   History:
+        08/6/05     riposte help added              Bishop
+        14/2/01     trainees help added             Maniac
+        29/9/01     practice option added           Maniac
+        29/10/96    medallion option added          Maniac
+         6/10/96    battle option added             Maniac
+         18/9/96    coptions added                  Maniac
+         20/6/96    updated for regular <more>      Maniac
+         27.12.95   ctitle option added             Maniac
+         21.12.95   rack option added               Maniac
+         17.5.95    caliana help option added       Maniac
+          7.4.95    applicants help option added    Maniac 
+         28.3.95           created                  Maniac
+*/
+
+#define HELP_FILE_DIR CRPALACE_TEXTS
+
+
+
+void
+fail_help()
+{
+    write("There is no such Calian help option.\n");
+}
+
+void
+general_help()
+{
+    string helpfile;
+    
+    setuid();
+    seteuid(getuid());
+    helpfile = "general_help";
+    if (IS_CALIAN_FOLLOWER(this_player()))
+    {
+        helpfile = "general_help_followers";
+    }
+    this_player()->more(read_file(HELP_FILE_DIR + helpfile));
+}
+
+
+void
+battle_help()
+{
+    setuid();
+    seteuid(getuid());
+    this_player()->more(read_file(HELP_FILE_DIR + "battle"));
+}
+
+
+void
+calian_help()
+{
+    setuid();
+    seteuid(getuid());
+    this_player()->more(read_file(HELP_FILE_DIR + "calian"));
+}
+
+
+void
+caliana_help()
+{
+    setuid();
+    seteuid(getuid());
+    this_player()->more(read_file(HELP_FILE_DIR + "caliana"));
+}
+
+
+void
+commands_help()
+{
+    string helpfile;
+    
+    setuid();
+    seteuid(getuid());
+    helpfile = "commands";
+    if (IS_CALIAN_FOLLOWER(this_player()))
+    {
+        helpfile = "commands_followers";
+    }
+    this_player()->more(read_file(HELP_FILE_DIR + helpfile));
+}
+
+
+void
+coptions_help()
+{
+    setuid();
+    seteuid(getuid());
+    this_player()->more(read_file(HELP_FILE_DIR + "coptions"));
+}
+
+
+void
+council_help()
+{
+    setuid();
+    seteuid(getuid());
+    this_player()->more(COUNCIL_CODE->query_council() + 
+                   read_file(HELP_FILE_DIR + "council"));
+}
+
+
+void 
+ctitle_help() 
+{ 
+    setuid(); 
+    seteuid(getuid()); 
+    this_player()->more(CALIAN_TITLE_HANDLER->query_el_desc() + 
+                        read_file(HELP_FILE_DIR + "ctitle")); 
+} 
+
+
+void
+enemies_help()
+{
+    setuid();
+    seteuid(getuid());
+    this_player()->more(COUNCIL_CODE->query_enemies() + 
+                        read_file(HELP_FILE_DIR + "enemies"));
+}
+
+
+void
+emotes_help()
+{
+    setuid();
+    seteuid(getuid());
+    this_player()->more(read_file(HELP_FILE_DIR + "emotes"));
+}
+
+
+void
+kroug_help()
+{
+    setuid();
+    seteuid(getuid());
+    this_player()->more(read_file(HELP_FILE_DIR + "kroug"));
+}
+
+
+void
+medallion_help()
+{
+    string *mt; 
+    string helpfile;
+    string helptext;
+    
+    mt = MEDALLION_TINTS; 
+    setuid(); 
+    seteuid(getuid()); 
+    if (IS_CALIAN_FOLLOWER(this_player()))
+    {
+        helpfile = "medallion_follower";
+        helptext = read_file(HELP_FILE_DIR + helpfile);
+    }
+    else
+    {
+        helpfile = "medallion";
+        helptext = read_file(HELP_FILE_DIR + "medallion") + 
+                 "\nThe progression of tints for your medallion " + 
+                 "is as follows:\n" + 
+                 break_string(COMPOSITE_WORDS(mt), 70) + ".\n";
+    }    
+    this_player()->more(helptext); 
+}
+
+
+
+void 
+practice_help() 
+{
+    if (IS_CALIAN_FOLLOWER(this_player()))
+    {
+        fail_help();
+        return;
+    }
+    setuid(); 
+    seteuid(getuid()); 
+    this_player()->more(read_file(HELP_FILE_DIR + "practice")); 
+} 
+
+
+void
+rack_help()
+{
+    setuid();
+    seteuid(getuid());
+    this_player()->more(read_file(HELP_FILE_DIR + "rack"));
+}
+
+
+void 
+riposte_help()
+{
+    setuid();
+    seteuid(getuid());
+    this_player()->more(read_file(HELP_FILE_DIR + "riposte"));
+}
+
+void
+roff_help()
+{
+    setuid();
+    seteuid(getuid());
+    this_player()->more(RECRUITER_CODE->query_recruiters_string() + 
+                        read_file(HELP_FILE_DIR + "officers"));
+}
+
+
+void
+rules_help()
+{
+    setuid();
+    seteuid(getuid());
+    this_player()->more(read_file(HELP_FILE_DIR + "rules"));
+}
+
+void
+trainees_help()
+{
+    setuid();
+    seteuid(getuid());
+    this_player()->more(read_file(HELP_FILE_DIR + "trainees"));
+}
+
+void
+followers_help()
+{
+    setuid();
+    seteuid(getuid());
+    this_player()->more(read_file(HELP_FILE_DIR + "followers"));
+}
+
+int
+help(string str)
+{
+    string s;
+
+    if (!str) return 0;
+
+    if (str == "calian") {
+        general_help();
+        return 1;
+    }
+
+    if (sscanf(str, "calian %s", s) == 1) {
+        switch (s) {
+            case "battle" : 
+                battle_help(); 
+                break;
+            case "calian" : 
+                calian_help(); 
+                break;
+            case "caliana" :
+                caliana_help();
+                break;
+            case "council" : 
+                council_help();
+                break;
+            case "commands" : commands_help();
+                              break;
+            case "coptions" : coptions_help(); 
+                              break;
+            case "ctitle" : ctitle_help();
+                            break;
+            case "enemies" : enemies_help();
+                             break;
+            case "emotes" : emotes_help();
+                            break;
+            case "kroug" : kroug_help();
+                           break;
+            case "medallion" : 
+                            medallion_help();  
+                            break;
+            case "practice" : 
+                            practice_help(); 
+                            break; 
+            case "officers" : roff_help();
+                              break;
+            case "rules" : rules_help();
+                           break;
+            case "rack" : rack_help();
+                          break;
+            case "riposte" : riposte_help();
+                             break;
+            case "trainees" : 
+                trainees_help(); 
+                break; 
+            case "followers":
+                followers_help();
+                break;
+            default : fail_help();
+                      break;
+        }
+       return 1;
+    }
+    return 0;
+}
+

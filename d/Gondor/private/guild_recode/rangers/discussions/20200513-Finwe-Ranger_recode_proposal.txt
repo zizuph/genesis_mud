@@ -1,0 +1,194 @@
+Message: 462
+From   : Finwe
+Subject: Ranger recode proposal
+Date   : Wed May 13 21:45:41 2020
+
+The Rangers of the Westlands are one of the oldest guilds in the 
+game. They were originally coded by Elessar back in the early days of 
+the game, and over the years they have grown into a respected guild. 
+Now, they are in need of updating. Below are the proposed changes for 
+the recode.
+
+Rangers will be a true fighter guild. Magic was part of the guild 
+from the start because in the story, it was assumed Aragorn had 
+magical powers from being raised in Rivendell. In reality, he likely 
+had a strong understanding of nature. With the recode, magic will be 
+stripped from the guild and replaced with potions. That's more in 
+line with their understanding of nature and herbs.
+
+Potions
+=======
+As rangers brew potions, the potions will become stronger over time 
+but to a limit. Each potion will have a corresponding color that will 
+become darker to signify its strength. Most potions will not be 
+stackable either or sellable. Below are the potions:
+
+Current Potions
+---------------
+- Avarywalme/Poison cure; Purple - Make this stronger since the spell 
+will be removed. Also, when quaffed, the ranger will be resistant to 
+poison and poison spells.
+- Este/Health, Mana regen, Fatigue; Clear - Remove the mana and 
+fatigue aspects from the potion. When first brewed, it will do slight 
+heal, but the stronger the potion, the more health it will restore, 
+up to up to a limit. Cannot be stacked, and there will be a cooldown 
+period of 2+rand(num) minutes.
+- Wenya/Strength - Improve potion so the potion will increase the 
+Ranger's str by up to 5-7%.
+
+ew Potions
+-----------
+These are some suggestions for new potions.
+
+ Darkvision - Enable rangers to see in the dark, from 1-5 levels.
+- Magic Resistance - Enable rangers to resist magic cast on them or 
+in the room. When quaffed, it will negatively affect their healing 
+potion.
+- Haste - Enable rangers to be quicker and faster in battle.
+- Fatigue Restore
+- Smokescreen - A potion that is tossed to the ground. It will fill 
+the room with smoke, allowing anyone in the room a few seconds to 
+flee.
+- Poison Cure - A potion that will cure most poisons when quaffed, 
+and when its at its strongest.
+
+As far as weapons, historically they have been restricted to swords, 
+polearms, and bows. Now, they will be able to train any weapon they 
+want. This will give them more options for weapons to use.
+
+
+
+ABILITIES
+=========
+Campfires:
+Have rangers be able to build campfires. As their team, or those 
+they invite to sit around the fire, they will heal faster and their 
+mana replenishes faster. The fires can only be done outdoors, and if 
+enemies come upon them, they have a cool down period before they can 
+defend themselves. Best to set sentries, I'd think. :)
+
+Hunting:
+They do have this ability already, but make it so the ability is 
+more realistic. They will find animals based on their size, guild 
+exp, and animal handling.
+
+Brawl:
+This skill is blocked throughout the game, and so has become a 
+useless skill for the Rangers. They currently can disarm and blind. 
+RoI can knee enemies, and RoN can trip their foes. With the recode, 
+this skill will be recoded so it's not blocked. Currently, disarm 
+will cause the enemy to drop their weapon(s). This would be fixed so 
+the enemy is just disarmed, and afterwards rewields their weapon(s). 
+They will get some new brawls, too.
+
+
+
+Companies
+=========
+The companies will still exists with the addition of bringing the 
+RoG. They will be the potion specialists.
+
+Also, rangers will be able to switch companies. However, there will 
+be a price and a cooldown period. Also, when they switch, their 
+skills will drop down to apprentice levels. This way they don't 
+always have all the skills maxxed out.
+
+Currently, each company has its own Capt, Lt, and Sgt. This will be 
+done away with. There will be one Capt with a Lt from each company 
+as the council. Each council member will still be voted on by their 
+company. And when a council member steps down, it will trigger an 
+immediate vote.
+
+Rangers can call a vote at anytime to have any of the council 
+members replaced, including the Capt. When this happens, the current 
+council member will automatically added to the vote.
+
+RoI
+---
+The RoI are the fighters so their weapon skills will be have high 
+weapon, fighting, defense, and parry skills.
+
+RoN
+---
+The RoN are the spies of the guild. As such, they will specialize in 
+sneak, hide, and awareness.
+
+RoG
+---
+The RoG will come back and be the potion specialists.
+
+Apprentices
+-----------
+They will only have limited skills, and thus, limited tax.
+
+[1-467 abdefFhHmnpqrRsux.!?] (current: 462) -- 
+Message: 463
+From   : Raymundo
+Reply  : Ranger recode proposal
+To     : Finwe, Mona, Varian, Mayari, Johnny, Zhar and Petros
+Date   : Thu May 14 02:46:24 2020
+
+Evilfaced draconians do something similar. You unwield for a specified period
+of time and then rewield.
+
+[1-467 abdefFhHmnpqrRsux.!?] (current: 463) -- 
+Message: 464
+From   : Zhar
+Reply  : Ranger recode proposal
+To     : Raymundo, Finwe, Mona, Varian, Mayari, Johnny and Petros
+Date   : Thu May 14 10:51:33 2020
+
+So, as a Ranger player myself for a bit I can chime in on this.
+
+Brawl is currently a very strong utility (obviously not damage) as
+you have the chance for the enemy to drop their weapon to the ground.
+This is mostly used in 2 ways:
+1. You can take weapons from enemies Rangers shouldn't be killing
+(good aligned npcs like Tom Bombadil, captain of the guard in Kalaman
+and so on).
+2. You can hide weapons on the ground when fighting common enemies,
+this usually makes them unable to re-wield since they can't find the
+weapon, resulting in permanent disarm.
+
+Speaking of potions I think that Rangers should get a higher skill
+in alchemy (at least 60) and their potions should require it. Ex
+Rangers are mixing their potions in the SoHM for example. There's
+plenty of Awarywalme and Este to be bought in their guild shop.
+Wouldn't really be fair to tax Rangers for potions if others could
+also make them.
+
+And what Rangers lack the most is some way of actually doing damage.
+They are currently great support option but many potential choices
+for layman guilds are stripped from them as they are pretty much
+forced to join Militia or Blademasters to have some damge output and
+actually be playable (long gone are the days of people being happy
+with roleplaying without having the killing power).
+
+Regards,
+  -Z
+
+[1-467 abdefFhHmnpqrRsux.!?] (current: 464) -- 
+Message: 465
+From   : Zhar
+Reply  : Ranger recode proposal
+To     : Raymundo, Finwe, Mona, Varian, Mayari, Johnny and Petros
+Date   : Thu May 14 11:01:49 2020
+
+Forgot to add some more notes about potions since recently I've
+been tinkering with ideas for some guilds involving alchemy.
+
+If Rangers after recode would have really powerful potions and
+that would replace their spells as a balancing factor there could
+be implemented an idea of toxicity (think Witcher potions if you
+played the game) that would go up as you quaff potions and go
+down over time (so you wouldn't be able to just quaff 10 healing
+potions at once and go to full health). This toxicity could work
+in different ways. Either giving diminishing returns on potions,
+preventing you from quaffing more or having downright negative
+effects (taking away health instead of restoring it or poisoning
+you) when the limit is reached. Rangers could be the only guild
+in the game that could monitor toxicity for example and different
+potions could have different toxicity levels.
+
+Just an idea :)
+  - Z

@@ -1,0 +1,17 @@
+inherit "/std/object";
+
+#include "/sys/stdproperties.h"
+#include "defs.h"
+
+void
+create_object()
+{
+    set_name("ticket");
+    add_name("_gont_port_shire_");
+    set_adj("red-scaled");
+    set_long("This is a ticket for transport on a ship. "+
+      "It has a picture of a fiery red-scaled dragon "+
+      "imprinted on the back.\n");
+    add_prop(OBJ_I_VALUE, 12);
+    add_prop(OBJ_M_NO_SELL, 1);
+}

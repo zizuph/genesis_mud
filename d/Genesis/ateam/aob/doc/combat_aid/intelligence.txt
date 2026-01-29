@@ -1,0 +1,11 @@
+Holding file for formulas relating to how intelligence applies to combat
+and combat aid:
+
+Harm spells check INT in determining query_spell_weapon_class 
+which is used in determining F_PENMOD spell strength. 
+                                   
+Stats play a minor role in determining casting success, with equal  
+weighting of INT, WIS, and DIS.  
+
+Mana pool is determined by INT.                              
+

@@ -1,0 +1,49 @@
+The extra reward valuables are given because the quests incur
+significant expense on the players.
+
+Quest: Help Lynet with clothes
+Bit: 0,7
+Exp: 450
+Extra: rare gem
+Files: npc/lynet.c arm/ftunic.c arm/fbelt.c arm/hboots.c room/dshop.c
+Skills: none
+Risks: none
+Description:
+There are girls in the houses in northeastern SaMorgan. One of them
+needs help getting her an outfit for the new job. The outfit is
+random, it can be bought at the dress shop in the village. The quest
+data stores in a player property, i.e. quitting mid-quest will reset
+the progress.
+
+Quest: Help Fearghal with equipment
+Bit: 0,8
+Exp: 450
+Extra: rare gem
+Files: npc/fearghal.c, armours and weapons from room/wshop.c / room/ashop.c
+Skills: none
+Risks: none
+Description:
+There are boys in the houses in northwestern SaMorgan. One of them
+needs help getting equipment for his first patrol duty: a medium
+sword and some armours. They can be bought at the weaponry and the
+armoury of the village but they do not have to. Any medium-class
+equipment will likely do. The quest data stores in a player property,
+i.e. quitting mid-quest will reset the progress.
+
+Quest: Feed Guards in towers
+Bit: 0,9
+Exp: 900
+Extra: 10 PC
+Files: npc/lieutenant.c npc/sergeant.c npc/guard.c room/tower-*c room/cboard.c
+       food and drink from the local pub
+Skills: none
+Risks: none
+The lieutenant at the common board room needs help with delivering
+food/drink to the guard towers at four corners of the village. The order is
+different for each sergeant and each guard crew in the towers. The
+order is given by the sergeants and the guards on the spot. The
+food/drink is the one at the local pub, so a player needs to purchase
+it and deliver one portion per sergeant, and three portions to the
+guards. After all four locations have been fed, the player needs to go
+back to the lieutenant for the reward. The quest data stores in a
+player property, i.e. quitting mid-quest will reset the progress. 

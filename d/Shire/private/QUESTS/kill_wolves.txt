@@ -1,0 +1,33 @@
+Group:      2
+
+Bit:        10
+
+Name:       Kill Wolves
+
+Programmed: Raymundo, Winter 2020
+
+Problem:    Boso the farmer is sick of the wolves in his fields. 
+            They make it very difficult for him to tend to his
+            crops. He wants you to kill 10 wolves and bring him
+            their pelts.
+
+Solution:   Kill 10 wolves. Bring back their pelts and ask for 
+            your reward.
+
+Skills:     None
+
+Risks:      Some small combat risk
+
+XP-Scale:   1000
+
+Remarks:    The pelts are leftovers on the wolves in Waymeet
+
+Relevant
+Files:      Rooms
+            ----------
+            /d/Shire/waymeet/rooms/fields
+            /d/Shire/waymeet/rooms/farmhouse
+
+            Objects
+            --------
+            /d/Shire/waymeet/arms/wolf_pelt

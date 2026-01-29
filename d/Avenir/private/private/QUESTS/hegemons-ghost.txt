@@ -1,0 +1,30 @@
+Title:    Hegemon's Ghost Quest - Necronisi Quest 3
+By:       Lilith Summer 2021 
+Location: Necronisi
+Exp:      3400?
+Group:    0
+Bit:      1
+
+   Someone stole the Hegemon's scepter and awakened him from his rest. Kill the
+thief and bring back the pieces of the scepter to him.
+
+Simple enough, right? Well, simpler than the Banshee's Mask, but the same basic
+difficulties apply. 3 boats to get there. Then you've got to find the 1 room in
+the 140 accessible to you that has the Hegemon's ghost, wading your way through
+aggressive revenants and exit-blocking skeletons. After you talk to the Hegemon
+you have to go find the gnomish thief who was cloned to a random place in the 
+catacombs, kill her, and bring the pieces of his scepter back to him to get 
+your reward.
+
+Questor will take extensive damage and must kill at least one npc.
+
+This quest is technically the first stage of the Meet Mascarvin Quest,
+since the Hegemon shows the player how to get to her quest area through an 
+opening in his room after they help him.
+
+Files involved:
+Hegemon's ghost /d/Avenir/common/dead/mon/hegemon_ghost
+Thief           /d/Avenir/common/dead/mon/scepter_thief
+Tomb            /d/Avenir/common/dead/catacombs/crypt_s7
+Scepter wand    /d/Avenir/common/dead/obj/scepter_wand
+Scepter head    /d/Avenir/common/dead/obj/scepter_top

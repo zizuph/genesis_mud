@@ -1,0 +1,48 @@
+          ....ooO  The City Of Nethosak  Ooo....
+            --------------------------------------
+
+
+
+                        o--o--o--o--o--o---o
+                       /      |     |       \
+                      o o--o  o--o--o  o--o  o
+                     /  |  |     |     |  |   \
+                    o   o--o  o--o     o--o    o
+                   /    |  |  |  |     |  |     \
+                  o--Bo o--o  C--o     o--o      o
+                  |        |           |         |
+   P1        G    o     As o--o--o--o--o     Ws  o    G
+   |\       / \   |     |     |  |  |        |   |   / \
+   P o--o--o---o--o--o--o--o--o--o--o--o--o--o---o--o---o--
+   |/   |   \ /   |           |  |  |            |   \ /
+   P2   ..   G    o        ...o--o--o  o---o     o    G
+                  |              |    /     \    |
+    To plain &    o--A        o..o   o   H   o   o
+    forest         \    Arena .  |   |  / \  |  /
+                    o         o..o   o o   o o o
+                     \           |    \|   |/ /
+                      o       S--o--Po T---T o
+                       \         |     |   |/
+                        o--o--o--o--o--o---o
+                                 |
+                                 o
+                                /|\
+                               G | G
+                                \|/
+                                 o
+                                 |
+G  = Guardroom.
+P1 = Pier to Flotsam.
+P2 = Pier to Newports.
+P  = Pier to Kabal.
+T  = Temple Entrance.
+A  = Adventure Guild.
+Bo = Board.
+S  = Shop
+I  = Inn.
+Po = Post Office
+As = Armour Smith.
+Wm = Weapon Smith.
+C  = Captain of the Guard.
+H  = High Priest.
+

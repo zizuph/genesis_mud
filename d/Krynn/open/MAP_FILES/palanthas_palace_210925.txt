@@ -1,0 +1,99 @@
+main
+::MAPDATA::
+jail     50 19
+office15 50 22
+office16 55 19
+office17 60 22
+hall10   55 22
+hall9    55 25
+office18 60 25
+hall8    55 28
+office13 50 28
+office19 60 28
+hall7    55 31
+office12 50 31
+office20 60 31
+hall6    55 34
+office11 50 34
+palace5  60 34
+office6 10 19
+office5  5 22
+office7 15 22
+hall5    10 22
+office4  5 25
+office8 15 25
+hall4    10 25
+office3  5 28
+office9 15 28
+hall3    10 28
+office2  5 31
+office10 15 31
+hall2    10 31
+office1  5 34
+hall1    10 34
+palace1  15 34
+palace2  20 34
+::MAPDATA::
+         Palace Offices of the Most Loyal Civil Service of
+             ---=====  LORD AMOTHUS PALANTHUS  =====---
+  01 Information                |=-                 10 Computing
+  02 Supervisor                .".                  11 Archive
+  03 Waiting Room             / -=\                 12 (Locked)
+  04 Janitor's Room        _ |. -=.| _              13 Treasury
+  05 Meeting Room         /-\:.===.:/-\             15 City Guard
+  06 Divorce Office       :=:|:/o\:|:=:             16 Form Room
+  07 Unoccupied           |H|.'|H|`.|H|             17 Inquisitor's Office
+  08 Personnel          ,'='=,-:-,='-'.             18 Public Office (Nth)
+  09 Tax Collector     :-|/o\|:|;|:|/o\|-:          19 Public Office (Sth)
+                       |'|---=======---|'|          20 Judge's Office
+                .:, ..,|;_.;;..;;;..;;.|;|,,. .;.
+               |___|=========================|___| 
+               ;===|  .::.   .:::::.   .::.  |===|
+               :___|_|;;;;|_|;;;;;;;|_|;;;;|_|__.:
+             _/                                   \_
+          __/       No Running in the Hallways      \__
+                                                     
+          o 06                          //        o    o 16
+          |                            //         |    |
+          |                           //          |    |
+  05 o----o----o 07                  //        15 o----o----o 17
+          |                         //                 |
+          |                        //                  |
+  04 o----o----o 08      GROUND   //   FIRST           o----o 18
+          |              FLOOR   //    FLOOR           |    |
+          |                     //                     |    |
+  03 o----o----o 09            //              13 o----o----o 19
+          |                   //                       |
+          |                  //                        |
+  02 o----o----o 10         //                 12 o----o----o 20
+          |                //                          |
+          |               //                           |
+  01 o----o----o----o    //                    11 o----o    o
+               X
+::NEWMAP::
+palace_balcony
+::MAPDATA::
+palace9  32 3
+::MAPDATA::
+                  Balcony Spire of the Palace of
+             ---=====  LORD AMOTHUS PALANTHUS  =====---
+                                |=-                 
+                               .o.                  
+                              / -=\                 
+                           _ |. -=.| _             \,/ 
+                          /-\:.===.:/-\             
+                          :=:|:/o\:|:=:                  /`\
+                          |H|.'|H|`.|H|             
+                        ,'='=,-:-,='-'.             
+                       :-|/o\|:|;|:|/o\|-:          
+                       |'|---=======---|'|          
+                .:, ..,|;_.;;..;;;..;;.|;|,,. .;.
+               |___|=========================|___| 
+               ;===|  .::.   .:::::.   .::.  |===|
+               :___|_|;;;;|_|;;;;;;;|_|;;;;|_|__.:
+             _/                                   \_
+          __/                                       \___________
+   _____/                      ___        ___       T__         \_______
+__/                  ________   | |~~~~~~~~| ||~~~~| |||                \_
+__|~~~~~~~~|   _/\_ |^^^^^^|  _| |--------| ||    | |##__|~~~~~~~~| _/\_ #
+|_|HHHHHHHH|  _|--| |------|_-#########################|_|HHHHHHHH|  _|--_

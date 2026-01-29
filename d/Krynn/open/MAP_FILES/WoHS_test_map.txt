@@ -1,0 +1,219 @@
+main
+::MAPDATA::
+kadothan_grove1 20 16 kadothan_grove
+kadothan_grove2 20 16 kadothan_grove
+kadothan_grove3 20 16 kadothan_grove
+daltigoth_city1 20 16 kadothan_grove
+daltigoth_tower1 20 16 tower_outer
+daltigoth_tower2 20 16 tower_outer
+daltigoth_tower3 20 16 tower_inner
+daltigoth_tower4 20 16 tower_inner
+daltigoth_tower5 20 16 tower_inner
+library 20 16 tower_inner
+eye_chamber 20 16 tower_inner
+shadow_hall 20 16 tower_inner
+heartroom 20 16 tower_inner
+shadows1 20 16 hall_of_shadows
+shadows2 20 16 hall_of_shadows
+shadows3 20 16 hall_of_shadows
+shadows4 20 16 hall_of_shadows
+shadows5 20 16 hall_of_shadows
+shadows6 20 16 hall_of_shadows
+vault 20 16 hall_of_shadows
+::MAPDATA::
+
+                                                __----\  
+                                             ___/      \_
+                                            {            \       _-\  
+                      /\__--/\__      __   /    ^^        }     {   }__.
+                     |          \----/  \-/  THORADIN      \_/ /        \_-
+                      \_  ^  [ ]  ^            ^^       [ ]  { /   ^^       }
+              <^^^-\    \  ^^   ^^    ^^    ^^^          __/ /           \-/
+               \   /_   /  ^^^  ^    ^^^   ^^           {  __}        ^^  |
+             ./^^    |  /  ^^  ^      ^^^  ^^^^    ^ ^^^{_/                \ 
+             \_ ^^ ^ /  {   ^^   ^^    ^^^^   ^   ^^^       ISTAR    ^^     }
+       _/-^\  / ^^  ^\__\ ^               ^^^  ^  ^^^               ^^      }
+      <     \ \_           ^   ^^       @@ ^^^    ^^                     __/ 
+       \ ^^^\  {  EMPIRE      ^^^             ^                          /  
+     /\_/^^ /  / OF ERGOTH           SOLAMNIA                @@         /
+    {_  __/^  /                                     @@             @@  }
+      \/     /_ ^^ [ ]                @@                    Balifor    _  }
+             /^^ Daltigoth                    @@     |\            /{ /
+             /       /{  @@                  @@@@    | \-\   ]\---/ [/   
+            {_ ^^^  / / @@^^^^^^^   @@      @@@@   @@ \   \-_/             
+              \____/ /  @@^^^^ ^             @@@@  @@  \_    _  
+                   _[  @@^^^^^ ^^           @@@  @@@@    \--/ \_           
+                  /    @@^^^^^^^            @@   @@@@           \
+                 /         ^^THORBARDIN     @@        [ ]       }       
+                {_     ^^^^^^^^^^   __           SILVANESTI     }    
+                  \---\   ^^^^^   /    \___          /---\_____/
+                       \__---___ /         \________/        
+        
+           
+        
+        
+
+::NEWMAP::
+kadothan_grove
+::MAPDATA::
+kadothan_grove1 34 14
+kadothan_grove2 28 14
+kadothan_grove3 40 14
+daltigoth_city1 54 14
+::MAPDATA::
+
+
+                                     THE CITY OF DALTIGOTH
+   
+
+                                                                      [^]
+               @@@@@@@@@@@@@@@@@@@@@@@@@           [^]         [^]
+         @@@@@@@@@@@@@@@@@@@@@@@   @@@@@@@@@@@@          [^]       
+      @@@@        @@@@@@@@@@           @@@@@@@@@@                     i~
+    @@@                                   @@@@@@@@    [^]         i~ /+\  i~
+  @         _^^_                The            @@@@              /+\ | | /+\
+ @         /[--]\         Kadothan Grove       @@@@    [^]       | | |_| | |
+@       _ [[[  ]]]___                          @@@@              | |_/V\_| |
+@      /, [[[  ]]] _ /|                        @@@@              _  _|_|_|_|
+      /_^__^__^__^_ /#  --- o --- o --- o ---         o --- --- /V\ /V\ /V_V\
+     {_____________}/                          @@@@                  
+                                               @@@@       [^]   The Ergothian
+@     Tower of High                        @@@@@@@@  [^]       Imperial Palace
+@        Sorcery                           @@@@@@@               
+ @@@@@@@@                           @@@@@@@@              [^]
+      @@@@@@               @@@@@@@@@@@@@@@                       [^]
+         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@           [^]
+
+
+
+
+
+
+::NEWMAP::
+tower_outer
+::MAPDATA::
+daltigoth_tower1 38 12
+daltigoth_tower2 32 12
+::MAPDATA::
+
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ @@@                                       @@@@@@@@@@@@@@@@@@@@@@@
+@@@           ===============              @@@@@@@@@@@@@@@@@@@@@@@
+           ,','              `,`,            @@@@@@@@@@@@@@@@@@@@@@@
+         ,','        |          `,`,                  @@@@@@@@@@@@@@
+       ,','         _=_           `,`,                           @@@
+     ,','          [   ]            `,`,                         @@@
+     ||         | /[ | ]\ |           ||             The         @@@
+     ||         /[[    -]]\           ||        Kadothan Grove   @@@
+     ||        [[ [ -   ] ]]          ||                         @@@ 
+     ||        [[ [   - ] ]]         ===
+     ||        [[ [ ### --  --- o --- o ---
+     ||        [[_[_____]_]]         ===
+     ||                               ||                         @@@
+     ||                               ||                         @@@
+     ||        Tower of High          ||                         @@@
+      `,`,        Sorcery          ,','                    @@@@@@@@@
+        `,`,                     ,','                      @@@@@@@@@
+          `,`,                 ,','                   @@@@@@@@@@@@@@
+@@@         `,`,             ,','                     @@@@@@@@@@@@@@
+ @@@          ===============                 @@@@@@@@@@@@@@@@@@@@@@
+  @@@                                      @@@@@@@@@@@@@@@@@@@@@@@
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+       @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+::NEWMAP::
+tower_inner
+::MAPDATA::
+daltigoth_tower3 32 13
+daltigoth_tower4 18 19
+daltigoth_tower5 18 7
+::MAPDATA::
+
+
+             The Rathfast 
+   Tower of High Sorcery in Daltigoth
+
+   ^--^--^--^--^--^--^--^--^--^--^--'
+   [|                               |]
+   [|           u o                 |]
+   [|                `,             |] \ 
+   [|                  `,           |] \\
+   [|             """    `,         |] \\\
+   [|          '~ ~~~ ~'   `,       |] \\\\
+   [|        :~~~ ~~~ ~~~:   `,     ==  \\\\
+   [|        :~~~ ~~~ ~~~:      o ------ ||||    
+   [|        :~~~ ~~~ ~~~:   ,'     ==  ////
+   [|          '~ ~~~ ~'   ,'       |] ////
+   [|             """    ,'         |] ///
+   [|                  ,'           |] //
+   [|                ,'             |] /
+   [|           u o                 |]
+   [|                               |]
+   ^--^--^--^--^--^--^--^--^--^--^--'
+
+::NEWMAP::
+tower_upper
+::MAPDATA::
+daltigoth_tower6 18 19
+daltigoth_tower7 18 7
+daltigoth_tower8 18 13 
+library 25 13
+eye_chamber 25 19
+shadow_hall 25 7
+heartroom 8 13
+::MAPDATA::
+
+
+             The Rathfast 
+   Tower of High Sorcery in Daltigoth
+
+   ^--^--^--^--^--^--^--^--^--^--^--'
+   [|         ]   d                 |]
+   [|         ]   o ---- o Hall of  |]
+   [|         ]            Shifting |]   
+   [|         ]   |   [    Shadows  |]  
+   [|         ]   |   [_____________|]  
+   [          ]   |   [             |] 
+   [   The    %                     |]         
+   [    o   --%-- o ---- o Library  |]             
+   [Heartroom %                     |]                             
+   [          ]   |   [_____________|]  
+   [          ]   |   [             |]  
+   [|         ]   |   [   Chamber   |]  
+   [|         ]           of Eyes   |]  
+   [|         ]   o ---- o          |]
+   [|         ]   d                 |]
+   ^--^--^--^--^--^--^--^--^--^--^--'
+
+::NEWMAP::
+hall_of_shadows
+::MAPDATA::
+shadows1 20 6
+shadows2 34 12
+shadows3 6 12
+shadows4 34 8
+shadows5 6 8
+shadows6 20 14
+vault 20 10
+::MAPDATA::
+
+             The Maze of Shadows
+
+     ~                                ~
+            ~       %       ~
+  ~               %   %         ~
+      %    ~    %   o   %         %   ~
+    %   %      ~  ~  ~  ~       %   %
+  %   o   %         %    ~    %   o   %
+ ~  ~  ~  ~       %   %      ~  ~  ~  ~ 
+                %   o   %
+ ~  ~  ~  ~       %   %      ~  ~  ~  ~
+  %   o   %   ~     %         %   o   %
+    %   %      ~  ~  ~  ~       %   %
+      %         %   o   %         %
+ ~         ~      %   %      ~        ~
+                    %
+
+
+

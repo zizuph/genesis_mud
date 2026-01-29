@@ -1,0 +1,28 @@
+                       AA move-behind descriptors:
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                   Submitted by Gorboth, February 2018
+
+If target is not AA, or is of lower AA rank:
+
+  ACTOR SEES:
+    "You haul X forward and kick them roughly to the front of the action!"
+  TARGET SEES:
+    "X grabs you and hauls you in front of HIM. With a rough kick"
+    " in your back, you are launched to the front of the action!"
+  OTHERS SEE:
+    "X turns and hauls Y forward. With a rough kick to the backside,"
+    " X is propelled to the front of the action!"
+
+If target is AA of higher rank:
+
+  ACTOR SEES:
+    "Taking too much heat, you cry out to X and then move aside as they"
+    " rush to the front of the action!"
+  TARGET SEES:
+    "X cries out to you, taking too much heat. SHE falls back as you"
+    " rush to the front of the action!"
+  OTHERS SEE:
+    "X, taking too much heat, cries out to Y. SHE falls back as Y"
+    " rushes to the front of the action!"
+

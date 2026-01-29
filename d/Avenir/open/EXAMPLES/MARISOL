@@ -1,0 +1,20 @@
+The files you are interested in are:
+	silkshop.c       -- The shop
+        silkstore.c      -- The store room
+        silkseller.c     -- The shopkeeper npc
+        blouse.c        
+        trouser.c
+
+To visit the avenir shop, go to: 
+	/d/Avenir/common/bazaar/intr/silkseller.c
+        
+You can ignore the bazaar.h  I think -- just use your domain's usual
+*.h files for the defines you need. IF you have a question, just ask.
+
+Feel free to continue to use the Avenir inherits if it simplifies 
+things for you. The shop code we use is borrowed from Gondor, I
+believe. It handles signs and npc-linking to the shop, etc.
+
+~avenir/inherit/cloth_arm can be substituted with /std/armour. 
+
+

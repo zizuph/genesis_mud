@@ -1,0 +1,15 @@
+Name: blackened heavy battleaxe
+File: /d/Earthsea/gont/gont_city/wep/bl_battleaxe.c
+Hit/Pen: 35-55/55 (to hit depends on wielders polearm skill)
+Special:
+    The axe is the result of a botched transformation by a
+    mage and is in flux between an axe and a halberd. It is
+    made of extra dense metal not of this world and is
+    extremely heavy (about 30 kg).  Because it also behaves
+    like a halberd, its to hit is 35 + SS_POLEARM / 5.
+Props:
+    OBJ_I_IS_MAGIC_WEAPON, OBJ_S_WIZINFO, MAGIC_AM_ID_INFO, 
+    MAGIC_AM_MAGIC
+Obtainability: 
+    Obtained from the difficult to find and kill smuggler
+    leader.

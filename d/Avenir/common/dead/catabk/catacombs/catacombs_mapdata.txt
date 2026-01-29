@@ -1,0 +1,159 @@
+main
+::MAPDATA::
+crypt17 6 8
+crypt_s2 20 34
+crypt45 16 6
+crypt27 10 4
+crypt20 10 6
+crypt81 20 32
+crypt34 18 14
+crypt100 34 4
+crypt73 0 16
+crypt97 36 8
+crypt_s4 36 26
+crypt_s7 20 0
+crypt104 24 16
+crypt16 6 10
+crypt87 36 30
+crypt25 14 10
+crypt29 12 6
+crypt1 6 26
+crypt37 18 4
+crypt2 8 26
+crypt26 12 8
+crypt38 18 6
+crypt14 8 12
+crypt28 12 4
+crypt10 0 18
+crypt117 24 20
+crypt8 2 18
+crypt_s6 6 28
+crypt51 26 18
+crypt70 34 26
+crypt41 20 8
+crypt103 36 6
+crypt23 10 10
+crypt3 6 24
+crypt84 30 32
+crypt77 14 28
+crypt101 38 10
+crypt110 10 28
+crypt35 16 12
+crypt54 30 16
+crypt15 4 12
+crypt_s5 36 2
+crypt98 36 12
+crypt_s1 2 8
+crypt71 4 14
+crypt116 26 32
+crypt60 32 18
+crypt22 8 10
+crypt18 6 6
+crypt_s3 2 16
+crypt72 2 14
+crypt0 20 24
+crypt106 30 22
+crypt56 30 20
+crypt21 8 8
+crypt36 18 2
+crypt49 22 20
+crypt61 32 16
+crypt92 36 22
+crypt95 32 6
+crypt74 16 28
+crypt90 36 28
+crypt94 30 4
+crypt30 14 4
+crypt58 32 20
+crypt19 8 6
+crypt52 26 16
+crypt9 4 18
+crypt65 36 14
+crypt109 10 30
+crypt86 34 28
+crypt75 16 30
+crypt63 34 14
+crypt93 38 20
+crypt96 34 8
+crypt12 2 10
+crypt108 16 34
+crypt42 24 6
+crypt99 36 10
+crypt78 12 28
+crypt50 26 20
+crypt105 24 18
+crypt89 34 32
+crypt13 6 12
+crypt7 18 26
+crypt39 22 6
+crypt66 34 18
+crypt88 36 32
+crypt11 0 20
+crypt64 34 16
+crypt40 26 4
+crypt55 30 18
+crypt44 30 0
+crypt53 28 16
+crypt43 28 2
+crypt68 36 20
+crypt91 36 24
+crypt4 4 24
+crypt59 32 22
+crypt76 14 30
+crypt85 32 30
+crypt107 28 22
+crypt80 18 32
+crypt62 32 14
+crypt102 38 8
+crypt115 28 32
+crypt79 12 30
+crypt33 16 4
+crypt32 20 16
+crypt47 22 24
+crypt31 22 16
+crypt5 4 22
+crypt82 22 32
+crypt83 24 32
+crypt24 12 10
+crypt67 34 20
+crypt57 28 18
+crypt69 34 24
+crypt48 22 22
+crypt6 2 20
+crypt46 16 8   
+::MAPDATA::
+                  o   o                  
+                   \  |                  
+                    o-o-o-o-o-o-o   o-o  
+                   /             \ /  |  
+            o-o o-o               o   o  
+            | | | |                \ /|  
+        o   o o-o o                 o o  
+        |  /       \                | |  
+        o-o         o               o o  Surface
+       / /           \              |\   |
+      o o             o o           o o  o
+      |/               \|          /  | {|} Gate
+      o                 o     o-o o   o  o 
+     /                  |       | |   |  |
+  o o                   o-o-o   o-o-o-o--o
+  | |                       |   | |      
+  o-o-o                   o-o o-o o-o    
+  |  /                    | |   | |      
+  o o                 o-o-o-o-o-o o o    
+   \                 /            | |\   
+    o-o             o             o-o o  
+      |            /                  |  
+      o-o-o       o                   o  
+     /  |        /                    |  
+    o   o o-o-o-o                     o o
+    |   | |   |  \                   /  |
+    o   o o   o   o   o             o-o-o
+        | |   |   |\ / \           /   / 
+        o-o-o o   o o   o-o       o   o  
+            | |\  | |      \     / \ /   
+            o-o o-o o       o   o   o    
+                   \|        \ /     \   
+                    o         o       o  
+                     \         \         
+                      o         o    

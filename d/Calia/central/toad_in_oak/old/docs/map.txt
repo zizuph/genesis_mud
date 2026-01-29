@@ -1,0 +1,74 @@
+
+
+
+
+A - Village entrances             ************A***
+B - Duck Pond                    *            |   *
+C - Base of the Great Oak       *             X    *
+D - Flowers                    *             /      *
+E - Swimming hole             *             X        *
+F - Spring                  ~~~~           /          * 
+G - Village Green           A-X ~ X-------X-D          *
+H - Mushrooms               *  \ / \      |\|\          *
+I - Veggies                 *   X~~~B     | D-D X        *
+~ - Stream                   *  |~~~      /  \|/ \        *
+                              * X ~      C    D   X-X-X-X  *
+                               * \ ~          |        \ \  *
+                               *  X ~         |         E \  *
+                                * |\ ~~~~~~~~~|~~~~~~~~~~~~X  *
+                                * G-G         X           /  *
+                                * |x|        /           F  *
+                                * G-G     X-X     **********
+                                 *   \   /   \   *
+                                  *   X-X-H   I *              
+                                   *************
+
+
+
+
+A - Training area (AG)    A-A   X-X   B
+B - "restaurant"          |x|\ /   \ / 
+C - Tailor                A-A X     X-X
+D - Pub                      /         \
+E - Store                   X           X
+F - Bank?                   |          /
+G - Post office           G-X         X
+                           /          |
+                          X           X-C
+                           \          |
+                            X-X       X
+                           /  |      / 
+                          E   X-X   X
+                          |    / \ /
+                          F   D   X
+                                    
+                                     
+
+
+
+
+A - Doe & Allerdices home         A
+B - Wood Carver                  / 
+C - Animal Trainer          X-X-X
+D - "Town Hall"            /|    \
+                          X X     X
+                          |       |
+                          X       X-D
+                          |       |
+                        C-X       X
+                           \     / 
+                            X   X
+                             \  |\
+                              X-X B
+                                
+                             
+
+Notes:  There are actually three layers in the trees. The top layer 
+        not shown may be the home of whatever race guild get created, 
+        and any other neat ideas I come up with. Or it may just be 
+        dropped. 
+
+        The training area is a large open platform for practicing 
+        combat skills. In one corner there will be an actual 
+        adventurers guild. Meditation will be done somewhere else, 
+        probably next to the duck pond. 

@@ -1,0 +1,162 @@
+main
+::MAPDATA::
+entrance 5 10 dwarf_camp
+camp1 5 10 dwarf_camp
+camp2 5 10 dwarf_camp
+camp3 5 10 dwarf_camp
+camp4 5 10 dwarf_camp
+camp5 5 10 dwarf_camp
+camp6 5 10 dwarf_camp
+camp7 5 10 dwarf_camp
+camp8 5 10 dwarf_camp
+camp10 5 10 dwarf_camp
+campa 5 10 dwarf_camp  
+campb 5 10 dwarf_camp
+campc 5 10 dwarf_camp
+campd 5 10 dwarf_camp
+campe 5 10 dwarf_camp
+campf 5 10 dwarf_camp
+campg 5 10 dwarf_camp
+camph 5 10 dwarf_camp
+campi 5 10 dwarf_camp
+campj 5 10 dwarf_camp
+campk 5 10 dwarf_camp
+campl 5 10 dwarf_camp
+campm 5 10 dwarf_camp
+campn 5 10 dwarf_camp
+campo 5 10 dwarf_camp
+campp 5 10 dwarf_camp
+campq 5 10 dwarf_camp
+tent1 5 10 dwarf_camp
+tent2 5 10 dwarf_camp
+tent3 5 10 dwarf_camp
+tent4 5 10 dwarf_camp
+tent5 5 10 dwarf_camp
+tent6 5 10 dwarf_camp
+tent7 5 10 dwarf_camp
+tent8 5 10 dwarf_camp
+tenta 5 10 dwarf_camp
+tentb 5 10 dwarf_camp
+tentc 5 10 dwarf_camp
+tentd 5 10 dwarf_camp
+tente 5 10 dwarf_camp
+tentf 5 10 dwarf_camp
+tentg 5 10 dwarf_camp
+tenth 5 10 dwarf_camp
+tenti 5 10 dwarf_camp
+tentj 5 10 dwarf_camp
+tentk 5 10 dwarf_camp
+tentl 5 10 dwarf_camp
+tentm 5 10 dwarf_camp
+tentn 5 10 dwarf_camp
+tento 5 10 dwarf_camp
+tentp 5 10 dwarf_camp
+tentq 5 10 dwarf_camp
+::MAPDATA::
+            CRYSTALMIR                 [ ]                '   ~~ 
+            ~~ LAKE   /\              Tantallon        Xak  ~~ ~~
+    /\_     ~~~~    /\                                  Tsaroth ~
+   /   \_/\ ~~~@  /\                        /\  /\      [ ] ~~ ~~
+  /\/\ /\ /\~~~@@@    /\ Que-Kiri             /\_ /\      '  ~~ ~
+     @  @ @@@~~ @@       { }         Que-Shu/\_/ \   v ' v: ~~ ~~
+    @ @@/\@  @[ ] Solace              { }    /\ /\\  ' v ''  ~~ ~
+   @ @@@@/\@@@                              ```````` v ' v: ~~ ~~
+   @@@ DARKEN @    /\       PLAINS OF      /\_/\ /\  ' v ',  ~~ ~
+     @ WOOD @@              ABANASINIA      /\ /\        ,' ~~ ~~
+    [ ]@@@@@  [ ]                         /\__    @@@@  '  ~~ ~~
+  Haven/\   Gateway      { }             / /\ \ @@@@@@ '  ~~ ~~ ~
+        /\ ~~~~~~         Que-Teh               @@@@@@'  ~~ ~~ ~~
+      ~~~~~@@@@@@~~~~~~                         @@@ :' ~~ ~~  ~~ 
+  @@@@@@@@@@@@ ~~ @@   ~   ,____,__,__          @ :'  ~~ ~~ ~~ ~~
+  @@     @@ ~~ @@@      :'' ~~ ~~ ~~ ~~`  ,__    '  ~~ ~~ ~~ ~~ ~
+  @@     @@@@@@@@    [ ]' ~~ ~~ ~~ ~~ ~~ `~~ ~`''  ~~ ~~ ~~ ~~ ~~
+  @ QUALINESTI @@  New Ports ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@        @@@    ,'~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@       @@@    :   ~~ ~~ ~~ ~~  NEW SEA ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+  @@       @@     `, ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@@@@@@@@@      '   ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+                  '
+       To Pax Tharkas and
+         Thorbardin
+
+::NEWMAP::
+dwarf_camp
+::MAPDATA::
+entrance 31 3
+camp1 31 5
+camp2 28 7
+camp3 31 7
+camp4 34 7
+camp5 28 10
+camp6 31 10
+camp7 34 10
+camp8 31 21
+camp10 31 23
+campa 25 10  
+campb 37 10
+campc 22 13
+campd 25 13
+campe 28 13
+campf 31 13
+campg 34 13
+camph 37 13
+campi 40 13
+campj 25 16
+campk 28 16
+campl 31 16
+campm 34 16
+campn 37 16
+campo 28 19
+campp 31 19
+campq 34 19
+tent1 31 5
+tent2 28 7
+tent3 31 7
+tent4 34 7
+tent5 28 10
+tent6 31 10
+tent7 34 10
+tent8 31 21
+tenta 25 10
+tentb 37 10
+tentc 22 13
+tentd 25 13
+tente 28 13
+tentf 31 13
+tentg 34 13
+tenth 37 13
+tenti 40 13
+tentj 25 16
+tentk 28 16
+tentl 31 16
+tentm 34 16
+tentn 37 16
+tento 28 19
+tentp 31 19
+tentq 34 19
+::MAPDATA::
+
+                               |
+                               |
+    @@@@@@@@@@@@               o
+              @@@@             |
+              @@@@             o          
+              @@@@           / | \        
+              @@@@     ^    o--o--o   ^
+               @@@@        /|\/|\/|\    
+               @@@@       / |/\|/\| \  
+               @@@@   ^  o--o--o--o--o    ^
+  QUALINESTI   @@@@     /|\/|\/|\/|\/|\    
+    FOREST     @@@@    / |/\|/\|/\|/\| \   
+               @@@@   o--o--o--o--o--o--o   ^
+             @@@@@@    \ |\/|\/|\/|\/| /    
+              @@@@@     \|/\|/\|/\|/\|/   
+               @@@@  ^   o--o--o--o--o   ^     Dwarven
+            @@@@@@@       \ |\/|\/| /          encampment
+             @@@@@@        \|/\|/\|/  
+              @@@@@     ^   o--o--o   ^
+               @@@@          \ | /
+              @@@@             o    
+               @@@@            |
+                @@@@           o
+                @@@@@

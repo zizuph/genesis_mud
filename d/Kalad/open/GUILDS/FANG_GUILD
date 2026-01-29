@@ -1,0 +1,37 @@
+-The Red Fang (goblin racial guild)
+
+  All info can be found in /d/Kalad/open/FANG_INFO as far as history goes.
+  All the guild files are in /d/Kalad/common/guilds/red_fang/
+  with the soul being /obj/fang_soul.c
+  shadow in /obj/fang_shadow.c
+  and joinroom in /rooms/joinroom.c
+
+-- To Join ---:
+
+  You need to be a goblin with a free racial slot.
+  Your alignment must be below 600.
+  In the joinroom, type the command 'sign in'.
+
+--------------
+
+This is the tax computation for the guild:
+
+SS_WEP_KNIFE    30 - 30 = 0
+SS_SNEAK        20 - 20 = 0
+SS_CLIMB        30 - 30 = 0
+
+SS_ACROBAT      35 - 20 = 15 | 1.0 / 60 x 15 = 0.25
+SS_ANI_HANDL    50 - 30 = 20 | 0.5 / 60 x 20 = 0.1666
+SS_LOC_SENSE    50 - 30 = 20 | 0.5 / 60 x 20 = 0.1666
+SS_TRACKING     50 - 30 = 20 | 1.0 / 60 x 20 = 0.3333
+SS_HUNTING      50 - 30 = 20 | 0.5 / 60 x 20 = 0.1666
+SS_AWARENESS	50 - 30 = 20 | 1.0 / 60 x 20 = 0.3333
+
+Slots	= 130
+Tax	= 1.416
+
+Special skill SS_WOLF_RIDING, ability to ride wolves around. The 
+wolves themselves do nothing but look cool and take fatigue for the 
+player. Tax 1.0% / 2 (0.50 depends on skill)
+
+Totax Tax = 1.916 (2.0 rounded up)

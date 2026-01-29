@@ -1,0 +1,76 @@
+ A - B - C - D - E - F - G - H - I - J - K - L - M - N - O - P - Q - R - S - T - U - V - W - X - Y - Z
+    b01
+   /
+a02                 f02                 k02
+   \                 |                   |
+    b03             f03                 k03
+     |               |                   |
+A04*b04             f04 g04             k04
+     | \           /   \ |               |
+A05*b05 c05-d05-e05     g05-h05-i05-j05-k05
+       \         |       |:          |     \
+        c06-d06-e06*F07 g06*g06 i06 j06*k06 l06
+             *           |       *   |       |
+            D07         g07-h07-i07-j07     l07
+                         *                     \
+                        g08                     m08-n08     p08-q08-r08-s08
+                                               / :     \   /         |
+                                            l09         o09         r09 s09
+                                                         |           |:  *
+                                i10-j10%k10             o10        -r10-s10
+                               /     |     \               \         |
+                          3-h11      2      l11-m11-1       p11-q11-r11-s11
+                                           /   \             |             \
+                                  5-j12-k12     m12         p12-q12         t12-u12
+                                         |         \       /       \         |     \
+                                         4          n13-o13         r13     t13     v13
+                                                     *                 \   /   \     |
+                                                                        s14     u14-v14        close-
+                                                                                     |         /
+                                                                         (gate, CL)-v15-w15-near
+														 (/d/Gondor/dol_amroth/other/gates)
+
+
+
+
+
+
+
+Sewers
+
+
+		 |
+5           d05        ^g05
+             |           |
+6          ^d06         g06(cp)     j06
+               \       /   \       /   \
+7               e07-f07     h07-i07     k07-l07-
+               /                           (cp)\
+8           d08                                ^m08                         n10
+           /                                       \                       /
+9                                                   n09                 s09&
+                                                     |                 / cp
+0                                                   n10            ^r10
+                                                       \           /   \
+                                                        o11     q11     s11 [see code]
+                                                           \   /         | \
+                                                        o12-p12        ^s12 t12
+                                                       /                       \
+                                                   ^n13                         u13
+                                                   /cp                             \
+                                                l07?                                v14		
+
+Path          Room    Room Descr    Exit to   Path          Room Room Descr      Exits to
+--------------------------------------------|-----------------------------------------------
+craft/houses  a-04    House, Common  b-04   | other/houses  k-04 Barracks         k-03, k-05
+craft/houses  a-05    Shop, Tailor   b-05   | common/houses k-06 House            j-06
+craft/houses  d-07    Shop, Armours  d-06   | trade/houses  o-11 Shop, General    p-11
+craft/houses  f-06    Shop, Weapons         | trade/houses  p-10 Bank, 5%         p-11
+common/houses g-08    House          g-07   | trade/houses  q-09 small office     r-09
+hillside/m-11 garden1 House1         l-11   | trade/houses  r-12 Shop, Potions
+hillside/j-11 garden1 House2         j-10   |                    and Antidotes    r-11
+hillside/g-11 garden1 House 3        h-11   | trade/houses  s-09 Inn              s-10
+hillside/k-13 garden1 House 4        k-12   | trade/houses  s-12 House            s-11
+hillside/i-12 garden1 House 5        j-12   | trade/houses  s-13 Shop, Herb       t-13
+common/houses h-06    Tavern         g-06   | trade/houses  u-13 Post Office      t-12
+common/houses i-06    Shop, General  i-07   | trade/houses  w-12 Shop, Junk yard  v-138

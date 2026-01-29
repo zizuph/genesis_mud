@@ -1,0 +1,137 @@
+main
+::MAPDATA::
+bridge 41 18 sanction
+r1 41 18 sanction
+r4 41 18 sanction
+r5 41 18 sanction
+r6 41 18 sanction
+joinroom_red 41 18 sanction
+r2 41 18 rda_camp
+r3 41 18 rda_camp
+tent1 41 18 rda_camp
+armoury 41 18 rda_camp
+board 41 18 rda_camp
+guardhouse 41 18 rda_camp
+start_red 41 18 rda_camp
+train_red 41 18 rda_camp
+::MAPDATA::
+                        
+                                                                            
+      N                 
+      ^                                         
+      |                                       _                    _____      
+   <--o-->                                  ,/ \                  /    /      
+      |                              __     |   \,    ,     ,    `\_^_\       
+      =                            _/  \  _/`    |  _/|    /|__     _ '       
+                        __      __/    / |       / /  |   /_  /    / \_       
+                        \ \    /^    [] _|      / /  /`     |/     \   \      
+             ,_          \ |  |^  Kalaman`     /_/  /       '       []Mithas  
+             | \         /^ [] ^           ^        |              /___/      
+             |^@\    Palanthas^      ^    ^        /'              ____       
+             | ^@\       |  ^        ^    ^   ^^  /                \  /       
+     __     /`  ^@|      | ^  []Vingaard     ^^   |                /__\       
+    /^^\    \  ^@ |      | ^    Keep     ^^ ^^    |/\              `  '       
+   /^^^^\    \___/       | ^           ^^^^       '  \                      
+   \^^^^^|                \ ^      @  ^ Sanction     |           ,            
+  |\|@__/    _____,        |    ^  @   ,[ ]^^^       |        __/|            
+  |@_/      /     |        |   ^  @@ __|  | ^^  _  _ `\  _/\_/   |            
+  |/       /@ ^   |        |____/\__/   _/` ^^ | \/ |  []`       |            
+           |@^|\_/                     /   ^^^ |__  \ Flotsam,/| |            
+           | @|___           ____      |  ^^^   ,/   \       | | |            
+           '\_@  /          /    \ { } |  ^ ^   |Port []    /   \|            
+              \_/         ,/  ^  |     '\ ^  ^  Balifor\___/     '            
+                     Solace []   |   _   |^  ^    \                 
+                         / @@   /   | \  \         \         { }   
+                     New Ports[]    |  |_|          \__     
+                        | @@@  \  ,/'           Kurinost[]            
+                       / @@@@@  \_|                 @@@@@@@\                  
+     
+
+::NEWMAP::
+sanction
+::MAPDATA::
+bridge 40 15
+r1 40 13
+r4 42 11
+r5 44 9
+r6 46 7
+joinroom_red 48 5
+::MAPDATA::
+                                                ___
+           ___                                 /%%%\
+          /%%%\   _   North Pass    /\       _/     \_
+~ '      /     \_/ \         /\__  /  \     /  ^v^   _\
+~ '     /                /  /  \ \        %   / - \ /  \
+~~ '   /\               o             % %    { [A] } %
+ ~~ ' /  \   %         /       % % % %         /     %
+~ ~~ '        %  [B]--o       %               o    %
+~~ ~~ '      %         \     %               /    %
+ ~~ ~~  '   %           o     % Northern    o      %
+  ~~ ~~  '%%     North  |     %   Army     /      %  /\
+    ~~ ~~  %%           o     %   Camp    o     %   /  \/\
+     ~~ ~~  %%   Slums  |    %          |/     %   /   /  \
+      ~~ ~~ '  %        o   %          -o     %
+       ~~ ~~ '' %      |||  %          |||   % 
+      ~~ ~~ ~~ ' %%%%% |#| %%%%%%%%%%% |o|%%%
+     ~~ ~~ ~  ~ '      |||             ||| %   Eastern
+    ~~ ~~ ~~ o ~ '   W--o--o--o--o--o---o  %    Army
+    ~~ ~~ ~~ | , '      | Slave  |  |   |   %   Camp
+    ~~ ~~ ~~ o-w    [p] o        o  S R-o-r %             
+    ~~ ~~    |          | Market |      | === |  |       Eastern  
+    ~~ ~~ 2--o          o    [T] o-b    o--o--o--o--o-->  Pass
+    ~~ ~~     \         |        |      | ===  \ |  |   to Neraka
+  ~~ ~~ ~~ ~~  3--o--o--o--o--o--o--o---o  %
+ ~~  ~        /|        |\    |   \   /     %
+ ~~  ~ o--1--o-w     %%   s  [C]   'o'--D-o  %
+ ~~  ~       |         %%          /|\  |    %%     
+  ~~ ~~ ~~ ' w           %%%%     f f f o     %    /\
+  ~~ ~~ ~~ '                 %%%      ___    %    /  \
+    ~~ ,,,'              %%%%%  %%   /%%%\  %   /\
+   ~~ ,        %%%%%  %%%%         %/     \%   /  \
+
+                 -= The city of Sanction =- 
+      w  warehouse                    W  wyvern landing
+      A  Temple of Luerkhisis         B  Temple of Huerzyd
+      C  Temple of Duerghast          p  The Naked Sylph
+      T  Tavern                       b  Bank of Sanction
+      S  Mercenaries armoury          R  Resting Blade Inn
+      r  Ferret breeder               f  forge
+      D  Military dispatch office     s  Smith
+      1  Newports-Sanction ferry      2  Sanction-Port Balifor
+      3  Neraka-Sanction trading line
+       
+::NEWMAP::
+rda_camp
+::MAPDATA::
+r2 15 14
+r3 13 12
+tent1 17 12
+armoury 11 14
+board 11 10
+guardhouse 12 16
+start_red 11 12
+train_red 15 11
+::MAPDATA::
+
+            -= Northern Army Camp, Sanction =-
+
+                       ___
+                      /%%%\
+            /\      _/     \_
+  /\__     /  \    /  ^v^   _\
+ /  \ \          %   / - \ /  \
+         % % % %    { [ ] }  Temple of  
+        %             /      Luerkhisis
+       %   ^         o
+       %   |  [ ]   /      %
+       %   ^-o | ^ o      %
+       %    / \|/ /      %
+      %   [ ]  o o       %
+     %         |/      %%
+     %     [ ]-o      %
+     %        |||    %
+  %%%%%%%%%%% |o| %%%
+              |||    %
+               
+        City of Sanction
+ 

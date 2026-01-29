@@ -1,0 +1,442 @@
+             DOCUMENTATION FOR THE ABILITIES AND LIMITATIONS
+                     OF THE DRAGONARMIES OF ANSALON
+           FOR THE PURPOSE OF DETERMINING BALANCE AND TAXATION
+
+
+  * Relevant Files/functions listed below each item where necessary.
+
+Guild Overview and Purpose (Taken from original draft proposal)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Dragonarmies of Ansalon are a thematic army who serve the Dark
+Queen Takhisis from a series of books by Margaret Weis and Tracy
+Hickman (the Dragonlance series) There are actually five dragonarmies 
+of various colors: red, blue, green, white, black. For players, the 
+Red and Blue Dragonarmies can be joined.
+
+The two dragonarmies are occupational fighting guilds. The
+Dragonarmies are forced to maintain an evil alignment. They have
+guildhalls in Sanction.
+
+The Red Dragonarmy specialized in polearms and has a special attack
+known as Impale. The Blue Dragonarmy specializes in swords and has 
+a special attack known as slash. Higher ranking members of these
+armies also have been granted the gift of dragons by the Dark Queen.
+They can call upon them to help them transport the to various locations.
+They can also call upon them to attack their enemies in combat.
+
+The original Dragonarmies of Ansalon were opened at the beginning of 
+Febuary, 1999, by the liege of Ansalon, Arman Kharas. The most recent
+incarnation of them was recoded by Petros and opened by the Liege of
+Krynn, Navarre.
+
+Dragonarmy Ranking System
+-------------------------
+Rank defines the position of member within the Dragonarmy and also
+determines the abilities given to member. Ranking system is same for
+all Dragonarmies.
+
+There are five ranks:
+        recruits
+        soldiers
+        oficers
+        high officers
+        General
+
+Every member has rank of recruit or higher.
+A member of dragonarmy can be promoted/demoted by higher ranking member.
+
+    Promotions:
+    ***********
+    Member can promote another member only to the rank lower than promoter
+    is currently holding.
+    (i.e. high officer can promote to soldier or officer rank)
+    Further requirements:
+    1. Promoted member must have sufficiently high dragonarmy rank stat.
+        Dragonarmy rank stat is
+            DRS = (query_stat(SS_OCCUP) * query_average_stat()) / 960;
+        High officer ........... DRS > 17
+        Officer ................ DRS > 11
+        Soldier ................ DRS > 6
+       SS_OCCUP is removed upon joining.
+       Once a soldier was promoted his DRS may again be lower (due to death)
+       without automatic loss of rank.
+    2. There is only limited number of positions for officer and high officer
+       rank depending on the total number of members.
+        Only 1/4 of all members can have rank officer and higher.
+        Only 1/8 of all members can have rank high officer and higher.
+        There can be only 1 General.
+    3. If member was demoted, he can be promoted only by the same member that
+       demoted him or by member with higher rank.
+       In particular if General demotes someone then only he can promote him
+       back.
+    4. Promoted member and promoter must be present in the same room.
+
+    Demotions:
+    **********
+    Member can demote another member only from the rank lower than demoter
+    is currently holding.
+    (i.e. high officer can demote soldiers or officers to lower rank)
+    Recruits cannot be further demoted.
+    Member can be demoted at any time (he does not even have to be present
+    in the game). Demoted member is automatically notified by mail.
+    There is only one requirement (appart from rank of demoter):
+       If member was promoted, he can be demoted only by the same member that
+       promoted him or by member with higher rank.
+       In particular if General promotes someone then only he can demote him
+       back.
+    
+    
+    General:
+    ********
+    Rank General is special and is attained different way.
+    (this is not coded yet)
+    There are two possibilities:
+    1. Present General chooses the next general and gives this rank to him.
+       With this act the present General is given the rank of high officer.
+    2. If there is no general then process of choosing new general begins.
+       The new general will be member that logs in during 10 day period,
+       accepts the position, has the highest rank from all that accepted and
+       has the higest dragonarmy rank stat. (comments/suggestions?)
+
+COMBAT SPECIALS
+===============
+
+  SLASH
+  ~~~~~
+    Files: /d/Ansalon/guild/dragonarmy/specials/bda_slash.c
+
+    Blue Dragonarmy members have the ability to use their sword in a
+    slashing attack.
+    
+    Combat Aid
+    ----------
+    Using the Genesis Specials system, we simply set the combat aid
+    and all other calculations are set. Slash has been set to a combat
+    aid of 80% maximum.
+
+    Combat aid for DA attacks also depend on their promotion level. They
+    start at 90% of their maximum at recruit. Every successive level grants
+    an extra 5%, with Officers and above having 100%.
+    
+    Frequency
+    ---------
+    Slash can be performed on average once every 15 seconds. There
+    is a 7 second preparation time, followed by a 8 second cooldown
+    time. It uses the Genesis Specials, so the timings of these are
+    randomized.
+    
+    Hit chance
+    ----------
+    Tohit is set to be 95. This is calculated to be 84% hit chance
+    according to 'man cb_tohit'.
+    
+    Penetration
+    -----------
+    Penetration is calculated using the person's strength and dex 
+    weighted twice, and their wisdom. The dragonarmy attack skill
+    is also used. Of course, penetration also depends on the weapon's 
+    pen.
+
+    Everything else is calculated by the Genesis Specials system.
+    
+  IMPALE
+  ~~~~~~
+    Files: /d/Ansalon/guild/dragonarmy/specials/rda_impale.c
+           /d/Genesis/specials/std/wounding_sh.c
+           /d/Genesis/specials/std/wounding_obj_base.c
+
+    Red Dragonarmy members have the ability to impale their enemies in a 
+    special attack. Because of their proficiency with impaling weapons,
+    they can actually cause wounding attacks. The wounds will bleed,
+    causing a gradual decrease in health as the opponent fights. These
+    wounds are so vicious that they cannot be immediately healed with
+    healing spells of any kind.
+    
+    Combat Aid
+    ----------
+    Using the Genesis Specials system, we simply set the combat aid
+    and all other calculations are set. Impale has been set on its own
+    to a combat aid of 65%. In addition, a wound of 10% combat aid will
+    be applied for every successful hit using Impale, giving the
+    special a total of 75%.
+        
+    Combat aid for DA attacks also depend on their promotion level. They
+    start at 90% of their maximum at recruit. Every successive level grants
+    an extra 5%, with Officers and above having 100%.
+        
+    Frequency
+    ---------
+    Impale can be performed on average once every 15 seconds. There
+    is a 7 second preparation time, followed by a 8 second cooldown
+    time. It uses the Genesis Specials, so the timings of these are
+    randomized.
+    
+    Hit chance
+    ----------
+    Tohit is set to be 95. This is calculated to be 84% hit chance
+    according to 'man cb_tohit'.
+    
+    Penetration
+    -----------
+    Penetration is calculated using the person's strength and dex 
+    weighted twice, and their wisdom. The dragonarmy attack skill
+    is also used. Of course, penetration also depends on the weapon's 
+    pen.
+
+    Everything else is calculated by the Genesis Specials system.
+    
+  DRAGON BREATH
+  ~~~~~~~~~~~~~
+    Files: /d/Ansalon/guild/dragonarmy/specials/dragon_breath.c
+
+    Members of the Dragonarmy why have been gifted with a child of Takhisis
+    will be able to summon them to assist in combat. During the combat, 
+    they can motion to their dragon to deliver a breath attack.
+    
+    Blue dragons have a lightning breath attack. Red dragons have a flame
+    breath attack. The lightning breath attack only affects the person
+    that the DA member is attacking, whereas the flame breath attack
+    affects all enemies presently in the room.
+        
+    Combat Aid
+    ----------
+    Using the Genesis Specials system, we simply set the combat aid
+    and all other calculations are set. Blue Dragonarmy members have
+    greater control of their dragons than Red Dragonarmy members. As
+    a result, BDA dragons have 15% combat aid max, while RDA dragons
+    have 10% combat aid.
+        
+    Combat aid for DA attacks also depend on their promotion level. They
+    start at 90% of their maximum at recruit. Every successive level grants
+    an extra 5%, with Officers and above having 100%.
+        
+    Frequency
+    ---------
+    Dragon Breath can be used every 20 seconds (4 rounds). There is a 
+    12 second preparation time, and an 8 second cooldown time on average.
+    It uses the Genesis Specials, so the timings of these are randomized.
+    
+    Hit chance
+    ----------
+    Tohit is set to be 95. This is calculated to be 84% hit chance
+    according to 'man cb_tohit'.
+    
+    Penetration
+    -----------
+    Penetration is calculated using the person's strength and dex 
+    weighted twice, and their discipline. The dragonarmy attack skill
+    is also used. The weapon pen is always 40. Dragons breath is also
+    MAGIC_DT, making it penetrate armour. They way to protect against
+    it is to have magic protection.
+
+    Everything else is calculated by the Genesis Specials system.
+
+  DRAGON SWOOP
+  ~~~~~~~~~~~~~
+    Files: /d/Ansalon/guild/dragonarmy/specials/dragon_swoop.c
+
+    Members of the Dragonarmy why have been gifted with a child of Takhisis
+    will be able to summon them to assist in combat. During the combat, 
+    they can motion to their dragon to deliver a swooping attack. This is
+    especially useful when their foes have protected themselves from
+    magical attacks.    
+        
+    Combat Aid
+    ----------
+    Using the Genesis Specials system, we simply set the combat aid
+    and all other calculations are set. Blue Dragonarmy members have
+    greater control of their dragons than Red Dragonarmy members. As
+    a result, BDA dragons have 15% combat aid max, while RDA dragons
+    have 10% combat aid.
+        
+    Combat aid for DA attacks also depend on their promotion level. They
+    start at 90% of their maximum at recruit. Every successive level grants
+    an extra 5%, with Officers and above having 100%.
+        
+    Frequency
+    ---------
+    Dragon Swoop can be used every 20 seconds (4 rounds). There is a 
+    12 second preparation time, and an 8 second cooldown time on average.
+    It uses the Genesis Specials, so the timings of these are randomized.
+    
+    Hit chance
+    ----------
+    Tohit is set to be 95. This is calculated to be 84% hit chance
+    according to 'man cb_tohit'.
+    
+    Penetration
+    -----------
+    Penetration is calculated using the person's strength and dex 
+    weighted twice, and their discipline. The dragonarmy attack skill
+    is also used. The weapon pen is at worst 40. If the player is
+    wield ing a better weapon than that, then the query_best_wielded_weapon
+    function will be called and used instead.
+
+    Everything else is calculated by the Genesis Specials system.
+
+  DRAGON FEAR
+  ~~~~~~~~~~~
+    Files: /d/Ansalon/guild/dragonarmy/specials/summon_strike_dragon.c
+    
+    Officers and above in the Dragonarmy have the ability to summon
+    a dragon and reduce the defence of their enemies. This ability can
+    only be used outdoors while one is in combat. 
+    
+    Combat Aid
+    ----------
+    Based on internal tests of changes to defence and parry, a reduction
+    in combat aid of 9% occurs when defence and parry are reduced by 10.
+    Yet because this ability cannot always be active, especially when
+    indoors, we charge the ability only 5% combat aid.
+    
+    Duration
+    --------
+    The length of time that the dragon is around is dependent on the
+    rank stat of the player. The higher their rank stat, the longer
+    the dragon stays around. Since for every summoning, it takes 5 seconds
+    for the dragon to come, the longer the dragon stays, the less
+    non-fear time that there is.
+    
+    Restrictions
+    ------------
+    Dragonfear does not stack for the DA. That means that if there is
+    already one dragon providing dragonfear, a second dragon does
+    not make the effect any worse.
+    
+  INTIMIDATE (BDA only)  
+  ~~~~~~~~~~~~~~~~~~~~~
+    Files: /d/Ansalon/guild/dragonarmy/specials/intimidate.c
+           /d/Ansalon/guild/dragonarmy/specials/intimidate_obj.c
+           /d/Ansalon/guild/dragonarmy/specials/intimidate_sh.c
+    
+    Intimidate is essentially a dragon fear effect, but indoors. It
+    uses a different mechanism than the magical presence of a dragon.
+    Instead, the DA member calls curses upon their opponents. While
+    they are indoors, they feel the fear effect.
+    
+    Combat Aid
+    ----------
+    Combat aid provided is same as dragon fear, which is 5%.
+    
+    Duration
+    --------
+    The fear effect lasts for a minute, or until the person walks
+    outside. A DA member can intimidate someone every 5 seconds. This
+    will always be less of an effect than dragonfear, since dragonfear
+    affects everyone at once.
+        
+    Restrictions
+    ------------
+    Intimidate can only be used Indoors. Like Dragonfear, it cannot stack
+    with other intimidate effects from other members.
+    
+  AUTO-IMPALE (RDA only)
+  ~~~~~~~~~~~~~~~~~~~~~~
+    Files: /d/Ansalon/guild/dragonarmy/specials/auto_impale.c
+           /d/Ansalon/guild/dragonarmy/specials/auto_impale_stun.c
+   
+    Autoimpale is the ability for the Dragonarmy member to quickly turn
+    their weapon against an attacking enemy. After scoring a successful
+    attack, the opponent is momentarily stunned.
+    
+    Duration
+    --------
+    The attack is instantaneous. There are various checks involved in
+    whether the attack will succeed. If the player is in combat, a dex
+    check will be made to see if they can do such a movement while
+    already fighting someone else. After the autoimpale, there is a
+    120 second cooldown.
+    
+    Combat Aid
+    ----------
+    The combat aid for the actual attack is 5%. The subsequent stun that
+    occurs is also set at 5% combat aid for a total of 10% combat aid.
+
+    Hit chance
+    ----------
+    Tohit is set to be 110. This is calculated to be 90% hit chance
+    according to 'man cb_tohit'.
+    
+    Penetration
+    -----------
+    Penetration is calculated using the person's strength, dexterity, and 
+    their wisdom. The dragonarmy attack skill is also used. Of course
+    the weapon pen is also part of the calculation.
+
+    Everything else is calculated by the Genesis Specials system.
+    
+  SUMMON DRAGONSTEED
+  ~~~~~~~~~~~~~~~~~~
+    Dragonarmy members of sufficient rank are given the opportunity to
+    transport themselves using the children of Takhisis. They possess a
+    brass horn which they can blow. When they do so, a dragonsteed will
+    make their way towards them.
+    
+    The dragon steed is an alternate form of transportation, and they
+    are only available to Officers and higher (those with promotion level
+    of 2 or higher).
+    
+    Dragonsteeds are regular Krynn dragons, and thus will cause dragon
+    fear. It is possible that an entire team can be paralyzed if the
+    team members do not have sufficient rank. The steed allows for the
+    summoner plus one other to mount the dragon and fly to certain
+    predetermined locations and back. Because it can return back to the
+    summoned location, a dragonarmy member can transport whole teams
+    to a destination by flying back and forth one at a time.
+    
+    Restrictions
+    ------------
+    - Can only be summoned outside
+    - Summoner must be able to see in the room
+    - Only other livings allowed while summoning are other dragonarmy
+      members.
+    - Summoner must wait for the dragon to arrive.
+    
+    Change of Success
+    -----------------
+    Chance of successfully summoning a dragon depends on ones animal
+    handling skill. If ones skill is higher than 40 + random(30) then
+    the dragon comes to the summoner's call.
+    
+    Cost
+    ----
+     Summoning a dragonsteed takes 200 mana points. Without sufficient mana,
+     it will simply reduce the mana to 0, and notify the player that it
+     is not a success.
+
+    Duration
+    --------
+    Summoning a dragon takes 30 seconds on average. It uses the Genesis
+    specials system, so the timing is a bit random.
+    
+    After mounding a dragon, the flight time is:
+         (120 - ((RANK-2)*20) + random(60 - ((RANK-2)*10))) seconds
+    where RANK is promotion level of summoner (can be 2,3,4).
+
+    Locations
+    ---------
+    These are the locations that the dragonsteed can go to. For the most
+    up to date list, one should look at the file:
+        /d/Ansalon/guild/dragonarmy/dragons/dragon_manager.c
+    
+    Sanction	: /d/Ansalon/taman_busuk/sanction/room/city/tower_roof
+	Neraka	    : /d/Ansalon/taman_busuk/neraka/inner/tower_roof
+	Solamnia    : /d/Krynn/solamn/splains/room/plain22
+	Flotsam	    : /d/Ansalon/balifor/flotsam/room/landing
+	Pax Tharkas	: /d/Krynn/pax/tharkas/court_yard/court_yard2
+	Solace	    : /d/Krynn/solace/lake/room/lake11
+	Icewall	    : /d/Krynn/icewall/forest/forest_5
+	Mithas	    : /d/Ansalon/goodlund/nethosak/forest/room/forest51
+    Sparkle     : /d/Genesis/start/human/wild2/peninsula
+
+    For non-Officers
+    ----------------            
+    A new wyvern trainer has been added to: 
+        /d/Ansalon/taman_busuk/room/city/tower_roof
+    
+    The trainer will sell wyverns to rank 1+.  Wyverns can fly to the same
+    locations as dragons, but take longer.  They cannot be summoned, but
+    they will sit on the ground and wait for their owner to return.  They
+    can also be killed.
+  
+Petros, March 2009

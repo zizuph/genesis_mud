@@ -1,0 +1,53 @@
+main
+::MAPDATA::
+portico 13 6
+foyer 13 8
+classrm 9 10
+corr11 13 10
+recept 17 10
+mastrnov 5 12
+corr12 9 12
+sacris 13 12
+corr18 17 12
+captngrd 21 12
+library1 1 14
+corr13 5 14
+antermw 9 14
+sanct 13 14
+anterme 17 14
+corr17 21 14
+chapel 25 14
+library2 5 16
+corr14 9 16
+hiercham 13 16
+corr16 17 16
+armoury 21 16
+library3 9 18
+corr15 13 18
+talis 17 18
+stair1 13 20
+::MAPDATA::
+     ==================
+     Temple of Dephonia
+     ==================
+
+                       ^
+             |        /|\
+   ^         o       //|\\
+  /|\        |         |
+ //|\\       o
+   |         |
+         o - o - o
+           /   \
+     o - o   o   o - o     |\                       /|
+       /     |     \       | \                     / |
+ o - o - o - o - o - o - o |  \                   /  |
+   \   \     |     /       |   \_________________/   |
+     o   o   o   o - o      \  | [] []  ^  [] [] |  /
+       \   \   /             \ | [] [] | | [] [] | /
+         o   o - o            \|_[]_[]_| |_[]_[]_|/
+             |                      _________
+            [ ]                    |_________|
+                                   |_________|
+                                   |_________|
+                                   |_________|

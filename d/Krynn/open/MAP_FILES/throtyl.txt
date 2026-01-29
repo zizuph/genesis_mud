@@ -1,0 +1,285 @@
+main
+::MAPDATA::
+throtyl-5-0-f 37 11 forest
+throtyl-6-0-f 37 11 forest
+throtyl-7-0-f 37 11 forest
+throtyl-8-0-f 37 11 forest
+throtyl-9-0-f 37 11 forest
+throtyl-4-1-f 37 11 forest
+throtyl-5-1-f 37 11 forest
+throtyl-6-1-f 37 11 forest
+throtyl-7-1-f 37 11 forest
+throtyl-8-1-f 37 11 forest
+throtyl-9-1-f 37 11 forest
+throtyl-10-1-f 37 11 forest
+throtyl-4-2-P 37 11 forest
+throtyl-5-2-1 37 11 forest
+throtyl-6-2-f 37 11 forest
+throtyl-7-2-f 37 11 forest
+throtyl-8-2-f 37 11 forest
+throtyl-9-2-f 37 11 forest
+throtyl-10-2-f 37 11 forest
+throtyl-4-3-f 37 11 forest
+throtyl-5-3-f 37 11 forest
+throtyl-6-3-1 37 11 forest
+throtyl-7-3-f 37 11 forest
+throtyl-8-3-f 37 11 forest
+throtyl-9-3-f 37 11 forest
+throtyl-10-3-f 37 11 forest
+throtyl-5-4-f 37 11 forest
+throtyl-6-4-f 37 11 forest
+throtyl-7-4-f 37 11 forest
+throtyl-8-4-1 37 11 forest
+throtyl-9-4-f 37 11 forest
+throtyl-9-5-2 37 11 forest
+throtyl-10-6-2 37 11 forest
+throtyl-9-5-2 38 12 moors
+throtyl-10-6-2 38 12 moors
+throtyl-11-7-3 38 12 moors
+throtyl-12-8-3 38 12 moors
+throtyl-13-9-3 38 12 moors
+throtyl-13-10-4 38 12 moors
+throtyl-14-11-4 38 12 moors
+throtyl-10-7-m 38 12 moors
+throtyl-10-8-m 38 12 moors
+throtyl-10-9-m 38 12 moors
+throtyl-10-10-m 38 12 moors
+throtyl-9-8-m 38 12 moors
+throtyl-9-9-m 38 12 moors
+throtyl-9-10-m 38 12 moors
+throtyl-8-9-m 38 12 moors
+throtyl-8-10-m 38 12 moors
+throtyl-11-8-m 38 12 moors
+throtyl-11-9-m 38 12 moors
+throtyl-12-6-v 38 12 moors
+throtyl-12-7-m 38 12 moors
+throtyl-12-9-m 38 12 moors
+throtyl-13-6-v 38 12 moors
+throtyl-13-5-T 38 12 moors
+dragon_lair 38 12 moors
+throtyl-13-7-m 38 12 moors
+throtyl-13-8-m 38 12 moors
+throtyl-14-5-v 38 12 moors
+throtyl-14-6-m 38 12 moors
+throtyl-14-7-m 38 12 moors
+throtyl-14-8-m 38 12 moors
+throtyl-14-9-m 38 12 moors
+throtyl-15-5-m 38 12 moors
+throtyl-15-6-m 38 12 moors
+throtyl-15-7-m 38 12 moors
+throtyl-15-8-m 38 12 moors
+throtyl-15-9-m 38 12 moors
+throtyl-15-4-E 38 12 moors
+throtyl-8-11-K 38 12 moors
+joinroom 38 12 moors
+keep_shop 38 12 moors
+throtyl-15-12-4 39 13 mountains
+throtyl-15-13-5 39 13 mountains
+throtyl-15-14-5 39 13 mountains
+throtyl-16-15-5 39 13 mountains
+throtyl-16-16-5 39 13 mountains
+volcano_side 39 13 mountains
+volcano_cave 39 13 mountains
+::MAPDATA::
+                                              _                    _____     
+                                            ,/ \                  /    /     
+                                     __     |   \,    ,     ,    `\_^_\      
+                                   _/  \  _/`    |  _/|    /|__     _ '      
+                        __      __/    / |       / /  |   /_  /    / \_      
+                        \ \    /^    [] _|      / /  /`     |/     \   \     
+             ,_          \ |  |^  Kalaman`     /_/  /       '       []Mithas 
+             | \         /^ [] ^           ^        |              /___/     
+             |^@\    Palanthas^      ^    ^        /'              ____      
+             | ^@\       |  ^        ^    ^   ^^  /                \  /      
+     __     /`  ^@|      | ^  []     ^       ^^   |                /__\      
+    /^^\    \  ^@ |      | Vingaard  @   ^^ Neraka|/\              `  '      
+   /^^^^\    \___/       |  Keep       ^^^^[ ]    '  \                     
+   \^^^^^|                \ ^      @  ^  ^           |           ,           
+  |\|@__/    _____,        |    ^  @   ,[ ]^^^       |        __/|           
+  |@_/      /     |        |   ^  @@ __|Sanction_  _ `\  _/\_/   |           
+  |/       /@ ^   |        |____/\__/   _/` ^^ | \/ |  []`       |           
+           |@^|\_/                     /   ^^^ |__  \ Flotsam,/| |           
+           | @|___           ____      |  ^^^   ,/   \       | | |           
+           '\_@  /          /    \ { } |  ^ ^   |Port []    /   \|           
+              \_/         ,/  ^  |     '\ ^  ^  Balifor\___/     '           
+                     Solace []   |   _   |^  ^    \                
+          ---            / @@   /   | \  \         \         { }  
+          \_/        New Ports[]    |  |_|          \__    
+                        | @@@  \  ,/'           Kurinost[]           
+                       / @@@@@  \_|                 @@@@@@@\                 
+                      / @@ ^  [] Pax Tharkas      @@@@@@@@@ |
+                     |  ^ ^  ^  ^                   @@@@@@@/
+                    /    ^^^  ^                     ___/
+                    \      ^  ^ []^ Thorbardin     /
+
+::NEWMAP::
+forest
+::MAPDATA::
+throtyl-5-0-f 17 3
+throtyl-6-0-f 25 3
+throtyl-7-0-f 33 3
+throtyl-8-0-f 41 3
+throtyl-9-0-f 49 3
+throtyl-4-1-f 9 6
+throtyl-5-1-f 17 6
+throtyl-6-1-f 25 6
+throtyl-7-1-f 33 6
+throtyl-8-1-f 41 6
+throtyl-9-1-f 49 6
+throtyl-10-1-f 57 6
+throtyl-4-2-P 9 9
+throtyl-5-2-1 17 9
+throtyl-6-2-f 25 9
+throtyl-7-2-f 33 9
+throtyl-8-2-f 41 9
+throtyl-9-2-f 49 9
+throtyl-10-2-f 57 9
+throtyl-4-3-f 9 12
+throtyl-5-3-f 17 12
+throtyl-6-3-1 25 12
+throtyl-7-3-1 33 12
+throtyl-8-3-f 41 12
+throtyl-9-3-f 49 12
+throtyl-10-3-f 57 12
+throtyl-5-4-f 17 15
+throtyl-6-4-f 25 15
+throtyl-7-4-f 33 15
+throtyl-8-4-1 41 15
+throtyl-9-4-f 49 15
+throtyl-9-5-2 49 18
+throtyl-10-6-2 57 21
+::MAPDATA::
+
+               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+             @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+         @@@@@@@                                     @@@@@@
+      @@@@@@                                            @@@      ^      /\
+      @@@                                                @@@    / \    /  \
+      @@@                                                  @@@ /   \  /    \
+      @@@@@@@@@@@@@@@        THE STORMSHIRE FOREST         @@ /      Northern
+                   @@@                                     @@/  Dargaard Mountains
+   -- -- o -- -- o   @@@                                     @@@        /\
+                   `,   @@@@@@@@@@@@@                        @@@   /\  /  \
+      @@@@@@@@@@@@@   `,           @@@                       @@@  /  \
+      @@@          @@@   o -- -- o   @@@                    @@@  /    \__
+      @@@             @@           `,   @@@                @@@  /     /  \
+      @@@@@@            @@@@@@@@@@@   `,   @@@        @@@@@@  __     /    \
+          @@@@@@                   @@@   o    @      @@@@@@  /  \
+             @@@@@@@@@@@@@@@@@@@@@@@@@     `,    @@@@@@@    /    \/\
+               @@@@@@@@@@@@@@@@@@@@@          `,           /     /  \
+                                                 o        /     /    \
+                                                   `,          /      \
+                                                _     `, 
+                                      /\       / \       o
+                                     /  \     /   \        `,
+                        /Southern Dargaard Mountains          `, Throtyl
+                       /  \     ^  /      \/  \    /\              Gap
+
+
+::NEWMAP::
+moors
+::MAPDATA::
+throtyl-9-5-2 28 6
+throtyl-10-6-2 34 9
+throtyl-11-7-3 41 12
+throtyl-12-8-3 48 15
+throtyl-13-9-3 55 18
+throtyl-13-10-4 55 21
+throtyl-14-11-4 61 24
+throtyl-10-7-m 34 12
+throtyl-10-8-m 34 15
+throtyl-10-9-m 34 18
+throtyl-10-10-m 34 21
+throtyl-9-8-m 27 15
+throtyl-9-9-m 27 18
+throtyl-9-10-m 27 21
+throtyl-8-9-m 19 18
+throtyl-8-10-m 19 21
+throtyl-8-11-K 19 24
+throtyl-11-8-m 41 15
+throtyl-11-9-m 41 18
+throtyl-12-6-v 48 9
+throtyl-12-7-m 48 12
+throtyl-12-9-m 48 18
+throtyl-13-5-T 55 6
+dragon_lair 52 6
+throtyl-13-6-v 55 9
+throtyl-13-7-m 55 12
+throtyl-13-8-m 55 15
+throtyl-14-5-v 62 6
+throtyl-14-6-m 62 9
+throtyl-14-7-m 62 12
+throtyl-14-8-m 62 15
+throtyl-14-9-m 62 18
+throtyl-15-4-E 69 3
+throtyl-15-5-m 69 6
+throtyl-15-6-m 69 9
+throtyl-15-7-m 69 12
+throtyl-15-8-m 69 15
+throtyl-15-9-m 69 18
+joinroom 13 26
+keep_shop 13 25
+::MAPDATA::
+        @@@@            The           @@@         ^ /\
+        @@@@@@@@  Stormshire Forest  @@@@    /\ ^  /  \/\
+               @@     @@@@@@@   @@@@@@      /  \  /   /  \
+               _  @  @@  @@@@  @@@@    /\  / Northern Dargaard        
+     /\       / \   @@      @@@@@     /  \/   Mountain Range
+    / Southern   \        `,         /    \                      .v.
+ Dargaard Mountain   /\     o          ^    ^   /\ :^:                
+  /    Range \ ^  /\          `,   /\    /\   ^
+ /  ^     \      /  \^  /\      `,      /  \                  .v.
+         /\ ^    ^     /  \       o    ^              .v.             
+    _   /  \            Throtyl     `,         .v.                 .v.
+   / \ /    \  /\         Gap         `,                     .v.
+  /   \      \                           o    .v.                     
+   /\                        .v.           `,         The Moorlands
+  /  \/\  ^                         .v.      `,         of Throtyl
+ /   /  \                                       o                     
+                      .v.                         `,      .v.      
+                                 .v.       .v.      `,           .v.
+                                                       o              
+                                                       | .v.
+                          .v.           .v.       ^    |       ^
+            .v.                                        o   ^    __  /\
+                                               /\  _     `,    /  \   ___
+            |\_          .v.           /\__       / \      `,        /   \
+            |%%|                      /  \ \   /\      /\    o
+            |%%|                              /  \    /  \     `,   ^   /\
+            |%%|  East Keep     /\     ^     /    \              `,    /  \
+
+::NEWMAP::
+mountains
+::MAPDATA::
+throtyl-15-12-4 29 3
+throtyl-15-13-5 29 6
+throtyl-15-14-5 29 9
+throtyl-16-15-5 36 12
+throtyl-16-16-5 36 17
+volcano_side 48 12
+volcano_cave 48 12
+::MAPDATA::
+
+                        `,    to the moorlands of Throtyl
+                          `,
+          /\                 o      __  /\
+  /\                         |     /  \               /\
+                /\           |            /\
+      /\       /  \ /\       o
+     /  \     /    /  \      |        TAMAN BUSUK         /\
+    /   The                  |       MOUNTAIN RANGE      /  \
+    Seven Spires   /\        o                          /    \
+  /\   /\     /\  /ii\  %   %  `,      /\       ^^^'
+ /  \  /\    /  \/    \   %   %  `,   /  \     ^    \
+      /  \  /   /      \/\  %  %    o         // i/  \
+           /           /  \   %  %  |    /\  /        \  ##
+   /\         /\      /    \    % % |   /  \           \/ii\
+  /  \       /  \       /\\ /\  % % |  /    \  __      /    \
+ /    \            /\  /   \    % % |   /\    /  \    /      \
+           ##     /  \/  ^ \'   % % o  /  ^  ^  i\\
+          ^^^^   /   /       \  % % |      //      \
+         ^/   \     //    \   \ % % |     /    /    \
+        /   /  ',              /\%  |    /           \
+       // ___ \  \            /  \  |
+                                     to Sanction
+                                

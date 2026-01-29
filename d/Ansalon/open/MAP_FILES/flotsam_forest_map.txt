@@ -1,0 +1,493 @@
+main
+::MAPDATA::
+roada 26 6 farmland
+roadb 26 6 farmland
+roadc 26 6 farmland
+roadd 26 7 farmland
+roade 26 7 farmland
+patha 27 6 farmland
+pathb 27 6 farmland
+pathc 27 6 farmland
+pathd 27 6 farmland
+pathe 27 6 farmland
+pathf 27 6 farmland
+farm1 27 6 farmland
+stable 27 6 farmland
+farm2 27 6 farmland
+farm_room1 27 6 farmland
+fireplace 27 6 farmland
+hall 27 6 knightfarm
+new_office 27 6 knightfarm
+hall1 27 6 knightfarm
+hall2 27 6 knightfarm
+hall3 27 6 knightfarm
+hall4 27 6 knightfarm
+hall5 27 6 knightfarm
+hall6 27 6 knightfarm
+hall7 27 6 knightfarm
+hall8 27 6 knightfarm
+hall9 27 6 knightfarm
+hall10 27 6 knightfarm
+hall11 27 6 knightfarm
+hall12 27 6 knightfarm
+hall13 27 6 knightfarm
+hall14 27 6 knightfarm
+hall15 27 6 knightfarm
+road1 26 7 flotsamforest
+road2 26 7 flotsamforest
+road3 27 8 flotsamforest
+road4 28 8 flotsamforest
+road5 28 8 flotsamforest
+road6 29 9 flotsamforest
+road7 30 9 flotsamforest
+road8 30 9 flotsamforest
+road9 30 9 flotsamforest
+road10 31 10 flotsamforest
+road11 31 10 flotsamforest
+road12 32 11 flotsamforest
+road13 32 11 flotsamforest
+road14 26 8 flotsamforest
+road15 26 8 flotsamforest
+road16 26 9 flotsamforest
+bridge 33 11 flotsamforest
+path1 23 9 flotsamforest
+path2 23 9 flotsamforest
+path3 23 9 flotsamforest
+path4 23 9 flotsamforest
+path5 23 9 flotsamforest
+clearing 23 9 flotsamforest
+tree 23 9 flotsamforest
+lair 23 9 flotsamforest
+forest1s 29 10 flotsamforest
+forest2s 29 10 flotsamforest
+forest3s 29 10 flotsamforest
+forest4s 29 10 flotsamforest
+forest5s 29 10 flotsamforest
+forest6s 29 10 flotsamforest
+forest7s 29 10 flotsamforest
+forest8s 29 10 flotsamforest
+forest9s 29 10 flotsamforest
+forest10s 29 10 flotsamforest
+forest11s 29 10 flotsamforest
+forest12s 29 10 flotsamforest
+forest13s 29 10 flotsamforest
+forest14s 29 10 flotsamforest
+forest15s 29 10 flotsamforest
+forest16s 29 10 flotsamforest
+forest17s 29 10 flotsamforest 
+f1 33 9 flotsamforest
+f2 33 9 flotsamforest
+f3 33 9 flotsamforest
+f4 33 9 flotsamforest
+f5 33 9 flotsamforest
+f6 33 9 flotsamforest 
+f7 33 9 flotsamforest
+f8 33 9 flotsamforest
+f9 33 9 flotsamforest
+f10 33 9 flotsamforest
+f11 32 10 flotsamforest
+f12 32 10 flotsamforest
+f13 32 10 flotsamforest
+f14 32 10 flotsamforest
+f15 32 10 flotsamforest
+f16 33 9 flotsamforest
+traila 34 11 flotsamforest
+trailb 34 11 flotsamforest
+trailc 34 11 flotsamforest
+under_bridge 34 11 flotsamforest
+troll_lair 34 11 flotsamforest
+traild 35 12 kenderracial
+r1 35 12 kenderracial
+r2 35 12 kenderracial
+joinroom 35 12 kenderracial
+train_room 35 12 kenderracial
+r3 35 12 kenderracialguild
+r4 35 12 kenderracialguild
+sleep 35 12 kenderracialguild
+cubby 35 12 kenderracialguild
+board 35 12 kenderracialguild
+g11 34 9 centaurglade1
+g12 34 9 centaurglade1
+g13 34 9 centaurglade1
+g14 34 9 centaurglade1
+g15 34 9 centaurglade1
+g16 34 9 centaurglade1
+g17 34 9 centaurglade1
+c1 34 9 centaurglade1
+g21 30 12 centaurglade2
+g22 30 12 centaurglade2
+g23 30 12 centaurglade2
+g24 30 12 centaurglade2
+g25 30 12 centaurglade2
+g26 30 12 centaurglade2
+g27 30 12 centaurglade2
+c2 30 12 centaurglade2
+g31 30 12 centaurglade3
+g32 30 12 centaurglade3
+g33 30 12 centaurglade3
+g34 30 12 centaurglade3
+g35 30 12 centaurglade3
+g36 30 12 centaurglade3
+g37 30 12 centaurglade3
+c3 30 12 centaurglade3
+g41 34 9 centaurglade4
+g42 34 9 centaurglade4
+g43 34 9 centaurglade4
+g44 34 9 centaurglade4
+g45 34 9 centaurglade4
+g46 34 9 centaurglade4
+g47 34 9 centaurglade4
+c4 34 9 centaurglade4
+::MAPDATA::
+                     / ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                    : ~~~~~~~~~~Blood Bay ~~~~~~~~~~~~~~   ;:  ~~
+             ^     ' ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ,.--_--' /  ~~
+                  : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ :        :'  ~~
+              @    ` ~~~ Flotsam ~~~~~~~~~~~~~~~ .'         '. ~~
+       &      @@    . ~ '[o].  ~~ :\_.'. ~~ ,..,/    ___/    / ~~
+     .         @@    `_`  |  `   .      \..'    ,_. /       : ~~~
+     ~`:        @@@       |   ._'                  V  Dairy `: ~~
+     ~~ ._        @@@ @@@ |\_ @@@@@@@@@@@@@@@@@    :\ Plains ' ~~
+     ~~~  '          @@@@ | @\_ @@@@@@@@@@@@@@@@   '~`      : ~~~
+     ~~~~  `  -       @@@ | @@ \@ Kendermore @@@@ :~~~`:    ': ~~
+     ~~~~  '             /  @@@ \___[o] @@@@@@@@ / ~~~ /    , ~~~
+     ~~~~~  `   -  -  o /     @@@@@@@@@@@@@@@@@ ' ~~~  :    : ~~~
+     ~~~~~  '          |         @@@@@@@@@     /~~~~~~ `._.'.~~~~
+     ~~~~   :  -  -    |        __  @@@@@     / ~~~~~~~~~~~~~~~~~
+     ~~~~   ,         /   - -     \\  @@@      ~~~~~~~~~~~~~~~~~~
+     ~~~~~   `   -   /             |\ @     .' ~~~~~~~~~~~~~~~~~~
+     ~~~~~~   :     /       -      |~\   ,,. ~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~    [o] Port            ;~~:_ .' ~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~   .   Balifor        . ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~   '                 ' ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~   :    ,__ .      ..' ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~  '`--  ~~ ` ...'  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~~~~~  ~~~~~~~   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~~~ Bay of Balifor ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+::NEWMAP::
+farmland
+::MAPDATA::
+roada 27 6
+roadb 27 10
+roadc 27 14
+roadd 27 18
+roade 27 22
+patha 33 10
+pathb 39 10
+pathc 43 7
+pathd 45 10
+pathe 49 10
+pathf 39 14
+farm1 46 8
+stable 37 15
+farm2 42 16
+farm_room1 44 16
+fireplace 46 16
+::MAPDATA::
+
+                        Flotsam
+
+     *^^^^^^^^^^^^^^^^===  |  ===^^^^^^^^^^^^^*      
+     |                   \ | /                |      
+      ..v . .. v..         |       ..v  ..  .                    
+                           o                  ___ 
+                           |   %%%%%       o / \_\
+              %%%%%%       |     %%%%%    /  |#| |
+                %%%%%%     |             /
+                           o --- o --- o --- o     /%\
+           %%%%%%%%        |       \
+               %%%%%%%%    |        \   %%%%%%    
+                           |  %%%%   \    %%%%%%
+                           o    %%%  _ o  _____
+                           |        |#|  / \___\
+                           |           ~ |n|o o|
+                           |
+                           o
+                           |
+                           |
+                           |
+                           o
+     @@@@@@@@@@@@@@        |         @@@@@@@@@@@@@@@
+   @@@@@@@@@@@@@@@@@@@@    |       @@@@@ forboding @@@@@@@@
+   @@@@@@@@@@@@@@@@@@@@@   |   @@@@@@@ evergreen forest @@@@@@@
+   @@@@@@@@@@@@@@@@@@@@@@     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     
+
+::NEWMAP::
+knightfarm
+::MAPDATA::
+hall 36 5
+new_office 32 5
+hall1 32 3
+hall2 32 1
+hall3 36 1
+hall4 40 1
+hall5 40 3
+hall6 36 7
+hall7 32 7
+hall8 32 9
+hall9 28 9
+hall10 32 11
+hall11 40 11
+hall12 44 9
+hall13 40 7
+hall14 40 9
+hall15 36 3
+::MAPDATA::
+
+                                o   o   o
+                                  \ | /
+          Knight's Circle       o---o---o
+           -= Flotsam =-            |
+                                o---u
+                                    |
+                                o   o   o
+                                | /   \ |
+                            o---o       o---o  
+                                |       | 
+                                o       o  
+
+
+::NEWMAP::
+flotsamforest
+::MAPDATA::
+road1 27 6
+road2 27 9
+road3 30 9
+road4 33 9
+road5 36 9
+road6 39 12
+road7 42 15
+road8 45 15
+road9 48 15
+road10 51 18
+road11 54 21
+road12 57 24
+road13 60 24
+road14 27 12
+road15 27 15
+road16 27 18
+bridge 63 24
+under_bridge 63 24
+troll_lair 63 24
+path1 24 13
+path2 22 15
+path3 20 12
+path4 15 14
+path5 11 12
+clearing 8 10
+lair 5 10
+tree 7 9
+forest1s 30 12
+forest2s 30 15
+forest3s 30 18
+forest4s 33 18
+forest5s 33 15
+forest6s 33 12
+forest7s 36 12
+forest8s 36 15
+forest9s 36 18
+forest10s 39 18
+forest11s 42 18
+forest12s 39 21
+forest13s 39 24
+forest14s 42 24
+forest15s 45 24
+forest16s 45 21
+forest17s 42 21
+f1 42 12
+f2 42 9
+f3 45 12
+f4 45 9
+f5 45 6
+f6 48 9 
+f7 48 6
+f8 51 6
+f9 51 9
+f10 51 12
+f11 54 18
+f12 54 15
+f13 57 15
+f14 57 18
+f15 57 21
+f16 48 12
+traila 65 25
+trailb 66 26
+trailc 67 27
+::MAPDATA::
+
+                        Road to
+   @@@@..@@@@@@@@@@     Flotsam       @@@@@@@@@@@@@@@
+  @@@@@@@@@@@@@@@@@@@@@    |       @@@@@ forboding @@@@@@@@@@@@@@@@@
+ @@@@@@@@..@@@@@@@.@@@@@   |   @@@@@@@ evergreen forest @@@@@@@@@@@@@@@@@@@@
+ @@@@@@@@@@@@@@@@@@@@@@@@  |  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ @@     @@@&@@@@&&@@@@.@@  o  @@@@@@@@@@@@@@@.@@.@@.@@@@@@@@@@@@@@@@@@@@   @@@
+ @  &&&   &&@@@&&&&@@@@@@  |\  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @@@@@@
+ @ &\|&&  @&&&&&&@@@@&&@@  | \        @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ @ &\|/&  &&&&&@@.&&&..@@  o  o--o--o  @@@.@@.@@.@@.@@@@@@@@@@  @@@@@@@@@@@@@@
+ @@ }}{ . @@&&&&&&&&&@@&@  |         \  @@@@@@@@@@@@@@@@@@@@@@ @ @@@@@@@@@@@@@
+ @@       &@&&&&@@&&&&&@&  |  @@@@@@@ \  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ @&&&&&..@&.&&&&&@&.@&&&&  o  .@@.@@.  o  .@@.@@.@@.@@@@@@@@@@@@@@@@@@@@@@ ~ @ 
+ @@&&      @&&&&&@@@@&&&.  |  @@@@@@@@  \  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@ ~ @@@
+ @& dark and &&.@&&&&@&&&  |  @@@@@@@@@  \        @@@@@@@@@@@@@@@@@@@@@ ~ @@@@
+ && twisted &@&&&&@&&&.&&  o  .@@.@@.@@@  o--o--o  @@@.@@.@@@@@@@@@@@@ ~ @@@@@
+ &&& forest &&&&&@@&&&&&@  |  @@@@@@@@@@@        \  @@@@@@@@@@@@@@@@ ~~ @@@@@@
+ @&&&      &&&&,@&&&&@&&&  |  @@@@@@@@@@@@@@@@@@  \  @@@@@@@@@@@@@ ~~ @@@@@@@@
+ @@@&&&&@@@@@..&&&@@@@&&&  o  .@@.@@.@@.@@.@@@@@@  o  .@@.@@@@@@ ~~ @@@@@@@@@@
+  @@@@@@@@@@@@@@@@@@@@@@   |  @@@@@@@@@@@@@@@@@@@@  \  @@@@@@@@ ~~ @@@@@@@@@@@
+  @@@@.@@@@@@@@@..@@@@@@   |  @@@@@@@@@@@@@@@@@@@@@  \  @@@@@@  ~~ @@@@@@@@@@@
+  @@@@@@@@@.@@@@@@@@@@@@   |  @@@@@@@@@.@@.@@.@@@@@@  o  .@@@  ~~ @@@@@@@@@@@@
+   @..@@@@@@@@@@@@@@@@           @@@@@@@@@@@@@@@@@@@@  \  @@  ~~ @ Road to   @
+  @@@@@@@@@@@@@@..@@@    Road to @@@@@@@@@@@@@@@@@@@@   \    .===. Kendermore           
+    @@@@     @@@@@@@     Port    @@@@@@.@@.@@.@@@@@@@@@  o--o- o - - - - - - -     
+                         Balifor    @@@@@@@@@@@@@@@@@@@      .===,   &&&  @@@@
+                                      @@@@@@@@@@@@@@@@@@@@@@   ~~ . &&|&& @@@@
+                                          @@@@@@@@@@@@@@@@@@@   ~~ .&\|/& @@@@
+                                                @@@@@@@@@@@@@@@  ~~ .}}{  @@@@
+
+::NEWMAP::
+kenderracial
+::MAPDATA::
+traild 13 17
+r1 15 15
+r2 15 12
+joinroom 12 12
+train_room 18 12
+::MAPDATA::
+
+          # #### ####                          
+        ### \/#|### |/####                 
+       ##\/#/ \||/##/_/##/_#
+     ###  \/###|/ \/ # ###
+   ##_\_#\_\## | #/###_/_####          -= Kender racial guild =-
+  ## #### # \ #| /  #### ##/##            -= (tree house) =-
+   __#_--###`  |{,###---###-~
+             \ }{
+              }}{               .-=====================================-.
+              }}{               | @ Greygem of Gargath shard (joinroom) |
+              { }               | u entry to tree house                 |    
+        , - @ {u} t             | t training yard                       | 
+         .   \ | /              .-=====================================-.
+      ~~~ \   \|/
+       ~~~ \   o
+        ~~~ \ /  
+         ~~~ o
+          ~~~ \
+           ~~~ \
+
+::NEWMAP::
+kenderracialguild
+::MAPDATA::
+r3 51 6
+r4 17 7
+sleep 15 9
+cubby 21 7
+board 15 5
+::MAPDATA::
+
+              @@@
+            @@@@@@@@                     
+           @      @@@                      
+          @@ board @@@@                        &&&&&&&&&
+         @@    o      @@@   Kender             &&&   &&&  Kender
+        @@@     \  @@@@@@@  tree house         &&& u &&&  book room
+       @@@@@@@   d - o shop (upper level)      &&&   &&&  (lower level)
+           @@@@ /  @@                          &&&&&&&&&
+         @@@   o  @@@@@
+           @ start @
+            @@@@@@
+              @@
+
+::NEWMAP::
+centaurglade1
+::MAPDATA::
+g11 24 8
+g12 26 6
+g13 23 6
+g14 21 4
+g15 28 4
+g16 23 2
+g17 26 2
+c1 25 4
+::MAPDATA::
+
+                  @@@@@@@@@@@@@@ 
+                  @@@@ o--o @@@@
+                  @@@ / \  \ @@@    -= centaur glade =-
+                  @@ o   o  o @@
+                  @@@ \    / @@@
+                  @@@@ o--o @@@@
+                  @@@@@@ / @@@@@
+                  @@@@@ o @@@@@@
+                  @@@@ / @@@@@@@
+
+::NEWMAP::
+centaurglade2
+::MAPDATA::
+g21 28 2
+g22 26 8
+g23 23 8
+g24 21 6
+g25 28 6
+g26 23 4
+g27 26 4
+c2 25 6
+::MAPDATA::
+
+                   @@@@@@@ \ @@@
+                   @@@@@@@@ o @@
+                   @@@@@@@ / @@@
+                   @@@ o--o @@@@
+                   @@ / \  \ @@@    -= centaur glade =-
+                   @ o   o  o @@
+                   @@ \    / @@@
+                   @@@ o--o @@@@
+                   @@@@@@@@@@@@@
+
+::NEWMAP::
+centaurglade3
+::MAPDATA::
+g31 21 2
+g32 26 6
+g33 23 6
+g34 21 4
+g35 28 4
+g36 23 2
+g37 26 2
+c3 25 4
+::MAPDATA::
+                
+                  @ \ @@@@@@@@@ 
+                  @@ o o--o @@@
+                  @@ |/ \  \ @@     -= centaur glade =-
+                  @@ o   o  o @
+                  @@@ \    / @@
+                  @@@@ o--o @@@
+                  @@@@@@@@@@@@@
+
+::NEWMAP::
+centaurglade4
+::MAPDATA::
+g41 24 8
+g42 26 6
+g43 23 6
+g44 21 4
+g45 28 4
+g46 23 2
+g47 26 2
+c4 25 4
+::MAPDATA::
+
+                  @@@@@@@@@@@@@@ 
+                  @@@@ o--o @@@@
+                  @@@ / \  \ @@@    -= centaur glade =-
+                  @@ o   o  o @@
+                  @@@ \    / @@@
+                  @@@@ o--o @@@@
+                  @@@@@@ / @@@@@
+                  @@@@@ o @@@@@@
+                  @@@@ / @@@@@@@
+
+

@@ -1,0 +1,28 @@
+
+Sparkle Considerations:
+
+ - Consistent descriptions of geography
+ - Consistent descriptions of city layout
+ - Consistent implementation of city features:
+    - Architecture
+    - Street signs (with names of streets)
+ - Sewers beneath the city
+ - Rooftops for all buildings accessible to certain players
+ - Npc features
+    - All have names and introduce
+    - All respond to questions on
+        - Other city npcs
+        - Genesis
+        - Sparkle City
+        - Surrounding region
+        - Other domains
+ - Quests
+    - One newbie quest for each major city location (inn, arms, etc)
+    - One major quest that encorporates elements from all over the city
+ - Create a dynamic situation for anti-combat status
+    - The city militia patrols the place, keeping it a no-combat zone
+    - If the militia are called away (fighting trolls, etc) then the
+      town becomes open to pvp.
+    - The militia is in town all but the first week of every month
+      (or somesuch)
+

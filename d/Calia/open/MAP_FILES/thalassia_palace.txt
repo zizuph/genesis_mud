@@ -1,0 +1,53 @@
+main
+::MAPDATA::
+bath 23 3
+palace_1_1 23 17
+palace_1_2 23 15
+palace_1_3 19 15
+palace_1_4 19 13
+palace_1_5 15 13
+palace_1_6 15 15
+palace_1_7 15 17 
+palace_1_8 19 17
+palace_1_9 27 15
+palace_1_10 27 13
+palace_1_11 31 13
+palace_1_12 31 15
+palace_1_13 31 17
+palace_1_14 27 17
+palace_1_15 23 13
+palace_2_1 23 7
+palace_2_2 19 7
+palace_2_3 15 7
+palace_2_4 15 5
+palace_2_5 15 3
+palace_2_6 19 3
+palace_2_7 19 5
+palace_2_8 23 5
+palace_2_9 27 5
+palace_2_10 27 3
+palace_2_11 31 3
+palace_2_12 31 5
+palace_2_13 31 7
+palace_2_14 27 7
+::MAPDATA::
+
+          /|=======================|\
+         / |    Second   Floor     | \
+        /  |         (___)         |  \
+       /   |                       |   \
+      (    |   o - o - O - o - o   |    )
+       \   |   | ------------- |   |   /
+        \  |  [o]- o - o - o -[o]  |  /
+         \ |                       | /   @~~~~~~~~~~~~~~~@
+          \|=======================|/     ) Royal Palace )
+                                         (      of      (
+          /|=========|   |=========|      )  Thalassia   )
+         / |         | | |         | \   @~~~~~~~~~~~~~~~@
+        /  |   o - o | o | o - o   |  \
+       /   |   |   | 0 | 0 |   |   |   \
+      (    |   A - o - o - o - o   |    )    A - Atlas
+       \   |   |   | 0 | 0 |   |   |   /
+        \  |  [o]- o | o | o -[o]  |  /
+         \ |         | | |         | /
+          \|=========|   |=========|/

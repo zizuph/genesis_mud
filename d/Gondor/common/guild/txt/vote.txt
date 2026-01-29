@@ -1,0 +1,11 @@
+
+Topic: vote
+
+Command:
+
+- vote <text>
+    Vote or comment on something under discussion. The votes can only be 
+    read by the guildmasters.
+
+See also: voting
+

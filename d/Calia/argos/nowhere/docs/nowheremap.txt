@@ -1,0 +1,41 @@
+
+A - Bank                        H - Houses (general location)
+B - Clerk                       I - Pub
+C - Chairman                    J - Post Office
+D - Treasury                    K - Store
+E - Treasurer (Guard Post)      L - Adventurer's Guild
+F - Alarm Controls (Hidden)     M - Visitor's Center (Boards)
+G - Mine Entrance               N - Forge
+
+
+                    H L H
+                      | 
+                    H O-\ K
+                      |  \|   : 
+                    M O H O H : A     B
+                    |/ H / \  : |    /
+                    O-\ I H O-:-O-O-O-C*D
+                       \    | :    \   /
+                     H  O-O-/ :     O-E F
+                       /  |   :      \  *
+                      N H J H :       O*
+                              :       |
+                                      O
+                                       \
+                                        G
+
+
+
+
+                                                
+
+
+
+
+
+
+
+
+
+
+

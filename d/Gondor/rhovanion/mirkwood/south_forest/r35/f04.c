@@ -1,0 +1,21 @@
+#include "../../defs.h";
+
+inherit MIRKWOOD_SOUTH_FOREST_DIR + "forest_edge";
+
+void create_mirkwood_south_forest_edge_room() {
+
+    set_max_spider_nest_size(0);
+    set_spider_nest_chance(0);
+
+    set_movement_difficulty(50);
+    add_mirkwood_exits(([
+        "southeast" : "r36/f05",
+        "southwest" : "r36/f03",
+        "south" : "r36/f04",
+        "east" : "r35/f05",
+        "north" : "r34/f04",
+        "northeast" : "r34/f05",
+        "west" : "r35/f03",
+    ]));
+    
+}

@@ -1,0 +1,102 @@
+main
+::MAPDATA::
+plains_1_1 1 7
+plains_2_1 5 7
+plains_3_1 9 7
+plains_4_1 13 7
+plains_5_1 17 7
+plains_6_1 21 7
+plains_7_1 25 7
+plains_8_1 29 7
+plains_9_1 33 7
+plains_10_1 37 7
+plains_11_1 41 7
+plains_12_1 45 7
+plains_13_1 49 7
+plains_1_2 1 9
+plains_2_2 5 9
+plains_3_2 9 9
+plains_4_2 13 9
+plains_5_2 17 9
+plains_6_2 21 9
+plains_7_2 25 9
+plains_8_2 29 9
+plains_9_2 33 9
+plains_10_2 37 9
+plains_11_2 41 9
+plains_12_2 45 9
+plains_13_2 49 9
+plains_14_2 53 9
+plains_2_3 5 11
+plains_3_3 9 11
+plains_4_3 13 11
+plains_12_3 45 11
+plains_13_3 49 11
+plains_14_3 53 11
+plains_3_4 9 13
+plains_4_4 13 13
+plains_5_4 17 13
+plains_13_4 49 13
+plains_14_4 53 13
+plains_3_5 9 15
+plains_4_5 13 15
+plains_5_5 17 15
+plains_14_5 53 15
+plains_4_6 13 17
+plains_5_6 17 17
+plains_6_6 21 17
+plains_13_6 49 17
+plains_14_6 53 17
+plains_5_7 17 19
+plains_6_7 21 19
+plains_13_7 49 19
+plains_14_7 53 19
+plains_11_8 41 21
+plains_12_8 45 21
+plains_13_8 49 21
+plains_14_8 53 21
+plains_11_9 41 23
+plains_12_9 45 23
+plains_11_10 41 25
+plains_12_10 45 25
+plains_10_11 37 27
+plains_11_11 41 27
+plains_12_11 45 27
+plains_7_12 25 29
+plains_8_12 29 29
+plains_9_12 33 29
+plains_10_12 37 29
+::MAPDATA::
+
+                                             ^
+                             ^       ^      /|\
+                            /|\     /|\    //|\\
+                           //|\\   //|\\     |
+                             |       |
+
+ o - o - o - o - o - o - o - o - o - o - o - o - o
+ | X | X | X | X | X | X | X | X | X | X | X | X | \
+ o - o - o - o - o - o - o - o - o - o - o - o - o - o -
+   \ | X | X | /                           \ | X | X | X
+~~   o - o - o          \|/                  o - o - o -
+ ~~~~  \ | X | \                               \ | X | X
+  ~~~~   o - o - o                               o - o -
+~~~~     | X | X |             \|/                 \ | X
+  ~~~~~  o - o - o                        \|/        o -
+ ~~~~~~~~  \ | X | \                               / | X
+   ~~~~~~~   o - o - o                           o - o -
+     ~~~~      \ | X |                 \|/       | X | X
+   ~~~~~~~       o - o                           o - o -
+         ~~~~~~            \|/                 / | X | X
+                                         o - o - o - o -
+                                         | X |
+                                         o - o
+                         \|/             | X |
+                                         o - o   \|/
+                                       / | X |
+                                     o - o - o
+                                   / | /
+                         o - o - o - o
+
+                       ~~~~~~~~~~~~~
+                   ~~~~~~~~~~~~~

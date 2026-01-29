@@ -1,0 +1,698 @@
+    : Apprentice
+Spell Class Level   : Class 3  -- Intermediate Spells
+Area of effect      : One Living
+Duration            : Instant Non-attack
+Somatic Component   : Thighbone
+Material Component  : Yellow Beryl
+Vocal Component     : No
+Tax                 : 0.57%
+
+Tax calculation:
+----------------
+Base tax for class 3 is 0.5% for occ spell.
+Missing verbal component: 150% normal cost.
+Component cost is >=1 gp        : -25%
+
+Tax: (0.5% * 1.5) * 0.75= 0.5625% ~ 0.57%
+                                    ====
+Mana calculation:
+Base mana for class 3 is 120-159, I pick 140
+Area of Effect - One object................................ x1
+Casting Time < 5 heartbeats................................ x1
+Duration instant (non-attack spell)........................ x0.7
+Difficulty (Routine)....................................... x1.0
+Components (no verbal)..................................... x1.5
+Components (>=1 gp value).................................. x0.8
+
+Mana: 140 * 1 * 1 * 0.7 * 1.0 * 1.5 * 0.8 = 117.6 ~ 118
+                                                    ===
+
+Metaballo (Convert Weapon)
+==========================
+Guild type          : Occupational
+Effect              : Creates a magical club from any magical weapon
+Spell Time          : 8 seconds
+Mana cost           : 360
+Vocal               : 0 
+Difficulty          : TASK_ROUTINE
+Peaceful            : No
+Stationary          : Yes
+Aquire Level        : Master
+Spell Class Level   : Class 4  -- Advanced spells
+Area of effect      : One Living
+Duration            : 59 minutes or 600 hits.
+Somatic Component   : Thighbone
+Material Component  : _metaballo_component_
+Vocal Component     : No
+Tax                 : 1.2%
+Combat Aid          : 38%
+
+Tax calculation:
+----------------
+Base tax for class 4 is 1% for occ spell.
+Missing verbal component: 150% normal cost.
+Component cost is >=1 gp        : -25%
+
+Tax: (1 * 1.5) * 0.75% = 1.125% ~ 1.2%
+                                  ====                         
+Mana calculation:
+Base mana for class 4 is 160-200, I pick 200
+Area of Effect - One object................................ x1
+Casting Time < 5 heartbeats................................ x1
+Duration > 10 minutes...................................... x1.5
+Difficulty (Routine)....................................... x1.0
+Components (no verbal)..................................... x1.5
+Components (>=1 gp value).................................. x0.8
+
+Mana: 200 * 1 * 1 * 1.5 * 1.0 * 1.5 * 0.8 = 360
+                                            ===
+Combat Aid Calculation:
+-----------------------
+100% Combat Aid = 280 damage per 6 seconds.
+1 second is 46.6666666666666666 damage for 100% combat aid
+
+We hit about once every 6 seconds with the weapon.
+It hits normal on non undeads.
+
+If target is undead, each time we hit, and not already preparing.
+After a delay of 9 seconds, we will do X damage and heal Y hp,
+where X+Y is atmost 270.
+
+So the time between hits is about 9+6 seconds = 15 seconds.
+
+This makes an extra 'damage' per second of: (270/15) = 18hp/sec
+
+Combat aid is: 
+
+100/46.666666 * 18 = 38.57 ~ 38% Combat aid.
+                             ===============
+Niktamati (Night Eyes)
+======================
+Guild type          : Occupational
+Effect              : Allows the target to see in the dark 1-5 levels
+Spell Time          : 6 seconds
+Mana cost           : 108
+Vocal               : 0 
+Difficulty          : TASK_ROUTINE
+Peaceful            : No
+Stationary          : No
+Aquire Level        : Apprentice
+Spell Class Level   : Class 2  -- Minor spells
+Area of effect      : One Living
+Duration            : 30-41 minutes
+Somatic Component   : Eye
+Material Component  : Black Onyx
+Vocal Component     : No
+Tax                 : 0.28%
+
+Tax calculation:
+----------------
+Base tax for class 2 is 0.25% for occ spell.
+Missing verbal component: 150% normal cost.
+Component cost is >=1 gp        : -25%
+
+Tax: (0.25 * 1.5) * 0.75% = 0.28125% ~ 0.28%
+                                       =====
+Mana calculation:
+Base mana for class 2 is 60-119, i pick 60
+Area of Effect - One object................................ x1
+Casting Time < 5 heartbeats................................ x1
+Duration > 10 minutes...................................... x1.5
+Difficulty (Routine)....................................... x1.0
+Components (no verbal)..................................... x1.5
+Components (>=1 gp value).................................. x0.8
+
+Mana: 60 * 1 * 1 * 1.5 * 1.0 * 1.5 * 0.8 = 108
+                                           ===
+
+Oneiro (Dream Walk)
+===================
+Guild type          : Occupational
+Effect              : Caster enters a dream world from which he can visit people
+                      but only to observe (kind of like a scry).
+Spell Time          : 6 seconds
+Mana cost           : 284
+Vocal               : 0 
+Difficulty          : TASK_ROUTINE
+Peaceful            : Yes
+Stationary          : Yes
+Aquire Level        : Elder
+Spell Class Level   : Class 3  -- Advanced spells
+Area of effect      : Object(living) in another room
+Duration            : Maximum 20 minutes
+Somatic Component   : Eye
+Material Component  : Glittering Diamond
+Vocal Component     : No
+Tax                 : 0.75%
+
+Tax calculation:
+----------------
+Base tax for class 3 is 0.5% for occ spell.
+Missing verbal component: 150% normal cost.
+Component cost is >=1 pp        : -50%
+Modifier for reducing mana cost x2.
+Tax: (0.5* 1.5) * 0.5% * 2 = 0.75%
+                             =====
+Mana calculation:
+Base mana for class 3 is 120-159 i pick 120
+Area of Effect - Object in another room.................... x3
+Casting Time < 5 heartbeats................................ x1
+Duration > 10 minutes...................................... x1.5
+Difficulty (Routine)....................................... x1.0
+Components (no verbal)..................................... x1.5
+Components (>=1 pp value).................................. x0.7
+Reduction by increased x2 tax.............................. x0.5                                   
+
+Mana: 120 * 3 * 1 * 1.5 * 1 * 1.5 * 0.7 * 0.5 = 283.5 ~ 284
+                                                        ===
+
+Psychi (Spirit Talk)
+====================
+Guild type          : Occupational
+Effect              : Communicate with a person in another room
+Spell Time          : 2 seconds
+Mana cost           : 95
+Vocal               : 0 
+Difficulty          : TASK_SIMPLE
+Peaceful            : Yes
+Aquire Level        : Apprentice
+Spell Class Level   : Class 1  -- Very minor spells
+Area of effect      : Object(living) in another room
+Duration            : Instant - non combat
+Somatic Component   : No
+Material Component  : silver coin
+Vocal Component     : No
+Tax                 : 0.40%
+
+Tax calculation:
+----------------
+Base tax for class 1 is 0.1% for occ spell.
+Missing verbal component: 200% normal cost.
+Component cost is < 1 gp        : 0%
+Modifier for reducing mana x2.
+Tax: (0.1* 2) * 2 = 0.40%
+                    =====
+
+Mana calculation:
+Base mana for class 1 is 20-59 i pick 20
+Area of Effect - Object in another room.................... x3
+Casting Time < 6 seconds................................... x2
+Duration instant (non-attack spell)........................ x0.7
+Difficulty (Simple)........................................ x1.5
+Components (no verbal)..................................... x1.5
+Components (>=1 sp value).................................. x1.0
+Reduction by increased x2 tax.............................. x0.5 
+
+Mana: 20 * 3 * 2 * 0.7 * 1.5 * 1.5 * 1 * 0.5 = 95
+                                               ==
+
+
+Sfyri (Spiritual Hammer)
+========================
+Guild type          : Occupational
+Effect              : Summon a magical hammer to toss at enemy
+                      The hammer is quite useless for the first
+                      30 minutes or so, then it starts to be decent.
+                      So it got extended duration.
+Spell Time          : 6 seconds
+Throw time          : 4 seconds prepare time
+Delay after throw   : 14 seconds (disable casting too)
+Mana cost           : 192
+Vocal               : 0 
+Difficulty          : TASK_ROUTINE
+Peaceful            : Yes
+Stationary          : Yes
+Aquire Level        : Master
+Spell Class Level   : Class 4
+Area of effect      : One object
+Duration            : 55 - 95 minutes (when in use)
+Somatic Component   : kneecap
+Material Component  : _sfyri_component_
+Vocal Component     : No
+Tax                 : 2.25%
+Combat Aid          : 38%
+
+Tax calculation:
+----------------
+Base tax for class 4 is 1% for occ spell.
+Missing verbal component: 150% normal cost.
+Component cost is >=1 gp        : -25%
+Modifier for reduced mana x2.
+Tax: (1* 1.5) * 0.75 * 2 = 2.25%
+                           =====
+
+Mana calculation:
+Base mana for class 4 is 160-200 i pick 180
+Area of Effect - One object................................ x1
+Casting Time < 5 heartbeats................................ x1
+Duration > 1 hour.......................................... x2
+Difficulty (Routine)........................................x1.0
+Components (no verbal)..................................... x1.5
+Components (>=1 gp value).................................. x0.8
+Reduction by increased x2 tax.............................. x0.5
+ 
+Mana: 160 * 1 * 1 * 2 * 1.0 * 1.5 * 0.8 * 0.5 = 192
+                                                ===
+
+Combat Aid Calculation:
+-----------------------
+100% Combat Aid = 280 damage per 6 seconds.
+1 second is 46.6666666666666666 damage for 100% combat aid
+
+
+You can throw the hammer every 11+random(6) ~ 14 seconds
+It takes 3+random(2) to throw it ~ 4 seconds.
+
+When it hits, it does an average of 459 damage when hitting the cap set(see values below for average calculation)
+
+So it does about: 459/18 = 25.5 damage per second.
+The combat aid from the hammer is: 25.5/46.66666666 * 100 = 54.64 ~ 55% combat aid.
+The damage done is W_BLUDGEON and not MAGIC_DT like before.
+
+Metaballo can be used together with this hammer at the same time.(38% combat aid)
+But apergo, and other spells have a delay. If you have tossed the hammer,
+you can not cast a damage or heal spell until you are ready to toss the hammer again.
+If you cast one of those spells, they also have a delay to match their combat aid.
+And you cant throw the hammer until you have recovered the delay from casting those spells.
+
+Values used for the average calculation:
+
+429,640,507,669,554,219,94,354,371,528,602,605,364,419,279,465,52,322,
+286,617,480,644,496,467,307,397,388,189,316,373,491,696,567,565,378,
+786,716,712,277,549,350,369,673,579,544,379,360,354,518,592,514,480,
+293,498,417,708,307,496,221,485,463,318,507,587,341,348,644,335,398,
+405,439,433,586,426,365,372,404,445,441,527,354,369,439,342,482,270,
+230,332,382,496,528,591,733,563,294,597,568,288,502,607,421,476,630,
+520,705,705,367,334,186,773,438,353,185,624,365,166,427,554,347,717,
+672,403,396,303,379,408,346,579,357,602,555,445,242,475,409,495,458,
+524,446,601,728,445,530,482,485,492,600,543,475,550,524,545,691,441,
+362,453,253,403,532
+
+Average: 459
+
+Siopi (Silence)
+===============
+Guild type          : Occupational
+Effect              : Silence the target
+Spell Time          : 6 seconds
+Mana cost           : 252
+Vocal               : 0 
+Difficulty          : TASK_ROUTINE
+Peaceful            : No
+Stationary          : No
+Aquire Level        : Apprentice
+Spell Class Level   : Class 3
+Area of effect      : One object
+Duration            : 10 - 30 seconds
+Somatic Component   : Tooth
+Material Component  : Lapis Lazuli
+Vocal Component     : No
+Tax                 : 0.57%
+
+Tax calculation:
+----------------
+Base tax for class 3 is 0.5% for occ spell.
+Missing verbal component: 150% normal cost.
+Component cost is >=1 gp        : -25%
+
+Tax: (0.5 * 1.5) * 0.75 = 0.5625 ~ 0.57%
+                                   ====
+
+Mana calculation:
+Base mana for class 3 is 120-159 i pick 140
+Area of Effect - One object................................ x1
+Casting Time < 5 heartbeats................................ x1
+Duration (attack spell with duration not instant).......... x1.5
+Difficulty (Routine)........................................x1.0
+Components (no verbal)..................................... x1.5
+Components (>=1 gp value).................................. x0.8
+
+Mana: 140 * 1 * 1 * 1.5 * 1.0 * 1.5 * 0.8 = 252
+                                            ===
+
+Skiamati (Shadow Eyes)
+======================
+Guild type          : Occupational
+Effect              : Allow caster to see invisible people
+Spell Time          : 6 seconds
+Mana cost           : 252
+Vocal               : 0 
+Difficulty          : TASK_ROUTINE
+Peaceful            : No
+Stationary          : No
+Aquire Level        : Master
+Spell Class Level   : Class 3
+Area of effect      : One object
+Duration            : 12 - 17 minutes
+Somatic Component   : Eye
+Material Component  : Amethyst
+Vocal Component     : No
+Tax                 : 0.57%
+
+Tax calculation:
+----------------
+Base tax for class 3 is 0.5% for occ spell.
+Missing verbal component: 150% normal cost.
+Component cost is >=1 gp        : -25%
+
+Tax: (0.5 * 1.5) * 0.75 = 0.5625 ~ 0.57%
+                                   ====
+
+Mana calculation:
+Base mana for class 3 is 120-159 i pick 140
+Area of Effect - One object................................ x1
+Casting Time < 5 heartbeats................................ x1
+Duration > 10 minutes...................................... x1.5
+Difficulty (Routine)........................................x1.0
+Components (no verbal)..................................... x1.5
+Components (>=1 gp value).................................. x0.8
+
+Mana: 140 * 1 * 1 * 1.5 * 1.0 * 1.5 * 0.8 = 252
+                                            ===
+
+
+Skiamorfi (Shadow Form)
+=======================
+Guild type          : Layman
+Effect              : Change short description,
+                      hide long description,
+                      evade ability,
+                      magical resistance
+Spell Time          : 6 seconds
+Mana cost           : 126 
+Vocal               : 0 
+Difficulty          : TASK_ROUTINE
+Peaceful            : Yes
+Stationary          : Yes
+Aquire Level        : Apprentice
+Spell Class Level   : Class 3
+Area of effect      : One object
+Duration            : 30 - 50 minutes
+Somatic Component   : Rib
+Material Component  : _skiamorfi_component_
+Vocal Component     : No
+Tax                 : 2.25%
+Combat Aid          : < 50%
+
+Tax calculation:
+----------------
+Base tax for class 3 is 1% for layman spell.
+Missing verbal component: 150% normal cost.
+Component cost is >=1 gp        : -25%
+Modifier x2 for reduced mana.
+
+Tax: (1 * 1.5) * 0.75 * 2 = 2.25%
+                            =====
+
+Mana calculation:
+Base mana for class 3 is 120-159 i pick 140
+Area of Effect - One object................................ x1
+Casting Time < 5 heartbeats................................ x1
+Duration > 10 minutes...................................... x1.5
+Difficulty (Routine)........................................x1.0
+Components (no verbal)..................................... x1.5
+Components (>=1 gp value).................................. x0.8
+Reduction by increased x2 tax.............................. x0.5 
+
+Mana: 140 * 1 * 1 * 1.5 * 1.0 * 1.5 * 0.8 * 0.5 = 126
+                                                  ===
+
+Combat Aid:
+-----------
+Using: 
+ success = (SW->resolve_task(TASK_DIFFICULT-100,
+              ({SKILL_WEIGHT, 35, TS_DEX,
+               SKILL_WEIGHT, 20, TS_WIS,
+               SKILL_WEIGHT, 35, TS_LAYMAN,
+               SS_SPELLCRAFT, SS_FORM_TRANSMUTATION}),
+               who, 
+               ({SS_AWARENESS, SS_APPR_MON,
+               SKILL_WEIGHT, 25, TS_INT, SKILL_WEIGHT, 70, TS_DEX SKILL_END})));
+
+Evade Percentage Calculation:
+
+Caster: 35*90/100 + 20*90/100 + 35*90/100 + 80 + 60 = 31.5 + 18 + 31.5 + 80 + 60 = 221
+Enemy : 50 + 50 + 25*95/100 + 70*95/100 = 100 + 23.75 + 66.5 = 190.25
+Mod_IF = 221 - 190.25 ~ 31.
+Targeting around 25% evade, executing:
+exec for (i=0; i<10000; i++) { a += (ME->resolve_task(TASK_DIFFICULT-100,
+                                    ({ SKILL_VALUE, 31 })) > 0);} return a;
+Shows that TASK_DIFFICULT-100 with Modif = 31, yiels just below 25%
+
+Rule of thumb says that combat aid is just below 2*evade.
+This means combat aid is just below 50% combat aid.
+
+Syskotisi (Confusion)
+=====================
+Guild type          : Occupational
+Effect              : Confuse Target every 20 seconds
+                      for 5 minutes, with a 66% chance.
+                      It can make the target attack
+                      fellow team member, switch enemy
+                      target, short attack_delay (6+random(6))
+                      or make him walk randomly a couple of rooms.
+Spell Time          : 6 seconds
+Mana cost           : 216
+Vocal               : 0 
+Difficulty          : TASK_ROUTINE
+Peaceful            : No
+Stationary          : No
+Aquire Level        : Master
+Spell Class Level   : Class 3
+Area of effect      : One object
+Duration            : Atmost 5 minutes
+Somatic Component   : Skull
+Material Component  : iridescent opal
+Vocal Component     : No
+Tax                 : 0.57%
+
+Tax calculation:
+----------------
+Base tax for class 3 is 0.5% for occ spell.
+Missing verbal component: 150% normal cost.
+Component cost is >=1 gp        : -25%
+
+Tax: (0.5 * 1.5) * 0.75 = 0.5625 ~ 0.57%
+                                  =====
+
+Mana calculation:
+Base mana for class 3 is 120-159 i pick 120
+Area of Effect - One object................................ x1
+Casting Time < 5 heartbeats................................ x1
+Duration (attack spell with duration not instant).......... x1.5
+Difficulty (Routine)........................................x1.0
+Components (no verbal)..................................... x1.5
+Components (>=1 gp value).................................. x0.8
+
+Mana: 120 * 1 * 1 * 1.5 * 1.0 * 1.5 * 0.8 = 216
+                                            ===
+
+Tharos (Reduce Panic)
+=====================
+Guild type          : Occupational
+Effect              : Reduces the panic of the target
+Spell Time          : 6 seconds
+Mana cost           : 101
+Vocal               : 0 
+Difficulty          : TASK_ROUTINE
+Peaceful            : No
+Stationary          : No
+Aquire Level        : Tharos
+Spell Class Level   : Class 3
+Area of effect      : One object
+Duration            : Instant no combat
+Somatic Component   : Skull
+Material Component  : iridescent opal
+Vocal Component     : No
+Tax                 : 0.57%
+
+Tax calculation:
+----------------
+Base tax for class 3 is 0.5% for occ spell.
+Missing verbal component: 150% normal cost.
+Component cost is >=1 gp        : -25%
+
+Tax: (0.5 * 1.5) * 0.75 = 0.5625 ~ 0.57%
+                                   =====
+
+Mana calculation:
+Base mana for class 3 is 120-159 i pick 120
+Area of Effect - One object................................ x1
+Casting Time < 5 heartbeats................................ x1
+Duration instant (non-attack spell)........................ x0.7
+Difficulty (Routine)........................................x1.0
+Components (no verbal)..................................... x1.5
+Components (>=1 gp value).................................. x0.8
+
+Mana: 120 * 1 * 1 * 0.7 * 1.0 * 1.5 * 0.8 = 100.8 ~ 101
+                                                    ===
+
+Therapeaou (Cure Wounds)
+========================
+Guild type          : Occupational
+Effect              : Heals living, harms undead
+Spell Time          : 6 seconds
+Delay Between Casts : 5 seconds
+Mana cost           : 77
+Vocal               : 0 
+Difficulty          : TASK_ROUTINE
+Peaceful            : No
+Stationary          : No
+Aquire Level        : Master
+Spell Class Level   : Class 4  -- Advanced spells
+Area of effect      : One object
+Duration            : Instant
+Somatic Component   : Heart
+Material Component  : Pearl
+Vocal Component     : No
+Tax                 : 2.25%
+Combat Aid          : 60% - 100%
+
+Tax calculation:
+----------------
+Base tax for class 4 is 1% for occ spell.
+Missing verbal component: 150% normal cost.
+Component cost is >=1 gp        : -25%
+Modifier x2 for reduced mana.
+
+Tax: (1 * 1.5) * 0.75 * 2 = 2.25%
+                            =====
+
+Base mana for class 4 is 160-200 i pick 160
+Area of Effect - One object................................ x1
+Casting Time < 5 heartbeats................................ x1
+Duration < 1 minute........................................ x0.8
+Difficulty (Routine)........................................x1.0
+Components (no verbal)..................................... x1.5
+Components (>=1 gp value).................................. x0.8
+Reduction by increased x2 tax.............................. x0.5 
+
+Mana: 160 * 1 * 1 * 0.8 * 1.0 * 1.5 * 0.8 * 0.5 = 76.8 ~ 77
+                                                         ==
+
+Combat Aid Calculation:
+-----------------------
+100% Combat Aid = 280 damage per 6 seconds.
+1 second is 46.6666666666666666 damage for 100% combat aid
+
+The spell takes 6 seconds to cast.
+Losing normal hits for 6 seconds while casting.
+Delay between casts 5 seconds.
+
+Max allowed heal or damage is: (6+6+5) * 46.67 ~ 793.
+
+(Damage uses hit_me, not heal_hp)
+
+If metaballo is active, heal can at most give 100-38% = 62% combat aid.
+
+(No need to deduct anything from sfyri since the delay after usages handles that.)
+
+
+Tihosskias (Shadow Wall)
+========================
+Guild type          : Occupational
+Effect              : Creates a Wall that drains con for any undead that
+                      walks through it.
+                      Makes evil people a little evil.
+                      There is a resolve task to decide if they get affected.
+                      Plus they have to choose to walk through it for any effect.
+Spell Time          : 6 seconds
+Mana cost           : 189
+Vocal               : 0 
+Difficulty          : TASK_ROUTINE
+Peaceful            : No
+Stationary          : No
+Aquire Level        : Elder
+Spell Class Level   : Class 4  -- Advanced spells
+Area of effect      : One object
+Duration            : Atmost 10 minutes
+Somatic Component   : Rib
+Material Component  : Black Diamond
+Vocal Component     : No
+Tax                 : 0.75%
+
+Tax calculation:
+----------------
+Base tax for class 4 is 1% for occ spell.
+Missing verbal component: 150% normal cost.
+Component cost is >=1 pp        : -50%
+
+Tax: (1 * 1.5) * 0.50 = 0.75%
+                        =====
+
+Base mana for class 4 is 160-200 i pick 180
+Area of Effect - One object................................ x1.0
+Casting Time < 5 heartbeats................................ x1.0
+Duration > 1 minute........................................ x1.0
+Difficulty (Routine)........................................x1.0
+Components (no verbal)..................................... x1.5
+Components (>=1 pp value).................................. x0.7
+
+Mana: 180 * 1.0 * 1.0 * 1.0 * 1.0 * 1.5 * 0.7 = 189
+                                                ===
+
+Vekpos (Turn Undead)
+====================
+Guild type          : Occupational
+Effect              : Makes an undead panic.
+                      Chance of dealing small damage at cast.
+Spell Time          : 6 seconds
+Delay Between Casts : 6 seconds
+Mana cost           : 126
+Vocal               : 0 
+Difficulty          : TASK_ROUTINE
+Peaceful            : No
+Stationary          : No
+Aquire Level        : Apprentice
+Spell Class Level   : Class 3  -- Intermediate Spells
+Area of effect      : One object
+Duration            : 30 - 59 seconds
+Somatic Component   : Skull
+Material Component  : Shining Bloodstone
+Vocal Component     : No
+Tax                 : 0.57%
+Combat Aid          : Atmost 100%
+
+Tax calculation:
+----------------
+Base tax for class 3 is 0.5% for occ spell.
+Missing verbal component: 150% normal cost.
+Component cost is >=1 gp        : -25%
+Modifier for reduced mana x2.
+
+Tax: (0.5 * 1.5) * 0.75 * 2 = 1.125% ~ 1.13%
+                                       =====
+
+Base mana for class 3 is 120-159 i pick 140
+Area of Effect - One object................................ x1.0
+Casting Time < 5 heartbeats................................ x1.0
+Duration (attack spell with duration not instant).......... x1.5
+Difficulty (Routine)........................................x1.0
+Components (no verbal)..................................... x1.5
+Components (>=1 gp value).................................. x0.8
+Reduction by increased x2 tax.............................. x0.5 
+
+Mana: 140 * 1.0 * 1.0 * 1.5 * 1.0 * 1.5 * 0.8 * 0.5 = 126
+                                                      ===
+Combat Aid Calculation:
+-----------------------
+100% Combat Aid = 280 damage per 6 seconds.
+1 second is 46.6666666666666666 damage for 100% combat aid
+
+Spell cast time = 6 seconds
+Loss of normal hits while casting = 6 seconds
+Delay between casts = 6 seconds
+
+Max allowed damage for apergo is: (6+6+6) * 46.67 = 840.06 ~ 840
+
+Damage Calculation:
+
+            success = MIN(200, success);
+            pen = 2 * success + 2*caster->query_skill(SS_OCCUP)+
+                                2*caster->query_skill(SS_SPELLCRAFT)+
+                                caster->query_skill(SS_ELEMENT_LIFE);
+              
+            pen = MIN(pen, 400);
+            pen = MAX(pen, 840);
+           
+            hitresult = do_harm_damage(caster, tar, pen);

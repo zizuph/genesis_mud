@@ -1,0 +1,98 @@
+Infidels are lead by Nochipa, a priestess of Alhpum, who is a 
+minor god, whose sphere is flight (he is usually represented 
+as a dove).
+
+Nochipa is a very charismatic woman who lead a group of people 
+in an unsanctioned, unorthodox rite of worship of Alphum. The 
+results of the ceremony were quite spectacular, and Nochipa 
+began attracting more people to her. But Nochipa turned away 
+all races but human, and refused to allow clerics to see or 
+participate in the rite.
+
+In the beginning, this created only mild consternation amongst 
+the clerics of Alphum. As Nochipa's following grew, however, it 
+became alarm, which soon spread to other clerics. Eventually the 
+Inquisitors were called, and Nochipa went into hiding.
+
+Those of Nochipa's followers who did not flee with her were 
+rounded up and questioned. From them, enough was learned that 
+Nochipa and all who followed her were named as heretics and given 
+a period of time to turn themselves in. When they did not, the 
+Hegemon declared them infidel.
+
+No one is certain what Nochipa's motives are, or why she accepts 
+only humans into her following. 
+
+=====
+How this involves the Catacombs:
+
+What if Nochipa has a secret agenda (unknown) and she enlisted 
+Cahor's (Goddess of Deception) aid in deceiving her followers. 
+Nochipa somehow pisses Cahor off, and now she has her minion,
+Mixcotoc, stationed outside the gates, requiring Nochipa's head
+of anyone living who wishes to enter.
+
+Nochipa lives down beneath the Bazaar, in a hideout with several
+of her followers. Some of her followers left spouses and children
+behind when they fled. 
+
+What if the player talks to the infidels, finds one who is look-
+ing for information in his/her spouse. The player gets the spouse 
+name, and goes looking at the tribunal. If they ask one of the 
+inquisitors the right name, the player gets this speel about that 
+one dying during interrogation. (Note: we can use NAME_TO_RANDOM
+to make it so that only certain infidel npcs will respond to 
+certain players based upon their names -- this makes it so that
+the infidel Rifkin with the spouse Jerri may be assigned to me,
+but you would get Egregus and his wife Poodle, thus making it
+impossible for you to 'cheat' using my previous experiences on the 
+quest).
+
+...so, the player, armed with this info, goes back to the infidel
+hideout, and tells the npc about his/her spouse. The npc then 
+moans to the player about how he needs to get into the catacombs, 
+but that the living can't get there, and even if they could, the
+gatekeeper won't let them pass. This is a hint to the player to
+figure out how to get onto the dead isle (ride in a coffin) and,
+once there, to look up the gatekeeper (who tells the player about 
+Nochipa's head, maybe gives the player something, like a cameo of
+Nochipa, ie, she looks like this). 
+
+So, player goes back to infidel and tells him that they need
+Nochipa's head (give the cameo?), and the infidel does a lot of 
+breast-beating...maybe even sends the player away so he can think. 
+Infidel tells player that Nochipa will be difficult to kill, so 
+they need all the help they can get. Committed to one betrayal, the 
+infidel tells you to bring him to Jadestone as proof that you have
+found the infidel hideout, and then she follows the player and the
+infidel to the hideout, where they kill Nochipa. Nochipa's head is
+cut off (we'll make it an autoloading object, so that the player
+doesn't necessarily have to do all this in one login, or worse yet,
+repeat it all), and the player has completed Part One of the 
+quest, killing two birds with one stone (helping Jadestone get rid
+of the infidels -- possible quest exp reward, and getting the head). 
+*clap*clap*
+
+Next part: player, with Nochipa's head in one hand and the infidel 
+in tow, goes thru the hassle of getting to the gatekeeper, and gives 
+over the head. Here we get a bit set and an exp reward. From here,
+a few things can happen. Perhaps the infidel runs off into the cata-
+combs and is never seen again. Perhaps the player helps the infidel
+find the spouse (difficult to do if it will take more than one login
+for the quest, as player would have to repeat all this in order to 
+get the infidel to follow him). Perhaps this simply opens a door into
+a new place with its own quest, like the mystery of the Seer and the
+Amanuensis.
+
+Either way, the build-up events certainly tie several elements in the
+bazaar up into a neat package.
+
+
+
+
+
+
+
+
+
+

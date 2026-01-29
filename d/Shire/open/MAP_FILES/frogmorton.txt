@@ -1,0 +1,84 @@
+main
+::MAPDATA::
+road01 44 10 frog1
+inn 44 10 frog1
+road02 44 10 frog1
+police 44 10 frog1
+road04 44 10 frog1
+road05 44 10 frog1
+road03 44 10 frog1
+giftshop 44 10 frog1
+po 44 10 frog1
+shop 44 10 frog1
+smial01 44 10 frog1
+smial01b 44 10 frog1
+smial01a 44 10 frog1
+smial01c 44 10 frog1
+smial02 44 10 frog1
+smial02b 44 10 frog1
+smial04 44 10 frog1
+smial04b 44 10 frog1
+smial04a 44 10 frog1
+smial04c 44 10 frog1
+smial04d 44 10 frog1
+
+::MAPDATA::
+
+                                  Annuminas
+                                      O ~~
+                 Hills of Evendium    |  ~~   +---------+
+                                      |   ~~  |THE SHIRE|
+                                       \   ~~ +---------+        Fornost
+                             Greenfields\   ~~                      o
+                                    o----\   ~~~                    |
+                                          \    ~~~                  |
+          ~~                       HOBBITON\     ~~~                |
+         ~~~          Greenholm       O     \      ~~~              |
+       ~~~~               o           |     |Frogmorton             |   BREE
+     GREY HAVENS       MICHEL DELVING |     o------===--------------+----O---
+   ~~~~~~O---------------------O------+*--\/   |  Brandywine        |
+  ~~~~~~~                      |Three Farthing |    Bridge          |
+ ~~~~~~~       \               |    Stone      o   ~~~     Barrow   |
+ ~~~~~          o         Hard o            Whitfurrows     Downs   |
+ ~~~    Rockfriends      bottle \----\            ~~~               |
+ ~~                                   \--------- ~~~ o--------------\
+ ~                                             ~~~  Sarn Ford        \
+          Blue Mountains                     ~~~                      \
+                                           ~~~                         \
+
+
+::NEWMAP::
+frog1
+::MAPDATA::
+road01 30 7
+inn 33 7
+road02 30 5
+police 27 5
+road04 30 3
+road05 33 3
+road03 27 3
+giftshop 27 1
+po 24 3
+shop 30 1
+smial01 26 7
+smial01b 24 7
+smial01a 24 6
+smial01c 24 8
+smial02 34 5
+smial02b 36 7
+smial04 37 3
+smial04a 37 1
+smial04b 37 2
+smial04c 49 2
+smial04d 49 3
+
+::MAPDATA::
+
++-------------------+      G  S       
+|      ~LEGEND~     |      |  |            
+| P - Police Dept   |  PO--o--o--o--|o|       
+| PO - Post Office  |         |        
+| I - Inn           |      P--o--|o|
+| G - Gift Shop     |         |
+| S - General Store |    |o|--o--I
++-------------------+                         

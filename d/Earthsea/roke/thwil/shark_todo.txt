@@ -1,0 +1,4 @@
+Uncomment the request in the board.c
+Uncomment asks and actions in monster/fisher.c
+Uncomment rope in a2.c
+Uncomment searching in monster/sheep.c

@@ -1,0 +1,50 @@
+domain,quest desc,group,bit,validation,arguments
+Calia,Sword of Light,0,0,default
+Calia,Calian Warriors Entrance Quest,0,1,false_unless_done
+Calia,Obelisk Quest,0,2,default
+Calia,Wolf Quest,0,3,default
+Calia,Spear Tour,0,4,default
+Calia,Mermaid Sea Quest,0,5,default
+Calia,Lucky Lure Quest,0,6,default
+Calia,Gourmet Club #1,1,0,always_false,1,0
+Calia,Gourmet Club #2,1,1,always_false,1,1
+Calia,Gourmet Club #3,1,2,always_false,1,2
+Calia,Gourmet Club #4,1,3,always_false,1,3
+Calia,Gelan Sightseeing Tour,1,4,default
+Calia,Gingerbread Quest,1,5,default
+Calia,Gelan Gopheroo,1,8,default
+Calia,Gelan Number Game,1,9,default
+Calia,Gelan Alchemist Potion,1,10,default
+Calia,Gelan Polymorph,1,11,default
+Calia,Garden Quest,1,12,default
+Calia,Fireball: Defeat Hailrocks,1,13,false_unless_done
+Calia,Fireball: Defeat Poison Arrows,1,14,false_unless_done
+Calia,Fireball: Defeat Tiger Sharks,1,15,false_unless_done
+Calia,Fireball: Defeat War Eagles,1,16,false_unless_done
+Calia,Fireball: Defeat All Scums,1,17,false_unless_done
+Calia,Dephonian Temple,2,0,default
+Calia,Satyr Quest,2,1,default
+Calia,Frog Quest,2,2,default
+Calia,Argos City Tour #1,4,19,sequential_bits,2,3,5,1
+Calia,Argos City Tour #2,4,19,sequential_bits,2,3,5,2
+Calia,Argos City Tour #3,4,19,sequential_bits,2,3,5,3
+Calia,Argos City Tour #4,4,19,sequential_bits,2,3,5,4
+Calia,Argos City Tour #5,4,19,sequential_bits,2,3,5,5
+Calia,Grotto Entrance,2,6,default
+Calia,Thalassian Gate,2,7,default
+Calia,Thalassian Administrator West,2,8,default
+Calia,Thalassian Administrator East,2,9,default
+Calia,Return Steering Wheel,2,10,default
+Calia,SCoP Guru Quest,2,11,in_guild,Spirit Circle of Psuchae
+Calia,Thalassian Aeria Staff Quest,2,12,false_unless_done
+Calia,Thalassian Diabrecho Staff Quest,2,13,false_unless_done
+Calia,Thalassian Gu Staff Quest,2,14,false_unless_done
+Calia,Thalassian Pyros Staff Quest,2,15,false_unless_done
+Calia,Cadets Join,3,0,always_false,3,0
+Calia,Cadets Rejoin,3,1,always_false,3,1
+Calia,Eldoral Horn,4,0,default
+Calia,Seer and the Lord,4,1,default
+Calia,Sword in the Stone,4,2,default
+Calia,Eye of the Beast,4,3,default
+Calia,Calian Guru Quest,in_guild,Calian warrior's guild
+Calia,Secret Tunnel Bit,4,5,always_false,4,5

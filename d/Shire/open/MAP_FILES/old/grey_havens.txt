@@ -1,0 +1,80 @@
+main
+::MAPDATA::
+pier3 4 0 grey_havens
+path3 8 0 grey_havens
+pier1 4 2 grey_havens
+path2 8 2 grey_havens
+pier2 4 4 grey_havens
+path1 8 4 grey_havens
+shore 8 6 grey_havens
+pier4 4 8 grey_havens
+path4 8 8 grey_havens
+pier5 4 10 grey_havens
+path5 8 10 grey_havens
+pier6 4 12 grey_havens
+path6 8 12 grey_havens
+pier7 4 14 grey_havens
+path7 8 14 grey_havens
+::MAPDATA::
+    O - O
+        |
+ 1  O - O
+        |
+    O - O
+        |
+ 2      O - Great East Road
+        |
+ 3  O - O     Shiplines:
+        |       1 - Tharbad
+    O - O       2 - Sparkle
+        |       3 - Pelargir
+    O - O       4 - To Gelan > Sparkle
+        |           Port MacDunn >
+ 4  O - O           Grey Havens
+::NEWMAP::
+grey_havens
+::MAPDATA::
+pier3 30 5
+path3 38 5
+pier1 30 8
+path2 38 8
+pier2 30 11
+path1 38 11
+shore 38 14
+pier4 30 17
+path4 38 17
+pier5 30 20
+path5 38 20
+pier6 30 23
+path6 38 23
+pier7 30 26
+path7 38 26
+::MAPDATA::
+
+                                   ===============
+                                     Grey Havens
+                                   ===============
+                ~ ~ ~ ~ ~
+     ~                        O ----- O
+        ~ ~ ~         ~~ ~ ~          |
+             ~ ~ ~                    |
+                      Tharbad O ----- O
+          ~ ~ ~                       |
+                                      |
+               ~ ~ ~ ~        O ----- O
+                                      |
+    ~ ~ ~ ~ ~         ~ ~ ~ ~         |
+                          Grey Havens O -- Great East Road
+           ~ ~ ~ ~                    |
+                      ~ ~             |
+                ~ ~  Pelargir O ----- O
+                                      |
+        ~ ~ ~ ~ ~       ~ ~           |
+               ~ ~ ~ ~        O ----- O
+                                      |
+                      ~ ~ ~ ~         |
+                              O ----- O
+              ~ ~ ~ ~ ~               |
+                                      |
+           Gelan > Sparkle >  O ----- O
+           Port MacDunn > Grey Havens

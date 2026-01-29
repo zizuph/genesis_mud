@@ -1,0 +1,85 @@
+This is a tentative tax document for the Elemental Worshippers of Calia.
+The old tax doc is at ~Calia/worshippers/tax_doc. The changes from the
+old guild include new spells coded to the standard of ~Genesis/newmagic,
+and slightly revised skill list now including a couple of new form skills
+and reduction in defence skill training.
+
+Skills Tax:
+
+Skill   Skill       Trainroom    Train   Max   Taxable   Type    Tax
+  #      Name        Location      To    Reg    Diff             
+=======================================================================
+  1     Polearm       board.c      50     30     20    Combat    .5  (Alien)
+ 24     Defence       board.c      30     20     10    Combat    .25 (Alien)
+ 30     Spellcraft    board.c      50     20     30    Magic     .5
+ 35     Enchantment   board.c      40      0     40    Magic     .67           
+ 36     Herbalism     board.c      60     20     40    Magic     .67
+ 40     Conjuration   board.c      40      0     40    Magic     .67
+ 41     Fire Spells   medroom.c    40     20     20    Magic     .33
+ 42     Air Spells    medroom.c    40     20     20    Magic     .33
+ 43     Earth Spells  medroom.c    40     20     20    Magic     .33
+ 44     Water Spells  medroom.c    40     20     20    Magic     .33
+109     Language      board.c      60     30     30    General   .5
+110     Awareness     board.c      60     30     30    General   .5
+                                                                -------
+Total:                                          350              5.58
+
+Spell Tax:
+
+Guidelines are rather loose so this will be a guesstimate. The exact 
+descriptions of the spells are in ~Calia/newworshippers/docs, with
+components, mana cost, location of code and any special requirements.
+
+I'll just go through spell by spell with quick recap of the spell 
+effect (see spell doc for exact formulas/effects) with tax estimate.
+
+Utility spells available to all guild members (2):
+
+ANEMOS: Tax for this member-to-member tell spell used to be 4%, but
+if my information is correct it can now be classified as a type 1
+spell with tax of 0.25%.
+
+APODOSI: This spell returns the caster to the Worshipper temple. It
+has significant restrictions: long casting time, no combat use, 
+precious component (gem that has a 15% chance of being consumed in
+casting). It is still a class 3 spell probably, I suggest 1% tax.
+
+Elemental summoning spells (4):
+
+The only significant ability of the elementals (they're mainly
+roleplaying tools) is the ability they have to turn into a damage
+shield for the caster. The damage shields for each element work
+differently, but they're still all rather similar in effect. So
+while all the elemental summoning spells (STOUS, KATARAKTAS,
+PSOTIA and CHOMA) could be classified as class 3 spells and thus
+being worth 4% tax all told, I feel that should be reduced to 3% due 
+to their essential similarity. 
+
+Special spells for each element (4):
+
+These four spells, one for each element, are only available to the 
+followers of each respective elemental god. So no Worshipper will 
+have access to more than one of these spells. A design goal therefore
+is that each of them should be worth the same amount of tax, so 
+everyone in the guild pays the same tax. 
+
+They're at the upper boundary probably of what can be considered 
+permissible in terms of power level for a layman guild spell. The 
+tax documentation doesn't seem to allow for more than 1% tax per 
+spell in a layman guild, but I think these are worth 2% each.
+
+EVIMERO: Haste spell affecting self, 40-100 LIVE_I_QUICKNESS bonus.
+DYNAMI: STR, CON and DIS boost affecting self, 10-30% bonus to stats.
+FLOGA: Bolt spell with pen from 250-450.
+ALEIPSO: Healing spell with heal amount of 200-400.
+
+So, tax summary:
+
+Skill tax:               5.58%
+Anemos spell:            0.25%
+Apodosi spell:           1.00%
+Summoning spells:        3.00%
+Special spell:           2.00%
+----------------------------- 
+Total:                  11.83% ~= 12%.
+

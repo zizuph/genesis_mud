@@ -1,0 +1,23 @@
+
+After Calmacil the Kings took the sceptre in names of the Numenorean or Adunaic tongue: 
+Ar-Adunakhor, Ar-Zimrathon, Ar-Sakalthor, Ar-Gimilzor, Ar-Inziladun. 
+Inziladun repented of the ways of the Kings and changed his name to Tal-Palantir 'The Farsighted'. 
+His daughter should have been the fourth Queen, Tar-Miriel, but the Kings nephew usurped the sceptre 
+and became Ar-Pharazon the Golden, last King of the Numenoreans.
+
+
+#define NUMEN_HOUSES2       ({ "Sul'adar", })
+#define NUMEN_HOUSES      ({ \
+                "Gimilzor",\
+                "Qu'aleild",\
+                "Vanimelde",\
+                "Pharazon",\
+                "Hurin",\
+                "El'maw'el",\
+                "Ryn'ess",\
+                "Ra'banuim",\
+                "Zimraphel",\
+                "Sakalthor",\
+                "Zimrathon",\
+                "Ministar",\
+                })

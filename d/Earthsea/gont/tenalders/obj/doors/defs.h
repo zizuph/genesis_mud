@@ -1,0 +1,2 @@
+#define CRYSTAL_KEY 1000004
+#define BRASS_KEY 123654

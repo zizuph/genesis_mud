@@ -1,0 +1,32 @@
+
+Palace Raid Command Descriptions:
+--------------------------------- 
+warriors -   lists Calian mortals in the game. 
+
+raidtest -   gathers together the krougs in the foothills into waiting rooms 
+             for a raid. This is the first command that should be used when 
+             you want to start a raid. 
+
+raidstr  -   sets the strength for a raid, i.e. the number of krougs that
+             will be involved in it. This must be less than or equal to 
+             the maximum kroug strength given to you by <raidtest>. 
+
+raidgroup -  sets the number of groups of krougs that there will be  
+             in the raid. Choose a smaller number of groups if you want 
+             to give more of a challenge. 
+
+raidwarn  -  sets the length of the warning period for the raid in minutes.   
+
+raidwhere -  lists where players and krougs are during a raid, if they are 
+             in the palace or crystalline road vicinity. 
+
+raidscore -  lists the current kill tallies of kroug slayers, i.e. how 
+             many of each type of kroug they have killed. 
+
+terminate -  terminates a raid. This can be done at any stage of an active 
+             raid (even while testing) if something goes wrong. It will get 
+             rid of the active krougs in stages. 
+
+raidreset -  after a raid has finished you need to use this command 
+             to reset all the raid variables. 
+

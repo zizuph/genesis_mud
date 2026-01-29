@@ -1,0 +1,28 @@
+main
+::MAPDATA::
+admin 31 7
+board_pri 23 10
+join 10 10
+matron_rm 44 7
+po 23 13
+shop 10 7
+shop2 34 13
+start 34 10
+train 44 10
+::MAPDATA::
+. . . . . . . . . . . . . . . . . . . . . . . . . . .  
+.                                                   .
+.                   Drow Guildhouse                 .
+.                   ===============                 .
+.                                                   .
+.                                                   .
+.       Shop              Membership - Matron Room  .
+.         |                   [ ]          [ ]      .
+.         |                   /                     .
+.    = Entrance - Discussions - Start - Training    .
+.                     [ ]        [ ]       [ ]      .
+.                      |          |                 .
+.                 Post Office Messengers            .
+.                     [ ]        [ ]                .
+.                                                   .
+. . . . . . . . . . . . . . . . . . . . . . . . . . .

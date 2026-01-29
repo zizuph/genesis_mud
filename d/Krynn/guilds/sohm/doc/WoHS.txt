@@ -1,0 +1,148 @@
+
+WoHS will be a seperate guild to the SoHM, although to join the WoHS you need 
+to have first reached a certain level of competence in the SoHM.
+
+The base code for the WoHS can be found in /d/Krynn/guilds/wohs/
+
+===============================================================================
+Wizards of High Sorcery
+===============================================================================
+
+The plan is that occupational SoHM will be able to take the Test to become a 
+Wizard of High Sorcery (WoHS) from level 9 (top level, Aspirant of High 
+Sorcery). At this point they will be able to access the Tower of Wayreth south 
+of Haven. 
+
+The Test will involve several things: A test of a mage's knowledge of magic, 
+problems that demand the casting of key spells that an initiate knows, a test 
+that cannot be solved by merely using magic, combat against someone that the 
+initiate knows as an ally, and combat against someone or something considerably 
+more powerful than the initiate. 
+
+Failing the Test results in death.
+
+Successfully completing the Test allows the SoHM becoming a WoHS, and also dictates 
+what branch of the WoHS they join - the White (good; alignment > 200) the Red 
+(neutral; 1000 > alignment < -1000) or the Black (Evil; alignment < 200). 
+
+The Test will essentially be the guild's guru quest.
+
+WoHS will (may? haven't decided completely yet) be occupational, with minimal 
+restrictions on layman class selections. 
+Dragonlance lore has a number of characters who have been WoHS as well as other 
+classes (e.g. Ariakas Red Dragon Highlord, warrior/WOHS; Feol-Thas White Dragon 
+Highlord, WoHS/fighter; Par Sailen's replacement at the head of the WoHS white order 
+was a WoHS/mariner).
+
+LEVELS
+Guild level is reset upon becoming a WoHS.
+
+1.  Lesser <colour> Wizard  [successful Test at level 9 SoHM]
+2.  Wizard of the Ninth <colour> Circle
+3.  Wizard of the Eighth <colour> Circle
+4.  Wizard of the Seventh <colour> Circle 
+5.  Wizard of the Sixth <colour> Circle
+6.  Wizard of the Fifth <colour> Circle
+7.  Wizard of the Fourth <colour> Circle
+8.  Wizard of the Third <colour> Circle
+9.  Wizard of the Second <colour> Circle
+10  Wizard of the First <colour> Circle
+11  Greater <colour> Wizard
+12  <Colour> High Wizard
+13  High Mage of the Order of the [colour] Robes
+
+
+Council titles: 
+Guild leader - Grand Master of the Tower of Wayreth [chosen from one of the Order leaders]
+Order leaders - Master/Mistress of the Order of the [colour] Robes
+
+ABILITIES
+Apart from slightly more skill levels in Arcane Study, and access to more spells, 
+WoHS benefit from the phases of the Krynn moons.
+
+There are three moons of magic - Solinari, the White Moon; Lunitari the Red Moon; 
+and Nuitari the Black Moon (whose aspect only Black Robe wizards can see).
+
+When a Wizard's moon is at High Sanction, they gain either increased effectiveness of 
+spells, reduced mana cost of spells, or removal of component requirements for certain s
+pells.  
+
+Multiple moons at high sanction provide enhanced number of benefits - one moon at High 
+Sanction one benefit; two moons two benefits etc.  Mind having all three moons at High 
+Sanction is a rarity.
+
+Can currently query the moon phases through /d/Krynn/common/clock/clock.c -> query_moon_phase(x), where x is either
+Solinari, Lunitari, or Nuitari.
+
+Phases are:
+#define MOON_PHASES      ({"full", "waning three quarter", \
+			   "waning half", "waning quarter", \
+			   "waning crescent", "new", \
+			   "waxing crescent", "waxing quarter", \
+			   "waxing half", \
+			   "waxing three quarter"})
+
+
+Skills:
+            
+Spellcraft         100
+Defence            60
+Transmutation      50*          
+Illusion           50*      
+Divination         50*      
+Enchantment        50*    
+Conjuration        50*    
+Abjuration         50*     
+Earth              50**  
+Air                50**     	
+Water              50**     		
+Fire               50**    
+'Arcane Focus'     100       
+
+* Can specialise in a form with an extra 50 points
+** Can specialise in an element with an extra 50 points
+
+Spell slots:
+
+Level     Spell-lvl-0   Spell-lvl-1   Spell-lvl-2   Spell-level-3  Spell-level-4  
+          (cantrip)       (minor)     (lesser)       (greater)      (advanced)       
+           
+1.            4		     4           2              1              -              
+2.            4		     4           3              1              -
+3.            4		     4           3              2              -
+4.            4		     4           4              2              -
+5.            4		     4           4              3              -
+6.            4		     4           4              3              1
+7.            4		     4           4              4              1
+8.            4		     4           4              4              2
+9.            4		     4           4              4              2
+10            4		     4           4              4              3
+11            4		     4           4              4              3
+12            4		     4           4              4              4
+13            4		     4           4              4              4           
+
+SKILL TAX 
+=========               
+Name                        Level Adv Mult  Tax     
+--------------------------- ----- --- ---- ----- 
+Spellcraft                   100   20  1.0   80
+
+Transmutation spells          50*  -   1.0   50      
+Illusion spells               50*  -   1.0   50      
+Divination spells             50*  -   1.0   50    
+Enchantment spells            50*  -   1.0   50      
+Conjuration spells            50*  -   1.0   50       
+Abjuration spells             50*  -   1.0   50   
+*specialisation               50   -   1.0   50
+       
+Fire spells                   50** 20  1.0   30       
+Air spells                    50** 20  1.0   30
+Water spells                  50** 20  1.0   30
+Fire spells                   50** 20  1.0   30
+**specialisation              50   -   1.0   50
+       
+Herbalism                     80   20  1.0   60      
+Alchemy                       50   20  1.0   30     
+Defence                       60   30  1.5   45
+
+Total: 735 / 60 = 12.25% 

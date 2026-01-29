@@ -1,0 +1,25 @@
+BITS - Listing of bits used
+---------------------------
+This file should contain a table with three columns: 
+    
+    * The group number
+    * The bit numbers
+    * The experience (if it is a quest) 
+    * A very brief description of what the bit is used for.
+
+If quests are binary coded, please explain the levels in the binary coding. Since this doc is for bit-listing, do _not_ add long quest descriptions here. Those should be in the QUESTS directory.  The ideal BITS file should have _one_ line per bit.
+
+
+GROUP   BIT     EXP     DESCRIPTION
+  1      1      1200    Quest - Collect eggs for farmer
+  1      2      1100    Quest - Find flower for farmer
+  1      3      2500    Quest - Get fruit for farmer's daughter
+  1      4      1000    Quest - Find the kidnapped infant in the Mere
+   
+
+The bits below are used in the bin bit example found in ~open/bit_quests/
+   4     1      100     Quest - binary bit quest example, Fred
+   4     1      100     Quest - binary bit quest example, Larry
+   4     1      100     Quest - binary bit quest example, Thomas
+   4     1      100     Quest - binary bit quest example, Curly
+   4     1      100     Quest - binary bit quest example, Chomper

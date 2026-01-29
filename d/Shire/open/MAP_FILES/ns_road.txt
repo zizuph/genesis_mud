@@ -1,0 +1,267 @@
+main
+::MAPDATA::
+fordwest 39 17 south
+forge 31 16 south
+inn 34 17 south
+lb01 34 17 south
+lb02 34 17 south
+lb03 34 17 south
+lb04 34 17 south
+lb05 34 17 south
+post 34 17 south
+road01 39 17 south
+road02 39 17 south
+road03 39 17 south
+road04 34 17 south
+road05 34 17 south
+road06 34 17 south
+road07 34 17 south
+road08 29 17 south
+road08a 29 17 south
+road08b 29 17 south
+road09 29 17 south
+road10 29 13 south
+road10a 29 17 south6
+road10b 29 17 south
+road10c 29 17 south
+road10d 29 11 south
+road11 29 13 north_south
+road12 29 11 north_south
+road13 29 11 north_south
+road14 29 11 north_south
+road15 29 11 north_south
+road16 29 11 north_south
+road17 29 11 north_south
+road18 29 11 north_south
+road19 29 11 north_south
+road20 29 11 north_south
+road21 29 11 north_south
+road22 29 11 north_south
+shop 31 16 south
+1_dining 31 16 burrow1
+1_front 31 16 burrow1
+1_kitchen 31 16 burrow1
+1_master 31 16 burrow1
+1_parlor 31 16 burrow1
+3_dining 31 16 burrow3
+3_front 31 16 burrow3
+3_front 31 16 burrow3
+3_kitchen 31 16 burrow3
+3_master 31 16 burrow3
+1_bedroom 31 16 burrow3
+5_bedroom 31 16 burrow5
+5_cellar 31 16 burrow5
+5_corridor 31 16 burrow5
+5_dining 31 16 burrow5
+5_front 31 16 burrow5
+5_kitchen 31 16 burrow5
+5_master 31 16 burrow5
+::MAPDATA::
+
+           +---------+
+           |THE SHIRE|
+~~~~~~~    +---------+
+~~~~~~~
+~~~~~~~                        Hobbiton
+~~~~~~~                           o                Fornost
+~~~~~~~           Michel          |     Frog-         ^
+~~~ Grey Havens  Delving  Waymeet |    morton         |
+~~~~~~~ o --------- o ------ o ---+----- o ---------- o --------> Bree
+~~~~~~~                      |             ~~~        |
+~~~~~~~  The                 o  Tuck-     ~~~         |
+~~~~~~~  Blue                | burrrow     ~~~        |
+~~~~~~~  Mts                 o             ~~~        |
+~~~~~~~                      |\ Long-     ~~~         |
+~~~~~~~                      | Bottom    ~~~          |
+~~~~~~~                      | o \      ~~~           |
+~~~~~~~                      o -- o -- o ~~ --- o --- o
+~~~~~~~                              ~Sarn~    Orc    |
+~~~~~~~                               Ford     Camp   v
+~~~~~~~                                             Gondor
+
+
+::NEWMAP::
+north_south
+::MAPDATA::
+road11 20 29
+road12 20 27
+road13 20 25
+road14 20 23
+road15 20 21
+road16 18 19
+road17 16 17
+road18 14 15
+road19 12 13
+road20 10 11
+road21 8 9
+road22 6 7
+::MAPDATA::
+                ====================
+                The North/South Road
+                ====================
+
+
+   Waymeet
+      |
+      o
+       \
+        o
+         \
+          o
+_\!/_      \                _\!/_
+            o
+             \                              _\!/_
+              o
+               \        _\!/_
+                o
+                 \
+    _\!/_         o
+                   \
+                    o
+                    |
+                    o               _\!/_
+                    |
+  _\!/_             o
+                    |
+                    o
+                    |
+                    o
+                    |\     To
+                       Longbottom
+::NEWMAP::
+south
+::MAPDATA::
+road01 29 17
+road02 27 17
+road03 25 17
+road04 23 17
+road05 21 17
+road06 19 17
+road07 17 17
+road08 11 17
+road08a 13 17
+road08b 15 17
+road09 9 17
+road10 7 15
+road10a 7 13
+road10b 7 11
+road10c 7 9
+road10d 7 7
+fordwest 31 17
+lb01 17 15
+lb02 15 13
+lb03 13 11
+lb04 11 9
+lb05 9 7
+forge 17 9
+inn 21 13
+post 15 7
+shop 19 11
+::MAPDATA::
+
+           ===================================
+           The North/South Road and Longbottom
+           ===================================
+                                                  ~~~~~~~~~~
+                                                 ~~~~~~~~~~
+       |\                                      ~~~~~~~~~
+       o o ~~~ o PO                          ~~~~~~~~~
+       |  \ ~~/                             ~~~~~~~~
+       o   o ~~~ o Forge                   ~~~~~~~~~
+       |    \ ~~/                          ~~~~~~~~~~
+       o     o ~~~ o Shop                ~~~~~~~~~~
+       |      \ ~~/                     ~~~~~~~~~~
+       o       o ~~~ o Inn           ~~~~~~~~~~
+       |        \ ~~/                ~~~~~~~~~~
+       o         o  ~~~            ~~~~~~~~~~
+        \         \  ~~~~        ~~~~~~~~~~
+         o-o-o-o-o-o-o-o-o-o-o-o~~~~~~~~~
+                           ~~~    \~~~~~
+                            ~~~~~~~\~~~~
+                              ~~~~~~\~~~
+                              ~~~~~~ o-o-o--
+                              ~~~~~~/Sarn Ford
+                            ~~~o~~~/
+                          ~~~~~~\~/
+                         ~~~~~~~~o-o
+                       ~~~~~~~~    Inn
+::NEWMAP::
+burrow1
+::MAPDATA::
+1_dining 22 12
+1_front 52 12
+1_kitchen 37 6
+1_master 8 12
+1_parlor 37 12 
+::MAPDATA::
+                    =============
+                    Hobbit Burrow
+                    =============
+
+                                 +--------+
+                                 | Kitchen|
+                                 |   o    |
+                                 +--|  |--+
+                                    |  |
+   +--------+     +--------+     +--|  |--+     +-------+
+   | Master |_____| Dining |_____| Parlor |_____| Front |
+   | Bedroom _____   Room   _____          _____  Hall  ==
+   |    o   |     |   o    |     |   o    |     |   o   |
+   +--------+     +--------+     +--------+     +-------+
+::NEWMAP::
+burrow3
+::MAPDATA::
+3_dining 8 14
+3_front 39 14
+3_kitchen 23 14
+3_master 39 8
+::MAPDATA::
+
+                    =============
+                    Hobbit Burrow
+                    =============
+
+                                  +---------+
+                                  | Master  |
+                                  | Bedroom |
+                                  |    o    |
+                                  +---|  |--+
+                                      |  |
+   +--------+     +---------+     +---|  |--+
+   | Dining |_____| Kitchen |_____|  Front  |
+   |  Room   _____           _____   Hall   ==
+   |    o   |     |    o    |     |    o    |
+   +--------+     +---------+     +---------+
+::NEWMAP::
+burrow5
+::MAPDATA::
+5_bedroom 34 20
+5_cellar 18 20
+5_corridor 17 14
+5_dining 17 8
+5_front 34 14
+5_kitchen 18 20
+5_master 34 8
+::MAPDATA::
+
+                    =============
+                    Hobbit Burrow
+                    =============
+
+            +----------+     +----------+
+            |  Dining  |     |  Master  |
+            |   Room   |     |  Bedroom |
+            |    o     |     |    o     |
+            +---|  |---+     +---|  |---+
+                |  |             |  |
+            +---|  |---+     +---|  |---+
+            | Corridor |_____|  Front   |
+            |           _____   Hall    ==
+            |    o     |     |    o     |
+            +---|  |---+     +---|  |---+
+                |  |             |  |
+            +---|  |---+     +---|  |---+
+            |  Kitchen |     |   Small  |
+            |          |     |  Bedroom |
+            |     o    |     |    o     |
+            +----------+     +----------+

@@ -1,0 +1,126 @@
+The New Icewall - a guide and easy-to-follow situational sketch.
+
+The undertaken project was aimed at completing the Iciewall 
+region coded by Macker nearly 7 years ago.
+
+The new icewall, located conveniently in /d/Krynn/icewall/castle2
+now portrayes the true character of those icy, gods-forgotten
+place. First of all, the mansion wing of the old code, where
+the draconians garrison, now borders on the south side of
+the true castle, where minotaurs and thanoi stand guard
+over the house of the White Dragonarmy Highlord, the dark
+elven mage Fael-thas /npc/fael-thas. 
+Untrusting as he is of other choosen servants of the Dark Queen 
+(he's sick with advance paranoia, see DL books for details)
+he has blocked with draconian part of the castle with a 
+'wall of stone' spell /rooms/storage4 which serves double 
+purpose - first strenthens the isolation feeling within the
+castle, and second keeps the old code nice and contained.
+Oh, a third reason might be pointed out - thanoi and draconians
+hate each others' guts.
+
+The castle, in my humble opinion, has a very distinct, original 
+climate and I truly hope you'll find the time to visit its
+grounds. If not, here is a short list of places of interest.
+
+A full map can be viewed at /map/map_new_icewall
+
+/rooms/cliff_new
+A second, secret entrance has been added to the Icewall Castle
+(the one the Companions used) Be carefull not to shout there,
+the avalanches hurt a bit.
+
+/rooms/warehouse
+Minos work for their god, Sargonnas. Draconians work for Takhisis.
+Thanoi work for .... well, cheap wine. The wine cellar bears
+a number of wine racks. Destroying them/securing them is a 
+good/evil version of the quest Tasslehof the Kender managed
+to complete.
+
+/rooms/stable
+The Dragon Highlord tries to use his magic to subdue a number
+of griffons and use them as mounts for his minotaurs.
+A young captured griffon may be rescued/secured for the
+evil/good version of the quest.
+
+/rooms/glacier4
+The castle is being swallowed whole by the advancing glacier.
+A skilled climber can find a sheltered niche high up the glacier.
+If he survives the several slides down the glacier (and smacking
+into the castle wall hurts) he may find a roc nest and a
+frozen corpse bearing a magic ring of strength /obj/nice_ring.
+
+/rooms/mino_garrison2
+Here resides Hrun, champion of the arena, a really nasty and
+evil-minded minotaur. He is the chief of guard, and a trusted
+henchmen of the Dragon Highlord /npc/hrun. Of interest are
+the weapons he has managed to collect, cloned in the unique
+fashion. /obj/weapons/hrun_axe is an axe of thick head and
+short handle, magicked to do wonders when wielded by a minotuar.
+/obj/weapons/hrun_sword is a magic broadsword with a snapped tip.
+A dwarven prince once used it as a lever to lift a stone slab,
+but it stills retains much of its power, especially in the
+hands of a true dwarf.
+
+/rooms/ice_clearing2
+A nightmareous arctic yeti, a half-demon creature has lumbered
+from the deep wastes, drawn by the cruel murders and tortures
+going in in the Highlord's castle. The beast, remembering
+the time before dragons and elves, will attack anything and
+everything, with only a single ghoulish thought - consume the
+living /npc/arctic_yeti. Should one find a corpse of a 
+Royal Guard of Silvanos frozen under a tree here, he might 
+put him to rest by blessing his corpse and assuring him that
+whomever he was guarding fled, as there are no other corpses
+there. The anguished spirit will depart, leaving behind his silvanesti
+shield /obj/armours/silvanest_shield.
+
+/rooms/library_secret
+Here, in his magic library, resides the evil Fael-thas, White 
+Dragonarmy Highlord. Finding the secret entrance requires
+a kender's approach to searching (see Tasslehof's adventures)
+The mage is a powerful opponent, able to blind, stun, and wound
+his enemies. He is also using the dragonarmy shadow.
+Uniquely, he can wield /obj/weapons/fael_sword, which is
+a custom-made light elven mage longsword which he carried
+from Silvanesti after he got banished for dark magic.
+Deeper into his lair, a treasury and bedchamber might be found
+/rooms/treasury. The chests found there are protected by
+magical traps. Inside of interest are the two ioun stones
+/obj/green_ioun_stone and /obj/blue_ioun_stone, granting
+the powers of regeneration and nightvision respectively, 
+and a scroll of identification /obj/id_scroll.
+
+/rooms/inner_courtyard
+The courtyard houses a magical fountain. Long ago, at the
+onset of the ice age, a Lord of this castle was abandoned
+by a fair baroness. His friend the bronze dragon, seeing
+how his human friend hurts, created this fountain as a
+joke, to see that 'the Lord does not freeze in his bed alone'.
+drinking from /obj/fountain boost RESIST_COLD by amount
+defined by ones size.
+
+/rooms/conquer1-45
+To the east of the castle stretch the wide snowy plains,
+now an area of the warfare system called "Icewall Plains"
+to the north of the plains, the White Dragonarmy Camp
+will open with the corresponding DA guild, should a 
+guildmaster be found.
+
+/rooms/snow_plain11
+A ship cruising to Palanthas might be found docked in this
+sheltered bay. It is assumed the griffon who up to now
+carried people to Icewall from Vingaard mountains will
+finally die of old age.
+
+Also found inside are the thanoi and minotaur barracks,
+Sleets (the white dragon) lair for future dragonorb quest,
+and a ruined altar of Paladine.
+
+Much more can be said of the castle, of its unique npcs
+and all the subtelties so please go and visit, but for now,
+I wont bore you an more!
+
+Warm regards, 
+Kessie.
+ps. The project is 105 locations wide.

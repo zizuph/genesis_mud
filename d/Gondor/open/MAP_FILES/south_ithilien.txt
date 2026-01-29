@@ -1,0 +1,237 @@
+main
+::MAPDATA::
+sbridge2 48 14 northwest
+sbridge1 48 14 northwest
+bank 48 14 northwest
+bank1 48 14 northwest
+bank2 48 14 southwest
+boatplace 48 14 southwest
+edge1 48 14 southwest
+edge2 48 14 southwest
+edge0 48 14 southwest
+edge11 48 14 southwest
+orcpost 48 14 southwest
+orcpost2 48 14 southwest
+orcrefuse 48 14 southwest
+haradcamp11s 48 14 southeast
+haradcamp12s 48 14 southeast
+haradcamp13s 48 14 southeast
+haradcamp10s 48 14 southeast
+haradcamp9s 48 14 southeast
+haradcamp8s 48 14 southeast
+haradcamp7s 48 14 southeast
+haradcamp3s 48 14 southeast
+haradcamp4s 48 14 southeast
+haradcamp5s 48 14 southeast
+haradcamp6s 48 14 southeast
+orccamp3 48 14 southeast
+haradcamp3 48 14 southeast
+haradcamp3a 48 14 southeast
+haradcamp3b 48 14 southeast
+olicamp 48 14 southeast
+olipath1 48 14 southeast
+haradcamp2 48 14 southeast
+orccamp1 48 14 southeast
+orccamp2 48 14 southeast
+haradcamp1 48 14 southeast
+haradcamp1a 48 14 southeast
+haradcamp1b 48 14 southeast
+haradcamp4n 48 14 southeast
+haradcamp3n 48 14 southeast
+haradcamp2n 48 14 southeast
+ncamp2 48 14 southeast
+ncamp 48 14 southeast
+orcpath1 48 14 northeast
+orcpath2 48 14 northeast
+orcpath3 48 14 northeast
+orcpath4 48 14 northeast
+haradcamp5n 48 14 northeast
+haradcamp6n 48 14 northeast
+haradcamp7n 48 14 northeast
+haradcamp8n 48 14 northeast
+haradpath3 48 14 northeast
+haradpath2 48 14 northeast
+haradpath1 48 14 northeast
+::MAPDATA::
+
+                ~                 ~~~~                   \
+    West Emnet   ~               ~~~~                     \
+ \                ~~~~         ~~~~                        \ Morannon
+  \                   ~       ~~~~                         | o
+   \-----+------       ~~~~~~~~~~~~                        |/
+         |      \            ~~~~~                         |
+         O       \             ~~~~~       Northern        |
+       EDORAS     \              ~~~~~     Ithilien        |
+                   \              ~~~~~                    |  Mountains
+                    --------\      ~~~~~                   |     of
+                       MINAS \      ~~~~~                  |   Shadow  +------+
+   White Mountains     TIRITH \  OSGILIATH                 |           |MORDOR|
+                            O-+----O=====------------------+--\ MINAS  +------+
+               +------+       |   / ~~~~~                  |   \MORGUL
+               |GONDOR|       |  / ~~~~~                   |    O
+               +------+       | / ~~~~~     Southern       |
+                              L/ ~~~~~      Ithilien       |
+                             / ~~~~~~                      |
+                            / ~~~~~~            Emyn Arnen |
+                           / ~~~~~~               o--------+
+                          / ~~~~~~                         |
+                          
+::NEWMAP::
+northeast
+::MAPDATA::
+orcpath1 5 18
+orcpath2 5 16
+orcpath3 9 14
+orcpath4 9 12
+haradcamp5n 9 18
+haradcamp6n 13 18
+haradcamp7n 17 18
+haradcamp8n 21 18
+haradpath3 25 16
+haradpath2 25 14
+haradpath1 25 12
+::MAPDATA::
+
+     |                                                   |
+     o                                                   o
+       \                                                 |
+         o                                               |
+           \                                             |
+             o ----- o                                   o
+               \   /                                     |
+                 o                                       |
+                   :                                     |
+ o - o - o - o - o - o - o -------------- o ------------ o ----- o
+         :               |                               |         \
+         o               o                               o           o - o - o
+         |               |                               |             / |
+ o       o               o                       o       o           o   o
+       /                 |                         \     |             /
+     o                   o                           o - o       o - o - o
+     |                 /                           /     |             \
+     o   o - o - o - o                           o       o               o
+     |   |   |   |   |       S O U T H E R N             |               |
+     o - o - o - o - o                                   |
+     |   |   |   | /             I T H I L I E N         |         Minas Morgul
+
+::NEWMAP::
+northwest
+::MAPDATA::
+sbridge2 68 12
+sbridge1 72 14
+bank 56 14
+bank1 56 18
+::MAPDATA::
+
+                                 ~~~~~~~~~~~                |               |
+                                    ~~~~~~~~~~~             o               o
+                                ~~~~~~~~~~~~~~              |                 \
+                                  ~~~~~~~~~~~~~~~           o
+                                    ~~~~~~~~~~~~~~~         |
+                                      ~~~~~~~~~~~           o
+                                   ~~~~~~~~~~~~~~~          |
+                                     ~~~~~~~~~~~            |
+                                                            |
+                                        Osgiliath     - o - o - o ----- o - o -
+  \                                                               \
+    o                                   ~~~~~~~~~~~                 o
+    |                                 ~~~~~~~~~~~                     \
+    o                                    ~~~~~~~~~~~    o ------------- o
+    | \                       /       ~~~~~~~~~~~~      |                     /
+    o   o - o               o        ~~~~~~~~~~~~~      |                   o
+    |         \           /          ~~~~~~~~~          |                   |
+                o - o - o           ~~~~~~~~~~~~        o                   o
+                  \   / |           ~~~~~~~~~           |                   |
+                    o - o          ~~~~~~~~~            |                   o -
+                  / |   |         ~~~~~~~~~~~           |                   |
+
+::NEWMAP::
+southwest
+::MAPDATA::
+bank2 56 6
+boatplace 56 8
+edge1 60 8
+edge2 60 6
+edge0 60 10
+edge11 64 8
+orcpost 68 8
+orcpost2 72 8
+orcrefuse 72 6
+::MAPDATA::
+
+    |         \           /          ~~~~~~~~~          |                   |
+                o - o - o           ~~~~~~~~~~~~        o                   o
+                  \   / |           ~~~~~~~~~           |                   |
+                    o - o          ~~~~~~~~~            |                   o -
+                  / |   |         ~~~~~~~~~~~           |                   |
+                o - o   o        ~~~~~~~~~~~~~          o - o           o - o -
+              /     |   |       ~~~~~~~~~~~~~~~         |   |           |   |
+    Minas           o   o     ~~~~~~~~~~~~~~~           o - o - o - o - o - o -
+    Tirith          |         ~~~~~~~~~~~~~~~~              |               |
+                    o          ~~~~~~~~~~~~~                o               o -
+                    |         ~~~~~~~~~~~~~~~
+                    o        ~~~~~~~~~~~~~                                  o -
+                    |       ~~~~~~~~~~~~                                    |
+                    o        ~~~~~~~~~~~~                                   o -
+                  /        ~~~~~~~~~~~~
+                o        ~~~~~~~~~~~~~~
+    |         /          ~~~~~~~~~~~
+    o   o - o          ~~~~~~~~~~~~~~~
+    | /               ~~~~~~~~~~~~~
+  - o                 ~~~~~~~~~~~
+    |                ~~~~~~~~~~~~~~
+    
+::NEWMAP::
+southeast
+::MAPDATA::
+haradcamp11s 9 16
+haradcamp12s 13 16
+haradcamp13s 17 16
+haradcamp10s 17 14
+haradcamp9s 13 14
+haradcamp8s 9 14
+haradcamp7s 5 14
+haradcamp3s 5 12
+haradcamp4s 9 12
+haradcamp5s 13 12
+haradcamp6s 17 12
+orccamp3 5 10
+haradcamp3 9 10
+haradcamp3a 13 10
+haradcamp3b 17 10
+olicamp 17 8
+olipath1 13 8
+haradcamp2 9 8
+orccamp1 5 8
+orccamp2 5 6
+haradcamp1 9 6
+haradcamp1a 13 6
+haradcamp1b 17 6
+haradcamp4n 21 4
+haradcamp3n 17 4
+haradcamp2n 13 4
+ncamp2 9 4
+ncamp 5 4
+::MAPDATA::
+
+     |                 /                           /     |             \
+     o   o - o - o - o                           o       o               o
+     |   |   |   |   |       S O U T H E R N             |               |
+     o - o - o - o - o                                   |
+     |   |   |   | /             I T H I L I E N         |         Minas Morgul
+ o - o - o - o - o                                       o
+ |   |   |   |                                           |
+ o - o - o - o - o                                       |
+     |   |   |                                           |
+     o - o - o - o                                       o
+         |                                Emyn         / |
+     o - o - o - o                       Arnen  - o - o  o
+     |   |   |   |                                       |
+     o - o - o - o                                       o
+         |   |   |                                       |
+         o - o - o                                       |
+                                                         |
+                                 o                       o
+                                 |                       |
+                     o - o       o                       o
+                           \   /                         |

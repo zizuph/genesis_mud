@@ -1,0 +1,37 @@
+
+     Spell name: Scare
+                 wintektor
+         Effect: Spell that adds panic and fatigue
+           Type: Instant
+        Targets: Enemy
+        
+        Element: Air          / 30
+           Form: Enchantment  / 30
+    Spell power: Power 2 [Minor spell]
+     Spell type: fatigue spell 
+     
+       Peaceful: No
+     Stationary: No
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: snake fang (leftover), salt wort (16cc)
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_ROUTINE
+     Combat Aid: 0% (a lesser version of MM naro drego nin)
+
+            Tax:  0.25
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x1.0   Routine difficulty
+                  x1.0   material component  
+                 ------
+                  0.25%  total tax
+   ------------------------------------------------------------
+   Comments: Drains fatigue (35) and causes panic in an enemy
+   (~105). Can only be case on players once every 60 seconds.
+   ------------------------------------------------------------

@@ -1,0 +1,14 @@
+An inside room - a regular villager's tent
+
+Properties:
+goblin village inside
+
+Items: fireplace, pot, mat, mats, bench
+
+Objects:
+house dwellers, possibly garbage cart
+
+Actions:
+none
+
+Exits: according to map

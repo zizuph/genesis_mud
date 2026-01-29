@@ -1,0 +1,21 @@
+domain,quest desc,group,bit,hint,validation
+Earthsea,Find Special Moss,1,0,find_moss.txt,default
+Earthsea,Corral Sheep,2,0,corral_sheep.txt,default
+Earthsea,Weather Worker,0,12,weather_worker.txt,default
+Earthsea,Find Parchment,0,3,find_parchment.txt,default
+Earthsea,Headache Cure,0,8,headache.txt,default
+Earthsea,Find Teddy Bear,0,10,teddy_bear.txt,default
+Earthsea,Remove Goat from Roof,0,5,goat_roof.txt,default
+Earthsea,Find Treat for Cat,0,1,treat_for_cat.txt,default
+Earthsea,Gather Clams,0,9,gather_clams.txt,default
+Earthsea,Find Apple,0,7,find_apple.txt,default
+Earthsea,Karg Eye,1,6,karg_eye.txt,default
+Earthsea,Drum,1,7,drum.txt,default
+Earthsea,Gather Ginseng,2,2,gather_ginseng.txt,default
+Earthsea,Find Blue Seashell,0,6,blue_seashell.txt,default
+Earthsea,Find Herb for Harbour Master,0,16,herb_for_hmaster.txt,default
+Earthsea,Gather Lucky Items,0,4,lucky_items.txt,default
+Earthsea,Return Bird to Nest,0,2,return_bird.txt,default
+Earthsea,Find Carving Wood,1,5,carving_wood.txt,default
+Earthsea,Gather Honeycomb,0,11,honeycomb.txt,default
+Earthsea,Find Sandal,0,13,find_sandal.txt,default

@@ -1,0 +1,60 @@
+ADVENTURER'S GUILDS IN EARTHSEA:
+---------------------------------------------------
+/d/Earthsea/gont/tenalders/village/witch_kitchen.c
+:::::::::::::::::::::::::::::::::::::::::::::::::::
+/*
+ * 
+ * coded by Amelia for Ten Alders 4/13/97
+ * the witch's kitchen
+ * contains an adventurer's type skill training center
+ * with herbalism and small magic and alchemy skills
+ * 
+ * Possible to train the following skills and levels:
+ *
+ * SS_SNEAK             20
+ * SS_HIDE              20
+ * SS_AWARENESS         30
+ * SS_LANGUAGE          30
+ * SS_SPELLCRAFT        20
+ * SS_HERBALISM         20
+ * SS_DEFENCE           20
+ * SS_ALCHEMY           20
+ * SS_ELEMENT_EARTH     20
+ * SS_ELEMENT_AIR       20
+ * SS_ELEMENT_FIRE      20
+ * SS_ELEMENT_WATER     20
+ * SS_ELEMENT_LIFE      20
+ * SS_OPEN_LOCK         20
+ * SS_FR_TRAPS          20
+ * SS_UNARM_COMBAT      30
+ * SS_CLIMB             50
+ *                     ---
+ * TOTAL:              400
+ *                     ===
+ */
+
+
+==============================================================
+IN GONT PORT:
+--------------------------------------------------------------
+/d/Earthsea/gont/gont_city/rooms/adv_guild.c
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#define    UNARMED_MAX         30 // unarmed combat
+#define    DEF_MAX             20 // defence
+#define    SWORD_MAX           30 // sword
+#define    POLEARM_MAX         30 // polearm
+#define    KNIFE_MAX           30 // knife
+#define    CLUB_MAX            30 // club
+#define    AXE_MAX             30 // axe
+#define    BLIND_MAX           20 // blind combat
+#define    SWIM_MAX            50 // swim
+#define    CLIMB_MAX           40 // climb
+#define    LOC_MAX             30 // location sense
+#define    TRACK_MAX           30 // tracking
+#define    AWARENESS_MAX       30 // awareness
+                              ---
+//         TOTAL              400
+
+
+
+

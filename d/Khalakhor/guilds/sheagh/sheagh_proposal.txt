@@ -1,0 +1,126 @@
+                       === SHEAGH D'ERIA ===
+                         (The Host of Eria)
+
+Throughout the lands of Khalakhor you may occassionally find yourself
+face to face with a stern-faced man, a heavy brass earring of a 3 
+bladed pinwheel over a disc of sworls hanging from his left ear.
+Rarer still to see them in numbers, for The Host need no companions
+in their patrols of Khalakhor more than their patron Goddess Eria.
+In Eria they worship battle skill, courage and strength. These make up
+the three blades of her pinwheel. In return, Eria blesses them with
+clerical powers, spells of war in return for their offerings from the
+trophies taken from their vaunted enemies.
+The Sheagh carry the traditional sword of their forefathers, shunning
+the spear for it's bulkiness over their long patrols. Always by their
+side the black dirk called the Sgian Dubh. They are always welcome
+amongst the clans, their presence and fortune in battle is legendary,
+their skills with salves precious.
+Though grim and scarred, the Sheagh are required to be versed in
+poetry. They are knowledgable about, though thankfully immune, to
+politics and the squabbles of the clans. They are in fact forbidden
+from interference.
+Since the Second War of the Races the Sheagh d'Eria have been instru-
+mental in the defence of the people of Khalakhor. They wander the
+coastlines, man the barricades facing the goblin hordes, and when
+they arrive to battle they are guaranteed to turn the tide in their
+favour.
+
+The Sheagh d'Eria oath:
+   "Truth in our hearts. Strength in our hands. Consistency in our
+tongues."
+
+                               |
+                              / \
+
+                === ERIA - Maiden of Battle ===
+
+Eria is a major god of the pantheon of Khalkhor. Eria is the patron
+god of warrior skills, tactics and courage. Some say Eria is a sister
+of or another aspect of the tri-goddess the Morrigan.
+
+Eria's symbol is the 3-spoked pinwheel of blades. The blades represent
+courage, skill, & strength respectively, as well as the mind, body &
+the spirit. The curve of the spinning pinwheel blades gives the
+impression that they are unstoppable, inevitable.
+
+Eria is said to appear to warriors during the midst of battle, a 
+shining apparition of a fair warrior maiden. Those that pray to her
+look for Eria to appear to them, should they die on the battle field,
+& spirit their souls back to the Halls of the Eternally Courageous.
+
+
+                                |
+                               / \
+
+               === Sheagh D'Eria SKILLS PROPOSAL ===
+
+This selection of skills is designed to carry the theme of a warrior
+cleric
+
+Skill	Max   Untaxed  Taxed   Modify	Tax Skill Cost
+Sword   80	30	50	1.5	1.3        100
+Dagger	60	30	30	1.0	0.5         60
+Defence	75	20	55	1.5	1.4         75
+Parry	75	0	75	1.5	1.9         75
+Spellc	75	20	55	1.0	0.9         75
+Divin	50	20	30	1.0	0.5         50
+Enchant	70	20	55	1.0	0.9         75
+Earth	70	20	55	1.0	0.9         75
+Life	65	20	55	1.0	0.9         75
+Langu	55	30	30	1.0	0.5         60
+Alchemy 55      55      20      1.0     0.4         55
+Awares	60	30	30	1.0	0.5         60
+               ---                                 ---
+               260                                 780
+
+			    Tax Total  10.3
+                    Skill Point Total 550.0
+
+                               |
+                              / \
+
+              === Sheagh D'Eria SPELLS PROPOSAL ===
+
+The selection of spells for the Sheagh are meant to represent the
+specialisation of the clergy in battle, and as such they have no
+healing or cleansing spells, and only minor skills in divination.
+
+Spell      Comments              Form    Element Level
+=====      ========              ====    ======= =====
+sanctuary  target petrified      ench    earth   advanced
+awe        panics enemies        ench    life    advanced
+clayskin   raises AC, dmg weps   ench    earth   advanced
+cognizance see dark/invis        ench    life    intermed
+courage    team resists fear     ench    earth   intermed
+reflect    reflect next special  ench    earth   intermed
+burrs      xtra dmg (poison)     ench    earth   intermed
+mute       mutes target          ench    life    minor
+inquisitn  evil glows            divi    life    minor
+knowledge  divine item's source  ench    earth   trivial
+diagnose   diagnose injuries     divi    life    trivial
+sheagh     guild members online  divi    life    trivial
+
+                              |
+                             / \
+
+             === Sheagh D'Eria RESTRICTIONS & TAX ===
+
+At this stage I anticipate around 25% tax, using only the occu-
+pational guild slot. The guild will be focused on the protection
+of the allied races of Khalakhor. Admission will require the
+player to have a fairly decent high level of reputation in the
+lands of Khalakhor. This hidden domain-skill(s) will be modified
+only by actions within Khalakhor, but work in a somewhat similar
+way to the KoS prestige. Actions taken to aid Khalakhor (such as
+completing quests to aid the Allies races) will result in a posi-
+tive modification to this skill, and any blow against Khalakhor's
+allied races will result in a hefty blow against.
+Players who betray the trust of the forces of order will suffer a
+hefty blow vs. their reputation, which may result in an automatic
+reduction of skills, spells, or even ejection from the Sheagh.
+It is likely that there will be a quest to aid the lands of Khal-
+akhor be available for players to solve in order to join the
+guild.
+I anticipate a leadership of only 3 eldar clergy, requiring a
+consensus on any guild decisions, or on admissions of new members
+who have met the requirements.

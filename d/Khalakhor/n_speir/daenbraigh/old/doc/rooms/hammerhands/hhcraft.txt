@@ -1,0 +1,18 @@
+A specialized hammerhand smithy
+
+Properties:
+hammerhand inside
+
+Items: racks, barrels, water
+
+Objects:
+the forge and the smith
+
+Actions:
+mend/wax/sharpen CLUBS only, non-magical only.
+order a club. Makes good non-magical clubs.
+
+Exits:
+according to map
+
+Specials: none

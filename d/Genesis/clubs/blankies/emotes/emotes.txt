@@ -1,0 +1,245 @@
+#define SOULDESC(x) (TP->add_prop(LIVE_SOUL_EXTRA. x))
+int beyes (string str)
+{
+    if (strlen(str))
+    {
+        return 0;
+    }
+    write(your eyes grow big and round like saucers.\n");
+    allbb(QCTNAME(TP)+ "eyes grow big and round like saucers.\n");
+
+    return 1;
+}
+
+int bhair (string str)
+{
+    if (strlen(str))
+    {
+        return 0;
+    }
+    write("Your hair turns white from fear.\n");
+    allbb(QCTNAME(TP)+ "'s hair turns white with fright.\n");
+
+    return 1;
+}
+int bnose (string str)
+{
+    if (strlen(str))
+    {
+        return 0;
+    }
+    write("You wipe your nose on your sleeve.\n");
+    allbb(QCTNAME(TP)+ " wipes " +POS(TP) " nose along " +POS(TP) " arm leaving a trail of wet slime.\n");
+
+    return 1;
+}
+int btired (string str)
+{
+    if (strlen(str))
+    {
+        return 0;
+    }
+    write("You explain that you are hungry and tired and will surely perish if you take one more step.\n");
+    allbb(" whines that he is hungry and tired and can't walk any further without a rest.\n");
+
+    return 1;
+}
+
+int bsob (string str)
+{
+    if (strlen(str))
+    {
+        return 0;
+    }
+    write("You put your head into the crook of your arm in order to stiffle a sob.\n");
+    allbb(" puts " +POS(TP) "head into the crook of " +POS(TP) "arm stifling a sob.\n");
+
+    return 1;
+}
+
+int bblub (string str)
+{
+    if (strlen(str))
+    {
+        return 0;
+    }
+    write("You start to blubber.\n");
+    allbb(" starts to blubber.\n");
+
+    return 1;
+}
+int bsuck (string str)
+{
+    if (strlen(str))
+    {
+        return 0;
+    }
+    write("You suck your thumb.\n");
+    allbb(" sucks " +POS(TP) +" thumb.\n");
+
+    SOULDESC("sucking " +POS(TP) +"thumb");
+
+    return 1;
+}
+int bpant (string str)
+{
+    if (strlen(str))
+    {
+        return 0;
+    }
+    write("You pant and gasp for breath.\n");
+    all2actbb(" pants and gasps for breath.\n");
+
+    return 1;
+}
+
+int bcover (string str)
+{
+    if (strlen(str))
+    {
+        return 0;
+    }
+    write("You cover your head with the " +BTYPE " and really start to cry.\n");
+    allbb(" covers his head with " +POS(TP) +BTYPE +"and starts to wail .\n");
+
+    SOULDESC("hidden under " +POS(TP) +BTYPE +" really having a good cry");
+// fix this so you can make a line that doesn's start with is and add //it so room can see
+    return 1;
+}
+
+int  (string str)
+{
+    if (strlen(str))
+    {
+        return 0;
+    }
+    write(".\n");
+    allbb(" .\n");
+
+    return 1;
+}
+int clench (string str)
+{
+    if (strlen(str))
+    {
+        return 0;
+    }
+    write("You clench your " +BTYPE +"more tightly.\n");
+    allbb(" clenches " +POS(TP) +BTYPE +" more tightly.\n");
+
+    SOULDESC("clenching " +POS(TP) +BTYPE " tightly");
+
+    return 1;
+}
+int bclimb (string str)
+{
+    object *oblist;
+    NF("Bclimb who?\n");
+    if (!strlen(str) || sizeof(obklist = parse_this(str, "[the] %1") !=1))
+    {
+        return 0;
+    }
+    target(" tries to climb your leg in terror.", oblist);
+    actor("You try to scramble up", oblist, "'s leg to safety.");
+    all2actbb("tries to climb ", oblist, "'s leg in terror.");
+    return 1;
+}
+
+int bturn (string str)
+{
+    object *oblist;
+    NF("Bturn away from whom?\n");
+    if (!strlen(str) || sizeof(obklist = parse_this(str, "[away] [from] [the] %1") !=1))
+    {
+        return 0;
+    }
+    targetbb(" turns away from you, stiffling a sob.", oblist);
+    actor("You turn away from", oblist, ", trying to quiet a sob.");
+    all2actbb("turns " +POS(TP) +"back to ", oblist, ", stiffling a sob.");
+    return 1;
+}
+int bcute (string str)
+{
+    object *oblist;
+    NF("Bcute to whom?\n");
+    if (!strlen(str) || sizeof(obklist = parse_this(str, "[to] [the] %1") !=1))
+    {
+        return 0;
+    }
+    targetbb(" looks up at you, soft-eyed and with " +POS(TP) +"hands clasped in front of " +PRO(TP), " in a transparent effort to look cute." oblist);
+    actor("You look cuely up at", oblist, " soft-eyed and with your hands clasped in front of you, you are the image of innocence.");
+    all2actbb("looks up at", oblist, "soft-eyed and with " +POS(TP) " hands clasped in front of " +PRO(TP) " in a transparent effort to look cute.");
+    return 1;
+}
+int blook (string str)
+{
+    object *oblist;
+    sting *how = parse_adverb_with_space(str, "nervously", 0);
+    
+    if (!strlen(how[0]))
+    {
+        write("You look around" +how[1] +".\n");
+        allbb(" looks around" +how[1] +".\n");
+    }
+    else
+    {
+    NF(Blook how at whom?\n");
+    if (!size of(oblist = parse_this(how[0], "[at] [the] %1")));
+    {
+        return 0;
+    }
+    target("looks" +how[1]. +"at you.", oblist);
+    actor("You look " +how[1] +" at", oblist);
+    all2act("looks " +how[1] +" at", oblist);
+    }
+    return 1;
+}
+int bblink (string str)
+{
+    object *oblist;
+    string *how = parse_adverb_with_space(str, ".", 0);
+//is this correct for no adverb?
+    
+    if (!strlen(how[0]))
+    {
+        actor("You blink" +how[1] +"in wide-eyed amazement.\n");
+        allbb("blinks " +how[1] +"in wide-eyed amazement.\n");
+    }
+    else
+    {
+    NF(Bblink how at whom?\n");
+    if (!size of(oblist = parse_this(how[0], "[at] [the] %1")));
+    {
+        return 0;
+    }
+    target("blinks." +how[1] ="at you in wide-eyed amazement.", oblist);
+    actor("You blink at ", oblist +how[1] +"in wide-eyed amazement.");
+    allbb("blinks." +how[1] ="at ", oblist +how[1] +"in wide-eyed amazement.");
+    }
+    return 1;
+}
+
+int  (string str)
+{
+    object *oblist;
+    sting *how = parse_adverb_with_space(str, "", 0);
+    
+    if (!strlen(how[0]))
+    {
+        write("" +how[1] +".\n");
+        allbb("" +how[1] +".\n");
+    }
+    else
+    {
+    NF(B ?\n");
+    if (!size of(oblist = parse_this(how[0], "[] [] %1")));
+    {
+        return 0;
+    }
+    target(".", oblist);
+    actor(".", oblist);
+    allbb(".", oblist);
+    }
+    return 1;
+}
+

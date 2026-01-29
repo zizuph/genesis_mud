@@ -1,0 +1,50 @@
+#pragma strict_types
+
+#include "../defs.h"
+
+inherit "/cmd/std/command_driver";
+inherit "/d/Genesis/specials/abilities";
+
+/* 
+ * Function name: get_soul_id
+ * Description:   Give a name for this soul
+ * Returns:       string - the soul's id
+ */
+public string
+get_soul_id() 
+{ 
+    return "Beorning Spells"; 
+}
+
+/*
+ * Function name: query_cmd_soul
+ * Description:   identify this as a valid cmdsoul
+ * Returns:       1
+ */
+public int 
+query_cmd_soul() 
+{ 
+    return 1; 
+}
+
+public mapping
+query_cmdlist()
+{
+    return ([
+        "shapeshift"   : "shapeshift_ability"
+    ]);
+}
+
+public mapping
+query_ability_map()
+{
+    return ([
+        "shapeshift"  : BEORNING_SPECIALS_DIR + "shapeshift_spell",
+    ]);
+}
+
+public int
+shapeshift_ability(string args)
+{
+    return do_ability("bear");
+}

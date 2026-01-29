@@ -1,0 +1,6 @@
+Name: 		flammis
+Object:		/d/Terel/mecien/valley/guild/spells/flammis.c
+Cost: 		30 mana
+Skills:    	Fire, Wis, Attack
+Description:	Does(F_PENMOD(50, (attack+wis)/5+15) damage
+Requirements:   Wis > 40

@@ -1,0 +1,562 @@
+OUTPOST / FORT
+*-smith forge
+*-weapon and armour repairing
+*-guard dining hall foods: bicorn kebab, marinated mushrooms, bread, phrynos stew,
+     grilled eel. 
+*-beard and mustache stylist
+*-post office (with notary, maybe?)
+*-gear painting shop
+-prospectors club + eventual MINERS guild -- mostly get pebbles and stones, can get coal, iron ore, gems.-
+  (like fisherman's or performers clubs/guilds)
+-update npc soul to have evade special ability (check FK soul and specials for examples)
+*-privvies, update /d/Avenir/common/dark/obj/fp.c for food poison quest
+*don't forget to update port/mon/worker.c path he walks to the warehouse in the fort and back.
+-temple/chapel/shrine
+-parade ground (where soldiers "muster")
+*mess hall (food)
+-barracks (sleeping)
+*common room (day room) 
+*privvy (toilet) chute at "tower middle1"
+-chef school
+-prospector club / miner guild
+-gneiss gnome race guild
+
+
+
+................................................................
+...^..^^..`...........^^^^......^^^........           ..^^`^^^..
+..............^^^^.....^^......^^....^^^..||^^|||...............
+..~..^...```...   .``.    ````.   ..  .``..\   ` '.........``...
+....`..^..~..              `      ^        |_ .   `| .~..^...`..
+...^......    `      ^                     |   _|` | ...`.......
+.~...`..^..             Fort Sybarus `     |_| _  _| .~....~..`.
+..........               _  _ _ __ _       |` [^]  | ...........
+..^^.... ___  ___  ___   'I_I_I_I_I'       |  [_]`_| ..~..^..`..
+.~...`.. I_I__I_I__I_I    |_    ` |     ___|_______|___ ........
+...`.... \-\--|-|--/-/    |` (O) _|     I_I___I_I___I_I .`...^..
+..^^..... |[]     []|     | (O)O) |      \-\--|-|--/-/ .........
+.`...^... |.   `    |_____|_______|_______|---------| .`...^..`.
+..~~.... / \| [] __ |_|-|_|-|-|_|-|_|-|_|-| [] ` []/ \...^...^..
+..`.... <===>  |    |-=-=-=-=-=-=-=-=-=-=-|   |_  <===>.....`...
+....`.. |[] |`   [] ||:|:|:|:|:|:|:|:|:|:||_[] `  | []|..^..`...
+.~..  . <===> `_|_  |/////////\\\\\\\\\\:||__.  | <===>..    ( .
+... ( .. \V/      ` ||||| |       | ||||:||    __  \V/ . ( []) .
+.    ) .. |  _|  _| ||||| |  [#]  | ||||:|| . |`    | .. )) ))).
+.(  (| .. |   __|` _||||| |__ ____| ||||:|| |     | |.../ \/  ).
+.)\/ (  ..|` __| | .|||||/____ ____\|||| /|. . | . .|..(  ))  ))
+(  ) )) .//\...........//...........\\........./.. /\\. )(__) )/.
+\ (_) ).//.............                ..............\\..------..
+.-----../.............                  .........................
+
+BASE TOWER MAP
+	  
+           . . . . . . . . . . . . . . . . . . . . . . . . . . .
+           .                                                   .
+           .                                                   .
+           .                                                   .
+           .                 ________________                   .
+           .              .'                 ` .               .
+           .            .'                      `.             .
+           .          .'                          `.           .
+           .        .'                              `.         .
+           .       '                                  '        .
+           .       |                                  |        .
+           .       |                                  |        .
+           .       |                                  |        .
+           .       |                o                 |        .
+           .       |                                  |        .
+           .       |                                  |        .
+           .       |                                  |        .
+           .       '                                  '        .
+           .        `.                              .'         .
+           .          `.                          .'           .
+           .            `.                      .'             .
+           .              `.                  .'               .
+           .                `________________'                 .
+           .                                                   .
+           .                                                   .
+           . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+       
+
+
+ ___________________________________________________________________ 
+|@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@@@     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@             @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@             @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@@@     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@P@@@@@|
+|@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@@@@GGG@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@@@@GGG@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@@@@GGG@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@@@@GGG@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@@@@GGG@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@@@@GGG@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@@@     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@             @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@               @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@             @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@         @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@@@     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@P@@@@@|
+|@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|___________________________________________________________________|
+ 	  
+
+
+Lower Quarters
+ ___________________________________________________________________
+|                                                                   |
+|@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@@  |   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@    |     @@@@@@@                             @@@@@@@@@@@@@@|
+|@@@@@@     |  Gaol @@@@@           Barracks          @@@@@@@@@@@@@@|
+|@@@@@      |        @@@@                             @@@@@@@@@@@@@@|
+|@@@@@  o   |    o----##--------o--------------o----------[u]-o  @@@|
+|@@@@@      |    |   @@@@                             @@@@@@@@@@@@@@|
+|@@@@@@     |   [u] @@@@@                             @@@@@@@@@@@@@@|
+|@@@@@@@    |      @@@@@@                             @@@@@@@@@@@@@@|
+|@@@@@@@@@  |    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|___________________________________________________________________|
+
+
+Ground Level Fort Sybarus
+ ___________________________________________________________________ 
+|@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@@@     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ To Islands |
+|     @@@         @@@         Common    @@  Dining    @@@ ---> @@@  |
+|   @@@    North    @@@        Room     @@   Hall     @@@@@@@@@@  .'|
+|  @@@     Tower     @@@                @@            @@@@@@@@  .'  |
+|  @@@           o--------------o--------------o      @@@@@@  o'  @@|
+|  @@@           |   @@@@       |       @@     |      @@@@  .'  @@@@|
+|   @@@         [d] @@@@@@@@@@@ | @@@@@@@@@@@@ | @@@@@@@  .'  @@@@@@|
+|    @@@           @@@@  @@@@@@ | @@@@@@@@@@@@ | @@@@@  .'   @@@@@@@|
+|      @@@       @@@@           |              |      .'  @@@@@@@@@@|
+|       @@@@@@@@@@@             |              |    .'    @@@@@@@@@@|
+|         @@GGG@@         Fort  | Sybarus      |  .'      @@       @|          
+|           GgG                 |              |.'        @@ Shrine@|       
+|           GgG  o--------------o--------------o--------o-----o    @|      
+|           GgG  |              |              |`.        @@       @|  
+|         @@GGG@@|@             |              |  `.      @@       @|
+|       @@@@@@@@@|@@@@          |              |    `.    @@@@@@@@@@|
+|     @@@@       |  @@@         |              |      `.  @@@@@@@@@@|
+|    @@@         |   @@@  @@@@@ | @@@@@@@@@@@@ | @@@@@@ `. @@@@@@@@@|
+|   @@@  Tall    |    @@@@@@@@@ | @@@@@@@@@@@@ | @@@@@@@@ `. @@@@@@@|
+|  @@@   Tower   |     @@@@@@   |      @@@@@@ [u] @@@@@@@@@ `.  @@@@|
+|  @@@           o     @@@@@@   o     @@@@@@@  o  @@@@@@@@@@  o ##  |
+|  @@@         [u/d]   @@@@@@ Ware-  @@@@@@@@ [d] @@@@@@@@@@@   @@@@|
+|   @@@              @@@@@@@@ House @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@           @@@@@@@@@      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@@@       @@@@@@@@@@@     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|___________________________________________________________________|
+                                                            
+                                                                       
+ ______________________________________________________
+|                                                      |
+| Forge Complex          %=bucket lift  #=blocked      |
+|@@@@@@@@   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@[d]@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@[u]@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@@@@@@   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+|@@@                          @@ Prospector's   @@@@@@@|
+|@@@                          @@ & Miners Club  @@@@@@@|
+|@@@     o             o      ##                @@@@@@@|
+|@@@            @@            @@      o         @@@@@@@|
+|@@@            @@            @@                @@@@@@@|
+|@@@   Smith    @@  Armourer  @@   Assayer      @@@@@@@|
+|@@@            @@            @@                @@@@@@@|
+|@@@            @@        %   @@           %    @@@@@@@|
+|@@@ %          @@@@@@@@@@%@@@@@@@@@@[d]@@@%@@@@@@@@@@@|
+|@@@@%@@[d]@@@@@@@@@@@@@@@%@@@@@@@@@@[u]@@@%@@@@@@@@@@@|
+|@@@@%@@[u]@@@@@@@@@      %                %      @@@@@|
+|@@@ %          @@@@      %                %      @@@@@|
+|@@@ %   o       ##                   o           @@@@@|
+|@@@            @@@@                              @@@@@|
+|@@@  Forge     @@@@    Metallurgist/Foundry      @@@@@|
+|@@@            @@@@                              @@@@@|
+|@@@@@@^^^@@@@@@@@@@@@@^^^@@@@@@@@@@^^^@@@@@@@@@@@@@@@@|
+|@@@@@@@^@@@@@@@@@@@@@@@^@@@@@@@@@@@@^@@@@@@@@@@@@@@@@@|
+|______________________________________________________|
+
+
+
+
+
+Shrine to Sair and Salilus
+|| ||| ||  || ||  ||||||     ||||  |||||||||||  ||  ||||||  ||||| |||
+||||||||||||| ||||||||||||||||||||||||||||||||| |||||||||||||||||||||
+||||||||||||| ||||||||||||                 |||| |||||||||||||||||||||
+||||||||||||| ||||||||||||   'I_I_I_I_I'   |||| ||||||  |||||||||| ||
+|||||||||||||||||||||||||||   |       |   |||||||||||||||||||||||| ||
+||||||||||||||| ||||| |||||   |` (O) _|   |||||||||||||||||||||||| ||
+|||||||||||||||||||||||||||   | (O)O) |   |||||| ||||||||||||||||||||
+|||||||\\`-.__|||||||||||||   |       |   |||||||||||||__,-'//|||||||
+|| |||| \\    `==---='-----------'='-----------`=---=='    // |||  ||
+|| |||| | `--.                                         ,--' | ||| |||
+|| ||||  \  ,.`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~',.  /  ||| |||
+|||||||    \[]  ____,-------._,-------._,-------.____  []/    ||| |||
+|||||||     ||\|___!`======="!`======="!`======="!___|/||     |||||||
+|||||||     || |---||--------||-| | |-||--------||---| ||     |||||||
+  __O_____O_[]_lO_____O_____O|| |'|'| ||O_____O_____Ol_[]_O_____O__
+  % H % % H % % H % % H % % |-----------| % % H % % H % % H % % H %
+ ___H_____H_____H_____H____O =====o===== O____H_____H_____H_____H___
+                          /|=============|\
+()______()______()______() '=============' ()______()______()______()
+||{_}{_}||{_}{_}||{_}{_}/| =============== |\{_}{_}||{_}{_}||{_}{_}||
+||      ||      ||     / |=================| \     ||      ||      ||
+======================()  =================  ()======================
+----------------------/| ------------------- |\----------------------
+
+
+
+
+GEOLOGISTS of GENESIS / TREASURE HUNTERS: prospect for treasure
+Gemologists and Metallurgists
+
+explore/prospect -> locate seams (gems) or veins (metals) -> extract(ion): panning or mining -> 
+refining (crushing, separating and cleaning) -> smelting/metalsmithing  or cutting & polishing
+
+                      ore->gems
+            /  rockhound -> lapidarist  \
+ prospector-> seam/vein->ore            jeweler
+            \   miner -> metallurgist /
+       panning->   ore->metal 
+
+
+*rockhound (amateur geologist/hobbyist gemstone hunter)
+fossicking is an aussie/british term for prospecting/rockhounding (fossickers)
+
+ lapidarist - expert on precious stones and the art of cutting and engraving them
+   jewelery -- combines metalsmithing and gemology/lapidary.
+   
+A miner/fossicker would get more ores that have precious metals
+A rockhound would get more ores that have precious stones
+assay office/assayer judges quality of metals
+A metalsmith/metallurgist can smelt the metallic ores to ingots (smeling house -- big burning things at the fort)
+A lapidarist/gemologist can cut precious stones from ores/geodes and polish them into gems
+A jeweler takes the ingots and the gems and makes jewelry.
+
+In this process, the metallurgist/smelter turning ore to ingots / coins 
+could be a money-maker. Coins are an ingredient for everything.
+
+And the lapidarist turning geodes and rocks into finished gems could be a money-maker.
+Gems are an ingredient for spells in a few guilds and easily converted to cash.
+
+Jewelry-making is more likely to be the equivalent of mummers turning the 
+intestines the take from corpses and turning them into balloon-animals. Any 
+market for jewelry can and would be quickly saturated, so it may be that the 
+function of crafting jewelry can be handled (as it already is) by npcs. 
+
+seams yield gems
+lodes/veins yield metals
+
+TOOLS:
+rockhound: chipping hammer, rock pick, chisel, hand lens  
+fossicker: pan, shovel, pick, magnet
+
+PROSPECTING:
+if room type is ROOM_IN_WATER, ROOM_UNDER_WATER, ROOM_IN_AIR; fail
+ you cant prospect in deep water / midair.
+If !room_inside, if room type is ROOM_BEACH, do panning otherwise normal prospect.
+if room inside, check for terrain defs (if terrain is TERRAIN_RESIDENCE, 
+  TERRAIN_CLUTTER, TERRAIN_ONVEHICLE) then fail, if other terrain defs (which
+  are mostly for terrains that can be prospected), then check if room type is 
+  ROOM_BEACH, and if so do panning, else do regular prospect.
+
+
+prospect:
+    if panning: swishing sand around in the pan.  Pick some gravel out.  swish some more.
+	    find a nugget or some gold flakes, black sand. Take sand to assayer at bank who
+		will figure out the percentage of valuable metals and pay. 
+          black sand has a lot of hematite and magnetite (irons) and galena (lead) 
+    if mining, chunks of quartz ore is silver and gold; silver wire crystals on a granite matrix,    
+        bring to smith / metallurgist to refine into ingots that can be sold to assayer.
+        if player is a lay Smith can do own metallurgy?		
+
+	if rock hounding: a lot of sandstone, quartz, pyrite, some gemstone ores. bring
+	gemstone ores to gemologist and gem shops and they will value the gems in the ores and pay.
+	or player can do the work of separating gems and cutting them
+
+
+04:58 Lilith tells you: Today I learned a new word: fossicker.
+05:02 Lilith tells you: Here in California, people prospect for metals and
+gems. In britishy places, its called fossicking (or noodling if it is opals). 
+Fascinating.  I think I want to make a Geologists of Genesis guild :)
+05:06 Lilith tells you: and have it start with exploration and
+prospecting/fossicking/rockhounding then mining, and then on to the metallurgy 
+and lapidary side of things.
+
+Gemologists do not make jewelry,( unless they want to). 
+They may sell or buy gems or jewelry, or grade and evaluate gems. 
+They may work with buyers, lapidaries, designers, jewelers or stone 
+buyers or end clients, but thier skills lie in identifying and grading 
+Gem stones, raw or cut and polished, for whomever their clients may be.
+
+Geology is an earth science involving math, physics and chemistry.
+Geologists find and assess/grade the quality of minerals/ores.
+Assayers determine the purity and value of metals in a mixture.
+People who study and prospect for mining anything that comes from the 
+earth often need an advanced knowledge of geology. Geologists study 
+earthquakes, water supplies( wells), erosion, soil for farming, forestry… 
+mapping services
+
+Ore is natural rock or sediment that contains one or more valuable minerals,
+typically metals, that can be mined, treated and sold at a profit. Ore is 
+extracted from the earth through mining and treated or refined, often via 
+smelting, to extract the valuable metals or minerals (smelter, foundry).
+
+Gem-bearing rocks:
+1) Igneous rock, forms gemstones in the quartz family 
+(these include amethyst, ametrine, citrine). Other stones found in this type 
+of rock are garnets, moonstones, diamonds, topaz and zircon. 
+2) Sedimentary rock, is where gemstones such as jasper, malachite, zircon 
+and opal originate. 
+3) Metamorphic rock, gives rise to jade, lapis lazuli, turquoise, zircon, 
+and sapphire. 
+
+
+mining area with dark dwarves in KRynn.
+/d/Krynn/solamn/thief/theiwar/
+
+Commodity system
+/d/Genesis/lib/commodity.
+ Theros with his warfare item creations
+
+Search "theros" (216 hits in 108 files of 23954 searched)
+  W:\mud\Localmud\d\Krynn\clubs\warfare\README.txt (1 hit)
+	Line 40: unique to Krynn, that may be spent in the forge of Theros Ironfeld
+  W:\mud\Localmud\d\Krynn\clubs\warfare\warfare_club_soul.c (1 hit)
+	Line 374:         "Theros Ironfeld of Solace, who may be convinced to craft " +
+  W:\mud\Localmud\d\Krynn\common\log\board_data\b1544955722 (1 hit)
+	Line 5: areas. They can also only be used in commissioning masterwork gear from Theros
+  W:\mud\Localmud\d\Krynn\common\monster\caramon.c (1 hit)
+	Line 71: 		"Theros Ironfeld put a new blade on it today, but it " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\armours\masterwork_warfare_chainmail.c (2 hits)
+	Line 5:  * Created by Theros Ironfeld in Solace.
+	Line 9:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\armours\masterwork_warfare_leather.c (2 hits)
+	Line 5:  * Created by Theros Ironfeld in Solace.
+	Line 9:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\armours\masterwork_warfare_tunic.c (2 hits)
+	Line 5:  * Created by Theros Ironfeld in Solace.
+	Line 9:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\krynn_steel_coin.c (1 hit)
+	Line 6:  * It can be used to gain masterwork equipment from Theros Ironfeld
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\ellipse_azure_diamond.c (1 hit)
+	Line 42:         "weapons crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\ellipse_black_tourmaline.c (1 hit)
+	Line 37:         "weapons crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\ellipse_blue_diamond.c (1 hit)
+	Line 39:         "weapons crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\ellipse_blue_tourmaline.c (1 hit)
+	Line 36:         "weapons crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\ellipse_brown_tourmaline.c (1 hit)
+	Line 36:         "weapons crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\ellipse_red_tourmaline.c (1 hit)
+	Line 36:         "weapons crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\ellipse_violet_tourmaline.c (1 hit)
+	Line 36:         "weapons crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\ellipse_white_diamond.c (1 hit)
+	Line 39:         "weapons crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\ellipse_yellow_tourmaline.c (1 hit)
+	Line 37:         "weapons crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\glowing_oval_moonstone.c (1 hit)
+	Line 45:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\glowing_teardrop_beryl.c (1 hit)
+	Line 44:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\glowing_teardrop_bloodstone.c (1 hit)
+	Line 42:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\glowing_teardrop_carnelian.c (1 hit)
+	Line 39:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\glowing_teardrop_diamond.c (1 hit)
+	Line 39:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\glowing_teardrop_jade.c (1 hit)
+	Line 44:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\glowing_teardrop_opal.c (1 hit)
+	Line 43:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\glowing_teardrop_pyrite.c (1 hit)
+	Line 43:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\glowing_teardrop_spinel.c (1 hit)
+	Line 40:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\glowing_teardrop_topaz.c (1 hit)
+	Line 39:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\oval_amber_aragonite.c (1 hit)
+	Line 41:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\oval_azure_sapphire.c (1 hit)
+	Line 40:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\oval_black_sapphire.c (1 hit)
+	Line 40:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\oval_blue_sapphire.c (1 hit)
+	Line 42:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\oval_brown_agate.c (1 hit)
+	Line 41:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\oval_green_sapphire.c (1 hit)
+	Line 40:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\oval_magenta_sapphire.c (1 hit)
+	Line 40:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\oval_mauve_sapphire.c (1 hit)
+	Line 40:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\oval_milky_quartz.c (1 hit)
+	Line 41:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\oval_moonstone.c (1 hit)
+	Line 42:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\oval_purple_amethyst.c (1 hit)
+	Line 40:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\oval_rose_quartz.c (1 hit)
+	Line 41:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\oval_smoky_quartz.c (1 hit)
+	Line 41:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\oval_striped_chalcedony.c (1 hit)
+	Line 40:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\oval_violet_sapphire.c (1 hit)
+	Line 40:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\teardrop_beryl.c (1 hit)
+	Line 44:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\teardrop_bloodstone.c (1 hit)
+	Line 40:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\teardrop_carnelian.c (1 hit)
+	Line 35:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\teardrop_diamond.c (1 hit)
+	Line 35:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\teardrop_jade.c (1 hit)
+	Line 42:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\teardrop_opal.c (1 hit)
+	Line 42:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\teardrop_pyrite.c (1 hit)
+	Line 42:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\teardrop_spinel.c (1 hit)
+	Line 38:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\teardrop_topaz.c (1 hit)
+	Line 36:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\triangular_amber.c (1 hit)
+	Line 37:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\triangular_garnet.c (1 hit)
+	Line 37:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\triangular_peridot.c (1 hit)
+	Line 40:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\triangular_sea_agate.c (1 hit)
+	Line 40:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\magic_gems\triangular_topaz.c (1 hit)
+	Line 38:         "armours crafted by Theros Ironfeld in Solace, Krynn. When " +
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\masterwork_warfare_armour.c (2 hits)
+	Line 5:  * Created by Theros Ironfeld in Solace.
+	Line 9:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\masterwork_warfare_bow.c (2 hits)
+	Line 4:  * Created by Theros Ironfeld in Solace.
+	Line 8:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\masterwork_warfare_gauntlets.c (2 hits)
+	Line 5:  * Created by Theros Ironfeld in Solace.
+	Line 9:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\masterwork_warfare_leggings.c (2 hits)
+	Line 5:  * Created by Theros Ironfeld in Solace.
+	Line 9:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\masterwork_warfare_shield.c (2 hits)
+	Line 5:  * Created by Theros Ironfeld in Solace.
+	Line 9:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\masterwork_warfare_std_helm.c (2 hits)
+	Line 5:  * Created by Theros Ironfeld in Solace.
+	Line 9:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\masterwork_warfare_wand.c (2 hits)
+	Line 4:  * Created by Theros Ironfeld in Solace.
+	Line 8:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\masterwork_warfare_weapon.c (2 hits)
+	Line 4:  * Created by Theros Ironfeld in Solace.
+	Line 8:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\README.txt (3 hits)
+	Line 6: to have items forged by Theros Ironforge in Solace
+	Line 7: (/d/Krynn/solace/new_village/town_square/npcs/theros) who can be found at
+	Line 11: sold to Theros before he can forge them.
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\weapons\masterwork_warfare_1hspear.c (2 hits)
+	Line 4:  * Created by Theros Ironfeld in Solace.
+	Line 8:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\weapons\masterwork_warfare_2hspear.c (2 hits)
+	Line 4:  * Created by Theros Ironfeld in Solace.
+	Line 8:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\weapons\masterwork_warfare_axe.c (2 hits)
+	Line 4:  * Created by Theros Ironfeld in Solace.
+	Line 8:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\weapons\masterwork_warfare_dagger.c (2 hits)
+	Line 4:  * Created by Theros Ironfeld in Solace.
+	Line 8:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\weapons\masterwork_warfare_greataxe.c (2 hits)
+	Line 4:  * Created by Theros Ironfeld in Solace.
+	Line 8:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\weapons\masterwork_warfare_greatsword.c (2 hits)
+	Line 4:  * Created by Theros Ironfeld in Solace.
+	Line 8:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\weapons\masterwork_warfare_hoopak.c (2 hits)
+	Line 4:  * Created by Theros Ironfeld in Solace.
+	Line 8:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\weapons\masterwork_warfare_longsword.c (2 hits)
+	Line 4:  * Created by Theros Ironfeld in Solace.
+	Line 8:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\weapons\masterwork_warfare_mace.c (2 hits)
+	Line 4:  * Created by Theros Ironfeld in Solace.
+	Line 8:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\weapons\masterwork_warfare_staff.c (2 hits)
+	Line 4:  * Created by Theros Ironfeld in Solace.
+	Line 8:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\common\warfare\rewards\weapons\masterwork_warfare_warhammer.c (2 hits)
+	Line 4:  * Created by Theros Ironfeld in Solace.
+	Line 8:  *                                  buy a silver bar, bring it to Theros)
+  W:\mud\Localmud\d\Krynn\log\old.2016\typos (1 hit)
+	Line 1457: Jul  2 2005 /d/Krynn/solace/new_village/town_square/npcs/theros#356204 (Hektor)
+  W:\mud\Localmud\d\Krynn\old_area\sol\map (1 hit)
+	Line 34:            B       Blacksmith (Theros Ironfeld)
+  W:\mud\Localmud\d\Krynn\old_area\wayreth\log\library\mage\book\thelandsofcaliavoliv (1 hit)
+	Line 86:         d: Theros Inn             l: Post Office
+  W:\mud\Localmud\d\Krynn\rastlin\timeline.txt (1 hit)
+	Line 8: Theros Ironfeld starts forging the _NEW_ Dragonlance 11/28 351
+  W:\mud\Localmud\d\Krynn\rastlin\time_line.txt (2 hits)
+	Line 8: Theros Ironfeld starts forging the _NEW_ Dragonlance 11/28 351
+	Line 25: * Have Gunthar deliver the broken dragonlace from Icewall to Theros, if
+  W:\mud\Localmud\d\Krynn\solace\MAP (1 hit)
+	Line 34:            B       Blacksmith (Theros Ironfeld)
+  W:\mud\Localmud\d\Krynn\solace\new_village\town_square\local.h (2 hits)
+	Line 100: #define THEROS           (NPCS + "theros")
+  W:\mud\Localmud\d\Krynn\solace\new_village\town_square\npcs\repairs.c (2 hits)
+	Line 3: /* Repair code for Theros - Arman, October 2016
+	Line 6:  * Code included into theros.c
+	
+	
+  W:\mud\Localmud\d\Krynn\solace\new_village\town_square\npcs\theros.c (18 hits)
+	Line 2: *  Theros Ironfeld
+	Line 411:         say(QCTNAME(TP)+ " asks Theros something.\n");
+	Line 435:             say(QCTNAME(TP)+ " asks Theros to buy " +
+	Line 517:     set_name("theros");
+	Line 519:     set_living_name("theros");
+	Line 537:     set_commerce_savefile("/d/Krynn/common/commerce/theros_data");
+	Line 854:     set_default_answer("Theros did not hear your question over the noise " +
+	Line 1073:     // Removing the materials required to make it from Theros' stock
+  W:\mud\Localmud\d\Krynn\solace\new_village\town_square\rooms\smithy.c (18 hits)
+	Line 2: * Theros Ironforge's Smithy
+	Line 14: * Updated so that repair codes are now in Theros
+	Line 32: object theros;
+	Line 37:     if(!objectp(theros))
+	Line 39:         theros = clone_object(THEROS);
+	Line 39:         theros = clone_object(THEROS);
+	Line 40:         theros->move(TO);
+	Line 41:         theros->arm_me();
+	Line 48:     set_short("Theros Ironfeld's Smithy");
+	Line 49:     set_long("This is Theros Ironfeld's smithy. This smithy has been "
+	Line 95:     if ((str == "beer to human") || (str == "beer to theros") || 
+	Line 97:         (str == "beer theros") || (str == "beer smith"))
+	Line 103: 			+ QTNAME(theros) + ".\n");
+	Line 104:             theros->command("emote roars: Why thanks, good buddy!");
+	Line 105:             theros->command("emote downs the small beer in a single gulp!");
+	Line 106:             write("Theros gives you a hearty slap on the back!\n");
+	Line 107:             say("Theros gives " + QTNAME(TP) + " a hearty slap on the "
+	Line 128:       "Theros Ironfeld's Smithy\n\n" +

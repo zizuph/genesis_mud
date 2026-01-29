@@ -1,0 +1,41 @@
+        
+        ======================================
+        Basic Operations for Genesis ShipLines
+        ======================================
+        
+Obtaining a Ship Controller
+---------------------------       
+To start with, clone yourself a ship controller so that you
+can easily control the shiplines from wherever you are. The
+two most important commands are <ship> and <pier>. By using
+these two commands, you can get a view of all the running
+ships in the realm and have the ability to start, stop,
+goto, and inspect each line.
+
+   <clone /d/Genesis/gsl_ships/control/controller>
+
+To start, you should list the ships by typing <ship list>.
+This should give you the list of ships that are in the system.
+Note the status next to each of the ships. If a ship is properly
+running, it will say ENROUTE or BOARDING. If it says STUCK, then
+you should restart it.
+
+Restarting a Ship
+-----------------
+If a mortal reports a broken ship, or you simply need to restart
+it, just obtain the ID of the ship. Let's assume that the ID of
+the ship is 5. Here is what you would type to get it started
+again.
+
+> ship disable 5
+> ship enable 5
+> ship start 5
+
+Viewing ShipLine Timetable
+--------------------------
+If you want to see what the timetable is for a particular port,
+you can use the command: <ship timetable portname>. For example
+if I wanted to see all the lines timetable at Sparkle, I would
+type this in.
+
+> ship timetable Sparkle

@@ -1,0 +1,32 @@
+domain,quest desc,group,bit,hint,validation,arguments
+Ravenloft,Smuggler's Letter,1,0,smuggler_letter.txt,default
+Ravenloft,The Bank - Tour,1,1,bank_tour.txt,default
+Ravenloft,The Blacksmith - Tour,1,2,smith_tour.txt,default
+Ravenloft,Adventurer's Guild - Tour,1,3,adv_tour.txt,default
+Ravenloft,General Store - Tour,1,4,genstore_tour.txt,default
+Ravenloft,Postoffice - Tour,1,5,po_tour.txt,default
+Ravenloft,Lampstore - Tour,1,6,lampstore_tour.txt,default
+Ravenloft,Weaponstore - Tour,1,7,weaponstore_tour.txt,default
+Ravenloft,Yawning Eddy - Tour,1,8,yawning_tour.txt,default
+Ravenloft,The Eternal Order - tour,1,9,eo_tour.txt,default
+Ravenloft,The Bountiful - Tour,1,10,bountiful_tour.txt,default
+Ravenloft,Damon Skragg's Treasure,1,11,damon_treasure.txt,default
+Ravenloft,Vistani's Missive,1,12,vistani_missive.txt,default
+Ravenloft,Bear Quest,1,13,bear_quest.txt,default
+Ravenloft,Wererat Quest,1,14,wererat_quest.txt,default
+Ravenloft,Spider Quest,1,15,spider_quest.txt,default
+Ravenloft,Find Stonecircles Quest,1,16,stonecircles_quest.txt,default
+Ravenloft,Find Lich quest,1,17,find_lich.txt,default
+Ravenloft,Find Spider Lair quest,1,18,find_spiderlair.txt,default
+Ravenloft,Find Traveller quest,1,19,find_traveller.txt,default
+Ravenloft,Find Wererat Lair quest,2,0,find_wereratlair.txt,default
+Ravenloft,Collect Tablet quest,2,1,find_tablet.txt,default
+Ravenloft,Conch Quest,2,2,vamp_conch.txt,default
+Ravenloft,Kargat Insignia Quest,2,3,kargat_insignia.txt,default
+Ravenloft,Mummy Scroll quest,2,4,mummy_scroll.txt,default
+Ravenloft,Vampire Shrine quest,2,5,vamp_shrine.txt,default
+Ravenloft,Grim Fastness Attunement quest,2,6,gf_attunement.txt,default
+Ravenloft,Defeat Death,2,7,defeat_death.txt,default
+Ravenloft,Four Sisters Quest,2,8,four_sisters.txt,default
+Ravenloft,Last Sister Quest,2,9,last_sister.txt,default
+

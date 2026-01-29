@@ -1,0 +1,154 @@
+main
+::MAPDATA::
+catacomb_1 9 10
+catacomb_2 13 10
+catacomb_3 25 10
+catacomb_4 21 8
+catacomb_5 25 9
+catacomb_6 21 12 
+catacomb_7 21 14
+catacomb_8 21 6
+catacomb_hub 21 10
+crypt_1 29 12
+crypt_2 33 12
+crypt_3 29 14
+crypt_4 33 10
+crypt_5 37 12
+crypt_6 33 14
+crypt_7 37 10
+crypt_8 41 12
+crypt_9 37 14
+e_tunnel_1 45 8
+e_tunnel_2 45 10
+e_tunnel_3 45 12
+e_tunnel_4 41 8
+e_tunnel_5 41 10
+e_tunnel_6 37 8
+n_catacomb_1 13 8
+n_catacomb_2 13 6
+n_catacomb_3 17 8
+n_catacomb_4 13 4
+n_catacomb_5 17 4
+n_catacomb_6 21 4
+n_catacomb_7 17 6
+n_catacomb_8 25 4
+n_catacomb_9 29 4
+n_catacomb_10 25 6
+n_catacomb_11 29 6
+n_catacomb_12 25 8
+n_catacomb_13 29 8
+n_catacomb_14 29 10
+w_guard 9 12
+w_tunnel_1 5 12
+w_tunnel_2 5 10
+w_tunnel_3 5 8
+::MAPDATA::
+
+     
+ 
+      
+             o - o - o - o - o   
+             |   |       |
+             o   o  [ ]  o - o
+     |       |           |                   |
+     o       o - o   o   o - o       o - o - o
+     |       |       |  [ ]  |           |   |
+     o - o - o ----- o -[ ]  o   o   o  [ ]  o
+     |               |           |   |       |
+     o - o           o       o - o - o - o   o
+     |                       |   |   |
+                    [ ]      o   o   o
+
+::NEWMAP::
+upstairs
+::MAPDATA::
+build1 11 17
+build1-build2 11 15
+build1-cath 15 17
+build2 11 13
+build2-build3 11 11
+build2-build4 15 13
+build3 7 11
+build4_e 23 13
+build4_w 19 13
+build6 15 9
+build6-build7_1 15 7
+build_6_u 11 9
+build7_1 15 5
+cath-build1 19 17
+cath-build4 23 15
+dining_hall 31 11
+hall-build4 19 11
+hall-nwalk 23 7
+kings_chamber 35 11
+main_hall_1 19 9
+main_hall_2 23 9
+main_hall_3 27 9
+main_hall_4 31 9
+main_hall_5 31 13
+main_stairs_s 31 14
+main_stairs_n 35 9
+ne_alley 27 7
+ne_court_stairs 35 6
+ne_walk_1 27 1
+ne_walk_2 27 3
+ne_walk_3 27 5
+ne_walk_4 31 5
+ne_walk_5 35 5
+nwalk1 23 5
+nwalk2 23 4
+nwalk3 23 2
+nwalk4 23 0
+s_cathedral 23 17
+seer_tower 3 9
+sitting_room 35 13
+skywalk 7 9
+sw_court_stairs 4 15
+sw_wall_1 7 17
+sw_wall_2 7 15
+sw_wall_3 7 13
+throne_room 31 7
+::MAPDATA::
+                       o
+                       |   o
+                       o   |
+                       |   o
+                      [ ]  |
+               o      [ ]  o - o -[ ]
+               |       |   |      [ ]
+               o       o   o   o
+               |       |   |   |
+   o - o -[ ] [ ]- o - o - o -[ ] [ ]
+                   |           |
+       o - o       o           o   o
+           |       |           |   |
+       o   o - o - o - o      [ ] [ ]
+       |   |           |      [ ]
+   [ ][ ]  o           o
+       |   |           |
+       o - o - o - o - o 
+::NEWMAP::
+ntower
+::MAPDATA::
+ntower1 12 14
+ntower2 12 12
+ntower3 12 10
+ntower4 12 8
+timber 10 5
+special 15 1
+::MAPDATA::
+               ^
+              /|\
+             //|\\
+             //|\\
+          __   |
+         /,/
+        /./
+ ~~~~~~/`/~~~~~~~~~~~~~~~
+      /,/   o
+     /'/    |
+ ___/_/     o
+(   `';     |
+ ).,  @     o
+C '`  /     |
+\____/      o -

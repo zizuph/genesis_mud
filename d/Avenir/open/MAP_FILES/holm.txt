@@ -1,0 +1,93 @@
+main
+::MAPDATA::
+s_shore 10 3
+n_bridge 10 5
+m_bridge 10 7
+s_bridge 10 9
+court_n 24 9
+shore 10 11
+latch 10 13
+w_path10 14 13
+court_nw 20 13
+court_ne 24 13
+w_path9 10 15
+court_w 18 15
+court_e 22 15
+e_path9 29 15
+w_path7 6 17
+w_path8 10 17
+court_s 20 17
+ne_end 25 17
+e_path8 29 17
+w_path6 2 19
+cell4 5 19
+ne_path2 23 19
+e_path7 31 19
+w_path5 2 21
+w_path4 6 21
+ne_path1 21 21
+cell1 25 21
+e_path6 31 21
+cell5 33 21
+w_path3 10 23
+slope 18 23
+square_rm 23 23
+cell6 29 23
+e_path5 31 23
+w_path2 10 25
+cell3 14 25
+s_path1 18 25
+cell2 25 25
+e_path4 29 25
+w_path1 14 27
+s_path2 18 27
+s_path3 18 29
+e_path2 25 29
+s_path4 18 31
+e_path1 25 31
+s_path5 18 33
+enterlab 22 33
+s_path6 16 35
+::MAPDATA::
+              ___
+             / ^ \
+          | | | | |
+          o | | | |
+          |               ========
+          o               The Holm
+          |               ========
+          o
+          |
+          o             o
+          |            /|
+          o           / |
+          |          /  |
+          o   o     o   o
+          | /   \  / \ /
+          o       o - o ---- o
+          |        \ /       |
+      o - o         o    o   o
+    /               |   /     \       _____
+  o  o                 o       o     /    /\
+  | /                 /        |\   /____/\/
+  o - o              o   o     o o  \____\/
+        \           /   /     /|
+          o      [ ] - o     o o  
+          |       |     \     /
+          o   o   o      o   o
+        /   \ |   |         /
+              o - o        /
+                  |       /
+                  o      o
+                  |      |
+                  o ---- o
+                  |
+                  o - o
+                 /
+                o
+       \
+       _\,,
+      "-=\~     _
+         \\~___( ~
+        _|/---\\_
+        \        \ 

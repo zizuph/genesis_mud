@@ -1,0 +1,37 @@
+GUILD OBJECTS
+-------------
+
+Keepers of Telberin:
+
+/d/Emerald/common/guild/newkot/obj/leather_belt
+/d/Emerald/common/guild/newkot/obj/kot_dagger
+
+Membership items for the Keepers of Telberin elven racial guild.
+No special abilities.
+
+QUEST REWARDS
+-------------
+
+* The Crystal Torque - /d/Emerald/torque/torque.c
+
+  - Obtained through the crystal torque quest.
+
+  - Gives the owner a "scry" spell, which can be used on other torque owners.
+
+  - May be restored by executing the command
+
+        Call /d/Emerald/torque/torque restore_torque <name>
+
+    where <name> is the name of the player to whom the torque will be restored.
+    If successful, this Call should return an object reference to the new
+    torque. If 0 (zero) is returned, the torque could not be created, and an
+    error message may have been displayed.
+
+MISC OBJECTS
+------------
+
+* Marriage ring - /d/Emerald/common/marriage/ring.
+
+  - Given to bride and groom after purchased and pronounced man and wife.
+
+  - Gives emotes.

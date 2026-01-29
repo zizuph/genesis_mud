@@ -1,0 +1,50 @@
+ 
+                 ***************************
+                 * The Gladiators of Athas *
+                 ***************************
+ 
+  The Gladiators of Athas are the great duelists of a doomed
+land.  They live and die in the arenas that dot Cirath, ears
+ringing with screams: That of the bloodthirsty crowds, fallen
+opponents, and their own. Some say that most gladiators even
+hear their own death scream, echoed in their worst nightmares:
+It is this which gives them their fearless drive, which a
+lesser man would call madness. Of course they are entertainers
+as much as warriors, so the ferocity could be as much acting 
+as reality, but the crowds don't care: So jaded are the people
+of this land that only by watching another kill and die for
+them can they imagine triumphing over their own problems.
+ 
+==============================================================
+ 
+THE GUILDMASTER IS: Serpine, with Decius and Shiva helping.
+ 
+==============================================================
+              
+                         MAJOR FILES               
+                  - - - - - - - - - - - - -
+ 
+DEFINES : /d/Cirath/athas/gladiator/     guild.h    
+SOUL    : /d/Cirath/athas/gladiator/     glad_soul.c
+SHADOW  : /d/Cirath/athas/gladiator/     glad_sh.c
+MANAGER : /d/Cirath/athas/gladiator/log /manager.c
+CUIRASSE: /d/Cirath/athas/gladiator/obj /cuirass*.c
+CHARGEOB: /d/Cirath/athas/gladiator/obj /chargeob.c
+JOINROOM: /d/Cirath/athas/gladiator/room/joinroom.c
+COUNCIL : /d/Cirath/athas/gladiator/room/counmain.c
+ 
+The Manager handles maintenance of logs, council membership, 
+punishments, and cloning of the Cuirasse.  The cuirasse is 
+used for some title checking (depending on which one) and 
+intercepts function calls from guru quest npcs.  Chargeob 
+maintains the charge string set by higher rank gladiators.
+ 
+==============================================================
+ 
+                     TAX CALCULATIONS
+               - - - - - - - - - - - - - -  -
+ 
+BERSERK: /d/Cirath/info/guilds/gladiator.tax.berserk
+TOTAL  : /d/Cirath/info/guilds/gladiator.tax
+ 
+==============================================================

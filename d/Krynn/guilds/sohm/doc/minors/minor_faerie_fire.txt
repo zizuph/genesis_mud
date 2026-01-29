@@ -1,0 +1,46 @@
+
+     Spell name: Faerie fire
+                 wievaixen
+         Effect: A light spell shadowed on a weapon
+           Type: Maintained
+        Targets: Weapon
+        
+        Element: Air          / 20
+           Form: Enchantment  / 20
+    Spell power: Power 2 [Minor spell]
+     Spell type: shadow spell (light)
+     
+       Peaceful: No
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: None
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_ROUTINE
+     Combat Aid: 0% 
+
+            Tax:  0.25
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x1.0   Routine difficulty
+                  x1.5   no material component  
+                 ------
+                  0.375%  total tax
+   ------------------------------------------------------------
+   Comments: A spell that shadows a weapon with an object that
+   glows with a light value of between 1 and 5 depending on
+   the power of the spell:
+
+    // Int/wis of 100, spell skills 20 / 50 / 75 / 100
+    //             spell power:  269 / 284 / 302 / 317
+    //             light bonus:   1 / 2 / 2 / 3
+
+    // Int/wis of 200, spell skills  50 / 75 / 100
+    //             spell power:    348 / 364 / 384 
+    //             light bonus:     4 / 4 / 5
+   ------------------------------------------------------------

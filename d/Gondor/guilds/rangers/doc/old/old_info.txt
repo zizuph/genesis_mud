@@ -1,0 +1,377 @@
+============================================================================
+The Rangers of the Westlands, detailed information document
+	by Elessar, August 1994.
+
+============================================================================
+
+The Rangers of the Westlands started out as a kind of fighter guild,
+based on the Rangers as presented by JRR Tolkien in his masterpiece,
+the Lord of the Rings. The guild was opened in the spring of 1992,
+but has since been changed in some ways.
+The guild is of style 'ranger', which is a style defined as a mix
+between fighter, thief and cleric, but in no way possible to define
+as a single of those.
+The Rangers have only modest fighting skills, and are most proficient
+in 'general' skills. The skills defined as thief skills and magic skills
+are also taught to Rangers, but even these only to modest levels.
+
+JOINING THE RANGERS
+-------------------
+
+A player who wants to join the Rangers must first find the guildhouse,
+which is slightly hidden in a forest, requiring a little tracking and
+location sense skill to find. This will make it a little hard for
+complete newbies to join at least. Being able to reach the guildhouse
+is enough to be allowed to join, unless you are of evil alignment, or
+member of certain kinds of guilds or if you are a goblin.
+To join, the player must be in the room /d/Gondor/common/guild/recruithall.c
+and type 'sign name', signing up in the membership book present in that
+room. The player will find himself a Ranger pupil, with a rather limited
+membership. To be a full member, the pupil will have to convince a Captain
+or a Lieutenant of one of the three Companies of Rangers to be accepted
+into a Company. Becoming a full member means paying the full tax and
+being in a Company of the Rangers, thus subject to the skill-limits that
+Company offers. It is possible to leave a Company, but this is only for
+the Captain of that company to decide, and it will also mean that the
+skills the Ranger has trained above pupil level, will be lowered down
+to the pupil-level again.
+The Ranger will have the guild-shadow /d/Gondor/common/guild/ranger_shadow.c
+The guild-soul is /d/Gondor/common/guild/ranger_soul.c
+They will carry a guild-token to show their membership as well, and each
+Company has their own token. The tokens are not sellable, and worth nothing.
+The Rangers of Gondor and the Pupil Rangers: 
+	/d/Gondor/common/guild/rring.c
+The Rangers of Ithilien:
+	/d/Gondor/common/guild/ramulet.c
+The Rangers of the North:
+	/d/Gondor/common/guild/rbrooch.c
+
+
+LEAVING THE RANGERS
+-------------------
+
+A player who wants to leave the Rangers must go to the same room as
+where he joined, /d/Gondor/common/guild/recruithall.c and 'erase name'
+from the membership book there. The player will get his skills reduced
+as a punishment, so that (s)he won't find it much profitable to leave
+for another guild in the way of skills or abilities. If the ex-ranger
+also had a spellbook of the Rangers, it will be removed. Also, the
+SS_OCCUP stat will be set to zero, as all guilds should do when a
+member leaves, as that stat is a measure of how experienced the member
+is in 'being a member'.
+It is also possible to be thrown out of the Rangers, expelled or banned
+by a Captain of the guild. This is a punishment the Captains have the
+power to put on Rangers who do not act according to the rules of the guild.
+Being expelled or banned follows the normal leaving-function of the guild
+though, so there is no difference except this being a non-voluntary solution.
+
+
+THE RANGER COMPANIES
+--------------------
+
+The Rangers were at first one guild, and still is so. But for a bit
+more variety, they were split into three companies with different fields
+of interest. These are:
+
+The Rangers of the North.
+	A company with their hide-out in the lost realm of Arnor. They are
+	the remnants of the Dunedain of Arnor, protecting the lost realm
+	and the hobbits who now reside there from the growing evil.
+	They are based on Tolkien's Rangers of the North, and Strider/Aragorn
+	and Halbarad Dunadan were both Rangers of the North.
+	The North Company's field of interest is scouting, and they have
+	higher thief-skill levels than the other companies to reflect this.
+	Their startup-location is: /d/Gondor/common/guild/north/start_room.c
+
+The Rangers of Ithilien.
+	A company founded when the Gondorian peoples were evacuated from
+	Ithilien as Orcs of Mordor begun to raid the land. They have a
+	hide-out in the forests in Ithilien, and raid the enemy's armies
+	from there. They are based on Tolkien's Rangers of Ithilien,
+	and Faramir son of Denethor was a Ranger of Ithilien.
+	The Ithilien Company's field of interest is in fighting, raiding
+	the forces of Mordor. Thus they have higher skills in fighting
+	than the other companies. Their startup-location is: 
+	/d/Gondor/common/guild/ithilien/erockchamber.c	
+
+The Rangers of Gondor.
+	A company put together for gathering lore of ancient times, as
+	clerical or scholarly Rangers. They still know some fighting
+	and general skills, but clerical magic is their field of interest.
+	They are not based directly on anything Tolkien wrote, but are
+	still considered based on his Rangers. The Gondor Company have
+	higher magic skills than the other companies.
+	Their startup-location is: /d/Gondor/common/guild/startchamber.c
+
+To become a member of a Company, the player must be accepted into the
+Company by its Captain or Lieutenant, two positions being filled as
+part of the Council of Rangers, as leaders of the guild and its
+companies. This Council has all powers over the guild, and can also
+throw Rangers out of the Companies again, and even out of the guild.
+
+
+SKILLS OF THE RANGERS
+---------------------
+
+The Rangers are split into three companies, as well as a pupil level,
+that all offer different levels of skills. 
+
+Skill-name		Pupils		Gondor		Ithilien	North
+SS_WEP_SWORD		 50		 70		 80		 75
+SS_WEP_POLEARM		  0		  0		 65		  0
+SS_DEFENCE		 35		 45		 60		 45
+SS_PARRY		 10		 10		 40		 20
+
+SS_SNEAK		 40		 60		 60		 80
+SS_HIDE			 40		 60		 60		 85
+SS_AWARENESS		 60		 80		 75		 75
+SS_FR_TRAP		  0		  0		  0		  0
+
+SS_HERBALISM		 35		 75		 45		 40
+SS_ALCHEMY		  0		  0		  0		  0
+SS_SPELLCRAFT		 30		 60		 40		 40
+SS_ELEMENT_LIFE		 30		 50		 40		 40
+SS_FORM_CONJURATION	 10		 50		 20		 20
+SS_FORM_ABJURATION	  0		 30		  0		  0
+
+SS_TRACKING		 40		 60		 50		 80
+SS_LOC_SENSE		  0		  0		  0		 50
+SS_HUNTING		 40		 50		 50		 50
+SS_ANI_HANDL		  0		  0		  0		  0
+
+Ranger special skills
+SS_HEARING		 50		100		100		100
+SS_BRAWLING		 50	 	100		100		100
+
+Skills cannot be trained to these max levels from the start, but are limited
+by the SS_OCCUP stat which again may be modified by penalties/rewards each
+Ranger may have been given by the Captains.
+
+
+SPECIAL ABILITIES
+-----------------
+
+The Rangers have some abilities exclusive to them. They are abilities
+that hopefully will give the Ranger a better chance of surviving and
+avoiding danger. These abilities are:
+
+Listen <direction>: Give the Ranger a possible indication if livings are
+	present in that direction. With higher skill more info about the
+	livings can be gained, like corporal size, and race. 
+	The listen skill is no. 81209.
+
+Brawl <opponent>  : The Ranger's form for combat aid. These are 'dirty' tricks
+	in combat, and gives a random effect of either throwing sand in the
+	opponents eyes, or knocking his weapon out of his hand.
+	Blinding is reached by setting the LIVE_I_SEE_INVIS prop in the
+	player to -1, which means blindness in mudlib terms.
+	Disarming will force the disarmed living to unwield its weapon,
+	and in rarer cases to drop it. 
+	The brawling skill is no. 81200.
+	Brawling can be stopped from working in special monsters that for
+	example have no eyes to blind, by setting a property in them:
+		"_ranger_i_not_brawl"
+
+These abilities both depend on skills that must be trained, and are
+thus limited by guild-rank and Company. It is also possible for a Ranger
+to be punished, so that his brawl and listen skill works only half as
+good.
+
+
+COUNCIL OF RANGERS
+------------------
+
+Each of the three Companies have a leader, the Captain, who is a mortal
+player. The position has nothing to do with stats or guild-rank of
+any kind, but is a position the Ranger is elected into. In the election,
+only the council-members may suggest candidates, but all Rangers of
+the Company may vote in the election.
+The Captain elected can then choose a deputy, the Lieutenant, a decision
+only the Captain can make - no election. The Lieutenant has deputized
+powers, like being able to admit pupil Rangers into his Company, rewarding
+or degrading them in rank, or punishing Ranger-abilities.
+Only the Captain can remove punishments again, and only the Captains can
+hand out the serious punishments, like expulsions and bannings.
+The code of the council is in a few files, and is probably the most
+complicated code of the Ranger guild :-) It can be found in these files:
+/d/Gondor/common/guild/council.c   /d/Gondor/common/guild/lib/councilroom.c
+and their commands are in the ranger_soul.c, in the include-file:
+/d/Gondor/common/guild/lib/rwiz.h.
+The Council-members have no real privileges by their position, they still
+have the same abilities as other Rangers, with no bonuses. Their only
+extra powers are those that are used for administrative purposes, and they
+are all logged to prevent abusive players.
+
+
+RANGERS AND MAGIC
+-----------------
+
+As the profession Ranger has been defined, a Ranger has abilities within
+fighting, scout/thieving and clerical magic.
+The Rangers have purposely been split into three divisions, each focusing
+on one of these three ability-classes, thus somewhat neglecting the two
+others instead. Still, the magic offered to the Rangers, particularly
+to the Rangers of Gondor, the 'clerical' affiliated Company, is not plentiful.
+They have up until August 1994 had 4 spells for their use, but a major
+change is forthcoming as this document is written.
+The main change is that the Rangers will have more spells available, though
+only being able to get some of them, so they will have to choose with care.
+They will pay a certain tax for this, and I have chosen to tax the spells
+using common sense with the 'man magic' docs (even though they are not
+official), using the Magical Layman table.
+The spells will be documented when finished, in the directory
+/d/Gondor/open/SPELLS/rangers/ 
+
+The magic offered to Rangers is in no way offensive. They are either
+healing, protecting, or for utiliary use.
+
+
+RANGERS GUILD TAX
+-----------------
+
+	   		Pupils		Gondor		Ithilien	North
+Skill-name		max (tax)       max (tax)       max (tax)       max (tax)
+SS_WEP_SWORD		 50 ( 20)	 75 ( 45)	 80 ( 50)	 75 ( 45)
+SS_WEP_POLEARM		  0 (  0) 	  0 (  0)	 70 ( 40)	  0 (  0)
+SS_DEFENCE		 35 ( 15)	 55 ( 35)	 70 ( 50)	 55 ( 35)
+SS_PARRY		 15 ( 15)	 25 ( 25)	 50 ( 50)	 25 ( 25)
+	sum		100 ( 50)	155 (105)	270 (190)	155 (105)
+
+SS_SNEAK		 50 ( 20)	 70 ( 50)	 70 ( 50)	 90 ( 70)
+SS_HIDE			 50 ( 20)	 70 ( 50)	 70 ( 50)	 90 ( 70)
+SS_AWARENESS		 70 ( 20)	 80 ( 30)	 80 ( 30)	 85 ( 35)
+(SS_FR_TRAP		  0 (  0)	  0 (  0)	  0 (  0)	  0 (  0))
+	sum		170 ( 60)	220 (130)	220 (130)	265 (175)
+
+SS_HERBALISM		 35 ( 15)	 70 ( 50)	 45 ( 25)	 45 ( 25)
+(SS_ALCHEMY		  0 (  0)	  0 (  0)	  0 (  0)	  0 (  0))
+SS_SPELLCRAFT		 30 ( 10)	 65 ( 45)	 40 ( 20)	 40 ( 20)
+SS_ELEMENT_LIFE		 30 ( 10)	 50 ( 30)	 40 ( 20)	 40 ( 20)
+SS_CONJURATION		 10 ( 10)	 50 ( 50)	 20 ( 20)	 20 ( 20)
+SS_ABJURATION		  0 (  0)	 30 ( 30)	  0 (  0)	  0 (  0)
+	sum		105 ( 45)	265 (205)	145 ( 85)	145 ( 85)
+
+SS_TRACKING		 40 ( 10)	 60 ( 30)	 65 ( 35)	 85 ( 55)
+SS_LOC_SENSE		  0 (  0)	  0 (  0)	  0 (  0)	 50 ( 20)
+SS_HUNTING		  0 (  0)	  0 (  0)	  0 (  0)	  0 (  0)
+(SS_ANI_HANDL		  0 (  0)	  0 (   )	  0 (  0)	  0 (  0))
+	sum		 40 ( 10)	 60 ( 30)	 65 ( 35)	135 ( 75)
+
+	total		415 (165)	700 (470)	700 (440)	700 (440)
+Tax levels including
+factor 1.5 for combat
+and weapon skills:	    (190)	    (523)	    (535)	    (493)	
+Tax:			     3.16%	     8.71%	     8.91%	     8.21%
+			
+
+Spell taxes:
+See the documents on spells and potions in /d/Gondor/open/SPELLS/rangers/.
+
+Spells:
+		Class		Tax		Level
+whistle		  1		0.1 %		  5
+nightvision	  1		0.1 %		  5
+rest		  2		0.25%		 10
+elbereth	  2		0.25%		 10
+heal		  3		0.5 %		 15
+cleanse		  3		0.5 %		 20
+				1.7 %
+
+A ranger can only learn a limited number of spells, according to his
+or her company and the levels of the spells. Pupils can learn up to 20
+levels, Rangers of Gondor up to 100 levels, and Rangers of the North
+and Rangers of Ithilien up to 60 levels.
+
+Thus the tax for pupils is 0.5 %, for Rangers of Gondor 1.7 %, and for
+Rangers of the North and of Ithilien, it is 1.6 %.
+
+
+Potions:
+Ranger potions have direct effects, and can be mixed successfully only
+by rangers. Therefore, they are taxed like spells.
+
+		Class	Tax
+avarywalme	  2	0.25%
+este		  2	0.25%
+wenya		  2	0.25%
+			0.75%
+
+The potions avarywalme and este have the same or comparable effects as
+the ranger spells heal, rest, and cleanse. Therefore, they should not
+be taxed as separately, but the identical effects should be taken into
+account by reducing the total tax for spells and those potions.
+However, this reduction has not been applied.  
+
+
+Other taxable abilities:
+Brawling:
+MAX_TIME_TO_RECOVER       35
+MIN_TIME_TO_RECOVER       15
+MAX_TIME_BRAWL            22
+MIN_TIME_BRAWL             7
+TIME_BEFORE_ACTUAL_BRAWL   6
+
+It takes max 41 seconds between each brawl, and minimum 21 seconds,
+based on the brawl-skill. The effect of a brawl lasts between 7
+seconds and 22 seconds, also depending on the brawl-skill. A drawback
+implemented in brawling is that the victim of a brawl will a little by
+little 'learn' how to avoid being brawled, and so the effectiveness
+decreases after some fighting. 
+The chance of a successful brawl is ~50%, but then decreasing as the
+victim 'learns' to avoid it. Disarming will happen about 30% of the
+time, and the chance for a total disarm (i.e. dropping of weapon) is
+~25%. 
+A calculation based on how these effects work on combat, using a lot
+of common sense and help from statistical experts (Milan of Rhovanion)
+was made, judging brawling to give a combat aid of about 80%. Being
+blinded means a decreased combat ability for the victim, as does being
+disarmed. But the 'learning' part weighs this out a little, and an
+agreement with the AoB Olorin decreased the combat aid with 10% for
+this drawback. 
+Brawling is also dependant on a guild-specific skill, no 118200, which
+then halves the combat aid to 35%.
+According to the rules, this will mean a tax of 35% / 6 = 5.83%
+
+Listen:
+The 'listen'-ability is based on a guild-specific skill, no 118209.
+It allows the Ranger a chance to hear if there are any livings in the
+next room. As a special ability with relatively minor effect, this was 
+taxed to 0.5% for full rangers who can train the ability to sup guru,
+and 0.25% for pupils.
+
+Shops, pubs etc:
+There are no pubs or shops that give the Rangers a better deal than
+other players. The only 'prejudice' is towards evil players, who are
+just refused to trade there, but this does not affect the taxing.
+The Rangers do not have a weapon-rack, nor any tell-abilities.
+
+
+TAX LEVELS
+A summary of the taxing:
+	         Ranger pupils:	 Gondor:	Ithilien:	North:
+Skill-levels     3.17%		  8.72%		 8.92%		 8.22%
+Brawl            2.91%		  5.83%		 5.83%		 5.83%  
+Listen           0.25%		  0.5 %		 0.5 %		 0.5 %
+Spells		 0.5 %		  1.7 %		 1.6 %		 1.6 %
+Potions          0.75%            0.75%          0.75%           0.75%                    
+		 7.58%		 17.5 %		17.6 %		16.9 %
+
+	Actual:  8   %		 18   %		18   %		18   %
+
+
+These taxes will be revised again as the new Ranger spells arrive.
+Most likely, the tax will be raised by 3-5 %
+
+
+//Elessar Telcontar, Guildmaster of the Rangers of the Westlands
+	July 1994.
+
+//Last modification: Olorin, August 1997.
+			Modified skill tax calculation.
+			Modified spell and potion tax calculation.
+
+// Modified by Tigerlily, March 23, 2004--increased Ithilien skill
+   in SS_ABJURATION_FORM from 0 to 15 levels (15 * .1 /6 = .25 increase)--
+   when added to 17.6% tax this equals 17.85, when rounded there is no
+   net increase in tax. This was done to correct a bug in ithilien
+   training.

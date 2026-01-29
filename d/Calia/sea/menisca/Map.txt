@@ -1,0 +1,39 @@
+                             Map of Menisca
+
+
+
+
+		* - *   R   * - * - *   R - * - *            
+		    |   |   | X | X |   |       |            
+		* - R - *   * - 1 - *   * - *   *              W - Gate
+		| / |   |       |     /   \                     |      
+		*   * - * - *   *   *   * - * - *      G - R - R    
+		            | X |   |             \    | / |
+		* - *   * - *   *   *       * - *  R - R - G
+		| X |       |   |   |       | X |       
+		* - 2 - * - * - L - * - R - 4 - *  
+		| X |   |     S |   |       | X |  
+		* - *   * - *   * - *       * - *  
+		        |       | X |        
+		*   * - R - R - R - * - R - R - *
+                |       |       |       | \ | 
+                *   * - *   * - 3 - *   *   * 
+                  \ | X |   | X | X |   |     \  
+                    * - *   * - * - *   *       *
+
+
+Legend :
+
+* - Standard path
+
+1 - Shrine to Lady Gu
+2 - Shrine to Lord Diabrecho
+3 - Shrine to Lord Pyros
+4 - Shrine to Lady Aeria
+
+L - Library
+G - Guard Towers
+R - Ruined Road
+S - Secret Room from library
+W - Wall Breach
+

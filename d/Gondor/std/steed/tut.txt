@@ -1,0 +1,57 @@
+
+Steed tutorial, Fysix@Genesis, September 1997 
+---------------------------------------------
+
+The basic object to inherit to build a steed is steed.c. You can already
+make a decent steed, like a wulf or a horse by just using this object.
+
+Interesting functions may be:
+
+Create the steed:
+  void create_steed();
+
+Set the maximum number of riders the steed can have:
+  void set_max_riders(int i);
+Important!: if the steed can carry more than 1 rider, all other riders
+will follow everywhere to whereever the first rider goes. This might
+raise some problems. Steeds however cannot go to places that have the
+ROOM_I_NO_ALLOW_STEED property set by standard. Places where players
+are not supposed to come on a steed will use this property.
+So be sure your steed makes use of this property!
+
+Check who can mount, dismount and lead the steed:
+  int can_mount(object player);
+  int can_dismount(object player);
+  int can_lead(object player);
+
+Set the places where the steed can go and can't go,
+Don't use huge arrays of properties, since each property will checked before
+the steed is moved to a new destination:
+Valid and invalid destinations when steed as riders:
+  void set_valid_dest(mixed property_array);
+  void set_invalid_dest(mixed property_array);
+Invalid destinations when steed has no riders:
+  void set_invalid_unmounted_dest(mixed property_array);
+
+Who are riding the steed, and who is driving it?
+  object *query_riders();
+  object query_driver();
+
+(Dis)allow mounted combat:
+  void allow_mounted_combat(int allow);
+
+Set the food which the steed can eat:
+  void set_allowed_food(mixed array_of_food_names);
+
+Have your own shadow for riding around (your shadow must inherit
+the normal steed shadow though):
+  void set_steed_shadow(string your_shadow_file_name);
+
+List of objects used for steeds:
+--------------------------------
+
+All objects are currently located in /d/Gondor/std/steed/.
+
+steed.c      The steed object.
+steed_sh.c   The steed shadow. Shadows the rider for riding around.
+lead_sh.c    A shadow for leading steeds.

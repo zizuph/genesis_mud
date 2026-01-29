@@ -1,0 +1,42 @@
+
+     Spell name: Dazzle
+                 okiai
+         Effect: Slow spell
+           Type: Slow spell
+        Targets: Enemy
+        
+        Element: Air          / 30
+           Form: Enchantment  / 30
+    Spell power: Power 2 [minor spell]
+     Spell type: Maintained 
+     
+       Peaceful: No
+     Stationary: No
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: none
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard (30 mana) 
+     Difficulty: TASK_ROUTINE
+     Combat Aid: 0% 
+
+
+            Tax:   0.25
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x1.0   routine difficulty
+                  x1.5   no material component  
+                 ------
+                  0.375%  total tax
+   ------------------------------------------------------------
+   Comments: Standard slow spell. Offers no combat aid, however
+   results in the player suffering from dazzle to move between
+   rooms much more slowly, making it a handy utility/pvp spell
+   against foes that flee or players that are good at hunting. 
+
+   Set slow interval set to 2.5 (less than MM / EC)
+   ------------------------------------------------------------

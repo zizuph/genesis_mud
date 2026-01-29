@@ -1,0 +1,19 @@
+// all autoloading objects in Earthsea (path, how obtained,
+   special features, special info about restoration):
+
+AUTOLOADING:
+
+Clock:
+/d/Earthsea/events/earthsea_events
+
+
+SHIP PIERS:
+
+/d/Earthsea/ships/ansalon_line/west_pier2.c
+/d/Earthsea/ships/calia_line/west_pier1.c
+/d/Earthsea/ships/avenir_line/east_pier1.c
+/d/Earthsea/ships/sparkle_line/east_pier2.c
+/d/Earthsea/ships/oranea_line/west_pier3.c
+
+
+

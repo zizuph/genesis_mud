@@ -1,0 +1,305 @@
+Message: 27
+From   : Ckrik
+Subject: Proposal Take 2
+To     : Rhyn
+CC     : Ckrik
+Date   : Fri Jan  2 02:17:40 2004
+
+I just noticed that the one I first sent you didn't turn out too well.
+Here's the better version.  The ???'s will get filled in once I start
+coding them.
+
+*****Introduction*****
+
+The Wizards of Roke as described in Ursula K. LeGuin's Earthsea series 
+are wizards that draw their power from manipulating "true names".  
+Whether it is summoning fire or calming an earthquake they must speak 
+in "true speech", also the language of dragons that live in Earthsea.
+They're adept at sea and are masters at manipulating wind; seafarers
+all over Earthsea gladly welcome Roke wizards aboard because of their
+abilities to summon fair winds.  Abilities that feature prominently in
+the books include transforming into creatures such as sea gulls, hawks,
+and even dragons (human beings are also theoretically possible),
+blocking an opponent's spell casting abilities, manipulating wind,
+and summoning dead souls.
+
+*****Role in Earthsea and Genesis*****
+
+Their role in Earthsea for those not well versed in Earthsea lore, is
+much like the role of the Jedi Order in George Lucas' Star Wars'
+Old Republic.  Like the Jedi Order, they stress the importance of natural
+balance and are careful to not disturb it.  Thus they do not participate
+in crusades or meddle in political affair much, though they are good
+aligned.  However, they do whatever is necessary to keep peace and
+prosperity in the lands they roam and hold influence over.  Thus in
+Genesis they will be barred from entering into formal guild alliances,
+but they may still declare guild wars if attacked and individual mages
+may assist any good aligned causes at their own discretion if not
+explicitly forbidden by the Archmage.
+
+*****Guild Location and Internal Dynamics**********
+
+The Wizard's School is located in Thwil on the island of Roke, also
+known as the Isle of the Wise.  The island is isolated in the middle of
+the Inmost Sea in the Earthsea Archipelago.  The entire island of Roke
+is a part of the school's grounds and protected by Roke magic.  The guild
+can, at its discretion, barr certain individuals from setting foot on the
+island magically.  The school is led by the Archmage of Earthsea and a
+council of the Nine Masters of Roke (Windkey, Hand, Herbal, Chanter,
+Changer, Summoner, Namer, Patterner, and Doorkeeper).  Most decisions 
+regarding the guild are made by the Archmage.  One notable exception is
+the acceptance of new apprentices, which is handled by Master Doorkeeper.
+Critical decisions require the full council in which the Archmage has
+no vote.  The Archmage may only accept or veto a decision by the council.
+To overturn an Archmage's veto, a super majority of seven Masters must vote
+for such a veto.  Decisions that require full council include but not
+limited to selecting a new Archmage or Master of Roke and declaring war on
+another guild.  An Archmage can be deposed by a super majority of seven
+Masters of Roke.  A Master can also be removed with a super majority of
+seven Masters of Roke.
+
+*****Membership*****
+
+The guild is divided into three levels, apprentice, sorcerer, and mage.
+All races may join the guild, but are required to maintain blessed and above
+alignment.  Once Master Doorkeeper approves the application, a prospective
+member may apprentice under a full mage to learn the arts of the guild.
+No offensive spells are taught to apprentices.  After doing tasks assigned
+and deemed ready by his/her master and the Archmage, the apprentice may
+become a sorcerer and start learning the high art of Roke, which include
+offensive spells.  After completing a major task assigned by the Archmage
+and earning enough guild experience, a sorcerer may become a full mage.
+A full mage may acquire all arts taught by the guild and be selected to
+serve as Archmage or a Master of Roke in addition to being able to take
+an apprentice under their wing.
+
+*****Spells, Abilities, and Special Perks*****
+
+The Wizards of Roke ability wise as realized in Genesis are pure mages 
+that focus primarily on the element air and secondarily on water.  All
+forms except enchantment are trained, though the number of total levels
+an individual can train is limited to 2 * SS_WIS levels.  How those
+levels are distributed is up to the player but limited by the maximum 
+level of each individual skill is trained in the guild.
+
+The guild does not train any combat skills beyond what is available
+freely in adventurer guilds.  For levels 3 and 4 spells the caster must
+wield a blunt polearm (e.g. staff) in order to yield full effectiveness.
+Wearing more than 15 kg of armour will also reduce the success rate of
+casting spells.  Wearing more than 30 kg of armour will make casting
+spells impossible.  Spell casting abilities are severely limited when
+the caster is intoxicated.  Also no healing magic is trained.  Guild
+members may not join a layman magic using guild, the sole exception 
+currently in the game is Minstrels.
+
+Roke wizards and apprentices will have free passage on ships that sail
+in Earthsea.  They can also summon magewind to speed any ship along to
+its destination faster.  Wizards that complete a quest and buy all the
+necessary materials can commission a personal magically enchanted boat
+that can sail them and their companions to any pier within Genesis.
+The Immanent Grove on Roke, available to guild members only, regenerate
+mana at four times the normal rate when one meditates in it.
+
+*****Spell List*****
+
+*****Level 0 Spells*****
+??? (Fireworks)
+     Creates fireworks in a room.
+??? (Rain)
+     Summon rain cloud that follows someone.
+??? (Frog)
+     Make someone look and sound like a frog temporarily.
+??? (Rat)
+     Make someone look and sound like a rat temporarily.
+??? (Sheep)
+     Make someone look and sound like a sheep temporarily.
+??? (Pig)
+     Make someone look and sound like a pig temporarily. 
+
+*****Level 1 Spells*****
+??? (Fog) (Water & Illusion)
+     Summons a fog that blinds all living in room.
+          = 0.1%
+??? (Detect Alignment) (Water & Divination)
+     Detects the alignment of target.
+          x1.5 tax - no components
+          = 0.15%
+??? (Fair Wind) (Air & Conjuration)
+     Reduces travel time on ships in transit.
+          x1.5 tax - no components
+          = 0.15%
+??? (Light) (Air & Conjuration)
+     Create 1 light.
+          x1.5 tax - no components
+          = 0.15%
+??? (Rest) (Water & Abjuration)
+     Reduces exhaustion in target.
+          = 0.1%
+??? (Summon Hawk/Falcon/Pigeon/Harrekki) (Air & Conjuration)
+     Summons a messenger bird.
+          x1.5 tax - no components
+          = 0.15%
+??? (Calm) (Water & Abjuration)
+     Reduce panic in target.
+          x1.5 tax - no components
+          = 0.15%
+
+Total Level 1 Spells = 0.95%
+
+*****Level 2 Spells*****
+Pensare (Identify Magic Item) (Air & Divination)
+     Identify magical properties of an item.
+          x1.5 tax - no components
+          = 0.325%
+Deligo (Slow) (Air & Conjuration)
+     Binds the target with invisible ties that decreases the target's
+     LIVE_I_QUICKNESS temporarily.
+          x0.8 tax - components > 1 gp
+          = 0.2%
+??? (Haste) (Air & Transmutation)
+     Increase target's LIVE_I_QUICKNESS temporarily.
+          x0.8 tax - components > 1 gp
+          = 0.2%
+??? (Mirror Image) (Air + Water & Illusion)
+     Create a mirror image illusionary body double that causes enemies
+     to miss when attempting to deal a blow.  How good the illusion is
+     depends on the caster's SS_INT, SS_WIS, and SS_SPELLCRAFT.
+     Whether the caster's enemies fall for it, depends on their SS_INT,
+     SS_WIS, and SS_AWARENESS.
+          x0.8 tax - components > 1 gp
+          = 0.2%
+??? (Scry) (Air & Divination)
+     Scry a target from a remote location.
+          x3 tax - object in another room
+          x0.7 tax - components > 1 pp
+          = 0.525%
+??? (Detect Living) (Water & Divination)
+     Detects and reveals the presence of all livings in the room
+     regardless of whether they're invisible, hiding, or sneaking.
+          x2 tax - all in room
+          x0.8 tax - components > 1 gp
+          = 0.4%
+??? (Peace) (Air + Water & Abjuration)
+     Renders all targets in room unable to initiate attack for a period
+     of time.  Existing combat will also be stopped as well.
+          x2 tax - all in room
+          x1.5 tax - no components
+          = 0.75%
+??? (Frost Armour) (Water & Conjuration)
+     Conjures a body armour that is at most 40 AC temporarily.
+          x0.8 tax - components > 1 gp
+          = 0.2%
+??? (Summon Boat) (Air + Water & Conjuration)
+     Summon the caster's personal boat if he/she has one.
+          = no tax - already taxed as a special ability
+
+Total Level 2 Spells = 2.8%
+
+*****Level 3 Spells*****
+Fulmenati (Chain Lightning) (Air + Water & Conjuration)
+     Direct lightning damage on 1 to 3 enemies with an expected value
+     of 1.75 enemies hit.  Severe damage will result in a brief stun.
+          x1.5 tax - multiple enemies
+          = 0.75%
+Arma (Globe of Force) (Air + Water & Abjuration)
+     Envelop the caster in a globe of light that adds up to 60 AC to 
+     all hit locations temporarily.
+          x0.8 tax - component > 1 gp
+          = 0.4%
+??? (Invisible) (Air & Transmutation)
+     Turns the caster invisible.
+          x0.8 tax - component > 1 gp
+          = 0.4%
+??? (Dispel Enchantment Single Object) (Air + Water & Abjuration)
+     Dispel enchantment of a single object or being.
+          x0.7 tax - components > 1 pp
+          = 0.35%
+??? (Freeze) (Water & Transmutation)
+     Freeze the target in a block of ice to prevent target from 
+     attacking or being attacked.
+          x0.8 tax - components > 1 gp
+          = 0.4%
+
+Total Level 3 Spells = 1.9%
+
+*****Level 4 Spells*****
+??? (Dispel All Enchantments in Room) (Air + Water & Abjuration)
+     Dispels all enchantments in a room including objects in inventory.
+          x1.5 tax - all objects in room
+          x0.7 tax - components > 1 pp
+          = 1.05%
+Occurrere (Counter Spell) (Air + Water & Abjuration)
+     Renders the target unable to cast spells in the presence of the
+     caster.  The higher the SS_INT and SS_WIS of the target, the more
+     difficult the spell is to cast.  Targets with > 75% SS_INT + 
+     SS_WIZ of the caster cannot be affected.
+          x1.5 tax - no components
+          = 1.5%
+Bakuryuuha (Violent Air Stream) (Air & Conjuration)
+     Direct lacerating air damage on a team of enemies.  Severe damage
+     will also result in disarming the enemy.
+          x2 tax - all enemies in a team
+          x0.8 tax - components > 1 gp
+          = 1.6%
+Altera (Changing) (Air + Water & Transmutation)
+     Change into an object or living being.  Changing into an object
+     will only allow the caster to acquire the object's appearance.
+     Changing into a living will allow the caster to acquire the
+     living's physical stats (SS_STR, SS_DEX, and SS_CON), attacks, and
+     hit locations.  If the living is not humanoid, the skills
+     SS_UNARM_COMBAT and SS_DEFENCE will be set to 25% of the caster's
+     SS_INT + SS_WIS capped at 75 levels.  The living must be present
+     in the game and the number of forms the caster can remember the
+     form of is 10% of SS_INT.  The difficulty increases with being's
+     intelligence and wisdom unless the being agrees.  The only one will
+     be Segoy, the dragon that created Earthsea, who after the caster's
+     completing a quest will grant a high level Roke mage the ability to
+     change into him, a 300 SS_STR, 250 SS_DEX, and 300 SS_CON flame
+     breathing dragon.  Changing into a living with > 50% of the caster's
+     SS_INT or SS_WIS without permission is impossible.
+          x0.7 tax - components > 1 pp
+          x1.5 tax - max 20 mins
+          = 1.2% --> 3% (very powerful spell)
+
+Total Level 4 Spells = 7.15%
+
+Total Spell Tax = 12.8%
+
+*****Skill List*****
+
+Skill                   Levels    Levels Taxed  Rate       Subtotal
+SS_HERBALISM            40        20            0.0166667  0.3333333
+SS_SPELLCRAFT           90 (100)  80            0.0166667  1.3333333
+SS_ELEMENT_AIR          90 (100)  80            0.0166667  1.3333333
+SS_ELEMENT_WATER        80        60            0.0166667  1.0000000
+SS_FORM_CONJURATION     80        80            0.0166667  1.3333333
+SS_FORM_ABJURATION      90        90            0.0166667  1.5000000
+SS_FORM_DIVINATION      30        30            0.0166667  0.5000000
+SS_FORM_ILLUSION        20        20            0.0166667  0.3333333
+SS_FORM_TRANSMUTATION   90        90            0.0166667  1.5000000
+SS_POLEARM              30        0             0.0000000  0.0000000
+SS_DEFENCE              20        0             0.0000000  0.0000000
+		
+SS_TRUE_SPEECH          100       0             0          0
+
+Total Levels            580       550           Total Tax  9.1666667
+
+
+*****Other*****
+
+Free ship passage                                           0.5% tax
+Herb Store                                                  1% tax
+Immanent Grove (x4 mana regeneration when meditation in it) 1% tax
+Mage Equipment Shop (Staff and cloak)                       1% tax
+Personal Ship                                               +1% tax
+Change into dragon                                          +2.5% tax
+
+
+*****Total Tax*****
+
+Apprentice Tax            = ???
+Sorcerer Tax              = ???
+Full Mage Tax             = 25.46%
+     + Personal Ship      = 26.46%
+     + Change into dragon = 29.96%
+

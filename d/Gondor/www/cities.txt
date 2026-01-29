@@ -1,0 +1,24 @@
+
+Cities of Gondor
+<UL>
+<LI>Edoras--Located on the sweeping plains of Rohan, Edoras is the capital 
+city of the Rohirrim. 
+<LI>Minas Tirith--The last stronghold of the Numenoreans
+against the growing evil in Mordor. Here you may find many of the amenities
+of civilization, such as an armourer, weapon dealer, herbalist, jewelry shop,
+and a nice inn. Visit Hunthor to find tasks.
+<LI>Minas Morgul--Beware the watchful Eye if you venture to this city.
+<LI>Pelargir--In Pelargir, a harbour town, you can catch a ship to all areas of
+the realms and find Lord Councillor Carastur who dispenses quests.
+The Dunedain guild is located here as well as the Storytellers Club.
+</UL>
+
+<P>
+
+</P>
+{strip}
+      {pagelink pre="Previous page:" name="Gondor Domain Page" href="d/Gondor/index.txt"}
+ {/strip}
+{strip}
+      {pagelink pre="Next page:" name="Guilds of Gondor" href="d/Gondor/guilds.txt"}
+ {/strip}

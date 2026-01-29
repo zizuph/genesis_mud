@@ -1,0 +1,34 @@
+/*
+                                                            
+              \                                             
+               `,                                   ,'      
+                 \                                 /      
+       O    16     o                 O           o
+        \     \   /                  | \        /|\
+         `,     o        H           |  11    o  |  o     20   ,'
+           \   / \       |           |       /   |   \   /    /
+ O     h     O     h     o    13-----o-----o  H--o     o     O
+  \     \  /   \         |           |\          |   /     /  \
+   `,     o     `,       |           |  12       |  19   ,'     o     ,'
+     \  /  \      \      |           |           |      /      / \   /
+       O    `o     o-----O-----o-----O-----o-----O-----o     18    O
+        \     \          |     |     |     |               /      /
+         `,    `o--o--o--o--o--o     |     15             o     o
+           \       h  h  h  h  |     |                     \   /
+             O                 o  H--o--14       o-----o     O
+              \    h  h  h  h  |     |           | \     \  /
+               `,  o--o--o--o--o     |           |  17    o
+                 \       |     |     |           |       /
+                   o-----O-----o-----G-----o-----O-----o     
+                                  Old Wall
+
+
+11. Great Library   15. Scroll Trade G      19. Restaurant
+12. Messengers      16. Scholar's Den       20. Adv. Guild
+13. Aesthetics      17. Rare book dealer    
+14. Bookbinder G    18. Reflection Fountain
+
+h - Home
+H - Estate
+
+Mortis 06.2005 */

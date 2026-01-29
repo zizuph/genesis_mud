@@ -1,0 +1,80 @@
+                     Mercenary Adaptation Skill
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Adaptation - the art of tailoring ones abilities to suit the needs of
+the hour - is the cornerstone of any reliable Mercenary's arsenal.
+Mercenaries pride themselves on a well-rounded skillset that gives
+them the opportunity to function fully in whatever capacity the current
+cause they are hired to serve dictates. It is for this reason that
+Mercenaries do not specialize in the mastery of any given skill in
+combat. They would rather have a good general grasp of *ALL* combat
+tactics so that they can then choose the ones they need to focus on
+with the one and only skill they do master - that of adaptation.
+
+Soon after Maligant departed camp, the Mercenary Guild aquired the
+services of Mellok, who had served for many years in the Adventurer
+Guild in Sparkle, and who had himself trained with masters of every
+skill throughout the land. Mellok claimed that he would be able to
+give training in the art of adaptation to the Mercenary Guild, and
+that he would be glad to come and work with them, having grown weary
+of his age-old post in Sparkle.
+
+Thus it is that Mellok will both train Mercenaries in the art of
+adaptation, and will also share with them his knowledge of where
+to find the true master of any single skill. Only by travelling to
+these master trainers can a Mercenary complete their training
+of adaptation for a given skill. Mercenaries must <ask> Mellok
+about any skill for which they wish to complete their training,
+and then follow his instructions.
+
+In training the actual adaptation skill, Mercenaries get a single
+skillpoint added to their allocation pool for each level they have
+trained. Mercenaries begin with the potential to train adaptation
+only to craftsman levels, which gives them a healthy, but limited
+amount of skillpoints to allocate at first. To truly master the
+art of adaptation, a Mercenary must take on the guru quest.
+
+The guru quest for the Adaptation skill exists in the form of the
+monumental task of finding and training with every single skillmaster
+in the realm. This has nothing to do with combat, guildstat, or any
+other external measure of prowess. Rather, the simple rule is that
+the more trainers you train with, the better you get at adaptation.
+Each new trainer you find and learn from increases the level you can
+train the adaptation skill in the Mercenary Guildhall, which in turn
+increases the number of allocation points you receive to boost your
+skills. By the time you have found and learned from all the trainers
+in the land, you will be able to raise adaptation skill to superior
+guru, and receive a vast arsenal of skillpoints to distribute!
+
+Once allocation points have been used toward a given adaptation, they 
+are no longer available for use in other skill areas. By typing <adapt>
+you will get a list of commands useful for managing your adaptation
+skill. One of these is the <adapt list> which gives you comprehensive
+knowledge of all skills, which ones you have learned to adapt thus
+far, how many points you have allocated to specific skills, and 
+information about how many allocation points you have remaining.
+
+If you have no more allocation points remaining, you will need to
+first <adapt clear> certain skill allocations so free up points for
+new adaptation. Though it costs time and money travelling to the
+various skill masters to re-spec your allocations, there is no
+limit to the number of times a Mercenary may shift their focus for
+skill adaptation.
+
+In summary, to use adaptation you must:
+
+    1. Train the adaptation skill with Mellok at the Guildhall.
+    2. Ask Mellok about an individual skill you wish to adapt.
+    3. Find the trainer Mellok tells you about for that skill.
+    4. Type: <adapt [skillname]> in the presence of that trainer.
+    5. Follow the instructions of the trainer.
+
+The potentials for a Mercenary who has done the guru quest are many!
+Some may choose to emphasize skills which strengthen their thief
+abilities - perhaps superior guru in pickpocket. Some may choose to
+emphasize combat abilities - perhaps superior guru in three or more
+combat skills simultaneously. Some may try odd combinations that have
+previously been unexplored by players in the realms. In the end, it
+is up to you to discover for yourself that, yes indeed ...
+
+It's good to be a Mercenary!

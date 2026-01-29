@@ -1,0 +1,192 @@
+General comments:
+============================================================
+
+Too many references to Dragonlance themes throughout the code. 
+Faerun is a domain based on the Forgotten Realms, so you should 
+be avoiding references to things like kenders or Takhisis 
+(Dragonlance) or hobbits and wraith-actors spouting 'Fail 
+Melkor' (Tolkien). You have to stick with the domain theme, 
+which is rich with its own lore... so that shouldn't be a 
+problem.
+
+Love that Selune's Smile is at the docks! A nice nod to the
+Forgotten Realms comics. A personal favourite!
+
+The majority of npcs are over-rewarding for their challenge with
+high coin and gear reward. Based on a review using Cotillion's 
+exp_formula tool, we are finding a lot of the npcs are over-
+rewarding by a considerable xp factor, with the main ones being:
+
+Npc file                           #  SAvg  XP      %OverXPby
+~/dockward/npcs/city_watch       (  8): 217  70887  74%
+~/dockward/npcs/hooker           (  7): 160  49232  1779%
+~/dockward/npcs/city_watchwoman  ( 10): 203  65424  58%
+~/southward/npcs/j_dancer_lover  (  4): 100  26666  56%
+~/dockward/npcs/rottweiler       (  7): 134  39035  35%
+~/dockward/npcs/bar_sailor       (  8): 191  60889  187%
+~/dockward/npcs/ruffian-bouncer  (  3): 196  62720  560%
+~/dockward/npcs/ruffian-warehouse(  5): 196  62771  528%
+~/dockward/npcs/ruffian          ( 26): 207  66713  650%
+~/dockward/npcs/sailor           ( 19): 171  53341  172%
+
+Npc file                           #    AverageLootValue
+~/dockward/npcs/city_watch       (  8): 31.02gc
+~/dockward/npcs/hooker           (  7): 29.51gc
+~/dockward/npcs/city_watchwoman  ( 10): 34.31gc
+~/southward/npcs/j_dancer_lover  (  4): 0.65gc
+~/dockward/npcs/rottweiler       (  7): 1.06gc
+~/dockward/npcs/bar_sailor       (  8): 30.66gc
+~/dockward/npcs/ruffian-bouncer  (  3): 23.48gc
+~/dockward/npcs/ruffian-warehouse(  5): 21.44gc
+~/dockward/npcs/ruffian          ( 26): 18.81gc
+~/dockward/npcs/sailor           ( 19): 45.78gc
+
+Easy and high rewarding in both experience and loot is a bad
+combination - particularly for myth-sized npcs. There has to be
+an appropriate challenge for such a reward, and it is generally
+not being achieved with this area. In some cases 196 stat
+average npcs carrying equipment worse than the mistform starter
+weapons (like /d/Faerun/waterdeep/dockward/wep/r_axe_4.c with
+a hit/pen of 5/12). Or a 262 stat average npc wielding a 20/20
+belay pin. It just doesn't pass the pub test. The gearing and
+stats of the majority of the npcs need a re-think.
+
+Specific file comments:
+============================================================
+Dockwards magic map:
+
+Pelargir is spelt incorrectly.
+
+------------------------------------------------------------
+/d/Faerun/waterdeep/dockward/bakery.c
+
+Pricelist has the pie listed as 1000cc, actual buy price is 500cc.
+With /d/Faerun/waterdeep/dockward/obj/food/pie.c having an actual 
+value of 1000cc, this opens up one avenue for a buy-sell abuse.
+
+Typo in long description, couner should be counter.
+
+add_item has a grammatical error:
+"The counter is made of maple. It's been polished to a bright shine, 
+and is covered display cases."
+
+Should be covered 'in' or 'with' display cases.
+
+------------------------------------------------------------
+/d/Faerun/waterdeep/dockward/dock_s3
+
+Isn't linked to the magic map.
+
+------------------------------------------------------------
+/d/Faerun/waterdeep/dockward/dock_s6
+
+Isn't linked to the magic map.
+
+------------------------------------------------------------
+/d/Faerun/waterdeep/dockward/obj/food/brownies.c
+Typo in long description. Missing a full stop:
+
+"...doesn't look like much It's a little jagged on the edges.."
+
+------------------------------------------------------------
+/d/Faerun/waterdeep/dockward/dock_s2
+
+Typo in sign add_item:
+"This is a lare pole with a sign on it." lare should be large.
+
+What you examine the sign it says:
+"There is a sign attached to it." Doesn't really make sense
+seeing you just examined it. Perhaps change it to
+"There is a sign attached to it you can read."
+
+------------------------------------------------------------
+/d/Faerun/waterdeep/dockward/arm/c_bracers_poor_magic.c
+
+The speed penalty feels excessive for simply being rusty?
+It drops you to "You are moving at a very relaxed pace."
+-100?
+
+If they are non-magical, they shouldn't have     
+add_prop(OBJ_I_IS_MAGIC_ARMOUR, 1) set, or magic id info.
+Considering how frequently these would be cloned, this could
+be an easy way for warlocks to abuse to get their magic
+item tally up.
+
+The messaging when worn and removed should actually be clear
+you have worn and removed them. Right now it just says a 
+message like 'These bracers are stiff and hard to move in.'
+
+------------------------------------------------------------
+/d/Faerun/waterdeep/dockward/wep/shortsword.c
+
+Illegal hit value.
+
+The hit value of 35 + random(5) means in most cases it will
+exceed the maximum cap of 35 for a non-magical one handed 
+weapon.
+
+Refer to 'man weapon' (/doc/man/general/weapon) for rules
+around weapon creation.
+
+------------------------------------------------------------
+/d/Faerun/waterdeep/dockward/npcs/city_watchwoman.c
+
+For an npc with relatively poor weapons and no specials, 
+the stats (and therefore experience reward) is too high.
+
+Awareness is quite low at 30. Considering they carry almost
+7 gold each, it is a low risk high reward for even 
+novice thieves. This level of awareness doesn't really align
+with a "watch" guard either... so thematically seems
+too low.
+
+Blindfighting is really low (40). Combined with their poor 
+weapons these enemies are easily countered by darkness
+and night vision.
+
+Also noting that most of these npcs tend to have a speed
+penalty due to largely defaulting to having 
+c_bracers_poor_magic.c, they really are too easy.
+
+Based on Cotillion's exp_formula tool, this npc offers
+58% too much experience for its challenge.
+
+Creatures at around the myth level should be as much a
+challenge as they are rewarding. This is too rewarding
+for high level characters, and will only result in more
+stat inflation. 
+
+Suggested maximum stat average for these guards should be
+150 (including the random factor). Considering the coinage
+carried, suggest increase awareness by a random factor of
+50 to add some risk to thievery (and more reason to use
+abilities that check the awareness of a foe).
+
+------------------------------------------------------------
+/d/Faerun/waterdeep/dockward/npcs/bar_sailor.c
+
+Faerun is Forgotten Realms themed. It shouldn't be referencing
+Dragonlance... kender aren't a thing. Thematically the sailors
+shouldn't have tattoos of kender on their arm. Try and stick
+to the theme of the domain. 
+
+------------------------------------------------------------
+/d/Faerun/waterdeep/dockward/npcs/ruffian-warehouse.c
+
+As with previous comments, you need to make sure the npc 
+challenge matches the reward. Having an npc the size of a
+myth with weapons as bad as newbie knives like the pitted
+iron hatchet (hit/pen 5/12) really isn't appropriate.
+
+Based on Cotillion's exp_formula tool, this npc offers
+661% too much experience for its challenge.
+
+------------------------------------------------------------
+/d/Faerun/waterdeep/dockward/arm/b_glasses_*
+
+With an ac of zero, using the weight formulas in:
+add_prop(OBJ_I_WEIGHT, F_WEIGHT_DEFAULT_ARMOUR(ac, BOD_TYPE));
+add_prop(OBJ_I_VOLUME, F_WEIGHT_DEFAULT_ARMOUR(ac, BOD_TYPE) / 5);
+
+results in a weight and volume of zero. Don't use the formula.
+Set a weight and volume factor for zero ac items.

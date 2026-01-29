@@ -1,0 +1,170 @@
+main
+::MAPDATA::
+tr2 6 5 palanthas_docks
+tr3 6 5 palanthas_docks
+tr4 6 5 palanthas_docks
+s01 6 5 palanthas_docks
+s02 6 5 palanthas_docks
+s03 6 5 palanthas_docks
+s04 6 5 palanthas_docks
+s05 6 5 palanthas_docks
+s06 6 5 palanthas_docks
+s07 6 5 palanthas_docks
+s08 6 5 palanthas_docks
+s09 6 5 palanthas_docks
+s10 6 5 palanthas_docks
+s11 6 5 palanthas_docks
+s12 6 5 palanthas_docks
+s13 6 5 palanthas_docks
+s14 6 5 palanthas_docks
+s15 6 5 palanthas_docks
+s16 6 5 palanthas_docks
+s17 6 5 palanthas_docks
+s18 6 5 palanthas_docks
+s19 6 5 palanthas_docks
+s20 6 5 palanthas_docks
+s21 6 5 palanthas_docks
+s22 6 5 palanthas_docks
+s23 6 5 palanthas_docks
+s24 6 5 palanthas_docks
+s25 6 5 palanthas_docks
+pier 6 5 palanthas_docks
+flotsam_pier 6 5 palanthas_docks
+icewall_pier 6 5 palanthas_docks
+alley200 6 5 palanthas_docks
+alley201 6 5 palanthas_docks 
+alley202 6 5 palanthas_docks
+tower2 6 5 palanthas_docks
+tower2_0 6 5 palanthas_docks
+tower 2_2 6 5 palanthas_docks
+tower1 6 5 palanthas_docks
+tower1_0 6 5 palanthas_docks
+tower1_2 6 5 palanthas_docks
+ware_trusq 6 5 palanthas_docks
+ware_trusq2 6 5 palanthas_docks
+ware_trusq3 6 5 palanthas_docks
+ware_trusq4 6 5 palanthas_docks
+trusq_foyer 6 5 palanthas_docks
+trusq_hall 6 5 palanthas_docks
+trusq_stairs 6 5 palanthas_docks
+trusq_stairs2 6 5 palanthas_docks
+trusq_stairs3 6 5 palanthas_docks
+trusq_stairs4 6 5 palanthas_docks
+trusq_guardroom 6 5 palanthas_docks
+trusq_office 6 5 palanthas_docks
+trusq_master 6 5 palanthas_docks
+trusq_ledge 6 5 palanthas_docks
+::MAPDATA::
+
+~~ ~~ ~~ ~~ ~~ '
+ `"`:~~ ,"`,`"`        
+ /\ ; ~~:         /\       Hinterlund
+  /\`,~,'        /\
+     [ ] /\ /\ /\                   ~~~ ~~
+ Palanthas/\ /\  /\             ~~~~~  ~~
+     /\_   /\ /\               ~~~
+    /   \/\                    ~
+  /\ /\ /\                    ~~     /\_ 
+   /\  /\      PLAINS OF      ~     /\  \
+     /\[ ]     SOLAMNIA      ~~    [#]/\ 
+ High Clerist               ~      Dargaard
+     Tower\                ~~      Keep /\
+   /\      \____________[ ]~        /\    
+    /\                Vingaard        /\    
+   /\                 Keep          /\   
+  /\   Heartlund        ~           @/\ /\ 
+ /\                   ~~           @/\_
+
+::NEWMAP::
+palanthas_docks
+::MAPDATA::
+tr2 38 23
+tr3 38 19
+tr4 38 15
+s01 50 23
+s02 44 23
+s03 32 23
+s04 26 23
+s05 20 19
+s06 26 19
+s07 32 19
+s08 44 19
+s09 50 19
+s10 56 19
+s11 50 15
+s12 44 15
+s13 32 15
+s14 26 15
+s15 35 13
+s16 32 11
+s17 29 9
+s18 23 9
+s19 17 9
+s20 14 7
+s21 11 5
+s22 53 13
+s23 56 11
+s24 59 9
+s25 59 5
+pier 35 11
+flotsam_pier 35 7
+icewall_pier 35 5
+alley200 50 21
+alley201 35 25 
+alley202 34 26
+tower2 23 13
+tower2_0 23 13
+tower 2_2 23 13
+tower1 17 17
+tower1_0 17 17
+tower1_2 17 17
+ware_trusq 32 21
+ware_trusq2 32 21
+ware_trusq3 32 21
+ware_trusq4 32 21
+trusq_foyer 32 25
+trusq_hall 32 25
+trusq_stairs 32 25
+trusq_stairs2 32 25
+trusq_stairs3 32 25
+trusq_stairs4 32 25
+trusq_guardroom 32 25
+trusq_office 32 25
+trusq_master 32 25
+trusq_ledge 32 25
+::MAPDATA::
+
+                         --= Palathas docks =--                                 
+                                                           
+          ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~                                                
+           ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~                                              
+          s21 ~~ ~~ ~~ ~~ ~~ ~~ ~  5  ~~ ~~ ~~ ~~ ~~ ~~   s25
+            \    ~~ ~~ ~~ ~~ ~~    |  ~~ ~~ ~~ ~~ ~~ ~~    |
+             s20 ~~ ~~ ~~ ~~ ~~  3 4  ~~ ~~ ~~ ~~ ~~ ~~    |
+               \                  \|  ~~ ~~ ~~ ~~ ~~ ~~    |
+                s19---s18---s17  2 p  ~~ ~~ ~~ ~~ ~~ ~~   s24
+                              \   \|  ~~ ~~ ~~ ~~ ~~ ~~   /    
+                               s16 1  ~~ ~~ ~~ ~~ ~~   s23     
+                                 \ |  ~~ ~~ ~~ ~~ ~~   /      
+                       t2         s15    ~~ ~~ ~~   s22        
+                        \            \              /          
+                        s14----s13   t4----s12---s11          
+                        /         \   |                       
+                 t1   ,' [w]   [w] `, |    [w]   [w]       
+                  \  /    |     |    \|     |     |       
+                   s5----s6----s7----t3----s8----s9----s10
+                   / \    |     |    /|     |     .    /  \
+                      `, [w]   [w] ,' |    [w]    .  ,'    
+                        \         /   |           . /    
+           Merchant      s4-----s3   t2    s2----s1     Noble  
+           Quarter        |     | .   |    /       \    Quarter
+                         [M]   [T] .  |  ,'         
+                                  .   | /             
+          
+
+                  1 Grey Havens shipline   2 Newports shipline
+                  3 Calia shipline         4 Kalaman shipline
+                  5 Icewall shipline       p unused pier
+                  M Merchant estate        t Trusq merchant estate
+                  t Guard tower            w warehouse           
+

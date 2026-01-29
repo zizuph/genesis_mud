@@ -1,0 +1,81 @@
+/*
+*  A listing of Kalad BITS
+*/
+
+
+Group:     Bit(s):     Function:
+
+0          0-19
+            0     Beggar Quest		1500xp
+            1     Trader Quest     	3000xp
+            2     Tablet Quest  	25000xp
+            3     Kid Quest      	100xp
+            4     Knife Quest    	200xp
+            5     Beer Quest     	500xp
+            6     Ledger Quest   	1000xp
+            7     Prisoner Quest 	2500xp
+            8     High Lord Quest       9500xp      
+            9     Locket Quest     1500xp
+            10    Bounty Quest     2000xp
+            11    Goblin Quest     2000xp
+            12    Scale Quest      10000xp
+            13    Holy Quest       20000xp
+            14    Tower Quest      2000xp
+            15    Oracle Quest     25000xp
+            16    Water Quest      1000xp
+            17    Mara Quest       15000xp
+            18    Kilsek Quest     7500xp
+            19    Claddath Quest   7500xp
+
+1         0-19
+           0     Coffee Quest       1000xp
+           1     Beggars Club Quest 100xp
+           2     Taskmaster Quest 1   100xp
+           3     Taskmaster Quest 2   200xp
+           4     Taskmaster Quest 3   500xp
+           5     Taskmaster Quest 4   750xp
+           6     Taskmaster Quest 5   1000xp
+           7     N.D: park quest      250xp
+           8     N.D: museum quest one 500xp
+           9     N.D: minotaur gem quest 1000xp
+          
+           10    Assasin Quest part 1.       500xp
+           11    Assasin Quest part 2.       5000xp
+           12    Assasin Quest part 3.       2500xp
+           13    Spyquest                 1000xp
+
+           14    N.D: free (or screw over) red fang goblin 5000xp
+           15    Miners revenge            1500xp   
+           16    Thanar Medallion (New)    10000xp
+           17    Summon and Defeat Thanar  25000xp   
+
+2         0-19
+            1     Scroll Quest             10000xp
+            2     Kabal Quest              20000xp
+            3     (unused but reserved -Korat)              
+            4     Coal Quest               500xp
+
+3         0-19
+/* Reserved for Canthyr, woods, ruins, Raumdor, plains, polar & jungles */
+            0      Priest's dagger quest    500xp
+            1      Drakmere quest one: They holy scripture   50 000xp
+            2      Khiraa entrance quest    500xp
+            4    Maze quest             2500xp
+            5    Black Book quest (reserved by Nerull)
+
+4         0-19
+/* Reserved for the previous 7 areas & Guilds */
+/* Note by Mercade: use of bits for guild membership is bad form and
+   unnecessary. Use a master object to remember members.
+ */
+            0    Shadow Walkers Memberrship Bit
+            1        Academy Membership Bit
+            2        Zintra Membership Bit
+            3        Merchants Membership Bit
+            4        Thanarian Membership Bit
+            5        Drow Membership Bit
+            6        Duergar Membership Bit
+            7
+            8        Red Fang Membership Bit
+            9        Outlaw Bit
+           10        Sun Dancer Membership Bit

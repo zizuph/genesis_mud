@@ -1,0 +1,164 @@
+Message: 2
+From   : Rajak
+Subject: ideas and such (forwarded)
+Date   : Jul 21 1998
+
+Author : Rajak
+To     : Zima
+CC     : Rajak
+Date   : Jul 20 1998
+
+I wasn't sure when you'd get back so I figured I would just go
+ahead and send you more ideas as they came up. I put in a few 
+emote ideas at the end too; if I can think of any more I'll be
+sure to mail them to you (emotes are difficult to come up with!)  
+
+Questions:
+1. Within Khalakhor, is chaos roughly equivalent to evil, or does 
+it mean nothing more than a lack of order?    
+
+2. Was the kirk in Baile Ashlagh founded by the Solsheyderi in the 
+age of rebirth?  Also, is the sequence of the windows within that
+kirk significant in any way (eg. the first window marks the first 
+of the nine) 
+
+
+Ideas:
+Spells in General - This isn't really a spell, but rather an idea
+about the organization of the spells within the guild. One 
+alternative to having the same spells given to each person as
+he/she progresses in level would be to give them somewhat different
+spells based on the person's affiliation to one of the Solsheyderi.
+I'm not sure what the nature of this relationship could be; 
+perhaps the saggart could see one of the nine as a patron.  In
+any case, this organizational scheme would give each guild-member
+a more specific focus based on whatever was appropriate to his
+"patron" Solsheyderi.  But no one would be allowed to have all 
+the spells available. For example, if you had a total of 25 spells 
+within the guild, then this scheme could allow guildmembers to 
+have a max total of 18, depending on which of the Solsheyderi he 
+is under.  This could help with role-playing and could encourage 
+players to learn more of the nine by requiring them to learn the 
+name and history of the Solsheyderi he wishes to be under. 
+For example, as a novishagh, all players would be essentially 
+the same.  But once they became a full priest, they could be
+allowed to dedicate themselves to one of the nine's teachings.
+I'm not sure I did a very good job of explaining it (it sounds
+a lot better in my head), so if you are interested and have any 
+questions about it, just mail me.
+
+Chains - This spell summons into exsistence a number of spectral
+chains which wrap themselves around a target inhibiting his
+movements.  More specifically, The chains could act by 
+slowing the target down (such as negative live_i_quickness). Or 
+alternatively they could wrap themselves around the legs (or a 
+leg) and prevent the target from leaving the room.  The material
+components could be a few links of a chain, blessed by the caster.
+
+Tongues - I'm not really sure if this spell would be possible, 
+but ideally, this spell would enable the caster to speak/understand
+all spoken languages.  Maybe the best approach would be to have 
+the spell simply raise the caster's language skill to sup guru.
+Or, maybe this spell could be required to read some of the writings
+of the faith, that are magical, or ancient, in origin (such as the
+book in the abbey of kirk seanchan tor).
+
+Heat or Corrode weapon/armour - The basic premise of this spell
+is to affect an enemies weapons or armours in some way, though 
+I'm not sure what would be the most fitting way to accomplish 
+this.  One way could be to have the spell heat only weapons, or 
+only armours.  In either case, the person wielding the affected 
+weapon (or wearing the affected armour) would be able to still 
+wield the weapon.  However, since the spell causes the weapon to 
+become super-heated, the person wielding it would take damage
+from it as long as he continues to wield it.  The only way to 
+prevent this damage would be to unwield the weapon, or maybe even
+drop it.  Another way this general idea could be carried out, 
+though, would be to have the spell just break armours/weapons like
+the melt spell.  In this case, the caster would reach out with 
+a hand and touch the target's armour.  His very touch could cause
+the armour to either degrade to the point of breaking or just rust
+it into dust right then and there.
+
+Vigilance - This spell would infuse the caster with energy, 
+dispelling any fatigue and making the target more alert.  
+Basically, the spell would increase the target's awareness (by
+maybe 30 levels) and take away any current fatigue from the target.
+In addition, the spell would prevent the target from suffering 
+any fatigue for the spell's duration.  The material component 
+could be a stick of incense (or maybe a candle) that's lit.
+
+Vigor - This spell would channel some of Maighal's strength to
+the caster, fortifying him against all danger. This would 
+increase his con a great deal (perhaps 60) and maybe increase 
+his strength or discipline by a smaller number.  The spell could
+also make it impossible for the caster to be stunned, for the 
+duration of the spell.  A possible component for this spell is
+a shamrock that has been placed within the hands of the statue of 
+Maighal.
+
+Calm/Courage - This spell would grant a kind of harmony or peace
+of mind upon its target.  The spell would erase any worries or 
+fears, and would keep the person calm for a certain amount of 
+time.  Essentially this spell would remove any panic the target
+may be suffering from, and also prevent the target from suffering
+any panic for 5-10 minutes.  The component for this spell could
+be a smooth pebble taken from the bottom of the Sora river (or the
+fountain in the garden).
+
+Wound - This spell would increase a creature's susceptibility
+to injuries, causing a mere scratch to become a much more 
+serious wound.  'Wound' would double any damage the target takes, 
+regardless of the source.  I think it would be a little too 
+powerful if the spell only had a duration though, so it might be 
+better to have a cap on the amount of damage this spell can do.
+For example, the spell could do a maximum of 500 points of
+damage (which would mean the target would first have to take 500
+points of damage).  
+
+Cleanse - Through this spell, the caster summons forth the
+'cleansing fires' of the Ardaugh.  It would summon an aura of 
+holy fire around the target that would burn creatures of evil or
+chaos.  This aura would stick to the target for a certain amount 
+of time - perhaps about 1-2 minutes.  During that time, the fires
+would damage the target much like a poison (eg. 100 points of 
+damage every 10 seconds or so) However, unlike a poison, this 
+spell coould not be cured by a 'cleanse poison' spell.  The only 
+way to get rid of the aura would be through the use of a dispel
+magic spell.  Another way to approach this spell would be to 
+have the aura damage anyone, regardless of alignment.  In this
+case, the fire could be extinguished through the use of water -
+maybe if the person is carrying water, they can use it to douse 
+the flames.  The material component for this could be a piece of
+coal, or ash.  
+      
+Emotes:
+The format of the emote ideas will be like this - 
+a. The name of the emote
+b. What the Saggart sees
+c. What the target of the emote sees (if any)
+d. What everyone else in the room sees
+
+1. console <target>
+You console Thyme with kind (or gentle/quiet) words.
+Zima consoles you with a few kind words.
+Zima consoles Thyme quietly.
+
+2. sraise
+You turn your gaze upwards and raise your hands to the sky.
+Zima turns his gaze upwards and raises his hands to the heavens.
+
+3. soffer <object> to <target>
+You kneel down and humbly offer the leather-bound book to Thyme.
+Zima kneels down and humbly offers a leather-bound book to you,
+with his head lowered.
+Zima kneels down with his head lowered and offers a leather-bound
+book to Thyme, with upturned hands.
+
+4. sglory
+You feel the presence of Maighal (or the Ardaugh)
+Zima glows with a holy white radiance.
+
+Rajak   **
+
+

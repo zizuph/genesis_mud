@@ -1,0 +1,62 @@
+=============================================================================
+This Documents the shiplines providing transportation in Avenir and between
+Avenir and the Outside World, as well as internal routes.
+=============================================================================
+
+<<-- Intra-Domain -->>
+
+Path:         /d/Avenir/common/outpost/boat/*
+Ship:         Outpost boat                 /ship.c
+Captain:      Sea monster                  /puller.c
+Start:                                     /boat_path2
+Destination:  /d/Avenir/common/bazaar/pier/float
+Cost:         0
+
+Path:         /d/Avenir/common/ships/dead/*
+Ship:         Long Barge                 /ship.c
+Captain:      Omi                        /npc/captain.c
+Start:        /d/Avenir/common/bazaar/intr/d_landing
+Destination:  /d/Avenir/common/dead/path/landing
+Cost:         0
+
+Path:         /d/Avenir/common/ships/union/*
+Ship:         Ulia   (slender ship)       /ship.c
+Captain:      Anylis                      /naiad.c
+Start:        /d/Avenir/common/ships/union/void_room
+Destination:  /d/Avenir/union/tomb/tomb_landing
+Cost:         0
+
+
+<<-- Inter-Domain -->>
+
+Path          /d/Avenir/common/ships/sparkle/*
+Ship name:    Melancoly  (ghostly ship)     /ship.c
+Captain:      Staek                         /captain.c
+Start:        /d/Avenir/common/port/port11
+Destination:  /d/Genesis/start/human/town/pier8
+Cost:         24 cc
+
+Path:         /d/Shire/common/ship/ship3/*
+Ship:         Elegant elven ship
+Captain:      Osse
+Start:        /d/Shire/common/greyhaven/pier5
+Destination:  /d/Avenir/common/port/port12
+Cost:         ??
+
+Path:         /d/Avenir/common/ships/ansalon/*
+Ship:         Odalisque  (battered caravel) /ship.c
+Captain:      Tibalsek                      /captain.c
+Start:        /d/Avenir/common/port/port13
+Destination:  /d/Ansalon/balifor/port_balifor/room/pier1
+Cost:         12 cc
+
+
+==========================================================
+SAMPLE
+Path:
+Ship:
+Captain:
+Start:
+Destination:
+Cost:
+

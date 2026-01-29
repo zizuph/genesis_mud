@@ -1,0 +1,11 @@
+#include "../local.h"
+
+#define BARBASE      TSTD + "bar_base"
+#define CASTLEBASE   TSTD + "castle_base"
+#define FORESTBASE   TSTD + "forest_base"
+#define MOUNTAINBASE TSTD + "mountain_base"
+#define ROADBASE     TSTD + "road_base"
+#define SEWERBASE    TSTD + "sewer_base"
+#define STREETBASE   TSTD + "street_base"
+#define TENTBASE     TSTD + "tent_base"
+#define VALLEYBASE   TSTD + "valley_base"

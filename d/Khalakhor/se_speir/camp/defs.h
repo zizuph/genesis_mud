@@ -1,0 +1,6 @@
+#define CAMP_DIR "/d/khalakhor/se_speir/room/trail/"
+#define CAMP_DIR2 "/d/khalakhor/se_speir/room/camp/"
+#define CAMP_DIR3 "/d/khalakhor/se_speir/room/training/"
+#define CAMP_DIR4 "/d/khalakhor/se_speir/room/trainingtents/"
+#define KGUARD "/d/khalakhor/se_speir/npc/kguard"
+#define KTRAIN "/d/khalakhor/se_speir/npc/ktrain"

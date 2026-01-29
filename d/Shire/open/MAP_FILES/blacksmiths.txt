@@ -1,0 +1,140 @@
+main
+::MAPDATA::
+master_r 30 10 public
+jewelsmith 30 10 public
+discus 30 10 public
+forge_entr 30 10 public
+forge_e 30 10 public
+forge_far_e 30 10 public
+forge_se 30 10 public
+forge_s 30 10 public
+forge_ne 30 10 public
+entrance 30 10 public
+yard 30 10 public
+rest_r 30 10 member
+improve 30 10 member
+library_entr 30 10 member
+raw_shop 30 10 member
+library 30 10 full
+adv_hall 30 10 full
+drop 30 10 full
+::MAPDATA::
+
+    +---------+
+ ~  |THE SHIRE|
+ ~~ +---------+        Fornost
+  ~~                      o
+   ~~~                    |
+     ~~~                  |
+ \     ~~~                |
+  \      ~~~              |                                    Weathertop
+  |Frogmorton             |   BREE   Midgewater   /----------------*-\
+  o------===--------------+----O---\ Marshes/----/                    \------
+ /   |  Brandywine        |         \------/
+ ing |    Bridge          |
+     o   ~~~     Barrow   |
+  Whitfurrows     Downs   |
+        ~~~               |
+       ~~~                |
+     ~~~                   \
+   ~~~                      \
+ ~~~                         \
+
+::NEWMAP::
+public
+::MAPDATA::
+master_r 29 11
+jewelsmith 29 13
+discus 33 11
+forge_entr 44 11
+forge_e 48 11
+forge_far_e 52 11
+forge_se 48 13
+forge_s 44 13
+forge_ne 48 9
+entrance 45 5
+yard 49 5
+::MAPDATA::
+
+    B L A C K S M I T H S   G U I L D
+
+                                         ###########
+                     ####################           ##
+                   ##                        o - o ------- to Bree
+                 ##                        /         ##
+               ##                        /    Forges   ##
+    ###########                        /               ##
+    ##                               /          o      ##
+    ##                    Join \   /          /        ##
+    ##                     - o - o -------- o - o - o  ##
+    ##                     / |              | \        ##
+    ##                       o              o   o    ##     .-------..___
+    ##                                             ##       '-._     :_.-'
+    ##                 ############################          .- ) _ ( --.
+    ##               ##                                     :  '-' '-'  ;.
+    #################                                      /'-.._____.-' |
+                                                           |   |     \   |
+                                                           \   |     /   \
+                                                           |   \     )_.-'
+                                                           '-._/__..-'
+
+::NEWMAP::
+member
+::MAPDATA::
+rest_r 25 7
+improve 18 11
+library_entr 14 11
+raw_shop 25 13
+::MAPDATA::
+
+    B L A C K S M I T H S   G U I L D
+
+                                         ###########
+                     ####################           ##
+                   ##                        o - o ------- to Bree
+                 ##    Start               /         ##
+               ##        o               /    Forges   ##
+    ###########        /   \           /               ##
+    ##               /       \       /          o      ##
+    ##          Train     Join \   /          /        ##
+    ##      - o - o -------- o - o -------- o - o - o  ##
+    ##            |        / |              | \        ##
+    ##                   o   o              o   o    ##     .-------..___
+    ##                                             ##       '-._     :_.-'
+    ##                 ############################          .- ) _ ( --.
+    ##               ##                                     :  '-' '-'  ;.
+    #################                                      /'-.._____.-' |
+                                                           |   |     \   |
+                                                           \   |     /   \
+                                                           |   \     )_.-'
+                                                           '-._/__..-'
+
+::NEWMAP::
+full
+::MAPDATA::
+library 10 11
+adv_hall 10 13
+drop 18 13
+::MAPDATA::
+
+    B L A C K S M I T H S   G U I L D
+
+                                         ###########
+                     ####################           ##
+                   ##                        o - o ------- to Bree
+                 ##    Start               /         ##
+               ##        o               /    Forges   ##
+    ###########        /   \           /               ##
+    ##               /       \       /          o      ##
+    ## Library  Train     Join \   /          /        ##
+    ##    o - o - o -------- o - o -------- o - o - o  ##
+    ##    |       |        / |              | \        ##
+    ##    o ----- o      o   o              o   o    ##     .-------..___
+    ##          Drop                               ##       '-._     :_.-'
+    ##          room   ############################          .- ) _ ( --.
+    ##               ##                                     :  '-' '-'  ;.
+    #################                                      /'-.._____.-' |
+                                                           |   |     \   |
+                                                           \   |     /   \
+                                                           |   \     )_.-'
+                                                           '-._/__..-'

@@ -1,0 +1,131 @@
+main
+::MAPDATA::
+c1 10 32
+c2 10 34
+c3 10 36
+c4 8 36
+c5 8 34
+c6 8 32
+c7 6 32
+c8 6 34
+r1 10 30
+r10 25 21
+r10b 19 14
+r2 8 30
+r3 4 30
+r4 4 32
+r5 4 36
+r8 19 14
+r9 25 21 wolf
+r9b 19 14 cavern
+t1 2 26 south
+t10 20 26 south
+t11 22 24 south
+t12 24 22 south
+t13 26 20 south
+t14 26 18 central
+t15 26 16 central
+t16 28 14 central
+t17 30 12 northeast
+t19 24 14 central
+t2 4 26 south
+t20 22 14 central
+t21 20 12 northeast
+t22 18 12 northeast
+t23 20 14 central
+t24 18 16 central
+t25 16 18 central
+t26 14 18 central
+t27 12 18 central
+t28 10 18 central
+t29 8 18 central
+t3 6 26 south
+t30 6 18 central
+t31 12 30 albus
+t33 16 10 north
+t34 14 8 north
+t35 18 8 north
+t36 16 8 north
+t37 16 6 north
+t38 18 4 north
+t39 20 2 north
+t4 8 28 south
+t40 22 2 north
+t41 24 2 north
+t42 26 4 northeast
+t43 28 6 northeast
+t44 30 6 northeast
+t45 12 8 north
+t46 10 6 north
+t47 8 6 north
+t48 6 6 north
+t5 10 28 south
+t50 4 8 north
+t51 20 10 northeast
+t52 22 8 northeast
+t53 24 8 northeast
+t54 26 6 northeast
+t54b 26 6 cavern
+t55 30 8 northeast
+t56 30 10 northeast
+t57 26 10 northeast
+t58 26 12 northeast
+t59 22 16 gnome
+t6 12 28 south
+t60 22 18 gnome
+t61 22 20 gnome
+t62 20 22 gnome
+t63 18 24 gnome
+t64 18 20 gnome
+t65 16 22 gnome
+t66 14 24 gnome
+t67 16 26 gnome
+t68 14 20 gnome
+t69 12 22 gnome
+t7 14 28 south
+t70 10 24 gnome
+t71 12 26 gnome
+t72 8 26 gnome
+t8 16 28 south
+t9 18 28 south
+::MAPDATA::
+
+          
+ LEVEL 2 EAST       o-o-o      
+                   /     \     
+                  o       o    
+                 /        |\   
+      o-o-o     o         o o-o
+     /     \   /|\       /   \ 
+    o       o-o-o-o   o-o     o
+               \|/   /~~~\    |
+                o   o~    o   o
+                 \  | ~ ~ |   |
+                  o-o  ~  o   o
+                   \ \~~ /   / 
+                    o-o-o   o  
+                   /  *  \ /   
+                  o   o   o    
+     [u]         /    |   |    
+      o-o-o-o-o-o     o   o    
+               *      |   |    
+              o   o   o   o    
+             / \ / \ / * /     
+            o   o   o   o      
+           / \     /   /       
+          o   o   o   o        
+         / \ / \ / \ /         
+  o-o-o*o   o   o   o          
+       \           / *        
+        o-o-o-o-o-o   o   		
+             /          ~^w^~  
+    o   o o o                  
+     \ /  |/       *=non-obvious
+    o o-o-o                    
+     \|X|X|                    
+      o-o-o                    
+     / \|X|                    
+    o   o-o       
+	
+
+

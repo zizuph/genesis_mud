@@ -1,0 +1,159 @@
+main
+::MAPDATA::
+gunth_room 25 14 vingaard_keep_lower
+greathall_balcony 25 14 vingaard_keep_lower
+great_hall 25 14 vingaard_keep_lower
+crest_room 25 14 vingaard_keep_lower
+squire_board 25 14 vingaard_keep_lower
+joinroom 25 14 vingaard_keep_lower
+library 25 14 vingaard_keep_lower
+library2 25 14 vingaard_keep_lower
+west_train1 25 14 vingaard_keep_lower
+train1 25 14 vingaard_keep_lower
+inner_court 25 14 vingaard_keep_lower
+train2 25 14 vingaard_keep_lower
+east_train2 25 14 vingaard_keep_lower
+inner_gate 25 14 vingaard_keep_lower
+arch_guardw 25 14 vingaard_keep_lower
+archway 25 14 vingaard_keep_lower
+arch_guarde 25 14 vingaard_keep_lower
+swtower 25 14 vingaard_keep_lower
+adv_guild 25 14 vingaard_keep_lower
+garden 25 14 vingaard_keep_lower
+ws1 25 14 vingaard_keep_lower
+ws2 25 14 vingaard_keep_lower
+ws3 25 14 vingaard_keep_lower
+board_office 25 14 vingaard_keep_lower
+ws4 25 14 vingaard_keep_lower
+ws5 25 14 vingaard_keep_lower 
+sol_store 25 14 vingaard_keep_lower
+forge 25 14 vingaard_keep_lower
+forge2 25 14 vingaard_keep_lower
+vingaard_forge 25 14 vingaard_keep_lower
+ss1 25 14 vingaard_keep_lower
+ss2 25 14 vingaard_keep_lower
+general_store 25 14 vingaard_keep_lower
+ss3 25 14 vingaard_keep_lower
+weap_arm_store 25 14 vingaard_keep_lower
+courtyard 25 14 vingaard_keep_lower 
+ss4 25 14 vingaard_keep_lower
+inn 25 14 vingaard_keep_lower
+ss5 25 14 vingaard_keep_lower
+bank 25 14 vingaard_keep_lower
+ss6 25 14 vingaard_keep_lower
+setower 25 14 vingaard_keep_lower
+netower 25 14 vingaard_keep_lower
+es1 25 14 vingaard_keep_lower
+es2 25 14 vingaard_keep_lower
+es3 25 14 vingaard_keep_lower
+pigeon_store 25 14 vingaard_keep_lower
+es4 25 14 vingaard_keep_lower
+out_post 25 14 vingaard_keep_lower
+es5 25 14 vingaard_keep_lower
+stable1 25 14 vingaard_keep_lower
+gate 25 14 vingaard_keep_lower
+bridge 25 14 vingaard_keep_lower
+::MAPDATA::
+
+~~ ~~ ~~ ~~ ~~ '
+ `"`:~~ ,"`,`"`        
+ /\ ; ~~:         /\       Hinterlund
+  /\`,~,'        /\
+     [ ] /\ /\ /\                   ~~~ ~~
+ Palanthas/\ /\  /\             ~~~~~  ~~
+     /\_   /\ /\               ~~~
+    /   \/\                    ~
+  /\ /\ /\                    ~~     /\_ 
+   /\  /\      PLAINS OF      ~     /\  \
+     /\[ ]     SOLAMNIA      ~~    [#]/\ 
+ High Clerist               ~      Dargaard
+     Tower\                ~~      Keep /\
+   /\      \____________[ ]~        /\    
+    /\                Vingaard        /\    
+   /\                 Keep          /\   
+  /\   Heartlund        ~           @/\ /\ 
+ /\                   ~~           @/\_
+
+::NEWMAP::
+vingaard_keep_lower
+::MAPDATA::
+gunth_room 22 2
+greathall_balcony 24 2
+great_hall 22 4
+crest_room 26 4
+squire_board 18 6
+joinroom 22 6
+library 26 6
+library2 30 6
+west_train1 14 8
+train1 18 8
+inner_court 22 8
+train2 26 8
+east_train2 30 8
+inner_gate 22 10
+arch_guardw 20 12
+archway 22 12
+arch_guarde 24 12
+swtower 6 20
+adv_guild 10 4
+garden 8 4
+ws1 10 6
+ws2 10 8
+ws3 10 10
+board_office 14 10
+ws4 10 12
+ws5 10 14 
+sol_store 8 12
+forge 8 14
+forge2 8 16
+vingaard_forge 6 14
+ss1 10 16
+ss2 14 16
+general_store 14 14
+ss3 18 16
+weap_arm_store 18 14
+courtyard 22 16 
+ss4 26 16
+inn 26 14
+ss5 30 16
+bank 30 14
+ss6 34 16
+setower 38 20
+netower 38 2
+es1 34 6
+es2 34 8
+es3 34 10
+pigeon_store 30 10
+es4 34 12
+out_post 30 12
+es5 34 14
+stable1 38 14
+gate 22 18
+bridge 22 21
+::MAPDATA::
+
+
+                    o o o            {o}
+                     \|/             /     -=     Vingaard Keep    =-
+        g a           o   H         /      A Arms and armor store
+         \|           |   |        /       E Equipment store
+          o       k---o---L---L   o        p Pigeon hut
+          |           |           |        P Post Office 
+          o   t---t---t---t---t   o        S Stable 
+          |           |           |        R Redhammer Smithy
+          o---V       o       o---o        V Vingaard common board
+          |           |           |        g Garden
+        o o         o-o-o     P---o        a Adventurers' guild
+        | |           |           |        B Bronze Dragon Inn
+      o-R-o   E   A   |   B   b   o---S    b Vingaard Keep bank
+        | |   |   |   |   |   |   |        t Knight training yard 
+        o o---o---o---o---o---o---o        L Library of Vingaard Keep 
+         /            |            \       H Room of Heraldry
+        /             o             \      k Applications Den
+       /       '   "  |   "  '       \      
+     {o}  "  ~~~ ~~~ | | ~~~ ~~~  "  {o} 
+        ~~~ ~~~ ~~~  |o|~~~ ~~~ ~~~  
+             ~~~ ~~~ | |  ~~~ ~~~ ~~~ ~~~
+              "   "   |  " "  '      ~~~ ~~~
+                      |        " ' "
+

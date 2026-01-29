@@ -1,0 +1,24 @@
+How to Set up & Use Binary Quest Bits
+=====================================
+Binary Quest Bits (BQB), are a way to use a minimum number of quest bits rather than a lot of quest bits. They are used mostly for city tours but can be adapted for quests that have multiple mini tasks to be completed before the quest is completed. As an example, the Faerie tours have six tours, and instead of using six quest bits, it only uses four bits.
+
+
+In this tutorial, we will set up a tour example where you find four NPCs.
+
+The #defines
+-------------
+In your header file, you need the following elements defined:
+    TOUR_GROUP - This is the bit group to use, 1, 2, 3, or 4. In our example, we will use Group 4.
+    TOUR_FIRST_BIT - This is the starting bit. In our example, our starting bit is 0.
+    TOUR_LAST_BIT - This is the last bit to use. In our example, our last bit wit be 2.
+    TOUR_NO_OF_BITS - This is the total number of bits to use, or the total number of steps/tours. In our example, the total number of bits used is 3.
+
+Here is what the .h file looks like so far:
+
+#define TOUR_GROUP          4
+#define TOUR_FIRST_BIT      0
+#define TOUR_LAST_BIT       2
+#define TOUR_NO_OF_BITS     3
+
+
+

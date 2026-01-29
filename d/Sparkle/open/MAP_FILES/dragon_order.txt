@@ -1,0 +1,280 @@
+main
+::MAPDATA::
+armoury 51 10 lev_3
+dining_hall 55 12 lev_1
+discuss_recode 53 11 lev_2
+balcony_north 53 11 lev_2
+balcony_south 53 11 lev_2
+balcony_temple 53 11 lev_2
+chapel 51 10 lev_3
+claw_1 44 14 cliffs
+claw_2 44 14 cliffs
+claw_3 44 14 cliffs
+claw_4 44 14 cliffs
+claw_5 44 14 cliffs
+claw_6 44 14 cliffs
+claw_12 44 14 cliffs
+claw_13 44 14 cliffs
+claw_14 44 14 cliffs
+claw_15 44 14 cliffs
+claw_16 44 14 cliffs
+claw_17 44 14 cliffs
+claw_spikes_bridge_1 44 14 cliffs
+council 53 11 lev_2_council
+council_meeting 53 11 lev_2_council
+council_post 53 11 lev_2_council
+dormitory 51 10 lev_3
+garden 55 12 lev_1
+hall_lower_north 55 12 lev_1
+hall_lower_south 55 12 lev_1
+hall_top 51 10 lev_3
+hall_upper_north 53 11 lev_2
+hall_upper_south 53 11 lev_2
+lawn_east_1 55 12 lev_1
+lawn_east_2 55 12 lev_1
+lawn_ne 55 12 lev_1
+lawn_nw 55 12 lev_1
+lawn_south 55 12 lev_1
+lawn_west_1 55 12 lev_1
+lawn_west_2 55 12 lev_1
+library 55 12 lev_1
+meeting 53 11 lev_2
+member_post 53 11 lev_2
+spikes_1 44 14 cliffs
+spikes_2 44 14 cliffs
+spikes_3 44 14 cliffs
+spikes_4 44 14 cliffs
+spikes_5 44 14 cliffs
+spikes_6 44 14 cliffs
+spikes_7 44 14 cliffs
+spikes_8 44 14 cliffs
+spikes_9 44 14 cliffs
+spikes_10 44 14 cliffs
+spikes_11 44 14 cliffs
+spikes_12 44 14 cliffs
+spikes_13 44 14 cliffs
+spire 48 12 cliffs
+stair_lower 55 12 lev_1
+stair_top 51 10 lev_3
+stair_upper 53 11 lev_2
+temple_east 55 12 lev_1
+temple_west 55 12 lev_1
+training_defence 55 12 lev_1
+training_focus 55 12 lev_1
+training_other 55 12 lev_1
+training_unarmed 55 12 lev_1
+::MAPDATA::
+@@@@@@@@@@@@@@@@@              Orc Road                            | ~~#
+ - o - - - o - - - o - - - o - - - o - - - o - - - o - - - o - - - o - o -
+@@@@@@@@@@@@@@@@@@                                         |       | ~~#
+@@@@@@@@@@@@@@@@@                                          |    B  | ~~#
+@@@@@@@@@@@@@@@                                            |    r  |  ~#
+@@@@@@@@@            /\                    o - - - o - - - o    i  o   #~
+@@  Orc Forest    /\/  \                   |                 ^  g  |   ##
+                 /^ \/\ \                  |      __     ^/\    h  |
+                /  ^/  ^ \/\               |     /()\    /^ \   t  |
+               /    ^  /\/^ \      o - - - o /\  |__|  ^     ^     o
+          ^^          /  \   \/\   |        /  \_|/\|___^^  ^   R  |
+   /\  /\      ^     /  ^^   /  \  |     /\/  ^ \/^ \__/\       o  |
+/\/^ \/  \                         |    /  \/\  /    \|_/\      a  |
+  \/\ \ ^                  o - - - o   / ^ /  \/    ^ \/  \/\ ^ d  o  @  
+ ^/  \ \    Goblin         |          /     ^  \~.    /^  / ^\     | @@@
+        \ ^^ Caverns  ^    |Strange/\/ /\ Cliffs  ~~~~~~~~~~~~~~~~~|~~~.
+                  ,-,      |  Cave/_ \/  \            Copper River | @ .
+             /\ _:_o_:_-_-_o_-_-_-_o|/  ^ \o - - - o - - - o - - - o @ .
+     ^      /^ \||||||||||||||/\||||/ ^  ^ \/\        /\    ^ @@@@ | @ .
+        ^  /   ^\/\/\||||/\||/  \/\/       / ^\/\ ^^ /  \ /\ ^ @@@ | @ .
+                 \/  \/\/  \/^  / / ^         / ^\       /  \   @@ | @ .
+               Chasm  \/ ^ /     /   ^       /    ^   /\/ ^  \   @ o `@
+                                                     /  \  ^ ^^ @@ | @@@
+
+::NEWMAP::
+cliffs
+::MAPDATA::
+claw_1 41 21
+claw_2 35 21
+claw_3 35 18
+claw_4 29 15
+claw_5 29 12
+claw_6 29 9
+claw_12 23 9
+claw_13 17 9
+claw_14 11 9
+claw_15 23 6
+claw_16 17 3
+claw_17 11 0
+claw_spikes_bridge_1 35 6
+spikes_1 41 3
+spikes_2 47 3
+spikes_3 47 6
+spikes_4 47 9
+spikes_5 47 12
+spikes_6 47 15
+spikes_7 53 12
+spikes_8 53 15
+spikes_9 59 12
+spikes_10 59 9
+spikes_11 59 6
+spikes_12 65 3
+spikes_13 59 3
+spire 65 2
+::MAPDATA::
+           o
+            `.                                           Tall Spire  
+              `.                                                       
+                `o                       o - - o           o - - o
+                  `.          Rope     .'      |           |   .'
+                    `.       Bridge  .'        |           | .'
+                      `o           o'          o           o'
+                       |         .'            |           |
+                       |       .'              |           |
+           o - - o - - o - - o'                o           o
+                             |                 |           |
+                             |                 |           |
+                             o                 o     o     o
+                             |                 |   .'|   .'
+                             |                 | .'  | .'
+     =================       o                 o'    o'
+      Mountain Cliffs         `.   
+     =================          `. 
+                                  `o
+                                   |`.
+                                   |  `.
+                                   o    `o
+::NEWMAP::
+lev_1
+::MAPDATA::
+dining_hall 36 10
+garden 28 16
+hall_lower_north 28 6
+hall_lower_south 28 10
+lawn_east_1 52 8
+lawn_east_2 52 16
+lawn_ne 28 1
+lawn_nw 4 1
+lawn_south 28 25
+lawn_west_1 4 8
+lawn_west_2 4 16
+library 20 6
+stair_lower 36 6
+temple_east 20 10
+temple_west 12 10
+training_defence 36 12
+training_focus 20 20
+training_other 36 20
+training_unarmed 20 12
+::MAPDATA::
+
+    o - - - - - - - - - - - o
+    |                       | ` .
+    |                       |     ` .
+    |                       |         ` .
+    |           Library     |     Stairs  ` .
+    |               o - - - o - - - o         ` .       ==================
+    |                       |                    `.      Monastery of the
+    o                       |                       o        Order of
+    |         Temple        |  Dining Hall          |       the Dragon
+    |       o - - - o - - - o - - - o               |   ==(ground level)==
+    |                       |                       |
+    |       Unarmed o       |       o Defensive     |
+    |       Trainer  `.     |     .'   Trainer      |
+    |                  `.   |   .'                  |
+    |                    `. | .'                    |
+    o                       o  Garden               o
+     `.                  .'   `.                  .'
+       `.     Focus    .'       `.   General    .'
+         `. Training .'           `. Training .'
+           `.       o               o       .'
+             `.                           .'
+                ` .                   . '
+                    ` .           . '
+                        ` .   . '
+                       lawn o
+
+::NEWMAP::
+lev_2
+::MAPDATA::
+balcony_north 28 2
+balcony_south 28 18
+balcony_temple 20 14
+discuss_recode 36 10
+hall_upper_north 28 6
+hall_upper_south 28 14
+meeting 36 14
+member_post 20 6
+stair_upper 36 6
+::MAPDATA::
+
+
+                            o
+                            |
+                            |
+                  Post      |     Stairs                ==================
+                    o - - - o - - - o                    Monastery of the
+                 Office     |                                Order of
+                            |                               the Dragon
+                            |                           ==(second level)==
+                            |       o
+                            |       |
+                            |       |
+                            |       |
+                    o - - - o - - - o : (Council's Chamber)
+                            |   Meeting
+                            |     Room
+                            |
+                            o
+
+::NEWMAP::
+lev_2_council
+::MAPDATA::
+council 44 14
+council_meeting 44 18
+council_post 44 10
+::MAPDATA::
+
+
+                            o
+                            |
+                            |
+                  Post      |     Stairs                ==================
+                    o - - - o - - - o                    Monastery of the
+                 Office     |                                Order of
+                            |                               the Dragon
+                            |             Council Post  ==(second level)==
+                            |       o       o
+                            |       |       |
+                            |       |       |
+                            |       |       |
+                    o - - - o - - - o : - - o  Council's
+                            |   Meeting     |   Chamber
+                            |     Room      |
+                            |               |
+                            o               o
+                                        Meeting Room
+                                         (Council)
+
+::NEWMAP::
+lev_3
+::MAPDATA::
+armoury 28 14
+chapel 20 6
+dormitory 28 10
+hall_top 28 6
+stair_top 36 6
+::MAPDATA::
+
+
+
+
+
+                Meditation        Stairs               ==================
+                    o - - - o - - - o                   Monastery of the
+                 Chapel     |                               Order of
+                            |                              the Dragon
+                            |                          ==(third level)===
+                            o  Dormitory
+                            |
+                            |
+                            |
+                            o
+                         Armoury

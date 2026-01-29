@@ -1,0 +1,8 @@
+//Room type {q}
+
+inherit "/d/Calia/central/forest/baserooms/base_pit";
+
+void create_room()
+    {
+    create_pit("C70_R25");
+    }

@@ -1,0 +1,20 @@
+Name: trap
+
+Object: /d/Sparkle/guilds/arcane/spells/trap.c
+
+Cost: 
+
+Skills: 
+
+Description: Tier 3 spell
+                 Targets: N/A
+		 Creates an invisible 'trap' in the room from which the
+		 caster conjures this spell. For a moderate duration of
+		 time, the caster will be notified of anyone that passes
+		 through the room (reporting the short description of
+		 passerby). 
+		 
+Requirements: 
+    SS_ELEMENT_EARTH    
+    SS_FORM_CONJURATION     
+    Jasper

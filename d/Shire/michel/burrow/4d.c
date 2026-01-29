@@ -1,0 +1,48 @@
+/*
+ * Hobbit burrow in Michel Delving
+ * Updated by Finwe, September 1997
+ * Updates include adding the hobbitmaker
+ */
+
+#pragma strict_types
+#include "local.h"
+
+inherit "/d/Shire/eastroad/smial";
+
+void reset_room();
+
+void
+create_room()
+{
+   
+    areaname  = "Michel Delving"; /*Name of village*/
+    land      = "the Shire";      /*Name of land   */
+    roomtype  = 10;               /*Type of room in the smial*/
+    areatype  = "town";           /*Type of village*/
+    smialsize = "large";          /*Size of the house*/
+   
+    extraline = "The shelves are filled with jars and boxes of food.";
+    add_item("shelves",
+	"The hobbits store their food here.\n");
+    add_item("jars",
+	"These jars are full of jams and relishes and other wonderful " +
+	"things. You wouldn't feel right about stealing this food " +
+	"though.\n");
+    add_item("boxes",
+	"These boxes contain lots of different types of food, used to " +
+	"cook wonderful meals.\n");
+    add_item("food",
+	"Your mouth waters at the sight of all this food. However, " +
+	"you decide to leave it alone.\n");
+ 
+    add_exit(MICH_DIR + "burrow/4c","north",0,1);
+
+    make_the_room();
+
+}
+
+
+void
+reset_room()
+{
+}

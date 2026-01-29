@@ -1,0 +1,24 @@
+The training room of hammerhands
+
+Properties:
+hammerhand inside
+training room
+
+Items:
+mannequins, benches, mattresses
+
+Objects: inner bulletin board, training master
+
+Actions:
+train, post to board
+
+Exits: according to map
+
+Special:
+skills trained -
+club specials sup. guru
+parry sup. craftsman
+two-handed sup. craftsman
+forge sup. acolyte
+mending weapons sup. acolyte
+

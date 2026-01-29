@@ -1,0 +1,42 @@
+                             Map of Menisca
+
+
+
+
+		 H6 -P27 S5   G3 - G4 - G5 R5 - P5 - P6            
+		      |   |   |  X |  X  | |         |              
+		 P29-R12-P28  G2 - G1 - G6 P3 - S2   H1                  W - Gate
+		  | / |   |        |     /   \                         / |       
+		 P30 P26-P25-P24  p15  P4 S1 - P2 - P1        G1 - R2 - R1    
+		              |  X |   |               \       | / |
+		D5 - D6  P22-P23  p14  P7        A2 - A3 R4 - R3 - G2
+		|  X  |   |        |   |         |  X  |
+		D4 - D1 -R14-R15 - L1- P8 - R6 - A1 - A4  
+		| X   |   |        |   |         |  X  |  
+		D3 - D2  P21- S4  P10- P9        A6 - A5  
+		          |        | X |        
+		  H5  S3-R11-R10 - R9 -P11- R7 - R8 - H2
+                  |       |        |         | \  | 
+                 P20 P19-P16  Pt5-Pt1-Pt2   P12  P13  
+                    \ | X |   | X  | X  |    |     \  
+                     P18-P17  Pt6-Pt4-Pt3    H3     H4
+
+
+Legend :
+
+P* - Standard path
+
+G* - Temple to Lady Gu
+D* - Temple to Lord Diabrecho
+Pt* - Temple to Lord Pyros
+A* - Temple to Lady Aeria
+
+L - Library
+G* - Guard Towers
+R* - Ruined Road
+W - Wall Breach
+H* - House
+S* - Shops
+
+                           
+S - Secret Room from library

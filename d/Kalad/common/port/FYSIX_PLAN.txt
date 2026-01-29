@@ -1,0 +1,41 @@
+General recode plan
+-------------------
+
+Fysix@Genesis, 6 Jan 1998, 3 March 1998
+
+rooms:
+------
+
+* Change inheritance /d/Kalad/room_std.c -> /d/Kalad/std/room.c
+  (Get rid of the funny add_exit calls, you may add some dirt
+  objects (/d/Kalad/std/dirt.c) here and there, which are a
+  replacement of the dirty exits.)
+* Replace the defs.h include by an include of a default.h, specific
+  for the area.
+* Let the npcs that should be wandering around be cloned by 
+  Shiva's clone_handler for random positioning. Let all other npcs
+  be cloned by the rooms themselves. So when you edit the room, you'll
+  see if there should be an npc there or not.
+* Change npc cloning, mostly alarms are used for it now.
+  Use the new clone_npcs function for it.
+* Check the long descriptions: if the descriptions are shorter than
+  4 lines they will have to be fixed.
+* Add items to rooms:
+  In general I see too little items in the rooms.
+  Inside rooms: wall, floor, ceiling
+  Outside rooms: ground, sky
+* Perhaps make little additions here and there to make the area more
+  lively, like a guard patrol which attacks if you'r wacking 
+  a citizen.
+
+npcs:
+-----
+
+* Change npc arming, alarms are used now, npcs will all use
+  /d/Kalad/lib/arm_me.c in the future. (This is standard included
+  in /d/Kalad/std/monster.c already).
+* Replace the defs.h include by an include of a default.h, specific
+  for the npcs of the area.
+* Npcs that have a special should use /d/Kalad/lib/special.c
+* Let the strong guards assist all citizens using /d/Kalad/lib/assist.c
+  The weak guards don't do anything except watch (see background files).

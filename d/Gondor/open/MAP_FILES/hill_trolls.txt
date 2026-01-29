@@ -1,0 +1,27 @@
+main
+::MAPDATA::
+path2 13 1
+outcave 13 3
+armscave 9 5
+entrcave 13 5
+cave1 9 7
+livcave 13 7
+treasurecave 1 9
+cave2 5 9
+foodcave 9 9
+prisoncave 13 9
+cave3 5 11
+::MAPDATA::
+
+   \|/      [ ]         \|/
+             |    \|/
+  _____      o   ______________ 
+` ``` `\     |  /
+ ` ` ` / o   o | `` ` ```` ` ` `
+  ``` /    \ | |   `  ` ` `  ```
+` ____|  o - o | ` ` ` ` `  ```
+ /     /     |  \  ```` ` ` ` 
+|o - o - o - o  / ` ` ` ` `   `
+\    |         / ``` ` `` ``` `
+`|   o _______/ ` ` ` ```` `` 
+``\___/ ` `  ```` `  ``` ` `  `

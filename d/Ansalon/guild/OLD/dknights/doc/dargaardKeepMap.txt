@@ -1,0 +1,84 @@
+
+Dargaard Keep First level.
+---------------------------
+
+                             o 
+                             |
+                         o---o---o   
+                          \     /
+                           o---o  
+                           | | |   
+                           o d o   o
+                          /     \ /  
+                      d--o       o    
+                         |      / \
+                  o--o   o     o   o--o--o--o--o
+                  |  |   |         |  |  |  |  |
+                  o--o   o         o--o  o--o--o..
+                      \ /         /|      \ |  |
+                       o  o-T-o  o d        o--o
+                      /  / \|/ \  \                 <-- Throne room.
+                   ..o  o---o---o  o  o  o
+                     |  | X | X |  |  |  |      
+                   ..o  u---o---u  o--o--o
+                      \  \ /|\ /  / \
+                       o--o-o-o--o   ..
+                           \|/
+                            G
+                            |
+                          o-o-o
+                         / \ / \
+                        o---o---o        <- Courtyard.
+                         \ / \ /
+                          o---o
+                           \ /
+                         g--G--g      <- Entrance.
+                            |
+                            o
+                            |
+                            o
+                                                         
+                             
+  Legend:
+  T  = Throne.
+  d  = Down.
+  u  = Up.
+  G  = Gate.
+  g  = Guardhouse
+  .. = Blocked way.  
+
+
+Dargaard Keep Lower level.
+---------------------------
+
+
+                                   
+                           o--u--o    
+                          /   |   \     
+                      u--o    o    o..    
+                         |    |    |  
+                       ..o-o--F--o-o
+                         |    |    |
+                         o    o    o..
+                          \   |   /|
+                           o--+--o u
+                              |
+                              +
+                              |
+                              +    l
+                             /|\   |
+                         M--o ! +--+   d
+                            |   |   \ / 
+                            +---+--t +
+                            |    \   |
+                            s     +--+--%
+                             
+! = Lord Soth.
+S = Start room for Death Knights.
+T = Combat Masters room (Training Combat skills).
+M = Smith.
+L = Library.
+% = Spells Masters Room (Training Magic skills).
+D = Armoury.
+F = Fountain with blood.
+..= Blocked way.

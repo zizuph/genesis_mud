@@ -1,0 +1,53 @@
+                    The Estehilde, Keepers of the Houses of the Healing
+
+
+Proposed Skills
+
+Skill               Lvl               Base       Txbl     Mod     Tax
+
+Spellcraft           85                 20         65      x1    1.09
+Life Spells          80                 20         60      x1    1.00 
+Abjuration Spells    50                 20         30      x1    0.50
+Conjuration Spells   50                 20         30      x1    0.50
+Transmutation Spells 50                 20         30      x1    0.50
+Earth Spells         50                 20         30      x1    0.50
+Water Spells         50                 20         30      x1    0.50
+
+Alchemy              60                 20         40      x1    0.66
+Awareness            75                 50         25      x1    0.41
+Herbalism            60                 30         30      x1    0.50
+
+Defence              70                 20         50      x2    0.82
+
+
+Total               700                330        370
+Skills - Base Skills = 370                                       6.98
+
+
+NOTE:     NO specials and NO weapon skills.
+
+
+Proposed Spells
+
+
+1.  Fortitude of Tulkas  OrëThalion Tulkas   (speeds healing/regeneration)
+2.  Team Heal            OnCoiNur Nienna     (minor heal for all team members)
+3.  Major Heal           LaurëaCal Elberth   (major heal for one target)
+4.  Slow Poison          DarDae Estë         (slow/weaken the present poison)
+5.  Team Cleanse         DaeAvariNur Estë    (minor cleanse on all team members)
+6.  Greater Cleanse      WalmeAuta Yavanna   (major cleanse on one target)
+7.  Sanctuary            LaurëaBand Aulë     (paralyses and protects the target)
+8.  Diagnose Character   TirCoi Nienna       (diagnosis of a player's injuries)
+9.  Detect Evil          HirDae Elbereth     (detects any visible evil PCs and NPCs)
+10. Mana Shield          SulRamba Manwë      (uses healer's mana as hit points)
+11. Eyes of Mandos       HirDolen Manwë      (see any invisible mortals)
+12. Shield of Elbereth   AvariGurth Elbereth (prot from undead)
+13. Endurance of Oromë   HröaThalion Oromë   (player resists fatigue for duration)
+14. Mend bones           RemAisg Yavanna     (fixes broken bones etc)
+15. Manwe's whisper      SulBethrim Manwë    (tell line between caster and target 
+                                              for duration)
+16. Elbereth's radiance  ElenCal Elbereth    (light spell)
+
+Secondary Spells
+
+17. Song of Yavanna      Yavannacanwa        (spell for creating lembas)

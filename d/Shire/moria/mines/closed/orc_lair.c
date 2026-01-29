@@ -1,0 +1,281 @@
+#pragma strict_types
+ 
+#include "defs.h"
+#include <macros.h>
+
+#define MAX_SOLDIERS 25
+#define PROMPT       "PANEL> "
+
+object captain;
+object *soldiers;
+
+void tele(string str);
+
+void CONSTRUCT_ROOM
+{
+    int i;
+
+    set_short("Orc lair!");
+    set_long(
+      "This is not a place for you, but if you are here, you probably are a "+
+      "wizard. Well, this is the room where the orc soldiers are generated. "+
+      "A call to create_soldier() in this room generates a soldier, arms him and "+
+      "after a while he travels to a random room. You can examine the panel "+
+      "to find out where the soldiers are. You might also push button to "+
+      "generate one. If you <wipe panel>, they will be destroyed."
+    );
+    add_item("panel","@@dump_soldiers@@");
+    add_call(({ "press", "push" }), "[the] 'button'", "create_soldier");
+    add_call(({ "wipe", "clean", "dest" }), "'panel' / 'soldiers' / 'orcs'",
+      "destruct_soldier");
+    add_call(({ "press", "push" }), "[the] 'red' [button]",
+      "start_captain");
+    add_call(({ "wipe", "clean", "dest" }), "'captain'",
+      "destruct_captain");
+    add_call("stat", 0, "stat");
+    add_call("cbs", 0, "cbs");
+    add_call("cbd", 0, "cbd");
+    add_call(({"skills", "skillstat"}), 0, "skillstat");
+
+    add_exit(THIS_DIR+"bighalln", "north");
+    add_exit(THIS_DIR+"corr4",	  "northeast");
+    add_exit(THIS_DIR+"durhall",  "nortwest");
+    add_exit(THIS_DIR+"cornerch", "south");
+    add_exit(THIS_DIR+"goldroom", "southwest");
+    add_exit(THIS_DIR+"longr1",   "down");
+    add_exit(THIS_DIR+"mining/mining.10", "southeast");
+    add_exit(THIS_DIR+"slime",	  "east");
+
+    add_exit("/d/Immortal/rogon/workroom", "west", "@@chk_npc@@");
+
+    for (i = 1; i <= 5; i++)
+	set_alarm(itof(20 * i), 0.0, &tele("team"+i));
+    for (i = 6; i <= 10; i++)
+	set_alarm(itof(20 * i + 120), 0.0, &tele("team"+i));
+
+    add_prop(ROOM_I_NO_CLEANUP,1); // We don't want this room to be unloaded
+    add_prop(ROOM_I_LIGHT, 15);
+}
+
+/*
+ * Too avoid too long evaluation.
+ */
+void
+tele(string what)
+{
+    call_other(MINES_DIR + what, "teleledningsanka");
+}
+
+int
+chk_npc()
+{
+    if (TP->query_npc())
+	return 1;
+    return 0;
+}
+
+/*
+ * The soldiers array is a bucket containing the 
+ * current soldiers. 
+ */
+string
+create_soldier()
+{
+    int number = 0, i;
+    int *not_possible = allocate(MAX_SOLDIERS);
+    int *possible = ({});
+    object new;
+    int sz;
+
+    sz = sizeof(soldiers);
+    if (!sz)
+	soldiers = ({});
+
+    if (sz == MAX_SOLDIERS)
+	return "Sorry, there are already "+MAX_SOLDIERS+
+	" soldiers out there.\n";
+
+    for(i=0;i<sz;i++)
+	if (living(soldiers[i])) {
+	    number = soldiers[i]->query_no(); 
+	    not_possible[number] = 1;
+	}
+
+    for(i=0;i<MAX_SOLDIERS;i++)
+	if (!not_possible[i])
+	    possible += ({ i });
+
+    if (!sizeof(possible))
+	return "Error!\n";
+
+    //    write("not_poss " + sprintf("%O\n", not_possible));
+    //    write("poss " + sprintf("%O\n", possible));
+
+    number = possible[random(sizeof(possible))];
+
+    new = clone_object(MORIA_NPC+"orc");
+    if (!new)
+	return "Sorry, error in compiling moriaorc.c\n";
+
+    new -> create_troll_soldier(number);
+    soldiers += ({ new }) ;
+    new -> move(this_object(), 1);
+    return "Watch out! Orcsoldier in the lair!!\n";
+}
+
+string
+start_captain()
+{
+    if (living(captain))
+	return 
+	"The Captain is living and well..\n"+
+	"Bolg is lurking in: " + file_name(ENV(captain));
+
+    captain = clone_object(MORIA_NPC + "urukcap");
+    captain -> move(this_object(), 1);
+    return "Captain created!!";
+}
+
+string
+destruct_captain()
+{
+    if (!captain || !living(captain))
+	return "Captain lost.\n";
+
+    captain->remove_object();
+    return "Captain removed.\n";
+}
+
+string
+fname(object where)
+{
+    string r="Unknown position";
+    if (sscanf(file_name(where), THIS_DIR + "%s", r))
+	return r;
+    if (sscanf(file_name(where), "/d/%s", r))
+	return r;
+    if (stringp(file_name(where)))
+	return file_name(where);
+    else
+	return "Lost in void.";
+}
+
+string
+dump_soldiers()
+{
+    int i;
+    string s="The panel shows:\n";
+    string str;
+    object *en;
+
+    if (sizeof(soldiers)) for(i=0;i<sizeof(soldiers);i++)
+	{
+	    if (soldiers[i]) {
+		en = soldiers[i]->query_enemy(-1);
+		s += sprintf(
+		  "%2d: %-10s #%-6s F:%-10s",
+		  soldiers[i]->query_no(),
+		  (string)soldiers[i]->query_name(),
+		  OB_NUM(soldiers[i]),
+		  fname(ENV(soldiers[i]))
+		);
+
+		if (sizeof(en))
+		    s += sprintf("E: %@-11s", en->query_name());
+
+		s+="\n";
+	    }
+	}
+    else s="* No orc soldiers created!\n";
+
+    if (living(captain))
+    {
+	en = captain->query_enemy(-1);
+	s += sprintf(
+	  "CAPTAIN: %-10s ", fname(ENV(captain)));
+	if (sizeof(en))
+	    s += sprintf("E: %@-11s", en->query_name());
+
+	s += "\n";
+    }
+
+    return s;
+}
+
+int
+skills(string arg)
+{
+    int who;
+    if (!strlen(arg))
+	return 0;
+    if (sscanf(arg,"%d",who)!=1)
+	return 0;
+    if (who<0||who>MAX_SOLDIERS)
+	return 0;
+    if (!soldiers[who])
+	write("Status: Does not exist.\n");
+    else
+	TP->command("skillstat "+file_name(soldiers[who]));
+    return 1;
+}
+
+int
+stat(string arg)
+{
+    int who;
+    if (!strlen(arg))
+	return 0;
+    if (sscanf(arg,"%d",who)!=1)
+	return 0;
+    if (who<0||who>MAX_SOLDIERS)
+	return 0;
+    if (!soldiers[who])
+	write("Status: Does not exist.\n");
+    else
+	write(soldiers[who]->stat_living());
+    return 1;
+}
+
+int
+cbs(string arg)
+{
+    int who;
+    if (!strlen(arg))
+	return 0;
+    if (sscanf(arg,"%d",who)!=1)
+	return 0;
+    if (who<0||who>MAX_SOLDIERS)
+	return 0;
+    if (!soldiers[who])
+	write("Status: Does not exist.\n");
+    else
+	write(soldiers[who]->combat_status());
+    return 1;
+}
+
+int
+cbd(string arg)
+{
+    int who;
+    if (!strlen(arg))
+	return 0;
+    if (sscanf(arg, "%d", who) != 1)
+	return 0;
+    if (who<0 || who>MAX_SOLDIERS)
+	return 0;
+    if (!soldiers[who])
+	write("Status: Does not exist.\n");
+    else
+	write(soldiers[who]->combat_data());
+    return 1;
+}
+
+string
+destruct_soldiers()
+{
+    int i;
+    soldiers = soldiers - ({ 0 });
+    for(i=0;i<sizeof(soldiers);i++)
+	soldiers[i]->remove_object();
+    return "All removed.\n";
+}

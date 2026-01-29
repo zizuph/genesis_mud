@@ -1,0 +1,85 @@
+main
+::MAPDATA::
+candy_browse 7 23 village_green
+candy_shop 7 23 village_green
+costume_browse 7 23 village_green
+costume_shop 7 23 village_green
+event_central 7 23 village_green
+::MAPDATA::
+                                  __
+                                 /  /`.
+                               .--./   `.
+        Enchanter's  /`.      / The`.    `.
+         Workshop   /   `.   /  Inn  `.   /
+                   / `.   /\/==========`./\
+                  / /`.`./ / \    .    \  /_________
+     _____        \_\| \_\/   \___\|\___\//   AoP   /\
+    /    /\          |             |     /  Office /  \
+   /____/\/ -- -- -- o -- -- -- -- o -- /_________/   /
+   \____\/           |             |    \         \  /
+  Archives           |             |     \_________\/     
+                     |             |                    ==================
+                     |             |                         Sparkle
+                     |        _____|_______                Town Center
+                     |       /Post Office /\                 [under]
+ -- -- o -- -- -- -- o      /____________/ /              [construction]
+                     |      \____________\/             ==================
+ //  //  //  //  //  |
+  //  //  //  //  // |               /.
+   //  //  //  //    |              /  `.               ==-        Donations
+//  //  //  //  //   |             /      `.           .|.           Office
+ The Village Green   |          + / Church   `._      .`- '`.       .--------.
+       o -- -- -- -- o           \     of       /    | Bank  |__   .--------./
+                     |          /  `. Sparkle  / \  /`.___ . `  /\  \__\|\__\/
+  (special events!)  |         /   \\ `.      /  / /_//   `.___/ /      |
+     ____________    |       _/     -    `._ /  /  \/ `.   /\__\/       |
+    /         /  \   |        \    .---.    \  /   / /`.`./ /    Market |
+   / Genesis /   /   |         \____\ | \____\/    \_\ |\_\/   ___Square|
+  /  MVSEVM / /\/    |                |                |      /\__\     |
+ /         / / -- -- o -- -- -- -- -- o -- -- -- -- -- o -- -- -- -- -- o --
+/_________/  \       |                |                |   Auction Tent |
+\   __    \  /    __ |          ______|_____           |             __ |
+ \.---.`\__\/    /  /`.       .------.     /`       ~-:::-~         /  /`.
+  \____\/      .--./    `.   ,------./    /`\    ~-:       :-~    .--./    `.
+              /    `.    /  / \_____\/   /`  \  ~-:The Tower:-~  /  _ `.    /
+             / =   =  `.//,-------------.`   /  ~-:of Realms:-~ /        `.//
+              \________\/  \  Library    \  /    ~-:       :-~   \___..___\/
+           Adventurer Guild \_____________\/        ~-:::-~     General Store
+
+::NEWMAP::
+village_green
+::MAPDATA::
+candy_browse 7 17
+candy_shop 14 18
+costume_browse 32 7
+costume_shop 33 10
+event_central 33 18
+::MAPDATA::
+
+                       \|/
+                     \|/                                          \|/
+                                ___
+                               /  / `.    Ghostly's
+                             .--./    `.     Costume Shop
+  \|/      \|/          ____/     `.   /______
+                       /   /        `.//     / `.
+                      /_____\  _  _  \/_____/    `.
+                     /         \\ \\         `.   /
+                    /  =   =            =   =  `.//
+                     \_________.^.^.^.__________\/
+  Ghostly's                      |
+    Candy Shop                   |                         \|/
+     ____________                |
+    /         /  \               |                 \|/
+   / /|  /|  /   /               |
+  /__  ^  __/ /\/                |
+ /  _/_/_/ / / -- -- -- -- -- -- o -- -- -- -- -- -- -- -- -- -- -- -- 
+/_________/  \
+|        |   /              The Village
+|________|  /                  Green
+ \________\/        
+                    (Trick-or-Treat Event Area!)            \|/
+
+      \|/
+
+

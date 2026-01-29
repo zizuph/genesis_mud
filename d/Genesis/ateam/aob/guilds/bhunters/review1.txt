@@ -1,0 +1,109 @@
+
+The Bounty Hunters Layman Guild
+
+I've looked over the code for the guild and I have some concerns,
+I've not yet considered the exact tax values as it'll depend
+on how we deal with some of these concerns.
+
+Overall things look good. The main problem right now is
+with two of the traps that run into the old order prohibiting
+movement impairing effects from guild abilities.
+
+I actually can't locate that order right now as it's scrolled
+of the board. It's been a few years and I'm not sure that order
+did very much good for the game so it might be time to lift it.
+
+I'll get back to you on that issue. In the meantime I have a few things
+for you to look into / consider. :)
+
+Cotillion
+
+- Blood Coins
+
+I do not believe that the blood coin system will work.
+First, it currently relies on the join room to be reloaded by
+armageddon. No code in Genesis is supposed to rely on armageddon in any 
+way as it might be removed some day.
+
+Secondly, it seems that bouny hunters are able to keep an infinite 
+amount of coins stored. This would make it possible to save the coins 
+and then create very bad situations by covering an area in traps. 
+
+I believe some other way to obtain and limit the coins is needed.
+
+- Gaining Rank / Trap Activation
+
+I do not believe the only way to gain rank should be to kill players.
+In Genesis one of the keys to our success has been that there is very
+little distinction made between players and NPCs. 
+
+Therefore i also think that you should consider adding more ways to 
+trigger the traps other than movement. 
+
+Perhaps NPCs and players with low awareness and find remove traps skill 
+could accidentaly 'wander' into traps in the room they're standing in 
+after a while.
+
+- Trap Effects
+
+Currently it seems all the traps have static effects, I don't think
+that will work out. The effect of the trap has to be in relation to
+the stats of the bounty hunter placing it in some way.
+
+I'd also say that the traps need to disappear after a while and when
+the one who placed them logs out.
+
+As the guild is right now i suspect players will create small seconds
+who will join and then place traps to help their mains.
+
+- Pitfall Trap
+
+When I run the numbers for the damage from someone falling from a horse
+it seems that it'll instant kill most players.
+
+A player with a weight of 120kg will suffer 2300 hp damage. 
+This can't be what you intend.
+
+- Shock Trap
+
+Is the image of a battery and a wire something we want in the game?
+The resistance check is broken, check for MAGIC_I_RES_ELECTRICITY
+The set_skill_extra code is wrong, you must only modify the previous
+value, not overwrite it.
+
+Removing 50% of the targets mana is much to powerful for a layman guild 
+ability. Something like 10%-20% would be more appropriate.
+
+- Paint Trap
+
+Don't tell players what they feel. MMs won't like to be forced to laugh
+for example.
+Broken set_skill_extra code.
+
+- Poison Trap
+
+There is currently an old AoB order preventing guilds from having 
+abilities/poisons that inflict fatigue on the target.
+So the poison can't be fatigue.
+
+- Snare Trap
+ 
+This probably also falls under the above order.
+
+- Pepper Trap
+
+The blind time from this ability is much too long for a layman guild. 
+
+- Other Notes:
+
+blood coins
+  The blood coin object should be turned into a heap (/std/heap.c).
+
+remove_compoent in the shadow
+  The way the loop is done here  is extremely inefficient as it creates
+  several arrays of all_inventory over and over again.
+
+Infinite stun in the pitfall trap.
+  If the pitfall trap collapses while a stun is active the stun will be 
+  infinite.
+  

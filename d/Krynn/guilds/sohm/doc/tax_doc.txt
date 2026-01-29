@@ -1,0 +1,243 @@
+School of High Magic proposed taxation doc.
+
+TOTAL TAX:
+==========
+Skills + spells + combat aid = 8.71% + 4.35% + (between 2.8% and 10%)
+14.64
+Initiate tax = 17% (15.96)
+Novitiate tax = 22% (18.96)
+Aspirant tax = 25% (22.36)
+
+SKILL TAX 
+=========               
+ --------------------------------------------------------------- 
+| Skill                   |  Lvl |Taxabl| Alien |Tax Mod|  Tax  |
+|-------------------------|------|------|-------|-------|-------|
+| defence                 |   45 |    25 |   50 |  1.50 |  0.62 |
+| spellcraft              |   75 |    55 |   55 |  1.00 |  0.92 |
+| abjuration              |   50 |    30 |   30 |  1.00 |  0.50 |
+| illusion                |   50 |    30 |   30 |  1.00 |  0.50 |
+| enchantment             |   50 |    30 |   30 |  1.00 |  0.50 |
+| herbalism               |   70 |    50 |   50 |  1.00 |  0.83 |
+| alchemy                 |   50 |    30 |   30 |  1.00 |  0.50 |
+| transmutation           |   50 |    30 |   30 |  1.00 |  0.50 |
+| divination              |   75 |    55 |   55 |  1.00 |  0.92 |
+| conjuration             |   50 |    30 |   30 |  1.00 |  0.50 |
+| fire spells             |   50 |    30 |   30 |  1.00 |  0.50 |
+| air spells              |   75 |    55 |   55 |  1.00 |  0.92 |
+| earth spells            |   50 |    30 |   30 |  1.00 |  0.50 |
+| water spells            |   50 |    30 |   30 |  1.00 |  0.50 |
+| arcane focus            |   75 |     0 |    0 |  1.00 |  0.00 |
+|-------------------------|------|-------|------|-------|-------|
+| Sum:                    |  790 |   510 |  535 |       |  8.71 |
+ --------------------------------------------------------------- 
+
+SPELLS TAX
+==========
+At maximum level a SoHM will be able to cast 11 spells:
+
+4 'cantrips' - spells of class 0 or class 1 spell type
+4 'minor spells' - spells of class 2 or class 3 spell type
+2 'lesser spells' - spells of class 3
+1 'greater spell' - spells of class 3 or class 4 type
+
+For taxation purposes we'll use the highest taxed spell for each 
+spell level:
+
+Cantrips: 	0.15% + 0.15% + 0.1% + 0.1%
+Minors:		0.5625% + 0.5625% + 0.5625% + 0.5625%
+Lessers:	0.5% + 0.5%
+Greater:	0.6%
+
+Total spell tax = 4.35%
+
+COMBAT AID
+==========
+1% of tax will be charged for every 25% combat aid.
+
+Max combat aid at any one time for an occupational caster is 250 Caid.
+
+Highest Caid spell is stoneskin (greater) spell at 120 Caid.
+
+Next highest Caid spell are the lesser offensive spells (lightning, 
+flame lance, ice strike, and physic blast) at 100 Caid. These four
+spells cannot be cast when a defensive spell is active.
+
+Can only have one defensive maintained spell active at any one time
+(with the exception of resistance spells). 
+
+So there are two possible chains of maximum Caid:
+
+Defensive:                                  Offensive:
+ 
+GREATER Stoneskin - 90 Caid                 Dominate         - 45 Caid                       
+LESSER  Enchant weapon - 40 Caid            Lesser offensive - 113 Caid
+Lesser  Mage strength - 29 Caid             Enchant weapon   - 40 Caid
+MINOR   Minor offensive - 36 Caid           Curse            - 27 Caid 
+MINOR   Curse            - 27 Caid          N/A  
+MINOR   N/A                                 N/A 
+MINOR   N/A                                 N/A
+
+Total Caid:  222 Caid                       225 Caid 
+
+Total max potential combat aid: 250
+Total max potential combat aid tax: 10% 
+
+NOTE: Mindful SoHM have a max SS_DEFENCE of 45 (~0.8 caid benefit from defensive
+skills), and that melee guilds tend to have at least 180 defensive skills
+across defence/parry/acrobatics that provide 120+ caid of defensive benefit, it
+is proving to be a massive balance issue for these magic guilds since the
+changes to white hit damage in 2021.
+
+Taking this in to consideration, the spell blur (kadenadon) may be cast without
+the usual spell stacking restrictions other defensive spells have. This equates
+to a 'bonus' 72 caid that does not count towards their combat aid cap, however 
+the spellcaster will still need to include it as one of their two lesser spell 
+slots.
+
+
+Number of spells gained as SoHM level
+===============================================================================
+      Cantrips |   Minors |  Lessers | Greaters | Max C.aid   C.aid tax
+
+1.      2	     1           -        -          36%         1.44%    
+2.      3	     1           -        -          36%         1.44%    
+3.      3	     2           -        -          72%         2.88%      
+4.      4	     2           -        -          72%         2.88%   
+
+Initiate - those with less than 80% max combat aid get c.aid tax at 2.88%
+----------------------------------------------------------------------------- 
+5.      4	     3           -        -          99%         3.96%       
+6.      4	     4           -        -          104%        4.13326%     
+7.      4	     4           1        -          145%        5.8%  
+
+Novitiate - those with between 80% and 150% combat aid get c.aid tax at 5.8%
+-----------------------------------------------------------------------------    
+8.      4	     4           2        -          185%       7.4%
+9.      4	     4           2        1          230%       9.2%
+
+Aspirant - those with between 150% and 250% combat aid get c.aid tax at 10%
+
+=============================================================================
+
+MEMORISE / UNMEMORISE ABILITY
+=============================
+The ability to unmemorise spells from the spell list and memorise
+other spells in the caster's spellbook provides a level of flexibility
+that effectively expands their spell reportoire.
+
+It also allows for customisation of play style. 
+
+This ability is restricted by a cooldown which increases as the class
+of the spell increases. How often a SoHM can change the spells in their 
+memorised slots will depend on a special guild skill, "Arcane Focus" and the 
+spell category:
+
+Cantrip - a base 3 hours cooldown to unmemorise a cantrip.
+Minor spells - a base 6 hours cooldown to unmemorise a minor spell.
+Lesser spells - a base 12 hours cooldown to unmemorise a lesser spell.
+Greater spells - a base 24 hours cooldown to unmemorise a greater spell.
+Advanced spells - can't be cast by SoHM members (exclusively for WoHS members).
+
+This base is modified by * (100 / max(10,arcane_focus_skill)), meaning the base
+time to be able to again unmemorise a spell can potentially be as high as 10x
+for a magus unskilled in Arcane Focus.
+
+Members of the SoHM can learn Arcane Focus up to level 75, meaning all base times
+above are increased by a third.
+
+'Greater spells' are also restricted by high form spell skill requirements, 
+so flexibility for the higher level spells does come at a re-specialisation 
+re-skilling cost.
+
+* Note: initial combat aid values were reduced by 10% prior to opening as a 
+*       buffer. That decrease was decided to be kept post opening of guild.
+*       Revised values below.
+
+INDIVIDUAL SPELL TAX AND COMBAT AID
+==============================================================================
+Name			Power		Type			C.Aid	Tax
+              ---------------  Cantrips  ---------------
+Read Magic		Class 0		Cosmetic		0%	0%
+Divine Wizard		Class 0		Cosmetic		0%	0%
+^## Rune of welcome     Class 0         Cosmetic                0%      0%
+^Shatter		Class 0		Utility (component)	0%	0%
+Speak with dead		Class 1		Utility (Info)		0%	0.05%
+Wind whisper		Class 1		Utility (Far tell)	0%	0.10%
+Fool's curse		Class 1		Utility (Misc)		0%	0.10%
+^Wind gust              Class 1         Utility (Misc)          0%      0.10%
+^## Mirror portal       Class 1         Utility (teleport)      0%      0.15%
+Detect magic		Class 1		Utility (Info)		0%	0.15%
+Wand light		Class 1		Utility (Light)		0%	0.15%
+
+              ---------------   Minors   ---------------
+^Water breathing        Class 1         Utility                 0%      0.1%
+^Protect - divination   Class 2         Defensive               0%      0.1%
+^Featherweight          Class 2         Utility (weight)        0%      0.25%
+^## Identify		Class 2		Utility (Info)		0%	0.25%
+^## Detect resistances  Class 2         Utility (Info)          0%      0.25%
+Scare			Class 2		Offensive		0%	0.25%
+Blink			Class 2		Defensive		0%	0.25%
+Curse			Class 2		Offensive		27%	0.25%
+Protect from dragonfear	Class 2		Defensive		0%	0.25%
+Magic shield		Class 2		Defensive		36%	0.25%             
+Light spell		Class 2		Utility (Light)		0%	0.375%
+^## Dazzle		Class 2		Utility (pvp)		0%	0.375%
+^Ballistic spray        Class 3         Offensive               36%     0.5625%
+Magic Missile		Class 3		Offensive		36%	0.5625%
+Fire Dart    		Class 3		Offensive		36%	0.5625%
+Acid Arrow   		Class 3		Offensive		36%	0.5625%
+Prismatic spray		Class 3		Offensive		36%	0.5625%
+
+              ---------------   Lessers   ---------------
+Scry			Class 2		Utility (Info)		0%	0.2%
+Enchant weapon		Class 3		Offensive		40%	0.2%
+^Shadow veil            Class 3         Utility (skills)        25%     0.25%
+^Flaming fist           Class 3         Offensive               40%     0.281%
+Mage strength		Class 3		Offensive		29%	0.3%
+Protection - fire 	Class 3		Defensive		24%	0.3%
+Protection - acid 	Class 3		Defensive		24%	0.3%
+Protection - lightning 	Class 3		Defensive		24%	0.3%
+Protection - cold 	Class 3		Defensive		24%	0.3%
+Blur			Class 3		Defensive		72%	0.3%
+Invisibility		Class 3		Utility (Invisibility)	0%	0.375%	
+Protection - poison	Class 3		Defensive		24%	0.375%
+##Foreshock             Class 3         Offensive               45%     0.225%
+^Geyser 		Class 3		Offensive		113%	0.375%
+^Scouring Wind 		Class 3		Offensive		113%	0.375%
+Psychic blast		Class 3		Offensive		113%	0.375%
+Lightning bolt		Class 3		Offensive		113%	0.375%
+Flame lance		Class 3		Offensive		113%	0.375%
+Ice strike		Class 3		Offensive		113%	0.375%
+
+              ---------------   Greater   ---------------
+^##Haste                Class 4         Offensive               65%     0.75%
+Dominate		Class 4		Offensive		45%	0.6%
+Stoneskin		Class 4		Defensive		90%	0.6%
+Portents and omens	Class 4		Defensive		90%	0.6%
+Reflect damage		Class 4		Defensive		90%	0.6%
+^Teleport               Class 4         Utility (teleport)      0%      0.6%
+^Portents and omens	Class 4		Defensive		90%	0.5625%
+^Gravity                Class 3         Offensive               40%     0.5%
+Gloom			Class 4		Utility (darkness)	0%	0.45%
+Truesight		Class 4		Utility (see dark/inv)  20%     0.35%
+
+              ---------------   Advanced  ---------------
+^##Greater magic shield Class 3         Defensive               36%     0.375%
+^##Protection - magic   Class 4         Defensive               30%     0.5625%
+^##Arcane vulnerability Class 4         Offensive               30%     0.5625%
+^##Polymorph self       Class 4         Off/Def                 SPEC    0.5625%
+^##Detonate             Class 4         Offensive               140%    0.5625%
+^##Eruption             Class 4         Offensive               140%    0.5625%
+^^##Doom Blast          Class 4         Offensive               140%    0.5625%
+^##Teleport team        Class 4         Utility (teleport)      0%      0.6%
+^##Fireball             Class 4         Offensive               113%    1.125%
+^##Meteor storm         Class 4         Offensive               113%    1.125%
+^##Chain lightning      Class 4         Offensive               113%    1.125%
+^##Storm fury           Class 4         Offensive               113%    1.125%
+
+
+Detailed evaluations of each spell are outlined in ~sohm/doc/	
+## - spells marked with the double hash are only accessible to WoHS.
+^ - new spells as of the opening of the WoHS in 2017
+^^ - new spell post opening of WoHS

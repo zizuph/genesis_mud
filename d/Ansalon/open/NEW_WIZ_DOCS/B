@@ -1,0 +1,29 @@
+B. Manuals and Editor:
+^^^^^^^^^^^^^^^^^^^^^^^
+1) The Genesis Administrators have manuals containing the rules which you
+   (the coder) must follow, and which I (the liege) must enforce. Required
+   for reading and occasional review/refreshers are:
+
+         /doc/man/general/INTRO,  /INTRO_RULES, and /README
+
+2) Manual and Source Code Manual.
+   Man displays information from the different chapters of the reference
+   manual section of the documentation library. A chapter, when given,
+   applies to the keyword that follows it.
+         For more information on the 'man' command, try 'help man'.
+   Sman is used to access information on functions in files in the standard
+   mudlib. Sman can be used to search for a specific function in a number
+   of files, possibly by only giving part of the function name. Sman can
+   also be used to locate a function in the source and list the appropriate
+   part of a file.
+         For more information on the 'sman' command, try 'help sman'
+3) Editor.
+   Many people do their coding at home and ftp (help ftp) or cut-and-paste,
+   and use 'ed' for debugging and polishing purposes. The reason is that ed
+   is a basic line editor, nearly identical to, and cryptic as, the UNIX
+   ed.
+        ed <filename>
+        h   at the : prompt while editing a file gives helpful information
+        .   exits an append (a) or other similar command resulting in a '*'
+               and gets you back to the : prompt
+

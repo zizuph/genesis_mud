@@ -1,0 +1,48 @@
+
+     Spell name: Enchant weapon
+                 levexlaraek
+         Effect: animate weapon to assist in battles
+           Type: Instant
+        Targets: One wielded weapon
+        
+        Element: Earth          / 40
+           Form: Transmutation  / 40
+    Spell power: Power 3 [intermediate spell]
+     Spell type: shadow spell
+     
+       Peaceful: No
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: tuo (688cc) and cattail (70cc) herbs
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana
+     Difficulty: TASK_DIFFICULT
+     Combat Aid: 40% (calculated from MM narusse spell)
+
+            Tax:  0.5
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.5   Difficult difficulty
+                  x0.8   material component (>=1 gp value) 
+                 ------
+                  0.2%  total tax
+   ------------------------------------------------------------
+   Comments: A spell that enchants the weapon wielded by the
+   caster, increasing the weapon skill and parry by up to 40,
+   depending on the weapon wielded and power of the spell:
+
+    // Int/wis of 100, spell skills  50 / 75 / 100
+    //     spell power:              284 / 302 / 317
+    //     staff/knife/parry bonus:  40 / 40 / 40
+    //     other weapon bonus:       28 / 30 / 31
+
+    // Int/wis of 200, spell skills  50 / 75 / 100
+    //     spell power:              348 / 364 / 384
+    //     staff/knife/parry bonus:  40 / 40 / 40
+    //     other weapon bonus:       34 / 36 / 38 
+   ------------------------------------------------------------

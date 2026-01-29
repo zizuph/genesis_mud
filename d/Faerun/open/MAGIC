@@ -1,0 +1,78 @@
+MAGIC - Magic Items
+-------------------
+This file lists _every_ magical object in the Domain that are
+available to mortals. The following should be listed in some form:
+
+    * object's short
+    * description
+    * path
+    * coder
+    * place to which it is cloned
+    * magic type
+    * magical properties
+    * skill and/or stat enhancements
+    * type (if weapon or armour)
+    * class (AC, WC)
+    * obtainability
+    * special effects
+    * any other pertinent information.
+
+-------------------------------------------------------------------------------
+Armours
+-------------------------------------------------------------------------------
+Short: ancient ribbed platemail
+Description: This ancient ribbed platemail is made of steel plates that
+    overlay each other. The armour  was forged ages ago by long forgotten
+    blacksmiths. Each plate is ribbed and designed to deflect blows during
+    battle. An ancient power surrounds the ancient ribbed platemail.
+Path: /d/Faerun/mere/arm/li_m_plate
+Coder: Finwe
+Location: Worn by the boss lizardman in the Mere of Dead Men
+Magic: Enchatment, 100
+    Resistance: Protects against fire and poison, 25 + random(10) for both
+Specials: None
+Type: Armour; Body and Arms
+AC: 47
+
+Short: burnished steel body-armour
+Description: This is a burnished steel body-armour. It's molded to fit 
+    around the torso snugly and protect the arms. The armour was forged 
+    from plates of hardened steel and ancient looking.
+Path: /d/Faerun/kryptg/arm/rev_armourm
+Coder: Finwe
+Location: Worn by the revenants of Kryptgarden
+Magic: Resists magic, 15
+Specials: none
+Type: Armour; Body and Arms
+AC: 45
+
+-------------------------------------------------------------------------------
+Weapons
+-------------------------------------------------------------------------------
+Short: ancient steel battleaxe
+Description: This is a ancient steel battleaxe. It has two half moon shaped 
+    blades attached to a long handle. The blades are razor sharp and strong 
+    enough to cleave an enemy in two. Forged in ages long past, it has still 
+    retained it's edge even though the weapon looks scratched from countless 
+    battles. Runes have been etched onto the blade. They glow with an inner 
+    fire.
+Path: /d/Faerun/kryptg/wep/rev_axem
+Coder: Finwe
+Location: Randomly wielded by the revenants of Kryptgarden
+Magic: Enchantment, 50
+Specials: None
+Hit: 40 + random(5)
+Pen: 40 + random(5)
+Notes: The non-magical version is /d/Faerun/kryptg/wep/rev_axe
+
+
+---------------------------------------------------------------------
+Short: 
+Description: 
+Path: 
+Coder: 
+Location: 
+Magic: 
+Specials: 
+Type: 
+AC: 

@@ -1,0 +1,697 @@
+main
+::MAPDATA::
+crypt0 0 0 northcentral
+crypt1 0 0 northwest
+crypt10 0 0 west
+crypt100 0 0 south
+crypt101 0 0 south
+crypt102 0 0 south
+crypt103 0 0 south
+crypt104 0 0 southcentral
+crypt105 0 0 southcentral
+crypt106 0 0 northeast
+crypt107 0 0 northeast
+crypt108 0 0 north
+crypt109 0 0 northwest
+crypt11 0 0 west
+crypt110 0 0 northwest
+crypt111 0 0 south
+crypt112 0 0 south
+crypt113 0 0 south
+crypt114 0 0 south
+crypt115 0 0 north
+crypt116 0 0 north
+crypt117 0 0 northcentral
+crypt12 0 0 west
+crypt13 0 0 west
+crypt14 0 0 west
+crypt15 0 0 west
+crypt16 0 0 southwest
+crypt17 0 0 southwest
+crypt18 0 0 southwest
+crypt19 0 0 southwest
+crypt2 0 0 northwest
+crypt20 0 0 southwest
+crypt21 0 0 southwest
+crypt22 0 0 southwest
+crypt23 0 0 southwest
+crypt24 0 0 southwest
+crypt25 0 0 southwest
+crypt26 0 0 southwest
+crypt27 0 0 southwest
+crypt28 0 0 southwest
+crypt29 0 0 southwest
+crypt3 0 0 northwest
+crypt30 0 0 southwest
+crypt31 0 0 southcentral
+crypt32 0 0 southcentral
+crypt33 0 0 southwest
+crypt34 0 0 southcentral
+crypt35 0 0 southcentral
+crypt36 0 0 south
+crypt37 0 0 south
+crypt38 0 0 south
+crypt39 0 0 south
+crypt4 0 0 northwest
+crypt40 0 0 south
+crypt41 0 0 south
+crypt42 0 0 south
+crypt43 0 0 south
+crypt44 0 0 south
+crypt45 0 0 southwest
+crypt46 0 0 southwest
+crypt47 0 0 northcentral
+crypt48 0 0 northcentral
+crypt49 0 0 northcentral
+crypt5 0 0 northwest
+crypt50 0 0 northcentral
+crypt51 0 0 southcentral
+crypt52 0 0 southcentral
+crypt53 0 0 southcentral
+crypt54 0 0 southcentral
+crypt55 0 0 southcentral
+crypt56 0 0 northeast
+crypt57 0 0 southcentral
+crypt58 0 0 northeast
+crypt59 0 0 northeast
+crypt6 0 0 west
+crypt60 0 0 southeast
+crypt61 0 0 southeast
+crypt62 0 0 southeast
+crypt63 0 0 southeast
+crypt64 0 0 southeast 
+crypt65 0 0 southeast
+crypt66 0 0 southeast
+crypt67 0 0 northeast
+crypt68 0 0 northeast
+crypt69 0 0 northeast
+crypt7 0 0 northcentral
+crypt70 0 0 northeast
+crypt71 0 0 west
+crypt72 0 0 west
+crypt73 0 0 west
+crypt74 0 0 northwest
+crypt75 0 0 northwest
+crypt76 0 0 northwest
+crypt77 0 0 northwest
+crypt78 0 0 northwest
+crypt79 0 0 northwest
+crypt8 0 0 west
+crypt80 0 0 north
+crypt81 0 0 north
+crypt82 0 0 north
+crypt83 0 0 north
+crypt84 0 0 north
+crypt85 0 0 northeast
+crypt86 0 0 northeast
+crypt87 0 0 northeast
+crypt88 0 0 northeast
+crypt89 0 0 northeast
+crypt9 0 0 west
+crypt90 0 0 northeast
+crypt91 0 0 northeast
+crypt92 0 0 northeast
+crypt93 0 0 northeast
+crypt94 0 0 south
+crypt95 0 0 south
+crypt96 0 0 south
+crypt97 0 0 south
+crypt98 0 0 southeast
+crypt99 0 0 south
+crypt_s1 0 0 west
+crypt_s2 0 0 north
+crypt_s3 0 0 west
+crypt_s4 0 0 northeast
+crypt_s5 0 0 south
+crypt_s6 0 0 northwest
+crypt_s7 0 0 south
+pit_fell 0 0 south
+pit_falling 0 0 south
+pit_of_despair 0 0 south
+falling  0 0 south
+fell 0 0 south
+crypt_entr 0 0 entry
+crypt_out 0 0 out
+::MAPDATA::
+                  o   o                  
+                   \  |                  
+                    o-o-o-o-o-o-o   o-o  
+                   /             \ /  |  
+            o-o o-o               o   o  
+            | | | |                \ /|  
+        o   o o-o o                 o o  
+        |  /       \                | |  
+        o-o         o               o o  Shoreline
+       / /           \              |\   |
+      o o             o o           o o  o
+      |/               \|          /  | {|} Gate
+      o                 o     o-o o   o  o 
+     /                  |       | |   |  |
+  o o                   o-o-o   o-o-o-o--o
+  | |                       |   | |      
+  o-o-o                   o-o o-o o-o    
+  |  /                    | |   | |      
+  o o                 o-o-o-o-o-o o o    
+   \                 /            | |\   
+    o-o             o             o-o o  
+      |            /                  |  
+      o-o-o       o                   o  
+     /  |        /                    |  
+    o   o o-o-o-o                     o o
+    |   | |   |  \                   /  |
+    o   o o   o   o   o             o-o-o
+        | |   |   |\ / \           /   / 
+        o-o-o o   o o   o-o       o   o  
+            | |\  | |      \     / \ /   
+            o-o o-o o       o   o   o    
+                   \|        \ /     \   
+                    o         o       o  
+                     \         \         
+                      o         o                                  
+::NEWMAP::
+northeast
+::MAPDATA::
+crypt93 0 0
+crypt68 0 0
+crypt67 0 0
+crypt58 0 0
+crypt56 0 0
+crypt106 0 0
+crypt107 0 0
+crypt59 0 0
+crypt69 0 0
+crypt70 0 0
+crypt91 0 0
+crypt92 0 0
+crypt86 0 0
+crypt85 0 0
+crypt89 0 0
+crypt88 0 0
+crypt87 0 0
+crypt_s4 0 0
+crypt84 0 0
+::MAPDATA::
+	            ______________________________________
+       ________|                                      |_______
+       \       |         Catacombs of Sybarus         |      /
+        \      |                                      |     /
+        /      |______________________________________|     \
+       /__________)                                (_________\
+	
+								                     -o   o-o
+                            _,.-------.,_              \ /  |
+                        ,;~'             '~;,           o   o
+                      ,;                     ;,          \ /|
+                     ;                         ;          o o
+                    ,'                         ',         | |
+                   ,;                           ;,        o o
+                   ; ;      .           .      ; ;        |\
+                   | ;   ______       ______   ; |        o o
+                   |  `/~"     ~" . "~     "~\'  |       /  |
+                   |  ~  ,-~~~^~, | ,~^~~~-,  ~  |  o-o o   o o 
+                    |   |        }:{        |   |     | |   | |
+                    |   l       / | \       !   |     o-o-o-o-o 
+                    .~  (__,.--" .^. "--.,__)  ~.     | |
+                    |     ---;' / | \ `;---     |  
+                     \__.       \/^\/       .__/  
+                      V| \                 / |V  
+                       | |T~\___!___!___/~T| |  
+                       | |`IIII_I_I_I_IIII'| |  
+                       |  \,III I I I III,/  |  
+                        \   `~~~~~~~~~~'    /
+                          \   .       .   /
+                            \.    ^    ./   
+                              ^~~~^~~~^   
+       
+::NEWMAP::
+northcentral
+::MAPDATA::
+crypt50 0 0
+crypt117 0 0
+crypt49 0 0
+crypt48 0 0
+crypt47 0 0
+crypt0 0 0
+crypt7 0 0
+::MAPDATA::
+                ______________________________________
+       ________|                                      |_______
+       \       |         Catacombs of Sybarus         |      /
+        \      |                                      |     /
+        /      |______________________________________|     \
+       /__________)                                (_________\
+							  	
+                            _,.-------.,_
+                        ,;~'      \      '~;, 
+                      ,;           o         ;,
+                     ;              \          ;
+                    ,'               o o       ',
+                   ,;                 \|        ;,
+                   ; ;      .          o .     ; ;
+                   | ;   ______        |_____  ; ' 
+                   |  `/~"     ~" . "~ o -- o -- o
+                   |  ~  ,-~~~^~, | ,~^~~~-,  ~  |
+                    |   |        }:{        |   | 
+                    |   l       / | \       !   |
+                    .~  (__,.--" .^. "--.,__)  ~. 
+                    |     ---;' / | \ `;---     |  
+                     \__.       \/^\/       .__/  
+                      V| \                 / |V  
+                       | |T~\___!___!___/~T| |  
+                       | |`IIII_I_I_I_IIII'| |  
+                       |  \,III I I I III,/  |  
+                        \   `~~~~~~~~~~'    /
+                          \   .       .   /
+                            \.    ^    ./   
+                              ^~~~^~~~^   
+                                      
+::NEWMAP::										
+southeast
+::MAPDATA::
+crypt98 0 0
+crypt65 0 0
+crypt64 0 0
+crypt63 0 0
+crypt62 0 0
+crypt61 0 0
+crypt60 0 0
+crypt66 0 0
+::MAPDATA::					        
+               ______________________________________
+       ________|                                      |_______
+       \       |         Catacombs of Sybarus         |      /
+        \      |                                      |     /
+        /      |______________________________________|     \
+       /__________)                                (_________\
+								 
+                            _,.-------.,_
+                        ,;~'             '~;, 
+                      ,;                     ;,
+                     ;                         ;
+                    ,'                         ',
+                   ,;                           ;,
+                   ; ;      .           .      ; ;
+                   | ;   ______       ______   ; | 
+                   |  `/~"     ~" . "~     "~\'  |
+                   |  ~  ,-~~~^~, | ,~^~~~-,  ~  |
+                    |   |        }:{        |   | 
+                    |   l       / | \       !   |
+                    .~  (__,.--" .^. "--.,__)  ~. |
+                    |     ---;' / | \ `;---     | o-o
+                     \__.       \/^\/       .__/  |
+                      V| \                 / |V   o o
+                       | |T~\___!___!___/~T| |    | |\
+                       | |`IIII_I_I_I_IIII'| |    o-o o
+                       |  \,III I I I III,/  |        |
+                        \   `~~~~~~~~~~'    /         o
+                          \   .       .   /           |
+                            \.    ^    ./   
+                              ^~~~^~~~^  								
+						
+::NEWMAP::								
+southcentral
+::MAPDATA::
+crypt35 0 0
+crypt34 0 0
+crypt32 0 0
+crypt31 0 0
+crypt104 0 0
+crypt105 0 0
+crypt51 0 0
+crypt52 0 0
+crypt53 0 0
+crypt54 0 0
+crypt55 0 0
+crypt57 0 0
+::MAPDATA::
+                ______________________________________
+       ________|                                      |_______
+       \       |         Catacombs of Sybarus         |      /
+        \      |                                      |     /
+        /      |______________________________________|     \
+       /__________)                                (_________\
+							   
+                            _,.-------.,_
+                        ,;~'             '~;, 
+                      ,;                     ;,
+                     ;                         ;
+                    ,'                         ',
+                   ,;                           ;,
+                   ; ;      .           .      ; ;
+                   | ;   ______       ______   ; | 
+                   |  `/~"     ~" . "~     "~\'  |
+                   |  ~  ,-~~~^~, | ,~^~~~-,  ~  |
+                    |   |        }:{        |   | 
+                    |   l       / | \       !   |
+                    .~  (__,.--" .^. "--.,__)  ~. 
+                    |     ---;' / | \ `;---     |  
+                     \__.       \/^\/       .__/  
+                      V| \                 / |V  
+                       | |T~\___!___!___/~T| |  
+                       | |`II|   |I_I_IIII'| |  
+                       |  \o-o o-oI I III,/  |  
+                        \  | |   |~~~~~'    /
+                       o-o-o-o-o-o    .   /
+                      /     \.    ^    ./   
+                     o        ^~~~^~~~^  
+					/		  								
+                   o
+                  /                   
+
+ 
+::NEWMAP::
+south
+::MAPDATA::
+crypt38 0 0
+crypt37 0 0
+crypt36 0 0
+crypt_s7 0 0
+crypt41 0 0
+crypt40 0 0
+crypt39 0 0
+crypt42 0 0
+crypt43 0 0
+crypt44 0 0
+crypt94 0 0
+crypt95 0 0
+crypt96 0 0
+crypt97 0 0
+crypt99 0 0
+crypt101 0 0
+crypt102 0 0
+crypt103 0 0
+crypt100 0 0
+crypt_s5 0 0
+::MAPDATA:: 
+                ______________________________________
+       ________|                                      |_______
+       \       |         Catacombs of Sybarus         |      /
+        \      |                                      |     /
+        /      |______________________________________|     \
+       /__________)                                (_________\
+							  
+                            _,.-------.,_
+                        ,;~'             '~;, 
+                      ,;                     ;,
+                     ;                         ;
+                    ,'                         ',
+                   ,;                           ;,
+                   ; ;      .           .      ; ;
+                   | ;   ______       ______   ; | 
+                   |  `/~"     ~" . "~     "~\'  |
+                   |  ~  ,-~~~^~, | ,~^~~~-,  ~  |
+                    |   |        }:{        |   | 
+                    |   l       / | \       !   |
+                    .~  (__,.--" .^. "--.,__)  ~. 
+                    |     ---;' / | \ `;---     |  
+                     \__.       \/^\/       .__/  
+                      V| \                 / |V  
+                       | |T~\___!___!___/~T| |  
+                       | |`IIII_I_I_I_IIII'| |  
+                       |  \,III I I I III,/  |  
+                        \   `~~~~~~~~~~'    /
+                          \   .       .   /
+                            \.    ^    ./   
+                              ^~~~^~~~^         | 	 
+                                                o o
+                                               /  |
+                                o             o-o-o
+                             \ / \           /   / 
+                              o   o-o       o   o  
+                              |      \     / \ /   
+                              o       o   o   o    
+                             \|        \ /     \   
+                              o         o       o  
+                               \         \         
+                                o         o    
+								
+   							
+::NEWMAP::							
+southwest
+::MAPDATA::
+crypt16 0 0
+crypt17 0 0
+crypt18 0 0
+crypt19 0 0
+crypt20 0 0
+crypt21 0 0
+crypt22 0 0
+crypt23 0 0
+crypt24 0 0
+crypt25 0 0
+crypt26 0 0
+crypt27 0 0
+crypt28 0 0
+crypt29 0 0
+crypt30 0 0
+crypt33 0 0
+crypt45 0 0
+crypt46 0 0
+::MAPDATA::
+                ______________________________________
+       ________|                                      |_______
+       \       |         Catacombs of Sybarus         |      /
+        \      |                                      |     /
+        /      |______________________________________|     \
+       /__________)                                (_________\
+							  							 
+                            _,.-------.,_
+                        ,;~'             '~;, 
+                      ,;                     ;,
+                     ;                         ;
+                    ,'                         ',
+                   ,;                           ;,
+                   ; ;      .           .      ; ;
+                   | ;   ______       ______   ; | 
+                   |  `/~"     ~" . "~     "~\'  |
+                   |  ~  ,-~~~^~, | ,~^~~~-,  ~  |
+                    |   |        }:{        |   | 
+                    |   l       / | \       !   |
+                    .~  (__,.--" .^. "--.,__)  ~. 
+                    |     ---;' / | \ `;---     |  
+                     \__.       \/^\/       .__/  
+                      V| \                 / |V  
+                       | |T~\___!___!___/~T| |  
+                       | |`IIII_I_I_I_IIII'| |  
+                       |  \,III I I I III,/  |  
+                        \   `~~~~~~~~~~'    /
+                          \   .       .   /
+                            \.    ^    ./   
+                              ^~~~^~~~^  							
+        |        /     	 
+        o o-o-o-o     
+        | |   |  \    
+        o o   o   o   
+        | |   |   |\  
+        o-o-o o   o  
+	    	| |\  |        
+            o-o o-o          
+                   \                                         
+::NEWMAP::
+west
+::MAPDATA::
+crypt11 0 0
+crypt10 0 0
+crypt9 0 0
+crypt8 0 0
+crypt_s3 0 0
+crypt6 0 0
+crypt73 0 0
+crypt72 0 0
+crypt71 0 0
+crypt15 0 0
+crypt14 0 0
+crypt13 0 0
+crypt12 0 0
+crypt_s1 0 0
+::MAPDATA::								 
+                ______________________________________
+       ________|                                      |_______
+       \       |         Catacombs of Sybarus         |      /
+        \      |                                      |     /
+        /      |______________________________________|     \
+       /__________)                                (_________\
+							  
+                            _,.-------.,_
+                        ,;~'             '~;, 
+                      ,;                     ;,
+                     ;                         ;
+                    ,'                         ',
+                   ,;                           ;,
+                   ; ;      .           .      ; ;
+                   | ;   ______       ______   ; | 
+     /             |  `/~"     ~" . "~     "~\'  |
+  o o              |  ~  ,-~~~^~, | ,~^~~~-,  ~  |
+  | |               |   |        }:{        |   | 
+  o-o-o             |   l       / | \       !   |
+  |  /              .~  (__,.--" .^. "--.,__)  ~. 
+  o o               |     ---;' / | \ `;---     |  
+   \                 \__.       \/^\/       .__/  
+    o-o               V| \                 / |V  
+      |                | |T~\___!___!___/~T| |  
+      o-o-o            | |`IIII_I_I_I_IIII'| |  
+     /  |              |  \,III I I I III,/  |  
+    o                   \   `~~~~~~~~~~'    /
+    |                     \   .       .   /
+    o                       \.    ^    ./   
+                              ^~~~^~~~^  									
+	                                   
+::NEWMAP::
+northwest
+::MAPDATA::
+crypt75 0 0
+crypt74 0 0
+crypt76 0 0
+crypt77 0 0
+crypt78 0 0
+crypt79 0 0
+crypt109 0 0
+crypt110 0 0
+crypt2 0 0
+crypt1 0 0
+crypt_s6 0 0
+crypt4 0 0
+crypt5 0 0
+crypt3 0 0
+::MAPDATA::							
+                ______________________________________
+       ________|                                      |_______
+       \       |         Catacombs of Sybarus         |      /
+        \      |                                      |     /
+        /      |______________________________________|     \
+       /__________)                                (_________\
+
+                   /               
+            o-o o-o                                     
+            | | | |           
+	    o   o o-o o         _,.-------.,_
+        |  /       \    ,;~'             '~;, 
+        o-o           ,;                     ;,
+       / /           ;                         ;
+      o o           ,'                         ',
+      |/           ,;                           ;,
+      o            ; ;      .           .      ; ;
+     /             | ;   ______       ______   ; | 
+                   |  `/~"     ~" . "~     "~\'  |
+                   |  ~  ,-~~~^~, | ,~^~~~-,  ~  |
+                    |   |        }:{        |   | 
+                    |   l       / | \       !   |
+                    .~  (__,.--" .^. "--.,__)  ~. 
+                    |     ---;' / | \ `;---     |  
+                     \__.       \/^\/       .__/  
+                      V| \                 / |V  
+                       | |T~\___!___!___/~T| |  
+                       | |`IIII_I_I_I_IIII'| |  
+                       |  \,III I I I III,/  |  
+                        \   `~~~~~~~~~~'    /
+                          \   .       .   /
+                            \.    ^    ./   
+                              ^~~~^~~~^  							  
+										
+::NEWMAP::			
+north
+::MAPDATA::
+crypt80 0 0
+crypt81 0 0
+crypt82 0 0
+crypt83 0 0
+crypt116 0 0
+crypt115 0 0
+crypt_s2 0 0
+crypt108 0 0
+::MAPDATA::									
+                ______________________________________
+       ________|                                      |_______
+       \       |         Catacombs of Sybarus         |      /
+        \      |                                      |     /
+        /      |______________________________________|     \
+       /__________)                                (_________\
+																		
+                       o      o                  
+                        \     |                  
+                         o -- o -- o -- o -- o -- o --  
+                        /               									 
+                            _,.-------.,_
+                        ,;~'             '~;, 
+                      ,;                     ;,
+                     ;                         ;
+                    ,'                         ',
+                   ,;                           ;,
+                   ; ;      .           .      ; ;
+                   | ;   ______       ______   ; | 
+                   |  `/~"     ~" . "~     "~\'  |
+                   |  ~  ,-~~~^~, | ,~^~~~-,  ~  |
+                    |   |        }:{        |   | 
+                    |   l       / | \       !   |
+                    .~  (__,.--" .^. "--.,__)  ~. 
+                    |     ---;' / | \ `;---     |  
+                     \__.       \/^\/       .__/  
+                      V| \                 / |V  
+                       | |T~\___!___!___/~T| |  
+                       | |`IIII_I_I_I_IIII'| |  
+                       |  \,III I I I III,/  |  
+                        \   `~~~~~~~~~~'    /
+                          \   .       .   /
+                            \.    ^    ./   
+                              ^~~~^~~~^  							  
+ 
+::NEWMAP::
+entry									
+::MAPDATA::
+crypt_entr 30 20
+::MAPDATA::
+               .............oOo.............      
+             [###############################]
+,   ,%, %`%;,%%#\~;@;~/#           #\~;@;~/#%;`
+%%,`;%%%;%%;%%%#~@~;~@~#    ~'~    #~@~;~@~#%;%;,`,%%,`;%%%
+%%;%%%%%%;%%;%%#/;\;/;\#;,       ,;#/;\;/;\#;%;,`,%%,`;%%%;
+%%;%%%%;%%%%%%%#\~;@;~/#%;,     ,;%#\~;@;~/#%%%;%;%%;%%%%%%
+%%%%%;%%%;%%%;%#~@~;~@~#%%;     ;%%#~@~;~@~#%;%%%%%%%%%;%%%
+%%;%%%%;%%%%%O%#/;\;/;\#%%%,   ,%%%#/;\;/;\#%O%;%%%;%%;%%%%
+;o%%o;%o%%o;[#]#\~;@;~/#%%%%,-,%%%%#\~;@;~/#[#]%o;%o%%o%%o;
+/#\/#\/#\/#\|#|#~@~;~@~#%%;/   \;%%#~@~;~@~#|#|/#\/#\/#\/#\
+|#||#||#||#||#|#/;\;/;\#%%/ .-. \%%#/;\;/;\#|#||#||#||#||#|
+|#||#||#||#||#|#\~;@;~/#%/ (o.o) \%#\~;@;~/#|#||#||#||#||#|
+|#||#||#||#||#|#~@~;~@~#/   |=|   \#~@~;~@~#|#||#||#||#||#|
+|#||#||#||#||#|#/;\;/;\#   __|__   #/;\;/;\#|#||#||#||#||#|
+|#||#||#||#||#|#\~;@;~/# //.=|=.\\ #\~;@;~/#|#||#||#||#||#|
+|#||#||#||#||#|#~@~;~@~#// .=|=. \\#~@~;~@~#|#||#||#||#||#|
+|#||#||#||#||#|#/;\;/;\#\\ .=|=. //#/;\;/;\#|#||#||#||#||#|
+"""""""""""""""""""""""" \\(_=_)//"""""""""""""""""""""""""   
+                          (:| |:)
+                           || ||
+                           () ()
+                           || ||
+                           || ||
+                          ==' '==                        
+::NEWMAP::
+out
+::MAPDATA
+crypt_out 30 22
+::MAPDATA::
+      |____________|`. . '    '-._.-'      .'|____________|    
+       | _________.`. Catacombs of Sybarus .'._________ |      
+        |__.      |`.`                    '.'|      ._ |       
+       /|  |--    | |         {) (}        | |    --|  |\    
+   ,' .' -'--   | |         `|_|'        | |   --'-  | `.  
+  _.' . |   ___.. | |         /|[|\        | | ..___   |   `.
+-' _.'| |    _|_  ' |     _,-',|||,`-._    | '  _|_     | |. `.
+  .___|.'        '  |-,.-'_,.| ||||`-._`-,-|  '     |__ | | `._`
+______|  ____   |  |_|-'|| || ||||| | |'| | ||   ____   |'----'
+      | _/%  %\_ | _| '''""""''"]L"'''''''''_|. _/%  %\_ ''-----
+______| \ _.-'`/ |  |-;---.---'|"|''--.--;-'  | \`'-._ /  |_____
+____ /  |/  _./| |-.' |: :| '| |;| '| || | | _| |\._  \|  | ____
+     |  |_/'   | |  |_|| || :| ||| :| :| |_|  | |   '\_|  |
+    .|  / %  % \ '  |=|| '| ;| ||| ;| '| |=|-.| / %  % \  |
+    |   `\____/`|   ' || :| || ||| || || | |  | `\____/`  '
+    |..---      |   ' |; ;|.==.|||.==.|| | | _|------      '
+    |_|         |  .| || |||  |;|||  ||| | '   '... |  ___ ||
+   |   -- -'''  | ._| |' '||  ||[||  |'| | |_  |    ''''''  |
+   |      ...   |  |  || :||  ||]||  ||| | '   |      |.__  |
+  |      |     |  -.  || ||`=='|||`==''| | '-. | ----.__|___ |
+  '  __.-'-    | _| ; |: || ;| ||| '| :|'| |_.- |      ___    |
+ |   __|.__    |    |_|| || || ||| :| ;| |_| |  |.   __|.__   |
+.|          _|_| _  |=|| ;| '| ||| ;| || |=| _' |          __ |
+|          ''' '  |_| || || || '|| || '| | |    |---.|___   |__|
+	
+	

@@ -1,0 +1,41 @@
+Autoloading Objects in Krynn
+============================
+
+Last Modified by:
+Teth, Feb 19, 1997
+
+Where         Pathname                                   Requirement to check
+==============================================================================
+
+Guild objects:
+--------------
+Knights:      /d/Krynn/solamn/vin/knight/obj/medal.c      PRESENT
+Gnomes:       /d/Krynn/gnome/guild/obj/gizmo.c            PRESENT
+Thieves:      /d/Krynn/solamn/thief/guild/obj/thief_obj.c PRESENT
+Wizards:      /d/Krynn/wayreth/guild/black/robe.c         PRESENT
+              /d/Krynn/wayreth/guild/red/robe.c           PRESENT
+              /d/Krynn/wayreth/guild/white/robe.c         PRESENT
+              /d/Krynn/wayreth/magic/spellbook.c          PRESENT
+
+
+Club objects:
+-------------
+Knights Club: /d/Krynn/solamn/palan/club/club_obj.c       PRESENT
+Wise Club:    /d/Krynn/solace/village/obj/wise_object.c   PRESENT
+
+
+NOTE: All objects listed above can be reaquired via commands in the respective
+      guilds/clubs. There should be no need at all to fix them manually!
+
+
+Quest objects:
+--------------
+None.
+
+Explanation:
+------------
+PRESENT: No requirements to check except that the object shouldn't
+         be present yet or the player will end up with two such objects.
+         You can just clone the object into the player and the object will
+         determine itself if it wants to stay :)
+

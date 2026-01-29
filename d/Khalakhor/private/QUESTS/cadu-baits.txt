@@ -1,0 +1,31 @@
+Quest: Cadu baits
+
+Description:
+  A fisherman stands on the Cadu pier asking the player to retrieve some baits.
+  He asks for one of three types of bait, randomized for the player with NAME_TO_RANDOM.
+  He wants 5 baits, of one needs to be big to require some more time to find what's needed.
+  The different types of baits are located:
+   - Searchable in trees in forest north of Port Macdunn
+   - Searchable in trees in the forst of Eil Galaith
+   - Leftovers/droped during battle from the grugg on the island Carisca
+
+Bit:   4, 0
+Exp:   750
+Files:
+  Npc:   /d/Khalakhor/inisi/roke/npc/angler.c
+  Room:  /d/Khalakhor/inisi/roke/nyreese/cadu_pier5.c
+  Baits: /d/Khalakhor/se_speir/plains/obj/catalpa-worm.c
+         /d/Khalakhor/inisi/galaith/obj/white-maggot.c
+         /d/Khalakhor/inisi/roke/obj/grugg-limb.c
+  Bait locations:
+         /d/Khalakhor/se_speir/plains/room/tfor_*.c
+         /d/Khalakhor/inisi/galaith/room/isl0*.c
+         /d/Khalakhor/inisi/roke/npc/grugg.c
+         
+Skills:
+  SS_HUNTING Increases chance in finding baits in the forests, 50% at skill 30
+             Increases chance that a found bait is a large specimen, 15% chance at skill 30
+Risks:
+  Minor. If the player gets the option to retrieve grugg limbs, they are required 
+  to battle some gruggs - npc with stat avg 75
+

@@ -1,0 +1,5 @@
+#include "../defs.h"
+#define BRIDGE "/d/Earthsea/oranea/bridge/"
+#define ROOM_TELL "/d/Earthsea/lib/room_tell.c"
+#define ORANEA_SHIPS "/d/Earthsea/ships/oranea_line/"
+#define ROKE_MOUNT "/d/Roke/common/gont/wild/mount/q6"

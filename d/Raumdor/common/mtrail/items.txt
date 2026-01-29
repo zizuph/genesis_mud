@@ -1,0 +1,6 @@
+ITEMS FOR CAMP
+
+
+
+add_item("plateau","This area is relativley flat, but littered of "
+    +"boulders, rocks and pebbles.\n");

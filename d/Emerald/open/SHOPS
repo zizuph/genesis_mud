@@ -1,0 +1,54 @@
+All places/things in Emerald that handle money to/from Mortals
+==============================================================
+
+Stores - Buying and selling of armours/weapons/objects
+--------------------------------------------------------------
+Grunts Guild      - /d/Emerald/common/guild/grunts/room/shop
+Pirate Guild      - /d/Emerald/common/guild/pirates/shop
+Coral Requiem     - /d/Emerald/eclipsia/coral_requiem/shop
+Leah              - /d/Emerald/leah/shop
+Leah Chapel       - /d/Emerald/leah/jewelers (wedding clothing)
+Telberin          - /d/Emerald/telberin/shop
+KoT HQ            - /d/Emerald/telberin/castle/shop
+Telseron          - /d/Emerald/telseron/flower_shop (flowers/herbs only)
+Telseron          - /d/Emerald/telseron/shop
+
+
+Banks - Minimizing coins and/or depositing into Gnome banks
+--------------------------------------------------------------
+Grunts Guild      - /d/Emerald/common/guild/grunts/room/bank
+Coral Requiem     - /d/Emerald/eclipsia/coral_requiem/bank
+Telberin          - /d/Emerald/telberin/mercantile/bank (with GoG 3201)
+Army of Darkness  - /d/Emerald/common/guild/aod/rooms/bank (with GoG 3202)
+// Telberin       - /d/Emerald/telberin/bank
+// Telberin       - /d/Emerald/telberin/deposit_room (gnome deposit)
+// Telseron       - /d/Emerald/telseron/bank
+// Telseron       - /d/Emerald/telseron/deposit_room (gnome deposit)
+
+Foodshops - Food/Drinks/Booze
+--------------------------------------------------------------
+Grunts Guild      - /d/Emerald/common/guild/grunts/bar
+Pirate Guild      - /d/Emerald/common/guild/pirates/bar
+Coral Requiem     - /d/Emerald/eclipsia/coral_requiem/inn
+Leah              - /d/Emerald/leah/inn
+Telberin          - /d/Emerald/telberin/restaurant
+
+Inns - Lodging for the night
+--------------------------------------------------------------
+
+Armourers - sells/buys/or repairs armours only (weapons illegal)
+--------------------------------------------------------------
+Telseron          - /d/Emerald/telseron/forge
+		    /d/Emerald/telseron/npc/blacksmith (not active)
+
+Misc - Anything else that costs/gives money (other than quests)
+--------------------------------------------------------------
+Leah Chapel       - /d/Emerald/leah/jewelers (wedding rings)
+
+Trainers - charges for skills
+--------------------------------------------------------------
+See /d/Emerald/open/GUILD/<guildname>
+
+Ships - charges for tickets for transportation
+--------------------------------------------------------------
+See /d/Emerald/open/SHIPLINES

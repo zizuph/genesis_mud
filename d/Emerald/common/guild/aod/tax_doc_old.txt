@@ -1,0 +1,271 @@
+*****************************************************************************
+          TAX INFORMATION FOR THE ARMY OF DARKNESS (Occ + Race)
+*****************************************************************************
+AG = Adventures Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)
+
+Basic Skills:
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+SS_SWIM                50         30          20         1.0         0.33  
+SS_2H_COMBAT          100*         0         100         2.0         3.33
+SS_WEP_CLUB           100*        30          70         1.5         1.75 
+SS_UNARM_COMBAT        90         30          60         1.5         1.50 
+SS_PARRY               75          0          75         1.5         1.88
+SS_DEFENCE             75         20          55         1.5         1.38
+--------------------------------------------------------------------------
+Totals                490        110         380                    10.17%
+         
+ * Guru skill levels require a skull-collecting quest. Only once the
+   player has collected 6,000 skulls may they begin guru-level training
+   for club. For 2-handed combat, they must collect 10,000 skulls before
+   beginning guru-level training. Thus, the "difficult quest" is
+   present for training skills > 90.
+        
+
+Taxable Slots Allowed   : 700 (550 + 150 for occ + race)
+Actual Taxable Slots    : 380
+
+Maximum AG Slots Allowed: 250
+Actual AG Slots Used    : 110
+
+
+Special Skills:           Combat Aid    Tax
+-----------------------------------------------------------------
+SS_AOD_WALLOP             49%            9%  (The crush attack)
+-----------------------------------------------------------------
+                          49%            9%
+                                                   
+
+========================
+OGRE STAT MODIFICATIONS:
+========================
+
+All stats are flatlined to human levels, and then special ogre
+modifications are applied. Those that benefit the ogre are listed
+below with combat aid/tax calculations applied:
+
+Strength: 100 increases to 150 (150% boost). This has a minimal increase
+          on combat, affecting only the encumberance of the player.
+          In his calculations for the Gladiator guild, Glindor suggested
+          a 0.25% combat benefit for berzerk, which raises strength from
+          100 to 110. Based on this calculation, we would assume that
+          here, a 0.34% combat aid is appropriate.
+
+          Combat aid: 0.34%
+          Tax       : 0.06%
+
+Con:      100 increases to 130. Hitpoints increase from 1900 to 2500
+          (32% increase). Thus, a player taking 100 hitpoints of damage
+          loses 1/25 (4%) rather than 1/19 (5.3%) of their hitpoints.
+          According to Cotillion, the fight becomes 32% longer, which
+          we translate into combat aid.
+
+          Combat aid : 32%
+          Tax        : 5.33%
+
+          Total aid  : 32.34%
+          Total tax  : 5.39%
+
+================
+COMBAT SPECIALS:
+================
+
+CRUSH (Uses skill SS_AOD_WALLOP)
+
+    Here, Ogres seek to crush their enemies either with their giant fists
+    or with any weapons they might be weilding. Damage does not take
+    weapons into account, but does bludgeoning damage. There is no reset
+    time on the attack, rather the prep time is the entire delay. The
+    attack is cancelled if the player moves during the prep time (to 
+    prevent bouncing) unless fighting another player.
+
+    Note: The original version of this attack capped the amount of strength
+          taken into consideration to 150, resulting in an unsatisfactory
+          experience for the players. With Cotillion's help, I've retooled
+          the formula to truly allow players' strength to play a major
+          factor, calculating all the way up to str = 300! So far, I don't
+          think there are any Ogres with strength that high, but I'm sure
+          there will be. The philosophy here is that ogres are terrifyingly
+          strong, but none too accurate. ;-)
+
+    Pen Calculation:
+
+    (3 * (F_PENMOD(MIN(attacker->query_stat(SS_STR), 300) / 5,
+             25 + (attacker->query_skill(SS_AOD_WALLOP) * 125 / 100));
+        
+    (3 * (F_PENMOD( (300 / 5), 25 + (100 * 125 / 100 ));
+    (3 * (F_PENMOD( 60, 150 ));
+    (3 * 488)
+
+    Calculates to a pen of:  1464
+
+    Prep time is (15 + (10 - (random(who->query_skills(
+                  SS_AOD_WALLOP)) / 10))) = 20 avg with maxed skills.
+    Reset time = 0.
+    1 round = 6 seconds.
+    20 seconds means it is used every 4 rounds = 25% use.
+    Standard PEN is 280.
+
+    Calculation:
+        1464 / 280 * 25% = 130.71% combat aid.
+
+    "man cb_tohit" tells that using a tohit value of 65 results 
+    in a combat aid reduction of 38%.
+
+    38% reduction of 130.71% = 81.04%
+
+    6% combat aid = 1% tax.
+
+    81.04% / 6% = 13.5%.
+
+   **** Special note *****************************************************
+   *The Ogres get a combat bones applied if they are teamed with their   *
+   *Headhunter General:                                                  *
+   *                                                                     *
+   *1. Every 10 minutes, the General can <buttkick team>.                *
+   *2. When done, a prop is added to all members of the team, and a      *
+   *   1-minute timer begins.                                            *
+   *3. During this minute, Ogres (other than the General) have a 10%     *
+   *   chance of having their special fire instantly, without the wait   *
+   *   period (normally 20 seconds at best).                             *
+   *4. If their last special fired instantly, the next one cannot.       *
+   *5. This means that a maximum of 2 specials could happen instantly    *
+   *   for any given team member in that 1 minute timeframe, at a 10%    *
+   *   chance each.                                                      *
+   *6. After the minute elapses, the props are removed from all team     *
+   *   members, and the General must wait another 10 minutes before again*
+   *   inciting a rampage.                                               *
+   *                                                                     *
+   *Given the 10% probability, requirement of team and general, and 10%  *
+   *usage (1 minute per 10) of this feature, Cotillion has deemed it     *
+   *worth an additional 0.26% bonus to combat tax.                       *
+   ***********************************************************************
+
+    Rampage Bonus: 0.26%
+
+    Final tax for Crush: 13.76%
+
+
+OGRESTOMP (not supported by a trainable skill)
+
+    Ogres have the ability to disable room exits for 15 seconds by
+    stomping the ground and creating an earthquake. They prevent
+    people from walking on the shaking ground. This traps people in
+    the room for the time the effect lasts, but does not affect
+    combat itself.
+
+    There is a 5 minute cooldown period between stomps for any single
+    Ogre. Multiple ogres can stack the effect, but with diminishing
+    results. Adding another stomp while the quake is in effect
+    extends the quake by half the value of the last stomp. So:
+
+        Stomp #1 - 15.00 sec.
+        Stomp #2 -  7.50 sec. extension
+        Stomp #3 -  3.75 sec. extension. (etc ...)
+
+    When a player stomps, a prop is set to the room, which lasts for
+    2 minutes. After a quake stops, any new stomps to the room
+    while the prop is still set to the room only create an effect
+    lasting 5 seconds. In this way, we prevent players from
+    creating a room lock. Mathmatically, it is possible to achieve
+    a total room lock only with a team of 60 ogres.
+
+    For a more complete explanation, see:
+
+        /d/Emerald/common/guild/aod/balance_doc.txt
+
+    Tax for ogrestomp: 2% (arbitrarily set, since no real combat aid)
+
+TOTAL TAX FOR SPECIALS: 15.76%
+
+
+====================
+ADDITIONAL FEATURES:
+====================
+
+THE FORGE
+
+The Army of Darkness has a Forge which provides guild members with the
+ability to purchase high quality Armours and Weapons. At the top level,
+these weapons and armours can have hit/pen and AC values in the 58-60
+range, which is extreme. Therefore, extreme cost is applied. In addition
+to money, players who wish to purchase such weapons must find and bring
+back to the guild *magical* weapons or armours they find in the realms.
+Costs for the top items are:
+
+    Top Weapon Cost: 200 platinum coins, 50 returned magical items.
+    Top Armour Cost: 200 platinum coins, 75 returned magical items.
+
+Ogres train only one weapon skill - Club. Ogres are unable to wield
+one-handed weapons. This means that in Genesis, ogres are limited to
+wielding two-handed clubs - quite a severe drawback. Worse, ogres are
+unable to wear armours that are not made in their own forge. This is
+perhaps the worst drawback of all - they will never be able to wear
+a single piece of armour they find in the realms.
+
+Even with these drawbacks, we should tax this feature heavily, in
+anticipation of hardcore players who find the means to purchase such
+weapons despite the high cost. Lets use the precedent of the saving rack
+as a similarly powerful feature.
+
+Tax for the forge: 5%
+
+DOUBLE-TWO-HANDED WIELDING
+
+Ogres are big enough to wield a two-handed weapon in a single hand.
+This means that they will be able to wield two 60/60 clubs. This ability
+exists in conjunction with the fact that they are unable to wield one-
+handed weapons. There are numerous excellent one-handed weapons in
+the game, many of them with hit/pen ratios above 50. Other guilds train
+two-handed combat to high levels, and enjoy the benefits of being able
+to wield one-handed weapons, which are the most common and abundant
+weapons in the game.
+
+Tax for double-two-handed wielding: 2%
+
+OGRE SKIN
+
+Ogres are unable to wear the armours that are in the game. Only by
+spending time scavenging and bringing in items to melt down in the forge
+and then spending money and credits to purchase items can ogres gain
+armour class boosts. Worse, Ogres are completely unable to wear
+shields of any kind. Additionally, shields are not offered in the forge.
+To compensate, Ogres are naturally tough. They are given an AC boost in
+all hit locations with the following formulae:
+
+    AC_FACTOR = 30
+    skin = (who->query_stat(SS_CON) / 10) + AC_FACTOR;
+    who->set_all_hitloc_unarmed(MIN(skin, AOD_AC_CAP));
+
+This results in a natural armour class range for Ogres from 30-40,
+rising as their con increases. 
+
+Tax for Ogre skin: 2%
+
+TOTAL TAX FOR ADDITIONAL FEATURES: 9%
+
+
+
+
+****************************************************************************
+            Taxation Summary
+Ogre Stat Modifications: 5.39
+Skill Tax Total        : 10.17    
+Combat Specials        : 15.76   
+Additional Features    : 9.0   
+                         ----
+Total Tax              : 40.32
+
+Rounded Total Tax      : 41%
+
+Total Tax allowed occupational  35%
+Total Tax allowed racial        10%
+
+Note: Somewhat arbitrarily, I shall allocate the tax as follows:
+
+    Racial Tax      : 10%
+    Occupational Tax: 31%
+
+*****************************************************************************

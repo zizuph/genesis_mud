@@ -1,0 +1,44 @@
+Guild: Vampires of Emerald
+
+Tax calculation April 22, 1998 by Shiva
+
+Trainers:
+/d/Emerald/common/guild/vamp/npc/train
+/d/Emerald/common/guild/vamp/npc/gtrain
+
+Occupational (fighter):
+
+skill             max trained           taxed levels         % tax
+==================================================================
+defence              100                     80               2.0
+blindfighting         50                     30               0.75
+sneak                 80(160)                60               1.0      
+awareness            100                     50               0.83333331
+hide                  85(170)                65               1.08333333333
+
+unarmed combat        90                     60               1.5
+                                OR
+weapon skill          75                     45               1.125
+parry                 45                     45               1.125
+------------------------------------------------------------------------
+                     670                                       7.853545542691
+
+
+Layman (magic):
+
+skill             max trained           taxed levels         % tax
+==================================================================
+hunting               75                     45               0.75
+language              75                     25               0.416666666667
+appraise enemy        75                     45               0.75
+spellcraft            50                     30               0.5
+focus*                50(100)               100               1.66666667
+------------------------------------------------------------------------
+                     375                                      4.083333342667
+
+* Focus is a special skill which is used in place of magic skills.
+  Since it represents what would normally be a magical element and
+  a magical form skill, it is counted and taxed twice (actually,
+  slightly more than twice, since I did not take adventurer guild
+  levels into account).  Just for fun, the cost factor is quadrupled,
+  however.

@@ -1,0 +1,26 @@
+A chest of Goblin's elder, a container initially with a scroll, a
+skull and a sceptre
+
+Properties:
+
+Weight: 150 kg, can't be taken with elder present
+Volume: rigid, 250 liters
+Value: 400cc
+Locked, can be picked with ~40 picklock skill
+
+Adjectives:
+sturdy iron
+
+Contents:
+a scroll with a control spell
+a skull
+a sceptre from Port Macdunn
+
+Items:
+lock
+
+Actions:
+regular container
+
+
+

@@ -1,0 +1,39 @@
+
+ Because the shield slam was mastered by Neidars first, there will
+ be a significant difference  in how it works for them and others.
+
+   The special will be incorporated in the Neidar Clan specials
+   ie. Neidar warrior will be not able to use chop or crush and 
+   slam at the same time. Because of that the slam special will
+   be more effective for them:
+
+   - damage made by shieldslam performed  by Neidars will be a bit 
+     more than damage caused by others  ( due to maximum trainable
+     shield slam skill, which is for them 85),
+   - The stun effect of a shieldslam performed by non Neidars will
+     apply after reaching by them a certain guild stat (75), as it
+     is much harder for them to gain effectiveness of a true 
+     battlerager.
+
+  Non Neidars may use shieldslam at constant rate.
+
+  The stunning effect will work only against humanoids. 
+
+
+  Damage formula for the shieldslam:
+  ---------------------------------
+  penet =  SS_STR + SHIELD_AC + ( SS_APPR_MON  * 100 ) / 60
+  penet += MIN( MAX_GUILD_STAT_MOD, SS_LAYMAN )
+  penet = ( penet * 5 ) / 3
+  penet = ( penet * SHIELDSLAM_SKILL ) / 100
+  penet = MIN( 800, penet )
+
+  Where:    MAX_GUILD_STAT_MOD = 150, 
+            SHIELDSLAM_SKILL   = 100 max for Neidars,
+                               = 85  max for non Neidars
+            SHIELD_AC          - armour class of a worn shield
+           
+  The special has 75% chance to hit and may be used approximately every 
+  seven combat rounds.
+
+  

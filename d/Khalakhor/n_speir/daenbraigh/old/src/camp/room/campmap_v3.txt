@@ -1,0 +1,41 @@
+       CK-MH O5
+           | |
+    O7-P3-P4-P5-W1
+     |/       |\ |
+    P2-C1 L1 S1 P6-O4
+     |     |     |
+-BK-P1 GT-BF-RM-P7-TP
+     |     |     |
+ O3-PC-S2 L2 C2 P8-HK
+     |\       |/ |
+    O6-PB-PA-P9-W2
+       |   |  |
+       O1 QM O2
+
+
+BF=Bonfire
+BK=Baricade to village
+GT=General Bolgus's Tent
+MH=Mess Hall
+L#=Lt Tents
+P#=Perimiter
+S#=Sergeants
+C#=Corporals
+O#=Privates
+QM=Quartermaster
+RM=Ramp
+TP=Trash Pit
+W#=Watchtowers
+CK=Cook
+HK=Hound Kennel
+
+Force size:
+Private: 7*3 in tents + 6 in mess hall + 2*2*2 in towers + 2 in BK = 37
+Corporal: 2*3 in tents + 2 in mess hall + 2*2*1 in towers = 12
+Sergeant: 2*2 in tents + 1 in mess hall + 1 in BK         = 5
+Lieutenant: 2
+QM: 1
+G : 1
+CK: 1
+
+

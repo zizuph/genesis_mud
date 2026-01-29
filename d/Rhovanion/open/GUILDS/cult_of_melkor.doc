@@ -1,0 +1,251 @@
+The Cult of Melkor                              by Gunther 940716
+-------------------
+
+
+1. History
+<insert history of Melkor here:>
+2. General description
+The Cult of Melkor is a clerical guild located in Rhun.
+
+The Cult of Melkor worships Melkor and he in turn bestows powers unto those
+that have pleased them. The members continuously strive for the favor of
+Melkor. There is a system of favor points. Favor points are accumulated by
+obeying the commands of Melkor, holding ritual sacrifice, spreading darkness,
+and by guild stat. Favor points have the following effects:
+a) Affect title/guild standing
+b) Affect which spells that Melkor grants
+c) Affects power of spells
+d) Too many negative points result in expulsion from the Cult
+e) Points may be traded in for mana at not-so-good rates,
+	providing an emergency resource of mana.
+f) Possibly other effects
+I've heard once that knights have a system of honor points. I don't know what
+these points do except that you can trade stuff in for points at the keep. I
+hope these points of favor will be different enough.
+
+At times, Melkor will give the member commands. Suddenly, he will grip the
+mind of the player and speak them to him. Such commands may seem
+irrational to the member, but he is not allowed to question them. Possible
+commands include
+a) Kill that NPC! Spontaneously, when a member enters a room with NPCs,
+	Melkor will demand the death of one of them. The chance depends on
+	NPC alignment, stat comparison (won't command novices to kill big
+	monsters). The member might not be able to do it himself, if so he must
+	enlist the help of others, and fulfil the wish of Melkor.
+b) Don't kill that NPC! This would be more rare. If the member is fighting
+	an NPC, Melkor may give the command to spare him.
+c) Go there! Melkor may take it as a whim to tell a member to go to a certain
+	location. Sometimes telling more than one member at a time to go to the
+	same place. It might be very out of the way for the worshipper, but he
+	may not question the wisdom of Melkor.
+d) Leave him! If the member is teamed, a team member or team leader might seem
+	unappropriate in the eyes of Melkor. The player must then leave him and not
+	join with him for a while.
+e) Don't go there! Melkor may forbid a member to go somewhere, maybe a single
+	room or an area.
+f) Revenge! Should a guild member be killed, all others are commanded to
+	revenge him. As another player might have killed the member, there will be
+	no penalty for not following this command. There should be nothing to force
+	a player to PK.
+If you have more suggestions, please mail me! Failure to obey a command will
+result in a favor point reduction, fulfilling the command will add points
+(though not as many as a possible reduction).
+
+Ritual sacrifice is a common practice of the cult. After killing something, the
+member may find leftovers. These leftovers shall then be burned over fire. I'm
+thinking of making a coal brazier for sacrifice available for free or low price
+at the guild home. Otherwise any object with OBJ_I_HAS_FIRE is ok. The rite of
+burning takes a while. It has the following effects:
+a) The sacrifices gains favor points depending on the body parts. Only hearts,
+	maybe scalps and eyes should count. Other parts will have no effects on the
+	favor points.
+b) Those watching will get slightly more panicky, depending on dis of course,
+	and also on race of organ/watcher.
+c) If it is possible, the air should smell of the sacrifice for a while after.
+d) It should be generally nasty to those who watch.
+If you got more suggestions, please mail me!
+
+Spreading darkness is of course muchos importante. Favor points will be
+connected to alignment. If you are very evil, favor points will be slightly
+multiplied as they go in. If you aren't very evil they won't.
+
+There will also be a max amount of favor points that you can accumulate,
+depending on alignment and guild stat. 
+
+As noted above, favor points can be used.
+Guild title and standing (see further below on standing) will be affected
+by favor points. It might not seem much but I intend to have cool titles and
+a subloc worth striving for. It will be evident to other cult members how
+the member stands in the favor of Melkor. Others will also be able to
+suspect it.
+
+The spells available to a member is governed by the favor points in
+combination with guild stat. A high champ with negative favor points will
+not have as many spells as a veteran with high favor points. Of course, the
+high champ will (probably) have lots more mana to spend on the spells.
+
+The power (outcome) of spells will be affected by favor points. Stands to
+reason that if Melkor is displeased with a member, he will not spend
+as much energy on spells cast by the member.
+
+Too many negative points will result in expulsion from the guild. The member
+will be informed/warned of this some time before he enters the risk zone though
+
+Favor points can be used as an emergency reserve of mana.
+
+3. Guild structure
+The guild will be ruled by 3 Overpriests, these three being the three most
+favored members. The powers of these overpriests can be exercised when at
+least two of them are present in the council room at the guild home. The
+powers are:
+a) expelling a member from the guild
+b) banning a player from entering guild
+c) reaccepting a banned player
+The goal of the guild is that it shall be united.
+
+4. Rules
+a) a member must follow the guidelines set up by the guild leadership
+I don't see the need for more rules right now. They may join any guild
+and have any alignment. Favor points will be quite impossible to aquire
+(they should go down) if you are good. 
+
+5. Spells
+The elements used : DEATH, EARTH, WATER
+The forms used : ILLUSION, ABJURATION, DIVINATION
+
+a) PAIN. This is the guild's main attack spell. It is based on death and
+	illusion (!). The target will get hurt within his mind.
+b) SMOTHER. This spell will cause all torches and fires in the room to
+	go out. Not very useful but cute. Based on water and abjuration
+c) DARKEN. Darkness spell, based on death and abjuration. Does not move
+	with caster
+d) LUMINATE. Give the room temporary light. Based on illusion and earth
+	Does not move with caster
+e) MINDREAD. Sift through the head of another, picking out his true name.
+	The caster can learn the name of the target. The target will still be
+	nonmet to the caster though. Based on water and divination
+f) ESPY. Powerful version of scry. Needs a container of water to create
+	an image upon. In this image all in room can see the room of the
+	target, even if it is dark. They can also see ongoing fights.
+g) VEIL. The caster can make himself disappear from sight, until he attacks.
+	Based on illusion and death.
+h) AWARE. The caster is aware of his surroundings. Basically it is a see-
+	in-the-dark spell, but the caster cannot see very much. He can sense
+	obvious exits and sense creatures in the room (be able to see race names)
+	Attack can be initiated and fought like normal. Might be hard to code :/
+i) RESIST FIRE. Gives the caster a rather powerful resistance to fire. After
+	all, there aren't very many uses for this spell (yet). It is handy when
+	sacrificing. Based on water and abjuration.
+j) HORROR. The caster locks a terrible image in front of the target. The
+	target cannot see anything but the image, and gets more panicky by the
+	second. If possible, attacks made on the victim should be seen by the
+	victim as attacks by the image. The victim should be able to disbelieve
+	it using wis. Based on death and illusion. Alternatively the horror could
+	do some real damage
+k) DISPEL. A powerful dispel spell. Cult members can combine to make it more
+	powerful. Based on abjuration and death.
+l) TEMBLOR. Earthquake spell. The most powerful attack of the cult. Affects
+	all others in the room except the caster though. Based on earth and illusion
+
+6. Tax draft
+
+Tax from spells. None of the spells require a material component, which will
+multiply tax by 1.5 for all, except for ESPY
+Pain     .5    x1 one object
+				x2 casting time < 1 heartbeat
+				x1.5 difficulty simple (this is the
+				guild's main attack spell, should be
+				quite easy to perform)
+		= 1.5%
+Smother     .1    x1.5 all objects in room
+				x1.5 objects in another living's inv
+				x1 casting time < 5 heartbeats
+				x.7 duration instant
+				x1.5 difficulty simple
+		= .225%
+Darken      .1    x1.5 it gets dark in the whole room
+				x1 casting time < 5 heartbeats
+				x1 duration 1-10 mins
+				x1 difficulty routine 
+		= .15%
+Luminate .1    same as darken
+		= .15%
+Mindread .5    x1 one object
+				x1 casting time <5 heartbeats
+				x.7 duration instant non-attack
+				x1 difficulty routine
+		= .35%
+Espy     1     x3 object in another room
+				x1 casting time <5 heartbeats
+				x.7 duration instant non attack
+				x.5 difficult
+				x.66 material component
+		= .7%
+Veil     .5    x1 one object
+				x1 casting time <5 heartbeats
+				x1 duration 1-10 mins or until attack
+				x1 routine
+		= .5%
+Aware    1     x1 one object
+				x2 casting time <1 heartbeat
+				x1.5 duration quite long
+				x1 routine
+		= 3%
+Resist fire 1     x1 one object
+				x1 casting time <5 heartbeat
+				x1 duration 1-10 mins
+				x1 routine
+		= 1%
+Horror      1     x1 one object
+				x1 casting time <5 heartbeats
+				x1 duration 1-3 mins
+		= 1%
+Dispel      1     x1.5 all objects in room
+				x.9 casting time < 30 secs
+				x.7 duration instant nonattack
+				x.5 difficult
+		= .5%
+Temblor     1     x2 all objects in room cept caster
+				x1 casting time <5 heartbeats
+				x1 attack spell
+				x.5 difficult
+		= 1%
+Subtotal = 10.075%
+No material + 5%
+Total for spells= 15%
+
+NOTE: I would like to make the power of the spell relative to the favor
+points of the caster, that is why durations are a bit imprecise. 
+
+The cult will have a member to member tell, with 2% tax as per man guilds.
+
+Skills:
+		NORM  CULT  DIFF
+Spellcraft  20 80 60
+Illusion 0  90 90
+Abjuration  0  60 60
+Divination  0  50 50
+Death    0  90 90
+Water    0  50 50
+Earth    0  60 60
+Knife    30 50 20x1.5   (swing those sacrificial knives!)
+Defense     0  50 50x1.5
+----------------------------------
+Total difference     565/60 x 1% = 9.5%
+
+There will also be a shop at the guild where the members can buy good knives
+and armour, and a coal brazier, all at good prices. No extra specials for
+this shop (no better trade) so i'll set it at .5% to round off the tax :)
+
+Total tax then:
+	Spells 15%
+	Tell  2%
+	Skills 9.5%
+	Shop  .5%
+	----------
+		= 27% tax
+
+In my opinion a rather decent tax. The spells don't give that much combat aid.
+
+
+

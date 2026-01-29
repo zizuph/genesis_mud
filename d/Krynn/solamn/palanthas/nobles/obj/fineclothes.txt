@@ -1,0 +1,53 @@
+ ___________________________________________________________________________
+|                                                                           |
+| \                                                                       / |
+|                         Dienya's Fine Clothing                            |
+|                                                                           |
+|  Custome'         Colour           Material           Article             |
+|  -------          ------           --------           -------             |
+|                                                                           |
+|  Alluring         Black	     Arrasene		Bathrobe            |
+|  Billowing        White	     Burlap		Vest                |
+|  Buttoned         Crimson	     Cashmyr				    |
+|  Checkered        Maroon	     Cotton		Dress               |
+|  Cuffed           Pink	     Dupion		Frock               |
+|  Custom-fitted    Dark-Orange	     Elfwyr		Gown                |
+|  Debonair         Orange	     Hemp		Muumuu              |
+|  Enchanting       Pale-Yellow	     Linen		Shift               |
+|  Formal           Yellow	     Messaline				    |
+|  Fur-trimmed      Forest-Green     Organdie		Baggy-pants         |
+|  Gleaming         Dark-Green	     Sackcloth		Capris              |
+|  Heavy            Blue	     Silk		Kilt                |
+|  Jaunty           Pale-Blue	     Suede		Lederhosen          |
+|  Knitted          Raven-Blue	     Swansdown		Pantaloons          |
+|  Laced            Indigo	     Wool		Pants               |
+|  Light            Purple				Skirt               |
+|  Long             Royal-Purple			Slacks              |
+|  Loose            Charcoal				Stockings           |
+|  Low-cut          Grey						    |
+|  Noble            Brown				Bodice              |
+|  Plain            Dark-Brown				Blouse              |
+|  Pleated          Beige				Puffy-shirt         |
+|  Rugged           Tan					Pullover            |
+|  Soft             Coppery				Shirt               |
+|  Shaded           Silvery				Sleeveless-shirt    |
+|  Sharp            Golden				Sweater             |
+|  Short                                                                    |
+|  Striped                                              Gloves              |
+|  Tailored                                             Long-gloves         |
+|  Tassled								    |
+|  Thick                                                Scarf               |
+|  Thin                                                                     |
+|  Tight                                                                    |
+|  Translucent                                                              |
+|  Unbuttoned                                                               |
+|  Unlaced                                                                  |
+|                                                                           |
+|         _                                                        _        |
+|        (_)  order  <custome'>  <colour>  <material>  <article>  (_)       |
+|                                                                           |
+|                All clothing may be referred to as "tailored".             |
+|                                                                           |
+|                 Try <enquire> instead of order for pricing.               |
+| /                                                                       \ |
+|___________________________________________________________________________|

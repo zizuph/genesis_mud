@@ -1,0 +1,34 @@
+main
+::MAPDATA::
+room5 2 5
+room6 9 5
+room7 17 5
+room8 24 5
+room4 2 9
+room9 24 9
+room3 2 13
+room10 24 13
+garden 13 15
+room2 2 17
+room1 9 17
+room12 17 17
+room11 24 17
+::MAPDATA::
+
+     ================
+     Ziggurat Gardens
+     ================
+
+  o ---- o ----- o ---- o
+  |                     |
+  |                     |
+  |                     |
+  o                     o
+  |                     |
+  |                     |
+  |                     |
+  o                     o
+  |          | Flower   |
+  |          o Shop     |
+  |        /   \        |
+  o ---- o       o ---- o

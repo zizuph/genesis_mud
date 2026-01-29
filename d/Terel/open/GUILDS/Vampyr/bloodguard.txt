@@ -1,0 +1,121 @@
+============================================================================
+The Bloodguards of Terel, open guild document.
+
+   Guild coded by Novo, April - July 2008
+
+   Guild document by Lilith -  July 2008
+============================================================================
+
+--------
+OVERVIEW
+--------
+  When the Emerald coven of Vampires joined with a vampyr in Terel a new 
+coven was formed, and the Emerald kindred transformed, their line empowered 
+through the ability to drink of the potent blood of the ancient one himself.
+Part of this transformation was the return of the Bloodguard, those mortals
+bound to serve the Vampyr through ties of loyalty and blood-thirst.
+
+The Bloodguard are a layman guild. They remain fully mortal. Players can join
+it with the intention of remaining lay members. They can also join with the 
+hopes of being 'embraced' and made a full Vampyr.
+
+
+----------
+FILE NAMES
+----------
+   The following file names are of particular importance:
+
+~Terel/guilds/vamp/room/MAP.txt    Map of the area
+~Terel/guilds/vamp/room/lowertomb  The start room 
+~Terel/guilds/vamp/room/library    Library and guild board
+~Terel/guilds/vamp/room/crypt      The join, leave, and training room
+
+~Terel/guilds/vamp/npc/statue      The npc that controls joining 
+~Terel/guilds/vamp/lib/manager     Guild data manager
+~Terel/guilds/vamp/lib/lay_train   Managing object for training
+
+~Terel/guilds/vamp/shadow/lay_shadow     The guild shadow
+~Terel/guilds/vamp/soul/lay_soul         The guild soul
+
+
+----------------------
+JOINING THE BLOODGUARD
+----------------------
+  There are no restrictions on races or alignment. The only restriction is
+that a player cannot join who is already undead. 
+
+  Any player can walk into the crypt and join. The Eldest will ask if they
+have come to offer their blood. If they wish to do so, they respond with
+<offer blood to statue>. After drinking from them, the Eldest will ask the
+player if he wants a taste of what it is like to be one of them in exchange
+for their loyalty, and warns that breaking their oath means death. If the
+player wants to join, he simply types <accept>. At that point the player
+experiences as transformation sequence of tells that gives information
+about what is expected of them.
+
+Once a member is a Bloodguard, is advise to find a master, but is not 
+required to. Ostensibly, the master is the vampire whom they guard /
+watch over.
+
+----------------------
+LEAVING THE BLOODGUARD 
+----------------------
+  To leave, a player goes to the crypt where the Eldest is and types 
+<break oath>. The player will die as a consequence. There is no code in 
+place to restrict members who leave from rejoining.
+
+The guild-specific skills and the stat SS_LAY is also cleared upon leaving.
+
+
+------------------------
+SKILLS IN THE BLOODGUARD
+------------------------
+  The maximum possible skills to train are defined in the file 
+      ~Terel/guilds/vamp/lib/lay_train  and
+      ~Terel/guilds/vamp/doc/lay_skills.txt
+
+The guild skills are still in flux pending implementation of mudlib
+skills and changes, so the mudlib skills are not posted to this doc yet.
+
+Guild specific skills:
+VAMP_SKILL_BITE         130010
+VAMP_BLOOD              130012
+VAMP_FAVOR              130013
+
+The Bloodguard need to curry the Favour of the Eldest in order to train their
+<bite> attack and other skills.
+
+--------------------------
+SPECIAL ABILITIES & SPELLS
+--------------------------
+  There are no special abilities or spells given to the Bloodguard.
+
+---------------
+SPECIAL ATTACKS
+---------------
+  The following special attacks are available for members of the guild:
+
+  bite - The Bloodguard's main attack. This is a standard attack which allows
+selection of the specific hit location. This uses the standard damage library, 
+with combat aid set to 40 (50% of the Vampyr 80%).
+
+   Full documentation on these abilities can be found in 
+      ~Terel/guilds/vamp/doc/abilities.txt
+
+
+--------------------
+BLOODGUARD GUILD TAX
+--------------------
+  The Bloodguards of Terel pay a 13% tax for the layman slot.
+
+  The specifics of the guild tax are still in flux pending implementation of 
+mudlib changes, skills, and tweaks to the guild so the particulars of the 
+taxation will not be posted until the early implementation phase has passed.
+
+  Full documentation on the current guild tax calculations can be found at
+     ~Terel/guilds/vamp/doc/lay_tax.txt
+  
+
+Tax reductions:
+	
+There are no tax reductions for penelties on the Bloodguards

@@ -1,0 +1,89 @@
+main
+::MAPDATA::
+cross 29 34
+entry 29 15
+landing 29 38
+path1 29 36
+path10 27 16
+path2 29 32
+path3 29 30
+path4 29 28
+path5 27 26
+path6 27 24
+path7 29 22
+path8 29 20
+path9 27 18
+shore1 26 34
+shore10 18 24
+shore11 18 22
+shore12 16 20
+shore13 16 18
+shore14 16 16
+shore15 16 4
+shore16 18 12
+shore17 20 10
+shore18 22 8
+shore19 22 6
+shore2 24 34
+shore20 24 4
+shore21 28 4
+shore22 32 1
+shore23 36 4
+shore24 38 6
+shore25 38 8
+shore26 34 34
+shore27 36 32
+shore28 36 30
+shore29 38 28
+shore3 22 36
+shore30 38 26
+shore31 38 24
+shore4 20 36
+shore5 18 34
+shore6 16 32
+shore7 16 30
+shore8 16 28
+shore9 16 26
+::MAPDATA::
+ 
+                                o
+                              / | \
+                             /     \
+                        o---o-  T  -o 
+                       /|   |       |\
+                      o-             -o
+                      |      MARSH    |
+                      o-             -o
+                     /                |
+                    o-                o 
+                   /|    _ ___ __    {+}  
+                  o-    {__`_ _`_}    o
+                 /|     :  ; `:. ;
+                o-      ; ;    : ;          _ `.`' ,`                                              			 
+                |      .:_:    :_:.          _%\'%/%=-`
+                o- .. " .  o   __._." ..   `  ')/.==%--` 
+       ..`' .'  |        { |  \        \'..  //    `
+     "          o-       \ o  \         :   {(              
+    '           |        '  \  (          ` ' \,.`                   
+   .            o-       :   o  :   .  . " .   ,"'    C
+. '              \|      )   |  (          .      '   L
+     .-.          o-    {   -o- ;                 '   I
+    (@ @)         |   . /   /   )  .......         ;  F
+   <  o \         o-   ;  -o-  /   | -o  |         ', F      
+     \   \       /|   (    |   (.     |             ;    
+      `~~~;     o-     )  -o-  ;     -o             '       
+                |   M  \    \   \`    |      `'      `.       
+  '-            o-  O .     -o-      -o                ;   
+                |   O        |  `   |/                  ;
+                o-  R       -o-    -o         `-        ,
+ ~              |   S        |      |                   `
+          .'    o-          -o-    -o            `'      ;
+                 \|     | |  |    |/       "             ;   
+                  o-   -o-o--o----o                     .
+                   \| |/     |                           ,
+.  ..` `.~~_   ^    o-o      o      ^  ~~.. ' ... ~~ ...`` ;
+              /|  _ ____ __  | _    |\
+  ~  _   ~   : :             o      : :   _=-=-_=-=_=-_=-_-_
+_=-=_=-_    $  $   ___ _   ___  __  %  %      ~            ~
+            NECRONISI:  Isle of the Dead
+		   

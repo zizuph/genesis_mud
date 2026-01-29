@@ -1,0 +1,26 @@
+main
+::MAPDATA::
+sbearer_board 5 11
+store 9 11
+start 5 13
+board 9 13
+common 13 13
+elder 9 15
+::MAPDATA::
+
+    ================
+    Hall of Warriors
+    ================
+
+                 @@
+                @
+   ___________[]____
+  /                 \
+ /___________________\
+ |  rack  store      |
+ |   o   o           |
+ |   |   |           |
+ | - o - o - o common|
+ |       |           |
+ |       o           |
+ |___________________|

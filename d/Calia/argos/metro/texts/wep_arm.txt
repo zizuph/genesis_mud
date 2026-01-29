@@ -1,0 +1,61 @@
+******************************************************************************
+*                            DESCRIPTION OF WEAPONS/ARMOURS                  *
+******************************************************************************
+ZIMA/ARGOS/METRO/ARMOURS
+ 
+app_thesp_robe.c   - Worn by Thespian Apprentices; no protection
+                     NPC:thesp_app.c
+ 
+chtunic.c          - Worn by children of Argos; no protection
+                     NPC: child.c
+czcloak.c,cztunic.c- Worn by citizens of Argos; no protection
+                     NPC: citizen.c, barpatron.c, bartender.c, brassman.c
+                          glass_blower.c, innkeeper.c, merchant.c,
+                          pigeon_keeper.c, seamstress.c, smith.c,
+                          speaker.c
+ 
+gdhelmet.c,        - Armour worn by street guards
+gdshield.c           NPC: strguard.c
+gdmail.c             AC:  15
+ 
+khelmet.c,         - Armour worn by hidden kretan warriors
+kshield.c            NPC: hkretan.c
+kmail.c              AC:  15
+ 
+kthelmet.c,        - Armour worn by hidden kretan commander
+ktshield.c           NPC: hkretan.c
+ktmail.c             AC:  18
+ 
+new_cloak.c        - New cloak/tunic woven by seamstress in Woolworks. Part of
+new_tunic.c          Granma quest; no protection (AC=0)
+                     ROOM: woolwrk.c
+ 
+nob_tunic.c        - Garments worn by nobles of the city; no protection
+nob_cloak.c          NPC: alexis.c, curator.c, vcnoble.c
+ 
+nob_ring.c         - ring worn by noble
+                     NPC: vcnoble.c
+thesp_mstr_robe.c  - Robe worn by Master of the Thespian guild; no protection
+                     NPC: thespmstr.c
+thesp_robe.c       - Robe worn by members of Thespian Guild; no protection
+                     NPC: thespian.c
+ 
+ZIMA/ARGOS/METRO/WEAPONS
+czdagger.c         - Dagger carried by some citizens
+                     NPC: citizen.c
+                     ROOM: sculptor.c (just one laying on floor)
+czstaff.c          - staff and sword carried by some citizens
+czsword.c            NPC: citizen.c, alexis.c (staff), smith.c (sword)
+fohammer.c         - Forge Hammer used by smith.
+                     NPC: smith.c
+gdspear.c          - Spear of street guards.
+                     NPC: strguard.c
+ksword.c           - sword of hidden kretan warrior
+                     NPC: hkretan.c
+ktsword.c          - sword of hidden kretan commander
+                     NPC: hkrcommander.c
+thbroom.c          - broom (polearm) used by thespian apprentices
+                     NPC: thesp_app.c
+ 
+ZIMA/ARGOS/PHARTEMP/ARMOURS
+tunic.c, ring.c - worn by priest NPC: outpriest.c

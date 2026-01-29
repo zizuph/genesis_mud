@@ -1,0 +1,192 @@
+main
+::MAPDATA::
+auction_house 20 18 center
+center_a 12 12 center
+center_b 8 12 center
+center_c 8 14 center
+center_d 8 16 center
+center_e 8 18 center
+center_f 12 18 center
+center_g 16 18 center
+enchanter 8 12 center
+enchanter_bedroom 8 12 center
+enchanter_forge 8 12 center
+entrance 32 20 docks1
+hotel_room 12 12 center
+inn 12 12 center
+market_square 20 18 center
+newbie-pier_1 32 14 docks1
+newbie-pier_2 36 14 docks1
+newbie-pier_3 40 14 docks1
+newbie-pier_4 44 14 docks2
+sparkle_pub 22 14 docks1
+sparkle_pub_lounge 22 14 docks1
+sparkle_pub_parlor 22 14 docks1
+::MAPDATA::
+                          =====================
+                           The City of Sparkle
+                              Hub of Genesis    
+                          =====================
+
+     (Please note, due to increased traffic, the city is currently under 
+   construction in many areas to meet the demands of local commerce. Expect
+    changes to occur to this map and the city structure without warning.)
+
+                   . . . . . . . . . . . . . . . . . . . . . . . . . . .      
+     . . . . . . . .                     .                             .
+     .             .                     .           All major Ports   .
+     .  o - o      .                     .           of Call can be    .
+     .  |          .                     .           reached via these .
+     .- o  Town    .    o - o - o - o - o.- o - o    various shipping  .
+     .  | Center   .    |                .      |    lines.            .
+     .  o          .    o                .      o                      .
+     .  |          . .  |    Western     .                             .
+     .  o - o - o - o.- o     Docks      .   Eastern Docks             .
+     .               .  |                .                             .
+     . . . . . . . . .  o - o - o - o - o.- o - o - o - o - o - o - o  .
+                     .                   .                             .
+                     .                   .                             .
+                     . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+                                                                              
+::NEWMAP::
+center
+::MAPDATA::
+auction_house 64 29
+center_a 35 9
+center_b 21 9
+center_c 21 16
+center_d 21 23
+center_e 21 30
+center_f 38 30
+center_g 55 30
+enchanter 21 7
+enchanter_bedroom 21 7
+enchanter_forge 21 7
+hotel_room 35 7
+inn 35 7
+market_square 72 30
+::MAPDATA::
+                                  __
+                                 /  /`.
+                               .--./   `.
+        Enchanter's  /`.      / The`.    `.
+         Workshop   /   `.   /  Inn  `.   /
+                   / `.   /\/==========`./\
+                  / /`.`./ / \    .    \  /_________
+     _____        \_\| \_\/   \___\|\___\//   AoP   /\
+    /    /\          |             |     /  Office /  \
+   /____/\/ -- -- -- o -- -- -- -- o -- /_________/   /
+   \____\/           |             |    \         \  /
+  Archives           |             |     \_________\/     
+                     |             |                    ==================
+                     |             |                         Sparkle
+                     |        _____|_______                Town Center
+                     |       /Post Office /\                 [under]
+ -- -- o -- -- -- -- o      /____________/ /              [construction]
+                     |      \____________\/             ==================
+ //  //  //  //  //  |
+  //  //  //  //  // |               /.
+   //  //  //  //    |              /  `.               ==-        Donations
+//  //  //  //  //   |             /      `.           .|.           Office
+ The Village Green   |          + / Church   `._      .`- '`.       .--------.
+       o -- -- -- -- o           \     of       /    | Bank  |__   .--------./
+                     |          /  `. Sparkle  / \  /`.___ . `  /\  \__\|\__\/
+  (special events!)  |         /   \\ `.      /  / /_//   `.___/ /      |
+     ____________    |       _/     -    `._ /  /  \/ `.   /\__\/       |
+    /         /  \   |        \    .---.    \  /   / /`.`./ /    Market |
+   / Genesis /   /   |         \____\ | \____\/    \_\ |\_\/   ___Square|
+  /  MVSEVM / /\/    |                |                |      /\__\     |
+ /         / / -- -- o -- -- -- -- -- o -- -- -- -- -- o -- -- -- -- -- o --
+/_________/  \       |                |                |   Auction Tent |
+\   __    \  /    __ |          ______|_____           |             __ |
+ \.---.`\__\/    /  /`.       .------.     /`       ~-:::-~         /  /`.
+  \____\/      .--./    `.   ,------./    /`\    ~-:       :-~    .--./    `.
+              /    `.    /  / \_____\/   /`  \  ~-:The Tower:-~  /  _ `.    /
+             / =   =  `.//,-------------.`   /  ~-:of Realms:-~ /        `.//
+              \________\/  \  Library    \  /    ~-:       :-~   \___..___\/
+           Adventurer Guild \_____________\/        ~-:::-~     General Store
+
+::NEWMAP::
+docks1
+::MAPDATA::
+entrance 39 32
+newbie-pier_1 39 8
+newbie-pier_2 53 8
+newbie-pier_3 67 8
+sparkle_pub 7 8
+sparkle_pub_lounge 4 10
+sparkle_pub_parlor 2 7
+::MAPDATA::
+                        Warehouse
+     Old Shipping    __________________
+        Office      /  /  /  /  /  /  /\
+            _____  /  /  /  /  /  /  /  \          
+           /    /\/__/__/__/__/__/__/   /   "":"""""""":""""::""""""""":
+          /____/ /\    _____        \  /  """""""""": Under """""":""":""""
+  _______ \\\__\/  \___\ |  \________\/  """":"":" Construction """"""":"
+ /__---_/\ |             |                  """"""":""""""::"""""""""
+ \_/==|+ / o -- -- -- -- o -- -- -- -- o -- -- -- -- o -- -- -- -- o -- --
+  /___/ /  | Ship to   Ship to    Circle Line:  Circle Line:  Circle Line:
+  \___\/   | Pelargir   Gont       Sarn Ford        Gelan         Gelan
+The Boar's |                      Town of Last   Port MacDunn     Gont
+Head Tavern|                                     Grey Havens      Kabal
+    ______ |                           |              |             |
+   /_____/\| Ship to                   (Newbie Routes for Safe Travel)
+  /_____/- o Grey             
+ /_____/\  | Havens                  
+/_____/ /  |              
+\_____\/   |                 
+ Warehouse |
+           |                          ==========================
+           | Ship to                   Western Docks of Sparkle
+  -- -- -- o Kalaman                  ==========================
+           | 
+           |
+           |
+           |
+           | Ship to   Ship to      Ship to       Ship to       Ship to
+           | Terel      Krynn       Emerald        Avenir        Calia
+           o -- -- -- -- o -- -- -- -- o -- -- -- -- o -- -- -- -- o -- --
+           |             |             |
+       ____|__________   |          ___|______________________
+      /  /  /  /  /  /\  |         /         Landing Zone    /\
+     /  /  /  /  /  /  \ |        /        for flight to    /  \
+    /__/__/__/__/__/   / |       /             Tyr         /   /
+    \Old Warehouses\  /  |      /_________________________/   /
+     \______________\/   |      \ Genesis ShipLines Office\  /
+                                 \_________________________\/
+
+::NEWMAP::
+docks2
+::MAPDATA::
+newbie-pier_4 4 3
+::MAPDATA::
+
+
+
+ -- o -- -- -- -- o
+ Circle Line:     |
+    Gelan         |
+    Solace        |
+   Pelargir       |
+ (Newbie Route)   |
+                  |
+                  o                 ===========================
+            Lost Sailor              Eastern Docks of Sparkle
+              Memorial              ===========================
+
+
+
+
+
+
+                                                                  Ship to
+                                                                  Palanthas
+                                                                      o
+ Ship to               Ship to            Ship to the                 |
+ Ansalon           Cadu (Khalakhor)       Golden Isle                 |
+ -- o -- -- -- o -- -- -- o -- -- -- o -- -- -- o -- -- -- o -- -- -- o
+            Ship to                Ship to              Ship to   Ship to
+             Kalad                 Faerun               Faerie    Raumdor
+

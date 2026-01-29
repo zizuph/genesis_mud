@@ -1,0 +1,344 @@
+main
+::MAPDATA::
+armoury 11 21 pax_ground
+supply_room2 11 21 pax_ground
+supply_room3 11 21 pax_ground
+guard_room2 11 21 pax_ground
+supply_room1 11 21 pax_ground
+large_kitchen 11 21 pax_ground
+mess_hall2 11 21 pax_ground
+mess_hall1 11 21 pax_ground
+hallway2 11 21 pax_ground
+guard_room1 11 21 pax_ground
+large_w_prison 11 21 pax_ground
+hallway1 11 21 pax_ground
+hollow_wall3 11 21 pax_ground
+hollow_wall2 11 21 pax_ground
+hollow_wall1 11 21 pax_ground
+corridor6 11 21 pax_ground
+reception 11 21 pax_ground
+corridor4 11 21 pax_ground
+corridor3 11 21 pax_ground
+corridor2 11 21 pax_ground
+corridor1 11 21 pax_ground
+private_quarters 11 21 pax_ground
+throne_room 11 21 pax_ground
+dragons_lair 11 21 pax_ground
+guard_room 11 21 pax_ground
+cell 11 21 pax_ground
+cell_old 11 21 pax_ground
+kitchen 11 21 pax_ground
+corridor5 11 21 pax_ground
+corridor7 11 21 pax_ground
+playroom 11 21 pax_ground
+store_room 11 21 pax_ground
+nurseroom 11 21 pax_ground
+c_prison 11 21 pax_ground
+court_yard1 11 21 pax_ground
+court_yard2 11 21 pax_ground
+court_yard3 11 21 pax_ground
+slave_cavern 11 21 pax_ground
+mill_cavern1 11 21 pax_ground
+mill_cavern2 11 21 pax_ground
+mountain_road1 11 21 pax_ground
+mountain_road2 11 21 pax_ground
+mountain_road3 11 21 pax_ground
+iron_mine1 11 21 pax_ground
+iron_mine2 11 21 pax_ground
+iron_mine3 11 21 pax_ground
+chainchamber1 11 21 chain_room
+chainchamber2 11 21 chain_room
+chainchamber3 11 21 chain_room
+chainchamber4 11 21 chain_room
+chainchamber5 11 21 chain_room
+stair_to_etow1 11 21 pax_landing
+wall1 11 21 pax_landing
+wall2 11 21 pax_landing
+wall3 11 21 pax_landing
+stair_to_wtow1 11 21 pax_landing
+stair_to_etow2 11 21 pax_towers
+stair_to_etow3 11 21 pax_towers
+east_tower 11 21 pax_towers
+stair_to_wtow2 11 21 pax_towers
+stair_to_wtow3 11 21 pax_towers
+west_tower 11 21 pax_towers
+ne_barrack 11 21 pax_upper
+nw_barrack 11 21 pax_upper
+se_barrack 11 21 pax_upper
+sw_barrack 11 21 pax_upper
+chainshaft1 11 21 pax_chain
+chainshaft2 11 21 pax_chain
+chainshaft3 11 21 pax_chain
+chainshaft4 11 21 pax_chain
+::MAPDATA::
+
+  /\/\ /\ /\~~~@@@    /\ Que-Kiri             /\_ /\      '  ~~ ~
+     @  @ @@@~~ @@       { }         Que-Shu/\_/ \   v ' v: ~~ ~~
+    @ @@/\@  @[ ] Solace              { }    /\ /\\  ' v ''  ~~ ~
+   @ @@@@/\@@@                              ```````` v ' v: ~~ ~~
+   @@@ DARKEN @    /\       PLAINS OF      /\_/\ /\  ' v ',  ~~ ~
+     @ WOOD @@              ABANASINIA      /\ /\        ,' ~~ ~~
+    [ ]@@@@@  [ ]                         /\__    @@@@  '  ~~ ~~
+  Haven/\   Gateway      { }             / /\ \ @@@@@@ '  ~~ ~~ ~
+        /\ ~~~~~~         Que-Teh               @@@@@@'  ~~ ~~ ~~
+      ~~~~~@@@@@@~~~~~~                         @@@ :' ~~ ~~  ~~ 
+  @@@@@@@@@@@@ ~~ @@   ~   ,____,__,__          @ :'  ~~ ~~ ~~ ~~
+  @@     @@ ~~ @@@      :'' ~~ ~~ ~~ ~~`  ,__    '  ~~ ~~ ~~ ~~ ~
+  @@     @@@@@@@@    [ ]' ~~ ~~ ~~ ~~ ~~ `~~ ~`''  ~~ ~~ ~~ ~~ ~~
+  @ QUALINESTI @@  New Ports ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@        @@@    ,'~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@       @@@    :   ~~ ~~ ~~ ~~  NEW SEA ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+  @@       @@     `, ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@@@@@@@@@      '   ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+                  '  ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+   /\ /\      /\   '  ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+          [ ]   /\   ` ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+      Pax Tharkas     `  ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~ 
+
+::NEWMAP::
+pax_ground
+::MAPDATA::
+armoury 11 2
+supply_room2 11 5
+supply_room3 7 5
+guard_room2 11 8
+supply_room1 15 5
+large_kitchen 15 2
+mess_hall2 19 2
+mess_hall1 19 5
+hallway2 19 8
+guard_room1 15 8
+large_w_prison 15 11
+hallway1 23 8
+hollow_wall3 27 8
+hollow_wall2 31 8
+hollow_wall1 35 8
+corridor6 39 8
+reception 39 5
+corridor4 45 5
+corridor3 51 5
+corridor2 63 5
+corridor1 69 5
+private_quarters 69 7
+throne_room 63 10
+dragons_lair 54 10
+guard_room 51 2
+cell 57 2
+cell_old 63 2
+kitchen 45 2
+corridor5 45 8
+corridor7 45 11
+playroom 45 14
+store_room 51 14
+nurseroom 60 19
+c_prison 69 15
+court_yard1 31 19
+court_yard2 31 22
+court_yard3 31 25
+slave_cavern 31 28
+mill_cavern1 37 22
+mill_cavern2 43 22
+mountain_road1 24 28
+mountain_road2 31 32
+mountain_road3 37 32
+iron_mine1 42 30
+iron_mine2 42 28
+iron_mine3 42 26 
+::MAPDATA::
+          ___ ___ ____                     ___________ _____ _____
+         |   |   |    |                   |     |     |     |     |
+         | o | o---o^ |      _ _ _        |  o  |  o [ ] o  |  o  |
+     ____| | | | | |  |     /     \       |_ | _|_ | _|_____|_[ ]_|_____
+    |    ' | ' | | |  |    /  ___  \         |     |           |        |
+    |  o---o---o | o  |   /  /#|#\  \  o --- o --- o --------- o^--- o  |
+    |____| | |___| |  |  / _/ #|# \ _\ |     |               | | |   |  |
+           |     ' |  '                |     |               | | |   o  |
+           o---o---o---o---o---o---o---o --- ov  ,===========  | =======,
+           __| | |__           |             |   |    __       |        |
+          |    |    |          |             |   |   /  \      o        |
+          |    o    |          |             o   |   \__/  Verminaard's |
+          |         |          |         ___ | __|         throne room  |
+          |_________|          |        |    |   `----------------------'
+                               |        |    o --- o |@@@@@@@@@@@@|     |
+                               |        | ,'     |___|@@@@@@@@@@@@|  o  |
+    ~ the fortress towers      |       ,' ____   |@@                ____|
+      of Pax Tharkas ~         |    ,'       @@       Chamber of    @@
+                               | ,'          @@@@@@@  the Nursemaid @@
+                               o      @@@@@@@@@@@@@@@@@     o       @@
+                               |   @@@@@@     @@@@@  @@@@@@@@@@@@@@@@@
+                               |  @             @@@@@@@@@@@@@@@@
+                               o --- o --- o    @@@@@@@@@@@@@
+                               |  @             @@@@@@@@@
+                               |  @@@@@@@@@@@@@@@@@@@@@     /\
+                               o    @@@@@    @@@@@@@@@@    /  \
+                            ,' | @@@@@@@  o      /\       /    \
+                          ,' @ | @@@@@@@  |     /  \__/\     /\
+                        o   @  o   @@@@@  o    /     /  \   /  \
+                         `,  @   @@@@@@   |   /     /    \
+                           ', @@@@@@@@    o
+                             `,        ,'
+                  /\  /\       o --- o
+                 /  \/  \              `,     path to
+                /    \                    `,  Thorbardin 
+
+
+::NEWMAP::
+chain_room
+::MAPDATA::
+chainchamber1 69 9
+chainchamber2 63 9
+chainchamber3 57 9
+chainchamber4 51 9
+chainchamber5 45 9
+::MAPDATA::
+
+                                           _____________________________
+                                          | ^=^                         |
+                                          |  o --- o --- o --- o --- o  |   
+                                          |_____   |     |  ______   |  |
+                                                |  |     |        |  |  |    
+                                                |  o --- o --- o  |  o  |                      
+                                           _____|_________________| v=v |
+                                          |                    ~     |  |
+                                          |  o --- o --- o --- o --- o  |
+                                          |_____________________________|
+
+
+::NEWMAP::
+pax_landing
+::MAPDATA::
+stair_to_etow1 45 5
+wall1 39 5
+wall2 33 5
+wall3 27 5
+stair_to_wtow1 21 5
+::MAPDATA::
+
+                    ~ Pax Tharkas battlements ~
+                                              
+                   _____^_____^_____^_____^_____      
+                  | ^=^                     ^=^ |
+                  |  o --- o --- o --- o --- o  |
+                  | v=v                     v=v |
+                  |_____________________________|
+ 
+::NEWMAP::
+pax_towers
+::MAPDATA::
+stair_to_etow2 45 5
+stair_to_etow3 45 5
+east_tower 45 5
+stair_to_wtow2 21 5
+stair_to_wtow3 21 5
+west_tower 21 5
+::MAPDATA::
+
+                          ~ Pax Tharkas ~
+                                              
+                   _____                   _____      
+     ~ west       |     |                 |     |     ~ east
+       tower ~    |  o  |                 |  o  |       tower ~
+                  |     |                 |     |
+                  |_____|                 |_____|
+ 
+
+::NEWMAP::
+pax_upper
+::MAPDATA::
+ne_barrack 21 5
+nw_barrack 16 5
+se_barrack 21 8
+sw_barrack 16 8
+::MAPDATA::
+
+                          ~ Pax Tharkas ~
+                                              
+              __________                
+             |        ^ |               
+             |  o -- ov |              
+             |  | \/ |  |                 
+             |  | /\ |  |
+             |  o -- o  |
+             |__________|
+
+
+::NEWMAP::
+pax_chain
+::MAPDATA::
+chainshaft1 47 15
+chainshaft2 47 15
+chainshaft3 47 15
+chainshaft4 47 15
+::MAPDATA::
+
+                                  __|HM\
+                                 /HH\.M|
+                                 HMHH\.|
+                                 \HMHH\|
+                                 \\HMHH\
+                                 HH\HMHH\
+                                 HHH\HMHH\
+                                     \HMHH\-HHH\
+                                      \HMHH\.HHM\
+                                       \HMHH\.HMH\
+                                       |\HMHH\\HMH\
+                                       |H\HHH| \HMH\
+                                       |MH\H/   \HMH\
+                                       |MH\      \HMH\
+                                       \HMH\      \HMH\
+                                        \HMH\    __|HM|
+                                         \HMH\  /HH\.M|
+                                          \HMH\ |MHH\.|
+                                           \HMH\\HMHH\|
+                                            \HMH\\HMHH\
+                                             \HMHH\HMHH\
+                                              \HHHH\HMHH\
+                                                    \HMHH\-HHH\
+                                                     \HMHH\.HHM\
+                                                      \HMHH\.HMH\
+                                                      |\HMHH|\HMH
+                                                      |H\HMH/ \HM
+                                                      |MH\H/   \H
+                                                      |MH\      \
+                                                      \HMH\                 
+        
+::NEWMAP::
+pax_upper_stair
+::MAPDATA::
+stair_to_barr 19 2
+stair_to_wl1 63 5  
+stair_to_wl2 69 5
+::MAPDATA::
+                 _____  
+                | v=v |   
+                |  o  |   
+                | ^=^ |                                      ___________
+                |_____|                                     | v=v       |    
+                                                            |  o --- o  |
+                                                            |       ^=^ |
+                                                            |___________|
+                                                  
+::NEWMAP::
+pax_upper_stairs2
+::MAPDATA::
+gallery1 69 3
+gallery2 63 3
+gallery3 57 3
+gallery4 51 3
+gallery5 69 6
+gallery6 51 6
+stairwell 45 3
+balcony1 57 6
+balcony2 63 6
+::MAPDATA::
+
+                                           _____________________________
+                                          | ^=^                         |
+                                          |  o --- o --- o --- o --- o  |   
+                                          |_____   |     |  ______   |  |
+                                                |  |     |        |  |  |    
+                                                |  o --- o --- o  |  o  |                      
+                                                |_________________| v=v |
+                                                                  |_____|
+
+

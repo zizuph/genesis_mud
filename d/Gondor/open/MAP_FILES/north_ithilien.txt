@@ -1,0 +1,339 @@
+main
+::MAPDATA::
+nosg1 48 10 southwest
+rr1 48 10 west
+rr2 48 10 west
+rr3 48 10 west
+rr4 48 10 west
+rr5 48 10 west
+rr6 48 10 west
+rr7 48 10 west
+fpath7 48 10 west
+fpath8 48 10 west
+fpath9 48 10 west
+rr8 38 9 northwest
+rr9 38 8 northwest
+rr10 36 7 cairandros
+sstream12 48 10 northwest
+sstream11 48 10 northwest
+sstream10 48 10 northwest
+sstream9 48 10 northwest
+bushes5 48 10 northwest
+waterfall 48 10 northwest
+pool 48 10 northeast
+sstream8 48 10 northeast
+sstream7 48 10 northeast
+sstream6 48 10 northeast
+sstream5 48 10 northeast
+sstream4 48 10 northeast
+outfall 48 10 northeast
+bank 48 10 northeast
+bank2 48 10 northeast
+slake 48 10 northeast
+bank3 48 10 northeast
+sstream3 48 10 northeast
+slope 48 10 northeast
+fernbed 48 10 northeast
+slope2 48 10 northeast
+lake 48 10 northeast
+slope3 48 10 northeast
+bank1 48 10 northeast
+slope4 48 10 northeast
+sstream2 48 10 northeast
+sstream1 48 10 northeast
+downhill 48 10 northeast
+ridge 48 10 northeast
+ridge2 48 10 northeast
+ridge3 48 10 northeast
+fpath1 48 10 east
+fpath2 48 10 east
+fpath3 48 10 east
+fpath4 48 10 east
+fpath5 48 10 east
+fpath6 48 10 east
+forest1 48 10 east
+forest2 48 10 east
+fpath42 48 10 east
+fpath41 48 10 east
+forest3 48 10 east
+forest4 48 10 east
+forest5 48 10 east
+forest6 48 10 east
+forest7 48 10 east
+bushes1 48 10 east
+bushes3 48 10 east
+bushes2 48 10 east
+bushes4 48 10 east
+hill 48 10 southeast
+::MAPDATA::
+
+                ~                 ~~~~                   \
+    West Emnet   ~               ~~~~                     \
+ \                ~~~~         ~~~~                        \ Morannon
+  \                   ~       ~~~~                         | o
+   \-----+------       ~~~~~~~~~~~~                        |/
+         |      \            ~~~~~                         |
+         O       \             ~ O ~       Northern        |
+       EDORAS     \              ~~~~~     Ithilien        |
+                   \              ~~~~~                    |  Mountains
+                    --------\      ~~~~~                   |     of
+                       MINAS \      ~~~~~                  |   Shadow  +------+
+   White Mountains     TIRITH \  OSGILIATH                 |           |MORDOR|
+                            O-+----O=====------------------+--\ MINAS  +------+
+               +------+       |   / ~~~~~                  |   \MORGUL
+               |GONDOR|       |  / ~~~~~                   |    O
+               +------+       | / ~~~~~     Southern       |
+                              L/ ~~~~~      Ithilien       |
+                             / ~~~~~~                      |
+                            / ~~~~~~            Emyn Arnen |
+                           / ~~~~~~               o--------+
+                          / ~~~~~~                         |
+                          
+::NEWMAP::
+southeast
+::MAPDATA::
+hill 17 8
+::MAPDATA::
+
+     |                                                   |
+     o                                                   o
+       \                                                 |
+         o                                               |
+           \                                             |
+             o ----- o                                   o
+               \   /                                     |
+                 o                                       |
+                   :                                     |
+ o - o - o - o - o - o - o -------------- o ------------ o ----- o
+         :               |                               |         \
+         o               o                               o           o - o - o
+         |               |                               |             / |
+ o       o               o                       o       o           o   o
+       /                 |                         \     |             /
+     o                   o                           o - o       o - o - o
+     |                 /                           /     |             \
+     o   o - o - o - o                           o       o               o
+     |   |   |   |   |       S O U T H E R N             |               |
+     o - o - o - o - o                                   |
+     |   |   |   | /             I T H I L I E N         |         Minas Morgul
+
+::NEWMAP::
+southwest
+::MAPDATA::
+nosg1 60 8
+::MAPDATA::
+
+                                 ~~~~~~~~~~~                |               |
+                                    ~~~~~~~~~~~             o               o
+                                ~~~~~~~~~~~~~~              |                 \
+                                  ~~~~~~~~~~~~~~~           o
+                                    ~~~~~~~~~~~~~~~         |
+                                      ~~~~~~~~~~~           o
+                                   ~~~~~~~~~~~~~~~          |
+                                     ~~~~~~~~~~~            |
+                                                            |
+                                        Osgiliath     - o - o - o ----- o - o -
+  \                                                               \
+    o                                   ~~~~~~~~~~~                 o
+    |                                 ~~~~~~~~~~~                     \
+    o                                    ~~~~~~~~~~~    o ------------- o
+    | \                       /       ~~~~~~~~~~~~      |                     /
+    o   o - o               o        ~~~~~~~~~~~~~      |                   o
+    |         \           /          ~~~~~~~~~          |                   |
+                o - o - o           ~~~~~~~~~~~~        o                   o
+                  \   / |           ~~~~~~~~~           |                   |
+                    o - o          ~~~~~~~~~            |                   o -
+                  / |   |         ~~~~~~~~~~~           |                   |
+
+::NEWMAP::
+northwest
+::MAPDATA::
+rr8 56 6
+rr9 56 4
+sstream12 60 4
+sstream11 64 2
+sstream10 68 2
+sstream9 72 2
+bushes5 76 4
+waterfall 72 4
+::MAPDATA::
+
+                 ~~~~~~~~~~~~~~                   \                           /
+                  ~~~~~~~~~~~~~~                    o           o - o - o - o
+                    ~~~~~~~~~~~~~~                    \       /
+                      ~~~~~~~~~~~~~                     o - o                  
+                       ~~~~~~~~~~~~~                    |
+                         ~~~~~~~~~~~~                   o
+                           ~~~~~~~~~~~                    \
+
+::NEWMAP::
+west
+::MAPDATA::
+rr1 60 18
+rr2 60 16
+rr3 60 14
+rr4 60 12
+rr5 60 10
+rr6 60 8
+rr7 60 4
+fpath7 72 8
+fpath8 68 10
+fpath9 64 8
+::MAPDATA::
+
+                       ~~~~~~~~~~~~~                    |
+                         ~~~~~~~~~~~~                   o
+                           ~~~~~~~~~~~                    \
+                           ~~~~~~~~~~~~~                    o
+                             ~~~~~~~~~~~~~                  |
+                           ~~~~~~~~~~~~                     |               o -
+                            ~~~~~~~~~~~~~                   |             / |
+                            ~~~~~~~~~~~~                    o : o       o   o
+                            ~~~~~~~~~~~~~                   |     \   /     |
+                             ~~~~~~~~~~~~                   o       o       o -
+                             ~~~~~~~~~~~~                   |               |
+                               ~~~~~~~~~~~                  o               o
+                                 ~~~~~~~~~~~                |               |
+                                    ~~~~~~~~~~~             o               o
+                                ~~~~~~~~~~~~~~              |                 \
+                                  ~~~~~~~~~~~~~~~           o
+                                    ~~~~~~~~~~~~~~~         |
+                                      ~~~~~~~~~~~           o
+                                                            |
+                                   Osgiliath                o
+                                                            |
+
+::NEWMAP::
+northeast
+::MAPDATA::
+pool 7 16
+sstream8 11 14
+sstream7 15 16
+sstream6 19 18
+sstream5 23 16
+sstream4 27 18
+outfall 31 18
+bank 31 20
+bank2 35 20
+slake 39 20
+bank3 39 18
+sstream3 39 16
+slope 39 14
+fernbed 43 12
+slope2 35 12
+lake 35 14
+slope3 31 14
+bank1 31 16
+slope4 27 16
+sstream2 43 16
+sstream1 47 14
+downhill 51 14
+ridge 55 12
+ridge2 55 10
+ridge3 51 10
+::MAPDATA::
+
+                                                       |
+                                                       o
+                                                       |     /
+                                                       o   o
+                                                         \ |
+                                                           o
+                                                           |
+                                                           o
+                                                           |
+                                                       o   o
+                                                       |   |
+                                   o       o           o : o
+                                 / | \   /           /     |
+           o                   o - o - o       o - o       |
+         /   \               / | /   \ |     /             |
+ - o - o       o       o   o - o       o - o               o
+                 \   /   \   \ |       |                   |
+                   o       o - o       o                   o
+                               | \   / |                   |
+                               o - o - o                   |
+                             /                             |
+
+::NEWMAP::
+east
+::MAPDATA::
+fpath1 27 4
+fpath2 23 4
+fpath3 19 4
+fpath4 15 6
+fpath5 11 6
+fpath6 7 6
+forest1 7 8
+forest2 7 10
+fpath42 11 10
+fpath41 15 8
+forest3 7 12
+forest4 7 14
+forest5 11 16
+forest6 15 18
+forest7 23 18
+bushes1 15 4
+bushes3 11 4
+bushes2 11 2
+bushes4 7 2
+::MAPDATA::
+
+                               | \   / |                   |
+                               o - o - o                   |
+                             /                             |
+                   o - o - o                               o
+                 /                                         |
+       o - o - o                                           |
+     / |       |                                           |
+   o   o       o                                           o
+ /     |     /                                             |
+       o - o                N O R T H E R N                o
+       |                                                   |
+       o                       I T H I L I E N             |
+       |                                                   |
+       o                                                   o
+         \                                                 |
+           o                                               |
+             \                                             |
+               o ----- o                                   o
+                 \   /                                     |
+                   o                                       |
+                     :                                     |
+::NEWMAP::
+cairandros
+::MAPDATA::
+rr10 49 16
+::MAPDATA::
+
+~~   ###########         ###########   ~~~~~~~~ oOOoOOoOoOOooOOoOOooOOoOOooOOoo
+~~   #         #         #         #   ~~~~~~~~ OooOOoOoOOOOOoOOOooOOoOOoOoOOoO
+~~   #  O - O  #         #  O - O  #   ~~~~~~~~ ooOOooOOoOOOoooOOoOOoOOoOooOOoo
+~~   #  | # |  #         #  | # |  #   ~~~~~~~~ ooOOOoOOOOOoooOoOooOOooOoOoOooO
+~~   #  O - O  #         #  O - O  #   ~~~~~~~~ OoOooOOooOoooOOOoOOOoOooOOoOOoo
+~~   #  =      #         #      =  #   ~~~~~~~~ OooOooOoOOOoOooOOoOOoOoOooOooOO
+~~   ## = ######         ###### = ##   ~~~~~~~~ oOOOoOoOoooOoOoOOoOoOoOoOooOooO                
+~~~~  # = #                   # = #  ~~~~~~~~~~ ooOoOO +----------+ oOOoOoOOOOo
+~~~~  # = ##################### = #  ~~~~~~~~~~ OoOOoo |          | OOooooOOOoO
+~~~~  # O --- O --- O --- O --- O #  ~~~~~~~~~~ OOoOoO | Ithilien | OoOoOoOOoOO
+~~~~  ##|#####|#### | ####|#####|##  ~~~~~~~~~~ oOoOoo |          | OoOooOoOo ~
+~~~~  # O  #  O  #  O  #  O  #  O #  ~~~~~~~~~~ OoOoOo +----------+ oOOoOOoO ~~
+~~~~  # |  #######  |  #######  | #  ~~~~~~~~~~~ OoOOoOOOoOOoOOOooOoOOoo ~~~~~ 
+~~~~  # O  #  O  #  O  #  O  #  O #  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ooO
+~~~~  ##|#####|#### | ####|#####|##  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~oOOoooOoOo
+~~~~--- O --- O --- O --- O --- O ---~~~~~~~~~~  O  oOOOoOOOooOOOoOooOOoO O ---
+~~~~  # = ##################### = #  ~~~~~~~~~~   \  oOOoOOoOoOOoOOooOOo / oOOO
+~~~~  # = #                   # = #  ~~~~~~~~~~ O  \  oOooOoOooOOoOoOOO / OOooo
+~~~~ ## = ######         ###### = ## ~~~~~~~~~~ oO  \  OooOooOoOOOoOoO / oOOOoO
+~~~~ #  =      #         #      =  # ~~~~~~~~~~ Ooo  \  oOoOOOoOoOOoo / ooOOooO
+~~~~ #  O - O  #         #  O - O  # ~~~~~~~~~~~ OoO  \  OooOOoOOoOo / oOOoOOoo
+~~~~ #  | # |  #         #  | # |  # ~~~~~~~~~~~~ oOo  O --------- O  oOoOooOoO
+~~~~ #  O - O  #         #  O - O  # ~~~~~~~~~~~~ oOOo | oOOoOoOooOooOoOOoOooOo
+~~~~ #         #         #         # ~~~~~~~~~~~~ Oooo | OooOoOOoOoOooOOoOoooOo
+~~~~ ###########         ########### ~~~~~~~~~~~~ oOoO | oOOOOoOOOoOOoOoOOOoOoO
+~~~~~~                           ~~~~~~~~~~~~~~~~ OOoO | OoOOOOOOoOoooOoOoOOoOo
+~~~~~~~~~~~~~~           ~~~~~~~~~~~~~~~~~~~~~~~~ ooOo | oOOoOoOooOooOOoOOOoOOO
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ oOoO O  OOOoOoOoooOooOOoOoooO
+~~~~~~~~~~~~~ Anduin River ~~~~~~~~~~~~~~~~~~~~~~ ooOoo \  OoOOoOOoOOOOOoOoOooo
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ oOoOoOo \  oOOoOoOOooOoOoooOOo
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ oOOoOoOooO \  oOOoOoOOooOOOOooOO

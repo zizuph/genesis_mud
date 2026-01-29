@@ -1,0 +1,47 @@
+Group:      3
+
+Bit:        7
+
+Name:       Find the Dead Shirriffe's Feather
+
+Programmed: Dunstable, 11/5/94
+
+Problem:    The feather quest is based on the premise that the 
+            Shirriffe Pott has become waylaid by the orcs living 
+            northwest of Greenfields. Evidence must be found that 
+            he's either alive or dead. 
+
+Solution:   Get quest from shirriffe in Greenfields. Go to orc 
+            camp and find evidence of missing Shirriffe in orc 
+            tent. Evidence is a sack and a feather, the badge 
+            of Shire Shirriffes.
+
+Skills:     Awareness >=20 + random(15)
+            Location Sense >= 20 + random(15)
+
+Risks:      Avoiding orcs and possibly death
+
+XP-Scale:   7,500
+
+Remarks:    This is Part II of quest from Greenfields' Shirriffe
+
+Relevant
+Files:      
+            Rooms
+            -------------
+            Greenfields - /d/Shire/greenfields/burrow/2
+            orc camp tent - /d/Shire/greenfields/camp/tent05
+
+
+            NPCs
+            --------------
+            Greenfields Shirriffe/Puddifoot -
+            /d/Shire/greenfields/npc/shirriff
+
+
+            Objects
+            --------------
+            sack - /d/Shire/greenfields/obj/sack
+            feather - /d/Shire/greenfields/obj/feather
+
+

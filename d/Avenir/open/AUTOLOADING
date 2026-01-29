@@ -1,0 +1,40 @@
+						Created by: Denis, Mar'97
+=============================================================================
+This documents the autoloading objects in Avenir
+=============================================================================
+
+Clubs/guild items:
+
+/d/Avenir/common/clubs/dance/anklet.c,
+/d/Avenir/common/clubs/dance/veil.c:
+	Items of the Dancers of Veil. Players can restore them by
+	<restore me> in the clubroom.
+
+/d/Avenir/common/clubs/mummer/mum_cap.c
+        Players can restore it by using <restore me> in the same
+        room as Nygel.
+
+/d/Avenir/union/obj/stone.c (Tiny black sphere):
+	Union of the Warriors of Shadow guild item.
+	Players can restore it by <ask stone> in the guild joinroom.
+
+Other:
+
+/d/Avenir/common/bazaar/Obj/worn/locket.c:
+        A locket which a player may configure and purchase
+        at /d/Avenir/common/bazaar/intr/locket_shop.
+        Not restorable, but a player may buy another.
+
+/d/Avenir/common/bazaar/Obj/books/wisdom.c:
+        Book of Sybarite Wisdoms. Can be replaced by visiting the library.
+
+/d/Avenir/common/holm/obj/amulet.c
+        Cursed amulet. 25% chance of not autoloading. See Nemur (/d/Avenir/
+        common/holm/mon/wizard) at /holm/t_camp/w1 to get one, or be released 
+        from the amulet's binding.
+             
+/d/Avenir/common/bazaar/Obj/purse.c:
+        A customizable coin+gem purse sold at
+        /d/Avenir/common/bazaar/intr/lapidary.
+        Not restorable, but a player may buy another.
+

@@ -1,0 +1,14 @@
+Holding file for formulas relating to how wisdom applies to combat
+and combat aid:
+
+At-will harm spells check WIS in determining query_spell_weapon_class
+which is used in determining F_PENMOD spell strength.  
+
+Mana regeneration formula checks WIS.            
+
+A caster's WIS is used in F_STR_FACTOR calculations for spell pen 
+(we allow spells to scale 10% up/down depending on wisdom).   
+
+Stats play a minor role in determining casting success, with equal 
+weighting of INT, WIS, and DIS.                                 
+

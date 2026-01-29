@@ -1,0 +1,28 @@
+Level 1
+
+                               31 32<33>           EN = Entrance
+                               30                 {xx}= Monsters
+                         27 28 29 34 35 36        <xx>= To Guild
+                        {26}     {03}  {37}             
+       19 18 17 09 08 07 06 05 02 01 04 38{41}
+    21 20       10                EN    39 40
+    22          11 12 13
+<24>23    16 15 14
+    25    
+ 
+Level 2
+
+                            <xx> = To Upstairs #24
+                53
+             51 52
+       55 54 50
+             49
+ 62 60       48
+ 64 59 58 57 47
+             46 45<44>
+
+Level 2 isn't done yet, and the descriptions of level 1 are not
+final.  This is just a map of the area in case anyone is interested
+or lost :)
+
+Digit

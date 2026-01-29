@@ -1,0 +1,122 @@
+Message: 61
+From   : Darien
+Subject: Punishments
+To     : Adriel, Rowan, Nogard and Amelia
+CC     : Darien
+Date   : Jun 19 1998
+
+PUNISHMENTS
+
+Part of what we discussed with the command mwarn was a new
+level of punishment... Disgrace.  Disgrace would be a state
+of punishment between Banishment and unpunished.  This would
+also require a change in Banishment, so I shall explain how
+these two punishments would be defined.
+Disgrace will be probably the most regular level of punishment
+for members.  If a member attacks another player without using
+mwarn, of course, the monk will become auto-Disgraced for a
+day (i.e., Darien the Disgraced Bishop of Kaheda... God help
+the morality of the Order if that happened, though).  Certain
+lower level offenses of the rules shall carry punishments of
+Disgrace, too. Ideally, Disgrace would have the following effects:
+
+*   the following skills would be modified downward (temporarily
+    for the duration of the Disgrace) by 10 levels: focus, defense,
+    unarmed, and whatever guild-trained weapon skill they have a
+    specialization in (sword, polearm, or whatever else if katas
+    are ultimately used)
+*   dropping the guild would result in death during this period
+
+Banishment would be redefined into the highest level of punishment
+used only on lower level offenses after someone has repeatedly
+broken those rules, OR on higher level offenses (attacking another
+Kahedan, or something like that) from even the first offense.
+Because of this extra level of transgression, Banishment would have
+the following effects:
+
+*   a member cannot use the start location of the guild
+*   a member cannot go upstairs in the guild (thereby blocking
+    higher level training, board-reading, and use of the drop room)
+*   use of mtell (if it still exists after the recode) would be
+    blocked
+*   the following skills would be modified downward (temporarily
+    for the duration of the Disgrace) by 20 levels: focus, defense,
+    unarmed, and whatever guild-trained weapon skill they have a
+    specialization in (sword, polearm, etc., as above)
+*   dropping the guild would result in not only death during this
+    period, but would also mean complete wiping of the guild stat
+    (i.e., they would get nothing back at all from their time in
+    Kaheda)
+
+As you can see, these become some REAL harsh punishments.  Disgrace
+has an 'out', though.  Obviously some attacks might have been in
+truth acceptable, but they forgot to use mwarn, regardless of what
+other means they might have used to alert the other person.  In a
+case like this, a new Council command 'forgive' would remove the
+Disgrace from the person.  Banishment, though, is un'forgive'able.
+Once Banished, the member must ride out their punishment.
+I would also like to have a log created for Disgraces, Banishments,
+and forgives.  In cases of non-use of mwarn, the code would place
+into the log an automatic message like:
+   6/18/1998 02:04:32 Darien attacks Dorkboy without warning.
+        Darien is Disgraced.
+
+If I had introed and declared my attack as per the rules (and this
+fact is shown by my log), then perhaps Council could 'forgive' me.
+The 'forgive' command would have a comment entry, though, to show
+in the log why the individual was forgiven.  For example:
+   6/18/1998 08:10:13 Adriel forgives Darien because he declared
+        his attack on Dorkboy.
+
+Meanwhile, Moronboy, another member, attacks another Kahedan.  The
+computer auto-Disgraces him, but he doesn't have reason for his
+attack.  He ends up getting Banished for his crime.  In the code,
+his Banishment would take precidence over his Disgrace, and the
+Bishop banishing him would have to add a comment entry, too.  So
+in this case the log might look like this:
+
+   6/18/1998 12:48:56 Dorkboy attacks Newbiemonk without warning.
+        Dorkboy is Disgraced.
+   6/18/1998 13:08:03 Rowan banishes Dorkboy for attacking Newbiemonk
+        a fellow Kahedan.  Sentence: 3 days banishment
+
+Dorkboy's original one day Disgrace would be changed into three days
+Banishment because Banishment has the weightier charge.  Everyone
+following me?
+
+Ok... now periods of punishment.  Here are my suggestions whereas
+'B' = Banishment, 'D' = Disgrace, 'd' = day(s), 'h' = hour(s), and
+'E' = Evicted from the guild:
+
+                                              # of OFFENSES
+CRIME                                     1      2      3      4
+====================================     ===    ===    ===    ===
+Attacking a Kahedan/spouse               3B     6B      E
+Attacking a smaller player               2B     4B      E
+Attacking a non-Kahedan w/o warning      1B     3B      E
+Killing a Kahedan/spouse                  E
+Killing a smaller non-Kahedan            3B     6B      E
+Killing a non-Kahedan                    2B     4B      E
+Stealing from a Kahedan                  2B     5B      E
+Backstab of a Kahedan                     E
+Backstab of smaller player               5D     5B      E
+Ongoing slander of a Kahedan             1D     1B     3B      E
+Ongoing disrespect of non-Kahedans       8hD    1D     1B      E
+Stealing from smaller player             1D     3D     3B      E
+Attacking guild quest NPCs               3D     3B      E
+
+All of the above punishments are to be judged and decreed by Council
+based on evidence from logs and/or eyewitness testimony.  In cases
+where logs are unavailable, Council will be the final judge and jury
+on their own criteria.
+
+I would personally suggest that when selecting punishments, the
+punishment be used by the number of offenses, regardless of what
+came before.  Anotherwards, if someone had attacked others without
+warning twice before, then kills a Kahedan, they should be evicted
+from the Guild.  But if someone had attacked a Kahedan, then steals
+from a Kahedan, they should not be evicted, but should get the
+five days banishment.
+
+:)
+

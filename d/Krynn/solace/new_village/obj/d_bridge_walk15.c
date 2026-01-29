@@ -1,0 +1,16 @@
+#include "/d/Krynn/common/defs.h"
+#include "../local.h"
+inherit STDDOOR;
+
+create_door()
+{
+    set_pass_command(({"n", "north"}));
+    set_name(({"brown door", "door"}));
+    set_long("It is a normal brown wooden door, leading into the " +
+	     "house.\n");
+
+    set_other_room(HOUSE + "house4");
+    set_open(0);
+    set_open_desc("");
+    set_closed_desc("");
+}

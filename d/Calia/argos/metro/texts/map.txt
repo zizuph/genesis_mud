@@ -1,0 +1,116 @@
+******************************************************************************
+*                         CENTRAL METROPOLITAN ARGOS                         *
+******************************************************************************
+Close up view of the heart of the City
+ 
+                                  ^       ^       ^
+--L7------L8------L9-----L10-----L11-----L12-----L13-----L14-----L15-----L16
+  |       |       |       |       |       |       |       |       |       |
+  |       |       |       |       |       |       |       |       |       |
+  P8-----VC      PUB------D8-----INN     GLW-----Tr8-----BRW     WOL------T8
+  |       |               |       |               |                       |
+  |       |               |       |               |                       |
+  P9     BD      SHP------D9     INN2    SCL-----Tr9-----FOR     EMP------T9
+  |                       |                       |                       |
+  |                       |                       |                       |
+<<P10----PGN      $$---0--D10----DEP     AER-----Tr10----PO      PRS------T10>>
+  |       |       |       |       |       |       |       |       |       |
+  |       |       |       |       |       |       |       |       |       |
+<<P11-----C8------C9------D11----C11-----C12-----Tr11----C14-----C15------T11>>
+  |                       |  \                 /  |  \                    |
+  |                       |    \             /    |    \                  |
+<<P12    LB1     LB2      D12    PK1-----PK4     Tr12    AM1-----AM3      T12>>
+  |       |       |       |       |       |       |       |               |
+  |       |       |       |       |       |       |       |               |
+  P13----LBH1----LBH2-----D13    PK2     PK5     Tr13    AM2     AM4      T13
+  |       |       |       |       |       |       |               |       |
+  |       |       |       |       |       |       |               |       |
+  P14    LB3     LB4      D14    PK3-----PK6     Tr14    TG2-----TG1      T14
+  |                       |    /             \    |               |       |
+  |                       |  /                 \  |               |       |
+  A7------A8------A9-----A10-----A11-----A12-----A13-----A14-----A15-----A16
+/                                 |
+(Arena Courtyard)           (Palace Courtyard)
+ 
+KEY:
+ALL ROOMS FOUND IN ~ZIMA/ARGOS/METRO/ROOMS:
+>> - steps to Temple of Pharos
+<< - steps to Temple of Arxes
+^  - steps to Temple of Thema
+ 
+Key    Desc               file(s)       Key    Desc                 file(s)
+---    ----------------   -----------   ---    ------------------   --------
+Axy  - Alpharon Road    - aroadXY.c     LBHx - Library Hallway    - libhallX.c
+AER  - Aeropagus (forum)- aeropagus.c   Pxy  - Protos Road        - proadXY.c
+AMx  - Amphitheatre     - amphX.c       PGN  - Pigeon Shop        - coop.p
+BD   - Board Room       - boardrm.c     PKx  - Park               - parkX.c
+BRW  - Brass Works Shop - brasswrk.c    PO   - Post Office        - post.c
+Cxy  - Chiphas Road     - croadXY.c     PRS  - Grape/Olive Press  - press.c
+Dxy  - Deutron Road     - droadXY.c     PUB  - Pub                - pub.c
+DEP  - Depot            - depot.c       SCL  - Sculptors' Studio  - sculptor.c
+EMP  - "Empty" Shop     - empty.c       SHP  - Shop               - shop.c
+FOR  - Forge            - forge.c       TGx  - Thespian Guild     - thespX.c
+GLW  - Glass Works Shop - glasswrk.c    Trxy - Triteros Road      - trroadXY.c
+INN  - Inn (front room) - inn     Txy  - Tetartos Road      - troadXY.c
+INN2 - Inn (back room)  - inn2.c        VC   - Visitors Center    - visitctr.*
+Lxy  - Lambdos Road     - lroad.c       WOL  - Wook Works Shop    - woolwrk.*
+LBx  - Library Room     - libX.c        $$   - Bank               - bank.c
+ 
+ 
+******************************************************************************
+*                        GREATER  METROPOLITAN ARGOS                         *
+******************************************************************************
+View of City includes parts of connecting areas opened with metro area
+ 
+zima/argosnwterr/rooms/r27----Arch----L1----L2----L3--...(continues below)
+(room in old area, open now)
+ 
+----------------------------------------------------------------
+*************               *******************************
+*************               *******************************
+*** AC1  **ACADEMIE         ******* TEMPLE OF THEMA *******
+***  |   ****               *******************************
+*** AC2  ****                          TH1--TH2--TH3
+     |                                  ^    ^    ^
+...--L4---L5---L6--L7----L----L----L----L11--L12--L13--L----L----L
+                    |    |    |    |    |    |    |    |    |    |
+**************      P----o    o----o----o    o----o----o    o----T
+**************      |    |         |    |         |              |
+**************      P    o    o----o    o    o----o----o    o----T
+**************      |              |              |              |     ********
+************** AX1<<P10--o    o----o----o    o----o----o    o---T10>PH1********
+** TEMPLE ****      |    |    |    |    |    |    |    |    |    |     *TEMPLE*
+**   OF   **** AX2<<P11--o----o----o----o----o----o----o----o---T11>PH2*  OF  *
+**  ARXES ****      |              | \          / | \            |     *PHAROS*
+************** AX3<<P12  o    o    o   \o----o/   o   \o----o   T12>PH3********
+**************      |    |    |    |    |    |    |    |         |     ********
+**************      P----o----o----o    o----o    o    o    o    T
+**************      |    |    |    |    |    |    |         |    |
+**************      P    o    o    o   /o----o\   o    o----o    T
+**************      |              | /          \ |         |    |
+                    A----A----A----A----A11--A----A----A----A----A
+                  /                     |
+         *****  ARCY     ******   RP1--RP2--RP3        *******
+       *********         *************************************
+       * ARENA *         *********** ROYAL PALACE ************
+        ******           *************************************
+ 
+Rooms in zima/argos/metro/rooms mentioned in greater map:
+Arch  - Arch.c  - Entrance to city; connects to NWTERR which is old/open
+A(xy) - Alpharon Road - aroadXY.c
+L(xy) - Lambdos Road  - lroadXY.c
+P(xy) - Protos  Road  - proadXY.c
+T(xy) - Tetartos Road - troadXY.c
+o     - a room in metro/rooms - see central map for more info
+>>,<<,^^ - Steps leading up to Portico of temples
+ 
+List of room files to be opened/reviewed with the METRO area.
+These rooms needed because they are parts of tours in the METRO area.
+ 
+ACx  = ~zima/argos/academie/rooms/courtX.c    Academie Courtyard
+AXy  = ~zima/argos/arxtemp/rooms/portY.c      Temple of Arxes Portico
+ARCY = ~zima/argos/arena/rooms/court.c        Arena Courtyard
+RPx  = ~zima/argos/palace/rooms/courtX.c      Palace Courtyard
+PHx  = ~zima/argos/phartemp/rooms/portX.c     Temple of Pharos Portico
+THx  = ~zima/argos/themtemp/rooms/portX.c     Temple of Thema Portico
+ 

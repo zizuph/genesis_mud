@@ -1,0 +1,57 @@
+main
+::MAPDATA::
+maggotforest03 40 16 forest
+maggotforest04 40 16 forest
+maggotforest08 40 16 forest
+maggotforest07 40 16 forest
+maggotforest06 40 16 forest
+maggotforest02 40 16 forest
+maggotforest01 40 16 forest
+maggotforest05 40 16 forest
+::MAPDATA::
+
+                                  Annuminas
+                                      O ~~
+                 Hills of Evendium    |  ~~   +---------+
+                                      |   ~~  |THE SHIRE|
+                                       \   ~~ +---------+        Fornost
+                             Greenfields\   ~~                      o
+                                    o----\   ~~~                    |
+                                          \    ~~~                  |
+          ~~                       HOBBITON\     ~~~                |
+         ~~~          Greenholm       O     \      ~~~              |
+       ~~~~               o           |     |Frogmorton             |   BREE
+     GREY HAVENS       MICHEL DELVING |     o------===--------------+----O---
+   ~~~~~~O---------------------O------+*--\/   |  Brandywine        |
+  ~~~~~~~                      |Three Farthing |    Bridge          |
+ ~~~~~~~       \               |    Stone      o   ~~~     Barrow   |
+ ~~~~~          o         Hard o            Whitfurrows     Downs   |
+ ~~~    Rockfriends      bottle \----\            ~~~               |
+ ~~                                   \--------- ~~~ o--------------\
+ ~                                             ~~~  Sarn Ford        \
+          Blue Mountains                     ~~~                      \
+                                           ~~~                         \
+
+::NEWMAP::
+forest
+::MAPDATA::
+maggotforest03 13 6
+maggotforest04 9 6
+maggotforest08 9 8
+maggotforest07 13 8
+maggotforest06 17 8
+maggotforest02 17 6
+maggotforest01 21 6
+maggotforest05 21 8
+::MAPDATA::
+
+
+
+##################################
+##########      ##################
+#######      |          ##########
+#######  o - o - o - o  ##########
+#######  |   |   |   |  ##########
+#######  o - o - o - o  ##########
+#######                 ##########
+##################################

@@ -1,0 +1,51 @@
+Below is a list of all herbs from Faerun. Most herbs can be used in other domains
+except for those designated as Restricted.
+Finwe, February 2009
+
+Herb                Terrain         Effect                Value
+-------------------------------------------------------------------------------
+Amaranth            Grasslands      Health                110
+Angelica            Temperate       Cures Poisons          75
+Bee Balm            Temperate       Cures Panic            50
+Black Rush          Coastal         None
+Borage              Temperate       Cures Fatigue, hp      20, 40
+Buttercup           Grasslands      Poisonous              15
+Dead Man's Fingers  Saltwater       Health                 20
+Feather Boa Kelp    Saltwater       Fatigue                20
+Footleaf            Temperate       Fatigue                20
+Gylvir              Coastal         Breathe Underwater
+Lavender            Temperate       Health                 10
+Lobelia             Grasslands      Cures Poison           30
+Oede                Restricted      hp(50), fatigue(20)
+Red Alga            Saltwater       Health                 20
+Sea Grape           Coastal         See Invisible
+Valerian            Temperate       Cures Panic            50
+
+Mushrooms
+---------
+Oyster          Forests             hp                     15
+Button          Grasslands          hp                      5
+Portabello      Grasslands          hp                     20
+
+
+Underdark
+All these herbs are restricted to Faerun unless used in other
+Underdark/Utterdark areas in the game.
+---------
+Sun Stones      hp          10
+Angel Tears     hp          20
+Marymoor        intox.      25
+Firemoss        Fire        10
+Bloodfruit      hp          20
+Sussur          Enh. Magic  30
+Ripplebark      hp          20
+Selevon         Wis         30
+Adildra         mana         5
+Illavina        mana         5
+Osarni          Fatigue      5
+Lorea           None
+Carolden        hp           1
+Maicari         poisonous   25
+Ranindir        Fatigue      2
+Bellarnon       Fatigue      5
+Glowcap         Enhance Int 23

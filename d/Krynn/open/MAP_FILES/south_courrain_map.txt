@@ -1,0 +1,672 @@
+main
+::MAPDATA::
+s_courrain-16-0-B 65 10 south_courrain
+s_courrain-17-0-B 65 10 south_courrain
+s_courrain-18-0-B 65 10 south_courrain
+s_courrain-16-1-B 65 10 south_courrain
+s_courrain-17-1-B 65 10 south_courrain
+s_courrain-18-1-B 65 10 south_courrain
+s_courrain-16-2-B 65 10 south_courrain
+s_courrain-17-2-B 65 10 south_courrain
+s_courrain-18-2-B 65 10 south_courrain
+s_courrain-16-3-B 65 10 south_courrain
+s_courrain-17-3-B 65 10 south_courrain
+s_courrain-18-3-B 65 10 south_courrain
+s_courrain-16-4-B 65 10 south_courrain
+s_courrain-17-4-B 65 10 south_courrain
+s_courrain-18-4-B 65 10 south_courrain
+s_courrain-16-5-B 65 10 south_courrain
+s_courrain-17-5-B 65 10 south_courrain
+s_courrain-18-5-B 65 10 south_courrain
+s_courrain-16-6-B 65 10 south_courrain
+s_courrain-17-6-B 65 10 south_courrain
+s_courrain-18-6-B 65 10 south_courrain
+s_courrain-16-7-B 65 10 south_courrain
+s_courrain-17-7-B 65 10 south_courrain
+s_courrain-18-7-B 65 10 south_courrain
+s_courrain-16-8-B 65 10 south_courrain
+s_courrain-17-8-B 65 10 south_courrain
+s_courrain-18-8-B 65 10 south_courrain
+s_courrain-16-9-B 65 10 south_courrain
+s_courrain-17-9-B 65 10 south_courrain
+s_courrain-18-9-B 65 10 south_courrain
+s_courrain-16-10-B 65 10 south_courrain
+s_courrain-17-10-B 65 10 south_courrain
+s_courrain-18-10-B 65 10 south_courrain
+s_courrain-19-7-p 67 10 south_courrain
+s_courrain-20-7-p 67 10 south_courrain
+s_courrain-21-7-p 67 10 south_courrain
+s_courrain-22-7-p 67 10 south_courrain
+s_courrain-23-7-p 67 10 south_courrain
+s_courrain-24-7-p 67 10 south_courrain
+s_courrain-16-11-B 64 12 south_courrain2
+s_courrain-17-11-B 64 12 south_courrain2
+s_courrain-18-11-B 64 12 south_courrain2
+s_courrain-16-12-B 64 12 south_courrain2
+s_courrain-17-12-B 64 12 south_courrain2
+s_courrain-18-12-B 64 12 south_courrain2
+s_courrain-14-12-B 61 14 south_courrain2
+s_courrain-15-12-B 61 14 south_courrain2
+s_courrain-16-12-B 62 14 south_courrain2
+s_courrain-17-12-B 62 14 south_courrain2
+s_courrain-18-12-B 63 14 south_courrain2
+s_courrain-19-12-B 63 14 south_courrain2
+s_courrain-20-12-B 64 14 south_courrain2
+s_courrain-21-12-B 64 14 south_courrain2
+s_courrain-12-13-c 61 16 south_courrain2
+s_courrain-13-13-c 61 16 south_courrain2
+s_courrain-14-13-c 62 16 south_courrain2
+s_courrain-15-13-c 62 16 south_courrain2
+s_courrain-16-13-c 63 16 south_courrain2
+s_courrain-17-13-c 63 16 south_courrain2
+s_courrain-18-13-c 64 16 south_courrain2
+s_courrain-19-13-c 64 16 south_courrain2
+s_courrain-20-13-d 67 16 south_courrain2
+s_courrain-21-13-d 67 16 south_courrain2
+s_courrain-20-14-d 67 17 south_courrain2
+s_courrain-21-14-d 67 17 south_courrain2
+s_courrain-18-15-e 67 18 south_courrain2
+s_courrain-19-15-s 67 18 south_courrain2
+s_courrain-20-15-s 67 18 south_courrain2
+s_courrain-21-15-s 67 18 south_courrain2
+s_courrain-22-15-s 67 18 south_courrain2
+s_courrain-23-15-s 67 18 south_courrain2
+s_courrain-24-15-s 67 18 south_courrain2
+s_courrain-18-16-e 67 18 south_courrain2
+s_courrain-19-16-s 67 18 south_courrain2
+s_courrain-20-16-s 67 18 south_courrain2
+s_courrain-21-16-s 67 18 south_courrain2
+s_courrain-22-16-s 67 18 south_courrain2
+s_courrain-23-16-s 67 18 south_courrain2
+s_courrain-24-16-s 67 18 south_courrain2
+s_courrain-3-17-h 67 19 south_courrain2
+s_courrain-18-17-e 67 19 south_courrain2
+s_courrain-19-17-s 67 19 south_courrain2
+s_courrain-20-17-s 67 19 south_courrain2
+s_courrain-21-17-s 67 19 south_courrain2
+s_courrain-22-17-s 67 19 south_courrain2
+s_courrain-23-17-s 67 19 south_courrain2
+s_courrain-24-17-s 67 19 south_courrain2
+s_courrain-25-17-s 67 19 south_courrain2
+s_courrain-0-18-h 51 19 south_courrain2
+s_courrain-1-18-h 51 19 south_courrain2
+s_courrain-2-18-h 51 19 south_courrain2
+s_courrain-3-18-h 51 19 south_courrain2
+s_courrain-4-18-h 51 19 south_courrain2
+s_courrain-9-18-g 64 19 south_courrain2
+s_courrain-10-18-g 64 19 south_courrain2
+s_courrain-11-18-g 64 19 south_courrain2
+s_courrain-12-18-f 64 19 south_courrain2
+s_courrain-13-18-f 64 19 south_courrain2
+s_courrain-18-18-e 67 19 south_courrain2
+s_courrain-19-18-s 67 19 south_courrain2
+s_courrain-20-18-s 67 19 south_courrain2
+s_courrain-21-18-s 67 19 south_courrain2
+s_courrain-22-18-s 67 19 south_courrain2
+s_courrain-23-18-s 67 19 south_courrain2
+s_courrain-24-18-s 67 19 south_courrain2
+s_courrain-25-18-s 67 19 south_courrain2
+s_courrain-0-19-i 51 19 south_courrain2
+s_courrain-1-19-h 51 19 south_courrain2
+s_courrain-2-19-h 51 19 south_courrain2
+s_courrain-3-19-h 51 19 south_courrain2
+s_courrain-4-19-h 51 19 south_courrain2
+s_courrain-5-19-h 51 19 south_courrain2
+s_courrain-6-19-h 51 19 south_courrain2
+s_courrain-7-19-g 64 19 south_courrain2
+s_courrain-8-19-g 64 19 south_courrain2
+s_courrain-9-19-s 64 19 south_courrain2
+s_courrain-10-19-s 64 19 south_courrain2
+s_courrain-11-19-s 64 19 south_courrain2
+s_courrain-12-19-s 64 19 south_courrain2
+s_courrain-13-19-s 64 19 south_courrain2
+s_courrain-14-19-f 67 19 south_courrain2
+s_courrain-15-19-f 67 19 south_courrain2
+s_courrain-16-19-f 67 19 south_courrain2
+s_courrain-17-19-f 67 19 south_courrain2
+s_courrain-18-19-f 67 19 south_courrain2
+s_courrain-19-19-s 67 19 south_courrain2
+s_courrain-20-19-s 67 19 south_courrain2
+s_courrain-21-19-s 67 19 south_courrain2
+s_courrain-22-19-s 67 19 south_courrain2
+s_courrain-23-19-s 67 19 south_courrain2
+s_courrain-24-19-s 67 19 south_courrain2
+s_courrain-25-19-s 67 19 south_courrain2
+s_courrain-26-19-x 67 23 south_courrain2
+s_courrain-27-19-x 67 23 south_courrain2
+s_courrain-28-19-y 67 23 south_courrain2
+s_courrain-1-20-i 51 23 south_courrain2
+s_courrain-2-20-i 51 23 south_courrain2
+s_courrain-3-20-i 51 23 south_courrain2
+s_courrain-4-20-i 51 23 south_courrain2
+s_courrain-5-20-h 51 23 south_courrain2
+s_courrain-6-20-s 51 23 south_courrain2
+s_courrain-7-20-s 64 23 south_courrain2
+s_courrain-8-20-s 64 23 south_courrain2
+s_courrain-9-20-s 64 23 south_courrain2
+s_courrain-10-20-s 64 23 south_courrain2
+s_courrain-11-20-s 64 23 south_courrain2
+s_courrain-12-20-s 64 23 south_courrain2
+s_courrain-13-20-s 64 23 south_courrain2
+s_courrain-14-20-s 67 23 south_courrain2
+s_courrain-15-20-s 67 23 south_courrain2
+s_courrain-16-20-s 67 23 south_courrain2
+s_courrain-17-20-s 67 23 south_courrain2
+s_courrain-18-20-s 67 23 south_courrain2
+s_courrain-19-20-s 67 23 south_courrain2
+s_courrain-20-20-s 67 23 south_courrain2
+s_courrain-21-20-s 67 23 south_courrain2
+s_courrain-22-20-s 67 23 south_courrain2
+s_courrain-23-20-s 67 23 south_courrain2
+s_courrain-24-20-s 67 23 south_courrain2
+s_courrain-25-20-s 67 23 south_courrain2
+s_courrain-26-20-s 67 23 south_courrain2
+s_courrain-27-20-s 67 23 south_courrain2
+s_courrain-28-20-y 67 23 south_courrain2
+s_courrain-5-21-i 51 23 south_courrain2
+s_courrain-6-21-i 51 23 south_courrain2
+s_courrain-7-21-s 64 23 south_courrain2
+s_courrain-8-21-s 64 23 south_courrain2
+s_courrain-9-21-s 64 23 south_courrain2
+s_courrain-10-21-s 64 23 south_courrain2
+s_courrain-11-21-s 64 23 south_courrain2
+s_courrain-12-21-s 64 23 south_courrain2
+s_courrain-13-21-s 64 23 south_courrain2
+s_courrain-14-21-s 67 23 south_courrain2
+s_courrain-15-21-s 67 23 south_courrain2
+s_courrain-16-21-s 67 23 south_courrain2
+s_courrain-17-21-s 67 23 south_courrain2
+s_courrain-18-21-s 67 23 south_courrain2
+s_courrain-19-21-s 67 23 south_courrain2
+s_courrain-20-21-s 67 23 south_courrain2
+s_courrain-21-21-s 67 23 south_courrain2
+s_courrain-22-21-s 67 23 south_courrain2
+s_courrain-23-21-s 67 23 south_courrain2
+s_courrain-24-21-s 67 23 south_courrain2
+s_courrain-25-21-s 67 23 south_courrain2
+s_courrain-26-21-s 67 23 south_courrain2
+s_courrain-27-21-s 67 23 south_courrain2
+s_courrain-28-21-y 67 23 south_courrain2
+s_courrain-8-22-i 64 23 south_courrain2
+s_courrain-9-22-z 64 23 south_courrain2
+s_courrain-10-22-z 64 23 south_courrain2
+s_courrain-11-22-z 64 23 south_courrain2
+s_courrain-12-22-z 64 23 south_courrain2
+s_courrain-13-22-z 64 23 south_courrain2
+s_courrain-14-22-z 67 23 south_courrain2
+s_courrain-15-22-z 67 23 south_courrain2
+s_courrain-16-22-z 67 23 south_courrain2
+s_courrain-17-22-z 67 23 south_courrain2
+s_courrain-18-22-z 67 23 south_courrain2
+s_courrain-19-22-z 67 23 south_courrain2
+s_courrain-20-22-z 67 23 south_courrain2
+s_courrain-21-22-z 67 23 south_courrain2
+s_courrain-22-22-z 67 23 south_courrain2
+s_courrain-23-22-z 67 23 south_courrain2
+s_courrain-24-22-z 67 23 south_courrain2
+s_courrain-25-22-z 67 23 south_courrain2
+s_courrain-26-22-z 67 23 south_courrain2
+s_courrain-27-22-z 67 23 south_courrain2
+s_courrain-28-22-z 67 23 south_courrain2
+uw1_1 69 24 triton_domain
+uw1_2 69 24 triton_domain
+uw1_3 69 24 triton_domain
+uw2_1 69 24 triton_domain
+uw2_2 69 24 triton_domain
+uw2_3 69 24 triton_domain
+uw3_1 69 24 triton_domain
+uw3_2 69 24 triton_domain
+uw3_3 69 24 triton_domain
+uw4_1 69 24 triton_domain2
+uw4_2 69 24 triton_domain2
+uw4_3 69 24 triton_domain2
+uw5_1 69 24 triton_domain2
+uw5_2 69 24 triton_domain2
+uw5_3 69 24 triton_domain2
+uw6_1 69 24 triton_domain2
+uw6_2 69 24 triton_domain2
+uw6_3 69 24 triton_domain2
+uw7_1 69 24 triton_domain3
+uw7_2 69 24 triton_domain3
+uw7_3 69 24 triton_domain3
+uw8_1 69 24 triton_domain3
+uw8_2 69 24 triton_domain3
+uw8_3 69 24 triton_domain3
+uw9_1 69 24 triton_domain3
+uw9_2 69 24 triton_domain3
+uw9_3 69 24 triton_domain3
+::MAPDATA::
+      N                     
+      ^                                         
+      |                                       _                    _____      
+   <--o-->                                  ,/ \                  /    /      
+      |                              __     |   \,    ,     ,    `\_^_\       
+      =                            _/  \  _/`    |  _/|    /|__     _ '       
+                        __      __/    / |       / /  |   /_  /    / \_       
+                        \ \    /^    [] _|      / /  /`     |/     \   \      
+             ,_          \ |  |^  Kalaman`     /_/  /       '       []Mithas  
+             | \         /^ [] ^           ^        |              /___/      
+             |^@\    Palanthas^      ^    ^        /'              ____       
+             | ^@\       |  ^        ^    ^   ^^  /                \  /       
+     __     /`  ^@|      | ^  []Vingaard     ^^   |                /__\       
+    /^^\    \  ^@ |      | ^    Keep     ^^ Neraka|/\              `  '       
+   /^^^^\    \___/       | ^           ^^^^[ ]    '  \                      
+   \^^^^^|                \ ^      @  ^  ^           |           ,            
+  |\|@__/    _____,        |    ^  @   ,[ ]^^^       |        __/|            
+  |@_/      /     |        |   ^  @@ __|Sanction_  _ `\  _/\_/   |            
+  |/       /@ ^   |        |____/\__/   _/` ^^ | \/ |  []`       |            
+           |@ |\_/                     /   ^^^ |__  \ Flotsam,/| |            
+           | @|___           ____      |  ^^^   ,/   \       | | |            
+           '\_@  /          /    \ { } |  ^ ^   |Port []    /   \|            
+              \_/         ,/  ^  |     '\ ^  ^  Balifor\___/     '            
+                     Solace []   |   _   |^  ^    \                 
+                         / @@   /   | \  \         \                { }   
+                     New Ports[]    |  |_|          \__     
+                        | @@@  \  ,/'           Kurinost[]            
+                       / @@@@@  \_|                 @@@@@@@\ 
+::NEWMAP::
+south_courrain
+::MAPDATA::
+s_courrain-16-0-B 28 8
+s_courrain-17-0-B 33 8
+s_courrain-18-0-B 38 8
+s_courrain-16-1-B 28 10
+s_courrain-17-1-B 33 10
+s_courrain-18-1-B 38 10
+s_courrain-16-2-B 28 12
+s_courrain-17-2-B 33 12
+s_courrain-18-2-B 38 12
+s_courrain-16-3-B 28 14
+s_courrain-17-3-B 33 14
+s_courrain-18-3-B 38 14
+s_courrain-16-4-B 28 16
+s_courrain-17-4-B 33 16
+s_courrain-18-4-B 38 16
+s_courrain-16-5-B 28 18
+s_courrain-17-5-B 33 18
+s_courrain-18-5-B 38 18
+s_courrain-16-6-B 28 20
+s_courrain-17-6-B 33 20
+s_courrain-18-6-B 38 20
+s_courrain-16-7-B 28 22
+s_courrain-17-7-B 33 22
+s_courrain-18-7-B 38 22
+s_courrain-19-7-p 43 22
+s_courrain-20-7-p 48 22
+s_courrain-21-7-p 53 22
+s_courrain-22-7-p 58 22
+s_courrain-23-7-p 63 22
+s_courrain-24-7-p 68 22
+s_courrain-16-8-B 28 24
+s_courrain-17-8-B 33 24
+s_courrain-18-8-B 38 24
+s_courrain-16-9-B 28 26
+s_courrain-17-9-B 33 26
+s_courrain-18-9-B 38 26
+s_courrain-16-10-B 28 28
+s_courrain-17-10-B 33 28
+s_courrain-18-10-B 38 28
+::MAPDATA::
+~%%~              %|% ~~~ ~   ~~   ~~   ~~   ;`,  ~~   ~~   ~~   ~~   -    @ 
+      %/%      %|%     ~ ~~~ ~~~ ~~~ ~~~ ~~ '  '`', ~  Horned~~  ~~~  ;   @@
+                       / ~~   ~~   ~~   ~~   :     ;   ~~   ~~   ~~   :  @@@    
+               %|%       ~~~ ~~~ ~~~ ~~~ ~~~  ;   : ~~  Bay ~~~ ~~~ ~ ;  @@@ 
+                     %/% ~~   ~~   ~~   ~~~  :     ;   ~~   ~~   ~~   '  @@@
+        %|%              ~~~ ~~~ ~~~ ~~~ ~~ ;     ; ~~~ ~~~ ~~~ ~~~   :   @@
+                      %/% ~ ~ ~~ ~ ~~ ~ ~~ ;      `,   ~~   ~~   ~~    ;         
+                    %/%  ~~~ ~~~ ~~~ ~~~  ;         '': ~~~ ~~~  ~, -'' 
+                 %/% ~~ ~~  ~ ~ ~ ~ ~   ~:             `,,'`--'--    /\   /\ 
+                      ~~~ ~~~ ~~~ ~~~ ~~~ ',                        /  \/\
+                %/ % ~~  ~~   ~ ~ ~ ~   ~   :         MITHAS       /    \ \_
+ MAELSTROM             ~~~ ~~~ ~~~ ~~~ ~~~  ',                 /\  /\   /\  \
+   Heart        %|%  ~~ ~~    ~ ~ ~ ~   ~  ,'          /\     /  \/  \ /\
+ of Darkness        ~~~ ~~~ ~~~ ~~~ ~~~  ,'         /\/  \/\ /    \   /  \
+              %/%  % ~~  ~~   ~ ~ ~ ~   :      /\  /  \  /  \   /\   /    \
+             ~       ~~~ ~~~ ~~~ ~~~ ~~~:     /  \/    \ /\    /  \
+           %/% %   % ~~ ~~~   ~ ~ ~ ~   ',   /    \     /  \
+           ~    ~     ~~~ ~~~ ~~~ ~~~ ~~~ :            /    \            ,--
+          %/%  %   % ~~ ~ ~   ~ ~ ~ ~  ~   '--',-- ,               ,----' ~
+         ~       % ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~  ~~   `_-_--_____--'  ~~~ ~~
+       %/%  ~        ~~ ~~    ~ ~ ~ ~   ~ ~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~  ~~ ~ 
+         ~      % ~~ ~~  ~~  ~~~ ~ ~ ~~  ~ ~ ~~ ~ ~ ~ ~~~ ~~  ~~~  ~~ ~~~ ~
+    %/%  ~  %   ~~   ~~ ~~    ~ ~ ~ ~  ~ ~  ~ ~  ~ ~  ~ ~  ~ ~  ~ ~   ~~ ~
+         ~      % ~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~~ Eye of the Bull ~~~ ~~~ ~
+       %/%  ~  ~~~ ~ ~~ ~~    ~ ~ ~ ~   ~ ~~ ~~  ~~~ ~~~ ~~  ~~~ ~~~  ~  ~~
+             ~~   ~~   ~~   ~~~    ~~   ~ ,--'`--,  ~  _ ,--- ' '`-__ ~~ ~ ,
+       %/%  ~  ~~~ ~ ~~ ~~    ~ ~ ~ ~    :       `-- '   ^    ^     ; ~  :
+%/%         ~~   ~~   ~~   ~~~    ~~      ;  ^               ^       `--`
+  %/%  %/% ~~  ~~~ ~ ~~ ~~    ~ ~ ~ ~    :      ^    KOTHAS       ^   ^
+             ~~   ~~   ~~   ~~~    ~~   ~ ; ^  @@             @@ ^ @@ @
+
+
+::NEWMAP::
+south_courrain2
+::MAPDATA::
+s_courrain-16-11-B 43 6
+s_courrain-17-11-B 45 6
+s_courrain-18-11-B 47 6
+s_courrain-14-12-B 39 8
+s_courrain-15-12-B 41 8
+s_courrain-16-12-B 43 8
+s_courrain-17-12-B 45 8
+s_courrain-18-12-B 47 8
+s_courrain-19-12-B 49 8
+s_courrain-20-12-B 51 8
+s_courrain-21-12-B 53 8
+s_courrain-12-13-c 35 10
+s_courrain-13-13-c 37 10
+s_courrain-14-13-c 39 10
+s_courrain-15-13-c 41 10
+s_courrain-16-13-c 43 10
+s_courrain-17-13-c 45 10
+s_courrain-18-13-c 47 10
+s_courrain-19-13-c 49 10
+s_courrain-20-13-d 51 10
+s_courrain-21-13-d 53 10
+s_courrain-20-14-d 51 12
+s_courrain-21-14-d 53 12
+s_courrain-18-15-e 47 14
+s_courrain-19-15-s 49 14
+s_courrain-20-15-s 51 14
+s_courrain-21-15-s 53 14
+s_courrain-22-15-s 55 14
+s_courrain-23-15-s 57 14
+s_courrain-24-15-s 59 14
+s_courrain-25-15-y 61 14
+s_courrain-18-16-e 47 16
+s_courrain-19-16-s 49 16
+s_courrain-20-16-s 51 16
+s_courrain-21-16-s 53 16
+s_courrain-22-16-s 55 16
+s_courrain-23-16-s 57 16
+s_courrain-24-16-s 59 16
+s_courrain-25-16-y 61 16
+s_courrain-3-17-h 17 18
+s_courrain-18-17-e 47 18
+s_courrain-19-17-s 49 18
+s_courrain-20-17-s 51 18
+s_courrain-21-17-s 53 18
+s_courrain-22-17-s 55 18
+s_courrain-23-17-s 57 18
+s_courrain-24-17-s 59 18
+s_courrain-25-17-y 61 18
+s_courrain-0-18-h 11 20
+s_courrain-1-18-h 13 20
+s_courrain-2-18-h 15 20
+s_courrain-3-18-h 17 20
+s_courrain-4-18-h 19 20
+s_courrain-9-18-g 29 20
+s_courrain-10-18-g 31 20
+s_courrain-11-18-g 33 20
+s_courrain-12-18-f 35 20
+s_courrain-13-18-f 37 20
+s_courrain-18-18-e 47 20
+s_courrain-19-18-s 49 20
+s_courrain-20-18-s 51 20
+s_courrain-21-18-s 53 20
+s_courrain-22-18-s 55 20
+s_courrain-23-18-s 57 20
+s_courrain-24-18-s 59 20
+s_courrain-25-18-y 61 20
+s_courrain-0-19-i 11 22
+s_courrain-1-19-h 13 22
+s_courrain-2-19-h 15 22
+s_courrain-3-19-h 17 22
+s_courrain-4-19-h 19 22
+s_courrain-5-19-h 21 22
+s_courrain-6-19-h 23 22
+s_courrain-7-19-g 25 22
+s_courrain-8-19-g 27 22
+s_courrain-9-19-s 29 22
+s_courrain-10-19-s 31 22
+s_courrain-11-19-s 33 22
+s_courrain-12-19-s 35 22
+s_courrain-13-19-s 37 22
+s_courrain-14-19-f 39 22
+s_courrain-15-19-f 41 22
+s_courrain-16-19-f 43 22
+s_courrain-17-19-f 45 22
+s_courrain-18-19-f 47 22
+s_courrain-19-19-s 49 22
+s_courrain-20-19-s 51 22
+s_courrain-21-19-s 53 22
+s_courrain-22-19-s 55 22
+s_courrain-23-19-s 57 22
+s_courrain-24-19-s 59 22
+s_courrain-25-19-s 61 22
+s_courrain-26-19-x 63 22
+s_courrain-27-19-x 65 22
+s_courrain-28-19-y 67 22
+s_courrain-1-20-i 13 24
+s_courrain-2-20-i 15 24
+s_courrain-3-20-i 17 24
+s_courrain-4-20-i 19 24
+s_courrain-5-20-h 21 24
+s_courrain-6-20-s 23 24
+s_courrain-7-20-s 25 24
+s_courrain-8-20-s 27 24
+s_courrain-9-20-s 29 24
+s_courrain-10-20-s 31 24
+s_courrain-11-20-s 33 24
+s_courrain-12-20-s 35 24
+s_courrain-13-20-s 37 24
+s_courrain-14-20-s 39 24
+s_courrain-15-20-s 41 24
+s_courrain-16-20-s 43 24
+s_courrain-17-20-s 45 24
+s_courrain-18-20-s 47 24
+s_courrain-19-20-s 49 24
+s_courrain-20-20-s 51 24
+s_courrain-21-20-s 53 24
+s_courrain-22-20-s 55 24
+s_courrain-23-20-s 57 24
+s_courrain-24-20-s 59 24
+s_courrain-25-20-s 61 24
+s_courrain-26-20-s 63 24
+s_courrain-27-20-s 65 24
+s_courrain-28-20-y 67 24
+s_courrain-5-21-i 21 26
+s_courrain-6-21-i 23 26
+s_courrain-7-21-s 25 26
+s_courrain-8-21-s 27 26
+s_courrain-9-21-s 29 26
+s_courrain-10-21-s 31 26
+s_courrain-11-21-s 33 26
+s_courrain-12-21-s 35 26
+s_courrain-13-21-s 37 26
+s_courrain-14-21-s 39 26
+s_courrain-15-21-s 41 26
+s_courrain-16-21-s 43 26
+s_courrain-17-21-s 45 26
+s_courrain-18-21-s 47 26
+s_courrain-19-21-s 49 26
+s_courrain-20-21-s 51 26
+s_courrain-21-21-s 53 26
+s_courrain-22-21-s 55 26
+s_courrain-23-21-s 57 26
+s_courrain-24-21-s 59 26
+s_courrain-25-21-s 61 26
+s_courrain-26-21-s 63 26
+s_courrain-27-21-s 65 26
+s_courrain-28-21-y 67 26
+s_courrain-8-22-i 27 28
+s_courrain-9-22-z 29 28
+s_courrain-10-22-z 31 28
+s_courrain-11-22-z 33 28
+s_courrain-12-22-z 35 28
+s_courrain-13-22-z 37 28
+s_courrain-14-22-z 39 28
+s_courrain-15-22-z 41 28
+s_courrain-16-22-z 43 28
+s_courrain-17-22-z 45 28
+s_courrain-18-22-z 47 28
+s_courrain-19-22-z 49 28
+s_courrain-20-22-z 51 28
+s_courrain-21-22-z 53 28
+s_courrain-22-22-z 55 28
+s_courrain-23-22-z 57 28
+s_courrain-24-22-z 59 28
+s_courrain-25-22-z 61 28
+s_courrain-26-22-z 63 28
+s_courrain-27-22-z 65 28
+s_courrain-28-22-z 67 28
+::MAPDATA::
+  @/\         ,' ~~ ;      ,' ~~ ~~ ~~ ~~ ~~ ~~  :    ;  ~~ ~~ ~~ ~~ ~~ ~~ ~~ 
+            ,'  ~~ :       ; ~ ~         ~ ~ ~~~ MITHAS  ~ ~~ ~~ ~~ ~~ ~~ ~~~
+  /\     /\  `,  ,'      :' ~ ~           ~  ~~~  "" ~   ~~    Northern    ~~
+        /\     `'  KERN ; ~ ~              ~ ~~ ~~ ~~  ~~   Courrain Ocean  ~
+^      /\      /\     ,' ~ ~ ~  Blood Sea ~  ~~~~:'"'';  ~  ~~ ~ ~~   ~ ~~ ~~
+   /\         /\    /\ :  ~ ~   of Istar  ~  ~~~~`KOTHAS ~~ ~  ~~ ~~ ~  ~~ ~~
+    /\       /\ @@@/\   ;  ~ ~ ~         ~ ~ ~~  `,  , ~  ~       ~  ~~ ~ ~~
+   /\       /\_ @@@/\  ; ~ ~ ~ ~ ~      ~ ~~ ~~ ~~ "" ~  _, Misty  ~~ ~ ~~ ~~
+           /\  \@@/\  ;  ~~ ~~ ~~ ~~ ~~ ~~ ~  ~ ~~ ~~   ;_: Isles  ~ ~~ ~ ~~ 
+               /\/\    '_ ~~ ~~ ~~ ~~ ~~ ~~  ~~~~ ~~ ~      __,   ~ ~ ~~ ~ ~~
+              Ogrebond  [ ] ~~ ~ , ~ ~~ ~~ ~ ~~  ~~ ~~   _,'@ ;  ~~ ~~ ~~ ~~
+         ,               ; ~ ~ ~ ;'-,   ,--'--''; ~ ~  :'@@ ,'  Elian Isles
+;       '  ``',        ,' ~ ~ ~ ; @  ','       , ~ ~ ~  `--'   ~ ~~ ~~ ~~ ~~
+  ;   ,'  ~ ~  ;   Flotsam ~ ~ ;  @@@@        ;  ~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~  
+~  : ; ~ ~ ~ ~  ;       [ ] @''  @@@ ,:      ;  ~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+ ~  ' ~~ ~~ ~~ ~ ;     @@@@@@ GOODLUND      :  ~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+ ~  ~      Port   ;      @@@@@ @@  ;   ;   ,'  ~~ ~~ ~~ ~~    Southern    ~~
+~~ ~  ~~  Balifor [ ]         @   ; ~ ;    :  ~~ ~~ ~~ ~~  Courrain Ocean  ~~
+  ~ :   ~~ ~ ~ ~ ~ ;           __; ~ ;      '  ~~ ~~ ~~ ~~ ~~  ~~ ~~ ~~ ~~ ~~
+__,' ; ~~ ~~ ~~ ~~  ;      @ ,'   ~  ;       :  ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+      ;~ ~ ~ ~ ~ ~ ~',     ,'~ ~ ~ ~ ~`,     : ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ 
+     :  ~ ~ ~ ~ ~ ~   ``'``   ~ ~ ~ ~   `,__; ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+      ;  ~ ~ ~ ~ ~ ~ ~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~' ' '~  ~~ ~~
+       ',   ~ ~ ~ ~ ~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ Leviathan's ~
+         ',  ~ ~ ~ ~ ~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~  ' ' '        ~
+            ',  ~ ~ ~ ~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~     Deep    ~~
+ @@@@@@@@@@@  `-- ,    ~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~  ~' ' '~ ~~ ~~ ~
+@@@@@@@@ Kurinost [ ]--,  ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+@@              @@@@@@@ ',  ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+@@ SILVANESTI  @@@@@@@@@@ `,  ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+
+::NEWMAP::
+triton_domain
+::MAPDATA::
+uw1_1 26 9
+uw1_2 26 13
+uw1_3 26 17
+uw2_1 37 9
+uw2_2 37 13
+uw2_3 37 17
+uw3_1 48 9
+uw3_2 48 13
+uw3_3 48 17
+::MAPDATA::
+
+
+
+                            Southern Courrain Ocean
+
+       ._      ._      ._      ._       ._      ._      ._      ._
+   _.-._)`\_.-._)`\_.-._)`\_.-._)`\_.-._)`\_.-._)`\_.-._)`\_.-._)`\_.-._
+
+
+                                                 
+                                                              o     
+
+   (
+    )         o                                  
+   (
+_.-.__.-._
+          ;                                                         
+         ;     o                                 
+        ;                                                             .-.
+       ;   (                                                          ;
+      ;     )                  LEVIATHAN'S DEEP                      ;
+       ;   (   (                                                    :
+        .__._.-.)                                                   ; 
+               ,`          Territory of the tritons                ;
+               ;                                                  ;
+              ;                                                  ; 
+             ;                                           )      ; 
+            ;                                           (      ;   
+            -__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.
+
+::NEWMAP::
+triton_domain2
+::MAPDATA::
+uw4_1 26 9
+uw4_2 26 13
+uw4_3 26 17
+uw5_1 37 9
+uw5_2 37 13
+uw5_3 37 17
+uw6_1 48 9
+uw6_2 48 13
+uw6_3 48 17
+::MAPDATA::
+
+
+
+                            Southern Courrain Ocean
+
+       ._      ._      ._      ._       ._      ._      ._      ._
+   _.-._)`\_.-._)`\_.-._)`\_.-._)`\_.-._)`\_.-._)`\_.-._)`\_.-._)`\_.-._
+
+
+                                                 
+                                                                    
+
+    
+                                                 
+    
+_.-.__.-._
+          ;                                              o             )
+         ;                     o                                      (
+        ;                                                             .-.
+       ;                  o                                 o         ;
+      ;     )                  LEVIATHAN'S DEEP                      ;
+       ;   (   (                                                    :
+        .__._.-.)                                                   ; 
+               ,`          Territory of the tritons                ;
+               ;                                                  ;
+              ;                              (                   ; 
+             ;                  )             )                 ; 
+            ;                  (             (             (   ;   
+            -__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.
+
+::NEWMAP::
+triton_domain3
+::MAPDATA::
+uw7_1 26 9
+uw7_2 26 13
+uw7_3 26 17
+uw8_1 37 9
+uw8_2 37 13
+uw8_3 37 17
+uw9_1 48 9
+uw9_2 48 13
+uw9_3 48 17
+::MAPDATA::
+
+
+
+                            Southern Courrain Ocean
+
+       ._      ._      ._      ._       ._      ._      ._      ._
+   _.-._)`\_.-._)`\_.-._)`\_.-._)`\_.-._)`\_.-._)`\_.-._)`\_.-._)`\_.-._
+
+
+                                                 
+   o                                                                o
+
+    
+                                                   o
+    
+_.-.__.-._
+          ;                                                             
+         ;                                                          (  
+        ;                                                            ).-.
+       ;                                                    o       ( ;
+      ;        )               LEVIATHAN'S DEEP                      ;
+       ;      (                                                  (  :
+        .__._.-.                                                  ) ; 
+               ,`          Territory of the tritons     o        ( ;
+               ;                                                  ;
+              ;                                     (            ; 
+             ;       (                               )          ; 
+            ;         )                             (          ;   
+            -__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.__.-.

@@ -1,0 +1,18 @@
+Name: Cloud talk
+
+Object: /d/Sparkle/guilds/arcane/spells/cloud_talk.c
+
+Cost:
+
+Skills:
+
+Description: Tier 0 spell (default)
+                 Targets: N/A
+		 Manipulates the wind to form cloud messages. Can
+		 be seen by everyone in the realms, but can only be
+		 understood by fellow seekers.
+
+Requirements:
+    SS_ELEMENT_AIR
+    SS_FORM_CONJURATION
+    Orange

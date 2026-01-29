@@ -1,0 +1,106 @@
+This file will provide you with information on the tax of the occupational part
+of the Lich Priesthood, which is the magical part.
+
+Since the old magical system will be replaced soon (or so I hear), I
+decided to use the rules rules and tax suggested that have been suggested.
+
+Skills:
+
+skill                  - max level - levels taxed - rate - tax
+
+SS_SPELLCRAFT              90            70         .016   1.12
+SS_ELEMENT_DEATH           90            90         .016   1.44  
+SS_FORM_ILLUSION           50            50         .016   0.80
+SS_FORM_TRANSMUTATION      70            90         .016   1.44     
+SS_FORM_CONJURATION        80            90         .016   1.44
+SS_FORM_DIVINATION         30            30         .016   0.48
+SS_HERBALISM               80            60         .016   0.96
+SS_LANGUAGE                80            30         .016   0.48
+SS_ALCHEMY                 50            30         .016   0.48
+SS_POLEARM                 65            35         .025   0.88
+
+total skill number: 685
+total skill number taxed: 610
+
+skill total: 9.52%
+
+Spells:
+
+                                            tax 
+-----Initiate Priests----------------------
+summon crow - 1             trans/death     .2            
+
+summon spectre - 2          conj/death      .3
+create darkness - 2         trans/death     .3           
+infravision - 2             trans/death     .3           
+corpse scream - 2           divi/death      .3
+tax:                                        1.4
+
+-----Apprentice Priests-------------------------
+
+detect alignment - 2        divi/earth      .3           
+identify magic item - 2     divi/earth      .3           
+
+&create putrid fungus - 3    conj/water     .3           
+*black plague - 3            conj/death     .3           
+*fear - 3                    conj/death     .3           
+unholy runes - 3             trans/death    .3           
+tax:                                       1.8
+
+-----Lesser Priests-----------------------------
+know name    - 3             divi/death     .3
+&resist fire - 3             conj/water     .3           
+
+second life - 4              conj/death     .4
+*unholy fire - 4             trans/fire     .4           
+&reverse poison - 4          conj/death     .4           
+*hands of doom - 4           conj/death     .4           
+tax:                                       2.2
+
+---------For Greater Lichs --------------------------
+
+*shadow defense - 4          conj/death     .4           
+&resist death - 4            conj/death     .4           
+
+*sphere of death - 5         trans/death    .5           
+*bone shield - 5             conj/death     .5           
+*life drain - 5              trans/death    .5           
+*shadow drain - 5            trans/death    .5           
+tax:                                       2.8
+
+--------For High Warlocks ----------------------
+ 
+animate corpse - 6           trans/death    .6           
+banshee wail - 6             conj/death     .6           
+tax:                                       1.2     
+
+* combat spell, can be cast in combat
+& create a potion to drink or use
+
+# of spells: 22
+# of attack spells:  5
+# of defense spells: 6
+
+
+-- Spells total --
+grand total:        1.4 + 1.8 + 2.2 + 2.8 + 1.2 = 9.4%
+
+initiate: 1.4%
+apprentice: 3.2%
+lesser: 5.4%
+greater: 8.2%
+master: 9.4%
+
+Total spell tax: 9.4%
+Total skill tax: 8.48%
+Guild/Other tell-line: 4%
+Herb shop: 1%
+
+Total tax for guild:
+(members won't be restricted as far as how high skills can train)
+
+initiate: 14.88% -> 15%
+apprentice: 16.68% -> 17%
+lesser: 18.88% -> 19%
+greater: 21.68% -> 22%
+master: 22.88% -> 23%

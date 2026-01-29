@@ -1,0 +1,6 @@
+#define BASE                   "/d/Calia/khail/new_death/death/"
+#define DEATH                  BASE + "death"
+#define DEATH_MARK             BASE + "death_mark"
+#define DEATH_MARK_NAME        "death_mark"
+#define DEATH_ROOM             BASE + "death_room"
+#define LARS                   BASE + "lars"

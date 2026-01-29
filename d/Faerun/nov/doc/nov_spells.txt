@@ -1,0 +1,51 @@
+ 
+                                 : NOV SPELLS :
+
+
+                                   -STRONG-
+==============================================================================
+Name        |Ct |Manacost |Components           | Effect
+==============================================================================
+Venomspike  |3  |50       |Hemlock, wood spirit |Nuke, 3/270, intoxication 5.
+------------------------------------------------------------------------------
+Wraithform  |5  |80       |Shard, curugwath     |25% melee damage absorbtion.
+------------------------------------------------------------------------------
+Deathcoil   |1  |25, 5/25 |Nerulla potion, rib  |Sustained lifedrain,5/150/150
+------------------------------------------------------------------------------
+
+
+                                 -INTERMEDIATE-
+==============================================================================
+Regeneration|3  |50, 5/35 |Otawine potion, shard |Sustained heal, 5/300.
+------------------------------------------------------------------------------
+Bonedust    |3  |40       |skulldust, onyxdust   |Uncovers all invis chars.
+------------------------------------------------------------------------------
+Ghostlink   |3  |50, 30/10|Skulls                |Chat relay, unique.         
+------------------------------------------------------------------------------
+
+
+                                    -WEAK-
+==============================================================================
+Scrutinize  |3  |50       |Skull                 |Scry 1 distant target.
+------------------------------------------------------------------------------
+Darkvision  |4  |40       |Chrimin Potion        |See in darkness, 2 levels.
+------------------------------------------------------------------------------
+Fear        |3  |50       |skull, Kneecap        |Makes a target to flee.
+------------------------------------------------------------------------------
+Planetravel |20 |50       |No components         |Summons a portal to guild
+------------------------------------------------------------------------------
+
+Explanation, an example, Deathcoil : Deathcoil has a Ct (castingtime) on 1
+second to summon the coil. It costs 25 initial mana, then the coil draws
+25 mana each 5 seconds as long as the coil is present. The coil does at cap
+effect 5/150/150. This means the first numbers is in seconds, the time
+before each 'tick' of lifedrain. 150/150 means the total effect. Combined
+its 300, but since its a lifedrain, it drains 150 life from the target and
+heals the caster 150 per 5 seconds, that costs 25 mana per 5 seconds.
+
+The Regeneration spell costs 50 upon casting, then costs 35 mana per 5 seconds
+as long as the duration endures, and heals the caster for max 300 hp per
+5 seconds. Its a healing over time spell, and significantly more inefficient
+than the regulary heal, but I thought the different effect was cooler and
+different than the regular spam.
+

@@ -1,0 +1,157 @@
+Crafthalls of Khalakhor
+
+The crafthalls are a 'complimentary' guild for the Clans of Khalakhor.
+The crafthalls exist in two forms, occupational and layman, and their
+guildhalls will all be located in various cities/villages scattered
+around the domain.
+
+LAYMAN:
+------
+The layman crafthalls are their most basic form. They will be a place
+where anyone can join for some rudimentry skills and abilities in the
+related craft. There are no alignment restrictions, no race restrictions,
+and no entrance requirements of any kind to be met. All a player ever
+has to do is find the crafthall and type 'join'. If they can't manage
+that, they probably shouldn't be playing *grin*. Players who join a
+crafthall are referred to as craftsmen, and recieve appropriate titles
+and emotes, as well as the advantages described below:
+
+  Adventuring-related crafthalls:
+  * Fighters: A fairly simple fighter's guild with no special skills,
+      and average mudlib-selected skills. The one advantage is that
+      it will train in all weapon types, but with a limit on the amount
+      that a player can gain. I.e. the player can pick which weapon
+      skill he/she wants to 'specialize' with.
+  * Pipers: Bagpipers, Khalakhor's version of minstrels or bards.
+      They'll have no combat abilities, but will be quite knowledgable
+      in domain lore and language, and when piping, might provide
+      some 'encouragement' for their team members.
+  * Healers: The healers are a rather unique crafthall, they gain
+      no combat advantage, except for a moderate defense as their
+      'profession' often takes them to dangerous places, and only
+      that because there's no 'run away!' skill. They are what they
+      sound like, healers and nothing else, specializing in the use
+      of herbs and potions to heal players and identify/cure poisons.
+  * Trackers: A strange little guild, the trackers are similar to 
+      rangers, but not much good in a fight. They can follow almost
+      any track, so get according skill. Also their proximity to their
+      target sometimes require good sneaking/hiding. In addition, they
+      can be good hunters for wild game. Most frequently used as
+      bounty hunters, tracking wanted people down and providing their
+      location to their employers.
+
+  True craftsmen:
+  * Masons: Your basic stone-worker. They'll be largely useless in
+      combat situations, though they are good with clubs (hammers) and
+      recieve appropriate training to lay levels. They'll also be able
+      to do little things like carve statues and possibly be paid for
+      labour doing repairs in villages around the domain.
+  * Carpenters: Identical to masons except they work with wood instead
+      of stone.
+  * Miners: Pretty much self-explanatory in what they do. They'll
+      have no combat abilities, except club skill (hammers). They
+      don't have a lot of uses, except as labour in any of the mines
+      and quarries in Khalakhor. Frequently hired by masons, armourers
+      and smiths for materials.
+  * Gem-cutters: The gem cutters get no combat advantages at all,
+      not even the hammer training of most of the crafthalls. Their
+      only ability is in the appraisel and cutting of gemstones,
+      making jewelry, etc. The only real advantage for players is
+      a way to turn a profit, as they may be commissioned to make
+      a piece of jewelry or cut a raw gem for someone.
+  * Tanners: Leather-workers. No combat abilities, except for a decent
+      knife skill for detailed leather-working. They train in how
+      to turn animal hides into good-quality leather products like
+      backpacks, scabbards, boots, clothing, etc. and can turn a
+      profit doing so.
+  * Blacksmith: Much like the masons, except their speciality is 
+      related to repairing things made of iron and steel. Mainly tools
+      and utensils, like barrel hoops, shovels, horseshoes, etc.,
+      though they'll be able to do a little work on weapons.
+  * Bladesmith: Much like the blacksmiths, except they specialize in
+      swords, knives and axes. Only weapon training is club because
+      of time with hammers, but they'll be able to appraise how good
+      weapons are. As with many crafthalls, they might be able to 
+      work for money in various places around the domain. Their
+      ability does not extend to magic weapons.
+  * Armourers: Pretty much identical to the bladesmiths, except they
+      specialize in armour.
+
+OCCUPATIONAL (upgraded):
+------------
+Every layman crafthall also has an occupational option. This is not
+as easy to join as the layman branch. As the crafthalls are intended
+to provide a 'means of income' to a player by basically freelancing
+or mercenary means, they are frequently visited by the same
+employers time and time again. In Khalakhor, the employers will
+typically be by clans who have had previous experience with the
+craftsman and trusts him/her enough to do the job right. If this
+trust is high enough, and the craftsman is willing, the option
+exists for him or her to swear allegiance to a clan (same restrictions
+as joining a clan) to serve them completely. Doing so will upgrade
+the player from a layman member of their craft to an occupational
+member. This has a few effects:
+
+  1: Upgrading frees up the layman slot.
+  2: The craftsman who enjoyed the freedom of no allegiences and
+     could work for anyone is now restricted to working only for
+     the Clan. Some freelancing is still permissible, but the Clan
+     will be within their right to revoke the craftsman's status,
+     so he or she must be careful of this.
+  3: The craftsman still has the right to the resources of the
+     crafthall, and is treated with respect there. However, many
+     of the resources available in the crafthall will be inferior
+     to those obtainable in the Clan village, and the craftsman
+     may prefer to remain there for work.
+  4: If the crafthall is unrepresented in the clan's village, the
+     craftsman may choose to bring one or two apprentice craftsmen
+     (who may be occu or lay members of the craft) to the clan village
+     and form a chapterhouse of their craft there. This requires the
+     permission of the clan thane, however.
+  5: Any relevant skills and abilities will increase with occupational
+     upgrade, and is effective in any related crafthall.
+  6: When an occupational craftsman leaves his or her clan, they
+     will be returned to the layman branch, if possible, will the
+     maximum allowable lay ranking. They will lose all priviledges
+     extended to them by their Clan.
+
+OCCUPATIONAL (only occ crafthalls):
+----------------------------------
+While uncommon, there are a couple crafthalls which are only
+occupational, planned at the moment (though the idea may be
+scrapped). They are treated fairly closely as upgrades from layman
+crafts to occupational, except there is layman branch to fall back
+on if they choose or are forced to leave. No village chapterhouses
+exist in the clan villages for these crafthalls, nor can they be
+formed by the player. They each have only one crafthall, probably
+scattered in cities across the domain. Membership to these
+halls usually requires a pre-existing allegiance to a clan before
+joining the crafthall, and permission from the master of the hall
+is required before joining.
+
+  * Assassins: Obvious by their name, these craftsmen are hired
+      killers. A pure fighter guild, assassins pledge allegiance
+      first to the crafthall, second to the clan to which they are
+      pledged. Life as an assassin can be quite brief, as orders
+      from the crafthall must be obeyed on penalty of death, even
+      if following the orders means expulsion from the clan. In
+      either case, it's a lose-lose situation. No assassin except
+      for the head of the crafthall knows any other, and even then
+      only by code-names. They bear no title, no emotes, and no
+      visible guild object. Orders are delivered by messengers.
+      Even the thane of the assassin's clan will not know (unless
+      he guesses correctly) the identity of the assassin sworn to
+      his clan. When a thane requires an assassination, he relays
+      a message to the assassin master, who then passes it along
+      to that thane's assassin. They have excellent sneak and hide
+      abilities, though only average combat abilities as otherwise
+      it would raise questions about their identity. They assassinate
+      by means of a poisoned dagger in the back.
+  * Seers: These craftsmen are diviners, and frequently serve as
+      personal advisors to the thane of their clan. They have no
+      combat abilities, but their powers allow them to discern 
+      almost any information they desire, such as magic info of
+      objects, the name of a killer (from the corpse), a person's
+      age, alignment, magical effects they may be under, a person's
+      location, who a person is with, what is transpiring in
+      another room, etc.

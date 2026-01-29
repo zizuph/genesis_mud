@@ -1,0 +1,19 @@
+ ________________________________________________
+|        _                              _        |
+|  o====(_)          Staves            (_)====o  |
+|                                                |
+|      Styles         24gc        Types          |
+|      ------                     -----          |
+|      blackthorn                 staff          |
+|      blackened                  quarterstaff   |
+|      heavy                                     |
+|      studded                                   |
+|      light                                     |
+|      long                                      |
+|      polished                                  |
+|      thick                                     |
+|                                                |
+|        <order> <style1> <style2> <type>        |
+|       _         <check type>          _        |
+| o====(_)                             (_)====o  |
+|________________________________________________|

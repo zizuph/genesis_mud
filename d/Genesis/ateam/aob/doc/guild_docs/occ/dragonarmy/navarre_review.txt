@@ -1,0 +1,197 @@
+Below is the mail Navarre sent for the review. Responses are inline
+with the questions marked by author.
+
+Message: 32
+From   : Navarre
+Subject: Dragonarmy Review and Feedback.
+CC     : Cotillion, Gorboth and Navarre
+Date   : Sun Mar 22 18:49:45 2009
+
+Hi Petros,
+
+I looked through the DA code, and I have some comments!
+
+First of all. Great job! The ideas with the different dragon attacks
+and the intimidate looks a lot better than what I thought when I first
+heard of them. Good stuff.
+
+I will list my questions, suggestions, in no particular order:
+
+1) The wounding created with the impale, my understanding is that it
+   deals damage over time. I hope that means it will also kill if the
+   enemy drops below 1 hitpoint. Is that correct?
+
+[Petros] Yes, that is correct. If the wound kills the person, they will
+         die, just as a poison kills.
+
+[Navarre] Great!
+         
+2) The docs doesn't list intimidate for the Red Army, only for the blue.
+   Is this is a mistake?
+
+[Petros] No, this is not a mistake. The Red Army has autoimpale, and
+         multiple target attacks with breath weapon and wounding
+         attacks. The special thing about the Blue Dragonarmy is
+         that they can maintain their advantage even indoors, at least
+         part of it.
+
+[Navarre] OK, i can accept that.         
+
+3) Autoimpale should be given some leniency as they don't get to use
+   it on all enemies.
+
+   They can only use it on those who attack them, which is by far not
+   the most.
+
+   How bad is the autoimpale now compared to before? 
+
+   The autoimpale has combat aid set to 5 on damage, and 5 on stun, 
+   the docs says 10. So that match.
+
+   Now since the autoimpale cannot be used very often, 120 seconds 
+   delay, and only on those that attack them. It seems like the damage
+   part should give more damage.
+   The stun of 6 seconds I feel is a bit too short, that's 1 combat
+   round. If that's the max effort. That will hit like a big nerf to
+   the current autoimpale.
+
+[Petros] The combat aid is 5%. With 120 seconds that means that the
+         hit that is made is at 24x what a 5% combat aid hit is
+         normally. So it's a pretty heavy hit. As for comparing it
+         with the current autoimpale, I think that we are upping
+         the guild in other ways. Autoimpale as it is today is
+         vastly overpowered with over 20 seconds of stun. 
+
+[Navarre] I would have preferred a little longer stun than 6 seconds.
+          But I guess I can live with this.
+
+4) Can we slap some language on the DAs? Some weapons they favour
+   requires language skill.
+
+[Petros] Can you suggest something? I took the skills list
+         directly from what you sent me before.
+         
+[Navarre] So the Dragonarmy has to learn to speak 'draco', so it makes
+          sense to give them 40 in language skill.
+
+
+5) Could we raise the Defence/Parry 5 more points to match better with
+   the knights?
+
+[Petros] Let's wait to do that until we have ascertained the levels
+         during testing.
+
+[Navarre] Ok, lets wait and see with this one.
+         
+6) What do the DAs have that counter the kheroism?
+   Seems we lack a counter play to the knights in that regard.
+
+
+   Looking at the knights balance.doc I see:
+      "Fatigue and Hit Points portion of the ability don't grant any
+       real aid because the Knight actually ends up losing more than
+       they gain."
+
+   I am not sure if that's an acceptable way of doing it. I can have a
+   2000 hp nuke special for Rda, which is no combat aid if they end 
+   up losing more than that? As in..  maybe hit them for 100 hp 
+   each 5 minutes until I have lost more than 2000 hp?
+
+   The heal is really a big part of the aid of kheroism, that it's
+   not charged with combat aid makes sure that the DA will always 
+   lose to a knight.
+
+   And the knights are also immune to the dragonfear from the DA when
+   you get up in ranks.
+
+   [Petros] DA have a maximum combat aid of 100%. Knights have a
+            normal maximum combat aid of 80% (kattack only). The
+            normal advantage that they have over Knights is the
+            balancing factor that I was thinking for DA vs
+            Knights. They possess a dragon breath attack that
+            bypasses armour, and have great versatility depending
+            on the situation.
+   
+  [Navarre] Let us see how this turns out, we can always revisit.
+
+7) Slash: The docs says 80% combat aid, the code says 75%.
+
+   [Petros] I will correct it so that the code matches the
+            documentation.
+            
+   [Navarre] Great!
+
+8) IMPALE+SLASH: Can we remove the int factor from the equation of
+   what it is based on?
+
+   A lot of the members are goblins, which have low int. So it 
+   seems to punish them by using int. I know that probably had that
+   before but we have been trying to be nice to the guilds we changed
+   to make it work on some of the stats they actually focus on.
+
+   [Petros] It's already weighted very little compared to their
+            other stats. If current DA members have been focusing
+            on it, to remove it from them would seem kind of
+            unfair, no?
+
+   [Navarre] No :) We don't have anyone left in the DA that would
+             have focused on 'int', so I only see this as a positive
+             change. I don't want to penalize anyone from being goblins.
+            
+
+9) Dragonarmy_utility.c: It seems as if you can only get full use 
+   of your combat specials if you are general or high officer.
+
+   I don't like that. 
+
+   There are very limited positions, especially these days with
+   few members.
+
+   I think it should be like it was before that only the weapon 
+   skill is limited based on rank, as well as the size of your 
+   dragon summoned. So to get sup guru weapon, you need to be 
+   officer and have solved the sup guru quest.
+
+   [Petros] The same scheme was used in Knights. In fact, only
+            High Knights have the maximum available combat aid.
+            This provides an incentive to actually rise in
+            the ranks. Becoming an officer isn't a big deal,
+            so most members who desire can achieve almost the
+            maximum, which is required for most of their
+            special attacks.
+            
+  [Navarre] Let us make it Officer to max out. And apply the same
+            for knights.
+
+10) Intimidate:
+
+    We need to find a better description than "You find it a bit
+    difficult to intimidate someone outside.".
+
+    Maybe something like : "Summoning your dragon would be more 
+    intimidating."
+
+    To tell the dragonarmy solder that he cant intimidate his enemy 
+    just because its outside, goes a little against theme, I feel.
+
+    Similarly when intimidating someone on the exclude list it 
+    currently says: Uhh.. You don't dare try and intimidate XXXX.
+
+    I rather we say something like : "You decide not to try 
+    intimidate XXXX as you know it will have no effect."
+ 
+    Or, we could say that you try but that there is no effect. 
+
+    [Petros] Yeah, this was something I had difficulty with, coming
+             up with thematic descriptions. If you have any ideas,
+             let me know, or feel free to rewrite the descriptions.
+             
+11) Impale the docs says: 65 combat aid, but the code says 70.
+
+    [Petros] I'll correct the code to match the documentation.
+    
+I apologize if it seems like a lot of comments. Let us discuss some of the
+points! :)
+Again, great job Petros. Thanks for doing it!
+
+-- Navarre

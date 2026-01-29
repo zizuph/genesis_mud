@@ -1,0 +1,27 @@
+               The City of Gont
+              ---------------------
+
+                         
+                            
+           *******1********     1. drawbridge  
+          *      /|\       *    2. guards tower
+         *    x-x 2 x-x     *   3. post office  
+        *    /        |\    *   4. equipment shop
+       *  x-x x   5 6 4 x-3 *   5. inn
+      *  /  |  \  | |   |   *   6. bank
+      * x   x   x-x-x 7-x 8 *   7. general shop
+      *  \   \ /  |  \ / \| *   8. clothing shop 
+      * 9-x w x   x   x-p x *   9. tower of the lord
+      *  / \|/    |   |\  | *   p. pub
+      * x   x     x   x x-x *   w. warehouses
+      *  \  |         |/  | *  wt. west armed tower
+      *   x-x-x-x x-x-x-w x *  et. east armed tower
+      *  / /|         |\  | *   g. garden   
+      * g-g x         x w x *   *. city wall+moat
+       *     \        |  /  *
+        ***** wt      x-x  *
+                     /    *
+                   et ****
+
+
+

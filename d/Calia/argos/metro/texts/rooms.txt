@@ -1,0 +1,220 @@
+******************************************************************************
+*                            EXPLANATION OF ROOMS                            *
+******************************************************************************
+Many rooms are "simple" which means they have no special commands and are not
+involved in a quest (ie Road rooms). No description of simple rooms is given
+here. See map.txt for a map of these rooms.
+All objects  (OBJ:) are found in ~zima/argos/<area>/objects
+All monsters (NPC:) are found in ~zima/argos/<area>/monsters
+All weapons  (WEP:) are found in ~zima/argos/<area>/weapons
+All armours  (ARM:) are found in ~zima/argos/<area>/armours
+ 
+ZIMA/ARGOS/METRO/ROOMS/*
+------------------------
+aeropagus.c - The Aeropagus is the outdoor open forum of the city. A speaker
+              is cloned here making a speech, as well as 2 citizens. The
+              statue of Argosius (part of Toe Quest) is found here.
+              NPC: speaker.c, citizen.c (2)
+              CMD: 'rub toe of statue' (Toe Quest)
+ 
+amph1.c     - Entrance to the Amphitheatre. Statue of Thema here for Toe
+              Quest.
+              CMD: 'rub toe of statue'
+amph2&3.c   - Amphitheatre seating area. Apprentices of Thespian Guild
+              cleaning up here.
+              NPC: thesp_app.c (1 each)
+amph4.c     - Amphitheatre stage. Accessible only from Thespian guild room,
+              not from seating area. One apprentice here
+              NPC: thesp_app.c
+arch.c      - Statue of Cosmopolitus here, part of toe quest.
+              CMD: 'rub toe of statue'
+aroadXY.c   - Alpharon Road (east/west along south side);
+              NPC: strguard.c (2 each at aroad7.c, aroad11.c, aroad16.c)
+bank.c      - Standard banking functions. Also part of Registry Quest.
+              Player can 'ask bursar for quill'. If the player is on
+              the quest, the Bursar will give him a quill. (Bursar is
+              "behind window" and therefore not a real NPC, only an illusion
+              of the descriptions of the room.)
+              CMD: 'ask bursar for quill'
+              OBJ: reg_quill.c cloned when player on tour and does command
+boardrm.c   - City Boardroom (part of the Visitor's Center)
+              OBJ: ~zima/argos/metro/rooms/boardrm/board.c
+brasswrk.c  - Brass Works Shop. Can buy a lamp or a pair of sheep shears
+              here.
+              CMD: 'buy lamp', 'buy shears'
+              NPC: brassman.c
+              OBJ: brass_lamp.c, sheep_shears.c (when purchased)
+coop.c      - Pigeon Shop. Player can buy messenger pigeon here.
+              CMD: 'buy pigeon' (won't work if keeper not here)
+              NPC: pigeon_keeper.c
+              OBJ: /d/Genesis/obj/pigeon.c (std Genesis pigeon; when bought)
+depot.c     - Depot (called the Strathmos) where transports will leave/arrive
+              to Calia docks.
+droad11.c   - Statue of Basileus found here for toe quest.
+              CMD: 'rub toe of statue'
+              NPC: strguard.c (2)
+droad9&13.c - NPC: citizen.h (2 each)
+empty.c     - "Empty/unused" shop of commercial district. Kretans have moved
+              in to make it a secret hiding place. A player must bust through
+              the door to get in (see proad9.c)
+              NPC: hkrcommander.c (1), hkretan.c (3)
+forge.c     - City Forge. Players can get weapons waxed and sharpened here.
+              (Coding for fixing weapons left in, but not available to
+              players)
+              CMD: 'wax <weapon>', 'sharpen <weapon>', 'mend <weapon>'
+                   (no service given if smith not here)
+              NPC: smith.c
+glasswrk.c  - Glass Works Shop. Glass products can be bought here, including
+              an empty bottle (needed to get grape juice from press in press.c)
+              and an empty vial (needed to get olive oil from press).
+              CMD: 'buy bottle','buy vial'(won't work if glass blower not here)
+              NPC: glass_blower.c
+              OBJ: glass_vial.c, glass_bottle.c (when bought)
+inn.c       - Standard Inn - can buy food. Can also 'rent room' which allows
+              player to used inn2.c as a temp start loc.
+              CMD: 'rent room'->sets prop in player so can do 'start here'
+                     in inn2.c
+                   Standard 'buy food' commands
+                   (no commands work if inn keeper not here)
+              NPC: inn_keeper.c
+inn2.c      - Bedroom of Inn. Can be "rented over night" as a temp start loc.
+              Can get instructions by reading card in the room.
+              CMD: 'start here' - can do if 'rent room' in inn.c
+lib2/4.c    - Library; can read books on History of Argos
+              CMD: 'read <selection>'
+              note: texts of books read are in zima/argos/metro/texts/lib
+lib3.c      - Museum of collection of Alexis travels. Part of Stolen Cassock
+              Quest. Can ask curator 'about theft' and 'about thief' to
+              get info needed to find and return the Cassock here. All
+              commands done in NPC.
+              NPC: curator.c
+libhall2.c  - West Hallway of Library - Statue of Biblionus here for Toe Quest
+              CMD: 'rub toe on statue'
+lroadXY.c   - Lambdos Road (east-west along north side)
+              NPC: strguard.c (2 each at lroad7,10,11,16.c)
+park2/4/6.c - City Park
+              NPC: child.c (2 each)
+park5.c     - City Park. Where Alexis (Quest Master) is cloned
+              NPC: alexis.c
+post.c      - Standard Post Office
+press.c     - Royal Press of Argos. There is a press here which can press
+              grapes into grape juice and olives into olive oil. Grapes
+              are found/picked in ~zima/argos/nwterr/rooms/vyard*.c; olives
+              are found/picked in ~zima/argos/swterr/rooms/ogrove*.c.
+              The player needs an empty bottle (objects/glass_bottle.c) to
+              get grape juice and an empty vial (objects/glass_vial.c) to
+              get olive oil. (If containers not brought, juice/oil runs
+              out on floor). Bottle/vial purchased in rooms/glasswrk.c
+              CMD: 'place grapes in bin','pull lever'
+                   if player has empty bottle, it is replaced with a bottle
+                   of grape juice (objects/grape_juice)
+              CMD: 'place olives in bin','pull lever'
+                   if player has empty vial, a function is called in the
+                   vial to "fill" it (objects/glass_vial.c)
+              OBJ: grape_juice.c, glass_vial.c (obtained as described)
+                   press.c (non-movable furniture)
+proadXY.c   - Protos Road (north-south on west side of town).
+              NPC: citizen.c  (2 each in proad9&13.c)
+              NPC: strguard.c (2 in proad11.c)
+pub.c       - Standard Pub with bartender and 2 barpatrons.
+              CMD: standard pub functions (won't work if bartender not here)
+              NPC: bartender.c, barpatron.c (2)
+sculptor.c  - Sculptor's Studio. Incomplete. In future will have sculptor/
+              painter who can make sculptures and paint pictures. Will
+              be part of a future quest. Now, just a freebie knife is
+              found there.
+              WEP: czdagger.c (1 per reset if not still there)
+shop.c      - Standard Shop.
+              CMD: standard shop commands (won't work if merchant not here)
+              NPC: merchant.c
+shoprm.c    - Inventory of shop; inaccessible by players.
+thesp1.c    - Front room of Thespian guild
+              NPC: thespian.c (3)
+thesp2.c    - Back room of Thespian guild
+              NPC: thespian.c (2)
+                   thespmstr.c - part of New Wine Quest. When a player on th
+                                 quest gives this NPC a bottle of new wine,
+                                 the player has finished the quest.
+toequest.c  - NOT A ROOM - includes functions needed for the Toe Quest.
+              All rooms involved in the Toe Quest include this file.
+              (contains code for 'rub toe on statue' command)
+troad9.c    - Tetartos Road (north-south along east side of town)
+              Empty shop is to the west. No exit available
+              when updated/reset. Player must 'kick boards' repeatedly
+              until the boards break, at which time the 'west' exit to
+              the "empty" shop is opened (see rooms/empty.c)
+troad11.c   - Tetartos Road
+              NPC: strguard.c (2)
+troad13.c   - Tetartos Road
+              NPC: citizen.h (2)
+trroad9.c   - Tritos Road (north-south through middle of town)
+              Statue of Agrarius here for Toe Quest.
+              CMD: 'rub toe on statue' (toe quest cmd)
+              NPC: citizen.c (2)
+trroad11.c  - Tritos Road
+              NPC: strguard.c (2)
+trroad13.c  - Tritos Road
+              NPC: citizen.h(2)
+visitctr.c  - Visitor's Center.
+              Part of Registry Quest. A registry is found on a pedestal here.
+              The player may 'sign registry' if he has a quill
+              (objects/reg_quill) and does 'dip quill in ink'. This solves
+              the quest. The hostess npc may be asked questions about the
+              quill, bursar, etc. Free food is also available.
+              CMD: 'dip quill in ink' - must have quill; set's prop in quill
+                                        that inidicates it has ink on it
+                   'sign registry' - to finish quest. Name and title of
+                                     player recorded in book.
+                   'read registry' - tail() the registry file
+                                     file=~zima/argos/metro/texts/registry
+                                     contains name/title of each person who
+                                     has signed the registry.
+                   'take bachlava from tray' - get free food
+                   'take ouzo from tray'     - get free drink
+              NPC: vcnoble.c
+              OBJ: ouzo.c (4 per reset), bachlava.c (6 per reset)
+                   pedestal.c (non-movable furniture)
+woolwrk.*  - Wool Works Shop.
+             Seamstress here will spin wool into yarn and weave yarn into
+             a new tunic or new cloak (a fee for each service). Part of
+             Grandma Quest- player must take new cloak/tunic to grandama
+             (Giagia) in ~zima/nwterr/rooms/vyardd.c. Need a bale of wool
+             and fee to get a spool of yarn spun. Need a spool of yarn
+             (each) to get a tunic or cloak made. Wool gotten by shearing
+             sheep in ~zima/nwterr/rooms/past*.c. Need shears to shear
+             sheep (objects/sheep_shears.c) which are bought in brasswrk.c
+             CMD: 'ask seamstress to spin wool into yarn'
+                  - take bale of wool and fee from player
+                  - after a performance, gives yarn (objects/yarn) to player
+                  'ask seamstress to weave wool into a cloak/tunic'
+                  - take yarn and fee from player
+                  - after a performance, gives cloak/tunic to player
+            OBJ: yarn.c, new_tunic.c, new_cloak.c
+                 wool_bale.c obtained by use of sheep_shears.c
+ 
+ZIMA/ARGOS/PALACE/ROOMS
+court1.c   - Statue of Paxeus found here, part of toe quest
+             CMD: 'rub toe of statue'
+ 
+ZIMA/ARGOS/ACADEMIE/ROOMS
+court2.c   - Statue of Socartes found here, part of toe quest
+             CMD: 'rub toe of statue'
+ 
+ZIMA/ARGOS/ARENA/ROOMS
+court.c    - Statue of Collisimus found here, part of toe quest
+             CMD: 'rub toe of statue'
+ 
+ZIMA/ARGOS/ARXTEMP/ROOMS
+portX.c    - Portico of temple. Simple rooms
+ 
+ZIMA/ARGOS/THEMTEMP/ROOMS
+portX.c    - Portico of temple. Simple rooms
+ 
+ZIMA/ARGOS/PHARTEMP/ROOMS
+port2/3.c  - Portico of temple. Simple rooms
+port1.c    - Portico of temple. Pharosian Priest cloned here. Part of
+             New Wine quest. Priest will bless a bottle of grape juice
+             (objects/grape_juice) in a player's inventory and turn
+             it into a bottle of new wine
+             NPC: outpriest.c (roams 3 rooms of portico- add_act(north/south)
+             OBJ: new_wine.c - cloned during blessing/spell

@@ -1,0 +1,36 @@
+main
+::MAPDATA::
+bank 9 6
+stairs 13 6
+post 17 6
+makeovers 5 8
+room1 9 8
+room2 13 8
+room3 17 8
+fetish 21 8
+room8 9 10
+room4 17 10
+makeup 5 12
+room7 9 12
+room6 13 12
+room5 17 12
+candy 21 12
+clips 9 14
+perfumery 17 14
+::MAPDATA::
+
+          ========
+          Ziggurat
+          ========
+
+       Bank
+         o  [ ]  o PO
+Makeover |   |   |
+     o - o - o - o - o Shop
+         |       |
+         o       o
+Makeup   |       |
+     o - o - o - o - o Candy
+         |   |   |
+         o       o
+     Hair         Perfume

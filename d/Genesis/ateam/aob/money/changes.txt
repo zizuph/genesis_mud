@@ -1,0 +1,400 @@
+Sun Sep 19 19:50:15 2021 gnocci             2705227         3111     1 pc    9 gc    7 sc    3 cc
+Sun Sep 19 19:52:56 2021 gnocci             2690539       -14688 -   8 pc    6 gc                
+Sun Sep 19 19:52:56 2021 areficent         15553366        42624    24 pc    8 gc                
+Sun Sep 19 19:52:56 2021 riva                864441        13745     7 pc   11 gc    5 sc    5 cc
+Sun Sep 19 20:02:56 2021 colfax              202652          780             5 gc    5 sc        
+Sun Sep 19 20:02:56 2021 areficent         15593684        40318    23 pc    3 gc   11 sc   10 cc
+Sun Sep 19 20:02:56 2021 dhez               2378825       -17286 -  10 pc                    6 cc
+Sun Sep 19 20:02:56 2021 lothmar           38297450        68683    39 pc    8 gc   11 sc    7 cc
+Sun Sep 19 20:12:56 2021 gnocci             2696270         5731     3 pc    3 gc    9 sc    7 cc
+Sun Sep 19 20:12:56 2021 areficent         15634380        40696    23 pc    6 gc    7 sc    4 cc
+Sun Sep 19 20:12:56 2021 paole                52993        -1728 -   1 pc                        
+Sun Sep 19 20:12:56 2021 moghiadin         20696859         -175 -           1 gc    2 sc    7 cc
+Sun Sep 19 20:12:56 2021 nut                5892231       -86416 -  50 pc            1 sc    4 cc
+Sun Sep 19 20:22:56 2021 areficent         15676200        41820    24 pc    2 gc    5 sc        
+Sun Sep 19 20:22:56 2021 brute             13824000         6870     3 pc   11 gc    8 sc    6 cc
+Sun Sep 19 20:22:56 2021 soll              16686066        99747    57 pc    8 gc    8 sc    3 cc
+Sun Sep 19 20:32:56 2021 straag           126351495        18856    10 pc   10 gc   11 sc    4 cc
+Sun Sep 19 20:32:56 2021 gnocci             2714768        18498    10 pc    8 gc    5 sc    6 cc
+Sun Sep 19 20:32:56 2021 nailo            115601606        85132    49 pc    3 gc    2 sc    4 cc
+Sun Sep 19 20:32:56 2021 myst               3121247       -60556 -  35 pc            6 sc    4 cc
+Sun Sep 19 20:32:56 2021 soll              16705938        19872    11 pc    6 gc                
+Sun Sep 19 20:42:56 2021 gnocci             2737164        22396    12 pc   11 gc    6 sc    4 cc
+Sun Sep 19 20:42:56 2021 nailo            115629643        28037    16 pc    2 gc    8 sc    5 cc
+Sun Sep 19 20:42:56 2021 taro               1588914       -16411 -   9 pc    5 gc   11 sc    7 cc
+Sun Sep 19 20:42:56 2021 areficent         15718610        42410    24 pc    6 gc    6 sc    2 cc
+Sun Sep 19 20:42:56 2021 comodino            100109         -212 -           1 gc    5 sc    8 cc
+Sun Sep 19 20:42:56 2021 treo             107225448       -44279 -  25 pc    7 gc    5 sc   11 cc
+Sun Sep 19 20:42:56 2021 zadkiel            3880679        46190    26 pc    8 gc    9 sc    2 cc
+Sun Sep 19 20:52:56 2021 cassius            6032197      -268442 - 155 pc    4 gc    2 sc    2 cc
+Sun Sep 19 20:52:56 2021 olaf                213526         -375 -           2 gc    7 sc    3 cc
+Sun Sep 19 20:52:56 2021 treo             107273662        48214    27 pc   10 gc    9 sc   10 cc
+Sun Sep 19 20:52:56 2021 danec             27089055       146366    84 pc    8 gc    5 sc    2 cc
+Sun Sep 19 20:52:56 2021 pillion           12829301        -3828 -   2 pc    2 gc    7 sc        
+Sun Sep 19 20:52:56 2021 chanele           59011983       110071    63 pc    8 gc    4 sc    7 cc
+Sun Sep 19 21:02:56 2021 olaf                218555         5029     2 pc   10 gc   11 sc    1 cc
+Sun Sep 19 21:02:56 2021 emelie             5287653        40542    23 pc    5 gc    6 sc    6 cc
+Sun Sep 19 21:02:56 2021 druel              1834129           59                     4 sc   11 cc
+Sun Sep 19 21:02:56 2021 treo             107273981          319             2 gc    2 sc    7 cc
+Sun Sep 19 21:12:56 2021 straag           126370412        18917    10 pc   11 gc    4 sc    5 cc
+Sun Sep 19 21:12:56 2021 olaf                221342         2787     1 pc    7 gc    4 sc    3 cc
+Sun Sep 19 21:12:56 2021 treo             107329444        55463    32 pc    1 gc    1 sc   11 cc
+Sun Sep 19 21:22:56 2021 colfax              203801         1149             7 gc   11 sc    9 cc
+Sun Sep 19 21:22:56 2021 olaf                221142         -200 -           1 gc    4 sc    8 cc
+Sun Sep 19 21:22:56 2021 brute             13958784       134784    78 pc                        
+Sun Sep 19 21:22:56 2021 myst               3078045       -43202 -  25 pc                    2 cc
+Sun Sep 19 21:22:56 2021 arnaud              845356        85776    49 pc    7 gc    8 sc        
+Sun Sep 19 21:22:56 2021 soll              16704490        -1448 -          10 gc            8 cc
+Sun Sep 19 21:22:56 2021 pillion           12801442       -27859 -  16 pc    1 gc    5 sc    7 cc
+Sun Sep 19 21:22:56 2021 nils               7274302        38225    22 pc    1 gc    5 sc    5 cc
+Sun Sep 19 21:32:56 2021 alixxar             212651        12352     7 pc    1 gc    9 sc    4 cc
+Sun Sep 19 21:32:56 2021 colfax              214501        10700     6 pc    2 gc    3 sc    8 cc
+Sun Sep 19 21:32:56 2021 olaf                221294          152             1 gc            8 cc
+Sun Sep 19 21:32:56 2021 taro               1622398        33484    19 pc    4 gc    6 sc    4 cc
+Sun Sep 19 21:32:56 2021 nils               7585342       311040   180 pc                        
+Sun Sep 19 21:42:56 2021 alixxar             240421        27770    16 pc           10 sc    2 cc
+Sun Sep 19 21:42:56 2021 mercer              756630         -241 -           1 gc    8 sc    1 cc
+Sun Sep 19 21:42:56 2021 olaf                229167         7873     4 pc    6 gc    8 sc    1 cc
+Sun Sep 19 21:42:56 2021 taro               1678896        56498    32 pc    8 gc    4 sc    2 cc
+Sun Sep 19 21:42:56 2021 soote                72009      -353784 - 204 pc    8 gc   10 sc        
+Sun Sep 19 21:42:56 2021 elovian             113270         9216     5 pc    4 gc                
+Sun Sep 19 21:52:56 2021 alixxar             245996         5575     3 pc    2 gc    8 sc    7 cc
+Sun Sep 19 21:52:56 2021 wynona             1559333        12707     7 pc    4 gc    2 sc   11 cc
+Sun Sep 19 21:52:56 2021 colfax              216184         1683            11 gc    8 sc    3 cc
+Sun Sep 19 21:52:56 2021 taro               1682290         3394     1 pc   11 gc    6 sc   10 cc
+Sun Sep 19 21:52:56 2021 gerey               402468       -51842 -  30 pc                    2 cc
+Sun Sep 19 22:02:56 2021 alixxar             247724         1728     1 pc                        
+Sun Sep 19 22:02:56 2021 colfax              230158        13974     8 pc    1 gc            6 cc
+Sun Sep 19 22:02:56 2021 lothmar           42867925      4570475  2644 pc   11 gc    4 sc   11 cc
+Sun Sep 19 22:12:56 2021 azaezel            1561976        56733    32 pc    9 gc   11 sc    9 cc
+Sun Sep 19 22:12:56 2021 alixxar             248835         1111             7 gc    8 sc    7 cc
+Sun Sep 19 22:12:56 2021 colfax              234876         4718     2 pc    8 gc    9 sc    2 cc
+Sun Sep 19 22:12:56 2021 mackrel           16550177         7628     4 pc    4 gc   11 sc    8 cc
+Sun Sep 19 22:12:56 2021 taro               1704755        22465    13 pc                    1 cc
+Sun Sep 19 22:12:56 2021 ruiroy             3671701         8008     4 pc    7 gc    7 sc    4 cc
+Sun Sep 19 22:22:56 2021 colfax              244076         9200     5 pc    3 gc   10 sc    8 cc
+Sun Sep 19 22:22:56 2021 ruiroy             3679351         7650     4 pc    5 gc    1 sc    6 cc
+Sun Sep 19 22:22:56 2021 zhabou            31853499       754000   436 pc    4 gc    1 sc    4 cc
+Sun Sep 19 22:22:56 2021 myst               3221582       143537    83 pc            9 sc    5 cc
+Sun Sep 19 22:32:56 2021 colfax              250967         6891     3 pc   11 gc   10 sc    3 cc
+Sun Sep 19 22:32:56 2021 dhez               2466063        87238    50 pc    5 gc    9 sc   10 cc
+Sun Sep 19 22:32:56 2021 montagu           73697644         4262     2 pc    5 gc    7 sc    2 cc
+Sun Sep 19 22:32:56 2021 treo             107315319       -14125 -   8 pc    2 gc    1 sc    1 cc
+Sun Sep 19 22:32:56 2021 soll              16841976       137486    79 pc    6 gc    9 sc    2 cc
+Sun Sep 19 22:42:56 2021 colfax              266290        15323     8 pc   10 gc    4 sc   11 cc
+Sun Sep 19 22:42:56 2021 wolverine          4459711       124178    71 pc   10 gc    4 sc    2 cc
+Sun Sep 19 22:42:56 2021 treo             107350730        35411    20 pc    5 gc   10 sc   11 cc
+Sun Sep 19 22:42:56 2021 zarek              4448787        -5226 -   3 pc            3 sc    6 cc
+Sun Sep 19 22:52:56 2021 alixxar             261049        12214     7 pc            9 sc   10 cc
+Sun Sep 19 22:52:56 2021 colfax              269708         3418     1 pc   11 gc    8 sc   10 cc
+Sun Sep 19 22:52:56 2021 gortag             4693896       271268   156 pc   11 gc    9 sc    8 cc
+Sun Sep 19 22:52:56 2021 treo             107388010        37280    21 pc    6 gc   10 sc    8 cc
+Sun Sep 19 22:52:56 2021 zarek              4450671         1884     1 pc    1 gc    1 sc        
+Sun Sep 19 22:52:56 2021 acheron           13157027      -251988 - 145 pc    9 gc   11 sc        
+Sun Sep 19 22:52:56 2021 elovian             120972         7702     4 pc    5 gc    5 sc   10 cc
+Sun Sep 19 23:02:56 2021 colfax              281507        11799     6 pc    9 gc   11 sc    3 cc
+Sun Sep 19 23:02:56 2021 treo             107435901        47891    27 pc    8 gc    6 sc   11 cc
+Sun Sep 19 23:02:56 2021 soll              17120359       278383   161 pc    1 gc    2 sc    7 cc
+Sun Sep 19 23:02:56 2021 pillion           12849739        48297    27 pc   11 gc    4 sc    9 cc
+Sun Sep 19 23:12:56 2021 colfax              285808         4301     2 pc    5 gc   10 sc    5 cc
+Sun Sep 19 23:12:56 2021 montagu           73696865         -779 -           5 gc    4 sc   11 cc
+Sun Sep 19 23:12:56 2021 faraway             936725        10158     5 pc   10 gc    6 sc    6 cc
+Sun Sep 19 23:12:56 2021 aelin               771061       344663   199 pc    5 gc    5 sc   11 cc
+Sun Sep 19 23:12:56 2021 zarek              4456489         5818     3 pc    4 gc    4 sc   10 cc
+Sun Sep 19 23:22:56 2021 alixxar             261481          432             3 gc                
+Sun Sep 19 23:22:56 2021 colfax              294253         8445     4 pc   10 gc    7 sc    9 cc
+Sun Sep 19 23:22:56 2021 gerey               341988       -60480 -  35 pc                        
+Sun Sep 19 23:22:56 2021 aelin               753781       -17280 -  10 pc                        
+Sun Sep 19 23:22:56 2021 zarek              4477819        21330    12 pc    4 gc    1 sc    6 cc
+Sun Sep 19 23:22:56 2021 tyreck            22219046      -106867 -  61 pc   10 gc    1 sc    7 cc
+Sun Sep 19 23:22:56 2021 elovian             131825        10853     6 pc    3 gc    4 sc    5 cc
+Sun Sep 19 23:32:56 2021 colfax              301040         6787     3 pc   11 gc    1 sc    7 cc
+Sun Sep 19 23:32:56 2021 vallimar          44562925         4086     2 pc    4 gc    4 sc    6 cc
+Sun Sep 19 23:32:56 2021 druel              1835882         1753     1 pc            2 sc    1 cc
+Sun Sep 19 23:32:56 2021 zarek              4522925        45106    26 pc    1 gc    2 sc   10 cc
+Sun Sep 19 23:32:56 2021 barek              6581847        23325    13 pc    5 gc   11 sc    9 cc
+Sun Sep 19 23:32:56 2021 radatha             255894        21167    12 pc    2 gc   11 sc   11 cc
+Sun Sep 19 23:32:56 2021 elovian             133385         1560            10 gc   10 sc        
+Sun Sep 19 23:42:56 2021 colfax              314025        12985     7 pc    6 gc    2 sc    1 cc
+Sun Sep 19 23:42:56 2021 treo             107516724        80823    46 pc    9 gc    3 sc    3 cc
+Sun Sep 19 23:42:56 2021 ozxy                   310          236             1 gc    7 sc    8 cc
+Sun Sep 19 23:42:56 2021 thoron               75660      -259260 - 150 pc            5 sc        
+Sun Sep 19 23:42:56 2021 pillion           12888748        39009    22 pc    6 gc   10 sc    9 cc
+Sun Sep 19 23:52:56 2021 cassius            6087438        55241    31 pc   11 gc    7 sc    5 cc
+Sun Sep 19 23:52:56 2021 vallimar          44582684        19759    11 pc    5 gc    2 sc    7 cc
+Sun Sep 19 23:52:56 2021 thane              8703792     -1189146 - 688 pc    1 gc   11 sc    6 cc
+Sun Sep 19 23:52:56 2021 myst               3226233         4651     2 pc    8 gc    3 sc    7 cc
+Sun Sep 19 23:52:56 2021 druel              1837497         1615            11 gc    2 sc    7 cc
+Sun Sep 19 23:52:56 2021 ozxy                  2280         1970     1 pc    1 gc    8 sc    2 cc
+Sun Sep 19 23:52:56 2021 chanele           59038143        26160    15 pc    1 gc    8 sc        
+Sun Sep 19 23:52:56 2021 elovian             139327         5942     3 pc    5 gc    3 sc    2 cc
+Mon Sep 20 00:02:56 2021 thane              8773654        69862    40 pc    5 gc    1 sc   10 cc
+Mon Sep 20 00:02:56 2021 ozxy                  8926         6646     3 pc   10 gc    1 sc   10 cc
+Mon Sep 20 00:02:56 2021 zarek              4562591        39666    22 pc   11 gc    5 sc    6 cc
+Mon Sep 20 00:12:56 2021 talon             22280645       365507   211 pc    6 gc    2 sc   11 cc
+Mon Sep 20 00:12:56 2021 thane              8751876       -21778 -  12 pc    7 gc    2 sc   10 cc
+Mon Sep 20 00:12:56 2021 thoron              147660        72000    41 pc    8 gc                
+Mon Sep 20 00:22:56 2021 thane              8771292        19416    11 pc    2 gc   10 sc        
+Mon Sep 20 00:22:56 2021 tabitha              27683         -109 -                   9 sc    1 cc
+Mon Sep 20 00:22:56 2021 druel              1837897          400             2 gc    9 sc    4 cc
+Mon Sep 20 00:22:56 2021 soote               104553        32544    18 pc   10 gc                
+Mon Sep 20 00:22:56 2021 soll              17165442        45083    26 pc    1 gc           11 cc
+Mon Sep 20 00:32:56 2021 colfax              318211         4186     2 pc    5 gc           10 cc
+Mon Sep 20 00:32:56 2021 zarek              4615500        52909    30 pc    7 gc    5 sc    1 cc
+Mon Sep 20 00:32:56 2021 chanele           59105980        67837    39 pc    3 gc    1 sc    1 cc
+Mon Sep 20 00:32:56 2021 elovian                  0      -139327 -  80 pc    7 gc    6 sc    7 cc
+Mon Sep 20 00:42:56 2021 biff                 40621        -5221 -   3 pc            3 sc    1 cc
+Mon Sep 20 00:42:56 2021 colfax              318998          787             5 gc    5 sc    7 cc
+Mon Sep 20 00:42:56 2021 talon             21848633      -432012 - 250 pc            1 sc        
+Mon Sep 20 00:42:56 2021 thane              8830001        58709    33 pc   11 gc    8 sc    5 cc
+Mon Sep 20 00:42:56 2021 tabitha              25920        -1763 -   1 pc            2 sc   11 cc
+Mon Sep 20 00:42:56 2021 zarek              4613376        -2124 -   1 pc    2 gc    9 sc        
+Mon Sep 20 00:52:56 2021 colfax              320869         1871     1 pc           11 sc   11 cc
+Mon Sep 20 00:52:56 2021 mercer              805518        48888    28 pc    3 gc    6 sc        
+Mon Sep 20 00:52:56 2021 thane              8883505        53504    30 pc   11 gc    6 sc    8 cc
+Mon Sep 20 00:52:56 2021 soote               103977         -576 -           4 gc                
+Mon Sep 20 01:02:56 2021 tabitha              24192        -1728 -   1 pc                        
+Mon Sep 20 01:02:56 2021 zarek              4636653        23277    13 pc    5 gc    7 sc    9 cc
+Mon Sep 20 01:02:56 2021 pillion           12853448       -35300 -  20 pc    5 gc    1 sc    8 cc
+Mon Sep 20 01:12:56 2021 thane              8971124        87619    50 pc    8 gc    5 sc    7 cc
+Mon Sep 20 01:12:56 2021 pillion           12851048        -2400 -   1 pc    4 gc    8 sc        
+Mon Sep 20 01:22:56 2021 rache              7826182        72497    41 pc   11 gc    5 sc    5 cc
+Mon Sep 20 01:22:56 2021 colfax              326769         5900     3 pc    4 gc   11 sc    8 cc
+Mon Sep 20 01:22:56 2021 thane              9025172        54048    31 pc    3 gc    4 sc        
+Mon Sep 20 01:22:56 2021 tor               21904173        33661    19 pc    5 gc    9 sc    1 cc
+Mon Sep 20 01:22:56 2021 pillion           12847445        -3603 -   2 pc    1 gc            3 cc
+Mon Sep 20 01:32:56 2021 thane              9079564        54392    31 pc    5 gc    8 sc    8 cc
+Mon Sep 20 01:32:56 2021 pillion           12852534         5089     2 pc   11 gc    4 sc    1 cc
+Mon Sep 20 01:42:56 2021 thane              9071544        -8020 -   4 pc    7 gc    8 sc    4 cc
+Mon Sep 20 01:42:56 2021 soll              17307681       142239    82 pc    3 gc    9 sc    3 cc
+Mon Sep 20 01:42:56 2021 elovian              15196         2928     1 pc    8 gc    4 sc        
+Mon Sep 20 01:52:56 2021 montagu           73702617         5752     3 pc    3 gc   11 sc    4 cc
+Mon Sep 20 01:52:56 2021 ruiroy             3687167         7816     4 pc    6 gc    3 sc    4 cc
+Mon Sep 20 01:52:56 2021 soll              16276065     -1031616 - 597 pc                        
+Mon Sep 20 01:52:56 2021 pillion           12891040        38506    22 pc    3 gc    4 sc   10 cc
+Mon Sep 20 02:02:56 2021 caranaith          2478520        15112     8 pc    8 gc   11 sc    4 cc
+Mon Sep 20 02:02:56 2021 pillion           12913128        22088    12 pc    9 gc    4 sc    8 cc
+Mon Sep 20 02:12:56 2021 colfax              337340        10571     6 pc    1 gc    4 sc   11 cc
+Mon Sep 20 02:12:56 2021 pillion           12915500         2372     1 pc    4 gc    5 sc    8 cc
+Mon Sep 20 02:22:56 2021 colfax              357429        20089    11 pc    7 gc    6 sc    1 cc
+Mon Sep 20 02:22:56 2021 montagu           73698256        -4361 -   2 pc    6 gc    3 sc    5 cc
+Mon Sep 20 02:22:56 2021 pillion           12913097        -2403 -   1 pc    4 gc    8 sc    3 cc
+Mon Sep 20 02:32:56 2021 colfax              369827        12398     7 pc    2 gc    1 sc    2 cc
+Mon Sep 20 02:42:56 2021 colfax              384942        15115     8 pc    8 gc   11 sc    7 cc
+Mon Sep 20 02:52:56 2021 colfax              393827         8885     5 pc    1 gc    8 sc    5 cc
+Mon Sep 20 02:52:56 2021 caranaith          2507904        29384    17 pc                    8 cc
+Mon Sep 20 02:52:56 2021 pillion           12947855        34758    20 pc    1 gc    4 sc    6 cc
+Mon Sep 20 03:02:56 2021 colfax              398361         4534     2 pc    7 gc    5 sc   10 cc
+Mon Sep 20 03:12:56 2021 colfax              394275        -4086 -   2 pc    4 gc    4 sc    6 cc
+Mon Sep 20 03:22:56 2021 colfax              389706        -4569 -   2 pc    7 gc    8 sc    9 cc
+Mon Sep 20 03:22:56 2021 tor               21972467        68294    39 pc    6 gc    3 sc    2 cc
+Mon Sep 20 03:32:56 2021 colfax              389375         -331 -           2 gc    3 sc    7 cc
+Mon Sep 20 03:32:56 2021 caranaith          2525471        17567    10 pc    1 gc   11 sc   11 cc
+Mon Sep 20 03:42:56 2021 colfax              386851        -2524 -   1 pc    5 gc    6 sc    4 cc
+Mon Sep 20 04:02:56 2021 colfax              367512       -19339 -  11 pc    2 gc    3 sc    7 cc
+Mon Sep 20 04:02:56 2021 pillion           12950052         2197     1 pc    3 gc    3 sc    1 cc
+Mon Sep 20 04:12:56 2021 taro               1722564        17809    10 pc    3 gc    8 sc    1 cc
+Mon Sep 20 04:22:56 2021 colfax              344520       -22992 -  13 pc    3 gc    8 sc        
+Mon Sep 20 04:22:56 2021 gortag             4694029          133                    11 sc    1 cc
+Mon Sep 20 04:22:56 2021 ichabod              17440        15696     9 pc    1 gc                
+Mon Sep 20 04:32:56 2021 colfax              343342        -1178 -           8 gc    2 sc    2 cc
+Mon Sep 20 04:32:56 2021 ichabod              21184         3744     2 pc    2 gc                
+Mon Sep 20 04:42:56 2021 ichabod              26224         5040     2 pc   11 gc                
+Mon Sep 20 04:52:56 2021 ichabod               1744       -24480 -  14 pc    2 gc                
+Mon Sep 20 05:02:56 2021 colfax              343222         -120 -                  10 sc        
+Mon Sep 20 05:02:56 2021 riva                864587          146             1 gc            2 cc
+Mon Sep 20 05:42:56 2021 oleander            265052      -129610 -  75 pc                   10 cc
+Mon Sep 20 05:42:56 2021 gortag             4747617        53588    31 pc            1 sc    8 cc
+Mon Sep 20 05:42:56 2021 ansgar              264864       -11481 -   6 pc    7 gc    8 sc    9 cc
+Mon Sep 20 05:52:56 2021 pottrack             38500         4891     2 pc    9 gc   11 sc    7 cc
+Mon Sep 20 06:02:56 2021 pottrack             48928        10428     6 pc            5 sc        
+Mon Sep 20 06:12:56 2021 pottrack             55944         7016     4 pc            8 sc    8 cc
+Mon Sep 20 06:12:56 2021 saya               4859326        25080    14 pc    6 gc    2 sc        
+Mon Sep 20 06:22:56 2021 taro               1740620        18056    10 pc    5 gc    4 sc    8 cc
+Mon Sep 20 06:22:56 2021 pottrack             50426        -5518 -   3 pc    2 gc    3 sc   10 cc
+Mon Sep 20 06:32:56 2021 colfax              334169        -9053 -   5 pc    2 gc   10 sc    5 cc
+Mon Sep 20 06:32:56 2021 pottrack             53893         3467     2 pc                   11 cc
+Mon Sep 20 06:42:56 2021 pottrack             59528         5635     3 pc    3 gc    1 sc    7 cc
+Mon Sep 20 06:52:56 2021 pottrack             58520        -1008 -           7 gc                
+Mon Sep 20 07:02:56 2021 karpath           20536939        24811    14 pc    4 gc    3 sc    7 cc
+Mon Sep 20 07:12:56 2021 karpath           20541591         4652     2 pc    8 gc    3 sc    8 cc
+Mon Sep 20 07:12:56 2021 pottrack             58232         -288 -           2 gc                
+Mon Sep 20 07:12:56 2021 moghiadin         20695095        -1764 -   1 pc            3 sc        
+Mon Sep 20 07:22:56 2021 moghiadin         20660437       -34658 -  20 pc            8 sc    2 cc
+Mon Sep 20 07:32:56 2021 taro               1757995        17375    10 pc            7 sc   11 cc
+Mon Sep 20 07:32:56 2021 pottrack             58088         -144 -           1 gc                
+Mon Sep 20 07:42:56 2021 taro               1757275         -720 -           5 gc                
+Mon Sep 20 07:42:56 2021 pottrack             58736          648             4 gc    6 sc        
+Mon Sep 20 07:52:56 2021 saya               4889319        29993    17 pc    4 gc    3 sc    5 cc
+Mon Sep 20 08:02:56 2021 karpath           20548523         6932     4 pc            1 sc    8 cc
+Mon Sep 20 08:02:56 2021 pottrack             59414          678             4 gc    8 sc    6 cc
+Mon Sep 20 08:02:56 2021 goldbezie          3267404        97290    56 pc    3 gc    7 sc    6 cc
+Mon Sep 20 08:02:56 2021 moghiadin         20940805       280368   162 pc    3 gc                
+Mon Sep 20 08:02:56 2021 faery              8850223      -172980 - 100 pc    1 gc    3 sc        
+Mon Sep 20 08:22:56 2021 zhabou            31866585        13086     7 pc    6 gc   10 sc    6 cc
+Mon Sep 20 08:22:56 2021 diri              65940328        21960    12 pc    8 gc    6 sc        
+Mon Sep 20 08:42:56 2021 karpath           20542359        -6164 -   3 pc    6 gc    9 sc    8 cc
+Mon Sep 20 08:42:56 2021 didrik            13232827       119030    68 pc   10 gc    7 sc    2 cc
+Mon Sep 20 08:42:56 2021 zhabou            31885342        18757    10 pc   10 gc    3 sc    1 cc
+Mon Sep 20 08:42:56 2021 phantango          2803864        33842    19 pc    7 gc            2 cc
+Mon Sep 20 08:42:56 2021 moghiadin         20954768        13963     8 pc           11 sc    7 cc
+Mon Sep 20 08:52:56 2021 bonk               3832644     -2419288 -1400 pc            7 sc    4 cc
+Mon Sep 20 09:12:56 2021 dhez               2561265        95202    55 pc    1 gc    1 sc    6 cc
+Mon Sep 20 09:22:56 2021 karpath           20556502        14143     8 pc    2 gc    2 sc    7 cc
+Mon Sep 20 09:22:56 2021 bonk               4779242       946598   547 pc    9 gc    7 sc    2 cc
+Mon Sep 20 09:32:56 2021 chanele           59213248       107268    62 pc           11 sc        
+Mon Sep 20 09:52:56 2021 karpath           20560280         3778     2 pc    2 gc    2 sc   10 cc
+Mon Sep 20 09:52:56 2021 cmyk               7116549        -8332 -   4 pc    9 gc   10 sc    4 cc
+Mon Sep 20 10:02:56 2021 cmyk               7115661         -888 -           6 gc    2 sc        
+Mon Sep 20 10:22:56 2021 druel              1838593          696             4 gc   10 sc        
+Mon Sep 20 10:22:56 2021 treo             107168873      -347851 - 201 pc    3 gc    7 sc    7 cc
+Mon Sep 20 10:22:56 2021 nut                5961256        69025    39 pc   11 gc    4 sc    1 cc
+Mon Sep 20 10:32:56 2021 sarian             1767789         -686 -           4 gc    9 sc    2 cc
+Mon Sep 20 10:32:56 2021 cmyk               7115867          206             1 gc    5 sc    2 cc
+Mon Sep 20 10:32:56 2021 druel              1887636        49043    28 pc    4 gc    6 sc   11 cc
+Mon Sep 20 10:32:56 2021 treo             107180620        11747     6 pc    9 gc    6 sc   11 cc
+Mon Sep 20 10:42:56 2021 sarian             1814047        46258    26 pc    9 gc    2 sc   10 cc
+Mon Sep 20 10:42:56 2021 druel              1916054        28418    16 pc    5 gc    4 sc    2 cc
+Mon Sep 20 10:52:56 2021 cassius            6271230       183792   106 pc    4 gc    4 sc        
+Mon Sep 20 10:52:56 2021 sarian             1851201        37154    21 pc    6 gc            2 cc
+Mon Sep 20 10:52:56 2021 druel              1953318        37264    21 pc    6 gc    9 sc    4 cc
+Mon Sep 20 10:52:56 2021 treo             107251660        71040    41 pc    1 gc    4 sc        
+Mon Sep 20 11:02:56 2021 sarian             1892600        41399    23 pc   11 gc    5 sc   11 cc
+Mon Sep 20 11:02:56 2021 treo             107302187        50527    29 pc    2 gc   10 sc    7 cc
+Mon Sep 20 11:12:56 2021 karpath           20567204         6924     4 pc            1 sc        
+Mon Sep 20 11:12:56 2021 sarian             1934442        41842    24 pc    2 gc    6 sc   10 cc
+Mon Sep 20 11:12:56 2021 treo             107309648         7461     4 pc    3 gc    9 sc    9 cc
+Mon Sep 20 11:22:56 2021 rache              7899773        73591    42 pc    7 gc            7 cc
+Mon Sep 20 11:22:56 2021 treo             107375069        65421    37 pc   10 gc    3 sc    9 cc
+Mon Sep 20 11:22:56 2021 soll              16059888      -216177 - 125 pc    1 gc    2 sc    9 cc
+Mon Sep 20 11:32:56 2021 karpath           20579624        12420     7 pc    2 gc    3 sc        
+Mon Sep 20 11:32:56 2021 wolverine          4424460       -35251 -  20 pc    4 gc    9 sc    7 cc
+Mon Sep 20 11:32:56 2021 maximus              50265         6047     3 pc    5 gc   11 sc   11 cc
+Mon Sep 20 11:32:56 2021 moghiadin         20954702          -66 -                   5 sc    6 cc
+Mon Sep 20 11:52:56 2021 vassilius          9008132       113271    65 pc    6 gc    7 sc    3 cc
+Mon Sep 20 11:52:56 2021 dhez               2571774        10509     6 pc           11 sc    9 cc
+Mon Sep 20 11:52:56 2021 logg              83683589         3814     2 pc    2 gc    5 sc   10 cc
+Mon Sep 20 11:52:56 2021 nauthira           3569727        37394    21 pc    7 gc    8 sc    2 cc
+Mon Sep 20 12:02:56 2021 nailo            115694481        64838    37 pc    6 gc    3 sc    2 cc
+Mon Sep 20 12:02:56 2021 druel              1962004         8686     5 pc            3 sc   10 cc
+Mon Sep 20 12:12:57 2021 didrik            13287399        54572    31 pc    6 gc   11 sc    8 cc
+Mon Sep 20 12:12:57 2021 nailo            115754241        59760    34 pc    7 gc                
+Mon Sep 20 12:12:57 2021 druel              2004560        42556    24 pc    7 gc    6 sc    4 cc
+Mon Sep 20 12:12:57 2021 maximus              54291         4026     2 pc    3 gc   11 sc    6 cc
+Mon Sep 20 12:22:56 2021 straag           126729370       358958   207 pc    8 gc    9 sc    2 cc
+Mon Sep 20 12:22:56 2021 phantango          2893646        89782    51 pc   11 gc    5 sc   10 cc
+Mon Sep 20 12:22:56 2021 druel              2038202        33642    19 pc    5 gc    7 sc    6 cc
+Mon Sep 20 12:22:56 2021 soll              16089102        29214    16 pc   10 gc   10 sc    6 cc
+Mon Sep 20 12:32:56 2021 serander           2966460       124507    72 pc            7 sc    7 cc
+Mon Sep 20 12:32:56 2021 nailo            115816471        62230    36 pc            1 sc   10 cc
+Mon Sep 20 12:32:56 2021 mackrel           16554625         4448     2 pc    6 gc   10 sc    8 cc
+Mon Sep 20 12:32:56 2021 zadkiel            3894373        13694     7 pc   11 gc    1 sc    2 cc
+Mon Sep 20 12:42:56 2021 nailo            115881954        65483    37 pc   10 gc    8 sc   11 cc
+Mon Sep 20 12:42:56 2021 druel              2073086        34884    20 pc    2 gc    3 sc        
+Mon Sep 20 12:42:56 2021 moghiadin         21220852       266150   154 pc            3 sc    2 cc
+Mon Sep 20 12:52:56 2021 cassius            6465040       193810   112 pc    1 gc   10 sc   10 cc
+Mon Sep 20 12:52:56 2021 nailo            115945673        63719    36 pc   10 gc    5 sc   11 cc
+Mon Sep 20 12:52:56 2021 mackrel           16558109         3484     2 pc            2 sc    4 cc
+Mon Sep 20 13:02:56 2021 ulath             30734062        59712    34 pc    6 gc    8 sc        
+Mon Sep 20 13:02:56 2021 sarian             1944303         9861     5 pc    8 gc    5 sc    9 cc
+Mon Sep 20 13:02:56 2021 nailo            116006881        61208    35 pc    5 gc            8 cc
+Mon Sep 20 13:02:56 2021 phantango          2901966         8320     4 pc    9 gc    9 sc    4 cc
+Mon Sep 20 13:02:56 2021 soll              16184076        94974    54 pc   11 gc    6 sc    6 cc
+Mon Sep 20 13:12:56 2021 cassius            6464953          -87 -                   7 sc    3 cc
+Mon Sep 20 13:12:56 2021 straag           126993642       264272   152 pc   11 gc    2 sc    8 cc
+Mon Sep 20 13:12:56 2021 sarian             1985367        41064    23 pc    9 gc    2 sc        
+Mon Sep 20 13:12:56 2021 nailo            116122841       115960    67 pc    1 gc    3 sc    4 cc
+Mon Sep 20 13:12:56 2021 phantango          2901246         -720 -           5 gc                
+Mon Sep 20 13:12:56 2021 exadreon             38199         5049     2 pc   11 gc            9 cc
+Mon Sep 20 13:22:56 2021 sarian             1898017       -87350 -  50 pc    6 gc    7 sc    2 cc
+Mon Sep 20 13:22:56 2021 logg              83865053       181464   105 pc            2 sc        
+Mon Sep 20 13:22:56 2021 bonk               4778362         -880 -           6 gc    1 sc    4 cc
+Mon Sep 20 13:32:56 2021 sarian             1937455        39438    22 pc    9 gc   10 sc    6 cc
+Mon Sep 20 13:32:56 2021 nailo            116224930       102089    59 pc           11 sc    5 cc
+Mon Sep 20 13:32:56 2021 sinon                25694        -1894 -   1 pc    1 gc    1 sc   10 cc
+Mon Sep 20 13:32:56 2021 dhez               2603905        32131    18 pc    7 gc    1 sc    7 cc
+Mon Sep 20 13:32:56 2021 logg              83943297        78244    45 pc    3 gc    4 sc    4 cc
+Mon Sep 20 13:42:56 2021 karpath           20578753         -871 -           6 gc            7 cc
+Mon Sep 20 13:42:56 2021 dhez               2383565      -220340 - 127 pc    6 gc    1 sc    8 cc
+Mon Sep 20 13:42:56 2021 treo             107374778         -291 -           2 gc            3 cc
+Mon Sep 20 13:42:56 2021 nauthira           3608151        38424    22 pc    2 gc   10 sc        
+Mon Sep 20 13:42:56 2021 ergeba             3623685         -113 -                   9 sc    5 cc
+Mon Sep 20 13:52:56 2021 cassius            6643509       178556   103 pc    3 gc   11 sc    8 cc
+Mon Sep 20 13:52:56 2021 mackrel           16575342        17233     9 pc   11 gc    8 sc    1 cc
+Mon Sep 20 14:02:56 2021 karpath           19343271     -1235482 - 714 pc   11 gc    8 sc   10 cc
+Mon Sep 20 14:02:56 2021 logg              83951534         8237     4 pc    9 gc    2 sc    5 cc
+Mon Sep 20 14:02:56 2021 phantango          2931384        30138    17 pc    5 gc    3 sc    6 cc
+Mon Sep 20 14:02:56 2021 maximus              45891        -8400 -   4 pc   10 gc    4 sc        
+Mon Sep 20 14:02:56 2021 veego             28051840        -4437 -   2 pc    6 gc    9 sc    9 cc
+Mon Sep 20 14:02:56 2021 soll              16366593       182517   105 pc    7 gc    5 sc    9 cc
+Mon Sep 20 14:12:56 2021 karpath           19828835       485564   280 pc   11 gc   11 sc    8 cc
+Mon Sep 20 14:12:56 2021 mackrel           16581405         6063     3 pc    6 gc    1 sc    3 cc
+Mon Sep 20 14:12:56 2021 druel              2094568        21482    12 pc    5 gc    2 sc    2 cc
+Mon Sep 20 14:22:56 2021 alorrana           4801058       195920   113 pc    4 gc    6 sc    8 cc
+Mon Sep 20 14:22:56 2021 karpath           19853503        24668    14 pc    3 gc    3 sc    8 cc
+Mon Sep 20 14:22:56 2021 areficent         15718262         -348 -           2 gc    5 sc        
+Mon Sep 20 14:22:56 2021 druel              2113989        19421    11 pc    2 gc   10 sc    5 cc
+Mon Sep 20 14:22:56 2021 qwer                133121        12133     7 pc            3 sc    1 cc
+Mon Sep 20 14:22:56 2021 soll              16423683        57090    33 pc            5 sc    6 cc
+Mon Sep 20 14:32:56 2021 rache              7734960      -164813 -  95 pc    4 gc    6 sc    5 cc
+Mon Sep 20 14:32:56 2021 didrik            13319008        31609    18 pc    3 gc    6 sc    1 cc
+Mon Sep 20 14:32:56 2021 myst               3228040         1807     1 pc            6 sc    7 cc
+Mon Sep 20 14:32:56 2021 treo             107331484       -43294 -  25 pc            7 sc   10 cc
+Mon Sep 20 14:32:56 2021 soll              16428820         5137     2 pc   11 gc    8 sc    1 cc
+Mon Sep 20 14:42:56 2021 nailo            116277095        52165    30 pc    2 gc    3 sc    1 cc
+Mon Sep 20 14:42:56 2021 mackrel           16593046        11641     6 pc    8 gc   10 sc    1 cc
+Mon Sep 20 14:42:56 2021 snedecor           4204041        44359    25 pc    8 gc            7 cc
+Mon Sep 20 14:42:56 2021 bonk               4995160       216798   125 pc    5 gc    6 sc    6 cc
+Mon Sep 20 14:42:56 2021 soll              16433807         4987     2 pc   10 gc    7 sc    7 cc
+Mon Sep 20 14:52:56 2021 alixxar             260937         -544 -           3 gc    9 sc    4 cc
+Mon Sep 20 14:52:56 2021 mir                 946342      -793466 - 459 pc    2 gc    2 sc    2 cc
+Mon Sep 20 14:52:56 2021 mackrel           16598306         5260     3 pc            6 sc    4 cc
+Mon Sep 20 14:52:56 2021 druel              2130897        16908     9 pc    9 gc    5 sc        
+Mon Sep 20 14:52:56 2021 treo             107382987        51503    29 pc    9 gc    7 sc   11 cc
+Mon Sep 20 14:52:56 2021 qwer                 46721       -86400 -  50 pc                        
+Mon Sep 20 14:52:56 2021 soll              16444929        11122     6 pc    5 gc    2 sc   10 cc
+Mon Sep 20 15:02:56 2021 mir                 983225        36883    21 pc    4 gc    1 sc    7 cc
+Mon Sep 20 15:02:56 2021 snedecor           4215508        11467     6 pc    7 gc    7 sc    7 cc
+Mon Sep 20 15:12:56 2021 snedecor           3783507      -432001 - 250 pc                    1 cc
+Mon Sep 20 15:12:56 2021 myst               3296854        68814    39 pc    9 gc   10 sc    6 cc
+Mon Sep 20 15:22:56 2021 mir                 992839         9614     5 pc    6 gc    9 sc    2 cc
+Mon Sep 20 15:22:56 2021 ulath             30898143       164081    94 pc   11 gc    5 sc    5 cc
+Mon Sep 20 15:22:56 2021 mackrel           16615067        16761     9 pc    8 gc    4 sc    9 cc
+Mon Sep 20 15:22:56 2021 taro               2081953       324678   187 pc   10 gc    8 sc    6 cc
+Mon Sep 20 15:22:56 2021 chanele           59339398       126150    73 pc                    6 cc
+Mon Sep 20 15:32:56 2021 mir                1007393        14554     8 pc    5 gc           10 cc
+Mon Sep 20 15:32:56 2021 gortag             4758415        10798     6 pc    2 gc   11 sc   10 cc
+Mon Sep 20 15:32:56 2021 ulath             30891221        -6922 -   4 pc                   10 cc
+Mon Sep 20 15:32:56 2021 spundungus           14051        12323     7 pc    1 gc    6 sc   11 cc
+Mon Sep 20 15:32:56 2021 soll              16488336        43407    25 pc    1 gc    5 sc    3 cc
+Mon Sep 20 15:42:56 2021 taro               2139343        57390    33 pc    2 gc    6 sc    6 cc
+Mon Sep 20 15:42:56 2021 phantango          2940738         9354     5 pc    4 gc   11 sc    6 cc
+Mon Sep 20 15:42:56 2021 soll              16592516       104180    60 pc    3 gc    5 sc    8 cc
+Mon Sep 20 15:52:56 2021 spundungus           16513         2462     1 pc    5 gc    1 sc    2 cc
+Mon Sep 20 16:02:56 2021 spundungus           24624         8111     4 pc    8 gc    3 sc   11 cc
+Mon Sep 20 16:12:56 2021 logg              84007230        55696    32 pc    2 gc    9 sc    4 cc
+Mon Sep 20 16:12:56 2021 danec             21213260     -5875795 -3400 pc    4 gc    1 sc    7 cc
+Mon Sep 20 16:22:56 2021 straag           127400985       407343   235 pc    8 gc    9 sc    3 cc
+Mon Sep 20 16:22:56 2021 logg              84080402        73172    42 pc    4 gc    1 sc    8 cc
+Mon Sep 20 16:22:56 2021 snedecor           4085931       302424   175 pc            2 sc        
+Mon Sep 20 16:32:56 2021 tabitha              22464        -1728 -   1 pc                        
+Mon Sep 20 16:32:56 2021 druel              2142431        11534     6 pc    8 gc    1 sc    2 cc
+Mon Sep 20 16:42:56 2021 druel              2148149         5718     3 pc    3 gc    8 sc    6 cc
+Mon Sep 20 16:42:56 2021 qwer                 43265        -3456 -   2 pc                        
+Mon Sep 20 16:52:56 2021 tabitha               7920       -14544 -   8 pc    5 gc                
+Mon Sep 20 16:52:56 2021 druel              2122264       -25885 -  14 pc   11 gc    9 sc    1 cc
+Mon Sep 20 16:52:56 2021 soll              16689283        96767    55 pc   11 gc   11 sc   11 cc
+Mon Sep 20 17:02:56 2021 nailo            116280996         3901     2 pc    3 gc    1 sc    1 cc
+Mon Sep 20 17:02:56 2021 thane              8777579      -293965 - 170 pc    1 gc    5 sc    1 cc
+Mon Sep 20 17:02:56 2021 nut                5874812       -86444 -  50 pc            3 sc    8 cc
+Mon Sep 20 17:02:56 2021 qwer                 17345       -25920 -  15 pc                        
+Mon Sep 20 17:02:56 2021 soll              16730736        41453    23 pc   11 gc   10 sc    5 cc
+Mon Sep 20 17:12:56 2021 serander           3023405        56945    32 pc   11 gc    5 sc    5 cc
+Mon Sep 20 17:12:56 2021 soll              16777013        46277    26 pc    9 gc    4 sc    5 cc
+Mon Sep 20 17:12:56 2021 belegorn          43289566        38999    22 pc    6 gc    9 sc   11 cc
+Mon Sep 20 17:22:56 2021 wolverine          4474450        49990    28 pc   11 gc    1 sc   10 cc
+Mon Sep 20 17:22:56 2021 belegorn          43469000       179434   103 pc   10 gc           10 cc
+Mon Sep 20 17:32:56 2021 alixxar             259209        -1728 -   1 pc                        
+Mon Sep 20 17:32:56 2021 serander           2850605      -172800 - 100 pc                        
+Mon Sep 20 17:32:56 2021 gerey               321245       -20743 -  12 pc                    7 cc
+Mon Sep 20 17:32:56 2021 soll              16821348        44335    25 pc    7 gc   10 sc    7 cc

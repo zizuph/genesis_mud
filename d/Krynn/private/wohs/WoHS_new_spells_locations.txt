@@ -1,0 +1,61 @@
+# Spells are WoHS only, accessible in the Wayreth library.
+^ Spells are advanced spells. Only WoHS have advanced spell slots
+
+Unmarked spells can be obtained by SoHM.
+
+Spell documentation for each spell can be found in /d/Krynn/guilds/sohm/doc/ 
+in their respective spell category folder.
+
+(C) Cantrip
+(M) Minor spell
+(L) Lesser spell
+(G) Greater spell
+(A) Advanced spell
+
+Protection - divination (M)      /d/Krynn/guilds/sohm/spells/protect_divination.c   Palanthas palace archives 
+Portents and omens (G)           /d/Krynn/guilds/sohm/spells/portents_and_omens.c   Ogre magi          
+Shatter (C)                      /d/Krynn/guilds/sohm/spells/shatter.c              gnome shop (floor 3) 
+Water breathing	(M)              /d/Krynn/guilds/sohm/spells/breath_water.c	    Corpse in cave near Kalaman 
+Featherweight (M)                /d/Krynn/guilds/sohm/spells/featherweight.c        WoL battlefield drop (tier 1 magi) 
+Flaming fist (L)                 /d/Krynn/guilds/sohm/spells/flaming_fist.c         In chest / waterfall dwarf caves 
+Gravity (G)                      /d/Krynn/guilds/sohm/spells/gravity.c              WoL battlefield drop (tier 2 magi) 
+Shadow veil (L)                  /d/Krynn/guilds/sohm/spells/shadow_veil.c          Tower of Arms
+Wind gust (C)                    /d/Krynn/guilds/sohm/spells/wind_gust.c            Altar / black orb 
+Ballistic spray (M)              /d/Krynn/guilds/sohm/spells/ballistic_spray.c      Dark savants
+Geyser (L)                       /d/Krynn/guilds/sohm/spells/geyser.c               Bloodsea - Sea hag 
+Scouring wind (L)                /d/Krynn/guilds/sohm/spells/scouring_wind.c        Kurinost - cave quest 
+Teleport (G)                     /d/Krynn/guilds/sohm/spells/teleport.c             Shoikan Grove 
+#Dimensional rift (C)            /d/Krynn/guilds/sohm/spells/mirror_portal.c        Wayreth 
+#Mirror portal (C)               /d/Krynn/guilds/sohm/spells/mirror_portal.c        Wayreth / Test 
+#Identify (M)                    /d/Krynn/guilds/sohm/spells/identify.c             Wayreth 
+#Detect resistance (M)           /d/Krynn/guilds/sohm/spells/detect_resistance.c    Wayreth 
+#Rune of welcome (C)             /d/Krynn/guilds/sohm/spells/rune_of_welcome.c      Wayreth / Par Salian
+#Dazzle (slow) (M)               /d/Krynn/guilds/sohm/spells/dazzle.c               Wayreth 
+#Haste (G)	                 /d/Krynn/guilds/sohm/spells/haste.c                Wayreth            
+#^Team teleport (A)              /d/Krynn/guilds/sohm/spells/teleport_team.c        Wayreth (final library learnable)
+^Fireball (A)                    /d/Krynn/guilds/sohm/spells/fireball.c             Fizban 
+^Chain lightning (A)             /d/Krynn/guilds/sohm/spells/chain_lightning.c      Shoikan Grove 
+^Meteor storm (A)                /d/Krynn/guilds/sohm/spells/meteor_storm.c         Altar / savant lord 
+^Storm fury (A)                  /d/Krynn/guilds/sohm/spells/storm_fury.c           Kurinost - green dragon 
+^Detonate (A)                    /d/Krynn/guilds/sohm/spells/detonate.c             Altar / stone giant 
+^Eruption (A)                    /d/Krynn/guilds/sohm/spells/eruption.c             Tharkadan cocoon 
+^Doom Blast (A)                  /d/Krynn/guilds/sohm/spells/toxic_blast.c          Volcanic cave / Sanction 
+^Cyclonic Blast (A)              /d/Krynn/guilds/sohm/spells/cyclonic_blast.c       Alchemist / Palanthas 
+^Arcane vulnerability (A)        /d/Krynn/guilds/sohm/spells/vulnerability_magic.c  Wayreth Tower, outdoor memorial 
+^Protection - Magic (A)          /d/Krynn/guilds/sohm/spells/protect_magic.c        Altar / troll lair 
+^Greater magic shield (A)        /d/Krynn/guilds/sohm/spells/greater_magic_shield.c Kurinost - cave quest 
+#Foreshock (L)                   /d/Krynn/guilds/sohm/spells/foreshock.c            Wayreth
+
+researchable_spells from WoHS library 
+     ({"okiai",  
+      "dotonobsule", 
+      "odenarcanis", 
+      "ickrakfethos", 
+      "temep",
+      "wintektor",
+      "ickrakarcanis",
+      "ukrisrivek",
+      "apianak",
+      "reskafar",
+      "kadenadon" });
+           

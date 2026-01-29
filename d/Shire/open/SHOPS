@@ -1,0 +1,91 @@
+	Written 050193 (Jan. 5th, 1993) by Astro
+updated by Mayhem and Dunstable
+
+Places of importance in the Shire domain (including /d/Genesis/start/hobbit...)
+
+In this document, ~S/c refers to ~Shire/common, and hobbit/ refers to the
+directory /d/Genesis/start/hobbit/, or, for those who prefer C... :)
+
+#define hobbit/ /d/Genesis/start/hobbit/
+#define ~S/c ~Shire/common
+
+A plus sign in parentheses after a room (+) simply means it is listed under
+more than one category in this file.
+
+--------------------------------------------------------------------------------
+
+Shops:	The Shire area has three shops, one in Hobbiton, one in Bree and one in
+		Moria.  None of these has any extraordinary features.  The files are:
+		~S/c/bree/shop
+		hobbit/shop
+		moris/mines/shop	
+	
+Herbalist, copied from Lothmir of Gondor, selling herbs in
+/d/Shire/common/hobbiton/farthing3
+
+Links to other domains: ~S/c/gondorlink links the Shire to, of all places, the
+                        domain Gondor.  (their room is ~Gondor/common/shirelink)
+                         Also there is a link to Rhovanion, ~S/c/rhovanionlink.
+
+
+Docks: The Shire presently has five rooms for ships to dock at, 
+       ~S/c/greyhaven/shore, ~S/c/greyhaven/dock. ~S/c/greyhaven/pier1, 
+		~S/c/greyhaven/pier2 and ~S/c/greyhaven/pier3
+       Ships land at /shore from Sparkle and the Circle line and from Krynn to /dock.
+		From Palanthas in pier1, from Cove on pier2 and from Kabal on pier3
+
+Guilds: The room to join the Shire guild is ~S/c/guild/hguild(+).  The guild
+        is more fully described in other files in this directory.
+
+
+Training rooms: Of course, the guild room, ~S/c/guild/hguild(+), and also
+                hobbit/guild(+).  I may list the skills offered in each in
+                another file in this directory.  New rooms: ~S/c/bree/adv_guild and
+                 ~S/mithlond/advguild
+
+
+Board rooms: ~S/c/guild/hguild2 (wizzes only)
+             ~S/c/guild/hguild(+)
+             hobbit/guild(+)
+           ~S/c/bree/adv_guild, 'common'
+        ~S/mithlond/advguild
+
+Post offices: hobbit/p_office, ~S/c/mount/post, ~S/c/bree/post
+
+
+Starting locations: hobbit/church, ~S/c/guild/hguild(+), ~S/c/bree/inn_room
+
+
+Pubs/Inns: You can get healing items at:
+           ~S/c/bree/inn
+           ~S/c/greyhaven/inn
+           hobbit/pub
+
+
+Specialty shops: Here I list places that specialize in one or another type of
+                 goods, such as weapons or armour, along with their specialty.
+                 hobbit/bakery selling foods of no apparent healing value
+                 hobbit/forge selling weapons/armour, and improving current ones
+                 ~S/c/hobbiton/forge copy of hobbit/forge
+                 hobbit/bank stores money for a fee, and changes currencies
+                  ~S/c/hobbiton/cobbler - sells sandals that help rest players
+                   ~S/c/bree/perfumery - sells perfumes and colognes.
+
+Wizinfo rooms: At least 5 rooms in the Shire domain have a wizinfo function;
+               they are:
+               ~S/c/mount/path3
+               ~S/c/bree/[esw]gate (3 files)
+               hobbit/guild(+)
+
+
+Banks:
+
+For now these are the ONLY banks with gem support as it is only logical
+the gnomes only put in the extra security for such endeavours where they
+see chance of getting payment.
+
+    /d/Shire/bree/rooms/town/bank.c - bree bank,            ID: #1201
+    /d/Shire/party/bank.c - party room bank,                ID: #1202
+    /d/Shire/rivendell/room/valley/bank.c - rivendell bank, ID: #1203
+
+

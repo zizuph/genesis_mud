@@ -1,0 +1,31 @@
+Created 1/1-2006 by Calador.
+
+This is the revised version of the original layout idea, and since
+I am the one coding it, this is how it's going to be :)
+
+
+    T
+    |
+  p-p-p W
+  |   |\|
+W-p-X T p
+ /|  \  |
+E-p M-O p-T
+ \|  /  |
+W-p-X T p
+  |   |/|
+  p-p-p W
+    |
+    T
+
+Ok, my ascii drawing skills aren't very good, but you get the picture.
+
+p : path around the camp where the patrols are going to be.
+W : Watchtowers with guard(s?)
+T : Large tent. Haven't decided what there should be in them yet,
+    but one of them will contain a prisoner (for an upgoming quest)
+E : The entrance to the camp. Will most likely be guarded by 2-4 goblins
+    with low grade equipment, but they will be highly perceptive.
+X : Dunno about those... might do something special there sometime
+O : Officers planning room in the command tent.
+M : The general lives here with his bodyguards.

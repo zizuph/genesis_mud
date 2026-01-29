@@ -1,0 +1,81 @@
+main
+::MAPDATA::
+balcony 34 11 guild
+boardroom 34 11 public
+cellar 34 11 public
+councilrm 34 11 guild
+hall 34 11 public
+joinroom 34 11 guild
+library 34 11 guild
+po 34 11 guild
+stairs 34 11 public
+start 34 11 public
+train 34 11 guild
+common 34 11 public
+::MAPDATA::
+
+                        ====================
+                        THE TRAVELLERS GUILD
+                        ====================
+
+                      _________________________
+                     /////////////|\\\\\\\\\\\\\
+                    '.-------------------------.'
+                     |                         |
+                     | [] [] [] [] [] [] [] [] |
+                     |                         |
+                     |         _ _ _ _         |
+                     | [] [] []||   ||[] [] [] |
+                     |_________||___||_________|
+                     /     _<> _     _    (_)<>\
+                    /   <>(_),:/     \:. <>'  <>\
+                   /_:::::::::/ _ _ _ \:::::::::_\
+
+::NEWMAP::
+public
+::MAPDATA::
+start 12 6
+boardroom 6 8
+stairs 12 8
+hall 17 8
+cellar 12 10
+common 6 6
+::MAPDATA::
+
+    ====================
+     TRAVELLERS GUILD,
+    PUBLIC / LOWER FLOOR
+    ====================
+
+      o     o
+      |     |
+      o -- ^o -- o --
+            :
+            o
+::NEWMAP::
+guild
+::MAPDATA::
+councilrm 10 8
+joinroom 10 10
+balcony 10 12
+library 10 15
+train 4 12
+po 10 6
+::MAPDATA::
+
+     =================
+     TRAVELLERS GUILD,
+        UPPER FLOOR
+     =================
+
+          o 
+          |   Council
+          o    Area
+          ~
+          o
+          |
+    o --  o
+         :| 
+          | 
+          o
+::MAPDATA::

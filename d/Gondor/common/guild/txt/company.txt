@@ -1,0 +1,15 @@
+                           
+Topic: company
+
+Commands:
+
+- company <name> <company> 
+    Assign a ranger to your company. 
+    The command can be given anywhere, but the ranger must be logged in.
+    The ranger must be a pupil of the Rangers.
+
+- deputy <name>
+    Assign a ranger of your company to become your deputy.
+    (Captains only.)
+    Can be given anywhere, anytime.
+

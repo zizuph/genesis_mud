@@ -1,0 +1,17 @@
+The Order and Paths of rooms for shiplines to and from Avenir:
+
+/d/Avenir/common/ships/sea/*
+
+To Rift of Sybarus from X:      From Rift of Sybarus to X:
+  sea1                            cave2     
+  sea2                            cave3
+  fiss1                           fiss3
+  fiss2                           fiss4
+  cave1                           sea3
+  cave2                           sea2
+
+Any of these may be eliminated to make the trip shorter. If that
+is desired, you might want to simply use "cave2" and "sea2", as 
+they do not indicate sailing direction the way the others do. Or
+simply use "cave1" and cave2" going to the Rift and "cave2" and 
+"cave3" leaving it.

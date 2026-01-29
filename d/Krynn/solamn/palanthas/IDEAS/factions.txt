@@ -1,0 +1,31 @@
+/* An idea for the city could be that it's split into the
+good side (temples, government, constabulary, the general
+populace, scholars), the neutral side (scholars, tradesmen,
+merchants), and the evil side (thieves, underworld, dark
+scholars, subversive dragonarmy agents, ~squalor).  Quests
+should be variants of good and evil so each side has the
+exact same xp available.
+
+   Navarre raised a good point to me:  That Palanthas is
+known for being good and I have said I want good, evil,
+and neutrality.  To clarify, I don't mean it like there is
+a war of good and evil going on there.  But the reality of
+any big city is that people of all sorts live there.  95%
+of the people may be lawful and good, but there are going to
+be criminals, merchants and guilds who could be described as
+neutral in their goals, and even a few spies from the dragon
+armies in the bad areas for intrigue.  My real goal is to
+give players of any alignment or faction a fun place to hang
+out a lot.
+
+   A faction score could be implemented to encourage
+lawful and peaceful behavior without forcing it.  Good
+factioned shops, inns, and services would turn in anyone
+wanted by the constabulary rather than serve them thus
+encouraging a few people to avoid trouble.
+
+   The score could be influenced by quests (both ways)
+and your arrest records and rap sheet.  Knights would
+start with a bonus to reflect their prestige in Palanthas.
+
+Mortis 06.2005 */

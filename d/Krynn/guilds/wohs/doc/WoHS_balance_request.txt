@@ -1,0 +1,100 @@
+
+Balance Review Request Submission
+---------------------------------
+
+Request Date: 28 March 2017
+
+1. What are you requesting to be reviewed?
+Review the balance of the Wizards of High Sorcery occupational+layman guild code.
+
+2. Please list all files for review, as well as the location of any
+   documentation describing the submission.
+
+Files to review are in: 
+Guild concept, theme, tax documentation:
+         /d/Krynn/guilds/wohs/doc/WoHS.txt
+
+Spells:  
+List of spells for review are in doc 
+         /d/Krynn/guilds/wohs/doc/WoHS_new_spells_for_review.txt
+
+Individual spell file documents are in as detailed in above doc:
+         /d/Krynn/guilds/sohm/doc/
+
+Other files:
+         /d/Krynn/guilds/wohs/shadows/wohs_shadow.c
+         /d/Krynn/guilds/wohs/souls/wohs_soul.c
+         /d/Krynn/guilds/wohs/objs/mage_robe.c
+         /d/Krynn/guilds/wohs/objs/mage_robe_shadow.c
+
+Joining quest files (also counts as guru quest):
+         /d/Krynn/guilds/wohs/test/
+
+****  These files are not for review... the polymorph base spell
+****  is too buggy at the moment with too many issues. So while a cool
+****  and fun spell, it needs a lot more work before it can be introduced
+****  into the game. Right now this spell is parked.
+****
+****           /d/Krynn/guilds/sohm/spells/polymorph_self.c    
+****           /d/Genesis/race/shapeshift/wohs_polymorph_self_bear.c
+****           /d/Genesis/race/shapeshift/wohs_polymorph_self_stag.c
+****           /d/Genesis/race/shapeshift/wohs_polymorph_self_cooshee.c
+****           /d/Genesis/race/shapeshift/wohs_polymorph_self_dragon.c
+****           /d/Genesis/race/shapeshift/wohs_polymorph_self_no_intro_obj.c
+****           /d/Krynn/guilds/sohm/souls/wohs_polymorph_self_soul.c
+
+Guild rooms (training):
+         /d/Krynn/wayreth/tower/norm_skills.c
+         /d/Krynn/wayreth/tower/mage_skills.c
+         /d/Krynn/wayreth/tower/yard04.c
+
+         Other guild rooms if desired /d/Krynn/wayreth/tower/*.c
+
+3. Describe the benefits that players receive by interacting with your
+   submission.
+
+The Wizards of High Sorcery is the natural extension of the School of 
+High Magic, although has a guild council and more strict rules of behaviour.
+
+This guild allows players to play a stereotypical wizard character of the
+Higher Arts in one of three Orders dictated largely by alignment - the
+Order of the White Robes, the Order of the Red Robes, and the Order of the
+Black Robes. It should be noted that while alignment dictates the Order a
+player is a part of, the Orders are all brothers and sisters in magic and
+have a bond stronger than their views on morals and ethics. Brothers and
+sisters may fight on occasion, but at the end of the day they are all
+family.
+
+The guild will provide access to 'advanced' spells that haven't been exposed
+to in Genesis before - such as AoE harm spells (and polymorph self spells)
+and will provide Genesis with expanded dynamics and meta for players to
+explore.
+
+The guild will also provide the game with another non-niche magic guild that
+will help transition the game from being purely melee guild focused. 
+
+4. Describe the thematic justification for the benefits that the player
+   will receive.
+
+The theme of the guild is heavily guided by Dungeons & Dragons and Dragonlance
+concepts... very stereotypical magic user. The primary 'feature' that the
+guild will have is that their spells will grow stronger or weaker depending
+on the phase of the magical moon they follow... which again was a feature of
+pen-and-paper Wizards of High Sorcery from Dragonlance lore.
+
+5. Describe the downsides that the player will experience that justify
+   the balance of the submission.
+
+None. Although the plan is progression through the ranks is slow. Only the
+very dedicated over time will achieve the full benefits of the guild.
+
+6. How has the submission been tested to ensure that balance is maintained?
+   If no testing has been done, how can the AoB team help with this
+   testing?
+
+A lot of the spells are extensions of existing spells. Beta testing is planned
+in parallel with the AoB team review to get a holistic feel for the spells on
+offer.
+
+7. Other Comments / Questions
+N/A

@@ -1,0 +1,40 @@
+
+     Spell name: Wind gust
+                 suacotrekis
+         Effect: Cosmetic
+           Type: Instant
+        Targets: Caster
+        
+        Element: Air         / 20
+           Form: Conjuration / 20
+    Spell power: Power 1 [Very minor spells]
+     Spell type: propchange spell
+     
+       Peaceful: No
+     Stationary: Yes
+          Vocal: Yes
+         Visual: No
+       
+     Components: bur reed (12 cc)
+     
+   Casting time:  4s 
+                   
+      Mana cost: Standard, 30 mana
+     Difficulty: TASK_ROUTINE
+     Combat Aid: 0%
+
+            Tax:   0.1   
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x1.0   Routine difficulty
+                  x1.0   material component (cost < 1 gp)
+                 ------
+                  0.10%  total tax
+   ------------------------------------------------------------
+   Comments: This is a cantrip spell that provides cosmetic
+   wind messages to the caster. However it also allows another
+   SoHM spell, the greater darkness spell 'gloom', to move
+   with the caster rather than being a stationary object while
+   this spell is active.  
+   ------------------------------------------------------------

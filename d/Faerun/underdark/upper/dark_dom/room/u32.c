@@ -1,0 +1,19 @@
+#include "../defs.h"
+
+inherit STD("room");
+
+public void
+dark_dom(void)
+{
+    set_short("You are at a dead-end somewhere in the Dark Dominion");
+    set_long("You find yourself at the dead-end of a wide tunnel in " +
+    "the Dark Dominion. "+
+	"The rough, irregular walls mark this passageway "+
+	"as natural, as opposed to having been carved out by someone, or "+
+	"something. A dark passage leads to the northwest.\n");
+
+    add_item(({"sides","side","irregular walls","walls","wall"}),
+	"The walls are nothing but bare uncut stone.\n");
+
+    add_exit("u31", "northwest", check_follow);
+ }

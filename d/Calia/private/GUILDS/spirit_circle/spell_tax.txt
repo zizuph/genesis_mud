@@ -1,0 +1,34 @@
+Spell tax documentation    (Spir = Spirit Spells)
+
+  Spell        Spell         Spell  Spell   
+   Name     Description       Form   Elem   Mana  Tax  Section (Occ/Lay)
+========================================================================
+Psychi     Tell Line          Div    Spir    10   0.5   Occ
+Exevrisko  Detect Alignment   Div    Spir    15   0.1   Occ
+Magikos    Detect Magic       Div    Spir    20   0.1   Occ 
+Fos        Light              Enc    Life    20   0.2   Lay
+Synithis   Summon Familiar    Con    Life    20   0.1   Lay
+
+Siopi      Silence            Enc    Spir    25   0.5   Occ 
+Gsechon    Name Forget        Div    Spir    25   0.5   Occ
+Vekpos     Turn Undead        Div    Spir    25   0.25  Occ
+
+Eirini     Peace              Div    Spir    40   0.75  Occ (Temporarily Removed)
+Skiamorfi  Shadow Form        Tra    Spir   100   0.75  Occ
+
+Therapeaou Cure Wounds        Enc    Life   100   1.0   Lay 
+Giatreou   Neutralize Poison  Enc    Life   100   1.0   Lay
+
+Skiamati   Shadow Eyes        Div    Spir    70   1.25  Occ
+
+Anakalo    Word of Recall     Tra    Spir   100   1.5   Occ
+Apergo     Soul Strike        Enc    Spir   100   1.5   Occ 
+
+Anagnorizo True Identity      Div    Spir   100   1.0   Occ
+Energia    Energy Drain       Div    Spir   175   1.5   Occ
+
+Metaballo  Convert Weapon     Tra    Spir   200   1.5   Occ 
+
+
+                                  Total Tax:  14.0% (Minus 0.75% Temporarily Removed)
+                                                        = 13.25%

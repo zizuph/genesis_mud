@@ -1,0 +1,256 @@
+re 59
+Message: 59
+From   : Arman
+Reply  : Waymeet
+To     : Finwe and Raymundo
+Date   : Sat Apr 18 05:39:07 2020
+Thanks, I've started going through the two quests. Initial feedback for the
+wolf quest:
+/d/Shire/waymeet/rooms/path_3
+add_item needed for farm
+***
+fixed
+***
+/d/Shire/waymeet/npcs/boso
+Two 'my's in the sentence... typo, should be 'wolves in my fields':
+The grumpy hairy-footed male hobbit shouts: Not just any wolf, mind you, but
+the
+wolves my my fields. I WANT THEM DEAD!
+***
+FIXED
+***
+Can we change references of '10' to 'ten'?
+***
+FIXED
+***
+Can we add an add_ask about fields... it isn't clear which fields are his.
+I would have assumed only the field next to his farm is his field. But the
+only place I found wolves was in Reginard's field??  Maybe change his message
+above to kill wolves that roam between his and Reginard's fields?
+***
+Changed the quest to say fields near waymeet
+***
+Do enough wolves clone for this quest?
+Exploring both fields only resulted in me finding two wolves.
+What's sort of cloning do we get in this area?
+***
+Upped the clone rate of wolves just to be sure there'd be
+enough. Should be plenty now.
+***
+
+A.K
+[1-61 abdefFhHmnpqrRsux.!?] (current: 59) -- 
+Message: 60
+From   : Arman
+Reply  : Waymeet
+To     : Finwe and Raymundo
+CC     : Cherek
+Date   : Sat Apr 18 11:38:02 2020
+On Apr 15 2020, Finwe writes:
+> On Apr 15 2020, Raymundo writes:
+> 
+> > Author : Arman
+> > Date   : Wed Apr 15 11:18:54 2020
+> > 
+> > Thanks Raymundo,
+> > 
+> > Can you get Finwe to respond to me in relation to him having stress tested
+> the
+> > quests? I don't particularly want to do more than a cursory check of
+them...
+> > but they need to be solid before I can approve the opening.  So I need
+Finwe
+> to
+> > do that.
+> > 
+> > In the meantime i'll have a look through your fixes.
+> > 
+> > Cheers
+> > A.K
+> Hello,
+> 
+> Yes, the quests have been tested and work,
+> 
+> Finwe
+Really? Going through the code there is at least three required parts for the
+quest to work that have been commented out.
+It does not work in its current state.
+Can you walk me through how you stress tested this quest?
+A.K
+***
+The areas that are commented out (and the two new versions of rooms
+waiting for release) are because the areas are currently live, in game. 
+Finwe and I discussed it and agreed that making changes to the live area 
+before Waymeet was approved would be confusing to players who found items
+that had no where to go. 
+***
+/
+[1-61 abdefFhHmnpqrRsux.!?] (current: 60) -- 
+Too long message. More automatically invoked!
+Message: 61
+From   : Arman
+Reply  : Waymeet
+To     : Finwe and Raymundo
+CC     : Cherek and Arman
+Date   : Sat Apr 18 15:01:50 2020
+Hi Finwe and Varian,
+Some feedback on the still quest:
+In general:
+XP feels a bit low... it is a tough one to figure out if you don't have
+a walkthrough... a lot of searching across the Shire. Some general skills
+required, and likely minor combat against the road ruffians. I'd bump
+it up to 5,000xp.
+
+/d/Shire/eastroad/western/foam_mug_2020
+in the block_people function it doesn't allow people to go up.
+That needs to be fixed (there is a check for completing the quest missing..
+it defaults to block).
+******
+	if(TP->query_prop(JUNIPER)| CHECK_QUEST(TP, "fix_still"))
+	{
+		write("The bartender winks at you and you know you are allowed to "
+			+ "go upstairs.\n");
+		say("The bartender winks at " + QCTNAME(TP) + ", letting " 
+			+ HIM_HER(TP) + " know it's OK to go upstairs.\n");
+		return 0;
+	}
+It returns 0 (allowing you to go up) if you've done the quest or gathered the juniper berries.
+******
+
+As this is a room that requires exploration by the player to work
+out parts of the quest, we need to be very detailed with our
+descriptions. So we need add_items for:
+* 'window' / 'closed (or open) window' / 'large closed (or open) window'
+***
+added
+***
+
+[from examining the chandelier]
+* 'metal cone' / 'cone' / 'copper cone'
+* 'chain' / 'long chain'
+* 'ball' / 'metal ball'
+-- More -- 30/120 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+* 'poles' / 'metal poles'
+***
+Fixed
+***
+
+There is no hint in the long description that directs you to look
+at the ceiling (finding the chandelier). At least include some
+commentary in the long description about the ceiling so that there
+is a prompt for people to examine it.
+***
+added a chandelier line
+***
+
+To get the cone, you need to be intoxicated. This will restrict
+Union members potentially, and undead who can't drink (Morgul Mages).
+You should think how you wish to address this. We want to avoid
+making quests these days that are exclusive to certain guilds.
+***
+added an awareness possibility. It's high (at 75) but there are 
+items and herbs that can raise awareness enough.
+***
+
+When you remove the bolts:
+"You reach up, pull the bolts off, and remove the copper cone.
+It was a bit tricky getting everything through the hole, but you
+managed OK."  Can we change OK to okay.
+***
+changed
+***
+
+
+/d/Shire/eastroad/village/whit/whithouse2
+Can we fix the formatting of the new code please?
+Uncomment exa closet code.
+Uncomment the add_prop to allow the closet to be searched.
+***
+The code is commented because it's a live room and not released yet.
+It will be uncommented concurrently with opening Waymeet.
+***
+
+/d/Shire/bree/rooms/road/attic1
+This room needs to be magic mapped.
+Can we fix the formatting of this room please.
+-- More -- 60/120 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+As this is a room that requires exploration by the player to work
+out parts of the quest, we need to be very detailed with our
+descriptions. So we need add_items for:
+* junk
+****
+Arg. Again with the tab box. Why does the notepad++ update
+uncheck the tab to spaces box? Annoying. Anyway, that's fixed.
+Junk added.
+****
+
+/d/Shire/bree/rooms/road/roof1
+This room needs to be magic mapped.
+/d/Shire/bree/rooms/road/path1
+This room needs to be magic mapped.
+/d/Shire/bree/rooms/road/path2
+This room needs to be magic mapped.
+/d/Shire/bree/rooms/road/path3
+This room needs to be magic mapped.
+****
+Map Added
+****
+Can we fix the formatting of this room please.
+***
+fixed
+***
+For the climb_lattice function can we change the fail message to
+let them know they hurt themselves from falling, seeing we are
+taking health from the player?
+***
+added OUCH! That hurt!
+***
+
+/d/Shire/bree/rooms/road/broad06
+Need to add some clues here about the secret path around the side of
+the AG.
+****
+broad06_new has those hints. I didn't want to change a live room until
+the area was approved to be opened. It will be ranamed as broad06 when 
+everything opens
+****
+
+/d/Shire/longbottom/rooms/smials/5_cellar
+Before I can allow for the opening of the quest I need to review
+-- More -- 90/120 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+[Finwe link-died]
+Longbottom, as one of the quest items is there.
+***
+agreed. The areas will (hopefully) open together.
+***
+
+/d/Shire/frogmorton/smial01a
+The quest doc says the nozzle is in this room.
+I can't find where in the code the nozzle is to be found?
+****
+smail01a_2020 is the placeholder file. Sorry.
+When the area is approved, i'll rename it to smial01a 
+which is why the doc is written that way.
+****
+
+
+
+/d/Shire/eastroad/npc/imbert
+Can we include an add_ask for 'pieces' that gives the player
+an idea of how many pieces are left for them to find.
+***
+fixed
+***
+
+LONGBOTTOM INITIAL REVIEW
+Missing a "." at the end of one of the room tells.
+A gentle breeze blows across the land
+/d/Shire/ns_road/rooms/road12
+The ruffians should only block from one direction. Considering
+it is right next to a newbie hunting zone it becomes a death
+trap for them.
+Check "_live_o_last_room" prop the room the player entered, and
+have the exits block depending on the direction they came from.
+(actually an easier prop to check is "_live_s_last_move",
+so check for their last movement string.
+A.K

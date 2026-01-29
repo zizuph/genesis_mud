@@ -1,0 +1,94 @@
+Message: 95
+From   : Tigerlily
+Subject: Ranger skills
+To     : Eowul
+CC     : Serif, Gwyneth and Tigerlily
+Date   : Wed Apr  7 23:12:38 2004
+
+Hi Eowul,
+
+I placed an updated version of the rangers addendum under
+/d/Gondor/info/GUILD/..
+
+Below I have added my responses to your comments. 
+
+In addition, I added .5 to the tax for the RoN for their
+stealth cloak. The file for this exists under
+/d/Gondor/guilds/rangers/obj/cloak_base.c. I also added
+this to the docs. Let me know if that assessment is ok.
+It is for RoN only.
+
+Please let me know if there is anything else that needs
+tweaking or if there are any other issues.
+
+Thank you very much for your time. :)
+
+Tigerlily
+
+**********************************************************************
+Hey Tigerlily,
+
+Comments thus far on the skill part of your document.
+
+- Apprentice skills calculation is correct.
+
+- The total number of taxable slots in the RoI is 570 where for occupational
+  guilds a maximum of 550 is allowed. 
+  ** My typo, for defense should have been 55, instead of 75 (75-20)--
+     I corrected this and it totals to 550.
+
+- I am not completely sure about the tax also being payed over the 105 
+  slots the primary weapon skill uses instead of just over 60 (the 105 is
+  as far as I know primarly to for the 550 tax limit) but I will check 
+  this with Mrpr and Mercade.
+  **For now I left the tax for additional slots in the doc, until
+    a decision is made.
+
+- You also mention the .6% tax for the weapon choice, why was this done, 
+  and what are the three weapon choices?
+  **Per your suggestion, I removed the additional tax for weapon choice,
+    since the choice is mutually exclusive. The choices are thus: for RoN
+    choice between bow and sword. For RoI choice between sword and
+    polearm. If a selection is made, the alternate weapon can't be 
+    trained above Adv. Guild levels. So depending on which company 
+    the player is in, they can train up one weapon skill. 
+
+- Awareness is a general skill and as such does not need the 4x modifier
+  on taxable slots (for the RoN)
+  ** I corrected the slots computation for RoN awareness and added
+     5 levels each to the magic skills abjuration, life spells, and
+     conjuration (15 levels).
+
+- Perhaps you want to use those few extra slots of offer some parry to
+  the North company? 
+  ** For these very few slots I think it is best spent on magic. Hopefully,
+     the level of defense will give them what they need for defensive
+     skills.
+    **Correction May, 2004: extra 15 levels spent on additional 5 levels of
+          awareness, sneak, and hide, not magic. 
+
+- For the primary weapon skill of the RoN you use (75-30)+5*4 as calculator
+  for the slots where you actually train 80 levels, so the formula would be
+  (80-30)+(5*4) which results in 70 taxable slots instead of 65.
+
+  ** Actually I think this calculation is correct, per man guilds3:
+
+    "So if a occupational ranger guild offers 90 levels of SS_WEP_SWORD
+     they would have to give up ((75 - 30) + (15 * 4)) 105 taxable skill
+     slots."  
+
+     Hence for RoI with 90 for sword or polearm, the formula 
+     is (75-30) + ((90-75) * 4) = 105 slots, and for RoN
+     it is (75-30) + ((80-75) * 4) = 65 slots, with the additional levels
+     over 75 calculated with the 4 multiplier. 
+    
+
+Hopefully I will be able to give you the answer on the extra tax for the
+primary weapon soon.
+
+** Per your suggestion and comparing it to the merc tax computations,
+    I removed the additional tax for weapon choice.
+
+
+Eowul
+

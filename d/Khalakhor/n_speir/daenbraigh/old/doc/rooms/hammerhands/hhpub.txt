@@ -1,0 +1,21 @@
+The pub of hammerhands
+
+Properties:
+hammerhand inside, a restaurant
+
+Items: tables, counter, bottles
+
+Objects: barman and veteran
+
+Actions: restaurant actions
+ask the veteran for quests
+
+Exits: according to map
+
+Special:
+Menu -
+a grog
+a beer
+a liquid club shot
+a northern stew
+a buckwheat porridge

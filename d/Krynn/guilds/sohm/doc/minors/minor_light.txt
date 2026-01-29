@@ -1,0 +1,47 @@
+
+     Spell name: Light spell
+                 shirak
+         Effect: Basic light spell
+           Type: Instant
+        Targets: None
+        
+        Element: Fire        / 30
+           Form: Abjuration  / 30
+    Spell power: Power 2 [Minor spell]
+     Spell type: light spell 
+     
+       Peaceful: No
+     Stationary: No
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: none
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_ROUTINE
+     Combat Aid: 0% 
+
+            Tax:  0.25
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x1.0   Routine difficulty
+                  x1.5   no material component  
+                 ------
+                  0.375%  total tax
+   ------------------------------------------------------------
+   Comments: Standard light spell that offers between 1 and 5
+   levels of light depending on spell success and stats:
+
+    light_bonus = min(5, max(1, (power - 220) / 30));
+
+    // Int/wis of 100, spell skills 20 / 50 / 75 / 100
+    //             spell power:  269 / 284 / 302 / 317
+    //             light bonus:   1 / 2 / 2 / 3
+
+    // Int/wis of 200, spell skills  50 / 75 / 100
+    //             spell power:    348 / 364 / 384 
+    //             light bonus:     4 / 4 / 5
+   ------------------------------------------------------------

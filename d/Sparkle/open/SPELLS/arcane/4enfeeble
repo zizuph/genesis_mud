@@ -1,0 +1,18 @@
+Name: Enfeeble
+
+Object: /d/Sparkle/guilds/arcane/spells/enfeeble.c
+
+Cost: 
+
+Skills: 
+
+Description: Tier 4 spell
+         Targets: 1, specified target required
+		 Lowers the strength of the target and reduces
+		 a moderate amount of fatigue. Can not be cast
+		 in combat.
+		 
+Requirements: 
+    SS_ELEMENT_WATER
+    SS_FORM_CONJURATION
+    Beer

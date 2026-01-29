@@ -1,0 +1,69 @@
+Limits for damage/healing outpot of spells.
+
+This document is produced by balance in an effort to develop a solid ruleset
+for what is and is not allowed when coding damage/healing spells. Component and
+mana requirements are not covered here, we're just trying to set up limits for
+how powerful these spells may legally be.
+
+The most sensible measure to use for the power of such a spell is average
+damage dealt or healed per second (adps for short). Calculate this by assuming
+a big member - with maxed skills, 160 stats, and averaging out any random 
+factors, then dividing by the average casting time (for the same member). As an
+example, a harm spell with pen = 5*guildstat and a casting time of 4, would 
+be evaluated as follows: pen = 5*160 = 800. That means a hit_me for 800, which
+means damage dealt = 800/4 + random(800/4) + random(800/4) + random(800/4). 
+Taking averages that works out to roughly 500 damage, which means 500/4 = 125 
+adps.
+
+Harm and heal spells are the easiest to calculate adps for. In the case of 
+bolts, you will also need to multiply by the chance it will actually hit the
+target. This may actually depend on the opponent, in which case one should 
+assume equal stats and maxed adventurer's guild skills for him/her, and 40
+AC.
+
+We propose that the absolute limit for adps dealt by any spell be set to 200.
+Obviously spells of that power should only be available to the most offensively
+oriented guilds (or defensively, for healing spells with 200 ahps), but such 
+guidelines are not the subject of this document. For spells that both heal and
+deal damage, 200 is also the max for the combined adps and ahps the spell does.
+
+200 adps/ahps is the most important limit, but further restrictions are
+necessary for sanity's sake. The 2-second spell doing 4000 damage 10% of the
+time and nothing the rest of time is an example of that necessity - it's
+within the limit, but certainly not something we want in the game. A cap of 
+some kind is needed, and in my opinion the best way to set one is to just pick
+a number as the maximum number of hit points any spell may heal or deal in one
+go, if everything goes right. I propose the number 1600. So 1600 would be the
+practical limit for the pen of any harm or bolt spell, and heal.
+
+As a more practical example than the harm spell above, I include an analysis of
+the Morgul flame breath spell in the light of these guidelines.
+
+It is a bolt spell. Pen is decided by F_PENMOD(100 + random(26), sum of caster
+occ stat, conjuration and fire skills). Taking guildstat to be 160, conjuration
+80 and fire 40, you get an average pen of F_PENMOD(113, 280) which is 1256. 
+Average damage then is about 785. Bolts are affected by AC, so for a 40 AC 
+target pen is reduced by 10 to 775. Casting time is 3 seconds for a 160 occ 
+stat mage, which means preliminary adps of 775/3 = 258. 
+
+As it's a bolt spell, we also need to figure chance of missing. It misses if:
+target->resolve_task(TASK_FORMIDABLE, ({TS_DEX, SS_DEFENSE}), caster, 
+({SKILL_AVG, TS_INT, TS_WIS, SKILL_END, SS_FORM_CONJURATION})) >= 0, 
+Using 160 stats for all, 30 defence for the target and 80 conjuration for the
+caster, this reduces to a formidable task with -50 total skill modifier. So the
+bolt never misses in this case (you need at least a 60 positive skill modifier
+to even have a chance at succeeding a formidable task). The same would be the
+case if the target had 100 defence.
+
+The final adps number then for flame breath is 258. Above our defined limit of
+200, but this could perhaps be fixed by introducing a more reasonable task to 
+avoid being hit. 
+
+As for maximum damage possible, that is easier to figure. If the bolt pen can
+ever exceed 1600, it would be in violation of this guideline. Pen is decided
+by F_PENMOD(100 + random(26), sum of caster's occ stat, conjuration and fire
+skills), as above. Theoretically that means unbounded damage, as there is no
+hard cap on guild stat contribution. However, the caster would need the absurd
+guild stat of 273 for pen to have even a chance of exceeding 1600, so I'd say 
+the flame breath spell is fine with respect to our max damage limit.
+

@@ -1,0 +1,39 @@
+domain,quest desc,group,bit,validation,arguments
+Shire,Hin Warrior Guild,0,0,always_false,0,0
+Shire,Spelltome,0,1,false_unless_done
+Shire,Letter Quest #1,0,2,default
+Shire,Letter Quest #2,0,3,default
+Shire,Black Horse,0,4,default
+Shire,Cart Quest,0,5,default
+Shire,Help Mrs. Maggot #1,0,6,default
+Shire,Help Mrs. Maggot #2,0,7,default
+Shire,Fix Bracelet,0,8,default
+Shire,Lost Brooch,1,0,default
+Shire,Writing Quest,1,2,default
+Shire,Imladris Forest,1,3,default
+Shire,Help Tom Bombadil #1,1,4,default
+Shire,Help Tom Bombadil #2,1,5,default
+Shire,Farmers Hay,2,0,default
+Shire,Hobbit Lunch Quest,2,1,default
+Shire,Find Bracelet,2,2,default
+Shire,Milk Quest,2,5,default
+Shire,Adventuresome Hobbits Entrance,2,6,false_unless_done
+Shire,Pie Quest,2,7,default
+Shire,Boar Quest,2,8,default
+Shire,Locket Quest,3,0,default
+Shire,Moria Exit,3,1,default
+Shire,Fishing Quest,3,3,default
+Shire,Mapping Quest,3,6,default
+Shire,Feather Quest,3,7,default
+Shire,Gem Quest,3,8,default
+Shire,Climb Quest,3,9,false_unless_done
+Shire,Torch Quest,3,10,default
+Shire,Prisoners Part #1,3,11,default
+Shire,Prisoners Part #2,3,12,default
+Shire,Prisoners Part #3,3,13,default
+Shire,Prisoners Part #4,3,14,default
+Shire,Smart Goblins Club,4,0,always_false,4,0
+Shire,Heralds of the Valar Guild,4,1,always_false,4,1
+Shire,Trickster Guild,4,2,always_false,4,2
+Shire,Old Fogeys Club,4,4,always_false,4,4
+Shire,Equestrian Club,4,7,always_false,4,7

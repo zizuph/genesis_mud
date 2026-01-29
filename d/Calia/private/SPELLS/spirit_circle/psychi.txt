@@ -1,0 +1,5 @@
+Spirit Talk -      Tell line spell, can contact anyone present (and not
+                   a wizard, or invisible, or linkdead) in the realms.
+                   It will not initiate combat. It may be cast in combat.
+                   No component required. 10 mana for known people, 20 mana
+		   for unknown people. Available to all members.

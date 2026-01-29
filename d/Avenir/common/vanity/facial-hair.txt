@@ -1,0 +1,191 @@
+ssn  539 04 1794
+
+
+Facial hair grows in 5 different areas: 
+
+The mustache - the hair above the upper lip. 
+The soul patch, flavor savor, or jazz dot - the strip of hair directly underneath the bottom lip. 
+The goatee - the hair on the front of the chin, above the jawline, and expanding to the cheeks. 
+The side-burns or mutton-chops - the hair on the cheeks above the jawline. 
+The neck - everything that grows below the jawline. 
+
+full beard and mustache, 
+goatee and floting mustache, 
+extended goatee (includes more of the chinline. A full beard minus sideburns and cheeks)
+balbo(beard along the chinline w/o sideburns and a floating mustache), 
+chin strip and mustache, 
+chin strip (a vertical line of hair down center of the chin) 
+neckbeard
+goatee (chin beard, usually tapering to a point, no stache)
+petite goatee (small short beard at the tip of the chin, no mustache)
+soul patch,
+chin curtain/chin strap (sideburns and beard that circles the chin, no mustache)
+mutton chops (long sideburns), muttonchips with mustache, 
+clean-shaven,
+shadow.
+stubble/scruff
+stubble beard, 
+short boxed beard (a short beard and mustache with neatly trimmed sides) 
+beardstache -- full stache, stubble-beard.
+
+circle beard (connecting chin strip and mustache)
+ANCHOR BEARD - A pointed beard that traces the jawline, paired with a musta
+
+pencil mustache - thin short devlish just above the top lip
+parted pencil mustache - thin short dastardly, indent above the lip is shaved bare
+lampshade mustache - smaller than top lip, entirely above top lip, neat
+chevron mustache - covers entire top lip, wider than lip, curves slightly down.
+painters brush - like chevron but straight line, natural stache
+walrus mustache - big bold thick covers entire top lip and much of the bottom one.
+horseshoe mustache - covers upper lip with long bars pointing downward, includes
+    cheek hair, chine shaved in the middle.
+original stache -- trim mustache that sits above the top lip
+handlebar - thick, long mustache with ends curled upwards and waxed.
+english -- thinner mustache with ends waxed straight
+hungarian -- long walrus with upward swooping handles (wyatt earp)
+Dali -- pencil mustache with long ends waxed upwards.
+fu manchu -- mustache grown from top corners of the mouth only, center shaved,
+    groomed to long, trailing ends
+	
+subloc shows length color style, as in waist-length brown forked beard.
+
+for beard, choose style first, because clean shaven and beardless don't have length or colour.
+for mustache, choose style first, since "no mustache" doesn't have 
+
+
+
+	
+#define O_HAIR_LENGTHS \
+([ \
+	"scruf" : "scruffy", \
+    "stub"  : "stubbly", \
+	"fuzz"  : "fuzzy", \
+	"brist" : "bristly", \
+    "vshor" : "very short", \
+    "short" : "short", \
+	"clcut" : "close-cut", \
+	"sqcut" : "square-cut", \
+    "trim"  : "neatly-trimmed", \
+	"mdlen" : "medium-length", \
+	"long"  : "long", \
+	"vlong" : "very long", \
+	"knee"  : "knee-length", \
+	"waist" : "waist-length", \
+	"ankle" : "ankle-length", \
+    "thin"  : "thin", \
+	"wisp"  : "wispy", \
+    "tidy"  : "tidy", \
+	"bushy" : "bushy", \
+	"thick" : "thick", \
+    "full"  : "full", \
+	"flow"  : "flowing", \
+	"fab"   : "fabulous", \
+    "mag"   : "magnificent", \
+])	
+
+
+#define O_HAIR_COLOURS \
+([ \
+   "yellow" : "yellow", \
+   "blond"  : "blond", \
+   "sblond" : "strawberry blond", \
+   "pblond" : "platinum blond", \
+   "gold"   : "golden", \
+   "goldst" : "gold-streaked", \
+   "goldbr" : "golden brown", \
+   "lbrown" : "light brown", \
+   "brown"  : "brown", \
+   "cbrown" : "chocolate brown", \
+   "dbrown" : "dark brown", \
+   "chest"  : "chestnut coloured", \
+   "auburn" : "auburn", \
+   "drkaub" : "dark auburn", \
+   "red"    : "red", \
+   "flred"  : "flame red", \
+   "rdgold" : "red-gold", \
+   "ginger" : "ginger", \
+   "copper" : "coppery", \
+   "copstr" : "copper-streaked", \
+   "orange" : "orange", \
+   "borang" : "bright orange",  \
+   "pink"   : "pink", \
+   "ppink"  : "pastel pink", \
+   "hpink"  : "hot pink", \
+   "green"  : "green", \
+   "lime"   : "lime green", \
+   "pstgrn" : "pastel green", \
+   "drkgrn" : "dark green", \
+   "blugrn" : "blue-green", \
+   "tblue"  : "turquoise blue", \
+   "blue"   : "blue", \
+   "lblue"  : "light blue", \
+   "cyblue" : "cyan blue", \
+   "dkblue" : "dark blue", \
+   "purple" : "purple", \
+   "violet" : "violet", \
+   "indigo" : "indigo", \
+   "black"  : "black", \
+   "rblack" : "raven black", \
+   "jblack" : "jet black", \
+   "grey"   : "grey", \
+   "lgrey"  : "light grey", \
+   "dgrey"  : "dark grey", \
+   "iron"   : "iron grey", \
+   "grizz"  : "grizzled", \
+   "spgrey" : "salt-and-pepper grey", \
+   "silver" : "silvery", \
+   "stslvr" : "silver-streaked", \
+   "dwhite" : "dingy white", \
+   "white"  : "white", \
+   "swhite" : "shimmering white", \
+   "rbow"   : "rainbow-coloured", \
+])
+
+
+#define O_STACHE_STYLES \
+([ \
+   "must"    : "mustache", \
+   "penmust" : "pencil mustache", \
+   "penmstr" : "pencil mustache with ends waxed straight", \
+   "penup"   : "pencil mustache with long ends waxed upwards", \
+   "chevron" : "chevron mustache", \
+   "pbmust"  : "painters brush mustache", \
+   "wmust"   : "walrus mustache", \
+   "hsmust"  : "horseshoe mustache", \
+   "hbmust"  : "handlebar mustache", \
+   "manchu"  : "fu manchu mustache", \
+   "brmust"  : "braided mustache", \
+   "waxmust" : "waxed mustache", \
+])	
+
+
+	
+#define O_BEARD_STYLES  \
+([ \
+    "shadow" : "shadow of a beard", \
+	"beard"  : "beard", \
+	"patch"  : "soul patch", \
+	"strip"  : "chin strip", \
+    "puff"   : "chin puff", \
+    "neck"   : "neckbeard", \
+	"strap"  : "chinstrap beard", \
+	"curt"   : "chin curtain beard", \
+	"mutt"   : "mutton-chops", \
+	"gtee"   : "goatee", \
+	"point"  : "pointed beard", \
+	"fork"   : "forked beard", \
+	"well"   : "well-groomed beard", \
+    "wavy"   : "beard that is wavy",  \
+    "curly"  : "beard that is curly", \
+    "wiry"   : "beard that is wiry", \
+    "ring"   : "beard styled with ringlets", \
+    "braid"  : "beard plaited in a braid", \
+	"mbraid" : "beard plaited into many braids", \
+    "matted" : "beard matted with blood", \
+    "wild"   : "beard that is wild and unkempt", \
+    "free"   : "beard that is freeflowing", \
+	"trink"  : "beard decorated with trinkets", \
+	"ctie"   : "beard that is tied near the chin", \
+	"etie"   : "beard that is tied near the end", \
+    "fkwax"  : "beard that is forked and waxed into two points", \
+]) 

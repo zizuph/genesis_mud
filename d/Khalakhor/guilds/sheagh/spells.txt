@@ -1,0 +1,14 @@
+Spell      Comments             Form    Element Level
+=====      ========             ====    ======= =====
+sanctuary  target petrified     ench    earth   advanced
+awe        enemy flees          ench    life    advanced
+mudskin    raises AC, dmg weps  ench    earth   advanced
+cognizance see dark/invis       ench    life    intermed
+courage    team resists fear    ench    earth   intermed
+reflect    reflect next specl   ench    earth   intermed
+burrs      xtra dmg (poison)    ench    earth   intermed
+mute       mutes target         ench    life    minor
+inquisitn  evil glows           divi    life    minor
+knowledge  divine item's source ench    earth   trivial
+diagnose   diagnose injuries    divi    life    trivial
+sheagh     guild members online divi    life    trivial

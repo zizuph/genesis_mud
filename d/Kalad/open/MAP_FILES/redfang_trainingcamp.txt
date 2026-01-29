@@ -1,0 +1,43 @@
+redfang_training_camp
+::MAPDATA::
+redfang_camp1 29 18
+redfang_camp2 25 18
+redfang_camp3 23 16
+redfang_camp4 23 14
+redfang_camp5 27 14
+redfang_camp6 31 14
+redfang_camp7 35 14
+redfang_camp8 39 14
+redfang_camp9 23 12
+redfang_camp10 27 12
+redfang_camp11 31 12
+redfang_camp12 35 12
+redfang_camp13 39 12
+redfang_camp14 27 10
+redfang_camp15 31 10
+redfang_camp16 35 10
+redfang_camp17 39 10
+redfang_camp18 43 10
+::MAPDATA::
+
+
+                   
+                       =========================
+                         Red fang training camp
+                       =========================
+
+
+        @@@ @@ @ @@ @@@  @ @  @ @@ @   @ @@  @@  @    @@@ @  @@ @@ @
+        @  @@@ @@ @@ @           @        @                  @  @@ @ @@        
+        @@ @@     @ @@     O - O - O - O - O  @@ @@  @ @ @@
+          @@@  @@  @@   /  |   |   |   |              @@ @@  @@    @   @
+        @  @   @ @ @   O - O - O - O - O @@  @ @ @@ @@ @ @  @@ @@   @
+         @   @  @@ @   |   |   |   |   | @ @@   @@   @  @ @ @ @  @ @ 
+        @@  @ @@ @@    O - O - O - O - O @ @  @    @@ @@  @@@    @ @@
+          @  @@ @ @@   |                 @@  @@ @ @   @@   @@  @ @@@@              
+           @   @@ @@   O   @ @@   @  @@ @@  @ @@ @@ @ @ @@  @@  @@
+          @ @@  @  @ @@ \    
+               @ @  @@@  O - O  Road to the farmlands of Kalad
+
+
+

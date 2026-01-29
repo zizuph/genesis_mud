@@ -1,0 +1,52 @@
+This document contains what is expected from the Steward of the Shire.  
+It attempts to explain the duties and responsibilities of the Steward as 
+well as some of the perks.
+
+Description of a Steward
+------------------------
+A Steward is basically an assistant liege, having many of the same duties 
+and responsibilities of a Liege.  As well as doing normal wizard work like 
+creating areas, he (or she) along with the Liege of the domain, work 
+together on where the domain should be headed and adding their input in 
+creation of new areas.  The Liege-Steward relationship is a bit one sided 
+though as the Liege _always_ has the final say in all matters dealing with 
+the Domain.
+
+Duties and Responsibilities of a Steward
+----------------------------------------
+Well basically a Steward is responsible for the well-being of the domain 
+like the Liege is.  Dealing with mortal concerns bugs, typos, etc.. are 
+part of every wizard in the Shire but the Steward is expected to take a 
+greater interest in making sure the domain is running smoothly.
+
+If the Liege takes an extended leave of absence, the Steward will be 
+responsible in looking after the day to day operation of the domain,  
+basically assuming the position of Liege until the real one returns.
+This is to ensure that the domain runs smoothly in case the Liege has to 
+go away for an extended time.
+
+Stewards are involved in the drafting of new members of the domain. They 
+have the power to accept apprentices into the domain but should only draft 
+new members if the Liege has approved them or the Liege has given the 
+Steward the right to accept new members into the domain with his 
+consultation (This usually happens when the Liege is away for an extended 
+period of time).
+
+Stewards are expected to take a more active roll in helping new wizards in 
+the domain.  All Shire wizards are expected to be helpful to new wizards 
+here but the Steward is expected to go one step further and lend a hand in 
+teaching the wizard about how one should code in the Shire.
+
+This is the main part of the Stewards responsibilities, tasks or projects 
+given by the Liege to the Steward.  Examples of tasks are:
+
+    * Snooping mortals in a newly opened area to find bugs in code or to 
+      see if mortals are abusing bugs or running other mortals through 
+      quests.
+    * Assisting the Liege in code reviews.
+    * Assisting the Liege in making sure the documentation of the domain 
+      is current.
+
+Created by Igneous Dec 3 1997
+
+Last Updated by Igneous Dec 3 1997

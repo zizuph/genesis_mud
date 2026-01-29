@@ -1,0 +1,5 @@
+Light -            Your standard garden variety light spell, two levels
+                   of light when it is cast and it cannot be stacked. 
+                   It will not initiate combat. It can be cast in
+                   combat. Requires a quartz. 20 mana. Duration maximum
+                   is 600. This spell is available to all members.

@@ -1,0 +1,37 @@
+
+     Spell name: Blink
+                 ripeidronik
+         Effect: A spell that moves a player behind a random team member
+           Type: Maintained
+        Targets: Caster
+        
+        Element: Air          / 50
+           Form: Abjuration   / 50
+    Spell power: Power 2 [Minor spell]
+     Spell type: blink spell 
+     
+       Peaceful: No
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: hazelnut (56cc)
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_ROUTINE
+     Combat Aid: 0% (Calian move behind described as no combat aid).
+
+            Tax:  0.25
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x1.0   Routine difficulty
+                  x1.0   material component  
+                 ------
+                  0.25%  total tax
+   ------------------------------------------------------------
+   Comments: A minor protection spell moving the caster behind
+   a random team member when attacked.
+   ------------------------------------------------------------

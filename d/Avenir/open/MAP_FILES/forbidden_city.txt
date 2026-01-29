@@ -1,0 +1,21 @@
+main
+::MAPDATA::
+a15 3 2
+a16 7 2
+a17 11 2
+a18 13 4
+e2 5 6
+e1 9 6
+courtyard 13 6
+e3 17 6
+ez0 13 8
+::MAPDATA::
+
+
+ - o - o - o
+            \
+             o
+             |
+     o - o - o - o
+             |
+             o

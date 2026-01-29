@@ -1,0 +1,36 @@
+/* 
+* Standard guard for Gont Port
+*
+* Coded by Porta, Dec 97
+* updated by Amelia to use basic_guard.c  2/98
+*/
+
+inherit "/d/Earthsea/std/monster";
+inherit "/d/Earthsea/gont/gont_city/liv/basic_guard.c";
+
+#include "/sys/macros.h"
+#include "/sys/ss_types.h"
+#include "/sys/stdproperties.h"
+#include "defs.h"
+#include "basic_guard.h"
+#include "/sys/money.h"
+
+
+void
+create_earthsea_monster()
+{
+    ::create_guard();
+    set_gender(random(1));
+    set_levels(4);
+    set_alignment(random(35));
+    set_long(TO->query_long() + capitalize(TO->query_pronoun()) +
+      " appears to be an experienced veteran.\n");
+    add_name("_guard4_");
+    (MONEY_MAKE_GC(random(5)))->move(TO);
+    add_equipment(({WEAPONS[random(sizeof(WEAPONS))], BOOTS,
+	HELM, RINGMAIL }));
+
+    set_pick_up("guard");
+
+}
+

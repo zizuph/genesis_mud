@@ -1,0 +1,72 @@
+main
+::MAPDATA::
+escalator_up 8 16 level2
+landing 8 16 level2
+c_west 8 16 level2
+c_west1 8 16 level2
+theatre 8 16 level2
+study 8 16 level2
+rehearsal 8 16 level2
+c_east 8 16 level2
+c_east1 8 16 level2
+c_east2 8 16 level2
+tag 8 16 level2
+::MAPDATA::
+                          =====================
+                           The City of Sparkle
+                              Hub of Genesis    
+                          =====================
+     (Please note, due to increased traffic, the city is currently under 
+   construction in many areas to meet the demands of local commerce. Expect
+    changes to occur to this map and the city structure without warning.)
+                   . . . . . . . . . . . . . . . . . . . . . . . . . . .      
+     . . . . . . . .                     .                             .
+     .             .                     .           All major Ports   .
+     .  o - o      .                     .           of Call can be    .
+     .  |          .                     .           reached via these .
+     .- o  Town    .    o - o - o - o - o.- o - o    various shipping  .
+     .  | Center   .    |                .      |    lines.            .
+     .  o          .    o                .      o                      .
+     .  |          . .  |    Western     .                             .
+     .  o - o - o - o.- o     Docks      .   Eastern Docks             .
+     .               .  |                .                             .
+     . . . . . . . . .  o - o - o - o - o.- o - o - o - o - o - o - o  .
+                     .      |            .                             .
+                     . . . .|. . . . . . . . . . . . . . . . . . . . . .
+
+::NEWMAP::
+level2
+::MAPDATA::
+escalator_up 38 10
+landing 38 10
+c_west 32 10
+c_west1 26 10
+theatre 22 8
+study 22 12
+rehearsal 18 12
+c_east 42 10
+c_east1 46 10
+c_east2 50 10
+tag 50 12
+::MAPDATA::
+
+  +------------------+
+  |    Mvsevm of     |
+  |  Genesis Events  |
+  +------------------+
+
+
+                   Theatre
+                      o
+                        \           \ | /
+                          o --- o --- o - o - o - o
+                        /           / | \         |
+                  o - o                           o
+               Scriptorium                     Tag Game
+
+
+
+
+
+
+

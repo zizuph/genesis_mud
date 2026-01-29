@@ -1,0 +1,18 @@
+A regular shop for the hammerhands guild
+doesn't trade with the ones who should be attacked.
+
+Properties:
+hammerhand inside
+
+Items: bin, counter, shelves
+
+Object:
+Hammerhand shopowner
+
+Actions:
+regular shop
+
+Exits: according to map
+
+Special:
+Should have packs and sacks and money pouches in store

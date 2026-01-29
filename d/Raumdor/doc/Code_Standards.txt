@@ -1,0 +1,164 @@
+CODING STANDARDS
+================
+
++ This document is a derivative of /d/Genesis/man/general/code_standards as of
++ March 20th, 2018. It uses a modified diff syntax (> for removed lines, + for
++ added lines) to highlight differences permitted or encouraged in the Raumdor
++ domain.
+
+> These standards are mandatory for all new code mudlib code and strongly
+> encouraged for other code in the game.
+
++ When creating new code, you are expected to follow these standards well. When
++ modifying existing code, it is expected you (A) follow the patterns
++ established in that code, (B) change that code to be more internally
++ consistent or consistent with these standards, or (C) as a last resort, just
++ leave it no worse than you found it. For example, if the entire file uses 3
++ spaces for indentation, don't add lines with 4 spaces unless you update the 
++ surrounding code. Consistency makes it easier for someone else to follow
++ option (B) later. If the file is already inconsisent, use that thing on your
++ shoulders to do the best you and at least don't make things worse. 
+
+There are several reasons to ask everyone to use uniform code standards in
+their code:
+
+- It makes the code much more readable, not only for others, but also for
+  yourself if you have to read or alter the code six months after you produced
+  it. In this respect type declarations are especially useful to understand the
+  code since it is easier to comprehend the functionality if you know the types
+  of parameters and return values.
+- Since it is easier for others to read, and therefore easier to understand
+  what you have done, it will be easier for others to help you in case of any
+  problems. This goes both ways naturally.
+- Type declarations are especially useful to shows bugs in your code that would
+  otherwise only surface in runtime errors, so it will aid you debug your code.
+- Some of the standards mentioned are better for the memory-usage or may in the
+  future indeed speed up the evaluation of the code.
+- Code that is to be included in the mudlib must obey these standards since we
+  consider them very useful. You are encouraged to use them for your domain
+  code too, but that is not mandatory.
++ - Consistent coding patterns greatly enhances the sophistication with which
++   one can use text tools, e.g. grep, sed, awk, and advanced text editors.
++   This is largely thanks to the power of regular expressions or similar
++   search pattern standards.
+
+
+STANDARDS
+=========
+
+- Always use 4 spaces between indentation levels.
+
+- Place the { and } on separate lines, on the old level of indentation.
+
+- Use only one statement per line, even for very short statements.
+
+- Long statements should be broken over several lines. Normally lines should be
+  smaller than 80 characters. Reading lines exceeding 80 characters can be very
+  inhandy and printing them is even worse.
+> When wrapping long lines, also use 4 spaces as indent.
++   When wrapping and creating continuation lines, there should be 2 characters
++   of indentation or alignment by operator. This makes it easier to quickly
++   discern the difference between a continuation and a new statement.
+
+- Reserved words, like the LPC commands i.e. 'if' and 'while', should be
+  followed by a space before the following breaket '('. Normal function names,
+  i.e. 'create_object', should not have a space between the function name and
+  the following breaket '('.
+
+- In if-else-statements you should put the if-statement and the command
+  executed if it comes true on separate lines, preferably even separated by
+  lines with { and }. The same goes for for- and while-loops. It improves
+  readability to use { and } even if only one statement needs to be executed in
+  the 'if', 'else', 'for' or 'while'.
+
+- Operators like '+' should be surrounded by spaces, ergo 'a + b'. The only
+  exception to this is '->' which is used in the form 'a->b'.
+
+> - The header of a file should always contain a comment block that includes the
+>  filename of the file, the name of the author, the date of creation and a
+>  description of what it does. In objects you may also want to include a list
+>  of the objects that make use of the code in this file if that is not too
+>  long, i.e. in an NPC the path to the room where the monster lives.
+
++ - The header of a file should always contain a comment block if there is
++   pertinent information that is not otherwise obvious or easily obtainable.
++   For example, a file that allows special calculations for a particular 
++   purpose should at least briefly describe this purpose. Such a comment
++   block should NOT contain the file name in domain code. This should be
++   easily obtainable from the file system and creates unnecessary work when
++   renaming, moving, or otherwise reorganizing code. Authorship is optional,
++   though one should ensure credit is retained. Should a file with such
++   credit be modified so as to no longer resemble the original, credit should 
++   relocated to to the domain's top-level credit documentation.
+
+> - All functions should be preceeded by a comment block, looking like the block
+>  in the example below. The four typical parts of that comment block are
+>  'Function name', 'Description', 'Arguments' and 'Returns' where the latter
+>  two are optional. If necessary you may add other sections, though it is not
+>  likely you will need them.
+
++ - All code should be written with an emphasis on human readability. Functions
++   and variables should be named according to their purpose. Shorthand is
++   discouraged in all but the most simple cases (i for an incrementing integer,
++   str for a simple string variable, etc.).
+
+- All code must be typed. This makes the code use less memory and it is easier
+  to read.
+
+- Always use #pragma strict_types in your code, this pragma will cause an error
+  when you try to load an object with one or more functions having no return
+  type.
+
+- The type declaration (including the other declarations, mentioned in
+  'man access_classes') of a function should be on a separate line.
+
+- Semicolons ';' and commas ',' should always be followed by a space if they do
+  not terminate the line.
+
+- Make use of comments in your code when needed, but don't overdo it. Even
+  though code eventually speaks for itself, a description in plain English is
+  often very helpful. Code completely without comments is often hard to read,
+  but too heavily commented code isn't much better, especially if the comments
+  are not kept up-to-date with changes to the code. Too much commenting may
+  mean that the code is over-complicated. A good rule is to comment everything
+  that needs it, but write code that doesn't need much of it. And when you do
+  comment rather comment why something is done than how.
++   In other words, try to follow the "Code Is The Documentation" principle.
++   Where code is unintuitive or unusually complex, comments are expected.
++   Where code serves as a library, follow the mudlib standards for function
++   comment blocks.
+
+- Only use the English language in variable names and comments. It is the
+  'lingua franca' of the mud and people who do not speak your native language
+  should also be able to understand what you mean. When you need an object
+  pointer to a shoe you might clone, using 'a' or 'sko' [Swedish] as variable
+  name is not a good idea.
+
+- There should always be an empty line between the end of one function and the
+>  comment header for the next function.
++  comment header or function definition.
+
+- Inside a function empty lines should be used to increase readability. It is a
+  good practice to place empty lines between logically separate pieces of code.
+
+- When continuing long strings on another line, the '+' should come at the end
+  of the preceding line, not at the beginning of the new line.
+
+- Avoid excessive use of preprocessor macros. Macros should always serve to
+  increase the readability and portability of code, not just to save a few
+  typing strokes.
+>  Macros like e.g. E(x) or ENV(x) for environment() or CAP(x) for capitalize(x)
+>  should be avoided in this context.
++   Exception: Widely-used functions that lead to lengthy and cumbersome code
++   can replaced by macros at the discretion of the liege, including macros like
++   E(x) for environment(x). Correct use of such macros should increase 
++   readability and utility. For example:
++     TELL_CAN_SEE(E(TO), "The " + QSHORT(TO) + " ejects confetti!\n");
++   vs.
++     filter(filter(all_inventory(environment(this_object())), living),
++       &->can_see_in_room())->catch_msg("The @@vbfc_short:" +
++       file_name(this_object()) + "@@ ejects confetti!\n");
++
++   Wide use is not sufficient in and of itself. For example, set_short(x)
++   could be replacd by SS(x), but it would make code less readable and do
++   little to improve ease of coding.

@@ -1,0 +1,160 @@
+Message: 146
+From   : Xar
+Subject: ranger guild ideas
+Date   : Sat May 15 22:44:15 2004
+
+Implementation of any ideas below would be positive...
+
+Secrecy/Incognito: 
+
+Unknown Rangers (Not Remembered or Introduced):
+Ranger cloaks hide your identity but if worn, you are immediately identified
+as a ranger.  We should maintain our ranger cloaks which hide description
+so I do not see this changing.  The only ways to improve upon a cloaked
+ranger is discussed below under Ranger Cloak. 
+
+If you are not cloaked, an unknown individual can be identified as a ranger
+by the guild object/soul which gives you the following in your description:
+"You are looking grim and terrible, yet wise." for the highest rank/xp. It
+is desirable to see this removed completely if possible or only visible to
+rangers.  This would enable an unknown uncloaked ranger avoid be identified
+as a ranger.
+
+
+Known Rangers (Remembered or Introduced):
+Titles: 
+-option 1: rintro brief - we have this now - have a title which can show
+ company affiliation but no specialty or rank (except officers)- Eg. Ranger
+ of Ithilien
+-option 2: rintro full - we have this now - have a title which can show
+ specialties/rank
+-option 3: rintro none - new - be able to have no title
+-option 4: rintro west - new - have a title which can show no affiliation to
+ a particular company, how about "Ranger of the Westlands"
+
+-------------------------------------------------------------------------------
+
+Ranger Cloak: 
+-current benefits: hides your description 
+-current dissatisfiers: AC of the ranger cloak is VERY low - strong
+ dissatisfier as the cloak takes up the cloak spot but wearing it inhibits
+ our combat ability - given that our defence and parry skills are low, we
+ rely even more on having a decent AC to prevent getting beaten to a pulp
+
+-suggested ways to address: 
+ -ideal: change the cloak to not take up the cloak location so that high AC
+  robes/cloaks can be worn - what do MM do?  SU have a veil which does
+  something like this
+ -less than ideal but better than nothing if this is the only change: raise
+  the AC of the ranger cloak if it will continue to take up the cloak location
+
+-"new" cloak feature suggestions: 
+ -bottom line: when hooded, make it so you cannot be identified at all when
+  looked at! - employ Palmer's help, he's smart ;) - this needs to account
+  for quite a number of different objects and things such as: 
+ -you are automaticly unknown to everyone (not introduced or remembered) - 
+  so you are just a XXXX cloaked male human
+ -all lay guild objects that result in something displayed when looked at 
+ -all racial guild objects that result in something displayed when looked at 
+ -all club objects that result in something displayed when looked at 
+ -tattoos
+ -changing or masking a person's physical features - this is a totally new
+  idea game wide - ie I am very tall and lean for a human - remove it or
+  change it to something else
+ -obscure stat compares if possible - ie compare stats with xar if possible -
+  my size gives me away but I think to some degree, wearing a cloak / being
+  hooded can obscure that
+ -obscure worn equipment when cloaked - armours, tie pouches, satchels, etc.
+
+company guild halls: 
+-different/new locations of the company guild halls is required 
+-multiple entrances required with multiple paths to each entrance 
+-remove tracking capability if possible in the near facinity of the guild
+ halls so the halls cannot be found by following a ranger
+-there is currently a poster listing the members of each company, and one for
+ pupils as well - restrict reading access to only full ranger mortals and GM -
+ everyone else will not be able to read it - including "pupils" 
+-address wizard snooping: wizards are a primary source of guild information
+ being leaked/stolen and distributed to the world
+ -make all rooms in the guild halls inaccessable to wizards without a ranger
+  guild soul - potential exceptions: members of AoP team or wizards of a
+  certain rank or higher or wizards a part of the domain - start room
+ -don't have a standard board per say that any wizard can read using the board
+  tool or whatever - suggestions: require guild soul and be mortal, or be a
+  member of the domain etc etc - boards are a primary source of wizard
+  snoopin
+
+-------------------------------------------------------------------------------
+store bought equipment: 
+-the whetstone sucks - rumour has it that the stone permanently damages
+ weapons - it is therefore not used and is useless - I believe the SU have
+ something to sharpen weapons - might want to look at that
+
+spells, spellcasting, skills and lothmir: 
+-have at least superior journeyman level in herbalism and spellcasting - this
+ will convince a lot of rangers to leave their racial guilds that are in them
+ to address the skill lackings of the rangers - ie the skill bonuses -
+ Eg. dunedain would be a tax savings of 4%
+-being able to choose between sword or polearm as being the highest skill
+ is desired
+-other dissatisfiers/penalties: 
+ -can't cleanse in combat - this used to be there but was taken away 
+ -casting during movement fails 
+ -casting too easily interrupted by combat 
+ -casting capability is easily prevented by "stuns" 
+ -elbereth is useless - it barely affects an undead and they can immediately
+  just walk back into the room 
+ -nightvision is useless - allow the spell to work indoors and/or allow the 
+  vision to adjust to amount of darkness present - up to 20 levels? :)
+ -rest does not rest enough 
+ -whistled/pigeons - pigeons can't fly inside rooms 
+-spells are tax, therefore we don't need to pay for spells that are weak in
+ effort or have limited value - so be careful about the new ones you add
+-perhaps a spell with death magic resistance?
+
+campfires:
+ -allow a campfire to be "guard"ed by a ranger so that no one in the room
+  can extinguish, kick it, or get torches from it - if no ranger is present
+  in the room guarding it, then others should be able to do that - make 
+  campfire torches keepable
+
+lothmir:
+-he needs not sell some important herbs to non-rangers - and he needs to be
+ modified so that - he should be accessable to non-ranger non-evils but hard
+ to find - possibly consider having captain control over which herbs are
+ "not for sale" or have limited sale abilities
+
+-------------------------------------------------------------------------------
+Brawl:
+-if you start a brawl right now and the leave the room, the brawl is
+ discontinued with no message - it is probably some error path in the 
+ brawl code - if some message could be added it would help with clients
+-rknee and trip do not work on really big opponents - this blows - for example,
+ we are useless against the balrog - RoNs (with archery) may have some 
+ capability there
+-I believe there may be a racial disadvantage when it comes to brawling
+ goblins, if so, it would be nice if this was removed
+
+Council and Rules:
+-if in agreement, I'd like the GM to promote a more secretive guild
+ environment where the captains/council are directed to have rules around
+ secrecy - ie not revealing members or skills or guild knowledge in general
+ to the non-members
+
+-------------------------------------------------------------------------------
+Our enemies (mages):
+-they have a spell which can result in rangers being stunned - I believe it
+ results in being unable to cast or do any combat - could be from a spell
+ object - in reality the obvious effects of the spell is fatigue and panic -
+ would like to see this "stun" capability removed - maybe the spell is 
+ choke-horror - or maybe it is ranger code doing it
+
+-------------------------------------------------------------------------------
+RoN:
+-they need a damage special
+
+
+That's all I can think of for now!
+X.
+
+

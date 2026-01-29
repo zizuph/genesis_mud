@@ -1,0 +1,722 @@
+*****************************************************************************
+          TAX INFORMATION FOR THE ELEMENTALISTS OF CALIA (Layman)
+*****************************************************************************
+AG = Adventures Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)
+
+Legend
+------
+Elemental Seekers
+
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+General
+--------------------------------------------------------------------------
+SS_ELEMENT_AIR         50*        20          30*         1.0        0.500*
+SS_ELEMENT_FIRE        50*        20          30*         1.0        0.500*
+SS_ELEMENT_WATER       50*        20          30*         1.0        0.500*
+SS_ELEMENT_EARTH       50*        20          30*         1.0        0.500*
+SS_FORM_ABJURATION     50         20          30          1.0        0.500
+SS_FORM_CONJURATION    50         20          30          1.0        0.500
+SS_FORM_ENCHANTMENT    50         20          30          1.0        0.500
+SS_SPELLCRAFT          60*        20          30          1.0        0.500
+SS_HERBALISM           50         20          60          1.0        0.667
+--------------------------------------------------------------------------
+Totals                420*       120         250*                    4.667%
+
+* - Only one skill out of 4 elements can be 50 (fire/water/earth/air branches)
+    or spellcraft to 60 (spirit branch). All other element skills are 40
+    (spirit) or spellcraft of 50 (fire/water/earth/air branches).
+
+Taxable Slots Allowed   : 350
+
+TOTAL TAX FOR SKILLS:  Worshippers         -  4.667%
+
+
+Elemental Worshippers
+
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+General
+--------------------------------------------------------------------------
+SS_ELEMENT_AIR         50*        20          30*         1.0        0.500*
+SS_ELEMENT_FIRE        50*        20          30*         1.0        0.500*
+SS_ELEMENT_WATER       50*        20          30*         1.0        0.500*
+SS_ELEMENT_EARTH       50*        20          30*         1.0        0.500*
+SS_FORM_ABJURATION     50         20          30          1.0        0.500
+SS_FORM_CONJURATION    50         20          30          1.0        0.500
+SS_FORM_ENCHANTMENT    50         20          30          1.0        0.500
+SS_SPELLCRAFT          60*        20          30          1.0        0.500
+SS_HERBALISM           50         20          60          1.0        0.667
+--------------------------------------------------------------------------
+Totals                420*       120         250*                    4.667%
+
+* - Only one skill out of 4 elements can be 50 (fire/water/earth/air branches)
+    or spellcraft to 60 (spirit branch). All other element skills are 40
+    (spirit) or spellcraft of 50 (fire/water/earth/air branches).
+
+Taxable Slots Allowed   : 350
+
+TOTAL TAX FOR SKILLS:  Seekers      -  4.667%
+
+
+====================================
+ELEMENTAL SEEKERS SPELLS SUMMARY
+====================================
+
+Spell Name      Spell Element       Spell Description          CAID     Spell Form
+===================================================================================
+
+------------------------- LESSER SPELLS -------------------------------------------
+anemos          air                 guild member fartell                conjuration
+apodosi         water               teleport home spell                 conjuration
+elefrinisi      earth               relieve encumbrence spell           enchantment
+pyrofosti       fire                light spell                         enchantment
+
+========================================
+ELEMENTAL SEEKERS SPELLS DESCRIPTION
+========================================
+
+Anemos (Fartell)
+======================
+Guild type          : Layman
+Effect              : Communicate with other guild members
+Spell Time          : 2 seconds
+Element             : Air
+Form                : Conjuration
+Mana cost           : 15
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable           : N/A
+Difficulty          : TASK_SIMPLE
+Acquire Level       : All
+Spell Class Level   : Power 1 - Very Minor Spells
+Area of effect      : One Target Anywhere
+Duration            : Instant
+Components          : Silver Coin (12cc)
+Tax                 : 0.25%
+
+Cast Time Adjustments: Special exception for fartell spells is 2 seconds.
+
+Tax Calculations:   + 0.25% (Power 1 Spell / Layman)
+                    =======
+                      0.25%
+                                              
+Apodosi (Teleport Home)
+======================
+Guild type          : Layman
+Effect              : Transports caster back to the Elemental Temple after
+                      a delay.
+Spell Time          : 4 seconds
+Element             : Water
+Form                : Conjuration
+Mana cost           : 30
+Vocal               : Yes
+Visual              : Yes
+Stationary          : Yes
+Peaceful            : Yes
+Offensive           : No
+Renewable:          : N/A
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 50 guild stat
+Spell Class Level   : Power 2 - Minor Spell
+Area of effect      : Self
+Duration            : Delayed Instant
+Components          : Ritual (Breadroot (avg 110cc), Iridescent Opal)
+Tax                 : 0.375%
+Special Description : None
+    
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 0.50% (Power 2 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.375%
+                          
+
+Elefrinisi (Featherweight)
+======================
+Guild type          : Layman
+Effect              : Reduces the overall weight of the user's carrying
+                      capacity. Based on the featherweight spell. Factor of
+                      140 set (means caster can carry 40% more things).
+Spell Time          : 4 seconds
+Element             : Earth
+Form                : Enchantment
+Mana cost           : 30
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 30 guild stat
+Spell Class Level   : Power 2 - Minor Spell
+Area of effect      : Self
+Duration            : Maintained
+Components          : Ritual (Chalcedony (avg 36cc), Wildfeather (500cc))
+Tax                 : 0.375%
+Special Description : None
+    
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 0.50% (Power 2 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.375%
+
+Pyrofosti (Light)
+======================
+Guild type          : Layman
+Effect              : Provides one level of magical light
+Spell Time          : 4 seconds
+Element             : Fire
+Form                : Abjuration
+Mana cost           : 30
+Vocal               : Yes
+Visual              : No
+Stationary          : No
+Peaceful            : No
+Offensive           : Yes
+Renewable           : Yes
+Difficulty          : TASK_EASY
+Acquire Level       : 10 guild stat
+Spell Class Level   : Power 1 - Very Minor Spell
+Area of effect      : Caster/Self
+Duration            : Maintained
+Components          : Ritual (Quartz Shard (avg 12cc), Cranberry)
+Tax                 : 0.25%
+Special Description : None
+    
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  2 seconds (Component Cost < 1 gp)
+                    =====
+                        4 seconds
+
+Tax Calculations:   + 0.25% (Power 1 Spell / Layman)
+                    =======
+                      0.25%
+
+        
+                       
+====================================
+ELEMENTAL WORSHIPPERS SPELLS SUMMARY
+====================================
+
+Spell Name      Spell Element       Spell Description          CAID     Spell Form
+===================================================================================
+
+------------------------- LESSER SPELLS -------------------------------------------
+anemos          air                 guild member fartell                conjuration
+apodosi         water               teleport home spell                 conjuration
+choma           all elements        summon familiar spell               conjuration
+elefrinisi      earth               relieve encumbrence spell           enchantment
+pyrofosti       fire                light spell                         enchantment
+
+------------------------- DEFENSIVE SPELLS ----------------------------------------
+schirmo         all elements        elemental shield spell      15%     abjuration
+unteristi       all elements        spell resistance spell      15%     abjuration
+
+------------------------- GREATER SPELLS ------------------------------------------
+aleipso         water               heal spell                  50%     enchantment
+dynami          earth               stat boost spell            15%/30% enchantment
+evimero         air                 haste self spell            15%/30% enchantment
+floga           fire                fire attack spell           50%     abjuration
+
+
+* Note: Dynami/Evimero have dynamic combat aid. If the
+        caster only has one defensive spell (schirmo, unteristi), then
+        the combat aid will be 30%. Otherwise it will be 15%
+* Note: Dynami, Evimero, Aleipso, and Floga are considered power spells.
+        Only one can be active at any one point (ie. mutually exclusive)
+* Note: If Evimero or Dynami are active @ 30%, then only unteristi or schirmo
+        can be active, but not both.
+* Note: Lesser Spells obtained from 0-50 guild stat
+        Defensive Spells obtained at 60-70 guild stat
+        Greater Spells obtained from 80-100 guild stat
+
+========================================
+ELEMENTAL WORSHIPPERS SPELLS DESCRIPTION
+========================================
+        
+Aleipso (Healing)
+======================
+Guild type          : Layman
+Effect              : Restores lost HP
+Spell Time          : 4 seconds
+Element             : Water
+Form                : Enchantment
+Mana cost           : 30
+Vocal               : Yes
+Visual              : Yes
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No (Yes against undead)
+Renewable:          : N/A
+Difficulty          : TASK_HARD
+Acquire Level       : 80 guild stat
+Spell Class Level   : Power 3 - Intermediate Spell
+Area of effect      : Self
+Duration            : Instant
+Components          : Ritual (Strim Herb, White Pearl)
+Tax                 : 0.75%
+Special Description :
+    Spell provides 50% combat aid.
+    
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 1.00% (Power 3 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.75%
+
+Anemos (Fartell)
+======================
+Guild type          : Layman
+Effect              : Communicate with other guild members
+Spell Time          : 2 seconds
+Element             : Air
+Form                : Conjuration
+Mana cost           : 15
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable           : N/A
+Difficulty          : TASK_SIMPLE
+Acquire Level       : All
+Spell Class Level   : Power 1 - Very Minor Spells
+Area of effect      : One Target Anywhere
+Duration            : Instant
+Components          : Silver Coin (12cc)
+Tax                 : 0.25%
+
+Cast Time Adjustments: Special exception for fartell spells is 2 seconds.
+
+Tax Calculations:   + 0.25% (Power 1 Spell / Layman)
+                    =======
+                      0.25%
+                                              
+Apodosi (Teleport Home)
+======================
+Guild type          : Layman
+Effect              : Transports caster back to the Elemental Temple after
+                      a delay.
+Spell Time          : 4 seconds
+Element             : Water
+Form                : Conjuration
+Mana cost           : 30
+Vocal               : Yes
+Visual              : Yes
+Stationary          : Yes
+Peaceful            : Yes
+Offensive           : No
+Renewable:          : N/A
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 50 guild stat
+Spell Class Level   : Power 2 - Minor Spell
+Area of effect      : Self
+Duration            : Delayed Instant
+Components          : Ritual (Breadroot (avg 110cc), Iridescent Opal)
+Tax                 : 0.375%
+Special Description : None
+    
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 0.50% (Power 2 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.375%
+                          
+Choma (Summon Elemental)
+======================
+Guild type          : Layman
+Effect              : Summons an elemental to help carry things. It's
+                      mostly a thematic part of the guild.
+Spell Time          : 4 seconds
+Element             : Depends (Fire, Earth, Water, Air)
+Form                : Conjuration
+Mana cost           : 30
+Vocal               : Yes
+Visual              : Yes
+Stationary          : Yes
+Peaceful            : Yes
+Offensive           : No
+Renewable:          : No
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 40 guild stat
+Spell Class Level   : Power 2 - Minor Spell
+Area of effect      : Self
+Duration            : Maintained construct
+Components          : Ritual (Yello Topaz (avg 432cc), Streyroot (500cc))
+Tax                 : 0.375%
+Special Description : None
+    
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 0.50% (Power 2 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.375%
+
+Dynami (Stat Boosts)
+======================
+Guild type          : Layman
+Effect              : Adds boost to Strength (13%), Constitution (13%), 
+                      and Discipline (4%).
+Spell Time          : 4 seconds
+Element             : Earth
+Form                : Enchantment
+Mana cost           : 30
+Vocal               : Yes
+Visual              : Yes
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_HARD
+Acquire Level       : 100 guild stat
+Spell Class Level   : Power 3 - Intermediate Spell
+Area of effect      : Self
+Duration            : Maintained
+Components          : Ritual (Turquoise (avg 36cc), Cladina (est. 930cc))
+Tax                 : 0.75%
+Special Description :
+    Spell can have either 15% or 30% combat aid, depending on when
+    it was cast whether both defensive spells were in place or not.
+    At 15%, the boosts are at 7%/7%/1%.
+    
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 1.00% (Power 3 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.75%
+    
+Elefrinisi (Featherweight)
+======================
+Guild type          : Layman
+Effect              : Reduces the overall weight of the user's carrying
+                      capacity. Based on the featherweight spell. Factor of
+                      140 set (means caster can carry 40% more things).
+Spell Time          : 4 seconds
+Element             : Earth
+Form                : Enchantment
+Mana cost           : 30
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 30 guild stat
+Spell Class Level   : Power 2 - Minor Spell
+Area of effect      : Self
+Duration            : Maintained
+Components          : Ritual (Chalcedony (avg 36cc), Wildfeather (500cc))
+Tax                 : 0.375%
+Special Description : None
+    
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 0.50% (Power 2 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.375%
+
+Evimero (Haste)
+======================
+Guild type          : Layman
+Effect              : Adds haste ability with combat aid of 30% to the caster
+Spell Time          : 4 seconds
+Element             : Earth
+Form                : Enchantment
+Mana cost           : 30
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_HARD
+Acquire Level       : 90 guild stat
+Spell Class Level   : Power 3 - Intermediate Spell
+Area of effect      : Self
+Duration            : Maintained
+Components          : Ritual (Jade Shard (avg 144cc), Chicory (464cc))
+Tax                 : 0.75%
+Special Description :
+    Spell can have either 15% or 30% combat aid, depending on when
+    it was cast whether both defensive spells were in place or not.
+    
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 1.00% (Power 3 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.75%
+
+Floga (Fire Tendrils Attack)
+======================
+Guild type          : Layman
+Effect              : Attacks a single enemy with fire-based tendril attacks
+                      Combat aid of 50% given for harm-based spell.
+Spell Time          : 4 seconds
+Element             : Fire
+Form                : Abjuration
+Mana cost           : 30
+Vocal               : Yes
+Visual              : Yes
+Stationary          : No
+Peaceful            : No
+Offensive           : Yes
+Renewable           : N/A
+Difficulty          : TASK_HARD
+Acquire Level       : 85 guild stat
+Spell Class Level   : Power 3 - Intermediate Spell
+Area of effect      : One opponent in same room
+Duration            : Instant
+Components          : Ritual (Opal Shard (avg 216cc), Fireweed)
+Tax                 : 0.75%
+Special Description :
+    Spell provides 50% combat aid.
+    
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 1.00% (Power 3 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.75%
+
+Pyrofosti (Light)
+======================
+Guild type          : Layman
+Effect              : Provides one level of magical light
+Spell Time          : 4 seconds
+Element             : Fire
+Form                : Abjuration
+Mana cost           : 30
+Vocal               : Yes
+Visual              : No
+Stationary          : No
+Peaceful            : No
+Offensive           : Yes
+Renewable           : Yes
+Difficulty          : TASK_EASY
+Acquire Level       : 10 guild stat
+Spell Class Level   : Power 1 - Very Minor Spell
+Area of effect      : Caster/Self
+Duration            : Maintained
+Components          : Ritual (Quartz Shard (avg 12cc), Cranberry)
+Tax                 : 0.25%
+Special Description : None
+    
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  2 seconds (Component Cost < 1 gp)
+                    =====
+                        4 seconds
+
+Tax Calculations:   + 0.25% (Power 1 Spell / Layman)
+                    =======
+                      0.25%
+
+SCHIRMO (Elemental Shield)
+======================
+Guild type          : Layman
+Effect              : Summons one of four different Elemental Shields.
+Spell Time          : 4 seconds
+Element             : Depends (Earth, Fire, Air, Water)
+Form                : Abjuration
+Mana cost           : 30
+Vocal               : Yes
+Visual              : Yes
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 70 guild stat
+Spell Class Level   : Power 3 - Intermediate Spell
+Area of effect      : Self
+Duration            : Maintained
+Components          : Ritual (Bloodstone, Blade)
+Tax                 : 0.75%
+Special Description : None
+    
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 1.00% (Power 3 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.75%
+
+
+UNTERISTI (Elemental Resistance)
+======================
+Guild type          : Layman
+Effect              : Adds 15% combat aid worth of elemental resistance for
+*                     fire, earth, water, air, and death.
+Spell Time          : 4 seconds
+Element             : Primary Element (Earth, Fire, Air, Water)
+Form                : Abjuration
+Mana cost           : 30
+Vocal               : Yes
+Visual              : Yes
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 60 guild stat
+Spell Class Level   : Power 3 - Intermediate Spell
+Area of effect      : Self
+Duration            : Maintained
+Components          : Ritual (Athly, Amethyst)
+Tax                 : 0.50%
+Special Description : None
+    
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 1.00% (Power 3 Spell / Layman)
+                    * 0.75% (Component >= 1 gp)
+                    =======
+                      0.75%
+
+TAX SUMMARY FOR SPELLS
+
+Spell Name      Tax
+=====================
+spazopetra      0.000%
+anemos          0.250%
+pyrofosti       0.250%
+elefrinisi      0.375%
+choma           0.375%
+apodosi         0.375%
+unteristi       0.750%
+schirmo         0.750%
+aleipso         0.750%
+floga           0.750%
+evimero         0.750%
+dynami          0.750%
+----------------------
+Total           6.125%
+
+TOTAL TAX FOR SPELLS:
+                        Seekers       - 1.250%
+                        Worshippers   - 6.125%
+
+
+Combat aid will be taxed for the entire guild's maximum of 80%
+
+TOTAL TAX FOR COMBAT AID:   
+                        Seeker CAID:       0% / 25 = 00.00%
+                        Worshipper CAID:  80% / 25 =  3.20%
+
+
+***************************************************************************
+             Taxation Summary
+***************************************************************************
+
+TOTAL TAX FOR SKILLS:               Seekers         -  4.667%
+                                    Worshippers     -  4.667%
+
+TOTAL TAX FOR SPELLS:               Seekers         -  1.250%
+                                    Worshippers     -  6.125%
+
+TOTAL TAX FOR COMBAT AID:           Seekers         -  0.000%
+                                    Worshippers     -  3.200%
+
+
+Seekers
+
+    Skill Tax Total        :  4.667   
+    Spells                 :  1.250
+    Combat Aid             :  0.000
+                              -----
+    Total Tax              :  5.917
+
+    Rounded Total Tax      : 6%
+
+Worshippers
+                       
+    Skill Tax Total        :  4.667   
+    Spells                 :  6.125
+    Combat Aid             :  3.200
+                              -----
+    Total Tax              : 13.992
+
+    Rounded Total Tax      : 14%
+
+*****************************************************************************
+
+Document by Petros, March 2013
+Updated by Petros, July 2013 during beta testing
+Updated by Jaacar, July 2016 added Seekers
+Updated by Jaacar, August 2017 adjusted tax for new SS_FORM taxing rules
+Updated by Arman, August 2019 following global rebalancing of layman guilds

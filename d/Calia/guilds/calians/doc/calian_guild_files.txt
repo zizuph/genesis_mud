@@ -1,0 +1,49 @@
+_Main guild files_
+
+  guild rooms     ~Calia/guilds/calians/rooms/light/guild.c 
+                                                    trainroom.c 
+                                                    recruiter.c
+                                                    sanctuary.c
+                                                    boardroom.c
+                                                    rack.c
+                                                    councilroom1.c
+                                                    councilroom2.c
+                                                    keyroom.c
+                                                    private_library.c
+                                              
+  main guild object:
+                  ~Calia/guilds/calians/objects/calian_medallion.c
+
+  other guild-related objects:
+                  ~Calia/guilds/calians/objects/*rack*
+                                                *book*
+                                                *poster*
+
+
+  specials        ~Calia/guilds/calians/specials/calian_cmdsoul.c 
+                                                 calian_shadow.c
+                                                 calian_code.c
+                                                 calian_utility.c
+                                                 calian_specials_utility.c
+                                                 swarm.c
+                                                 swarm_evade.c
+                                                 move_behind.c
+                                                 opportunity_attack_sh.c
+                                                 opportunity_attack.c
+                                                 riposte_attack.c
+                                                 riposte_evade.c
+                                                 calian_team_shadow.c
+                                                 emotes1/2/3.c
+                                                 team_emotes.c 
+                                                 help.c
+                                                 council_code.c
+                                                 recruiter_code.c
+                                                 calian_member_handler.c
+                                                 calian_info_handler.c
+                                                 title_handler.c
+                                                 calian.h, council.h
+                                                 recruiter.h, soulconst.h
+
+  docs            ~Calia/guilds/calians/texts/*
+                  In particular look at the file called "battle" as it 
+                  relates closely to the Calian specials.

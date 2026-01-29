@@ -1,0 +1,47 @@
+main
+::MAPDATA::
+croad0 1 2
+croad1 5 2
+croad2 9 2
+croad3 13 2
+croad4 15 4
+croad5 17 6
+croad6 19 8
+croad7 19 10
+croad8 19 12
+croad9 19 14
+croad10 17 16 
+croad11 15 18
+croad12 11 18
+croad13 7 18
+croad14 5 16
+croad15 3 14
+croad16 3 12
+croad17 3 10
+croad18 5 8
+croad19 9 8
+croad20 13 8
+croad21 15 10
+croad22 15 12
+croad23 13 14
+croad24 9 14
+::MAPDATA::
+
+\
+ o - o - o - o
+              \
+               o
+                \
+                 o
+                  \
+     o - o - o     o
+    /         \    |
+   o           o   o
+   |           |   |
+   o To Palace o   o
+   |     |    /    |
+   o     o - o     o
+    \             /
+     o           o
+      \         /
+       o - o - o

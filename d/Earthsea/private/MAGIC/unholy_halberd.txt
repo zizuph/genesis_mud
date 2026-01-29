@@ -1,0 +1,10 @@
+Name: unholy halberd
+File: /d/Earthsea/gont/tenalders/wep/unholy_halberd.c
+Hit/Pen: 40/49
+Spellpower: 41
+Special: 
+    Adds a "dark aura" subloc that persists even after unwield to the wielder.
+Props:
+    OBJ_I_IS_MAGIC_WEAPON, OBJ_S_WIZINFO, MAGIC_AM_ID_INFO,
+    MAGIC_AM_MAGIC, OBJ_M_NO_BUY
+Obtainability: Must kill an officer of the kargs.

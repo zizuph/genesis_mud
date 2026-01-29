@@ -1,0 +1,190 @@
+main
+::MAPDATA::
+cobbler 47 22 hob1
+alchemists  hob1
+bagend 45 5 hob2
+bakery 43 18 hob1
+bank 43 25 hob1
+barn1 31 13 hob2
+barn2 33 13 hob2
+barn3 31 15 hob2
+barn4 29 13 hob2
+bridge 45 12 hob2
+bw_road1 39 20 hob1
+bw_road2 41 20 hob1
+bw_road4 43 20 hob1
+bw_road5 47 20 hob1
+bw_road6 49 20 hob1
+bw_road7 51 20 hob1
+church 39 22 hob1
+cr_road 45 20 hob1
+farm1 33 9 hob2
+farm2 31 9 hob2
+farm3 29 9 hob2
+farm4 31 7 hob2
+forest1 37 20 hob1
+forge 47 23 hob1
+garden 38 15 hob2
+guild 47 25 hob1
+h_lane1 45 15 hob2
+h_lane2 45 23 hob1
+h_lane3 45 25 hob1
+h_lane4 45 9 hob2
+h_lane5 45 7 hob2
+mayorhouse 41 18 hob1
+mayorhouse2 41 16 hob1
+mill 48 9 hob2
+mill2 48 7 hob2
+p_house 47 17 hob1
+p_office 49 17 hob1
+pub 43 22 hob1
+river1 38 12 hob2
+river2 41 12 hob2
+river3 50 12 hob2
+river4 35 15 hob2
+shop 43 23 hob1
+stables 49 22 hob1
+yard1 35 9 hob2
+yard2 35 7 hob2
+yard3 35 5 hob2
+yard4 33 5 hob2
+yard5 35 11 hob2
+yard6 33 11 hob2
+yard7 31 11 hob2
+yard8 35 13 hob2
+::MAPDATA::
+
+                                   ==========
+                                    Hobbiton
+                                   ==========
+
+                                 o-o         o
+                                   |         |
+                               o   o         o  o
+                               |   |         |  ^
+                             o-o-o-o---------o--o
+                                   |         |
+                               o-o-o         |
+                               |   |  o~~o~~]o[~~~o
+                             o-o-o o  |      |
+                               |   |  |      |
+                               o   o  o------o
+                                         o   |
+                                         |   | o-o
+                                         o o | o |
+                                         | | | | |
+                                     o-o-o-o-o-o-o-o
+                                       |   | | | |
+                                       o   o | o o
+                                           o-o-o
+                                             |
+                                           o-o-o
+                                             |
+                                      Great East Road
+::NEWMAP::
+hob1
+::MAPDATA::
+cobbler 49 12
+alchemists 49 8
+bakery 39 8
+bank 39 18
+bw_road1 29 10
+bw_road2 34 10
+bw_road4 39 10
+bw_road5 49 10
+bw_road6 54 10
+bw_road7 59 10
+church 29 12
+cr_road 44 10
+forest1 24 12
+forge 49 14
+guild 49 18
+h_lane2 44 14
+h_lane3 44 18
+mayorhouse 34 8
+mayorhouse2 34 6
+p_office 54 8
+p_house 52 8
+pub 39 12
+shop 39 14
+stables 54 12
+::MAPDATA::
+
+                                    ============
+                                      Hobbiton,
+                                     South Side
+                                    ============
+
+                          _       o                               _
+                   _     {x}      |         |                    {x}
+                  {x}     Y       o    o    |    o  o-o           Y
+                   Y              |    |    |    |    |                _
+                        o -- o -- o -- o -- o -- o -- o -- o   _      {x}
+                 _           |         |    |    |    |       {x}      Y
+                {x}          o         o    |    o    o        Y    _
+                 Y     _                    |                      {x}
+                      {x}              o -- o -- o            _     Y
+                       Y                    |                {x}
+                                            |                 Y
+                                            |
+                                       o -- o -- o
+                                            |
+                                            |
+                                            |
+                                     Great East Road
+::NEWMAP::
+hob2
+::MAPDATA::
+h_lane1 54 21
+garden 44 21
+river1 44 17
+river2 49 17
+river3 60 17
+river4 39 21
+bridge 54 17
+h_lane4 54 12
+mill 59 12
+mill2 59 9
+yard1 39 12
+yard2 39 9
+yard3 39 6
+yard4 34 6
+yard5 39 15
+yard6 34 15
+yard7 29 15
+yard8 39 18
+barn1 29 18
+barn2 34 18
+barn3 29 21
+barn4 24 18
+farm1 34 12
+farm2 29 12
+farm3 24 12
+farm4 29 9
+h_lane5 54 9
+bagend 54 6
+::MAPDATA::
+
+                                    ============
+                                      Hobbiton,
+                                     North Side
+                                    ============
+
+                                  o -- o              o
+            []____                     |              |
+           /_-_- / \                   |              |
+          / -  -/_*_\        o         o              o    o
+          |-[][]|- -|        |         |              |    ^
+                             |         |              |    ^
+                        o -- o -- o -- o ------------ o -- o
+                                       |              |
+                                       |              |
+                             o -- o -- o              |
+                             |         |              |
+                             |         |    o~~~~o~~~]o[~~~~o
+           _____ ,-,    o -- o -- o    o    |         |
+         /  \[|]\|=|         |         |    |         |
+        |_""_|___| |         |         |    |         |
+        |_o__|[x]| |         o         o    o ------- o
+                                                      |
+                                                      |

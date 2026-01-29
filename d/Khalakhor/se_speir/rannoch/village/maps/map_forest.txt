@@ -1,0 +1,79 @@
+Map of the Loch Rannoch area, west of the lake
+By Darragh, 00-09-23
+ 
+       0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 
+       0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9
+
+A        o-o-o-o-o-o-o-o         o-o  
+        /               \       /  |
+B      o R-R-R-R o o o o o     o o R- 
+       |/       \         \   / /|
+C      B o o o o R-R-R R o o o o R S
+       |                \       / /
+D      o o o o o o o o o R-R-R-R S
+       |                         |
+E      o o o o o o o o o o o o o S
+       |                         |
+F      o o o o o H H H o o o o o S
+       |                        /
+G      o o o o o H T H o o o o S
+       |                       |
+H      o o o o o H H H o o o o S 
+        \                     /
+I        o o o o o o o o o o S 
+         |                  /
+J        o o o o o o o o o S
+          \               /
+K          o o o o o o o S
+           |             |
+L          o o o o o o o S 
+           |              \
+M          o o o o o o o o S-L
+            \               \
+N            o o o o o o o o S
+             |               |
+o            o o o o o o o o S
+             |              /
+P            o o o o o o o-o
+             |          / 
+Q            o o o o o o
+              \       /
+R              o o o-o
+               |     |
+S              o o o o
+              /       \
+T            o o o o o o
+             |         |
+U            o o o o o o
+             |         |
+V            o o o o o o
+              \         \
+W              o-o o o o o-o-o
+                  \           \
+X                  o o o o o o o 
+                   |            \          
+Y                  o o o o o o o o 
+                   |             |
+Z                  o o o o o o o o 
+                    \            |
+AA                   o o o o o o o              
+                      \         /
+AB                     o o o o o
+                       |       |
+AC                     o o o o o
+                       |      /
+AD                     o o o o
+                       |    /
+AE                     o o-o
+                       |/
+AF                     W
+
+       R = Road
+       S = Shore
+       H = Hills
+       T = Hilltop
+       L = Landing dock
+       B = Bridge
+       W = Waterfall
+
+       All rooms are connected with as many exits as possible.

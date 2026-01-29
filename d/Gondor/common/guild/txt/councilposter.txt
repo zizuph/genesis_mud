@@ -1,0 +1,71 @@
+
+                  The Rangers of Gondor Councilroom
+                   - - - - - - - - - - - - - - - -
+
+    help council  . . . . .  - Get help on command available to
+                               council members.
+
+    vote <text> . . . . . .  - Vote or comment on something under 
+                               discussion. The votes can only be 
+                               read by the guildmasters.
+
+    call for vote <text>  .  - Call the Council to vote on a topic.
+    read call for vote  . .  - Read all present topics that you are
+                               asked to vote on.
+    read vote <n> . . . . .  - Read the votes on topic number <n>.
+    clear call for vote <n>  - Abort voting on topic number <n>.
+    terminate vote <n>  . .  - End the voting on topic number <n> and
+                               log the results in the library.
+    vote on <n> with <vote>  - Vote on topic number <n>. 
+                               Accepted votes are yes, aye, no, nay.
+
+    read status  . . . . .  - Read the membership log.
+
+    read punishlist . . . .  - Read the list of possible punishments
+    read punishlog  . . . .  - Read the log of the latest punishments
+    read pending punishments - Read punishments not yet executed.
+
+    council . . . . . . . .  - See the names of the current Captains 
+                               and Lieutenants of the Companies.
+
+    call council  . . . . .  - Call for a meeting with all the 
+                               Captains, Lieutenants, and the Chieftain.
+
+    resign  . . . . . . . .  - Resign as a Captain of the Rangers.
+    nominate  . . . . . . .  - Nominate a Ranger as candidate for the
+     (can only be given when   election of a captain.
+     there is no Captain of    If no election has been called yet, this
+     the company)              will initiate the election.
+
+    start/support impeachment of <name>
+                             - Call for the impeachment of a Captain.
+    veto the impeachment of <name>
+                             - Stop the call for the impeachment of a
+                               Captain (Captains only!)
+    impeach (name)           - Impeach a Captain of the Rangers.
+
+    company <name> <company> - Assign a ranger to your company.
+     (can be given everywhere)
+    deputy <name>            - Assign a ranger of your company to be 
+     (can be given everywhere) your deputy. (Captains only!)
+
+    get_key council        - Get a new key to the council chambers
+                             if you have lost your old one.
+     (only in the rooms outside the council chambers)
+
+    assign <name> specialty <specialty>
+                             - Assign a Ranger to working on a specialty.
+    assign <name> master     - Assign a Ranger to be Master in their
+                               specialty.
+    unassign <name>          - Unassigns a Master from their Master
+                               position, or a non-Master Ranger from their
+                               specialty assignment.
+    rmentor <name>           - Assign a Ranger to be a Mentor, giving them
+                               the ability to vouch for a pupil.
+
+    pardon <name>            - Pardon a banned Ranger.
+
+    outlaw <name>            - Make a person an Outlaw of the Rangers.
+    rpardon <name>           - Pardon an Outlaw of the Rangers.
+
+

@@ -1,0 +1,27 @@
+D. Area Coding in Ansalon:
+^^^^^^^^^^^^^^^^^^^^^^^^^
+1) Do NOT put rooms in your home directory, except your workroom. You are
+   allowed a test room and/or a /temp directory for work-in-progress; the
+   /private directory is for documents and code which you do not intend to
+   implement for mortal use. If possible, area coding should be done in the
+   proper subdirectory.
+
+2) All areas should have a MAP doc in the appropriate subdirectory. The
+   detail of the map is up to the coder, however all rooms of particular
+   importance (ie: where a quest item may be found, hidden exits, etc)
+   should be clearly marked in the map. A second copy of the map
+   should be placed in ~Ansalon/doc/map/.
+
+3) The file ~Ansalon/common/defs.h contains some useful definitions for
+   Ansalon and Krynn. It is usually included in the <local.h> file 
+   explained below.
+
+4) Each area directory should contain one <local.h> file, perhaps more, if 
+   there are additional subdirectories. These files should contain #include's 
+   and #define's that are used within the area. This is where you place the 
+   'connections' from the area to other areas in Ansalon or Krynn. In 
+   addition, this file is used for the convenience of easily changing 
+   pathnames in the event that directories are moved for some reason. 
+
+
+

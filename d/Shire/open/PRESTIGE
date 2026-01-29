@@ -1,0 +1,15 @@
+These are the creatures in ~Shire/common/monster that I have given prestige.
+For more info read the README file in ~Krynn/open/monster.
+
+son_of_smith	-2 	Knights shouldn't kill kids
+blacksmith	0	Why should Paladine care?
+guard		0		"
+leader_orc	100	This is a bad dude, but only an orc
+prisoner	-2	Knights don't kill prisoners
+random_orc	50	Can't be higer than the leader orc
+sleeping_orc	25	Well he is sleeping after all
+bandit		75	Tough dude, and harms people.
+ghost_man	100 	Not evil, but still a ghost
+
+Note this is just so that the Knights will get a message other than 
+that Paladine has no opinion.

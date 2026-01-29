@@ -1,0 +1,87 @@
+*****************************************************************************
+          TAX AND BALANCE INFORMATION FOR THE THROTYL RAIDERS (Layman)
+*****************************************************************************
+
+The Throtyl Raiders are a layman fighters guild residing in the ruins of
+East Keep in the moors of Throtyl.
+/d/Krynn/guilds/hobgob/joinroom.c
+
+It is a guild that is free to join for those of neutral-evil alignment
+(so less than 100 alignment) and of the following race type:
+hobgoblin, ogre, goblin, orc, drow, or human.
+
+If a member is no longer of a race suitable to be a Raider you are removed 
+from the guild.
+
+If a member's alignment goes above 100, they are considered 'morally 
+conflicted', and can no longer use their special attack until their 
+alignment has been fixed.
+
+There is no penalty for leaving.
+
+There is no start location for the Raiders.
+
+AG = Adventures Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+General
+--------------------------------------------------------------------------
+SS_WEP_AXE             50         30          20         1.5        0.5%
+SS_DEFENCE             50         20          30         1.5        0.75%
+SS_PARRY               50          0          50         1.5        1.25%
+SS_APPR_VAL            40         30          10         0.5        0.083%
+SS_TRADING             40         30          10         1.0        0.167%
+SS_AN_HANDL	       40         30          10         0.5        0.083%
+SS_RIDING              40         30          10         1.0        0.167%
+--------------------------------------------------------------------------
+Totals                310                    150                    3.00%
+--------------------------------------------------------------------------
+
+Guild Specific Skills
+--------------------------------------------------------------------------
+SS_GUILD_SPECIAL_SKILL 100          0           0         0.0       0.000
+--------------------------------------------------------------------------
+             
+Taxable Slots Allowed   : 350
+Actual Taxable Slots    : 150
+TOTAL TAX FOR SKILLS    : 3.00%
+        
+================
+COMBAT SPECIALS:
+================
+BLEEDING WOUND (Uses skills SS_GUILD_SPECIAL_SKILL (bleeding wound))
+/d/Krynn/guilds/hobgob/bleed_special.c
+/d/Krynn/guilds/hobgob/bleeding_wound_obj.c
+
+    Bleeding wound is a damage special that uses the standardised specials
+    /d/Genesis/specials/std/damage.c and 
+    /d/Genesis/specials/std/wounding_obj_base.c
+
+    This special requires the training of a special skill, and is influenced
+    by the attackers average strength (SS_STR) and cunning (SS_INT).
+
+    The special has an 8 second prep time and a 12 second cooldown time.
+
+    A 5 caid damage attack special with a 40 caid wounding damage special
+    with a wound_interval of 3 and wound_time of 18 seconds.
+
+    The combat aid for bleeding wound 45%.
+    Tax for bleeding wound: 45 / 6 = 7.5%
+    
+TOTAL TAX FOR SPECIALS: 7.5%
+
+***************************************************************************
+             Taxation Summary
+***************************************************************************
+
+    Skill Tax Total        :  3.00    
+    Combat Specials        :  7.50  
+    Additional Features    :  0.00   
+                             ----
+    Total Tax              : 10.50
+    Rounded Total Tax      : 11%
+*****************************************************************************
+
+ Arman Kharas, July 2020       

@@ -1,0 +1,72 @@
+/**********************************************************************
+ * - post.c                                                         - *
+ * - Post Office Eil-Galaith                                        - *
+ * - Created by Damaris 09/Y2K                                      - *
+ * - Recoded by Damaris 2/2002                                      - *
+ * - Recoded by Damaris 4/2005                                      - *
+ **********************************************************************/
+#pragma strict_types
+#pragma save_binary
+#include "../guild.h"
+
+inherit GUILD_ROOM;
+inherit "/d/Genesis/lib/post";
+
+#include <macros.h> /* For the Q macros in messages.. */
+#include <stdproperties.h> /* for room props */
+
+public void
+create_guild_room()
+{
+	set_short("Postal office");
+	set_long("   This is the Eil-Galaith postal office. The "+
+	"atmosphere here is very warm and inviting. Upon the walls "+
+	"there are highly polished lanterns and paintings of distant "+
+	"lands. A large counter rests in the corner with very "+
+	"pleasant looking postal worker sorting mail. She is elven "+
+	"and quite busy with her tasks. It would be wise to let her "+
+	"continue her work so please 'examine mail reader' for "+
+	"further information.\n");
+	add_item(({"room", "area"}), query_long);
+	add_item(({"painting", "paintings"}),
+	"You look closer at the posters that adorn the walls here.\n"+
+	"They depict far off lands you have yet to see. There are "+
+	"beautiful castles and green grass, also majestic mountains and "+
+	"cliffs with stunning waterfalls. Each painting makes you wonder "+
+	"what lies ahead in the distant lands.\n");
+	
+        add_prop(ROOM_I_INSIDE, 1);
+        add_prop(ROOM_M_NO_MAGIC_ATTACK, 1);
+        add_prop(ROOM_M_NO_ATTACK, 1);
+	add_prop(ROOM_I_LIGHT, 2);
+	add_exit("entrance", "down");
+	add_fail("auto", "You walked into a wall!\n"+
+	"Ouch! That's gotta hurt!\n");
+}
+/*
+ * Function name:   leave_inv
+ * Description:     remove mailreader from players exiting the room
+ */
+public void
+leave_inv(object ob, object to)
+{
+	::leave_inv(ob, to);
+	post_leave_inv(ob, to);
+}
+
+public void
+mail_message(string new)
+{
+	write("\nThere is"+ new +" mail for you in the post office.\n");
+}
+
+/*
+ * Function name:   init
+ * Description:     add a mailreader to players who enter the room
+ */
+public void
+init()
+{
+	::init();
+	post_init();
+}

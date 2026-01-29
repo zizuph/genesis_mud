@@ -1,0 +1,152 @@
+Sat Apr 30 09:25:47 2022: Restoring /d/Emerald/blackwall/delrimmon/obj/wep/wr_sword:#WEP#0#0#0#0#0#0##ItemExpire#1657254852#~Kp~ using recovery after Armageddon.
+Sat Apr 30 09:25:47 2022: Restoring /d/Terel/LoD/weapon/devils_sword:~Kp~#WEP#54#0#0#0#0#0##ItemExpire#1655503554# using recovery after Armageddon.
+Sat Apr 30 09:25:47 2022: Restoring /d/Terel/LoD/weapon/devils_sword:~Kp~#WEP#1#0#0#0#0#0##ItemExpire#1657294220# using recovery after Armageddon.
+Sat Apr 30 09:25:48 2022: Restoring /d/Terel/LoD/weapon/devils_sword:~Kp~#WEP#0#0#0#0#0#0##ItemExpire#1658362658# using recovery after Armageddon.
+Sat Apr 30 09:25:48 2022: Restoring /d/Terel/LoD/weapon/devils_sword:~Kp~#WEP#57#1#0#0#0#0##ItemExpire#1658623035# using recovery after Armageddon.
+Sat May 14 05:10:01 2022: Out of 8 objects, saving 8 glowing objects during Armageddon.
+Sat May 14 05:11:04 2022: Recovering 8 object(s).
+Sat May 14 05:11:05 2022: Restoring /d/Krynn/common/warfare/weapons/std_warfare_hammer:#WEP#0#0#0#0#0#0##ItemExpire#1654650020#&&5&&40&&40&&1536&&neidar using recovery after Armageddon.
+Sat May 14 05:11:05 2022: Restoring /d/Shire/moria/wep/maul:#WEP#0#0#0#0#0#0##ItemExpire#1654878207# using recovery after Armageddon.
+Sat May 14 05:11:08 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#90#11#0#4#0#0##ItemExpire#1653576639#~Kp~ using recovery after Armageddon.
+Sat May 14 05:11:08 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#87#4#0#0#0#0##ItemExpire#1657470222# using recovery after Armageddon.
+Sat May 14 05:11:08 2022: Restoring /d/Terel/common/frost/weapon/frost_club:#WEP#0#0#0#0#0#0##ItemExpire#1658365822# using recovery after Armageddon.
+Sat May 14 05:11:09 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub5:#WEP#185#6#0#6#0#0##ItemExpire#1657682343# using recovery after Armageddon.
+Sat May 14 05:11:09 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub9:#WEP#25#0#0#0#0#0##ItemExpire#1654482476# using recovery after Armageddon.
+Sat May 14 05:11:09 2022: Restoring /d/Krynn/qualinesti/wep/silver_bow:#WEP#0#0#0#0#0#0##ItemExpire#1659294117#BOW#0#1#~Kp~# using recovery after Armageddon.
+Sat May 28 00:40:01 2022: Out of 10 objects, saving 10 glowing objects during Armageddon.
+Sat May 28 00:41:09 2022: Recovering 10 object(s).
+Sat May 28 00:41:09 2022: Restoring /d/Shire/moria/wep/maul:#WEP#0#0#0#0#0#0##ItemExpire#1654878207# using recovery after Armageddon.
+Sat May 28 00:41:10 2022: Restoring /d/Terel/common/frost/weapon/frost_club:#WEP#0#0#0#0#0#0##ItemExpire#1658365822# using recovery after Armageddon.
+Sat May 28 00:41:10 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub5:#WEP#185#6#0#6#0#0##ItemExpire#1657682343# using recovery after Armageddon.
+Sat May 28 00:41:10 2022: Restoring /d/Krynn/qualinesti/wep/silver_bow:#WEP#0#0#0#0#0#0##ItemExpire#1659294117#BOW#0#1#~Kp~# using recovery after Armageddon.
+Sat May 28 00:41:11 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#101#1#0#1#0#0##ItemExpire#1661142363#~Kp~ using recovery after Armageddon.
+Sat May 28 00:41:11 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#52#7#0#6#0#0##ItemExpire#1657349542#~Kp~ using recovery after Armageddon.
+Sat May 28 00:41:13 2022: Restoring /d/Krynn/common/warfare/weapons/std_warfare_hammer:#WEP#200#1#0#1#0#0##ItemExpire#1654586429#&&5&&40&&40&&1536&&neidar using recovery after Armageddon.
+Sat May 28 00:41:13 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#16#0#0#0#0#0##ItemExpire#1660756266#~Kp~ using recovery after Armageddon.
+Sat May 28 00:41:13 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#9#0#0#0#0#0##ItemExpire#1660722461#~Kp~ using recovery after Armageddon.
+Sat May 28 00:41:14 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#19#0#0#0#0#0##ItemExpire#1660342811#~Kp~ using recovery after Armageddon.
+Fri Jun 10 21:40:01 2022: Out of 17 objects, saving 17 glowing objects during Armageddon.
+Fri Jun 10 21:45:46 2022: Recovering 17 object(s).
+Fri Jun 10 21:45:46 2022: Restoring /d/Shire/moria/wep/maul:#WEP#0#0#0#0#0#0##ItemExpire#1654878207# using recovery after Armageddon.
+Fri Jun 10 21:45:46 2022: Restoring /d/Terel/common/frost/weapon/frost_club:#WEP#0#0#0#0#0#0##ItemExpire#1658365822# using recovery after Armageddon.
+Fri Jun 10 21:45:46 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub5:#WEP#185#6#0#6#0#0##ItemExpire#1657682343# using recovery after Armageddon.
+Fri Jun 10 21:45:46 2022: Restoring /d/Krynn/qualinesti/wep/silver_bow:#WEP#0#0#0#0#0#0##ItemExpire#1659294117#BOW#0#1#~Kp~# using recovery after Armageddon.
+Fri Jun 10 21:45:46 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#101#1#0#1#0#0##ItemExpire#1661142363#~Kp~ using recovery after Armageddon.
+Fri Jun 10 21:45:47 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#52#7#0#6#0#0##ItemExpire#1657349542#~Kp~ using recovery after Armageddon.
+Fri Jun 10 21:45:47 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#16#0#0#0#0#0##ItemExpire#1660756266#~Kp~ using recovery after Armageddon.
+Fri Jun 10 21:45:47 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#9#0#0#0#0#0##ItemExpire#1660722461#~Kp~ using recovery after Armageddon.
+Fri Jun 10 21:45:47 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#19#0#0#0#0#0##ItemExpire#1660342811#~Kp~ using recovery after Armageddon.
+Fri Jun 10 21:45:47 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub4:#WEP#86#0#0#0#0#0##ItemExpire#1656936631# using recovery after Armageddon.
+Fri Jun 10 21:45:47 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub4:#WEP#61#0#0#0#0#0##ItemExpire#1656941768# using recovery after Armageddon.
+Fri Jun 10 21:45:47 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub4:#WEP#161#0#0#0#0#0##ItemExpire#1656698159# using recovery after Armageddon.
+Fri Jun 10 21:45:47 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub4:#WEP#131#0#0#0#0#0##ItemExpire#1656702868# using recovery after Armageddon.
+Fri Jun 10 21:45:47 2022: Restoring /d/Calia/guilds/calians/weapons/polearm_of_darkness:#WEP#101#0#0#0#0#0##ItemExpire#1662000142#~Kp~#woo_sn#spear#woo_pn#spears#woo_oa#evil#woo_ts#0#woo_tf#1654259804# using recovery after Armageddon.
+Fri Jun 10 21:45:47 2022: Restoring /d/Shire/moria/wep/maul:#WEP#0#0#0#0#0#0##ItemExpire#1661466563# using recovery after Armageddon.
+Fri Jun 10 21:45:48 2022: Restoring /d/Calia/guilds/calians/weapons/sword_of_darkness:#WEP#70#0#0#0#0#0##ItemExpire#1662154487##woo_sn#sword#woo_pn#swords#woo_oa#evil#woo_ts#0#woo_tf#1654483130# using recovery after Armageddon.
+Fri Jun 10 21:45:48 2022: Restoring /d/Emerald/north_shore/outpost/wep/magic_sabre:#WEP#5#0#0#0#0#0##ItemExpire#1662290212# using recovery after Armageddon.
+Fri Jun 24 17:10:01 2022: Out of 19 objects, saving 19 glowing objects during Armageddon.
+Fri Jun 24 17:10:35 2022: Recovering 19 object(s).
+Fri Jun 24 17:10:35 2022: Restoring /d/Terel/common/frost/weapon/frost_club:#WEP#0#0#0#0#0#0##ItemExpire#1658365822# using recovery after Armageddon.
+Fri Jun 24 17:10:36 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub5:#WEP#185#6#0#6#0#0##ItemExpire#1657682343# using recovery after Armageddon.
+Fri Jun 24 17:10:36 2022: Restoring /d/Krynn/qualinesti/wep/silver_bow:#WEP#0#0#0#0#0#0##ItemExpire#1659294117#BOW#0#1#~Kp~# using recovery after Armageddon.
+Fri Jun 24 17:10:37 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#101#1#0#1#0#0##ItemExpire#1661142363#~Kp~ using recovery after Armageddon.
+Fri Jun 24 17:10:37 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#52#7#0#6#0#0##ItemExpire#1657349542#~Kp~ using recovery after Armageddon.
+Fri Jun 24 17:10:39 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#16#0#0#0#0#0##ItemExpire#1660756266#~Kp~ using recovery after Armageddon.
+Fri Jun 24 17:10:40 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#9#0#0#0#0#0##ItemExpire#1660722461#~Kp~ using recovery after Armageddon.
+Fri Jun 24 17:10:40 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#19#0#0#0#0#0##ItemExpire#1660342811#~Kp~ using recovery after Armageddon.
+Fri Jun 24 17:10:40 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub4:#WEP#86#0#0#0#0#0##ItemExpire#1656936631# using recovery after Armageddon.
+Fri Jun 24 17:10:41 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub4:#WEP#61#0#0#0#0#0##ItemExpire#1656941768# using recovery after Armageddon.
+Fri Jun 24 17:10:41 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub4:#WEP#161#0#0#0#0#0##ItemExpire#1656698159# using recovery after Armageddon.
+Fri Jun 24 17:10:41 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub4:#WEP#131#0#0#0#0#0##ItemExpire#1656702868# using recovery after Armageddon.
+Fri Jun 24 17:10:41 2022: Restoring /d/Shire/moria/wep/maul:#WEP#0#0#0#0#0#0##ItemExpire#1661466563# using recovery after Armageddon.
+Fri Jun 24 17:10:41 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub1:#WEP#55#0#0#0#0#0##ItemExpire#1663233586# using recovery after Armageddon.
+Fri Jun 24 17:10:41 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub1:#WEP#95#0#0#0#0#0##ItemExpire#1663227699# using recovery after Armageddon.
+Fri Jun 24 17:10:42 2022: Restoring /d/Calia/guilds/calians/weapons/polearm_of_darkness:#WEP#79#0#0#0#0#0##ItemExpire#1663252541#~Kp~#woo_sn#spear#woo_pn#spears#woo_oa#evil#woo_ts#0#woo_tf#1655511758# using recovery after Armageddon.
+Fri Jun 24 17:10:42 2022: Restoring /d/Calia/guilds/calians/weapons/polearm_of_darkness:#WEP#72#0#0#0#0#0##ItemExpire#1663348773#~Kp~#woo_sn#spear#woo_pn#spears#woo_oa#evil#woo_ts#0#woo_tf#1655609724# using recovery after Armageddon.
+Fri Jun 24 17:10:42 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub5:#WEP#40#5#0#0#0#0##ItemExpire#1662932801# using recovery after Armageddon.
+Fri Jun 24 17:10:42 2022: Restoring /d/Terel/common/frost/weapon/frost_club:#WEP#0#0#0#0#0#0##ItemExpire#1662608056# using recovery after Armageddon.
+Fri Jul  8 13:55:01 2022: Out of 16 objects, saving 16 glowing objects during Armageddon.
+Fri Jul  8 14:49:35 2022: Recovering 16 object(s).
+Fri Jul  8 14:49:35 2022: Restoring /d/Terel/common/frost/weapon/frost_club:#WEP#0#0#0#0#0#0##ItemExpire#1658365822# using recovery after Armageddon.
+Fri Jul  8 14:49:35 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub5:#WEP#185#6#0#6#0#0##ItemExpire#1657682343# using recovery after Armageddon.
+Fri Jul  8 14:49:36 2022: Restoring /d/Krynn/qualinesti/wep/silver_bow:#WEP#0#0#0#0#0#0##ItemExpire#1659294117#BOW#0#1#~Kp~# using recovery after Armageddon.
+Fri Jul  8 14:49:36 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#101#1#0#1#0#0##ItemExpire#1661142363#~Kp~ using recovery after Armageddon.
+Fri Jul  8 14:49:36 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#52#7#0#6#0#0##ItemExpire#1657349542#~Kp~ using recovery after Armageddon.
+Fri Jul  8 14:49:36 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#16#0#0#0#0#0##ItemExpire#1660756266#~Kp~ using recovery after Armageddon.
+Fri Jul  8 14:49:36 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#9#0#0#0#0#0##ItemExpire#1660722461#~Kp~ using recovery after Armageddon.
+Fri Jul  8 14:49:36 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#19#0#0#0#0#0##ItemExpire#1660342811#~Kp~ using recovery after Armageddon.
+Fri Jul  8 14:49:36 2022: Restoring /d/Shire/moria/wep/maul:#WEP#0#0#0#0#0#0##ItemExpire#1661466563# using recovery after Armageddon.
+Fri Jul  8 14:49:36 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub1:#WEP#55#0#0#0#0#0##ItemExpire#1663233586# using recovery after Armageddon.
+Fri Jul  8 14:49:36 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub1:#WEP#95#0#0#0#0#0##ItemExpire#1663227699# using recovery after Armageddon.
+Fri Jul  8 14:49:36 2022: Restoring /d/Calia/guilds/calians/weapons/polearm_of_darkness:#WEP#79#0#0#0#0#0##ItemExpire#1663252541#~Kp~#woo_sn#spear#woo_pn#spears#woo_oa#evil#woo_ts#0#woo_tf#1655511758# using recovery after Armageddon.
+Fri Jul  8 14:49:37 2022: Restoring /d/Calia/guilds/calians/weapons/polearm_of_darkness:#WEP#72#0#0#0#0#0##ItemExpire#1663348773#~Kp~#woo_sn#spear#woo_pn#spears#woo_oa#evil#woo_ts#0#woo_tf#1655609724# using recovery after Armageddon.
+Fri Jul  8 14:49:37 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub5:#WEP#40#5#0#0#0#0##ItemExpire#1662932801# using recovery after Armageddon.
+Fri Jul  8 14:49:37 2022: Restoring /d/Terel/common/frost/weapon/frost_club:#WEP#0#0#0#0#0#0##ItemExpire#1662608056# using recovery after Armageddon.
+Fri Jul  8 14:49:37 2022: Restoring /d/Ansalon/balifor/flotsam/obj/weapon/tessto:#WEP#3#0#0#0#0#0##ItemExpire#1664442331# using recovery after Armageddon.
+Fri Jul 22 09:25:01 2022: Out of 13 objects, saving 13 glowing objects during Armageddon.
+Fri Jul 22 09:26:01 2022: Recovering 13 object(s).
+Fri Jul 22 09:26:01 2022: Restoring /d/Krynn/qualinesti/wep/silver_bow:#WEP#0#0#0#0#0#0##ItemExpire#1659294117#BOW#0#1#~Kp~# using recovery after Armageddon.
+Fri Jul 22 09:26:02 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#101#1#0#1#0#0##ItemExpire#1661142363#~Kp~ using recovery after Armageddon.
+Fri Jul 22 09:26:02 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#16#0#0#0#0#0##ItemExpire#1660756266#~Kp~ using recovery after Armageddon.
+Fri Jul 22 09:26:02 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#9#0#0#0#0#0##ItemExpire#1660722461#~Kp~ using recovery after Armageddon.
+Fri Jul 22 09:26:02 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#19#0#0#0#0#0##ItemExpire#1660342811#~Kp~ using recovery after Armageddon.
+Fri Jul 22 09:26:02 2022: Restoring /d/Shire/moria/wep/maul:#WEP#0#0#0#0#0#0##ItemExpire#1661466563# using recovery after Armageddon.
+Fri Jul 22 09:26:02 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub1:#WEP#55#0#0#0#0#0##ItemExpire#1663233586# using recovery after Armageddon.
+Fri Jul 22 09:26:02 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub1:#WEP#95#0#0#0#0#0##ItemExpire#1663227699# using recovery after Armageddon.
+Fri Jul 22 09:26:02 2022: Restoring /d/Calia/guilds/calians/weapons/polearm_of_darkness:#WEP#79#0#0#0#0#0##ItemExpire#1663252541#~Kp~#woo_sn#spear#woo_pn#spears#woo_oa#evil#woo_ts#0#woo_tf#1655511758# using recovery after Armageddon.
+Fri Jul 22 09:26:02 2022: Restoring /d/Calia/guilds/calians/weapons/polearm_of_darkness:#WEP#72#0#0#0#0#0##ItemExpire#1663348773#~Kp~#woo_sn#spear#woo_pn#spears#woo_oa#evil#woo_ts#0#woo_tf#1655609724# using recovery after Armageddon.
+Fri Jul 22 09:26:02 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub5:#WEP#40#5#0#0#0#0##ItemExpire#1662932801# using recovery after Armageddon.
+Fri Jul 22 09:26:03 2022: Restoring /d/Terel/common/frost/weapon/frost_club:#WEP#0#0#0#0#0#0##ItemExpire#1662608056# using recovery after Armageddon.
+Fri Jul 22 09:26:03 2022: Restoring /d/Ansalon/balifor/flotsam/obj/weapon/tessto:#WEP#3#0#0#0#0#0##ItemExpire#1664442331# using recovery after Armageddon.
+Fri Aug  5 06:10:01 2022: Out of 9 objects, saving 9 glowing objects during Armageddon.
+Fri Aug  5 06:10:39 2022: Recovering 9 object(s).
+Fri Aug  5 06:10:40 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#101#1#0#1#0#0##ItemExpire#1661142363#~Kp~ using recovery after Armageddon.
+Fri Aug  5 06:10:40 2022: Restoring /d/Gondor/anorien/cairandros/wep/club:#WEP#16#0#0#0#0#0##ItemExpire#1660756266#~Kp~ using recovery after Armageddon.
+Fri Aug  5 06:10:41 2022: Restoring /d/Shire/moria/wep/maul:#WEP#0#0#0#0#0#0##ItemExpire#1661466563# using recovery after Armageddon.
+Fri Aug  5 06:10:41 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub1:#WEP#55#0#0#0#0#0##ItemExpire#1663233586# using recovery after Armageddon.
+Fri Aug  5 06:10:41 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub1:#WEP#95#0#0#0#0#0##ItemExpire#1663227699# using recovery after Armageddon.
+Fri Aug  5 06:10:42 2022: Restoring /d/Calia/guilds/calians/weapons/polearm_of_darkness:#WEP#79#0#0#0#0#0##ItemExpire#1663252541#~Kp~#woo_sn#spear#woo_pn#spears#woo_oa#evil#woo_ts#0#woo_tf#1655511758# using recovery after Armageddon.
+Fri Aug  5 06:10:42 2022: Restoring /d/Calia/guilds/calians/weapons/polearm_of_darkness:#WEP#72#0#0#0#0#0##ItemExpire#1663348773#~Kp~#woo_sn#spear#woo_pn#spears#woo_oa#evil#woo_ts#0#woo_tf#1655609724# using recovery after Armageddon.
+Fri Aug  5 06:10:42 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub5:#WEP#40#5#0#0#0#0##ItemExpire#1662932801# using recovery after Armageddon.
+Fri Aug  5 06:10:42 2022: Restoring /d/Terel/common/frost/weapon/frost_club:#WEP#0#0#0#0#0#0##ItemExpire#1662608056# using recovery after Armageddon.
+Fri Aug 19 03:10:01 2022: Out of 8 objects, saving 8 glowing objects during Armageddon.
+Fri Aug 19 03:33:06 2022: Recovering 8 object(s).
+Fri Aug 19 03:33:06 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub1:#WEP#55#0#0#0#0#0##ItemExpire#1663233586# using recovery after Armageddon.
+Fri Aug 19 03:33:06 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub1:#WEP#95#0#0#0#0#0##ItemExpire#1663227699# using recovery after Armageddon.
+Fri Aug 19 03:33:07 2022: Restoring /d/Calia/guilds/calians/weapons/polearm_of_darkness:#WEP#79#0#0#0#0#0##ItemExpire#1663252541#~Kp~#woo_sn#spear#woo_pn#spears#woo_oa#evil#woo_ts#0#woo_tf#1655511758# using recovery after Armageddon.
+Fri Aug 19 03:33:07 2022: Restoring /d/Calia/guilds/calians/weapons/polearm_of_darkness:#WEP#72#0#0#0#0#0##ItemExpire#1663348773#~Kp~#woo_sn#spear#woo_pn#spears#woo_oa#evil#woo_ts#0#woo_tf#1655609724# using recovery after Armageddon.
+Fri Aug 19 03:33:07 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub5:#WEP#40#5#0#0#0#0##ItemExpire#1662932801# using recovery after Armageddon.
+Fri Aug 19 03:33:07 2022: Restoring /d/Terel/common/frost/weapon/frost_club:#WEP#0#0#0#0#0#0##ItemExpire#1662608056# using recovery after Armageddon.
+Fri Aug 19 03:33:07 2022: Restoring /d/Ansalon/taman_busuk/neraka/wep/whip:#WEP#226#2#0#2#0#0##ItemExpire#1667724977# using recovery after Armageddon.
+Fri Aug 19 03:33:07 2022: Restoring /d/Emerald/north_shore/outpost/wep/woodaxe:#WEP#15#0#0#0#0#0##ItemExpire#1668421758# using recovery after Armageddon.
+Thu Sep  1 23:10:01 2022: Out of 9 objects, saving 9 glowing objects during Armageddon.
+Fri Sep  2 02:32:12 2022: Recovering 9 object(s).
+Fri Sep  2 02:32:13 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub1:#WEP#55#0#0#0#0#0##ItemExpire#1663233586# using recovery after Armageddon.
+Fri Sep  2 02:32:13 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub1:#WEP#95#0#0#0#0#0##ItemExpire#1663227699# using recovery after Armageddon.
+Fri Sep  2 02:32:13 2022: Restoring /d/Calia/guilds/calians/weapons/polearm_of_darkness:#WEP#79#0#0#0#0#0##ItemExpire#1663252541#~Kp~#woo_sn#spear#woo_pn#spears#woo_oa#evil#woo_ts#0#woo_tf#1655511758# using recovery after Armageddon.
+Fri Sep  2 02:32:13 2022: Restoring /d/Calia/guilds/calians/weapons/polearm_of_darkness:#WEP#72#0#0#0#0#0##ItemExpire#1663348773#~Kp~#woo_sn#spear#woo_pn#spears#woo_oa#evil#woo_ts#0#woo_tf#1655609724# using recovery after Armageddon.
+Fri Sep  2 02:32:13 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub5:#WEP#40#5#0#0#0#0##ItemExpire#1662932801# using recovery after Armageddon.
+Fri Sep  2 02:32:13 2022: Restoring /d/Terel/common/frost/weapon/frost_club:#WEP#0#0#0#0#0#0##ItemExpire#1662608056# using recovery after Armageddon.
+Fri Sep  2 02:32:13 2022: Restoring /d/Ansalon/taman_busuk/neraka/wep/whip:#WEP#226#2#0#2#0#0##ItemExpire#1667724977# using recovery after Armageddon.
+Fri Sep  2 02:32:13 2022: Restoring /d/Emerald/north_shore/outpost/wep/woodaxe:#WEP#15#0#0#0#0#0##ItemExpire#1668421758# using recovery after Armageddon.
+Fri Sep  2 02:32:13 2022: Restoring /d/Krynn/common/weapons/dragonbone:#WEP#97#0#0#0#0#0##ItemExpire#1667858030# using recovery after Armageddon.
+Thu Sep 15 20:55:01 2022: Out of 2 objects, saving 2 glowing objects during Armageddon.
+Thu Sep 15 21:09:47 2022: Recovering 2 object(s).
+Thu Sep 15 21:09:47 2022: Restoring /d/Krynn/common/weapons/dragonbone:#WEP#252#0#0#0#0#0##ItemExpire#1667839626# using recovery after Armageddon.
+Thu Sep 15 21:09:47 2022: Restoring /d/Ansalon/goodlund/nethosak/forest/obj/weapon/tree:#WEP#3#0#0#0#0#0##ItemExpire#1670014210# using recovery after Armageddon.
+Thu Sep 29 17:55:01 2022: Out of 6 objects, saving 6 glowing objects during Armageddon.
+Thu Sep 29 17:58:07 2022: Recovering 6 object(s).
+Thu Sep 29 17:58:07 2022: Restoring /d/Krynn/common/weapons/dragonbone:#WEP#252#0#0#0#0#0##ItemExpire#1667839626# using recovery after Armageddon.
+Thu Sep 29 17:58:07 2022: Restoring /d/Ansalon/goodlund/nethosak/forest/obj/weapon/tree:#WEP#3#0#0#0#0#0##ItemExpire#1670014210# using recovery after Armageddon.
+Thu Sep 29 17:58:07 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub4:#WEP#0#0#0#0#0#0##ItemExpire#1671130222# using recovery after Armageddon.
+Thu Sep 29 17:58:07 2022: Restoring /d/Ansalon/estwilde/obj/weapon/frost_club:#WEP#40#3#0#0#0#0##ItemExpire#1667749441# using recovery after Armageddon.
+Thu Sep 29 17:58:07 2022: Restoring /d/Calia/guilds/calians/weapons/polearm_of_darkness:#WEP#4#0#0#0#0#0##ItemExpire#1671662151#~Kp~#woo_sn#spear#woo_pn#spears#woo_oa#evil#woo_ts#0#woo_tf#1663943437# using recovery after Armageddon.
+Thu Sep 29 17:58:07 2022: Restoring /d/Emerald/common/guild/aod/wep/forgeclub9:#WEP#58#0#0#0#0#1##ItemExpire#1664290697# using recovery after Armageddon.
+Sun Feb 19 11:44:21 2023: Recovering 6 object(s).
+Sun Feb 19 11:44:21 2023: Restoring /d/Krynn/common/weapons/dragonbone:#WEP#252#0#0#0#0#0##ItemExpire#1667839626# using recovery and making it glow.
+Sun Feb 19 11:44:22 2023: Restoring /d/Ansalon/goodlund/nethosak/forest/obj/weapon/tree:#WEP#3#0#0#0#0#0##ItemExpire#1670014210# using recovery and making it glow.
+Sun Feb 19 11:44:22 2023: Restoring /d/Emerald/common/guild/aod/wep/forgeclub4:#WEP#0#0#0#0#0#0##ItemExpire#1671130222# using recovery and making it glow.
+Sun Feb 19 11:44:22 2023: Restoring /d/Ansalon/estwilde/obj/weapon/frost_club:#WEP#40#3#0#0#0#0##ItemExpire#1667749441# using recovery and making it glow.
+Sun Feb 19 11:44:22 2023: Restoring /d/Calia/guilds/calians/weapons/polearm_of_darkness:#WEP#4#0#0#0#0#0##ItemExpire#1671662151#~Kp~#woo_sn#spear#woo_pn#spears#woo_oa#evil#woo_ts#0#woo_tf#1663943437# using recovery and making it glow.
+Sun Feb 19 11:44:23 2023: Restoring /d/Emerald/common/guild/aod/wep/forgeclub9:#WEP#58#0#0#0#0#1##ItemExpire#1664290697# using recovery and making it glow.
+Wed Feb 22 05:40:01 2023: Out of 6 objects, saving 6 glowing objects during Armageddon.

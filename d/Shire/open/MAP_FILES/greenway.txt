@@ -1,0 +1,58 @@
+main
+::MAPDATA::
+gondorlink 26 16 road
+tree 26 11 road
+gw2 26 13 road
+gw1 26 11 road
+::MAPDATA::
+
+    +---------+
+ ~  |THE SHIRE|
+ ~~ +---------+        Fornost
+  ~~                      o
+   ~~~                    |
+     ~~~                  |
+ \     ~~~                |
+  \      ~~~              |                                    Weathertop
+  |Frogmorton             |   BREE   Midgewater   /----------------*-\
+  o------===--------------+----O---\ Marshes/----/                    \------
+ /   |  Brandywine        |         \------/
+ ing |    Bridge          |
+     o   ~~~     Barrow   |
+  Whitfurrows     Downs   |
+        ~~~               |
+ ----- ~~~ o--------------\
+     ~~~  Sarn Ford        \
+   ~~~                      \
+ ~~~                         \   
+
+::NEWMAP::
+road
+::MAPDATA::
+gondorlink 16 14
+tree 12 12
+gw2 16 12
+gw1 16 8
+::MAPDATA::
+
+              Fornost                                                     ~~~~
+                                                                         ~~~~~
+                |                                                       ~~~~~~
+        Shire - o - Bree                                              ~~~~~~~~
+                |                                                    ~~~~~~~~~
+                |                                                  ~~~~~~~~~~~
+                |                                                ~~~~~~~~~~~~~
+                o                                               ~~~~~~~~~~~~~
+                |                                              ~~~~~~~~~~~~~
+                |                                           ~~~~~~~~~~~~~
+                |                                          ~~~~~~~~~~~~~
+            o   o - Towards Moria                         ~~~~~~~~~~~~~
+              \ | /                                    ~~~~~~~~~~~~~~
+o - - - o - - - o                                    ~~~~~~~~~~~~
+                  \                                 ~~~~~~~~~~~~~
+                    o                              ~~~~~~~~~~~~~
+                      \                          ~~~~~~~~~~~~~
+                        o                       ~~~~~~~~~~~~~
+                          \                    ~~~~~~~~~~~~~
+                            o               ~~~~~~~~~~~~~
+                              \           ~~~~~~~~~~~~~

@@ -1,0 +1,114 @@
+main
+::MAPDATA::
+road2 7 9 vingaard_road 
+road3 7 9 vingaard_road
+road4 7 9 vingaard_road
+road5 7 9 vingaard_road
+road6 7 9 vingaard_road
+road7 7 9 vingaard_road
+road8 7 9 vingaard_road
+road9 7 9 vingaard_road
+road10 7 9 vingaard_road
+road13 7 9 vingaard_road
+road14 7 9 vingaard_road
+road15 7 9 vingaard_road
+road11 7 9 vingaard_road  
+road12 7 9 vingaard_road
+landing1 7 9 vingaard_road
+backex 8 11 westgate_pass
+hall1 8 11 westgate_pass
+hall2 8 11 westgate_pass
+hall3 8 11 westgate_pass
+hall4 8 11 westgate_pass
+hall5 8 11 westgate_pass
+hall6 8 11 westgate_pass
+hall7 8 11 westgate_pass
+east_gap 8 11 westgate_pass
+bridge 8 11 westgate_pass 
+west_gap 8 11 westgate_pass
+frontdoor 8 11 westgate_pass
+entrance 8 11 westgate_pass
+tunnel1 8 11 westgate_pass
+tunnel2 8 11 westgate_pass
+tunnel3 8 11 westgate_pass
+::MAPDATA::
+
+~~ ~~ ~~ ~~ ~~ '
+ `"`:~~ ,"`,`"`        
+ /\ ; ~~:         /\       Hinterlund
+  /\`,~,'        /\
+     [ ] /\ /\ /\                   ~~~ ~~
+ Palanthas/\ /\  /\             ~~~~~  ~~
+     /\_   /\ /\               ~~~
+    /   \/\                    ~
+  /\ /\ /\                    ~~     /\_ 
+   /\  /\      PLAINS OF      ~     /\  \
+     /\[ ]     SOLAMNIA      ~~    [#]/\ 
+ High Clerist               ~      Dargaard
+     Tower\                ~~      Keep /\
+   /\      \____________[ ]~        /\    
+    /\                Vingaard        /\    
+   /\                 Keep          /\   
+  /\   Heartlund        ~           @/\ /\ 
+ /\                   ~~           @/\_
+
+::NEWMAP::
+vingaard_road
+::MAPDATA::
+road2 15 6
+road3 19 6
+road4 15 10
+road5 19 10
+road6 23 14
+road7 19 14
+road8 19 17
+road9 15 21
+road10 19 25
+road13 19 28
+road14 15 32
+road15 19 36
+road11 24 25  
+road12 26 20
+landing1 16 15
+::MAPDATA::
+
+
+        City of Palanthas
+
+             \
+              \
+         /\    o---o
+        /  \__    /      /\
+       /      \  ,      /~~\__
+        /\      /      /      \
+       /~~\__  o---o        /\ \
+      /      \      \      /~~\ _
+     /        \      '    /    / \
+    /          \      \    @@ /   \
+            /\     o---o     /~~~~~\
+        /\ /  \    |   ~~~  /       \
+       /~~\__  \   |   ~~  /         \
+      /    \ \  \  o   
+     /      \ \   /  __           Vingaard Mountains
+                 ,  /  \     
+                /  /~~~~\     !!   Winter snows can    !!
+      /\       o  /      \/\  !!   block the trail     !!
+     /  \  _    \        /  \ !! through the mountains !!
+    /~~~~\/ \    '      /~~~~\
+   /      \~~\    \   _/      \__
+  /  __    \  \    o /           \
+    /~~\           |    _/\       \
+   /    \          |   /~~~\       \
+  /                o  /     \
+   /\      ^      /  /       \
+  /~~\    /.\    ,       /\
+ /    \   \./   /       /~~\   /\
+ /\       |.|  o       /    \_/~~\
+/  \     /...\  \     /       \   \
+         ) @ (   '   /         \
+         )...(    \    
+        /.....\    X
+       /.......\    \
+     ...________...  '   High Clerist
+    |....[.|.].....|  \     Tower
+

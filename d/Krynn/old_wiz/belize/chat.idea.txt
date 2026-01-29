@@ -1,0 +1,37 @@
+Message: 40
+From   : Chataigne
+Subject: Emote suggestions
+CC     : Mhyrmarius, Rocque and Karath
+Date   : May  4 1997
+
+Greetings,
+
+Here are a couple of suggestions for emotes that I thought of.
+I hope you can understand how I mean them. If not just ask me.
+
+Archmage Chataigne
+
+wfrown (target)
+
+ACTOR  You pause and frown, clearly showing your irritation by the
+       interruption.
+       You pause and frown, cleary showing your irritation by (target)'s 
+       interruption.
+
+TARGET  (actor) pauses and frowns, clearly showing (his/her) irritation by
+        your interruption.
+
+ONLOOKERS  (actor) pauses and frowns, clearly showing (his/her) irritation 
+           by the interruption.
+
+           (actor) pauses and frowns, cleary showing (his/her) irritation
+           by (target)'s interruption.
+==============================================
+whmm (target)
+
+ACTOR  You go Hmm... and study (target) thoughtfully.
+
+TARGET  (actor) goes Hmm... and studies you thoughtfully.
+
+ONLOOKERS  (actor) goes Hmm... and studies (target) thoughtfully.
+

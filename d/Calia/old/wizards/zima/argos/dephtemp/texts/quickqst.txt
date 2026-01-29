@@ -1,0 +1,85 @@
+Here are the directions for running through the Vision of Delphia quest:
+ 
+1. Collect all the tomes. This is not necessary from the code's point of
+   view, but a real player would need to get all these and interpret them
+   to do the quest.
+ 
+   cd ~zima/argos/dephtemp/rooms
+   goto library3     take tomes from altar
+   goto classrm      take tome from podium       read plaque (FYI)
+   goto antermw      take tome from pulpit
+   goto anterme      take tome from pulpit
+   goto lounge       take tome from desk
+   goto qrtpsn       take tome from desk
+ 
+2. goto hiercham
+      take robe from wardrobe
+      wear robe
+ 
+3. goto sacris
+      take medallion from pedestal
+      wear medallion
+ 
+4. goto winery
+      take wine from table
+ 
+5. goto talis
+      pray for blessing
+      drink wine  (you should be poisoned now)
+ 
+5. goto chapel
+     kneel
+     pray for revelation
+     (take note of the scene which you see)
+     rise
+ 
+6. Next you must find the scene which was revealed in the chapel. The scenes
+   are portrayed on the tapestries, murals, paintings, etc of the temple.
+   With each scene (which is part of the quest) an inscription or words
+   will be written somewhere (where is indicated when you exa <artwork>)
+   which is the text of the prayer in honor of that scene which must be
+   remembered.
+ 
+   List of scenes and where prayers can be found:
+   (you must read inscription/words written on each piece of artwork)
+ 
+   -------------------------------------------------------------------
+   2nd letter   Room where found   Try             Text of Prayer
+   ----------   ----------------   --------------- -------------------
+     A,B        quartch            exa picture     Empsanisae Protos
+     C,D        classrm            exa tapestry    Elpida Progoni
+     E,F        dine2              exa mural       Aleipso Delphia
+     G,H        mstrnov            exa tapestry    Akoustico Opama
+     I,J        lounge             exa mural       Mentagio Parousiasae
+     K,L        dine1              exa mural       Palaekari Megalos
+     M,N        corr28             exa relief      Ktaenos Skopos
+     O,P        captngrd           exa tapestry    Dogza Demonstrates
+     Q,R        recept             exa tapestry    Suntheke Eirpun
+     S,T        quartnpr           exa mural       Kataskeun Naos
+     U,V        quartnps           exa mural       Eulogia Naos
+     W,X        portico            exa ceiling     Pouli Agios
+     Y,Z        corr26             exa relief      Thriambos Latreia
+ 
+7. goto chapel
+      (if you are not still poisoned, repeat steps 4 and 5
+      kneel
+      pray <text of scene> (you should receive a blessing of being chosen)
+      rise
+ 
+8. goto sacris
+      take dagger from pedestal
+      wield dagger
+ 
+9. goto zima/argos/nwterr/rooms/fold.
+      kill lamb
+      take corpse
+ 
+10. goto sacris
+       take bowl from pedestal
+ 
+11. goto sanct
+      do this 3 times:
+         fill bowl with blood
+         drink from bowl
+      place corpse on altar
+      chant praise unto the Light of Darkness and to Our Mother who brings it

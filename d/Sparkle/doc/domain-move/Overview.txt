@@ -1,0 +1,132 @@
+GENESIS TO SPARKLE MOVE (OVERVIEW)
+----------------------------------
+
+The purpose of this document is to outline the first things to do to get the
+Sparkle domain up and running. The things are not set in stone, on the
+contrary, any suggestions and improvements are welcome ...
+
+07/12/09 Arandir        Polished to see where things stand
+
+
+o Why the move ?
+
+  The goal of the move is to separate the generic game code in /d/Genesis
+  from the code of normal areas and guilds in /d/Sparkle. This will make
+  better conditions for further work on the areas and guilds ...
+
+  This makes the Sparkle domain somewhat thematically fragmented. Right
+  now, this is an academic point, because the areas and guilds are moved
+  as they are. Later on, this has to be delved into because otherwise the
+  Sparkle domain will become a junkyard of code people do not feel belongs
+  in other domains ...
+
+  ... ideas anyone ? Obviously, starting locations are a choice, but how
+  far from a starting location does the area remain a starting location ?
+
+
+o What gets moved ?
+
+  These are the things in /d/Genesis with an explanation
+  of how the  move to /d/Sparkle concerns them:
+
+    /clubs
+      /blankies - abandoned project, not our problem
+      /merit - abandoned project, not our problem
+      /rmc - outdated copy of Rich Men Club
+           - living copy is in /d/Immortal
+           - nobody is responsible for it now
+           - Damaris agrees to move it
+           x moved to /d/Sparkle/clubs/rmc
+      /rpg - living copy of Role Playing Club
+           - Mrpr is responsible for it now
+           - Mrpr agrees to move it
+           x moved to /d/Sparkle/clubs/actors
+
+    /guilds
+      /merc - living copy of Mercenaries Guild
+            - Lunatari is responsible for it now
+            x moved to /d/Sparkle/guilds/mercs
+      /monk - living copy of Monk Guild
+            - Arandir is responsible for it now
+            x moved to /d/Sparkle/guilds/monks
+      /kharzad - abandoned, not our problem
+      /vischami - abandoned, not our problem
+      /travellers - outdated copy of Travellers Guild
+                  - living copy is in /d/Earthsea
+                  - Rhyn is responsible for it now
+                  - Rhyn wants to keep it as is
+
+    /new - abandoned code from earlier update
+         - maybe we can use it for inspiration
+
+    /open - bits of docs that should be moved and updated
+
+    /start - racial starting locations
+           - we obviously want to move this
+           - there is a lot of dead code here though
+
+  There are some other things in /d/Genesis that do not concern us.
+  Notably, this is the Events Mvsevm, which Stern wants to remain
+  in /d/Genesis, but also to remain accessible from Sparkle.
+
+
+o Where does it all get moved ?
+
+  The directory structure is already a bit of a controversy :-)
+  here are some limitations that I am aware of:
+
+  - Race default starting locations
+  - Race default post offices
+
+    Both defined in /d/Genesis/login/login.h as a list of rooms
+    from /d/Genesis/start. Obviously, these have to be changed
+    unless some redirecting code is left behind in /d/Genesis,
+    which is probably asking for trouble.
+
+    There is no apparent system in the names of the starting locations
+    and post offices, other than that they are all under /d/Genesis/start.
+
+    I propose to have a similar structure under /d/Sparkle/start, that
+    is, have individual racial subdirectories, but only have two files
+    in each subdirectory, start.c and post.c, that would link to the
+    rest of the area, placed as outlined below ...
+
+  - Traditional domain directory structure
+
+    Normally, guilds go to /guilds, clubs go to /clubs, logs go to /log,
+    web goes to /www, public data go to /open, etc. ... this should stay.
+
+  - Need for sharing code
+
+    Many things, especially the rooms, in some of the newer code that
+    gets moved, are advanced way beyond what the older code has. Some
+    structure for sharing this is needed ...
+
+  Which gets me to the following sketch of a directory structure, very
+  similar to what /d/Khalakhor uses at the moment, only slightly
+  different from /d/Shire and /d/Gondor as far as I can say:
+
+    /area - for rooms, subdirectories per area
+    /guilds - for guilds, subdirectory per guild
+    /clubs - for clubs, subdirectory per club
+    /doc
+    /lib
+    /log
+    /www
+    /open
+    /start
+    /common
+    /domain
+    /private
+
+  Notably, this means one more move for Faerie, sorry about that.
+
+
+o What next ?
+
+  The move should create an infrastructure for other people to create
+  things in. Right now, I am aware of Shadowlynx taking a shot at the
+  Sparkle harbour and probably Mount Nevermind, Finwe is almost done
+  with Faerie, Gorboth is coding a newbie area that I have no more
+  details on.
+

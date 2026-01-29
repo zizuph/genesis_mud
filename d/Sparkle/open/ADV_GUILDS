@@ -1,0 +1,47 @@
+ADVENTURE GUILDS LISTING FOR SPARKLE DOMAIN ]===============================
+
+DWARFHEIM ]-----------------------------------------------------------------
+
+  area/dwarfheim/room/fort/guild
+   - TBD
+
+FAERIE ]--------------------------------------------------------------------
+
+  area/faerie/rooms/greenoaks/ac_agn
+    Alchemy . . . . . . . . . Superior Student
+    Animal Handling . . . . . Superior Amateur
+    Earth Spells. . . . . . . Confident Amateu
+    Herbalism . . . . . . . . Superior Amateur
+    Hide. . . . . . . . . . . Superior Amateur
+    Language. . . . . . . . . Superior Layman
+    Life Spells . . . . . . . Superior Amateur
+    Sneak . . . . . . . . . . Superior Amateur
+    Spellcraft. . . . . . . . Superior Amateur
+    Swim. . . . . . . . . . . Superior Layman
+    Tracking. . . . . . . . . Superior Layman
+
+  area/faerie/rooms/greenoaks/ac_ags
+    Awareness . . . . . . . . Superior Layman     
+    Blindfighting . . . . . . Superior Amateur
+    Defence . . . . . . . . . Superior Amateur
+    Find and Remove Traps . . Superior Amateur
+    Knife . . . . . . . . . . Superior Layman 
+    Location Sense. . . . . . Superior Layman 
+    Polearm . . . . . . . . . Superior Layman 
+    Sword . . . . . . . . . . Superior Layman 
+    Unarmed Combat. . . . . . Superior Layman 
+
+SPARKLE ]-------------------------------------------------------------------
+
+  area/sparkle/room/town/adv_guild
+(based on /d/Genesis/start/human/town/adv_guild)
+    Appraise Object . . . . . Superior Layman
+    Appraise Value. . . . . . Superior Layman
+    Climb . . . . . . . . . . Superior Layman
+    Club. . . . . . . . . . . Superior Layman
+    Knife . . . . . . . . . . Superior Layman
+    Swim. . . . . . . . . . . Superior Layman
+    Trading . . . . . . . . . Superior Layman
+    Unarmed Combat. . . . . . Superior Layman
+
+============================================================================

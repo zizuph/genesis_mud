@@ -1,0 +1,74 @@
+The Goal
+--------
+
+I want to create NPC's that act fairly realistic. Real people do not stand 
+in one spot for days on end, nor do they wander aimlessly through the streets.
+(At least not all the time.) Real people also do not (normally) spew random 
+stupid comments, but will react to their surroundings and the people nearby. 
+
+What I want to do is create elves for Toad-in-Oak (and to a lesser extent
+animals) that act a little more like real people. I want them to move around 
+the village at a reasonable pace, which means I can't use /std/act/domove. 
+(Once every few minutes is too slow, and I also want to be able to stop them
+from moving at certain times.) While they are wandering randomly like this, I
+want them to be able to perform actions specific to the room their in, such as 
+take a drink from the stream, or feed the ducks in the pond. 
+
+I also want them to react to other creatures in the room, such as greeting 
+another villager, petting an animal, or looking suspiciously at an outsider. 
+This would include general reactions and more specific actions. Doe should say
+hello to the storekeepers Nahasa, Peema, and Petilon, but she'd do something 
+more meaningful if she happened across Allerdice. 
+
+I also want people to occasionally do more complex things like go to the lake
+to swim for a while, practice their skills on the training platform, and have
+small parties on the village green. I'd like it if the NPC's involved in these 
+activities would actually move through the village to get to the room involved
+rather then teleporting there, but I can see that being very complex and 
+wasting a lot of effort for minimal effect. I'd be interested in any way of 
+faking this. ;)
+
+The Solution as it stands
+-------------------------
+
+This is how I intend to accomplish what I've mentioned above, at least it is
+until I find a major problem with these solutions, or I come up with better 
+ideas. 
+
+I have created a control room and several base rooms to help in keeping track 
+of what what's going on in the village and to help control the NPC's. It's 
+currently keeping track of several types of NPCs and the rooms that have been
+loaded. 
+
+To control the NPC's movements I intend to use the control room and a function 
+in the npc itself. An alarm function in the control room will select a random
+number of NPC's from the lists it maintains and call a function in them that 
+tells them to move. This function will move the NPC through a random exit 
+after checking to see if theres a reason to stay put (they're in combat or 
+they're performing some special task.) 
+
+Telling NPC's when to perform one of the special tasks will be somewhat 
+similar to the movement. An alarm or alarms will select an npc or npc's that
+will be told to perform the task. For instance two or three elves will be 
+selected and told to go swimming. I'm not sure yet exactly how the tasks 
+themselves will work. ie. How the npc will be told how to get undressed and 
+into the swimming hole, and how long they will stay there. 
+
+I'm not sure yet how best to make the NPC's react to the room their in. I want
+them to be able to have their normal emotes as well as the room specific one, 
+and to have a reasonable chance of any of them happening. (ie I can't simply
+use two add_act with vbfc functions because then there would be a even chance
+of a normal act or a room specific act happening, even if there were 10 normal
+acts possible and only 1 special one.) The best solution I can think of is to 
+have the room call add_act several times when the player enters the room, and 
+to clear all the acts when they leave, then call a function in the npc to 
+"reinstall" the normal acts. I really don't think this is a good solution, in
+fact I'm pretty sure it's not a good idea, even if it works. Any act that 
+needed to call a special function would make this even more complex. (Like 
+splashing somebody while swimming). 
+
+Reacting to the presence of other people/animals I'm not sure how best to do
+either. It could be done with a vbfc act, but I don't think that would be the 
+best way. 
+
+

@@ -1,0 +1,6 @@
+Herb Bags in the Shire
+----------------------
+/d/Shire/common/obj/herb_pouch.c
+/d/Shire/common/obj/herb_sack.c
+/d/Shire/common/obj/pouch.c
+/d/Shire/herald/herbbag.c

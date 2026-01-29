@@ -1,0 +1,122 @@
+CAID to % DEF: (100.0 * caid) / (100.0 + caid)
+% DEF to CAID: (100.0 * perc) / (100.0 - perc)
+
+Defensive skill level: 10
+Chance to evade: 0.0503609714643715733
+caid: 0.050386346517967695
+
+Defensive skill level: 20
+Chance to evade: 0.131571377287599489
+caid: 0.131744715624449782
+
+Defensive skill level: 30
+Chance to evade: 0.340301743469282769
+caid: 0.341463750565779378
+
+Defensive skill level: 40
+Chance to evade: 0.825662547011745573
+caid: 0.832536488991550527
+
+Defensive skill level: 50
+Chance to evade: 1.82727683215551906
+caid: 1.86128771128356618
+
+Defensive skill level: 60
+Chance to evade: 3.64512666660323248
+caid: 3.78302263341757339
+
+Defensive skill level: 70
+Chance to evade: 6.54008699640090185
+caid: 6.99774564967661661
+
+Defensive skill level: 80
+Chance to evade: 10.5972722004228075
+caid: 11.8534103614598223
+
+Defensive skill level: 90
+Chance to evade: 15.6396853689366111
+caid: 18.5391501173677682
+
+Defensive skill level: 100
+Chance to evade: 21.267012917180935
+caid: 27.0115661873849859
+
+Defensive skill level: 110
+Chance to evade: 27.0043126366572181
+caid: 36.9943946170967024
+
+Defensive skill level: 120
+Chance to evade: 32.4627551887515438
+caid: 48.0664487861145631
+
+Defensive skill level: 130
+Chance to evade: 37.4213402196434899
+caid: 59.7988840780353144
+
+Defensive skill level: 140
+Chance to evade: 41.8145783996804496
+caid: 71.86435579501034
+
+Defensive skill level: 150
+Chance to evade: 45.6724685750274944
+caid: 84.0687352748618082
+
+Defensive skill level: 160
+Chance to evade: 49.0630008476580954
+caid: 96.3209487487100375
+
+Defensive skill level: 170
+Chance to evade: 52.0583203655310314
+caid: 108.586767844700802
+
+Defensive skill level: 180
+Chance to evade: 54.7215849744168779
+caid: 120.855787340387678
+
+Defensive skill level: 190
+Chance to evade: 57.1046367951507534
+caid: 133.125430183314478
+
+Defensive skill level: 200
+Chance to evade: 59.2494022965179923
+caid: 145.395173655220589
+
+Defensive skill level: 210
+Chance to evade: 61.1899066874458484
+caid: 157.664930601061883
+
+Defensive skill level: 220
+Chance to evade: 62.9540018164603907
+caid: 169.934689044044433
+
+Defensive skill level: 230
+Chance to evade: 64.5646973881718793
+caid: 182.204447625122043
+
+Defensive skill level: 240
+Chance to evade: 66.0411683302457533
+caid: 194.474206216776111
+
+Defensive skill level: 250
+Chance to evade: 67.3995215970318213
+caid: 206.743964809103204
+
+Defensive skill level: 260
+Chance to evade: 68.65338615099202
+caid: 219.013723401466109
+
+Defensive skill level: 270
+Chance to evade: 69.8143718491033098
+caid: 231.2834819938289
+
+Defensive skill level: 280
+Chance to evade: 70.8924299973496659
+caid: 243.55324058619351
+
+Defensive skill level: 290
+Chance to evade: 71.8961393077859441
+caid: 255.822999178558348
+
+Defensive skill level: 300
+Chance to evade: 72.8329346641929334
+caid: 268.092757770920457

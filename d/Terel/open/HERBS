@@ -1,0 +1,15 @@
+Terel:         where       type                   str  id find decay value NB 
+------------------------------------------------------------------------------
+
+aravelis        warm       leaf        MANA       57   75   8  1200   1200  %
+argil           cold       root        FATIGUE    40   40   6  8500   800   %
+lukilvor        cold       frond       MANA       18    5   5  1200   700   %
+moosho          water      mushroom    MANA       50   30   3  600    800   %
+ramira          forest     berry       MANA     25-55  10  10  1500   1000  %
+sebre           cold       flower      MANA       40    5   5  1200   1000  %
+tilhiyin                   root        MANA       78   65   3  600    1500  %
+whitehorn       cold       mushroom    HEALING   145   75   7  4000   1200  %
+wilcol                     moss        CURE(all) 100   75   7  1200   5000  %
+ylpi            mountain   mushroom    MANA       21   12  10  1200   800   %
+ylpoe                      mushroom    MANA     20-40  45   9  1000   900   %
+

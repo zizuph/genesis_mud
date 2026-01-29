@@ -1,0 +1,1 @@
+inherit "/d/Ansalon/goodlund/bloodsea/living/water_shape";

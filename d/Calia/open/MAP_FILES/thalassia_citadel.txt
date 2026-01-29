@@ -1,0 +1,58 @@
+main
+::MAPDATA::
+brguard_e_1_1 37 14
+brguard_e_2_1 37 13
+brguard_e_3_1 37 12
+brguard_n_1_1 21 4
+brguard_n_2_1 21 3
+brguard_n_3_1 21 2
+brguard_w_1_1 5 14
+brguard_w_2_1 5 13
+brguard_w_3_1 5 12
+citadel1 15 22
+citadel2 21 22
+citadel3 27 22
+citadel4 11 18
+citadel5 16 18
+citadel6 11 14
+citadel7 11 10
+citadel8 16 10
+citadel9 15 6
+citadel10 21 6
+citadel11 27 6
+citadel12 26 10
+citadel13 31 10
+citadel14 31 14
+citadel15 31 18
+citadel16 26 18
+cold 26 14
+fountain 21 14
+hot 16 14
+::MAPDATA::
+ 
+                     ^          @~~~~~~~~~~~~~@
+                    | |        ( Thalassian (
+                    | |         )   Citadel  )
+                   `| |'       @~~~~~~~~~~~~~@
+            / =====/   \===== \
+           /   o --- o --- o   \
+          /   /    / | \    \   \
+         /   /    / _ _ \    \   \
+        /   /    / /   \ \    \   \
+       /   o    o (     ) o    o   \ 
+     ^ |   |  /  \ \_ _/ / \   |   | ^
+    | ||   | /    \     /   \  |   || |
+   \| |/   |/      \ | /     \ |   \| |/
+    | |  - o -- o -- O -- o -- o -  | |
+   /   \   |\      / | \     / |   /   \
+       |   | \    / _ _ \   /  |   |
+       |   |  \  / /   \ \ /   |   |
+       |   o    o (     ) o    o   |
+       \    \    \ \_ _/ /    /    /
+        \    \    \     /    /    /
+         \    \    \ | /    /    /
+          \    o --- o --- o    /
+           \________ | ________/
+                   \   /
+                    )@(
+                   /   \

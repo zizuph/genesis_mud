@@ -1,0 +1,7 @@
+Name:            Stella
+Cost:           20 mana, no components
+Skills:          Fire, Conjuration
+Description:     Does (F_PENMOD(SS_ELEMENT_FIRE + SS_WISDOM/5 + 15) damage
+Requirements:    Wis > 20
+
+Object:          /d/Terel/mecien/valley/guild/spells/stella.c

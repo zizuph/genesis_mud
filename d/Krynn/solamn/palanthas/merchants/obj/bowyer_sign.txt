@@ -1,0 +1,36 @@
+ ________________________________________________
+|                                                |
+|  *                  Bows                    *  |
+|                                                |
+|       I sell for you many bows in the elven    |
+|     style and prepare them for use.            |
+|                                      - Aug     |
+|                 Price - 10gc                   |
+|                                                |
+|   Style1           Style2          Types       |
+|   ------           ------          -----       |
+|   black            composite       bow         |
+|   blue             darkwood        longbow     |
+|   dark             horseman        shortbow    |
+|   dark-brown       hunting                     |
+|   dark-green       lacquered                   |
+|   golden           mahogany                    |
+|   grey             oaken                       |
+|   pale             ornate            o         |
+|   polished         pinewood         /\\        |
+|   plain*           poplar         /   \*       |
+|   red                           /      \*      |
+|   shaded                      /         )*     |
+|   silvery                    ##---------]|-->  |
+|   white                       \         )*     |
+|   yellow                        \      /*      |
+|                                   \   /*       |
+|                                     \//        |
+|                                      o         |
+|                                                |
+|        <order> <style1> <style2> <type>        |
+|              <buy arrows>    - 1gc             |
+|              <buy bowstring> - 3sc             |
+|              <buy quiver>    - 2gc             |
+|  *                                          *  |
+|________________________________________________|

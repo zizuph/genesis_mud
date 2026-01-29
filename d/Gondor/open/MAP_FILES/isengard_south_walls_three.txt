@@ -1,0 +1,57 @@
+main
+::MAPDATA::
+swt1 2 1
+swt2 4 3
+swt3 6 5
+swt4 8 7
+swt5 10 9
+sw_para1t 3 10
+sw_para1 6 10
+swt6 12 11
+sw_para2 8 12
+swt7 14 13
+sw_para3t 7 14
+sw_para3 10 14
+swt8 16 15
+swt9 18 17
+swt10 20 19
+st5 22 21
+st6 26 21
+st7 32 21
+st8 36 21
+st9 40 21
+st10 44 21
+st11 48 21
+st1 52 21
+st2 56 21
+s_para1 44 20
+s_para2 44 19
+s_para3 44 18
+s_para4 44 17
+::MAPDATA::
+
+  o
+   \
+    o
+     \
+      o
+       \
+        o
+         \
+          o
+  [ ][ ]   \
+       \   [ ]
+       [ ]   \
+         \    o
+      [ ][ ]   \
+                o
+_   _   _   _    \
+ |_| |_| |_| |_|  o                        [ ]
+                   \                       [ ]
+                    o                      [ ]
+                     \                     [ ]
+                     [ ]- o-----o - o - o -[ ]- o - o - o-----
+
+
+                                   _   _   _   _   _   _
+                                    |_| |_| |_| |_| |_| 

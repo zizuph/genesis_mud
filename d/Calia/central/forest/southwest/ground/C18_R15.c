@@ -1,0 +1,10 @@
+//Room type {x}
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void create_room()
+    {
+    create_forest_interior("C18_R15", ({"C18_R14", "C19_R14",
+        "C19_R15", "C19_R16", "C18_R16", "C17_R16", "C17_R15", "C17_R14"}),
+        ({"sycamore", "birch", "elm"}));
+    }

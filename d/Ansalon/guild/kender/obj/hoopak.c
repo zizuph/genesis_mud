@@ -1,0 +1,292 @@
+/* A version of Erine's hoopak from
+* ~flotsam/obj/weapon/hoopak.c
+* created by Arman 19/6/98
+*
+* Fixed slightly by Milan 30/7/03
+*/
+
+#pragma strict_types
+
+inherit "/std/weapon";
+inherit "/lib/keep";
+
+#include <wa_types.h>
+#include "/sys/global/cmdparse.c"
+#include "/sys/ss_types.h"
+#include <stdproperties.h>
+#include <macros.h>
+#include <formulas.h>
+#include <filter_funs.h>
+#include "/d/Krynn/common/defs.h"
+
+int alarm;
+object paral;
+
+void
+create_weapon()
+{
+    seteuid(getuid(TO));
+    set_name("hoopak");
+    set_adj("ironwood");
+    add_name("staff"); 
+    set_short("ironwood hoopak");    set_long("@@long_desc@@");
+    set_default_weapon(33,25,W_POLEARM, W_BLUDGEON | W_IMPALE,W_BOTH);
+    add_prop(OBJ_I_VOLUME, 250);
+    add_prop(OBJ_I_WEIGHT, 500);
+}
+
+string
+long_desc()
+{
+    string ken; /* to add_desc*/
+    /* later it will be connected with function wield() so previous */
+    /* wielder will be mentioned <not by name ofcourse> */
+    object owner; // just to define where hoopak is. I wonder if it will work
+
+    owner=E(TO);
+    ken = "creator must have been your kin.\n";
+
+    if(living(owner) != 1)
+    {
+        ken = "former user must have been a kender.\n";
+    }
+    else
+    {
+        if(owner->query_race_name() != "kender")
+            ken = "former user must have been a kender.\n";
+    }
+
+    return(BSN("This is a staff, that is for sure, but quite an unusual one. "
++
+        "It is made from a single piece of very " +
+        "sturdy ironwood that, from the forked top to " +
+        "the very end, is polished and smoothed, most likely from long usage. The bottom " +
+        "end of it is copper clad and comes to a sharp point. The opposite side of it is " +
+        "adjusted to be used as a catapult and has a leather sling tied across it. Bright " +
+        "feathers are attached to the top. Judging from the shape and adornment its " +
+        ken));
+
+}
+
+  /* function : scared()
+   * desc     : makes listener of hoopak's sound to panic if coward
+   * arg      : object victim - ob[i] that specific player
+   */
+void
+scared(object victim)
+{
+    int success;
+    success = victim ->query_stat(SS_DIS) + (victim->query_stat(SS_INT) +
+      victim->query_stat(SS_WIS))/2;
+    success -= 20 + random(20);
+
+    tell_object(victim, "You are shaken by the experience.\n");
+    if(success <=0)
+    {
+        tell_object(victim, "Scared to the bone by the eerie sound you "+
+          "decide to look for a safer place.\n");
+        tell_room(E(victim), QCTNAME(victim) + " cannot withstand the eerie "+
+          "sound and looses his selfcontrol.\n", victim);
+    }
+    else
+    {
+        tell_object(victim,"Sneering at the " + TP->query_race_name() +
+          " you look not at " +
+          "all scared of the eerie sound.\n");
+        tell_room(E(victim), QCTNAME(victim) + " only sneers when " +
+          QTNAME(TP) + " swings " + TP->query_possessive() + " hoopak.\n",
+          ({victim, TP}));
+        TP->catch_msg(QCTNAME(victim) +" only sneers when you swing your hoopak.\n");
+    }
+    return;
+}
+
+/* function: make_act()
+* disp    : this function is called to force livings in room to do what we want
+*           customize it that player will do some actions
+*/
+void
+make_act()
+{
+    object me,*ob;
+    int i;
+
+    me = TP;
+    ob = FILTER_LIVE(all_inventory(environment(me))) - ({ me });
+    if(ob != 0)
+    {
+        for (i = 0; i < sizeof(ob); i++)
+        {
+            scared(ob[i]);
+        }
+    }
+    TP->catch_msg("There is noone to be scared except you.\n");   
+}
+
+int
+make_noise(string str)
+{
+    int a;
+    mixed *rooms = ({" "});
+    mixed center;
+    int g_file;
+
+    if(present("hoopak", TP))
+    {
+        if(str == "hoopak" || str == "staff")
+        {
+            say(QCTNAME(TP) +" raises " + TP->query_possessive()+ " hand high in the "+
+              "air and starts to spin "+ TP->query_possessive() +" hoopak. A hollow, "+
+              "whining sound that starts out low, grows higher and higher and "+
+              "higher comes from the hoopak, making the hair at the back of your neck stand on end.\n");
+
+            write("You start to swing the hoopak over your head, creating a low sound at first " +
+              "that rises to a high-pitched screaming sound as you swing it faster and faster.\n");
+
+            return 1;
+        }
+        write("Swing what?!?\n");
+        return 1;  
+    }
+    else
+        write("You don't have anything to swing with.\n");
+    return 1;
+
+}
+
+void
+shoot(object target, object tp)
+{
+    if (objectp(tp))
+    {
+	if (objectp(target) && (E(tp) == E(target)))
+	{
+	    tp->catch_msg("You let the pebble fly towards " + QTNAME(target) + ".\n" +
+		"The pebble hits " + HIM(target) + " harmlessly.\n");
+	    target->catch_msg(C(QCTNAME(tp)) + " lets the pebble fly from the hoopak.\n"+
+		"It hits you harmlessly and falls to the ground.\n");
+	    tell_room(E(tp), C(QCTNAME(tp)) + " let the pebble go and fly towards " +
+		QCTNAME(target) +
+		".\nThe pebble hits " + HIM(target) + " harmlessly and "+
+		"falls to the ground.\n",({tp,target}));
+	}
+	else
+	{
+	    tp->catch_msg("You stop shooting because your target escaped.\n");
+	}
+	paral->remove_object();
+    }
+}
+
+void
+aim(object target, object tp)
+{
+    if (objectp(tp) && objectp(target) && (E(tp) == E(target)))
+    {
+    	tp->catch_msg("You start to aim the hoopak at " + QTNAME(target) +
+    	  " and hope "+HE(target)+" stands still long enough for you to get "+
+	  HIM(target)+" in your sight.\n");
+    	target->catch_msg(QCTNAME(tp) + " aims the hoopak in your direction.\n");
+    	tell_room(E(tp), QCTNAME(tp) +" aims the hoopak in " + QTNAME(target) + "'s general "+
+    	  "direction.\n", ({tp, target}));
+    	alarm = set_alarm(2.0,0.0,&shoot(target,tp));
+    }
+}
+
+void
+load_hoopak(object target, object tp)
+{
+    if (objectp(tp))
+    {
+    	tp->catch_msg("You proceed to load the hoopak.\n");
+    	tell_room(E(tp), C(QCTNAME(tp)) + " sticks " +
+  	    tp->query_possessive() + " tongue out as " +
+  	    tp->query_pronoun() + " loads the hoopak with a pebble.\n",tp);
+    	alarm = set_alarm(2.0,0.0,&aim(target,tp));
+    }
+}
+
+void
+stop_shoot()
+{
+    remove_alarm(alarm);
+}
+
+int
+shoot_player(string str)
+{
+    string self,a,b;
+    int i;
+    object *temparray, target;
+
+    /* If this code look fimiliar .. Well it should I was wonder around
+    mackers workroom one day and when i got back home LO and Behold!
+    this code was in one of my pouches so i decided to use it.. after
+    all what good is code that is not in use :)
+     Erine
+    "Borrowed from code by macker feather.c"
+    */
+
+    if(TP == E(TO))
+    {
+        if((!strlen(str) || !str))
+        {
+            NF("Shoot who with what?!?\n");
+            return 0;
+        }
+
+        i = sscanf(str, "%s with %s", a, b);
+        if((i<2) || ((b!="hoopak")&&(b!="staff")) )
+        {
+            NF("Shoot who with what?!?\n");
+            return 0;
+        }
+
+        if((a=="me")||(a=="myself"))
+	{
+            write("This feat seems quite hard to accomplish not to mention " +
+              "the fact you may miss and make someone lose an eye! " +
+              "You decide not to do this.\n");
+            return 1;
+	}
+
+        temparray = (find_str_in_object(a, E(E(TO))));
+        if(sizeof(temparray) == 0)
+            target = 0;
+        else
+            target = temparray[0];
+        if(!(living(target)))
+        {
+            NF("Seems like a useless idea to shoot that doesn't it??\n");
+            return 0;
+        }
+
+        TP->catch_msg("You bend down and pick up a pebble from the ground.\n");
+        tell_room(E(TP),QCTNAME(TP) + " bends down and picks up a pebble from "+
+          "the ground.\n",TP);
+
+        alarm = set_alarm(4.0,0.0,&load_hoopak(target,TP));
+
+        paral = clone_object("/std/paralyze");
+        paral->set_stop_object(TO);
+        paral->set_stop_fun("stop_shoot");
+        paral->set_remove_time(9);
+        paral->set_fail_message("You are trying to shoot somebody with your " +
+          "hoopak. Maybe you should 'stop' before trying anything else.\n");
+        paral->set_stop_message("You stop trying to shoot people with your hoopak.\n");
+        paral->move(TP, 1);
+
+        return 1;
+    }
+    return 0;
+}
+
+void 
+init()
+{
+    ::init();
+    add_action(shoot_player, "shoot");
+    add_action(make_noise, "swing");
+    add_action(make_noise, "spin");
+}
+

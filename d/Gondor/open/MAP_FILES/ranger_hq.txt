@@ -1,0 +1,50 @@
+main
+::MAPDATA::
+hq_shop 14 6
+hq_library 18 6
+join 22 6
+rangerfield2 26 6
+task_room 6 8
+post 10 8
+dcorridor2 14 8
+dcorridor1 18 8
+boardhall 22 8
+rangerfield 26 8
+mess_hall 14 10
+herb_shop 22 10
+start 7 15
+ucorridor1 11 15
+armroom 15 15
+uphall 11 17
+ucorridor2 11 19
+ch_council 7 21
+office 11 21
+ch_train 15 21
+cozy 11 23
+recruiter_office 15 23
+rec_library 15 24
+::MAPDATA::
+
+                                ^
+                               /|\
+                              //|\\
+                             ///|\\\
+          Shop   Lib        ////|\\\\
+              o   o   o   o    | |
+              |   |   |   |    | |
+    - o - o - o - o -[ ]- o -  | |
+         PO   |       |
+              o       o
+             Mess   Herbs
+
+
+
+       o - o - o
+           |
+          [ ]
+           |
+           o
+           |
+       o - o - o Train
+           |
+           o

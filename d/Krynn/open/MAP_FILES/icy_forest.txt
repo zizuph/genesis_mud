@@ -1,0 +1,45 @@
+main
+::MAPDATA::
+forest_4 21 3
+forest_3 19 5
+forest_5 23 5
+tunnel 29 5
+bottom_of_ice 2 7
+to_forest_1 7 7
+to_forest_2 11 7
+to_forest_3 15 7
+forest_1 19 7
+forest_6 21 7
+forest_9 25 7
+forest_10 29 7
+forest_13 32 7
+up_stairs1 2 6
+forest_8 25 9
+forest_12 31 9
+forest_15 35 9
+up_stairs2 2 5
+up_stairs3 2 4
+forest_2 15 11
+forest_7 23 11
+forest_14 33 11
+forest_11 25 13
+grif_1 2 9
+grif_2 2 10
+::MAPDATA::
+
+
+             |           ^
+           \/|\/     o  /|\
+ [ ]        \|/     / \  |     \|/
+ [ ]         |     o   o        |
+\[ ]/              |  /
+-[ ] - o - o - o - o o - o - o [ ]
+  |  ___          /      |    \
+ [ ]  ___        /       o    [ ]  o
+ [ ]   ___      /       /       \ /
+        ___    o ----- o   \|/   o
+                        \   |
+               ^         o
+              /|\
+             //|\\
+               |

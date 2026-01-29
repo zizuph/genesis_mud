@@ -1,0 +1,43 @@
+
+     Spell name: Protection from divination
+                 trothocuir
+         Effect: Provides resistance against scrying
+           Type: Maintained
+        Targets: Living
+        
+        Element: Water        / 30
+           Form: Divination   / 30
+    Spell power: Power 2 [Minor spell]
+     Spell type: propchange spell 
+     
+       Peaceful: Yes
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: chantrelle (herb, 160 cc)
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_DIFFICULT
+     Combat Aid: 0% 
+
+            Tax:  0.25
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.5   DIFFICULT difficulty
+                  x0.8   material component >= 1gp value 
+                 ------
+                   0.1%  total tax
+   ------------------------------------------------------------
+   Comments: Provides the target of the casting protection from
+             scrying by adding the LIVE_I_NO_SCRY prop.
+
+             There is always a chance of the protection failing
+             with the overall protection being based on the
+             spell power of the casting.
+
+             Scry protection % = min(95, (spell_power / 4))
+   ------------------------------------------------------------

@@ -1,0 +1,116 @@
+Palanthas Bishon Quests - Coded by Arman, April 2021
+
+In the Palanthas noble district is a famous restaurant run 
+by Bishon the Seafood Culinarian.
+/d/Krynn/solamn/palanthas/living/bishon.c
+
+Bishon can be found at:
+/d/Krynn/solamn/palanthas/nobles/crabshack.c
+
+All the quest code resides in him.
+
+Quest 1: Bishon Fishing Quest 
+          3500 quest xp reward
+
+         For this quest Bishon requires the player to fish
+         for him a Balifor bonito, a fish that can only be
+         caught in the Bay of Balifor.
+
+         To achieve this, a player must learn the Krynn
+         fishing system which requires purchasing a fishing
+         rod from the crusty seadog on the docks of Palanthas
+         ~solamn/palanthas/shipping/living/seadog_seller.c
+
+         The seadog sells bait, but if the player asks the
+         seadog about the Balifor bonito he'll tell them
+         that his simple earthworms won't be good enough
+         bait to catch a bonito, and that better bait would
+         be needed. He suggests bardee grubs, that can be
+         found in the bark of trees on the isle of Mithas.
+
+         Once the player has the rod and bait, he can fish
+         from the deck of a ship in the Bay of Balifor
+         for a bonito.  Success at catching a fish requires
+         some level of SS_HUNTING skill... the higher the
+         skill the more likelihood of success.
+
+         Once a Balifor bonito is caught it can be taken
+         back to Bishon for the quest xp reward and a 
+         free fish platter! (available on the menu)
+
+Quest 2: Bishon Shark Fin Soup Quest
+         3000 quest xp reward
+
+         For this Bishon asks the player to bring him
+         5 shark fins from a great white shark... a creature
+         (~100 stat average) that randomly spawns from
+         /d/Ansalon/goodlund/bloodsea/living/water_shape.c
+         all over the sailing areas of Krynn/Ansalon.
+
+         To find these water shapes where sharks spawn, you
+         either need to charter a boat or having be a 
+         sailor and sail your own ship to these locations.
+
+         Not only do you need to kill the shark, but you
+         also need to be holding a net 
+         (/d/Calia/sea/objects/fish_net.c) to catch the 
+         corpse before it sinks to the bottom of the ocean.
+
+         Carving the corpse in the net gives a fin leftover,
+         of which five can be handed in for a quest reward.
+
+Quest 3: Bishon Black Noodles Quest         
+         5000 quest xp reward.
+
+         Similar to the Shark Fin Soup quest, Bishon requires
+         a rare ink sac from a collosal squid, that can only
+         be found in spawns in the South Courrain Sea
+         /d/Krynn/south_courrain/living/dark_shape.c
+
+         The collosal squid is much harder to find and kill
+         than sharks, with a 154 stat average and a blinding
+         special attack.
+
+         Upon returning the ink sac, the player is rewarded
+         with quest experience and given 2 gold coins.
+
+Quest 4: Bishon Swimming Potion Quest       
+         10000 quest xp reward.
+
+         For this quest Bishon initially wants the player to
+         retrieve the recipe of a potion of swimming, that 
+         was lost at sea. The ship that held the recipe
+         is wrecked on a beach east of Palanthas
+         /d/Krynn/turbidus_ocean/room/beach2.c that can only
+         be accessed by a skilled sailor or a semi-expensive
+         charter ship with a skilled captain from 
+         /d/Krynn/solamn/palanthas/shipping/charter_room.c.
+
+         in ~beach2.c the sand can be searched and a key found
+         if you are participating in the quest.
+         The chest that unlocks it is underwater to the north
+         of the beach, requiring AG level swim skill to access.
+
+         The chest contains the recipe Bishon seeks
+         /d/Krynn/solamn/palanthas/nobles/obj/bishon_potion_scroll.c
+         Upon returning the scroll to Bishon, he realises the
+         primary ingredient he needs to make the potion is the
+         heart of a sea lion, so he sends the player off to get
+         one.
+
+         Similar to the collosal squid from the Black Noodles quest,
+         the sea lion spawns randomly in the South Courran Ocean via 
+         the /d/Krynn/south_courrain/living/dark_shape.c
+         The sea lion is a legendary creature (stat average ~170)
+         with a special attack, so a tough fight. On returning the
+         heart to Bishon, he tries to make the potion without
+         success... ruining the components in the process.
+
+         Bishon asks the player to make him a potion of swimming
+         for him... the player may either make one based on the
+         instructions in the recipe, or can source a potion from
+         elsewhere (such as some npc drops) and give it to
+         Bishon.
+
+         Upon receiving a swimming potion Bishon rewards the player
+         with quest xp and 2 platinum coins.

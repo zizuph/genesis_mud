@@ -1,0 +1,45 @@
+Dancer of Veils                                Grace       Nov 16 1995
+
+A minor guild, the Dancers of Veils, was opened in Avenir today.
+It is located in the Sybarus Bazaar. The joinroom and startloc is
+	~Avenir/common/clubs/dance/clubroom
+
+As a minor guild it offers nothing in the way of combat aid to 
+members so there is no tax on experience.
+
+The females who join receive two guild objects, several emotes, 
+and an improvement in their appearance (They look like the image 
+of perfection to themselves and others). When the player leaves 
+the club, the original appearance is restored. 
+
+In accordance with the theme of Avenir, only female humans, elves, and
+gnomes may join. Hobbits are not real to the Sybarites, and dwarves
+and goblins lack the physical grace.
+
+Dancers of the Veil have the following abilities:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   dbeck      Beckon to someone with your index finger and a smile.
+   dblow      Blow a kiss to someone.
+   dbored     Study your fingernails in boredom.
+   dchew      Chew thoughtfully on your bottom lip.
+   dflash     Flash someone a look full of temper and promise.
+   dglow      Perform a beauty ritual that leaves you glowing.
+   dhair      Idly twirl a lock of your hair.
+   dhelp      This list.
+   dhug       Twine your arms around someone's neck and hug warmly.
+   dhum       Hum a little tune and move your shoulders sinuously.
+   dimmune    You appear to be immune to someone's charms.
+   dinsult    Toss one of several insults at someone.
+   dlean      Lean toward someone and offer your mouth for a kiss.
+   dlook      You give someone a sultry look.
+   dlower     You lower your veil in a coquettish show of modesty.
+   dmouth     Invite someone to kiss you by moistening your lips.
+   doffer     Offer your bottom to be spanked.
+   dpoke      A Dancer's last line of defence: Guaranteed to get that
+              annoying person's attention.
+   dpout      Pout adorably, or pout adorably at someone.
+   dsigh      Your bosom is the center of attention here.
+   dstick     Stick your tongue out at someone.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^      
+
+/|Grace of Krynn, moonlighting in Avenir.

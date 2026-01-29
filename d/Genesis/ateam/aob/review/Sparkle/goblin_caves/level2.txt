@@ -1,0 +1,66 @@
+Hello,
+
+I've checked through most of the area and it's looking good.
+There are a few issues that need to be taken care of though.
+
+Some are nice to have but the stuff under balance must be done
+before opening.
+
+General code quality:
+	- Indentation (spaces not tabs)
+	- Object references in commands:
+	  command("drop " + ob->query_short()) -> command("drop " + OB_NAME(ob)
+	  
+	- String function names are obsolete
+	  set_alarm(1.0,0.0,"reject_flower",ob); -> set_alarm(1.0, 0.0, &reject_flower(ob));
+	  
+	- this_player() after set alarm is not reliable, it may point at noone or sometimes at
+	  someone else.
+	
+	  set_alarm(1.0,0.0,"accept_gem",ob);
+	  
+	  void
+	  accept_gem(object ob) 
+      {
+        command("thank " + TP->query_name());
+		
+	  Should be:
+	  
+	  set_alarm(1.0, 0.0, &accept_gem(ob, from));
+	  
+	  void 
+	  accept_gem(object ob, object player) { 
+	    command("thank " + OB_NAME(player))
+	
+	- Command parsing
+	  All command parsing needs to be improved to handle more variants.
+	  Preferably using something like parse_command.
+	  
+	  At a miminum 'the' needs to be handled.
+	
+
+Balance
+	equip/l2_shaman_base.c
+		set_am, see man armour for rules
+	
+	Dart Quest
+		As this is only pure luck and stats this does not merit such a large reward.
+		Something like:
+		500 QXP for playing
+		1000 QXP for the high score
+		
+		Declare the sectors variable static, so it's not saved in all save files.
+		
+	Love Quest
+		5000 is borderline for this, but ok.
+	
+	
+
+	  
+	
+	  
+	
+	 
+	  
+	
+	

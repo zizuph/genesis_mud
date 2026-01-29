@@ -1,0 +1,188 @@
+
+
+================================================
+DISCUSSION DOCUMENT FOR THE SPECIAL ATTACK BUG
+================================================
+
+In investigating the imbalance with quickness abilities 
+for the combat aid benefit provided, it was discovered
+that the issue with quickness as actually a symptom of
+a bigger problem with standardised special attacks.
+
+A 40pen special with 40tohit should deal 280pen / 5sec.
+
+It in fact deals 756pen / 5sec, which should suggest
+that the special deals 2.7 times more damage than it
+is intended to do.
+
+================================================
+IMPLICATIONS OF THIS BUG
+================================================
+
+WHITE HITS:
+At a global level, it highlights why other aspects
+of Genesis combat are largely disregarded, such as
+'white hit' damage and the benefit two weapons provide.
+Special attacks are the primary way players deal
+damage. White damage is pretty insignificant in
+comparison and is disregarded.
+
+
+GLOBAL GUILD BALANCE:
+Balancing guilds has been largely around the basis 
+that they all fall within the realm of equality
+through limitation on skills and total caid.
+
+For fighting guilds, that caid cap is 100.
+
+Due to this bug, 1 caid does not equal 1 caid in
+reality for special attacks, but 2.7 caid. So those
+guilds with more of their 100 caid focused in their
+special attacks actually have more caid in reality.
+
+Example for occupations:
+Calians have swarm special attack with a maximum caid 
+benefit of 120. In reality, this is a provision of 
+324 caid.
+
+Knights have a special attack with a caid benefit of 
+80, which in reality provides 217 caid benefit. Along
+with their other benefits, the knights have a total
+caid of around 237.
+
+Neidar have a special attack that has a caid benefit
+at max of 50. Which in reality is 135. Combined with
+their defensive specials the guild has in total
+185 caid.
+
+324 > 237 > 185.  Great disparity between guilds.
+
+Example for layman fighter guilds with a 50
+caid cap:
+Blademasters has a special attack which caps at
+50 aid, which in reality is 135.
+
+Shieldbearers have a slam which applies a stun for
+22 aid and a special damage component of 28.. an
+equivalent of 97.6 aid.
+
+Bloodsea pirates have a special attack of 15 aid
+which actually equates to 40.5. With their defensive
+special they have a total caid benefit of 75.5 caid
+
+135 > 97 > 75.
+
+In summary, guild 'balance' doesn't really exist.
+
+
+QUICKNESS:
+The most obvious impact of this bug is where quickness
+bonuses are applied.
+
+In the current system, 250 haste equals half the activation
+time of a special and twice the attacks from normal
+white hits.
+
+So 250 haste will double the caid of a special attack... and
+while special attacks provide 2.7x more caid than they should,
+quickness significantly inflates the problem.
+
+You get 166haste for 50caid... which is pretty standard 
+benefit for layman magic guilds. With such a spell applied
+to a 100 caid special attack (270 in reality), you'd result
+in a boost to the special attack to make it around a 150 caid
+special attack (405 in reality)... massive inflation. 
+
+[caveat assuming my math is correct... Carnak can you check?]
+
+
+SPELLCASTING:
+Spellcasting suffers from the same issue of providing more
+caid than it should for harm special attacks. The big issue
+is that most occupational harm (and heal) spells do so
+with really high caid values applied... so the bug is 
+magnified.
+
+During spellcasting, spellcasters do not do white damage.
+This is compensated with additional caid applied to harm
+and heal spells.
+
+Normal attacks for 40 tohit is about 37% hit rate. Multiply 
+this by a standard 43% armour reduction (40ac) and you get 
+about 21%. We give spells a boost of 21% combat aid to their 
+declared aid amounts.  This additional aid benefit provided
+may be inflated due to the bug.
+
+================================================
+POSSIBLE SOLUTIONS?
+================================================
+
+We can't leave the bug as is and maintain that the game 
+follows principles of balance.
+
+OPTION 1:
+From a purist point of view, simply fixing the bug to provide
+the right amount of caid would fix it. But it would be a
+global nerf of armageddon proportions to damage specials.
+
+OPTION 2:
+Alternatively, we can fix the bug while inflating the 
+F_PENMOD formula to inflate the special attack damage up to
+a level players are used to from their specials.
+
+This will result in a few other impacts too:
+1. white damage would increase to be a more significant 
+component of a players damage output. This would make those
+guilds that are less reliant on special attacks -like 
+rangers - more viable options (positive outcome for
+players).
+
+2. two weapon combat would again be a viable and effective
+playing style (positive outcome for players)
+
+3. NPCs will do more damage, potentially making it harder
+for players to hunt where they are used to hunting and making
+those guilds that don't have high defensive abilities - like
+spellcasters - potentially less viable. (negative outcome for 
+players). The disparity in experience reward between those
+NPCs that 'stack' physical stats vs those NPCs that have
+more balanced stats will also be exacerbated. 
+
+OPTION3: 
+We fix the bug but maintain status quo by inflating what is
+an acceptable amount of combat aid allowed by guilds. So for
+occupational fighter guilds they have access to 270 caid
+rather than 100 caid, and specials are updated accordingly.
+
+This would also allow some rebalancing of the weaker offensive
+guilds, where the imbalance of the special has played out in
+guilds not being equally balanced.
+
+So for example, Calians would be at (over) their cap with a 
+swarm providing a combat aid of 324.
+
+Blue Dragonarmy would have their battack changed from 80 to
+216, and their dragon special attacks changed from 15 to 
+41. Along with dragonfear, they would have a total caid of
+262, so 8 additional caid within their cap.
+
+knights kattack would be changed from a 
+caid of 80 to 216... noting that they would have an additional
+~44 caid within their cap after their defensive benefits are
+taken into account. 
+
+Neidar's special attack would be converted from 50 caid to 
+135 caid. They would have a whopping 85 caid unaccounted for.
+Monks would be in a similar position, where their offensive
+abilities could be enhanced.
+
+This is an attractive option if we are ok with how white
+hits currently work. We may need to look at new rules on
+how combat aid can be applied to guilds, and also look
+into fixing up two weapon combat so it is at least a
+meaningful option.
+
+
+Any change we make we'd probably want to test on the 
+shadow beta server with players... no doubt it will have
+implications we haven't thought of yet.

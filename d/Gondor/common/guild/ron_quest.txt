@@ -1,0 +1,31 @@
+Message: 27
+From   : Jaypeg
+Subject: Proposal for RON entrance quest.
+To     : Ratrat, Prokop and Elessar
+CC     : Jaypeg and Jaypeg
+Date   : Oct  9 1996
+
+Concept-
+The quest is basically a spying mission, using the history of Arnor to solve a problem.  I'd like the quest to be available from Halbarad, Master Ranger of the North, who stands in our entrance halls, preaching warnings and guidance to all who will listen.
+
+Storyline-
+Lately there have been numerous reports of strange-looking southerners lurking around Bree, and the officers of the Grey Company are concerned by building rumours of the darkness spreading from the far southeast.  Also they have been pulling their hair out with the latest incursions of orcs above Greenfields, and increased sightings of trolls in Hollin.
+Therefore the investigation of this latest possible threat falls to you, the pupil.  Successful completion of this mission would prove your worth to the officers of the North, most likely assuring your place in the coveted and secretive Grey Company.
+Halbarad has told you that its likely that such suspicious charcters can be found lurking in the shadows at the Prancing Pony, the famous bastion of hospitality owned by Barliman Butterbur, and the centerpoint of gossip more than anyplace in the North.  Slipping out of  Fornost as the sun rises, you break into your lengthening strides down the Greenway, pacing yourself so that you'll reach Bree in the shadows of twilight as the sun dissapears in the west.
+
+Quest-
+The quest is to find the Prancing Pony, a simple task, as any ranger should know this place.  But then the Pupil most find his/her way into a secret room, or perhaps just a cupboard or something, and wait for night.  Late in the night, before the hour of midnight two men will appear in the room next to or where the pupil hides.  If the pupil fails a hidden check, or is not hidden, the southerners notice the pupil and leave speaking in hushed tones.  If the pupil successfully hides from the strangers, the strangers will exchange a dialog that will give the pupil an important clue, a month perhaps.  This month can then be used to solve some secret shared with the conspiritors.  I see this as a similar problem to solve as the barrow wight quest in the Barrow Downs.  There should be a book written in and available in the RON library to allow the pupil the resources necessary to solve the puzzle.  Finally the pupil may report back to Halbarad, and at his prompt, answer the puzzle.  The pupil gets only three tries at giving answers to Halbarad.
+Once a pupil has given the correct answer to Halbarad I was hoping that it would be possible for an automatic mailing to be sent to the officers of the North, stating that the pupil had successfully completed the mission.
+
+Problems-
+For a start this requires a small amount of coding, and because RON is a Gondor guild in the Shire domain, some cross-domain cooperation.  It requires some code in Halbarad, a book to be written in RON, and an extra room or hiding hole to be written into or around the Prancing Pony.  No NPCs are necessary, simply have the pupil hiding under the floor or in a cupboard etc with his/her ear up against a knothole so that they might overhear the "conversation".
+Also there is the problem of the quest being done prematurely.  For this there may have to be some flag or file, where the Captain of the RON may, when the pupil is ready for his/her final task, give "permission" for Halbarad to supply the pupil with the information to start this mission.
+Hopefully a little randomness will prevent too much leaking of the details of this quest to the pupils that follow.
+
+More details on the puzzle to follow.
+
+Written by Jaypeg Brandybuck
+15th Captain of the Rangers of the North
+2nd day of Sulime 3019
+9th day of October, 1996
+

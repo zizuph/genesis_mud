@@ -1,0 +1,65 @@
+Tax Summary for Trainees of the Calian guild
+============================================
+
+When a player first joins the Calian guild, he or she becomes
+a trainee, until accepted as a full member by a councillor 
+or recruitment officer. 
+
+Combat aid
+----------
+Trainees get the three Calian specials to the level of superior 
+professional (70 levels). At this level, the offensive specials 
+are less likely to hit, and do less damage (maul hence stuns less 
+too). The move behind maneuver is less likely to be successful. 
+However the difference in performance not as large as 
+(100 - 70) = 30%. For example F_PENMOD(64, 100) is 421, compared 
+to F_PENMOD(64, 70) which is 364, which is around 0.87 * 421. 
+The difference in performance for move behind is small, so is
+ignored. 
+
+standard swarm combat aid:        38.86 (see "swarm_tax.txt") 
+swarm combat aid for trainees:   (38.86 * 0.87) %
+                              =   33.81%
+
+standard maul combat aid:         39.02 (see "maul_tax.txt") 
+maul combat aid for trainees:    (39.02 * 0.87) % 
+                              =   33.95%
+
+       Note: combined maul and swarm skill level may not exceed 100, 
+             so we tax the greater of the two, i.e. 33.95%. 
+
+    special practice combat aid:        33.95 * (1 / 6) % = 5.66%
+          (see "special_practice.txt")
+
+move behind and mbsw combat aid:  10% 
+
+Total combat aid: (33.95 + 5.66 + 10) % = 49.61%
+
+Total tax for this combat aid: 49.61 / 6 = 8.27%
+
+
+Other benefits
+--------------
+The guild has a member-to-member tell line, which costs 4% tax.
+
+Trainees do not have access to the guild racks, so are not 
+charged the 1% tax. 
+
+
+Skills
+------
+sword     (65 - 30) / 60 * 1.5 = 0.875% tax
+polearm   (65 - 30) / 60 * 1.5 = 0.875% tax
+
+two-handed combat  45 / 60 * 2.0 = 1.5% tax
+parry              55 / 60 * 1.5 = 1.375% tax
+defence            (55 - 20) / 60 * 1.5 = 0.875% tax
+
+
+Total guild tax: 
+
+  8.27 + 4 + 0.875 + 0.875 + 1.5 + 1.375 + 0.875 
+= 17.77% tax
+= 18% tax rounding up
+
+Document by Maniac, 20/4/02

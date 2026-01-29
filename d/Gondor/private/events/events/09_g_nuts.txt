@@ -1,0 +1,27 @@
+09_g_nuts GAME
+
+10 types of gondorian nuts/fruits to be made into trail mix.
+Every player gets a no-drop no-steal nutcase which grows as more 
+mix is formed. Mix ingredients can be found all over Gondor.
+
+Winner is the one with all 10 types of ingredients and most mix.
+(This will make them trade but not easily give away ingredients).
+Two runner ups.
+(Or winner is first one getting 10 different types).
+(Runner up could then be the person with most mix at the time the winner
+wins).
+
+%As an empty wooden nutcase plunks down in your hands, a voice seems to
+whisper in your ear: Please aid us in our task!
+%This wooden nutcase smells vaguely of nuts and dried fruit. It appears to be
+made for holding trailmix!
+Please aid in our quest to make the vengeful wraith, Stern Urya-Yare, into a
+vegetarian and save the elves of Gondor! Fill this nutcase with at LEAST one of
+each ten different gondorian trailmix ingredients, and after the span of one
+hour, the biggest nutcase wins!
+
+
+Winner            500 q exp +  25,000 general
+Runner up         200 q exp +  15,000 general
+Second runner up  100 q exp + 10,000 general
+

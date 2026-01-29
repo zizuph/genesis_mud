@@ -1,0 +1,23 @@
+Repair and Push Cart Quest
+==========================
+Traveller's cart is broken down and needs help fixing it. Find necessary items to fix a  wheel and push the cart.
+
+Player needs the following:
+    * nails (~obj/nails.c), hidden on beach at ~rooms/forest/beach03s.c 
+      Player must search for nails. If they are on the beach--or available--they will
+      'glint' in the long description
+    * iron band (~obj/iron_band.c), hidden at /d/Shire/lode/rooms/gibberer/road02.c
+    * hammer (~obj/hammer.c), hidden at rooms/graveyard/lvl01/gr1_11
+      Any hammer will work as long 'hammer' is in description.
+    * A minimum dex and str of 45 is required
+
+Once the player has all items, they must fix/mend/repair the wheel. This is done by hammering the iron band around the wheel with the nails found.
+
+After the wheel is repaired, the player must push the cart. If they are strong enough, the quest is completed and exp is rewarded.
+
+Quest will check to see if the player has repaired the wheel, and not someone else. If player didn't repair cart, they won't get exp for pushing it and will spook the pony,  which runs away with the cart/destructs the cart.
+
+The cart is found at /d/Sparkle/area/faerie/rooms/forest/road09.c
+
+Exp: 1500
+By Finwe, April 2004

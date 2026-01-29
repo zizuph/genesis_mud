@@ -1,0 +1,247 @@
+GUIDELINES & GAMEDESIGN for the FAERUN DOMAIN
+==================================================================
+ - By Nerull, 1/8-2910.
+ 
+ 
+A guiding principe in good gamedesign entails gamecontent that 
+is fair and functional for all players, so one should strive
+to ensure gamecontent is playable, and available for all.
+Naturally, deviations may occur due to thematic reasons, but 
+one should still strive to ensure counters are created to ensure 
+balance parity(if possible). 
+
+This document will go through the most common and regular 
+game content that is usually created by wizards, and proper guidelines
+to ensure nobody create items, or challenges entirely blindfolded.
+
+
+
+WEAPONS & WEAPONRY
+==================
+All weapons created in Faerun shall follow the described rules as
+written. Please 'man weapon' to update yourself on the current rules
+for game weaponry.
+
+Magical weapons should be added in:
+/d/Faerun/info/magic/weapons.txt
+
+
+
+ARMOUR & CLOTHING
+=================
+All weapons created in Faerun shall follow the described rules as
+written. Please 'man armour' to update yourself on the current rules
+for game armors & clothing.
+
+Magical armours should be added in:
+/d/Faerun/info/magic/armours.txt
+
+
+
+MISC ITEMS
+==========
+Misc items may vary is peer reviewed by case by case basis.
+
+Magical armours should be added in:
+/d/Faerun/info/magic/items.txt
+
+
+
+NPC & MONSTERS
+==============
+The general guideline for monsters and npcs in general that 
+reward xp upon killed should follow the current CHALLENGE RATING
+table as desbribed below. Deviations may occur, but one must
+ensure that the npc that rewards x xp must also be y challenging.
+
+    DEFINITIONS
+
+    - CR        = Challenge rating
+
+    - Size Avg  = Minimum average size, with up to 20% variance of
+                  stat distribution
+                
+    - Min H/P   = Monster/ npc must have weapons (armed or
+                  unarmed, depending on thematic nature)
+                  the mininum hit and pen at this value.
+                 
+    - Min AC    = Monster / npc must have atleast this amount
+                  of AC on every hit location. May be through the
+                  use or armor, or natural / supernatural means.
+                 
+    - CB.Skills = Minimum relevant combatrelated skills.
+    
+    - Coin      = Max value of coins/gems dropped, or moneyitems 
+                  dropped by monsters that are sellable.
+
+              Challenge rating table
+  --|----------|---------|--------|-----------|------
+  CR| Size Avg | Min H/P | Min AC | CB.skills | Coin
+  --|----------|---------|--------|-----------|------
+  1 |  10-50   |  5-25   | 15     | 10-30     | xx
+  2 |  51-80   | 20-40   | 25     | 30-50     | xx
+  3 |  81-120  | 30+     | 30     | 50-80     | xx
+  4 | 120-150  | 35+     | 35+    | 90+       | xx
+  5 |*151-200  | 35+     | 35+    | 95+       | xx
+  6 |*200+     | 35+     | 35+    | 95+       | xx
+  
+  * Npcs and monsters at CR rating 5 and above should have a 
+    special attack, using the following formula:
+    
+    
+    SPECIAL ATTACK EXAMPLE:   
+    /*
+     * Function name: special_attack()
+     * Description  : Randomly triggers the special attack
+     * Arguments    : Enemy = the enemy of the object
+     */
+    int
+    special_attack(object enemy)
+    {
+        object *ob;
+        object *enemies;
+        object kill_enemy, enemy;
+        int i;
+        int did_push;
+        int pen;
+        object me;
+        mixed* hitresult;
+        string how;
+        me = this_object();
+        
+        enemies = query_my_enemies();
+        
+        if (sizeof(enemies) == 0) return 0;
+        
+        /* This decides if we shall do anything more... */
+        if (!random(3))
+            return 0;
+    
+        enemy = me->query_attack();
+        
+        /*We want this to be hard. So they randomly switch targets*/
+        if (!random(5))
+        {   
+             enemy = enemies[random(sizeof(enemies))];
+             kill_enemy = enemy;
+             command("kill "+kill_enemy->query_real_name());
+        }
+        
+        pen = query_pen_by_stat(this_object()->query_average_stat());
+        
+        hitresult = enemy->hit_me(query_pen_by_stat(this_object()->query_average_stat()) 
+        + random(600));
+        
+        switch (hitresult[3])
+        {
+            case 0..20:
+                how = "without effect";
+                break;
+            case 21..50:
+                how = "softly";
+                break;
+            case 51..80:
+                how = "hard";
+                break;
+            case 81..110:
+                how = "very hard";
+                break;
+            case 111..140:
+                how = "extremely hard";
+                break;
+            case 141..170:
+                how = "smashingly";
+                break;
+            default:
+                how = "smashingly";
+                break;
+        }
+        
+        me -> catch_msg("You strike your opponent in the stomach, "+how+"!\n");
+        
+        enemy->catch_msg(QCTNAME(me)+" strikes you "+how+" in your stomach!\n");
+        
+        MIR_DEBUG("Pen " +pen+ ", hitresult: "+hitresult[3]+ ".");
+        
+        tell_watcher(QCTNAME(me)+" strikes "+QTNAME(enemy)+" "+how+
+            " in the stomach!\n",enemy);
+            
+        if (enemy->query_hp() <= 0)
+        {
+            enemy->do_die(me);
+            return 1;
+        }
+        
+    }/*special_attack*/
+    
+    
+    
+ 
+  
+AREAS, CITIES, DUNGEONS & GRINDERS
+==================================
+The gamemap is perhaps the most fudamentai game 
+element necessary to design/complete at the 
+earlier stage of a project. It is important that
+the area coded thematically fits along with its
+gamecontent such as items, puzzles, monsters and
+npcs. Each area is designated with the range of
+npc/monsters with a CR range.
+
+
+   TOWN / CITIES
+   --------------
+   Usually major population areas with the majority
+   of the inhabitants being peasants, traders, guards
+   bandits, thieves. Usually supports the player with
+   quest givers, shops and services.
+   
+   Suggested CR ratings:   1-4.
+   
+   
+   
+   WILDERNESS
+   ----------
+   Roads, swamps, mountain ranges, forests. Usually 
+   larger outdoor areas and fields that are more
+   challenging and dangerous than population centers.
+   
+   Suggested CR ratings:   2-5.
+   
+   
+   DUNGEONS & GRINDERS
+   -------------------
+   Dungeons & Grinders are isolated limited areas of
+   greater danger, but also greater rewards. They serve
+   as typical quest objective locations, magical item
+   dispensers and primary xp / loot areas. 
+   
+   Suggested CR ratings:   2-6+
+   
+   -When designing a grinder, it is important to keep
+    size or number of factors rewarding xp/loot to
+    a sober level. The XP / LOOT footprint is 
+    measured in (x maximum number of monsters) x 
+    average xp value, and similar with loot / coins
+    generated by cleaning the dungeon.
+    
+    A typical good range of a grinder / dungeon in 
+    terms of size / rooms are the 30-60 rooms.
+    
+    
+    
+LOOT & XP FOOTPRINTS
+====================
+Areas with x npcs / monsters add a total "footprint"
+for xp and loot. This means the total worth of xp
+from all combined monsters in x area, and same for
+loot.
+
+After cleaning an area, it is possible to maximally earn
+x amount of xp, and y amount of platinum.
+
+This should be calculated and mapped, prefereably in 
+advance before building the area / dungeon if the 
+area is intended as grinders. Too much of each
+in a single area is not good and will probably not
+be tolerated by the AoD / AoB.

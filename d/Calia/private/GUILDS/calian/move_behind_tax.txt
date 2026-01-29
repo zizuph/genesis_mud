@@ -1,0 +1,44 @@
+
+Combat aid for move behind and mbsw
+===================================
+File: /d/Calia/palace/specials/calian_specials.c 
+
+Move behind is a skill that allows a player, when in a team 
+and being attacked by an opponent or opponents, to move behind 
+a team-mate who then faces the opponent(s) attacks. Likelihood 
+of success depends on the dex of the strongest enemy, the wisdom 
+of the attacker, the number of enemies, the dex and wisdom of 
+the Calian and his/her move behind skill, and the strength and 
+discipline of his/her team-mate. For the exact calculation
+please refer to the code. There is a short reset time of one 
+second. As a measure to stop enemy players from preventing 
+Calians from swarming at all by typing "kill" repeatedly, a 
+short period of protection from attack is introduced after 
+moving behind. It is long enough for one swarm preparation 
+time plus a couple of seconds to spare. After successfully 
+moving behind one may not move behind again until a period 
+as long as a complete swarm cycle (prepare and recover). This 
+is to prevent an "invulnerability" problem with repeated 
+moving behind. Additionally, after someone has moved behind 
+a fellow Calian, that Calian may not use the skill until a 
+period equalling one-and-a-half times a complete swarm cycle 
+has elapsed. This is to prevent the tactic known as "spiralling", 
+where two or more Calians swarm then move behind immediately 
+in turn, which allows a much higher rate of swarming than 
+allowed for in the tax. It is difficult to estimate the 
+combat aid for move behind. Without this feature, a Calian 
+who swarms would find it very awkward to work well in a team. 
+It does have a number of drawbacks as listed above, and its 
+own skill. The skill is essential in player fights, important 
+against smarter npcs, and is useful in other cases as an 
+alternative to leaving and returning especially in dangerous 
+areas. 
+
+There is a special move that Calians can do called "mbsw", 
+which is simply a move behind followed by an immediate swarm 
+attempt (with the usual preparation time). Without it, a Calian 
+involved in a player fight who doesn't have a fast link might 
+never be able to swarm. 
+
+Together, move behind and mbsw are estimated to give a combat 
+aid of 10%. 

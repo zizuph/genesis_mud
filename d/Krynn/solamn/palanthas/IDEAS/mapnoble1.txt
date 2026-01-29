@@ -1,0 +1,58 @@
+/*
+Propositional map of eastern wedge of Palanthas.
+                 `,
+       \           \
+        `,          O
+          \           \
+           O           `,
+           | \           \
+           |  `,          O
+           |    \           \
+          10-----O     N     `,
+                   \     \     \
+                    o-----o     o
+                    |       \   |
+                    |        `, | 
+                    |          \|
+              o-----O           O
+              |     |           |
+          o-o |  N  |     6     |
+         /  | |  |  |     |     |
+        o 3-o-o--o  o-----O--7  o
+         \  | |  |  |     |     |
+          o-o |  N  |     8     |
+              |     |           |
+         -----o-----O-----o-----G
+              |     |     |\    |
+          o-o |  P  |     |  o  |
+         /| | |  |  |     |  | \|
+        o 4 o-o  9--o  N--o  T  o
+        |   |    |  |     |     |
+        o-o-o    P  |     |     |
+                    |     |     |
+              o     O     o-----O
+                \   |     |     |
+           5     o  |     |     |
+            \   /   |     |     |
+        o     o     o  N--o     o
+       / \   / \   /           /
+     O     o     O           ,'
+   /  \        /   \        /
+  o     o     o           O
+       / \   /          /
+     N     O          ,'
+         /           /
+        o     N     O
+       /       \  /
+                o
+              /
+3.  Livery          8.  Dayspa
+4.  Fine Inn        9.  Park
+5.  Jeweler         10. Fine Cloth Dealer
+6.  Fine Clothing    
+7.  Cafe
+
+N - Noble Estate       T - Guard Tower
+G - Gate in the Old Wall
+
+Mortis 06.2005 */

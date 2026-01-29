@@ -1,0 +1,117 @@
+main
+::MAPDATA::
+goldroom 27 8
+window 14 9
+cave_n 31 9
+exit3 6 10
+onblock 14 10
+npass2 14 11
+throne 19 11
+durhall 23 11
+crosroad 27 11
+bat_cave 31 11
+cave_e 35 11
+exit2 6 12
+draperies 19 13
+guestroom 23 13
+dirtrock 27 13
+dome 31 13
+gstairs1 35 13
+terrace 39 13
+exit1 6 14
+swindow 10 14
+gate_room 6 15
+spirals 10 15
+npass1 14 15
+sqchambe 23 15
+stonechb 34 15
+lpass1 38 15
+lpass2 42 15
+suddenst 47 15
+stair2 6 17
+mjunc 14 17
+litt 18 17
+longr1 22 17
+longr2 26 17
+corridor 30 17
+corr1 34 17
+corr2 38 17
+corr3 42 17
+corr4 46 17
+corr5 50 17
+corr6 54 17
+stair1 6 18
+stair0 6 19
+widepas1 10 19
+cavern 14 19
+pyramid 22 19
+rattrap 26 19
+bhniche 39 19
+widepas2 10 21
+dwelling 26 21
+bighallw 34 21
+bighalln 39 21
+gallhall 46 21
+gall_e 50 21
+bedroom 6 23
+cross 10 23
+roundchb 14 23
+secret 34 23
+bighalls 39 23
+gallcrck 42 23
+gall_s 46 23
+private_closet 10 25
+lake_w 14 25
+archway 39 25
+mining.1 46 25
+slime 50 25
+dirthole 54 25
+lake_e 35 27
+stneslab 39 27
+shop 43 27
+clampass 54 27
+partoff 58 27
+byhole 39 29
+inhole 39 30
+depress 54 30
+::MAPDATA::
+                  ==================
+                  The Halls of Moria
+                  ==================
+    
+             /\                              ,  /\  .  
+            /  \/\                          //`-||-'\\ 
+           / [] \                          (| -=||=- |)
+          /      \                          \\,-||-.// 
+                          [ ]                `  ||  '     
+             [ ]           |   o                ||
+      o      [ ]           |   |                ||
+      |      [ ] - o - o - o - o - o            ||
+      o       |    |   |       |                ||
+      |   |   |    o  [ ]  o - o - o -[ ]       ()
+     [ ] [ ]  |
+     [ ] [ ]  o ----- [ ] ------- o - o - o - [ ]
+      |       |                   |
+     [ ]-----[ ]- o - o - o - o - o - o - o - o - o - o
+     [ ]      |       |                       |       |
+     [ ]  o - o       o - o            o      |       |
+   ___    |               |            |      |       |
+  ___     o               o       o - [ ]    [ ]- o   |
+ ___      |                       |    |      |       |
+___   o - o - o                   o    o  o - o       |
+          |   |   ~~~~                 |              |
+          o   o  ~~~~~~                o     [ ]- o - o
+                ~~~~~~~~~~~~~~~~~      |              |
+               ~~~~~~~~~~~~~~~~~~~ o - o - o          o - o
+                ~~~~~~~~~~~~~~~~~      |              |
+               ~~~~~~~~~~~~~~~~~~~    [ ]             |
+                                      [ ]           - o
+  
+                                      ()-().----.          .
+                                       \"/` ___  ;________.'
+                                        ` ^^   ^^
+
+
+
+
+  

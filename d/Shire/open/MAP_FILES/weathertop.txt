@@ -1,0 +1,74 @@
+main
+::MAPDATA::
+erb19 26 9 road
+erb20 28 9 road
+erb21 30 9 road
+erb22 33 9 road
+erb23 36 9 road
+erb24 37 9 road
+erb25 37 9 road
+erb26 38 10 road
+erb27 39 10 road
+erb28 40 10 road
+erb29 41 10 road
+erb30 42 10 road
+erb31 43 10 road
+erb32 44 10 road
+erb33 45 10 road
+erb34 46 10 road
+::MAPDATA::
+
+                                                                  ~~~~~~
+                                                              ~~~~         ^  /
+                                                          ~~~~            / \/
+                                                        ~~               /   \
+                                                      ~~                / Misty
+                                                    ~~                 /
+                                                   ~
+                               Weathertop          ~               /-----------
+     Midgewater   /----------------x-\             ~              / ~~~~~~~~ ^
+ --\ Marshes/----/                    \--------\   ~ Trollshaws  /~~~~~ ^   / \
+    \------/                                    \  ~            /~~~   / \ /
+                                                 \-=-\         /~~    /   \
+                                                   ~  \-------/~~    /    Misty
+                                                   ~         ~~~    /      ^
+                                                  ~~       ~~~         ^  / \
+                                                 ~~      ~~~          / \/   \/
+                                                ~~   ~~~~~           /   \  ^/
+                                               ~~~~~~~~             /   ^ \/ \
+                                             ~~~~~                     / \/   \
+                                           ~~~~                       /   \ ^
+
+::NEWMAP::
+road
+::MAPDATA::
+erb19 11 9
+erb20 15 9
+erb21 19 9
+erb22 23 7
+erb23 27 7
+erb24 31 5
+erb25 35 5
+erb26 39 5
+erb27 43 5
+erb28 47 3
+erb29 51 3
+erb30 55 3
+erb31 59 3
+erb32 63 5
+erb33 67 5
+erb34 71 5
+::MAPDATA::
+
+
+
+                                               o - o - o - o
+                                             /               \
+                               o - o - o - o                   o - o - o
+                             /                                           \
+         Weathertop    o - o                                               o -
+                     /
+           o - o - o
+         /
+ - o - o
+

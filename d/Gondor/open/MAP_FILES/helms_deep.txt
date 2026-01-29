@@ -1,0 +1,89 @@
+main
+::MAPDATA::
+low_vale 31 3
+high_vale 31 5
+nw_coomb 23 7
+n_coomb 27 7
+ne_coomb 31 7
+sw_coomb 23 9
+s_coomb 27 9
+se_coomb 31 9
+ofield6 13 11
+breach 27 11
+ofield5 15 13
+ofield4 19 13
+road1 25 13
+n_path4 1 15
+n_path3 5 15
+n_path2 9 15
+ramp 17 15
+causeway 21 15
+croad 25 15
+outer_court6 1 17
+inner_court3 3 17
+tow_entr 7 17
+n_path1 11 17
+out_gate 15 17
+ofield1 25 17
+outer_court5 1 19
+inner_court1 3 19
+inner_court2 7 19
+outer_court1 11 19
+ofield2 25 19
+outer_court4 3 21
+outer_court3 7 21
+outer_court2 11 21
+out_wall1 21 21
+ofield3 25 21
+stairs 7 23
+h_wall1 13 23
+out_wall2 23 23
+ifield 7 25
+ins_wall1 11 25
+h_wall2 15 25
+out_wall3 25 25
+ins_wall2 13 27
+h_wall3 17 27
+out_wall4 27 27
+ins_wall3 15 29
+h_wall4 19 29
+ins_wall4 17 31
+h_wall5 21 31
+ins_wall5 19 33
+ins_hw_tower 23 33
+wall_tower 23 33
+::MAPDATA::
+
+
+                                /                  ===========
+                               o                   Helm's Deep
+                               |                   ===========
+                               o
+                               |
+                       o - o - o              ,_,
+                       |   |   |              |^|        ,_________
+                       o - o - o              |  \   ___/          \
+                           |                  ||| | /               \
+             o             o                  ||| |/ ,_________,     \
+              \           /                   ||| |  |         |      \
+               o - o     o                    |/\ |  |   /\    |       \
+                    \    |                    |"" | ^|^^     ^^|        \
+ o - o - o       o - o - o                    |   |,_____[]_____,
+ |        \     /        |                    |   ||     vv     |
+[ ]o - o   o - o         o                    |  MMMMMM      MMMMMM
+ | | \       /           |                  ,_|__|    |\____/|    |____,
+ o o -[ ]  o             o                  |    | [] | .... | [] |    |
+  \|     / |             |                  |    |    |  /\  |    |    |
+  [ ]- o -[ ]        o   o                  |    |    | |  | |    |    |
+       |    \         \ /                   |    |____| |  | |____|    |
+       o    [ ]        o              []    |          |####|
+       |      \         \             []    |         /#####/
+       o -[ ]  o         o       _____[]____|        /#####/
+            \   \         \                         /#####/
+             o  [ ]        o                       /#####/
+              \   \                               /#####/
+              [ ]  o                             /#####/
+                \   \                           /#####/
+                 o  [ ]
+                  \   \
+                  [ ] [ ]

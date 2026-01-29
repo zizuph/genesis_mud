@@ -1,0 +1,5 @@
+#include "/d/Shire/common/defs.h"
+#define STDGATEROOM    "d/Shire/common/bree/stdgateroom"
+#define STAND_DIR      STAND_PARENT + "bree/"
+#define INN_DIR        STAND_DIR + "inn/"
+#define HOB_NPC_DIR    "/d/Shire/common/hobbiton/npc/"

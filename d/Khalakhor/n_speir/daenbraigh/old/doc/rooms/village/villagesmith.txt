@@ -1,0 +1,24 @@
+An inside room (or in fact a set of rooms) - a smithy.
+
+Properties:
+One room - a smithshop of the likes of Bubbha etc.
+Clubs may be ordered. Other stuff only repaired.
+Other room - a forge of blacksmiths.
+
+Items: anvil, forge, hammer, barrel, water, racks etc.
+
+Exits: according to the map
+
+Objects:
+A great forge
+A set of tools
+A smith, also a seller of raw forge items
+
+Actions:
+wax/sharpen weapon
+fix armour
+order club
+collect club
+buy [raw material]
+
+smith commands in the forges

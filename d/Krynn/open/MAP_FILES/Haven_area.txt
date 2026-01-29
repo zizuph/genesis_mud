@@ -1,0 +1,155 @@
+main
+::MAPDATA::
+mount_road3 5 6 haven_road
+mount_road2 5 6 haven_road
+mount_road1 5 6 haven_road
+road1 4 7 haven_road
+road2 4 7 haven_road
+road3 4 7 haven_road
+road4 4 7 haven_road
+road5 4 7 haven_road
+road6 4 9 haven_road
+road7 4 9 haven_road
+road8 4 9 haven_road
+road9 4 9 haven_road
+road10 5 10 haven
+entrance 5 10 haven
+st1 5 10 haven
+st2 5 10 haven
+st3 5 10 haven
+st4 5 10 haven
+st5 5 10 haven
+mageware_shop 5 10 haven
+home1 5 10 haven
+home2 5 10 haven
+home3 5 10 haven
+veg_mer 5 10 haven
+temple 5 10 haven
+vestibule 5 10 haven
+hall 5 10 haven
+forest1 5 10 haven
+forest2 5 10 haven
+forest3 5 10 haven
+forest4 5 10 haven
+forest5 5 10 haven
+forest6 5 10 haven
+::MAPDATA::
+            CRYSTALMIR                 [ ]                '   ~~ 
+            ~~ LAKE   /\              Tantallon        Xak  ~~ ~~
+    /\_     ~~~~    /\                                  Tsaroth ~
+   /   \_/\ ~~~@  /\                        /\  /\      [ ] ~~ ~~
+  /\/\ /\ /\~~~@@@    /\ Que-Kiri             /\_ /\      '  ~~ ~
+     @  @ @@@~~ @@       { }         Que-Shu/\_/ \   v ' v: ~~ ~~
+    @ @@/\@  @[ ] Solace              { }    /\ /\\  ' v ''  ~~ ~
+   @ @@@@/\@@@                              ```````` v ' v: ~~ ~~
+   @@@ DARKEN @    /\       PLAINS OF      /\_/\ /\  ' v ',  ~~ ~
+     @ WOOD @@              ABANASINIA      /\ /\        ,' ~~ ~~
+    [ ]@@@@@  [ ]                         /\__    @@@@  '  ~~ ~~
+  Haven/\   Gateway      { }             / /\ \ @@@@@@ '  ~~ ~~ ~
+        /\ ~~~~~~         Que-Teh               @@@@@@'  ~~ ~~ ~~
+      ~~~~~@@@@@@~~~~~~                         @@@ :' ~~ ~~  ~~ 
+  @@@@@@@@@@@@ ~~ @@   ~   ,____,__,__          @ :'  ~~ ~~ ~~ ~~
+  @@     @@ ~~ @@@      :'' ~~ ~~ ~~ ~~`  ,__    '  ~~ ~~ ~~ ~~ ~
+  @@     @@@@@@@@    [ ]' ~~ ~~ ~~ ~~ ~~ `~~ ~`''  ~~ ~~ ~~ ~~ ~~
+  @ QUALINESTI @@  New Ports ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@        @@@    ,'~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@       @@@    :   ~~ ~~ ~~ ~~  NEW SEA ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+  @@       @@     `, ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@@@@@@@@@      '   ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+                  '
+       To Pax Tharkas and
+         Thorbardin
+
+::NEWMAP::
+haven_road
+::MAPDATA::
+mount_road3 33 3
+mount_road2 30 3
+mount_road1 27 6
+road1 24 9
+road2 21 12
+road3 18 12
+road4 15 15
+road5 12 18
+road6 12 21
+road7 12 24
+road8 15 27
+road9 18 30
+::MAPDATA::
+                                              /\_/\    ^ 
+                             /\__/\@@@@@@@@@@/ /   \  /@\
+                            /  \   \ @@@@@@@@@@@@@ @@@  
+                       /\     o--o--o--o @@@@@@   @@@@@@ 
+                      /  \   /  /\_ @@@@\ @    @@@@@@@@@@
+                 /\         /  /   \ @@@@\ @@@@@         
+                /  \       o         @@ @ o--o @@@       
+                          / /\    @@@  @@@@@  \ @@@      
+                         / /  \ @@@ /\ @@@@@@  \  @@     
+                        o     @@@@ /  \ @    @  o  @@    
+                       /  /\_@@@@ /    \ @   @@  \  @@   
+                      /  /   \ @ /\  /\ @@@@@@@@@ \ @@   
+                  o--o         @   \/  \_ @@   @@  o @@@ 
+                 /    /\__    @@@  /     \@@    @@  \   
+                /    /  \ \_/\  @@@@@@@@@@@@     @@  road
+               o    /    \ /  \ @@      @@        @   to
+              /   @@@@@@@       @@      @@ /\     @ Solace  
+             /  @@@@   @@@    @@@@@@@@  __/  \     @   
+            o   @@      @@@@@@ /\  @@  /  \   \     @@@  
+         /\ |   @@     @@@    /  \ @  /    \   \     @@@  
+            |   /\@@@@@  @@@         /   /\ Prayers  @@@@ 
+       /\   o  /  \___/\   @@@@@@@@@    /  \Eye Peak   @@  
+      /  \  | /    \ /  \      @@@@@@@@@@@@  __        @@@@
+            |               /\ @@@@@@@@@@@@ /  \        @@@
+            o           /\ /  \@@@@@@@@@@  /    \        @@
+             \     /\_ /  \   @@ @@@@@          /\ @@@@ @@@
+              \   /   \      @@@  @@@@  DARKEN @@ \ @@@@ @@
+               o            @@  @  @@@   WOOD  @@@@@@@@@@ 
+                \         @@  /\ @ @@@@@                 
+                 \           /  \  @@@@@@@  /\ @@@@@@@@@@   
+                  o    to            /\  @@@   @@@
+                   \  Haven         /  \  @@@   @@@
+
+::NEWMAP::
+haven
+::MAPDATA::
+road10 31 2
+entrance 35 2
+st1 39 2
+st2 39 5
+st3 39 7
+st4 39 9
+st5 39 11
+mageware_shop 42 9
+home1 42 11
+home2 36 11
+home3 36 5
+veg_mer 42 5
+temple 42 7
+vestibule 42 7
+hall 36 7
+forest1 26 2
+forest2 22 2
+forest3 18 5
+forest4 14 5
+forest5 18 8
+forest6 14 8
+::MAPDATA::
+                    @@@@@@   \
+                @@@@@@  @@@@  \  
+              @@@@@@        @  o---o---o
+ @          @@@@@@          @  |       | 
+  @@      @@@         @@@@@@@  |       |
+   @@@ @@@@@         @@@@@    ^  ^ [ ]-o-[v]     
+      @@@@@@@        @@@@    Dwarf     |         
+    @@&&@@@          @@@@    camp  [H]-o-[T]     
+    @@@&&@&@@          @@   ^  ^       |         
+   @@@@&  &&@@        @@@              o [m]         
+          && @@@   @@@  @@             |/
+   Wayreth  &@@@@@@      @@        [ ]-o-[ ]
+    Forest   @@@@         @@
+            &@@           @@      ---=       Haven      =---
+       @@&&@@   QUALINESTI @@
+           @@     FOREST   @@      v Vegetable merchant
+         &&@@              @@      T Temple of the Seekers
+         &&@@              @@      H Town hall
+         &&@@              @@      m Lemuel's mageware shop

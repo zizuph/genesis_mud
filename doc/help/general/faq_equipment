@@ -1,0 +1,112 @@
+
+        A Guide to Equipment, by Zizuph
+        ===============================
+        
+
+Equipment is an essential part to travelling the realm of Genesis.
+Here is a guide intended to help answer the most common questions
+that many have about how equipment affects you.
+
+If you prefer to keep the mystery around equipment, you should
+stop reading now and return this book to the shelf.  If you want to
+know more, keep reading.
+       
+
+Q: How does item recovery work?
+
+A: There are two different systems in place.  For armours and weapons,
+   There will be a minimum and maximum recovery time that you can see
+   when you appraise the item.  When you use the equipment in combat,
+   both these numbers will drop more quickly.
+   
+   The minimum number indicates how long the equipment will last if
+   you use it in non-stop combat without breaks.  The maximum number
+   indicates how long the equipment will last if never 
+   worn/wielded/held in combat at all.  When the clock runs out, the
+   equipment will break.  
+   
+   For other equipment, it may be able to also stay with you at logout.
+   You can confirm what will stay with you by using the command "save".
+   If the item glows briefly, it will be kept with you.  If it is not
+   listed, or does not glow briefly, you will drop it at logout, and
+   it will vanish if you logout by being linkdead for too long.
+   
+   There are a small number of items that always recover.  These are 
+   typically permanent quest items, guild items, or club items.
+   
+Q: How do weapons work?
+
+A: Weapons have two different key values, their ability to hit, and
+   their penetration.  The first value affects how often you 
+   successfully connect with the weapon.  The second value affects how
+   much damage a successful attack will make.  
+   
+   You can use the compare command to see how these two values compare
+   in two different weapons.  Higher skill in appraise object and
+   the weapons in question will lead to a more accurate result.
+   
+   Both these values affect the potency of the weapon, and will affect
+   both white hits and guild specials.  Note that in the past, many
+   guild specials were only impacted by the penetration of the weapon.
+   This is no longer the case - both values matter for guild specials.
+   
+Q: How do armours work?
+
+A: Armours by contrast have one key value, which is their armour class.
+   These will reduce a fraction of the damage caused by a successful
+   hit by your enemy.
+   
+   Often armours are slightly better at preventing certain types of
+   damage (bludgeoning vs piercing vs slashing).
+   
+   Some attacks are designed to bypass armour.  These are typically
+   magic, or elemental abilities.  Armour may not reduce these, though
+   some armours also provide magical or elemental resistances on top
+   of their armour class.
+   
+   Armours may cover multiple locations of your body.  The effect of
+   multiple different armours, which cover the same location, is 
+   cumulative - the more you have for a particular location, the 
+   better that slot is protected.
+
+   You can use the compare command to see how the armours compare.
+   Higher skill in appraise object question will lead to a more
+   accurate result.
+   
+Q: How do held items work?
+
+A: A relatively small number of items are held, rather than wielded or
+   worn.  These do not naturally provide attacks, or armour class,
+   though some items may specifically provide such a boon.  When an 
+   item is held, it is not considered a weapon.  This means that
+   the benefits of two-handed combat are not provided, and parry will
+   not be enabled for defence.  For more details on how skills affect
+   combat, please read the faq_combat help.
+   
+   To equip a held item, you "hold" it.  To unequip it, you "release"
+   it.
+   
+Q: Can a skill boost from an item take me past superior guru skill?
+
+A: For the vast majority of items, the answer is no.  There may be a
+   few that exist, but they may be changed to conform with everything
+   else.  The highest skill you can see in your skills is superior
+   guru.
+   
+   There will be a star next to your skill if an item is affecting it.
+   That will indicate whether a skill boost is in effect.
+
+Q: Why can't I wear/wield item XXX?
+
+A: Many magical pieces of equipment have requirements to use them.  The
+   most common requirements are skill, stat, alignment, or racial
+   restrictions.  Most often these require minimum values, though that
+   is not always the case.
+   
+   Sometimes equipment has strange restrictions that may limited it 
+   in a way that may appear unfair.  If you come across one, you can
+   try to report the equipment to the Liege where it comes from.  They
+   may be willing to reevaluate whether the restriction is unfair, or
+   an important thematic.
+
+Last Updated September, 2021

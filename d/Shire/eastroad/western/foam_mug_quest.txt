@@ -1,0 +1,27 @@
+The hidden parts for the pot still quest
+
+Cone:
+Foaming Mug Inn, downstairs (chandelier)
+
+Ogee (pipe 1)
+ /d/Shire/eastroad/village/whit/whitehouse2
+open the door, search the closet.
+
+Lyne Arm (pipe 2)
+There is now a path in Bree that leads behind the AG.
+It starts at /d/Shire/bree/rooms/road/broad06 and 
+continues through /d/Shire/bree/rooms/road/path1 , path2, path 3
+then up to /d/Shire/bree/rooms/road/roof1 and finally attic1
+
+inside the attic, players can search and find the lyne arm.
+It's somewhat randomized. Wizards can <list location> to find it.
+
+Pipe Joint (pipe 3)
+/d/Shire/longbottom/rooms/smials/5_cellar
+
+<retrieve pipe> to get it from the shelf
+
+Nozzle (item #5)
+/d/Shire/frogmorton/smial01a (test room is smial01a_2020)
+you can <unscrew nozzle> and it'll fall onto the floor.
+Remember to pick it up!

@@ -1,0 +1,40 @@
+main
+::MAPDATA::
+closet 19 2
+herbalist 15 4
+start 19 4
+r_corridor 23 4
+north_train 11 6
+n_corridor 15 6
+song_room 19 6
+meeting_room 23 6
+north_library 27 6
+mess_hall 7 8
+w_corridor 11 8
+e_corridor 19 8
+post 23 8
+bathhall 7 10
+shop 11 10
+s_corridor 15 10
+great_hall 19 10
+t_corridor 23 10
+temple 27 10
+o_corridor 19 12
+stairs 19 13
+::MAPDATA::
+
+`` ` ` ` ` ``  ` ____` ` ` ` ` ` ` `
+`` ` ` ` ` ` ` _|  o \__`` ` ` ` 
+ `` ` ` `` ` `/    |    \__` ` `` 
+ ` ` ` ` `Herb o   o - o   \` ``` 
+` ` ` ` ` /    |   |     Lib\` ` ``
+ ```  ___/ o - o - o - o - o/ ` ` `
+``  Mess   |       |       / `` ` ` 
+  ``/  o - o       o - o PO\ ` ` ` `
+ ` `\  |   |       |        \` ` ``
+``Bath o   o - o - o - o - o \`` ` `
+  ``` \__Shop_     |    _____| ` ` 
+ ` ` ` ` ` ` `\   [ ]  / ``  ` ` `
+` ` ` ` ` ` ` `\  [ ] / `` ` ` ` `
+ `` ` `` ` ` `  \____/`` ` ` ` ` `` 
+ ` ` ` ` ` ` ` ` ` ` ` ` ` `` ` `

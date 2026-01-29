@@ -1,0 +1,128 @@
+School of High Magic updated spells.
+
+SPELLS TAX
+==========
+At maximum level a SoHM will be able to cast 11 spells:
+
+4 'cantrips' - spells of class 0 or class 1 spell type
+4 'minor spells' - spells of class 2 or class 3 spell type
+2 'lesser spells' - spells of class 3
+1 'greater spell' - spells of class 3 or class 4 type
+
+For taxation purposes we'll use the highest taxed spell for each 
+spell level:
+
+OLD:
+Cantrips: 	0.1875% + 0.15% + 0.15% + 0.1% 
+Minors:		0.5625% + 0.5625% + 0.5625% + 0.5625%
+Lessers:	0.5% + 0.5%
+Greater:	0.6%
+
+NEW:
+Cantrips: 	0.15% + 0.15% + 0.075% + 0.075% (0.5875%)
+Minors:		0.375% + 0.375% + 0.375% + 0.375% (1.5%)
+Lessers:	0.75% + 0.75% (1.5%)
+Greater:	0.75%
+
+OLD
+Total spell tax = 4.35%
+
+NEW
+Total spell tax = 4.3375%
+
+
+
+INDIVIDUAL SPELL TAX AND COMBAT AID
+==============================================================================
+Name			Power		Type			C.Aid	Tax       Component  Revised tax            Spell task          Revised CAID  Duration max   
+              ---------------  Cantrips  ---------------
+Read Magic		Class 0		Cosmetic		0%	0%        -          -                      ^routine (simple)   -             45s (120s max allowed)
+Divine Wizard		Class 0		Cosmetic		0%	0%        -          -                      ^routine (simple)   -             2s  (120s max allowed)
+^## Rune of welcome     Class 0         Cosmetic                0%      0%        -          -                      Hard                              !!!power * 10 (exceeds 120s max allowed) - change to Class 2 (900s)?
+^Shatter		Class 0		Utility (component)	0%	0%        -          -                      Routine             -             -
+Speak with dead		Class 1		Utility (Info)		0%	0.05%     Y          tax 0.075%             Difficult           -             -
+Wind whisper		Class 1		Utility (Far tell)	0%	0.10%     Y          tax 0.075%             vSimple (routine)   -             -
+Fool's curse		Class 1		Utility (Misc)		0%	0.10%     Y          tax 0.075%             vSimple (routine)   -             10s (300s max allowed)
+Wand light              Class 1         Utility (light)         0%      0.15%     N          -                      Routine             -             !!! no dispel time set (300s max allowed)
+^Wind gust              ^Class 2        Utility (Misc)          0%      0.10%     Y          tax 0.1875%            vEasy (routine)   -             !!! 500 + random(150) (exceeds 300s max) - change to Class 2 (900s)?
+^## Mirror portal       ^Class 3        Utility (teleport)      0%      0.15%     N*         tax 0.375%* (0.75)     ^Hard (routine)     -             30s (1800s max allowed)
+Detect magic		Class 1		Utility (Info)		0%	0.15%     N          -                      Routine             -             -
+##Rift                  Class 1         Utility (garbage can)   0%      0.15%     Y          tax 0.075%             vSimple (hard)      -             30s (300s max allowed)
+##Polymorph self (bird) ^Class 3        Utility (teleport)      0%      0.15%     N*         tax 0.375%* (0.75)     Hard                -             165s (1800s max allowed)
+
+              ---------------   Minors   ---------------
+^Water breathing        ^Class 2        Utility                 0%      0.1%      Y          tax 0.1875%            vEasy (routine)   -               changed to Class 2 to increase duration time max(900s)
+^Protect - divination   Class 2         Defensive               0%      0.1%      Y          tax 0.1875%            Difficult
+^Featherweight          Class 2         Utility (weight)        5%      0.25%     Y          tax 0.1875%            vEasy (routine)
+^## Identify		Class 2		Utility (Info)		0%	0.25%     Y          tax 0.1875%            vEasy (routine)
+^## Detect resistances  Class 2         Utility (Info)          0%      0.25%     Y          tax 0.1875%            *Simple
+Scare			Class 2		Offensive		0%	0.25%     Y          tax 0.1875%            vEasy (routine)
+Blink			Class 2		Defensive		0%	0.25%     Y          tax 0.1875%            vEasy (routine)
+Curse			Class 2		Offensive		27%	0.25%     Y          tax 0.1875%            vEasy (routine)
+Protect from dragonfear	Class 2		Defensive		0%	0.25%     Y          tax 0.1875%            vEasy (routine)
+Magic shield		Class 2		Defensive		36%	0.25%     Y          tax 0.1875%            vEasy (routine)    v35%             
+Light spell		Class 2		Utility (Light)		0%	0.375%    N          -                      Routine
+^## Dazzle		Class 2		Utility (pvp)		0%	0.375%    N          -                      Routine
+^Ballistic spray        vClass 2        Offensive               36%     0.5625%   N          tax 0.375%             vRoutine (hard)    v35%
+Magic Missile		vClass 2	Offensive		36%	0.5625%   N          tax 0.375%             vRoutine (hard)    v35%
+Fire Dart    		vClass 2	Offensive		36%	0.5625%   N          tax 0.375%             vRoutine (hard)    v35%
+Acid Arrow   		vClass 2	Offensive		36%	0.5625%   N          tax 0.375%             vRoutine (hard)    v35%
+Prismatic spray		vClass 2	Offensive		36%	0.5625%   N          tax 0.375%             vRoutine (hard)    v35%
+Ice shard		vClass 2	Offensive		36%	0.5625%   N          tax 0.375%             vRoutine (hard)    v35%
+
+
+              ---------------   Lessers   ---------------
+Scry			^Class 3	Utility (Info)		0%	0.2%      Y          tax 0.375%             Routine
+Enchant weapon		Class 3		Offensive		40%	0.2%      Y          tax 0.375%             vRoutine (diff)
+^Shadow veil            vClass 2        Utility (skills)        25%     0.25%     Y          tax 0.1875%            vEasy (diff)
+^Flaming fist           Class 3         Offensive               40%     0.281%    Y          tax 0.375%             vRoutine (hard)
+Mage strength		vClass 2	Offensive		29%	0.3%      Y          tax 0.1875%            vEasy (diff)
+Protection - fire 	vClass 2	Defensive		24%	0.3%      Y          tax 0.1875%            vEasy (hard)
+Protection - acid 	vClass 2	Defensive		24%	0.3%      Y          tax 0.1875%            vEasy (hard)
+Protection - lightning 	vClass 2	Defensive		24%	0.3%      Y          tax 0.1875%            vEasy (hard)
+Protection - cold 	vClass 2	Defensive		24%	0.3%      Y          tax 0.1875%            vEasy (hard)
+Blur			Class 3		Defensive		72%	0.3%      Y          tax 0.375%             vRoutine (hard)
+Invisibility		^Class 4	Utility (Invisibility)	0%	0.375%	  Y          tax 0.75%              Hard
+Protection - poison	vClass 2	Defensive		24%	0.375%    Y          tax 0.1875%            vEasy (hard)
+##Foreshock             Class 3         Offensive               45%     0.225%    Y          tax 0.375%             Routine
+^Geyser 		^Class 4	Offensive		113%	0.375%	  Y          tax 0.75%              Hard
+^Scouring Wind 		^Class 4	Offensive		113%	0.375%	  Y          tax 0.75%              Hard
+Psychic blast		^Class 4	Offensive		113%	0.375%	  Y          tax 0.75%              Hard
+Lightning bolt		^Class 4	Offensive		113%	0.375%	  Y          tax 0.75%              Hard
+Flame lance		^Class 4	Offensive		113%	0.375%	  Y          tax 0.75%              Hard
+Ice strike		^Class 4	Offensive		113%	0.375%	  Y          tax 0.75%              Hard
+
+              ---------------   Greater   ---------------
+^##Haste                vClass 3        Offensive               65%     0.75%     Y          -                      vRoutine (hard)
+Dominate		vClass 3	Offensive		45%	0.6%      Y          tax 0.375%             vRoutine (hard)
+Stoneskin		Class 4		Defensive		90%	0.6%      Y          tax 0.75%              Hard
+Portents and omens	Class 4		Defensive		90%	0.6%      Y          tax 0.75%              Hard
+Reflect damage		Class 4		Defensive		90%	0.6%      Y          tax 0.75%              Hard
+^Teleport               Class 4         Utility (teleport)      0%      0.6%      Y          tax 0.75%              Hard
+^Portents and omens	Class 4		Defensive		90%	0.5625%   Y          tax 0.75%              Hard
+^Gravity                Class 3         Offensive               40%     0.5%      Y          tax 0.375%             vRoutine (hard)
+Gloom			vClass 3	Utility (darkness)	0%	0.45%     Y          tax 0.375%             vRoutine (diff)
+Truesight		vClass 3	Utility (see dark/inv)  20%     0.35%     Y          tax 0.375%             vRoutine (diff)
+
+              ---------------   Advanced  ---------------
+^##Greater magic shield vClass 2        Defensive               36%     0.375%    Y          tax 0.1875%            vEasy (routine)    v35%
+^##Protection - magic   vClass 2        Defensive               30%     0.5625%   Y          tax 0.1875%            vEasy (hard)
+^##Arcane vulnerability vClass 2        Offensive               30%     0.5625%   Y          tax 0.1875%            vEasy (hard)
+##Stellar Alignment     Class 3         Utility (propchange)    0%      0.281%    Y          tax 0.375%             vRoutine (hard)
+^##Polymorph self       Class 4         Off/Def                 SPEC    0.5625%   -
+^##Detonate             Class 4         Offensive               140%    0.5625%   Y          tax 0.75%              Hard
+^##Eruption             Class 4         Offensive               140%    0.5625%   Y          tax 0.75%              Hard
+##Toxic Blast           Class 4         Offensive               140%    0.5625%   Y          tax 0.75%              Hard
+^^##Doom Blast          Class 4         Offensive               140%    0.5625%   Y          tax 0.75%              Hard
+^##Teleport team        Class 4         Utility (teleport)      0%      0.6%      Y          tax 0.75%              Hard
+^##Fireball             Class 4         Offensive               113%    1.125%    Y          tax 0.75%              Hard
+^##Meteor storm         Class 4         Offensive               113%    1.125%    Y          tax 0.75%              Hard
+^##Chain lightning      Class 4         Offensive               113%    1.125%    Y          tax 0.75%              Hard
+^##Storm fury           Class 4         Offensive               113%    1.125%    Y          tax 0.75%              Hard
+##Cyclonic blast        Class 4         Offensive               113%    1.125%    Y          tax 0.75%              Hard
+
+
+Detailed evaluations of each spell are outlined in ~sohm/doc/	
+## - spells marked with the double hash are only accessible to WoHS.
+^ - new spells as of the opening of the WoHS in 2017
+^^ - new spell post opening of WoHS

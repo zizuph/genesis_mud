@@ -1,0 +1,166 @@
+[Title Composition]---------------------------------------------------------
+
+The title consists of one or two base parts augmented with adjectives.
+
+The base part can be one of:
+
+ - Monk (rank based, from Novice to Monk)
+ - Dancer (rank based, from Fledgling to Dancer)
+ - Guardian (stats based, just Guardian or Nexus)
+ - Heart (character based, long description)
+ - Elder (user selected)
+ - Council (user selected)
+ - Brother (user selected)
+
+The adjectives can be one of:
+
+ - Ancient (rank based, from Fresh to Ancient)
+ - Hallowed (character based, short adjective)
+ - Resplendent (alignment based, from Stygian to Resplendent)
+
+The allowed combinations of base parts and adjectives are:
+
+ - Monk, Ancient Monk, Hallowed Monk, Resplendent Monk
+ - Dancer, Hallowed Dancer, Resplendent Dancer
+ - Guardian, Hallowed Guardian, Resplendent Guardian
+ - Heart
+ - Elder, Hallowed Elder, Resplendent Elder
+ - Council, Hallowed Council, Resplendent Council
+ - Brother, Hallowed Brother, Resplendent Brother
+
+The combinations are further restricted by rank:
+
+ - Tiny rank - Must have a title in two parts
+             - Must have a rank indication in the title
+             - Must have a character indication in the title
+ - Small rank - Does not need a rank indication in the title
+ - Medium rank - Does not need a character indication in the title
+ - Advanced rank - Does not need a title in two parts
+ - High rank - Can also choose specific Monk, Dancer, Guardian
+ - Top rank - Can also choose specific Brother
+            - Can use Monk without adjective
+
+This gives the following command syntax:
+
+  - mtitle <adjective>, <base> [, <adjective>, <base>]
+  - adjective is one of none, ancient, hallowed, resplendent
+  - base is one of monk, heart, dancer
+  - base can be a specific title if that title is available for that player
+
+
+[Guild Rank].....................................................
+
+From 0 to 100.
+Below 10 means real novice.
+Around 50 means decent monk.
+Above 90 means real achiever.
+
+        Online Age      Real Age        Guild Stat      Skills
+--------------------------------------------------------------
+Beg     1 day           1 week          10              30
+Avg     20 days         1 year          80              90
+Big     50 days         3 years         120             100
+Max     250 days        10 years        250             100
+--------------------------------------------------------------
+
+Factor          Formula                                      Beg  Avg  Big  Max
+-------------------------------------------------------------------------------
+Guild Age       sqr (Online Age + Real Age / 7)              416 2494 4178 8156
+                adjustment factor 200                          2   12   21   41
+                additive
+Guild Stat      Guild Stat                                    10   80  120  250
+                adjustment factor 4                            2   20   30   62
+                additive
+Guild Skills    Foc + Str + Plx + Una                        120  360  400  400
+                adjustment factor 400                        0.3  0.9  1.0  1.0
+                multiplicative
+-------------------------------------------------------------------------------
+
+Utter (Novice)
+Fresh (Novice, Seeker, Initiate, Disciple, Monk)
+Young (Novice, Seeker, Initiate, Disciple, Monk)
+Hopeful (Novice, Seeker, Initiate, Disciple, Monk)
+Promising (Novice, Seeker, Initiate, Disciple, Monk)
+Aspiring (Novice, Seeker, Initiate, Disciple, Monk)
+Attentive (Novice, Seeker, Initiate, Disciple, Monk)
+Studious (Novice, Seeker, Initiate, Disciple, Monk)
+Adept (Novice, Seeker, Initiate, Disciple, Monk)
+Skilled (Novice, Seeker, Initiate, Disciple, Monk)
+Seasoned (Novice, Seeker, Initiate, Disciple, Monk)
+Insightful (Novice, Seeker, Initiate, Disciple, Monk)
+
+Learned Monk
+Respected Monk
+Illustrious Monk
+Distinguished Monk
+Renowned Monk
+Revered Monk
+Ancient Monk
+
+Novice          0 (Utter)
+                1-11 (Fresh - Insightful)
+Seeker          12-22 (Fresh - Insightful)
+Initiate        23-33 (Fresh - Insightful)
+Disciple        34-44 (Fresh - Insightful)
+Monk            45-55 (Fresh - Insightful)
+                60 (Learned)
+                65 (Respected)
+                70 (Illustrious)
+                75 (Distinguished)
+                80 (Renowned)
+                85 (Revered)
+                90 (Ancient)
+
+
+[Top Guild Positions]............................................
+
+Dragons claimed kin:
+
+Nexus of Dragon Kinship
+
+Guild age:
+
+Nexus of Dragon Memories
+
+Stat levels:
+
+Guardian of Dragon Strength
+Guardian of Dragon Grace
+Guardian of Dragon Endurance
+Guardian of Dragon Brilliance
+Guardian of Dragon Knowledge
+Guardian of Dragon Valor
+
+
+[Notes]..........................................................
+
+Things that can be reflected in the title:
+
+ - Alignment
+ - Guild level
+ - Guild position
+ - Pending punishments
+ - Predominant character traits
+ - Top level in specific stat
+ - Top level in specific character trait
+ - Top level in number of dragons claimed kin
+
+Title length can be adjusted to cater both for people who want to be Foo the
+Monk and for people who want to be Bar the Most Exalted and Wise and Of
+Course Humble Priest of the Inner Circle and Very Good Monk.
+
+Character traits are:
+
+ - Perfection
+ - Honesty
+ - Effort
+ - Respect
+ - Peacefulness
+
+I would prefer to have the top titles short and elegant rather than long and
+cumbersome, that is, one would not advance towards longer and longer titles
+but towards simplicity. I think the titles do not necessarily have to refer
+to everyone as a monk or a priest, Foo the Seeker of the Spring Path or Bar
+the Sage of the Frozen Waterfall sounds better to me than Foo the Mildly
+Advanced Monk Student and Bar the Very Wise Monk Teacher.
+

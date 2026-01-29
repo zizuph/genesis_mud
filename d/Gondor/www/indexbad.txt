@@ -1,0 +1,23 @@
+
+Gondor
+
+Gondor is a land with a deep history, where once the great heroes of Numenor 
+fought alongside elves and other races to defeat the evil of Sauron.  The 
+heroes are dead and forgotten.  Much has been lost, kept alive only in the 
+memory of long-lived elves, tales of wise women, and indecipherable scrolls.
+
+But still in the waning Evendim of Numenor, the hope of the West burns bright 
+and true.  Equally fierce is the growing challenge of the Shadow in the East. 
+Mirroring each other across the River Anduin, the twin towers of Minas Tirith 
+and Minas Morgul struggle for dominance.  While in the far North, the memory of 
+the Light yet lives in Arnor, and Carn Dum still recoils under the whip 
+of the Witch King and his Angmarim. Who will win this war, good or evil?
+
+<CENTER><IMG SRC= "http://www.geekculture.dk/bedler/auto/1072145892nazgul.jpg" ></CENTER>
+
+<P> 
+
+</P>
+{strip}
+    {pagelink pre="Next page:" name="Cities of Gondor" href="d/Gondor/cities.txt"}
+{/strip}

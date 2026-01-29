@@ -1,0 +1,28 @@
+/*
+ * Road in the Barrow Downs
+ * By Finwe, December 2001
+ */
+ 
+#pragma strict_types
+ 
+#include "local.h"
+
+inherit ROAD_BASE;
+ 
+void
+create_road_room()
+{
+    set_areadesc("path");
+    set_area("somewhere in");
+    set_areaname("the Barrow Downs");
+    set_land("Eriador");
+
+    set_vbfc_extra(road_desc3);
+    set_extraline("The path wanders between some barrows, and " +
+        "gets lost in the fog.");
+    set_add_wight_sounds();
+
+    add_exit(DOWNS_DIR + "road20", "southeast");
+    add_exit(DOWNS_DIR + "road13", "north");
+}
+

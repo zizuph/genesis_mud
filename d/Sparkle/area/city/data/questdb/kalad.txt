@@ -1,0 +1,42 @@
+domain,quest desc,group,bit,hint,validation,arguments
+Kalad,Beggar Quest,0,0,beggar.txt,default
+Kalad,Trader Quest,0,1,trader.txt,default
+Kalad,Tablet Quest,0,2,tablet.txt,default
+Kalad,Kid Quest,0,3,kid.txt,default
+Kalad,Knife Quest,0,4,knife.txt,default
+Kalad,Beer Quest,0,5,beer.txt,default
+Kalad,Ledger Quest,0,6,ledger.txt,default
+Kalad,Prisoner Quest,0,7,prisoner.txt,default
+Kalad,Locket Quest,0,9,locket.txt,default
+Kalad,Bounty Quest,0,10,bounty.txt,default
+Kalad,Goblin Quest,0,11,goblin.txt,default
+Kalad,Scale Quest,0,12,scale.txt,default
+Kalad,Holy Quest,0,13,holy.txt,default
+Kalad,Tower Quest,0,14,tower.txt,default
+Kalad,Oracle Quest,0,15,oracle.txt,default
+Kalad,Water Quest,0,16,water.txt,default
+Kalad,Mara Quest,0,17,mara.txt,default
+Kalad,Kilsek Quest,0,18,kilsek.txt,default
+Kalad,Claddath Quest,0,19,claddath.txt,default
+Kalad,Coffee Quest,1,0,coffee.txt,default
+Kalad,Beggars Club Quest,1,1,beggars_club.txt,default
+Kalad,Taskmaster Quest #1,1,2,taskmanager.txt,default
+Kalad,Taskmaster Quest #2,1,3,taskmanager.txt,default
+Kalad,Taskmaster Quest #3,1,4,taskmanager.txt,default
+Kalad,Taskmaster Quest #4,1,5,taskmanager.txt,default
+Kalad,Taskmaster Quest #5,1,6,taskmanager.txt,default
+Kalad,Park Quest,1,7,park.txt,default
+Kalad,Museum Quest,1,8,museum.txt,default
+Kalad,Minotaur Gem Quest,1,9,minotaur.txt,default
+Kalad,Assassins Quest #1,1,10,assassin1.txt,default
+Kalad,Assassins Quest #2,1,11,assassin2.txt,default
+Kalad,Assassins Quest #3,1,12,assassin3.txt,default
+Kalad,Spy Quest,1,13,spy.txt,default
+Kalad,Red Fang Goblin Quest,1,14,red_fang.txt,default
+Kalad,Miner's Revenge Quest,1,15,miner.txt,default
+Kalad,Forge Medallion Quest,1,16,forgemed.txt,default 
+Kalad,Summon and Defeat Thanar Quest,1,17,sumdefeatthanar.txt,default
+Kalad,Priest's Dagger (moved to Raumdor),3,0,,always_false,3,0
+Kalad,Drakmere Holy Scriptures (moved to Raumdor),3,1,,always_false,3,1
+Kalad,Khiraa Entrance (moved to Raumdor),3,2,,always_false,3,2
+Kalad,Maze Quest (moved to Raumdor),3,3,,always_false,3,3

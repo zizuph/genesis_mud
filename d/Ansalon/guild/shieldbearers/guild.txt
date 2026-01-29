@@ -1,0 +1,11 @@
+/* File name: guild.txt
+ *
+ * 17.08.2003, Blizzard
+ */
+
+Documenation about the guild has been moved to:
+   /d/Ansalon/guild/shieldbearers/doc/  
+
+The directory contains two files:
+   /d/Ansalon/guild/shieldbearers/doc/info.txt
+   /d/Ansalon/guild/shieldbearers/doc/slam.txt

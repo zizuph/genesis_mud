@@ -1,0 +1,90 @@
+Layman:
+                     Skill   Un-
+                     level   taxed taxed  pen   mod     tax[%]
+SS_WEP_MISSILE          60     30    30     0   1.0      0.500
+SS_LOC_SENSE            60     30    30     0   0.5      0.250
+SS_TRACKING             60     30    30     0   1.0      0.500
+SS_HUNTING              60     30    30     0   0.5      0.250
+SS_AWARENESS            60     30    30     0   1.0      0.500
+SS_SNEAK                60     20    40     0   1.0      0.666
+SS_HIDE                 60     20    40     0   1.0      0.666
+--------------------------------------------------------------
+Sum:                   390    190   230     0            3.332
+--------------------------------------------------------------
+
+Occupational:
+                     Skill   Un-
+                     level   taxed taxed   mod   pen   tax[%]
+SS_WEP_MISSILE         100     30    70    1.0     0   1.166
+SS_DEFENCE              75     20    55    1.5     #   1.375
+SS_HIDE                 90     20    70    1.0     #   1.166
+SS_SNEAK                90     20    70    1.0     #   1.166
+SS_FR_TRAP              80     20    60    1.0     #   1.000
+SS_TRACKING             90     30    80    1.0     #   1.333
+SS_HUNTING              90     30    60    0.5     #   0.500
+SS_AWARENESS            90     30    60    1.0     #   1.000
+SS_LOC_SENSE            90     30    60    0.5     #   0.500
+SS_APPR_MON             80     30    50    1.0     #   0.833
+SS_ANI_HANDL            60     30    30    0.5     #   0.250
+SS_CLIMB                75     30    45    1.0     #   0.750
+SS_HERBALISM            60     20    40    1.0     0   0.666
+------------------------------------------------------------
+Sum:                  1065    340   725            ?   11.70
+------------------------------------------------------------
+
+# = In support of the 'jack of all trade' philosophy of the
+  ranger class only half of the points from 'general' skills 
+  count towards an occupational ranger's skill maximum cap
+  (see /d/Genesis/doc/rules/wizard/guilds/skills).
+
+  Also, for rogue class skills (those that are a 'thief/ranger' 
+  or 'thief only' primary skill) only half of the skill levels 
+  count towards an occupational thief/ranger guild skill cap.
+
+Occupational skill cap 550 taxable slots:
+------------------------------------------------------------
+                     Skill   Un-
+                     level   taxed taxed   count_towards_cap
+SS_WEP_MISSILE         100     30    70    35
+SS_DEFENCE              75     20    55    55
+SS_HIDE                 90     20    70    35
+SS_SNEAK                90     20    70    35
+SS_FR_TRAP              80     20    60    30
+SS_TRACKING             90     30    80    40
+SS_HUNTING              90     30    60    30
+SS_AWARENESS            90     30    60    30
+SS_LOC_SENSE            90     30    60    30
+SS_APPR_MON             80     30    50    25
+SS_ANI_HANDL            60     30    30    15
+SS_CLIMB                75     30    45    23
+SS_HERBALISM            60     20    40    40
+------------------------------------------------------------
+Sum:                  1065    340   725   423 
+------------------------------------------------------------
+
+
+Collect Arrows:                                          0.0%
+Allows an archer to collect personal arrows in the vicinity.
+
+Sneak Visibilty:                                         0.0%
+Always visible to team members when sneaking.
+
+Nightvision                                       	 0.0%
+Grants passive nightvision, a caid cost of 20 is related to
+the ability.
+
+Layman Tax:
+------------------------
+Skills              3.3%
+Combat Aid          8.3%
+------------------------
+Total:             11.6%
+(Rounded Up:       12.0%)
+
+Occupational Tax:
+------------------------
+Skills             11.7%
+Combat Aid         16.6%
+------------------------
+Total:             28.3%
+(Rounded Up:       29.0%)

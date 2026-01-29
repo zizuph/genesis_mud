@@ -1,0 +1,36 @@
+This document details the herb files that are coded in the             
+Khalakhor domain. All herb files are located in /d/Khalakhor/common/herbs
+
+Last modified: Teth, February 6, 2002
+
+Herbs which may be used by any domain.
+======================================
+                effect   type  str  id find decay value comment
+cedar_bark.c    HEALING   fat   -5  16    4  4800    74  
+green_pine.c    HEALING  mana    2  19    3  4800   148
+            and HEALING   fat    1
+
+Herbs which may be used by a domain, with permission of the liege or coder.
+===========================================================================
+                effect   type  str  id find decay value comment
+honeysuckle.c   HEALING   fat    1  13    4   600    58    #a
+lilac.c         HEALING   fat    1   9    3  1200    44    #a
+
+#a - Used in a tour in Khalakhor, thus the restricted use. Don't want it
+     to be common.
+
+Herbs which are for use only in Khalakhor.
+==========================================
+                effect   type  str  id find decay value comment
+arom_cedar.c    HEALING   fat   -5  25    6  4800    90    #1
+beatha.c        SPECIAL    hp    0  85    9  2400  2215    #2
+shamrock.c      ENHANCE   rnd  rnd  12    5   350   290    #3
+uaine_pine.c    ENHANCE skill    5  25    7  4800   150    #4 
+             or HEALING  mana    2
+            and HEALING   fat    1
+
+Special Comments:
+#1 - Used in a tour.
+#2 - Heals living creatures, while it clones a poison to undeads.
+#3 - Gives a random enhancing effect, with a random (low) strength.
+#4 - Used in a tour, enhances SS_PICK_POCKET or mana + fatigue.

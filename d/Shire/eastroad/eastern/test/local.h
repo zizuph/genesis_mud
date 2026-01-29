@@ -1,0 +1,12 @@
+#include "/d/Shire/sys/defs.h"
+#include "/d/Shire/sys/terrain.h"
+
+#define EAST_ROAD   "/d/Shire/eastroad/std/er_base"
+#define ER_DIR      "/d/Shire/eastroad/eastern/"
+#define ERNPC_DIR   ER_DIR + "npc/"
+#define ERWEP_DIR   ER_DIR + "wep/"
+#define ERARM_DIR   ER_DIR + "arm/"
+#define EROBJ_DIR   ER_DIR + "obj/"
+#define STDGATEROOM ER_DIR + "stdgateroom"
+#define OLD_BREE_DIR "/d/Shire/common/bree/"
+#define TS_DIR      "/d/Shire/common/trollsh/"

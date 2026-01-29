@@ -1,0 +1,48 @@
+/* An idea for the map of Palanthas.  All the quarters
+also contain housing (best to worst:  Nobles, Aesthetics,
+Merchants.  Very little in Shipping.)
+                                                        |
+              |                                         | 
+              |                                         |
+             /                                           \
+            G,                                           ,G
+           /  \                                         /  \ 
+          /    `o,                                   ,o'    \
+         |        \                                 /        |
+        /          `O,          Shipping         ,O'          \
+       |              \          Quarter        /             | 
+       |               `o.    _____|_____    ,o'              |
+      /                   \  /     O     \  /                  \
+     |                     `O,           ,O'                    |
+     |                     /  \ Palace  /  \                    | 
+     |                    /    `o,   ,o'    \                   |
+     |                   |        \ /        |                  | 
+     G         Merchants-O--------[1]--------O-Nobles           G
+     |          Quarter  |        /|\        | Quarter          | 
+     |                    o    ,o' | `o,    /                   |
+     |                     \  /    |    \  /                    |
+     |                     ,O'     |     `O,                    |
+      \                   /  \_____O_____/  \                  *
+       |               ,o'         |         `o,              |
+       |              /        Aesthetics       \             |
+        \          ,O'           Quarter         `O,          |
+         |        /                                 \        *' 
+          \    ,o'                                   `o,    /
+           \  /                                         \  /
+            G'                                           `G,
+              \                                         /'   
+               `*,                                   ,*'     To Knightspur
+                  \                                 /         and Vingaard
+                    `*,                         ,*'
+                       `-----*-----G-----*-----'
+                                Old Wall 
+
+1.  City Plaza
+
+   This particular map has a few examples of inner wall
+design (Old Wall) so it doesn't look polished yet.
+In this design, each Quarter would be a separate map,
+and maps would be for sale from a vendor in the plaza
+and signs in the quarters.
+
+Mortis 06.2005 */

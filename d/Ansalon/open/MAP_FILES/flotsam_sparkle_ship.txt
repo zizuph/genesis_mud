@@ -1,0 +1,126 @@
+main
+::MAPDATA::
+d1 18 16 deck
+d2 18 16 deck
+d3 18 16 deck
+d4 18 16 deck
+d5 18 16 deck
+d6 18 16 deck
+d7 18 16 deck
+d8 18 16 deck
+d9 18 16 deck
+d10 18 16 deck
+l1 19 17 belowdeck
+l2 19 17 belowdeck
+l3 19 17 belowdeck
+l4 19 17 belowdeck
+room1 19 17 belowdeck
+u1 13 15 abovedeck
+u2 25 14 abovedeck
+nest 19 5 nest
+::MAPDATA::
+
+
+          -= Captain Hull Nightstar's =-
+          -=      Golden Lion         =-
+                   , 
+                  ___        
+            ___,  \,/__,          
+            \__|, ,| \_|,                                     
+            , X|___|___| ,           
+          ,__/_||____ ||__,            
+        ,  |/|____ |_\|_ |/ _                      
+        \ _/ |_X__\|_  |\||~,~,                   
+         \/\ |/|    |_ |/:|`X'{                  
+          \ \/ |___ |_\|_,|~~~`               
+         _|X/\ |___\|_ :| |_,              
+         | __\_:____ |  ||o-|        
+         |/_-|-_|__ \|_ |/--|    
+ ~~~~~~~~:| -|- o-o\_:_\|o-/:~~~~~~~~~~~~~~
+ ~~~~~~~~~~\=\====o==o==o=/:~~~~~~~~~~~~~~~
+ ~~~~~~~~~~~\_\ ~~~~~~~~~:~~~~~~~~~~~~~~~~~
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+::NEWMAP::
+deck
+::MAPDATA::
+d1 27 10
+d2 22 10
+d3 22 8
+d4 22 6
+d5 32 6
+d6 32 8
+d7 32 10
+d8 36 8
+d9 18 8
+d10 27 6
+::MAPDATA::
+
+           -= Main deck of the Golden Lion =-
+           -=      Flotsam - Sparkle       =-
+        
+                     ___..____..____                        Port
+                  __:               ==                            
+                 /    o ---o--- o   ====*                     =
+                |     |         |      ====*_                 |
+              ~~: u---d         d---u    =======      Aft  <--o-->  Fore
+                |     |         |      ====*                  |
+                 \__  o ---o--- o   ====*                     =
+                    :____..____..___==                     
+                                                          Starboard
+
+
+::NEWMAP::
+belowdeck
+::MAPDATA::
+l1 22 8
+l2 27 8
+l3 32 8
+l4 36 8
+room1 18 8
+::MAPDATA::
+
+           -= Lower deck of the Golden Lion =-
+           
+        
+                     ___..____..____                        Port
+                  __:               ==                            
+                 /                  ====*                     =
+                |                      ====*_                 |
+              ~~: o---u----o----u---o    =======      Aft  <--o-->  Fore
+                |                      ====*                  |
+                 \__                ====*                     =
+                    :____..____..___==                     
+                                                          Starboard
+
+
+::NEWMAP::
+abovedeck
+::MAPDATA::
+u1 36 8
+u2 18 8
+::MAPDATA::
+
+           -= Upper decks of the Golden Lion =-
+           -=        Flotsam - Sparkle       =-
+        
+                     ___..____..____                        Port
+                  __:               ==                            
+                 /__                ====*                     =
+                |   \              /   ====*_                 |
+              ~~: d @             : d +} =======      Aft  <--o-->  Fore
+                | __/              \   ====*                  |
+                 \__                ====*                     =
+                    :____..____..___==                     
+                                                          Starboard
+
+
+::NEWMAP::
+nest
+::MAPDATA::
+nest 28 3
+::MAPDATA::
+
+                            _
+                          /   \
+                          : d :
+                          \ _ /

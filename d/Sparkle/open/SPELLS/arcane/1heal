@@ -1,0 +1,19 @@
+Name: Heal
+
+Object: /d/Sparkle/guilds/arcane/spells/heal.c
+
+Cost: 
+
+Skills: 
+
+Description: Tier 1 spell
+		 Targets: 1, unspecified target defaults to caster
+		 Easy as it sounds, basic healing spell. Not very powerful.
+		 Heals the caster better than it heals a third party target
+		 (these guys are not clerics). For extreme failures, may even
+		 harm the caster.
+
+Requirements: 
+    SS_ELEMENT_LIFE
+    SS_FORM_DIVINATION     
+    Apple

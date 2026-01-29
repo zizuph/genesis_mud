@@ -1,0 +1,82 @@
+main
+::MAPDATA::
+pier3 9 13 grey_havens
+path3 9 13 grey_havens
+pier1 9 13 grey_havens
+path2 9 13 grey_havens
+pier2 9 13 grey_havens
+path1 9 13 grey_havens
+shore 9 13 grey_havens
+pier4 9 13 grey_havens
+path4 9 13 grey_havens
+pier5 9 13 grey_havens
+path5 9 13 grey_havens
+pier6 9 13 grey_havens
+path6 9 13 grey_havens
+pier7 9 13 grey_havens
+path7 9 13 grey_havens
+::MAPDATA::
+
+                                  Annuminas
+                                      O ~~
+                 Hills of Evendium    |  ~~   +---------+
+                                      |   ~~  |THE SHIRE|
+                                       \   ~~ +---------+        Fornost
+                             Greenfields\   ~~                      o
+                                    o----\   ~~~                    |
+                                          \    ~~~                  |
+          ~~                       HOBBITON\     ~~~                |
+         ~~~          Greenholm       O     \      ~~~              |
+       ~~~~               o           |     |Frogmorton             |   BREE
+     GREY HAVENS       MICHEL DELVING |     o------===--------------+----O---
+   ~~~~~~O---------------------O------+*--\/   |  Brandywine        |
+  ~~~~~~~                      |Three Farthing |    Bridge          |
+ ~~~~~~~       \               |    Stone      o   ~~~     Barrow   |
+ ~~~~~          o         Hard o            Whitfurrows     Downs   |
+ ~~~    Rockfriends      bottle \----\            ~~~               |
+ ~~                                   \--------- ~~~ o--------------\
+ ~                                             ~~~  Sarn Ford        \
+          Blue Mountains                     ~~~                      \
+                                           ~~~                         \
+
+::NEWMAP::
+grey_havens
+::MAPDATA::
+pier3 8 4
+path3 12 4
+pier1 8 6
+path2 12 6
+pier2 8 8
+path1 12 8
+shore 12 10
+pier4 8 12
+path4 12 12
+pier5 8 14
+path5 12 14
+pier6 8 16
+path6 12 16
+pier7 8 18
+path7 12 18
+::MAPDATA::
+
+          Grey                              |                   |
+         Havens                     o - o - o - o           o - o - o
+ ~~~~~~~                                  / | \                 |
+ ~~~~~~ o - o                       o - o   |   o               o
+ ~~~~~      |                               |                   |
+ ~~~~~  o - o                            Michel              Hobbiton
+ ~~~~~      |                           Delving                 |
+ ~~~~~  o - o           o           o       |           o   o   |   o
+ ~~~~~~     |           |           |       |             \ :   |   |
+ ~~~~~~     o - o - o - o - o - o - o - o - o - o - o - o - o - o - o ----- o -
+ ~~~~~~     |           |           |       |       |               |       |
+ ~~~~~  o - o           o           o       |       o               o ----- o
+ ~~~~~~     |                             Michel                      \     |
+ ~~~~   o - o                            Delving                        o - o
+ ~~~~~      |                               |                             \
+ ~~~~~  o - o                               o - o                           o
+ ~~~~~~     |                               |
+ ~~~~~  o - o                               o - o   o
+ ~~~~~~                                     |       |
+                                            o - o - o - o
+                                                |

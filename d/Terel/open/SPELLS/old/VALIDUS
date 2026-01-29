@@ -1,0 +1,8 @@
+Name:		Validus
+Object:		/d/Terel/mecien/valley/guild/spells/validus.c
+Cost:		40 mana for yourself, 30 another person, no components
+Skills:		Life, Enchantment
+Description:    Grants temporary strength of random(10) + 1 
+		for duration of 10
+Requirements:	Wis > 30
+

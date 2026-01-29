@@ -1,0 +1,15 @@
+A sergeant of the goblin garrison
+
+Properties:
+goblin garrison soldier
+
+Stats:
+120,80,120,50,50,100
+
+Skills:
+Club, defence, parry 75
+
+Objects:
+non-officer chainmail, shield, helm, club, cloak
+coins - about 240 cc
+

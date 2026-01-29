@@ -1,0 +1,31 @@
+
+  This is the domain_info documentation for the shiplines of
+  Cirath.
+
+     KALAD
+Path:          /d/Cirath/ships/kalad/*
+Ship Name:     tyr-kalad line
+Captain        /d/Cirath/ships/kalad/captain.c
+Start loc:     /d/Cirath/ships/kalad/tyr_port.c
+Destination:   /d/Cirath/ships/kalad/kalad_port.c
+Cost:          20 cc
+Special:       This ship inherits /d/Cirath/ships/kalad/std/ship.c,
+               to avoid hardcoded 'water' references in 
+               /d/Genesis/ship/ship.c
+
+
+
+
+     ROKE
+Path:          /d/Cirath/ships/roke/*
+Ship Name:     tyr-roke line
+Captain:       /d/Cirath/ships/roke/captain.c
+Start Loc:     /d/Cirath/ships/roke/tyr_port.c
+Destination:   /d/Cirath/ships/roke/roke_port.c
+Cost:          50 cc
+Special:       This ship inherits /d/Cirath/ships/roke/std/ship.c,
+               to avoid hardcoded 'water' references in 
+               /d/Genesis/ship/ship.c
+
+
+ File last edited: March 13, 1997 by Decius.

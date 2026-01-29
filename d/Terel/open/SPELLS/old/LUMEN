@@ -1,0 +1,12 @@
+Name: 		lumen
+
+Object:		/d/Terel/mecien/valley/guild/spells/lumen
+
+Cost: 		10 mana
+
+Skills:    	Wisdom, Spellcraft, Int
+
+Description:	Lights up this room for a limited time.
+
+Requirements:   Wis > 20
+

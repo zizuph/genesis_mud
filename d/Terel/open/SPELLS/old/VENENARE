@@ -1,0 +1,12 @@
+Name:            Venenare
+Object:          /d/Terel/mecien/valley/guild/spells/venenare.c
+Cost:            20 mana, suitable weapon
+Skills:          Death, Spellcraft, Int, Wis
+Description:     Poisons a weapon with the 2 props "mystic_weapon" and
+ 		 "poison_holder".  
+		 Duration: 65 + SS_WIS
+		 Strength: 5 + SS_ELEMENT_DEATH
+		 Damage:   10 + SS_INT
+		 Interval: 30
+Requirements:    Wis > 30
+

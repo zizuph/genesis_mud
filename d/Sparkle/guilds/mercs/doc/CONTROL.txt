@@ -1,0 +1,70 @@
+Currently all control functions are seperated over several files. I intend
+to merge them all into one control object and update the originals to point
+to this file for now. After all merges are complete, then I'm going to 
+update the shadows and such to lower the load on the control object.
+
+- crest_room.c
+
+/*
+ * Structure:
+ *    lords = ([ "merc_name" : ({ a, b, c, d, ({ e }) }) ]), ])
+ *       merc_name = the mercenary
+ *       a = foreground
+ * 	 b = background
+ * 	 c = emblem
+ *       d = gender
+ *	 e = array of sub-lords
+ *    members = ([ "merc_name" : "lord_name", ])
+ *       merc_name = the mercenary 
+ *       lord_name = the lord he has joined
+ *    applications = ([ "merc_name" : "lord_name", ])
+ *       merc_name = the mercenary
+ *       lord_name = the lord he wishes to join
+ *    notifications = ([ "merc_name" : ({ "notification1", "notification2", .. }), ])
+ *
+ *    colors = ({ array of strings })
+ *    emblems = ({ array of strings })
+ */
+
+- great_hall.c
+
+statues = ([ "merc name" : ({ nonmet, crest }) ])
+
+- join.c
+
+string *gBanish_list = ({ array with names (cap) });
+string *gAvailable = ({ array with names (cap) });  // mercs available for hire	
+mapping gMembers = ([ name : type ]);
+mapping gNotAllowed = ([ name : time to allow rejoin ]);
+mapping gWarned = ([ name : time to remove warning ]);
+
+- kennel2.c
+
+adj1 = ({ array with strings })
+adj2 = ({ array with strings })
+taken_horses = ({ playername array })
+mounts = ([ mercname : ({ adj1, adj2, gender }) ])
+
+
+
+Info per mercenary:
+- gender
+- weapon specialisation
+- nonmet description
+- pending notifications
+- dog info (adj1, adj2, gender)
+- cause membership
+
+Info per cause:
+- lord of the cause
+- foreground color
+- emblem color
+- applications
+- members
+- sublords
+
+Extra:
+- mercs available for hire
+- to banish players
+- warned players
+- not allowed players

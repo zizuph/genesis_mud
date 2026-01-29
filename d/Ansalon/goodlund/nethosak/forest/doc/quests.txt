@@ -1,0 +1,45 @@
+Seeker Quest.
+---------------
+
+This quest takes place in the forest Mithas. The local
+witch there (~goodlund/nethosak/forest/npc/laran.c)
+needs someone to avenge the murder of her friend.
+After searching the forest, the player might discover
+a small circle of stones, that might have been a building
+at some time. When moving some thin rocks that cover the
+entrance downwards, the player will find himself unable
+to move downwards because of a locked iron gate. When
+asking the witch about this, she says that she has lost
+the key to that place years ago. The player can go to
+a stream in the forest (~nethosak/forest/room/forest28)
+where the player can 'catch fish' to try and catch a fish
+with his bare hands, if lucky enough he'll catch a trout
+and after gutting it he'll discover a key inside it's stomac
+They player can now enter the cellar of the room, where
+he'll meet a beholder (/d/Ansalon/goodlund/nethosak/forest/
+npc/beholder.c). This creature is very tough, and
+casts spells like blindness, confusion and magic
+missile. After the beholder has died, the player
+can cut the key (and an eye) of the corpse (cuz
+the beholder has eaten the key :) )
+and he can now enter a hole in the wall, which will take
+him to the treasure room, where he finds the Seeker, a
+polearm that can be used as an axe or club, in a chest. 
+When the player has returned the polearm to Dawn, he'll be 
+rewarded with the magnificent amount of 5000 xp
+and he'll get the weapon as a gift.
+
+Troll Quest.
+---------------
+This is the second quest in the Forest of Mithas, handed out
+by a witch there (~goodlund/nethosak/forest/npc/laran.c).
+The player will be asked to slay a troll that has been
+murdering deers and other creatures in the forest. The troll
+will be placed in a random room in the forest, and after a
+search he'll find it. The troll is very tough! And hunts if
+the player runs away. If the player gets the killing blow on
+the troll, it'll leave a artifact in it's corpse. (~/goodlund/
+nethosak/forest/obj/armour/protector.c) and the player will get
+3500 xp in reward. If he doesn't get the killing blow, the xp
+is changed to only 1500 xp and the troll doesn't leave the
+artifact.

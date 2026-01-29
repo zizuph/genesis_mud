@@ -1,0 +1,43 @@
+
+     Spell name: Water breathing
+                 pabfrahrir
+         Effect: Adds water breathing prop to target
+           Type: Maintained
+        Targets: Living
+        
+        Element: Water           / 30
+           Form: Transmutation   / 30
+    Spell power: Power 1 [Very minor spell]
+     Spell type: propchange spell 
+     
+       Peaceful: No
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: surf grass (herb, 18 cc)
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_ROUTINE
+     Combat Aid: 0% 
+
+            Tax:  0.1
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x1.0   routine difficulty
+                  x1.0   material component < 1 gp value 
+                 ------
+                   0.1%  total tax
+   ------------------------------------------------------------
+   Comments: Provides the target of the casting water breathing
+             the MAGIC_I_BREATHE_WATER prop, the value dependent
+             on the power of the casting:
+
+             water_breath_boost = max(1, min(100, power / 3))
+
+             Where 100 is able to breath water as long as the
+             spell is active.
+   ------------------------------------------------------------

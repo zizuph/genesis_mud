@@ -1,0 +1,56 @@
+main
+::MAPDATA::
+wardrobe 18 1
+shieldch 26 1
+ballrn 11 3
+sleeping 18 3
+ballrw 7 5
+ballr 11 5
+gallery 14 5
+losttrck 18 5
+vicarage 18 5
+knightsh 22 5
+armoury 26 5
+ballrs 11 7
+draglair 18 7
+dopening 14 9
+big_hall 18 9
+ovalroom 22 9
+cornerch 10 11
+boring 14 11
+shaft1 2 13
+eelpass 6 13
+smhollow 10 13
+maritime 10 15
+fiss_n 22 15
+narrpass 10 17
+westhall 14 17
+easthall 18 17
+narrfiss 22 17
+west_dep 26 17
+lowroom 30 17
+fiss_s 22 19
+::MAPDATA::
+
+                  o ----- o
+                  |       |
+           o      o       |
+           |      |       |
+       o -[ ][ ]-[ ]- o - o
+           |      |
+           o      o
+                  |
+              o - o -[ ]
+              |
+          o - o
+          |
+ [ ]- o - o
+          |
+          o           o
+          |           |
+          o - o - o - o - o - o -
+                      |
+                      o
+                             ()-().----.          .
+                              \"/` ___  ;________.'
+                               ` ^^   ^^

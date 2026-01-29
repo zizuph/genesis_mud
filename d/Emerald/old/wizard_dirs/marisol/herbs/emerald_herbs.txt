@@ -1,0 +1,17 @@
+Emerald herbs:
+
+Herb name         atrb.          str  id  find decay value
+Apothecary's rose Enhance poison 30   55   10  5000  900
+Bee balm          Heal    fat    50   50    8  5000  600
+Borage		  Enhance int    45   50    5  5000  900
+Ebony rose        none                11    5  5000	
+grave flower      none 		      60    3  2200  150
+lavander	  Heal    mana   50   55    8  2000  900
+loyol		  Poison  	 30   20    7  4000  500
+marsh mallow      Heal    hp     30   20    6  2000  100
+meadowsweet       Enhance magic  16   12    8  5000  900
+milky rose        Heal    mana   50   20    10 5000  600
+evening primrose  heal    fat    10    8     3 5000  100	
+red yarrow        Enhance cold   30    8    67 4000  940
+scarlet rose      none                15    10 5000
+selfheal          Heal    hp     20    6     3 2000   50

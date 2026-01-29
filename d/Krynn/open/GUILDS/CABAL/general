@@ -1,0 +1,37 @@
+
+The Cabal of Hiddukel
+---------------------
+
+The Cabal is a layman thief guild taking the direction of burglary.
+The guild object is a key ring that serves the purpose of  1)
+being itself the key into the guild and  2) to keep a collection
+of keys, which will stay with the player (Autoloading).
+
+The keys contained in the keyring must be ordinary keys (inherit
+/std/key) and they may NOT have the "_key_i_no_keyring" property
+added. This is the standard way to prevent a key from being added
+to the keyring.
+
+The Cabal is dedicated to Hiddukel, the Krynn god of corrupt wealth.
+The symbol of Hiddukel is a broken balance that every member gets
+tattooed on his/her neck. Any item worn on the neck will reduce the
+chance that the tattoo is detected.
+
+At least 10% of every Thief's illegal income must be sacrificed to
+Hiddukel (see the 'sacrifice' doc).
+
+The Cabal is located beyond the former treasury of the dwarves of the
+Theiwar clan of the Vingaard mountains. Gaining access into the
+treasury also makes up the entrance quest for the guild.
+
+Leaving the guild will call the wrath of Hiddukel upon you and if he
+is in a bad mood anything can happen...
+Most or all of the skills learned will be taken away and usually you
+will die, too.
+
+The guild rooms comprise a sleeping room (start location) with a list
+of the thieves currently playing, a chapel dedicated to Hiddukel, a
+fence where stolen goods can be fenced for a decent price. Also avail-
+able are a training room, a mail room and a common board. A discussion
+board is located in the sleeping room.
+

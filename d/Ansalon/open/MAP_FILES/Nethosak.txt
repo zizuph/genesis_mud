@@ -1,0 +1,495 @@
+main
+::MAPDATA::
+pier1 68 10 nethosak
+pier2 68 10 nethosak
+pier3 68 10 nethosak
+pier4 68 10 nethosak
+pier5 68 10 nethosak
+pier6 68 10 nethosak
+warehouse 68 10 nethosak
+forest1 68 10 nethosak
+forest2 68 10 nethosak
+forest3 68 10 nethosak
+forest4 68 10 nethosak
+forest5 68 10 nethosak
+forest6 68 10 nethosak
+forest7 68 10 nethosak
+forest8 68 10 nethosak
+joinroom 68 10 nethosak
+forest9 68 10 nethosak
+forest10 68 10 nethosak
+forest11 68 10 nethosak
+forest12 68 10 nethosak
+forest13 68 10 nethosak
+forest14 68 10 nethosak
+forest15 68 10 nethosak
+forest16 68 10 nethosak
+forest17 68 10 nethosak
+forest18 68 10 nethosak
+forest19 68 10 nethosak
+forest20 68 10 nethosak
+forest21 68 10 nethosak
+forest22 68 10 nethosak
+forest23 68 10 nethosak
+forest24 68 10 nethosak
+forest25 68 10 nethosak
+hut 68 10 nethosak
+forest26 68 10 nethosak
+forest93 68 10 nethosak
+forest27 68 10 nethosak
+forest28 68 10 nethosak
+swamp1 68 10 nethosak
+swamp2 68 10 nethosak
+dragons_lair 68 10 nethosak
+forest36 68 10 nethosak
+forest35 68 10 nethosak
+forest34 68 10 nethosak
+forest33 68 10 nethosak
+camp_01 68 10 nethosak
+camp_02 68 10 nethosak
+forest37 68 10 nethosak
+forest38 68 10 nethosak
+forest40 68 10 nethosak
+forest41 68 10 nethosak
+forest42 68 10 nethosak
+forest43 68 10 nethosak
+forest44 68 10 nethosak
+forest45 68 10 nethosak
+forest46 68 10 nethosak
+forest47 68 10 nethosak
+forest48 68 10 nethosak
+forest49 68 10 nethosak
+forest50 68 10 nethosak
+forest51 68 10 nethosak
+forest52 68 10 nethosak
+forest53 68 10 nethosak
+forest54 68 10 nethosak
+forest55 68 10 nethosak
+forest56 68 10 nethosak
+forest57 68 10 nethosak
+forest58 68 10 nethosak
+forest59 68 10 nethosak
+forest60 68 10 nethosak
+forest61 68 10 nethosak
+forest62 68 10 nethosak
+forest63 68 10 nethosak
+forest100 68 10 nethosak
+cellar 68 10 nethosak
+lair 68 10 nethosak
+forest64 68 10 nethosak
+forest65 68 10 nethosak
+forest66 68 10 nethosak
+forest67 68 10 nethosak
+forest68 68 10 nethosak
+forest69 68 10 nethosak
+forest70 68 10 nethosak
+forest71 68 10 nethosak
+forest72 68 10 nethosak
+forest73 68 10 nethosak
+forest74 68 10 nethosak
+forest75 68 10 nethosak
+forest76 68 10 nethosak
+forest77 68 10 nethosak
+forest78 68 10 nethosak
+forest79 68 10 nethosak
+forest80 68 10 nethosak
+forest81 68 10 nethosak
+forest82 68 10 nethosak
+forest83 68 10 nethosak
+forest84 68 10 nethosak
+forest85 68 10 nethosak
+forest86 68 10 nethosak
+forest87 68 10 nethosak
+forest91 68 10 nethosak
+forest92 68 10 nethosak
+forest88 68 10 nethosak
+forest89 68 10 nethosak
+forest90 68 10 nethosak
+trail1 68 10 nethosak 
+trail2 68 10 mithas_trolls
+encampment_center 68 10 mithas_trolls
+encampment_south 68 10 mithas_trolls
+encampment_northwest 68 10 mithas_trolls
+encampment_northeast 68 10 mithas_trolls
+encampment_west 68 10 mithas_trolls
+encampment_east 68 10 mithas_trolls
+encampment_southwest 68 10 mithas_trolls
+encampment_southeast 68 10 mithas_trolls
+encamp_north2 68 10 mithas_trolls
+encamp_center2 68 10 mithas_trolls
+encamp_south2 68 10 mithas_trolls
+encamp_northwest2 68 10 mithas_trolls
+encamp_northeast2 68 10 mithas_trolls
+encamp_west2 68 10 mithas_trolls
+encamp_east2 68 10 mithas_trolls
+encamp_southwest2 68 10 mithas_trolls
+encamp_southeast2 68 10 mithas_trolls
+encamp_north3 68 10 mithas_trolls
+encamp_center3 68 10 mithas_trolls
+encamp_south3 68 10 mithas_trolls
+encamp_northwest3 68 10 mithas_trolls
+encamp_northeast3 68 10 mithas_trolls
+encamp_west3 68 10 mithas_trolls
+encamp_east3 68 10 mithas_trolls
+encamp_southwest3 68 10 mithas_trolls
+encamp_southeast3 68 10 mithas_trolls
+forest101 68 10 chislev_temple
+temple1 68 10 chislev_temple
+temple2 68 10 chislev_temple
+temple3 68 10 chislev_temple
+temple4 68 10 chislev_temple
+temple5 68 10 chislev_temple
+temple6 68 10 chislev_temple
+temple7 68 10 chislev_temple
+temple8 68 10 chislev_temple
+temple9 68 10 chislev_temple
+temple_clearing 68 10 chislev_temple
+sea1 68 10 pirate_cove
+sea2 68 10 pirate_cove 
+pirate_cove 68 10 pirate_cove
+underground_cave 68 10 pirate_guild
+pirate_cave 68 10 pirate_guild
+pirate_center_room 68 10 pirate_guild
+pirate_drop_room 68 10 pirate_guild
+p_office 68 10 pirate_guild
+pirate_shop 68 10 pirate_guild
+pirate_train 68 10 pirate_guild
+pirate_start 68 10 pirate_guild
+pirate_king_room 68 10 pirate_guild
+::MAPDATA::
+                        
+                                                                            
+      N                 
+      ^                                         
+      |                                       _                    _____      
+   <--o-->                                  ,/ \                  /    /      
+      |                              __     |   \,    ,     ,    `\_^_\       
+      =                            _/  \  _/`    |  _/|    /|__     _ '       
+                        __      __/    / |       / /  |   /_  /    / \_       
+                        \ \    /^    [] _|      / /  /`     |/     \   \      
+             ,_          \ |  |^  Kalaman`     /_/  /       '      [ ]Mithas  
+             | \         /^ [] ^           ^        |              /___/      
+             |^@\    Palanthas^      ^    ^        /'              ____       
+             | ^@\       |  ^        ^    ^   ^^  /                \  /       
+     __     /`  ^@|      | ^  []Vingaard     ^^   |                /__\       
+    /^^\    \  ^@ |      | ^    Keep     ^^ ^^    |/\              `  '       
+   /^^^^\    \___/       | ^           ^^^^       '  \                      
+   \^^^^^|                \ ^      @  ^ Sanction     |           ,            
+  |\|@__/    _____,        |    ^  @   ,[ ]^^^       |        __/|            
+  |@_/      /     |        |   ^  @@ __|  | ^^  _  _ `\  _/\_/   |            
+  |/       /@ ^   |        |____/\__/   _/` ^^ | \/ |  []`       |            
+           |@^|\_/                     /   ^^^ |__  \ Flotsam,/| |            
+           | @|___           ____      |  ^^^   ,/   \       | | |            
+           '\_@  /          /    \ { } |  ^ ^   |Port []    /   \|            
+              \_/         ,/  ^  |     '\ ^  ^  Balifor\___/     '            
+                     Solace []   |   _   |^  ^    \                 
+                         / @@   /   | \  \         \         { }   
+                     New Ports[]    |  |_|          \__     
+                        | @@@  \  ,/'           Kurinost[]            
+                       / @@@@@  \_|                 @@@@@@@\                  
+     
+
+::NEWMAP::
+nethosak
+::MAPDATA::
+pier1 3 4
+pier2 3 1
+pier3 3 7
+pier4 7 4
+pier5 3 9
+pier6 3 11
+warehouse 5 9
+forest1 7 7
+forest2 7 9
+forest3 9 11
+forest4 11 9
+forest5 14 9
+forest6 14 11
+forest7 11 13
+forest8 9 13
+joinroom 7 13
+forest9 14 13
+forest10 11 15
+forest11 11 17
+forest12 14 17
+forest13 11 19
+forest14 13 21
+forest15 16 21
+forest16 18 23
+forest17 16 25
+forest18 18 19
+forest19 16 17
+forest20 16 15
+forest21 18 13
+forest22 19 15
+forest23 22 15
+forest24 19 17
+forest25 22 17
+hut 20 18
+forest26 20 21
+forest93 20 23
+forest27 20 25
+forest28 18 27
+swamp1 9 29
+swamp2 6 31
+dragons_lair 3 31
+forest36 22 27
+forest35 24 29
+forest34 21 29
+forest33 17 29
+camp_01 21 31
+camp_02 21 33
+forest37 24 25
+forest38 24 23
+forest40 26 23
+forest41 23 21
+forest42 23 19
+forest43 25 19
+forest44 25 21
+forest45 27 21
+forest46 29 21
+forest47 29 23
+forest48 29 25
+forest49 27 27
+forest50 32 21
+forest51 32 23
+forest52 35 23
+forest53 34 19
+forest54 34 17
+forest55 37 19
+forest56 37 21
+forest57 35 23
+forest58 35 25
+forest59 37 25
+forest60 32 25
+forest61 32 27
+forest62 30 29
+forest63 32 29
+forest100 30 31
+cellar 30 31
+lair 30 31
+forest64 37 27
+forest65 39 25
+forest66 41 23
+forest67 43 25
+forest68 41 21
+forest69 39 19
+forest70 41 17
+forest71 41 15
+forest72 41 13
+forest73 43 13
+forest74 45 11
+forest75 45 13
+forest76 47 13
+forest77 45 15
+forest78 43 15
+forest79 43 19
+forest80 45 19
+forest81 47 19
+forest82 47 17
+forest83 45 17
+forest84 43 17
+forest85 49 15
+forest86 49 11
+forest87 51 9
+forest91 51 7
+forest92 51 5
+forest88 49 9
+forest89 47 9
+forest90 47 11
+trail1 46 25 
+::MAPDATA::
+
+   o     @@@@@@@@                                  
+~  |\    @@@@@@                                 @@@@@@@@   
+   | `\                                           @@@@@@ 
+   o   o-->                                           @@ 
+~  |  /|                                        <--o  @@
+   |/' | @@@@@@         Minotaur city of           |  @@
+   o   o @@@@@@@@          Nethosak         @@@@@@ o  @@
+~  |   | @      @@@@                        @@     |  @@
+   o-w o @ .--.  @@@                      @@@  .-.-o  @@
+~  |    \ /   |  @@@                    @@@    |  /  @@@
+   o  |  o  @ .  @@@@@@               @@@    . .-o  @@@@
+ ~   |    \  @      @@@              @@     /|\ /   @@@
+     | M-.-o--o @ .  @@@@           @@@  .-. . o  @@@@
+ ~   |     |   \ /      @@        @@@@@@ |    / \  @@@@
+   ~  | @  o @@ o--.--. @@@    @@@@@@@@@ o-o-o   o  @@@@
+   ~ |  @  | @@ |  |     @@    @    @@@  |      /  @@@@
+ ~    |  @ o--. o  .--.  @@    @  . @@@  o o-o-o  @@@@       
+    ~  |@  | @ @ \  ^        = @  |     /  |   | @@@@       
+   ~  |  @ o  @@  o  @ o-o   | @@ o--o-o   o-.-. @@@@ 
+ ~  ~  \  @ \    / \   | |   |   /   |  \ /      @@@@
+   ___  \ @  o--o   o--o o-o-o--o--x o   o  @@@@@@@@@  
+ _/   \  \ @     \  | @ \ @  |  |   /    |  @@@ 
+       \  \  @@   o o @ .-.@ o  .  o     o  @@@@@
+ .v.    \  \  @  /  |@  |  @ |     |    / \@    @@
+         \  \   o   o @ . @@ o--o--o-o o @ .--.  @@  
+    .v.   \  \     / \ / @  /  @|@  \ /  @    |   @@  
+           \  \   o   o @  o @@ . @@ o  @@    .   @@@
+   .v.  .v. |  \       \  / @@ /   @@  @@@   /|\   @@
+            |  |  o--o--o  @@ .-. @@@@@@@@  ^ ^ ^  @@
+  _/\  .v.  |  |     |    @@   /  @@    @@  ware   @@
+ / @@\      |  |  @  . @@@@@  .  @@@     @ trolls! @@
+     .v.    \   \ @  | @@@@@    @@@      @         @@
+             \   \ @ . @@@@@@@@@@@@      @@@@@@@@@@@@ 
+
+::NEWMAP::
+mithas_trolls
+::MAPDATA::
+trail2 30 2
+encampment_center 30 8
+encampment_south 30 10
+encampment_northwest 24 6
+encampment_northeast 36 6
+encampment_west 24 8
+encampment_east 36 8
+encampment_southwest 24 10
+encampment_southeast 36 10
+encamp_north2 13 6
+encamp_center2 13 8
+encamp_south2 13 10
+encamp_northwest2 7 6
+encamp_northeast2 19 6
+encamp_west2 7 8
+encamp_east2 19 8
+encamp_southwest2 7 10
+encamp_southeast2 19 10
+encamp_north3 47 6
+encamp_center3 47 8
+encamp_south3 47 10
+encamp_northwest3 41 6
+encamp_northeast3 53 6
+encamp_west3 41 8
+encamp_east3 53 8
+encamp_southwest3 41 10
+encamp_southeast3 53 10
+::MAPDATA::
+
+       @@@@      @@@@         |  @@@@        @@@@@@@@
+  @@@@   @@@@                 o    @@@@@@@@@@@@    @@@@@@@@
+@@@@                       ,' | `,                     @@@@
+@     _._   _._         ,'_._ | _._`,         _._   _._  @@
+     //i\\ //i\\     ,'  //i\\|//i\\  `,     //i\\ //i\\
+       o     o    ,'    o     |     o    `,    o     o
+  _._     `, | ,'          `, | ,'          `, | ,'     _._
+ //i\\ o --- o --- o    o --- o --- o    o --- o --- o //i\\
+          ,' | `,          ,' | `,          ,' | `,
+       o     o     o    o     o     o    o     o     o  @@@@
+      _._   _._     _._      _._        _._         _._   @@
+     //i\\ //i\\   //i\\    //i\\      //i\\       //i\\   @
+                                                          @@
+@@@@@@@@                           @@@@@@@@       @@@@@@@@@@
+      @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   @@@@@@@@@@@
+
+::NEWMAP::
+chislev_temple
+::MAPDATA::
+forest101 24 23
+temple1 18 19
+temple2 24 19
+temple3 30 19
+temple4 18 15
+temple5 24 13
+temple6 30 15
+temple7 18 11
+temple8 24 12
+temple9 30 11
+temple_clearing 35 11
+::MAPDATA::
+         ^   @                            
+          \   @ @@                          
+           o   @@ @ @@                   
+          /     @ @@@ @@@                
+         /       @@@@@@                   
+        /      @@@@@       ^              
+       /    @@@  ^  @...../|\.^..   ^
+      /   @  ^  /|\  @@   /|\/|\ : /|\
+     /   @  /|\ /|\  @@@@@   /|\.: /|\  ^
+    /   @@  /|\ .-------------..:....  /|\
+   /      ^ @@ |      _____  .:::|   : /|\
+<-o     @/|\  @|  S  /     \ :o--|-C : ^
+  |     @/|\ @@|  | |       | |  |...'/|\
+  |      @ @@@ |  | |   A   | |  |    /|\
+  |       @ ^  |  | |  / \  | |  |   ^
+  |       @/|\ |  L | /   \ | o  |  /|\
+  |      @ /|\ |  | |/     \| |  |  /|\
+  |       @@ @ |  | /._____.\ |  | ^ 
+  |       ^ @  |  |/         \|  |/|\  
+  |      /|\ @ |  o-----T-----o  |/|\  
+  |      /|\ ^ |        |        |    
+  |         /|\ '-------|-------' ^   
+  |        @/|\@@ @@@@@ |   @@@@ /|\  
+<-o--------@--@--@@--@--o ^   @@ /|\  
+           @@@@@@ @@@ @  /|\ .============.
+         @@@  @@    @@ @ /|\| A - Atrium   |
+         @@   @@@@@@@ @@@@@ | C - Clearing |
+          @   @      @  @   | L - Library  |
+        @@     @    @@@@    | S - Quarters |
+                            | T - Entrance |
+                             '============'
+
+::NEWMAP::
+pirate_cove
+::MAPDATA::
+sea1 11 12
+sea2 26 13 
+pirate_cove 36 11
+::MAPDATA::
+
+
+
+                   ~ The Isle of Mithas ~
+
+                                            .--.
+   _^_                  _.--._         _ .-'__  ,
+  ~~~~~          -.-   / %  % \   ,--./ /    \   \__  
+  | .:|         /   \_/_ _.-. ,-/   _._         `/  \
+__| O |_____   /      ` \___./     /@@@\  \    /     \__.--,
+#xx#x#xx#xx#  /    _ _ _/@@@\     /@@@ .\     /       \     \
+#__#_#__#_ #_/___ /_`_ /@@@@@\ _ /@@@@ |\\ ___ ___  __ . __ . 
+--...___ ~-~ ~ -_~ -~_~ _-~_-_ -~- ~-_/]_\_   ~-~_-~ _-~-~ _-~ 
+        ```--.._~ -_~ -_~ _-~- -_~~~ "~~~~~^~     -~ _-~ 
+                ``--._~-_ ~-~_-~ _-~ _- -__- ~-~_-~ _-~ -~ _-~
+                      ``-._~_-~_- ~_-~- - __     -~ _-~ -~ _-~
+                           `-._-~_-_~- - ~ ~-~_-~ _-~ ~- 
+                                 `-._~-_ ~ - -    ~-~_-~ -~ _-
+                                    `-._ ~ __ ~-~_-~ _-~   -~
+
+::NEWMAP::
+pirate_guild
+::MAPDATA::
+underground_cave 24 13
+pirate_cave 29 13
+pirate_center_room 24 10
+pirate_drop_room 19 10
+p_office 19 13
+pirate_shop 29 10
+pirate_train 24 7
+pirate_start 29 7
+pirate_king_room 19 7
+::MAPDATA::
+
+
+                            BLOODSEA PIRATE CAVES
+
+       ************************************************************
+       ************************************************************
+       *********                 **********************************
+       *********   o    o    o   **********************************
+       *********    `,  :  ,'    **********************************
+       *********      `,|,'      **********************************
+       *********   o -- o -- o   **********************************
+       *********      ,':        **********************************
+       *********    ,'  |   ***************************************
+       *********   o    o -- o   **********************************
+       *********         `,      **********************************
+       ************~-~~~   `,  ************************************
+       @@***********~-~***   o   ********************************@@
+       @@@@**********~*****    .  *****************************@@@@
+       @@@@@@@@@@@@@@@@@@*,  .      ****************@@@@@@@@@@@@@@@
+       ~-~_-~ _-~ _- -__-\. .-.--.- .`./@@@@@@@@@@@@@/~-~_-~ _-~ _-
+       ~  ~-~_-~ _-~ _- -__-~-~_-~ _-~ _- -__-~-~_-~ _-~ _- -__-
+       -~ _-~ _- -__-~-~_-~ _-~ _- -__-~-~_-~ _-~ _- -__-~-~_-~ _-~
+
+

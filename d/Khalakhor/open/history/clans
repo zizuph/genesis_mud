@@ -1,0 +1,18 @@
+Three of the major races of Khalakhor are assembled in relational
+and organizational units called "clans": dwarves, humans, and
+goblins. A family subset of a clan is known as a "sept". An npc
+may belong to any combination of clan and sept: clan and no sept,
+sept and no clan, no sept and no clan, and clan and sept.
+The sept is the family name, whereas clan will usually be presented
+after the family name "of the Clan X". For example, Joe Jones of
+the Clan Jones belongs to the clan Jones and the sept Jones.
+
+For organizational purposes, editors have been coded to record the
+information about the clans and septs of Khalakhor. They can be
+found in /d/Khalakhor/common/clans/clan_admin.c, which allows the
+alteration of clan and sept details. It's a visual reference, not
+used by any code, but it helps keep track of what clans may be 
+found where and how each clan approaches the world. Read the
+"clanhelp" and "septhelp" files after cloning the editors from
+the room.
+

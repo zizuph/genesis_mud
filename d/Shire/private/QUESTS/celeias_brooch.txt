@@ -1,0 +1,30 @@
+Group:      1
+
+Bit:        0
+
+Name:       Imladris - Find Celeia's lost bracelet
+
+Programmed: Finwe, 1998
+
+Problem:    An elf warrior in Imladris, Celeia, has lost his 
+            family brooch. Celeia spawns at 
+            ~shire/rivendell/room/valley/v_path10 but wanders
+            in this region.
+
+Solution:   The brooch is in one of six rooms in the forest. 
+            Find and return it to the npc. Rooms are:
+            ~shire/room/forest/forest01, 
+            ~shire/room/forest/forest12,
+            ~shire/room/forest/forest33,
+            ~shire/room/forest/forest58,
+            ~shire/room/forest/forest64,
+            ~shire/room/forest/forest83
+
+Skills:     none
+
+Risks:      none
+
+XP-Scale:   1,000
+
+Remarks:    The forest doesn't show any exits unless the player 
+            has completed Elrond's quest, or is a Noldor elf.

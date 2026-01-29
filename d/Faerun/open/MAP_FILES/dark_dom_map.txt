@@ -1,0 +1,226 @@
+main
+::MAPDATA::
+cv01 10 5 north
+cv02 10 7 north
+cv03 15 7 north
+cv04 20 7 north
+cv05 20 9 north
+cv06 20 11 north
+tu01 20 5 north
+tu02 22 7 north
+tu03 28 7 north
+tu04 24 9 north
+tu05 26 9 north
+tu06 30 9 north
+tu07 40 9 north
+tu08 23 11 north
+tu09 24 11 north
+tu10 28 11 north
+tu11 32 11 north
+tu12 34 11 north
+tu13 38 11 north
+tu14 26 13 north
+tu15 30 13 north
+tu16 32 13 north
+tu17 36 13 north
+tu18 20 13 north
+tu19 26 15 north
+tu20 28 15 north
+tu21 34 15 north
+tu22 42 15 north
+tu23 24 17 north
+tu24 31 17 north
+tu25 34 17 north
+tu26 36 17 north
+tu27 40 17 north
+tu28 18 19 north
+tu29 20 19 north
+tu30 24 19 north
+tu31 28 19 north
+tu32 32 19 north
+tu33 34 19 north
+tu34 38 19 north
+tu35 20 21 south
+tu36 22 21 south
+tu37 26 21 south
+tu38 28 21 south
+tu39 34 21 south
+tu40 24 23 south
+tu41 28 23 south
+tu42 30 23 south
+tu43 34 23 south
+tu44 36 23 south
+tu45 26 25 south
+tu46 30 25 south
+tu47 32 25 south
+tu48 38 25 south
+tu49 44 25 south
+tu50 24 27 south
+tu51 28 27 south
+tu52 30 27 south
+tu53 36 27 south
+tu54 40 27 south
+tu55 42 27 south
+tu56 24 29 south
+tu57 26 29 south
+tu58 30 29 south
+tu59 36 29 south
+tu60 22 31 south
+tu61 30 31 south
+tu62 34 31 south
+tu63 30 33 south
+::MAPDATA::
+. . . . . . . . . . . . . . . . . . . . . . . . .
+.                                               .
+.                The Dark Domain                .
+.                ===============                .
+.                                               .
+.     <-- o         o                           .
+.         +          \                          .
+.         o -- o -- o o     o                   .
+.                   +  \   / \                  .
+.                   o   o o   o         o       .
+.                   +   |/   / \       /        .
+.                   o o-o   o   o-o   o         .
+.                   +    \ /       \ /          .
+.                   o     o   o-o   o           .
+.                    \    |  /   \ /            .
+.                     \   o-o     o       o     .
+.                      \ /   \    |      /      .
+.                       o     o   o-o   o       .
+.                       |    / \  |  \ /        .
+.                 o-o   o   o   o-o   o         .
+.                   |  / \  |    \              .
+.                   o-o   o-o     o             .
+.                      \    |\    |             .
+.                       o   o o   o-o           .
+.                        \ /  |  /   \          .
+.                         o   o o     o     o   .
+.                        /    |/     / \   /    .
+.                       o   o-o     o   o-o     .
+.                       |  /  |     |           .
+.                       o-o   o     o           .
+.                      /      |    /            .
+.                     o       o   o             .
+.                             |                 .
+.                             o                 .
+. . . . . . . . . . . . . . . . . . . . . . . . .
+::NEWMAP::
+north
+::MAPDATA::
+cv01 10 5
+cv02 10 7
+cv03 15 7
+cv04 20 7
+cv05 20 9
+cv06 20 11
+tu01 20 5
+tu02 22 7
+tu03 28 7
+tu04 24 9
+tu05 26 9
+tu06 30 9
+tu07 40 9
+tu08 22 11
+tu09 24 11
+tu10 28 11
+tu11 32 11
+tu12 34 11
+tu13 38 11
+tu14 26 13
+tu15 30 13
+tu16 32 13
+tu17 36 13
+tu18 20 13
+tu19 26 15
+tu20 28 15
+tu21 34 15
+tu22 42 15
+tu23 24 17
+tu24 30 17
+tu25 34 17
+tu26 36 17
+tu27 40 17
+tu28 18 19
+tu29 20 19
+tu30 24 19
+tu31 28 19
+tu32 32 19
+tu33 34 19
+tu34 38 19
+::MAPDATA::
+. . . . . . . . . . . . . . . . . . . . . . . . .
+.                                               .
+.            The Dark Domain - North            .
+.            ========================           .
+.                                               .
+.     <-- o         o                           .
+.         +          \                          .
+.         o -- o -- o o     o                   .
+.                   +  \   / \                  .
+.                   o   o o   o         o       .
+.                   +   |/   / \       /        .
+.                   o o-o   o   o-o   o         .
+.                   +    \ /       \ /          .
+.                   o     o   o-o   o           .
+.                    \    |  /   \ /            .
+.                     \   o-o     o       o     .
+.                      \ /   \    |      /      .
+.                       o     o   o-o   o       .
+.                       |    / \  |  \ /        .
+.                 o-o   o   o   o-o   o         .
+.                   |  / \  |    \              .
+. . . . . . . . . . . . . . . . . . . . . . . . .
+::NEWMAP::
+south
+::MAPDATA::
+tu35 20 6
+tu36 22 6
+tu37 26 6
+tu38 28 6
+tu39 34 6
+tu40 24 8
+tu41 28 8
+tu42 30 8
+tu43 34 8
+tu44 36 8
+tu45 26 10
+tu46 30 10
+tu47 32 10
+tu48 38 10
+tu49 44 10
+tu50 24 12
+tu51 28 12
+tu52 30 12
+tu53 36 12
+tu54 40 12
+tu55 42 12
+tu56 24 14
+tu57 26 14
+tu58 30 14
+tu59 36 14
+tu60 22 16
+tu61 30 16
+tu62 34 16
+tu63 30 18
+::MAPDATA::
+. . . . . . . . . . . . . . . . . . . . . . . . .
+.                                               .
+.          The Dark Domain - South              .
+.          =======================              .
+.                                               .
+.                   |  / \  |    \              .
+.                   o-o   o-o     o             .
+.                      \    |\    |             .
+.                       o   o o   o-o           .
+.                        \ /  |  /   \          .
+.                         o   o o     o     o   .
+.                        /    |/     / \   /    .
+.                       o   o-o     o   o-o     .
+.                       |  /  |     |           .
+.                       o-o   o     o           .
+.                      /      |    /            .
+.                     o       o   o             .
+.                             |                 .
+.                             o                 .
+. . . . . . . . . . . . . . . . . . . . . . . . .

@@ -1,0 +1,72 @@
+*****************************************************************************
+          TAX INFORMATION FOR THE BLOODSEA MINOTAURS (Layman)
+*****************************************************************************
+AG = Adventures Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)
+
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+General
+--------------------------------------------------------------------------
+SS_WEP_AXE             50         30          20         1.5        0.5%
+SS_WEP_CLUB            50         30          20         1.5        0.5%
+SS_DEFENCE             50         20          30         1.5        0.75%
+SS_PARRY               50          0          50         1.5        1.25%
+SS_BLIND_COM.          50         20          30         2.0        1.0%
+SS_APPR_MON            50         30          20         1.0        0.33%
+SS_LOC_SENSE	       60         30          30         0.5        0.25%
+SS_SWIM                60         30          30         1.0        0.5%
+--------------------------------------------------------------------------
+Totals                 90                    180                    5.08%
+
+--------------------------------------------------------------------------
+Guild Specific Skills
+--------------------------------------------------------------------------
+SS_GUILD_SPECIAL_SKILL 100          0           0         0.0         0.000
+--------------------------------------------------------------------------
+             
+Taxable Slots Allowed   : 350
+Actual Taxable Slots    : 180
+
+TOTAL TAX FOR SKILLS : 5.08%
+        
+
+================
+COMBAT SPECIALS:
+================
+
+GORE (Uses skills SS_GUILD_SPECIAL_SKILL (gore))
+
+    Gore is a typical damage special performed using the minotaur's horns.
+    The combat aid for gore has been set to 40%.
+
+    Tax for gore: 45 / 6 = 7.50%
+    
+TOTAL TAX FOR SPECIALS: 7.50%
+
+
+====================
+ADDITIONAL FEATURES:
+====================
+
+Can wield certain two-handed weapons with one hand.
+
+TOTAL TAX FOR ADDITIONAL FEATURES: 0%
+
+
+***************************************************************************
+             Taxation Summary
+***************************************************************************
+Warriors:
+    Skill Tax Total        :  5.08    
+    Combat Specials        :  7.50  
+    Additional Features    :  0.00   
+                             ----
+    Total Tax              : 12.08
+
+    Rounded Total Tax      : 13%
+
+*****************************************************************************
+
+Document by Petros, September 2008

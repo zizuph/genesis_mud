@@ -1,0 +1,95 @@
+From   : Aldinach
+Subject: Description for the Roof of the Tower
+CC     : Newton and Tharizdun
+Date   : Sun Aug 26 00:01:44 2007
+
+Hail Melkor!
+
+My greetings yet again, Lord Tainawath.
+
+I submit to you below a suggestion for the roof of
+the Tower.  This has been reviewed by the
+other Ringbearers and found suitable for your
+inspection as well.  I stand ready to assist
+further if you so desire.
+
+In eternal service of the Master,
+Thawa-Er
+
+===================
+Tower Description Below
+===================
+
+Short Description:  
+The Morgul Beastiary
+
+Long Description:
+The roof of the Tower opens to the ever black skies of Mordor.  The floor 
+upon which you stand high atop the Black Tower appears to be constructed of 
+a single sheet of black obsidian.  The minimal light that makes it through the 
+ever-present clouds swirling about the pinnacle of the Tower appears to be 
+drawn into the stone and dissipated in its inky depths. At the far end of the 
+roof several posts of the same obsidian material jut up from the stone that 
+makes up the floor.  Looking into the distance from the roof, you cannot help 
+but exalt in the power of the Dark Lord that brought this Tower into existence 
+in generations past.
+
+/* Room Items */
+
+add item: floor, stone, roof							[[ DONE ]]
+
+Upon first glance, the floor's ebony black surface appears to be completely 
+unmarred. However, upon closer inspection, fine grooves are barely perceptible 
+under the scrutiny of your gaze.  The single sheet of obsidian extends to 
+the edge of the roof where it ends suddenly in a sheer drop off to the ground 
+far below.
+
+add item: ground										[[ DONE ]]
+
+As you step fearlessly to the edge of the roof, you glance downward and see 
+only the swirling mists surrounding the Tower's lower parapets.
+
+add item: mists											[[ DONE ]]
+
+The dark mists move with the winds gusting about the Tower, but never seem 
+to thin out as they snake their way around the Tower.  The inky blackness 
+they cast is nearly suffocating, yet you feel quite comfortable as they 
+swirl violently about you.
+
+add item: parapets, lower parapets, tower, Tower		[[ DONE ]]
+
+Wall upon wall, battlement upon battlement, black, immeasurably strong, 
+mountain of iron, gate of steel, tower of adamant.  You stand upon the 
+culmination of centuries of work that only the Black Master could have 
+orchestrated.  The sense of power emanating from this perch seemingly 
+atop the world is invigorating beyond description.
+
+add item: grooves, furrows								[[ DONE ]]
+
+As you bend down to examine the grooves more carefully, you quickly conclude 
+that the furrows in the floor must have been made by the rending of the claws 
+of the Nazgul beasts that regularly alight here.
+
+add item:  post, posts, obsidian post, obsidian posts	[[ DONE ]]
+
+Upon closer inspection, it is clear that these posts are used to tether the 
+massive winged beasts of the Nazgul to the roof when not in use.  You also 
+notice several deep channels that appear to be have been dug into the floor 
+near these posts.
+
+add item: channel, shallow channels						[[ DONE ]]
+
+The black of the obsidian is tainted slightly by the copper tones of spilt 
+blood.  The troughs are clearly deep enough to keep anything from easily 
+escaping once deposited there by the mighty beasts.  Preferring a fresh meal, 
+it appears that the beasts regularly bring back whatever prey they capture 
+to the roof of the Tower to consume when not serving their Masters.  Peering 
+into the depths of the channel nearest you, you sense movement.  A childlike 
+form stirs almost imperceptibly from within.
+
+add item: form, childlike form, child, child, hobbit, elf	[[ DONE ]]
+
+From this distance, which is absolutely as close as you wish to come to the 
+disgusting mess of filth within the trough, it appears as if one of the beasts 
+has deposited a meal, perhaps a hobbit or elvish child, to be consumed when the
+urge strikes it.

@@ -1,0 +1,23 @@
+ ________________________________________________
+|                                                |
+|  o--{-----          Knives          -----}--o  |
+|                                                |
+|      Styles           8gc       Types          |
+|      ------                     -----          |
+|      blackened                  dagger         |
+|      curved                     flatknife      |
+|      folded-steel               knife          |
+|      heavy                      kukri          |
+|      light                      machete        |
+|      long                       shiv           |
+|      polished                   stiletto       |
+|      serrated                                  |
+|      shining                                   |
+|      short           <order>                   |
+|      thin               <style1>               |
+|      throwing              <style2>            |
+|      wide                      <type>          |
+|                                                |
+|                  <check type>                  |
+|  o--{-----                          -----}--o  |
+|________________________________________________|

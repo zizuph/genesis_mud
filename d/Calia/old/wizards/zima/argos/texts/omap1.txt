@@ -1,0 +1,47 @@
+RA---x    x    x    x    x    x    x    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+|      \                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+x    x   \x----x----x----x    x    x    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  \                        \            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+R   \x----x----x    x    x   \x----x....x----x....x....x ^^^^^^^^^^^^^^^^^^^
+  \              \                      ^^^^^^^^^^^^^^^  \ ^^^^^^^^^^^^^^^^^
+x   \R    x    x   \x    x    x    x    ^^^^^^^^^^^^^^^^   \x....x....x----x.
+       \              \                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+x    x   \R    x    x   \x    x    x    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            \              \            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+x    x    x   \R    x    x   \x    x    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                 \              \       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+x    x    x    x   \R    x    x   \x    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                      \              \    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+x    x    x    x    x   \R    x    x   \x    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                           \              \    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+x    x    x    x    x    x   \R    x    x   \m----m----m----m----m----m----m
+                                \           (Only BORDER paths of moors
+x    x    x    x    x    x    x   \R    x    x    x    x    x      mapped) x
+                                     \ (Road Through Moors)
+x    x    x    x    x    x    x    x   \R    x    x    x    x    x    x    x
+                                          \
+x    x    x    x    x    x    x    x    x   \R    x    x    x    x    x    x
+                                               \                  Moors
+x    x    x    x    x    x    x    x    x    x   \R    x    x    x    x    x
+ 
+x    x    x    x    x    x    x    x    x    x    x    x    x    x    x    x
+ 
+x    x    x    x    x    x    x    x    x    x    x    x    x    x    x    x
+ 
+x    x    x    x    x    x    x    x    x    x    x    x    x    x    x    x
+ 
+x    x    x    x    x    x    x    x    x    x    x    x    x    x    x    x
+ 
+   x    x    x    x    x    x    x    x    x    x    x    x    x    x
+ 
+x    x    x    x    x    x    x    x    x    x    x    x    x    x    x    m/
+                                                                         /
+x    x    x    x    x    x    x    x    x    x    x    x    x    x    m/   ^^
+                                                                         ^^^^
+x    x    x    x    x    x    x    x    x    x    x    x    x    x    x^^^^^^
+                                                                     ^^^^^^^^
+x    x    x    x    x    x    x    x    x    x    x    x    x    x ^^^^^^^^^^
+                                                                 ^^^^^^^^^^^^
+x    x    x    x    x    x    x    x    x    x    x    x    x  ^^^^^^^^^^^^^^
+ 
+x    x    x    x    x    x    x    x    x    x    x    x    x    x    x    x

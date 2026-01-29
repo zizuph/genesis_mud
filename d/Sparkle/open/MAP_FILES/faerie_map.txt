@@ -1,0 +1,485 @@
+main
+::MAPDATA::
+mtroad01 10 9 mt_north
+mtroad02 10 9 mt_north
+mtroad03 10 9 mt_north
+mtroad04 10 9 mt_north
+mtroad05 6 11 mt_north
+mtroad06 2 13 mt_north
+mtroad07 2 13 mt_north
+mtroad08 2 13 mt_north
+mtroad09 2 15 mt_north
+mtroad10 2 15 mt_north
+mtroad11 2 15 mt_north
+mtroad12 2 17 mt_north
+mtroad13 2 17 mt_north
+mtroad14 2 17 mt_north
+mtroad15 6 19 mt_north
+mtroad16 6 19 mt_south
+mtroad17 6 19 mt_south
+mtroad18 6 19 mt_south
+mtroad19 10 21 mt_south
+mtroad20 10 21 mt_south
+mtroad21 10 21 mt_south
+mtroad22 14 23 mt_south
+mtroad23 14 23 mt_south
+mtroad24 14 23 mt_south
+mtroad25 14 23 mt_south
+camp01 7 16 orc_camp
+camp02 7 16 orc_camp
+camp03 7 16 orc_camp
+camp04 7 16 orc_camp
+camp05 7 16 orc_camp
+camp06 7 16 orc_camp
+camp07 7 16 orc_camp
+camp08 7 16 orc_camp
+camp09 7 16 orc_camp
+camp10 7 16 orc_camp
+camp11 7 16 orc_camp
+camp12 7 16 orc_camp
+camp13 7 16 orc_camp
+camp14 7 19 orc_camp
+camp15 7 16 orc_camp
+camp16 7 16 orc_camp
+camp17 7 16 orc_camp
+camp18 7 16 orc_camp
+camp19 7 16 orc_camp
+camp20 7 16 orc_camp
+camp21 7 16 orc_camp
+camp22 7 16 orc_camp
+camp23 7 16 orc_camp
+camp24 7 16 orc_camp
+camp25 7 16 orc_camp
+camp26 7 16 orc_camp
+camp27 7 16 orc_camp
+path01 10 19 orc_camp
+path02 10 19 orc_camp
+path03 10 19 orc_camp
+path04 9 13 orc_camp
+twr01 7 16 orc_camp
+twr01_1 7 16 orc_camp
+twr01_2 7 16 orc_camp
+twr01_3 7 16 orc_camp
+twr02 7 16 orc_camp
+twr02_1 7 16 orc_camp
+twr02_2 7 16 orc_camp
+twr02_3 7 16 orc_camp
+twr03 7 16 orc_camp
+twr03_1 7 16 orc_camp
+twr03_2 7 16 orc_camp
+twr03_3 7 16 orc_camp
+twr04 7 16 orc_camp
+twr04_1 7 16 orc_camp
+twr04_2 7 16 orc_camp
+twr04_3 7 16 orc_camp
+twr05 7 16 orc_camp
+twr05_1 7 16 orc_camp
+twr05_2 7 16 orc_camp
+twr05_3 7 16 orc_camp
+twr06 6 7 16 orc_camp
+twr06_1 7 16 orc_camp
+twr06_2 7 16 orc_camp
+twr06_3 6 7 16 orc_camp
+twr07 7 16 orc_camp
+twr07_1 7 16 orc_camp
+twr07_2 7 16 orc_camp
+twr07_3 7 16 orc_camp
+twr08 7 16 orc_camp
+twr08_1 7 16 orc_camp
+twr08_2 7 16 orc_camp
+twr08_3 7 16 orc_camp
+undert 7 16 orc_camp
+undert01 7 16 orc_camp
+undert02 7 16 orc_camp
+undert03 7 16 orc_camp
+underttop 7 16 orc_camp
+ac_agn 30 29 green_oaks
+ac_ags 30 29 green_oaks
+ac_boardrm 30 29 green_oaks
+ac_common 30 29 green_oaks
+bank 26 25 green_oaks
+front 22 33 green_oaks
+herb_shop 34 25 green_oaks
+house03 18 29 green_oaks
+house03a 18 29 green_oaks
+lshop 18 29 green_oaks
+park01 22 27 green_oaks
+park02 22 27 green_oaks
+park03 22 27 green_oaks
+park04 22 27 green_oaks
+park05 22 27 green_oaks
+park06 22 27 green_oaks
+park07 22 27 green_oaks
+park08 22 27 green_oaks
+post 30 25 green_oaks
+pub 26 29 green_oaks
+qm_office 22 29 green_oaks
+road01 18 23 green_oaks
+road02 22 23 green_oaks
+road03 26 23 green_oaks
+road04 30 23 green_oaks
+road05 18 23 green_oaks
+road06 22 23 green_oaks
+road07 34 23 green_oaks
+road07n1 38 23 green_oaks
+road07n2 38 23 green_oaks
+road07n3 38 23 green_oaks
+road08 26 25 green_oaks
+road09 26 25 green_oaks
+road10 18 25 green_oaks
+road11 26 25 green_oaks
+road12 18 29 green_oaks
+road13 34 29 green_oaks
+road14 18 29 green_oaks
+road15 22 29 green_oaks
+road16 26 29 green_oaks
+road17 34 29 green_oaks
+road18 18 29 green_oaks
+road19 22 29 green_oaks
+road20 26 29 green_oaks
+road21 30 29 green_oaks
+road22 22 31 green_oaks
+road23 26 31 green_oaks
+shop 22 25 green_oaks
+square 22 27 green_oaks
+winery 18 27 green_oaks
+orchard01 18 23 green_oaks
+orchard02 22 23 green_oaks
+orchard03 22 23 green_oaks
+orchard04 26 23 green_oaks
+orchard05 26 23 green_oaks
+orchard06 30 23 green_oaks
+orchard07 34 23 green_oaks
+orchard08 18 23 green_oaks
+orchard09 22 23 green_oaks
+orchard10 22 23 green_oaks
+orchard11 26 23 green_oaks
+orchard12 26 23 green_oaks
+orchard13 30 21 green_oaks
+orchard14 34 21 green_oaks
+orchard15 22 21 green_oaks
+orchard16 30 21 green_oaks
+::MAPDATA::
+                  ===================
+                      Faerie and
+                   Surrounding Lands
+                  ===================
+                                    . . . . . . . . . . . .
+  -------------                     .  O                  .
+  Mountain Road                     .    \    1  2        .
+  -------------                     .      O  O  O  Piers .
+. . . . . . . . .                   .   ^   \ | /         .
+.  /\     O ->  .                   .  /|\    O - O       .
+.       /       .                   .   |     |     \     .
+.     O    /\   .                   .         O    ^  O   .
+.   /   \    /\ .                   .       /     /|\     .
+. O      O /\   .                   .     O        |      .
+. |  Orc |  /\  .                   .   /   \             .
+. O  Camp  /\   .                   . Caves   O       +   .
+. |   [ ] /\    .                   .  [ ]    |     +     .
+. O             .                   .         O - Graves  .
+.   \    \      .                   .     S   |    [ ]  + .
+.     O   O     . . . . . . . . . . . . . |   O -------   .
+. /\    \ |     .                       . | /   Central   .
+.    /\   O     . O - O - O - O - O     . O      Trade    .
+.       /\  \   . |   |   |   |   |    /.        Road     .
+.             O .-O - O - O - O - O - O .       -------   .
+. . . . . . . . . |   |   |   |   |     . . . . . . . . . .
+                . O - O - O   O   O     .
+                . |   |   |     /       . Piers                           
+ Map not to     . O   O   O - O         . -----------------------        
+ scale, and     .   \       /  ------   . 1-Faerun > Faerie >     
+ directions     .     O - O    Green    .   Pelargir Circle Line  
+ approximate    .         |     Oaks    . 2-Faerie > Sparkle Line 
+                .         O    ------   .
+                . . . . . . . . . . . . .
+::NEWMAP::
+mt_north
+::MAPDATA::
+mtroad01 18 5
+mtroad02 16 5
+mtroad03 14 7
+mtroad04 14 9
+mtroad05 14 11
+mtroad06 12 13
+mtroad07 10 13
+mtroad08 8 15
+mtroad09 6 17
+mtroad10 4 19
+mtroad11 4 21
+mtroad12 6 23
+mtroad13 6 25
+mtroad14 8 27
+mtroad15 10 27
+::MAPDATA::
+                                                                 
+                                                                 
+                  Mountain Road, North                           
+                  ====================                           
+                                                                 
+                O-O->  To  Orc Forest         ^                  
+     /\        /                             /|\                 
+    /  \      O                   ^         //|\\                
+   / ^  \/\   |          /\      /|\          |                  
+     /\ /^ \  O       /\/  \    //|\\                            
+    /  \   ^  |      /^ \/\ \     |                              
+   / ^  ^     O     /  ^/  ^ \/\                                 
+             /|    /    ^  /\/^ \                   ^            
+          O-O             /  \   \/\      /\       /|\           
+         /         ^     /  ^^   /  \  /\/  \     //|\\          
+        O    ___                  /^ \/\ \          |            
+       /    /+\_\                /  ^/  ^ \/\                    
+      O  ___      ========      /    ^  /\/^ \                   
+     /  /+\_\     Orc Camp             /  \   \/\                
+    O             ========      ^     /  ^^\  /  \               
+    |       |_|_|     ___            /      \/ ^         ^       
+    O        |_|     /+\_\         /\  ^     \          /|\      
+     \       |_|                /\/  \    ^    ^       //|\\     
+      O      |_|    ___        /^ \/\ \    ^             |       
+      |    ___     /+\_\      /  ^/  ^ \/\                       
+      O   /+\_\              /    ^  /\/^ \   /\                 
+       \                            /  \   \ /  \                
+        O-O                     /\ / ^  \   / ^  \               
+           \                                                     
+                                                                 
+::NEWMAP::
+mt_south
+::MAPDATA::
+mtroad16 12 7
+mtroad17 14 9
+mtroad18 16 11
+mtroad19 18 13
+mtroad20 20 13
+mtroad21 22 13
+mtroad22 24 15
+mtroad23 26 17
+mtroad24 28 17
+mtroad25 30 19
+::MAPDATA::
+                                                                 
+                                                                 
+                  Mountain Road, South                           
+                  ====================                           
+                                                                 
+              Orc Camp                 /\                        
+           \                 /\       /  \             ^         
+            O               /^ \/\/\ / ^  \ ^         /|\        
+             \             /  ^/  ^ \/\  ^           //|\\       
+     /\       O   Orc     /    ^  /\/^ \               |         
+    /  \       \  Camp           /  \   \/\                      
+   /    \/\     O         ^     /  ^^   /  \        ^            
+  /  /\ /  \     \   \                             /|\           
+    /  \    \  /\ O-O-O        ^                  //|\\          
+   /    \    \/  \     \      /|\                   |            
+         \/\ / ^  \     O    //|\\                               
+       /\/  \      \     \     |              ^                  
+      /^ \/\ \   ^  \     O-O                /|\                 
+     /  ^/  ^ \/\  ^         \              //|\\                
+    /    ^  /\/^ \            O               |                  
+           /  \   \/\                                            
+    ^     /  ^^   /  \                                           
+                                                                 
+                                                                 
+::NEWMAP::
+orc_camp
+::MAPDATA::
+camp01 21 12
+camp02 25 12
+camp03 33 12
+camp04 17 14
+camp05 21 14
+camp06 29 14
+camp07 33 14
+camp08 13 16
+camp09 21 16
+camp10 25 16
+camp11 33 16
+camp12 13 18
+camp13 17 18
+camp14 21 18
+camp15 25 18
+camp16 29 18
+camp17 33 18
+camp18 17 20
+camp19 21 20
+camp20 29 20
+camp21 37 20
+camp22 17 22
+camp23 25 22
+camp24 33 22
+camp25 21 24
+camp26 25 24
+camp27 29 24
+path01 29 30
+path02 29 28
+path03 25 26
+path04 17 10
+twr01 33 10
+twr01_1 33 9
+twr01_2 33 8
+twr01_3 33 7
+twr02 40 14
+twr02_1 40 13
+twr02_2 40 12
+twr02_3 40 11
+twr03 44 20
+twr03_1 44 19
+twr03_2 44 18
+twr03_3 44 17
+twr04 35 28
+twr04_1 35 27
+twr04_2 35 26
+twr04_3 35 25
+twr05 21 31
+twr05_1 21 30
+twr05_2 21 29
+twr05_3 21 28
+twr06 6 18
+twr06_1 6 17
+twr06_2 6 15
+twr06_3 6 14
+twr07 13 12
+twr07_1 13 11
+twr07_2 13 10
+twr07_3 13 9
+twr08 25 10
+twr08_1 25 9
+twr08_2 25 8
+twr08_3 25 7
+undert 25 20
+undert01 54 27
+undert02 54 26
+undert03 54 25
+underttop 54 24
+::MAPDATA::
+                                                                 
+                                                                 
+                       =================                         
+                        FAERIE ORC CAMP                          
+                       =================       /\                
+                                          /\  /^ \               
+                       |_|_|   |_|_|     / ^\/    \/\            
+                        [ ]     [ ]     /   /  /\ / ^\           
+           |_|_|        [ ]     [ ]    / ^   ^/  \    \  /\      
+            [ ]  |      [ ]     [ ]          / ^  \    \/  \     
+            [ ]  O      [ ]     [ ]   |_|_|        \/\ / ^  \    
+            [ ]    \     %       %     [ ]       /\/  \      \   
+            [ ]      O - O       O     [ ]      /^ \/\ \   ^  \  
+               %   / |     \   / |     [ ]     /  ^/  ^ \/\  ^   
+    |_|_|        O   O       O - O  %  [ ]    /    ^  /\/^ \     
+     [ ]       /       \   /     |                   /  \   /\   
+     [ ]     O       O - O       O        |_|_|     /  ^^  /  \  
+     [ ]     |     / |   | \     |         [ ]            /      
+     [ ]  %  O - O - O - O - O - O         [ ]                   
+               \     |   |     /   \       [ ]                   
+                 O - O -[ ]- O       O  %  [ ]  ------------     
+          /\     |     \ |     \   /             Tall Tower      
+     /\  /  \    O       O       O               ----------      
+    /  \/ ^  \/\   \       \   /                   |_|_|_|       
+   /  ^ \   ^/  \    O - O - O   |_|_|              [   ]        
+  /  ^   \/\/ ^  \   %   |     %  [ ]               [   ]        
+   ^ /\  /  \            O        [ ]               [   ]        
+    / ^\/ ^  \  ^  |_|_|   \      [ ]               [   ]        
+   /    \           [ ]      O    [ ]                            
+  /  ^   \          [ ]      |                                   
+                    [ ]      O                                   
+                    [ ]        \                                 
+                            Green Oaks                           
+::NEWMAP::
+green_oaks
+::MAPDATA::
+ac_agn 25 15
+ac_ags 29 19
+ac_boardrm 29 17
+ac_common 25 17
+bank 25 11
+front 21 25
+herb_shop 33 13
+house03 9 23
+house03a 5 23
+lshop 13 19
+park01 13 13
+park02 17 13
+park03 21 13
+park04 13 15
+park05 21 15
+park06 13 17 
+park07 17 17
+park08 21 17 
+post 29 11
+pub 21 21
+qm_office 17 19
+road01 13 9
+road02 21 9
+road03 25 9
+road04 29 9
+road05 13 11
+road06 17 11
+road07 33 11
+road07n1 37 9
+road07n2 41 7
+road07n3 45 5
+road08 25 13
+road09 29 13
+road10 9 15
+road11 29 15
+road12 9 17
+road13 33 17
+road14 9 19
+road15 21 19
+road16 25 19
+road17 33 19
+road18 13 21
+road19 17 21
+road20 25 21
+road21 29 21
+road22 17 23
+road23 21 23
+shop 21 11
+square 17 15
+winery 9 13
+orchard01 13 5
+orchard02 17 5
+orchard03 21 5
+orchard04 25 5
+orchard05 29 5
+orchard06 33 5
+orchard07 37 5
+orchard08 13 7
+orchard09 17 7
+orchard10 21 7
+orchard11 25 7
+orchard12 29 7
+orchard13 33 7
+orchard14 37 7
+orchard15 17 9
+orchard16 33 9
+::MAPDATA::
+[section map]
+
+                  Green Oaks              To Central
+                 ============             Trade Road
+                                              /
+      To     O - O - O - O - O - O - O       O
+    Mountain |   |   |   |   |   |   |     /
+       Road  O - O - O - O - O - O - O   O
+          \  |   |   |   |   |   |     /
+             O - O - O - O - O - O   O
+             |   | / |   |   | \ | /        Legend
+             O - O   S   B   P   O          ------
+             |                 /            A = Academy
+         W   O - O - O - O - O - H          B = Bank
+         | / | \ | / |       |              F = Fountain
+         O   O - F - O   A   O              H = Herbalist
+         |   | / | \ |     \ | \            P = Post Office
+         O   O - O - O   A - A   O          Q = Questmaster 
+         | /     |     \     |   |          S = Shop        
+         O - S   Q   O - O   A   O          U = Pub         
+           \       / |   |     /            W = Winery      
+             O - O   U   O - O           
+           /   \   /   /                
+     O - O       O - O   
+                     |
+                     O
+                     |
+                 Wild Elves

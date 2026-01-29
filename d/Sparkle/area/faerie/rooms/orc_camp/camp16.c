@@ -1,0 +1,44 @@
+/*
+ * The orc camp of Faerie
+ * By Finwe, August 2004
+ */
+
+#include "defs.h"
+
+inherit OC_BASE;
+
+string extra_line = "";
+
+void
+create_camp_room()
+{
+    setuid(); 
+    seteuid(getuid());
+
+    set_add_camp();
+    reset_room();
+    set_add_tower();
+    
+    set_short("Northeast of a tall tower");
+    add_item(({"tall tower"}),
+        "The tall tower rises in the center of the tent. It is taller than any other tower and dominates the camp.\n");
+
+    set_long(camp_desc5(extra_line));
+
+    add_exit(OC_DIR + "camp17", "east");
+    add_exit(OC_DIR + "camp15", "west");
+    add_exit(OC_DIR + "camp10", "northwest");
+
+}
+
+
+public void
+init()
+{
+    ::init();
+
+}
+void
+reset_room()
+{
+}

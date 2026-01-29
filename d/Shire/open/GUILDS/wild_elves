@@ -1,0 +1,74 @@
+Update Log:
+Messenger spell added
+  SS_FORM_CONJURATION and SS_ELEMENT_LIFE skills added.
+  Tax raised to 4%
+by Finwe, March 5 2005
+
+Added SS_HERBALISM skills. This did not raise tax.
+By Finwe, November 3, 2007
+
+-------------------------------------------------------------------------------
+The Wild Elves are a racial guild based out of Thalandrone, which is
+in Cypress, a sub domain of Shire. The guild is an old racial guild
+that was removed from the game years ago, and was commonly known then
+as the Wildrunners.
+
+A portal will be located in Faerie so that newbies have access to the
+guild. The portal will open to a clearing north of the guild. Later,
+when the entire city opens, a road will lead into the city from
+elsewhere in Cypress.
+
+The guild will have no alignment restrictions, but good aligned elves
+will be distinguished as Wildrunners whereas evil players will be known
+as Deathstalkers.
+
+As a racial guild, the Wild Elves will be able to train the following
+skills:
+
+                   untaxed       tax
+                  (max lvl)     levels    tax     formula
+
+SS_TRADING          30(50)        20      .33   (20/60)*1.0
+SS_LANGUAGE         30(40)        10      .16   (10/60)*1.0
+SS_AWARENESS        30(50)        20      .33   (20/60)*1.0
+SS_TRACKING         30(40)        10      .16   (10/60)*1.0
+SS_SNEAK            20(45)        25      .42   (15/60)*1.0
+SS_HIDE             20(45)        25      .42   (15/60)*1.0
+SS_FORM_CONJURATION 20(20)        20      .33   (20/60)*1.0
+SS_HERBALISM	    20(40)        20	  .33   (20/60)*1.0
+SS_ELEMENT_LIFE     20(20)         0
+SS_CLIMB            30(30)         0
+SS_WEP_SWORD        30(30)         0
+SS_WEP_POLEARM      30(30)         0
+SS_SWIM             30(30)         0
+               ----------------------------------------------
+                   320(290)      130     2.50%
+
+Spells
+------
+- Summon a messenger                        1%
+
+Total:                                   3.50%
+
+Tax is rounded up to 4%.
+
+
+Rooms
+--------
+There are no special rooms, such as stores or shops, available to the
+Wild Elves. Below are the rooms in the guild at
+~Shire/cypress/guilds/wrunner/rooms/:
+
+joining             join.c
+start room          start_rm.c
+training room       train.c
+discussion          board.c
+garden room         garden.c
+hallway             hall.c
+
+The forest road leading from the Cypress portal is located in
+/d/Shire/cypress/thalandrone/rooms/glen/
+
+Special Abilities
+-----------------
+They can summon a messenger for 1%

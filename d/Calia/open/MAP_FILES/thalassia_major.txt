@@ -1,0 +1,124 @@
+main
+::MAPDATA::
+brguard_s_1_1 32 31
+brguard_s_2_1 32 30
+brguard_s_3_1 32 29
+brguard_w_1_1 19 18
+brguard_w_2_1 19 17
+brguard_w_3_1 19 16
+brguard_e_1_1 45 18
+brguard_e_2_1 45 17
+brguard_e_3_1 45 16
+major1 28 35
+major2 28 33
+major3 32 35
+major4 32 33
+major5 36 35
+major6 36 33
+major7 40 33
+major8 24 33
+major9 22 31
+major10 20 29
+major11 18 27
+major12 16 25
+major13 14 23
+major14 10 20
+major15 14 20
+major16 10 18
+major17 14 18
+major18 10 16
+major19 14 16
+major20 14 13
+major21 16 11
+major22 18 9
+major23 20 7
+major24 22 5
+major25 24 3
+major26 28 1
+major27 28 3
+major28 32 1
+major29 32 3
+major30 36 1
+major31 36 3
+major32 40 3
+major33 42 5
+major34 44 7
+major35 46 9
+major36 48 11
+major37 50 13
+major38 50 16
+major39 54 16
+major40 50 18
+major41 54 18
+major42 50 20
+major43 54 20
+major44 50 23
+major45 48 25
+major46 46 27
+major47 44 29
+major48 42 31
+mural1 26 31
+mural2 24 29
+mural3 22 27
+mural4 20 25
+mural5 18 23
+mural6 18 13
+mural7 20 11
+mural8 22 9
+mural9 24 7
+mural10 26 5
+mural11 38 5
+mural12 40 7
+mural13 42 9
+mural14 44 11
+mural15 46 13
+mural16 46 23
+mural17 44 25
+mural18 42 27
+mural19 40 29
+mural20 38 31
+post 4 20
+shop 58 20
+smith 4 18
+store 62 20
+zoo1 58 18
+zoo2 62 18
+::MAPDATA::
+                        / ============= \       @~~~~~~~~~~~~~@
+                       /    o - o - o    \       ) Major Zone )
+                      /   / | x | x | \   \     (    of      (
+                     /  o - o - o - o - o  \      ) Thalassia )
+                 E  /  / \ \=== | ===/ / \  \  B  @~~~~~~~~~~~@
+                   /  o   o \  )@(  / o   o  \
+               Z  /  / \ /  / L   M \  \ / \  \  R
+                 /  o   o  /         \  o   o  \
+             N  /  / \ /  / A       U \  \ / \  \  O
+               /  o   o  /             \  o   o  \
+           O  /  / \ /  / R  _______  R \  \ / \  \  N
+             /  o   o  /    /       \    \  o   o  \
+         R  /  / \ /  / U  / Lesser  \  A \  \ / \  \  Z
+           /  o   o  /    /  Zone of  \    \  o   o  \  
+       B  /  /| |\__/ M  /  Thalassia  \  L \__/| |\  \  E
+ _______ / /  | |  ^    /               \    ^  | |  \ \ _______
+|Smithy | o - o | | |  /                 \  | | | o - o |  Zoo  |
+|       | | x | |=| |=/                   \=| |=| | x | |       |
+|   o   - o - o - | |                       | | - o - o - o - o |
+|=======| | x | |=====\                   /=====| | x | |=======|
+|   o   - o - o |      \                 /      | o - o - o -   |
+| Post  |\ \  | | __ M  \               /  L __ | |  / /| Shop  |
+|=======| \  \| |/  \    \             /    /  \| |/  / |=======|
+           \  o   o  \ U  \           /  A /  o   o  /
+       B    \  \ / \  \    \         /    /  / \ /  /  E
+             \  o   o  \ R  \_______/  R /  o   o  /
+         R    \  \ / \  \               /  / \ /  /  Z
+               \  o   o  \ A         U /  o   o  /
+           O    \  \ / \  \     ^     /  / \ /  /  N
+                 \  o   o  \ L | | M /  o   o  /
+             N    \  \ / \  \  | |  /  / \ /  /  O
+                   \  o   o /_)| |(_\ o   o  /
+               Z    \  \ / /=== | ===\ \ /  /  R
+                     \  o - o - o - o - o  /
+                 E    \   \ | x | x | /   /  B
+                       \    o - o - o    /
+                        \ ===== | ===== /
+                               )@(

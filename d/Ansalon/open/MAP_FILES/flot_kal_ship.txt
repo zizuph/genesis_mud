@@ -1,0 +1,100 @@
+main
+::MAPDATA::
+deck 55 11 flot_kal_deck
+cabin 55 11 flot_kal_cabin
+deck1 62 14 flot_mith_deck
+deck2 62 14 flot_mith_deck
+deck3 62 14 flot_mith_deck
+::MAPDATA::
+                        
+                                                                            
+      N                -=== SHIP PORTS OF ANSALON ===-     
+      ^                                         
+      |                                       _                    _____      
+   <--o-->                                  ,/ \                  /    /      
+      |                              __     |   \,    ,     ,    `\_^_\       
+      =                            _/  \  _/`    |  _/|    /|__     _ '       
+                        __      __/    / |       / /  |   /_  /    / \_       
+                        \ \    /^    [] _|      / /  /`     |/     \   \      
+             ,_          \ |  |^  Kalaman`     /_/  /       '       []Mithas  
+             | \         /^ [] ^           ^        | { }          /___/      
+             |^@\    Palanthas^      ^    ^        /'              ____       
+             | ^@\       |  ^        ^    ^   ^^  /                \  /       
+     __     /`  ^@|      | ^  []Vingaard     ^^   |          { }   /__\       
+    /^^\    \  ^@ |      | ^    Keep     ^^ ^^    |/\              `  '       
+   /^^^^\    \___/       | ^           ^^^^       '  \                      
+   \^^^^^|                \ ^      @  ^ Sanction     |           ,            
+  |\|@__/    _____,        |    ^  @   ,[],^^^       |        __/|            
+  |@_/      /     |        |   ^  @@ __|  | ^^  _  _ `\  _/\_/   |            
+  |/       /@ ^   |        |____/\__/   _/` ^^ | \/ |  []`       |            
+           |@^|\_/                     /   ^^^ |__  \ Flotsam,/| |            
+           | @|___           ____      |  ^^^   ,/   \       | | |            
+           '\_@  /          /    \     |  ^ ^   |Port []    /   \|            
+              \_/         ,/  ^  |     '\ ^  ^  Balifor\___/     '            
+                     Solace []   |   _   |^  ^    \                 
+                         / @@   /   | \  \         \               
+                     New Ports[]    |  |_|          \__     
+                        | @@@  \  ,/'           Kurinost[]            
+                       / @@@@@  \_|                 @@@@@@@\                  
+     
+
+::NEWMAP::
+flot_kal_deck
+::MAPDATA::
+deck 27 8 
+::MAPDATA::
+
+           -=     Deck of the Perechon     =-
+           -=      Flotsam - Kalaman       =-
+        
+                     ___..____..____                         
+                  __:               ==                            
+                 /     _---=---_    ====*                      
+                |     |         |      ====*_                  
+                :  ---=    d    |        =======       
+                |     |         |      ====*                  
+                 \__   ----=----    ====*                      
+                    :____..____..___==                     
+                                                           
+
+
+::NEWMAP::
+flot_kal_cabin
+::MAPDATA::
+cabin 27 8
+::MAPDATA::
+
+           -= Captain's cabin of the Perechon =-
+           -=      Flotsam - Kalaman          =-
+        
+                     ___..____..____                         
+                  __:               ==                            
+                 /     ----=----    ====*                      
+                |     |         |      ====*_                  
+                :     |    u    |        =======       
+                |     |         |      ====*                   
+                 \__   ----=----    ====*                      
+                    :____..____..___==                     
+                                                           
+
+::NEWMAP::
+flot_mith_deck
+::MAPDATA::
+deck1 30 8
+deck2 27 8
+deck3 24 8
+::MAPDATA::
+
+           -=     Deck of the Longhorn    =-
+           -=      Flotsam - Mithas       =-
+        
+                                                            Port
+                     ==============                         
+                ====== _________  ======                      =
+             ====    _/         \_     ====*                  |
+          =====     :_  o--o--o  _|      =======      Aft  <--o-->  Fore
+             ====     \_________/      ====*                  |
+                ======            ======                      =
+                     ==============                     
+                                                          Starboard
+

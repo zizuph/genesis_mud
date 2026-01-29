@@ -1,0 +1,17 @@
+A start here location for hammerhands
+
+Properties:
+hammerhand inside
+
+Items: bunks
+
+Objects:, cabinets (personal cabinets?)
+
+Actions:
+start here
+use cabinets as containers for non-armour, non-weapon items
+
+Exits: according to map
+
+Special:
+start location

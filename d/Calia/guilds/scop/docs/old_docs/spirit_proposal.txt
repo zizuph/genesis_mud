@@ -1,0 +1,219 @@
+Proposal for spells and training for the Spirit Circle of Psuchae.
+
+  This will not be a fully detailed proposal for the guild. I have
+included rough mana costs, effects and duration of the spells or
+spell components. These things will require balancing as the spells
+themselves are created and tested. I will try to give an estimation
+for each.
+
+Apprentice Level Spells:
+========================
+
+Level 1:
+Spirit Talk -      Tell line spell, can contact anyone present (and not
+                   a wizard, or invisible, or linkdead) in the realms.
+                   It will not initiate combat. It may be cast in combat.
+                   No component required. 10 mana.
+Detect Alignment - This will give an approximation of the alignment
+                   of the target. It will not start combat. It cannot
+                   be cast in combat. This will require a skull. 15 mana.
+Identify Magic -   This will give the caster information about the
+                   magical properties of an item that it is cast upon.
+                   It will not initiate combat. It cannot be cast in 
+                   combat. This will require a rib and thighbone. 15
+                   mana.
+Light -            Your standard garden variety light spell, two levels
+                   of light when it is cast and it cannot be stacked. 
+                   It will not initiate combat. It can be cast in
+                   combat. Requires a quartz. 20 mana. Duration maximum
+                   is 600.
+Synithis -         This spell will summon a familar that the guild
+                   member will be able to speak through, since guild
+                   members won't be able to talk normally at all (when
+                   they join the guild, they have their tongues 
+                   magically removed).
+                   The familiar cannot carry things, nor can it attack
+                   for the caster or take hits. It will not initiate
+                   combat. It can be cast in combat. Requires a rib and
+                   intestines. 20 mana. Lasts max 600.
+
+Level 2:
+Silence -          The target will get the LIVE_M_MOUTH_BLOCKED added
+                   to them. They will not be able to speak for a 
+                   variable duration depending on guild_stat and spell
+                   skills (between 60 and 300 seconds). This spell will
+                   not initiate combat and will be able to be cast 
+                   during battle. Requires an onyx. 25 mana. 
+Name Forget -      This spell will erase the memory of the caster's 
+                   name from the target, causing them to no longer
+                   "know" the caster and to have forgotten them. This
+                   will not initiate combat. It will not be able to be
+                   cast in combat. Requires an amber. 25 mana.
+
+Level 3:
+Peace -            This will stop the fighting in a room. If the enemies
+                   are auto-attackers (aggressive), they may re-attack
+                   immediately if they wish to do so. This spell will be
+                   able to be cast in combat (obviously) and will NOT
+                   initiate combat (obviously again). Requires a
+                   carnelian. 40 mana.
+Shadow Form -      This spell will turn the caster into a shadowy form.
+                   This form will conceal their identities (unless
+                   they introduce themselves again) until which time
+                   they either run out of mana or dispel the effects.
+                   It continuously takes mana from the player to
+                   remain in this form. Players can attack and be
+                   attacked as normal in this form (they do not get
+                   any special abilities other than emotes). This spell
+                   cannot be cast in combat and will not initiate
+                   combat. Requires a pre-made component (can only be
+                   created in the guildhome) consisting of amber and
+                   cranberry. 100 mana. Lasts until the caster runs
+                   out of mana (taking 25 mana every 100 seconds).
+
+
+Master Member Level Spells:
+===========================
+
+Level 4:
+Cure Wounds -      This will be a fairly powerful healing spell. The 
+                   amount healed will depend on guild_stat and spell
+                   skills. This spell will be able to be cast upon
+                   themselves, or others that they choose to heal 
+                   (including npcs if they so choose). It may be cast
+                   in combat. It will not initiate combat. Requires a
+                   pearl. 100 mana. Min healed is 100, max is 600.
+Neutralize Poison- This spell will attempt to cure the target of poison.
+                   The chances of being successful will depend upon the
+                   type of poison, the guild_stat of the caster and
+                   the spell skills of the caster. It will not initiate
+                   combat. It can be cast in combat. Requires a yellow
+                   topaz. 100 mana. Max strength to remove poison is
+                   200 (MIN(200, query_casting_success(caster) * 2)).
+
+Level 5:
+Shadow Eyes -      This will allow the caster to see in the dark and
+                   possibly even have the ability to see invisible
+                   people. The chances of it allowing the player to
+                   see invisible players will depend on their guildstat
+                   and spell skills. It will not initiate combat and
+                   cannot be cast in combat. Requires alexandrite. 70
+                   mana. 20% chance to see invisible. Max time is 600.
+
+Level 6:
+Soul Strike -      This spell will cause damage to the target with a maximum
+                   pen of 405 (minimum 100) unless the target is undead, then
+                   the maximum pen is 526 (30% bonus). Requires a ruby. 100 mana. 
+                   This spell is available to all level 3 Master members (guild 
+                   level 6) and higher guild members.
+Word of Recall -   This spell will be a two-part spell. A player will be
+                   able to place a marker in a place and then later be
+                   able to teleport back to that place. This spell has
+                   the most room for abuse since a player could cast the
+                   spell in a treasure room of some sort and teleport
+                   back to it at any time. I will have it check for the
+                   ROOM_M_NO_TELEPORT and ROOM_M_NO_TELEPORT_TO 
+                   properties. I will also keep a log of rooms that they
+                   teleport to and any that I find to be being abused, 
+                   I will report to the appropriate domains so that the
+                   property can be added to that room. This spell will
+                   not initiate attack and cannot be cast during combat.
+                   Requires a pre-made component (can only be made in the
+                   guildhome) consisting of chalcedony and breadroot. 
+                   100 mana. NOTE: This spell requires the component for
+                   both the marking and teleporting phase. The player 
+                   can also specify 'temple' as a target. If they do this,
+                   they will be transported to the garden outside of their
+                   guild home.        
+ 
+Level 7:
+True Identity -    This will reveal the name of the target. It will only
+                   work on other players, NOT npcs. This spell will then
+                   allow the caster to remember that player as if they
+                   had been introduced to them (if they have enough slots
+                   in their memory to do so). The caster will have to
+                   manually remember the target. This spell will not
+                   start combat and cannot be cast during combat.
+                   Requires an amber. 100 mana.
+
+
+Elder Level Spells:
+===================
+
+Level 8:
+Convert Weapon -   This will turn the target of the spell (a weapon) 
+                   into a staff (club with bludgeoning damage) with
+                   75% of the original hit and pen of the weapon.
+                   The weapon cannot be sold, nor will it save past
+                   armageddon. It can still break like regular weapons.
+                   This spell will not initiate combat and cannot be
+                   used during combat. Requires a pre-made component (can
+                   only be made in the guildhome) consisting of red
+                   spinel and sargassum. 200 mana.
+Energy Drain -     This spell will drain hit points (life force) from
+                   an enemy and transfer a portion of them back to 
+                   the caster. The amount drained and the amount 
+                   returned back to the caster will be determined by
+                   guildstat, spell skills and target resistance. This
+                   will initiate combat and can be cast during combat.
+                   Requires a pre-made component (can only be made in
+                   the guildhome) consisting of sapphire and sea bubble.
+                   175 mana. Max drain is 20% of the target's HPs, 50% 
+                   of that amount are given back to the caster.
+
+Skill Training:
+===============
+Occupational Skills:
+Spirit Spells:   100
+Spellcraft:       80 
+Divination:       60
+Transmutation     60
+Enchantment       60     Occ total: 560 total (out of 700)
+Herbalism         70                550 above Adv. Guilds (out of 550)
+Defence           60 *      
+Club              70 *     * - considered an alien skill 
+
+Layman Skills:
+Conjuration:      60
+Awareness         60
+Trading           60     Lay total: 470 total (out of 500)
+Parry             50 *              350 above Adv. Guilds (out of 350)
+Location Sense:   60
+Appraise Object:  60        * - considered an alien skill
+Appraise Value:   60
+Alchemy:          60
+
+
+
+
+   Members will have to divine for their spells upon login, they will not 
+automatically have them all. Depending on their stature (level) in the 
+guild, they will be restricted to the number of spells they can have as well. 
+Only someone of the highest rank in the guild will be able to have all of the 
+spells.  
+
+   The guild members will not be allowed to drink alcohol at all. If 
+they do, their spells won't work. The players will have their tongues
+removed magically to join the guild (the ultimate vow of silence), 
+meaning they will not be able to speak (say, shout, ponder, think,
+rsay, no type of speech whatsoever) except through the use of
+a summoned familiar (each time they speak through it, they will 
+take damage and use mana). A note on the speaking restriction, I am adding 
+the ability to speak through either a familiar simply because there are 
+many quests, shopkeepers, etc... that have been coded where one has to be 
+able to speak, thus making it impossible for a member to do these things. 
+When they do speak, they will take considerable damage and
+pay alot of mana to do so (25 mana and 25 HPs each time they speak 
+through the familiar). The members will have a telepathic speech that
+they can use on each other without penalty, but nobody else in the room
+(except wizards and other guild members) will see it.
+
+   The guild house (a temple) will have a post office, storage room for
+weapons and armours (rack, will not save over armageddon), a library, a
+refectory (place to eat and drink), a components room , and
+various other rooms.
+
+   This will guild will take both the players occupational and layman 
+guild slots. It will require total dedication to worship Psuchae, not 
+to mention it would be very difficult to function in any other guild
+with no tongue (no ability to speak). 

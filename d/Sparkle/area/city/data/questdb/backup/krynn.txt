@@ -1,0 +1,69 @@
+domain,quest desc,group,bit,validation,arguments
+Krynn,Tour - Adv Guild in Solace,4,19,reverse_sequential,0,0,5,1
+Krynn,Tour - Tantallon Trinkets,4,19,reverse_sequential,0,0,5,2
+Krynn,Tour - Drakmar Dragonbane Grave,4,19,reverse_sequential,0,0,5,3
+Krynn,Tour - Palanthas Lighthouse,4,19,reverse_sequential,0,0,5,4
+Krynn,Tour - Newports Delivery Office,4,19,reverse_sequential,0,0,5,5
+Krynn,Tour - Vingaard Keep Courtyard,4,19,reverse_sequential,0,0,5,6
+Krynn,Tour - Flotsam Tavern,4,19,reverse_sequential,0,0,5,7
+Krynn,Tour - Haven Seeker Temple,4,19,reverse_sequential,0,0,5,8
+Krynn,Minor - Pick Apple,4,19,reverse_sequential,0,6,12,1
+Krynn,Minor - Tantallon Beers,4,19,reverse_sequential,0,6,12,2
+Krynn,Minor - LifeQuest of Brimsch,4,19,reverse_sequential,0,6,12,3
+Krynn,Minor - Questmaster's Glasses,4,19,reverse_sequential,0,6,12,4
+Krynn,Major - Free Salamic,4,19,reverse_sequential,0,13,19,2
+Krynn,OCC Solamnic Knight,1,0,always_false,1,0
+Krynn,Knighthood Banish,1,1,always_false,1,1
+Krynn,Layman Knight,1,2,always_false,1,2
+Krynn,Black Knight,1,3,always_false,1,3
+Krynn,Squire,1,4,always_false,1,4
+Krynn,Sword Member,1,5,always_false,1,5
+Krynn,Knight Guru Quest,1,6,is_knight
+Krynn,Was Sick,1,7,always_false,1,7
+Krynn,Immune Sick,1,8,always_false,1,8
+Krynn,Sword Quest,1,9,always_false,1,9
+Krynn,Rose Quest,1,10,always_false,1,10
+Krynn,Thief Membership 1,1,11,always_false,1,11
+Krynn,Thief Membership 2,1,12,always_false,1,12
+Krynn,Thief Entrance Quest,1,13,default
+Krynn,Gnome Entrance Quest,1,14,default
+Krynn,Gnome Membership 2,1,15,always_false,1,15
+Krynn,Schorsch Board Quest,1,16,default
+Krynn,Haven Seeker Chalice,1,17,default
+Krynn,Help Refugees,1,18,default
+Krynn,Qualinesti Lost Scout,1,19,default
+Krynn,Crypt Quest,2,0,default
+Krynn,Chicken Ingredient Quest,2,1,default
+Krynn,Black Dragon Quest,2,2,default
+Krynn,Pax Tharkas Prisoner Quest,2,3,default
+Krynn,Dragon Lair Quest,2,4,always_false,2,4
+Krynn,Kitiara's Ring Quest,2,5,always_false,2,5
+Krynn,Identify Draconians,2,6,default
+Krynn,Palanthas Hop and Malt,2,7,sequential_bits,2,7,9,1
+Krynn,Palanthas Peat,2,8,sequential_bits,2,7,9,2
+Krynn,Palanthas Authorization Form,2,9,sequential_bits,2,7,9,3
+Krynn,Free Gunthar,2,10,default
+Krynn,Griffon Quest,2,11,default
+Krynn,Dwarfgate Quest,2,12,default
+Krynn,Dragonlance Quest,2,13,default
+Krynn,Bear Quest,2,17,default
+Krynn,Furnace Quest,2,18,default
+Krynn,Kender Quest,2,19,default
+Krynn,Gnome Explosive Device,3,0,default
+Krynn,Knight Museum Tour,3,2,default
+Krynn,Knights Spur Wood,3,3,default
+Krynn,Question Draconian,3,4,default
+Krynn,Free Draconian,3,5,default
+Krynn,WoHS Membership 1,3,6,always_false,3,6
+Krynn,WoHS Membership 2,3,7,always_false,3,7
+Krynn,WoHS Membership 3,3,8,always_false,3,8
+Krynn,Bless Frozen Corpse,3,9,default
+Krynn,Thanoi Wine,3,10,default
+Krynn,Imprisoned Griffon,3,11,default
+Krynn,Unopen Quest,3,12,always_false,3,12
+Krynn,Puzzle Quest,3,15,false_unless_done
+Krynn,Cleanse Solace Fountain,3,16,clean_fountain
+Krynn,Dirty Solace Fountain,3,17,false_unless_done
+Krynn,Recover Toron Standard,3,18,default
+Krynn,Vault Explore,4,0,default
+Krynn,Vingaard Mountain Top Explore,4,1,default

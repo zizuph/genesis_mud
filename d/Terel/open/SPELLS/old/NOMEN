@@ -1,0 +1,7 @@
+Name:		Nomen
+Object:		/d/Terel/mecien/valley/guild/spells/nomen.c
+Cost:		30 mana, no components
+Skills:		Spellcraft, Divination
+Description:	Reveals the name of a character the caster hasn't met
+Requirements:	Wis > 40
+

@@ -1,0 +1,56 @@
+
+Cold effects in Terel defines few constants:
+"_obj_i_cold_weather_protects"
+"_player_i_cold"
+"_room_i_terel_cold"
+Those were defined in /d/Terel/include/Terel.h file, do not
+define them if you include that file.
+
+
+To make cold protecting item:
+	Simply add "_obj_i_cold_weather_protects" to it.
+Seting it with postivie value will make item protect
+player wearing it from cold in Terel. Notes:
+
+- Only specialy designed items in Terel domain have
+this prop set with number above 1, warm clothes should
+have it set to 1, magical items, or something like that
+can have it set to 2. Generally if you want to make it
+higher then 1 contact me first.
+
+- It can be set with negative value, then item will
+make player get cold faster. I assume it could
+fit the theme for some magic items. Please
+contact me before you add something like that.
+//
+
+To make item interacting with cold directly:
+	You need to modify "_player_i_cold" prop
+on player. Notes:
+
+- You have to handle all descriptions yourself.
+
+- Use reasonable values here. Max value of that
+prop is 1500 (nothing wrong will happen if it exeed this).
+And while in the forest it raises by 5-10 points every
+10 seconds or so.
+//
+
+
+To make cold rooom outside Terel:
+	Seting "_room_i_terel_cold" prop in a room
+will NOT make it a cold room. It will only cause players
+with "_player_i_cold" above zero keep geting colder in
+that room. It's not possible to create such room without
+inheriting Terel files by now. Please contact Liege of
+Terel if you desire to do so.
+
+
+
+WARNING:
+  As much as I'd like as many possible items around the
+Realms to interact with Terel cold effect I will block
+manually any item that does it in manner I don't
+approve. Contact me if you have any doubts.
+
+ Udana

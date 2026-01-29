@@ -1,0 +1,43 @@
+
+
+The Mercenaries 
+
+Mirandus:
+The idea was to give players an opportunity to have a mercenary that can assist them. Especially if smaller, in xping or exploring areas. They act as mules as well and can
+carry items.  A "companion" like in Diablo 3, I suppose.  I could make them not be able to assist in attacks on players, only NPCs.  I'm not sure if they will be "must haves" or not. Idea
+came from players double logging so they could have a teammate.  When I brought it up initially with Gorboth, he liked the idea. It's why I moved forward.  If they do become a "must-have" it
+will create a money sink. But I'm not sure what the role they will play in game will be until we can test it with actual players.
+
+Duration:
+Mirandus tells you: Right now, until they die or you dismiss them.
+
+-
+
+From a balance point of view this essentially becomes combat aid for money. 
+For the game this is likely to have the effect of being a required purchase for players. There is a large risk that
+smaller players will not be able to sustain having a mercenary active.
+
+Maintenance Cost
+ - I think there should be a fee charged by the mercenary for the time it is active. This fee can then be used to lower the cost of
+   mercenaries for casuals players who can't play for long durations.
+   
+Armageddon / Logout
+ - Handling of Armageddon / Logout must be added. 
+   Players will be very unhappy if they lose a 1000 platinum purchase from an maintenance armageddon.
+   (Can be done with an autoloading object which summons the mercenary again)
+
+Mercenary Power
+  - Add some unarmed skill
+   
+Code Style
+ - man code_standards
+   Gorboth gets really unhappy if you don't follow that   
+ - There is alot of code duplication. You'll be fixing the same bugs in 4 different files.
+   Implement a base mercenary file which is inherited by the 4 levels.
+ - Create a .h file (defs.h perhaps) containing paths and values we will be changing
+   for example the costs.
+ - Why are the defining custom attacks / hitlocs which are the same for ordinary humanoids?
+ - Why LIVE_I_NO_CORPSE?
+ - It needs to check if it's possible to teleport to a room before it teleports to the player.
+ 
+

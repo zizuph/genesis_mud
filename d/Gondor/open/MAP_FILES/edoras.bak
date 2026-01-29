@@ -1,0 +1,195 @@
+main
+::MAPDATA::
+armoury 40 11 city
+basement 40 11 city
+basement2 40 11 city
+bhallway 40 11 city
+bhallway2 40 11 city
+boffice2 40 11 city
+by_stream 39 10 city
+city_entr 40 10 city
+edbank 40 11 city
+edlibrary 40 11 city
+edtransport 40 11 city
+field 40 11 city
+garden 40 11 city
+gat_stairs 40 11 guardrooms
+gate 40 11 city
+graves 40 10 city
+graves_e 39 10 city
+graves_w 41 10 city
+guard_e 40 11 guardrooms
+guard_w 40 11 guardrooms
+guild 40 11 city
+hall 40 11 city
+hotelr 40 11 city
+in_well 40 11 city
+in_well2 40 11 city
+in_well3 40 11 city
+ingate 40 11 city
+lawn 40 11 city
+lookout 40 11 guardrooms
+p_office 40 11 city
+path1 40 11 city
+path2 40 11 city
+path3 40 11 city
+path4 40 11 city
+path5 40 11 city
+path6 40 11 city
+path7 40 11 city
+path8 40 11 city
+pspub 40 11 city
+shop 40 11 city
+sleep1 40 11 city
+sleep2 40 11 city
+square1 40 11 city
+square2 40 11 city
+stable 40 11 city
+stairs1 40 11 city
+stairs2 40 11 city
+stairs3 40 11 city
+stallion 40 11 city
+temple 40 11 city
+trainhall 40 11 city
+under_wall 40 11 city
+well 40 11 city
+::MAPDATA::
+  \                     /   \   \/ \                                  ~~~~
+   \                    ISENGARD \  \                                ~~~~
+    -----------------------O       Fangorn Forest                   ~~~~
+                       ~~~~ \                                      ~~~~
+                   ~~~~~     \                ~                   ~~~~
+              ~~~~~~          \                ~                 ~~~~
+        ~~~~~~~                \   West Emnet   ~               ~~~~
+~~~~~~~~~                Helms o\                ~~~~         ~~~~
+                         Deep    \                   ~       ~~~~
+                                  \-----+------       ~~~~~~~~~~~~
+                                        |      \            ~~~~~
+                         +-----+        O       \             ~~~~~       Nort
+                         |ROHAN|      EDORAS     \              ~~~~~     Ithi
+                         +-----+                  \              ~~~~~
+                                                   --------\      ~~~~~
+                                                      MINAS \      ~~~~~
+                                  White Mountains     TIRITH \  OSGILIATH
+                                                           O-+----O=====------
+                                              +------+       |   / ~~~~~
+                                              |GONDOR|       |  / ~~~~~
+                                              +------+       | / ~~~~~     Sou
+::NEWMAP::
+city
+::MAPDATA::
+armoury 62 26
+basement 1 27
+basement2 1 25
+bhallway 74 24
+bhallway2 78 24
+boffice2 70 24
+by_stream 1 21
+city_entr 36 3
+edbank 32 20
+edlibrary 28 24
+edtransport 1 26
+field 74 26
+garden 24 37
+gate 36 7
+graves 36 1
+graves_e 40 1
+graves_w 32 1
+guild 6 26
+hall 48 26
+hotelr 40 20
+in_well 36 43
+in_well2 36 43
+in_well3 36 43
+ingate 36 9
+lawn 36 26
+p_office 32 13
+path1 70 26
+path2 2 26
+path3 36 38
+path4 58 26
+path5 14 26
+path6 36 34
+path7 44 26
+path8 32 24
+pspub 40 13
+shop 10 26
+sleep1 78 22
+sleep2 78 26
+square1 36 15
+square2 36 22
+stable 74 28
+stairs1 36 13
+stairs2 36 20
+stairs3 36 24
+stallion 40 20
+temple 36 36
+trainhall 6 27
+under_wall 2 22
+well 36 43
+::MAPDATA::
+                                    |
+                                o - o - o
+                                    |
+                                    o
+                                  .'|             North
+                                .'=:::====.         Wall
+                              .'=== | ===='==================.
+                            .'='o - o - o   `=================`=============.
+                          .' ='=    |                         `===============`
+                        .'   .=     o
+                      .'   .==    .'|`.
+                    .'   ='=    .'  |  `.
+                  .'   .==    .'    |    `.
+                .'   .==    .'  o - o - o  `.
+              .'  .='=    .'  Post  |  Pub   `.
+            .'  ='=     .' Office   o          `.
+          .'  .==     .'          .'|`.          `.
+        .'  .==     .'          .'  |  `.          `.
+      .'   ==     .'          .'    |    `.          `.
+    .'  .='=    .'          .'      |      `.          `.
+  .'  ='=     .'          .'    o - o - o    `.          `.
+ o  .==     .'          .'    Bank  |   Inn    `.          `.
+==='=     .'          .'            o            `.          `.  Marshall's   o
+===     .'          .'            .'|`.            `.          `. Barracks    |
+      .' General  .'        o - o'  o  `.            `.          `.   o - o : o
+    .'    Store .'     Library      |    `.            `.          `.     :   |
+ oo'- o   o - o'                    o      `o - o        `o - o      `o - o   o
+   `. o        `.                   |      :            .' Armoury  .'    |    
+ Adv. `.          `.                o     :            :          .'      o    
+  Guild  `.          `.         Meduseld :           .'         .'    Stables
+            `.          `.              :           :         .'
+               `.          `.          :          .'        .'
+                  `.          `.      :         .'        .'
+                     `.          `.  :        .'        .'
+                        `.          o       .'        .'
+                           `.             .'        .'
+                              `.    o   .'        .'        =================
+                        o        `. | .'        .'           The City Bounds
+                         `.         o'        .'                 of Edoras
+                           `.               .'              =================
+                             `.           .'
+                               `.       .'
+                                 `.   .'
+                                   `o'
+::NEWMAP::
+guardrooms
+::MAPDATA::
+gat_stairs 35 5
+guard_w 25 10
+guard_e 45 10
+lookout 35 1
+::MAPDATA::
+                                lookout
+                                   o
+                                  :=:
+                                  :=:
+                                  :=:
+                                   o   landing
+                          :=:=:=:=: :=:=:=:=:  
+                        :=:                 :=:
+                        :=:        |        :=:
+                        :=:        |        :=:
+                  west   o - - - - o - - - - o   east
+              guard room           |           guard room
+                                   |

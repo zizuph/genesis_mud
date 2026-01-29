@@ -1,0 +1,27 @@
+C. Code Requirements:
+^^^^^^^^^^^^^^^^^^^^^^^
+As Lord of Ansalon, it is my job to be sure that all code implemented in the
+domain meets the regulations and standards set by the Administration. In
+an effort to make reviewing code easier for me, and to maintain and hope-
+fully improve the balance and quality of code in Ansalon, everyone is asked
+to follow the rules outlined below:
+
+1) Though it may not seem important to you, it is vital that everyone in
+   the Domain, including you, is able to _read_and_understand_ the code you
+   have written. Months after code has been completed, anyone should be able
+   to review it and understand what it was that you did, and why. Changes to
+   to the gamedriver, standard inherits, etc can require changes in Domain
+   files; thus the insistance on clear, readable, documented code.
+
+2) It is not required that you to fully document everything you code, but
+   explanations of difficult/novel functions are highly recommended.
+
+3) Put /* <your name> and <date> */ in all files that you create. This gives
+   you the satisfaction of having made your mark, while at the same time
+   showing who created what later on. The date of the most recent update/
+   modification is recommended, but not mandatory.
+
+4) Finally: Do not open a newly coded area to mortals unless I have reviewed
+   and approved it. Keep me up-to-date with new additions/modifications to
+   your area once it is open, so I won't have to break out my always useful
+   demoting-machine.  :-)

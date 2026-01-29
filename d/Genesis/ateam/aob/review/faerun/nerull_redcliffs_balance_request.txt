@@ -1,0 +1,112 @@
+
+>>> /d/Faerun/red_cliffs/npcs/damon_sull.c
+
+The long description doesn't really portray the epicness
+of the battle this would be for the player. A 30,000 hitpoint
+boss is incredible... the description should at least convey
+the level of challenge.
+ 
+line 85:  typo... 'site' should be 'sight'
+line 09:  typo... 'ends' should be 'end'
+
+line 107: set_attacked_unarmed for teeth have a hit and pen of 0;
+
+Some issues with how you have set up the construct's attacks:
+
+The massive steel construct cuts your body with its mind.
+The massive steel construct rakes your body with its mind.
+
+  Attack               wchit  impale/slash/bludg  wcskill     %use 
+mind:                    0     0    no    no        100        0
+mind:                    55    no    55    no       100        30
+mind:                    55    no    55    no       100        30
+right elbow:             34    no    no    40       106        13
+left fist:               34    no    no    40       106        13
+joined hands:            0     no    no    0        106        0
+right foot:              34    no    no    40       100        12
+left foot:               34    no    no    40       100        25
+
+line 120: typo 'fasion' should be 'fashion'. Note that this golem doesn't 
+have hands but claws?
+
+lines 125-130: the cacts don't really reflect the sort of emotes you'd
+expect from a mechanical construct. Consider revising.
+
+line 134: set_exp_factor((100) * (1 + DAMON_MINIMUM_TEAMSIZE));
+So an exp factor of 300%... Exp at kill: 82167 at 100%
+
+lines 157-170: you have two functions that do the same thing... arm_me and
+spawn_chest... doesn't look like you use the former so can you delete this
+function?
+
+lines 231-234: I don't understand the logic behind the construct self
+healing when the team leader isn't in the room... can this be 
+explained? 
+
+What is the reasoning behind limiting the content to myths only?
+The way the challenge looks from the code is that it is hard coded
+so that only myths can do it, not because it is too difficult for
+non-myths to do it?  I like the idea of team content... but i'd rather
+it force teaming through the challenge rather than hard coding team
+limits?
+
+lines 318-321: Again, this messaging doesn't make me think 'golem' or
+'construct'... cackling seems out of place. Can we change the messaging
+so that it better reflects that this creature is an animaton?
+
+line 337:  Carnak - is this hit_me ok?
+
+
+>>> /d/Faerun/red_cliffs/obj/loot_chest.c
+A lot of duplicated functions that you don't really need for the chest.
+Seems to result in random bugs... like double description of the 
+chest being closed:
+
+An old batter chest made of wood.
+The chest is closed.
+It is closed.
+
+set_pick(random(40))... for a chest holding epic or legendary items,
+this chest is remarkably easy to pick. I think this chest needs to be
+unpickable.
+
+For gem spawns can we use the random functions defined in 
+/d/Genesis/gems/gem.h e.g. RANDOM_GEM_BY_RARITY(GEM_EXTREMELY_RARE)
+
+
+>>> /d/Faerun/red_cliffs/rooms/islands/isl04_01
+
+Magic mapping needs to be added to all rooms.
+
+The rooms around this island provide no indication that there is an
+island a room away. Can that be tidied up? Haven't checked the rest of
+the sea yet but it is something that needs to be included for all islands.
+
+>>> /d/Faerun/red_cliffs/drop_loot_dir/e_3_2*
+As default drops, these are ok rewards for the challenge noting that 
+while they are magical they are two-handed with reasonable hit/pen with
+a nice speed buff.  If they become too common we may need to think about
+reducing the speed bonus... but otherwise I am fine with it.
+
+For the epic weapons i'd like a bit of variability across hit, pen and
+quickness... be creative, so for example with the two-handed sword 
+something like a = random(6), hit = 50 + a; pen = 50 - a; 
+quickness = 40 + (a * 2).
+
+I note there is no knife or bow in the mix. Can we add those as possible
+epic/legendary spawns? And if a bow spawns, maybe some top quality arrows 
+in a quiver... they don't exist in the game currently. Good opportunity 
+to include.
+
+>>> /d/Faerun/red_cliffs/drop_loot_dir/l_3_*
+
+The hit/pen values of these legendary weapons exceed the maximum allowable
+for one-handed weapons. See 'man weapon'. Either reduce to 50/50 or 
+make two-handed.
+
+*** Carnak can you check these weapons  special attacks? How reasonable 
+are they?
+
+I am not keen on weapons that have the cap hit/pen that have a special
+attack also be unbreakable / uncorrodeable. I think if it is a weapon
+with a 'special' like quickness or damage it should dull.

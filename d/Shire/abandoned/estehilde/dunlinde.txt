@@ -1,0 +1,55 @@
+                    The Dunlinde, Singers of the West
+
+
+Proposed Skills
+
+Skill               Lvl               Base       Txbl     Mod     Tax
+
+Spellcraft           80                 20         65      x1    1.09
+Abjuration Spells    50                 20         30      x.5   0.25
+Conjuration Spells   50                 20         30      x.5   0.25
+Divination Spells    50                 20         30      x.5   0.25
+Life Spells          80                 20         60      x.5   0.50 
+Earth Spells         50                 20         30      x.5   0.25
+Air Spells           50                 20         30      x.5   0.25
+
+Language             50                 20         40      x1    0.66
+Awareness            65                 20         55      x1    0.41
+Herbalism            60                 30         30      x1    0.50
+
+Defence              65                 20         50      x2    0.82
+
+
+Total               700                330        400
+Skills - Base Skills = 370                                       6.00
+
+
+NOTE:     NO specials and NO weapon skills.
+
+
+Proposed Spells
+
+Abjuration spells
+
+Fortitude of Tulkas  Orethalion Tulkas   (speeds healing/regeneration)          Life
+Slow Poison          Dardae Este         (slow/weaken the present poison)       Life
+Endurance of Oromë   Hroathalion Orome   (player resists fatigue for duration)  Life
+Mend bones           Remaisg Yavanna     (fixes broken bones etc)               Life
+Resist Terror        Avarosse Tulkas     (team resists panic/fear)              Life
+Song of Yavanna      Yavannacanwa        (spell for creating lembas)            Earth
+Lift Curse           Korumarth Manwe     (removes curse from target)            Life
+
+Conjuration spells
+Sanctuary            Laureaband Aule     (paralyses and protects the target)    Earth
+Mana Shield          Sulramba Manwe      (uses healer's mana as hit points)     Air
+Shield of Elbereth   Avarigurth Elbereth (prot from death spells/undead)        Life
+Manwe's whisper      Sulbethrim Manwe    (tell line between caster and target   Air
+                                              for duration)
+Elbereth's radiance  ElenCal Elbereth    (light spell)                          Air
+
+Divination spells
+
+Diagnose Character   Tircoi Nienna       (diagnosis of a player's injuries)     Life
+Detect Evil          Hirdae Elbereth     (detects any visible evils)            Life
+Eyes of Manwe        Hirdolen Manwe      (see any invisible mortals)            Air
+Dunlinde List        Palanser Manwe      (online members list)                  Air

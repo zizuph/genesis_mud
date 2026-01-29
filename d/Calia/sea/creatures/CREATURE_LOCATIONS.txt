@@ -1,0 +1,70 @@
+
+The following sea creatures are in the sea area to start:
+
+8 gulls (2 in each room)
+sector_1_0_0/wr_12_4_0
+sector_0_0_0/wr_3_4_0
+sector_1_1_0/wr_12_14_0
+sector_0_1_0/wr_3_14_0
+
+1 shark
+sector_1_1_4/wr_12_14_4
+
+1 demon toad
+sector_1_1_4/wr_8_14_4
+
+2 barracudas
+sector_1_1_2/wr_15_9_2
+sector_0_0_3/wr_5_6_3
+
+4 dolphins
+sector_0_0_4/wr_6_1_4
+sector_1_0_3/wr_15_3_3
+sector_1_1_2/wr_13_14_2
+sector_0_1_3/wr_6_15_3
+
+4 eels
+sector_0_0_3/wr_5_1_3
+sector_1_0_4/wr_9_3_4
+sector_1_1_1/wr_14_10_1
+sector_0_1_4/wr_7_11_4
+
+2 manta rays (mray)
+sector_1_1_4/wr_13_13_4
+sector_0_1_3/wr_7_9_3
+
+2 stingrays (sray)
+sector_0_0_4/wr_7_2_4
+sector_1_0_4/wr_8_0_4
+
+2 mermaids (s_mermaid)
+sector_1_1_4/wr_8_13_4
+sector_0_0_3/wr_7_0_3
+
+2 tritons (s_triton)
+sector_1_1_4/wr_8_13_4
+sector_0_0_3/wr_7_0_3
+
+2 warhorses
+sector_1_1_4/wr_8_13_4
+sector_0_0_3/wr_7_0_3
+
+3 seasnakes
+sector_0_1_2/wr_4_13_2
+sector_0_0_3/wr_5_5_3
+sector_1_0_1/wr_12_2_1
+
+9 angel fish - 3 in each room (fish)
+sector_0_1_2/wr_5_10_2
+sector_1_1_3/wr_15_9_3
+sector_1_1_2/wr_9_9_2
+
+9 goldfish - 3 in each room
+sector_1_1_4/wr_10_10_4
+sector_0_0_4/wr_6_6_4
+sector_1_0_2/wr_8_3_2
+
+2 bluefrogs
+sector_0_0_0/wr_6_3_0
+sector_0_0_0/wr_3_3_0
+

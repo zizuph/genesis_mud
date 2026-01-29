@@ -1,0 +1,425 @@
+             DOCUMENTATION FOR THE ABILITIES AND LIMITATIONS
+                      OF THE KNIGHTS OF SOLAMNIA
+           FOR THE PURPOSE OF DETERMINING BALANCE AND TAXATION
+
+
+  * Relevant Files/functions listed below each item where necessary.
+
+Guild Overview and Purpose (Taken from original draft proposal)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Knights of Solamnian are an occupational fighting guild based
+on the Knights of the same title in a series of books by Margaret
+Weis and Tracy Hickman (the Dragonlance series).
+
+The original version of the Knights of Solamnia is the first, and
+thus oldest guild in the LPMud world. It has been modified and
+recoded over time into the version it is today.
+
+Knights are forced to maintain a good alignment, and are also
+punished severely for killing good creatures or those that have
+a negative prestige set to them.
+
+The Knights have a guildhall, Vingaard Keep, which provides both
+Knight only and public facilities for players of all types.
+
+Players who betray the Knights become Knights of the Black Rose and
+face severe penalties.
+
+Leaving the guild causes the player to face a death.
+
+JOINING
+=======================
+The guild has the entrance requirements of:
+- Human, dwarf, or half-elf race.
+- Trustworthy in alignment.
+- Acceptance by a Knightly council, a sponsor, and a Conclave member.
+
+The player starts out as a Squire of Solamnia, and through tasks
+and the gaining of prestige via combat, can eventually become
+a Knight of the Crown. Once becoming a Knight of the Crown, the
+player can further advance within the Knights into the Orders of
+the Sword and Rose.
+
+ACCEPTED LAYMAN GUILDS
+========================
+Because the Knights of Solamnia are heavily roleplay based, it is
+imperative that the layman options for the guild are carefully
+controlled. In the past, this has been done by code restrictions
+in the shadow. However, during this recode, it was decided that the
+options for laymans would be placed solely in the hands of the
+Conclave. Three new commands have been added to the conclave object:
+claylist, clayapprove, clayreject. These commands allow them to
+approve and reject layman guilds that are acceptable for other
+Knights to join.
+
+TRAINING
+=======================
+Knights are skilled in many forms of martial combat, and thus their
+skills are generally geared towards being able to hold their own in
+almost any situation. Within each order, there are different levels
+that one can train themselves to. This is just one way that the
+different Orders differentiate themselves from each other.
+
+KNIGHT ABILITIES
+================
+Being a Knight comes with certain benefits. Some of these benefits
+are granted only by the Order that one belongs to. All the abilities
+are listed in this section.
+
+Cavalry and Mounted Combat
+--------------------------
+Every full Knight of Solamnia can choose their warhorse from the
+stables and can thus fight mounted. Fighting while mounted increases
+the effectiveness of their specials, while also granting them a bonus
+to their defence depending on their training in mounted combat.
+A mounted Knight can also charge his opponents. This will be discussed
+in the combat specials section below.
+
+Kattack [File: /d/Krynn/guilds/knights/specials/kattack.c]
+-------
+A Knight is able to use any weapon and attack his opponents using his
+training. This is evident in the special way in which they counter
+opponents in battle. This damage special will be described in further
+detail later.
+
+Summon and Dismiss Warhorse [File: /d/Krynn/guilds/knights/specials/ksummon.c]
+--------------------------- [File: /d/Krynn/guilds/knights/specials/kdismiss.c]
+A warhorse can be summoned and dismissed on command. This allows them
+to keep their warhorses safe while away.
+
+Maneuver [File: /d/Krynn/guilds/knights/specials/maneuver.c]
+--------
+A Knight is able to maneuver his warhorse out of the way of attackers,
+and focus the enemy attacks upon himself. The ability works much like
+rescue. This is especially necessary since a Knight cannot rescue
+his own mount.
+
+Observe [File: /d/Krynn/guilds/knights/specials/observe.c]
+-------
+A Knight is able to carefully observe his opponents to see who may
+be leading the team. This ability allows them to target the leader
+and may thus help to divide up an opponent's team.
+
+Consider [File: /d/Krynn/guilds/knights/specials/consider.c]
+--------
+A Knight has the ability to consider himself to see how far he is
+from advancing to the next rank. This ability also allows him to 
+consider whether slaying his opponents would be pleasing in the sight
+of the Knighthood or not. This is basically a simple prestige checking
+mechanism.
+
+Selection of a Secondary Weapon
+-------------------------------
+A Knight's primary weapon is his sword. The Knights of Solamnia can
+train to superior guru skill with the sword (after completing the
+guru quest). They can, however, choose a secondary weapon to train
+to a high level. They can choose from either club or polearm.
+
+Heroism
+-------
+A Knight is a heroic figure, and can call upon his inner reserves when
+in a dire situation. Heroism is an ability that allows a Knight to gain
+many benefits temporarily. This will be described in further detail below.
+
+Rescue
+------
+A Knight is above all, honourable. When he sees a damsel in distress,
+he is obligated to help her. In order to be able to do this, he has to
+be able to rescue friends from their foes. Rescue is a special ability
+that causes opponents to face the Knight instead of those they were
+attacking before.
+
+BENEFITS OF EACH ORDER
+======================
+
+Order of the Crown
+------------------
+This is the Order that is considered to be the warrior arm of the
+Knighthood. As such, their skills have been enhanced over the other
+orders such that they can fight better.
+
+Benefits of Crown Order:
+- Train Secondary Weapon to Superior Master (90)
+- Train Two Handed Combat to Confident Veteran (75)
+- Train Blindfighting to Superior Craftsman (60)
+- Receive 10 caid damage absorbtion when mounted.
+
+Cons of Crown Order:
+- Lower language skill
+- Lower awareness skill
+- Slightly lower kattack caid max unless conclave (76 caid)
+
+Order of the Sword
+------------------
+This is the Order that is considered to be the spiritual arm of the
+Knighthood. They are also very focused on courage and heroism. Because
+of their unique focus on heroism, they have the ability to use their
+heroism ability a little longer, and recover faster than other Orders.
+This allows them to use the ability much more so than other orders.
+
+Benefits of Sword Order:
+- Receive 10 caid damage absorbtion when mounted.
+* Duration for Heroism is doubled (600 seconds)
+* Duration for Heroism Cooldown is halved (1800 seconds)
+- Dragonfear immunity at sublevel 5 and above
+- Can join the Holy Order of the Stars layman guild as a Clerist
+
+Order of the Rose
+-----------------
+This is the Order that is considered to be the leadership of the
+Knighthood. They are focused on wisdom and guidance of other Knights.
+Because of this unique focus, their abilities have to do with leadership
+and the ability to lead a team.
+
+Benefits of Rose Order:
+- When leading a team, the team members' discipline is increased
+- Ability to rescue a teammate from all foes at once
+- Slightly better Language Skill (60) than other orders
+- Dragonfear immunity
+- Dragonfear Immunity for the entire team
+- Receive 10 caid damage absorbtion when mounted.
+- Can join the Holy Order of the Stars layman guild as a Clerist
+
+COMBAT SPECIALS
+===============
+
+  KATTACK
+  ~~~~~~~
+    Files: /d/Krynn/guilds/knights/specials/kattack.c
+
+    Knights have a special fighting form that allows them to use any weapon
+    effectively. They can pick up a sword, a polearm, club, axe, knife and
+    be able to use it in hitting their opponents. Kattack is essentially the
+    main combat special for the Knights of Solamnia.
+    
+    Combat Aid
+    ----------
+    Using the Genesis Specials system, we simply set the combat aid
+    and all other calculations are set. Kattack has been set to a combat
+    aid of 80 maximum.
+    
+    Knight power levels are adjusted according to a few factors. They
+    start out at 45% of their maximum (36 caid) and gain up according to:    
+      a) Knight sublevel * 5% up to maximum of 55% for High Knights.
+      b) Squires only have access to 50 special skill, restricting
+         caid to a maximum of 40.
+    
+    When a Knight is a Black Knight, they will receive only half of
+    their aid.
+    
+    Frequency
+    ---------
+    Kattack can be performed on average once every 15 seconds. There
+    is a 7 second preparation time, followed by a 8 second cooldown
+    time. It uses the Genesis Specials, so the timings of these are
+    randomized.
+    
+    Hit chance
+    ----------
+    Tohit is set to be 95. This is calculated to be 84% hit chance
+    according to 'man cb_tohit'.
+    
+    Penetration
+    -----------
+    Penetration is calculated using the person's strength weighted
+    twice, their intelligence and their wisdom. The Kattack skill
+    is also used. Of course, penetration also depends on the
+    weapon's pen.
+
+    Everything else is calculated by the Genesis Specials system.
+
+    Restrictions
+    ------------
+    Because Charge and Kattack offer the same amount of aid, they can
+    never be used at the same time, even during each others cooldown
+    period. This guarantees that since the aid never stacks, we charge
+    both abilities a single tax.
+    
+  CHARGE
+  ~~~~~~
+    Files: /d/Krynn/guilds/knights/specials/charge.c
+           /d/Krynn/guilds/knights/specials/objects/charge_shadow.c
+           /d/Krynn/guilds/knights/specials/objects/charge_paralyze_object.c
+
+    While mounted on a Solamnian Warhorse, a Knight of Solamnia can charge
+    towards his opponent and score a powerful hit due to the momentum
+    of the charge. A Knight is unable to use a charge when his opponents are
+    focused upon him. This is different from the previous implementation
+    which allowed Knights to ride away in the midst of combat. Knights
+    now can only ride away when they are not actively tanking.
+    
+    Combat Aid
+    ----------
+    Using the Genesis Specials system, we simply set the combat aid
+    and all other calculations are set. Charge has been set to a combat
+    aid of 80% maximum.
+    
+    Charge power levels are adjusted according to a few factors. They
+    start out at 45% of their maximum (36 caid) and gain up according to 
+    the sublevel that they have. Each sublevel grants them 5% up to a
+    maximum of 80 for High Knights.    
+    
+    When a Knight is a Black Knight, they will receive only half of
+    their aid.
+        
+    Frequency
+    ---------
+    Charge can be performed on average once every 90 seconds. There
+    is a 15 second preparation time, followed by a 10 second cooldown
+    time. The following time is a hardcoded non combat aid affected
+    cooldown. It uses the Genesis Specials, so the timings of these are
+    randomized.
+    
+    Hit chance
+    ----------
+    Tohit is set to be 95. This is calculated to be 84% hit chance
+    according to 'man cb_tohit'.
+    
+    Penetration
+    -----------
+    Penetration is calculated using the person's strength weighted
+    twice, their discipline and their wisdom. The mounted combat skill
+    is also used. Of course, penetration also depends on the
+    weapon's pen.
+
+    Everything else is calculated by the Genesis Specials system.
+
+    Restrictions
+    ------------
+    Because Charge and Kattack offer the same amount of aid, they can
+    never be used at the same time, even during each others cooldown
+    period. This guarantees that since the aid never stacks, we charge
+    both abilities a single tax.
+
+    The charge is not affected by haste, which is both a boon and a curse
+    as the ability will never do more damage, but will always keep the 15
+    second timer for the player to stay out of combat.
+    
+    During a charge, a paralyze object is placed on the Knight, preventing
+    them from starting any other attacks. They can, of course, still move,
+    and perform basic actions like speaking normally. A shadow is also
+    placed on the Knight, preventing them from being attacked during the
+    preparation portion of the charge.
+    
+  HEROISM
+  ~~~~~~~
+    Files: /d/Krynn/guilds/knights/specials/kheroism.c
+           /d/Krynn/guilds/knights/specials/objects/kheroism_object.c
+
+    Knights used to have an ability called kdie. This was an extraordinary
+    ability that allowed them to call upon their courage and heroism
+    in their darkest hour (ie almost dead) and fight back faster and
+    stronger. However, at the end of the ability, the Knight had a
+    50% chance of dying. Though this is an amazing ability with great
+    roleplay potential, because of the penalty of death, it was used
+    only twice in the last 5 years.
+    
+    Rather than limiting this ability with such a harsh penalty, I have
+    modified kdie and made it kheroism instead. It has much of the same
+    benefits as kdie, but instead of dying, you have a very long cooldown
+    period during which you cannot perform kheroism again. For Sword Knights,
+    the duration is doubled, and the cooldown halved.
+    
+    Duration
+    --------
+    Crown and Rose Knights are able to use kheroism and achieve 300 seconds
+    of its use. The ability can be activated once they have less than 20%
+    of normal hit points. After the expiration of the ability, there is a
+    3600 second cooldown. The cooldown is enforced by a non-cleansing poison
+    that remains on the person and recovers through quitting and LD. 
+    
+    Sword Knights are able to use their ability for 600 seconds, with 1800
+    seconds of cooldown.
+    
+    On March 12, 2009, a change was made to the duration such that if the
+    Knight was relaxed from combat, the heroism ability would immediately
+    enter cooldown. Also, a change was made to the duration to make the actual
+    duration and cooldown slightly more random. This will prevent timing the
+    ability for its use in combat.
+
+    On December 21, 2013, a change was made to cooldown from 6000 seconds to
+    3600 seconds. Also, the randomization was reduced a bit to make it more
+    useful again for Knights. Since the guild was opened, saving racks and
+    global block have made Knights less "elite" than they were previously.
+
+    Benefits
+    --------
+    Heroism grants the following benefits:
+        1. LIVE_I_QUICKNESS of 100.
+        2. Strength and Discipline increased to give 20% aid.
+        3. Fatigue completely removed
+        4. Heals 30% of maximum hit points (changed 3/12/2009 from 50%)
+    
+    At the conclusion of Heroism, the benefits are removed
+        1. LIVE_I_QUICKNESS reduced by 100
+        2. Strength and Discipline reduced back to normal
+        3. Reduces hit points to maximum 10% of max hit points
+        
+    Combat Aid
+    ----------
+    The quickness benefit gives them 25% combat aid in speed.
+    The 20% combat aid for stats is calculated by plugging in the
+    values into F_STR_FACTOR. The value granted by kheroism will
+    always be 20% higher in the F_STR_FACTOR result. 
+    Fatigue and Hit Points portion of the ability don't grant any
+    real aid because the Knight actually ends up losing more than
+    they gain. By reducing down to 10% for fatigue and mana and hp,
+    it places great risk because the Knight will not be able to
+    move far, cannot use a gem to leave, and will be extremely
+    vulnerable to death if attacked.
+    
+    Sword Knights can use their abilities 600 / 1800 = 33% of the time. 
+    All Other Knights can use their abilities 300 / 3000 = 10% of the time.
+    
+    Sword Knight combat aid: 45% * 33% = 15% combat aid.
+    All Knights combat aid: 45% * 10% = 4.5% combat aid.
+    
+  RESCUE
+  ~~~~~~
+    Files: /d/Krynn/guilds/knights/specials/rescue.c
+           /d/Krynn/guilds/knights/specials/objects/rescue_shadow.c
+    
+    A Knight can rescue almost anyone and force the friend's opponents
+    to face himself. The ability is useful in teams where there are
+    more frail team members like spellcasters or small allies.
+    
+    Combat Aid
+    ----------
+    Because the ability merely retargets enemies, the combat aid is
+    technically 0%.
+                
+    Frequency
+    ---------
+    You can rescue someone once per 2 seconds. Rose Knights have the unique
+    ability to rescue someone from all their opponents. All other Knights
+    have to rescue one by one.
+    
+    Benefits
+    --------
+    Once rescued, the friend is "safe" from his attacker for 10 seconds. This
+    is to prevent automatic triggers that will re-attack. The safety of
+    the friend is implemented using a shadow that masks the OBJ_M_NO_ATTACK
+    property.
+
+MOUNTED DAMAGE ABSORBTION
+~~~~~~~~~~~~~~~~~~~~~~~~~
+    Files: /d/Krynn/guilds/knights/specials/objects/knight_mounted_dam_mod.c
+    
+    A Knight has the ability to absorb damage while mounted.   
+
+    Combat Aid
+    ----------
+    The absorbtion is set to 10 combat aid.
+
+    Frequency
+    ---------
+    It is an automatic benefit that is always available when the Knight is
+    mounted.
+    
+    Benefits
+    --------
+    Uses the MUD default damage absorbtion module to reduce damage by 10
+    combat aid while mounted.
+
+Petros, November 2008
+Updated: Arman and Carnak, November 2018

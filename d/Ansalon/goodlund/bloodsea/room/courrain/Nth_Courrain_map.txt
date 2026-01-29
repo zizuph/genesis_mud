@@ -1,0 +1,43 @@
+NORTHERN COURRAIN MAP
+=====================
+
+
+                 | | | | | | | | | | | | | | 
+14              -x-x-x-x-x-x-x-x-x-x-X-X-X-X-
+                 | | | | | | | | | | | | | | 
+13              -x-x-x-x-x-x-x-x-x-x-x-x-X-X-
+                 | | | | | | |/     \| | | | | | | | | | 
+12              -x-x-x-x-x-x-x       x-x-x-X-X-X-X-X-X-X-
+                 | | | | | | |          \| | | | | | | | 
+11              -x-x-x-x-x-x-x           x-X-X-X-X-X-X-X-
+                 | | | | | | |   Nord-   | | | | | | | | 
+10              -x-x-x-x-x-x-x   maar    x-X-X-X-X-X-X-X-
+                 | | | | | |/             \| | | | | | | 
+9               -x-x-x-x-x-x               x-X-X-X-X-X-X-
+                 | | | | | |               | | | | | | | | | | | | | | |
+8               -x-x-x-x-x-x               x-X-X-X-X-X-X-X-X-X-X-X-X-X-X-
+                 | | | | | |               | | | | | | | | | | | | | | | |/
+7               -x-x-x-x-x-x               x-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X    Isle of
+                 | | |/ \|/                | | | | | | | | | | | | | | | |\   Karthay
+6               -x-x-x   x                 x-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-t
+                 | | |                      \| | | | | | | | | | | | | | | |\ 
+5               -x-x-x                       J-X-X-X-X-X-X-X-X-X-        X-x-x
+                \| |/                        | | | | | | | | | | 
+4                x-x                         X-X-X-X-X-X-X-X-X-  
+                 | |                        /| | |/   \| | | |
+3                x-x                       X-X-X-X     X
+                /|/                       /|/|/       /
+2        K-x-x-x-x
+           | | |/
+1        K-x-x-c
+
+         A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Z Z Z Z Z Z Z  
+                                                             a b c d e f g
+***************************************************************************
+
+KEY:
+
+K - Kalaman (harbour chained)
+c - cave (linking with ~kalaman/seavillage/room/cave.c)
+J - Jennison (linking with ~nordmaar/jennison/city/pier?)
+t - Winston's tower (link to Bloodsea rooms)

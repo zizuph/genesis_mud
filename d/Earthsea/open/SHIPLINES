@@ -1,0 +1,30 @@
+// should include path, ship name/designation, captain,
+start location, cost of all shiplines in domain
+
+
+/d/Earthsea/ships/ansalon_line/west_pier2.c
+Captain:  Mizzen
+cost of Ticket: 10cc
+Destination: Port Balifor in Ansalon
+
+/d/Earthsea/ships/calia_line/west_pier1.c
+Captain:  Focsle
+cost of ticket:  10cc
+Destination: port of Gelan in Calia
+
+/d/Earthsea/ships/avenir_line/east_pier1.c
+Captain:  Cerra
+cost of ticket: 10cc
+Destination: Avenir/Sybarus
+
+/d/Earthsea/ships/sparkle_line/east_pier2.c
+Captain:  Yorlis
+cost of ticket:  10cc
+Destination:  pier 1 in Sparkle (replacing Roke pier)
+
+/d/Earthsea/ships/oranea_line/west_pier3.c
+Captain:  Dravid
+cost of ticket:  10cc
+Destination:  Oranea
+
+

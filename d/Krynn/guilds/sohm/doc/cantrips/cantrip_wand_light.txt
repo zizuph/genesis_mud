@@ -1,0 +1,37 @@
+
+     Spell name: Wand light
+                 talkarpas
+         Effect: Basic light spell
+           Type: Instant
+        Targets: Specific object (wand/staff)
+        
+        Element: Fire          / 20
+           Form: Transmutation / 20
+    Spell power: Power 1 [Very minor spell]
+     Spell type: shadow spell (light)
+     
+       Peaceful: No
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: none
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_ROUTINE
+     Combat Aid: 0%
+
+            Tax:   0.1
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x1.0   Routine difficulty
+                  x1.5   no material component  
+                 ------
+                  0.15%  total tax
+   ------------------------------------------------------------
+   Comments: A weak light spell that can be cast on a wand or
+   staff. Short duration.
+   ------------------------------------------------------------

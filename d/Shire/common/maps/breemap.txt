@@ -1,0 +1,46 @@
+
+/*			BREE MAP
+ *
+ *
+ *
+ *	  	  --- MADE BY ODIN ---
+ *
+ */
+
+				    H	
+				    |	
+			       H    C--H	
+			       |    |
+			       C----C----C--H 
+			      /		 | 
+ 			H    |	  H   H--C--H Breehill?
+			|    |	  |	 | 	
+			C----C----C------C--H
+			|	  |
+			|	  H
+		     F--C--B	  
+			|
+			|  | 	
+    greyhave	C----G--C--P
+			|   
+			C--S
+			 \
+			  G-- trollshaws, Rhovanion		
+
+
+*A little explanation:
+
+ B	Bank
+ C	Crossing
+ F	Forge
+ G	Gate
+ H	House
+ P	The pranching Poney
+ S	Shop
+ |	One room
+ --	1 room
+ / 	1 room
+ \	1 room
+	
+*This is only an outcast and suggestions on things that could be changed/added
+ is welcome, either put comments in this file or something else -Odin*

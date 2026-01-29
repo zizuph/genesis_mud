@@ -1,0 +1,37 @@
+
+     Spell name: Detect magic
+                 Ickrakarcanis
+         Effect: Reveals whether an item is magical or not
+           Type: Instant
+        Targets: One present object
+        
+        Element: Earth       / 20
+           Form: Divination  / 20
+    Spell power: Power 1 [Very minor spell]
+     Spell type: Detect magic spell
+     
+       Peaceful: Yes
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: none
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana
+     Difficulty: TASK_ROUTINE
+     Combat Aid: 0%
+
+            Tax:   0.1
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x1.0   Routine difficulty
+                  x1.5   no material component  
+                 ------
+                  0.15%  total tax
+   ------------------------------------------------------------
+   Comments: A simple detect magic spell. If an item is magical
+   it briefly glows. No other information is revealed.
+   ------------------------------------------------------------

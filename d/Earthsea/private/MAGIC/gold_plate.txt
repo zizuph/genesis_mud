@@ -1,0 +1,9 @@
+Name: golden platemail
+File: /d/Earthsea/gont/tenalders/arm/gold_plate.c
+Armour Class: 45
+Special: 
+    Adds +10 MAGIC_I_RES_MAGIC to the wearer.
+Props:
+    MAGIC_I_RES_MAGIC, OBJ_I_IS_MAGIC_ARMOUR, OBJ_S_WIZINFO, 
+    MAGIC_AM_ID_INFO, MAGIC_AM_MAGIC, OBJ_M_NO_BUY
+Obtainability: Must kill an officer of the kargs.

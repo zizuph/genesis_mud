@@ -1,0 +1,12 @@
+Name: pair of leather gauntlets
+File: /d/Earthsea/gont/tenalders/arm/gauntlets.c
+Hit/Pen: 45/45
+Armour Class: 40
+Special:
+    The gauntlets increases the wearer SS_UNARMCOMBAT by 20 and enhances
+    Hit/Pen of the right and left hand to 45/45.
+Props:
+    OBJ_I_IS_MAGIC_WEAPON, OBJ_S_WIZINFO, MAGIC_AM_ID_INFO,
+    MAGIC_AM_MAGIC
+Obtainability:
+    Obtained from a karg priestess on a karg longship.

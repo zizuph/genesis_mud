@@ -1,0 +1,36 @@
+
+     Spell name: Wind whisper
+                 Suacovisp
+         Effect: Far tell communication spell
+           Type: Instant
+        Targets: Another player
+        
+        Element: Air         / 10
+           Form: Divination  / 10
+    Spell power: Power 1 [Very minor spell]
+     Spell type: Fartell spell
+     
+       Peaceful: No
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: copper coin
+     
+   Casting time:  2s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 15 mana (special exception for tell spells)
+     Difficulty: TASK_ROUTINE
+     Combat Aid: 0%
+
+            Tax:   0.1
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x1.0   Routine difficulty
+                  x1.0   material component  
+                 ------
+                  0.10%  total tax
+   ------------------------------------------------------------
+   Comments: A standard fartell spell.
+   ------------------------------------------------------------

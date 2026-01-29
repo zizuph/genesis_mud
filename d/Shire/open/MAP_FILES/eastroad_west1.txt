@@ -1,0 +1,343 @@
+main
+::MAPDATA::
+er1 12 13 part1
+er2 14 13 part1
+er3 16 13 part1
+er4 18 13 part1
+er5 20 13 part1
+er6 23 13 part1
+er7 26 13 part1
+er1s 12 14 part1
+er2s 14 14 part1
+dwarf1 14 14 part1
+dwarf2 14 14 part1
+er3s 16 14 part1
+er4s 18 14 part1
+er5s 20 14 part1
+er6s 23 14 part1
+er7s 26 14 part1
+er1n 12 12 part1
+er2n 14 12 part1
+er3n 16 12 part1
+er4n 18 12 part1
+er5n 20 12 part1
+er6n 23 12 part1
+er7n 26 12 part1
+er8 31 13 part1
+er9 33 13 part1
+er10 34 13 part1
+er11 35 13 part1
+er9n 33 12 part1
+er10n 34 12 part1
+er11n 35 12 part1
+foam_mug 36 13 part1
+er9s 33 14 part1
+er10s 34 14 part1
+er11s 35 14 part1
+er12 36 13 part1
+er12s 36 14 part1
+er13 38 13 part2
+er14 39 13 part2
+er15 41 13 part2
+er16 42 13 part2
+er13s 38 14 part2
+er14s 39 14 part2
+er15s 41 14 part2
+er16s 42 14 part2
+er14n 39 12 part2
+er15n 41 12 part2
+er16n 42 12 part2
+er16n2 42 12 part2
+er18n 43 12 part2
+er18n2 43 12 part2
+wplace 41 13 part2
+lpath1 41 13 part2
+forge 41 13 part2
+er17 42 13 part2
+er17n 42 12 part2
+er17n2 42 12 part2
+er17n3 42 12 part2
+er18 43 13 part2
+er19 44 12 part2
+er20 46 12 part2
+er21 47 12 part2
+er21a 48 12 part2
+er21b 48 12 part2
+er21c 49 12 part2
+5 26 11 greenholm
+5b 26 11 greenholm
+5c 26 11 greenholm
+5s 26 11 greenholm
+5e 26 11 greenholm
+5f 26 11 greenholm
+5g 26 11 greenholm
+5h 26 11 greenholm
+5i 26 11 greenholm
+5j 26 11 greenholm
+5k 26 11 greenholm
+1a 31 13 waym
+1b 31 13 waym
+1c 31 13 waym
+1d 31 13 waym
+1e 31 13 waym
+1f 31 13 waym
+1g 31 13 waym
+1h 31 13 waym
+1i 31 13 waym
+1j 31 13 waym
+1k 31 13 waym
+1l 31 13 waym
+1m 31 13 waym
+1n 31 13 waym
+1o 31 13 waym
+ut1a 1 1 uts
+ut1b 1 1 uts
+ut1c 1 1 uts
+ut1d 1 1 uts
+ut1e 1 1 uts
+::MAPDATA::
+
+                                  Annuminas
+                                      O ~~
+                 Hills of Evendium    |  ~~   +---------+
+                                      |   ~~  |THE SHIRE|
+                                       \   ~~ +---------+        Fornost
+                             Greenfields\   ~~                      o
+                                    o----\   ~~~                    |
+                                          \    ~~~                  |
+          ~~                       HOBBITON\     ~~~                |
+         ~~~          Greenholm       O     \      ~~~              |
+       ~~~~               o           |     |Frogmorton             |   BREE
+     GREY HAVENS       MICHEL DELVING |     o------===--------------+----O---
+   ~~~~~~O---------------------O------+*--\/   |  Brandywine        |
+  ~~~~~~~                      |Three Farthing |    Bridge          |
+ ~~~~~~~       \               |    Stone      o   ~~~     Barrow   |
+ ~~~~~          o              |            Whitfurrows     Downs   |
+ ~~~    Rockfriends             \-----            ~~~               |
+ ~~                                   \--------- ~~~ o--------------\
+ ~                                             ~~~  Sarn Ford        \
+          Blue Mountains                     ~~~                      \
+                                           ~~~                         \
+
+
+::NEWMAP::
+part1
+::MAPDATA::
+er1 16 10
+er2 20 10
+er3 24 10
+er4 28 10
+er5 32 10
+er6 36 10
+er7 40 10
+er1s 16 12
+er2s 20 12
+dwarf1 20 16
+dwarf2 20 14
+er3s 24 12
+er4s 28 12
+er5s 32 12
+er6s 36 12
+er7s 40 12
+er1n 16 8
+er2n 20 8
+er3n 24 8
+er4n 28 8
+er5n 32 8
+er6n 36 8
+er7n 40 8
+er8 44 10
+er9 48 10
+er10 52 10
+er11 56 10
+er12 60 10
+er9n 48 8
+er10n 52 8
+er11n 56 8
+foam_mug 60 8
+er9s 48 12
+er10s 52 12
+er11s 56 12
+er12s 60 12
+::MAPDATA::
+
+          Grey                              |                   |
+         Havens                     o - o - o - o           o - o - o
+ ~~~~~~~                                  / | \                 |
+ ~~~~~~ o - o                       o - o   |   o      Waymeet  o
+ ~~~~~      |                               |               |   |
+ ~~~~~  o - o                            Michel             o   Hobbiton
+ ~~~~~      |                           Delving             |   |
+ ~~~~~  o - o           o           o       |           o   o   |   o
+ ~~~~~~     |           |           |       |             \ |   |   |
+ ~~~~~~     o - o - o - o - o - o - o - o - o - o - o - o - o - o - o ----- o -
+ ~~~~~~     |           |           |       |       |       |       |       |
+ ~~~~~  o - o           o           o       |       o       o       o ----- o
+ ~~~~~~     |                             Michel            |         \     |
+ ~~~~   o - o                            Delving       Waymeet          o - o
+ ~~~~~      |                               |               |             \
+ ~~~~~  o - o                               o - o          To               o
+ ~~~~~~     |                               |          Longbottom
+ ~~~~~  o - o                               o - o   o
+ ~~~~~~                                     |       |
+                                            o - o - o - o
+                                                |
+
+::NEWMAP::
+part2
+::MAPDATA::
+er13 14 10
+er14 18 10
+er15 26 10
+er16 30 10
+er13s 14 12
+er14s 18 12
+er15s 26 12
+er16s 30 12
+er14n 18 8
+er15n 26 8
+er16n 30 8
+er16n2 30 6
+er18n 38 8
+er18n2 38 6
+wplace 26 14
+lpath1 22 14
+forge 26 16
+er17 34 12
+er17n 34 10
+er17n2 34 8
+er17n3 34 6
+er18 38 10
+er19 42 8
+er20 46 8
+er21 50 8
+er21a 54 8
+er21b 58 8
+er21c 62 8
+::MAPDATA::
+
+              |                           |                                ~~~
+          o - o - o                     - o -                             ~~~
+              |                           |                              ~~~
+              o                         Frog                              ~~~
+              |                         morton                            ~~~
+           Hobbiton                   o   |                              ~~~
+              |                       |   |                              ~~~
+      o   o   |   o                   o   o - o - o - o - o - o - o - o = o =
+        \ :   |   |                   | /         |           |          ~~~
+- o - o - o - o - o ----- o - o       o           |           o         ~~~
+  |               |       |     \   /           Whit          |        ~~~
+  o               o ----- o       o            furrows        o       ~~~
+                    \     |                       |           |      ~~~
+                      o - o                       o           o     ~~~
+                        \                         |           |     ~~~
+                          o                     - o           o - o ~~~
+                                                  |           |     ~~~
+                                                              o    ~~~
+                                                              |    ~~~
+                                                              o    ~~~
+                                                              |
+::NEWMAP::
+greenholm
+::MAPDATA::
+5 7 16
+5b 21 15
+5c 28 4
+5d 40 9
+5e 56 9
+5f 40 15
+5g 26 21
+5h 52 21
+5i 53 15
+5j 68 21
+5k 53 27
+::MAPDATA::
+
+                        +--------+
+                        | Dining |
+                        |  Room  |    =======================
+                        |   o    |    Greenholm Hobbit Burrow
+                        +--   -  +    =======================
+                         /  /  \  \
+                        /  /    \  +---------+     +---------+
+                       /  /      \_  Kitchen |_____|  Pantry |
+                      /  /         |    o     _____     o    |
+                     /  /          |         |     |         |
+                    /  /           +---| |---+     +---------+
+                   /  /                | |
+  +--------+    +--   ---+         +---| |---+  +---------+
+  |  Front |____| Parlour|         |  Pantry |  | Bedroom |
+==    Hall  ____     o   |         |    o    |  |    o    |
+  |    o   |    |        |         |         |  |         |
+  +--------+    +----   -+         +---------+  +---| |---+
+                     \  \                           | |
+                     +\  \-----+                +---| |---+    +---------+
+                     |  Hall   |________________|  Hall   |____| Bedroom |
+                     |    o     ________________    o      _____    o    |
+                     |         |                |         |    |         |
+                     +---------+                +---| |---+    +---------+
+                                                    | |
+                                                +---| |---+
+                                                | Bedroom |
+                                                |    o    |
+                                                |         |
+                                                +---------+
+::NEWMAP::
+waym
+::MAPDATA::
+1a 48 20
+1b 59 19
+1c 37 19
+1d 37 26
+1e 37 13
+1f 48 13
+1g 37 7
+1h 26 19
+1i 26 26
+1j 37 25
+1k 26 13
+1l 15 19
+1m 15 13
+1n 5 19
+1o 15 25
+::MAPDATA::
+
+                             =====================
+                             Waymeet Hobbit Burrow
+                             =====================
+
+                                 +-------+
+                                 |Pantry |
+                                 |   o   |
+                                 |       |
+                                 +--| |--+
+                                    | |
+           +-------+  +-------+  +--| |--+  +-------+
+           |Storage|  |Storage|  |Kitchen|__|Pantry |
+           |   o   |  |   o   |  |   o    __    o   |
+           |       |  |       |  |       |  |       |
+           +--| |--+  +--| |--+  +--| |--+  +-------+
+              | |        | |        | |
+ +------+  +--| |--+  +--| |--+  +--| |--+  +-------+  +-------+
+ | Hall |__|  Hall |__|  Hall |__|  Hall |__| Front |__|Parlor |
+ |   o   __    o    __    o    __    o    __   Hall  __    o   |
+ |      |  |       |  |       |  |       |  |   o   |  |       |
+ +------+  +--| |--+  +--| |--+  +-------+  +--\  \-+  +-------+
+              | |        | |                    \  \
+           +--| |--+  +--| |--+  +-------+       \  \
+           |Bedroom|  | Master|__|Storage|        \  \
+           |   o   |  |Bedroom __    o   |
+           |       |  |   o   |  |       |
+           +-------+  +-------+  +-------+
+::NEWMAP::
+uts
+::MAPDATA:
+ut1a 1 1
+ut1b 1 1
+ut1c 1 1
+ut1d 1 1
+ut1e 1 1
+::MAPDATA:
+
+ o
+ |

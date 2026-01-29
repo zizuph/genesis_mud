@@ -1,0 +1,9 @@
+Name   : angelicus
+Object : /d/Terel/mecien/valley/guild/spells/angelicus.c
+Cost   : 100 mana, no components
+Skills : Wisdom, Spellcraft, Int
+Description : Summons an angel (/d/Terel/mecien/valley/guild/spells/angel.c) 
+	      which can heal 300 hp, and attack one living the player
+	      is already fighting.  Angel average stat is 75.
+              Duration: 45 + SS_INT/5 + SS_SPELLCRAFT/3
+Requirements: wisdom minimum of 80 to cast.

@@ -1,0 +1,27 @@
+                           Mercenary Abilities:
+                           ~~~~~~~~~~~~~~~~~~~~
+
+Special Attacks: 
+
+    The training yard offers the <mattack> ability via knowledge
+    of "mercenary tactics" which can be trained to superior guru. This
+    special attack takes into account any weapon that the Mercenary
+    might be wielding (or unarmed combat should none be in hand.) There
+    is a very small chance that the attack will result in a critical
+    hit which yields triple damage.
+
+Adaptability:
+
+    Mercenaries get skill points to allocate however they choose.
+    Detailed information on the <adapt> ability and the guru quest
+    that accompanies it can be had with <merchelp adapt>.
+
+Affiliation:
+
+    Mercenaries can hire themselves out to whomever they like, shifting
+    loyalties with each job they choose to take. To declare loyalty to
+    a particular person or guild, the <maffiliate> command can be used
+    which will establish the affiliation and reflect in the titles of
+    the Mercenary.
+
+   

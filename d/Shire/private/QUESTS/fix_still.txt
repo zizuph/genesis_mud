@@ -1,0 +1,42 @@
+Group:      0
+
+Bit:        5
+
+Name:       Fix the Broken Pot Still
+
+Programmed: Raymundo, Winter 2020
+
+Problem:    Imbert, the bartender in the upstairs bar at the
+            Foaming Mug, has a broken pot still. It seems the 
+            pieces have been taken and used around the Shire.
+            He needs the player to find the missing pieces.
+
+Solution:   Collect an ogee, a lyne arm, a joint, a nozzle and
+            a cone. Give them to Imbert and ask for your reward.
+
+Skills:     None
+
+Risks:      None
+
+XP-Scale:   5,000
+
+Remarks:    Items are hidden around the Shire. Moreover, they 
+            are hidden Shire-wide, not just in Waymeet.
+
+Relevant
+Files:      Rooms
+            ----------
+            cone:       /d/Shire/eastroad/western/foam_mug2020
+            Ogee:       /d/Shire/eastroad/village/whit/whitehouse2
+            Lyne Arm:   /d/Shire/bree/rooms/road/attic1
+            Pipe Joint: /d/Shire/longbottom/rooms/smials/5_cellar
+            Nozzle:     /d/Shire/frogmorton/smial01a
+
+            Objects
+            --------
+            /d/Shire/waymeet/obj/
+                chandelier_cone
+                still_nozzle
+                still_pipe_1
+                still_pipe_2
+                still_pipe_3

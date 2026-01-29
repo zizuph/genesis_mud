@@ -1,0 +1,38 @@
+
+     Spell name: Curse
+                 chikohk
+         Effect: Curse that increases combat miss rate by 15%
+           Type: Maintained
+        Targets: Enemy
+        
+        Element: Air          / 30
+           Form: Enchantment  / 30
+    Spell power: Power 2 [Minor spell]
+     Spell type: illfortunate spell 
+     
+       Peaceful: No
+     Stationary: No
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: myrtleberry (36cc)
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_ROUTINE
+     Combat Aid: 27% 
+
+
+            Tax:  0.25
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x1.0   Routine difficulty
+                  x1.0   material component  
+                 ------
+                  0.25%  total tax
+   ------------------------------------------------------------
+   Comments: Adds 23% chance to miss while spell is active on
+   an enemy. Only one such curse can be added to an opponent.
+   ------------------------------------------------------------

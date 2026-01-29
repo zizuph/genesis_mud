@@ -1,0 +1,73 @@
+/* Xak Tsorath coded by Percy */
+
+#include "../xlocal.h"
+#include "/sys/ss_types.h"
+#include <macros.h>
+
+inherit  XAKINROOM
+
+int mcan = 2;
+object shadow, shadow2;
+
+void
+reset_xak_room()
+{
+    mcan = 2;
+}
+
+void
+create_xak_room()
+{
+        set_short("The North Crypt");
+        set_long(BS(
+           "You are in the middle of north corridor of the crypt beneath"
+	 + " the temple of Mishakal. Coffins line the walls here"
+	 + " and the stench of death assails your nostrils. You"
+	 + " feel danger here, this is a place for the DEAD!", 70));
+
+	add_exit(CDIR + "northcrypt3.c", "east", 0);
+	add_exit(CDIR + "northcrypt1.c", "west", 0);
+
+	add_item(({"crypt", "coffin", "coffins"}), "@@coffin");
+	INSIDE
+        DARK
+}
+
+coffin()
+{
+    if (!mcan)
+      {
+	  write(BS("You examine the surrounding crypt and coffins."
+		   + " everything seems normal. Well as normal as can be"
+		   + " expected for such a gloomy place as this.", 70));
+	  return "";
+      }
+    if (mcan == 2)
+      {
+	  write(BS("You examine the crypt and the coffins when suddenly"
+		   + " two ghostly forms emerges from the shadows!", 70));
+	  SAY(" is poking around the coffins examining them"
+	      + " when suddenly two ghostly figures emerge from the shadows!");
+      } 
+    else 
+      {
+	  write(BS("You examine the crypt and the coffins when suddenly"
+		   + " a ghostly figure emerges from the shadows!", 70));
+	  SAY(" is poking around the coffins examining them"
+	      + " when suddenly a ghostly figure emerges from the shadows!");
+      }
+    seteuid(getuid(this_object()));
+    if (mcan)
+      {
+	  mcan--;
+	  shadow = clone_object(MONSTER + "shadow.c");
+	  shadow->move(TO);
+      }
+    if (mcan)
+      {
+	  mcan--;
+	  shadow2 = clone_object(MONSTER + "shadow.c");
+	  shadow2->move(TO);
+      }
+    return "";
+}

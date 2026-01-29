@@ -1,0 +1,35 @@
+ ________________________________________________________________
+|                         ____________                           |
+| *                     _/            \_                       * |
+|                      ~_ Lurr's Boots _~                        |
+|                        \____________/                          |
+|                                                                |
+|   Style           Colour                           Material    |
+|   -----           ------                           --------    |
+|   buckled         black           yellow           alligator   |
+|   dark            white           forest-green     bear        |
+|   formal          charcoal        dark-green       deer        |
+|   glistening      grey            mottled-green    fox         |
+|   heavy           brown           olive-green      hard        |
+|   laced           dark-brown      blue             hide        |
+|   light           mottled-brown   pale-blue        leather     |
+|   loose           beige           raven-blue       lizard      |
+|   noble           tan             indigo           sable       |
+|   ornate          crimson         purple           snake       |
+|   plain           maroon          royal-purple     soft        |
+|   rugged          pink            coppery          studded     |
+|   short           dark-orange     golden           suede       |
+|   skin-tight      orange          silvery                      |
+|   steel-toed      pale-yellow                                  |
+|   steel-tipped                                                 |
+|   strapped                                                     |
+|   sturdy                                                       |
+|   supple                                                       |
+|   thick                                                        |
+|   thin                                                         |
+|   tight                                                        |
+|           <order> <style> <colour> <material> <boots>          |
+|                                                                |
+|           Try <inquire> instead of order for pricing.          |
+| *                                                            * |
+|________________________________________________________________|

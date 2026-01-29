@@ -1,0 +1,20 @@
+Name: Boost
+
+Object: /d/Sparkle/guilds/arcane/spells/boost.c
+
+Cost: 
+
+Skills: 
+
+Description: Tier 1 spell
+		    Targets: 1, unspecified target defaults to caster
+		 This is a stat increaser. Increases either strength,
+		 constitution or dexterity at random, caster can not
+		 choose which. The spell is more effective on the
+		 caster than on a third party target. At Master level,
+		 the spell will minimally increase all three physicals.
+
+Requirements:
+    SS_ELEMENT_WATER
+    SS_FORM_CONJURATION
+    Wine

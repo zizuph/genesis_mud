@@ -1,0 +1,67 @@
+tunnel
+::MAPDATA::
+tunnel01_08 4 16
+tunnel02_01 8 2
+tunnel02_07 8 14
+tunnel03_02 12 4
+tunnel03_03 12 6
+tunnel03_04 12 8
+tunnel03_07 12 14
+tunnel04_02 16 4
+tunnel04_03 16 6
+tunnel04_04 16 8
+tunnel04_05 16 10
+tunnel04_07 16 14
+tunnel04_08 16 16
+tunnel05_02 20 4
+tunnel05_06 20 12
+tunnel05_07 20 14
+tunnel06_06 24 12
+tunnel06_07 24 14
+tunnel06_08 24 16
+tunnel07_05 28 10
+tunnel07_06 28 12
+tunnel07_07 28 14
+tunnel07_08 28 16
+tunnel08_05 32 10
+tunnel08_06 32 12
+tunnel08_07 32 14
+tunnel08_09 32 18
+tunnel08_12 32 24
+tunnel09_06 36 12
+tunnel09_07 36 14
+tunnel09_10 36 20
+tunnel09_11 36 22
+tunnel10_08 40 16
+tunnel11_08 44 16
+tunnel12_08 48 16
+tunnel13_07 52 14
+tunnel14_07 56 14
+::MAPDATA::
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+.                                                           .
+.       o                                                   .
+.         \                                                 .
+.           o   o   o                                       .
+.           |   | /                                         .
+.           o   o                                           .
+.           |   |                                           .
+.           o   o                                           .
+.             \ |                                           .
+.               o           o - o                           .
+.                 \       /       \                         .
+.                   o - o - o - o   o                       .
+.                 /        \       \                        .
+.       o - o - o - o   o   o - o - o               o - o   .
+.     /         |     \ | /           \           /         .
+.   o           o       o - o           o - o - o           .
+.                             \                             .
+.                               o                           .
+.                                 \                         .
+.                                   o                       .
+.   Eldoral Undead Tunnels          |                       .
+.                                   o                       .
+.                                 /                         .
+.                               o                           .
+.                                                           .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .

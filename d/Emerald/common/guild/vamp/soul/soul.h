@@ -1,0 +1,26 @@
+#define CLING    1
+#define DASH     2
+#define DRAIN    4
+#define EMBRACE  8
+#define HELP     16
+#define INTRO    32
+#define JOLT     64
+#define MELD     128
+#define OFFER    256
+#define PRESENCE 512
+#define PROJECT  1024
+#define PROWL    2048
+#define SCAN     4096
+#define SCARE    8192
+#define SHIFT    16384
+#define SLASH    32786
+#define SPY      65536
+#define TPATH    131072
+#define THRALL   262144
+#define SOUL     524288
+#define VAMPLIST 1048576
+#define VSAY     2097152
+
+#define CMD_SYNTAX_FAILURE     0
+#define CMD_FAIL_WITHOUT_COST -1
+#define CMD_FAIL_WITH_COST    -2

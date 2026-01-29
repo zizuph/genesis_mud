@@ -1,0 +1,12 @@
+Name: 		ardere
+
+Object:		/d/Terel/mecien/valley/guild/spells/ardere
+
+Cost: 		10 mana
+
+Skills:    	Wisdom, Spellcraft, Int
+
+Description:      Creates an aura about caster
+
+Requirements:   Wis > 20
+

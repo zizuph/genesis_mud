@@ -1,0 +1,23 @@
+Name:           Vibrato
+Object:         /d/Terel/cedric/guild/power/blast
+Cost:           25 mana, Components: instrument, songbook.
+Casting Time:   5
+Skills:         SS_DEX, SS_DIS, SG_READ_MUSIC, SG_VOCAL, SG_INSTRUMENTAL
+Resolution:     Result = resolve_task(TASK_SIMPLE, ((SS_DEX+SG_INSTRUMENTAL)+
+			 (SS_DIS+SG_VOCAL)+Guild_Stat*2))
+Failure:        Result = -1   the song fails completely;
+			  0   the song couldn't be played;
+			 1-20 the song succeeds somewhat but with possible 
+			      accompanying instrument damage.
+			 >20  the song succeeds completely.
+
+Description:    Causes damage to living by setting up a sonic vibration.
+		Amount of damage = (10 + Result) * Effectiveness modifier.
+		Effectiveness modifier is a function of the condition of
+		the instrument (or vocal chords) and whether or not the
+		performer is part of a choir.  It is expressed as a percent.
+		Amount of damage is reduced if living is magic resistant by
+		(Amount of damage * query_magic_res())/100.  Amount of damage
+		is never greater than 200.
+Duration:       Permanent.
+Requirements:   SG_READ_MUSIC > 20

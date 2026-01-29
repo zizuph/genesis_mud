@@ -1,0 +1,81 @@
+Special practice
+================
+
+Introduction
+------------
+
+The swarm and maul specials have two skills each: 
+a knowledge skill and a form skill. So there are four 
+skills in total for Calian specials: swarm knowledge, 
+swarm form, maul knowledge and maul form. 
+
+A knowledge skill indicates the highest level a player 
+has trained a special, for example if a player has trained 
+maul to superior guru in the Calian training room, s/he 
+will have a maul knowledge skill of superior guru for as 
+long as s/he is a member of the guild. A form skill 
+indicates the level that a player can fight at, which 
+cannot exceed the corresponding level of knowledge. For 
+example someone with maul knowledge of confident 
+professional could have a maul form anywhere between 
+"no skill" and confident professional at a given time. 
+
+
+Restrictions
+------------
+The sum of a Calian's form skill levels (swarm form 
++ maul form) cannot exceed superior guru, for example 
+the form skills could both be superior journeyman, or one 
+could be superior guru and the other "no skill" (provided 
+the player has enough knowledge). In contrast, a player's 
+knowledge levels can both reach superior guru, i.e. both 
+maul knowledge and swarm knowledge could be superior guru. 
+
+A Calian can "practice" the form of a special up to the 
+level of the corresponding knowledge skill by using the 
+special against an opponent in battle. Practice begins with 
+"cpractice start". Subsequently, each time a special gets 
+used against an opponent, its form level increases (but 
+never to above its knowledge level). At the same time, the 
+form level of the other special will decrease by the same
+amount. For example, each time swarm is used while practicing, 
+a number of levels could be added to swarm form, and the same 
+number of levels subtracted from maul form. The reason for 
+having "cpractice start" (and "cpractice stop") is to allow 
+players to keep form skills at fixed levels (e.g. both at
+sup journeyman). 
+
+
+Values
+------
+The following values apply where swarm/maul are used against 
+powerful opponents (average stat 100). The lower the average 
+stat of the opponent, the longer it takes to practice. 
+
+For the maul special (which has a cycle of 20 seconds), 
+the number of form levels raised by one use of maul against 
+an opponent varies between an average of 7 (when the player 
+has maul form between 1 and 10) to an average of 2 (when the 
+player has maul form between 91 and 99). It takes on average 
+just over seven minutes of constant mauling to train maul's 
+form from a level of 1 to 100. 
+
+For the swarm special (which has a cycle of 10 seconds), 
+the number of form levels raised by one use of swarm against 
+an opponent varies between an average of 3.5 (when the player 
+has swarm form between 1 and 10) to an average of 1 (when the 
+player has swarm form between 91 and 99). It takes on average 
+just over seven minutes of constant mauling to train swarm's 
+form from a level of 1 to 100. 
+
+The time to train a special's form from a level of 1 to 
+100 will likely be significantly more than 7 minutes on 
+average due to breaks between combat, stuns on the player 
+etc. 
+
+I suggest taxing this feature by increasing the combat aid
+of the more powerful special by 1 / 6 of its value. If the
+specials had been typical alternatives, the increase of 
+combat aid would have been 1 / 3 according to recent rules. 
+
+Maniac 19/9/01, 29/9/01 (approved by AoB after modifications)

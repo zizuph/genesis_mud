@@ -1,0 +1,45 @@
+TRACKERS:
+
+Trackers are basically spies/bounty hunters. In-character, trackers
+are typically employed by mercenaries, town guards, etc. to track
+down wanted people. Most of the time, a tracker's job ends when
+the target is found, they don't actually fight, so their combat
+skills aren't much.
+
+SKILLS:
+=======================================================================
+Type codes: T  - Thief
+            W  - Weapon
+            GF - General fighting
+            G  - General
+
+Skill        Skill   Training  Trained Adv. Guild Taxable Type Tax
+name         number  location    to     limit      diff.
+-----        ------  --------  ------- ---------- ------- ---- ---
+Sneak        54                50       20        30      T    0.5
+Hide         55                50       20        30      T    0.5
+Defense      24                40       30        10      GF   0.25
+Sword        0                 35       30        5       W    0.125
+Awareness    110               65       50        15      G    0.25
+Hunting      108               50       30        20      G    0.33
+Loc. Sense   106               50       30        20      G    0.33
+Tracking     107               75       30        45      G    0.75
+                               ---                ---          -----
+                               415                170          3.035%
+
+=======================================================================
+
+ABILITIES:
+=======================================================================
+Track-modification:
+    Trackers will have to ability to erase or alter their tracks
+    as they move about. This means they will either leave no tracks,
+    or a human tracker can leave goblin tracks. Other trackers may
+    be able to 'see through' the fakes or concealed tracks, however.
+Double-back:
+    An extension of track modification, trackers can double-back
+    over their own tracks to leave a false trail for people following.
+    Again, other trackers may be able to see through the double-back.
+Messages:
+    Trackers can leave behind markers in outdoor rooms that serve
+    as messages for other trackers.

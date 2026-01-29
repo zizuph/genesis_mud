@@ -1,0 +1,154 @@
+kabal_plaza
+::MAPDATA::
+beggar_hut 39 17 central_plaza
+entrance 39 17 central_plaza
+high-circle-north 39 17 central_plaza
+high-circle-south 39 17 central_plaza
+house1 39 17 central_plaza
+house2 39 17 central_plaza
+house3 39 17 central_plaza
+house4 39 17 central_plaza
+kitchen1 39 17 central_plaza
+kitchen2 39 17 central_plaza
+kitchen3 39 17 central_plaza
+kitchen4 39 17 central_plaza
+libr 39 17 central_plaza
+post_office 39 17 central_plaza
+s1 39 17 central_plaza
+s2 39 17 central_plaza
+s3 39 17 central_plaza
+s4 39 17 central_plaza
+s5 39 17 central_plaza
+s6 39 17 central_plaza
+s7 39 17 central_plaza
+s8 39 17 central_plaza
+s9 39 17 central_plaza
+s10 39 17 central_plaza
+s11 39 17 central_plaza
+s12 39 17 central_plaza
+s13 39 17 central_plaza
+s14 39 17 central_plaza
+sq_bank 39 17 central_plaza
+sq_east 39 17 central_plaza
+sq_mon 39 17 central_plaza
+sq_north 39 17 central_plaza
+sq_pigeon 39 17 central_plaza
+sq_sage 39 17 central_plaza
+sq_south 39 17 central_plaza
+sq_west 39 17 central_plaza
+sq_st_ne 39 17 central_plaza
+sq_st_nw 39 17 central_plaza
+sq_st_se 39 17 central_plaza
+sq_st_sw 39 17 central_plaza
+::MAPDATA::
+ ____________________________________________________________________________ 
+|                                                                            |
+|                  The City                                                  |
+|         ===        of Kabal                                     ===        |
+|        |   |                                             :     |   |       |
+|         =||=============================================H:H=====||=        |
+|          ||. . . . . . . . . . . . . . . . . . . . . . . : . . .||         |
+|          ||.`.           | .        |                    :     .||         |
+|          ||.  `. - - - - - . - - - - - - - - - - - - - -.`- -| .||         |
+|          ||. Nobel       | .        |    Wayfarer     .`     | .||         |
+|          ||.   Estates  /  .        |               .`       | .||         |
+|          HH.        `. |   .        |             .`         | .||         |
+|         - -.- - - - - - - -.- - - - - - - - - - .`- - - - - -| .||         |
+|         =HH. . . . . . . . . . . . .|. . . . . . . . . . . . . .||         |
+|        |   |       .                | Arena  .               | .||         |
+| ~~~~~~~~===~~~     . Promenade      |     .` . Market        | .||         |
+| `~~~~~~~~~~~  ~~   .           Town |   .`   .  Town         | .||         |
+|             ~~  ~~ . .        Square| .`     .               | .||        ~|
+|               ~~  ~~ . .            .`       .               | .||     .~~ |
+|                 ~~  ~~ . .         /|\- - - -.- - - - - - - -| .||    ~~ ~~|
+|                   ~~  ~~ . . . . . .|. . . . . . . . . . . . . .=== ~~ ~~  |
+|                     ~~  ~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~|   | ~     |
+|                       ~~~~~~~~~~~~~~|~~~~~~~~~~~~~~~~~~~~~~~~~~~===        |
+|                            . . . . .|. . . . .                           .~|
+|         .~.~ .~.     .~` `~. ===   |_|       .                       .~`   |
+|     .~`          `~`       .    | |   |.~.   .         .~. .~.   .~`       |
+| .~` ~~    ~~               .   Port   === '. .     .~`   ~~    `    ~~     |
+| ~~              ~~         .     District   `.`.~`  ~~       ~~            |
+|     ~~             ~~      .   ===========   .   ~~              ~~        |
+|           ~~               .     ||          .        ~~      ~~      ~~   |
+|   ~~            ~~         . . . . . . . . . .   ~~       ~~               |
+|____________________________________________________________________________|
+
+::NEWMAP::
+central_plaza
+::MAPDATA::
+beggar_hut 15 30
+entrance 53 18
+high-circle-north 37 3
+high-circle-south 37 29
+house1 10 4
+house2 10 24
+house3 68 6
+house4 67 26
+kitchen1 6 6
+kitchen2 6 26
+kitchen3 68 3
+kitchen4 67 29
+libr 53 21
+post_office 30 26
+s1 23 3
+s2 51 3
+s3 58 6
+s4 58 9
+s5 65 16
+s6 58 23
+s7 58 26
+s8 51 29
+s9 23 29
+s10 16 26
+s11 16 23
+s12 9 16
+s13 16 9
+s14 16 6
+sq_bank 21 19
+sq_east 50 16
+sq_mon 37 16
+sq_north 37 9
+sq_pigeon 23 26
+sq_sage 45 26
+sq_south 37 23
+sq_west 24 16
+sq_st_ne 49 9
+sq_st_nw 26 9
+sq_st_se 49 23
+sq_st_sw 26 23
+::MAPDATA::
+ ____________________________________________________________________________ 
+|                     _ _ _ _ _ _|       |_ _ _ _ _ _           _ _-_-_-_    |
+|        .`\        .`               |               `.        |         |   |
+|      .`   \     .`   o-------------o-------------o    `.     |    o    |   |
+|    .`\  o  \  .`   .` _ _ _ _ _ _  |  _ _ _ _ _ _  `.    `.  |_ _ | _ _|   |
+|  .`   .`  .`.`  .`   | City      | | |  Council  |    `.  |  |    |    |   |
+|  \  o` \.` |  o      |  Council  | | |  of Lords |      o | [|    o    |   |
+|   \   .`   |  |      |_ _ _ _ _`.  |  .`_ _ _ _ _|      | |  |_ _ _ _ _|   |
+|    \.`     |  |                  `.|.`                  | |      - - -     |
+|            /  o---------o----------o-----------o--------o  \               |
+|           /  /   _ _ _ _ _       .`|`.        _ _ _ _ _  \  \              |
+|          /  /   /         |    .`  |  `.     \         \  \  \             |
+|         /  /   / Barracks |  .`    |   {@.    \         \  \  \            |
+|        /  /   /         .` .`      |--(%%)`.   \   Fire  \  \  \           |
+|_ _ _ _/  /   /      \ .` .`        |   == \ `.    /Brigade\  \  \_ _ _ _ _ |
+|         /   / _ _ _. \ .`          |   II     `. /  _ _ _ _\  \            |
+| -------o    _ _ _ _   o------------o--_IL_  ----o              o--------   |
+|_ _ _ _  \   \      ` / `.          | /____\   .` `. ``.       /  _ _ _ _ _ |
+|       \  \   \      / `. `.        |        .`  .` o Library /  /          |
+|     .`\\  \   \    o    `. `.      |      .`   |   |   |    /  /           |
+|   .`   \\  \   \   Bank   |  `.    |    .`     |---|---|   /  /            |
+| .`      \\  \   \_ _ _ _ _|    `.  |  .`       |   o   |  /  /             |
+|`       .`\\  \                   `.|.`          -------  /  /              |
+|      .`   \\  o---------o----------o-----------o--------o  /               |
+|\   .`\  o  \| |    -----------   .`| `.    .``.         | |  _ _-_-_-_     |
+| \.`   .`  .`| |   | Pigeons   .`   |    `.  QM `.       | | |         |    |
+|  \  o` \.`  | o   |  o------o   |  |  .`   o    |       o |[|    o    |    |
+|   \   .`    `.  `. `.      Post |  |  | Hernan  |     .`  | |_ _ | _ _|    |
+|    \.`     /---\  `. `.---------   |  |---------|  .`    .` |    |    |    |
+|            |   |`.   o-------------o-------------o    .`    |    o    |    |
+|            |[ ]|  `._ _ _ _ _ _    |    _ _ _ _ _ _.`       |_ _ _ _ _|    |
+|                                |   |   |                        - - -      |
+|____________________________________________________________________________|
+

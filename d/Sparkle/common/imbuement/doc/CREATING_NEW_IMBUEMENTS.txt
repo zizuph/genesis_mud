@@ -1,0 +1,145 @@
+=========================
+  Adding new imbuements
+=========================
+
+NOTE: I am preparing this document as an afterthought that should most
+      definitely have been a core aspect of design followthrough from
+      the outset. Insodoing I am hopeful that I have remembered all
+      aspects of the design, but I am quite sure that might not be
+      the case. The imbuement system is complex in both its layout and
+      its cosmetic presentation, including numerous important files
+      that connect the system to the mortal world. 
+
+      In the case that I neglect to include an important aspect of
+      the design in this document, please correct/supplement as needed.
+
+      Gorboth, Sept. 2020
+
+      NOTA BENE: New imbuement creation is only and expressly permitted
+                 by the Genesis Administration and those they deem
+                 capable of doing it correctly and according to
+                 approved design and balance considerations! It should
+                 be a rare and careful process.
+
+
+Important files/folders:
+=======================
+
+  * /d/Sparkle/area/orc_temple/npc/enchanter.c
+
+      - the npc that handles imbuement/player transactions/info
+
+  * /d/Genesis/ateam/aod/imbuement/imbuement_generator.c
+
+      - the object that controls global imbuement generation
+
+  * /d/Genesis/ateam/aod/imbuement/obj/imbuement_stone.c
+
+      - the master object inheritance for all imbuement stones.
+
+  * /d/Genesis/imbuement/shadows/
+
+      - location of all imbuement shadows, and where you would
+        put new ones that you create.
+
+
+Mandatory steps when creating new imbuements:
+============================================
+
+  * in enchanter.c:
+
+    - add to the global mapping Create_Stone as follows:
+
+                        "shadow_id"          : "stonename",
+
+         [example ...]  "damage_acid"        : "ruststone",
+
+      where shadow_id is the name given to the shadow for that
+      imbuement and stonename is the short description of the stone.
+
+    - in the id_imbuements() function add to the mod_secrets mapping
+      an appropriate bit of info that will be revealed by a magic-id
+      spell or other type of reveal. Please be sure to include your
+      new mapping element alphabetically within the existing array.
+      The mapping element should be the name of the shadow for the
+      given imbuement you have created.
+
+  * in imbuement_generator.c:
+
+    - add to the global mapping stone_results as follows:
+
+                        "stonename"   : "shadow_id",
+
+         [example ...]  "ruststone"   : "damage_acid",
+
+      where stonename is the short description of the stone, and
+      shadow_id is the name given to the shadow for that imbuement.
+      Again, keep things alphabetical consistent with the current
+      index.
+
+    - Determine if the imbuement is meant to apply only to weapons,
+      only to armours, or to both types, and then add the shadow_id
+      to the appropriate array - mods_both, nods_weapon, or mods_armour.
+      Again, alphabetically ...
+
+  * in imbuement_stone.c:
+
+    - add to the global mapping Stone_Descs as follows:
+
+                         "stonename"    : "stone-description-text",
+
+         [example ...]   "ruststone"    : "metal-like smell",
+
+      where stonename is the short description of the stone, and
+      stone-description-text is the information supplied in the
+      long description that is unique to this imbuement which will
+      be added to the object in question.
+
+
+Creating new imbuement shadows:
+==============================
+
+  * The filename of your imbuement shadow must correspond to the name
+    of the shadow_id you have used in the above mandatory steps:
+
+    damage_acid --> /d/Genesis/imbuements/shadows/damage_acid_shadow.c
+
+  * The following are to be inherited and should be studied in depth
+    by anyone creating new imbuement shadows:
+
+    - imbuement_shadow.c        (base file for all imbuement shadows)
+    - bane_base.c               (base file for all race/other hatred)
+    - skill_base.c              (base file for all skill enhancement)
+    - elemental_damage_shadow.c (base file for all elemental damage)
+    - resistance_base.c         (base file for all resistance types)
+
+    Numerous specialized imbuement shadows do not inherit from any
+    base file other than imbuement_shadow as they are for unique
+    ideas (e.g. effect_slow_shadow.c)
+
+  * It is ESSENTIAL that you carefully study the examples laid down
+    by existing shadows and duplicate their functionality with regard
+    to customization of cosmetics, setting of correct values, and
+    other matters. The imbuement system is complex and robust, providing
+    deep immersion and generous response behaviors for mortals. We
+    wish to maintain this going forward with all newly created 
+    imbuements.
+
+
+Taking Things Live:
+==================
+
+The imbuements are such a core part of global design at this point that
+there may be numerous things which are difficult to anticipate in terms
+of all the code handshaking correctly when a new imbuement is meant to
+go live. The safest method is probably to have a new imbuement rollout
+correspond with a game reset. However, that is not always practical or
+best practice.
+
+Most likely, it will be important to reload all files in:
+
+    /d/Genesis/imbuement/
+    /d/Genesis/ateam/aod/imbuement/
+
+    ... and all files specifically mentioned above
+

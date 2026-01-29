@@ -1,0 +1,82 @@
+Hi,
+
+Ok sorry for this loooong mail :)
+
+I'm getting close to done (I hope!) with the baits and the quest. Became alot of details to tend to, to what I first imagined would be something that should be fairly easy ;)
+
+But, I guess there's some details left - especially around the quest setup, like the exp amount maybe the most important. But maybe how/where to keep the defined variables, info and so on. I saw it looked like you started working on something new to manage quests. 
+
+Now all code related to the quest (exception the actual baits) are in the fisherman:
+/d/Khalakhor/inisi/roke/npc/angler.c
+He will be standing at the end of the cadu pier (to expose one of the entrances the the Golbar camp):
+/d/Khalakhor/inisi/roke/nyreese/cadu_pier5.new.c
+The room is made fishable, with the saltwater biom for the time beeing.
+
+The three baits and options are setup with test room for the updated base codes. Could perhaps be good to discuss the numbers, how easy they should be to find.
+
+* Port Macdunn forest
+Room base: /d/Khalakhor/se_speir/plains/room/tforbase.new.c
+Bait: /d/Khalakhor/se_speir/plains/obj/catalpa-worm.c
+The forest consists of 118 rooms. Now setup with 0-3 worms, so on average 1.5 worms per room. Using 50% chance to find a worm with superior layman hunting skill. So if a player scour through the entire forest it would mean on average 89 worms.
+
+* Eil-Gailiath
+Room base: /d/Khalakhor/inisi/galaith/room/isle_base.new.c
+           /d/Khalakhor/inisi/galaith/room/islebase.new.c
+Bait: /d/Khalakhor/inisi/galaith/obj/white-maggot.c
+43 rooms, on average 1.5 worms per room, 50% chance => 32 maggots
+
+* Carisca
+Creature:  /d/Khalakhor/inisi/roke/npc/grugg2.new.c
+          (add it to grugg.c as well? - the version dropping the dust needed for quest)
+Bait: /d/Khalakhor/inisi/roke/obj/grugg-limb.c
+The grugg2 is cloned in 3 rooms
+(grugg in one)
+Grugg can have 5+3 (cut off + leftovers) limbs at most. On average the grugg2 may drop 4 limbs, if the battle last long enough. With 3 monsters a total of 12 limbs in average (16 if we include the grugg.c)
+Perhaps that's too few? Add a couple of more gruggs on the island.
+
+I've also made the snail into bait
+/d/Khalakhor/inisi/roke/obj/snail.new.c
+I added the general bait description to the snail, but maybe I should leave the long description as it were before?
+
+Then for the atmosphere, a suggestion for the two fish metioned in the quest (third option just uses herring, refering to the meal at the local inn as you suggested) that I will send to Arman if it looks good:
+
+void
+nyreesean_bass()
+{
+    name = "bass";
+    short = "nyreesean bass";
+    long = "This is a species of bass found only in the waters " +
+        "around Nyreese. Primarily an ocean-going fish native to " +
+		"the waters of Khalakhor, though it can also be found in " +
+		"shallow coastal waters. Silvery grey in color with a " +
+		"dark-greenish color on the back.\n";
+    adj = ({ "nyreesan" });
+    vol = 5750;
+    wgt = 5750;
+    val = 175;
+    bait_val = 0;
+}
+
+void
+cariscan_devilfish()
+{
+    name = "devilfish";
+    short = "cariscan devilfish";
+    long = "The cariscan devilfish, or the cariscan devil ray, is " +
+	       "a smaller species in the ray family. Native to the waters of " +
+		   "Khalakhor and especially around the island Carisca, it bears " +
+		   "characteristic yellow to orange spots on the back resembling " +
+		   "stains of lava.\n";
+    adj = ({ "cariscan" });
+    vol = 75000;
+    wgt = 75000;
+    val = 2000;
+    bait_val = 0;
+}
+
+And will ask to create a new biom called Nyreese, based on saltwater and then with our two custom fish.
+I will also ask Arman if it's possible for him to make it so that they have a higher chance to be caught if using the correct bait. (If it's possible perhaps make the devilfish very rare with other baits, but normal chance with the correct bait - and then set a higher value so it could be worth fishing for to earn money)
+
+I think that was all for now.. I realize you are busy with other things, and maybe too many details in here. Most important is to get the quest details setup correctly I guess.
+
+--Treacher 

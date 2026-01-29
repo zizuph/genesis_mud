@@ -1,0 +1,342 @@
+main
+::MAPDATA::
+1 0 0 labyrinth
+2 0 0 labyrinth
+3 0 0 labyrinth
+4 0 0 labyrinth
+5 0 0 labyrinth
+6 0 0 labyrinth
+7 0 0 labyrinth
+8 0 0 labyrinth
+9 0 0 labyrinth
+10 0 0 labyrinth
+11 0 0 labyrinth
+12 0 0 labyrinth
+13 0 0 labyrinth
+14 0 0 labyrinth
+15 0 0 labyrinth
+16 0 0 labyrinth
+17 0 0 labyrinth
+18 0 0 labyrinth
+19 0 0 labyrinth
+20 0 0 labyrinth
+21 0 0 labyrinth
+22 0 0 labyrinth
+23 0 0 labyrinth
+24 0 0 labyrinth
+25 0 0 labyrinth
+26 0 0 labyrinth
+27 0 0 labyrinth
+28 0 0 labyrinth
+29 0 0 labyrinth
+30 0 0 labyrinth
+31 0 0 labyrinth
+32 0 0 labyrinth
+33 0 0 labyrinth
+34 0 0 labyrinth
+35 0 0 labyrinth
+36 0 0 labyrinth
+37 0 0 labyrinth
+38 0 0 labyrinth
+39 0 0 labyrinth
+40 0 0 labyrinth
+41 0 0 labyrinth
+42 0 0 labyrinth
+43 0 0 labyrinth
+44 0 0 labyrinth
+45 0 0 labyrinth
+46 0 0 labyrinth
+47 0 0 labyrinth
+48 0 0 labyrinth
+49 0 0 labyrinth
+50 0 0 labyrinth
+51 0 0 labyrinth
+52 0 0 labyrinth
+53 0 0 labyrinth
+54 0 0 labyrinth
+55 0 0 labyrinth
+56 0 0 labyrinth
+57 0 0 labyrinth
+58 0 0 labyrinth
+59 0 0 labyrinth
+60 0 0 labyrinth
+61 0 0 labyrinth
+62 0 0 labyrinth
+63 0 0 labyrinth
+64 0 0 labyrinth
+65 0 0 labyrinth
+66 0 0 labyrinth
+67 0 0 labyrinth
+68 0 0 labyrinth
+69 0 0 labyrinth
+70 0 0 labyrinth
+71 0 0 labyrinth
+72 0 0 labyrinth
+73 0 0 labyrinth
+74 0 0 labyrinth
+75 0 0 labyrinth
+76 0 0 labyrinth
+77 0 0 labyrinth
+78 0 0 labyrinth
+79 0 0 labyrinth
+80 0 0 labyrinth
+81 0 0 labyrinth
+82 0 0 labyrinth
+83 0 0 labyrinth
+84 0 0 labyrinth
+85 0 0 labyrinth
+86 0 0 labyrinth
+87 0 0 labyrinth
+88 0 0 labyrinth
+89 0 0 labyrinth
+90 0 0 labyrinth
+91 0 0 labyrinth
+92 0 0 labyrinth
+93 0 0 labyrinth
+94 0 0 labyrinth
+95 0 0 labyrinth
+96 0 0 labyrinth
+97 0 0 labyrinth
+98 0 0 labyrinth
+99 0 0 labyrinth
+100 0 0 labyrinth
+101 0 0 labyrinth
+102 0 0 labyrinth
+103 0 0 labyrinth
+104 0 0 labyrinth
+105 0 0 labyrinth
+106 0 0 labyrinth
+107 0 0 labyrinth
+108 0 0 labyrinth
+109 0 0 labyrinth
+110 0 0 labyrinth
+111 0 0 labyrinth
+112 0 0 labyrinth
+113 0 0 labyrinth
+114 0 0 labyrinth
+115 0 0 labyrinth
+116 0 0 labyrinth
+117 0 0 labyrinth
+118 0 0 labyrinth
+119 0 0 labyrinth
+120 0 0 labyrinth
+121 0 0 labyrinth
+122 0 0 labyrinth
+123 0 0 labyrinth
+124 0 0 labyrinth
+125 0 0 labyrinth
+126 0 0 labyrinth
+127 0 0 labyrinth
+128 0 0 labyrinth
+129 0 0 labyrinth
+130 0 0 labyrinth
+131 0 0 labyrinth
+132 0 0 labyrinth
+133 0 0 labyrinth
+134 0 0 labyrinth
+135 0 0 labyrinth
+136 0 0 labyrinth
+137 0 0 labyrinth
+138 0 0 labyrinth
+139 0 0 labyrinth
+140 0 0 labyrinth
+141 0 0 labyrinth
+142 0 0 labyrinth
+143 0 0 labyrinth
+144 0 0 labyrinth
+145 0 0 labyrinth
+146 0 0 labyrinth
+147 0 0 labyrinth
+148 0 0 labyrinth
+149 0 0 labyrinth
+150 0 0 labyrinth
+::MAPDATA::
+
+    Coming Soon ...
+
+::NEWMAP::
+labyrinth
+::MAPDATA::
+1 38 31
+2 38 29
+3 38 27
+4 38 25
+5 38 23
+6 35 23
+7 31 21
+8 27 19
+9 23 17
+10 27 17
+11 31 19
+12 35 21
+13 35 19
+14 31 17
+15 31 14
+16 35 12
+17 43 12
+18 47 14
+19 47 17
+20 43 19
+21 43 21
+22 47 19
+23 51 17
+24 55 17
+25 51 19
+26 47 21
+27 43 23
+28 43 25
+29 47 23
+30 51 21
+31 55 19
+32 59 17
+33 59 14
+34 55 12
+35 51 10
+36 47 8
+37 43 6
+38 43 8
+39 47 10
+40 51 12
+41 55 14
+42 51 14
+43 47 12
+44 43 10
+45 35 10
+46 31 12
+47 27 14
+48 23 14
+49 27 12
+50 31 10
+51 35 8
+52 35 6
+53 31 8
+54 27 10
+55 23 12
+56 19 14
+57 19 17
+58 23 19
+59 27 21
+60 31 23
+61 35 25
+62 35 27
+63 31 25
+64 27 23
+65 23 21
+66 19 19
+67 15 17
+68 11 17
+69 15 19
+70 19 21
+71 23 23
+72 27 25
+73 31 27
+74 35 29
+75 35 31
+76 31 29
+77 27 27
+78 23 25
+79 19 23
+80 15 21
+81 11 19
+82 7 17
+83 7 14
+84 11 12
+85 15 10
+86 19 8
+87 23 6
+88 27 4
+89 31 2
+90 35 0
+91 35 2
+92 31 4
+93 27 6
+94 23 8
+95 19 10
+96 15 12
+97 11 14
+98 15 14
+99 19 12
+100 23 10
+101 27 8
+102 31 6
+103 35 4
+104 43 4
+105 47 6
+106 51 8
+107 55 10
+108 59 12
+109 63 14
+110 67 14
+111 63 12
+112 59 10
+113 55 8
+114 51 6
+115 47 4
+116 43 2
+117 43 0
+118 47 2
+119 51 4
+120 55 6
+121 59 8
+122 63 10
+123 67 12
+124 71 14
+125 71 17
+126 67 19
+127 63 21
+128 59 23
+129 55 25
+130 51 27
+131 47 29
+132 43 31
+133 43 29
+134 47 27
+135 51 25
+136 55 23
+137 59 21
+138 63 19
+139 67 17
+140 63 17
+141 59 19
+142 55 21
+143 51 23
+144 47 25
+145 43 27
+146 40 27
+147 40 25
+148 40 23
+149 40 21
+150 40 19
+::MAPDATA::
+                                   %%% % %%%
+     %                        %% %%%%%%%%%%%%% %%                       %
+                       %       %%%%%%%%%%%%%%%%%       %
+                %         %  %% %%%%%%% %%%%%%% %%  %        %
+                          %%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %                    %% %%%% %%%%%%%%%%%%%%%%%%% %%%% %%                  %
+               %       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%       %
+         %        %  %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%  %        %
+                  %%%%%%%%%% %%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%
+              %% %%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%%% %%
+       %       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%       %
+          %  %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%  %
+          %%%%%%%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%
+      %% %%%% %%%%%%%%%%%%%%%%%%%%%%%     %%%%%%%%%%%%%%%%%%%%%%% %%%% %%
+       %%%%%%%%%%%%%%%%%%%%%%%%%%%           %%%%%%%%%%%%%%%%%%%%%%%%%%%
+        %%%%%%%%%%%%%%%%%%%%%%%%%             %%%%%%%%%%%%%%%%%%%%%%%%% 
+        %%%%%%%%%%%%%%%%%%%%%%%%%     ???     %%%%%%%%%%%%%%%%%%%%%%%%% 
+       %%%%%%%%%%%%%%%%%%%%%%%%%%%           %%%%%%%%%%%%%%%%%%%%%%%%%%%
+      %% %%%% %%%%%%%%%%%%%%%%%%%%%%%     %%%%%%%%%%%%%%%%%%%%%%% %%%% %%
+          %%%%%%%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%
+          %  %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%  %
+       %       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%       %
+              %% %%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%%% %%
+                  %%%%%%%%%% %%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%
+         %        %  %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%  %        %
+    ========   %       %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%       %
+ %   Warden           %% %%%% %%%%%%%%%%%%%%%%%%% %%%% %%                   %
+      Swamp               %%%%%%%%%%%%%%%%%%%%%%%%%%%
+    ========     %        %  %% %%%%%%% %%%%%%% %%  %        %
+                       %       %%%%%%%%%%%%%%%%%       %
+     %                        %% %%%%%%%%%%%%% %%                       %
+                                   %%% % %%%

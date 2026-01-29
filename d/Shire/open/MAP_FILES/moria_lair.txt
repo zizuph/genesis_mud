@@ -1,0 +1,21 @@
+main
+::MAPDATA::
+lair6 13 2
+stair0 13 5
+lair5 9 6
+stair1 13 6
+lair4 17 6
+stair2 13 7
+lair3 9 8
+lair 13 8
+lair2 17 8
+::MAPDATA::
+
+
+             o
+            / \
+           /   \
+          / [ ] \
+         o  [ ]  o
+         |  [ ]/ |
+         o -[ ]- o

@@ -1,0 +1,27 @@
+Name: Detect exits
+
+Object: /d/Sparkle/guilds/arcane/spells/detect_exit.c
+
+Cost:
+
+Skills:
+
+Description: Tier 0 spell (default)
+                 Targets: N/A
+		 Has a chance of detecting any non-obvious exits
+                 from the caster's current room. Sometimes it reports
+		 all non-obvious exits, sometimes not all, sometimes
+		 not any. For any case, the caster is not informed if
+		 the result really means they have found the all of
+		 the exits (if any). Example: standing in a room that
+		 has 3 non-obvious exits, the caster might see any
+		 number of them, or none, but if any are shown, they
+		 would see: "You sense that it might be possible to
+		 travel south and east from here."
+		 Also, for some castings, it might not only fail to
+		 detect, it might report non-existing exits.
+
+Requirements:
+    SS_ELEMENT_EARTH
+    SS_FORM_DIVINATION
+    Quartz

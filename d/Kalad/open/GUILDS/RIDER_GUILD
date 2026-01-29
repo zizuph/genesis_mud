@@ -1,0 +1,64 @@
+-The Red Fang Riders(wolf riding layman guild)
+
+  All the guild files are in /d/Kalad/common/wild/pass/goblin/guild/riders
+  with the soul being /rider_soul.c
+  shadow in /rider_shadow.c
+  and joinroom in /joinroom.c
+
+This is the tax computation for the guild:
+
+SS_WEP_SWORD 50 (20 above adv. guild), taxed at 1.5% per 60 levels
+(1.5/60) * 20 = 0.5%
+
+SS_SNEAK 45 (25 above adv. guild), taxed at 1.0% per 60 levels
+(1.0/60) * 25 = .41%
+
+SS_HIDE 45 (25 above adv. guild), taxed at 1.0% per 60 levels
+(1.0/60)* 25 = .41%
+
+SS_BLIND_COMBAT 50 (30 above adv. guild), taxed a 1.5% per 60 levels
+(1.5/60) * 30 = 0.75%
+
+SS_TRACKING 60 (30 above adv. guild), taxed at 1.0% per 60 levels
+(1.0/60) * 30 = 0.5%
+
+SS_PARRY 50 (30 above adv. guild), taxed at 1.5% per 60 levels
+(1.5/60) * 30 = 0.75%
+
+Total: 3.32
+Total Amount of skill levels above limit in 'man skills': 200
+
+
+Special skill SS_WOLF_RIDING 100, ability to ride wolves around. The 
+wolves themselves enabler the guild special.
+Members who are also a member of the Red Fang Racial guild are already
+taxed for this ability, so they will not be taxed here. However,
+non-members will be taxed at an extra 2%.
+ 
+Special skill SS_WOLF_HANDLING 100, the ability to handle your wolf in 
+combat, this skill determins how much damage your wolf can do, under 
+your control. Weather or not you can jerk his head to the right spot 
+to slash for max damage. It is guild specific for the combat special.
+
+GUILD SPECIAL:
+"rslash" -wolf slashes at oponent, well it looks that way anyway, it's
+relaly the player who executes the attack, but it appears the wolf does.
+
+It can be used once every eight rounds, which is once every 16 seconds.
+Damage is dependant on skill of wolf handling, and the rider's discipline
+stat. The formula is this: F_PENMOD(MIN(50,random (21)+(dis/4),skill)
+Thus, at the most, 50 is the value for the pen. This would only be used if
+the player's dis somehow exceeded 200. This the absolute max would be a
+pen of 336. Taken at 1/8 rounds = 12.5% of the time. 12.5% * (336/280) =
+15%. Since it is skill dependant, we divide it in half to  7.5% combat
+aid. At 1% per 6% combat aid, we get: 1.25%
+280 is the F_PENMOD(40,100) which is the max value for non-magical
+weapons.
+
+The guild offers an pub and store exclusivly for riders - 1%
+
+Total: 1% + 1.25% + 3.32% = 5.57 -> 6% (this is for fang race guild members)
+We add an extra 2% for the wolf riding ability(no fatigue taken while on
+wolf)
+Total for non-fang race guild members 6% + 2% = 8%
+

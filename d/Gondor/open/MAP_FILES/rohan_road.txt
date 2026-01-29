@@ -1,0 +1,270 @@
+main
+::MAPDATA::
+wr13 50 14 r1
+wr14 50 14 r1
+mering 50 14 r1
+er7 50 14 r1
+er6 49 13 r1
+b14 54 13 r1
+c15 54 13 r1
+c14 54 13 r1
+c13 54 13 r1
+er5 49 13 r1
+er4 49 13 r1
+d12 54 13 r1
+d13 54 13 r1
+d14 54 13 r1
+d15 54 13 r1
+str6 54 13 r1
+ent1a 54 13 r1
+ent1b 54 13 r1
+ent1d 54 13 r1
+ent1c 54 13 r1
+ent2a 54 13 r1
+ent2b 54 13 r1
+ent2c 54 13 r1
+ent2d 54 13 r1
+ent2e 54 13 r1
+ent3a 54 13 r1
+ent4a 54 13 r1
+ent4d 54 13 r1
+ent4c 54 13 r1
+ent4b 54 13 r1
+ent3b 54 13 r1
+ent3c 54 13 r1
+ent3d 54 13 r1
+ent3e 54 13 r1
+ent3f 54 13 r1
+ent3g 54 13 r1
+ent3h 54 13 r1
+ent3i 54 13 r1
+er3 48 12 r1
+er2 47 11 r1 
+er1 43 10 r1
+crossroad 40 10 r1
+wr1 37 10 r1
+e11 54 13 r1
+e12 54 13 r1
+e13 54 13 r1
+e14 54 13 r1
+f12 54 13 r1
+f11 54 13 r1
+g11 54 13 r1
+g10 54 13 r1
+willows 54 13 r1
+h10 39 8 r1
+h09 39 8 r1
+h08 39 8 r1
+h07 39 8 r1
+i10 39 8 r2
+j10 39 8 r2
+k10 39 8 r2
+l10 39 8 r2
+l09 39 8 r2
+k09 39 8 r2
+j09 39 8 r2
+i09 39 8 r2
+i08 39 8 r2
+j08 39 8 r2
+k08 39 8 r2
+l08 39 8 r2
+l07 39 8 r2
+k07 39 8 r2
+j07 39 8 r2
+i07 39 8 r2
+i06 39 8 r2
+j06 39 8 r2
+k06 39 8 r2
+l06 39 8 r2
+l05 39 8 r2
+k05 39 8 r2
+j05 39 8 r2
+j04 39 8 r2
+k04 39 8 r2
+k03 39 8 r2
+wr2 34 10 r2
+wr3 33 9 r2
+wr4 33 9 r2
+wr5 32 8 r2
+wr6 31 7 r2
+helmsroad 31 8 r2
+wr7 31 7 r2
+f01 30 6 r2
+f02 30 6 r2
+eyot 30 6 r2
+f03 29 5 r2
+f04 28 4 r2 
+r01 27 3 r2
+::MAPDATA::
+
+  \                     /   \   \/ \                                  ~~~~
+   \                    ISENGARD \  \                                ~~~~
+    -----------------------O       Fangorn Forest                   ~~~~
+                       ~~~~ \                                      ~~~~
+                   ~~~~~     \                ~                   ~~~~
+              ~~~~~~          \                ~                 ~~~~
+        ~~~~~~~                \   West Emnet   ~               ~~~~
+~~~~~~~~~                Helms o\                ~~~~         ~~~~
+                         Deep    \                   ~       ~~~~
+                                  \-----+------       ~~~~~~~~~~~~
+                                        |      \            ~~~~~
+                         +-----+        O       \             ~~~~~       Nort
+                         |ROHAN|      EDORAS     \              ~~~~~     Ithi
+                         +-----+                  \              ~~~~~
+                                                   --------\      ~~~~~
+                                                      MINAS \      ~~~~~
+                                  White Mountains     TIRITH \  OSGILIATH
+                                                           O-+----O=====------
+                                              +------+       |   / ~~~~~
+                                              |GONDOR|       |  / ~~~~~
+                                              +------+       | / ~~~~~     Sou
+
+::NEWMAP::
+r1
+::MAPDATA::
+wr13 51 18
+wr14 47 18
+mering 43 18
+er7 39 18
+er6 35 16
+b14 39 16
+c15 43 14
+c14 39 14
+c13 35 14
+er5 31 14
+er4 27 12
+d12 31 12
+d13 35 12
+d14 39 12
+d15 43 12
+str6 47 12
+ent1a 51 12
+ent1b 55 10
+ent1d 59 8
+ent1c 55 8
+ent2a 55 12
+ent2b 59 10
+ent2c 63 8
+ent2d 55 14
+ent2e 59 14
+ent3a 59 12
+ent4a 63 12
+ent4d 67 12
+ent4c 67 14
+ent4b 63 14
+ent3b 63 10
+ent3c 67 8
+ent3d 67 10
+ent3e 71 12
+ent3f 75 10
+ent3g 75 8
+ent3h 71 8
+ent3i 71 10
+er3 19 10
+er2 19 8
+er1 15 6
+crossroad 11 6
+wr1 7 6
+e11 27 10
+e12 31 10
+e13 35 10
+e14 39 10
+f12 31 8
+f11 27 8
+g11 27 6
+g10 19 6
+willows 23 4
+h10 19 4
+h09 15 4
+h08 11 4
+h07 7 4
+::MAPDATA::
+
+   |   |   |   |   |
+ - o - o - o - o - o
+ \ |   |   |   |   |
+   o - o - o - o - o   o
+     \ |   |   |   | /   \
+       o - o - o - o ----- o
+           |     \ |       |
+           |       o ----- o - o                       o   o   o   o   o - o
+           |       |       |   |                       | /   /   / |   |   |
+           |       o ----- o - o - o - o               o   o   o   o   o   o
+           |         \____ |   |   |   |             /   /   /       \   /
+                           o - o - o - o - o - o - o - o - o - o - o   o
+        Edoras               \ |   |   |   |           |       | \
+                               o - o - o - o           o - o   o   o
+                                 \ |   | /
+                                   o - o
+                                     \ |
+                                       o - o - o - o
+                                                     \
+                                                       o - o - o
+                                                               | \
+
+::NEWMAP::
+r2
+::MAPDATA::
+i10 70 18
+j10 70 16
+k10 70 14
+l10 70 12
+l09 66 12
+k09 66 14
+j09 66 16
+i09 66 18
+i08 62 18
+j08 62 16
+k08 62 14
+l08 62 12
+l07 58 12
+k07 58 14
+j07 58 16
+i07 58 18
+i06 54 18
+j06 54 16
+k06 54 14
+l06 54 12
+l05 50 12
+k05 50 14
+j05 50 16
+j04 46 16
+k04 46 14
+k03 42 14
+wr2 54 20
+wr3 50 18
+wr4 46 18
+wr5 42 16
+wr6 38 14
+helmsroad 38 16
+wr7 34 12
+f01 30 12
+f02 26 10
+eyot 26 8
+f03 22 8
+f04 18 6
+r01 14 4
+::MAPDATA::
+
+    \         |
+      o - o   o
+            \ |
+              o
+                \
+                  o
+                    \                                Fangorn Forest
+                      o   o
+                        \ |
+                          o
+                            \
+                              o - o               o - o - o - o - o - o
+                                    \             |   |   |   |   |   |
+                                      o - o - o - o - o - o - o - o - o
+                                      | \ |   |   |   |   |   |   |   |
+                                      o - o - o - o - o - o - o - o - o
+                                    /       \ |   |   |   |   |   |   |
+                                  o           o - o - o - o - o - o - o
+                                  |                 \ |   |   |   |   |
+                                                      o - o - o - o - o   o
+                             Helm's Deep                \ |   |   |   | /   \
+

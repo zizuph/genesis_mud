@@ -1,0 +1,49 @@
+*****************************************************************************
+                             TAX INFORMATION
+*****************************************************************************
+AG = Adventures Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)
+
+Basic Skills:
+                   max level   taxed(AG)    taxable    modifier      tax 
+                   ---------   ---------   --------    --------    -----    
+Herbalism             50           20         30          1.0        0.5
+SpellCraft            50           20         30          1.0        0.5
+Alchemy               10           10          0          1.0        0
+Life Element          20           20          0          1.0        0
+Air Element           20           20          0          1.0        0
+Divination            20            0         20          1.0        0.33
+Conjuration           20            0         20          1.0        0.33
+Language              50           30         20          1.0        0.33
+Location Sense        50           30         20          0.5        0.16
+Climb                 40           30         10          1.0        0.16
+Swim                  30           30          0          1.0        0
+Defence               20           20          0          1.5        0
+Blind Combat          20           20          0          2.0        0
+                     ---          ---        ---         ----        ---
+                     400          250        150                     2.31
+
+Taxable Slots Allowed: 150
+Actual Taxable Slots: 150
+
+Maximum AG Slots Allowed: 250
+Actual AG Slots Used: 250
+
+**Spells**
+summon - Messenger spell 1.0
+aura   - Alignment spell 0.5
+
+**Combat aid**
+none
+****************************************************************************
+            Taxation Summary
+Skill Tax Total:        2.31
+Spells                  1.50
+                        ----
+Total Tax:              3.81%
+
+Rounded Total Tax       4.0%
+
+Total Tax allowed race 10.0%
+*****************************************************************************

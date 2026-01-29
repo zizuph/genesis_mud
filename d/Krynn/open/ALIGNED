@@ -1,0 +1,34 @@
+Aligned Objects in Krynn
+========================
+Last modified by:
+Teth, Feb 23, 1997
+
+This document has a twofold purpose. The first is to record
+those objects in Krynn which are both holy and sacred, or
+defiled and malevolent. The hope of documenting these items
+is that other domains will follow suit, and there will be a
+time in the future that the OBJ_I_ALIGN prop can be used
+within guild and domain code extensively.
+
+The second purpose of this document is to provide a guideline
+for the integer values of objects with alignment, both for Krynn
+and other domains' use.
+
+Weapons
+-------
+Wyrmsbane (/d/Krynn/common/weapons/wyrmsbane.c)
+	- Alignment of 600, the requirement to wield.
+
+Nightbringer (/d/Krynn/pax/weapon/nightbringer.c)
+	- Alignment of -600, the requirement to wield.
+
+Armours
+-------
+Amulet of Morgion (/d/Krynn/common/armours/wcm_amulet.c)
+	- Alignment of -900, same as its bearer, who is a cleric
+          of a god of disease and decay.
+Objects
+-------
+Disks of Mishakal (/d/Krynn/common/objects/disks_of_mish.c)
+	- Alignment of 1150, it is a holy artifact of a healing god,
+          but it is forged by mortal hands (elsewise I'd make it 1200).

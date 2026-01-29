@@ -1,0 +1,142 @@
+main
+::MAPDATA::
+aeropagus 33 10
+amph1 43 16
+amph2 43 18
+amph3 46 16
+amph4 50 19
+aroad10 22 24
+aroad11 30 24
+aroad12 33 24
+aroad13 39 24
+aroad14 45 24
+aroad15 50 24
+aroad16 56 24
+aroad7 5 24
+aroad8 11 24
+aroad9 16 24
+bank 17 10
+boardrm 11 6
+brasswrk 45 4
+coop 9 10
+court 3 26
+court1 27 26
+court2 30 26
+court3 33 26
+croad11 26 13
+croad12 33 13
+croad14 43 13
+croad15 52 13
+croad8 9 13
+croad9 16 13
+depot 26 10
+droad10 22 10
+droad11 22 13
+droad12 22 15
+droad13 22 18
+droad14 22 21
+droad8 22 4
+droad9 22 7
+forge 44 7
+foyer 30 28
+glasswrk 34 4
+guardrm 33 28
+hq 27 28
+inn 28 4
+inn2 28 6
+lib1 12 16
+lib2 15 16
+lib3 12 20
+lib4 15 20
+libhall1 12 18
+libhall2 15 18
+lroad10 22 2
+lroad11 28 2
+lroad12 34 2
+lroad13 39 2
+lroad14 45 2
+lroad15 51 2
+lroad16 56 2
+lroad7 5 2
+lroad8 11 2
+lroad9 17 2
+notary_room 47 10
+park1 26 16
+park2 26 18
+park3 26 21
+park4 35 16
+park5 35 18
+park6 35 21
+port1 2 10
+port2 2 13
+port3 2 15
+port4 28 0
+port5 34 0
+port6 39 0
+port7 59 10
+port8 59 13
+port9 59 15
+post 43 10
+press 52 10
+proad10 5 10
+proad11 5 13
+proad12 5 15
+proad13 5 18
+proad14 5 21
+proad8 5 4
+proad9 5 7
+pub 17 4
+sculptor 34 7
+shop 17 7
+thesp1 50 21
+thesp2 47 21
+troad10 56 10
+troad11 56 13
+troad12 56 15
+troad13 56 18
+troad14 56 21
+troad8 56 4
+troad9 56 7
+trroad10 39 10
+trroad11 39 13
+trroad12 39 15
+trroad13 39 18
+trroad14 39 21
+trroad8 39 4
+trroad9 39 7
+visitctr 11 4
+woolwrk 51 4
+::MAPDATA::
+                            o-----o----o
+                            |     |    |
+=====o-----o-----o----o-----o-----o----o-----o-----o----o
+     |  +--+-+ +-+--+ |  +--+-+ +-+--+ |  +--+-+ +-+--+ |
+     o--+--V | |Pub +-o--+--o | |GB  +-o--+-BW | |Wool+-o
+     |  |  | | +----+ |  |I | | +----+ |  +----+ +----+ |
+     |  |  V | +----+ |  |n o | +----+ |  +--------+    |
+     o  +----+ |Shop+-o  |n   | |Art +-o--+-Forge  |    o
+     |         +----+ |  +----+ +----+ |  +--------+    |
+     | +----+ +-----+ | +----+ +-----+ | +---+----+     |
+  o--o-+ o  | |  o  +-o-+ o  |-| o   +-o-+-P-+-o  | o---o--o
+  |  | |Coop| |Bank | | |Ride| |     | | +---+-^--+ |   |  |
+  |  | +-+--+ +-+---+ | +-+--+ +-+---+ |  Archive   |   |  |
+  o--o---o------o-----o---o------o-----o---o--------o---o--o
+  |  |  +----------+  | \            / | \   ,---,      |  |
+  o--o  | +------+ |  o  \          /  o  \,'     `,    o--o
+     |  | | o  o | |  |   o--------o   |  /o--o     \   |
+     |  | | |  | | |  |   |   ,-,  |   | ; |         :  |
+     o--|-|-o--o-|-|--o   o  ( @ ) o   o | o Theatre |  o
+     |  | | |  | | |  |   |   `-'  |   | :        o  ;  |
+     |  | | o  o | |  |   |        |   |  \       | /   |
+     o  | +------+ |  o   o--------o   o   `,  o--o'    o
+     |  | Library  |  |  /   Park   \  |     '---'|     |
+     |  +----------+  | /            \ |          |     |
+=====o-----o----o-----o-------o--o-----o-----o----o-----o
+    /                 |       |        |
+   o                  |    o--o--o     |
+                      |       |        |  V - Visitors Ctr
+ +-------------+      |    o--o--o     |  GB - Glass Shop
+ |City of Argos|      |       |        |  Art- Sculptor
+ +-------------+      |      ===       |  BW - Brass Shop
+                      |  Royal Palace  |  P - Post office
+                      +----------------+

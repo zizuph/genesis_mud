@@ -1,0 +1,1814 @@
+silver forest
+::MAPDATA::
+forest_edge 43 6 silver_road1
+road63 43 7 silver_road1
+road62 43 8 silver_road1
+road61 43 9 silver_road1
+road60 43 10 silver_road1
+road59 43 11 silver_road1
+road58 43 12 silver_road1
+road57 41 12 silver_road1
+road56 39 12 silver_road1
+road55 39 13 silver_road1
+road54 41 13 silver_road1
+road53 43 13 silver_road1
+forest_dd19 41 7 silver_road1
+forest_cc19 41 8 silver_road1
+forest_bb19 41 9 silver_road1
+forest_aa19 41 10 silver_road1
+forest_z19 41 11 silver_road1
+forest_z18 39 11 silver_road1
+forest_z17 37 11 silver_road1
+forest_y17 37 12 silver_road1
+forest_x17 37 13 silver_road1
+forest_dd21 45 7 silver_road1
+forest_cc21 45 8 silver_road1
+forest_bb21 45 9 silver_road1
+forest_aa21 45 10 silver_road1
+forest_z21 45 11 silver_road1
+forest_y21 45 12 silver_road1 
+forest_x21 45 13 silver_road1
+road52 43 14 silver_road2
+road51 43 15 silver_road2
+road50 43 16 silver_road2
+road49 41 16 silver_road2
+road48 41 17 silver_road2 
+road47 41 18 silver_road2
+forest_w17 37 14 silver_road2
+forest_w18 39 14 silver_road2
+forest_w19 41 14 silver_road2
+forest_v19 41 15 silver_road2
+forest_v18 41 16 silver_road2
+forest_u18 39 16 silver_road2
+forest_t18 39 17 silver_road2
+forest_s18 39 18 silver_road2
+forest_w21 45 14 silver_road2
+forest_v21 45 15 silver_road2
+forest_u21 45 16 silver_road2
+forest_t21 45 17 silver_road2
+forest_t20 43 17 silver_road2
+forest_s20 43 18 silver_road2
+road46 41 18 silver_road3
+road45 41 19 silver_road3
+road44 41 20 silver_road3
+road43 39 20 silver_road3
+road42 37 20 silver_road3 
+road41 37 19 silver_road3 
+road40 35 19 silver_road3
+road39 35 20 silver_road3
+road38 35 21 silver_road3 
+road37 37 21 silver_road3
+road36 39 21 silver_road3
+road35 39 22 silver_road3
+road34 39 23 silver_road3
+forest_r18 39 19 silver_road3
+forest_q18 39 20 silver_road3
+forest_r17 37 19 silver_road3
+forest_r16 35 19 silver_road3
+forest_n16 35 23 silver_road3
+forest_n17 37 23 silver_road3
+forest_m17 37 24 silver_road3
+forest_r20 43 19 silver_road3
+forest_q20 43 20 silver_road3
+forest_p20 43 21 silver_road3
+forest_o20 43 22 silver_road3
+forest_o19 41 22 silver_road3
+forest_n19 41 23 silver_road3
+forest_m19 41 24 silver_road3
+road33 39 25 silver_road4
+road32 39 26 silver_road4
+road31 41 26 silver_road4
+road30 43 26 silver_road4
+road29 43 27 silver_road4
+road28 43 28 silver_road4
+road27 43 29 silver_road4
+road26 41 29 silver_road4
+road25 39 29 silver_road4
+road24 37 29 silver_road4
+road23 37 30 silver_road4
+road22 37 31 silver_road4
+road21 35 31 silver_road4
+forest_l17 37 25 silver_road4
+forest_k17 37 26 silver_road4
+forest_j17 37 27 silver_road4
+forest_j18 39 27 silver_road4
+forest_j19 41 27 silver_road4
+forest_i19 41 28 silver_road4
+forest_i18 39 28 silver_road4
+forest_i17 37 28 silver_road4
+forest_l19 41 25 silver_road4
+forest_l20 43 25 silver_road4
+forest_l21 45 25 silver_road4
+forest_k21 45 26 silver_road4
+forest_j21 45 27 silver_road4
+forest_i21 45 28 silver_road4
+forest_h21 45 29 silver_road4
+forest_g21 45 30 silver_road4
+forest_g20 43 30 silver_road4
+forest_g19 41 30 silver_road4
+forest_g18 39 30 silver_road4
+forest_f18 39 31 silver_road4
+forest_e18 39 32 silver_road4
+forest_e17 37 32 silver_road4
+forest_e16 35 32 silver_road4
+road20 35 30 silver_road5
+road19 33 30 silver_road5
+road18 33 29 silver_road5
+road17 31 29 silver_road5
+road16 29 29 silver_road5
+road15 29 30 silver_road5
+road14 29 31 silver_road5
+forest_h16 35 29 silver_road5
+forest_i16 35 28 silver_road5
+forest_i15 33 28 silver_road5
+forest_i14 31 28 silver_road5
+forest_i13 29 28 silver_road5
+forest_i12 27 28 silver_road5
+forest_h12 27 29 silver_road5
+forest_g12 27 30 silver_road5
+forest_f15 33 31 silver_road5
+forest_f14 31 31 silver_road5
+forest_g14 31 30 silver_road5
+forest_e14 31 32 silver_road5
+forest_e13 29 32 silver_road5
+north_gate 31 37 silver_road6
+road02 31 36 silver_road6
+road03 31 35 silver_road6
+road04 31 34 silver_road6
+road05 29 34 silver_road6
+road06 29 35 silver_road6
+road07 27 35 silver_road6
+road08 27 34 silver_road6
+road09 27 33 silver_road6
+road10 27 32 silver_road6
+road11 25 32 silver_road6
+road12 25 31 silver_road6
+road13 27 31 silver_road6
+forest_f10 23 31 silver_road6
+forest_e10 23 32 silver_road6
+forest_d10 23 33 silver_road6
+forest_d11 25 33 silver_road6
+forest_c11 25 34 silver_road6
+forest_b11 25 35 silver_road6
+forest_a11 25 36 silver_road6
+forest_a12 27 36 silver_road6
+forest_a13 29 36 silver_road6
+forest_d13 29 33 silver_road6
+forest_d14 31 33 silver_road6
+forest_d15 33 33 silver_road6
+forest_c15 33 34 silver_road6
+forest_b15 33 35 silver_road6
+forest_a15 33 36 silver_road6
+forest_a16 38 34 deepforest
+forest_a17 38 34 deepforest
+forest_a18 38 34 deepforest
+forest_a19 38 34 deepforest
+forest_a20 38 34 deepforest
+forest_a21 38 34 deepforest
+forest_a22 38 34 deepforest
+forest_a23 38 34 deepforest
+forest_b16 38 34 deepforest
+forest_b17 38 34 deepforest
+forest_b18 38 34 deepforest
+forest_b19 38 34 deepforest
+forest_b20 38 34 deepforest
+forest_b21 38 34 deepforest
+forest_b22 38 34 deepforest
+forest_c16 38 34 deepforest
+forest_c17 38 34 deepforest
+forest_c18 38 34 deepforest
+forest_c19 38 34 deepforest
+forest_c20 38 34 deepforest
+forest_c21 38 34 deepforest
+forest_d16 38 34 deepforest
+forest_d17 38 34 deepforest
+forest_d18 38 34 deepforest
+forest_d19 38 34 deepforest
+forest_d20 38 34 deepforest
+forest_e15 38 34 deepforest
+forest_e19 38 34 deepforest
+forest_a24 50 33 deepforest
+forest_a25 50 33 deepforest
+forest_b23 50 33 deepforest
+forest_b24 50 33 deepforest
+forest_b25 50 33 deepforest
+forest_b26 50 33 deepforest
+forest_c22 50 33 deepforest
+forest_c23 50 33 deepforest
+forest_c24 50 33 deepforest
+forest_c25 50 33 deepforest
+forest_c26 50 33 deepforest
+forest_c27 50 33 deepforest
+forest_d21 50 33 deepforest
+forest_d22 50 33 deepforest
+forest_d23 50 33 deepforest
+forest_d24 50 33 deepforest
+forest_d25 50 33 deepforest
+forest_d26 50 33 deepforest
+forest_d27 50 33 deepforest
+forest_d28 50 33 deepforest
+forest_e20 50 33 deepforest
+forest_e21 50 33 deepforest
+forest_e22 50 33 deepforest
+forest_e23 50 33 deepforest
+forest_e24 50 33 deepforest
+forest_e25 50 33 deepforest
+forest_e26 50 33 deepforest
+forest_e27 50 33 deepforest
+forest_e28 50 33 deepforest
+forest_e29 50 33 deepforest
+forest_f19 50 33 deepforest
+forest_f20 50 33 deepforest
+forest_f21 50 33 deepforest
+forest_f22 50 33 deepforest
+forest_f23 50 33 deepforest
+forest_f24 50 33 deepforest
+forest_f25 50 33 deepforest
+forest_f26 50 33 deepforest
+forest_f27 50 33 deepforest
+forest_f28 50 33 deepforest
+forest_f29 50 33 deepforest
+forest_g22 50 33 deepforest
+forest_g23 50 33 deepforest
+forest_g24 50 33 deepforest
+forest_g25 50 33 deepforest
+forest_g26 50 33 deepforest
+forest_g27 50 33 deepforest
+forest_g28 50 33 deepforest
+forest_g29 50 33 deepforest
+forest_h22 51 25 deepforest
+forest_h23 51 25 deepforest
+forest_h24 51 25 deepforest
+forest_h25 51 25 deepforest
+forest_h26 51 25 deepforest
+forest_h27 51 25 deepforest
+forest_h28 51 25 deepforest
+forest_h29 51 25 deepforest
+forest_i22 51 25 deepforest
+forest_i23 51 25 deepforest
+forest_i24 51 25 deepforest
+forest_i25 51 25 deepforest
+forest_i26 51 25 deepforest
+forest_i27 51 25 deepforest
+forest_i28 51 25 deepforest
+forest_i29 51 25 deepforest
+forest_j22 51 25 deepforest
+forest_j23 51 25 deepforest
+forest_j24 51 25 deepforest
+forest_j25 51 25 deepforest
+forest_j26 51 25 deepforest
+forest_j27 51 25 deepforest
+forest_j28 51 25 deepforest
+forest_j29 51 25 deepforest
+forest_k22 51 25 deepforest
+forest_k23 51 25 deepforest
+forest_k24 51 25 deepforest
+forest_k25 51 25 deepforest
+forest_k26 51 25 deepforest
+forest_k27 51 25 deepforest
+forest_k28 51 25 deepforest
+forest_k29 51 25 deepforest
+forest_l22 51 25 deepforest
+forest_l23 51 25 deepforest
+forest_l24 51 25 deepforest
+forest_l25 51 25 deepforest
+forest_l26 51 25 deepforest
+forest_l27 51 25 deepforest
+forest_l28 51 25 deepforest
+forest_m20 51 25 deepforest
+forest_m21 51 25 deepforest
+forest_m22 51 25 deepforest
+forest_m23 51 25 deepforest
+forest_m24 51 25 deepforest
+forest_m25 51 25 deepforest
+forest_m26 51 25 deepforest
+forest_m27 51 25 deepforest
+forest_n20 51 25 deepforest
+forest_n21 51 25 deepforest
+forest_n22 51 25 deepforest
+forest_n23 51 25 deepforest
+forest_n24 51 25 deepforest
+forest_n25 51 25 deepforest
+forest_o21 51 25 deepforest
+forest_o22 51 25 deepforest
+forest_o23 51 25 deepforest
+forest_o24 51 25 deepforest
+forest_p21 48 19 deepforest
+forest_p22 48 19 deepforest
+forest_p23 48 19 deepforest
+forest_p24 48 19 deepforest
+forest_q21 48 19 deepforest
+forest_q22 48 19 deepforest
+forest_q23 48 19 deepforest
+forest_q24 48 19 deepforest
+forest_r21 48 19 deepforest
+forest_r22 48 19 deepforest
+forest_r23 48 19 deepforest
+forest_r24 48 19 deepforest
+forest_s21 48 19 deepforest
+forest_s22 48 19 deepforest
+forest_s23 48 19 deepforest
+forest_s24 48 19 deepforest
+forest_t22 48 19 deepforest
+forest_t23 48 19 deepforest
+forest_t24 48 19 deepforest
+forest_t25 48 19 deepforest
+forest_u22 48 19 deepforest
+forest_u23 48 19 deepforest
+forest_u24 48 19 deepforest
+forest_u25 48 19 deepforest
+forest_u26 48 19 deepforest
+forest_v22 52 10 deepforest
+forest_v23 52 10 deepforest
+forest_v24 52 10 deepforest
+forest_v25 52 10 deepforest
+forest_v26 52 10 deepforest
+forest_v27 52 10 deepforest
+forest_v22 52 10 deepforest
+forest_w23 52 10 deepforest
+forest_w24 52 10 deepforest
+forest_w25 52 10 deepforest
+forest_w26 52 10 deepforest
+forest_w27 52 10 deepforest
+forest_w28 52 10 deepforest
+forest_x22 52 10 deepforest
+forest_x23 52 10 deepforest
+forest_x24 52 10 deepforest
+forest_x25 52 10 deepforest
+forest_x26 52 10 deepforest
+forest_x27 52 10 deepforest
+forest_x28 52 10 deepforest
+forest_x29 52 10 deepforest
+forest_y22 52 10 deepforest
+forest_y23 52 10 deepforest
+forest_y24 52 10 deepforest
+forest_y25 52 10 deepforest
+forest_y26 52 10 deepforest
+forest_y27 52 10 deepforest
+forest_y28 52 10 deepforest
+forest_y29 52 10 deepforest
+forest_z22 52 10 deepforest
+forest_z23 52 10 deepforest
+forest_z24 52 10 deepforest
+forest_z25 52 10 deepforest
+forest_z26 52 10 deepforest
+forest_z27 52 10 deepforest
+forest_z28 52 10 deepforest
+forest_z29 52 10 deepforest
+forest_aa22 52 10 deepforest
+forest_aa23 52 10 deepforest
+forest_aa24 52 10 deepforest
+forest_aa25 52 10 deepforest
+forest_aa26 52 10 deepforest
+forest_aa27 52 10 deepforest
+forest_aa28 52 10 deepforest
+forest_aa29 52 10 deepforest
+forest_bb22 52 10 deepforest
+forest_bb23 52 10 deepforest
+forest_bb24 52 10 deepforest
+forest_bb25 52 10 deepforest
+forest_bb26 52 10 deepforest
+forest_bb27 52 10 deepforest
+forest_bb28 52 10 deepforest
+forest_bb29 52 10 deepforest
+forest_cc22 52 10 deepforest
+forest_cc23 52 10 deepforest
+forest_cc24 52 10 deepforest
+forest_cc25 52 10 deepforest
+forest_cc26 52 10 deepforest
+forest_cc27 52 10 deepforest
+forest_cc28 52 10 deepforest
+forest_dd22 52 10 deepforest
+forest_dd23 52 10 deepforest
+forest_dd24 52 10 deepforest
+forest_dd25 52 10 deepforest
+forest_dd26 52 10 deepforest
+forest_dd27 52 10 deepforest
+forest_y13 34 9 deepforest
+forest_y14 34 9 deepforest
+forest_y15 34 9 deepforest
+forest_y16 34 9 deepforest
+forest_z13 34 9 deepforest
+forest_z14 34 9 deepforest
+forest_z15 34 9 deepforest
+forest_z16 34 9 deepforest
+forest_aa13 34 9 deepforest
+forest_aa14 34 9 deepforest
+forest_aa15 34 9 deepforest
+forest_aa16 34 9 deepforest
+forest_aa17 34 9 deepforest
+forest_aa18 34 9 deepforest
+forest_bb13 34 9 deepforest
+forest_bb14 34 9 deepforest
+forest_bb15 34 9 deepforest
+forest_bb16 34 9 deepforest
+forest_bb17 34 9 deepforest
+forest_bb18 34 9 deepforest
+forest_cc13 34 9 deepforest
+forest_cc14 34 9 deepforest
+forest_cc15 34 9 deepforest
+forest_cc16 34 9 deepforest
+forest_cc17 34 9 deepforest
+forest_cc18 34 9 deepforest
+forest_dd13 34 9 deepforest
+forest_dd14 34 9 deepforest
+forest_dd15 34 9 deepforest
+forest_dd16 34 9 deepforest
+forest_dd17 34 9 deepforest
+forest_dd18 34 9 deepforest
+forest_dd5 20 9 deepforest
+forest_dd6 20 9 deepforest
+forest_dd7 20 9 deepforest
+forest_dd8 20 9 deepforest
+forest_dd9 20 9 deepforest
+forest_dd10 20 9 deepforest
+forest_dd11 20 9 deepforest
+forest_dd12 20 9 deepforest
+forest_cc5 20 9 deepforest
+forest_cc6 20 9 deepforest
+forest_cc7 20 9 deepforest
+forest_cc8 20 9 deepforest
+forest_cc9 20 9 deepforest
+forest_cc10 20 9 deepforest
+forest_cc11 20 9 deepforest
+forest_cc12 20 9 deepforest
+forest_bb5 20 9 deepforest
+forest_bb6 20 9 deepforest
+forest_bb7 20 9 deepforest
+forest_bb8 20 9 deepforest
+forest_bb9 20 9 deepforest
+forest_bb10 20 9 deepforest
+forest_bb11 20 9 deepforest
+forest_bb12 20 9 deepforest
+forest_aa6 20 9 deepforest
+forest_aa7 20 9 deepforest
+forest_aa8 20 9 deepforest
+forest_aa9 20 9 deepforest
+forest_aa10 20 9 deepforest
+forest_aa11 20 9 deepforest
+forest_aa12 20 9 deepforest
+forest_z7 20 9 deepforest
+forest_z8 20 9 deepforest
+forest_z9 20 9 deepforest
+forest_z10 20 9 deepforest
+forest_z11 20 9 deepforest
+forest_z12 20 9 deepforest
+forest_y8 20 9 deepforest
+forest_y9 20 9 deepforest
+forest_y10 20 9 deepforest
+forest_y11 20 9 deepforest
+forest_y12 20 9 deepforest
+forest_x11 33 15 deepforest
+forest_x12 33 15 deepforest
+forest_x13 33 15 deepforest
+forest_x14 33 15 deepforest
+forest_x15 33 15 deepforest
+forest_x16 33 15 deepforest
+forest_w11 33 15 deepforest
+forest_w12 33 15 deepforest
+forest_w13 33 15 deepforest
+forest_w14 33 15 deepforest
+forest_w15 33 15 deepforest
+forest_w16 33 15 deepforest
+forest_v11 33 15 deepforest
+forest_v12 33 15 deepforest
+forest_v13 33 15 deepforest
+forest_v14 33 15 deepforest
+forest_v15 33 15 deepforest
+forest_v16 33 15 deepforest
+forest_v17 33 15 deepforest
+forest_u11 33 15 deepforest
+forest_u12 33 15 deepforest
+forest_u13 33 15 deepforest
+forest_u14 33 15 deepforest
+forest_u15 33 15 deepforest
+forest_u16 33 15 deepforest
+forest_u17 33 15 deepforest
+forest_t11 33 15 deepforest
+forest_t12 33 15 deepforest
+forest_t13 33 15 deepforest
+forest_t14 33 15 deepforest
+forest_t15 33 15 deepforest
+forest_t16 33 15 deepforest
+forest_t17 33 15 deepforest
+forest_s11 33 15 deepforest
+forest_s12 33 15 deepforest
+forest_s13 33 15 deepforest
+forest_s14 33 15 deepforest
+forest_s15 33 15 deepforest
+forest_s16 33 15 deepforest
+forest_s17 33 15 deepforest
+forest_r11 33 15 deepforest
+forest_r12 33 15 deepforest
+forest_r13 33 15 deepforest
+forest_r14 33 15 deepforest
+forest_r15 33 15 deepforest
+forest_q10 32 21 deepforest
+forest_q11 32 21 deepforest
+forest_q12 32 21 deepforest
+forest_q13 32 21 deepforest
+forest_q14 32 21 deepforest
+forest_q15 32 21 deepforest
+forest_p10 32 21 deepforest
+forest_p11 32 21 deepforest
+forest_p12 32 21 deepforest
+forest_p13 32 21 deepforest
+forest_p14 32 21 deepforest
+forest_p15 32 21 deepforest
+forest_o10 32 21 deepforest
+forest_o11 32 21 deepforest
+forest_o12 32 21 deepforest
+forest_o13 32 21 deepforest
+forest_o14 32 21 deepforest
+forest_o15 32 21 deepforest
+forest_n10 32 21 deepforest
+forest_n11 32 21 deepforest
+forest_n12 32 21 deepforest
+forest_n13 32 21 deepforest
+forest_n14 32 21 deepforest
+forest_n15 32 21 deepforest
+forest_m10 32 21 deepforest
+forest_m11 32 21 deepforest
+forest_m12 32 21 deepforest
+forest_m13 32 21 deepforest
+forest_m14 32 21 deepforest
+forest_m15 32 21 deepforest
+forest_m16 32 21 deepforest
+forest_m10 31 26 deepforest
+forest_l10 31 26 deepforest
+forest_l11 31 26 deepforest
+forest_l12 31 26 deepforest
+forest_l13 31 26 deepforest
+forest_l14 31 26 deepforest
+forest_l15 31 26 deepforest
+forest_l16 31 26 deepforest
+forest_k11 31 26 deepforest
+forest_k12 31 26 deepforest
+forest_k13 31 26 deepforest
+forest_k14 31 26 deepforest
+forest_k15 31 26 deepforest
+forest_k16 31 26 deepforest
+forest_j12 31 26 deepforest
+forest_j13 31 26 deepforest
+forest_j14 31 26 deepforest
+forest_j15 31 26 deepforest
+forest_j16 31 26 deepforest
+forest_bb4 15 14 deepforest
+forest_aa3 15 14 deepforest
+forest_aa4 15 14 deepforest
+forest_aa5 15 14 deepforest
+forest_z2 15 14 deepforest
+forest_z3 15 14 deepforest
+forest_z4 15 14 deepforest
+forest_z5 15 14 deepforest
+forest_z6 15 14 deepforest
+forest_y2 15 14 deepforest
+forest_y3 15 14 deepforest
+forest_y4 15 14 deepforest
+forest_y5 15 14 deepforest
+forest_y6 15 14 deepforest
+forest_y7 15 14 deepforest
+forest_x2 15 14 deepforest
+forest_x3 15 14 deepforest
+forest_x4 15 14 deepforest
+forest_x5 15 14 deepforest
+forest_x6 15 14 deepforest
+forest_x7 15 14 deepforest
+forest_x8 15 14 deepforest
+forest_x9 15 14 deepforest
+forest_x10 15 14 deepforest
+forest_w2 15 14 deepforest
+forest_w3 15 14 deepforest
+forest_w4 15 14 deepforest
+forest_w5 15 14 deepforest
+forest_w6 15 14 deepforest
+forest_w7 15 14 deepforest
+forest_w8 15 14 deepforest
+forest_w9 15 14 deepforest
+forest_w10 15 14 deepforest
+forest_v2 15 14 deepforest
+forest_v3 15 14 deepforest
+forest_v4 15 14 deepforest
+forest_v5 15 14 deepforest
+forest_v6 15 14 deepforest
+forest_v7 15 14 deepforest
+forest_v8 15 14 deepforest
+forest_v9 15 14 deepforest
+forest_v10 15 14 deepforest
+forest_u3 15 14 deepforest
+forest_u4 15 14 deepforest
+forest_u5 15 14 deepforest
+forest_u6 15 14 deepforest
+forest_u7 15 14 deepforest
+forest_u8 15 14 deepforest
+forest_u9 15 14 deepforest
+forest_u10 15 14 deepforest
+forest_t4 15 14 deepforest
+forest_t5 15 14 deepforest
+forest_t6 15 14 deepforest
+forest_t7 15 14 deepforest
+forest_t8 15 14 deepforest
+forest_t9 15 14 deepforest
+forest_t10 15 14 deepforest
+forest_s5 15 14 deepforest
+forest_s6 15 14 deepforest
+forest_s7 15 14 deepforest
+forest_s8 15 14 deepforest
+forest_s9 15 14 deepforest
+forest_s10 15 14 deepforest
+forest_r5 15 14 deepforest
+forest_r6 15 14 deepforest
+forest_r7 15 14 deepforest
+forest_r8 15 14 deepforest
+forest_r9 15 14 deepforest
+forest_r10 15 14 deepforest
+forest_q5 18 20 deepforest
+forest_q6 18 20 deepforest
+forest_q7 18 20 deepforest
+forest_q8 18 20 deepforest
+forest_q9 18 20 deepforest
+forest_p5 18 20 deepforest
+forest_p6 18 20 deepforest
+forest_p7 18 20 deepforest
+forest_p8 18 20 deepforest
+forest_p9 18 20 deepforest
+forest_o4 18 20 deepforest
+forest_o5 18 20 deepforest
+forest_o6 18 20 deepforest
+forest_o7 18 20 deepforest
+forest_o8 18 20 deepforest
+forest_o9 18 20 deepforest
+forest_n3 15 25 deepforest
+forest_n4 15 25 deepforest
+forest_n5 15 25 deepforest
+forest_n6 15 25 deepforest
+forest_n7 15 25 deepforest
+forest_n8 15 25 deepforest
+forest_n9 15 25 deepforest
+forest_m2 15 25 deepforest
+forest_m3 15 25 deepforest
+forest_m4 15 25 deepforest
+forest_m5 15 25 deepforest
+forest_m6 15 25 deepforest
+forest_m7 15 25 deepforest
+forest_m8 15 25 deepforest
+forest_m9 15 25 deepforest
+forest_l2 15 25 deepforest
+forest_l3 15 25 deepforest
+forest_l4 15 25 deepforest
+forest_l5 15 25 deepforest
+forest_l6 15 25 deepforest
+forest_l7 15 25 deepforest
+forest_l8 15 25 deepforest
+forest_l9 15 25 deepforest
+forest_k2 15 25 deepforest
+forest_k3 15 25 deepforest
+forest_k4 15 25 deepforest
+forest_k5 15 25 deepforest
+forest_k6 15 25 deepforest
+forest_k7 15 25 deepforest
+forest_j2 15 25 deepforest
+forest_j3 15 25 deepforest
+forest_j4 15 25 deepforest
+forest_j5 15 25 deepforest
+forest_i2 15 25 deepforest
+forest_i3 15 25 deepforest
+forest_i4 15 25 deepforest
+forest_h2 15 25 deepforest
+forest_k8 18 30 deepforest
+forest_k9 18 30 deepforest
+forest_k10 18 30 deepforest
+forest_j6 18 30 deepforest
+forest_j7 18 30 deepforest
+forest_j8 18 30 deepforest
+forest_j9 18 30 deepforest
+forest_j10 18 30 deepforest
+forest_j11 18 30 deepforest
+forest_i5 18 30 deepforest
+forest_i6 18 30 deepforest
+forest_i7 18 30 deepforest
+forest_i8 18 30 deepforest
+forest_i9 18 30 deepforest
+forest_i10 18 30 deepforest
+forest_i11 18 30 deepforest
+forest_h2 18 30 deepforest
+forest_h3 18 30 deepforest
+forest_h4 18 30 deepforest
+forest_h5 18 30 deepforest
+forest_h6 18 30 deepforest
+forest_h7 18 30 deepforest
+forest_h8 18 30 deepforest
+forest_h9 18 30 deepforest
+forest_h10 18 30 deepforest
+forest_h11 18 30 deepforest
+forest_g2 18 30 deepforest
+forest_g3 18 30 deepforest
+forest_g4 18 30 deepforest
+forest_g5 18 30 deepforest
+forest_g6 18 30 deepforest
+forest_g7 18 30 deepforest
+forest_g8 18 30 deepforest
+forest_g9 18 30 deepforest
+forest_g10 18 30 deepforest
+forest_g11 18 30 deepforest
+forest_f2 18 30 deepforest
+forest_f3 18 30 deepforest
+forest_f4 18 30 deepforest
+forest_f5 18 30 deepforest
+forest_f6 18 30 deepforest
+forest_f7 18 30 deepforest
+forest_f8 18 30 deepforest
+forest_f9 18 30 deepforest
+forest_e3 18 30 deepforest
+forest_e4 18 30 deepforest
+forest_e5 18 30 deepforest
+forest_e6 18 30 deepforest
+forest_e7 18 30 deepforest
+forest_e8 18 30 deepforest
+forest_e9 18 30 deepforest
+forest_d4 18 30 deepforest
+forest_d5 18 30 deepforest
+forest_d6 18 30 deepforest
+forest_d7 18 30 deepforest
+forest_d8 18 30 deepforest
+forest_d9 18 30 deepforest
+forest_c5 18 30 deepforest
+forest_c6 18 30 deepforest
+forest_c7 18 30 deepforest
+forest_c8 18 30 deepforest
+forest_c9 18 30 deepforest
+forest_c10 18 30 deepforest
+forest_b6 18 30 deepforest
+forest_b7 18 30 deepforest
+forest_b8 18 30 deepforest
+forest_b9 18 30 deepforest
+forest_b10 18 30 deepforest
+forest_a7 18 30 deepforest
+forest_a8 18 30 deepforest
+forest_a9 18 30 deepforest
+forest_a10 18 30 deepforest
+
+::MAPDATA::
+ ___________________________________________________________________________ 
+|                                  to rolling hills                         |
+|                                                                           |
+|                                          |                                |
+|                         to Ice Caves   - c -   to Port Last               |
+|                                          |                                |
+|                                          o                                |
+|   Silver   . . . . . . . . . . . . . . . o . . . . . . .                  |
+|    Forest  .      ^      ^ .             o     ^ .     . .                |
+|          . .  ^     ^      .^          ^ o       .^    ^ . .              |
+|        . . ^           ^   .      ^ /\   o  ^  ^ .      ^  .              |
+|      . . ^  ^    ^   ^     .^      /  \  o       . ^    ^  .              |
+|      .            ^     .^ . . . . . o o o  /\ . .^        .              |
+|      . ^      ^       ^ .     ^   /\ o o o /  \     ^    . .              |
+|      .     ^    ^     ^ .        /  \/\  o   /\  ^     . .                |
+|      . . ^              .  /\       /^^\ o  /^^\  ^  . .                  |
+|        . .    /\      /\. /  \  /\     o o    /\   . .    /\              |
+|          . . /  \    /^^\      /^^\    o   /\/^^\. .  /\ /~~\             |
+|            .. . ./\ .          . . . . o ./^^\   .   /~~\    \            |
+|       /\        /^^\       /\  .       o .       .  /    \                |
+|      /^^\  .          /\  /^^\ . o o   o .  /\   .   /\                   |
+|     /    \ . /\      /^^\      . o o o o  ./^^\  .  /~~\                  |
+|          . ./^^\ /\     .   /\ . o o o ./\ . . . . /    \                 |
+|        . .    ^ /^^\   ^.  /^^\.     o /^^\.     . .                      |
+|      . .            ^    .^. . . . . o .^. .       . . .                  |
+|      .     ^         ^      ^.  /\   o      ^          . .                |
+|      .          ^        /\  . /^^\  o o o    ^          . .              |
+|      .       ^          /^^\ .       /\  o         ^       .              |
+|      .   ^          /\       .      /^^\ o    ^ /\         .              |
+|      .        ^    /  \ /\ o o o   o o o o     /^^\  ^     .              |
+|      .                 /^^\o . o o o             ^         .              |
+|      . .    ^     ^    o o o . /\o o   /\   ^              .              |
+|        . .             o o  /\/^^\    /^^\          ^    . .              |
+|          . .             o /  \ . ^    ^   /\          . .                |
+|            . .           o o o    . ^     /  \  ^    . .                  |
+|              . .         o o o      .              . .                    |
+|                . . . . . . . o . . . . . . . . . . .                      |
+|                              +                                            |
+|                              o                                            |
+|___________________________________________________________________________|
+::NEWMAP::
+deepforest
+::MAPDATA::
+forest_a16 38 34 
+forest_a17 38 34 
+forest_a18 38 34 
+forest_a19 38 34 
+forest_a20 38 34 
+forest_a21 38 34 
+forest_a22 38 34 
+forest_a23 38 34
+forest_b16 38 34
+forest_b17 38 34
+forest_b18 38 34
+forest_b19 38 34
+forest_b20 38 34
+forest_b21 38 34
+forest_b22 38 34
+forest_c16 38 34
+forest_c17 38 34
+forest_c18 38 34
+forest_c19 38 34
+forest_c20 38 34
+forest_c21 38 34
+forest_d16 38 34
+forest_d17 38 34
+forest_d18 38 34
+forest_d19 38 34
+forest_d20 38 34
+forest_e15 38 34
+forest_e19 38 34
+forest_a24 50 33
+forest_a25 50 33
+forest_b23 50 33
+forest_b24 50 33
+forest_b25 50 33
+forest_b26 50 33
+forest_c22 50 33
+forest_c23 50 33
+forest_c24 50 33
+forest_c25 50 33
+forest_c26 50 33
+forest_c27 50 33
+forest_d21 50 33
+forest_d22 50 33
+forest_d23 50 33
+forest_d24 50 33
+forest_d25 50 33
+forest_d26 50 33
+forest_d27 50 33
+forest_d28 50 33
+forest_e20 50 33
+forest_e21 50 33
+forest_e22 50 33
+forest_e23 50 33
+forest_e24 50 33
+forest_e25 50 33
+forest_e26 50 33
+forest_e27 50 33
+forest_e28 50 33
+forest_e29 50 33
+forest_f19 50 33
+forest_f20 50 33
+forest_f21 50 33
+forest_f22 50 33
+forest_f23 50 33
+forest_f24 50 33
+forest_f25 50 33
+forest_f26 50 33
+forest_f27 50 33
+forest_f28 50 33
+forest_f29 50 33
+forest_g22 50 33
+forest_g23 50 33
+forest_g24 50 33
+forest_g25 50 33
+forest_g26 50 33
+forest_g27 50 33
+forest_g28 50 33
+forest_g29 50 33
+forest_h22 51 25
+forest_h23 51 25
+forest_h24 51 25
+forest_h25 51 25
+forest_h26 51 25
+forest_h27 51 25
+forest_h28 51 25
+forest_h29 51 25
+forest_i22 51 25
+forest_i23 51 25
+forest_i24 51 25
+forest_i25 51 25
+forest_i26 51 25
+forest_i27 51 25
+forest_i28 51 25
+forest_i29 51 25
+forest_j22 51 25
+forest_j23 51 25
+forest_j24 51 25
+forest_j25 51 25
+forest_j26 51 25
+forest_j27 51 25
+forest_j28 51 25
+forest_j29 51 25
+forest_k22 51 25
+forest_k23 51 25
+forest_k24 51 25
+forest_k25 51 25
+forest_k26 51 25
+forest_k27 51 25
+forest_k28 51 25
+forest_k29 51 25
+forest_l22 51 25
+forest_l23 51 25
+forest_l24 51 25
+forest_l25 51 25
+forest_l26 51 25
+forest_l27 51 25
+forest_l28 51 25
+forest_m20 51 25
+forest_m21 51 25
+forest_m22 51 25
+forest_m23 51 25
+forest_m24 51 25
+forest_m25 51 25
+forest_m26 51 25
+forest_m27 51 25
+forest_n20 51 25
+forest_n21 51 25
+forest_n22 51 25
+forest_n23 51 25
+forest_n24 51 25
+forest_n25 51 25
+forest_o21 51 25
+forest_o22 51 25
+forest_o23 51 25
+forest_o24 51 25
+forest_p21 48 19
+forest_p22 48 19
+forest_p23 48 19
+forest_p24 48 19
+forest_q21 48 19
+forest_q22 48 19
+forest_q23 48 19
+forest_q24 48 19
+forest_r21 48 19
+forest_r22 48 19
+forest_r23 48 19
+forest_r24 48 19
+forest_s21 48 19
+forest_s22 48 19
+forest_s23 48 19
+forest_s24 48 19
+forest_t22 48 19
+forest_t23 48 19
+forest_t24 48 19
+forest_t25 48 19
+forest_u22 48 19
+forest_u23 48 19
+forest_u24 48 19
+forest_u25 48 19
+forest_u26 48 19
+forest_v22 52 10
+forest_v23 52 10
+forest_v24 52 10
+forest_v25 52 10
+forest_v26 52 10
+forest_v27 52 10
+forest_v22 52 10
+forest_w23 52 10
+forest_w24 52 10
+forest_w25 52 10
+forest_w26 52 10
+forest_w27 52 10
+forest_w28 52 10
+forest_x22 52 10
+forest_x23 52 10
+forest_x24 52 10
+forest_x25 52 10
+forest_x26 52 10
+forest_x27 52 10
+forest_x28 52 10
+forest_x29 52 10
+forest_y22 52 10
+forest_y23 52 10
+forest_y24 52 10
+forest_y25 52 10
+forest_y26 52 10
+forest_y27 52 10
+forest_y28 52 10
+forest_y29 52 10
+forest_z22 52 10
+forest_z23 52 10
+forest_z24 52 10
+forest_z25 52 10
+forest_z26 52 10
+forest_z27 52 10
+forest_z28 52 10
+forest_z29 52 10
+forest_aa22 52 10
+forest_aa23 52 10
+forest_aa24 52 10
+forest_aa25 52 10
+forest_aa26 52 10
+forest_aa27 52 10
+forest_aa28 52 10
+forest_aa29 52 10
+forest_bb22 52 10
+forest_bb23 52 10
+forest_bb24 52 10
+forest_bb25 52 10
+forest_bb26 52 10
+forest_bb27 52 10
+forest_bb28 52 10
+forest_bb29 52 10
+forest_cc22 52 10
+forest_cc23 52 10
+forest_cc24 52 10
+forest_cc25 52 10
+forest_cc26 52 10
+forest_cc27 52 10
+forest_cc28 52 10
+forest_dd22 52 10
+forest_dd23 52 10
+forest_dd24 52 10
+forest_dd25 52 10
+forest_dd26 52 10
+forest_dd27 52 10
+forest_y13 34 9
+forest_y14 34 9
+forest_y15 34 9
+forest_y16 34 9
+forest_z13 34 9
+forest_z14 34 9
+forest_z15 34 9
+forest_z16 34 9
+forest_aa13 34 9
+forest_aa14 34 9
+forest_aa15 34 9
+forest_aa16 34 9
+forest_aa17 34 9
+forest_aa18 34 9
+forest_bb13 34 9
+forest_bb14 34 9
+forest_bb15 34 9
+forest_bb16 34 9
+forest_bb17 34 9
+forest_bb18 34 9
+forest_cc13 34 9
+forest_cc14 34 9
+forest_cc15 34 9
+forest_cc16 34 9
+forest_cc17 34 9
+forest_cc18 34 9
+forest_dd13 34 9
+forest_dd14 34 9
+forest_dd15 34 9
+forest_dd16 34 9
+forest_dd17 34 9
+forest_dd18 34 9
+forest_dd5 20 9
+forest_dd6 20 9
+forest_dd7 20 9
+forest_dd8 20 9
+forest_dd9 20 9
+forest_dd10 20 9
+forest_dd11 20 9
+forest_dd12 20 9
+forest_cc5 20 9
+forest_cc6 20 9
+forest_cc7 20 9
+forest_cc8 20 9
+forest_cc9 20 9
+forest_cc10 20 9
+forest_cc11 20 9
+forest_cc12 20 9
+forest_bb5 20 9
+forest_bb6 20 9
+forest_bb7 20 9
+forest_bb8 20 9
+forest_bb9 20 9
+forest_bb10 20 9
+forest_bb11 20 9
+forest_bb12 20 9
+forest_aa6 20 9
+forest_aa7 20 9
+forest_aa8 20 9
+forest_aa9 20 9
+forest_aa10 20 9
+forest_aa11 20 9
+forest_aa12 20 9
+forest_z7 20 9
+forest_z8 20 9
+forest_z9 20 9
+forest_z10 20 9
+forest_z11 20 9
+forest_z12 20 9
+forest_y8 20 9
+forest_y9 20 9
+forest_y10 20 9
+forest_y11 20 9
+forest_y12 20 9
+forest_x11 33 15
+forest_x12 33 15
+forest_x13 33 15
+forest_x14 33 15
+forest_x15 33 15
+forest_x16 33 15
+forest_w11 33 15
+forest_w12 33 15
+forest_w13 33 15
+forest_w14 33 15
+forest_w15 33 15
+forest_w16 33 15
+forest_v11 33 15
+forest_v12 33 15
+forest_v13 33 15
+forest_v14 33 15
+forest_v15 33 15
+forest_v16 33 15
+forest_v17 33 15
+forest_u11 33 15
+forest_u12 33 15
+forest_u13 33 15
+forest_u14 33 15
+forest_u15 33 15
+forest_u16 33 15
+forest_u17 33 15
+forest_t11 33 15
+forest_t12 33 15
+forest_t13 33 15
+forest_t14 33 15
+forest_t15 33 15
+forest_t16 33 15
+forest_t17 33 15
+forest_s11 33 15
+forest_s12 33 15
+forest_s13 33 15
+forest_s14 33 15
+forest_s15 33 15
+forest_s16 33 15
+forest_s17 33 15
+forest_r11 33 15
+forest_r12 33 15
+forest_r13 33 15
+forest_r14 33 15
+forest_r15 33 15
+forest_q10 32 21
+forest_q11 32 21
+forest_q12 32 21
+forest_q13 32 21
+forest_q14 32 21
+forest_q15 32 21
+forest_p10 32 21
+forest_p11 32 21
+forest_p12 32 21
+forest_p13 32 21
+forest_p14 32 21
+forest_p15 32 21
+forest_o10 32 21
+forest_o11 32 21
+forest_o12 32 21
+forest_o13 32 21
+forest_o14 32 21
+forest_o15 32 21
+forest_n10 32 21
+forest_n11 32 21
+forest_n12 32 21
+forest_n13 32 21
+forest_n14 32 21
+forest_n15 32 21
+forest_m10 32 21
+forest_m11 32 21
+forest_m12 32 21
+forest_m13 32 21
+forest_m14 32 21
+forest_m15 32 21
+forest_m16 32 21
+forest_m10 31 26
+forest_l10 31 26
+forest_l11 31 26
+forest_l12 31 26
+forest_l13 31 26
+forest_l14 31 26
+forest_l15 31 26
+forest_l16 31 26
+forest_k11 31 26
+forest_k12 31 26
+forest_k13 31 26
+forest_k14 31 26
+forest_k15 31 26
+forest_k16 31 26
+forest_j12 31 26
+forest_j13 31 26
+forest_j14 31 26
+forest_j15 31 26
+forest_j16 31 26
+forest_bb4 15 14
+forest_aa3 15 14
+forest_aa4 15 14
+forest_aa5 15 14
+forest_z2 15 14
+forest_z3 15 14
+forest_z4 15 14
+forest_z5 15 14
+forest_z6 15 14
+forest_y2 15 14
+forest_y3 15 14
+forest_y4 15 14
+forest_y5 15 14
+forest_y6 15 14
+forest_y7 15 14
+forest_x2 15 14
+forest_x3 15 14
+forest_x4 15 14
+forest_x5 15 14
+forest_x6 15 14
+forest_x7 15 14
+forest_x8 15 14
+forest_x9 15 14
+forest_x10 15 14
+forest_w2 15 14
+forest_w3 15 14
+forest_w4 15 14
+forest_w5 15 14
+forest_w6 15 14
+forest_w7 15 14
+forest_w8 15 14
+forest_w9 15 14
+forest_w10 15 14
+forest_v2 15 14
+forest_v3 15 14
+forest_v4 15 14
+forest_v5 15 14
+forest_v6 15 14
+forest_v7 15 14
+forest_v8 15 14
+forest_v9 15 14
+forest_v10 15 14
+forest_u3 15 14
+forest_u4 15 14
+forest_u5 15 14
+forest_u6 15 14
+forest_u7 15 14
+forest_u8 15 14
+forest_u9 15 14
+forest_u10 15 14
+forest_t4 15 14
+forest_t5 15 14
+forest_t6 15 14
+forest_t7 15 14
+forest_t8 15 14
+forest_t9 15 14
+forest_t10 15 14
+forest_s5 15 14
+forest_s6 15 14
+forest_s7 15 14
+forest_s8 15 14
+forest_s9 15 14
+forest_s10 15 14
+forest_r5 15 14
+forest_r6 15 14
+forest_r7 15 14
+forest_r8 15 14
+forest_r9 15 14
+forest_r10 15 14
+forest_q5 18 20
+forest_q6 18 20
+forest_q7 18 20
+forest_q8 18 20
+forest_q9 18 20
+forest_p5 18 20
+forest_p6 18 20
+forest_p7 18 20
+forest_p8 18 20
+forest_p9 18 20
+forest_o4 18 20
+forest_o5 18 20
+forest_o6 18 20
+forest_o7 18 20
+forest_o8 18 20
+forest_o9 18 20
+forest_n3 15 25
+forest_n4 15 25
+forest_n5 15 25
+forest_n6 15 25
+forest_n7 15 25
+forest_n8 15 25
+forest_n9 15 25
+forest_m2 15 25
+forest_m3 15 25
+forest_m4 15 25
+forest_m5 15 25
+forest_m6 15 25
+forest_m7 15 25
+forest_m8 15 25
+forest_m9 15 25
+forest_l2 15 25
+forest_l3 15 25
+forest_l4 15 25
+forest_l5 15 25
+forest_l6 15 25
+forest_l7 15 25
+forest_l8 15 25
+forest_l9 15 25
+forest_k2 15 25
+forest_k3 15 25
+forest_k4 15 25
+forest_k5 15 25
+forest_k6 15 25
+forest_k7 15 25
+forest_j2 15 25
+forest_j3 15 25
+forest_j4 15 25
+forest_j5 15 25
+forest_i2 15 25
+forest_i3 15 25
+forest_i4 15 25
+forest_h2 15 25
+forest_k8 18 30
+forest_k9 18 30
+forest_k10 18 30
+forest_j6 18 30
+forest_j7 18 30
+forest_j8 18 30
+forest_j9 18 30
+forest_j10 18 30
+forest_j11 18 30
+forest_i5 18 30
+forest_i6 18 30
+forest_i7 18 30
+forest_i8 18 30
+forest_i9 18 30
+forest_i10 18 30
+forest_i11 18 30
+forest_h2 18 30
+forest_h3 18 30
+forest_h4 18 30
+forest_h5 18 30
+forest_h6 18 30
+forest_h7 18 30
+forest_h8 18 30
+forest_h9 18 30
+forest_h10 18 30
+forest_h11 18 30
+forest_g2 18 30
+forest_g3 18 30
+forest_g4 18 30
+forest_g5 18 30
+forest_g6 18 30
+forest_g7 18 30
+forest_g8 18 30
+forest_g9 18 30
+forest_g10 18 30
+forest_g11 18 30
+forest_f2 18 30
+forest_f3 18 30
+forest_f4 18 30
+forest_f5 18 30
+forest_f6 18 30
+forest_f7 18 30
+forest_f8 18 30
+forest_f9 18 30
+forest_e3 18 30
+forest_e4 18 30
+forest_e5 18 30
+forest_e6 18 30
+forest_e7 18 30
+forest_e8 18 30
+forest_e9 18 30
+forest_d4 18 30
+forest_d5 18 30
+forest_d6 18 30
+forest_d7 18 30
+forest_d8 18 30
+forest_d9 18 30
+forest_c5 18 30
+forest_c6 18 30
+forest_c7 18 30
+forest_c8 18 30
+forest_c9 18 30
+forest_c10 18 30
+forest_b6 18 30
+forest_b7 18 30
+forest_b8 18 30
+forest_b9 18 30
+forest_b10 18 30
+forest_a7 18 30
+forest_a8 18 30
+forest_a9 18 30
+forest_a10 18 30
+
+::MAPDATA::
+ ___________________________________________________________________________ 
+|                                  to rolling hills                         |
+|                                                                           |
+|                                          |                                |
+|                         to Ice Caves   - c -   to Port Last               |
+|                                          |                                |
+|                                          o                                |
+|   Silver   . . . . . . . . . . . . . . . o . . . . . . .                  |
+|    Forest  .      ^      ^ .             o     ^ .     . .                |
+|          . .  ^     ^      .^          ^ o       .^    ^ . .              |
+|        . . ^           ^   .      ^ /\   o  ^  ^ .      ^  .              |
+|      . . ^  ^    ^   ^     .^      /  \  o       . ^    ^  .              |
+|      .            ^     .^ . . . . . o o o  /\ . .^        .              |
+|      . ^      ^       ^ .     ^   /\ o o o /  \     ^    . .              |
+|      .     ^    ^     ^ .        /  \/\  o   /\  ^     . .                |
+|      . . ^              .  /\       /^^\ o  /^^\  ^  . .                  |
+|        . .    /\      /\. /  \  /\     o o    /\   . .    /\              |
+|          . . /  \    /^^\      /^^\    o   /\/^^\. .  /\ /~~\             |
+|            .. . ./\ .          . . . . o ./^^\   .   /~~\    \            |
+|       /\        /^^\       /\  .       o .       .  /    \                |
+|      /^^\  .          /\  /^^\ . o o   o .  /\   .   /\                   |
+|     /    \ . /\      /^^\      . o o o o  ./^^\  .  /~~\                  |
+|          . ./^^\ /\     .   /\ . o o o ./\ . . . . /    \                 |
+|        . .    ^ /^^\   ^.  /^^\.     o /^^\.     . .                      |
+|      . .            ^    .^. . . . . o .^. .       . . .                  |
+|      .     ^         ^      ^.  /\   o      ^          . .                |
+|      .          ^        /\  . /^^\  o o o    ^          . .              |
+|      .       ^          /^^\ .       /\  o         ^       .              |
+|      .   ^          /\       .      /^^\ o    ^ /\         .              |
+|      .        ^    /  \ /\ o o o   o o o o     /^^\  ^     .              |
+|      .                 /^^\o . o o o             ^         .              |
+|      . .    ^     ^    o o o . /\o o   /\   ^              .              |
+|        . .             o o  /\/^^\    /^^\          ^    . .              |
+|          . .             o /  \ . ^    ^   /\          . .                |
+|            . .           o o o    . ^     /  \  ^    . .                  |
+|              . .         o o o      .              . .                    |
+|                . . . . . . . o . . . . . . . . . . .                      |
+|                              +                                            |
+|                              o                                            |
+|___________________________________________________________________________|
+::NEWMAP::
+silver_road1
+::MAPDATA::
+forest_edge 37 9
+road63 37 13
+road62 37 17
+road61 37 21
+road60 37 25
+road59 37 29
+road58 37 32
+road57 23 33
+road56 9 34
+road55 9 37
+road54 23 38
+road53 37 39
+forest_dd19 23 13
+forest_cc19 23 17
+forest_bb19 23 21
+forest_aa19 23 25
+forest_z19 23 29
+forest_z18 9 29
+forest_z17 1 29
+forest_y17 1 34
+forest_x17 1 37
+forest_dd21 51 13
+forest_cc21 51 17
+forest_bb21 51 21
+forest_aa21 51 25
+forest_z21 46 29
+forest_y21 46 32
+forest_x21 46 39
+::MAPDATA::
+ ___________________________________________________________________________ 
+|                                   to rolling hills                        |
+|                                    |             |                        |
+|                               [~~] |             |                        |
+|                               [~~] |             |                        |
+| to ice caves  -------o-------------c-------------o-------- to Port Last   |
+|                                    |           /\                         |
+|       Silver       /\              |          /  \                        |
+|    /\  Forest     /  \       '     |     '    /  \          /\            |
+|   /  \   Road     /  \             o         /_  _\        /  \           |
+|   /  \           /_  _\      '     |     '     }{          /  \           |
+|  /_  _\            }{              |                      /_  _\          |
+|    }{                        '     |     '                  }{            |
+|                                    o                                      |
+|                              '     |     '                                |
+|                                    |                                      |
+|                              '     |     '                                |
+|           /\                       o              /\                      |
+|          /  \                '     |     '       /  \                     |
+|          /  \                      |             /  \                     |
+|         /_  _\               '     |     '      /_  _\                    |
+|           }{                       o              }{           /\         |
+|    /\                        '     |     '                    /^^\        |
+|   /  \          /\                 |                         /    \       |
+|   /  \         /^^\          '     |     '                  /      \      |
+|  /_  _\       /    \               o                       /        \     |
+|    }{        /      \        '     |     '                /          \    |
+|             /        \             |                     /            \   |
+|            /          \      '     |     '                                |
+|           /            \     ,     o            /\                        |
+|                       .. ~~ `      |           /^^\         /\            |
+|       .  ..  ~~  ``                |     '    /^^^^\       /  \           |
+|    .`                       __ ..--o    '|   /^^^^^^\      /  \           |
+|   '           __ ..--o-- ``           .` .  /        \    /_  _\          |
+|  '     o-- ``          __    ..   ~~ `|  ` /  /\      \     }{            |
+|  '     |   . _~~  ``   /  '  '  '  '  '  '/  /^^\      \                  |
+|  '     |       ``  ~~  ../_ /_ /_ /_ /   `  /^^^^\             /\         |
+|   '    o-- .. __                      `.`  /^^^^^^\           /  \        |
+|    `.            ``--o--.. ___          ` /        \          /  \        |
+|       `  ~~  ...  __           ``--o     '          \        /_  _\       |
+|         /\             ```  ~.     |     '           \         }{         |
+|        /^^\                  '     |      '                               |
+|______ /^^^^\ _____________________________________________________________|
+::NEWMAP::
+silver_road2
+::MAPDATA::
+road52 50 6
+road51 50 10
+road50 50 14
+road49 36 15
+road48 36 19
+road47 36 23
+forest_w17 11 4
+forest_w18 23 5 
+forest_w19 39 6 
+forest_v19 35 10
+forest_v18 24 10
+forest_u18 19 15
+forest_t18 19 19
+forest_s18 22 23
+forest_w21 62 6
+forest_v21 61 10
+forest_u21 60 14
+forest_t21 58 18
+forest_t20 48 19
+forest_s20 48 23
+::MAPDATA::
+ ___________________________________________________________________________
+|                 `.                o-- .. _           `                    |
+|     /\         /\   ` ~~  ...  __          `` --o     '   Silver          |
+|    /  \       /^^\                  ```  ~.     |     '    Forest /\      |
+|    /  \      /^^^^\            /\         '     |            Road/^^\     |
+|   /_  _\    /^^^^^^\          /^^\        '     |     '         /^^^^\    |
+|     }{     /        \        /^^^^\             o              /^^^^^^\   |
+|           /          \      /^^^^^^\      '     |     '       /        \  |
+|          /   /\       \    /        \           |            /          \ |
+|             /  \          /          \    '     |     '     /            \|
+|             /  \         /            \         o              /\         |
+|            /_  _\                   _ . ~ '     |     '       /^^\        |
+|              }{               .~ `              |            /^^^^\       |
+|                              `                  |     '     /^^^^^^\      |
+|        /\           /\      `            _...---o          /        \     |
+|       /^^\         /  \           o---```             '   /    /\    \    |
+|      /^^^^\        /  \    '      |                  .   /    /  \    \   |
+|     /^^^^^^\      /_  _\          |         _  .  ~           /  \        |
+|    /        \       }{     '      |      `                   /_  _\       |
+|   /          \                    o     :        /\            }{         |
+|  /            \            '      |     '       /^^\                      |
+|                                   |            /^^^^\            /\       |
+|                /\          '      |     '     /^^^^^^\          /  \      |
+|               /  \                o          /        \         /  \      |
+|               /  \         '      |     '   /          \       /_  _\     |
+|              /_  _\               |        /            \        }{       |
+|                }{          '            '                                 |
+|___________________________________________________________________________|
+::NEWMAP::
+silver_road3
+::MAPDATA::
+road46 50 5
+road45 50 9
+road44 49 12
+road43 36 13
+road42 22 13
+road41 21 9
+road40 8 9
+road39 8 13
+road38 8 17
+road37 22 17
+road36 36 18
+road35 36 21
+road34 36 25
+forest_r18 36 5
+forest_q18 36 9
+forest_r17 21 5
+forest_r16 8 4
+forest_n16 8 21
+forest_n17 22 21
+forest_m17 22 25
+forest_r20 64 5
+forest_q20 64 9
+forest_p20 64 13
+forest_o20 64 17
+forest_o19 49 17
+forest_n19 47 21
+forest_m19 49 25
+::MAPDATA::
+ ___________________________________________________________________________
+|                                                                /^^^^^^^\  |
+|                  Silver                  '      |     '       /         \ |
+|                   Forest      /\                |            /           \|
+|                     Road     /  \        '      |     '     /             |
+|  ~   `  `    ~  .            /  \               o                         |
+|`                   ` . /    /_  _\       '      |     '          /\       |
+|                        `      }{                |               /  \      |
+|                        : /               `      |     '         /  \      |
+|       o------------o    /               .       o              /_  _\     |
+|       |             |   : /   /  /  ' .'        |     '          }{       |
+|       |      '      |    /.../. ~ `             |                         |
+|       |      /      |                    __ .--o     '                    |
+|       o      /`     o-------------o--```                                  |
+|       |      / `.                                    '                    |
+|       |     `  /  /  /  /  /  /  /  /   /    '   '               /\       |
+|       |                                /  /                     /  \      |
+|       o-------------o---..._             /                      /  \      |
+|                             ```---o       /      /\            /_  _\     |
+|`.                                 |       `     /  \             }{       |
+|   '       '     '      '          |      '      /  \      /\              |
+|            /\                     o            /_  _\    /^^\             |
+|           /^^\              '     |      '       }{     /^^^^\            |
+|          /^^^^\                   |                    /^^^^^^\           |
+|         /^^^^^^\            '     |      '            /        \          |
+|        /        \                 o                  /          \         |
+|       /          \          '     |      '          /            \        |
+|      /            \               |                                       |
+|                             '     |      '                                |
+|___________________________________________________________________________|
+::NEWMAP::
+silver_road4
+::MAPDATA::
+road33 36 14
+road32 36 18
+road31 50 18
+road30 64 18
+road29 64 22
+road28 64 26
+road27 64 30
+road26 50 30
+road25 36 30
+road24 23 31
+road23 22 34
+road22 22 38
+road21 8 38
+road20 8 34
+forest_l17 22 14
+forest_k17 20 18
+forest_j17 23 22
+forest_j18 37 22
+forest_j19 50 22
+forest_i19 50 26
+forest_i18 36 26
+forest_i17 23 26
+forest_l19 50 14
+forest_l20 64 14
+forest_l21 74 14
+forest_k21 74 18
+forest_j21 74 22
+forest_i21 74 26
+forest_h21 74 30
+forest_g21 74 34
+forest_g20 64 34
+forest_g19 50 34
+forest_g18 37 34
+forest_f18 37 38
+forest_e18 35 42
+forest_e17 22 42
+forest_e16 8 42
+::MAPDATA::
+ ___________________________________________________________________________
+|                                       `/  /                               |
+|              -------o---..._            `/             /\                 |
+|                             ```---o      ./           /^^\    Silver      |
+|`.                                 |      `           /^^^^\    Forest     |
+|   '       '     '      '          |      '          /^^^^^^\     Road     |
+|    /\         /\                  o                /        \             |
+|   /  \       /^^\           '     |      '        /          \            |
+|   /  \      /^^^^\                |              /      /\    \           |
+|  /_  _\    /^^^^^^\         '     |      '      /      /  \    \          |
+|    }{     /        \              o                    /  \               |
+|          /          \       '     |      '            /_  _\              |
+|         /    /\      \            |                     }{                |
+|             /  \            '     |      '                                |
+|             /  \                  o                                       |
+|     /\     /_  _\    /\     '     |         '       '      ' ` ~ .        |
+|    /  \      }{     /  \          |                                `      |
+|    /  \             /  \    '     |                                 .     |
+|   /_  _\           /_  _\   `     o-------------o-------------o           |
+|     }{      /\       }{      .                                |      `    |
+|            /  \               `.                              |           |
+|            /  \        /\        `   '      '       '         |      '    |
+|           /_  _\      /  \      /\       /\                   o           |
+|             }{        /  \     /  \     /  \          '       |      '    |
+|       /\       /\    /_  _\   /_  _\    /  \                  |           |
+|      /^^\     /  \     }{       }{     /_  _\         '       |      '    |
+|     /^^^^\    /  \                       }{                   o           |
+|    /^^^^^^\  /_  _\ . `'       '      '      '     '          |      '    |
+|   /        \   }{.`                                           |           |
+|  /          \   `                                             |      '    |
+| /            \ `            _...--o-------------o-------------o           |
+| .   .        .`/     o---```                                         `    |
+|             .. /.    |                                             .      |
+|              ` /    |        . '      '      '     '      '    `          |
+|-------o      . /    o       `   /\                                        |
+|       |      ./.    |      .   /  \     /\         /\                     |
+|       |      ./     |          /  \    /^^\       /  \                    |
+|'      |      `      |      '  /_  _\  /^^^^\      /  \          /\        |
+| `     o-------------o           }{   /^^^^^^\    /_  _\        /^^\       |
+|  '                         '        /        \     }{         /^^^^\      |
+|   `                      .`        /          \              /^^^^^^\     |
+|     `    '       '    '   /\      /            \            /        \    |
+|                          /  \                              /          \   |
+|                          /  \                             /            \  |
+|                         /_  _\                                            |
+|                           }{                                              |
+|___________________________________________________________________________|
+::NEWMAP::
+silver_road5
+::MAPDATA::
+road20 56 12
+road19 43 12
+road18 42 8
+road17 28 8
+road16 14 8
+road15 14 12
+road14 14 16
+forest_h16 56 7
+forest_i16 56 3
+forest_i15 42 4
+forest_i14 28 4
+forest_i13 13 3
+forest_i12 3 4
+forest_h12 3 8
+forest_g12 3 12
+forest_f15 42 16
+forest_f14 26 16
+forest_g14 28 12
+forest_e14 28 21
+forest_e13 14 21
+::MAPDATA::
+ ___________________________________________________________________________
+|              /\              /\                /\          /\             |
+|   Silver    /  \            /  \              /  \        /^^\            |
+|    Forest   /  \           /_  _\             /  \       /^^^^\           |
+|      Road  /_  _\            }{              /_  _\     /^^^^^^\          |
+|              }{                                }{      /        \         |
+|           .  `  '  `   '  `   '   `  '   `  .         /          \        |
+|\       `                                      `      /            \       |
+|^\           o-------------o-------------o      `.                         |
+|~~\    '     |                           |         `   .       `/          |
+|   \         |                           |                ` .  /.    |     |
+|    \  '     |      .`  ' ` ` '  ` .      |                  . /     |     |
+|       `     o     `  /\            `     o------------o     . /     o     |
+|   '  `      |     ' /  \         /\ `                 |     ./.     |     |
+|             |     ` /  \        /  \ `.               |      /      |     |
+|             |     '/_  _\ /\    /  \    ` '  ` .      |             |     |
+|   ----------o     `  }{  /^^\  /_  _\     /\    `     o-------------o     |
+|                   `     /^^^^\   }{      /  \    '                       `|
+|                 .`     /^^^^^^\          /  \     `                  _ .` |
+|   '   `  '  `  /\     /        \        /_  _\    /\`  '   ' `  '  `      |
+|     /\        /  \   /          \         }{     /  \           /\        |
+|    /  \       /  \  /            \               /  \          /  \       |
+|   /_  _\     /_  _\                             /_  _\        /_  _\      |
+|     }{         }{                                 }{            }{        |
+|___________________________________________________________________________|
+
+::NEWMAP::
+silver_road6
+::MAPDATA::
+north_gate 56 29
+road02 56 26
+road03 56 22
+road04 56 16
+road05 42 16
+road06 41 20
+road07 28 20
+road08 28 16
+road09 28 12
+road10 28 9
+road11 14 8
+road12 14 4
+road13 28 4
+forest_f10 2 4
+forest_e10 4 8
+forest_d10 4 12
+forest_d11 14 12
+forest_c11 14 16
+forest_b11 14 20
+forest_a11 14 26
+forest_a12 28 26
+forest_a13 42 26
+forest_d13 44 12
+forest_d14 56 12
+forest_d15 70 12
+forest_c15 70 16
+forest_b15 67 22
+forest_a15 70 26
+::MAPDATA::
+ ___________________________________________________________________________
+|                          _  .    `     |      '                           |
+|    /\     .    '      '                |      `               Silver      |
+|   /  \  .                       __..---o      '                Forest     |
+|   /  \      o-------------o---``            .`        /\         Road     |
+|  /_  _\'    |                           . `          /^^\                 |
+|    }{       |    `\   \    \   \   \ `              /^^^^\                |
+|        '    |       `  `  ` .   \.`                /^^^^^^\               |
+|        .    o---.. _          ` `    /\           /        \              |
+|         .            ``---o    '    /  \         /          \             |
+|            `  `  .        |         /  \        /            \            |
+|                    .      |    '   /_  _\                                 |
+|               /\          o          }{                          /\       |
+|       /\     /  \   '     |    '\           .  ~  .             /  \      |
+|      /^^\    /  \         |      \   .  `              `        /  \      |
+|     /^^^^\  /_  _\  '     |    '.                         `    /_  _\     |
+|    /^^^^^^\   }{          o      \  `   o-------------o    .     }{       |
+|   /        \        '     |    ` \ '    |      .      |                   |
+|  /          \             |             |     `  '    |    '              |
+| /            \      '     |            |      '\ `    |    `         /\   |
+|                           o------------o     `.  `    |    `        /  \  |
+|                      .                       ' \ '    |    '        /  \  |
+|         /\            ` .                  . `\  `    o    `       /_  _\ |
+|        /  \                `  .  .   `         \ `    |    `         }{   |
+|        /  \           /\                         '    |    '              |
+|       /_  _\         /^^\         /\        HHHHH     |     HHHHH         |
+|         }{          /^^^^\       /  \       |   |     o     |   |         |
+|                    /^^^^^^\      /  \       | D |_ .~`|`~. _| D |         |
+|                   /        \    /_  _\      |___|_| | | | |_|___|         |
+|                  /          \     }{        __|___| |o|o| |___|__         |
+|                 /            \              |___|_| |_|_| |_|___|_        |
+|___________________________________________________________________________|

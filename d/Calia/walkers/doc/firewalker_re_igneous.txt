@@ -1,0 +1,160 @@
+//Mana costs are easily modified.
+
+Proposed revised spell list:
+
+-Tell line. Only a cosmetic change here. It will appear as a fire 
+spirit whispering a message to the recipent - thus visible to others
+in the room. Conjuration spell.
+-Light. Only cosmetic change, except no longer castable at others
+than self. Not stackable. Conjuration spell.
+-Blind. Component change to the herb smooth camas. Conjuration spell.
+It won't be stackable.
+
+-Wall of fire. Blocks an exit. Attempts to leave result in 
+3 * random (spell_power) damage, fire resistance being taken
+into account. I'll use something like:
+if (target->resolve_task(TASK_FORMIDABLE, ({SKILL_WEIGHT, 150, TS_DIS,
+SKILL_END})) > 0) {success in breaking through the wall}
+Component is now a potion made out of alcohol and gray willow.
+Mana unchanged. Conjuration spell.
+
+-Flame shield. Doesn't offer any defensive bonus as such, but damages
+attackers with each hit they make. The shield provides a level of 
+light also. Damage with each hit equal to spell_power modified by
+fire resistance, unless (target->resolve_task(TASK_DIFFICULT, 
+({SKILL_WEIGHT, 150, TS_DEX, SKILL_END}) > 0), in which case damage
+is avoided. Component: Cranberry and some 
+collectible item from the guild. Mana cost and duration unchanged, 
+and it cannot be cast on others than self. Conjuration spell.
+
+-Flame arrow. Bolt, with a penetration of :
+2*guildstat + 5 * spell_power, to a maximum
+of 500. The bolt can be aimed at a certain location. A potion
+mixed out of fireweed and alcohol would be the component. Mana
+cost 75. Conjuration spell.
+
+-Enrage. Target gets a 50% increase in discipline, and a 50%
+reduction of dexterity. 5 min duration.
+Only works if target is fighting, and the spell can't be "stacked".
+Mana cost: 110. Component: the herb chicory and some component 
+collectible at the guild. Enchantment spell.
+
+-Resist fire. Same as the old spell, except that the duration goes
+up to five minutes, and the component is now just the herb
+fireweed, not a potion. It can still be cast on others to protect
+them. Abjuration spell.
+
+-Flame wind. Bolt, with a penetration of two times the penetration
+of the "Flame arrow" spell, to a max of 1200. All armours the target
+is wearing, that aren't magical or above AC 20, are consumed by the 
+spell. Mana cost 200, component is a potion of fireweed, gray willow
+and alcohol. Conjuration spell.
+
+-Luminosity. Walker becomes as bright as the sun, emitting 5 light
+levels. Not stackable, 80 mana, component is black currant. Duration
+is 15 minutes. Enchantment spell.
+
+-Flame weapon. Summons a staff of flame. It's a polearm with a
+hit and pen of: (guildstat + 2 * spell_power) / 5.
+Min is 40/40, max is 50/50. It will have special hit descriptions 
+and do a heal_hp of -random(spell_power) 20% of the time. It can't
+be un-wielded for the duration (though it is possible to dismiss 
+it), nor given away. Duration is 20 minutes. Mana cost 120.
+Components: Fireweed and cladina. Conjuration spell.
+
+-Fire spirit. A vengeful fire spirit arrives and hunts a target.
+It won't be an NPC as such, but will keep damaging the target.
+Damage will equal to random(3*spell_power) each time, for 5-10 
+times, fire resistance figured in of course.
+// I take issue with your downgrading of the spell in your comments.
+// I've put it somewhere between my former suggestion and your
+// proposal. I believe there are strong reasons for doing so.
+// The way you proposed it, you'd need someone with 180 INT using
+// all their mana to have a good chance of killing off a wizlevel
+// con (figuring 8*30(half the spell_power)*10 = 2400 hp), with a
+// couple of quick heals saving him. What's the reasoning behind 
+// having it this weak? Any fighter worth anything will decimate the
+// caster in the time it takes to cast the 10 spells and wait for
+// them to work. Conversely, if a Morgul stacked up 10 poisons in
+// someone (which is just another form of persistant damage), the
+// target would be dead as a duck - this would be the case even with
+// half that amount of poisons. The way it makes sense to me,
+// is for persistant damage spells to have *more* damage potential
+// than a bolt, as the target has opportunities both to quit out
+// and to heal himself. 
+This spell *can* be stacked. Mana cost: 180. Component
+is a potion of fireweed, black currant, poison ivy and alcohol.
+Conjuration spell.
+
+-Burst of light. Blinds and does add_stun to all others 
+in the room. Stun is half the duration of the blindness.
+Blindness lasting 30-60 seconds. Mana cost 150. Components are
+Chicory and beaked sedge. Conjuration spell.
+Not stackable.
+
+-Fire storm. This is a bolt that hits all present enemies. Damage would
+be equal to one and a half time the Flame Arrow spell except with a 
+ceiling of 1000. Mana cost 250. Component: Potion of fireweed, 
+chantrelle, grey willow and alcohol. Conjuration spell.
+
+-Hellscape. Room temperature increases by a couple of hundred degrees
+or so. People with high fire resist are safe, others keep taking damage.
+The caster is not excluded from the effect, unless of course he cast
+resist fire on himself first. The damage is equal to a random number
+between 100 and 200 every 10 seconds for 15 times. This spell 
+can't be stacked. Since NPCs do not normally know to move out of 
+danger, the spell would include code to give a certain % chance for
+an NPC to try and flee with each time damage is dealt. Mana cost:
+220. Component: Onoclea, cladina and poison ivy. Enchantment spell.
+
+The Walker guild will have a total of six cooperative spells, only
+usable with two Walkers present of different elements. These spells
+have not yet been planned in detail, but here's a preliminary
+suggestion for the ones involving fire:
+
+-Fire/Water: Boiling blood. Persistent damage spell.
+// Again, what is the problem with persistant damage?
+-Fire/Air: Flaming chariot. Summons a chariot that can fly to any
+outdoor location in the Realms that has been marked. Up to four
+Walkers can board it.
+-Fire/Earth: Lava globule. Bolt spell, destroys equipment randomly.
+
+
+Skill changes:
+
+Old skill list:
+
+Channeling: 100.
+Spellcraft:  90.
+Fire magic:  90.
+Alchemy:     90.
+Language:    75.
+Awareness:   75.
+Herbalism:   75.
+Defence:     70.
+Polearm:     50.
+
+New proposed skill list:
+
+Magic ritual: 100.
+Spellcraft:    80.
+Fire magic:    90. 
+Alchemy:       40. (+20 if specialized)
+Conjuration:   80.
+Enchantment:   50.
+Abjuration:    20.
+Language:      60. (+20 if specialized)
+Herbalism:     60. (+20 if specialized)
+Defence:       50.
+Polearm:       50.
+
+// I'm exactly at the 700 limit now. Feels like I've stripped them.
+// Guess its just a consequence of mages needing more skills to do
+// their stuff and having the same skill limit as fighters.
+
+// Also a question - did you account for the component availability
+// when reviewing the spells? In most cases I've increased the
+// components required, which should count for some decrease in mana
+// or increase in power.
+
+-Bishop

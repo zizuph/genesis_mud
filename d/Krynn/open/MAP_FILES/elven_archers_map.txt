@@ -1,0 +1,43 @@
+high_vantage
+::MAPDATA::
+fort_westentr 14 6
+fort_library 11 9
+fort_reservoir 17 9
+fort_postoffice 20 9
+fort_board 11 12
+fort_nexus 17 12
+fort_rack2 14 15
+fort_rack1 17 15
+fort_dorm 20 15
+fort_eastentr 26 15
+::MAPDATA::
+
+          HIGH VANTAGE
+       Treetop Fortress of
+  the Elven Archers of Ansalon
+
+         ^             ^      ^
+        /|\   W       /|\    /|\
+   ^   //|\\   \     //|\\    |
+  /|\    |      \      |      |
+   |       L-----R--P         |
+   |             | /     ^    |
+   |             |/     /|\  /|\
+   |    ^  B-----N     //|\\ /|\  
+  /|\  /|\      /|\      |    .
+  /|\ //|\\    / | \          .
+   .    |     2--1--D--//-E   .
+   .                          . 
+   .  ======================= .
+   .  W - West Entrance       .
+   .  D - Dormitory           .
+   .  P - Post Office         .
+   .  R - Reservoir           .
+   .  N - Nexus               .
+   .  B - Message Board       .
+   .  L - Library             .
+   .  1 - Layman Rack         .
+   .  2 - Occupational Rack   .
+   .  E - East Entrance       .
+   .  ======================= .
+

@@ -1,0 +1,44 @@
+Comments on the flower system.
+
+1)  It is no longer necessary to set the OBJ_M_NO_DROP property and then remove
+    it with an alarm. When a player quits, only those items that are neither
+    recovering nor autoloading will be dropped by the player.
+
+2)  As the items are purely emotive, they should be built as wearable and
+    holdable object, rather than armour and weapon.
+
+3)  Functions that are identical for all modules, like query_recover(),
+    init_arg() and query_auto_load() should be placed in flower_base.c.
+
+4a) Function-VBFC is always to be prefered to string-VBFC. This means that
+    VBFC() and VBFC_ME() really should not be used anymore unless there are
+    problems. The same goes for using function-pointers with set_alarm() rather
+    than strings.
+
+4b) VBFC is used unnecessarily in the flower system, which is inefficient. VBFC
+    should only be used when the value of the function call is dependant on
+    factors that can change. In the case of the flower system that is not the
+    case. The type or colour does not change after create_flower() has been
+    called. Thus it is better to call
+       set_short(colour + " " + flower_desc[type][0] + " boutonniere");
+    for instance.
+
+5)  The declaration of the mapping flower_desc in flower_base.c is wasteful as
+    it will create a mapping with the same contents in every instance of the
+    flower, duplicating the information unnecessarily. To solve this, we can
+    do the following:
+
+    1) Create the file flower_desc.c that only contains the declaration of the
+       mapping flower_desc and a function:
+
+       mapping query_flower_desc() { return flower_desc; } 
+
+    2) Define the mapping flower_desc; in flower_base.c without initialising
+       the mapping and the following define.
+       #define FLOWER_DESC "/d/Avenir/common/bazaar/Obj/flower/flower_desc"
+    3) In the function create_flower() in the flower objects, add the following
+       lines first in the function:
+
+       setuid();
+       seteuid(getuid());
+       flower_desc = FLOWER_DESC->query_flower_desc();

@@ -1,0 +1,52 @@
+
+#define F_NEW_DAMAGE(pen, pblock, ac) \
+          ((pblock) < (ac) / 2 ? 0 : \
+          ((pen) * (200 - 2 * (ac) ) / (200 - (ac))))
+
+#define F_PENMOD(pen, skill) ((((pen) > (skill) ? (skill) : (pen)) + 50) * \
+        (((skill) > (pen) ? (pen) + ((skill) - (pen)) / 2 : (skill)) + 50) / \
+        30 - 80)
+        
+#define F_STR_FACTOR(str) ((600 + (str) * 4) / 10)
+
+// Pen used in formulas below
+m_pen[pos] = F_PENMOD(wcpen, skill) * F_STR_FACTOR(me->query_stat(SS_STR)) / 100;
+          
+/std/combat/cbase.c Line: 1790+
+
+    if (wcpen > 0)
+    {
+        if (dt == MAGIC_DT)
+        {
+            ac = 0;
+            
+            /* MAGIC_DT damage has a base damage value of wcpen / 4 */
+            phit = wcpen / 4;
+            phit += random(phit) + random(phit) + random(phit);
+        }
+        else
+        {
+            ac = hitloc_ac[hloc][HIT_M_AC];
+            tmp = MATH_FILE->quick_find_exp(dt);
+
+            if (sizeof(ac) && (tmp < sizeof(ac)))
+            {
+                ac = ftoi(ac[tmp]);
+            }
+            else if (sizeof(ac))
+            {
+                ac = ftoi(ac[0]);
+            }
+            else if (!intp(ac))
+            {
+                ac = 0;
+            }
+
+            phit = wcpen / 4;
+            phit = random(phit) + random(phit) + random(phit) + random(phit);
+            proc_block = random(100);
+
+        }
+
+        dam = max(0, F_NEW_DAMAGE(phit, proc_block, ac));
+    }

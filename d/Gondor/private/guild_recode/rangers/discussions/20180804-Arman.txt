@@ -1,0 +1,170 @@
+From   : Arman
+Forward: Rangers of the Westlands.
+Date   : Thu May 14 14:21:42 2020
+
+Author : Arman
+To     : Namara, Sarian, Redblade, Firiel, Vali, Sonta and Johnny
+CC     : Arman, Carnak and Gorboth
+Date   : Tue Jan  1 01:13:03 2019
+
+Hi ranger councillors,
+
+It seems a few personnel have changed since my initial discussions about a
+ranger recode. I am forwarding my original thoughts to you so you are aware of
+discussions that have been had so far.
+
+I look forward to working with you all in the new year to bring the rangers in
+to the standardised special and spell system, and improving the playability of
+the guild with your help!
+
+Cheers,
+A.K
+
+> Author : Arman
+> To     : Dorrien, Thoru and Johnny
+-- More -- 25/166 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+> CC     : Gorboth and Arman
+> Date   : Sat Aug  4 12:09:28 2018
+> 
+> On Jul 19 2018, Dorrien writes:
+> 
+> > Master Arman,
+> > 
+> >      The Lieutenant and Sergeant have informed me that you have graciously
+> > volunteered to act as the true Ambassador between the Valar and The Rangers
+> of
+> > the Westlands, to work with and interpret the Valar's will and in turn
+> reshape
+> > the Rangers of the Westlands to better align with that endeavor. For this,
+we
+> > are in your debt. As you are fully aware, this is no small task. This being
+> > said, I will reiterate Thoru and Johnny's words: We are incredibly greatful
+> for
+> > your attention and wish to be included and assist as much as possible
+during
+> > this transformation. We have spent many moonlit nights contemplating how
+the
+> > Will of the Valar might have changed and evolved as the lands themselves
+> have.
+> > Should you desire our thoughts and efforts please do not hesitate to mail
+us.
+-- More -- 50/166 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+> > As a Council it is our duty to ensure that the Rangers of the Westlands
+> > flourish and there is no better way to do this than aid in your efforts.
+> > 
+> > Aure Entuluva,
+> > 
+> > Dorrien the Captain of the Rangers of Ithilien
+> 
+> Hi all,
+> 
+> Thanks for your patience. I would like to begin by putting forward
+> my initial thoughts on the rangers guild - largely based on reviewing
+> guild documentation, and a very brief play as a ranger pupil in the
+> early 90s which probably isn't relevant to today's rangers guild.
+> 
+> In summary, the rangers seem to have been designed as a jack-of-all
+> skills and abilities, without them being particularly good at any
+> of them. This - to me - makes them feel like a double-layman guild
+> rather than a complete occupational guild.
+> 
+> COMBAT AID ISSUES:
+> Because of this dispersion of abilities, it also means that the rangers
+> guild technically have access to a really high combat aid under the
+> standardised system. If I was to apply combat aid based on abilities
+> (note, these are indicative percentages.. I am not giving you real
+> combat aid values ;)  ):
+-- More -- 75/166 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+> 
+> 20% of caid cap on nightvision.
+> 
+> 130%+ of caid cap on heal. The ranger heal is non-standard and really
+> powerful. Comparable to occupational clerical heals.
+> 
+> brawl (trip) currently provides an infinite caid. Stun in the standardised
+> system is capped at a 30 second duration with a 30 second cooldown with
+> 100% of a guild's combat aid used.
+> 
+> brawl (blind) provides a similar combat aid cost to stun... 25 second
+> blind with 25 second cooldown is around 45% of a guild's max combat aid.
+> 
+> brawl (disarm) provides around 45% of a guild's max combat aid.
+> 
+> potions: now I haven't really looked in to how overdose works, so may
+> need your insights in to it... but they do provide quite a considerable
+> benefit-
+> 
+> este - heal health/fatigue/mana, and chance to cure poison. Quite powerful!
+> 
+> wenya - strength boost... haven't been able to measure how much of a boost,
+> but it would be a bit of combat aid.
+> 
+> avarywalme - poison resistance... haven't figured out how much of a
+-- More -- 100/166 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+> benefit it gives, but for every % of resistance it is 1% of your total
+> caid cap.
+> 
+> So when you do the math, to convert over the current ranger guild to
+> the standardised system, we are looking at the rangers being 4x to
+> 5x over their combat aid cap!!!
+> 
+> That just won't fly. So we really need to have a good hard think about
+> what we want the rangers to be able to do, and how we are going to
+> make that happen.
+> 
+> OTHER CONSIDERATIONS
+> Now there are two other considerations we need to keep in mind.
+> 
+> Firstly, the rangers guild is a ranger CLASS. i.e, distinct from a
+> fighter, mage, cleric, or thief class.
+> 
+> What does that mean? From a skills perspective, rangers have no
+> skills that are 'alien' to them (i.e they can have access to fighter,
+> mage, cleric or thief skills without a penalty), so theoretically have
+> more range of skill options open to them... up to a point which is
+> confident veteran... after which they are penalised for any skills that
+> go above that.
+> 
+> From an abilities or combat aid cap point of view... well, that hasn't
+-- More -- 125/166 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+> really ever been explored, as the ranger guild has never been
+> standardised. Back when classes were originally designed the skill
+> distinction was actually quite important! So at this point rangers
+> have the same combat aid cap and limitations as fighter
+> and thief guilds. This is something we could, at the admin level,
+> have a think about how we may want to bring distinction to the class.
+> But for the time being it is something to be mindful of.
+> 
+> The second consideration is a desire (largely by Gorboth) to retain
+> the flavour of the existing rangers. They are a guild with a lot of
+> history in the game, and the adminstration values that. We don't want
+> to make change for change sake where we can avoid it.
+> 
+> IN CONCLUSION
+> So to conclude, there are a lot of things we need to work through.
+> 
+> I need your views in relation to what are the key themes and elements
+> of the guild we really want to maintain?
+> 
+> Where are there opportunities to remove, change or move elements of
+> the guild that dilute its effectiveness? I am thinking potion making?
+> Could that be moved to a craft guild slot? Could some spells be
+> made abilities, or are better covered in the Heralds guild? Or are
+> these elements key to what makes the rangers guild?
+> 
+-- More -- 150/166 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+> From a global balance point of view, where should the rangers sit in
+> the rock vs paper vs scissors guild scenarios? Right now, they are
+> placed as quite effective anti-magic (although ironically not so
+> much against Morgul Mages). Is that something we want to put more of
+> a focus on?
+> 
+> These are the sort of things I want to whiteboard with you all.
+> While we aren't looking at the rangers necessarily from a blank
+> slate, right now we aren't taking anything off the table as possible
+> options for a guild recode.
+> 
+> Look forward to your thoughts.
+> 
+> Regards,
+> Arman

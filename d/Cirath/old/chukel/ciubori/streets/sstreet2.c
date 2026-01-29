@@ -1,0 +1,34 @@
+/*
+* Created by: 
+* Date: 
+*
+* File: /d/Cirath/chukel/ciubori/streets/sstreet2.c
+* Comments: edited by Luther Oct. 2001
+*/
+
+inherit "/std/room";
+#include "defs.h"
+
+void
+create_room()
+{
+  	set_short("Sapphire Street");  
+  	set_long("You are standing on Sapphire Street which lies in the central "
+  		+"part of Ci'u'bori. You have large buildings on both sides of the "
+  		+"street and you can enter a bank to your west and 'Cirathian "
+  		+"travellers guild' to the east. South is a crossroad.\n");  
+
+  	add_item("ciubori","The third largest city in Cirath.\n");
+  	add_item(({"house","houses","building","buildings"}),"The houses are neatly built "+
+    		"and very well-kept. The city looks very wealthy.\n");
+  	add_item("street","The street is made by bricked stones, neatly put together.\n");
+  	add_item("bank","The bank seems very well-protected with its steel doors.\n");
+
+  	OUTSIDE;
+
+  	add_exit(CIU_STR + "sstreet1", "north", 0,1); 
+  	add_exit(CIU_STR + "rstreet3", "south", 0,1);
+  	add_exit(CIU_HOU + "bank", "west", 0,1);
+  	add_exit(CIU_HOU + "guild", "east", 0,1);
+  	reset_room();
+}

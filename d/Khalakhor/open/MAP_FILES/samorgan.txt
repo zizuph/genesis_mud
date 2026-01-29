@@ -1,0 +1,123 @@
+main
+::MAPDATA::
+tower-nw 4 3
+tower-nw-up 3 2
+tower-ne 46 3
+tower-ne-up 47 2
+tower-sw 7 21
+tower-sw-up 6 20
+tower-se 43 21
+tower-se-up 44 20
+vil0201 8 5
+vil0202 12 5
+vil0203 16 5
+vil0204 22 5
+vil0205 26 5
+vil0206 30 5
+vil0207 34 5
+vil0208 38 5
+vil0209 42 5
+vil0301 8 7
+house0302 12 7
+vil0303 16 7
+house0304 20 7
+vil0307 34 7
+house0308 38 7
+vil0309 42 7
+house0310 46 7
+vil0401 8 9
+house0402 12 9
+vil0403 16 9
+house0404 20 9
+dshop 22 9
+gshop 26 9
+mshop 30 9
+vil0407 34 9
+house0408 38 9
+vil0409 42 9
+house0410 46 9
+vil0501 8 11
+vil0502 12 11
+vil0503 16 11
+vil0504 22 11
+vil0505 26 11
+vil0506 30 11
+vil0507 34 11
+vil0508 38 11
+vil0509 42 11
+vil0510 46 11
+vil0601 8 13
+board 16 13
+vil0604 22 13
+well 26 13
+vil0606 30 13
+bank 34 13
+vil0609 42 13
+vil0701 8 15
+vil0702 12 15
+vil0703 16 15
+vil0704 22 15
+vil0705 26 15
+vil0706 30 15
+vil0707 34 15
+vil0708 38 15
+vil0709 42 15
+vil0801 8 17
+wshop 22 17
+vil0805 26 17
+ashop 30 17
+entrance 34 17
+stairs 39 17
+vil0809 42 17
+vil0901 8 19
+delivery 22 19
+vil0905 26 19
+post 30 19
+join 34 19
+pub 38 19
+vil0909 42 19
+vil1002 12 21
+vil1003 16 21
+vil1004 22 21
+pie1005 26 21
+vil1006 30 21
+vil1007 34 21
+vil1008 38 21
+pie1104 22 23
+pie1105 26 23
+pie1106 30 23
+pie1204 22 25
+pie1205 26 25
+pie1304 22 27
+pie1305 26 27
+pie1306 30 27
+::MAPDATA::
+           _____
+          /\    \        ========
+  [ ]    /  \____\       SaMorgan             [ ]
+   [ ]   |[]| [] |       ========            [ ]
+      \                                     /      [ ] - guard tower
+  ____  o - o - o - - o - o - o - o - o - o          b - board
+ /   /\ |       |                 |       |          B - bank
+/___/\/ o - o   o - o             o - o   o - o      D - delivery
+\___\/  |       |                 |       |          d - Dress shop
+        o - o   o - o d   G   m   o - o   o - o      G - General shop
+        |       |     |   |   |   |       |          m - Men's shop
+        o - o - o - - o - o - o - o - o - o - o      W - Weaponry
+        |             | / | \ |           |    ____  A - Armoury
+        o       b - - o - o - o - B       o   /   /\
+        |       |     | \ | / |   |       |  /___/\/
+        o - o - o - - o - o - o - o - o - o  \___\/
+        |             | / | \ |   |       |
+        o             W   o   A   o - Cl  o
+        |                 |       |       |
+        o             D - o - PO  o  Pub  o
+     [ ]  \           | / | \ |       | /  [ ]
+      [ ] - o - o - - o   o   o - o - o - [ ]
+                          |                
+         ~~~~~~       o - o - o   ~~~~~~~
+          ~~~~~~~         |   ~~~~~~~~
+         ~~~~~~       o - o ~~~~~~~~
+         ~~~~~~~~~~~      |  ~~~~~~~~~
+          ~~~~~~~     o - o - o  ~~~~~~~~
+                  Cadu

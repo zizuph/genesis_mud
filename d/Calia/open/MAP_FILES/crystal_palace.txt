@@ -1,0 +1,77 @@
+main
+::MAPDATA::
+garden5 9 10
+garden6 13 10
+garden7 17 10
+garden8 21 10
+garden9 25 10
+garden4 5 12
+garden10 29 12
+good 9 14
+white 17 14
+sleepless 25 14
+silver 13 16
+gold 17 16
+bronze 21 16
+late 9 18
+training 13 18
+stairs 17 18
+stairs2 17 18
+lightroom 21 18
+hardware_shop 25 18
+common 15 20
+trainroom 13 22
+hall 17 22
+post 21 22
+bank 9 24
+entrance 17 24
+shop 25 24
+garden3 5 27
+garden11 29 27
+garden2 9 29
+garden12 25 29
+garden1 13 31
+croad27 17 31
+garden13 21 31
+croad26 17 33
+garden14 21 33
+croad25 17 35
+::MAPDATA::
+
+          ==============
+          Crystal Palace
+          ==============
+                 _
+          _     {o}     _
+  _      {o}     |     {o}
+ {o}      |     \|/     |    _
+  |      \|/           \|/  {o}
+ \|/                         |
+         o - o - o - o - o  \|/
+       /                   \     
+     o                       o   
+     | ##################### |   _
+     | # o       o       o # |  {o}
+     | # | \     |     / | # |   |
+     | # |   o - o - o   | # |  \|/
+ _   | # |   |   |   |   | # |
+{o}  | # o - o -[ ]- o - S # |     _
+ |   | # |   |   |   |   | # |    {o}
+\|/  | # |   | C |   |   | # |     |
+     | # |   |/  |   |   | # |    \|/
+     | # |   T - o - P   | # |
+     | # | /     |       | # |  _
+     | # B ----- o ----- S # | {o}
+     | #         |         # |  |
+     | ######### | ######### | \|/
+     o           |           o  
+  _    \         |         /  _
+ {o}     o       |       o   {o}
+  |        \     |     /      |
+ \|/         o - o - o       \|/
+                 |
+    S = Shop     o    
+    T = Training |
+    B = Board    o
+    P = Post     |
+    C = Common   |

@@ -1,0 +1,50 @@
+/* Guild emotes */
+
+"ksay" : "e_ksay",
+"klaugh" : "e_klaugh",
+"khiss" : "e_chiss",
+"kwail" : "e_cwail",
+"kscream" : "e_cscream",
+"kchuckle" : "e_cchuckle",
+"kgrin" : "e_cgrin",
+"kglare" : "e_cglare",
+"kpoint" : "e_kpoint",
+"kdeath" : "e_kdeath",
+"kglow"  : "e_cglow",
+"krage"  : "e_crage",
+"ksmile" : "e_csmile",
+"kspin"  : "e_kspin",
+"kjuggle" : "e_kjuggle",
+"kscrape" : "e_kscrape",
+"kstroke" : "e_cstroke",
+"karc"   : "e_karc",
+"kturn"  : "e_cturn",
+"krad"   : "e_crad",
+"ksniff" : "e_ksniff",
+"kchant" : "e_cchant",
+"kpraise" : "e_cpraise",
+"kgreet" : "e_cgreet",
+"kfare"  : "e_cfare",
+"ksoul"  : "e_csoul",
+"kmemory" : "e_cmemory",
+"kfrustrate" : "e_cfrustrate",
+"kfurl" : "e_cfurl",
+"kamuse" : "e_camuse",
+"kobey"  : "e_kobey",
+"kglint" : "e_cglint",
+
+/* Guild commands */
+
+"help" : "c_help",
+"kcrucify" : "c_crucify",
+"ksp"  : "c_lksay",
+"ktorment" : "c_torment",
+"khang"   : "c_chang",
+"kcut"    : "c_ccut",
+"wkhiraa" : "c_wkhiraa",
+
+/* Guild specials  */
+
+"kwhirl" : "do_whirlwind",
+"kbash"  : "do_stunbash",
+

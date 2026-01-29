@@ -1,0 +1,41 @@
+
+     Spell name: Minor protection - lightning
+                 trothshochraos
+         Effect: Magical resistance to electrical
+           Type: Maintained
+        Targets: Single living
+        
+        Element: Air           / 50
+           Form: Abjuration    / 50
+    Spell power: Power 3 [Intermediate spell]
+     Spell type: resistance spell 
+     
+       Peaceful: No
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: elidross (565cc)
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_HARD
+     Combat Aid: 24%
+
+            Tax:  0.5
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.75   hard difficulty
+                  x0.8   material component (>=1 gp value)
+                 ------
+                  0.3%  total tax
+   ------------------------------------------------------------
+   Comments: A protection spell offering up to 30% resistance
+   to electrical damage depending on spell power.
+
+   As it provides only a single resistance, combat aid is 
+   calculated at x0.8 (as outlined in 'man resistance') for
+   24% caid.
+   ------------------------------------------------------------

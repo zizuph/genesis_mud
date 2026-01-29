@@ -1,0 +1,73 @@
+main
+::MAPDATA::
+glacier4 30 2
+treasury 9 4
+bare_tunnel 13 4
+library_secret 17 4
+glacier3 30 4
+hall2 9 6
+hall1 13 6
+library 17 6
+glacier2 34 6
+mino_garrison2 17 8
+slope_bottom 30 8
+glacier1 34 8
+courtyard_north 13 10
+mino_garrison 17 10
+battlement4 26 10
+battlement5 30 10
+battlement6 34 10
+north_stable 9 12
+north_guard 17 12
+battlement3 26 12
+battlement7 34 12
+stable 9 14
+inner_courtyard 13 14
+tunnel_gate 17 14
+battlement2 26 14
+battlement8 34 14
+south_stable 9 16
+south_guard 17 16
+battlement1 26 16
+battlement9 34 16
+storage3 9 18
+storage1 13 18
+storage2 18 18
+cliff_new 1 20
+dark_cave 5 20
+dark_tunnel 9 20
+huge_warehouse 13 20
+storage4 18 20
+west_path1 1 22
+west_path2 1 24
+west_path3 1 26
+::MAPDATA::
+
+
+     Old Icewall Castle                               
+
+                 o            
+                 |
+         o -[ ]- o                
+             |
+             |   o               
+             |   |
+             o - o        o -[ ]- o
+             |            |       |
+        [ ]  |  [ ]      [ ]     [ ]
+         |   |   |        |       |
+         o - o - o        o       o
+         |   |   |        |       | 
+        [ ]  |  [ ]      [ ]     [ ]
+             |
+         o -[ ] - o
+                  |
+ o       o -[ ]   o
+ |                                       |>>
+ o                      _   _   _   _   _|
+ |                     | |_| |_| |_| |_| |
+ o                     |                 |
+ |                     |        /\       |
+ o                     |   []  |  |  []  |
+  \                    |       |  |      |
+

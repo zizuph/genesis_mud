@@ -1,0 +1,32 @@
+outpost
+::MAPDATA::
+boat_path1 43 11
+boat_path2 45 9
+
+::MAPDATA::
+Fort Area of Sybarus
+                                                |
+ To the Port                                   (_)
+  of Sybarus                        ___|___   _| |____   |
+     \                             (_)__)__|_| []|[]  |_/_\_
+      o                            | |__| [] |   |[]  |  | |
+       \
+        o                          Boat to the Bazaar Island
+         \                      (<hit pipe> to summon transport)
+          o                                  o
+           \                                /
+            o                              o
+             \      Gate                  /
+              o      ||       o  ---  o  o
+               \     ||       |       | /
+            o    o - || ----  o  ---  o --- o Notary
+             \  /    ||       |       |
+              o      ||       o  uuu  o
+              |     Gate   Tower | |
+              o          uuu     | |uu
+              |         uuu|=====| | |
+              o         | |======| |'|
+              |         | | .==. | | |
+              |         |___|##|___|/
+    To the Utterdark
+

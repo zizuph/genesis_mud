@@ -1,0 +1,102 @@
+* hadjust - Giving a quick tug on your jacket, you straighten out and adjust your clothing to make yourself a little more presentable.
+
+* HBATTLE - You give a silent prayer to Yondalla, asking for strength in battle.
+
+* hblow - Grabbing a stained square of cloth from your pocket, you blow your nose loudly.
+
+* hblush - Your cheeks take on a rosy hue as your blush shyly.
+
+* HBOW - You drop to one knee and awkwardly bow.
+
+* HBRB - You shout: I'll be right back!!! and dash away for a minute ...
+
+* HBRB2 - You shout: I'm back!!!
+
+* hbreath - <if room is outside> You take a deep breath and enjoy the fresh air outside.
+
+* HCHATTER - You chatter inanely about nothing of importance.
+
+* hcradle - < target> Feeling a little bored, you take out a length of string to play cat's cradle with <target>.
+
+* HDANCE - You happily dance a little jig. / You grab <player> and dance around with them.
+
+* HDEAD - You bow your head in quiet reverence in respect to the dead. You feel the smile of Yondalla.
+
+* HDRUM - You drum your fingers nonchalantly, waiting ...
+
+* hexamine - <item> Your curious nature getting the better of you, you examine the <item> a little more closely. <then return regular examine ability>
+
+* HFEET - you wiggle your hairy feet happily.
+
+* hflip - <copper, silver, gold, platinum> You casually flip the <type> coin into the air. It lands <heads/tails>.
+if (ob->query_coin_type() == "platinum")
+
+* hglance - <target> <item> You cast a curious glance at <target>. / You cast a curious glance at the <item>
+
+* hgossip - write("You tell everyone the latest gossip since nothing interesting is going on.\n");
+
+* HGRIN - You grin widely.
+
+* hgroom - <can target general, or feet, other locations?>  You pause a moment to carefully comb the knots out of your hairy feet.
+
+* hhear - You raise up a hand motioning everyone around you to be silent, what was that you heard?
+
+* HHUG - You throw your arms around <player's> <human/elf/goblin- legs, rest/waist> and hug them tightly.
+
+* hidle - You idly lean back and begin to twiddle your thumbs, waiting patiently.
+
+* hjuggle - Grabbing a few pebbles from the ground, you casually juggle them in the air to relieve the boredom.
+
+* hlaugh - A joyful and boisterous sound erupts from your belly as you fall over laughing.
+
+* hlead - With a mighty and inspiring cry, you bravely offer to lead everyone to the nearest tavern!
+
+* hlick - You take a moment to lick your fingers, enjoying the tasty remnants of your last meal.
+
+* hlist - <target> <item> That is enough of THAT! You give <target> a stern look as you take out a notebook and put them on 'the List'. / That is enough of THAT! You give the <item> a stern look as you take out a notebook and put it on 'the List'.
+
+* HLOL - You laugh out loud.
+
+* hnibble - You search through your pockets, finding <a cookie, a heel of bread, an apple, etc.. etc..> to help fill that empty feeling in your tummy.
+
+* hnote - You grab your pocketbook and jot down a quick note to yourself.
+
+* hpick - Using your fingers, you pick at a little bit of food that got stuck in your teeth from that last meal.
+
+* HPRIDE - You puff out your chest and swell with pride.
+
+* hrelax - You find a quiet place to step back for a moment and relax. hnap - Taking advantage of a special ability known only to Halflings, you promptly close your eyes and take quick catnap.
+
+* HROFL - You fall down and roll around on the ground laughing out loud.
+
+* hrumble - Your tummy seems to be telling you (and everyone around you!) something, namely, it is time to eat!
+
+* HRUMMAGE - You rummage through your pockets, looking for something.
+
+* hscout - Using keen eyes and sharp ears, you quickly scout out the surrounding area.
+
+* hsing - You sing a joyful little song about family, friends and good times.
+
+* hsip - <drink> Closing your eyes, you lovingly take a slow sip of your <drink>, savouring the exquisite taste.
+
+* HSIT - You sit down, cross your feet, and wait.
+
+* hskip - Your feet seem to bounce lightly in the air as you begin to skip around, enjoying everything that is good in this world.
+
+* hsmooth - You quickly run your fingers through your hair, smoothing down that unruly mess!
+
+* hsniff - You lift your head up a little as you sniff the air, is that food you smell?
+
+* HSTAMP - You stamp both feet excitedly / <adverb>.
+
+* HSTAND - You cross your arms across your chest and frown, looking dangerous and ready for anything.
+
+* HSTARE - You put your hands on your hips, furrow your brow, and stare down <player> / your enemy.
+
+* htoast - <drink> <target> <message> You raise your <drink> up in a cheerful toast. / You raise your <drink> up in the air, a toast to <target>. / You raise your <drink> up in the air and announce: <message>. / You raise your <drink> up in the air, a toast to <target>, and announce: <message>.
+
+* HTWINKLE - Your eyes twinkle mysteriously
+
+* HWANDER - You begin to wander around aimlessly.
+
+* HYEARN - You yearn for the comforts of your home.

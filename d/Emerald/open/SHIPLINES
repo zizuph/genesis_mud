@@ -1,0 +1,43 @@
+Sparkle ship
+============
+Ship:        /d/Emerald/docks/sparkle/ship.c
+Captain:     /d/Emerald/docks/sparkle/captain.c
+Start:       /d/Emerald/docks/sparkle/dock.c
+Destination: /d/Genesis/start/human/town/pier7.c
+Cost:        2 sc
+
+Telberin ship
+=============
+Ship:        /d/Emerald/docks/telberin/ship.c
+Captain:     /d/Emerald/docks/telberin/captain.c
+Start:       /d/Emerald/docks/telberin/dock.c
+Destination: /d/Emerald/telberin/dock/telberin_dock.c
+Cost:        free
+
+Avenir ship (controlled by Avenir)
+
+Faerie ship
+===========
+Ship:        /d/Emerald/docks/faerie/ship.c
+Captain:     /d/Emerald/docks/faerie/captain.c
+Start:       /d/Emerald/docks/faerie/dock.c
+Destination: /d/Genesis/start/elf/room/cove_2.c
+Cost:        18 cc
+
+Terel ship
+===========
+Ship:        /d/Emerald/docks/terel/ship.c
+Captain:     /d/Emerald/docks/terel/captain.c
+Start:       /d/Emerald/docks/terel/dock.c
+Destination: /d/Genesis/start/elf/room/cove_2.c
+Cost:        18 cc
+
+Golden Island (RMC) ship (controlled by Immortal)
+
+Northern Shore
+==============
+Ship:        /d/Emerald/telberin/dock/ferry.c
+Captain:     /d/Emerald/telberin/dock/ferryman.c
+Start:       /d/Emerald/telbern/dock/ferry_dock.c
+Destination: /d/Emerald/north_shore/dock.c
+Cost:        10 cc

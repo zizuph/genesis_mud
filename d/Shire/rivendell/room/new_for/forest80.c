@@ -1,0 +1,75 @@
+/*
+ * Forest near Rivendell
+ * By Finwe, August 1998
+ */
+ 
+#pragma strict_types
+ 
+#include "local.h"
+ 
+inherit FOREST_BASE;
+ 
+void
+create_forest_room()
+{
+    set_vbfc_extra(forest_desc1);
+    set_extraline("The river Bruinen flows along here lazily. ");
+    reset_shire_room();
+ 
+    add_item(({"river", "river bruinen", "bruinen"}),
+        "The river flows lazily to the west from the mountains. " +
+        "It looks clear and fresh.\n");
+
+    add_exit(FOREST_DIR + "forest76", "north",0,4, check_person);
+    add_exit(FOREST_DIR + "forest81", "east","@@block_me@@",4, 1);
+    add_exit(FOREST_DIR + "forest77", "northeast",0,4, check_person);
+ 
+}
+
+int
+block_me()
+{
+    if (this_player()->query_wiz_level()) return 0;
+    write("The trees block you from going that way.\n");
+    return 1;
+}
+
+void init()
+{   
+    ::init();
+    add_action("drink_it",      "drink");
+}
+ 
+int drink_it(string s)
+{
+ 
+int amount;
+ 
+   if(s=="water" || s=="water from river")
+       {
+           amount = TP->query_prop(LIVE_I_MAX_DRINK) / 20;
+           if (TP->drink_soft(amount))
+           {
+           TP->catch_msg("You kneel before the river, dipping " +
+                "your cupped hands into the river and get a " +
+                "drink of the clear icy water. Its taste " +
+                "refreshes your mind and body.\n");
+ 
+           say(QCTNAME(TP)+" kneels before the river and gets a " +
+                "drink.\n");
+           
+           }
+           else
+           {
+           write("You cannot drink more water.\n");
+           }
+ 
+            return 1;
+        }
+    else
+            NF("Drink what?\n");
+}
+
+void reset_shire_room()
+{
+}

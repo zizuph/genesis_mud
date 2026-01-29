@@ -1,0 +1,50 @@
+
+
+   General info
+   ============
+
+General:
+--------
+
+Path to the area: /d/Gondor/harondor/room/camp/
+
+The files: base_camp.c
+           base_tent.c
+           base_trail.c
+
+handles the general and common things for the area.
+
+The trail and camp almost identical but with different callouts.
+The base_tent.c holds all the descriptions for all the regular tents.
+
+The file: wind_check_open.c handles if the two hidden entrances to the
+camp are open or not. Either one can be open or closed or both can be 
+open or closed. There is a timer that keeps track of updates on the 
+exits. It is set to 2hrs +/- 5min.
+
+
+NPC:
+----
+npc/haradrim.c are the general NPC populating the area.
+npc/hguard.c are the guards for the entrance and the chief
+npc/chief.c is the chief of the camp and also holds a quest
+
+
+DOCS:
+-----
+docs/FAQ.txt - this file
+docs/Haradrim_Military_Ranking.txt - explains the titles for the Haradrim
+docs/Map.o - show the map of the area
+docs/Measure_quest.txt - outlines the quest for the area
+
+
+ARM/WEP:
+--------
+The armours and weapons are inspired from mideveal time, the seax for instance
+a saxon sword (and or dagger) from 800-now. 
+The weapons have neat descriptions when fighting.
+Quite some time have been put into the descriptions in hopes of attracting 
+players to use the items eventhough they are not magical and high end eq.
+Hopefully they will become a 'base' equipment thing to be found in almost 
+any weapon rack of the various guilds out there in the realm.
+

@@ -1,0 +1,19 @@
+
+For an estimate of the repair cost for weapons:
+    wcost <item>
+
+To wax a corroded weapon:
+    wax <item>
+
+To mend a broken weapon:
+    mend <item>
+
+To sharpen a dull weapon:
+    sharpen <item>
+
+
+For an estimate of the repair cost for armour:
+    acost <item> 
+
+To fix an item of armour (but I cannot mend broken armours):
+    fix <item>

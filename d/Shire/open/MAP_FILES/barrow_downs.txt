@@ -1,0 +1,70 @@
+main
+::MAPDATA::
+road01 29 2
+road02 29 4
+road03 29 6
+road04 29 8
+road05 29 10
+road06 31 12
+road07 25 14
+road08 29 14
+road09 33 14
+val09 14 16
+road10 14 16
+road11 19 16
+road12 23 16
+road13 29 16
+road14 33 16
+val10 11 18
+road15 23 18
+road16 29 18
+road17 35 18
+road18 39 18
+val11 13 20
+val12 17 20
+road19 21 20
+road20 31 20
+road21 41 20
+val08 11 22
+val13 19 22
+road22 31 22
+road23 41 22
+val07 9 24
+val14 19 24
+road24 31 24
+val06 9 26
+val15 21 26
+road25 29 26
+val16 21 28
+circle 9 28
+::MAPDATA::
+
+                             |
+      ================       o
+      The Barrow Downs       |
+      ================       o
+                             |
+                             o
+                             |
+      .--.                   o
+    .`    `.                 |
+    [  /\  ]                 o
+    [ |  | ]                  \
+    [ |  | ]                   +       .--.
+                              / \    .`    `.
+                         + - o   o   [  /\  ]
+                        /    |   |   [ |  | ]
+             [ ] - + - o     +   +   [ |  | ]
+            /          |     |    \
+           o           +     o     o - +
+            \         /       \         \
+             o - o   +         o         o
+            /     \            |         |
+           o       o           +         +
+          /        |           |
+         o         o           o     .--.
+         |          \         /    .`    `.
+         o           o       +     [  /\  ]
+         |           |             [ |  | ]
+         o           o             [ |  | ]
+        /

@@ -1,0 +1,68 @@
+Rough notes from Skype with Petros on Guild Blance - 9/5/2016
+
+Fighter OCC Guilds - Max consistent 100 combat aid
+Figher LAY Guilds - Max consistent 50 combat aid???
+
+********************************************************************************
+
+Magic OCC Guilds - Max consistent 60 combat aid
+Magic LAY Guilds - Max consistent 30 combat aid???
+
+Magic guilds may burst (i.e. do damage greater than consistent combat aid).
+Burst combat aid MUST NOT be sustainable, otherwise it will effectively be
+consistent combat aid.
+
+For example Morgul Mages have 1 60 combat aid damage spell that
+consumes mana at the rate of the caster's mana regeneration. It is roughly
+equivalent to Mercenaries' mattack. However, Morgul Mages can burst up to
+250 combat aid limited by the number of potions (i.e. prepared charges)
+and amount of mana they have available. Additionally, uber-spells like
+stat-cloud are only usable once every 3 hours or so.
+
+One note: The spirit of the rule governing burst combat aid is that the
+player benefiting from the burst must spend in-game time to prepare.
+The Nazguls are currently tasking their apprentices with preparing the
+potions thereby breaking the spirit of the rule. This is something Petros
+thinks we should examine again.
+
+Example frameworks Petros suggested are:
+
+Wizards spending time memorizing spells up to some maximum number of
+slots limited by stats (e.g. like WoHS in Dragon Lance books).
+
+Minstrels must play a gig at an in-game tavern/pub to earn a charge.
+
+********************************************************************************
+
+Framework to determine combat aid of specials and effects:
+
+To be filled in...
+(Need second conversation with Petros)
+
+********************************************************************************
+
+Effect stacking might need to be examined again.
+
+Ckrik was wondering how defensive and offensive combat aid should be
+combined to arrive at an aggregate combat aid number for Monks. For example
+if plexus grants 40 combat aid and strike grants another 40 combat aid
+Petros thought it should 40 + 40 = 80 combat aid. Ckrik thought because one
+is offensive and one is defensive it should be
+(1.4 * 1.4 - 1.0) * 100 = 96 combat aid. Petros thought Ckrik may have a
+point and needed to think about it. Stacking magical effects would be
+accounted for in a similar way.
+
+********************************************************************************
+
+Non-combat aid spells are examined on a case-by-case basis and relies
+heavily on precedent. They are also taxed based on precedent.
+
+********************************************************************************
+
+There is still a list of standard spell templates that need to be
+implemented. An out of date list is in:
+
+/d/Genesis/ateam/aob/magic/petros/magic_proposal.txt
+
+Ckrik will compile an updated list.
+

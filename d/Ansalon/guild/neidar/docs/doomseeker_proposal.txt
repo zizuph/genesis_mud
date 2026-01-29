@@ -1,0 +1,211 @@
+Dwarven Doomseekers of the Hill Dwarves
+========================================
+
+BACKGROUND
+==========
+Dwarves are a proud people, and do not always cope well with failure
+or personal tragedy - no matter how small or potentially insignificant
+as perceived by tall people.
+
+The loss of a single family member or a hoard of treasures is inconsolable
+to a dwarf, a fate that can seriously unhinge their obsessive minds. Even
+moreso, an act of cowardice or dishonour is a shame few dwarves can live 
+with and end up being a burden far too heavy to bear - resulting in the 
+only possible redemption being through forsaking all and seeking nothing
+more than an honourable and glorious death - expunging the shame that has 
+driven him to the path of a Doomseeker, and to be remembered in the saga's 
+of his people for all time.
+
+A Doomseeker is a dwarven clan member who has taken a death oath and dedicates 
+the entire fibre of their being to the hardest and most destructive life of 
+battle that they can possibly find. They travel into treacherous wilderness 
+and deliberately seek out mighty battles, fearsome foes and overwhelming odds.
+
+They forsake all armours and defensive special abilities, and enter battle with 
+a frenzy that is fearsome and deadly.
+
+JOINING AND LEAVING
+===================
+To become a Doomseeker a dwarf of the Neidar Clan must make a pilgrimage to the
+Tree of the Ancestors south of the Tharkadan Mountain Ranges near the entrance
+to the mountain dwarf kingdom of Thorbardin and carve their solemn death oath
+into the tree (/d/Ansalon/guild/neidar/rooms/ancestor_tree.c)
+
+Any guild member can carve their name in the tree, although to access Tharkadan
+they need to have completed the Disks of Mishakal quest and Rescue Prisoner
+quest, so are likely to need to be of a minimum player size of at least hero.
+If the dwarf is an Elder or Thane they need to forsake their leadership claims 
+before taking the oath.
+
+Guild stat gets reset to zero, and they start progression up a new title system.
+
+Upon death, they revert back to a 'normal' Neidar member, guild stat again being
+restored to the value they had upon joining the Doomseekers. Their deeds are
+recorded on the Tree of Ancestors, and if they so choose they can again take
+the death oath and return to being a Doomseeker.
+
+This is handled in the existing Neidar Clan guild shadow 
+(/d/Ansalon/guild/neidar/shadows/occ_shadow.c) and the guild admin object 
+(/d/Ansalon/guild/neidar/lib/neidar_member_manager.c)
+
+ABILITIES AND SKILLS
+====================
+Skills remain largely the same as those offered by the Neidar Clan
+(/d/Ansalon/guild/neidar/docs/docs.txt), with the exception being that two 
+handed combat can be trained to 90 at the Tree of Ancestors.
+(/d/Ansalon/guild/neidar/rooms/ancestor_tree.c)
+
+However abilities change dramatically.
+
+                       -= ARMOURLESS (ALMOST) =-
+Doomseekers are ineffective when they wear armours with the exception of 
+robes/cloaks, and accessories (boots, earrings, breastpins, bracelets, rings, 
+belts, necklaces). None of their offensive or defensive abilities will work
+while wearing protective armours (except robes/cloaks).
+
+The armour types banned are listed in /d/Ansalon/guild/neidar/guild.h under the
+DOOMSEEKER_BANNED_ARMOURS define and managed through the check_valid_action
+functions in the specials.
+
+This makes them very susceptible to damage. This is a substantial disadvantage
+of approximately -100 caid (based on 40 ac standard) but more realistically up  
+to around 160 caid.
+
+It also means that they can't wear shields, making their membership to 
+Shieldbearers valueless.
+
+Noting that a number of quests may require the wearing of specific armours,
+we do not ban the wearing of armours outright. While wearing banned armours 
+however specials do not function and Doomseekers feel a sense of heightened 
+anxiety, resulting in an increase in panic and loss of mana through mental 
+stress through the /d/Ansalon/guild/neidar/specials/doom_regeneration_obj.c 
+object, meaning armour-wearing would only be done in rare circumstances.
+
+            -= CANNOT BATTLERAGE STUBBORNLY OR FIERCELY =-
+Doomseekers can't make use of their defensive battlerages fiercely or 
+stubbornly.
+/d/Ansalon/guild/neidar/specials/effects/battlerage_fierce_dam_mod.c
+/d/Ansalon/guild/neidar/specials/effects/battlerage_stubborn_dam_mod.c
+
+Nor do they have access to the other defensive abilities of the Neidar:
+/d/Ansalon/guild/neidar/specials/effects/defence_master_evade.c
+/d/Ansalon/guild/neidar/specials/effects/armour_master_dam_mod.c
+
+The only battlerage they can use is battlerage aggressively, which increases
+chop/crush caid by 10% and making them more susceptible to damage through
+    set_dam_mod_absorb(0) (a setting of zero apparently increases damage).
+
+While Doomseekers have quite a few substantial disadvantages, they do have
+some substantial strengths that balance out the defensive fragility:
+
+                   -= ENHANCED CHOP/CRUSH =-
+For 'normal' Neidar, chop/crush provides up to 45 caid (50 caid against racial
+enemies) with a slow 10 second prep and cooldown time (total 20 second special).
+
+Doomseekers have a much faster chop (5 second prep and cooldown time) that 
+provides much greater combat aid that scales up the more damage they have
+taken.
+
+The base combat aid of chop is approximately doubled, and scales upwards as
+a Neidar takes damage, modified by racial hatred and battlerage aggressively.
+
+This is handled in /d/Ansalon/guild/neidar/specials/doom_chop.c through the
+query_combat_aid_modifier() function.
+
+--------------------------------------------------------------------------
+          |   Combat aid base  |   Battlerage |  Racial hatred |MAX TOTAL |
+--------------------------------------------------------------------------|
+Standard  |        35          |     10       |       5        |   50     |
+--------------------------------------------------------------------------|
+Doomseeker|                                                               |
+Health____|____________________.______________.________________.__________|
+100%      |        85          |     +10      |       +5       |  100     |
+ 75%      |       106.25       |     +12.5    |       +6.25    |  125     |
+ 50%      |       127.5        |     +15      |       +7.5     |  150     |
+ 25%      |       148.75       |     +17.5    |       +8.75    |  175     |
+  0%      |       170          |     +20      |       +10      |  200     |
+--------------------------------------------------------------------------
+
+Realistically the maximum caid outlined above can only happen when the
+Doomseeker is at zero hitpoints, i.e dead, so will never actually be 
+realised. Most combat aid will be realised at the 25% health or higher.
+
+                   -= ENHANCED HEALTH REGENERATION =-
+Doomseekers gain a benefit of a health regeneration buff, based on the 
+standardised formula /d/Genesis/specials/std/regeneration_obj_base.c
+
+The passive health object is loaded in the guild shadow upon logging in:
+/d/Ansalon/guild/neidar/specials/doom_regeneration_obj.c
+
+This passive special relies on the BATTLERAGE_SKILL and TS_CON stat, and
+provides 94 caid benefit.
+
+Normally a cap is put on such regeneration specials of 25 caid, as it
+becomes quite powerful when stacked with high armour. However considering
+Doomseeker's wear no/little armour, this restriction has been lifted -
+making them viable at taking damage (health tank), although not a 
+good tank!
+
+If any banned armour is worn, the heal benefits are blocked in the
+query_regeneration_valid function of the special object, and instead
+the player has a 1 in 6 chance every 4 seconds of having 20 panic added 
+and mana reduced by 10 (half a harm spell mana cost).
+
+                            -= FEARLESS =-
+Immune to dragonfear through the addition of the property 
+LIVE_I_NO_DRAGONFEAR to the shadow.
+
+Also fearless in who they attack, with their desire to kill or be slain
+by the mightiest of opponents, they also have the NPC_I_NO_FEAR property
+set in their shadow.
+
+These benefits are taxed at 0.5%.
+
+Total caid
+----------
+Chop / Crush                                  85 to 200  
+                                              [150 taxed]
+Enhanced health regeneration                  94
+No armour or shield benefit                   -100 to -160
+
+(based on 86 defensive caid bonus for 40 ac)
+------------------------------------------------------------
+For every 6% of combat aid, 1% tax has to be charged.
+
+Total caid taxed (100 caid)                   16.67%
+------------------------------------------------------------
+
+Total skill tax
+------------------------------------------------------------
+                SKILL LVL     TAXABLE    TAX MOD    TAX PAID
+
+Standard skills 535             455                   10.25%
+        (see /d/Ansalon/guild/neidar/docs/doc.txt)
+SS_2H_COMBAT    90              90       2.0           3.00%
+------------------------------------------------------------
+                                                      13.25%
+
+Tax from Combat Aid : 16.67%
+Tax from Skills     : 13.25%
+Other Taxes         :  1.00% (Tireless)
+                    :  0.5%  (Fearless)
+----------------------------------------
+Total Tax           : 31.42% ~ 31%.
+========================================
+
+PROPOSED TITLES
+===============
+Honour-seeking Pilgrim of the Hill Dwarves
+Oathsworn Doomseeker of the Hill Dwarves
+Unfulfilled Doomseeker of the Hill Dwarves
+Bloodied Doomseeker of the Hill Dwarves
+Committed Doomseeker of the Hill Dwarves
+Reckless Doomseeker of the Hill Dwarves
+Dangerous Doomseeker of the Hill Dwarves
+Death-seeking Doomslayer of the Hill Dwarves
+Deeply-scarred Doomslayer of the Hill Dwarves
+Death-dealing Doomslayer of the Hill Dwarves
+Devastating Doomslayer of the Hill Dwarves
+Supreme Doomslayer of the Hill Dwarves
+Almighty Doomslayer of the Hill Dwarves
+Invincible Doomslayer of the Hill Dwarves

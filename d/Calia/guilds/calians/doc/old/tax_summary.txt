@@ -1,0 +1,61 @@
+Tax Summary for the Calian Guild
+================================
+
+Combat aid
+----------
+There are three combat-related special skills taught by the guild, 
+"swarm" and "riposte". The tax for these is separately documented 
+and so only the final combat aid and tax percentages are included here. 
+
+Solo Calian:
+    swarm combat aid:                   0%
+    riposte combat aid:                 30% (evade and attack)
+
+Tanking Team Calian:
+    swarm combat aid:                   25% (evade)
+    riposte combat aid:                 45% (evade and attack)
+    total:                              70%
+
+Swarming Team Calian (only 1 Calian):
+    swarm combat aid:                   105% (attack only)
+    total:                              105%
+    
+Swarming Team Calian (with more Calians):
+    swarm combat aid:                   120% (attack only)
+    swarm assist evade combat aid:      10%  (evade for tanker)
+
+Calians max out at about 120% combat aid. Given their specialist standing 
+and the drawback of needing to team to use swarm, the typical discount was 
+11 / 20. Because they always have 30% when solo, this portion is not
+discounted.
+
+Total tax for this combat aid: (30 / 6) + (90 * (11 / 20) / 6) = 13.25
+
+Other benefits
+--------------
+The guild has a member-to-member tell line, which costs 4% tax.
+
+Move Behind and Opportunity Attack is charged 1% tax.
+
+Skills
+------
+sword     (100 - 30) / 60 * 1.5 = 1.75% tax
+polearm   (75 - 30) / 60 * 1.5 = 1.125% tax
+
+Note:
+The 175 combined levels of sword and polearm may be divided up between
+the two however the player wants. This gives 25 levels of alternatively
+allocated levels, producing an extra tax of 25 / 60 * 0.5 = 0.21%
+
+two-handed combat  65 / 60 * 2.0 = 2.167% tax
+parry              75 / 60 * 1.5 = 1.875% tax
+defence            (75 - 20) / 60 * 1.5 = 1.375% tax
+
+
+Total guild tax: 
+
+  13.25 + 4 + 1 + 1.75 + 1.125 + 0.21 + 2.167 + 1.875 + 1.375 
+= 26.75% tax
+= 27% tax rounding up
+
+Document by Petros

@@ -1,0 +1,151 @@
+Heralds of the Valar taxation doc.
+Arman Kharas, May 2018
+
+(Modified caid values 6 August 2019 - Arman)
+
+BACKGROUND:
+===========
+The Heralds of the Valar are a layman clerical guild, descended from the
+Hin Warrior guild created by Tricky in the early 90s, with the feel and 
+history of the guild changed to fit into the more Tolkienesque
+Shire of the present. 
+
+It has further evolved since then to take on additional thematic changes 
+based on concepts from Middle-Earth Roleplay source material, namely:
+* MERP 2000 Rulebook 2nd Edition, and 
+* the Valar and Maiar 'the Immortal Powers' guidebook,
+...to now have a background, focus and mission based on:
+
+"With the Change of the World, the Valar became further removed
+from life in Endor. Travel between Middle-Earth and Aman all but
+halted, except for the Elves who longed for the lands undying.
+Nevertheless, the Valar and their Maia servants remained protectors
+of the Balance of Things. With the rise of Sauron in the Third Age,
+Darkness once again threatened to enslave all of Middle-Earth.
+
+Manwe chose indirect means to combat the threat posed by the Evil 
+One. Selecting trusted Maiar from the Order of the Wise - the 
+Istari - the Vala King hoped to send emissaries to Endor who might
+unite the Free Peoples and spur them to overthrow the Lord of the
+Rings. 
+
+So in T.A 1000, five Istari entered Middle Earth. Their first act
+was to plant a maple seed east of Grey Havens, which was to grow to 
+become the meeting place of those they would enlighten to be 
+Servants of the Secret Flame - the Heralds of the Valar."
+
+Joining eligibility
+====================
+Joinroom at /d/Shire/guild/heralds/room/join.c
+Must have an alignment > 500 to join, and be of an acceptable race
+(human, elf, half-elf, hobbit, halfling, gnome).
+
+Gnomes and halflings have been added as being racially acceptable. The 
+latter is the name hobbits are referred to by Men, originally given
+to them by the tall Dunedain, so are thematically suitable.
+
+The term Gnomes or Noldoli was briefly used in J.R.R. Tolkien's early 
+work The Book of Lost Tales to describe the race of Elves that would 
+become the Noldor. So while not elves or Noldor in a Genesis setting,
+they would not be considered as unsuitable for membership.
+
+Expelled if alignment drops below -100.
+
+Guild hall
+==========
+joinroom - /d/Shire/guild/heralds/room/join.c 
+train - /d/Shire/guild/heralds/room/train.c
+herbstore - /d/Shire/herald/herb.c
+library - /d/Shire/herald/library.c
+startroom - /d/Shire/herald/start.c
+
+TOTAL TAX:
+==========
+Skills + spells + combat aid + special = 4.67% + 6.0% + 3.2% + 1.0%
+
+Special bargains - private guild herbalist.
+
+14.87% (rounded to 15%).
+
+SKILL TAX 
+=========    
+Layman:
+  The maximum amount of skills a layman guild can offer is limited to
+  350 taxable slots. 
+
+  The maximum teaching level for mudlib defined skills is 60 for those
+  skills cost multipliers are 1.0 or less.  Skills that have a
+  multiplier (such as SS_WEP_SWORD) over the 1.0 multiplier can not be
+  trained above the 50 level.
+
+Mudlib defined skills are generally taxed 1% tax for every 60 levels
+           
+Name of skill      max      AG   Taxbl   Multi    Tax
+-------------------------------------------------------
+spellcraft          60      20      40      1x     .67
+conjuration         50      20      30      1x     .50
+abjuration	    50      20      30      1x     .50
+divination          50      20      30      1x     .50
+air                 50      20      30      1x     .50
+earth               50      20      30      1x     .50
+water               50      20      30      1x     .50
+herbalism           60      20      40      1x     .67
+language            50      30      20      1x     .33
+-------------------------------------------------------
+total              470     190     280      1x    4.67
+-------------------------------------------------------
+
+SPELLS TAX
+==========
+See summary of individual spells below.
+
+Full spell tax descriptions, influencing factors, and conditions in 
+/d/Shire/guilds/herald/doc/spell_doc.txt
+
+COMBAT AID
+==========
+1% of tax will be charged for every 25% combat aid.
+
+Max combat aid at any one time for a layman caster is 80 Caid.
+
+Total max potential combat aid: 80
+Total max potential combat aid tax: 3.2% 
+
+While all spells are granted upon joining, combat aid of spells is 
+heavily influenced by guild rank.
+
+Combat aid for maintained spells ranges from 6 - 15 depending on
+guild rank, with a maximum of three spells that offer combat aid being 
+maintained or cast at any one time.
+
+A herald may choose to 'hfocus' on one or two maintained spells, and
+forgo access to the rest of their spells, for a caid boost up to
+15 - 35 and 9 - 22 respectively (singular focus / dual focus).
+
+** Note singular focus exceeds the allowable cap for layman maintained
+** spells of 30 caid. This has been allowed by the AoB considering the
+** limitations.
+
+Corruption has a negative influence on a Herald's spell combat aid.
+See /d/Shire/guilds/herald/doc/spell_doc.txt for specifics on how
+corruption works.
+
+
+INDIVIDUAL SPELL TAX AND COMBAT AID
+=======================================================================
+Name        Power	Type			C.Aid		Tax
+engwagalad  Class 2	Defensive (cleanse)     0		0.375%
+haetir      Class 2	Utility (scry)		0		0.5%
+hortale     Class 3	Offensive (haste)	* 35 / 22 / 15	0.75% 	
+khil        Class 1	Utility (alignment)	0		0.375%
+lissinen    Class 3	Defensive (heal)	50 (35)		0.75%
+namotir     Class 3	Defensive (resist)	* 35 / 22 / 15  0.75%
+noleme      Class 3     Utility (statboost)     * 35 / 22 / 15  0.75%
+nornore     Class 0     Utility (cosmetic)      0		0.0%    
+ondo        Class 3     Defensive (stoneskin)   * 35 / 22 / 15  0.75%    
+rada        Class 2	Utility (locate herb)	0		0.5%    
+ramar       Class 1	Utility (messenger)	0		0.375%    
+riel        Class 2	Utility (plant herb)	0		0.5%
+silme       Class 1	Utility (light)		0		0.375%    
+=======================================================================
+TOTAL SPELL TAX:						6.00%

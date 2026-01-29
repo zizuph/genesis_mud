@@ -1,0 +1,35 @@
+
+            R
+            P
+            A
+        W -Ent- E
+            S
+        Po-Sta- B
+            | \ <-down
+            F  CR
+
+R - Road (north is the beach)
+P - Path
+A - Archway
+W - West Chamber (Information chamber)
+Ent - Entrance
+E - East Chamber (Construction Room)
+S - South Chamber (Joinroom)
+Po - Post Office
+Sta - Startroom
+B - Boardroom
+F - Focus Chamber
+CR - Council Room
+
+The players will have to scale the rocks at /d/Calia/sea/beach/village7
+in order to get to Road.  They can continue south to get onto the Path.
+South from the Path will be the Archway.  They can enter the Archway 
+which brings them to Entrance.  Here they have three exits (W, E, S).
+West Chamber and East Chamber are almost identical to each other.  
+They will be guard chambers, each holding a few guild npc's to guard
+the temple from attack.  The South Chamber will contain an altar 
+and will serve as the joinroom for the guild.  There will be three
+exits from the South Chamber (SW, N, SE).  To the southwest will
+be the Post Office, to the southeast will be the Boardroom.  Those rooms
+will be private and not accessable by non-members.  Both the 
+Post Office and the Boardroom will have an exit to the Startroom.

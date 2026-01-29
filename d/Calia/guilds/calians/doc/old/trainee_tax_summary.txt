@@ -1,0 +1,61 @@
+Tax Summary for Trainees of the Calian guild
+============================================
+
+When a player becomes a trainee, he or she trains until accepted as a full
+member by a councillor or recruitment officer. 
+
+Combat aid
+----------
+Trainees get to train the Calian specials to the level of superior 
+professional (70 levels). At this level, the offensive specials 
+are less likely to hit, and do less damage. The move behind maneuver is 
+less likely to be successful. 
+
+Solo Calian:
+    swarm combat aid:                   0%
+    riposte combat aid:                 30% (evade and attack)
+
+Tanking Team Calian:
+    swarm combat aid:                   25% (evade)
+    riposte combat aid:                 45% (evade and attack)
+    total:                              70%
+
+Swarming Team Calian (only 1 Calian):
+    swarm combat aid:                   73.5% (attack only)
+    total:                              73.5%
+    
+Swarming Team Calian (with more Calians):
+    swarm combat aid:                   84% (attack only)
+    swarm assist evade combat aid:      10% (evade for tanker)
+
+The maximum combat aid for a Calian at any time really is about 84%
+when you take the effect of teams into account. Given their specialist
+standing and the drawback of needing a team to use swarm, the typical
+discount was 11 / 20. Because they always have 30% when solo, this 
+portion is not discounted.
+
+Total tax for this combat aid: (30 / 6) + (54 * (11 / 20) / 6) = 9.95
+
+Other benefits
+--------------
+The guild has a member-to-member tell line, which costs 4% tax.
+
+Move behind is charged a 1% tax.
+
+Skills
+------
+sword     (65 - 30) / 60 * 1.5 = 0.875% tax
+polearm   (65 - 30) / 60 * 1.5 = 0.875% tax
+
+two-handed combat  45 / 60 * 2.0 = 1.5% tax
+parry              55 / 60 * 1.5 = 1.375% tax
+defence            (55 - 20) / 60 * 1.5 = 0.875% tax
+
+
+Total guild tax: 
+
+  9.95 + 4 + 1 + 0.875 + 0.875 + 1.5 + 1.375 + 0.875 
+= 20.45% tax
+= 21% tax rounding up
+
+Document by Petros

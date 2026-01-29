@@ -1,0 +1,90 @@
+
+ARMAN'S GUIDE TO THE NEW THROTYL AREA - August 2020
+
+What began as simply a linking road between the Eastern Solamnian 
+Plains (ESP) and Sanction has become much more. The following 
+outlines the key features of this new area.
+
+Between the ESP and Sanction is the Stormshire forest - swarming
+with hobgoblins and their ilk - then the Throtyl moors. The
+Throtyl moors were once lands ruled by humans, guarded by the
+famed Riders of the Moor cavalrymen. But the hordes of hobgoblins
+swarmed the moor, taking over East Keep and the southern moors,
+pushing the Riders in to the northern parts of the moors bordering
+Estwilde.
+
+You can access the northern entry to Throtyl from here:
+"/d/Krynn/throtyl/rooms/throtyl-4-2-P"
+
+Southern entry from here:
+"/d/Ansalon/taman_busuk/sanction/room/city/sanction_entry"
+
+Through /d/Krynn/throtyl/throtyl_placer.c the following npcs are
+randomly cloned:
+
+forest - 30 hobgoblin units (1)
+south moors - 20 hobgoblin units (1)
+north moors - 20 rider units (2)
+
+(1) hobgoblin units that could spawn consist of:
+    * goblin archer (5% spawn chance, stat average 112-125)
+    * hobgoblin looter (65% spawn chance, stat average 125-170)
+    * aggressive bugbear (10% spawn chance, stat average 155)
+    * ogre marauder (15% spawn chance, stat average 170)
+    * ogre magi (5% spawn chance, stat average 190)
+    /d/Krynn/throtyl/living/hobgob.c
+
+(2) rider units that could spawn consist of:
+    * outrider / lancer / dragoon (96% spawn chance, stat average 
+      155-190)
+    * horse archer (4% spawn chance, stat average 170) 
+    /d/Krynn/throtyl/living/moors_rider.c
+
+While the hobgoblin npcs do not have any magical items, rider
+units have a chance to spawn with a magical lance, that has an
+increased 'pen' value if mounted.
+/d/Krynn/throtyl/weapon/rider_lance.c
+
+BOSS FIGHT
+In the northern moors bordering the mountain range is a dwarven
+tomb containing the mad restless ghost of a Neidar dwarven thane.
+/d/Krynn/throtyl/rooms/dragon_lair.c
+
+The ghost is a very difficult battle, with normal damage 
+mitigation, magic resistances, and the special attacks and abilities
+of a Doomseeker Neidar dwarf.
+/d/Krynn/throtyl/living/thane_ghost.c
+
+Also in the tomb is an opportunistic adult red dragon, lairing
+there awaiting tomb robbers.
+/d/Krynn/throtyl/living/r_dragon.c
+
+The sarcophagus of the thane is guarded by a poison trap that
+requires disarming, otherwise all living in the room suffer
+a 2 minute SS_CON poison.
+
+The ghost has the chance of wielding a powerful two-handed
+warhammer, 'Kinslayer', that does not dull and does extra 
+damage against humans and dwarves.
+/d/Krynn/throtyl/weapon/thane_mace.c
+
+THROTYL RAIDERS - A NEW LAYMAN FIGHTER GUILD.
+In the southern moors in the ruins of East Keep is where
+the hobgoblin invaders now base themselves. Players of
+an evil bent and of appropriate race (goblin, hobgoblin,
+ogre, human, drow) may join, receiving some layman-level
+fighter skills as well as access to a unique bleed special
+attack, 'wound'. Guild details in the following file:
+/d/Krynn/guilds/hobgob/TAX.txt
+
+NEW WoHS SPELLS:
+In this region, two new WoHS spells can be sourced. One
+linked to an abandoned temple in northern Sanction, the
+other linked to an object dropped by the Thane ghost that
+requires the player to travel to the Tharkadan Mountain
+Range.
+
+/d/Krynn/guilds/sohm/spells/toxic_blast.c
+/d/Krynn/guilds/sohm/spells/stellar_alignment.c
+
+

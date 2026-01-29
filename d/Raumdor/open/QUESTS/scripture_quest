@@ -1,0 +1,57 @@
+This is a quest from the Lord of Drakmere in Raumdor...
+   When the player talks with the Lord for a bit, he will get sent on a 
+quest. It is important that all the steps be done in order, or it WILL NOT 
+WORK!(I made it this way :)) There are proterties, DRAKMERE_QUEST_ONE, 
+that are checked and added as the player does the quest.
+The quest starts at lord drakmere  :
+"/d/Kalad/common/raum/drakmere/keep/ke16"
+
+step 1:
+    The player must seek out Penthalus. He is hidden in the mountain pass 
+trail("/d/Kalad/common/raum/mtrail/mt11"), but he is hard to find. But If 
+they do, the player will find a dial, and must answer a question right If 
+they get it wrong(any other but the nameless one) A very mean creature 
+comes out (/d/Kalad/common/raum/npc/revenant), and 
+attacks them(certain death to almost anyone but very powerful warriors). 
+This is the first chance to die.  Then, the player must go through the 
+tunnels(/d/Kalad/common/raum/mtrai/secret1-6) where they are faced with 
+another riddle. THey must find out what 
+room to take and what lever to pull to get to Penthalus. An examination of 
+the bones will tell them which room. Then, once they are past that, they 
+get into Penthalus' room(/d/Kalad/common/raum/mtrail/secret6) Here, he 
+waits for them. If the players ask him 
+about the scripture, he will attack them. Penthalus is quite a formidable 
+for, and if the player is not well prepared, it could mean death. This is 
+the second chance to die. Once he is killed, a search of his room will 
+reveal a book on a table.(exa the table then take it), and if the player 
+has already talked to Drakmere, an 
+examination of the book will reveal a secret torn out page, with clues as 
+to where he has hidden the scripture.(it says the scripture is behind the 
+waterfal in the forest of shadows)
+
+step 2:
+   Once the player has the clues, they will go out back into the Forest of 
+Shadow(A very very dangerous place), they will find the 
+waterfal,(/d/Kalad/common/raum/wforest/wf42) and a 
+secret passage behind it.(/d/Kalad/common/raum/wforest/crypt1) They enter, 
+and are faced with a skeletal 
+guardian and a huge iron door. The skeleton has the key, and if the player 
+fights it, and defeats it, they will not yet get the key ;). The skeleton 
+crumbles into bones, but drops the key into the water. If the player then 
+follows the river down into the pool where it 
+ends(/d/Kalad/common/raum/nforest/nf15) then searches a bit,(drink from 
+the pond) they will find a black ghoul who jumps out and attacks. Then, 
+after 
+defeating it, they will have the key. The player then goes back to the 
+crypt and 
+unlocks the iron door and enters a long passage. At the end, they will 
+find the scripture in a chest, but the chest is trapped. If they do not 
+search for traps on the chest(and they need a thief or ranger with this 
+skill in order to do it) then they must remove it. Then, they can open it, 
+and....the scripture is theirs. Return it to Drakmere for full xp.
+
+Because of the 2 times a player faces certain death, and because of the 
+very dangerous nature of the quest, they player will be rewarded an xp sum 
+of: 50 000 xp
+
+

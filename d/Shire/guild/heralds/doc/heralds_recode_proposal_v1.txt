@@ -1,0 +1,238 @@
+Proposed recode of the Heralds of the Valar. With the rollout of the new
+magic system, the Heralds guild needed to be converted over or closed.
+
+This document is a proposal to convert the Heralds over to the new magic
+system, with some additional thematical changes to the guild based on 
+concepts from the Middle-Earth Roleplay source material, namely:
+
+* MERP 2000 Rulebook 2nd Edition, and 
+* the Valar and Maiar 'the Immortal Powers' guidebook.
+
+Arman Kharas - Arch of Balance, April 2018
+
+
+CURRENT STATUS SUMMARY:
+
+The Heralds of the Valar are a layman guild, descended from the
+Hin Warrior guild created by Tricky in the early 90s.
+
+This guild has many of the same original spells, but the feel and 
+history of the guild was changed to fit into the more Tolkienesque
+Shire of the present, namely:
+
+"The Heralds of the Valar serve the True Keepers of Middle-Earth.  
+The Valar are the 14 most powerful holy beings chosen by Eru 
+Illuvatar to ensure that his creation song, the Ainulindale, be 
+brought to fruition in Arda.  The Heralds of the Valar call upon 
+the Valar for aid in times of need but do not worship them, for 
+the only one worthy of that is The One, Eru Illuvatar."
+
+So a guild that takes on a quasi-role of a Maiar without being
+Maiar.
+
+Current spells do not comply with the new magic system, and are
+generally considered underwhelming:
+
+Engwagalad - Cure's poison
+Haetir - Scrying
+Khil - Check player's alignment
+Lammen - Speak in guild language
+Lissinen - Healing spell
+Mel - Creates a flower
+Ondo - Strengthens Herald
+Palandir - Guild list
+Ramar - Calls for messenger
+Silme - Light spell
+Vanahwesta - Peace spell
+
+PROPOSED RECODE SUMMARY:
+
+THEME
+======
+The THEME of the guild remains as is, with the following inclusion:
+
+* The Heralds Mission:
+"With the Change of the World, the Valar became further removed
+from life in Endor. Travel between Middle-Earth and Aman all but
+halted, except for the Elves who longed for the lands undying.
+Nevertheless, the Valar and their Maia servants remained protectors
+of the Balance of Things. With the rise of Sauron in the Third Age,
+Darkness once again threatened to enslave all of Middle-Earth.
+
+Manwe chose indirect means to combat the threat posed by the Evil 
+One. Selecting trusted Maiar from the Order of the Wise - the 
+Istari - the Vala King hoped to send emissaries to Endor who might
+unite the Free Peoples and spur them to overthrow the Lord of the
+Rings. 
+
+So in T.A 1000, five Istari entered Middle Earth. Their first act
+was to plant a maple seed east of Grey Havens, which was to grow to 
+become the meeting place of those they would enlighten to be 
+Servants of the Secret Flame - the Heralds of the Valar."
+
+* TITLES, emotes, and guildhall all remain as is. All available 
+spells will also be granted upon joining as currently is the case.
+
+* Tolkien's work include many evocative themes, such as the 
+corrupting influences of power and illegitimate magic.
+Concepts like the Balance of Things are key to the concept of
+the Heralds.
+
+There are two principal dangers that help to restrain the use of
+magic in the Third Age to be incorporated into the recode. 
+
+One is the corrupting influence of the use of significant magic for 
+non-pure goals. Unless a spell is cast for the purpose of combating 
+Darkness or maintaining the "Balance", there is a chance the caster 
+will be corrupted, "drawn towards darkness."  This is what happened 
+to Sarauman - he used too many powerful spells, too often.
+
+The other is the Shadow of Sauron of Mordor - drawing attention of 
+the Lidless Eye has led to the downfall of many a spell caster.
+Those who live under his eye are particularly careful not to cause
+attention to be brought upon themselves. This feeling may contribute
+to the restraint found in those who possess the ability to wield 
+spells.
+
+SPELLS
+======
+Majority of SPELLS will be converted over to the new system with a
+few new additional spells included. Spells will continue to have
+a link to the Vala.
+
+Spells that won't be converted over:
+Vanahwesta - peace spell - deemed an illegal spell in the new system, 
+Lammen - Speak in guild language, 
+Mel - create flower spell.
+
+Restrictions on being able to cast spells on evil characters will
+be removed.
+
+Spell combat aid will be dependent on a few factors, namely being 
+strongly influenced by the players guild level and a NEW concept for 
+inclusion - corruption.
+
+Corruption is a point system between 0-100 that decays over time.
+It starts at zero, however can increase when a Herald uses their
+power in aid of Darkness (i.e. healing an evil character or killing
+a good aligned creature), or whenever a spell failure occurs there 
+is a chance that the spell caster will be partially corrupted and 
+"drawn towards the darkness".
+
+Corruption reduces spell combat aid. If their effective combat aid
+reaches zero they are unable to cast the spell.
+
+If corruption levels are greater than 75, the caster becomes a 
+'Fallen Herald' and will lose access to their spells. The will need
+to wait until their corruption level returns to 50 before they
+regain their spells and lose their Fallen title. 
+
+COSMETIC ADDITIONS
+==================
+When casting spells close to areas of evil (Misty Mountains / 
+Mordor / Isengard) there is a greater chance of drawing the
+attention of the Dark Lord. The Herald and those with them notice
+either a flight of crebain or the shrieks of black riders seeking them
+out. 
+* At this point it is incorporated as a cosmetic touch however may
+  be fleshed out and have more of an influence to the guild. *
+
+PROPOSED NEW SPELL LIST
+=======================
+New spells are marked with a *
+Renamed spells are marked with a #
+
+engwagalad      A prayer to Lorien to tend poisons and inflictions
+haetir          Call upon the farsight of Manwe
+*hortale        Channel the swiftness of the Mearas
+khil            Call Vaire to divine the touch of Shadow
+lissinen        Ask Este to heal your wounds
+*namotir        Protection from Shadow magic
+*noleme         Channel the wisdom of Ulmo
+#nornore        Detect other Heralds in the realms
+ondo            Channel the hardness of the earth
+*rada           Call upon Vana to find nearby herbs
+ramar           Call upon Manwe to summon a winged messenger
+*riel           Create a herb garden by channelling the Earth-mother
+silme           Appeal to Elbereth to light your way
+
+SPELL TEMPLATES UNDER THE NEW SYSTEM AND SKILL REQUIREMENTS:
+Instant spells:
+Lissinen - heal (water/conjuration)
+Engwagalad - cleanse (water/conjuration)
+Khil - alignment (earth/divination)
+Haetir - scry (air/divination)
+Nornore - shadow (earth/divination)
+Riel - plant (earth/conjuration)
+Rada - locate (earth/divination)
+
+MAINTAINED SPELLS:
+Silme - light (air/conjuration)
+Ramar - summon (air/conjuration)
+Noleme - statboost (water/conjuration)
+Hortale - haste (air/conjuration)
+Ondo - stoneskin (earth/abjuration)
+Namotir - Protection from death magics (earth/abjuration)
+
+Maintained spells that require combat aid (of which there are 4)
+are capped at 25 caid, and only three may be maintained at any time.
+
+Also the heal spell is less effective if too many maintained spells are
+being channelled.
+
+A Herald may choose to 'channel' two maintained powers or one maintained
+ power, forgoing access to the rest of their spells. This allows them to 
+have two maintained spells active of up to 35 caid each, or one maintained 
+spell active of up to 60 caid. This is managed through the hfocus 
+command <singular> / <dual> / <none>.
+
+As layman magic guilds may have up to 80 caid max, focusing on a singular
+or dual option does result in less optimisation (60 and 70 max caid
+respectively).
+
+Combat aid modifiers for spells will generally follow the following
+formula (modifier out of 100):
+
+   40 + (level * 3) - corruption
+
+So a new member of the guild using a 25 caid maintained spell with no
+corruption would in effect start with only a 10 caid ability that will
+grow as they progress through the ranks.
+
+A new member focusing singularly on a maintained spell (60 caid) would
+effectively have a 25 caid ability initially.
+
+PROPOSED SKILLS AND TAX
+=======================
+Skills to remain largely the same, although remove LIFE spell 
+element and replace with WATER and AIR. This is to better align
+with the elements favoured by the greater powers... with fire
+noteably absent (Melkor's focus).
+
+Also an increase in spellcraft and herbalism by 10 each.
+
+Skill overview:
+
+name of skill      max      AG   Taxbl   Multi    Tax
+spellcraft          60      20      40      1x     .67
+conjuration         50      20      30      1x     .50
+abjuration	    50      20      30      1x     .50
+divination          50      20      30      1x     .50
+air                 50      20      30      1x     .50
+earth               50      20      30      1x     .50
+water               50      20      30      1x     .50
+herbalism           60      20      40      1x     .67
+language            50      30      20      1x     .33
+total              470     190     280      1x    4.67
+
+Combat aid:
+Total max potential combat aid: 80
+Total max potential combat aid tax: 3.2% 
+
+Spell tax:
+TBD, but around 7%
+
+Total tax:
+Skills + spells + combat aid = 4.67% + 7.0% + 3.2%
+14.87%
+

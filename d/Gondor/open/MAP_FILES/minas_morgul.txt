@@ -1,0 +1,72 @@
+main
+::MAPDATA::
+dung_1e5 53 15
+pass_2e3 53 16
+guard_0nw 21 17
+dung_1e2 57 17
+wsmithy 61 17
+mm_paint_shop 65 17
+pass_2e1 49 18
+pass_2e2 53 18
+sec_entr 11 19
+tower_entrance 25 19
+pass_1e5 53 19
+tuvale2 65 19
+mage_library 19 20
+dung_2e1 49 20
+square 15 21
+public_library 19 21
+guard_0se 29 21
+pass_1e4 49 21
+dung_1e3 57 21
+tuvale 61 21
+dung_2e3 57 22
+tower_0n 15 23
+tower_0ne 19 23
+dung_1wn 33 23
+herb_shop 41 23
+pass_1e3 49 23
+pass_2e4 57 24
+tower_0w 11 25
+tower_0c 15 25
+tower_0e 19 25
+cellar_1c 33 25
+pass_1w1 37 25
+pass_1e1 41 25
+pass_1e2 45 25
+dung_1e1 53 25
+pass_2e5 57 26
+tower_0sw 11 27
+tower_0s 15 27
+dung_1ws 33 27
+potion_shop 45 27
+::MAPDATA::
+
+             ============
+             Minas Morgul
+             ============
+                
+                __TT__
+                T    T
+                |    |
+                |    |
+ ,              |    |              ,
+ |\    ^     ^  |    |  ^     ^    /|
+ | \  | |   | | |    | | |   | |  / |
+ |  \_| |___| |_|_/\_|_| |___| |_/  |
+ |    | |   | | | || | | |   | |    |
+ |____| |___|_|_|_||_|_|_|___|_|____|
+                                                    [ ]
+                                                    [ ]    Smith  Paint
+                     o                               |   o - o - o
+                       \   /                     o  [ ]/
+           o             o                       |  [ ]          o
+             \    [ ]  /   \                    [ ]/   \       /
+               o -[ ] /      o                  [ ]     [ ]- o
+               |  Lib/                 Herbs     |      [ ]
+               o - o             o       o       o       |
+             / |  /|             |         \   /   \     o
+           o -[ ]- o            [ ]- o - o - o       o   |
+           | / | /               |           |           o
+           o - o                 o           o
+                                           Potions

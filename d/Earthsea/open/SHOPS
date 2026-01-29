@@ -1,0 +1,31 @@
+//list here all shops, pubs and inns within Earthsea. This
+includes every object that sells/buys stuff or handles money.
+name, path, and what is bought or sold:
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+/d/Earthsea/gont/gont_city/rooms/
+   equip_shop.c   Sells (only) backpacks, sacks, torches, lamps, purses
+   general_shop.c Buys and sells 'used' armour, weapons, equipment
+   tavern.c       Sells food and drink, and full bottles of liquor 
+                       and grog. Also keys to the back room.
+   bank.c         depository, change money
+/d/Earthsea/gont/gont_city/rooms/harrekki_room.c
+  You can purchase harrekkis here (messengers)
+
+/d/Earthsea/gont/tenalders/village/
+
+  witch_herb_store.c  buys and sells herbs, herb jars, pouches,
+                      and lip pomade
+  eq_shop.c           sells backpacks, sacks, lamps, torches, purses
+  peddler.c           general shop, buys and sells 'used' armour,
+                         weapons, and equipment
+  pub_room.c          pub sells food and drink
+
+/d/Earthsea/gont/beach/ 
+  cliff_rooms/cliff02.c  general shop, buys and sells 'used' armour,
+                           weapons, equipment
+
+/d/Earthsea/roke/thwil/
+  herb.c              buys and sells herbs, herb jars, pouches
+  shop.c              buys and sells 'used' armour, weapons, equipment
+  bank.c              depository, change money

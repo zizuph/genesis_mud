@@ -1,0 +1,305 @@
+main
+::MAPDATA::
+newsea1 20 4 tantallon_road1
+main_road1 20 4 tantallon_road1
+nforest1 20 4 tantallon_road1
+nforest2 20 4 tantallon_road1
+nforest3 20 4 tantallon_road1
+nforest4 20 4 tantallon_road1
+hill1 20 4 tantallon_road1
+hill2 20 4 tantallon_road1
+hill3 20 4 tantallon_road1
+hill4 20 4 tantallon_road1
+hill5 20 4 tantallon_road1
+hill6 20 4 tantallon_road1
+hill7 20 4 tantallon_road1
+toedecave 20 4 tantallon_road1
+road1 20 4 tantallon_road1
+road2 20 4 tantallon_road1
+road3 20 4 tantallon_road1
+road4 20 4 tantallon_road1
+road5 20 4 tantallon_road1
+road6 20 4 tantallon_road1
+road7 20 4 tantallon_road1
+road8 20 4 tantallon_road1
+road9 20 4 tantallon_road1
+forest1 20 4 tantallon_road1
+forest2 20 4 tantallon_road1
+forest3 20 4 tantallon_road1
+forest4 20 4 tantallon_road1
+forest5 20 4 tantallon_road1
+forest6 20 4 tantallon_road1
+forest7 20 4 tantallon_road1
+forest8 20 4 tantallon_road1
+east7 20 4 tantallon_road1
+meadow 20 4 tantallon_road1
+solace_link 20 4 tantallon_road1
+goblin_lair 20 4 tantallon_road1
+goblin_lair2 20 4 tantallon_road1
+goblin_lair3 20 4 tantallon_road1
+road10 34 2 tantallon_road2 
+road11 34 2 tantallon_road2
+road12 34 2 tantallon_road2
+road13 34 2 tantallon_road2
+road14 34 2 tantallon_road2
+road15 34 2 tantallon_road2
+road16 34 2 tantallon_road2
+valley1 34 2 tantallon_road2
+valley2 34 2 tantallon_road2
+valley3 34 2 tantallon_road2
+valley4 34 2 tantallon_road2
+valley5 34 2 tantallon_road2
+valley6 34 2 tantallon_road2
+valley7 34 2 tantallon_road2
+valley8 34 2 tantallon_road2
+valley9 34 2 tantallon_road2
+valley10 34 2 tantallon_road2
+valley11 34 2 tantallon_road2
+valley12 34 2 tantallon_road2
+valley13 34 2 tantallon_road2
+valley14 34 2 tantallon_road2
+valley15 34 2 tantallon_road2
+valley16 34 2 tantallon_road2
+valley17 34 2 tantallon_road2
+valley18 34 2 tantallon_road2
+tent1 40 0 tantallon_road2
+tent2 40 0 tantallon_road2
+tent3 40 0 tantallon_road2
+tent4 40 0 tantallon_road2
+tent5 40 0 tantallon_road2
+tent6 40 0 tantallon_road2
+tent7 40 0 tantallon_road2
+tent8 40 0 tantallon_road2
+tent9 40 0 tantallon_road2
+city1 40 0 tantallon_road2
+city2 40 0 tantallon_road2
+city3 40 0 tantallon_road2
+city4 40 0 tantallon_road2
+city5 40 0 tantallon_road2
+city6 40 0 tantallon_road2
+city7 40 0 tantallon_road2
+city8 40 0 tantallon_road2
+city9 40 0 tantallon_road2
+city10 40 0 tantallon_road2
+city11 40 0 tantallon_road2
+city12 40 0 tantallon_road2
+city13 40 0 tantallon_road2
+city14 40 0 tantallon_road2
+city15 40 0 tantallon_road2
+city16 40 0 tantallon_road2
+city17 40 0 tantallon_road2
+city18 40 0 tantallon_road2
+city19 40 0 tantallon_road2
+city20 40 0 tantallon_road2
+city21 40 0 tantallon_road2
+city22 40 0 tantallon_road2
+city23 40 0 tantallon_road2
+city24 40 0 tantallon_road2
+city25 40 0 tantallon_road2
+bridgee 40 0 tantallon_road2
+prebe 40 0 tantallon_road2
+back5 40 0 tantallon_road2
+landing2 40 0 tantallon_road2
+::MAPDATA::
+            CRYSTALMIR                 [ ]                '   ~~ 
+            ~~ LAKE   /\              Tantallon        Xak  ~~ ~~
+    /\_     ~~~~    /\                                  Tsaroth ~
+   /   \_/\ ~~~@  /\                        /\  /\      [ ] ~~ ~~
+  /\/\ /\ /\~~~@@@    /\ Que-Kiri             /\_ /\      '  ~~ ~
+     @  @ @@@~~ @@       { }         Que-Shu/\_/ \   v ' v: ~~ ~~
+    @ @@/\@  @[ ] Solace              { }    /\ /\\  ' v ''  ~~ ~
+   @ @@@@/\@@@                              ```````` v ' v: ~~ ~~
+   @@@ DARKEN @    /\       PLAINS OF      /\_/\ /\  ' v ',  ~~ ~
+     @ WOOD @@              ABANASINIA      /\ /\        ,' ~~ ~~
+    [ ]@@@@@  [ ]                         /\__    @@@@  '  ~~ ~~
+  Haven/\   Gateway      { }             / /\ \ @@@@@@ '  ~~ ~~ ~
+        /\ ~~~~~~         Que-Teh               @@@@@@'  ~~ ~~ ~~
+      ~~~~~@@@@@@~~~~~~                         @@@ :' ~~ ~~  ~~ 
+  @@@@@@@@@@@@ ~~ @@   ~   ,____,__,__          @ :'  ~~ ~~ ~~ ~~
+  @@     @@ ~~ @@@      :'' ~~ ~~ ~~ ~~`  ,__    '  ~~ ~~ ~~ ~~ ~
+  @@     @@@@@@@@    [ ]' ~~ ~~ ~~ ~~ ~~ `~~ ~`''  ~~ ~~ ~~ ~~ ~~
+  @ QUALINESTI @@  New Ports ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@        @@@    ,'~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@       @@@    :   ~~ ~~ ~~ ~~  NEW SEA ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+  @@       @@     `, ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@@@@@@@@@      '   ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+                  '
+       To Pax Tharkas and
+         Thorbardin
+
+::NEWMAP::
+tantallon_road1
+::MAPDATA::
+newsea1 7 19
+main_road1 7 25
+nforest1 7 21
+nforest2 9 21
+nforest3 7 23
+nforest4 11 19
+hill1 13 17
+hill2 15 15
+hill3 17 13
+hill4 13 14
+hill5 17 17
+hill6 15 12
+hill7 19 15
+toedecave 17 10
+road1 19 11
+road2 21 9
+road3 23 7
+road4 25 9
+road5 27 7
+road6 29 7
+road7 31 7
+road8 33 5
+road9 35 3
+forest1 35 19
+forest2 37 17
+forest3 35 15
+forest4 33 13
+forest5 33 11
+forest6 33 9
+forest7 35 7
+forest8 37 5
+east7 33 21
+meadow 35 21
+solace_link 37 21
+goblin_lair 29 9
+goblin_lair2 29 9
+goblin_lair3 29 9 
+::MAPDATA::
+                                    to                                   
+                                 Tantallon
+                                    /
+                                   o @@@@@@
+                                  / @@@~~@@
+                                 o @   ~@@@
+                                / @ @ ~@@@@
+                       o   o-o-o @   @@@@@@
+                      / \ /  _ @@      @@@@
+                 _   o   o  /^\@        @@@
+                /^\ /          @        @@@
+               _   o          @@        @@@
+              /^\|/      /\   @@        @@@
+             _   o      /  \  @@       @@@@
+            /^\|/  _           @@     @@@@
+               o- /^\   Goblin @@       @@
+             |/  _      caves   @@     @@
+             o- /^\              @@    @@
+            /        /\         @@    @@  
+       o   o      /\/  \        @@   @@
+       |  /      /  \_  \        @@@@@@ to
+       o o      /     \  \       o-o-o- Abanasinia
+       |/         /\            /       Plains  
+ &&&   o         /  \    % % % o
+&\|&&  |                      /  
+&\|/&  o           --o-o-o-o-o
+ }}{  /                  _/\
+              /\      /\/   \ 
+ Solace      /  \    /  \    \ Gnome
+                    /          Settlement
+
+::NEWMAP::
+tantallon_road2
+::MAPDATA::
+road10 5 31
+road11 3 29
+road12 5 27
+road13 3 25
+road14 3 23
+road15 5 21
+road16 7 19
+valley1 5 29
+valley2 7 23
+valley3 7 25
+valley4 7 27
+valley5 7 29
+valley6 7 31
+valley7 7 33
+valley8 7 35
+valley9 9 25
+valley10 9 27
+valley11 9 29
+valley12 9 31
+valley13 9 33
+valley14 9 35
+valley15 11 27
+valley16 11 29
+valley17 11 33
+valley18 11 35
+tent1 7 13
+tent2 11 13
+tent3 11 13
+tent4 7 17
+tent5 13 9
+tent6 9 7
+tent7 11 5
+tent8 7 3
+tent9 5 7
+city1 13 1
+city2 5 3
+city3 9 3
+city4 11 3
+city5 7 5
+city6 9 5
+city7 13 5
+city8 7 7
+city9 11 7
+city10 13 7
+city11 9 9
+city12 11 9
+city13 5 11
+city14 7 11
+city15 9 11
+city16 11 11
+city17 13 11
+city18 5 13
+city19 9 13
+city20 13 13
+city21 7 15
+city22 9 15
+city23 11 15
+city24 9 17
+city25 11 17
+bridgee 15 7
+prebe 17 7
+back5 13 9
+landing2 9 1
+::MAPDATA::
+
+         G   o
+         |  / 
+     #-o-o-o
+         |  \
+       o-o-o o
+       |     |
+     b-o ^ o-o-o-o   -= Tantallon =-
+        \| | |      
+         o-o g        g Giant Bar  
+         | |          b Templar Bar
+     o-#-o-o-o        d Draco Inn
+     |   |   |        i Old Lazy Inn
+     o-i o-d o        p Guardians Pub
+      \  |  /         G Griffon's nest - Flight to Vingaard 
+       o-o-#                             Mountains
+       | | |          
+       p o-o
+        /
+       o
+      /
+     o
+    /     ___ /\
+   o   . /   /  \
+   |       _
+   o   . ./ \ /\
+    \        /  \
+     o . . .  __/\
+    /        / /  \
+   o . . . . 
+    \                 __/\
+     o . .  /\       / /  \
+    /               /      \
+  to   . . . /\__ 
+Solace      / _  \
+       . . . / \  \
+            

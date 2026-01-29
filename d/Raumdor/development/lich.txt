@@ -1,0 +1,37 @@
+Shanoga     Malus       :   File
+===============================================================================
+(---Files included in AoB Review---)
+???         Waiting     :   d/Raumdor/development/shanoga/common/npc/lich.c
+- Spells trigger unwanted attacks if spell resolves when target changed. There
+  are functions that sound like they help handle this, but I want to ask Carnak
+- Need to restrict movement, taking into account path and temple
+- Need to make sure it targets non-Raumdor undead appropriately.
+- One of the emotes can "see" people even if they are invis - check for visibility.
+
+Ready       Waiting     :   d/Raumdor/development/shanoga/common/obj/tattered_book.c
+Ready       Waiting     :   d/Raumdor/development/shanoga/common/arm/lich_phylactery.c
+
+Ready       Waiting     :   d/Raumdor/development/shanoga/common/spell/frost_ray.c
+Ready       Waiting     :   d/Raumdor/development/shanoga/common/spell/life_drain.c
+Ready       Testing     :   d/Raumdor/development/shanoga/common/spell/magic_missile.c
+Ready       Waiting     :   d/Raumdor/development/shanoga/common/spell/plague_swarm.c
+Ready       Waiting     :   d/Raumdor/development/shanoga/common/spell/ice_storm.c
+
+Ready       Waiting     :   d/Raumdor/development/shanoga/common/spell/plague_effect.c
+
+Ready?      Waiting     :   d/Raumdor/development/shanoga/common/arm/life_amulet.c
+- Charges can't be tested right now. Need write access to /common/arm to put the life_amulet
+  in there. Had worked previously, should still work now?
+
+(--- Other files, not included in review ---)
+Ready       Ready       :   d/Raumdor/common/arm/threadbare_robe.c
+???         Waiting     :   d/Raumdor/development/drakos.c
+???         Testing     :   d/Raumdor/common/npc/reanimated_zombie.c
+Ready       Testing     :   d/Raumdor/common/soul/lich_soul.c
+Ready       Ready       :   d/Raumdor/common/text/LICH_BOOK_1_FULL.txt
+                        :   d/Raumdor/common/text/LICH_BOOK_1_TORN.txt
+                        :   d/Raumdor/common/text/LICH_BOOK_2_FULL.txt
+                        :   d/Raumdor/common/text/LICH_BOOK_2_TORN.txt
+                        :   d/Raumdor/common/text/LICH_BOOK_3_FULL.txt
+                        :   d/Raumdor/common/text/LICH_BOOK_3_TORN.txt
+???         Dev         :   d/Raumdor/std/undead.c

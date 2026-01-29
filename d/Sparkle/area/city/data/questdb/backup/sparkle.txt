@@ -1,0 +1,32 @@
+domain,quest desc,group,bit,validation,arguments
+Genesis,Orc Figurine,0,0,false_unless_done
+Sparkle,Orc Figurine,0,0,old_orc_figurine
+Genesis,Duck Sacrifice,0,1,false_unless_done
+Sparkle,Duck Sacrifice,0,1,old_sacrifice_duck
+Genesis,Dwarfheim King,2,0,false_unless_done
+Sparkle,Dwarfheim King,2,0,old_dwarfheim_king
+Genesis,Monk Guru,1,5,false_unless_done
+Sparkle,Monk Guru,3,0,is_monk,3,0
+Sparkle,Faerie Tour #1,4,19,sequential_bits,1,0,2,1
+Sparkle,Faerie Tour #2,4,19,sequential_bits,1,0,2,2
+Sparkle,Faerie Tour #3,4,19,sequential_bits,1,0,2,3
+Sparkle,Faerie Tour #4,4,19,sequential_bits,1,0,2,4
+Sparkle,Faerie Tour #5,4,19,sequential_bits,1,0,2,5
+Sparkle,Faerie Tour #6,4,19,sequential_bits,1,0,2,6
+Sparkle,Faerie Tour #7,4,19,sequential_bits,1,0,2,7
+Sparkle,Push Cart,1,14,default
+Sparkle,Clean Wagon,1,15,false_unless_done
+Sparkle,Statue Eyes,1,16,false_unless_done
+Sparkle,Witch Mirror,1,17,false_unless_done
+Sparkle,Gather Honey,1,18,default
+Sparkle,Rescue Slave Girl,1,19,false_unless_done
+Sparkle,Herbalist Salve Quest,1,20,false_unless_done
+Sparkle,Market Vendor,4,7,false_unless_done
+Sparkle,Auction,4,8,default
+Sparkle,Tutorial Potion,4,0,in_area,/d/Sparkle/area/tutorial/
+Sparkle,Tutorial Carrot,4,1,in_area,/d/Sparkle/area/tutorial/
+Sparkle,Tutorial Bunny,4,2,in_area,/d/Sparkle/area/tutorial/
+Sparkle,Tutorial Garlic,4,3,in_area,/d/Sparkle/area/tutorial/
+Sparkle,Tutorial Rope,4,4,in_area,/d/Sparkle/area/tutorial/
+Sparkle,Tutorial Journal,4,5,in_area,/d/Sparkle/area/tutorial/
+Sparkle,Tutorial Vampire,4,6,in_area,/d/Sparkle/area/tutorial/

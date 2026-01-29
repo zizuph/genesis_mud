@@ -1,0 +1,44 @@
+
+     Spell name: Eruption
+                 edarvirednith
+         Effect: Harm spell
+           Type: Instant
+        Targets: Single target
+        
+        Element: Earth         / 50
+           Form: Conjuration   / 60
+    Spell power: Power 4 [Advanced spell]
+     Spell type: harm spell 
+     
+       Peaceful: No
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: gem shard, tonash potion
+     
+   Casting time:  12s (x3.0 spell time factor)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_HARD
+     Combat Aid: 140%
+
+            Tax:  1.0
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.75   Hard difficulty
+                  x0.75   material component (>=1 gp) 
+                 ------
+                  0.5625%  total tax
+   ------------------------------------------------------------
+   Comments: A standard harm spell, requiring a wand or staff
+   held/wielded to cast.
+
+   Identical to detonate, apart from element.
+
+
+   This spell is influenced by the WoHS moon phase feature, so
+   combat aid can fluctuate on average by ~+ or - 25%. See
+   /d/Krynn/guilds/wohs/doc/WoHS.txt for specifics.
+   ------------------------------------------------------------

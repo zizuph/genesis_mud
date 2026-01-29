@@ -1,0 +1,12 @@
+
+Temporary start location in Goblin caves (misty mountains)
+path: /d/Rhovanion/common/misty/gcaves/hotel.c
+(cover to be bought in shop)
+
+Temporary start in Esgaroth
+path: /d/Rhovanion/common/esgaroth/es-10-8.c
+(Inn which charges 5 silver to stay, auto-quit on rent)
+
+Permanent start location for members of shield_club_guild
+/d/Rhovanion/common/shield_guild/start.c
+

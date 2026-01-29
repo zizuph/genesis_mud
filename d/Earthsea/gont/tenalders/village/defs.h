@@ -1,0 +1,6 @@
+#define WORM_GIVEN "_worm_given_"
+#define GOT_KITTY_QUEST "_player_i_got_kitty_quest_"
+#define PLAYER_I_ATTACKED_GOAT "_player_i_attacked_goat"
+#define GOAT_SPELL "noth hierth malk man hiolk han merth han"
+#define GOT_GOAT_QUEST "_player_i_got_goat_quest_"
+#define GOT_I_GOAT_SPELL "_got_i_goat_spell"

@@ -1,0 +1,12 @@
+Energy Drain -     This spell will drain hit points (life force) from
+                   an enemy and transfer a portion of them back to 
+                   the caster. The amount drained and the amount 
+                   returned back to the caster will be determined by
+                   guildstat, spell skills and target resistance. This
+                   will initiate combat and can be cast during combat.
+                   Requires a pre-made component (can only be made in
+                   the guildhome) consisting of sapphire and sea bubble.
+                   175 mana. Max drain is 50% of the target's HPs, 50% 
+                   of that amount are given back to the caster.
+                   This spell is available level 7 members (Master) and 
+                   above.

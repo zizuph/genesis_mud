@@ -1,0 +1,26 @@
+
+Use 'help council <topic>' to get more help.
+
+Help is available on the following topics:
+
+-   vote
+-   voting 
+    commands: call for vote <n>, read calls, read vote <n>,
+              clear call for vote <n>, terminate vote <n>,
+              vote on <n> with <vote>
+
+-   read
+    commands: read ideas, clear ideas
+
+-   council
+    commands: council, call council
+
+-   election
+    commands: resign, nominate <name>
+
+-   impeachment
+    commands: start/support impeachment, veto, impeach
+
+-   company
+    commands: company <name> <company>, deputy <name>
+

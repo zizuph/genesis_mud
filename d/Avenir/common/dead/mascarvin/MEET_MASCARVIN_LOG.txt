@@ -1,0 +1,138 @@
+LOG OF MEET MASCARVIN quest ending.
+Wizinfo /d/Avenir/common/dead/mascarvin/resting
+Warmth pervades this amorphous space. Close and red-dark, it pulses and thrums
+with numinous energy. The air is heavy with an earthy, feminine scent that
+calls up visceral pre-memories of maternal nurturing. The milky mist above
+swirls and flows into the shape of a grinning skull that seems to be looking
+down upon you. Anguished cries and contented murmurs echo in a faint chorus,
+whilst a roiling mass presses upon your consciousness -- the presence of those
+recently dead and those long forgotten. You have a sense of the multitudes that
+once lived in the penumbra of the Source, dedicated to the Gods, and gathered
+to the bosom of Mascarvin for nurturing, awaiting the possibility of rebirth.
+   There is a dais in the room, and on it, a throne of skulls with a table
+placed nearby. Opposite it is a very large torus, spinning on its edge. 
+> 
+A feeling of awe presses down upon you.
+You feel a divine presence filling the room.
+Mascarvin steps forth from the mist.
+Mascarvin introduces herself as:
+Mascarvin the Goddess of Death and Rebirth, myth, female goddess.
+Mascarvin speaks: I see you, Lilith.
+Mascarvin speaks: I have followed your deeds. I was prepared to harvest your
+soul, but it proved unnecessary.
+Mascarvin speaks: You have made it to a place few who expect to live ever do.
+Mascarvin speaks: So, I have decided to let you live.
+> exa mascarvin
+Mascarvin is a hauntingly-beautiful goddess, presenting herself as:
+Mascarvin the Goddess of Death and Rebirth, myth enfleshed, female God of
+Sybarus.
+It doesn't take much mental effort to recognize that you are in the presence of
+a goddess. You are looking at She who collects the souls of dying Sybarites and
+nurtures them back to the point where they are ready to be reborn and serve the
+Gods once more.
+Shadows play about this towering, womanly figure dressed in a long, voluminous
+cloak the color of blood.
+She is wearing a simple black webcloth tunic with a central slit through which
+the valley beween her four breasts can be glimpsed.
+She is wearing a pair of glittering sandals, a chain of fire agates about her
+hips, a black diamond and platinum ring, a fire agate studded armband, a
+platinum and cobalt ear cuff, and a black diamond and sapphire diadem on her
+forehead.
+She wears her black hair in very short, tight curls that lay close to her
+skull.
+Her skin is pale blue with a pearly sheen.
+Her dark eyes are simultaneously compassionate and impersonal.
+You feel nourished and revived just being in her presence.
+You get the feeling that you should be on your best behaviour around her.
+She looks like the image of perfection.
+She seems to be feeling very well.
+> A deep tone fills the room, low and mournful. The portal stops its spinning.
+Mascarvin turns toward the portal.
+Mascarvin speaks: I have a soul to collect. Await my return, don't touch
+anything, and your patience shall be rewarded.
+Mascarvin steps into the flame-limned portal.
+The portal starts spinning again.
+Wizinfo /d/Avenir/common/dead/mascarvin/resting
+Warmth pervades this amorphous space. Close and red-dark, it pulses and thrums
+with numinous energy. The air is heavy with an earthy, feminine scent that
+calls up visceral pre-memories of maternal nurturing. The milky mist above
+swirls and flows into the shape of a grinning skull that seems to be looking
+down upon you. Anguished cries and contented murmurs echo in a faint chorus,
+whilst a roiling mass presses upon your consciousness -- the presence of those
+recently dead and those long forgotten. You have a sense of the multitudes that
+once lived in the penumbra of the Source, dedicated to the Gods, and gathered
+to the bosom of Mascarvin for nurturing, awaiting the possibility of rebirth.
+   There is a dais in the room, and on it, a throne of skulls with a table
+placed nearby. Opposite it is a very large torus, spinning on its edge. 
+> exa table
+A large table, smooth and sleek with layers of lacquer. It is made of the wood
+of the kesoit tree, dark reddish-black with a fine red-gold grain. It is
+crafted with such precision you wonder if it isn't made from a single block of
+wood. Four sybarun coins, eleven kahve truffles, six chocolate-dipped
+strawberries, 18 honey drops, three ivory torches, a tiny jar of ebon pomade,
+13 black diamonds, a long coral necklace, a kesoit death mask and a crystalline
+skull filled with flowers are on the lacquered kesoit table.
+> exa torus
+This is a torus that seems to rotate on itself along the inside even as it is
+spinning on its outer edge. It seems to be made of a dark metal and a reddish
+stone of some kind, perhaps jasper or carnelian. In the center of the toroid
+various images of other places flash into view in rapid succession. Perhaps
+this a portal?
+> exa throne
+This is the seat of Mascarvin, a throne made of bones. Resting atop a dais of
+three concentric rings of skulls, nearly twice as wide as it is deep, it is
+covered in a variety of cushions upon which the goddess lounges. The skulls
+have jewels for eyes, and the domes gleam with a pearly white lustre. Spectral
+figures flicker in and out of view, some kneeling, some standing protectively,
+others laying prone in supplication before the throne.
+Artfully made, this throne is as beautiful as it is macabre.
+> 
+The portal stops spinning and Mascarvin steps into the room.
+Mascarvin cradles a body in her arms and sits on the throne of skulls. Pressing
+their head to her chest, she looks down at you.
+Mascarvin speaks: Once again, you see something few who expect to live ever
+see.
+Mascarvin speaks: This I do out of love for the people of Sybarus, a reward for
+their service. I collect their souls and give them peace and nourishment so
+they may be reborn to serve again.
+Mascarvin speaks: In this way do the Gods of Sybarus honor those who follow the
+Pact.
+Mascarvin intones: This is our way.
+Mascarvin speaks: Do your gods care for you so well, I wonder?
+Mascarvin speaks: Speaking of rewards, allow me to reward your patience with
+the earlier interruption.
+You feel quite a bit more experienced!
+Mascarvin gestures toward a lacquered kesoit table.
+Mascarvin gets a kahve truffle from the lacquered kesoit table.
+Mascarvin speaks: Please, help yourself to whatever you would like.
+Mascarvin eats a kahve truffle.
+> get truffle from table
+You get a kahve truffle from the lacquered kesoit table.
+> thank mascarvin
+You thank Mascarvin gratefully.
+> 
+Mascarvin smiles approvingly.
+Mascarvin speaks: You have excellent manners.
+Mascarvin speaks: How refreshing.
+Mascarvin gives you some sybarun coins as a token of Her approval.
+> Mascarvin speaks: Sadly, our time has come to an end.
+Mascarvin speaks: My work as the goddess of death is never done.
+Mascarvin speaks: This is your last opportunity to take what you would like
+from my table.
+get all from table
+You get seven sybarun coins, nine lemon cream truffles, ten chocolate-dipped
+strawberries, eleven butterscotch buttons, two ivory torches, a tiny jar of
+rose pomade, a dozen black diamonds, a long coral necklace, a kesoit death mask
+and a crystalline skull filled with flowers from the lacquered kesoit table.
+Mascarvin speaks: I will turn you over to the Chatelaine's good care. She will
+see you out of the catacombs, if you so desire.
+Mascarvin turns to look at the body in her arms and shifts it tenderly.
+Mascarvin speaks: May it be many yera til we meet again.
+/d/Avenir/common/dead/catacombs/crypt_entr
+This is the entrance to the Catacombs of Sybarus. A long tunnel slants south
+down into a frightful blackness. The walls seem to be made from glistening
+limestone, and the floor is covered with a thick white mist, similar to the fog
+that lies on the moors, but whiter. Some light filters in from the north.
+There is an imposing iron gate to the north.
+There are two obvious exits: north and south.
+Chatelaine.

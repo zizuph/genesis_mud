@@ -1,0 +1,97 @@
+                                 PALANTHAS
+                  S                                        
+              S    `P                                    P 
+            /     /  `S                                 / \ 
+           0    P                  P                   S   0
+            \  /  S                |                       |
+              0    `P--S         P P                       |
+               \   /              \|                       |
+                 0-----0-----0   P P                   35  0
+                              \   \|                     `/    o
+              o                 0  P                36  0      |
+              |                  \ |                  `/       |
+              |        T           0                 0         |
+              |         \            \              /          |
+              O           O-----O     0-----0-----0            O
+            /           /         \   |                         \
+           G     T    ,'  w     w  `, |     w     w       34     G
+         /  \\    \  /    |     |    \|     |     |         \  //  \
+       ,'     o     o-----O-----o-----O-----o-----O-----o     o     O
+      /        \\  / \    |     |    /|     |     |    / \  //     /  \
+     O     T     O    `,  w     w  ,' |     w     o  ,'    O     o     `,
+   /        \   / \\    \         /   |           | /    // \   / \      \
+  o           o-----o     O-----O     o     O-----O     o     o-----o     o
+  |           |   ***\\   |     |     |    /       \  //      |\    |\    |
+  |           | *******O  M     M     |  ,'          O     3  |  8  | `,  |
+  |           | ***   **\\            | /          // \     \ |     N   \ |
+  O-----o-----O **     ** \\      o---O---o      //     o-----O           O
+  |     |     |\ *     **   \\  /  *******  \  //       |     |           |
+  | 24--o--26 | o--23  **    ,O   *********   O,    o-o |  N  |     4     |
+  |     |  |  |/ *     **   /  \\ *       * //  \  /  | |  |  |     |     |
+  o    25  27 o ********* o'    \\  Palace //    `o 1-o-o--o  o-----O--5  o
+  |           | ********* |       o       o       |\  | |  |  |     |     |
+  |    22     | ********* |        \\   //        | o-o |  N  |     6     |
+  |     |     |   *****   |         \\ //         |     |     |           |
+  G-----o-----O-----o-----O----------[P]----------O-----o-----O-----o-----G
+  |     |     |     |     |         //|\\         |     |     |     |     |
+  |    29     | ****20**  |        // | \\        |     |  P  |     |  o  |
+  |           |*****|*****o       o J | P o       o     |  |  |     |  | \|
+  o-h   31    o*** / \ *** \    //  A | O  \\    /  o   o  7--o  N--o  T  o
+  |     |     |*** \_/ ***  `, //   I | S   \\ ,' /  `o'   |  |     |     |
+  |  30-o-32  |***********    O     L | T     O  o  2' `o  P  |     |     |
+  |     |     | *********   //  \     |     /  \\ `o   /      |     |     |
+  O-h   |     O-----o     //      o---O---o      \\ `o'       O     o-----O
+  |     |     |      \  //            | \          \\         |     |    /|
+  |     o-33  | 28     O  H           |  10          O     19 |     |  9  |
+  |     |     |   \  // \ |           |               \\  /   |     |     |
+  o-h   o  21-o     o     o    12-----o-----o  H--o     o     o  N--o     o
+   \     \     \  // \  / | \         |           |   /  \\ /            /
+    `,     o     O    15  |  11       |           |  18    O     o     ,'
+      \  /  \  // \       |           |           |      /  \\ /   \  /
+        O    `o     o-----O-----o-----O-----o-----O-----o     o     O
+         \  // \          |     |     |     |               /  \\  /
+           G    `o--o--o--o--o--o     |     14          17-o     G
+            \       h  h  h  h  |     |                     \   /
+              O                 o  H--o--13       o-----o     O
+               \    h  h  h  h  |     |           | \    \   /
+                `,  o--o--o--o--o     |           |  16    o
+                  \       |     |     |           |       /
+                    o-----O-----o-----G-----o-----O-----o     
+                                   Old Wall
+
+
+
+Nobles Quarter
+--------------
+1.  Livery                   6.  Laethorian Spa & Body
+2.  Fine Inn                 7.  Park & Notice board
+3.  Jeweler                  8.  Fine Cloth Dealer
+4.  Dienya's Fine Clothing   9.  Barder
+5.  Mer-Cantile Cafe         T.  Prestigious Knights Club
+
+Aesthetics Quarter
+------------------
+10. Great Library   14. Scroll Trade G      18. The Wayside
+11. Messengers      15. Scholar's Den       19. Adv. Guild
+12. Aesthetics      16. Rare book dealer    
+13. Bookbinder G    17. Reflection Fountain
+
+Merchants Quarter
+-----------------
+20. Entrance, Shoikan Grove  25. Bank              30. Tanner
+    South is death.          26. Green Twitch Inn  31. Smith
+    South of death is ToHS.  27. Green Twitch      32. Leatherworker
+21. Bowyer                   28. Body Piercer      33. Auction House
+22. Robemaker                29. Silver Dragon Inn
+23. Tower of Arms (KoS)      
+24. City Shop                
+
+Shipping
+--------
+34. Crab Shack        36. Fishermen & Naval landing
+35. Fine Dining        
+
+w - Warehouse         P - Pier
+M - Merchant House    S - Ship Landing
+T - City Guard Tower  T - Guard Tower
+h - Home	      H - Estate

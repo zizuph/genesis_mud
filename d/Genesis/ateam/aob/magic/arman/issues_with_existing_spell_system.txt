@@ -1,0 +1,113 @@
+
+Existing spell system and identified issues - Arman May 2020
+========================================================================
+On investigating the formulas for the spell system, there are a few
+issues which are unbalancing at higher mortal levels.
+
+SPELL SUCCESS CHANCE:
+The success chance of spells is based on the TASK_* of the spell using
+resolve_task calculations.  
+
+For a stat average 100 player the spell 
+success likelihood is:
+    // TASK_EASY        - 100%
+    // TASK_ROUTINE     - 97%
+    // TASK_HARD        - 85%
+    // TASK_DIFFICULT   - 65%
+
+For a stat average player of 160 with 75 in spell skills, TASK_DIFFICULT
+spells can be cast at 100% success. So spell success scaling isn't great
+considering the player size ranges currently in the game. But the big 
+issue is that spells are granted additional combat aid (between 3% and
+33% caid boost) on the assumption that spells will fail more frequently.
+
+For bigger players, there is no spell fail. So the additional caid isn't
+warranted. [note, there can 'appear' to be spell failure with spells
+where the penetration value returns zero. That is a function of spell 
+damage.]
+
+SPELL DAMAGE:
+Conversely, the way spell damage is determined compared to melee special
+attacks has a number of formulaic differences that results in a 'hand
+break' being put on damage output once a players mental stats reach
+250.
+
+For special attacks the damage of a special is based on the same base
+formula, F_PENMOD(penetration, skill).
+
+For melee specials 'penetration' is the wielded weapon's pen value, and
+'skill' is the special skill. Both are capped values (penetration is 60
+for two-handed weapons and 50 for one-handed weapons [plus potential
+imbuement]; special skill capped at 100).
+
+For standard harm spells, 'penetration' is based on a formula involving
+a log function of a range of variables, including SS_INT, form skill,
+element skill, and spellcraft skill. This value is uncapped and can
+massively exceed the penetration values of melee specials.
+
+The skill value for harm spells uses guild stat, capped at 100.
+
+So spellcasters have a big advantage over melee in relation to the
+base formula value F_PENMOD(penetration, skill).
+
+However both special types have modifiers applied to the base formula
+output.
+
+Spells have a damage modifier based on the SS_WIS of the caster, capped
+at a maximum 10% damage bonus. The equivalent melee special stat
+modifier is uncapped... and this is where players with stats above
+250 begin to notice a distinct difference is damage output when compared
+with melee.
+
+There is a modifier applying additional caid to the harm spell based on
+the loss of 'white damage' when casting (factored at 21 caid).
+
+There is a modifier to damage based on the time taken to cast the spell,
+if the spell is longer or shorter than the standard cast time.
+
+There is then a modifier applied based on the difficulty of the spell
+(see issues with spell success above).
+
+And finally the target's resistance value is taken into consideration.
+To align with the F_NEW_DAMAGE formula in cb_hit_me that normal damage
+formulas use, there is a chance that the damage returns zero based on:
+if (random(100) < (resist * 80 / 100)).
+
+If a non-zero result occurs, then damage is reduced (or increased)
+by the resistance as follows:
+value = (value * (100 - max(min(resist, 100), -50))) / 100;
+
+SO WHAT ARE THE KEY ISSUES THAT NEED TO BE ADDRESSED?
+
+* Spell success does not scale well. Considering the big combat aid 
+benefits of casting harder spells, this is a potential unintended
+consequence. For example, the Morgul Mage spell morthul is a spell
+classed TASK_DIFFICULT, and thus gains an additional 33 caid without
+a realistic failure penalty to match. To put in perspective, that
+is more combat aid than the Army of Angmar's shield defensive
+special (25 caid) that is provided essentially for free!
+
+* The 'penetration' value used in F_PENMOD is resulting in values well
+in excess of what are standard pen values for weapons. How spell
+penetration is determined needs to be changed.
+
+* The primary modifier to damage that is based on stats is capped at
+10%, resulting in a handbreak for players who reach mental stats of
+250. This stat ceiling would be much lower with a capped 'penetration',
+as this needs to be uncapped similar to melee specials.
+
+* Resistance can easily nullify magical damage. One piece of armour like
+dragonscale offering 25% resistance not only reduces any spell damage of 
+that type by 25%, but also has a 1 in 5 chance of reducing the damage to 0.
+
+60% resistance reduces any damage by that amount but also has almost a 1 in
+2 chance of reducing any spell damage to 0.
+
+By comparison, melee specials have a chance of reducing damage to 0 through
+the formula if (random(100) < (ac% / 2)). To achieve the same chance of
+reduction as the resistance formula one would need combined armour values
+of approximately 285ac - which is not achievable. 
+
+60% resistance though is easily achieveable.
+
+HOW DO WE ADDRESS THESE ISSUES? COMING NEXT...

@@ -1,0 +1,197 @@
+[Tax]-----------------------------------------------------------------------
+
+12/10/2020 Ckrik, revised tax document for Monks with modernized specials
+and thematically appropriate adjustments.
+
+For thematic reasons Monks will now incur a heavy penalty for each shield
+worn -- their strike caid is reduced by 50% if 1 shield is worn and strike
+cannot be used at all if 2 shields are worn. A Monk can choose to wear
+two shields and go into "turtle mode" but their offensive output will be
+greatly reduced.
+
+In exchange Monks will be allowed to train SS_ACROBAT to 100 levels.
+100 levels of SS_ACROBAT is slightly less defensive than wearing 2
+shields. It also incurs a heavy encumberance penalty that greatly reduces
+its effectiveness.
+
+[Combat].................................................................
+
+ SKILL          PUBLIC  LAY  OCC  LAY_SLOTS  OCC_SLOTS  LAY TAX  OCC TAX
+-------------------------------------------------------------------------
+SS_UNARM_COMBAT      30   50  100         20         70    0.50%    1.75%
+SS_BLIND_COMBAT      20   50   90         30         70    1.00%    2.33%
+SS_DEFENCE           20   50  100         30         80    0.75%    2.00%
+SS_ACROBAT++         20   60  100         80        160    0.67%    1.33%
+-------------------------------------------------------------------------
+                                         155        380    2.92%    7.41%
+
+++ alien thief skill, double the number of slots taken
+
+ SPECIAL                LAY AID    OCC AID    LAY TAX    OCC TAX
+-----------------------------------------------------------------
+PLEXUS                       0%        65%      0.00%     10.86%
+STRIKE                      50%        65%      8.35%     10.86%
+SHIELD PENALTY**           -50%       -50%     -4.18%     -4.18% 
+-----------------------------------------------------------------
+                             0%        80%      4.17%     17.54%
+
+** though the shield penalty is worth around 50 caid, we only give
+25 caid worth of discount
+
+[Strike].................................................................
+
+monks/monastery/specials/strike_base.c (base class)
+monks/monastery/specials/strike_occ.c (OCC specialization)
+monks/monastery/specials/strike_lay.c (LAY specialization)
+
+Strike is a combat special inheriting from damage.c in the standard
+special library. It randomly chooses an attack_id as a required item
+to be present to calc_base_pen() in damage.c. The pen (including
+enhancements e.g. claws and karma) will be calculated into the pen
+of the attack.
+
+The OCC caid cap is set to 65% and the LAY caid cap is set to 50%.
+
+[Plexus].................................................................
+
+monks/monastery/specials/plexus.c
+monks/monastery/specials/plexus_obj.c (stun obj)
+
+Plexus is a stun special where the Monk hits the target in solar
+plexus (humanoid) or body (non-humanoid) to cause a stun. If the target
+is not humanoid or does not have a hitloc named "body" then the Monk
+is not able to execute the stun on the target.
+
+plexus.c inherits from combat_special_base.c in the standard special
+library that provides the timed special functions.
+
+plexus_obj.c inherits from stun_obj_base.c in the standard special
+library.
+
+The caid of the stun object is set to 65%. Note, the stun percentage
+caid is calculated in the same way as passive evade. However, because
+the stun only affects targets that acquired stun objects, in the
+multiple enemy case plexus is strictly weaker than the same caid passive
+evade, which is applied across all enemies.
+
+The setup and cooldown time of plexus is set to 5 seconds and 5 seconds
+respectively for a total of 10 seconds worth of overhead time. The stun
+effect lasts for 30 seconds and does not stack on a single target --
+i.e. if another plexus is executed on a target with an unexpired stun
+object (no matter the origin), the stun will have no effect.
+
+Given the parameters a maximum of 3 enemies can be simultaneously
+stunned with 10 second offsets to the start of the timer on each stun
+object.
+
+The tohit, combat aid and cycle time are set in plexus.c.
+
+[Karma]..................................................................
+
+Applicable to both OCC and LAY.
+
+monks/monastery/soul/shadow_base_combat.c
+
+m_acquire_weapon() - code determining hit/pen acquired
+m_adjust_acquired_weapon() - adjust the attack ids
+m_decay_acquired_weapon() - decay the hit/pen
+
+The current system for acquiring the hit/pen of weapons will be
+maintained until we resolve the weapon inflation issue. The hit/pen
+difference is too great to remove this bandaid at this moment.
+
+Monks acquire the hit/pen of a weapon after killing an opponent that wields
+the weapon. The weapon is broken in the process to prevent it from being
+used by somebody else afterwards.
+
+Monks can only acquire hit/pen of two weapon classes. These are either axes
+and clubs, or swords and knives, or polearms and javelin. The choice is
+determined from the type and frequency of unarmed forms that the monk
+practices. This prevents the monk from modifying the choice frequently at
+will.
+
+The hit/pen of two-handed weapons are scaled by 0.833333 (i.e. 50 / 60)
+because two-handed weapons trade a shield slot for the extra hit/pen.
+Furthermore, the max hit/pen that can be acquired is capped at the max
+one-handed weapon hit/pen of 50/50. Enforced value is set via macros:
+
+M_WEAPON_SUSPECT_HIT
+M_WEAPON_SUSPECT_PEN
+
+set in monks/monastery/defs.h
+
+On average. Based on F_WEAPON_CONDITION_DULL, a weapon dulls one step for
+450 hits. Based on F_WEAPON_BREAK, a weapon breaks after 10 dull steps.
+Until breaking, the hit stays the same, the pen is lowered by the number of
+dull steps for slashing, 2/3 of dull steps for impaling, 1/3 of dull steps
+for bludgeoning.
+
+Rather than trying complicated code that would shadow the combat object,
+gradual decay based on int and wis of the monk is introduced.
+
+   See M_ACQUIRE_DECAY for exact formula.
+
+TODO: m_adjust_acquired_weapon() will need to be harmonized with
+unarmed enhancers e.g. claws, gloves and brass knuckles.
+
+
+[Extras].................................................................
+
+ SKILL           PUBLIC  LAY  OCC  LAY_SLOTS  OCC_SLOTS  LAY TAX  OCC TAX
+-------------------------------------------------------------------------
+SS_AWARENESS++       30   50   70         40         80     0.33%   0.67%
+SS_HERBALISM^^       20   40   40         40         40     0.33%   0.33%
+SS_ELEMENT_AIR       20    5    5          0          0     0.00%   0.00%
+SS_FORM_DIVINATION^^  0    5    5         10         10     0.08%   0.08%
+SS_APPR_OBJ          30   50   50         20         20     0.17%   0.17%
+SS_APPR_MON          30   50   50         20         20     0.33%   0.33%
+-------------------------------------------------------------------------
+                                         130        170     1.24%   1.58%
+
+++ alien thief skill, double the number of slots taken
+^^ alien mage skill, double the number of slots taken
+
+Total OCC_SLOTS = 550
+Total LAY_SLOTS = 285
+
+Member to member tell is given for 4% tax.
+
+[Guru Quests]............................................................
+
+Q_MONK_GURU 1,5 in Sparkle domain
+
+For all skills except acrobat, the Monk must reach the center of the
+catacomb and fight an avatar of him/herself. To reach the center the
+Monk must claim certain dragons in the realms as kin.
+
+Q_MONK_ACROBAT_GURU 1,6 in Sparkle domain
+
+TBD
+
+Idea 1: Exorcise a location with spirits of dead dragon turtles that
+dragon turtle shell shields were harvest from?
+Idea 2: Tank a dragon with all attacks disabled for N minutes --
+i.e. dance with a dragon.
+Idea 3: Complete an obstacle course.
+
+[Totals].........................................................
+
+OCC TAX 30.53%
+LAY TAX 12.33%
+
+Rules checklist:
+
+ - OCC Total taxable skill slots can be at most 550.
+ - LAY Total taxable skill slots can be at most 350.
+ - Current sum is OCC 550 and LAY 285.
+
+ - OCC The maximum teaching level in mudlib defined skills is 90.
+ - LAY The maximum teaching level for mudlib defined skills is 50
+       for multiplier above 1.0 and 60 for other multiplier.
+
+ - OCC Maximum combat aid is 100%
+ - LAY Maximum combat aid is 50%.
+ - Current sum is OCC 80% and LAY 0%.
+
+ - OCC Maximum tax is 35%.
+ - LAY Maximum tax is 20%.

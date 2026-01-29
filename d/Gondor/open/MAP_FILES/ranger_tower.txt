@@ -1,0 +1,27 @@
+main
+::MAPDATA::
+tunnel_a 2 1
+tunnel_b 2 3
+vantage_top 13 3
+vantage5 13 4
+tunnel_c 2 5
+vantage4 13 5
+exit 8 6
+vantage3 13 6
+tunnel_d 4 7
+tunnel_f 8 7
+vantage2 13 7
+vantage1 13 8
+tunnel_e 4 9
+vantage_stair 13 9
+::MAPDATA::
+                 _   _   _
+  o             | |_| |_| |
+  |             |_________|
+  o         [ ]  [       ]
+  |         [ ]  [       ]
+  o         [ ]  [ [] [] ]
+   \   [ ]  [ ]  [       ]
+    o  [ ]  [ ]  [ [] [] ]
+    | /     [ ]  [       ]
+    o ------[ ]  [       ]

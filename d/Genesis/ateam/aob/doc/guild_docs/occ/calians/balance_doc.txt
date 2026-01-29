@@ -1,0 +1,300 @@
+             DOCUMENTATION FOR THE ABILITIES AND LIMITATIONS
+                    OF THE CALIAN WARRIORS GUILD
+           FOR THE PURPOSE OF DETERMINING BALANCE AND TAXATION
+
+
+  * Relevant Files/functions listed below each item where necessary.
+
+Statement of Philosophy:
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Calians are warriors trained to be team specialists. They fight
+primarily using a swarming formation that allows the tanker to
+dodge hits better and the swarmers to strike precisely to deal
+great damage. They are invaluable in a team, but completely
+useless by themselves.
+
+Branches:
+~~~~~~~~~
+
+There are three branches of Calians. The first branch is a free
+join branch that almost anybody can walk up and join. By default,
+the Calian Council can set a minimum mortal level for a person
+to become a Calian Follower. This minimum level can be avoided,
+however, if the person is a Cadet graduate. The idea behind this
+is to allow those who have graduated Cadets to always be able to
+join as the next step in their training. Followers do not start
+in the normal guild start room, and they have no access to the
+palace tunnel system.
+
+The second branch is the main training branch of the Calians, the
+Calian Trainees. They gain the ability to use their medallion to
+project in addition to greater training skill than the Followers.
+they are also allowed to start upstairs in the main start room,
+and have access to the tunnels. They do not, however, have access
+to any other rooms upstairs, including the racks.
+
+The final branch is the Calian Warriors branch. This is the full
+branch with all the guild abilities and skills.
+
+Skills Trained:
+~~~~~~~~~~~~~~
+
+Warriors:
+
+    Sword            : 100 * combined with polearm to be 175
+    Polearm          :  75 * combined with sword to be 175
+    Defence          :  75
+    Parry            :  75
+    Two-Handed Combat:  65
+    Swarm            : 100
+    Move Behind      : 100
+    Riposte          : 100
+
+Trainees:
+
+    Sword            :  65
+    Polearm          :  65
+    Defence          :  55
+    Parry            :  55
+    Two-Handed Combat:  45
+    Swarm            :  70
+    Move Behind      :  70
+    Riposte          :  70
+
+Followers:
+
+    Sword            :  50
+    Polearm          :  50
+    Defence          :  50
+    Parry            :  40
+    Two-Handed Combat:  40
+    Swarm            :  50
+    Move Behind      :  50
+    Riposte          :  50
+    
+Combat Specials:
+~~~~~~~~~~~~~~~
+
+  Swarm
+  ~~~~~
+    Swarm is an attacking skill that allows a player, when teamed 
+    against an opponent who is fighting a fellow team member, to 
+    attempt to sneak around its defences and deal it a blow. The 
+    idea is to take advantage on the fact the opponent will be 
+    concentrating on the other team member by hitting its exposed 
+    undefended flank with a swift, deft strike. Swarm can only be 
+    used in these circumstances.
+    
+    Swarm also possesses a defensive part when used with other Calians.
+    Whenever a Calian is in a team, the tanker receives 20% evade.
+    Additionally, for each additional Calian teammate one has, the
+    tanker will receive an extra 10% evade. Note that the way evade
+    stacks is according to the Genesis evade shadow.
+    
+    Combat Aid
+    ----------
+    Using the Genesis Specials system, we simply set the combat aid
+    and all other calculations are set. Calian swarm has been set
+    at a maximum combat aid of 120%. This number changes, however,
+    depending on the situation.
+    
+    Calian with no other Calians: 105%
+    Calian with other Calians:    120%
+    
+    Combat aid can be reduced depending on unfavorable conditions
+      - Weapon skill is taken as a percentage of the combat aid. Therefore
+        if someone has less than sup guru, they would have less aid. For
+        example, if someone had sup master skill in the weapon used for
+        swarm, they would only receive 90% of the value above.
+      - If there is a rogue tanker (someone not on the team) taking the
+        hits, then the swarm combat aid is reduced to 1/3.
+    
+    The combat aid for swarm is 25% (20% evade) for the tanker, and 10%
+    for each additional teammate, to a maximum of 50% combat aid provided
+    to the tanker for the swarm evade.
+    
+    Here is a description of all the situations and their combat aid
+    Solo Calian:
+        swarm combat aid:                   0%
+    
+    Tanking Team Calian:
+        swarm evade:                        25% (evade)
+        swarm evade (additional):           10% per Calian up to 50%
+    
+    Swarming Team Calian (only non-Calian Tanker):
+        swarm combat aid:                   105% (attack only)
+        
+    Swarming Team Calian (with Calian Tanker):
+        swarm combat aid:                   120% (attack only)
+        
+    Frequency
+    ---------
+    Frequency of swarm is once every 10 seconds, and given that there is 
+    one combat round every 5 seconds, swarm frequency is 1/2. The actual 
+    time is randomized when using the Genesis specials library.
+    
+    Hit chance
+    ----------
+    When deciding whether a hit attempt succeeds, swarm uses cb_tohit 
+    with a tohit value as follows: 
+    
+        tohit = min(max((player->query_skill(SS_SWARM_KNOWLEDGE) / 2), 
+                         player->query_stat(SS_WIS) / 2), 50) 
+              + ((25 * weapon->query_hit()) / 13);
+    
+    This means that for a 40/40 weapon, a swarm skill of 100 and wisdom 
+    of 100, the tohit value of swarm is 126, which gives a typical hit 
+    chance of 94%, and a combat aid reduction of 6%. 
+    
+    Penetration
+    -----------
+    Penetration of swarm varies depending on the weapon's pen, player 
+    DEX and STR, and if one has another Calian in the team. Guild stat
+    scaling goes from minimum of 20% at guild stat 0, to 100% at guild
+    stat 100.
+    
+    Everything else is calculated by the Genesis Specials system.
+    
+    Mana/fatigue drawback
+    ---------------------
+    Each swarm takes 2 fatigue and 1 mana when not fighting in a team 
+    alongside a fellow Calian, but 1 fatigue and 0.5 mana on average 
+    otherwise. 
+    
+    Usage drawback
+    --------------
+    Swarm is a very powerful attack in the right circumstances, i.e. 
+    given a decent weapon and the right position in a team. Swarmers 
+    are however ineffective alone when compared to the member of a 
+    solo occupational fighter guild. Also, in situations where the 
+    swarmer has to tank, for whatever reason, they may not use their 
+    ability.
+    
+    Note: Attacking a Calian who is preparing to swarm will automatically
+          stop the swarm.
+
+  Riposte
+  ~~~~~~~
+    Riposte is the only ability that Calians are able to use when solo.
+    It is essentially a tanker ability, allowing them to parry incoming
+    attacks and immediately launch a counter attack. The attack itself is
+    quite weak, but when in a Calian team, the riposte attack becomes
+    much stronger.
+    
+    Combat Aid
+    ----------
+    Using the Genesis Specials system, we simply set the combat aid
+    and all other calculations are set. Riposte evade is set at 20%, which
+    yields 25% combat aid. The Riposte attack when solo is set to 25%
+    combat aid in the special. However, because the evade is 20%, the
+    effective combat aid is actually only 5%. When in a Calian team,
+    the Riposte attack is set to 100% combat aid, which yields a 20%
+    effective combat aid.
+    
+                    Riposte Evade           Riposte Attack
+    Solo Calian     25% combat aid          5% combat aid
+    Team Calian     25% combat aid          20% combat aid
+    
+    Frequency
+    ---------
+    Riposte can occur only once per round, no matter how many times attacks
+    are parried. This is to prevent it from being a ridiculous and silly
+    attack when many attacks are evaded at once.
+    
+    Hit chance
+    ----------
+    Riposte tohit has been set to 70. There are a couple factors that can
+    reduce this by 15% each:
+    
+         1. Weapon is not a sword or polearm
+         2. Opponent is at least 3 times more massive
+    
+    Penetration
+    -----------
+    Penetration of riposte varies depending on the weapon's pen and player's
+    DEX.
+    
+    Everything else is calculated by the Genesis Specials system.
+
+
+  Move Behind and Opportunity Attacks
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~    
+
+    File: /d/Calia/guilds/calians/specials/move_behind.c
+          /d/Calia/guilds/calians/specials/opportunity_attack.c
+          /d/Calia/guilds/calians/specials/opportunity_attack_sh.c
+    
+    Move behind is a skill that allows a player, when in a team 
+    and being attacked by an opponent or opponents, to move behind 
+    a team-mate who then faces the opponent(s) attacks. 
+    
+    Likelihood of success depends on the a number of factors:
+        - Move behind skill
+        - Dex, Wis, and Int
+        - Friend Modifier (Str and Dis of friend)
+        - Enemy Modifier (Number of enemies, enemy dex, and wis)
+    
+    Success is determined using resolve_task.
+    
+      resolve_task(TASK_EASY, 
+                   ({ SS_MOVE_BEHIND,
+                      SKILL_WEIGHT, mb_skill,
+                      SKILL_AVG, TS_DEX, TS_WIS, TS_INT, SKILL_END,
+                      SKILL_VALUE, friend_modifier }),
+                      attacker,
+                      ({ TS_DEX, TS_WIS, SKILL_VALUE, enemy_modifier }))
+    
+    There is a short reset time of one second. As a measure to stop enemy 
+    players from preventing Calians from swarming at all by typing "kill" 
+    repeatedly, the friend achieves a free opportunity attack once per round
+    whenever a Calian who is behind is attacked. This is mostly a replacement
+    for lost swarms, and because it is actually less combat aid than a
+    swarm, should not incur any further tax. After successfully 
+    moving behind one finds greater difficulty in moving behind. This 
+    is to prevent an "invulnerability" problem with repeated moving behind. 
+    Because move behind simply replaces a tanker, it really incurs no combat
+    aid whatsoever. Someone is always taking the hits. Without this feature, 
+    a Calian who swarms would find it very awkward to work well in a team. 
+    It does have a number of drawbacks as listed above, and its 
+    own skill. The skill is essential in player fights, important against 
+    smarter npcs, and is useful in other cases as an alternative to leaving 
+    and returning especially in dangerous areas. 
+    
+    There is a special move that Calians can do called "mbsw", 
+    which is simply a move behind followed by an immediate swarm 
+    attempt (with the usual preparation time). Without it, a Calian 
+    involved in a player fight who doesn't have a fast link might 
+    never be able to swarm. 
+    
+    Opportunity Attacks - Dealing with Abuse
+    ----------------------------------------
+    Opportunity Attacks happen when an opponent begins to attack an Calian that
+    is not the current tanker. It can only occur if both the Calian who is
+    behind and the tanker are fighting the same foe. There are, however, a
+    number of ways to trigger an attack, and it is difficult to distinguish
+    when an attack is triggered by purposefully attacking someone behind, or
+    simply something that the mudlib does. This is especially true when it
+    relates to movement. A person who is hunting automatically attacks everyone
+    when they enter the room. A person being hunted gets automatically attacked
+    when they re-enter the hostile room. Typically, npcs have about a 2 second
+    delay before their alarm is called to attack the enemy. By leaving and 
+    coming back in many times, one can trigger many alarms to reattack.
+    
+    The code in the opportunity attack shadow was written in such a way to
+    prevent this. Every time there is movement on the Calian's part, their
+    opportunity attack mechanism is reset. Any movement on either the Calian
+    being hunted, or the hunter hunting the Calian will cause a 3 second
+    period during which opportunity attacks cannot be triggered. Leaving and
+    re-entering a room will continuously remove the old alarm and restart
+    a new one, ensuring that the 3 second period is maintained.
+    
+    Opportunity attacks can happen once a round at most. As such and because it
+    is a replacement for swarm, I have placed the combat aid for them at
+    exactly half of swarm (currently 52.5%)
+    
+    Tax: Though there is no combat aid, we will charge a 1% tax for
+         move behind and opportunity attacks for the ability.
+
+
+Petros, July 2008

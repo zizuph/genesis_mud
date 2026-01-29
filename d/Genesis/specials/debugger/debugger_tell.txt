@@ -1,0 +1,63 @@
+                    Debugger Tell Object
+                    ====================
+                    
+Introduction
+------------
+Since LPC doesn't have a true debugger, the best way to tell what's going
+on in the code is by having the code send out messages to the person who
+is looking into the code. This debugger tell object was written to allow
+that process to be quick and easy.
+
+Basic Concepts
+--------------
+The concept is simple. Within any code that you write, you can call a
+function called "send_debug_message". You associate a "tag" to the message.
+Anyone who has the debugger tell object and listens to that tag will
+receive the debug messages being sent by the code. A person can now also
+optionally listen to a particular file (both master object and instance)
+and all send_debug_message calls from that file will get sent to the
+debugger.
+
+How to Use in Code
+------------------
+The header for the debugger tell is currently in:
+    /d/Genesis/specials/debugger/debugger_tell.h
+
+In order for your code to use it, all you need to do is include this file
+in your own file. eg.
+   #include "/d/Genesis/specials/debugger/debugger_tell.h"
+       
+Within your code, to use this to send debug messages, simply call:
+
+    send_debug_message(tag, message, logfile)
+
+For example, if I want to send a debug message with the "LIBRARY" tag,
+I can do this by calling like this:
+
+    send_debug_message("LIBRARY", "This is a test.")
+
+Anyone with a debugger object listening to the "LIBRARY" tag will
+receive this message.                    
+
+How to Use the Debugger Object
+------------------------------
+Debugger Object can be cloned: /d/Genesis/specials/debugger/debugger_tell.c
+
+The Debugger Object receives all messages that are sent out by code, but
+will only display the ones that you want to listen to. To see what is
+avaliable to you, you can do "list available". If you want to see
+what files sent out a particular tag, you can do "showfiles <tag>".
+Using this information, you should be able to add the list of tags
+and files that you want. Below are the commands on the debugger object.
+You can get this also by simply examining it.
+
+list tags          - Shows the tags you're listening to
+list files         - Shows the files you're listening to
+list available     - Shows all the available tags you can listen to
+addtag <tagname>   - Adds a new tag to listen to
+remtag <tagname>   - Removes a tag from listening
+addfile <filename> - Adds a new file to listen to
+remfile <filename> - Removes a file from the listen list
+showfiles <file>   - Show the list of files that a particular tag has.
+
+Written by Petros, May 2008

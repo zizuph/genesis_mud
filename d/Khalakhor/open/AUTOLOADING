@@ -1,0 +1,12 @@
+This document gives information on the autoloading objects that
+can be found in Khalakhor.
+
+Spellpaper:        This is found as part of a quest.
+                   It gives the bearer a strength spell.
+                   It can be restored by typing "restore me" in
+                   the mayor's office:  
+                   /d/Khalakhor/inisi/roke/nyreese/cadu_m
+                   Path: /d/Khalakhor/inisi/roke/obj/spellpaper.c
+
+Last modified:
+Glindor, January 12, 2002

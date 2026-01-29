@@ -1,0 +1,61 @@
+main
+::MAPDATA::
+weanting2 61 13 village
+weant_shop 61 13 village
+weant_post 61 13 village
+weant_inn 61 13 village
+weant_inn2 61 13 village
+::MAPDATA::
+
+          ~~~~~~ /   \ ^  /   \              ~~~~           OOoOoOOoOoOoOoOOo
+      ~~~~      /  ^  / \/ ^   \             ~~~~           OoOOoOOOOOOOOo^^^
+  ~~~~            / \/   \/ \                 ~~~~          OOoooOoOooOooOooO
+ ~               /   \    \  \                ~~~~         oOOoOOoOoOoOoOoOOo
+                / Misty Mountains              ~~~~        OOoOOoOOOOOoOOoOOO
+               /                               ~~~~        oOOooOooOoOOooOooO
+                                              ~~~~         oOOoOoOOooOOoOoOOo
+           /----------------------------+-----====-------------- The Old Fore
+          / ~~~~~~~~ ^                  |     ~~~~        OOoOOOoOOOOoOOOoOOO
+ lshaws  /~~~~~ ^   / \  ^              |      ~~~~       OoOOoOOOoOoOOoOOOoO
+        /~~~   / \ /   \/ \             |   A N D U I N   OOOOoOOOOoOOOoOOOOo
+       /~~    /   \     \  \            |      ~~~~       OOOOOOoOOOOOOOOoOOO
+ -----/~~         Misty Mountains       |       ~~~~      OoOOoOOOoOoOOoOOOoO
+     ~~~           ^    ^               |       ~~~~      OOOOoOOOOoOOOoOOOOo
+   ~~~         ^  / \  / \              |      ~~~~       OOOOOOoOOOOOOOOoO+-
+ ~~~          / \/   \/   \             |      ~~~~       OoOOoOOOoOoOOoOOO|
+ ~           /   \  ^/     \            |      ~~~~       OOOOoOOOOoOOOoOOO+-
+            /   ^ \/ \   ^  \           |      ~~~~       OOOOOOoOOOOOOOOoOOO
+               / \/   \ / \             |      ~~~~       OoOOoOOOoOoOOOOoOOO
+              /   \ ^  /   \            |       ~~~~      OOOOoOOOOoOOOOOOOoO
+
+::NEWMAP::
+village
+::MAPDATA::
+weanting2 33 13
+weant_shop 33 11
+weant_post 29 13
+weant_inn 33 15
+weant_inn2 33 15
+::MAPDATA::
+
+ OOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOo
+ OO +---------------------------+ OOOOOOOOOoOOOOOOOOOOOoOOOO
+ OO |                           | OooOOOooOOOOOooOOOooOOOOOo
+ OO | 'The Village of Weanting' | OOOOOOOoOOooOOOOOOOoOOooOO
+ OO |                           | OoOOOOOOOoOOOoOOOOOOOoOOOo
+ OO +---------------------------+ OoOOOOoOOOOOOoOOOOoOOOOOOo
+ OOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOO
+ OOOooOOOOOooOOOooOOOOOooOO   ______  OOooOOOOOooOOOooOOOOOo
+ OOOOoOOooOOOOOOOoOOooO  ,,-''      `'--. OOooOOOOOOOoOOooOO
+ OOOOOOoOOOoOOOOOOOoO ,-'      Store    | OoOOOoOOOOOOOoOOOo
+ OOOoOOOOOOoOOOOoOOO /           o      | OOOOOoOOOOoOOOOOOo
+ OOOOOOoOOOOOOOOOO  /  Post      |      | OoOOOOOOOOOOOoOOOO
+ OOOooOOOOOooOOOoo |  Office o - o --------- OOooOOOooOOOOOo
+ OOOOoOOooOOOOOOOo  \            |      | OOooOOOOOOOoOOooOO
+ OOOOOOoOOOoOOOOOOO `.           o      | OoOOOoOOOOOOOoOOOo
+ OOOoOOOOOOoOOOOoOOOO `.        Inn     | OOOOOoOOOOoOOOOOOo
+ OOOOOOoOOOOOOOOOOOoOOO `-._          _,, OoOOOOOOOOOOOoOOOO
+ OOOooOOOOOooOOOooOOOOOooO  `'------''   oOOOOOooOOOooOOOOOo
+ OOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOO
+ OOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOo
+ OOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOo

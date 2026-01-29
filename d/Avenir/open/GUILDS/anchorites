@@ -1,0 +1,115 @@
+Proposed Guild in Avenir			Lilith April 2002
+
+Name:  Anchorites of Sybarus
+Dir:   /d/Avenir/anchor/*
+Type:  Layman			
+Style: Cleric
+Tax:   10%
+
+Theme: 
+The Idrys (gods) of Avenir are multiple and manifest in their glory. 
+They each have their own personality, sphere of influence, and demands.
+By their grace alone does Sybarus exist and continue to exist, and
+the people of Sybarus are never allowed to forget this. The Anchorites
+administer to the Gods, attending to their demands, and acting as a
+buffer between the Gods and the People. It is they who perform the
+ceremonies and rituals to honour and appease the Gods. In exchange
+for their devotion they are granted spells and abilities which they 
+are expected to demonstrate in order to remind all who encounter 
+them of the power and glory of the Idrys.
+
+Organization:
+The Anchorites are a fellowship of clerical sects each dedicated to a 
+single god.  At this time only 4 sects are planned, but the intention 
+is to code the guild in such a way that more Anchorite sects can be 
+added with minimum effort, as desired. 
+
+	Entrance: Entrance will be by quest. There will be no player-
+mediated entrance process.
+
+	Leaving:  Leaving the guild causes the displeasure of the Gods
+and will result in the individual being smited by Plalgus. This is
+a minor curse already in effect in the game which marks the person 
+as infidel for a period of time. There is no other penalty.
+
+   	Council:  Code will be in place for a council, but it is hoped
+that it will not be needed. If activated, each sect will have one 
+Anchor, chosen by the code (gods) upon login of a suitable-level 
+candidate.  That candiate would serve for a period of 12 days, at
+which time the player would be relieved of his duties and the next 
+person of suitable level to login would then become Anchor. This is
+a truly democratic process which should combat the problem of 
+entrenched guild leadership and political agendas.
+
+	Membership restrictions: This is a lay guild, so restrictions
+will be kept to a minimum. All genders and all races save hobbits, 
+kenders, minotaurs and other future grotesques will be welcomed. 
+Member-member conflict will be permitted, but it is likely that repeat
+offenders will find themselves in the unpleasant position of facing 
+the Patron of someone they have killed. 
+
+	Requirements: While it is understood that a lay guild should 
+not make excessive demands on players, members will be required to
+complete tasks assigned by npcs in order to advance to the next level
+in the guild.  Acts of devotion will also improve their standing in
+the guild and in the esteem of their Gods. Additionally, players will
+have to visit the scriptorium at the guild halls to copy their spells
+onto scrolls. Players will be able to leave a sect without leaving 
+the guild, in the event they find themselves drawn to serve another.
+
+	
+Spells: 
+As this is a lay guild, only spells up to level 3 are offered. This
+guild would mark a departure from the current magic guild structure 
+in that players would be able to choose a limited number of spells
+from a greater 'library' of spells, based upon their level within 
+the guild and the class of the spells themselves. This provides a
+wider variety of spells and would permit players to choose spells
+based upon what they intended to do during a specific login. Taxes,
+then, are decided based upon the maximum number of spells permitted 
+in each class, as shown:
+	Class 1		4 spells	@	.25 = 1.0%
+	Class 2		3 spells 	@	.50 = 1.5%
+	Class 3 	2 spells 	@	1.0 = 2.0%	
+	---------------------------------------------------	
+	Maximum		9 spells		    = 4.5%	
+       		    (excluding cantrips)
+
+Spells will be in the form of scrolls. Members must obtain the 
+vellum, quill, and ink, as well as access to the scriptorium in order 
+to copy the spells they wish to use. Spell scrolls will be randomly recoverable, requiring members to visit the guild halls and make
+new scrolls frequently, but not so often as to interfere with the
+function of those who are in occupational guilds.
+
+Skills:  
+The training of specific forms and elements will vary according
+to the Sect the player chooses. However, the following table is 
+indicative of what each sect will have:
+
+			tax	tax 		ttl
+Spell skills    lvl	base	lvl  	 mod    lvl     
+SS_SPELLCRAFT	50	20	30	1.0 	30	         
+SS_ALCHEMY	40	20  	20	1.0	20	
+SS_HERBALISM  	50	20	30	1.0	30
+SS_ELEMENT_*	50	20	30	1.0	30	
+SS_ELEMENT_*    50	20   	30	1.0	30	
+SS_FORM_*	30	 0	30	1.0	30	
+SS_FORM_*	30	 0	30	1.0	30	
+				===		===
+				200		200
+General skills           
+SS_LANGUAGE     45	30  	15    	1.0	15
+SS_AWARENESS	45	30	15	1.0	15
+SS_ANI_HANDL 	45	30 	15	1.0	15 
+  or SS_TRADING			===		===
+				45		45
+Foreign skills         
+SS_WEP_KNIFE      50	30 	20	1.0	20
+				20				    
+SS_DEFENCE        50	20  	30	1.5	45
+				30   
+				==		===
+				100		65
+----------------------------------------------------------------
+Sum:          	        	345		310 / 60 = 5.17%
+----------------------------------------------------------------

@@ -1,0 +1,48 @@
+
+     Spell name: Flaming fist
+                 ixenchasid
+         Effect: engulf your hands in burning fire
+           Type: Instant
+        Targets: Caster
+        
+        Element: Earth          / 40
+           Form: Transmutation  / 40
+    Spell power: Power 3 [intermediate spell]
+     Spell type: reflect spell
+     
+       Peaceful: No
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: fireweed (1232cc) 
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana
+     Difficulty: TASK_HARD
+     Combat Aid: 40% 
+
+            Tax:  0.5
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.75  Hard difficulty
+                  x0.75  material component (>=1 gp value) 
+                 ------
+                  0.2813%  total tax
+   ------------------------------------------------------------
+   Comments: A spell that adds fire reflection damage combat 
+      aid of 40 with 50% likelihood while fighting unarmed.
+
+      A bonus to SS_UNARM_COMBAT as well of up to 40 based on
+      spell power - unarmed_bonus = min(40, (power / 9));
+
+    // Int/wis of 100, spell skills  50 / 75 / 100
+    //     spell power:              284 / 302 / 317
+    //     unarmed bonus:            31 / 33 / 35
+
+    // Int/wis of 200, spell skills  50 / 75 / 100
+    //     spell power:              348 / 364 / 384
+    //     unarmed bonus:            38 / 40 / 40 
+   ------------------------------------------------------------

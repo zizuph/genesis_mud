@@ -1,0 +1,60 @@
+Maiko takes out a baking try and a knife, as he begins preparing the roasted chicken.
+Maiko peels the chicken skilfully and puts it into the baking tray.
+Maiko adds salt and herbs into the baking tray.
+Maiko puts the baking tray into the owen.
+Maiko takes out a smaller dish.
+Maiko disappears for a while behind the counter and returns with a basket of potatoes.
+Maiko quickly peels the potatoes and puts them in the smaller dish.
+Maiko adds water to the smaller dish and puts the smaller dish on the stove.
+Maiko watches the potatoes in the smaller dish boil.
+Maiko watches the chicken in the baking tray roast.
+Maiko carefully takes the baking tray from the owen.
+Maiko reaches into a shelf and pulls a plate out.
+Maiko gets the chicken from the baking tray and puts it on the plate.
+Maiko gets the potatoes from the smaller dish and puts them on the plate.
+Maiko serves you the roasted chicken.
+
+Maiko takes out a large baking tray, as he begins preparing the fruitcake.
+Maiko disappears for a while behind the counter and returns with flour and eggs.
+Maiko takes out a large bowl.
+Maiko puts the flour and the eggs into the large bowl.
+Maiko mixes the flour and the eggs in the large bowl.
+Maiko kneads the pastry in the large bowl.
+Maiko puts the pastry from the large bowl onto the large baking tray.
+Maiko reaches under the counter for a mixture of fruits.
+Maiko puts the mixture of fruits onto the large baking tray.
+Maiko puts the large baking tray into the owen.
+Maiko watches the pastry in the large baking tray bake.
+Maiko gingerly takes the large baking tray from the owen.
+Maiko reaches into a shelf and pulls a plate out.
+Maiko gets the fruitcake from the large baking tray and puts it on the plate.
+Maiko serves you the fruitcake.
+
+---
+
+Materials:
+  probably specified individually
+
+Containers:
+  small dish, smaller dish, medium dish, larger dish, large dish
+  baking tray, large baking tray
+  small bowl, bowl, large bowl
+  small plate, plate, large plate
+  stove, owen
+
+Instruments:
+  knife, spoon
+
+Actions:
+  take out of somewhere
+  put material in container
+  move material from container to container
+  peel
+  mash
+  shred
+  bake in owen
+  cook on stove
+  boil on stove
+  heat up owen (Mzenska)
+  heat up stove (Mzenska)
+

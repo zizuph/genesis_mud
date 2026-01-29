@@ -1,0 +1,275 @@
+main
+::MAPDATA::
+out_gate 37 11 kendermore
+trail1 37 11 kendermore
+trail2 37 11 kendermore
+trail3 37 11 kendermore
+trail4 37 11 kendermore
+trail5 37 11 kendermore
+forest1 37 11 kendermore
+forest2 37 11 kendermore
+forest3 37 11 kendermore
+sorceress_hut 37 11 kendermore
+forest4 37 11 kendermore
+forest5 37 11 kendermore
+forest6 37 11 kendermore
+forest7 37 11 kendermore 
+spring 37 11 kendermore
+forest8 37 11 kendermore
+forest9 37 11 kendermore
+forest10 37 11 kendermore
+in_gate 37 11 kendermore
+hoopak_store 37 11 kendermore
+street06 37 11 kendermore
+street05 37 11 kendermore
+street04 37 11 kendermore
+street03 37 11 kendermore
+inn01 37 11 kendermore
+inn02 37 11 kendermore
+street02 37 11 kendermore
+street01 37 11 kendermore
+street07 37 11 kendermore
+street08 37 11 kendermore
+street09 37 11 kendermore
+street10 37 11 kendermore
+street17 37 11 kendermore
+street18 37 11 kendermore
+street19 37 11 kendermore
+gen_store 37 11 kendermore
+street11 37 11 kendermore
+street12 37 11 kendermore
+street13 37 11 kendermore
+street14 37 11 kendermore
+street15 37 11 kendermore
+street16 37 11 kendermore
+po 37 11 kendermore
+pigeon_coop 37 11 kendermore
+house3 37 11 kendermore
+house2 37 11 kendermore
+house1 37 11 kendermore
+street20 37 11 kendermore
+candy_store 37 11 kendermore
+street21 37 11 kendermore
+house4 37 11 kendermore
+street22 37 11 kendermore
+street23 37 11 kendermore
+smithy 37 11 kendermore
+street24 37 11 kendermore
+street25 37 11 kendermore
+street26 37 11 kendermore
+street27 37 11 kendermore
+street28 37 11 kendermore
+street29 37 11 kendermore
+street30 37 11 kendermore
+street31 37 11 kendermore
+street32 37 11 kendermore
+house5 37 11 kendermore
+alley 37 11 kendermore
+joinroom 37 11 kendermore
+street33 37 11 kendermore
+street34 37 11 kendermore
+street35 37 11 kendermore
+chall_entry 37 11 kendermore
+street36 37 11 kendermore
+street37 37 11 kendermore
+street38 37 11 kendermore
+street39 37 11 kendermore
+g_house 37 11 kendermore
+gift_shop 37 11 kendermore
+street40 37 11 kendermore
+street41 37 11 kendermore
+street42 37 11 kendermore
+street43 37 11 kendermore
+street44 37 11 kendermore
+street45 37 11 kendermore
+house6 37 11 kendermore
+tree 37 11 kendermore
+kip_store1 37 11 kendermore
+street46 37 11 kendermore
+street47 37 11 kendermore
+house7 37 11 kendermore
+street48 37 11 kendermore
+street49 37 11 kendermore
+street50 37 11 kendermore
+street51 37 11 kendermore
+can_store1 37 11 kendermore
+street52 37 11 kendermore
+street53 37 11 kendermore
+street54 37 11 kendermore
+house8 37 11 kendermore
+pc_office 37 11 kendermore
+pc_boffice 37 11 kendermore
+pc_upstairs 37 11 kendermore
+aguild 37 11 kendermore
+street55 37 11 kendermore
+w_tower 37 11 kendermore
+up_tower 37 11 kendermore
+::MAPDATA::
+                     / ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                    : ~~~~~~~~~~Blood Bay ~~~~~~~~~~~~~~   ;:  ~~
+             ^     ' ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ,.--_--' /  ~~
+                  : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ :        :'  ~~
+              @    ` ~~~ Flotsam ~~~~~~~~~~~~~~~ .'         '. ~~
+       &      @@    ` ~ '[o].  ~~ :\_.'. ~~ ,..,/    ___/    / ~~
+     .         @@    `_`  |  `   .      \..'    ,_. /       : ~~~
+     ~`:        @@@       |   ._'                  V  Dairy `: ~~
+     ~~ ._        @@@ @@@ |\_ @@@@@@@@@@@@@@@@@    :\ Plains ' ~~
+     ~~~  '          @@@@ | @\_ @@@@@@@@@@@@@@@@   '~`      : ~~~
+     ~~~~  `  -       @@@ | @@ \@ Kendermore @@@@ :~~~`:    ': ~~
+     ~~~~  '             /  @@@ \___[o] @@@@@@@@ / ~~~ /    , ~~~
+     ~~~~~  `   -  -  o /     @@@@@@@@@@@@@@@@@ ' ~~~  :    : ~~~
+     ~~~~~  '          |         @@@@@@@@@     /~~~~~~ `._.'.~~~~
+     ~~~~   :  -  -    |        __  @@@@@     / ~~~~~~~~~~~~~~~~~
+     ~~~~   ,         /   - -     \\  @@@      ~~~~~~~~~~~~~~~~~~
+     ~~~~~   `   -   /             |\ @     .' ~~~~~~~~~~~~~~~~~~
+     ~~~~~~   :     /       -      |~\   ,,. ~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~    [o] Port            ;~~:_ .' ~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~   .   Balifor        . ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~   '                 ' ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~   :    ,__ .      ..' ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~  '`--  ~~ ` ...'  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~~~~~  ~~~~~~~   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~~~ Bay of Balifor ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+::NEWMAP::
+kendermore
+::MAPDATA::
+out_gate 32 19
+trail1 30 19
+trail2 28 19
+trail3 26 21
+trail4 24 21
+trail5 22 23
+forest1 30 17
+forest2 28 17
+forest3 27 17
+sorceress_hut 25 17
+forest4 26 19
+forest5 24 19
+forest6 30 21
+forest7 28 21 
+spring 30 23
+forest8 28 23
+forest9 26 23
+forest10 24 23
+in_gate 34 19
+hoopak_store 34 20
+street06 36 19
+street05 36 21
+street04 34 23
+street03 34 25
+inn01 36 27
+inn02 36 27
+street02 38 27
+street01 38 29
+street07 36 17
+street08 38 15
+street09 38 13
+street10 38 11
+street17 40 9
+street18 40 7
+street19 40 5
+gen_store 38 5
+street11 36 11
+street12 34 13
+street13 32 13
+street14 30 11
+street15 30 9
+street16 32 7
+po 34 7
+pigeon_coop 32 9
+house3 37 9
+house2 35 16
+house1 41 13
+street20 38 19
+candy_store 40 21
+street21 40 17
+house4 41 16
+street22 42 19
+street23 44 21
+smithy 44 23
+street24 46 19
+street25 48 21
+street26 50 19
+alley 50 16
+street27 48 23
+street28 50 23
+street29 52 25
+house5 53 28
+street30 54 23
+street31 56 25
+street32 58 25
+joinroom 58 28
+street33 54 21
+street34 54 19
+street35 54 17
+chall_entry 56 19
+street36 56 15
+street37 58 15
+street38 60 13
+street39 60 11
+g_house 63 13
+gift_shop 54 13
+street40 58 11
+street41 56 11
+street42 56 9
+street43 58 7
+street44 56 5
+street45 54 7
+house6 61 7
+tree 56 7
+kip_store1 58 3
+street46 54 9
+street47 52 9
+house7 52 12
+street48 50 9
+street49 50 7
+street50 50 5
+street51 52 3
+can_store1 54 3
+street52 48 9
+street53 46 11
+street54 46 13
+house8 50 14
+pc_office 44 9
+pc_boffice 44 9
+pc_upstairs 44 9
+aguild 44 15
+w_tower 43 14
+up_tower 43 14
+street55 46 17
+::MAPDATA::
+-===  Kendermore ===-
+                           @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  
+PO Post office             @@@@@@@@@@@@@@@@@@@@@@           @@@@@@@@@@@@@@ 
+P  Pigeon coop             @@@@@@@@@@@@@@@@@@@      o-J   K  @@@@@@@@@@@@@
+w  Hoopak maker's tent     @@@@@                   /     /     @@@@@@@@@@@
+S  General Store           @@@@       S-o         o     o    _   @@@@@@@@@ 
+i  Scorched Scorpion Inn   @@@    PO    |         |    / \  /^\  @@@@@@@@@
+C  Redin's Candy Store     @@   o-o  _  o         o   o @ o |n|  @@@@@@@@@
+W  Maen's Smithy           @@  / /  /_\ |         |\   \ /       @@@  @@@@          
+H  City Hall               @  o P   |n| o   D   o-o o-o o         @@@   @@
+G  Nippur's Gift Box Shop  @  |        /     \ /       \|  ?     @   @@@
+t  training courtyard     @@  o     o-o  _    o    /_\  o-o?o     @ ^ ^ ^
+g  Gnomish house         @@@   \   /  | /_\   |   _|n|      | /|\ ^  ^ ^ ^
+K  Kip's clothing store  @@@    o-o   o |n|   o  /_\  G     h-[g]---  ^ ^  
+J  Jenna's Candle Store  @@@@@@    _  |  _{o}/   |n|   \   /       ^ ^ ^ ^ 
+D  Doctor's office      @@@@@@@@[ /^\ o /^\ t           o-o     ^ strange
+h  Herbalist          @@__ @@@@@[ |n|/  |n|  \    .    /          dark  ^ ^
+                  @@@@@|\x\ . .@[   o   o     o   .   o         ^ forest ^
+        @@@@@  ~~ @@@@@    @ @ @[   |  / \   ?|?  .  ??          ^  ^ ^ ^ ^
+        @@@@@ ~~  @@@@@ . . o-o-o o-o o   o   o   o   o-H      
+        @@@@@  ~~ @@@@@  @ / @ @[w^ |/ \   \ ? ? /   ??        
+        @@@@@ ~~  @@@@@ o-o . .@[   o   C   o   o     o    ? Cartographer   
+             .===.@@@  / @ @ @ @[  /        | ? |     |    uncertain of
+        -----  -  ----o . . . .@[ o         W   o-o   o    street direction
+             .===,  &&&  @@@@ ~~[ |                \ / \  
+        @@@@@ ~~ . &&|&& @@@@ ~~[ o                 o   o-o
+        @@@@@@ ~~ .&\|/& @@@@@@@[  \                 _    |___
+        @@@@@@@ ~~ .}}{  @@@@@@@    i-o  _          /^\  /^^\_\ 
+        @@@@@@@@ ~~ .@@@@@@@@@@@      | /_\         |n|  |SS| |
+        @@@@@@@@@ ~~ .@@@@@@@@        o |X|             Secret Society of   
+                        @@@@@@@@@@@                     Uncle Trapspringer
+

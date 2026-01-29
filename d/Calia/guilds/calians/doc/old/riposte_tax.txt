@@ -1,0 +1,49 @@
+Combat aid for Riposte
+======================
+
+For information on riposte background and how it fits into Calia's 
+history, see ~Calia/guilds/calians/texts/battle. 
+
+Riposte is the only ability that Calians are able to use when solo.
+It is essentially a tanker ability, allowing them to parry incoming
+attacks and immediately launch a counter attack. The attack itself is
+quite weak, but when in a Calian team, the riposte attack becomes
+much stronger.
+
+Combat Aid
+----------
+Using the Genesis Specials system, we simply set the combat aid
+and all other calculations are set. Riposte evade is set at 20%, which
+yields 25% combat aid. The Riposte attack when solo is set to 25%
+combat aid in the special. However, because the evade is 20%, the
+effective combat aid is actually only 5%. When in a Calian team,
+the Riposte attack is set to 100% combat aid, which yields a 20%
+effective combat aid.
+
+                Riposte Evade           Riposte Attack
+Solo Calian     25% combat aid          5% combat aid
+Team Calian     25% combat aid          20% combat aid
+
+Frequency
+---------
+Riposte can occur only once per round, no matter how many times attacks
+are parried. This is to prevent it from being a ridiculous and silly
+attack when many attacks are evaded at once.
+
+Hit chance
+----------
+Riposte tohit has been set to 70. There are a couple factors that can
+reduce this by 15% each:
+
+     1. Weapon is not a sword or polearm
+     2. Opponent is at least 3 times more massive
+
+Penetration
+-----------
+Penetration of riposte varies depending on the weapon's pen and player's
+DEX.
+
+Everything else is calculated by the Genesis Specials system.
+
+
+Document by Petros

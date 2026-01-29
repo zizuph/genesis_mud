@@ -1,0 +1,37 @@
+main
+::MAPDATA::
+whitroad1 14 10
+whitroad2 14 12
+whitroad3 14 14
+whitlane5 14 16
+whitschool 14 19
+whitlane1 6 12
+whitbaker 6 10
+whithouse2 6 14
+whithouse1 1 12
+::MAPDATA::
+
+              |
+      -Great East Road-
+              |
+              |
+              |
+              |
+    Bakery    |
+   .-------.  |
+  .-------./  |       ===========       
+  \__\ \__\/  o       Whitfurrows
+ _    |       |       ===========
+/o\ - o ----- o       
+      |       |    
+    _/o\_     o   
+	      |   
+              o  
+           __ |
+          /  /`.
+        .--./   `.
+       /    `.   /
+      /  =  = `.//
+       \_______\/
+        Training     
+        Academy

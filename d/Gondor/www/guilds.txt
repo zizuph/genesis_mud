@@ -1,0 +1,16 @@
+
+Guilds in the Gondor Domain
+<UL>
+<LI>Rangers of the Westlands.
+<LI>The Thornlin Militia.
+<LI>The Society of Morgul Mages.
+<LI>The Rockfriends.
+<LI>The Dunedains.
+</UL>
+
+<P>
+
+</P>
+{strip}
+      {pagelink pre="Previous page:" name="Gondor Domain Page" href="d/Gondor/index.txt"}
+ {/strip}

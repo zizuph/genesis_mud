@@ -1,0 +1,19 @@
+Group:      3
+
+Bit:        9
+
+Name:       Mimo's Climbing Quest
+
+Programmed: Unknown
+
+Solution:   Start in ~Shire/misty/p18. Climb to the top of the 
+            mountain (~Shire/misty/r1). Player is rewarded when
+            s/he climbs down successfully.
+
+Skills:     Must have climb > 30
+
+Risks:      Everytime player falls, s/he gets hurt
+
+XP-Scale:   1,500
+
+Remarks:    none

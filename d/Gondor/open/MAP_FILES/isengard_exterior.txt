@@ -1,0 +1,41 @@
+main
+::MAPDATA::
+west_4 1 12
+west_3 5 12
+west_2 9 12
+west_1 13 12
+gate 17 12
+east_1 21 12
+east_2 25 12
+east_3 29 12
+east_4 33 12
+status_room 17 14
+isenroad4 17 16
+isenroad3 17 18
+isenroad2 17 20
+isenroad1 17 22
+::MAPDATA::
+
+             ========
+             Isengard
+             ========
+
+_   _   _   _   _   _   _   _   _   _   _
+ |_| |_| |_| |_| |_| |_| |_| |_| |_| |_| |_|
+                ___
+               / | \
+              |  |  |
+              |  |  |
+
+ o - o - o - o - o - o - o - o - o     ~~~~
+                 |                  ~~~~~
+                 o                 ~~~~
+                 |               ~~~~
+                 o            ~~~~~
+                 |          ~~~~~
+                 o        ~~~  River
+                 |       ~~~   Isen
+                 o     ~~~~
+                 |   ~~~~
+                 o  ~~~
+                 |

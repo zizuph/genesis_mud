@@ -1,0 +1,362 @@
+ARMOURS
+=======
+
+magi robe  (/d/Krynn/tharkadan/armour/magi_robe.c)
+
+   Creator : Arman
+
+        A (potentially) magical robe that is worn by a 
+        powerful ogre magi found deep within the Tharkadan 
+        mountain ranges (~tharkadan/living/ogre_magi.c)
+
+        Armour: A_ROBE 30 
+
+        40% chance of it being non-magical.
+        10% chance it offers a bonus 10 skill points to 
+        one the six SS_ELEMENT_* skills, plus 25 resistance 
+        to the opposite element:
+           + 10 life skill/ +25 death resistance
+           + 10 fire skill/ +25 water resistance
+           + 10 water skill/ +25 fire resistance
+           + 10 death skill/ +25 life resistance
+           + 10 earth skill/ +25 air resistance
+           + 10 air skill/ +25 earth resistance
+
+snow-white pelt (/d/Krynn/tharkadan/armour/pelt.c)
+
+    Creator : Arman
+
+        A leftover cut from the corpse of a winter wolf
+        (~tharkadan/living/winter_wolf.c). The winter wolf appears
+        in two locations. The first is when the winter snows 
+        close the path through the Tharkadan mountains. The second
+        is a short summoning by the ogre magi. So considered a 
+        rare spawn!
+
+        20% chance of spawning on the corpse.
+
+        Armour: A_ROBE 30
+
+        Provides the wearer with 25 cold protection.
+
+stone giant braid (/d/Krynn/tharkadan/armour/stonegiant_braid.c)
+
+    Creator : Arman
+
+    The tightly braided length of thick black hair from the head 
+    of a stone giant. Can be worn around the waist as a belt.
+    (~tharkadan/living/stone_giant.c).
+
+    The braid is required as part of the WoHS quest to gain the 
+    advanced spell eruption.
+
+    10% chance of spawning on corpse.
+
+    Provides +20 resistance to earth and poison.
+
+runed dwarven fullplate (/d/Krynn/tharkadan/armour/theiwar_fullplate.c)
+
+    Creator : Arman
+
+    This is a suit of beautifully crafted fullplate, made from rare 
+    blue ore referred to as 'star-metal' by ancient alchemists - a metal 
+    of extraordinary strength and hardness. Dwarven runes have been carved 
+    over the armour that pulse with a dark energy.
+
+    This is a magical fullplate that is occasionally worn by the dark dwarf 
+    chieftain in the Tharkadan mountain range caverns, 
+    /d/Krynn/tharkadan/living/theiwar_chieftain. It provides excellent magical 
+    protection, however can only be worn by the smaller races. Those smaller 
+    races that aren't dwarves get an AC penalty as it doesn't quite fit them 
+    perfectly. Being fullplate, it is quite heavy - weighing around 30 
+    kilograms. set_likely_cond has also been set from 3 to 2, reducing the 
+    chance somewhat of it wearing down.
+
+    Clone unique value of 10.
+
+    Armour: 50 (dwarves) 42 (other small races) A_TORSO | A_ARMS | A_LEGS
+
+reinforced star-metal shield (/d/Krynn/tharkadan/armour/theiwar_mag_shield)
+
+    Creator : Arman
+
+    This is a dwarven shield reinforced with bands of the rare material 
+    referred to by ancient alchemists as 'star metal' - a blue ore of  
+    extraordinary strength and hardness. In the hands of a dwarf or  
+    similar sized race this shield provides the protection of a tower 
+    shield.
+
+    This is a magical dwarven shield that is occasionally worn by the 
+    dark dwarf chieftain in the Tharkadan mountain range caverns, 
+    /d/Krynn/tharkadan/living/theiwar_chieftain. It provides excellent 
+    protection as a tower shield for the smaller races. set_likely_cond 
+    has also been set from 3 to 2, reducing the chance somewhat of it 
+    wearing down.
+
+    Armour: 50 (small races) A_SHIELD | A_BODY | A_LEGS
+            50 (tall races)  A_SHIELD
+
+bracers of the umber hulk (/d/Krynn/tharkadan/armour/umberhulk_bracers.c)
+
+    Creator : Arman
+
+    This is a pair of bracers made from the carapace of an umber hulk.
+    Incredibly tough, and further enchanted by dark savant enchantments,
+    it provides incredible protection to the arms.
+
+    Further, it allows the wearer to call on one of the innate powers of
+    an umber hulk - tremor sense - 3 times.
+    /d/Krynn/tharkadan/spells/tremorsense.c
+
+    This armour may be worn by the dark dwarf savant lord
+    /d/Krynn/tharkadan/living/theiwar_magi.c, and is a very tough fight
+    to obtain. 
+
+    Clone unique value of 10.
+
+    Armour: 50 (-2, 3, 0)
+
+WEAPONS
+=======
+
+stone giant thighbone (/d/Krynn/tharkadan/weapon/giant_thighbone.c)
+
+    Creator : Arman
+
+    A two-handed magical club, the thighbone cut from the corpse of
+    a stone giant (~tharkadan/living/stone_giant.c) - 10% chance of
+    spawning on the corpse.
+
+    Provides higher pen than non-magical two-handed clubs.
+
+    hit: 35; pen: 50
+
+massive blue battleaxe (/d/Krynn/tharkadan/weapon/magic_2haxe.c) 
+
+    Creator : Arman
+
+    A massive two-handed battleaxe made of the rare star metal ore.
+    Found on the battlefields of the Dwarfgate Wars, is a chance of
+    being wielded by ogre barbarians of the Tharkadan ranges
+    (~tharkadan/living/ogre.c). 25% chance of an ogre wielding an 
+    axe, with a clone_unique set at 15.
+
+    High hit and pen. Lower chance of dulling/corroding/breaking.
+    Very heavy.
+
+    hit: 45; pen: 55
+
+huge blue halberd (/d/Krynn/tharkadan/weapon/magic_2hhalberd.c) 
+
+    Creator : Arman
+
+    A huge blue halberd made of the rare star metal ore.
+    Found on the battlefields of the Dwarfgate Wars, is a chance of
+    being wielded by ogre barbarians of the Tharkadan ranges
+    (~tharkadan/living/ogre.c). 25% chance of an ogre wielding an 
+    halberd, with a clone_unique set at 15.
+
+    High hit and pen. Lower chance of dulling/corroding/breaking.
+    Very heavy.
+
+    hit: 45; pen: 55
+
+blue two-handed warhammer (/d/Krynn/tharkadan/weapon/magic_2hhammer.c) 
+
+    Creator : Arman
+
+    A blue two-handed warhammer made of the rare star metal ore.
+    Found on the battlefields of the Dwarfgate Wars, is a chance of
+    being wielded by ogre barbarians of the Tharkadan ranges
+    (~tharkadan/living/ogre.c). 25% chance of an ogre wielding a 
+    warhammer, with a clone_unique set at 15.
+
+    High hit and pen. Lower chance of dulling/corroding/breaking.
+    Very heavy.
+
+    hit: 47; pen: 55    
+
+blue two-handed sword (/d/Krynn/tharkadan/weapon/magic_2hsword.c) 
+
+    Creator : Arman
+
+    A blue two-handed sword made of the rare star metal ore.
+    Found on the battlefields of the Dwarfgate Wars, is a chance of
+    being wielded by ogre barbarians of the Tharkadan ranges
+    (~tharkadan/living/ogre.c). 25% chance of an ogre wielding a 
+    warhammer, with a clone_unique set at 15.
+
+    High hit and pen. Lower chance of dulling/corroding/breaking.
+    Very heavy.
+
+    hit: 47; pen: 54
+
+runed ironwood staff (/d/Krynn/tharkadan/weapon/magic_ironwood_staff.c) 
+
+    Creator : Arman
+
+    This staff was created long before the Catacylsm by a black-robed 
+    Wizard of High Sorcery battlemage. Loving the thrill of hand-to-hand 
+    combat, he enchanted this staff to draw on the holders magecraft and 
+    their skill with the element of wind to empower the staff to be quick 
+    in the hands, but powerful enough to fell a warhorse in a hit.
+
+    This weapon gets a bonus to hit/pen depending on the holders SPELLCRAFT 
+    and ELEMENT_AIR skills, wielded by /d/Krynn/tharkadan/living/ogre_magi.c 
+    The staff is also very light.
+
+    hit = 10 + min(50, who->query_skill(SS_ELEMENT_AIR) / 2);
+    pen = 10 + min(50, who->query_skill(SS_SPELLCRAFT) / 2);
+
+    The staff has a clone unique set at 15.    
+        
+cruel oakwood arrow (/d/Krynn/tharkadan/weapon/poison_arrow.c)
+
+    Creator : Arman
+
+    This arrow has been alchemically enhanced to poison its victims.
+    This arrow poisons its target on a hit:
+         interval 10
+         time 120
+         damage:   fatigue 15, hp 50
+
+    Hit 30; pen 30
+
+    These arrows are carried by hobgoblin trackers found along the path
+    south of Pax Tharkas with a draconian hunting party:
+    /d/Krynn/tharkadan/living/hob_archer.c
+
+    The hunting party only clones when the pass through the mountain is open
+    (i.e. not winter).
+
+short steel-tipped hoopak (/d/Krynn/tharkadan/weapon/hoopak.c)
+
+    Creator : Arman
+
+    An enchanted hoopak, allowing increased hit and pen when wielded by
+    a kender. Has a 1/4 chance of spawning in the cocoon corpse dropped by 
+    the giant spider /d/Krynn/tharkadan/living/giant_spider.c) in the 
+    Tharkanan mountain range caverns /d/Krynn/tharkadan/obj/cocoon_corpse.c,
+    with a clone_unique value of 15.
+
+    Two-handed.
+
+    Hit: 15 / 48 (kender)
+    Pen: 15 / 44 (kender)
+
+star metal warhammer (/d/Krynn/tharkadan/weapon/magic_theiwar_hammer.c)
+
+    Creator : Arman
+
+    A warhammer crafted by the smiths of the Theiwar clan out of the rare star 
+    metal, and enchanted by dark dwarf savants to be a warhammer of exceptional 
+    strength and lightness.
+
+    Has a 1/4 chance of spawning in the cocoon corpse dropped by 
+    the giant spider (/d/Krynn/tharkadan/living/giant_spider.c) in the 
+    Tharkanan mountain range caverns /d/Krynn/tharkadan/obj/cocoon_corpse.c,
+    with a clone_unique value of 15.
+
+    Also has a chance of cloning on the Theiwar warleader, 
+    /d/Krynn/tharkadan/living/theiwar_chieftain.c with a clone unique value of
+    10.
+
+    Weapon any hand.
+
+    Hit: 40
+    Pen: 45
+
+star metal waraxe (/d/Krynn/tharkadan/weapon/magic_theiwar_waraxe.c)
+
+    Creator : Arman
+
+    A waraxe crafted by the smiths of the Theiwar clan out of the rare star 
+    metal, and enchanted by dark dwarf savants to be a waraxe of exceptional 
+    strength and lightness.
+
+    Has a chance of cloning on the Theiwar warleader, 
+    /d/Krynn/tharkadan/living/theiwar_chieftain.c with a clone unique value of
+    10.
+
+    Weapon any hand.
+
+    Hit: 40
+    Pen: 45
+
+
+OBJECTS
+=======
+
+serpentine figurine (/d/Krynn/tharkadan/obj/polymorph_figurine)
+
+    Creator : Arman
+
+    This curious serpent figurine made of quartz is a figurine of transformation.
+    Under certain conditions, the figurine will release icy vapours from its maw
+    which can be inhaled by the holder. Those vapours transform the holder into
+    a white dragon hatchling. The polymorphed player then flies up into the sky
+    and wings his/her way over the Tharkadan mountain range and into the vale
+    overlooked by an ancient volcano. Shortly after landing the player reverts
+    to normal form.
+
+    The main purpose of this magic item is to allow players to access the vale
+    when the pass is blocked by winter snows.
+
+    Conditions of use:
+           * be in an outdoor room in the Tharkadan mountain range directory 
+             (/d/Krynn/tharkadan/room/*)
+           * it is winter in Krynn.
+           * the player is holding the figurine when activating it.
+
+    The item makes use of the shapeshift.c base spell, which has been customised
+    at /d/Krynn/tharkadan/spells/polymorph_self.c
+
+    The hatchling form the player turns into is at:
+    /d/Krynn/race/shapeshift/thark_polymorph_self_hatchling.c
+
+    Multiple figurines in the same player/room result in them merging into one.
+
+pale wand (/d/Krynn/tharkadan/obj/light_wand.c)
+
+    Creator : Arman & Carnak
+
+    A magical wand that, when held and waved, activates a light spell - 
+    (/d/Krynn/tharkadan/spells/wand_light_spell.c) that clones the SOHM light 
+    spell object (/d/Krynn/guilds/sohm/spells/objs/light_obj.c). This provides
+    a 15 minute light source with a light level ranging from 1 to 5 depending
+    on the spell query_spell_effect_power().
+
+    While active the light drains mana as it would a standard spell would. Upon
+    releasing the wand the light the light source dissipates.
+
+    The wand has a 1/4 chance of spawning in the cocoon corpse dropped by 
+    the giant spider (/d/Krynn/tharkadan/living/giant_spider.c) in the 
+    Tharkanan mountain range caverns (/d/Krynn/tharkadan/obj/cocoon_corpse.c),
+    and in the magical strongbox in the troll caves 
+    (~tharkadan/room/troll_cave/troll_caves7).
+
+magical strongbox (/d/Krynn/tharkadan/obj/magical_strongbox.c)
+
+    Creator : Arman
+
+    A standard container that can only be unlocked by reciting an incantation,
+    the words of which are revealed through any identify spell on the strongbox.
+    SS_SPELLCRAFT of 40 and SS_FORMS_ABJURATION of 20 is required to adequately
+    recite the incantation properly.
+
+    It cannot be re-locked after opening.
+
+    The strongbox can be found in a pile of skeletal remains one can search 
+    after defeating the two-headed troll boss in the trolls caves. 
+    (~tharkadan/room/troll_cave/troll_caves7).
+
+    The strongbox in itself has a high monetary value, with OBJ_I_VALUE set at 
+    12000. This is largely due to it being the only item drop in the entire 
+    cave, and to reach it one needs to defeat 8 standard trolls and the 
+    two-headed boss troll.
+    (~tharkadan/living/cave_troll.c, 
+     ~tharkadan/living/two_headed_cave_troll.c).
+
+    The strongbox contains a multi-hued disk, which is required to complete 
+    the WoHS quest to obtain the advanced spell protection from magic.
+    

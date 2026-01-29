@@ -1,0 +1,41 @@
+ ___________________________________________________________________
+|\._________________________________________________________________\.
+| |                                                                  |
+| | o                                                              o |
+| |                          Laethorian                              |
+| |                                                                  |
+| |                     Manicures & Pedicures                        |
+| |                                                                  |
+| |   Length            Style           Colour          Nail         |
+| |   ------            -----           ------          ----         |
+| |   chewed-down       brittle         black           nails        |
+| |   long              broken          onyx            nail-claws   |
+| |   moderate          cracked         shadowy         claws        |
+| |   modest            curled          white                        |
+| |   nubby             curling         ivory                        |
+| |   short             curved          natural                      |
+| |   trimmed           curving         copper                       |
+| |   very-long         enameled        gold                         |
+| |   very-short        filed           silver                       |
+| |                     glossy          red                          |
+| |                     hooked          pink                         |
+| |                     jagged          ruby                         |
+| |                     metallic        orange                       |
+| |                     painted         yellow                       |
+| |                     pointed         yellowed                     |
+| |                     rotting         green                        |
+| |                     serrated        emerald                      |
+| |                     shaded          jade                         |
+| |                     sharpened       blue                         |
+| |                     sparkling       night                        |
+| |                     splintered      opal                         |
+| |                     straight        indigo                       |
+| |                     thick           violet                       |
+| |                     torn            purple                       |
+| |                     two-toned       bone                         |
+| |                                                                  |
+| |          <order>  <length>  <style>  <colour>  <nail>            |
+| |                                                                  |
+| |                           <undo nails>                           |
+| | o                                                              o | 
+ \|__________________________________________________________________|

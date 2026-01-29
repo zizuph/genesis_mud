@@ -1,0 +1,18 @@
+A cart for piling objects on. A large container
+
+Properties:
+Weight: 40 kg
+Volume: rigid, 4000 liters
+Value: 200cc
+Can't be taken
+
+Adjectives:
+wooden spacy
+
+Items: boards, wheels
+
+Actions:
+can be pushed unless broken
+regular container actions
+
+Location: a random house, resets when not present in the village

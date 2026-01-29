@@ -1,0 +1,1 @@
+/local goblin shaman

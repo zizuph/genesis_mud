@@ -1,0 +1,36 @@
+                  o   o                  
+                   \  |                  
+                    o-o-o-o-o-o-o   o-o  
+                   /             \ /  |  
+            o-o o-o               o   o  
+            | | | |                \ /|  
+        o   o o-o o                 o o  
+        |  /       \                | |  
+        o-o         o               o o  Surface
+       / /           \              |\   |
+      o o             o o           o o  o
+      |/               \|          /  | {|} Gate
+      o                 o     o-o o   o  o 
+     /                  |       | |   |  |
+  o o                   o-o-o   o-o-o-o--o
+  | |                       |   | |      
+  o-o-o                   o-o o-o o-o    
+  |  /                    | |   | |      
+  o o                 o-o-o-o-o-o o o    
+   \                 /            | |\   
+    o-o             o             o-o o  
+      |            /                  |  
+      o-o-o       o                   o  
+     /  |        /                    |  
+    o   o o-o-o-o                     o o
+    |   | |   |  \                   /  |
+    o   o o   o   o   o             o-o-o
+        | |   |   |\ / \           /   / 
+        o-o-o o   o o   o-o       o   o  
+            | |\  | |      \     / \ /   
+            o-o o-o o       o   o   o    
+                   \|        \ /     \   
+                    o         o       o  
+                     \         \         
+                      o         o    
+					  

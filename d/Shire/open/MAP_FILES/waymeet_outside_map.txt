@@ -1,0 +1,67 @@
+main
+::MAPDATA::
+street_1 26 5
+street_2 26 3
+street_3 26 1
+street_4 30 1
+street_5 30 3
+street_6 30 5
+street_7 30 7
+street_8 30 11
+street_9 30 13
+street_10 30 16
+firework_shop 26 16
+novelty_shop 26 13
+post 34 16
+foam_mug_2020 34 13
+foam_mug_up 35 14
+path_1 18 5 
+path_2 22 5 
+path_3 34 5
+path_4 38 5
+e_field01 42 5
+e_field02 46 5
+e_field03 50 5
+e_field04 54 5
+e_field05 42 3
+e_field06 46 3
+e_field07 50 3 
+e_field08 54 3 
+e_field09 42 1 
+e_field10 46 1
+e_field11 50 1 
+e_field12 54 1
+field01 2 1 
+field02 6 1
+field03 10 1 
+field04 14 1 
+field09 2 3
+field10 6 3 
+field11 10 3 
+field12 14 3
+field17 2 5 
+field18 6 5 
+field19 10 5 
+field20 14 5
+::MAPDATA::
+                                                        
+                          o - o                                 
+                          |   |                         
+                          o - o                         
+                          |   |                         
+                          o - o                         
+                            \ |                         
+                              o                         
+                              |                         
+          To Grey Havens <- - o - -> To Bree            
+                              |                         
+                              o                         
+                              |                         
+             Novelty Shop o - o - o Inn                 
+                              |                         
+                              |                         
+           Fireworks Shop o - o - o PO   
+			
+                       *~~~~~~~~~~~~~~~*	
+                       | W A Y M E E T | 
+                       *~~~~~~~~~~~~~~~*					  

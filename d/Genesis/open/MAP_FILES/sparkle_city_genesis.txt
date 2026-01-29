@@ -1,0 +1,275 @@
+main
+::MAPDATA::
+adv 0 0
+adv_guild 8 18 center
+aob_chambers 0 0
+aoe_office 0 0
+aoe_office 0 0
+aoe_scroll 0 0
+aop_chambers 0 0
+aop_office 12 12 center
+bank 16 18 center
+basement 0 0
+basement_board 0 0
+church 12 18 center
+common 0 0
+display_room 10 16 center
+exec_obj 0 0
+enchanter_forge 8 12 center
+entrance 8 18 center
+gs_offi 0 0
+harbour 0 0
+hub_sa 0 0
+imm_board 0 0
+immortal 0 0
+immortal_board_sa 0 0
+jetty1 48 14 docks2
+jetty2 48 16 docks2
+l1 0 0
+l2 0 0
+l3 0 0
+l4 0 0
+l5 0 0
+mfla 0 0
+newcomer 0 0
+newcomer.c.o 0 0
+notary_room 8 12 center
+office 20 18 center
+parrot 40 20 docks1
+pier1 28 14 docks1
+pier10 44 20 docks2
+pier11 48 20 docks2
+pier12 52 20 docks2
+pier13 56 20 docks2
+pier14 60 20 docks2
+pier15 64 20 docks2
+pier16 68 20 docks2
+pier18 68 20 docks2
+pier2 24 14 docks1
+pier3 24 16 docks1
+pier4 24 18 docks1
+pier5 24 20 docks1
+pier6 28 20 docks1
+pier7 32 20 docks1
+pier8 36 20 docks1
+post 12 12 center
+pub 24 14 docks1
+rl-boa 0 0
+rl.c_o 0 0
+road1 0 0
+road2 0 0
+road3 0 0
+road4 0 0
+road4.cback 0 0
+sea1 0 0
+sea2 0 0
+sea3 0 0
+sh 0 0
+ship_info 24 14 docks1
+shop 20 18 center
+square 0 0
+store 0 0
+sugg_sa 0 0
+tower_floor 0 0
+tower_office 0 0
+tower_roof 32 20 docks1
+tower_save 0 0
+town 0 0
+vill_gate 0 0
+ware1 28 20 docks1
+ware2 24 20 docks1
+ware3 24 16 docks1
+ware4 28 14 docks1
+well 20 18 center
+::MAPDATA::
+                          =====================
+                           The City of Sparkle
+                              Hub of Genesis    
+                          =====================
+
+     (Please note, due to increased traffic, the city is currently under 
+   construction in many areas to meet the demands of local commerce. Expect
+    changes to occur to this map and the city structure without warning.)
+
+                   . . . . . . . . . . . . . . . . . . . . . . . . . . .      
+     . . . . . . . .                     .                             .
+     .             .                     .           All major Ports   .
+     .  o - o      .                     .           of Call can be    .
+     .  |          .                     .           reached via these .
+     .- o  Town    .    o - o - o - o - o.- o - o    various shipping  .
+     .  | Center   .    |                .      |    lines.            .
+     .  o          .    o                .      o                      .
+     .  |          . .  |    Western     .                             .
+     .  o - o - o - o.- o     Docks      .   Eastern Docks             .
+     .               .  |                .                             .
+     . . . . . . . . .  o - o - o - o - o.- o - o - o - o - o - o - o  .
+                     .      |            .                             .
+                     . . . .|. . . . . . . . . . . . . . . . . . . . . .
+
+                                                                              
+::NEWMAP::
+center
+::MAPDATA::
+adv_guild 21 34
+aop_office 41 9
+bank 55 28
+church 38 28
+center_a 35 9
+center_b 21 9
+center_c 21 16
+center_d 21 23
+center_e 21 30
+center_f 38 30
+center_g 55 30
+display_room 26 23
+enchanter_forge 21 7
+entrance 14 30
+market_square 72 30
+notary_room 9 9
+office 72 24
+post 35 14
+shop 72 34
+well 72 30
+::MAPDATA::
+                                  __
+                                 /  /`.
+                               .--./   `.
+        Enchanter's  /`.      / The`.    `.
+         Workshop   /   `.   /  Inn  `.   /
+                   / `.   /\/==========`./\
+                  / /`.`./ / \    .    \  /_________
+     _____        \_\| \_\/   \___\|\___\//   AoP   /\
+    /    /\          |             |     /  Office /  \
+   /____/\/ -- -- -- o -- -- -- -- o -- /_________/   /
+   \____\/           |             |    \         \  /
+  Archives           |             |     \_________\/     
+                     |             |                    ==================
+                     |             |                         Sparkle
+                     |        _____|_______                Town Center
+                     |       /Post Office /\                 [under]
+ -- -- o -- -- -- -- o      /____________/ /              [construction]
+                     |      \____________\/             ==================
+ //  //  //  //  //  |     ^
+  //  //  //  //  // |    / \\       /.
+   //  //  //  //    |   /._./|     /  `.               ==-        Donations
+//  //  //  //  //   |   |   ||    /      `.           .|.           Office
+ The Village Green   |   ////|/ + / Church   `._      .`- '`.       .--------.
+       o -- -- -- -- o -//// /   \     of       /    | Bank  |__   .--------./
+                     |  |__|/   /  `. Sparkle  / \  /`.___ . `  /\  \__\|\__\/
+  (special events!)  | Realtor /   \\ `.      /  / /_//   `.___/ /      |
+     ____________    |       _/     -    `._ /  /  \/ `.   /\__\/       |
+    /         /  \   |        \    .---.    \  /   / /`.`./ /    Market |
+   / Genesis /   /   |         \____\ | \____\/    \_\ |\_\/   ___Square|
+  /  MVSEVM / /\/    |                |                |      /\__\     |
+ /         / / -- -- o -- -- -- -- -- o -- -- -- -- -- o -- -- -- -- -- o --
+/_________/  \       |                |                |   Auction Tent |
+\   __    \  /    __ |          ______|_____           |             __ |
+ \.---.`\__\/    /  /`.       .------.     /`       ~-:::-~         /  /`.
+  \____\/      .--./    `.   ,------./    /`\    ~-:       :-~    .--./    `.
+              /    `.    /  / \_____\/   /`  \  ~-:The Tower:-~  /  _ `.    /
+             / =   =  `.//,-------------.`   /  ~-:of Realms:-~ /        `.//
+              \________\/  \  Library    \  /    ~-:       :-~   \___..___\/
+           Adventurer Guild \_____________\/        ~-:::-~     General Store
+
+::NEWMAP::
+docks1
+::MAPDATA::
+parrot 67 29
+pier1 25 8
+pier2 11 8
+pier3 11 15
+pier4 11 22
+pier5 11 29
+pier6 25 29
+pier7 39 29
+pier8 53 29
+pub 9 8
+ship_info 11 6
+tower_roof 39 34
+ware1 25 32
+ware2 11 32
+ware3 9 15
+ware4 25 6
+::MAPDATA::
+                        Warehouse
+     Old Shipping    __________________
+        Office      /  /  /  /  /  /  /\
+            _____  /  /  /  /  /  /  /  \          
+           /    /\/__/__/__/__/__/__/   /   "":"""""""":""""::""""""""":
+          /____/ /\    _____        \  /  """""""""": Under """""":""":""""
+  _______ \\\__\/  \___\ |  \________\/  """":"":" Construction """"""":"
+ /__---_/\ |             |                  """"""":""""""::"""""""""
+ \_/==|+ / o -- -- -- -- o -- -- -- -- o -- -- -- -- o -- -- -- -- o -- --
+  /___/ /  | Ship to   Ship to    Circle Line:  Circle Line:  Circle Line:
+  \___\/   | Pelargir   Gont       Sarn Ford        Gelan         Gelan
+The Boar's |                      Town of Last   Port MacDunn     Gont
+Head Tavern|                                     Grey Havens      Kabal
+    ______ |                           |              |             |
+   /_____/\| Ship to                   (Newbie Routes for Safe Travel)
+  /_____/- o Grey             
+ /_____/\  | Havens                  
+/_____/ /  |              
+\_____\/   |                 
+ Warehouse |
+           |                          ==========================
+           | Ship to                   Western Docks of Sparkle
+  -- -- -- o Kalaman                  ==========================
+           | 
+           |
+           |
+           |
+           | Ship to   Ship to      Ship to       Ship to       Ship to
+           | Terel      Krynn       Emerald        Avenir        Calia
+           o -- -- -- -- o -- -- -- -- o -- -- -- -- o -- -- -- -- o -- --
+           |             |             |
+       ____|__________   |          ___|______________________
+      /  /  /  /  /  /\  |         /         Landing Zone    /\
+     /  /  /  /  /  /  \ |        /        for flight to    /  \
+    /__/__/__/__/__/   / |       /             Tyr         /   /
+    \Old Warehouses\  /  |      /_________________________/   /
+     \______________\/   |      \ Genesis ShipLines Office\  /
+                                 \_________________________\/
+
+::NEWMAP::
+docks2
+::MAPDATA::
+jetty1 18 3
+jetty2 18 10
+pier10 4 24
+pier11 15 24
+pier12 26 24
+pier13 37 24
+pier14 48 24
+pier15 59 24
+pier16 70 24
+pier18 70 21
+::MAPDATA::
+
+
+
+ -- o -- -- -- -- o
+ Circle Line:     |
+    Gelan         |
+    Solace        |
+   Pelargir       |
+ (Newbie Route)   |
+                  |
+                  o                 ===========================
+            Lost Sailor              Eastern Docks of Sparkle
+              Memorial              ===========================
+
+
+
+
+
+
+                                                                  Ship to
+                                                                  Palanthas
+                                                                      o
+ Ship to               Ship to            Ship to the                 |
+ Ansalon           Cadu (Khalakhor)       Golden Isle                 |
+ -- o -- -- -- o -- -- -- o -- -- -- o -- -- -- o -- -- -- o -- -- -- o
+            Ship to                Ship to              Ship to   Ship to
+             Kalad                 Faerun               Faerie    Raumdor
+
+

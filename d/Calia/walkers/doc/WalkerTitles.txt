@@ -1,0 +1,104 @@
+Walker levels:
+
+Apprentice:
+
+Titles:
+-Untried Apprentice of Fire
+-Studious Apprentice of Fire
+-Industrious Apprentice of Fire
+-Persevering Apprentice of Fire
+
+Spells:
+-Tell line
+-Light
+-Blind
+
+Training:
+-Spellcraft:         40
+-Fire spells:        40
+-Conjuration spells: 30
+-Enchantment spells: 30
+-Herbalism:          40
+-Alchemy:            30
+-Polearm:            50
+-Defence:            50
+
+
+Magician:
+
+Titles:
+-Adept Magician of Fire
+-Proficient Magician of Fire
+-Knowledgeable Magician of Fire
+-Experienced Magician of Fire
+
+Spells:
+-Wall of fire
+-Flame shield
+-Flame arrow
+-Enrage
+
+Training:
+-Spellcraft:          60
+-Fire spells:         60
+-Conjuration spells:  50
+-Enchantment spells:  40
+-Alchemy:             40
+-Herbalism:           50
+
+
+Scholar:
+
+Titles:
+-Well-read Scholar of Fire
+-Learned Scholar of Fire
+-Eminent Scholar of Fire
+-Famous Scholar of Fire
+
+Spells:
+-Resist fire
+-Flame wind
+-Luminosity
+-Flame weapon
+-Cooperative spells.
+
+Training:
+-Fire spells:          80
+-Spellcraft:           80
+-Conjuration spells:   80
+-Enchantment spells:   60
+-Abjuration spells:    40
+-Alchemy:              60
+-Herbalism:            70
+-Awareness:            70
+-Language:             70
+-Magical ritual:       60
+
+
+Sage:
+
+Titles:
+-Renowned Sage of Fire 
+-Illustrious Sage of Fire
+-Master Sage of Fire
+-Legendary Sage of Fire
+
+Spells:
+-Fire spirit
+-Burst of light
+-Fire storm
+-Hellscape
+
+Skills:
+-Spellcraft:          90
+-Fire spells:         90
+-Magical ritual:     100
++Either Herbalism, Alchemy or Language at +20 levels.
+
+Council title;
+-Principal of the College of Fire Magic
+
+Councilmembers are the only ones able to move people up in levels,
+so there is no automatic advancement. Most of the membership mass
+will probably be Magicians, and very few will have what it takes
+to advance to the Sage level.

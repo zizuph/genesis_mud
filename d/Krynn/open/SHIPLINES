@@ -1,0 +1,126 @@
+These are the shiplines in Krynn:
+=================================
+Last modified by:
+~Aridor, Jul 10, 1998
+
+Shiplines originating in Krynn:
+-------------------------------
+
+FAIRVIEW:             KRYNN-GENESIS
+From:  Newports       /d/Krynn/que/newports/ship/pier
+To:    Sparkle        /d/Genesis/start/human/town/pier6
+Ship:  /d/Krynn/que/newports/ship/ship
+Capt:  /d/Krynn/que/newports/ship/captain
+Decks: /d/Krynn/que/newports/ship/deck    (cabin,rowingdeck,for)
+Price: 30cc     
+
+
+THE MIGHTY DUCK:      KRYNN-ROKE
+From:  Palanthas      /d/Krynn/solamn/palan/ship/pier  
+To:    Cove           /d/Roke/varl/atuan/cape/beach1   
+Ship:  /d/Krynn/solamn/palan/ship2/ship
+Capt:  /d/Krynn/solamn/palan/ship/captain
+Decks: /d/Krynn/solamn/palan/ship/deck      (cabin/rowingdeck,for)
+Price: 28cc
+
+
+THE HAPPY DOLPHIN:    KRYNN-SHIRE
+From:  Palanthas      /d/Krynn/solamn/palan/ship2/pier 
+To:    Grey Havens    /d/Shire/common/greyhaven/pier1  
+Ship:  /d/Krynn/solamn/palan/ship2/ship
+Capt:  /d/Krynn/solamn/palan/ship2/captain
+Decks: /d/Krynn/solamn/palan/ship2/deck     (cabin/rowingdeck/for)
+Price: 28cc
+
+
+THE TINY WHALE:       KRYNN-KRYNN
+From:  Palanthas      /d/Krynn/solamn/palan/ship3/pier 
+To:    Newports       /d/Krynn/que/newports/pier       
+Ship:  /d/Krynn/solamn/palan/ship2/ship
+Capt:  /d/Krynn/solamn/palan/ship3/captain
+Decks: /d/Krynn/solamn/palan/ship3/deck     (cabin/rowingdeck/for)
+Price: 6cc
+
+
+FISHERMAN'S WAKE:      KRYNN-KRYNN
+From:  Solace          /d/Krynn/solace/ship/pier
+To:    Newports        /d/Krynn/que/newports/pier3
+Ship:  /d/Krynn/solace/ship/ship
+Capt:  /d/Krynn/solace/ship/captain
+Decks: /d/Krynn/solace/ship/deck
+Price: 5cc
+
+
+SKULL'N'BONES:         KRYNN- (EMERALD || KALAD || GONDOR || ANSALON || AVENIR || EARTHSEA)
+From:  Thief Cave      /d/Krynn/solamn/thief/cavern/har6
+To:    1.Emerald       /d/Emerald/mountains/volcano/pier2
+       2.Kalad         /d/Kalad/common/port/s1
+       3.Kalaman       /d/Ansalon/kalaman/room/dock3
+       4.Tharbad       /d/Gondor/tharbad/pier/pier3
+       5.Pelargir      /d/Gondor/pelargir/docks/dock9
+       6.Avenir        /d/Avenir/common/port/port6 (check /d/Avenir/include/hidden_ship.h for current info)
+       7.GontPort      /d/Earthsea/gont/gont_city/rooms/city_street/city_road33
+       (More will follow)
+Ship:  /d/Krynn/solamn/thief/ship/ship
+Capt:  /d/Krynn/solamn/thief/ship/captain
+Decks: /d/Krynn/solamn/thief/ship/deck  (cabin/rowingdeck/for)
+Price: 148cc
+
+Shiplines going to Krynn originating in other domains:
+------------------------------------------------------
+
+DISABLED!!!! GONDOR-KRYNN
+From:  Tharbad        /d/Gondor/tharbad/pier/pier1    
+To:    Vingaard Keep  /d/Krynn/solamn/splains/room/pier
+Price: 30cc
+Comment: This line now goes from Gondor to Kalaman/Ansalon
+
+
+CALIA-KRYNN
+From:  Calia          /d/Calia/ships/krynn/pier       
+To:    Palanthas      /d/Krynn/solamn/palan/ship4/pier
+Price: 30cc
+
+RHUN-KRYNN
+From:  Rhun           /d/Rhovanion/commo/rhun/stown3/pier3
+To:    Palanthus      /d/Krynn/solamn/palan/ship6/pier
+Price: 30cc
+
+ANSALON-KRYNN
+From:  Flotsam        /d/Ansalon/balifor/flotsam/room/street08
+To:    Palanthus      /d/Krynn/solamn/palan/shipX/flotsam_pier
+Price: 28cc
+
+ANSALON-KRYNN
+From:  Kalaman        /d/Ansalon/kalaman/room/dock5
+To:    Vingaard Keep  /d/Krynn/solamn/splains/room/pier
+Price: 28cc
+
+Other means of transport in Krynn (dragons and griffon):
+--------------------------------------------------------
+
+//Cyan is disabled currently.
+CYAN:                 KRYNN-KRYNN       (Green Dragon)
+From:  Solace         /d/Krynn/neraka/dragon/landing1
+To:    Neraka         /d/Krynn/neraka/dragon/landing2
+Dragon:/d/Krynn/neraka/dragon/ndragon
+Deck:  /d/Krynn/neraka/dragon/dragon_room
+Price: free
+
+
+//Stormbolt is disabled currently. Teth.
+STORMBOLT:            KRYNN-KRYNN       (Bronze Dragon)
+From:  Vingaard Keep  /d/Krynn/solamn/splains/dragon/landing1 
+To:    Solace         /d/Krynn/solamn/splains/dragon/landing2 
+Dragon:/d/Krynn/solamn/splains/dragon/bronze_dragon
+Deck:  /d/Krynn/solamn/splains/dragon/dragon_room
+Price: free
+
+
+THUNDERHEART:         KRYNN-KRYNN       (Griffon)
+From:  Vingaard Mountains /d/Krynn/icewall/outside/griffon/landing1
+To:    Icewall            /d/Krynn/icewall/outside/griffon/landing2
+Griffon: /d/Krynn/icewall/outside/griffon/griffon
+Deck:  /d/Krynn/icewall/griffon/on_dragon     (dragon_room)
+Price: free (griffon quest required)
+

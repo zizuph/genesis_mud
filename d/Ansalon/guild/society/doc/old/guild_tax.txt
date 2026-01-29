@@ -1,0 +1,82 @@
+Kender of Ansalon Occupational Guild Tax Calculations
+=====================================================
+ 
+Skills:
+=======
+                     Skill   Un-
+                     level   taxed taxed  pen   mod     tax[%]
+SS_SNEAK               90     20    70          1.0      1.166
+SS_HIDE                90     20    70          1.0      1.166
+SS_AWARENESS           80     20    60          1.0      1.0
+SS_OPEN_LOCK           80     20    60          1.0      1.0
+SS_PICK_POCKET         80     20    60          1.0      1.0
+SS_WEP_POLEARM         80     30    50   50     1.5      1.25
+SS_DEFENCE             70     20    50   50     1.5      1.25
+SS_ACROBAT             50     20    30          0.5      0.25
+SS_FR_TRAP             30     20    10          1.0      0.166
+--------------------------------------------------------------
+Sum:                  650          450  100              9,236
+--------------------------------------------------------------
+
+Skills Tax: 9,2%
+
+Special abilities:
+==================
+
+The maximum capability of dodge and taunt should reach close to 100% combat aid,
+so tax for specials is maxed.
+
+Special Tax: 16.7%
+
+Miscellaneous Specials Abilities:
+=================================
+(Most of these abilities remain the same to previous guild.)
+
+-- Borrow:
+   Uses the thief steal code, just with a different command. Every once in a
+   while, a kender will be forced to borrow something from someone beside them,
+   or peek in their inventory. Kenders are now also able to open bags in other
+   peoples inventory, I have rated this ability to be worth 1% tax.
+ 
+-- Tiptoe:
+   Autosneak (not taxed in thieves guild)
+ 
+-- Wander:
+   The ability to wander out of a room without the bystanders noticing which
+   direction you went. Check on sneak skill which is taxed already. No tax.
+ 
+-- No Fear:
+   NPC_I_NO_FEAR prop set. Enables kender to attack anything. As far as the
+   advantages of being able to attack things that you probably can't do more
+   than tickle, there aren't many. This is mainly meant to go along with the
+   idea that kender are immune to fear. Due to kenders having limitations with
+   panic, any tax requiremens for no fear is nullified.
+ 
+-- Titles:
+   Kender start with no visible title. They can then set it to their normal
+   guild title, change it to a title from a set list, or change it back to
+   being hidden. No tax.
+ 
+-- Collect pebbles:
+   Allows a kender to collect up to 9 pebbles in each outdoor room. Pebbles
+   are necessary for the sling special. No tax.
+ 
+-- Faerie messengers:
+   Faerie messengers that can be called like Ranger pigeons. The Ranger
+   whistle spell is charged 0.1% tax, but faeries are more convenient to
+   use, being able to go inside. tax 0.2%
+
+-- Alter ability:
+   Kender can alter polearms into hoopaks. The availability of hoopaks is
+   very low, and kender must use hoopaks for sling, so we'll give this a
+   0.3% tax.
+
+
+Overall Tax:
+    Skills:      9.2%
+    Specials:   16.7%
+    Borrow:      1.0%
+    Messenger:   0.2%
+    Alter:       0.3%
+    -----------------
+                27.2%

@@ -1,0 +1,38 @@
+main
+::MAPDATA::
+rocks 9 2
+newpath 9 4
+newarchway 9 6
+path1 7 8
+path2 5 10
+oldw_chamber 7 12
+old_entrance 9 12
+olde_chamber 11 12
+olds_chamber 9 14
+oldpost 7 16
+oldstartroom 9 16
+oldboard 11 16
+oldmedroom 9 18
+oldestiroom 9 20
+::MAPDATA::
+~~~~~~: /\
+~~~~~~:/\/\
+~~~~~,//\o\/\
+~~~~~://\|\/\
+~~~~~;/\ o \ \
+~~~~~, Y | /\
+~~~~; E  o        /\ 
+___, L  /|   /\/\/  \/\
+    L  o |/\/  \/   / /\  /\
+   A  /  | /    \    /  \/  \/\
+  V  o   |/  Cliffs /   /   /  \
+         |
+       o-o-o
+         |
+         o
+        / \
+       o-o-o
+         |
+         o
+         |
+         o

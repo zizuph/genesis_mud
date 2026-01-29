@@ -1,0 +1,5 @@
+#define ROCKY "/d/Earthsea/gont/beach/std/base_beach_rocky"
+#define SANDY "/d/Earthsea/gont/beach/std/base_beach_sandy"
+#define PATH_DIR  "/d/Earthsea/gont/beach/forest_path_rooms/"
+#define CLIFF_DIR "/d/Earthsea/gont/beach/cliff_rooms/"
+#define KARG_LANDING_DIR "/d/Earthsea/gont/beach/karg_landing/"

@@ -1,0 +1,133 @@
+New arsenal, if you want it: It has 4 autoloading racks in it to help you
+stay organized: Case, Armor Stand, Uniform Rack, and Table. 
+I have made it so that non-members cannot take anything, but Friends could
+access the Table. However, I recommend that the Arsenal be accessible
+to Union members only, to keep prying eyes out of your business.
+
+This is the Arsenal of the Halls of Shadow. It is here where the guild's
+armaments are carefully tended to and placed at the ready for when the need
+arises. In the center of the room stands a kesoit table, scattered upon which
+are many things, including three piping hot loaves of bread. The west wall is
+lined with a rack where the distinctive garb of the Warriors resides. An armour
+stand takes up the entire east wall. Along the south wall is a case made from
+dark metal and leaded glass, within which can be seen two ivory-handled sabres,
+two ancient runed short swords, a straight-bladed abbasi, a crimson steel
+longsword and four sybarun khopeshes.
+There is one obvious exit: north.
+
+> exa case
+It is a long dark case of a dark metal, similiar to adamantine. The front panel
+is leaded glass lined with strips of weaving decorations. This is where the
+Shadow Union stores weapons and other items of the guild's armamentarium. Your
+Jazur blessed eyes make out the words 'help arsenal' etched into the leaded
+glass. It is open.
++-------------------------------------------------------------+
+| ## |                  Item Name                  |   Type   |
++-------------------------------------------------------------+
+|  2 | ancient runed short sword                   |   Sword  |
+|  1 | crimson steel longsword                     |   Sword  |
+|  2 | ivory-handled sabre                         |   Sword  |
+|  1 | straight-bladed abbasi                      |   Sword  |
+|  4 | sybarun khopesh                             |   Sword  |
++-------------------------------------------------------------+
+> exa rack
+It is a tall rack spanning the west wall. There are many pegs for hanging the
+distinctive uniform of the Shadow Warriors on.
++-------------------------------------------------------------+
+| ## |                  Item Name                  |   Type   |
++-------------------------------------------------------------+
+| 10 | black war bandeleria                        |   Body   |
+| 14 | elegant black bandeleria                    |   Body   |
+|  6 | grey knapsack                               |   Body   |
+|  8 | simple bandeleria                           |   Body   |
+|    |                                             |          |
+|  3 | narrow onyx cylinder                        |  General |
++-------------------------------------------------------------+
+> exa armour stand
+Spanning the entirety of the eastern wall, this gleaming steel stand stores the
+armours used by the Shadow Union.
++-------------------------------------------------------------+
+| ## |                  Item Name                  |   Type   |
++-------------------------------------------------------------+
+|  2 | gold monocle                                |  Armour  |
+|    |                                             |          |
+|  1 | pair of battle briefs                       |   Belt   |
+|    |                                             |          |
+|  1 | blue dragonscale armour                     |   Body   |
+|  2 | dark night-blue dragonscale armour          |   Body   |
+|  2 | green dragonscale armour                    |   Body   |
+|    |                                             |          |
+|  1 | pair of blue dragon-hide boots              |   Legs   |
+|    |                                             |          |
+|  1 | gleaming black cloak                        |   Robe   |
++-------------------------------------------------------------+
+> exa table
+A sturdy table, made of kesoit wood. In it's simplicity it is crafted with such
+precision that it looks like it was made of a solid piece of wood.
++-------------------------------------------------------------+
+| ## |                  Item Name                  |   Type   |
++-------------------------------------------------------------+
+|  7 | bit of strange moss                         |  General |
+|  1 | crystal of pure water                       |  General |
+|  1 | greenish brown moss                         |  General |
+|  1 | hearty stew                                 |  General |
+|  1 | long crimson-steel stylus                   |  General |
+|  1 | onyx urn containing a single red freesia    |  General |
+|  4 | piping hot loaf of bread                    |  General |
+|  5 | purple-green shaggy moss                    |  General |
+|999 | small white berry                           |  General |
+|  7 | stone cold loaf of bread                    |  General |
+|  4 | warm loaf of bread                          |  General |
++-------------------------------------------------------------+
+
+> help arsenal
+ This is the Arsenal of the Union of the Warriors of Shadow.
+     No hand may take from the Arsenal that is not 
+   One of Us, upon penalty of pain to those who try.
+
+ All of the racks in this room save recoverable items through Armageddon.
+   The case is for weapons and other holdable objects.
+   The rack is for uniforms and other Union regalia.
+   The stand is for armors and other wearable items.
+   The table is for food, herbs, and the like.
+   The shelf in the alcove by Arcadelt is for general supplies. 
+ 
+ o Items stored in the racks should be clean and in good repair. 
+ o Please close packs before storing them.
+ o Nothing should be left on the floor.
+ o We are blessed with abundance. When the racks are full, make
+   offerings of the surplus to the Jazur Flame.
+
+ For more specific information, use <help case|rack|stand|table>.
+ 
+> help case
+
+
+       No hand may take from the Arsenal that is not 
+     One of Us, upon penalty of pain to those who try.
+ 
+  The Case is primarily for weapons and similar hand-held items.
+  
+ Unlike the Armour Stand (which will only take items that can be worn) 
+ and the Uniform Rack (which will only take Union items), the Case does
+ not reject non-weapon items. It will reject food and filthy objects.
+
+ Commands associated with the Case (and the other guild racks):
+ <sort case|rack|stand> 
+   This results in non-saving items falling out of the rack and onto the 
+   floor for proper disposal. If the sorting fails it is because there are 
+   too many items in the rack, so remove some and try again.
+
+ <list type> to view items of a certain type.
+             Weapons: knife, sword, axe, polearm, etc, as well as subtypes 
+                      like dagger, bodkin, falchion, longsword, etc     
+             Armours: helmet, necklace, robe, body, breastplate, arms, 
+                      bracers, legs, greaves, boots, belt, etc. 
+             General: clothing, packs, torches, lamps, etc.               
+                         
+ <show item> Get a detailed description of an item, regardless of where it is,
+             as long as the item is visible.
+                         
+<value item> Will provide an approximate value of the item specified.
+ 
+ see also: help <arsenal|rack|stand|table|shelf>

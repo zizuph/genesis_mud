@@ -1,0 +1,19 @@
+Name: Fire ball
+
+Object: /d/Sparkle/guilds/arcane/spells/fire_ball.c
+
+Cost: 
+
+Skills: 
+
+Description: Tier 2 spell
+                 Targets: 1, unspecified defaults to current enemy (if
+		              currently in combat)
+		 Very basic attack spell. Damages target moderately, but
+		 unlike acid splash, does not inflict residual damage. There
+		 is a danger of caster being injured from spell backfiring.
+		 
+Requirements: 
+    SS_ELEMENT_FIRE
+    SS_FORM_DIVINATION
+    Green Onion

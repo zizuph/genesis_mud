@@ -1,0 +1,173 @@
+==============================================================================
+                            The Gaelic Order
+==============================================================================
+NOTE: Any suggestions for a better name?? I'll keep "Gael" for now.
+General:
+   The Gaelic Order is a guild of priests who channel the power of
+   Order of the Triad by use of rituals and encantations. They are
+   "good" aligned and open to all races (though divided by race...see below).
+   Technically they are a combination of an occupational cleric guild
+   and a layman fighter guild (specializing in defense and polearm).
+ 
+History:
+   The Order is one of the 16 which composed The Wise of long ago, and
+   which faded to a small group during the Age of Might. They retreated
+   to an island and built their cathedral and priory which serves as
+   the Order's center. They remained cloistered in their priory until
+   recently, and are now taking accepting new members and establishing
+   "kirks" in various villages and towns in the domain.
+ 
+Theology:
+   The Gaelic priests are Order-aligned, with the unique belief that
+   perfect order, or perfect harmony with order, can be attained by
+   performing specific rituals and living a ritualistic life of order.
+   By performing the rituals, the priest comes in close enough harmony
+   with perfect order that they are able to manipulate the physical world.
+   They are aided in their efforts by their "saints" (founders) who
+   attained perpetual perfect harmony with Order and were "absorbed
+   into it" long ago. Obedience to tradition and to superiors plays a
+   very important part in the lives of the priests.
+ 
+Organization:
+   The Order will be divided into Kirks. A Kirk is established in one of
+   the towns of the domain, and each Kirk is of the race of the town.
+   A Kirk is governed by an Episkopos, and consists of 4 to 10 members
+   including himself, with a maximum of four Presbyters. A kirk
+   may also be established for those races (ie. gnomes, hobbits) who are
+   foreign to the domain in a large town or a rural area.
+ 
+   The Archepiskopos governs the entire Order from the Cathedral, appointing
+   Episkopoi for each Kirk. The Cathedral itself serves as a mixed-race
+   kirk, the Archepiskopos assigning members there as he sees fit. He is
+   elected by the Snoyd of the Episkopoi (council) and must be approved
+   by the guildmaster.
+ 
+   The Archepiskopos assigns each member to a kirk as he sees fit,
+   though racial requirements and limits must be followed, and tradition
+   holds that a new member shall be assigned to the kirk which recruited
+   him (if there is more than one for a race) unless a balance of numbers
+   is sought. The Archepiskopos may also reassign members to kirks, again
+   within racial and numeric limits.
+ 
+   The Snoyd of the Episkopoi consists of the Archepiskopos and all the
+   Episkopoi of the Order. It is primarily an advisory council for the
+   Archepiskopos and the guildmaster. Its three official powers are electing
+   the Archepiskopos and establishing new kirks, both with guildmaster
+   approval, and electing Presbyters to be consecrated to the office of
+   Episkopos.
+ 
+Entrance:
+   One who seeks to enter the Order should seek out the members of a
+   Kirk of his/her race (the Cathedral if none has yet been established
+   for their race). The Episkopos or any of his presbyters may accept
+   the seeker. The seeker would then complete a quest, and present
+   himself to the Episkopos for acceptance as a Neophyte. Once accepted,
+   a mentor/sponsor is assigned to the Neophyte, and the Neophyte is
+   assigned to the Cathedral for training.
+ 
+Promotion:
+   To Oblate:
+      When the Archepiskopos, or his appointee who oversees the Neophytes,
+      decides the Neophyte is ready, the Neophyte is promoted to Oblate
+      and assigned to a Kirk, givining allegiance to the Episkopos of
+      that Kirk. (most likely the sponsoring Kirk).
+   To Friar, Diakon, Presbyter:
+      The Episkopos of the Kirk promotes members as he sees fit, keeping
+      to the limit of 4 presbyters. The Episkopos may also demote members.
+   To Episkopos:
+      The Snoyd must elect a Presbyter to be consecrated to this office.
+      An Episkopos may be consecrated to govern a Kirk only (thus one
+      Episkopos per Kirk), with the exception that the Archepiskopos may
+      have two assistant Episkopoi at the Cathedral.
+   To Archepiskopos:
+      The Snoyd elects the Archepiskopos, who is approved and consecrated
+      by the guildmaster. The Snoyd may remove an Archepiskopos, who must
+      be demoted by the guildmaster.
+ 
+   Promotion of the sub-levels (ie: Gaelic Neophyte to Learned Gaelic
+   Neophyte) will be automatic based on general XP and/or a guild XP
+   based on performance of rituals, acts of piety, etc. A member must
+   have advanced to the highest sublevel before he/she can be promoted
+   to the next level, except in special circumstances by the Archepiskopos.
+ 
+Titles and levels:
+   Aspirant - one who seeks to join the Order, not yet a member.
+      Aspirant of the Order of the Gaels.
+   Neophyte - a new initiate
+      Gaelic Neophyte
+      Learned Gaelic Neophyte
+      Enlightened Gaelic Neophyte
+   Oblate - intermediate beginner
+      Gaelic Oblate of Kirk xxxx
+      Learned Gaelic Oblate of Kirk xxxx
+      Enlightened Gaelic Oblate of Kirk xxxx
+   Friar - full brother
+      Gaelic Friar of Kirk xxxx
+      Faithful Gaelic Friar of Kirk xxxx
+      Pious Gaelic Friar of Kirk xxxx
+   Diakon  - ordained priest
+      Diakon of the Gaelic Order of Kirk xxxx
+      Dedicated Diakon of the Gaelic Order of Kirk xxxx
+      Devout Diakon the the Gaelic Order of Kirk xxxx
+   Presbyter - elder ordained priest
+      Presbyter of the Gaelic Order of Kirk xxxx
+      Reverent  Presbyter of the Gaelic Order of Kirk xxxx
+      Venerated Presbyter of the Gaelic Order of Kirk xxxx
+   Episkopos - governor of a Kirk (bishop).
+      Episkopos of the Gaelic Order of Kirk xxxx
+      Reverent Episkopos of the Gaelic Order of Kirk xxxx
+      Most Reverent Episkopos of the Gaelic Order of Kirk xxxx
+   Archepiskopos - archbishop, leader of the order
+      Archepiskopos of the Order of the Gaels
+ 
+Spells:
+   THIS IS A _WORKING_ LIST
+   The number of spells (and thus the guild tax) will increase as a
+   member is promoted. Though this is a clerical order, with their
+   history of warfare, they have developed good defensive/offensive
+   skills as well. Spell effects may be increased by two or more
+   members "linking." Linking will be a special skill.
+   Here is a "working list" of spells types I expect for an Episkopos:
+   Divination:
+      Divine ALIGNMENT of player: spell causes player to react in a way
+                             showing alignment (good/evil/neutral).
+      Divine NAME of player: (mind control) spell causes player to
+                             introduce himself or speak his name.
+      Divine LOCATION of introduced player: spirit whispers room short
+                             description of the player.
+      Divine BLESSING of player: has player received Gaelic blessing?
+      Divine INVISIBLE: detect invisible objects in a room (except wizzes)
+   Offense/Defense:
+      Beam of Light - simple attack spell
+      Bind - prevent enemy from moving/leaving the room
+      Force enemy to drop or unwield weapon
+      Holy ground - anoint ground with oil to cause evil players to
+                    decrease security.
+      "spook" - scare player into running into an adjoining room.
+      Peace - stop fighting in a room.
+   Conjuration:
+      Conjure a floating orb of LIGHT (torch spell).
+ 
+   Healing:
+      Strengthen - decrease tiredness
+      Heal Poison
+ 
+   Other?:
+      Talk (send message) to any mortal.
+      Bless player (advanced emote) - simply adds a GAEL_BLESSED prop which
+            grants special status to the player (immunity to Gael offensive
+            spells, admission to secret areas, etc.)
+      Embrace - a member must embrace the "power of Order" to channel it.
+                a member must be "in embrace" to cast any spell. The
+                embrace lasts a certain period of time, decreases mana
+                and "communion with Order" slightly, and my be broken off
+                at any time (special skill trained).
+      Link - 2 or more members may link (embrace the power of Order)
+             together to increase their spell effectiveness. Increases
+             loss of mana/communion rate of embrace. (special skill trained).
+ 
+ 
+ 
+ 
+ 
+ 

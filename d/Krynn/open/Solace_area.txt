@@ -1,0 +1,492 @@
+main
+::MAPDATA::
+road1 15 7 gateway_link
+main_road2 15 6 solace_lower
+main_road3 15 6 solace_lower
+main_road4 15 6 solace_lower
+main_road5 15 6 solace_lower
+main_road6 15 6 solace_lower
+main_road7 15 6 solace_lower
+intersection 15 6 solace_lower
+square 15 6 solace_lower
+clearing1 15 6 solace_lower
+clearing2 15 6 solace_lower
+clearing3 15 6 solace_lower
+ns_path1 15 6 solace_lower
+ns_path2 15 6 solace_lower
+west_road1 15 6 solace_lower
+west_road2 15 6 solace_lower
+west_road3 15 6 solace_lower
+west_road4 15 6 solace_lower
+west_road5 15 6 solace_lower
+west_road6 15 6 solace_lower
+west_road7 15 6 solace_lower
+pier 15 6 solace_lower
+pier2 15 6 solace_lower
+lake1 15 6 solace_lower
+sts1 15 6 solace_lower
+sts2 15 6 solace_lower
+sts3 15 6 solace_lower
+sts4 15 6 solace_lower
+sts5 15 6 solace_lower
+sts6 15 6 solace_lower
+sts7 15 6 solace_lower
+smithy 15 6 solace_lower
+small_road1 15 6 solace_lower
+small_road2 15 6 solace_lower
+small_road3 15 6 solace_lower
+small_road4 15 6 solace_lower
+small_road5 15 6 solace_lower
+small_road6 15 6 solace_lower
+landing2 15 6 solace_lower
+park1 15 6 solace_lower
+park2 15 6 solace_lower
+east_road1 15 6 solace_lower
+east_road2 15 6 solace_lower 
+east_road3 15 6 solace_lower
+tent 15 6 solace_lower
+east1 15 6 solace_lower
+east2 15 6 solace_lower
+east3 15 6 solace_lower
+east4 15 6 solace_lower
+east5 15 6 solace_lower
+east6 15 6 solace_lower
+field1 15 6 solace_lower
+field2 15 6 solace_lower
+field3 15 6 solace_lower
+field4 15 6 solace_lower
+grass1 15 6 solace_lower
+grass2 15 6 solace_lower
+grass3 15 6 solace_lower
+grass4 15 6 solace_lower
+grass5 15 6 solace_lower
+entrance 15 6 solace_lower
+bank 15 6 solace_upper
+adv_guild 15 6 solace_upper
+platform1 15 6 solace_upper
+platform2 15 6 solace_upper
+platform3 15 6 solace_upper
+platform4 15 6 solace_upper
+platform5 15 6 solace_upper
+platform6 15 6 solace_upper
+platform7 15 6 solace_upper
+platform8 15 6 solace_upper
+bridge_walk01 15 6 solace_upper
+bridge_walk02 15 6 solace_upper
+bridge_walk03 15 6 solace_upper
+bridge_walk04 15 6 solace_upper
+bridge_walk05 15 6 solace_upper
+bridge_walk06 15 6 solace_upper
+bridge_walk07 15 6 solace_upper
+bridge_walk08 15 6 solace_upper
+bridge_walk09 15 6 solace_upper
+bridge_walk10 15 6 solace_upper
+bridge_walk11 15 6 solace_upper
+bridge_walk12 15 6 solace_upper
+bridge_walk13 15 6 solace_upper
+bridge_walk14 15 6 solace_upper
+bridge_walk15 15 6 solace_upper
+bridge_walk16 15 6 solace_upper
+bridge_walk17 15 6 solace_upper
+bridge_walk18 15 6 solace_upper
+bridge_walk19 15 6 solace_upper
+bridge_walk20 15 6 solace_upper
+bridge_walk21 15 6 solace_upper
+bridge_walk22 15 6 solace_upper
+bridge_walk23 15 6 solace_upper
+bridge_walk24 15 6 solace_upper
+bridge_walk25 15 6 solace_upper
+bridge_walk26 15 6 solace_upper
+shop 15 6 solace_upper
+inn 15 6 solace_upper
+kitchen 15 6 solace_upper
+post_office 15 6 solace_upper
+wise_club 15 6 solace_upper
+house1 15 6 solace_upper
+house2 15 6 solace_upper
+house3 15 6 solace_upper
+house4 15 6 solace_upper
+house5 15 6 solace_upper
+house6 15 6 solace_upper
+house7 15 6 solace_upper
+tika 15 6 solace_upper 
+questmaster 15 6 solace_upper
+lake2 17 3 lake_path   
+lake3 17 3 lake_path  
+lake4 17 3 lake_path 
+lake5 17 3 lake_path 
+lake6 17 3 lake_path 
+lake7 17 3 lake_path  
+lake8 17 3 lake_path  
+lake11 17 3 lake_path  
+campfire 17 3 lake_path  
+dock 17 3 lake_path
+tent 17 3 lake_path
+path_01 17 3 minotaur_camp
+path_02 17 3 minotaur_camp
+village_ent 17 3 minotaur_camp
+village_01 17 3 minotaur_camp
+village_02 17 3 minotaur_camp
+village_03 17 3 minotaur_camp
+village_a 17 3 minotaur_camp 
+village_b 17 3 minotaur_camp
+village_c 17 3 minotaur_camp
+village_d 17 3 minotaur_camp
+village_e 17 3 minotaur_camp
+village_f 17 3 minotaur_camp
+village_g 17 3 minotaur_camp
+village_h 17 3 minotaur_camp
+village_i 17 3 minotaur_camp
+village_j 17 3 minotaur_camp
+village_tent_04 17 3 minotaur_camp
+village_tent_03 17 3 minotaur_camp
+village_tent_02 17 3 minotaur_camp
+village_tent_01 17 3 minotaur_camp
+village_hut_01 17 3 minotaur_camp
+village_hut_02 17 3 minotaur_camp
+village_hut_03 17 3 minotaur_camp
+village_fort_01 17 3 minotaur_camp 
+village_fort_02 17 3 minotaur_camp
+village_fort_03 17 3 minotaur_camp
+village_fort_04 17 3 minotaur_camp
+::MAPDATA::
+            CRYSTALMIR                 [ ]                '   ~~ 
+            ~~ LAKE   /\              Tantallon        Xak  ~~ ~~
+    /\_     ~~~~    /\                                  Tsaroth ~
+   /   \_/\ ~~~@  /\                        /\  /\      [ ] ~~ ~~
+  /\/\ /\ /\~~~@@@    /\ Que-Kiri             /\_ /\      '  ~~ ~
+     @  @ @@@~~ @@       { }         Que-Shu/\_/ \   v ' v: ~~ ~~
+    @ @@/\@  @[ ] Solace              { }    /\ /\\  ' v ''  ~~ ~
+   @ @@@@/\@@@                              ```````` v ' v: ~~ ~~
+   @@@ DARKEN @    /\       PLAINS OF      /\_/\ /\  ' v ',  ~~ ~
+     @ WOOD @@              ABANASINIA      /\ /\        ,' ~~ ~~
+    [ ]@@@@@  [ ]                         /\__    @@@@  '  ~~ ~~
+  Haven/\   Gateway      { }             / /\ \ @@@@@@ '  ~~ ~~ ~
+        /\ ~~~~~~         Que-Teh               @@@@@@'  ~~ ~~ ~~
+      ~~~~~@@@@@@~~~~~~                         @@@ :' ~~ ~~  ~~ 
+  @@@@@@@@@@@@ ~~ @@   ~   ,____,__,__          @ :'  ~~ ~~ ~~ ~~
+  @@     @@ ~~ @@@      :'' ~~ ~~ ~~ ~~`  ,__    '  ~~ ~~ ~~ ~~ ~
+  @@     @@@@@@@@    [ ]' ~~ ~~ ~~ ~~ ~~ `~~ ~`''  ~~ ~~ ~~ ~~ ~~
+  @ QUALINESTI @@  New Ports ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@        @@@    ,'~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@       @@@    :   ~~ ~~ ~~ ~~  NEW SEA ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+  @@       @@     `, ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@@@@@@@@@      '   ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+                  '
+       To Pax Tharkas and
+         Thorbardin
+
+::NEWMAP::
+gateway_link
+::MAPDATA::
+road1 37 24
+::MAPDATA::
+              /\_/\    ^  .~~ ~~ ~~ ~~        ~ .
+   @@@@@@@@@@/ /   \  /@\ .~~ ~~ ~~ ~~       ~~ .
+      @@@@@@@@@@@@@ @@@    .~~ ~~ ~~ ~~       ~ .  /\
+ Road -o @@@@@@   @@@@@@    .~~ ~~ ~~ ~~       .
+  to   @\ @    @@@@@@@@@@@@.~~ ~~ ~~ ~~      . 
+ Haven @@\ @@@@@          @@.~~ ~~ ~~ ~~    .   /\/\
+        @ o--o @@@         @@.~~ ~~ ~~ ~~ .    /  \ \
+  @    @@@@@  \ @@@       @@   Crystalmir  .  /    \
+    /\ @@@@@@  \  @@      @@.     Lake   .
+   /  \ @    @  o  @@    @@.~~ ~~ ~~ ~~.
+  /    \ @   @@  \  @@   @@.~~ ~~ ~~ ~~.         Road to
+ /\  /\ @@@@@@@@@ \ @@     @.~~ ~~ ~~ .    @@@   Tantallon
+   \/  \_ @@   @@  o @@@   @@.~~ ~~  .    @@@  /
+   /     \@@    @@  \  @@   @.~~ ~  &&&  @@@  /
+   @@@@@@@@@     @@  \ @@   @@. ~~ &\|&&     /
+   @@@@@@@        @@  o @@   @.~~  &\|/&    /   /\
+   @@@@@@@ /\     @@@  \ @@@@  .~   }}{        /  \    /\
+   @@@  __/  \     @@@  \ @@           &&&    /   /\  /  \
+   @@  /  \   \      @@  o    SOLACE  &\|&&      /  \
+   @  /    \   \     @@@  \           &\|/&            /\
+     /   /\ Prayers  @@@@  \    &&&  | }}{          /\/  \
+        /  \Eye Peak   @@   o  &\|&& o             /  \   \
+   @@@@@@@@  __        @@@@  \ &\|/& |   &&&      
+   @@@@@@@@ /  \        @@@@  \ }}{  |  &\|&&         
+   @@@@@@  /    \        @@@@  o--o--o  &\|/&
+   @@@          /\ @@@@ @@@@   |         }}{       /\
+   @@@  DARKEN @@ \ @@@@ @@@@  o                  /  \ 
+   @@@   WOOD  @@@@@@@@@@ /\   |    
+   @@@                   /  \  o           /\
+   @@@      /\ @@@@@@@@@@       \         /  \          
+   @@@     / /\  @@@@@@@@@@/\    \    /\              
+   @@@    / /  \          /  \    o  /  \    @@@@
+   @@@@@@@@    @@@@@@@@@@    /\    \           @@@
+                            /  \    \
+                                     o--- Sageway ---
+                                    /                 \
+                                  %%%                  \
+                            Ruins of Gateway       to New Ports 
+::NEWMAP::
+solace_lower
+::MAPDATA::
+main_road2 40 5
+main_road3 40 8
+main_road4 40 11
+main_road5 40 14
+main_road6 40 20
+main_road7 40 23
+intersection 40 17
+square 37 20
+clearing1 28 20
+clearing2 34 20
+clearing3 46 20
+ns_path1 34 23
+ns_path2 34 26
+west_road1 37 17
+west_road2 34 17
+west_road3 31 17
+west_road4 28 17
+west_road5 25 14
+west_road6 22 11
+west_road7 19 8
+pier 16 8
+pier2 13 8
+lake1 19 5
+sts1 25 11
+sts2 28 11
+sts3 31 11
+sts4 28 14
+sts5 31 14
+sts6 34 14
+sts7 37 14
+smithy 22 17
+small_road1 37 11
+small_road2 34 11
+small_road3 31 8
+small_road4 31 5
+small_road5 28 8
+small_road6 25 8
+landing2 28 5
+park1 37 8
+park2 34 8
+east_road1 43 17
+east_road2 46 17 
+east_road3 49 17
+tent 49 14
+east1 52 17
+east2 55 17
+east3 58 17
+east4 61 17
+east5 64 17
+east6 67 14
+field1 55 14
+field2 58 14
+field3 61 14
+field4 64 14
+grass1 55 20
+grass2 58 20
+grass3 61 20
+grass4 55 23
+grass5 58 23
+entrance 58 26
+::MAPDATA::
+                                           to
+ ~~ ~~ ~~ ~~ ~~ ~~.                     Tantallon
+ ~ ~~ ~~ ~~ ~~ ~~ .|                       /
+  ~~ Crystalmir ~~.|  &&&         &&&     /
+ .~~ Lake ~~ ~~ ~~ | &\|&&       &\|&&   /
+  .~~ ~~ ~~ ~~ ~~  o &\|/&  o  u &\|/&  u
+   .~~ ~~ ~~ ~~ ~~ |  }}{   | /|  }}{  /|
+    .~~ ~~ ~~ ~~ ~ |        |/ |      / |   
+     .~~ ~~  2==1==o     o--o  o  o--o  o 
+      .~~ ~~ ~~ ~~ .\   /  /|\ |\       |  TOWN OF                   to
+       .~~ ~~ ~~ ~~ .\ /  / | \| \      |  SOLACE                Abanasinia 
+        . ~ ~~ ~~ .   u--o--o--o--o--u--o                          Plains 
+         . ~~ ~~ .     \ |\ | /|\ | /| /|                   
+                        \| \|/ | \|/ |/ |        %                  /
+                 &&&     o--o--o--o--o--o       /^\    o--o--o--o--o
+                &\|&&   / \ | /|\ | /|\ |        :     |  |  |  | /
+                &\|/&  /   \|/ | \|/ | \|        :     |  |  |  |/
+                 }}{  o     o--o--o--o--o--o--o--o--o--o--o--o--o
+                    Smith   |        |  |     |   \    |  |  |
+                            |        |  |     |    \   |  |  |
+                     &&&    u &&& u--o  o     u   # #  o--o--o
+                    &\|&&    &\|&&  / \ |          # # |  |  
+                    &\|/&    &\|/& /   \|       Solace |  |   
+                     }}{      }}{ o     o    Graveyard o--o
+                                  |     |                 |
+                                  |     |                 |  _
+                                  u     |                 o / \
+                                                           /   \
+  1 New Ports pier                      to                /    /\
+  2 Circle route                  Haven - Gateway        Gnomish
+    (Sparkle/Pelargir)               Crossroad           Settlement
+
+::NEWMAP::
+solace_upper
+::MAPDATA::
+bank 6 8
+adv_guild 16 11
+platform1 25 11
+platform2 28 5
+platform3 34 20
+platform4 22 20
+platform5 19 5
+platform6 22 26
+platform7 16 20
+platform8 10 11
+bridge_walk01 28 8
+bridge_walk02 31 8
+bridge_walk03 34 5
+bridge_walk04 31 5
+bridge_walk05 25 5
+bridge_walk06 22 8
+bridge_walk07 34 8
+bridge_walk08 34 11
+bridge_walk09 34 14
+bridge_walk10 34 17
+bridge_walk11 31 20
+bridge_walk12 28 17
+bridge_walk13 28 14
+bridge_walk14 28 23
+bridge_walk15 25 23
+bridge_walk16 22 17
+bridge_walk17 22 14
+bridge_walk18 22 11
+bridge_walk19 19 14
+bridge_walk20 19 17
+bridge_walk21 22 23
+bridge_walk22 19 23
+bridge_walk23 13 17
+bridge_walk24 10 14
+bridge_walk25 13 8
+bridge_walk26 16 5
+shop 31 17
+inn 28 4
+kitchen 28 4
+post_office 28 25
+wise_club 10 20
+house1 37 17
+house2 37 8
+house3 31 11
+house4 25 20
+house5 25 8
+house6 16 8
+house7 16 14
+tika 19 8 
+questmaster 34 4
+::MAPDATA::
+
+                      Inn of the   
+                      Last Home
+
+                           [i]   [T] Questmaster
+                o--d     o--d--o--o  Tarshir
+               /|   \   /|       /|
+              / |    \ / |      / |
+     [B]     o [h][h]-o [h] o--o  o-[h]
+        \   / \        \   / \    |
+         \ /   \        \ /   \   |
+          d    [A]    o--d    [h] o
+          |          /| / \       |
+          |         / |/   \      |
+          o    [p]-o  o     o     o
+           \       |  |     |     |
+            \      |  |     |     |       -= SOLACE BRIDGE-WALK =-
+             o     o  o     o-[S] o-[h]   
+            / \   /   |      \    |        A Adventurer's Guild
+           /   \ /    |       \   |        B Solace Bank
+         [W]    d     d [h]    o--d        P Solace Post Office
+                 \    |\ |    /            S Store
+       Chamber    \   | \|   /             T Questmaster Tarshir
+     of the Wise   o  o  o--o              i Inn of the Last Home
+                    \ |     |              h house
+                     \|    [P]             W Wise People of Genesis Club
+                      d                    p Portal to Faerie
+
+::NEWMAP::
+lake_path
+::MAPDATA::
+lake2 19 20  
+lake3 16 17  
+lake4 13 14 
+lake5 10 14 
+lake6 7 11 
+lake7 7 8  
+lake8 4 5  
+lake11 1 5  
+campfire 7 5  
+dock 4 14
+tent 9 5  
+::MAPDATA::
+
+   Ware                     /\
+ Minotaurs!                /  \
+    |                     /    \
+    |                /\
+ o--o--o ^          /  \/\
+  .  \             /    \ \
+  ~.  \        
+  ~ .  o         /\
+  ~~ . |        /  \
+  ~~ . |       /    \
+ ~~~   o
+ ~~  // \                      /\
+ ~~ // ~ \                    /  \
+ ~  o  ~  o--o               /    \
+      ~~      \
+  ~~ ~~ ~~ .   \ 
+   ~~ ~~ ~~ .   o
+~ Crystalmir ~~. \    &&&         &&&      
+  ~~ Lake ~~ ~~ . \  &\|&&       &\|&&    
+   ~~ ~~ ~~ ~~  .  o &\|/&       &\|/&   
+    ~~ ~~ ~~ ~~  . |  }}{         }}{  
+    ~~ ~~ ~~ ~~  . |
+               to Solace
+
+::NEWMAP::
+minotaur_camp
+::MAPDATA::
+path_01 12 17
+path_02 12 15
+village_ent 12 13
+village_01 12 11
+village_02 12 9
+village_03 12 7
+village_a 6 9 
+village_b 6 11
+village_c 9 11
+village_d 15 11
+village_e 18 11
+village_f 9 7
+village_g 15 7
+village_h 18 7
+village_i 18 5
+village_j 18 3
+village_tent_04 21 11
+village_tent_03 18 9
+village_tent_02 3 9
+village_tent_01 3 13
+village_hut_01 7 5
+village_hut_02 21 1
+village_hut_03 21 5
+village_fort_01 12 5 
+village_fort_02 11 5
+village_fort_03 12 4
+village_fort_04 13 5
+::MAPDATA::
+
+                    [o]
+                   /
+           ___    o
+          [ . ]   |             Village of the
+      [o] [...]   o-[o]      Toron Minotaur Tribe
+        \         |
+         o--o--o--o
+            |
+  [o]-o     o    [o]
+      |     |     |
+      o--o--o--o--o-[o] 
+     /      |
+  [o]       o
+            |
+            o
+            |
+            o
+            |
+   
+      to Crystalmir
+           Lake

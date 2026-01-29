@@ -1,0 +1,205 @@
+main
+::MAPDATA::
+road1 25 11 steppe
+road2 25 11 steppe
+road3 25 11 steppe
+road4 24 12 steppe
+road5 24 12 steppe
+road6 23 13 steppe
+road7 23 13 steppe
+road8 23 14 steppe
+road9 22 15 steppe
+road10 21 16 steppe
+road11 20 17 steppe
+camp 22 12 steppe
+gate 16 18 portbalifor
+guard1 16 18 portbalifor
+guard2 16 18 portbalifor
+city01 16 18 portbalifor
+city02 16 18 portbalifor
+city03 16 18 portbalifor
+city04 16 18 portbalifor
+city05 16 18 portbalifor
+city06 16 18 portbalifor
+city07 16 18 portbalifor
+city08 16 18 portbalifor
+city09 16 18 portbalifor
+city10 16 18 portbalifor
+city11 16 18 portbalifor
+city12 16 18 portbalifor
+city13 16 18 portbalifor
+city14 16 18 portbalifor
+city16 16 18 portbalifor
+city17 16 18 portbalifor
+city18 16 18 portbalifor
+city19 16 18 portbalifor
+city20 16 18 portbalifor
+city21 16 18 portbalifor
+pier01 16 18 portbalifor
+pier02 16 18 portbalifor
+pier03 16 18 portbalifor
+pier04 16 18 portbalifor
+wharf01 16 18 portbalifor
+wharf02 16 18 portbalifor
+wharf03 16 18 portbalifor
+wharf04 16 18 portbalifor
+shop 16 18 portbalifor
+pb_mageware_shop 16 18 portbalifor
+po 16 18 portbalifor
+inn 16 18 portbalifor
+inn_upstairs 16 18 portbalifor
+adv_guild 16 18 portbalifor
+bank 16 18 portbalifor
+board 16 18 portbalifor
+::MAPDATA::
+                     / ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                    : ~~~~~~~~~~Blood Bay ~~~~~~~~~~~~~~   ;:  ~~
+             ^     ' ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ,.--_--' /  ~~
+                  : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ :        :'  ~~
+              @    ` ~~~ Flotsam ~~~~~~~~~~~~~~~ .'         '. ~~
+       &      @@    . ~ '[o].  ~~ :\_.'. ~~ ,..,/    ___/    / ~~
+     .         @@    `_`  |  `   .      \..'    ,_. /       : ~~~
+     ~`:        @@@       |   ._'                  V  Dairy `: ~~
+     ~~ ._        @@@ @@@ |\_ @@@@@@@@@@@@@@@@@    :\ Plains ' ~~
+     ~~~  '          @@@@ | @\_ @@@@@@@@@@@@@@@@   '~`      : ~~~
+     ~~~~  `  -       @@@ | @@ \@ Kendermore @@@@ :~~~`:    ': ~~
+     ~~~~  '             /  @@@ \___[o] @@@@@@@@ / ~~~ /    , ~~~
+     ~~~~~  `   -  -  o /     @@@@@@@@@@@@@@@@@ ' ~~~  :    : ~~~
+     ~~~~~  '          |         @@@@@@@@@     /~~~~~~ `._.'.~~~~
+     ~~~~   :  -  -    |        __  @@@@@     / ~~~~~~~~~~~~~~~~~
+     ~~~~   ,         /   - -     \\  @@@      ~~~~~~~~~~~~~~~~~~
+     ~~~~~   `   -   /             |\ @     .' ~~~~~~~~~~~~~~~~~~
+     ~~~~~~   :     /       -      |~\   ,,. ~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~    [o] Port            ;~~:_ .' ~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~   .   Balifor        . ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~   '                 ' ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~   :    ,__ .      ..' ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~  '`--  ~~ ` ...'  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~~~~~  ~~~~~~~   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~~~ Bay of Balifor ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+::NEWMAP::
+steppe
+::MAPDATA::
+road1 48 6
+road2 48 8
+road3 48 10
+road4 45 13
+road5 42 16
+road6 39 19
+road7 39 21
+road8 39 23
+road9 36 26
+road10 33 29
+road11 30 32
+camp 36 16
+::MAPDATA::
+                       @@@@@@@@@@@@@@@@@@@@@@   |  @@@@@@@@@@@@@@
+                       @@@@.@@@@@@@@@..@@@@@@      @@@@@@@@@@@@@@
+                       @@@@@@@@@.@@@@@@@@@@@@ Road to @@@@@@.@@.@
+                        @..@@@@@@@@@@@@@@@@   Flotsam @@@@@@@@@@@
+                       @@@@@@@@@@@@@@..@@@      |     @@@@@@@@@@@      
+                         @@@@     @@@@@@@       |     @@@@@@.@@.@    
+                                                o        @@@@@@@@
+                                                |          @@@@@@
+                    ___     ___                 o   
+                                                |
+                                     v          o          v
+                                               /
+                                              /
+               ___     ___                   o 
+                                            /         .
+                                  .%.      /
+                                   `o     o     ___     ___
+                                     \   /
+            ___     ___               \ /
+                               .       o         Barren steppe
+                      v                |
+                                       o
+                  ___     ___          |     v      ___     ___   
+                                       o
+                                      /
+                                     /       ___     ___
+   \                 v              o
+   ~\                              /                   .
+   ~~\                            /            
+   ~~~|                          o                ___     ___
+   ~~~/:::::::::::::.           /
+   ~~/::::::::::::::::.        /
+   ~/:::::::::::::::::::.     o
+   /:::::::: Port ::::::::*  /           v
+   :::::::: Balifor ::::::* / 
+   ::::::::::::::::::::::::  **
+::NEWMAP::
+portbalifor
+::MAPDATA::
+gate 42 4
+guard1 40 2
+guard2 44 6
+city01 33 15
+city02 33 13
+city03 33 17
+city04 30 20
+city05 27 23
+city06 30 10
+city07 27 7
+city08 33 7
+city09 36 10
+city10 39 13
+city11 39 15
+city12 39 17
+city13 36 20
+city14 33 23
+city16 39 23
+city17 42 20
+city18 42 15
+pb_mageware_shop 46 15
+city19 42 10
+city20 39 7
+city21 36 4
+pier01 30 15
+pier02 27 13
+pier03 28 17
+pier04 30 13
+wharf01 24 10
+wharf02 21 13
+wharf03 24 20
+wharf04 21 17
+shop 46 10
+po 36 22
+inn 35 15
+inn_upstairs 35 15
+adv_guild 36 7
+bank 47 19
+board 37 15
+::MAPDATA::
+ ~ ~ ~ ~ ~ ~ ~ ~ ~`...
+ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ``.                    Road to
+                         `:        ___ [g]   Flotsam     
+   ~~ ~~ ~~ ~~ ~~ ~~ ~~    .      |/@\|  \ /       .-========================-. 
+                           &        o     o        | Port City of Balifor     |
+  ~~ ~~ ~~ ~~ ~~ ~~ ~~    &&       / \   / \       |                          |
+                         &&       / _ \ /  [g]     | 1 Pier to Sybarus        |
+ ~~ ~~ ~~ ~~ ~~ ~~ ~~   && o     o [a] o           | 2 Pier to Sanction       |
+         Bay           && /.\   / \ | / \     ___  | 3 Genesis ShipLines:     |
+  ~~ ~~  of ~ ~~ ~~ ~ && /~ ~\ /   \|/   \   /_\_\ |   Balifor-Telberin-Poros |
+         Balifor     && o  ~ /o     o     o--|s|_| | 4 Pier to Kurinost       |
+  ~~ ~~ ~~ ~~ ~~    && / ~~ //~\   / \   /|        | a Adventurer's guild     |
+                   && / ~~ //~ ~\ /   \ / |        | s Shop                   |
+ ~~ ~~ ~~ ~~ ~~   && o  ~  2  4~ o _   o  |   ___  | $ Bank                   |
+ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~  | ~|/^\_/|  |  /_\_\ | i Pig and Whistle Inn    |
+~ ~ ~ ~ ~ ~ ~ ~ ~  ~  ~ ~ ~ ~ 1--o|i|H|o--o--|m|_| | g Guard post             |
+ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ |    \|  |        | H Town hall (local board)| 
+ ~~ ~~ ~~ ~~ ~~   && o  ~ ~ 3 ~ ~o     o  |   ___  | m Port Balifor mageware  |
+      ~ ~ ~        && \~ ~  \\ ~/ \   / \ |  /^^^\ `-========================-'
+  ~~ ~~ ~~ ~~ ~~    && \~ ~  \\/   \ /   \|  | $ |
+    ~~~              && o ~ ~ o     o     o--|n|n|
+         ~~~          && \~ ~/ \   /|\   /
+    ~~ ~~ ~~ ~~ ~~     && \ /   \ /[P]\ /
+        ~~       ~~     && o     o-----o 
+            ~~     ~     && 
+ ~~ ~~ ~~ ~~ ~~            &..,
+                               `

@@ -1,0 +1,5 @@
+#define ROOMSK "/d/Krynn/icewall/castle2/rooms/"
+#define OBJK "/d/Krynn/icewall/castle2/obj/"
+#define NPCK "/d/Krynn/icewall/castle2/npc/"
+#define KARM "/d/Krynn/icewall/castle2/obj/armours/"
+#define KWEP "/d/Krynn/icewall/castle2/obj/weapons/"

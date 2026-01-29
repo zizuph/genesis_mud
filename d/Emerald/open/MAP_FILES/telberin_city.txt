@@ -1,0 +1,357 @@
+main
+::MAPDATA::
+apothecarium 39 10 scholars
+armoury 8 18 artisans
+arms_shop 8 18 artisans
+artisans_plaza 8 18 artisans
+artisans_way05 11 20 artisans
+artisans_way06 19 20 artisans
+artisans_way07 27 20 artisans
+auditorium 62 18 cantors
+bank 11 20 artisans
+cantors_plaza 62 18 cantors
+cantors_way05 59 16 cantors
+cantors_way06 51 16 cantors
+cantors_way07 43 16 main
+channelers_plaza 35 32 channelers
+channelers_way01 31 22 fruit
+channelers_way02 31 26 channelers
+channelers_way03 31 30 channelers
+common_board_room 31 21 fruit
+cmasters_chambers 62 18 cantors
+fruit01 31 20 fruit
+fruit02 31 20 fruit
+fruit03 31 20 fruit
+fruit04 31 20 fruit
+fruit05 31 20 fruit
+fruit06 31 20 fruit
+gazebo 31 21 fruit
+general_store 27 20 artisans
+grove 62 18 cantors
+jeweler_shop 19 20 artisans
+mage_guild1 35 32 channelers
+mage_guild2 35 32 channelers
+magic1 39 16 magic
+magic2 39 16 magic
+magic3 39 16 magic
+magic4 39 16 magic
+magic5 39 16 magic
+magic6 39 16 magic
+post 51 16 cantors
+royal_circle01 31 18 main
+royal_circle02 35 16 main
+royal_circle03 39 18 main
+royal_circle04 35 20 main
+scholars_way01 39 14 main
+scholars_way02 39 10 scholars
+scholars_way03 39 6 scholars
+scholars_plaza 35 4 scholars
+west_gate 8 18 artisans
+minstrel_guild 62 18 minstrels_guild
+minstrel_guild_hall1 62 18 minstrels_guild
+minstrel_guild_hall2 62 18 minstrels_guild
+minstrel_guild_hall3 62 18 minstrels_guild
+minstrel_guild_hall4 62 18 minstrels_guild
+minstrel_guild_hall5 62 18 minstrels_guild
+minstrel_guild_hall6 62 18 minstrels_guild
+minstrel_guild_hall7 62 18 minstrels_guild
+minstrel_guild_hall8 62 18 minstrels_guild
+::MAPDATA::
+              -**-  THE CITY OF TELBERIN IN EMERALD  -**-               
+                                                 
+                              SCHOLARS WAY                               
+                                                                      
+                                   o              
+                                 /   \                         
+                   #-----------#  ~~~  o------------#                      
+                 / ############|  ~~~  |             \                    
+               ###### Science #|  ~~~  | Science       #                    
+              / # \   Quarter #|  ~~~  | Quarter    /   \                  
+             ###### \ ##########  ~~~  o          /      #          
+            / ####### \ #######|  ~~~  |        /         \                
+           ############ \ #####|  ~~~  |      /            #        
+           | Mercantile # \ ###|  ~~~  |    /      Arts    |             
+  A        |  Quarter ##### \ ##  ~~~  o  /       Quarter  |            
+  R        |################ /   \   /   \                 |      C     
+  T        #-------#-------#   @   o   @   o-------o-------o      A 
+  I W    / ~~~~~~~~~~~~~~~~~ \   /   \   / ~~~~~~~~~~~~~~~~~ \    N W 
+  S A   o  ~~~~~~~~~~~~~~~~~   o   M   o   ~~~~~~~~~~~~~~~~~  o   T A
+  A Y    \ ~~~~~~~~~~~~~~~~~ /   \   /   \ ~~~~~~~~~~~~~~~~~ /    O Y
+  N        o-------o-------o   @   o   @   #-------#-------#      R 
+  S        | Mercantile      \   /   \   / ####### Arts ###|      S    
+           |  Quarter       /  o  ~~~  ## \ ##### Quarter #|        
+           |              /    |  ~~~  |### \ #############|        
+           #            /      |  ~~~  |##### \ ############     
+            \         /        |  ~~~  |####### \ ####### /        
+             #      /  Magic   o  ~~~  ## Magic # \ ######   
+              \   /   Quarter  |  ~~~  | Quarter ## \ # /          
+               #               |  ~~~  |################              
+                 \             |  ~~~  |############ /            
+                   #-----------o  ~~~  #-----------#            
+                                 \   /                      
+                                   o                                   
+                                                                      
+                             CHANNELERS WAY                         
+                                                                       
+                      @ = The Royal Gardens
+                      M = Palace within the Royal Circle  
+                      # = Areas burned in recent raids
+
+::NEWMAP::
+artisans
+::MAPDATA::
+armoury 17 6
+arms_shop 23 11
+artisans_plaza 17 11
+artisans_way05 26 16
+artisans_way06 50 16
+artisans_way07 74 16
+bank 26 18
+general_store 74 19
+jeweler_shop 50 18
+west_gate 5 11
+::MAPDATA::
+
+||    |:                      .------------------------------.
+||    |:                     |      Artisan's Way in the      |
+||    |:    __________       | Mercantile Quarter of Telberin |
+||    |:   /_________/|\      `------------------------------'                ,
+||   Eril's\_________\| |                                                   ,
+||  Armoury |__|\_\____\|  (repair work due to raids) - - - - - - - - - - o
+||    |:     \__||       ,                                                 `
+||    |:         |     ,               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  `
+||  /\|:         |   ,  ____        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|| | \\:         | ,   | /_/|\     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|| |-o - - - - - o - - | \_\| |    ~~~~~~~~~~~~~~~~Reflecting~~~~~~~~~~~~~~~~~~
+||  \             `    | | \_\|    ~~~~~~~~~~~~~~~~~~~~Pool~~~~~~~~~~~~~~~~~~~~
+||   \    Artisan's `  |_|\|Annu's  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+West  |:   Plaza      ` \_\|Arms       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   ,
+Gates |:                `                                                   ,
+||    |:                  o - - - - - - - - - - - o - - - - - - - - - - - o
+||    |:                 _|__               ______|__                __   |`
+||    |:      The Bank  /\ / \    Amshal's /________/|\    General  /  /`.|  `
+||    |:         of    | /\  |\     Fine   \__|| |\_\| |    Store .--./    `.
+||    |:      Telberin \____/\|    Jewelry  \ /_\|\___\|         /  _ `.    /
+||    |:                \_\_\/                \__\|             /   \\   `.//
+||    |:                                                         \___..___\/
+
+::NEWMAP::
+scholars
+::MAPDATA::
+apothecarium 57 21
+scholars_plaza 38 6
+scholars_way02 50 21
+scholars_way03 50 12
+::MAPDATA::
+           __       __________ ________________ ___________
+          / /\     /__________/_______________//__________/|\
+         / /  \    \__________|_______________|\__________\||  The Library
+        /_/ //\\    |  |\_____\_______________\|\____|  |\_\|    of Telberin
+        \ \ \\0\\   |  ||      \____\_\_\______\|    |  ||
+         \ \ \\ \\  |__||                            |__||
+ Clock    \ \ \\ \\  \__|             o               \__|
+   Tower   \ \ \\ \                 ,' `.
+            \ \ \\/               ,'     `.
+             \_\/               ,'   /\\   `.
+                              ,'     \\/     `.
+                            ,'     Obelisk     `.
+                          #'                     `o
+                          |                       |
+   .-----------------.    |                       |
+  |   Scholar's Way   |   |         ~~~~~         |
+  |      in the       |   |      ~~~~~~~~~~~      |
+  |  Science Quarter  |   |     ~~~~~~~~~~~~~     |
+  |    of Telberin    |   |     ~~~~~~~~~~~~~     |    The Apothecarium
+   `-----------------'    |     ~~~~~~~~~~~~~     |      ______
+                          |     ~~Reflecting~     |     |\ _ __\
+                          #     ~~~~~Pool~~~~     o - - |___|\_\|
+                          |     ~~~~~~~~~~~~~     |     \____\|
+                          |     ~~~~~~~~~~~~~     |
+
+
+
+::NEWMAP::
+fruit
+::MAPDATA::
+channelers_way01 37 31
+common_board_room 36 25
+fruit01 37 5
+fruit02 25 11
+fruit03 37 17
+fruit04 49 17
+fruit05 49 11
+fruit06 37 11
+gazebo 37 27
+::MAPDATA::
+                     .||:||:||:||:||:||:||:||:||:||.
+                  .||'                             '||.
+               .||'                                   '||.
+            .||'    The Royal                            '||.
+          ||'                                               '||
+          ==      Fruit Garden       o - - - - - - - - - - -:--:- - - - - - -
+          ||                       ,'|`.                     ||
+          ==                     ,'  |  `.                   ==
+          ||                   ,'    |    `.                 ||
+          ==                 ,'      |      `.               ==
+          ||               ,'        |        `.             ||
+          ==             o'- - - - - o - - - - -`o           ==
+          ||              `.         |`.         |           ||
+          ==                `.       |  `.       |           ==
+          ||                  `.     |    `.     |           ||
+          ==                    `.   |      `.   |           ==
+          ||.                     `. |        `. |          .||
+            '||.                    `o - - - - -`o       .||'
+               '||.                                   .||'                  ,'
+`.                '||.                             .||'                  ,'
+   `.                '||:||:||:||:||:||:||:||:||:||'                  ,'
+      `.                                                           ,'
+         `.                        ____                         ,'
+            `.                    /\,/ \_    Gazebo          ,'
+               `.                |'/\` |\ \               ,'
+                  `.             \____/\| /            ,'
+                     `.          /\_\_\/ /          ,'
+                        `.       \______/        ,'
+                           `.        |        ,'
+                              `.     |     ,'
+                                 `.  |  ,'
+                                    `o'
+                                     |
+                                     |
+::NEWMAP::
+magic
+::MAPDATA::
+magic1 37 5
+magic2 49 11
+magic3 37 17
+magic4 25 17
+magic5 25 11
+magic6 37 11
+::MAPDATA::
+                     .||:||:||:||:||:||:||:||:||:||.
+                  .||'                             '||.
+               .||'                                   '||.
+            .||'                           The Royal     '||.
+          ||'                                               '||
+- - - - -:--:- - - - - - - - - - - - o    Magic Garden       ==
+          ||                       ,' `.                     ||
+          ==                     ,'     `.                   ==
+          ||                   ,'         `.                 ||
+          ==                 ,'             `.               ==
+          ||               ,'                 `.             ||
+          ==             o'          o - - - - -`o           ==
+          ||             |`.                   ,'            ||
+          ==             |  `.               ,'              ==
+          ||             |    `.           ,'                ||
+          ==             |      `.       ,'                  ==
+          ||.            |        `.   ,'                   .||
+            '||.         o          `o'                  .||'
+               '||.                                   .||'                 
+                  '||.                             .||'                    
+                     '||:||:||:||:||:||:||:||:||:||'                    
+::NEWMAP::
+channelers
+::MAPDATA::
+channelers_plaza 38 17
+channelers_way02 26 2
+channelers_way03 26 11
+mage_guild1 56 17
+mage_guild2 59 13
+::MAPDATA::
+   .-----------------.    |     ~~~~~~~~~~~~~     |           
+  |  Channeler's Way  |   |     ~~Reflecting~     |
+  |      in the       |   o     ~~~~~Pool~~~~     #                 _  _
+  |   Magic Quarter   |   |     ~~~~~~~~~~~~~     |                /\_\ /|\_
+  |    of Telberin    |   |     ~~~~~~~~~~~~~     |               /    // \_\
+   `-----------------'    |     ~~~~~~~~~~~~~     |             _/ /  //    /
+                          |     ~~~~~~~~~~~~~     |            /\_\  // // /
+                          |      ~~~~~~~~~~~      |           /  \_\//____/
+                          |         ~~~~~         |          / /    / \_\_\
+                          |                       |        _/   /  /  //  /
+                          |                       |       /\_\    /      /
+                          o                       #      /  \_\  /  //  /
+                           `.      Fountain     ,'      / /  \_\/______/
+                             `.      ~~~      ,'       /       / \_\_\_\    
+                               `.   ~~~~~   ,'        /     / /       /     
+                                 `.  ~~~  ,'         / //'\  / // // /  
+                                   `.   ,'           \//  | /       /  
+                                     `o'- - - - - - - - -/ / // // /  The Mage
+                                                        / /       /  Guild of
+                                                        \/_______/  Telberin
+::NEWMAP::
+cantors
+::MAPDATA::
+auditorium 53 28
+cantors_plaza 53 18
+cantors_way05 43 13
+cantors_way06 13 13
+cmasters_chambers 53 10
+grove 63 8
+post 13 8
+::MAPDATA::
+                                    _________________
+                                   /________________/  ` .
+                                 .'     /  /.       `.     ` .  //|\\    ^
+                               .'      .-./  `.       `.      /   |     /|\
+              .              .'       /   `.   `.       `.   //         /|\
+            '/   ` .        '========/  \\\ `.   /========`.// The     //|\\  ^
+         ,  /       /          \____/=========`./\_________\/  Actors    |   /|
+        . '  ` .   / \    The Silver \    .    \  /_______       Guild       /|
+      ,__________`/  /     Swan Inn   \___\|\___\/       /     o            //|
+       \    .    \  /       (closed)       |    /_______/ \===.===.-===========
+ Post   \___\|\___\/                       |     \__\\\__\/\:.:__//____________
+ Office      |                             |         |      .  //          ____
+             |                             |         |     . /||           |\
+ - - - - - - o - - - - - - - - - - - - - - o         |    . / ||          /| \
+                                            `.       |   . |  ||         | |  \
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~             `.     |  .  |  ||         | |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~            `.   | .   |  ||         | |
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~        ~~~  `. |.    |/.||          /|
+~~~~~~~~Reflecting~~~~~~~~~~~~~~~~~~~       ~~~~~   `o - - - |||- - - - - -|
+~~~~~~~~~~~Pool~~~~~~~~~~~~~~~~~~~~~~        ~~~   .'|      / ||          /|
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~             .'  |     |  ||         | |  /
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~              .'    |     |  ||         | | /
+                                             .'      |     |  ||         | |/ 
+ - - - - - - # - - - - - - - - - - - - - - #'        |     |  ||          /'===
+                                                     |     |  ||         '-----
+    .----------------.                               |      \  \\    Minstrel's
+   |   Cantor's Way   |                              |        \  \\    Guild
+   |      in the      |                      ________|________  \  \\__________
+   |   Arts Quarter   |                     /                /    \ .==========
+   |    of Telberin   |                    /________________/|\
+    `----------------'      /=============| The Auditorium ||==============\
+
+::NEWMAP::
+minstrels_guild
+::MAPDATA::
+minstrel_guild 41 10
+minstrel_guild_hall1 41 7
+minstrel_guild_hall2 48 7
+minstrel_guild_hall3 55 7
+minstrel_guild_hall4 48 10
+minstrel_guild_hall5 55 10
+minstrel_guild_hall6 41 13
+minstrel_guild_hall7 48 13
+minstrel_guild_hall8 55 13
+::MAPDATA::
+
+    /_______/ \===.===.-===============================================
+     \__\\\__\/\:.:__//________________________________________________
+         |      .  //          ________________________________________
+         |     . /||           |                              /|
+         |    . / ||          /|           Outer Hall         ||
+`.       |   . |  ||         | |                              ||
+  `.     |  .  |  ||         | |         o - - -o- - - o      || 
+    `.   | .   |  ||         | |         | `.   |   .' |      ||
+ ~~~  `. |.    |/.||          /|         |   `. |.'    |      /|
+ ~~~~   `o - - - |||- - - - - -| - - - - o - - -o- - - o - - - | - -
+ ~~~   .'|      / ||          /|         |    .'|`.    |      /|
+     .'  |     |  ||         | |         |  .'  |   `. |      ||
+   .'    |     |  ||         | |         o - - -o- - - o      ||
+ .'      |     |  ||         | |                              ||
+'        |     |  ||         | | Minstrel's Guild of Telberin ||
+         |     |  ||          /'======================================'
+         |      \  \\        '----------------------------------------'
+         |        \  \\    
+                    \  \\_____________________________________________
+                      \ .=============================================
+                         

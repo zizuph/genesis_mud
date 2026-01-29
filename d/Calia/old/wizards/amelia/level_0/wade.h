@@ -1,0 +1,6 @@
+#define PEARL "/d/Calia/sea/objects/pearl.c"
+#define OYSTER "/d/Calia/sea/objects/oyster.c"
+#define MEAT "/d/Calia/sea/objects/oyster_meat.c"
+#define WATER "/d/Calia/sea/level0/"
+#define ROAD "/d/Calia/mountain/road/"
+#define BEACH "/d/Calia/mountain/road/beach"

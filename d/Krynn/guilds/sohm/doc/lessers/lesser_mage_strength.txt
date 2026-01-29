@@ -1,0 +1,40 @@
+
+     Spell name: Mage strength
+                 hewavers
+         Effect: increases physical strength of caster
+           Type: Instant
+        Targets: Caster
+        
+        Element: Earth          / 50
+           Form: Transmutation  / 50
+    Spell power: Power 3 [intermediate spell]
+     Spell type: regen_mana and stat_boost
+     
+       Peaceful: No
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: vial of minotaur blood (200cc)
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana
+     Difficulty: TASK_HARD
+     Combat Aid: 29% (20% regen mana; 9% strength boost) 
+
+            Tax:  0.5
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.75   Hard difficulty
+                  x0.8   material component (>=1 gp value) 
+                 ------
+                  0.3%  total tax
+   ------------------------------------------------------------
+   Comments: Spell base uses the regen_mana spell template,
+             however takes the stat_boost functions out of
+             that spell object and includes in the spell object
+             for this spell.
+
+   ------------------------------------------------------------

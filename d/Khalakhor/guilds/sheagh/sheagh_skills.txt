@@ -1,0 +1,14 @@
+Skill	Max	Untaxed	Taxed	Modify	Final Tax
+Sword   80	30	50	1.5	1.3
+Dagger	60	30	30	1.0	0.5
+Defence	75	20	55	1.5	1.4
+Parry	75	0	75	1.5	1.9
+Spellc	75	20	55	1.0	0.9
+Divin	50	20	30	1.0	0.5
+Enchant	75	20	55	1.0	0.9
+Earth	75	20	55	1.0	0.9
+Life	75	20	55	1.0	0.9
+Langu	60	30	30	1.0	0.5
+Awares	60	30	30	1.0	0.5
+
+				Total  10.2

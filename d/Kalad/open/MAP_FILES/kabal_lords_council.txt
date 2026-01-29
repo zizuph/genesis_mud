@@ -1,0 +1,21 @@
+main
+::MAPDATA::
+cl_up 2 4
+cl_lord 6 4
+cl_deb 6 6
+cl_hall2 2 8
+cl_off2 6 8
+cl_hall1 2 10
+cl_off1 6 10
+::MAPDATA::
+
+ Council
+ of Lords
+
+ [ ]- o
+
+      o          <>
+    /          .::::.
+ [ ]- o    @\\/W\/\/W\//@ 
+  |         \\/^\/\/^\//     
+  o - o      \_O_<>_O_/     

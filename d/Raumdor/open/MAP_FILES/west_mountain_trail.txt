@@ -1,0 +1,36 @@
+main
+::MAPDATA::
+mtrail01 1 13
+mtrail02 3 11
+mtrail03 5 9
+mtrail04 7 7
+mtrail05 9 5
+mtrail06 11 3
+mtrail07 13 1
+mtrail08 17 1
+mtrail09 19 3
+mtrail10 21 5
+mtrail11 25 5
+mtrail12 29 5
+mtrail13 31 7
+mtrail14 33 9
+mtrail15 35 11
+mtrail16 37 13
+mtrail17 41 13
+mtrail18 45 13
+::MAPDATA::
+             |
+ /\          o - o        /\
+/  \   /\   /     \      /  \/\
+ ^  \ / ^  o       o    /    \ \
+  ^  \    /         \
+         o           o - o - o
+        /                     \    /\
+/\     o                       o
+  \   /             /\          \     /\
+     o             /  \          o   /  \
+    /          /\      \/\        \   ^  \
+   o        /\/  \     /  \    /\  o   ^  \
+  /        / ^\   \/\         /  \  \
+ o        /    \  /  \       /    \  o - o - o
+/        /      \           /  /\  \          \

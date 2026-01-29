@@ -1,0 +1,178 @@
+/* the weapon/armour contrast spell of the solamnian knights */
+/* ***************************************************************************
+   /d/Krynn/solamn/guild/obj/perceive_spell.h
+         
+   NAME:       Contrast
+   COST:       20 Mana (5 for fail)
+   TAX:        0.50 (uses recharge technique instead of material component)
+   CLASS:      I (information)
+   AoE:	       object/target
+   TASK:       routine 
+   SKILLS:     SS_SPELLCRAFT, SS_ELEMENT_LIFE, SS_FORM_DIVINATION, 
+               SS_AWARENESS
+   STATS:      TS_WIS
+   DESC:       Success gives differences between two weapons or armours
+   REQUIRED:   Knight of Sword, Rose; not in combat.
+   
+               Grace October 1995
+               ~Aridor, 07/95
+*************************************************************************** */
+
+#define CONTRAST_MANA       20
+#define CONTRAST_MANA_FAIL   5
+#define CONTRAST_TASK       (TASK_ROUTINE)
+#define CONTRAST_LIST       ({SS_AWARENESS, \
+                              SKILL_WEIGHT, 50, SS_FORM_DIVINATION, \
+                              SKILL_WEIGHT, 50, SS_SPELLCRAFT, \
+                              TS_WIS})
+/*
+ * FORMULA: awareness + (divination+spellcraft)/2 + wis
+ */
+void
+create_spell_contrast()
+{
+    set_spell_element(SS_ELEMENT_LIFE, 20);
+    set_spell_form(SS_FORM_DIVINATION, 20);
+    set_spell_time(4);
+    set_spell_mana_needed(CONTRAST_MANA);
+    set_spell_mana_fail(CONTRAST_MANA_FAIL);
+    set_spell_area_function("my_area_of_effect");
+
+//    add_spell("contrast","contrast","contrast <weapon/armour> with <>");
+}
+
+string
+contrast_mutter(mixed target)
+{
+    return "reveal unto me the differences I seek";
+}
+
+
+mixed
+do_contrast(string str)
+{
+    object *ob, ob1, ob2;
+    string str1,str2;
+    int i1,i2,i3,i4, result;
+
+    if (TP->query_attack())
+      return "You are too distracted by the combat to cast this " +
+	"spell.\n";
+
+    if (!strlen(str))
+	  return "Contrast what with what?\n";
+
+    if (sscanf(str,"%s with %s",str1,str2) != 2)
+      {
+	  write("Contrast what with what?\n");
+	  return 0;
+      }
+
+    ob = FIND_STR_IN_OBJECT(str1,TP);
+    if (!ob || !sizeof(ob))
+      {
+	  write("Contrast what with what?\n");
+	  return 0;
+      }
+    ob1 = ob[0];
+    ob = FIND_STR_IN_OBJECT(str2,TP);
+    ob -= ({ ob1 });
+    if (!ob || !sizeof(ob))
+      {
+	  write("Contrast what with what?\n");
+	  return 0;
+      }
+ 
+    if (TP->query_mana() < CONTRAST_MANA)
+        return "You are too mentally exhausted to attempt this spell.\n";
+
+    reduce_spell_availability("perceive");
+
+    result = (TP->resolve_task(CONTRAST_TASK, CONTRAST_LIST));
+    if (result <= 0)
+      {
+	  write("Despite your best efforts, your prayer is unheard.\n");
+        TP->add_mana(- CONTRAST_MANA_FAIL);
+	  return 1;
+      }
+
+    /* give a malus if the spell wasn't rehearsed */
+    if (temp_spell_availability > 0)
+      result /= 2;
+
+
+    ob2 = ob[0];
+    if (ob1->check_armour() && ob2->check_armour())
+      {
+	  write("CMP ARMOUR\n");
+	  return 1;
+      }
+    if (ob1->check_weapon() && ob2->check_weapon())
+      {
+	  if (ob1->query_wep_type() != ob2->query_wep_type())
+	    {
+		write("The " + ob1->short() + " cannot be contrasted the " +
+		      ob2->short() + ".\n");
+		return 1;
+	    }
+	  write("As you hold the " + LANG_ASHORT(ob1) + " and the " + LANG_ASHORT(ob2) +
+	      " before you, they glow briefly.\n");      
+	  i1 = ob1->query_hit() + ob1->query_pen() - ob2->query_hit() -
+	    ob2->query_pen() - 5 + random(11, time() % 1000);
+	  i2 = ob1->query_value() - ob2->query_value() - 20 + random(41, time() % 1000);
+	  i3 = ob1->query_dull() + ob1->query_corroded() - ob2->query_dull() -
+	    ob2->query_corroded() - 2 + random(5, time() % 1000);
+	  i4 = ob1->query_weight() - ob2->query_weight() - 300 + random(601, time() % 1000);
+	  if (i1 > 10)
+	    str1 = " a much better weapon than ";
+	  else if (i1 > 1)
+	    str1 = " a better weapon than ";
+	  else if (i1 > -2)
+	    str1 = " an equally good weapon as ";
+	  else if (i1 > -11)
+	    str1 = " a worse weapon than ";
+	  else
+	    str1 = " a much worse weapon than ";
+	  write("The " + ob1->short() + " is" + str1 + "the " + ob2->short() + ".\n");
+	  if (i2 > 800)
+	    str1 = " a much more valuable weapon than ";
+	  else if (i2 > 100)
+	    str1 = " a more valuable weapon than ";
+	  else if (i2 > -100)
+	    str1 = " an equally valuable weapon as ";
+	  else if (i2 > -800)
+	    str1 = " a less valuable weapon than ";
+	  else
+	    str1 = " a much less valuable weapon than ";
+	  write("The " + ob1->short() + " is" + str1 + "the " + ob2->short() + ".\n");
+	  if (i3 > 10)
+	    str1 = " in a much better condition than ";
+	  else if (i3 > 1)
+	    str1 = " in a better condition than ";
+	  else if (i3 > -2)
+	    str1 = " in about the same condition as ";
+	  else if (i3 > -11)
+	    str1 = " in a worse condition than ";
+	  else
+	    str1 = " in a much worse condition than ";
+	  write("The " + ob1->short() + " is" + str1 + "the " + ob2->short() + ".\n");
+	  if (i4 > 750)
+	    str1 = " much heavier than ";
+	  else if (i4 > 100)
+	    str1 = " heavier than ";
+	  else if (i4 > -100)
+	    str1 = " as heavy as ";
+	  else if (i4 > -750)
+	    str1 = " lighter than ";
+	  else
+	    str1 = " much lighter than ";
+	  write("The " + ob1->short() + " is" + str1 + "the " + ob2->short() + ".\n");
+	  say(QCTNAME(TP) + " holds " + LANG_ASHORT(ob1) + " and " + LANG_ASHORT(ob2) +
+	      " in front of " + OBJECTIVE(TP) + " and murmurs a few words.\n" +
+	      "The weapons glow briefly.\n");
+	  return 1;
+      }
+    write("The " + str1 + " and " + str2 + " have too little in common to "+
+          "contrast them properly.\n");
+    return 0;
+}

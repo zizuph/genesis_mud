@@ -1,0 +1,24 @@
+Hi there, since Merrygrin asked me I have moved copies of Krynnian
+monster and creature files here. If you want you can inherit them
+instead of /std/monster.c or /std/creature.c .
+
+If you do this, your monster will be able to perform the command emote.
+So you could use the instruction: add_act("emote smiles at you"); for instance.
+
+When your monster kills another player, he will be get a grave on the Krynnian
+graveyard.
+
+You can use set_knight_prestige() and query_knight_prestige(). It would then
+affect the Solamnian Knights prestige when they killed a monster. You could
+set the knight prestige in a small child to -2 (lose 2 steps on the stat) 
+or am evil dragon to 2000, add 2000 experience points to the prestige stat
+in a Solamnian Knight.
+
+If you only want the players to be affected with prestige you can always
+define an own query_restige_knight() function in your monster that returns
+an appropriate integer.
+
+More functions will come in the future.
+
+Nick
+

@@ -1,0 +1,98 @@
+main
+::MAPDATA::
+maggotyard02 40 16 barnyard
+maggotyard01 40 16 barnyard
+maggotyard03 40 16 barnyard
+maggotyard04 40 16 barnyard
+maggotyard05 40 16 barnyard
+maggotyard06 40 16 barnyard
+maggotyard07 40 16 barnyard
+maggotyard08 40 16 barnyard
+maggotyard09 40 16 barnyard
+maggotyard10 40 16 barnyard
+maggotyard11 40 16 barnyard
+maggothall01 40 16 barnyard
+maggotparlor 40 16 barnyard
+maggotbed 40 16 barnyard
+maggothall02 40 16 barnyard
+maggotkitchen 40 16 barnyard
+maggotbath 40 16 barnyard
+maggotbarn01 40 16 barnyard
+maggotbarn02 40 16 barnyard
+maggotbarn03 40 16 barnyard
+maggotbarn04 40 16 barnyard
+maggotbarn05 40 16 barnyard
+maggotbarn06 40 16 barnyard
+::MAPDATA::
+
+                                  Annuminas
+                                      O ~~
+                 Hills of Evendium    |  ~~   +---------+
+                                      |   ~~  |THE SHIRE|
+                                       \   ~~ +---------+        Fornost
+                             Greenfields\   ~~                      o
+                                    o----\   ~~~                    |
+                                          \    ~~~                  |
+          ~~                       HOBBITON\     ~~~                |
+         ~~~          Greenholm       O     \      ~~~              |
+       ~~~~               o           |     |Frogmorton             |   BREE
+     GREY HAVENS       MICHEL DELVING |     o------===--------------+----O---
+   ~~~~~~O---------------------O------+*--\/   |  Brandywine        |
+  ~~~~~~~                      |Three Farthing |    Bridge          |
+ ~~~~~~~       \               |    Stone      o   ~~~     Barrow   |
+ ~~~~~          o         Hard o            Whitfurrows     Downs   |
+ ~~~    Rockfriends      bottle \----\            ~~~               |
+ ~~                                   \--------- ~~~ o--------------\
+ ~                                             ~~~  Sarn Ford        \
+          Blue Mountains                     ~~~                      \
+                                           ~~~                         \
+
+::NEWMAP::
+barnyard
+::MAPDATA::
+maggotyard02 4 20
+maggotyard01 8 20
+maggotyard03 12 20
+maggotyard04 16 20
+maggotyard05 16 18
+maggotyard06 16 14
+maggotyard07 16 11
+maggotyard08 12 11
+maggotyard09 8 11
+maggotyard10 20 20
+maggotyard11 24 20
+maggothall01 8 16
+maggotparlor 4 16
+maggotbed 12 16
+maggothall02 8 14
+maggotkitchen 4 14
+maggotbath 12 14
+maggotbarn01 24 16
+maggotbarn02 20 16
+maggotbarn03 24 14
+maggotbarn04 20 14
+maggotbarn05 24 12
+maggotbarn06 20 12
+::MAPDATA::
+
+
+           @
+          @                       
+      __[]_                    
+     /\  _ \                  
+    /  \____\       _______ ,-,  
+    |[]| [] |     /  \  [|]\|=|  
+                 |_""_|_____| |  
+                 |_o__|_[x]_|_|                            
+                       Barn    
+        o - o - o  _______  
+   _____|_____  | | o - o | 
+H |     |     | | |     | | 
+o | o - o - o | o | o - o | 
+u |     |     | | |     | | 
+s | o - o - o | | | o - o |
+e |_____|_____| | |_____|_|
+        |       o       |   
+        |       |       |   
+    o - o - o - o - o - o  
+        |

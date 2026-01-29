@@ -1,0 +1,36 @@
+
+     Spell name: Polymorph self - bird form
+                 thirkualtiui
+         Effect: Travel form
+           Type: Maintained
+        Targets: Caster
+        
+        Element: Earth       / 50
+           Form: Transmutation / 60
+    Spell power: Power 2 [minor spell]
+     Spell type: shapeshift spell
+     
+       Peaceful: Yes
+     Stationary: Yes
+          Vocal: Yes
+         Visual: Yes
+       
+     Components: wari wing (leftover)
+     
+   Casting time:  4s 
+                   
+      Mana cost: Standard, 30 mana
+     Difficulty: TASK_HARD
+     Combat Aid: 0%
+
+            Tax:   0.25   
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.75  HARD difficulty
+                  x1.0   material component (cost < 1 gp)
+                 ------
+                  0.19%  total tax
+   ------------------------------------------------------------
+   Comments: A cosmetic travel spell.
+   ------------------------------------------------------------

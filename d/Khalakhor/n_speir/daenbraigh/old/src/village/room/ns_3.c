@@ -1,0 +1,45 @@
+/*
+ * Village road north-south #3
+ * TAPAKAH 04/2005
+ */
+
+#pragma strict_types
+
+#include <stdproperties.h>
+#include <macros.h>
+#include "/d/Khalakhor/sys/defs.h"
+#include "/d/Khalakhor/sys/terrain.h"
+#include "../../daenbraigh.h"
+#include "../../village/village.h"
+
+inherit V_ROAD_BASE;
+inherit DAENBRAIGH_BASE;
+
+void
+create_khalakhor_room()
+{
+  ::create_gvillage_road();
+
+  set_long(query_long() + " There are huts on the both sides of the road, "  +
+	   "to the south it is getting duller and the path goes towards the "+
+	   "center of the village in the north. " +  "@@query_garbage_desc");
+
+  add_exit("hut6","east",0);
+  add_exit("hut5","west",0);
+  add_exit("ns_4","south",0);
+  add_exit("crossing","north",0);
+
+  ::complete_creation();
+}
+
+void
+init()
+{
+  ::init();
+}
+
+int *
+query_local_coords()
+{
+  return ({-5,2});
+}

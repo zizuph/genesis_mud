@@ -1,0 +1,34 @@
+main
+::MAPDATA::
+t_cabin 60 13
+t_deck 48 13
+::MAPDATA::
+ ____________________________________________________________________________ 
+|                                                                            |
+|   Genesis ShipLines                                  Dabaay - Port Last    |
+|                                                                            |
+|      Welcome to the                                                        |
+|         Calathin Commoner                                                  |
+|                                   (|                                       |
+|                                  ((|                                       |
+|                           _ _ _ (((|_ _ _ _ _ _ _ _ _ _ _                  |
+|                    . ~ `     $  (((|         $       |    `.               |
+|              .~`                (((|                 |      `              |
+|           .`                    (((|                 |       |             |
+|        .` =__=                   .`|.                |       |             |
+|      - ===C__|                  (  O )        o           o  |             |
+|        `. =  =                   `.|`       _ _ _    |       |             |
+|           `.                    (((|         ]]]]|   |       |             |
+|               `~. $             (((|         ]]]]|   |      .              |
+|                    ` ~ .  _ _ _ (((|_ _ _ _ _-_-_|_$_|_ _ .`               |
+|                                 (((|                                       |
+|                                  ((|                                       |
+|                                   (|                                       |
+|      The crew of the Calathin                                              |
+|      Commoner are not responsible                    Fresh seafood         |
+|      for lost or stolen goods.                          and drinks         |
+|      Please keep an eye on your                      available in          |
+|                  own things.                            the Galley         |
+|                                                                            |
+|                                                                            |
+|____________________________________________________________________________|

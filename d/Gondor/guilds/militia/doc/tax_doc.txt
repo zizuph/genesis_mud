@@ -1,0 +1,89 @@
+*****************************************************************************
+          TAX INFORMATION FOR THE THORNLIN MILITIA GUILD (Layman)
+*****************************************************************************
+AG = Adventures Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)
+
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+General
+--------------------------------------------------------------------------
+SS_WEP_POLEARM         50         30          20         1.5         0.500
+SS_DEFENCE             50         20          30         1.5         0.750
+SS_PARRY               50          0          50         1.5         1.250
+SS_AWARENESS           50         30          20         1.0         0.333  
+SS_TRADING             50         30          20         1.0         0.333 
+SS_LANGUAGE            50         30          20         1.0         0.333
+--------------------------------------------------------------------------
+Totals                300        140         160                     3.50%
+
+--------------------------------------------------------------------------
+Guild Specific Skills
+--------------------------------------------------------------------------
+SS_MILITIA            50          0           0         0.0         0.000
+SS_MILITIA_IMPAL      50          0           0         0.0         0.000
+--------------------------------------------------------------------------
+             
+Taxable Slots Allowed   : 350
+Actual Taxable Slots    : 160
+
+TOTAL TAX FOR SKILLS : 3.5%
+        
+
+================
+COMBAT SPECIALS:
+================
+
+JAB (Uses skill SS_MILITIA)
+
+    Jab is a damage special that can be used when one is wielding a
+    polearm. The idea is to jab at your opponents quickly from a
+    distance. Jab cannot be used at the same time as evade. The total
+    combat aid for Jab is 40%.
+
+    Tax for jab: 40 / 6 = 6.68%
+
+EVADE (Uses skill SS_MILITIA)
+
+    Evade is a evade special that lasts for on average 18 seconds,
+    and grants a total combat aid of 40%. It cannot be used at
+    the same time as jab.
+
+    Tax for evade: 42 / 6 = 6.68%
+    
+IMPALE (Uses skill SS_MILITIA_IMPALE)
+
+    Impale is a very weak damage special that is used only once when
+    the militia is attacked. It's rated at 3% combat aid and is not
+    using the new Genesis specials system to calculate aid.
+           
+    Tax for impale: 3 / 6 = 0.5% 
+    
+TOTAL TAX FOR SPECIALS: 7.18% (Jab and Evade overlap each other)
+
+
+====================
+ADDITIONAL FEATURES:
+====================
+
+None
+
+TOTAL TAX FOR ADDITIONAL FEATURES: 0%
+
+
+***************************************************************************
+             Taxation Summary
+***************************************************************************
+Warriors:
+    Skill Tax Total        :  3.50    
+    Combat Specials        :  7.18  
+    Additional Features    :  0.00   
+                             ----
+    Total Tax              : 10.68
+
+    Rounded Total Tax      : 11%
+
+*****************************************************************************
+
+Document by Petros, September 2008

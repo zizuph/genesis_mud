@@ -1,0 +1,5 @@
+#include "../defs.h"
+#define ROAD "/d/Calia/mountain/road/"
+#define HERMIT "/d/Calia/sea/creatures/hermit.c"
+#define HERBS "/d/Krynn/common/herbs/"
+#define WOR_TEMPLE "/d/Calia/worshippers/temple/"

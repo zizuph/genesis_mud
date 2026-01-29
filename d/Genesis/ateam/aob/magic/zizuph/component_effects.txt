@@ -1,0 +1,31 @@
+
+Compensation for component collection time
+==========================================
+
+In practice, mage guilds can take 20-30% of their time collecting herbs for their spellcasting.
+In order to account for this lost combat time, we provide bonus CAID to various spells
+depending on their relative work for herbing.
+
+There are three tiers set up, and are applied spell by spell, based on the time needed to
+collect herbs or other components.  The combat aid is a multiplier applied post white-hit
+boost.  These are based on a core assumption of about 15 seconds per herb collection time,
+which active spellcasters should be able to do consistently.
+
+Maintained spells (those that last 15, 30 minutes etc) typically do not receive the 
+modifier, as the herbing time is minimal compared to the effect time.
+
+set_spell_component_factor(COMPONENT_AID_LOW);  1.1x multiplier
+
+This is intended for spells that have a potion that lasts many casts.  A rough guideline
+is 3 minutes of spellcasting for one herb can merit this bonus.
+
+set_spell_component_factor(COMPONENT_AID_MEDIUM);  1.2x multiplier
+
+This is intended for cases that may fall between the other two, perhaps only a half dozen
+charges per potion, for example.
+
+set_spell_component_factor(COMPONENT_AID_HIGH);  1.3x multiplier
+
+This is intended for damage spells that have a one herb per cast cost.  Due to the
+large boost, and potential PVP advantage, this doesn't compensate the caster in full,
+based on a 15 second collection time.

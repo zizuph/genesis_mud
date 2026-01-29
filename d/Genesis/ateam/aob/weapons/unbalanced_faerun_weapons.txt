@@ -1,0 +1,1337 @@
+File: /d/Faerun/mere/mausoleum/loot_drops1/l_3_2haxe
+query_ac: 30
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 5000
+query_shield_slots: 0
+_obj_i_value: 15000
+_obj_m_no_sell: The huge long-handled mithril cleaver rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 60
+_obj_s_wizinfo: This is a Legendary weapon dropping from monsters in the Forest of Shadows, Ravenloft. This is an extremely rare weapon to obtain.
+The weapon deals additional damage, randomly (light, electricity, acid and cold), and the weapon does not dull.
+
+query_likely_corr: 0
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 60
+query_attack_id: 0
+query_likely_dull: 0
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: axe
+_magic_am_id_info: This weapon has been enhanced by strong magic.
+|The enhancement makes the weapon much deadlier than normal weapons, and resistant to wear and tear from usage.
+|The weapon contains strong magical energies.
+|The energies will occasionally lash out at anyone stricken by the weapon.
+|Which magical energy that dominates the weapon during combat will vary.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/red_cliffs/drop_loot_dir/l_3_axe
+query_ac: 30
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 5000
+query_shield_slots: 0
+_obj_i_value: 15000
+_obj_m_no_sell: The sturdy long-handled mithril cleaver rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 60
+_obj_s_wizinfo: This is a Legendary weapon dropping from loot chest in Red Cliffs, Faerun. This is an extremely rare weapon to obtain.
+The weapon deals additional damage, randomly (light, electricity, acid and cold), and the weapon does not dull or break.
+
+query_likely_corr: 0
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 60
+query_attack_id: 0
+query_likely_dull: 0
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: axe
+_magic_am_id_info: This weapon has been enhanced by strong magic.
+|The enhancement makes the weapon much deadlier than normal weapons, and resistant to wear and tear from usage.
+|The weapon contains strong magical energies.
+|The energies will occasionally lash out at anyone stricken by the weapon.
+|Which magical energy that dominates the weapon during combat will vary.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/chult/concept_planning/boss_encounter/drop_loot_dir/l_3_axe
+query_ac: 30
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 5000
+query_shield_slots: 0
+_obj_i_value: 15000
+_obj_m_no_sell: The sturdy long-handled mithril cleaver rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 60
+_obj_s_wizinfo: This is a Legendary weapon dropping from loot chest in Red Cliffs, Faerun. This is an extremely rare weapon to obtain.
+The weapon deals additional damage, randomly (light, electricity, acid and cold), and the weapon does not dull or break.
+
+query_likely_corr: 0
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 60
+query_attack_id: 0
+query_likely_dull: 0
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: axe
+_magic_am_id_info: This weapon has been enhanced by strong magic.
+|The enhancement makes the weapon much deadlier than normal weapons, and resistant to wear and tear from usage.
+|The weapon contains strong magical energies.
+|The energies will occasionally lash out at anyone stricken by the weapon.
+|Which magical energy that dominates the weapon during combat will vary.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/l_3_axe
+query_ac: 30
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 5000
+query_shield_slots: 0
+_obj_i_value: 15000
+_obj_m_no_sell: The sturdy long-handled mithril cleaver rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 60
+_obj_s_wizinfo: This is a Legendary weapon dropping from monsters in the Forest of Shadows, Ravenloft. This is an extremely rare weapon to obtain.
+The weapon deals additional damage, randomly (light, electricity, acid and cold), and the weapon does not dull or break.
+
+query_likely_corr: 0
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 60
+query_attack_id: 0
+query_likely_dull: 0
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: axe
+_magic_am_id_info: This weapon has been enhanced by strong magic.
+|The enhancement makes the weapon much deadlier than normal weapons, and resistant to wear and tear from usage.
+|The weapon contains strong magical energies.
+|The energies will occasionally lash out at anyone stricken by the weapon.
+|Which magical energy that dominates the weapon during combat will vary.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/e_3_axe
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 4500
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The moon-bladed spiked battleaxe rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the monsters in Forest of Shadows, Ravenloft. It adds 50 to _live_i_quickness at the wielder.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: axe
+_magic_am_id_info: This weapon has been enhanced by magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon will magically enhance the speed of the wielder.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/e_tomb_set_axe
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 4500
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The Jakredak's bone axe rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the chest in the ancient tomb, Forest of Shadows, Ravenloft. It procs magical cold damage.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: axe
+_magic_am_id_info: This weapon has been enhanced by potent magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon contains potent cold magic.
+|The cold magic will occasionally lash out at anyone stricken by the weapon.
+
+query_slots: 
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/e_3_2haxe
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 4500
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The moon-bladed spiked waraxe rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the monsters in Forest of Shadows, Ravenloft. It adds 50 to _live_i_quickness at the wielder.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: axe
+_magic_am_id_info: This weapon has been enhanced by magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon will magically enhance the speed of the wielder.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/chult/concept_planning/boss_encounter/drop_loot_dir/e_3_2haxe
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 4500
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The moon-bladed spiked waraxe rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the loot chest in the Red Cliffs, Faerun. It adds 50 to _live_i_quickness at the wielder.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: axe
+_magic_am_id_info: This weapon has been enhanced by magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon will magically enhance the speed of the wielder.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/red_cliffs/drop_loot_dir/e_3_2haxe
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 4500
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The moon-bladed spiked waraxe rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the loot chest in the Red Cliffs, Faerun. It adds 50 to _live_i_quickness at the wielder.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: axe
+_magic_am_id_info: This weapon has been enhanced by magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon will magically enhance the speed of the wielder.
+
+query_slots: 
+-----------------------------------------
+File: /d/Faerun/red_cliffs/drop_loot_dir/l_3_mace
+query_ac: 30
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 2500
+query_shield_slots: 0
+_obj_i_value: 15000
+_obj_m_no_sell: The black-diamond spiked ebony mace rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 60
+_obj_s_wizinfo: This is a Legendary weapon dropping from loot chest in Red Cliffs, Faerun. This is an extremely rare weapon to obtain.
+The weapon deals additional damage, randomly (light, electricity, acid and cold), and the weapon does not dull or break.
+
+query_likely_corr: 0
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 60
+query_attack_id: 0
+query_likely_dull: 0
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: club
+_magic_am_id_info: This weapon has been enhanced by strong magic.
+|The enhancement makes the weapon much deadlier than normal weapons, and resistant to wear and tear from usage.
+|The weapon contains strong magical energies.
+|The energies will occasionally lash out at anyone stricken by the weapon.
+|Which magical energy that dominates the weapon during combat will vary.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/chult/concept_planning/boss_encounter/drop_loot_dir/l_3_mace
+query_ac: 30
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 2500
+query_shield_slots: 0
+_obj_i_value: 15000
+_obj_m_no_sell: The black-diamond spiked ebony mace rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 60
+_obj_s_wizinfo: This is a Legendary weapon dropping from loot chest in Red Cliffs, Faerun. This is an extremely rare weapon to obtain.
+The weapon deals additional damage, randomly (light, electricity, acid and cold), and the weapon does not dull or break.
+
+query_likely_corr: 0
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 60
+query_attack_id: 0
+query_likely_dull: 0
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: club
+_magic_am_id_info: This weapon has been enhanced by strong magic.
+|The enhancement makes the weapon much deadlier than normal weapons, and resistant to wear and tear from usage.
+|The weapon contains strong magical energies.
+|The energies will occasionally lash out at anyone stricken by the weapon.
+|Which magical energy that dominates the weapon during combat will vary.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/l_3_mace
+query_ac: 30
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 2500
+query_shield_slots: 0
+_obj_i_value: 15000
+_obj_m_no_sell: The black-diamond spiked ebony mace rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 60
+_obj_s_wizinfo: This is a Legendary weapon dropping from monsters in the Forest of Shadows, Ravenloft. This is an extremely rare weapon to obtain.
+The weapon deals additional damage, randomly (light, electricity, acid and cold), and the weapon does not dull or break.
+
+query_likely_corr: 0
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 60
+query_attack_id: 0
+query_likely_dull: 0
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: club
+_magic_am_id_info: This weapon has been enhanced by strong magic.
+|The enhancement makes the weapon much deadlier than normal weapons, and resistant to wear and tear from usage.
+|The weapon contains strong magical energies.
+|The energies will occasionally lash out at anyone stricken by the weapon.
+|Which magical energy that dominates the weapon during combat will vary.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/e_tomb_set_club
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 2250
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The Jakredak's bone club rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the chest in the ancient tomb, Forest of Shadows, Ravenloft. It procs magical cold damage.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: club
+_magic_am_id_info: This weapon has been enhanced by potent magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon contains potent cold magic.
+|The cold magic will occasionally lash out at anyone stricken by the weapon.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/e_3_mace
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 2250
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The ivory spiked mace rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the monsters in Forest of Shadows, Ravenloft. It adds 50 to _live_i_quickness at the wielder.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: club
+_magic_am_id_info: This weapon has been enhanced by magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon will magically enhance the speed of the wielder.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/l_3_2hmace
+query_ac: 30
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 2500
+query_shield_slots: 0
+_obj_i_value: 15000
+_obj_m_no_sell: The black-diamond spiked ebony warmace rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 60
+_obj_s_wizinfo: This is a Legendary weapon dropping from monsters in the Forest of Shadows, Ravenloft. This is an extremely rare weapon to obtain.
+The weapon deals additional damage, randomly (light, electricity, acid and cold), and the weapon does not dull.
+
+query_likely_corr: 0
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 60
+query_attack_id: 0
+query_likely_dull: 0
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: club
+_magic_am_id_info: This weapon has been enhanced by strong magic.
+|The enhancement makes the weapon much deadlier than normal weapons, and resistant to wear and tear from usage.
+|The weapon contains strong magical energies.
+|The energies will occasionally lash out at anyone stricken by the weapon.
+|Which magical energy that dominates the weapon during combat will vary.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/e_3_2hmace
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 2250
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The ivory spiked warmace rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the monsters in Forest of Shadows, Ravenloft. It adds 50 to _live_i_quickness at the wielder.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: club
+_magic_am_id_info: This weapon has been enhanced by magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon will magically enhance the speed of the wielder.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/e_tomb_set_2hclub
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 2250
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The Jakredak's large bone club rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the chest in the ancient tomb, Forest of Shadows, Ravenloft. It procs magical cold damage.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: club
+_magic_am_id_info: This weapon has been enhanced by potent magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon contains potent cold magic.
+|The cold magic will occasionally lash out at anyone stricken by the weapon.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/chult/concept_planning/boss_encounter/drop_loot_dir/e_3_2hmace
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 2250
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The ivory spiked warmace rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the loot chest in the Red Cliffs, Faerun. It adds 50 to _live_i_quickness at the wielder.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: club
+_magic_am_id_info: This weapon has been enhanced by magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon will magically enhance the speed of the wielder.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/red_cliffs/drop_loot_dir/e_3_2hmace
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 2250
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The ivory spiked warmace rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the loot chest in the Red Cliffs, Faerun. It adds 50 to _live_i_quickness at the wielder.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: club
+_magic_am_id_info: This weapon has been enhanced by magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon will magically enhance the speed of the wielder.
+
+query_slots: 
+-----------------------------------------
+File: /d/Faerun/chult/concept_planning/boss_encounter/drop_loot_dir/l_3_staff
+query_ac: 30
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 6000
+query_shield_slots: 0
+_obj_i_value: 15000
+_obj_m_no_sell: The orange-veined ash-black staff rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 60
+_obj_s_wizinfo: This is a Legendary weapon dropping from loot chest in Red Cliffs, Faerun. This is an extremely rare weapon to obtain.
+The weapon deals additional damage, randomly (light, electricity, acid and cold), and the weapon does not dull or break.
+
+query_likely_corr: 0
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 60
+query_attack_id: 0
+query_likely_dull: 0
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: polearm
+_magic_am_id_info: This weapon has been enhanced by strong magic.
+|The enhancement makes the weapon much deadlier than normal weapons, and resistant to wear and tear from usage.
+|The weapon contains strong magical energies.
+|The energies will occasionally lash out at anyone stricken by the weapon.
+|Which magical energy that dominates the weapon during combat will vary.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/l_3_staff
+query_ac: 30
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 6000
+query_shield_slots: 0
+_obj_i_value: 15000
+_obj_m_no_sell: The orange-veined ash-black staff rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 60
+_obj_s_wizinfo: This is a Legendary weapon dropping from monsters in the Forest of Shadows, Ravenloft. This is an extremely rare weapon to obtain.
+The weapon deals additional damage, randomly (light, electricity, acid and cold), and the weapon does not dull or break.
+
+query_likely_corr: 0
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 60
+query_attack_id: 0
+query_likely_dull: 0
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: polearm
+_magic_am_id_info: This weapon has been enhanced by strong magic.
+|The enhancement makes the weapon much deadlier than normal weapons, and resistant to wear and tear from usage.
+|The weapon contains strong magical energies.
+|The energies will occasionally lash out at anyone stricken by the weapon.
+|Which magical energy that dominates the weapon during combat will vary.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/red_cliffs/drop_loot_dir/l_3_staff
+query_ac: 30
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 6000
+query_shield_slots: 0
+_obj_i_value: 15000
+_obj_m_no_sell: The orange-veined ash-black staff rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 60
+_obj_s_wizinfo: This is a Legendary weapon dropping from loot chest in Red Cliffs, Faerun. This is an extremely rare weapon to obtain.
+The weapon deals additional damage, randomly (light, electricity, acid and cold), and the weapon does not dull or break.
+
+query_likely_corr: 0
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 60
+query_attack_id: 0
+query_likely_dull: 0
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: polearm
+_magic_am_id_info: This weapon has been enhanced by strong magic.
+|The enhancement makes the weapon much deadlier than normal weapons, and resistant to wear and tear from usage.
+|The weapon contains strong magical energies.
+|The energies will occasionally lash out at anyone stricken by the weapon.
+|Which magical energy that dominates the weapon during combat will vary.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/e_3_spear
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 5500
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The scrimshaw tipped spear rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the monsters in Forest of Shadows, Ravenloft. It adds 50 to _live_i_quickness at the wielder.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: polearm
+_magic_am_id_info: This weapon has been enhanced by magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon will magically enhance the speed of the wielder.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/e_tomb_set_scythe
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 5500
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The Jakredak's bone scythe rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the chest in the ancient tomb, Forest of Shadows, Ravenloft. It procs magical cold damage.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: polearm
+_magic_am_id_info: This weapon has been enhanced by potent magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon contains potent cold magic.
+|The cold magic will occasionally lash out at anyone stricken by the weapon.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/l_3_2hstaff
+query_ac: 30
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 6000
+query_shield_slots: 0
+_obj_i_value: 15000
+_obj_m_no_sell: The long orange-veined ash-black staff rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 60
+_obj_s_wizinfo: This is a Legendary weapon dropping from monsters in the Forest of Shadows, Ravenloft. This is an extremely rare weapon to obtain.
+The weapon deals additional damage, randomly (light, electricity, acid and cold), and the weapon does not dull.
+
+query_likely_corr: 0
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 60
+query_attack_id: 0
+query_likely_dull: 0
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: polearm
+_magic_am_id_info: This weapon has been enhanced by strong magic.
+|The enhancement makes the weapon much deadlier than normal weapons, and resistant to wear and tear from usage.
+|The weapon contains strong magical energies.
+|The energies will occasionally lash out at anyone stricken by the weapon.
+|Which magical energy that dominates the weapon during combat will vary.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/chult/concept_planning/boss_encounter/drop_loot_dir/e_3_2hspear
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 5500
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The long scrimshaw tipped spear rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the loot chest in the Red Cliffs, Faerun. It adds 50 to _live_i_quickness at the wielder.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: polearm
+_magic_am_id_info: This weapon has been enhanced by magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon will magically enhance the speed of the wielder.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/e_3_2hspear
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 5500
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The long scrimshaw tipped spear rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the monsters in Forest of Shadows, Ravenloft. It adds 50 to _live_i_quickness at the wielder.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: polearm
+_magic_am_id_info: This weapon has been enhanced by magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon will magically enhance the speed of the wielder.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/e_tomb_set_2hscythe
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 5500
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The Jakredak's large bone scythe rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the chest in the ancient tomb, Forest of Shadows, Ravenloft. It procs magical cold damage.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: polearm
+_magic_am_id_info: This weapon has been enhanced by potent magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon contains potent cold magic.
+|The cold magic will occasionally lash out at anyone stricken by the weapon.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/red_cliffs/drop_loot_dir/e_3_2hspear
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 5500
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The long scrimshaw tipped spear rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the loot chest in the Red Cliffs, Faerun. It adds 50 to _live_i_quickness at the wielder.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: polearm
+_magic_am_id_info: This weapon has been enhanced by magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon will magically enhance the speed of the wielder.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/l_3_sword
+query_ac: 30
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 3400
+query_shield_slots: 0
+_obj_i_value: 15000
+_obj_m_no_sell: The iridicent golden-hilted sword rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 60
+_obj_s_wizinfo: This is a Legendary weapon dropping from monsters in the Forest of Shadows, Ravenloft. This is an extremely rare weapon to obtain.
+The weapon deals additional damage, randomly (light, electricity, acid and cold), and the weapon does not dull or break.
+
+query_likely_corr: 0
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 60
+query_attack_id: 0
+query_likely_dull: 0
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: sword
+_magic_am_id_info: This weapon has been enhanced by strong magic.
+|The enhancement makes the weapon much deadlier than normal weapons, and resistant to wear and tear from usage.
+|The weapon contains strong magical energies.
+|The energies will occasionally lash out at anyone stricken by the weapon.
+|Which magical energy that dominates the weapon during combat will vary.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/red_cliffs/drop_loot_dir/l_3_sword
+query_ac: 30
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 3400
+query_shield_slots: 0
+_obj_i_value: 15000
+_obj_m_no_sell: The iridicent golden-hilted sword rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 60
+_obj_s_wizinfo: This is a Legendary weapon dropping from loot chest in Red Cliffs, Faerun. This is an extremely rare weapon to obtain.
+The weapon deals additional damage, randomly (light, electricity, acid and cold), and the weapon does not dull or break.
+
+query_likely_corr: 0
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 60
+query_attack_id: 0
+query_likely_dull: 0
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: sword
+_magic_am_id_info: This weapon has been enhanced by strong magic.
+|The enhancement makes the weapon much deadlier than normal weapons, and resistant to wear and tear from usage.
+|The weapon contains strong magical energies.
+|The energies will occasionally lash out at anyone stricken by the weapon.
+|Which magical energy that dominates the weapon during combat will vary.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/chult/concept_planning/boss_encounter/drop_loot_dir/l_3_sword
+query_ac: 30
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 3400
+query_shield_slots: 0
+_obj_i_value: 15000
+_obj_m_no_sell: The iridicent golden-hilted sword rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 60
+_obj_s_wizinfo: This is a Legendary weapon dropping from loot chest in Red Cliffs, Faerun. This is an extremely rare weapon to obtain.
+The weapon deals additional damage, randomly (light, electricity, acid and cold), and the weapon does not dull or break.
+
+query_likely_corr: 0
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 60
+query_attack_id: 0
+query_likely_dull: 0
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: sword
+_magic_am_id_info: This weapon has been enhanced by strong magic.
+|The enhancement makes the weapon much deadlier than normal weapons, and resistant to wear and tear from usage.
+|The weapon contains strong magical energies.
+|The energies will occasionally lash out at anyone stricken by the weapon.
+|Which magical energy that dominates the weapon during combat will vary.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/e_3_sword
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 3000
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The rune-etched obsidian longsword rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the monsters in Forest of Shadows, Ravenloft. It adds 50 to _live_i_quickness at the wielder.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: sword
+_magic_am_id_info: This weapon has been enhanced by magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon will magically enhance the speed of the wielder.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/e_tomb_set_longsword
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 3000
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The Jakredak's bone longsword rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Any_Hand
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the chest in the ancient tomb, Forest of Shadows, Ravenloft. It procs magical cold damage.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: sword
+_magic_am_id_info: This weapon has been enhanced by potent magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon contains potent cold magic.
+|The cold magic will occasionally lash out at anyone stricken by the weapon.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/l_3_2hsword
+query_ac: 30
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 3400
+query_shield_slots: 0
+_obj_i_value: 15000
+_obj_m_no_sell: The iridicent golden-hilted longsword rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 60
+_obj_s_wizinfo: This is a Legendary weapon dropping from monsters in the Forest of Shadows, Ravenloft. This is an extremely rare weapon to obtain.
+The weapon deals additional damage, randomly (light, electricity, acid and cold), and the weapon does not dull.
+
+query_likely_corr: 0
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 60
+query_attack_id: 0
+query_likely_dull: 0
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: sword
+_magic_am_id_info: This weapon has been enhanced by strong magic.
+|The enhancement makes the weapon much deadlier than normal weapons, and resistant to wear and tear from usage.
+|The weapon contains strong magical energies.
+|The energies will occasionally lash out at anyone stricken by the weapon.
+|Which magical energy that dominates the weapon during combat will vary.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/chult/concept_planning/boss_encounter/drop_loot_dir/e_3_2hsword
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 3000
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The rune-etched obsidian greatsword rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the loot chest in the Red Cliffs, Faerun. It adds 50 to _live_i_quickness at the wielder.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: sword
+_magic_am_id_info: This weapon has been enhanced by magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon will magically enhance the speed of the wielder.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/e_tomb_set_2hlongsword
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 3000
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The Jakredak's bone greatsword rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the chest in the ancient tomb, Forest of Shadows, Ravenloft. It procs magical cold damage.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: sword
+_magic_am_id_info: This weapon has been enhanced by potent magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon contains potent cold magic.
+|The cold magic will occasionally lash out at anyone stricken by the weapon.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/red_cliffs/drop_loot_dir/e_3_2hsword
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 3000
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The rune-etched obsidian greatsword rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the loot chest in the Red Cliffs, Faerun. It adds 50 to _live_i_quickness at the wielder.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: sword
+_magic_am_id_info: This weapon has been enhanced by magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon will magically enhance the speed of the wielder.
+
+query_slots: 
+
+-----------------------------------------
+File: /d/Faerun/mere/mausoleum/loot_drops1/e_3_2hsword
+query_ac: 25
+query_props: _obj_i_volume|_magic_am_magic|_obj_m_no_sell|_obj_i_value|_obj_i_is_magic_weapon|_magic_am_id_info|_obj_s_wizinfo|_obj_i_weight
+_obj_i_weight: 3000
+query_shield_slots: 0
+_obj_i_value: 10000
+_obj_m_no_sell: The rune-etched obsidian greatsword rejects being sold since it is 'keep' protected. In case you want to sell it, 'unkeep' it first.
+
+query_at: 0
+_obj_i_is_magic_weapon: 1
+query_hands: Both_Hands
+query_hit: 50
+_obj_s_wizinfo: This is en epic weapon dropping from the monsters in Forest of Shadows, Ravenloft. It adds 50 to _live_i_quickness at the wielder.
+
+query_likely_corr: 5
+query_likely_break: 7
+query_likely_cond: 0
+_magic_am_magic: enchantment
+query_protects: 
+query_pen: 50
+query_attack_id: 0
+query_likely_dull: 5
+query_am: 
+_obj_i_volume: 1000
+query_ac_modifier: 0
+query_wt: sword
+_magic_am_id_info: This weapon has been enhanced by magic.
+|The enhancement makes the weapon deadlier than normal weapons.
+|The weapon will magically enhance the speed of the wielder.
+
+query_slots: 

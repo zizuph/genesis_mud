@@ -1,0 +1,125 @@
+The Distillers of Khalakhor - Craft Guild
+
+1. General
+
+The Distillers of Khalakhor are a Craft Guild that allows members to:
+* Distill their own hard spirits
+* Consume these spirits
+* Sell them in pubs
+* Taste existing spirits and compare their potency
+* Evaluate how many drinks of a type they can consume to go to EO
+
+The guild will be located in the western area of the plains
+surrounding Port Macdunn, next to a small river, for the freshwater
+necessary for distilling.
+
+2. Distilling
+
+The distiller shall apply for distilling a certain spirit from the
+guild master. Based on random factors and the economical situation,
+the guild master may approve the application or suggest a different
+spirit. After achieving mastery in that spirit the distiller can
+switch to a different spirit as well.
+
+The distiller needs to gather components for the spirit he or she is
+specializing in. Some of them would be available in the guild. Some
+may need a bit more of an effort. The instructions for distillation of
+each spirit are in the guild library.
+
+With the components at hand, the distiller may start the process. In
+the corresponding room the equipment should be operated to produce a
+container of spirit that will later need to age.
+
+The aging will be in scale of 1 gameday = 1 year of aging.
+
+The resulting spirit will be of a slightly randomized alcohol content,
+and of randomized quality, function of the distilling skill and good
+control of the distilling process. A bad quality drink can poison the
+consumer (mana poison).
+
+Aging:
+* Improves slightly the alcohol content (angels' share)
+* Improves significantly the price
+* Does not affect the quality unless aged for too long.
+
+The spirits can be examined by the Guildmaster to prevent low quality
+drinks from leaving the guild.
+
+3. Consumption of spirits.
+
+The spirits can be poured into bottles (available in the guild, or the
+ones coming from Calia, etc.) Then they can be drunk. Low quality
+drinks can cause poison, otherwise they're regular alcoholic drinks.
+
+4. Trading in spirits.
+
+The spirits can be sold by bottles or by barrels. There will be a pub
+in Khalakhor that will implement the initial support for spirit
+trade. The price of the drink will be determined by:
+* The age of the spirit
+* The reputation of the distiller:
+  - previous trades
+  - guild level
+* The availability of the drink itself at the pub
+* The availability of the hard spirits at the pub
+
+The bartender/the owner shall taste the spirit before the
+transaction. If the quality is low, and/or the bartender gets
+poisoned, the reputation suffers a heavy blow, and the trade is
+outright rejected. The next successfull trade will be at a very low
+price.
+
+Each successfull trade yields general experience not dissimilar to the
+Minstrel performances at the pubs.
+
+5. Tasting
+
+Based on the Tasting skill of the distiller, he or she can compare two
+drinks and rule which one is stronger. That should be completely
+similar to the appraise object/value implementation. It will not
+change the drinks, but will cost a tiny bit of mana to the distiller.
+
+6. Evaluation
+
+Similarly to the comparison of drinks, the distiller can estimate how
+much of the drink he or she can consume before getting extremely
+obliviated.
+
+7. Guild rooms
+
+* Start location
+* Join room
+* Guildmaster study
+* Library
+* Shop
+* Distilling halls:
+  - whisky (barley)
+  - rum (sugar)
+  - brandy (grapes)
+  - calvados (apples)
+  - more to come
+* Each hall also has a barrel storage room
+
+8. Skills in the guild:
+
+* Trading: Sup. Craftsman
+* Appraise Object: Sup. Journeyman
+* Appraise Value: Sup. Journeyman
+* Herbalism: Sup. Layman
+* Alchemy: Sup. Layman
+* Tasting: Sup. Guru
+* Distilling: Sup. Guru
+
+Training of all skills depends on the following stats of the member:
+(except Tasting - see below)
+* Guild Age in days/seconds. 50 days required for max skills.
+* Guild Level is in successful distillation attempts/pub trades. 100
+of each are required for max skills
+* Guild Exp via tax. Stat 100 is required for max skills.
+
+Tasting skill level can only be achieved by tasting the corresponding
+number of various spirits (soft / alco <= 3) in a way somewhat similar
+to adaptability training of the Mercenaries.
+
+Appendix: Further enhancements
+* Spice and flavor the drinks with herbs and fruit

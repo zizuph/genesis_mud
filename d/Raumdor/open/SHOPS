@@ -1,0 +1,24 @@
+SHOPS
+=====
+
+Drakmere Eqiupment Store
+Room:   common/drakmere/shop/eshop.c
+Store:  common/drakmere/shop/estore.c
+
+Drakmere General Store
+Room:   common/drakmere/shop/gshop.c
+Store:  common/drakmere/shop/store.c
+
+Gentlemans Club Guest Shop
+Room:   guilds/gc/room/gshop.c
+Store:  guilds/gc/room/store.c
+
+
+
+BANKS
+=====
+
+Drakmere Bank (ID: 3504, "Drakmere")
+common/drakmere/shop/d_bank.c
+
+

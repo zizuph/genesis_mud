@@ -1,0 +1,31 @@
+domain,quest desc,group,bit,validation,arguments
+Avenir,Elven Ghost,0,0,default
+Avenir,Magic Square,0,2,default
+Avenir,Rat Hunt,0,3,default
+Avenir,Return Book,0,5,default
+Avenir,Help Fisherman,0,6,default
+Avenir,Jadestone's Letter,0,7,default
+Avenir,Relieve Itch,0,8,default
+Avenir,Infidel Plans,0,9,default
+Avenir,Nochipa's Head,0,10,default
+Avenir,Thirsty Kilnar,0,12,default
+Avenir,Tomato Drop,0,13,default
+Avenir,Rescue Faerie,0,14,default
+Avenir,Jadestone's Flower,0,15,default
+Avenir,Bury Bones,0,17,default
+Avenir,Wolf Song,0,18,default
+Avenir,Runed Falchion,0,19,default
+Avenir,Bakona's Hat,1,0,default
+Avenir,Statue Defiler,1,3,default
+Avenir,Ry'nals Gift,1,10,default
+Avenir,Cheynal's Perfumes,1,11,default
+Avenir,Gemdust Delivery,1,12,default
+Avenir,Labal's Ring,2,0,default
+Avenir,Berion's Letter,2,1,default
+Avenir,Trout Fishing,2,2,default
+Avenir,Union Bit #1,3,0,always_false,3,0
+Avenir,Union Bit #2,3,1,always_false,3,1
+Avenir,Union Bit #3,3,2,always_false,3,2
+Avenir,Union Bit #4,3,3,always_false,3,3
+Avenir,Union Bit #4,3,4,always_false,3,4
+

@@ -1,0 +1,31 @@
+Revelations provide the disciple with information about the Gods and past 
+events influenced by the Gods.  They are unlocked through exploration and
+doing certain actions.
+
+They collection of revelations does have a minor influence on level
+progression, with the more enlightened the player is from revelations
+the more experience you get attributed towards your guild stat
+(see notify_you_killed_me(object victim) function in the guild shadow).
+
+The Aspect of Paladine  - Elistan 
+The Aspect of Mishakal  - Statue of Mishakal Xak Tsaroth / joining 
+The Aspect of Kiri-Jolith - the Spire / joining
+The Aspect of Habbakuk - centaur pool                                    
+The Aspect of Branchala - inn, Kendermore
+The Aspect of Majere - Kalaman garden                                      
+The Aspect of Solinari - Solinaith herb                                    
+Edification - the Church of Paladine - underwater Bloodsea temple
+Edification - the Disks of Mishakal - Xak Tsaroth  
+Edification - Canticle of the Dragon, verse 1 and 2 - Pax Tharkas 
+              painting     
+Edification - Canticle of the Dragon, verse 3 and 4 - statue of Huma 
+              in VK
+Edification - Canticle of the Dragon, verse 5 and 6 - Palanthas library       
+Edification - Canticle of the Dragon, verse 7 and 8 - Temple of Chemosh       
+Enlightenment - the Age of Starbirth - Shaman outside Solace                      
+Enlightenment - Ogre Races and the Curse of Paladine - ogre magi
+Enlightenment - the Lightbringer - bloodsea of Istar
+Enlightenment - The Fall of Istar, the Thirteen Warnings - Dargaard Keep
+Enlightenment - the Order of the Divine Hammer - witch in Mithas Forest
+Enlightenment - the Innfellows - Inn of the Last Home Solace / eat 
+                spiced potatoes

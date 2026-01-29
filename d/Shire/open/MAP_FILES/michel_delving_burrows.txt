@@ -1,0 +1,142 @@
+main
+::MAPDATA::
+1 31 13 md_1
+1a 31 13 md_1
+1b 31 13 md_1
+1c 31 13 md_1
+1d 31 13 md_1
+1f 31 13 md_1
+1g 31 13 md_1
+2 31 13 md_2
+2a 31 13 md_2
+2b 31 13 md_2
+2c 31 13 md_2
+2d 31 13 md_2
+2f 31 13 md_2
+2g 31 13 md_2
+3 31 13 md_3
+3a 31 13 md_3
+3b 31 13 md_3
+3c 31 13 md_3
+3d 31 13 md_3
+3f 31 13 md_3
+3g 31 13 md_3
+4 31 13 md_4
+4a 31 13 md_4
+4b 31 13 md_4
+4c 31 13 md_4
+4d 31 13 md_4
+4f 31 13 md_4
+4g 31 13 md_4
+5 31 13 md_5
+5a 31 13 md_5
+5b 31 13 md_5
+5c 31 13 md_5
+5d 31 13 md_5
+5f 31 13 md_5
+5g 31 13 md_5
+::MAPDATA::
+
+                                  Annuminas
+                                      O ~~
+                 Hills of Evendium    |  ~~   +---------+
+                                      |   ~~  |THE SHIRE|
+                                       \   ~~ +---------+        Fornost
+                             Greenfields\   ~~                      o
+                                    o----\   ~~~                    |
+                                          \    ~~~                  |
+          ~~                       HOBBITON\     ~~~                |
+         ~~~          Greenholm       O     \      ~~~              |
+       ~~~~               o           |     |Frogmorton             |   BREE
+     GREY HAVENS       MICHEL DELVING |     o------===--------------+----O---
+   ~~~~~~O---------------------O------+*--\/   |  Brandywine        |
+  ~~~~~~~                      |Three Farthing |    Bridge          |
+ ~~~~~~~       \               |    Stone      o   ~~~     Barrow   |
+ ~~~~~          o         Hard o            Whitfurrows     Downs   |
+ ~~~    Rockfriends      bottle \----\            ~~~               |
+ ~~                                   \--------- ~~~ o--------------\
+ ~                                             ~~~  Sarn Ford        \
+          Blue Mountains                     ~~~                      \
+                                           ~~~                         \
+
+
+::NEWMAP::
+md_1
+::MAPDATA::
+1 46 15
+1a 46 18
+1b 46 12
+1c 46 9
+1d 36 9
+1f 46 6
+1g 36 6
+::MAPDATA::
+
+                                   ==============
+                                   Michel Delving
+                                        Smial
+                                   ==============
+
+                                    O  -----  O
+                                              |
+                                              |
+                                    O  -----  O
+                                              |
+                                              |
+                                              O
+                                              |
+                                              |
+                                              O =
+                                              |
+                                              |
+                                              O
+::NEWMAP::
+md_2
+::MAPDATA::
+2 41 9
+2a 41 6
+2b 41 12
+2c 47 15
+2d 53 18
+2f 35 15
+2g 35 18
+::MAPDATA::
+
+                                   ==============
+                                   Michel Delving
+                                        Smial
+                                   ==============
+
+                                         O
+                                         |
+                                         |
+                                         O =
+                                         |
+                                         |
+                                         O
+                                       /   \
+                                     /       \
+                                   O           O
+                                   |             \
+                                   |               \
+                                   O                 O
+::NEWMAP::
+md3
+::MAPDATA::
+
+::MAPDATA::
+
+                                ===============
+                                Greenholm Smial
+                                ===============
+
+                                       o                
+                                     /   \              
+                                   /       \            
+                        = o ----- o          o ----- o                                    
+                                   \         |                                     
+                                     \       o  o         
+                                       \        |    
+                                         o ---- o -- o                         
+                                                |          
+                                                o          

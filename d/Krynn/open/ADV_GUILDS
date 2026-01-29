@@ -1,0 +1,52 @@
+Krynn Adventurer Guilds
+=======================
+
+Last modified by:
+Teth, Feb 19, 1997
+
+This document is intended to outline the location of and skills
+offered by Adventurer Guilds in the Krynn domain. It is important
+to keep in mind, whatever the case, the Adventurer Guilds can not
+train more than a sum of 400 levels of skills, and those skills
+offered must conform to the details as outlined by 'man skills'.
+
+Solace 'House of Adventurers'
+    - /d/Krynn/solace/new_village/adv_guild.c
+    - Trainer : Sasha (/d/Krynn/solace/new_village/npc/sasha.c)
+
+Skills offered:
+---------------
+Animal Handling      30
+Appraise Monster     30
+Appraise Object      30
+Climb                45
+Club                 20
+Defence              20
+Location Sense       30
+Open Lock            20
+Polearm              15
+Sneak                15
+Swim                 45
+Sword                30
+-----------------------
+                    330 out of a possible 400 allowable.
+
+Vingaard Keep Adventurer's Guild
+    - /d/Krynn/solamn/vin/room/adv_guild.c
+    - Talia (/d/Krynn/solamn/vin/npc/talia.c)
+
+Skills offered:
+---------------
+Animal Handling      30
+Appraise Enemy       30
+Appraise Object      30
+Axe                  30
+Blindfighting        20
+Knife                30
+Sword                30
+Tracking             30
+Unarmed Combat       20
+-----------------------
+                    250 out of a possible 400 allowable.
+
+

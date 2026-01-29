@@ -1,0 +1,26 @@
+Quest Name:  Cheynal Perfumes
+     Group:  1
+       Bit:  11
+       Exp:  5000
+     Align:  0
+  Prestige:  0
+
+
+Cheynal Perfumes:
+----------------
+
+Cheynal will be willing to make specially commissioned 
+perfumes for players, but she needs some help getting
+ingredients. She gives the player a list of 5+ items
+that are generated randomly for each player.
+
+Some of these items may be found outside sybarus, mainly
+herbs. Once the player completes the list and brings
+back all the items, s/he receives a modest reward and
+is able to access the special perfumes.
+
+The player will have the duration of a reboot to try and
+complete their list, upon the next, they will need to
+start over with a new list.
+
+Related files:   /d/Avenir/common/city/zigg/mon/cheynal.c

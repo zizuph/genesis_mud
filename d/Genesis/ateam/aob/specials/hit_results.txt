@@ -1,0 +1,5410 @@
+Weapon Hit: The hit of the wielded weapon.
+Special Hit: The hit of the special used.
+Stat: The stat of the player executing the special.
+Enemy: The enemy stat value.
+Weight: The percent weight held by the user.
+Enemy Weight: The weight held by the enemy
+White: The percent white hit pen value (All is based on 100 pen)
+Spec: The percent special pen value
+Compare: The comparative value of the old special
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  65.38974358973984 Spec:  65.06153846153501 Compare:  66.01282051281618 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  63.658974358972216 Spec:  62.907692307690866 Compare:  63.62564102563891 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  62.53589743589634 Spec:  62.09999999999931 Compare:  62.282051282050425 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  60.5384615384623 Spec:  60.14358974359088 Compare:  60.75897435897492 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  58.079487179490236 Spec:  58.68717948718198 Compare:  59.020512820515 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  57.20769230769618 Spec:  56.86666666667085 Compare:  56.36410256410722 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  55.597435897441265 Spec:  56.020512820517794 Compare:  55.50512820513366 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  54.40000000000648 Spec:  54.55641025641659 Compare:  55.06153846154433 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  53.05128205128979 Spec:  52.74358974359777 Compare:  52.641025641033764 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  51.133333333342854 Spec:  51.87692307693191 Compare:  51.32820512821447 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  90.39743589740885 Spec:  90.12564102561423 Compare:  89.6538461538198 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  88.25641025638521 Spec:  87.91282051279579 Compare:  87.69999999997547 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  85.92307692305404 Spec:  85.82564102561824 Compare:  85.62051282049022 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  83.6615384615177 Spec:  83.9333333333123 Compare:  83.6615384615177 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  81.56410256408375 Spec:  81.32564102562243 Compare:  82.68974358972372 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  78.98461538459897 Spec:  79.86153846152123 Compare:  79.34871794870119 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  77.9589743589589 Spec:  77.55128205126697 Compare:  78.08461538459981 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  75.93589743588386 Spec:  75.1128205128077 Compare:  75.58974358973033 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  73.75897435896282 Spec:  73.82307692306532 Compare:  74.06923076921893 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  71.51538461537515 Spec:  71.9948717948619 Compare:  72.1871794871694 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  109.9948717948265 Spec:  110.67692307687715 Compare:  109.60512820508328 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  107.18461538457271 Spec:  107.36666666662381 Compare:  107.45384615380323 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  105.30769230765138 Spec:  104.51282051278032 Compare:  105.01794871790806 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  102.35128205124387 Spec:  102.6512820512436 Compare:  101.56410256406512 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  99.820512820477 Spec:  99.8282051281693 Compare:  99.74102564098989 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  97.33333333329983 Spec:  97.92051282047878 Compare:  97.14615384612051 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  94.80512820509706 Spec:  94.82307692304576 Compare:  95.18205128201978 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  91.96666666663816 Spec:  92.64871794868881 Compare:  92.5051282050992 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  89.99230769228103 Spec:  91.0307692307416 Compare:  90.15641025638344 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  88.58205128202593 Spec:  88.37948717946202 Compare:  88.1641025640776 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  126.61025641019565 Spec:  126.67435897429814 Compare:  126.49999999993933 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  123.53846153840362 Spec:  123.85128205122385 Compare:  123.91282051276225 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  120.2820512819964 Spec:  120.34871794866301 Compare:  119.99487179481719 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  116.66410256405106 Spec:  117.52051282046051 Compare:  118.26923076917777 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  114.96410256405264 Spec:  114.5051282050787 Compare:  115.67692307687248 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  111.4794871794405 Spec:  111.22307692303049 Compare:  111.5512820512353 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  108.86923076918653 Spec:  109.43846153841676 Compare:  109.24615384610925 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  106.30256410252224 Spec:  106.55897435893226 Compare:  106.71794871790648 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  103.54102564098636 Spec:  104.26410256406261 Compare:  104.0641025640628 
+
+
+Weapon Hit: 40 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  101.75128205124443 Spec:  101.20256410252699 Compare:  101.77435897432133 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  81.96410256408338 Spec:  81.84707429317592 Compare:  81.58717948716065 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  79.5282051281882 Spec:  79.42445759363947 Compare:  80.17948717946965 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  78.09230769229211 Spec:  78.12616699535066 Compare:  77.30512820511335 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  75.50769230767914 Spec:  75.63267587109374 Compare:  75.1179487179359 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  73.34358974357858 Spec:  74.05733070344304 Compare:  74.67692307691067 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  71.88461538460558 Spec:  72.46909927675226 Compare:  71.57179487178536 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  70.39743589742748 Spec:  69.4086127547315 Compare:  69.91282051281254 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  68.48461538460874 Spec:  68.46147271528507 Compare:  68.13589743589112 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  66.46923076922602 Spec:  65.81012491778708 Compare:  66.54871794871312 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  64.53076923076628 Spec:  65.48152531226484 Compare:  64.30512820512546 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  113.69999999995126 Spec:  113.6986850755121 Compare:  113.64102564097695 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  110.27179487174932 Spec:  110.51900065737051 Compare:  110.0282051281598 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  107.82307692303365 Spec:  107.63570019715095 Compare:  106.44358974354776 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  104.74871794867754 Spec:  104.62353714653051 Compare:  105.19999999995918 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  102.21025641021836 Spec:  101.81755424055146 Compare:  102.12051282047486 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  100.01282051278451 Spec:  100.56114398414293 Compare:  99.27435897432366 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  98.16410256406829 Spec:  96.4600920446351 Compare:  97.40769230765873 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  94.74871794868686 Spec:  95.05226824450554 Compare:  94.32051282048212 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  92.69999999997081 Spec:  92.56199868500865 Compare:  92.59743589740681 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  91.11282051279281 Spec:  91.05752794207844 Compare:  89.91794871792212 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  137.8153846153134 Spec:  137.92485207087654 Compare:  138.10769230762082 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  135.05128205121343 Spec:  134.64529914517428 Compare:  135.53076923070014 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  131.7179487178832 Spec:  131.9681788295961 Compare:  131.815384615319 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  128.10256410250193 Spec:  128.91413543709538 Compare:  128.38974358968116 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  126.12307692301661 Spec:  124.68422090718666 Compare:  125.06410256404324 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  122.17948717943054 Spec:  122.89947403013454 Compare:  121.87948717943081 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  118.90769230763871 Spec:  119.15279421422912 Compare:  119.60256410250986 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  116.43846153841024 Spec:  116.49500328721108 Compare:  115.8384615384108 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  112.9846153845673 Spec:  114.30111768563619 Compare:  113.36410256405414 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  110.94871794867177 Spec:  111.09566074941444 Compare:  110.51538461533883 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  159.8153846152929 Spec:  158.71360946729763 Compare:  158.94615384606297 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  154.73076923068228 Spec:  155.4984878367958 Compare:  155.72307692298904 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  151.76410256401837 Spec:  151.09783037460593 Compare:  150.44615384607087 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  147.22564102556106 Spec:  147.76673241274332 Compare:  147.38974358966348 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  143.86410256402573 Spec:  144.55483234700154 Compare:  143.85641025633342 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  140.07435897428567 Spec:  140.6760683759352 Compare:  140.5820512819775 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  136.83846153839124 Spec:  136.9905982904702 Compare:  137.19230769223708 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  133.3871794871124 Spec:  134.08152531217044 Compare:  134.34615384608588 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  130.6435897435252 Spec:  130.70854700842756 Compare:  129.48461538455194 
+
+
+Weapon Hit: 50 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  126.62564102558024 Spec:  128.2988165679312 Compare:  126.63333333327255 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  98.3948717948373 Spec:  98.35272846811172 Compare:  98.29487179483739 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  95.4282051281734 Spec:  96.6769888231441 Compare:  95.61025641022451 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  92.69230769227852 Spec:  93.53885601578577 Compare:  92.89999999997063 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  91.1538461538184 Spec:  90.86232741618471 Compare:  90.67948717945987 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  88.37692307689791 Spec:  89.62103879028277 Compare:  88.85641025638465 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  85.51025641023392 Spec:  86.84365548982719 Compare:  86.26923076920757 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  84.02564102561992 Spec:  83.93826429982546 Compare:  83.49743589741529 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  81.48461538459664 Spec:  82.34010519397302 Compare:  82.3256410256215 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  79.73076923075212 Spec:  80.45489809337992 Compare:  78.44358974357384 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  50 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  77.8897435897282 Spec:  78.29815910587013 Compare:  76.75641025639592 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  135.42564102557205 Spec:  136.0879026955306 Compare:  136.2487179486482 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  132.22051282044683 Spec:  132.96916502295198 Compare:  132.50256410249784 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  129.12307692301383 Spec:  129.75733070343074 Compare:  129.23846153839833 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  125.979487179427 Spec:  126.75884286648636 Compare:  126.21794871788832 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  123.79999999994185 Spec:  122.45312294538903 Compare:  123.20512820507061 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  119.77435897430458 Spec:  119.69125575275721 Compare:  119.65897435892006 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  117.1692307691788 Spec:  116.51433267583944 Compare:  116.98717948712768 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  114.20769230764309 Spec:  114.93168967781448 Compare:  114.13333333328418 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  111.69487179482492 Spec:  111.68106508873377 Compare:  110.97435897431276 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  100 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  107.57435897431593 Spec:  108.1472715318692 Compare:  108.00769230764887 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  165.69487179477463 Spec:  166.3132807362428 Compare:  166.27179487169715 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  161.46923076913754 Spec:  162.35667324118037 Compare:  162.24871794862398 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  158.33076923067892 Spec:  157.61650230101733 Compare:  158.38974358965322 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  154.24102564093914 Spec:  153.9159105850472 Compare:  154.20512820504175 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  150.4384615383786 Spec:  151.9841551609873 Compare:  151.0871794870959 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  146.44871794863872 Spec:  147.3525969755907 Compare:  146.27948717940808 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  143.37692307684668 Spec:  143.50848126225063 Compare:  142.66153846146275 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  139.21025641018392 Spec:  140.61860618007267 Compare:  139.60769230761943 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  136.37692307685322 Spec:  136.55338593024385 Compare:  136.3615384614686 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  150 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  132.58205128198495 Spec:  133.8225509532596 Compare:  133.5333333332661 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  188.34615384618502 Spec:  191.7519395134358 Compare:  188.3128205128515 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  183.43589743589752 Spec:  185.99934253774387 Compare:  184.36923076923676 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  179.64871794869404 Spec:  182.0776462852661 Compare:  179.51025641023162 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  175.55384615379631 Spec:  178.3033530571149 Compare:  176.07948717944066 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  172.02307692300474 Spec:  173.02787639700634 Compare:  172.19230769223657 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  168.0256410255435 Spec:  169.4591715975211 Compare:  168.22564102554477 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  163.79487179477638 Spec:  165.58014464156946 Compare:  164.21794871785292 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  160.53333333324096 Spec:  160.7934253779351 Compare:  160.32564102554886 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  156.89743589734692 Spec:  157.18205128195166 Compare:  156.5230769229883 
+
+
+Weapon Hit: 60 
+Special Hit:  40 
+Stat:  200 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  152.0538461537617 Spec:  153.16725838255007 Compare:  152.81282051273533 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  65.43589743589364 Spec:  65.56440677965526 Compare:  65.24406779660444 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  63.79743589743363 Spec:  63.54237288135036 Compare:  63.28305084745208 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  62.67692307692185 Spec:  61.69152542372341 Compare:  61.838983050842046 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  60.402564102564995 Spec:  60.55932203389301 Compare:  60.42881355931675 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  58.546153846156464 Spec:  58.38474576270677 Compare:  58.63050847457116 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  57.73846153846491 Spec:  57.433898305079744 Compare:  57.05254237287639 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  55.617948717954064 Spec:  55.6016949152494 Compare:  55.95423728813073 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  54.81025641026251 Spec:  54.025423728808875 Compare:  53.53050847457163 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  52.95897435898218 Spec:  52.5338983050802 Compare:  52.1779661016904 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  51.8000000000089 Spec:  51.2830508474532 Compare:  51.128813559317614 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  89.5461538461276 Spec:  90.03050847460199 Compare:  89.93898305087268 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  87.26410256407844 Spec:  86.96101694916169 Compare:  87.67966101696217 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  85.66923076920813 Spec:  85.15254237288073 Compare:  85.23050847457607 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  83.8923076922867 Spec:  83.39322033897562 Compare:  82.93898305084008 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  81.55384615382735 Spec:  81.35254237287413 Compare:  81.00508474575551 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  79.64871794870092 Spec:  79.87118644067087 Compare:  79.49322033897599 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  77.86923076921539 Spec:  77.46949152541686 Compare:  77.20169491524739 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  76.03589743588377 Spec:  75.31016949151875 Compare:  75.98135593219666 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  73.6564102563988 Spec:  73.97288135592567 Compare:  73.73389830507823 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  72.1128205128105 Spec:  72.12711864406143 Compare:  71.83728813558687 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  110.72307692303094 Spec:  109.9711864408114 Compare:  109.88474576284483 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  107.05897435893179 Spec:  106.66949152553933 Compare:  106.8000000001163 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  104.54358974354953 Spec:  105.17457627129396 Compare:  104.78305084756303 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  103.35641025637115 Spec:  101.8661016950049 Compare:  102.17118644076926 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  100.11025641022032 Spec:  99.46271186448345 Compare:  99.74406779668836 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  97.56410256406885 Spec:  97.08305084752145 Compare:  97.74745762718605 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  94.66153846150745 Spec:  95.04915254242572 Compare:  95.00169491530681 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  92.6692307692016 Spec:  92.43389830512345 Compare:  92.11355932207087 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  90.09487179484503 Spec:  89.71016949154941 Compare:  90.05932203392418 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  87.86153846151377 Spec:  88.17118644069365 Compare:  87.81186440679339 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  127.27179487173349 Spec:  124.69491525445025 Compare:  124.35084745783823 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  124.51282051276169 Spec:  121.86949152562143 Compare:  121.35593220358476 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  119.84871794866348 Spec:  119.101694915437 Compare:  119.10338983069124 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  117.60769230763992 Spec:  116.80338983067881 Compare:  116.57627118660979 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  114.63846153841192 Spec:  113.5440677967629 Compare:  113.74915254252672 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  112.08205128200404 Spec:  111.50508474590443 Compare:  110.91864406793516 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  109.03589743585303 Spec:  108.92203389843286 Compare:  108.57966101707507 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  107.28205128200851 Spec:  106.14915254248567 Compare:  105.32711864417614 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  104.59743589739563 Spec:  103.81694915264256 Compare:  103.11864406789303 
+
+
+Weapon Hit: 40 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  100.50769230765584 Spec:  101.40847457635837 Compare:  101.19322033906907 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  81.75384615382715 Spec:  81.84554541509254 Compare:  81.50338983050123 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  79.82820512818793 Spec:  79.33698392008638 Compare:  79.42203389829804 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  77.25384615383135 Spec:  77.55032594528997 Compare:  77.22711864406095 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  74.85641025639768 Spec:  75.40803998266162 Compare:  75.10508474575606 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  72.90512820511745 Spec:  73.22955236857733 Compare:  73.68644067795958 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  71.37179487178555 Spec:  71.99869621907516 Compare:  71.50508474575639 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  69.48974358973602 Spec:  69.84150369408259 Compare:  69.08983050846848 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  68.14358974358342 Spec:  68.51481964366762 Compare:  67.83220338982454 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  65.96666666666238 Spec:  66.13615819212103 Compare:  65.75423728812981 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  64.37435897435617 Spec:  63.80647544548543 Compare:  64.0237288135537 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  112.66666666661888 Spec:  113.25793133430803 Compare:  111.98983050861891 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  110.63076923072335 Spec:  110.53428943947537 Compare:  109.46779661030021 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  107.66666666662354 Spec:  108.08109517610771 Compare:  107.00338983062588 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  104.71025641021603 Spec:  104.48648413742318 Compare:  104.24576271196692 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  101.93589743585964 Spec:  102.30160799661135 Compare:  101.56779661025753 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  99.65897435893869 Spec:  99.71425467196578 Compare:  99.0779661017695 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  96.69230769227478 Spec:  97.04172099095328 Compare:  96.20338983056755 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  94.95384615381487 Spec:  94.82490221650386 Compare:  94.41355932208329 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  92.37692307689419 Spec:  92.05654063457855 Compare:  91.89661016952732 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  90.19487179484494 Spec:  90.38913515869586 Compare:  89.68983050849846 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  138.34358974351804 Spec:  138.02837896581198 Compare:  132.92542372907099 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  134.39230769223968 Spec:  134.72976966550252 Compare:  130.19322033922572 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  131.52820512813977 Spec:  131.1074750109987 Compare:  127.73050847480563 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  127.5025641025025 Spec:  127.60017383759028 Compare:  125.56610169513293 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  124.78717948712041 Spec:  125.35354193841243 Compare:  123.02711864427175 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  122.40256410250726 Spec:  122.02299000446537 Compare:  120.21016949171417 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  119.61538461533036 Spec:  118.89048239907143 Compare:  117.77627118661627 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  115.8333333332826 Spec:  116.1093437636911 Compare:  114.77966101710857 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  113.77179487174605 Spec:  112.7745328119257 Compare:  112.26610169506108 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  111.35641025636369 Spec:  110.96870925694672 Compare:  109.88135593233633 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  157.9948717947818 Spec:  156.04828335523652 Compare:  144.8881355935424 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  155.38205128196373 Spec:  153.3054758802213 Compare:  142.98474576302362 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  151.24615384607014 Spec:  149.33820078243141 Compare:  140.81864406809666 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  147.9025641024835 Spec:  146.36327683631632 Compare:  138.56101694944041 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  143.6282051281285 Spec:  142.98161668854908 Compare:  136.35423728841153 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  140.6820512819774 Spec:  139.62764015660113 Compare:  134.40338983077388 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  136.2461538460841 Spec:  135.9670143417322 Compare:  132.14576271211763 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  134.10512820506045 Spec:  133.3285528032665 Compare:  129.49661016973042 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  129.99230769224377 Spec:  130.1193828771423 Compare:  126.53898305107039 
+
+
+Weapon Hit: 50 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  127.07435897429777 Spec:  126.85271621047045 Compare:  124.25932203410892 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  98.3025641025297 Spec:  97.54358974355604 Compare:  97.53898305091374 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  95.66153846150651 Spec:  95.77692307689102 Compare:  95.57288135598786 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  93.88461538458509 Spec:  94.0025641025337 Compare:  92.82203389834588 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  90.85641025638279 Spec:  90.34358974356275 Compare:  90.27118644070498 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  88.80256410253854 Spec:  88.61025641023103 Compare:  88.38644067798295 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  86.15128205125896 Spec:  86.638461538438 Compare:  86.27627118644612 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  84.31794871792734 Spec:  83.7051282051074 Compare:  83.80508474575525 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  81.33333333331473 Spec:  82.01794871792949 Compare:  81.27457627117921 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  79.64102564100861 Spec:  79.86410256408533 Compare:  78.76101694914556 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  50 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  77.29999999998516 Spec:  78.04102564101011 Compare:  77.28813559321348 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  136.59230769223763 Spec:  135.56923076916166 Compare:  130.97627118668757 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  132.94615384608719 Spec:  132.40256410249793 Compare:  128.31016949175793 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  129.28717948711622 Spec:  129.33076923070593 Compare:  125.68305084767593 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  126.16153846147812 Spec:  125.59743589737607 Compare:  123.64745762732595 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  122.9897435896862 Spec:  123.1999999999424 Compare:  121.03050847476945 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  119.34615384609984 Spec:  120.43589743584242 Compare:  118.05254237305844 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  116.20512820507713 Spec:  117.2307692307172 Compare:  115.61525423745205 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  114.15384615379699 Spec:  115.15384615379605 Compare:  112.43050847472298 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  111.3794871794406 Spec:  112.26410256405515 Compare:  110.39152542386452 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  100 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  108.13076923072568 Spec:  108.11025641021287 Compare:  107.16610169503353 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  164.99999999990348 Spec:  165.96410256400515 Compare:  148.03728813593227 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  162.68205128195692 Spec:  162.1282051281113 Compare:  146.22542372914282 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  157.8358974358076 Spec:  158.0615384614484 Compare:  144.24745762743723 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  154.02820512811883 Spec:  153.85384615376 Compare:  142.48983050878365 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  151.0307692306857 Spec:  150.7410256409424 Compare:  140.61016949182437 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  147.39230769222758 Spec:  146.11794871786978 Compare:  138.33220339011714 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  143.15897435889818 Spec:  143.59230769223112 Compare:  136.18644067824115 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  139.0256410255687 Spec:  139.42307692300423 Compare:  133.9508474578901 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  136.67692307685294 Spec:  136.3820512819814 Compare:  131.03389830533195 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  150 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  132.54871794865164 Spec:  133.4692307691636 Compare:  128.8525423731168 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  187.32564102566573 Spec:  188.12820512823492 Compare:  156.17118644106097 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  184.4435897435962 Spec:  184.28461538462085 Compare:  154.6000000003745 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  180.22051282049253 Spec:  180.22564102562077 Compare:  153.640677966471 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  176.1256410255948 Spec:  176.27948717944193 Compare:  152.21525423764976 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  172.04615384608178 Spec:  172.5076923076232 Compare:  150.7389830512011 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  168.31538461528893 Spec:  167.8051282050293 Compare:  148.7169491528851 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  164.15641025631453 Spec:  163.9512820511865 Compare:  147.29152542406385 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  160.64615384606137 Spec:  160.86923076913808 Compare:  145.7423728816826 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  156.6794871793984 Spec:  156.33846153837308 Compare:  143.1118644070921 
+
+
+Weapon Hit: 60 
+Special Hit:  60 
+Stat:  200 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  153.17692307683757 Spec:  152.57435897427402 Compare:  141.33559322064184 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  65.29230769230404 Spec:  67.04415584419006 Compare:  66.66623376626762 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  63.635897435895316 Spec:  65.07272727275965 Compare:  64.83896103899319 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  62.36923076922983 Spec:  63.306493506524234 Compare:  63.471428571459455 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  60.451282051282895 Spec:  61.64545454548373 Compare:  62.087012987042584 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  59.13589743589951 Spec:  60.114285714313475 Compare:  60.05324675327445 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  57.07948717949117 Spec:  58.476623376649606 Compare:  58.35454545457157 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  55.68974358974887 Spec:  57.32597402599919 Compare:  56.99740259742745 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  54.28461538462197 Spec:  55.39870129872467 Compare:  55.58571428573782 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  53.00256410257189 Spec:  53.74675324677507 Compare:  54.027272727294815 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  51.62564102565009 Spec:  52.33116883118934 Compare:  52.40259740261798 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  90.67435897433167 Spec:  91.5116883117453 Compare:  91.27272727278404 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  87.55128205125766 Spec:  89.19480519486002 Compare:  89.25714285719775 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  85.97179487177195 Spec:  87.24805194810497 Compare:  87.02207792213073 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  83.69743589741509 Spec:  85.32857142862265 Compare:  85.16623376628485 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  81.08974358972522 Spec:  82.96623376628281 Compare:  83.38701298706242 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  78.47692307690714 Spec:  81.06883116887845 Compare:  81.01558441563164 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  77.38717948716456 Spec:  79.69480519485118 Compare:  79.10779220783765 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  75.73333333331995 Spec:  76.86233766238102 Compare:  77.51948051952449 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  73.22820512819408 Spec:  75.27922077926266 Compare:  75.08831168835339 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  71.52307692306746 Spec:  73.37012987016998 Compare:  73.11688311692298 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  110.1743589743135 Spec:  106.44545454552544 Compare:  106.44805194812285 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  107.30256410252132 Spec:  104.97922077929032 Compare:  104.80000000006936 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  105.09230769226696 Spec:  102.76363636370384 Compare:  102.81948051954804 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  102.5999999999616 Spec:  101.00000000006582 Compare:  101.00259740266323 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  100.22051282047663 Spec:  99.32077922084348 Compare:  99.15974025980437 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  96.9717948717617 Spec:  97.32727272733513 Compare:  97.03636363642578 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  94.89487179484057 Spec:  95.4961038961646 Compare:  95.3428571429177 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  92.10512820509958 Spec:  93.34285714291583 Compare:  93.33636363642232 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  90.62820512817787 Spec:  91.48831168836865 Compare:  91.23116883122556 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  88.1948717948468 Spec:  89.1792207792756 Compare:  89.4428571429122 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  126.30256410250362 Spec:  114.7090909091695 Compare:  114.47922077929915 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  123.65897435891634 Spec:  113.04545454553158 Compare:  113.33506493514224 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  120.40512820507321 Spec:  111.71688311695893 Compare:  111.6571428572186 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  117.0897435896917 Spec:  110.37272727280182 Compare:  110.48181818189283 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  115.20512820507805 Spec:  108.97142857150182 Compare:  108.91558441565762 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  112.52051282046517 Spec:  107.1025974026689 Compare:  106.97792207799347 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  108.76666666662251 Spec:  105.5948051948753 Compare:  105.90000000007039 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  106.43846153841956 Spec:  103.64805194812024 Compare:  103.92207792214647 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  104.3179487179087 Spec:  102.05974025980707 Compare:  102.21298701305396 
+
+
+Weapon Hit: 40 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  101.4102564102191 Spec:  99.87532467538945 Compare:  100.49090909097444 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  81.79230769228866 Spec:  83.74055944060744 Compare:  83.59090909095872 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  79.3512820512653 Spec:  81.33053613058011 Compare:  81.03506493511217 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  77.9717948717794 Spec:  79.57156177160283 Compare:  79.00649350653886 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  75.1692307692179 Spec:  77.19906759910472 Compare:  77.23246753251124 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  73.97692307691133 Spec:  75.54941724945162 Compare:  74.78441558445701 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  72.2384615384514 Spec:  73.67948717951845 Compare:  73.15064935068925 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  69.05128205127488 Spec:  71.76223776226584 Compare:  71.13766233770036 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  67.47948717948148 Spec:  69.15804195806571 Compare:  69.24805194808822 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  65.81025641025226 Spec:  67.96689976692153 Compare:  67.61688311691786 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  64.27179487179215 Spec:  66.21771561773447 Compare:  65.63376623379914 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  113.12564102559281 Spec:  115.07902097894305 Compare:  108.05454545461785 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  110.68461538456945 Spec:  111.68834498828078 Compare:  106.0090909091614 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  107.67179487175174 Spec:  109.23263403257975 Compare:  104.4064935065625 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  104.1589743589345 Spec:  106.97435897431383 Compare:  102.70649350656092 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  102.19230769226967 Spec:  104.67855477851892 Compare:  101.15714285720883 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  99.49743589740038 Spec:  101.85081585079143 Compare:  98.94805194811586 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  97.0230769230437 Spec:  99.31678321676904 Compare:  97.19610389616618 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  95.3205128204812 Spec:  97.11398601398075 Compare:  94.83116883122891 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  92.86666666663733 Spec:  94.65827505827973 Compare:  93.26233766239628 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  90.14102564099883 Spec:  92.12587412588904 Compare:  90.993506493563 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  138.15384615377462 Spec:  133.3279720278203 Compare:  118.28441558449751 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  134.22051282044495 Spec:  131.4792540791098 Compare:  117.18571428579519 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  131.11025641019145 Spec:  129.07412587399133 Compare:  116.25194805202808 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  128.12820512814295 Spec:  126.83543123530576 Compare:  114.77532467540333 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  125.57948717942737 Spec:  124.95244755232969 Compare:  113.79090909098683 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  122.39230769225085 Spec:  122.14265734255085 Compare:  112.40779220786865 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  118.92307692302332 Spec:  120.02634032624239 Compare:  111.19740259747792 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  116.53333333328194 Spec:  117.30792540783847 Compare:  109.60519480526864 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  112.63846153841378 Spec:  114.98275058267305 Compare:  108.023376623449 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  110.23589743585191 Spec:  112.58414918408135 Compare:  106.58051948059051 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  159.05897435888338 Spec:  143.91771561752105 Compare:  122.79090909099521 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  155.2487179486305 Spec:  142.11794871776144 Compare:  122.22727272735833 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  151.42564102555716 Spec:  140.59883449865336 Compare:  121.57532467540966 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  147.28717948709945 Spec:  138.63752913735593 Compare:  120.83376623385053 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  143.76153846146173 Spec:  136.86876456859852 Compare:  119.56883116891429 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  140.12820512813178 Spec:  134.710023309866 Compare:  118.99350649358908 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  136.71538461531443 Spec:  132.79277389262433 Compare:  117.92467532475692 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  133.2871794871125 Spec:  130.75477855463723 Compare:  116.92207792215858 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  130.3282051281409 Spec:  128.5634032632708 Compare:  115.82077922085885 
+
+
+Weapon Hit: 50 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  126.39999999993942 Spec:  125.98857808845604 Compare:  114.48701298709138 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  98.15897435894009 Spec:  100.86583416595275 Compare:  98.56623376629733 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  95.26923076919918 Spec:  98.70073260084654 Compare:  96.72337662343847 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  92.74871794868872 Spec:  95.97176157186965 Compare:  94.68831168837164 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  91.18717948715171 Spec:  93.20742590752805 Compare:  92.17142857148617 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  88.78974358971804 Spec:  90.85371295381005 Compare:  90.2662337662896 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  86.02564102561806 Spec:  88.05204795213902 Compare:  87.92077922083287 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  84.37435897433754 Spec:  86.393839493927 Compare:  85.64935064940218 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  81.17179487177643 Spec:  83.43303363311479 Compare:  83.75714285719263 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  79.02307692306047 Spec:  82.05381285389105 Compare:  81.83376623381422 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  50 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  77.51538461536957 Spec:  79.70206460213775 Compare:  79.75974025978631 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  136.53589743582742 Spec:  138.55274725294674 Compare:  118.02467532475701 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  132.67179487172845 Spec:  134.96716616735796 Compare:  116.95324675332743 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  128.81794871788588 Spec:  131.82757242775747 Compare:  115.7961038961835 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  126.22564102558061 Spec:  128.54455544473345 Compare:  114.69870129877988 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  122.26153846148175 Spec:  125.71931401948595 Compare:  113.17402597410313 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  119.25128205122813 Spec:  122.91764901781494 Compare:  111.79090909098497 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  117.72564102558853 Spec:  120.3340659342263 Compare:  110.27402597410044 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  114.1871794871303 Spec:  117.41058941074351 Compare:  108.91428571435891 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  111.05384615379987 Spec:  113.99397269411946 Compare:  106.87662337669468 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  100 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  108.4846153845715 Spec:  111.20802530816609 Compare:  105.47272727279726 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  166.00256410246664 Spec:  160.8481851484325 Compare:  124.11948051956787 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  161.87435897426536 Spec:  157.84415584439674 Compare:  123.60519480528168 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  157.9974358973459 Spec:  155.66726606750228 Compare:  122.91948051956676 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  155.04358974350248 Spec:  152.7496836499136 Compare:  122.33376623385193 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  150.06923076914816 Spec:  150.06197136219555 Compare:  121.6454545455396 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  147.02307692299715 Spec:  146.75930735952446 Compare:  120.84675324683755 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  142.47179487171934 Spec:  144.53722943744177 Compare:  119.90649350657694 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  139.61794871787583 Spec:  141.1481185483236 Compare:  119.14675324683597 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  135.961538461469 Spec:  137.9338661340643 Compare:  118.14545454553634 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  150 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  132.55128205121574 Spec:  135.63712953732275 Compare:  116.91428571436636 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  188.33589743592856 Spec:  173.42424242451676 Compare:  126.5662337663234 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  184.82051282052166 Spec:  171.40256410283408 Compare:  126.25714285723221 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  179.258974358948 Spec:  169.09403929430434 Compare:  125.81168831177725 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  177.03333333329286 Spec:  167.19417249443347 Compare:  125.46363636372497 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  172.49999999993082 Spec:  164.71471861497426 Compare:  125.05974025982849 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  168.07948717939001 Spec:  162.4081585084092 Compare:  124.4454545455422 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  163.8923076922122 Spec:  160.01711621736177 Compare:  123.93246753255471 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  160.6153846152922 Spec:  157.28225108249077 Compare:  123.39090909099578 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  156.6641025640138 Spec:  154.66919746943157 Compare:  122.5805194806054 
+
+
+Weapon Hit: 60 
+Special Hit:  80 
+Stat:  200 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  152.91025641017114 Spec:  151.8262737265017 Compare:  121.93896103904636 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  65.24358974358613 Spec:  72.59090909098592 Compare:  72.98977272735074 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  63.802564102561824 Spec:  70.81477272734426 Compare:  71.10568181825421 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  61.630769230768976 Spec:  69.46818181824933 Compare:  69.31250000006706 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  60.77692307692362 Spec:  67.37500000006128 Compare:  67.41477272733412 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  59.271794871796814 Spec:  65.78522727278381 Compare:  65.8272727273294 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  56.98461538461946 Spec:  63.86363636368718 Compare:  64.21363636368822 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  55.697435897441174 Spec:  62.4500000000466 Compare:  62.29318181822796 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  54.294871794878375 Spec:  60.88636363640558 Compare:  60.52840909094997 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  52.80769230770027 Spec:  58.76590909094472 Compare:  59.075000000036546 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  51.31794871795807 Spec:  57.669318181850535 Compare:  57.344318181849566 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  90.50256410253697 Spec:  94.09886363650456 Compare:  94.32727272741434 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  88.25128205125701 Spec:  93.11818181831983 Compare:  92.98181818195577 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  85.39487179484941 Spec:  91.66590909104276 Compare:  91.60227272740622 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  83.45641025638967 Spec:  90.01022727285601 Compare:  90.12045454558361 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  81.64615384613495 Spec:  88.45909090921502 Compare:  88.33750000012375 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  79.87692307690583 Spec:  86.45000000011812 Compare:  86.7613636364827 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  77.18974358972885 Spec:  85.03750000011392 Compare:  84.95454545465913 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  75.78717948716606 Spec:  83.20568181829027 Compare:  83.29886363647238 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  72.69487179486124 Spec:  81.83522727283164 Compare:  81.464772727376 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  71.70256410255448 Spec:  80.01704545464442 Compare:  79.40795454555169 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  109.9948717948265 Spec:  103.5568181819873 Compare:  103.35000000016849 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  108.17179487175127 Spec:  102.77500000016678 Compare:  102.63409090925727 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  105.33333333329237 Spec:  101.81931818198211 Compare:  101.62840909107246 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  102.24871794867987 Spec:  100.45795454561443 Compare:  100.52500000016008 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  99.91025641022051 Spec:  99.60340909106642 Compare:  99.68636363652121 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  97.71538461535076 Spec:  98.2295454546987 Compare:  98.73068181833655 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  95.58974358971172 Spec:  97.18977272742286 Compare:  97.26590909105946 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  92.54102564099661 Spec:  95.70454545469116 Compare:  95.71477272741846 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  90.54358974356256 Spec:  94.518181818324 Compare:  94.36477272741445 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  87.86923076920608 Spec:  93.17727272741091 Compare:  92.84431818195537 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  127.11025641019518 Spec:  107.65795454563587 Compare:  107.47954545472625 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  124.03846153840317 Spec:  106.95909090927016 Compare:  107.00568181836121 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  121.19743589738017 Spec:  106.23977272744983 Compare:  106.12954545472223 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  117.4076923076401 Spec:  105.5136363638113 Compare:  105.54204545472048 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  114.98205128200134 Spec:  104.84772727290023 Compare:  104.91363636380952 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  112.60256410251638 Spec:  103.9909090910795 Compare:  104.03181818198871 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  109.21282051277595 Spec:  102.98636363653105 Compare:  103.14204545471333 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  106.76153846149617 Spec:  102.25454545471068 Compare:  102.31363636380178 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  103.71794871790927 Spec:  101.3272727274352 Compare:  101.2715909092532 
+
+
+Weapon Hit: 40 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  101.55384615380872 Spec:  100.30113636379578 Compare:  100.286363636523 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  81.50769230767354 Spec:  91.48808275063165 Compare:  88.6840909092157 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  79.65641025639322 Spec:  89.10375874131728 Compare:  86.45340909102723 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  78.04615384613831 Spec:  87.11920163176819 Compare:  85.02840909102298 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  75.71794871793534 Spec:  84.63921911429571 Compare:  83.04772727283526 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  73.83076923075761 Spec:  82.530448718025 Compare:  81.37045454555754 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  71.84871794870818 Spec:  80.46451048958164 Compare:  79.62159090918868 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  69.50769230768472 Spec:  78.13444055950595 Compare:  77.26363636372712 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  68.21794871794233 Spec:  76.01710372966386 Compare:  75.25113636372112 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  66.27179487179029 Spec:  73.96544289049794 Compare:  73.49886363644316 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  64.34102564102287 Spec:  72.15506993012049 Compare:  71.81250000007451 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  113.21282051277223 Spec:  118.63796620040529 Compare:  104.14431818198905 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  110.19230769226222 Spec:  116.99035547780123 Compare:  103.54431818198725 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  107.53076923072624 Spec:  115.14428904424226 Compare:  102.5397727274388 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  104.43846153842142 Spec:  113.19256993003104 Compare:  101.6272727274361 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  102.89743589739722 Spec:  111.03953962700945 Compare:  100.53295454561464 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  100.53333333329685 Spec:  108.73516899764813 Compare:  99.60340909106642 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  96.66923076919788 Spec:  106.59070512819294 Compare:  98.17272727288034 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  94.92564102560976 Spec:  104.34344405594095 Compare:  96.93295454560392 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  92.24871794868918 Spec:  101.85346736597434 Compare:  95.79886363650962 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  90.05897435894764 Spec:  99.92601981353458 Compare:  94.1284090910501 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  137.68461538454432 Spec:  130.15125291364544 Compare:  109.32727272745903 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  134.6871794871112 Spec:  128.853438228336 Compare:  108.70795454563901 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  131.8076923076267 Spec:  127.86401515141692 Compare:  108.2977272729105 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  127.89487179480983 Spec:  126.42913752904511 Compare:  107.8159090910909 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  125.51025641019666 Spec:  125.102768065181 Compare:  107.0681818183614 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  122.32307692302015 Spec:  123.52939976681907 Compare:  106.59318181835998 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  118.6641025640492 Spec:  122.04312354304885 Compare:  105.9102272729034 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  116.81025641020477 Spec:  120.45547785540958 Compare:  105.2761363638106 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  113.55897435892574 Spec:  118.80072843816687 Compare:  104.39431818198979 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  110.30512820508262 Spec:  116.9246794871255 Compare:  103.69659090926044 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  159.5897435896521 Spec:  135.14833916071146 Compare:  111.06931818200968 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  155.35897435888683 Spec:  134.44589160826675 Compare:  110.86477272746362 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  151.18717948709582 Spec:  133.76914335652125 Compare:  110.382954545644 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  147.5358974358172 Spec:  132.53986013974298 Compare:  110.13409090927962 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  144.13846153838443 Spec:  131.81885198123774 Compare:  109.88409090927888 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  141.04102564095143 Spec:  130.58243006982084 Compare:  109.55340909109607 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  136.61282051275043 Spec:  129.80288461527854 Compare:  109.1045454547311 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  133.2846153845484 Spec:  128.20952797192834 Compare:  108.65454545472976 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  130.3666666666024 Spec:  127.242948717853 Compare:  107.93863636381853 
+
+
+Weapon Hit: 50 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  127.16666666660538 Spec:  125.99224941715876 Compare:  107.56590909109015 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  98.3820512820168 Spec:  110.34822261085263 Compare:  99.10909090924676 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  96.8179487179157 Spec:  107.67843822856251 Compare:  97.79659090924285 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  93.17435897432935 Spec:  104.69921328683117 Compare:  96.35227272742037 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  90.93589743586989 Spec:  102.40935314696611 Compare:  95.12386363650762 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  88.42307692305172 Spec:  99.6329836830907 Compare:  93.94772727286775 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  86.02564102561806 Spec:  96.87896270406381 Compare:  92.112500000135 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  84.27179487177354 Spec:  94.70428321687965 Compare:  90.59204545467593 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  81.82307692305787 Spec:  91.43280885789827 Compare:  88.69318181830663 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  79.3846153845986 Spec:  89.00370046628466 Compare:  86.69204545466431 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  50 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  77.83076923075389 Spec:  87.19519230777261 Compare:  85.05340909102306 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  136.0153846153151 Spec:  142.37016317036193 Compare:  108.94431818200334 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  132.36153846147235 Spec:  140.72325174844698 Compare:  108.55681818200219 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  129.1435897435266 Spec:  138.16864801883776 Compare:  108.15909090927373 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  126.69487179481095 Spec:  135.5813811190653 Compare:  107.48522727290809 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  123.62051282045483 Spec:  133.61643356661352 Compare:  107.01931818199762 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  119.39230769225365 Spec:  131.17013403280876 Compare:  106.17386363654055 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  117.08461538456349 Spec:  128.15136946403769 Compare:  105.60227272744794 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  114.08974358969448 Spec:  125.75664335680645 Compare:  104.80113636380918 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  111.60769230764551 Spec:  123.04903846169574 Compare:  103.78636363653344 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  100 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  108.4923076922638 Spec:  120.19358974374089 Compare:  103.02045454562206 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  165.87948717938983 Spec:  156.43251748274642 Compare:  111.50795454564735 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  161.67948717939376 Spec:  155.34087995360656 Compare:  111.2409090911011 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  158.70512820503754 Spec:  153.87963286735632 Compare:  111.03977272746414 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  154.20512820504175 Spec:  152.2722610724811 Compare:  110.78750000019066 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  150.04358974350714 Spec:  150.79898018669704 Compare:  110.45113636382602 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  146.78461538453584 Spec:  148.88732517503792 Compare:  110.18522727291614 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  143.05384615377008 Spec:  146.99458041978912 Compare:  109.98636363655191 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  139.81538461531156 Spec:  144.96430652701085 Compare:  109.52045454564143 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  136.4820512819813 Spec:  143.41022727292827 Compare:  108.92500000018511 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  150 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  132.87179487172827 Spec:  140.67167832187343 Compare:  108.51818181836572 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  187.73846153848888 Spec:  162.79839743614005 Compare:  112.45795454565018 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  184.24102564103083 Spec:  161.7067599070002 Compare:  112.24886363655865 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  180.6794871794698 Spec:  160.82141608415446 Compare:  112.1886363638312 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  175.88461538456764 Spec:  159.81401515175136 Compare:  112.01704545473977 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  172.05384615377415 Spec:  158.8186480188821 Compare:  111.86931818201207 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  167.63589743579846 Spec:  157.36427738950835 Compare:  111.68863636382972 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  164.72051282041656 Spec:  155.8445804198081 Compare:  111.33863636382867 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  160.9205128204201 Spec:  154.7804487181741 Compare:  111.27613636382848 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  156.00769230760417 Spec:  153.20917832190034 Compare:  111.07727272746425 
+
+
+Weapon Hit: 60 
+Special Hit:  100 
+Stat:  200 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  153.26153846145286 Spec:  151.59321095592952 Compare:  110.69772727291766 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  65.26410256409893 Spec:  80.42446808509197 Compare:  80.42765957445368 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  63.67179487179272 Spec:  78.42127659573065 Compare:  78.75425531913484 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  62.151282051281314 Spec:  76.8638297872203 Compare:  76.85638297870966 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  60.58461538461611 Spec:  75.17765957445467 Compare:  75.15319148934829 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  59.302564102566016 Spec:  73.41702127658264 Compare:  73.15212765956142 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  57.600000000003504 Spec:  71.51489361700854 Compare:  71.5797872340298 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  55.894871794876885 Spec:  70.01489361700881 Compare:  69.86914893615777 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  54.315384615391174 Spec:  68.00744680849854 Compare:  67.83191489360496 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  52.34358974359814 Spec:  66.2553191489244 Compare:  66.23723404254143 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  51.57692307693219 Spec:  64.3659574467971 Compare:  64.0989361702014 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  89.18205128202537 Spec:  96.3191489362617 Compare:  96.19680851072874 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  88.61282051279512 Spec:  95.36382978731734 Compare:  95.36595744689183 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  86.19999999997687 Spec:  94.62446808518335 Compare:  94.40000000007504 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  83.23589743587706 Spec:  93.53723404262084 Compare:  93.66170212772829 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  81.59743589741704 Spec:  92.46914893622872 Compare:  92.29468085112083 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  79.65641025639322 Spec:  91.0563829787698 Compare:  91.27765957451638 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  77.26153846152366 Spec:  89.87340425535541 Compare:  89.92765957450482 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  75.1410256410128 Spec:  88.75851063832458 Compare:  88.71063829789864 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  73.95641025639853 Spec:  87.52021276597354 Compare:  87.42765957448339 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  71.47179487178545 Spec:  86.07872340425907 Compare:  86.35531914894229 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  110.24615384610831 Spec:  101.50638297885934 Compare:  101.4734042554548 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  107.1820512820086 Spec:  101.06808510651516 Compare:  101.07765957460035 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  104.1358974358576 Spec:  100.51914893629768 Compare:  100.4234042554458 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  102.34102564098747 Spec:  99.97978723416541 Compare:  99.95106382990984 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  100.73589743586076 Spec:  99.27978723415941 Compare:  99.31276595756395 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  97.37948717945363 Spec:  98.65212765968595 Compare:  98.79680851075102 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  94.37179487176412 Spec:  98.0914893618088 Compare:  97.98829787244621 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  92.23333333330459 Spec:  97.26702127669536 Compare:  97.21276595754595 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  90.25641025638335 Spec:  96.41063829796461 Compare:  96.54148936179553 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  88.1794871794622 Spec:  95.5276595745528 Compare:  95.3776595745515 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  126.27435897429852 Spec:  103.5808510639835 Compare:  103.55106382994069 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  123.65384615378814 Spec:  103.34042553206655 Compare:  103.17765957461835 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  119.75128205122768 Spec:  102.97659574482938 Compare:  102.86702127674334 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  117.49743589738361 Spec:  102.72659574482724 Compare:  102.52978723418725 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  114.88461538456554 Spec:  102.17021276609907 Compare:  102.10319148950275 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  112.35641025636276 Spec:  101.83936170226644 Compare:  101.7840425533298 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  108.73846153841741 Spec:  101.35851063843253 Compare:  101.24148936183579 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  106.05641025636864 Spec:  100.71276595757594 Compare:  100.88617021289657 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  103.95641025637059 Spec:  100.32659574480668 Compare:  100.30638297884906 
+
+
+Weapon Hit: 40 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  101.52564102560362 Spec:  99.75425531926986 Compare:  99.8414893618238 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  82.21794871792929 Spec:  100.92984178933527 Compare:  92.46702127665422 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  79.5179487179318 Spec:  98.37157665022183 Compare:  91.39574468090036 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  77.9461538461384 Spec:  96.59789961803608 Compare:  89.9989361702501 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  76.21025641024258 Spec:  94.45665575551793 Compare:  88.56382978725908 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  73.46666666665539 Spec:  92.29402618650772 Compare:  87.1148936170339 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  71.96410256409268 Spec:  90.04585379152924 Compare:  85.67446808510667 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  69.84615384614594 Spec:  87.90594653566684 Compare:  84.22234042551976 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  68.11538461537832 Spec:  85.43188761586592 Compare:  82.65744680849582 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  65.82820512820096 Spec:  83.4029187124311 Compare:  80.73404255317703 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  63.935897435895036 Spec:  80.57733224216683 Compare:  79.00531914892203 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  112.9589743589263 Spec:  121.05111838505823 Compare:  102.02340425545951 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  111.02820512815887 Spec:  119.86153846143704 Compare:  101.48510638311447 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  107.32307692303412 Spec:  118.59577195843787 Compare:  100.98297872353571 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  104.56153846149823 Spec:  117.47168576094862 Compare:  100.45851063842483 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  102.36153846150027 Spec:  115.93458810683136 Compare:  100.12340425544323 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  99.42051282047737 Spec:  114.52714129832223 Compare:  99.30957446820221 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  97.28461538458193 Spec:  113.10098199663256 Compare:  98.50638297883363 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  95.09743589740448 Spec:  111.36740316411942 Compare:  97.89574468095606 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  92.03846153843297 Spec:  109.8463447898712 Compare:  97.00106382988457 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  90.62564102561377 Spec:  107.86816693935506 Compare:  96.193617021367 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  138.18717948710793 Spec:  127.47885979257994 Compare:  104.37553191505414 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  134.45641025634217 Spec:  126.9669394434261 Compare:  104.2021276597335 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  131.16666666660166 Spec:  126.33071467528713 Compare:  103.93297872356098 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  127.91538461532264 Spec:  125.57285870147452 Compare:  103.68085106398435 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  125.31538461532506 Spec:  125.05559192569766 Compare:  103.34255319164103 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  122.05897435891782 Spec:  123.91813966165088 Compare:  103.08617021291543 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  118.7794871794337 Spec:  122.99721767583627 Compare:  102.764893617168 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  116.12820512815412 Spec:  122.10971085641552 Compare:  102.35425531929214 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  113.24615384610553 Spec:  121.03507910518918 Compare:  101.95319148950146 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  110.19743589739042 Spec:  120.32667757763949 Compare:  101.48617021290173 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  158.64615384606324 Spec:  130.08256955798902 Compare:  105.2744680852746 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  155.1461538460665 Spec:  129.7390616474602 Compare:  105.1095744682519 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  150.8615384614551 Spec:  129.26189307135596 Compare:  105.0106382980383 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  148.77692307684165 Spec:  129.11085651925575 Compare:  104.75531914909995 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  143.4282051281287 Spec:  128.3890889251485 Compare:  104.76489361718514 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  140.287179487106 Spec:  127.8704855427159 Compare:  104.41808510654386 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  137.36923076915997 Spec:  127.33450627375849 Compare:  104.31276595760679 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  133.69999999993263 Spec:  126.60872885968398 Compare:  104.0319148937746 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  130.04871794865397 Spec:  126.10482815046467 Compare:  103.84042553207082 
+
+
+Weapon Hit: 50 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  126.96923076916967 Spec:  125.27746863055285 Compare:  103.56702127674933 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  98.80512820509333 Spec:  121.51972176770141 Compare:  99.14680851075401 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  95.87948717945503 Spec:  118.72422258602052 Compare:  98.39361702138586 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  92.4256410256121 Spec:  116.64972722321873 Compare:  97.55851063839998 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  91.1615384615107 Spec:  113.52913256963251 Compare:  96.504255319242 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  88.58461538459002 Spec:  111.1504637207411 Compare:  95.90851063838585 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  86.52564102561759 Spec:  108.11033824336907 Compare:  94.7563829788015 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  83.92307692305592 Spec:  105.92157665034314 Compare:  93.71808510645218 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  81.68461538459646 Spec:  103.22103109659498 Compare:  92.61914893623 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  79.4128205128037 Spec:  99.62727768686933 Compare:  91.21489361706904 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  50 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  76.82820512819072 Spec:  97.2904528096093 Compare:  89.8042553191846 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  135.61794871787956 Spec:  145.75864702693923 Compare:  104.26914893632981 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  132.61794871788234 Spec:  144.63690671051344 Compare:  104.06063829803016 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  128.8128205127577 Spec:  142.85049099855846 Compare:  103.78617021292142 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  125.9435897435296 Spec:  141.37146753974167 Compare:  103.40000000015216 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  123.1717948717373 Spec:  139.73150572849653 Compare:  103.22872340440601 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  120.34102564097071 Spec:  137.8774959085216 Compare:  102.87127659589231 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  116.82051282046118 Spec:  135.91887615946828 Compare:  102.65851063844367 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  114.08461538456628 Spec:  133.8154118932294 Compare:  102.06170212780027 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  111.35128205123549 Spec:  132.3959356248111 Compare:  101.70851063843554 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  100 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  108.67435897431491 Spec:  130.4437534098549 Compare:  101.30744680864487 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  166.07692307682555 Spec:  153.56737588676407 Compare:  105.39148936187135 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  162.3230769229829 Spec:  152.8415439173121 Compare:  105.30531914910466 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  158.55641025631974 Spec:  151.9354609931403 Compare:  105.22872340442315 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  154.9769230768359 Spec:  151.04386252068713 Compare:  105.09680851080499 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  150.42051282042988 Spec:  150.30676486656515 Compare:  104.98723404271895 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  146.69999999992052 Spec:  149.35400982018916 Compare:  104.81382978739832 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  143.333333333257 Spec:  148.25158210605477 Compare:  104.58829787250276 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  139.2487179486454 Spec:  146.8594653575493 Compare:  104.44893617037391 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  136.3102564101866 Spec:  145.9485542828047 Compare:  104.3276595746282 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  150 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  133.5923076922404 Spec:  144.543562466105 Compare:  104.07234042568983 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  0 
+Enemy Weight: 0
+White:  187.72307692310414 Spec:  156.69762684149597 Compare:  105.79255319166202 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  10 
+Enemy Weight: 0
+White:  183.4871794871799 Spec:  156.14399890914237 Compare:  105.77872340442786 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  20 
+Enemy Weight: 0
+White:  179.78717948715646 Spec:  155.62899618137158 Compare:  105.7255319150657 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  30 
+Enemy Weight: 0
+White:  176.25897435892898 Spec:  155.22343153325207 Compare:  105.6617021278311 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  40 
+Enemy Weight: 0
+White:  171.83333333325993 Spec:  154.70199127138412 Compare:  105.56170212783026 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  50 
+Enemy Weight: 0
+White:  168.69487179477852 Spec:  153.95684669964072 Compare:  105.48510638314875 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  60 
+Enemy Weight: 0
+White:  163.98974358964801 Spec:  153.26159301715015 Compare:  105.34361702144541 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  70 
+Enemy Weight: 0
+White:  159.96923076913893 Spec:  152.56955810170814 Compare:  105.27340425548736 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  80 
+Enemy Weight: 0
+White:  156.8897435896546 Spec:  151.79383524300334 Compare:  105.22127659591244 
+
+
+Weapon Hit: 60 
+Special Hit:  120 
+Stat:  200 
+Enemy:  125 
+Weight:  90 
+Enemy Weight: 0
+White:  153.14358974350426 Spec:  150.86522094949163 Compare:  105.02765957463419 
+
+

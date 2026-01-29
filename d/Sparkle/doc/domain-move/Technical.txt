@@ -1,0 +1,87 @@
+GENESIS TO SPARKLE MOVE (TECHNICAL)
+-----------------------------------
+
+The purpose of this document is to outline the technical issues
+that need to be solved to get the Sparkle domain up and running.
+
+07/12/09 Arandir        Polished to see where things stand
+
+
+o Preloading
+
+  There are some rooms preloaded in /d/Genesis in preload.c,
+  preload.data and domain_link.c. This needs to be checked
+  and adjusted as necessary.
+
+
+o Boards
+
+  Boards need to be moved. Unlike code, boards get updated,
+  which means they need to be moved fast. Also, MBS needs
+  to be updated.
+
+  - Some boards are not of our concern
+    as they are not in our rooms:
+
+    - COMMON BOARD
+        /d/Genesis/obj/board
+    - TOWER ENTRANCE BOARD
+    - TOWER ADVANCED BOARD
+    - TOWER WIZAPP BOARD
+    - TOWER IDEAS BOARD
+
+  - Some boards we might want to check:
+
+    - PLAYERARCH OFFICE BOARD
+    - DONATION OFFICE BOARD
+
+  - Some boards certainly need moving:
+
+    - DWARFHEIM BOARD
+
+
+o Quests
+
+  Quest bits must be copied. There are quests in Sparkle,
+  quests in Faerie, guru quest for Monks. Mrpr agreed to help.
+
+  A list of quests is kept in open/BITS.
+
+  Special macros have been coded that allow porting of quest
+  bits, see the QUEST_PORT definitions in sys/quests.h. All
+  quest bits should be handled using macros !
+
+
+o Players
+
+  Saving items
+  Souls and shadows
+  Starting locations
+
+  Need to be moved in player files.
+
+  Probably grepping through the player files and
+  then creating a set of rewrite rules should work.
+
+  Movers for rooms, objects, shadows have been coded, see lib/mover.
+
+
+o Databases
+
+  Some O files save object or function names that include paths. This
+  has to be checked, luckily there are not so many O files involved.
+
+  Since all guilds have been moved and the Tower of Realms is not
+  included in the move, this is probably done as well ...
+
+
+o Links
+
+  A grep across all domains for inherited or included code should be done.
+
+  Several places are known to connect from the outside:
+
+   - Events Mvsevm
+   - Dragon Army Dragon Landing
+   - Pretty Much All Ships That Exist
+

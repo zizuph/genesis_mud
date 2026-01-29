@@ -1,0 +1,78 @@
+          111111111122222222223333
+0123456789012345678901234567890123
+CCCCCTTTCCCCCCCCCCCCSSSSSCCCCCCCCC0
+CCCCTTlTTCCCCCCCCCSSSnnnSSCCCCCCCC1
+CCCTTl-lTTCCCCCCCSSSn-+-nSSCCCCCCC2
+CCCTl---lTTCCCCCSSSn-   -nSSCCCCCC3 
+CCCTTl-llTTCCCCCSSn-  --nSSCCCCCCC4
+CCCCTT--+lTTCCCSSn-   -nSSSCCCCCCC5
+CCCCCTTllTTCCCSSn-     -nSSSCCCCCC6
+CCCCCCTTTTCCCCSSn-      -nSSCCCCCC7
+CCCCCCCCCCCCCCSSn+     -nSSCCCCCCC8
+CCCCCCCCCCCCCCFFn-      -nDDCCCCCC9
+CCCggggCCCCCCCCFFn-    -nDDDDDCCCC10
+CCgg--gCCCCCCCCFFFn-    -nDDDDDCCC11
+CCg+--gCCCCCCCFFFww-     -eeDDDCCC12
+CCgg-ggCCCCCFFFww--   ^   +-eDDDCC13
+CCCgggCCCCCFFww--           -eDDCC14
+CCCCCCCCCCFFw-+      --      -eDDC15
+CCCCCCCCCFFw-      --we-     -eDDC16
+CCCCCCCCCMMw-    --wwMee---   -eDC17
+OOOOOOOCCMMw-   -wMMMMLe+ee---eDDC18
+OOOOccOOCCMMw- --wMMMCLeeLLee-eDCC19
+OOOc--cOOCCMMw+wwwMCCCLLLLLLe-eLCC20
+OOc-  -cOOCCMMwMMMMCCCCLLLCLLeLLCC21
+OOOc-  -cOOCCMMMMCCCCCCCCCCCLLLLCC22
+OOc-  -cOOCCCCMMCCCCCCCEEECCCLLCCC23
+OOOc-  -cOOCCCCCCCCCCEEbbbECCCCCCC24
+OOc- # -cOOOCCCCCCCCCEbb-bbECECCCC25
+OOOc-   -cOOOOOCCCCCEbb- -bEEEEECC26
+OOOOc---+cOOOOOOOOCCEb-  -bbbbbEEC27
+OOOOOssssOOOOOOOOOCCEbb-------+bEC28
+OOOOOr--rOOOOOOOOOOCEEEbbbb--bbEEC29
+OOOOOr+--rOOOOOOOOOOCCEEEEEbbEEECC30
+OOOOOrrrrrOOOOOOOOOOOCCCCEEEEECCCC31
+OOOOOOOOOOOOOOOOOOOOOOCCCCCCCCCCCC32
+
+Oceans:
+C - Cuan Siorruidh (Outer Ocean)!
+O - Okiyan (Nyreese Sea)!
+
+Seas:
+L - Lear Min (Port Macdunn Sea)
+M - Miath Rae (Sa Morgan Sea)!
+T - Farraige T'adh (Leprechaun Sea, Lucky Sea)!
+S - Farraige Scanthe (North Sea, Cracked Sea)!
+E - Lear Eahdomhain (Baile Ashlagh, Shallow Sea)!
+F - Farraige Tradalah (Trade Sea)!
+D - Lear Dorcha (Darkening Sea)
+
+Shorelines:
+
+n - north speir (Daenbraigh)!
+w - sw speir (Sa Morgan)!
+e - se speir (Port Macdunn)
+b - baile ashlagh!
+g - eil galaith!
+l - leprechauns!
+c - nyreese!
+r - carisca!
+s - straight between Nyreese and Carisca!
+
+Landings(+):
+Carisca (new, connects to existing)!
+Eil Galaith (new, connects to existing)!
+Cadu (new, connects to existing)!
+Sa Morgan (existing)!
+Port Macdunn (existing)
+Baile Ashlagh (new, connects to existing)!
+Lucky Island (new)!
+Forest (new)!
+Daenbraigh (new)!
+North Wastelands (new)!
+Hammerhands (new)
+
+- - land contour
++ - landing point
+^ - Khalakhor Nexus
+# - Cadu Castle on Nyreese

@@ -1,0 +1,76 @@
+
+
+
+check_exit()
+{
+    if (TP->query_knight_sublevel() < 11)
+       return 0;
+
+    if (TP->query_knight_sublevel == 11 && TP->query_knight_level() == 4)
+       {
+          set_alarm(0.0, 0.0, "give_crown_key");
+          return 0;
+       } 
+
+    if (TP->query_knight_sublevel == 11 && TP->query_knight_level() == 4)
+       {
+          set_alarm(0.0, 0.0, "give_sword_key");
+          return 0;
+       }
+
+    if (TP->query_knight_sublevel == 11 && TP->query_knight_level() == 5)
+       {
+          set_alarm(0.0, 0.0, "give_rose_key");
+          return 0;
+       }
+   return 0;
+}
+
+void
+give_crown_key()
+{
+    object key1;
+    key3 = clone_object(SOBJ + "crn_key");
+        if (!key1)
+            {
+                 seteuid(getuid());
+                 key1->move(TP);    
+                 TP->catch_msg("\nThe Medal of Paladine glows briefly, warming "+
+                    "your skin.\nSuddenly, an ornate key appears in your hand!\n");         	  	
+            }
+}
+
+void
+give_sword_key()
+{
+    object key2;
+    key2 = clone_object(SOBJ + "swd_key");
+        if (!key2)
+            {
+                 seteuid(getuid());
+                 key2->move(TP);    
+                 TP->catch_msg("\nThe Medal of Paladine glows briefly, warming "+
+                    "your skin.\nSuddenly, an ornate key appears in your hand!\n");         	  	
+            }
+}
+
+void
+give_rose_key()
+{
+    object key3;
+    key3 = clone_object(SOBJ + "rose_key");
+        if (!key3)
+            {
+                 seteuid(getuid());
+                 key3->move(TP);    
+                 TP->catch_msg("\nThe Medal of Paladine glows briefly, warming "+
+                    "your skin.\nSuddenly, an ornate key appears in your hand!\n");         	  	
+            }
+}
+
+
+
+
+
+
+

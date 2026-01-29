@@ -1,0 +1,4 @@
+Detect Alignment - This will give an approximation of the alignment
+                   of the target. It will not start combat. It cannot
+                   be cast in combat. This will require a skull. 15 mana.
+                   This spell is available to all members.

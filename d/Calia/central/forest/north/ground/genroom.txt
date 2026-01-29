@@ -1,0 +1,1027 @@
+
+
+
+
+
+
+
+
+
+
+                         1bb2b3bb4    cssr                   qr
+                        bbyyyyyyybbbbbby#rssrr           qsssqrr
+                      bbbyyy#yyyyyyyyyyyyyyyyr      qsssssqyyyyp
+               vb   bbbyyyyyyyyyyyyyyyyyyyyyyrr  qsqyyyyyy#yyyyp
+             tttbbbbbyP-KyyyRSyyyyyyyzzzPKzzzzsssqzzzzzzzzzABzzrr
+          ttttzMVN-Kz/zzzL-JzzL-KzzzP--Jzz\zzzzzzzzzzzzA]]'zzQ~~E
+          W--=%>$<zzHzzzzzzzzzzz@L-JzzzzzzzLKzzzzA]]]]'zzzznnnnoo
+          tttt\O^T-Jiiiizzz@zzzzjjjjxxxxxxxx&7~~'xxxxxxxxxnn  no
+             ttLJiiii  hhhhhhhjjj  jjjjxxxxxYxxxxxxxxnnnnnn
+              tiii                    mmmmxYxxxxllllll
+                                         mC&lllll
+                                         m5ll
+                                         m5l
+                                         m6F
+                                         mxl
+                                         mmk
+
+
+
+//TEMPLATE: /d/Calia/central/forest/north/ground
+
+This file is processed by the DOS program GENROOM which reads the map above and
+creates individual room files from the room types below. The room files are
+named Cxx_Ryy.c, where xx and yy are two-digit column and row indicators.
+GENROOM can be found in both source and binary form in
+/d/Calia/uhclem/DOS_tools.
+
+//#//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "spruce", "fir"}), ({"pit"}));
+
+    }
+
+//$//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+#include <ss_types.h>
+#include <wa_types.h>
+#include <stdproperties.h>
+#include <macros.h>
+#include <composite.h>
+#include <language.h>
+#include <filter_funs.h>
+#include "defs.h"
+
+/*  Function: climb_tree(tree)  */
+
+/*
+Purpose:  allow easy climbing of the baobab tree by overriding the standard
+central forest climb function.
+
+Arguments:  string containing the tree to be climbed.
+
+Returns:  0/1, value will be called from standard function if the tree being
+climbed is not a baobab.
+*/
+
+int
+climb_tree(string tree)
+
+    {
+
+    object tp = this_player();
+    string destination;
+    int fatigue = 5;
+
+    if (tree == "tree"
+        || tree == "baobab"
+        || tree == "baobab tree")
+
+        {
+
+        /*  Anybody can climb a baobab tree if he's not too tired.  */
+
+        destination = LOW + query_prop(FOREST_LOCATION);
+
+        if (tp->query_fatigue() < fatigue)
+
+            {
+
+            write("You are too tired to climb the baobab tree.\n");
+
+            say(QCTNAME(tp) + " tries to climb the baobab tree" +
+                " but fails.\n");
+
+            return 1;
+
+            }
+
+        else
+
+            {
+
+            tp->move_living("M", destination, 1);
+            tp->add_fatigue(-fatigue);
+            say(QCNAME(tp) + " climbs up from ground level.\n");
+
+            tell_room(this_object(),
+                QCTNAME(tp) + " leaves climbing the baobab tree.\n");
+
+            }
+
+        return 1;
+
+        }
+
+    else return ::climb_tree(tree);
+
+    }
+
+void
+create_room()
+
+    {
+
+    string *special_long;
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"baobab", "cedar"}), 0, "hill");
+
+    special_long = explode(query_long(), ".");
+
+    special_long[1] = " A tremendous baobab tree, a tumult" +
+        " of trunks and branches reaching for the" +
+        " sky, dominates the landscape here, spreading as high" +
+        " and wide as ten of the massive cedars";
+
+    set_long(implode(special_long, "."));
+
+    add_item(({"tree", "baobab", "baobab tree", "baobabs", "baobab trees"}),
+        "A giant among giants, the baobab tree's girth is" +
+        " as astounding as its height. Composed of" +
+        " many trunks and branches, it spreads across the ground" +
+        " as if to intimidate even the mighty cedars that" +
+        " grow in its shade.\n");
+
+    add_item(({"trees"}),
+        "Here cedars grow in the shade of a tremendous" +
+        " baobab tree whose many trunks and branches burst" +
+        " forth from the ground and attain heights" +
+        " far beyond your view.\n");
+
+    add_item(({"trunks", "branches", "many trunks",
+        "many branches", "limbs", "tumult"}),
+        "The profusion of limbs suggests that anyone who wants to" +
+        " try for the top will find plenty of support" +
+        " as he climbs.\n");
+
+    }
+
+//%//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"west", "northeast"}));
+
+    }
+
+//&//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "spruce", "fir"}), ({"southwest", "east"}));
+
+    }
+
+//'//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"west", "northeast"}));
+
+    }
+
+//-//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"east", "west"}));
+
+    }
+
+/////
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"northeast", "southwest"}));
+
+    }
+
+//<//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"pit"}), "east");
+
+    }
+
+//=//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"west", "east", "southeast"}));
+
+    }
+
+//>//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"pit"}), "west");
+
+    }
+
+//@//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"pit"}));
+
+    }
+
+//\//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"northwest", "southeast"}));
+
+    }
+
+//]//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"west", "east"}));
+
+    }
+
+//^//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"pit"}), "south");
+
+    }
+
+//~//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "balsam", "fir"}), ({"west", "east"}));
+
+    }
+
+//1//
+
+inherit "/d/Calia/central/forest/baserooms/base_entrance";
+
+#include "defs.h"
+
+void
+create_room()
+
+    {
+
+    add_exit(BOG_OUTER + "ground/C30_R32", "northeast", 0, 2);
+
+    create_forest_entrance(***this_location***, ***adjacent_rooms***,
+        ({"balsam", "fir", "beech"}), 0, "bog", "northeast");
+
+    }
+
+//2//
+
+inherit "/d/Calia/central/forest/baserooms/base_entrance";
+
+#include "defs.h"
+
+void
+create_room()
+
+    {
+
+    add_exit(BOG_OUTER + "ground/C32_R32", "north", 0, 2);
+
+    create_forest_entrance(***this_location***, ***adjacent_rooms***,
+        ({"balsam", "fir", "beech"}), 0, "bog", "north");
+
+    }
+
+//3//
+
+inherit "/d/Calia/central/forest/baserooms/base_entrance";
+
+#include "defs.h"
+
+void
+create_room()
+
+    {
+
+    add_exit(BOG_OUTER + "ground/C34_R32", "north", 0, 2);
+
+    create_forest_entrance(***this_location***, ***adjacent_rooms***,
+        ({"balsam", "fir", "beech"}), 0, "bog", "north");
+
+    }
+
+//4//
+
+inherit "/d/Calia/central/forest/baserooms/base_entrance";
+
+#include "defs.h"
+
+void
+create_room()
+
+    {
+
+    add_exit(BOG_OUTER + "ground/C36_R32", "northwest", 0, 2);
+
+    create_forest_entrance(***this_location***, ***adjacent_rooms***,
+        ({"balsam", "fir", "beech"}), 0, "bog", "northwest");
+
+    }
+
+//5//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "balsam", "fir"}), ({"north", "south"}));
+
+    }
+
+//6//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "balsam", "fir"}), ({"north", "east"}));
+
+    }
+
+//7//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "balsam", "fir"}), ({"northwest", "east", "southwest"}));
+
+    }
+
+//A//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"southwest", "east"}));
+
+    }
+
+//b//
+
+inherit "/d/Calia/central/forest/baserooms/base_edge";
+
+void
+create_room()
+
+    {
+
+    create_forest_edge(***this_location***, ***adjacent_rooms***,
+        ({"balsam", "fir", "beech"}), ({"bog"}));
+
+    }
+
+//B//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"west", "southeast"}));
+
+    }
+
+//c//
+
+inherit "/d/Calia/central/forest/baserooms/base_edge";
+
+void
+create_room()
+
+    {
+
+    create_forest_edge(***this_location***, ***adjacent_rooms***,
+        ({"balsam", "cedar", "beech"}), ({"stream", "east", "north", "bog",
+        "west"}));
+
+    }
+
+//C//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "balsam", "fir"}), ({"northeast", "south"}));
+
+    }
+
+//E//
+
+inherit "/d/Calia/central/forest/baserooms/base_entrance";
+
+#include "defs.h"
+
+void
+create_room()
+
+    {
+
+    add_exit(FOREST_EAST + "ground_level/C19_R14", "east", 0, 2);
+
+    create_forest_entrance(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "fir"}), ({"east", "west"}), "stream", "east");
+
+    }
+
+//F//
+
+inherit "/d/Calia/central/forest/baserooms/base_entrance";
+
+#include "defs.h"
+
+void
+create_room()
+
+    {
+
+    add_exit(FOREST_EAST + "ground_level/C01_R28", "east", 0, 2);
+
+    create_forest_entrance(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "fir"}), ({"east", "west"}), "thicket", "east");
+
+    }
+
+//h//
+
+inherit "/d/Calia/central/forest/baserooms/base_edge";
+
+void
+create_room()
+
+    {
+
+    create_forest_edge(***this_location***, ***adjacent_rooms***,
+        ({"fir", "cedar", "birch"}), ({"mountains"}));
+
+    }
+
+//H//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"southwest", "northwest",
+        "northeast"}));
+
+    }
+
+//i//
+
+inherit "/d/Calia/central/forest/baserooms/base_edge";
+
+void
+create_room()
+
+    {
+
+    create_forest_edge(***this_location***, ***adjacent_rooms***,
+        ({"beech", "cedar", "birch"}), ({"mountains"}));
+
+    }
+
+//j//
+
+inherit "/d/Calia/central/forest/baserooms/base_edge";
+
+void
+create_room()
+
+    {
+
+    create_forest_edge(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "birch"}), ({"mountains"}));
+
+    }
+
+//J//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"west", "northeast"}));
+
+    }
+
+//k//
+
+inherit "/d/Calia/central/forest/baserooms/base_edge";
+
+void
+create_room()
+
+    {
+
+    create_forest_edge(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "beech", "fir", "balsam"}), ({"thicket", "west",
+        "mountains", "south"}));
+
+    }
+
+//K//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"southeast", "west"}));
+
+    }
+
+//l//
+
+inherit "/d/Calia/central/forest/baserooms/base_edge";
+
+void
+create_room()
+
+    {
+
+    create_forest_edge(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "balsam", "fir", "beech"}), ({"thicket"}));
+
+    }
+
+//L//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"northwest", "east"}));
+
+    }
+
+//m//
+
+inherit "/d/Calia/central/forest/baserooms/base_edge";
+
+void
+create_room()
+
+    {
+
+    create_forest_edge(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "balsam", "fir", "beech"}), ({"mountains"}));
+
+    }
+
+//M//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"southwest", "east"}),
+        "northwest");
+
+    }
+
+//n//
+
+inherit "/d/Calia/central/forest/baserooms/base_edge";
+
+void
+create_room()
+
+    {
+
+    create_forest_edge(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "beech", "balsam"}), ({"thicket"}));
+
+    }
+
+//N//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"east", "west"}), "northeast");
+
+    }
+
+//o//
+
+inherit "/d/Calia/central/forest/baserooms/base_edge";
+
+void
+create_room()
+
+    {
+
+    create_forest_edge(***this_location***, ***adjacent_rooms***,
+        ({"balsam", "cedar", "fir"}), ({"stream", "southwest"}));
+
+    }
+
+//O//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), "southwest");
+
+    }
+
+//p//
+
+inherit "/d/Calia/central/forest/baserooms/base_edge";
+
+void
+create_room()
+
+    {
+
+    create_forest_edge(***this_location***, ***adjacent_rooms***,
+        ({"balsam", "cedar", "fir"}), ({"stream", "south"}));
+
+    }
+
+//P//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"southwest", "east"}));
+
+    }
+
+//q//
+
+inherit "/d/Calia/central/forest/baserooms/base_edge";
+
+void
+create_room()
+
+    {
+
+    create_forest_edge(***this_location***, ***adjacent_rooms***,
+        ({"balsam", "cedar", "fir"}), ({"stream", "northeast"}));
+
+    }
+
+//Q//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"northwest", "east"}));
+
+    }
+
+//r//
+
+inherit "/d/Calia/central/forest/baserooms/base_edge";
+
+void
+create_room()
+
+    {
+
+    create_forest_edge(***this_location***, ***adjacent_rooms***,
+        ({"balsam", "cedar", "fir"}), ({"stream", "southeast"}));
+
+    }
+
+//R//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"east", "southwest"}));
+
+    }
+
+//s//
+
+inherit "/d/Calia/central/forest/baserooms/base_edge";
+
+void
+create_room()
+
+    {
+
+    create_forest_edge(***this_location***, ***adjacent_rooms***,
+        ({"balsam", "cedar", "fir"}), ({"stream", "east"}));
+
+    }
+
+//S//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "spruce", "fir"}), ({"southeast", "west"}));
+
+    }
+
+//t//
+
+inherit "/d/Calia/central/forest/baserooms/base_edge";
+
+void
+create_room()
+
+    {
+
+    create_forest_edge(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "fir", "balsam"}), ({"thicket"}));
+
+    }
+
+//T//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"southwest", "east"}),
+        "southeast");
+
+    }
+
+//v//
+
+inherit "/d/Calia/central/forest/baserooms/base_edge";
+
+void
+create_room()
+
+    {
+
+    create_forest_edge(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "fir", "balsam"}), ({"thicket", "west", "bog", "north"}));
+
+    }
+
+//V//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}), ({"east", "west"}), "north");
+
+    }
+
+//W//
+
+inherit "/d/Calia/central/forest/baserooms/base_entrance";
+
+#include "defs.h"
+
+void
+create_room()
+
+    {
+
+    add_exit("/d/Calia/uhclem/workroom", "west", 0, 2);
+
+    create_forest_entrance(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "fir", "beech"}), ({"east", "west"}), "thicket", "west");
+
+    }
+
+//x//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "balsam", "fir"}));
+
+    }
+
+//y//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "spruce", "fir"}));
+
+    }
+
+//Y//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "balsam", "fir"}), ({"northeast", "southwest"}));
+
+    }
+
+//z//
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void
+create_room()
+
+    {
+
+    create_forest_interior(***this_location***, ***adjacent_rooms***,
+        ({"cedar", "pine", "spruce", "fir"}));
+
+    }

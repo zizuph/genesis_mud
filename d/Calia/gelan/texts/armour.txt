@@ -1,0 +1,25 @@
+
+I make armours of the type, metals, and constructions listed below.
+My steel armour is of the highest standard that is sold in Genesis.
+To order an item, use the command "aorder" followed by the type,
+metal and construction. Here are some possible examples:
+
+    "aorder shield steel tower"
+or 
+    "aorder helm bronze great"   
+or
+    "aorder body-armour iron plate"
+
+Here are the possible types, metals and constructions:
+
+Types:
+  shield, body-armour, helm, greaves, bracers. 
+
+Metals (in order of armour quality, top to bottom):
+  steel, gold, silver, iron, bronze, brass.
+
+Constructions (I currently only make the optimum in each class):
+  For shields: tower.
+  For greaves, body-armour and bracers: plate.
+  For helms: great.
+

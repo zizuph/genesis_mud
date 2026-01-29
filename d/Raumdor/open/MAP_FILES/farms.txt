@@ -1,0 +1,252 @@
+main
+::MAPDATA::
+sgate 25 3 farmnorth
+farmroad01 24 3 farmnorth
+farmroad02 24 3 farmnorth
+farmroad03 24 3 farmnorth
+farmroad04 24 4 farmnorth
+farmroad05 24 4 farmnorth
+farmroad06 24 5 farmnorth
+farmroad07 24 5 farmnorth
+farmroad08 25 5 farmnorth
+farmroad09 24 5 farmnorth
+farmroad10 24 5 farmnorth
+farmroad11 23 5 farmnorth
+farmroad12 22 5 farmnorth
+farmroad13 21 5 farmnorth
+farmroad14 21 5 farmnorth
+farmroad15 20 5 farmnorth
+farmroad16 24 6 farmnorth
+farmroad17 24 6 farmsouth
+farmroad18 24 7 farmsouth
+farmroad19 24 8 farmsouth
+farmroad20 25 8 farmsouth
+farmroad21 23 8 farmsouth
+farmroad22 24 9 farmsouth
+farmroad23 24 9 farmsouth
+farmroad24 24 9 farmsouth
+farmroad25 24 9 farmsouth
+farmroad26 24 10 farmsouth
+farmroad27 24 10 farmsouth
+farmroad28 24 10 farmsouth
+farmroad28 24 10 farmsouth
+farmroad29 24 11 farmsouth
+farmroad30 24 11 farmsouth
+blonks01 25 5 blonks
+blonks02 25 5 blonks
+blonks03 25 5 blonks
+blonks04 25 5 blonks
+blonks05 25 5 blonks
+blonks06 25 5 blonks
+blonks07 25 5 blonks
+blonks08 25 5 blonks
+horraces01 11 7 horraces
+::MAPDATA::
+                     Drakmere
+                        O
+                        |
+                        |
+                  Mill  |  Blonks
+                    o---+---o
+                        |
+            Cartwrights |  Horraces
+                    o---+---o
+                        |
+                        |
+                        |
+                   Royal Road 
+
+::NEWMAP::
+farmnorth
+::MAPDATA::
+farmroad01 25 5
+farmroad02 36 7
+farmroad03 38 9
+farmroad04 38 11
+farmroad05 38 13
+farmroad06 38 15
+farmroad07 38 17
+farmroad08 40 17
+farmroad09 38 19
+farmroad10 38 21
+farmroad11 36 21
+farmroad12 33 21
+farmroad13 30 21
+farmroad14 27 21
+farmroad15 24 21
+farmroad16 38 23 
+::MAPDATA::
+  |                                                          |
+  |                           Drakmere                       |
+  |             _____________________________________________|   
+  |             |                 o
+  |_____________|                 |
+                                  o
+                                   \
+                                    o
+                                     \
+                                      o        \|/       \|/
+                    \       /         |
+                     \     /          o          \|/
+                      \___/           |     
+                      /\ /\ Mill      o    
+                     /__X__\          |       \|/
+                     | / \ |          o  \|/ 
+                     |/   \|          |     
+                     /     \          o-o- Blonks Farm
+                    /|     |\         |      
+                     |__o__|          o      \|/
+                        |             |            \|/
+                        o--o--o--o--o-o      
+                                      |
+                                      o 
+                                      |
+                                      | 
+                                    Farms
+                    
+::NEWMAP::
+farmsouth
+::MAPDATA::
+farmroad17 38 5
+farmroad18 38 7
+farmroad19 38 9
+farmroad20 40 9
+farmroad21 36 9
+farmroad22 38 11
+farmroad23 38 13
+farmroad24 38 15
+farmroad25 38 17
+farmroad26 38 19
+farmroad27 38 21
+farmroad28 38 23
+farmroad29 38 25
+farmroad30 38 27
+::MAPDATA::
+
+                                  Drakmere
+                                      |
+                                      | 
+                                      |
+                                      o                     
+                                      |                  
+                                      o               
+                                      |                       
+                  Cartwrights Farm -o-o-o- Horraces Farm
+                                      |        
+                                      o       
+                                      |       
+                                      o      
+                                      |       
+                                      o      
+                                      |         
+                                      o             
+                                      |                   
+                                      o                     
+                                      |
+                                      o
+                                      |
+                                      o 
+                                      |
+                                      o
+                                      |
+                                      o 
+                                 Royal Road
+::NEWMAP::
+blonks
+::MAPDATA::
+blonks01 17 9
+blonks02 19 9
+blonks03 21 9
+blonks04 21 7
+blonks05 23 7
+blonks06 25 7
+blonks07 27 7
+blonks08 29 7
+blonks09 25 5
+blonks10 27 5
+blonks12 25 9
+blonks13
+blonks15
+blonks16
+blonks17
+blonks18
+blonks19
+blonks20
+::MAPDATA::
+
+
+
+ Blonks Farm       o-o Stable    o-o-o-o     \|/
+                   | |           | | | |
+                   o-o   o o     o-o-o-o
+                     |   | |     | | | |   \|/
+                \|/  o-o-o-o-o   o-o-o-o
+                    /|   | |     | | | |
+      Farm road -o-o-o   o o     o-o-o-o  Grain field
+                    \|           | | | |
+                     o-o-o-o-o-o-o-o-o-o
+                     | | | | | | | | | |     \|/
+                     o-o-o-o-o-o-o-o-o-o
+
+                  Horse pasture
+
+
+::NEWMAP::
+horraces
+::MAPDATA::
+horraces01 11 7
+::MAPDATA::
+
+                                       \|/
+                            \|/
+                               o-o-o-o-o  \|/  
+                               | | | | | 
+              Horraces Farm    o-o-o-o-o   Grain field
+                               | | | | |
+Farm road -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o    \|/
+                 |       |     | | | | | 
+               o-o-o     o-o-o o-o-o-o-o  \|/
+                 |       | | |   
+               o-o-o     o-o-o   o-o-o-o 
+                 |       | | |   | | | |   ^__^
+               o-o-o     o-o-o-o-o-o-o-o   (**)\______
+                 |       | | |   | | | |   (__)\      )\/\
+                 o       o-o-o   o-o-o-o        ||---w|
+                 |               | | | |        ||   ||
+                 o---o---o---o---o-o-o-o
+
+                               Cow pasture  
+
+::NEWMAP::
+cartwrights
+::MAPDATA::
+
+::MAPDATA::
+
+                          Sheep pasture   
+                                        __
+                             o-o-o-o   UooU\.'@@@@@@`.    
+                             | | | |   \__/(@@@@@@@@@@)     
+                             o-o-o-o        (@@@@@@@@)                        
+                             | | | |         `YY~~~YY'                
+               Cartwrights   o-o-o-o          ||   ||            
+      \|/                        |                              
+         o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-Farm Road
+         | | | | | | | | | |     |   | |           
+    \|/  o-o-o-o-o-o-o-o-o-o   o-o-o o-o          
+         | | | | | | | | | |     |   | |  Vegetable garden        
+         o-o-o-o-o-o-o-o-o-o   o-o-o o-o   _ _     
+      \|/                        |   | |  ( ) )      
+           Grain field    \|/  o-o-o o-o (  o  )  
+                                 |        (_(_)         
+            \|/                  o       |\ | /|             
+                                 |        \\|//                  
+                             o-o-o      ___\|/___                      
+                             | |           
+                             o-o           
+                                                                             
+                            Pigsty             
+                                      
+                                      
+          
+                             

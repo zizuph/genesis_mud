@@ -1,0 +1,40 @@
+The blanket carrier's emotes are:
+bthumb............ suck your thumb
+bhair............. when you are really scared
+beyes............. when you are shocked amazed or scared
+bwhimp............ whimper
+bturn............. when you don't want to look at someone
+bsob.............. stifle a sob
+bblub............. blubber
+bcover............ when you want to cry in private
+bfetal............ get comfortable on your blankie/bag
+bnose............. wipe your nose
+bsniv............. snivel
+bponder........... ponder something while being cute
+bdrape............ when you want to be a superhero
+braspberry........ Ewwww! Yuck! Just what it says.  You can also 
+                    "brasp <player>" when you have a particular target in mind
+bflex............. show your muscles
+bpant............. catch your breath when you are tired
+bheavy............ let someone know when you are overtaxed
+                    do bheavy <obj> when a particular item is too heavy
+bslow............. when you can't go any further (get someone to slow down)
+btired............ when you can't go any further 
+bcute............. when you need to charm someone you can do "bcute <player>"
+                   or just use "bcute" when you need to be charming
+bblink............ when you are really amazed by something
+                    you can also "bblink <player>"
+bhide............. hide behind someone
+bpeer [adv]....... peer out when you are hiding behind someone
+                    you can also "bpeer <player> [adj]" to peer out
+                     at a particular individual
+bclimb <player>... when you are really terrified it is best to head
+                    for higher ground
+bstare............ really get a good look at something
+bankle............ hold on to someones ankles
+bshow............. show off your blankie for others to see
+                    you can also "bshow <player>" if you only want one to see
+bkick............. when you are really mad kick someone
+bstamp............ stamp your foot and let everyone know you are really 
+                    frustrated --you can also "bstamp <player" when someone
+                      in particular is the cause of your frustrations

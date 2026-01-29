@@ -1,0 +1,54 @@
+Holding file for formulas relating to how strength applies to combat
+and combat aid:
+
+Strength formula in /sys/formulas.h (no idea what it means??)
+#define F_STR_FACTOR(str) ((600 + (str) * 4) / 10)
+
+
+STATBOOST spell formula for strength:
+base = player->query_base_stat(stat);
+boost = (caid * 100) / (caid + 100);
+
+modus = 1.0 + (itof(boost) / 100.0);
+boost = ftoi(150.0 * (modus - 1.0) + (itof(base) * modus));
+value = boost - base;
+
+
+BERSERK (Uses skills SS_BERSERK)
+    Berserk is a special that enhances the Strength, Constitution, and
+    Discipline of the Gladiator. Each is boosted so that the F_STR_FACTOR
+    adjustment will equal an increase of 6% for a short
+    time. The berserk lasts approximately 50 seconds, with a 5 second
+    preparation time, and a 10 second cooldown. That means that the
+    boost only lasts for 50/65 of the time. So the actual boost over
+    time is should be reduced by the 50/65 percentage..
+    
+    With all three stats boosted, the charge special as well as normal
+    attacks are boosted. Using the F_STR_FACTOR formula, we can
+    see that boosted stats are granting a 4.6% combat aid.
+    (6% aid * 50 / 65)
+    Additionally, boosting con gives approx 15% temporary increase in
+    hit points. This translates to approximately a 13% combat aid.
+    (100 / ((100 - 15% increase) * 50 / 65))
+    
+    Therefore, Berserk grants the gladiator an approximate 17.6%
+    combat aid.
+
+========================
+OGRE STAT MODIFICATIONS:
+========================
+All stats are flatlined to human levels, and then special ogre
+modifications are applied. Those that benefit the ogre are listed
+below with combat aid/tax calculations applied:
+
+Strength: 100 increases to 150 (150% boost). This has a minimal increase
+          on combat, affecting only the encumberance of the player.
+          In his calculations for the Gladiator guild, Glindor suggested
+          a 0.25% combat benefit for berzerk, which raises strength from
+          100 to 110. Based on this calculation, we would assume that
+          here, a 0.34% combat aid is appropriate.
+          Combat aid: 0.34%
+          Tax       : 0.06%
+
+
+

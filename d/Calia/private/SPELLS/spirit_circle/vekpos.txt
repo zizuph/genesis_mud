@@ -1,0 +1,8 @@
+Turn Undead -      This spell will turn undead targets. The target is first
+                   checked for life spells resistance (spell system does the
+                   check), then they are checked for NPC_I_NO_RUN_AWAY. If they
+                   pass either of these two checks, the spell fails. If they are
+                   not undead, the spell fails. If successful, the spell initiates
+                   a wimpy routine in the target, causing them to run away. It 
+                   initiates combat. 25 mana and a skull.
+                   

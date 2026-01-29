@@ -1,0 +1,35 @@
+main
+::MAPDATA::
+north_road_s1 1 14
+north_road_s2 1 12
+north_road_s3 1 10
+north_road_e0 5 10
+north_road_e1 9 10
+north_road_e2 11 8
+north_road_e3 13 8
+walk2 15 6
+walk3 15 4
+walk1 15 8
+foyer 25 6
+locker_room 30 6
+stand2 35 6
+stand1 35 8
+stand3 35 4
+stand4 37 2
+::MAPDATA::
+                          ____________      
+                         /            \
+                        /            o \
+                       /            /   \
+               o      |            o     |
+               |      |            |     |
+   _   _       o ---  | [ ] - o   [ ]    |
+  {x} {x}     /|      |            |     |
+   Y   Y   o-o o       \           o    /
+          /  _          \              /
+ o - o - o  {x}          \____________/
+ |       _   Y
+ o      {x}            =========
+ |    _  Y             Firedrome
+ o   {x}               =========
+ |    Y

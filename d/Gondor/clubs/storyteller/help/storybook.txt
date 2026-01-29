@@ -1,0 +1,12 @@
+                     ---=== Storyteller's Club ===---
+
+
+        The following actions are valid for use with your storybook:
+
+        - copy        - copy a story from the archives to your storybook
+        - erase       - erase a story from your storybook
+        - measure     - measure the length of a story in your storybook
+        - read        - read the list of stories in your storybook, or a
+			particular story
+        - spin        - spin a delightful tale from your storybook
+        - stop        - stop spinning a tale

@@ -1,0 +1,49 @@
+south_highroad
+::MAPDATA::
+s_hroad01 6 9
+s_hroad02 6 11
+s_hroad03 9 14
+s_hroad04 14 14
+s_hroad05 19 14
+s_hroad06 24 11
+s_hroad07 29 11
+s_hroad08 34 11
+s_hroad09 39 11
+s_hroad10 44 11
+s_hroad11 47 14
+s_hroad12 52 14
+s_hroad13 56 17
+s_hroad14 61 17
+s_hroad15 65 20
+::MAPDATA::
+
+              ======================
+              The southern High Road
+              ======================
+                                        ^
+ To Sword Coast North       ^     ^    /|\  ^
+                           /|\   /|\    |  /|\
+      |  @ @ @ @ @ @        |  ^  |         |
+      | @ Sword   @ @         /|\   Westwood        |\_
+      o   @ Mountains          |                    |   |  __
+      |  @ @ @ @ @ @                                |[] |_/## \
+      o   @ @ @  MS     o -- o -- o -- o -- o       |   |  ##  \
+  ~    \     @ @ @    /                      \      ¨¨¨¨¨¨¨¨¨¨¨
+        \            /            _      _    \                  /
+         o -- o -- o        ~    / \     # __  o -- o           / The
+~   ~            @ @             RR _      ## _____   \        / Long Road
+            @ @ MH  @    ~         / \        # RC #__ \      /
+              @ @ @ @                               ##  o -- o
+  ~    ~       @ @ @          ~          ~                     \
+                                    ~         ~                 \
+                                                                 o
+~       ~        ~       ~    ~  ~       ~           ~           |
+                                                                 |
+    ~  ~     The Sea of Swords     ~         ~~    ~       /\    _    /\
+                                      ~                    ||___/_\___||
+    ~        ~            ~       ~          ~   ~ ~~     / ____|#|____|
+ ------------------------                               /\/ \ The City
+|  MS - Mount Sar                     ~   ~             || ~ \  /\ of
+|  MH - Mount Helimbrar                              ~        /  Waterdeep
+|  RR - Red Rocks                          ~             /\  |   ^ ___ ^
+|  RC - Red Cliffs                ~~            ~        ||  |  | | # | |

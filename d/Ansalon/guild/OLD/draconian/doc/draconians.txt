@@ -1,0 +1,148 @@
+Draconians of Krynn
+-----
+Type: Race (possibly layman as well)
+Location: Neraka, Ansalon
+Alignment: Neutral
+
+Background
+----
+The Priests of Takhisis created a process to corrupt good metallic dragon eggs into draconians
+underneath their temple in Neraka. Using this theme, the players are able to become transformed
+into draconians by selecting one of the different types below here (except Baaz). The guild
+fits well into the current time and theme of Krynn, and would improve the roleplay of the
+guilds in Krynn/Ansalon. The guild is not meant to be immense powerful, but instead each 
+draconian type will have a single spell that could give an advantage in battle or might be 
+helpful in another way.
+
+The draconians consists of 5 different types.
+Baaz.  Smaller draconians (foot soldiers), doesn't have any special skills or abilities. 
+       Turns to stone when killed.
+Kapak. Assassin draconians, can either coat their weapons with poisoned saliva or use the
+       saliva to heal themselves. Some sources state that it’s only the female ones that can
+       heal using the saliva, and the male ones can coat their weapons with poison. Turns into
+       a pool of acid when killed.
+       I'm not sure, if I'm going for just one special ability here or to separate them into
+       two depending on the player’s gender.
+Bozak. Considered to be the magic-users of the draconian race. Can cast magic missiles, and
+       the create will explode when killed.
+Sivak. The only draconian type that can fly, they have the ability to shape-shift into their
+       latest kill.
+Aurak. The larger and more powerful draconian type. They can use mental attacks (in this case
+       I'll just use the standard confusion spell and modify it). When killed the draconian
+       will go berserk (add some temporary stats to the player), and after a few seconds it
+       will automatically die.
+
+Skills
+----
+Some minor weapon skills that fits the theme of the current draconians in Krynn
+and magic skills that support their spells. The skills can be trained to level 40
+since I would like the players to be able to improve their spells (to a lesser degree)
+with their occ and layman slot.
+
+Abilities
+-----
+All spells that uses the new magic skills will be have skill/stat cap. All of them will be
+logged for further analysis.
+
+Kapak draconian
+  Spell 'Minor regeneration' or 'Minor weapon poison' - still undecided.
+
+Bozak draconian
+  Spell 'Lesser magic missile'
+  Just a standard damage spell, minor damage and with the ability to resist it with
+  magic resistance.
+
+Aurak draconian
+  Spell 'Confusion'
+  Based on the new spell system, this spell can cause some random effects on a target.
+  The spell should be able to be resisted based on magic resistance of the target and
+  its int/wis.
+
+Sivak draconian
+  Spell 'Shapeshift'
+  Based on the new spell system, this spell allows the caster to change farm into their
+  latest kill. The spell doesn't grant any combat aid, but could still be an interesting
+  abilities that can confuse in player fights or disrupt 'robotic' behavior.
+
+Concerns
+----
+Dragon-slaying items works quite well on draconians, since they are dragonkin. I'm not
+sure if this restraint can help reduce the tax slightly. Nevertheless, it might cause
+some interesting episodes with player vs. player interactions. 
+
+An alternative implementation could be to create the draconians with spells as race/layman
+guilds and create the basic baaz draconian as a purely race guild with no extra abilities or
+skills.
+
+
+
+
+
+
+For every 6% of combat aid, 1% tax has to be charged.
+A race guild may give up to 25% combat aid (4.2% tax).
+
+               |       G u i l d   T a x             |
+               |                                     |
+        type   | max total | max skills  | max c aid |
+        -------|-----------|-------------|-----------|
+               |           |             |           |
+        race   |     10 %  |  3.3-(5) %  |    4.2 %  |
+               |           |             |           |
+
+
+
+               |                   G u i l d   S k i l l s                |
+               |                                                          |
+               |                      mudlib                      | guild |
+        type   | sum all | sum tax | general | spec fight | other | spec  |
+        -------|---------|---------|---------|------------|-------|-------|
+               |         |         |         |            |       |       |
+        race   |    400  |     150 |  50/60  |         0  |   50  |  100  |
+               |         |         |         |            |       |       |
+
+
+
+  Example of the tax calculation for a guild (occupational, fighter):
+  - mudlib skills:   max level   untaxed   tax levels    tax in %
+  o sword             90         30          60           1.5
+  o defence           80          0          80           2.0
+  o parry             50          0          50           1.3
+  o two handed combat 50          0          50           1.3
+  o awareness         75         50          25           0.4
+  o appraise enemy    70         50          20           0.3
+  o appraise object   70         50          20           0.3
+  o climb             70         50          20           0.3
+  o hide (thief)      70         50          20           0.3
+    alien skill: x2  140                     40
+  Sum                695                    365           7.7
+
+  - guild abilities:
+  o trip             100
+    A special attack which will prevent the enemy from
+    fighting for up to 60% of the time = 60% combat aid,
+    since it uses a skill 50% tax reduction               5.0
+  o see              100
+    A special ability which allows players to see an
+    enemy in the next room = little combat aid, 50% tax
+    reduction for skill required                          1.0
+  - extras:
+  o a shop in the guild head quarters which uses the
+    average of guild stat and trading skill as trading
+    skill for guild members                               1.0
+  ---------------------------------------------------------------
+  Total                                                  14.7 %
+
+
+
+  Tax reductions:
+    If a guild imposes heavy restraints on the guild members tax
+    reductions are possible. This does not include restraints that
+    balance special features, but restraints that handicap a guild
+    member considerably compared to other players. Possible examples
+    might be to make guild members incapable of drinking alcohol or of
+    making it impossible for them to wield anything but non-magical
+    knives while the unarmed combat skill is set permanently to 0.
+    The maximum possible tax reduction is 2%, all in all. The tax
+    reduction has to be documented in an aptly labelled file in the
+    directory /d/<Domain>/open/GUILD/.

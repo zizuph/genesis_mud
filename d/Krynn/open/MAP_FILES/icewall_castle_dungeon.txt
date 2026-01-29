@@ -1,0 +1,21 @@
+main
+::MAPDATA::
+guard 8 3
+cwllwn 4 5
+prisonn 8 5
+cellen 12 5
+cellw 4 7
+prisons 8 7
+celle 12 7
+basement 8 9
+::MAPDATA::
+
+  Icewall Castle
+     Dungeon
+        o
+        |
+    o - o - o
+        |
+    o - o - o
+        |
+       [ ]

@@ -1,0 +1,43 @@
+
+New map, with Relic:
+
+   -----------------------------------------------------------------------------
+60 |                                    |                                      |
+   |                                    |                                      |
+48 |                                    |                                      |
+   |                                    |                                      |
+36 |                    Ave             |                                      |
+   |                                    |                                      |
+24 |                          Ter       |    Shi   Rho                         |
+   |                                    |                                      |
+12 |                          Rok       |       Gon Mor      Rel               |
+   |                                    |                                      |
+ 0 |--------------------Kal---Cir------Spa---------------Eme-------------------|
+   |                                Cal |                                      |
+12 |                                    |                                      |
+   |                                    |    Kry   Ans                         |
+24 |                                    |                                      |
+   |                                    |                                      |
+36 |                                    |                                      |
+   |                                    |                                      |
+48 |                                    |                                      |
+   |                                    |                                      |
+60 |                                    |                                      |
+   -----------------------------------------------------------------------------
+
+ * Distances:
+ *            Gon Shi Rho Kry Ans Spa Rok Cir Kal Ter Ave Cal Eme Rel
+ * Gondor      *   N   N   S   F   S   S   F   S   F   F   S   F   F     
+ * Shire       N   *   N   S   F   S   S   F   S   F   F   S   F   F     
+ * Rhovanion   N   N   *   F   F   F   F   F   F   F   F   F   S   S
+ * Krynn       S   S   F   *   N   S   S   F   F   S   F   S   S   F     
+ * Ansalon     F   F   F   N   *   F   F   F   F   F   F   F   F   F
+ * Sparkle     S   S   F   S   F   *   S   F   F   S   F   N   S   F
+ * Roke        S   S   F   S   F   S   *   S   S   F   F   F   F   F     
+ * Cirath      F   F   F   F   F   F   S   *   N   F   F   F   F   F
+ * Kalad       S   S   F   F   F   F   S   N   *   S   F   F   S   F     
+ * Terel       F   F   F   S   F   S   F   F   S   *   N   F   S   F     
+ * Avenir      F   F   F   F   F   F   F   F   F   N   *   F   F   F
+ * Calia       S   S   F   S   F   N   F   F   F   F   F   *   F   F     
+ * Emerald     F   F   S   S   F   S   F   F   S   S   F   F   *   S     
+ * Relic       F   F   S   F   F   F   F   F   F   F   F   F   S   *

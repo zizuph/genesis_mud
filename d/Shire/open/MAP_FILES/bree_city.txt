@@ -1,0 +1,170 @@
+main
+::MAPDATA::
+broad01 30 10 city
+broad02 30 10 city
+broad03 30 10 city
+hshop 30 10 city
+bank 30 10 city
+broad04 30 10 city
+broad05 30 10 city
+hhouse1 30 10 city
+gem_shop 30 10 city
+shop 30 10 city
+innyard 30 10 city
+inndining 30 10 city
+stable_yard 30 10 city
+tack_shop 30 10 city
+east_yard 30 10 city
+foyer 30 10 city
+board 30 10 city
+stable 30 10 city
+inn 30 10 city
+innfront 30 10 city
+innroom 30 10 city
+connect4 30 10 city
+broad06 30 10 city
+adv_guild 30 10 city
+common 30 10 city
+broad07 30 10 city
+broad20 30 10 city
+broad21 30 10 city
+broad22 30 10 city
+broad23 30 10 city
+broad08 30 10 city
+hobbit01 30 10 city
+hobbit01d 30 10 city
+hobbit01a 30 10 city
+hobbit01b 30 10 city
+hobbit01c 30 10 city
+post 30 10 city
+notary 30 10 city
+broad09 30 10 city
+perfumery 30 10 city
+broad10 30 10 city
+broad11 30 10 city
+broad12 30 10 city
+orchard03 30 10 city
+orchard04 30 10 city
+orchard02 30 10 city
+orchard01 30 10 city
+broad13 30 10 city
+broad14 30 10 city
+broad15 30 10 city
+shack 30 10 city
+hobbit02 30 10 city
+hobbit02b 30 10 city
+hobbit02a 30 10 city
+hobbit02c 30 10 city
+hobbit02d 30 10 city
+::MAPDATA::
+
+    +---------+
+ ~  |THE SHIRE|
+ ~~ +---------+        Fornost
+  ~~                      o
+   ~~~                    |
+     ~~~                  |
+ \     ~~~                |
+  \      ~~~              |                                    Weathertop
+  |Frogmorton             |   BREE   Midgewater   /----------------*-\
+  o------===--------------+----O---\ Marshes/----/                    \------
+ /   |  Brandywine        |         \------/
+     |    Bridge          |
+     o   ~~~     Barrow   |
+  Whitfurrows     Downs   |
+        ~~~               |
+ ----- ~~~ o--------------\
+     ~~~  Sarn Ford        \
+   ~~~                      \
+ ~~~                         \   
+
+::NEWMAP::
+city
+::MAPDATA::
+broad01 7 17
+broad02 15 17
+broad03 15 21
+hshop 15 23
+bank 19 21
+broad04 19 23
+broad05 23 25
+hhouse1 19 25
+gem_shop 23 27
+shop 23 23
+innyard 35 17
+inndining 35 19
+stable_yard 39 17
+tack_shop 39 19
+east_yard 43 17
+foyer 43 19
+board 43 21
+stable 43 15
+inn 35 15
+innfront 31 15
+innroom 39 15
+connect4 35 13
+broad06 15 13
+adv_guild 19 13
+common 19 13
+broad07 19 11
+broad20 19 9
+broad21 19 7
+broad22 19 5
+broad23 15 3
+broad08 23 9
+hobbit01 31 9
+hobbit01d 27 11
+hobbit01a 35 7
+hobbit01b 39 7
+hobbit01c 39 9
+post 23 7
+notary 23 7
+broad09 31 5
+perfumery 31 3
+broad10 52 5
+broad11 56 7
+broad12 60 9
+orchard03 56 9
+orchard04 52 9
+orchard02 52 11
+orchard01 56 11
+broad13 60 11
+broad14 64 11
+broad15 68 9
+shack 68 7
+hobbit02 56 5
+hobbit02b 56 3
+hobbit02a 56 1
+hobbit02c 60 3
+hobbit02d 60 5
+::MAPDATA::
+           \
+       #############                                    o
+      #      \              Perfumes                    |
+     #         o               o                        o - o
+    #            \             |                        |   |
+   #               o           o ------------------ o - o   o
+   #               |  Post   /                        \
+   #               o   o   /       o - o                o           o
+   #               |   | /       /     |                  \         |
+   #               o   o ----- o       o            o - o - o       o
+   #               | /       /                      |   |   |     /
+   # Blacksmiths - o       o                        o - o - o - o
+   #             /                    Prancing
+   #           o - o Adventurers   o  Pony Inn
+   #           |     Guild         |
+   #           |               o - o - o   o
+   #           |                   |       |
+ - # - o ----- o ----------------- o - o - o Stables
+   #           |                   |   |   |
+   #           |                   o   o   o Equestrian
+   #           |   Bank              Tack  |  Society
+   #           o - o   o             shop    
+   #           | \   /     
+   #   Holiday o   o   o Shop  ########
+    #   Shop         \ |       #            .----------------------.
+     #             o - o ----- # --         | THE TOWN OF BREE     |
+      #                |       #            |   Bree-Land, Eriador |
+       #               o       #            `----------------------'
+        #            Gems      #
+         #######################

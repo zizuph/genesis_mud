@@ -1,0 +1,21 @@
+
+Topic: impeachment
+
+Commands:
+
+- start/support impeachment of <name>
+    Call for the impeachment of a Captain of the Rangers.
+
+- veto the impeachment of <name>
+    (Captains only! Only if <name> is not the own name.)
+    Cancel the call for the impeachment of a Captain of the Rangers.
+
+- impeach <name>
+    Impeach a Captain of the Rangers.
+    Only possible if three or more council members support the call
+    for the impeachment.
+    The Captain and the Lieutenant of the Captain's company will lose
+    their offices. An election will be called, with the impeached
+    Captain as first candidate. The council will have to 'nominate'
+    at least one further candidate.
+

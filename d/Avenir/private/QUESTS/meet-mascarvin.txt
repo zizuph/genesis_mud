@@ -1,0 +1,107 @@
+Title:    Meet Mascarvin Quest - Necronisi Quest 4
+By:       Lilith Summer 2021 
+Location: Necronisi
+Exp:      20,000
+Group:    1
+Bit:      9
+
+     Solve the puzzles and the maze, Meet Mascarvin, and get your just reward.
+
+This quest can be done in stages, meaning, if they need to leave they can go
+back to the area for this quest and be automatically moved to the stage
+they left off at. 
+
+So by now, the questor is used to taking the 3 boats to get to the Necronisi,
+(there is no magic teleporting in) and they've started learning their way 
+around the catacombs, and they've done the quest for the Hegemon's Ghost, and 
+their reward is a chance to meet the goddess Mascarvin. 
+
+The daughter of Mascarvin, Goddess of Death and rebirth, fell in love with
+this Hegemon (Manis-ak) and he and Azeuph had a daughter together whom they
+named Tjana. (Their story can be found in the Bazaar Library... I wrote it
+20-25 years ago). Perhaps because of their shared tragedy of losing Tjana to 
+Nitikas and Azeuph to grief-induced madness, Manis-Ak and Mascarvin became
+close enough that even after his death, she keeps him near and visits with 
+him.
+
+So it is that, once you've helped the Hegemon's Ghost (Stage 1), he will point
+out the opening in the wall of his tomb (crypt_s7) that leads toward Mascarvin.
+Entering the slit between the bones, you land in /dead/mascarvin/spots.c.
+This room is perfectly round, with a stone block in the center, patterns of 
+little bone disks in the floor, and 12 rectangular panels spaced evenly 
+around the room. No matter how you try to examine the pattern, you 
+won't be able to make it out until you've put a lighted torch into the 
+stone block to help you see better. Once you do that, you'll see something
+that looks like this: ... :..: :::: ...:..., etc. These are sets of dots
+ranging between 1 and 12 (for each of the panels) and you need to push the
+panels in the order they appear in the pattern. It is random and the pattern
+changes whenever the last person leaves the room. You will know you've done
+it right when you hear a rumble and an opening appears to the east. (Stage 2 
+complete!)
+
+The next room, passage.c is a transition room. This is where players see that
+the walls have etchings on them, supposedly from people trying to figure out 
+the way through the maze. This room also has a "passage" written on the walls
+that provides a hint to mark the Gods and the Path (the names on the threshold
+and the exits taken should be taken down by the player, they will need them).
+
+From there you can walk east to the next room, chalice.c. This room is 
+deceptively empty except for a circle of stones that looks like a well.
+Enter the well, and you enter the maze.
+
+ --- MAZE ---
+The first thing to know about the maze is that if a player gets lost or 
+frustrated they can just reach/jump/leap/enter the ever-present mist and it 
+will transport them back to the room where the entrance to the maze is
+(chalice.c) It is 12 rooms. The next thing to know about the maze is that the
+path is static until reboot, so if a player gets lost, or re-starts, the exits
+won't change on them until Armageddon comes. BUT the names on the stone 
+thresholds do change every time someone goes back to the beginning (maze1). 
+So if someone gets through the maze and gets to the skull room and doesn't have 
+the words on the threshold written down in the right order/number, the player 
+can go back to the beginning and use the path they figured out, then track the
+words as they use the exits, so they can solve the next puzzle, with the skulls.
+(end Stage 3)
+
+Upon going down the stairs into skull.c, you will see a room with twelve skulls
+arranged in a circle, "gleaming dully". This is a hint. Each skull bears a name
+or set of hyphenated names and you need to polish/clean/rub/touch the skulls
+with the right names in the right order. Sometimes the same name will be 
+repeated and you just polish that skull again. I had a list with: Cahor-Tarob 
+Zaren Sabrus Cahor-Tarob Nitikas-Zahun Nitikas-Zahun Cahor-Tarob Tabris-Zeffar 
+Sair-Salilus Tacritan-Zizuph Tacritan-Zizuph. So I examined the skulls, did 
+"read letters on first skull" through twelfth skull, and then polished the 
+skulls one by one starting with the one on the first doorway I went through. 
+The player gets a message that "A thrill of adrenaline rushes through you as 
+you realize that you're closer than ever to meeting Mascarvin" and a doorway 
+opens west. (end Stage 4).
+
+At this point the puzzles and quest portion is done. The player just needs to
+walk through the doorway to meet Mascarvin. What they do in her sanctuary
+determines what happens next for them. 
+
+Shortly after a questor walks through her door, Mascarvin must leave to gather 
+a dying Sybarite, leaving them in the room with a table full of goodies. A 
+honeypot. Right now, there are 3 possible scenarios. The first is that the 
+player minds their manners and don't touch things w/o invitation. They get the
+full quest exp, and the items from Her table if they want them. The second is 
+that they are disrespectful to Her, which she interprets as a death wish 
+(who insults or gets handsy the goddess of death?) and they get a very small 
+amount of quest exp and they die in the pit of despair. The third is that they 
+get greedy and steal from her table, so she lectures them, robs them of their 
+belongings, and leaves them to die in the pit of despair.
+
+This is a major quest with two unique puzzles, a 12 room maze, plus risk of 
+losing all their inventory and/or dying. There is no combat in the quest 
+area itself but players will have to fight their way through the catacombs 
+to get to it. Solving this quest will be a significant investment of time. 
+
+Files Involved:
+Start:          /d/Avenir/common/dead/catacombs/crypt_s7
+Quest dir:      /d/Avenir/common/dead/mascarvin/*
+Mascarvin:      /d/Avenir/common/dead/mascarvin/mascarvin
+Stage2 Puzzle   /d/Avenir/common/dead/mascarvin/spots
+Stage3 Maze:    /d/Avenir/common/dead/mascarvin/maze/maze1
+Stage4 Skulls:  /d/Avenir/common/dead/mascarvin/maze/skull
+Stage5 Meeting: /d/Avenir/common/dead/mascarvin/resting
+Stage6 Angry:   /d/Avenir/common/dead/mascarvin/raging

@@ -1,0 +1,55 @@
+Group:      3
+
+Bit:        3
+
+Name:       Shire Fishing Quest
+
+Programmed: Dunstable, 7/29/95
+
+Problem:    Bodulas, the fisherman under the bridge needs help 
+            getting some items. Find the items and return to 
+            him for reward.
+
+Solution:   Go to Bodulas and ask him for quest. He will say he 
+            needs a bite of chicken, some whiskey, a hook, a 
+            worm, some string and a stick, all to fish with. 
+            Get items and return them to him
+
+Skills:     None
+
+Risks:      None
+
+XP-Scale:   2,000
+
+Remarks:    Items are scattered about west Shire, between 
+            Mithlond and the 'twist' in the road, Except for 
+            the fishing pole. This is found north in the fields 
+            west of the sigh at Bree.
+
+            All obj locations are approximate as the objects as 
+            the objects may not always spawn in the same room 
+            always. And the worm moves about, too.
+
+            Gamwich whiskey and chicken must be purchased 
+            at the Stone Bows Inn at the bridge.
+
+            Whiskey and chicken are standard cloned foods.
+
+            Only stick near Bree works for quest; no fishing 
+            poles.
+
+Relevant
+Files:      Rooms
+            ----------
+            string - /d/Shire/eastroad/western/er7n
+            hook - /d/Shire/eastroad/western/er1n
+            worm - /d/Shire/eastroad/western/er6n
+            stick - /d/Shire/eastroad/western/er28n
+            Inn/Stone Bows Inn - /d/Shire/eastroad/western/stone_inn
+
+            Objects
+            --------
+            string - /d/Shire/eastroad/obj/string
+            hook - /d/Shire/eastroad/obj/hook
+            worm - /d/Shire/eastroad/npc/worm
+            stick - /d/Shire/eastroad/obj/stick

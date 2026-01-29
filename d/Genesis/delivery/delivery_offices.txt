@@ -1,0 +1,84 @@
+The Delivery Offices                                             Aridor, 05/95
+====================
+
+Motivation
+----------
+ The offices intention is to provide a way for newbies to earn money. At the
+same time the newbie will travel the world and learn his way around.
+The idea is to have offices spread over all of Genesis.
+
+Introducing players to the offices
+----------------------------------
+ The questmaster in Solace is giving out a tour which is to find the delivery
+office in Newports. The tour card will explain that this office is a means to
+earn money.
+
+How the offices work
+--------------------
+ Each (open) domain has one or more offices, which should be located as far
+from each other as possible. Each office must be in a fairly easily accessable
+place. Every office has a name which identifies the office completely.
+'the Shop in Solace', 'Newports in Krynn'. If the city or area the office is
+located in is widely known among players, it's not necessary to give the
+domain name (like Solace, or even Sparkle).
+
+Commands
+--------
+ There are three commands for the players in each office. 'Ask', 'Deliver' and
+'Return'. 'Ask for a delivery tour' will give the player a packet and tell
+what destination the packet must be taken to. 'Deliver' will deliver a packet
+at its destination and the player receives payment for it. The 'return' command
+is there to return packets which are not correctly delivered.
+
+Destinations
+------------
+ Upon receiving a packet from an office, the destination is selected randomly.
+
+Limitations
+-----------
+ Each player may only receive one packet at a time. Should someone find a
+packet somewhere, he can of course deliver that packet, too. A packet may not
+be 'returned' at the office it came from. Each office has only a limited number
+of packets to give out each reset.
+
+Payments
+--------
+ There are two zones of delivery, within a domain and between two domains. The
+first zone will of course be faster to deliver, but give less money than the
+second. The amount of money depends on the time taken to deliver a packet only
+after a certain time has passed already.
+Current payments are: 24(12)sc within domain, 72(36)sc across domains.
+Numbers in () are if the delivery took too long.
+
+Implementation
+--------------
+ There are some files in /d/Genesis/delivery/ which are the delivery master
+who stores general things and also does the calculations necessary. The
+office.c file is the base file which must be inherited into each office in
+Genesis. This file provides the commands for the players. Check out the
+example_office.c to see how easy it is to use. There is currently only a
+standard packet to be delivered between offices. Should there ever be other
+packets allowed for delivery, it must be insured that they are worth nothing
+or at least have the NO_SELL property set.
+
+/d/<domain>/open/delivery.c
+---------------------------
+Each domain which has delivery offices must have this file. Look at
+/d/Krynn/open/delivery.c to see the syntax. This file tells the master
+object which delivery offices there are. From this list of all offices in all
+domains the master object picks one each time a new packet is given out.
+IF an office is reported to the master this way, it must exist and function.
+Otherwise players will arrive at the office with a packet and be unable to
+deliver it!
+The syntax for each office is:
+-Name of the office                a string to uniquely identify this office
+-giveout/recieve identifier        a number: 0 send and receive packets,
+                                             1 send only,
+                                             2 receive only.
+-offices to send to                0 or an array of office names, this option
+                                             should rarely be used!
+-offices not to send to            0 or an array of office names, use this
+                                             option if two offices are located
+                                             fairly close to each other.
+
+

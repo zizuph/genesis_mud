@@ -1,0 +1,6 @@
+Name: 		fulmen
+Object:		/d/Terel/mecien/valley/guild/spells/fulmen.c
+Cost: 		75 mana
+Skills:    	Air, Wis, Attack
+Description:	Does(F_PENMOD(50, (attack+wis)/4 +random(50) +5) damage
+Requirements:	A mystic cloud storm must be present.

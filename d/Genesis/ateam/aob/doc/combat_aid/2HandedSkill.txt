@@ -1,0 +1,21 @@
+/*
+ * Function name: cb_calc_procuse
+ * Description  : Calculates the procuse based on 2H combat skill 
+ */
+public void
+cb_calc_attackuse()
+{
+    int extra = 0;
+
+    /*
+     * If more than two weapons wielded check the 2H combat, only with 2H
+     * skill > 20 will it be profitable to wield 2 weapons.
+     * Attack use range from 80 to 150
+     */
+    if (sizeof(cb_query_weapon(-1)) > 1)
+    {
+        extra = qme()->query_skill(SS_2H_COMBAT);
+        extra = extra > 20 ? extra / 2 : extra - 20;
+    }
+    this_object()->cb_set_attackuse(100 + extra);    
+}

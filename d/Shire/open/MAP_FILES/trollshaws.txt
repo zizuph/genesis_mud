@@ -1,0 +1,152 @@
+main
+::MAPDATA::
+erb35 4 11 trollshaws
+erb36 5 12 trollshaws
+erb37 6 13 trollshaws
+erb38 8 13 trollshaws
+rivend1 11 14 trollshaws
+rivend2 12 14 trollshaws
+rivend3 13 14 trollshaws
+rivend4 14 14 trollshaws
+rivend5 15 14 trollshaws
+rivend5a 16 14 trollshaws
+rivend6 17 14 trollshaws
+riv6no 17 14 trollshaws
+rivend7 18 14 trollshaws
+rivend8 19 14 trollshaws
+rivend9 19 14 trollshaws
+mpath1 20 13 trollshaws
+mpath2 20 13 trollshaws
+mpath3 20 13 trollshaws
+mpath4 21 12 trollshaws
+imladris_connect 21 12 trollshaws
+riverbank 21 12 trollshaws
+shore05 20 13 trollshaws
+shore04 20 13 trollshaws
+shore03 20 13 trollshaws
+shore02 19 14 trollshaws
+shore01 19 14 trollshaws
+shaws1 14 12 trollshaws
+shaws2 14 12 trollshaws
+shaws3 14 12 trollshaws
+shaws4 14 12 trollshaws
+shaws5 14 12 trollshaws
+shaws6 14 12 trollshaws
+shaws7 14 12 trollshaws
+shaws8 14 12 trollshaws
+shaws9 14 12 trollshaws
+shaws11 14 12 trollshaws
+shaws12 14 12 trollshaws
+shaws13 14 12 trollshaws
+shaws25 14 12 trollshaws
+shaws24 14 12 trollshaws
+shaws23 14 12 trollshaws
+shaws22 14 12 trollshaws
+shaws21 14 12 trollshaws
+shaws20 14 12 trollshaws
+shaws19 14 12 trollshaws
+shaws16 14 12 trollshaws
+shaws15 14 12 trollshaws
+shaws14 14 12 trollshaws
+shaws17 14 12 trollshaws
+shaws18 14 12 trollshaws
+::MAPDATA::
+
+                               / \/   \ / \               ~~~~           OOooOO
+                       ~~~~~~ /   \ ^  /   \              ~~~~           OOoOoO
+                   ~~~~      /  ^  / \/ ^   \             ~~~~           OoOOoO
+               ~~~~            / \/   \/ \                 ~~~~          OOoooO
+             ~~               /   \    \  \                ~~~~         oOOoOOo
+           ~~                / Misty Mountains              ~~~~        OOoOOoO
+         ~~                 /                               ~~~~        oOOooOo
+        ~                                                  ~~~~         oOOoOoO
+        ~               /----------------------------+-----====-------------- T
+        ~              / ~~~~~~~~ ^                  |     ~~~~        OOoOOOoO
+ ---\   ~ Trollshaws  /~~~~~ ^   / \  ^              |      ~~~~       OoOOoOOO
+     \  ~            /~~~   / \ /   \/ \             |   A N D U I N   OOOOoOOO
+      \-=-\         /~~    /   \     \  \            |      ~~~~~      OOOOOOoO
+        ~  \-------/~~         Misty Mountains       |       ~~~~      OoOOoOOO
+        ~         ~~~           ^    ^               |       ~~~~      OOOOoOOO
+       ~~       ~~~         ^  / \  / \              |      ~~~~       OOOOOOoO
+      ~~      ~~~          / \/   \/   \             |      ~~~~       OoOOoOOO
+     ~~   ~~~~~           /   \  ^/     \            |      ~~~~       OOOOoOOO
+    ~~~~~~~~             /   ^ \/ \   ^  \           |      ~~~~       OOOOOOoO
+  ~~~~~                     / \/   \ / \             |      ~~~~       OoOOoOOO
+ ~~~                       /   \ ^  /   \            |       ~~~~      OOOOoOOO
+
+::NEWMAP::
+trollshaws
+::MAPDATA::
+erb35 7 10
+erb36 11 10
+erb37 15 12
+erb38 19 14
+rivend1 23 16
+rivend2 27 18
+rivend3 31 18
+rivend4 35 20
+rivend5 39 20
+rivend5a 43 18
+rivend6 47 16
+riv6no 47 14
+rivend7 51 16
+rivend8 55 16
+rivend9 59 14
+mpath1 59 12
+mpath2 59 10
+mpath3 59 8
+mpath4 63 6
+imladris_connect 63 4
+riverbank 67 4
+shore05 67 6
+shore04 63 8
+shore03 63 10
+shore02 63 12
+shore01 63 14
+shaws1 35 16
+shaws2 35 14
+shaws3 35 12
+shaws4 39 16
+shaws5 39 14
+shaws6 39 12
+shaws7 43 12
+shaws8 43 10
+shaws9 43 8
+shaws11 47 12
+shaws12 47 10
+shaws13 47 8
+shaws25 47 6
+shaws24 43 6
+shaws23 43 4
+shaws22 47 4
+shaws21 51 4
+shaws20 55 4
+shaws19 55 6
+shaws16 51 6
+shaws15 51 8
+shaws14 51 10
+shaws17 55 10
+shaws18 55 8
+::MAPDATA::
+
+                                                                 /      ~~~
+                                                               o      ~~~~
+                      ~~~                                      |     ~~~~
+                     ~~~                   o - o - o - o       o     ~~~~
+                      ~~~                  | x   x   x |       |     ~~~~
+                     ~~~                   o - o - o - o       o     ~~~~
+                     ~~~           Troll       |   |   |     /       ~~~~
+ - o                ~~~            Shaws   o - o - o - o   o       ~~~~
+     \               ~~~                   | / |   |   |   |     ~~~~
+       o - o        ~~~                    o   o - o - o   o     ~~~~
+             \      ~~~                  / | / |           |     ~~~~
+               o   ~~~             o - o   o   o           o     ~~~~
+                 \  ~~~            |   | /                 |     ~~~~
+                  =o=              o - o       o           o     ~~~~
+                ~~~  \             |   |       |         /       ~~~
+               ~~~     o           o - o       o - o - o       ~~~~
+             ~~~         \       /           /             ~~~~
+            ~~~            o - o           o           ~~~~
+             ~~~                 \       /          ~~~~
+            ~~~                    o - o         ~~~~
+           ~~~                               ~~~~~

@@ -1,0 +1,77 @@
+/*  /d/Faerun/sea/whalebones/rooms/beach1.c
+*
+*   By Nucifera, 2021
+*
+*/
+
+#pragma no_clone
+#pragma strict_types
+
+#include "/d/Faerun/defs.h"
+#include <stdproperties.h>
+#include <terrain.h>
+#include "defs.h"
+
+inherit BASE_WHALEB_OUTDOOR;
+
+
+void
+create_whaleb_outdoor()
+{
+    extraline = "This windswept coastal plateau rises high above the bone"
+    +"-littered beach bellow. Coarse wirey grass and br"
+    + "ush scatter around the base of a steep craggy mountain to your "
+    +"southwest. Cool fresh"
+    +" sea breeze tickles your senses. This windswept coastal plateau con"
+    +"tinues on further inland in a northerly dire"
+    +"ctions. There is a large hole to your south, a step in that directi"
+    +"on would mean certian death.";
+
+    set_short("A flat, elevated landform");
+
+    add_item(({"plateau"}),"You stand on a rocky platau on Finback "
+        +"Island.\n");
+
+    add_item(({"mountain", "cliff"}), "A large craggy clifface pierces th"
+        +"rough clouds to your southwest. Something feels off about it.\n");
+
+    add_item(({"brush", "grass"}), "Dry scragly brush grabs at you"
+        +"as you wade though it.\n");
+
+    add_item(({"smell", "aroma", "air", "breeze"}), "The air here is clea"
+         +"n and fresh, soothing a smile onto your face.\n");
+
+    add_item(({"hole","rocks"}), "There is nothing too interesting about"
+        +" this. You feel you should check back later.\n");
+
+    add_room_tell("You percieve a slight shift in the direction of the wi"
+        +"nd.");
+
+    add_room_tell("A dark cloud gathers around the mountain... you look "
+        +"again and it's gone, a trick of wind perhaps?");
+
+    set_no_exit_msg( ({"west","southwest", "east"}),
+        "The terrain appears quite rocky and hazardous in that"
+        +" direction. You choose to save your ankles the trouble.\n");
+
+    set_no_exit_msg( ({"south"}),
+        "A step in that direction look fatal.. but your keen eyes notice"
+        +" a few petruding rocks which may just be large enough to be han"
+        +"d holes.\n");
+
+    add_exit(ROOM_DIR + "17o.c", "north");
+    add_exit(ROOM_DIR + "18o.c", "northeast");
+    add_exit(ROOM_DIR + "clifftop.c", "southeast");
+    add_exit(ROOM_DIR + "16o.c", "northwest");
+
+
+
+
+    reset_faerun_room();
+}
+
+void
+reset_faerun_room()
+{
+    set_searched(0);
+}

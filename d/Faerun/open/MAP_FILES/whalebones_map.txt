@@ -1,0 +1,203 @@
+main
+::MAPDATA::
+beach1 21 13 finback_beach_map
+beach2 21 13 finback_beach_map
+beach3 21 13 finback_beach_map
+beach4 21 13 finback_beach_map
+1o 21 13 finback_plateau_map
+2o 21 13 finback_plateau_map
+3o 21 13 finback_plateau_map
+4o 21 13 finback_plateau_map
+5o 21 13 finback_plateau_map
+6o 21 13 finback_plateau_map
+7o 21 13 finback_plateau_map
+8o 21 13 finback_plateau_map
+9o 21 13 finback_plateau_map
+10o 21 13 finback_plateau_map
+11o 21 13 finback_plateau_map
+12o 21 13 finback_plateau_map
+13o 21 13 finback_plateau_map
+14o 21 13 finback_plateau_map
+15o 21 13 finback_plateau_map
+16o 21 13 finback_plateau_map
+17o 21 13 finback_plateau_map
+18o 21 13 finback_plateau_map
+19o 21 13 finback_plateau_map
+20o 21 13 finback_plateau_map
+21o 21 13 finback_plateau_map
+22o 21 13 finback_plateau_map
+ledge 21 13 finback_climbing1_map
+clifftop 21 13 finback_plateau_map
+clmb1 21 13 finback_climbing2_map
+clmb2 21 13 finback_climbing2_map
+clmb3 21 13 finback_climbing2_map
+clmb4 21 13 finback_climbing2_map
+drag_ledge 21 13 finback_climbing2_map
+dragonden 21 13 finback_climbing2_map
+::MAPDATA::
+
+                  ---== Whalebones Islands ==---
+    ~  ~~             ~~~    ~  ~~  ~~~ ~    ~   ~  ~ ~
+       ~  ~  ~~     ~ ~           ~~            ~           ~~  ~
+     ~  ~~     ~  ~~  ~~~ ~    ~   ~  ~ ~
+         ~  ~  ~~     ~ ~           ~~            ~           ~~  ~
+       ~  ~~             ~~~               ~           ~~  ~
+         ~  ~~             ~~~    ~  ~~  ~~~ ~    ~   ~  ~ ~
+    ~  ~  ~~     ~ ~           ~~            ~           ~~  ~
+
+~ ~~~ ~               ..         ~~           ~~  ~         ~~  ~
+  ~          .''.    '..'   .'''.         ~~  ~      ~
+      ~~   :'  .'  .....    `. '.                      ~~~   ~
+~   ~       `..`  :  X.'  ...  `'         ~~  ~
+      ~~           `.'   '...'    ~~~                    ~~
+     ~  ~~             ~~~    ~  ~~  ~~~ ~    ~   ~  ~ ~
+      ~  ~  ~~     ~ ~           ~~            ~           ~~  ~
+     ~  ~~     ~  ~~  ~~~
+        ~  ~  ~~     ~ ~           ~~            ~           ~~  ~
+      ~  ~~             ~~~               ~           ~~  ~
+        ~  ~~               ~~  ~
+ ~  ~~             ~~~    ~  ~~  ~~~ ~    ~   ~  ~ ~
+    ~  ~  ~~     ~ ~           ~~            ~           ~~  ~
+  ~  ~~     ~  ~~  ~~~ ~    ~   ~  ~ ~
+      ~  ~  ~~         ~           ~~  ~
+      ~  ~~             ~~~    ~  ~~  ~~~ ~    ~   ~  ~ ~
+ ~  ~  ~~     ~ ~           ~~            ~           ~~  ~
+
+::NEWMAP::
+finback_beach_map
+::MAPDATA::
+beach1 53 6
+beach2 53 10
+beach3 46 14
+beach4 39 18
+::MAPDATA::
+
+      ---== Finback Island Beach ==---
+   ~  ~  ~~     ~ ~           ~~            ~           ~~  ~
+~  ~~             ~~~    ~  ~~  ~~~ ~    ~   ~  ~ ~
+           .._-_. _.-_- -_._.-_- -,    .  ~ ~  ~
+     ,-_-''                         ''-_---_-__-,
+   :'                .v.     .v.                 ;   o.    ~  ~~  ~
+  |                                            /
+   ',  .v.    /\                            ;'     .     ~ ~~ ~~       ~
+    /       _/  \                          /
+~  :       / \   \ /\    _                 ;'   .    o ~    ~     ~  ~~~
+    |     /   \   /  \                     /
+   ;     /     \ /.v. \          .v.      ;   .      ~  ~~  ~
+  /     /       \                       |
+  ;   ..v.       \          .v.         ;`    o  ~  ~~       ~~    ~
+  \_                                   /
+    ':..      .v.            _        ;'   ..    ~  ~~  ~~~
+      /                            ,/'
+   ~  ':                        ;'     o .     ~  ~      ~  ~
+      |                         /
+ ~~~   '.               .v.  ;'  .       ~ ~~  ~~     ~
+         \                  /
+  ~  ~~   ''.._-_-;' \_/';''    ..    ~  ~~            ~~~
+  ~  ~             ~     ~~ ~    ~   ~
+  ~      ~~            ~~
+                    ~ ~ ~~~          ~~~~       ~~
+          ~            ~              ~~           ~ ~
+               ~~          ~ ~ ~           ~  ~
+
+::NEWMAP::
+finback_plateau_map
+::MAPDATA::
+1o 35 14
+2o 10 16
+3o 15 16
+4o 20 16
+5o 25 16
+6o 35 16
+7o 10 18
+8o 15 18
+9o 20 18
+10o 25 18
+11o 30 18
+12o 15 20
+13o 20 20
+14o 25 20
+15o 35 10
+16o 30 8
+17o 35 8
+18o 40 8
+19o 35 6
+20o 40 6
+21o 45 6
+22o 20 14
+clifftop 40 12
+::MAPDATA::
+
+.     ---== Plateau on Finback Island ==---
+   ~  ~  ~~     ~ ~           ~~            ~           ~~  ~
+~  ~~             ~~~    ~  ~~  ~~~ ~    ~   ~  ~ ~
+           .._-_. _.-_- -_._.-_- -,    .  ~ ~  ~
+     ,-_-''                         ''-_---_-__-,
+   :'                .v.     .v.   .    .    .   ;    .    ~  ~~  ~
+  |                                            /
+   ',  .v.    /\              .    .    .   ;'     .     ~ ~~ ~~       ~
+    /       _/ O\                          /
+~  :       / \   \ /\    _         .       ;'   .     ~    ~     ~  ~~~
+    |     /   \   /  \           ,. _      /
+   ;     /     \ /.v. \      .-''    }  . ;   .      ~  ~~  ~
+  /     /       \              '";--"   |
+  ;   ..v.       \          .v.    .  v ;`       ~  ~~       ~~    ~
+  \_                                   /
+    ':..  .    .    .    .   _     .  ;'   ..    ~  ~~  ~~~
+      /                            ,/'
+   ~  ':  .    .    .    .    . ;'       .     ~  ~      ~  ~
+      |                         /
+ ~~~   '.      .    .    .   ;'  .       ~ ~~  ~~     ~
+         \                  /
+  ~  ~~   ''.._-_-;' \_/';''    ..    ~  ~~            ~~~
+  ~  ~             ~     ~~ ~    ~   ~
+  ~      ~~            ~~
+                    ~ ~ ~~~          ~~~~       ~~
+          ~            ~              ~~           ~ ~
+               ~~          ~ ~ ~           ~  ~
+::NEWMAP::
+finback_climbing1_map
+::MAPDATA::
+ledge 31 9
+::MAPDATA::
+
+                                ~
+                         ~
+_    ___ __- ________-  __- __-__-__ _- ____-_  __ -
+          /         _   /  \_  _/ \      /   \      /
+      ___/__     _/ \_/^    \/   ^\/     /^    \    /
+        /     /\/  ^ /  ^   / ^ /\    /  ^    \  /
+      /^     /  \  _/ ^ ^  /      \__/  ^     ^\/
+    /    ^  /_^  \/  ^    / ^     / _  ^    ^  ^   \_
+              \^ /    /\ /       /    \        ^      \
+               \/    /  /       /    ^ \   _       ^   \
+.                         ..                .          ..
+          ''    ..          .     .              ... .
+          . ~~
+     ~`'^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-
+~`'^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,.-=~'`^`'~=-.,__,
+
+::NEWMAP::
+finback_climbing2_map
+::MAPDATA::
+clmb1 1 1
+clmb2 1 1
+clmb3 1 1
+clmb4 1 1
+drag_ledge 1 1
+::MAPDATA::
+
+
+---== climbing Dragon Peak Finback Island ==---
+
+
+
+                 ___
+               _/   \
+_             /  (_) \_
+ \__    __   /         \
+    \__/  \_/___      \ \
+  \  ___   \/   \_      \ \
+ ___/   \__/    \ \__     \\__
+/  __    \  /      \ \_   _//_\___
+__/_______\_________\__\_/________\_

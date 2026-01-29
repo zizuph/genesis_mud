@@ -1,0 +1,2 @@
+inherit "/std/key"
+

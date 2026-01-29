@@ -1,0 +1,12 @@
+inherit "/std/door";
+#include "/d/Kalad/defs.h"
+/* by Antharanos with header from Aldarion */
+create_door()
+{
+    set_door_id("door6");
+    set_pass_command(({"s","south"}));
+    set_door_name(({"redwood door","door","south door"}));
+    set_other_room("/d/Kalad/common/caravan/lot/ur9a");
+    set_fail_pass("The door is closed, maybe you should open it?\n");
+    set_open(0);
+}

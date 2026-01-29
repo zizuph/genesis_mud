@@ -1,0 +1,96 @@
+The Drow of the Underdark
+-------------------------
+The Drow of the Underdark is a racial elf guild. It is neutral aligned so
+all elves may join it.
+
+The drow are historically chaotic evil and follow the Spider Queen, Lolth. She
+demands the drow follow her absolutely. Most of them do, but there are some who
+have broken free from her and follow their own hearts, and some are even good
+aligned. These renegade drow follow other deities.
+
+The drow are a matriarchal society where males are considered inferior and
+female elves rule absolutely. The guild is set up this way. The guild is broken
+down into houses which are ruled by female player.
+
+When elves join the guild, they choose what house they are from, what deity
+they will worship, and if a female, which house to rule over if there are
+available houses.
+
+After joining, the drow must apply to join a house. The leaders of the houses,
+Matrons, can decide to accept or reject applicants. The Matrons rule their
+houses as they see fit and have the final say in what happens there.
+
+Matrons may elevate or demote drow in their house to different ranks. They
+are:
+
+    * First Daughter
+    * House Patron
+    * Weapons Master
+    * Noble Daughters
+    * Noble Sons
+    * Commoners
+
+When elves leave the guild, there is a waiting time of about 30 days before
+they can rejoin. There is no other penalty since this is a racial guild other
+than the special items they purchased no longer work or they have access to
+them when they quit.
+
+
+Shadow and Soul
+---------------
+The shadow and soul are located at these directories:
+
+    * /d/Faerun/guilds/drow/race/shadow.c
+    * /d/Faerun/guilds/drow/race/soul.c
+
+
+Skills and Taxes
+----------------
+Below are the skills for the guild. They reflect the general attitude of the
+drow being fighters.
+
+                    Untaxed    Max.     Tax
+                     Levels   Levels   Levels  Modifier   Tax
+-------------------------------------------------------------
+SS_ANI_HANDL            30      30        0     0.50     0.00
+SS_AWARENESS            30      50       20     1.00     0.40
+SS_CLIMB                30      50       20     1.00     0.40
+SS_ELEMENT_AIR          20      20        0     1.00     0.00
+SS_HIDE                 20      50       30     1.00     0.60
+SS_LOC_SENSE            30      30        0     0.50     0.00
+SS_SNEAK                30      50       20     1.00     0.40
+SS_SPELLCRAFT           20      30       10     1.00     0.20
+SS_FORM_ENCHANTMENT     20      20        0     1.00     0.00
+SS_TRACKING             30      30        0     1.00     0.00
+SS_WEP_SWORD            30      50       20     1.50     0.60
+=============================================================
+Totals                 290     410      120              2.60
+-------------------------------------------------------------
+
+- Tax is calculated as (Tax Levels / 50) * Modifer
+- Skills tax is 3.0%.
+- There is a shop in the guild where drow can purchase messengers and
+  drow related items. This is taxed 1%.
+- The Faerie Fire spell will be taxed at 1% as a spell.
+Total guild tax is 5%.
+
+
+Skills and Specials
+-------------------
+Faerie Fire is a spell that will enable the player to outline their weapon in
+dim light and illuminate the area. The spell will cost 30 mana each time it's
+cast.
+
+
+Rooms
+-----
+Below are the rooms for the guild. They are located at
+/d/Faerun/guilds/drow/rooms/
+
+admin       - Room where drow manage their membership.
+join        - Join room and public board room
+matron_rm   - Room where Matron Mothers administration room
+po          - Post office
+shop        - Shop
+start       - Start room
+train       - Training area

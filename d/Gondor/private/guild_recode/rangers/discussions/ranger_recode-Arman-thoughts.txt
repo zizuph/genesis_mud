@@ -1,0 +1,616 @@
+  The maximum amount of skills such a guild can offer is 550 taxable
+  slots. 
+
+  Occupational Rogue classes (thief/ranger) have a bit more 
+  flexibility in accessing alien skills due to the utility importance 
+  of combat and magic skills in Genesis. They can train 'secondary' 
+  skills up to a maximum without a penalty counting towards their 
+  total skill points:
+
+Secondary Skill                 Style      Unpenalised skill max   
+================================================================
+SS_WEP_*              (xx)      Ranger             75     
+SS_2H_COMBAT          (20)      Ranger/Thief       75
+SS_BLIND_COMBAT       (22)      Ranger/Thief       75
+SS_PARRY              (23)      Ranger/Thief       75
+SS_DEFENCE            (24)      Ranger/Thief       75   
+SS_SPELLCRAFT         (30)      Ranger             75
+SS_ELEMENT_*          (xx)      Ranger             75
+SS_FORM_*             (xx)      Ranger             75
+SS_HERBALISM          (36)      Ranger/Thief       70
+SS_ALCHEMY            (37)      Ranger/Thief       70
+
+
+  For rogue class skills (those that are a 'thief/ranger' or 'thief 
+  only' primary skill) only half of the skill levels count towards 
+  an occupational thief/ranger guild skill cap (so for 80 points of 
+  pick pockets, only 40 would count towards the 550 cap).
+
+  Further, to support the 'jack of all trade' philosophy of the
+  ranger class only half of the points from 'general' skills count
+  towards a ranger's skill maximum cap.
+
+=================================================================
+EXISTING SKILLS UNDER NEW SYSTEM:
+
+    Ithilien
+-----------------------------------------------------------------
+  - mudlib skills:   max level   untaxed   tax levels  count
+      Sword             75         30         45        45
+      Sword            +15          0         15        30
+      Polearm            0          -          -         -
+      Parry             75         75         75        75
+      Defense           75         30         45        45
+
+      Herbalism         60         20         40        40
+      Spellcraft        50         20         30        30
+      Abjuration        15         20          0         -
+      Life              55         20         35        35
+      Conjuration       20         20          0         -
+
+      Sneak             70         20         50        25 
+      Hide              70         20         50        25
+      Tracking          60         30         30        15
+      Awareness         75         30         45        23
+-----------------------------------------------------------------
+  - Skill points towards 550 cap:                       388
+-----------------------------------------------------------------
+
+ --------------------------------------------------------------- 
+| Skill                   |  Lvl |Taxabl| Alien |Tax Mod|  Tax  |
+|-------------------------|------|------|-------|-------|-------|
+| sword                   |   90 |    60 |   75 |  1.50 |  1.50 |
+| polearm                 |   30 |     0 |    0 |  1.50 |  0.00 |
+| missiles                |   30 |     0 |    0 |  1.00 |  0.00 |
+| parry                   |   75 |    75 |   75 |  1.50 |  1.88 |
+| defence                 |   75 |    45 |   45 |  1.50 |  1.12 |
+| spellcraft              |   50 |    30 |   30 |  1.00 |  0.50 |
+| abjuration              |   15 |     0 |    0 |  1.00 |  0.00 |
+| life spells             |   55 |    35 |   35 |  1.00 |  0.58 |
+| herbalism               |   60 |    40 |   40 |  1.00 |  0.67 |
+| alchemy                 |   20 |     0 |    0 |  1.00 |  0.00 |
+| conjuration             |   20 |     0 |    0 |  1.00 |  0.00 |
+| find/remove traps       |   20 |     0 |    0 |  1.00 |  0.00 |
+| sneak                   |   70 |    50 |   25 |  1.00 |  0.83 |
+| hide                    |   70 |    50 |   25 |  1.00 |  0.83 |
+| animal handling         |   30 |     0 |    0 |  0.50 |  0.00 |
+| location sense          |   30 |     0 |    0 |  0.50 |  0.00 |
+| tracking                |   60 |    30 |   15 |  1.00 |  0.50 |
+| hunting                 |   30 |     0 |    0 |  0.50 |  0.00 |
+| awareness               |   75 |    45 |   23 |  1.00 |  0.75 |
+| brawling                |  100 |     0 |    0 |  1.00 |  0.00 |
+| hearing                 |  100 |     0 |    0 |  1.00 |  0.00 |
+|-------------------------|------|-------|------|-------|-------|
+| Sum:                    |  905 |   460 |  388 |       |  9.17 |
+ --------------------------------------------------------------- 
+
+
+
+    North
+-----------------------------------------------------------------
+  - mudlib skills:   max level   untaxed   tax levels  count
+      Sword             75         30         45        45
+      Sword             +5          0          5        10
+      Bow                0          -          -         -
+      Parry              0          -          -         -
+      Defense           75         20         55        55
+
+      Herbalism         70         20         50        50
+      Spellcraft        70         20         50        50
+      Abjuration        30         20         10        10
+      Life              65         20         45        45
+      Conjuration       35         20         15        15
+
+      F/R traps         30         20         10         5
+      Sneak             80         20         60        30 
+      Hide              80         20         60        30
+      Tracking          75         30         45        23
+      Awareness         85         30         55        28
+-----------------------------------------------------------------
+  - Skill points towards 550 cap:                       396
+-----------------------------------------------------------------
+
+ --------------------------------------------------------------- 
+| Skill                   |  Lvl |Taxabl| Alien |Tax Mod|  Tax  |
+|-------------------------|------|------|-------|-------|-------|
+| sword                   |   80 |    50 |   55 |  1.50 |  1.25 |
+| polearm                 |   30 |     0 |    0 |  1.50 |  0.00 |
+| missiles                |   30 |     0 |    0 |  1.00 |  0.00 |
+| parry                   |   10 |    10 |   10 |  1.50 |  0.25 |
+| defence                 |   75 |    45 |   45 |  1.50 |  1.12 |
+| spellcraft              |   70 |    50 |   50 |  1.00 |  0.83 |
+| abjuration              |   30 |    10 |   10 |  1.00 |  0.17 |
+| life spells             |   65 |    45 |   45 |  1.00 |  0.75 |
+| herbalism               |   70 |    50 |   50 |  1.00 |  0.83 |
+| alchemy                 |   20 |     0 |    0 |  1.00 |  0.00 |
+| conjuration             |   35 |    15 |   15 |  1.00 |  0.25 |
+| find/remove traps       |   30 |    10 |    5 |  1.00 |  0.17 |
+| sneak                   |   80 |    60 |   30 |  1.00 |  1.00 |
+| hide                    |   80 |    60 |   30 |  1.00 |  1.00 |
+| animal handling         |   30 |     0 |    0 |  0.50 |  0.00 |
+| location sense          |   30 |     0 |    0 |  0.50 |  0.00 |
+| tracking                |   75 |    45 |   23 |  1.00 |  0.75 |
+| hunting                 |   30 |     0 |    0 |  0.50 |  0.00 |
+| awareness               |   85 |    55 |   28 |  1.00 |  0.92 |
+| brawling                |  100 |     0 |    0 |  1.00 |  0.00 |
+| hearing                 |  100 |     0 |    0 |  1.00 |  0.00 |
+|-------------------------|------|-------|------|-------|-------|
+| Sum:                    |  955 |   505 |  396 |       |  9.29 |
+ --------------------------------------------------------------- 
+
+This allows 250 skill points towards a 'Virtue' system
+
+Rangers may specialise their skills and specials through the ranger
+Virtue system, with possible virtues one can select determined by 
+Company, racial guild and even layman guild selections:
+
+
+Dunedain racial guild:
+-- The Dunedain are descendent of the Numenoreans, and, as such, 
+-- carry the noblest of blood among men. They are known to live  
+-- much longer than normal men, have powers of prophecy, and are 
+-- said to be stronger and wiser than most. Although their 
+-- number has diminished with the passing years, they still 
+-- carry great power with them. 
+
+Dunedain virtues they can select:
+
+HANDS OF THE KING
+The D nedain have long studied the art of healing with herbs 
+and remedies, and you learned this craft from their elders.  
+You  are  capable  of  finding  the right  herb  for  all  
+kinds  of  ills  and  can  soothe  the suffering of others.
+
++20 spellcraft (RoN 35 skillpoints towards cap)
++25 life spells (RoN 40 skillpoints towards cap)
++40 abjuration
++40 conjuration 
+ +5 herbalism
++50 alchemy
+(180 skillpoints [RoN 210])
+
+FLAMES OF THE WEST
+Your heritage is of a family of great warriors. Your 
+ancestors were formidable enemies of the Shadow. 
+You  have  studied  their  techniques  and  their 
+strategies  and  the  battlefield  is  your  home. 
+Weapons  are  your  tool  of  trade.  You  are  ever 
+vigilant  about  the  forces  of  the  enemy,  and  your 
+duty among your kin is to prepare their forces for 
+the battles to come. 
+
+RoI
++15 defence (30 skillpoints towards cap) 
++15 parry (30 skillpoints towards cap)
++85 missile
+(145 skillpoints)
+
+RoN
++10 defence (20 skillpoints towards cap)
++70 parry
++85 missile
+(175 skillpoints)
+
+Virtues (Adventuresome Hobbit racial guild):
+ART OF DISAPPEARING
+There  is  little  or  no  magic  about  them,  except  
+the ordinary everyday sort which helps them to disappear 
+quietly  and  quickly  when  large  stupid  folk  like 
+you and me come blundering along...
+
+
+BOLD BEYOND RECKONING
+
+BRAVE AT A PINCH
+
+SMALL FOLK
+
+SUDDEN ATTACK
+
+TOUGH IN THE FIBRE
+
+OUTCAST OF UDUN
+
+Virtues (Noldor of Imladris)
+ELVISH DREAMS
+
+ARTIFICER OF EREGION
+
+ELBERETH GILTHONIEL
+
+BEAUTY OF THE STARS
+
+THE SPEAKERS
+
+MIGHT OF THE FIRST BORN
+
+SKILL OF THE ELDAR
+
+RAIMENT OF ARDA
+
+DEADLY ARCHERY
+
+Virtues (Rockfriends racial guild)
+DEEP SONGS
+
+STICK NECK OF THE DWARVES
+
+OLD HATRED
+
+SECOND SKIN
+
+BROKEN SPELLS
+
+Virtues (Thornlin militia layman guild)
+MILITIA SPEARMEN
+
+Virtues (Heralds)
+BLESSINGS OF ELESSAR
++20 spellcraft (RoN 35 skillpoints towards cap)
++25 life spells (RoN 40 skillpoints towards cap)
++40 abjuration
++40 conjuration 
+ +5 herbalism
++50 alchemy
+(180 skillpoints [RoN 210])
+
+
+
+
+
+
+
+
+=================================================================
+PROPOSED SKILL CHANGES:
+
+---------------------------------------------------------------------
+    Apprentice Skills
+
+  - mudlib skills:   max level   untaxed   tax levels  mod  tax in %
+    COMBAT
+       Sword         75          30        45          1.5
+       Missiles      30          30        0           1.5
+       Parry         0           0         0           1.5
+       Defence       60          20        40          1.5
+  -------------------------------------------------------------------
+    Subtotal:                              85
+    MAGIC
+       Herbalism     35          20        15          1.0
+       Alchemy       20          20        0           1.0
+       Spellcraft    40          20        20          1.0
+       Abjuration    20          20        0           1.0
+       Life          30          20        10          1.0
+       Conjuration   20          20        0           1.0  
+  -------------------------------------------------------------------
+    Subtotal:                              45        
+    STEALTH
+      Sneak          50          20        30          1.0
+      Hide           50          20        30          1.0         
+      Tracking       40          30        10          1.0
+      Awareness      70          30        40          1.0
+  -------------------------------------------------------------------
+    Sub-total:                             110  
+
+    TOTAL MUD SKILLS                       240 
+
+---------------------------------------------------------------------
+    RoI and RoN Base Skills
+
+  - mudlib skills:   max level   untaxed   tax levels  mod  tax in %
+    COMBAT
+       Sword         75          30        45          1.5
+       Missiles      30          30        0           1.5
+       Parry         75          0         75          1.5
+       Defence       75          20        55          1.5
+  -------------------------------------------------------------------
+    Subtotal:                              175
+    MAGIC
+       Herbalism     35          20        15          1.0
+       Alchemy       20          20        0           1.0
+       Spellcraft    40          20        20          1.0
+       Abjuration    20          20        0           1.0
+       Life          30          20        10          1.0
+       Conjuration   20          20        0           1.0  
+  -------------------------------------------------------------------
+    Subtotal:                              45        
+    STEALTH
+      Sneak          70          20        50          1.0
+      Hide           70          20        50          1.0         
+      Tracking       60          30        30          1.0
+      Awareness      75          30        45          1.0
+  -------------------------------------------------------------------
+    Sub-total:                             175
+
+    TOTAL MUD SKILLS                       395
+
+  -------------------------------------------------------------------
+
+  SPECIALISATIONS: (155 points max)
+
+Rangers may specialise their skills and specials through the ranger
+Virtue system, with possible virtues one can select determined by 
+Company, racial guild and even layman guild selections:
+
+Virtues (default):
+BLESSINGS OF ELESSAR
+The default virtue of the Rangers of the Westland.
+
+This virtue is a nod to the original coder of the rangers guild,
+and provides the guild with the traditional abilities of the
+guild:
+
+
+      Brawl (blind / disarm) 45 caid
+      Spells:
+         whistle
+         nightvision - 20 caid
+         rest
+         elbereth
+         minor heal - 35 caid
+         cleanse
+      
+      Spellcraft     60          40        20          1.0
+      Herbalism      60          35        25          1.0
+      Abjuration     60          20        40          1.0
+      Life           60          30        30          1.0
+      Sneak          75          70         5          1.0
+      Hide           75          70         5          1.0         
+      Tracking       75          60        15          1.0
+
+
+Virtues (Rangers of the North company):
+The  Ancient  Realm of Arnor is no more. Its last remaining  
+Kingdom of the D nedain, Arthedain has been destroyed by the 
+forces of the Witch-King. Yet, the battle against the servants 
+of the Shadow never stops. Angmar was defeated and its king 
+fled from the forces of the Southern Men, but the Realms
+of the North were never reunited. Its people scattered, some  
+journeyed south to live with their kin, in Gondor. Some went 
+to Rivendell to live with the fair folk, but others remained in 
+the wilderness of the north. They became the Rangers of the 
+North.
+
+Since the fall of Arnor these rangers have been protecting the  
+Free People of the North from the threats of the Enemy, making 
+good folk can live in peace and prosperity. They act as invisible 
+protectors, lurking in the shadows, performing their duty without  
+recognition. They are enemies of the Shadow from unmemorable time, 
+and continue the struggle their forefathers fought centuries ago. 
+
+The D nedain are descendents of the N men reans who survived the 
+fall of their Kingdom and stayed true to their allegiances. They 
+are from a lineage of great man, blessed with a longer life, 
+stronger spirit and healthier body than most man. Although they 
+are of a race of Kings of Men, they do not have a kingdom of 
+their own nowadays, but they have an order;  The  Rangers  of  
+the  North  led  by  their chieftain, a direct descendent of 
+Isildur Elendil. 
+
+DAUNTLESS GUARDIANS
+
+FORESIGHT OF THEIR KINDRED
+
+ROYALTY REVEALED / NOBLE LINEAGE
+
+STRONG WILLED
+Being  descendants of the N men reans, used to standing against  
+the forces of the Enemy, the D nedain are a brave people. They 
+have grown to be fearless and resistant to the Shadow.
+
+FLAMES OF THE WEST
+Your heritage is of a family of great warriors. Your 
+ancestors were formidable enemies of the Shadow. 
+You  have  studied  their  techniques  and  their 
+strategies  and  the  battlefield  is  your  home. 
+Weapons  are  your  tool  of  trade.  You  are  ever 
+vigilant  about  the  forces  of  the  enemy,  and  your 
+duty among your kin is to prepare their forces for 
+the battles to come.  
+
+      Sword (>75)   +15         -          60          1.5
+      Parry (>75)   +15         -          60          1.5
+
+
+Virtues (Rangers of the Ithilien company):
+GUARD OF THE TOWER / RANGERS OF THE BLACK GATE
+
+The Rangers of The Black Gate, also known as the Ithilien Rangers, Rangers
+of the South, or more commonly known as the Rangers of Gondor.
+
+Gondor controlled The Black Gate for over two millennia after Sauron's defeat, 
+with the Rangers keeping watch over Mordor. The Rangers supervised the building 
+of the Towers of the Teeth, standing guard over the Gondorian prisoners who 
+would later escape into Ud n and settle there. 
+
+Over the centuries the Rangers suffered greatly, their numbers whittled down 
+by a Great Plague and an invasion by the Easterlings. 
+
+Eventually, a small but hardened crew stood to man the watch. A brave few 
+who were quickly overwhelmed when Sauron returned. 
+
+PIERCING SIGHT
+
+STRONG-WILLED
+
+HORN OF MINAS ARNOR
+
+CAPTAIN OF GONDOR
+
+ONWARD INTO BATTLE
+
+OVER DANGEROUS LEAGUES
+
+
+Rangers of the North:
+    Strider
+      Sneak          80          70        25          1.0
+      Hide           80          70        25          1.0         
+      Tracking       75          60        15          1.0
+      Awareness      85          75        40          1.0
+      Sword (>75)   +10          -         40          1.5
+
+    Warden
+      Sword (>75)   +15         -          60          1.5
+      Parry (>75)   +15         -          60          1.5
+
+    Hunter
+      Missiles       75          30        45          1.5
+      Tracking       80          60        20          1.0
+      Sneak          85          70        45          1.0
+      Hide           85          70        45          1.0
+
+    Healer (elf-trained)
+      Spellcraft     75          40        35          1.0
+      Herbalism      60          35        25          1.0
+      Abjuration     60          20        40          1.0
+      Life           75          30        45          1.0
+      Conjuration    30          20        10          1.0
+
+    Scout
+      Sneak          90          70        60          1.0
+      Hide           90          70        60          1.0
+      Awareness      90          75        15          1.0
+      Sword (>75)   +5           -         20          1.5
+
+    Archer
+      Missiles       90          30        105         1.5
+      Defence (>75) +10         -          40          1.5
+
+Rangers of Ithilien:
+    Warrior
+      Sword (>75)   +15         -          60          1.5
+      Parry (>75)   +15         -          60          1.5
+
+    Defender
+      Polearm specialisation (swap skill slot for sword)
+      Polearm (>75) +15         -          60          1.5
+      Defence (>75) +15         -          60          1.5
+
+    Hunter
+      Missiles       75          30        45          1.5
+      Tracking       80          60        20          1.0
+      Sneak          85          70        45          1.0
+      Hide           85          70        45          1.0
+
+    Alchemist (trained in the House of Healing)
+      Alchemy        75          20        55          1.0
+      Defence (>75) +15         -          60          1.5 
+      Herbalism      60          35        25          1.0
+
+    Marksman
+      Missiles       90          30        105         1.5
+      Defence (>75) +10         -          40          1.5       
+
+
+
+Virtues (Dunedain racial guild):
+The Dunedain are descendent of the Numenoreans, and, as such, 
+carry the noblest of blood among men. They are known to live  
+much longer than normal men, have powers of prophecy, and are 
+said to be stronger and wiser than most. Although their 
+number has diminished with the passing years, they still 
+carry great power with them. 
+
+ENEMY OF THE SHADOW
+The D nedain have been fighting an eternal battle against the 
+forces of the  Enemy. They never forget the loss they suffered 
+at the hands of the servants of the Shadow and do everything 
+they can to stop their corruption from spreading. 
+
+The sleepless dead, the shadow men, 
+
+HANDS OF THE KING
+The D nedain have long studied the art of healing with herbs 
+and remedies, and you learned this craft from  your  elders.  
+You  are  capable  of  finding  the right  herb  for  all  
+kinds  of  ills  and  can  soothe  the suffering of others. 
+
+NOBLE LINEAGE
+In your veins runs the blood of the noble lineage of lost  
+kings.  You  look  (or  feel)  fairer  than  most  and
+your presence alone can inspire the hearts of those
+that are at your side. Taking advantage of this, you 
+have  learned  to  use  your  presence  to  boost  your 
+companions' confidence.
+
+
+Virtues (Adventuresome Hobbit racial guild):
+ART OF DISAPPEARING
+
+BOLD BEYOND RECKONING
+
+BRAVE AT A PINCH
+
+SMALL FOLK
+
+SUDDEN ATTACK
+
+TOUGH IN THE FIBRE
+
+OUTCAST OF UDUN
+
+Virtues (Noldor of Imladris)
+ELVISH DREAMS
+
+ARTIFICER OF EREGION
+
+ELBERETH GILTHONIEL
+
+BEAUTY OF THE STARS
+
+THE SPEAKERS
+
+MIGHT OF THE FIRST BORN
+
+SKILL OF THE ELDAR
+
+RAIMENT OF ARDA
+
+DEADLY ARCHERY
+
+Virtues (Rockfriends racial guild)
+DEEP SONGS
+
+STICK NECK OF THE DWARVES
+
+OLD HATRED
+
+SECOND SKIN
+
+BROKEN SPELLS
+
+Virtues (Thornlin militia layman guild)
+MILITIA SPEARMEN
+
+
+SPECIALS:
+
+Brawl:
+caid based on skill...
+   blind - 45 caid 
+   disarm - 45 caid
+   trip - 45 caid
+
+Spells:
+   whistle	- no caid
+   nightvision - 20 caid
+   rest - no caid
+   elbereth - no caid
+   heal - caid ?
+   cleanse	- no caid
+
+Potions: 
+more powerful for alchemists
+   avarywalme - poison resistance	  
+   este	- healing potion	  
+   wenya - strength boost
+
+Bow special attack:
+Can't use with brawl or heal		  
+
+TODO:
+
+* For RoW cloak, needs its bonus stealth skills removed (+15 hide/sneak)
+/d/Gondor/guilds/rangers/obj/cloak_base.c
+

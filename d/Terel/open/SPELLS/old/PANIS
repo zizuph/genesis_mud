@@ -1,0 +1,9 @@
+Name:         Panis
+Object:       /d/Terel/mecien/valley/guild/spells/panis.c
+Cost:         35 mana, no material components
+Skills:       Conjuration, Life, Spellcraft, Intelligence
+Description:  Conjures 50 grams of food with duration of
+              (Int/5) + random(Spellcraft/3 + 45)
+              /d/Terel/mecien/valley/guild/spells/bread.c
+Requirements: Wis > 40
+

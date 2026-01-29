@@ -1,0 +1,62 @@
+-A map of the lands of Kalad, which comprises the western half of the
+ continental landmass that includes Cirath.
+
+     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@^^^
+      !!!!!^^^^^^^!!!!!!!!!!!!!!@@@@@@@@@@@@@@@@@@@@@@^^^^^ 
+       !!!!!^^^^^^^!!!!!!!!!!!!!!!@@@@@@@@@@@@@@@@@@@@^^^!!!
+         !!!!^^^^^^^#######!!!!!!!^^@@@@@@@@@@@@@@@@@@@^^^!!!!  7
+          fff^^^^^^^##########!!!!^^@@@@@@@@@4@@@@@@@@@@^^^^^^
+          !!!!^^^^^^############!!^^^@@@@@@@@@@@@@@@@^^^^^^^^^^
+           !!!^^^^^^^#############ffff^^^^^^^^^^^^^^^^^^^^^14^^^^^^^^^^
+            *^^^^^^^^######3######^^^ffffffff     ^^^^^ff^^^^^^^!!!!!!!
+              ^^^^^^^#############^^^^fffffff     !!fffffffff^^!!!!!!!!
+     f2f     ^^^1^^^^^###########!!!^^^^!!!!  13  ffffff6ffff^!!!!6!!!!
+             ^^^^^^^^^#############!!!5!!!!!       !!fff^fff^^^^!!!!!!!
+            ^^^^^^^^^^#########^^^^fff!!!!!          ^^^^^^^^^^^^^^^^!!
+             ^^^^^^^^!!!!!!!!!^^^^^                         !!^^^^^^^^^
+     12       !!!!!!!!!!!!!!!!!!!!                            !!!!^^^^^
+             !!!!!!!!!!!!!!!!!!!!!!!!    !!!!                  !!!^^^^^
+              !!!!!!!10!!!!!!!!!!!!!!5!!!!!!!!!    9            !!^^8^^
+              !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!                  !!!!^^^^
+                !!!!!!!!!!!!!!!!!!!^^^^^^                     !!!!^^^^^
+                !!!!!!!!!!!!!!!!!^^^^^^^^                   !!!!!!^^^^^
+                jjjjjjjjjjjjjjjjjj             !!!!!         !!!!^^^^^^
+               jjjjjjjjjjj^^^^jjj             !!!!!!!!!!!!!!!!!!^^^^^^^
+              jjjjjjjjjjjj^^^jjjjjjj           !!!!!!!!!!!!!!!!!!^^^^^^
+               jjjjjjjjj^^^^^^^jjjj           !!!Unexplored!!!!!!^^^^^^
+                 jjj11jjjj^^^^^jjjjj             !!!!!!!!!!!!!!!!^^^^^^
+                   jjjjjjj^^^^jjj                  !!!!!!!!!!!!!^^^^^^^
+                       jjjjjjjjjjj                    ^^^!!!!!!!!^^^^^^
+                                                        ^^^^!!!!!^^^^^^
+                         jjjjjjjj                               ^^^^^^^
+                        jjjjjjjjjj                               ^^^^^^
+                         jjjjjjjjjjjj
+                            jjj
+
+MAP KEY:
+*   -   Kabal (city)
+1   -   Hespyre Mountains
+2   -   Olden's Isle
+3   -   Great Kalad Waste (desert)
+4   -   Polar Lands (arctic ice cap)
+5   -   Canthyrian Empire
+6   -   Raumdor (kingdom)
+7   -   The Frozen Sea
+8   -   Worldsrim Mountains
+9   -   Sea of Canthyr
+10  -   Great Kaladian Plains
+11  -   Black Jungles
+12  -   Great Kaladian Sea
+13  -   Gulf of Canthyr
+14  -   Kolpharian Mountains
+' ' = sea/lake
+'!' = plains
+'^' = mountains
+'#' = desert
+'@' = polar
+'f' = forest
+'j' = jungle
+'*' = city (note: Only Kabal is shown)
+
+
+-Antharanos-

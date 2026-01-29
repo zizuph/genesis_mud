@@ -1,0 +1,55 @@
+main
+::MAPDATA::
+east_road4 4 3
+grave_entr 8 5
+grave0 8 7
+grave1 12 7
+grave2 16 7
+grave3 20 7
+grave4 24 7
+grave5 8 9
+grave6 12 9
+grave7 16 9
+grave8 20 9
+grave9 24 9
+grave10 8 11
+grave11 12 11
+grave12 16 11
+grave13 20 11
+grave14 24 11
+hole0 27 11
+grave15 8 13
+grave16 12 13
+grave17 16 13
+grave18 20 13
+grave19 24 13
+o_grave0 8 15
+o_grave1 12 15
+o_grave2 16 15
+o_grave3 20 15
+o_grave4 24 15
+fence0 8 17
+fence1 12 17
+fence2 16 17
+o_grave5 20 17
+o_grave6 24 17
+::MAPDATA::
+
+
+  \
+    o
+      \
+        o       \|/          ___
+   \|/  |                   /   \
+        o - o - o - o - o  | RIP |
+        |               |  |     |
+\|/     o - o - o   o   o  |_____|
+            |       |   |
+        o - o - o - o  [ ][ ]   \|/
+  ___   |       |   |   |
+ /   \  o - o - o   o - o     ___
+| RIP |                 |    /   \
+|     | o - o - o - o   o   | RIP |
+|     | |       |       |   |     |
+~~~~~~~ o - o - o - o - o   |     |
+                            ~~~~~~~~ \|/

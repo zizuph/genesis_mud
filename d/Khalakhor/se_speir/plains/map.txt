@@ -1,0 +1,36 @@
+
+
+
+                  111111111122222222222
+         123456789012345678901234567890              
+        hhhhhhhhfffffRfffffffffffffffffffffwwww
+ 1    CssppppppppppppRffffffffffffffffffwwwww
+ 2    CsspppppppppppppRpppppppppppppppwwww
+ 3    Csssppp       pppRppp          www
+ 4     Csssppp       pppRppp          ww
+ 5      Cssppp        pppRppp         ww
+ 6       Cssppp      pppRppp         ww
+ 7        Csspp      pppRppp          ww
+ 8         C       ppppRppp         ww
+ 9         C       ppvvvRRRppppppwww
+10         C       ppvvvvppRRRRRbb
+11           C    pppvvvvppppppww    Gates @ 15, 8
+12            Cppppwwwwwwwwwwwww
+13           wwwwwwwwwwwwwwwww
+           wwwwwwwwwwwwwwwww
+         123456789012345678901234567890 
+
+Key:
+C - Coastline
+h - Hills
+f - Forest
+w - Water (harbour & river)
+p - Plains rooms
+R - Road
+v - Village
+
+Any areas with no characters are 'empty'. Rooms on the plains
+that have been ommitted from rooms because there's nothing
+there anyway, so coding rooms in them would be largely pointless.
+
+Khail - July 8/97

@@ -1,0 +1,97 @@
+Recalc of Gladiator Charge & Berserk
+------------------------------------
+
+Berserk:
+-------
+Berserk looks fine to me, to begin with. There will be
+some accelerated healing taking place while berserk, of
+course, but it's a matter of 4 or 5 extra hp every 
+healing round, so probably not worth the math involved,
+especially as the existing 'rounding up' is probably
+more than this calculation would add to the combat
+advantage anyway. So, we'll stick with the calculated
+value of 11% combat advantage.
+
+Charge:
+-------
+Some things here require attention, however. We'll start
+with the normal assumption, stats & skills = 100, normal
+tohit & pen = 40, etc.
+
+Frequency:
+One charge every 28 seconds.
+
+    Reset modifer: 1/5.6
+
+Tohit modifier:
+Charge uses a hard-coded base chance tohit of 100 in the
+cb_tohit() call. As a normal hit is based off the wielded
+weapon's tohit, this produces a modifier of:
+
+    Tohit modifier = 100/40
+
+Wcpen modifier:
+Stats used to calculate charge are capped at 150, divided
+by 5, and added together. The results of this addition is
+passed as the first argument to F_PENMOD, the player's charge
+skill + 45 is the second argument. Stats involved are str
+and con. This means that a charge attack will do:
+
+    wc_pen = F_PENMOD(100/5 + 100/5, 100 + 45)
+           = F_PENMOD(40, 145)
+           = 346
+
+For a normal attack:
+
+    wc_pen = F_PENMOD(40, 100)
+           = 280
+ 
+Wcpen modifier is therefore
+
+    wc_pen modifier = 346/280
+
+While berserk, however, these value for the wc_pen changes
+a bit. As the player's str and con are increased by 15%,
+we can approximate this change by using stats of 115 instead
+of 100 calculating the pen (it doesn't effect reset time
+or tohit chance).
+
+    wc_pen = F_PENMOD(115/5 + 115/5, 100 + 45)
+           = F_PENMOD(46, 145)
+           = 384
+
+Wcpen modifier while berserked is therefore
+
+    wc_pen modifier = 384/280.
+
+While not berserked, the total CA is:
+
+    CA = 1/5.6 * 100/40 * 346/280
+       = 55.2%
+
+While berserked, the total CA is:
+
+    CA = 1/5.6 * 100/40 * 384/280
+       = 61.2%
+
+Taking into consideration that berserk works 50/65ths
+of the time, we can get an average CA by doing:
+
+    CA = (15/65 * 55.2%) + (50/65 * 61.2%)
+       = 12.7% + 47.1%
+       = 59.8%
+
+Since this CA takes the effects of berserk into account,
+the cumulative effect has been taken into consideration,
+and the CAs of the two specials can simply be added to
+obtain their overall combat advantage:
+
+    Overall CA = 11% + 59.8%
+               = 70.8%
+
+Which is well under the 100% CA advantage occ guilds may
+offer. Tax for this special is then:
+
+    Tax = 59.8% / 6 / 2
+        = 4.98% -> 5% tax
+

@@ -1,0 +1,175 @@
+       ===============================================
+       Converting a Shipline for the Genesis ShipLines
+       ===============================================
+
+Converting a shipline is now a trivial task. By following the
+steps in this little tutorial, one should be able to easily
+convert, test, and deploy a new shipline into the realm.
+
+Setup Steps
+-----------
+To start with, clone yourself a ship controller so that you
+can easily control the shiplines from wherever you are. The
+two most important commands are <ship> and <pier>. By using
+these two commands, you can get a view of all the running
+ships in the realm and have the ability to start, stop,
+goto, and inspect each line.
+
+   <clone /d/Genesis/gsl_ships/control/controller>
+
+You can take a look at the examples found in the example
+directory. /d/Genesis/gsl_ships/example
+
+To convert a ship line, you will need to perform the
+following steps:
+   - Convert Pier
+   - Convert Captain
+   - Convert Ship Rooms
+   - Convert Ticket
+   - Convert Ship
+   - Test Ship
+   - Deploy Ship
+
+Converting a Pier
+-----------------
+Converting a pier to be compatible with the Genesis
+ShipLines involves a few steps. This is the first thing
+that should be done. There are two sets of instructions
+depending on whether your pier inherits from a domain
+specific base room already.
+
+Case #1: Pier based on Domain-specific base room
+
+  1. Include the file "/d/Genesis/gsl_ships/ships.h"
+  2. Inherit the file LIBPIER
+  3. Call add_pier_entry
+  4. Call initialize_pier
+
+Case #2: Pier not based on Domain-specific base room
+ 
+  1. Include the file "/d/Genesis/gsl_ships/ships.h"
+  2. Inherit the file from STDPIER
+  3. Implement create_pier (create_room is no_mask)
+  4. Call add_pier_entry in create_pier
+  5. DO NOT call initialize pier. It's already called in the STDPIER.
+  
+The most important call here is add_pier_entry. An example
+of how to call this for the Sparkle pier which reaches Gelan
+would be:
+
+    add_pier_entry(MASTER_OB(this_object()), "Sparkle", "Port to Gelan");
+
+  Note: If you use MASTER_OB, you must also have #include <macros.h>
+  
+Once you have made these changes, you can go ahead and load the
+file. Once it successfully loads, you can issue the command
+<pier list> to see if the pier was added successfully. Repeat for
+all other piers in the shipline that you wish to convert.
+
+Converting the Captain
+----------------------
+All captains need to have basic functionality that controls the
+loading of passengers and the kicking off of the trip. Converting
+a captain involves the following steps:
+
+  1. Include the file "/d/Genesis/gsl_ships/ships.h"
+  2. Inherit the file STDCAPTAIN
+  3. Implement create_captain
+
+The captain inherits from /std/monster, so your captain should
+put all creation things such as setting of properties inside of
+create_captain function.
+
+Converting the Shiprooms
+------------------------
+There are two types of ship rooms. Decks and everything else.
+Converting them is pretty much the same, with the exception
+of one optional step if it is a deck.
+
+  1. Include the file "/d/Genesis/gsl_ships/ships.h"
+  2. Inherit the file STDSHIPROOM
+  3. Call create_shiproom to get the shiproom functionality
+  4. Optional: Call set_is_deck(1) if it's a deck.
+
+Converting the Ticket
+---------------------
+A ticket just provides the information about how much it
+costs. To convert the ticket, follow these steps.
+
+  1. Include the file "/d/Genesis/gsl_ships/ships.h"
+  2. Inherit the file STDTICKET
+  3. Call create_ticket to get the ticket functionality
+  4. Call set_price to set the price in coppers.
+
+Converting a Ship
+-----------------
+The final object to convert is the ship itself. Assuming you
+have successfully converted the rest, this part is almost
+as easy, and behaves very similarly to the Pier conversion.
+
+  1. Include the file "/d/Genesis/gsl_ships/ships.h"
+  2. Inherit the file STDSHIP
+  3. Implement create_ship
+  4. Call set_deck with the deck room file.
+  5. Call set_ship_line with the information of all the files
+     you converted.
+
+The most important call is the set_ship_line. This adds the
+information into the data store so that the ship can operate.
+Here is how the example ship calls this:
+
+    set_ship_line(MASTER_OB(this_object()), 
+                  SHIP_DIR + "example/captain",
+                  SHIP_DIR + "example/ticket", 
+                  ({ SHIP_DIR + "example/pier_1", 
+                     SHIP_DIR + "example/pier_2"}) );
+
+  Note: If you use MASTER_OB, you must also have #include <macros.h>
+
+This call simply specifies that the ship will go between
+pier_1 and pier_2. By adding more piers into the array, you
+can have a ship that goes between more piers. The order is
+the order that the ship will travel in. Once you have converted
+the ship, go ahead and load it. You should now be able to
+do <ship list> to see the ship that you just added. You can
+do <ship show X> where X is the ID of the ship to see more
+information about it. The information should match what you
+placed in set_ship_line. 
+
+Depending on user traffic, you may or may not want to test
+on the actual piers. Feel free to use the example piers in
+your set_ship_line call until you are sure it works, then
+simply change the pier to the real pier.
+
+Testing the Converted Shipline
+------------------------------
+Testing the converted ship line should be easy. To enable the
+ship, first identify the ship id. Then issue the following
+two commands. Let's assume the ID is 5.
+
+   <ship enable 5>
+   <ship start 5>
+
+Enabling the ship clones the ship and brings it to the first
+pier. Starting the ship tells the captain to start boarding.
+If there are any problems, you can <ship disable 5> to delete
+the ship or <ship stop 5> to stop the ship from whatever state
+it is currently in.
+
+You should note at this point that the ship itself doesn't
+contain any points on the map to go. Which means, it will just
+go out of the harbor of the first pier, and go into the harbor
+of the next pier. The trip itself will be very short. Please
+contact Tapakah to add actual ship routes and also set the
+pier in a proper location as well.
+
+Deploying the Ship Line
+-----------------------
+Once you have completed your testing, you will need to first
+change the set_ship_line call in your ship to the correct pier
+if you used the test piers. Then you will need to contact
+Tapakah to get the pier locations and ship line locations
+properly set. Once this is done, your ship is deployed and
+available to the public.
+ 
+Petros, April 2009

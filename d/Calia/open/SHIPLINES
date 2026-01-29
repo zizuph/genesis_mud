@@ -1,0 +1,40 @@
+
+======================================================
+       Calian Shiplines  
+======================================================
+
+Path: /d/Calia/ships/sparkle
+Ship: ship.c
+Captain: captain.c
+Start: /d/Calia/ships/sparkle/pier.c
+Destination: /d/Genesis/start/human/town/pier9.c
+Cost: 30cc
+
+Path: /d/Calia/ships/terel
+Ship: ship.c
+Captain: captain.c
+Start: /d/Calia/ships/terel/pier.c
+Destination: /d/Terel/n_port/pier4.c
+Cost: 30cc
+
+Path: /d/Calia/ships/kalad
+Ship: ship.c
+Captain: captain.c
+Start: /d/Calia/ships/kalad/pier.c
+Destination: /d/Kalad/common/port/s66.c
+Cost: 70cc
+
+Path: /d/Calia/ships/shire
+Ship: ship.c
+Captain: captain.c
+Start: /d/Calia/ships/shire/pier.c
+Destination: /d/Shire/common/greyhaven/pier6.c
+Cost: 30cc
+
+Path: /d/Calia/ships/krynn
+Ship: ship.c
+Captain: captain.c
+Start: /d/Calia/ships/krynn/pier.c
+Destination: /d/Krynn/solamn/palan/ship4/pier.c
+Cost: 30cc
+

@@ -1,0 +1,134 @@
+
+     Spell name: Polymorph self
+                 thirkusio
+         Effect: Shapeshift
+           Type: Maintained
+        Targets: Caster
+        
+        Element: Earth           / 50
+           Form: Transmutation   / 60
+    Spell power: Power 4 [Advanced spell]
+     Spell type: shapeshift spell 
+     
+       Peaceful: Yes
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: diamond shard and grey willow (214 cc)
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_HARD
+     Combat Aid: SPECIAL 
+
+            Tax:  1.0
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.75   Hard difficulty
+                  x0.75  material component (Component cost >=1 gp)  
+                 ------
+                  0.5625%  total tax
+   ------------------------------------------------------------
+   Comments: One of the apex spells of the WoHS is the ability
+      to polymorph one self in to various beasts / forms. Each
+      form has its own specialty, and attributes dependent on
+      SS_INT and SS_WIS. Creature skills and natural weapons and 
+      armour classes dependent on caster SS_FORM_TRANSMUTATION 
+      skill. 
+
+      NOTE: while in shapeshift form the spellcaster loses all
+            maintained spells and loses all access to their 
+            spells and equipment. 
+
+      Offensive forms - bonuses to str/dex; good natural weapons;
+                        poor/average armour class.
+
+         /d/Genesis/race/shapeshift/wohs_polymorph_self_stag.c
+          *str +20% of casters int to a max of 250
+          *dex +20% of casters wis to a max of 300
+          *con casters int to a max of 250
+          *int and wis casters int and wis
+          *dis casters wis to a max of 200
+          *antlers hit/pen between 30/40 and 50/60 based on skill
+          *forehooves hit/pen between 30/30 and 50/50 based on skill
+          *ac between 36 and 60 depending on transmutation skill
+          *unarmed / defence skill based on transmutation skill
+
+         /d/Genesis/race/shapeshift/wohs_polymorph_self_cooshee.c
+          *only available to elf races
+          *str +20% of casters int to a max of 250
+          *dex +20% of casters wis to a max of 300
+          *con casters int to a max of 150
+          *int and wis casters int and wis
+          *dis casters wis to a max of 200
+          *claws/bite hit/pen between 30/30 and 50/50 based on skill
+          *ac between 15 and 25 depending on transmutation skill
+          *unarmed / defence skill based on transmutation skill
+          *awareness / sneak / hide skill based on transmutation skill
+
+      Defensive forms - bonus to str/con; good natural ac; poor/
+                        average natural weapons.
+
+         /d/Genesis/race/shapeshift/wohs_polymorph_self_bear.c
+          *str +20% of casters int to a max of 250
+          *dex casters wis to a max of 200
+          *con +20% of casters int to a max of 300
+          *int and wis casters int and wis
+          *dis casters wis to a max of 200
+          *bite/claw hit/pen between 30 and 50 depending on skill
+          *ac between 30 and 120 depending on skill and player int
+          query_skill(SS_FORM_TRANSMUTATION) / 2) + min(70, (player_int / 3)
+          *unarmed / defence skill based on transmutation skill
+
+      Apex form - dragon! Can change in to a dragon of a colour dependent
+                  on the casters element specialisation and alignment:
+                    *fire - red or brass (FIRE element)
+                    *water - white or silver (COLD element)
+                    *air - blue or bronze (ELECTRICITY element)
+                    *earth - black or copper (ACID element)
+
+        /d/Genesis/race/shapeshift/wohs_polymorph_self_dragon.c
+         * defense, unarmed, awareness between 60 and 100, based on 
+           player transmutation skill
+         * breath special attack (harm spell of element type,
+             ~sohm/spells/dragon_breath.c, 60 combat aid)
+         * When out of combat and outside can fly 'home'.
+         * Young dragon - WoHS level 5 may change to young dragon form 
+                        - add_prop(OBJ_I_RES_MAGIC, 10);
+                        - add_prop(OBJ_I_RES_*dragon element*, 60);
+                        - ac between 35 and 75
+                        - hit/pen between 50/50 to 65/60
+                        - str, con, int casters int to a max of 280.
+                        - dex, wis, dis casters wis to a max of 280.
+
+         * Adult dragon - WoHS level 7 may change to adult dragon form 
+                        - add_prop(OBJ_I_RES_MAGIC, 30);
+                        - add_prop(LIVE_I_SEE_DARK, 1);
+                        - add_prop(OBJ_I_RES_*dragon element*, 60);
+                        - ac between 45 and 85
+                        - hit/pen between 55/45 to 75/65
+                        - str, con +10% of casters int to a max of 280.
+                        - dex, dis +10% of casters wis to a max of 280.
+ 
+         * Aged dragon  - WoHS level 9 may change to aged dragon form 
+                        - add_prop(OBJ_I_RES_MAGIC, 40);
+                        - add_prop(LIVE_I_SEE_DARK, 3);
+                        - add_prop(OBJ_I_RES_*dragon element*, 60);
+                        - ac between 53 and 93
+                        - hit/pen between 63/53 to 83/73
+                        - str, con +20% of casters int to a max of 280.
+                        - dex, dis +20% of casters wis to a max of 280.  
+
+         * Ancient dragon- WoHS level 11 may change to aged dragon form 
+                        - add_prop(OBJ_I_RES_MAGIC, 50);
+                        - add_prop(LIVE_I_SEE_DARK, 5);
+                        - add_prop(OBJ_I_RES_*dragon element*, 60);
+                        - ac between 60 and 100
+                        - hit/pen between 70/60 to 90/80
+                        - str, con +30% of casters int to a max of 280.
+                        - dex, dis +30% of casters wis to a max of 280.       
+
+   ------------------------------------------------------------

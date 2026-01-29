@@ -1,0 +1,85 @@
+Ideas for making Sparkle a "living city":
+
+--------------------
+NPC DIALOGUE
+--------------------
+
+Much of my philosophy of game design draws on my early experiences with the
+seminal roleplaying games of the early home computer age. Specifically, I
+deeply appreciated the Ultima series of games that I played on my Apple
+computer as a youth. These games featured dialogue trees with npcs into
+which the player could deeply delve. Ultima IV was my first game of the
+series, and the npcs in that game worked essentially like this:
+
+<talk> command to npc: npc gives default response with a few keywords.
+<ask keyword> to npc: npc gives response to that keyword with a few more
+                      keywords that are now made known.
+
+A few keywords were never mentioned by the npcs, but were simply ones that
+all npcs responded to. Such things as "job", "townname" (whatever town
+they lived in), etc etc ... 
+
+In Genesis, we don't have a <talk> command, and so we use the chats to
+allow our npcs to put forth a bit of information with keywords for the
+players. All npcs in Sparkle should allow for deep exploration of the
+keywords an npc mentions in their chats or responses to asks.
+
+Universal keywords we should have all npcs in Sparkle respond to:
+
+    "job" / "occupation" / "work"
+    "family"
+    "sparkle" / "city" / "town"
+
+In general, we should try to design relationships between various npcs
+in the city. There should be families, friends, lovers, rivals, enemies,
+etcetera.
+
+--------------------
+NPC DAILY ROUTINES
+--------------------
+
+I would like to design and implement the passage of time in Sparkle. One
+idea is to have each hour of RL time represent one 24 hour day in Sparkle,
+with an hour of Sparkle time lasting 5 minutes of RL time. The technical
+design of such a system should be discussed by the code-grinders. My own
+thoughts are that we either have a master object that triggers things in
+the city based on time, or that we have a running clock that anything can
+inherit through which individual rooms/npcs/etc can trigger based on the
+passage of time.
+
+Ultima IV had static npcs. They never changed position, and were always
+standing in the same place all day and night. This changed in Ultima V.
+Ultima V was the first game I had played where the npcs ... lived. They
+had routines for each day. They would go to work at 7 am and go home at
+5 pm. They would be sitting in a chair reading from 8-9 pm and then be
+sleeping in bed from 10pm until 6 in the morning. Each npc had a unique
+routine that caused them to really feel alive. You had to follow the
+npcs around to get a feel for their routine. Sometimes you only were
+able to talk to npcs about certain things in certain places. For instance,
+if a meeting was taking place at midnight at the well for an underground
+resistance movement, only at that time at that place could you talk to
+the npcs about certain things.
+
+Each npc in Sparkle should do this. We should have our npcs live out their
+days. In terms of having things "close down for the night" ... we do not
+want to go for true realism. The banks of Minas Tirith are an example of
+a good idea that doesn't lead to good gameplay. You have to literally
+sit and wait forever for those damned things to open if you catch them
+right when they close. I think npcs in Sparkle should close shop and
+go to bed. However, I think this should be a very brief thing. I think
+we can make it so that Sparkle is not like Earth. On earth, we need
+6-8 hours of sleep to feel rested the next day. In Sparkle, you simply
+need a good hour. Therefore, at some point in the day, each npc in
+Sparkle goes to get their rest period. This can be different for each
+npc, but I do think we should close down services for those 5 minutes.
+This is also a good opportunity to follow npcs around and see where they
+live.
+
+We should obviously have numerous npcs in town that don't have anything
+to do with running a shop. They simply live lives, and we can do all
+sorts of cool things to make this interesting and fun to be a part
+of. Perhaps there are guilds or clubs you can only join if you catch
+a certain meeting of npcs, or this or that. We can get extremely
+creative with this.
+
+More to come ...

@@ -1,0 +1,11 @@
+#define THIS_DIR "/d/Avenir/common/farm/"
+
+#define LAKE "_lake"
+#define ROCK "_big_rock"
+#define MILL "_old_mill"
+#define HOUSE "_abandoned_house"
+#define TOWER "_mansion_tower"
+#define MIDDLE "_middle_of_the_lake"
+#define X "_very_middle_of_the_lake"
+#define BH "_boathouse"
+#define BOATHOUSE THIS_DIR + "boathouse"

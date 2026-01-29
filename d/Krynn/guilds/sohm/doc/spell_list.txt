@@ -1,0 +1,106 @@
+             			 Element /	Spell level    Component
+ABJURATION (all coded)           (form skill)
+--------------------------------------------------------------------------------
+Protection from Dragonfear      Fire            Minor          tooth, mint
+Blink                           Air             Minor          hazelnut
+Magic Shield $                  Air            	Minor          chokecherry
+Minor protection - fire         Fire            Lesser         fireweed
+Minor protection - acid         Water           Lesser         soapweed
+Minor protection - lightning    Air             Lesser         elidross
+Minor protection - poison       Earth           Lesser         alfirin
+Minor protection - cold         Water           Lesser         frostheal
+Retributive ward (reflect)      Earth (60)      Greater        sphagnum, chicory
+
+^Rune of welcome **             Earth           Cantrip       none
+^Protection - divination        Water           Minor         chantrelle
+^Minor protection - Magic       Water           Advanced      solinaith
+^Greater magic shield           Air             Advanced      chokecherry, chantrelle
+
+ENCHANTMENT (all coded)
+--------------------------------------------------------------------------------
+Faerie Fire #                   Air            	Minor          none
+Scare (fatigue/panic)           Air             Minor          snake fang, salt wart
+Curse (illfortunate)            Earth           Minor          myrtleberry
+Psychic blast                   Water          	Lesser         special / potion (alc/locoweed)
+Dominate (stun)                 Water (60)      Greater        potion (alc/hemlock/lady slipper)
+
+^Dazzle (slow) **		Air		Minor	       none
+^Arcane vulnerability           Water           Advanced       moonstone_shard, potion (alc/solinaith)
+
+
+DIVINATION (all coded)
+--------------------------------------------------------------------------------
+Read Magic *                    Fire           	Cantrip        none
+Divine wizards *                Water		Cantrip	       none
+Detect magic @                  Earth          	Cantrip        none
+Speak with Dead #               Earth          	Cantrip        a skull
+Wind Whisper *                  Air            	Cantrip        copper coin
+Scry                            Water          	Lesser         sargassum, bull kelp
+Truesight (see invis/dark)      Air (60)        Greater        potion (crocus), eye x2
+
+^Mirror portal **               Water           Cantrip        none
+^Identify **                    Water          	Minor          glass of water
+^Detect resistance **		Air		Minor	       kuko
+^Portents and omens             Air (60)        Greater        elidross, poison ivy
+
+TRANSMUTATION (all coded)
+--------------------------------------------------------------------------------
+Polymorph self - bird form **   Earth           Cantrip        wari wing
+Wand light *                    Fire            Cantrip        special
+Light                           Fire            Minor          none 
+Water breathing			Water		Minor          surf grass
+Enchant weapon                  Earth           Lesser         cattail, tuo
+Mage strength                   Earth           Lesser         potion (minotaur blood)
+Stoneskin			Earth (60)	Greater        cladina
+
+^Shatter                        Earth           Cantrip        none
+^Water breathing		Water		Minor          surf grass
+^Featherweight                  Air             Minor          fiddlehead
+^Flaming fist                   Fire            Lesser         fireweed
+^Gravity                        Earth (60)      Greater        breadroot, tangleshoot
+^Polymorph self                 Earth           Advanced       shard_diamond, grey willow
+
+CONJURATION (all coded)
+--------------------------------------------------------------------------------
+Magic Missile #	                Air		Minor          none
+Fire dart *#                    Fire            Minor          none
+Acid arrow                      Water           Minor          none
+Lightning Bolt                  Air             Lesser         special / potion (alc/bur reed)
+Flame lance                     Fire            Lesser         special / potion (alc/hawthorn)
+Ice strike                      Water           Lesser         special / potion (alc/salt wort)
+
+^Wind gust                      Wind            Cantrip        bur reed
+^Ballistic spray                Earth           Minor          none
+^Geyser                         Water           Lesser         special / potion (alc/sargassum)
+^Scouring wind                  Air             Lesser         special / potion (alc/seaside grass)
+**Foreshock                     Earth           Lesser         gem shard
+
+^Teleport                       Air (60)        Greater        breadroot, pearl
+^Team teleport                  Air             Advanced       breadroot, black pearl
+^Fireball                       Fire            Advanced       potion (alc/hawthorn)
+^Chain lightning                Air             Advanced       potion (alc/bur reed)
+^Meteor storm                   Earth           Advanced       potion (alc/beaked sedge)
+^Storm fury                     Water           Advanced       potion (alc/salt wort)
+^Detonate                       Fire            Advanced       gem shard, potion (alc/hawthorn)
+^Eruption                       Earth           Advanced       gem shard, potion (alc/beaked sedge)
+^^Doom Blast                    Air             Advanced       gem shard, potion (alc/skullcap)
+ 
+
+ILLUSION (all coded)
+--------------------------------------------------------------------------------
+Fool's curse                    Water           Cantrip        glass of water
+Prismatic spray #               Water           Minor          none
+Blur                            Water          	Lesser         cattail, vallenwood blossom
+Invisibility                    Air             Lesser         snake skin, blung 
+Gloom (darkness)                Air (60)        Greater        skullcap
+
+^Shadowy veil                   Air             Lesser         onyx shard, brown slime
+^Haste                          Air  (60)       Greater        topaz shard, smooth camas
+
+* taught at SoHM guildhall
+@ purchased from mageware store (Haven, Palanthas, Port Balifor)
+# found
+$ task
+** WoHS ONLY spell - library in Tower of Wayreth 
+^ new spells with the opening of the WoHS.
+^^ new spells post WoHS opening

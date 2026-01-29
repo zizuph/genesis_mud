@@ -1,0 +1,64 @@
+main
+::MAPDATA::
+krcamp1 5 4
+krcampt 1 4
+r15 7 2
+r16 9 4
+r17 11 6
+r18 13 8
+wbridge 13 6
+r19 17 8
+r20 21 8
+for1 15 10
+for4 15 14
+for9 15 18
+for10 19 18
+for11 23 18
+for12 27 18
+for2 18 11
+for3 22 11
+for5 18 14
+for6 22 14
+for7 27 14
+for8 31 14
+for13 31 16
+r21 25 12
+r22 29 12
+r23 31 10
+r24 35 10
+r25 43 10
+ogroved 31 12
+ogrove1 35 12
+ogrove2 33 14
+ogrove3 37 14
+ogrove4 33 16
+ogrove5 37 16
+ogrove6 41 14
+ogrove7 41 12
+ogrove8 45 14
+ogrove9 45 16
+::MAPDATA::
+  __
+ /\ \     |>
+       o  | 
+        \  ~~~~~~
+ o - o - o    ~~~~~~                   
+   __     \  | ~~~~~~                       
+  /\ \     o o   ~~~~              Argos River        
+            \|     ~~~~~~  ~~~~~~~~~  ~~~~~~  ~~~
+             o - o - o  ~~~~~~~~~~~~~~~~~~~~~~~~                     
+         ^      /   / \      ~~~~~~ ~~~~ ~~~~~~~~~~~              
+        /|\    o   /   \       o - o ----- o
+       //|\\   |  o - o \     /    |        \
+         |     |  |      o - o o - o     o  
+               |  |         /     /      |    
+               o  o - o -- o - o o - o - o - o 
+          ^     \    /         | |   |       |
+         /|\     \  /          o o - o       o 
+        //|\\     \/                          
+          |    o - o - o - o           _      _    
+                               _      {x}    {x}     
+                ^             {x}      Y      Y      
+               /|\             Y           _         
+              //|\\                       {x}  
+                |                          Y 

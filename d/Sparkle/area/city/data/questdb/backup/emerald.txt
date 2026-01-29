@@ -1,0 +1,16 @@
+domain,quest desc,group,bit,validation,arguments
+Emerald,Old Quest Bit,0,4,always_false,0,4
+Emerald,Antique Sword,0,6,default
+Emerald,Find Rillian,2,1,default
+Emerald,Torque Quest (Right Fragment),2,3,default
+Emerald,Torque Quest (Left Fragment),2,4,default
+Emerald,Torque Quest (Found Grotto),2,2,default
+Emerald,Torque Quest (Signal),2,5,default
+Emerald,Torque Quest (Found Tower),2,6,default
+Emerald,Torque Quest (Acuired Torque),2,7,default
+Emerald,Torque Quest (Final Stage),2,0,default
+Emerald,Torque Quest Removal,2,8,always_false,2,8
+Emerald,Old Quest Bit,3,0,always_false,3,0
+Emerald,Old Quest Bit,3,2,always_false,3,2
+Emerald,Old Quest Bit,3,3,always_false,3,3
+

@@ -1,0 +1,321 @@
+main
+::MAPDATA::
+sr10 59 14 road
+ford_north 59 15 road
+road00s 60 16 road
+bridge01 61 17 road
+road01s 61 17 road
+road02s 61 17 road
+road03s 62 18 road
+road04s 62 18 road
+pier 57 17 road
+pier2 57 17 road
+p1 57 17 road
+p2 57 17 road
+p3 57 17 road
+p4 57 17 road
+p5 57 17 road
+p6 57 17 manor
+p7 57 17 manor
+p8 57 17 manor
+p9 57 17 manor
+p10 57 17 road
+p11 57 17 road
+p12 57 17 road
+p13 57 17 road
+p14 57 17 road
+p15 57 17 road
+road05s 62 19 road2
+road06s 62 19 road2
+road07s 62 19 road2
+road08s 62 20 road2
+road09s 62 20 road2
+road10s 62 21 road2
+road11s 62 21 road2
+barracks 57 17 manor
+cell1 57 17 manor
+cell2 57 17 manor
+cell3 57 17 manor
+cellar 57 17 manor
+courtyard 57 17 manor
+dininghall 57 17 manor
+foyer 57 17 manor
+garden 57 17 manor
+kitchen 57 17 manor
+landing 57 17 manor
+northhall 57 17 manor
+office 57 17 manor
+secret 57 17 manor
+southhall 57 17 manor
+westhall1 57 17 manor
+westhall2 57 17 manor
+westhall3 57 17 manor
+camp01 62 20 hcamp
+camp02 62 20 hcamp
+camp03 62 20 hcamp
+camp04 62 20 hcamp
+camp05 62 20 hcamp
+camp06 62 20 hcamp
+camp07 62 20 hcamp
+camp08 62 20 hcamp
+camp09 62 20 hcamp
+campchief 62 20 hcamp
+campE01 62 20 hcamp
+campE02 62 20 hcamp
+camptent01 62 20 hcamp
+camptent02 62 20 hcamp
+camptent03 62 20 hcamp
+camptent04 62 20 hcamp
+camptent05 62 20 hcamp
+camptent06 62 20 hcamp
+camptent07 62 20 hcamp
+camptent08 62 20 hcamp
+camptent09 62 20 hcamp
+camptentchief 62 20 hcamp
+pavilion 62 20 hcamp
+s01 62 20 hcamp
+s02 62 20 hcamp
+s03 62 20 hcamp
+s04 62 20 hcamp
+s05 62 20 hcamp
+s06 62 20 hcamp
+s07 62 20 hcamp
+s08 62 20 hcamp
+s09 62 20 hcamp
+s10 62 20 hcamp
+s11 62 20 hcamp
+spavilion01 62 20 hcamp
+spavilion02 62 20 hcamp
+trail01 62 20 hcamp
+trail02 62 20 hcamp
+trail03 62 20 hcamp
+trail04 62 20 hcamp
+trail05 62 20 hcamp
+trail06 62 20 hcamp
+trail07 62 20 hcamp
+trail08 62 20 hcamp
+trail09 62 20 hcamp
+trail10 62 20 hcamp
+trail11 62 20 hcamp
+trail12 62 20 hcamp
+trail13 62 20 hcamp
+trail14 62 20 hcamp
+trail15 62 20 hcamp
+::MAPDATA::
+
+                   \              ~~~~~                    |  Mountains
+                    --------\      ~~~~~                   |     of
+                       MINAS \      ~~~~~                  |   Shadow  +------+
+   White Mountains     TIRITH \  OSGILIATH                 |           |MORDOR|
+                            O-+----O=====------------------+--\ MINAS  +------+
+               +------+       |   / ~~~~~                  |   \MORGUL
+               |GONDOR|       |  / ~~~~~                   |    O
+               +------+       | / ~~~~~     Southern       |
+                              L/ ~~~~~      Ithilien       |
+                             / ~~~~~~                      |
+                            / ~~~~~~            Emyn Arnen |
+                           / ~~~~~~               o--------+
+                          / ~~~~~~                         |
+                         / ~~~~~~                          |
+                        / ~~~~~~                           |
+                       /~~~~~~~~                          / \
+                      O~~~~~~~~                        ~~o~~ \
+ ~~~~~           PELARGIR~~~~~~~                 ~~~~~~Poros  |
+ ~~~~~~~~           ~~~~~~~~~~~            ~~~~~~             |
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~   ~     ~~~~~~                   | Haronder
+ ~~~~~~~~~~~~~~~~~~~~~~~~~      ~~~~~                         |
+
+::NEWMAP::
+road
+::MAPDATA::
+sr10 57 4
+ford_north 57 6
+road00s 57 8
+bridge01 57 10
+road01s 57 12
+road02s 57 14
+road03s 57 16
+road04s 53 18
+pier 49 10
+pier2 45 12
+p1 53 6
+p2 49 6
+p3 45 8
+p4 41 8
+p5 37 8
+p10 33 8
+p11 29 6
+p12 33 4
+p13 33 2
+p14 25 4
+p15 21 4
+::MAPDATA::
+
+                                                         |
+                                 o                       o
+                                 |                       |
+                     o - o       o                       o
+                           \   /                         |
+                             o                   o - o - o
+                               \               /       / |
+                                 o - o - o - o       /   o
+                                                   /     |
+                                                 o       o
+                                               /         |
+                                             o   Docks   o
+                                                         |
+                                                         o
+                                                         |
+                                                         o
+                                                       /
+                                                     o
+                                                     |
+                                                     o
+                                                     |   H A R O N D E R
+
+::NEWMAP::
+road2
+::MAPDATA::
+road05s 53 4
+road06s 53 6
+road07s 53 8
+road08s 57 10
+road09s 57 12
+road10s 61 14
+road11s 61 16
+::MAPDATA::
+
+                                                       /
+                                                     o
+                                                     |
+                                                     o
+                                                     |   H A R O N D E R
+                                                     o
+                                                     |
+                                                     o
+                                                       \
+                                                         o
+                                                         |
+                                                         o
+                                                           \
+                                                             o
+                                                             |
+                                                             o
+
+::NEWMAP::
+manor
+::MAPDATA::
+barracks 12 3
+cell1 8 9
+cell2 8 9
+cell3 8 9
+cellar 8 9
+courtyard 20 9
+dininghall 8 5
+foyer 16 7
+garden 12 11
+kitchen 12 5
+landing 8 13
+northhall 16 3
+office 8 1
+secret 8 3
+southhall 16 5
+westhall1 12 7
+westhall2 8 7
+westhall3 12 9
+p6 36 7
+p7 32 7
+p8 28 7
+p9 24 9
+::MAPDATA::
+
+        o
+          \
+            o - o
+          /     |
+        o - o   o
+        |       |                     /
+       [ ]- o - o           o - o - o
+        :   |     \       /
+        o   o       o - o
+            |
+            o              --------------
+          /                 Ruined Manor
+        o                     Of Poros
+                           --------------
+
+::NEWMAP::
+hcamp
+::MAPDATA::
+camp01 42 11
+camp02 42 9
+camp03 46 9
+camp04 50 9
+camp05 50 11
+camp06 50 13
+camp07 46 13
+camp08 42 13
+camp09 46 11
+campchief 46 15
+campE01 38 11
+campE02 46 7
+camptent01 42 11
+camptent02 42 9
+camptent03 46 9
+camptent04 50 9
+camptent05 50 11
+camptent06 50 13
+camptent07 46 13
+camptent08 42 13
+camptent09 46 11
+camptentchief 46 15
+pavilion 46 15
+s01 34 13
+s02 30 17
+s03 34 17
+s04 38 17
+s05 34 19
+s06 38 19
+s07 42 19
+s08 46 19
+s09 46 17
+s10 50 17
+s11 50 19
+spavilion01 38 11
+spavilion02 46 7 
+trail01 2 9
+trail02 6 9
+trail03 10 9
+trail04 14 7
+trail05 18 9
+trail06 22 11
+trail07 26 11
+trail08 34 11
+trail09 26 13
+trail10 30 13
+trail11 30 9
+trail12 30 7
+trail13 34 5
+trail14 38 5
+trail15 42 5
+::MAPDATA::
+
+                           ----------------
+                           Camp of Harondor
+                           ----------------
+
+                                          o       
+                                            \
+              o                               o 
+            /   \                           / | \
+  o - o - o       o                       o - o - o 
+/                   \                     |   |   |
+                      o - o ----- o - o - o - o - o 
+                          |             \ |       |
+                          o - o           o - o - o 
+                                              |
+                                              o
+
+                                                    
+
+                                                    

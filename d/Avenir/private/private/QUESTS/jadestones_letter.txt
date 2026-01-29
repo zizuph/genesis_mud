@@ -1,0 +1,27 @@
+Quest:  Jadestone's Letter
+Exp:	1500
+Bit:	   7	Group: 	0
+Align:	   0
+Prestige:  0	
+
+Letter quest:
+If a player asks Jadestone for a quest, will tell him or her that
+she needs a letter delivered to Galerin, on the Holm.
+
+The Holm is dangerous, and so are the nobles there, of which 
+Galerin is one.  The difficulty is increased because the nobles
+identities are randomly generated, and at any given time there
+is no guarantee that Galerin can be found to deliver the letter 
+to.
+
+Once the player has given the letter to Galerin, he asks them
+to wait so he can write a response, which must be returned to
+Jadestone in order for the player to get the experience.
+
+
+
+Related files:   /d/Avenir/common/bazaar/Obj/misc/j_letter.c
+                 /d/Avenir/common/bazaar/Obj/misc/m_letter.c
+                 /d/Avenir/common/holm/obj/quicksilver.c
+                 /d/Avenir/common/bazaar/NPCS/jadestone.c
+                 /d/Avenir/common/holm/mon/noble.c

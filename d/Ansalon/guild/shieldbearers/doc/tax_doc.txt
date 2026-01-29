@@ -1,0 +1,70 @@
+*****************************************************************************
+          TAX INFORMATION FOR THE SHIELDBEARERS (Layman)
+*****************************************************************************
+AG = Adventures Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)
+
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+General
+--------------------------------------------------------------------------
+SS_WEP_AXE             30         30           0         1.5         0.000
+SS_APPR_MON            60         30          30         1.0         0.500  
+--------------------------------------------------------------------------
+Totals                 90         60          30                     0.50%
+
+--------------------------------------------------------------------------
+Guild Specific Skills
+--------------------------------------------------------------------------
+SHIELDSLAM_SPECIAL    100          0           0         0.0         0.000
+--------------------------------------------------------------------------
+             
+Taxable Slots Allowed   : 350
+Actual Taxable Slots    :  30
+
+TOTAL TAX FOR SKILLS : 0.5%
+        
+
+================
+COMBAT SPECIALS:
+================
+
+SHIELDSLAM_SPECIAL (Uses skills SHIELDSLAM_SPECIAL and SS_APPR_MON)
+
+    Slam is a damage special that can be used when one is wearing a
+    shield. The idea is to slam your enemy really hard, stunning them
+    and dealing some damage as well.
+
+    Stun grants a combat aid of 22%. This in addition to the slam
+    damage combat aid of 28% gives 50% combat aid.
+    
+    Tax for slam: 50 / 6 = 8.33%
+    
+TOTAL TAX FOR SPECIALS: 8.33%
+
+
+====================
+ADDITIONAL FEATURES:
+====================
+
+None
+
+TOTAL TAX FOR ADDITIONAL FEATURES: 0%
+
+
+***************************************************************************
+             Taxation Summary
+***************************************************************************
+
+    Skill Tax Total        :  0.50    
+    Combat Specials        :  8.33  
+    Additional Features    :  0.00   
+                             ----
+    Total Tax              :  8.83
+
+    Rounded Total Tax      : 9%
+
+*****************************************************************************
+
+Document by Petros, September 2008

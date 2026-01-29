@@ -1,0 +1,88 @@
+main
+::MAPDATA::
+isle6 7 19
+south_road10 7 21
+south_road9 7 23
+south_road8 7 25
+south_road7 7 27
+se_dome1a 19 27
+south_road6 7 29
+se_path1d 19 29
+south_road5 7 31
+se_path1a 11 31
+se_path1b 15 31
+se_path1c 19 31
+south_road4 7 33
+se_path1e 19 33
+south_road3 7 35
+se_path1f 19 35
+se_path1g 23 35
+se_dome1b 27 35
+south_road2 7 37
+south_road1 7 39
+south_gate 7 41
+tun_guardrm3 3 43
+gate_tun6 7 43
+tun_guardrm4 11 43
+gate_tun5 7 45
+gate_tun4 7 47
+gate_tun3 7 49
+gate_tun2 7 51
+tun_guardrm2 3 53
+gate_tun1 7 53
+tun_guardrm1 11 53
+::MAPDATA::
+ ,     ^     ,
+ |\   / \   /|
+ | \__| |__/ |
+ |    | |    |
+  \   | |   /
+   |  | |  |
+   |  | |  |
+   |  | |  |
+   |  | |  |  =======
+   |  | |  |  Orthanc
+   |  | |  |  =======
+   |  | |  |
+   |  | |  |
+   |  | |  |
+   |  | |  |
+   |  | |  |
+   |  | |  |
+   |  | |  |
+
+     - o - 
+       |    
+       o
+       |                  @@
+       o                 @
+       |              _ @
+       o             | |
+       |             | |
+       o           o | |
+       |           |
+       o           o
+       |           |                @@
+       o - o - o - o               @
+       |           |            _ @
+       o           o           | |
+       |           |           | |
+       o           o - o - o   | |
+       |
+       o
+       |
+       o
+       |       ___
+       o      / | \
+       |     |  |  |
+   o - o - o |  |  |
+       |
+       o
+       |
+       o
+       |
+       o
+       |         ___
+       o        / | \
+       |       |  |  |
+   o - o - o   |  |  |

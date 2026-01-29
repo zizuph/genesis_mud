@@ -1,0 +1,159 @@
+*****************************************************************************
+          TAX INFORMATION FOR THE RANGERS OF THE WESTLAND (Occupational)
+*****************************************************************************
+
+================
+SKILLS:
+================
+
+The skill costs were pulled from an older document, and may be inaccurate.
+
+                   Pupils     Gondor   Ithilien      North
+Skill-name      max (tax)  max (tax)  max (tax)  max (tax)
+SS_WEP_SWORD     50 ( 20)   75 ( 45)   80 ( 50)   75 ( 45)
+SS_WEP_POLEARM    0 (  0)    0 (  0)   70 ( 40)    0 (  0)
+SS_DEFENCE       35 ( 15)   55 ( 35)   70 ( 50)   55 ( 35)
+SS_PARRY         15 ( 15)   25 ( 25)   50 ( 50)   25 ( 25)
+  sum           100 ( 50)  155 (105)  270 (190)  155 (105)
+
+SS_SNEAK         50 ( 20)   70 ( 50)   70 ( 50)   90 ( 70)
+SS_HIDE          50 ( 20)   70 ( 50)   70 ( 50)   90 ( 70)
+SS_AWARENESS     70 ( 20)   80 ( 30)   80 ( 30)   85 ( 35)
+(SS_FR_TRAP       0 (  0)    0 (  0)    0 (  0)    0 (  0))
+  sum           170 ( 60)  220 (130)  220 (130)  265 (175)
+
+SS_HERBALISM     35 ( 15)   70 ( 50)   45 ( 25)   45 ( 25)
+(SS_ALCHEMY       0 (  0)    0 (  0)    0 (  0)    0 (  0))
+SS_SPELLCRAFT    30 ( 10)   65 ( 45)   40 ( 20)   40 ( 20)
+SS_ELEMENT_LIFE  30 ( 10)   50 ( 30)   40 ( 20)   40 ( 20)
+SS_CONJURATION   10 ( 10)   50 ( 50)   20 ( 20)   20 ( 20)
+SS_ABJURATION     0 (  0)   30 ( 30)    0 (  0)    0 (  0)
+  sum           105 ( 45)  265 (205)  145 ( 85)  145 ( 85)
+
+SS_TRACKING      40 ( 10)   60 ( 30)   65 ( 35)   85 ( 55)
+SS_LOC_SENSE      0 (  0)    0 (  0)    0 (  0)   50 ( 20)
+SS_HUNTING        0 (  0)    0 (  0)    0 (  0)    0 (  0)
+(SS_ANI_HANDL     0 (  0)    0 (   )    0 (  0)    0 (  0))
+  sum            40 ( 10)   60 ( 30)   65 ( 35)  135 ( 75)
+
+  total         415 (165)  700 (470)  700 (440)  700 (440)
+Tax levels including
+factor 1.5 for combat
+and weapon skills:      (190)      (523)      (535)      (493)  
+Tax:           3.16%       8.71%       8.91%       8.21%
+
+
+RANGER SPECIFIC SKILLS
+    SS_BRAWLING
+    SS_HEARING
+    SS_AMBUSH
+    SS_REWARDED
+    SS_RANGER_SPELL_LIST
+    SS_RANGER_DISFAVOUR
+    SS_RANGER_TEAM
+
+================
+COMBAT SPECIALS:
+================
+
+BRAWLING
+
+    There are three different forms of brawl - disarm, blind, and stun.
+    Each uses the standard formulas for CAID.
+    
+    Each of these is mutually exclusive - a ranger cannot use two on the
+    same opponent at once.  They are all set to 75% CAID.
+
+    Tax for brawling: 75% / 6 = 12.5%
+    
+AMBUSH
+
+    Rangers have the ability to do a strike from hiding, to initiate combat.
+    The ranger remains hidden for the bulk of the time, launching the attack
+    at the last moment.
+
+    This uses the standard damage library, and cannot be used while any brawl
+    is also active.  It is set to 75% CAID, with a 10 second (2 round)
+    total time.  For bows, there is an unpaid for bonus, which puts it at 125%
+    CAID.  The special goes off after 9 seconds, during which time there is no
+    combat.  This also provides 1-2 rounds of incoming avoided hits.  This
+    benefit is not paid for.    
+    
+    Tax for ambush: 75% - overlapping with brawl, 0%.
+
+LISTEN
+
+    The 'listen'-ability is based on a guild-specific skill, no 118209.
+    It allows the Ranger a chance to hear if there are any livings in the
+    next room. As a special ability with relatively minor effect, this was 
+    taxed to 0.5% for full rangers who can train the ability to sup guru,
+    and 0.25% for pupils.
+
+TOTAL TAX FOR SPECIALS: 13%
+
+
+====================
+ADDITIONAL FEATURES:
+====================
+
+
+Spells:
+            Class      Tax  Level
+    whistle        1    0.075 %      
+    nightvision    1    0.075 %      
+    rest           2    0.1875 %     
+    elbereth       2    0.1875 %     
+    heal           3    0.375 %     
+    cleanse        3    0.375 % 
+    Total               1.3125 %
+
+A ranger can only learn a limited number of spells, according to his
+or her company and the levels of the spells. 
+
+Thus the tax for pupils is 1.32%, for Rangers of Gondor 1.32 %, and for
+Rangers of the North and of Ithilien, it is 1.6 %.
+
+Nightvision provides 20% CAID, and will be charged an additional
+  20% / 25 = 0.8% tax as per the current rules.
+
+Potions:
+Ranger potions have direct effects, and can be mixed successfully only
+by rangers. Therefore, they are taxed like spells.
+
+                Class    Tax
+    avarywalme        2  0.25%
+    este              2  0.25%
+    wenya             2  0.25%
+                         0.75%
+
+TOTAL TAX FOR ADDITIONAL FEATURES: 2.1%
+TOTAL COMBAT TAX FOR ADDITIONAL FEATURES: 0.8%
+
+***************************************************************************
+             Taxation Summary
+***************************************************************************
+
+Apprentice:
+    Skill Tax Total        :  3.16    
+    Combat Specials        : 13.80  
+    Additional Features    :  2.10   
+                             ----
+    Total Tax              : 19.06
+
+    Rounded Total Tax      : 20%
+
+Full Ranger:
+    Skill Tax Total        :  8.91    
+    Combat Specials        : 13.80  
+    Additional Features    :  2.10   
+                             ----
+    Total Tax              : 24.81
+
+    Rounded Total Tax      : 25%
+
+
+*****************************************************************************
+
+
+Document by Zizuph, July 2022
+

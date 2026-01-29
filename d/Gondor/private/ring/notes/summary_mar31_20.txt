@@ -1,0 +1,74 @@
+
+The Ring Quest
+March 31, 2020
+==============
+Varian and Finwe met to discuss the Ring Quest (RQ) and how it should be coded. Sine we have a lot of capable coders, it was decided we could do this.
+
+One of the first things players will notice is that we are throwing out the timeline as described in the books. Also, the RQ will not necessarily follow the book's version. This will simplify things for us and allow more versatile quest. Also, we can adapt the quest for the game.
+
+The first step of the quest will be finding the Ring. Frodo won't be part of the quest, so players will have to find it on their own. We will put lesser rings in the game, and as players find them, they will have to test the ring to see if it's the One Ring (1R). Before they test the ring, they'll need to find a scroll that describes how to do it.
+
+The rings will be scattered around ME. Possible sites include:
+    * The Barrow Downs
+    * Cair Andros
+    * The Goblin Caves
+    * Bag End
+
+One they have the scroll and have identified the 1R, the quest begins.
+
+This ends Stage 1 of the quest
+
+Good Aligned Version
+====================
+
+Stage 2
+-------
+After finding the Ring, the player needs to seek guidance, so they will have to make their way to Rivendell and meet with Elrond. Along the way, they will have to avoid enemies, and even fight them. Perhaps even throw in a ring-wraith (RW) who stabs the player.
+
+Once they get to Elrond, he counsels them and gives them direction on what to do. At this point, the player must find a way over the Misty Mountains to meet with Galadriel. Their options are:
+    * The High Pass
+    * Moria
+    * Gap of Rohan
+
+One of the options will be randomly selected as passable, the others guarded by baddies.
+
+Stage 3
+-------
+Once the player makes it to Lorien (or the next location, ie Thranduil, Radagast, etc), they will get further guidance from there, and a gift to assist them.
+
+Stage 4
+-------
+Next they will need to get into Mordor. To do this the player will have to find Faramir. He will tell them information about a secret entrance over Ephel Duath or Ered Lichul, the mountains surrounding Mordor. Cirith Ungol (Shelob's Pass) can be an option, but it will be protected.
+
+Stage 5
+-------
+Once they get into Mordor, they make their way to Mount Doom and destroy the ring.
+
+
+Evil Aligned Version
+====================
+The evil version is problemetic. How do you make quest where the object must be destroyed but the evil player will want to keep it for its power?
+
+One idea is to have the ring disappear once they identify it. Then they have to go find it. This could work since the ring has a mind of its own.
+
+One idea is to work Saurman into this part of te quest, but not sure how.
+
+
+New Stuff to Code
+=================
+Some of the new areas that will need to developed and coded for the quest to work:
+
+* Lorien
+* Gap of Rohan
+* Mount Doom (Oroduin)
+* Plains of Mordor
+* Road from Moria East Gate to Lorien
+* Bag End
+* Weathertop
+* The High Pass
+* Thranduil's Realm in Mirkwood
+
+
+New NPCs will have to be coded to block areas.
+
+

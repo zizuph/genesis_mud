@@ -1,0 +1,65 @@
+
+Version 0.0.1 by Olorin, 22-Nov-1993
+              ok by Daneel, 22-Nov-1993
+              ok by Elessar, 3-Dec-1993
+
+The borders of the domain Gondor in Genesis are:
+Starting from the west:
+  Somewhere across Minhiriath, between Baranduin and Gwathlo/Greyflood
+going northeast from the coast to meet the Greenway just south
+of the fork to Sarn Ford.
+  From there north of the Greenway southeast to the confluence of
+Mitheithel and Glanduin.
+  From there eastward along the Glanduin to the Misty Mountains.
+  Crossing the Misty Mountains between the sources of the Glanduin and
+the source of the Nimrodel.
+  Northward at the feet of the mountains to the southeastern end of the
+Mirrormere, crossing the Celebrant there, and going eastward at the
+northern border of Lorien to the Anduin.
+  Going south along the Anduin to the Argonath, the Pillars of the Kings,
+at the entry to the Nen Hithoel.
+  From the Argonath along the northern feet of the Emyn Muil
+northeastward, then north of the Death Marshes and the Dagorlad in a
+straight line eastward.
+  Where a line going straight east from the northern feet of the
+Emyn Muil meets a line going straight north from Barad-dur, the border
+turns south till the Erad Lithui.
+  Then eastward along the northern feet of the Ered Lithui.
+  From the eastern end of the Ered Lithui southward to the mountain range
+south of the Sea of Nurnen.
+  South of that mountain range westward to the river Harnen.
+  Along the river Harnen to the coast.
+
+Links:
+  Gondor - Shire
+  present: On the Greenway, just south of the fork to Sarn Ford.
+           /d/Gondor/common/shirelink.c - /d/Shire/common/gondorlink.c
+  planned:
+  possible:
+
+  Gondor - Rhovanion
+  present: North of Dagorlad, south of Mirkwood
+           /d/Gondor/common/rholink1.c - /d/Rhovanion/common/gondorlink1.c
+  planned: On the Anduin, at the mouth of the Celebrant
+           /d/Gondor/anduin/m_celebrant.c - /d/Rhovanion/
+           A crossing over the Anduin at the Undeeps
+           /d/Gondor/anduin/              - /d/Rhovanion/
+  possible:
+
+  Rhovanion - Shire
+  present: At the foot of the Misty Mountains between Rivendell and the High Pass
+           /d/Rhovanion/common/shirelink.c -- /d/Shire/common/rhovanionlink.c
+
+Areas outside these borders as discussed between the coding wizard and
+the host domain. Areas inside these borders as discussed between the
+coding wizard and the domain Gondor.
+
+Outside areas:
+in the domain Shire:
+- Fornost:
+  link: on the Greenway just north of Bree.
+        /d/Gondor/arnor/greenway/nr1.c - /d/Shire/common/bree/ngreenway.c
+
+- Dwarf race guild in the Ered Luin:
+  link: South of the Eastroad east from Greyhavens        
+        /d/Gondor/common/dwarf_guild/gondor - /d/Shire/common/greyhaven/dwarf1

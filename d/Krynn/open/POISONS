@@ -1,0 +1,40 @@
+The Poisons of Krynn
+====================
+Last modified by:
+Teth, Feb 21, 1997
+
+This document details the poison givers and poisons given in Krynn.
+The use of this document is for when the updated method of dealing
+with poisons comes about. Another small purpose is to detail
+the strength and types of poisons in Krynn, so that they can be compared
+relatively.
+
+Poison Givers:
+--------------
+Cleric of Morgion - "/d/Krynn/common/npcs/wand_cl_morgion.c"
+	- This npc spreads sickness and plague throughout the realms.
+	  He is a cleric of a god of disease, and thus, being in
+	  in contact with him can cause disease, or it can occur
+	  merely by being in the same room with him. The player
+	  must be slightly hurt to get the poison from the shadow
+	  he carries.
+	  Poison: "/d/Krynn/common/poisons/sickness.c"
+	  Poison shadow: "/d/Krynn/common/poisons/sickness_sh.c"
+
+
+Poisons Given:
+--------------
+Sickness - "/d/Krynn/common/poisons/sickness.c"
+           "/d/Krynn/common/poisons/sickness_sh.c"
+	- This poison is a plague-like sickness, that is both 
+	  infectious and harming. It has an incubation time,
+	  and is carried by both npcs and players, although
+	  only players will feel the effects. The player must be
+	  at non-maximum hit points to receive the infection.
+	- Poison type - "sickness"
+	- Poison strength - "30"
+	- Cure - none at the moment.
+	- NB: This poison uses Krynn bits 1,7 and 1,8 to allow
+     the infected player to only get it a random number of times
+     before becoming immune.
+

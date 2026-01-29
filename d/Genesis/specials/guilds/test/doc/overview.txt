@@ -1,0 +1,148 @@
+Overview of the Genesis Guild Testing System
+============================================
+
+The Genesis Guild Testing System is designed to pit opponents against each
+other and to measure the average DPS that opponents will deal to one another
+over a long testing period. A standard test involves concurrently running ten
+battles over the course of an hour. The results garnered from these tests
+will more reliably provide meaningful understanding of the power differences
+between guilds.
+
+Test System Directory Structure and Contents
+--------------------------------------------
+
+The test system (TEST_DIR) is located under the directory: 
+    /d/Genesis/specials/guilds/test/
+  
+    Here is the breakdown of the contents of the important directories:
+      TEST_DIR/armours/   - a standard set of armours to be used in testing
+      TEST_DIR/data/      - the actual data files that define the opponents.
+                            these are .o files that get loaded by the test
+                            room
+      TEST_DIR/doc/       - where this document can be found
+      TEST_DIR/log/       - where the results of the tests can be found
+      TEST_DIR/objects/   - some objects that are used by certain guilds in
+                            testing. included are things like the "no ingr"
+                            objects for wizards to test spells without needing
+                            any ingredients.
+      TEST_DIR/rooms/     - the actual test rooms. most of the rooms are
+                            instances of testroom_base
+      TEST_DIR/weapons/   - a standard set of weapons to be used in testing
+  
+    There are also some files directly in TEST_DIR.
+      test_npc.c            - this is the main default test npc. it loads the
+                              data files necessary to perform all the actions
+                              that it has.
+      npc_setup.h           - each data file can specify a setup function to
+                              be called when it is created. Define the function
+                              in this file, and make sure to reload test_npc.c.
+      npc_special_attack.h  - hooks can be put into specials and spells that
+                              are cast. for example, spell casters often have
+                              a sequence of spells to be cast. the functions in
+                              this file will help make this happen. be sure to
+                              reload test_npc.c after updating this.
+
+Use Cases
+---------
+
+This document will attempt to give an overview of the steps necessary to
+utilize the test system. Specifically, it will go through the following
+use cases:
+   1. Adding a new NPC data file
+   2. Running a standard test
+
+
+Use Case 1: Adding a New NPC Data File
+--------------------------------------
+
+A data file defines all the attributes of the test npc. It is actually just
+a property file that can be loaded by the test_npc.c class. By default, the
+test system allows you to run without any data file. You can take a look at 
+all the properties by going to a test room and issuing the <showopponent>
+command.
+
+        > showopponent 1
+        Track Damage [track]:              Yes
+        Prevent Damage [prevent]:          Yes
+        Guilds [guilds]:                   Unspecified
+        Default Commands [commands]:       Unspecified
+        Names [names]:                     test_npc_one
+        Short Desc [short]:                first test npc
+        Long Desc [long]:                  This is the first test npc.
+        Stat Avg [stat]:                   170
+        Race [race]:                       human
+        Setup Function [setup]:            Unspecified
+        Specials Function [special]:       Unspecified
+        Spell Notify Function [notify]:    Unspecified
+        Alignment [alignment]:             0
+        Equipment:
+          1. shiny chainmail [/d/Genesis/specials/guilds/test/armours/standard_armour_40]
+          2. standard shield [/d/Genesis/specials/guilds/test/armours/standard_shield_40]
+          3. standard shield [/d/Genesis/specials/guilds/test/armours/standard_shield_40]
+
+Each of the properties can be customized separately by issuing the appropriate
+command to change it. However, changing the properties every time becomes
+tedious, so it is best to use the data file. For an example, take a look at
+base.o.
+
+To make your own data file, simply copy one of the existing data files and
+begin changing the properties to match what you want. The most important things
+to change are "equipment", "guilds", and "commands". The test npc will
+automatically clone, wear, and wield the equipment specified in the equipment
+property. It will also load the guild shadow and soul specified and defined
+in /d/Genesis/specials/guilds/modules. If you have the guild tester toolsoul
+(toolsoul /d/Genesis/specilas/guilds/guild_tester_soul), you can type the
+command "list guilds" to find out the list of defined guilds that you can
+add. Finally, the npc will run every round the commands defined in the
+"commands" property.
+
+There are functions for setup and for specials that can be defined separately.
+If you need to do things during npc setup (like clone a guild object, set a
+skill, or issue certain setup spells), you will modify npc_setup.h. If you
+have needs around performing certain actions after specials, you should
+update npc_special_attack.h. Make sure to reload test_npc.c after updating
+either one of these files.
+
+Once you finish adding the new data file, you can simply run "opponents"
+command in the test room to see whether the file is properly in the directory.
+You can then proceed to the next use case to actually load and test your
+npc.
+
+Use Case 2: Running a Standard Test
+-----------------------------------
+
+When you go into a test room, you will see the following in the long desc
+of the room.
+
+   Basic Commands:
+      setup npcs                     - Create the pairs of opponents.
+      start tests                    - Begin the actual testing.
+      start matches                  - Begins the gamut of tests with Opponent 1
+      stop tests                     - Stop all the fighting.
+      report                         - Generates a report of the current stats.
+
+   Test Options Commands:
+      opponents                      - List the available predefined opponents
+      opponent <num> <file>          - Set the opponent (file in data directory)
+                                         1. Test NPC 1 (default_one)
+                                         2. Test NPC 2 (default_two)
+      duration <seconds>             - Sets a duration to end the test [3600]
+      numtests <number>              - Sets up number of fights [10]
+      death [true/false]             - Sets up whether testroom allows death [false]
+
+   Default NPC Customization:
+      showopponent <num>             - Shows the customized information for the opponent
+      changeprop <num> <prop> <val>  - Changes the property of the opponent
+      copyprops <num> <file>         - Copies the properties from a data file to the opponent
+      addeq <num> <file>             - Adds an equipment file to load for the opponent
+      remeq <num> <file>             - Removes an equipment file to load for the opponent
+
+Without going into the specifics for each command, the basic steps to running a
+standard test are:
+   1) Set your Opponents (use the <opponent> command)
+   2) Clone the NPCs (use the <setup npcs> command)
+   3) Start the Tests (use the <start tests> command)
+   4) Check the Results (at any time, use the <reports> command)
+   
+   
+Written September 26, 2011 by Petros

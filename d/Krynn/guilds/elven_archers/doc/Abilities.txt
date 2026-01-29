@@ -1,0 +1,133 @@
+
+GENERAL
+==============================================================
+The elven archers have a passive nightvision.
+
+
+RESTRICTIONS - Armour limitations
+==============================================================
+Passive negative effect: Armour
+ - Cant wear plate armours
+ - This check is set up in the occ and lay shadows when 
+   wear_arm function is checked.
+
+As this doesnt practically affect the game AC, it is difficult
+to value in CAID.
+
+SPECIAL ATTACK - Snipe
+==============================================================   
+This is an ability that maximizes the archers damage output. It
+can only be used as an ambush (stealth combat initiator) or 
+when not under attack.
+
+This ability is only unlocked once you reach confident master
+in SS_WEP_MISSILE, so is not immediately available when you
+join. 
+
+Using the snipe ability allows for the SS_FOCUS skill to 
+increase through the add_skill_gain formula within
+/d/Krynn/guilds/elven_archers/specials/missile_functions.c
+
+This ability relies on the skill SS_WEP_MISSILE and the stats
+dexterity (60%), wisdom (25%), strength (15%)
+
+Limitations:
+ - Cant be used when under attack.
+ - Cant be used if the quickshot is active or on cooldown.
+ - Need to be Confident Master in SS_WEP_MISSILE to use.
+ - Occupational only.
+Negative Impact:
+ - When concentrating on this ability, the player cannot use 
+   normal white hits. Valued at 50 caid negative impact.
+Positive Impact:
+ - As it can't be used when under attack, it can use the caid 
+   benefits otherwise used in the evade special ability.
+Ability Caid: 147
+Negative Caid: -50
+Overall Caid: 97
+Activation: 10 seconds
+Cooldown: 10 seconds
+
+
+SPECIAL ATTACK - Quickshot
+==============================================================   
+This is a standard combat ability, if an archer is already aiming
+an arrow, this ability will simulate a hit before executing so it
+does not gain any additional caid as it does not loose white hits.
+This ability is used by the layman archers at a lessened caid.
+
+This ability utilizes the SS_WEB_MISSILE skill and will therefore
+not reach its maximum of 50 CAID for layman archers. The caid for
+layman archers without added bow skill is 30. The used stats are
+dexterity (60%), wisdom (25%), intelligence (15%)
+
+Limitations:
+ - Cant be used if snipe is active or on cooldown.
+Overall OCC caid: 65
+Overall LAY caid: 50
+Negative Impacts:
+ - Reduced by 20 caid by nightvision for LAY
+Activation: 5 seconds
+Cooldown: 15 seconds
+
+
+SPECIAL ABILITY - Evade
+=============================================================
+This ability is always active for occupational archers.
+
+This ability relies on the skill SS_WEP_MISSILE and the stats
+dexterity (60%), wisdom (25%), intelligence (15%)
+
+Limitations.
+ - Cant be used with snipe.
+ - Occupational only ability.
+Negative Impacts:
+ - Reduced by 20 caid by nightvision
+Overall caid: 32
+Activation: Always active
+
+SPECIAL ABILITY - Hunters Mark
+==============================================================
+This is an ability that triggers a bow attack automatically 
+if an enemy flees from combat.
+
+This ability relies on the skill SS_GUILD_EVASION and the stats
+dexterity (60%), wisdom (25%), strength (15%)
+
+Limitations:
+ - Automatic trigger when enemy leaves.
+ - Can't be used when snipe being prepared.
+Ability Caid: 3
+Activation: Instant
+Cooldown: 5 minutes
+
+
+TOTAL CAID
+=============================================================
+When not targeted (occ):
+Snipe                        77 to 97      caid
+Hunters Mark                 3             caid
+Focus (sight)                0 to 20       caid
+-------------------------------------------------------------
+                             100           caid
+
+1% tax for each 6 caid:      16.6 tax
+
+
+When targeted (occ):
+Quickshot                    65            caid
+Evade                        12 to 32      caid
+Hunters Mark                 3             caid
+Nightvision                  0 to 20       caid
+-------------------------------------------------------------
+                             100           caid
+
+1% tax for each 6 caid:      16.6 tax
+
+Layman:
+Quickshot                    30 to 50      caid
+Nightvision                   0 to 20      caid
+-------------------------------------------------------------
+                             50            caid
+
+1% tax for each 6 caid:      8.3 tax

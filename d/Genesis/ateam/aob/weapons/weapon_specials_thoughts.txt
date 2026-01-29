@@ -1,0 +1,179 @@
+Ckrik - 8/29/2021
+
+
+Weapon damage specials are something that we've never codified
+rules around in the game. They used to be really rare but given
+that content creators are running up against the 50/50 and 60/60
+caps in their quest to inflate gear stats we'll see more and
+more weapon special damage situation.
+
+In general for the sake of easy balance comparisons we should
+encourage wizards to just stick to basic stats and just
+cosmetically dress up a randomly selected vanilla hit. This
+makes the AoB's job easier -- a simple "stat <obj>" would
+give the correct relative comparison between weapons without
+needing to dive into the code. However, doing so would limit
+the creative potential of the content creators. Additionally
+we already have many long standing precedents of weapon damage
+specials that occur outside of the vanilla combat system.
+
+So perhaps what we should do is manually assign a stat akin to
+CAID upon approval or review of an item. For weapons tohit is
+a bit non-linear and most of the additonal effects can easily
+be roughly mapped to additional damage. So something like
+effective pen that we manually assign may be a good enough
+metric to make rough comparisons among weapons.
+
+My worry about forcing everyone to use standard effects
+library is it may styme some creativity. So coming up with a
+logical framework to assign comparable values so we can
+roughly rank weapons may be the best path forward.
+
+Survey of some of the top weapons
+---------------------------------
+
+flaming black broadsword
+------------------------
+
+60/60 weapon with a special on hit that deals 33% fire damage
+on top of vanilla damage. Effective pen is
+
+60 * 1.33 = 80.
+
+sword of Mergula
+----------------
+
+Vanilla 55/60 weapon with no special damage. So 60 effective
+pen.
+
+excellent halberd
+-----------------
+
+42/52 weapon when wielded in both hands. Has a special that at
+100 SS_POLEARM fire in 50% of the combat rounds hooked into
+try_hit().
+
+The offense vs defense rolls should really be converted to use
+mudlib combat code so SS_PARRY and SS_ACROBAT can be properly
+accounted for.
+
+The current offense vs. defense roll is:
+
+    if ((random(100) < (SS_POLEARM/2)) &&
+      (random(SS_POLEARM+STR) > random(SS_DEFENSE+DEX)))
+
+      STR and DEX are capped to around 100
+
+The pen of the hit is:
+
+pen = F_PENMOD(40+random(STR/4), skill);
+
+So Cassius would hit with ~670 pen every 2 rounds or so and
+SS_PARRY and SS_ACROBAT are completely ignored.
+
+The special did around 50%??? total extra damage relative to white
+hits before the white hit change. Post white hit change it's
+closer to 25%???. Hence this weapons is currently around
+
+1.25 * 52 = 65 effective pen
+
+In the future, we should probably steer wizards into doing
+something like this:
+
+    if (random(100) < (SS_POLEARM/2) && 
+        me->query_combat_object()->cb_tohit(query_attack_id(), 
+        query_hit(), enemy) > 0)
+
+so that all mudlib defensive effects are taken into account.
+
+rust-red *-weapons
+------------------
+
+58/58 weapon with a special that fires on 20% of the hits and the
+special does extra 115-125% of the hit damage in fire damage.
+We should think of it as a weapon that has at least
+1.2 * 1.2 * 60 = 84 effective pen.
+
+However, Nerull made a mistake in his code and the special is
+actually 75%-125% of the hit damage so currently these weapons
+are really only:
+
+1.2 * 58 = 70 effective pen.
+
+runed basket-hilt falchion
+--------------------------
+
+50/46 one handed sword with around 10% haste.
+
+1.1 * 46 = 50 effective pen
+
+Haste also affects damage specials so we'll need to tack on
+another 10% assuming 100 CAID worth of damage special just to
+make number easy.
+
+50 + 46 * 0.1 = 55 effective pen
+
+Fortunately, it's left handed only so players cannot wield 2x
+at a time. If the player wields a 50/50 sword in the other
+hand, then that other weapon is 57 effective pen. So with the
+best load out and 100 SS_2H_COMBAT the player can achieve
+
+(50 + 55) / 2 * 1.5 = 79 effective pen
+
+Since combat special only takes into account 1 weapon
+
+79 + 0.1 * 50 = 84 effective pen
+
+is the best possible load out.
+
+gigantic steel broadsword
+-------------------------
+
+58/60 sword with 13-15% slow, many defensive drawback and
+45 kg weight. Special is just a cosmetically changed white
+hit that stuns victims upon a good hit -- really only
+meant for pfight situations.
+
+(1 - 0.13) * 60 = 52 effective pen
+
+It also slows specials so:
+
+52 - 0.13 * 60 = 44.2 effective pen
+
+gigantic obsidian lotulis
+-------------------------
+
+40/40 with 50% damage bonus vs. humans.
+
+1.5 * 40 = 60 effective pen.
+
+studded ironwood flail (Igrain's folly)
+---------------------------------------
+
+On the surface a 45/45 weapon. In the hands of goblinoid races
+it's 55/45, which exceeds the legal limit of 50 to hit for
+one-handed weapons.
+
+Special does double damage to humans 33% of the time.
+
+1.33 * 45 = 60 effective pen
+
+If player wields 2x of this club and has 100 SS_2H_COMBAT
+effective pen is:
+
+(60 + 60) / 2 * 1.5 = 90 effective pen
+
+So on damage dealing potential I would rank the items'
+max potential as follows:
+
+1.  2x studded ironwood flail - 55 hit / 90  eff pen
+2.  rust-red (as intended)    - 58 hit / 84  eff pen
+3.  1x runed falchion + 50/50 - 50 hit / 84+ eff pen (haste)
+4.  flaming black broadsword  - 60 hit / 80  eff pen
+5.  rust-red (as coded)       - 58 hit / 70  eff pen
+6.  2x generic 50/50          - 50 hit / 75  eff pen
+7.  generic 60/60             - 60 hit / 60  eff pen
+8.  sword of Mergula          - 55 hit / 60  eff pen
+9.  excellent halberd         - 42 hit / 65  ??? eff pen
+10. gigantic steel sword      - 58 hit / 44- eff pen (slow)
+11. giganitc lotulis          - 40 hit / 60  eff pen

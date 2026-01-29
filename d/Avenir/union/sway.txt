@@ -1,0 +1,78 @@
+ _____ _            _____                     
+|_   _| |          /  ___|                    
+  | | | |__   ___  \ `--.__      ____ _ _   _ 
+  | | | '_ \ / _ \  `--. \ \ /\ / / _` | | | |
+  | | | | | |  __/ /\__/ /\ V  V / (_| | |_| |
+  \_/ |_| |_|\___| \____/  \_/\_/ \__,_|\__, |
+                                         __/ |
+                                        |___/ 
+
+ By the grace of the Goddess Jazur are you granted the ability known as 
+ the Sway. The Sway is an altered state of being wherein your connection 
+ with Jazur improves your senses and your reflexes in battle. Think of 
+ it as a form of meditation taught to elite fighters. As your skill in 
+ this ability improves, you go deeper into the Sway, and as you do, the 
+ gifts intensify. 
+
+ Entering the Sway can be tiring both physically and mentally, and don't 
+ be surprised if you find yourself so fatigued once you've left the Sway 
+ that you need time to recover before trying again.
+
+ There are four different options for swaying: 
+   balanced (default), aggressively, unerringly, and defensively.
+
+ ___.          .__                                 .___
+\_ |__ _____  |  | _____    ____   ____  ____   __| _/
+ | __ \\__  \ |  | \__  \  /    \_/ ___\/ __ \ / __ | 
+ | \_\ \/ __ \|  |__/ __ \|   |  \  \__\  ___// /_/ | 
+ |___  (____  /____(____  /___|  /\___  >___  >____ | 
+     \/     \/          \/     \/     \/    \/     \/ 
+ <sway balanced> is the most versatile form of the Sway. 
+ It is the only option available to Novices.  
+   It grants the ability for you to see in varying depths of darkness.
+   It further increases your awareness.
+   It improves the speed of your movements.
+   At the highest stage, it will grant invisibility detection.
+                                                  .__             .__     
+ _____    ____   ___________   ____   ______ _____|__|__  __ ____ |  | ___.__.
+\__  \   / ___\ / ___\_  __ \_/ __ \ /  ___//  ___/  \  \/ // __ \|  |<   |  |
+ / __ \_/ /_/  > /_/  >  | \/\  ___/ \___ \ \___ \|  |\   /\  ___/|  |_\___  |
+(____  /\___  /\___  /|__|    \___  >____  >____  >__| \_/  \___  >____/ ____|
+     \//_____//_____/             \/     \/     \/              \/     \/     
+ <sway aggressively> is a form of sway in which you are looking to do 
+ more damage to your enemies through Slash and Fling. However, this does 
+ come at a cost to your accuracy, as the additional adrenaline can make 
+ your hands less steady.
+    It further increases your awareness.
+    It improves the speed of your movements more than sway balanced does.
+	It makes your special attacks more powerful but less accurate.
+	It does not grant deeper sight in darkness.
+	                             .__               .__         
+ __ __  ____   __________________|__| ____    ____ |  | ___.__.
+|  |  \/    \_/ __ \_  __ \_  __ \  |/    \  / ___\|  |<   |  |
+|  |  /   |  \  ___/|  | \/|  | \/  |   |  \/ /_/  >  |_\___  |
+|____/|___|  /\___  >__|   |__|  |__|___|  /\___  /|____/ ____|
+           \/     \/                     \//_____/      \/     
+ <sway unerringly> is a form of the sway in which the accuracy of your 
+ Fling and Slash attacks are improved so that you miss less often, but 
+ the increased attention to accuracy reduces the damage output of the 
+ special attack. 
+   It further increases your awareness.
+   It improves the speed of your movements the same as sway aggressively.	
+   It makes your special attacks more accurate, but less powerful.
+   It does not grant deeper sight in darkness.
+    .___      _____                    .__             .__         
+  __| _/_____/ ____\____   ____   _____|__|__  __ ____ |  | ___.__.
+ / __ |/ __ \   __\/ __ \ /    \ /  ___/  \  \/ // __ \|  |<   |  |
+/ /_/ \  ___/|  | \  ___/|   |  \\___ \|  |\   /\  ___/|  |_\___  |
+\____ |\___  >__|  \___  >___|  /____  >__| \_/  \___  >____/ ____|
+     \/    \/          \/     \/     \/              \/     \/    
+ <sway defensively> is a form of the sway in which the energy you would
+ normally use to improve your special attacks is redirected toward 
+ avoiding your enemy's attacks. If you listen carefully you will hear 
+ voices from the shadows telling you when to move so that you are not 
+ where your enemies expects you to be when blows would land. 
+   It increases your awareness of your surroundings.
+   It improves your ability to evade attacks from your enemies.
+   It does not improve your speed, vision, or your specials in any way.
+	  

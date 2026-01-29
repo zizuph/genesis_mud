@@ -1,0 +1,43 @@
+The following are the possible titles granted by the guild:
+
+		SCRIBES
+1:  Lesser Tyro of the Scribes Circle
+2:  Tyro of the Scribes Circle
+3:  Learned Tyro of the Scribes Circle
+4:  Master Tyro of the Scribes Circle
+5:  Novitiate of the Scribes Circle
+6:  Advanced Novitiate of the Scribes Circle
+7:  Junior Caligraphist of the Scribes Circle
+8:  Caligraphist of the Scribes Circle
+9:  Master Caligraphist of the Scribes Circle
+10: Noble Caligraphist of the Scribes Circle
+11: Apprentice Scribe of the Scribes Circle
+12: Scribe of the Scribes Circle
+13: Lord Scribe of the Scribes Circle
+14: Scribemaster of the Scribes Circle
+
+		SCHOLARS
+15: Neophyte of the Scholars Circle
+16: Travelled Neophyte of the Scholars Circle
+17: Learned Neophyte of the Scholars Circle
+18: Advanced neophyte of the Scholars Circle
+19: Apprentice Initiate of the Scholars Circle
+20: Initiate of the Scholars Circle
+21: Master Initiate of the Scholars Circle
+22: Apprentice Scholar of the Scholars Circle
+23: Aged Scholar of the Scholars Circle
+24: Lord Scholar of the Scholars Circle
+
+		LORE
+25: Apprentice Seeker of the Lore Circle
+26: Seeker of the Lore Circle
+27: Learned Seeker of the Lore Circle
+28: Master Seeker of the Lore Circle
+29: Novice Sage of the Lore Circle
+30: Sage of the Lore Circle
+31: Lord Sage of the Lore Circle
+32: Apprentice Loremaster of the Lore Circle
+33: Known Loremater of the Lore Circle
+34: Ancient Loremaster of the Lore Circle
+35: Loremaster of the Lore Circle
+

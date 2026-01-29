@@ -1,0 +1,46 @@
+
+     Spell name: Magic missile
+                 arcanisvaes
+         Effect: At will damage spell
+           Type: At will spell
+        Targets: Enemy
+        
+        Element: Air          / 30
+           Form: Conjuration  / 30
+    Spell power: Power 3 [Intermediate spell]
+     Spell type: At will 
+     
+       Peaceful: No
+     Stationary: No
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: none
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: At will spell default 
+     Difficulty: TASK_HARD
+     Combat Aid: 36% 
+
+
+            Tax:   0.5
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.75  hard difficulty
+                  x1.5   no material component  
+                 ------
+                  0.5625%  total tax
+   ------------------------------------------------------------
+   Comments: At will damage spell.  This spell is identical to
+   three other at will damage spells that can be memorised by
+   SoHM, with the only difference being the element and, in one
+   case, the spell form [magic missile, flame dart, prismatic
+   spray, and acid arrow]
+
+   Having a number of fast casting/low combat aid damage spells
+   will allow players to customise themselves to be 'glass
+   cannons' - focusing on damage spells at the cost of defensive
+   and utility spells.
+   ------------------------------------------------------------

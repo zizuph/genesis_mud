@@ -1,0 +1,76 @@
+/* 2016-02-04 - Cotillion 
+ * - Cleared set_exp_factor, they're well armoured but also have high mentals
+ */
+ 
+#include <const.h>
+#include <stdproperties.h>
+#include <ss_types.h>
+#include <macros.h>
+#include "/d/Ansalon/kalaman/local.h"
+#include "/d/Ansalon/common/defs.h"
+#include <wa_types.h>
+
+inherit (KNPC + "guard_base");
+
+#define WEP1 KOBJ + "weapon/shortsword"
+#define ARM1 KOBJ + "armour/chainmail"
+#define ARM2 KOBJ + "armour/winged_helmet"
+#define ARM3 KOBJ + "armour/gauntlets"
+#define ARM4 KOBJ + "armour/b_robe"
+#define WEP_SKILL 40 + random(30)
+
+string *gAdj1 = ({"alert","vigilant","wary","watchful","cautious",
+                      "careful","prepared"});
+string *gAdj2 = ({"black-bearded","young","scarred","noble","muscular",
+                      "handsome","slender"});
+
+#ifndef ONE_OF
+#define ONE_OF(x)  (x[random(sizeof(x))])
+#endif
+
+void
+create_guard()
+{
+    set_name("guard");
+    add_name("sentry");
+    set_pname("sentries");
+    set_adj(ONE_OF(gAdj1));
+    add_adj(ONE_OF(gAdj2));
+    set_short(implode(query_adjs()," ") + " sentry");
+    set_race_name("human");
+    set_gender(G_MALE);
+    set_long("Before you is one of the sentries that stands watch " +
+      "along the walls of the city of Kalaman.\n");
+
+    set_stats(({60 + random(30),
+                60 + random(30),
+                60 + random(30),
+                75 + random(20),
+                75 + random(20),
+                50 + random(30)}));
+
+    set_alignment(600);
+    set_knight_prestige(-3);
+    add_prop(CONT_I_HEIGHT, 180 + random(20));
+    add_prop(CONT_I_WEIGHT, 60000 + random(10000));
+    set_skill(SS_WEP_SWORD, WEP_SKILL);
+    set_skill(SS_WEP_CLUB, WEP_SKILL);
+    set_skill(SS_PARRY, 40 + random(30));
+    set_skill(SS_DEFENCE, 40 + random(30));
+    set_skill(SS_BLIND_COMBAT, 60 + random(30));
+    set_skill(SS_AWARENESS, 50 + random(25));
+    add_prop(LIVE_I_NEVERKNOWN, 1);
+
+    set_act_time(25);
+    add_act("say The citizens are getting restless. " +
+        "They fear an attack any day now.");
+    add_act("say Lord Calof is a wise leader. I hope he " +
+        "is able to bring Kalaman through these troubled " +
+        "times.");
+    add_act("emote looks over the battlement for any " +
+        "sign of the dragonarmies.");
+    add_act("emote polishes his shortsword.");
+    add_act("say Reports say the red dragonarmy is getting closer.");
+    
+    equip(({ WEP1, ARM1, ARM2, ARM3, ARM4 }));
+}

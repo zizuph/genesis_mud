@@ -1,0 +1,352 @@
+city
+::MAPDATA::
+abanshop 22 17 city
+admiral06 22 17 city
+admiral07 22 17 city
+admiral08 22 17 city
+beacon01 22 17 city
+beacon02 22 17 city
+beacon03 22 17 city
+beacon04 22 17 city
+beacon05 22 17 city
+beacon06 22 17 city
+beldock 22 17 city
+belfalas01 22 17 city
+belfalas02 22 17 city
+belfalas03 22 17 city
+belfalas04 22 17 city
+belfalas05 22 17 city
+belfalas06 22 17 city
+belfalas07 22 17 city
+belfalas08 22 17 city
+belfalas09 22 17 city
+belfalas10 22 17 city
+belfalas11 22 17 city
+cabin1 22 17 city
+cabin2 22 17 city
+chivalry 22 17 city
+cityhall 22 17 city
+dock 22 17 city
+dock_ent 22 17 city
+dock1 22 17 city
+dock2 22 17 city
+dock3 22 17 city
+dock4 22 17 city
+dock5 22 17 city
+dock6 22 17 city
+dock7 22 17 city
+dock8 22 17 city
+dock9 22 17 city
+entry 22 17 city
+earnil01 22 17 city
+earnil02 22 17 city
+earnil03 22 17 city
+fireplace 22 17 city
+foyer 22 17 city
+grate 22 17 city
+innhall1 22 17 city
+innhall2 22 17 city
+innhall3 22 17 city
+innrm1 22 17 city
+innrm2 22 17 city
+innrm3 22 17 city
+innter 22 17 city
+jewel_shop 22 17 city
+jewelry_store 22 17 city
+kitchen 22 17 city
+lamproom 22 17 city
+lighthouse1 22 17 city
+lighthouse2 22 17 city
+lighthouse3 22 17 city
+lighthouse4 22 17 city
+lighthouse5 22 17 city
+mandinhall 22 17 city
+mangarden 22 17 city
+mangrhall 22 17 city
+mankitchen 22 17 city
+manstudy 22 17 city
+market01 22 17 city
+market02 22 17 city
+market03 22 17 city
+market04 22 17 city
+mens_bath 22 17 city
+n_gate_e 22 17 city
+n_gate_in 22 17 city
+n_gate_out 22 17 city
+n_gate_w 22 17 city
+orphanage 22 17 city
+orph_paint 22 17 city
+peddlers01 22 17 city
+peddlers02 22 17 city
+peddlers03 22 17 city
+pel_office 22 17 city
+pelarms 22 17 city
+pelbank 22 17 city
+pelguild 22 17 city
+pelpost 22 17 city
+pelstone 22 17 city
+plaza 22 17 city
+ranhome 22 17 city
+s_gate_e 22 17 city
+s_gate_in 22 17 city
+s_gate_out 22 17 city
+s_gate_w 22 17 city
+sailor_pub 22 17 city
+seagate 22 17 city
+sewguild 22 17 city
+shack1 22 17 city
+shack2 22 17 city
+shack3 22 17 city
+ship1 22 17 city
+ship2 22 17 city
+shipbldng 22 17 city
+shipmastr 22 17 city
+shipwright01 22 17 city
+shipwright02 22 17 city
+shipwright03 22 17 city
+shipwright04 22 17 city
+shipwright05 22 17 city
+sittingroom 22 17 city
+warehouse4 22 17 city
+warehouse6 22 17 city
+warehouse8 22 17 city
+warehouse9 22 17 city
+womens_bath 22 17 city
+advance_room 22 17 dunedain
+board_room 22 17 dunedain
+dun_shop 22 17 dunedain
+hall 22 17 dunedain
+hallw_n 22 17 dunedain
+hallw_s 22 17 dunedain
+hallw_s2.22 17 12 dunedain
+hallw_s2 22 17 dunedain
+hallw_s3 22 17 dunedain
+join_room 22 17 dunedain
+lib_houses 22 17 dunedain
+lib_lords 22 17 dunedain
+lib_public 22 17 dunedain
+post 22 17 dunedain
+start_room 22 17 dunedain
+train_hall 22 17 dunedain
+::MAPDATA::
+
+                   \              ~~~~~                    |  Mountains
+                    --------\      ~~~~~                   |     of
+                       MINAS \      ~~~~~                  |   Shadow  +------+
+   White Mountains     TIRITH \  OSGILIATH                 |           |MORDOR|
+                            O-+----O=====------------------+--\ MINAS  +------+
+               +------+       |   / ~~~~~                  |   \MORGUL
+               |GONDOR|       |  / ~~~~~                   |    O
+               +------+       | / ~~~~~     Southern       |
+                              L/ ~~~~~      Ithilien       |
+                             / ~~~~~~                      |
+                            / ~~~~~~            Emyn Arnen |
+                           / ~~~~~~               o--------+
+                          / ~~~~~~                         |
+                         / ~~~~~~                          |
+                        / ~~~~~~                           |
+                       /~~~~~~~~                          / \
+                      O~~~~~~~~                        ~~o~~ \
+ ~~~~~           PELARGIR~~~~~~~                 ~~~~~~Poros  |
+ ~~~~~~~~           ~~~~~~~~~~~            ~~~~~~             |
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~   ~     ~~~~~~                   | Haronder
+ ~~~~~~~~~~~~~~~~~~~~~~~~~      ~~~~~                         |
+
+::NEWMAP::
+city
+::MAPDATA::
+abanshop 20 16
+admiral06 8 14
+admiral07 20 14
+admiral08 24 14
+beacon01 28 6
+beacon02 32 6
+beacon03 36 6
+beacon04 40 6
+beacon05 44 6
+beacon06 48 6
+beldock 51 27
+belfalas01 24 4
+belfalas02 24 6
+belfalas03 20 8
+belfalas04 16 10
+belfalas05 16 12
+belfalas06 16 14
+belfalas07 16 16
+belfalas08 16 18
+belfalas09 16 20
+belfalas10 16 22
+belfalas11 20 24
+cabin1 37 16
+cabin2 37 20
+chivalry 8 20
+cityhall 12 20
+dock 51 27
+dock_ent 51 27
+dock1 36 10
+dock2 36 12
+dock3 36 14
+dock4 36 16
+dock5 36 18
+dock6 36 20
+dock7 46 26
+dock8 50 26
+dock9 54 28
+entry 40 4
+earnil01 28 26
+earnil02 36 26
+earnil03 42 26
+fireplace 8 20
+foyer 32 4
+grate 44 6
+innhall1 4 22
+innhall2 4 22
+innhall3 4 22
+innrm1 4 22
+innrm2 4 22
+innrm3 4 22
+innter 4 22
+jewel_shop 8 20
+jewelry_store 8 20
+kitchen 32 4
+lamproom 48 6
+lighthouse1 48 6
+lighthouse2 48 6
+lighthouse3 48 6
+lighthouse4 48 6
+lighthouse5 48 6
+mandinhall 8 12
+mangarden 8 12
+mangrhall 8 12
+mankitchen 8 12
+manstudy 8 12
+market01 20 20
+market02 24 20
+market03 28 20
+market04 32 20
+mens_bath 40 4
+n_gate_e 28 2
+n_gate_in 24 2
+n_gate_out 0 0
+n_gate_w 20 2
+orphanage 36 24
+orph_paint 36 24
+peddlers01 42 31
+peddlers02 46 31
+peddlers03 50 31
+pel_office 12 20
+pelarms 4 20
+pelbank 8 24
+pelguild 16 24
+pelpost 4 24
+pelstone 20 18
+plaza 8 22
+ranhome 20 12
+s_gate_e 24 26
+s_gate_in 20 26
+s_gate_out 0 0
+s_gate_w 16 26
+sailor_pub 28 12
+seagate 44 6
+sewguild 51 27
+shack1 36 28
+shack2 44 29
+shack3 48 29
+ship1 37 16
+ship2 37 20
+shipbldng 28 10
+shipmastr 28 14
+shipwright01 32 18
+shipwright02 32 16
+shipwright03 32 14
+shipwright04 32 12
+shipwright05 32 10
+sittingroom 32 4
+warehouse4 28 18
+warehouse6 36 22
+warehouse8 48 28
+warehouse9 52 30
+womens_bath 40 4
+::MAPDATA::
+                    City Gate                         ~~~~~~~~~~~~~~~~~~~~~~
+########################|######################### ~~~~~~~~~~~~~~~~~~~~~~~~~
+                    o - o - o                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                 Guards | Storyteller's        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~    
+                        o  Club o       o Bath ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                        |       |       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+                        o - o - o - o - o - o - o   ~~~~~~~~~~~~~~~~~~~~~~~~
+                      /                        Lighthouse~~~~~~~~~~~~~~~~~~~
+                    o                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+       Dunedain   /                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+         Guild  o           o - o - o   ~~~~~~~~~~~~~===============~~~~~~~~
+           Hall |            Pub|   |   ~~~~~~~~~~~~~=Pelargir City=~~~~~~~~
+        o   o - o   o       o - o - o   ~~~~~~~~~~~~~=in the realm =~~~~~~~~
+        |       |   |           |   |   ~~~~~~~~~~~~~=  of Gondor  =~~~~~~~~
+        o - - - o - o - o   o - o - o   ~~~~~~~~~~~~~===============~~~~~~~~
+                |   |    Harbour|   |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                o   o    Master o - o   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                |               |   |   ~ Docks ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+          City  o   o       o - o - o   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Shop     Hall  |   |           |   |   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   
+    o   o   o - o - o - o - o - o - o    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      \ |       |           |       |\    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    o - o - - - o           |       o  \    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post  / |   Adv.| \         |            \    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    o   o Guild o   o       |       o      \    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      Bank          |Guards |       |        \        ~~~~~~~~~~~~~~~~~~~~~~
+                o - o - o   o - - - o - - o - o - o     ~~~~~~~~~~~~~~~~~~~~
+####################|#######        |     |      /| \    ~~~~~~~~~~~~~~~~~~~
+                City Gate   ###     o     |     o |   o  ~~~~~~~~~~~~~~~~~~~
+                               ##         | o   o |  /   ~~~~~~~~~~~~~~~~~~~
+                                 ##       |/     \| o    ~~~~~~~~~~~~~~~~~~~
+                                   ##     o - o - o     ~~~~~~~~~~~~~~~~~~~~
+                                     ################# ~~~~~~~~~~~~~~~~~~~~~
+::NEWMAP::
+dunedain
+::MAPDATA::
+advance_room 23 2
+board_room 23 12
+dun_shop 23 17
+hall 33 12
+hallw_n 33 7
+hallw_s 33 17
+hallw_s2 33 22
+hallw_s3 23 22
+join_room 33 2
+lib_houses 13 7
+lib_lords 13 5
+lib_public 17 7
+post 23 27
+start_room 13 22
+train_hall 33 27
+::MAPDATA::
+      ###################################            
+      ##                               ##
+      ##    The        o - - - - o     ##
+      ##  Library      Chambers  |     ##
+      ##                  of     |     ##
+      ##     o        Membership |     ##           ================
+      ##     |                   |     ##             The Dunedain
+      ##     o - o - - - - - - - o     ##               Guildhall
+      ###                        |    ##            ================
+        ###                      |   ##
+          ###                    |   ##
+            ###  Board           |   ##
+              ##  Room o - - - - o - - - -
+              ##                 |   ##
+              ##                 |   ##
+              ##                 |   ##
+              ##   Armoury       |   ##
+              ##       o - - - - o   ##
+            ###      Shop        |   ##
+          ###                    |   ##
+        ###                      |   ##
+      ###  Dormitory             |    ##
+      ##     o - - - - o - - - - o     ##
+      ##               |         |     ##
+      ##               |         |     ##
+      ##               |         |     ##
+      ##         Post  |         |     ##
+      ##        Office o         o     ##
+      ##                      Training ##
+      ###################################

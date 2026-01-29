@@ -1,0 +1,76 @@
+Krynn:                       str  id find decay value comment
+amanita.c       POISON  herb  65  25    8  2000    60   %
+"               HEAL    hp  -200
+"               HEAL    mana-500
+angeltear.c     HEAL    mana   2   5    6  2000    40 food: 2
+asparagus.c     HEAL    fat    5  17    4  7000   124 food: 8
+"               HEAL    mana   5
+bch_plum.c      HEAL    fat    3  18    4  6000    54 food: 5
+bch_willow.c    HEAL    mana  10  32    5 10000   320   %
+                ENHANCE int    6
+bkd_sedge.c     HEAL    hp   -20  28    5 10000    12   % 
+blk_currant.c   HEAL    fat    4  18    4  4500    40 food: 1
+breadroot.c     HEAL    fat    2  30    3 10000   110 food: 80
+brownslime.c    HEAL    hp    10   8    5  2000    76   %
+bull_kelp.c     HEAL    fat   35  30    9  7500   625 food: 40
+bunchberry.c    HEAL    fat    2   7    2  5000    25 food: 1
+bur_reed.c      none              14    7  6000    12 food: 1
+cattail.c       HEAL    fat    2  10    2 10000    70 food: 50
+chantrelle.c    HEAL    mana  13  25    9  2000   160 food: 2
+chicory.c       HEAL    fat   35  25    5  8000   564 food: 1
+chokecherry.c   HEAL    fat    3  13    5  6700    36 food: 1
+cladina.c       ENHANCE con   25  47    7 10000   930 food: 1
+"               HEAL    hp    40  
+coral_alga.c    HEAL    hp   -20  15    3 10000    26   %
+cord_grass.c    POISON  hp    15  23    2 10000    24   %
+cranberry.c     CURING  fat   51  12    4  4000   246 food: 1
+crocus.c        POISON  mana  20  25    6  4000    32   %
+"               HEAL    hp   -20
+dandelion.c     HEAL    fat    5   3    1  4000    62 food: 5
+eel_grass.c     SPECIAL skill 20  45    9  2000  1476 swim
+elidross.c      CURING  parlyz51  36    8  2000   565 food: 1
+elkhorn_kelp.c  HEAL    fat    6  31    7  7500    30 food: 15
+fdlhead.c       HEAL    hp    20   5    4  2500   142 food: 4
+"               HEAL    mana   5 
+fireweed.c      ENHANCE fire  25  16    8  7200  1232 food: 1
+"               HEAL    fat    1
+fucus.c         HEAL    fat    2   7    1  4000    22 food: 1
+greenslime.c    HEAL    hp   -10   3    3  2000    20   %
+grey_willow.c   CURING  mana  26  20    4  9000   214   %
+hawthorn.c      HEAL    fat    3   6    3 10000    36 food: 2 
+hazelnut.c      HEAL    fat    2  14    3 10000    27 food: 2
+hop.c           HEAL    mana  -1  16    3  7500    24 food: 1
+horsetail.c     HEAL    hp   -50   3    1 10000    20   % 
+jewelweed.c     CURING  ivy   50  45    8  2000   232 cures poisonivy contact
+labr_tea.c      POISON  fat   15  10    3  8000    42 food: 1
+lady_slipper.c  POISON  mana  20  23    7  2500    60   %
+laminaria.c     none              30    4 10000    14 food: 1
+locoweed.c      POISON  mana  30  45    4  2300    20   %
+"               HEAL    mana-150 
+mandrake.c      SPECIAL skill  5  62   10  4000   516 death spells
+onoclea.c       ENHANCE dis   32  35    6  4700   356 food: 1 
+poison_ivy.c    POISON  hp    80   5    2  4200    10 contact poison   
+raspberry.c     HEAL    fat    5   3    4  3000    40 food: 1
+salt_wort.c     HEAL    mana-100  24    7  3200    16 food: 2
+sargassum.c     HEAL    mana  70  44    9  2000  1698 food: 1
+sarsaparilla.c  none              16    6  5000    20 food: 25
+saskatoon.c     HEAL    hp     1  16    3 10000    43 food: 1
+                HEAL    fat    2
+sea_bubble.c    HEAL    hp     5  12    5  2000   220 food: 1
+sea_lettuce.c   HEAL    fat    1   2    2  3000    47 food: 4
+skullcap.c      POISON  hp     2   5    4  2000    30 food: 2
+sm_camas.c      POISON  herb  50  33    7  3500    20   %
+soapweed        ENHANCE acid  35  36    9  6100   794   % 
+solinaith.c     ENHANCE magic 28  55    9  3000  1572   %
+"               HEAL    hp    20
+sphagnum.c      HEAL    hp    48  15    2 10000  1018   %  
+ss_grass.c      CURING  fat   32  13    4 10000   192 food: 1
+surf_grass.c    POISON  fat   15  12    4  8600    18   %
+"               HEAL    fat  -30
+tangleshoot.c   none               3    7  5000    25   %
+tiger_lily.c    POISON  fat   30  30    6  3000    30   %
+veronica.c      none              62    2  2300    14   %
+wild_cuke.c     HEAL    fat    1  27    4  6700    14 food: 5
+wild_plum.c     HEAL    fat    4   9    6  4000    56 food: 10
+
+All files in /d/Krynn/common/herbs/

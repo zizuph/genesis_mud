@@ -1,0 +1,104 @@
+main
+::MAPDATA::
+fangorn1 2 5
+fangornb 5 5
+fangorn2 8 5
+fangornd 11 5
+fangorn3 14 5
+fangornf 17 5
+fangorn4 20 5
+fangornh 23 5
+fangorn5 26 5
+fangornj 29 5
+fangorn6 32 5
+fangorna 2 7
+fangorn7 5 7
+fangornc 8 7
+fangorn8 11 7
+fangorne 14 7
+fangorn9 17 7
+fangorng 20 7
+fangorn10 23 7
+fangorni 26 7
+fangorn11 29 7
+fangornk 32 7
+fangorn12 2 9
+fangornm 5 9
+fangorn13 8 9
+fangorno 11 9
+fangorn14 14 9
+fangornq 17 9
+fangorn15 20 9
+fangorns 23 9
+fangorn16 26 9
+fangornu 29 9
+fangorn17 32 9
+fangornl 2 11
+fangorn18 5 11
+fangornn 8 11
+fangorn19 11 11
+fangornp 14 11
+fangorn20 17 11
+fangorn20a 17 11
+fangorn20b 17 11
+fangorn20c 17 11
+fangorn20d 17 11
+fangornr 20 11
+fangorn35 23 11
+fangornt 26 11
+fangorn22 29 11
+fangornv 32 11
+fangorn21 8 13
+fangorn34 14 13
+fangorn23 20 13
+fangorn24 26 13
+fangorn25 5 15
+fangornx 8 15
+fangorn26 11 15
+fangornz 14 15
+fangorn27 17 15
+fangornbb 20 15
+fangorn28 23 15
+fangorndd 26 15
+fangorn29 29 15
+fangornw 5 17
+fangorn30 8 17
+fangorny 11 17
+fangorn31 14 17
+fangornaa 17 17
+fangorn32 20 17
+fangorncc 23 17
+fangorn33 26 17
+fangornee 29 17
+::MAPDATA::
+          ==============
+          Fangorn Forest
+          ==============
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+     oOoOoOoO
+  oOoOoOoOoOoO oOoO
+ oOoOoOoOoOoOoOoOoOoO
+oOoOoOoOo oOo oOoOoOoOo
+    oOoO  /O o oOoOoOoO
+      \\\//  /oOoOo
+        \\\////
+         |||/\
+         |||\/
+         |||||
+   .....//||||\....

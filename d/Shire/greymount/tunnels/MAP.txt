@@ -1,0 +1,98 @@
+LEVEL 3 (CITY LEVEL):
+
+o-o-o                         D                         o-o-o
+     \                        |                        /
+      o   o-o       o         o         o       o-o   o
+       \ /   \     /          |          \     /   \ /
+        o     o   o           o           o   o     o
+       /       \ /            |            \ /       \
+      o         o         o   o   o         o         o
+      |         |        /    |    \        |         |
+      D         o       o o-o-o-o-o o       o         D
+      |          \     /     \|/     \     /          |
+      o         o-o-o-o       D       o-o-o-o         o
+       \       /       \     /|\     /       \       /
+        o   D-o         o o-o-o-o-o o         o-D   o
+         \ /             \    |    /             \ /
+          o-o-o-o-o-o-o-o-o o-o-o o-o-o-o-o-o-o-o-o
+                   \          |          /
+                    o         o         o
+                     \        |        /
+                    o-o       D       o-o
+                   /          |          \
+                  o           o           o
+                  |           |           |
+                  o           o           o
+                   \          |          /
+                    o-o-o-o-o-D-o-o-o-o-o
+
+LEVEL 2:
+
+                              
+                              U
+                              |
+                              o
+                             /|\
+                            o o o
+                           /  |  \
+                          o   o   o
+                         /    |    \
+                        o     o     o
+                       /      |      \
+                      o       B       o
+                     /        |        \
+                    o         o         o
+                   /          |          \
+                  B-o-o-o-o-o-D-o-o-o-o-o-B
+                   \          |          / 
+                    o         o         o
+                     \        |        /
+                      o       o       o
+                       \      |      /
+                        o     U     o
+                         \    |    /
+                          o   o   o
+                           \  |  /
+                            o o o
+                             \|/
+                              U
+
+
+
+
+LEVEL 1:
+                            o-U-o
+                           /  |  \
+                    o-o-o-o   o   o-o-o-o
+                   /          |          \
+                  U-o-o-o-o-o-B-o-o-o-o-o-U
+
+
+
+
+
+LEVEL 0 (OUT OF MOUNTAIN LEVEL):
+
+                              U
+                             /
+                            o
+                             \
+                              o
+                               \
+                              o-o
+                             /
+                            o
+                            |
+                            o-o
+                             /
+                            o
+                           /
+                          o
+                         /
+                  o-o-o-o
+
+
+MAP KEY:
+U - Up Exit Only
+D - Down Exit Only
+B - Both Up And Down                     

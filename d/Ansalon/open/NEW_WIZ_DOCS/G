@@ -1,0 +1,31 @@
+G. Wizard Tools:
+^^^^^^^^^^^^^^^^
+  The following is a very usefull cmdsoul:
+        ~mrpr/mbs/mbs
+            -The main reader for boards in Genesis. "mbh mbs" gets you
+                started on this one.
+            -A few boards are mandatory reading:
+                news, common, admin, ansalon.p, ansalon.d, krynn.d,
+		lpc, idea, discuss, gamedriver, and tools.
+            -If you have time, other <domain>.d boards can give useful
+                info, as do the various guild boards
+
+  These are the wizard toolsouls that I find useful:
+
+        ~mrpr/ka/ka
+            -Mainly for admins:
+                "dtell <mesg>" is used for tells to all wizards within Avenir
+                domain. This reduces the use of the wizline ("wiz <mesg>").
+                "gmail" will clone a mailreader to you, enabling you to avoid
+                going to a post office.
+        ~caution/open/extra_soul
+            -Has features useful in debugging and searches.
+        ~mortricia/open/kit
+            -A kit with useful conveniences; "help kit" for this.
+
+    To obtain a toolsoul, type 'toolsoul <filename>'. Don't forget
+    the 'newhooks' command to make the new commands available for
+    you. Also, typing 'allcmd' will show you the commands associated
+    with each soul.
+
+

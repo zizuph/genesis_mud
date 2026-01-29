@@ -1,0 +1,40 @@
+
+Balance Review Request Submission
+---------------------------------
+Request Date: 3 Sept 2021
+1. Expanded Isle of the Dead ~200 rooms
+2. /d/Avenir/common/dead/barrow/*
+   /d/Avenir/common/dead/catacombs/*
+   Documentation: /d/Avenir/common/dead/2021Necronisi_overview.txt
+3. Players have been visiting the Necronisi for 25 years and this 
+   expansion will get them past that gate they've been looking at 
+   all this time! 
+4. The Necronisi and the Catacombs have been a part of the lore of 
+   Sybarus for decades, and this opens up a large area with 4 quests,
+   lots of revenants and skeletons to challenge them, and some interesting
+   prizes.
+5. Downsides? Mobs are a range of sizes and abilities. Some of them block
+   exits (easily breakable) and some randomly attack. Getting through them
+   to complete the quests is going to be challenging for most players.
+6. Testing? All rooms load and have been walked through. Npcs with asks
+   have been tested, quests and alternate solutions have been tested. 
+   The magical rose and the magical death mask have been tested to make
+   sure they work properly. I have asked Zizuph to look at the rose to
+   see if he notices any problems with it.
+7. Other Comments: I used Tapakah's guidelines for qexp calculations and
+   rounded down or did not do all the exp modifiers. 3 of the quests are
+   ~3500 qexp and the main one, Meet Mascarvin, is pegged at 18,000. It
+   could/should probably be more but I'll leave it to you to determine.
+
+   Also, the boss for the Catacombs (Spectral Guardian) will be submitted
+   separately -- I've asked for Zizuph's help on a few things and I didn't
+   want to hold up inititating the Balance Review process for the Catacombs
+   any longer. 
+   
+   Area Maps have been uploaded and are working.
+   
+   I'll get the quest docs polished up once the quests are approved,
+   and the quests added to the orb once I get the all-clear.
+   
+  Lilith
+

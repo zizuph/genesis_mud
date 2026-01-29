@@ -1,0 +1,52 @@
+
+     Spell name: Stellar Alignment
+                 welunyoweth
+         Effect: a team buff
+           Type: Maintained
+        Targets: Self
+        
+        Element: Air              / 65
+           Form: Transmutation    / 65
+    Spell power: Power 3 [Intermediate spell]
+     Spell type: propchange spell 
+     
+       Peaceful: Yes
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: moonstone (gem) 
+                 grey willow (herb)
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_HARD
+     Combat Aid: 0% 
+
+            Tax:   0.5
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.75  hard difficulty
+                  x0.75  material component (>=1 gp value)
+                 ------
+                  0.281%  total tax
+   ------------------------------------------------------------
+   Comments: This spell adds a unique property to the caster,
+             "_wohs_stellar_alignment_spell_prop"
+
+             This property allows team mates to leverage off
+             beneficial moon phases of the caster in relation
+             to providing higher guild rank progression 
+             experience ratio, as well as removing the negative
+             combat aid penalty to advanced spells from negative 
+             moon phases.
+
+             This spell was developed to promote teaming across
+             the WoHS orders.
+
+             This spell does not provide positive combat aid
+             to team members from beneficial moon phase the
+             caster may have.
+   ------------------------------------------------------------

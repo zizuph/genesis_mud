@@ -1,0 +1,138 @@
+main
+::MAPDATA::
+crossroad 26 10 road1
+nroad01 26 9 road1
+nroad02 26 9 road1
+road01 28 10 road1
+wgate 29 10 road1
+nhedge01 29 10 road1
+shedge01 29 11 road1
+shedge02 29 11 road1
+shedge03 30 11 road1
+shedge04 30 11 road1
+shedge05 30 11 road1
+shedge06 30 11 road1
+shedge07 31 11 road1
+shedge08 31 11 road1
+sgate 31 10 road1
+nhedge02 29 9 road1
+nhedge03 29 9 road2
+nhedge04 29 9 road2
+nhedge05 29 9 road2
+nhedge06 31 8 road2
+ngate 31 8 road2
+nhedge07 31 8 road2
+nhedge08 31 8 road2
+road03 29 8 road2
+road02 27 8 road2
+nroad06 26 8 road2
+nroad05 26 8 road2
+nroad04 26 8 road2
+nroad03 26 8 road2
+nroad07 25 7 road2
+::MAPDATA::
+
+    +---------+
+ ~  |THE SHIRE|
+ ~~ +---------+        Fornost
+  ~~                      o
+   ~~~                    |
+     ~~~                  |
+ \     ~~~                |
+  \      ~~~              |                                    Weathertop
+  |Frogmorton             |   BREE   Midgewater   /----------------*-\
+  o------===--------------+----O---\ Marshes/----/                    \------
+ /   |  Brandywine        |         \------/
+ ing |    Bridge          |
+     o   ~~~     Barrow   |
+  Whitfurrows     Downs   |
+        ~~~               |
+ ----- ~~~ o--------------\
+     ~~~  Sarn Ford        \
+   ~~~                      \
+ ~~~                         \   
+
+::NEWMAP::
+road1
+::MAPDATA::
+crossroad 15 8
+nroad01 15 6
+nroad02 15 4
+road01 19 8
+wgate 23 8
+nhedge01 23 6
+nhedge02 23 4
+shedge01 23 10
+shedge02 23 12
+shedge03 27 14
+shedge04 31 16
+shedge05 35 18
+shedge06 39 18
+shedge07 43 18
+shedge08 43 16
+sgate 43 14
+::MAPDATA::
+
+               |       |
+               o       o
+               |       |
+               o       o
+               |       |
+               o       o
+               |       |
+ - o - o - o - o - o - o -     B R E E
+               |       |
+               |       o                               o   o   o - o    Midgew
+               |       |                               |   | /     |
+               |       o                       o - o - o - o       o - o - o -
+               |         \                   /               \     |       |
+               |           o             - o                   o - o   o - o -
+               |             \             |                         \ |   |
+               o               o           o                           o - o -
+               |                 \         |
+                                   o - o - o
+            Tharbad /
+              Rohan
+                Gondor
+
+::NEWMAP::
+road2
+::MAPDATA::
+nhedge03 23 18
+nhedge04 23 16
+nhedge05 23 14
+nhedge06 27 12
+ngate 27 10
+nhedge07 31 10
+nhedge08 35 10
+road03 23 10
+road02 19 12
+nroad06 15 12
+nroad05 15 14
+nroad04 15 16
+nroad03 15 18
+nroad07 15 10
+::MAPDATA::
+
+           |  Fornost
+           o
+           |
+           o - o
+           |
+           o
+             \
+               o
+               |
+               o       o - o - o - o
+               |     /     | \
+               o - o       o  \
+               |         /     \
+               o       o
+               |       |      B R E E
+               o       o
+               |       |
+               o       o
+               |       |
+               o       o
+               |       |
+

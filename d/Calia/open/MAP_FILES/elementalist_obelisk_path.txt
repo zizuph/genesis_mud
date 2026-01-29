@@ -1,0 +1,19 @@
+main
+::MAPDATA::
+cliff 6 2
+path7 8 4
+path6 10 6
+path5 12 8
+path4 14 10
+::MAPDATA::
+
+
+    o-o 
+       \
+        o
+         \
+          o
+           \
+            o
+             \
+              o

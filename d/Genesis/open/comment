@@ -1,0 +1,154 @@
+This is a very long note that comments on Dworkins note. I have studied
+copyright laws as they are valid both in a Swedish environment, and in an
+international one. The length is due to the fact that Dworkin raises several
+interesting points that deserve comment.
+>
+>/*****************************************************************************
+> / *                     Copyright 1991 by Dworkin                             *
+> *                        All rights reserved.                               *
+> *****************************************************************************/
+>
+>   The above statement, if I am not mistaken, will override all limitations
+>that anyone might try to impose on my legal rights.  If everyone on
+>Genesis should decide to use something like it, the legal value of
+>/d/Genesis/open/legal will be null and void, and there is nothing the mud
+>administators can do against it - except maybe remove your files and player
+>save file, since you obviously do not agree with them on the issue, and Mrpr
+>has stated that one should either agree or leave Genesis.  Will the
+>administrators examine all code to see if such statements are included?
+
+- First of all this notice is invalid. To be valid it must contain the
+word Copyright (or the copyright symbol), year and place of publication
+and your name. Your alias here will not do.
+- Second, copyright law is dispositive, meaning that you as the author have
+the right to make agreements that change the legal status of your material.
+When you have agreed to the terms in the published notice, those are the
+terms that are valid.
+
+>   The license itself I consider no more than a makeshift declaration of
+>intentions, as it is riddled with ambiguities, and last but not least gives
+>CD the right to do anything, anything at all, with your code.  
+
+- This is totally untrue. CD can't sell your code, use it for commercial
+purposes and can't give it away for commercial use. Neither can anyone else.
+The entire copyright notice is there to make sure that noone invokes the
+legal system unless there has been a major infringement of his/her rights.
+The licence is actually an improvement over the way things have worked
+before, when anyone could have taken your code for any purpose. I won't go
+into detail on how and why, but it is certainly the case. 
+
+>There are many limitations for wizards, but the rules of conduct for 
+>arches and keepers are not clearly stated anywhere.  
+
+- This is a valid point and we will add to the ethics section to cover the 
+subject.
+
+>F1.  It is quite normal for programs to have different parts to which apply
+>     different copyright rules.  The copyright rules may be unclear when it
+>     comes to programs or objects, but they are clear enough when it comes to
+>     files.
+
+- Let's just say that someone in Australia copies code made by an American from
+our machine in Sweden to a machine in Switzerland, and the American gets mad
+and wants to sue. Try to figure out where the case should be settled, which
+laws that apply and a plethora of other things that present laws don't cover.
+
+>F2.  Then again, there are files that are the result of the efford of just
+>     a single person.  Why do others need to have any right to it?
+
+- Because the works that are results of collective endeavour are in majority,
+and it would be extremely cumbersome to have different rules applying to
+different pieces of code. We are in this for the fun of mudding, not to
+spend our time on legalese matters.
+
+>F9.  The copyright notice gives CD the right to edit, remove, copy and
+>     distribute my code.  What rights do I still have?
+
+- Mainly the right to be known as the author of the code. What other rights
+do you really need? 
+
+>C1.  I assume that the notice is supposed to have some legal status.  However,
+>     it starts off without unambiguously declaring which legal parties are
+>     involved.  To which party does a wizard that is also a member of CD
+>     belong?  What legal status does "Dworkin" have anyway?  (Of course this
+>     also applies to the header at the top of this note - it should contain
+>     my RL name instead.)
+
+- As all copyright notices, this one assumes that it pertains to the code
+mentioned in the notice. It also assumes that the code is written by its
+author. All other parties involved are defined in the notice. To make the
+notice apply to your code, we have to ask you and you have to agree that
+it does. In Sweden your word is as good as your signature, so no paperwork is
+needed.
+
+>C2.  I think a specific copyright statement in a file would override this
+>     license, or any license.
+
+- No, your agreements overide your rights under the copyright law.
+
+>C3.  This means that any arch or keeper is allowed to make off with my code
+>     and put it on another mud without my consent, or even without letting
+>     me know.  I am prepared to share the copyright of domain code with
+>     others in the same domain, but why should I share it with arches or
+>     keepers?
+
+- In legal terms, yes. But the rules and morals of a society are more than
+just the law. I find it extremely silly to bring lawyers and courts into
+disputes over something that is a hobby. We should be able to handle all
+such matters within our own rules, and the rules clearly state that we
+do not accept copying of other peoples code without their consent.
+(If they can be reached, if they can't we leave it to the judgement of a
+keeper.)
+
+>C6.  I would like a direct quote from the Swedish copyright law, or at least
+>     a reference to the articles that apply to copyrights.  The second
+>     sentence is either misleading, because it protects CD and not the writer
+>     of the code without copyright message, or in contradiction with C5.
+
+- I can't give you a direct quote, because it is extremely difficult to
+translate Swedish legalese into English without bending the meaning of things.
+The law is called 'Lagen om upphovsmannar{tt' and was, if my memory serves
+me right, established in it's present form in 1967, with an amendment covering
+program executables made last year.
+The first sentence of the paragraph says that any disputes over code should be
+settled in a Swedish court, under the Swedish legal system.
+The second sentence simply informs people about a fact of Swedish copyright
+law that is different from most other countries. This fact has the plesant
+side effect that we don't have to put a copyright notice in every piece of
+code we write. It also puts the responsibility of finding out what the
+licensing terms for the code are on the person copying or using the code.
+
+>E4.  And keepers - they ask themselves for permission?
+
+- You have to trust the keepers to handle your character and your code in a
+fair manner. If the keepers are not trustworthy, you should keep all code you 
+have an emmotional investment in away from the mud.
+- I do agree that the point isn't mentioned in the ethics, and we will add
+something about it. The rule of thumb is that if a wizard hasn't been seen
+for a couple of months, anything pertaining to his code will be taken care
+of by a keeper.
+
+>E13. First, this article talks about rights: why is it with the Ethics?
+>     Second, it is much too powerful.  It should apply only to the
+>     administrators, not to the whole of CD.  The administrators need only
+>     a fraction of the power this article provides: make backups of the
+>     mudlib, move the mud to another machine, etc.
+>     Third, I'm not so sure this article is even lawful.
+
+- This is a 'just-so-you-know-it' clause. It doesn't affect the legal status 
+of anything. CD is a democratic organization with a board and with member
+meetings where important things are decided. The board, the meetings and the
+game admins can all make decisions that affect the mud. Individual members
+do not have any power over it. Removing the paragraph wouldn't change
+anything, except making people mentally less prepared the day when a
+change comes. 
+
+- Finally there is one thing I am prepared to change in the copyright notice.
+I am prepared to include a paragraph where it says that authors can make
+their code public domain by explicitly saying so. The material can then be 
+used by anyone for any purpose. It is something that gives people a choice
+without changing the status of Genesis.
+Sorry about the lenght of this, but I thought Dworkins reflections were
+very relevant and deserved full answers.
+
+Tintin

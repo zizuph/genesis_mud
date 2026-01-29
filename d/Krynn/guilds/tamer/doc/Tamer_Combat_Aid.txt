@@ -1,0 +1,55 @@
+COMBAT SPECIALS
+===============
+
+  Pet_Attack
+  ~~~~~~~~~~
+    Files: /d/Krynn/guilds/tamer/specials/pet_attack.c
+
+    This damage dealing ability is not affected by haste and is
+    activated by the pet, not the player.
+
+    Combat Aid
+    ----------
+    The pet_attack has been set to a combat aid of 50, but if it is
+    used at the same time as the damage reduce ability it is reduced
+    to 30 caid. (modifier * 12 / 20)
+    
+    The ability scales with the pets skill, which is mounted combat,
+    this skill is increased as the pet fails to use the ability.
+
+    It is reduced by 10% for every wound that the pet has sustained
+    upon "death". It can sustain a maximum of 5 wounds, every wound
+    lasts for 24 hours.
+    
+    If the pet is under attack, the ability effect is reduced by 50%.
+
+    Frequency
+    ---------
+    The ability prep time has been set to 2 seconds and the cooldown
+    time has been set to 5 seconds, this should give the ability a
+    performance of 7 seconds.
+    
+    Hit chance
+    ----------
+    Tohit is set to be 95. This is calculated to be 84% hit chance
+    according to 'man cb_tohit'.
+    
+    Penetration
+    -----------
+    The stat weight set for the pet_attack is player average.
+    
+    Everything else is calculated by the Genesis Specials system.
+    
+    
+  Damage Reduce
+  ~~~~~~~~~~~~~
+    Files: /d/Krynn/guilds/tamer/specials/objects/tamer_reduce_object.c
+           
+    This ability uses the standard dam_mod_obj_base, it is activated
+    upon mounting the pet.
+    
+    Combat Aid
+    ----------
+    This ability is set to 20 caid, it reduces the damage taken when
+    mounted.
+    

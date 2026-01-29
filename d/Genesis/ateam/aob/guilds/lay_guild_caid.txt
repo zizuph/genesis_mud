@@ -1,0 +1,223 @@
+LAYMAN GUILD COMBAT AID AS OF 2 AUGUST 2019 - Arman
+
+
+============================================================
+Angmar Army
+============================================================
+Smash: 35 caid
+Shield: 10 caid
+Focus: 45 defensive caid (no smash benefit)
+Defend: 45 defensive caid (no smash benefit)
+
+============================================================
+Academy of Elemental Arts           
+============================================================
+cheiropoto (at will harm): 15 caid
+hydrokine (harm): 50 caid
+lithodermu (stoneskin): 25 caid
+
+============================================================
+Ansalon Elvish Archers
+============================================================
+Currently no specials.
+
+Proposed changes (yet to be approved)
+Armour limitations:  -5 caid
+Quickshot:           30 caid with guild level skills 
+                    (50 with sup guru bow) 
+Hunters Mark:        3 caid
+
+============================================================
+Blademasters of Khalakhor
+============================================================
+battack: 48 caid
+
+============================================================
+Cadets of Gelan   
+============================================================
+donk: no idea.. doesn't use standardised specials
+
+============================================================
+Heralds of the Valar                
+============================================================
+Heralds maintained spells range depending on whether they
+are stacked or not.
+
+hortale (haste)	60 caid / 35 caid / 25 caid	
+lissinen (heal)	50 (25 if with maintained spell)		
+namotir (resist) 60 caid / 35 caid / 25 caid
+noleme (statboost) 60 caid / 35 caid / 25 caid
+ondo (stoneskin) 60 caid / 35 caid / 25 caid
+
+============================================================
+Thornlin Militia
+============================================================
+Jab: 42 caid
+Evade: 42 caid (can't be used with Jab)
+Autoimpale: 3 caid
+
+============================================================
+Bloodsea Minotaurs 
+============================================================
+Gore: 45 caid
+
+============================================================    
+The August Order of Minstrels 
+============================================================
+No idea!! Not converted to standardised system
+
+Songs of power that would incur caid:
+blast:    attack spell  
+soothe:   healing spell                                                                         
+
+============================================================
+Order of the Dragon  
+============================================================
+Doesn't use standardised special.
+
+Strike: 32 caid.
+
+============================================================
+Holy Order of the Stars    
+============================================================
+God specific spell:
+omend (regeneration - Mishakal): 25 caid
+oheroism (statboost - KiriJolith): 25 caid
+osong (featherweight - Branchala): 0 caid
+
+oheal (heal): 80 / 40 / 15 (depending on maintained buffs)
+obless (stoneskin): 40 caid 
+osmite (mass harm): 80 / 40 / 15 (depending on maintained buffs)
+
+============================================================         
+Pirate of the Bloodsea 
+============================================================
+Stagger (evade when drunk): 40 caid
+pbash:   10 caid
+
+============================================================
+Elemental Seekers of Calia          
+============================================================
+No caid spells.
+
+============================================================
+Shieldbearers of Iron Delving  
+============================================================
+shieldslam (stun component): 22 caid
+shieldslam (damage component): 28 caid
+
+============================================================
+Templars of Takhisis               
+============================================================
+Needs documentation updated to better reflect the benefits.
+
+Evade  : 25 caid
+Tattack: 45-20 caid (depending if evading)
+Tsap   :  5 caid (combat starter only, set at 25 caid)
+
+============================================================
+Cabal of Hiddukel                   
+============================================================
+Needs documentation added!
+
+Cheapshot (interrupt): 15 caid
+Backstab: 35 caid
+
+============================================================
+Tricksters  
+============================================================
+Uses non-standardised special.
+
+shinkick: 30 caid
+
+============================================================
+Warlocks of Faerun                 
+============================================================
+Offensive or defensive split. Max 80 caid.
+        
+Sculptor of Flesh (Stat boost):  25-55 caid                                             
+Eldritch Sight (See darkness/invisible) : 20 caid              
+Rejuvenation (Heal):  25-55 caid                      
+Warp Reality (Haste):  25-55 caid                       
+barkskin/a.agathys/spikes (Ac/evade/damageshield):  25-55 caid           
+mist/a.shadows/shroud (Resist shield, 2 per type):  25-55 caid    
+witchbolt/dream/detonate (Harm nuke):  25-55 caid                              
+
+============================================================
+Elemental Worshippers of Calia      
+============================================================
+Schirmo uses non-standard spell objects.
+
+Unteristi offers far more caid than it should based on new
+resistance rules. Needs to be updated.
+
+schirmo   elemental shield spell      25 caid
+unteristi  resistance spell           25 caid
+
+aleipso (heal self)  30/55 caid
+dynami (stat boost)  30/55 caid
+evimero (haste self) 30/55 caid
+floga (fire harm) 30/55 caid
+
+* Note: Dynami/Evimero/Aleipso/Floga have dynamic combat aid. If the
+        caster only has one defensive spell (schirmo, unteristi), then
+        the combat aid will be 55%. Otherwise it will be 30%
+* Note: Dynami, Evimero, Aleipso, and Floga are considered power spells.
+        Only one can be active at any one point (ie. mutually exclusive)
+* Note: If Evimero or Dynami are active @ 55%, then only unteristi or schirmo
+        can be active, but not both.
+
+============================================================
+============================================================
+
+Proposed changes globally:
+
+Magic layman guilds
+* May have access up to 80 caid under specific conditions:
+
+- Total maintained spells may not exceed 45 caid at any one point in time.
+
+- Individual maintained spells capped at 30 caid benefit.
+
+- instant heal/harm spells capped at 50 caid benefit.
+
+* Anything outside these parameters needs a good reason and approval from the AoB.
+* Layman magic guilds may not access the following spell
+types:
+- at_will_harm
+- blink (move behinds)
+* May have access to very limited/restricted identification 
+spells, and teleport spells (home only)
+
+Specific guilds changes:
+* AA guild gets +5 caid to shield special (up to 15 caid).
+* Templars tattack reduced to 40 max caid
+* Blademasters maximum caid increased to 50 (+2 caid).
+* Heralds standardised to new magic layman guild rules.
+- maintained spells: 60 caid / 35 caid / 25 caid changed to
+  35 caid (exceeds norm by AoB approval) / 22 caid / 15 caid
+- lissinen (heal) provides 50 caid (45 if with maintained spell)
+
+* OotS standardised to new magic layman guild rules.
+omend (regeneration - Mishakal): 15 (-10) caid
+oheroism (statboost - KiriJolith): 15 (-10) caid
+osong (featherweight - Branchala): 0 caid
+
+oheal (heal): 50 (-30) / 50 (+10) / 35 (+10) (depending on maintained buffs)
+obless (stoneskin): 30 (-10) caid 
+osmite (mass harm): 50 / 50 (+10) / 35 (+10) (depending on maintained buffs)
+
+* Worshippers standardised to new magic layman guild rules.
+schirmo   elemental shield spell      15 caid (-10 caid)
+unteristi  resistance spell           15 caid (-10 caid)
+
+aleipso (heal self)  50 caid (-5 caid)
+dynami (stat boost)  15/30 caid (-15/-25 caid)
+evimero (haste self) 15/30 caid
+floga (fire harm) 50 caid
+
+* Warlocks standardised to new magic layman guild rules.
+* Minstrels converted to new magic system.
+* Dragon Order special standardised.
+* Tricksters special standardised (or guild closed).
+

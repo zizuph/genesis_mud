@@ -1,0 +1,42 @@
+Map of the village north of Loch Rannoch
+By Darragh, 00-10-23
+ 
+       0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 
+       0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8
+
+
+                                       ^
+                                       |
+A                                o-o-o-E 
+                                /| | |/|\
+B                              o-o-o-o-o-o
+                              /| | |/| | |
+C                          P-o-o-o-o-o-o-o
+                            /| | |/ 
+D                          o-o-o-o o-o-o
+                          /| | |/ /    |
+E                        o-o-o-o o o S o
+                         | |/| |  /| | |\
+F          o-o-o o o-G   o-o-o-o-o-o-o-o-o
+          /| | | | | |   |/| |       |    \
+G        o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-T
+        /| | |\|/| | |   |     |     |   |/
+H      o-o-o o-M-o-o-o   o-o-o-o-o-o-o-o o
+       | | | |/|\| |/     \| | |     | | |
+I   <--E-o-o o-o-o-o       o B-o o-o o-o o
+       | | | | |            \   /  | |  /
+J      o-o-o-o-o             o-o   o p o
+           | | |                    \  |
+K          P P P                     o-o
+             |
+L            P  
+
+
+       E = Gate
+       M = Marketplace
+       T = Tower 
+       G = Garbage
+       P = Pier
+       B = Bank (in)
+       p = pub (in)
+       S = Smith (in)

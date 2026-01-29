@@ -1,0 +1,31 @@
+                     ---=== Storyteller's Club ===---
+
+
+        The following emotes are currently available for Storytellers.
+
+        - stadjust    - Adjust your spectacles before continuing.
+        - stapplaud*  - Applaud someone's storytelling of <type>
+        - stbid       - Bid someone farewell.
+        - stbook*     - Flip through your book for a story of <type>
+        - stclean     - Clean your spectacles.
+        - stclear     - Clear your throat to begin telling a story.
+        - stedge      - Sit on the edge of your seat listening to the story.
+        - stemphasis  - Shake your spectacles to emphasize something.
+        - stgaze      - Gaze thoughtfully at your storybook.
+        - stgreet     - Greet someone.
+        - stidea      - You have an idea for a story.
+        - stlisten    - Listen to the story being told.
+        - stlost      - Stare into space lost in thoughts.
+        - stobserve   - Observe everything around you.
+        - stpause     - Pause your telling for a moment.
+        - stpeer      - Peer at someone over your spectacles.
+        - strub       - Rub your fingertips.
+        - stsigh      - Sigh wistfully while reminiscing.
+        - stsmile     - Smile at someone.
+        - ststory     - Study everybody to consider if there's a story to spin.
+        - sttear      - Wipe a tear from your eye.
+
+	Emotes with a * can use the following types:
+	    joy, sorrow, comedy, romance, horror, suspense,
+
+	Help also available with 'help teller storybook'.

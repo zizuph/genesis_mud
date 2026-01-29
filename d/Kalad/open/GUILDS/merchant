@@ -1,0 +1,84 @@
+Merchants of Kalad
+~~~~~~~~~~~~~~~~~~~~~~~
+
+A short review of the guild:
+
+Guildmaster: Korat
+Type of guild: Layman
+Tax of guild: Still unknown
+Requirements to join: A quest - still unmade.
+
+This guild is not typical of genesis since it offers almost no offensive
+skills/powers. It is intended to aid the players with both skills and
+emotes to act the role of medieval merchants. They will have several
+guildhalls - of varying sizes - all over Kalad (and maybe over genesis)
+where they can start and train their skills. Their skills will
+be of the types: trading, appraise value/object, awareness.
+
+Their emotes will show their love for the trade and the travelling.
+Any item is for them mostly a thing they can sell onwards to others
+for an as extreme prize as possible.
+
+A special item these merchants will have, is a pack-animal that
+will carry any item they want. You may think of it as a big, walking
+rucksack. But it is a rucksack that can be killed during their travels.
+If the pack-animal dies (a horse if they start out in a city, a camel if they
+eg. start out in a beduin camp/desert area) they will have to buy
+a new one from one of their houses around Kalad (or genesis).
+
+Other ideas for special abilities:
+Hide behind - a skill that abels the merchants to hide their butt from
+attackers. They can hide behind their pack-animal or any players they
+_lead_ in a team. If they hide, they will be removed from battle (they
+will get a add_attack_delay() added I think.). Merchants are not
+fighters. They are traders who hire helpers to protect him/her.
+and the cargo!
+
+Shopkeeping - They get to control shops in their guildhalls. In these
+shops, the merchants may sell and buy items for the prizes they themselves
+think is proper. The more they get for an item, compared to the actual
+worth of the item, can reflect in a added description of their character.
+Also, these shops will allow the sale of magical items. If no merchant
+is at the shop when a player comes to purchase, it will work as a normal
+shop. A merchant may also give away items from these shops, but this
+would be so uncharacteristic of a merchant that it will show clearly
+in their character. It will also be reported to the leaders of the guild.
+
+Goodscollecting - This is a more uncertain ability ... A merchant can, if he/she
+leads a team, hire helpers to protect the cargo and the merchants life.
+With the help of the hired helpers, the merchant can wander around to
+"collect" items that he/she can later sell some place. The value of the
+"found" goods when sold, will add to the merchants "fame" as a member.
+Meaning it will increase the players guildstat. Combat will not increase this
+at all.
+   The merchant must "hire" helpers (depending on the hired players stats,
+the merchant must pay cash at once) and return to "bargain" for the goods.
+The merchant may also not be allowed to fight him/herself during this trip.
+Not sure about that part though.
+The actual value of the goods sold will be told to the helpers (what
+the merchant actually gets will not be told), so that they can argue
+among themselves how much the helpers should have of the income.
+They are paid though in the start ;)
+
+
+
+The guilds structure:
+~~~~~~~~~~~~~~~~~~~~~~
+Most members will have a title of "Merchant" but also a mention of which
+house they belong to (where they have decided to start) A merchat who starts
+out from none of the houses will just be called "Merchant".
+A merchant starting in Kabal will then be "Merchant of the house of Kabal"
+Those Merchants who has the highest guild-stat (or maybe the best traders eg.
+the one with highest int ? ) will be Master Merchants. If three such
+master merchants wishes to, they can expel members they feel does not
+act like a true merchant - players that just doesn't trade and bargain at
+all (See above for an example).
+
+Penalty to either leave or to be banished is ... a drop of several skills,
+randomly taken. I wish the penalty to be monetary ... and to delete their
+bank-account just doesn't do it ;)
+
+
+Please mail me for any comment or idea.
+
+Lord Korat

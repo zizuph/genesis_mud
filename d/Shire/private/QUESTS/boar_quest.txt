@@ -1,0 +1,26 @@
+Group:      2
+
+Bit:        8
+
+Name:       Get the Hobbit's Ball From the Boar
+
+Programmed: Dunstable, 11/28/95
+
+Problem:    Brunhilda the hobbit has lost her colored ball. Find 
+            it and return it.
+
+Solution:   Find the boar wandering in the Shire, and tickle his 
+            chin. He will drop the ball. Be sure it is the same 
+            color as Brunhilda specified.
+
+Skills:     None
+
+Risks:      None
+
+XP-Scale:   500
+
+Remarks:    This is a touristing quest. The boar does wander.
+
+Important 
+Files:      Brunhilda - /d/Shire/eastroad/npc/girl
+            Boar -      /d/Shire/eastroad/npc/boar

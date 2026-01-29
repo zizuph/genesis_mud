@@ -1,0 +1,24 @@
+The rack room of hammerhands
+
+Properties:
+hammerhand inside
+
+Items: walls, floor?
+
+Objects:
+club rack
+shield rack
+helm rack
+platemail rack
+bracers rack
+greaves rack
+cloak rack
+misc armor rack
+rack guard
+
+Action:
+donate/put/get
+
+Exits: according to map
+
+Special: your rack points should be always positive.

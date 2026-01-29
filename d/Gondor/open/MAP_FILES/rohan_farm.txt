@@ -1,0 +1,29 @@
+main
+::MAPDATA::
+road1 19 2
+entrance 19 4
+road2 22 4
+road3 24 6
+yard1 24 8
+stable1 28 8
+garden1 22 10
+house1 24 11
+meadow3 26 10
+::MAPDATA::
+
+                   |
+                   o
+                   | \
+                   o  o
+                       \
+                        o        ____
+                        |       /   /\
+                        o - o  /___/\/
+                       /|\     \___\/
+                      o | o
+                        o
+
+                    ___I_
+                   /\    \
+                  /  \____\
+                  |[]| [] |

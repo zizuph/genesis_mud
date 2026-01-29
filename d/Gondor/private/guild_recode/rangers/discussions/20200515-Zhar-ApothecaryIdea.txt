@@ -1,0 +1,53 @@
+  The Apothecaries guild is a layman/craft option for players
+to use medicine for out of combat healing.
+Players would create various remedies with the use of alchemy
+and medicine skills. They would later be able to diagnose
+themselves or others and apply them to bolster recuperation.
+
+Remedies:
+1. Troll blood ungent - made from troll blood, alcohol and
+  healing herbs, speeds up health regeneration.
+2. Antidote - made from water and poison curing herbs,
+  helps fight off poisons.
+3. Invigorating pills - made from coffe beans and fatigue
+  restoring herbs, for fatigue restoration.
+4. Herbal extract - made from water, aspen bark and mana
+  restoring herbs, speeds up mana regeneration.
+
+Remedies are created using alchemy and medicine skills.
+Alchemy is used as usual and medicine is used to determine
+the strength of the remedy (used herb strength * (skill * 2).
+With 100 in medicine skill (required 200 guildstat to train
+this high) this effectively doubles the effect of used herb.
+
+How does it all work?
+
+1. Apothecary has to <adiagnose> themselves or another
+  player. This requires a series of tests for health,
+  mana, fatigue and poison. If target has less than 30%
+  h/m/f missing it is TASK_DIFFICULT, otherwise TASK_ROUTINE.
+  Detecting poison is always TASK_DIFFICULT.
+2. Successful diagnosis lets them apply specific remedies with
+  <atreat> if they have them. This applies the UNDERGOING_TREATMENT
+  condition to the target for 1 minute, where every 30 seconds
+  the effects of used remedies are applied. Entering combat
+  cancels this condition instantly.
+  In addition, even if apothecary does not have any remedies they
+  can heal (medicine skill/10)% of target's total hp (up to 10% of
+  total hp) instantly (this also applies the treatment condition).
+3. It is not possible to diagnose/treat targets that are undergoing
+  treatment.
+
+Assuming that the player has 100 guildstat (medicine skill of
+50), properly diagnoses all conditions and applies remedies it
+would be equivalent of target consuming 2 mana herbs, 2 healing
+herbs and 2 fatigue herbs over the course of 1 minute (where
+normally players can only consume 1 herb every minute). For max
+skill this is doubled.
+
+This powerful effect is counterbalanced by the fact that it can't
+be used soon after combat (adrenaline) or right before combat
+(treatment would be cancelled) meaning that effectively the potential
+target of the treatment has to wait approximately 2 minutes between
+fights for it to work.
+

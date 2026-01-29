@@ -1,0 +1,26 @@
+Lithodermu (Stoneskin)
+======================
+Guild type          : Layman
+Effect              : Stoneskin spell uses a damage absorbtion effect to reduce
+                      the incoming damage. For Academics, this is currently
+                      set to 25% combat aid, which is the equivalent of 20%
+                      reduction in damage.
+                      
+                      For more information, see description in 
+                      /d/Calia/guilds/academics/help/spells/lithodermu
+
+Spell Time          : Default (4 seconds)
+Mana cost           : 30
+Maintained:         : Yes
+Difficulty          : TASK_EASY 
+Peaceful            : Yes
+Stationary          : Yes
+Spell Power         : Power 3 - Intermediate
+Area of effect      : Caster
+Duration            : Variable, depending on caster skill levels
+Material Component  : Onyx (gem) and Chicory (herb)
+Vocal Component     : Yes
+Tax                 : 1.00%
+Combat Aid          : 25%
+Files:              : spells/lithodermu.c
+                      spells/obj/lithodermu_obj.c

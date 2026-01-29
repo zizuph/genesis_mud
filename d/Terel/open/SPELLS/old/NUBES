@@ -1,0 +1,9 @@
+Name:            Nubes
+Object:          /d/Terel/mecien/valley/guild/spells/nubes.c
+Cost:            40 mana, no components
+Skills:      	 Air, Conjuration, Spellcraft, Wisdom
+Description:     Summons a cloud who's duration depends on Wis and Spellcraft
+                 /d/Terel/mecien/valley/guild/spells/fog.c
+Requirements:    Wis > 20
+
+

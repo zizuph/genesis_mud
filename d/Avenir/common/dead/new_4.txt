@@ -1,0 +1,72 @@
+Title:    Catacombs Gate Quest
+By:       Lilith Summer 2021 (Started in 1995 by Ilyian)
+Location: Necronisi
+Exp:      3500?
+Group:    0
+Bit:      1
+
+At first glance this seems like a simple tour quest. Make your way through 
+an area, find an npc, give them something, and get your experience. Its not.
+
+So, first you have to get to the Isle of the Dead, aka The Necronisi. For
+most people this involves 3 boat trips: 
+1) taking a boat to the port of Sybarus, 
+2) walking to the Outpost and then taking the boat to the Bazaar,
+3) and then walking to the north end of the Bazaar island, hopping into a
+   coffin, and waiting for the coffin to be dragged onto the ferry to the
+   Necronisi (the ferryman only transports the dead).
+  
+Then, you find your way up to the top of the hill on the Necronisi and meet
+up with the Banshee--whom most people won't be able to understand because 
+her existence is at a faster speed than ours. 
+
+If the questor has completed the Fix Watch quest and has the watch on them,
+they can wind the watch for a boost to quickness and this will make it 
+possible for them to interact with and understand the banshee. There are 
+other +quickness items, and the required quickness is pretty low (25), so
+players don't have to have the watch. It is, however, useful in the next
+step.
+
+At the top of the hill (cairn) are 12 monolithic objects, one for each of 
+the 12 Hours in each Sybarite Day. After talking with the Banshee, the
+questor should have enough information to understand that they need to 
+interact with the Guardian of the current Hour in order to gain access 
+to the Catacombs. The watch will give them that time, or they can find
+it at the clepsydra in the Bazaar (by the bank) or the time crier in 
+the courtyard of the Forbidden City. Or they can look carefully at
+the monuments to figure out which one has a slight glow. That one will
+be the one to interact with. 
+ 
+There are various verbs supported for the Questor-Hour Guardian interaction.
+The questor can use respectful or worshipful verbs like "pray", "worship",
+and "bow" and they will be dropped into a random spot in the Catacombs.
+If they do things like "kick" or "grope" or "spit" they are going to find
+themselves attacked by the Banshee. And then she'll drop them into the 
+pit of despair deep in the Catacombs, which they will then have to climb
+out of (a very fatiguing prospect). 
+
+The main Catacombs area is 140 rooms, give or take. It is populated with
+autoattacking revenants, exit-blocking skeletons, and critters like rats,
+spiders, hellbenders, and grubs. Questors are dropped randomly into this
+dungeon, and they've got to figure out which way go to get to the exit,
+which of course is not clearly marked on the Magic Maps. The tunnels are 
+three interconnected lobes, so questors are likely to circle back on 
+themselves as they try to locate the Gate to the Catacombe while either
+running away from or hacking away at the undead residents there.
+
+As they explore, players are likely to stumble upon things that move
+them out of the catacombs back to the surface, which means that they'll
+have to go back in again and start over trying to locate the Gate.
+
+Once they do find the gate, they will see that there is the ghost 
+of a Chatelaine there, who acts as the gatekeeper. In order to get
+past her for the first time and solve the quest, the questor must be
+able to give her a sybarun coin, which is a common token required by
+many gatekeepers in Sybarus.
+
+Files Involved:
+Cairn      /d/Avenir/common/dead/hill/cairn.c
+Banshee    /d/Avenir/common/dead/mon/banshee.c
+Gate room  /d/Avenir/common/dead/catacombs/crypt_entr.c
+Chatelaine /d/Avenir/common/dead/mon/chatelaine.cairn
+Sybarun coin /d/Avenir/common/obj/syb_coin.c

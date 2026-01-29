@@ -1,0 +1,52 @@
+From   : Petros
+Subject: Testing SoHM against Blademasters
+To     : Arman
+CC     : Cotillion, Petros and Gorboth
+Date   : Sat Jul 16 07:09:22 2016
+
+Arman,
+
+Here's some interesting stats from an initial fight with the
+rotating of the 3 at-will specials with enchant weapon and
+stoneskin active. Based on my own calculations, the total
+combat aid should be around 120 + 40 + 120 = 280% combat aid.
+
+I ran this against a Knight/Blademaster who has theoretically
+around a 150% combat aid (with kheroism), and of course the
+SoHM won all 10 out of 10 battles. The final health of the
+10 winners were:
+
+The test sohm defense is somewhat hurt.
+The test sohm defense is suffering.
+The test sohm defense is hurt.
+The test sohm defense is in a bad shape.
+The test sohm defense is slightly hurt.
+The test sohm defense is somewhat hurt.
+The test sohm defense is hurt.
+The test sohm defense is in agony.
+The test sohm defense is aching.
+The test sohm defense is hurt.
+
+Here are the actual stats and damage values.
+
+Opponent 1: sohm_defense
+Opponent 2: knight_bm
+===================================================================================
+Damage  Time (seconds)  Std Dev                 Damage  Time (seconds)  Std Dev
+-----------------------------------------------------------------------------------
+1219    32              29.96                   428     32              23.84
+1122    32              49.33                   288     32              37.55
+645     32              72.02                   231     32              40.18
+660     32              52.31                   532     32              28.79
+552     32              114.03                  323     32              51.83
+201     32              0.00                    493     32              36.13
+417     32              77.95                   506     32              58.89
+1177    32              114.97                  420     32              63.57
+882     32              58.80                   607     32              45.53
+688     32              70.19                   430     32              33.89
+-----------------------------------------------------------------------------------
+7563    320                                     4258    320
+Opponent 1 DPS: 23.63
+Opponent 2 DPS: 13.31
+
+Petros

@@ -1,0 +1,6 @@
+Bit     XP      Description             File
+===============================================================================
+3,0     500     Priest Dagger Quest     common/npc/kpriest2.c
+3,1     25000   Scripture Quest         common/drakmere/npc/drakmere.c
+3,2     500     Khiraa Entrance Quest   common/nflats/nf10.c
+3,3     2500    Maze Quest              common/plains/under_maze_home.c

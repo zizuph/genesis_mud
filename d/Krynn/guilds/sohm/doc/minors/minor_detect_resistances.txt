@@ -1,0 +1,39 @@
+
+     Spell name: Detect resistances
+                 ickrakfethos
+         Effect: Divine magical resistances of a target
+           Type: Instant
+        Targets: Living
+        
+        Element: Air        / 30
+           Form: Divination   / 30
+    Spell power: Power 1 [Minor spell]
+     Spell type: detect resistance spell 
+     
+       Peaceful: Yes
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: kuko herb (1500 cp value)
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_SIMPLE
+     Combat Aid: 0% 
+
+            Tax:  0.25
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x1.5   Simple difficulty
+                  x0.5   material component >= 1pp  
+                 ------
+                  0.25%  total tax
+   ------------------------------------------------------------
+   Comments: A spell that provides the caster with a description
+   of a target's magic resistances and vulnerabilities.
+
+   The descriptions are indicative in nature rather than exact.
+   ------------------------------------------------------------

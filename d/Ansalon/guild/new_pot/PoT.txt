@@ -1,0 +1,367 @@
+PoT recode details:
+
+SPELL CHANGES:
+
+Spell name CL   PR   HP  ClassType  Tax      Elem.          Form
+
+pTell       *    *    *      1       0.1     AIR     10     DIV     10
+UPDATED - Unchanged.
+
+pAlign      *    *    *      1       0.2     LIFE    10     DIV     15
+UPDATED - Unchanged.
+
+pHearing    *    *    *      1     0.075     EARTH   14     ENCH    20
+UPDATED - No combat aid. Skill bonuses now show on skill list.
+UPDATED - hook_use_ingredient updated.
+
+pHammer     *    *    *      3  O  0.375     AIR     20     ENCH    20
+UPDATED - increases club and parry skill by up to 35, depending on priest
+level.  May change how much benefit it provides when working out spell
+orders etc.
+UPDATED - hook_use_ingredient updated.
+UPDATED - cannot be cast in Dark Lady aspect.
+
+Used to increase weapon hit/pen by between 5 to 15 and weapon skill. 
+
+pScourge    *    *    *      3  O  0.75     LIFE    35     ENCH    20
+NEW - At will harm spell, 60% combat aid. Requires a club/mace wielded to cast.
+
+pEyes       *    *    *      2     0.25     LIFE    45     ENCH    30
+UPDATED - See in dark/invis max levels unchanged, although also now takes into
+account the spell power level. Can be cast on others in if Dark Lady aspect.
+UPDATED - hook_use_ingredient updated.
+UPDATED - Can only be cast on others under the aspect of the Dark Lady.
+
+pBless           *    *      3  D  0.375     LIFE    60     ENCH    40
+UPDATED - stoneskin base, 50% combat aid default, 100% combat aid in Dark
+Lady aspect.
+UPDATED - Incorporated damage protection only for good aligned opponents.
+
+Original reduces damage by 2% to 12% depending on opponents DIS and PoT level
+
+pHeal            *    *      4 D    1.0      LIFE    50     TRANS   40
+UPDATED - 150% combat aid, uncapped.
+UPDATED - hook_use_ingredient updated.
+UPDATED - healing good aligned more difficult, gives standing penalty
+UPDATED - healing combat aid depends on standing
+UPDATED - incorporate aspect casting combat aid variation
+
+pTalon           *    *      4  O    0.75    LIFE    50     CONJ    20
+UPDATED - now based on harm spell, 70% base combat aid 
+UPDATED - combat aid changes depending on standing and location 
+          (Neraka x2/Krynn x1.5) and aspect
+
+    // max combat aid for ptalon Dark Warrior aspect: 
+    //      (Neraka / Krynn / elsewhere)
+    //        250   /  200  /   150
+    // max combat aid for ptalon unaspected / Dark Lady aspect:
+    //         90   /  70   /   50 
+
+UPDATED - Difficulty of spell harder (FORMIDABLE) if targeting evil targets.
+UPDATED - incorporate aspect casting combat aid variation
+
+Original a reasonable harm spell
+
+pRestore         *    *      2       0.1875  LIFE    55     TRANS   40
+UPDATED - now just cleanses poisons.
+TODO - confirm combat aid.
+
+Used to heal up to 500hp, chance of healing poisons
+*increase the effectiveness of both heal and poison removal*
+
+pIdentify        *    *      1     0.075     LIFE    14     DIV     24
+UPDATED - Unchanged.
+
+pBlind           *    *      2  D 0.1875     AIR     40     ENCH    45
+UPDATED - changed to base blind spell, 20 heartbeat duration. 
+6 heartbeat cast for Lady aspect, 8 as default.
+TODO - Need to confirm combat aid for this. Looking at 20-30 caid.
+
+Original blind for 6-45 seconds / with a 10-19 second period where they can't
+be blinded again.
+
+pScry            *    *      2     0.125     LIFE    45     DIV     30
+restrictive scry spell
+UPDATED - had to use centralized_spell as base rather than base scry
+to work as a restrictive scry
+
+pSlow            *    *      2  D    0.25     AIR     35     ENCH    40
+UPDATED - hampers movement. Removed quickness reduction.
+
+pCurse           *    *      2  D    0.25     LIFE    40     ENCH    45
+UPDATED - Up to 15% chance of a cursed foe missing
+
+pMirage               *      2      0.25     AIR     50     ENCH    40
+UPDATED - aura of temptation. Distracts foes with images of false
+grandeur and primal lusts, allowing the priest to step out of the fore
+of the battle behind a teammate.
+Base blink spell. Unless aspected to the Dark Lady, a priest can only
+blink behind a dragonarmy soldier.
+
+Originally a stop fight spell. This will replace the ability battle 
+maneuvers the PoT originally had.
+
+pGem                  *      1       0.1     EARTH   15     TRANS   35
+UPDATED - create a soul gem that allows you to capture souls with it
+when it is held in a priest's hand upon death of a target. The target's
+stat average is added to a charge pool, up to a maximum pool of 2400.
+
+A priest can put the gem in to their priestly medallion, drawing on the
+soul power for ptalon and pheal - removing the need for components - 
+at a cost of 100 charge per casting. Effectively, a gem that provides
+a maximum of 24 of these spells without the need of components before 
+needing to be recharged.
+
+Previously creates a soul gem that can be inserted in the priest's 
+medallion to reduce mana cost.
+
+pPain                 *      4  D    0.8     DEATH   77     ENCH    77
+UPDATED - stun now for 22.5 seconds with a 67.5 cooldown.
+Hindering removed.
+UPDATED - ppain can't be cast with pblind or pcurse in Dark Lady aspect
+TODO - maybe double duration and cooldown
+TODO - add movement messages? xxx crawls east. etc?
+
+Was stun and paralysis 47-60 seconds with a 3 to 7 minute cooldown.
+Hindered all movement commands. Dismounts mounted players.
+
+pplaneswalk           *     3        0.4     LIFE   45       DIV    30
+UPDATED - mirrors previous spell using new teleport base code
+
+Remove following from spell list
+------------------------------------------------------------------------
+pDrain           *    *      2    0.1875     LIFE    30     TRANS   24
+mana drain
+REMOVED - unnecessary with new magic system
+
+pImprecate
+REMOVE - unnecessary spell considering other options.
+Was a spell that reduces defence and parry of target
+------------------------------------------------------------------------
+
+
+NEW FEATURE:  ASPECTS OF THE PRIESTS OF TAKHISIS
+Cleric guilds are traditionally classed as healer guilds. However healing guilds
+without good offensive abilities are notoriously poor at gaining experience 
+through combat in Genesis.
+
+For the purpose of balance, having a guild that can heal, debuff, damage and
+cast self-buffing spells would be either considered overpowered or incredibly
+diluted ability-wise. It is the latter the Priests of Takhisis are currently
+considered as.
+
+To address this, it is proposed that the Priests of Takhisis and above are able to 
+choose a "state" when they first enter the realms which allows them to focus their 
+spells towards being effective at either healing or damage. They will be able
+to choose an "aspect" of their goddess that reflects how they wish to play...
+either the aspect of the Dark Warrior - focused on offensive abilities, or the 
+aspect of the Dark Lady - focused on healing and debuffing abilities. Depending
+on what aspect they choose, their spells will be modified accordingly.
+
+ASPECT OF THE WARRIOR - positioned more for solo play with a melee combat focus
+pCurse: cannot cast in Warrior Aspect
+pHeal: -80 combat aid (70 combat aid max)
+pEyes: cannot be cast on others
+pSlow: unaffected
+pScourge: unaffected
+pBlind: increased cast time (x2)
+pRestore: cannot cast in Warrior Aspect
+pBless: unaffected (50 caid defensive spell)
+pHammer: can cast in Warrior Aspect
+pTalon: unaffected (250*/200/150 combat aid harm spell)
+ppain: cannot cast in Warrior Aspect
+
+ASPECT OF THE LADY - positioned more for group play with support and debuff focus
+pCurse: unaffected (30 combat aid)
+pHeal: unaffected (150 combat aid base / 250 if not using pBless)
+pEyes: can be cast on others.
+pScourge: unaffected
+pSlow: unaffected
+prestore: can cast in Lady Aspect
+pBless: +50 caid (100 caid defensive spell)
+pHammer: cannot cast in Lady Aspect
+pTalon: -100 combat aid (150*/100/50 combat aid harm spell)
+ppain: can cast in Lady Aspect
+pBlind: unaffected
+
+* 250 combat aid for ptalon is in the defence of Neraka. Classed as a 
+  "special feature" that won't be counted towards the total combat aid
+  cap.
+
+CHANGE IN SPELL PROGRESSION
+Current spell progression:
+
+        /* High Priest */
+        level 15:
+        level 14:
+        level 13:  spells += PPLANESWALK;
+        level 12:  spells += PPAIN;
+        level 11:  spells += PGEM;
+        /* Priest */
+        level 10:  spells += PRESTORE;
+        level 9:   spells += PBLESS;
+                  spells += PSCRY;
+        level 8:   spells += PBLIND;
+                  spells += PTALON;
+        level 7:   spells += PIDENTIFY;
+                  spells += PHAMMER;
+                  spells += PIMPRECATE;
+        level 6:   spells += PDRAIN;
+        /* Cleric */
+        level 5:   spells += PSLOW;
+                   spells += PEYES;
+        level 4:   Q_VERMINAARD spells += PHEAL;
+                   spells += PHEARING;
+        level 3:   spells += PCURSE;
+        level 2:   Q_KALAMAN spells += PALIGN;
+        level 1:   spells += PTELL;
+
+Proposed spell progression:
+
+        /* High Priest */
+        level 15:
+        level 14:
+        level 13:  spells += PPLANESWALK;
+        level 12:  spells += PPAIN;
+        level 11:  spells += PGEM;
+        /* Priest */
+        level 10:  spells += PCURSE; (up from level 3)
+                   spells += PSLOW; (up from level 5)
+        level 9:   spells += PIDENTIFY; (up from level 7)
+                   spells += PSCRY;
+        level 8:   spells += PBLIND;
+                   spells += PRESTORE; (down from level 10)
+        level 7:   spells += PTALON; (down from level 8)
+                   spells += PHEAL   (up from level 4)
+        level 6:   spells += PBLESS; (down from level 9)  
+        /* Cleric */
+        level 5:   spells += PEYES;
+                   spells += PSCOURGE (new);
+        level 4:   Q_VERMINAARD spells += PHAMMER (down from level 7);
+        level 3:   spells += PHEARING (down from level 4);
+        level 2:   Q_KALAMAN spells += PALIGN_ID;
+        level 1:   spells += PTELL_ID;
+
+       (deleted PDRAIN, PIMPRECATE, PMIRAGE)
+
+The Priests of Takhisis are split into three main levels,
+Cleric (CL), Priest (PR) and High Priest (HP) and a lot of sublevels
+of no concern to this document.
+
+Priests have a 'standing' with their goddess, ranging much like alignment
+between -1200 and 1200. Higher standing influences the maximum combat aid
+of healing and damage spells, while low standing results in spells being
+set as HARD or FORMIDABLE.
+
+Guild occupies both OCC and LAY slots which are both of clerical nature
+
+OCC part
+
+                                 Un-   taxed                tax [%]
+                       CL PR HP  taxed CL  PR  HP  pen  mod  CL    PR    HP
+SS_SPELLCRAFT          50 84 90   20   30  64  70       1.0  0.5   1.06  1.166
+SS_ELEMENT_LIFE        45 84 90   20   25  64  70       1.0  0.416 1.06  1.166
+SS_ELEMENT_AIR         35 64 70   20   15  44  50       1.0  0.25  0.73  0.833
+SS_ELEMENT_WATER       10 15 20   20    0   0   0       1.0  0.0   0.0   0.0
+SS_ELEMENT_EARTH       14 20 20   20    0   0   0       1.0  0.0   0.0   0.0
+SS_FORM_TRANSMUTATION  25 74 84    0   25  74  84       1.0  0.416 1.23  1.4
+SS_FORM_ENCHANTMENT    40 64 70    0   40  64  70       1.0  0.666 1.06  1.166
+SS_FORM_DIVINATION     20 34 34    0   20  34  34       1.0  0.5   0.566 0.566
+SS_FORM_CONJURATION    40 64 70    0   40  64  70       1.0  0.666 1.06  1.166
+SS_WEP_CLUB            50 64 64   30   20  34  34   34  1.5  0.5   0.85  0.85
+SS_DEFENCE             50 60 60   20   20  40  40   40  1.5  0.5   1.0   1.0
+------------------------------------------------------------------------------
+Sum:                                  235 484 522   74       4.414 8.616 9.313
+------------------------------------------------------------------------------
+                                                           
+LAY part
+
+                                 Un-   taxed                tax [%]
+                       CL PR HP  taxed CL  PR  HP  pen  mod  CL    PR    HP
+SS_ALCHEMY             34 45 60   20   14  25  40       1.0  0.23  0.417 0.667
+SS_LANGUAGE            40 50 50   30   10  20  20       1.0  0.167 0.333 0.333
+SS_HERBALISM           60 60 60   20   40  40  40       1.0  0.667 0.667 0.667
+SS_AWARENESS           40 50 60   30   10  20  30       1.0  0.167 0.333 0.5
+SS_APPR_MON            34 40 40   30    4  10  10       1.0  0.06  0.167 0.167
+SS_APPR_OBJ            34 45 50   30    4  15  20       0.5  0.03  0.125 0.167
+SS_APPR_VAL            34 45 50   30    4  15  20       0.5  0.03  0.125 0.167
+SS_LOC_SENSE           40 50 60   30   10  20  30       0.5  0.083 0.167 0.25
+SS_ANI_HANDL           40 50 60   30   10  20  30       0.5  0.083 0.167 0.25
+SS_PARRY               14 30 34    0   14  30  34   34  1.5  0.35  0.75  0.85
+SS_WEP_KNIFE           40 50 50   30   10  20  20   20  1.0  0.167 0.25  0.25
+------------------------------------------------------------------------------
+Sum:                                  130 235 294   54       2.034 3.501 4.268
+------------------------------------------------------------------------------
+
+Spell name CL   PR   HP  Class Type  Tax     Elem.          Form         Caid
+                                                                         (u/W/L)
+pTell       *    *    *      1       0.1     AIR     10     DIV     10   -
+pAlign      *    *    *      1       0.2     LIFE    10     DIV     15   -
+pHearing    *    *    *      1       0.1     EARTH   14     ENCH    20   -
+pHammer     *    *    *      3  O  0.375     AIR     20     ENCH    20   40/40/- 
+pScourge    *    *    *      3  O   0.75     LIFE    35     ENCH    20   60/60/60 
+pEyes       *    *    *      2      0.25     LIFE    45     ENCH    30   20/20/20 
+                                  -=2.15                               -=120
+
+pBless           *    *      3  D  0.375     LIFE    60     ENCH    40   50/50/100
+pHeal            *    *      4  D    1.0     LIFE    50     TRANS   40   70/70/150
+pTalon           *    *      4  O   0.75     LIFE    50     CONJ    20   70/200/70
+pRestore         *    *      2  D 0.1875     LIFE    55     TRANS   40   ? /- / ?
+pIdentify        *    *      1     0.075     LIFE    14     DIV     24   -
+pBlind           *    *      2  D 0.1875     AIR     40     ENCH    45   20/20/30
+pScry            *    *      2     0.125     LIFE    45     DIV     30   -
+pSlow            *    *      2  O   0.25     AIR     35     ENCH    40   -
+pCurse           *    *      2  O   0.25     LIFE    40     ENCH    45   30/- /30
+                                  -=5.35                               290/330/330
+
+pGem                  *      1       0.1     EARTH   15     TRANS   35   -
+pPain                 *      4  D    0.8     DEATH   77     ENCH    77   40 /- /50
+pPlaneswalk           *      3       0.4     LIFE    45     DIV     30   -          
+----------------------------------------------------------------------------------
+TOTALS                              6.65                               330/330/330
+----------------------------------------------------------------------------------
+
+Combat aid:
+1% of tax will be charged for every 25% combat aid.
+
+CLERIC:  Cannot be aspected.     
+Unaspected-        phammer (40) + pscourge (60) + peyes (20) [120 combat aid]
+
+PRIEST:
+Unaspected-        phammer (40) + pscourge (60) + peyes (20) + pbless (50) + 
+                   pheal/ptalon(70)+ pblind (20) + pcurse (30) [290 combat aid]
+Warrior aspect-    phammer (40) + pTalon (200) + peyes (20) + pbless (50) + 
+                   pblind (20) [330 combat aid]
+Lady aspect-       pHeal (150#) + peyes (20) + pbless (100#) + pcurse (30) + 
+                   pblind (30) [330 combat aid]
+
+HIGH PRIEST:
+Unaspected-        phammer (40) + pscourge (60) + peyes (20) + pbless (50) + 
+                   pheal/ptalon(70)+ pblind (20) + pcurse (30) + ppain (40) 
+                   [330 combat aid]
+Warrior aspect-    phammer (40) + pTalon (200) + peyes (20) + pbless (50) + 
+                   pblind (20) [330 combat aid]
+Lady aspect-       pHeal (150#) + peyes (20) + pbless (100#) + ppain (50) 
+                   [330 combat aid]
+
+# Priests not using pbless while phealing and in Lady aspect have their heals increased 
+to a maximum 250, depending on priest standing.
+
+* 250 combat aid for ptalon is in the defence of Neraka. Classed as a 
+  "special feature" that won't be counted towards the total combat aid
+  cap.
+
+Additional taxes:
+
+* Soul gem ability  1
+
+Sum:                1
+
+                     CL       PR       HP
+SKILLS (occ):        4.414    8.616    9.313
+SKILLS (lay):        2.034    3.501    4.268
+Spells:              2.15     5.35     6.65
+Combat aid:          4.8      13.2     13.2
+Extras:              1        1        1
+TOTAL TAXES:         14.398   31.667   34.431 
+Rounded off:         15       32       35

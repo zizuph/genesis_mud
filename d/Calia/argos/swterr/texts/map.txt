@@ -1,0 +1,67 @@
+------------------------------------------------------------------------
+                         ARGOS - SOUTHWEST TERRITORY
+------------------------------------------------------------------------
+General Description:
+This area lies south of the Argos River, east of the mountains and west
+of the Argos River (Southern Branch). It is an evil forest which "hides"
+the "hidden" areas south of it (Dephonian Temple, Kretan Camp) from
+the main part of Argos. It's "backbone" is a dirt road which follows
+the river on the north and west sides of the area.
+ 
+Quests:
+The stolen Cassock for the "Cassock Quest", given by Alexis in Metro,
+is found in for13. Quest given/Exp given in Metro.
+ 
+Attractions:
+- Olive Grove:    olives used to make lamp oil in Metro (og)
+- Kretan Outpost: some Kretan guards and a meeting between a Kretan
+                  official, Dephonian Priestess, and evil/rebel Argosian
+                  Nobleman (krc)
+- Travelling Merchant: sets up shop with his wagon on road (r22)
+- Woodsmen:       Camp in forest (theives of the cassock); others on road
+- Secret entrances to Dephonian and Kretan areas
+                  ('crawl through branches' exits)
+ 
+mm  R15   rr
+mm      \   rr                     NORTH WEST TERR
+KRT-KR1--R16  rr  NW/R18           (ARGOS/NWTERR)
+mm          \   rr  |                                                 rr
+mm            R17 rWBR rrrrrrrrr           rrrrrrrrrrrrrr NW/R26      rr
+mm               \  |          rrr       rrr            rrr |        rr
+mm                 R18--R19--R20  rrrrrrrr  R23--R24--R25  EBRrr     rr
+mm                    /    /    \          /      |       \ |  rr    rr
+mm                 F1   F2---F3   R21---R22 OGH--OG1  OG7  R26   rr rr
+mm                  |    |            /        /       |      \    rr
+mm                 F4   F5---F6----F7---F8  OG2--OG3--OG6--OG8  R27  rr
+mm                    \    /       |    |    |    |         |    |   rr
+mm                 F9---F10--F11--F12  F13  OG4--OG5 /KC/p OG9 /R28  rr
+mm                  %         |      ______________/      %  /     rr  METRO &
+mm                 F14--F15  F16    /                       R29  rr    TEMPLES
+mm               /          \     /                          \     rr  AREA
+mm            DT/P1         KC/p/                              \R30  rr
+mm             |                                                 |   rr
+mm             |                  MAIN KRETAN CAMP              R31  rr
+mm             |                  (ARGOS/KRCAMP)                 |   rr
+mm             |-----------                                     R32  rr
+mm             |           \                                     |   rr
+mm        DEPHONIAN TEMPLE   \                                  R33--SBR---M/A1
+mm        (ARGOS/DEPHTEMP)     \                               %     rr
+                                 \-------------------------KC/p        rrr
+Key: (all rooms found in ~zima/argos/swterr/rooms)
+EBR - Eastern Bridge (to marble road near city entrance)
+Fxy - dark forest (forXY.c)
+KRx - Kretan Outpost Camp (krcampt.c, krcamp1.c)
+mmm - Mountains
+OGx - Olive Grove (ogroveX.c)
+rrr - Path of the Argos river (splits near r26.c)
+Rxy - dirt road (rXY.c)
+SBR - Southern Bridge (to Argos road in the city)
+WBR - Western Bridge  (to marble road, near mountains)
+%   - Hidden exits. do 'crawl through branches' to use. Not open to Kretan Area
+ 
+Connecting areas:
+DT/P1  - Path to Dephonian Temple (zima/argos/dephtemp/rooms/path1.c)
+KC/p   - Path around Kretan Camp (zima/argos/krcamp/rooms/?) TO BE CODED
+M/A1   - Metro, Alpharon Road (zima/argos/metro/rooms/aroad1.c)
+NW/R18 - marble road (zima/argos/nwterr/rooms/r18.c)
+NW/R26 - marble road (zima/argos/nwterr/rooms/r26.c)

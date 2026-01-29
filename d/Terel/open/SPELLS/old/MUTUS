@@ -1,0 +1,8 @@
+Name:		Mutus
+Object:		/d/Terel/mecien/valley/guild/spells/mutus.c
+Cost:		10 mana, no components
+Skills:		Enchantment, Abjuration, Spellcraft
+Description:	Silences a character by preventing the use of 'say'
+		Duration is 45 + random(SS_SPELLCRAFT)
+Requirements:  	Wis > 50
+

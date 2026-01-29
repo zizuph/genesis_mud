@@ -1,0 +1,7 @@
+domain,quest desc,group,bit,hint,validation,arguments
+Faerun,Collect Eggs,1,1,collect_eggs.txt,default
+Faerun,Find Flowers,1,2,find_flowers.txt,default
+Faerun,Find the Fruit,1,3,find_fruit.txt,default
+Faerun,Dwarf King,1,4,dwarf_king.txt,false_unless_done
+Faerun,Find kidnapped infant,1,5,find_infant.txt,default
+

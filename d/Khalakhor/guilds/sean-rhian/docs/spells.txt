@@ -1,0 +1,235 @@
+-------------------------------------------------------------------------
+         SPELLS OF THE ORDER OF SEAN-RHIAN
+------------------------------------------------------------------------
+Each promotion to a level gains the cleric a new spell, thus the spells
+are listed with title from lowest to highest. Guild tax is calculated
+by order, with the tax based on the total spells for clerics of the order.
+ 
+The cleric must be properly vested (wearing the right clothing) to cast
+the given spell, along with other components. Thus the vestments listed
+for each spell are considered non-exhaustable components, while components
+listed are extra on top of the vestments. The vestments listed for
+each spell allows the cleric to cast that spell and any lower-level spells.
+All vestments and the staff (only weapon a cleric can use) are purchased
+in a guild hall.
+ 
+All spell effects are also controlled by the amount of "harmony" (piety)
+a cleric has, which is depleted by casting spells and increased by
+performing ceremonies in the guild hall.
+ 
+The effect or ease of casting of some spells can be increased by "linking"
+with fellow clerics. Linking will be a special skill in the guild. The
+increase in effect depends on the stats/skills of all linked, modified by
+their linking skill. Spell depletes the harmony and mana of linked members
+as well the as casting cleric. Clerics must be teamed and in same room for
+linking to be effective. All linkable spells are marked with (LINKABLE)
+ 
+Elements: Earth, Air, Water, Fire, Life, Death
+Forms:    Transmutation, Illusion, Divination, Enchantment, Conjuration, Abjur.
+ 
+COMPONENTS:
+ - feather    - obtained from a bird; used in "fly" spells (exhaustable)
+ - holy oil   - vial purchased; regular oil obtained for free or made from
+                herbs/vegetables; oil must be blessed (guild NPCs will do
+                this for novices who can not bless themselves.) (exhaustable)
+ - holy water - vial purchased; water obtained for free; water must be
+                blessed (by guild NPCs for novices) (exhaustable)
+ - mirror     - obtained free (or bought?); helps with divinations
+ - monstrance - a holy item, one per kirk
+ - preps      - actions cleric must perform before casting spell
+ - sprinkler  - purchased in guild hall; used with holy water
+ - staff      - only weapon of a cleric; purchased in guild hall
+ - talisman   - (tricircum) obtained free in guildhall (exhaustable)
+                New talisman can be obtained for free in guild hall; must
+                be charged/re-charged by performing a ceremony in guild hall;
+                each used "depletes" the power of the talisman.
+                cleric must "hold out" or "point" talisman at target before
+                casting (or "hold it close" if self is target); cleric can
+                not wield staff when "holding" talisman, and can not fight
+ - vestments  - only armours clerics allowed to wear; purchased in guild hall
+ - vial/flask - purchased; contains (holy) water or (holy) oil
+ 
+NOVICE ORDER:
+   talk (novishagh)
+      prep:       none
+      effect:     send a message to a distant cleric
+      vestments:  alb
+      components: none
+      skills:     air, conjuration
+ 
+   holy ground/peace (learned novishagh)
+      prep:       anoint the ground with holy oil
+      effect:     stops and prevents fighting in the room temporarily
+      vestments:  alb, cincture
+      components: holy oil
+      skills:     earth, enchantment
+ 
+   light staff:  (shirreyder)
+      prep:       anoint staff with holy oil
+      effect:     make the cleric's staff a light source (glow)
+      vestments:  alb, cincture, surplice
+      components: staff, holy oil
+      skills:     fire, enchantment
+ 
+   turn into statue: (guilley erin)
+      prep:       wear cowl of alb, "hold talisman close"
+      effect:     turns cleric into a statue (escape spell); player object
+                  is replaced with a stone statue in the room where cast;
+                  player is transported to a "limbo room" where he can see
+                  the room where the statue is; when spell wears off, moves
+                  player back to room where statue is, statue removed.
+      vestments:  alb, cincture, surplice, tonsure
+      components: talisman
+      skills:     earth, transmutation
+ 
+SEARMANAGH ORDER:
+   link: (searmanagh)
+      prep:       must be in same room and teamed with fellow cleric(s)
+      effect:     "spriritually" links members together to increase spell
+                  effects/casting chance. Enhances this cleric's linkable
+                  spells and linked cleric's linkable spells. Also causes
+                  depletion of mana/harmony when linked clerics cast linkable
+                  spells. (see linking above)
+      vestments:  cassock
+      components: none
+      skills:     linking (special skill)
+ 
+   bless: (searmanagh)
+      1. prep:    buy vial and fill it with water
+         effect:  makes holy water
+         components: vial, water
+      2. prep:    buy vial and fill with oil
+         effect:  makes holy oil
+         components: vial, oil
+      3. prep:    must fill sprinkler with holy water (if not already done)
+         effect:  cleric sprinkles player/object with holy water, giving
+                  the player/object a "blessed" property, which may allow
+                  the object to be used in a special way or the player
+                  to receive special benefits (ie: access to private
+                  areas, immunity from spells, etc).
+         components: sprinkler filled with holy water
+      vestments:  cassock
+      skills:     life, enchantment
+ 
+   enflame staff: (devout searmangh) (LINKABLE)
+      prep:       anoint staff with holy oil
+      effect:     causes staff to be flaming, greating increasing the
+                  hit/pen of the weapon temporarily. also prerequisite for
+                  diaghin throw fire spell.
+      vestments:  cassock, sash
+      components: holy oil, staff
+      skills:     fire, enchantment, [linking]
+ 
+   divine alignment: (pious searmanagh)
+      prep:       "hold talisman toward target"
+      effect:     cleric speaks a "holy word" to a target living and holds
+                  up the talisman; living reacts indicating alignment
+                  (ie: "the devil screams in terror" or "the angel's face
+                  radiates holiness")
+      vestments:  cassock, sash, stole
+      components: talisman
+ 
+ 
+   force take exit: (ard-searmanagh)  (LINKABLE)
+      prep:       "hold talisman toward target"
+      effect:     forces player to take an exit and leave the room
+                  higher skill/mana/harmony requirements if exit chosen
+      vestments:  cassock, sash, stole, tonsure
+      components: talisman (or monstrance if allowable)
+      skills:     air, enchantment (or abjuration?), [linking]
+ 
+DIAGHIN ORDER:
+   throw fire: (diaghin) (LINKABLE)
+      prep:       staff must be flaming (see enflame staff above)
+      effect:     cleric throws a sheet of fire by swinging the flaming
+                  staff toward the enemy (attack spell)
+      vestments:  alb, dalmatic
+      components: flaming staff (see above)
+      skills:     fire, abjuration, [linking]
+ 
+   scry: (revered diaghin)
+      prep:       none
+      effect:     allows cleric to see short description of room where
+                  living target is.
+      vestments:  alb, dalmatic, cincture
+      components: mirror
+      skills:     air, divination
+ 
+   enhance armour: (revered diaghin)
+      prep:       wearing alb
+      effect:     increases armour value of alb temporarily
+      vestments:  alb, dalmatic, cincture
+      components: none
+      skills:     earth, enchantment
+ 
+   divine name: (venerable diaghin)
+      prep:       none
+      effect:     allows cleric to know the name of a living target
+      vestments:  alb, dalmatic, cincture, stole
+      components: mirror
+      skills:     life, divination
+ 
+   heal poison: (ard-diagin)
+      prep:       make healing oil from holy oil and an herb
+      effect:     cleric anoints living with healing oil, removing poison
+      vestments:  alb, dalmatic, cincture, stole, tonsure
+      components: holy oil and an herb
+      skills:     life, enchantment?
+ 
+SAGGART ORDER:
+   lightning: (saggart) (LINKABLE)
+      prep:       hold talisman toward enemy
+      effect:     (attack spell) lighting streaks from the cleric's hands
+                  damaging the enemy
+      vestments:  alb, chausable
+      components: talisman
+      skills:     air (fire?), abjuration, [linking]
+ 
+   force drop: (reverent saggart) (LINKABLE)
+      prep:       prepare holy water
+      effect:     cleric sprinkles enemy with holy water forcing enemy
+                  to unwield or even drop his weapon
+      vestments:  alb, chausable, cincture
+      components: sprinkler, holy water
+      skills:     earth, enchantment (abjuration?)
+ 
+   teleport item: (holy saggart)
+      prep:       anoint item with holy oil
+      effect:     teleport item to a player
+      vestments:  alb, chausable, cincture, stole
+      components: feather, holy oil
+      skills:     air, conjuration
+ 
+   paralyze: (holy saggart) (LINKABLE)
+      prep:       prepare holy water sprinkler
+      effect:     paralyzes enemy, not allowing him to leave the room
+                  (but can do all else)
+      vestments:  alb, chausable, cincture, stole
+      components: sprinkler, holy water
+      skills:     life?, enchantment?
+ 
+PRESBYTAIR ORDER:
+   monstance attack: (presbyter) (LINKABLE)
+      prep:       must hold up monstance toward target
+      effect:     beam of light emits from monstrance and strikes enemy
+      vestments:  alb, chausable, cincture, stone, tonsure
+      components: monstrance and a special vestment required to hold it
+      skills:     fire, abjuration, [linking]
+ 
+   fly: (presbyter)
+      prep:       none
+      effect:     teleports cleric to a room from a given path; works like
+                  "do north, north, east, etc.", except cleric is transported
+                  to destination; cleric must know path ahead of time.
+      vestments:  alb, chausable, cincture, stole, tonsure
+      components: a feather obtained from a bird
+      skills:     air, conjuration
+ 
+   cast into hell: (ard-presbytair, seirsanach)
+      prep:       "hold monstrance toward target"
+      effect:     teleports enemy to an inescapble "hell" room, where
+                  he must quit to escape.
+      vestments:  alb, chausable, cincture, stole, mitre
+      components: monstrance and a special vestment required to hold it.
+      skills:     air, conjuration
+ 

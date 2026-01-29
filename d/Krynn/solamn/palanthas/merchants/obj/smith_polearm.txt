@@ -1,0 +1,26 @@
+ ________________________________________________
+|                                                |
+|  o                Polearms                  o  |
+|      Styles                     Types          |
+|      ------         24gc        -----          |
+|      barbed                     bardiche       |
+|      blackened                  halberd        |
+|      folded-steel               partisan       |
+|      heavy                      pike           |
+|      hooked                     spear (1-hand) |
+|      light                                     |
+|      long                        /^\           |
+|      polished               A   <<->>          |
+|      pointed               //\   | |           |
+|      serrated             //  \  | |  A        |
+|      shining             //    \_| |_/\\       |
+|      short              (( <o>  _| |_  ))      |
+|                          \\    / | | \//       |
+|    <order>                \\  /  | |  V        |
+|       <style1>             \\/   | |           |
+|          <style2>           V    | |           |
+|              <type>              | |           |
+|                                                |
+|                  <check type>                  |
+|  o                                          o  |
+|________________________________________________|

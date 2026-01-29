@@ -1,0 +1,19 @@
+   This is the adventurers' guild in the drow city of Undraeth.
+
+-located in /d/Kalad/common/wild/pass/drow/shop/adv_guild and in
+            /d/Kalad/common/wild/pass/drow/shop/a_g_train.
+
+The following skills are taught at the guild:
+SS_WEP_SWORD:30
+SS_WEP_KNIFE:30
+SS_WEP_POLEARM:30
+SS_PICK_POCKET:20
+SS_HIDE:30
+SS_SNEAK:30
+SS_CLIMB:30
+SS_TRADING:30
+SS_AWARENESS:30
+SS_TRACKING:30
+SS_HUNTING:30
+
+-There are no restrictions to training.

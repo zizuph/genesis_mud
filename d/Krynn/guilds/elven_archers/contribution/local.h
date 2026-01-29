@@ -1,0 +1,5 @@
+#define CONTRIB         ("/d/Krynn/guilds/elven_archers/contribution/")
+#define CONTRIB_DATA    (CONTRIB        + "data/")
+#define CONTRIB_STD     (CONTRIB        + "std/")
+#define CONTRIB_LIB     (CONTRIB        + "lib/")
+#define MANAGER         (CONTRIB_LIB    + "manager")

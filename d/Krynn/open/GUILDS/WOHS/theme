@@ -1,0 +1,98 @@
+Wizards of High Sorcery
+=======================
+
+Structure
+---------
+The Wizards of High Sorcery (WoHS) are an occupational mage guild, based on
+a similar 'guild' in the Dragonlance series of books by Margaret Weis
+and Tracy Hickman. However, they will be treated like three sub-guilds,
+ruled by a mortal council (Conclave) of the highest member of each
+sub-guild.
+
+Each sub-guild has its own spells and skills. 
+The three sub-guilds are divided by a simple quality, alignment.
+White-robed Mages are good in alignment, from numerically +400->+1200 align.
+Red-robed Mages are neutral in alignment, from numerically -400->+400 align.
+Black-robed Mages are evil in alignment, from numerically -400->-1200 align. 
+
+Guildmaster:
+------------
+The guildmaster of this guild is Rastlin.
+
+Relevant files:
+---------------
+Guildhall:       /d/Krynn/wayreth/tower/
+Administration:  /d/Krynn/wayreth/guild/admin/admin.c
+Shadow:          /d/Krynn/wayreth/guild/obj/occ_shadow.c
+Conclave Cmds:   /d/Krynn/wayreth/guild/obj/wohs_cmd_conclave.c
+Black Robe Soul: /d/Krynn/wayreth/guild/black/mage_soul.c
+Red Robe Soul:   /d/Krynn/wayreth/guild/red/mage_soul.c
+White Robe Soul: /d/Krynn/wayreth/guild/white/mage_soul.c
+Spellbook:       /d/Krynn/wayreth/magic/spellbook.c
+Spells:          /d/Krynn/wayreth/magic/spells/
+
+** Please note that at the moment, spells are under construction, and are
+   being introduced one at a time, so that balance effects and testing can
+   occur as each is introduced. **
+
+Joining
+-------
+* Only humans and elves are allowed to join the guild.
+* No layman guilds are accepted, racial guilds will be allowed.
+* One has to be 'invited' to the guild, in a manner similar to the way
+  it occurs in the DL books...no one can find the guild hall unless they
+  have been invited to take the 'Test'.
+* A master of the Order must be present for an applicant to join.
+* Someone acting as a teacher must be present for an applicant to join.
+* The order joined will be dependent on alignment
+* The guild-stat will be reset upon joining. 
+* One joins as an apprentice mage.
+
+When joining a robe and a spellbook will be given to the applicant.
+
+Expelling and Leaving
+---------------------
+A player can be expelled/banished from the guild by the conclave members.
+If someone is banished, he/she is not able to rejoin the guild. Banishment
+by a Conclave member results in a death. Changing race to one that is not
+allowed will also lead to expulsion, but not a death.
+
+Leaving the guild will result in:
+* Clearing of the guild stat.
+* Removal of robe.
+* Removal of spellbook.
+ 
+Conclave
+--------
+The conclave consists of three members, one from each Order. One Conclave
+member also acts as the Head of the Orders.
+Conclave members have the ability to:
+* Punish/reward members in their own Order.
+* Punish/reward apprentices.
+The Head of the Order has the further ability to:
+* Punish the other members of the Conclave.
+
+Robe
+----
+The robe of the mages is the only armour they are able to wear, other than
+necklaces and ring, as well as herb-picking gloves. The robe has a wearable 
+hood which makes the player unknown to people who have them remembered, and 
+changes the adjective description of the person. All players viewing a 
+Mage hooding themselves will know who it is (if they have been introed or 
+remembered.) All players introduced to (after wearing the hood) will also 
+know and recognize the Mage. It is also possible for other players to 
+remove the hood from the Mage.
+
+Apprentice vs. Full-fledged Mage
+--------------------------------
+Upon joining the guild, one starts as an apprentice Mage. To advance to a
+full-fledged Mage with a full range of abilities and skills, an apprentice
+needs to pass the Test. The Test is an adventure that the teacher and
+Head of the Order create. When the apprentice is worthy of Mage status
+as decided by both the teacher and Head of the Order, he/she will be
+granted further status and spells.
+
+An apprentice is restricted to the first eight levels of the guild,
+out of a total of 29 levels (not including Conclave level). The apprentice
+mages are restricted to polearm and knife weapons.
+

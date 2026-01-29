@@ -1,0 +1,70 @@
+/*
+ * A pot to piss in.
+ *
+ * NCAMP_OBJ + "pot10.c"
+ *
+ * Alto, 18 November 2002
+ *
+ */
+
+
+inherit "/std/container";
+
+#include <stdproperties.h>
+#include "/d/Gondor/defs.h"
+#include "../ncamp_defs.h"
+
+object gear;
+
+void
+create_container()
+{
+    set_short("pot");
+    set_name("pot");
+    set_long("This is the proverbial pot to piss in. It is "
+        + "filled almost to the brim with murky yellow liquid.\n");
+    add_item(({"liquid", "murky liquid", "yellow liquid"}), "The "
+        + "liquid is yellow and smells terrible. This is obviously "
+        + "not where the residents of the hut store their drinking "
+        + "water.\n");
+
+    add_prop(OBJ_M_NO_GET, "Come now, you wouldn't want to take "
+        + "somebody's pot to piss in, would you? Have a heart!\n");
+    add_prop(OBJ_I_VOLUME,      10000);
+    add_prop(OBJ_I_WEIGHT,      10000);
+    add_prop(CONT_I_VOLUME,     20000);
+    add_prop(CONT_I_WEIGHT,     20000);
+    add_prop(CONT_I_MAX_VOLUME, 50000);
+    add_prop(CONT_I_MAX_WEIGHT, 50000);
+    add_prop(CONT_I_RIGID,     1);
+    add_prop(CONT_I_TRANSP,    0);
+    add_prop(CONT_I_CLOSED,    0);
+
+    setuid();
+    seteuid(getuid());
+    
+    switch (random(4))
+    {
+        case 0:
+            gear = clone_object(NCAMP_WEP + "ncamp_hscim.c");
+            gear->move(TO);
+            break;
+        case 1:
+            gear = clone_object(NCAMP_WEP + "ncamp_oclub.c");
+            gear->move(TO);
+            break;
+        case 2:
+            gear = clone_object(NCAMP_ARM + "hhelm.c");
+            gear->move(TO);
+            break;
+        case 3:
+            gear = clone_object(NCAMP_ARM + "hmail.c");
+            gear->move(TO);
+            break;
+        default:
+            gear = clone_object(NCAMP_ARM + "hshield.c");
+            gear->move(TO);
+            break;
+    }
+}
+

@@ -1,0 +1,156 @@
+main
+::MAPDATA::
+p3 1 1 thwil
+p4 1 1 thwil
+p5 1 1 thwil
+p1 1 1 thwil
+p2 1 1 thwil
+p6 1 1 thwil
+t8 1 1 thwil
+t5 1 1 thwil
+board 1 1 thwil
+t4 1 1 thwil
+bank 1 1 thwil
+notary 1 1 thwil
+t3 1 1 thwil
+t2 1 1 thwil
+t1 1 1 thwil
+t7 1 1 thwil
+t9 1 1 thwil
+ta 1 1 thwil
+tb 1 1 thwil
+shop 1 1 thwil
+a1 1 1 thwil
+h4 1 1 thwil
+h1 1 1 thwil
+h2 1 1 thwil
+h3 1 1 thwil
+h5 1 1 thwil
+h8 1 1 thwil
+h9 1 1 thwil
+h6 1 1 thwil
+h7 1 1 thwil
+a3 1 1 thwil
+a2 1 1 thwil
+a4 1 1 thwil
+gate 1 1 thwil
+t6 1 1 thwil
+herb 1 1 thwil
+alchemist 1 1 thwil
+pub 1 1 thwil
+post_office 1 1 thwil
+beach10 1 1 roke_beach_s 
+beach09 1 1 roke_beach_s
+beach08 1 1 roke_beach_s
+beach07 1 1 roke_beach_s
+beach06 1 1 roke_beach_s
+beach05 1 1 roke_beach_s
+beach04 1 1 roke_beach_s
+beach03 1 1 roke_beach_s
+beach02 1 1 roke_beach_s
+beach01 1 1 roke_beach_s
+::MAPDATA::
+
+
+
+
+::NEWMAP::
+thwil
+::MAPDATA::
+p3 16 5
+p4 20 5
+p5 24 5
+p1 20 7
+p2 16 7
+p6 24 7
+t8 20 11
+t5 16 13
+board 16 11
+t4 16 15
+bank 12 15
+notary 16 17
+t3 20 15
+t2 24 15
+t1 28 15
+t7 28 13
+ta 28 11
+tb 12 13
+t9 24 11
+shop 32 13
+a1 32 17
+h4 36 17
+h1 36 19
+h2 40 19
+h3 44 19
+h5 36 13
+h8 36 11
+h9 36 9
+h6 40 9
+h7 44 9
+a3 32 9
+a2 28 9
+a4 20 17
+gate 20 19
+t6 20 13
+herb 24 13
+post_office 12 11
+alchemist 24 9
+pub 32 11
+::MAPDATA::
+
+                  =====
+                  Thwil
+                  =====
+                
+                o - o - o           
+                |   |   |           
+                o - o - o           
+                    |               |
+                    |   A   o - o - o - o - S    T Town Hall
+                    |   |   |       |            B Bank
+            P   T   o - o - o   p - o            N Notary
+            |   | / |       |       |            A Alchemist Shop
+          - o - o   o - H   o - G   o            H Herb Shop
+                |           |       |            G General Store
+            B - o - o - o - o       |            S Ship to Gont Port
+                |   |         \     |            P Post Office
+                N   o           o - o            p Pub
+                    |               | 
+                    W               o - o - o
+::NEWMAP::
+roke_beach_s
+::MAPDATA::
+beach10 31 5
+beach09 27 7
+beach08 23 9
+beach07 23 11
+beach06 19 13
+beach05 15 15
+beach04 11 15
+beach03 7 17
+beach02 3 19
+beach01 3 21
+::MAPDATA::
+
+            ================
+            Roke Beach South
+            ================
+
+                               o^
+                             /
+                           o
+                         /
+                       o
+                       |
+                       o
+                     /
+                   o
+                 / 
+           o - o
+         /
+       o
+     /
+   o
+   |
+   o
+   |

@@ -1,0 +1,5 @@
+#include "/d/Khalakhor/sys/defs.h"
+#define  SR_OBJ "/d/Khalakhor/guilds/sean-rhian/objects/"
+#include "../local.h"
+#define  BEACH_DIR     MACDUNN_DIR+"wbeach/"
+#define  WH_CORPSE     "_wh_corpse_id"

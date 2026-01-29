@@ -1,0 +1,35 @@
+circulation 12 5
+clubs_craft_guilds 8 11
+domains 16 7
+entrance 12 3
+guides_tutorials 16 5
+headoffice 40 8
+layman_guilds 8 9
+map_reference 16 9
+ne_stairwell 20 5
+nw_stairwell 4 5
+occ_guilds 8 7
+poetry 12 11
+racial_guilds 8 5
+restorer 28 8
+theology 16 11
+upper_ne_stairwell 44 6
+upper_nw_stairwell 28 6
+waiting_room 40 6
+. . . . . . . . . . . . . . . . . . . . . . . . .
+.      Ground Floor                             .
+. +---------|---------+         2nd Floor       .
+. |         o         |   +-------------------+ .
+. |         |         |   |                   | .
+. | o - o - o - o - o |   |                   | .
+. |     |       |     |   | o           o - o | .
+. |     o       o     |   | |           |     | .
+. |     |       |     |   | o           o     | .
+. |     o       o     |   |                   | .
+. |     |       |     |   |                   | .
+. |     o - o - o     |   |                   | .
+. +-------------------+   |                   | .
+.                         +-------------------+ .
+.                                               .
+.            Genesis Library of Sparkle         .
+. . . . . . . . . . . . . . . . . . . . . . . . .

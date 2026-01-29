@@ -1,0 +1,76 @@
+PRESTIGE 
+========
+
+Introduction:
+-------------
+The Solamnian Knights base their rank on the prestige system. With higher
+prestige they come to higher level and can train more in the guild.
+
+
+Monsters&Creatures:
+-------------------
+Normal npcs _without_ prestige are not attractive for knights to kill, even
+if they are very evil. To make your NPCs valuable for knights (evil ones
+only) define the function in your NPC code:
+
+    int
+    query_knight_prestige()
+    {
+         return <prestige>;
+    }
+
+If the number is > 0 it adds prestige to the player if he kills the monster
+just like the normal experience. If the number is < 0 it removes prestige
+directly from the prestige stat.
+
+!!!!A negative number removes MORE than a positive adds!!!!
+
+Here are _guidelines_ for setting the prestige of different NPCs:
+- Evil monsters:
+    average_stat * average_stat / 10
+- Evil creatures (that are not able to think):
+    average_stat * average_stat / 40
+- Animals (neutral):
+    0
+- Good creatures (that are not able to think):
+    -1
+- Good people:
+    -1..-4
+- Holy people:
+    -4..-8
+- Quest related people (if you don't want them to be killed by knights :)
+    <= -1
+
+Bonuses may be given for special attacks, special circumstances, eg.
+a monster leading others (eg. ~20 for a standard damage special,
+~400 if the npc belongs to a group and can only be killed last of the
+bunch). Npcs which can be considered lawful evil can give a bit more
+prestige than the number mentioned above, just add something between
+20..100 to the value (depending on size, etc).
+
+Quests:
+-------
+You may also give or remove prestige from a knight for completing a
+quest! Use
+   if (player->query_guild_member("Solamnian Knights"))
+     player->change_prestige(<prestige>);
+for this. The number should be in the same range as for kills,
+ie. -8..~2000. I would think a quest that results in the disposal of
+an evil monster should give the same amount as killing the monster,
+maybe even a bit more.
+
+NOTE: The numbers given here are guidelines! The correct question to
+      ask when giving prestige to an npc is: 'What would Paladine
+      say if a knight killed this npc.' (As you probably know, Paladine
+      is the god 'responsible' for the knights :) If you feel that
+      Paladine wouldn't care in the least if a knight killed your
+      evil npc, give litte or no prestige :)
+
+
+If you have any questions for specific problems, please ask me.
+Thank you very much for taking the time with the knight prestige,
+the guildmasters of the knights, the wizards of Krynn and every
+knight player appreciates highly your support.
+
+ ~Aridor
+(original version by Percy)

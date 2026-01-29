@@ -1,0 +1,50 @@
+main
+::MAPDATA::
+swt1 2 1
+swt2 4 3
+swt3 6 5
+swt4 8 7
+swt_guardrm1 12 7
+swt5 10 9
+swt_gate1 14 9
+swt6 12 11
+swt_guardrm2 16 11
+swt7 14 13
+swt8 16 15
+swt9 18 17
+swt10 20 19
+1_archroom_1a 38 19
+st5 22 21
+st6 26 21
+st7 30 21
+st8 34 21
+1_archroom_2a 38 21
+1_archroom_3a 38 23
+1_archroom_4a 38 25
+::MAPDATA::
+
+ [ ]
+   \
+    o
+     \
+      o
+       \            ___
+        o   o      / | \
+         \   \    |  |  |
+          o   o   |  |  |
+           \ / \
+            o   o
+             \
+              o
+               \
+                o
+                 \
+                  o
+                   \
+                    o                 o
+                     \                |
+                      o - o - o - o - o
+                                      |
+                                      o
+                                      |
+                                      o

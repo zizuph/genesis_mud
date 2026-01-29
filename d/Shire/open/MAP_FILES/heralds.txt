@@ -1,0 +1,93 @@
+main
+::MAPDATA::
+start 16 10 guild
+post 16 10 guild
+library 16 10 guild
+board 16 10 guild
+train 16 10 guild
+herb 16 10 guild
+path1 14 10 path
+path2 14 10 path
+path3 14 10 path
+join 14 10 path
+::MAPDATA::
+
+                                  Annuminas
+                                      O ~~
+                 Hills of Evendium    |  ~~   +---------+
+                                      |   ~~  |THE SHIRE|
+                                       \   ~~ +---------+        Fornost
+                             Greenfields\   ~~                      o
+                                    o----\   ~~~                    |
+              ,,                          \    ~~~                  |
+          ~~ '@@'                  HOBBITON\     ~~~                |
+         ~~~  ][      Greenholm       O     \      ~~~              |
+       ~~~~               o           |     |Frogmorton             |   BREE
+     GREY HAVENS       MICHEL DELVING |     o------===--------------+----O---
+   ~~~~~~O---------------------O------+*--\/   |  Brandywine        |
+  ~~~~~~~                      |Three Farthing |    Bridge          |
+ ~~~~~~~       \               |    Stone      o   ~~~     Barrow   |
+ ~~~~~          o         Hard o            Whitfurrows     Downs   |
+ ~~~    Rockfriends      bottle \----\            ~~~               |
+ ~~                                   \--------- ~~~ o--------------\
+ ~                                             ~~~  Sarn Ford        \
+          Blue Mountains                     ~~~                      \
+                                           ~~~                         \
+
+                                           
+::NEWMAP::
+guild
+::MAPDATA::
+start 11 2
+post 11 4
+library 14 4
+board 11 6
+train 8 8
+herb 11 8
+::MAPDATA::
+                         @@@
+                        @@@@@@
+          [ ] Start   @@@@@@@@@@
+           |         @@@@@@@@@@@@
+       PO [ ] o Lib @@@@@@@@@@@@@@ 
+           | /       @@@@@@@@@@@@
+          [ ] BB        |    |/
+         / |            |    |
+  Train o [ ] Herb      |    |
+                       /      \
+
+   ====================
+   Heralds of the Valar
+   ====================
+
+
+::NEWMAP::
+path
+::MAPDATA::
+path1 24 8
+path2 19 6
+path3 19 4
+join 14 2
+::MAPDATA::
+ ~~~~~            ,,
+ ~~~~~~          '@@'
+ ~~~~~~       o   ][
+ ~~~~~~~        `,                   Tower Hills                
+ ~~~~~~~  Grey     o                 
+ ~~~~~~~ Havens    '                 ~ ERIADOR ~
+ ~~~~~~ o - o      o                
+ ~~~~~      |        `,                      
+ ~~~~~  o - o           o              
+ ~~~~~      |           '                
+ ~~~~~  o - o           o           o                    
+ ~~~~~~     |           |           |                      
+ ~~~~~~     o - o - o - o - o - o - o - o - o - o - o - o - o - o - 
+ ~~~~~~     |                 
+ ~~~~~  o - o                The Great East Road                
+ ~~~~~~     |                             
+ ~~~~   o - o                             
+ ~~~~~      |                                
+ ~~~~~  o - o                                 
+ ~~~~~~     |                               
+ ~~~~~  o - o                               
+ ~~~~~~                                      

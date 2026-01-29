@@ -1,0 +1,6 @@
+domain,quest desc,group,bit,validation,arguments
+Kalad,Priest's Dagger,3,0,default
+Kalad,Drakmere Holy Scriptures,3,1,default
+Kalad,Khiraa Entrance,3,2,default
+Kalad,Maze Quest,3,3,default
+

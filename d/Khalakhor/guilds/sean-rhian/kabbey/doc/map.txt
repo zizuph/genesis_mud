@@ -1,0 +1,33 @@
+------------------------------------------------------------------------
+                          MAP OF ST. KEOPHEN'S ABBEY
+                         1rst Guildhouse of Sean-Rhian
+------------------------------------------------------------------------
+Ground Level:
+   K  - Kirk                     K----K----K
+   Ac - Abbey Corridor           | \  |  / |
+   A  - Abbey Rooms              K----K----K
+   c  - courtyard                | /  |  \ |
+   St - Stairwell      A----Ac   K----K----K    Ac---A
+                            |         |         |
+                       A----Ac   c\   c   /c    Ac---A
+                            |       \ | /       |
+                       A----Ac---c----c----c----Ac---A
+                            |       / | \       |
+                       A----Ac   c/   c   \c    Ac---A
+                            |         |         |
+                       A----Ac---St   G    St---Ac---A
+                                      |
+                               path to Tabor Sogh
+                   about 10? rooms from south end of village
+ 
+Second Level
+   A  - Abbey Room     A----Ac                  Ac---A
+   Ac - Abbey Cooridor      |                   |
+   St - Stairwell      A----Ac                  Ac---A
+   BT - Bell Tower          |                   |
+                       A----Ac                  Ac---A
+                            |                   |
+                       A----Ac                  Ac---A
+                            |                   |
+                       A----Ac---St---BT---St---Ac---A
+ 

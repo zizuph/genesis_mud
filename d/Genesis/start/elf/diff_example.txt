@@ -1,0 +1,40 @@
+--- This is an example of a room viewed by an elf: ------------------------
+
+/d/Dville/caution/elf/room/vill_park_2
+You are standing in the park, surrounded by huge oaks, under which
+soft, green grass gently billows. Here and there are flowering bushes,
+and towards the center of the park you can glimpse the House of
+Meditations.
+  Here a small path winds its way beneath the oaks. To the southwest it
+leads to the center of the park, while it leads out of the park to the
+northeast.
+There are two obvious exits: southwest, northeast.
+> exa house
+The House of Meditations is a circular building of white marble. The
+red granite roof streches out to an outer circle of marble pillars
+surrounding the walls. Arched doorways leads to the interior hall, and
+high, narrow window openings gives it air and light.
+> exa bush
+The bushes blooms with rich and colourful exotic flowers. The gardeners
+have selected each one from a faraway location according to what
+beneficial influence its precense has on the resting mind.
+
+--- The same room viewed by a human: ---------------------------------------
+
+> look
+/d/Dville/caution/elf/room/vill_park_2
+You are standing in the park, surrounded by huge oaks, under which
+soft, green grass gently billows. Here and there are bushes, and
+further into the park you can glimpse a white marble building.
+  Here a small path winds its way beneath the oaks. To the southwest it
+leads further into the park, while it leads out of the park to the
+northeast.
+There are two obvious exits: southwest, northeast.
+> exa house
+It is a circular, temple-like building of white marble, with red
+granite roof and marble pillars. It has arched doorways and high,
+narrow window openings.
+> exa bush
+The bushes are filled with colourful flowers.
+> 
+

@@ -1,0 +1,11 @@
+
+Paying may be done with certain coin types. You may get certain
+types back also.
+
+Examples:
+pay with gold and get silver
+
+fix <armour> for copper and get gold 
+
+mend/wax/sharpen <weapon> for silver and get silver
+

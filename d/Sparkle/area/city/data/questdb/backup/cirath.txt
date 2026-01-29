@@ -1,0 +1,6 @@
+domain,quest desc,group,bit,validation,arguments
+Cirath,Gladiator Member,0,0,always_false,0,0
+Cirath,Gladiator Master Quest,0,1,false_unless_done
+Cirath,Gladiator Guru Quest,0,2,in_guild,Gladiator guild
+
+

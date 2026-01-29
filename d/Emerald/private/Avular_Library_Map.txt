@@ -1,0 +1,58 @@
+This is the Map of the Library BENEATH the single-story library
+facade in the center of Avular
+===============================================================
+
+
+             A---+ <>
+                 | /
+                 |/
+                 +---->>                   LEVEL ONE
+                 |
+                  \
+                   +
+                  / \
+                 /   \
+                <>   <>
+
+
+                      <<
+                       |
+           <>----<>----+                   LEVEL TWO
+                       |
+                 <>----+
+                 |
+                 >>
+
+
+                 <<----+
+                       |
+                       |
+                       |                   LEVEL THREE
+                       +
+                      /|\
+                     / | \
+                    <> <> <>
+                    |                
+                    >>
+
+		    
+                    <>     <>
+                     \     /
+                      \<B>/
+                       \|/ 
+                       [+]                 LEVEL FOUR
+                        |
+                  <<----+
+
+
+
+
+Legend
+------
+
+ A  = Hidden entrance/exit to uppper level facade.
+ <> = Large Book Storage Chambers
+ >> = Stairs Leading Down
+ << = Stairs Leading Up
+[+] = Huge Locked Door
+<B> = Ancient chamber of the Planar Council

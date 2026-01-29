@@ -1,0 +1,267 @@
+main
+::MAPDATA::
+f1 28 3
+f2 26 5
+f3 30 5
+f4 22 7
+f5 26 7
+f6 30 7
+f7 26 9
+f8 30 9
+f9 34 9
+f10 31 11
+f11 24 13
+f12 29 13
+f13 20 15
+f14 24 15
+f15 28 15
+f16 24 17
+f17 28 17
+f18 27 19
+f19 26 21
+f20 31 21
+f21 2 23 
+f22 6 23
+f23 10 23
+f24 14 23
+f25 18 23
+f26 22 23
+f27 26 23
+f28 30 23
+f29 34 23
+f30 21 25
+f31 27 25
+m1 18 9
+m2 22 9
+m3 16 11
+m4 22 11
+m5 26 11
+m6 14 13
+m7 20 13    
+m8 12 15
+m9 16 15
+m10 12 17
+m11 16 17
+m12 20 17
+m13 10 19
+m14 14 19
+m15 18 19
+m16 22 19
+m17 6 21
+m18 10 21
+m19 14 21
+m20 18 21
+m21 22 21
+m22 5 25
+m23 14 25
+m24 22 27
+m25 26 27
+m26 24 29
+p1 6 5
+p2 10 5
+p3 14 7
+f1_up 1 1 treehouse
+f2_up 1 1 treehouse
+f3_up 1 1 treehouse
+f4_up 1 1 treehouse
+f5_up 1 1 treehouse
+f6_up 1 1 treehouse
+f7_up 1 1 treehouse
+f8_up 1 1 treehouse
+f9_up 1 1 treehouse
+f10_up 1 1 treehouse
+f11_up 1 1 treehouse
+f12_up 1 1 treehouse
+f13_up 1 1 treehouse
+f14_up 1 1 treehouse
+f15_up 1 1 treehouse
+f16_up 1 1 treehouse
+f17_up 1 1 treehouse
+f18_up 1 1 treehouse
+f19_up 1 1 treehouse
+f20_up 1 1 treehouse
+f21_up 1 1 treehouse
+f22_up 1 1 treehouse
+f23_up 1 1 treehouse
+f24_up 1 1 treehouse
+f25_up 1 1 treehouse
+f26_up 1 1 treehouse
+f27_up 1 1 treehouse
+f28_up 1 1 treehouse
+f29_up 1 1 treehouse
+f30_up 1 1 treehouse
+f31_up 1 1 treehouse
+m1t 1 1 tent
+m2t 1 1 tent
+m3t 1 1 tent
+m4t 1 1 tent
+m5t 1 1 tent
+m6t 1 1 tent
+m7t 1 1 tent
+m8t 1 1 tent
+m9t 1 1 tent
+m10t 1 1 tent
+m11t 1 1 tent
+m12t 1 1 tent
+m13t 1 1 tent
+m14t 1 1 tent
+m15t 1 1 tent
+m16t 1 1 tent
+m17t 1 1 tent
+m18t 1 1 tent
+m19t 1 1 tent
+m20t 1 1 tent
+m21t 1 1 tent
+m22t 1 1 tent
+m23t 1 1 tent
+m24t 1 1 tent
+m25t 1 1 tent
+m26t 1 1 tent
+::MAPDATA::
+
+
+
+ To Farm                    o
+    \                      / |      
+      o - o               o - o
+            \           / |   |
+              o       o - o - o
+                \   / |   |   | \
+                  o - o - o - o - o
+                 /    |   |   |  /
+                o --- o - o -- o
+               /     /   /    /    /\
+              o  -- o - o -- o    /@@\
+             / \    |   |    /    /^^\
+            o - o - o - o - o      || 
+            |   |   |   |   |  /\     /\
+            o - o - o - o - o /^^\   //\\
+           /   /   /   /   /   ||    //\\
+          o - o - o - o -  o          ||
+        / |   |   |   | \    \
+      o - o - o - o - o - o  - o	
+    / |   |   |   |   |   |   /  \
+  o - o - o - o - o - o - o - o - o   /\
+   \  |     \ |    \  |   |  /       /**\
+     o    /\  o      o --- o         `/\`
+         /**\        \     /         /^^\
+        /****\   /\   o - o           ||
+       /      \ /**\   \ /
+      /  /\    /    \   o    /\    /\  /\      /\            /\/\/\  /\
+     /  /  \  /      \      /  \/\/  \/  \  /\/  \/\  /\  /\/ / /  \/  \
+    /  /    \/ /\     \    /    \ \  /    \/ /   /  \/  \/  \  /    \   \
+   /  /      \/  \/\   \  /      \    /   /    \
+  
+::NEWMAP::
+treehouse
+::MAPDATA::
+f1_up 31 18 
+f2_up 31 18 
+f3_up 31 18 
+f4_up 31 18 
+f5_up 31 18 
+f6_up 31 18 
+f7_up 31 18 
+f8_up 31 18 
+f9_up 31 18 
+f10_up 31 18 
+f11_up 31 18 
+f12_up 31 18 
+f13_up 31 18 
+f14_up 31 18 
+f15_up 31 18 
+f16_up 31 18 
+f17_up 31 18 
+f18_up 31 18 
+f19_up 31 18 
+f20_up 31 18 
+f21_up 31 18 
+f22_up 31 18 
+f23_up 31 18 
+f24_up 31 18 
+f25_up 31 18 
+f26_up 31 18 
+f27_up 31 18 
+f28_up 31 18 
+f29_up 31 18 
+f30_up 31 18 
+f31_up 31 18 
+::MAPDATA::
+                        vv
+                     vvv^^^^vvvvv
+                 vvvvvvvvv^^vvvvvv^^vvvvv
+        vvvvvvvvvvv^^^^^^^^^^^^^vvvvv^^^vvvvv
+    vvvvvvv^^^^^^^^^vvv^^^^^^^vvvvvvvvvvv^^^vvv
+  vvvv^^^^^^vvvvv^^^^^^^vv^^^^^^^vvvv^^^vvvvvv
+ vv^^^^^^^^vvv^^^^^vv^^^^vvvvvvvvvvvv^^^^^^vv^
+ vvv^^^^^vvvv^^^^^^vvvvv^^vvvvvvvvv^^^^^^vvvvv^
+  vvvvvvvvvv^^^v^^^vvvvvv^^vvvvvvvvvv^^^vvvvvvvvv
+   ^vv^^^vvvvvvv^^vvvvv^^^^^^^^vvvvvvvvv^^^^^^vvvvvv
+     ^vvvvvvvvv^^^^vvvvvv^^^^^^vvvvvvvv^^^vvvvvvvvvv^v
+        ^^^^^^vvvv^^vvvvv^vvvv^^^v^^^^^^vvvvvv^^^^vvvvv
+ vvvv^^vvv^^^vvvvvvvvvv^vvvvv^vvvvvv^^^vvvvvvv^^vvvvv^
+vvv^vvvvv^^vvvvvvv^^vvvvvvv^^vvvvv^v^^vvv^vvvv^^vvvvv^v
+ ^vvvvvv^^vvvvvvvv^vv^vvv^^^^^^vvvv^^vvvvvvvvv^^^^
+    ^^vvvvvvv^^vvvvvvvvvv^^^^/^^^^vvv^#vvvv^^^
+         ^^vvvvvv^^^^^^vvvvvvvvv^^^^^^vvvvvv^v
+              ^^vvvvvvvvvvv^^^^^^^vvvv^^^vvvvvv
+                    \_  ^\     o        / _/^^
+                      \   \ _______ _/| |/
+                       \\ ||___:]______/
+                        \   ;=; /
+                         |  ;=;|
+                        ()  ;=;|
+                         || ;=;|
+                        / / \;=;\
+                        
+::NEWMAP::
+tent
+::MAPDATA::
+m1t 29 13
+m2t 29 13
+m3t 29 13
+m4t 29 13
+m5t 29 13
+m6t 29 13
+m7t 29 13
+m8t 29 13
+m9t 29 13
+m10t 29 13
+m11t 29 13
+m12t 29 13
+m13t 29 13
+m14t 29 13
+m15t 29 13
+m16t 29 13
+m17t 29 13
+m18t 29 13
+m19t 29 13
+m20t 29 13
+m21t 29 13
+m22t 29 13
+m23t 29 13
+m24t 29 13
+m25t 29 13
+m26t 29 13
+::MAPDATA::
+                                                
+                ..e=******=e..                         
+              .r""    **        ^"4.                     
+           .@"        *           .d$b.                  
+         z$b.        *"        .d$$$$$$$c                
+       .$$$$$$bc.    *    .e$$$$$$$$$$$$$$c              
+      d$$$$$$$$$$$$bdbe$$$$$$$$$$$$$$$$$$$$$.            
+     d$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$b           
+    $$$$$$$$$$$$$$$$$$$$$$$$$$$F*$$$$$$$$$$$$$$          
+   $$$$$$$$$$$$$$$$$$$$$$$$$$$%3   ^"**$$$$$$$$$.        
+  d$$$$$$$$$$$$$$$$$$$$$$$$$$"  *         .^$$$$$        
+ 4$$$$$$$$$$$$$$$$$$$$$$$$$"    *          "^$$$$$       
+ $$$$$$$$$$$$$$$$$$$$$$$*"       *           ^$$$$L      
+4$$$$$$$$$$$$$$$$$$$$"       o   '*            "$*"      
+$$$$$$$$$$$$$$$$$$$$$             *        .=""          
+ "*$$$$$$$$$$$$$$$$$$             ^*  .r^"               
+    ^*$$$$$$$$$$$$$$$            ..*"                    
+        "$$$$$$$$$$$P        .=""                        
+           "*$$$$$$$    ./^"                             
+              "*$$$L.="                                  
+                 "

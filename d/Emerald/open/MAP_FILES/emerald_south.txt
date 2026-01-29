@@ -1,0 +1,583 @@
+main
+::MAPDATA::
+circle_dock 26 17 docks
+dock 28 10 main
+ferry_dock 28 16 docks
+gate01 46 10 main
+gate04 46 7 main
+grunts_entrance 53 5 main
+hidden_beach 28 22 docks
+lower_ground 48 5 main
+path1 46 6 main
+rmc_dock 30 17 docks
+telberin_dock 28 17 docks
+telberin_gates 28 20 docks
+forest_path 28 7 switchbacks
+pathway1 29 3 switchbacks
+switchback1 29 5 switchbacks
+switchback2 28 4 switchbacks
+switchback3 29 4 switchbacks
+switchback4 28 3 switchbacks
+switchback_base 28 6 switchbacks
+gate02 46 8 outpost_outside
+gate03 46 8 outpost_outside
+netower01 46 8 outpost_outside
+netower02 46 8 outpost_outside
+nwtower01 46 8 outpost_complex
+nwtower02 46 8 outpost_complex
+outpost01 46 8 outpost_complex
+outpost02 46 8 outpost_complex
+outpost03 46 8 outpost_complex
+outpost04 46 8 outpost_complex
+outpost05 46 8 outpost_complex
+outpost06 46 8 outpost_complex
+outpost07 46 8 outpost_complex
+outpost08 46 8 outpost_complex
+outpost09 46 8 outpost_complex
+outpost10 46 8 outpost_outside
+setower01 46 8 outpost_outside
+setower02 46 8 outpost_outside
+swtower01 46 8 outpost_outside
+swtower02 46 8 outpost_outside
+trophy_10x1 62 0 ogre_trophy
+trophy_10x10 62 0 ogre_trophy
+trophy_10x2 62 0 ogre_trophy
+trophy_10x3 62 0 ogre_trophy
+trophy_10x4 62 0 ogre_trophy
+trophy_10x5 62 0 ogre_trophy
+trophy_10x6 62 0 ogre_trophy
+trophy_10x7 62 0 ogre_trophy
+trophy_10x8 62 0 ogre_trophy
+trophy_10x9 62 0 ogre_trophy
+trophy_1x1 62 0 ogre_trophy
+trophy_1x10 62 0 ogre_trophy
+trophy_1x2 62 0 ogre_trophy
+trophy_1x3 62 0 ogre_trophy
+trophy_1x4 62 0 ogre_trophy
+trophy_1x5 62 0 ogre_trophy
+trophy_1x6 62 0 ogre_trophy
+trophy_1x7 62 0 ogre_trophy
+trophy_1x8 62 0 ogre_trophy
+trophy_1x9 62 0 ogre_trophy
+trophy_2x1 62 0 ogre_trophy
+trophy_2x10 62 0 ogre_trophy
+trophy_2x2 62 0 ogre_trophy
+trophy_2x3 62 0 ogre_trophy
+trophy_2x4 62 0 ogre_trophy
+trophy_2x5 62 0 ogre_trophy
+trophy_2x6 62 0 ogre_trophy
+trophy_2x7 62 0 ogre_trophy
+trophy_2x8 62 0 ogre_trophy
+trophy_2x9 62 0 ogre_trophy
+trophy_3 62 0 ogre_trophy
+trophy_3x1 62 0 ogre_trophy
+trophy_3x10 62 0 ogre_trophy
+trophy_3x2 62 0 ogre_trophy
+trophy_3x3 62 0 ogre_trophy
+trophy_3x4 62 0 ogre_trophy
+trophy_3x5 62 0 ogre_trophy
+trophy_3x6 62 0 ogre_trophy
+trophy_3x7 62 0 ogre_trophy
+trophy_3x8 62 0 ogre_trophy
+trophy_3x9 62 0 ogre_trophy
+trophy_4x1 62 0 ogre_trophy
+trophy_4x10 62 0 ogre_trophy
+trophy_4x2 62 0 ogre_trophy
+trophy_4x3 62 0 ogre_trophy
+trophy_4x4 62 0 ogre_trophy
+trophy_4x5 62 0 ogre_trophy
+trophy_4x6 62 0 ogre_trophy
+trophy_4x7 62 0 ogre_trophy
+trophy_4x8 62 0 ogre_trophy
+trophy_4x9 62 0 ogre_trophy
+trophy_5x1 62 0 ogre_trophy
+trophy_5x10 62 0 ogre_trophy
+trophy_5x2 62 0 ogre_trophy
+trophy_5x3 62 0 ogre_trophy
+trophy_5x4 62 0 ogre_trophy
+trophy_5x5 62 0 ogre_trophy
+trophy_5x6 62 0 ogre_trophy
+trophy_5x7 62 0 ogre_trophy
+trophy_5x8 62 0 ogre_trophy
+trophy_5x9 62 0 ogre_trophy
+trophy_6x1 62 0 ogre_trophy
+trophy_6x10 62 0 ogre_trophy
+trophy_6x2 62 0 ogre_trophy
+trophy_6x3 62 0 ogre_trophy
+trophy_6x4 62 0 ogre_trophy
+trophy_6x5 62 0 ogre_trophy
+trophy_6x6 62 0 ogre_trophy
+trophy_6x7 62 0 ogre_trophy
+trophy_6x8 62 0 ogre_trophy
+trophy_6x9 62 0 ogre_trophy
+trophy_7x1 62 0 ogre_trophy
+trophy_7x10 62 0 ogre_trophy
+trophy_7x2 62 0 ogre_trophy
+trophy_7x3 62 0 ogre_trophy
+trophy_7x4 62 0 ogre_trophy
+trophy_7x5 62 0 ogre_trophy
+trophy_7x6 62 0 ogre_trophy
+trophy_7x7 62 0 ogre_trophy
+trophy_7x8 62 0 ogre_trophy
+trophy_7x9 62 0 ogre_trophy
+trophy_8x1 62 0 ogre_trophy
+trophy_8x10 62 0 ogre_trophy
+trophy_8x2 62 0 ogre_trophy
+trophy_8x3 62 0 ogre_trophy
+trophy_8x4 62 0 ogre_trophy
+trophy_8x5 62 0 ogre_trophy
+trophy_8x6 62 0 ogre_trophy
+trophy_8x7 62 0 ogre_trophy
+trophy_8x8 62 0 ogre_trophy
+trophy_8x9 62 0 ogre_trophy
+trophy_9x1 62 0 ogre_trophy
+trophy_9x10 62 0 ogre_trophy
+trophy_9x2 62 0 ogre_trophy
+trophy_9x3 62 0 ogre_trophy
+trophy_9x4 62 0 ogre_trophy
+trophy_9x5 62 0 ogre_trophy
+trophy_9x6 62 0 ogre_trophy
+trophy_9x7 62 0 ogre_trophy
+trophy_9x8 62 0 ogre_trophy
+trophy_9x9 62 0 ogre_trophy
+magma 62 0 ogre_trophy
+num_officer 62 0 ogre_trophy
+sph_officer 62 0 ogre_trophy
+joinroom 62 0 ogre_interior
+adv_off_train 62 0 ogre_exterior
+aod_shop 62 0 ogre_interior
+bank 62 0 ogre_interior
+bbroom 62 0 ogre_interior
+blackwall_room 62 0 ogre_interior
+cave_room 62 0 ogre_interior
+chaos_area 62 0 ogre_exterior
+control_room 62 0 ogre_interior
+council 62 0 ogre_interior
+courtyard 62 0 ogre_exterior
+defensive_train 62 0 ogre_exterior
+drop_room 62 0 ogre_interior
+elite_train 62 0 ogre_exterior
+forge 62 0 ogre_interior
+glow_arm_drop 62 0 ogre_interior
+glow_arm_drop2 62 0 ogre_interior
+glow_wep_drop 62 0 ogre_interior
+grunts_entrance 62 0 ogre_interior
+mess_hall 62 0 ogre_interior
+middle_ground 62 0 ogre_exterior
+misc_drop 62 0 ogre_interior
+norm_arm_drop 62 0 ogre_interior
+norm_wep_drop 62 0 ogre_interior
+offensive_train 62 0 ogre_exterior
+ogre_train 62 0 ogre_exterior
+post 62 0 ogre_interior
+repository 62 0 ogre_exterior
+start 62 0 ogre_interior
+storage 62 0 ogre_interior
+tower 62 0 ogre_interior
+tunnel1 62 0 ogre_interior
+tunnel2 62 0 ogre_interior
+tunnel3 62 0 ogre_interior
+tunnel4 62 0 ogre_interior
+tunnel5 62 0 ogre_interior
+::MAPDATA::
+              _ /\@@@@@@@@@@@@@@@@@@/\~~~~~~~/\/\                 /
+    /\       / \  \~~~~~~~~~~__~~~^ ~~~~__~~/\/   Beware of      /
+   /  \  /\   /\@@@@@@@@@@@@/  \~| |~~~/  \/  \/\   Ogres!   _/\/               
+ \/ _  \/  \/\  \ /\@@/\/\@/    \ ~~~~/    \  /  @@@@@@@@/\ // /
+  \/ \  \/\/  \     \/\/  \/\    \~~~/ /\/\ \ @@@@@@@/ \/  \_ /       /\
+  /   \ /  \   \    /  \  /  \/\ |||| /  \@@@@  o @@/ U \  / \     /\/  \/
+@@@@@@@/                 /    \ \(((( @@@@@@  o   @@@@@@@@@@@@@@@@/ /   /
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ (((( @@@@  ,`-o--\ @@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ ~~~ @@@   \-``-\/ @@ Outpost @@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@      ~~~          |     @@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@  o - ~~~ - - - - - o        @@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@@@@@@@@@@@@@@
+@@@~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~@@@@@@@@@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ _______~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~ Docks ~ o ~~ ,. __-'_____   `.~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~ o-o-o ,  /\________\      .~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~_|_ ,  / /   ^    |\      .~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~,' |    |\/ __|||__ | | Telberin~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~:   o----: |<__ @ __>| |   City ~~~~~~~~~~~~~~~~~~
+~~~~ Lake ~~~~~~~~~~~~~~~.       | |   |||   /\|      .~~~~~~~~~~~~~~~~~~~
+~~~~~~ Telberin ~~~~~~~~~~~,      \|____v___/ /      .~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.    \________\/    .~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ . . . . . . . ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+::NEWMAP::
+docks
+::MAPDATA::
+circle_dock 8 9
+ferry_dock 18 4
+hidden_beach 18 26
+rmc_dock 28 9
+telberin_dock 18 9
+telberin_gates 18 20
+::MAPDATA::
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~Ferry to North Shore~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.  .  .~~.~~.~~.~.    
+~~~~~~~~~~~~~~~~~___ ~~~~~~~~~~~~~~~~~~~~~.                           
+~~~~~~~~~~~~~~~~| o |~~~~~~~~~~~~~~~~~~~~.        _______________________
+~~~~~~~~~~~~~~~~| | |~~~~~~~~~~~~~~~~~~~.        /-----------------------
+~~~~~~~ Boat to | | |~~~ Ship to ~~~~~~.        //                  o    
+~~~~~~~ Sparkle | | |~~~~ Poros ~~~~~~~.       //                 /   \  
+~~~~~ __________| | |__________~~~~~~~.       //    #-----------#  ~~~  o
+~~~~~|  o - - - - o - - - - o  |~~~~~.       //   / ############|  ~~~  |
+~~~~~ ==========. | .========== ~~~~~.      //  ###### Science #|  ~~~  |
+~~~~~~~~~~~~~~~~| | |~~~~~~~~~~~~~~~.      //  / # \   Quarter #|  ~~~  |
+~~~~~~~~~~~~~~~~| | |~~~~~~~~~~~~~.       //  ###### \ ##########  ~~~  o
+~~~~~~~~~~~~~~~~| | |~~~~~~~~~~.         //  / ####### \ #######|  ~~~  |
+~~~~~~~~~~~~.  .| | |. . . '            ||  ############ \ #####|  ~~~  |       
+~~~~~~~~~.        |                     ||  | Mercantile # \ ###|  ~~~  |
+~~~~~~~.          |                     ||  |  Quarter ##### \ ##  ~~~  o
+~~~~~.            |                     ||  |################ /   \   /  
+~~~~              |                     ||  #-------#-------#   @   o   @
+~~~~.             |                     ||/ ~~~~~~~~~~~~~~~~~ \   /   \  
+~~~          \|/  o - - - - - - - - - -o-o  ~~~~~~~~~~~~~~~~~   o   M   o
+~~~ .                \|/     City Gates ||\ ~~~~~~~~~~~~~~~~~ /   \   /  
+~~~~      \|/               of Telberin ||  o-------o-------o   @   o   @
+~~~~.           \|/                     ||  | Mercantile      \   /   \  
+~~~~~                 \|/               ||  |  Quarter       /  o  ~~~  #
+~~~~~~.     \|/                         ||  |              /    |  ~~~  |
+~~~~~~~~~~.                             ||  #            /      |  ~~~  |
+~~~~~~~~~~~~~~.   .                      \\  \         /        |  ~~~  |
+::NEWMAP::
+switchbacks
+::MAPDATA::
+forest_path 14 19
+pathway1 22 3
+switchback1 22 11
+switchback2 14 7
+switchback3 22 7
+switchback4 14 3
+switchback_base 14 15
+::MAPDATA::
+          \/       \  |  /          \ ~~~~~~~~~~./         \~~~~__~~/
+           \        \ | /  /\        \ ~~~~~~~~/            \~~/  \/
+               /\ /\  |   /  \/\      \ ~~~~~~/              \/    \/\
+           /\ o - - - o  /   /  \      _.-~~~/      ___      /     /  \
+       /\ /  \ `.       /        \_.-'~~~~~~/      /   \    /     /    \
+      /  \    \  `.              /    /  _./      /     \  /     /      \
+    /\             `.   /\      | / /    ,/    _ /       \/              \
+   /  \/\     o - - -`o/  \ /\ || ||  / /     / \         \
+  /    \ \/\   `.     /  /\/  \   | |   '                      /\
+  /\     /  \    `.     / /    | | | | |    /\                /  \
+\/  \      /\      `.       /\     |   | /\/  \          /\  /    \/\     ^
+ \   \  /\/  \       `o/\  /  \ |     |   /             /  \/     /  \   /|\
+       /  \   \     ,'/  \/    |    |  | /             /   /   ^         /|\
+      /        \  ,' /    \    |   |  ||              /       /|\     ^
+  ^             ,'  /           | | |  .        ^         ^   /|\    /|\
+ /|\    ^     o'               |   |  ||       /|\       /|\         /|\   ^
+ /|\   /|\    |    ^            | |  |         /|\  ^    /|\    ^         /|
+    ^  /|\    |   /|\  ^     ((,`(:((;))     ^     /|\  ^      /|\   ^    /|
+   /|\     ^  |   /|\ /|\  ((;(`(',((;)     /|\    /|\ /|\  ^  /|\  /|\
+   /|\  ^ /|\ o      ^ |\ ~~~~~~~~~~    ^   /|\ ^      /|\ /|\      /|\ ^
+     ^ /|\/|\ |  ^  /|\  ~~~~~~~~~~~   /|\     /|\       ^ /|\         /|\
+^   /|\/|\    | /|\ /|\ ~~~~~~~~~~~~~~ /|\ ^   /|\      /|\        ^   /|\
+|\  /|\   ^   | /|\    ~~~~~~~~~~~~~~~~   /|\           /|\    ^  /|\
+::NEWMAP::
+outpost_complex
+::MAPDATA::
+outpost01 38 13
+outpost02 38 11
+outpost03 42 9
+outpost04 42 11
+outpost05 42 13
+outpost06 34 13
+outpost07 34 11
+outpost08 34 9
+outpost09 38 9
+::MAPDATA::
+                                      |
+  .--.--.--.--.--.--.--.--.--.--.--.__|__.--.--.--.--.--.--.--.--.--.--.--.
+ | .--___--------------------------'``|``' -------------------------___--. |\
+  .|\/_ /_=========================\| |   \========================/_ /_ |. \
+ | |\/__\/\                           |                            /__\/\| |\
+  .|\\   \o - - - - - - - - - - - - - o - - - - - - - - - - - - - -\o  \ |. \
+ | |\     |                           |                             |    | |\
+  .|\     |                    _______|_____                        |    |. \
+ | |\     |                   |\=====:|:====|\                      |    | |\
+  .|\     |                   ||  o.  o  ,o ||                      |    |. \
+ | |\     |                   ||    `.|,'   ||                      |    | |\
+  .|\     |                   ||  o - o - o ||                      |    |. \
+ | |\     |                   ||    ,'|`.   ||                      |    | |\
+  .|\     |                   ||__o'__o__`o_||                      |    |. \
+ | |\ ___ |                    \=====:|:=====\                      |__  | |\
+  .|\/_ /_|                           |                            /_ /_ |. \
+ | |\/__\/\                           |                            /__\/\| |\
+  .|\\   \o - - - - - - - - - - - - - o - - - - - - - - - - - - - -\o  \ |. \
+ | |\_________________________________|__________________________________| |\
+  `--^--^--^--^--^--^--^--^--^--^--'``|``'--^--^--^--^--^--^--^--^--^--^--' \
+    \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\| |   \\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\/
+                                      |
+::NEWMAP::
+outpost_outside
+::MAPDATA::
+gate02 38 17
+gate03 38 5
+netower01 68 5
+netower02 69 3
+nwtower01 10 5
+nwtower02 7 3
+outpost10 37 10
+setower01 68 17
+setower02 69 15
+swtower01 10 17
+swtower02 7 15
+::MAPDATA::
+                                      |
+  .--.--.--.--.--.--.--.--.--.--.--.__|__.--.--.--.--.--.--.--.--.--.--.--.
+ | .--___--------------------------'``|``' -------------------------___--. |\
+  .|\/_ /_=========================\| |   \========================/_ /_ |. \
+ | |\/__\/\                           |                            /__\/\| |\
+  .|\\   \o - - - - - - - - - - - - - o - - - - - - - - - - - - - -\o  \ |. \
+ | |\     |                           |                             |    | |\
+  .|\     |                    _______|_____                        |    |. \
+ | |\     |                   |   _____     |\                      |    | |\
+  .|\     |                   |  |\====|\   ||                      |    |. \
+ | |\     |                   |  ||  o ||   ||                      |    | |\
+  .|\     |                   |  ||____||   ||                      |    |. \
+ | |\     |                   |   \=====\   ||                      |    | |\
+  .|\     |                   | ____________||                      |    |. \
+ | |\ ___ |                    \=====:|:=====\                      |__  | |\
+  .|\/_ /_|                           |                            /_ /_ |. \
+ | |\/__\/\                           |                            /__\/\| |\
+  .|\\   \o - - - - - - - - - - - - - o - - - - - - - - - - - - - -\o  \ |. \
+ | |\_________________________________|__________________________________| |\
+  `--^--^--^--^--^--^--^--^--^--^--'``|``'--^--^--^--^--^--^--^--^--^--^--' \
+    \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\| |   \\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\/
+                                      |
+::NEWMAP::
+ogre_interior
+::MAPDATA::
+aod_shop 65 9
+bank 49 13
+bbroom 9 13
+blackwall_room 0 0
+cave_room 0 0
+control_room 0 0
+council 9 4
+drop_room 0 0
+forge 69 19
+glow_arm_drop 37 5
+glow_arm_drop2 0 0
+glow_wep_drop 33 3
+grunts_entrance 0 0
+joinroom 3 13
+mess_hall 73 13
+misc_drop 42 7
+norm_arm_drop 39 6
+norm_wep_drop 35 4
+post 49 9
+start 31 2
+storage 0 0
+tower 3 16
+tunnel1 31 8
+tunnel2 41 13
+tunnel3 53 19
+tunnel4 65 13
+tunnel5 9 8
+::MAPDATA::
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^_^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^___ ^^^^^^/ \^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  o   / _^^^^/   \^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^ Throne ^^^^^^^^^^^^^  ,'|  /  / _^Drop  \^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^    o     ^^^^^^^^^   ,'  | /  /  / Rooms\ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^     |     ^^^^^^^   ,'  ^ |  ^/  /  / _/  \/\ ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^    |    ^^^^^^   ,'  ^^^ | ^^^^/  /  /   /  \  ^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^   |   ^^^^^   ,'  ^^^^^ | ^^^^^^/  / ^^^^^^^^^^^^^^^^^^^^^^^^^^^    ^^^
+Tower^^  o  ^^^^   ,'  ^^^^^^^ o  ^^^^^/\/ ^^  Post  ^^^^^^^^  Shop ^^      ^^
+^^ |^^^^ | ^^^   ,'  ^^^^^^^^^  `. ^^^/  \ ^^    o   ^^^^^^^^    o  ^^      ^^
+^|| |^^^ | ^^  ,'  ^^^^^^^^^^^^^  `.  ^^^^^^^  ,'    ^^^^^^^^    |  ^^ MESS!^^
+^|| |^^^ |   ,'  ^^^^^^^^^^^^^^^^^  `.  ^^^  ,'  ^^^^^^^^^^^^^^^ |  ^^ Hall ^^
+//   |^^ | ,'  ^^^^^^^^^^^^^^^^^^^^^  `.   ,'       ^^^^^^^^^^^^ | ^^^      ^^
+|| o |^  o'   ^^^^^^^^^^^^^^^^^^^^^^^^  `o'- - - o  ^^^^^^^^^^^  o - - - o  ^^
+|| / | ,'     ^^^^^^^^^^^^^^^^^^^^^^^^^^  `.    Bank^^^^^^^^^  .'           ^^
+|| / ,'  Board^^^^^^^-^---^---^^^^^^^^^^^^  `. ^^^^^^^^^^^^  .'   ^^^^^    ^^^
+|| o'  ^^^^^^^^^^^^^|OGRE GUILD|^^^^^^^^^^^^  `. ^^^^^^^^  .'  ^^^^^^^^^^^^^^^
+ ,'  ^^^^^^^^^^^^^^^|(interior)|^^^^^^^^^^^^^^  `. ^^^^  ,'  ^^^^^^        ^^^
+   ^^^^^^^^^^^^^^^^^^---^^-----^^^^^^^^^^^^^^^^^  `. ^ ,'  ^^^^^^   Forge  ^^^
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  `o'- - - - - - - o     ^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    ^^^^^^^^^          ^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^          ^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+::NEWMAP::
+ogre_trophy
+::MAPDATA::
+trophy_10x1 14 21
+trophy_10x10 50 21
+trophy_10x2 18 21
+trophy_10x3 22 21
+trophy_10x4 26 21
+trophy_10x5 30 21
+trophy_10x6 34 21
+trophy_10x7 38 21
+trophy_10x8 42 21
+trophy_10x9 46 21
+trophy_1x1 14 3
+trophy_1x10 50 3
+trophy_1x2 18 3
+trophy_1x3 22 3 
+trophy_1x4 26 3
+trophy_1x5 30 3
+trophy_1x6 34 3
+trophy_1x7 38 3
+trophy_1x8 42 3
+trophy_1x9 46 3
+trophy_2x1 14 5
+trophy_2x10 50 5
+trophy_2x2 18 5
+trophy_2x3 22 5
+trophy_2x4 26 5
+trophy_2x5 30 5
+trophy_2x6 34 5
+trophy_2x7 38 5
+trophy_2x8 42 5
+trophy_2x9 46 5
+trophy_3x1 14 7
+trophy_3x10 50 7
+trophy_3x2 18 7
+trophy_3x3 22 7
+trophy_3x4 26 7
+trophy_3x5 30 7
+trophy_3x6 34 7
+trophy_3x7 38 7
+trophy_3x8 42 7
+trophy_3x9 46 7
+trophy_4x1 14 9
+trophy_4x10 50 9
+trophy_4x2 18 9
+trophy_4x3 22 9
+trophy_4x4 26 9
+trophy_4x5 30 9
+trophy_4x6 34 9
+trophy_4x7 38 9
+trophy_4x8 42 9
+trophy_4x9 46 9
+trophy_5x1 14 11
+trophy_5x10 50 11
+trophy_5x2 18 11
+trophy_5x3 22 11
+trophy_5x4 26 11
+trophy_5x5 30 11
+trophy_5x6 34 11
+trophy_5x7 38 11
+trophy_5x8 42 11
+trophy_5x9 46 11
+trophy_6x1 14 13
+trophy_6x10 50 13
+trophy_6x2 18 13
+trophy_6x3 22 13
+trophy_6x4 26 13
+trophy_6x5 30 13
+trophy_6x6 34 13
+trophy_6x7 38 13
+trophy_6x8 42 13
+trophy_6x9 46 13
+trophy_7x1 14 15
+trophy_7x10 50 15
+trophy_7x2 18 15
+trophy_7x3 22 15
+trophy_7x4 26 15
+trophy_7x5 30 15
+trophy_7x6 34 15
+trophy_7x7 38 15
+trophy_7x8 42 15
+trophy_7x9 46 15
+trophy_8x1 14 17
+trophy_8x10 50 17
+trophy_8x2 18 17
+trophy_8x3 22 17
+trophy_8x4 26 17
+trophy_8x5 30 17
+trophy_8x6 34 17
+trophy_8x7 38 17
+trophy_8x8 42 17
+trophy_8x9 46 17
+trophy_9x1 14 19
+trophy_9x10 50 19
+trophy_9x2 18 19
+trophy_9x3 22 19
+trophy_9x4 26 19
+trophy_9x5 30 19
+trophy_9x6 34 19
+trophy_9x7 38 19
+trophy_9x8 42 19
+trophy_9x9 46 19
+magma 38 26
+num_officer 54 26
+sph_officer 10 26
+::MAPDATA::
+########################################################################
+######################                    ##############################
+############                                        ####################
+##########    o - o - o - o - o - o - o - o - o - o   ##################
+########      | x | x | x | x | x | x | x | x | x |    #################
+########      o - o - o - o - o - o - o - o - o - o    #################
+########      | x | x | x | x | x | x | x | x | x |     ### Officer's ##
+#########     o - o - o - o - o - o - o - o - o - o     ### Quarters ###
+#########     | x | x | x | x | x | x | x | x | x |    ####  and the ###
+##########    o - o - o - o - o - o - o - o - o - o     ###  Trophy  ###
+###########   | x | x | x | x | x | x | x | x | x |     #### Chamber ###
+###########   o - o - o - o - o - o - o - o - o - o      ###############
+##########    | x | x | x | x | x | x | x | x | x |      ###############
+###########   o - o - o - o - o - o - o - o - o - o     ################
+###########   | x | x | x | x | x | x | x | x | x |     ################
+#########     o - o - o - o - o - o - o - o - o - o    #################
+##########    | x | x | x | x | x | x | x | x | x |    #################
+##########    o - o - o - o - o - o - o - o - o - o     ################
+###########   | x | x | x | x | x | x | x | x | x |    #################
+###########   o - o - o - o - o - o - o - o - o - o   ##################
+##########    | x | x | x | x | x | x | x | x | x |    #################
+###########   o - o - o - o - o - o - o - o - o - o   ##################
+#############                         |             ####################
+###############        #########      |  ###############################
+######     ########################   | ##############           #######
+####         #######################  | ###########                #####
+###       o - - - - - - - - - - - - - o - - - - - - - o             ####
+####         #######################################            ########
+########################################################################
+########################################################################
+::NEWMAP::
+ogre_exterior
+::MAPDATA::
+adv_off_train 25 4
+chaos_area 35 23
+courtyard 39 19
+defensive_train 5 7
+elite_train 18 1
+middle_ground 39 25
+offensive_train 25 9
+ogre_train 17 13
+repository 39 14
+::MAPDATA::
+                      __/  \              /                  \       /         
+   /\            .o. / /    \/\        __/                   _\_    /         /
+  /  \__       .'   `.      /  \      / /                   /   \  /         /
+\/   /  \/\  .'       `.             /   __              __/     \/         /
+ \      /  .'           `o  /\     _/__ /  \            /        /         /
+         .'              | /  \   /         \_                  /         /
+       .'                |       /                             /         /
+     o'                  |  __  /               ___  Darkling /         /
+      `.   Training      | /  \/       ___     /   \  Tower  /         /
+        `.    Zone       o/    \_  ___/   \_  /             /         /
+          `.           ,'/             __   \              /         /
+            `.       ,' /     __  /\  /##\   \_           /   ..    /
+       /\     `.   ,'  /     /  \/   |####|               \  / /   /
+      /  \   /\ `o'         /   /  /\|####|                \/ /   /
+     /    \ /  \_ ` .          /  /  \ |   \ /\           . '/   /             
+           \  _/ \  /\` .     /        |    /  \      . '    \  /             /
+             /    \/  \   ` .          |          . '         \/             /
+            /      \   \  /\/\` .      |      . '   /\         ` .          /
+                        \/  \ \   ` .  |  . '_ /\  /  \            ` .     /
+                         \     \  __  `o'   / /  \/    \  /\           ` ./____
+                          Chaos  I%%I  |   /     /      \/  \
+                           Gate I%%%%I |                /            _/\
+                            _  _I%%%%I |                            /   \/\
+                           / \/  \=== \|                                /  \
+                          /   \   \=== |
+                         /         \== o
+                                       |

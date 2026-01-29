@@ -1,0 +1,20 @@
+
+These commands are added by the pipe of the Shires:
+
+ adore Nob Nar            Start to sing for Nob Nar.
+ recite <number>          Sing a merry song. There are 9 of them.
+ shuffle [player]         Do a fancy dance (with a player).
+ wigg    [player]         Make a magic gesture (at a player).
+ barf    [player]         Puke all over (someone).
+ bonk    <player>         Bonk a player on the head with your pipe.
+ message <player> <text>  Send a message to one guild member. [msg]
+ emessage <pl> <feeling>  Send a feeling to one guild member. [emsg]
+ shon                     Turn the Shire-line  on.
+ shoff                    Turn the Shire-line  off.
+ shirelist                Print a list of all active guild members. [sl]
+ smoke <tobacco>          Smoke some tobacco for pleasure.
+ smell the air            Try to smell the scent of tobacco in a room.
+ polish pipe              Polish your pipe.
+ break pipe               Destruct the pipe.
+ leave guild              Free yourself of the Hin Warrior Guild.
+

@@ -1,0 +1,48 @@
+# Spells are WoHS only, accessible in the Wayreth library.
+^ Spells are advanced spells. Only WoHS have advanced spell slots
+
+Unmarked spells can be obtained by SoHM.
+
+Spell documentation for each spell can be found in 
+/d/Krynn/guilds/sohm/doc/ in their respective spell 
+category folder.
+
+(C) Cantrip
+(M) Minor spell
+(L) Lesser spell
+(G) Greater spell
+(A) Advanced spell
+
+Spell directory:  /d/Krynn/guilds/sohm/spells/
+
+Protection - divination (M)   /d/Krynn/guilds/sohm/spells/protect_divination.c
+Portents and omens (G)        /d/Krynn/guilds/sohm/spells/portents_and_omens.c             
+Shatter (C)                   /d/Krynn/guilds/sohm/spells/shatter.c        
+Water breathing	(M)           /d/Krynn/guilds/sohm/spells/breath_water.c	
+Featherweight (M)             /d/Krynn/guilds/sohm/spells/featherweight.c        
+Flaming fist (L)              /d/Krynn/guilds/sohm/spells/flaming_fist.c       
+Gravity (G)                   /d/Krynn/guilds/sohm/spells/gravity.c         
+Shadow veil (L)               /d/Krynn/guilds/sohm/spells/shadow_veil.c     
+Wind gust (C)                 /d/Krynn/guilds/sohm/spells/wind_gust.c       
+Ballistic spray (M)           /d/Krynn/guilds/sohm/spells/ballistic_spray.c
+Geyser (L)                    /d/Krynn/guilds/sohm/spells/geyser.c
+Scouring wind (L)             /d/Krynn/guilds/sohm/spells/scouring_wind.c 
+Teleport (G)                  /d/Krynn/guilds/sohm/spells/teleport.c
+#Mirror portal (C)            /d/Krynn/guilds/sohm/spells/mirror_portal.c  
+#Identify (M)                 /d/Krynn/guilds/sohm/spells/identify.c
+#Detect resistance (M)        /d/Krynn/guilds/sohm/spells/detect_resistance.c
+#Rune of welcome (C)          /d/Krynn/guilds/sohm/spells/rune_of_welcome.c
+#Dazzle (slow) (M)            /d/Krynn/guilds/sohm/spells/dazzle.c
+#Haste (G)	              /d/Krynn/guilds/sohm/spells/haste.c
+^Team teleport (A)            /d/Krynn/guilds/sohm/spells/teleport_team.c  
+^Fireball (A)                 /d/Krynn/guilds/sohm/spells/fireball.c  
+^Chain lightning (A)          /d/Krynn/guilds/sohm/spells/chain_lightning.c  
+^Meteor storm (A)             /d/Krynn/guilds/sohm/spells/meteor_storm.c  
+^Storm fury (A)               /d/Krynn/guilds/sohm/spells/storm_fury.c  
+^Detonate (A)                 /d/Krynn/guilds/sohm/spells/detonate.c 
+^Eruption (A)                 /d/Krynn/guilds/sohm/spells/eruption.c
+^Arcane vulnerability (A)     /d/Krynn/guilds/sohm/spells/vulnerability_magic.c                                 
+^Protection - Magic (A)       /d/Krynn/guilds/sohm/spells/protect_magic.c
+^Greater magic shield (A)     /d/Krynn/guilds/sohm/spells/greater_magic_shield.c    
+
+            

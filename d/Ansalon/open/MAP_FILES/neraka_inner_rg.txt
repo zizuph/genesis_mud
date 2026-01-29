@@ -1,0 +1,71 @@
+main
+::MAPDATA::
+tunnel 44 16 neraka_inner
+::MAPDATA::
+                        
+                                                                            
+      N                 
+      ^                                         
+      |                                       _                    _____      
+   <--o-->                                  ,/ \                  /    /      
+      |                              __     |   \,    ,     ,    `\_^_\       
+      =                            _/  \  _/`    |  _/|    /|__     _ '       
+                        __      __/    / |       / /  |   /_  /    / \_       
+                        \ \    /^    [] _|      / /  /`     |/     \   \      
+             ,_          \ |  |^  Kalaman`     /_/  /       '       []Mithas  
+             | \         /^ [] ^           ^        |              /___/      
+             |^@\    Palanthas^      ^    ^        /'              ____       
+             | ^@\       |  ^        ^    ^   ^^  /                \  /       
+     __     /`  ^@|      | ^  []Vingaard     ^^   |                /__\       
+    /^^\    \  ^@ |      | ^    Keep     ^^ Neraka|/\              `  '       
+   /^^^^\    \___/       | ^           ^^^^[ ]    '  \                      
+   \^^^^^|                \ ^      @  ^  ^           |           ,            
+  |\|@__/    _____,        |    ^  @   ,[ ]^^^       |        __/|            
+  |@_/      /     |        |   ^  @@ __|Sanction_  _ `\  _/\_/   |            
+  |/       /@ ^   |        |____/\__/   _/` ^^ | \/ |  []`       |            
+           |@^|\_/                     /   ^^^ |__  \ Flotsam,/| |            
+           | @|___           ____      |  ^^^   ,/   \       | | |            
+           '\_@  /          /    \ { } |  ^ ^   |Port []    /   \|            
+              \_/         ,/  ^  |     '\ ^  ^  Balifor\___/     '            
+                     Solace []   |   _   |^  ^    \                 
+                         / @@   /   | \  \         \         { }   
+                     New Ports[]    |  |_|          \__     
+                        | @@@  \  ,/'           Kurinost[]            
+                       / @@@@@  \_|                 @@@@@@@\                  
+                 
+
+::NEWMAP::
+neraka_inner
+::MAPDATA::
+tunnel 32 18
+::MAPDATA::
+
+   :::      |   :::   |      /  |  \      |   :::   |   :::
+   ::: o -- o   ::: T-o                   o-P :::   o   :::
+   ::: |    |   :::   |       TEMPLE      |   :::   |   :::
+   ::: w    o   :::   o         OF        o   :::   o   :::
+   :::      |   :::   |      TAKHISIS     |   :::   |   :::
+   :::      o   ::: B-o                   o --[o]-- o-A :::
+   :::      |   :::   |                   |   :::   |   :::
+   ::: S -- o    ::   o                   o  :::    o   :::
+   :::      |      ,'   `,             ,'  :::   ,'   `,:::
+   :::      o   [o]        o -- o -- o  ::::   o        [x] -- Blue
+    :::     | ,'   ::      |    |     :::   ,'          :::    Gate
+     :::    o       :::    E    o   :::   o            :::
+      :::,'   `,      :::       | :::  ,'             :::
+   -- [x]        o      :::::::[o]   o               :::
+        :::      | `,           | ,'                :::
+ Green   :::     t    o -- o -- o                  :::
+ Gate     :::                   |                 :::
+           ::::::::::::::::::::[x]::::::::::::::::::
+                                |
+                               Red
+                               Gate
+
+                      ~= Inner City of Neraka =~
+
+     P  Post Office of Neraka           w  warehouse
+     T  Dragonrider Tower               A  Ogdil's Armours
+     B  Bank of Neraka                  S  Dragon Smithy
+     t  Red Dragon Tavern               E  Inner Temple Exotic Shop
+           

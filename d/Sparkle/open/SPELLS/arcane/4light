@@ -1,0 +1,17 @@
+Name: Light
+
+Object: /d/Sparkle/guilds/arcane/spells/light.c
+
+Cost:
+
+Skills:
+
+Description: Tier 4 spell
+                 Targets: N/A
+		 Creates an orb of light around the caster,
+		 effective for a few levels of light.
+
+Requirements:
+    SS_ELEMENT_LIFE
+    SS_FORM_DIVINATION
+    Lime

@@ -1,0 +1,17 @@
+main
+::MAPDATA::
+i_wall6 2 1
+i_wall5 6 1
+i_wall4 10 1
+i_wall1 2 3
+i_wall3 10 3
+i_wall2 6 7
+::MAPDATA::
+
+ [ ]- o -[ ]    _   _   _   _
+  |       |    | |_| |_| |_| |
+  o      [ ]   |             |
+   \     /
+    \   /
+     \ /
+      o

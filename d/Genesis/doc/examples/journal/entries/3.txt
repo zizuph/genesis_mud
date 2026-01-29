@@ -1,0 +1,6 @@
+To cast foobar, you need to always think of your grandmother's cookies
+and wish for world peace. Ahhh ... now that you know that, we'll set the
+prop that lets you cast the spell successfully.
+
+Go ahead, try and <cast foobar> now that you know the proper method!
+::SET_PROP::_can_cast_foobar_now::PROP_VALUE::1

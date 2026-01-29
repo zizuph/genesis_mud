@@ -1,0 +1,405 @@
+
+UPDATED SPELL HARM SYSTEM:                 Arman Kharas, September 2020
+=======================================================================
+
+Original spell success issues:
+------------------------------
+* With harm spells relying on resolve_task calculations to determine
+success, a stat average player of 160 with 75 in spell skills, 
+TASK_DIFFICULT spells can be cast at 100% success. 
+* Additional combat aid is applied for spells of increasing
+difficulty (between 3% to 33% extra). As bigger players essentially
+have no spell fail, this approach is not a true reflection justifying
+the extra caid and very unbalancing. 
+* Spell success does not take into account the skills, stats, or
+other factors of the target.
+
+Updated spell success 
+---------------------
+Spell success will now mirror how melee success works in cb_tohit 
+functionality. This is determined in the query_success function of
+/d/Genesis/specials/std/spells/centralized_spell.c
+
+Base spell success is now a static % determined by the spell 
+difficulty setting:
+    TASK_EASY        - 100%
+    TASK_ROUTINE     - 97%
+    TASK_HARD        - 85%
+    TASK_DIFFICULT   - 65%
+
+There is an initial success chance check impacting wearers of a 
+shield (or two shields) in the modify_casting_success function of 
+/d/Genesis/specials/spell.c
+
+There is a chance of spell failure if you are wearing a shield that
+covers more than your arm (i.e more than 1 query_shield_slot)
+
+For one shield worn, the spell fail chance is:
+* 2% when wearing a shield with 2 shield slots (i.e. arm and body)
+* 4% when wearing a shield with 3 shield slots (i.e. arm, legs and body)
+* 10% when wearing a shield with 3+ shield slots
+
+For two shields worn, the spell fail chance is:
+* 40% base regardless of the shield slots covered
+* 50% when wearing shields with 2 shield slots 
+* 60% when wearing shields with 3 shield slots
+* 70% when wearing shields with 3+ shield slots
+
+If this check is failed, base spell success returns 0%.
+
+If the caster passes the shield success check, spells will check for
+spell difficulty and specific target skills/stats in a similar fashion
+to how cb_tohit works.
+
+SKILL CHECK:
+If the spell is classified as query_ability_offensive, the success chance
+takes into account the target's SS_SPELLCRAFT skill and SS_FORM_ABJURATION
+skill in the same way cb_tohit takes in to account SS_DEFENCE and
+SS_PARRY.
+
+As most npc's don't have SS_SPELLCRAFT or SS_FORM_ABJURATION, average stat
+is taken as the proxy of the average of these two skills for npcs (only!
+not players!):
+* min(200, (tmp + (target->query_average_stat() / 2)))
+
+Through a fixnorm formula mirroring cb_tohit, an attacker with 100% raw 
+'success' chance and an opponent with superior guru in spellcraft and 
+abjuration (or an npc with skills plus half stat average of 200+), they 
+would have a revised 'hit' chance of 66.67% spell success chance.
+
+STAT CHECK:
+The success chance then is modified by attacker and defender SS_DIS stat.
+In combat situations the requirement to apply knowledge on how to cast or
+avoid spells at the right moment comes down to mental discipline.
+
+Again using fixnorm formulas mirroring cb_tohit, two opponents with: 
+* equal SS_DIS will result in a modifier of 0.
+* the attacker with 200 SS_DIS vs 150 SS_DIS would have a modifier of
+  +7.14% to spell success.
+* the attacker with 150 SS_DIS vs 200 SS_DIS would have a modifier of
+  -7.14% to spell success.
+
+The final spell success value is then compared to a random(100) check.
+
+NOTE FOR HEALS etc:  For spells with a target that isn't classified as
+an offensive target (through query_ability_offensive()), such as heals,
+or self-targeting spells, or non-combat spells, there is no stat check 
+against a target's SS_DIS. 
+
+However, the caster must make a fixnorm check comparing their own SS_DIS 
+against the average of their SS_INT and SS_WIS that will modify the
+success result: 
+* result += 2 * fixnorm(dis, mentals);
+
+So if the caster has SS_INT and SS_WIS of 150 and an SS_DIS of 100, their
+chance of successfully casting the spell is reduced by 20%.
+
+The reasoning behind this is that if they are not disciplined enough they 
+will struggle to control their own magical power. The more disciplined the
+caster the better able they are at casting some of the more formidable
+and difficult spells.
+
+Original spell penetration issues
+---------------------------------
+Special attack damage is determined through the calculate_pen function of 
+~centralized_spell.c and the calculate_damage function in
+/d/Genesis/specials/std/damage.c
+
+While both melee special attacks use F_PENMOD to come up with the penetration
+result value that gets fed in to hit_me to determine damage, what values
+they have put in to F_PENMOD was very different and capped in different ways,
+resulting in some balance issues at the higher stat mortal levels.
+
+See 'issues_wit_existing_spell_system.txt' for specifics.
+
+The re-code of the calculate_pen function is aimed to:
+* make the determination of damage aligned to how ~damage.c works.
+* make magic resistance align more closely to how armour protection works
+for ~damage.c
+
+
+Updated spell penetration 
+-------------------------
+The updated spell system changes the values that go in to F_PENMOD to be
+more consistent with melee special attacks, and so scale similarly.
+
+F_PENMOD(penetration, skill):
+
+=======================   F_PENMOD PENETRATION VALUE   =========================
+For melee specials, 'penetration' is the pen value of the wielded weapon.
+
+For spells, 'penetration' value is determined through the query_spell_weapon_class
+function of ~centralized_spells.c, and will be described to the players as the
+caster's 'spell power'.
+
+Casters have a natural spell power, but can also leverage the spell power of magical
+items that may have a higher value (i.e. magical staves, wands, orbs, rings of power etc).
+Also, the spell power of 'at will' spells uses a formula for determining 'spell power'
+more closely aligned to the original way penetration was determined for at-will spells. 
+
+NATURAL SPELL POWER: 
+The 'default' penetration value determined by a player's skills and stats. 
+This is determined through F_SPELLPOWER_PEN and is capped at 68.  
+
+Within ~centralized_spell.c the function F_SPELLPOWER_PEN(element_skill, mental) is 
+defined as:
+F_SPELLPOWER_PEN(skill, mental) (ftoi(itof(skill) / 2.85) + (mental) / 25)
+
+This formula is similar in design in determining unarmed pen values (F_UNARMED_PEN).
+
+So a caster with a spell elemental skill of superior guru and 100 mental stat (defaults
+to SS_INT, but can be modified within the spell) would have a F_SPELLPOWER_PEN of:
+
+F_SPELLPOWER_PEN(100, 100) = (100 / 2.85) + 100 / 25 = 39
+
+The same caster with a 300 mental stat would have a F_SPELLPOWER_PEN of:
+F_SPELLPOWER_PEN(100, 300) = (100 / 2.85) + 100 / 25 = 47
+
+ITEM ENHANCED SPELLPOWER:
+Natural spell power will not be able to generate the pen values that magical weapons will
+for melee special attacks. However, the spell power of a worn / held / wielded item with 
+(int) query_magic_spellpower() defined in it that is higher than the caster's natural
+spell power will be used instead.
+
+So Gandalf's Staff may have a query_magic_spellpower defined as 55. If this value is
+higher than the caster's natural spell power it will be used instead.
+
+When determining appropriate query_magic_spellpower values for items, thematics are important.
+In general, held items (wands, orbs, grimoires, totems) > two-handed staves > other weapons.
+
+Item's offering query_magic_spellpower need to be defined as magical items with the appropriate
+properties defined.
+
+As with magical weapon pen values, query_magic_spellpower values should not exceed 60 without 
+good reason (noting that the value is hardcapped at 68 anyway).
+
+AT-WILL SPELLPOWER:
+At-will spells have always had their pen values determined differently, dependent on
+their unique mana regen rate. The formula used previously will be maintained, although
+capped at 68:
+
+at_will_mana = (((1 + 100 * wisdom * spellcasting / 50000) * AT_WILL_SPELL_TIME / 
+                F_INTERVAL_BETWEEN_MANA_HEALING) + 1) * AT_WILL_MANA_COST_FACTOR / 100.0
+
+spellpower = 10.0 * log(13.0 * (at_will_mana) * 100.0 / AT_WILL_MANA_COST_FACTOR)
+
+=========================   F_PENMOD SKILL VALUE   =================================
+For melee specials, 'skill' is the special skill value of the guild. Typically it 
+caps at 100.
+
+For magic harm spells, the 'skill' value currently defaults to 100, but is supposed 
+to be overwritten within spells to take into account guild strength calculations.
+
+This has been implemented inconsistently. Morgul Mages take it into account, however 
+other guilds should consider incorporating something like the following in to their 
+spells or standard spell base:
+
+public int
+query_spell_guild_strength()
+{
+    if(!IS_MEMBER(this_player())) return 0;
+    if(this_player()->query_wiz_level()) return 100;
+    if(this_player()->query_npc()) return 100;
+    return MAX(0, MIN(100, (this_player()->query_stat(SS_OCCUP) * 100) / 150));
+}
+
+The query_spell_guild_strength function caps at 100.
+
+
+F_PENMOD modifications
+----------------------
+As with melee specials, after F_PENMOD is determined (what we refer to as base PENMOD)
+the result from this calculation is modified to take in to account caster stats, spell 
+difficulty, and target spell resistances.
+
+STAT MODIFICATION OF RESULT:
+Spells now use the same formula as melee specials to determine the impact of stats.
+Previously this modification capped this modification to a maximum of 10%.
+
+result * F_STR_FACTOR(stat_modifier) / 100;
+
+The 'stat modifier' defaults to SS_INT, but can be modified in the spell set-up to 
+suit the theme of the guild. F_STR_FACTOR is defined in /sys/formulas.h
+
+Atwill spells retain their stat benefit cap of 10%, so they become less an 
+effective spell option as a player gets bigger.
+
+SPELL COMBAT AID MODIFICATION:
+The pen result is modified based on the caid of the spell plus 'lost caid' 
+(estimated caid lost due to 'white damage' being blocked when casting):
+
+result = result * caid / 100.0;
+
+CAST TIME MODIFIER
+The time modifier from the previous system is maintained.
+
+result = (result * (query_ability_prep_time() + query_ability_cooldown_time())) / 5.
+
+This means that if the cast/cooldown time is less than 5 heartbeats, the result is 
+reduced, while if it is longer the result is increased.
+
+SPELL DIFFICULTY MODIFIER
+With spell difficulty now meaningfully impacting spell casting success, the pen 
+modifier due to spell difficulty now actually makes sense!
+
+result = result * 100 / get_success_factor();
+
+get_success_factor = 75 for TASK_DIFFICULT, 87 for TASK_HARD, and 95 for TASK_ROUTINE
+which equates to 33%, 15%, and 5% boost to the result.
+
+TARGET SPELL RESISTANCE MODIFIER
+How spell resistance impacts pen changes considerably with the updated system.
+
+For the previous system spell resistance was far more impactful against spells. 
+For the updated system, resistance will mirror how melee specials are mitigated 
+with armour through using the F_NEW_DAMAGE formula.
+
+So, changes to /d/Genesis/specials/resist.c will replace the current resistance 
+check with F_NEW_DAMAGE(pen, random(100), resist_value).
+
+This will result in the following check:
+
+//   if (random(100) < (resist/2) return 0; // pen result of zero; 
+//
+//  else
+//
+//  pen = pen * (200 - 2 * (resist)) / (200 - (resist)))
+
+So that at 100% resistance the chance of returning 0 pen is 50%, but then pen 
+result value is reduced to 0 anyway by the second formula.
+
+50% resistance would have a 25% chance to return a 0 pen result, otherwise the pen
+result is reduced by 33%.
+
+If it is a vulnerability value (i.e. a negative resistance) the pen value increases.
+
+So -100% resistance (100% vulnerability) would result in an increase of 33% to the 
+pen value.
+
+This will mean resistances will have less of an impact mitigating spell
+damage, and that vulnerability will result in less of a benefit for spell
+casters.
+
+int caid = (resistance * 100) / (100 - resistance).
+int resistance = (100 * caid) / (100 + caid).
+
++=======================================================================+
+|MAGIC_I_RES_*                            |  Old resistance system      |
++=============+==============+============+=============================+
+| Resistance  |   Chance of  | Spell pen  |   Chance of  | Spell pen    |
+| (%)         |   0 pen      | Reduction  |   0 pen      | Reduction    |
+|             |              | /Increase  |              | /Increase    |
++=============+==============+============+==============+==============+
+| 100%        |   50%        |  x0.00     |   80%        | x0.00        |
+|  90%        |   45%        |  x0.18     |   72%        | x0.10        |
+|  80%        |   40%        |  x0.33     |   64%        | x0.20        |
+|  70%        |   35%        |  x0.46     |   56%        | x0.30        |
+|  60%        |   30%        |  x0.57     |   48%        | x0.40        |
+|  50%        |   25%        |  x0.67     |   40%        | x0.50        |
+|  40%        |   20%        |  x0.75     |   32%        | x0.60        |
+|  30%        |   15%        |  x0.82     |   24%        | x0.70        |
+|  20%        |   10%        |  x0.94     |   16%        | x0.80        |
+|  10%        |    5%        |  x0.97     |    8%        | x0.90        |
+|   0%        |    0%        |  x1.00     |    0%        | x1.00        |
+| -10%        |    0%        |  x1.05     |    0%        | x1.05        |
+| -20%        |    0%        |  x1.09     |    0%        | x1.10        |
+| -40%        |    0%        |  x1.17     |    0%        | x1.20        |
+| -60%        |    0%        |  x1.23     |    0%        | x1.30        |
+| -80%        |    0%        |  x1.28     |    0%        | x1.40        |
+|-100%        |    0%        |  x1.33     |    0%        | x1.50        |
++=============+==============+============+==============+==============+
+At-will spells will be less effective against targets with resistance
+vulnerability, benefiting only half (50%) of the negative resistance
+value.
+
+
+
+TESTING - SCALING SPELL PEN VALUES:
++=======================================================================+====+
+|TEST SCENARIOS (superior craftsman skills [60])                        |    |
++========================+========+=======+========+=========+==========+====+
+|                Player  |  Spell | Spell |  Spell |  Spell  |  Spell   |Mana|
+|                Stat av |  Caid  | Diff  |  Time  |  Power  |  Pen     |    |
++========================+========+=======+========+=========+==========+----+
+| OotS new heal   100    |   50   | ROUT  |   7    |  25     |  208     | 30 |
+| OotS old heal   100    |   50   | ROUT  |   7    |  41     |  295     | 30 |
+| OotS new heal   100    |   50   | ROUT  |   7    |  60     |  413     | 30 |
+
+| OotS new heal   250    |   50   | ROUT  |   7    |  31     |  384     | 30 |
+| OotS old heal   250    |   50   | ROUT  |   7    |  56     |  427     | 30 |
+| OotS new heal   250    |   50   | ROUT  |   7    |  60     |  661     | 30 |
++=======================================================================+====+
+|TEST SCENARIOS (superior guru skills [100])                            |    |
++========================+========+=======+========+=========+==========+====+
+|                Player  |  Spell | Spell |  Spell |  Spell  |  Spell   |Mana|
+|                Stat av |  Caid  | Diff  |  Time  |  Power  |  Pen     |    |
++========================+========+=======+========+=========+==========+----+
+|  PoT new heal   100    |  210   | HARD  |   6    |  39     |   868    | 30 |
+|  PoT old heal   100    |  210   | HARD  |   6    |  46     |   996    | 30 |
+|  PoT new heal   100    |  210   | HARD  |   6    |  60     |  1259    | 30 |
+|  PoT old heal   250    |  210   | HARD  |   6    |  61     |  1403    | 30 |
+|  PoT new heal   250    |  210   | HARD  |   6    |  45     |  1556    | 30 |
+|  PoT new heal   250    |  210   | HARD  |   6    |  60     |  2016    | 30 |
+|                        |        |       |        |         |          |    |
+| base new harm   100    |  100   | ROUT  |   4    |  39     |  277     | 30 |
+| base old harm   100    |  100   | ROUT  |   4    |  46     |  317     | 30 |
+| base new harm   100    |  100   | ROUT  |   4    |  60     |  403     | 30 |
+| base old harm   250    |  100   | ROUT  |   4    |  61     |  448     | 30 |
+| base new harm   250    |  100   | ROUT  |   4    |  45     |  496     | 30 |
+| old sohm atwil  100    |   36   | HARD  |  15    |  53     |  503     | 12 |
+| new sohm atwil  100    |   36   | HARD  |  15    |  53     |  503     | 12 |
+| old sohm atwil  250    |   36   | HARD  |  15    |  62     |  641     | 29 |
+| new sohm atwil  250    |   36   | HARD  |  15    |  62     |  641     | 29 |
+| base new harm   250    |  100   | ROUT  |   4    |  60     |  644     | 30 |
+| max old atwill  100    |   60   | HARD  |  15    |  53     |  793     | 12 |
+| max new atwill  100    |   60   | HARD  |  15    |  53     |  793     | 12 |
+| max old atwill  250    |   60   | HARD  |  15    |  62     |  1013    | 29 |
+| max new atwill  250    |   60   | HARD  |  15    |  62     |  1013    | 29 |
+| new MM harm     100    |  245   | DIFF  |  6     |  38     |  1144    | 30 |
+| old sohm harm   100    |  113   | HARD  |  12    |  46     |  1155    | 30 |
+| old MM harm     100    |  245   | DIFF  |  6     |  46     |  1330    | 30 |
+| new sohm harm   100    |  113   | HARD  |  12    |  60     |  1462    | 30 |
+| old sohm harm   250    |  113   | HARD  |  12    |  61     |  1627    | 30 |
+| new MM harm     100    |  245   | DIFF  |  6     |  60     |  1684    | 30 |
+| new sohm harm   250    |  113   | HARD  |  12    |  45     |  1806    | 30 |
+| old MM harm     250    |  245   | DIFF  |  6     |  61     |  1876    | 30 |
+| new MM harm     250    |  245   | DIFF  |  6     |  44     |  2053    | 30 |
+| new sohm harm   250    |  113   | HARD  |  12    |  60     |  2339    | 30 |
+| new MM harm     250    |  245   | DIFF  |  6     |  60     |  2692    | 30 |
+|                        |        |       |        |         |          |    |
++========================+========+=======+========+=========+==========+----+
+* Spell power for new spells varies depending on 'spell power' of items.
+  The lower spell power values in the list above are when the spell is cast
+  with no boosting to spell power.
+
+WHAT NEEDS TO BE CONSIDERED BEFORE TRANSITION
+---------------------------------------------
+
+* at-will spells and mana regeneration.
+
+WHAT NEEDS TO BE DONE ON TRANSITION
+-----------------------------------
+Items need spell power added to them.
+
+Spells need to be modified to include:
+* incorporate F_NEW_DAMAGE in to /d/Genesis/specials/resist.c
+
+* cap vulnerability value at 100 in above file.
+
+* update resistance help files.
+
+* change cb_hit_me in /std/combat/cbase.c to be consistent with melee specials:
+phit value change to phit = random(phit) + random(phit) + random(phit) + random(phit);
+
+* need to decide the stat that determine damage for magic guilds. By default, I am 
+thinking cleric guilds (EC, PoT, OotS, Worshippers, Heralds) use SS_WIS.. mage guilds
+(SoHM, WoHS, MM, Warlocks) use SS_INT. Minstrels uniquely use SS_DEX and SS_DIS.
+
+* masking of query_spell_weapon_class_stat_influencer if SS_INT isn't the damage stat
+for the guild
+
+* query_spell_guild_strength should be masked for those guilds that don't currently
+have it
+
+
+

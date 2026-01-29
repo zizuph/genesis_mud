@@ -1,0 +1,379 @@
+Proposed changes to spell system - Arman May 2020
+========================================================================
+
+Please read 'Existing spell system and identified issues' first to
+understand the identified issues.
+
+FIXES:
+
+========================================================================
+SPELL SUCCESS CHANCE:
+========================================================================
+
+Option 1: Cap success chance
+============================
+Chance of success cannot exceed the maximum likelihood for the type
+of task, aligned to the bonus combat aid they get for such spells... 
+so maximum success values for each spell difficulty is:
+
+    // TASK_EASY        - 100%
+    // TASK_ROUTINE     - 97%
+    // TASK_HARD        - 85%
+    // TASK_DIFFICULT   - 65%
+
+How we do this?
+Option 1a: Cap stat benefit at 100.
+-----------------------------------
+Change success function in /d/Genesis/specials/spells.c so that the
+benefit from stats doesn't surpass 100, meaning success will be
+effectively capped at the above %s. Proposed function change
+(Cotillion, will this work?):
+
+public mixed *
+query_casting_success_task()
+{
+    return ({ 
+            SKILL_WEIGHT, 70, query_spell_element_skill(),
+            SKILL_WEIGHT, 70, query_spell_form_skill(),
+            SKILL_WEIGHT, 20, TS_INT,
+            SKILL_WEIGHT, 20, TS_WIS,
+            SKILL_WEIGHT, 20, TS_DIS, 
+            });
+}
+
+to: 
+
+public mixed *
+query_casting_success_task()
+{
+    return ({ 
+            SKILL_WEIGHT, 70, query_spell_element_skill(),
+            SKILL_WEIGHT, 70, query_spell_form_skill(),
+            SKILL_WEIGHT, 20, min(100, TS_INT),
+            SKILL_WEIGHT, 20, min(100, TS_WIS),
+            SKILL_WEIGHT, 20, min(100, TS_DIS), 
+            });
+}
+
+Option 1b: Remove stats from the success equation.
+--------------------------------------------------
+Have success purely be based on the spell form and element skill:
+
+public mixed *
+query_casting_success_task()
+{
+    return ({ 
+            SKILL_WEIGHT, 100, query_spell_element_skill(),
+            SKILL_WEIGHT, 100, query_spell_form_skill(),
+            });
+}
+
+Option 1c: Have the stats of the target (if there is one)
+be taken into account when determining success.
+----------------------------------------------------------
+This would be complicated... and would potentially result in another
+form of spell immunity for players with high mentals. Probably not
+desirable.
+
+Option 2: Leave spell success as is, but remove combat aid benefit
+==================================================================
+Essentially decouple spell difficulty and combat aid benefit. Does
+make spell difficulty a pretty redundant spell element though.
+
+Option 3: Introduce a cb_tohit for spellcasting - PREFERRED OPTION
+==================================================================
+Copy cb_tohit functionality in to centralized_spell.c and modifying
+it into the query_success function to suit spellcasting
+
+/*
+ * Function:    query_success
+ * Description: Determines whether this spell has been cast successfully.
+ * Arguments:     1. (object) the actor
+ *                2. (object) the target
+ *                3. (string)   arguments to ability invocation
+ * Returns:       1 - ability "succeeded".
+ *                0 - ability failure, meaning that player should
+ *                    immediately be able to use ability again and skip
+ *                    the cooldown period.
+ */
+
+public int
+query_success(object actor, object target, mixed *items)
+{
+    int tmp;
+
+    // Base % success chance based on spell difficulty
+    int result = get_success_chance();
+
+    // Modified spell success based on wearing a shield
+    result = modify_casting_success(result, actor);
+
+    // Success modified depending on living target and whether
+    // it is an offensive spell.
+    if(living(target))
+    {
+        if(query_ability_offensive())
+        {
+            // Target spellcraft and Abjuration skills provide
+            // a chance to influence spell success
+            tmp = (int) target->query_skill(SS_SPELLCRAFT);    
+            tmp += target->query_skill(SS_FORM_ABJURATION);
+
+            //  As most npcs don't have SS_SPELLCRAFT or ABJURATION 
+            //  skill, an additional defensive element is considered 
+            //  based on half their stat average up to a maximum 
+            //  combined defensive value of 200.
+
+            if(target->query_npc())
+                tmp = min(200, (tmp + (target->query_average_stat() / 2)));
+
+           //  Normalize (-50, 50) through fixnorm
+           //  Factors:    Caster spell difficulty (value 75 - 100)
+           //              Caster shield wearing (penalty from 0 - 70)
+           //              Target SS_FORM_ABJURATION skill
+           //              Target SS_SPELLCRAFT skill
+           //              If npc, stat average
+           //              Caster and target SS_DIS stat
+           
+           //  fixnorm returns ((100 * result) / (result + tmp)) - 50;
+
+           //  For an attacker with 100% raw 'success' chance and an opponent 
+           //  with superior guru in spellcraft and abjuration (or an npc 
+           //  with skills plus half stat average of 200+), they would have a 
+           //  revised 'hit' chance of:
+           //                4 * fixnorm(random(100) + random(100) + 
+           //                     random(100) + random(100), random(200));
+           //  
+           //  averaging     4 * 16.67  = 66.67% chance to hit
+
+           result = 4 * fixnorm(random(result) + random(result) + 
+               random(result) + random(result), random(tmp));
+
+           //  Spell success modified by attacker and defender SS_DIS 
+           //  Two opponents with equal SS_DIS will result in a modifier of 0.
+           //
+           //  An attacker with 200 SS_DIS vs 150 SS_DIS would have a modifier of
+           //  +7.14% to 'hit.    
+           //
+           //  An attacker with 150 SS_DIS vs 200 SS_DIS would have a modifier of
+           //  -7.14% to 'hit.
+
+           result += 2 * fixnorm(actor->query_stat(SS_DIS), 
+               target->query_stat(SS_DIS));
+        }
+    }
+
+    // we emulate a simple d100 roll against the result value for success.
+    Spell_success = max(0, result - random(100));
+
+    if(Spell_success)
+    {
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
+
+}
+
+
+========================================================================
+SPELL DAMAGE:
+========================================================================
+For determining how spell damage works for standard harm spells, propose 
+changing firstly how penetration is determined for the base damage in 
+F_PENMOD(penetration, skill).
+
+CHANGING PENETRATION VALUE
+--------------------------
+'penetration' is determined in query_spell_weapon_class() of
+/d/Genesis/specials/std/spells/centralized_spell.c
+
+The value returned in query_spell_weapon_class() currently isn't capped.
+Propose capping this at 68 (the maximum pen value for a flaming black 
+broadsword with an intense sharpstone imbue).
+
+Instead of having a complicated logarithmic formula involving 150%
+of the caster's SS_INT, form skill, element skill, and spellcraft skill,
+query_spell_weapon_class() will return a value we will call
+'spell power'.
+
+
+Option 1: Default 40 spell power plus item boost - PREFERRED OPTION
+===================================================================
+Melee specials in /d/Genesis/specials/std/damage.c have a default base
+pen value of 40. Propose spell power starts with such a default value.
+
+A base pen value of 40 also aligns the current (old) magic system
+penetration values with the new system quite nicely, so the experience
+won't be hugely noticed until higher levels.
+
+Spell power values can be added to items such as wands, necklaces, 
+blessed swords, unholy maces etc through the function query_magic_spellpower() 
+included in the item code. Any item picked up through caster->query_tool(-1)
+with this property will have its spell power added to the spellcaster's
+base 'spell penetration' up to a maximum value of 68 (as outlined above).
+
+Through the query_magic_spellpower() function we can also be creative with
+how spell power points are provided. For an unholy mace like Nightbringer,
+it may only provide spell power points to those who are evil aligned. Or
+for magical staves the spell power provided could be linked to the wielder's
+SS_SPELLCRAFT skill. Things like that.
+
+Items with query_magic_spellpower shouldn't return a value greater than 10,
+should be classified as magical items, and should decay over time.
+
+As spell power is additive, a rough guideline for values for magical
+items are:
+* magic wand - max 5 value
+* magic staff - max 10 value
+* magic weapon (thematic to spellcasting) - max 5-10 value
+* magic worn armours - max 5 (thematic to spellcrafting, so usually light armours)
+* magic worn items - max 5.
+
+Before introducing these changes to spell damage we should add 
+spell power to a number of thematic magical items that already exist
+in the realms.
+
+Option 2: base spell power based on skills, SS_INT, plus item boost
+===================================================================
+'Spell power' is essentially the magic version of unarmed combat
+penetration value. It will be based on the caster's element magic skill
+(SS_ELEMENT_*) and the caster's primary mental skill, which can be
+defined in query_spell_weapon_class_stat_influencer(). The default for
+query_spell_weapon_class_stat_influencer() is SS_INT, but can be masked 
+for any other stat depending on the theme of the guild (clerics could 
+be SS_WIS, minstrels could be SS_DEX).
+
+The formula for raw spell power is defined in F_SPELLPOWER_PEN:
+
+F_SPELLPOWER_PEN(skill, mental)    (10 + ((skill) / 10 + (mental) / 20))
+
+This formula is very similar to the output from unarmed combat:
+F_UNARMED_PEN(skill, str)    ((skill) / 10 + (str) / 20)
+
+So for someone with superior guru element skill and 100 mental stats, 
+they'll have a raw 'spell penetration' from F_SPELLPOWER_PEN of 25.
+
+For someone with superior guru element skill and 200 mental stats, 
+they'll have a raw 'spell penetration' from F_SPELLPOWER_PEN of 30.
+
+For someone with superior guru element skill and 300 mental stats, 
+they'll have a raw 'spell penetration' from F_SPELLPOWER_PEN of 35.
+
+These values aren't competitive with magical weapons, however 'spell power'
+can be enhanced through equipment held/wielded/worn.
+
+The additive 'spell power' of such items is detected through the function
+query_spellcaster_spellpower(object caster). 
+
+Items with query_magic_spellpower shouldn't return a value greater than 30,
+should be classified as magical items, and should decay over time.
+
+As spell power is additive, a rough guideline for values for magical
+items are:
+* magic wand - max 15 value
+* magic staff - max 30 value
+* magic weapon (thematic to spellcasting) - max 30 value
+* magic worn armours - max 20 (thematic to spellcrafting, so usually light armours)
+* magic worn items - max 10
+
+
+REMOVING THE CAP FOR THE STAT MODIFIER
+--------------------------------------
+The current stat modifier formula is capped at 10% and hard coded to be only
+affected by TS_WIS, creating a damage handbreak at high SS_WIS stat.
+
+Propose allowing the stat damage type to be modifiable through 
+set_spell_stats(mixed stats).
+
+Change the calc_stat_modifier from capped:
+stat_modifier = min(127, max(90, caster->find_drm( ({ TS_WIS }) ) / 2));
+
+to:
+stat_modifier = max(90, caster->find_drm( ({ TS_* }) ) / 2);
+
+This result would then be applied to:
+result = result * F_STR_FACTOR(stat_modifier) / 100;
+
+
+WHAT TO DO ABOUT SPELL RESISTANCE?
+----------------------------------
+Spell resistance is far more impactful against spells than armour is
+against melee attacks. Following the calculations that melee use
+in relation to cb_hit_me using F_NEW_DAMAGE isn't comparing apples with
+apples.
+
+Options are:
+
+Option 1: Remove the 'chance of 0 pen' check
+--------------------------------------------
+In /d/Genesis/specials/resist.c the spell_resist_modify_value function
+has an added check based on resistance to reduce pen value to 0.
+
+    if (random(100) < (resist * 80 / 100))
+        return 0;
+
+If this check is unsuccessful, pen is then reduced as a % of the resistance
+value. This modifier scales much more harshly than armour mitigation,
+however it seems sensible for 100% resistance to a magical damage type
+to mitigate ALL the damage.
+
+However, having the double check for reducing damage feels overly
+punitive, so propose this check gets removed.
+
+Option 2: Modify the 'chance of 0 pen' check 
+--------------------------------------------
+Alternatively, alter the random check so it is comparable to an equivalent
+armour check which is better aligned to the melee system.
+
+For melee, their formula for a chance of 0 pen is:
+if (random(100) < (ac% / 2))
+
+ac% cannot reach 100. Realistically, the maximum armour a player can get
+on the most protected part of the body ('body') is around 150ac, which
+equates to an ac% of 87.5%. So the maximum chance of a 0 pen result is
+around 44%... and can never achieve 50% for melee attacks.
+
+By comparison, the maximum chance of 0 pen for spells is 80% where there
+is 100% magic resistance using the formula: 
+if (random(100) < (resist * 80 / 100))
+
+Modifying this formula to:
+if (random(100) < (resist / 2))
+
+This would significantly reduce the chance of zero damage for spellcasters 
+due to a moderate resistance (62% resistance currently equals the maximum
+chance of 0 pen for melee damage of 50%, while with this new formula
+the chance of 0 pen for spells reduces to 31%).
+
+100% magic resistance will still result in the pen result being reduced
+to zero.
+
+Option 3: Use F_NEW_DAMAGE formula *PREFERRED*
+----------------------------------------------
+Use F_NEW_DAMAGE in /d/Genesis/specials/resist.c
+
+F_NEW_DAMAGE(pen, random(100), resist) 
+
+This will result in:
+if random(100) < (resist/2) return 0 pen; else
+
+pen = pen * (200 - 2 * (resist)) / (200 - (resist)))
+
+So that at 100% resistance the chance of returning 0 pen is 50%, but
+then pen value is reduced to 0 anyway by the following formula.
+
+This approach would align identically to the formula melee specials
+use.
+
+
+Change to /std/combat/cbase.c
+
+sman -s cb_hit_me
+
+phit value change to 
+phit = random(phit) + random(phit) + random(phit) + random(phit);
+
+to be consistent with melee specials.

@@ -1,0 +1,49 @@
+Berserk Analysis After Recode: Performed by Serpine, 8/15/95.
+------------------------------------------------------------
+This analysis is partly based on the old one by Glindor.
+------------------------------------------------------------
+Assumption: All stats and skills = 100.
+
+Time: The character will take 5 seconds to go berserk, then maintain
+the benefits for 50 seconds, then require 10 seconds to return to
+normal.  Thus 50/65ths of the time they will have benefits.
+
+Benefits (combat):
+  Strength: Increase from 100 to 115: Glindor had said that such a
+    improvement (from 100 to 110) lowered encumberance only and
+    thus had a negligable combat benefit (he suggested .25%).
+  Discipline: Increase from 100 to 115: This would have little
+    combat benefit as far as I am aware.
+  Con: Increase from 100 to 115: HP increase from 1900 to 2200.
+    Ratio of HP to MAXHP stays constant when berserk or not, so
+    between that and the percentage time spent berserk only
+    ((15/65)+((50/65)*1900/2200))=89.5 % of damage will effect
+    the player. 100-89.5 gives 10.5% combat aid.
+
+Benefits(non-combat):
+   Strength: Being able to carry an extra 15 kilograms of loot.
+       Being able to do higher strength based quests.
+   Discipline: Teaming with larger players becomes possible, as
+       does assisting versus larger creatures.
+   Con: Maximum amount character can eat increased from 3100 grams
+       to 3550.  Maximum amount a character can drink increased from
+       10.5 liters to 12 liters. This will increase both fatigue
+       and heal rates via stuffed and intox, but I'm uncertain by
+       how much.
+
+Drawbacks(new with the recode):
+   Overstress: If fatigue is less than 5 Berserk is impossible.
+   Fatigue: Each use of berserk will decrease the fatigue of a
+      character with 100 Con by 25 (the amount is con/6).
+      Since such a character has 150 fatigue points, this
+      should proove inhibiting after a few consecutive fights.
+
+Conclusion:
+Combat aid totalled from above would be 10.75% (I'll round up 
+to 11% do to food and drink guzzling, assuming fatigue offsets 
+some of the benefit suitably).  Since there is a skill involved,
+that gives ((11/6)/2) = .92 % tax (to be safe however, we will
+go with a 50% higher figure):
+ 
+                          Tax: 1.2%
+   The 1.2 figure is based on Khail's review...

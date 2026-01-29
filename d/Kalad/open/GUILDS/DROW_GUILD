@@ -1,0 +1,38 @@
+-The Drow (dark elf) race guild-
+
+   This guild was created in order to provide players of evil elves the
+oppurtunity to further role-play their characters. As drow (dark elves),
+the player may begin in an environment more appropriate to his evil
+nature. Members of the Drow guild may begin in the Drow guild, which is
+located in an underground city by the name of Undraeth. The emotes of 
+the guild, along with the titles, reflect the wanton and cruel natures
+of the Drow race and their fanatical devotion to their patron goddess,
+Lolth the Spider Queen.
+
+   All the guild files are located in /d/Kalad/common/wild/pass/drow/guild/
+with the soul being in /drow_soul.c
+and the shadow in /drow_shadow.c
+and the joinroom in /joinroom.c
+
+This is the tax computation for the guild:
+
+SS_WEP_SWORD 40 (10 above adv. guild), taxed at 1.5% per 60 levels
+10/60 = .167
+.167 * 1.5% = .251%
+
+'drow sight' (ability to see in the darkness for 30 seconds) at a mana
+cost of 75 and only usable if mana of player is > 74, taxed at 2%.
+
+.251% + 2.000% = 2.251% rounded up to 3.000% TOTAL TAX
+
+-The other skills taught at this guild are all at adv. guild levels and
+ below:
+-SS_LANGUAGE:50
+
+- After March'97 skill revision:
+Keeping SS_HIDE at 30
+        SS_SNEAK at 30
+        SS_TRACKING at 40
+Due to drops in skills avaliable in adventuring guilds, there is now
+30 levels to be taxed.  30/60 = .5
+    0.5% + 2.51% = 3.01%

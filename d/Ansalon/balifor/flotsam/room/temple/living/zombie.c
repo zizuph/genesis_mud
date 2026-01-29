@@ -1,0 +1,86 @@
+/* Zombie warrior by percy*/
+
+#include "/d/Krynn/common/defs.h"
+
+#include <ss_types.h>
+#include <macros.h>
+#include <stdproperties.h>
+#include "/d/Krynn/solace/graves/local.h"
+
+inherit M_FILE
+
+/*
+ * Prototypes
+ */
+void arm_me();
+
+void
+create_krynn_monster()
+{
+   int i;
+   
+   set_name("Zombie warrior");
+   set_short("zombie warrior");
+   add_name("warrior");
+   set_race_name("zombie");
+   set_long("This creature that shambles before you is one " +
+      "of the living dead, a zombie. " 
+      + "By the looks of his bloated body, you gather this corpse " +
+      "was once a sailor who drowned in the Bloodsea, but " +
+      "ended up in the hand of some evil priest and turned into this monstrosity.\n");
+   set_adj("warrior");
+   
+   for (i = 0; i < 6; i++)
+   set_base_stat(i, 20 + random(6));
+   set_skill(SS_DEFENCE, random(5) + 10);
+   set_skill(SS_WEP_SWORD, 45);
+   
+   set_all_attack_unarmed(8, 8);
+   set_all_hitloc_unarmed(8);
+   set_alignment(-200);
+   set_knight_prestige(200);
+   set_monster_home(TDIR+"crypt1");
+   set_restrain_path(TDIR);
+   add_act("emote moans.");
+   set_act_time(6);
+   set_aggressive(1);
+   add_prop(NPC_I_NO_RUN_AWAY, 1);
+   add_prop(LIVE_I_UNDEAD, 10);
+   add_prop(LIVE_I_NO_CORPSE, 1);
+   
+   if (IS_CLONE)
+      set_alarm(1.0, 0.0, &arm_me());
+}
+
+void
+arm_me()
+{
+   seteuid(geteuid(this_object()));
+   
+   clone_object(OBJ + "skel_arm")->move(TO);
+   clone_object(OBJ + "skel_wep")->move(TO);
+   
+   command("wear armour");
+   command("wield weapon");
+}
+
+void
+do_die(object killer)
+{
+   object ob = clone_object("/std/leftover");
+   ob->leftover_init("bone","human");
+   ob->move(E(TO));
+   ob = clone_object("/std/leftover");
+   ob->leftover_init("skull","human");
+   ob->move(E(TO));
+   ob = clone_object("/std/leftover");
+   ob->leftover_init("bone","human");
+   ob->move(E(TO));
+   ob = clone_object("/std/leftover");
+   ob->leftover_init("rib","human");
+   ob->move(E(TO));
+   ob = clone_object("/std/leftover");
+   ob->leftover_init("rib","human");
+   ob->move(E(TO));
+   ::do_die(killer);
+}

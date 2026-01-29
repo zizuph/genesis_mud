@@ -1,0 +1,46 @@
+
+     Spell name: Stoneskin
+                 edarmolik
+         Effect: A protection spell that mitigates damage
+           Type: Maintained
+        Targets: Caster
+        
+        Element: Earth          / 50
+           Form: Transmutation  / 60
+    Spell power: Power 4 [Advanced spell]
+     Spell type: stoneskin spell 
+     
+       Peaceful: Yes
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: cladina (930cc)
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_HARD
+     Combat Aid: 90% 
+
+            Tax:   1.0
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.75   Hard difficulty
+                  x0.8   material component (>=1 gp value) 
+                 ------
+                  0.6%  total tax
+   ------------------------------------------------------------
+   Comments: A powerful stoneskin spell type protection spell.
+
+   Need 60 levels in Transmutation to cast, so without enhancement
+   items this can only be cast by a SoHM who has specialised
+   in Transmutation (base skill is 50, specialisation is +25).
+
+   Can't be cast if similar defensive spells are active
+   (blur, magic shield, reflect damage)
+
+   If active, lesser offensive spells (lightning bolt, flame
+   lance, ice strike, psychic blast) can't be cast.
+   ------------------------------------------------------------

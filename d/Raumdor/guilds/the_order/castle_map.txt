@@ -1,0 +1,358 @@
+
+                          1T---2---3---4---5---6---7T
+                           |                       |
+                           8  SL---9      10---S   11
+                           |         \  /          |
+                      M---12--13--14--15--16---O   18
+                           |       |   |   |       |
+              19--20---D--21   K--22--23--24       25
+              /            |       |   |   |       |
+            26         E--27---J  28--29--30       31
+            /              |         / | \         |
+          32              33   H---34--B--35---T   36
+           |               |                       |
+          37             38T--39--40--41--42--43--44T
+
+
+T: Towers, up/down exits
+PO: Post office
+SL: Barracks, start location
+F: Training
+S: Smith
+J: Joining room
+K: Kitchen
+H: Herbalist
+B: Board
+D: Drawbridge
+M: Open/Lock mechanism, portcullis
+E: Observation balcony (View E, communication between E&D(
+O: Shop
+
+
+
+
+
+COURTYARD/GREAT HALL
+
+
+
+                          1T---2---3---4---5---6---7T
+                           |                       |
+                           8  SL---9      10---S   11
+                           |         \  /          |
+                      M---12--13--14--15--16---O   18
+                           |       | X | X |       |
+              19--20---D--21   K--22--23--24       25
+              /            |       | X | X |       |
+            26         E--27---J 28S--29--30   PO  31
+            /              |         /   \     |   |
+          32              33   H---34—-T--35---B   36
+           |               |                       |
+          37             38T--39--40--41--42--43--44T
+
+T: Towers, up/down exits
+PO: Post office
+SL: Barracks, start location
+F: Training
+S: Smith
+J: Joining room
+K: Kitchen
+H: Herbalist
+B: Board
+D: Drawbridge
+M: Open/Lock mechanism, portcullis
+E: Observation balcony (View E, communication between E&D)
+O: Shop
+28S: Stable
+
+
+
+13
+Short desc: Inside a dark corridor.
+
+You stand in a corridor going in the east-west direction. There is not much to see here, but you recognize the walls as being made of stone. To the east you see a weak glimmer of light through an opening, and you’re fairly sure you can make it out of here going west. 
+Exits: e,w
+
+Object: opening
+Following the contours of the hallway, it appears to lead into a lit space.
+
+
+
+14
+Short desc: Inside a dimly lit hall.
+You stand in what appears to be a great hall. You’re pretty sure it used to be a courtyard of sorts, but unlike other castles, this courtyard has a roof. Looking at the craftsmanship of the gigantic pillars you’re fairly certain the roof wasn’t part of the original design. As you try to find your bearing in these deplorable lighting conditions, you slowly start to realize you’re in what can only be the northwest corner. As you squint your eyes you can make out some paintings hanging crookedly on the adjacent walls. You can walk pretty much unobstructed in any direction towards the south and east or proceed back into the corridor to the west.
+Exits: e,w,s,se
+
+
+Object: paintings
+The frames look like they’ve seen better days. As you look at the paintings themselves, you’re basically looking at runny blobs of paint long destroyed by humidity. You imagine seeing the contours of a face on one of them, and you conclude that it must have been a portrait once. There are no words visible to confirm your conclusion though.
+
+Object: light (appraise light)
+The light seems to emanate from the southeast. 
+
+
+
+15
+Short desc: Inside a dimly lit hall.
+You stand in the great hall. You’re pretty sure it used to be a courtyard of sorts, but unlike other castles, this courtyard has a roof. Looking at the craftsmanship of the gigantic pillars you’re fairly certain the roof wasn’t part of the original design. As you try to find your bearing in these deplorable lighting conditions, you slowly start to realize you’re in what can only be the northern part. While your movement is more or less unobstructed looking south, you clearly make out two openings to both northwest and northeast.
+Exits: w,e,s,sw,se,nw,ne
+
+
+Object: light (appraise light)
+The light seems to emanate from the south. 
+
+
+9
+Short desc: Inside a bent corridor.
+
+You stand inside of what looks like a bent corridor. The walls are but bare masonry. The usual humid scent mixes with an odour of sweat and morning breath coming from the opening to the west. To the southeast you can exit back into the great hall.
+Exits: w,se
+
+Object: light (appraise light)
+The corridor is not lit at all, but you’re able to see due to the dim lighting coming from both openings to the southeast and west.
+
+
+
+SL
+Short desc: A rather large room with filthy mattresses.
+
+Part from the filthy, brown mattresses littered in random orientations and a single torch on the western wall, the room is more or less an empty rectangle of windowless walls. The air is stale and humid to the point of being.. well, wet. A stench of morning breath assaults your nostrils. You realize this is your designated sleeping area, and that you may <start here> to awake well rested, ready for service.
+
+Object: torch
+It’s a simple torch, burning just enough to enable you to find your bunk.
+
+Object: walls
+Solid stone masonry walls surround you completely. You notice black soot surrounding the torch on the west wall. 
+
+Object: soot
+The soot seems embedded in the wall at this point, you quickly realize the futility of trying to remove it.
+
+
+10
+Short desc: Inside a bent corridor.
+
+You stand inside of a bent corridor surrounded on both sides by bare walls of stone masonry. You can feel heat emanating from the east opening, and as you hear the sound of hammering of what can only be metal against metal, you’re certain a smith offers his services to the east. To the southwest you can exit back into the great hall.
+Exits: sw, e
+
+Object: light (appraise light)
+The corridor is not lit at all, but you’re able to see due to the dim lighting coming from both openings to the southwest and east.
+
+
+
+S
+Short desc: Smith
+
+You stand in a very large rectangular, windowless room. Several furnaces line the east wall, but you see only one that is lit. Together they make out a testament to a rather large production potential if manned. You see several anvils stacked atop of each other together with heaps of old blacksmithing tools just piled up in the southwest direction. A smith sits in the adjacent corner, looking at a piece of metal heating inside the one lit furnace. The warmth is a welcome sensation, and seems to have a drying effect on the otherwise humid condition of the castle. 
+Exit: w
+
+Object: anvils
+Several iron anvils are stacked semi-neatly atop of each other. Surely it’s a result of a joint effort as they are rather large.
+
+Object: tools
+A rather large heap of worn, scorched, cracked, rusted and/or bent tongs, pliers, hammers, crucibles and other tools belonging to the trade.
+
+Object: Smith
+A rather sad creature of a man, you reckon. While not physically chained, you know this man hasn’t seen daylight for most of his life. He is covered in soot and dust, much like everything else in the room, but even though he looks old, you can clearly make out a pair of very strong, capable hands. As you approach him your eyes lock, and without saying a word he points to a sign on the wall. Perhaps you should <read> it?
+
+Object: sign / <read sign>
+CUT’N PASTE INFO ELSEWHERE
+
+
+
+16
+Short desc: Inside a dimly lit hall.
+You stand in the great hall. You’re pretty sure it used to be a courtyard of sorts, but unlike other castles, this courtyard has a roof. Looking at the craftsmanship of the gigantic pillars you’re fairly certain the roof wasn’t part of the original design. As you try to find your bearing in these deplorable lighting conditions, you slowly start to realize you’re in what can only be the northeast corner. A few iron studs stick out from the walls. You can walk pretty much unobstructed in any direction towards the south and west or proceed into a dark opening to the east. 
+Exits: w,sw,s,e
+
+Object: studs
+Considering the height and meticulously symmetric placement of the studs you conclude that they most likely were used to hang paintings.
+
+Object: light (appraise light)
+The light seems to emanate from the southwest. 
+
+
+O
+Short desc: A dark, small room and a shopkeeper.
+Sitting behind a square wooden desk sits a what looks to be a rather young man guarding the shelves behind him. You can see all sorts of armours, weapons and miscellaneous objects stacked pretty neatly and organized. As you look more closely you realize there’s a cloth hanging just behind the shelves, hiding what can only be a storage room. You’re fairly sure the shopkeeper has little interest in you exploring further. Obviously, you wisely decide not to.
+Exit: w
+
+Object: shopkeeper
+A surprisingly young man of frail stature. Tattered clothes reveal both new and old scarring and bruising on his limbs. As you look into a pair of wild blue eyes, you realize this man isn’t going to give up his wares without a fight, but perhaps he’ll be interested in a trade?
+A small sign hangs from the side of his desk, perhaps you should <read> it?
+
+Object: sign / <read sign>
+CUT’N PASTE INFO ELSEWHERE
+
+Object: light (appraise light)
+The light seems to emanate from the opening to the west. A small burning candle is clearly visible on the desk in front of you, providing just enough light for the shopkeeper to keep track of his business.
+
+
+
+24
+Short desc: Inside a dimly lit hall.
+
+You stand in the great hall. You’re pretty sure it used to be a courtyard of sorts, but unlike other castles, this courtyard has a roof. Looking at the craftsmanship of the gigantic pillars you’re fairly certain the roof wasn’t part of the original design. As you try to find your bearing in these deplorable lighting conditions, you slowly start to realize you’re in what can only be the eastern part. Your movement is more or less unobstructed looking in all directions but eastwards.
+Exits: n,nw,w,sw,s
+
+Object: light (appraise light)
+The light seems to emanate from the west. 
+
+
+
+23
+Short desc: A fairly decent lit part of the hall.
+
+A majestic chandelier hangs from the ceiling, making this part of the hall better lit than any other part. The light, however, makes looking outward very difficult. It feels as if you’re surrounded by darkness on all sides! Looking rather nervously at the bloodstained altar just below the chandelier you realize the increased light provides little comfort. Every direction seems unobstructed, however and you can literally taste the urge to leave this place.
+Exits: w,nw,n,ne,e,se,s,sw
+An altar.
+
+
+Object: chandelier
+A large chandelier made out of wrought iron with more than twenty candle-sockets hangs in the ceiling. Looking up you see that only five or six actually hold burning candles. 
+
+Object: altar
+While not particularly flashy with ornaments or decorative carvings, it does seem to have seen good use. The altar itself is of decent size, more than large enough to handle an average human. There are deep grooves carved which serve as both directions of use and subsequent transportation of blood towards the edge. You assume some kind of bowl should be present to catch the drippage, but you see none. Puddles of blood in different stages of putrefaction are stagnant in the grooves, resulting in a pretty overwhelming stench of death. Scattered around are bits of bone, chunks of dried body parts and a whole human head stuck to a wooden base.
+
+Object: bits
+Tiny unrecognizable objects carved out of bone. You fail to decipher their meaning.
+
+Object: chunks
+Mainly fingers, toes and ears placed rather neatly outside the grooves of the altar.
+
+Object: head
+Placed strategically north of where the victim clearly is supposed to lie, a severed head is mounted on a spike that protrudes from a wooden base nailed to the altar itself. 
+
+Object: light (appraise light)
+The immediate surroundings are lit by the candles in the chandelier, enabling you to see things in more detail.
+
+
+
+22
+Short desc: Inside a dimly lit hall.
+
+You stand in the great hall. You’re pretty sure it used to be a courtyard of sorts, but unlike other castles, this courtyard has a roof. Looking at the craftsmanship of the gigantic pillars you’re fairly certain the roof wasn’t part of the original design. As you try to find your bearing in these deplorable lighting conditions, you slowly start to realize you’re in what can only be the western part. Your movement is more or less unobstructed looking in all directions eastwards. To the west you see an opening.
+Exits: w,n,ne,e,se,s
+
+Object: light (appraise light)
+The light seems to emanate from the east. 
+
+
+
+K
+Short desc: Kitchen.
+Looking around you see the remnants of what probably was an active kitchen. Several tables in various states of disrepair can be seen in the middle of the room. You assume they were the work stations for in house chefs. What was probably the source of great meals for both hosts and guests is now just a cesspool of filth and grime. You feel no urge to linger, as you’re more and more convinced there’s nothing edible remaining. 
+Exits: e
+
+Object: tables
+The wooden table tops have been more or less destroyed by excess moisture, same with the iron legs. You’re actually amazed they haven’t all collapsed under their own weight. You wouldn’t eat a meal off them to save your life.
+
+28
+Short desc: Inside a dimly lit hall.
+
+You stand in the great hall. You’re pretty sure it used to be a courtyard of sorts, but unlike other castles, this courtyard has a roof. Looking at the craftsmanship of the gigantic pillars you’re fairly certain the roof wasn’t part of the original design. As you try to find your bearing in these deplorable lighting conditions, you slowly start to realize you’re in what can only be the southwestern part. A large dilapidated trough paired with many still rigid columns make out the entire south wall. You’re fairly certain that this particular corner must have been reserved for horses in the past. You spot a figure leaning idly onto one of the pillars. Your movement is more or less unobstructed looking in the east and north direction.
+Exits: n,ne,e
+
+Object: light (appraise light)
+The light seems to emanate from the northeast. 
+
+Object: trough
+Looking closely, you can see signs of what must have been a pretty elaborate system of pipes and flotation devices ensuring a steady delivery of fresh water for several parked beasts of burden. However, any attempts at filling the trough at this stage would make as just much sense as watering a sieve. 
+
+Object: columns
+Unlike most of the contraptions around here, the columns seem very rigid. You could park a steed here, if you were so inclined.
+
+Object: pipes
+Rusted to bits, they’re not really pipes anymore, more like long sieves.
+
+Object: figure
+A dark-robed figure.
+Looking directly at the figure you realize there are two glowing embers where eyes would normally reside. 
+He is wielding a riding whip.
+
+Object: riding whip
+Bla bla, bare der for å gi hint om funksjon da jeg så for meg at her er det mulig å rekruttere vandøde hester som aldri blir slitne. 
+
+Sjekk Khiraa-guilden om det er no heste-kode for descs etc?
+
+«acquire horse» -> betale 100 plats. Lån kode fra Red Fang mtp summon/dismissal/stabling?
+«tie horse» -> Knytte fast hesten og så forsvinner den bare.
+«untie horse» -> Summoner hesten igjen.
+
+
+29
+Short desc: Inside a dimly lit hall.
+You stand in the great hall. You’re pretty sure it used to be a courtyard of sorts, but unlike other castles, this courtyard has a roof. Looking at the craftsmanship of the gigantic pillars you’re fairly certain the roof wasn’t part of the original design. As you try to find your bearing in these deplorable lighting conditions, you slowly start to realize you’re in what can only be the southern part. While your movement is more or less unobstructed looking north, you clearly make out two openings to both southwest and southeast.
+Exits: w,nw,n,ne,e,se,s,sw
+
+
+Object: light (appraise light)
+The light seems to emanate from the north. 
+
+
+30
+Short desc: Inside a dimly lit hall.
+
+You stand in the great hall. You’re pretty sure it used to be a courtyard of sorts, but unlike other castles, this courtyard has a roof. Looking at the craftsmanship of the gigantic pillars you’re fairly certain the roof wasn’t part of the original design. As you try to find your bearing in these deplorable lighting conditions, you slowly start to realize you’re in what can only be the southeastern part. The walls are cold, naked and sticky. Leaving it at that, you decide not to investigate further. Your movement is more or less unobstructed looking in the west and north direction.
+Exits: w,nw,n
+
+Object: light (appraise light)
+The light seems to emanate from the northwest. 
+
+
+34
+Short desc: Inside a corridor.
+
+You stand inside of a dark corridor. While mostly surrounded by bare walls of stone masonry, you can clearly make out exits both east and west. From the west you catch the familiar scent of herbs. You can also exit to the northeast back to the hall.
+Exits: ne,w,e
+
+Object: light (appraise light)
+The corridor is not lit at all, but you’re able to see due to the dim lighting coming from the openings.
+
+H
+Short desc: At the herbalist.
+You stand in an unusually large windowless room. Every wall is covered in shelves edge to edge, and in every shelf there are labelled jars, visibly containing herbs. A figure sits perfectly still on a stool in the middle of the room. As you try and listen for any sound part from your own breathing, you realize the figure isn’t. Breathing that is. You approach the figure with unease, and as you come closer you can hear teeth rattle while it holds up a sign for you to <read>. 
+Exit: e
+
+Object: sign
+COPY INSTRUCTIONS FOR HERB SHOP
+
+Object: figure
+As you look closer at the figure you realize a deciding detail regarding its choice of profession; in order to peacefully collect herbs in the nearby forest you have to blend in! You shudder to think that this human must have made the ultimate sacrifice and joined the unliving to be of any useful service. For eternity.
+
+
+T
+Short desc: Inside a circular room joining two corridors.
+Serving no other purpose than to house the spiral staircase leading upwards and connecting the corridors leading east and west, there is nothing adorning the surfaces. It’s simplicity makes you suspect it’s a late addition, perhaps erected to access the roof?
+Exits: w,e,u (up blokkert for nå)
+
+35
+
+Short desc: Inside a corridor.
+
+You stand inside of a dark corridor. While mostly surrounded by bare walls of stone masonry, you can clearly make out exits both east and west. As you look east you realize the opening is relatively well lit compared to the rest of the corridor. You can also exit to the northwest back to the hall.
+Exits: nw,w,e
+
+Object: light (appraise light)
+The corridor itself is not lit at all, but you’re able to see due to the dim lighting coming from the openings.
+
+B
+Short desc: A small, fairly bright room.
+Befitting the castle-wide theme of windowless rooms, this one is no exception. To the north you see more lighted space, and the path west leads back into the corridor. Erected between two fiercely burning torches on the east wall you see a large bulletin board. 
+Exits: w,n
+A large bulletin board.
+
+Object: torches
+A part from their size and bright flame, they look like ordinary torches.
+
+
+PO
+Short desc: Castle post-office. 
+At what just looks like the end of a tunnel you see a small table and a chair. It is lit by a single brightly burning torch. This is the castle post office, where you can send mail around the world. A sign hanging from the table reads:
+In this post office you can do the following:
+read          Read from the mailbox.
+mail <name>   Mail to <name>.
+from          List all headers.
+
+Exit: s
+
+

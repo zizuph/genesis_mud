@@ -1,0 +1,11 @@
+/* An inn affordable by poor students.  Aka the "Scholar's
+Squalor".  Can rent a cheap room here.  Also has a den or
+reading room for students to discuss issues (board?).
+
+   Contains the Scholar's Club which could grant you the
+ability to keep one book in your possession permanently if
+you have done the quest for the paper maker/book binder to
+create it.  This task could be necessary to submit books
+to the libraries.
+
+Mortis */

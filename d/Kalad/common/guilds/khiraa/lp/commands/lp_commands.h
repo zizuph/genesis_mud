@@ -1,0 +1,46 @@
+/* Guild emotes */
+
+"lsay" : "e_lsay",
+"llaugh" : "e_llaugh",
+"lpity"  :  "e_lpity",
+"lhiss" : "e_chiss",
+"lwail" : "e_cwail",
+"lscream" : "e_cscream",
+"lchuckle" : "e_cchuckle",
+"lgrin" : "e_cgrin",
+"lglare" : "e_cglare",
+"lglow"  : "e_cglow",
+"lrage"  : "e_crage",
+"lsmile" : "e_csmile",
+"lstroke" : "e_cstroke",
+"lturn"  : "e_cturn",
+"lrad"   : "e_crad",
+"lsign"  : "e_lsign",
+"lwiggle" : "e_lwiggle",
+"ljuggle" : "e_ljuggle",
+"lchant" : "e_cchant",
+"lpraise" : "e_cpraise",
+"lgreet" : "e_cgreet",
+"lfare"  : "e_cfare",
+"lsoul"  : "e_csoul",
+"lmemory" : "e_cmemory",
+"lfrustrate" : "e_cfrustrate",
+"lfurl" : "e_cfurl",
+"lamuse" : "e_camuse",
+"lglint" : "e_cglint",
+
+/* Guild commands */
+
+"help" : "c_help",
+"lsp" : "c_lksay",
+"lset" : "c_lset",
+"lhang"   : "c_chang",
+"lcrucify" : "c_crucify",
+"lcut"    : "c_ccut",
+"wkhiraa" : "c_wkhiraa",
+
+/* Guild specials  */
+
+"lgouge" : "do_gouge",
+"ldirect" : "do_direct",
+"katell" : "e_ckatell",

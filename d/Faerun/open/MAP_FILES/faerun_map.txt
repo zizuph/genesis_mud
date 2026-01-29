@@ -1,0 +1,351 @@
+main
+::MAPDATA::
+nrd01 21 15 n_high_rd
+nrd02 21 15 n_high_rd
+nrd03 21 15 n_high_rd
+nrd04 21 15 n_high_rd
+nrd05 17 13 n_high_rd
+nrd06 17 13 n_high_rd
+nrd07 17 13 n_high_rd
+nrd08 13 11 n_high_rd
+nrd09 9 9 n_high_rd
+nrd10 9 9 n_high_rd
+nrd11 9 9 n_high_rd
+nrd12 5 7 n_high_rd
+nrd13 5 7 n_high_rd
+bank 9 9 half_vil
+hs01_b 9 9 hs01
+hs01_g 9 9 hs01
+hs01_k 9 9 hs01
+hs02_b 9 9 hs02
+hs02_g 9 9 hs02
+hs02_k 9 9 hs02
+hs03_b 9 9 hs03
+hs03_d 9 9 hs03
+hs03_g 9 9 hs03
+hs03_k 9 9 hs03
+hs03_l 9 9 hs03
+hs04_b 9 9 hs04
+hs04_g 9 9 hs04
+hs04_k 9 9 hs04
+inn 9 9 half_vil
+path01 9 9 half_vil
+path02 9 9 half_vil
+path03 9 9 half_vil
+path04 9 9 half_vil
+rd01 9 9 half_vil
+rd02 9 9 half_vil
+rd03 9 9 half_vil
+rd04 9 9 half_vil
+rd05 9 9 half_vil
+rm_join 9 9 half_vil
+shop 9 9 half_vil
+smoke_shop 9 9 half_vil
+rm_post 9 9 half_guild
+rm_train 9 9 half_guild
+rm_board 9 9 half_guild
+rm_start 9 9 half_guild
+::MAPDATA::
+
+                         ===================
+                              Faerun and
+                            The Sword Coast
+                         ===================
+
+         .       .
+     o          .        .
+       \    .                   .
+         o          .       .            .
+           \                     .
+             o     .     .
+        ~  ~   \            .      .    .           Sword
+          ~  ~   o    .         .                 Mountains
+                   \                  .         ^       /\
+          S  ~       o     [ ]      .        ^     /\  /  \
+      ~ ~  w  ~        \   /                 ^  /\/  \/    \
+    ~ ~  ~  o     ~  ~   o     .   .      ^    /  \   \ [ ] \
+             r     ~   / |              ^  /\ /    /\  \
+       ~      d      o   o    .       ^   /  \ /\ /  \  \    ^
+      ~  ~ ~     ~         \       ^     /    \  \          /|\
+               C   ~         o         ^    /\           ^   |
+     ~ ~   ~    o    ~   !! /  \         ^ /  \ [ ]     /|\
+         ~       a  ~  ! [ ] !   o      ^       /     ^  |   Kryptgarden
+      ~      ~    s  ~! ! !  !     \           /     /|\   ^    Forest
+          ~ ~   ~  t ! ! ~  ! !      o  ---- O        |   /|\
+     ~       ~         ~   !  !        \       \           |
+                        ~ ~  ~ ~         o  ---- O -- [ ]
+                            ~
+::NEWMAP::
+n_high_rd
+::MAPDATA::
+nrd01 34 29
+nrd02 32 27
+nrd03 30 25
+nrd04 28 23
+nrd05 28 21
+nrd06 26 19
+nrd07 24 17
+nrd08 24 15
+nrd09 22 13
+nrd10 20 11
+nrd11 20 9
+nrd12 18 7
+nrd13 16 5
+::MAPDATA::
+
+                                =============
+                                The High Road
+                                =============
+
+                o
+                 \
+                  o
+   ~        ~      \
+                    o
+         ~          |
+                    o
+           ~    ~    \
+    The               o
+      Sword            \
+         Coast          o
+                        |
+~        ~    ~         o
+                         \
+      ~   ~       ~       o
+                           \
+  ~                         o
+            ~               |
+                     ~      o
+    ~                        \
+                  ~           o
+                               \
+         ~ ~     ~              o
+                                 \
+  ~          ~         ~          o
+                                   \
+::NEWMAP::
+half_vil
+::MAPDATA::
+bank 30 12
+hs01_b 30 6
+hs01_g 34 8
+hs01_k 34 6
+hs02_b 34 16
+hs02_g 34 12
+hs02_k 34 14
+hs03_b 18 8
+hs03_d 18 10
+hs03_g 22 12
+hs03_k 22 10
+hs03_l 22 8
+hs04_b 26 18
+hs04_g 22 16
+hs04_k 26 16
+inn 26 14
+path01 14 18
+path02 10 20
+path03 6 20
+path04 2 22
+rd01 34 10
+rd02 30 10
+rd03 26 12
+rd04 22 14
+rd05 18 16
+rm_join 38 10
+shop 30 8
+smoke_shop 26 10
+::MAPDATA::
+
+
+                         ================
+                         Halfling Village
+                         ================
+   ^                              .
+  /|\                            / \
+   |       ^                     |o|
+          /|\                 o                   ^
+           |                  |   |              /|\
+                          o   o - o - o           |
+        ^    _____        | / |   |
+       /|\  /\-_--\       o   o   .__
+  ^     |  /++\_-__\  | / |      /_\_\
+ /|\       |[]| [] |  o   o      |o|n|        ^
+  |                 / |                      /|\
+                  o     .__                   |
+                /      /_\_\
+              o        |o|n|   ^         ^
+            /                 /|\       /|\
+      o - o         ^          |         |
+    /              /|\
+  o                 |
+/
+::NEWMAP::
+half_guild
+::MAPDATA::
+rm_post 26 9
+rm_train 26 15
+rm_board 26 27
+rm_start 26 33
+::MAPDATA::
+
+
+                   ========================
+                   Halfings of Faerun Guild
+                   ========================
+
+                  .------------------------.
+                  |                        |
+                  |   Post Office          |
+                  |       o                |
+                  |                        |
+                  |       |                |
+                  |       |                |
+                  |                        |
+                  |   Training Room        |
+                  |       o                |
+                  |                        |
+                  |       |                |
+                  |       |                |
+                  |                        |
+                  =     Lobby              |
+                -- -- --  o                |
+                  =                        |
+                  |       |                |
+                  |       |                |
+                  |                        |
+                  |   Discussion Room      |
+                  |       o                |
+                  |                        |
+                  |       |                |
+                  |       |                |
+                  |                        |
+                  |   Start Room           |
+                  |       o                |
+                  |________________________|
+
+::NEWMAP::
+hs01
+::MAPDATA::
+hs01_b 15 8
+hs01_g 26 15
+hs01_k 26 8
+::MAPDATA::
+
+              ==============
+              Halfling House
+              ==============
+
+          +---------+-----------+
+          |         |           |
+          | Bedroom |  Kitchen  |
+          |    o    =     o     |
+          |         =           |
+          |         |           |
+          +---------+----| |----+
+                    |           |
+                    |   Great   |
+                    |   Room    |
+                    |     o     |
+                    |           |
+                    |           |
+                    +----| |----+
+::NEWMAP::
+hs02
+::MAPDATA::
+hs02_b 21 19
+hs02_g 21 9
+hs02_k 21 14
+::MAPDATA::
+
+              ==============
+              Halfling House
+              ==============
+
+               +----| |----+
+               |           |
+               |   Living  |
+               |    Room   |
+               |     o     |
+               |           |
+               +----| |----+
+               |           |
+               |  Kitchen  |
+               |     o     |
+               |           |
+               +-| |-------+
+               |           |
+               |  Bedroom  |
+               |     o     |
+               |           |
+               +-----------+
+::NEWMAP::
+hs03
+::MAPDATA::
+hs03_b 15 26
+hs03_g 26 16
+hs03_k 26 9
+hs03_l 26 26
+hs03_d 15 10
+::MAPDATA::
+
+              ==============
+              Halfling House
+              ==============
+
+                First Floor
+          +---------+-----------+
+          |         |       [up]|
+          | Dining  |  Kitchen  |
+          |  Room   =     o     |
+          |    o    =           |
+          |         |           |
+          +---------+----| |----|
+                    |           |
+                    |  Living   |
+                    |   Room    |
+                    |     o     |
+                    |           |
+                    |           |
+                    +----| |----+
+
+
+               Second Floor
+          +---------+-----------+
+          |         |       [dn]|
+          | Bedroom |  Bedroom  |
+          |    o    -     o     |
+          |         -           |
+          |         |           |
+          +---------+-----------+
+::NEWMAP::
+hs04
+::MAPDATA::
+hs04_b 28 22
+hs04_g 13 12
+hs04_k 28 12
+::MAPDATA::
+
+              ==============
+              Halfling House
+              ==============
+
+                First Floor
+       +----| |----+
+       |           |
+       |           |
+       |           |
+       |  Living   +----------------+
+       |   Room    |     Kitchen    |
+       |     o     -        o       |
+       |           -                |
+       |           |[up]            |
+       +-----------+----------------+
+
+
+                      Second Floor
+                   +----------------+
+                   |                |
+                   |      Loft      |
+                   |        o       |
+                   |[dn]            |
+                   +----------------+

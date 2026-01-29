@@ -1,0 +1,35 @@
+
+The creatures that roam around Thalassian (wandering guards and 
+citizens) start in:
+
+    /d/Calia/sea/thalassia/major/major4
+    /d/Calia/sea/thalassia/major/major9
+    /d/Calia/sea/thalassia/major/major18
+    /d/Calia/sea/thalassia/major/major20
+    /d/Calia/sea/thalassia/major/major39
+    /d/Calia/sea/thalassia/major/major48
+
+    /d/Calia/sea/thalassia/lesser/lesser6
+    /d/Calia/sea/thalassia/lesser/lesser7
+    /d/Calia/sea/thalassia/lesser/lesser16
+    /d/Calia/sea/thalassia/lesser/lesser24
+
+    /d/Calia/sea/thalassia/citadel/citadel2
+    /d/Calia/sea/thalassia/citadel/citadel6
+    /d/Calia/sea/thalassia/citadel/citadel10
+    /d/Calia/sea/thalassia/citadel/citadel14
+
+All of the above rooms are loaded when the first person in Thalassia
+hit the room /d/Calia/sea/thalassia/gates
+
+The creatures that wander are:
+
+    /d/Calia/sea/creatures/br_triton
+    /d/Calia/sea/creatures/tin_triton
+    /d/Calia/sea/creatures/ori_triton
+    /d/Calia/sea/creatures/thalassian_swimming_mermaid
+    /d/Calia/sea/creatures/thalassian_swimming_triton
+    /d/Calia/sea/creatures/thalassian_fish
+    /d/Calia/sea/creatures/goldfish
+    /d/Calia/sea/creatures/fish
+

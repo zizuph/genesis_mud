@@ -1,0 +1,19 @@
+   G
+    \
+     O         O
+     |        / \
+     O - O - O-O-O-C
+      \       \ /
+       O       O
+       |
+       O   B
+        \ /
+         D
+          \
+           T
+
+G- Guards (Hobgoblins)
+C- Hobgoblin Captain
+D- Dragon
+B- Bone pile
+T- Treasure Room

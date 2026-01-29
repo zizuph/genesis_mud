@@ -1,0 +1,95 @@
+General
+=======
+The Emerald time scheduler allows wizards to have events occur at a particular
+date and time on the Emerald calendar.
+
+The scheduler can be accessed through the macros provided in the header file
+/d/Emerald/sys/time.h.  There two important macros in particular:
+
+    SCHEDULE_EVENT(obj, func, year, month, day, hour, minute)
+    UNSCHEDULE_EVENT(id)
+
+SCHEDULE_EVENT
+==============
+SCHEDULE_EVENT is responsible for registering an object with the scheduler.
+The macro takes 7 arguments:
+
+    object obj - the object responsible for the event.  When the event is 
+                 about to be started, the scheduler will first check to see
+                 if this object is still around.  If it is not, the event is
+                 cancelled.
+    function func - This function gets called by the scheduler when the event
+                    is to start.  It is in this function that you should put
+                    the code for the execution of the event.
+    int year   - The year the event should start
+    int month  - The month the event should start
+    int day    - The day the event should start
+    int hour   - The hour the event should start
+    int minute - The minute the event should start
+   
+    Note: Any of the time arguments can be set to -1, meaning that the
+          particular time value is unspecified, and the next appropriate time
+          will be used.  Also note that minutes and hours start at 0; days
+          and months start at one, just like real time.
+       
+SCHEDULE_EVENT returns an id value which can be used to unschedule the event
+BEFORE IT HAPPENS.  THIS ID SHOULD NOT BE USED AFTER THE EVENT HAS STARTED.
+Once an event is started, the scheduler may reuse an id for another event,
+so if you use an event id after the event has already started, you will not
+be referring to the correct event.
+       
+Some examples of SCHEDULE_EVENT follow.
+
+        SCHEDULE_EVENT(this_object(), start_event, 2, 4, 8, 0, 0);
+
+    This will cause the start_event function to be called at midnight on the
+    eighth day of the fourth month of the second year.
+       
+        SCHEDULE_EVENT(this_object(), start_event, -1, -1, 3, 2, 0);
+
+    This will cause the start_event function to be called at 02:00 on the
+    third of the month.  Since the year and month are unspecified, the
+    scheduler will pick the next available month and year, and this depends on
+    the current Emerald date.  We'll go through several possibilities:
+
+        - If we assume that the current Emerald date is 04:20 day 1, month 2,
+          year 1, the event will be scheduled for 02:00 day 3, month 2, year
+          1.
+
+        - If we assume that the current Emerald date is 04:20 day 4, month 2,
+          year 1, the event will be scheduled for 02:00 day 3, month 3, year
+          1, since the third day has already passed this month.
+
+        - If we assume that the current Emerald date is 02:00, day 3, month 2,
+          year 1, the event will be scheduled for 02:00 day 3, month 3, year
+          1.
+         
+        - If we assume that the current Emerald date is 04:20, day 4, month 10,
+          year 1, the event will be scheduled for 02:00 day 3, month 1, year
+          2.
+
+A complete example of an item using SCHEDULE_EVENT is the alarm clock which
+can be found at /d/Emerald/examples/alarm_clock.c.
+
+UNSCHEDULE_EVENT
+================
+UNSCHEDULE_EVENT cancels a previously scheduled event.  DO NOT UNSCHEDULE AN
+EVENT THAT HAS ALREADY STARTED; see the above warning about using ids.  The
+macro takes one argument:
+
+    int id - The id for the event.  The event id is returned by SCHEDULE_EVENT
+             when the event is scheduled.
+
+UNSCHEDULE_EVENT is pretty simple, but here's a code snippet that shows an
+event that is scheduled and immediately unscheduled.  There would be no reason
+to do this in actual code, but it demonstrates how to accomplish an event
+cancellation.
+
+    /* Schedule an event for 02:00 of day 3, next valid month */
+    int event_id = SCHEDULE_EVENT(this_object(), start_event, -1, -1, 3, 2, 0);
+
+    /* Immediately cancel the event with UNSCHEDULE_EVENT */
+    UNSCHEDULE_EVENT(event_id);
+EOF
+> [Valkyra logged in. (c-71-228-178-25.hsd1.al.comcast.net)]
+[Revril revived from linkdeath (50

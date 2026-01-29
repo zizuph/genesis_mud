@@ -1,0 +1,5 @@
+Soul Strike -      This spell will cause damage to the target with a maximum
+                   pen of 405 (minimum 100) unless the target is undead, then
+                   the maximum pen is 526 (30% bonus). Requires a ruby. 100 mana. 
+                   This spell is available to all level 3 Master members (guild 
+                   level 6) and higher guild members.

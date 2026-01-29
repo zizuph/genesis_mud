@@ -1,0 +1,177 @@
+
+Arman's AoB vision for magic and mana, 11 November 2021.
+
+
+VISION: Spellcasting in Genesis provides a unique experience distinct
+from melee combat, allowing players to the opportunity to access
+fantastical magical abilities that while conforms with combat 
+balance standards is still enjoyable to play.
+
+MECHANICS:
+Functionally, spellcasting draws from the standardised specials
+code as outlined in /d/Genesis/specials/new/, ensuring ability power
+across all guild classes is easily comparable and transparent.
+
+Spellcasting does have a unique requirement for a player to use
+these specials - spells have a mana cost that is drawn from a mana
+pool determined by the players intelligence. This mana pool regenerates
+over time, with the amount regenerated dependent on a player's
+spellcraft, wisdom and intoxication (negatively in the latters case).
+
+How mana is used and regenerated - mana management - is a critical
+element in the experience of being a spellcaster. And it is critical
+that the underlying mechanics of how mana works is balanced to allow
+a player to engage in magic combat in a sustained way at any mortal
+level if they have devoted appropriate attention to their mental stats 
+and spell skills.
+
+This can be achieved through a dynamic mana cost system that scales mana 
+cost based on the quantum of the spell benefit, specifically:
+* combat aid, and 
+* influencing stat scaling
+
+
+PROPOSAL:
+
+An occupational magic guild should be able to sustain casting and maintenance
+of spells up to the standard guild CAID cap, caveated based on the attention the
+caster has put in to their mental stats. 
+
+Currently the caid cap for an occ guild is 200 (100 special caid + 100 white damage).
+
+Currently, occ magic guilds allow up to 250 caid of concurrent maintained/
+casting.  Occ+lay allow up to 330 caid.
+
+For the purposes of sustained caid, we will focus on standard values of 200 caid
+for occupational magic guilds and 250 caid for occ+lay.
+
+Scenario 1 example:
+A spellcaster with 100 int has a mana pool of 423.
+A spellcaster with 100 wis currently regenerates 23 mana per 20 seconds.
+
+This spellcaster with a maintained spell of 100 caid would have a 
+mana cost of maintenance of 11.5 every 20 seconds.
+
+*** So (caid / sustained caid max) * (mana regen per 20 seconds at superior guru sc)
+***     (100 / 200) * (23)
+
+This spellcaster's 100 caid harm spell (damage is based on int) that can be 
+cast every 4 seconds would have a mana cost of 2.3.
+
+*** So (caid / sustained caid max) * (mana regen/20s) x cast time/20s
+***    (100 / 200) * (23) * (4 / 20)
+
+This spellcaster's 100 caid harm spell (damage is based on int) that can be 
+cast every 8 seconds would have a mana cost of 4.6.
+
+*** Because increasing casting time modifier increases caid, we increase mana
+*** cost accordingly
+*** So (caid / sustained caid max) * (mana regen/20s) x (cast time/20s) x mod
+***    (100 / 200) * (23) * (4 / 20) * 2
+
+This spellcaster's 50 caid harm spell (damage is based on int) that can be 
+cast every 8 seconds would have a mana cost of 2.3. etc etc
+
+*** So (caid / sustained caid max) * (mana regen/20s) x (cast time/20s) x mod
+***    (50 / 200) * (23) * (4 / 20) * 2
+
+If this spellcaster used a higher caid harm spell of same cast speed,
+let's say 150 caid, this would result in a mana cost deficit and a
+gradual depletion of the mana pool.
+
+*** How we work out the scaling of this mana cost deficit is TBD..
+    but total possible caid should stay within the pre-determined
+    caps of 250 and 330 for occ / occ+lay, and it should scale
+    up in mana cost fairly significantly... not linearly? ***
+
+*** Note, harm spells have a much lower mana cost than current cost 
+    even lower than at-will.  So mana costs are really going to sit
+    in maintained spells. ***
+
+*** Note, maintained spells with high caid have a much higher mana
+    cost than current... where all maintained spells cost 5 mana per
+    60 seconds ***
+
+Scenario 2 example:
+A spellcaster with 100 int has a mana pool of 423.
+A spellcaster with 50 wis currently regenerates 13 mana per 20 seconds.
+
+This spellcaster with a maintained spell of 100 caid would have a 
+mana cost of maintenance of 11.5 every 20 seconds.
+
+This spellcaster's 100 caid harm spell (damage is based on int) that can be 
+cast every 4 seconds would have a mana cost of 2.4 (rounded up or down).
+
+This spellcaster will be in mana deficit of 11 per 20 seconds due to lack of 
+focus on wisdom. They'll run out of mana in slightly under 13 minutes.
+
+
+Scenario 3 example:
+A spellcaster with 250 int has a mana pool of 923.
+A spellcaster with 250 wis currently regenerates 53 mana per 20 seconds.
+
+This spellcaster with a maintained spell of 100 caid would have a 
+mana cost of maintenance of 26.5 every 20 seconds.
+
+This spellcaster's 100 caid harm spell (damage is based on int) that can be 
+cast every 4 seconds would have a mana cost of 5.3.
+
+Scenario 4 example:
+A spellcaster with 50 int has a mana pool of 256.
+A spellcaster with 100 wis currently regenerates 23 mana per 20 seconds.
+
+This spellcaster with a maintained spell of 100 caid would have a 
+mana cost of maintenance of 7.5 every 20 seconds.
+
+*** Note, maintenance cost based off int... 100 caid would be scaled 
+    for a 50 int benefit ***
+
+This spellcaster's 100 caid harm spell (damage is based on int) that can be 
+cast every 4 seconds would have a mana cost of 1.5.
+
+This spellcaster will be in mana surplus, but the benefits would be scaled
+down based on the low int stat.
+
+Scenario 5 example (current MM set up.. caveated with a guru quest):
+A morgul mage with 250 int has a mana pool of 923.
+A morgul mage with 250 wis currently regenerates 53 mana per 20 seconds.
+They have a max sustained caid of 250.
+
+This MM has a maintained spell of 80 caid would have a mana cost of 
+maintenance of 16.96 every 20 seconds.
+
+The MM has a morthul harm spell of 245 caid (damage based on int) that can
+be cast every 6 seconds. Would have a mana cost of 23.37.
+
+*** So (caid / sustained caid max) * (mana regen/20s) x (castings/20s) x mod
+***    (245 / 250) * (53) * (6 / 20) * 1.5
+ 
+So 3 casts in 20 seconds with maintained spell burns 87 mana, so a mana
+deficit of ~102 mana per minute. They will run out of mana after 9 minutes.
+
+
+Scenario 6 example (ogre warlock, 60 spellcraft):
+An ogre with 11 int has a mana pool of 126.
+An ogre with 100 wis currently regenerates 15 mana per 20 seconds.
+
+Maintaining a 35 caid quickness buff.
+
+*** So (caid / sustained caid max) * (mana regen per 20 seconds at sup guru sc)
+***     (35 / 50) * 53
+
+Maintaining a 35 caid quickness buff would be 37 mana per 20 seconds.
+Deficit of 22 per 20 seconds, so will be out of mana after slightly
+over 2 minutes.
+
+
+Scenario 7 example (warlock, 60 spellcraft):
+A warlock with 100 int has a mana pool of 423.
+A warlock with 100 wis currently regenerates 15 mana per 20 seconds.
+
+Maintaining a 35 caid quickness buff.
+
+*** So (caid / sustained caid max) * (mana regen per 20 seconds at sup guru sc)
+***     (35 / 50) * 53
+
+Maintaining a 35 caid quickness buff would be 37 mana per 20 seconds.
+Deficit of 22 per 20 seconds, so will be out of mana after 6.4 minutes.

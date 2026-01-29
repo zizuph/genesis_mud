@@ -1,0 +1,14 @@
+main
+::MAPDATA::
+fb_rm12 2 3
+fb_rm21 7 3
+fb_bedrm 11 3
+fb_rm11 2 5
+fb_rm22 7 5
+::MAPDATA::
+                 /\.-`\
+ Fire Brigade  <=||    :
+                 ||`-./
+ [ ]  [ ]- o     ||
+  |    |         ||
+  o    o         ||

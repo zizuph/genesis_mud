@@ -1,0 +1,177 @@
+Heya Lilith ...
+
+After months of watching, waiting, discussing, and deliberating, the
+Balance Team has finally arrived on the decision that certain changes
+are now needed for the Vampire Guild to function within the global
+theme and balance needs of the game.
+
+The process which lead to this final decision involved the two active
+members of the Balance Team, Petros and Cotillion, and myself. The lists
+of issues that have been raised in the past were gone over with a fine
+toothed comb, with our goal being to understand what we felt was the
+problem with each, and then deciding what solution (if any) was
+appropriate to correct the problem. In some cases, there was complete
+agreement on all fronts that someting must be done. In others, there was
+discussion needed, and minds were changed as a result. In a few cases,
+the perceived problems were ruled by Cotillion to be not worth worrying
+about, and the concern was thrown out.
+
+My own concern in all of this is that we maintain the Vampires as:
+
+    1. An awesome theme.
+    2. A guild that is exciting and fun to play.
+    3. A guild that is versatile, powerful, and terrifying.
+    4. A guild that is all of the above, and remains within the bounds
+       of Balance as assessed by Cotillion and his team.
+
+I think that what has been decided will not compromise any of these
+goals, and will, in fact, finally make true #4 above. As with all of
+our efforts, if these actions fail to provide what is needed for the
+game, we will know, and can rework things again in the future.
+
+Below, I will list the changes that will go into effect. None of these
+changes remove powers or abilities from the guild. Most of them involve
+tweaking some aspect of an existing ability. The only exception to this
+is one ability which was never documented as an ability, and which
+reveals (prehaps unintentionally) wiz-info to the guild members, and 
+must of course be removed altogether.
+
+The Balance Team will be making these changes, themselves, immediately.
+Following the sending of this mail, I will be mailing the Vampire players
+an explanation that is suited to the perspective of a player and member
+of the guild so that they, too, are fully in the loop on the changes and
+how they are likely to feel affected by them.
+
+Thanks for all your great work with this guild, and patience with a
+process which has been marred by bad energy and mistrust. Hopefully,
+this will be the final iteration of necessary balancing for this most
+excellent theme. The only further changes that are forseeable will come
+when we have arrived on a standard spell system, which is not likely to
+affect power or tax levels.
+
+Here follow the changes, and the rationale for each:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ - The spell system which Novo designed for the Vampires will be brought
+   fully up to date with the standards of /d/Genesis/newmagic/spell.c.
+   Novo's system took many things from the ability structure he had
+   been designing, and made the spells work along these lines. However,
+   there were many things that were left out which need to be included
+   so that the Vampire spells function along the same lines as the
+   standard spells throughout the realms. The Vampire spell system will
+   be augmented with the missing aspects, resulting in performance of
+   Vampire casting that is consistent with the rest of the game.
+
+ - Contrary to the documentation, it is possible (and advantageous)
+   for a Vampire to make use of drained skills and drained resistances
+   at the same time. The documentation states that since they cannot
+   be used simultaneously, that only the higher of the two (resistance)
+   will be taxed. Tax calculations will be changed to tax these two
+   aspects of drain separately, which will result in either a reduction
+   of aid elsewhere in their abilities, or a reduction of the power
+   of these types of drain.
+
+ - The Vampire resistance drain is currently done additively, which
+   results in much more aid than the correct multiplicative
+   method would provide. Resistance drain will therefore be changed
+   to be done multiplicatively, which will provide the correct amount
+   of aid and synch properly with other drained resistances and/or
+   resistances from outside objects they may acquire.
+
+ - Tax will be applied to the Vampires ability to target specific
+   locations to their specials according to the standard ability
+   system. Currently, Vampires pay no tax for this ability which 
+   can give them the ability to do (quite commonly) twice as much
+   damage to a heavily armoured opponent (simply by targetting the
+   head, which will rarely have AC > 50.)
+
+ - A cooldown will be applied to the Dash ability so that it cannot be
+   rapid cast to guarantee escape. We want Vampires to be hard to be
+   hard to catch, but not impossible. The duration of the cooldown will
+   be around 10 seconds.
+
+ - Fly will be changed so that it cannot be case while in combat. This
+   is something that will be enforced globally - no combat ports.
+
+ - A standard scry effect will be added to the ability library, which
+   will then be used by the Vampire Scry spell. It will no longer be
+   something that can be cast while on the move. It will also always
+   alert the target who was scried. All simple scry spells in the game
+   will be converted to use this central (yet customizable) code.
+
+ - An undocumented feature exists which sends a useful messages to
+   Vampires when magic resistance is being checked against them.
+   Similarly, a message is generated by the obfuscate spell when
+   check_seen is called against them. Player knowledge of such calls
+   from the mudlib are inappropriate, and will be removed.
+
+ - The duration of the flicker spell will be reduced to around 20
+   seconds or so. Its a great ability, and lovely for the theme, so
+   we want to keep it. However, in that it reduces parry, defence,
+   and tohit against the opponents, it renders them practically
+   helpless against the Vampire, so long as the Vampire has enough
+   darkness items in their possession to overcome the 1 torch per
+   10 second relight allowance (which they always seem to.) We
+   do not want such a powerful game-changer to last the entire
+   duration of battle (5 minutes, currently.)
+
+ - Obfuscate will be changed so that the effect collapses entirely 
+   when combat is begun. While the victim was able to see what was
+   going on, the fact that others in the room were not made this a
+   partial invisiblity effect, and destroyed logical combat mechanics
+   for teams. No invisibility effects, even partial, will be allowed
+   during combat for any guild abilities globally.
+
+ - Obfuscate will be fixed so that it cannot be fail-proof. Currently,
+   the spell uses a resolve_task to check on success/failure, hanging
+   on to the result so that further testing is not necessary. However,
+   a failure result can be removed by the simple act of recasting
+   the spell which calls enhance_stalk_block() in the stalk.c part
+   of the shadow. Doing this gives an essential 100% success rate,
+   removing the purpose of the original call to resolve_task. Worse
+   yet, the enhance_stock_block() calls continually raise the value
+   for resolve_task, making it even less likely (impossible) to fail.
+
+ - The use of guildstat will be modified to global standard, which
+   is that guildstat may only be used to limit the power of a special,
+   not to enhance it beyond what is paid in tax.
+
+ - Dominate will be changed so that it cannot be used on messengers
+   of any kind. Dominate is a very cool ability, and the idea that you
+   can see through the eyes of a dominated valid npc is wonderful. The
+   ability to glue a hidden camera to a postcard is not so cool.
+
+ - Mesmerize will be modified to make use of the standard stun
+   library. When the guild was first coded, this library did not
+   exist, but now like all guilds, the effect will be centralized at
+   its core.
+
+ - Vampires currently experience regeration of hitpoints at a rate
+   that exceeds max intox, and yet pay no tax for the ability. The
+   justification has been that Vampires cannot gain the benefits from
+   alcohol and food or herbs the way normal players can, and thus
+   need the accelerated healing to break even (if that.) The problem
+   is that Vampires *can* and *do* enjoy the benefits of herb
+   consumption. Given that this is the case, they (the players)
+   are being asked to choose between regeneration and herbs. Either
+   they lose regeneration, or they lose the ability to benefit from
+   herbs. Taxing the ability would be too costly for the guild,
+   most likely, so one has to be cut.
+
+ - Vampire spells will be reclassified as non-vocal, since they are
+   currently treated as such.
+
+ - Once all of the above changes are made, a new total of combat
+   aid and tax will be in calculated for the guild. The main combat
+   special of the guild will be adjusted to correspond with the amount
+   of aid that remains available within the boundaries of taxation
+   in conjunction with sensibility. It will be lower than its current
+   100% setting, almost certainly. Perhaps closer to the original
+   agreed-upon number of 80%.
+
+Thanks again, Lilith. I know this has sucked in many ways for you and
+for the Vampire players. These changes will probably be mostly completed
+within a week. I will now mail the players a letter explaining things
+for their perspective (and a CC of that to you, of course.)
+
+G.

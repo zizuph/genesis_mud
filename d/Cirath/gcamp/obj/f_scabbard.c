@@ -1,0 +1,289 @@
+#pragma save_binary
+#pragma strict_types
+
+inherit "/std/container.c";
+inherit "/lib/keep.c";
+
+
+#include <cmdparse.h>
+#include <macros.h>
+#include <stdproperties.h>
+#include <wa_types.h>
+
+#include "/d/Cirath/common/defs.h"
+
+#define SCABBARD_SUBLOC2         "_scabbard_subloc"
+#define WORN_SCABBARD            "_worn_scabbard"
+static object  Worn = 0;
+
+public void
+create_container()
+{
+    set_name("scabbard");
+    add_name("_fury_scabbard");
+    set_adj("leather");
+    set_long("Made of hardened leather, this scabbard seems "
+    	+"well suited to the harsh life of the desert.  Thin steel "
+    	+"wire is tightly wrapped around the scabbard near the top, "
+    	+"while small milky white crystals circle the top of the "
+    	+"scabbard.\n");
+
+    add_prop(OBJ_M_NO_SELL, 1);
+    add_prop(OBJ_I_NO_STEAL, 1);
+    add_prop(CONT_I_WEIGHT,  2000);
+    add_prop(CONT_I_VOLUME,  2000);
+    add_prop(CONT_I_MAX_WEIGHT, 50000);
+    add_prop(CONT_I_MAX_VOLUME, 25000);
+    add_prop(CONT_I_TRANSP, 1);
+    add_prop(CONT_I_RIGID,  0);
+    add_prop(CONT_M_NO_INS, "If you want to insert a sword into the "
+      + "scabbard, then try to 'sheathe' it!\n");
+    add_prop(OBJ_S_WIZINFO,
+        "This scabbard is the scabbard for Fury, one of the "
+        +"nine elemental blades in Cirath.  It gives the wearer "
+       +"some added benefits.\n");
+}
+
+static int
+filter_weapon(object x)
+{
+    return (function_exists("create_object", x) == "/std/weapon");
+}
+
+static int
+filter_sword(object x)
+{
+    return (x->query_wt() == W_SWORD);
+}
+
+public int
+do_sheath(string str)
+{
+    int     result;
+    tp = this_player()
+    object *sword,
+    if (!str)
+       sword = tp->query_weapon(-1);
+    else
+      sword = filter(FIND_STR_IN_OBJECT(str, tp),
+          "filter_weapon", TO);
+
+    sword = filter(sword, "filter_sword", TO);
+
+    if (sizeof(sword) != 1)
+    {
+        NF("Sheath which sword?\n");
+        return 0;
+    }
+
+    if (sizeof(all_inventory(TO)))
+    {
+        NF("You cannot sheath your "+sword[0]->short()
+          + ", there is already "+LANG_ASHORT(all_inventory(TO)[0])
+          + " in the "+TO->short()+".\n");
+        return 0;
+    }
+
+    if ( sword[0]->query_wielded() == TP )
+    {
+        sword[0]->unwield_me();
+        if ( sword[0]->query_wielded() == TP )
+        {
+            NF("You cannot unwield your "+sword[0]->short()+".\n");
+            return 0;
+        }
+    }
+
+    remove_prop(CONT_M_NO_INS);
+    if (result = sword[0]->move(TO))
+    {
+        switch(result)
+        {
+        case 1:
+            NF("Your "+sword[0]->short()+" is too heavy for the "
+              + TO->short()+".\n");
+            break;
+        case 8:
+            NF("Your "+sword[0]->short()+" is too large for the "
+              + TO->short()+".\n");
+            break;
+        default:
+            NF("Strangely, you cannot sheathe your "+sword[0]->short()
+              + " in the "+ TO->short()+".\n");
+            break;
+        }
+        return 0;
+    }
+    if(objectp(environment(TP)))
+        environment(TP)->update_light(1);
+    TP->catch_msg("You slide your "+sword[0]->short()+
+        " into the leather scabbard with ease.\n");
+    say(QCTNAME(TP)+" sheathes "+HIS_HER(TP)+" "
+      + sword[0]->short()+".\n", TP);
+    add_prop(CONT_M_NO_INS, 1);
+
+    return 1;
+}
+
+public int
+do_unsheath(string str)
+{
+    object *sword,
+    mixed res;
+
+
+
+    if (!str)
+        sword = all_inventory(TO);
+    else
+        sword = FIND_STR_IN_OBJECT(str, TO);
+
+    if (!sizeof(sword))
+    {
+        if (!str)
+                  NF("Your "+TO->short()+" is empty!\n");
+        else
+            NF("There is no "+str+" in your "+TO->short()+"!\n");
+        return 0;
+    }
+    tp->catch_msg("You draw your "+sword[0]->short()+" in a "
+        +"single fluid motion!\n");
+    say(QCTNAME(tp)+" draws "+HIS_HER(TP)+ " "
+             + sword[0]->short()+" with blinding speed.\n",TP);
+    if (sword[0]->move(TP))
+        sword[0]->move(TP, 1);
+
+    if (stringp(res = sword[0]->command_wield()))
+    {
+        write(res);
+    }
+
+    return 1;
+}
+
+public int
+do_wear(string str)
+{
+    if (!str)
+    {
+        NF("Wear what?\n");
+        return 0;
+    }
+
+    if (TP->query_prop(WORN_SCABBARD) > 0)
+    {
+	write("You are already wearing the leather scabbard!");
+	return 0;
+    }
+
+    TP->add_subloc(SCABBARD_SUBLOC2, TO);
+    write("You sling the "+TO->short()+" across your back.  Energy "
+        +"seems to course through your body.\n");
+    say(QCTNAME(TP) + " wears the "+TO->short()+" across "
+      + TP->query_possessive() + " back, an added spark in "+
+      HIS_HER(TP)+ " eye.\n");
+    add_prop(OBJ_M_NO_DROP, "Remove the scabbard first!\n");
+    add_prop(WORN_SCABBARD,1);
+    TP->add_prop(LIVE_I_QUICKNESS,TP->query_prop(LIVE_I_QUICKNESS)+15);
+    Worn = TP;
+    TO->set_no_show_composite(1); /* do not display in inventory */
+    return (str != "all" ? 1 : 0);
+}
+
+public int
+do_remove(string str)
+{
+    tp = TP;
+
+    if (!str)
+        return 0;
+
+    if (!objectp(Worn))
+    {
+        NF("You are not wearing it!\n");
+        return 0;
+    }
+
+    TP->remove_subloc(SCABBARD_SUBLOC2);
+    write("You remove the "+TO->short()+", feeling the mystical "
+        +"energy bleed from you.\n");
+    say(QCTNAME(TP) + " removes the "+TO->short()+" with a look "
+        +"of fatigue.\n");
+    TP->add_prop(LIVE_I_QUICKNESS,TP->query_prop(LIVE_I_QUICKNESS)-15);
+    remove_prop(WORN_SCABBARD);
+    remove_prop(OBJ_M_NO_DROP);
+    Worn = 0;
+    TO->set_no_show_composite(0);  /* display in inventory again */
+    return (str != "all" ? 1 : 0);
+}
+
+public void
+enter_env(object dest, object old)
+{
+    string  msg;
+
+    ::enter_env(dest, old);
+
+    if (!objectp(old) || !objectp(dest) || !interactive(dest))
+        return;
+
+    setuid();
+    seteuid(getuid());
+}
+
+public void
+leave_env(object old, object dest)
+{
+    string  msg;
+
+    TP->remove_subloc(SCABBARD_SUBLOC2);
+    TO->unset_no_show_composite();
+    remove_prop(OBJ_M_NO_DROP);
+
+    ::leave_env(old, dest);
+
+    if (!objectp(dest) || !objectp(old) || !interactive(old))
+        return;
+
+    setuid();
+    seteuid(getuid());
+}
+
+public string
+show_subloc(string subloc, object on, object for_obj)
+{
+    string data;
+
+    if(subloc == SCABBARD_SUBLOC2)
+    {
+        if (for_obj != on)
+            data = capitalize(on->query_pronoun()) +
+            " is wearing "+LANG_ASHORT(TO)+" across " +
+       HIS_HER(TP) +" back.\n";
+        else
+            data = "You are wearing a "+LANG_ASHORT(TO)+
+            " across your back.\n";
+        return data;
+    }
+    return 0;
+}
+
+public int query_recover() { return 0; }
+
+void
+init()
+{
+    ::init();
+
+    add_action(do_sheath, "sheath");
+    add_action(do_unsheath,    "unsheath");
+    add_action(do_wear,    "wear");
+    add_action(do_remove,  "remove");
+}
+
+public object
+query_worn()
+{
+    return Worn;
+}
+

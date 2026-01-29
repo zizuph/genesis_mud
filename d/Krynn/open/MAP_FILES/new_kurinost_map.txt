@@ -1,0 +1,320 @@
+main
+::MAPDATA::
+rs_dock 18 3 rockyshore
+rs_shore 18 3 rockyshore
+rs4x1 15 5 rockyshore
+rsc4x1 15 5 rockyshore
+rs5x1 15 5 rockyshore
+rs3x2 16 7 rockyshore
+rsc3x2 16 7 rockyshore
+rs4x2 16 7 rockyshore
+rs5x3 21 7 rockyshore
+rs6x2 21 7 rockyshore
+rsc6x2 21 7 rockyshore
+ledge1 21 7 sandybeach
+ledge2 21 7 sandybeach
+ledge3 21 7 sandybeach
+sandy_beach1 21 7 sandybeach
+sandy_beach2 21 7 sandybeach
+sandy_beach3 21 7 sandybeach
+rs_cave 21 7 sandybeach
+rs6x4 21 10 rockyshore
+rs5x4 15 10 rockyshore
+rsc5x4 15 10 rockyshore
+rs4x4 15 10 rockyshore
+rsc4x4 15 10 rockyshore
+rs3x3 10 8 rockyshore
+rs2x3 10 8 rockyshore
+rsc2x3 10 8 rockyshore
+rs1x2 10 8 rockyshore
+rsc1x2 10 8 rockyshore
+rs1x4 10 8 rockyshore
+rs2x5 11 12 rockyshore
+rs2x6 11 12 rockyshore
+dcamp_ne_o 22 4 draconiancamp
+dcamp_ne_i 22 6 draconiancamp
+dcamp_se_o 22 18 draconiancamp
+dcamp_se_i 22 20 draconiancamp
+dcamp1x3 15 8 draconiancamp
+dtent1x3 15 8 draconiancamp
+dcamp2x2 17 7 draconiancamp
+dtent2x2 17 7 draconiancamp
+dcamp2x3 17 8 draconiancamp
+dcamp3x3 19 8 draconiancamp
+dtent3x3 19 8 draconiancamp
+dcamp6x2 27 7 draconiancamp
+dcamp6x4 27 9 draconiancamp
+dtent6x4 27 9 draconiancamp
+dcamp7x2 29 7 draconiancamp
+dtent7x2 29 7 draconiancamp
+dcamp7x3 29 8 draconiancamp
+dtent7x3 29 8 draconiancamp
+dcamp6x5 28 12 draconiancamp
+dcamp4x7 22 16 draconiancamp
+dcamp3x6 19 13 draconiancamp
+dcamp1x7 15 16 draconiancamp
+dtent1x7 15 16 draconiancamp
+dcamp1x8 15 17 draconiancamp
+dtent1x8 15 17 draconiancamp
+dcamp2x8 17 17 draconiancamp
+dcamp3x7 19 16 draconiancamp
+dtent3x7 19 16 draconiancamp
+dcamp5x7 25 16 draconiancamp
+dcamp6x7 27 16 draconiancamp
+dtent6x7 27 16 draconiancamp
+dcamp7x7 29 16 draconiancamp
+dtent7x7 29 16 draconiancamp
+dcamp6x6 27 15 draconiancamp
+dcamp6x8 27 17 draconiancamp
+dtent6x8 27 17 draconiancamp
+dtowerd 15 13 draconiancamp
+dtoweru 15 11 draconiancamp
+forest1 26 24 draconiancamp
+forest2 30 24 draconiancamp
+forest3 34 28 draconiancamp
+dcamp4x3 11 15 muddypitmap
+dcamp5x3 11 15 muddypitmap
+dcamp4x4 11 15 muddypitmap
+dcshed 11 15 muddypitshedmap
+::MAPDATA::
+   .~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.
+   .~~~~~~~ Bay of Balifor ~~~~~~~~~~. 
+    `...~~~~~~~~~~~~~~~~~~~~~~~~~~~~'. 
+        `..--..-- o .'`.~~~~~~~~~~~.`  
+    Rocky         |     ``.~~~~~~~.`   
+    shore  ,'  o-'  '.    '.~~~~~'.    
+        .''  .'      '-.   '.~~~~~'.   
+       ,'    '--o,   o  '. '.~~~~~.`   
+          o       '-' '. '.  ''''      
+         / '-.        .'  '.           
+    ,-,  \    'o-----o    ,'           
+ -.'   '. \               '.           
+         ' o Pass      .'.'            
+        .  |  .   .''.'                
+  Old  /_\ |   '-'                     
+ tower |o|-o                           
+       ''' |                           
+           '.                          
+             \                         
+         @    \  @@"        @@@@       
+     @"@@"@@"@ o  @@@  @" @@"@@        
+      @@"@@ @@ |   @"@@ @@@   @@       
+ @@"@@@"                       @@@     
+  @"@@    Silvanesti forest   @@"      
+  @@@@@"                       @@@     
+::NEWMAP::
+rockyshore
+::MAPDATA::
+rs_dock 28 4
+rs_shore 28 6
+rs4x1 23 8
+rsc4x1 23 8
+rs5x1 26 8
+rs3x2 19 11
+rsc3x2 19 11
+rs4x2 24 11
+rs5x3 26 13
+rs6x2 31 11
+rsc6x2 31 11
+rs6x4 31 15
+rs5x4 27 15
+rsc5x4 27 15
+rs4x4 23 15
+rsc4x4 23 15
+rs3x3 21 13
+rs2x3 17 13
+rsc2x3 17 13
+rs1x2 14 12
+rsc1x2 14 12
+rs1x4 13 16
+rs2x5 16 19
+rs2x6 16 21
+::MAPDATA::
+   .~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~. 
+    `.~~~~~~~ Bay of Balifor ~~~~~~~~~~~~~~~~~~~~~.'  
+      `.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.'    
+        `--_~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.'      
+            `.~~~~_.--...~~ o ~~.~~~~~~~~~~~~.'       
+              `.-'       `--|-'' `-.~~~~~~~~~~`.      
+                            o       `.~~~~~~~~~~`.    
+               .'   ....'' / .'       `.~~~~~~~~.'    
+        Rocky.' . .' .-o--o  .`        `.~~~~~~~`.    
+        shore .'.'  /    ...'  '`-.     `.~~~~~~.'    
+          .' .' :  /  `.'     .''. `.   '..~~~~.'     
+        .'  .'  :  o----o   .' o `.  `. :  `--'       
+     --'  .'  o  `..'`.  \    / \  `..' :             
+         .'  / `-o---o `. o--'.' |  .' ':             
+            /         \  `...'  /  .'  .'             
+     .      \     `.   o---o---o .'    :              
+      `..    o   .  `.  ..    ...'   .'               
+      .  `.   \   `.  `'  `--'     .`                 
+       `--.    \    `..       .'`.'                   
+           `.   o      `..--''                        
+                |                                     
+                o Pass through cliffs.                
+                 \                                    
+                  \                                   
+::NEWMAP::
+sandybeach
+::MAPDATA::
+ledge1 9 10
+ledge2 15 10
+ledge3 19 6
+sandy_beach1 26 3
+sandy_beach2 28 5
+sandy_beach3 28 7
+rs_cave 26 10
+::MAPDATA::
+                      ~~~~~~~~~~~~               
+                    .-'--.~~~~~~~~~~~~           
+                  Sandy   '.~~~~ Bay ~~~         
+                  beach   o :~~~~ of ~~~~        
+                      '../ \ '.~~~ Balifor ~~    
+             -.         /.  o :~~~~~~~~~~~~~~~   
+       -.'-.   '-. o---' .' | '.~~~~~~~~~~~~~.'  
+            '.    /'._   '. o  .'~~~~~~~~~~~~'.  
+    -. Ledge  '. /.   '. '.-U--.~~~~~~~~~~~~~~.' 
+      '.-.      /  '-.   .'/  .''.~~~~~~~~~~~.'  
+         o-----o     .' '.o  .'   '--.~~~~~.'    
+    -----. '..       '.  '..' Cave    '---'      
+    ----. \   '.       '.                        
+    Path \ \   '.                                
+          \      '.                              
+::NEWMAP::
+muddypitmap
+::MAPDATA::
+dcamp4x3 21 8
+dcamp5x3 33 8
+dcamp4x4 27 14
+::MAPDATA::
+                        Path   ...'''/'''/'.          
+              .. .... . up   .'/    |   |   '/'       
+           ..' |'   \'     ^  / .../.../    /  '_     
+          .\    \   |     // .|'    ._  ''./   / '..  
+        .'  \    | .|. . //.'    /\/  \.    './   _/. 
+       .\_   \.''''   ' //     |       | Garbage_/ '. 
+      .'  \  '   ._/|  //     /  _._    \. pile'   '. 
+      .__  .'   /   / //_______\/_  \    |    .' _/ . 
+      .  \_.  ./   | o __________o  /   /     '_/ .'  
+      .    '  |    \.\\         //  \._|     .'__.    
+     .Garbage \.    / \\       //          .'_/ .'    
+     ._ pile    \_/'   \\     //          .'    '     
+      .\__.             \\   //  _.       '  __.'     
+      .____'.        __. \\ //._/  \      '_/  '      
+      '    __.      /   \ \o/ /   .|     .'   .'      
+       '._/  '      \    \_./   _ /      '___ '       
+        '.  _'.    .|          /        .'   \'       
+         ._/ '    _\       ._/'        ._    .'       
+         .  /.    |_       | Garbage .'  \_.'         
+         ._/  '..   |.  _./    pile.'_   .'           
+         '.   /  '..  \/.   . .'\''   \_.             
+           . |   /  '|''\'''\'   \_ ...'              
+           ./   |    |   \   |    .'     Central      
+            ''./..  .|. .|.. \...'         pit        
+                  '' ' '    ''                        
+::NEWMAP::
+muddypitshedmap
+::MAPDATA::
+dcshed 24 17
+::MAPDATA::
+                        Path   ...'''/'''/'.          
+              .. .... . up   .'/    |   |   '/'       
+           ..' |'   \'     ^  / .../.../    /  '_     
+          .\    \   |     // .|'    ._  ''./   / '..  
+        .'  \    | .|. . //.'    /\/  \.    './   _/. 
+       .\_   \.''''   ' //     |       | Garbage_/ '. 
+      .'  \  '   ._/|  //     /  _._    \. pile'   '. 
+      .__  .'   /   / //_______\/_  \    |    .' _/ . 
+      .  \_.  ./   | o __________o  /   /     '_/ .'  
+      .    '  |    \.\\         //  \._|     .'__.    
+     .Garbage \.    / \\       //          .'_/ .'    
+     ._ pile    \_/'   \\     //          .'    '     
+      .\__.             \\   //  _.       '  __.'     
+      .____'.        __. \\ //._/  \      '_/  '      
+      '    __.      /   \ \o/ /   .|     .'   .'      
+       '._/  '      \    \_./   _ /      '___ '       
+        '.  _'.    .|   /\     /        .'   \'       
+         ._/ '    _\   /o/ ._/'        ._    .'       
+         .  /.    |_   \/  | Garbage .'  \_.'         
+         ._/  '..   |.  _./    pile.'_   .'           
+         '.   /  '..  \/.   . .'\''   \_.             
+           . |   /  '|''\'''\'   \_ ...'              
+           ./   |    |   \   |    .'     Central      
+            ''./..  .|. .|.. \...'         pit        
+                  '' ' '    ''                        
+::NEWMAP::
+draconiancamp
+::MAPDATA::
+dcamp_ne_o 22 4
+dcamp_ne_i 22 6
+dcamp_se_o 22 18
+dcamp_se_i 22 20
+dcamp1x3 15 8
+dtent1x3 15 8
+dcamp2x2 17 7
+dtent2x2 17 7
+dcamp2x3 17 8
+dcamp3x3 19 8
+dtent3x3 19 8
+dcamp6x2 27 7
+dcamp6x4 27 9
+dtent6x4 27 9
+dcamp7x2 29 7
+dtent7x2 29 7
+dcamp7x3 29 8
+dtent7x3 29 8
+dcamp6x5 28 12
+dcamp4x7 22 16
+dcamp3x6 19 13
+dcamp1x7 15 16
+dtent1x7 15 16
+dcamp1x8 15 17
+dtent1x8 15 17
+dcamp2x8 17 17
+dcamp3x7 19 16
+dtent3x7 19 16
+dcamp5x7 25 16
+dcamp6x7 27 16
+dtent6x7 27 16
+dcamp7x7 29 16
+dtent7x7 29 16
+dcamp6x6 27 15
+dcamp6x8 27 17
+dtent6x8 27 17
+dtowerd 15 13
+dtoweru 15 11
+forest1 26 24
+forest2 30 24
+forest3 34 28
+::MAPDATA::
+                  |       .'`--.'                     
+                   o Pass              .'              
+       .--'`.     . \  .'       .'     `.              
+    --'      `..-`   \    .-'`-'       .'              
+        .-.  ...'`    o              .'                
+    -.-'   `'   = = = | = = = =   .-'                  
+              =       o        =                       
+             =  .o.   |   .o-o  =                      
+            =  o-o-o--o--o   o  =                      
+           =   _      |\  'o'   =    .'`-.             
+           =  / \    /   \      =  -'     `.-.         
+      Old  = /_o_\  o---o  \    =             `        
+      tower= | | |   \ /    o   =  Draconian           
+           = | o-|-o  o    /    =  camp                
+           = '''''  \    /      =                      
+           =         \ /  .o.   =                      
+           =   o.  o--o--o-o-o  =                      
+            =  o-o'   |   'o'   =                      
+   .         =        o        =                       
+    `.        = = = = | = = = =                        
+      `-.             o             .'`-.              
+         `'`.          \          .'     `--.          
+             `--.       \    .-'`'                     
+                 `-.     \                             
+                          o---o                        
+                               \   Silvanesti          
+                "@@@@           \    forest     @@@@   
+     @@"  @@@  @@   @"  @@       \           "@@" @@   
+       @@@ "@@@"     @@@"@@"   @@ o @@@  @@@@@  @@@    
+     @@@@@@@"  @@@@    @@  @@@@"@@@@@" @@  @@"@@ "@@   
+    @@@  @@@@     " @@   @@@  "         @@@  @@@@  "   

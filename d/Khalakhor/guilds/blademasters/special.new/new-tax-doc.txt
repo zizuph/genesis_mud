@@ -1,0 +1,65 @@
+*****************************************************************************
+          TAX INFORMATION FOR THE BLADEMASTERS OF KHALAKHOR GUILD (Layman)
+*****************************************************************************
+AG = Adventures Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)
+
+
+=======
+SKILLS:
+=======
+
+Basic Skills:
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+SS_APPR_MON           60         30          30         1            .50 
+
+Taxable Slots Allowed   : 350
+Actual Taxable Slots    : 30
+
+TOTAL TAX FOR SKILLS : 30/60 = 0.5%
+        
+
+================
+COMBAT SPECIALS:
+================
+
+BATTACK (Uses skill SS_WEP_SWORD)
+
+    Battack is a damage special that requires the use of a sword. The
+    combat aid has been set to 48%.
+
+    Tax for battack: 48 / 6 = 8%
+    
+TOTAL TAX FOR SPECIALS: 8.0%
+
+
+====================
+ADDITIONAL FEATURES:
+====================
+
+BSTUDY (Uses skill SS_APPR_MON and the GUILD STAT)
+
+    Bstudy is an ability to study the hitlocations of the opponents, which
+ones are easier to hit (as in frequency) and which one appear unprotected
+with a certain degree of randomization. It's a convenience shortcut rather
+than groundbreaking ability. Suggested tax 0.5%
+
+TOTAL TAX FOR ADDITIONAL FEATURES: 0.5%
+
+***************************************************************************
+             Taxation Summary
+***************************************************************************
+
+    Skill Tax Total        :  0.5    
+    Combat Specials        :  8.0  
+    Additional Features    :  0.5   
+                             ----
+    Total Tax              :  9.0
+
+    Rounded Total Tax      :  9%
+
+*****************************************************************************
+
+Document by Petros, September 2008

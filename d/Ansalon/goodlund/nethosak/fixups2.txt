@@ -1,0 +1,69 @@
+
+
+~nethosak/city/shop.c		Does not load
+~nethosak/city/store.c		Does not load
+
+We'll have to talk about where the boats will be going to.. some places,
+like Kalad, are classed as closed, so no boats will be going there.  We 
+may be able to get one to go to Grey Havens though, or Pelargir.
+
+~nethosak/city/room/pier1	add_items needed
+				-'horned bay', 'bay', 'blood sea',
+				-'pier', 'wooden pier', 'small wooden pier'
+				-'mithas', 'isle', 'village', 'nethosak'
+				make it so that you can 'read sign' (add_cmd_item)
+
+~nethosak/city/room/pier2	long description -
+				"another pier.A cool wind.." should be a space after
+				the period.
+				Needs the same add items as above added.
+				Make it so that you can 'read sign'
+
+~nethosak/city/room/pier3	same corrections - re:pier2
+				additional add items:
+				-'peaks', 'volcanoes', 'volcanic peaks', 'four peaks'
+				-'four volcanic peaks', 'grassy plains', 'plains',
+				-'forest'
+
+~nethosak/city/room/pier4	add items:
+				-beach, forest, nethosak, village, small pier. 
+
+				add_item footprints "You recognize the "+    
+                         	"footprints as the prints of minotaurs, they "+
+                         	"actually cover the entire trail." Full stop after
+				minotuars. Capitalise They.
+
+				"into a forest.A cool wind" needs a space after the period.
+
+~nethosak/city/room/pier5	long description  "reminding you that winter is not far away. ."
+				The end of the description has an extra space and period.
+
+				add_items need to be fixed up re: pier4
+				as well as 'warehouse'
+				
+~nethosak/city/room/warehouse	add items for:
+				-crates, trunks, mouse, rat.
+
+				In floor description and search floor, there should be consistency
+				in how you write them.. either floor boards, or floorboards, not both.
+				Also, the add item for floor needs a \n at the end.
+
+				In the search function, perhaps mention that you would be able to go down
+				through some loose floor boards, rather than say you can move floor boards,
+				which you can't do (no cmd for it).  Also, when the person goes down through
+				the floor, you should have a message for both the person who goes down (saying
+				they climbed down under the warehouse) as well as a message for those who see
+				them leave/arrive.   Have a look at the room in Flotsam where you can climb a 
+				drainpipe in the alley for an example of what you can do.
+
+~nethosak/city/room/sea1	In the no_go() function,  "to dangerous to swim" should be _too_ dangerous to swim,
+				and "The current is far to strong" should be far _too_ strong
+
+				add add_items... can't examine anything here.
+
+~nethosak/city/room/pier6	Corrections as pier5
+				add_item 'ship', 'huge ship', 'deck', 'hull', 'stormseeker'
+				in the long description,  "The ship has a the name 'Stormseeker' writting on the"
+				should be "The ship has the name 'Stormseeker' written on the"
+
+

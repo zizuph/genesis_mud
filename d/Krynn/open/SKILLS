@@ -1,0 +1,69 @@
+SKILLS defined specifically in Krynn
+====================================
+Last modified by:
+Teth, Feb 19, 1997
+
+U means skill is unnamed for players, N means named.
+
+Number       Name                Info
+------       ----                ----
+Knights
+--------
+67530  N     rescue              Used by the Knights        (rescue ability)
+67531  N     kattack              "                 (kattack special attack)
+67532  N     block                "                          (block ability)
+
+108111 U     prestige exp        Accumulated prestige of Knights of Solamnia
+108112 U     prestige stat       Prestige Exp converted into a stat. "
+108113 U     charity             Charity for the Knights' Armoury
+108119 U     disgraced           Knight is not allowed to train, access the
+                                 armoury room and lead team (contains age).
+108120 U     armourer            Used to determine the 'Grand Master' 
+                                 when 100.
+
+Gnomes
+--------
+108200 N     build               Ability to build things (gnome race guild)
+108201 U     inventions          Used to determine rank among gnomes (")
+
+Thieves
+--------
+108300 U     sacrifice           Hiddukel may support you when stealing if you
+                                 have sacrificed enough.
+108301 U     stolen              A number indicating successfully stolen items.
+                                 Stealing from potent victims gives more reward.
+                                 Used to determine part of the guild level.
+                                 (This is something like prestige for knights).
+Wizards
+--------
+108400 U     wohs_level_mod      A skill modifier used to determine
+                                 the level of a Wizard of High Sorcery.
+
+Elven Archers
+-------------
+108500 N     evade               The ability toavoid getting drawn into melee combat.
+
+Throtyl Hobgoblin Raiders
+-------------------------
+108550 N     wound               A bleed special attack.
+108551 U     Loot donations      Loot donations that go towards ones title.
+
+Templar Knights of Takhisis
+-----------------------
+108600 N      tattack            Combat damage special attack
+108601 N      focus              Skill used for avoiding attacks
+108602 N      sap               Combat damage/stun special opener attack
+
+School of High Magic
+--------------------
+
+108700 N      arcane focus       Trainable skill determining how quickly a
+                                 wizard can memorise spells  
+
+108701 U      WoHS guild xp      This skill used to store the "guild points"
+                                 for the WoHS.
+
+Order of the Stars
+------------------
+108800 N     Spiritual lore      Trainable skill affecting spell effectiveness
+108801 U     OotS guild xp       This skill used to store the guild points for OotS

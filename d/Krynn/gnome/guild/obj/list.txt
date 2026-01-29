@@ -1,0 +1,18 @@
+    size = sizeof(players);
+    for (index = 0; index < size; index++)
+    {
+        /* Don't print players that aren't a member. */
+        if (players[index]->query_guild_name_race() != GNOME_NAME)
+            continue;
+ 
+        /* Don't print juniors. */
+        if (extract(players[index]->query_name(), -2) == "jr")
+            continue;
+ 
+        /* Don't print invisible people, except if you are a wizard. */
+        if (!this_player()->query_wiz_level() && players[index]->query_invis())
+            continue;
+ 
+        write(": " + capitalize(players[index]->query_real_name()) +
+            " the " + players[index]->query_guild_title_race() + "\n");
+    }

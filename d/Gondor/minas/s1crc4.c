@@ -1,0 +1,78 @@
+/*
+ *	/d/Gondor/minas/s1crc4.c
+ *
+ *	Coded by Elessar.
+ *
+ *	Modification log:
+ *	28-Jan-1997, Olorin:	Changed inheritance.
+ *  Last modified by Alto, 09 June 2001
+ *      Added room tells and revised descriptions
+ */
+#pragma strict_types
+
+inherit "/d/Gondor/minas/lib/street.c";
+inherit "/d/Gondor/minas/lib/street_funcs.c";
+
+#include "/d/Gondor/defs.h"
+#include "/d/Gondor/std/tell.c"
+
+public string
+read_sign()
+{
+    return
+        BSN("Above the entrance of the building to the south is a "
+	    + "large wooden sign. On it is written:\n")
+	    + "\t*** Herumegil, Master Weapon Smith of Minas Tirith ***\n\n";
+}
+
+public void
+create_street()
+{
+    set_circle("Fourth");
+    set_streetname("Pelargir Street");
+    set_areaname("southern");
+    set_streettype("narrow street");
+    set_activity(1);
+    set_wealth(1);
+    add_exit(MINAS_DIR + "gate4",         "northeast", 0, 1);
+    add_exit(MINAS_DIR + "rooms/wsmithy", "south",     0, 0);
+    add_exit(MINAS_DIR + "s2crc4",        "west",      0, 1);
+    set_extraline("Following the narrow street towards the northeast will "
+      + "take you to the Fourth Gate, which leads out to the Third "
+      + "Circle. To the west the street turns into an alley. Above "
+      + "the entrance of the building to the south is a large wooden "
+      + "sign.");
+
+    add_item( ({"entrance", "sign", "large sign", "wooden sign", }),
+	read_sign());
+    add_cmd_item( ({"entrance", "sign", "large sign", "wooden sign", }),
+        "read", read_sign());
+
+    /* These items are similar in all streets on all levels */
+
+    add_street_items();
+
+    set_tell_time(150);
+
+    /* These tells are common to all streets */
+
+    add_street_tells();
+
+    /* These tells are unique to this circle */
+
+    reset_room();
+
+}
+
+/*
+ * This function enables the random room tells.
+ */
+
+public void
+enter_inv(object ob, object from)
+{
+    ::enter_inv(ob, from);
+
+    if(interactive(ob))
+        start_room_tells();
+}

@@ -1,0 +1,63 @@
+The Heralds of the Valar are a layman guild, descended from the Hin Warrior guild run by Tricky.
+This guild has many of the same spells, but the feel and history of the guild has totally changed to fit into the more Tolkienesque Shire of the present.
+
+The fun/no frills aspect of the Hin Guild was put into the Tricksters, while this guild retained the clerical spellcasting aspects, and got emotions reflecting their status.
+
+Important filenames:
+--------------------
+/d/Shire/herald/herald_soul         -> command soul for the guild.
+/d/Shire/herald/herald_shadow.      -> Lay guild shadow, supports protect spell.
+/d/Shire/herald/join                -> Join room/Leave room.
+/d/Shire/herald/herb                -> Herbalist room in the tree.
+                                       Herbalist is identical to Tobold, but
+                                       no training is allowed.
+/d/Shire/herald/robe                -> object that adds the command soul
+/d/Shire/herald/book                -> object that adds the spells.
+/d/Shire/herald/train               -> Training room for the guild.
+/d/Shire/herald/herald.h            -> Defs file for the guild.
+/d/Shire/herald/----.h              -> Spell definitions with the spell name.h
+
+In case of emergency, the /d/Shire/herald/old/ dir holds backup working (hopefully!) files.
+
+Tax Calculation:
+----------------
+- Combat aid(1):                            0.00
+- Special places(2):                        1.00
+- Eagle summoning spell (communication):    2.00
+- Harmless spells:
+   o peace (vanahwesta)                     0.40
+   o tend   (lissinen)                      0.50
+   o cure   (engwagalad) (poison cure)      0.50
+   o adore   (mel)   (harmless)             0.00
+   o candle   (silme)  (light spell)        0.30
+   o clairvoyance  (haetir)                 0.40
+   o protect (ondo)                         1.00
+   o khil  (alignment check)                0.10
+   o palandir (guild list)                  0.00
+   o lammen (secret language)               0.10
+   o ramar (wings)                          Taxed as communication
+
+   6.3% tax on offered spells.
+
+- Offered skills:
+   o spellcraft
+   o form_conjuration
+   o form_abjuration
+   o form_enchantment
+   o form_transmutation
+   o element_life
+   o element_earth
+   o herbalism
+   o language
+
+All skills are trained to 50.
+Spellcraft has a general availability of 20 and Language is offered
+generally to 50, so that is 450 - 70 = 380 or 6.3% tax on skills.
+
+6.3% (skills) + 6.3% (spells and extras) = 12.6% or 13% total.
+
+Grand Total         13.00
+Actually taxed = 13%
+
+Dunstable.
+Updated May 7, 1995

@@ -1,0 +1,14 @@
+Links to Bree
+-------------------
+/d/Shire/eastroad/western/er29 -> /d/Shire/bree/rooms/road/crossroad
+/d/Shire/common/greenway/gw1 -> /d/Shire/bree/rooms/road/crossroad
+/d/Gondor/arnor/greenway/nr3 -> /d/Shire/bree/rooms/road/nroad07
+/d/Shire/common/bree/orc_camp/path26 -> /d/Shire/bree/rooms/road/nhedge08
+/d/Shire/eastroad/eastern/erb2 -> /d/Shire/bree/rooms/road/sgate
+/d/Shire/bree/rooms/town/innyard -> /d/Shire/rooms/road/broad02
+
+Guilds
+-------------------
+/d/Shire/trickster/join -> /d/Shire/rooms/town/backroom
+/d/Shire/trickster/s_enterance -> /d/Shire/rooms/road/shedge07
+/d/Shire/smiths/rooms/entrance -> /d/Shire/smiths/rooms/yard

@@ -1,0 +1,7 @@
+Name: 		imago
+Object:		/d/Terel/mecien/valley/guild/spells/imago
+Cost: 		10 mana for self, 20 for others
+Skills:    	Spellcraft, Wisdom
+Description:	Gives a rough indication of the alignment of the individual.
+Requirements:   Wis > 30
+

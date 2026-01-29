@@ -1,0 +1,7 @@
+There are no player-accessible skills as of 2018-22-02, but the following are
+defined for former guilds and may be used by NPCs:
+
+#define SS_WHIRLWIND     135004     /* Death Knights of the Khiraa        */
+#define SS_BASHSTUN      135005     /* Death Knights of the Khiraa        */
+#define SS_GOUGE         135006     /* Lich Priesthood of the Khiraa      */
+

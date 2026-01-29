@@ -1,0 +1,74 @@
+domain,quest desc,group,bit,validation,arguments
+Krynn,Tour - Adv Guild in Solace,4,19,tarshir_tours.txt,reverse_sequential,0,0,5,1
+Krynn,Tour - Tantallon Trinkets,4,19,tarshir_tours.txt,reverse_sequential,0,0,5,2
+Krynn,Tour - Drakmar Dragonbane Grave,4,19,tarshir_tours.txt,reverse_sequential,0,0,5,3
+Krynn,Tour - Palanthas Lighthouse,4,19,tarshir_tours.txt,reverse_sequential,0,0,5,4
+Krynn,Tour - Newports Delivery Office,4,19,tarshir_tours.txt,reverse_sequential,0,0,5,5
+Krynn,Tour - Vingaard Keep Courtyard,4,19,tarshir_tours.txt,reverse_sequential,0,0,5,6
+Krynn,Tour - Flotsam Tavern,4,19,tarshir_tours.txt,reverse_sequential,0,0,5,7
+Krynn,Tour - Haven Seeker Temple,4,19,tarshir_tours.txt,reverse_sequential,0,0,5,8
+Krynn,Minor - Pick Apple,4,19,pick_apple.txt,reverse_sequential,0,6,12,1
+Krynn,Minor - Tantallon Beers,4,19,tantallon.txt,reverse_sequential,0,6,12,2
+Krynn,Minor - LifeQuest of Brimsch,4,19,brimsch.txt,reverse_sequential,0,6,12,3
+Krynn,Minor - Questmaster's Glasses,4,19,glasses_quest.txt,reverse_sequential,0,6,12,4
+Krynn,Major - Free Salamic,4,19,free_salamic.txt,reverse_sequential,0,13,19,2
+Krynn,OCC Solamnic Knight,1,0,no_info.txt,always_false,1,0
+Krynn,Knighthood Banish,1,1,no_info.txt,always_false,1,1
+Krynn,Layman Knight,1,2,no_info.txt,always_false,1,2
+Krynn,Black Knight,1,3,no_info.txt,always_false,1,3
+Krynn,Squire,1,4,no_info.txt,always_false,1,4
+Krynn,Sword Member,1,5,no_info.txt,always_false,1,5
+Krynn,Knight Guru Quest,1,6,no_info.txt,is_knight
+Krynn,Was Sick,1,7,no_info.txt,always_false,1,7
+Krynn,Immune Sick,1,8,no_info.txt,always_false,1,8
+Krynn,Sword Quest,1,9,no_info.txt,always_false,1,9
+Krynn,Rose Quest,1,10,no_info.txt,always_false,1,10
+Krynn,Thief Membership 1,1,11,no_info.txt,always_false,1,11
+Krynn,Thief Membership 2,1,12,no_info.txt,always_false,1,12
+Krynn,Thief Entrance Quest,1,13,thief_guild_entrance.txt,default
+Krynn,Gnome Entrance Quest,1,14,gnome_entrance_quest.txt,default
+Krynn,Gnome Membership 2,1,15,no_info.txt,always_false,1,15
+Krynn,Schorsch Board Quest,1,16,schorsch_board.txt,default
+Krynn,Haven Seeker Chalice,1,17,haven_seeker_chalice.txt,default
+Krynn,Help Refugees,1,18,help_refugees.txt,default
+Krynn,Qualinesti Lost Scout,1,19,lost_scout.txt,default
+Krynn,Crypt Quest,2,0,crypt_quest.txt,default
+Krynn,Chicken Ingredient Quest,2,1,chicken_ingredient.txt,default
+Krynn,Black Dragon Quest,2,2,black_dragon.txt,default
+Krynn,Pax Tharkas Prisoner Quest,2,3,pax_tharkas_prisoner.txt,default
+Krynn,Dragon Lair Quest,2,4,no_info.txt,always_false,2,4
+Krynn,Kitiara's Ring Quest,2,5,no_info.txt,always_false,2,5
+Krynn,Identify Draconians,2,6,identify_draconians.txt,default
+Krynn,Palanthas Hop and Malt,2,7,hop_and_malt.txt,sequential_bits,2,7,9,1
+Krynn,Palanthas Peat,2,8,palanthas_peat.txt,sequential_bits,2,7,9,2
+Krynn,Palanthas Authorization Form,2,9,palanthas_authorization.txt,sequential_bits,2,7,9,3
+Krynn,Free Gunthar,2,10,free_gunthar.txt,default
+Krynn,Griffon Quest,2,11,griffon_riddle.txt,default
+Krynn,Dwarfgate Quest,2,12,dwarfgate.txt,default
+Krynn,Dragonlance Quest,2,13,dragonlance.txt,default
+Krynn,Bear Quest,2,17,bear_quest.txt,default
+Krynn,Furnace Quest,2,18,furnace_quest.txt,default
+Krynn,Kender Quest,2,19,kender_quest.txt,default
+Krynn,Gnome Explosive Device,3,0,gnome_explosive.txt,default
+Krynn,Pickaxe Quest,3,1,pickaxe_quest.txt,false_unless_done
+Krynn,Knight Museum Tour,3,2,knight_museum.txt,default
+Krynn,Knights Spur Wood,3,3,knights_spur_wood.txt,default
+Krynn,Question Draconian,3,4,question_draconian.txt,default
+Krynn,Free Draconian,3,5,free_draconian.txt,default
+Krynn,WoHS Membership 1,3,6,no_info.txt,always_false,3,6
+Krynn,WoHS Membership 2,3,7,no_info.txt,always_false,3,7
+Krynn,WoHS Membership 3,3,8,no_info.txt,always_false,3,8
+Krynn,Bless Frozen Corpse,3,9,frozen_corpse.txt,default
+Krynn,Thanoi Wine,3,10,thanoi_wine.txt,default
+Krynn,Imprisoned Griffon,3,11,imprisoned_griffon.txt,default
+Krynn,Unopen Quest,3,12,no_info.txt,always_false,3,12
+Krynn,Puzzle Quest,3,15,no_info.txt,false_unless_done
+Krynn,Cleanse Solace Fountain,3,16,cleanse_fountain.txt,clean_fountain
+Krynn,Dirty Solace Fountain,3,17,no_info.txt,false_unless_done
+Krynn,Recover Toron Standard,3,18,toron_standard.txt,default
+Krynn,Vault Explore,4,0,vault_explore.txt,default
+Krynn,Vingaard Mountain Top Explore,4,1,mountain_top.txt,default
+Krynn,Bishon Fishing Quest,4,2,bishon_fishing.txt,default
+Krynn,Shark Fin Soup Quest,4,3,bishon_fin.txt,default
+Krynn,Black Noodles Quest,4,4,bishon_noodles.txt,default
+Krynn,Swimming Potion Quest,4,5,bishon_potion.txt,default

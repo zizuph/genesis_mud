@@ -1,0 +1,36 @@
+E. Npc and Object Coding in Ansalon:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1) All objects and npcs should be placed in directories associated
+   with the dir structure and geography of the region (ie: 
+   ~Ansalon/<area>/obj  and  ~Ansalon/<area>/npc), NOT in your
+   home directory.
+
+2) All npc's which you code that are humanoid in form (those
+    with 2 arms, 2 legs, hands, etc.) should inherit M_FILE.
+    All non-humanoid npc's (wolves, dragons, snakes) should
+    inherit C_FILE. M_FILE and C_FILE are included in 
+    /d/Ansalon/common/defs.h which should be included in the
+    npc file.
+
+3) There are specific rules on certain types of code in
+   '/doc/man/general/*'. If, after referring to them, you are
+   uncertain if it is legal to code something, ask me about it,
+   or mail me.
+
+4) Examples of everything from armours, to mobiles (npc's) to weapons
+   are in the directory /doc/examples/* . In addition, feel free to
+   look at anything in Ansalon (or Krynn if you have access) for 
+   examples.
+
+5) The directory /sys contains the main #include files. You should
+   definately look at /sys/stdproperties.h . This helps you to make
+   very specific and diverse objects by adding properties to them.
+
+6) Be sure to 'man armour_guide' and 'man weapon_guide' to see what
+   different types of armours and weapons are being used in the game.
+   See ~Shire/open/npc_guide for help with coding monsters.
+
+7) Every item coded in domain Ansalon will be consistent with the
+   Administrative rules and in balance with the rest of the game.
+   Magical and super-powerful objects will be kept to a reasonable limit.
+

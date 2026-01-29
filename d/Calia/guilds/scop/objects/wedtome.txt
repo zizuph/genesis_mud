@@ -1,0 +1,111 @@
+This tome will allow to perform a marriage ceremony in the chapel.
+The same rules apply to the chapel as any other ceremony performed here,
+once the incense is lit, the doors of the chapel are locked (so people
+cannot barge in and disturb things). Please ensure before you begin
+that all guests have arrived. Also, please ensure you have enough 
+components to summon your familiar a few times, in case the ceremony
+goes slow. You should know the material type of the rings beforehand.
+If you do not, watch closely when they exchange them. Once that has 
+all been done, this is what you will require:
+
+Preparations:
+- The male being married is the Groom, the female is the Bride.
+- The person leading the ceremony is called the Priest/Priestess (P)
+- The P should have the chalice and the bread from the sacristy.
+- The person giving accompanyment to the Bride is refered to as the 
+  Bride Blesser (BB).
+- The person giving accompanyment to the Groom is refered to as the
+  Groom Blesser (GB).
+- The Bride and Groom should both have the rings to exchange with one
+  another.
+- The P, Bride and Groom should all be wearing the white robes.
+- The P should also wear a mantle and alb.
+- The P must carry a quantity of incense (two or three is a good idea).
+- All participants should gather in the chapel where the ceremony
+  must take place.
+- NOTE: Once the ceremony has begun (the incense is loaded), the chapel
+  doors will be locked to all non-members, and will not unlock until
+  the incense burns out. If you have not completed the ceremony and the
+  incense burns out, simply load another one.
+
+Ceremony:
+1 - The P formally welcomes all and announces/introduces the Bride and
+    Groom.
+2 - The P starts the incense with the command 'load incense'. It will
+    start to burn immediately, but will take a while to fill the room,
+    which must happen before the rest of the ceremony.
+3 - The P should invoke the commands 'bride <Bridename>' then 'groom
+    <Groomname>. (ie. 'bride Julie' then 'groom Bob')
+4 - The P should invoke the command 'transform'.
+5 - The P should invoke the command 'begin'.
+6 - The Bride should answer something to the effect of 'Yes, it is true.'
+7 - The P shall say "With whom do you come and whose blessings accompany
+    you?"
+8 - The BB should say something to the effect of 'She comes with me, her
+    friend, and is accompanied by all of her family’s blessings.'
+    (If there is no BB, the P can certainly modify the ceremony to say
+     that they are accompanying the Bride and she has all of the
+     blessings of her family).
+9 - The P should ask: "I ask if the Groom comes of his own will and if
+    he has his family’s blessing. Groom, is it true that you come of 
+    your own free will and accord?"
+10- The Groom should answer something to the effect of 'Yes, it is true.'
+11- The P shall say "With whom do you come and whose blessings accompany
+    you?"
+12- The GB should say something to the effect of 'He comes with me, his
+    friend, and is accompanied by all of his family’s blessings.'
+    (If there is no GB, the P can certainly modify the ceremony to say
+     that they are accompanying the Groom and he has all of the
+     blessings of his family).
+13- The P should invoke the command 'groom-wish' at this point.
+14- The Groom should respond with 'It is my wish.' and should give his
+    ring to the Bride.
+15- The P should invoke the command 'bride-wish' at this point.
+16- The Bride should respond with 'It is my wish.' and should give her
+    ring to the Groom.
+17- The P should state the following to the Groom, and have him repeat
+    it:   "I <Groom's name>, by the life that courses within my blood, 
+    and the love that resides within my heart, take thee <Bride’s name> 
+    to my hand, my heart, and my spirit, to be my chosen one. To desire
+    thee and be desired by thee, to possess thee, and be possessed by 
+    thee, without shame, for naught can exist in the purity of 
+    my love for thee. I promise to love thee wholly and completely 
+    without restraint, in sickness and in health, in plenty and in 
+    poverty, in life and beyond, where we shall meet, remember, and 
+    love again. I shall not seek to change thee in any way. I shall 
+    respect thee, thy beliefs, thy people, and thy ways as I respect 
+    myself."
+    (say each section seperately seperated by the commas to make it easy)
+18- The P should say "If you, <Bride name>, agree with this, place
+    <Groom name>'s ring on your finger."  She should wear the ring.
+19- The P should state the following to the Bride, and have her repeat
+    it:   "I <Bride’s >, by the life that courses within my blood, and
+    the love that resides within my heart, take thee, <Groom’s name> 
+    to my hand, my heart, and my spirit to be my chosen one. To desire
+    and be desired by thee, to possess thee, and be possessed by thee,
+    without shame, for naught can exist in the purity of my love
+    for thee. I promise to love thee wholly and completely without 
+    restraint, in sickness and in health, in plenty and in poverty, in 
+    life and beyond, where we shall meet, remember, and love again. 
+    I shall not seek to change thee in any way. I shall respect thee,
+    thy beliefs, thy people, and thy ways as I respect myself."
+    (say each section seperately seperated by the commas to make it easy)
+20- The P should say "If you, <Groom name>, agree with this, place
+    <Bride name>'s ring on your finger."  He should wear the ring.
+21- The P should hand the chalice to the Groom and state:
+    "May you drink your fill from the cup of love."
+22- The Groom holds chalice to bride while she sips then gives it to
+    the Bride. She holds it to Groom while he sips. The chalice is then
+    handed back to the P.
+23- The P should hand the bread to the Groom and state:
+    "May you give your last morsel of bread for the love of your spouse."
+24- The Groom should feed a piece of the bread to the Bride, then 
+    give the remaining piece to the Bride.
+25- The Bride should feed the piece to the Groom.
+26- The P should state the following: "By the power vested in me, I 
+    now pronounce you husband and wife. May your love so endure that
+    its flame remains a guiding light unto you."
+27- The P should invoke the command 'marry <Bridename> <Groomname> 
+    <ring material>'. (ie. marry Julie Bob platinum)
+28- The P should then invoke the command 'revert'.
+

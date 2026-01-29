@@ -1,0 +1,12 @@
+ 			     J U N E   2 0 2 1
+
+Shook off enough rust to release something.
+
+Cadu
+* Fixed the maze not to be traversed for the second time.
+* Beefed up experience for completed that really wicked quest
+  by adding a second part.
+
+Sa Morgan
+* Buffed up the village by adding some npcs and quests
+* Set up some leads to future points.

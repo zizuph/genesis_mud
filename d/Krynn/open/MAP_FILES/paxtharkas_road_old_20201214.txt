@@ -1,0 +1,409 @@
+main
+::MAPDATA::
+cityview 20 10 qualinost
+curtain_wall1 13 21 pax_road
+curtain_wall2 13 20 pax_road
+forest0 20 10 qualinost
+forest1 20 10 qualinost
+forest2 20 10 qualinost
+forest3 20 10 qualinost
+forest4 20 10 qualinost
+forest5 20 10 qualinost
+forest6 20 10 qualinost
+forest7 20 10 qualinost
+forest8 20 10 qualinost
+forest9 20 10 qualinost
+forest10 20 10 qualinost
+forest11 20 10 qualinost
+forest12 20 10 qualinost
+forest13 20 10 qualinost
+forest14 20 10 qualinost
+forest15 20 10 qualinost
+forest16 20 10 qualinost
+forest17 20 10 qualinost
+forest18 20 10 qualinost
+forest19 20 10 qualinost
+forest20 20 10 qualinost
+forest21 20 10 qualinost
+forest22 20 10 qualinost
+forest23 20 10 qualinost
+forest24 20 10 qualinost
+forest25 20 10 qualinost
+forest26 20 10 qualinost
+forest27 20 10 qualinost
+forest28 20 10 qualinost
+forest29 20 10 qualinost
+forest30 20 10 qualinost
+forest31 20 10 qualinost
+forest32 20 10 qualinost
+forest33 20 10 qualinost
+forest34 20 10 qualinost
+forest35 20 10 qualinost
+forest36 20 10 qualinost
+forest37 20 10 qualinost
+forest38 20 10 qualinost
+forest39 20 10 qualinost
+forest40 20 10 qualinost
+forest41 20 10 qualinost
+forest42 20 10 qualinost
+forest43 20 10 qualinost
+forest44 20 10 qualinost
+forest45 20 10 qualinost
+forest46 20 10 qualinost
+forest47 20 10 qualinost
+forest48 20 10 qualinost
+forest49 20 10 qualinost
+forest50 20 10 qualinost
+forest51 20 10 qualinost
+forest52 20 10 qualinost
+forest53 20 10 qualinost
+forest54 20 10 qualinost
+hentrance 20 10 qualinost
+main_gate 13 22 pax_road
+nentrance 20 10 qualinost
+path1 20 10 qualinost
+path2 20 10 qualinost
+path3 20 10 qualinost
+path4 20 10 qualinost
+path5 20 10 qualinost
+path6 20 10 qualinost
+path7 20 10 qualinost
+path8 20 10 qualinost
+path9 20 10 qualinost
+path10 20 10 qualinost
+path11 20 10 qualinost
+path12 20 10 qualinost
+path13 20 10 qualinost
+path14 20 10 qualinost
+qpath1 20 10 qualinost
+qpath2 20 10 qualinost
+qpath3 20 10 qualinost
+qpath4 20 10 qualinost
+qpath5 20 10 qualinost
+qpath6 20 10 qualinost
+road1 24 14 pax_road
+road2 26 13 pax_road
+road3 28 12 pax_road
+road4 30 11 pax_road
+road5 32 10 pax_road
+road6 34 9 pax_road
+road7 36 8 pax_road
+room1 20 10 qualinost
+valley_road1 13 19 pax_road
+valley_road2 14 18 pax_road
+valley_road3 16 18 pax_road
+valley_road4 18 17 pax_road
+valley_road5 20 16 pax_road
+valley_road6 22 15 pax_road
+wagon_place 28 14 pax_road
+ambush1 14 10 elf_camp
+ambush2 14 10 elf_camp
+camp1 14 10 elf_camp
+camp2 14 10 elf_camp
+camp3 14 10 elf_camp
+camp4 14 10 elf_camp
+camp5 14 10 elf_camp
+camp6 14 10 elf_camp
+camp7 14 10 elf_camp
+camp8 14 10 elf_camp
+camp9 14 10 elf_camp
+camp10 14 10 elf_camp
+camp11 14 10 elf_camp
+camp12 14 10 elf_camp
+camp13 14 10 elf_camp
+camp14 14 10 elf_camp
+camp15 14 10 elf_camp
+camp16 14 10 elf_camp
+camp17 14 10 elf_camp
+camp18 14 10 elf_camp
+camp19 14 10 elf_camp 
+camp20 14 10 elf_camp
+camp21 14 10 elf_camp
+camp22 14 10 elf_camp
+camp23 14 10 elf_camp
+oak1 14 10 elf_camp
+oak2 14 10 elf_camp
+oak3 14 10 elf_camp
+joinroom 14 10 elf_camp
+entrance 14 10 elf_guild1
+hut_rope 14 10 elf_guild1
+hut_entrance 14 10 elf_guild2
+hut_board 14 10 elf_guild2
+hut_postoffice 14 10 elf_guild2
+hut_rack 14 10 elf_guild2
+hut_rack2 14 10 elf_guild2
+::MAPDATA::
+
+                                   :%:%:  Plains of Abanasinia :%:%:%:%:%
+                                      :%:%:%:%:%:%:%:%:%:%:%:%:
+                                              /
+                                            /         ___________
+                                          /         .'           `.
+@@@@@@@@@                               /----------|    Newports   |
+         @@@@@@@@@@@@@@@              /             `.___________.'
+                        @@          /
+     Qualinesti           @@      /
+       Forest              @    /
+                        @@@   /
+@@@@@@@@@@@@@@@@@@@@@@@@    /
+                          /
+                        /  `=
+                      /
+                    /
+                  /
+              __/             
+             /
+             |
+             |
+     ________|________
+     || Pax Tharkas ||
+     -----------------
+::NEWMAP::
+qualinost
+::MAPDATA::
+cityview 9 19
+forest0 1 5
+forest1 5 3
+forest2 9 3
+forest3 13 3
+forest4 17 3
+forest5 21 3
+forest6 21 5
+forest7 25 5
+forest8 29 5
+forest9 33 5
+forest10 37 5
+forest11 41 5
+forest12 45 5
+forest13 37 7
+forest14 41 7
+forest15 45 7
+forest16 49 7
+forest17 45 9
+forest18 49 9
+forest19 53 9
+forest20 57 11
+forest21 61 11
+forest22 65 11
+forest23 69 13
+forest24 73 13
+forest25 73 15
+forest26 5 7
+forest27 9 7
+forest28 13 7
+forest29 17 7
+forest30 13 9
+forest31 17 9
+forest32 21 9
+forest33 25 9
+forest34 29 9
+forest35 25 11
+forest36 29 11
+forest37 33 11
+forest38 37 11
+forest39 37 13
+forest40 41 13
+forest41 45 13
+forest42 49 13
+forest43 37 15
+forest44 41 15
+forest45 45 15
+forest46 53 15
+forest47 57 15
+forest48 61 15
+forest49 65 15
+forest50 53 17
+forest51 57 17
+forest52 61 17
+forest53 65 17
+forest54 69 17
+hentrance 1 3
+nentrance 73 17
+path1 5 5
+path2 9 5
+path3 13 5
+path4 17 5
+path5 21 7
+path6 25 7
+path7 29 7
+path8 33 9
+path9 49 11
+path10 53 13
+path11 57 13
+path12 61 13
+path13 65 13
+path14 69 15
+qpath1 33 17
+qpath2 29 17
+qpath3 25 17
+qpath4 21 17
+qpath5 17 19
+qpath6 13 19
+room1 69 11
+::MAPDATA::
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Qualinesti @@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   Forest   @@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+~~@@@@@ stream @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  
+@~~~~~~~~~~~~~~~~~~~ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ o'
+@@@@@@@@@@@@@@@@@@ ~~~@@@@@@@@@@@@@@@@@@       @@@@@@@@@@@@@@@@@@@@@@@@@@@@.'
+@@@@@@@@@@@@@@@@@@@@ ~~~~~~~~~~~~~~~                   @@@@@@@@@@@@@@@   o'
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ ~~~~~~~~~~~~                        .' `.
+@@@@@@@@@@@@@@@@@@@@@@@@@                   ~~~~~~                   o'     `o
+                                                                   .'
+
+
+::NEWMAP::
+pax_road
+::MAPDATA::
+curtain_wall1 12 27
+curtain_wall2 12 25
+main_gate 12 29
+road1 36 13
+road2 40 11
+road3 44 9
+road4 48 7
+road5 52 5
+road6 56 3
+road7 60 1
+valley_road1 12 23
+valley_road2 16 21
+valley_road3 20 21
+valley_road4 24 19
+valley_road5 28 17
+valley_road6 32 15
+wagon_place 44 13
+::MAPDATA::
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                .'
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@              o'
+@@@@@@@@@@@@@@@@@@@@@ Qualinesti @@@@@@@@@@@@@            .'
+@@@@@@@@@@@@@@@@@@@@@   Forest   @@@@@@@@@@@@           o'
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@          .'   Road to
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@         o'    Newports
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@      .'
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   o'
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  .'
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ o'
+@@@@@@@       @@@@@@@@@@@@@@@@@@@@@@@@@@@@.'
+~~~                   @@@@@@@@@@@@@@@   o
+@ ~~~~~~~~~~~~                        .' `.
+           ~~~~~~                   o'     `o
+               ~~~~~~~~~~~~~~~~~~ .' ~~~
+                                o'     ~~~~~~~~~~~~~~~~~~
+                              .'                      ~~~~~~~~~
+                            o'
+                          .'
+                        o'
+                      .'
+                o - o'
+              .'
+            o'
+            |
+            o
+            |
+            o
+            |
+            o 
+       Pax Tharkas
+
+::NEWMAP::
+elf_camp
+::MAPDATA::
+ambush1 12 12
+ambush2 30 15
+camp1 15 12
+camp2 18 12
+camp3 18 9
+camp4 21 9
+camp5 24 9
+camp6 24 12
+camp7 24 15
+camp8 21 15
+camp9 18 15
+camp10 21 12
+camp11 21 6
+camp12 27 15
+camp13 15 9
+camp14 15 6
+camp15 24 6
+camp16 27 6
+camp17 27 9
+camp18 27 12
+camp19 27 18 
+camp20 24 18
+camp21 18 18
+camp22 15 18
+camp23 15 15
+oak1 12 12
+oak2 21 6
+oak3 30 15
+joinroom 18 6
+::MAPDATA::
+
+
+
+        Elven camp in the Qualinesti forest
+
+         ^                             ^
+        /|\    o  o  o  o  o          /|\
+   ^   //|\\    \  \ |  | /          //|\\
+  /|\    |       \  \|  |/             |
+ //|\\         o--o--o--o  o
+   |              |\/|\/| /      ^
+                  |/\|/\|/      /|\     ^
+          --o--o--o--o--o  o   //|\\   /|\  
+  ^               |\/|\/| /      |    //|\\
+ /|\    ^         |/\|/\|/              |
+//|\\  /|\     o--o--o--o--o--o--
+  |   //|\\      /  / \  \         ^
+        |       /  /   \  \       /|\
+               o  o     o  o     //|\\
+                                   |
+
+::NEWMAP::
+elf_guild1
+::MAPDATA::
+entrance 7 6
+hut_rope 27 6
+::MAPDATA::
+
+                  ^
+       ^         /|\
+      /|\       /| |\
+     /| |\     //| |\\
+    //| |\\   ///| |\\\    ^
+   ///|o|=====[ o ]|      /o\
+    //| |\\      | |     //|\\
+      | |        | |       |
+
+::NEWMAP::
+elf_guild2
+::MAPDATA::
+hut_entrance 21 7
+hut_board 24 7
+hut_postoffice 27 7
+hut_rack 27 5
+hut_rack2 27 3
+::MAPDATA::
+
+               Guildhall of the elven archers 
+
+                           e                e - elite racks
+                           |                    (occupational only)
+                           c                c - common racks
+                           |                p - post
+                --o--o--b--p--o             b - guild board
+

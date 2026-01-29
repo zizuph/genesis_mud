@@ -1,0 +1,119 @@
+A log of functional changes made to the Spirit Circle guild. For
+reference by balance and other interested parties. Started April 25,
+2004.
+
+25/4/2004:
+-Change to: ~Calia/guilds/scop/spells/therapeaou.c. (heal spell)
+ Made it so that the component (a pearl) is only consumed one in ten
+ castings. Changed the formula for determining how many hit points
+ are healed, removing hard cap at 600 points, instead giving
+ diminishing returns beyond that point. 
+
+-Change to: ~Calia/guilds/scop/specials/spiritshadow.c (occ shadow)
+ The query_casting_bonus function there is rather useless. It's
+ currently only used to make spells slightly easier to cast as the
+ number of spells you cast grows, to the maximum of -100 to the task
+ if you had 250.000 spells cast. I changed it so that it produces a 
+ result useful in calculating spell effectiveness: a number from 0 to
+ 200 based on number of spells cast, and not requiring such huge 
+ amounts of spells cast to make a difference.
+
+-Change to: ~Calia/guilds/scop/spells/giatreou.c (cleanse spell)
+ The component (yellow topaz) is now only consumed 3 times out of 10.
+ Changed the effectiveness formula to use query_casting_bonus, as 
+ above.
+
+26/4/2004:
+-Change to: ~Calia/guilds/scop/spells/apergo.c (soul strike)
+ This harm spell has been changed quite a bit. It doesn't work on 
+ the undead, it only works on evil targets. It deals about 200-500
+ damage, with 0-400 bonus damage depending on how evil the target 
+ is. The ruby component is only used up one in ten times.
+
+29/4/2004:
+-Change to: ~Calia/guilds/scop/spells/vekpos.c (turn undead)
+ Added files: ~Calia/guilds/scop/spells/fear_shadow.c
+              ~Calia/guilds/scop/spells/feared_shadow.c
+              ~Calia/guilds/scop/spells/vekpos_ob.c
+This spell made an undead creature simply flee before. By adding shadows
+I made sure the targets would continue to flee when encountering the 
+caster again. Also, for weak or low-health undeads, there's a chance a
+casting of this spell will outright destroy them.
+
+~Change to: ~Calia/guilds/scop/spells/skiamorfi.c (shadow form)
+            ~Calia/guilds/scop/spells/skiamorfi_obj.c
+            ~Calia/guilds/scop/spells/skiamorfi_shadow.c
+This spell was merely a disguise spell, obscuring the caster's 
+description and making him unknown to player who would otherwise
+know him. It sucked 25 mana every 100 seconds for this benefit. 
+I reduced the mana-suckage to 25 every 180 seconds. Also, it 
+modifies their combat skills: +25 each defence and parry, -25
+club (their only combat skill and the only weapon they're permitted
+to use). If they're very successful in casting the spell, they get
+a damage shield - implemented in the shadow as 25% of all attacks
+missing them through redefinition of query_not_attack_me. If they're 
+extremely successful, they also get 25 points of magic resistance.
+
+05/5/2004:
+-Change to: ~Calia/guilds/scop/spells/sfyri.c (spiritual hammer)
+            ~Calia/guilds/scop/spells/sfyri_ob.c
+This spell used to be a weak bolt spell, representing the caster 
+throwing a "spiritual hammer" at the target. The updated spell instead
+produces this hammer, as a holdable object, and lets the caster use it
+at regular intervals in combat, as long as he's holding it. You use it
+by throwing it, causing some damage to the opponent - it's not a regular
+melee weapon. It starts out very weak at 100 pen, then grows as the
+caster uses it. The soft cap is at 600, from then on it grows really slowly.
+Undead get 50% more damage. For each throw there is a constant chance of 
+breakage equal to .5%. Doubled the mana cost to 100, kept the component
+as-is.
+
+-Later same day, same spell: Adjusted a bit, it was too good a deal. Double
+chance of breakage, slower growth.
+
+06/5/2004:
+-Change to the above spell. Downgraded again. Soft cap adjusted downwards to
+500, slower recycle, higher breakage chance, now drains fatigue and mana to
+throw. 
+
+19/5/2004:
+~Change to Sfyri again. The hammer now has an increasing chance of breakage 
+with use. Lower at first, then increasing as the hammer gets better. Also 
+doubled chance of a critical hit (doing double damage) from 0.5% to 1%.
+
+09/6/2004:
+~Created a new spell: Oneiro. Doc can be found in 
+ ~Calia/private/spells/scop/ONEIRO. Put it at 1% tax for the time being.
+
+-Later, same day: Change to Siopi (silence) spell. Gem component now survives
+70% of the time.
+
+-Later, same day: Anagnorizo. Component changed from black diamond to 
+moonstone. Removed paralysis/hp loss upon casting.
+
+-Later, same day: Skiamati, changes in both spell and spell object. Gave it a
+60% chance to have the gem survive, and upped LIVE_I_SEE_DARK and potential 
+LIVE_I_SEE_INVIS to 10 levels each. 
+
+17/6/2004:
+-Did some changes to Skiamorfi : ~Calia/guilds/scop/spells/skiamorfi.c
+			         ~Calia/guilds/scop/spells/skiamorfi_obj.c
+				 ~Calia/guilds/scop/spells/skiamorfi_shadow.c
+Now, if the casting of the spell is rather succesful, the caster gains the
+ability to radiate light or darkness at a cost of 30 mana a pop. One level is
+generated and lasts for five minutes. No more than 5 levels in each direction
+can be stacked. Also, the damage shield that gives a 25% damage shield for a
+rather succesful casting, now becomes a 40% damage shield if the casting was
+extremely succesful.
+
+26/7/2004: 
+-Did some changes to Anakalo: ~Calia/guilds/scop/spells/anakalo.c
+The location you memorize now saves over armageddon. If you use the 'temple'
+argument to it, you can now cast it in combat to escape. Using the 'travel'
+argument you'll go to your memorized location, that does not work in combat 
+though. Also, using 'travel' takes more time(7 secs).
+-As per Tilorops request, did various changes. Skiamorfi will now at most 
+help you evade 33% of incoming hits. Giatreou (cure poison) now takes 5 secs
+rather than 3. Apergo (damage evil creatures) is now capped at 800 damage and
+casting time upped by a second to 4. Therapeaou (heal) used to cast in 2 secs,
+now it casts in 3. 

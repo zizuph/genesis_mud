@@ -1,0 +1,25 @@
+//               HERBS (~Avenir/common/herbs/HERBS)
+// creator(s):   Tepisch  August 1994
+// last update:  Lilith   March  2002  
+// purpose:      List of Avenir Herbs
+// note:         Herbs in [ ] are not implemented yet
+
+Avenir:         where       type                   str  id find decay value NB  
+------------------------------------------------------------------------------
+belladona       warm&dry    flower    HEAL    hp  -1000 35   3   200   200   %	 
+carlith         any         vine      HEAL    hp    60  35   4  2200  1050   %
+fordinfa        shade/dark  mushroom  HEAL   mana   35  30   3   100   400   %
+mittikna        caves       vine      SPECIAL %         30   3   200   450  #1
+narcissus       damp&dark   flower    none    %      %  35   3   220    49   %
+nethra          water       algae     SPECIAL        %  30   5   700   226  #2
+*nightshade     warm&dry    flower    HEAL    hp  -1000 35   3   200   200   %
+ronwath         walls       vine      none    %      %  35   3   800    56   %
+strangleweed    weedy       weed      none    %      %  19   3    80    20   %
+
+All files in /d/Avenir/common/herbs/
+
+#1 Has a light value of 1 for 30 minutes. Ingested in Avenir, will give the
+   LIVE_I_SEE_DARK prop for about 2 hours.
+#2 Adds the prop MAGIC_I_BREATH_WATER for a time of average 5 mins.
+
+*phase out, there are 3 other such herbs

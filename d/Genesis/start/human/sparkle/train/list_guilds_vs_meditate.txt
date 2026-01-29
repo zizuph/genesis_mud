@@ -1,0 +1,29 @@
+Message: 19
+From   : Mercade
+Subject: listing guilds and meditating.
+Date   : Dec  5 1999
+
+If you want to separate the listing guilds from meditating, you must inherit
+the file /lib/guild_support.c but not call init_guild_support() from your
+init() function.
+
+Instead, in the room where you want to have the meditation, define the
+following init() function:
+
+void
+init()
+{
+    ::init();
+    add_action(gs_meditate, "meditate");
+}
+
+And in the room where you want to have the listing of guilds, define the
+following init() function:
+
+void
+init()
+{
+    ::init();
+    add_action(gs_list, "list");
+}
+

@@ -1,0 +1,53 @@
+
+     Spell name: Teleport
+                 arcanossalur
+         Effect: A teleport spell
+           Type: Instant
+        Targets: Caster
+        
+        Element: Air            / 50
+           Form: Conjuration    / 60
+    Spell power: Power 4 [Advanced spell]
+     Spell type: teleport spell
+     
+       Peaceful: Yes
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: pearl (gem), breadroot (110cc)
+     
+   Casting time:  60s (2x standard)
+                   
+      Mana cost: standard 30 mana 
+     Difficulty: TASK_ROUTINE
+     Combat Aid: 0%
+
+            Tax:   1.0
+                  x0.8   casting time < 1 minute
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x1.0   Routine difficulty
+                  x0.75   material component (cost >= 1 gp)  
+                 ------
+                  0.6%  total tax
+   ------------------------------------------------------------
+   Comments: A standard teleport spell, allowing the caster to
+    teleport to a pre-determined (visited and marked) location.
+
+    The number of locations is restricted depending on whether
+    you are SoHM or WoHS.
+
+    SoHM are limited to three locations they can set to teleport
+    to.  WoHS can set up to 10, starting with 3 and increasing
+    by one per level up to level 7.
+
+    There is a recast cooldown on this spell reliant on the guild
+    skill Arcane Focus: 
+            90 minutes - (arcane_skill) minutes.
+
+    For a WoHS there is no cooldown at Superior Master arcane
+    focus, while SoHM have a maximum of 75 arcane focus skill so
+    will always have a minimum 15 minute cooldown on their
+    teleport spell.
+   ------------------------------------------------------------

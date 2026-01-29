@@ -1,0 +1,38 @@
+----------------------------------------------------------------------
+               Map of the village of Chorio Hagios
+----------------------------------------------------------------------
+                                (QUAD)
+                         o----o----o----o----o
+                                   |
+               H             Bank  o  Candl            H         o----o---BKH
+               |              |    |    |              |       /      |
+         /o----o       Shop---o----o----o---Herb  H    o----o/   B----B----B
+       /         \            |    |    |         |  /      |    |    |    |
+OKH--o    O----O   \o----o----o  Hieron o----o----o/        H    B    B    B
+     |    |         |         |         |         |
+O----O----O----O    H  Pub----o ---o----o---Post  H
+     |                        |    |    |
+o    O    o----o----o\       Inn   o  Board
+~ \     /  ~~~~~~~~~~  \           |
+~~  \o/  ~~~~~~~~~~~~~~  o         o---AHQ
+~~~~~~~~~~~~         ~~~~  \     /
+ ~~~~~~~~             ~~~~   \o/---o----o   ~~~~~
+<== ARGOS               ~~~~  |         ~~~~~~
+                         ~~~~ o---Dock~~~~~
+                          ~~~~~~~~~~~~~~~
+                             ~~~~~~~
+ 
+LEGEND:
+~~~    - Tritheon river (flows from Argos to the west)
+AHQ    - Argosian Military HQ
+B      - Bee Hives
+BKH    - Bee Keeper's House
+Candl  - Candle Maker's Shop
+H      - House of a citizen
+Hieron - the "old temple"; Starting point for the Tombs of the Apost. quest.
+o      - outdoor room (path,street,road)
+O      - Olive Grove
+OKH    - Olive Grove Keeper's House
+QUAD   - Park Area with pool. Temple to the north, library to the west,
+         Ekklesian guildhouse on the east, and village to the south
+         (closed until those areas ready)

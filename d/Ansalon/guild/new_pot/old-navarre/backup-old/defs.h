@@ -1,0 +1,10 @@
+#define GUILD_STYLE "magic"
+#define GUILD_NAME "Priests of Takhisis"
+#define GUILD_TYPE "occupational"
+#define GUILD_TAX 30
+#define GUILD_SOUL "/d/Ansalon/guild/new_pot/souls/pot_soul"
+#define SPELL_MANAGER_SOUL "/d/Genesis/specials/guilds/souls/spell_manager_soul" 
+#define GUILD_SHADOW "/d/Ansalon/guild/new_pot/shadows/pot_shadow"
+#define MANA_SHADOW "/d/Genesis/specials/guilds/shadows/mana_shadow"
+#define GUILD_OBJ "/d/Ansalon/guild/new_pot/objs/cross"
+#define GUILD_SPELLS "/d/Ansalon/guild/new_pot/spells/"

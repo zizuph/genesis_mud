@@ -1,0 +1,23 @@
+Name: large grizzly bear paw (magical)
+
+File: /d/Earthsea/gont/tenalders/wep/grizzly_paw_magical.c
+
+Hit/Pen: 42/38
+AC: 30
+Effective Pen: ~41-42 due to special earth damage
+
+Special:
+    The grizzly bear that the paw comes from was a wizard that
+    changed into a bear and forgot his wizard self.
+    The paw does 10% extra earth damage on top of the physical damage.
+
+Props:
+
+    OBJ_I_IS_MAGIC_WEAPON, OBJ_S_WIZINFO, MAGIC_AM_ID_INFO,
+
+    MAGIC_AM_MAGIC
+
+Obtainability:
+    
+    From a grizzly bear in the forest north of Ten Alders.
+    The bear is sized for expert through titan level chars.

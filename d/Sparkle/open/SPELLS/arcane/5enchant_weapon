@@ -1,0 +1,21 @@
+Name: Enchant weapon
+
+Object: /d/Sparkle/guilds/arcane/spells/enchant_weapon.c
+
+Cost:
+
+Skills:
+
+Description: Tier 5 spell
+                 Targets: 1 weapon
+		 Temporarily enchants the chosen weapon with the
+		 power of fire. The downside to using this is that, if
+		 the caster wishes to fight with this weapon, he will
+		 lose most of his effectiveness as a caster as all
+		 offensive spells require that the caster have both
+		 hands empty.
+
+Requirements:
+    SS_ELEMENT_EARTH
+    SS_FORM_ENCHANTMENT
+    Dagger

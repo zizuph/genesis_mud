@@ -1,0 +1,77 @@
+main
+::MAPDATA::
+newport_recruitment 40 6 newports
+road1 40 6 newports
+road2 38 7 newports
+bridge_end 46 3 newports
+village 54 5 newports
+office 54 5 newports
+pier 54 5 newports
+pier3 54 5 newports
+pier4 54 5 newports
+newports_link 46 3 newports
+::MAPDATA::
+
+                                   :%:%:  Plains of Abanasinia :%:%:%:%:%
+                                      :%:%:%:%:%:%:%:%:%:%:%:%:
+                                              /
+                                            /         ___________
+                                          /         .'           `.
+@@@@@@@@@                               /----------|    Newports   |
+         @@@@@@@@@@@@@@@              /             `.___________.'
+                        @@          /
+     Qualinesti           @@      /
+       Forest              @    /
+                        @@@   /
+@@@@@@@@@@@@@@@@@@@@@@@@    /
+                          /
+                        /  `=
+                      /
+                    /
+                  /
+              __/             
+             /
+             |
+             |
+     ________|________
+     || Pax Tharkas ||
+     -----------------
+
+::NEWMAP::
+newports
+::MAPDATA::
+newport_recruitment 5 8
+road1 9 8
+road2 5 10
+bridge_end 13 6
+village 14 8
+office 18 6
+pier 18 8
+pier3 14 10
+pier4 22 6
+newports_link 17 4
+::MAPDATA::
+
+                  Road to Gateway and
+      ~~~~           Solace
+       ~~~~        .
+         ~~~~    o'    ~~ ~~ ~~ ~~ ~~ 
+          ~~~~ .' ~~ ~~ ~~ ~~ ~~ ~~ ~~
+           ~ o'  [D]  4 ~~ ~~ ~~ ~~ ~~
+           .'   .'  .' ~~ ~~ ~~ ~~ ~~
+    [R]--o'---o'--1'  ~~ ~~ ~~ ~~ ~~ ~
+       .'     |'.    ~~ ~~ ~~ ~~ ~~ ~~
+     o'       3  '2 ~~ ~~ ~~ ~~ ~~ ~~
+   .'        ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+  '        ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ 
+
+                  -= Newports =-
+
+            D - Newports Delivery Office
+            R - Langtree Mercenaries 
+                Recruitment Office
+
+            Pier 1 - Ship to Palanthas 
+            Pier 2 - Ship to Sparkle
+            Pier 3 - Ship to Solace
+            Pier 4 - Ferry to Sanction

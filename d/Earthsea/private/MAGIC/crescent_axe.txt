@@ -1,0 +1,13 @@
+Name: crescent-moon mithril axe
+File: /d/Earthsea/gont/tenalders/wep/crescent_axe.c
+Hit/Pen: 42/45
+Spellpower: 43
+Special:
+    The axe leaves behind a brain if hit by a special attack.
+    The special attack is just a cosmetically enhanced attack
+    that occurs 1 out of 8 normal attacks.
+Props:
+    OBJ_I_IS_MAGIC_WEAPON, OBJ_S_WIZINFO, MAGIC_AM_ID_INFO, 
+    MAGIC_AM_MAGIC
+Obtainability: 
+    Obtained from karg priestesses

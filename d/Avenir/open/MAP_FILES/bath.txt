@@ -1,0 +1,46 @@
+main
+::MAPDATA::
+priv_4 12 5
+arc_n 17 5
+priv_7 22 5
+arc_nw 14 7
+steps_n 17 7
+arc_ne 20 7
+arc_w 12 9
+pub_bath 17 9
+arc_e 22 9
+arc_sw 14 11
+steps_s 17 11
+arc_se 20 11
+priv_1 12 13
+arc_m 17 13
+priv_10 22 13
+corr 17 15
+post 13 17
+desk 17 17
+hall 17 19
+::MAPDATA::
+               =====
+               BATHS
+               =====
+                 
+          4             7
+            o    o    o
+             \ / | \ /
+              o  o  o
+             /       \
+            o         o
+             \       /
+              o  o  o
+             / \ | / \                   @@@@@@
+            o    o    o                 @
+          1      |      10             @
+                 o               ____ @
+                 |             //    \\
+          PO o - o            ||      ||
+                 |            ||      ||
+                [ ]           ||      ||
+                [ ]           ||      ||
+                                  ________
+                                    ________
+                                      ________

@@ -1,0 +1,163 @@
+ 
+This is a detailed description of the first Part of Argos to be opened.
+It is the road from the rest of Calia to Argos.  Since Argos is in a
+hidden valley in Calia, the road goes over a small mountainous area,
+into the valley, and follows the river to the gates of the city.
+The gates will be closed initially, until the city is ready to be opened.
+ 
+ 
+Connection point.
+ 
+I thought a good place to connect the road was on the part of the
+Crystalline road with all the sw/ne directions.  The road will
+not be "finished", so it will start out as a path through the
+woods, then turn into a white marble road at some point.
+At this point, workers will be "building" the road.
+Merlin reviewed v1 of this doc and likes the starting location.
+ 
+ 
+MAP:
+            C
+          /
+        C
+      /  \
+    C     r1
+  /        \
+C           r2- r2a - r2b - r3
+                               \
+                                r4
+                                  \
+                                   r5 - r6...r7 - r8...r9...r10...r11...r12 -
+ 
+ 
+ 
+...r12 - r13...r14 - r15 - f1         p5 - p6 - p7      v2 - v3
+                        \    \         |   |    |       |    |
+                    R    r16 - f2     p2 - p3 - p4      v4 - v5
+                     R     \    \       \                  /
+                      R    r17 - f3-f4     p1 - ph vh - v1
+                       R      \      |     |            |
+                        R     r18 - r19 - r20  f5 - f6 r23 - r24 - r25
+                         R                   \ |    |  /              \
+                          RRRRRRRRRRRRRRRRRR  r21 - r22  RRRRRRRRR    r26 Bd
+                                            R |       RRR         RRRR   \|
+                               sr18-sr19-sr20 br RRRRR  sr23-sr24-sr25 R r27
+                                  /    /    \ |         /     |         R
+                               f1   f2 - f3   sr21- sr22  oh -o1
+                               |    |                      /
+                               f4   f5 - f6 - f7 - f8    o2 - o3
+                                  \     /          |     |    |
+                               f9 - f10- f11- f12  f13   o4 - o5
+                               |       /
+                               f15- f16
+ 
+KEY:
+ALL ROOMS NORTH OF RIVER FOUND IN ~ZIMA/ARGOS/ROOMS/NWTERR/*.C
+C.... Crystalline Road
+RR... River
+rX... Main Road..~zima/argos/rooms/nwterr/rX.c
+                  The road is a path through the forest from r1 to r4;
+                  construction workers laying marble road at r4
+                  rest of road is a white marble road
+                  r27 (end) is at gates of Argos; gates closed
+                  "..." on the map means up/down instead of east/west, to
+                      simulate climbing the mountains between Crys. Road and
+                      Argos, which is in a valley.
+fX..   Forest along road..~zima/argos/rooms/nwterr/forX.c (NWTERR)
+pX..   Shepherd's pasture; ph is the shepherds house
+vX..   Vineyard; vh is the vineyardsman's house
+br..   bridge across river, from nwterr to swterr
+bd..   temporary board room
+ 
+ALL ROOMS SOUTH OF RIVER FOUND IN ~ZIMA/ARGOS/ROOMS/SWTERR/*.C
+oX..   Olive grove; oh is the house of the grove keeper
+srX..  Road along the south side of the river
+fX..   Evil forest........~zima/argos/rooms/swterr/forX.c (SWTERR)
+ 
+NPCs:
+Argosian Guards (4)
+   Align:     40
+   Stat Avg:  40
+   Weapons:   Helmet, Sword, Shield, Mail
+   Locations: r3, r5, 2 @ r27
+   Purpose:   To guard the road builders and city gates; friendly to visitors
+ 
+Kretan Warriors  (6)
+   Align:    -40 (Aggressive)
+   Stat Avg:  40
+   Weapons:   Helmet, Sword, Shield, Mail
+   Locations: 1 each in f1 through f6
+   Purpose:   To discourage visitors; attack visitors
+ 
+Masons  (2)
+   Align:     30
+   Stat Avg:  30
+   Weapons:   Hammer, tunic
+   Location:  r5
+   Purpose:   building marble road
+ 
+Sheep (6)
+   Align:     10
+   Stat Avg:  10
+   Objects:   none
+   Location:  p2 - p7
+   Purpose:   small innocents to be killed by small evil PC's
+ 
+Shepherd (1)
+   Align:     20
+   Stat Avg:  20
+   Weapons:   Shepherd's staff, tunic
+   Location:  p2-p7
+   Purpose:   owns sheep; more challenging NPC for lower evil players
+ 
+Vineyard Keeper (1)
+   Align:     20
+   Stat Avg:  20
+   Weapons:   Pruning knife, tunic
+   Location:  v2-v5
+   Purpose:   tends vineyard; more challenging NPC for lower evil players
+ 
+Olive Grove Keeper (2)
+   Align:    -20
+   Stat Avg:  20
+   Weapons:   small axe, tunic
+   Location:  o2-o5
+   Purpose:   Tends olive grove; more challenging NPCs for lower good players
+ 
+Satyr (2)
+   Align:    -10
+   Stat Avg:  10
+   Location:  Evil forest  (f14,15)
+   Purpose:   Rare, mysterious creatures (goat's body, with head replaced
+              by torso/arms/head of a man, horns, plays a flute) that
+              roam the evil forest.  easy NPCs for lower good players
+ 
+Timber Wolves (4)
+   Align:     -10
+   Stat Avg:  10
+   Weapons:   None
+   Location:  Evil Forest
+   Purpose:   small NPC's for good players
+ 
+Woodsmen (2)
+   Align:     -30
+   Stat Avg:   30
+   Weapons:    Axe, tunic
+   Location:   Evil Forest (f13)
+   Purpose:    little more challenging NPCs (to match Masons on road)
+ 
+Loose Objects
+   Vineyardmans Knife - in his house
+   Olive man's Knife  - in his house
+   Timber Axe         - r18 (west end of road in SWTERR)
+ 
+SPECIALS:
+  To add a little humor, a player will get messages about smelling something
+  when in the sheep pasture, and about small mounds laying on the ground.
+  When he enters P7, he will "step in" this, and from then on, will
+  have a message like "A foul odor reaks from Joe's splatters shoes"
+  or something like that.  There will be a washbowl in the shepherd's
+  house where the "odor" can be washed off.
+  NOT YET CODED
+ 
+I DEFINITELY HOPE TO OPEN THIS AREA BY THE END OF THE MONTH

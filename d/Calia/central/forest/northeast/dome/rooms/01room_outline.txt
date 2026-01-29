@@ -1,0 +1,27 @@
+17 Total Rooms
+
+01 trail01 - Trail to dome
+02 trail02 - Trail to dome
+03 trail03 - Trail to dome
+04 plateau01 - northern plateau gardens
+05 plateau02 - southern plateau gardens
+06 entrance
+07 kitchen
+08 storage - Kitchen storage
+09 hall - Entry hall
+10 bath - Baths and fountain
+11 common - Common Lounge
+12 museum - Art Museum
+13 wardrobe - Armour Tailor
+14 arsenal - Weaponsmith
+15 club_entrance - Club information room
+16 club_lounge - Club (VIP) lounge
+17 club_library - Club bullatin board & library
+
+                       08   12
+                       |    |
+   02 - 03 - 04 - 06 - 09 - 11 - 13
+  /          |    |    |    | \
+01           05   08 - 07 - 15 14
+                            |
+                       16 - 17

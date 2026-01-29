@@ -1,0 +1,69 @@
+Featherweight combat aid calculations
+=====================================
+
+In order to determine combat aid, we have to calculate the effect of the shift in
+encumberance weight, and how it affects cb_tohit.  Since query_encumberance_weight
+is also affected by how much is being carried, there are bigger benefits when a
+player is more encumbered, down to 0 benefit if they carry nothing.
+
+I calculated the average encumberance on the player base at a random time, and
+this was at 33%.  I also calculated the weight of full non-magical armours at
+40 AC, which was 32kg.  This would be roughly 30% encumberance on a 100 STR player.
+I will use 33% as my basic encumberance for the purpose of this document.
+
+A 40% increase in capacity uses 100 STR as the base, and then applies the
+stat modifier to that.  So here are the encumberance increases at various stat
+levels:
+
+100 INT - 44kg
+200 INT - 61kg
+300 INT - 79kg
+
+Here are the maximum encumberance weights before and after the spell:
+
+          100 INT  200 INT   300 INT
+100 STR   110/154  110/171   110/189
+200 STR   210/254  210/271   210/289
+300 STR   310/354  310/371   310/389
+
+When I take 33% encumberance of the original weight, and reapply it to the
+new maximum encumberance, I get these percentages:
+
+              100 INT  200 INT  300 INT
+100 STR       23%      21%      19%
+200 STR       27%      25%      24%
+300 STR       29%      27%      26%
+
+On the STR == INT line, we see 23%, 25%, 26% - in other words, the spell has
+decreased encumberance by 10%, 8%, 7%.  
+
+cb_hit takes the (enc. volume + enc. weight) / 4 and applies it to the
+tohit_val in cb_update_tohit_val.  Since the biggest delta above was 10%,  
+this will mean that tohit_val will shift by at most 3 points.
+
+The final formula for cb_hit looks like this:
+
+    whit = 4 * fixnorm(random(wchit) + random(wchit) +
+                       random(wchit) + random(wchit), random(tmp));
+    whit += tohit_val;
+    if (whit > 0) hit, else miss.
+
+Since the wchit and defence have a 4x multiplier, and the tohit_val a 1x,
+this mean adding 3 points to tohit_val will only affect the final result
+when it it happens to round up (tohit_val % 4).  This would happen, 
+for example, when the two opponents had identical dex and encumberance,
+since it would take tohit_val from 0 to 3, and the whit > 0 would be
+true more often.
+
+Using a tohit of 40 and defense of 200, the hit percentage in this case
+goes up from 37.7% to 39.5% - a 4.7% increase, and that increase is not
+guaranteed.  If the shift is caused by the encumberance improvement
+is 3 points, and we assume that 75% (3/4) of the time it leads to
+benefit, that would be a 3.525% increase in attack hit rate (and 3.5%
+decrease on the opposing side).  The bonus decreases as we get higher
+on the int/str table.
+
+I'd estimate the net effect on swing rates to be roughly 7% for these
+numbers at 100 str/int and decreasing as it goes higher.  We have set
+the caid for 40% increased capacity at 5% CAID in the spell and will
+start to charge the guilds for that amount.

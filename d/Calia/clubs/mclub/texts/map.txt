@@ -1,0 +1,33 @@
+cat map.txt
+*****************************************************************************
+                        Map of Quandom Mistici Club
+*****************************************************************************
+ 
+Upper level                                capital letters denote "inside"
+                        /o11--o12---o1\           & = gate to area
+                      /        |        \         % = lockable door
+                    o10   gn---VN        o2       * = stairwell between levels
+                     |    |    |         |
+      p2---og-&-ig---o9---VW---TP---SN   o3       Lower Level:
+    /                |    |    |         |             LB
+  p1                 o8   gs---VS-%-BT*  o4            |
+ /                    \                 /         DR---CV---ST
+r2b                     \ o7---o6---o5/                |
+                                                       EN*
+ 
+Key to files in /d/Calia/zima/mclub/rooms:
+BT  = shbellt1.c                og  = shgateout.c
+CV  = shconcon.c                oXY = shoakXY.c
+DR  = shcondrm.c (start.c)      SN  = shsanct.c
+ENt.c                ST  = shconsac.c
+gn  = shgardnw.c                TP  = shtemp.c
+gs  = shgardsw.c                VN  = shvestn.c
+ig  = shgatein.c                VS  = shvests.c
+LB  = shconlib.c                VW  = shvestw.c
+p1  = path1.c
+p2  = path2.c
+r2b = ~zima/argos/nwterr/rooms/r2b.c
+(new version of file found in r2bnew.c until ready to open)
+Regular connection from p1 to r2b.c, but hidden entrance into
+area. Use command 'push through underbrush' or 'enter underbrush'
+in r2b(new).c to get to p1.c

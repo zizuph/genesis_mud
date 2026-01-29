@@ -1,0 +1,42 @@
+
+     Spell name: Haste
+                 temep
+         Effect: Adds quickness to caster
+           Type: Maintained
+        Targets: Caster
+        
+        Element: Air           / 50
+           Form: Illusion      / 60
+    Spell power: Power 4 [Advanced spell]
+     Spell type: haste spell 
+     
+       Peaceful: Yes
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: topaz shard, smooth camas (20cc)
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_HARD
+     Combat Aid: 45% 
+
+            Tax:   1.0
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.75   Hard difficulty
+                  x1.0   material component 
+                 ------
+                  0.75%  total tax
+   ------------------------------------------------------------
+   Comments: A standard haste spell.
+
+   Only accessibly to WoHS (can only be learnt in the Tower of
+   High Sorcery's private library)
+
+   Other curses such as dominate, curse, and gravity can't be
+   cast when this spell is active.
+   ------------------------------------------------------------

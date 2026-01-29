@@ -1,0 +1,20 @@
+Name: Chain lightning
+
+Object: /d/Sparkle/guilds/arcane/spells/chain_lightning.c
+
+Cost: 
+
+Skills: 
+
+Description: Tier 2 spell
+                 Targets: variable, unspecified defaults to current enemy
+		             (if currently in combat)
+		 Slightly different from the basic attack spell. If cast on a
+		 specified target to initiate combat, will damage that one
+		 target. If cast in combat, will minimally damage all enemies
+		 currently attacking the caster (hence the keyword 'chain').
+		 
+Requirements: 
+    SS_ELEMENT_FIRE     
+    SS_FORM_DIVINATION      
+    poison ivy

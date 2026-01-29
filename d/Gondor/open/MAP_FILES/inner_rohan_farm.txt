@@ -1,0 +1,31 @@
+main
+::MAPDATA::
+path1 18 2
+forest3 14 4
+path2 18 4
+forest1 22 4
+cellar 14 6
+stable2 14 6
+yard1 18 6
+stable1 22 6
+garden1 15 8
+house1 18 8
+path4 21 8
+meadow1 25 8
+path3 21 10
+meadow2 25 10
+::MAPDATA::
+
+                  |
+                  o
+      ____        |       ____
+     /   /\       o      /   /\
+    /___/\/       |     /___/\/
+    \___\/    o - o - o \___\/
+                / | \
+               o  o  o    
+           _____     |
+          /\    \    o      ^
+         /  \____\     \   /|\
+         |[]| [] |        //|\\
+                            |

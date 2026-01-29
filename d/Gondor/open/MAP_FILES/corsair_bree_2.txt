@@ -1,0 +1,40 @@
+main
+::MAPDATA::
+patha 8 2
+pathb 6 4
+pathc 8 4
+pathd 10 4
+pathe 4 6
+pathf 8 6
+pathg 12 6
+pathh 2 8
+pathi 6 8
+pathj 8 8
+pathk 10 8
+pathl 4 10
+pathm 8 10
+pathn 12 10
+patho 6 12
+pathp 8 12
+pathq 10 12
+pathr 8 14
+::MAPDATA::
+
+
+        o
+       /|\
+      o-o-o
+     /  |  \
+    o --o-- o 
+   / \/ | \/ \ /
+  o - o-o-o - o-
+   \ / \|/ \ / \
+    o - o - o
+     \  |  /
+      o-o-o
+       \|/
+        o
+
+
+
+          

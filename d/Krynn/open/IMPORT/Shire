@@ -1,0 +1,12 @@
+Shire IMPORTs into Krynn
+------------------------
+Last modified by:
+Teth, Feb 19, 1997
+
+Shire herbs are placed all over Krynn via the herb_master.c,
+found in /d/Krynn/common/herbs. Care has been taken to place
+these herbs in appropriate places.
+
+The cast iron used for the Shire melt! spell can be found in the
+following rooms: /d/Krynn/solace/forest/hill5.c
+

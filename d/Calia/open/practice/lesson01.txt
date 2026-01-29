@@ -1,0 +1,262 @@
+Guide to coding in Calia
+
+Lesson 1, by Uhclem
+
+This guide assumes that the reader has access to the LPC manual and generally
+understands the concept of creating files and putting them in directories where
+they can be used in Genesis.  The following text will help you get started
+creating working code in Calia.
+
+Creating rooms
+
+Rooms are a good thing to learn to code first.  When you get around to coding
+monsters, treasures, weapons, and other fun stuff, you'll need a place to put
+them.  Also, one of the first things you'll want to do when you become a wizard
+is customize the rather drab workroom you've been assigned.  It's far better to
+learn (and make your mistakes) on a brand new room of you own creation rather
+than to experiment on your workroom, where mistakes can cause you problems.
+Once you've gotten all the bugs out of the new room, it's easy to copy the
+finished code into your workroom.
+
+Here is an example of an exceedingly simple room:
+
+--------------------------------------------------------------------------
+
+// ROOM:  Calian desert - /d/Calia/open/practice/desert01
+
+    /*  Calia Domain
+
+        HISTORY
+        1998-08-15 Created by Uhclem.
+
+        PURPOSE
+        This is a coding example for new Calian wizards.  There is no desert in
+        Calia - this code is strictly for practice!
+
+    */
+
+// INCLUSIONS AND DEFINITIONS
+
+inherit "/std/room";
+
+// ROOM DEFINITION
+
+void
+create_room()
+{
+
+    /* DESCRIPTION */
+
+    set_short("Calian desert");
+
+    set_long("You find yourself in the middle of the great" +
+        " Calian desert. All you see around you is sand.\n");
+
+    }
+
+--------------------------------------------------------------------------
+
+
+
+Note the section headers, indentations, and blank lines.  In general, you can
+vary your use of headers and blank lines as you feel necessary as long as your
+code remains easy to read.  I like to prefix the major section headers with
+"//" and use "/*" for most other comments, but again you can choose your own
+style for comments.  However, strictly adhere to this rule:  indent 4 spaces
+for each level, and indent 4 more spaces on any ine which is a continuation of
+a previous statement.  The only exception is for a function declaration such as
+"create_room":  the function type (in this case, "void"), function name, and
+opening bracket should be equally indented.  In the example, since they are on
+the highest level, the indent for these lines is 0 spaces.
+
+The above code is functional, and if you really want to you can go to this
+room.  You'll need to use the wizards "goto" command to get in and out, though,
+since I haven't provided any exits.  But this file illustrates the bare minimum
+features of any room file in Calia:  a reasonable comment block, inheritance
+and/or inclusion of standard code, and specific room descriptive text contained
+within the create_room() function.  It's entirely possible that you'll one day
+need a room with no exits which a player can only reach by use of magic or some
+other unusual means, but such rooms should be quite rare and cleared with the
+domain lord/warden before they are created.
+
+Not only are there no exits, but there is no support for the actions a player
+is likely to try in such a room:  looking at (or examining) the desert.  Exits
+are provided by the add_exit statement, and items that can be examined are
+provided by the add_item statement.  The same file with these features looks
+like:
+
+--------------------------------------------------------------------------
+
+// ROOM:  Calian desert - /d/Calia/open/practice/desert02
+
+    /*  Calia Domain
+
+        HISTORY
+        1998-08-15 Created by Uhclem.
+
+        PURPOSE
+        This is a coding example for new Calian wizards.  There is no desert in
+        Calia - this code is strictly for practice!
+
+    */
+
+// INCLUSIONS AND DEFINITIONS
+
+inherit "/std/room";
+
+// ROOM DEFINITION
+
+void
+create_room()
+{
+
+    /* DESCRIPTION */
+
+    set_short("Calian desert");
+
+    set_long("You find yourself in the middle of the great" +
+        " Calian desert. All you see around you is sand.\n");
+
+    /* ITEMS */
+
+    add_item(({"sand", "desert"}), "The sand stretches on" +
+        " endlessly in all directions.\n");
+
+    /* EXITS */
+
+    add_exit("/d/Calia/uhclem/workroom", "east", 0, 5);
+
+    }
+
+--------------------------------------------------------------------------
+
+
+
+The third parameter in the add_exit statement is used to control whether a
+player can actually use the exit or not.  This is an advanced feaure that will
+be demonstrated much later.  For most rooms, a zero will suffice to indicate
+that the exit is available.  The fourth parameter is the effort required to
+move to the room indicated by the exit.  Your domain liege can help you decide
+what effort is appropriate to the terrain you are creating.
+
+It may seem like the comment-to-code ratio is high in this example, and it is.
+But it pays to develop the good habits of dividing your code into subsections
+and providing useful headers while you're still working with small files.  Such
+structure beomes crucial as you move into longer and more complex files.
+
+From a purely functional perspective, the room above is finished.  The
+inherited standard room contains all sorts of default features that fill in the
+necessary physical details:  light is present, water isn't, stuff like that.
+The default values may not always make sense; for example, by default it's
+pretty easy to hide in any room, but the sandy flat described by the example
+seems like a challenging place to try to conceal oneself.
+
+You may have encountered minimalist rooms like this in your adventures in
+Genesis.  In Calia, however, we expect a bit more:  a meaningful description of
+the area, an appropriate number of items to be examined, and appropriate values
+set for standard Genesis room properties.  The following example illustrates
+what is expected:
+
+--------------------------------------------------------------------------
+
+// ROOM:  Calian desert - /d/Calia/open/practice/desert03
+
+    /*  Calia Domain
+
+        HISTORY
+        1998-08-15 Created by Uhclem.
+
+        PURPOSE
+        This is a coding example for new Calian wizards.  There is no desert in
+        Calia - this code is strictly for practice!
+
+    */
+
+// INCLUSIONS AND DEFINITIONS
+
+inherit "/std/room";
+
+// ROOM DEFINITION
+
+void
+create_room()
+{
+
+    /* DESCRIPTION */
+
+    set_short("Calian desert");
+
+    set_long("You stand in the midst of a great desert." +
+        " Blazing sand stretches before you in all" +
+        " directions, reflecting the heat of the relentless" +
+        " sun and scorching your feet. The air is motionless, and" +
+        " not a single cloud offers hope of relief. Only an" +
+        " old trail, barely visible in the sand, gives evidence" +
+        " that some other travelers have passed this way before you.\n");
+
+    /* ITEMS */
+
+    add_item(({"sand", "desert"}), "The sand stretches on" +
+        " endlessly in all directions.\n");
+
+    add_item(({"trail", "old trail"}), "The trail leads east and" +
+        " west to the horizon.\n");
+
+    add_item(({"sun", "horizon", "sky"}), "The sun is" +
+        " directly overhead, and the horizon is merely a" +
+        " flat line dividing sand from sky.\n");
+
+    /* EXITS */
+
+    add_exit("/d/Calia/uhclem/workroom", "east", 0, 5);
+    add_exit("/d/Calia/khon/workroom", "west", 0, 5);
+
+    /* PROPERTIES */
+
+    add_prop(ROOM_I_LIGHT, 2);
+    add_prop(ROOM_I_HIDE, 98);
+
+    }
+
+--------------------------------------------------------------------------
+
+
+
+As the wizards of Genesis are fond of telling new recruits, "we can teach you
+to code, but we can't teach you to think."  The difference between this example
+and the one that precedes it is largely a matter of thinking.  Think about what
+features a player is likely to examine and provide add_item statements for
+each.  You'll have to exercise some judgement:  you'll note that I provided an
+entry for "trail" and "old trail" but I didn't bother to add "relentless sun."
+Your experience as a player should help you decide what other players are
+likely to type.
+
+Look at the standard properties and provide a specific value for any whose
+defaults don't make sense for your room.  In the example I have set the light
+value to 2 (default is 1) since the room is in bright sunlight.  Because the
+terrain is flat sand, I've increased reduced the hiding difficulty to 98%
+(default is 10%); in effect, this means that a hiding player who stands
+perfectly still may be overlooked by an incredibly obtuse newbie in this room,
+but under any other circumstances he will be quite easy to see.
+
+This room as shown is perfectly satisfactory as a filler or connector room;
+that is, it's a room where nothing special happens.  You'll need rooms like
+this to flesh out areas such a village squares, roads, fields, etc.  If you
+were coding a desert of significant size, you might want a half dozen rooms
+like the one above to separate two oases or other interesting sites.
+
+Using the example above as a model, you should be able to code up a variety of
+simple rooms.  You can easily add some more complex functions to this basic
+code; for example, you might temporarily reduce the awareness of anyone who
+looks at the sun, since the player's eyesight would be slightly impaired for a
+few minutes.  However, unless you have a reason to do it, such code is mostly a
+waste of coding and execution time.  It's better to save your clever little
+tricks for rooms where the effect has some meaning.
+
+While the last example in this file is perfectly functional, it would be
+difficult to manage in a developing domain.  All the room features are coded
+within the file, and if a change were needed to a number of such rooms
+comprising a vast desert region, each file would need to be editied
+individually.  Lesson 2 will demonstrate the use of definition statements to
+unify a number of rooms and how those definitions relate to directory
+structures.

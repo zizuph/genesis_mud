@@ -1,0 +1,403 @@
+UPDATED AS OF 27 May 2019 - Arman Kharas
+
+
+================================================================================
+/d/Faerun/guilds/fire_knives/doc/tax_doc
+================================================================================
+Update to reflect the current specials and caid attributed to them. The docs
+in there are all dated following a lot of changes.
+
+================================================================================
+/d/Faerun/guilds/fire_knives/specials/backstab.c
+================================================================================
+* When teamed you can backstab and eviscerate at the same time. Backstab has to
+be included in the primary cooldown checks.
+
+Typos:
+
+* A few typos in the watcher messaging below:
+"Hollandjr rises from the shadows behind the alert black-bearded militiaman, a blackened-
+steel dagger in hand and plunges it  fatally into the alert black-bearded militiaman's
+back!Hollandjr body freezes from the shock as blood starts pouring from the wound!"
+
+- double space after 'plunges it  '
+- need to use QTPNAME or QCTPNAME for any " 's " inclusions.
+- spacing after 'back!'
+- I think the wrong person freezes from the shock... shouldn't be the assassin!
+
+"You twirl your blackened-steel dagger in a reverse grip, and silently sneak up 
+behind the alert black-bearded militiaman, catching him unaware and plunge your 
+blackened-steel dagger fatally into hisback!His body tenses up as you pull your 
+blackened-steel dagger back out and blood starts pouring from the open wound!" 
+
+- spacing needed before the his 'into hisback!His'
+
+You twirl your blackened-steel daggerin a reverse grip, sneaking up behind the 
+wary black-bearded sentryaiming for his back, but he turns around just in time, 
+leaping backwards and revealing your intent!
+
+- spacing needed between the dagger and 'in', and separating 'sentryaiming'
+
+================================================================================
+/d/Faerun/guilds/fire_knives/specials/eviscerate.c
+================================================================================
+-
+
+================================================================================
+/d/Faerun/guilds/fire_knives/specials/stun.c
+================================================================================
+It doesn't seem to initiate combat when prepping, even though 
+set_ability_attack_during_prep is set. Combat needs to be initiated when 
+used.
+
+On further tests it doesn't initiate combat at all... that needs to be changed.
+I think you may need to set_ability_offensive(1); in config_ability()
+
+/d/Faerun/guilds/fire_knives/specials/obj/stun_obj.c has
+set_stun_combat_aid set at 90... should be 80 according to tax_doc
+
+================================================================================
+/d/Faerun/guilds/fire_knives/specials/envenom.c
+================================================================================
+* All the weapon oils need to have long descriptions added in
+/d/Faerun/guilds/fire_knives/specials/weaponoils/
+
+* Dragonbane should also include draconian as a race it works on
+
+* As with other specials, need to use QTPNAME or QCTPNAME for any " 's " inclusions.
+
+* Weird messaging when coating - grabbing a vial of tiny green vial??
+
+"You grab a tiny vial of tiny green vial from your inventory and coat the 
+blackened-steel dagger with the content."
+
+* When you coat a weapon with oil, it messes up the condition messaging of it:
+
+"Over a foot long, this blackened-steel dagger is carved into the shape of a
+sinister looking dragon, hence it is often referred to as the dagger of
+Draco. The pommel of the dagger is wrapped in serpent skin, and its edges
+are extremely sharp. It seems quite a deadly weapon.
+It looks like it is in prime condition.
+This weapon is coated with a thin film of sizzling viridescent substance.
+It looks like it is in prime condition."
+
+When you add oil on top of oil, it doubles the issue:
+
+2x oils:
+"Over a foot long, this blackened-steel dagger is carved into the shape of a
+sinister looking dragon, hence it is often referred to as the dagger of
+Draco. The pommel of the dagger is wrapped in serpent skin, and its edges
+are extremely sharp. It seems quite a deadly weapon.
+It looks like it is in prime condition.
+It looks like it is in prime condition.
+This weapon is coated with a thin film of sizzling viridescent substance.
+It looks like it is in prime condition."
+
+3x oils:
+Over a foot long, this blackened-steel dagger is carved into the shape of a
+sinister looking dragon, hence it is often referred to as the dagger of
+Draco. The pommel of the dagger is wrapped in serpent skin, and its edges
+are extremely sharp. It seems quite a deadly weapon.
+It looks like it is in prime condition.
+It looks like it is in prime condition.
+It looks like it is in prime condition.
+This weapon is coated with a thin film of sizzling viridescent substance.
+It looks like it is in prime condition.
+
+Rather than changing the long description in the remove_shadow function,
+mask the long(string str, object for_obj) function... have a look at 
+/d/Krynn/guilds/sohm/spells/obj/enchant_weapon_sh.c for how you may do it without
+getting these errors.
+
+* Typo in combat message (swipess):
+"Hollandjr swipess the legs of the prepared noble militiaman with his sizzling 
+viridescent blackened-steel dagger, causing copious damage."
+
+================================================================================
+/d/Faerun/guilds/fire_knives/specials/garotte.c
+================================================================================
+* It is a pretty cool special! But when you fail to successfully garotte someone
+it isn't clear you have lost your garotte. May want to update the messaging to
+make it clear the thin wire has broken or something.
+
+* The wire is classed as a 'strong' wire... but only one use? Is it worth
+considering increasing the component requirement to make, but increase its potential
+use to 5 or 6 garrotes?
+
+* set_effect_combat_aid(90) in ~obj/garotte_obj.c should be 80.
+
+================================================================================
+/d/Faerun/guilds/fire_knives/specials/blind.c
+================================================================================
+* hook_special_complete() needs a '.' at the end of its reset message:
+'You feel ready to execute blind or any other primary ability again'
+
+/d/Faerun/guilds/fire_knives/specials/obj/blind_obj.c has
+set_effect_combat_aid set at 90... should be 80 according to tax_doc
+
+================================================================================
+/d/Faerun/guilds/fire_knives/shadows/fire_combat_msg.c
+================================================================================
+* If you are masking all the hit messages, your messaging need to take into account
+factors of whether they have blood for the messaging incorporating blood (stone 
+golems and ghosts don't for example), whether they breathe (you use heavy 
+breathing in some messaging) and whether they've got a head to decapitate or 
+a neck to break (breaking the neck of a willowisp or an undead hand for example 
+doesn't make sense). 
+
+Have a look at the Blademaster special code for the check_for_head function
+as an example and the decap_no_corpse function. If you are using decapitating 
+messaging you should incorporate a similar system (and ideally an option to
+turn it off as a kill message/function).
+
+Also consider querying props like LIVE_I_UNDEAD, LIVE_I_NO_BODY, LIVE_I_NO_CORPSE
+and query_humanoid to determine whether certain messaging is appropriate. The
+detail is important. Have a look at the backstab.c base code as an example of
+how to incorporate it.
+
+The messaging also doesn't take into account whether the person is tanking or playing
+support... so you get strange messaging that implies they are being targeted even
+though they aren't:
+"As the vigilant blue-eyed militiaman takes a swing at Hollandjr, the blow is parried by
+Hollandjr's blackened-steel dagger! Hollandjr swiftly steps aside and stabs the vigilant
+blue-eyed militiaman in the body with the blade!"
+
+* For some reason the default kill message kicks in when the target is still
+feeling very well:
+You decapitate the the alert scarred militiaman with your blackened-steel dagger!
+The alert scarred militiaman lightly bruises your body with his shiny spiked mace.
+The alert scarred militiaman lightly bruises your body with his shiny spiked mace.
+You decapitate the the alert scarred militiaman with your blackened-steel dagger!
+You strike at the alert scarred militiaman's right arm with your left fist, but he dodges your attack.
+You feel ready to perform another backstab.
+You feel ready to execute eviscerate or any other primary ability again.
+h all
+You are physically feeling very well and mentally in full vigour.
+The alert scarred militiaman is feeling very well.
+
+Typos:
+* Throughout there is the use of QCTNAME(this_player()) + "'s" when you should
+be using QCTPNAME(this_player) or QTPNAME(this_player) to add the "'s"
+
+* Double 'the' for attacker message when decapitate message kicks in: 
+"You decapitate the the dragonarmy guard with your blackened-steel dagger!"
+
+* Grammatically broken sentence for watcher: 
+"Hollandjr decapitate Guard to with his blackened-steel dagger!"
+
+* Spacing typo between into and his:
+"You lunge at the vigilant blue-eyed militiaman and thrust your blackened-steel 
+dagger into  his arm."
+
+*wrong tense... 'his collapses' should be 'he collapses'.. should be 'onto the
+ground' instead of 'into the ground'.
+"The blackened-steel dagger sinks deeply into the alert black-bearded 
+militiaman's back, is twisted and pulled back out, shredding flesh and bone on 
+its way out. The wound left behind is so grievous that his collapses into the 
+ground, dying instantly."
+
+* typo 'int' should be 'in'
+"Hollandjr opens a shallow wound int the head of the alert noble militiaman with a 
+wide blade of his eagle-shaped dagger."
+
+* typo with inclusion of 'to' in watcher message. Also should be lacerates rather
+than lacerate
+"Hollandjr lacerate Calof to with his blackened-steel dagger!"
+
+
+================================================================================
+/d/Faerun/guilds/fire_knives/shadows/fireknives_sh_occ.c
+================================================================================
+
+* The way incognito has been set up in show_subloc in the guild 
+shadow results in all armours and weapons being completely hidden from both
+the player and observer. I am not in favour of this. Cosmetic hiding of titles
+is fine, but not hiding of equipment through TEMP_SUBLOC_SHOW_ONLY_THINGS.
+Please change.
+
+* Have you tested whether expel_me() works? Normally when you make a player
+do a command you need to prefix the command with a "$" (see man command).
+
+
+
+================================================================================
+/d/Faerun/guilds/fire_knives/souls/fireknives_guild_soul.c
+================================================================================
+
+* do_ficreatecomp and create_oil functions:
+The create oil/component functions doesn't have any checks for the alchemy skill. 
+The more exotic oils (like dragon, elemental, undead) should require the maximum 
+alchemy skill to create (40).
+
+Should also add a chance to fail to create oils/components as well based on skill.
+
+* do_fihang(string str)
+Needs to be placeable in rooms with ground only. Need to check rooms for the
+ROOM_IN_AIR, ROOM_IN_WATER, ROOM_UNDER_WATER props before allowing to place
+the corpse pole.
+
+================================================================================
+/d/Faerun/guilds/fire_knives/obj/fireknives_pole.c
+================================================================================
+
+* I'd like this to either decay after a certain period of time or can be removed
+by players. 
+
+================================================================================
+/d/Faerun/guilds/fire_knives/obj/bleed_to_death_obj.c
+================================================================================
+* What is this paralysis for? I see it is created from the execute_obj.c but
+I don't see any commentary around its purpose. I am guessing it is a guild
+punishment thing?
+
+* As with previous comments, don't use (this_object())->query_name()+"'s" for
+the possessive. Use QPNAME or query_art_possessive_name()
+
+================================================================================
+/d/Faerun/guilds/fire_knives/obj/execute_obj.c
+================================================================================
+* Add set_no_show() in the create object... using OBJ_I_INVIS prop doesn't always
+work as intended.
+
+================================================================================
+/d/Faerun/guilds/fire_knives/obj/expel_obj.c
+================================================================================
+* Add set_no_show() in the create object... using OBJ_I_INVIS prop doesn't always
+work as intended.
+
+* The expelme_fireknife function will probably need seteuid(getuid()); called 
+before the bleed object is cloned and moved to the player for it to work
+properly.
+
+================================================================================
+/d/Faerun/guilds/fire_knives/obj/dummy.c
+================================================================================
+
+* I am guessing this dummy is a wizard test object, not something available
+in the guild or to mortals. In its current state it shouldn't be publicly
+available.
+
+================================================================================
+/d/Faerun/guilds/fire_knives/obj/fire_wristsheaths.c
+================================================================================
+
+* In the do_wristhelp function it says you wear and remove the wristsheath from
+your back. Pretty sure it is your wrist! ;)
+
+* I'd suggest restricting whether you can draw weapons with the wristdraw
+commands to only work if the sheaths are worn. 
+
+* The wristsheaths don't seem to save... you drop them when you log out.
+
+================================================================================
+/d/Faerun/guilds/fire_knives/obj/fireknives_weapon.c
+================================================================================
+
+* The hit and/or pen exceed the maximum allowable for non-magical knives. See
+'man weapon'... hit/pen can't be higher than 20/20.. (just an fyi, there are
+quite a few knives in Faerun that break this requirement, like the drow
+knives).
+
+================================================================================
+/d/Faerun/guilds/fire_knives/obj/quest_ulaks.c
+================================================================================
+
+* In set_long it says <insert more description here>. This needs to be included.
+
+* These are weapons, but are created as an object. Did you want to include a
+wield command that provides a reason why you can't wield them?
+
+================================================================================
+/d/Faerun/guilds/fire_knives/obj/silver_oil.c
+================================================================================
+
+* set_long needs updating. It is defined as a test weapon oil.
+
+================================================================================
+/d/Faerun/guilds/fire_knives/obj/wwbane_silv_shadow.c
+================================================================================
+
+* Not sure if this shadow is still being used, however it will have the same
+issues as other oil shadows when setting long_desc (see feedback above).
+
+================================================================================
+/d/Faerun/guilds/fire_knives/rooms/climb*
+================================================================================
+
+* The climb checks should incorporate SS_CLIMB in some way... possibly reducing
+the fatigue costs.
+
+================================================================================
+/d/Faerun/guilds/fire_knives/rooms/gen_shop.c
+================================================================================
+
+* There is nothing stocked in the shop, nor is there anything in the standard
+'list equipment' option.
+
+* Room description says you can 'read the plaque', but you can only examine it.
+May want to add a cmd option to read the plaque too.
+
+================================================================================
+/d/Faerun/guilds/fire_knives/rooms/guru.c
+================================================================================
+
+* For redundancy check whether the trainee has the guru quest before allowing
+training. Mortals can be clever in figuring out ways to get to rooms they
+shouldn't be able to get in to.
+
+================================================================================
+/d/Faerun/guilds/fire_knives/npc/herbalist.c
+================================================================================
+
+* remove the capital 'A' in     set_short("Adolescent attentive male human");
+otherwise you end up with weird messaging like:
+'The Adolescent attentive male human peers quizzically around.'
+
+* Same issue with the librarian.c and merchant.c
+
+================================================================================
+/d/Faerun/guilds/fire_knives/rooms/herb_b.c
+================================================================================
+
+* You need to remove all the Gondor domain items unique to the Morgul Mages,
+namely the morgul_gloves, morgul_boots, talisman, and obsidian shard.
+
+================================================================================
+/d/Faerun/guilds/fire_knives/rooms/join.c
+================================================================================
+
+* The permission prop for joining is commented out, which is fine... although
+that would imply you are going to allow anyone to join initially? Is that your
+plan?
+
+================================================================================
+/d/Faerun/guilds/fire_knives/rooms/sh.c
+================================================================================
+
+* the shop keeper here has in his description <check merchandize>, but it
+seems the correct syntax is <check display table>.
+
+* the price when <check display table> for each item is 10 cc, but they all
+sell for 100 cc. Which is a problem, as some are worth more than 100 cc which
+opens up the possibility of buy/sell abuse (gloves and boots worth 288 cc).
+
+* Typo when buying items for the buy and watcher.. it always returns the
+alchemy kit:
+> 
+buy boots
+You take an alchemy set and pay 100 copper to the shady vigilant man.
+> 
+buy gloves
+You take an alchemy set and pay 100 copper to the shady vigilant man.
+> 
+buy belt
+You take an alchemy set and pay 100 copper to the shady vigilant man.
+> 
+buy wristsheath
+You take an alchemy set and pay 100 copper to the shady vigilant man.
+
+Also the watcher message is missing a space:
+Arman buys an alchemy setfrom the shady vigilant man.
+Arman buys an alchemy setfrom the shady vigilant man.
+Arman buys an alchemy setfrom the shady vigilant man.
+Arman buys an alchemy setfrom the shady vigilant man.

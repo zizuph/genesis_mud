@@ -1,0 +1,222 @@
+************************************************************************
+*                           QUONDAM MYSTICI                            *
+*              The Society to Commemorate the Arcane Faith             *
+************************************************************************
+What is it?
+   It is a CLUB open to players/wizards who are former members of the
+   defunct Ancient Order of the Mystics and any others they desire
+   to allow association to.
+ 
+What is its purpose?
+   It is a fellowship to perpetuate the friendships bonded in the now
+   defunct Order, and to perpetuate the record of the historical
+   existence of the Order.
+ 
+How does one join? What are the requirements for membership?
+   One becomes a member by being inducted through an initiation ceremony.
+   The ceremony requires two current members to induct the initiate.
+   Thus by decision of two current members, a new person may join.
+   (NOTE: The first two mortal members will be inducted by the
+   founding wizards - Zima and Digit - after which inductions may only
+   be done by mortal members.)
+ 
+How does the initiation work?
+   - It must take place in the sanctuary (shsanct.c) - actions are here.
+   - Must have 2 current members and the initiate in room (more OK)
+   - All who participate must wear a white robe (found in sacristry)
+   - Incense cloud must be present. The incense is found in the cabinet of
+     the sacristry, and may be used in the sanctuary only, using the
+     command 'load incense.' Shortly thereafter a cloud of incense will
+     appear and remain for a time.
+   - Initiate must 'kneel before the altar'
+   - One member must do 'lay hands on <name of initiate>'
+   - A second member must do the same (others are welcome if present)
+   - One member must do 'induct <name of initiate> <title>'
+     The title is "inscribed" on the string of beads which is then
+     given to the initiate. The title shows up as a subloc whenever
+     the member wears the beads.
+   - Initiate may 'rise' from kneeling when finished.
+ 
+How does a member leave?
+   By going to the sanctuary, kneeling, and typing 'break bond'. This
+   removes the cmdsoul, the string of beads, and the name from the
+   member list.
+
+What area/structures is the club to include?
+   A shrine has been built which serves the two purposes stated earlier.
+   The upper level of the shrine is accessible to any player, member or
+   not, and serves as a monument/memorial. The lower level serves as
+   the "club house" or private quarters of the members. The conclave
+   includes:
+   - A starting location room with a standard bulletin board
+   - A meeting room
+   - A library where members may write prose, poetry, history, etc.
+   - A storage room which includes a cabinet with items needed for
+     the ceremonies of the club, as well as a chest to store items
+     (not a keep-past-reboot weapons rack)
+ 
+What are the access restrictions?
+   There are no "supernatural" restrictions on access to ANY part
+   of the club area. "natural" access is restricted with the use
+   of doors/keys at 2 points:
+   Gate: - a gate guards the entrance to the area around the shrine.
+           One key exists which is kept in the private part of the shrine.
+           It is expected that this gate will remain open at all times
+           unless a private ceremony is being held in the "public" part
+           of the shrine (initiations occur in the sanctuary of the
+           "public" part)
+   Bell Tower Door: - a door guards the passage from the "public" part
+           to the lower private part. An unlimited # of keys are
+           available in the private part of the shrine (for those
+           who choose to start there) and from an NPC "gardner" who
+           meanders through the area, giving keys to any member who
+           asks (for those who start elsewhere).
+   Thus it is the responsibility of members to keep doors locked at all
+   times.
+ 
+What are the objects available to members?
+   string of stone prayer beads - this is the "club item" which contains
+           the cmdsoul. It is given at the time of initiation.
+   keys (see above)
+   Ceremonial paraphanelia - including 5 robes, 2 mantles, an alb and
+           10 quanties of incense (useful only in the shrine as a
+           "special effect")
+           Note: all items are available "free of charge" but have no
+           monetary value. These items should normally not be used outside
+           of the shrine.
+ 
+What are the functional "benefits" offered by the club?
+   - Access to the private area (security maintained by members)
+   - A bulletin board
+   - A library (implemented as a bulletin board) where members can
+     write prose, poetry, history, etc.
+   - A permanent starting location inside the private area
+   - A meeting room with "no snoop" semi-protection
+   - A cabinet containing the ceremonial paraphenalia.
+   - A chest for storage (used as a "weapons rack" but does NOT
+     maintain contents during reboot)
+ 
+Description of area:
+  -A path with a gate connects the area to the "outside world"
+  -The "plus" or "cross" shaped stone shrine sits on top of a steep
+   round hill hidden in the woods. A circular path leads around the
+   hill (oXX on map) with an oak tree growing on each of the 12 spots.
+  -Entrances to the interior of the shrine are on the north west and
+   south sides (steps leading up the side of the hill.)
+  -outdoor gardens are set in the nw and sw corners
+  -the se corner is a bell tower which leads to the lower level
+ 
+ROOMS (/d/Calia/zima/mclub/rooms/*): **** (see also mclub/texts/map.txt) ***
+shbellt1.c - Bell Tower. Door guards exit to west. Player can
+     'pull rope' to ring the bell, which is only heard in the belltower.
+     (Plan to add code so bell ringing can be heard throughout the area).
+     Steps lead down to lower level.
+ 
+shconcon.c - Convocation Room of the Conclave. Has a picture which
+     when viewed by a member lists the current membership. Room also
+     has query_no_snoop set for semi-privacy.
+ 
+shcondrm.c - Dormitory. This is where members can 'start here' and
+     the location of the club bulletin board.
+ 
+shconent.c - Entrance/foyer of the lower level. Has a pool made
+     from a natural spring. Members can 'bathe' in the pool (just an emote).
+     Stairs to upper level bell tower.
+ 
+shgardnw.c - outdoor garden in the corner of the building
+shgardsw.c - outdoor garden in the corner of the building
+ 
+shgatein.c - Path leading to area, inside the gate.
+ 
+shconlib.c - Library. There is a modified bulletin board here used
+     by members to write poetry, prose, history, etc. May be re-implemented
+     later to not be a bulletin board, but this is simple and sufficient
+     for now.
+ 
+shoakXY.c - simple rooms which form the path around the shrine. There
+     is an oak tree planted in the middle of the path at each room. The
+     "gardner" is cloned in shoak1.c (o1 on map)
+ 
+shgateout.c - Path leading to area, outside of gate
+ 
+shsanct.c -  Sanctuary
+     - Some items with extra descriptions for members
+     - Incense (obtained in storage room [ST]) can be burned (effect only)
+       Command is "load incense" or "load censor" (with incense in inv.)
+     - Initiations take place here. Two members must approve of the
+       initiate. (See description of initiation sequence above).
+     - You may 'kneel' and 'rise' before the altar.
+ 
+shconsac.c - Storage Room/Sacristry. Contains the cabinet of
+     ceremonial paraphenalia and a chest for storage.
+ 
+shtemple.c - Central chamber, Temple
+ 
+shvestn.c, shvestw.c, shvests.c-
+           Entrances (vestibules). Steps lead out to the path/circle.
+           Each room contains artwork with added descriptions for
+           members. The artwork is "museum"-like to commemorate the Mystics.
+ 
+Description of other files found in /d/Calia/zima/mclub/rooms.
+bdoorin.c   - door object cloned in shbellt1.c
+bdoorout.c  - door object cloned in shvests.c
+gatein.c    - door object cloned in shgatein.c
+gateout.c   - door object cloned in shgateout.c
+lay.ext     - contains commands for initiation. Included by shsanct.c
+lboard      - directory for library board (including lboard.c object)
+              board found in shconlib.c
+mboard     - directory for bulletin board (including board.c object)
+            found in shconlib.c
+shsanct.ext - extension (included by) shsanct.c
+start.c     - this room is currently in use as the "secret" board room
+              being used by X-mystics for discussion. It will soon
+              go "out of commission", and will be replaced by
+              shcondrm.c (/d/Calia/zima/mclub/rooms/start.c is an
+              official perm. starting loc, so we will just keep that
+              name and rearrange the files.)
+ 
+OBJECTS (/d/Calia/zima/mclub/objects/*) ************************************
+beads.c -   club object. Works only in hands of a member. Has subloc with
+            title which appears when beads are worn. Obtained at initiation.
+btkey.c -   key to belltower door (rooms/bdoorin.c,bdoorout.c). Obtained from
+            ring in sacristry (shconsac.c) with command 'take key from ring';
+            or from NPC cloned in shoak1.c with command 'ask human for key'.
+cabinet.c - used to hold ceremonial paraphenalia. Objects cloned directly
+            into cabinet: 1 alb, 1 tome, 2 mantles, 5 robes, 7 incenses.
+            Found in shconsac.c Non-movable.
+initome.c - A tome containing the preparations and instructions for 
+            initiating a new member. Found in the cabinet. 
+chest.c -   Just used to store things (weapons rack that doesn't keep
+            objects over reboot). Found in shconsac.c Non-movable.
+gatekey.c - Key to gate, gatein.c/gateout.c
+incense.c - needed to burn incense in sanctuary. Found in cabinet
+            in sacristry (shconsac.c). Used in sanctuary (shsanct.c)
+incloud.c - Cloud of incense object which appears (fills the room) when
+            incense is used in the sanctuary (shsanct.c). Periodically
+            issues messages about the incense and eventually dissipates.
+kneelobj.c -Invisible object indicating a player is kneeling before the
+            altar in sanctuary. Given with command 'kneel' and removed
+            with command 'rise'.
+layobj.c -  Invisible object used to track progress of initiation. See
+            lay.ext for more detail.
+ 
+ARMOURS (/d/Calia/zima/mclub/armours)
+robe.c, mantle.c, alb.c - all ceremonial garments, free of charge but
+   worthless, needed and/or optional use in ceremonies. Found in
+   cabinet in sacristry and should be returned there afterward.
+   Members have option of wearing garments on travels (though they
+   offer no true armour protection) but must return them.
+ 
+SPECIALS (/d/Calia/zima/mclub/specials)
+mclub.c - this is the club cmdsoul
+memlist.txt - list of current members. Maintained at initiation time
+              by lay.ext. Used to list members when looking at
+              picture in shconcon.c
+ 
+MONSTERS (/d/Calia/zima/mclub/monsters)
+gardner.c - cloned in shoak1.c. His purpose is to wander about the area,
+            answer a few simple questions about the shrine/club, and
+            hand out keys to members who ask him with command
+            'ask human for key'
+ 
+ 

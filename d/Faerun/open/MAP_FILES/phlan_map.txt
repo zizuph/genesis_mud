@@ -1,0 +1,250 @@
+main
+::MAPDATA::
+dock1 28 9 phlan_city
+road1 24 9 phlan_city
+road2 20 9 phlan_city
+road3 16 9 phlan_city
+road4 12 9 phlan_city
+road5 8 9 phlan_city
+guardhouse1 4 9 phlan_city
+gate 4 11 phlan_city
+road6 8 11 phlan_city 
+church1 12 11 phlan_city
+road10 16 11 phlan_city
+phlanshop 20 11 phlan_city
+road7 8 13 phlan_city
+road8 12 13 phlan_city
+road9 16 13 phlan_city
+road11 20 13 phlan_city
+road12 24 13 phlan_city
+dock2 28 13 phlan_city
+park1 8 15 phlan_city
+park2 12 15 phlan_city
+park3 16 15 phlan_city
+inn 20 15 phlan_city
+road13 24 15 phlan_city
+dock3 28 15 phlan_city
+park4 8 17 phlan_city
+park5 12 17 phlan_city
+park6 16 17 phlan_city
+phlanpost 20 17 phlan_city
+road14 24 17 phlan_city
+phlanbank 28 17 phlan_city
+phlanag 4 19 phlan_city
+road19 8 19 phlan_city
+road18 12 19 phlan_city
+road17 16 19 phlan_city
+road16 20 19 phlan_city
+road15 24 19 phlan_city
+phlansmith 28 19 phlan_city
+phlanboard 8 21 phlan_city
+phlanpub 12 21 phlan_city
+phlanarmshop 16 21 phlan_city
+phlanwepshop 20 21 phlan_city
+phlanforge 24 21 phlan_city
+church2 13 8 church2
+church3 15 7 church3
+church4 23 7 church3
+church5 7 7 church3
+inn 13 5 phlan_inn
+innbed 18 5 phlan_inn
+innkit 13 7 phlan_inn
+cho3 5 8 cityhall
+ch4 9 8 cityhall
+ch3 13 8 cityhall
+cho2 13 5 cityhall
+ch1 17 8 cityhall
+ch2 21 8 cityhall
+cho1 21 5 cityhall
+guardhouse2 6 4 guardhouse
+
+::MAPDATA::
+
+
+::NEWMAP::
+phlan_city
+::MAPDATA::
+dock1 28 9
+road1 24 9
+road2 20 9
+road3 16 9
+road4 12 9
+road5 8 9
+guardhouse1 4 9
+gate 4 11
+road6 8 11
+church1 12 11
+road10 16 11
+phlanshop 20 11
+road7 8 13
+road8 12 13
+road9 16 13
+road11 20 13
+road12 24 13
+dock2 28 13
+park1 8 15
+park2 12 15
+park3 16 15
+inn 20 15
+road13 24 15
+dock3 28 15
+park4 8 17
+park5 12 17
+park6 16 17
+phlanpost 20 17
+road14 24 17
+phlanbank 28 17
+phlanag 4 19
+road19 8 19
+road18 12 19
+road17 16 19
+road16 20 19
+road15 24 19
+phlansmith 28 19
+phlanboard 8 21
+phlanpub 12 21
+phlanarmshop 16 21
+phlanwepshop 20 21
+phlanforge 24 21
+::MAPDATA::
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+.                                                   .
+.                CITY OF PHLAN                      .
+.               ---------------                     .
+.   ~~~~~~~~Stojanow River~~~~~~~~~~~~~~~~~~~~~~~   .
+.  |           ___     ___       ~~~~~~~~~~~~~~~~   .
+.  |    ______|   |___|   |      ~~~~~~~~~~~~~~~~   .
+.  |   |        City_Hall |      ~~~~~~~~~~~~~~~~   .
+.  |_  |___________|||____|     ~~~~~~~~~~~~~~~~~   .
+.  |o|- o - o - o - o - o - o  ~~~~~~~~~~~~~~~~~~   .
+.   -   |   |   |   _~~~ Bay ~~~~~~~~~~~~~~~~~~~~   .
+.   o - o - o - o -|1|~~~~ Of ~~~~~~~~~~~~~~~~~~~   .
+.   -   |   |   |   -~~~~~~~ Phlan ~~~~~~~~~~~~~~   .
+.  |    o - o - o - o - o - o ~~~~~~~~~~~~~~~~~~~   .
+.  |        |       |   |   | ~~~~~~~ Moon ~~~~~~   .
+.  |    o - o - o  |Inn|o   o ~~~~~~~ Sea ~~~~~~~   .
+.  |    | X | X |   _-- |   _ ~~~~~~~~~~~~~~~~~~~   .
+.  |    o - o - o  |4|  o -|2| ~~~~~~~~~~~~~~~~~~   .
+.  |_       |       |   |   -   ~~~~~~~~~~~~~~~~~   .
+.  |7|- o - o - o - o - o -|3|  ~~~~~~~~~~~~~~~~~   .
+.   -   |   |   |   |   |   -   ~~~~~~~~~~~~~~~~~   .
+.  |   |o| |6| |1| |1| |5|     ~~~~~~~~~~~~~~~~~~   .
+.  |    -   -   -   -   -     ~~~~~~~~~~~~~~~~~~~   .
+.                            ~~~~~~~~~~~~~~~~~~~~   .
+.   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 1 Shops ~   .
+.   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 2 Bank ~~   .
+.   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 3 Smith ~   .
+.   ~~~~~~~___~~~~~~~~~~~~~~~~~~~~~~~~~ 4 Post ~~   .
+.   ~~~~ /     \ ~~~~~~~~~~~~~~~~~~~~~~ 5 Forge ~   .
+.   ~~~ /       --- ~~~~~~~~~~~~~~~~~~~ 6 Pub ~~~   .
+.   ~ --            \ ~~~~~~~~~~~~~~~~~ 7 A.G.  ~   .
+.   / Thorn Island    ------- ~~~~~~~~~~~~~~~~~~~   .
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+::NEWMAP::
+church2
+::MAPDATA::
+church2 13 8
+::MAPDATA::
+. . . . . . . . . . . . . . . . . . . 
+.                                   .
+.   Church Second Floor             .
+.   -------------------             .
+.           ___                     .
+.          /   \                    .
+.         /     \                   .
+.        |       |                  .
+.        |   o   |                  .
+.        |       |                  .
+.         \     /                   .
+.          \___/                    .
+.                                   .
+. . . . . . . . . . . . . . . . . . .
+                   
+::NEWMAP::
+church3
+::MAPDATA::
+church3 15 7
+church4 23 7
+church5 7 7
+::MAPDATA::
+. . . . . . . . . . . . . . . . . . . .                   
+.                                      .
+.   Church Third Floor                .     
+.   ------------------                .
+.                                     .
+.     ___________________             .
+.    |     |       |     |            .
+.    | o - | - o - | - o |            .
+.    |_____|_______|_____|            .
+.                                     .
+.               0                     .  
+.         =============               .
+.        /\     |     /\              .
+.       /&&\    |    /&&\             .
+.      ------   |   ------            .
+.               |                     .
+.               |                     .
+.           =========                 .
+. . . . . . . . . . . . . . . . . . . .   
+
+::NEWMAP::
+phlan_inn
+::MAPDATA::
+inn 13 5
+innbed 18 5
+innkit 13 7
+::MAPDATA::
+. . . . . . . . . . . . . . . . . . .                   
+.                                   .
+.   The Cracked Crown Inn           .     
+.   ---------------------           .
+.                                   .
+.            o up o                 .
+.            |                      .
+.            o                      .
+.                                   .
+.      0    0      0                .
+.      |\  / \    /|                .
+.      | \/   \  | |                .
+.      |______/ /__|                .
+.                                   .
+.                                   .
+. . . . . . . . . . . . . . . . . . .   
+
+::NEWMAP::
+cityhall
+::MAPDATA::
+cho3 5 8
+ch4 9 8
+ch3 13 8
+cho2 13 5
+ch1 17 8
+ch2 21 8
+cho1 21 5
+::MAPDATA::
+. . . . . . . . . . . . . . . . . . . .                   
+.       City Hall                     .
+.       ---------                     .
+.           ___     ___               .
+.          |   |   |   |              .
+.          | o |   | o |              .
+.   _______| | |___| | |              .
+.  |         |       | |              .
+.  | o - o - o - o - o |              .
+.  |___________| | |___|              .
+.                                     .
+. . . . . . . . . . . . . . . . . . . .  
+
+::NEWMAP::
+guardhouse
+::MAPDATA::
+guardhouse2 6 4
+::MAPDATA::
+. . . . . . . .
+. Guard House .
+. Level Two   .
+.             .
+.     o       .
+.             .
+. . . . . . . .       

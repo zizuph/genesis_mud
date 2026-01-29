@@ -1,0 +1,11 @@
+Synithis -         This spell will summon a familar that the guild
+                   member will be able to speak through, since guild
+                   members won't be able to talk normally at all (when
+                   they join the guild, they have their tongues 
+                   magically removed).
+                   The familiar cannot carry things, nor can it attack
+                   for the caster or take hits. It will not initiate
+                   combat. It can be cast in combat. Requires a rib and
+                   intestines. 20 mana. Lasts until the caster runs
+                   out of mana (taking 25 mana every time limit). This 
+                   spell is available to all guild members.

@@ -1,0 +1,10 @@
+Neutralize Poison- This spell will attempt to cure the target of poison.
+                   The chances of being successful will depend upon the
+                   type of poison, the guild_stat of the caster and
+                   the spell skills of the caster. It will not initiate
+                   combat. It can be cast in combat. Requires a yellow
+                   topaz. 100 mana. Max strength to remove poison is
+                   180 plus occ guildstat minus random(100). This spell
+                   is available to all level 1 Master members (guild
+                   level 4) and higher.
+ 

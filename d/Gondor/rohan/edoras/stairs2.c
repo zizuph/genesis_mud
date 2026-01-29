@@ -1,0 +1,138 @@
+/*
+ * Changed on Oktober 11th, 2008 - Eowul - Changed the reset room and guard
+ * routine so it doesn't stop executing half way and never reset the Flag,
+ * causing the room to be filled with guards.
+ */
+#pragma strict_types
+
+inherit "/d/Gondor/common/lib/town";
+
+#include "/d/Gondor/defs.h"
+
+public int     testopen();
+
+/*
+ *      Global variables:
+ */
+
+/* number of 'days' or room resets. when it reaches day_max,
+ * time for a new bank rate. 17 days is approx 1 RL day
+ */
+int day_count = 0,
+    day_max   = 1;
+
+static int     Flag;
+static string  Desc;
+static object guard;
+
+static string
+read_sign()
+{
+    if (Flag)
+        return "The sign reads:\n" + 
+            break_string("The Sleeping Stallion is temporarily " +
+                "closed due to an attack" +
+                (strlen(Desc) ? " by " + Desc : "") +
+                ".\n",50,"\t") + "\tFastred, Innkeeper\n";
+    else
+        return "The sign reads: \n\n"
+            + "\tWelcome to the Sleeping Stallion!\n"
+            + "\t      Open day and night!\n"
+            + "\t      Fastred, Innkeeper\n";
+}
+
+public void
+change_sign(int flag, string desc = 0)
+{
+    Flag = flag;
+
+    if (Flag && strlen(desc))
+        Desc = desc;
+    else
+        Desc = 0;
+}
+
+public void
+create_room() 
+{
+    set_hillside("north");
+    set_height(3);
+    set_road(2);
+    set_density(3);
+    set_extraline("On the west side of the staircase, a little "
+        + "stream is rushing downhill in a nice little canal made of "
+        + "stone. To your east there is a big wooden house. That is "
+        + "'The Sleeping Stallion', the local inn, and to the west "
+        + "lies the Bank of Edoras. The stairs lead up to a square to "
+        + "the south and downwards towards another square to the north.");
+    add_exit(EDORAS_DIR + "square2", "south", 0);
+    add_exit(EDORAS_DIR + "square1", "north", 0);
+    add_exit(EDORAS_DIR + "edbank",  "west",  testopen);
+
+    make_the_room();
+
+    add_item(({"canal","little canal","stream","little stream","river"}),
+            "The little stream splashes and bubbles on its way to the "
+            + "Snowbourne, which runs along just outside town. The "
+            + "water is cold and clear.\n");
+
+    add_item("sign", read_sign);
+    add_cmd_item("sign", "read", read_sign);
+
+    clone_object(EDORAS_DIR + "rooms/inndoorout")->move(TO);
+    reset_room();
+}
+
+public int
+testopen() 
+{
+    object  clock = find_object(CLOCK);
+    string  time = clock->query_time_of_day();
+
+    switch (time)
+    {
+    case "evening":
+    case "night":
+    case "early morning":
+        write("The bank is closed in the "+time+", come back in the daytime.\n");
+        return 1; 
+    default:
+        return 0;
+    }
+}
+
+void perform_unlock(object guard) 
+{
+    guard->command("unlock door with key");
+    guard->command("open door");
+    guard->command("east");
+    
+    object key = present("_sleeping_stallion_key", guard);
+    if(objectp(key)) key->remove_object();
+}
+
+void
+reset_room() 
+{
+    object key;
+
+    if (Flag = 1) // Inn closed, start countdown to open it.
+    {
+        if(day_count<day_max)
+        {
+            day_count = day_count +1;
+        }
+        else if(day_count>=day_max && !guard)
+        {
+            guard = clone_object(EDORAS_DIR + "npc/innguard");
+            clone_object(EDORAS_DIR + "obj/inn_key")->move(guard);
+            guard->move(TO);
+            
+            set_alarm(2.0, 0.0, &perform_unlock(guard));
+            Flag = 0;
+        }
+
+    }
+}
+
+

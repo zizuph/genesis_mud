@@ -1,0 +1,324 @@
+main
+::MAPDATA::
+camp1 42 17 cave
+camp2 42 17 cave
+camp3 42 17 cave
+camp4 42 17 cave
+camp5 42 17 cave
+camp6 42 17 cave
+camp7 42 17 cave
+cave2 42 17 cave
+cave3 42 17 cave
+cave4 42 17 cave
+cave5 42 17 cave
+cave6 42 17 cave
+cave7 42 17 cave
+cave8 42 17 cave
+cave9 42 17 cave
+cave10 42 17 cave
+cave11 42 17 cave
+cave12 42 17 cave
+tent1 42 17 cave
+cave1 42 17 sanction_road
+cave_link 42 17 sanction_road
+tbm.17.10 42 17 sanction_road
+tbm.18.10 42 17 sanction_road
+tbm.19.10 42 17 sanction_road
+tbm.20.10 42 17 sanction_road
+tbm.21.10 42 17 sanction_road
+tbm.22.10 42 17 sanction_road
+tbm.15.9 42 17 sanction_road
+tbm.16.9 42 17 sanction_road
+tbm.17.9 42 17 sanction_road
+tbm.18.9 42 17 sanction_road
+tbm.19.9 42 17 sanction_road
+tbm.20.9 42 17 sanction_road
+tbm.21.9 42 17 sanction_road
+tbm.22.9 42 17 sanction_road
+tbm.23.9 42 17 sanction_road
+tbm.26.9 42 17 sanction_road
+tbm.14.8 42 17 sanction_road
+tbm.15.8 42 17 sanction_road
+tbm.16.8 42 17 sanction_road
+tbm.17.8 42 17 sanction_road
+tbm.18.8 42 17 sanction_road
+tbm.19.8 42 17 sanction_road
+tbm.20.8 42 17 sanction_road
+tbm.21.8 42 17 sanction_road
+tbm.22.8 42 17 sanction_road
+tbm.23.8 42 17 sanction_road
+tbm.24.8 42 17 sanction_road
+tbm.25.8 42 17 sanction_road
+tbm.11.7 42 17 sanction_road
+tbm.12.7 42 17 sanction_road
+tbm.13.7 42 17 sanction_road
+tbm.14.7 42 17 sanction_road
+tbm.15.7 42 17 sanction_road
+tbm.16.7 42 17 sanction_road
+tbm.17.7 42 17 sanction_road
+tbm.18.7 42 17 sanction_road
+tbm.19.7 42 17 sanction_road
+tbm.20.7 42 17 sanction_road
+tbm.21.7 42 17 sanction_road
+tbm.22.7 42 17 sanction_road
+tbm.23.7 42 17 sanction_road
+tbm.14.6 42 17 sanction_road
+tbm.15.6 42 17 sanction_road
+tbm.16.6 42 17 sanction_road
+tbm.17.6 42 17 sanction_road
+tbm.18.6 42 17 sanction_road
+tbm.19.6 42 17 sanction_road
+tbm.20.6 42 17 sanction_road
+tbm.21.6 42 17 sanction_road
+tbm.22.6 42 17 sanction_road
+tbm.15.5 42 17 sanction_road
+tbm.16.5 42 17 sanction_road
+tbm.17.5 42 17 sanction_road
+tbm.18.5 42 17 sanction_road
+tbm.19.5 42 17 sanction_road
+tbm.20.5 42 17 sanction_road
+tbm.21.5 42 17 sanction_road
+tbm.10.8 42 17 sanction_road
+tbm.9.7 42 17 sanction_road
+tbm.9.6 42 17 sanction_road
+tbm.8.5 42 17 sanction_road
+tbm.7.5 42 17 sanction_road
+tbm.7.6 42 17 sanction_road
+tbm.6.6 42 17 sanction_road
+tbm.5.5 42 17 sanction_road
+tbm.6.4 42 17 sanction_road
+tbm.7.3 42 17 sanction_road
+tbm.7.2 42 17 sanction_road
+tbm.6.2 42 17 sanction_road
+tbm.5.1 42 17 sanction_road
+tbm.4.1 42 17 sanction_road
+tbm.3.1 42 17 sanction_road
+tbm.2.1 42 17 sanction_road
+tbm.36.5 42 17 neraka_road
+tbm.36.6 42 17 neraka_road
+tbm.36.7 42 17 neraka_road
+tbm.36.8 42 17 neraka_road
+tbm.35.9 42 17 neraka_road
+tbm.34.9 42 17 neraka_road
+tbm.33.10 42 17 neraka_road
+tbm.32.11 42 17 neraka_road
+tbm.31.10 42 17 neraka_road
+tbm.30.10 42 17 neraka_road
+tbm.29.9 42 17 neraka_road
+tbm.29.8 42 17 neraka_road
+tbm.28.8 42 17 neraka_road
+tbm.27.9 42 17 neraka_road
+::MAPDATA::
+                        
+                                                                            
+      N                 
+      ^                                         
+      |                                       _                    _____      
+   <--o-->                                  ,/ \                  /    /      
+      |                              __     |   \,    ,     ,    `\_^_\       
+      =                            _/  \  _/`    |  _/|    /|__     _ '       
+                        __      __/    / |       / /  |   /_  /    / \_       
+                        \ \    /^    [] _|      / /  /`     |/     \   \      
+             ,_          \ |  |^  Kalaman`     /_/  /       '       []Mithas  
+             | \         /^ [] ^           ^        |              /___/      
+             |^@\    Palanthas^      ^    ^        /'              ____       
+             | ^@\       |  ^        ^    ^   ^^  /                \  /       
+     __     /`  ^@|      | ^  []Vingaard     ^^   |                /__\       
+    /^^\    \  ^@ |      | ^    Keep     ^^ Neraka|/\              `  '       
+   /^^^^\    \___/       | ^           ^^^^[ ]    '  \                      
+   \^^^^^|                \ ^      @  ^  ^           |           ,            
+  |\|@__/    _____,        |    ^  @   ,[ ]^^^       |        __/|            
+  |@_/      /     |        |   ^  @@ __|Sanction_  _ `\  _/\_/   |            
+  |/       /@ ^   |        |____/\__/   _/` ^^ | \/ |  []`       |            
+           |@^|\_/                     /   ^^^ |__  \ Flotsam,/| |            
+           | @|___           ____      |  ^^^   ,/   \       | | |            
+           '\_@  /          /    \ { } |  ^ ^   |Port []    /   \|            
+              \_/         ,/  ^  |     '\ ^  ^  Balifor\___/     '            
+                     Solace []   |   _   |^  ^    \                 
+                         / @@   /   | \  \         \         { }   
+                     New Ports[]    |  |_|          \__     
+                        | @@@  \  ,/'           Kurinost[]            
+                       / @@@@@  \_|                 @@@@@@@\                  
+     
+
+::NEWMAP::
+sanction_road
+::MAPDATA::
+cave1 46 5
+cave_link 46 6
+tbm.17.10 42 7 
+tbm.18.10 44 7
+tbm.19.10 46 7
+tbm.20.10 48 7
+tbm.21.10 50 7
+tbm.22.10 52 7
+tbm.15.9 38 9
+tbm.16.9 40 9
+tbm.17.9 42 9
+tbm.18.9 44 9
+tbm.19.9 46 9
+tbm.20.9 48 9
+tbm.21.9 50 9
+tbm.22.9 52 9
+tbm.23.9 54 9
+tbm.26.9 60 9
+tbm.14.8 36 11
+tbm.15.8 38 11 
+tbm.16.8 40 11
+tbm.17.8 42 11
+tbm.18.8 44 11
+tbm.19.8 46 11
+tbm.20.8 48 11
+tbm.21.8 50 11
+tbm.22.8 52 11
+tbm.23.8 54 11
+tbm.24.8 56 11
+tbm.25.8 58 11
+tbm.11.7 30 13
+tbm.12.7 32 13
+tbm.13.7 34 13
+tbm.14.7 36 13
+tbm.15.7 38 13
+tbm.16.7 40 13
+tbm.17.7 42 13
+tbm.18.7 44 13
+tbm.19.7 46 13
+tbm.20.7 48 13
+tbm.21.7 50 13
+tbm.22.7 52 13
+tbm.23.7 54 13
+tbm.14.6 36 15
+tbm.15.6 38 15
+tbm.16.6 40 15
+tbm.17.6 42 15
+tbm.18.6 44 15
+tbm.19.6 46 15
+tbm.20.6 48 15
+tbm.21.6 50 15
+tbm.22.6 52 15
+tbm.15.5 38 17
+tbm.16.5 40 17
+tbm.17.5 42 17
+tbm.18.5 44 17
+tbm.19.5 46 17
+tbm.20.5 48 17
+tbm.21.5 50 17
+tbm.10.8 28 11
+tbm.9.7 26 13
+tbm.9.6 26 15
+tbm.8.5 24 17
+tbm.7.5 22 17
+tbm.7.6 22 15
+tbm.6.6 20 15
+tbm.5.5 18 17
+tbm.6.4 20 19
+tbm.7.3 22 21
+tbm.7.2 22 23
+tbm.6.2 20 23
+tbm.5.1 18 25
+tbm.4.1 16 25
+tbm.3.1 14 25
+tbm.2.1 12 25
+::MAPDATA::
+                                                 __
+                                        /\      /  \__
+                                       /  \ ___/__    \/\
+                                    /\__   /  _   \___/  \
+          Taman Busuk              /    \ /  /@\      \   \
+         mountain range           / _    \  / . \ __   \   \
+                                   / \        .           /\
+                              __  /   \   . . . . . .    /  \_
+                  /\  __     /  \                       /     
+                 /  \/  \   /    \    . . . . . . . . .     o-  to
+                /    \   \                                 /   Neraka
+                            o       . . . . o-o-o-o-o-o-o-o
+                           / \             /
+                          o   o-o-o-o-o-o-o . . . . . .     /\  
+                          |                                /  \
+                    o-o   o         . . . . . . . . .     /    \
+                   /  |  /    /\                       /\__     \
+                  o   o-o    /  \  _  . . . . . . .   /    \
+                   \        /    \/ \    ___     /\
+                    o      /      \  \  /   \___/_ \_
+                     \                 /     \    \  \
+                      o               /       \    \   
+                      |
+                    o-o
+    to             /
+ Sanction  -o-o-o-o
+
+::NEWMAP::
+cave
+::MAPDATA::
+camp1 4 4
+camp2 1 6
+camp3 4 6
+camp4 7 6
+camp5 1 8
+camp6 7 8
+camp7 4 10
+cave2 16 8
+cave3 16 6
+cave4 19 6
+cave5 22 6
+cave6 13 4
+cave7 19 4
+cave8 7 2
+cave9 10 2
+cave10 16 2
+cave11 22 2
+cave12 22 0
+tent1 4 8
+::MAPDATA::
+                      o
+                      |
+       o--o     o     o   
+     /'    `\    `\ /'
+    o        o     o
+  /'|'\       `\ /'
+ o--o--o        o  o--o
+ |  |  |        |/'
+ o  o  o        o
+  '\ /'         |
+    o            
+
+::NEWMAP::
+neraka_road
+::MAPDATA::
+tbm.36.5 32 19
+tbm.36.6 32 17
+tbm.36.7 32 15
+tbm.36.8 32 13
+tbm.35.9 30 11
+tbm.34.9 28 11
+tbm.33.10 26 9
+tbm.32.11 24 7
+tbm.31.10 22 9
+tbm.30.10 20 9
+tbm.29.9 18 11
+tbm.29.8 18 13
+tbm.28.8 16 13
+tbm.27.9 14 11
+::MAPDATA::
+
+
+
+
+          Taman Busuk
+         mountain range
+                           /\
+                 /\     o      /\
+           /\          / \    /  \
+          /  \__    o-o   o  /    \  /\
+         /         /       \       _/  \
+            o-o   o    /\   o-o   /     \
+           /   \  |   /  \__   \
+                o-o  /      \   o    /\_
+                        /\      |   /   \
+           /\    /\    /  \     o
+                /  \            |
+                                o
+                                |   to
+                                o  Neraka
+                                |
+

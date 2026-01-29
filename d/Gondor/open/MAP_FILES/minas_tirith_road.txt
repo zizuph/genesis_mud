@@ -1,0 +1,910 @@
+main
+::MAPDATA::
+wbridge1 33 13 north
+wosg3 33 13 north
+wosg2 32 13 north
+or3 32 13 north
+or2 31 13 north
+or1 31 13 north
+wr1 30 13 north
+noutgate 30 13 north
+wosg4 34 14 center
+wosg1 34 14 center
+boatplace 34 14 center
+wbank1 34 14 center
+rroad8 33 15 center
+or5 33 15 center
+rroad7 33 15 center
+rroad6 33 15 center
+rroad5 32 16 center
+rroad4 32 16 center
+rroad3 31 17 center
+rroad2 31 17 center
+rroad1 31 17 center
+soutgate 30 17 center
+harlond 30 17 south
+harlond2 30 17 south
+warehouse4 30 17 south
+pier 30 17 south
+pier5 30 17 south
+warehouse1 30 17 south
+pier3 30 17 south
+pier2 30 17 south
+pier1 30 17 south
+warehouse3 30 17 south
+pier4 30 17 south
+warehouse2 30 17 south
+hoffice 30 17 south
+lebennin 29 18 south
+nr1 29 18 south
+nr2 29 18 south
+nr3 29 18 south
+nr4 29 18 south
+ghop2 28 19 south
+nr5 28 19 south
+ghop1 28 19 south
+nr6 28 19 south
+nr7 28 19 south
+nr8 28 19 south
+wqroad1 27 18 south
+wqroad2 27 18 south
+wqroad3 27 18 south
+wqfield3 27 18 south
+wqroad4 27 18 south
+wqfield4 27 18 south
+wqroad5 27 18 south
+wqroad6 27 18 south
+wqfield5 27 18 south
+wr2 27 10 northwest
+wr3 26 10 northwest
+wr4 25 10 northwest
+wr5 24 10 northwest
+wr6 23 10 northwest
+wr7 22 10 northwest
+wr8 22 10 northwest
+wr9 21 10 northwest
+wr10 21 10 northwest
+wr11 20 10 northwest
+wr12 20 10 northwest
+rimvalley1 22 11 northwest
+rimvalley2 22 11 northwest
+path1 22 11 northwest
+rimvalley3 22 11 northwest
+rimvalley4 22 11 northwest
+rimvalley5 22 11 northwest
+base 22 11 northwest
+rimvalley6 22 11 northwest
+an13w1n 30 7 anorien
+an1w2n 20 8 anorien
+an2w2n 20 8 anorien
+an3w2n 21 8 anorien
+an4w2n 22 8 anorien
+an5w2n 22 8 anorien
+an6w2n 23 8 anorien
+an7w2n 24 8 anorien
+an8w2n 25 8 anorien
+an9w2n 25 8 anorien
+an10w2n 26 8 anorien
+an11w2n 27 8 anorien
+an12w2n 28 8 anorien
+an13w2n 28 8 anorien
+an14w2n 29 8 anorien
+an15w2n 30 8 anorien
+an16w2n 31 8 anorien
+an3w3n 21 8 anorien
+an4w3n 22 8 anorien
+an5w3n 22 8 anorien
+an6w3n 23 8 anorien
+an7w3n 24 8 anorien
+an8w3n 25 8 anorien
+an9w3n 25 8 anorien
+an10w3n 26 8 anorien
+an11w3n 27 8 anorien
+an12w3n 28 8 anorien
+an13w3n 28 8 anorien
+an14w3n 29 8 anorien
+an15w3n 30 8 anorien
+an16w3n 31 8 anorien
+an6w4n 23 8 anorien
+an7w4n 24 8 anorien
+an8w4n 25 8 anorien
+an9w4n 25 8 anorien
+an10w4n 26 8 anorien
+an11w4n 27 8 anorien
+an12w4n 28 8 anorien
+an13w4n 28 8 anorien
+an14w4n 29 8 anorien
+an15w4n 30 8 anorien
+an16w4n 31 8 anorien
+an7w5n 24 9 anorien
+an8w5n 25 9 anorien
+an9w5n 25 9 anorien
+an10w5n 26 9 anorien
+an11w5n 27 9 anorien
+an12w5n 28 9 anorien
+an13w5n 29 9 anorien
+an14w5n 30 9 anorien
+an15w5n 30 9 anorien
+an16w5n 31 9 anorien
+an10w6n 30 10 anorien
+an11w6n 30 10 anorien
+an12w6n 31 10 anorien
+an13w6n 31 10 anorien
+an14w6n 31 10 anorien
+an15w6n 32 10 anorien
+an16w6n 32 10 anorien
+an11w7n 31 11 anorien
+an12w7n 31 11 anorien
+an13w7n 32 11 anorien
+an14w7n 32 11 anorien
+an15w7n 33 11 anorien
+an16w7n 33 11 anorien
+an12w8n 31 11 anorien
+an13w8n 31 11 anorien
+an14w8n 31 11 anorien
+an15w8n 31 11 anorien
+an16w8n 32 11 anorien
+an13w9n 32 11 anorien
+an14w9n 32 11 anorien
+an15w9n 33 11 anorien
+an16w9n 33 11 anorien
+an14w10n 31 12 anorien
+an15w10n 32 12 anorien
+an16w10n 33 12 anorien
+an14w11n 31 12 anorien
+an15w11n 32 12 anorien
+an16w11n 33 12 anorien
+w_ford 31 8 cairandros
+e_ford 37 8 cairandros
+fort1 34 8 cairandros
+fort2 34 8 cairandros
+fort3 34 8 cairandros
+fort4 34 8 cairandros
+fort5 34 8 cairandros
+fort6 34 8 cairandros
+fort7 34 8 cairandros
+fort8 34 8 cairandros
+fort9 34 8 cairandros
+fort10 34 8 cairandros
+fort11 34 8 cairandros
+fort12 34 8 cairandros
+bar1 34 8 cairandros
+bar2 34 8 cairandros
+bar3 34 8 cairandros
+bar4 34 8 cairandros
+storne 34 8 cairandros
+stornw 34 8 cairandros
+storse 34 8 cairandros
+storsw 34 8 cairandros
+caf1 34 8 cairandros
+caf2 34 8 cairandros
+caf3 34 8 cairandros
+caf4 34 8 cairandros
+caf5 34 8 cairandros
+caf6 34 8 cairandros
+caf7 34 8 cairandros
+caf8 34 8 cairandros
+caf9 34 8 cairandros
+caf10 34 8 cairandros
+caf11 34 8 cairandros
+caf12 34 8 cairandros
+caf13 34 8 cairandros
+caf14 34 8 cairandros
+caf15 34 8 cairandros
+caf16 34 8 cairandros
+rr10 40 8 cairandros
+ba1 34 8 cairandrosbsmt
+ba2 34 8 cairandrosbsmt
+ba3 34 8 cairandrosbsmt
+ba4 34 8 cairandrosbsmt
+ba5 34 8 cairandrosbsmt
+ba6 34 8 cairandrosbsmt
+ba7 34 8 cairandrosbsmt
+ba8 34 8 cairandrosbsmt
+ba9 34 8 cairandrosbsmt
+ba10 34 8 cairandrosbsmt
+ba11 34 8 cairandrosbsmt
+ba12 34 8 cairandrosbsmt
+ba13 34 8 cairandrosbsmt
+ba14 34 8 cairandrosbsmt
+ba15 34 8 cairandrosbsmt
+ba16 34 8 cairandrosbsmt
+ba17 34 8 cairandrosbsmt
+ba18 34 8 cairandrosbsmt
+ba19 34 8 cairandrosbsmt
+ba20 34 8 cairandrosbsmt
+ba21 34 8 cairandrosbsmt
+ba22 34 8 cairandrosbsmt
+ba23 34 8 cairandrosbsmt
+ba24 34 8 cairandrosbsmt
+ba25 34 8 cairandrosbsmt
+ba26 34 8 cairandrosbsmt
+ba27 34 8 cairandrosbsmt
+ba28 34 8 cairandrosbsmt
+ba29 34 8 cairandrosbsmt
+ba30 34 8 cairandrosbsmt
+ba31 34 8 cairandrosbsmt
+ba32 34 8 cairandrosbsmt
+ba33 34 8 cairandrosbsmt
+ba34 34 8 cairandrosbsmt
+ba35 34 8 cairandrosbsmt
+ba36 34 8 cairandrosbsmt
+ba37 34 8 cairandrosbsmt
+ba38 34 8 cairandrosbsmt
+hall1 34 8 cairandrosbsmt
+hall2 34 8 cairandrosbsmt
+hall3 34 8 cairandrosbsmt
+hall4 34 8 cairandrosbsmt
+hall5 34 8 cairandrosbsmt
+hall6 34 8 cairandrosbsmt
+hall7 34 8 cairandrosbsmt
+hall8 34 8 cairandrosbsmt
+hall9 34 8 cairandrosbsmt
+hall10 34 8 cairandrosbsmt
+ecor1 34 8 cairandrosbsmt
+ecor2 34 8 cairandrosbsmt
+ecor3 34 8 cairandrosbsmt
+ecor4 34 8 cairandrosbsmt
+ecor5 34 8 cairandrosbsmt
+wcor1 34 8 cairandrosbsmt
+wcor2 34 8 cairandrosbsmt
+wcor3 34 8 cairandrosbsmt
+wcor4 34 8 cairandrosbsmt
+wcor5 34 8 cairandrosbsmt
+ad1 26 10 amondin
+ad2 26 10 amondin
+ad3 26 10 amondin
+ad4 26 10 amondin
+summit 26 10 amondin
+summit2 26 10 amondin
+summit3 26 10 amondin
+summit4 26 10 amondin
+summit5 26 10 amondin
+storage1 26 10 amondin
+storage2 26 10 amondin
+roof1 26 10 amondintree
+roof2 26 10 amondintree
+cave1 27 18 wolfcave
+cave2 27 18 wolfcave
+cave3 27 18 wolfcave
+cave4 27 18 wolfcave
+cave5 27 18 wolfcave
+cave6 27 18 wolfcave
+wcave1 27 18 wolfcave
+wcave2 27 18 wolfcave
+wcave3 27 18 wolfcave
+wcave4 27 18 wolfcave
+wcave5 27 18 wolfcave
+wcaveden 27 18 wolfcave
+::MAPDATA::
+
+                ~                 ~~~~~~                 \
+    West Emnet   ~               ~~~~~~                   \
+ \               ~~~~          ~~~~~~                      \ Morannon
+  \                ~~~~       ~~~~~~                       | o
+   ------+------     ~~~~    ~~~~~~                        |/
+         |      \      ~~~~~~~~~~~~                        |
+         O       \       ~~   ~~~~~~~      Northern        |
+       EDORAS     \            ~~ O ~~     Ithilien        |
+                   \            ~~~~~~~                    |  Mountains
+                    ---------    ~~~~~~~                   |     of
+                       MINAS \    ~~~~~~~                  |   Shadow  +------+
+   White Mountains     TIRITH \    ~~ OSGILIATH            |           |MORDOR|
+                            O-+----O=====O-----------------+--- MINAS  +------+
+               +------+       |   / ~~~~~                  |   \MORGUL
+               |GONDOR|       |  / ~~~~~                   |    O
+               +------+       | / ~~~~~     Southern       |
+                              L/ ~~~~~      Ithilien       |
+                             / ~~~~~~                      |
+                            / ~~~~~~            Emyn Arnen |
+                           / ~~~~~~               o--------+
+                          / ~~~~~~                         |
+
+::NEWMAP::
+northwest
+::MAPDATA::
+wr2 72 16
+wr3 68 14
+wr4 64 12
+wr5 60 10
+wr6 56 8
+wr7 52 8
+wr8 48 8
+wr9 44 6
+wr10 40 4
+wr11 36 4
+wr12 32 4
+rimvalley1 40 6
+rimvalley2 40 8
+path1 40 10
+rimvalley3 40 12
+rimvalley4 40 14
+rimvalley5 40 16
+base 44 18
+rimvalley6 40 20
+::MAPDATA::
+
+              \ |
+                o - o - o - o
+                              \
+                                o - o - o
+                                        | \
+  E                                     o   o
+                                        |     \
+  M O U N T A I N S                     o       o - o - o
+                                        |                 \
+                                       [ ]                  o
+                                        |                     \
+                                        o                       o
+                                        |                         \
+                                        o                           o
+                                        |                             \
+                                        o                               o
+                                          \                             |
+                                            o                           o
+                                          /                             | \
+                                        o                               o   o -
+                                                                        |
+
+::NEWMAP::
+north
+::MAPDATA::
+wbridge1 28 16
+wosg3 24 18
+wosg2 20 18
+or3 16 18
+or2 12 16
+or1 8 16
+wr1 4 14
+noutgate 4 16
+::MAPDATA::
+
+                                 ~~~~~~~~~~~                |               |
+                                    ~~~~~~~~~~~             o               o
+                                ~~~~~~~~~~~~~~              |                 \
+                                  ~~~~~~~~~~~~~~~           o
+                                    ~~~~~~~~~~~~~~~         |
+                                      ~~~~~~~~~~~           o
+                                   ~~~~~~~~~~~~~~~          |
+                                     ~~~~~~~~~~~            |
+                                                            |
+                                        Osgiliath     - o - o - o ----- o - o -
+  \                                                               \
+    o                                   ~~~~~~~~~~~                 o
+    |                                 ~~~~~~~~~~~                     \
+    o                                    ~~~~~~~~~~~    o ------------- o
+    | \                       /       ~~~~~~~~~~~~      |                     /
+    o   o - o               o        ~~~~~~~~~~~~~      |                   o
+    |         \           /          ~~~~~~~~~          |                   |
+                o - o - o           ~~~~~~~~~~~~        o                   o
+                  \   / |           ~~~~~~~~~           |                   |
+                    o - o          ~~~~~~~~~            |                   o -
+                  / |   |         ~~~~~~~~~~~           |                   |
+
+::NEWMAP::
+center
+::MAPDATA::
+wosg4 64 4
+wosg1 60 4
+boatplace 64 6
+wbank1 64 8
+rroad8 60 6
+or5 56 6
+rroad7 60 8
+rroad6 60 10
+rroad5 60 12
+rroad4 60 14
+rroad3 56 16
+rroad2 52 18
+rroad1 48 18
+soutgate 44 18
+::MAPDATA::
+
+                                            |         \           /          ~~
+                                                        o - o - o           ~~~
+                                                          \   / |           ~~~
+                                                            o - o          ~~~~
+                                                          / |   |         ~~~~~
+                                                        o - o   o        ~~~~~~
+                                                      /     |   |       ~~~~~~~
+                                            Minas           o   o     ~~~~~~~~~
+                                            Tirith          |         ~~~~~~~~~
+                                                            o          ~~~~~~~~
+                                                            |         ~~~~~~~~~
+                                                            o        ~~~~~~~~~~
+                                                            |       ~~~~~~~~~~~
+                                                            o        ~~~~~~~~~~
+                                                          /        ~~~~~~~~~~~~
+                                                        o        ~~~~~~~~~~~~~~
+                                            |         /          ~~~~~~~~~~~
+   Caves                                    o   o - o          ~~~~~~~~~~~~~~~
+      \                                     | /               ~~~~~~~~~~~~~
+    o   o                           o - o - o                 ~~~~~~~~~~~
+    | /                           /         |                ~~~~~~~~~~~~~~
+
+::NEWMAP::
+south
+::MAPDATA::
+harlond 56 4
+harlond2 56 10
+warehouse4 52 10
+pier 56 12
+pier5 52 14
+warehouse1 52 12
+pier3 60 12
+pier2 64 12
+pier1 60 10
+warehouse3 60 8
+pier4 64 8
+warehouse2 64 6
+hoffice 60 6
+lebennin 52 4
+nr1 48 4
+nr2 44 6
+nr3 40 8
+nr4 40 10
+ghop2 40 12
+nr5 36 12
+ghop1 36 14
+nr6 32 14
+nr7 28 16
+nr8 28 18
+wqroad1 28 12
+wqroad2 24 10
+wqroad3 20 10
+wqfield3 20 8
+wqroad4 16 8
+wqfield4 12 8
+wqroad5 16 6
+wqroad6 16 4
+wqfield5 20 4
+::MAPDATA::
+
+                                                        |         /          ~
+               Caves                                    o   o - o          ~~~
+                  \                                     | /               ~~~~
+                o   o                           o - o - o                 ~~~~
+                | /                           /         |                ~~~~~
+                o                           o           |   o   o       ~~~~~~
+                |                         /             |     \ |      ~~~~~~~
+            o - o   o        Thornlin - o               |   o   o         ~~~~
+                  \ |                   |               |   | /         ~~~~~~
+                    o - o               o           o - o   o  Docks   ~~~~~~~
+                          \           / |               | /            ~~~~~~~
+                            o       o   o           o   o - o - o    ~~~~~~~~~
+                              \   / |               | /              ~~~~~~~~~
+                                o   o               o             ~~~~~~~~~~~~
+                              /                                  ~~~~~~~~~~~~~
+                            o                                    ~~~~~~~~~
+                            |                                   ~~~~~~~~~~~~
+                            o                                   ~~~~~~~~~
+                            |                                  ~~~~~~~~~
+                            o                              ~~~~~~~~~~~
+                            |                             ~~~~~~~~~~~~~
+
+::NEWMAP::
+anorien
+::MAPDATA::
+an13w1n 51 2
+an1w2n 4 4
+an2w2n 8 4
+an3w2n 11 4
+an4w2n 15 4
+an5w2n 19 4
+an6w2n 23 4
+an7w2n 27 4
+an8w2n 31 4
+an9w2n 35 4
+an10w2n 39 4
+an11w2n 43 4
+an12w2n 47 4
+an13w2n 51 4
+an14w2n 55 4
+an15w2n 59 4
+an16w2n 63 4
+an3w3n 11 6
+an4w3n 15 6
+an5w3n 19 6
+an6w3n 23 6
+an7w3n 27 6
+an8w3n 31 6
+an9w3n 35 6
+an10w3n 39 6
+an11w3n 43 6
+an12w3n 47 6
+an13w3n 51 6
+an14w3n 55 6
+an15w3n 59 6
+an16w3n 63 6
+an6w4n 23 8
+an7w4n 27 8
+an8w4n 31 8
+an9w4n 35 8
+an10w4n 39 8
+an11w4n 43 8
+an12w4n 47 8
+an13w4n 51 8
+an14w4n 55 8
+an15w4n 59 8
+an16w4n 63 8
+an7w5n 27 10
+an8w5n 31 10
+an9w5n 35 10
+an10w5n 39 10
+an11w5n 43 10
+an12w5n 47 10
+an13w5n 51 10
+an14w5n 55 10
+an15w5n 59 10
+an16w5n 63 10
+an10w6n 39 12
+an11w6n 43 12
+an12w6n 47 12
+an13w6n 51 12
+an14w6n 55 12
+an15w6n 59 12
+an16w6n 63 12
+an11w7n 43 14
+an12w7n 47 14
+an13w7n 51 14
+an14w7n 55 14
+an15w7n 59 14
+an16w7n 63 14
+an12w8n 47 16
+an13w8n 51 16
+an14w8n 55 16
+an15w8n 59 16
+an16w8n 63 16
+an13w9n 51 18
+an14w9n 55 18
+an15w9n 59 18
+an16w9n 63 18
+an14w10n 55 20
+an15w10n 59 20
+an16w10n 63 20
+an14w11n 55 22
+an15w11n 59 22
+an16w11n 63 22
+::MAPDATA::
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~        ~~~~~~~ Anduin River __
+ ~~                                                          ~~~~~~~~~~~~~~~/
+ ~~                                                             ~~~~~~~~~~/
+ ~~                                                            ~~~~~~~~~~| C A
+ == o - o                                                      ~~~~~~~~~/  A N
+ ~~      \                                                      ~~~~~~~~|  I D
+ ~~        o - o - o                                             ~~~~~~~~\ R R
+ ~~                | \                                           ~~~~~~~~~\  O
+ ~~                o   o                                          ~~~~~~~~~| S
+ ~~                | oO  \                                           ~~~~~~~\
+~                  o  oO   o - o - o                                ~~~~~~~~~~\
+~                  |  OoOo      oOo  \                              ~~~~~~~~~~~
+~                 [ ] oOOoOOoOOoOOooO  o                              ~~~~~~~~~
+~                  |   OooOOOoOOoOooOoO  \                             ~~~~~~~~
+~                  o  oOOoOoOOoOooOOoOOoO  o                          ~~~~~~~~~
+~                  |   OO +---------+ OoOOo  \                        ~~~~~~~~~
+                   o  Ooo | Druadan | oOOoOOo  o                      ~~~~~~~~~
+                   |   oO | Forest  | OooOoOOoO  \                      ~~~~~~~
+  /\               o    O +---------+ oOOOoOoOOOo  o                     ~~~~~~
+ /  \/\              \  oOOoOooOoOOoOooOOOOoOOOo   |               ..-.. ~~~~~
+/   /  \               o    oOOoOOoOOooOooOOo      o             --.-.-.. ~~~~
+   /    \/\  /\      /         oOOoOoOOoO          | \         ..--.-.--. ~~ /
+ White  /  \/  \   o                               o   o - o   - Osgiliath o ~~
+ Mountains /    \                                  |         \  .--.-.-. /  ~~~
+                                                               o - o - o    ~~~
+::NEWMAP::
+cairandros
+::MAPDATA::
+w_ford 2 16
+fort1 8 16
+fort2 14 16
+fort3 20 16
+fort4 26 16
+fort5 32 16
+e_ford 40 16
+fort6 20 14
+fort7 20 12
+fort8 8 10
+fort9 14 10
+fort10 20 10
+fort11 26 10
+fort12 32 10
+bar1 32 14
+bar2 32 12
+bar3 8 14
+bar4 8 12
+storne 26 12
+stornw 14 12
+storse 26 14
+storsw 14 14
+caf1 8 21
+caf2 12 21
+caf3 12 23
+caf4 8 23
+caf5 32 21
+caf6 32 23
+caf7 28 23
+caf8 28 21
+caf9 8 5
+caf10 12 5
+caf11 12 3
+caf12 8 3
+caf13 32 5
+caf14 32 3
+caf15 28 3
+caf16 28 5
+rr10 49 16
+::MAPDATA::
+
+~~   ###########         ###########   ~~~~~~~~ oOOoOOoOoOOooOOoOOooOOoOOooOOoo
+~~   #         #         #         #   ~~~~~~~~ OooOOoOoOOOOOoOOOooOOoOOoOoOOoO
+~~   #  O - O  #         #  O - O  #   ~~~~~~~~ ooOOooOOoOOOoooOOoOOoOOoOooOOoo
+~~   #  | # |  #         #  | # |  #   ~~~~~~~~ ooOOOoOOOOOoooOoOooOOooOoOoOooO
+~~   #  O - O  #         #  O - O  #   ~~~~~~~~ OoOooOOooOoooOOOoOOOoOooOOoOOoo
+~~   #  =      #         #      =  #   ~~~~~~~~ OooOooOoOOOoOooOOoOOoOoOooOooOO
+~~   ## = ######         ###### = ##   ~~~~~~~~ oOOOoOoOoooOoOoOOoOoOoOoOooOooO
+~~~~  # = #                   # = #  ~~~~~~~~~~ ooOoOO +----------+ oOOoOoOOOOo
+~~~~  # = ##################### = #  ~~~~~~~~~~ OoOOoo |          | OOooooOOOoO
+~~~~  # O --- O --- O --- O --- O #  ~~~~~~~~~~ OOoOoO | Ithilien | OoOoOoOOoOO
+~~~~  ##|#####|#### | ####|#####|##  ~~~~~~~~~~ oOoOoo |          | OoOooOoOo ~
+~~~~  # O  #  O  #  O  #  O  #  O #  ~~~~~~~~~~ OoOoOo +----------+ oOOoOOoO ~~
+~~~~  # |  #######  |  #######  | #  ~~~~~~~~~~~ OoOOoOOOoOOoOOOooOoOOoo ~~~~~
+~~~~  # O  #  O  #  O  #  O  #  O #  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ooO
+~~~~  ##|#####|#### | ####|#####|##  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~oOOoooOoOo
+~~~~--- O --- O --- O --- O --- O ---~~~~~~~~~~  O  oOOOoOOOooOOOoOooOOoO O ---
+~~~~  # = ##################### = #  ~~~~~~~~~~   \  oOOoOOoOoOOoOOooOOo / oOOO
+~~~~  # = #                   # = #  ~~~~~~~~~~ O  \  oOooOoOooOOoOoOOO / OOooo
+~~~~ ## = ######         ###### = ## ~~~~~~~~~~ oO  \  OooOooOoOOOoOoO / oOOOoO
+~~~~ #  =      #         #      =  # ~~~~~~~~~~ Ooo  \  oOoOOOoOoOOoo / ooOOooO
+~~~~ #  O - O  #         #  O - O  # ~~~~~~~~~~~ OoO  \  OooOOoOOoOo / oOOoOOoo
+~~~~ #  | # |  #         #  | # |  # ~~~~~~~~~~~~ oOo  O --------- O  oOoOooOoO
+~~~~ #  O - O  #         #  O - O  # ~~~~~~~~~~~~ oOOo | oOOoOoOooOooOoOOoOooOo
+~~~~ #         #         #         # ~~~~~~~~~~~~ Oooo | OooOoOOoOoOooOOoOoooOo
+~~~~ ###########         ########### ~~~~~~~~~~~~ oOoO | oOOOOoOOOoOOoOoOOOoOoO
+~~~~~~                           ~~~~~~~~~~~~~~~~ OOoO | OoOOOOOOoOoooOoOoOOoOo
+~~~~~~~~~~~~~~           ~~~~~~~~~~~~~~~~~~~~~~~~ ooOo | oOOoOoOooOooOOoOOOoOOO
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ oOoO O  OOOoOoOoooOooOOoOoooO
+~~~~~~~~~~~~~ Anduin River ~~~~~~~~~~~~~~~~~~~~~~ ooOoo \  OoOOoOOoOOOOOoOoOooo
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ oOoOoOo \  oOOoOoOOooOoOoooOOo
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ oOOoOoOooO \  oOOoOoOOooOOOOooOO
+
+::NEWMAP::
+cairandrosbsmt
+::MAPDATA::
+ba1 45 57
+ba2 33 57
+ba3 45 52
+ba4 33 52
+ba5 45 47
+ba6 33 47
+ba7 45 42
+ba8 33 42
+ba9 45 26
+ba10 33 26
+ba11 45 21
+ba12 33 21
+ba13 45 16
+ba14 33 16
+ba15 45 11
+ba16 33 11
+ba17 45 6
+ba18 33 6
+ba19 33 31
+ba20 33 37
+ba21 27 31
+ba22 27 37
+ba23 21 31
+ba24 21 37
+ba25 15 31
+ba26 15 37
+ba27 9 31
+ba28 9 37
+ba29 45 31
+ba30 45 37
+ba31 51 31
+ba32 51 37
+ba33 57 31
+ba34 57 37
+ba35 63 31
+ba36 63 37
+ba37 69 31
+ba38 69 37
+hall1 39 57
+hall2 39 52
+hall3 39 47
+hall4 39 42
+hall5 39 34
+hall6 39 26
+hall7 39 21
+hall8 39 16
+hall9 39 11
+hall10 39 6
+ecor1 45 34
+ecor2 51 34
+ecor3 57 34
+ecor4 63 34
+ecor5 69 34
+wcor1 33 34
+wcor2 27 34
+wcor3 21 34
+wcor4 15 34
+wcor5 9 34
+::MAPDATA::
+
+###############################################################################
+###############################################################################
+############################   _________________   ############################
+############################  |     |  |  |     |  ############################
+############################  |     |  |  |     |  ############################
+############################  |  O-----O-----O  |  ############################
+############################  |     |  |  |     |  ############################
+############################  |_____|  |  |_____|  ############################
+############################  |     |  |  |     |  ############################
+############################  |     |  |  |     |  ############################
+############################  |  O-----O-----O  |  ############################
+############################  |     |  |  |     |  ############################
+############################  |_____|  |  |_____|  ############################
+############################  |     |  |  |     |  ############################
+############################  |     |  |  |     |  ############################
+############################  |  O-----O-----O  |  ############################
+############################  |     |  |  |     |  ############################
+############################  |_____|  |  |_____|  ############################
+############################  |     |  |  |     |  ############################
+############################  |     |  |  |     |  ############################
+############################  |  O-----O-----O  |  ############################
+############################  |     |  |  |     |  ############################
+############################  |_____|  |  |_____|  ############################
+############################  |     |  |  |     |  ############################
+############################  |     |  |  |     |  ############################
+############################  |  O-----O-----O  |  ############################
+############################  |     |  |  |     |  ############################
+####   _______________________|_____|  |  |_____|_______________________   ####
+####  |     |     |     |     |     |  |  |     |     |     |     |     |  ####
+####  |     |     |     |     |     |  |  |     |     |     |     |     |  ####
+####  |  O  |  O  |  O  |  O  |  O  |  |  |  O  |  O  |  O  |  O  |  O  |  ####
+####  |__|__|__|__|__|__|__|__|__|__|  |  |__|__|__|__|__|__|__|__|__|__|  ####
+####  |  |     |     |     |     |     |     |     |     |     |     |  |  ####
+####  |  O-----O-----O-----O-----O-----O-----O-----O-----O-----O-----O  |  ####
+####  |__|_____|_____|_____|_____|__   |   __|_____|_____|_____|_____|__|  ####
+####  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  ####
+####  |  O  |  O  |  O  |  O  |  O  |  |  |  O  |  O  |  O  |  O  |  O  |  ####
+####  |     |     |     |     |     |  |  |     |     |     |     |     |  ####
+####  |_____|_____|_____|_____|_____|  |  |_____|_____|_____|_____|_____|  ####
+####                          |     |  |  |     |                          ####
+############################  |     |  |  |     |  ############################
+############################  |  O-----O-----O  |  ############################
+############################  |     |  |  |     |  ############################
+############################  |_____|  |  |_____|  ############################
+############################  |     |  |  |     |  ############################
+############################  |     |  |  |     |  ############################
+############################  |  O-----O-----O  |  ############################
+############################  |     |  |  |     |  ############################
+############################  |_____|  |  |_____|  ############################
+############################  |     |  |  |     |  ############################
+############################  |     |  |  |     |  ############################
+############################  |  O-----O-----O  |  ############################
+############################  |     |  |  |     |  ############################
+############################  |_____|  |  |_____|  ############################
+############################  |     |  |  |     |  ############################
+############################  |     |  |  |     |  ############################
+############################  |  O-----O-----O  |  ############################
+############################  |     |     |     |  ############################
+############################  |_____|_____|_____|  ############################
+############################                       ############################
+###############################################################################
+###############################################################################
+
+::NEWMAP::
+amondin
+::MAPDATA::
+ad1 49 14
+ad2 35 21
+ad3 21 14
+ad4 39 5
+summit 39 7
+summit2 39 9
+summit3 39 11
+summit4 39 15
+summit5 33 15
+storage1 33 13
+storage2 33 11
+::MAPDATA::
+
+                                    ========
+                                    Amon-Din
+                                    ========
+
+                                       o
+                                     / |
+                                   /   o
+                                 /     |
+                               /       o
+                             /         |
+                           /     o     o
+                         /       |     |
+                       /         o     |           /
+                     o           :     |         o
+                       \         o --- o       /
+                         \                   /
+                           \               /
+                             \           /
+                               \       /
+                                 \   /
+                                   o
+
+::NEWMAP::
+amondintree
+::MAPDATA::
+tree1 40 11
+tree2 40 8
+tree3 40 5
+::MAPDATA::
+
+                             =====================
+                             Amon-Din, In the Tree
+                             =====================
+
+                                        o
+                                        |
+                                        |
+                                        o
+                                        |
+                                        |
+                                        o =
+
+::NEWMAP::
+amondintree
+::MAPDATA::
+roof1 39 5
+roof2 39 8
+::MAPDATA::
+
+                            ========================
+                            Amon-Din, On the Rooftop
+                            ========================
+
+                                       o
+                                       |
+                                       |
+                                       o
+
+::NEWMAP::
+wolfcave
+::MAPDATA::
+cave1 39 20
+cave2 39 17
+cave3 45 14
+cave4 51 11
+cave5 39 11
+cave6 45 8
+wcave1 32 14
+wcave2 26 11
+wcave3 32 8
+wcave4 39 5
+wcave5 26 5
+wcaveden 21 5
+::MAPDATA::
+
+                               =================
+                               Caves of Lebennin
+                               =================
+
+                     o -- o            o
+                          | \        /   \
+                          |   \   /        \
+                          |     o            o
+                          |   /   \        /   \
+                          | /        \   /       \
+                          o - - - - -  o - - - - - o
+                            \        /   \       /
+                              \   /        \   /
+                                o            o
+                                  \        /
+                                     \   /
+                                       o
+                                       |
+                                       |
+                                       o
+                                         \
+

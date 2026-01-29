@@ -1,0 +1,13 @@
+#include "/d/Krynn/common/defs.h"
+#include "/d/Ansalon/kalaman/sewers/local.h"
+
+inherit SEWER_IN;
+
+void
+create_sewer_room()
+{
+    ::create_sewer_room();
+    add_exit(FIRST + "s5", "northeast");
+    add_exit(FIRST + "s35", "south");
+    add_exit(FIRST + "s36", "southwest");
+}

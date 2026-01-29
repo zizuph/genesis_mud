@@ -1,0 +1,66 @@
+This document is used to detail all Khalakhor origin
+shiplines.
+
+SHIPS FROM PORT MACDUNN:
+
+#1 Destination: Sparkle
+   Ship:        Sgain Dubh 
+                "/d/Khalakhor/ship/macdunn/sparkle/ship.c"
+   Captain:     Burwain
+                "/d/Khalakhor/ship/macdunn/sparkle/captain.c"
+   Home Pier:   "/d/Khalakhor/ship/macdunn/pier8.c"
+   Remote Pier: "/d/Genesis/start/human/town/pier11.c"
+   Cost:        30 copper for statave > 20, free otherwise.
+
+#2 Destination: Gelan
+   Ship:        Cuinnsear
+                "/d/Khalakhor/ship/macdunn/gelan/ship.c"
+   Captain:     Cian
+                "/d/Khalakhor/ship/macdunn/gelan/captain.c"
+   Home Pier:   "/d/Khalakhor/ship/macdunn/pier6.c"
+   Remote Pier: "/d/Calia/ships/khalakhor/pier.c"
+   Cost:        75 copper for statave > 15, free otherwise. 
+                Also free to hobbit race types.
+
+#3 Destination: Faerie
+   Ship:        Fiu Alladh
+                "/d/Khalakhor/ship/macdunn/faerie/ship.c"
+   Captain:     Gywnyd
+                "/d/Khalakhor/ship/macdunn/faerie/captain.c"
+   Home Pier:   "/d/Khalakhor/ship/macdunn/pier10.c"
+   Remote Pier: "/d/Genesis/start/elf/room/cove_5"
+   Cost:        20 copper for statave > 20, free otherwise.
+
+#4 Destination: Kalaman
+   Ship:        The Bonnie Lass
+                "/d/Khalakhor/ship/macdunn/ansalon/ship.c"
+   Captain:     Doyle
+                "/d/Khalakhor/ship/macdunn/ansalon/captain.c"
+   Home Pier:   "/d/Khalakhor/ship/macdunn/pier2.c"
+   Remote Pier: "/d/Ansalon/kalaman/room/dock1"
+
+#4 Destination: Grey Havens
+   Ship:        Corran
+                "/d/Khalakhor/ship/macdunn/shire/ship.c"
+   Captain:     Isoelte
+                "/d/Khalakhor/ship/macdunn/shire/captain.c"
+   Home Pier:   "/d/Khalakhor/ship/macdunn/pier12.c"
+   Remote Pier: "/d/Shire/common/greyhaven/pier7.c"
+
+
+SHIPS FROM CADU:
+
+#1 Destination: Sparkle
+   Ship:        "/d/Khalakhor/inisi/roke/ships/cadusparkle/ship.c"
+   Captain:     Krell
+                "/d/Khalakhor/inisi/roke/ships/cadusparkle/captain.c"
+   Home Pier:   "/d/Khalakhor/inisi/roke/nyreese/cadu_b2.c"
+   Remote Pier: "/d/Genesis/start/human/town/pier12.c"
+   Cost:        24 copper for statave > 20, free otherwise.
+
+
+Last modified:
+Teth, March 25, 1997
+Khail, November 28, 1997
+Teth, December 25,1997
+Glindor, January 12, 2002

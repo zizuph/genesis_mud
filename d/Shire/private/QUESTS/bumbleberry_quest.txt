@@ -1,0 +1,122 @@
+Group:      2
+
+Bit:        7
+
+Name:       Bumbleberry Pie
+
+Programmed: n/a
+
+Problem:    Mayor of Michel Delving wants a bumbleberry pie. 
+            Player must get one for him.
+
+Solution:   Go to mayor in Michel Delving and ask for quest. He 
+            drops pie pan. Pick it up and go to Cook in Michel 
+            Delving. Give plate to Cook, who lists the items she needs:
+
+            Honey - From mayor, go w,s,enter burrow. The honey 
+            is in a room south of the bedroom. Search pillows in 
+            room to find it.
+
+            Sausage - Located in the Lodging House across from honey 
+            burrow. No searching necessary.
+
+            Mustard Seeds - Located in burrow 1 south of honey 
+            burrow. It's in a pantry. No searching necessary.
+
+            Spoon - Located in abandoned hobbit hole in northern 
+            Michel Delving. If players search walls, the building 
+            will fall and them unless propped up with beam
+
+            Bowl - Located in burrow north of Greenholm. Search 
+            table in dining room. Bowl is on table in pile of dishes.
+
+            Cloth - Located in burrow. From Grey Havens, e,s,e,e. 
+            Go to bedroom and search the dresser. If cloth is found, 
+            player will automatically get it from dresser. Dresser 
+            doesn't show up in room description.
+
+            Cooking Sheet - Located on counter in bakery in Whitfurrows.
+
+            Herbs needed are: Clove, Savory, Thyme, Mint, Chervil
+
+            For evil players
+            ----------------
+            When going through the inn, the player might notice 
+            a bitter dwarf. This dwarf holds a grudge against 
+            the mayor and doesn't look too upstanding. If the 
+            player asks him (or buy him a beer) the dwarf will 
+            explain about this.  
+            
+            Giving him the freshly cooked pie, he will poison 
+            it and give it back to the player. If the player 
+            then gives this pie to the mayor, the mayor will 
+            die within 15 seconds. If you follow the dwarf's 
+            instructions he will have asked for a roster of 
+            who is serving where in the Shire.  
+            
+            Once the mayor has rewarded the player and passed 
+            on, his desk may be searched.  The aware player 
+            will then discover a piece of paper. If he has good 
+            language he will be able to read it. Return the 
+            roster to the dark dwarf and the player will become 
+            a bit more evil.
+
+Skills:     Some language and awareness skills
+
+Risks:      Possible death when searching for the spoon. The spoon 
+            is hidden in an old abandoned and very dangerous hole.  
+            If one is too clumsy when searching there, they will 
+            cause the hole to collapse with a 75% likelihood.  The 
+            75% of falling is broken up like this:
+
+                25% instantaneous falling, 
+                25% 3 second delay, 
+                25% 10 second delay. 
+            
+            If the hole falls in on the searcher, the searcher 
+            dies. If the hole is fallen in, no one less than 
+            wizlevel may enter it. Those already in the hole risk 
+            a 50% chance of further collapse when trying to leave.  
+
+XP-Scale:   19,000
+
+Remarks:    There is a safeguard here--the pie doesn't have the 
+            poison itself.  The only place the poison is cloned 
+            is by the mayor when he gets the poisoned pie. This 
+            is to prevent mortals running around with insta-
+            death poison.
+
+Relevant
+Files:      Locations
+            ---------
+            Mayor's office - /d/Shire/michel/residence
+            Kitchen - /d/Shire/michel/kitchen
+            Honey room - /d/Shire/michel/burrow/2g
+            Mustard room - /d/Shire/michel/burrow/1d
+            Sausage room - /d/Shire/michel/guardr1
+            Abandoned hole - /d/Shire/michel/abandoned
+            Room w/ beam - /d/Shire/michel/barnyard
+            Bowl room - /d/Shire/eastroad/village/greenholm/5c
+            Whitfields bakery - /d/Shire/eastroad/village/whit/whitbaker
+            Hobbit room w/ cloth - /d/Shire/eastroad/western/villages/ut/1e
+            Michel Delving Inn - /d/Shire/michel/inn
+
+
+            Objects
+            -------
+            Pie plate - /d/Shire/michel/obj/pie_plate
+            Honey - /d/Shire/michel/obj/bottle
+            Mustard seeds - /d/Shire/michel/obj/mustard
+            Sausage - /d/Shire/michel/obj/sausage
+            Spoon - /d/Shire/michel/obj/spoon
+            Cloth - /d/Shire/michel/obj/cloth
+            Bowl - /d/Shire/michel/obj/mbowl
+            Baking sheet - /d/Shire/michel/obj/pan
+            Room beam - /d/Shire/michel/obj/beam
+
+
+            NPCs
+            -----
+            Mayor/Will - /d/Shire/michel/npc/mayor
+            Cook/Bedelia - /d/Shire/michel/npc/cook
+            bitter dwarf/Baruk - /d/Shire/michel/npc/dark_dwarf

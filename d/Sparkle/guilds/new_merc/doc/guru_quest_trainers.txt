@@ -1,0 +1,96 @@
+Esteemed Lieges,
+
+The Free Mercenary Guild is very soon to complete its beta test, and
+open for the full playerbase. I wanted to inform you that the guild has
+a guru quest which requires a Mercenary to seek out and train with
+npcs who are reknown for their mastery throughout the donut.
+
+The way I accomplished this was to develop scripts which are fed to
+the npcs using command(), allowing the npcs to interact with the
+Mercenaries without actually changing any code in the npcs themselves.
+The code is all housed centrally in the guild master object.
+
+To preserve the nature of the various npcs, I set up three archetypes
+for the scripts so that the alignment or personalities of the npcs 
+would accurately represent who they are. The archetypes are attitudes
+of "normal", "kind", and "cruel" personalities. In this way, we do not
+have a Morgul Mage npc who smiles and offers pleasantries when Mercs
+train with them, but instead insults and berates the Merc as befits
+a servant of Sauron. Likewise, we don't have someone who is kind and
+warmhearted acting aloof or stoic when training the Merc.
+
+Here follows a list by domain of the npcs who are designated as
+Master trainers, the skill they represent mastery in, and the
+attitude I designated for them.
+
+    AVENIR:
+        Cyrus (knife skill) - normal attitude
+        Erinys (conjuration spells skill) - normal attitude
+        Maiden (water spells skill) - normal attitude
+        Nemur (abjuration spells skill) - normal attitude
+        Ry'nal (illusion spells skill) - normal attitude
+    CALIA:
+        Atlas (polearm skill) - normal attitude
+        Azealia (location sense) - normal attitude
+        Gamalus (spellcract skill) - kind attitude
+        Hylar (divination spells skill) - normal attitude
+        Raspatoon (alchemy skill) - normal attitude
+       +Sehis (life spells) - kind attitude
+    CIRATH:
+        Brutus (axe skill) - normal attitude
+    EARTHSEA:
+        Ashel (acrobat skill) - kind attitude
+        Aunty (enchantment spells skill) - kind attitude
+        Johanna (herbalism skill) - kind attitude
+        Pelle (appraise object skill) - kind attitude
+    EMERALD:
+        Hendi (trading skill) - normal attitude
+    GONDOR:
+        Elfhelm (javelin skill) - normal attitude
+        Fredor (find and remove traps skill) - normal attitude
+        Athir (death spells skill) - cruel attitude
+    KALAD:
+        Brutakis (riding skill) - cruel attitude
+        Penance (backstab skill) - normal attitude
+    KHALAKHOR:
+        Drelkhorn (unarmed combat skill) - kind attitude
+        George (swim skill) - kind attitude
+        Noigo (tracking skill) - normal attitude
+    KRYNN:
+       *Darryn (block skill) - normal attitude
+        Deggart (language skill) - normal attitude
+        Dougan (club skill) - normal attitude
+        Gakhan (knife skill) - cruel attitude
+        Gunthar (mounted combat) - normal attitude
+        Jaine (defence skill) - normal attitude
+        Jasmine (open lock skill) - kind attitude
+        Laran (air spells skill) - kind attitude
+        Merldon (pick pocket) - kind attitude
+        Qualthas (missile skill) - normal attitude
+        Quillean (hide skill) - normal attitude
+        Tarshir (awareness) - normal attitude
+        Thima (earth spells) - kind attitude
+        Thorr-kan (fire spells skill) - cruel attitude
+        Verminaard (parry skill) - cruel attitude
+        Viridian (sword skill) - kind attitude
+    SHIRE:
+        Aradan (sneak skill) - normal attitude
+        Keleren (animal handling skill) - normal attitude
+        Mimo (climb skill) - kind attitude
+        Sharaburz (transmutation spells skill) - cruel attitude
+    SPARKLE:
+        Regliak (blindfighting skill) - normal attitude
+        Rommik (appraise value skill) - normal attitude
+    TEREL:
+        Arlenn (two-handed combat skill) - normal attitude
+        Mergula (appraise enemy skill) - attitude normal
+        Rommenus (hunting) - normal attitude
+
+  * Block is not currently available for training for Mercs.
+  + Sehis has unique scripts, since he has no tongue.
+
+If you have any questions or concerns about these npcs being used as
+part of the Mercenary Guru quest, please mail me.
+
+Thanks!
+G.

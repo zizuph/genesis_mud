@@ -1,0 +1,22 @@
+This guild offers a few spells.
+
+Summon messenger snake:
+
+Command: tsnake
+Mana   : 30
+Result : A messenger snake arrives. Works like the pigeons, but
+         can find players insside rooms too.
+File    : /d/Kalad/common/caravan/thanar/snake.c
+
+
+Summon apparition of thanar:
+
+Command : tsummon
+Mana    : 30
+Result  : An apparition of thanar (a dumb object with neat description)
+          arrives. This apparitions talking are controlled by the summoner
+          and can be controlled in this way even if the summoner is not in
+          the same room. The apparition can do _nothing_ else, either by
+          itself or through the control by the summoner. It will dissapear
+          after a short time. (alarm with delay of 60.0)
+File    : /d/Kalad/common/caravan/thanar/ap_thanar.c

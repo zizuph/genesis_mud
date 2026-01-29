@@ -1,0 +1,179 @@
+main
+::MAPDATA::
+pas1 16 2
+pas2 20 4
+pas3 16 6
+pas4 16 8
+pas5 20 10
+pas6 24 12
+pas7 20 14
+pas8 20 16
+pas9 20 18
+pas10 16 20
+pas11 16 22
+pas12 12 24
+pas13 12 26 
+secret 12 28
+::MAPDATA::
+
+                |
+                o
+                  \
+                    o
+                  /
+                o
+                |
+                o
+                  \
+                    o
+                      \ 
+                        o
+                      /
+                    o
+                    |
+                    o
+                    |
+                    o
+                  /
+                o
+                |
+                o
+              /
+            o
+            |
+            o
+            |
+          - o
+
+
+::NEWMAP::
+upper
+::MAPDATA::
+cav1 9 9
+cav2 13 7
+cav3 17 7
+cav4 17 9
+cav5 21 5
+cav6 17 3
+cav7 25 3
+cav8 25 5
+cav9 25 7
+cav10 21 7
+cav11 29 3
+cav12 33 5
+cav13 29 5
+cav14 33 7
+cav15 37 7
+cav16 37 3
+cav17 37 1
+cav18 41 3
+entrance 5 9
+::MAPDATA::
+                        
+                                     o
+                                     |
+                 o       o   o       o - o 
+                   \   / | /   \   /   /
+                     o - o   o - o
+                   / | \         | \
+             o - o   o   o       o   o
+           /   \ |
+    [ ]- o       o
+
+
+
+::NEWMAP::
+lower
+::MAPDATA::
+cav19 18 26
+cav20 18 24
+cav21 14 22
+cav22 14 24
+cav23 14 26
+cav24 10 26
+cav25 10 24
+cav26 6 22
+cav27 10 20
+cav28 14 20
+cav29 10 18
+cav30 10 16
+cav31 10 14
+cav32 6 14
+cav33 10 12
+cav34 14 14
+cav35 18 12
+cav36 14 12
+cav37 10 10
+rav1 10 8
+rav2 10 6
+rav3 14 6
+rav4 14 4
+rav5 18 4
+rav6 10 4
+rav7 14 2
+rav8 10 0
+rav9 6 2
+rav10 6 4
+rav11 2 4
+rav12 6 6
+rav13 10 2
+::MAPDATA::
+          o
+          |
+      o - o - o
+      | \ | / |
+  o - o - o - o - o
+      | / | \ |
+      o - o - o
+          |
+          o
+          |
+          o
+            \
+          o   o - o
+        /   \ | /
+      o - o   o
+          |
+          o
+          |
+          o
+          |
+          o - o
+        /
+      o       o
+        \   / | \
+          o   o   o
+          | / |   | /
+          o   o   o
+
+::NEWMAP::
+grotto
+::MAPDATA::
+bot_stairs 30 11
+e_bridge 6 8
+grotto 2 2
+ledge 10 8
+n_bridge 2 6
+pillar 2 8
+s_grotto 2 4
+tunnel_1 14 8
+tunnel_2 18 8
+tunnel_3 22 6
+tunnel_4 26 6
+tunnel_5 30 8
+tunnel_6 30 10
+::MAPDATA::
+
+
+  o
+  |
+  o
+  |
+  o                   o - o
+  |                 /       \
+  o - o - o - o - o           o
+                              |
+                             [ ]
+                             [ ]
+
+

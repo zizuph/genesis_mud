@@ -1,0 +1,29 @@
+
+  Should you bring me an enchanted object, and a sufficient number of
+  nullstones, I will <transmogrify> the object. The result will be
+  imbuement stones that you will be able to collect and use in your
+  crafting efforts.
+
+  Specific imbuements result in specific stone types. For example, an
+  object imbued with the power to create darkness, when transmogrified,
+  will produce a nightstone. Likewise, each specific power has a
+  corresponding stone type. It will be up to each individual student to
+  learn to recognize each type of stone for the specific powers of
+  imbuement it is known to possess.
+
+  Stones have five different qualities: cracked, blemished, ordinary,
+  unblemished, and glittering. These qualities indicate the potential of
+  the stone. Once you have three stones of a given quality of the same
+  type, you can <combine> those three stones to upgrade to a single stone
+  of the next highest quality. For example, three cracked nightstones
+  could be combined to form a single blemished nightstone.
+
+  The power of a given enchantment will determine the quality of the
+  stone that is produced during transmogrification. Most enchantments
+  produce cracked stones. However, it is possible to find enchanements
+  of greater power that will yield a blemished stone. Only the rarest
+  and most frighteningly powerful enchantments will yield a stone of
+  ordinary quality. Unblemished and glittering stones can only be
+  achieved by combining stones of lesser quality together, and will
+  never result from transmogrification.
+

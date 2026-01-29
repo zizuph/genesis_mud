@@ -1,0 +1,39 @@
+
+     Spell name: Teleport team
+                 svihossalur
+         Effect: A team teleport spell
+           Type: Instant
+        Targets: Caster's team
+        
+        Element: Air            / 50
+           Form: Conjuration    / 60
+    Spell power: Power 4 [Advanced spell]
+     Spell type: teleport spell
+     
+       Peaceful: Yes
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: black pearl (gem), breadroot (110cc)
+     
+   Casting time:  75s (2.5x standard)
+                   
+      Mana cost: standard 30 mana 
+     Difficulty: TASK_HARD
+     Combat Aid: 0%
+
+            Tax:   1.0
+                  x0.8   casting time < 1 minute
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.75  HARD difficulty
+                  x0.5   material component (cost >= 1 pp) 
+                  x2.0   Area of effect (casters group) 
+                 ------
+                  0.6%  total tax
+   ------------------------------------------------------------
+   Comments: A standard teleport spell, allowing the caster and
+    their team to teleport to a pre-determined (visited and 
+    marked) location.
+   ------------------------------------------------------------

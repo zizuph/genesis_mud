@@ -1,0 +1,273 @@
+﻿Holy Order of the Stars proposed taxation doc.
+
+BACKGROUND:
+===========
+The Holy Order of the Stars is a layman clerical guild reflecting the 
+traditional pen and paper/D&D cleric roles, with a focus on healing,
+buffs, and anti-undead abilities.
+
+Thematically, the Holy Order of the Stars is the fledgling order of
+disciples converted to the 'Old Gods' of Krynn who had been absent for
+almost 350 years following the Cataclysm, that brought an Age of 
+Darkness to the lands.
+
+With the discovery of the Disks of Mishakal and the conversion of the
+charismatic ex-slave of Pax Tharkas and Highseeker Elistan, the faith
+is in its early stages of rebirth... still translating the teachings
+of the Disks, with no established institution to support them.
+
+Because of this they are classed as layman only. And while the pantheon
+of the Gods of Light numbers 7, only three can be followed by players:
+
+Mishakal the Light Bringer - the first god to return to the realms.
+
+Kiri-Jolith - god of righteous war, patron of the knights of Solamnia
+and honourable minotaurs.
+
+Branchala - the Bard King, beloved of kender.
+
+The guild technically has no start room or guild hall, however can board
+for free at the Inn of the Last Home. 
+
+TOTAL TAX:
+==========
+Skills + spells + combat aid = 5.39% + 4.65% + 2.0%
+
+12.04% (rounded to 13%).
+
+SKILL TAX 
+=========    
+Layman:
+  The maximum amount of skills a layman guild can offer is limited to
+  350 taxable slots. 
+
+  The maximum teaching level for mudlib defined skills is 60 for those
+  skills cost multipliers are 1.0 or less.  Skills that have a
+  multiplier (such as SS_WEP_SWORD) over the 1.0 multiplier can not be
+  trained above the 50 level.
+
+Mudlib defined skills are generally taxed 1% tax for every 60 levels
+           
+ ------------------------------------------------------------ 
+| Skill                   |  Lvl |Taxable    |Tax Mod|  Tax  |
+|-------------------------|------|-----------|-------|-------|
+| spellcraft              |   60 |   40      |  1.00 |  0.67 |
+| abjuration              |   60 |   60      |  1.00 |  1.00 |
+| transmutation           |   60 |   60      |  1.00 |  1.00 |
+| life spells             |   60 |   40      |  1.00 |  0.67 |
+| herbalism               |   60 |   40      |  1.00 |  0.67 |
+| defence*                |   30 |   10 (20) |  1.50 |  0.25 |
+| parry*                  |   30 |   30 (60) |  1.50 |  0.75 |
+| club*                   |   45 |   15 (30) |  1.50 |  0.38 |
+|-------------------------|------|-----------|-------|-------|
+| Sum:                    |  410 |    350    |       |  5.39 |
+ ------------------------------------------------------------ 
+
+* foreign skill x2 penalty
+
+SPELLS TAX
+==========
+See breakdown of individual spells below.
+
+Full spell tax descriptions in ~guilds/OotS/doc/spell_doc.txt
+
+God specific spell - up to 0.375%
+Level spells - 4.275%
+Total = 4.65%
+
+COMBAT AID
+==========
+1% of tax will be charged for every 25% combat aid.
+
+Max combat aid at any one time for a layman caster is 50 Caid.
+
+Total max potential combat aid: 50
+Total max potential combat aid tax: 2.0% 
+
+Joining eligibility
+====================
+Alignment > 600.
+Expelled if alignment drops below 100.
+
+Required to have completed the Disks of Mishakal quest and the prisoners 
+of Pax Tharkas quest. This is a thematic requirement, as the Gods of Light 
+don't return in the Dragonlance narrative until after that point.
+
+Mishakal - human (non-knights), elves (and sub-elves), dwarves, gnomes, 
+           hobbits
+
+Kiri-Jolith - minotaurs, humans (knights of the sword and rose)
+
+Branchala - kender
+
+God specific spell
+==================
+Mishakal - omend (heal over time spell, regenerate)
+Kiri-Jolith - oheroism (strength/discipline, statboost) 
+Branchala - osong (song of freedom, featherweight)
+
+
+INDIVIDUAL SPELL TAX AND COMBAT AID
+============================================================================
+Name		Power		Type			C.Aid  Diff   Tax
+
+^omend *        Class 2         Defensive (regen)       15     R      0.375%
+^oheroism *     Class 2         Utility (statboost)     15     R      0.375%
+^osong          Class 2         Utility (featherweight) 5      R      0.375%
+
+------------- * oheal and osmite caid reduced by 25 when in effect ---------
+
+Level 1 (Believer):
+^osanctify      Class 0         Utility (cosmetic)      0      S      0%
+^oradiance      Class 1         Utility (light)         0      R      0.15%
+
+Level 2 (Convert)
+^oheal          Class 3         Defensive (heal)    -15 to 30# D      1.5%
+
+Level 3 (Faithful)
+^ocalm          Class 1         Utility (calm)          0      E      0.1875% 
+^odetect        Class 1         Utility (alignment)     0      R      0.375%
+
+Level 4 (Follower)
+^ocure          Class 2         Defensive (cleanse)     0      R      0.375%
+
+Level 5 (Fervent Follower)
+^oturn          Class 2         Offensive (blind)       0      R      0.375%
+
+Level 6 (Disciple)
+^obless         Class 2         Defensive (stoneskin)   30     R      0.375%
+
+Level 7 (Learned Disciple)
+^orefresh       Class 1         Utility (refresh)       0      E      0.1875% 
+
+
+Level 8 (Devout Disciple)
+^oprotect       Class 2         Defensive (resistance)  30     R      0.375%
+
+Level 9 (Cleric)
+^osmite         Class 3         Offensive (mass_harm) 5 to 50# H     0.75%
+
+# Harm/heals have the 100 white hit caid loss included in their caid formula,
+  so in practice have 100 plus the value listed in set_spell_combat_aid.
+  oheal and osmite are both dynamic, with their caid value scaling down
+  depending on what other prayers are active.
+
+       Knights and the Holy Order of the Stars
+==========================================================
+
+The Knights of Solamnia were founded on the 
+religious ideals of three gods of Good, Paladine 
+and two of his sons, Kiri-Jolith and Habbakuk. Each 
+god sponsored one of the Orders of the Knighthood 
+and chose to impart certain lessons to the Knights in 
+his Order. Habbakuk and Paladine chose to espouse 
+specific virtues and guide the Knights of their Orders 
+mainly through their words. Kiri-Jolith chose a more 
+direct approach, establishing within his Knights of the 
+Sword a sub-order of priest-knights called the Order 
+of Clerists.
+
+Knights of the Order of Clerists are not truly 
+priests and do not belong to the church of Kiri-
+Jolith. They are, however, the spiritual backbone of 
+the Order of the Sword, which is in turn the spiritual 
+backbone of the Knights of Solamnia. Clerists are 
+the embodiment of all that Kiri-Jolith stands for in a 
+righteous warrior, personifying the tenet of courage 
+melded with spirituality, which is the Measure of the 
+Sword. Clerists have such dedication to the Measure 
+of the Sword that Kiri-Jolith grants them the ability to 
+access his divine power.
+
+MEASURE OF THE SWORD
+The Measure maintains that the next components of 
+honor are Heroism, Courage, and Spirituality. This is 
+the Measure of the Sword.
+
+A strong spirit and faith in the patron deities of the 
+Knighthood form the spring from which courage and 
+heroism flow. Courage is the will to strike a blow for 
+the cause of Good, no matter what the personal cost. 
+Heroism is this same spirit of self-sacrifice, dedicated 
+to defending the world against the forces of Evil in 
+all of its forms. The heroic, courageous Knight is a 
+champion of the weak, defenseless, oppressed, poor, 
+enslaved, and falsely accused, and he always renders 
+aid to those in need.
+
+While no truly courageous and heroic Knight 
+would run from a battle or decline combat with an 
+Evil foe, the Measure does recognize that it is fruitless 
+to throw oneself away in a battle that cannot possibly 
+be won. The Measure teaches a Knight prudence in 
+choosing his battles and that it is better to live to fight 
+another day than to die in a battle that cannot be won.
+
+A Knight of the Sword must pay homage to Kiri-
+Jolith and the other gods of Good each day. A Clerist 
+must spend one day a week fasting with prayer to 
+Kiri-Jolith at sunrise, noon, and sunset. A Sword 
+Knight must eagerly engage evil opponents without 
+needlessly throwing his life away, protect the weak 
+and defenseless, and foreswear the use of his Knightly 
+powers for unrighteous reasons
+
+Minotaurs and the Holy Order of the Stars
+===============================================================
+
+Kiri-Jolith is the second most prominent deity of the 
+minotaurs, and the rival of Sargas.  He appears to the 
+minotaurs as a bison-headed minotaur with a great horned 
+axe.  
+
+Minotaur followers of the Great Bison tend to be the 
+most noble and honorable among their race, yet they can 
+be reviled and even persecuted for their beliefs among 
+their own people, even resulting in being cast out by their 
+families, and exiled from their homeland.  Kiri-Jolith is 
+often referred to as �Emperor� by his minotaur followers, 
+as they can openly swear an oath �by the Emperor�, which 
+other minotaurs mistake for meaning the emperor of the 
+minotaur empire.
+
+Minotaurs are an honour-bound race. They believe 
+strongly in preserving their honour and emerging 
+victorious in the struggle for dominance in Krynn. Their 
+brutish heads belie the keen minds within; many are 
+smarter than the average human. 
+
+Above all else, minotaurs value their honour. Without 
+honour, they have no life. They live by a rigid code of 
+honour, developed over the years in response to many 
+hardships. This code embodies the minotaur way of life. 
+
+Like all races, minotaurs recognize all of the gods, 
+however they rank Sargonnas as the highest among them 
+and Kiri-Jolith and their war patron. However since the 
+Ansalonian minotaurs are also a sea-faring race many of 
+them also worship Zeboim. They view the gods of good, 
+with the exception of Kiri-Jolith, as insufferably weak, like 
+their followers. 
+
+Kender and the Holy Order of the Stars
+===============================================================
+
+True kender revere all the gods, as well as a number of 
+nature spirits, eldritch beings, and potted plants, so as 
+to not hurt any deity's or spirit's feelings. True kender 
+experience spiritualism in the world around them, through 
+the songs of bards or the animals of the forest, for example. 
+The gifts of the gods are everywhere for all people to share. 
+Sometimes a traveler will drop a gift of the god, and so the 
+kender will keep hold of it for safekeeping.
+
+Branchala, above all other gods, represents the kender 
+spirit. A kender's heart beats in time with the Song of Life, 
+the music of Branchala the Songmaster. True kender love 
+music and song, and have a strong connection to nature. 
+
+Branchala is considered the highest god of the kender. His love 
+of music and enthusiasm for life is embraced by all kender. 
+
+Kender clerics of Branchala wear garishly-bright yellow shirts 
+with green leggings.

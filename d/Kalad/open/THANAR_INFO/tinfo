@@ -1,0 +1,44 @@
+      _________________________________________________________
+     / \                                                       \
+     \_/_______________________________________________________/
+     |                                                        |
+     |             Commands Available to Thanars              |
+     |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~              |
+     |                                                        |
+     |  tinfo		- print this help message             |
+     |  tranks		- print the Thanar hierarchy          |
+     |  anger <name>	- release the your soul's anger       |
+     |  cruelty <name>	- display your cruel nature           |
+     |  hatred		- express your feelings of hatred     |
+     |  pride		- display your pride in being human   |
+     |  tgreet <name>	- greet someone in the way of Thanar  |
+     |  tcurse <name>	- curse someone rather effectively    |
+     |  tlist		- a prayer revealing other members    |
+     |  joy		- express joy with your lot in life   |
+     |  horror		- display your horror at the world    |
+     |  tpreach	<name>	- preach the ways of Thanar           |
+     |  tlook <name>	- look at someone in that special way |
+     |  tswear <name>	- curse the day <name> was born       |
+     |  suspicion <name>- display your suspicious nature      |
+     |  tspeak		- speak in the tongue of Thanar       |
+     |  respect	<name>	- show someone your respect           |
+     |  ttorture <name>	- inflict pain on someone             |
+     |  tshout <name>	- scream in ecstacy at Thanar's glory |
+     |  disregard <name>- dismiss something/one as a threat   |
+     |  tsneer <name>   - sneer in derision and contempt      |
+     |  tjoke <name>    - tell a very crude joke              |
+     |  sacrifice <name>- look for a suitable sacrifice       |
+     |  amused <name>   - look around/at with an amusement    |
+     |  tstrangle <name>- strangle someone with your necklace |
+     |  tsummon thanar  - summon an apparition of Thanar      |
+     |  thsay           - make the apparition speak           |
+     |  tsnake          - summon a messanger snake            |
+     |                                                        |
+     |  The commands listed with a <name> beside them may or  |
+     |  may not be done individually (ie: without a name).    |
+     |  Try them out and see for yourself what does what.     |
+     |                                                        |
+     |________________________________________________________|
+     / \                                                       \
+     \_/_______________________________________________________/
+

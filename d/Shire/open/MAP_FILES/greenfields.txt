@@ -1,0 +1,113 @@
+main
+::MAPDATA::
+ev2 36 44
+ev3 38 42
+ev4 40 40
+girpath3 44 40
+isle1 48 40
+isle4 52 40
+isle3 52 38
+isle2 48 38
+girpath2 44 42
+girpath1 44 44
+underbridge 44 46
+wbrpath1 44 48
+wbrpath2 44 50
+ev5 38 38
+ev6 36 36
+ev7 34 34
+vill1 26 34
+vill2 26 32
+shop 31 32
+vill3 26 30
+2 31 30
+path1 24 36
+path2 22 34
+path3 20 32
+path4 20 30
+path5 16 30
+entrance 16 28
+camp01 5 19
+tent01 7 19
+camp03 2 15
+tent03 4 15
+camp04 8 15
+tent04 10 15
+camp08 3 10
+tent08 5 10
+camp09 10 10
+tent09 12 10
+camp12 6 5
+tent12 8 5
+camp05 14 15
+tent05 16 15
+camp13 14 5
+tent13 16 5
+camp15 13 2
+tent15 15 2
+camp14 22 5
+tent14 24 5
+camp10 18 10
+tent10 20 10
+camp11 25 10
+tent11 27 10
+camp06 20 15
+tent06 22 15
+camp07 26 15
+tent07 28 15
+camp02 23 19
+tent02 25 19
+::MAPDATA::
+
+             ___
+            /o\ \                                           
+              |                
+      ___     ___     ___
+     /o\ \ - /o\ \ - /o\ \
+      /\      /\      /\
+     /  \    /  \    /  \
+    /    \  /    \  /    \
+   ___    ___     ___    ___
+  /o\ \- /o\ \ - /o\ \ -/o\ \
+   |  \     \     /     /  |
+   |   \     \   /     /   |
+   |    \     \ /     /    |
+  ___   ___   ___   ___   ___
+ /o\ \-/o\ \ /o\ \ /o\ \-/o\ \
+    \   /            \    /
+     \ /              \  /
+     ___               ___
+    /o\ \             /o\ \
+        \               /   
+         \             /
+          \           /
+           \         /
+            \       /
+             \     /                               
+              \   /                ===========       
+               \ /                 Greenfields      
+                o                  ===========     
+                |              _        
+                o - o     o - /o\ Shirriffes          
+                    |     |    _              ^          ~~~~~~
+                    o     o - /o\ | Road to   |         ~~~~~
+                     \    |  Shop |  Annuminas          ~~~~~~
+                      o   o ----- o                   ~~~~~~~~
+                       \ /         \                ~~~~~~~~~~~
+                        o           o             ~~~~~~~~~~~~
+                                     \         ~~~~~~~~~~~~
+                                      o      ~~ o - o   _  ~~~~~
+                                       \   ~~~  |   |  {x} ~~~~
+                                        o - o - o - o   Y ~~~~
+                                       /    |    _    _  ~~~~
+                                      o     o   {x}  {x}~~~
+                                     /      |    Y    Y~~~~~
+                                    o       o ~~~~~~~~~~~~
+                                    |       |  ~~~~~~~~
+                                            o ~~~~~~~~~
+                                            |  ~~~~~~
+                                            o ~~~~~   
+                                            |  ~~~~~
+                                            o   ~~~~~~
+                                             Brandywine
+                                               River

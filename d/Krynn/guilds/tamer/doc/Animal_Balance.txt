@@ -1,0 +1,121 @@
+This is the document detailing the pets, tax modifier for skills
+can be found in: /d/Genesis/doc/rules/wizard/guilds/skills
+
+Animal Stats: The stats are based on the tamers average, scaling
+according to the following formula (maturity is capped at 8):
+    player_avg / (9 - maturity) * pet_race_mod / 100
+
+Tax should amount to roughly 0.41% in the following:
+
+(Formula: SkillLevel * Penalty * SkillMod / 60)
+(Always assume ranger penalty on non-general skills)
+
+~~ * ~~ * ~~ * ~~ * ~~ * Ursidae * ~~ * ~~ * ~~ * ~~ * ~~
+
+Current Race Names:
+   bear, panda, grizzly bear, polar bear
+
+-- Skills:
+   Herbalism       + 5 = (( 5 * 4 * 1.0) / 60) = 0.33
+   Swim            + 5 = (( 5 * 1 * 1.0) / 60) = 0.08
+
+   Tax: 0.41%
+
+-- Stats:
+   Strength:      150%
+   Dexterity:     100%
+   Constitution:  130%
+   Intelligence:   60%
+   Wisdom:         60%
+   Discipline:    100%
+
+-- Hitlocs       Armour Struck
+   head:          100%   20%
+   body:          100%   40%
+   right foreleg: 100%   10%
+   left foreleg:  100%   10%
+   right hindleg:  90%   10%
+   left hindleg:   90%   10%
+
+~~ * ~~ * ~~ * ~~ * ~~ * Canidae * ~~ * ~~ * ~~ * ~~ * ~~
+
+Possible Race Names:
+   wolf, direwolf, arctic wolf, arctic fox, coyote
+
+-- Skills:
+   Tracking        +15 = ((15 * 1 * 1.0) / 60) = 0.25
+   Hunting         +15 = ((15 * 1 * 0.5) / 60) = 0.12
+   Location Sense  + 5 = (( 5 * 1 * 0.5) / 60) = 0.04
+
+   Tax: 0.41%
+
+~~ * ~~ * ~~ * ~~ * ~~ * Felidae * ~~ * ~~ * ~~ * ~~ * ~~
+
+Possible Race Names:
+   snow leopard, bobcat, mountain lion
+
+-- Skills:
+   Sneak           + 5 = (( 5 * 4 * 1.0) / 60) = 0.33
+   Awareness       + 5 = (( 5 * 1 * 1.0) / 60) = 0.08
+
+   Tax: 0.41%
+
+~~ * ~~ * ~~ * ~~ * ~~ * Araneae * ~~ * ~~ * ~~ * ~~ * ~~
+
+Possible Race Names:
+   spider, scorpion
+
+-- Skills:
+   Climb           +15 = ((15 * 1 * 1.0) / 60) = 0.25
+   Hunting         +15 = ((15 * 1 * 0.5) / 60) = 0.12
+   Acrobat         + 5 = (( 5 * 1 * 0.5) / 60) = 0.04
+   
+   Tax: 0.41%
+
+~~ * ~~ * ~~ * ~~ * ~~ * Amphibia * ~~ * ~~ * ~~ * ~~ * ~~
+
+Possible Race Names:
+   toad, frog, salamander
+
+-- Skills:
+   Swim            +15 = ((15 * 1 * 1.0) / 60) = 0.25
+   Climb           +10 = ((10 * 1 * 1.0) / 60) = 0.16
+
+~~ * ~~ * ~~ * ~~ * ~~ * Cervidae * ~~ * ~~ * ~~ * ~~ * ~~
+
+Possible Race Names:
+   caribou, elk, moose, mule deer
+
+-- Skills:
+   Herbalism       + 5 = (( 5 * 4 * 1.0) / 60) = 0.33
+   Location Sense  +10 = ((10 * 1 * 0.5) / 60) = 0.08
+
+   Tax: 0.41%
+
+~~ * ~~ * ~~ * ~~ * ~~ * Mustelidae * ~~ * ~~ * ~~ * ~~ * ~~
+
+Possible Race Names:
+   wolverine, badger
+
+-- Skills:
+   Awareness       +15 = ((15 * 1 * 1.0) / 60) = 0.25
+   Tracking        +10 = ((10 * 1 * 1.0) / 60) = 0.16
+
+~~ * ~~ * ~~ * ~~ * ~~ * Reptilia * ~~ * ~~ * ~~ * ~~ * ~~
+
+Possible Race Names:
+   lizard, turtle
+
+-- Skills:
+   Block           +15 = (??)
+
+~~ * ~~ * ~~ * ~~ * ~~ * Suidae * ~~ * ~~ * ~~ * ~~ * ~~
+
+Possible Race Names:
+   boar, pig, swine
+
+-- Skills:
+   Riding          +15 = ((15 * 1 * 1.0) / 60) = 0.25
+   Appraise Enemy  +10 = ((10 * 1 * 1.0) / 60) = 0.16
+
+   Tax: 0.41%

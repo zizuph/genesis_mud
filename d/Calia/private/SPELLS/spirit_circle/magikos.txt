@@ -1,0 +1,5 @@
+Identify Magic -   This will give the caster information about the
+                   magical properties of an item that it is cast upon.
+                   It will not initiate combat. It cannot be cast in 
+                   combat. This will require a rib and thighbone. 15
+                   mana. This spell is available to all members.

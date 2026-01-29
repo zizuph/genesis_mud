@@ -1,0 +1,41 @@
+Quest Name:  Tjana Statue	
+     Group:  
+       Bit:  
+       Exp:  7000
+     Align:  0
+  Prestige:  0
+
+
+Tjana Statue:
+----------------
+
+Reading the book in the Bazaar library about Tjana will add a prop to the player
+that s/he is on working on the Quest.
+
+Some of the npcs will answer questions about Tjana, pointing to other npcs, 
+until the player reaches the traveling merchant on the holm, who will give 
+shard #6 to the player.
+
+One of the shards is always in the same place (the stump) and the other four
+pieces are scattered randomly in four different areas of the island.
+
+The pieces are heavy and the player can only carry them if 70% of his carrying
+capacity is available. 
+
+As more pieces are collected, the player feels them drawing closer together,
+until finally once all of the pieces are together, they magically reassemble
+into the Statue of Tjana. Player gets 7000 exp when this happens, and the 
+blessing of Azauph Maternal who was her parent (a whistle that calls orphan
+messengers?)
+
+The statue drops out of the player inventory and then becomes immovable. After
+an hour or two Nitikas appears in his humanoid form (a small and withered
+humanoid with very large teeth and ribs that protrude grotesquely from
+his body) to collect the statue (it is of surpassing beauty) and Azauph 
+appears in all her Maternal glory and seething rage, and screams that 
+Nitikas shall not have Tjana. As it ascends into the air, she casts 
+lightning that splits the statue asunder again, re-setting the quest.
+
+
+Related files:   /d/Avenir/common/holm/mon/merchant.c
+                 /d/Avenir/common/holm/obj/tshard1.c - tshard6.c

@@ -1,0 +1,18 @@
+         Summary of the Solamnian Knight Prestige File
+  (Note: Monster means it thinks, creature means it doesn't).
+
+      Type                Suggested Prestige
+  Evil Monsters   : (Average_stat*Average_stat)/10
+  Evil Creatures  : (Average_stat*Average_stat)/40
+  Animals(neutral): 0
+  Good Creatures  : -1
+  Good People     : -1 through -4
+  Holy People     : As low as -8
+  Quest related   : -1 or below (if you don't want knights to kill em).
+
+           You need this procedure in your NPCs (# = prestige):
+int query_knight_prestige() { return # }
+
+           You can also (for quests for instance) set it directly:
+if(player->query_guild_member("Solamnian Knights"))
+   player->change_prestige(#);

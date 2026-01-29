@@ -1,0 +1,7 @@
+#define STAND_DIR "/d/Calia/tmp/glykron/palace/"
+#define PALACE_DIR "/d/Calia/tmp/glykron/palace/"
+#define P2_DIR "/d/Calia/tmp/glykron/p2/"
+#define KROUG_DIR "/d/Calia/tmp/glykron/kroug/"
+#define ROAD_DIR "/d/Calia/overlord/road/rooms/"
+#define OBJ_S_ORIGIN_ALIGNMENT "_obj_s_origin_alignment"
+#include "/d/Calia/tmp/abbrev.h"

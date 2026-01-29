@@ -1,0 +1,22 @@
+F. Debugging:
+^^^^^^^^^^^^^
+1) If you are working in your own directory, typing 'errlog' will show you
+   the errors, by line, which have occured. Please note that error messages
+   can be misleading; if you are unable to find the 'bug' in the line
+   mentioned in the log, check the few lines preceeding it.
+      Typing 'errlog -r' will remove the file when it becomes too long.
+
+2) If you are working in ~Ansalon/*, typing 'errlog Ansalon' will show the
+   error messages occuring in the directory.
+      Typing 'errlog -r Ansalon' will remove the error file.
+
+3) If your attempt to load a file fails and do not get an error message; or
+   if you are mystified as to where the error in your file is, try typing
+   'tail /lplog'. This will show the errors that have occurred in the
+   entire MuD, so if you choose to use it, be quick. If others are load-
+   ing/debugging files at the same time as you are, the /lplog is likely
+   to scroll.
+
+4) If all else fails, try a wizard in your domain, your lord, the wizline,
+   or a friendly wizard. People are generally very helpful when not busy
+   coding themselves.

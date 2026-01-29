@@ -1,0 +1,705 @@
+> more new_wiz
+/* Based on Gondor's new_wiz document, originally written 
+ * by Olorin 20-Jan-1994, and updated from time to time by
+ * by various wizards.
+ *
+ * Updated by Finwe, 10/7/2000
+ */
+
+
+
+Table of Contents
+-----------------
+0.  Introduction
+    0.1 This File
+    0.2 Asking for Help
+    0.3 Rules
+    0.4 The Shire Domain
+    0.5 Introducing Yourself
+
+
+1.0 Rules
+    1.1 Where to Find Them 
+    1.2 Opening Code to Mortals
+    1.3 What You Should Keep in Mind
+    1.4 Junior Characters
+    1.5 Domain Specific Rules
+    1.6 Other Wizards
+    1.7 Network Security
+    1.8 Email
+
+2.0 Help Files
+    2.1 LPC
+
+3.0 Important Commands
+    3.1 allcmd
+    3.2 sman
+    3.3 man
+    3.4 tracer
+    3.5 ed
+    3.6 toolsoul and cmdsoul
+
+4.0 Boards
+
+5.0 Coding
+    5.1 Examples and How to Treat Them
+    5.2 'inherit'
+
+6.0 aft
+    6.1 How to Use It
+    6.2 Files to Subscribe To
+
+---------------------------------------------------------------- 
+0.      Introduction:
+ 
+This file is for wizards of the domain the Shire
+If you are new to the domain, reading this file should be one of the first
+things you do.
+ 
+ 
+0.1     This File:
+ 
+This file is rather long, and is full of rules, talk of demotion, and
+other unpleasant topics. Nevertheless, in spite of all this is not
+meant to intimidate you, but to help you find your way around in
+Genesis and the Shire. 
+ 
+It was put together drawing on the experience of helping other wizards
+into the domain Shire, with valuable contributions from these
+wizards. You, too, are invited to comment on this file, to assist us
+improving it. 
+ 
+Since the Shire works closely with Gondor, most of what is said here 
+applies to both domains.
+ 
+In the course of your coding, if you reach a point where you say to 
+yourself, 'This is stupid, they should have *told* me!', talk to either 
+the Liege or the Warden and suggest including a corresponding paragraph 
+into this file. (Perhaps you should check first if it is already 
+included, and if it is, you might prefer not to tell me that you did not 
+read this file properly. ;-)) 
+ 
+ 
+0.2     Asking for Help:
+ 
+Most wizards--and all wizards in the Shire--will help you if you have 
+questions or problems. It is preferable to first ask a Shire wizards, 
+then a Gondor wizard, then a wizard outside of the domain or an arch on 
+the wizline.
+ 
+ 
+0.3     Rules:
+ 
+The Shire domain abides by all rules in the mud, written or unwritten! 
+The fact that one or more other domains might or might not do the same 
+is irrelevant as far as your coding for the Shire is concerned. The 
+main aim of the domain is to produce interesting and balanced code. 
+ 
+There are many rules in Genesis, not all of the are written
+down. Therefore, if you have a fantastic novel idea, ask someone more
+experienced first. You might not be the first one to have that idea,
+and second, the idea may be illegal. 
+ 
+ 
+0.4     The Shire Domain:
+ 
+The Shire and is based on the books of JRR Tolkien. While this does not 
+mean that we have to follow Tolkien in each and every detail, or that 
+everything in domain has to be mentioned in the books, it does mean that 
+everything must fit into the framework defined by the books.
+ 
+ 
+0.5     Introducing Yourself:
+ 
+To make yourself known to the other members of the domain, please post
+an introductory note on the domain board. You should also post notes
+there whenever you finish part of your project, so others can have a
+look at your code, or when you start working on a new project.
+ 
+ 
+Add a file <Yourname>.prj to the directory /d/Shire/open/project/, 
+explaining the project you are or will be working on to mortals visiting 
+the Tower of the Domains in Sparkle. Please remember to update that file 
+from time to time.
+
+
+------------------------------------------------------------------------------
+ 
+ 
+ 
+1.      Rules:
+ 
+This is a summary of rules which you are required to follow. It is far
+from comprehensive, but it should contain the most important ones.
+ 
+ 
+1.1     Where to Find Them:
+ 
+- Read the wiz scroll. If you do not have the scroll for some reason,
+  type:
+    clone /d/Genesis/obj/init_scroll
+    read scroll
+ 
+- Read the introductory files for wizards. You will find them by typing:
+    man INTRO_RULES
+    man GENESIS
+ 
+- Read the rules for wizards in the directory
+    /d/Genesis/doc/rules/wizard, especially the file
+    wiz_vs_player_policy. 
+ 
+- Read the COPYRIGHT notice!
+    more /doc/COPYRIGHT
+ 
+- Re-read the rules file for mortals, read it from your now changed
+  perspective! 
+ 
+- Be familiar and understand the coding rules set up by Admin. They can 
+  be found when you 'sman code_standards'. These are the coding rules 
+  the Shire follows even if other domains don't.
+ 
+ 
+1.2     Opening Code to Mortals:
+ 
+The Liege is responsible for every object in the domain. Therefore, s/he 
+alone has the right to decide which new code is made available to the 
+mortals in the mud.
+ 
+This means especially that a quest or an area may only be opened by the 
+Liege of a domain, or by the Steward who may have explicit permission to do 
+so. 
+ 
+ 
+1.3     What You Should Always Keep in Mind:
+ 
+o  The game is over, you are a wizard!
+ 
+   Interaction between your wizard character and mortals should be
+   kept to a minimum.
+ 
+   The following actions are illegal and can be punished by demotion: 
+ 
+   - Helping mortals in combat or with quests.
+ 
+   - Giving hints to mortals, except general info about available
+     commands. This means, hints will in most cases be just: 
+     'read help topics'! 
+ 
+   - Restoring anything a mortal lost in a crash. That is for arches
+     and the helpers of the player arch to do.
+ 
+   - Helping a mortal in case of a bug, such as transferring the player
+     to another room, unless the mortal otherwise cannot continue to
+     play. If a room has no exits due to a bug, and you know that it
+     is not a trap, you may bring the mortal to a room nearby. 
+     Resetting a room so a mortal can finish a quest might be your
+     last command as a wizard. 
+ 
+   - Giving a mortal any information on his or her character is in
+     almost all cases illegal. This includes--but is not restricted to--
+     telling stat values, skill values, fatigue values, weapon and
+     armour classes and so on. It is not illegal to tell a mortal, 'If
+     you want to know if that morning star is a club, why don't you
+     appraise it?' 
+ 
+   - Giving a mortal information about implementation details is also
+     illegal. Do not explain to a mortal how critical hits work, do
+     not tell them which skills spells use, do not tell them what
+     skills are checked for a special attack. You may however point
+     out help files to them if such help files exist and can be read
+     by mortals.
+ 
+   - Your opinion on anything regarding the mud should not be
+     discussed with mortals. This includes--but is not limited to--your
+     opinion on the behaviour of mortals, on posts on boards that can
+     be read by mortals, on the balance or imbalance of guilds,
+     weapons, domains, and on the positive or negative sides of your
+     fellow wizards. You should, as a rule, not post on boards open to
+     mortals outside the domain Shire. You should post on the wizard
+     boards of other domains only if there is a valid reason to do
+     so. 
+ 
+ 
+o Seconds:
+ 
+   - If you have not finished your apprenticeship yet, as wizard of
+     Shire, you are not allowed to play with a second mortal
+     character. 
+ 
+   - If you have finished your apprenticeship project, you may ask 
+     for permission to play a mortal second character. As a rule the
+     Liege will not object if you have finished or made good progress
+     on your second project. 
+ 
+   - You have to register all your second characters using the 'second'
+     command. Failure to register your seconds may lead to the removal
+     of both your wizard and your mortal character(s).
+ 
+   - If you have any second characters, do not interact with them.
+     Your second character(s) should not even know the solutions to 
+     quests your solved with the character that became a wizard! ;-) 
+ 
+   - Giving cash to a npc with your wizard character, and retrieving
+     this later with your mortal character can lead to deletion of
+     both characters. Reading up quest solutions with your wizard
+     character so your mortal character can solve the quests, can lead
+     to demotion. 
+ 
+   - Don't try to outthink the Liege, Steward or admin in inventing ways 
+     how to help you second or other mortals with your wizard character. 
+     If it will be of any help at all to your mortal character, chances 
+     are (and experience tells us) that it will be noticed by someone.
+ 
+   - It is illegal to tell other mortals that your mortal character is
+     the second of a wizard. If the identity of your mortal character
+     as a wizard becomes known in anyway whatsoever, you may have to
+     discontinue your mortal character (ie, get it erased), even if
+     you are not responsible for the fact that its identity became
+     known.
+ 
+   - Your mortal second can NOT be a member of a guild council
+     anywhere in the mud. Your mortal second should seek to keep a low
+     profile, and if possible avoid direct conflicts with other
+     players. 
+ 
+   - If the identity of your second as the second of a wizard becomes
+     known to mortals by whatever means, your second character will be
+     erased. Since it is possible that the identity of your second
+     character is revealed by means beyond your control, any mortal
+     second of a wizard always lives under the threat of being
+     erased. From personal experience, let me warn you to pay
+     attention when you sign notes or letters. 
+ 
+ 
+1.4     Junior Characters:
+ 
+Junior characters are test characters you create to test code with a 
+mortal character. It is illegal to ask a mortal to test some code for 
+you! A mortal may come into contact with new areas only if the Liege 
+of the domain has opened that code for contact with mortals!
+ 
+If you have a Jr character, the same restrictions for interaction with
+mortals apply as for your wizard character. Moreover, it is illegal to 
+socialize with mortals using your Jr character, including introducing 
+your Jr character to other mortals. If you want to be polite, move your 
+Jr character to another room, and then explain the circumstances to the 
+mortals concerned using your wizard character. 
+ 
+More details on Jr characters can be found in 'man INTRO_RULES'.
+ 
+If you are unable to login with both your wizard character and your
+Jr, ask another wizard to clone the junior tool (/cmd/wiz/junior_tool)
+for your Junior.
+ 
+ 
+1.5     Domain Specific Rules:
+ 
+ 
+o  No toys!
+ 
+   Every object in the domain must conform to the rules, including
+   code not yet available to mortals. Weapons with WC 100 are illegal,
+   even if they were meant just for your personal amusement. Wizards
+   code, mortals play. No toys for wizards.
+ 
+o  Be careful in 'open' areas!
+ 
+   Do not 'update' an object (including rooms) in areas open to
+   mortals, unless you know exactly what will happen when you do this,
+   and that it will not interfere with any mortal.
+ 
+   This means, that you should never update a room outside the domain
+   of the Shire, including Gondor, and inside only if you have read and 
+   understood the code! 
+ 
+   Use 'Call' extremely cautiously in areas open to mortals.
+ 
+   Be certain that you know what you are doing, and that it will not
+   interfere with mortals.
+ 
+o  Follow the rules outlined by Admin in code_standards. 
+ 
+o  Use the 'done' and 'donelog' commands to keep the domain Lord and
+   your fellow domain wizards informed of your work and progress,
+   and it keeps you informed of their work.
+ 
+ 
+ 
+1.6     Other Wizards:
+ 
+Be polite. Specifically:
+ 
+o  It is considered to be polite to use the 'audience' command:
+
+   > audience <name>
+ 
+   to contact another wizard. Just transporting to the wizard with
+ 
+   > goto <name>
+ 
+   without asking if you are welcome is considered highly
+   impolite. The 'audience' command is the same as knocking on a door 
+   before entering. 
+ 
+o  Try to keep questions to as small a group of wizards as
+   appropriate. It makes little sense to bother a wizard of Krynn if
+   you cannot find a file in the Shire.
+ 
+   Use 'dtell' (or 'line Shire') before you use 'wiz' if there are
+   wizards of the Shire present. If not, speak with Gondor wizards next 
+   then. Use 'wiz' as a last resort.
+ 
+   If someone takes the time to help you, especially if it is a wizard
+   from Gondor or another domain, please show that you appreciate that 
+   help.
+ 
+o  Don't meddle in affairs that do not concern you.
+ 
+   If you do not like code of another domain, you may - politely! -
+   ask the responsible coder, Liege, or Steward, if they are willing to 
+   discuss it with you.
+ 
+   Do not complain on a boards about problems, especially if the board 
+   can be read by mortals. Talk to the Liege or the Steward about 
+   getting problems resolved.
+ 
+   If you discover a bug in another domain, make a bug report or mail
+   the responsible coder or Liege and Steward. Do the same if you think 
+   an item is in violation of the rules. There is no need to involve the 
+   arches if a simple bug report will notify your colleagues of an 
+   oversight. 
+ 
+   Respect other domains that may not wish you to visit their areas or part 
+   of their area, like guild rooms or if they choose not to reveal some 
+   information to you. If they do not wish you to know how some code works, 
+   then that is their privilege. If they are willing to share the code with 
+   you or to let you study it, then show that you appreciate the help.
+ 
+   In short, 'Don't do unto others what you do not want to be done
+   unto you!' 
+ 
+ 
+1.7     Network Security
+ 
+A wizard character on a LPmud is a kind of super user.
+ 
+You have been given this status because we trust you not to abuse this 
+status. This trust is personal; this means this trust has been extended 
+to you, not to anyone else. You are therefore expected to take all 
+reasonable precautions to prevent anyone else to abuse the status of 
+your wizard character. 
+ 
+One of these precautions consists of choosing a 'safe' password. If
+you do not know what a 'safe' password is, please ask! If in doubt,
+please ask! 
+ 
+If you password is cracked, and someone else uses your character, you 
+will be held responsible unless you can convince The Liege that you were 
+not negligent in choosing a password.
+ 
+Another of these precautions is that you keep your password secret and 
+known only to yourself. The Liege will consider wizard who gives their 
+passwords away to other persons, even to wizards of the Shire domain and 
+even to the Liege, as security risks to the domain and to Genesis.
+ 
+If you want to keep your status as a wizard, do not give your password 
+away to anyone!
+ 
+ 
+1.8     Email
+ 
+Keep the email entry in your finger info up to date!
+ 
+If you do not wish to reveal your email address to all wizards,
+instead of giving your email address in the finger info, refer to a
+file in your private/directory. Do so if there is anything important
+to mention about your email address, for example if you do not have
+your own email address and rely on a friend to forward mail to you
+sent to you care of his or her email address. 
+ 
+If the Liege or Steward cannot reach you by email, they may come to the 
+conclusion that you lost net access if you fail to connect to Genesis 
+for a few weeks and may expel you from the domain.
+
+If you plan on being gone for an extended period of time, such as 
+mandatory military service, email the Liege explaining the situation. In 
+most cases, the Liege will take steps to ensure you remain in the domain.
+ 
+ 
+-------------------------------------------------------------------------------
+ 
+ 
+2.      Help files:
+ 
+2.1     LPC:
+ 
+There are two manuals on LPC available, and Mrpr wrote a new and much 
+improved one. I suggest you start with reading this new manual. As it 
+is still a draft, you can find it in the directory ~mrpr/open/lpc/. 
+ 
+The other manuals are:
+/doc/man/general/INTRO
+/doc/man/general/LPC
+ 
+You can access these two files using the command 'man':
+    man INTRO
+    man LPC
+ 
+A more extensive documentation of 'value by function calls' can be
+found in: 
+/doc/man/general/VBFC_MANUAL.
+ 
+To read it, type: 
+    man VBFC_MANUAL
+ 
+You can get an overview of all manual chapters using
+    man -c 
+ 
+Important information can be found in the chapters "general" and
+"Genesis". List the contents of a manual chapter using:
+    man <chapter>
+ 
+ 
+-------------------------------------------------------------------------------
+ 
+3.      Important commands:
+ 
+ 
+3.1     allcmd:
+ 
+'allcmd' gives you a list of all commands available to you. It is a
+very good idea to spend a few hours to get familiar with your
+commands. 
+ 
+ 
+3.2     sman:
+ 
+'sman' is a very powerful tool for coders.
+ 
+It enables you to find the function name of almost every function in
+the mudlib. An experienced user can answer almost every question
+concerning the mudlib using 'sman'.
+ 
+Do not start coding before you have made yourself acquainted with this
+tool. The 'help sman' file is a must!
+ 
+If you have a problem finding the information you want using 'sman',
+ask someone more experienced, 'I tried to find <topic> using sman, but
+for some reason I didn't manage. Can you please tell me what I did
+wrong?' instead of asking on the wizline, 'What's <topic> and how does
+it work?' 
+ 
+Examples for the use of 'sman' at the end of this file.
+ 
+ 
+3.3     man:
+ 
+'man' is similar to 'sman', but gives info on efuns (external
+functions, ie gamedriver functions), rules, properties, and more. Try
+'man -c' to see the available chapters.
+ 
+You will notice that this command has been used a few times in preceding 
+paragraphs because it allows quick access to important reference files.
+ 
+The most important chapter is 'man general' (directory /doc/man/general/). 
+It contains files with rules on many different topics. You can 
+access these files using 'man <topic>'.
+ 
+You are expected to know everything in those files because the 
+information is relevant to your coding. To learn eg about weapons and 
+armours type: 
+    man weapon 
+    man armour 
+    man weapon_guide 
+    man armour_guide 
+ 
+Read these files before you start coding your first weapon and your 
+first armour!
+ 
+ 
+3.4     tracer:
+ 
+The tracer is another powerful tool. With it you can do get
+information about objects in the mud and call functions in the
+objects. 
+ 
+Reading 'help tracer', 'help Call', and 'help Dump' is absolutely
+required. If you have any problems or questions, ask a helpful wizard
+to explain it to you. 
+ 
+ 
+3.5     ed:
+ 
+The one and only editor in the mud.  For a tutorial, see 
+'more /d/Gondor/common/doc/editor_tutorial'.  For a manual see 
+'man general ed'.
+ 
+ 
+3.6     toolsoul and cmdsoul:
+ 
+Souls are used to define commands. You already know souls (or at least
+what can be done with them) from the souls defined by guilds. Your
+guild commands are defined in a soul.
+ 
+There are also souls for wizards to make coding and managing the game
+easier. Souls that only wizards may have are called tool souls, all
+others are called command souls.
+ 
+But a word of wisdom and warning:
+ 
+In the old days, almost all code for the exclusive use of wizards 
+(wizard tools) was considered unnecessary and thus illegal. We are here 
+to code for the mortals, not for ourselves! So think twice (and think 
+better) before you code another skill setter, wiz line, or whatever. 
+Mercade has made an enormous effort to integrate useful commands of 
+half a dozen of toolsouls into the mudlib wizard command souls. If 
+the Liege or Steward finds you re-coding a command that already exists 
+in the mudlib, they may get the impression that you are wasting your time.
+ 
+Once upon a time, wizard toolsouls were illegal unless declared legal
+by the by the admin. There has been some attempt to re-introduce this
+practise recently. Legal toolsouls are:
+ 
+- /cmd/std/tracer_tool.
+ 
+To load a new tool soul, eg the tracer, type:
+    toolsoul /cmd/std/tracer_tool
+    newhooks
+ 
+'newhooks' enables the command defined by the toolsoul.
+ 
+To list your toolsouls, just type
+    toolsoul
+ 
+ 
+------------------------------------------------------------------------------
+ 
+ 
+4.      Boards:
+ 
+To keep up to date on developments in the domain--and in the mud--there are
+several boards you should read.
+ 
+To read boards, use of the mbs wizard soul is recommended. For an introduction
+read 'mbh tutorial'.
+ 
+The boards that are considered obligatory reading for every member of the
+domain are (name, category, domain, as used by mbs):
+- Admin, Adm, Genesis
+- Info, Adm, Genesis
+- News, Adm, Genesis
+- Gd, Develop, Genesis
+- Lpc, Develop, Genesis
+- Mudlib, Develop, Genesis
+- Tool, Develop, Genesis
+- Shire, Domain, Shire
+Plus all domain related boards
+ 
+ 
+Recommended reading are:
+- Discuss, Adm, Genesis
+- Domain, Adm, Genesis
+- Guild, Adm, Genesis
+- Idea, Adm, Genesis
+- Magic, Develop, Genesis
+- Gondor, Domain, Gondor
+ 
+ 
+Before you ask questions, you might want to make sure that they are
+not answered on any of the boards mentioned above.
+ 
+To learn how to use 'mbs', use the help info on 'mbs' supplied via the
+command 
+    mbh tutorial
+    mbh mbs
+ 
+-------------------------------------------------------------------------------
+-
+ 
+ 
+5.      Coding:
+ 
+5.1     Examples and How to Treat Them:
+ 
+Most domains in Genesis have grown over several years. In this time
+old wizards left, new wizards joined, the mudlib and the gamedriver
+were modified. 
+ 
+Consequently, there is a lot of code out there that works, but is
+completely unfit to be used as examples if you want to write good
+code. Therefore, before you use any code as example, please ask
+someone knowledgeable if that code is fit to be used as example!
+ 
+ 
+5.2     'inherit':
+ 
+Proper use of 'inherit' saves CPU time, memory, and disk space.
+ 
+Before you start coding in the Shire, you will have to have at least a
+basic understanding of the concept of inheritance, and how it differs
+from the precompiler directive '#include' (and from - horribile dictu
+- paste and copy).
+ 
+Use 'include' only if it is impossible to use 'inherit'.
+ 
+Copy functions only if it is impossible to use 'include'.
+ 
+Never copy a file of 100 lines just to modify 3 or 4 of them!
+ 
+If you have files which differ only in a few lines (eg two
+neighbouring rooms, a large and a small orc, ... ) consider
+making one common file, and then configuring or inheriting this common
+file.  
+ 
+If you have more than 3 of those files, you should be prepared to
+produce an excellent reason to explain why you didn't create a common
+file. 
+ 
+'I didn't know how.' will not be an acceptable reason.
+ 
+-------------------------------------------------------------------------------
+ 
+6.0     aft
+ 
+aft is a tool designed to make it easier for wizards to keep track of 
+logs. It enables the wizard to read any log or file he or she subscribes 
+to easily.
+ 
+ 
+6.1     How to use
+ 
+aft is very easy to setup and use. Type 'help aft' for complete 
+instructions.
+ 
+To subscribe to a file, type:
+ 
+    aft s <path/file>
+ 
+To read a file type:
+ 
+    aft r
+ 
+You can unsubscribe by typing:
+ 
+    aft u <path/file>
+ 
+ 
+6.2     Files to subscribe to
+ 
+As a wizard of the Shire, you are expected to subscribe to the following 
+files so that you may keep track of what mortals are doing and what 
+needs to be fixed in the Shire:
+ 
+- /d/Shire/log/typos
+- /d/Shire/log/bugs
+- /d/Shire/log/ideas
+- /d/Shire/log/praise
+- /d/Shire/log/quest/QUEST_MASTER
+ 
+Other files you may choose to subscribe to are:
+ 
+- /d/Genesis/log/COMMUNE
+- /d/Genesis/log/KILLS
+- /d/Genesis/log/PKILLS
+- /d/Genesis/log/bugs
+- /d/Genesis/log/praise

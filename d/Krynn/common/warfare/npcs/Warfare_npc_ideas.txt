@@ -1,0 +1,238 @@
+Some ideas for the recoding of npcs for each army and warfare zone.
+- Arman, December 2017
+
+
+PRINCIPLES FOR WARFARE NPCS:
+10 warfare zones, split equally with a focus on ~hero mortal level
+and ~legend mortal level.
+
+The four main warfare occupational guilds (knights, RDA, BDA, Free people (Neidar)
+start a Krynn war with the occupation of one legendary zone each. The remaining
+legend zone starts with the White Dragonarmy.
+
+Of the five hero mortal level zones, four start in the control of the
+Free People, with the fifth (Throtyl) in the command of the Green Dragonarmy.
+
+Npcs don't wander or hunt!  
+
+Npcs spawn in reasonable numbers across the map.
+
+Hero warfare areas have a chance of spawning masterwork items.
+
+Legendary warfare areas have a chance of spawning magical items, plus
+npcs drop tokens that can be traded in to upgrade/purchase prestige items.
+
+Masterwork armours mitigate npc special attack damage with full set mitigating
+~75%?  Masterwork armours can be light [leathers] / medium [scale] / heavy [plate]
+and can be either gathered as drops from officer npcs or purchased from Palanthas,
+Sanction, or Kalaman using tokens/participation points and coin, or crafted.
+
+Masterwork weapons are equipment that can be 'leveled up' through participation,
+gathering of crafting resources, and trading warfare tokens to local warfare smiths 
+to upgrade.
+
+Unique draconian warfare npcs:
+
+For the warfare areas, we will recode the draconian base and modify
+their stats, descriptions, and specials to suit the warfare system.
+
+Hero level draconians would get the descriptions, regardless of draconian
+type, of:
+<scarred [rising hero] / experienced [hero] / veteran [titan] >
+
+Legend level draconians would get the descriptions of:
+< fearsome [champion] / deadly [legend] / elite [myth] > 
+
+
+                      ---<<@   DRAGONARMIES   @>>---
+The dragonarmies have very solid ranks of foot soldiers, supplemented by the dangerous
+draconians. However the primary strength of their armies is the support provided by
+their dragons.
+
+STANDARD DRAGONARMY SPAWNS - rising hero - titan level npcs, skill levels 60-80
+
+<scarred / experienced> dragonarmy scout [light armour melee]
+<scarred/experienced/veteran> dragonarmy mercenary [medium armour melee]
+<experienced/veteran> dragonarmy soldier [heavy armour melee]
+
+<scarred/experienced/veteran> baaz draconian [medium melee]
+<experienced/veteran> kapak draconian [heavy melee]
+<experienced/veteran> bozak draconian [offensive spellcasting]
+
+STANDARD DRAGONARMY SPAWNS - champion - myth level npcs, skill levels 80-100
+
+<fearsome / deadly / elite > dragonarmy soldier [heavy armour melee]
+<fearsome / deadly / elite > dragonarmy officer [masterwork armour melee w/dragon special]
+*officer spawns with 2+ other draconian/soldier mobs
+
+<fearsome / deadly / elite > sivak draconian [heavy armour melee]
+<fearsome / deadly / elite > aurak draconian [offensive spellcasting]
+
+<adult / old / ancient > <colour> dragon [special creature spawn]
+
+SPECIAL DRAGONARMY SPAWNS DEPENDENT ON DAILY TASKS AND GUILD PARTICIPATION?
+cleric / priest / highpriest of Takhisis [defensive / healing spellcasting]
+black-robed hooded human [WoHS offensive spellcasting]
+
+SPECIAL DRAGONARMY SPAWNS DEPENDING ON WARZONE AREA
+Special spawns can be in addition or replace standard spawns.
+
+[Nightlund - BDA] BDA get the benefit of Lord Soth's Reaper Army.
+<fearsome / deadly / elite > skeletal warrior [undead shock troop]
+<fearsome / deadly / elite > elven banshee [undead spellcaster]
+
+[Icewall]
+<fearsome / deadly / elite > <description 2> thanoi
+<fearsome / deadly / elite > <description 2> minotaur 
+<xxx / xxx / xxx > ice bear
+
+[Throtyl]
+<scarred / experienced> goblin archer [light armour ranged]
+<scarred/experienced/veteran> hobgoblin looter [medium armour melee]
+<experienced/veteran> <description 2> ogre [heavy armour melee]
+
+
+                      ---<<@   KNIGHTS   @>>---
+The knights have highly disciplined and trained warriors as the backbone of their
+forces, however their cavalry when fielded is unrivaled.
+
+STANDARD KNIGHT SPAWNS - rising hero - titan level npcs, skill levels 60-80
+
+<scarred/experienced> Solamnian scout [light armour melee]
+<scarred/experienced/veteran> Solamnian auxillary [medium armour melee]
+<scarred/experienced/veteran> Solamnian footman [heavy armour melee]
+
+<scarred/experienced/veteran> squire of Solamnia [medium armour melee]
+<experienced/veteran> knight of the Crown [heavy melee]
+<experienced/veteran> Solamnian crossbowman [offensive ranged]
+* As knights don't particularly like wizards, we'll substitute artillery for magic
+
+STANDARD KNIGHT SPAWNS - champion - myth level npcs, skill levels 80-100
+
+<heroic / deadly / elite > Solamnian pikeman [heavy armour melee]
+<heroic / deadly / elite > Solamnian noble [masterwork armour melee w/mounted]
+* noble spawns with 2+ other footmen/knight mobs
+
+Fearsome Knight of the Crown [heavy armour melee]
+Deadly Knight of the Sword [heavy armour melee]
+Elite Knight of the Rose [heavy armour melee]
+<heroic / deadly / elite > Solamnian longbowman [offensive ranged]
+
+Equivalent of dragons for the knights will be a mob of cavalry.
+Adult dragon would be 1-2 Mounted crown knights; Old dragon would be 1-2 mounted
+sword knights; while an ancient dragon would be 1-2 mounted rose knights.
+
+STANDARD SPECIAL KNIGHT SPAWNS DEPENDENT ON DAILY TASKS AND GUILD PARTICIPATION? 
+Clerists of the Sword [defensive / healing knight spellcasters]
+white-robed hooded human [WoHS offensive spellcasting]
+<adult / old / ancient > <brass/copper/silver> dragon [special creature spawn]
+
+SPECIAL KNIGHTS SPAWNS DEPENDING ON WARZONE AREA
+Knights don't have many unique spawns depending on warzone area, except for 
+hero zones in the Abanasinian plains and Newports/Qualinesti forest areas:
+
+<scarred/experienced> Solamnian forester [light armour melee]
+<experienced/veteran> Solamnian outrider [light armour mounted]
+
+
+                      ---<<@   THE FREE PEOPLE   @>>---
+The free people have a diversity of warriors and defenders across Krynn, depending
+on the warfare zone. They are all neutrally aligned, with no penalty for the knights
+or dragonarmies to dislodge them:
+
+GOODLUND / THROTYL: rising hero - titan level npcs, skill levels 60-80
+
+<scarred/experienced> peasant rebel [light armour melee]
+<scarred/experienced/veteran> peasant pikeman [medium armour melee]
+<scarred/experienced/veteran> peasant militiaman [heavy armour melee]
+
+<experienced/veteran> hedge wizard [offensive sohm spellcaster]
+<experienced/veteran> peasant longbowman [offensive ranged]
+
+NIGHTLUND / WESTERN SOLAMNIAN PLAINS: champion - myth level npcs, skill levels 80-100
+<heroic / deadly / legendary > peasant rebel [light armour melee]
+<heroic / deadly / legendary > peasant swordsman [medium armour melee]
+<heroic / deadly / legendary > disenfranchised noble [masterwork armour melee w/mounted]
+* noble spawns with 2+ other rebel mobs
+
+<heroic / deadly / legendary > arcane warden [offensive spellcaster]
+<heroic / deadly / legendary > peasant longbowman [offensive ranged]
+
+ESTWILDE: champion - myth level dwarven npcs, skill levels 80-100
+
+<grizzled / deadly / legendary > dwarven slayer [melee two-handed weapon]
+<grizzled / deadly / legendary > dwarven axeman [melee axe/shield]
+<grizzled / deadly / legendary > dwarven chieftain [masterwork armour melee w/warboar]
+* chieftain spawns with 2+ other dwarven mobs
+
+<heroic / deadly / legendary > arcane warden [offensive sohm spellcaster/gnome]
+<heroic / deadly / legendary > dwarven crossbowman [offensive ranged]
+
+<xxx / xxx / xxx > warboars
+
+The dwarven equivalent to dragons/cavalry is their dwarven battlewagon. Slow, but incredibly 
+hard to damage, with a nasty special when it gets a roll-on!
+
+ICEWALL: champion - myth level ice barbarian npcs, skill levels 80-100
+
+<hardy / deadly / legendary > ice barbarian [light armour melee]
+<hardy / deadly / legendary > ice reaver [medium armour melee + chance of frostreaver axe]
+<hardy / deadly / legendary > barbarian chieftain [medium masterwork armour w/frostreaver]
+* chieftain spawns with 2+ other barbarian mobs
+
+<hardy / deadly / legendary > winternorn [offensive cold sohm spellcaster]
+
+The ice barbarian equivalent to dragons/cavalry is the Icewall war mammoth. 
+
+SOLACE: rising hero - titan level npcs, skill levels 60-80
+
+<fervent/zealous> highseeker believer [light armour melee]
+<fervent/zealous/veteran> highseeker guard [medium armour melee]
+<fervent/zealous/veteran> highseeker enforcer [heavy armour melee]
+
+<zealous/veteran> highseeker templar [heavy armour melee]
+<zealous/veteran> highseeker charlatan [offensive illusion sohm spellcaster]
+<zealous/veteran> peasant longbowman [offensive ranged]
+
+CENTRAL ABANASINIA: rising hero - titan level npcs, skill levels 60-80
+The free people of Abanasinia consist of one of three tribes:
+Que-Teh [master hagglers, get along better with the "civilized people better] 
+Que-Kiri [a warrior tribe that values strength - based in northern Abanasinia]
+Que-Shu [a tribe of isolationists - based in central Abanasinia]
+
+<scarred/experienced> <Que-Shu> scout [light armour melee]
+<scarred/experienced/veteran> <Que-Shu> tribesman [medium armour melee]
+<scarred/experienced/veteran> <Que-Shu> barbarian [medium armour melee]
+
+<experienced/veteran> <Que-Shu> outrider [medium armour mounted melee]
+<experienced/veteran> <Que-Shu> horse archer [medium armour mounted range]
+
+NORTHERN ABANASINIA: champion - myth level plains barbarian npcs, skill levels 80-100
+
+<hardy / deadly / legendary > <Que-Kiri> warrior [light armour melee]
+<hardy / deadly / legendary > <Que-Kiri> beserker [medium armour melee + two-handed weapon]
+<hardy / deadly / legendary > <Que-Kiri> warlord [light/medium masterwork armour w/mounted]
+* warlord spawns with 2+ other barbarian mobs
+
+<hardy / deadly / legendary > <Que-Kiri> mounted marauder [medium armour mounted melee]
+<hardy / deadly / legendary > <Que-Kiri> heavy horse archer [medium armour mounted range]
+<hardy / deadly / legendary > <Que-Kiri> shaman [offensive earth sohm spellcaster]
+
+The dragon equivalent for the tribesman could be a pair of war chariots with multiple archers
+[mimicked through a speed increase?]
+
+NEWPORTS: rising hero - titan level npcs, skill levels 60-80
+
+Extend the Newports zone to include the eastern part of Qualinesti forest up to a few rooms
+before the camp.  For the Newports zone in the Abanasinian plains, the mobs would be
+the same as Central Abanasinia, however the tribe would be Que-Teh instead of Que-Shu.
+
+In the Elven woods, Qualinesti rangers and scouts.
+
+<skilful/experienced> elven scout [light armour melee]
+<skilful/experienced/veteran> elven ranger [medium armour melee/ranged]
+<skilful/experienced/veteran> elven skirmisher [medium armour melee]
+
+<experienced/veteran> elven archer [medium armour ranged]
+<experienced/veteran> elven magus [sohm air offensive spellcaster]
+

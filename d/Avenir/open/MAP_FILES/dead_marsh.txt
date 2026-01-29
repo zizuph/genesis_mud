@@ -1,0 +1,104 @@
+main
+::MAPDATA::
+falling 0 0
+marsh1 0 0
+marsh10 0 0
+marsh11 0 0
+marsh12 0 0
+marsh13 0 0
+marsh14 0 0
+marsh15 0 0
+marsh16 0 0
+marsh17 0 0
+marsh18 0 0
+marsh19 0 0
+marsh2 0 0
+marsh20 0 0
+marsh21 0 0
+marsh22 0 0
+marsh23 0 0
+marsh24 0 0
+marsh25 0 0
+marsh26 0 0
+marsh27 0 0
+marsh28 0 0
+marsh29 0 0
+marsh3 0 0
+marsh30 0 0
+marsh31 0 0
+marsh32 0 0
+marsh33 0 0
+marsh34 0 0
+marsh35 0 0
+marsh36 0 0
+marsh37 0 0
+marsh38 0 0
+marsh39 0 0
+marsh4 0 0
+marsh40 0 0
+marsh41 0 0
+marsh42 0 0
+marsh43 0 0
+marsh44 0 0
+marsh45 0 0
+marsh46 0 0
+marsh47 0 0
+marsh48 0 0
+marsh49 0 0
+marsh5 0 0
+marsh50 0 0
+marsh51 0 0
+marsh52 0 0
+marsh53 0 0
+marsh54 0 0
+marsh55 0 0
+marsh56 0 0
+marsh57 0 0
+marsh58 0 0
+marsh59 0 0
+marsh6 0 0
+marsh60 0 0
+marsh61 0 0
+marsh62 0 0
+marsh63 0 0
+marsh64 0 0
+marsh65 0 0
+marsh66 0 0
+marsh67 0 0
+marsh68 0 0
+marsh69 0 0
+marsh7 0 0
+marsh70 0 0
+marsh8 0 0
+marsh9 0 0
+marsh_hill 0 0
+::MAPDATA::      
+                o      
+                |      
+              o-o-o    
+              | |      
+            o-o-o-o    
+            | | |      
+          o-o-o-o-o     .-.
+            | | |      (@ @) 
+           -o-o-o-o    | 0 \
+            | | |       \   \      
+          o-o-o-o-o o    `~~~'
+            | | | | |  
+          o-o-o-o-o-o-o
+            | | | | |  
+            o-o-o-o-o-o
+              | | | |  
+            o-o-o-o-o  
+            | | | |    
+          o-o-o-o-o-o  
+            | | | | |  
+          o-o-o-o-o-o-o
+            | | | | |  
+          o-o-o-o-o-o-o
+            | | | | |  
+          o-o-o-o-o-o-o
+            | | | | |  
+            o-o-o o o  
+              | |      
+              o o      

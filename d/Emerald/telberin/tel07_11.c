@@ -1,0 +1,10 @@
+#include "defs.h";
+
+inherit TELBERIN_ROOM;
+
+void
+create_telberin_room()
+{
+    add_exit("tel07_10", "south");
+add_exit("tel08_12", "northeast");
+}

@@ -1,0 +1,12 @@
+Name: vicious midnight-black peacemaker
+File: /d/Earthsea/gont/gont_city/wep/edagger.c
+Hit/Pen: 36/38
+Special:
+    The weapon has an unusually high hit/pen for a knife.
+    Requires 60+random(7)+ SS_WEP_KNIFE, 80+ SS_DIS, and
+    80+ SS_DEX
+Props:
+    OBJ_I_IS_MAGIC_WEAPON, OBJ_S_WIZINFO, MAGIC_AM_ID_INFO, 
+    MAGIC_AM_MAGIC
+Obtainability: Obtained from the marshal of Gont, who's backhand is
+    well known to be quite nasty.

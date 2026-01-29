@@ -1,0 +1,57 @@
+******************************************************************************
+*                            EXPLANATION OF OBJECTS                          *
+******************************************************************************
+ 
+ZIMA/ARGOS/METRO/OBJECTS
+bachlava.c    - Just some free food. 6 pieces cloned at each reset (if gone)
+                ROOM: visitctr.c (6 max per reset)
+brass_lamp.c  - A torch which can be purchased in the brass shop. The lamp
+                needs oil to run. Oil is obtained by picking olives in
+                ~zima/argos/swterr/rooms/ogrove*.c, buying an empty vial
+                in rooms/glasswrk.c, and pressing the olives into vials
+                of oil.
+                The vial of oil may be poured into the lamp to fuel it.
+                ROOM: brasswrk.c (purchased here)
+doll.c        - A child's toy
+                NPC: child.c
+glass_bottle.c- An empty glass bottle. Needed when pressing grapes into
+                grape juice in rooms/press.c
+                ROOM: glasswrk.c (purchased here)
+glass_vial.c  - An empty glass vial.   Needed when pressing olives into
+                olive oil in rooms/press.c. Also needed to fuel the
+                brass lamp (when full).
+                ROOM: glasswrk.c (purchased here), press.c (filled here)
+grape_juice.c - A bottle of grape juice exchanged for an empty bottle
+                when a player presses grapes.
+                ROOM: press.c (obtained by pressing grapes & having bottle)
+ouzo.c        - Free Drink gotten in Visitor Center (max 4 per reset)
+                ROOM: visitctr.c
+press.c       - Non-movable furniture object
+                ROOM: press.c
+regquill.c    - Quill used in the Registry Tour. Obtained from Bursar in
+                bank, used to sign registry in VC.
+                ROOM: bank.c (via 'ask bursar for quill')
+                      must be on quest to get it
+sheep_shears.c- Used to shear sheep to get their wool.
+                When wielded, player can 'shear sheep with shears'.
+                If any object id("sheep") in room, player gets
+                a bale of wool (objects/wool_bale) and a property is
+                added to the "sheep" to indicate it has been sheared.
+                Can not shear same sheep twice. Wool obtained needed
+                to make yarn in wool works for Grandma Quest.
+                ROOM: brasswrk.c (bought here)
+toy*.c        - Random children's toys
+                NPC: child.c
+vcpedestal.c  - Non-movable furniture
+                ROOM: visitctr.c
+wool_bale.c   - A bale of wool obtained from the shears when shearing
+                a sheep.
+                OBJ: obtained by use of sheep_shears.c object
+yarn.c        - A spool of yarn spun by the seamstress in the woolworks
+                Needed for her to weave tunic/cloak for Grandma quest
+                ROOM: woolwrk.c (obtained via 'ask seamstress to spin...')
+ 
+ZIMA/ARGOS/PHARTEMP/OBJECTS
+new_wine.c    - obtained when Pharosian Priest blesses a bottle of grape
+                juice. Part of New Wine Quest
+                NPC: outpriest.c

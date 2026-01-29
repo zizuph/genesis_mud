@@ -1,0 +1,120 @@
+
+This file contains a list of all rooms in the domain Gondor in which
+you can spend or handle money.
+====================================================================
+
+Normal shops (some do not buy armours and weapons):
+Minas Tirith		- /d/Gondor/minas/rooms/mtshop.c
+Minas Morgul		- /d/Gondor/morgul/city/rooms/shop.c
+Edoras			- /d/Gondor/rohan/edoras/shop.c
+Rockfriends Guild	- /d/Gondor/common/dwarf_guild/shop.c
+Rangers of Gondor	- /d/Gondor/common/guild/gondor/shop.c
+Rangers of the North	- /d/Gondor/common/guild/north/shop.c
+Rangers of Ithilien	- /d/Gondor/common/guild/north/shop.c
+
+
+Armouries (buying only weapons and armours):
+Minas Tirith		- /d/Gondor/minas/rooms/mtarms.c
+Minas Morgul		- /d/Gondor/morgul/city/rooms/armoury.c
+Edoras			- /d/Gondor/rohan/edoras/armoury.c
+Pelargir		- /d/Gondor/pelargir/misc/pelarms.c
+Dunedain		- /d/Gondor/common/dunedain/rooms/dun_shop.c
+				sells also backpacks and horns.
+
+
+Pubs (drinks):
+Minas Tirith		- /d/Gondor/minas/rooms/wtpub.c
+Minas Morgul		- /d/Gondor/morgul/city/rooms/pub.c
+Edoras			- /d/Gondor/rohan/edoras/pspub.c
+Dwarven Race Guild	- /d/Gondor/common/dwarf_guild/pub.c
+
+
+Taverns (drinks and food):
+Minas Tirith		- /d/Gondor/minas/rooms/mttavern.c
+Pelargir		- /d/Gondor/pelargir/misc/sailor_pub.c
+Rangers	of Gondor	- /d/Gondor/common/guild/gondor/rangerinn.c
+Rangers of the North	- /d/Gondor/common/guild/north/inn.c
+Rangers of Ithilien	- /d/Gondor/common/guild/ithilien/foodchamber.c
+
+
+Inns (drinks, food, temporary starts):
+Minas Tirith		- /d/Gondor/minas/rooms/old_guesthouse.c
+			  and /d/Gondor/minas/rooms/innroom.c
+Minas Morgul		- /d/Gondor/morgul/city/rooms/inn.c
+			  and /d/Gondor/morgul/city/rooms/hotel.c
+Edoras			- /d/Gondor/rohan/edoras/stallion.c
+			  and /d/Gondor/rohan/edoras/hotelr.c
+
+
+Bakery (light food):
+Minas Tirith		- /d/Gondor/minas/rooms/mtbakery.c
+
+
+Banks (all with gnome deposits):
+
+For now, I think only the major cities should have access to the gem support.
+After all, those are the most frequented cities and only natural the gnomes 
+only put up safe guarding in such places.
+
+Minas Tirith        - /d/Gondor/minas/rooms/mtbank.c (no real bank, just an anteroom for mtbank2)
+                  and /d/Gondor/minas/rooms/mtbank2.c,    ID: #1803
+Minas Morgul        - /d/Gondor/morgul/city/rooms/bank.c, ID: #1801
+Pelargir            - /d/Gondor/pelargir/misc/pelbank.c,  ID: #1802
+Edoras              - /d/Gondor/rohan/edoras/edbank.c
+
+
+Armourers (sells and repairs armour):
+Minas Tirith		- /d/Gondor/minas/rooms/armoury.c
+
+
+Weapon Smiths:
+Minas Tirith		- /d/Gondor/minas/rooms/wsmithy.c
+			  sells weapons, sharpens and waxes weapons.
+Dwarven Race Guild	- /d/Gondor/common/dwarf_guild/smith.c
+			  sells axes, sharpens and waxes weapons.
+
+
+Herb shops:
+Minas Tirith		- /d/Gondor/minas/rooms/herb_shop.c
+Minas Morgul		- /d/Gondor/morgul/cellar/herb_shop.c
+Ranger guild		- /d/Gondor/common/guild/npc/herbalist.c
+
+
+Potion shops:
+Minas Tirith		- /d/Gondor/minas/rooms/potion_shop.c
+Minas Morgul		- /d/Gondor/morgul/cellar/potion_shop.c
+
+
+Jewel shops:
+Minas Tirith		- /d/Gondor/minas/rooms/jewel_shop.c
+
+
+Post offices (pigeons):
+Minas Tirith		- /d/Gondor/minas/rooms/mtpost.c
+Minas Morgul		- /d/Gondor/morgul/city/rooms/post.c
+Pelargir		- /d/Gondor/pelargir/misc/pelpost.c
+Edoras			- /d/Gondor/rohan/edoras/p_office.c
+Rockfriends Guild	- /d/Gondor/common/dwarf_guild/post.c
+Rangers	of Gondor	- /d/Gondor/common/guild/gondor/post.c
+Rangers of the North	- /d/Gondor/common/guild/north/post.c
+Rangers of Ithilien	- /d/Gondor/common/guild/ithilien/post.c
+Morgul Mages		- /d/Gondor/common/guild2/post.c
+Dunedain		- /d/Gondor/common/dunedain/post.c
+
+
+Transport:
+Minas Tirith		- /d/Gondor/minas/obj/mtwagon.c
+			  Sell tickets for a carriage trip to Edoras.
+Edoras			- /d/Gondor/rohan/edoras/obj/wagon.c
+			  Sell tickets for a carriage trip to Minas Tirith.
+
+
+Various:
+Minas Tirith		- /d/Gondor/minas/rooms/stonemason.c
+Pelargir		- /d/Gondor/pelargir/misc/pelstone.c
+			  Both sell statues.
+
+
+
+//Lord Elessar Telcontar of Gondor.
+Updated 14-Feb-1997 by Olorin.

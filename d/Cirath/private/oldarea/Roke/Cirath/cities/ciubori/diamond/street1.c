@@ -1,0 +1,30 @@
+inherit "/std/room";
+#include "/d/Roke/common/defs.h"
+#include <ss_types.h>
+#include <stdproperties.h>
+#include <language.h>
+#include "/d/Roke/Cirath/defs.h"
+#include <macros.h>
+
+void create_room()
+{
+  set_short("Diamond Street");
+  
+  set_long(break_string(
+           "You are standing on Diamond Street in the northwestern part of "+
+           "Ciubori. North lies one a house belonging to one of the "+
+           "citizens. South lies a large, fancy-looking building, but you "+
+           "can't enter it from here.\n"
+           ,60));  
+
+  add_item("ciubori","The second largest city in Cirath.\n");
+  add_item(({"house","houses","building","buildings"}),"The houses are neatly built "+
+    "and very well-kept. The city looks very wealthy.\n");
+  add_item("street","The street is made by bricked stones, neatly put together.\n");
+
+  OUTSIDE;
+
+  add_exit(CIUBORI+"diamond/street2","east");
+  add_exit(CIUBORI+"topaz/street1","west");
+  add_exit(CIUBORI+"homes/home1","north");
+}

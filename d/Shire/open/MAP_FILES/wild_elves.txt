@@ -1,0 +1,66 @@
+main
+::MAPDATA::
+board 21 26 elves
+garden 21 26 elves
+hall 21 26 elves
+join 21 26 elves
+start_rm 21 26 elves
+train 21 26 elves
+::MAPDATA::
+
+                  Green Oaks              To Central
+                 ============             Trade Road
+                                              /
+      To     O - O - O - O - O - O - O       O
+    Mountain |   |   |   |   |   |   |     /
+       Road  O - O - O - O - O - O - O   O
+          \  |   |   |   |   |   |     /
+             O - O - O - O - O - O   O
+             |   | / |   |   | \ | /        Legend
+             O - O   S   B   p   O          ------
+             |                 /            A = Academy
+         W   O - O - O - O - O - H          B = Bank
+         | / | \ | / |       |              F = Fountain
+         O   O - F - O   A   O              H = Herbalist
+         |   | / | \ |     \ | \            S = Shop
+         O   O - O - O   A - A   O          W = Winery
+         | /     |     \     |   |
+         O - S   Q   O - O   A   O
+           \       / |   |     /
+             O - O   U   O - O           
+           /   \   /   /                
+     O - O       O - O   
+                     |
+                     O
+                     |
+                 Wild Elves
+::NEWMAP::
+elves
+::MAPDATA::
+board 30 8
+garden 20 16
+hall 20 8
+join 20 5
+start_rm 10 13
+train 10 8
+::MAPDATA::
+
+                    |
+  .--.--.--.--.--.__|__.--.--.---.--.
+ | .-------------'``|``' ----------. |\
+  .|\============\| |   \==========|. \     
+ | |\               o              | |\
+  .|\               |              |. \       ====================
+ | |\   Training    |              | |\            Wild Elves
+  .|\     o - - - - o - - - - o    |. \           Guild Halls
+ | |\             .'|       Board  | |\       ====================
+  .|\           .'  |              |. \
+ | |\         .'    |   ___________| |\
+  .|\       .'   _  |  '--^--^--^---' \
+ | |\     o'   // \ |  \_\\_\\_\\_\_\\/
+  .|\   Rest  |. \/ |
+ | |\_________| |\  |     ^
+  `--^--^--^---' \  o    /|\
+    \\_\\_\\_\\_\/       /|\    ^
+                    Garden     /|\
+

@@ -1,0 +1,47 @@
+
+     Spell name: Shadow veil
+                 sjachbuala
+         Effect: skill boost (hide/sneak/backstab)
+           Type: Maintained
+        Targets: Caster
+        
+        Element: Air            / 40
+           Form: Illusion       / 40
+    Spell power: Power 3 [intermediate spell]
+     Spell type: shadow spell
+     
+       Peaceful: No
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: onyx shard and brown slime (76 cp) 
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana
+     Difficulty: TASK_DIFFICULT
+     Combat Aid: 25% 
+
+            Tax:  0.5
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.5   DIFFICULT difficulty
+                  x1.0  material component 
+                 ------
+                  0.25%  total tax
+   ------------------------------------------------------------
+   Comments: A spell that adds stealth skills to the caster 
+             SS_SNEAK, SS_HIDE, SS_BACKSTAB based on illusion
+             form skill.
+
+             WoHS skill bonus +20 to +60  
+             SoHM skill bonus +20 to +50, due to max skill of 75
+
+             skill_bonus = (max(20, min(60, 
+                  target->query_skill(SS_FORM_ILLUSION) - 25)))
+
+             Cannot be cast when any of the lesser resistance
+             protection spells are active.
+   ------------------------------------------------------------

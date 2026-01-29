@@ -1,0 +1,159 @@
+     ****WARNING****
+Before reading this guide, or making an npc, you should do the following::
+man weapon_guide   and   man armour_guide
+
+Now, continue reading this file--->
+ 
+So you want to code an npc? Well, let me help you with that important task.
+First, it might help to have an idea of what you want before you start.
+Things like where the npc will be, what kind of npc (animal, humanoid, etc)
+whether it will be a tough npc to beat in combat, whether it has magical
+abilities/spells, what, if any, its special abilities should be.
+Once you have an idea of what you want, then you can begin the easy part,
+coding it.
+For examples, you should look in /doc/examples  and in the Shire's npc
+directories.
+You may also wish to peruse the source code (/std/monster.c and /std/creature.c)
+There are also several entries in the 'man'(ual) that relate to npcs,
+you may wish to read them through also.
+
+Now, you've done all your reading, you have a great idea burning in your
+mind and want to make it live. But how to do it?
+The following sections apply to all, as they will provide, in some detail,
+a method of producing fairly balanced npcs.
+---->
+
+First off, we define the 'average' npc.
+This npc has a stat average of 80. Its combat skills should be in the 60-70
+range. General, non-combat skills are between 40 and 70. Any specialties
+(say the average npc is a spellcaster) should be at least 75, but no higher
+than 80.
+Next, (you must be familiar with the weapon_guide and armour_guide for
+this section), the equipment of the average npc should be designed.
+This equipment, for our npc, will be exactly at the level listed in the guides.
+Now, to allow for a very strong npc, or a very weak npc, we establish 
+some sort of modification factor.
+Let us say the goal is to create two npcs, one very strong, one very weak.
+
+First we do the strong one, who is to have a halberd and some platemail.
+Because we want him to be very good, we give him average stats of 130.
+This allows for 160 160 160 100 100 100 or even greater differences
+if you wish to have a complete idiot but great fighter, or visa versa.
+According to the guides, his halberd can only be 27/37, his platemail 40
+(torso armour only).
+But he is a much stronger npc, and we want him to have some better equipment.
+Also, his skills will be comparatively low if the average npc gets 60's and
+so does he. 
+
+Calculate the percentage of change between the two. Our strong npc is
+160 / 80 = 2 times as powerful as the average npc.
+But doubling his skills and equipment values is outrageous. So we use
+the rest of the formula. 
+160 / 80 * 100 / 6 = 33.3% 
+Now, instead of increasing the npc's equipment and skills (and any special
+abilities like damaging attacks?) by 200%, our formula gives us 33.3%, or
+a one-third increase.
+And so combat skills would be:
+60-70 * 1.33 = 80-93
+General skills would be:
+40-60 * 1.33 = 53-80
+Specialty skills would be:
+75-80 * 1.33 = 100-106.  We will then have to arbitrarily set 95-100.
+No npc should have a skill above 100 without a _very_ good reason, and
+it had better be cleared through our Liege and perhaps a reviewer or arch.
+I use 1.33 here because it is the same as using 33% and adding it to
+the original number (to get the 33% increase).
+
+Now you are probably saying to yourself, 'Hmm.. I get it, so now we
+increase his equipment by a third also.'
+Well, you would be right, but that would really be too much. If we did
+that, he would then have a halberd of 36/49 and platemail of 53.
+So for equipment modifiers, use the value you get through the formula,
+or 25%, whichever is less. If our modifier was 20, we would use the 20.
+By using 25% instead of 33%, our npc now has a halberd of 34/46 and 
+platemail of 50.
+_If_ your equipment is to be magical (and you _must_ take into account
+all the rules for magical equipment then), I would say use 25% or the
+modifier you get with the formula, whichever is greater (within reason and
+within the rules!).
+This represents all the flexability you get on the upper end, do _not_
+exceed the 25% increase on armours and weapons without the equipment
+being A. Magical and B. Approved by our Liege.
+
+Next is our weaker npc. We only want this one to have 50 for average stats.
+The formula this time, however, is much simpler.
+Take the new average stat, divide by the 'average' average stat, and
+convert it into a percent (multiply by 100). In this instance we would get:
+50 / 80 * 100 = 62.5%
+Our weak npc is 62.5% as strong as the average npc, or 37.5% weaker.
+Combat skills would then be:
+60-70 * 62.5% = 38-44
+General skills would be:
+40-60 * 62.5% = 25-38
+Speciality skills would be:
+70-800 * 62.5% = 44-50
+
+Accordingly, his equipment will be 62.5% as strong as the average npc's.
+This guy gets a scimitar and chainmail, so figuring his equipment, we
+end up with the following:
+scimitar: 17/20 * 62.5% = 11/13
+chainmail: 25(-2,+3,-1) * 62.5% = 16(-2,3,-1)
+
+No npc should ever have a weapon or armour (or misc magic item) that is
+outside their power range. This should be self-evident, but I will explain.
+Magic items, and powerful normal items, are special. They should be
+special because they are rare, not because everyone has at least one.
+Accordingly, the special metals of Middle Earth (galvorn, eog, mithril,
+etc) that are either magical themselves, or almost always found enchanted,
+should be very rare. If you aren't sure your item should be made of one
+these materials, it shouldn't be.
+If you have more mithril than steel or iron on your creatures, they
+had better be dwarves going to war, or quickly changed to have more
+common metals and less of the powerful, rare metals on them.
+
+If we keep great objects rare, while maximizing common items potential
+and value, we will gain popularity and respect.
+In addition, the mortals will have FUN when they come here, and will
+make good money, if we also provide them interesting, balanced, and
+well coded areas to adventure in.
+
+
+To sum up: Calculate the strength of your npc against an average stat of
+80. Adjust all skills and equipment accordingly, with a maximum
+upwards adjustment of 25%. 
+Preferably, you should never code a weapon or armour that is outside
+the guidelines in weapon_guide and armour_guide, but if you _must_
+follow the guide here.
+
+Alignment: No npc should ever have an alignment of 0. If you don't have a 
+very good reason for making your npc truly neutral, then you had better not.
+In addition, nothing should have greater (or lesser) than 500 (-500) in
+alignment without a VERY good reason. Things with less than -500 should
+be reserved for dragons, nazgul, and the like.
+
+One last point:
+If you wish to follow the guide for Middle Earth creatures, as Elessar
+has here, or some other people have other places, still use this guide,
+just adjust accordingly (still use 80 as the average, find the adjustment
+according to the race (if average stat is 40, percent modifier is 50%)
+
+In addition: The new rules state that all rule-abiding domains must buckle
+under and become far inferior to those domains that do not.
+Accordingly, all armours over ac 40, or weapons with one or both
+wc categories over 40 must have all magical properties set _and_ reasons.
+In addition, weapons over 30 should be two handed?!?!? 
+Ok, so you should catch the drift. Make sure all your equipment meets the rules
+_before_ opening it to mortals, having it reviewed, or even loading/cloning
+it the first time!!
+
+
+Ok, one last, final, point. I promise.
+It is no longer necessary to add the line 
+    set_hp(query_max_hp()); or refresh_mobile(); or anything like that.
+The create_living() / create_monster() / create_creature() function now
+handles setting health, mana, and fatigue to their best amounts.
+(so you get a fully healed, fully rested, and fully 'mana-ed' npc)    
+If you want your npc to be only half-healed or whatever, you'll have
+to set that with a set_alarm after the cloning.
+
+Mayhem -->  30 March 1994

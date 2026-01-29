@@ -1,0 +1,62 @@
+main
+::MAPDATA::
+harg_adv 69 12 village
+harg_inn 69 12 village
+hargnak2 69 12 village
+harg_shop 69 12 village
+harg_post 69 12 village
+::MAPDATA::
+
+  \               ~~~~           OOooOOoOooOooOooOo^^ooOooOoO^^^^OoOoOOoOOoo
+   \              ~~~~           OOoOoOOoOoOoOoOOo^^^^^^^^^^^^^^^^^oOOooOoOOo
+    \             ~~~~           OoOOoOOOOOOOOo^^^^^^^^^^^^^^^^^^^OOOOO.OoOOO
+ \                 ~~~~          OOoooOoOooOooOooOoOOoOoOo^^^^^^OooOoOOooOooO
+  \                ~~~~         oOOoOOoOoOoOoOoOOooOOooOOOoo^^oOoOOooOOoOoOOo
+ tains              ~~~~        OOoOOoOOOOOoOOoOOOOOOOOoOOOOOoOOoOOOOOoOOoOOO
+                    ~~~~        oOOooOooOoOOooOooOoOOooOooOoOOooOooOoOOooOooO
+                   ~~~~         oOOoOoOOooOOoOoOOooOOoOoOOooOOoOoOOooOOoOoOOoo
+ ------------+-----====-------------- The Old Forest Road ---------------------
+             |     ~~~~        OOoOOOoOOOOoOOOoOOOOoOOOoOOOOoOOOoOOOOoOOOoOOOO
+             |      ~~~~       OoOOoOOOoOoOOoOOOoOoOOoOOOoOoOOoOOOoOoOOOOOOoO
+             |   A N D U I N   OOOOoOOOOoOOOoOOOOoOOOoOOOOoOOOoOOOOoOOOOOoOOO
+             |      ~~~~~      OOOOOOoOOOOOOOOoOOOOOOOOoOOOOOOOOoOOOOOOOOoOOO
+ tains       |       ~~~~      OoOOoOOOoOoOOoOOOoOoOOoOOOoOoOOoOOOoOoOOOOOOoO
+             |       ~~~~      OOOOoOOOOoOOOoOOOOoOOOoOOOOoOOOoOOOOoOOOOOoOO
+             |      ~~~~       OOOOOOoOOOOOOOOoO+----------+OOOOoOOOOOOOOoOO
+             |      ~~~~       OoOOoOOOoOoOOoOOO| MIRKWOOD |OOoOOOoOoOOOOOOo
+             |      ~~~~       OOOOoOOOOoOOOoOOO+----------+OOoOOOOoOOOOOoOO
+ \           |      ~~~~       OOOOOOoOOOOOOOOoOOOoOoOOoOOOoOoOOoOOOOOOOOoOO
+             |      ~~~~       OoOOoOOOoOoOOOOoOOOOoOOOoOOOOoOOOOOoOoOOOOOOo
+             |       ~~~~      OOOOoOOOOoOOOOOOOoOOOOOOOOoOOOOoOOOOoOOOOOoOO
+
+::NEWMAP::
+village
+::MAPDATA::
+harg_adv 40 12
+harg_inn 48 12
+hargnak2 44 12
+harg_shop 44 14
+harg_post 44 10
+::MAPDATA::
+
+ OoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOO
+ O +--------------------+ OOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOO
+ O | Village of Hargnak | ooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooO
+ O +--------------------+ OOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOO
+ OoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOO
+ OoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOO  OOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOO
+ OOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOO \ OOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOO
+ OooOOOooOOOOOooOOOooOOOOOooOOOooOoo _ \ -------..._ OOooOOOOOooOOOooOOOOOooO
+ OOOOOOOoOOooOOOOOOOoOOooOOOOOOo ,,-'   \  Post     `-.. OOooOOOOOOOoOOooOOOO
+ OoOOOOOOOoOOOoOOOOOOOoOOOoOOo ,'        \  o           `. OOOoOOOOOOOoOOOoOO
+ OoOOOOoOOOOOOoOOOOoOOOOOOoO ,'           \ |             `. OoOOOOoOOOOOOoOO
+ OOOOOOOOOoOOOOOOOOOOOoOOOOO | Hall of  o - o - o Tavern   | OOOOOOOOOoOOOOOO
+ OooOOOooOOOOOooOOOooOOOOOoo | Warriors     |              | OooOOOooOOOOOooO
+ OOOOOOOoOOooOOOOOOOoOOooOOOO \             o             / oOOOOOOOoOOooOOOO
+ OoOOOOOOOoOOOoOOOOOOOoOOOoOOO `._         Shop        _,' OOOoOOOOOOOoOOOoOO
+ OoOOOOoOOOOOOoOOOOoOOOOOOoOOOOo  `-.__           __.-'  OOOOOoOOOOoOOOOOOoOO
+ OOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoO   `'-------''    OOOOoOOOOOOOOOOOoOOOOOO
+ OooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooO
+ OOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOO
+ OoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOO
+ OoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOO

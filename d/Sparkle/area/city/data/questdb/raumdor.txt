@@ -1,0 +1,6 @@
+domain,quest desc,group,bit,hint,validation,arguments
+Raumdor,Occultist's Dagger,3,0,occultist_dagger.txt,default
+Raumdor,Drakmere Holy Scriptures,3,1,scriptures.txt,default
+Raumdor,Khiraa Entrance,3,2,khiraa_entrance.txt,default
+Raumdor,Maze Quest,3,3,maze_quest.txt,default
+

@@ -1,0 +1,138 @@
+
+
+
+                           -- Magic Guilds --
+                              ============
+Magic within the worlds of Genesis is difficult to control.  Mastery over
+the forms and elements takes years of training and dedication, and is 
+rewarded only after complete devotion to the study.
+
+Magical guilds may be either occuational or layman guilds.  However, it
+is the occupational ones which can truly reap the rewards of a life spent
+in the pursuit of magic.  Layman guilds are by definition for those who
+only dabble in the arts, and therefore have no hope of reaching the power
+of those in the occupational guilds.  As such, the rules for occupational
+and layman guilds have some striking differences.
+
+There are two types of magic users within Genesis, although both use the 
+same spell system.  The two types are Mage and Cleric.  The differences
+between the two are purely thematic, although in Genesis theme is all.
+
+Distinctions of power
+=====================
+An important question is naturally how to order personal magic in
+"cost". Which magic should be available to whom and so on. A very
+natural rule-of-thumb is that players who are members in magic-related
+guilds have access to magic that others never will see. You must also
+distinguish carefully between which magic is available to which guild. 
+
+For obvious reasons a fighter guild should only have very minor access
+to healing magic. It's simply not their business to heal people, they
+use offensive magic, but again not very powerful magic. A fighter guild
+fights with weapons, not magic. A priest guild might have access to
+powerful healing spells, but not very powerful offensive spells. A
+wizard guild has offensive & defensive magic, but no healing magic and
+so on. Use common sense when setting up the spellists and you will
+have no trouble. Ignore common sense and rules, and you'll find
+yourself outside the game as soon as it is discovered.
+
+
+*** PRINCIPLE 4:  When developing a magic guild the distinction of class
+***               needs to be clear. In general, Mage classes are strong
+***               offensive with no healing abilities, while clerical
+***               classes have access to healing magicks
+
+Occupational Magic Guilds
+-------------------------
+The occupational magic guilds represent the "true" magic guilds.  They are
+those places of study or worship for people who have completely (or mostly)
+dedicated their life to magic.
+
+Occupational magic guilds have a major bonus - they are not limited to the
+same combat aid restrictions as every other guild.  It is understood that
+in a fantasy setting, magic users are expected to occasionally (and briefly)
+be much more powerful than a fighter type.
+
+This does not mean occupational magic guilds should be death machines.  It
+means that more freedom is given to them, in exchange for the drawbacks 
+that they must suffer.
+
+*** PRINCIPLE 1:  The additional combat aid benefit that magic guilds have
+***               over other guilds needs to be balanced with appropriate
+***               drawbacks.
+
+The drawbacks for occupational magic guilds are the requirements of mana
+usage, ingredients, and general vulnerability in melee combat.  Additional
+drawbacks are hopefully incorporated into the theme of every occupational
+magic guild, and would include things like slow advancement, enforced
+roleplay, regulated (such as by quests/time) spell aquiring, no layman
+guild options, etc.
+
+*** PRINCIPLE 2:  At a minimum, occupational magic guilds drawbacks need to
+***               take into consideration mana usage, component requirements
+***               for their spells, and melee combat vulnerability.
+
+It is not possible to list every benefit and drawback an occupational
+magic guild could/should include.  Instead, it is hoped that the designer
+of a magic guild will take the time to craft a fully fleshed-out guild
+that includes both great benefits and great drawbacks to justify the
+power of the guild.
+
+Along with this freedom comes greater scrutiny.  Any occupational magic
+guild should make every effort to explain the justification for each
+spell in documentation, and be prepared to make adjustments as 
+necessary for the benefit of the game.  Working closely with the office
+of the Arch of Balance will go a long way towards making this work!
+
+
+Layman Magic Guilds
+-------------------
+The layman magic guilds represent the dabblers of magic, or those who
+have learned a few tricks.  They are places where a beneficial spell or
+two may be taught to supplement the occupation of the members.
+
+Layman magic guilds do not receive the same freedom from combat aid
+restrictions that the occupational magic guilds receive.  They are still
+bound by the 50% max combat aid, along with every other layman guild.
+It is understood that combat aid cannot be exactly determined for every
+situation, but an effort must be made in the documentation for the
+guild.
+
+The reason for this is that powerful magic (especially combat) is reserved
+for those who have made sacrifices on an occupational level to achieve
+that power.  Layman guilds are only to provide support to an occupation,
+and therefore cannot give the training required to even come close to
+the magical power of an occupational guild.
+
+*** PRINCIPLE 3:   Powerful magic is reserved for occupational magic guilds.
+***                Layman guilds are dabbler classes, and are to provide 
+***                support to an occupation.
+
+
+Spell Class Tax
+---------------
+Each spell beging with a base tax, which may then be modified due to
+other factors.  The base taxes are:
+
+Guild      Magical                Non-magical
+           Layman   Occupational  Layman   Occupational
+Class 1      0.25%      0.1%        1%         0.5%
+Class 2      0.5%       0.25%       2%         1%
+Class 3      1%         0.5%        N/A        N/A
+Class 4      N/A        1%          N/A        N/A
+
+
+Magic OCC Guilds - Max consistent 60 combat aid
+Magic LAY Guilds - Max consistent 30 combat aid
+
+Magic guilds may burst (i.e. do damage greater than consistent combat aid).
+Burst combat aid MUST NOT be sustainable, otherwise it will effectively be
+consistent combat aid.
+
+    Combat aid maximums are set for each power level.
+    
+        Power 0: No actual effects
+        Power 1: up to 10% max.
+        Power 2: up to 20% max.
+        Power 3: up to 100% max.
+        Power 4: up to 250% max.

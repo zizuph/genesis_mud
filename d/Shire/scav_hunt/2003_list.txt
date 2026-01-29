@@ -1,0 +1,63 @@
+Below are the items in place for the Halloween scavenger hunt, 2003, for the Shire. Any questions, please let me know. Thanks
+
+-- Finwe
+
+  item short name
+  file name
+  location in game
+  special notes
+
+- bent horseshoe
+/d/Shire/scav_hunt/horseshoe.c
+/d/Shire/common/greenway/gw2.c
+must search puddle
+
+- dirty picture, _shire_picture_
+/d/Shire/scav_hunt/portrait.c
+/d/Shire/eastroad/western/er18n2.c
+
+- cast iron frying skillet, _shire_skillet_
+/d/Shire/scav_hunt/skillet.c
+/d/Shire/common/hollin/trolls_treasure.c
+
+- tall chipped ewar, _shire_ewar_
+/d/Shire/scav_hunt/ewar.c
+/d/Shire/annuminas/amc11.c
+
+- golden tarnished hair comb, _shire_comb_
+/d/Shire/scav_hunt/comb.c
+/d/Shire/common/hollin/f0202.c
+
+- dark brown cigar
+/d/Shire/scav_hunt/cigar.c
+/d/Shire/rivendell/room/river/shore01.c
+
+- ancient battered coronet, _shire_coronet_
+/d/Shire/scav_hunt/coronet.c
+/d/Shire/downs/valley/circle.c
+must search [tall] rock
+
+- dirty fish skeleton, _shire_fish_skeleton_
+/d/Shire/scav_hunt/fish_skeleton.c
+/d/Shire/misty/goblin_caves/gol.c
+
+- old birds nest, _shire_birds_nest_
+/d/Shire/scav_hunt/birds_nest.c
+/d/Shire/common/obj/club/tree.c
+
+- delicate silk spiderweb, _shire_spiderweb_
+/d/Shire/scav_hunt/spiderweb.c
+/d/Shire/common/trollsh/tunnel6.c
+
+- round wooden duck whistle, _shire_duckwhistle_
+/d/Shire/scav_hunt/whistle.c
+/d/Shire/anduin/west/wbs3.c
+
+- bad smelling black liquid
+/d/Shire/moria/obj/orcdrink.c
+Found in Moria and Evendim orc camps
+
+- golden leaf, _shire_leaf_
+/d/Shire/scav_hunt/leaf.c
+/d/Shire/cypress/thalandrone/rooms/glen/path13.c
+

@@ -1,0 +1,46 @@
+By Decius, June 2000
+
+SKILLS
+~~~~~~
+Mudlib Skills:          max   untaxed  taxed      with extra
+o axe                   100     30       70 (1.5)     105
+o defence                90     20       70 (1.5)     105
+o parry                  60      0       60 (1.5)      90
+o two hand comb          84      0       84 (2.0)     168
+o unarmed combat         30     30        0 (1.5)       0
+o appraise enemy         70     30       40 (1.0)      40
+
+Sum                     434             324           508
+
+Tax is 508/60 = 8.4667%
+
+BERSERK
+~~~~~~~
+Combat aid was calculated to be 11% (see gladiator.tax.berserk). 
+Tax is  11.0 / 6.0 = 1.8333%
+
+
+CHARGE
+~~~~~~
+Frequency:    .2778   [ 5/18, reset = 18 seconds ]
+Hit Rate : *  .4800   [ wchit = 50 ]
+Damage   : * 2.1143   [ (2*(280 + 16)) / 280 ]
+             ~~~~~~
+Total    :    .2819
+           /  .06
+		     ~~~~~~
+Tax is   :   4.6988%
+
+
+
+OVERALL
+~~~~~~~
+
+Skills :  8.4667		
+Berserk:  1.8333		
+Charge :  4.6988		
+          ~~~~~~		
+Total  : 14.9988		
+
+
+	The gladiator tax is 15%.

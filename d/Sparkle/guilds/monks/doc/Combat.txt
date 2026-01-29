@@ -1,0 +1,473 @@
+[Combat Support]------------------------------------------------------------
+
+06/09/12 Arandir        Final version of calculations approved by Cotillion
+06/09/07 Arandir        Added more results of unarmed combat simulation
+06/09/03 Arandir        Added results of unarmed combat simulation
+06/09/02 Arandir        Taxes for three different player sizes
+06/09/01 Arandir        First version with taxes
+
+
+Monks are a guild of unarmed combat specialists. The guild provides support
+for better unarmed combat, accompanied with a single defensive and a single
+offensive special.
+
+The combat support addresses the known drawbacks of unarmed combat, putting
+it on par with armed combat in terms of both costs and benefits awarded to
+the guild members.
+
+
+[Unarmed]........................................................
+
+The problem of unarmed combat is low hit and pen of attacks. This has
+traditionally been solved by implementing unarmed combat aids, however,
+these are really nothing more than another class of weapons, undesirable
+for what should be a guild of unarmed combat specialists.
+
+The adopted solution is giving monks the ability to acquire hit and pen
+of a weapon without wielding the weapon. On the roleplay side, this
+ability is presented as learning by defeating the adversary. On
+the implementation side, this ability is balanced to have
+the same costs and benefits as wielding the weapon.
+
+What follows is a detailed description of the solution together with
+an analysis of the advantages and disadvantages in comparison with
+armed combat:
+
+
+ - Getting Weapons
+
+   Monks acquire the hit and pen of a weapon after killing an opponent
+   that wields the weapon. The weapon is broken in the process to
+   prevent it from being used by somebody else afterwards.
+
+   Advantages    : None.
+
+   Disadvantages : Monks have to kill an opponent that wields the weapon.
+                   It is not possible to use weapons from somebody else.
+                   It is not possible to carry spare weapons.
+
+
+ - Carrying Weapons
+
+   Monks have the hit and pen of a weapon until it expires.
+
+   Advantages    : Monks are not encumbered by the weapon.
+
+   Disadvantages : None.
+
+
+ - Weapon Attacks
+
+   It is said that unarmed combat has twice the number of attacks of armed
+   combat. This probably stems from the fact that there are no weapons to
+   be wielded in legs, hence unarmed fighter has four attack slots while
+   armed fighter with unarmed combat off has two attack slots. However,
+   the chance to use the individual attack slots is recalculated to
+   maintain a constant sum of chances to use individual attacks,
+   hence the number of attack slots does not influence the
+   number of attacks used per round.
+
+   Advantages    : None.
+
+   Disadvantages : None.
+
+
+ - Weapon Skills
+
+   The acquired hit and pen is used with unarmed combat skill. Being able
+   to acquire hit and pen of any weapon would equal having skills for any
+   weapon, which is not good. Monks can therefore only acquire hit and pen
+   of two weapon classes. These are either axes and clubs, or swords and
+   knives, or polearms and javelins. The choice is determined from the
+   type and frequency of unarmed forms that the monk practices. This
+   prevents the monk from modifying the choice frequently at will.
+
+   Because of the ability to use the unarmed combat skill with two
+   weapon classes, the unarmed combat skill has to be counted as
+   two weapon skills when taxed.
+
+   Advantages    : None.
+
+   Disadvantages : None.
+
+
+ - Weapon Decay
+
+   On average. Based on F_WEAPON_CONDITION_DULL, a weapon dulls one step
+   for 450 hits. Based on F_WEAPON_BREAK, a weapon breaks after 10 dull
+   steps. Until breaking, the hit stays the same, the pen is lowered
+   by the number of dull steps for slashing, 2/3 of dull steps for
+   impaling, 1/3 of dull steps for bludgeoning.
+
+   It is not possible to easily introduce the same mechanism for
+   unarmed combat because there is no did_hit notification that
+   would allow counting hits. Rather than trying complicated
+   code that would shadow the combat object, gradual decay
+   based on int and wis of the monk is introduced.
+
+   See M_ACQUIRE_DECAY for exact formula.
+
+   Advantages    : Decay does not have sharp breaking point.
+
+   Disadvantages : Decay is faster than dulling and breaking of a weapon.
+                   Decay happens even when not fighting.
+                   Smith cannot be used to repair decay.
+
+
+[Plexus].........................................................
+
+Applies paralysis and combat speed reduction to the opponent. Paralysis
+means that the opponent is not able to do anything but move (which looks
+weird but is in response to the rule that no movement restricting ability
+exists in the game). Combat speed reduction means that the LIVE_I_QUICKNESS
+property is changed from minus 100 to 0 in steps that occur every second.
+
+The purpose of the combat speed reduction effect is to provide fairness
+when combining multiple stuns landing at the same opponent. For a single
+monk, the paralysis effect is always longer than the combat speed reduction
+effect. Therefore, only the paralysis effect is apparent and the combat speed
+reduction never manifests itself. When multiple monks stun, only the first
+stun will apply the paralysis effect, but all stuns will apply the combat
+speed reduction effect. Practically, this means that the stronger stun
+effect is replaced with the weaker speed reduction effect when
+multiple monks stun.
+
+Plexus also deals random damage to body armours as a tiny bonus that
+is only visible in long fights where the random damage accumulates.
+
+See M_PLEXUS_LAND_DELAY, M_PLEXUS_STUN_DELAY
+and M_PLEXUS_SLOW_DELAY for exact formulas.
+
+1. Plexus command is entered
+2. Wait for M_PLEXUS_LAND_DELAY seconds
+    - Based off plexus, DEX, WIS
+      (training of plexus, DEX to sneak in, WIS to know how)
+      delay = 3000 / (plexus + dex + wis)
+      adjust delay with randomness of up to 10%
+    - 50ish player: 20 seconds
+    - 100ish player: 10 seconds
+    - 150ish player: 7.5 seconds
+    - 200ish monster: 6 seconds
+3. Calculate whether we hit using cb_tohit
+    - cb_tohit (w_anyh, 110, enemy)
+4. Stun for M_PLEXUS_STUN_DELAY seconds
+    - Based off plexus, STR, DEX
+      (training of plexus, STR to hit hard, DEX to hit precisely)
+      delay = sqrt (plexus + str + dex) / 2
+      adjust delay with randomness of up to 10%
+      reduce proportionally to plexus resist property
+    - 50ish player: 6.1 seconds
+    - 100ish player: 8.7 seconds
+    - 150ish player: 10
+    - 200ish monster: 11,2
+5. Slow for M_PLEXUS_SLOW_DELAY seconds
+    - Based off plexus, DEX, WIS
+      (training of plexus, DEX to hit precisely, WIS to know how)
+      (designed to be slightly shorter than stun phase length)
+      delay = sqrt (plexus + dex + wis) / 3
+      adjust delay with randomness of up to 10%
+      reduce proportionally to plexus resist property
+    - 50ish player: 4.1 seconds
+    - 100ish player: 5.8 seconds
+    - 150ish player: 6.7 seconds
+    - 200ish monster: 7.5 seconds
+6. Do random armour damage
+    - Simply worsen condition on random one third of hits
+
+For comparison, here are the calculations used before 06/09/01:
+
+1. Plexus command is entered M_PLEXUS_HALF_DELAY since last plexus
+    - ((6000 / ((plexus) + (con) + (wis))) + random (10) - random (10))
+    - 50ish player: 6000/(50+50+50)/2 = 20 seconds
+    - 100ish player: 6000/(100+100+100)/2 = 10 seconds
+    - 150ish player: 6000/(100+150+150)/2 = 7.5 seconds
+    - 200ish monster: 6000/(100+200+200)/2 = 6 seconds
+2. Wait for M_PLEXUS_HALF_DELAY seconds
+3. Calculate whether we hit using cb_tohit
+    - cb_tohit (w_anyh, mod*85/100, enemy)
+      max mod is 193, 60 from karma, 33 from focus
+4. Stun for M_PLEXUS_STUN seconds
+    - (((plexus) + (str) - random(20) + random(20)) / 20) * mod / 100
+      reduce proportionally to plexus resist property
+      cap to 10 seconds
+    - 50ish player: 5 seconds
+    - 100ish player: 10 seconds
+    - 150ish player: 10 seconds
+    - 200ish monster: 10 seconds
+5. Do random armour damage
+    - random upto 1/10th of armour query_likely_cond for normal
+    - random upto 1/30th of armour query_likely_cond for magical
+
+
+[Strike].........................................................
+
+Strikes the opponent into an identified location.
+
+See M_STRIKE_DELAY, M_STRIKE_HIT and M_STRIKE_PEN for exact formulas.
+
+1. Strike command is entered
+2. Wait for M_STRIKE_DELAY seconds
+    - Based off strike, CON
+      (training of strike, CON to step into attacks)
+      delay = 100 / sqrt (strike + con)
+      adjust delay with randomness of up to 10%
+    - 50ish player: 10 seconds
+    - 100ish player: 7.1 seconds
+    - 150ish player: 6.3 seconds
+    - 200ish monster: 5.8 seconds
+3. Calculate whether we hit using cb_tohit
+    - cb_tohit (special, hit + f_unarmed_hit (strike, dex), enemy)
+4. Calculate how much we hit
+    - f_penmod (pen + f_unarmed_pen (strike, str), strike)
+      reduce proportionally to strike resist property
+    - hit type is bludgeon
+
+For comparison, here are the calculations used before 06/09/01:
+
+1. Strike command is entered
+2. Wait for 8 seconds
+3. Calculate whether we hit using cb_tohit
+    - cb_tohit (special, mod*90/100, enemy)
+      max mod is 193, 60 from karma, 33 from focus
+4. Calculate how much we hit
+    - f_penmod (w_hand_pen + f_unarmed_pen (strike, str), strike)
+      scale with mod
+      max mod is 193, 60 from karma, 33 from focus
+      reduce proportionally to strike resist property
+    - hit type is bludgeon
+
+
+[Taxes]..........................................................
+
+Unarmed Combat
+ - SS_UNARM_COMBAT
+    - OCC trained to 100 with public maximum of 30
+    - LAY trained to 50 with public maximum of 30
+    - can be used with two weapon classes
+    - tax modifier 1.5
+    => OCC 70/60 * 2 * 1.5 = 3.5%
+    => LAY 50/60 * 2 * 1.5 = 2.5%
+
+Plexus (100ish player OCC)
+ - Stun takes 10 seconds to land
+ - Likeliness of hit is 90%
+ - Stun lasts 8.7 seconds
+ => See simulation results for combat aid
+ => OCC 54/6 = 9%
+
+Strike
+ - Calculate how long strike takes to land from M_STRIKE_DELAY
+ - Calculate likeliness of hit from cb_tohit (hit + f_unarmed_hit)
+ - Calculate combat aid as the number of hits per single combat round
+
+   SKILLS    STATS    HIT    M_STRIKE_DELAY   CB_TOHIT    AID    TAX
+   ------------------------------------------------------------------
+   LAY       100      40     7.9              52%        32.9%  5.49%
+   OCC       100      40     7.1              57%        40.1%  6.69%
+   OCC       150      40     6.3              62%        49.2%  8.20%
+   OCC       200      40     5.8              62%        53.4%  8.91%
+   ------------------------------------------------------------------
+
+
+[Simulation].....................................................
+
+This pits two opponents against each other and measures damage received
+until death, time until death, and count of deaths. Multiple lines with
+the same skills, stats, armours, weapons, attacks mean multiple
+experiments with the same settings to get a better idea of
+how stable are the results.
+
+
+[1] How does plexus help in terms of less need for healing ?
+
+   SKILL    STAT    ARMR    WEPN    ATTAK    DAMAGE    LIFE    DEATH
+  --------------------------------------------------------------------
+  100/100  100/100  NO/NO   40/NO   NO/NO  2281/2285  225/224  186/186
+                                           2272/2285  222/226  188/186
+                                    ST/NO  2280/2123  221/107  187/388
+                                           2282/2128  222/106  187/390
+                                    PX/NO  2674/2253  557/210   75/198
+                                           2659/2270  541/220   77/190
+  --------------------------------------------------------------------
+  100/100  100/100  40/40   NO/NO   NO/NO  3130/3166  924/966   89/85
+                                           3204/3152  992/946   82/86
+                                    ST/NO  3061/2426  955/334   86/246
+                                           3023/2428  912/339   90/243
+                                    PX/NO  8270/3421 5854/1022  13/79
+                                           8431/3568 6003/1115  13/72
+  --------------------------------------------------------------------
+  100/100  100/100  40/40   NO/40   NO/NO  2503/2532  385/415  212/197
+                                           2487/2544  369/417  222/196
+                                    ST/NO  2469/2207  373/172  220/477
+                                           2460/2202  370/172  222/477
+                                    PX/NO  3200/2524 1060/397   76/204
+                                           3190/2532 1049/406   77.199
+  --------------------------------------------------------------------
+
+The effect of healing in combat is visible. The combatants have 1900 hp in
+total, anything above 1900 in the damage column is healed during combat.
+Note that this speed is different for interactive players that booze.
+
+Unarmed combat with acquired hit and pen of a weapon and no specials is a
+perfect equivalent of an armed combat with the same weapon and no specials.
+
+Striking with weapons without armours makes a kill 52% faster.
+Striking with unarmed with armours makes a kill 65% faster.
+Striking with weapons with armours makes a kill 56% faster.
+
+Plexing with weapons without armours makes us last 240% of normal.
+Plexing with unarmed with armours makes us last 620% of normal.
+Plexing with weapons with armours makes us last 270% of normal.
+
+Strange thing is that striking appears to make us a bit more vulerable.
+
+Standard healing of fully boozed player is (con*9+100)/20 hp per 20 second
+round, max hp is (con*20)-100, meaning 100ish player will heal 1900 hp in
+38*20 seconds. Let us consider combat of two players of equal size. Real
+combat would require full healing each time simulated combat reached
+death, that is each ~390 seconds without plexus and each ~1050
+seconds with plexus. This sets the experience gathering
+speedup of plexus at 71%.
+
+
+[2] How does plexus help in terms of killing larger opponents ?
+
+   SKILL    STAT    ARMR    WEPN    ATTAK    DAMAGE    LIFE    DEATH
+  --------------------------------------------------------------------
+  100/100  110/100  40/40   40/NO   NO/PX  2904/3070  490/946   86/45
+                                           2872/3031  475/904   89/57
+                                           2885/3051  480/932  156/81
+  100/100  120/100  40/40   40/NO   NO/PX  3387/3015  612/873   72/50
+                                           3316/3054  571/920  133/83
+                                           3385/3022  615/879  124/86
+  100/100  130/100  40/40   40/NO   NO/PX  3793/2942  704/809   62/54
+                                           3813/2942  704/804  107/94
+                                           3743/2969  669/835  114/90
+  100/100  135/100  40/40   40/NO   NO/PX  4041/2906  761/776   58/57
+                                           4018/2855  750/733   59/60
+                                           4193/2883  842/762   52/58
+  100/100  140/100  40/40   40/NO   NO/PX  4386/2846  841/733   52/60
+                                           4306/2843  809/720   55/62
+                                           4364/2875  841/752   53/59
+  --------------------------------------------------------------------
+
+This table looks at how plexus helps fight bigger players. The table shows
+100ish player that uses plexus will just about kill 135ish player that uses
+sword. This kill gives 51689 exp while killing 100ish player gives 26666 exp,
+and takes ~760 seconds while killing 100ish player takes ~390 seconds. Add
+full healing of 38*20 seconds after each kill and this sets the experience
+gathering speedup at 47%.
+
+
+[3] What is the optimum size of opponents in general ?
+
+   SKILL    STAT    ARMR    WEPN    ATTAK    DAMAGE    LIFE    DEATH
+  --------------------------------------------------------------------
+  100/100  100/100  40/40   40/NO   NO/NO  2540/2486  417/374   89/95
+                                           2538/2472  412/365   86/97
+  100/100   95/100  40/40   40/NO   NO/NO  2363/2512  376/387   95/92
+                                           2337/2509  364/393   98/90
+  100/100   90/100  40/40   40/NO   NO/NO  2147/2523  311/400  115/89
+                                           2169/2519  329/402  109/89
+  100/100   85/100  40/40   40/NO   NO/NO  2017/2585  294/446  122/80
+                                           2009/2571  292/438  123/82
+  100/100   80/100  40/40   40/NO   NO/NO  1869/2565  267/434  135/83
+                                           1868/2570  263/440  137/82
+  100/100   75/100  40/40   40/NO   NO/NO  1695/2600  224/462  161/78
+                                           1690/2604  224/467  161/77
+  --------------------------------------------------------------------
+
+   STAT    EXPERIENCE    GATHERING SPEED
+  ---------------------------------------
+  100/100  26666/26666      23.19/----
+   95/100  23449/27947      20.94/----
+   90/100  20463/29357      22.24/----
+   85/100  17704/30917      23.35/----
+   80/100  15170/32653      22.32/----
+   75/100  12857/34594      22.86/----
+  ---------------------------------------
+
+This looks like there is very little dependency of exp gathering speed
+on victim size when the victim is smaller than the killer. Overhead
+needed to move from victim to victim is not factored in, but some
+healing would be done in that time ...
+
+
+[4] How does this translate into combat aid ?
+
+The combat aid is defined well for offensive combat specials but not well for
+defensive combat specials. This takes offensive combat aid as basis and tries
+to define conversions from and to defensive combat aid that has the same
+experience gathering speed.
+
+
+How to calculate the exp gathering speed for offensive combat ?
+
+ - Player : 100ish stats, 40ish weapons and armours, boozed
+ - Enemy  : 100ish stats, 40ish weapons and armours
+ - Aid    : example 60% offensive combat aid
+
+ - Without aid
+   - Time   : ~390 seconds per kill
+   - Damage : dealt ~2500 hp, received ~2500 hp
+              dealt damage speed 6.41 hp per second
+   - Health : total health 1900 hp plus ~600 hp healed in combat
+              combat healing speed ~1.54 hp per second
+              player at DD after 1.0 kills
+              player healing time 38*20=760 seconds
+   - Exp    : 26666 points per kill
+   - Speed  : exp for kills / (time to make kills + time to fully heal)
+            = 26666 / (390 + 760) = 23.19 exp points per second
+
+ - With aid
+   - Damage : dealt normal * (100% + offensive combat aid) per second
+            = dealt 6.41 * 160% = 10.26 hp per second
+              dealt = total health + combat healing speed * time
+              dealt = dealt damage speed * time
+   - Time   : time = total health / (dealt damage speed - combat healing speed)
+            = 1900 / (10.26 - 1.54) = ~218 seconds per kill
+   - Health : player at DD after 1.79 kills
+   - Speed  : exp for kills / (time to make kills + time to fully heal)
+            = 26666 * 1.79 / (390 + 760) = 41.51 exp points per second
+
+ - Result : 60% offensive combat aid means 79% increase in exp gathering speed
+
+
+What is the offensive combat aid that corresponds to defensive aid of plexus ?
+
+ - Speed  : 23.19 exp points per second without plexus
+            39.66 exp points per second with plexus
+            71% increase in exp gathering speed
+ - Health : player at DD after 100% + 71% = 1.71 kills
+ - Time   : 390 / 1.71 = ~228 seconds per kill
+ - Damage : dealt damage speed = total health / time + combat healing speed
+          = 1900 / 228 + 1.54 = 9.87 hp per second
+ - Aid    : aid = dealt damage speed / normal dealt damage speed - 100%
+          = 9.87 / 6.41 - 1 = 54%
+
+
+[Notes]..........................................................
+
+The goal of combat support is to get monks on par with other
+fighter guilds. It would not make sense if monks were the
+only fighter guild that cannot fight. The exact goals
+are as follows:
+
+ - Monks should get the same bang for the same cash,
+   so to speak. This means roughly the same exp
+   gathering ability for the same effort as
+   other guilds.
+
+ - The character of monks as an unarmed fighter guild
+   that shuns violence, at least in player conflicts,
+   should be preserved.
+
+ - The trademark of monks as a guild that relies on its
+   plexus special complemented by other combat abilities
+   should be preserved.
+
+ - In areas where the differences of unarmed combat are
+   seen as giving an inherent advantage above that of
+   other fighter guilds, this must be compensated for
+   so that monks are not accused of being unbalanced.
+

@@ -1,0 +1,13 @@
+#include "../defs.h"
+#define ANTIDRO_OB "/d/Calia/walkers/stone/spells/antidro_obj"
+#define ANTIDRO_DURATION 180
+#define PHOTOSTEPSANOS_OB "/d/Calia/walkers/stone/spells/photostepsanos_obj"
+#define GUNERO_OB "/d/Calia/walkers/stone/spells/gunero_ob"
+#define STOIECHEIO_OB "/d/Calia/walkers/stone/spells/stoiecheio_ob"
+#define STOIECHEIO_OBJ "_stoiecheio_object_"
+#define STOIECHEIO_SH "/d/Calia/walkers/stone/spells/stoiecheio_sh"
+#define TUPHLONO_OB "/d/Calia/walkers/stone/spells/tuphlono_obj"
+#define ANATOME_OB "/d/Calia/walkers/stone/spells/anatome_obj"
+#define STOIECHEIO_OB "/d/Calia/walkers/stone/spells/stoiecheio_ob"
+#define STOIECHEIO_OBJ "_stoiecheio_object_"
+#define STOIECHEIO_SH "/d/Calia/walkers/stone/spells/stoiecheio_sh"

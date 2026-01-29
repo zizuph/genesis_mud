@@ -1,0 +1,258 @@
+
+Spellweavers.doc
+The document for the Spellweavers guild.
+	--- Farlong
+	--- Written 23 April 1994
+
+
+
+The Spellweavers are a spellcasting guild of evil alignment located
+in Rhun in eastern Rhovanion.  The entrance to the guild lies beneath
+an old abandoned castle, at /d/Rhovanion/common/rhun/castle/rune_room.c.
+The idea/history for the guild, briefly, is that the demons and dark
+spirits which once walked abroad in Middle Earth were captured behind
+runes of power.  The basis for this rune-magic was taught
+centuries ago by the two blue wizards who passed out of Tolkien's
+Middle Earth and are not referred to in the Lord of the Rings.
+
+Evil spellcasters have learned the ways of releasing the demons by
+inscribing the runes which hold them.  At the height of their power,
+these spellcasters wove runes of protection or servitude into
+garments; hence, the title Spellweavers.  
+But the good forces revolted, and pushed the Spellweavers into hiding
+for many centuries, killing off many of their number.
+Eventually, much of their craft was lost as they ran from
+hiding spot to hiding spot.
+After much time, the Spellweavers have begun to rise again
+in power in their caves deep beneath the hills that line the south
+and west edge of the Sea of Rhun, and at last emerge.  Their craft
+is limited, now, but still strong.  They draw the runes to release
+their demons in mid-air, speaking aloud the translated name of the
+rune, and the spirit is released to do their bidding.  The number of
+runes and spirits remembered and controlled by the Spellweavers is
+limited, but at last they are able to emerge.
+
+The Spellweavers guild shall be run by a Head Guildmaster,
+titled Lord High Magistrate of the Spellweavers.
+Upon the votes/opinions/polls/thoughts of the members of
+the guild, the wizard guildmaster (me) will take the candidate 
+selected by the members at large into the Appointment room, where the
+candidate need only "accept" his position.
+(/d/Rhovanion/common/rhun/sw/guild/gm_appointing_room)
+
+He may select two other Assist Guildmasters, titled 
+Runemaster of the Spellweavers and Master Patterner of the
+Spellweavers, to help him.  They may exercise their powers while
+in the Guildmaster room (/d/Rhovanion/common/rhun/sw/guild/gm_room).
+These powers include:
+    -Resigning their position as Guildmaster or Asst. Guildmaster.
+    -Expelling a member (present in the game) from the guild.
+    -Banning a player (present in the game) from ever entering the guild.
+    -Removing such a ban.
+    -Here the Guildmaster may appoint a First of Second Assistant; the
+       First Assistant may appoint a Second Assistant.
+
+The Spellweavers have an entrance quest, to be described in
+detail in the QUESTS/ directory of /d/Rhovanion/open.
+Once this is completed, the player may always reenter the guild, but
+does not have access to back areas (ie, the training room).
+He/she/it is to post a note on the public board there,
+asking for sponsorship.  When a Spellweaver member has adventured
+with the candidate and wishes to, he/she/it may go into
+the shrine at the center of the guild and "sponsor" that person,
+allowing them to enter the shrine, and make the pledge of their loyalty.
+In the shrine, a player may meditate as in Adventurers'
+Guilds; list the major guilds to which they belong; alter their
+membership from Occupational to Layman or vice versa, leave the
+guild altogether, etc.
+(The shrine is at /d/Rhovanion/common/rhun/sw/guild/shrine.)
+
+Any member may sponsor any number of candidates into the shrine.  A
+layman member may sponsor an occupational candidate, and vice versa,
+as well as sponsoring one of their own division.
+
+A candidate must have an alignment of -300 or below to join the guild.
+
+If the Guildmasters are of the opinion that a player has dishonored
+or disobeyed the guild in some way, they are free to act accordingly.
+
+The penalty for the leaving the guild, either voluntarily or by 
+explusion, is death, and the removal (setting to 0) of the guild's
+main skills: SS_FORM_CONJURATION, SS_FORM_DIVINATION, SS_ELEMENT_DEATH,
+SS_ELEMENT_EARTH, SS_ELEMENT_AIR.
+
+A guild member is free to join any other guilds they choose, so long
+as their commitment to the Spellweavers remains firm (the Guildmasters
+shall be the judges of this).  Guildmasters and wizards are always
+open to suggestions by the members at large concerning 
+problems, improvements, etc., with the guild.
+
+The files for the guild home itself are in the directory
+/d/Rhovanion/common/rhun/sw/guild/.  
+The files for the soul/shadow/etc. are in
+/d/Rhovanion/common/rhun/sw/s_s/.
+
+The joinroom is shrine.c in the guild directory.
+The start-here room is startroom.c in that directory.
+
+The following includes the available skills & spells and their
+tax computational values for first the occupational and then the layman
+branch.  
+Note that all members have a Tell-line for sending a message to
+one other members, predefined at 4% tax and 10 mana in the new
+man guilds.
+
+Occupational----
+
+Skills:
+(Note that 'norm' is the amount defined for normal Adv. Guilds in man skills;
+'mine' is the amt. trained in the Spellweavers guild; 'diff' is the
+difference between the two values).
+
+Name            norm  mine  diff
+--------------- ----- ----- -----
+Spellcraft       20    90    70
+Conjuration      0     90    90
+Divination       0     40    40
+Death spells     0     90    90
+Air spells       0     50    50
+Earth spells     0     50    50
+Awareness        50    40    --
+Knife            30    50*2  20*1.5 (See note below)
+Defense          0     50*2  50*1.5 (See note below)
+Hide             50    25    --
+Sneak            50    25    --
+---------------------------------
+                 Total diff: 495    /60*1%=8.25% tax for skills
+
+Total skills taught: 90+90+40+90+50+50+40+(50*2)+(50*2)+25+25=700
+
+(Note: Knife & defense are doubled in diff. value because it is a
+skill foreign to the guild style (magic), in accordance with man guilds.
+Both are counted 1.5 for tax because they are "Special fighting skills,"
+as mentioned in man guilds and defined in /sys/ss_types.h.)
+
+
+Spells:
+(For details on spells, see descriptions in 
+/d/Rhovanion/open/SPELLS/Spellweavers/.)
+
+Each spell is described starting with its basic tax (defined in
+man magic03) and with its modifiers added and described (as per man magic04).
+
+Name      Tax  Modifiers
+--------  ---  ---------------------------------------------------
+physic    0.5  .7 (Duration instant, non-attack spell)
+               Total tax: .7
+smother   .25  .7 (Duration instant, non-attack spell)
+               1.5 (Area of Effect: object in other living's inven.)
+               Total tax: .2625
+sting     0.5  None
+               Total tax: .5
+lumin     .25  1.5 (Area of Effect: All objects in room)
+               Total tax: .375
+vigilant  0.3  None
+               Total tax: 0.3
+herald    0.1  .7 (Duration instant, non-attack spell)
+               .9 (Casting time >5 heartbeats, <30 seconds)
+               Total tax: .063
+darken    .25  1.5 (Area of Effect: all objects in room)
+               Total tax: .375
+cicerone  .25  None
+               Total tax: .25
+veil      .75  1.5 (Duration >1 minute, <10 minutes)
+               Total tax: 1.125
+epee      1.0  .5 (Difficulty: Difficult)
+               .9 (Casting time >5 heartbeats, <30 seconds)
+               3.0 (Area of Effect: object in other room)
+               2.0 (Duration: Permanent)
+               Total tax: 2.7
+aegis     1.0  .5 (Difficulty: Difficult)
+               .9 (Casting time >5 heartbeats, <30 seconds)
+               3.0 (Area of Effect: object in other room)
+               2.0 (Duration: Permanent)
+               Total tax: 2.7
+temblor   1.0  .5 (Difficulty: Difficult)
+               2.0 (Area of Effect: all objs in rm 'cept caster)
+               Total tax: 1.0
+refuge    1.0  .5 (Difficulty: Difficult)
+               .7 (Duration instant, non-attack spell)
+               .9 (Casting time >5 heartbeats, <30 seconds)
+               Total tax: .315
+phobia    0.5  .5 (Difficulty: Difficult)
+               .9 (Casting time >5 heartbeats, <30 seconds)
+               Total tax: .225
+thrall    1.0  .5 (Difficulty: Difficult)
+               3.0 (Area of Effect: Object in another room)
+               .9 (Casting time >5 heartbeats, <30 seconds)
+               1.5 (Duration <10 minutes, >1 minute)
+               Total tax: 2.025
+revenant  1.0  .5 (Difficulty: Difficult)
+               1.25 (Area of Effect: Caster + 1 other object)
+               Total tax: .625
+dispel    1.0  .25 (Difficulty: Formidable)
+               1.5 (Area of Effect: All objects in room)
+               .7 (Duration instant, non-attack spell)
+               .9 (Casting time >5 heartbeats, <30 seconds)
+               Total tax: .23625
+espy      1.0  .5 (Difficulty: Difficult)
+               .7 (Duration instant, non-attack spell)
+               Total tax: .35
+
+Total spells tax: 13.55175%
+
+Total Occupational Tax:
+	Skills   :  8.25    %
+	Features :  4.0    %  <<<<--- This is the Tell-line.
+	Spells   : 13.55175%
+	--------------------
+	Total Occupation Tax=25.80175%, rounding off to 26%.
+
+****************************************************************
+
+Layman----
+
+Skills:
+
+Name         norm  mine  diff
+------------ ----- ----- -----
+Knife         30    50*2  20*1.5 (See note on Occ. skills above)
+Defense       0     50*2  50*1.5 (See note on Occ. skills above)
+Hide          50    25    --
+Sneak         50    25    --
+Spellcraft    20    50    30
+Conjuration   0     50    50
+Death spells  0     50    50
+Awareness     50    50    --
+-----------------------------
+ 		Total differences=235/60*1%=3.9166666666%
+
+Total skills trained: (50*2)+(50*2)+25+25+50+50+50+50=450
+
+------------
+
+Spells
+
+Name      Tax  Modifiers
+--------  ---  ---------------------------------------------------
+physic    1.0  .7 (Duration instant, non-attack spell)
+               Total tax: .7
+smother   .5   .7 (Duration instant, non-sttack spell)
+               1.5 (Area of Effect: obj. in another living's inven.)
+               Total tax: .525
+sting     1.0  None
+               Total tax: 1.0
+lumin     .25  1.5 (Area of Effect: all objects in room)
+               Total: .375
+
+Total spell tax: 2.6%
+
+Total Layman Tax:
+	Skills   : 3.9166666666%
+	Features : 4.0         %  <<<<---- This is the Tell-line.
+	Spells   : 2.6         %
+	-------------------
+	Total Layman Tax=10.5166666666%, rounding off to 11%.
+
+
+

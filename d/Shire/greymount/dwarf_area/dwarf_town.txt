@@ -1,0 +1,31 @@
+
+
+                                              I 
+                                              |
+                                              O -- Br
+                                            / | \
+                                   S  Bk   O--O--O---> To mines
+                                   |  |   /
+                                   O--O--O
+                                  /| / \ |
+                                 O-O     O--PO
+                                / \| \ / |
+                            O--O   O--O--O--O
+                           /          |      \
+                          O           O--O-T  O--O--O---> To mines
+                         /            |  |
+                      Tunnels      G--O--O
+                                          \
+                                           M
+
+
+    S  - Shop
+    Bk - Bank
+    I  - Inn
+    Br - Bar
+    PO - Post office
+    T  - Tool shop
+    G  - Gem shop
+    M  - Mining guild (race, dwarf)
+
+ 

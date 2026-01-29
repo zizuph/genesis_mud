@@ -1,0 +1,163 @@
+main
+::MAPDATA::
+abandoned 31 13 michel_delving_n
+barnyard 31 13 michel_delving_n
+cabin 31 13 michel_delving_s
+entrance 31 13 michel_delving_n
+fairroad1 31 13 michel_delving_s
+fairroad2 31 13 michel_delving_s
+fairroad3 31 13 michel_delving_s
+farmhouse 31 13 michel_delving_n
+farmrd1 31 13 michel_delving_n
+farmrd2 31 13 michel_delving_n
+farmrd3 31 13 michel_delving_n
+farmrd4 31 13 michel_delving_n
+gamroad1 31 13 michel_delving_s
+gamroad2 31 13 michel_delving_s
+gamroad3 31 13 michel_delving_s
+gamroad4 31 13 michel_delving_n
+gamroad5 31 13 michel_delving_n
+guardr1 31 13 michel_delving_s
+guardr2 31 13 michel_delving_n
+inn 31 13 michel_delving_n
+kitchen 31 13 michel_delving_n
+newphouse 31 13 michel_delving_n
+newtask 31 13 michel_delving_s
+party 31 13 michel_delving_n
+petunia_house 31 13 michel_delving_n
+residence 31 13 michel_delving_s
+task_stables 31 13 michel_delving_s
+wisegarden 31 13 michel_delving_s
+mathom_entrance 31 13 michel_delving_s
+mathom1 31 13 michel_delving_s
+mathom3 31 13 michel_delving_s
+mathom5 31 13 michel_delving_s
+mathom7 31 13 michel_delving_s
+mathom9 31 13 michel_delving_s
+mathom8 31 13 michel_delving_s
+mathom6 31 13 michel_delving_s
+mathom4 31 13 michel_delving_s
+mathom2 31 13 michel_delving_s
+::MAPDATA::
+
+                                  Annuminas
+                                      O ~~
+                 Hills of Evendium    |  ~~   +---------+
+                                      |   ~~  |THE SHIRE|
+                                       \   ~~ +---------+        Fornost
+                             Greenfields\   ~~                      o
+                                    o----\   ~~~                    |
+                                          \    ~~~                  |
+          ~~                       HOBBITON\     ~~~                |
+         ~~~          Greenholm       O     \      ~~~              |
+       ~~~~               o           |     |Frogmorton             |   BREE
+     GREY HAVENS       MICHEL DELVING |     o------===--------------+----O---
+   ~~~~~~O---------------------O---+--+---\/   |  Brandywine        |
+  ~~~~~~~                          o Waymeet   |    Bridge          |
+ ~~~~~~~       \                   |           o   ~~~     Barrow   |
+ ~~~~~          o                  \        Whitfurrows     Downs   |
+ ~~~    Rockfriends      Longbottom o             ~~~               |
+ ~~                                  \---------- ~~~ o--------------\
+ ~                                             ~~~  Sarn Ford        \
+          Blue Mountains                     ~~~                      \
+                                           ~~~                         \
+
+
+::NEWMAP::
+michel_delving_n
+::MAPDATA::
+abandoned 42 11
+barnyard 53 8
+entrance 20 21
+farmhouse 47 8
+farmrd1 31 16
+farmrd2 35 14
+farmrd3 42 14
+farmrd4 47 11
+gamroad4 27 21
+gamroad5 27 18
+guardr2 34 24
+inn 20 24
+kitchen 13 24
+newphouse 34 21
+party 13 21
+petunia_house 32 26
+::MAPDATA::
+
+                                   ===============
+                                   Michel Delving,
+                                        North
+                                   ===============
+                               @@
+                !!!!!!!          @                  
+                                 []___              
+            !!!!!               / - -/\        O  %  O
+                     !!!!!     / - -/__\       %       _______ ,-,
+                               |[][]||||       %     /  \ [|] \|=|   
+             !!!!!!!!     !!!!!           O    O    |_""_|_____| |
+                                          |  /      |_o__|_[x]_|_|
+                                          | /                     
+                    !!!!!!         O ---- O  
+                                 /                      !!!!!!
+                       !!!!!   O   
+                             /        .____  
+                           O         /_\___\  
+                           |         |o|n_n|     
+                           |
+             O ---- O ---- O ---- O   
+                        /  |  \      
+                      /    |    \
+             O ---- O      |      O    
+                           |
+                 - Great East Road -
+                           |
+::NEWMAP::
+michel_delving_s
+::MAPDATA::
+gamroad3 13 8
+residence 20 8
+gamroad2 13 11
+guardr1 20 11
+gamroad1 13 14
+fairroad1 20 14
+fairroad2 27 14
+fairroad3 34 14
+newtask 27 11
+cabin 20 20
+task_stables 34 11
+wisegarden 20 17
+mathom_entrance 62 21
+mathom1 62 18
+mathom3 62 15
+mathom5 62 12
+mathom7 62 9
+mathom9 55 9
+mathom8 69 9
+mathom6 69 12
+mathom4 69 15
+mathom2 69 18
+::MAPDATA::
+
+                                   ==============
+                                   Michel Delving,
+                                        South
+                                   ============== 
+             |
+   - Great East Road -
+             |                                           Mathom House
+  Mathom -   O ---- O                                    ============ 
+   House     |                                         O ---- O ---- O      
+             |                                                |             
+             O ---- O      O  %   O                           |             
+             |             |                                  O ---- O      
+             |             |                                  |             
+             O ---- O ---- O ---- O                           |             
+                    |                                         O ---- O      
+                    |                                         |             
+                    O       ___I_                             |             
+                    |      /\-_--\                            O ---- O      
+                    |     /  \_-__\                           |             
+                    O     |[]| [] |                           |             
+                                                              O             
+                                                                 
+                                                     

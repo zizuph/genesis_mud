@@ -1,0 +1,21 @@
+The board and join room of Hammerhands.
+
+Properties:
+hammerhands inside
+
+Items: trophies, window, ceiling, desk
+
+Objects:
+public bulletin board
+rules booklet
+clerk (gnome)
+
+Actions:
+hhjoin
+hhleave
+read the booklet
+
+Exits: according to map
+
+Special:
+only players fitting guild schema may join

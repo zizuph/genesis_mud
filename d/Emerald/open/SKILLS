@@ -1,0 +1,15 @@
+Vampire guild skills:
+
+    SS_VAMP_THIRST   132001 (Hidden) Tracks vampire bloodthirst
+    SS_VAMP_SLASH    132004 Trained skill for vampire special attack
+    SS_VAMP_CELERITY 132006 Trained skill for vampire special attack
+
+Grunt guild skills:
+
+                     132060 (Hidden) Tracks player's combat kills
+
+Army of Darkness guild skills:
+
+    SS_AOD_WALLOP    132010 Trained skill for Army damage attack special
+    SS_AOD_PBLOCK    132011 Trained skill for Army parry block special
+

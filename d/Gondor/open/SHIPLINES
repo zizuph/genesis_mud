@@ -1,0 +1,53 @@
+======================================================================
+	Gondor ship lines
+======================================================================
+
+Path:		/d/Gondor/common/ship/
+Ship:		ship.c
+Captain:	captain1.c
+Start:		/d/Gondor/pelargir/docks/dock5.c
+Destination:	/d/Genesis/start/human/town/pier2.c
+Cost:		30 cc
+
+Path:		/d/Gondor/common/ship/
+Ship:		ship2.c
+Captain:	earendil.c
+Start:		/d/Gondor/pelargir/docks/dock3.c
+Destination:	/d/Genesis/start/elf/room/cove_4.c
+Cost:		30 cc
+
+Path:		/d/Gondor/common/ship/
+Ship:		ship3.c
+Captain:	captain3.c
+Start:		/d/Gondor/pelargir/docks/dock8.c
+Destination:    /d/Earthsea/gont/gont_city/rooms/north_pier2.c
+Cost:		24 cc
+
+Path:		/d/Gondor/common/ship/
+Ship:		ship4.c
+Captain:	captain4.c
+Start:		/d/Gondor/tharbad/pier/pier1.c
+Destination:	/d/Ansalon/kalaman/room/dock2.c
+Cost:		30 cc
+
+Path:		/d/Gondor/common/ship/
+Ship:		ship5.c
+Captain:	captain5.c
+Start:		/d/Gondor/pelargir/docks/dock7.c
+Destination:	/d/Kalad/common/port/s100.c
+Cost:		28 cc
+
+Path:		/d/Gondor/common/ship/
+Ship:		ship6.c
+Captain:	captain6.c
+Start:		/d/Gondor/ithilien/poros/pier.c
+Destination:	/d/Gondor/lebennin/sroad/south_pier.c
+		/d/Gondor/tharbad/pier/pier4.c
+Cost:		30 cc
+
+Path:		/d/Gondor/common/ship/
+Ship:		ship7.c
+Captain:	captain7.c
+Start:		/d/Gondor/pelargir/docks/dock2.c
+Destination:	/d/Gondor/minas/harlond/pier1.c
+Cost:		18 cc

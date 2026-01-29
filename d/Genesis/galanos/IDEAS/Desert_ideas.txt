@@ -1,0 +1,23 @@
+Desert Ideas
+
+1.	As in a real desert one can't travel very long in the midday due to
+	the danger of heatstroke. Plus, can you imagine trying to walk 
+	through a desert in armour? It's unrealistic, so I propose either
+	making it harder to walk through the rooms, hence people tire quicker,
+	or, perhaps making the players thirst an issue of survival.
+
+2.	Also with a desert environment, cities or villages would probably be
+	active at different times compared to a normal city or village. Hence
+	the idea of having "Night markets" so that people could buy stuff at
+	obscure times of the day.
+
+3.	Another concept that would go quite well, would be having a shopkeeper
+	in town that sells a salve (sunscreen) that would protect you from the
+	effects of the sun beating down on your skin. Those who aren't wearing
+	armor or this salve might end up getting a sunburn. We could query the
+	skin_type, and those with darker skin wouldn't burn, but they might
+	get hotter/thirstier quicker?
+
+4.	Another hazard of being in the desert, especially when you're tired and
+	hot is dealing with mirages. Perhaps to correspond with #1, the players
+	warning signal is he starts hallucinating.

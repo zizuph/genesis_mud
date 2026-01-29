@@ -1,0 +1,49 @@
+/*
+ *	/d/Gondor/lebennin/road/nr13.c
+ *
+ *	This version:
+ *	Copyright (c) 1997 by Christian Markus
+ *
+ *	Modification log:
+ *	 2-Feb-1997, Olorin:	General revision,
+ *				changed inheritance.
+ */
+#pragma strict_types
+
+inherit "/d/Gondor/lebennin/road/road.c";
+
+#include "/d/Gondor/defs.h"
+
+public void
+create_road()
+{
+    set_area("southern");
+    set_areaname("Lebennin");
+    set_land("Gondor");
+    set_areatype(3);
+    set_areadesc("road");
+    set_grass("green");
+
+    add_exit(LEB_DIR + "road/nr12",  "north", 0, 2);
+    add_exit(LEB_DIR + "road/nr14",  "south", 0, 2);
+    add_exit(LEB_DIR + "road/path_1", "west",  0, 2);
+   
+    set_extraline("The road cuts here through a narrow band of trees " +
+        "that runs from west to east. Just south of the trees, a great " +
+        "plain opens, gently sloping downwards to the south. Far in the " +
+        "distance on that plain one can see Pelargir upon Anduin.");
+
+    add_plain("forest");
+    add_item( ({ "wood", "forest", "band", "ring", "trees", }), BSN(
+        "The forest is but a narrow band of trees which runs from west " +
+        "to east. The trees are large and most of them are very old, but " +
+        "it is obvious that they were planted by men and did not grow here " +
+        "naturally. Perhaps they are meant to slow down the wet winds " +
+        "that blow northwards from the Sea in the summer, catching some " +
+        "of the water they carry as dew."));
+    add_pelargir("far");
+    add_road(1);
+    add_ground();
+    add_anduin("south");
+}
+

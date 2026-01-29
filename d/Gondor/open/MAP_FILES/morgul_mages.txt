@@ -1,0 +1,297 @@
+main
+::MAPDATA::
+death_room 18 15 public_levels
+warden_office 9 17 public_levels
+tower_2n 18 17 public_levels
+tower_1w 1 19 public_levels
+tower_1c 5 19 public_levels
+tower_1s 5 21 public_levels
+warden_room 9 19 public_levels
+tower_2w 14 19 public_levels
+tower_2c 18 19 public_levels
+tower_2s 18 21 public_levels
+tower_2e 22 19 public_levels
+tower_3w 26 19 apprentice_levels
+tower_3c 30 19 apprentice_levels
+tower_3e 34 19 apprentice_levels
+tower_lookout 38 19 apprentice_levels
+tower_4s 46 21 apprentice_levels
+train_low 42 19 apprentice_levels
+tower_4c 46 19 apprentice_levels
+crystalroom 50 19 apprentice_levels
+startroom 46 17 apprentice_levels
+post 30 17 apprentice_levels
+boardroom 30 21 apprentice_levels
+tower_5c 55 19 full_levels
+morgul_lounge 59 19 full_levels
+tower_6c 64 19 full_levels
+train_high 55 17 full_levels
+upper_throne_room 55 21 nazgul_access
+nazgul_library 55 23 nazgul_access
+dung_1e5 53 15 ground_basement_floors
+pass_2e3 53 16 ground_basement_floors
+guard_0nw 21 17 ground_basement_floors
+dung_1e2 57 17 ground_basement_floors
+wsmithy 61 17 ground_basement_floors
+mm_paint_shop 65 17 ground_basement_floors
+pass_2e1 49 18 ground_basement_floors
+pass_2e2 53 18 ground_basement_floors
+sec_entr 11 19 ground_basement_floors
+tower_entrance 25 19 ground_basement_floors
+pass_1e5 53 19 ground_basement_floors
+tuvale2 65 19 ground_basement_floors
+mage_library 19 20 ground_basement_floors
+dung_2e1 49 20 ground_basement_floors
+square 15 21 ground_basement_floors
+public_library 19 21 ground_basement_floors
+guard_0se 29 21 ground_basement_floors
+pass_1e4 49 21 ground_basement_floors
+dung_1e3 57 21 ground_basement_floors
+tuvale 61 21 ground_basement_floors
+dung_2e3 57 22 ground_basement_floors
+tower_0n 15 23 ground_basement_floors
+tower_0ne 19 23 ground_basement_floors
+dung_1wn 33 23 ground_basement_floors
+herb_shop 41 23 ground_basement_floors
+pass_1e3 49 23 ground_basement_floors
+pass_2e4 57 24 ground_basement_floors
+tower_0w 11 25 ground_basement_floors
+tower_0c 15 25 ground_basement_floors
+tower_0e 19 25 ground_basement_floors
+cellar_1c 33 25 ground_basement_floors
+pass_1w1 37 25 ground_basement_floors
+pass_1e1 41 25 ground_basement_floors
+pass_1e2 45 25 ground_basement_floors
+dung_1e1 53 25 ground_basement_floors
+pass_2e5 57 26 ground_basement_floors
+tower_0sw 11 27 ground_basement_floors
+tower_0s 15 27 ground_basement_floors
+dung_1ws 33 27 ground_basement_floors
+potion_shop 45 27 ground_basement_floors
+::MAPDATA::
+
+
+
+::NEWMAP::
+ground_basement_floors
+::MAPDATA::
+dung_1e5 53 15
+pass_2e3 53 16
+guard_0nw 21 17
+dung_1e2 57 17
+wsmithy 61 17
+mm_paint_shop 65 17
+pass_2e1 49 18
+pass_2e2 53 18
+sec_entr 11 19
+tower_entrance 25 19
+pass_1e5 53 19
+tuvale2 65 19
+mage_library 19 20
+dung_2e1 49 20
+square 15 21
+public_library 19 21
+guard_0se 29 21
+pass_1e4 49 21
+dung_1e3 57 21
+tuvale 61 21
+dung_2e3 57 22
+tower_0n 15 23
+tower_0ne 19 23
+dung_1wn 33 23
+herb_shop 41 23
+pass_1e3 49 23
+pass_2e4 57 24
+tower_0w 11 25
+tower_0c 15 25
+tower_0e 19 25
+cellar_1c 33 25
+pass_1w1 37 25
+pass_1e1 41 25
+pass_1e2 45 25
+dung_1e1 53 25
+pass_2e5 57 26
+tower_0sw 11 27
+tower_0s 15 27
+dung_1ws 33 27
+potion_shop 45 27
+::MAPDATA::
+                                _
+  -=Tower of Black Sorcery=-   | |
+         Minas Morgul         _|_|_
+                              |   |
+                               | |
+                               | |
+                              | []|
+                              |   |
+                              |   |
+                              |[] |
+                             |     |
+                             | []  |
+                             |     |
+                             |  [] |
+
+                                                    [ ]
+                                                    [ ]    
+                     o                               |   o - o - o
+                       \   /                     o  [ ]/
+           o             o                       |  [ ]          o
+             \    [ ]  /   \                    [ ]/   \       /
+               o -[ ] /      o                  [ ]     [ ]- o
+               |     /                           |      [ ]
+               o - o             o       o       o       |
+             / |  /|             |         \   /   \     o
+           o -[ ]- o            [ ]- o - o - o       o   |
+           | / | /               |           |           o
+           o - o                 o           o
+                                           
+           0th                   -1st
+
+
+::NEWMAP::
+public_levels
+::MAPDATA::
+death_room 18 15 
+warden_office 9 17 
+tower_2n 18 17 
+tower_1w 1 19 
+tower_1c 5 19 
+warden_room 9 19 
+tower_2w 14 19 
+tower_2c 18 19 
+tower_2e 22 19 
+tower_1s 5 21 
+tower_2s 18 21 
+::MAPDATA::
+                                _
+  -=Tower of Black Sorcery=-   | |
+         Minas Morgul         _|_|_
+                              |   |
+                               | |
+                               | |
+                              | []|
+                              |   |
+                              |   |
+                              |[] |
+                             |     |
+                             | []  |
+                             |     |
+                             |  [] |
+
+                  o
+                  |         
+         o        o        
+         |        |          
+ o -[ ]- o    o -[ ]- o  
+     |            |          
+     o            o          
+                                                     
+                                                      
+    1st          2nd        
+
+::NEWMAP::
+apprentice_levels
+::MAPDATA::
+tower_3w 26 19
+tower_3c 30 19
+tower_3e 34 19
+post 30 17 
+tower_lookout 38 19
+train_low 42 19
+tower_4c 46 19
+crystalroom 50 19
+startroom 46 17 
+tower_4s 46 21
+boardroom 30 21
+::MAPDATA::
+                                _
+  -=Tower of Black Sorcery=-   | |
+         Minas Morgul         _|_|_
+                              |   |
+                               | |
+                               | |
+                              | []|
+                              |   |
+                              |   |
+                              |[] |
+                             |     |
+                             | []  |
+                             |     |
+                             |  [] |
+
+                  o
+                  |                                
+         o        o           o               o       
+         |        |           |               |       
+ o -[ ]- o    o -[ ]- o   o -[ ]- o - o   o -[ ]- o   
+     |            |           |               |       
+     o            o           o               o        
+                                                      
+                                                      
+    1st          2nd         3rd             4th      
+
+::NEWMAP::
+full_levels
+::MAPDATA::
+tower_5c 55 19
+train_high 55 17
+morgul_lounge 59 19
+tower_6c 64 19
+::MAPDATA::
+                                _
+  -=Tower of Black Sorcery=-   | |
+         Minas Morgul         _|_|_
+                              |   |
+                               | |
+                               | |
+                              | []|
+                              |   |
+                              |   |
+                              |[] |
+                             |     |
+                             | []  |
+                             |     |
+                             |  [] |
+
+                  o
+                  |                                
+         o        o           o               o        o
+         |        |           |               |        |
+ o -[ ]- o    o -[ ]- o   o -[ ]- o - o   o -[ ]- o   [ ]- o   [ ]
+     |            |           |               |        |
+     o            o           o               o        
+                                                       
+                                                       
+    1st          2nd         3rd             4th      5th      6th
+
+::NEWMAP::
+nazgul_access
+::MAPDATA::
+upper_throne_room 55 21
+nazgul_library 55 23
+::MAPDATA::
+                                _
+  -=Tower of Black Sorcery=-   | |
+         Minas Morgul         _|_|_
+                              |   |
+                               | |
+                               | |
+                              | []|
+                              |   |
+                              |   |
+                              |[] |
+                             |     |
+                             | []  |
+                             |     |
+                             |  [] |
+
+                  o
+                  |                              
+         o        o           o               o        o
+         |        |           |               |        |
+ o -[ ]- o    o -[ ]- o   o -[ ]- o - o   o -[ ]- o   [ ]- o   [ ]
+     |            |           |               |        |
+     o            o           o               o        o
+                                                       |
+                                                       o 
+    1st          2nd         3rd             4th      5th      6th

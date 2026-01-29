@@ -1,0 +1,18 @@
+The elders/council room of hammerhands
+
+Properties:
+hammerhand inside
+
+Items:
+fireplace, chairs, desks
+
+Objects:
+servant
+more according to guild concept
+
+Actions:
+according to the guild concept, to be worked out later.
+
+Exits: according to the map
+
+Special: only elders allowed

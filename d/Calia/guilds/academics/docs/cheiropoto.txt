@@ -1,0 +1,25 @@
+Cheiropoto (Elemental At Will Damage)
+=====================================
+Guild type          : Layman
+Effect              : Elemental Damage spell that uses random elements to
+                      attack foes. It is an at will spell, meaning that the
+                      mana cost is variable depending on player size, and
+                      is usually at the same rate as regen rate.
+                      
+                      For more information, see description in 
+                      /d/Calia/guilds/academics/help/spells/cheiropoto
+
+Spell Time          : Default (4 seconds), 11 second cooldown
+Mana cost           : Variable - mana regen rate
+Maintained:         : No
+Difficulty          : TASK_EASY 
+Peaceful            : No
+Stationary          : No
+Spell Power         : Power 3 - Intermediate
+Area of effect      : One Enemy Target
+Duration            : Instant
+Material Component  : None
+Vocal Component     : Yes
+Tax                 : 0.50%
+Combat Aid          : 15%
+Files:              : spells/cheiropoto.c

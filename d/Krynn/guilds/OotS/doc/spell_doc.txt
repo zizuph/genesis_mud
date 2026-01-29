@@ -1,0 +1,361 @@
+Holy Order of the Stars spell doc.
+
+All spells can be found in /d/Krynn/guilds/OotS/spells/
+All spell objects in /d/Krynn/guilds/OotS/spells/objs/
+
+GENERAL SPELL RESTRICTIONS:
+If caster alignment drops below 600, access to all spells removed.
+
+Combat aid of spells modified downwards as alignment drops below 1000
+by a factor of alignment / 1000.
+
+There is only a 10% casting success chance if caster in not wearing the 
+medallion of faith.
+
+GOD SPECIFIC SPELLS:
+
+                          Mishakal specific
+                       =======================
+Spell name:      omend                     Element:      Life (30)
+Spell effect:    regeneration spell        Form:         Transmutation (30)
+Type:            maintained                Difficulty:   ROUTINE
+Target:          caster                    Combat aid:   15%
+Spell power:     Class 2                   Mana cost:    Standard (30)
+
+Peaceful:        Yes                       Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard)
+Components:      Fiddlehead (herb, 142cc)  holy water (special, 46cc)
+
+TAX:             0.5% (magical layman class 2)
+
+Comments:
+Standard regeneration maintained spell.
+Accessible only to those members who have Mishakal as their patron god.
+
+
+                         Kiri-Jolith specific
+                       ========================
+Spell name:      oheroism                  Element:      Life (30)
+Spell effect:    statboost spell           Form:         Transmutation (30)
+Type:            maintained                Difficulty:   ROUTINE
+Target:          caster                    Combat aid:   15%
+Spell power:     Class 2                   Mana cost:    Standard (30)
+
+Peaceful:        No                        Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard)
+Components:      onoclea (herb, 356cc)  holy water (special, 46cc)
+
+TAX:             0.375% (magical layman class 2, Components >=1 gp: -25%)
+
+Comments:
+Standard statboost maintained spell. 15 combat aid split as follows:
+    add_stat_boost(SS_STR, 11);
+    add_stat_boost(SS_DIS, 4);
+
+Accessible only to those members who have Kiri-Jolith as their patron god.
+
+
+                          Branchala specific
+                        ======================
+Spell name:      osong                     Element:      Life (30)
+Spell effect:    featherweight spell       Form:         Transmutation (30)
+Type:            maintained                Difficulty:   ROUTINE
+Target:          caster                    Combat aid:   0%
+Spell power:     Class 2                   Mana cost:    Standard (30)
+
+Peaceful:        No                        Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard)
+Components:      Hawthorn (herb, 36cc)  holy water (special, 46cc)
+
+TAX:             0.5% (magical layman class 2)
+
+Comments:
+Standard featherweight maintained spell:
+    set_weight_factor(150);
+
+Accessible only to those members who have Branchala as their patron god.
+
+LEVEL 1 SPELLS (BELIEVER)
+===========================================================================
+
+Spell name:      osanctify                 Element:      Life (10)
+Spell effect:    centralized spell         Form:         Transmutation (10)
+Type:            Instant                   Difficulty:   SIMPLE
+Target:          special                   Combat aid:   0%
+Spell power:     Class 0 (cosmetic)        Mana cost:    Half (15)
+
+Peaceful:        Yes                       Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard)
+Components:      Water (10cc), a silver coin (12cc) and a vial (24cc)
+
+TAX:             0.0% (magical layman cosmetic spell)
+
+Comments:
+This is a cosmetic spell that creates the 'holy water' item used as a 
+component for other spells used by the Holy Order of the Stars,
+/d/Krynn/guilds/OotS/obj/holywater.c
+
+
+Spell name:      oradiance                 Element:      Life (20)
+Spell effect:    light spell               Form:         Transmutation (20)
+Type:            maintained                Difficulty:   ROUTINE
+Target:          none                      Combat aid:   0%
+Spell power:     Class 1                   Mana cost:    Standard (30)
+
+Peaceful:        No                        Stationary:   No
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard)
+Components:      none
+
+TAX:             0.375% (magical layman class 1 spell, no component 150% 
+                         normal cost)
+
+Comments:
+Standard light spell of 30 minute duration.
+
+Offers between 1 and 10 light levels depending on spell power:
+light = min(10, max(1, (power - 250) / 10));
+
+
+LEVEL 2 SPELLS (Convert)
+===========================================================================
+
+Spell name:      oheal                     Element:      Life (20)
+Spell effect:    heal spell                Form:         Transmutation (20)
+Type:            instant                   Difficulty:   DIFFICULT
+Target:          living                    Combat aid:   up to 30
+Spell power:     Class 3                   Mana cost:    Standard (30)
+
+Peaceful:        No                        Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    1.8x, 7.2s 
+Components:      none
+
+TAX:             1.5% 
+
+Comments:
+Standard heal spell. 
+
+Combat aid base is 30, but with white hit loss it effectively has a maximum
+caid of 130.
+
+Caid is reduced by 35 if obless or oprotect active.
+
+Caid is reduced by 15 if omend or oheroism active.
+
+Caid is reduced by 5 if osong is active.
+
+
+Task difficulty changed to FORMIDABLE if trying to heal someone of -100 or 
+lower alignment
+
+LEVEL 3 SPELLS (Faithful)
+===========================================================================
+
+Spell name:      ocalm                     Element:      Life (10)
+Spell effect:    calm spell                Form:         Transmutation (15)
+Type:            instant                   Difficulty:   EASY
+Target:          living                    Combat aid:   0
+Spell power:     Class 1                   Mana cost:    Standard (30)
+
+Peaceful:        No                        Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard) 
+Components:      dandelion herb (62cc)
+
+TAX:             0.25% (magical layman class 1 spell)
+
+Comments:
+Standard calm spell
+
+Spell name:      odetect                   Element:      Life (10)
+Spell effect:    alignment spell           Form:         Abjuration (15)
+Type:            instant                   Difficulty:   ROUTINE
+Target:          living                    Combat aid:   0
+Spell power:     Class 1                   Mana cost:    Standard (30)
+
+Peaceful:        Yes                       Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard) 
+Components:      none
+
+TAX:             0.375% (magical layman class 1 spell, no component 150% 
+                         normal cost)
+
+Comments:
+Standard evil alignment detection spell.
+
+Spell name:      orefresh                  Element:      Life (10)
+Spell effect:    refresh spell             Form:         Transmutation (15)
+Type:            instant                   Difficulty:   EASY
+Target:          living                    Combat aid:   0
+Spell power:     Class 1                   Mana cost:    Standard (30)
+
+Peaceful:        No                        Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard) 
+Components:      bunchberry herb (25cc)
+
+TAX:             0.25% (magical layman class 1 spell)
+
+Comments:
+Standard refresh spell
+
+LEVEL 4 SPELLS (Follower)
+===========================================================================
+
+Spell name:      ocure                     Element:      Life (20)
+Spell effect:    cleanse spell             Form:         Transmutation (20)
+Type:            instant                   Difficulty:   ROUTINE
+Target:          living                    Combat aid:   0
+Spell power:     Class 2                   Mana cost:    Standard (30)
+
+Peaceful:        No                        Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard) 
+Components:      cranberry herb (246cc), elidross herb (565cc)
+
+TAX:             0.375% (magical layman class 2 spell, 
+                         Component cost >=1 gp: -25%)
+
+Comments:
+Standard cleanse spell
+
+
+LEVEL 5 SPELLS (Fervent Follower)
+===========================================================================
+
+Spell name:      oturn                     Element:      Life (40)
+Spell effect:    *unique                   Form:         Abjuration (40)
+Type:            maintained                Difficulty:   ROUTINE
+Target:          enemy undead              Combat aid:   0
+Spell power:     Class 2                   Mana cost:    Standard (30)
+
+Peaceful:        No                        Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard) 
+Components:      holy water (46cc)
+
+TAX:             0.5% (magical layman class 2 spell)
+
+Comments:
+Spell uses the /d/Genesis/specials/std/spells/unfinished/turn_target.c
+base code. 
+
+
+Causes the target undead to panic and runaway when in the room with 
+the caster.
+
+int success = caster->resolve_task(
+TASK_ROUTINE,   ({  SKILL_WEIGHT, 40, TS_INT, SKILL_WEIGHT, 40, TS_WIS,
+                    SKILL_WEIGHT, 20, SKILL_AVG, SS_ELEMENT_LIFE,
+                    SS_SPELLCRAFT, SKILL_END }),
+target,         ({  SKILL_WEIGHT, 20, TS_WIS, SKILL_WEIGHT, 60, TS_DIS,
+                    SKILL_WEIGHT, 20, SKILL_AVG, SS_ELEMENT_DEATH,
+                    target->query_prop(LIVE_I_UNDEAD), SKILL_END}));
+
+
+LEVEL 6 SPELLS (Disciple)
+===========================================================================
+
+Spell name:      obless                    Element:      Life (30)
+Spell effect:    stoneskin spell           Form:         Abjuration (30)
+Type:            maintained                Difficulty:   ROUTINE
+Target:          caster                    Combat aid:   30
+Spell power:     Class 3                   Mana cost:    Standard (30)
+
+Peaceful:        Yes                       Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard) 
+Components:      sarsaparilla herb (20cc), holy water (46cc)
+
+TAX:             1.0% (magical layman class 3 spell)
+
+Comments:
+Protection from evil stoneskin spell
+
+Cannot be cast with some other maintained blessings (obless, oprotect, 
+oturn)
+
+If alignment of attacker greater than 350, query_dam_mod_valid returns 0 
+and no damage is blocked.
+
+
+LEVEL 7 SPELLS (Learned Disciple)
+===========================================================================
+
+
+
+
+LEVEL 8 SPELLS (Devoted Disciple)
+===========================================================================
+
+Spell name:      oprotect                  Element:      Life (40)
+Spell effect:    resistance spell          Form:         Abjuration (40)
+Type:            maintained                Difficulty:   ROUTINE
+Target:          living                    Combat aid:   30
+Spell power:     Class 2                   Mana cost:    Standard (30)
+
+Peaceful:        Yes                       Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    4s (less than 5 heartbeats standard) 
+Components:      solinaith herb (1572cc), holy water (46cc)
+
+TAX:             0.375% (magical layman class 2 spell, 
+                         Component cost >=1 gp: -25%)
+
+Comments:
+Standard resistance base spell.
+Protects against death magic, add_resistance(MAGIC_I_RES_DEATH, 38);
+
+Cannot be cast with some other maintained blessings (obless, oprotect, 
+oturn)
+
+
+LEVEL 9 SPELLS (Cleric)
+===========================================================================
+
+Spell name:      osmite                    Element:      Life (40)
+Spell effect:    mass harm spell           Form:         Abjuration (30)
+Type:            instant                   Difficulty:   HARD
+Target:          undeads                   Combat aid:   up to 50
+Spell power:     Class 3                   Mana cost:    Special
+
+Peaceful:        No                        Stationary:   Yes
+Verbal:          Yes                       Somatic:      Yes
+
+Casting time:    2.0x, 8s 
+Components:      holy water (46cc)
+
+TAX:             1% (magical layman class 3 spell)
+
+Comments:
+Mass harm spell against up to 5 creatures with the LIVE_I_UNDEAD prop, with
+depreciating damage after the first three. As with the standard mass harm
+spell, mana cost is dependent on the number of targets.
+
+Combat aid base is 50, but with white hit loss it effectively has a maximum
+caid of 150.
+
+Caid is reduced by 35 if obless or oprotect active.
+
+Caid is reduced by 15 if omend or oheroism active.
+
+Caid is reduced by 5 if osong is active.

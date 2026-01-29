@@ -1,0 +1,72 @@
+// ARMOUR:  splendid silk pantaloons
+//      DOME_ARMOURS + splen_pant
+
+    /*  Calia Domain
+
+        HISTORY
+        19aug99 Created by Khon.
+
+        PURPOSE
+        This is a basic armour template of a pair of
+        padded silk pantaloons.
+
+        WEAPON HISTORY
+        Stock padded silk pantaloons.
+
+    */
+
+// INCLUSIONS AND DEFINITIONS
+
+inherit "/std/armour";
+
+#include <formulas.h>
+#include <stdproperties.h>
+#include <wa_types.h>
+#include "/sys/formulas.h"
+#include "/sys/macros.h"
+
+// WEAPON DEFINITION
+void
+create_armour()
+{
+    set_name(({"pantaloons", "armour", "armor"}));
+    set_adj(({"silk","padded", "splendid"}));
+    set_short("splendid silver pantaloons");
+    set_pshort("splended silver pantaloons"); 
+    set_long("A pair of baggy silver pantaloons made " +
+        "of the finest silk, reinforced with additional" +
+        "lightweight but very strong layers of silk. " +
+        "They're extremely light and comfortable.\n");
+
+// ARMOUR VALUES
+    set_ac(
+
+// Armour value
+    10,
+
+// Set armour modifiers
+    set_am(({
+
+// vs impale damage
+    -1,
+
+// vs slash damage
+     2,
+
+// vs bludgeon damage
+    -1
+    }));
+
+// Where the armour protects
+    set_at(A_LEGS);
+
+// PROPERTIES
+    add_prop(OBJ_I_WEIGHT, F_WEIGHT_DEFAULT_ARMOUR(10, A_LEGS)/2);
+    add_prop(OBJ_I_VOLUME, query_prop(OBJ_I_WEIGHT)/5);
+    add_prop(OBJ_I_VALUE, F_VALUE_ARMOUR(10)*5);
+
+// Starting Corrosion
+
+// Starting Damage
+
+}

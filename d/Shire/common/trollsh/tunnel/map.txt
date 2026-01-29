@@ -1,0 +1,27 @@
+The caves are roughly divied into 3 layers, simply for naming 
+simplicity. This way if the caves need to be expanded, they 
+can without disburbing up the overall naming of the rooms.
+
+Starting at the bottom of the map, room names are taxx, 
+tbxx, tcxx, with xx replaced by the room number.
+
+
+
+               tc10-tc11-tc12 tgc1      tc13-tc14  tcg2          tc15-tc16-tc17-tc18
+              /       |      \  |      /         \  |           /                   \
+     tc01-tc02       shop     tc03-tc04           tc05      tc06-tc07-tc08           tc09
+    /                        /  |                   |      /            |              |
+tb01                     tb25 tb26-tbg5      tb27-tb28-tb29-tbg6      tb30-tbg7      tb31
+  | \                   /       |           /            |                \            |
+tbg1 tb02      tb15-tb16      tb17      tb18           tb19-tb20-tb21      tb22-tb23 tb24
+       |      /                 |         |                          \         /       |
+     tb03-tb04-tb05      tbg2-tb06-tb07-tb08-tb09-tb10-tb11-tb11 tbg3 tb12 tb13 tbg4-tb14
+    /              \                      |                     \  |      \  |      /
+ta01-ta02           ta06-ta07-ta08      ta21-ta23-tun-ta24-ta24a-ta25-ta26-ta27 ta20
+         \              /       |         |                  |     |           /
+          ta03      ta05      ta09      ta22           ta15-ta16 tag3      ta19
+              \    /            |      /              /         \         /
+               ta04           ta10-ta11-tag2      ta14           ta17-ta18-tag4
+                   \                   \         /                      
+                    tag1                ta12-ta13
+

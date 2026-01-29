@@ -1,0 +1,92 @@
+main
+::MAPDATA::
+bank 60 19
+brguard_s_1_1 33 23
+brguard_s_2_1 33 22
+brguard_s_3_1 33 21
+brguard_n_1_1 33 5
+brguard_n_2_1 33 4
+brguard_n_3_1 33 3
+grandstand1 37 27
+grandstand2 35 28
+grandstand3 37 28
+grandstand4 39 28
+grove1 33 25
+grove2 29 23
+grove3 25 21
+grove4 21 19
+grove5 17 17
+grove6 21 15
+grove7 25 13
+grove8 29 11
+grove9 33 9
+grove10 37 11
+grove11 41 13
+grove12 45 15
+grove13 49 17
+grove14 45 19
+grove15 41 21
+grove16 37 23
+hospital 6 19
+lesser1 29 27
+lesser2 29 25
+lesser3 33 27
+lesser5 37 25
+lesser6 41 25
+lesser7 25 25
+lesser8 21 23
+lesser9 17 21
+lesser10 13 19
+lesser11 17 19
+lesser12 13 17
+lesser13 13 15
+lesser14 17 15
+lesser15 17 13
+lesser16 21 11
+lesser17 25 9
+lesser18 29 7
+lesser19 29 9
+lesser20 33 7
+lesser21 37 7
+lesser22 37 9
+lesser23 41 9
+lesser24 45 11
+lesser25 49 13
+lesser26 53 15
+lesser27 49 15
+lesser28 53 17
+lesser29 53 19
+lesser30 49 19
+lesser31 49 21
+lesser32 45 23
+::MAPDATA::
+
+ 
+                                 ^          @~~~~~~~~~~~~~@
+                                | |         (Lesser Zone(
+                                | |          )     of    )
+                            ____| |____     ( Thalassia (
+                          /      |      \    @~~~~~~~~~~~@
+                        /    o - o - o    \        
+                      /    / | x | x | \    \
+                    /    o - o - o - o - o    \
+                  /    /       / | \       \    \
+                /    o       o  )@(  o       o    \
+              /    /       /   /   \   \       \    \
+ |=========|/    o       o   /       \   o       o    \|=========|
+ |  West   |   / |     /   /           \   \     | \   |   East  |
+ |Barracks - o - o   o   /               \   o   o - o - Barracks|
+ |=========| | x | /   /                   \   \ | x | |=========|
+         @ - o - o - =@=      Citadel      =@= - o - o - @
+ |=========| | x | \   \                   /   / | x | |=========| 
+ |         - o - o   o   \               /   o   o - o -         |
+ |  Medic  |   \ |     \   \     ^     /   /     | /   |   Bank  |
+ |=========|\    o       o   \  | |  /   o       o    /|=========|
+              \    \       \   \| |/   /       /    /
+                \    o       o  | |  o       o    /
+                  \    \       \ | /       /    /
+                    \    o - o - o - o - o    /
+                      \    \ | x | x | /    /
+                        \    o - o - O    /
+                          \_____ | _____/
+                                )@(

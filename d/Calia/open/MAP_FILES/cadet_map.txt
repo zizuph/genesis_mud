@@ -1,0 +1,91 @@
+main
+::MAPDATA::
+cadet_boardroom 54 15 hall
+cadet_droproom 54 15 hall
+cadet_mess 54 15 hall
+cadet_post 54 15 hall
+cadet_sitroom 54 15 hall
+cadet_startroom 54 15 hall
+hall_of_peace 54 15 hall
+::MAPDATA::
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+.                                                                       .
+.                             """"""""""""""""                          .
+.                             :""" Firedrome :""                        .
+.                              :""""" Area """""                        .
+.          _______          """"":"""""""":"":"""                       .
+.         /_______\    ___      |      ___________                      .
+.         |  ___  |   /___\ o - o     /___________\                     .
+.         |__|_|__|   |Inn| |`.'|      ||  ___  ||                      .
+.      Post Office\   |___| o'-`o - - -||__|||__||                      .
+.                  \    | .'|`.'|`. |  Guardhouse/Jail                  .
+.   Alchemist /\    \ - o'- o'-`o -`o                   Gelan School    .
+.     ______ |~~|   | .'|`.'|`.'|`.'|`.                 and Academy     .
+.    /Shop /||__|-- o'-`o'-`o'-`o'-`o -`o                ______         .
+.   /_____/ |     .'|`.'|`.'|`.'|`.'|`.'|`.             /     /\        .
+.   |     | |---o'- o'-`o'-`o'-`o'-`o'-`o -`o - - - - -/_____/ /        .
+.   |_____|/    |`.'|`.'| .'  ~  `. |`.'|`.'| Sparkle  \_____\/         .
+.  ______   o - o'-`o'-`o'  ~~~~~  `o'-`o'-`o - o           ____        .
+. /      \      |`.'| .'  ~~~~~~~~~  `. |`.'| Portal   ____/   /\Tattoo .
+. | Bank |----- o'-`o'  ~~~~~~~~~~~~~  `o'-`o - - - - /   ____/ /Parlour.
+.  \    /    ___|`. |`.   ~~~~~~~~~   .'| .'|___     /___/\___\/        .
+.   \__/    /   /\-`o -`o   ~~~~~   o'- o'- /__/\    \___\/ Hair        .
+.     Bubba/___/ /__|`. |`.   ~   .'| .'___ \__\/           Dresser     .
+.      the \___\//  /\-`o -`o - o'- o'-|   |  Lavatories                .
+.  Blacksmith __/  /_/  _`. |`.'| .'_  |___|                            .
+.            /______/\ |o -`o'-`o'- o| Bakery                           .
+.    Grocery \______\/ ==== |`.'| ====                                  .
+.      Store       Stables  o'-`o  Stables                              .
+.                   _____   |`.'|                                       .
+.     Public Board /    /\- o'-`o                                       .
+.       of Gelan  /____/\/  |                                           .
+.                 \____\/   o                   City of Gelan           .
+.                           |                 Capital of Calia          .
+.                 ~~~~~~~~~~~~~~~~~~~~~~                                .
+.                 ~ exit to Roundabout ~                                .
+.                 ~~~~~~~~~~~~~~~~~~~~~~                                .
+.                                                                       .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+::NEWMAP::
+hall
+::MAPDATA::
+cadet_boardroom 63 16
+cadet_droproom 13 16
+cadet_mess 23 24
+cadet_post 39 28
+cadet_sitroom 23 28
+cadet_startroom 39 16
+hall_of_peace 47 8
+::MAPDATA::
+                          | |          | Cadet    | |
+                     ____/  |__        |Training__|  \____
+                    /          \       | Room  /          \
+                   /            \__    o    __/_.-""""-._  \
+                  /                \==:|:==/ .'          `. \
+                 /                  |  |  | / The Hall of  \ \
+                / ===============   |  |  ||     Peace      | \
+               /  CADETS OF GELAN   |  |  ||                |  \
+              /     GUILD  HALL     |  |  ||   o            |   \
+             /    ===============   |  |  | \    ladder    /     \ 
+            /                    ___|  |  |__`.H  down  _.'       \
+           /                    /      |      \H`-....-'           \
+          / ______             /       |       H        ___________ \
+         / /      |           /        |ladder H\      |           \ \
+        / /       |          /         |   up  H \     |            \ \
+       / |        |_________/          |          \____|             | \
+      /  |   o - - - - - - - - - - - - o - - - - - - - - - - - o     |  \
+      \  |         _________         , | The Hall  ____              |  /
+       \ |Armoury |         \      ,'  |  of War  /    | Discussion  | /
+        \ \       |          \   ,'    |         /     |    Room    / /
+         \ \______|         ,' ,'      |        /      |___________/ /
+          \               ,' ,'        |       /                    / 
+           \  __________,' ,' .'\___   |   ___/                    /
+            \ \  Mess    ,' .'      |  |  |                       /
+             \ \ Hall  o    \       |  |  |                      /
+              \ \      |     \      |  |  |____________         /
+               \ \====:|:=====\     |  |               |       /
+                \ \    |       \    |  |               |      /
+                 \ \   o Sitting\   |  o      Guild    |     /
+                  \ \      Room  |  |      Post Office |    /
+                   \ \___________|  |__________________|   /
+                    \_____________________________________/

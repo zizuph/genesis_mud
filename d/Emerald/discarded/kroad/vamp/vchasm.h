@@ -1,0 +1,5 @@
+#define VAMP_KR_DIR "/d/Emerald/kroad/vamp/"
+#define VAMPNPC_DIR VAMP_KR_DIR+ "npc/"
+#define VAMPWEP_DIR VAMP_KR_DIR+ "wep/"
+#define VAMPOBJ_DIR VAMP_KR_DIR+ "obj/"
+#define VAMPARM_DIR VAMP_KR_DIR+ "arm/"

@@ -1,0 +1,23 @@
+Name: Paralyze
+
+Object: /d/Sparkle/guilds/arcane/spells/paralyze.c
+
+Cost: 
+
+Skills: 
+
+Description: Tier 4 spell
+                 Targets: 1, unspecified defaults to current enemy (if
+		              currently in combat)
+		 Stuns the target for a brief period of time with a 'shock'
+		 from lightning. After getting over the initial shock of being
+		 struck, the target is somewhat dazed, meaning that their
+		 combat speed has been reduced. Clones a spell effect
+		 object in the target that adds the stun prop. After the
+		 duration of the stun is over, removes the stun prop and
+		 temporarily reduces speed.
+		 
+Requirements: 
+    SS_ELEMENT_LIFE
+    SS_FORM_CONJURATION
+    Apricot

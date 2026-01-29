@@ -1,0 +1,45 @@
+
+     Spell name: protection - magic
+                 trotharcanis
+         Effect: Magical resistance to magic
+           Type: Maintained
+        Targets: Single living
+        
+        Element: Water         / 50
+           Form: Abjuration    / 60
+    Spell power: Power 4 [Advanced spell]
+     Spell type: resistance spell 
+     
+       Peaceful: No
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: solinaith (1572cc)
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_HARD
+     Combat Aid: 30%
+
+            Tax:  1.0
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.75  hard difficulty
+                  x0.75  material component (>=1 gp value)
+                 ------
+                  0.563%  total tax
+   ------------------------------------------------------------
+   Comments: A protection spell offering up to 37% resistance
+   to a _magic_i_res_* type of the spellcasters choice.
+
+   Combat aid applied is 30%, modified by there being only one
+   type of magic benefit provided by the spell (modifier of
+   / 0.8).
+
+   This spell is influenced by the WoHS moon phase feature, so
+   combat aid can fluctuate on average by ~+ or - 25%. See
+   /d/Krynn/guilds/wohs/doc/WoHS.txt for specifics.
+   ------------------------------------------------------------

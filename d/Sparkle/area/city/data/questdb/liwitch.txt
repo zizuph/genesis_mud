@@ -1,0 +1,36 @@
+domain,quest desc,group,bit,hint,validation,arguments
+Liwitch,Ask who\, what and where?,0,0,Quest starts to find the island.,default
+Liwitch,Find Liwitch Island (1st clue),0,1,,default
+Liwitch,Find Liwitch Island (2nd clue),0,2,,default
+Liwitch,Find Liwitch Island (3rd clue),0,3,,default
+Liwitch,Find Liwitch Island (4th clue),0,4,,default
+Liwitch,Find Liwitch Island (5th clue),0,5,,default
+Liwitch,Find Liwitch Island (Merge clues),0,6,,got_5_clues
+Liwitch,Fishermans Loss,4,19,,island_found
+Liwitch,The Pearl,4,19,,island_found
+Liwitch,The Drunken Master,4,19,,island_found
+Liwitch,The Mine,4,19,,island_found
+Liwitch,The Platinum Run,4,19,,island_found
+Liwitch,Snips\, Snails and Puppy Dog Tails,4,19,,male
+Liwitch,Sugar\, Spice and Everything Nice,4,19,,female
+Liwitch,A Faerie in My Hair (Part 1),4,19,,average_stat_below_70
+Liwitch,A Faerie in My Hair (Part 2),4,19,,faerie_1_done
+Liwitch,Faerie Friends and Frost Fire,4,19,,faerie_2_done
+Liwitch,I'm Not the Only Animal,4,19,,island_found
+Liwitch,Wherever the Waves Will Take Me,4,19,,island_found
+Liwitch,Stealing from Styles,4,19,,island_found
+Liwitch,The Quest of Time,4,19,,island_found
+Liwitch,Airborn,4,19,,island_found
+Liwitch,Honor of Liwitch,4,19,,island_found
+Liwitch,The Forbidden Zone,4,19,,island_found
+Liwitch,The Legions of Sand,4,19,,island_found
+Liwitch,Down the Drain,4,19,,island_found
+Liwitch,Underearth,4,19,,island_found
+Liwitch,Do or Die,4,19,,island_found
+Liwitch,Tome of Wisdom,4,19,,player_age_above_100
+Liwitch,I Will Be Your Champion (Chmp1),4,19,,average_stat_above_100
+Liwitch,Crossroads (Chmp2),4,19,,chmp_1
+Liwitch,Champion of Liwitch (Chmp3),4,19,,not_underworld_champ
+Liwitch,Champion of the Underworld (Chmp4),4,19,,not_liwitch_champ
+Liwitch,Where Death Plays the Eternal Game,4,19,,average_stat_above_140
+Liwitch,Eternity Is a Fleeting Moment,4,19,,average_stat_above_200

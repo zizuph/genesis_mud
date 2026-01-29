@@ -1,0 +1,22 @@
+The following spells are available to the Morgul Mages:
+
+Spell name        Description                                   Element Form
+----------------- ------------------------------------------------------------
+Naro Drego Nin    Increase panic                                Death   Ill
+Naro Libo Makil   Break swords                                  Death   Tra
+Naro Maetho       Cause two targets to attack each other        Death   Ill
+Ringurth          Armour increase (stoneskin)                   Death   Con   x
+Crabandir         Scry                                          Death   Con   x
+Yalarochrama      Summon a winged steed (transportation)        Death   Con   
+Sulambar          Stat cloud                                    Air     Con   x
+Palanquendo       Tell                                          Air     Con   x
+Artirith          Invisibility                                  Air     Enc   x
+Nifarist          Forget name                                   Air     Abj   x
+Arhalgul          Reveal magic properties                       Air     Div   x
+Narusse           Enhance blade (skill raise)                   Fire    Enc   x
+Narkirisse        At will spell using a narusse blade           Fire    Con   x
+Turniawath        Magic resistance                              Fire    Enc   x
+Faugoroth         Stun                                          Death   Con   x
+Gostangwedh       Slow                                          Death   Ill   x
+Morthul           Harm                                          Death   Con   x
+Gorothnatha       Harm (low level)                              Death   Enc   x

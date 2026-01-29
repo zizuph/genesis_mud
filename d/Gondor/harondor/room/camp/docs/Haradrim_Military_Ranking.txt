@@ -1,0 +1,56 @@
+
+Haradrim Military Ranking
+=========================
+
+
+Grunts:
+---------------
+[01] Und'Koro
+[02] Koro
+[03] Konshao
+[04] Fushio
+[05] Ohr'Fushio
+
+After these five first ranks have been reached the player
+gets to become scout and then the five titles again to
+finally land as a outrunner.
+
+Scout postfix: Sholo
+Outrunner postfix: Rozu
+
+Low Officers: (Pre word of 'Dai' on this rank)
+-------------
+[06] Und'Zeshot
+[07] Zeshot
+[08] Ohr'Zeshot
+[09] Balo'Zeshot
+[10] Und'Menfaz
+[11] Menfaz
+[12] Ohr'Menfaz
+[13] Balo'Menfaz
+[14] Pefalo
+[15] Britzanou
+
+Officers: (Pre word of 'Xae' on this rank)
+---------
+[16] Fandah
+[17] Balo'Fandah
+[18] Korneth
+[19] Balo'Korneth
+[20] Und'Lojnadi
+[21] Lojnadi
+[22] Balo'Lojnadi
+[23] Kaola
+[24] Maboxr
+[25] Ozertini'Lojnadi
+[26] Ozertini
+[27] Mash'Ozertini
+
+A thought of complete title:
+<name> ahn toh <family name> toh <title>, <mortal level>, male/female haradrim
+(<name> of the <family name> the <title>, <mortal level>, male/female haradrim)
+
+Examples:
+Finwe ahn toh Moshe'Kaan toh Dai Menfaz, champion, male haradrim
+Toby ahn toh Opode'Nam toh Xae Kaola, champion, male haradrim
+Lucia ahn toh Opode'Nam toh Konshao, hero, female haradrim

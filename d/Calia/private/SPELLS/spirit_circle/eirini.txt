@@ -1,0 +1,7 @@
+Peace -            This will stop the fighting in a room. If the enemies
+                   are auto-attackers (aggressive), they may re-attack
+                   immediately if they wish to do so. This spell will be
+                   able to be cast in combat (obviously) and will NOT
+                   initiate combat (obviously again). Requires a
+                   carnelian. 40 mana. This spell is available to all
+                   level 3 and higher guild members.

@@ -1,0 +1,43 @@
+Mummers of Sybarus has opened.             41 Lilith      Wizard     Sep  9
+
+A minor guild, the Mummers of Sybarus, was opened in Avenir today.
+
+It is located in the Sybaurs Bazaar. Players my join, leave, and
+restore guild objects at ~Avenir/common/bazaar/extr/str5 where
+the npc called Nygel (~Avenir/common/clubs/mummer/nygel) is located.
+Those who join receive a mummer's cap (~Avenir/common/clubs/mummer/
+mum_cap) as the guild object.
+
+As a minor guild it offers nothing in the way of combat aid to 
+members so there is no tax on experience. It does prevent speech
+when players are miming: This is not a bug ;)
+
+
+   The Mummers of Sybarus have the following abilities:
+
+      mcap       Make the prongs of your cap bounce and jingle. 
+                  [You must be wearing the mummer's cap]
+      mcoin      Make a gold coin appear <from someone's ear>.
+                  [You must have a gold coin]
+      mfireat    Extinguish torches and candles with your mouth. 
+                  Also <fireat>.
+      mflip      Do cartwheels and backflips <around someone>.
+      mummer     List of documents relating to this club.
+                  <mummer emotes> & <mumhelp emotes>   This list. 
+      mscarf     Sleight-of-hand trick with a scarf and a coin. 
+                  [You must have a scarf and a coin].
+      msleeve    Show that you have nothing up your sleeves ;)
+      mstand     Balance on your hands.
+      mtaste     Fire-tasting: Light your tongue on fire.
+      mtip       Tip your mummer's cap to solicit coins for your 
+                  performance.
+      mtoes      Juggle things (like coins, knives, etc) with your 
+                  toes. [You must be barefoot to do this].
+    $ mtwist     Inflate intestines and bladders and twist them into
+                  figures. [See <mummer twist> for more information.]
+      mwall      Pantomime being stuck behind a wall.
+      mwalk      <on/off> To arrive walking on your hands.
+
+    * mstop      To stop performance sequences like mscarf and mwall.
+
+Yours, Lilith of Avenir

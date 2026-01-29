@@ -1,0 +1,91 @@
+I. Interdomain lines [only from Sparkle]
+
+* Sparkle - Palanthas
+* Sparkle - Kalaman
+* Sparkle - Sanction
+
+* Sparkle - Grey Havens
+* Sparkle - Poros
+
+* Sparkle - Avenir Outpost Port
+
+* Sparkle - Gont City
+
+* Sparkle - Kabal
+
+* Sparkle - Cadu (*)
+
+* Sparkle - Last
+
+* Sparkle - Telberin (*)
+
+* Sparkle - Gelan (*)
+
+* Sparkle - Faerun
+
+* Sparkle - Raumdor (*)
+
+* Sparkle - Cirath (airborne)
+
+II. Intradomain lines [suggestions]
+
+* Sparkle - Golden Island (*)
+* Sparkle - Faerie (*)
+
+* Cadu - Eil Galaith (*)
+* Cadu - Port Macdunn (*)
+* Cadu - Sa Morgan (*)
+* Port Macdunn - Tabor Sogh
+* Port Macdunn - Baile Ashlaigh
+
+* Last - Enchanted Garden
+* Last - Dabaay
+
+* Telberin - Northern Shore Outpost
+* Telberin - Grunts Lake
+
+* Calian Northern Shore - Eldoral (-)
+
+* Grey Havens - Tharbad
+* Grey Havens - Pelargir
+* Grey Havens - Poros
+* Poros - Tharbad
+* Poros - Pelargir
+* Pelargir - Minas Tirith
+
+* Palanthas - Kalaman - Sanction
+* Palanthas - Mithas
+* Palanthas - Newports
+* Palanthas - Icewall
+* Palanthas - Flotsam
+* Palanthas - Solace
+* Sanction - Icewall
+* Sanction - Balifor
+* Sanction - Kurinost
+* Sanction - Flotsam
+* Flotsam - Mithas
+* Balifor - Kurinost
+* Balifor - Icewall
+* Kalaman - Vingaard
+* Kalaman - Mithas
+* Kalaman - Flotsam
+
+* Avenir Outpost - Sybarus (-)
+* Sybarus - Isle of the Dead (-)
+
+* Gont - Thwil
+
+III. Thematic interdomain non-Sparkle lines:
+
+* Kalaman - Harlond - Gelan 
+* Poros - Sanction - Telberin
+
+IV. Newbie circle lines (free passage, up to stat av. N (TBD))
+
+* Sparkle - Gelan - Solace - Pelargir
+* Gelan - Sparkle - Port Macdunn - Grey Havens (*)
+* Sparkle - Gelan - Cadu - Enchanted Garden (Terel) (*)
+* Gelan - Sparkle - Gont - Kabal
+
+The lines marked with (*) have been implemented.
+The lines marked with (-) will not be converted

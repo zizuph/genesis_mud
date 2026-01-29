@@ -1,0 +1,131 @@
+
+Steed.txt, by Fysix@Genesis
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Solved problems with the steed:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* I tried moving the steed with the player like the code when teaming.
+This means that whatever exit command the rider uses will be executed by
+the steed as well. This raises one big problem: when the steed executes
+the move command, the third arg of add_exit is evaluated. Some exits
+have a vbfc in here which moves the steed to a certain room, or perhaps
+blocks it even. And when the steed is moved to a different room as the
+rider, we're in troubles. Leave/enter messages should be different when
+rider and steed end up somewhere else somehow, but this is impossible to
+do (or extremely difficult with extremely dirty coding). For this reason
+we just move the steed to the same room as the rider goes. Some skills
+and stats of the rider, related to moving are redirected (via a shadow)
+to the steed, like SS_CLIMB, SS_SWIM, SS_STR, SS_DEX and SS_CON. There
+are functions in the steed to designate the skills and stats to redirect
+(set_redir_stats, set_redir_skills, and according query functions).
+
+* fatigue: add_fatigue is being redirected for 75% using some random
+to the steed by the rider-shadow if the fatigue is added by a 
+room-object (using the ROOM_I_IS property). This allows for spells
+and poisons still to tire the player.
+
+* The shadow of the player shadows functions like when
+the rider is attacked. The function forces a dismount in
+the steed, which at first removed the shadow too. This
+raised the problem that the function stopped being executed
+after the dismount. An alarm isn't a very elegant solution
+for this, so I added a special function in the steed sh_do_dismount
+next to do_dismount, which doesn't remove the shadow.
+When the shadow forces a dismount, afterwards it has to remove
+itself though!
+In general, nothing gets executed after remove_shadow() anymore,
+so a function like move_living might not even reach the point where
+values are returned. Not sure if this is a problem though.
+
+* Moving the other riders on the steed is solved by letting
+the driver be moved first. The driver's move_living is shadowed
+and gives a call to the steed that it has to move itself and
+all the other riders (drive_steed function, which has the same
+arguments as move_living). The drive_steed function calls
+move_living_old in the other riders. move_living_old just calls
+the original move_living function in the shadowed rider.
+
+* In some occasions the horse moves by itself (panic for instance)
+in which case all the riders should move along. This is done by
+a masked move_living function in the steed. (The drive_steed function
+doesn't move the driver of the steed, this function is usually called
+from the driver's shadow when the driver is moving.
+Further the drive_steed function does not do a destiny check, because
+that was already done by the driver's shadow.).
+
+* Mounting and dismounting is done with add_actions. 
+I first had a soul for these actions to prevent 
+these actions being added every time the rider/steed moves.
+By checking eval cost with "Call me command w" etc, I found out that
+add_action was faster than having an extra soul after all *scratch*.
+Everything moved back to the add_action stuff, the soul is not used.
+
+* Feeding: the steed inherits the module feeding.c, which can be used
+by other livings as well. The feed command is present in steed_soul.c
+next to the mount and dismount functions. The soul only does a syntax
+check, the feeding is totally handled by the
+do_feed(mixed food_object(s)) function in feeding.c. The action is
+in the steed itself now, perhaps move it to a cmdsoul of all livings
+in the future?
+
+* The old move_living function of the player is still available under
+move_living_old.
+
+* The old short function of the steed is still available under short_old.
+
+* shadowing query_m_in and query_m_out does not work, hence the new
+messages for leaving and arriving. They are put back when the player
+dismounts or when he quits he will have an autoloading object restoring
+him when logging in again.
+
+* Reveal hidden players when mounting. Plus sneak and hide skill are
+redirected to the steed standard.
+
+* August 1997: When teaming and the leader was on horseback, the follower
+did not see the leader in the destination room, since the steed (that
+describes the leader) was moved lastly. Also there were some bugs related
+to teaming with 2 riders on one horse. The second rider tried to move
+(because of the teaming) and gets error messages that he is not the driver.
+Both problems were solved by redoing some of the teaming code: when a driver
+of a steed is also the leader of a team, first the leader is moved, then the
+steed, then the co-riders, and lastly the rest of the team.
+
+* September 1997: When a player quit while being on the horse, it tried
+to reset the player's leave and arrive messages. After this it called
+save_character() in the player to save him. But at in the quit sequence
+the remove_object function in the steed shadow is called last, and at
+that moment the player no longer has any inventory. So when the player
+quitted while mounted he lost his inventory. Solved this by having an
+autoloading object that restores the player's leave and arrive messages
+when this happens.
+
+Problems/mudlib requests left:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* emotes... emote_hook is almost perfect for it, so an add_action for
+intercepting "tackle horse" seems a bit wasteful. Requested mudlib support
+to solve this decently (try_emote hook).
+
+* searching: can't search when mounted. Best be solved by a change in
+mudlib. Players that have the LIVE_O_STEED prop set, can't search. 
+Can be done by letting the rider carry a rider object that
+intercepts some commands.
+
+* auto-attacking monsters: it's rather annoying being dismounted each
+time u run into a room with auto-attacking monsters. And perhaps impossible
+to run by it with your horse. Add some LIVE_I_NO_AUTO_ATTACK prop?
+
+* Getting stuff from the ground etc should not be possible mostly.
+This might be done in the mudlib too? Can be done by letting the rider
+carry a rider object that intercepts some commands.
+
+* A nice hook for when the player quits, I don't like the autoloading object
+for restoring the player when he quits while mounted.
+
+* A hook for linkdieing. The steed is moved to the statue room where the
+player dismounts, and then the steed is moved back. This is because the
+current hook is called after the player is moved to the statue room (for
+security reasons). It's nicer though if the the hook is called before the
+move. Another solution is to put in another check in move_living of the
+steed shadow. But as this function is already getting quite large and is
+called much more often I don't like this solution.

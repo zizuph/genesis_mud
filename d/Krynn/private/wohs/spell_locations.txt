@@ -1,0 +1,80 @@
+ABJURATION			LOCATION
+--------------------------------------------------------------------------------
+Protection from Dragonfear #    (added) High Clerist Tower museum
+Blink #                         (added) Palanthas great library
+                                /d/Krynn/solamn/palanthas/library/public
+Magic Shield $                  (added) Haven Mageware
+Minor protection - fire         (added)private chambers of Lord Verminaard 
+                                /d/Krynn/pax/tharkas/ground_level/private_quarters
+Minor protection - acid         (added) Xak Tsaroth dragon lair chest (50% chance)
+                                /d/Krynn/xak/caverns/cavern
+Minor protection - lightning    (added) Blue dragon lair 
+                                (/d/Krynn/solamn/eplains/dragon_lair.c)
+Minor protection - poison       (added) Green dragon lair 
+                                (/d/Ansalon/balifor/flotsam_forest/dark_forest/lair)
+Minor protection - cold         (added) Icewall - village cleric /d/Krynn/icewall/plains/living/cleric
+                                (/d/Krynn/icewall/plains/village/trade)
+Retributive ward (reflect)      (added) Banshee queen /d/Ansalon/goodlund/bloodsea/island/tower03
+
+ENCHANTMENT
+----------------------------------------------------------------------------
+Faerie Fire                   [unseeded]  (Silvanesti if not used by drow)             
+Scare (fatigue/panic) #       (added) scroll 1% chance seeded in flotsam forest troll lair
+                              (/d/Ansalon/balifor/flotsam_forest/room/troll_lair.c)
+Curse (illfortunate) #        (added) Ruins Flotsam Forest 
+Dazzle (slow)		      [unseeded]     
+Psychic blast                 (added) Banshee treasure room - Pax Tharkas 
+                              /d/Krynn/pax/sla_mori/treasure_vault
+Dominate (stun) #             (added) Fael-Thas  (/d/Krynn/icewall/castle2/npc/fael-thas.c)  
+                              (/d/Krynn/icewall/castle2/rooms/library_secret )      
+
+DIVINATION
+----------------------------------------------------------------------------
+Read Magic *                  (added) ~poolbottom/room/library.c
+Divine magi                   (added) ~poolbottom/room/library.c
+Detect magic $                (added) Haven Mageware 
+Detect resistances            [WoHS library - WoHS spell only!] 
+Speak with Dead #             (added) Solace graveyard / Dargaard Keep
+                              20% chance /d/Ansalon/dargaard/npc/tree_wraith
+Wind Whisper *                (added) ~poolbottom/room/library.c 
+Identify                      [WoHS library - WoHS spell only!]
+                              (removed) Palanthas Mageware /d/Krynn/solamn/palanthas/merchants/alchemist  
+Scry $                        (added) Astinus' private chamber /d/Krynn/solamn/palanthas/library/private 
+Truesight (see invis/dark) #  (added) Druid grove   
+
+
+TRANSMUTATION
+----------------------------------------------------------------------------
+Wand light *                  (added) ~guilds/sohm/npcs/theobald.c   
+Light @                       (added) Port Balifor mageware 
+                              /d/Ansalon/balifor/port_balifor/room/pb_mageware_shop             
+Enchant weapon $              (added) Fermammon, get faerie dragon egg   
+Mage strength #               (added) In chest of merchant ship 
+                               /d/Ansalon/goodlund/bloodsea/room/8f.c  
+Stoneskin $		      (added) Hobgoblin caves near Palanthas, started at Dougan in Flotsam
+                              then to Kirk in Palanthas (seeking Dougan's onjat dice)
+
+CONJURATION
+----------------------------------------------------------------------------
+Magic Missile #		      (added) ~darkenwd/road/npc/herbalist.c
+Fire dart *                   (added) ~poolbottom/room/masters_room.c  
+Acid arrow #                  (added) seed with bozak draconians (5% drop)  
+Lightning Bolt #              (added) /d/Ansalon/balifor/flotsam_forest/coastline/cottage2  
+Flame lance #                 (added) seed with aurak draconians (20% drop)  
+Ice strike #                  (added) Icewall library drawer (/d/Krynn/icewall/castle2/rooms/library)
+ 
+
+ILLUSION
+----------------------------------------------------------------------------
+Fool's curse *                (added) ~poolbottom/living/faldarten.c    
+Prismatic spray #             (added) ~solace/new_village/house/tika.c  
+Blur #                        (added) Pouch of a dead kender, black dragon lair 
+                              (/d/Ansalon/goodlund/nethosak/forest/room/crack)
+Invisibility #                (added) Kalaman mage tower (/d/Ansalon/kalaman/city/tower02) 
+Gloom (darkness) #            (added) Xak Tsaroth dragon lair chest (50% chance) 
+
+
+* taught at SoHM guildhall
+@ purchased from mageware store (Haven, Palanthas, Balifor)
+# found
+$ task

@@ -1,0 +1,96 @@
+This document will explain how a member of the Elemental Clerics (EC)
+guild advances in the guild.
+
+When a player joins the EC, the hold the guild rank of Child.
+As a Child, the player has a limited number of spells and has
+not chosen a branch (Diety) to specialize in. 
+
+There are two things that impact an EC's title; guildstat and
+practice level. Guildstat is gained by the normal way everyone
+else gains it, gaining experience and a portion goes towards
+the guildstat. Practice level is gained by actually successfully
+casting spells and that value is stored in the player's guild
+player file (/d/Calia/guilds/elementalists/data/<playername.o>).
+
+When a Child gains a certain amount of practice level, the
+adjective in their title will change (currently Child adjectives
+are Unproven, Fledgling, Promising, Gifted, Accomplished, 
+Learned).
+
+When a Child gains a certain amount of OCC guildstat, the rest
+of their title will change (currently Child titles are 
+Novitiate of the Elementals, Student of Vision, Neophyte of 
+Insight, Aspirant of Enlightenment, Eidolon of Transcendence).
+
+Once a Child has reached the top Child adjective and top Child 
+title (currently Learned Eisolon of Transcendence), they are
+eligible for their Mentor to put them forth for promotion
+into the Master Cleric rank. This isn't an automatic promotion
+however unless there are major reasons why they should not be
+promoted, everyone who reaches this title should be promoted
+to Master rank.
+
+There is a ceremony that is held in the private chapel in the 
+Elemental Temple at which time the Child is promoted to the
+rank of Master.
+
+At this point, the Master Cleric will be instructed to head
+to the Conduit Chamber and <divine>. They will go through
+five different visions and witness not only critical events
+that have taken place in the past and near future, but they
+will also show them the type of playstyle and spells they
+will receive under each Diety. Once they have divined all of
+the visions, they will select a Diety to serve by worshipping
+them at their appropriate statue in the Elemental Temple.
+
+Now the player will have the spells from that branch and will
+continue to grow by gaining experience and casting spells in
+order to progress their adjectives and title. Once they reach
+140 in their occ guildstat, they will be prompted with another
+vision when they enter the realms. This vision will guide 
+them to start/complete their Guru quest. Completing this 
+quest will grant them the ability to train higher skills and
+unlock more power (higher CAID) in some of their spells.
+
+Once a Master has reached the top Master adjective and top
+Master title for their branch (as an example, Fire branch
+maxxed Master title would be Glorious Master/Mistress of 
+Fire) AND they have completed their Guru quest, they are
+eligible to be promoted to the rank of Full Master. Again
+this isn't an automatic promotion however unless there are
+major reasons why they should not be promoted, everyone who
+attains this title should be promoted to Full Master rank.
+
+There is a ceremony that is held in the private chapel in the
+Elemental Temple at which time the Master is promoted to the
+rank of Full Master.
+
+At this point, the Full Master Cleric will gain their 
+Syndyasmos spells (combination spells) and this is where
+most players in the guild will stop advancing in rank.
+They also gain the ability to choose a custom title in the
+guild out of a selection of adjectives and titles that will
+vary depending on which branch they are in.
+
+There is one higher rank in the guild, Elder. Elder Clerics
+are chosen by the guild council and other Elder Clerics
+and have one extra responsibility within the guild; being
+a mentor to Child clerics. If a player has shown they are
+responsible (in keeping guild secrets, following guild
+rules, being a helpful player to others), they can be 
+asked by other Elders or Council members if they wish to
+become an Elder. If they decide they want to be promoted,
+there is a ceremony that is held in the private chapel in 
+the Elemental Temple at which time the Full Master is 
+promoted to the rank of Elder. Elders only have one ability
+that Full Master rank clerics and below don't have; they
+can allow (with Council permission) a player to join the 
+guild.
+
+The Council will consist of one member from each branch
+(if available) and should be no more than five members.
+Council members have the ability to allow players to join
+the guild, can hand out punishments to the members, can
+expel members, and decide who will be Elder ranked Clerics.
+They also decide when the ceremonies take place to promote
+players up ranks.

@@ -1,0 +1,168 @@
+main
+::MAPDATA::
+abovegate 44 16 neraka_outer_green
+bar1 44 16 neraka_outer_green
+g1 44 16 neraka_outer_green
+g2 44 16 neraka_outer_green
+g3 44 16 neraka_outer_green
+g4 44 16 neraka_outer_green
+g5 44 16 neraka_outer_green
+g6 44 16 neraka_outer_green
+g7 44 16 neraka_outer_green
+g8 44 16 neraka_outer_green
+g9 44 16 neraka_outer_green
+g10 44 16 neraka_outer_green
+g11 44 16 neraka_outer_green
+g12 44 16 neraka_outer_green
+g13 44 16 neraka_outer_green
+g14 44 16 neraka_outer_green
+g15 44 16 neraka_outer_green
+g16 44 16 neraka_outer_green
+g17 44 16 neraka_outer_green
+g18 44 16 neraka_outer_green
+g19 44 16 neraka_outer_green
+g20 44 16 neraka_outer_green
+g21 44 16 neraka_outer_green
+g22 44 16 neraka_outer_green
+g23 44 16 neraka_outer_green
+g24 44 16 neraka_outer_green
+g25 44 16 neraka_outer_green
+g26 44 16 neraka_outer_green
+g27 44 16 neraka_outer_green
+gatehouse 44 16 neraka_outer_green
+post 44 16 neraka_outer_green
+t1 44 16 neraka_outer_green
+t2 44 16 neraka_outer_green
+t3 44 16 neraka_outer_green
+t4 44 16 neraka_outer_green
+t5 44 16 neraka_outer_green
+t6 44 16 neraka_outer_green
+t7 44 16 neraka_outer_green
+tow1 44 16 neraka_outer_green
+tow2 44 16 neraka_outer_green
+ware1 44 16 neraka_outer_green
+ware2 44 16 neraka_outer_green
+ware3 44 16 neraka_outer_green
+::MAPDATA::
+                        
+                                                                            
+      N                 
+      ^                                         
+      |                                       _                    _____      
+   <--o-->                                  ,/ \                  /    /      
+      |                              __     |   \,    ,     ,    `\_^_\       
+      =                            _/  \  _/`    |  _/|    /|__     _ '       
+                        __      __/    / |       / /  |   /_  /    / \_       
+                        \ \    /^    [] _|      / /  /`     |/     \   \      
+             ,_          \ |  |^  Kalaman`     /_/  /       '       []Mithas  
+             | \         /^ [] ^           ^        |              /___/      
+             |^@\    Palanthas^      ^    ^        /'              ____       
+             | ^@\       |  ^        ^    ^   ^^  /                \  /       
+     __     /`  ^@|      | ^  []Vingaard     ^^   |                /__\       
+    /^^\    \  ^@ |      | ^    Keep     ^^ Neraka|/\              `  '       
+   /^^^^\    \___/       | ^           ^^^^[ ]    '  \                      
+   \^^^^^|                \ ^      @  ^  ^           |           ,            
+  |\|@__/    _____,        |    ^  @   ,[ ]^^^       |        __/|            
+  |@_/      /     |        |   ^  @@ __|Sanction_  _ `\  _/\_/   |            
+  |/       /@ ^   |        |____/\__/   _/` ^^ | \/ |  []`       |            
+           |@^|\_/                     /   ^^^ |__  \ Flotsam,/| |            
+           | @|___           ____      |  ^^^   ,/   \       | | |            
+           '\_@  /          /    \ { } |  ^ ^   |Port []    /   \|            
+              \_/         ,/  ^  |     '\ ^  ^  Balifor\___/     '            
+                     Solace []   |   _   |^  ^    \                 
+                         / @@   /   | \  \         \         { }   
+                     New Ports[]    |  |_|          \__     
+                        | @@@  \  ,/'           Kurinost[]            
+                       / @@@@@  \_|                 @@@@@@@\                  
+     
+
+::NEWMAP::
+neraka_outer_green
+::MAPDATA::
+abovegate 22 12
+bar1 14 16
+g1 24 22
+g2 22 20
+g3 20 18
+g4 18 16
+g5 16 14
+g6 18 14
+g7 20 14
+g8 16 16
+g9 14 18
+g10 12 20
+g11 10 20
+g12 8 20
+g13 8 18
+g14 6 18
+g15 14 14
+g16 12 14
+g17 10 14
+g18 8 16
+g19 16 12
+g20 16 10
+g21 16 8
+g22 18 6
+g23 20 12
+g24 20 10
+g25 20 8
+g26 18 4
+g27 16 2
+gatehouse 22 12
+post 14 12
+t1 18 18
+t2 16 20
+t3 10 22
+t4 6 22
+t5 4 16
+t6 10 16
+t7 6 14
+tow1 26 20
+tow2 14 2
+ware1 14 10
+ware2 18 10
+ware3 18 8
+::MAPDATA::
+
+                |      :::              ::    | 
+              T-o      ::               ::    o   T 
+                 \     ::              ::      \ /
+                  o    ::               ::      o  [t]
+                  |    ::               :::     |   |
+                  o    ::                ::     o-o-o
+                 / \   ::               :::     |
+                o w o  ::    NERAKA     :::     o   H   ^   ^
+                |/  |   ::   INNER       :::    |\ /     \ /  
+              w o w o  ::    CITY         [x]-o-o o-o-o   o-^                            
+               \|/  |  ::                ::  /|  \|\   \ /
+              p o   o T :::             ::: T o   o b   o-o-^
+               \|   |/ :::             :::    |  /|     |\ \
+      ^   o-o-o-o-o-o--[x]             ::     o w S     ^ o o
+       \ /     /|\     :::            :::    /           /| |
+    ^   o-^   Q o o     :::          :::    o           ^ ^ ^
+     \  |      / \ \      ::::     :::     /
+      o-o     o   ^ o       : T[x]:::   T o   BLUE DRAGONARMY
+        |    / \     \         \|        \|     ENCAMPMENT
+        o-o-o   ^     o   T     o         o
+       / \             \ /      |       /
+      ^   ^             o       o      o
+   GREEN DRAGONARMY      \      |      |   ~= City of Neraka =~
+     ENCAMPMENT           o     o      o   b  Bank
+                          |\    |      |   H  The Hanged Knight pub
+                          o o-o-o      o   S  shop
+                          |     |     /    T  guard tower
+                          o     o    o     t  Templar Knights guild
+                          |    /|\ /       W  wagon to Flotsam
+                          o a-o-o-o-R      w  warehouse
+                          |  /|\|/         P  Lute's Loot pawnshop
+                          o s o o          R  Red Rooster pub
+                           \ /  |\         a  animal shop
+                            o   o P        s  smithy
+                               / \         p  post office
+                              o   W        Q  Queen's Heads bar
+                              |
+    RED DRAGONARMY        o-o-o-o
+     ENCAMPMENT          /|  /|\ \
+                        ^ ^ o o ^ ^ 
+                           /  |       
+                          ^   ^

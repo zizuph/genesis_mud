@@ -1,0 +1,102 @@
+ 
+Ground Level
+
+                                            p08      
+                                             |   
+                                            p07
+                                           / 
+                                        p06
+                                       /
+        p01-p02     p04--------------p05-fn    t01
+               \   /   \              | \ |\  /   \
+                p03     ps           /   fw-fe     t02-t03-t04-t05 
+                 |                 go      \ |                \   \  
+                p09                         fs                 sh  \
+                   \                         |                      t06
+                    p10                      |                     / 
+                     | \                     |                   sp   
+                    gnw-gne                 p15
+                     | X |                 / 
+                    gsw=gse         p13-p14
+                           \       /
+                            p11-p12 
+
+All files are in /d/Calia/central/toad_in_oak/rooms/ground
+p## = path_##.c     fn  - flowers_n.c   sh - swim_shore.c
+t## - trail_##.c    fs  - flowers_s.c   ps - pond_shore.c
+gnw - green_nw.c    fw  - flowers_w.c
+gne - green_ne.c    fe  - flowers_e.c
+gsw - green_sw.c    go - great_oak.c
+gse - green_se.c    sp  - spring.c
+
+Not-Shown
+pond-surface.c - used by pond_shore
+gazebo.c       - enterable from all four green rooms
+swim.c         - swimming hole, enterable from swim_shore.c
+
+Up connections
+p12 - w11
+fe  - w06
+p03 - w01
+
+Low Level
+
+
+        tr     w02-w03     st
+          \   /       \   /  
+           w01         w04-w05     h02
+          /                   \   /
+       w18-h01                 w06
+        |                     /
+   po -w17                 w07
+      /                     |
+   w16                     w08-h03
+      \                     |
+   h06-w15-w14     h05     w09
+            |     /       /
+           w13-w12     w10
+              /   \   /
+           pub     w11
+                    |
+                   h04
+
+All files are in /d/Calia/central/toad_in_oak/rooms/low
+w## - walkway_##.c      pub - pub.c
+h## - home_##.c         po  - post.c
+tr  - training.c
+st  - store.c
+
+Up Connections
+w01 - w01
+w13 - w10
+
+Down connections
+w11 - p12 
+w06 - fe
+w01 - p03 
+
+Middle level
+
+        inn             h01
+           \           / 
+            w01-w02-w03     h02
+           / |         \   /
+    h04 w13 h05         w04
+       \ |               |
+        w12             w05-th
+         |               |
+     at-w11             w06
+           \           /
+            w10     w07
+           /   \     | \  
+        h03     w09-w08 wc
+
+All files are in /d/Calia/central/toad_in_oak/rooms/low
+w## - walkway_##.c      wc  - carver.c
+h## - home_##.c         at  - trainer.c
+th  - townhall.c        inn - inn.c
+
+Down Connections
+w01 - w01
+w10 - w13
+

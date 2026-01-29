@@ -1,0 +1,222 @@
+Document Created August 27, 2009
+
+Navarre gave us all homework. Here are my personal answers to the questions
+that he posed. We will update this document as our discussion progresses.
+
+Q: What is the combat aid of being able to wield a two handed weapon in one hand?
+
+A: One handed weapons are limited at 50 pen. Two handed ones are limited
+   at 60 pen. If we go by that alone, I'd say that the combat aid is:
+
+      F_PENMOD(60,100) / F_PENMOD(50,100) = ~18%.
+
+   For roundness's sake, let's assume that giving this ability equals a
+   20% combat aid for the guild.
+
+Q: What kind of constraints should there be on two handed weapons for being
+   allowed to be wielded in 1 hand?
+
+A: It should be thematic. Only guilds which can justify the theme should
+   have this. Minotaurs and Ogres are the only ones that can wield limited
+   weapons this way.
+
+Q: Should all special attacks be made to engage combat? (Rangers brawl do 
+   for example, but most if not all others do).
+
+A: Yes, absolutely. Exceptions will be made on a case by case basis.
+   I don't think Ranger's brawl should fall into that category.
+
+Q: Should guilds be allowed to heal themselves without the use of a spell? 
+   (drain life kind of attack special, regeneration etc).
+
+A: Yes, I believe theme trumps any rules we make here.
+
+Q: Should ranger type guilds be allowed to 'purchase' foreign guild type skills
+   for a higher tax? It seems that will go against the rules we state about you
+   having to pick a type of guild. That a fighter/cleric type guild is not
+   acceptable (for one guild slot). That sounds precisely what a ranger type guild
+   is if you allow them to purchase higher skills/spells for extra tax.
+
+A: The number of alien skills you can purchase need to be limited. Either
+   by the number of actual skills you can, or the actual skill levels
+   you can buy. This is again a thematic justification. I'll try and see
+   if I can come up with a solid number. Feel free to suggest some limits.
+
+Q: Currently rules state that race guilds may not train specialised fighting
+   skills as defined in /sys/ss_types.h. There are currently some race guilds 
+   that allow this. Should we enforce this rule? or allow for a change? My vote 
+   is enforce the rule.
+
+A: Theme trumps these issues. I prefer not to give out combat aid in racial
+   guilds at all. Which racial guilds have this issue?
+
+
+Q: How much combat aid should dark vision give? (how do we calculate 
+   existing dark vision)
+
+A: Darkness fighting is pretty broken. Darkvision allows someone to have
+   a 900% combat aid against someone who cannot see. It obviously doesn't
+   apply when the opponent can see in the dark also, so it's hard to
+   set a solid combat aid for it. The ability should be thematic, and
+   it should carry a semi-heavy tax, imo. And we should try and fix
+   darkness fighting. :)
+
+Q: Are there some abilities that is too powerful for layman guilds? Which? 
+   Stun, See invisible, invisible, etc.
+
+A: No, I think laymans can have many of the same abilities. It's just
+   important to make sure it's thematic and that the combined abilities
+   that they have do not exceed what a layman should have. The abilities
+   should always be judged in the light of how it enhances the layman.
+
+Q: Should peace spells be allowed at all in guilds? I think we should remove 
+   them. What about in Laymans? Isn't it too powerful for layman guilds?
+
+A: I'm of the opinion that peace spells should not be allowed for PvP, but
+   can be appropriate for PvE. 
+
+Q: Should peace items be allowed in the game? My suggestion is to take the old
+   tome peace and melt armour spell, re-open the quest, and make the spells only
+   work for guild-less people. Its a defense while being guildless. That's what it
+   was designed to be, but it checks on fighter type guilds. Not all guild types.
+
+A: I agree.
+
+Q: Should we have the limitation on layman guilds that state that you cannot 
+   have regeneration ability as layman?
+
+A: Again, a thematic decision. If the layman can justify regeneration, I
+   don't think we should limit it.
+
+Q: Should we have the limitation on layman guilds that state that you cannot 
+   have offensive spells, or clerical spells together with an attack special?
+
+A: Actually, in the new magic scheme that we have, we want people to be
+   able to have magic attack specials that allow grinding. They shouldn't be
+   allowed at the same time as other specials, but the details have to
+   be worked out.
+
+Q: Should we allow ranger layman guild, and if we do their combat aid and 
+   skills should have the 75% rule applied? Which means at most 37.5% combat 
+   aid, and at most 45 in skill?
+
+A: Ranger layman guild seems a bit silly. It's supposed to be a hobby you
+   take up on the side. So unless there's really good justification for one
+   I'm inclined to say that we not have them.
+
+Q: Should there be a max limit of how many spells a layman spell caster 
+   guild can have?
+
+A: This should be on a case by case basis. There should be no max if it's
+   thematic. I'd rather have many good thematic spells than one bad combined
+   spell just because someone is trying to go underneath the spell
+   numbers limit.
+
+Q: Should there be a max limit of how many spell a ranger type occ guild can 
+   have? If spellcasting specialists have 14-20 spells, how many should one 
+   that is not specifically great at spellcasting be allowed to have?
+
+A: See answer to previous question. A ranger type should overall only
+   provide 50%-75% of the benefits of a full occ caster guild.
+
+Q: When can a guild have auto-sneak? Race guild? Layman, Occ? Which
+   style/type of guilds can have it? What should the cost be etc? Kenders 
+   in Krynn is defined as "Thief" type. What's that?
+
+A: Any guild with sneak abilities should have the option of auto-sneak.
+   It's just a playability tool to help people who don't have good clients
+   which can do it anyway. I don't think we should necessarily charge
+   for this.
+
+Q: How much aid does it give to relieve encumberment and make someone else 
+   heavy?
+
+A: We can actually calculate how much aid something like that gives. I'm
+   more inclined to just charge tax for it.
+
+Q: How much aid should create darkness spell give? Should we allow any 
+   guild to be able to create darkness ever?
+
+A: I don't like darkness spells because of the reasons that darkness
+   is broken. Giving a guild darkness spells and darkvision at the 
+   same time is a recipe for being broken. That is, until we fix
+   darkness fighting.
+
+Q: Should teleport and team teleport abilities be allowed for layman 
+   guilds? Perhaps other than to their guild home?
+
+A: This should be limited for laymans. Going back to guild home should
+   be allowed. But teleporting to avoid ships or transport teams
+   should be occ ability, unless theme justifies it.
+
+Q: Should we change A_SHIELD to cover more than the arm? People 
+   override it anyway.
+
+A: I'm not sure I agree with this. Different shields do different
+   things. I think perhaps we should have a standard for how good
+   a shield is if it covers more than one place.
+
+Q: How do we judge spells/abilities that raise non-combat affecting 
+   skills, and faster mana regeration / mana draining?
+
+A: Based on the combat aid they give. We can determine most of
+   these in our simulated tests.
+
+Q: Should mana regaining abilities be allowed by anyone other than occ
+   spellcasters. (mage or cleric type).
+
+A: Mana regaining abilities probably should be very limited. And yes,
+   should be limited only to occ for direct mana regen.
+
+Q: How many abilities should we allow cramped together into one: For 
+   example the SU has a special called Sway, which has 5 abilities in 
+   one.
+
+A: This is what I referred to earlier as being excessive to fit under
+   some sort of limit. These types of things should be split up
+   into more consummable pieces based on theme. 2-3 should be a limit,
+   I think.
+
+Q: Currently some (most?) of our spellcaster guilds have more than 1/3 
+   of their spells give combat aid. Should this rule then be enforced 
+   or adapted, or removed?
+
+A: This is a silly requirement. I think this is based on theme and
+   people work around it anyway. Let's just focus on making good guilds
+   and abilities that will make gameplay enjoyable.
+
+Q: It has been noticed that rangers have 'ranger-only' peace rooms in 
+   the realm outside of their guild halls. Do we want to allow such type 
+   of rooms that give significant benefit to one guild over others? It 
+   seems that outside the guildhomes, all rooms should be equally peaceful 
+   for all players, no matter their guild.
+
+A: This is really up to the guildmaster and the domain liege to decide.
+   For Rangers, I think this is a thematic thing. Nazgul can sit on
+   their beasts and fly around, so can DA. These types of things can't
+   be avoided.
+
+Q: Do we allow query_no_attack props on guild specials such as move behind 
+   and rescue, as those will break the guild special of people they are 
+   used against.
+
+A: I believe these have been removed already. You can always attack
+   someone who is MB and Rescued, with some consequences.
+
+Q:  How do we want to change the mana pool to help balance the spellcaster 
+    guilds. A much faster recovering with a much smaller pool seems to be able 
+    to make us fit the theme. A spellcaster can nuke his enemies, but will then 
+    need some recovery time. It will not only be a bad thing, it will make them 
+    able to use the high damage spells for grinding too, since mana recover 
+    faster.
+
+    Since damage spells take resistance into account on the enemy, how should 
+    we change heal spells to work to make it equal?
+
+A: Currently, the plan is 3x smaller mana pool, and 3x higher regen rate.
+   We can tweak this as needed. I've created the mana shadow to simulate this
+   and all new caster guilds should use it until it becomes global. As for
+   resistance on healing, I've always subscribed to the D&D concept where
+   if you want the effect, you don't resist it. Things like healing would
+   fall into that category. That's not how Genesis works today though, so
+   I'm open to discussion on that.

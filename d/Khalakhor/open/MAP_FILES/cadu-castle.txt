@@ -1,0 +1,94 @@
+castle
+::MAPDATA::
+cas_t11 1 2
+cas_t12 21 2
+cas_t13 1 10
+cas_t14 21 10
+cas_t21 1 15
+cas_t22 21 15
+cas_t23 1 23
+cas_t24 21 23
+cas_t31 1 27
+cas_t32 21 27
+cas_t33 1 35
+cas_t34 21 35
+cas_t41 1 26
+cas_t42 21 26
+cas_t43 1 36
+cas_t44 21 36
+cas_dung1 21 12
+cas_a1 5 4
+cas_a2 9 4 
+cas_a3 13 4
+cas_a4 17 4
+cas_a5 5 6
+cas_a6 8 6
+cas_a7 13 6
+cas_a8 17 6
+cas_a9 5 8
+cas_a10 9 8
+cas_a11 13 8
+cas_a12 17 8
+cas_b1 5 17
+cas_b2 9 17
+cas_b3 13 17
+cas_b4 17 17
+cas_b5 5 19
+cas_b6 9 19
+cas_b7 13 19
+cas_b8 17 19
+cas_b9 5 21
+cas_b10 9 21
+cas_b11 13 21
+cas_b12 17 21
+cas_c1 5 29
+cas_c2 9 29
+cas_c3 13 29
+cas_c4 17 29
+cas_c5 5 31 
+cas_c6 9 31
+cas_c7 13 31
+cas_c8 17 31
+cas_c9 5 33
+cas_c10 9 33
+cas_c11 13 33
+cas_c12 17 33
+
+::MAPDATA::
+
+LEVEL 1
+ o                   o
+   \     !         /
+     o - o  [ ]  o
+     |       |   |
+     o - o   o - o 
+     |       |   |  ! - Sliding pole
+     o - o - o   o
+   /               \
+ o                   o
+                     v
+                     -
+
+ LEVEL 2
+ o                   o
+   \     !         /
+     o - o -[ ]- o
+     |           |
+     o - o - o   o 
+     |   |       |  ! - Sliding pole
+     o   o   o - o
+   /               \
+ o                   o
+
+ LEVEL 3
+[ ]                 [ ]                  
+[ ]                 [ ]
+   \               /
+     o - o  [ ]- o
+     |           |
+     o | o - o   o L3
+     |           |
+     o - o - o - o
+   /               \
+[ ]                 [ ]                   
+[ ]                 [ ]

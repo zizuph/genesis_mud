@@ -1,0 +1,493 @@
+============================================================================
+                        Magic System Proposal
+============================================================================
+
+The magic system proposal here will be mainly guidelines. As any system
+will require extensive testing in order to be validated, this document will
+continue to be updated as more information and rules come to light.
+
+I.      Spell Power
+
+    Spells can be classified by spell power. The "Power" ranges from 0 
+    (cantrips) to 4 (advanced). Spell power is the primary factor for 
+    how much tax a spell will cost.
+
+    Power 0 [Cantrips]
+    ==================
+    Cantrips are essentially emotes. They have very minor effects, and
+    are only there to enhance gameplay. *Very* limited informational
+    spells may be placed in this category with AoB approval. Examples
+    of cantrips would include emotes that give the appearance of
+    doing magic.
+    
+    Power 1 [Very Minor Spells]
+    ===========================
+    Very minor spells are typically spells that harm no one, only gives
+    limited information and limited help. Examples of this kind of magic
+    are temporary light and limited information and detection spells.
+    
+    Power 2 [Minor Spells]
+    ======================
+    Minor spells include spells that have minimal healing or damage
+    effects. They can be easy detection spells, minor defensive, or
+    dispelling spells. They are usually standard fare for layman
+    guilds. Examples of minor spells may include detecting herbal
+    growth, or an attack spell that does less than 20% combat aid.
+    
+    Power 3 [Intermediate Spells]
+    =============================
+    Intermediate spells should make up the bulk of any occupational
+    guild's abilities. Layman guilds will have a few of these. They
+    are generally limited to fighter levels of combat aid. This means
+    that spells should grant between 20%-100% combat aid. Examples
+    of intermediate spells would be healing or damage spells, detection, 
+    defense, dispelling etc. Most defensive spells in this category
+    only benefit the caster. Occasionally, one may qualify to be
+    cast upon others (such as healing) but never more than one target
+    at once.
+    
+    Power 4 [Advanced Spells]
+    =========================
+    Advanced spells should be reserved for those that are great thematic
+    additions to a caster guild. These types of spells can only exist
+    in occupational guilds, and layman guilds can never have them. They
+    are allowed to exceed 100% combat aid up to the maximum allowed by
+    the guild. Examples of advanced spells include advanced detection 
+    spells (see stuff in other rooms, know other people's inventories etc). 
+    Extremely powerful attack/healing spells. Advanced dispelling, maybe 
+    even stat-affecting spells. Limited conjuring power for very advanced 
+    players. Defensive spells in this category can affect both the caster
+    as well as others, and can even be cast upon multiple targets.
+
+II.     Spell Type
+
+    Spell Type is a categorization for spells based on how often the spell
+    can be used. The spell type has a large impact on the actual mana that
+    is required for it to be cast.
+
+    At Will Spells
+    ==============
+    These are abilities that can be used constantly without running out
+    of mana in normal circumstances. They will result in effects similar
+    to what a fighter's combat special is and will allow a caster to
+    grind. Obviously, these spells will be less powerful than melee fighter
+    specials (~60% combat aid max)
+    
+    Standard Spells
+    ===============
+    These are most like the spells that exist in the game today. Used
+    enough, they will drain the caster completely, but they can use it
+    fairly regularly. These type of spells allow the caster to have
+    the type of "burst" activity that defines one of their main
+    advantages over melee fighters.
+    
+    Encounter Spells
+    ================
+    These are spells that have a cooldown equivalent to the caster's regen
+    cycle. They are not meant to be cast very often, and usually at most
+    once within an encounter. These types of spells will typically drain 
+    1/3 to 1/2 of their mana. An example for this might be teleportation
+    or some stronger duration spells.  
+    
+    Daily Spells
+    ============
+    These are truly awesome spells which tend have extremely long cooldowns.
+    They require tremendous preparation and would need to cost almost
+    all of a caster's mana. Examples of this would be stat cloud, or
+    even resurrection.
+        
+III.    Components
+
+    Components make for an essential part of the spell casting experience.
+    It differentiates the spellcaster from the melee fighter, who does
+    not need to prepare to be effective. Components can be either
+    verbal, somatic, or material. Their use or non-use will affect both
+    casting time as well as tax.
+    
+    A verbal component to a spell simply implies that the spell cannot
+    be cast when the caster is silenced. A somatic component means that
+    the spell cannot be cast when the caster is stunned. And a material
+    component is any actual object that is consumed during the casting
+    of the spell.
+    
+    The practical use of components is to advance theme, while also
+    forcing upon casters a "time cost" to the spells to help justify
+    the greater power for the spell. The time cost should be adjusted
+    accordingly so that the overall xp gain possible using spells
+    should roughly equal a melee character who doesn't have spells nor
+    component needs. The goal isn't to make caster equal to melee
+    fighters in theme, but in playability and enjoyability. 
+
+IV.     Casting Time and Cooldown
+
+    Casting Times are dependent on the type of spell being cast as well
+    as the components that the spell involves. Thematically, the reason
+    for this is that it takes much longer to unlock the power of a spell
+    if you don't have aids like components to focus the unlocking effort.
+    
+    Spells such as Encounter and Daily have cooldowns because they are
+    so powerful they are not meant to be cast very often.
+    
+                Standard Casting/Cooldown Times
+                -------------------------------
+                Casting Time    Cooldown Time   Total Time
+    At Will         4 sec          11 sec        15 sec
+    Normal         10 sec           0 sec        10 sec
+    Encounter      20 sec           5 min      5 min 20 sec
+    Daily          30 sec           1 day      1 day 30 sec   
+    Group Ritual    1 min (min)     0 sec         1 min
+    
+    For all spells, the minimum cast time will be 4 seconds. Using
+    various adjustments, one can reduce the cast times. Group Rituals
+    always have a minimum of 1 minute. The component costs below are
+    given in terms of gold pieces (gp) and platinum pieces (pp).
+    
+    Verbal Spell.................... minus  2 seconds
+    Somatic Spell................... minus  2 seconds
+    Component cost <  1 gp.......... minus  2 seconds
+    Component cost >= 1 gp.......... minus  4 seconds
+    Component cost >= 1 pp.......... minus 10 seconds
+    Component cost >= 12 pp......... minus 15 seconds    
+    Component cost >= 144 pp........ minus 20 seconds    
+  
+    Note: You can use a maximum of two material components to reduce
+          the casting time.
+    
+    Component consumption during the casting of the spell is not optional.
+    If a spell has designated a particular component to be used, it will
+    be guaranteed to be consumed after a successful cast. The spell
+    system will guarantee this.
+    
+V.      Casting Success
+
+    Spell casting success is determined by the query_casting_success()
+    method inside of /d/Genesis/specials/spell.c. It uses resolve_task 
+    along with a difficulty setting. A positive number from the function 
+    means that the cast was a success. The actual contributors to the
+    resolve_task are as follows:
+    
+        35% Element Skill
+        35% Form Skill
+        10% Intelligence
+        10% Wisdom
+        10% Discipline
+    
+    Because it uses resolve_task, casting is never a guaranteed success.
+    The element skill and form skills set for the spell also indicate the
+    minimum skill levels that are necessary in order for the spell to
+    be successfully cast.
+
+    Difficulty Level that the spell is set to must adhere to the
+    following difficulties depending on its power level:
+    
+        Power 0: Difficulty (Automatic)
+        Power 1: Difficulty (Easy)
+        Power 2: Difficulty (Routine)
+        Power 3: Difficulty (Hard)
+        Power 4: Difficulty (Difficult)
+
+    Again, these are guidelines proposed by this document. If a spell
+    thematically justifies a lower difficulty, it can be approved by the
+    AoB.
+    
+VI.     Tax Calculations
+
+    Tax for magic spells is calculated in a different manner than melee
+    specials. Because a caster often has many spells in his or her
+    arsenal, it's not possible to charge melee combat aid tax for
+    each individual spell. It would quickly exceed the maximum for any
+    guild. Instead, spells are charged a tax depending on a few factors,
+    including spell power, components used, and whether it's used in
+    a layman or occupational guild.
+    
+    Chart for Base Tax Costs
+    ------------------------
+                Magical                Non-magical
+                Layman   Occupational  Layman   Occupational
+    Power 1      0.25%      0.1%        1%         0.5%
+    Power 2      0.5%       0.25%       2%         1%
+    Power 3      1%         0.5%        N/A        N/A
+    Power 4      N/A        1%          N/A        N/A  
+    
+    There are also a few rules for taxing spells.
+    
+    Rule 1: Maximum Effect
+            Spells of various degrees are taxed only once - at maximum
+            effect. For example, if you have a small fire attack spell,
+            and a big fireball, only the fireball will get taxed. When
+            calculating the final tax, the maximum possible aid using
+            stacking spells will be used.
+    Rule 2: Differing Varieties/Flexibility
+            Tax is based on benefit to the guild as well as the 
+            variety and flexibility one has in effects. Two differing
+            effects will be taxed separately, even if they do the same
+            thing. For example, a lightning bolt and fireball, even if
+            they deal the same damage, will be taxed separately.
+    Rule 3: Combat aid will affect tax in that the guild is charged
+            1% of tax for every 25% of total combat aid for all spells,
+            up to a maximum of 250% combat aid (10% tax)
+
+    Components (or lack of them) will alter the base tax cost. Each
+    spell should have each of the three types of components: material, 
+    somatic, and a verbal component. If missing any of these, it decreases 
+    the counters to spell casters, therefore it should be charged extra tax. 
+    Power 0 spells are not required to have any components, but they should 
+    be used if thematic. The changes in cost will be determined by the 
+    following table.
+    
+        Missing 1 component type: 150% normal cost.
+        Missing 2 component type: 200% normal cost.
+        Missing 3 component : 250% normal cost.
+                 
+    Standard material components are valueless, other than for
+    spellcasting, and are available from the guild for a "small" fee.
+    These components disappear when the player leaves the game.  More
+    complex procedures to obtain components and more expensive components
+    may reduce the cost of a spell.  To gain a bonus, components must always
+    be consumed. Component costs below are given in terms of gold pieces (gp)
+    and platinum pieces (pp).
+    
+        Component Cost                    Reduction in Tax
+        --------------------------------------------------------
+        Quest required to get component : -25%*quest level
+        Component guarded by creature   : -avg_stat_of_creature
+        Component cost is < 1 gp        : 0%
+        Component cost is >=1 gp        : -25%
+        Component cost is >=1 pp        : -50%
+        Component cost is >=12 pp       : -75%
+        Component cost is >=144 pp      : -90%
+
+    Other special circumstances may be devised which could result in bonuses
+    (or penalties!) to your tax rate.  The exact details will have to be
+    decided by an archwizard as they are needed.
+    
+    Note: At will spells (AWS) stack with normal spells during its cooldown
+          period. The way to calculate the combined aid is using this
+          formula:
+          
+                                   4 * Normal Aid
+          (AWS AID + Normal Aid) - --------------
+                                         11
+          
+          For example, an AWS spell with 20% aid stacked with normal aid
+          of 40% would be 46% combat aid. If the stacked total is less than
+          either of the AWS or Normal aid, then we take the maximum.
+
+VII.    Mana Calculations
+
+    Standard Mana Regeneration
+    --------------------------
+    Mana regeneration will become significantly faster, while at the same 
+    time reducing the overall pool of mana that players have. This change 
+    should provide the backdrop for the magic system changes proposed in 
+    this document. 
+               
+    Mana Regen Formula:
+    (1 + ((wis) * (100 - (pintox) / 2) * ((sc) > 30 ? (sc) : 30)) / 50000)                  
+    
+    Total Mana Formula:
+    (int * 10) / 3
+    
+    The chart below will give the mana expectations for someone who has
+    100 spellcasting skill (sc) and is not intoxicated.
+   
+             Total Mana      Regen/Minute        Time to Full     
+    Avg Stat     
+    100          333               63                5.28 min
+    150          500               99                5.05 min
+    200          666              126                5.28 min
+    
+    * Minor differences in time are due to integer calculations                        
+
+    At Will:    Casters should get 4 at-will spells (15 second
+                specials) every minute. The mana cost will determine
+                the power of the special, and it will be set at a
+                percentage based on max regen rate. So for example,
+                the stat 100 person would cost 15 mana per cast, and
+                the 150 average person would get charged 24 mana. The
+                more mana one pays, the more powerful the spell.
+    
+    Standard:   Standard spells should deplete a caster's mana
+                if used continuously. They will have a fixed cost, 
+                rather than the dynamic one that At Will powers have.
+                Each standard spell will come with a base mana
+                cost of 30 mana. At 4 second casts, a stat 100 person
+                would thus deplete their mana in 40 seconds, using
+                up 10 standard spells.
+    
+    Encounter:  Encounter spells should only be cast once or twice in 
+                a regen cycle, with the regen cycle time essentially 
+                being the cooldown for the cast. The base cost for
+                an encounter spell will be 200 mana. At this cost,
+                someone at 100 stat should be able to cast it once,
+                someone at 150 stat can cast it twice, and someone
+                at 200 stat can cast it three times.
+    
+    Daily:      These types of spells should take about 300 mana and come
+                with a real daily cooldown. A real daily cooldown means
+                that once the spell is cast, it cannot be cast again on 
+                the same RL date. To avoid players waiting until right 
+                before midnight to achieve a quick double-cast, a minimum 
+                6 hour cooldown is also required.
+
+VIII.   Spell Strength
+
+    The power rating of a spell determines the range of effects that it
+    can have. Each caster will exhibit different spectrum of the range
+    in the spells that they cast. Less skilled and smaller casters will
+    naturally fall at the lower end of that range, while more skilled
+    and bigger casters will fall at the upper end of the range.
+    
+    All spell effects must base the range on three factors: skills, 
+    stats, and a form of guild strength. Guild strength is a guild-specific 
+    factor that can be based on any number of things, such as guild stat, 
+    activity, tenure in guild, position within the guild, etc.
+    
+    At Will spells will be special in that their strength will
+    factor in the amount of mana that the caster uses, rather than
+    skills and stats.
+    
+    Combat aid maximums are set for each power level.
+    
+        Power 0: No actual effects
+        Power 1: up to 10% max.
+        Power 2: up to 20% max.
+        Power 3: up to 100% max.
+        Power 4: up to 250% max.
+    
+    In general, we will use calculate_pen to figure out what the spell's
+    strength ought to be. This calculation will use F_PENMOD to do its
+    calculation.
+         
+         F_PENMOD (skills/stats/mana, guild strength)
+    
+    What this means is that one's skills and stats affect the first argument
+    of the formula, and the guild strength affects the second part. Skills
+    stats and mana calculations should max out at 60, and guild strength
+    should max out at 100. This will ensure that the F_PENMOD calculation
+    will be F_PENMOD(60, 100) == 433.
+    
+    Combat aid will be multiplied with the calculate_pen to determine
+    the final pen value. The actual combat aid that will be used in the
+    calculate_pen formula will be different than what is specified. There
+    will be a small bonus added for lost aid due to lost normal attacks,
+    since when casting spells, LIVE_I_CONCENTRATE is set. This prevents
+    any normal attacks from firing, effectively reducing combat aid by
+    100%. We currently give a bonus of 40% combat aid for this. This number
+    was reached by taking into account that magic damage hurts more than
+    normal attacks.
+       
+IX.     Duration Spells
+
+    Duration spells will represent a constant drain on a caster's mana,
+    rather than a one-time cost. If a caster runs out of mana, then all
+    maintained spell effects end immediately. Duration spells will pay
+    the cost depending on the usage type. Each spell will then have a
+    cost of 5 mana points per minute. This means that a caster at 100
+    stat can maintain up to 10 duration spells without losing mana compared
+    to their regenerative rates. This does not take into account other
+    items that may grant the caster regeneration since the use of them
+    is designed to be optional and supplemental.
+  
+X.      Guild Spell Composition
+
+    Still to be completed.
+    - Mage vs Cleric
+    - No limit on types of spells except that it has to be thematic.
+      The 1/3 limit on attack and defence was just another rule people
+      would try to work through at the expense of theme.
+    - total combat aid for occupational guild at any time capped at 250%
+      for both defence and offence.
+    - total combat aid for layman guild at any time is capped at 50%
+      for both defence and offence.
+    - Aid granted to others count towards the maximum that can be
+      in effect. Concurrent aid is something to think about.
+
+XI.     Exceptions
+
+    Exceptions to the above rules are made on a case by case basis.
+    Obviously, the limit of spell types and effects we can have is
+    only limited by the imagination of the wizard. Decisions are
+    made on the basis of theme and playability.
+    
+    One thing that from the outset will be considered an exception
+    will be tells. They are very cheap spells that are used very often.
+    Based on the classification given in this document, they are a
+    Power 1, Standard Spell. Despite their standard spell designation,
+    the cost to mana for these spells will be minimal, allowing them
+    to be cast more often in communication with others. The specific
+    type of tell spells referred to here is the single target fartell
+    spell.
+        
+XII:    Spell Effects  
+
+    The following list of spell effects was taken from the guild list that
+    was created by Navarre. It is not an exhaustive list, and will need to
+    be cleaned up and properly categorized at some point.
+      
+    Completed Recoding:
+        Light
+        Scry
+        Shield (Damage Reduction)
+        Shield (Evade)
+        Fartell
+        Add Resistance
+        Darkvision
+        Slow
+        Heal
+        Paralyze Others
+        Call/Create Messenger
+        Teleport
+        Cure Poison
+        Identify
+        Blind
+        Haste
+        Invisibility
+        Increase Stats
+        Decrease Fatigue
+        See/Reveal Invisibility
+        
+
+    Yet to be Coded:
+        Check Alignment
+        Silence Others
+
+        Peace
+        Drain Mana
+        Adding Fatigue
+        Draining Food
+        Make Target Panicky
+        Black Breath Poison
+        Adding Encumberance
+        Reveal Magic in area
+        Force Flee
+        Force Attack Teammate
+        Break Weapons
+        Modify Weapon and Weapon Skills
+        Stat Cloud
+        Drain Con
+        Name Forget/Steal
+        Summon Monster
+        Summon Transportation
+        Mirage
+        Improve non-Combat Skills (Language, etc)
+
+XIII: Spell Resistances
+
+    Spell resistance acts very much like armour for regular combat. It
+    is what allows people to protect themselves from harmful magics.
+    Traditionally, resistance has been applied universally, both to
+    healing/beneficial spells as well as to negative/harmful spells.
+    It makes little sense for this to be the case, since much of magic
+    resistance is based on the will and ability of the target to resist 
+    its effects. If someone wishes to be healed or cleansed or have
+    their strength restored, they should not need to worry about
+    resistance.
+    
+    In the new magic system proposed here, spells which are beneficial
+    to their targets will not need to test for resistance. Though the
+    spell system itself passes along the resistance value, these
+    spells can ignore it. If a spell, however, can have harmful effects
+    upon its target (such as healing of an undead, actually causing
+    harm) then resistance will need to be applied.
+     

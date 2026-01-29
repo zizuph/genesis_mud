@@ -1,0 +1,134 @@
+
+TO DO
+
+
+EYE FOR DETAIL (human, dwarf, gnome)
+DONE
+
+SHADY (human, goblin)
+DONE
+
+SNEAKY (elf, goblin, gnome, hobbit)
+DONE
+
+WILDERNESS SKILLS (elf, hobbit)
+DONE
+
+GOOD MEMORY (dwarf, gnome)
+DONE Upload updates to mudlib
+DONE Look at if messaging is possible (was ugly)
+
+BOTANIST (human, elf)
+DROPPED Add global messaging to indicate when you can use an herb again.
+DONE Get push request for mudlib changes finalized.
+
+
+RESILIENT (dwarf, goblin, gnome)
+DONE Determine if messaging is needed here.
+
+STALWART (dwarf, goblin)
+DONE
+
+
+FLEET-FOOTED (elf, hobbit)
+DONE Add alarm to generic.c
+
+
+QUICK LEARNER (human)
+DROPPED 50% lower cost to train skills at advanced levels (above superior layman). Only applies to skills above superior layman in order to prevent race/racial trait-switching for free in the tutorial to max skills for half the price.
+
+TENACIOUS (human, hobbit)
+DONE - 2x exp boost, when missing exp, a portion of the time.
+
+SCAVENGER (human, goblin)
+DONE - 1 platinum portion of the time, if the NPC is at least half your size.
+
+LUCKY BLOW (goblin, hobbit)
+DONE Get crit CL approved 
+DONE Write and get crit messaging CL approved
+DONE Add generic messaging for everyone else
+DONE Add race-specific messaging for goblin and hobbit
+Add crit effects to magic damage special
+
+LIMITED NIGHTVISION (elf, gnome)
+Run player test, see if there are any issues.
+
+LIGHT-FOOTED (elf)
+DONE Verify messaging.
+
+HIGH ALCOHOL TOLERANCE (dwarf)
+DONE One extra level of intoxication called "Remarkably obliviated". As long as you stay at this level of intoxication your alcohol-related health regeneration speed will be a tiny bit faster than the normal max.
+DONE Get Mudlib CL approved (insatiable too)
+
+INSATIABLE (dwarf, hobbit)
+DONE One extra level of full(ness?) called "You can definitely not eat more". This means you suffer slightly less fatigue overall as long as you stay extra full.
+DONE Get Mudlib CL approved (insatiable too)
+
+GNOME DISCOUNT (gnome)
+DONE Get Bank CL approved
+DONE Verify messaging
+
+OTHERS
+DONE Update skill from 999999 to final value
+DONE Ensure death recovery room resets skills
+DONE Ensure death recovery room allows skill selection
+DONE Add ability to set racial stats by the statue
+DONE Allow free race change at thaumaturgist
+DONE Allow free stat rebalance at thaumaturgist
+DONE Update meditation prefs to 150/90/30
+DONE Verify proper cleanup of race effects on race change
+DONE Update thau to use higher meditation prefs.
+DONE Figure out Ogre/Undead mods.
+DONE Ogre stat boost needs a boost.
+DONE Handle equipment during death process for thaumaturgist.
+DONE Fix rockfriends, remove intox boost.
+
+
+
+
+DONE MODIFY THAUMATURGIST TIMESTAMP TO BE ARMAGEDDON TIME.
+
+X /d/Genesis/race/*
+X /d/Genesis/login/*
+X /d/Genesis/login/help/*
+X /d/Genesis/specials/std/undead_shadow.c
+X /d/Emerald/common/guild/aod/aod_shadow.c
+X /d/Krynn/solamn/palanthas/palace/living/thaumaturgist.c
+X /d/Krynn/solamn/palanthas/palace/office21.c
+X /d/Gondor/common/dwarf_guild/dwarf_shadow.c
+X /d/Gondor/common/dwarf_guild/text/information
+
+
+
+UPDATED CHARACTER CREATION FILES
+
+X /d/Genesis/doc/login/RACES
+
+UPDATED TUTORIAL FILES
+
+X /d/Sparkle/area/tutorial/obj/race_statue.c
+X /d/Sparkle/area/tutorial/town/library3.c
+X /d/Sparkle/area/tutorial/text/chapter_8
+
+UPDATED HELP FILES
+
+X /doc/help/general/topics
+X /doc/help/general/races
+X /doc/help/general/stats
+
+NEW HELP FILES
+
+X /doc/help/general/rabilities
+X /doc/help/general/race-human
+X /doc/help/general/race-elf
+X /doc/help/general/race-dwarf
+X /doc/help/general/race-hobbit
+X /doc/help/general/race-gnome
+X /doc/help/general/race-goblin
+X /doc/help/general/race-ogre
+X /doc/help/general/race-undead
+
+/d/Genesis/doc/help/general for updated / new files
+
+
+X /d/Genesis/start/human/town/bank for weird bank implementation.

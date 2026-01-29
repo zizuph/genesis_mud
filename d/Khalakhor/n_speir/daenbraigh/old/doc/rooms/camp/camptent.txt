@@ -1,0 +1,28 @@
+An inside room, same base for each camp tent
+
+Properties:
+goblin camp inside
+
+Items:
+[p] table, bunks
+[c] table, bunks, rack
+[s] table, bunks, racks
+[l] table, chairs, bunks, racks
+[c] table, chairs, beds, racks, shelf
+[g] table, bed, armchair, chair, desk, rack, shelf
+
+Objects:
+[p] 5xprivate (25 total)
+[c] 4xcorporal (12 total)
+[s] 3xsergeant (6 total)
+[l] 3xlieutenant (3 total) + 3 privates (servants)
+[C] 2xcaptain + 2 corporals (adjutants) + 2 privates (servants)
+[g] general + 1xlieutenant (adjutant) + 2 corporals (clerks) + 2
+    privates (servants)
+Patrol: 1xl + 1xs + 2xc + 4xp
+
+Actions:
+npc interaction
+
+Exits:
+according to map

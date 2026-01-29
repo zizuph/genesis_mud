@@ -1,0 +1,1103 @@
+main
+::MAPDATA::
+tr2 6 5 palanthas_docks
+tr3 6 5 palanthas_docks
+tr4 6 5 palanthas_docks
+s01 6 5 palanthas_docks
+s02 6 5 palanthas_docks
+s03 6 5 palanthas_docks
+s04 6 5 palanthas_docks
+s05 6 5 palanthas_docks
+s06 6 5 palanthas_docks
+s07 6 5 palanthas_docks
+s08 6 5 palanthas_docks
+s09 6 5 palanthas_docks
+s10 6 5 palanthas_docks
+s11 6 5 palanthas_docks
+s12 6 5 palanthas_docks
+s13 6 5 palanthas_docks
+s14 6 5 palanthas_docks
+s15 6 5 palanthas_docks
+s16 6 5 palanthas_docks
+s17 6 5 palanthas_docks
+s18 6 5 palanthas_docks
+s19 6 5 palanthas_docks
+s20 6 5 palanthas_docks
+s21 6 5 palanthas_docks
+s22 6 5 palanthas_docks
+s23 6 5 palanthas_docks
+s24 6 5 palanthas_docks
+s25 6 5 palanthas_docks
+p08 6 5 palanthas_docks
+pier 6 5 palanthas_docks
+flotsam_pier 6 5 palanthas_docks
+icewall_pier 6 5 palanthas_docks
+alley200 6 5 palanthas_docks
+alley201 6 5 palanthas_docks 
+alley202 6 5 palanthas_docks
+tower2 6 5 palanthas_docks
+tower2_0 6 5 palanthas_docks
+tower 2_2 6 5 palanthas_docks
+tower1 6 5 palanthas_docks
+tower1_0 6 5 palanthas_docks
+tower1_2 6 5 palanthas_docks
+ware_trusq 6 5 palanthas_docks
+ware_trusq2 6 5 palanthas_docks
+ware_trusq3 6 5 palanthas_docks
+ware_trusq4 6 5 palanthas_docks
+trusq_foyer 6 5 palanthas_docks
+trusq_hall 6 5 palanthas_docks
+trusq_kitchen 6 5 palanthas_docks
+trusq_stairs 6 5 palanthas_docks
+trusq_stairs2 6 5 palanthas_docks
+trusq_stairs3 6 5 palanthas_docks
+trusq_stairs4 6 5 palanthas_docks
+trusq_guardroom 6 5 palanthas_docks
+trusq_office 6 5 palanthas_docks
+trusq_master 6 5 palanthas_docks
+trusq_ledge 6 5 palanthas_docks
+er1 6 5 palanthas_palace
+ic2 6 5 palanthas_palace
+ic3 6 5 palanthas_palace
+ic4 6 5 palanthas_palace
+ic5 6 5 palanthas_palace
+ic6 6 5 palanthas_palace
+ic7 6 5 palanthas_palace
+ic8 6 5 palanthas_palace
+ic9 6 5 palanthas_palace
+mcoffee 6 5 palanthas_palace
+ecoffee 6 5 palanthas_palace
+ner1 6 5 palanthas_palace
+ner2 6 5 palanthas_palace
+nwr1 6 5 palanthas_palace
+nwr2 6 5 palanthas_palace
+plaza 6 5 palanthas_palace
+po 6 5 palanthas_palace
+ser1 6 5 palanthas_palace
+ser2 6 5 palanthas_palace
+sr1 6 5 palanthas_palace
+swr1 6 5 palanthas_palace
+swr2 6 5 palanthas_palace
+tr1 6 5 palanthas_palace
+wr1 6 5 palanthas_palace
+w20 6 5 palanthas_merchant
+w21 6 5 palanthas_merchant
+w22 6 5 palanthas_merchant
+w23 6 5 palanthas_merchant
+w24 6 5 palanthas_merchant
+w25 6 5 palanthas_merchant
+w26 6 5 palanthas_merchant
+alchemist 6 5 palanthas_merchant 
+w27 6 5 palanthas_merchant
+w28 6 5 palanthas_merchant
+w29 6 5 palanthas_merchant 
+nwr3 6 5 palanthas_merchant
+nwr4 6 5 palanthas_merchant
+nwr5 6 5 palanthas_merchant
+nwr6 6 5 palanthas_merchant
+nwr7 6 5 palanthas_merchant 
+m01 6 5 palanthas_merchant
+m02 6 5 palanthas_merchant
+m03 6 5 palanthas_merchant
+m04 6 5 palanthas_merchant
+shop 6 5 palanthas_merchant
+green_twitch 6 5 palanthas_merchant
+green_twitch_common 6 5 palanthas_merchant
+bank 6 5 palanthas_merchant
+m05 6 5 palanthas_merchant
+m06 6 5 palanthas_merchant
+m10 6 5 palanthas_merchant 
+m11 6 5 palanthas_merchant
+m12 6 5 palanthas_merchant
+m13 6 5 palanthas_merchant
+m14 6 5 palanthas_merchant
+m15 6 5 palanthas_merchant
+m16 6 5 palanthas_merchant
+m17 6 5 palanthas_merchant
+bowyer 6 5 palanthas_merchant
+smith 6 5 palanthas_merchant
+leather 6 5 palanthas_merchant
+inn1 6 5 palanthas_merchant
+inn2 6 5 palanthas_merchant
+wr2 6 5 palanthas_merchant
+wr3 6 5 palanthas_merchant
+wr4 6 5 palanthas_merchant
+wr5 6 5 palanthas_merchant
+wr6 6 5 palanthas_merchant
+swr3 6 5 palanthas_merchant
+swr4 6 5 palanthas_merchant
+swr5 6 5 palanthas_merchant
+swr6 6 5 palanthas_merchant
+swr7 6 5 palanthas_merchant
+robemaker 6 5 palanthas_merchant
+leiden_garden 6 5 palanthas_merchant
+a01 6 5 palanthas_aesthetics
+a02 6 5 palanthas_aesthetics
+a03 6 5 palanthas_aesthetics
+a04 6 5 palanthas_aesthetics
+a05 6 5 palanthas_aesthetics
+a06 6 5 palanthas_aesthetics
+a07 6 5 palanthas_aesthetics
+a08 6 5 palanthas_aesthetics
+a09 6 5 palanthas_aesthetics
+a10 6 5 palanthas_aesthetics 
+a11 6 5 palanthas_aesthetics
+a12 6 5 palanthas_aesthetics
+a13 6 5 palanthas_aesthetics
+a14 6 5 palanthas_aesthetics
+a15 6 5 palanthas_aesthetics
+a16 6 5 palanthas_aesthetics
+a17 6 5 palanthas_aesthetics
+a18 6 5 palanthas_aesthetics
+a19 6 5 palanthas_aesthetics
+a20 6 5 palanthas_aesthetics
+a21 6 5 palanthas_aesthetics
+a22 6 5 palanthas_aesthetics
+a23 6 5 palanthas_aesthetics
+a24 6 5 palanthas_aesthetics
+sr2 6 5 palanthas_aesthetics
+sr3 6 5 palanthas_aesthetics
+sr4 6 5 palanthas_aesthetics
+sr5 6 5 palanthas_aesthetics
+w11 6 5 palanthas_aesthetics
+w12 6 5 palanthas_aesthetics
+w13 6 5 palanthas_aesthetics
+w14 6 5 palanthas_aesthetics
+w15 6 5 palanthas_aesthetics
+w16 6 5 palanthas_aesthetics
+w17 6 5 palanthas_aesthetics
+w18 6 5 palanthas_aesthetics
+w19 6 5 palanthas_aesthetics
+alley051 6 5 palanthas_aesthetics
+alley052 6 5 palanthas_aesthetics
+alley053 6 5 palanthas_aesthetics
+alley054 6 5 palanthas_aesthetics
+alley055 6 5 palanthas_aesthetics
+brix_onjat_basement 6 5 palanthas_aesthetics
+brix_kirk_parlour 6 5 palanthas_aesthetics
+brix_kirk_hq 6 5 palanthas_aesthetics
+brix_kirk_roof 6 5 palanthas_aesthetics
+brix_kirk_alley 6 5 palanthas_aesthetics
+jemshome1 6 5 palanthas_aesthetics 
+jemshome2 6 5 palanthas_aesthetics
+jemshome3 6 5 palanthas_aesthetics
+jemshome4 6 5 palanthas_aesthetics
+jemshome5 6 5 palanthas_aesthetics
+jemshome6 6 5 palanthas_aesthetics
+cobbler 6 5 palanthas_aesthetics
+generaleq 6 5 palanthas_aesthetics
+pages 6 5 palanthas_aesthetics
+w01 6 5 palanthas_noble
+w02 6 5 palanthas_noble
+w03 6 5 palanthas_noble
+w04 6 5 palanthas_noble 
+w05 6 5 palanthas_noble
+w06 6 5 palanthas_noble
+w07 6 5 palanthas_noble
+w08 6 5 palanthas_noble
+w09 6 5 palanthas_noble
+w10 6 5 palanthas_noble
+ner3 6 5 palanthas_noble
+ner4 6 5 palanthas_noble
+ner5 6 5 palanthas_noble
+ner6 6 5 palanthas_noble
+ner7 6 5 palanthas_noble
+er2 6 5 palanthas_noble
+er3 6 5 palanthas_noble
+er4 6 5 palanthas_noble
+er5 6 5 palanthas_noble
+ser3 6 5 palanthas_noble
+ser4 6 5 palanthas_noble
+ser5 6 5 palanthas_noble
+ser6 6 5 palanthas_noble
+ser7 6 5 palanthas_noble
+ser8 6 5 palanthas_noble
+n01 6 5 palanthas_noble
+liv_ent 6 5 palanthas_noble
+alley001 6 5 palanthas_noble
+alley002 6 5 palanthas_noble
+alley003 6 5 palanthas_noble
+alley004 6 5 palanthas_noble
+livery 6 5 palanthas_noble
+n02 6 5 palanthas_noble
+n03 6 5 palanthas_noble
+n04 6 5 palanthas_noble
+jeweler 6 5 palanthas_noble
+n05 6 5 palanthas_noble
+n06 6 5 palanthas_noble
+n07 6 5 palanthas_noble
+n08 6 5 palanthas_noble
+nplaza 6 5 palanthas_noble
+fineclothing 6 5 palanthas_noble
+spa 6 5 palanthas_noble
+spa_pierce 6 5 palanthas_noble
+spa_pamper 6 5 palanthas_noble
+spa_nails 6 5 palanthas_noble
+spa2 6 5 palanthas_noble
+spa_massage 6 5 palanthas_noble
+spa_massagem 6 5 palanthas_noble
+spa_messagef 6 5 palanthas_noble
+spa_pool 6 5 palanthas_noble
+vintner 6 5 palanthas_noble
+best_cafe 6 5 palanthas_noble
+n09 6 5 palanthas_noble
+n10 6 5 palanthas_noble
+park 6 5 palanthas_noble
+parkn 6 5 palanthas_noble
+parks 6 5 palanthas_noble
+n11 6 5 palanthas_noble
+n12 6 5 palanthas_noble
+n13 6 5 palanthas_noble
+n14 6 5 palanthas_noble
+n15 6 5 palanthas_noble
+n16 6 5 palanthas_noble
+n17 6 5 palanthas_noble
+club1 6 5 palanthas_noble
+club2 6 5 palanthas_noble
+club3 6 5 palanthas_noble
+club4 6 5 palanthas_noble 
+hedge 6 5 palanthas_noble 
+adv_guild 6 5 palanthas_noble
+toa_field01 6 5 tower_of_arms
+toa_lieutenant01 6 5 tower_of_arms
+toa_lieutenant_n 6 5 tower_of_arms
+toa_lieutenant_e 6 5 tower_of_arms
+toa_lieutenant_s 6 5 tower_of_arms
+toa_lieutenant20 6 5 tower_of_arms
+toa_store_e 6 5 tower_of_arms
+toa_store_n 6 5 tower_of_arms
+toa_store_s 6 5 tower_of_arms
+toa_store01 6 5 tower_of_arms
+toa01 6 5 tower_of_arms
+toa02 6 5 tower_of_arms
+toa03 6 5 tower_of_arms
+toa04 6 5 tower_of_arms
+toa05 6 5 tower_of_arms
+toa06 6 5 tower_of_arms
+toa07 6 5 tower_of_arms
+toa08 6 5 tower_of_arms
+toa09 6 5 tower_of_arms
+toa21 6 5 tower_of_arms
+toa22 6 5 tower_of_arms
+toa23 6 5 tower_of_arms
+toa24 6 5 tower_of_arms
+toa25 6 5 tower_of_arms
+toa26 6 5 tower_of_arms
+toa27 6 5 tower_of_arms
+toa28 6 5 tower_of_arms
+toa29 6 5 tower_of_arms
+toa29n 6 5 tower_of_arms
+toa29s 6 5 tower_of_arms
+toa30 6 5 tower_of_arms
+toa30n 6 5 tower_of_arms
+toa30s 6 5 tower_of_arms
+toa31 6 5 tower_of_arms
+toa31n 6 5 tower_of_arms
+toa31s 6 5 tower_of_arms
+toa32 6 5 tower_of_arms
+toa32n 6 5 tower_of_arms
+toa32s 6 5 tower_of_arms
+toa33pub 6 5 tower_of_arms
+toa40 6 5 tower_of_arms
+toa41 6 5 tower_of_arms
+toa42 6 5 tower_of_arms
+toa43 6 5 tower_of_arms
+toa44 6 5 tower_of_arms
+toa45 6 5 tower_of_arms
+toa46 6 5 tower_of_arms
+toa47 6 5 tower_of_arms
+toa48 6 5 tower_of_arms
+toa49 6 5 tower_of_arms
+toa49n 6 5 tower_of_arms
+toa49s 6 5 tower_of_arms
+toa50 6 5 tower_of_arms
+toa50n 6 5 tower_of_arms
+toa50s 6 5 tower_of_arms
+toa51 6 5 tower_of_arms
+toa51n 6 5 tower_of_arms
+toa51s 6 5 tower_of_arms
+toa52 6 5 tower_of_arms
+toa52n 6 5 tower_of_arms
+toa52s 6 5 tower_of_arms
+toa53 6 5 tower_of_arms
+toa54 6 5 tower_of_arms
+toa55 6 5 tower_of_arms
+toa61 6 5 tower_of_arms
+toa62 6 5 tower_of_arms
+toa63 6 5 tower_of_arms
+toa64 6 5 tower_of_arms
+toa65 6 5 tower_of_arms
+toa65n 6 5 tower_of_arms
+toa65s 6 5 tower_of_arms
+toa65w 6 5 tower_of_arms
+toa66 6 5 tower_of_arms
+toa67 6 5 tower_of_arms
+toa67n 6 5 tower_of_arms
+toa67s 6 5 tower_of_arms
+toa67w 6 5 tower_of_arms
+toa70 6 5 tower_of_arms
+toa71 6 5 tower_of_arms
+toaL01 6 5 tower_of_arms
+toaL02 6 5 tower_of_arms
+toaL03 6 5 tower_of_arms
+toaL04 6 5 tower_of_arms
+toaL05 6 5 tower_of_arms
+toaL06 6 5 tower_of_arms
+toaL07 6 5 tower_of_arms
+utoa01 6 5 under_tower_of_arms
+utoa02 6 5 under_tower_of_arms
+utoa03 6 5 under_tower_of_arms
+utoa04 6 5 under_tower_of_arms
+utoa05 6 5 under_tower_of_arms
+utoa05n 6 5 under_tower_of_arms
+utoa05s 6 5 under_tower_of_arms
+utoa06 6 5 under_tower_of_arms
+utoa06n 6 5 under_tower_of_arms
+utoa06s 6 5 under_tower_of_arms
+utoa07 6 5 under_tower_of_arms
+utoa07n 6 5 under_tower_of_arms
+utoa07s 6 5 under_tower_of_arms
+utoa08 6 5 under_tower_of_arms
+utoa08n 6 5 under_tower_of_arms
+utoa08s 6 5 under_tower_of_arms
+utoa09 6 5 under_tower_of_arms
+utoa09n 6 5 under_tower_of_arms
+utoa09s 6 5 under_tower_of_arms
+utoa10 6 5 under_tower_of_arms 0
+utoa11 6 5 under_tower_of_arms
+utoa12 6 5 under_tower_of_arms
+utoa12n 6 5 under_tower_of_arms
+utoa12s 6 5 under_tower_of_arms
+utoa13 6 5 under_tower_of_arms
+utoa13n 6 5 under_tower_of_arms
+utoa13s 6 5 under_tower_of_arms
+utoa14 6 5 under_tower_of_arms
+utoa14n 6 5 under_tower_of_arms
+utoa14s 6 5 under_tower_of_arms
+utoa15 6 5 under_tower_of_arms
+utoa15n 6 5 under_tower_of_arms
+utoa15s 6 5 under_tower_of_arms
+utoa16 6 5 under_tower_of_arms
+utoa16n 6 5 under_tower_of_arms
+utoa16s 6 5 under_tower_of_arms
+utoa17 6 5 under_tower_of_arms
+utoa18 6 5 under_tower_of_arms
+utoa19 6 5 under_tower_of_arms
+utoa19n 6 5 under_tower_of_arms
+utoa19s 6 5 under_tower_of_arms
+utoa20 6 5 under_tower_of_arms 0
+utoa20n 6 5 under_tower_of_arms
+utoa20s 6 5 under_tower_of_arms
+utoa21 6 5 under_tower_of_arms
+utoa21n 6 5 under_tower_of_arms
+utoa21s 6 5 under_tower_of_arms
+utoa22 6 5 under_tower_of_arms
+utoa22n 6 5 under_tower_of_arms
+utoa22s 6 5 under_tower_of_arms
+utoa23 6 5 under_tower_of_arms
+utoa23n 6 5 under_tower_of_arms
+utoa23s 6 5 under_tower_of_arms
+utoa24 6 5 under_tower_of_arms
+utoa25 6 5 under_tower_of_arms
+utoa26 6 5 under_tower_of_arms
+utoa27 6 5 under_tower_of_arms
+::MAPDATA::
+
+~~ ~~ ~~ ~~ ~~ '
+ `"`:~~ ,"`,`"`        
+ /\ ; ~~:         /\       Hinterlund
+  /\`,~,'        /\
+     [ ] /\ /\ /\                   ~~~ ~~
+ Palanthas/\ /\  /\             ~~~~~  ~~
+     /\_   /\ /\               ~~~
+    /   \/\                    ~
+  /\ /\ /\                    ~~     /\_ 
+   /\  /\      PLAINS OF      ~     /\  \
+     /\[ ]     SOLAMNIA      ~~    [#]/\ 
+ High Clerist               ~      Dargaard
+     Tower\                ~~      Keep /\
+   /\      \____________[ ]~        /\    
+    /\                Vingaard        /\    
+   /\                 Keep          /\   
+  /\   Heartlund        ~           @/\ /\ 
+ /\                   ~~           @/\_
+
+::NEWMAP::
+palanthas_docks
+::MAPDATA::
+tr2 38 23
+tr3 38 19
+tr4 38 15
+s01 50 23
+s02 44 23
+s03 32 23
+s04 26 23
+s05 20 19
+s06 26 19
+s07 32 19
+s08 44 19
+s09 50 19
+s10 56 19
+s11 50 15
+s12 44 15
+s13 32 15
+s14 26 15
+s15 35 13
+s16 32 11
+s17 29 9
+s18 23 9
+s19 17 9
+s20 14 7
+s21 11 5
+s22 53 13
+s23 56 11
+s24 59 9
+s25 59 5
+p08 56 3
+pier 35 11
+flotsam_pier 35 7
+icewall_pier 35 5
+alley200 50 21
+alley201 35 25 
+alley202 34 26
+tower2 23 13
+tower2_0 23 13
+tower 2_2 23 13
+tower1 17 17
+tower1_0 17 17
+tower1_2 17 17
+ware_trusq 32 21
+ware_trusq2 32 21
+ware_trusq3 32 21
+ware_trusq4 32 21
+trusq_foyer 32 25
+trusq_hall 32 25
+trusq_kitchen 32 25
+trusq_stairs 32 25
+trusq_stairs2 32 25
+trusq_stairs3 32 25
+trusq_stairs4 32 25
+trusq_guardroom 32 25
+trusq_office 32 25
+trusq_master 32 25
+trusq_ledge 32 25
+::MAPDATA::
+
+                                      
+                                                           
+          ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~6 ~~                                                
+           ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~\~                                              
+           o  ~~ ~~ ~~ ~~ ~~ ~~ ~  5  ~~ ~~ ~~ ~~ ~~ ~~    o
+            \    ~~ ~~ ~~ ~~ ~~    |  ~~ ~~ ~~ ~~ ~~ ~~    |
+              o  ~~ ~~ ~~ ~~ ~~  3 4  ~~ ~~ ~~ ~~ ~~ ~~    |
+               \                  \|  ~~ ~~ ~~ ~~ ~~ ~~    |
+                 o-----o-----o   2 p  ~~ ~~ ~~ ~~ ~~ ~~    o
+                              \   \|  ~~ ~~ ~~ ~~ ~~ ~~   /    
+                                o  1  ~~ ~~ ~~ ~~ ~~    o     
+                                 \ |  ~~ ~~ ~~ ~~ ~~   /      
+                       t           o     ~~ ~~ ~~    o        
+                        \            \              /          
+                          o-----o     o-----o-----o'          
+                        /        `\   |                       
+                 t    ,' [w]   [w] `, |    [w]   [w]       
+                  \  /    |     |    \|     |     |       
+                    o-----o-----o-----o-----o-----o-----o
+                   / \    |     |    /|     |     .    /  \
+                      `, [w]   [w] ,' |    [w]    .  ,'    
+                        \         /   |           . /    
+           Merchant       o-----o'    o     o-----o     Noble  
+           Quarter        |     | .   |    /       \    Quarter
+                         [M]   [T] .  |  ,'         
+                                  .   | /             
+
+
+                             --= Palanthas docks =--
+                  1 Grey Havens shipline   5 Icewall shipline
+                  2 Newports shipline      6 Sparkle shipline
+                  3 Calia shipline         p unused pier
+                  4 Kalaman shipline       T Trusq merchant estate
+                  M Merchant estate        w warehouse  
+                  t Guard tower                     
+::NEWMAP::
+palanthas_palace
+::MAPDATA::
+er1 50 11
+ic2 42 3
+ic3 50 7
+ic4 50 14
+ic5 42 19
+ic6 34 19
+ic7 26 14
+ic8 26 7
+ic9 34 3
+mcoffee 33 10
+ecoffee 43 10
+ner1 42 8
+ner2 46 5
+nwr1 34 8
+nwr2 30 5
+plaza 38 11
+po 38 11
+ser1 42 14
+ser2 46 17
+sr1 38 19
+swr1 34 14
+swr2 30 17
+tr1 38 3
+wr1 26 11
+::MAPDATA::
+
+                                      |  /
+                                      | /          
+-= Palace District =- *** \\      o---o---o      //
+                      ***   \\  /  *******  \  //       
+  P Plaza             ***     o   *********   o,    . . 
+  H Light Hart Cafe   ***   /  \\ *       * //  \  .  . 
+  D Dawnbringer Cafe  *** o'    \\  Palace //     o S-o-
+  S Stable            *** |       o       o       |.  . 
+  . alley            **** |        \\   //        | . . 
+                     **   |     [D] \\ // [L]     |     
+                     -----o----------[P]----------o-----
+                          |         //|\\         |     
+                     ***  |        // | \\        |     
+        MERCHANT     **** o       o J | P o       o  NOBLE   
+                     ***** \    //  A | O  \\    /  
+        QUARTER      *****  `, //   I | S   \\ ,'    QUARTER
+                     *****    o     L | T     o  
+                     ****   //  \     |     /  \\ 
+                          //      o---o---o      \\ 
+                        //            | \          \\
+                                      |    Great          
+                                      |  Library of    
+                                         Palanthas
+                                   
+                                 AESTHETICS
+
+                                  QUARTER
+::NEWMAP::
+palanthas_merchant
+::MAPDATA::
+w20 39 40 
+w21 33 36
+w22 33 32
+w23 33 28
+w24 33 20
+w25 33 16
+w26 33 12
+alchemist 36 13 
+w27 35 10
+w28 45 4
+w29 45 1 
+nwr3 54 14
+nwr4 51 12
+nwr5 48 10
+nwr6 45 8
+nwr7 42 6 
+m01 45 12
+m02 39 16
+m03 45 16
+m04 39 18
+shop 36 18
+green_twitch 42 18
+green_twitch_common 42 18
+bank 39 20
+m05 47 18
+m06 45 20
+m10 45 28 
+m11 39 30
+m12 39 34
+m13 45 32
+m14 51 32
+m15 39 36
+m16 45 36
+m17 42 38
+bowyer 42 36
+smith 39 28
+leather 42 30
+inn1 39 26
+inn2 39 26
+wr2 51 24
+wr3 45 24
+wr4 39 24
+wr5 33 24
+wr6 27 24
+swr3 54 34
+swr4 51 36
+swr5 48 38
+swr6 45 40
+swr7 42 42
+robemaker 39 22
+leiden_garden 48 22
+::MAPDATA::
+             
+                                             o 
+                                             | 
+                                             |  
+                                             o       
+                                            /     
+                                          o   
+                                        /  \\           DOCK
+                                      ,'     o   
+                                     /        \\  /
+                                   o     t      o      DISTRICT
+                                  /        \   / \\   
+                                 o.          o-----o      
+                                 | [A]       |   ***\\   
+                                 |           | *******o  
+                                 |           | ***   **\\      
+                                 o-----o-----o **     ** \\     
+                                 |     |     |\ *     **  
+                                 | [S]-o-[G] | o-- K  **   
+                                 |     |     |/ *     ** Gallant
+                                 o    [b]    o  ******** Field
+                                 |           | ********* Woods     
+             to the              |    [R]    | .g*******         
+             western             |     |     |.  *****          
+             moors    -----o-----o-----o-----o-----o----- PLAZA
+                                 |     |     |     |              
+-== Merchant Quarter ==-         |    [i]    | ****|***        
+R Magical Robes of Wisdom        |           |*****|*****Shoikan     
+M Master Armoury of Palanthas    o    [M]    o*** /W\ ***Grove
+L Daronius' Leatherworkery       |     |     |*** \_/ *** 
+W Tower of High Sorcery          |   T-o-[L] |***********   
+T Kaysee's Tanner                |     |     | *********   
+A Alchemist Shop                 o     |     o-----o     //      
+B Bowyer                         |     |     |      \  //         
+i Silver Dragon Inn              |     o     |        o           
+K Tower of Arms                  |     |     |      // \           
+t Guard tower                    o     o [B]-o     o        
+S Shop of Palanthas               \     \     \  //    
+b Bank of Palanthas                `,     o     o     AESTHETICS
+G Green Twitch Inn                   \  /  \  // \       
+. alley                                o    `o        QUARTER
+                                        \  // \          
+                                          o    
+                                           \       
+::NEWMAP::
+palanthas_aesthetics
+::MAPDATA::
+a01 19 5
+a02 37 5
+a03 43 5
+a04 49 9
+a05 43 9
+a06 37 9
+a07 25 9
+a08 19 9
+a09 13 9
+a10 10 11 
+a11 13 11
+a12 16 11
+a13 19 11
+a14 22 11
+a15 25 11
+a16 25 13
+a17 25 15
+a18 22 15
+a19 19 15
+a20 16 15
+a21 13 15
+a22 52 11
+a23 49 13
+a24 43 13
+sr2 31 5
+sr3 31 9
+sr4 31 13
+sr5 31 17
+w11 55 13
+w12 52 15
+w13 49 17
+w14 43 17
+w15 37 17
+w16 25 17
+w17 19 17
+w18 13 17
+w19 7 13
+alley051 13 13
+alley052 15 13
+alley053 17 13
+alley054 19 13
+alley055 21 13
+brix_onjat_basement 12 13
+brix_kirk_parlour 22 13
+brix_kirk_hq 22 13
+brix_kirk_roof 22 13
+brix_kirk_alley 23 13
+jemshome1 19 12 
+jemshome2 22 12
+jemshome3 22 14
+jemshome4 19 14
+jemshome5 16 14
+jemshome6 13 14
+cobbler 13 12
+generaleq 16 12
+pages 22 7
+::MAPDATA::
+                                                                
+                   //        PLAZA        \\  
+                 //                         \\         
+ MERCHANT       o  E           |              o        NOBLE
+              // \ |           |               \\  /    
+ QUARTER     o     o        M--o-----o  E--o     o     QUARTER   
+         \ // \  / | \         |           |   /  \\ /       
+          o     D  | [m]       |           |  E     o      
+      \ // \       |           |           |      /  \\ /    
+       o     o-----o-----o-----o-----o-----o-----o     o     
+   \ // \          |     |     |     |               /  \\  /
+    o     o--o--o--o--o--o     |     S            P-o     o
+     \      [C][G].h  h  |     |                     \   / \\
+       o    ^. . . . .^. o  E--o--B        o-----o     o     \\
+        \    h  h. h  h  |     |           | \    \   /     
+         `,  o--o--o--o--o     |           |  Z     o       road to
+           \       |     |     |           |       /        High Clerist
+             o-----o-----o-----o-----o-----o-----o          Tower
+                                       
+                                       
+                    -== Aesthetics Quarter ==-
+
+C Lurr's Cobblery                     D Scholar's Den (closed)
+G Manny's General Equipment Store     S Scroll Trade Guilde (closed)
+h house                               M Aesthetic's Monastery (closed)
+m Messengers                          P Park (closed)                         
+B Book Bindery of Palanthas (closed)  E Estate (closed)                   
+Z Zeb's Unlooked for Tomes (closed)   . alley
+
+::NEWMAP::
+palanthas_noble
+::MAPDATA::
+w01 25 1
+w02 25 4
+w03 30 8
+w04 36 12 
+w05 36 16
+w06 36 20
+w07 36 28
+w08 36 32
+w09 36 36
+w10 30 40
+ner3 15 14
+ner4 18 12
+ner5 21 10
+ner6 24 8
+ner7 27 6
+er2 18 24
+er3 24 24
+er4 30 24
+er5 36 24
+ser3 15 34
+ser4 18 36
+ser5 21 38
+ser6 24 40
+ser7 27 42
+ser8 29 44
+n01 18 20
+liv_ent 16 20
+alley001 16 18
+alley002 14 18
+alley003 14 22
+alley004 16 22
+livery 14 20
+n02 21 20
+n03 18 16
+n04 24 16
+jeweler 21 14
+n05 24 12
+n06 27 10
+n07 30 12
+n08 24 20
+nplaza 30 20
+fineclothing 30 18
+spa 30 22
+spa_pierce 30 22
+spa_pamper 30 22
+spa_nails 30 22
+spa2 30 22
+spa_massage 30 22
+spa_massagem 30 22
+spa_messagef 30 22
+spa_pool 30 22
+vintner 33 22
+best_cafe 33 20
+n09 18 28
+n10 24 28
+park 21 28
+parkn 21 26
+parks 21 30
+n11 24 32
+n12 24 36
+n13 27 38
+n14 30 36
+n15 30 32
+n16 30 28
+n17 33 26
+club1 33 28
+club2 33 28
+club3 33 28
+club4 33 28
+hedge 20 28 
+adv_guild 20 34
+::MAPDATA::
+                                                   
+                         o
+                         |
+                         |
+                         o
+                          \
+                     C     o
+                      \  //  \
+    DOCK                o     o       
+                   \  //     /  \
+    DISTRICT         o     o     `,
+                   // \   / \      \
+                  o     5-----o     o
+             \  //      |\     \    |
+               o     J  |  U    `,  |
+             // \     \ |         \ |
+           //     o-----o           o
+         //       |     |           |
+        O,    . . |     |     D     |
+       /  \  .  . |     |     |     |
+           `o S-o-o--o  o-----O--M  o
+            |.  . |     |     |.    |
+            | . . |     |     L  V  |
+            |     |     |           |
+PLAZA  -----O-----o-----o-----o-----o   -== NOBLE QUARTER ==-
+            |     |     |     |     |
+            |     |  P  |     |  o  |   S  Stables
+            o     |  |  |     |  | \|   G  Greystone Inn (closed)
+           /      o  B--o     o  K  o   C  Bishon's Crabbery (closed)
+       \ ,'      /   |  |     |     |   J  Jeweler's Shop
+        O      G     P  |     |     |   D  Dienya's Fine Clothing
+         \\             |     |     |   L  Laethorian Spa and Body
+           \\           o     o-----o   M  Mer-Cantile's Cafe
+             \\         |     |     |   V  Vintner
+               o     AG |     |     |   B  City announcement board
+                \\  /   |     |     |   P  Nobles park
+                  o     o     o     o   AG Adventurer's guild
+                /  \\ /            /    K  Prestigious Knights Club
+                     o     .     ,'     U  Umberto's Fine Cloth (closed)
+     MERCHANT      /  \\ .   .  /       .  alley
+                        o     o
+     QUARTER          /  \\  /
+                           o
+                         / \\
+                             o
+                              \\
+                                 road to
+                                 High Clerist Tower 
+
+::NEWMAP::
+tower_of_arms
+::MAPDATA::
+toa_field01 13 29
+toa_lieutenant01 18 35
+toa_lieutenant_n 18 33
+toa_lieutenant_e 21 35
+toa_lieutenant_s 18 37
+toa_lieutenant20 56 19
+toa_store_e 59 35
+toa_store_n 55 33
+toa_store_s 55 37
+toa_store01 55 35
+toa01 5 35
+toa02 13 35
+toa03 8 33
+toa04 13 31 
+toa05 24 31
+toa06 24 35
+toa07 24 39
+toa08 13 39
+toa09 8 37
+toa21 49 14
+toa22 60 14
+toa23 60 19
+toa24 60 24
+toa25 49 24
+toa26 38 24
+toa27 38 19
+toa28 38 14
+toa29 42 19
+toa29n 42 17
+toa29s 42 21
+toa30 45 19
+toa30n 45 17
+toa30s 45 21
+toa31 48 19
+toa31n 48 17
+toa31s 48 21
+toa32 51 19
+toa32n 51 17
+toa32s 51 21
+toa33pub 54 17
+toa40 2 14
+toa41 13 14
+toa42 24 14
+toa43 24 19
+toa44 24 24
+toa45 13 24
+toa46 2 24
+toa47 2 19
+toa48 2 14
+toa49 6 19
+toa49n 6 17
+toa49s 6 21
+toa50 9 19
+toa50n 9 17
+toa50s 9 21
+toa51 12 19
+toa51n 12 17
+toa51s 12 21
+toa52 15 19
+toa52n 15 17
+toa52s 15 21
+toa53 18 17
+toa54 18 21
+toa55 19 19
+toa61 13 3
+toa62 19 7
+toa63 13 11
+toa64 9 7
+toa65 13 7
+toa65n 13 5
+toa65s 13 9
+toa65w 11 7
+toa66 24 7
+toa67 4 7
+toa67n 4 5
+toa67s 4 9
+toa67w 2 7
+toa70 22 5
+toa71 7 5
+toaL01 49 35
+toaL02 49 31
+toaL03 49 39
+toaL04 45 35
+toaL05 42 33
+toaL06 42 35
+toaL07 42 37
+::MAPDATA::
+                         TOWER OF ARMS
+    
+                               Tower of Arms Legend:     
+  L4         O                  ---------------------     
+            /  \    
+    o  G  ,' o  `,    H              L  - Locked Door     
+    |,'  /   |    \ ,'                  1  - Lieutenant Quarters 
+  O-o-L-O  o-o-----O-L--O             2  - Draft Pub         
+    |    \   |  ,'/                   3  - Stores         
+    o     `. o F,'                    4  - Armours         
+            \  /                      5  - Weapons         
+             O
+  L3                                 L2             D
+                                                  ,' 
+  O----------O----------O             O----------O----------O
+  |        ,'           |             |        ,'           |
+  |       D             |             |       B             | 
+  |   o  o  o  o  o   F |             |   o  o  o  o  2     |
+  |   |  |  |  | /  ,'  |             |   |  |  |  | /      |
+  O---o--o--o--o   O----O             O---o--o--o--o    O-L-O
+  |   |  |  |  | \      |             |   |  |  |  |  ,'    |
+  |   o  o  o  o  o     |             |   o  o  o  o A      |
+  |                     |             |             D       |
+  |                     |             |           ,'        |
+  O----------O----------O             O----------O----------O 
+           ,'                                  ,'           
+          D                                   B             
+
+ 
+             _  B                                   Z
+             |.'                                  ,'
+  Ground   , O----------O             L0         O
+          /,'|          |                        |            
+        o Z  |    o  A  |                 o      |     3
+         .:| |    |,'   |                  `,    |     |
+  ---O-:||||-O-L--1--o  O                 o--o---O--L--o---4
+         `:| |    |     |                  ,'    |     |
+        o    |  B o     |                 o      |  Z  5
+          \  |,`        |                        |,'
+           ` O----------O                        O
+           ,'
+          Z
+::NEWMAP::
+under_tower_of_arms
+::MAPDATA::
+utoa01 2 21
+utoa02 13 21
+utoa03 24 21
+utoa04 24 18
+utoa05 18 18
+utoa05n 18 16
+utoa05s 18 20
+utoa06 15 18
+utoa06n 15 16
+utoa06s 15 20
+utoa07 12 18
+utoa07n 12 16
+utoa07s 12 20
+utoa08 9 18
+utoa08n 9 16
+utoa08s 9 20
+utoa09 6 18
+utoa09n 6 16
+utoa09s 6 20
+utoa10 2 18
+utoa11 2 12
+utoa12 6 12
+utoa12n 6 10
+utoa12s 6 14
+utoa13 9 12
+utoa13n 9 10
+utoa13s 9 14
+utoa14 12 12
+utoa14n 12 10
+utoa14s 12 14
+utoa15 15 12
+utoa15n 15 10
+utoa15s 15 14
+utoa16 18 12
+utoa16n 18 10
+utoa16s 18 14
+utoa17 24 12
+utoa18 24 6
+utoa19 18 6
+utoa19n 18 4
+utoa19s 18 8
+utoa20 15 6
+utoa20n 15 4
+utoa20s 15 8
+utoa21 12 6
+utoa21n 12 4
+utoa21s 12 8
+utoa22 9 6
+utoa22n 9 4
+utoa22s 9 8
+utoa23 6 6
+utoa23n 6 4
+utoa23s 6 8
+utoa24 2 6
+utoa25 2 3
+utoa26 13 3
+utoa27 24 3
+::MAPDATA::
+    Crypts Beneath the
+      Tower of Arms
+
+  O----------O----------O
+  |   o  o  o  o  o
+  |   |  |  |  |  |
+  O---o--o--o--o--o-----O
+      |  |  |  |  |     |
+      o  o  o  o  o     |
+                        |
+      o  o  o  o  o     |
+      |  |  |  |  |     |
+  O---o--o--o--o--o-----O
+  |   |  |  |  |  |
+  |   o  o  o  o  o
+  |
+  |   o  o  o  o  o
+  |   |  |  |  |  |
+  O---o--o--o--o--o-----O
+      |  |  |  |  |     |
+      o  o  o  o  o     |
+  0----------O----------O

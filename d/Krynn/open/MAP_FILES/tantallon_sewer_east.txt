@@ -1,0 +1,35 @@
+main
+::MAPDATA::
+sewer10 14 1
+sewer9 22 1
+sewer12 10 3
+sewer8 18 3
+sewer11 10 5
+sewer7 18 5
+sewer6 14 7
+sewer13 10 9
+sewer5 14 9
+sewer4 10 11
+sewer3 10 13
+sewer21 2 15
+sewer2 6 15
+sewer1 6 17
+::MAPDATA::
+
+              o       o
+                \   /
+          o       o
+          |       |
+          o       o
+            \   /
+              o
+              |
+          o - o
+            /
+          o     _..----.._    _
+          |   .'  .--.    "-.(0)_
+          o  .|   ,  _)_ \__ . c\'-..
+        /    : '--------'---''---'-"
+  o - o       '..--.__,
+      |
+      o

@@ -1,0 +1,34 @@
+Summon Pigeon - summons carrier pigeon.   Diff: Low.
+Speed Growth - lowers the search-factor in the current room.   Diff: Medium.
+Herb Finding - find one herb that grows in the room.  Diff: varies with the
+		actual difficulty of finding that herb.
+Herb Lore - identify one present herb.   Diff: varies with the actual degree
+		of difficulty of identifying that herb.
+Herb Preserve - stops one herb from decaying.  Diff: depends on how old the
+		herb is.
+
+Heat Resist - increase MAGIC_I_RES_FIRE.   Diff: Medium.
+Cold Resist - increase MAGIC_I_RES_COLD.   Diff: Low.
+Resistance - increase MAGIC_I_RES_MAGIC.   Diff: Hard.
+Poison Resist - increase MAGIC_I_RES_POISON.   Diff: Medium.
+
+Light - increase light in room/ on player.   Diff: Low.
+Darkness - decrease light in room/on player.  Diff: Medium.
+Nightvision - increase LIVE_I_SEE_DARK by one.   Diff: Medium.
+Darkvision - increase LIVE_I_SEE_DARK by two.   Diff: Hard.
+
+Heal - heals player for hit points.   Diff: Medium.
+Rest - heals player for fatigue.   Diff: Low.
+Cleanse - removes one poison from player.   Diff: Hard.
+Detect Evil - detects evil in living/room/nearby.   Diff: Medium/Medium/Hard.
+
+
+- - - - - 
+
+TODO:
+Decide all spells for each Company, along with 'level', mana-cost and
+difficulty. Code into guild-object for each Company with these differences,
+so that the spell is only available after some predetermined point of a
+Ranger's career. Examples: By guild-stat, by quests, by magic-skills etc.
+The Gondor Company will be offered all these spells, while the others will
+only have a selection, available at a higher level.

@@ -1,0 +1,54 @@
+ ___________________________________________________________________
+|\._________________________________________________________________\.
+| |                                                                  |
+| | o                                                              o |
+| |                          Laethorian                              |
+| |                                                                  |
+| |                           Piercery                               |
+| |                                                                  |
+| |   The Laethorian Piercery does not provide  as  wide ranging an  |
+| |  assortment of body piercings as  other establishments,  but we  |
+| |  guarantee a measure of sanitation and cleanliness you will not  |
+| |  find anywhere in the realms.                                    |
+| |                                                                  |
+| |   Piercings                                                      |
+| |   ---------                                                      |
+| |   Nose          To acquire a piercing, use <pierce> <location>.  |
+| |   Both ears    You may have a nose piercing in  addition to one  |
+| |   Left ear     ear piercing.  We will  undo your piercings with  |
+| |   Right ear    <unpierce> <location>.                            |
+| |                                                                  |
+| |                           Jewelery                               |
+| |                                                                  |
+| |   The Laethorian provides a selection of exceptional  rings and  |
+| |  studs  for  your piercings all  custom designed and crafted by  |
+| |  the Harnoncourt Jewelers.                                       |
+| |                                                                  |
+| |   Materials              Jewels                                  |
+| |   ---------              ------                                  |
+| |   Copper         2 cc    Turquoise   1 gc    Emerald      32 gc  |
+| |   Brass          6 cc    Jasper      2 gc    Sapphire     36 gc  |
+| |   Bronze        12 cc    Amber       4 gc    Ruby         40 gc  |
+| |   Steel         16 cc    Garnet      8 gc    Jacinth      42 gc  |
+| |   Silver         2 sc    Onyx       12 gc    Corundum     44 gc  |
+| |   White-silver   3 sc    Jade       16 gc    Fire Opal    44 gc  |
+| |   Gold           1 gc    Crystal    17 gc    Diamond      48 gc  |
+| |   Platinum       1 pc    Pearl      20 gc    Alexandrite  50 gc  |
+| |   Ironwood       2 pc    Topaz      24 gc    Star-ruby    75 gc  |
+| |                          Opal       28 gc                        |
+| |                                                                  |
+| |   Jewelry:  ring, rings, stud, studs                             |
+| |   -------                                                        |
+| |                                                                  |
+| |   To purchase jewelry for your piercing:                         |
+| |          <order> <material> <jewelry> with <jewel>               |
+| |                                                                  |
+| |   Jewels are optional.  If you  don't  want one, leave off the   |
+| |  'with <jewel>' option.  Note also that rings and studs double   |
+| |  the above costs as they use double the precious material.       |
+| |                                                                  |
+| |   To wear your jewelry use: <insert> <jewelry> in <piercing>.    |
+| |  To take them out use <remove> <jewelry> from <piercing>.        |
+| |                                                                  | 
+| | o                                                              o | 
+ \|__________________________________________________________________|

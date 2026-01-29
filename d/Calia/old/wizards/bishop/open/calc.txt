@@ -1,0 +1,35 @@
+Okay.. let me try this. I'm ignoring the randoms.
+
+
+fixnorm does this: offence * 100 / (offence + def) - 50.
+
+def is parry + defence.
+
+Since the tohit_val is 0 when we evaluate cb_tohit, whether we
+hit or not solely depends on the fixnorm evaluation.
+
+So, we will hit if..
+
+offence * 100 / (offence + parry + defence) - 50 > 0.
+
+offence * 100 / (offence + parry + defence) > 50      | * (off+defence+parry)
+
+offence * 100 > 50 offence + 50 defence + 50 parry    | divide by 50 and move
+
+2*offence - offence - parry > defence
+
+offence - parry > defence
+
+That's what we end up with.. so if defence is reduced by 25 %..
+
+offence - parry > 0.75 defence
+
+(offence - parry)/0.75 > defence
+
+
+Meaning the left side increases by 33%.. and since that is the chance of
+hitting.
+
+Does that sound correct to you? If it isn't, I plead sleepiness. :)
+
+-Bish

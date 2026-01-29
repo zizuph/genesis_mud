@@ -1,0 +1,18 @@
+Word of Recall -   This spell will be a two-part spell. A player will be
+                   able to place a marker in a place and then later be
+                   able to teleport back to that place. This spell has
+                   the most room for abuse since a player could cast the
+                   spell in a treasure room of some sort and teleport
+                   back to it at any time. I will have it check for the
+                   ROOM_M_NO_TELEPORT and ROOM_M_NO_TELEPORT_TO 
+                   properties. I will also keep a log of rooms that they
+                   teleport to and any that I find to be being abused, 
+                   I will report to the appropriate domains so that the
+                   property can be added to that room. This spell will
+                   not initiate attack and cannot be cast during combat.
+                   Requires a pre-made component (can only be made in the
+                   guildhome) consisting of chalcedony and breadroot. 
+                   150 mana. NOTE: This spell requires the component for
+                   both the marking and teleporting phase. This spell is
+                   available to all level 3 Master members (guild level
+                   6) and higher.

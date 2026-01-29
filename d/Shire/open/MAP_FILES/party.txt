@@ -1,0 +1,32 @@
+main
+::MAPDATA::
+costume_shop 25 6
+entrance 42 6
+bank 59 6
+dinner 27 14
+podium 42 14
+field 55 14
+post 42 21
+::MAPDATA::
+
+                                P A R T Y   F I E L D
+                               =======================
+
+
+                   Costume Shop  ---  Entrance  ---  Money Lenders
+                        ( )              ( )              ( )
+
+                                          |
+                                          |
+                                          |
+
+                                        Grand
+                        Kitchen  ---   Pavilion ---  Field
+                          ( )            ( )          ( )
+
+                             \            |          /
+                                \         |       /
+                                   \      |    /
+
+                                     Post Office
+                                         ( )

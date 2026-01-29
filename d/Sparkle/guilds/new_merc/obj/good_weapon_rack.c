@@ -1,0 +1,7 @@
+/*
+ * Weapon rack for good mercs.
+ * 2010/11/01 Lavellan      Created for new saving rack system.
+ */
+#include "../merc_defs.h"
+
+inherit OBJ_DIR + "weapon_rack";

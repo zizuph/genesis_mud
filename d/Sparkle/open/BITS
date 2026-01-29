@@ -1,0 +1,66 @@
+BITS LISTING FOR SPARKLE DOMAIN ]===========================================
+
+- GROUP -+- BIT	-+- QUEST --------------------------------------------------
+    0    |   0   | Sparkle orc figurine quest
+    0    |   1   | Sparkle duck sacrifice quest
+---------+-------+----------------------------------------------------------
+    1    |  0-6  | Faerie tour quests
+         |       |  0 - Bank tour quest
+         |       |  1 - Pub tour quest
+         |       |  2 - Shop tour quest
+         |       |  3 - Vintner tour quest
+         |       |  4 - Post office tour quest
+         |       |  5 - Piers tour quest
+         |       |  6 - Academy tour quest
+         |   5   | Goblin armourer quest
+         |   6   | Goblin love letter quest
+         |   7   | Goblin darts-game quest
+         |   8   | Goblin more-darts-game quest
+         |   9   | RESERVED - Library quake quest?
+         |  14   | Faerie push cart quest
+         |  15   | Faerie clean wagon quest (CLOSED)
+         |  16   | Faerie statue eyes quest (CLOSED)
+         |  17   | Faerie witch mirror quest (CLOSED)
+         |  18   | Faerie gather honey quest
+         |  19   | Faerie rescue slave girl quest (CLOSED)
+ INVALID |  20   | Faerie mix herbalist salve quest (CLOSED) 
+---------+-------+----------------------------------------------------------
+    2    |   0   | Dwarfheim help king quest
+         |   1   | -- FILL THIS IN --
+         |   5   | TOUR: Sign rating quest
+         |   6   | TOUR: Clean dock signs quest
+         |   7   | TOUR: Fetch food quest
+         |   8   | TOUR: Fetch drink quest
+         |   9   | TOUR: Dust orbs quest
+         |  10   | TOUR: Cadets guild quest
+         |  11   | TOUR: Local questmasters quest
+         |  12   | TOUR: Other questmasters quest (UNOPENED)
+---------+-------+----------------------------------------------------------
+    3    | 0-19  | Available
+---------+-------+----------------------------------------------------------
+    4    |   0   | Tutorial potion quest
+ (FULL)  |   1   | Tutorial carrot quest
+         |   2   | Tutorial bunny quest
+         |   3   | Tutorial garlic quest
+         |   4   | Tutorial rope quest
+         |   5   | Tutorial journal quest
+         |   6   | Tutorial krolock quest
+         |   7   | Vendor quest (REPEATING)
+         |   8   | Auctioneer quest
+         |   9   | Librarian census quest
+         |  10   | Library restorer quest
+         |  11   | RESERVED
+         |  12   | Mercenary spy quest
+         |  13   | RESERVED-Apothecary quest?
+         |  14   | Orc temple quest - dagger
+         |  15   | Orc temple quest - journal
+         |  16   | Orc temple quest - flute
+         |  17   | Orc temple quest - ghost
+         |  18   | Orc temple quest - demon - RESERVED
+         |  19   | Herb delivery quest (REPEATING)
+---------+-------+----------------------------------------------------------
+
+Note that all definitions in code are concentrated in sys/quests.h.
+Faerie quests are defined in area/faerie/quests/qbits.h
+
+============================================================================

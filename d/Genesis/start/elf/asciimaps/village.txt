@@ -1,0 +1,21 @@
+
+
+                                  <wine_road_1>       <trade_road_6>
+                                        |                  /
+                                        |                 /
+     <vill_shop> -- vill_road_3 -- vill_road_2 -- vill_road_1
+                         |  \                       /  |
+                         |   \                     /   |
+                         | vill_park_1     vill_park_2 |
+                         |        \           /        |
+                         |         \        /          |
+    <vill_inn_1> -- vill_road_4    vill_park_3    vill_road_8 -- <vill_board>
+                         |         /        \          |
+                         |        /          \         |
+                         | vill_park_5     vill_park_4 |
+                         |   /                     \   |
+                         |  /                       \  |
+                    vill_road_5 -- vill_road_6 -- vill_road_7 -- <vill_post>
+                         |              |
+                         |              |
+                    <vill_inn_2>  <castle_road_1>

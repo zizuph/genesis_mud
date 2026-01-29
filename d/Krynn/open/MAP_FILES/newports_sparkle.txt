@@ -1,0 +1,60 @@
+main
+::MAPDATA::
+pier 54 5 newports
+
+::MAPDATA::
+
+                                   :%:%:  Plains of Abasinia :%:%:%:%:%
+                                      :%:%:%:%:%:%:%:%:%:%:%:%:
+                                              /
+                                            /         ___________
+                                          /         .'           `.
+@@@@@@@@@                               /----------|    Newports   |
+         @@@@@@@@@@@@@@@              /             `.___________.'
+                        @@          /
+     Qualinesti           @@      /
+       Forest              @    /
+                        @@@   /
+@@@@@@@@@@@@@@@@@@@@@@@@    /
+                          /
+                        /  `=
+                      /
+                    /
+                  /
+              __/             
+             /
+             |
+             |
+     ________|________
+     || Pax Tharkas ||
+     -----------------
+
+::NEWMAP::
+newports
+::MAPDATA::
+pier 18 10
+::MAPDATA::
+
+                  Road to Gateway and
+      ~~~~           Solace
+       ~~~~        .
+         ~~~~    o'    ~~ ~~ ~~ ~~ ~~ 
+          ~~~~ .' ~~ ~~ ~~ ~~ ~~ ~~ ~~
+           ~ o'  [D]  4 ~~ ~~ ~~ ~~ ~~
+           .'   .'  .' ~~ ~~ ~~ ~~ ~~
+    [R]--o'---o'--1'  ~~ ~~ ~~ ~~ ~~ ~
+       .'     |'.    ~~ ~~ ~~ ~~ ~~ ~~
+     o'       3  '2 ~~ ~~ ~~ ~~ ~~ ~~
+   .'        ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+  '        ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ 
+
+                  -= Newports =-
+
+            D - Newports Delivery Office
+            R - Langtree Mercenaries 
+                Recruitment Office
+
+            Pier 1 - Ship to Palanthas 
+            Pier 2 - Ship to Sparkle
+            Pier 3 - Ship to Solace
+            Pier 4 - Ferry to Sanction

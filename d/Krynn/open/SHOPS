@@ -1,0 +1,81 @@
+The Banks of Krynn and their Bank Ids.
+======================================
+/d/Krynn/solamn/palanthas/merchants/bank : Bank Id: 801
+/d/Krynn/solamn/vin/room/bank            : Bank Id: 802
+/d/Krynn/solace/new_village/bank         : Bank Id: 803
+/d/Krynn/gnome/guild/deposit             : Bank Id: 804
+
+
+The Shops of Krynn:
+===================
+Last modified by:
+Teth, Feb 19, 1997
+
+------------------------/d/Krynn/solace/new_village--------------------------
+shop.c                          A standard shop, nothing special (closes at
+                                nights)
+bank.c                          Regular bank 25% fee
+inn.c                           The Inn of the Last Home, regular inn
+
+--------------------------/d/Krynn/solamn/vin/room --------------------------
+general_store.c                 Equipment store that Knights get special 
+                                deals in
+weap_arm_store.c                Regular store that Knights get special deals
+                                in
+sol_store.c                     A store where Knights can buy Solamnic armour
+                                and weapons
+high_armoury.c                  An armoury where members of the solamnian
+                                guild can store items. The armoury doesn't
+                                run on money, but rather on a separate
+                                account that goes up when a player donates
+                                something and down when he borrow something.
+                                Items survive a reboot.  :)
+forge.c                         A standard smithy
+inn.c                           A standard inn, sells drinks and food and
+                                offers a room to rent for 1 gold to players
+                                of good alignment
+pigeon_store.c                  Sells pigeons to send messages to people.
+bank.c                          A standard bank, 25% rate except 15% to guild
+                                members
+
+------------------------~Krynn/solamn/palan/city-------------------------------
+shop.c                          A standard shop
+inn1.c                          A standard inn, sells drinks, one of them only
+                                after 2 quests have been completed within a
+                                period of time, but for 50% of the normal
+                                price
+
+-------------------------~Krynn/solamn/hctower/spur/room----------------------
+inn.c                           Basic inn, offering food and drink.
+
+-------------------------~Krynn/gnome-----------------------------------------
+shop.c                          A standard shop in the gnome area.
+
+-------------------------~Krynn/wayreth/tower---------------------------------
+shop.c                          A shop only open to Wizards of High Sorcery.
+                                Does not buy objects, sells objects useful
+                                to WoHS, eg. herb jars, herb gloves.
+components.c                    A shop only open to Wizards of High Sorcery.
+                                Buys and sells potions, herbs, components.
+                                Items sold here are stored in a .o file.
+
+--------------------------~Krynn/darkenwd/road/npc----------------------------
+herbalist.c                     An npc that buys and sells herbs. Max 15 in
+                                stock, saved in a .o file.
+
+--------------------------~Krynn/solamn/thief/theiwar-------------------------
+r20.c                           A forge, where players pay a certain
+                                amount of money to receive customizable
+                                weapons. The weapons are of various
+                                grades and metal-types.
+r22.c                           An equipment shop, selling torches,
+                                lamps and oil flasks. It will not buy
+                                any objects from players.
+
+---------------------------~Krynn/solamn/thief/guild--------------------------
+shop.c                          A shop for the thieves.
+obj/recruiter.c                 A wandering npc that is both a shop and
+                                a recruiter for the thief guild.
+obj/recruiter2.c                A wandering npc that is both a shop and
+                                a recruiter for the thief guild.
+

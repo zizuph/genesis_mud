@@ -1,0 +1,111 @@
+main
+::MAPDATA::
+plains_15_2 1 7
+plains_16_2 5 7
+plains_17_2 9 7
+plains_18_2 13 7
+plains_19_2 17 7
+plains_20_2 21 7
+plains_21_2 25 7
+plains_22_2 29 7
+plains_23_2 33 7
+plains_24_2 37 7 
+plains_25_2 41 7
+plains_26_2 45 7
+plains_27_2 49 7
+plains_28_2 53 7
+plains_29_2 57 7
+plains_15_3 1 9
+plains_16_3 5 9
+plains_17_3 9 9
+plains_18_3 13 9
+plains_15_4 1 11
+plains_16_4 5 11
+plains_17_4 9 11
+plains_18_4 13 11
+plains_19_4 17 11
+plains_15_5 1 13
+plains_16_5 5 13
+plains_17_5 9 13
+plains_18_5 13 13
+plains_19_5 17 13
+plains_20_5 21 13
+plains_15_6 1 15
+plains_16_6 5 15
+plains_17_6 9 15
+plains_18_6 13 15
+plains_19_6 17 15
+plains_15_7 1 17
+plains_16_7 5 17
+plains_17_7 9 17
+plains_18_7 13 17
+plains_19_7 17 17
+plains_28_7 53 17
+plains_29_7 57 17
+plains_30_7 61 17
+plains_15_8 1 19
+plains_16_8 5 19
+plains_17_8 9 19
+plains_18_8 13 19
+plains_27_8 49 19
+plains_28_8 53 19
+plains_29_8 57 19
+plains_30_8 61 19
+plains_16_9 5 21
+plains_17_9 9 21
+plains_18_9 13 21
+plains_19_9 17 21
+plains_20_9 21 21
+plains_21_9 25 21
+plains_22_9 29 21
+plains_23_9 33 21
+plains_24_9 37 21
+plains_26_9 45 21
+home_27_9 49 21
+plains_28_9 53 21
+plains_29_9 57 21
+plains_30_9 61 21
+plains_17_10 9 23
+plains_18_10 13 23
+plains_19_10 17 23
+plains_20_10 21 23
+plains_21_10 25 23
+plains_22_10 29 23
+plains_23_10 33 23
+bridge 37 23
+plains_25_10 41 23
+plains_26_10 45 23
+plains_27_10 49 23
+plains_17_11 9 25
+plains_18_11 13 25
+plains_19_11 17 25
+plains_20_11 21 25
+plains_21_11 25 25
+plains_22_11 29 25
+::MAPDATA::
+
+          ^                   ^                    ^
+  ^      /|\      ^          /|\         ^        /|\
+ /|\    //|\\    /|\        //|\\       /|\      //|\\
+//|\\     |     //|\\         |        //|\\       |
+  |               |                      |                     ~~~
+                                             |               ~~~~
+-o - o - o - o - o - o - o - o - o - o - o - o - o - o - o  ~~~
+X| X | X | X | /                                         ~~~~
+-o - o - o - o                                          ~~~
+X| X | X | X | \     \|/               \|/           ~~~~
+-o - o - o - o - o                                  ~~~             \|/
+X| X | X | X | X | \       \|/                    ~~~
+-o - o - o - o - o - o                          ~~~~
+X| X | X | X | X | /                           ~~~ 
+-o - o - o - o - o                           ~~~~         \|/
+X| X | X | X | X |      \|/                 ~~~                         
+-o - o - o - o - o                \|/      ~~~       o - o - o      _________
+X| X | X | X | /                          ~~~        | X | X |     /\____|___|
+-o - o - o - o                           ~~~     o - o - o - o    / /
+ |   | X | X | \                        ~~~    /     | X | X |   /\/   _
+   - o - o - o - o - o - o - o - o - o ~~~   o - o   o - o - o  / /  -(_)-_
+         | X | X | X | X | X | X | /  ~~~  / | \                \/     (___)'
+         o - o - o - o - o - o - o - o - o - o - o                     // \\
+         | X | X | X | X | X | /   ~~~   | X | X | \
+         o - o - o - o - o - o   ~~~~

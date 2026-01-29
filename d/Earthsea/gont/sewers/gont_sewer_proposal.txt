@@ -1,0 +1,73 @@
+Overview
+--------
+This will be a dynamic killing field underneath the streets of Gont city.
+It will be shrouded in darkness and contain NPCs and herbs. The tunnels 
+will have a flow system that moves non-living items downstream. As of this
+moment, no quests are associated with the sewers and the NPCs will be around
+the same size as the guards in the current tower or thereabout. 
+
+Geography
+---------
+
+                              
+                              
+                              o
+                      o       |           P         Landmarks
+                      |       4         /           B = Bank
+          o           o       |   o - o             E = Equip. Shop
+            \       /         o  /                  W = Warehouses
+              o - 3           | / S   E      B      J = Jail
+      o           |           T             /       P = Post
+        \         |    W      |            o        S = Shop
+          o       o       o - o - o       /     o   G = Gardeners' Shed
+            \       \   /           \    /    /     T = Tavern
+      2       o       o               o-1 - J       A = Adventure Guild     
+        \       \   /                 |                    
+          o       o                   o       5            
+            \ A   |                   |     /            
+  G           o - o                   o - o         Access Points  
+    \       /     |                   | \           1 = Warehouse access  
+      o - o       o                   |   o - o     2 = Travellers
+                 exit                 |             3 = Street near house
+                                      o   W         4 = Tower Basement
+                                        \           5 = Street outside Jail
+                                          o - o     
+
+-All rooms will have water present, but not be underwater.
+-All rooms will be dark.
+-Access points will have some way to reach the surface (be it manhole or pipe)
+-Landmarks are not relevant, except for desc_long flair and the potential
+	for expansion.
+-The exit point on the map is where the water will be dumped into the ocean.
+	- All upriver rooms flow to this spot.
+	- Desc: NPC scavengers have built a damming structure to catch loot.
+	- NPC scavengers will be picking through anything that drifts in.
+- Tributary pipes can be found in every non-crescent room.
+	- Pipes act like basic portals to a random sewer room.
+	- Allows for randomness for fun and potential escape from PVP.
+	- "Crawling along, you reach a juncture and impulsively turn <dir>."
+	- "You emerge from the pipe into another area of the sewer system."
+
+NPCs
+----
+-Basic rats/snakes/amphibians - peaceful
+-Sewer dragons (large harekki?)
+	- acid/poison immunities and acid/poison style attacks
+	- not huge... maybe hero sized
+	- skin cloak
+	- peaceful
+-Humanoids
+	- Scavengers in the exit room - mundane stats and gear - peaceful
+	- Brigands/karg - mundane stats and gear - attack on sight
+
+Noteworthy Items
+----------------
+- Sewer Dragon Skin
+	- Average AC cloak that provides some acid protection.
+- Iron Caged Torch
+	- Decent club that is wielded by some NPCs
+	- Deals blunt and fire damage (when lit)
+	- Can be refueled by applying oil (standard used in lamps)
+	- NPCs who hold this should illuminate the room.
+- Subterranean herbs are present - I could make 1 or 2 new ones - Undecided
+- Drink water applies a mild poison that fatigues.

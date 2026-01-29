@@ -1,0 +1,791 @@
+main
+::MAPDATA::
+1 15 22 review
+2 15 22 review
+3 15 22 review
+4 15 22 review
+5 15 22 review
+6 15 22 review
+7 15 22 review
+adv_guild 19 22 town_south
+adv_guild_ash 19 22 town_south
+adv_guild2 19 22 ag
+adv_guild3 19 22 ag
+adv_guild4 19 22 ag
+adv_guild5 19 22 ag
+adv_guild6 19 22 ag
+adv_guild2_ash 19 22 ag
+adv_guild3_ash 19 22 ag
+adv_guild4_ash 19 22 ag
+adv_guild5_ash 19 22 ag
+adv_guild6_ash 19 22 ag
+armour_shop 23 22 town_stores
+bank 27 20 town_north
+board_room 27 18 town_north
+common_board_room 27 18 town_north
+dwarf_start 27 16 cross
+elf_start 27 16 cross
+general_store 23 22 town_stores
+gnome_start 27 16 cross
+goblin_start 27 16 cross
+armour_shop_ash 23 22 town_stores
+bank_ash 27 20 town_north
+board_room_ash 27 18 town_north
+common_board_room_ash 27 18 town_north
+dwarf_start_ash 27 16 cross
+elf_start_ash 27 16 cross
+general_store_ash 23 22 town_stores
+gnome_start_ash 27 16 cross
+goblin_start_ash 27 16 cross
+hilltop 19 28 main
+hobbit_start 27 16 cross
+human_start 27 16 cross
+hobbit_start_ash 27 16 cross
+human_start_ash 27 16 cross
+joinroom 34 12 cross
+start 34 12 cross
+train 34 12 cross
+inn 16 21 town_south
+library 15 22 lib
+library3 15 22 lib
+mayors_house 27 18 town_north
+post_office 27 20 town_north
+road_0 19 26 main
+road_1 19 24 main
+street_1 19 22 town_south
+street_2 15 22 town_south
+street_3 23 22 town_stores
+street_4 27 20 town_north
+street_5 27 18 town_north
+street_6 27 16 cross
+street_7 27 14 cross
+tavern 15 22 tav
+tavern2 15 22 tav
+weapon_shop 23 22 town_stores
+inn_ash 16 21 town_south
+library_ash 15 22 lib
+library3_ash 15 22 lib
+mayors_house_ash 27 18 town_north
+post_office_ash 27 20 town_north
+road_0_ash 19 26 main
+road_1_ash 19 24 main
+street_1_ash 19 22 town_south
+street_2_ash 15 22 town_south
+street_3_ash 23 22 town_stores
+street_4_ash 27 20 town_north
+street_5_ash 27 18 town_north
+street_6_ash 27 16 cross
+street_7_ash 27 14 cross
+tavern_ash 15 22 tav
+tavern2_ash 15 22 tav
+weapon_shop_ash 23 22 town_stores
+forest_1c 47 10 wood
+forest_2b 47 10 wood
+forest_2c 47 10 wood
+forest_2d 47 10 wood
+forest_3a 47 10 wood
+forest_3b 47 10 wood
+forest_3c 47 10 wood
+forest_3d 47 10 wood
+forest_3f 47 10 wood
+forest_4a 47 10 wood
+forest_4b 47 10 wood
+forest_4c 47 10 wood
+forest_4d 47 10 wood
+forest_4f 47 10 wood
+forest_5b 47 10 wood
+forest_5c 47 10 wood
+forest_5d 47 10 wood
+forest_6c 47 10 wood
+river 47 10 wood
+barn 27 6 barn
+barnyard 27 6 farm
+carrot_patch1 27 6 farm
+carrot_patch1a 27 4 farm
+carrot_patch2 27 4 farm
+carrot_patch2a 27 4 farm
+carrot_patch3 27 4 farm
+crossroads 27 10 cross
+dell 34 8 cross
+garlic_patch1 27 4 farm
+garlic_patch1a 27 4 farm
+garlic_patch2 27 4 farm
+garlic_patch2a 27 4 farm
+garlic_patch3 27 4 farm
+hayloft 27 6 barn
+henhouse 27 4 farm
+house 27 6 farm
+potato_patch1 27 4 farm
+potato_patch1a 27 4 farm
+potato_patch2 27 4 farm
+potato_patch2a 27 4 farm
+potato_patch3 27 4 farm
+radish_patch1 27 4 farm
+radish_patch1a 27 4 farm
+radish_patch2 27 4 farm
+radish_patch2a 27 4 farm
+radish_patch3 27 4 farm
+crossroad_1 27 12 cross
+crossroad_2 27 8 cross
+crossroad_3 31 10 cross
+crossroad_4 23 10 cross
+turnip_patch1 27 4 farm
+turnip_patch1a 27 4 farm
+turnip_patch2 27 4 farm
+turnip_patch2a 27 4 farm
+turnip_patch3 27 4 farm
+cave 19 10 cliffs
+cave_alcove 19 10 cliffs
+cliffroad_1 19 10 cliffs
+cliffroad_2 19 10 cliffs
+cliffroad_3 19 10 cliffs
+cliffroad_4 19 10 cliffs
+cliffroad_5 19 10 cliffs
+cliffroad_6 19 10 cliffs
+plateau 19 10 cliffs
+outside_castle 19 10 cliffs
+portcullis 19 10 cliffs
+bedroom 5 10 castle
+combat_lair 5 10 lair
+defeat_lair 5 10 lair
+destroyer_lair 5 10 lair
+dungeon 5 10 dungeon
+entrance 5 10 castle
+hallway_1n 5 10 castle
+hallway_1s 5 10 castle
+hallway_2n 5 10 castle
+hallway_2s 5 10 castle
+hallway_3n 5 10 castle
+hallway_3s 5 10 castle
+hallway_4 5 10 castle
+hallway_5 5 10 castle
+hallway_6 5 10 castle
+hallway_6n 5 10 castle
+hallway_6s 5 10 castle
+study 5 10 castle
+portcullis_ash 19 10 cliffs
+bedroom_ash 5 10 castle
+lair_ash 5 10 lair
+dungeon_ash 5 10 dungeon
+entrance_ash 5 10 castle
+hallway_1n_ash 5 10 castle
+hallway_1s_ash 5 10 castle
+hallway_2n_ash 5 10 castle
+hallway_2s_ash 5 10 castle
+hallway_3n_ash 5 10 castle
+hallway_3s_ash 5 10 castle
+hallway_4_ash 5 10 castle
+hallway_5_ash 5 10 castle
+hallway_6_ash 5 10 castle
+hallway_6n_ash 5 10 castle
+hallway_6s_ash 5 10 castle
+study_ash 5 10 castle
+::MAPDATA::
+                      . . . . . . . . . . . . . 
+                      .     Farmlands       ~~.
+                      . " _"___" _  __""_ ~~~ .
+                      . __"__""_"___"_"  ~~~  .
+. . . . . . . . . . . .    o _"__"_"__  ~~~   .
+.                     .    | _"""_  _"  ~~~ . . . . . . . . . . .
+.  ^. ^.              .    o ""_"___"_ ~~~  .        ""         .
+.    `. `^.^._.^.     .    |           ~~~  .     "@@@@"@@      .
+.[]--'--[]  Northern  .    o      o    ~~~  .  " @@" "" @@@"@   .
+.|| /^\ || Mountains  .    |     /     ~~~  . @@"@  The "@@@""  .
+.||_|I|_||^        o -.o - o - o - - -|---|-.- o - Sterling "@  .
+.    ^.^.   `^.^.     .    |     \     ~~~  .  @ @  Woods  @@"  .
+.      ` `._.^.` `.   .    o      o    ~~~  . @@" "@" "" "@@"   .
+.                     .    |           ~~~  .  " @"@@@ " @@@@   .
+. . . . . . . . . . . . .  o           ~~~  .     "@@ "@  "     .
+      .                 .  |           ~~~  . . . . . . . . . . .
+      .                 .  o           ~~~  .
+      .      Village    . .|. . . . . .~.~. .
+      .         of         o    .      ~~~
+      .    Greenhollow     |    .      ~~~      =============
+      .                    o    .      ~~~      MAP OF TUTORI
+      .                  /      .       ~~~         ISLE
+      .        o - o - o        .       ~~~     =============
+      .            |            .        ~~~
+      .            o            .         ~~~
+      .            |            .           ~~~
+      .            o  Hilltop   .             ~~~~~
+      .          .`|`.          .                ~~~~~~~
+      .         ;  o  :         .                      ~~~~~~~~~
+      . . . . .'. . . .`. . . . . 
+::NEWMAP::
+cliffs
+::MAPDATA::
+cave 66 27
+cave_alcove 66 27
+cliffroad_1 74 29
+cliffroad_2 70 27
+cliffroad_3 70 22
+cliffroad_4 63 25
+cliffroad_5 63 27
+cliffroad_6 54 23
+plateau 54 19
+outside_castle 54 19
+portcullis 39 19
+portcullis_ash 39 19
+::MAPDATA::
+         /\                  _.^._
+       .'  `.           _.--'      `.           _.-^.
+      /      \    .  _.'              `._    _.'     `.__^_.
+     `.+-~~-+.' .' `.                    `./                `.
+       |u--.|  /     \                     `_                 `._
+       |   u|.'       `.                     .                    `.
+       |.u-./ _..---.._ \                      `.__     Northern
+     _.|    ~-|U U U U|-~____________              `.    Mountains
+  .-'  |.-u.| |..---..|"//// ////// /\       .        `.._
+.'     |u   | |       |// /// // ///==\     / \            
+       |.--u| |..---..|//////~\////====\   /   \     
+       | u  | |       |~~~~/\u |~~|++++|  `+~~~+'  
+       |.-|~U~U~|---..|u u|u | |u ||||||   |  U|
+    /~~~~/-\---.'     |===|  |u|==|++++|   |   |
+    |===| _ | ||.---..|u u|u | |u ||HH||U~U~U~U~|                       _.^._
+ |===|||||_||      |===|_.|u|_.|+HH+|_/_/_/_/aa                   _.---'
+=__=__=__=__=__=__=__=__=__=__=__=__ _/_/_/ ,'            __.^._.'
+ |                               |    ===  |         _.--'   .'
+ |  ___                          |   ||||| |______.;______
+ | /  |\                       ^\|   | o-|-|----------o    `--.________        
+~~.   | `.______            _.' |`.__  _____________.--------'        .^._
+       .`  ` '  `.__-'.__.'   '/     ,'           .'       .'_____.--'     `. 
+     /                        |                  /                   .o
+                            .'               __.'     o.           .' :
+                           |               .'           `.       .'   :
+                          :                               `.   o'     :
+                                                            `. :  _   :
+                                                              `o /o---o
+                                                                       `.
+                                                                         `o---
+::NEWMAP::
+castle
+::MAPDATA::
+bedroom 17 4
+combat_lair 64 26
+defeat_lair 64 26
+destroyer_lair 64 26
+dungeon 13 25
+entrance 50 10
+hallway_1n 50 6
+hallway_1s 50 14
+hallway_2n 39 6
+hallway_2s 39 14
+hallway_3n 28 6
+hallway_3s 28 14
+hallway_4 28 10
+hallway_5 22 10
+hallway_6 17 10
+hallway_6n 17 6
+hallway_6s 17 14
+study 17 16
+castle_library 39 10
+bedroom_ash 17 4
+lair_ash 64 26
+dungeon_ash 13 25
+entrance_ash 50 10
+hallway_1n_ash 50 6
+hallway_1s_ash 50 14
+hallway_2n_ash 39 6
+hallway_2s_ash 39 14
+hallway_3n_ash 28 6
+hallway_3s_ash 28 14
+hallway_4_ash 28 10
+hallway_5_ash 22 10
+hallway_6_ash 17 10
+hallway_6n_ash 17 6
+hallway_6s_ash 17 14
+study_ash 17 16
+castle_library_ash 39 10
+::MAPDATA::
+    .--.--.-.---..-.---.       Krolock's Castle        .-..--.---.-..--.-.
+   |                    |        (main level)         |                   |
+   :    .___..___._     .                             |                   |
+   |   |           |    |--.---.-.-..-----.-.-.---.---:                   '
+   |   |__.____  o |    |_.-._._.___.---.___.__.__-.__|                   |
+   |           |===|    |                             |                   |
+   |           | o :    |   o -- -- -- o -- -- -- o   :                   |
+   |           : | |    :   |                     |   |                   |
+   '           | | |    |   |  .----.--..----.-.  |    --'.---'--.--'-.--.
+   |       .---| |  -'--'   |  :.''  ''  ''':  |  |           ## 
+   |      |@|||  o -- o --- o -- -- -- o    :  |  o -- -- -- o## -- -- -- -- -
+   |       `---: |  ____    |  :'. ..  ..  ,:  |  |    _.__.__##___ ____._
+   |           | | |    .   |  .____.__.____.__|  |   |            `      |
+   |           | | :    |   |                     |   :                   |
+   |           | o |    |   o -- -- -- o -- -- -- o   |                   |
+   |    _.__.._|===|    .__ _____ _ ________ _______ _.                   |
+   |   |         o |    |  `     ` `        `       ` |                   |
+   |   .___ _______.    |-----`--------`--`------`----|                   |
+   |                    :                             |                   |
+   .___.__.-_.______.___;                              .__-.___._..____.__;
+ 
+::NEWMAP::
+dungeon
+::MAPDATA::
+dungeon 13 4
+::MAPDATA::
+ 
+        -.---.-..--. 
+       |            |
+       .        ----|
+       |     o |||||@
+       :        ----|
+       |            :
+        `----`---`-- 
+
+::NEWMAP::
+lair
+::MAPDATA::
+combat_lair 64 5
+defeat_lair 64 5
+destroyer_lair 64 5
+::MAPDATA::
+
+                                          Krolock's Lair
+                               .------.-.-----.-.----------.---...-.
+                              |                                     |
+                              |  ++++   ______________________      |
+                              |  | c|   ||||||||||||||||||||||  o   |
+                              |  ++++   ``````````````````````      |
+                              `.______.____.-______________._____.__;
+
+::NEWMAP::
+cross
+::MAPDATA::
+crossroad_1 25 17
+crossroad_2 25 9
+crossroad_3 48 13
+crossroad_4 17 13
+crossroads 25 13
+dell 58 9
+dwarf_start 20 21
+elf_start 30 23
+gnome_start 20 23
+goblin_start 20 25
+hobbit_start 30 25
+human_start 30 21
+street_6 25 23
+street_7 25 19
+dwarf_start_ash 20 21
+elf_start_ash 30 23
+gnome_start_ash 20 23
+goblin_start_ash 20 25
+hobbit_start_ash 30 25
+human_start_ash 30 21
+street_6_ash 25 23
+street_7_ash 25 19
+joinroom 54 17
+start 66 17
+train 54 21
+::MAPDATA::
+      X--X--X--X--X--X--X=X--X--X--X--X--X  ____\|/___ ___   ______      :~~
+      |            x     |               |    ___      ________\|/_      :~~
+      X .-. _______|       Farmhouse     X __________ ________ ___      :~~~
+      | |=|/     /  \    |    .___       |   __\|/_\|/_____ _           :~~~
+      X | |_____|_""_|       /_\___\     X __                 __        :~~~
+      | |_|_[X]_|__o_|-- o --|o|n_n|     |                              :~~~
+      X                                  X              _____          :~~~~
+      |    Barn          |               |             ||   ||  Exit   :~~~~
+      X                                  X             ||   || Portal  :~~~~
+      |                  o               |             || o ||         :~~~~
+.^.   X--X--X--X--X--X--X=X--X--X--X--X--X             .'             :~~~~~
+.  `._.^.        __.     |                           .'               :~~~~~
+ `.^.    `.    .'                                  .'                 :HHHHH
+.        o -- ;| o -- -- o -- -- -- -- -- -- -- o -- -- -- -- -- -- -- -- --
+ `._.^.      ;.'                                   `.   Patrol Guild  :HHHHH
+._.^.  `._.^.            |  North Gate of            `. of Silverdell :~~~~~
+_.^._`.                     Greenhollow              __`.___________  :~~~~~
+       _________________ o _________________        /  /`.         |`.:~~~~~
+      /  _______________|=|_______________  \     .--./    `.______| \ :~~~~
+     /  /               :o:               \  \   /  _ `.    /_______\  :~~~~
+    /  /            @ @ : : @ @            \  \ /        `.//          :~~~~
+   /  /           @ o @@:|:@@ o "           \  \ \___..___\/           :~~~~
+  /  /            "@@ "@: :"@ ""@ @  Grove   \  \                       :~~~
+ /  /          "@ @ o @@:o:@@ o "@     of     \  \                      :~~~
+/  /            "@@@ @" : :@ @" @""   Trees    \  \                     :~~~
+  /             @@" o @@:|:"@ o @@ @            \  \                    :~~~
+ /               "@@ "@": :@@" "@                \  \                    :~~
+
+::NEWMAP::
+town_north
+::MAPDATA::
+bank 16 15
+board_room 54 6
+common_board_room 54 6
+mayors_house 21 6
+post_office 54 15
+street_4 38 15
+street_5 38 6
+bank_ash 16 15
+board_room_ash 54 6
+common_board_room_ash 54 6
+mayors_house_ash 21 6
+post_office_ash 54 15
+street_4_ash 38 15
+street_5_ash 38 6
+::MAPDATA::
+                                      |      
+                                      | 
+    Mayor's House                     |                   Town Hall
+     _______________                  |                _____________________
+    /  /`.         |`.                |               |                |   /\
+  .--./    `.______| \                |               |                |  /\/
+ /  _ `.    /_______\  -- -- -- -- -- o -- -- -- -- --|                | /\/
+/        `.//                         |               |________________|/\/
+ \___..___\/                          |                \\__\\__\\__\\__\\/
+                                      |           
+        __________                    |                          ==============
+       /         /\                   |                           Village of
+      /         /  \                  |                           Greenhollow
+     /   The   /   /                  |                 ___       (north side)
+    /   Bank  / /\/                   |                /   /_    ==============
+   /         / / -- -- -- -- -- -- -- o -- -- -- -- --/   /__/\
+  /_________/  \                    .'               /___/\__\/
+  \   __    \  /                  .'                 \___\/
+   \.---.`\__\/                 .'              Post
+    \____\/                   .'                 Office
+                            .'
+                          .'
+                        .'
+::NEWMAP::
+town_stores
+::MAPDATA::
+armour_shop 24 19
+weapon_shop 58 7
+common_board_room 65 3
+general_store 58 19
+street_3 26 7
+weapon_shop_ash 58 7
+armour_shop_ash 24 19
+common_board_room_ash 65 3
+general_store_ash 58 19
+street_3_ash 26 7
+weapon_shop_ash 58 7
+::MAPDATA::
+
+                                      .'
+                                    .'
+                                  .'                   Weapons Shop
+                                .'              _________________________
+                              .'               /                        /__
+                            .'                /                        /   |
+  -- -- -- -- -- -- -- -- o'                 /________________________/    |
+                            `.               \                        \    |
+                              `.              \           .  .         \___|
+                                `.             \_____. '  |     ` ._____\
+                                  `.                 |    |       |
+                        .  .        `.               |    |       ||
+                   . '  |     ` .     `.             |    |       ||
+                   |    |        |      `.           |    |       ||  
+                   |    |        ||       `.         |    |       ||
+                   |    |        ||_________`._______|____|_______||
+                   |    |       /                                  /__
+           Armour  |    |      /                                  /   |
+            Shop   |    |     /__________________________________/    |
+                   |    |     \                                  \    |
+                   |    |      \                                  \___|
+                   |    |       \__________________________________\
+                   |    |        ||                 
+                   |    .  .     ||                General Store
+                   . '________` .| 
+                     ===========
+
+::NEWMAP::
+town_south
+::MAPDATA::
+adv_guild 60 10
+inn 28 8
+road_1 60 19
+street_1 60 14
+street_2 28 14
+adv_guild_ash 60 10
+inn_ash 28 8
+road_1_ash 60 19
+street_1_ash 60 14
+street_2_ash 28 14
+::MAPDATA::
+                            __________
+                          .' ________/  ` .              _____
+                         /  /.       `.     ` .         /    / `.
+                        .-./  `.       `.      /      .-----.     `.___
+                       /   `.   `.       `.   //     /       `.   / \  /\
+                      /  \\\ `.   /========`.//     /----------`./  / /  \
+                     /=========`./\_________\/       \   \\\    \  / /   /
+                      \    .    \  /                 /\__________\/ /   /
+    Library            \___\|\___\/ The Inn         /______________/   /
+         __                 |                       \  ==      ==  \  /
+       //   `.              |                        \____\\\\\_____\/
+      //     /\             |                Adventurer's   |
+   __//     /_/             |                   Guild       |
+  / //     /  /\            |                               |
+ /_//     /__/\/-- -- -- -- o -- -- -- -- -- -- -- -- -- -- o -- -- -- -- -- 
+ \/ `.   /\__\/             |                               |
+ /    `./ /                 |         =============         |
+ \______\/                  |          Village of           |
+                     _______|__        Greenhollow          |
+                    /_________/|\     (south side)          o
+                    \_________\| |    =============         |
+             Tavern  |__|\_\____\|                          |
+                      \__| 
+::NEWMAP::
+ag
+::MAPDATA::
+adv_guild2 36 13
+adv_guild3 36 9
+adv_guild4 45 13
+adv_guild5 36 17
+adv_guild6 27 13
+adv_guild2_ash 36 13
+adv_guild3_ash 36 9
+adv_guild4_ash 45 13
+adv_guild5_ash 36 17
+adv_guild6_ash 27 13
+::MAPDATA::
+           . . . . . . . . . . . . . . . . . . . . . . . . . . .
+           .                                                   .
+           .      The Adventurer's Guild of Greenhollow        .
+           .                (training level)                   .
+           .                                                   .
+           .              ______________________               .
+           .            .'                      `.             .
+           .          .'     Combat Training      `.           .
+           .        .'                              `.         .
+           .       |                o                 |        .
+           .       |  Thief                           |        .
+           .       |   Training     |                 |        .
+           .       |                                  |        .
+           .       |       o   --   o  --    o        |        .
+           .       |                                  |        .
+           .       |                |      General    |        .
+           .       |                        Training  |        .
+           .       |                o                 |        .
+           .        `.                              .'         .
+           .          `.      Magic Training      .'           .
+           .            `.______________________.'             .
+           .                                                   .
+           . . . . . . . . . . . . . . . . . . . . . . . . . . .   
+::NEWMAP::
+tav
+::MAPDATA::
+tavern 43 9
+tavern2 28 9
+tavern_ash 43 9
+tavern2_ash 28 9
+::MAPDATA::
+           . . . . . . . . . . . . . . . . . . . . . . . . . . .
+           .                                                   .
+           .              The Red Weasel Tavern                .
+           .                               |                   .
+           .                            __. .__                .
+           .              ____________.'   |   `._             .
+           .          __.'                        `.           .
+           .        .'                     |        `.         .
+           .       |                                  |        .
+           .       |        o  --  --  --  o          |        .
+           .       |                                  |        .
+           .        `.__                          __.'         .
+           .            `.______________________.'             .
+           .                                                   .
+           . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+::NEWMAP::
+lib
+::MAPDATA::
+1 36 9
+2 36 9
+3 36 9
+4 36 9
+5 36 9
+6 36 9
+7 36 9
+library 36 15
+library3 29 15
+library_ash 36 15
+library3_ash 29 15
+::MAPDATA::
+           . . . . . . . . . . . . . . . . . . . . . . . . . . .
+           .                                                   .
+           .            The Library of Greenhollow             .
+           .                                                   .
+           .              ______________________               .
+           .            .'                      `.             .
+           .           |                          |            .
+           .            `.                      .'             .
+           .             |                      |              .
+           .             |                      |              .
+           .            .'                      `.             .
+           .            |                        |             .
+           .            |  West                  |             .
+           .            |  Wing                  |             .
+           .            `.                      .'             .
+           .             |   o  --  o  --  --  --  --  --      .
+           .             |                      .              .
+           .             |     Main Chamber     |              .
+           .            .'                      `.             .
+           .           |                         |             .
+           .            `.______________________.'             .
+           .                                                   .
+           . . . . . . . . . . . . . . . . . . . . . . . . . . .   
+::NEWMAP::
+wood
+::MAPDATA::
+forest_1c 23 12
+forest_2b 34 8
+forest_2c 34 12
+forest_2d 34 16
+forest_3a 45 4
+forest_3b 45 8
+forest_3c 45 12
+forest_3d 45 16
+forest_3f 45 20
+forest_4a 56 4
+forest_4b 56 8
+forest_4c 56 12
+forest_4d 56 16
+forest_4f 56 20
+forest_5b 67 8
+forest_5c 67 12
+forest_5d 67 16
+forest_6c 78 12
+river 12 12
+::MAPDATA::
+    :~~~~~~~~:                       //|\\          //|\\       ^        //|\\
+    :~~~~~~~~:         ^             //|\\         ///|\\\     /|\      ///|\\\
+   :~~~~~~~~:         /|\      ^    ///|\\\           |       //|\\        |
+   :~~~~~~~~:        //|\\    /|\      |                      //|\\
+   :~~~~~~~~: ^      //|\\   //|\\           o -- -- -- o    ///|\\\     ^
+  :~~~~~~~~: /|\    ///|\\\  //|\\        .'   `.    .'   `.    |       /|\
+  :~~~~~~~~://|\\      |    ///|\\\    .'    |    ::    |    `.        //|\\
+  :~~~~~~~~://|\\              |    .'         .'    `.         `.     //|\\  
+  :~~~~~~~~///|\\\                o -- -- -- o -- -- -- o -- -- -- o  ///|\\\
+ :~~~~~~~~:   |                .'   `.    .'   `.    .'   `.    .'   `.  |  
+ :~~~~~~~~:                 .'    |    ::    |    ::    |    ::    |    `.   
+..HHHHHHHH:              .'         .'    `.   .'    `.   .'    `.         `.  
+-- -- -- -- o -- -- -- o -- -- -- o -- -- -- o -- -- -- o -- -- -- o -- -- -- o
+..HHHHHHHH:              `.         `.    .'   `.    .'   `.    .'         .'  
+ :~~~~~~~~:                 `.    |    ::    |    ::    |    ::    |    .' 
+ :~~~~~~~~:                    `.   .'    `.   .'    `.   .'    `.   .'   
+  :~~~~~~~~:    ============      o -- -- -- o -- -- -- o -- -- -- o  ^   
+  :~~~~~~~~:    The Sterling        `.         `.    .'         .'   /|\  
+  :~~~~~~~~:        Wood           ^   `.    |    ::    |    .'     //|\\  
+  :~~~~~~~~:    ============      /|\     `.   .'    `.   .' ^      //|\\ 
+   :~~~~~~~~:              ^     //|\\       o -- -- -- o   /|\    ///|\\\ 
+   :~~~~~~~~:             /|\    //|\\                     //|\\      |
+   :~~~~~~~~:            //|\\  ///|\\\     ^              //|\\
+    :~~~~~~~~:           //|\\     |       /|\            ///|\\\         ^
+    :~~~~~~~~:          ///|\\\           //|\\              |           /|\
+::NEWMAP::
+farm
+::MAPDATA::
+barnyard 25 28
+carrot_patch1 17 19
+carrot_patch1a 25 16
+carrot_patch2 33 13
+carrot_patch2a 41 10
+carrot_patch3 49 7
+garlic_patch1 9 16
+garlic_patch1a 17 13
+garlic_patch2 25 10
+garlic_patch2a 33 7
+garlic_patch3 41 4
+henhouse 36 2
+house 36 28
+potato_patch1 17 22
+potato_patch1a 25 19
+potato_patch2 33 16
+potato_patch2a 41 13
+potato_patch3 49 10
+radish_patch1 25 22
+radish_patch1a 33 19
+radish_patch2 41 16
+radish_patch2a 49 13
+radish_patch3 57 10
+turnip_patch1 9 19
+turnip_patch1a 17 16 
+turnip_patch2 25 13
+turnip_patch2a 33 10
+turnip_patch3 41 7
+::MAPDATA::
+                                  _____
+                       Henhouse  |     |
+   ___\|/________\|/______       |  o  |  ________\|/_____ _  __________
+     _______  ___________  __    |____`.     _________   _________     ___
+        ___\|/___     ___________        o  ____ ___________\|/__ ______
+ \|/__ _______  ___\|/______          .' |    ________\|/__________ ___
+   ______ ___ __________ __ ____   .'    |          ____ _ ___ __________
+  \|/__ _____________ ____       o       o -- -- o    _________\|/__\|/___
+  __   _____     ________ __  .'      .'      .' | ____\|/______________
+      _____\|/________     .'      .'      .'    |           ___  ____
+     __ _______\|/___    o       o       o       o -- -- o __\|/___________
+ _____   ____ _____   .'      .'      .'      .'      .'    ___ ____ ____
+  __\|/__\|/___    .'      .'      .'      .'      .'  ____\|/____ ____
+      _____      o       o       o       o       o  ____________\|/________
+ \|/__ _      .'      .'      .'      .'      .'  ___     ___________ 
+           .'      .'      .'      .'      .'  ____ _________ ______ _ ___
+  Crops  o       o       o       o       o  __\|/_______\|/______ ___
+         |    .'      .'      .'      .'          ______________
+ __\|/__ | .'      .'      .'      .'  _\|/___                     __\|/__
+  __ __  o -- -- o       o       o  _______    ===================  _ ___
+______ __        |    .'      .'  __  __ ___   Farmer Brown's Farm    ______
+ __  ___\|/____  | .'      .'  _____\|/__\|/_  =================== _\|/__
+                 o -- -- o                             __ ________
+X--X--X--X--X--X--X--X--X=X--X--X--X--X--X--X--X  ____\|/___ ___   _______
+               x         |                     |    ___      ________\|/_
+    .-. _______|                 Farmhouse     X __________ ________ ______
+    |=|/     /  \        |          .___       |   __\|/_\|/_____ _ 
+    | |_____|_""_|                 /_\___\     X __________________ ______
+    |_|_[X]_|__o_| -- -- o -- -- --|o|n_n|     |     __     _______\|/__
+                                               X   ____         ____
+        Barn             |                     |
+::NEWMAP::
+barn
+::MAPDATA::
+barn 47 8
+hayloft 25 8
+::MAPDATA::
+           . . . . . . . . . . . . . . . . . . . . . . . . . . .
+           .                                                   .
+           .                Farmer Brown's Barn                .
+           .                                                   .
+           .         _________________________________         .
+           .       .'           |                     `.       .
+           .       |            |                     ||       .
+           .       |            |                     ==       .
+           .       |            |              o -- -- -- --   .
+           .       |            |                     ==       .
+           .       |            |                     ||       .
+           .       `.___________|_____________________.'       .
+           .                                                   .
+           . . . . . . . . . . . . . . . . . . . . . . . . . . .  
+::NEWMAP::
+review
+::MAPDATA::
+1 36 9
+2 36 9
+3 36 9
+4 36 9
+5 36 9
+6 36 9
+7 36 9
+::MAPDATA::
+           . . . . . . . . . . . . . . . . . . . . . . . . . . .
+           .                                                   .
+           .            The Library of Greenhollow             .
+           .                                                   .
+           .              ______________________               .
+           .            .'                      `.             .
+           .           |                          |            .
+           .            `.        Annex         .'             .
+           .             |                      |              .
+           .             |          o           |              .
+           .            .'                      `.             .
+           .            |    The review area     |             .
+           .            |    does not appear     |             .
+           .            |    on the magic map.   |             .
+           .            `.                      .'             .
+           .             |    You'll have to                   .
+           .             |    keep track on     .              .
+           .             |    your own here     |              .
+           .            .'                      `.             .
+           .           |                         |             .
+           .            `.______________________.'             .
+           .                                                   .
+           . . . . . . . . . . . . . . . . . . . . . . . . . . .  

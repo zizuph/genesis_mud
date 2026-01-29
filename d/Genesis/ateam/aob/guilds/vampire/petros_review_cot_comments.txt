@@ -1,0 +1,425 @@
+January 27, 2009
+
+Balance Team,
+
+The purpose of this document is to very clearly analyze the
+problems we see in today's Vampires as a balanced guild, and
+to discover solutions that will lead to the greater enjoyment
+of the guild and MUD as a whole.
+
+Before we delve into the problems, let us try and remember
+the long term goals of our project, and what we want the
+Vampires to be.
+
+> Comments by Cotillion appear thusly.
+
+Long Term Goals
+---------------
+1. Provide a draft for a fun, playable, and balanced Vampire
+   guild that fulfills their themes as specialists who are
+   speedy, sneaky, and uniquely terrifying to the average
+   mortal.
+2. Build on the existing Lore and mysticism surrounding the
+   Vampires to enhance their roleplay potential.
+3. Establish a solid place for Vampires in the economy of
+   PvP combat. They are hunters and undead warriors.
+
+Now, let us start looking into the problems.
+
+Problem: Spell System uses Novo's homegrown solution
+    Currently, Novo is using his own spell system that he
+    created based on /d/Genesis/specials/spell.c. This attempts
+    to do a bunch of checks by itself rather than using the
+    built in inherent checks if you simply inherited from
+    the Genesis spell.c. One example of this is that up until
+    now, Vampires have been able to cast spells without the
+    concentrate property from ever getting set.
+Solution: Convert all vampire spells to the Genesis spell
+    system. Having one system in the game is important, and that
+    is already in place. By converting to use Genesis spell
+    system, we guarantee that changes to the core libraries
+    will affect all guilds, and not be ignored by Vampires.
+> We should fix Novos system.
+> The spell and special system should use the same code as far as
+> possible.
+    
+Problem: Drain Stacking
+    Currently, skills and resistances are being drained and
+    in use at the same time. The documentation stats that
+    magic resistance gives 25% combat aid, and fighter
+    skills give 22% combat aid. They go on and say that 
+    because they can't be used at the same time, they only
+    pay the higher of the two, which is 25%. This is not
+    true, as fighter skills (offense) can be used at the
+    same time as resistance (defence). Take, for example, a
+    vampire who fights against a fire breathing dragon.
+    That vampire can dole out greater damage due to his
+    greater weapon skill, while at the same time avoiding
+    the dragon breath weapon being used because of the
+    resistance.
+Solution: Combat Aid should tax both skills and resistance
+    separately. Using current numbers, that would mean being
+    taxed 47% (22%+25%) for drain skills instead of 25%. As
+    you will see by the end of this document, the combination
+    of all their abilities causes their combat aid to be
+    excessively high. By ensuring that we count all the combat
+    aid, it will require a reduction somewhere in the total.
+    Perhaps drain will not drain as much. Magic resistance
+    will probably need to be reduced to a few types, rather
+    than all types like it currently is.
+> Should be fixed,
+
+Problem: Magic Resistance is coded incorrectly
+    There are two types of magic resistance. There is
+    inherent magic resistance, and there is indirect
+    magic resistance. The two different types of resistances
+    do not stack together in a multiplicative fashion.
+    They are simply added together. However, if you have
+    multiple indirect additive resistances, they stack
+    together nicely according to the mudlib defined
+    formulas. Inherent resistance is set using the
+    OBJ_I_RES_XXX properties, whereas the indirect
+    resistance is set using the MAGIC_I_RES_XXX props.
+Solution: Magic resistance for drain on vampires need to be
+    recoded to use indirect additive resistance, so that
+    the mudlib can properly handle the stacking with other
+    resistance effects.
+>  drain should be removed from the shadow.
+
+Problem: Vampires have far too much damage according model
+    We had slated the vampires to have 80% combat aid for
+    damage. This was originally set to 70% for testing
+    purposes and later upped back to 80%. It was recently
+    changed to 100%. Their damage output through a single
+    special is much higher than any other melee guild out
+    there, even the Calians who are supposed to be the
+    biggest team damage dealers (when you count in hit
+    location targeting. Addressed in separate point)
+Solution: Bring the vampires back to the original balance
+    approved number, which is 80%.
+> Well, what number we'll end on depends on exactly how
+> much room there is left when we've done the changes.  
+
+Problem: Hit Location Targeting is not taxed
+    Hit location targeting is not something that is taxed,
+    and Vampires use it freely without any penalty to their
+    tohit. This is a guild special ability, which is
+    fine. The problem is that the data shows that they can
+    often do as much as 2.5x as much damage easily. Let us
+    assume that someone is fully armoured. No matter how
+    well they armour themselves (and take the weight penalty
+    for it) the best they can armour something like their
+    head is between 20-50. Taking an extreme example of a
+    person with AC 100 on the body and AC 50 on the head.
+    If the vampire hit the head, they would do twice as much
+    damage according to the F_AC_MOD formula. In a sample of
+    the use of the flurry ability, they are getting 16% more
+    damage using the ability than when not using it.
+Solution:
+    Hit location targeting should be taxed. Based on its
+    potentialy, I recommend that it has a tax of at least
+    20% of the combat aid for melee special. That means
+    that given 80% combat aid, I would recommend that they
+    are charged at least 16% combat aid for a total of 
+    96%. If 100% combat aid for specials, then they should
+    be charged 20% for a total of 120% combat aid.
+> This should be handled by the ability system.
+> The combat aid set for an ability should take this into account.
+
+Problem: Vampires can escape combat easily
+    Vampires have built in abilities to escape any combat.
+    A combination of their different abilities gives them
+    an unparalleled way to prevent anyone from ever
+    harming them. There are a few elements to consider.
+      1) Mist form sets query_not_attack_me to 1, essentially
+         giving invulnerability to all attacks.
+      2) Dash has a 1 second cast time, and sets 2 seconds
+         of mist form before attempting an exit.
+      3) Fly can be cast in combat, and with a 40 second
+         cast time, allows them to be in a safe room within
+         40 seconds.
+    The most important thing is #1 and #2 listed above. Even
+    if a vampire were trapped by block, they can continually
+    cast dash, and be invincible. They can then simply wait
+    out the block, and leave if they so desire. The mist
+    form also prevents new attacks from being targeted at
+    them. The second spell fly can also be used to escape.
+Solution:
+    There are a few options here. It makes thematic sense that
+    you should not be able to attack a vampire while they are
+    in mist form. Dash is also a neat concept, allowing them to
+    leave in a fashion that is different than any other out
+    there. However, the combination of the two is a problem.
+    We should make it so that Dash does not set mist mode until
+    after a successful exit check. That will solve the issues
+    of invulnerability. For the Fly spell, we should simply make
+    it so that it cannot be cast except when relaxed from combat.
+    As it is meant to be a teleportation spell, and not a safe
+    room, that makes the most sense as all teleportation spells
+    require one to be relaxed from combat.
+> A cooldown is needed on dash, extreme fatigue perhaps?
+> Right now it can be used to tank through triggers.
+> Being hard to catch is a core vampire ability.
+
+Problem: Short Casting Speed means combining with Melee Specials
+    This isn't really a problem specific to the Vamps, as it will
+    affect any guild with short casting speeds and longer melee
+    preparation time. What is happening is that Vampires are
+    essentially able to perform melee spells simultaneously to
+    their casting because of the extremely short casting times
+    of almost all vampire spells. The Rangers, as an example,
+    have 6 second cast time on their heal spell. Their brawl
+    special also takes 6 seconds to prepare. This guarantees
+    that one cannot be cast while the other is being used.
+Solution: Until the core issues is solved by the mudlib, Vampire
+    spells should be lengthened to at least half the preparation
+    time of their melee specials. The reason for choosing half
+    is that by making it at least half, it will guarantee that
+    they will be able to cast at most 1 per melee special, but
+    also that their melee specials will actually have a chance
+    of failing because they will be busy concentrating (as it
+    should in the first place) since prep times range from 0.5
+    to 1.5 of the average prep time. Obviously, their mana costs
+    will be readjusted for the longer cast times.
+    Example: If bite is 10 second prep time, spells should be 6
+             seconds. Bite prep time will range between 5-15
+             seconds. It will therefore sometimes cause a failure
+             in the spell or special.
+> This is not really a vamp problem, should be fixed globally.
+
+Problem: Vampire Scry Spell is overpowered
+    The vampire scry spell is more powerful than any other
+    caster scry spell out there.
+      1. There's a chance that the person doesn't know they're 
+         being spied on.
+      2. It is able to be cast in battle, and while moving.
+          set_spell_peaceful(0);
+          set_spell_stationary(0);
+      3. It has a short casting time. As comparison, PoT takes 10
+         seconds, ScoP takes 6 seconds but is vulnerable to attacks
+         in their dream state, and MM has between 9-20 second casting
+         time.
+      4. It has a low mana cost of 74. As a comparison, MM pay 100,
+         PoT pay 107, and SCoP pays 200.
+Solution: Vampires should not be able to move or fight while
+     casting scry. The target should always know that they are being
+     spied on. The casting time will have to be lengthened to as
+     long as other caster guilds, and possibly longer as well, given
+     their "ranger" classification. Finally, they should pay as
+     much as other caster guilds in mana cost.
+> They are mentalist, don't see this as a huge problem.
+> Stationary would be nice though.
+
+Problem: Notification to Vamp of Underlying Mudlib Calls
+    Vampires have an undocumented ability to know when
+    magic resistance is being checked against them. This
+    was discovered when Cotillion was running some checks
+    on Freya and she saw each check that was run. Separately
+    their obfuscate ability also allows them to know when
+    the check_seen function is called. Each of these
+    calls, while attempting to give more flavor to the
+    vampire experience, breaks the encapsulation of the
+    mudlib to the player experience.
+Solution: Remove these notifications to the player when
+    mudlib calls are made.
+> Zap this, some items do it too. Need a new call for when
+> magic actually is used against someone.
+
+Problem: Flicker currently acts like a Stun
+    Most specials in the game cannot operate in darkness.
+    Darkness is interesting in that it reduces parry,
+    defence, and tohit, rendering the combatant practically
+    helpless. The original concept behind flicker was
+    that it was hard to gather darkness items, and players
+    could simply go buy lamps and get rid of it. I do
+    not believe vampires pay tax for the combat aid
+    advantages that darkness brings, so it should not matter
+    that during PvP combat, people can negate this great
+    advantage. They can still use the darkness advantage
+    during PvE, which is how they will primarily grow their
+    stats. The problem with the concept of forcing people
+    to gather magical light to fight vampires is this: until
+    now, what use was making magical light if you were a
+    wizard if you knew players could just go out and buy
+    lamps? The only reason for magical light is that you
+    wouldn't need to refill a lamp or something. There aren't
+    enough magical light items in the game to support this
+    model.
+Solution: I believe either this spell should be removed
+    altogether, or we should limit the extinguishing to a
+    gradual extinguishing of the torches, rather than all
+    at once. Another suggestion is to severely limit the
+    time that it can be used, like 20 seconds, rather than
+    the 5 minute max it currently has.
+> This should be a much shorter effect.
+> Like a stun.
+
+Problem: Obfuscate (Invis) Fighting Causes Issues
+    Obfuscate is different from Invis in the sense that
+    it is not a one size fits all approach to invisibility.
+    It does checks against each individual to determine
+    whether they can be seen by the Vamp or not. The
+    problem with the approach is that teammates of Vampire
+    targets often will not be able to detect when their
+    teammates are being attacked. In general, the mudlib
+    enforces the concept that as soon as an attack begins,
+    sneak/invis ends.
+Solution: Obfuscate needs to end as soon as the Vampire
+    enters combat. Thematically, one can say that it is
+    difficult to maintain mental control of being invis
+    to someone's mind when one is engaged in combat.
+> Obfuscate should break as soon as combat starts.
+  
+
+Problem: Obfuscate can be stacked without caps
+    Obfuscate uses a resolve_task in order to check whether
+    there is a success or failure. It then keeps the success
+    or failure for some time so that it does not need to be
+    retested. However, failures can be removed by the vampire
+    by simply recasting it again calling enhance_stalk_block
+    in the stalk.c part of the shadow. This essentially
+    gives them a 100% success rate, and the resolve_task may
+    as well be pointless. The enhance also continually raises
+    the value for resolve_task, making it impossible to fail.
+Solution: Recasting should be allowed only for renewing the
+    duration. Failures should continue to be failures for the
+    length of the cast.
+> Bad code should be fixed.
+
+Problem: Vampire guild using guild stat for specials differently
+    Since October, every guild out there has used guild
+    specials as a way to limit the abilities of newer members,
+    but never boosting beyond the max that is taxed. Vampires
+    have not yet converted over to this.
+Solution: Use set_guild_stat_modifier like every other special
+    out there.
+> Easy fix.
+
+Problem: Dominate and Summon together form the perfect spy
+    This is an old trick. Put a spy into someone's guild hall
+    and you can see and hear everything. Vampires are supposed
+    to use the Dominate ability with npcs that to help them
+    track their prey. The use of any messenger, especially
+    their own, is especially of concern. Messengers are
+    accepted without a second thought.
+Solution: Dominate must be changed to not work on messengers.
+    If the npc has the "messenger" as a name, or inherits
+    from the standard messenger library, it should not be
+    allowed. Secondly, the Summon ability should be changed
+    to use the standard messenger library. Finally, dominated
+    npcs should occasionally give some indication to careful
+    observers that something is not quite right.
+> Should be fixed.
+
+Problem: Mesmerize should use standard stun
+    Back when Vampires were released, the standard stun library
+    was not yet available. Since then, the stun library has
+    been written and it's been incorporated into a similar
+    ability called "power slam" in the Neidar.
+Solution: The same code should be used for Mesmerize so that
+    the effect can be controlled centrally and combat aid
+    closely tracked.
+> Sure
+
+Problem: Vampires are not hurt by the sun
+    The vampire code defines its own ROOM_I_SUNLIGHT, which does
+    not exist in the game. It is the only way that a vampire can
+    get "burned" by the sun. Which pretty much means that right
+    now, a vampire can walk anywhere in the game and not get hurt,
+    as the definition is not part of the standard mudlib. This
+    breaks the theme. Even if it properly uses the right props,
+    Vampires counter 5 levels of light with 1 level of darkness.
+    Considering that they typically walk around in at least 2
+    levels of darkness, a room would have to have 11 levels of
+    light in order to hurt them even a little. 
+Solution: Remove ROOM_I_SUNLIGHT from the code and simply use
+    ROOM_I_LIGHT and ROOM_I_INSIDE as appropriate. Rather than
+    use the level or intensity of the light as the amount of
+    damage, simply use the presence of light (boolean on or off)
+    in an outside room to determine whether they will get hurt
+    or not.
+> This is not an easy thing to solve.
+> Sunlight made vamp life very hard once upon a time, we need to find a
+balance.
+
+Problem: Vampire regeneration much faster than intox healing
+    Going over the vampire heal code, I found that they are 
+    healing based on a shadow call to calculate_hp. What happens
+    is that calculate_hp is how normal regular healing happens.
+    They allow the regular healing to happen, then do their
+    own version of healing on top of that. The assertion in the
+    abilities.txt is that their normal healing is lower than
+    what normal people can get with alcohol. That is true only
+    if you do not count the original calculate_hp call. Taking
+    Freya as an example, if she were a normal mortal fully drunk
+    she would get 102.2 hp. Her vampire regen currently gives
+    81.1 when she's fully blooded. Add on the 59 that normal
+    non-intex gets, and she ends up with 140 hp regen per 20
+    seconds.
+Solution: Correctly subtract the original call to calculate_hp
+    from the amount that vampires regen. Or, if they choose to
+    keep their current regen, they should be taxed for the
+    ability. Since the tax doc was very specific about it being
+    lower than intox healing, I will assume this is an
+    innocent oversight and the correct thing to do here is not
+    to add tax and to remove the double healing.
+> Should be possible to just fake full intox.
+    
+Problem: Herb benefits can be taken by eating
+    Vampires are not supposed to be able to eat food. Currently
+    the code is set up so that they can eat the food, but take
+    a blood penalty. As most herbs are eaten, this is an 
+    important point since Vampires have accelerated healing for
+    which they pay no tax. By giving them the ability to have
+    the same benefits as mere mortals to consume and benefit
+    from herbs is not only out of theme, but not properly taxed.
+    The main problem comes from the eat_food function that is
+    shadowed, as it still allows it to process the actual eating
+    of the food.
+Solution: We should change the shadowed eat_food function and
+    force it to return 0. That way, consumation of herbs through
+    eating will always cause it to fail.
+> It might be best to consider that fight lost and just get rid of
+> the restriction, it's not really a real restriction anyway.
+
+Problem: Vocal Spells should display vocal descriptions
+    In Genesis, there are not many ways to counter a spellcaster.
+    One of the ways to counter a spellcaster is to silence them.
+    By making a spell non-vocal, there are higher costs
+    during the calculation of spell power. All vampire spells
+    indicate through their messages that they are silent,
+    preventing enemies from developing tactics against them.
+Solution: Spells which have vocal components need to indicate
+    that they are vocal so that opponents have a chance to not
+    only see that a spell is being cast, but they can hear it
+    and know that they may be able to stop them by silencing
+    them. If we go by their Mentalist theme, then we will make
+    all their spells non-vocal. That will mean also that we
+    will need to recalculate the costs because of this.
+> Better if the spells were reclassified to not be vocal then.
+
+These are all the issues that I can think based on the mails that
+I have been able to track down. If there are any others, please
+let me know and I will update the document for them.
+
+Given all these issues, we will have to look hard at the combat
+aid total for vampires. Obviously, given the analysis here, their
+numbers go far beyond what should be allowed. The players are
+seeing this in their own interactions with the Vampires in PvP.
+
+Doing a short calculation:
+   Bite/Flurry: 100%
+   Haste:        25%
+   Evade:        33%
+   Skills Drain: 47%
+   Targeting:    20%
+   -----------------
+   Total:       225%
+
+That's just the melee combat side, without considering the amount
+they are getting through spellcasting, darkness, and invis. Note
+that this total does not include the double aid that haste gets on
+normal attacks as well. If included, it would bring the total to
+250%.
+
+Petros

@@ -1,0 +1,10 @@
+#ifndef TELBERIN_APOTHECARY
+#define TELBERIN_APOTHECARY
+
+#include "../../defs.h"
+
+#define TELBERIN_APOTHECARY_DIR (TELBERIN_MERCANTILE_DIR + "apothecary/")
+#define APOTHECARY_MEDICATION   (TELBERIN_APOTHECARY_DIR + "medication")
+#define APOTHECARY_VIAL         (TELBERIN_APOTHECARY_DIR + "vial")
+
+#endif

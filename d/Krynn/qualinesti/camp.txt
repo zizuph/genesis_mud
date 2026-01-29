@@ -1,0 +1,91 @@
+   
+   The elf camp in the Qualinesti forest 
+   -------------------------------------
+
+   The camp has been set by a group of Qualinesti elves who are here  
+   to keep an eye on moves of the Verminaard's forces.
+
+    the camp
+    --------
+ 
+
+                         C J C C C
+               	          \ \| |/ 
+                         C-C-C-C C 
+                           |\|/|/                
+            forest <-  A-C-C-O-C C
+           (path8.c)       |/|\|/       
+                         C-C-C-C-C-A  -> forest
+                          / / \ \             (path9.c)
+                         C C   C C
+
+
+
+
+    the Qualinesti forest
+    ---------------------
+
+       H-f-f-f-f-f
+       |*|*|*|*|*|
+       f-R-R-R-R-f-f-f-f-f-f-f
+        \|*|*|*|*|*|*|/ \|*|*|\
+         f-f-f-f-R-R-R   f-f-f-f
+            \|*|*|*|*|\ /   \|*|\
+             f-f-f-f-f-R=CMP f-f-f
+                  \|*|*|\     \|/ \
+                   f-f-f-f CMP=R   f-f-f #P   
+                        \|\   /|\ /|*|*|/
+                         f-f-f-f-R-R-R-R-f-f
+                         |*|*|/ \|*|*|*|\|*|
+                         f-f-f   f-f-f-f-R-f
+                        /        |*|*|*|*|*|
+                F-F-F-#F         f-f-f-f-f-N 
+               /
+          Q-F-F
+          
+  * - means exits in nw,ne,sw,se directions
+
+  H - an entrance from Haven-Solace road
+  N - an entrance from Newports-Pax Tharkas road
+  R - the path leading to the camp through the forest
+  CMP=, =CMP - entrances to the camp
+  C - the camp
+  J - the Elven Archers join room.
+  A - a location with an ambush set for intruders
+  O - a location with an elven leader
+  f - a standard forest location
+ #P - a small clearing - visible after getting a quest (an elven
+      leader will give some hints how to find it) 
+ #F - a path leading to Qualinost (only a view on the city for now) -
+      visible after doing a quest
+  Q - view on Qualinost (possible entrance to the city later)
+
+  NPCs:
+  -----
+  elf warriors - with some standard equipment, elven bows or longswords,
+             light elven chainmails, boots etc.     
+
+  Qualthas - Elven leader, equiped with a magical long bow, that gives 
+             quickness and missiles skill when wielded and maybe a bit 
+             more quickness if wielded by an elf (evil people will not be 
+             able to use this weapon at all). He randomly could wield an 
+             elven longsword and a dagger instead of a bow (these items 
+             could be magical in some way too). He will be wearing a very 
+             light elven chainmail (of AC around 45), sleeves and greaves.
+
+  some animails - living in a forest that surrounds the camp. 
+ 
+
+  A path leading to the camp will be sourounded by a forest. Some 
+  skills (location sense, tracking) probably will be needed to find this 
+  camp. Before an entrance elves could set an ambush for evil people who
+  try to enter the camp, because to enter one will have to go around 
+  a big tree, that blocks the way or something like that. This would 
+  take a few seconds giving elves time to send a few arrows in a direction 
+  of intruders. Good aligned people will not be attacked. Elves will be of 
+  course good aligned. I am thinking of creating a few trees that elves can
+  shoot from at enemies.
+
+
+  Writtent by Sir Blizzard of Krynn.
+

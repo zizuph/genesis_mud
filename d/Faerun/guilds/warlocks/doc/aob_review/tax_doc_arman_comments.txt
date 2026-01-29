@@ -1,0 +1,1246 @@
+﻿/d/Faerun/guilds/warlocks/doc/tax_doc.txt
+
+>  AoB (Arman) review general commentary:
+>
+>  In reviewing magic guilds there are a number of principles that I need
+>  to take into consideration. So that you understand where some of my 
+>  views come from, i'll summarise them below (referencing the balance 
+>  guides i've dug up to help guide me).
+>
+>  One consideration for magic guilds is the 'Distinctions of power'
+>  principle:
+>
+
+Distinctions of power
+=====================
+An important question is naturally how to order personal magic in
+"cost". Which magic should be available to whom and so on. A very
+natural rule-of-thumb is that players who are members in magic-related
+guilds have access to magic that others never will see. You must also
+distinguish carefully between which magic is available to which guild. 
+
+For obvious reasons a fighter guild should only have very minor access
+to healing magic. It's simply not their business to heal people, they
+use offensive magic, but again not very powerful magic. A fighter guild
+fights with weapons, not magic. A priest guild might have access to
+powerful healing spells, but not very powerful offensive spells. A
+wizard guild has offensive & defensive magic, but no healing magic and
+so on. Use common sense when setting up the spellists and you will
+have no trouble. Ignore common sense and rules, and you'll find
+yourself outside the game as soon as it is discovered.
+
+>  In summary, that the spell skills and spell lists align with the 
+>  theme and class type of the guild.
+>
+>
+>  Another consideration is the role of the layman magic guild:
+
+Layman Magic Guilds
+-------------------
+The layman magic guilds represent the dabblers of magic, or those who
+have learned a few tricks.  They are places where a beneficial spell or
+two may be taught to supplement the occupation of the members.
+
+The reason for this is that powerful magic (especially combat) is reserved
+for those who have made sacrifices on an occupational level to achieve
+that power.  Layman guilds are only to provide support to an occupation,
+and therefore cannot give the training required to even come close to
+the magical power of an occupational guild.
+
+>  Finally and probably most importantly, the principle of appropriate
+>  drawbacks for magic guilds to balance their bonus combat aid.
+>
+
+*** PRINCIPLE 1:  The additional combat aid benefit that magic guilds have
+***               over other guilds needs to be balanced with appropriate
+***               drawbacks.
+
+The drawbacks for magic guilds are generally the requirements of mana usage,  
+ingredients, and general vulnerability in melee combat.  Additional drawbacks  
+are hopefully incorporated into the theme of every magic guild.
+
+>
+>  In reviewing the Warlocks, I feel they almost meet these principles - however
+>  I feel they tend to have a broad offering with minimal drawbacks or requirement 
+>  for specialisation. For a layman mage guild it has a very broad range of magic 
+>  skill forms and elements, a spell list that allows for heals, harms, buffs, 
+>  debuffs, and support spells that may be more suitable for an occupational guild 
+>  than a layman guild without clearer restrictions around them (such as
+>  teleport to player, silence [its essentially a spellcasting stun] and aversion). 
+>  I really need to get a clearer sense of the 'distinctions of power' principle... 
+>  because as it stands the spells that support their theme is really broad.
+>
+>  Perhaps this could involve a 'ritual' in the guild hall that replaces the 
+>  'defensive/offensive' mode currently in place that allows the Warlock to focus on
+>  one specific spell element and the spells associated with it? (PoT have a similar
+>  system allowing them to follow an 'aspect' of Takhisis).
+>
+>  Its not clear to me how the component spell system works for the listed spells
+>  so it is difficult for me to determine whether there is appropriate drawback for
+>  the spell benefits. I'd appreciate a summary doc on how components work please.
+>
+>  I'd like spell progression/attainment to be something other than guild stat. I
+>  made a big mistake with the SoHM in allowing that... I won't again! Too easy
+>  to game through the new death mechanics. If you want some ideas i've got a couple
+>  of alternative progression models with the WoHS and OotS that can be considered.
+>
+>  Please don't take my feedback as critical... my job is to pick holes in what has
+>  been proposed and make sure the guild fits in to the global guild scene. 
+>  I think this sort of guild will be an important inclusion in the Genesis layman
+>  magic guild mix. So am very much in favour of it. 
+>
+>  Once the feedback here is addressed i'd like the guild to be beta tested.
+>
+>  Specific feedback outlined below.
+>
+
+*****************************************************************************
+              TAX INFORMATION FOR THE WARLOCKS (Layman)
+*****************************************************************************
+AG = Adventurers Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)
+			 
+			 
+ ¤- A warlock can select an offensive position, or a defensive position, giving a 
+    25/55% caid split in either direction, total combination is 80% caid, which  
+	can't be surpassed.
+	
+ ¤- A warlock may select 1 of 3 of the spells in the specialized tier (4 tiers),
+    totalling of 18 spells available of 22, and therefore taxed only for 18.
+
+
+                   max level   taxed(AG)    taxable    modifier      tax
+--------------------------------------------------------------------------
+General
+--------------------------------------------------------------------------
+SS_ELEMENT_AIR         50         20          30          1.0        0.500
+SS_ELEMENT_WATER       50         20          30          1.0        0.500
+SS_ELEMENT_EARTH       50         20          30          1.0        0.500
+SS_FORM_ABJURATION     50         20          30          1.0        0.500
+SS_FORM_CONJURATION    50         20          30          1.0        0.500
+SS_FORM_ENCHANTMENT    50         20          30          1.0        0.500
+SS_FORM_TRANSMUTATION  50         20          30          1.0        0.500
+SS_FORM_ILLUSION       50         20          30          1.0        0.500
+SS_FORM_DIVINATION     50         20          30          1.0        0.500
+SS_SPELLCRAFT          60         20          40          1.0        0.667
+SS_HERBALISM           50         20          30          1.0        0.500
+--------------------------------------------------------------------------
+Totals                560        220         340                     5.667%
+
+Taxable Slots Allowed   : 350. Used: 340.
+
+TOTAL TAX FOR SKILLS:  5.667%
+
+>  As flagged earlier there seems to be a broad range of spell forms and
+>  elements provided to this layman guild without clear reasoning for it?
+>  Does a layman guild need this many? Have you considered allowing the
+>  Warlock to specialise in an element form rather than have skills across
+>  half of them? Is there some thematics that can be introduced to justify
+>  them?  (like change from defensive/offensive mode to a ritual mode focusing
+>  on spell element?)
+>
+>  Not including melee skills (defence/parry/weapon skills) goes a long way
+>  towards meeting principle 1 re: drawbacks. Nice exclusion :)
+
+
+>  I've added CAID to the spell list. o/d distinguishes offensive setting
+>  and defensive setting CAID provided. # indicates a higher CAID instant 
+>  spell is counted towards CAID total. @ indicates a maintained spell that
+>  cannot be cast with a similar @ spell.
+
+Spell Name            CAID (o/d)    Tax
+====================================================================
+Ascend Step            -            0.1875%     (leave no footprints)
+Gate                   -            0.375 %     (teleport home)
+Witchsight             20%          0.350 %     (see in darkness)
+Witchstep              -            0.350 %     (featherweight)
+Sculptor of Fl.      @ (25%/55%)    0.750 %     (stat boost)
+Mirage                 -            0.375 %     (teleport to known player)
+Tonguetie              -            0.375 %     (silence)
+Eldritch Sight         -            0.350 %     (see invisible)
+False Life             -            0.1875%     (appear at feeling very well)
+Rejuvenation           (#/55%)      0.75  %     (heal)
+Scry                   -            0.375 %     (scry distant target)
+Warp Reality         @ (25%/55%)    0.750 %     (haste)
+Aversion               -            0.1875%     (fear the living)
+Phase                  -            0.1875%     (phase back target)
+
+
+----Specialization spells. Select 1 of 3 per tier -------------------   
+barkskin/a.agathys/spikes           1.5   %     (ac/evade/damageshield)
+CAID                @  (25%/55%)  
+poisonspray/e.blast/frostbite       1.5   %     (at will nuke)
+CAID                   (#/#)
+mist/a.shadows/shroud               0.750 %     (resistance shield)
+CAID                 @  33.5%
+witchbolt/dream/detonate            0.750 %     (harm nuke)
+CAID                   (55%/#)
+=====================================================================
+Total              108.5% / 130%   10.05 %
+
+
+
+Combat aid will be taxed for the entire guild's maximum of 80%
+
+>   A couple of factors have thrown out the combat aid balance of the guild.
+>   See in darkness wasn't accounted for; rejuvenation heal can be cast at
+>   maximum with defensive shields up; and the calculation of magic resist
+>   spells is higher (based on my new formula for magic resist spells).
+>   
+>   We'll need to re-jig aid numbers. Check the specific spells where I have
+>   outlined alternate aid numbers for reasoning behind them.
+
+
+TOTAL TAX FOR COMBAT AID:           Warlock CAID:  80% / 25 =  3.20%
+
+
+           |skills       |spells       |combat aid   |    TOTAL
+-----------|-------------|-------------|-------------|---------
+TOTAL TAX: |5.667%   +   |10.05%   +   |3.20%        | =  18.917%
+                                                     |
+                                                     |    19% rounded up.
+                                                          ==============
+                                                          ==============
+
+
+
+
+
+========================================
+WARLOCK SPELLS DESCRIPTION
+========================================
+
+>   The spell files need to be reviewed... there are a lot of hooks that
+>   are incomplete or with typos.  While not a balance issue, the guild
+>   shouldn't go into beta testing without it being in a more final state.
+>
+
+Ascendant step (leaves no footprint)
+====================================
+Guild type          : Layman
+Effect              : Slightly levitates the player over ground. leaves
+                      no footprints.
+Spell Time          : 4 seconds
+Element             : Water
+Form                : Conjuration
+Mana cost           : 20
+Vocal               : Yes
+Visual              : no
+Stationary          : Yes
+Peaceful            : no
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 10 guild stat
+Spell Class Level   : Power 2 - Minor Spell
+Area of effect      : Self
+Duration            : Delayed Instant
+Components          : bone charm
+Tax                 : 0.375%
+Special Description : None
+
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 0.50% (Power 2 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.375%
+
+>  This spell should use the /d/Genesis/specials/std/spells/propchange_base.c
+>  spell as its base rather than the shadow.c base spell.
+>
+>  The mana cost for this spell isn't something you can vary I thought? Its a 
+>  nomaskable set at 30?
+>
+>  How are bone charms made? Would appreciate a summary doc on how the Warlock
+>  spell components work.
+
+
+Gate (Teleport Home)
+======================
+Guild type          : Layman
+Effect              : Transports caster back to the Warlock guildhall.
+Spell Time          : 4 seconds
+Element             : Water
+Form                : Conjuration
+Mana cost           : 30
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : Yes
+Offensive           : No
+Renewable:          : N/A
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 20 guild stat
+Spell Class Level   : Power 2 - Minor Spell
+Area of effect      : Self
+Duration            : Delayed Instant
+Components          : bone charm
+Tax                 : 0.375%
+Special Description : None
+
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 0.50% (Power 2 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.375%
+
+
+>   Seems fine.
+>
+>   Note the spell seems unfinished... in the check_valid_action function 
+>   there is an if query with a catch_tell message of "Your xxxx spell 
+>   "interferes with your ability to cast xxxx.\n".  Needs to be tidied up.
+
+
+Witch sight (see in darkness)
+=====================
+Effect              : Silences target
+Element             : Air
+Form                : Enchantment
+Mana cost           : 30
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 30 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 2 - Minor Spell
+Components          : hardened fiery heart charm
+Tax                 : 0.35%
+Special Description :
+
+>   I am ok with this spell as long as it is caster targetable only.
+>   'Any target' is too powerful for a layman guild. So change the setting on
+>   set_spell_target to spell_target_caster.
+>
+>   LIVE_I_SEE_DARK also provides combat aid. It isn't well detailed on how to account
+>   for it, however the SoHM pay 20% caid for 'truesight' (+5 SEE_DARK / +10 SEE_INVIS),
+>   and the Priests of Takhisis pay 20% caid for 'peyes' (+5 SEE_DARK / +5 SEE_INVIS).
+>
+>   The Elementalists skiamorfi spell offers +1 SEE_DARK bonus which I have asked to have  
+>   as a baseline 10% caid added.  
+>
+>   This spell offers +5 SEE_DARK max. I am thinking this also have a CAID allocated to it
+>   of 20%.
+>
+>   Noting it is a pretty handy spell. The only other layman guild with night vision
+>   is the elven archers... so is a bit of an attractive feature spell for the Warlocks.
+
+Witchstep (Featherweight)
+=========================
+Guild type          : Layman
+Effect              : Reduces the overall weight of the user's carrying
+                      capacity. Based on the featherweight spell. Factor of
+                      140 set (means caster can carry 40% more things).
+Spell Time          : 4 seconds
+Element             : Earth
+Form                : Enchantment
+Mana cost           : 30
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 40 guild stat
+Spell Class Level   : Power 2 - Minor Spell
+Area of effect      : Self
+Duration            : Maintained
+Components          : bone charm
+Tax                 : 0.375%
+Special Description : None
+
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 0.50% (Power 2 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.375%
+
+>   Seems fine.
+>
+>   Note the spell seems unfinished... in the check_valid_action function 
+>   there is an if query with a catch_tell message of "Your xxxx spell 
+>   "interferes with your ability to cast xxxx.\n".  Needs to be tidied up.
+
+
+Sculptor of Flesh (Stat Boosts)
+===============================
+Guild type          : Layman
+Effect              : Adds boost to Strength (20%), Constitution (20%),
+                      and Discipline (15%).
+Spell Time          : 4 seconds
+Element             : Earth
+Form                : Enchantment
+Mana cost           : 30
+Vocal               : Yes
+Visual              : Yes
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_HARD
+Acquire Level       : 50 guild stat
+Spell Class Level   : Power 3 - Intermediate Spell
+Area of effect      : Self
+Duration            : Maintained
+Components          : hardened frosty heart charm
+Tax                 : 0.75%
+Special Description : Spell can have either 25% or 55% combat aid.
+
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 1.00% (Power 3 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.75%
+
+>   Need to use the /d/Genesis/specials/std/spells/statboost.c base spell rather
+>   than the shadow spell base. *mental note I need to update the SoHM mage strength
+>   spell to use it too *.
+>
+>   If you want an example of how this spell base works have a look at 
+>   /d/Krynn/guilds/OotS/spells/oheroism.c
+>
+>   How does the spell work out 25% or 55% combat aid?  Isn't clear in the code. If you
+>   aren't sure, you could modify it in check_valid_action function. 
+>
+>   I assume that it is a defensive spell as well... it isn't specified here either.
+>
+>   Also, the limitations check needs to be included in check_valid_action to make sure
+>   it can't be cast with haste/shield/mr shield/stat buff.
+
+
+Mirage (Teleport to player)
+=============================
+Effect              : Teleports caster to known player
+Element             : Air
+Form                : Conjuration
+Mana cost           : 30
+Vocal               : Yes
+Visual              : Yes
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : N/A
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 60 guild stat
+Area of effect      : One known target anywhere that caster is allowed
+Spell Class Level   : Power 2 - Minor Spell
+Components          : hardened gleamy heart charm
+CAID                : None
+Tax                 : 0.375%
+Special Description : This spell can have a blacklist of rooms that players
+                      can't teleport to (namely guild halls, places they
+                      shouldn't be, etc...). Right now it uses the base
+                      teleport spell which takes a lot of that into
+                      consideration already. This spell is air branch only.
+
+>  Teleport to player isn't appropriate for a layman guild. I actually think this
+>  sort of spell should be highly restricted for occupational guilds too for that
+>  matter. In my mind teleports for layman guilds should be restricted to teleporting 
+>  home only, with it only being an exception if it is a spell that strongly links 
+>  thematically to the guild.
+>
+>  What is the 'air branch' referred to in the special description? Is that a cut/paste
+>  inclusion from the EC tax_doc that should have been removed?
+>
+>  If you are super keen on keeping this spell, I need a really good justification for it.
+
+
+Mouthbind (Silence)
+=====================
+Effect              : Silences target
+Element             : Air
+Form                : Enchantment
+Mana cost           : 30
+Vocal               : No
+Visual              : Yes
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : N/A
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 70 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 2 - Minor Spell
+Components          : bone charm
+CAID                : None
+Tax                 : 0.375%
+Special Description : NOTE: Cannot be cast in combat
+
+>  I am not in favour of this sort of spell for a layman guild.
+>
+>  While it cannot be cast in combat, it can be cast out of combat and combat
+>  initiated.  It makes it a very effective stun against magic users.
+> 
+>  This spell doesn't seem finished. There is no spell object so I can't determine
+>  spell duration. A number of the hooks for the spell look unfinished.
+>
+>  This looks like one of the spells the Elementalists have proposed of which
+>  I have the same issues.  My plan is for the AoB team to make silence spells 
+>  a base stun spell that initiates combat. At this point I am not keen on it 
+>  being a spell layman guilds can use, although we can explore it as an option
+>  once the base spell is created.
+>
+>  Finally, I am not in favour of non-vocal spells with very few exceptions. Its a
+>  drawback requirement for magic spells, so there has to be a very good reason for
+>  not having it.
+
+
+Eldritch sight (see invis)
+=====================
+Effect              : Silences target
+Element             : Air
+Form                : Enchantment
+Mana cost           : 30
+Vocal               : No
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : N/A
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 80 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 2 - Minor Spell
+Components          : hardened black heart charm
+CAID                : None
+Tax                 : 0.35%
+Special Description :
+
+>   Effect isn't silence target, right? May want to update the details above. This
+>   spell has a vocal component and not a stationary requirement.
+>
+>   As with darkvision, I am okay with this spell as long as it can target the
+>   caster only. Too powerful for a layman guild to provide to others.
+>
+>   Noting this spell provides +10 see invisibility. There is a define in the
+>   e_sight_obj.c MAX_AWARENESS_SKILL_GAIN of 30, which doesn't seem to be called
+>   anywhere.. I assume included from the spell it was copied from?  Can we clean
+>   up the spell so it doesn't have those in there.
+
+
+False life (appear healthy. Illusion)
+=====================
+Effect              : Silences target
+Element             : Air
+Form                : Enchantment
+Mana cost           : 30
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : N/A
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 90 guild stat
+Area of effect      : Self
+Spell Class Level   : Power 2 - Minor Spell
+Components          : hardened rotten heart charm
+CAID                : None
+Tax                 : 0.375%
+Special Description :
+
+>   Seems fine. How does this spell work with the web client health bars?
+>   Something for the beta testers to check perhaps.
+>
+
+
+Rejuvenation (Healing)
+======================
+Guild type          : Layman
+Effect              : Restores lost HP
+Spell Time          : 4 seconds
+Element             : Water
+Form                : Enchantment
+Mana cost           : 30
+Vocal               : No
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No (Yes against undead)
+Renewable:          : N/A
+Difficulty          : TASK_HARD
+Acquire Level       : 100 guild stat
+Spell Class Level   : Power 3 - Intermediate Spell
+Area of effect      : Self
+Duration            : Instant
+Components          : hardened blood-soaked heart charm
+Tax                 : 0.75%
+Special Description : Spell can have either 25% or 55% combat aid
+
+
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 1.00% (Power 3 Spell / Layman)
+                    * 1.5%  (No Components)
+                    =======
+                      1.5%
+
+>   Thinking about the principle of 'distinction of power', why does a 
+>   mage class get healing spells? This is the domain of the cleric
+>   guild class. The Warlock guild needs to be clearer about what its
+>   spell offering is... right now it is too broad and offers too much.  
+>   
+>   The hook_describe_heal_result function mentions Lord Diabrecho a lot.
+>   Being a copy of the Worshippers heal spell it hasn't been cleaned up
+>   properly.
+>
+>   55% caid if query_war_defensive() == 1. Sure it isn't supposed to be 
+>   query_war_defensive() == 0??  CAID totals don't add up otherwise.
+
+Scry
+============
+Effect              : Discern a player's location.
+Element             : Life
+Form                : Divination
+Mana cost           : 30
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Acquire Level       : 110 guild stat
+Area of effect      : One target anywhere
+Spell Class Level   : Power 2 - Minor Spell
+Components          : bone charm
+CAID                : None
+Tax                 : 0.375%
+Special Description :
+
+>  typo in the hook_scry_success (cacles instead of cackles).
+
+
+Warp Reality (Haste)
+======================
+Guild type          : Layman
+Effect              : Adds haste ability with combat aid of 25 / 55% to
+                      the caster
+Spell Time          : 4 seconds
+Element             : Earth
+Form                : Enchantment
+Mana cost           : 30
+Vocal               : Yes
+Visual              : No
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_HARD
+Acquire Level       : 120 guild stat
+Spell Class Level   : Power 3 - Intermediate Spell
+Area of effect      : Self
+Duration            : Maintained
+Components          : bone charm
+Tax                 : 0.75%
+Special Description : Spell can have either 25% or 55% combat aid.
+
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 1.00% (Power 3 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.75%
+
+>   I don't understand why a seperate function needs to be created for 
+>   set_spell_target, namely spell_target_haste.  Why not simply set it to
+>   spell_target_caster?? [I know ECs do it.. still doesn't justify it]
+>
+>   55% caid if query_war_defensive() == 1. Combined with rejuvination which
+>   also allows 55% caid if query_war_defensive == 1, those two spells provide
+>   a combined combat aid of over 110%.  Way over the 80% cap even before we take
+>   into account other spell combat aid. I've added to the spell table up the top
+>   the CAID for various spells in the two different modes. 
+
+Aversion (fear)
+====================
+Effect              : Makes target run away
+Element             : Water
+Form                : Abjuration
+Mana cost           : 30
+Vocal               : No
+Visual              : Yes
+Stationary          : No
+Peaceful            : No
+Offensive           : Yes
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 130 guild stat
+Area of effect      : One present living target
+Spell Class Level   : Power 2 - Minor Spell
+Components          : bone charm
+Tax                 : 0.1875%
+Special Description : This spell causes the target to flee from the
+                      caster. If the caster isn't in combat with the target,
+					  this spell will initiate it. The target takes no
+					  damage or penalties other than they will flee from
+					  the caster. Do not work against the undead.
+
+>   Noting this spell is based off the ECs turn undead spell, flagging that
+>   the AoB team is currently in the process of creating a base spell for 'turning'.
+>   Once we get that sorted out we'll want this spell using that spell base.
+>
+>   Also noting that this spell isn't very restrictive (i.e broad targeting vs any living target,
+>   not based on a race / creature / alignment etc) We will need to reconsider the difficulty 
+>   level / class level / components. Testing of the turn undead spell indicates it is quite
+>   useful against undead... for a spell even broader in scope (as in all living) is probably too
+>   powerful for a layman guild.  Maybe make the aversion works against good aligned, or maybe 
+>   have this a specialised spell that works against a specific race? [it really is handy at splitting
+>   groups]
+>
+>   Again, needs to have a vocal component.  
+
+Phase (phaseshift caster behind target)
+=======================================
+Effect              : Blink target (move behind) to behind the caster
+Element             : Earth
+Form                : Conjuration
+Mana cost           : 30
+Vocal               : No
+Visual              : Yes
+Stationary          : No
+Peaceful            : No
+Offensive           : No
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 140 guild stat
+Area of effect      : One present target
+Spell Class Level   : Minor Spell
+Components          : flat x bone charm
+CAID                : None
+Tax                 : 0.1875%
+Special Description :
+
+>  Needs to have set_spell_vocal set. I don't see any justification for it to
+>  be a non-vocal spell (you even need to whisper to cast it in the concentrate
+>  message).
+>
+>  Apart from that it's fine.
+
+
+-------------------SPECIALIZED SPELLS. A player selects 1 of 3 per tier.-----
+>  So isn't clear how they specialise.  I am assuming its based on an Element
+>  choice?  Is it a once-off specialisation at joining, or can they switch?
+
+
+Barkskin (ac) / Armor of Agathys (evade) / Spikes (damageshield)
+================================================================
+Guild type          : Layman
+Effect              : Creates 3 different shields, depending on
+                      specialization.
+Spell Time          : 4 seconds
+Element             : Varies
+Form                : Abjuration
+Mana cost           : 30
+Vocal               : No
+Visual              : No
+Stationary          : No
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 150 guild stat
+Spell Class Level   : Power 3 - Intermediate Spell
+Area of effect      : Self
+Duration            : Maintained
+Components          : None
+CAID                : 25 / 55%
+Tax                 : 1.5%
+Special Description : None
+
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Somatic)
+                    =====
+                        8 seconds (minimum)
+
+Tax Calculations:   + 1.00% (Power 3 Spell / Layman)
+                    * 1.5   (no components)
+                    =======
+                      1.5%
+
+>  The spell has to have a vocal component. Looking at the spell files it looks
+>  like they all do have vocal.. also visual and stationary? Update the above
+>  so it is accurate please?
+>
+>  As a layman Power 3 spell the difficulty should be harder than ROUTINE (i.e. HARD). 
+>
+>  Barkskin object - typo in hook_spell_effect_warn_fading()
+>                  - there is no query_damage_modification_file() set in 
+>                    the object, so not even sure this spell works as
+>                    intended? Have a look at the OotS obless_obj.c file...
+>                    You will need an additional barkskin_dam_mod_obj_base.c
+>                    set up otherwise you default to the standard spell messaging
+>                    which is stoneskin rather than barkskin.
+>
+>  a_of_agathy object - typo in hook_spell_effect_started()
+
+
+Poisonspray / Eldritch Blast / Frostbite (at-will)
+==================================================
+Guild type          : Layman
+Effect              : Frostbites target
+Element             : Water
+Form                : Abjuration
+Mana cost           : 30
+Vocal               : No
+Visual              : No
+Stationary          : No
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Acquire Level       : 160 guild stat
+Area of effect      : One opponent in same room
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : Curved heart charm
+CAID                : 25 / 55%
+Tax                 : 1.50%
+Special Description : This spell is water branch only.
+
+> The purpose of at-will spells is to allow occupational mage guilds 
+> a 'grinder' spell that can be used without running out of mana in
+> normal circumstances. The end effect is a similar to a fighter's
+> combat special, on the proviso that it is less powerful than an
+> occupational melee fighter specials - hence the cap at 60% caid,
+> which is weaker than most occupational fighter's specials.
+>
+> There is no precedent for at-will spells in a layman guild, and
+> I am in two minds on whether to allow them in layman guilds. On 
+> one hand at-will spells were designed to allow occupational mage 
+> guilds to be playable while regenerating mana. Layman guilds
+> shouldn't really need them and should really default to the 
+> standard harm spells.
+>
+> If we were to allow it for layman guilds, the combat aid would
+> need to be significantly less than what a layman melee fighter's
+> guild would offer... otherwise why would you ever choice a melee
+> guild over a magic lay guild when you can get an offensive special
+> as good or better than any a layman guild would offer? I was thinking 
+> something like 15%-20% caid max if no components, 20%-30% max with
+> appropriate components.
+>
+> Anyway i'll run this type of spell past the AoB team for some more
+> view points. I am leaning towards not allowing at-will spells for
+> layman guilds, but may be swayed.
+
+
+
+Mist / Armor of Shadows / Shroud   (resistance shield)
+======================================================
+Guild type          : Layman
+Effect              : Adds 25% / 55% combat aid worth of elemental
+                      resistance for fire, earth, water, air, death and life
+					 (varies, 2 elements + mr per spell)
+Spell Time          : 4 seconds
+Element             : Primary Element (Earth, Fire, Air, Water)
+Form                : Abjuration
+Mana cost           : 30
+Vocal               : Yes
+Visual              : Yes
+Stationary          : Yes
+Peaceful            : No
+Offensive           : No
+Renewable:          : Yes
+Difficulty          : TASK_ROUTINE
+Acquire Level       : 170 guild stat
+Spell Class Level   : Power 3 - Intermediate Spell
+Area of effect      : Self
+Duration            : Maintained
+Components          : curved bone charm
+CAID                : 25 / 55%
+Tax                 : 0.75%
+Special Description : None
+
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Verbal)
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 1.00% (Power 3 Spell / Layman)
+                    * 0.75% (Component >= 1 gp)
+                    =======
+                      0.75%
+
+> Overall I like how these resistance spells are structured, providing logical
+> resistance benefits. However I have made a change to how combat aid is applied
+> to resistance spells (surprise!)
+>
+> As Nerull you are well aware, I am really not a fan of how the determination
+> of combat aid is worked out for resistance spells. It was one of the first
+> things I flagged with the AoB team that I wanted to change when I became AoB, 
+> and they agreed with my approach. So what I proposed was:
+
+Combat aid for resistance spells           47 Arman       Arch    30 Aug 2017
+
+Hi all,
+
+So here are a few scenarios:
+
+A resistance spell of one guild provides add_resistance(MAGIC_I_RES_FIRE, 15),
+which equates to 15% combat aid.
+
+A resistance spell of another guild provides add_resistance(MAGIC_I_RES_MAGIC,
+15), which equates to 15% combat aid according to how we currently measure it.
+
+Finally a resistance spell of a third guild provides
+add_resistance(MAGIC_I_RES_FIRE, 15), add_resistance(MAGIC_I_RES_COLD, 15),
+add_resistance(MAGIC_I_RES_POISON, 15), add_resistance(MAGIC_I_RES_ACID, 15),
+add_resistance(MAGIC_I_RES_AIR, 15), add_resistance(MAGIC_I_RES_EARTH, 15),
+add_resistance(MAGIC_I_RES_LIFE, 15), and add_resistance(MAGIC_I_RES_DEATH,
+15)... which also equates to 15% combat aid according to how we currently
+measure it.
+
+Now the argument that has been put to me is that because these resistances
+don't stack combat benefit, as an attack can only be one of these damage types,
+then these numbers are okay.
+
+In my mind this is not a balanced way of looking at resistances, and only
+rewards guilds that provide blanket immunity rather than targeted/tailored
+resistance options that make players actually think about the damage types they
+are likely to face.
+
+So what I am proposing is this:
+
+Any resistance spell that provides more than three MAGIC_I_RES_* forms has its
+caid cost an extra 10% for each form. So in the latter case what would have
+been 15% caid would be 15% * 1.5, or 22.5 caid.
+
+Resistance spells that provide less than three MAGIC_I_RES_* get a caid
+reduction of 10% (this is for the purposes of working out total guild caid if
+that wasn't clear). So in the first case the caid for that spell would be
+viewed as 15% * 0.8, or 12% caid.
+
+MAGIC_I_RES_MAGIC resistance spells essentially provide a resistance against
+all the forms... of which there are 14... 12 if you exclude *_MAGIC and
+*_IDENTIFY. So I propose any resistance spell using this gets 2x loading
+penalty... making the caid for the second spell to be 30%.
+
+> The AoB team also felt these sort of resistance spells shouldn't mix meta
+> and physical resistances (i.e. physical being acid/cold/fire and meta
+> being life/death etc), however if thematic reasons are provided for it
+> I think it could be ok.  I'll be updating documentation to reflect these
+> change soon... but thought i'd let you know how I plan on treating resistances
+> now while you are building your guild.
+>
+> Anyway, this does impact the combat aid determination of the resistance
+> spells of the Warlocks because of the inclusion of *_MAGIC.  I'd suggest getting
+> rid of it from the mix, and instead have the two specific resistances at 25% (base)
+> for an aid of 22.5% (only two resistances has a reduced cost), or have the two
+> specific resistances at 27% for the originally planned 25% aid.
+>
+> One other thing I noted with these spells is that the resistance values are set
+> at a 25% resistance benefit, when the tax doc outlines it could vary up to 55%?
+> If you are struggling to figure out how to vary the resistance levels, I find
+> you can update the add_resistance values in the check_valid_action function.
+
+Witchbolt / Dream / Detonate (nuke)
+===================================
+Guild type          : Layman
+Effect              : Attacks a single enemy with water/air/earthbased attacks
+                      Combat aid of 55% given for harm-based spell.
+Spell Time          : 4 seconds
+Element             : Varies
+Form                : Abjuration
+Mana cost           : 30
+Vocal               : No
+Visual              : No
+Stationary          : No
+Peaceful            : No
+Offensive           : Yes
+Renewable           : N/A
+Difficulty          : TASK_HARD
+Acquire Level       : 180 guild stat
+Spell Class Level   : Power 3 - Intermediate Spell
+Area of effect      : One opponent in same room
+Duration            : Instant
+Components          : curved bone charm
+CAID                : 25 / 55%
+Tax                 : 0.750%
+Special Description : Spell can have either 25% or 55% combat aid
+
+Cast Time Adjustments: 10 seconds
+                     -  2 seconds (Somatic)
+                     -  4 seconds (Component Cost >= 1 gp)
+                    =====
+                        4 seconds (minimum)
+
+Tax Calculations:   + 1.00% (Power 3 Spell / Layman)
+                    * 0.75% (Component >= 1gp)
+                    =======
+                      0.75%
+
+>  Must have a vocal setting, and my preference is a visual setting too for offensive
+>  spells. Magic guilds are quite powerful... not having a standard weakness (silence 
+>  / blinding) needs justification.
+>
+>  Add set_ability_group(GUILD_NAME); to the start of your config_harm_spell(). This
+>  will stop the spell (or occ specials) being interrupted by other guild specials (or 
+>  spells) the member of the Warlocks may have.
+>
+>  For the "dream" spell perhaps that could have an illusion damage type? So while the
+>  element is water maybe consider having set_spell_resist(spell_resist_illusion) and the
+>  form illusion? Thematically it makes more sense, and adds a bit of variation that may
+>  influence specialisation choice. The SoHM prismatic spray is an example of how that
+>  works.
+>
+>  Just an observation... set_spell_time_factor(1.0) is the standard harm setting
+>  for cast time. What I find is that the damage output for the mana cost is pretty
+>  crappy at 1.0 factor. As damage output increases with time factor, it can be better
+>  from a mana / component point of view to have a longer cast time. Having said that
+>  while casting the caster doesn't do any 'white damage', so the preference may be
+>  shorter cast time... anyway, something to consider during beta testing will be how
+>  useful this spell is at different time factors.
+
+
+Documented by Nerull, September 2017
+
+
+
+Message: 1351
+From   : Nerull
+Reply  : Feedback on Warlocks tax_doc.txt
+To     : Arman, Finwe, Cotillion, Ckrik and Lucius
+Date   : Mon Sep 11 21:20:22 2017
+Thank you for the time spent reviewing the Warlocks!
+
+A few comments. THe spell cleanup you noticed is a known issue, and will
+work on it as soon as possible. Technical hurdles took presedence, but at
+the end of that line now.
+
+Same with balance concerns about stuff stacking. At the end of the line,
+no matter the makeup, the guild will never break 80% caid when the final
+checks are in place. All the necessary checks will be in place for it. :)
+
+--------------------------- Spells removed ----------------------------
+Mirage, Tonguetie and the 3 at-will specialization spells will be cut
+from the guild, which leaves the guild with 5 less spells.
+
+>>> Thanks. I think that is a good call. The general consensus is layman
+>>> guilds shouldn't have at-will spells (outside of the Academics).
+
+--------------------------- Some arguments ----------------------------
+Rejuvenation: Heal strenght is capped at 55%, the same way other
+healing guilds also cap their spells at 55/80%caid. The clerics are
+just as strong healers AND nukers as the "mages" in Genesis atm,
+especially at layman level. The strongest and most versatile nukers
+in genesis are no doubt clerics with the introduction of EC.
+
+So for now, I'd rather let the spell cap at 55%, as the first and only
+available healing spell for the "other faction". This is to ensure some
+balance parity.
+
+>>> Okay. Let's run with it. However I want the heal to have a reasonable
+>>> component cost.  Warlocks are more offensive than healing.
+
+
+Aversion: While the fear is more versatile than the turn undead, I'll
+argue for that Warlocks keep their fearspell due to thematics. But, I
+can add similar suggested limitations (racial?) to narrow down its scope.
+
+>>> Yep adding racial limitations would make it acceptable... linking 
+>>> the element type 'ritual' to what race is affected by aversion 
+>>> would I think be a nice feature and also help address 'distinction of 
+>>> power' concerns.
+
+-------------------------------- Changes -------------------------------
+All recommended changes you mentioned.
+
+The last tier specialization spells (harm spells) will cut the
+components, and pay 1.5x tax modifier. May switch to higher timefactor.
+
+>>> If we have a 'ritual' system in place from the start, do we need
+>>> a last tier?  Anyway I am ok with what you have outlined above as
+>>> far as removing the component element. It will be a powerful addition,
+>>> as components for damage spells tend to be high on the consumables,
+>>> but if they are spell options for the higher ranked warlocks i am ok
+>>> with it. Warlocks are traditionally warlike, much like clerics are
+>>> traditionally healers... I am ok with them not requiring components
+>>> for offensive spells as a feature.
+
+Eldritch sight and Witchsight may be combined into one, with AoB's
+permission.
+
+>>> That is fine.
+
+Phase will have the option to port back member, or infront.
+
+>>> Okay, that would make it a unique spell/ability. Let's run with it...
+>>> get our beta testers to test it out and see if we need to tweak it.
+
+The guild will look at how it deals with the offensive/defensive option. A
+part of my design premise there was for warlocks not necessarily
+switch instantly between them. A ritual, or similar that requires x
+(not necessarily home at guildhall, but maybe standstill time) seems
+to be thematic.
+
+>>> I think the ritual element would help with the 'distinction of power'
+>>> principle. Having the ritual appliable at the guildhome shouldn't be a big 
+>>> deal seeing members can teleport home very easily if they need to change.
+>>> PoT have a similar system where they can 'aspect' themselves in a healing
+>>> or offensive specialisation in the guild which works pretty well.
+>>> I think - considering you want to have three element skills - a ritual
+>>> which focuses on one of the three and allowing access to the spells
+>>> aligned to that element 'tree' would be a really cool feature. But i'll
+>>> leave it to you to come up with a thematic approach to meet the 
+>>> distinction principle.
+
+Resistances. All shields will lose its MAGIC_I_RES_MAGIC-component, and
+the two remaining elements raised to 68 caid ( * 0.8), equalling 54.4
+caid total with your new system. As you will notice, Warlocks will also
+separate the physical and the meta, obliging entirely to your new
+design decision.
+
+>>> Note the multiplier for 2 spell element resistance spells is 0.9, not
+>>> 0.8.  Again, if you have the element 'tree' ritual option, that really
+>>> gives the players a range of options they need to consider that could
+>>> give them benefits. As you know, the caid benefit the more powerful
+>>> version of these spells basically gives immunity to two damage types.
+>>> So really powerful!
+
+I will look at all spellforms and see if I can cut some. We cut
+5 spells already, so we can probably trim the skills aswell.
+
+>>> You have a lot of spell forms, for sure. Not against keeping them though
+>>> if viewed as necessary. Just something to consider. The guild has a lot
+>>> of spell elements too (usually guilds only have one), but i think thematically 
+>>> we can allow multiple elements if spells are accessible depending on 
+>>> element-based 'ritual'.
+
+Current spell makeup.
+Spell Name            CAID (o/d)    Tax
+====================================================================
+Ascend Step            -            0.1875%     (leave no footprints)
+Gate                   -            0.375 %     (teleport home)
+Witchsight             20%          0.350 %     (see in darkness)
+Witchstep              -            0.350 %     (featherweight)
+Sculptor of Fl.      @ (25%/55%)    0.750 %     (stat boost)
+
+(Mirage) ----------------------------------------REMOVED----------
+(Tonguetie) -------------------------------------REMOVED----------
+
+Eldritch Sight         -            0.350 %     (see invisible)
+False Life             -            0.1875%     (appear at fvw)
+Rejuvenation           (25/55%)     0.75  %     (heal)
+Scry                   -            0.375 %     (scry distant target)
+Warp Reality         @ (25%/55%)    0.750 %     (haste)
+Aversion               -            0.1875%     (fear the living)
+Phase                  -            0.1875%     (tankrotator)
+----Specialization spells. Select 1 of 3 per tier -------------------
+
+barkskin/a.agathys/spikes           1.125   %     (ac/evade/dmgshield)
+CAID                @  (25%/55%)
+(poisonspray/e.blast/frostbite) ----------------REMOVED----------
+N/A
+mist/a.shadows/shroud               0.750 %     (resistance shield)
+CAID                   (25/55%)
+witchbolt/dream/detonate            1.125 %     (harm nuke)
+CAID                   (25/55%)
+-- More -- 100/173 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+=====================================================================
+Total                               7.8 %
+Warlock components, in detail
+---------------------------------------------------------------------
+
+Warlocks drain powers from their respective patrons, and doesn't
+usually use much components. However, for balance and spell parity,
+every spell (except 2) cost 3 components.
+
+A warlock can fragment skulls, kneecaps and hearts into smaller
+pieces, which makes the base of their charms.
+
+example component: curved bone chip
+
+The second component are exotic merchandice bought from the
+warlock store. These components are costy.
+
+example component: Solified tear of the innocent.
+
+Third component is a herb.
+
+example herb:  hemlock
+Once a warlock has all 3 components, he can for the moment
+type wasummon, which offers the component in exchange for
+a certain magical charm.
+
+example charm: hardened rune-carved heart charm
+
+The warlock can "flare" the charm, which spends it in exchange
+for magical charges, similar to morgul potions. Example, 5 casts
+of x spell. The exact number will reflect the total value of the
+charm (but not yet calibrated).
+
+List of charms and components:
+
+==================================================================
+| Charms   |                  O F F E R I N G S                  |
+|----------|-----------------------------------------------------| 
+|uralane   | flat bone chip     tear of the innocent  blackberry |
+|urfenn    | flat bone chip     virgin's blood        chervil    |
+|urchass   | flat bone chip     gold coin             suranie    |
+|urbienc   | flat bone chip     virgin's blood        basil      |
+|uraene    | flat bone chip     bat spleen            laurel     |
+|urhuew    | flat bone chip     vampire dust          tarragon   |
+|urhagash  | dried heart piece  bat spleen            suranie    |
+|urhaese   | dried heart piece  tear of the innocent  garlic     |
+|urhavol   | dried heart piece  bone-powder           coccinea   |
+|urhamine  | dried heart piece  bloody fairy wing     foxglove   |
+|urhadoele | dried heart piece  virgin's blood        handasse   |
+|urfiviel  | dried heart piece  vampire dust          coccinea   |
+|urkenu    | dried heart piece  tear of the innocent  fennel     |
+|urlob     | dried heart piece  bat spleen            savory     |
+|urwem     | curved bone chip   sulphur               bilberry   |
+|urvaesa   | curved bone chip   vampire dust          chives     |
+|urluir    | curved bone chip   bone-powder           hemlock    |
+|urgashe   | curved bone chip   bat guano             garlic     |
+|urnerulla | curved bone chip   sulphur               pepper     |
+|urchem    | curved bone chip   tear of the innocent  thyme      | 
+|----------------------------------------------------------------|
+|   'wsummon <charm name>' to receive a blessing from your       |
+|   patron in exchange for required offerings.                   |
+|________________________________________________________________|
+
+How do the content of this mail sound?
+
+>>> Overall sounds good. Let's progress it! Can you put together a 
+>>> revised tax doc, and also a doc that outlines the proposed 
+>>> component system and the 'ritual' system allowing the spells
+>>> or combat aid? Another doc i'd like to see is one around
+>>> guild progression in replacement of guild stat. 
+
+Nerull

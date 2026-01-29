@@ -1,0 +1,115 @@
+gelan
+::MAPDATA::
+drawbridge 28 31
+gate 28 29
+boardroom 24 29
+standby_guards 32 29
+palace_road_sw 28 27
+palace_road_se 32 27
+palace_road_nw 28 25
+palace_road_ne 32 25
+grocery 20 23
+square_southend_w 24 23
+square_southend_center_w 28 23
+square_southend_center_e 32 23
+square_southend_e 36 23
+bakery 40 23
+blacksmith 16 21
+square_corner_sw 20 21
+square_sw 24 21
+fountain_southend_w 28 21
+fountain_southend_e 32 21
+square_se 36 21
+square_corner_se 40 21
+lavatory 45 21
+bank 10 19
+square_westend_s 16 19
+square_fountain_w 20 19
+fountain_w 24 19
+fountain_statue_w 28 19
+fountain_statue_e 32 19
+fountain_e 36 19
+square_fountain_e 40 19
+square_eastend_s 44 19
+hairdresser 56 19
+t_par 60 19
+road_w 12 17
+square_westend 16 17
+square_w 20 17
+square_fountain_nw 24 17
+fountain_northend_w 28 17
+fountain_northend_e 32 17
+square_fountain_ne 36 17
+square_e 40 17
+square_eastend 44 17
+road_e 48 17
+shop 13 15
+square_westend_n 16 15
+square_wn 20 15
+square_midw 24 15
+square_central_w 28 15
+square_central_e 32 15
+square_mide 36 15
+square_en 40 15
+square_eastend_n 44 15
+stables_e 36 25
+stables_w 24 25
+school 54 15
+alchemist 16 13
+alchemist_lab 14 13
+square_corner_nw 20 13
+square_nw 24 13
+pillory_w 28 13
+pillory_e 32 13
+square_ne 36 13
+square_corner_ne 40 13
+post 20 11
+square_northend_w 24 11
+square_northend_center_w 28 11
+square_northend_center_e 32 11
+square_northend_e 36 11
+inn 24 9
+castle_road_w1 28 9
+castle_road_e1 32 9
+guards_info 38 9
+castle_road_w2 28 7
+castle_road_e2 32 7
+::MAPDATA::
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+.                                                                       .
+.                             """"""""""""""""                          .
+.                             :""" Firedrome :""                        .
+.                              :""""" Area """""                        .
+.          _______          """"":"""""""":"":"""                       .
+.         /_______\    ___      |      ___________                      .
+.         |  ___  |   /___\ o - o     /___________\                     .
+.         |__|_|__|   |Inn| |`.'|      ||  ___  ||                      .
+.      Post Office\   |___| o'-`o - - -||__|||__||                      .
+.                  \    | .'|`.'|`. |  Guardhouse/Jail                  .
+.   Alchemist /\    \ - o'- o'-`o -`o                   Gelan School    .
+.     ______ |~~|   | .'|`.'|`.'|`.'|`.                 and Academy     .
+.    /Shop /||__|-- o'-`o'-`o'-`o'-`o -`o                ______         .
+.   /_____/ |     .'|`.'|`.'|`.'|`.'|`.'|`.             /     /\        .
+.   |     | |---o'- o'-`o'-`o'-`o'-`o'-`o -`o - - - - -/_____/ /        .
+.   |_____|/    |`.'|`.'| .'  ~  `. |`.'|`.'|          \_____\/         .
+.  ______   o - o'-`o'-`o'  ~~~~~  `o'-`o'-`o - o           ____        .
+. /      \      |`.'| .'  ~~~~~~~~~  `. |`.'|          ____/   /\Tattoo .
+. | Bank |----- o'-`o'  ~~~~~~~~~~~~~  `o'-`o - - - - /   ____/ /Parlour.
+.  \    /    ___|`. |`.   ~~~~~~~~~   .'| .'|___     /___/\___\/        .
+.   \__/    /   /\-`o -`o   ~~~~~   o'- o'- /__/\    \___\/ Hair        .
+.     Bubba/___/ /__|`. |`.   ~   .'| .'___ \__\/           Dresser     .
+.      the \___\//  /\-`o -`o - o'- o'-|   |  Lavatories                .
+.  Blacksmith __/  /_/  _`. |`.'| .'_  |___|                            .
+.            /______/\ |o -`o'-`o'- o| Bakery                           .
+.    Grocery \______\/ ==== |`.'| ====                                  .
+.      Store       Stables  o'-`o  Stables                              .
+.                   _____   |`.'|                                       .
+.     Public Board /    /\- o'-`o                                       .
+.       of Gelan  /____/\/  |                                           .
+.                 \____\/   o                   City of Gelan           .
+.                           |                 Capital of Calia          .
+.                 ~~~~~~~~~~~~~~~~~~~~~~                                .
+.                 ~ exit to Roundabout ~                                .
+.                 ~~~~~~~~~~~~~~~~~~~~~~                                .
+.                                                                       .
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .

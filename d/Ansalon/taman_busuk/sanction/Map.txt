@@ -1,0 +1,39 @@
+Cs# - city/slum#
+C## - city/street##
+Cp# - city/pier0#
+Cw# - city/warehouse0#
+Ctb - city/tower_base ->up-> city/tower_roof
+Cin - city/inn        ->up-> city/balcony (officer board)
+Cya - city/yard
+Cof - city/office
+Cbr - city/brothel
+Cta - city/tavern
+B - Blue Army, br - bridge
+               t# - tent#
+               r# - road#
+               Ar - armoury
+               St - start room
+               Tr - train room
+               Jo - join room
+               bo - board room
+
+
+                                                                                             BSt
+                                        |                             |                       |  
+                                        |                             |                       |  
+               Cp1               Ctb---C08---C09---C10---C14---C15---C16               BAr   BTr
+                |                       |           |     |           |                 |   /
+                |                       |           |     |           |                 | /
+               Cp2---Cw3   Cs3---Cbr   C07---Cs5---Cs6   C13   Cin---C17         Bt1   Br4---BJo
+                |           |           |     |           |           |           |     |
+                |           |           |     |           |           |           |     |
+         Cp4---Cp3         Cs1---Cs2---C06---Cs4---Cta   C12--Bank   C18---Bbr---Br1---Br2---Br3---***
+                  \         |     |     |     |           |           |             \     \   |
+                    \       |     |     |     |           |           |               \     \ |
+                     Cp5---C01---C02---C03---C04---C05---C11---C20---C19               Bt2   Br5
+                    / |                 |           |       \       /                         | \
+                  /   |                 |           |         \   /                           |   \
+   Cp8---Cp7---Cp6---Cw2                                       Cya---Cof                     Bt3   Bbo  
+                |
+                |
+               Cw1 

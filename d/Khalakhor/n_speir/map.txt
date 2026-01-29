@@ -1,0 +1,80 @@
+
+		Map of the Northern Speir of Khalakhor
+	      =========================================
+
+    |           11111111112222222222333333333344444444445
+    | 012345678901234567890123456789012345678901234567890
+===========================================================
+  1 | 
+  2 |                                             North
+  3 |         CCCC^^^^^                          
+  4 |        C*****^^^^^^^^                          ^
+  5 |       C********^^^^^^^^^                      /|\  
+  6 |      C***********^^^^^^^^^^                    |
+  7 |     C**************^^^^^^^^^                   |
+  8 |    C*****************^^^^^^^^
+  9 |    C***CC**************^^^^^^^
+ 10 |     C*C  C**************^^^^^^^				Legend
+ 11 |      C    C**************^^^^^^^
+ 12 |            C*************^^^^^^^^			C = Coastline
+ 13 |            C*************^^^^^^^^^		d = Desert
+ 14 |            C************^^^^^^^^^^^		f = Forest
+ 15 |            ^^^*******^^^^^^^^^^^^^^^		p = Grassland/Plains
+ 16 |           ^^^^^****^^^^^^^^^^^^^^^^^^		T = Tundra
+ 17 |          ^^^^^^^**^^^^^^^^^^^^^^^^^^^^		^ = Mnts / hills	
+ 18 |  Darkness ^^^^^^*^^^^^^^^^^^^^^^^^^^^^^	 	w = Water
+ 19 | -----------^^^^^1^^^^^^^^^^^^^^^^^^^^^^^----------* = Wasteland
+ 20 |             ^^^pppppp^^^^^^^^^^^^^^^^^^^^			Places 
+ 21 |   Twilight  Cwwwppppppp^^^^^^^^^^^^^^^^^^^
+ 22 |     Zone     Cppwpppppppppp^^^^^^^^^^^^^^^^	1  Clach Dun
+ 23 |              Cpppwpppppppppp^^^^^^^^^^^^^^^	2
+ 24 |              Cppppwppppppwwwwwwww^^^^^^^^^^	3
+ 25 | ------------Cppppppwppppwffffffffw^^^^^^^^^^------4
+ 26 |             Cpppppppwwwwffffffffffw^^^^^^^^^^	5
+ 27 |   Light     Cppppppwfffffffffffffffw^^^^^^^^^	6
+ 28 |             Cpppppwfffffffffffffffffw^^^^^^^^	7
+ 29 |            Cpppppwffffffffffffffffff^w^^^^^^^^	8
+ 30 |           Cpppppwffffffffffffffffff^^w^^^^^^^^	9
+ 31 |           Cwwwwwfffffddddddffffff^^^w^^^^^^^^^	10
+ 32 |           Cffffffffddddddddddffff^^^w^^^^^^^^^^	11
+ 33 |           Cffffffddddddddddddffff^^^w^^^^^^^^^^^	12
+ 34 |          Cfffffdddddddddddddd^^^^^^wwwwww^^^^^^^	13
+ 35 |          Cddddddddddddddddd^^^^^^^wwwwwwww^^^^^^	14
+ 36 |         Cdddddddddddddd^^^^^^^^^^^^wwwwww^^^^^^^	15
+ 37 |       CCddddddddddddd^^^^^^^^^^^^^^^^wwww^^^^^^^^
+ 38 |     CCddddddddddd^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 39 |   CC^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ 40 |  C^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+===========================================================
+    |           11111111112222222222333333333344444444445
+    | 012345678901234567890123456789012345678901234567890
+
+
+	This is a rough map of the northern speir of Khalakhor, where
+the forces of Order are in constant struggle with the forces of Chaos.
+This struggle is somewhat reflected in the terrain which makes of this area.
+The Eastern side of the speir is very hilly and covered with mountains 
+which rise up into massive cliffs along the eastern coast.  Most of the 
+forces of Orders base camps will be set within the plains and forested 
+areas of the speir, established within the warming light of the sun.  
+Chaos will rule within the wastelands within the darkness, with a minor 
+inflence present in the desert and forest areas.  The wastelands are kinda o
+f a wildcard terrain... cold and covered with snow to the boiling heat of 
+raging volcanoes, a land of extremes to say the least.
+
+Created by Igneous
+Nov 3rd 1998
+
+
+
+
+
+
+
+
+
+
+
+
+
+

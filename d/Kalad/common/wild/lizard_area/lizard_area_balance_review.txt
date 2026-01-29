@@ -1,0 +1,90 @@
+Balance Review Request Submission
+---------------------------------
+Request Date: February, 2022
+
+1. What are you requesting to be reviewed?
+
+New Lizard Person (Saurian) Area under Kalad. This
+area will replace the currently existing area located
+in /d/Kalad/common/wild/desert/salt/l1-l13
+
+*
+*                     E-o-o
+*                          \
+*           o-o-o           o-o-o                    E - Entrance
+*          /     \               \                   C - Centre
+*     o-o-o       \               o-o-o-o-o
+*    /             o-o-o                    \
+*    o-o-o              \        o-o-o-o-o-o-o
+*         \              C      /
+*          \                   /
+*           o-o-o       o-o-o-o
+*                \     /
+*                 o-o-o
+*                   |
+*                   o
+
+Number of rooms - 37
+
+Also being replaced is the Lizard King and his Great
+War Trident. A new Unarmed/Spell-Enhancer are also
+included in this area.
+
+2. Please list all files for review, as well as the location of any
+   documentation describing the submission.
+
+_NPCS_
+Warrior Saurian - /d/Kalad/common/wild/lizard_area/npc/warrior_lizard.c
+Shaman Saurian - /d/Kalad/common/wild/lizard_area/npc/shaman_lizard.c
+Head Shaman - /d/Kalad/common/wild/lizard_area/npc/head_shaman.c
+New Lizard King - /d/Kalad/common/wild/lizard_area/npc/new_liz_king.c
+
+_Magical Weapons_
+New Great War Trident - /d/Kalad/common/wild/lizard_area/wep/new_lmk_trident.c
+Shaman's Staff
+Saurian Claws
+
+_Spells_
+Lizard Reflect - /d/Kalad/common/wild/lizard_area/spells/lreflect.c
+Lizard Blind - /d/Kalad/common/wild/lizard_area/spells/lizard_blind.c
+Lizard Stun - /d/Kalad/common/wild/lizard_area/spells/lizard_stun.c
+Head Shaman Damage - /d/Kalad/common/wild/lizard_area/spells/shaman_damage.c
+
+_Rooms_
+Lizard Standard Room - /d/Kalad/common/wild/lizard_area/std/lizard_area_std.c
+Rooms cave_start-cave_centre (37 Rooms) - /d/Kalad/common/wild/lizard_area/rooms/*.c
+
+
+3. Describe the benefits that players receive by interacting with your
+   submission.
+   
+- This is a new area that modernizes the lizard people area.
+- It provides much more of a challenge and hopefully reward
+- Quest within area is maintained by adding mimic to mimic_room.c
+- Continues to expand on the lore I've developed for Kalad
+
+4. Describe the thematic justification for the benefits that the player
+   will receive.
+
+-This area has been widely under accessed and the weapons don't fit
+with what players expect today. Modernizing code is good in general
+and the area needed to be buffed so it would be something players
+would enjoy going to.
+
+5. Describe the downsides that the player will experience that justify
+   the balance of the submission.
+   
+- I don't anticipate any downsides other than possibly dying because
+they underestimate the area.
+
+6. How has the submission been tested to ensure that balance is maintained?
+   If no testing has been done, how can the AoB team help with this
+   testing?
+
+-The area is based on the Thanar Cathedral. While different the 
+challenge rating should be similar. I've tested things to ensure
+they are working properly. A full junior test by someone who understands
+challenge and what modern players may enjoy would be helpful so I will
+have Meton do that.
+
+7. Other Comments / Questions

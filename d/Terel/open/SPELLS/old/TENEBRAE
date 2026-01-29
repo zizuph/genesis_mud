@@ -1,0 +1,9 @@
+Name:               Tenebrae
+Object:             /d/Terel/mecien/valley/guild/spells/tenebrae.c
+Cost:               10 mana, no components
+Skills:             Enchantment, Spellcraft, Intelligence
+Description:        Darkens the room by -5 for (random(SS_INT)/2) +
+                    (random(SS_SPELLCRAFT)/3) duration by cloning
+                    /d/Terel/mecien/valley/guild/spells/dark_obj.c
+Requirements:       Wis > 20
+

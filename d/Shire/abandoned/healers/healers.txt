@@ -1,0 +1,77 @@
+                    The Estehilde, Keepers of the Houses of the Healing
+
+
+Proposed Skills
+
+Skill               Lvl               Base       Txbl     Mod     Tax
+
+Spellcraft           85                 20         65      x1    1.09
+Life Spells          80                 20         60      x1    1.00
+Air Spells           40                 20         20      x1    0.33
+Water Spells         50                 20         30      x1    0.50
+Earth Spells         50                 20         30      x1    0.50
+Enchantment Spells   50                 20         30      x1    0.50
+Divination Spells    40                 20         20      x1    0.33
+Conjuration Spells   50                 20         30      x1    0.50
+Transmutation Spells 60                 20         40      x1    0.66
+
+Alchemy              50                 20         30      x1    0.50
+Awareness            75                 50         25      x1    0.41
+
+Defence              70                 20         50      x2    0.82
+
+
+Total               700                270        430
+Skills - Base Skills = 430                                       7.14
+
+
+NOTE:     NO specials and NO weapon skills.
+
+
+Proposed Spells
+
+    Name                  Elven Name           Description
+
+1.  Heart of Tulkas       OrëThalion Tulkas   (speeds healing/regeneration)
+2.  Love of Nienna        OnCoiNur Nienna     (minor heal for all team members)
+3.  Renewal of Elbereth   LaurëaCal Elberth   (major heal for one target)
+4.  Resistance of Estë    DarDae Estë         (slow/weaken the present poison)
+5.  Benevolence of Nienna WalmeAuta Yavanna   (major cleanse on one target)
+6.  Elbereth's radiance   ElenCal Elbereth    (light spell)
+7.  Sanctuary of Yavanna  LaurëaBand Yavanna  (paralyses and protects the target)
+8.  Insight of Nienna     TirCoi Nienna       (diagnosis of a player's injuries)
+9.  Eyes of Manwë         HirDolen Manwë      (total true seeing dark/align/invis)
+10. Shield of Ulmo        SulRamas Manwë      (uses healer's mana as hit points)
+11. Shield of Elbereth    AvariGurth Elbereth (prot from undead)
+12. Endurance of Oromë    HröaThalion Oromë   (player resists fatigue for duration)
+13. Mending of Yavanna    RemAisg Yavanna     (fixes broken bones etc)
+14. Whisper of Manwë      SulBethrim Manwë    (tell line between caster and target 
+                                               for duration)
+
+Secondary Spells
+
+15. Song of Yavanna       Yavannacanwa        (spell for creating lembas)
+
+
+Spell Map. (Name/Element/Form/Power/Difficulty/Components)
+
+    Name                  Element  Form             Power  Diff  Comp
+
+1.  Heart of Tulkas       Life     Enchantment      3
+2.  Love of Nienna        Life     Transmutation    3
+3.  Renewel of Elbereth   Life     Transmutation    4
+4.  Resistance of Este    Water    Enchantment      3
+5.  Benevolence of Nienna Water    Transmutation    4
+6.  Radience of Elbereth  Fire     Conjuration      2
+7.  Sanctuary of Yavanna  Water    Conjuration      4
+8.  Insight of Nienna     Life     Divination       2
+9.  Eyes of Manwe         Air      Divination       4
+10. Shield of Ulmo        Water    Conjuration      3
+11. Shield of Elbereth    Life     Enchantment      2
+12. Endurance of Orome    Water    Enchantment      2
+13. Mending of Yavanna    Life     Transmutation    2
+14. Whisper of Manwe      Air      Conjuration      3
+
+15. Song of Yavanna       Earth    Enchantment      1
+
+

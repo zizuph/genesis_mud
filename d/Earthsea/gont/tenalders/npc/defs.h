@@ -1,0 +1,6 @@
+#define ASHEL_KNIFE_PROP "_ashel_gave_carve_knife_"
+#define BEE_POISON "/d/Gondor/common/poison/weak_bee_sting"
+#define WORM_GIVEN "_worm_given_"
+#define GETTING_I_THE_WAX "_getting_i_the_wax"
+#define GOAT_SPELL "noth hierth malk man hiolk han merth han"
+#define GOT_GOAT_QUEST "_player_i_got_goat_quest_"

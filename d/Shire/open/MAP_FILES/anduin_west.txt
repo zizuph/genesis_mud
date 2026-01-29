@@ -1,0 +1,65 @@
+main
+::MAPDATA::
+rd03 33 8 road
+rd02 35 8 road
+rd01 37 8 road
+wford 40 8 road
+wbs1 40 12 road
+wbs2 40 16 road
+wbs3 40 20 road
+::MAPDATA::
+
+          ~~~~~~ /   \ ^  /   \              ~~~~           OOoOoOOoOoOoOoOOo
+      ~~~~      /  ^  / \/ ^   \             ~~~~           OoOOoOOOOOOOOo^^^
+  ~~~~            / \/   \/ \                 ~~~~          OOoooOoOooOooOooO
+ ~               /   \    \  \                ~~~~         oOOoOOoOoOoOoOoOOo
+                / Misty Mountains              ~~~~        OOoOOoOOOOOoOOoOOO
+               /                               ~~~~        oOOooOooOoOOooOooO
+                                              ~~~~         oOOoOoOOooOOoOoOOo
+           /----------------------------+-----====-------------- The Old Fore
+          / ~~~~~~~~ ^                  |     ~~~~        OOoOOOoOOOOoOOOoOOO
+ lshaws  /~~~~~ ^   / \  ^              |      ~~~~       OoOOoOOOoOoOOoOOOoO
+        /~~~   / \ /   \/ \             |   A N D U I N   OOOOoOOOOoOOOoOOOOo
+       /~~    /   \     \  \            |      ~~~~       OOOOOOoOOOOOOOOoOOO
+ -----/~~         Misty Mountains       |       ~~~~      OoOOoOOOoOoOOoOOOoO
+     ~~~           ^    ^               |       ~~~~      OOOOoOOOOoOOOoOOOOo
+   ~~~         ^  / \  / \              |      ~~~~       OOOOOOoOOOOOOOOoO+-
+ ~~~          / \/   \/   \             |      ~~~~       OoOOoOOOoOoOOoOOO|
+ ~           /   \  ^/     \            |      ~~~~       OOOOoOOOOoOOOoOOO+-
+            /   ^ \/ \   ^  \           |      ~~~~       OOOOOOoOOOOOOOOoOOO
+               / \/   \ / \             |      ~~~~       OoOOoOOOoOoOOOOoOOO
+              /   \ ^  /   \            |       ~~~~      OOOOoOOOOoOOOOOOOoO
+
+::NEWMAP::
+road
+::MAPDATA::
+rd03 40 12
+rd02 44 12
+rd01 48 12
+wford 52 12
+wbs1 52 14
+wbs2 52 16
+wbs3 52 18
+::MAPDATA::
+
+                                                       ~~~~~
+   ^                   ^                              ~~~~~
+  / \                 / \                             ~~~~~
+ /   \ ^      ^      /   \ ^                          ~~~~~
+   ^  / \ ^  / \  ^ /  ^  / \                         ~~~~~
+  / \/   / \/   \/ \  / \/   \                         ~~~~~
+ /   \  /   \    \  \/   \    \                        ~~~~~
+      \             /     \                           ~~~~~
+                                                      ~~~~~
+        o               o - o                         ~~~~~
+      /   \           /       \                       ~~~~~
+  - o       o       o           o - o - o - o - o - o ..... o - o - o - o - o -
+    :         \   /                                 | ~~~~~
+                o                                   o ~~~~~
+     ^    ^                                         | ~~~~~
+ ^  / \  / \                                        o ~~~~~
+  \/   \/   \                                       | ~~~~~
+ ains ^/     \                                      o ~~~~~
+    \/ \      \                                     | ~~~~~
+                                                    o ~~~~~
+                                                    | ~~~~~

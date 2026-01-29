@@ -1,0 +1,151 @@
+    Deep within the bowls of the underground temple in the Forest of
+Shadows,a secrect cult, known as the Khiraa, which means Cult of the Dead
+inancient Raumdorian language, hides out. Led by Lord Gylar, the ancient
+and evil lich, they seek the powers of the grave to draw upon. These vile
+people sacrifice their lives for an existance of undead immortality and
+great power. They seek to further the goals of the Nameless One, who is
+the object of their worship and who is known as the God of the Dead.
+Destroying the living, and turning them to slaves of the Nameless One is
+their goal. There are two orders in the Khiraa, much like the orders in
+the Holy Church of Raumdor. The Knighthood, and the Priesthood.
+
+- The Death Knights of the Khiraa
+
+    These members of the Khiraa will be distinguished as members of the 
+    occupational figher sect, giving them combat skills, and layman
+    members of the priesthood, giving them lesser magic skills.
+
+- The Priesthood of the Khiraa
+  
+    These members of the Khiraa will be distinguished as members of the
+    occupational priesthood, giving them strong magic skills, and layman
+    members of the fighter sect, giving them lesser combat skills.
+
+    A lifetime commitment to the Nameless one, thus the two slots needed.
+
+    I shall now go into further detail about each of the two branches of 
+the Khiraa, starting with the Death Knights.
+
+
+--------------------------------Death Knights------------------------------
+
+
+    The Death Knights are an order of undead warriors. Sworn to eternal
+service to the God of the Dead, the Nameless Once, they are extreemly
+loyal. They fear nothing, and serve the agenda of the Nameless One with a
+burning passion. Combining steel and magic, they are also known as the
+Guardians of the Khiraa. Their order is marked by the grim skull of the
+Khiraa with a single sword placed vertically behind it. The order is
+seperated into two levels, the greater order, and the lesser. All new
+knights start in the lesser, then when proven worthy, are given the powers
+of the higher. The lesser order is known as the Order of Gol Dek, the
+name of a netherworld demon who is one of the lieutenants of the Nameless
+One. The higher order is known as the Order of Shaadok Y'Sulgash, the name
+of another greater netherworld demon who is second only to the Nameless
+One. All lesser Death Knights are subject to the rulings of the greater
+Death Knights. There are different rankings in each order, and that in
+itself seperates each level. The chain of command is very simple. It goes
+from the Nameless One, Gol Dek or Shaadok Y'Sulgash, The Circle of the
+Khiraa(The council which contains the highest ranking lichs), normal lich
+necromancers, and then their higher ranking knights.
+
+    Death Knights, as well as the lich priesthood, are undead creatures,
+and do not like the light. Thus, members of the Death Knights must have
+each body part(except neck and waist) covered with armour, or they will
+burn. Unless they are in a room that is not lighted.
+
+    Death Knights, being fearson undead warriors, are not easy to scare.
+
+    Death Knights are skilled in the art of sword combat, and have the
+ability to perform two special attacks. One is the stun bash, in which the
+knight smashes their oponent with their shoulder or shin, doing some
+damage and stunning them. The effectivness is dependant on the attacker's
+and the target's armour, and their strength. Knights also have the ability
+to perform the whirlwind of death attack. This is where the knight jumps
+back from their oponent, then leaps forward and while in the air, bringing 
+their swords crashing down in a deadly cross-swirling arch. If done
+right, they will do a great amount of damage to their oponent.
+
+    The tax for their skills and specials, the occ figher sect only,
+    is in /d/Kalad/common/guilds/khiraa/doc/DK_OCC_TAX
+
+    Death Knights are also part of the layman priesthood, thus granting
+them magical abilities.
+
+    Death Knights are skilled in the death magicks, as well as
+transmutation and enchantment forms.
+   
+    List of spells and what they do for the lay priesthood are in
+    /d/Kalad/common/guilds/khiraa/doc/DK_LAY_SPELLS
+
+    The tax for their skills and spells, the lay priesthood sect only,
+    is in /d/Kalad/common/guilds/khiraa/doc/DK_LAY_TAX
+
+-------------------------------Lich Priesthood-----------------------------
+
+    The Priesthood of the Khiraa, like the Death Knights, are necromancers
+of undead nature. They sacrifice their lives for the immortal powers of
+the grave. Thus, they become undead magic priests, known also as lichs.
+Drawing their powers from the Nameless one, the God of the Dead, their
+magicks reflect death. Their goal being that of the God of the Dead, which
+is to seek the destruction of the living, and turn the world into an
+undead chaotic plane under their rule, they have little tolerance for the
+living.
+    There are three levels of the Priesthood. The lesser necromancers, the
+greater necromancers, and the high gholash warlocks. Each have powers
+greater than the last. As one progresses through the ranks, one will
+achieve the the highest ranks. 
+    The head ruling body of the Khiraa, that which commands both the Death
+Knights and the rest of the Priesthood, is called the Circle of the
+Khiraa. They consist of the highest ranking priests, and make the rules
+for members, as well as decide policy on a non-wiz level.
+    Priest members are part of the occupational priesthood, and are thus
+great users of the death magicks. They have many spells.
+
+    List of spells and what they do for the occupational priesthood are in
+    /d/Kalad/common/guilds/khiraa/doc/LP_OCC_SPELLS
+
+    The tax for their skills and spells, the occupational priesthood sect only,
+    is in /d/Kalad/common/guilds/khiraa/doc/LP_OCC_TAX
+
+    Priests are also members of the layman part of the fighter sec, thus
+giving them some combat ability. Though not nearly as good as the death
+knights, they are somewhat skilled.
+    They are taught in the arts of the sword, and have the ability to
+perform one combat special. The Priest patiently awaits an opening in
+their enemies defense, then strikes out with lunge aimed at disembowling
+their oponent. Depending on their skill and weapon, they will do some
+damage.
+
+    The tax for their skills and specials, the lay fighter sect only,
+    is in /d/Kalad/common/guilds/khiraa/doc/LP_LAY_TAX
+
+
+--------------------------------Other Notes--------------------------------
+
+
+    The Khiraa's main temple is in the underground catacombs of the temple
+of the Khiraa. /d/Kalad/common/raum/cdlair2/, located in the Forest of
+Shadows. But the files will be in the guild directory.
+    Relevant files:
+        joinroom
+        boardroom
+    
+    To enter the guild, one must preform a task, or a quest if you will.
+On completion of this task, they will be allowed to enter the library, in
+which they can read up on the order. Then they can decide to enter the
+guild, if they wish.
+    
+    Members can, if they wish, choose from a list of adjectives that will
+reflect more of their undead nature, that will appear in ther shorts. They
+will not be permanent, and if they leave the guild, their old adjectives
+will be reenstated. All members will have the prop LIVE_I_UNDEAD added,
+and the value will be equal to their guild stat.
+
+   Death to those who enter, and death to those who leave.
+
+
+Sarr Nightshade of Kalad, 
+    March 15, 1997
+
+

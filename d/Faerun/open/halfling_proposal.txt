@@ -1,0 +1,54 @@
+Halflings of Faerun
+--------------------
+The Halflings of Faerun are a racial guild located in a hidden area in the
+northen part of Faerun. The guild is designed to give hobbits an alternative
+to the Hobbits of the Shire and the Kender in Krynn. Those guilds are
+good-aligned guilds only, whereas the Halflings of Faerun will have no
+alignment restrictions.
+
+Guild Item
+----------
+The guild item will be a pendant.
+
+Rooms
+-----
+Join room           rm_join.c
+Start room          rm_start.c
+Training            rm_train.c
+Board room          rm_board.c
+Post Office         rm_post.c
+
+Skills and Abilities
+--------------------
+Many of the skills are thief-based. Below are the available skills.
+
+ -------------------------------------------------------
+| Skill                   |  Lvl |Taxabl|Tax Mod|  Tax  |
+|-------------------------|------|------|-------|-------|
+| open lock               |   45 |   25 |  1.00 |  0.42 |
+| pick pocket             |   45 |   25 |  1.00 |  0.42 |
+| sneak                   |   40 |   20 |  1.00 |  0.33 |
+| hide                    |   35 |   15 |  1.00 |  0.25 |
+| appraise enemy          |   35 |    5 |  1.00 |  0.08 |
+| appraise object         |   40 |   10 |  0.50 |  0.08 |
+| appraise value          |   35 |    5 |  0.50 |  0.04 |
+| climb                   |   35 |    5 |  1.00 |  0.08 |
+| animal handling         |   35 |    5 |  0.50 |  0.04 |
+| location sense          |   45 |   15 |  0.50 |  0.12 |
+| awareness               |   35 |    5 |  1.00 |  0.08 |
+| trading                 |   45 |   15 |  1.00 |  0.25 |
+|-------------------------|------|------|-------|-------|
+| Sum:                    |  470 |  150 |       |  2.21 |
+ -------------------------------------------------------
+
+The guild house will have a private post office.
+
+Since halflings like to eat, guild members will have a special feature.
+They will have the abilility to search their 'pockets' and find food.
+This will be set on a timer so that they can only find a random food item
+in their pocket every 45-60 minutes. To prevent logout/login abuse, the
+player will have to wait at least 15 min before they find food when they
+first log in. Additionally, it will use some mana to offset the free food.
+The cost for this ability will be 1%.
+
+Tax is 3.21%, and rounded up to 4%.

@@ -1,0 +1,11 @@
+This file contains the list of spells that are not yet complete.
+By complete, I don't mean that they are ready to be released, but just
+that I haven't yet created the spell to use the base class that exists
+in the Genesis Magic System.
+
+- Petros
+
+Spell Name      Spell Element       Spell Description
+=====================================================
+
+

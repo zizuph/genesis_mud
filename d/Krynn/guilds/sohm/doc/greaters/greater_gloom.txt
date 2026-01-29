@@ -1,0 +1,51 @@
+
+     Spell name: Gloom
+                 whedabra
+         Effect: A darkness spell
+           Type: Maintained
+        Targets: Caster
+        
+        Element: Air            / 50
+           Form: Illusion       / 60
+    Spell power: Power 4 [Advanced spell]
+     Spell type: centralised spell (based on sulambar
+                 cloning of cloud of doom)
+     
+       Peaceful: No
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: skullcap (30cc)
+     
+   Casting time:  6s (more than standard)
+                   
+      Mana cost: Double, 60 mana 
+     Difficulty: TASK_DIFFICULT
+     Combat Aid: 0%
+                 (The caster gets no more combat benefit
+                  from this than their opponent, as they 
+                  do not have the ability to see in 
+                  darkness)
+
+            Tax:   1.0
+                  x0.9   casting time < 30 seconds
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.5  Difficult difficulty
+                  x1.0   material component  
+                 ------
+                  0.45%  total tax
+   ------------------------------------------------------------
+   Comments: A greater spell that clones an object - a fog of 
+   dark shadows - to the room that provides DARKNESS_PASSIVE 
+   level of darkness (2 levels). Fog objects can be stacked.
+
+   The spell object stays in the room and doesn't follow the 
+   caster, and also changes the ROOM_S_DARK_MSG and 
+   ROOM_S_DARK_LONG for the duration of the spell.
+
+   Need 60 levels in Illusion to cast, so without enhancement
+   items this can only be cast by a SoHM who has specialised
+   in Illusion (base skill is 50, specialisation is +25).
+   ------------------------------------------------------------

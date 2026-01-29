@@ -1,0 +1,6 @@
+#define PLAYER_I_GOT_SHELL_QUEST "_player_i_got_shell_quest_"
+#define PLAYER_I_FOUND_PARCHMENT "_player_i_found_parchment_"
+#define GOT_PARCHMENT_QUEST "_player_i_got_parchment_quest_"
+#define GOT_LUCKY_QUEST "_player_i_got_lucky_quest_"
+#define GOT_KITTY_QUEST "_player_i_got_kitty_quest_"
+#define GOT_GOAT_QUEST "_player_i_got_goat_quest_"

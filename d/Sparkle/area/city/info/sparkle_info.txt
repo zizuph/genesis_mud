@@ -1,0 +1,126 @@
+-----------------------------------------------------------------------------
+This document contains information that can assist with building consistent
+design into our piecemeal creation of the ever-evolving city of Sparkle -
+Hub of Genesis.
+
+Created December 2009, by Gorboth
+-----------------------------------------------------------------------------
+
+ORIGINS:
+~~~~~~~
+
+When the donut cooled and the Pen Sea congealed from the remaining grease,
+one of the first outposts that was established along the coasts was Sparkle.
+Even in these early times, it was distinguished primarily as a port of call,
+offering safe passage via ship to the various lands that were being explored
+by brave travellers, merchants, and adventurers. This has been the primary
+legacy of Sparkle as it has evolved over the many year - a community built
+around commerce and the comings and goings of people from lands far and
+wide.
+
+The original Sparkle was quite humble. At that time, very few of the lands
+that now are known to exist had been discovered. As such, the community
+that had sprung up to support and benefit from the ports was little more
+than a rough-and-tumble society that could take care of themselves and
+handle the constant traffic in their town. The flavor of this period was
+perhaps akin to the wild-west in RL terms, or perhaps the communities that
+sprung up around the buccaneers in the days of Captain Morgan.
+
+Most of the structures in town were small and rugged. Two, however, were
+much grander in scale - the First Church of Sparkle and the Tower of Realms.
+A mystical heritage occupies both of these spaces. The Tower of Realms was
+commissioned and constructed by the mighty wizards to act as an information
+center to the mortals who wished to know what transpired in the halls of
+the Immortals. The First Church had always been known as a place of
+beginnings, healing, and renewal for those who had met with death.
+
+
+DEVELOPING TIMES:
+~~~~~~~~~~~~~~~~
+
+As the knowledge of the far lands grew, so did the city. New offices and
+facilities were created for various purposes. These have included the
+donations office, the MVSEVM, and many additional shipping lines. The
+city has grown radially, always moving outward from the "Old City" which
+eventually graduated from a fortified outpost to a bona-fide city complete
+with protective walls.
+
+MODERN ERA:
+~~~~~~~~~~
+
+The modern era was launched by a single event: the surprise monopolization
+of the shipping lines by an entity which sprang up known as the GSL -
+The Genesis Shipping Lines. This organization was comprised of
+representatives of the city who wished to re-establish Sparkle as the 
+primary hub of activity and commerce for the donut. As such, using
+various methods (including extortion, high salaries, and the like) they
+were able to convince ship captains to cancel all between-domain travel,
+routing instead through Sparkle first.
+
+Since this shift, the town has begun to emerge as one of the premier
+cities in the lands. New enterprises and merchants are flocking to the
+city to get a piece of the action. The community organizers have begun to
+feel that for Sparkle to compete with the other cities, it will need to
+begin offering similar cultural experiences. It was for this reason that
+one of the first major buildings of the modern times to be erected was
+the Great Library of Sparkle, which is meant to eventually function as
+the finest repository of knowledge in Genesis (or so the people of
+Sparkle hope.)
+
+The town continues to grow, and as it does, new people, businesses,
+facilities, and places of interest will continue to evolve.
+
+AESTHETIC CONSIDERATIONS:
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Unlike some cities in the realms which represent a consistent culture or
+kingdom (Minas Tirith, Sybarus, Sanction, etc) Sparkle has always been
+an ecclectic outgrowth of the people who visit it and the merchants who
+support their needs. All races, all alignments, all factions have found
+a foothold of some kind in the city, making it a patchwork of many things.
+
+When building new areas in Sparkle, we use Styles' map as an inspiration,
+but not as a limitation. The idea of old vs. new is one of the few real
+distinctions that exists in the plan. We try to maintain the idea that
+some of the areas of town are original carryovers from the old fortified
+port community. The new things can spring up as anything that we feel
+would represent a specific faction or interest.
+
+GOALS:
+~~~~~
+
+Sparkle, primarily, is a working-city. There are many places in the game
+to go for a wonderful feeling of immersion, cultural experience, and
+storytelling. This will not be Sparkle's legacy or function. Rather,
+Sparkle is a place where players come to participate in various dynamic
+experiences that we will offer. It is meant to be the "Hub" of the game
+in terms of activity.
+
+A secondary function of Sparkle will need to be its utility to new players.
+It will need to be completely newbie friendly in all respects, offering
+easy-to-understand content and helpful information as to how to progress
+into other areas of the game. Moreover, it will need to offer many many
+newbie-friendly quests.
+
+The "Order of the Pearl" quest describes an over-arching theme for the
+town that has built up around some of the old families and interests that
+knit the place together. See:
+
+    /d/Sparkle/area/city/doc/Sparkle_Factions_Quest.txt
+
+Also, we want the city to be a many-layered place, offering interesting
+tactical options for various playstyles. This includes a rooftop layer and
+a sewer layer to the town (all buildings should connect to all layers.)
+
+Npcs in the city should know one another, know the city, and know what is
+going on. They should also have daily schedules of things they do at
+certain times. See:
+
+    /d/Sparkle/area/city/library/npc/nikolon.c
+
+The city should, as much as possible, offer players things to do, and reasons
+to come beyond simply being funnelled through thanks to the GSL. The
+Auction House and the Wednesday Market are some early examples of these
+things to do. Sparkle needs many more. As much as we can create event-like
+or progressive (especially competetive) opportunities for players to
+"work on things" the better. (i.e. crafting!)

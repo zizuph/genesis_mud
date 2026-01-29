@@ -1,0 +1,20 @@
+/* Some inns will actually rent you a physical room!
+You can get a key to the door and a padlocked chest inside.
+The only problem is with thieves breaking in.  The problem
+for thieves is getting caught.  If they're caught, they're
+stripped of their gear, thrown in jail, and given a rap
+sheet.
+
+See /w/mortis/palanthas/nobles/fineinn.txt
+
+Mortis 06.2005 */
+
+/* The main concern would be people using it as a drop
+room instead of their guild's which deprives other guild
+members of items.  Maybe a guild could rent a room there
+instead and the door to the room could be accessible to
+them all.  To avoid players taking items from one guild room
+if desired, a tag could be applied so they aren't droppable
+in other rooms.
+
+Louie 06.2005 */

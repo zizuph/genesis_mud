@@ -1,0 +1,27 @@
+main
+::MAPDATA::
+barracks2 3 3
+barracks3 7 3
+entrance 3 5
+barracks4 7 5
+::MAPDATA::
+             ^
+  Barracks  / \
+            | |
+  [ ] [ ]   | |
+   |   |    | |
+   o   o    | |
+     \      | |
+            | |
+            | |
+            | |
+            | |
+            | |
+            | | 
+         ,-=):(=-,
+      (@)--\8@8/--(@)
+            )8(
+            8@8
+            888
+           {{@}}
+            `-`

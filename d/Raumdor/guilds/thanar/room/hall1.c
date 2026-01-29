@@ -1,0 +1,32 @@
+/**********************************************************************
+ * - hall1.c                                                        - *
+ * - The hallway within the Temple of Thanar                        - *
+ * - Created by Damaris@Genesis 3/2004                              - *
+ **********************************************************************/
+
+#pragma strict_types
+
+#include "../guild.h"
+#include <stdproperties.h>
+
+inherit GUILD_ROOM;
+
+void
+create_guild_room()
+{
+
+    set_short("Oval Temple Hallway");
+    set_long("    This long hallway is a private passageway to the "+
+      "inner temple rooms. Within these vaulted walls members may "+
+      "meet and discuss topics of interest to them without fear "+
+      "of interruption from non-believers. Only those faithful "+
+      "of Thanar may enter this place.\n");
+    add_item(({"room", "area", "entrance", "hall", "oval hall"}), query_long);
+ 
+    add_prop(ROOM_I_INSIDE, 1);
+    add_prop(ROOM_I_NO_ATTACK, 1);
+    add_prop(ROOM_I_NO_MAGIC_ATTACK, 1);  
+
+    add_exit("library", "north");
+    add_exit("join", "southeast");
+}

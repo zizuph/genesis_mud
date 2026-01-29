@@ -1,0 +1,66 @@
+main
+::MAPDATA::
+cave04x10 10 12
+cave04x11 9 10
+cave05x09 12 14
+cave05x11 12 10
+forest01x07 4 18
+forest01x08 4 16
+forest01x10 4 12
+forest02x06 6 20
+forest02x07 6 18
+forest02x09 6 14
+forest03x06 8 20
+forest03x07 8 18
+forest03x08 8 16
+forest03x09 8 14
+forest04x06 10 20
+forest04x08 10 16
+forest05x07 12 18
+nforest01_03 1 4
+nforest02_03 3 4
+nforest03_03 5 4
+nforest04_01 7 0
+nforest04_02 7 2
+nforest04_03 7 4
+nforest04_04 7 6
+nforest04_05 7 8
+nforest05_02 7 2
+nforest05_03 10 4
+nforest06_03 12 4
+shrine01x11 4 10
+trail01 9 28
+trail02 9 26
+trail03 11 24
+trail04 8 24
+trail05 8 22
+::MAPDATA::
+       o
+       |
+       o--o
+      /    \
+ o-o-o o--o-o
+      \|
+       o
+       |
+       o
+        \
+    o    o--o
+    |      /|
+    o     o |
+     \   /  |
+      o-o   o
+     /  |   |
+    o   o-o |
+    |\     \|
+    o-o-o   o
+     \|\ \ /
+      o o-o
+        |/
+        o
+        |
+        o--o
+          /
+         o
+         |
+         o

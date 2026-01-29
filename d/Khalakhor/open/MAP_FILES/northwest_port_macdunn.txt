@@ -1,0 +1,88 @@
+main
+::MAPDATA::
+kcham2 1 1
+kkitchen 5 1
+kdining 9 1
+koffice 13 1
+road_8_1 30 1
+road_9_1 34 1
+road_10_1 38 1
+road_11_1 42 1
+kcham1 1 3
+kcorr3 5 3
+kcorr2 9 3
+kcorr1 13 3
+kanterm 17 3
+kapse 21 3
+ktabernacle 25 3
+road_8_2 30 3
+post 34 3
+adv_guild 38 3
+bank 42 3
+kcandles 1 5
+kcorr4 5 5
+kgarden7 9 5
+kgarden8 13 5
+ksanct7 17 5
+ksanct8 21 5
+ksanct9 25 5
+road_8_3 30 5
+th_n_court 34 5
+th_3 38 5
+th_6 42 5
+klibrary 1 7
+kcorr5 5 7
+kgarden5 9 7
+kgarden6 13 7
+ksanct4 17 7
+ksanct5 21 7
+ksanct6 25 7
+road_8_4 30 7
+th_1 34 7
+th_2 38 7
+th_4 42 7
+kclassrm 1 9
+kcorr6 5 9
+kgarden3 9 9
+kgarden4 13 9
+ksanct1 17 9
+ksanct2 21 9
+ksanct3 25 9
+road_8_5 30 9
+th_s_court 34 9
+kapothecary 1 11
+kgarden1 9 11
+kgarden2 13 11
+kbellt1 16 11
+kfoyer 21 11
+kchapel 25 11
+road_8_6 30 11
+kbellt2 16 12
+kbellt3  16 13
+::MAPDATA::
+
+ o   o - o   o                o - o - o - o -
+ |       |   |                |   |   |   |
+ o - o - o - o - o   o   o    o  PO  AG  Bank
+     |           |   |   |    |
+ C - o   o - o   o - o - o    o   o   o - o      ==-
+     |       |   | \ | / |    |   |   |         .|.
+ o - o - o - o   o - o - o    o - o - o - o    .`_ '`.
+     |   |       | / | \ |    |   |           |       |____.
+ o - o   o - o   o - o - o    o   o          /`.___        /\
+ |       |   |       |        |             /_/     `.____/ /
+ o       o   o [ ] - o - o    o             \/  `.   /\___\/
+         |     [ ]   |        |             / /`. `./ /        
+               [ ]                          \_\  \__\/
+        __________________
+       /\                /\
+      /  \              /  \           ============
+      |  |_____________/    \          Port Macdunn
+      |  | ^ ^ ^ ^ ^ ^ | o  |          ============
+      |  |_____________|    | 
+      |   \            | o  |
+      |  o \           |     \
+      |     \__________|      \
+      |  ^  |          |   ^   |
+      | | | |  ^ ^ ^ ^ |  | |  |
+      | | | |          |  | |  |

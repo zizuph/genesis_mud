@@ -1,0 +1,364 @@
+School of High Magic
+--------------------
+
+BACKGROUND
+This is the magic school in Solace that Raistlin attended prior to him
+taking the Test to become a Wizard of High Sorcery. This is planned to 
+be the precursor guild for the Wizard of High Sorcery.
+
+This guild will offer both occupational and layman options, allowing players 
+to become "dabblers" in the Art (like the elf Gilthanas).
+
+According to the novels, the School of High Magic in Solace was called Poolbottom,
+and was run by a Master Theobald.
+
+Allowed races - Elves, drow, humans, gnomes, half-elves, hobgoblins(?)
+
+LEVELS
+There will be 12 levels for Students of High Magic (SoHM), based off guild stat:
+
+
+    Occupational titles			Layman titles
+==========================================================================
+1.  Fresh Tyro of Sorcery               Fresh Tyro of Sorcery
+2.  Minor Student of Sorcery            Minor Dabbler of Sorcery
+3.  Student of Sorcery                  Dabbler of Sorcery
+4.  Devoted Student of Sorcery          Devoted Student of Sorcery
+5.  Lesser Novitiate of Sorcery         Lesser Abededarian of Sorcery
+6.  Novitiate of Sorcery                Abededarian of Sorcery
+7.  Devoted Novitiate of Sorcery        Devoted Abededarian of Sorcery
+8.  Experienced Novitiate of Sorcery    Experienced Abededarian of Sorcery
+9.  Lesser Apprentice of Sorcery        Lesser Dilettante of Sorcery
+10  Apprentice of Sorcery               Dilettante of Sorcery
+11  Devoted Apprentice of Sorcery       Devoted Dilettante of Sorcery
+12  Experienced Apprentice of Sorcery   Experienced Dilettante of Sorcery
+
+
+ABILITIES
+A SoHM (and WoHS) gains spell 'slots' as they increase in level. These slots are
+quite limited (3 to 11), however a SoHM will be able to 'study' the spells they have 
+collected and stored in their spellbook into a slot, allowing them to change the spells 
+they have memorised depending on their spell requirements.
+
+A spell memorised can be cast as often as the SoHMs mana allows.
+
+How often a SoHM can 'study' and change their spell slots will depend on a special guild
+skill, "Arcane Study".  At skill level 100 (superior guru) a SoHM can refresh their spell
+slots every 12 hours. Every level below 100 increase the time a SoHM must wait to refresh
+by one hour, so a SoHM with superior journeyman Arcane Study can switch spells approximately
+every 2 and a half days (12 + 50 hours = 62 hours, or every 2 days 14 hours). Someone without
+the skill will need to wait 4 days 16 hours to refresh their skill slots.
+
+
+Spell slots:
+
+Level     Spell-lvl-0   Spell-lvl-1   Spell-lvl-2   Spell-level-3  Spell-level-4  
+          (cantrip)     (Very minor)  (minor)       (average)      (advanced)       
+1.            2		     1           -              -              -             
+2.            3		     1           -              -              -             
+3.            3		     2           -              -              -             
+4.            3		     2           -              -              -             
+5.            4		     2           -              -              -            
+6.            4		     3           -              -              -             
+7.            4		     3           -              -              -             
+8.            4		     4           -              -              -             
+9.            4		     4           1              -              -             
+10            4		     4           1              -              -            
+11            4		     4           2              -              -             
+12            4		     4           2              1              -             
+
+Skills:
+
+               Occupational  /  Layman
+            
+Spellcraft         75        /   50
+Transmutation      50*       /   40#    
+Illusion           50*       /   40#
+Divination         50*       /   40#
+Enchantment        50*       /   40#
+Conjuration        50*       /   40#
+Abjuration         50*       /   40#
+Earth              50**      /   40##
+Air                50**      /   40##	
+Water              50**      /   40##		
+Fire               50**      /   40##
+'Arcane Focus'     75            50
+
+* Can specialise in a form with an extra 25 points
+** Can specialise in an element with an extra 25 points
+# Can specialise in a form with an extra 10 points
+## Can specialise in an element with an extra 10 points
+
+The key drawcard of being a SoHM/WoHS is flexibility to choose ones spell reportoire. 
+
+Proposed spells
+---------------
+A handful of spells at level 0 and 1 will be learnable from the School premise for SoHM. However a number 
+will need to be collected through adventuring around Ansalon/Krynn... sometimes through battling very 
+challenging beasts/enemies.
+
+Two cantrips learnable at the School will be required to learn new spells - 'read magic' to identify new spell 
+scrolls; and 'write magic', which allows a scroll to be transcribed into the SoHMs spellbook.  
+
+Those who graduate to a WoHS will be able to learn spells from the Tower of Wayreth up to level 3, with the
+more powerful spells (level 4) being only collectable through adventuring.
+
+================================================================================================================
+Wizards of High Sorcery
+================================================================================================================
+
+The plan is that occupational SoHM will be able to take the Test to become a Wizard of High Sorcery
+(WoHS) from level 9 (lowest apprentice level). At this point they will be able to access the Tower of
+Wayreth south of Haven. SoHMs who attempt this at level 9 will find the Test challenging, while those
+who attempt it at level 12 (Experienced apprentice) will find it somewhat easier.
+
+The Test will involve several things: A test of a mage's knowledge  of magic, problems that 
+demand the casting of key spells that an initiate knows, a test that cannot be solved by merely using magic, 
+combat against someone that the initiate knows as an ally, and combat against someone or something 
+considerably more powerful than the initiate. 
+
+Failing the Test results in death.
+
+Successfully completing the Test allows the SoHM becoming a WoHS, and also dictates what branch of the
+WoHS they join - the White (good; alignment > 200) the Red (neutral; 1000 > alignment < -1000) or the 
+Black (Evil; alignment < 200). 
+
+The Test will essentially be the guild's guru quest.
+
+WoHS will be occupational, with minimal restrictions on layman class selections. Dragonlance lore has a number
+of characters who have been WoHS as well as other classes (e.g. Ariakas Red Dragon Highlord, warrior/WOHS; 
+Feol-Thas White Dragon Highlord, WoHS/fighter; Par Sailen's replacement at the head of the WoHS white order was
+a WoHS/mariner).
+
+LEVELS
+Occupational guildstat is reset upon becoming a WoHS, although not necessarily to zero.
+
+1.  Lesser <colour> Wizard  [successful Test at level 9 SoHM]
+2.  Wizard of the Ninth <colour> Circle
+3.  Wizard of the Eighth <colour> Circle
+4.  Wizard of the Seventh <colour> Circle [level for successful Test at level 12 SoHM]
+5.  Wizard of the Sixth <colour> Circle
+6.  Wizard of the Fifth <colour> Circle
+7.  Wizard of the Fourth <colour> Circle
+8.  Wizard of the Third <colour> Circle
+9.  Wizard of the Second <colour> Circle
+10  Wizard of the First <colour> Circle
+11  Greater <colour> Wizard
+12  <Colour> High Wizard
+13  High Mage of the Ninth <colour> Circle
+14  High Mage of the Eighth <colour> Circle
+15  High Mage of the Seventh <colour> Circle
+16  High Mage of the Sixth <colour> Circle
+17  High Mage of the Fifth <colour> Circle
+18  High Mage of the Fourth <colour> Circle
+19  High Mage of the Third <colour> Circle / Trimorte [black] 
+20  High Mage of the Second <colour> Circle / Sister/Brother to Darkness [black]
+21  High Mage of the First <colour> Circle / Blackmage [black]
+
+Council titles: 
+Guild leader - Grand Master of the Tower of Wayreth [chosen from one of the Order leaders]
+Order leaders - Master/Mistress of the Order of the [colour] Robes
+
+ABILITIES
+Apart from slightly more skill levels in Arcane Study, and access to more spells,WoHS benefit from the phases 
+of the Krynn moons.
+
+There are three moons of magic - Solinari, the White Moon; Lunitari the Red Moon; and Nuitari the Black Moon 
+(whose aspect only Black Robe wizards can see).
+
+When a Wizard's moon is at High Sanction, they gain either increased effectiveness of spells, reduced mana cost 
+of spells, or removal of component requirements for certain spells.  
+
+Multiple moons at high sanction provide enhanced number of benefits - one moon at High Sanction one benefit; 
+two moons two benefits etc.  Mind having all three moons at High Sanction is a rarity.
+
+
+Skills:
+            
+Spellcraft         100
+Defence            60
+Transmutation      75*          
+Illusion           75*      
+Divination         75*      
+Enchantment        75*    
+Conjuration        75*    
+Abjuration         75*     
+Earth              75**  
+Air                75**     	
+Water              75**     		
+Fire               75**    
+'Arcane Focus'     100       
+
+* Can specialise in a form with an extra 25 points
+** Can specialise in an element with an extra 25 points
+
+Spell slots:
+
+Level     Spell-lvl-0   Spell-lvl-1   Spell-lvl-2   Spell-level-3  Spell-level-4  
+          (cantrip)     (Very minor)  (minor)       (average)      (advanced)       
+1.            4		     4           1              -              -            
+2.            4		     4           1              -              -            
+3.            4		     4           2              -              -             
+4.            4		     4           2              1              -              
+5.            4		     4           3              1              -
+6.            4		     4           3              2              -
+7.            4		     4           4              2              -
+8.            4		     4           4              3              -
+9.            4		     4           4              3              1
+10            4		     4           4              4              1
+11            4		     4           4              4              2
+12            4		     4           4              4              3
+13            4		     4           4              4              4
+14
+15
+16
+17           levels 14 to 21 all have the same spell slots as a High Mage
+18
+19
+20
+21
+
+
+Proposed spells by form:
+
+These are spells that it is proposed players can transcribe into their spellbook.
+Those marked as * will be learnable at SoHM and WoHS guild premises.
+Those marked as ** will be learnable at WoHS guild premise.
+
+All spells will be "findable" their exploration. Level 4 spells will generally have
+a challenging guardian one needs to defeat before being able to get hold of the spell.
+
+There are a number of combat spells that will essentially do the same thing. The
+difference is the form and element of the spell. This will allow players to focus on 
+a form path without worrying too much about min/maxxing combat abilities. 
+
+
+TRANSMUTATION			Element		Spell level
+-----------------------------------------------------------
+Shield *			AIR		2
+Resist fire			FIRE		3
+Resist poison			WATER		2
+Resist lightning		WATER		3
+Resist cold *			AIR		2
+Resist acid			WATER		2
+Resist magic			WATER		3
+Mage armour **			EARTH		3
+Mages private sanctum		EARTH		4
+Anti-magic shell		WATER		4
+
+ENCHANTMENT
+-----------------------------------------------------------
+Freeze [combat delay] **	WATER		3
+Slow				EARTH		3
+Haste				AIR		3
+Enchanted weapon *		EARTH		2
+Mend	*			EARTH		2
+Nightvision **			AIR		3
+Blind				AIR		3
+Mordenkainen's Sword		EARTH		4
+Re-enchant object		EARTH		4
+
+DIVINATION
+-----------------------------------------------------------
+Speak with dead	**		EARTH		0
+Read magic *			FIRE		0
+Write magic *			FIRE		0
+Mind whisper *			AIR		1
+Detect magic *			EARTH		1
+Comprehend languages **		AIR		1
+Identify *			WATER		2
+scry **				WATER		3
+Wizard eye			WATER		4
+
+TRANSMUTATION
+-----------------------------------------------------------
+Water breathing	**		WATER		1
+Deep pockets **			EARTH		1
+Strength **			EARTH		2
+Stoneskin			EARTH		4
+Flame light			FIRE		1
+Globe of light *		FIRE		1
+Fantastic feast	**		EARTH		2
+Globe of darkness		EARTH		3
+
+CONJURATION
+-----------------------------------------------------------
+Acid arrow **			WATER		1
+Acid rain			WATER		4
+Lightning bolt	**		AIR		2
+Chain lightning			AIR		4
+Burning hand	*		FIRE		2
+Fire wall			FIRE		3
+Fireball			FIRE		4
+Blink (move behind) *		AIR		2
+Magic missile	*		AIR		1
+Web		*		AIR		2
+Teleport home	**		AIR		3
+Summon other			AIR		4
+Shooting stars			AIR		4
+Secret chest			EARTH		4
+
+ILLUSION
+-----------------------------------------------------------
+Invisibility			AIR		3
+Disguise self *			AIR		0
+Charm animal  *			FIRE		1
+Charm monster **		FIRE		2
+Colour spray  * 		WATER		2
+Blur	**			AIR		2
+Charm person			FIRE		3
+Scare				FIRE		4
+
+
+HISTORY WIZARD OF HIGH SORCERY
+Of all the orders of the world of Krynn, none are as old,  as feared, or as 
+respected as the Orders of High Sorcery. They came into being almost at the 
+beginning of the world;  their tale is that of the three Gods of Magic. The 
+gods of magic, Solinari, Lunitari and Nuitari, walked the face of creation 
+before the stars settled in their places. Though they had a common love of 
+magic, each had aspects that differed greatly from those of the others.
+ 
+Each also chose a different path in the universe. They saw the other gods 
+wheeling through the heavens and aligning themselves against one another 
+according to their goals and philosophies. The All-Saints War was coming, 
+as their vision and foresight had warned. The three gods feared that they 
+too must choose. Bound by the common bond of magic, these three looked 
+about the face of Krynn and loved it greatly. Thus they did not join their 
+fellow gods in the heavens, but stayed close to the world. They revolved 
+about it, granting their powers to those who would follow their ways. Each
+god was granted a time to walk the face of Krynn and seek out a follower. 
+
+Each found an apprentice and to each did they give the keys to the Lost 
+Citadel--a fabulous place of wizardry that stood beyond the circles of 
+the universe itself. Here the gods taught them the Foundations of Wizardry.
+
+ 
+1. All wizards are brothers in their order. All orders are brothers in 
+   their power.
+2. The places of High Wizardry are held in common among all orders and no
+   sorcery is to be used there in anger against fellow wizards.
+3. The world beyond the walls of the towers may brign brother against 
+   brother and order against order, but such is the way of the universe.
+
+The Orders of Sorcery began as loosely organized groups of wizards. It was
+not until much later that the orders became formalized and structured. 
+During the Age of Dreams at the onset of the First Dragonwar, the masters 
+of each of the orders came together at the Lost Citadel and proclaimed the 
+unity of the orders. The Lost Citadel was a wondrous place from whence the 
+master wizards ruled their orders in peace and harmony, far removed from 
+the world of Krynn. Both palace and fortress, it provided a place where 
+the powers of magic dould be tempered by the wisdom of the Conclave of 
+Wizards. 
+
+It is important for any magic-user in Krynn to remember that a 
+wizard's only loyalty is to magic. This is the primary reason that magic 
+has remained in the world, desptie many efforts to eliminate it. A wizard 
+of the Black Robes and a wizard of the White fighting on opposing sides of
+a war (such as the War of the Lance) would not hesitate to destroy each 
+other. When these wizards meet on neutral ground (such as a Tower of High 
+Sorcery), they are likely to enter into an eager discussion of magic. If 
+attacked by an outside force seen as a threat to their magic (a renegade 
+wizard, for example), both would join together to fight in defense of the
+magic.
+
+								

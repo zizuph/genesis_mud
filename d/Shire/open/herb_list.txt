@@ -1,0 +1,244 @@
+Below is a list of all identified herbs in Genesis. This list is as complete 
+as possible, and maintained by Finwe. Send all updates and corrections to him 
+so this can be kept as up to date as possible. File stored in Shire's open 
+directory.
+
+Herb                Type     Terain      Use                        Domain 
+--------------------------------------------------------------------------------
+Adillyp Weed        Weed     Temp-Wet    Healing                    Shire
+Alfirin             Flower   All-Restr   Cure Snake Poison          Gondor
+Amanita             Mushroom Temp-For    Poison, Deadly             Krynn
+Angeltear           Mushroom Dark/Wet    Mana                       Krynn
+Angurth             Leaf     All         Fatigue                    Gondor
+Annalda             Fruit    Restr       Enh Con                    Gondor
+Aravelis            Leaf     Warm        Mana                       Terel
+Argil               Root     Cold        Fatigue                    Terel
+Aromatic Cedar      Bark     Restr       Fatigue                    Khalakhor
+Asparagus           Misc     Temp-Wet    Mana, Fatigue              Krynn
+Aspen Bark          Bark     Forest      Health                     Earthsea
+Astaldo             Mushroom All         Discipline                 Gondor
+Athelas             Leaf     Restr       Special                    Gondor
+Attanar             Berry    All         Healing                    Gondor
+Basil               Leaf     Warm        Fatigue                    Gondor
+Beach Plum          Fruit    Sea-Sand    Fatigue                    Krynn
+Beach Willow        Bark     Sea-Sand    Mana                       Krynn
+Beaked Sedge        Leaf     Temp-Wet    Poison                     Krynn
+Beatha              Berry    Restr       Special                    Khalakhor
+Belladonna          Flower   Warm/Dry    Hurt -1000                 Avenir
+Bergamot            Fruit    Forest      Health                     Earthsea
+Black Bean          Bean     Cool        Fatigue                    Gondor
+Black Currant       Berry    Temp-For    Fatigue                    Krynn
+Blackberry          Berry    Cool        Healing, Fatigue           Gondor
+Blade               Mushroom Wet         Enh Tracking               Kalad
+Bloodweed           Weed     Wet         Poison                     Kalad
+Blue Gentian        Flower   Gar/Med     Mana                       Earthsea
+Blueberry           Berry    All         Fatigue                    Gondor
+Blung               Moss     All         Fatigue                    Gondor
+Breadroot           Root     Temperate   Fatigue                    Krynn
+Broad Bean          Bean     Cool        Panic                      Gondor
+Broccoli            Flower   Garden      Mana                       Earthsea
+Brown Slime         Algae    Dark/Wet    Health                     Krynn
+Bull Kelp           Algae    Ocean       Fatigue                    Krynn
+Bunchberry          Leaf     Temp-For    Fatigue                    Krynn
+Bur Reed            Leaf     Temp-Wet    None                       Krynn
+Caraway                      All         Fatigue                    Gondor
+Carlith             Vine     All         Health                     Avenir
+Carrot, Black       Root     All         Poison                     Gondor
+Carrot, Little Or.  Root     All         Fatigue                    Gondor
+Carrot, Orange      Root     All         Fatigue                    Gondor
+Catnip              Flower   All         Cures Poison               Gondor
+Cattail             Root     Temp-Wet    Fatigue                    Krynn
+Chantrelle          Mushroom Temp-For    Mana                       Krynn
+Chervil             Leaf     All         Fatigue                    Gondor
+Chicory             Leaf     Temp-Med    Fatigue                    Krynn
+Chives              Leaf     Temperate   Health                     Shire
+Chokecherry         Berry    Temp-Med    Fatigue                    Krynn
+Cinquefoil          Weed     Gar/Wild    Health                     Earthsea
+Cladina             Lichen   Forest      Enh Con                    Krynn
+Clove               Flower   All         Fatigue                    Gondor
+Clover, 3-Leaf      Leaf     Meadow      Health                     Earthsea
+Clover, 4-Leaf      Leaf     Meadow      Health                     Earthsea
+Coccinea            Mushroom All         Special                    Gondor
+Coffee Bean         Bean     Mt/Gar      Fatigue                    Earthsea
+Columbine           Leaf     Temp-Wet    Poison                     Shire
+Common Hop          Vine     Temp-Wet    Hurt mana                  Krynn
+Coralline Red Alga  Algae    Temp-Sea    Hurts                      Krynn
+Cord Grass          Leaf     Temp-Sea    Poison                     Krynn
+Corn Pollen         Dust     Gar/Med     Mana                       Earthsea
+Cranberry           Berry    Temp-Wet    Fatigue                    Krynn
+Crimson's Tippler   Flower   Special     Special                    Earthsea
+Crocus              Flower   Temp-Med    Poison                     Krynn
+Culkas              Leaf     Arid        Resist Fire                Gondor
+Curugwath           Leaf     Dark/Wet    Hide/Sneak                 Gondor
+Daffodil            Root     Temp-Wet    Poison                     Shire
+Dajla               Mushroom Forest      Poison                     Kalad
+Dandelion           Leaf     Temp-Med    Fatigue                    Krynn
+Darfern             Leaf     Wet         None                       Kalad
+Dill                Leaf     Warm        Fatigue                    Gondor
+Drakeroot           Root     Wet         Mana                       Kalad
+Drudgeworth         Mushroom Wet         Dexterity                  Kalad
+Eel Grass           Leaf     Temp-Sea    Special                    Krynn
+Elanor              Flower   Restr       Fatigue                    Gondor
+Elidross            Flower   Temp-Restr  Cure Paralysis             Krynn
+Elkhorn Kelp        Algae    Ocean       Fatigue                    Krynn
+Emmelti             Fern     Sea         Fatigue                    Earthsea
+Evendim Grass       Leaf     Restr       Enh Agility                Shire
+Fennel              Leaf     All         Fatigue                    Gondor
+Fiddleheads         Fern     Temp-For    Health, Mana               Krynn
+Fireweed            Flower   Temperate   Fatigue, Enh Fire          Krynn
+Flameroot           Root     Forest      Enh Fire                   Kalad
+Fordinfa            Mushroom Shade/Dark  Mana                       Avenir
+Foxglove            Flower   All         Poison, cure Hemlock P.    Gondor
+Frostheal           Leaf     Mt          Cold Resist, Cure Madwort  Gondor
+Fucus               Algae    Temp-Sea    Fatigue                    Krynn
+Fungari             Mushroom Wet         Cure Poison                Kalad
+Fungiarbo           Mushroom Temp-For    Hurts                      Shire
+Garlic              Bulb     Warm        Health                     Gondor
+Ginger              Root     Warm        Fatigue                    Gondor
+Ginseng             Root     For/Mt      Mana                       Earthsea
+Glowshroom          Mushroom Wet         Special-light              Kalad
+Green Bean          Bean     Cool        Fatigue                    Gondor
+Green Pine          Sap      Forest      Mana & Fatigue             Khalakhor
+Green Slime         Algae    Dark/Wet    Hurts                      Krynn
+Grey Willow         Bark     Temp-Wet    Mana                       Krynn
+Handasse            Mushroom Restr       Aware, Intelligence        Gondor
+Hawthorn            Berry    Temp-Wet    Fatigue                    Krynn
+Hazelnut            Seed     Temp-For    Fatigue                    Krynn
+Hemlock             Berry    All         Poison                     Gondor
+Holly Berry         Berry    All         Fatigue                    Gondor
+Honeysuckle         Flower   Restr       Fatigue                    Khalakhor
+Horsetail                    Temp-Med    Hurts                      Krynn
+Huckleberry         Berry    Restr       Health                     Shire
+Ithilgil            Flower   Restr       Reduce Panic               Gondor
+Jewelweed           Leaf     Wet         Cure Poison Ivy            Krynn
+Kidney Bean         Bean     Cool        Fatigue                    Gondor
+Kuko                Leaf     For/Jung    Enh Awareness              Kalad
+Labrador Tea        Leaf     Temp-Wet    Poison                     Krynn
+Lady's Slipper      Flower   Temp-For    Poison                     Krynn
+Lamia               Leaf     Temp-All    Health                     Shire
+Laminaria           Algae    Temp-Sea    None                       Krynn
+Laurel              Leaf     Warm        Fatigue                    Gondor
+Lebannen            Bark     For/Mt      Health                     Earthsea
+Lianor Berry        Berry    Temperate   Healing                    Shire
+Licorice            Root     Temperate   Fatigue                    Krynn
+Lilac               Flower   Restr       Fatigue                    Khalakhor
+Lima Bean           Bean     Cool        Fatigue                    Gondor
+Lissuin             Flower   Restr       Fatigue                    Gondor
+Locoweed            Flower   Temp-Med    Poison & Hurts             Krynn
+Lore                Berry    Forest      Intelligence               Kalad
+Lothore             Flower   All         Special                    Gondor
+Loyol               Flower   Restr       Poison                     Emerald
+Lukilvor            Fern     Cold        Mana                       Terel
+Madwort             Leaf     Mountain    Poison                     Gondor
+Mandrake            Root     Temp-Wet    Special                    Krynn
+Marjoram            Flower   Warm        Fatigue                    Gondor
+Marsh Mallow        Root     Temp-Wet    Health                     Shire
+Midnight's Angel    Flower   Special     Poison                     Earthsea
+Mindleech           Berry    Forest      Drain Mana                 Kalad
+Mint                Leaf     Cool        Fatigue                    Gondor
+Mittikna            Vine     Caves       Special-Light              Avenir
+Moly                Bulb     Gar/Med     Enh Magic                  Earthsea
+Monkshood           Root     For/Gar     Poison &  Healing          Earthsea
+Moosho              Mushroom Restr       Mana                       Terel
+Morel               Mushroom For/Med     Mana                       Earthsea
+Morgurth            Flower   Restr       Poison                     Gondor
+Morning Glory       Flower   Gar/Med     Poison                     Earthsea
+Myrtleberry         Berry    All         Poison                     Gondor
+Narcissus           Flower   Damp/Dark   None                       Avenir
+Nethra              Algae    Water       Underwater Breathing       Avenir
+Nettle              Leaf     All         Poison                     Gondor
+Nightshade          Flower   Warm/Dry    Hurt                       Avenir
+Nightshade          Mushroom Wet         Poison                     Kalad
+Nilgu               Algae    Sea         Health                     Earthsea
+Niphredil           Flower   Restr       Improve Mana               Gondor
+Numbis              Mushroom Forest      Cure Poison                Kalad
+Oakmoss             Lichen   Forest      Mana                       Earthsea
+Onion, Green        Bulb     All         Health, Fatigue            Gondor
+Onoclea             Fern     Temp-Wet    Enh Dis                    Krynn
+Oregano             Leaf     Temperate   Fatigue                    Gondor
+Paramol             Fruit    For/Med     Fatigue                    Earthsea
+Parsley             Leaf     Temperate   Healing                    Shire
+Pawnrose            Flower   All         Special                    Shire
+Peanut              Nut      All         Fatigue                    Gondor
+Pendick-Flower      Flower   For/Gar     Wisdom                     Earthsea
+Pepper              Fruit    Warm        Poison                     Gondor
+Pindan              Moss     All         Loc. Sense                 Shire
+Poison Ivy          Vine     All         Poison                     Krynn
+Potato, Black       Root     All-Restr   Hurts                      Gondor
+Potato, Red         Root     All         Fatigue                    Gondor
+Pumpkin             Fruit    Meadow      Fatigue                    Kalad
+Ramira              Berry    Forest      Healing                    Terel
+Raspberry           Berry    Temp-For    Fatigue                    Krynn
+Raspberry, Black    Berry    All         Health                     Gondor
+Raspberry, Red      Berry    Cool        Fatigue, Panic             Gondor
+Redeye              Bean     Forest      Health                     Kalad
+Redweed             Weed     All         Fatigue                    Gondor
+Redwood Leaf        Leaf     Forest      Healing                    Khalakhor
+Ronwath             Vine     Walls       None                       Avenir
+Rosemary            Flower   All         None                       Gondor
+Rushwash            Leaf     For/Med     Fatigue                    Earthsea
+Saffron             Flower   Warm        Spice                      Gondor
+Sage                Flower   Warm        Fatigue                    Gondor
+Salt Wort           Leaf     Temp-Sea    Hurt Mana                  Krynn
+Sargassum           Algae    Ocean       Mana                       Krynn
+Sarsaparilla        Root     Temp-For    None                       Krynn
+Saskatoon           Berry    Temp-Med    Health, Fatigue            Krynn
+Savory              Leaf     Warm        None                       Gondor
+Sea Bubble          Algae    Temp-Sea    Health                     Krynn
+Sea Kelp            Vine     Temp-Sea    None                       Earthsea
+Sea Lettuce         Algae    Temp-Sea    Fatigue                    Krynn
+Seaside Grass       Leaf     Temp-Sea    Fatigue                    Krynn
+Sebre               Flower   Cold        Mana                       Terel
+Seregon             Flower   All         None                       Gondor
+Shamrock            Leaf     Forest      Special                    Khalakhor
+Simbelmyne          Flower   Graves      Mana                       Gondor
+Skullcap            Mushroom Dark/Wet    Poison                     Krynn
+Skunk Berries       Berry    Gar/Med     Health                     Earthsea
+Smooth Camas        Leaf     Temp-Med    Poison                     Krynn
+Soapweed            Leaf     Plains      Enh Acid                   Krynn
+Solinaith           Leaf     Temp-For    Health, Enh Magic          Krynn
+Sparkweed           Flower   Gar/Med     Enh Fire                   Earthsea
+Sphagnum            Moss     Temp-Wet    Health                     Krynn
+Spinach             Leaf     Garden      Strength                   Earthsea
+Strangleweed        Weed     Weedy       None                       Avenir
+Strawberry          Berry    Cool        Healing                    Gondor
+Strawberry, Wild    Fruit    Cool        Heals                      Gondor
+Sumac               Vine     All         Poison                     Gondor
+Suranie             Berry    Forest      Improves Mana              Gondor
+Surf Grass          Leaf     Temp-Sea    Poison                     Krynn
+Tangleshoot         Vine     Temp-For    None                       Krynn
+Tansy               Flower   Temp-Wet    Poison                     Shire
+Tarragon            Leaf     All         None                       Gondor
+Thyme               Flower   Warm        None                       Gondor
+Tiger Lily          Flower   Temp-Med    Poison                     Krynn
+Tilhiyin            Root     Restr       Mana                       Terel
+Tomato              Fruit    Garden      Mana                       Earthsea
+Tuo                 Lichen   Restr       Enh Strength               Gondor
+Tyelka              Mushroom Wet         Enh Dex.                   Gondor
+Uaine Pine          Sap      Restr       Special                    Khalakhor
+Ungolestel          Moss     All         Cures Spider Poison        Gondor
+Veronica            Flower   Temp-Wet    Fatigue                    Krynn
+Vinerot             Vine     Restr       None                       Kalad
+White Cedar         Bark     Forest      Fatigue                    Khalakhor
+White Hallow        Flower   For/Med     Health                     Earthsea
+Whitehorn           Berry    Cold        Healing                    Terel
+Wilcol              Moss     Restr       Cure all                   Terel
+Wild Cucumber       Fruit    Temp-Wet    Fatigue                    Krynn
+Wild Plum           Fruit    Temp-For    Fatigue                    Krynn
+Wintergreen Leaf    Leaf     Gar/Mt      Health                     Earthsea
+Witch Grass         Leaf     For/Gar     Poison                     Earthsea
+Yam                 Root     All         Enh Strength               Gondor
+Yarrow              Flower   For/Gar     Constitution               Earthsea
+Ylpi                Mushroom Restr       Mana                       Terel
+Ylpoe               Mushroom Restr       Mana                       Terel
+
+Terrain Key:
+For = Forests       Rest  = Restricted to Domain
+Gar = Gardens       Temp  = Temperate
+Jun = Jungles       Wet   = Wetlands  
+Med = Meadows       Sand  = Sandy beaches or areas
+Mt  = Mountains     Sea   = Seaside
+
+Modification Log:
+    Mar 15 2003 - New list
+

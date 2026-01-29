@@ -1,0 +1,22 @@
+Find the temple in the Forest of Shadows. Must kill the mage guard
+at the entrance to open the way. Mage hard, she kick your butt if you are not
+good. Once in temple, lots of fun things to see. A priest in there has 
+lost a dagger. He wants his dagger back. A search through the dungeons 
+will find it in a skeleton under a bench /d/Kalad/common/raum/cdlair1/d05.c
+Need light in dungeons. Its hard to find to get into the temple, but once
+in, there is no danger.
+Undead can enter the temple with no problem.
+Once you got the dagger, bring it back to priest and give it to him. He 
+tells you how happy he is to be able to start sacrificing people again. 
+You get 500xp
+
+-Sarr Nightshade-
+
+2018-03-08 Malus: 
+This document was not changed when the quest was updated. The Khiraa Temple
+is undergoing changes, but at present the relevant files are here:
+Quest Giver:        /d/Raumdor/common/npc/kpriest2.c
+Giver Location:     /d/Raumdor/common/beach/beach1.c
+Quest Dagger:       /d/Raumdor/common/obj/cdagger.c
+Dagger Location:    /d/Raumdor/common/dungeon/dungeon05.c
+

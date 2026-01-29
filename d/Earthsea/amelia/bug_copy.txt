@@ -1,0 +1,30 @@
+
+Jun  8 1998 /d/Earthsea/gont/gont_city/liv/harrekki#71087 (Peridot)
+I received a message from someone who I didn't have remembered.
+I couldn't send to them using their name, so I did "send reply".
+It seemed to work, but I got the messenger back saying that
+it couldn't find Peridot (which is me).  
+Jun 12 1998 /d/Earthsea/gont/gont_city/rooms/tower_sw1 (Nicon)
+
+Jun 12 1998 /d/Earthsea/ships/avenir_line/east_pier1 (Garren)
+Should be able to 'exa symbol' here
+
+Jun 13 1998 /d/Earthsea/gont/tenalders/high_fall/n7 (Ckrik)
+Shouldn't all the herbs have wizinfo on them?
+
+Jun 13 1998 /d/Earthsea/gont/tenalders/high_fall/n13 (Ckrik)
+There should be a message when you ente the tree.
+
+Jun 13 1998 /d/Earthsea/gont/tenalders/high_fall/n13 (Ckrik)
+actually, there's something wrong with enter.
+When it fails, it doesn't give "What?"
+
+Jun 13 1998 /d/Earthsea/gont/tenalders/high_fall/n8 (Ckrik)
+There should be items for the bushes and briars.
+
+Jun 13 1998 /d/Earthsea/gont/tenalders/high_fall/briars (Ckrik)
+"cut foot from corpse" should be a valid command
+
+Jun 13 1998 /d/Earthsea/gont/gont_city/rooms/city_street/city_road14 (Grimble)
+why does the "west pier" go east?
+

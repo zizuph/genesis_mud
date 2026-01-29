@@ -1,0 +1,458 @@
+main
+::MAPDATA::
+o14 18 14 estwilde_plains
+outside_wall 18 14 estwilde_plains
+o1 18 14 estwilde_plains
+o2 18 14 estwilde_plains
+o3 18 14 estwilde_plains
+o4 18 14 estwilde_plains
+o5 18 14 estwilde_plains
+o6 18 14 estwilde_plains
+o7 18 14 estwilde_plains
+1a 18 14 estwilde_plains
+1b 18 14 estwilde_plains
+1c 18 14 estwilde_plains
+1d 18 14 estwilde_plains
+1e 18 14 estwilde_plains
+1f 18 14 estwilde_plains
+1g 18 14 estwilde_plains
+2a 18 14 estwilde_plains
+2b 18 14 estwilde_plains
+2c 18 14 estwilde_plains
+2d 18 14 estwilde_plains
+2e 18 14 estwilde_plains
+2f 18 14 estwilde_plains
+2g 18 14 estwilde_plains
+3a 18 14 estwilde_plains
+3b 18 14 estwilde_plains
+3c 18 14 estwilde_plains
+3d 18 14 estwilde_plains
+3e 18 14 estwilde_plains
+3f 18 14 estwilde_plains
+3g 18 14 estwilde_plains
+4a 17 15 estwilde_plains
+4b 17 15 estwilde_plains
+4c 17 15 estwilde_plains
+4d 17 15 estwilde_plains
+4e 17 15 estwilde_plains
+4f 17 15 estwilde_plains
+5b 17 15 estwilde_plains
+5c 17 15 estwilde_plains
+5e 17 15 estwilde_plains
+5f 17 15 estwilde_plains
+5g 17 15 estwilde_plains
+6a 17 15 estwilde_plains
+6b 17 15 estwilde_plains
+6c 17 15 estwilde_plains
+6d 17 15 estwilde_plains
+6e 17 15 estwilde_plains
+6f 17 15 estwilde_plains
+6g 17 15 estwilde_plains
+7a 17 18 estwilde_plains
+7b 17 18 estwilde_plains
+7c 17 18 estwilde_plains
+7d 17 18 estwilde_plains
+7e 17 18 estwilde_plains
+7g 17 18 estwilde_plains
+7h 17 18 estwilde_plains
+8b 17 18 estwilde_plains
+8c 17 18 estwilde_plains
+8d 17 18 estwilde_plains
+8e 17 18 estwilde_plains
+8f 17 18 estwilde_plains
+8g 17 18 estwilde_plains
+8h 17 18 estwilde_plains
+8i 17 18 estwilde_plains
+9c 21 19 estwilde_plains
+9d 21 19 estwilde_plains
+9e 21 19 estwilde_plains
+9f 21 19 estwilde_plains
+9g 21 19 estwilde_plains
+9h 21 19 estwilde_plains
+9i 21 19 estwilde_plains
+9j 21 19 estwilde_plains
+10f 21 19 estwilde_plains
+10g 21 19 estwilde_plains
+10h 21 19 estwilde_plains
+10i 21 19 estwilde_plains
+11g 21 19 estwilde_plains
+11h 21 19 estwilde_plains
+trail1 17 18 estwilde_plains
+trail2 17 18 estwilde_plains
+trail3 17 18 estwilde_plains
+trail4 17 18 estwilde_plains
+trail5 17 18 estwilde_plains
+cairn_entry 17 18 estwilde_plains
+c1 17 18 estwilde_plains
+c2 17 18 estwilde_plains
+c3 17 18 estwilde_plains
+c4 17 18 estwilde_plains
+c5 17 18 estwilde_plains
+c6 17 18 estwilde_plains
+c7 17 18 estwilde_plains
+lower_path 18 14 kalaman_east_wall
+o13 18 14 kalaman_east_wall
+o12 18 14 kalaman_east_wall
+o11 18 14 kalaman_east_wall
+o10 18 14 kalaman_east_wall
+o9 18 14 kalaman_east_wall
+o8 18 14 kalaman_east_wall
+eplain-24-2-K 18 14 kalaman_west_wall
+o20 18 14 kalaman_west_wall
+o19 18 14 kalaman_west_wall
+o18 18 14 kalaman_west_wall
+o17 18 14 kalaman_west_wall
+o16 18 14 kalaman_west_wall
+o15 18 14 kalaman_west_wall
+outside 18 14 kalaman_west_wall
+inside 18 14 kalaman_west_wall
+10m 22 20 iron_delving
+bridge1 22 20 iron_delving
+11l 22 20 iron_delving
+11m 22 20 iron_delving
+11n 22 20 iron_delving
+12k 22 20 iron_delving
+12l 22 20 iron_delving
+12m 22 20 iron_delving
+12n 22 20 iron_delving
+12o 22 20 iron_delving
+r1 24 21 iron_delving
+r2 24 21 iron_delving
+r3 24 21 iron_delving
+r4 24 21 iron_delving
+r5 24 21 iron_delving
+cave 24 21 iron_delving
+cave2 24 21 iron_delving 
+r6 24 21 iron_delving
+r7 24 21 iron_delving
+bridge 24 21 iron_delving 
+r8 24 21 iron_delving
+r9 24 21 iron_delving
+train 24 21 iron_delving
+joinroom2 24 21 iron_delving
+forge 24 21 iron_delving
+neidar_forge 24 21 iron_delving 
+r10 24 21 iron_delving
+post 24 21 iron_delving
+r11 24 21 iron_delving
+r12 24 21 iron_delving
+tavern 24 21 iron_delving
+r13 24 21 iron_delving
+r14 24 21 iron_delving
+shop 24 21 iron_delving
+r15 24 21 iron_delving
+r16 24 21 iron_delving
+hall1 24 21 iron_delving
+joinroom 24 21 iron_delving
+house 24 21 iron_delving
+app_room 24 21 iron_delving
+::MAPDATA::
+~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~ ,   ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~   ; '', ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~  ;     ',  ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+~~ ~~    ,     ~~ ~~ ~~ ~~ ~~ :        ',  ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~ , ,
+ ~~ ~ ,'' '`\ ~~ ~~ ~~ ~~ ~~,'          : ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~  ,' " '',
+  ~~ :       '; ~~ ~~ ~~ ~    NORDMAAR   ': ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ .'    ,  ;
+ ~~  ;       '   ~~ ~~ ,', '              ;  ~~ ~~ ~~ ~~ ~~ ~    ~~  '[ ]" ';:
+~~  '         '`` ~~  ;   '                '  ~~ ~~ ~~ ~~    ;'': ~~ Winston's
+    ;            '`: ~ ',       /\         : ~~ ~~      ,~ ;'  ' ',  Tower ~~
+ "''                :~~ ,     @/\        [ ]  ~~ ~~  ;"',~ `,SAIFHUM
+            ~~~~~~~,' ~~:     @@/\      Jennison  ~ ,   ;~ ',   ; ~ ~~  :'"'';
+          ~'     [ ],~  ,'    @/\          ; ~~  ,'"    : ~  ',' ~ ~~   ,   :
+ SOLAMNIA      Kalaman `     @/\          , ~~ ,'     ,' ~~ ~~ ~~ ~~ ~ MITHAS,
+     ~                      @/\         ,' ~~ ;      ,' ~~ ~~ ~~ ~~ ~~  :    ;  
+    ~                                 ,'  ~~ :       ; ~ ~         ~ ~~ ,  ,,
+   ~      /\_     ESTWILDE  /\     /\  `,  ,'      :' ~ ~           ~ ~  "" ~
+  ~      /\  \  ^  PLAINS         /\     `'  KERN ; ~ ~              ~ ~~ ~~
+         [#]/\            ^      /\      /\     ,' ~ ~ ~  Blood Sea ~ ~~:'"''; 
+        Dargaard    ^        /\         /\    /\ :  ~ ~   of Istar  ~ ~~`   ;
+        Keep /\               /\       /\ @@@/\   ;  ~ ~ ~         ~ ~~ `,  ,
+         /\            [^]   /\       /\_ @@@/\  ; ~ ~ ~ ~ ~      ~ ~~ ~~ ""
+           /\         Iron           /\  \@@/\  ;  ~~ ~~ ~~ ~~ ~~ ~~ ~ KOTHAS
+         @/\ /\       Delving            /\/\    '   ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+        @/\_
+
+::NEWMAP::
+estwilde_plains
+::MAPDATA::
+o14 12 9
+outside_wall 14 11
+o1 18 11
+o2 22 11
+o3 26 11
+o4 30 11
+o5 34 11
+o6 38 11
+o7 40 9
+1a 14 14
+1b 18 14
+1c 22 14
+1d 26 14
+1e 30 14
+1f 34 14
+1g 38 14
+2a 14 17
+2b 18 17
+2c 22 17
+2d 26 17
+2e 30 17
+2f 34 17
+2g 38 17
+3a 14 20
+3b 18 20
+3c 22 20
+3d 26 20
+3e 30 20
+3f 34 20
+3g 38 20
+4a 14 23
+4b 18 23
+4c 22 23
+4d 26 23
+4e 30 23
+4f 34 23
+5b 18 26
+5c 22 26
+5e 30 26
+5f 34 26
+5g 38 26
+6a 14 29
+6b 18 29
+6c 22 29
+6d 26 29
+6e 30 29
+6f 34 29
+6g 38 29
+7a 14 32
+7b 18 32
+7c 22 32
+7d 26 32
+7e 30 32
+7g 38 32
+7h 42 32
+8b 18 35
+8c 22 35
+8d 26 35
+8e 30 35
+8f 34 35
+8g 38 35
+8h 42 35
+8i 46 35
+9c 22 38
+9d 26 38
+9e 30 38
+9f 34 38
+9g 38 38
+9h 42 38
+9i 46 38
+9j 50 38
+10f 34 41
+10g 38 41
+10h 42 41
+10i 46 41
+11g 38 44
+11h 42 44
+trail1 17 37
+trail2 16 36
+trail3 14 36
+trail4 10 35
+trail5 10 35
+cairn_entry 11 35
+c1 11 35
+c2 11 35
+c3 11 35
+c4 11 35
+c5 11 35
+c6 11 35
+c7 11 35
+::MAPDATA::
+                           i~
+                       i~ /+\  i~   Port city  
+                      /+\ | | /+\   of Kalaman
+                      | | |_| | |  
+                   _  | |_/V\_| |  
+                  /V\ _  _|_|_|_|      
+                . |_|/V\ /V\ /V_V\   . 
+                .\_._._._._._._._._./.  
+           \     \::::::::::::::::::/    /
+            o                           o
+\            \                         /
+ \_           o---o---o---o---o---o---o
+   \          |   |   |   |   |   |   |
+\   \         |   |   |   |   |   |   |
+ \/\          o---o---o---o---o---o---o  
+ /  \         |   |   |   |   |   |   |
+/    \        |   |   |   |   |   |   |   
+/\  /\        o---o---o---o---o---o---o  
+  \/  \_      |   |   |   |   |   |   |
+  /     \     |   |   |   |   |   |   |
+ Northern     o---o---o---o---o---o---o  
+ Dargaard     |   |   |   |   |   |  / 
+ Mountains    |   |   |   |   |   |/'  
+              o---o---o---o---o---o      PLAINS OF 
+/\      ___    \  |   |  / \  |   |\     ESTWILDE
+  \    /   \__  `\|   |/'   `\|   | `\ 
+   \  /       \   o---o       o---o---o
+ /\              /|   |\     /|   |   |
+/  \           /' |   | `\ /' |   |   |
+    \         o---o---o---o---o---o---o  
+        __    |   |   |   |   |  / \  |\
+       /  \   |   |   |   |   |/'   `\| `\
+/\            o---o---o---o---o       o---o
+               \  |   |   |   |\     /|   |
+                `\|   |   |   | `\ /' |   |
+ /\       _^_     o---o---o---o---o---o---o---o  
+/  \     /   \__   \  |   |   |   |   |   |   |\
+    \   /       \   `\|   |   |   |   |   |   | `\
+     \/\              o---o---o---o---o---o---o---o
+     /  \            /         \  |   |   |   |  / %%
+    .v.     .v.    /'  .v.      `\|   |   |   |/' %%
+                           __     o---o---o---o. %%
+ .v.     The Moorlands    /  \__   \  |   |  / \\% 
+           of Throtyl    /      \   `\|   |/' % \\    to
+                                      o---o  %%   Iron Delving
+
+::NEWMAP::
+kalaman_east_wall
+::MAPDATA::
+lower_path 24 7
+o13 26 9
+o12 26 11
+o11 26 13
+o10 24 15
+o9 22 17
+o8 20 19
+::MAPDATA::
+               
+        i~      
+    i~ /+\  i~      
+   /+\ | | /+\ ~~  ~~ ~~ ~~
+   | | |_| | |  //~~  ~~ ~~ 
+   | |_/V\_| | //~  ~~ ~~ ~~ 
+   _  _|_|_|_|   // ~ .  
+  /V\ /V\ /V_V\ // ~ /. o
+                . ~ ./.  \
+  Port city of  .\ /./    o
+     Kalaman      ./.     |
+ _._._._._._._._././      o
+ ::::::::::::::::/.       | 
+ ::::::::::::::::/        o  
+                         /
+                        o
+                       /
+                      o
+                     / 
+                    o
+                   /
+
+            PLAINS OF ESTWILDE
+
+::NEWMAP::
+kalaman_west_wall
+::MAPDATA::
+eplain-24-2-K 9 7
+o20 9 9
+o19 9 11
+o18 9 13
+o17 9 15
+o16 11 17
+o15 13 19
+outside 7 9
+inside 5 11
+::MAPDATA::
+
+
+ PLAINS OF
+ SOLAMNIA
+                       i~      
+       \           i~ /+\  i~      
+        \         /+\ | | /+\ 
+         O        | | |_| | | 
+        /|\       | |_/V\_| | 
+       o o \     _  _|_|_|_|  
+      /  |      /V\ /V\ /V_V\ 
+    [t]  o ^                   
+         | :\    Port city of  
+         o  :\      Kalaman     
+         |   :\._._._._._._._._.
+         o    ::::::::::::::::::
+          \    :::::::::::::::::
+           o            
+            \
+             o
+              \
+
+            PLAINS OF ESTWILDE
+
+::NEWMAP::
+iron_delving
+::MAPDATA::
+10m 21 5
+bridge1 9 8
+11l 17 8
+11m 21 8
+11n 25 8
+12k 13 11
+12l 17 11
+12m 21 11
+12n 25 11
+12o 29 11
+r1 29 8
+r2 33 11
+r3 37 8
+r4 41 8
+r5 44 5
+cave 40 5
+cave2 39 5 
+r6 44 11
+r7 47 8
+bridge 51 11 
+r8 55 14
+r9 59 11
+train 64 8
+joinroom2 46 17
+forge 47 20
+neidar_forge 47 20 
+r10 51 17
+post 51 20
+r11 59 17
+r12 59 14
+tavern 64 14
+r13 63 17
+r14 55 17
+shop 55 20
+r15 59 20
+r16 63 20
+hall1 67 24
+joinroom 67 24
+house 55 23
+app_room 55 23
+::MAPDATA::
+
+                  
+ ESTWILDE o %%%%%%%%%%
+ PLAINS  / %%%%%%%%%%   _             __        _           ~~
+       /' %%%%%%%%%%   / \   /\__    /  \      / \        ~~
+      o  %%%%%%%%%%  o      /    \  /   @\  o           ~~      
+     /\\ %%%%%%%%%  /|\    /      \        / \         ~~
+   /'  \\ %%%%%%% /' | `\        _        /   \       ~~
+  o  %%  o  %%%% o---o---o---o  / \  o---o --- o     ~~        {T}
+   %%%%%% \\ %  /|   |   |\   \     /     \   / \\  ~~        /
+  %%%%%%%% \\ /' |   |   | `\  `\ /'  ___  \ /   \\ ~       /'
+  %%%%%%%%%  o---o---o---o---o   o   /   \  ^    ~ o       o
+                               ___              ~~  \\    /|
+               ___            /   \            ~~    \\ /' |
+              /   \                           ~~       o   o---[t]
+                                            ~~        / \  |
+                                          ~~        /'   `\|      [ Hall of
+              -==   IRON DELVING   =--       {S}---o---o---o---o-- Warriors ] 
+              T  Neidar clan trainer              /|   |   |\
+              S  Shieldbearer trainer           /' |   |   | `\
+              t  Dwarven tavern               {f} [p] [s]  o   o
+              f  Outdoor forge                            /     \
+              p  Post office                            /'       `\
+              s  Dwarven store                        [h]       [ Hall of the  
+              h  Historian                                           Thane   ]
+
+

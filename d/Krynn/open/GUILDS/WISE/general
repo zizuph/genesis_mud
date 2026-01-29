@@ -1,0 +1,13 @@
+Documentation on the Wise Club
+==============================
+
+The Wise Person's Club is a minor guild, giving qualifying
+players a few emotes and a pin to wear. The join room is
+located at /d/Krynn/solace/new_village/wise_club.c.
+Players may leave the club at any time, with a function for
+leaving within the pin. The pin is autoloading, and is located
+in /d/Krynn/solace/new_village/obj/wise_object.c.
+
+Requirements to join the club:
+The player must be 100 days old, in game age.
+

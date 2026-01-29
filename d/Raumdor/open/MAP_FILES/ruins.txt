@@ -1,0 +1,11 @@
+main
+::MAPDATA::
+cave_entrance 21 1 
+beastruin1 21 3 
+beastruin2 21 4
+::MAPDATA::
+                        
+                     o  
+                     |  
+                    [ ] 
+                    [ ]\

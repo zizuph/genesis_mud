@@ -1,0 +1,166 @@
+main
+::MAPDATA::
+abovegate 44 16 neraka_outer_red
+animals 44 16 neraka_outer_red
+backyard 44 16 neraka_outer_red
+gatehouse 44 16 neraka_outer_red
+pub1 44 16 neraka_outer_red
+r1 44 16 neraka_outer_red
+r2 44 16 neraka_outer_red
+r3 44 16 neraka_outer_red
+r4 44 16 neraka_outer_red
+r5 44 16 neraka_outer_red
+r6 44 16 neraka_outer_red
+r7 44 16 neraka_outer_red
+r8 44 16 neraka_outer_red
+r9 44 16 neraka_outer_red
+r10 44 16 neraka_outer_red
+r11 44 16 neraka_outer_red
+r12 44 16 neraka_outer_red
+r13 44 16 neraka_outer_red
+r14 44 16 neraka_outer_red
+r15 44 16 neraka_outer_red
+r16 44 16 neraka_outer_red
+r17 44 16 neraka_outer_red
+r18 44 16 neraka_outer_red
+r19 44 16 neraka_outer_red
+r20 44 16 neraka_outer_red
+r21 44 16 neraka_outer_red
+r22 44 16 neraka_outer_red
+r23 44 16 neraka_outer_red
+r24 44 16 neraka_outer_red
+r25 44 16 neraka_outer_red
+r26 44 16 neraka_outer_red
+r27 44 16 neraka_outer_red
+r28 44 16 neraka_outer_red
+r29 44 16 neraka_outer_red
+r30 44 16 neraka_outer_red
+r31 44 16 neraka_outer_red
+smith 44 16 neraka_outer_red
+store1 44 16 neraka_outer_red
+t1 44 16 neraka_outer_red
+t2 44 16 neraka_outer_red
+t3 44 16 neraka_outer_red
+t4 44 16 neraka_outer_red
+t5 44 16 neraka_outer_red
+t6 44 16 neraka_outer_red
+tow1 44 16 neraka_outer_red
+::MAPDATA::
+                        
+                                                                            
+      N                 
+      ^                                         
+      |                                       _                    _____      
+   <--o-->                                  ,/ \                  /    /      
+      |                              __     |   \,    ,     ,    `\_^_\       
+      =                            _/  \  _/`    |  _/|    /|__     _ '       
+                        __      __/    / |       / /  |   /_  /    / \_       
+                        \ \    /^    [] _|      / /  /`     |/     \   \      
+             ,_          \ |  |^  Kalaman`     /_/  /       '       []Mithas  
+             | \         /^ [] ^           ^        |              /___/      
+             |^@\    Palanthas^      ^    ^        /'              ____       
+             | ^@\       |  ^        ^    ^   ^^  /                \  /       
+     __     /`  ^@|      | ^  []Vingaard     ^^   |                /__\       
+    /^^\    \  ^@ |      | ^    Keep     ^^ Neraka|/\              `  '       
+   /^^^^\    \___/       | ^           ^^^^[ ]    '  \                      
+   \^^^^^|                \ ^      @  ^  ^           |           ,            
+  |\|@__/    _____,        |    ^  @   ,[ ]^^^       |        __/|            
+  |@_/      /     |        |   ^  @@ __|Sanction_  _ `\  _/\_/   |            
+  |/       /@ ^   |        |____/\__/   _/` ^^ | \/ |  []`       |            
+           |@^|\_/                     /   ^^^ |__  \ Flotsam,/| |            
+           | @|___           ____      |  ^^^   ,/   \       | | |            
+           '\_@  /          /    \ { } |  ^ ^   |Port []    /   \|            
+              \_/         ,/  ^  |     '\ ^  ^  Balifor\___/     '            
+                     Solace []   |   _   |^  ^    \                 
+                         / @@   /   | \  \         \         { }   
+                     New Ports[]    |  |_|          \__     
+                        | @@@  \  ,/'           Kurinost[]            
+                       / @@@@@  \_|                 @@@@@@@\                  
+     
+
+::NEWMAP::
+neraka_outer_red
+::MAPDATA::
+abovegate 30 12
+animals 28 24
+backyard 34 30
+gatehouse 30 12
+pub1 36 24
+r1 26 20
+r2 26 22
+r3 32 14
+r4 32 16
+r5 32 18
+r6 32 20
+r7 32 22
+r8 26 18
+r9 28 20
+r10 26 24
+r11 30 24
+r12 32 24
+r13 34 24
+r14 26 26
+r15 30 26
+r16 32 26
+r17 28 28
+r18 32 28
+r19 37 22
+r20 39 20
+r21 39 18
+r22 39 16
+r23 42 14
+r24 30 20
+r25 30 30
+r26 30 32
+r27 32 32
+r28 28 32
+r29 26 32
+r30 28 34
+r31 30 34
+smith 28 26
+store1 34 28
+t1 24 34
+t2 26 34
+t3 26 36
+t4 30 36
+t5 32 34
+t6 34 34
+tow1 40 12
+::MAPDATA::
+
+                 / \   ::               :::     |
+                o w o  ::    NERAKA     :::     o   H   ^   ^
+                |/  |   ::   INNER       :::    |\ /     \ /  
+              w o w o  ::    CITY         [x]-o-o o-o-o   o-^                            
+               \|/  |  ::                ::  /|  \|\   \ /
+              p o   o T :::             ::: T o   o b   o-o-^
+               \|   |/ :::             :::    |  /|     |\ \
+      ^   o-o-o-o-o-o--[x]             ::     o w S     ^ o o
+       \ /     /|\     :::            :::    /           /| |
+    ^   o-^   Q o o     :::          :::    o           ^ ^ ^
+     \  |      / \ \      ::::     :::     /
+      o-o     o   ^ o       : T[x]:::   T o   BLUE DRAGONARMY
+        |    / \     \         \|        \|     ENCAMPMENT
+        o-o-o   ^     o   T     o         o
+       / \             \ /      |       /
+      ^   ^             o       o      o
+   GREEN DRAGONARMY      \      |      |   ~= City of Neraka =~
+     ENCAMPMENT           o     o      o   b  Bank
+                          |\    |      |   H  The Hanged Knight pub
+                          o o-o-o      o   S  shop
+                          |     |     /    T  guard tower
+                          o     o    o     t  Templar Knights guild
+                          |    /|\ /       W  wagon to Flotsam
+                          o a-o-o-o-R      w  warehouse
+                          |  /|\|/         P  Lute's Loot pawnshop
+                          o s o o          R  Red Rooster pub
+                           \ /  |\         a  animal shop
+                            o   o P        s  smithy
+                               / \         p  post office
+                              o   W        Q  Queen's Heads bar
+                              |
+    RED DRAGONARMY        o-o-o-o
+     ENCAMPMENT          /|  /|\ \
+                        ^ ^ o o ^ ^ 
+                           /  |       
+                          ^   ^

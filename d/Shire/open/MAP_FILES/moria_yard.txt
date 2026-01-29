@@ -1,0 +1,40 @@
+main
+::MAPDATA::
+m_path1 11 5
+steep_path 14 5
+crevice 19 5
+rom6 3 7
+rom7 7 7
+n_of_plain 11 7
+plain_n 11 9
+tree_n 16 9
+tree 19 9
+in_front 11 11
+under_wall 16 11
+plain_s 11 13
+tree_s 16 13
+cleft 11 15
+big_hole 14 15
+crack 14 17
+round_room 18 17
+trolls_treasure 22 17
+::MAPDATA::
+
+               /\ /\_
+    /\        /  /   \
+   /  \/\    /    /\  \
+  /    \
+ /      \ [ ][ ] - o
+           |
+ - o - o - o                    ..
+   ~~~~    |                 .`.``.`.
+ ~~~~~~~   o - [ ][ ]      .`.` *  `.`.
+~Sirannon~ |    |        .`.` * /\ * `.`.
+~~~Lake~~  o -- o -      | | * \__/ * | |
+ ~~~~~~~   |    |        | | * ___  * | |
+ ~~~~~~    o    o        | |/  \__>  \| |
+           |             | |          | |
+   /\     [ ][ ]         | |    *     | |
+  /  \        |          ---    m     ---
+   ^  \       o - o - o
+    ^  \

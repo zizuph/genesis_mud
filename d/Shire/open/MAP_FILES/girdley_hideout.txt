@@ -1,0 +1,31 @@
+main
+::MAPDATA::
+secret06 15 2
+secret05 13 4
+secret02 3 6
+secret03 7 6
+secret04 11 6
+secret01 1 8
+br1_02 13 8
+br1_01 17 8
+br1_03 13 10
+br1_04 15 12
+treetop_glade 15 14
+treetop 15 15
+::MAPDATA::
+
+           \|/
+ \|/           o  \|/
+              /
+      \|/    o  \|/
+            /
+   o - o - o  \|/
+  /         \
+ o    \|/    o - o \|/
+             |
+  \|/        o          \|/
+        \|/   \   \|/
+               o 
+               |   _
+        \|/   [ ] { }
+              [ ]  |

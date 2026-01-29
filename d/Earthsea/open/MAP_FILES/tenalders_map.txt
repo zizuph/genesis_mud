@@ -1,0 +1,431 @@
+main
+::MAPDATA::
+bushes 14 13 south_path_n
+south_path_1 14 13 south_path_n
+south_path_2 14 13 south_path_n
+south_path_3 14 13 south_path_n
+south_path_4 14 13 south_path_n
+south_path_5 14 13 south_path_n
+south_path_6 14 13 south_path_n
+south_path_7 17 15 south_path_n
+south_path_8 17 15 south_path_n
+south_path_9 17 15 south_path_n
+south_path_10 17 15 south_path_n
+south_path_11 17 15 south_path_n
+south_path_12 17 17 south_path_n
+south_path_13 17 17 south_path_n
+south_path_14 17 17 south_path_s
+south_path_15 17 17 south_path_s
+south_path_16 17 17 south_path_s
+south_path_17 17 17 south_path_s
+south_path_18 17 19 south_path_s
+south_path_19 17 19 south_path_s
+south_path_20 17 19 south_path_s
+south_path_21 17 19 south_path_s
+south_path_22 17 19 south_path_s
+south_path_23 17 19 south_path_s
+karg_camp01 17 15 karg_camp
+karg_camp02 17 15 karg_camp
+karg_camp03 17 15 karg_camp
+karg_camp04 17 15 karg_camp
+karg_camp05 17 15 karg_camp
+karg_camp06 17 15 karg_camp
+karg_camp07 17 15 karg_camp
+karg_camp08 17 15 karg_camp
+karg_camp09 17 15 karg_camp
+karg_camp10 17 15 karg_camp
+tent03 18 16 karg_camp
+tent05 18 16 karg_camp
+tent06 18 16 karg_camp
+tent07 18 16 karg_camp
+tent09 18 16 karg_camp
+trail3 18 16 karg_camp
+farmyard 9 21 cobbled_road
+farm_path_1 9 21 cobbled_road
+farm_path_2 9 21 cobbled_road
+barn 9 21 cobbled_road
+south_path_24 17 19 cobbled_road
+south_path_25 13 21 cobbled_road
+south_path_26 13 21 cobbled_road
+bridge 13 21 cobbled_road
+cobbled_road6 13 21 cobbled_road
+cobbled_road5 9 21 cobbled_road
+cobbled_road4 9 21 cobbled_road
+hilltop 5 21 cobbled_road
+cobbled_road3 5 21 cobbled_road
+cobbled_road2d 1 23 cobbled_road
+cobbled_road2c 1 23 cobbled_road
+cobbled_road2b 1 23 cobbled_road
+cobbled_road2a 1 23 cobbled_road
+cobbled_road2 1 23 cobbled_road
+forest_path06 17 21 cobbled_road
+forest_path05 17 21 cobbled_road
+forest_path04 17 21 cobbled_road
+forest_path03 17 21 cobbled_road
+forest_path02 17 21 cobbled_road
+forest_path01 17 21 cobbled_road
+witch_garden_8 10 11 ten_alders
+witch_garden_7 10 11 ten_alders
+witch_garden_6 10 11 ten_alders
+witch_garden_5 10 11 ten_alders
+witch_garden_4 10 11 ten_alders
+witch_garden_3 10 11 ten_alders
+witch_garden_2 10 11 ten_alders
+witch_garden_1 10 11 ten_alders
+witch_entry 10 11 ten_alders
+witch_kitchen 10 11 ten_alders
+witch_living_room 10 11 ten_alders
+witch_path 10 11 ten_alders
+village_path_1 10 11 ten_alders
+village_path_2 6 11 ten_alders
+village_path_3 2 13 ten_alders
+village_path_4 2 13 ten_alders
+village_path_5 2 13 ten_alders
+village_path_6 2 13 ten_alders
+smithy 2 13 ten_alders
+eq_shop 2 13 ten_alders
+pub_room 6 11 ten_alders
+witch_herb_store 10 11 ten_alders
+se1 14 13 ten_alders
+se2 14 13 ten_alders
+se3 14 13 ten_alders
+se4 14 13 ten_alders
+se5 14 13 ten_alders
+yard 14 13 ten_alders
+cottage 14 13 ten_alders
+peddler 14 13 ten_alders
+n13 14 5 high_fall
+n12 14 5 high_fall
+n11 14 5 high_fall
+n10 14 5 high_fall
+n9 14 5 high_fall
+n7 10 5 high_fall
+n8 10 5 high_fall
+n6 10 5 high_fall
+n5 10 5 high_fall
+n4 6 7 high_fall
+n3 6 7 high_fall
+n2 10 9 high_fall
+n1 10 9 high_fall
+ne1 14 7 high_fall
+ne2 14 7 high_fall
+ne3 14 7 high_fall
+ne4 14 7 high_fall
+ne5 18 5 high_fall
+ne6 18 5 high_fall
+ne7 18 5 high_fall
+bridge1 18 5 high_fall
+bridge2 18 5 high_fall
+bridge3 18 5 high_fall
+bridge4 18 5 high_fall
+bridge5 18 5 high_fall
+cliff1 18 5 high_fall
+cliff2 18 5 high_fall
+cliff3 18 5 high_fall
+cliff4 18 5 high_fall
+cliff5 18 5 high_fall
+cliff_top 18 5 high_fall
+::MAPDATA::
+
+       =============
+       GONT MOUNTAIN
+       =============
+
+          o - o   o
+        /       /
+      o       o
+        \   /
+          o
+          |
+      o - o
+    /       \
+  o           o
+                \
+                 o
+                 |
+                 o
+                 |
+                 o
+               / |
+     o - o - o
+   /
+ o
+  \
+::NEWMAP::
+south_path_n
+::MAPDATA::
+bushes 26 14
+south_path_1 18 6
+south_path_2 22 8
+south_path_3 22 10
+south_path_4 22 12
+south_path_5 26 14
+south_path_6 30 16
+south_path_7 26 18
+south_path_8 26 20
+south_path_9 30 22
+south_path_10 30 24
+south_path_11 26 26
+south_path_12 22 28
+south_path_13 18 28
+::MAPDATA::
+
+        ====================
+        MOUNTAIN PATH, NORTH
+        ====================
+
+                \
+                  o
+                    \
+                      o
+                      |
+                      o
+                      |
+                      o
+                        \
+                          o
+                            \
+                              o
+                            /
+                          o
+                          |
+                          o
+                            \
+                              o
+                              |
+                              o
+                            /
+                          o
+                        /
+                  o - o
+                  |
+::NEWMAP::
+south_path_s
+::MAPDATA::
+south_path_14 19 6
+south_path_15 15 8
+south_path_16 15 10
+south_path_17 11 12
+south_path_18 7 14
+south_path_19 3 16
+south_path_20 3 18
+south_path_21 7 20
+south_path_22 11 22
+south_path_23 11 24
+::MAPDATA::
+
+        ====================
+        MOUNTAIN PATH, SOUTH
+        ====================
+
+                   |
+                   o
+                 /
+               o
+               |
+               o
+             /
+           o
+         /
+       o
+     /
+   o
+   |
+   o
+     \
+       o
+         \
+           o
+           |
+           o
+         /
+::NEWMAP::
+karg_camp
+::MAPDATA::
+karg_camp01 20 7
+karg_camp02 16 5
+karg_camp03 16 7
+karg_camp04 16 9
+karg_camp05 12 5
+karg_camp06 12 7
+karg_camp07 12 9
+karg_camp08 8 5
+karg_camp09 8 7
+karg_camp10 8 9
+tent03 16 7
+tent05 12 5
+tent06 12 7
+tent07 12 9
+tent09 8 7
+trail3 1 1
+::MAPDATA::
+
+                =========
+                KARG CAMP
+                =========
+
+        o - o - o
+        |   |   |
+        o - o - o - o - o - o - o
+        |   |   |
+        o - o - o
+::NEWMAP::
+cobbled_road
+::MAPDATA::
+farmyard 24 5
+farm_path_1 24 7
+farm_path_2 24 11
+barn 24 13
+south_path_24 44 7
+south_path_25 40 9
+south_path_26 36 9
+bridge 32 9
+cobbled_road6 28 9
+cobbled_road5 24 9
+cobbled_road4 20 9
+hilltop 16 9
+cobbled_road3 12 9
+cobbled_road2d 8 11
+cobbled_road2c 4 13
+cobbled_road2b 8 15
+cobbled_road2a 4 17
+cobbled_road2 4 19
+forest_path06 44 9
+forest_path05 44 11
+forest_path04 48 13
+forest_path03 44 15
+forest_path02 44 17
+forest_path01 44 19
+::MAPDATA::
+
+                   =============
+                   GONT LOWLANDS
+                   =============
+
+                        o
+                        |                     /
+                        o                   o
+                        |                 / |
+            o - o - o - o - o - o - o - o   o
+          /             |                   |
+        o               o                   o
+      /                 |                     \
+    o                   o                       o
+      \                                       /
+        o                                   o
+      /                                     |
+    o                                       o
+    |                                       |
+    o                                       o
+      \                                     |
+::NEWMAP::
+ten_alders
+::MAPDATA::
+witch_garden_8 36 3
+witch_garden_7 28 5
+witch_garden_6 32 5
+witch_garden_5 28 7
+witch_garden_4 32 7
+witch_garden_3 28 9
+witch_garden_2 32 9
+witch_garden_1 32 11
+witch_entry 28 11
+witch_kitchen 24 9
+witch_living_room 24 11
+witch_path 28 13
+village_path_1 24 13
+village_path_2 20 13
+village_path_3 16 15
+village_path_4 12 17
+village_path_5 12 19
+village_path_6 8 21
+smithy 12 21
+eq_shop 8 17
+pub_room 16 13
+witch_herb_store 24 15
+se1 28 15
+se2 28 17
+se3 32 19
+se4 36 21
+se5 36 23
+yard 36 19
+cottage 36 17
+peddler 32 23
+::MAPDATA::
+
+                   
+
+                                    o
+                          \       /
+           ==========       o - o
+           TEN ALDERS       |   |
+           ==========       o - o          W - Village Witch
+                            |   |          H - Herb Shop
+                        W   o - o          P - Pub
+                        | \     |          E - Equip. Shop
+                        o   o - o          s - Smith
+                              /            S - Shop
+                P - o - o - o
+                  /     | \
+                o       H   o
+              /             |
+        E - o               o       o
+            |                 \     |
+            o                   o - o
+          / |                     \
+        o   s                       o
+                                    |
+                                S - o
+                                      \
+::NEWMAP::
+high_fall
+::MAPDATA::
+n13 32 7
+n12 32 5
+n11 28 3
+n10 24 3
+n9 20 3
+n7 16 3
+n8 16 5
+n6 12 5
+n5 12 7
+n4 8 9
+n3 12 11
+n2 16 13
+n1 12 15
+ne1 20 11
+ne2 24 9
+ne3 28 7
+ne4 32 9
+ne5 36 7
+ne6 40 5
+bridge1 44 5
+bridge2 48 5
+bridge3 52 5
+bridge4 56 5
+bridge5 60 5
+ne7 64 5
+cliff1 64 5
+cliff2 64 5
+cliff3 64 5
+cliff4 64 5
+cliff5 64 5
+cliff_top 64 5
+::MAPDATA::
+
+
+
+                o - o - o - o
+              / |             \
+            o   o               o       o - o - o - o - o - o - o
+            |                   |     /
+            o               o   o   o
+          /               /   \   /
+        o               o       o
+          \           /
+            o       o                   =========
+              \   /                     HIGH FALL
+                o                       =========
+              /
+            o
+              \

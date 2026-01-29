@@ -1,0 +1,147 @@
+Idea by Nerull.
+
+> Comments by Gorboth
+ 
+                      It Came From the Hills
+                      ----------------------
+
+
+ THEME
+
+ If you remember an old classic named It Came From The Desert, a 
+ computergame in the 80's from Cinemaware, this suggestion take a similar 
+ approach, only Genesis style/version. Basically, A meteorite enters 
+ the atmosphere and strike the ground with great force, making a 
+ huge explosion somewhere at the northern hillside of Sparkle.
+ 
+> For consistency with the donut theme, how about a renegade donut hole?
+
+ This meteorite contain radioactive elements that are spread around the 
+ hillside and nearby areas, leaving small tiny drops of glowing 
+ rock/material spread over a huge area. In northern Sparkle, about every
+ player knows about the tiny ants that is living there and nesting 
+ somewhere nearby. These ants, or more importantly, one of their
+ queens are by some strange accident/incident affected by nearby 
+ radioactive material from the meteor and have a few...benecifial but
+ dangerous mutations.
+
+ The new generations of ants are born at natural small sizes, but they
+ dont stop growing until they approximately reach car/house-size, including
+ potentially new queens. The result is inevitable for the other local
+ inhabitants as the days grows warmer and the new nests are fully grown
+ into huge deep-bored mazelike tunnels habouring a giant queen producing
+ fullscale new generation of giant ants, and the story, or threat of the
+ landside and nearby lands may become obvious.
+
+ MECHANICS, ANTS
+
+ While we know that incects simply cant be enlarged and still continue to
+ live due to that they would die about immediately due to respiratory 
+ issues, we will in good fantacy tradition ignore that factor(we love 
+ oversized insects, dont we?). The ants of various types grow and changes
+ with rl time, until reaching the last stage of growth, where their old
+ hardened carapaces and other exoskeleton parts turn into potencial parts
+ to be used as shields, weaponry. 
+
+ How this will work will be ironed out during development, but the idea is
+ to give the older bigger ant more potent versions. The oldest/largest 
+ ants takes time to grow (realtime), from tiny to enormous so the most
+ potent armour/weaponry avaiable will only be possible to harvest if some
+ of these ants are given the chance to rise to max size. 
+
+ If an ant is slain at a lower size, lower versions are avaiable that 
+ corresponds to the size and power of the ant.
+
+ Some sumarized ideas about the ants:
+
+ -- Ants will be dropping items relevant to quests or/and delivery quests.
+ -- Ants can be farmed for armour/weapons. Size and use varies. 
+
+> I take this to mean that when killed the any has the carapace, arm-section,
+> leg-section, head-section, etc that can be work like armours in its 
+> inventory?
+
+ -- There are different kinds of ants, drones, warriors, queens, reflecting
+    a real ant hiearchy.
+ -- Each type of ant will be given special abilties.
+ -- All ants grow in size by real time. The biggest/rarest ant may take
+    x weeks to reach maximum potential unless its slain while in lower
+    size. This feature will make some items exotic by default, or/and
+    more valuable.
+
+> Cool! How do we maintain this over armageddons?
+
+ -- Killing the queen should give some unexpected result, possibly 
+    "resetting" the nest, making it dead/or ants dont respawn until new
+    queen is replaced. This idea needs to be further finalized/worked out
+    during development. The idea is that killing the queen should have
+    an effect of sorts.
+
+> Perhaps the death of the queen sends all remaining ants on a mindless
+> rampage, running between rooms, attacking anything they see, including
+> one another? :-)
+
+ -- Occationally, ants ambush nearby places for x period of time before
+    vanishing or being slain. This can be an autonomous event.
+
+> What controls all this? Some ant control room?
+
+ -- The ants are neutral of alignment. These care only about the orders
+    of their queen and for the future of the nest. For them every  
+    intruder is equally evil and something that must be vanquished to 
+    protect the queen. 
+ -- Some of the rare drops may be collected to X number, for then to be 
+    delivered to some merchant for xp and/or buying spesific magical
+    weaponry, armour or trinkets. This opens for gear you want as 
+    reward, for certain level of effort.
+ -- Some ants may serve as local bosses (sentries), that require
+    certain tactics to conquer.
+
+
+ MECHANICS, NEST
+
+ The ant nest is a deep dungeon with different levels. Each level should
+ contain some gamecontent that correspond with different mortal levels 
+ within some limits that arent finalized. The nest is also a huge complex
+ network of tunnels, storage areas, and possible queen locations. For
+ every reset of the dungeon, or every death of the queen, her and the 
+ main egg-chamber is randomly placed within one of many possible 
+ locations so the challenge in order to find her will be more challenging
+ and possible interesting. 
+
+> Hmmm ... makes me wonder if we should use the dwarf mine code and adapt
+> it to this. Check out /d/Sparkle/area/mines/
+
+ Some sumarized ideas about the nest:
+
+ -- The nest will have many levels. How many is undecided.
+ -- Queen respawns randomly in one of many possible locations.
+ -- Each level is suited for players in X range of average, within limits.
+ -- Some exits changes with time(opens/closes).
+ -- The nest will possible be submerged in darkness (-1).
+ -- Stored food, treasure, trinkets, lightsources may be found in storage
+    piles.
+ -- Some areas/levels cannot be entered unless certain preconditions are 
+    met(entrance quest/size reqs).
+ -- Secret areas/side tunnels. These will have random exits/entrances, and
+    may or may not include special or normal treasure, or even quests.
+ -- The nest may have repeatable quests (quest xp first time, general xp
+    second time).
+ -- Dead heroes may be occationally found, still with their gear 
+    intact, which could be different weapons/armours and trinkets, both
+    magically enchanted and not.  
+
+ THOUGHTS
+
+ The dungeon is ment to be a place where solo players and team players can
+ at various levels can enjoy. Everything that drops within will be useful
+ to every player in the game and will not carry any restrictions like guild
+ or alignment. Everything usable by players will be in equally chance of 
+ distribution so no guild benefit more than others regards(magical drops, 
+ useable drops etc). 
+
+ This is just a short draft of the idea, and I would like to know what you
+ think of the proposal.
+
+> Sounds quite promising! I like the idea that the colony might grow and
+> evolve randomly yet intelligently.

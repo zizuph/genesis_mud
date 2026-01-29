@@ -1,0 +1,15 @@
+The entrance to HammerHands. There are two rooms - in the nw and se
+ends of the guild. Outside.
+
+Properties:
+hammerhand inside
+
+Items: gates, ornament
+
+Object: two powerful guards
+
+Actions: none
+
+Exits: to the road and to the boardroom
+
+Special: the players not welcome in the village are attacked as well.

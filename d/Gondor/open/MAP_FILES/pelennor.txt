@@ -1,0 +1,48 @@
+main
+::MAPDATA::
+or4 30 3
+neigroom 22 5
+neoutgate 26 5
+nigroom 2 7
+ningate 6 7
+nogroom 10 7
+neingate 22 7
+neogroom 26 7
+nroad3 6 9
+neroad3 18 9
+nroad2 6 11
+neroad2 14 11
+nroad1 6 13
+neroad1 10 13
+citygate 6 15
+sroad1 6 17
+sogroom 2 19
+singate 6 19
+sigroom 10 19
+::MAPDATA::
+
+  _   _   _
+ | |_| |_| |                    /
+ |    ^    |                  o
+ | + | | + |                /  _   _   _
+ |___|_|___|          o   o   | |_| |_| |
+      |               | /     |    ^    |
+  o - o - o           o - o   | + | | + |
+      |             /         |___|_|___|
+      o           o
+      |         /
+      o       o
+      |     /       ===============
+      o   o         Pelennor Fields
+      | /           ===============
+    - o
+      |
+      o
+      |
+  o - o - o
+      |
+  _   _   _
+ | |_| |_| |
+ |    ^    |
+ | + | | + |
+ |___|_|___|

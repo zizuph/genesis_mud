@@ -1,0 +1,42 @@
+main
+::MAPDATA::
+lounge 13 1
+quartnpr 9 3
+corr27 13 3
+quartnps 17 3
+qrtprn 5 5
+quartch 9 5
+corr24 13 5
+quartslv 17 5
+qrtpsn 21 5
+qrtprw 1 7
+corr26 5 7
+corr25 9 7
+corr23 17 7
+corr28 21 7
+qrtpse 25 7
+qrtprs 5 9
+winery 9 9
+corr22 13 9
+dine1 17 9
+qrtpss 21 9
+kitchen 9 11
+corr21 13 11
+dine2 17 11
+stair2 13 13
+stair3 13 13
+::MAPDATA::
+
+             o
+             |
+         o - o - o
+             |
+     o   o - o - o   o            |>
+     |     /   \     |           /\
+ o - o - o       o - o - o      /__\
+     |     \   /     |         |    |
+     o   o   o   o   o         |    |
+         |   |   |             | [] |
+         o - o - o             |    |
+             |                 |    |  
+            [ ]                |____|

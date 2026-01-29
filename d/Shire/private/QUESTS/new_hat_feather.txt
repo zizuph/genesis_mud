@@ -1,0 +1,36 @@
+Group:      1
+
+Bit:        5
+
+Name:       Get new hat feather for Tom Bombadil
+
+Programmed: Finwe, January 2002
+
+Problem:    Tom Bombadil wants a new feather for his hat.
+
+Solution:   Find the pheasant in the Shire. Kill him and get 
+            the feather. Return it to Tom for experience.
+
+Skills:     None needed
+
+Risks:      If your super small, maybe death.
+
+XP-Scale:   750
+
+Remarks:    This is a simple quest, almost a tour.
+
+Relevant
+Files:      
+            NPCs
+            --------------
+            Tom Bombadil - /d/Shire/bombadil/npc/tom.c
+
+            Objects
+            --------------
+            feather - /d/Shire/bombadil/obj/feather.c
+            pheasant - /d/Shire/bombadil/npc/pheasant.c
+
+            The pheasant is loaded in the following rooms:
+            /d/Shire/eastroad/western/er10s.c
+            /d/Shire/eastroad/western/er6n.c
+            /d/Shire/eastroad/western/er18n.c

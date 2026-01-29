@@ -1,0 +1,436 @@
+                        Creating a Guild Special
+                        ========================
+
+Introduction
+------------
+Every guild needs specials, but writing one is never that easy. From a
+balance perspective, it is very difficult to make sure that different
+specials operate within the same rules as others. Things like applying
+haste bonuses or strength bonuses are hard to keep track of and make
+maintaining multiple guild specials a nightmare in a mud where the
+guildmasters may not necessary be aware of all the requirements. During
+the current (2008) balancing effort, an effort is being made to create
+a system to resolve some of these issues. This new system is designed
+to be a centralized system, with a single framework that takes care
+of all the little things like the aforementioned aspects of a special.
+By rewriting all specials using this centralized system, it ensures
+that there is fairness across all guilds. The rest of this document
+will serve as a small reference on how to actually implement a special.
+
+Basic Concepts
+--------------
+The centralized special system is designed around the concept of a maximum
+combat aid. Based on the maximum combat aid set in the special, damage is
+calculated by combining the combat aid with: strength bonus, weapon pen,
+skill level, haste bonus, combat aid modifier, and ability time. The 
+beauty of this system is that by changing one single function in one
+file, it has the potential of changing the damage calculation for all
+guilds that use this system. This is a very powerful tool for balance going
+forward.
+
+Implementation
+--------------
+Implementing a new special is really easy under the centralized system.
+I will demonstrate how to do this using the Calian swarm as an example.
+
+The first thing to do is create a specials file (eg. swarm.c) and inherit
+from damage.c.
+
+   #inherit "/d/Genesis/specials/std/damage.c";
+
+Damage is based on a timed ability library which is based on the ability
+library. Because of the long chain of inheritance, you might need to look
+around a bit to see what functions you need to mask. For swarm, I've
+located a few of the more important ones. Here is the full list of 
+functions that are masked by the swarm special.
+
+    public void         config_ability();
+    public void         special_did_hit(int aid, string hdesc, int hid, 
+                                        int phurt, object enemy, int dt, 
+                                        int phit, int dam);
+    public int          query_combat_aid_modifier();
+    public int          query_tohit();
+    public int          query_dt(object * items);
+    static int          check_valid_action(object player, mixed * targets, 
+                                           string arg, int execute);
+    static mixed *      check_required_items(object actor, mixed * targets,
+                                             string arg, int pretest)
+    public void         apply_costs_to_player(object player);
+    public int          force_fail(object player, mixed * items, 
+                                   object enemy, int resist, int result);
+
+Function: config_ability
+------------------------
+This is the first function that should be implemented for the special. It 
+essentially contains the most important information that is used to 
+calculate the timing and the damage of the special. It also sets the name.
+
+Function: special_did_hit
+-------------------------
+When a special actually fires (passing all requirements and checks), this
+function is called. This is where all the fun descriptions for a special
+get defined.
+
+Function: check_valid_action
+----------------------------
+This function is called during the preparation phase of the special. If
+it returns a failure, then the special will not be scheduled at all.
+
+Function: force_fail
+--------------------
+This function is called right before the special is executed. Since there
+is a delay between when the special is prepared and the special executes
+the conditions could have changed to force the special not to execute.
+For Calians, this could mean that the enemy is now attacking them instead
+of someone else.
+
+Function: query_tohit
+---------------------
+The tohit function is calculated by masking this function. By default, this
+simply returns a constant number that can be set during config_ability.
+However, it is likely that the tohit should change depending on the
+skills or stats of the player executing the special.
+
+Function: check_required_items
+------------------------------
+This function ensures that the player has all the items wielded/worn in
+order to execute the special. The output of this function is an array
+containing the items. This output is used as the input to other functions
+such as query_dt.
+
+Function: query_dt
+------------------
+For specials that use a weapon, it is likely that you want to make sure
+you mask this function so that the correct damage type is applied. The
+input to this function in "items", which should contain the weapon (and
+other required items) that the player is holding/wielding/wearing.
+
+Function: apply_costs_to_player
+-------------------------------
+Someone who executes a special incurs some sort of cost. This function
+should be overridden to change something on the player to that effect.
+The default implementation of this function subtracts 2 fatigue from
+the player.
+
+Function: query_combat_aid_modifier
+-----------------------------------
+Maximum combat aid is provided in config_ability. However, there may be
+situations where the player should have less combat aid. For Calians,
+their combat aid maxxes out at 4 Calians, so any less than that, their
+combat aid will be less.
+
+Example: Swarm
+--------------
+Now, here's a skeleton version of the Calian swarm that can be used as
+the basis for any special. For the full version, please refer to swarm.c
+in the examples.
+
+#pragma strict_types
+
+inherit "damage.c";
+
+#include <macros.h>
+#include <options.h>
+#include <formulas.h>
+#include <files.h>
+#include <adverbs.h>
+#include <tasks.h>
+#include <composite.h>
+#include <macros.h>
+#include <ss_types.h>
+#include <wa_types.h>
+#include <filter_funs.h>
+
+#include "/std/combat/combat.h"
+
+#define SS_SWARM_KNOWLEDGE 114007
+#define SWARM_MANA 2
+#define SWARM_FATIGUE 2
+
+// Prototypes
+public void             config_ability();
+public void             special_did_hit(int aid, string hdesc, int hid, 
+                                        int phurt, object enemy, int dt, 
+                                        int phit, int dam);
+public int              query_combat_aid_modifier();
+public int              query_tohit();
+public int              query_dt(object * items);
+static int              check_valid_action(object player, mixed * targets, 
+                                           string arg, int execute);
+static mixed *          check_required_items(object actor, mixed * targets,
+                                             string arg, int pretest);
+public void             apply_costs_to_player(object player);
+public int              force_fail(object player, mixed * items, 
+                                   object enemy, int resist, int result);
+
+
+/*
+ * Function name: config_ability
+ * Description  : Main fuction that configures what the special
+ *                should look like. Set basic things like combat
+ *                aid and the skills to be used for calculating
+ *                damage and of course, the name.
+ * Arguments    : none
+ * Returns      : nothing
+ */
+public void 
+config_ability()
+{
+    ::config_ability();
+    // Maximum combat aid is 150%
+    set_combat_aid(150);
+    // Extra damage taken from Strength and Guild Stat
+    set_stats_used(({ TS_STR, TS_OCC }) );
+    // Swarm is used in the F_PENMOD calculation for the skill portion
+    set_skills_used(({ SS_SWARM_KNOWLEDGE }) );
+    // Can swarm once every 10 seconds
+    set_ability_time(10);
+    set_dt(W_IMPALE);
+    set_ability_name("swarm");
+}
+
+/*
+ * Function name: special_did_hit
+ * Description  : Mask this function to process when the special
+ *                scores. Descriptions seen by everyone are set
+ *                here.
+ * Arguments    : aid   - attack id
+ *                hdesc - hit description
+ *                hid   - 
+ *                phurt - extent of damage
+ *                enemy - person being hit by special
+ *                dt    - damage type
+ *                phit  - 
+ *                dam   - damage amount
+ * Returns      : nothing
+ */
+public void special_did_hit(int aid, string hdesc, int hid, 
+                int phurt, object enemy, int dt,int phit, 
+                int dam)
+{
+    object player;
+    
+    player = this_player();
+    if (dam<=0)
+    {
+        /* 
+         * Damn, missed! 
+         */ 
+        player->catch_tell("You fail to sneak around " 
+                         + QTNAME(enemy) + "'s defences.\n"); 
+        if (interactive(enemy)) 
+        {
+            enemy->catch_tell(QCTNAME(player) + "fails to "
+                            + "sneak around your defences.\n");
+        }                            
+        player->tell_watcher(QCTNAME(player) + " fails to sneak around " 
+                           + QTNAME(enemy) + "'s defences.\n", enemy, 0);
+        return;
+    }
+    
+    string dtype;
+    
+    switch (phurt)
+    {
+        case 0..4:
+            dtype="barely ";
+            break;
+        case 5..9:
+            dtype="";
+            break;
+        case 10..19:
+            dtype="soundly ";
+            break;
+        case 20..50:
+            dtype="thoroughly ";
+            break;
+        default:
+            dtype="devastatingly ";
+    }
+
+    player->catch_msg
+    ("You swarm the "+hdesc+" of "+QTNAME(enemy) + ", "+ dtype +
+      "injuring " +enemy->query_objective()+".\n");
+
+    player->tell_watcher(QCTNAME(player)+" swarms the "+
+        hdesc+" of "+ QTNAME(enemy) + ", "+ dtype + "injuring " + 
+        enemy->query_objective() + ".\n", ({ enemy }));
+
+    enemy->catch_msg(QCTNAME(player) + " swarms your " + hdesc +
+        ", " + dtype + "injuring you.\n");
+    
+    if (enemy->query_hp() <= 0)
+    {
+        enemy->do_die(player);
+    }    
+}
+
+/*
+ * Function name: query_combat_aid_modifier
+ * Description  : Calculates the percentage of the maximum
+ *                combat aid that applies to the current situation
+ * Arguments    : player - player executing special
+ * Returns      : number between 1 and 100
+ */
+public int 
+query_combat_aid_modifier()
+{
+    ... modify according to number on team
+}
+
+
+/*
+ * Function name: query_tohit
+ * Description  : Calculates the tohit for the player. Based on
+ *                swarm knowledge or wisdom
+ * Arguments    : player - player to check
+ * Returns      : input to cb_tohit function
+ */
+public int 
+query_tohit()
+{
+    object weapon, player;
+    int tohit;
+        
+    player = this_player();
+    weapon = query_preferred_weapon(player);
+    if (!weapon)
+    {
+        return 0;
+    }
+    
+    tohit = min(max((player->query_skill(SS_SWARM_KNOWLEDGE) / 2), 
+                     player->query_stat(SS_WIS) / 2), 50) 
+          + ((25 * weapon->query_hit()) / 13);
+    return tohit;
+}
+
+/*
+ * Function name: query_dt
+ * Description  : Checks the weapons and returns the weapon type
+ * Arguments    : items - array of required items. Should only be one
+ *                        weapon in the array
+ * Returns      : the damage type
+ */
+public int 
+query_dt(object * items)
+{
+    if (!sizeof(items))
+    {
+        // Return the default damage type
+        return ::query_dt(items);
+    }
+
+    // Otherwise, just return the damage type of the wielded weapon    
+    return items[0]->query_dt();
+}
+
+/*
+ * Function name: check_valid_action
+ * Description:   Perform ability-specific checks
+ * Arguments:     1. (object) The player
+ *                2. (mixed *) The targets
+ *                3. (string) Arguments passed to the command
+ *                4. (int) Actual spell execution
+ * Returns:       (int) 1 if we can continue, 0 if failure
+ */
+static int 
+check_valid_action(object player, mixed * targets, string arg, int execute)
+{
+    object enemy;
+    
+    if (!validate_swarm_requirements(player))
+    {
+        return 0;
+    }
+    
+    ... some other checks
+    
+    // If it passes everything, return success
+    return 1; 
+}
+
+
+/*
+ * Function name: check_required_items
+ * Description  : Does some validation to make sure the Calian has
+ *                all the equipment they need to perform the special.
+ * Returns      : items that are required.
+ */
+static mixed * 
+check_required_items(object actor, mixed * targets,
+                     string arg, int pretest)
+{
+    object weapon;
+    int hand;
+    
+    weapon = query_preferred_weapon(actor);
+    if (weapon)
+    {
+        return ({ weapon });
+    }
+    
+    return 0;  // Need to be wielding some sort of weapon
+}
+
+/*
+ * Function name: apply_costs_to_player
+ * Description  : By default, a small fatigue cost is applied
+ *                for the special. Other costs can be applied
+ *                as well by a masked function.
+ * Arguments    : player - player executing the special
+ * Returns      : nothing
+ */
+public void
+apply_costs_to_player(object player)
+{
+    string error_message;
+    string tag;
+    
+    tag = APPLY_COSTS;
+    if (player->query_mana() < SWARM_MANA || 
+        player->query_fatigue() < SWARM_FATIGUE) 
+    {
+        error_message = "As you are so weary, using the swarm "
+                     + "special is damaging your health.\n"; 
+        player->catch_tell(error_message);
+        player->heal_hp(-10); 
+    } 
+    player->add_mana(-SWARM_MANA); 
+    player->add_fatigue(-SWARM_FATIGUE); 
+
+    ::apply_costs_to_player(player);
+}
+
+/*
+ * Function name: force_fail
+ * Description:   This function allows the special to force a failure for
+ *                whatever reason. Called right before execution at the end
+ *                of the delay
+ * Arguments:     1. (object)   The player
+ *                2. (object) The targets
+ *                3. (int *)    Resistance values corresponding to each target
+ *                4. (int)      The attempt result as returned by
+ *                              query_casting_success()
+ * Returns:       1 for failure, 0 for not.
+ */
+public int 
+force_fail(object player, mixed * items, object enemy, 
+           int resist, int result)
+{
+    string tag;
+    string error_message;
+    object * team;
+    object weapon;
+    
+    tag = SWARM_VALIDATE;
+
+    ... some other checks
+    
+    if (!validate_swarm_requirements(player))
+    {
+        return 1;
+    }
+
+    return 0;
+}

@@ -1,0 +1,85 @@
+******************************************************************************
+*                            EXPLANATION OF MONSTERS                         *
+******************************************************************************
+found in ~zima/argos/metro/monsters
+ 
+alexis.c    - Quest master.
+              ROOM: park5.c (roams parkX.c via add_act(north/south/east/west)
+              ASK:  'for tour' - gives player a tour and sets quest prop
+                                 accordingly (indicating on tour)
+                    'for reward' - gives player reward if tour finished;
+                                 sets quest bits appropriately; sets
+                                 quest prop (indicating not on tour)
+barpatron.c - A barpatron - a randomized, drunk NPC who stays in the
+              pub.
+              ROOM: pub.c (2)
+bartender.c - Bartender in the pub. If he is not present, no pub functions
+              work
+              ROOM: pub.c
+brassman.c  - Keeper of the Brass Works Shop. Player can't buy anything
+              if this NPC not present.
+              ROOM: brasswrk.c
+child.c     - A randomized child.
+              ROOM: park2.c (2), park4.c (2), park6.c(2)
+citizen.c   - A randomized citizen.
+              Evil citizens are rude to visitors (rude when player intros)
+              while good align citizens are nice (return intro when
+              player intros).
+              ROOM: proad9.c (2), proad13.c (2)
+                    droad9.c (2), droad13.c (2)
+                    ttroad9.c(2), trroad13.c(2)
+                    troad13.c(2)
+curator.c  - Curator of the Museum in the library.
+             He is part of the Stolen Cassock quest. He will answer some
+             questions about the stolen item and the thieves. When a
+             player on the quest returns the stolen cassock to him,
+             he sets the ARGOS_QUEST_PROP to quest done.
+             ROOM: lib3.c
+glass_blower.c - Keeper of the Glass Works Shop. Shop functions won't work
+             if he is not present.
+             ROOM: glasswrk.c
+hkrcommander.c - Hidden Kretan Commander
+             Leader of a group of kretans hiding out in the empty shop.
+             ROOM: empty.c
+hkretan.c   - Hidden Kretan Warrior
+             ROOM: empty.c (3)
+innkeeper.c - The keeper of the inn. Inn functions (buy/rent) won't work
+             if he is not in the inn.
+             ROOM: inn.c
+merchant.c  - The keeper of the shop. Shop functions won't work if he is not
+             in the shop.
+             ROOM: shop.c
+pigeon_keeper.c - The keeper of the coop. Can't buy pigeons if he is not in
+             the coop.
+             ROOM: coop.c
+seamstress.c - Seamstress of the Woolworks. She provides the services of
+             spinning and weaving. Services won't work if she is not there.
+             ROOM: woolwrk.c
+smith.c     - The smith of the forge. Forge functions won't work if he is not
+             in the forge (wax/sharpen)
+             ROOM: forge.c
+speaker.c   - He speaks at the Aeropagus (public forum). He is randomly
+              good (pro-visitor/king) or evil (anti-visitor). He just
+              shouts out his speeches.
+              ROOM: aeropagus.c
+strguard.c  - Street Guard of the City. Does not wander.
+              ROOM: lroad7.c (2), lroad10.c (2), lroad13.c (2), lroad16.c(2)
+                    proad11.c(2), droad11.c (2), trroad11.c(2), troad11.c(2)
+                    aroad7.c (2), aroad11.c (2), aroad16.c(2)
+thesp_app  - Apprentice of the Thespian guild.
+             ROOM: amph2.c, amph3.c amph4.c (1 each)
+thespian.c - Member of the Thespian Guild
+             ROOM: thesp1.c (3), thesp2.c (2)
+thespmstr.c - Master of the Thespian Guild.
+             He is involved with the New Wine quest. When a player brings
+             him a bottle of new wine, the quest is done.
+             ROOM: thesp2.c
+vcnoble.c  - Hostess at the visitors center. She will answer a few questions
+             about the Registry Tour (about quill, bursar, etc.)
+             ROOM: visitctr.c
+ 
+ZIMA/ARGOS/PHARTEMP/MONSTERS
+outpriest.c - Priest who roams around outside the closed temple. if a
+              player asks him 'to bless grape juice', and the player
+              has a bottle of grape juice, he will turn the juice
+              into wine. Part of New Wine Quest.

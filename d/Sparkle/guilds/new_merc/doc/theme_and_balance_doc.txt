@@ -1,0 +1,223 @@
+             DOCUMENTATION FOR THE ABILITIES AND LIMITATIONS
+                     OF THE FREE MERCENARY GUILD
+             FOR THE PURPOSE OF EXPLAINING THEME AND BALANCE
+
+
+  * Relevant Files/functions listed below each item where necessary.
+
+Statement of Theme:
+~~~~~~~~~~~~~~~~~~~
+
+Mercenaries are epitomized by the desire to provide services to the
+highest bidder. In that a potential contract can ask for just about
+any sort of service, the Mercenary dedicates his or her life to knowing
+where to learn how to do just about anything well - the art of
+adaptability. Mercenaries, therefore, are competent fighters who
+have the ability to specialize in whatever knowledge will further
+their ability to get a job done.
+
+
+Skills Trained:
+~~~~~~~~~~~~~~~
+
+MUDLIB DEFINED SKILLS:
+
+Axe              : 75
+Blindfighting    : 70
+Club             : 75
+Defence          : 75
+Knife            : 70
+Parry            : 75
+Polearm          : 75
+Sword            : 75
+Two-handed combat: 75
+Unarmed Combat   : 70
+
+GUILD-SPECIFIC SKILLS:
+
+Adaptability     : 100 (determines amount of distributable skill points)
+Mercenary Tactics: 100 (offensive damage special attack)
+
+  * /d/Sparkle/guilds/new_merc/rooms/adapt_train.c
+  * /d/Sparkle/guilds/new_merc/rooms/all_train.c
+  * /d/Sparkle/guilds/new_merc/rooms/tactics_train.c
+  * /d/Sparkle/guilds/new_merc/rooms/wep_train.c
+
+A special note about the all_train.c room: To allow mercenaries who
+adapt skills to new levels to not suffer skill decay, this room, which
+is not accessible to actually enter, provides the mercenary players
+with training in every single mudlib-defined skill to a potential of
+100. The sk_query_max return for each skill is based on the amount
+to which they have adapted the skill via their Mercenary abilities.
+This will be described in full below under the section on Adaptability. 
+
+Unique Features and Abilities:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    - Adaptability:
+
+        The main distinguishing factor of the Mercenary Guild that is
+        meant to appeal to players is that as a Mercenary you become
+        an absolute master of the mudlib-defined skills in Genesis.
+
+        Mercenaries get adaptability points (AP) that are equal in
+        number to their training level in the "adaptability" skill
+        that is offered by the guild. AP can then be "spent" to increase
+        any mudlib-defined skill in the game by one level per AP spent.
+
+        The way this is handled technically is that when an AP is spent,
+        set_skill_extra() is called in the player for the skill they
+        wish to train, which raises their skill in that by one for
+        the duration of the login. In addition, the current number of
+        AP they are dedicating to that skill is saved in a data file
+        that is called upon to set the skills when the player logs
+        in for a new session.
+
+  * /d/Sparkle/guilds/new_merc/obj/merc_master.c
+        set_skill_enhance()
+  * /d/Sparkle/guilds/new_merc/occ_shadow.c
+        init_guild_member()
+
+        Mercenaries receive a potential 100 AP, allowing them to boost
+        skills as they desire up to 100 skill points. Upon first
+        joining the guild, the player has no AP, and only by raising
+        their "adaptability" skill will they gain them - one for each
+        skill level they have trained in adaptability.
+
+        However, new Mercenaries limited in the number of levels they
+        are able to train adaptability. The actual number is determined
+        as 100 - n, where n is the number of mudlib-defined skills
+        currently in the game. At the time of this writing there are 48
+        such skills, which means that Mercenaries begin being able to
+        train adaptability to junior craftsman (52.)
+
+  * /d/Sparkle/guilds/new_merc/rooms/adapt_train.c
+        query_sk_max()
+  * /d/Sparkle/guilds/new_merc/obj/merc_master.c
+        query_skillnum_index()
+
+        To raise their ability to train to higher levels in adaptability,
+        the Mercenary Guild has a very unique guru quest. The idea
+        is that for each mudlib skill, there exists somewhere in the
+        realms of Genesis an npc who is the "master trainer" for the
+        art of that particular lore.
+
+  * /d/Sparkle/guilds/new_merc/obj/merc_master.c
+        Adapt_Map (global mapping variable defined at top of file)
+
+        The player can ask the npc trainer of the guild about any
+        skill, and the player will then be told who the master trainer
+        npc is, and where to look for them. 
+
+  * /d/Sparkle/guilds/new_merc/npc/adapt_trainer.c
+
+        A player must then seek out this npc, and train with them. It
+        costs the player 10 platinum coins to begin training with each
+        individual master npc. Each time they pay this initial cost with
+        a trainer they have not previously visited, they raise the
+        level they are able to train adaptability by 1, and thus gain
+        an additional AP. In this way, by finding all of the master
+        trainer npcs and training with them, the player completes the
+        guru quest and is able to train adapatability to superior
+        guru, and gets their full compliment of 100 AP. At the time
+        of this writing, the cost to complete the guru quest is
+        480 platinum coins (n * 10, where n is the number of mudlib-
+        defined skills in the game - currently 48.)
+
+        The way this is handled technically is that the code for
+        interacting with each npc is contained in the mercenary guild
+        master object itself, and then scripts are delivered to the
+        npcs to perform using command(). 
+
+  * /d/Sparkle/guilds/new_merc/cmdsoul.c
+        adapt()
+        mercpay()
+  * /d/Sparkle/guilds/new_merc/obj/merc_master.c
+        adapt_script1()
+        adapt_cost()
+        adapt_train1()
+        merc_pay1()
+
+        Mercenaries can re-spec their adaptation choices any time
+        they like. But they will always be required to return to the
+        master trainer npc for the skill in question to actually
+        raise levels back up that they have cleared from their
+        AP allocations. The cost for re-training a previously
+        adapted skill is only 2 platinum coins.
+
+  * /d/Sparkle/guilds/new_merc/cmdsoul.c
+        adapt()  ... see the parts for arg == "clear"
+  * /d/Sparkle/guilds/new_merc/obj/merc_master.c
+        clear_adapt()
+
+
+    - Affiliations:
+
+        Mercenaries, by definition, are blades for hire. To support
+        this idea in terms of roleplay, Mercenaries are able to
+        affiliate with any guild or player in the game. Doing so will
+        change the title of the Mercenary from reading "Free Agent"
+        to a either set title that is specific to each guild or
+        a title indicating loyalty to the specific player.
+
+        There is no restriction or prerequisite for affiliating with
+        a person or group. I can wear a "Brad Pitt is my
+        VERY BEST FRIEND!!" T-shirt, Brad Pitt can't do anything
+        about it other than come over and punch me in the face. In
+        much the same way, a Mercenary can claim affiliation with
+        whoever they choose, and the person or group in question
+        can then either agree with this idea or come and punch the
+        Mercenary in the face, Genesis-style.
+
+  * /d/Sparkle/guilds/new_merc/cmdsoul.c
+        maffiliate()
+  * /d/Sparkle/guilds/new_merc/obj/merc_master.c
+        parse_affiliation()
+
+
+
+Combat Specials:
+~~~~~~~~~~~~~~~~
+
+    Mattack:
+
+        Using Mercenary Tactics, a mercenary looks for an opportunity
+        in combat to achieve this special attack. This is a fairly
+        mundane run-of-the-mill attack that provides fairly standard
+        descriptions based on the type of weapon used.
+
+        The attack is distinctive in that it provides one of the
+        (if not the very) shortest prep times and recovery times of
+        any special attack in the game. The prep and recovery time
+        are each 4-8 seconds depending on the Mercenary Tactics skill
+        of the player. With a combat aid set at 70, this attack
+        becomes a high-frequency low-yield special. To players, it is
+        likely to seem slightly underpowered, which given the
+        other skill-based benefits of this game is keeping with the
+        design goals. This is not meant to be a guild on par with
+        gladiators or knights for combat unless the Mercenary very
+        specifically optimizes for that purpose and that purpose
+        alone.
+
+        One unique aspect of this special is that there is a 1/1000
+        chance that any given hit will be considered a critical hit.
+        A critical hit results in x3 damage and very colorful
+        combat messages.
+
+  * /d/Sparkle/guilds/new_merc/specials/mattack.c
+
+
+Final Thoughts:
+~~~~~~~~~~~~~~~
+
+A potentially very meaningful aspect of balance for the Mercenary Guild
+will play out in the way individual players are able to use the skill
+boosting advantages to amplify the powers of their layman guilds. Special
+monitoring should be given to thieves who make use of the <backstab>
+attack and spellcasters whose spell effects take skill levels into
+account.
+
+Many thanks to all who have been involved in the process of creation and
+testing!
+
+Submitted September 2009, by Gorboth

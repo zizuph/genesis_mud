@@ -1,0 +1,449 @@
+Hi Petros,
+
+I thought I'd turn in something of a rough draft balance document a ways
+before it is time to officially submit the guild for review. I want to get
+the main concepts nailed down correctly before getting too much farther down
+the road, so I wanted to check with you on these things now rather than
+later. Most of what is described below is actual in the code, with the
+exception of all special attacks, defensive specials, tactics, and summoning
+costs. What has been set up are all the stats, skills, race types, hit/pen
+and AC values.
+
+I'd like to know if you think there are any major red flags that I need to
+address in my design for the sake of balance.
+
+Thanks so much!
+G.
+
+----------------------------------------------------------------------------
+
+                              Balance Document
+                            The Cult of Chemosh
+                    Occupational + Layman Necromancer Guild
+
+                     Submitted by Gorboth, November 2012
+
+----------------------------------------------------------------------------
+
+Basic concepts:
+
+  - At max guild level, a Necromancer earns 21 research points to spend.
+  - The points may be spent in five separate research areas.
+  - Each research area has 10 tiers, each increasing power in that area.
+  - A Necromancer may specialize in one research area.
+  - Without specialization, maximum research in a given area is tier 5.
+  - The 5th tier in any area is intended to provide "standard" power.
+  - The 10th tier in any area is intended to be a game-changer.
+  - To reach the 10th tier in any area, harsh sacrifices must occur elsewhere,
+    denying the ability to reach "standard" power in some or all other areas.
+
+This results in countless build options, anticipated to fall most frequently
+into a number of regular categories. For balance purposes, it is probably most
+important to consider these main four:
+      (naturally, players will experiment and find many other build setups)
+
+  - Severe Specialist    : 10, 5, 5, 1, 0 (full spec'd power, harsh drawbacks)
+  - Balanced Specialist  : 10, 5, 3, 3, 0 (full spec'd power, even drawbacks)
+  - Specalized Generalist:  8, 5, 5, 3, 0 (good spec'd power, fewer drawbacks)
+  - True Generalist      :  5, 5, 5, 5, 1 (basic capabilities, no drawbacks)
+
+Research Areas, and their tiers:
+
+  Minion Offense (base is 20 in unarmed/weapon skills, 50% base str/dex)
+      1.  40 in unarmed/weapon skills
+      2.  60% base str and dex granted, hit/pen increased by 5
+      3.  weak special attack granted, based on weapon/unarmed hit/pen, skill
+      4.  60 in unarmed/weapon skills
+      5.  75% base str and dex granted, hit/pen increased by 10
+    -----[specialization cutoff]-----
+      6.  medium special attack granted, based on weapon/unarmed hit/pen, skill
+      7.  80 in unarmed/weapon skills
+      8.  100% base str and dex granted, hit/pen increased by 15
+      9.  100 in unarmed/weapon skills
+     10.  high-powered special granted, based on same as above.
+
+  Minion Defense (base defence skill is 20, 50% base con)
+      1.  40 in defence and parry skills
+      2.  base ac boosted by 10, 60% base con granted
+      3.  60 in defence and parry skills
+      4.  base ac boosted by 15, 75% base con granted
+      5.  75 in defence and parry skills
+    -----[specialization cutoff]-----
+      6.  low-level stun special granted
+      7.  90 in parry and defence skills, base ac boosted by 20
+      8.  10% incoming hits deflected, 100% base con granted
+      9.  100 in parry and defence skills
+     10.  25% incoming hits deflected
+
+  Minion Tactics (base tactic - minions will assist only if master *attacks*)
+      1.  minions will now also assist if master *is* attacked
+      2.  minions will now also assist if other minions are attacked
+      3.  minions can be commanded to initiate combat with a target
+      4.  minions able to carry things
+      5.  master may move-behind minions -> Undead taunt
+    -----[specialization cutoff]-----
+      6.  minions able to "burrow" to conceal themselves until recalled
+      7.  minions able to "flush" target out a given exit
+      8.  minions able to block exits
+      9.  tanking minions will move behind healthiest minion if too hurt
+     10.  minions able to wear/wield equipment
+
+  Summoning Science (base minion count = 1, cost = 10 darksouls per minion)
+      1.  2 minions may be summoned
+      2.  minions cost 7 darksouls each
+      3.  3 minions may be summoned
+      4.  minions cost 5 darksouls each
+      5.  4 minions may be summoned
+    -----[specialization cutoff]-----
+      6.  minions cost 3 darksouls each
+      7.  5 minions may be summoned
+      8.  minions cost only 2 darksouls each
+      9.  6 minions may be summoned
+     10.  minions cost only 1 darksoul each, 7 minions may be summoned
+
+  Soul Science (natural soul/darksoul convserion = 7/1)
+      1.  6/1 soul/darksoul conversion
+      2.  10% of souls automatically convert to darksouls upon harvest
+      3.  5/1 soul/darksoul conversion
+      4.  20% of souls automatically convert to darksouls upon harvest
+      5.  4/1 soul/darksoul conversion
+    -----[specialization cutoff]-----
+      6.  33% of souls automatically convert to darksouls upon harvest
+      7.  3/1 soul/darksoul conversion
+      8.  50% of souls automatically convert to darksouls upon harvest
+      9.  2/1 soul/darksoul conversion
+     10.  All souls automatically convert to darksouls upon harvest
+
+To get a sense of the power players will be wielding, we should now list the
+maximum numbers that minions might possess, both at standard and specialized
+power. The highest-level minions can be raised with a 160 stat average. The
+specific stats are all very much dependant on the following factors:
+
+    - The Minion's base level and powers (determined by race, learned
+                                          progressively by advancement
+                                          through guild levels.)
+
+                   public int    *Minion_Averages = ({
+                      10, /* Wretch     */  (e.g. Frog, Mouse, Spider)
+                      20, /* Hopeful    */  (e.g. Cat, Duck, Owl)
+                      30, /* Registrant */  (e.g. Dog, Racoon, Sheep)
+                      40, /* Initiate   */  (e.g. Deer, Eagle, Monkey)
+                      60, /* Docent     */  (e.g. Boar, Wolf, Pony)
+                      75, /* Sophomore  */  (e.g. Cow, Horse, Camel)
+                      90, /* Apprentice */  (e.g. Bear, Harpy, Lion)
+                     100, /* Vassal     */  (e.g. Hobbit, Kender)
+                     110, /* Understudy */  (e.g. Gnome)
+                     120, /* Pupil      */  (e.g. Dwarf)
+                     130, /* Student    */  (e.g. Goblin, Orc)
+                     140, /* Savant     */  (e.g. Human)
+                     150, /* Scholar    */  (e.g. Elf, Drow)
+                     160, /* Authority  */  (e.g. Centaur, Giant, Minotaur)
+                                 });
+
+                   public int    *Minion_Armour  = ({
+                                      4, /* Wretch     */
+                                      6, /* Hopeful    */
+                                      8, /* Registrant */
+                                     10, /* Initiate   */
+                                     12, /* Docent     */
+                                     14, /* Sophomore  */
+                                     16, /* Apprentice */
+                                     18, /* Vassal     */
+                                     20, /* Understudy */
+                                     22, /* Pupil      */
+                                     24, /* Student    */
+                                     26, /* Savant     */
+                                     28, /* Scholar    */
+                                     30, /* Authority  */
+                                 });
+
+                  public int    *Minion_Hit     = ({
+                                      4, /* Wretch     */
+                                      6, /* Hopeful    */
+                                      8, /* Registrant */
+                                     10, /* Initiate   */
+                                     12, /* Docent     */
+                                     14, /* Sophomore  */
+                                     16, /* Apprentice */
+                                     18, /* Vassal     */
+                                     20, /* Understudy */
+                                     22, /* Pupil      */
+                                     24, /* Student    */
+                                     25, /* Savant     */
+                                     26, /* Scholar    */
+                                     27, /* Authority  */
+                                 });
+
+    - The Minion's class (based on the "thematic" ideas of a given race)
+
+                  Minion Classes by Race:
+
+                  Standard: (e.g. Human, Dog, Horse)
+                    No alterations to base stats / powers
+
+                  Savage: (e.g. Goblin, Boar, Lion) 
+                    Armour Class:  50% of base
+                    Hit/Pen     : 150% of base
+                    Str         : 125% of base
+                    Dex         :  75% of base
+                    Con         :  75% of base
+                    Mentals     :  75% of base
+
+                  Nimble: (e.g. Hobbit, Deer, Mouse)
+                    Armour Class:  75% of base
+                    Hit/Pen     : 100% of base
+                    Str:        :  75% of base
+                    Dex         : 125% of base
+                    Con         : 100% of base
+                    Mentals     : 100% of base
+    
+                  Hardy: (e.g. Dwarf, Turtle, Mule)
+                    Armour Class: 150% of base
+                    Hit/Pen     :  75% of base
+                    Str         : 125% of base
+                    Dex         :  50% of base
+                    Con         : 150% of base
+                    Mentals     :  50% of base
+
+                  Acute: (e.g. Elf, Owl, Cat)
+                    Armour Class:  50% of base
+                    Hit/Pen     :  50% of base
+                    Phyiscals   :  50% of base
+                    Mentals     : 200% of base
+
+  - And, finally, the tiers the Necromancer has spent points on in their
+    areas of research will result in the final  stats, combat numbers,
+    and skill levels for the minion.
+
+It is reasonable to conclude that for optimized combat, the player
+is likely to select either a savage-class minion if they are going
+for a dps win, or a hardy-class minion if they are going for an
+endurance win. The numbers on both of these class types will be
+heavily influenced by the build that the player selects for their own
+research layout. So, lets outline some possibilities below, and
+discuss the pros and cons that factor into each.
+
+    Build Concept: THE OFFENSIVE SPECIALIST
+    Savage Class (Balanced Specalist, Off[10] Def[3] Tac[3] Sum[5] Sls[0])
+    ========================================================================
+    Stat:     str    dex    con    int    wis    dis
+    Value:    200    120     72     60      1     60
+    ------------------------------------------------------------------------
+    Unarmed/Weapon skill    : 100
+    Defence/Parry skill     : 40
+    Offensive Special       : High-Powered
+    Defensive Special       : None
+    Tactical Special        : None
+    Damage Reduction (AC)   : 29.29% (25 unarmoured natural AC)
+    Hit/Pen                 : 55     (unarmed - superior weapon equivalent)
+    Offensive tohit:        : 162
+    Offensive pen:          : 401
+    Hit Deflection:         : 0%
+    Number of minions       : 4
+    Cost per minion         : 5 darksouls
+    Darksoul conversion rate: 7/1
+    Cost to establish setup : 140 souls
+    ------------------------------------------------------------------------
+    Discussion: With low hp and defensive capabilities, the player is
+                trying to win by hitting hard and fast. All primary focus
+                goes to 10 tier points in Offense, which boosts all stats
+                to full potential, gives the boost to natural hit/pen
+                up to 55 (thanks to savage class), and all minions have a
+                high-powered special attack. The next big factor is the
+                5th tier of Summoning which allows for 4 minions, creating
+                huge power returns with the added party member. Remaining
+                points are split evenly between Tactics, which allows the
+                caster to have his minions initiate their own attacks, and
+                Defence, which gives them a little bit of protection. The
+                issue here is that the individual minions are fragile,
+                (the savage class has a big reduction to armour class) and
+                (much worse vs. intelligent enemies) cannot protect the
+                Necromancer via move-behind. Even so, for pure grinding or
+                surprise pvp, the build produces the dps of a 4-member
+                team of rising-hero to hero-sized players, all of whom are
+                wielding awesome weapons and have strong specials.
+    ========================================================================
+
+    Build Concept: THE DEFENSIVE SPECIALIST
+    Standard Class (Balanced Specalist, Off[3] Def[10] Tac[5] Sum[3] Sls[0])
+    ========================================================================
+    Stat:     str    dex    con    int    wis    dis
+    Value:     96     96    160     80      1     80
+    ------------------------------------------------------------------------
+    Unarmed/Weapon skill    : 40
+    Defence/Parry skill     : 100
+    Offensive Special       : Weak
+    Defensive Special       : Stun
+    Tactical Special        : None
+    Damage Reduction (AC)   : 50.00% (50 unarmoured natural AC)
+    Hit/Pen                 : 32     (unarmed - average weapon equivalent)
+    Offensive tohit:        : 104
+    Offensive pen:          : 141
+    Hit Deflection:         : 25%
+    Number of minions       : 3
+    Cost per minion         : 7 darksouls
+    Darksoul conversion rate: 7/1
+    Cost to establish setup : 147 souls
+    ------------------------------------------------------------------------
+    Discussion: This build relies upon throwing up enough defense to be
+                able to hold out long enough for a modest amount of damage
+                to take effect against the enemy. Because the ability to
+                deal some damage is important here, we select a standard
+                class of npc rather than hardy. Additionally, the 3rd tier
+                of offense provides weak specials. The key here is in the
+                specials brought on by the 10 tiers of the Defence area of
+                research. The stun specials performed by three different
+                minions will stack somewhat, extending the delay of the stun
+                longer than if there were just one. When the opponent is not
+                stunned, 1/4th of all hits will be deflected. As such, there
+                is likely to be a great deal less damage coming toward the
+                team than what the team is going to be dishing out, even with
+                its modest 3rd tier of Offense. The 5 tiers in tactics are
+                essential to allow the Necromancer to hide behind his
+                shields. The 3 tiers in Summoning produce 3 minions to keep
+                the defense going. This build works best against a single
+                opponent which can be effectively daunted by the stun and
+                deflection combo. Decent for pvp, as well. The problem will
+                be vs. teams, especially of players, who will be able to
+                quickly overwhelm the defense and throw down the minions.
+    ========================================================================
+
+    Build Concept: THE TACTICAL SPECIALIST
+    Hardy Class (Severe Specalist, Off[1] Def[5] Tac[10] Sum[5] Sls[0])
+    ========================================================================
+    Stat:     str    dex    con    int    wis    dis
+    Value:    100     40    180     40      1     40
+    ------------------------------------------------------------------------
+    Unarmed/Weapon skill    : 40
+    Defence/Parry skill     : 75
+    Offensive Special       : None
+    Defensive Special       : None
+    Tactical Special        : Move-behind rotation
+    Damage Reduction (AC)   : 86.90% (60 natural AC + best gear in game)
+    Hit/Pen                 : 60 (gear dependant)
+    Offensive tohit:        : 42
+    Offensive pen:          : 161
+    Hit Deflection:         : 0%
+    Number of minions       : 4
+    Cost per minion         : 5 darksouls
+    Darksoul conversion rate: 7/1
+    Cost to establish setup : 140 souls, excellent gear
+    ------------------------------------------------------------------------
+    Discussion: This setup has some similarities to the Def. Build, but
+                relies on tactics rather than defensive skills or specials.
+                Here, all bets are placed on the benefits of full tactical
+                research. Most importantly, the zombies now can make use of
+                weapons and armour, like any other player. This opens a wide
+                pandora's box, in which the balance of the gear itself 
+                becomes as much a factor as that of the guild and its powers.
+                Because we bank on gear, the offense tier is mostly ignored,
+                sacrificing any offensive special for the power of a wielded
+                superior weapon. Because weapon power is substandard when
+                compared with the power of guild specials, we must tilt our
+                build even further toward lasting longer in the fight. For
+                this reason, we select a hardy-class zombie, giving an
+                important boost to both constitution and natural armour class.
+                Here, again, gear comes into play, stacking the best stuff
+                the game offers onto the already excellent AC provided by
+                the zombie itself. With full tactics in play, tier 9 of that
+                area allows for the zombies to do a move-behind rotation
+                based on how hurt they are, much like the emyn arnen trolls.
+                For this reason, we spend 5 points in the summoning tier to
+                give us 4 minions for that rotation. This results in the 
+                stand-off dynamic, in which the player is safely hidden 
+                behind tactical minions who do low damage very slowly, but
+                can hopefully last long enough to prevail. Without good gear,
+                this build is hopeless.
+    ========================================================================
+
+    Build Concept: THE SUMMONING SPECIALIST
+    Savage Class (Severe Specalist, Off[5] Def[0] Tac[5] Sum[10] Sls[1])
+    ========================================================================
+    Stat:     str    dex    con    int    wis    dis
+    Value:    150     90     60     60      1     60
+    ------------------------------------------------------------------------
+    Unarmed/Weapon skill    : 60
+    Defence/Parry skill     : 20
+    Offensive Special       : Weak
+    Defensive Special       : None
+    Tactical Special        : None
+    Damage Reduction (AC)   : 18.77% (15 unarmoured natural AC)
+    Hit/Pen                 : 50     (unarmed - excellent weapon equivalent)
+    Offensive tohit:        : 142
+    Offensive pen:          : 303
+    Hit Deflection:         : 0%
+    Number of minions       : 7
+    Cost per minion         : 1 darksoul
+    Darksoul conversion rate: 6/1
+    Cost to establish setup : 42 souls
+    ------------------------------------------------------------------------
+    Discussion: This is the classic zombie horde concept. All thought for
+                defence is sacrificed for standard damage brought forth
+                by as many minions as fast and as cheaply as possible. Much
+                like in zombie movies, the opponent is faced with attackers
+                who are fragile, and go down quickly, but there are ... just
+                ... so ... many of them! No defence results in only 15 AC,
+                supported by a measly 20 defence skill and a dreadful 60
+                constitution. The combat skills of the minions are only very
+                average, at 60 in unarmed. The trouble comes in the fact
+                that their hit/pen are at 50, so this feels like being
+                attacked by a horde of adventurer-level players who are all
+                wearing no armour, and poorly skilled, but who happen to
+                be wielding sardonyx katanas, every one. What is more, each
+                has a weak layman-level special attack. Because the whole
+                purpose of the build is to keep the army big, one point is
+                actually spent here in the Souls area, bringing down the
+                conversion cost to create darksouls by 1. Because zombies
+                are only one darksoul apiece to summon, the cost to create
+                and maintain the build is manageable even when losses are
+                to be expected fairly regularly. Tier 5 in tactics lets the
+                Necromancer hide behind the mob and command from the back in
+                safety.
+    ========================================================================
+
+    Build Nickname: THE STANDARD BUILD
+    Standard Class (True Generalist, Off[5] Def[5] Tac[5] Sum[5] Sls[1])
+    ========================================================================
+    Stat:     str    dex    con    int    wis    dis
+    Value:    120    120    120     80      1     80
+    ------------------------------------------------------------------------
+    Unarmed/Weapon skill    : 60
+    Defence/Parry skill     : 75
+    Offensive Special       : Weak
+    Defensive Special       : None
+    Tactical Special        : None
+    Damage Reduction (AC)   : 46.41% (45 unarmoured natural AC)
+    Hit/Pen                 : 37     (unarmed - good weapon equivalent)
+    Offensive tohit:        : 142
+    Offensive pen:          : 185
+    Hit Deflection:         : 0%
+    Number of minions       : 4
+    Cost per minion         : 5 darksouls
+    Darksoul conversion rate: 6/1
+    Cost to establish setup : 120 souls
+    ------------------------------------------------------------------------
+    Discussion: Here we have the generalist at work, jack of all trades and
+                master of none. Standard power in all minion-based research
+                ensures decent attack power, equal to a good weapon with
+                fair skill to back it up. Defence is decent, equalling good
+                armour being worn and very good skills. Weak layman-style
+                special attacks supplement the modest damage potential, and
+                the 4 minions do a fair job working together. Tactics allow
+                the caster to hide behind the minions to keep himself safe,
+                and the single leftover point in Soul Science keeps the cost
+                of the army lower than any specialist other than Summon Bld.
+    ========================================================================
+
+Important to remember: The zombie minions do *all* damage in combat. The
+                       Necromancer himself has newbie stats and skills and
+                       cannot help with the situation without greatly
+                       risking his own death. There are no damage or nuke
+                       spells - rather, these minions and their abilities
+                       described above are the entirety of the combat aid
+                       that the guild provides.
+
+Relevant files:
+
+    /w/gorboth/necro/obj/necro_tech.c   (master guild object)
+    /w/gorboth/necro/npc/base_zombie.c  (zombie construction, abilities)
+    /w/gorboth/necro/obj/krullix.c      (tool used to summon zombies)

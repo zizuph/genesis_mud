@@ -1,0 +1,1 @@
+inherit "/d/Krynn/solamn/thief/guild/rack/std_rack";

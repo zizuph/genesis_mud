@@ -1,0 +1,41 @@
+
+Map of the Toron Tribe Minotaur Village
+---------------------------------------
+
+Location: At the shores of Crystalmir Lake near the
+          west road from Solace.
+
+
+              H
+             /
+        C   O
+	|   |
+   H  S-F-F O-H
+    \   |   |
+      O-O-O-O
+        |          <- Toron Tribe Minotaur village
+  H-O   O   H 
+    |   |   |
+    O-O-O-O-O-H
+   /    |
+  H     E    
+	|			
+        O
+        |
+        O
+        |
+ ->  O--O--O.O <- New location of DA npc                        
+DA       \                             
+Landing   O                     
+          |                     
+          O                     
+         / \                      
+        O   O-O  <- To Solace
+        
+     
+     
+H  - A minotaur home (a hut or a tent)
+E  - Entrance to camp
+F  - Small fortress
+C  - Chieftain in fortress
+S  - Sage in fortress

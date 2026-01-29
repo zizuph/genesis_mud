@@ -1,0 +1,31 @@
+Message: 150
+From   : Shiva
+Subject: unholy halberd
+To     : Ckrik and Amelia
+Date   : Jul 25 1998
+
+A few code issues:
+
+1) You must call ::did_hit() from your did_hit() function.  Your
+   halberd never dulls if you don't do this.  If you intentionally
+   did that, you need to document it.
+2) Don't use your own tell_watcher() function.  There is one already
+   in the mudlib (in addition to tell_watcher_miss(), which you should
+   also be using).
+3) Your MAGIC_AM_MAGIC and MAGIC_AM_ID_INFO are incorrectly set.  Also,
+   your OBJ_S_WIZINFO is inadequate.  It should also describe what the
+   halberd does.
+4) In did_hit(), return immediately if (random(x)).  Don't waste cpu
+   by executing more code only to abort.
+5) Using QCTNAME for messages to only one living is wasteful.  Use
+   query_The_name() instead.  Also, use catch_tell(), tell_object(),
+   or write() when you don't have VBFC's in the string.
+6) NEVER do query_stat(4).  Always use SS_WIS.
+7) Doing a call_other() (->) to this_object() is wasteful when you
+   can safely assume that the function being called is not going to
+   be shadowed.  Use internal calls.
+8) this_player()->catch_msg() bad; write() good.
+9) You really should use parse_command() in the "swing" command.
+
+That's all I see just looking over it quickly.
+

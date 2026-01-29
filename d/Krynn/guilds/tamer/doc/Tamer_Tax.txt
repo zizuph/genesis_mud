@@ -1,0 +1,83 @@
+Skills:
+=======
+                     Skill   Un-
+                     level   taxed taxed  pen   mod     tax[%]
+SS_ANI_HANDL           60     30    30          0.5      0.250
+SS_RIDING              60     30    30          1.0      0.500
+--------------------------------------------------------------
+Sum:                  120           60      0            0,750
+--------------------------------------------------------------
+
+Skills Tax: 0,75%
+
+Special abilities:
+==================
+
+The maximum capability of pet_attack and reduce damage is 50% combat aid,
+so tax for specials is maxed.
+
+Special Tax: 8.3%
+
+Miscellaneous Specials Perks:
+=============================
+
+-- Mount / (Messenger + Scry):
+   The guild is based around a mount, but not all pets are mountable, if
+   a player picks a pet that is not mountable, that pet has instead two
+   abilities (Messenger + Scry) to replace the loss of having a summonable
+   mount and the ability that comes with being mounted (reduced damage).
+   Keep in mind that no combat aid is lost.
+
+   Summonable Mount: 2%
+   Messenger:      0.5%
+   Scrutinize:     1.5%
+   Tax: 2%
+
+-- Pet_Attack:
+   Having an external special ability would mean it ignores stun to the
+   player, this would be quite powerful, but as this ability comes with the 
+   negative aspect of having a chance of actually not being there, and being
+   able to accumulate wounds. I have decided to set this as a low taxing perk.
+
+   The ability starts has a guild xp modifier of 60/150, while it starts at
+   a high value, it has a penalty of requiring alot of time and work for it
+   to raise its skill. This should not be taxed.
+
+   Tax: 0.4%
+
+-- Presence:
+   The animal increases your skills with its presence, the skills increased
+   are based on the animal, but all are non-combat and capped by the caid
+   this ability costs, or 15 if the ability is cheap.
+   (For further details look in the Animal_Balance file)
+
+   Tax: 0.41%
+
+-- TManeuver:
+   Being able to save your pet from harm seems as a basic ability, but I
+   have decided to tax it, as I have stated wounds as a negative aspect
+   of the pet_attack being a low taxing perk.
+
+   Tax: 0.1%
+
+-- TArmour:
+   Being able to equip your pet with armour, while costly, reduces the
+   chances of the pet dying.
+
+   Tax: 0.04%
+
+-- TCalm / TAssist / TKill:
+   All players can stop a fight between another player, I see no reason to
+   tax the player for this ability. The same with attacking a target.
+
+-- Skill Training:
+   They dont have a guildhall, but skills are trained when the pet uses
+   them. The cost of the skills is based on how much money the user has
+   spent feeding the pet, so no tax is required for this.
+
+Overall Tax:
+    Skills:      0.75%
+    Specials:    8.30%
+    Perks:       2.95%
+    ------------------
+                12.00%

@@ -1,0 +1,63 @@
+                   -= Solamnian Knight Feelings =-
+
+        Command         Description                          Type
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+        kaccept(T)      accept an offer (from someone)      BQCSR
+        kadmire(T)      admire a Knight                     -Q---
+        kamused         NOT amused                          BQCSR
+        kaspire         attend to Squire duties             -Q---
+        kassist(t)      offer assistance (to someone)       BQCSR
+        kbow(t)         knightly bow (to someone)           --CSR
+        kbrook(t)       brook no argument (from someone)    BQCSR
+        kbye(t)         a formal farewell (to someone)      BQCSR
+        kc1(t)          a combatcry (to someone)            BQCSR
+        kc2(s)          a battlecry                         BQCSR
+        kchant          Solamnian Death Chant               BQCSR
+        kchaste(T)      give someone a chaste kiss          BQCSR
+        kclasp(T)       clasp someone's hand in greeting    BQCSR
+        kcount          count to ten to calm yourself       BQCSR
+        kcrown          think of the Order of the Crown     -Q---
+        kd1(T)          challenge someone to a duel         BQCSR
+        kd2(T)          another challenge for a duel        BQCSR
+        kdanger         look for signs of danger            BQCSR
+        kdeclare        declare the Oath                    BQCSR
+        kdeem(T)        deem someone a worthy fighter       BQCSR
+        kdie            prepare for death                   BQCSR
+        kfaith          express faith in the Knighthood     --C--
+        kfirm           stand your ground                   BQCSR
+        khand(T)        kiss someone's hand                 BQCSR
+        khonour(T)      show someone the proper respect     -QCSR
+        klaugh(t)       hearty laughter                     BQCSR
+        klead(t)        offer to lead (someone)             ----R
+        kmagic(t)       scorn magic (or a magic user)       BQCSR
+        knees(T)        ask for someone's blessing          BQCSR
+        knod(t)         indicate it's time to move on       BQCSR
+        knose(t)        wrinkle nose in distaste            BCSR
+        nsmile          smile like Nick                     BQCSR
+        kobey(T)        nod in obedience to a Knight        -Q---
+        pledge          pledge your blade to Paladine       BQCSR
+        kpraise(S)      praise something                    BQCSR
+        kpray(patron)   pray (to your patron)               BQCSR
+        ks(S)           speak in Solamnian                  BQCSR
+        ksage(t)        nod your head sagely                ----R
+        salute(t)       salute (someone)                    BQCSR
+ <kwep> ksalute2(t)     salute (someone) with your weapon   BQCSR
+        kshake          frown at the unjust battle          ---S-
+        ksing           sing a song of war                  BQCSR
+        kslap(T)        slap someone (with a gauntlet)      BQCSR
+        ksmooth(m,h)    smooth (m)oustache or (h)air        BQCSR
+        ksomber         recall fallen comrades              BQCSR
+        kstand(T)       stand at someone's side             --C--
+        kstudy(t)       study your surroundings or someone  BQCSR
+        kswear          your word as a Knight/Sentry        -QCSR
+        ksweat          wipe the sweat from your brow       BQCSR
+        kswift(T)       steal a swift kiss from someone     BQCSR
+        kwar            prepare yourself for war            ---S-
+        tend(S)         attend to your weapons or armour    BQCSR
+        ktoast          toast to good fortune in battle     BQCSR
+        ktrace          trace a scar absentmindedly         BQCSR
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Most emotes can be used with a four letter abbreviation - kamu (kamused)
+Strings: T - requires target                 Types: B = Black Rose
+         t - can be directed at a target            Q = Squire  R = Rose
+         S - requires string                        C = Crown   S = Sword

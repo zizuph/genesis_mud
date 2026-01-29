@@ -1,0 +1,26 @@
+Message: 65
+From   : Xiandra
+Subject: Emote Ideas
+CC     : Karath
+Date   : Jul 28 1997
+
+Here are some emote ideas I've come up with:
+
+wnote
+Xiandra's pen smoothly glides accross the parchment as she meticulously scribes
+information into the back of her spellbook.
+
+wnote <target>
+Xiandra silently nods at Melchar as she carefully jots down his instructions 
+into her spellbook.
+
+
+wsort
+Xiandra sorts through her spell components, carefully selecting the
+appropriate reagents for her purposes.
+
+wsearch
+Xiandra searches through her scrolls, nodding slightly as she selects the
+parchment containing the information she was looking for.
+
+

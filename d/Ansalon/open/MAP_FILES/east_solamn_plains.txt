@@ -1,0 +1,978 @@
+main
+::MAPDATA::
+eplain-14-0-r 36 7 eastern_plains
+eplain-15-0-r 36 7 eastern_plains
+eplain-16-0-r 36 7 eastern_plains
+eplain-17-0-r 36 7 eastern_plains
+eplain-18-0-r 36 7 eastern_plains
+eplain-19-0-r 36 7 eastern_plains
+eplain-20-0-r 36 7 eastern_plains
+eplain-21-0-r 36 7 eastern_plains
+eplain-22-0-r 36 7 eastern_plains
+eplain-23-0-r 36 7 eastern_plains
+eplain-12-1-r 36 7 eastern_plains
+eplain-13-1-r 36 7 eastern_plains
+eplain-14-1-p 36 7 eastern_plains
+eplain-15-1-1 36 7 eastern_plains
+eplain-16-1-1 36 7 eastern_plains
+eplain-17-1-1 36 7 eastern_plains
+eplain-18-1-1 36 7 eastern_plains
+eplain-19-1-1 36 7 eastern_plains
+eplain-20-1-P 36 7 eastern_plains
+eplain-21-1-1 36 7 eastern_plains
+eplain-22-1-1 36 7 eastern_plains
+eplain-23-1-1 36 7 eastern_plains
+eplain-24-1-r 36 7 eastern_plains
+eplain-11-2-r 36 7 eastern_plains
+eplain-12-2-p 36 7 eastern_plains
+eplain-13-2-p 36 7 eastern_plains
+eplain-14-2-1 36 7 eastern_plains
+eplain-15-2-p 36 7 eastern_plains
+eplain-16-2-p 36 7 eastern_plains
+eplain-17-2-p 36 7 eastern_plains
+eplain-18-2-p 36 7 eastern_plains
+eplain-19-2-p 36 7 eastern_plains
+eplain-20-2-3 36 7 eastern_plains
+eplain-21-2-p 36 7 eastern_plains
+eplain-22-2-p 36 7 eastern_plains
+eplain-23-2-p 36 7 eastern_plains
+eplain-11-3-r 36 7 eastern_plains
+eplain-12-3-p 36 7 eastern_plains
+eplain-13-3-1 36 7 eastern_plains
+eplain-14-3-p 36 7 eastern_plains
+eplain-15-3-p 36 7 eastern_plains
+eplain-16-3-p 36 7 eastern_plains
+eplain-17-3-p 36 7 eastern_plains
+eplain-18-3-p 36 7 eastern_plains
+eplain-19-3-3 36 7 eastern_plains
+eplain-20-3-p 36 7 eastern_plains
+eplain-21-3-p 36 7 eastern_plains
+eplain-22-3-p 36 7 eastern_plains
+eplain-23-3-p 36 7 eastern_plains
+eplain-11-4-r 36 7 eastern_plains
+eplain-12-4-1 36 7 eastern_plains
+eplain-13-4-p 36 7 eastern_plains
+eplain-14-4-p 36 7 eastern_plains
+eplain-15-4-p 36 7 eastern_plains
+eplain-16-4-p 36 7 eastern_plains
+eplain-17-4-p 36 7 eastern_plains
+eplain-18-4-p 36 7 eastern_plains
+eplain-19-4-3 36 7 eastern_plains
+eplain-20-4-p 36 7 eastern_plains
+eplain-21-4-m 36 7 eastern_plains
+eplain-22-4-m 36 7 eastern_plains
+eplain-10-5-r 31 12 eastern_plains
+eplain-11-5-1 31 12 eastern_plains
+eplain-12-5-p 31 12 eastern_plains
+eplain-13-5-p 31 12 eastern_plains
+eplain-14-5-p 31 12 eastern_plains
+eplain-15-5-p 31 12 eastern_plains
+eplain-16-5-p 31 12 eastern_plains
+eplain-17-5-p 31 12 eastern_plains
+eplain-18-5-p 31 12 eastern_plains
+eplain-19-5-m 31 12 eastern_plains
+eplain-20-5-D 31 12 eastern_plains
+road1 31 12 eastern_plains
+eplain-9-6-r 31 12 eastern_plains
+eplain-10-6-1 31 12 eastern_plains
+eplain-11-6-p 31 12 eastern_plains
+eplain-12-6-p 31 12 eastern_plains
+eplain-13-6-p 31 12 eastern_plains
+eplain-14-6-p 31 12 eastern_plains
+eplain-15-6-p 31 12 eastern_plains
+eplain-16-6-p 31 12 eastern_plains
+eplain-17-6-p 31 12 eastern_plains
+eplain-18-6-p 31 12 eastern_plains
+eplain-19-6-m 31 12 eastern_plains
+eplain-9-7-r 31 12 eastern_plains
+eplain-10-7-1 31 12 eastern_plains
+eplain-11-7-p 31 12 eastern_plains
+eplain-12-7-p 31 12 eastern_plains
+eplain-13-7-p 31 12 eastern_plains
+eplain-14-7-p 31 12 eastern_plains
+eplain-15-7-p 31 12 eastern_plains
+eplain-16-7-p 31 12 eastern_plains
+eplain-17-7-p 31 12 eastern_plains
+eplain-18-7-p 31 12 eastern_plains
+eplain-19-7-m 31 12 eastern_plains
+eplain-9-8-r 31 12 eastern_plains
+eplain-10-8-1 31 12 eastern_plains
+eplain-11-8-p 31 12 eastern_plains
+eplain-12-8-p 31 12 eastern_plains
+eplain-13-8-p 31 12 eastern_plains
+eplain-14-8-C 31 12 eastern_plains
+eplain-15-8-p 31 12 eastern_plains
+eplain-16-8-p 31 12 eastern_plains
+eplain-17-8-p 31 12 eastern_plains
+eplain-18-8-p 31 12 eastern_plains
+eplain-19-8-p 31 12 eastern_plains
+eplain-20-8-m 31 12 eastern_plains
+eplain-8-9-W 31 12 eastern_plains
+eplain-9-9-s 31 12 eastern_plains
+eplain-10-9-1 31 12 eastern_plains
+eplain-11-9-p 31 12 eastern_plains
+eplain-12-9-p 31 12 eastern_plains
+eplain-13-9-p 31 12 eastern_plains
+eplain-14-9-p 31 12 eastern_plains
+eplain-15-9-p 31 12 eastern_plains
+eplain-16-9-p 31 12 eastern_plains
+eplain-17-9-p 31 12 eastern_plains
+eplain-18-9-p 31 12 eastern_plains
+eplain-19-9-p 31 12 eastern_plains
+eplain-20-9-m 31 12 eastern_plains
+eplain-6-10-r 31 12 eastern_plains
+eplain-7-10-r 31 12 eastern_plains
+eplain-8-10-p 31 12 eastern_plains
+eplain-9-10-1 31 12 eastern_plains
+eplain-10-10-s 31 12 eastern_plains
+eplain-11-10-p 31 12 eastern_plains
+eplain-12-10-p 31 12 eastern_plains
+eplain-13-10-p 31 12 eastern_plains
+eplain-14-10-p 31 12 eastern_plains
+eplain-15-10-p 31 12 eastern_plains
+eplain-16-10-p 31 12 eastern_plains
+eplain-17-10-p 31 12 eastern_plains
+eplain-18-10-s 31 12 eastern_plains
+eplain-19-10-p 31 12 eastern_plains
+eplain-20-10-p 31 12 eastern_plains
+eplain-21-10-m 31 12 eastern_plains
+eplain-22-10-L 31 12 eastern_plains
+eplain-4-11-r 31 12 eastern_plains
+eplain-5-11-r 31 12 eastern_plains
+eplain-6-11-p 31 12 eastern_plains
+eplain-7-11-p 31 12 eastern_plains
+eplain-8-11-1 31 12 eastern_plains
+eplain-9-11-U 31 12 eastern_plains
+eplain-10-11-p 31 12 eastern_plains
+eplain-11-11-s 31 12 eastern_plains
+eplain-12-11-s 31 12 eastern_plains
+eplain-13-11-p 31 12 eastern_plains
+eplain-14-11-p 31 12 eastern_plains
+eplain-15-11-p 31 12 eastern_plains
+eplain-16-11-s 31 12 eastern_plains
+eplain-17-11-s 31 12 eastern_plains
+eplain-18-11-p 31 12 eastern_plains
+eplain-19-11-s 31 12 eastern_plains
+eplain-20-11-p 31 12 eastern_plains
+eplain-21-11-p 31 12 eastern_plains
+eplain-22-11-m 31 12 eastern_plains
+eplain-4-12-F 31 12 eastern_plains
+eplain-5-12-p 31 12 eastern_plains
+eplain-6-12-p 31 12 eastern_plains
+eplain-7-12-p 31 12 eastern_plains
+eplain-8-12-1 31 12 eastern_plains
+eplain-9-12-p 31 12 eastern_plains
+eplain-10-12-p 31 12 eastern_plains
+eplain-11-12-p 31 12 eastern_plains
+eplain-12-12-p 31 12 eastern_plains
+eplain-13-12-s 31 12 eastern_plains
+eplain-14-12-p 31 12 eastern_plains
+eplain-15-12-s 31 12 eastern_plains
+eplain-16-12-p 31 12 eastern_plains
+eplain-17-12-p 31 12 eastern_plains
+eplain-18-12-p 31 12 eastern_plains
+eplain-19-12-s 31 12 eastern_plains
+eplain-20-12-p 31 12 eastern_plains
+eplain-21-12-p 31 12 eastern_plains
+eplain-22-12-m 31 12 eastern_plains
+eplain-4-13-r 31 12 eastern_plains
+eplain-5-13-p 31 12 eastern_plains
+eplain-6-13-p 31 12 eastern_plains
+eplain-7-13-p 31 12 eastern_plains
+eplain-8-13-1 31 12 eastern_plains
+eplain-9-13-p 31 12 eastern_plains
+eplain-10-13-p 31 12 eastern_plains
+eplain-11-13-p 31 12 eastern_plains
+eplain-12-13-p 31 12 eastern_plains
+eplain-13-13-p 31 12 eastern_plains
+eplain-14-13-s 31 12 eastern_plains
+eplain-15-13-p 31 12 eastern_plains
+eplain-16-13-p 31 12 eastern_plains
+eplain-17-13-p 31 12 eastern_plains
+eplain-18-13-p 31 12 eastern_plains
+eplain-19-13-s 31 12 eastern_plains
+eplain-20-13-p 31 12 eastern_plains
+eplain-21-13-s 31 12 eastern_plains
+eplain-22-13-Q 31 12 eastern_plains
+eplain-4-14-r 31 12 eastern_plains
+eplain-5-14-p 31 12 eastern_plains
+eplain-6-14-p 31 12 eastern_plains
+eplain-7-14-p 31 12 eastern_plains
+eplain-8-14-s 31 12 eastern_plains
+eplain-9-14-1 31 12 eastern_plains
+eplain-10-14-p 31 12 eastern_plains
+eplain-11-14-p 31 12 eastern_plains
+eplain-12-14-p 31 12 eastern_plains
+eplain-13-14-p 31 12 eastern_plains
+eplain-14-14-p 31 12 eastern_plains
+eplain-15-14-p 31 12 eastern_plains
+eplain-16-14-p 31 12 eastern_plains
+eplain-17-14-p 31 12 eastern_plains
+eplain-18-14-p 31 12 eastern_plains
+eplain-19-14-p 31 12 eastern_plains
+eplain-20-14-s 31 12 eastern_plains
+eplain-21-14-m 31 12 eastern_plains
+eplain-3-15-r 31 12 eastern_plains
+eplain-4-15-p 31 12 eastern_plains
+eplain-5-15-p 31 12 eastern_plains
+eplain-6-15-p 31 12 eastern_plains
+eplain-7-15-s 31 12 eastern_plains
+eplain-8-15-1 31 12 eastern_plains
+eplain-9-15-s 31 12 eastern_plains
+eplain-10-15-s 31 12 eastern_plains
+eplain-11-15-p 31 12 eastern_plains
+eplain-12-15-p 31 12 eastern_plains
+eplain-13-15-p 31 12 eastern_plains
+eplain-14-15-p 31 12 eastern_plains
+eplain-15-15-p 31 12 eastern_plains
+eplain-16-15-p 31 12 eastern_plains
+eplain-17-15-p 31 12 eastern_plains
+eplain-18-15-p 31 12 eastern_plains
+eplain-19-15-p 31 12 eastern_plains
+eplain-20-15-m 31 12 eastern_plains
+eplain-4-16-X 31 12 eastern_plains
+eplain-5-16-s 31 12 eastern_plains
+eplain-6-16-s 31 12 eastern_plains
+eplain-7-16-1 31 12 eastern_plains
+eplain-8-16-p 31 12 eastern_plains
+eplain-9-16-p 31 12 eastern_plains
+eplain-10-16-p 31 12 eastern_plains
+eplain-11-16-s 31 12 eastern_plains
+eplain-12-16-p 31 12 eastern_plains
+eplain-13-16-s 31 12 eastern_plains
+eplain-14-16-s 31 12 eastern_plains
+eplain-15-16-p 31 12 eastern_plains
+eplain-16-16-p 31 12 eastern_plains
+eplain-17-16-E 31 12 eastern_plains
+eplain-18-16-p 31 12 eastern_plains
+eplain-19-16-p 31 12 eastern_plains
+eplain-20-16-p 31 12 eastern_plains
+eplain-21-16-m 31 12 eastern_plains
+eplain-3-17-r 33 16 eastern_plains
+eplain-4-17-p 33 16 eastern_plains
+eplain-5-17-p 33 16 eastern_plains
+eplain-6-17-1 33 16 eastern_plains
+eplain-7-17-p 33 16 eastern_plains
+eplain-8-17-p 33 16 eastern_plains
+eplain-9-17-p 33 16 eastern_plains
+eplain-10-17-p 33 16 eastern_plains
+eplain-11-17-p 33 16 eastern_plains
+eplain-12-17-s 33 16 eastern_plains
+eplain-13-17-p 33 16 eastern_plains
+eplain-14-17-p 33 16 eastern_plains
+eplain-15-17-s 33 16 eastern_plains
+eplain-16-17-p 33 16 eastern_plains
+eplain-17-17-p 33 16 eastern_plains
+eplain-18-17-p 33 16 eastern_plains
+eplain-19-17-p 33 16 eastern_plains
+eplain-20-17-p 33 16 eastern_plains
+eplain-21-17-p 33 16 eastern_plains
+eplain-22-17-m 33 16 eastern_plains
+eplain-23-17-m 33 16 eastern_plains
+eplain-24-17-m 33 16 eastern_plains
+eplain-4-18-r 33 16 eastern_plains
+eplain-5-18-1 33 16 eastern_plains
+eplain-6-18-p 33 16 eastern_plains
+eplain-7-18-p 33 16 eastern_plains
+eplain-8-18-p 33 16 eastern_plains
+eplain-9-18-p 33 16 eastern_plains
+eplain-10-18-p 33 16 eastern_plains
+eplain-11-18-p 33 16 eastern_plains
+eplain-12-18-p 33 16 eastern_plains
+eplain-13-18-p 33 16 eastern_plains
+eplain-14-18-p 33 16 eastern_plains
+eplain-15-18-s 33 16 eastern_plains
+eplain-16-18-p 33 16 eastern_plains
+eplain-17-18-p 33 16 eastern_plains
+eplain-18-18-p 33 16 eastern_plains
+eplain-19-18-p 33 16 eastern_plains
+eplain-20-18-p 33 16 eastern_plains
+eplain-21-18-p 33 16 eastern_plains
+eplain-22-18-p 33 16 eastern_plains
+eplain-23-18-p 33 16 eastern_plains
+eplain-24-18-p 33 16 eastern_plains
+eplain-25-18-m 33 16 eastern_plains
+eplain-4-19-r 33 16 eastern_plains
+eplain-5-19-1 33 16 eastern_plains
+eplain-6-19-p 33 16 eastern_plains
+eplain-7-19-p 33 16 eastern_plains
+eplain-8-19-p 33 16 eastern_plains
+eplain-9-19-p 33 16 eastern_plains
+eplain-10-19-p 33 16 eastern_plains
+eplain-11-19-p 33 16 eastern_plains
+eplain-12-19-p 33 16 eastern_plains
+eplain-13-19-p 33 16 eastern_plains
+eplain-14-19-p 33 16 eastern_plains
+eplain-15-19-p 33 16 eastern_plains
+eplain-16-19-s 33 16 eastern_plains
+eplain-17-19-p 33 16 eastern_plains
+eplain-18-19-p 33 16 eastern_plains
+eplain-19-19-s 33 16 eastern_plains
+eplain-20-19-s 33 16 eastern_plains
+eplain-21-19-p 33 16 eastern_plains
+eplain-22-19-p 33 16 eastern_plains
+eplain-23-19-p 33 16 eastern_plains
+eplain-24-19-p 33 16 eastern_plains
+eplain-25-19-p 33 16 eastern_plains
+eplain-26-19-m 33 16 eastern_plains
+eplain-4-20-1 33 16 eastern_plains
+eplain-5-20-p 33 16 eastern_plains
+eplain-6-20-p 33 16 eastern_plains
+eplain-7-20-p 33 16 eastern_plains
+eplain-8-20-p 33 16 eastern_plains
+eplain-9-20-p 33 16 eastern_plains
+eplain-10-20-p 33 16 eastern_plains
+eplain-11-20-p 33 16 eastern_plains
+eplain-12-20-p 33 16 eastern_plains
+eplain-13-20-p 33 16 eastern_plains
+eplain-14-20-p 33 16 eastern_plains
+eplain-15-20-p 33 16 eastern_plains
+eplain-16-20-p 33 16 eastern_plains
+eplain-17-20-s 33 16 eastern_plains
+eplain-18-20-s 33 16 eastern_plains
+eplain-19-20-p 33 16 eastern_plains
+eplain-20-20-p 33 16 eastern_plains
+eplain-21-20-p 33 16 eastern_plains
+eplain-22-20-R 33 16 eastern_plains
+eplain-23-20-p 33 16 eastern_plains
+eplain-24-20-p 33 16 eastern_plains
+eplain-25-20-m 33 16 eastern_plains
+eplain-4-21-V 33 16 eastern_plains
+eplain-5-21-1 33 16 eastern_plains
+eplain-6-21-p 33 16 eastern_plains
+eplain-7-21-p 33 16 eastern_plains
+eplain-8-21-p 33 16 eastern_plains
+eplain-9-21-p 33 16 eastern_plains
+eplain-10-21-p 33 16 eastern_plains
+eplain-11-21-p 33 16 eastern_plains
+eplain-12-21-p 33 16 eastern_plains
+eplain-13-21-p 33 16 eastern_plains
+eplain-14-21-p 33 16 eastern_plains
+eplain-15-21-p 33 16 eastern_plains
+eplain-16-21-p 33 16 eastern_plains
+eplain-17-21-p 33 16 eastern_plains
+eplain-18-21-p 33 16 eastern_plains
+eplain-19-21-p 33 16 eastern_plains
+eplain-20-21-p 33 16 eastern_plains
+eplain-21-21-s 33 16 eastern_plains
+eplain-22-21-p 33 16 eastern_plains
+eplain-23-21-p 33 16 eastern_plains
+eplain-24-21-p 33 16 eastern_plains
+eplain-25-21-m 33 16 eastern_plains
+ferryman_hut 33 16 eastern_plains
+sstore 33 16 eastern_plains
+sstorein 33 16 eastern_plains
+river1 33 16 eastern_plains
+river2 33 16 eastern_plains
+river3 33 16 eastern_plains
+eplain-4-22-r 33 16 eastern_plains
+eplain-5-22-p 33 16 eastern_plains
+eplain-6-22-1 33 16 eastern_plains
+eplain-7-22-1 33 16 eastern_plains
+eplain-8-22-p 33 16 eastern_plains
+eplain-9-22-p 33 16 eastern_plains
+eplain-10-22-p 33 16 eastern_plains
+eplain-11-22-p 33 16 eastern_plains
+eplain-12-22-p 33 16 eastern_plains
+eplain-13-22-1 33 16 eastern_plains
+eplain-14-22-1 33 16 eastern_plains
+eplain-15-22-1 33 16 eastern_plains
+eplain-16-22-p 33 16 eastern_plains
+eplain-17-22-p 33 16 eastern_plains
+eplain-18-22-p 33 16 eastern_plains
+eplain-19-22-p 33 16 eastern_plains
+eplain-20-22-p 33 16 eastern_plains
+eplain-21-22-s 33 16 eastern_plains
+eplain-22-22-p 33 16 eastern_plains
+eplain-23-22-m 33 16 eastern_plains
+eplain-24-22-m 33 16 eastern_plains
+eplain-4-23-r 33 16 eastern_plains
+eplain-5-23-p 33 16 eastern_plains
+eplain-6-23-1 33 16 eastern_plains
+eplain-7-23-p 33 16 eastern_plains
+eplain-8-23-1 33 16 eastern_plains
+eplain-9-23-1 33 16 eastern_plains
+eplain-10-23-1 33 16 eastern_plains
+eplain-11-23-1 33 16 eastern_plains
+eplain-12-23-1 33 16 eastern_plains
+eplain-13-23-p 33 16 eastern_plains
+eplain-14-23-p 33 16 eastern_plains
+eplain-15-23-p 33 16 eastern_plains
+eplain-16-23-1 33 16 eastern_plains
+eplain-17-23-p 33 16 eastern_plains
+eplain-18-23-p 33 16 eastern_plains
+eplain-19-23-p 33 16 eastern_plains
+eplain-20-23-p 33 16 eastern_plains
+eplain-21-23-p 33 16 eastern_plains
+eplain-22-23-s 33 16 eastern_plains
+eplain-23-23-m 33 16 eastern_plains
+eplain-4-24-r 33 16 eastern_plains
+eplain-5-24-p 33 16 eastern_plains
+eplain-6-24-1 33 16 eastern_plains
+eplain-7-24-p 33 16 eastern_plains
+eplain-8-24-p 33 16 eastern_plains
+eplain-9-24-p 33 16 eastern_plains
+eplain-10-24-p 33 16 eastern_plains
+eplain-11-24-p 33 16 eastern_plains
+eplain-12-24-p 33 16 eastern_plains
+eplain-13-24-p 33 16 eastern_plains
+eplain-14-24-p 33 16 eastern_plains
+eplain-15-24-p 33 16 eastern_plains
+eplain-16-24-p 33 16 eastern_plains
+eplain-17-24-1 33 16 eastern_plains
+eplain-18-24-p 33 16 eastern_plains
+eplain-19-24-p 33 16 eastern_plains
+eplain-20-24-p 33 16 eastern_plains
+eplain-21-24-1 33 16 eastern_plains
+eplain-22-24-1 33 16 eastern_plains
+eplain-23-24-T 33 16 eastern_plains
+eplain-3-25-r 33 16 eastern_plains
+eplain-4-25-p 33 16 eastern_plains
+eplain-5-25-p 33 16 eastern_plains
+eplain-6-25-S 33 16 eastern_plains
+eplain-7-25-p 33 16 eastern_plains
+eplain-8-25-p 33 16 eastern_plains
+eplain-9-25-p 33 16 eastern_plains
+eplain-10-25-p 33 16 eastern_plains
+eplain-11-25-p 33 16 eastern_plains
+eplain-12-25-p 33 16 eastern_plains
+eplain-13-25-p 33 16 eastern_plains
+eplain-14-25-p 33 16 eastern_plains
+eplain-15-25-p 33 16 eastern_plains
+eplain-16-25-p 33 16 eastern_plains
+eplain-17-25-p 33 16 eastern_plains
+eplain-18-25-1 33 16 eastern_plains
+eplain-19-25-1 33 16 eastern_plains
+eplain-20-25-1 33 16 eastern_plains
+eplain-21-25-p 33 16 eastern_plains
+eplain-22-25-p 33 16 eastern_plains
+eplain-23-25-p 33 16 eastern_plains
+::MAPDATA::
+
+~~ ~~ ~~ ~~ ~~ '                        '   ~~ ~~ ,', '  
+ `"`:~~ ,"`,`"`                          '`` ~~  ;   '
+ /\ ; ~~:         /\       Hinterlund      '`: ~ ',       /\ 
+  /\`,~,'        /\                          :~~ ,     @/\
+     [ ] /\ /\ /\                   ~~~ ~~~~,' ~~:     @@/\
+ Palanthas/\ /\  /\             ~~~~      [ ],~  ,'    @/\ 
+     /\_   /\ /\               ~        Kalaman `     @/\ 
+    /   \/\                   ~                      @/\ 
+  /\ /\ /\                  ~~       /\_ 
+   /\  /\      PLAINS OF    ~       /\  \
+     /\[ ]     SOLAMNIA    ~~      [#]/\ 
+ High Clerist              ~       Dargaard
+     Tower\                ~       Keep /\
+   /\      \____________[ ]~        /\    
+    /\                Vingaard        /\    
+   /\                 Keep          /\   
+  /\   Heartlund        ~           @/\ /\ 
+ /\                   ~~           @/\_
+
+::NEWMAP::
+eastern_plains
+::MAPDATA::
+eplain-14-0-r 50 3
+eplain-15-0-r 52 3
+eplain-16-0-r 54 3
+eplain-17-0-r 56 3
+eplain-18-0-r 58 3
+eplain-19-0-r 60 3
+eplain-20-0-r 62 3
+eplain-21-0-r 64 3
+eplain-22-0-r 66 3
+eplain-23-0-r 68 3
+eplain-12-1-r 46 5
+eplain-13-1-r 48 5
+eplain-14-1-p 50 5
+eplain-15-1-1 52 5
+eplain-16-1-1 54 5
+eplain-17-1-1 56 5
+eplain-18-1-1 58 5
+eplain-19-1-1 60 5
+eplain-20-1-P 62 5
+eplain-21-1-1 64 5
+eplain-22-1-1 66 5
+eplain-23-1-1 68 5
+eplain-24-1-r 70 5
+eplain-11-2-r 44 7
+eplain-12-2-p 46 7
+eplain-13-2-p 48 7
+eplain-14-2-1 50 7
+eplain-15-2-p 52 7
+eplain-16-2-p 54 7
+eplain-17-2-p 56 7
+eplain-18-2-p 58 7
+eplain-19-2-p 60 7
+eplain-20-2-3 62 7
+eplain-21-2-p 64 7
+eplain-22-2-p 66 7
+eplain-23-2-p 68 7
+eplain-11-3-r 44 9
+eplain-12-3-p 46 9
+eplain-13-3-1 48 9
+eplain-14-3-p 50 9
+eplain-15-3-p 52 9
+eplain-16-3-p 54 9
+eplain-17-3-p 56 9
+eplain-18-3-p 58 9
+eplain-19-3-3 60 9
+eplain-20-3-p 62 9
+eplain-21-3-p 64 9
+eplain-22-3-p 66 9
+eplain-23-3-p 68 9
+eplain-11-4-r 44 11
+eplain-12-4-1 46 11
+eplain-13-4-p 48 11
+eplain-14-4-p 50 11
+eplain-15-4-p 52 11
+eplain-16-4-p 54 11
+eplain-17-4-p 56 11
+eplain-18-4-p 58 11
+eplain-19-4-3 60 11
+eplain-20-4-p 62 11
+eplain-21-4-m 64 11
+eplain-22-4-m 66 11
+eplain-10-5-r 42 13
+eplain-11-5-1 44 13
+eplain-12-5-p 46 13
+eplain-13-5-p 48 13
+eplain-14-5-p 50 13
+eplain-15-5-p 52 13
+eplain-16-5-p 54 13
+eplain-17-5-p 56 13
+eplain-18-5-p 58 13
+eplain-19-5-m 60 13
+eplain-20-5-D 62 13
+road1 64 15
+eplain-9-6-r 40 15
+eplain-10-6-1 42 15
+eplain-11-6-p 44 15
+eplain-12-6-p 46 15
+eplain-13-6-p 48 15
+eplain-14-6-p 50 15
+eplain-15-6-p 52 15
+eplain-16-6-p 54 15
+eplain-17-6-p 56 15
+eplain-18-6-p 58 15
+eplain-19-6-m 60 15
+eplain-9-7-r 40 17
+eplain-10-7-1 42 17
+eplain-11-7-p 44 17
+eplain-12-7-p 46 17
+eplain-13-7-p 48 17
+eplain-14-7-p 50 17
+eplain-15-7-p 52 17
+eplain-16-7-p 54 17
+eplain-17-7-p 56 17
+eplain-18-7-p 58 17
+eplain-19-7-m 60 17
+eplain-9-8-r 40 19
+eplain-10-8-1 42 19
+eplain-11-8-p 44 19
+eplain-12-8-p 46 19
+eplain-13-8-p 48 19
+eplain-14-8-C 50 19
+eplain-15-8-p 52 19
+eplain-16-8-p 54 19
+eplain-17-8-p 56 19
+eplain-18-8-p 58 19
+eplain-19-8-p 60 19
+eplain-20-8-m 62 19
+eplain-8-9-W 38 21
+eplain-9-9-s 40 21
+eplain-10-9-1 42 21
+eplain-11-9-p 44 21
+eplain-12-9-p 46 21
+eplain-13-9-p 48 21
+eplain-14-9-p 50 21
+eplain-15-9-p 52 21
+eplain-16-9-p 54 21
+eplain-17-9-p 56 21
+eplain-18-9-p 58 21
+eplain-19-9-p 60 21
+eplain-20-9-m 62 21
+eplain-6-10-r 34 23
+eplain-7-10-r 36 23
+eplain-8-10-p 38 23
+eplain-9-10-1 40 23
+eplain-10-10-s 42 23
+eplain-11-10-p 44 23
+eplain-12-10-p 46 23
+eplain-13-10-p 48 23
+eplain-14-10-p 50 23
+eplain-15-10-p 52 23
+eplain-16-10-p 54 23
+eplain-17-10-p 56 23
+eplain-18-10-s 58 23
+eplain-19-10-p 60 23
+eplain-20-10-p 62 23
+eplain-21-10-m 64 23
+eplain-22-10-L 66 23
+eplain-4-11-r 30 25
+eplain-5-11-r 32 25
+eplain-6-11-p 34 25
+eplain-7-11-p 36 25
+eplain-8-11-1 38 25
+eplain-9-11-U 40 25
+eplain-10-11-p 42 25
+eplain-11-11-s 44 25
+eplain-12-11-s 46 25
+eplain-13-11-p 48 25
+eplain-14-11-p 50 25
+eplain-15-11-p 52 25
+eplain-16-11-s 54 25
+eplain-17-11-s 56 25
+eplain-18-11-p 58 25
+eplain-19-11-s 60 25
+eplain-20-11-p 62 25
+eplain-21-11-p 64 25
+eplain-22-11-m 66 25
+eplain-4-12-F 30 27
+eplain-5-12-p 32 27
+eplain-6-12-p 34 27
+eplain-7-12-p 36 27
+eplain-8-12-1 38 27
+eplain-9-12-p 40 27
+eplain-10-12-p 42 27
+eplain-11-12-p 44 27
+eplain-12-12-p 46 27
+eplain-13-12-s 48 27
+eplain-14-12-p 50 27
+eplain-15-12-s 52 27
+eplain-16-12-p 54 27
+eplain-17-12-p 56 27
+eplain-18-12-p 58 27
+eplain-19-12-s 60 27
+eplain-20-12-p 62 27
+eplain-21-12-p 64 27
+eplain-22-12-m 66 27
+eplain-4-13-r 30 29
+eplain-5-13-p 32 29
+eplain-6-13-p 34 29
+eplain-7-13-p 36 29
+eplain-8-13-1 38 29
+eplain-9-13-p 40 29
+eplain-10-13-p 42 29
+eplain-11-13-p 44 29
+eplain-12-13-p 46 29
+eplain-13-13-p 48 29
+eplain-14-13-s 50 29
+eplain-15-13-p 52 29
+eplain-16-13-p 54 29
+eplain-17-13-p 56 29
+eplain-18-13-p 58 29
+eplain-19-13-s 60 29
+eplain-20-13-p 62 29
+eplain-21-13-s 64 29
+eplain-22-13-Q 66 29
+eplain-4-14-r 30 31
+eplain-5-14-p 32 31
+eplain-6-14-p 34 31
+eplain-7-14-p 36 31
+eplain-8-14-s 38 31
+eplain-9-14-1 40 31
+eplain-10-14-p 42 31
+eplain-11-14-p 44 31
+eplain-12-14-p 46 31
+eplain-13-14-p 48 31
+eplain-14-14-p 50 31
+eplain-15-14-p 52 31
+eplain-16-14-p 54 31
+eplain-17-14-p 56 31
+eplain-18-14-p 58 31
+eplain-19-14-p 60 31
+eplain-20-14-s 62 31
+eplain-21-14-m 64 31
+eplain-3-15-r 28 33
+eplain-4-15-p 30 33
+eplain-5-15-p 32 33
+eplain-6-15-p 34 33
+eplain-7-15-s 36 33
+eplain-8-15-1 38 33
+eplain-9-15-s 40 33
+eplain-10-15-s 42 33
+eplain-11-15-p 44 33
+eplain-12-15-p 46 33
+eplain-13-15-p 48 33
+eplain-14-15-p 50 33
+eplain-15-15-p 52 33
+eplain-16-15-p 54 33
+eplain-17-15-p 56 33
+eplain-18-15-p 58 33
+eplain-19-15-p 60 33
+eplain-20-15-m 62 33
+eplain-4-16-X 30 35
+eplain-5-16-s 32 35
+eplain-6-16-s 34 35
+eplain-7-16-1 36 35
+eplain-8-16-p 38 35
+eplain-9-16-p 40 35
+eplain-10-16-p 42 35
+eplain-11-16-s 44 35
+eplain-12-16-p 46 35
+eplain-13-16-s 48 35
+eplain-14-16-s 50 35
+eplain-15-16-p 52 35
+eplain-16-16-p 54 35
+eplain-17-16-E 56 35
+eplain-18-16-p 58 35
+eplain-19-16-p 60 35
+eplain-20-16-p 62 35
+eplain-21-16-m 64 35
+eplain-3-17-r 28 37
+eplain-4-17-p 30 37
+eplain-5-17-p 32 37
+eplain-6-17-1 34 37
+eplain-7-17-p 36 37
+eplain-8-17-p 38 37
+eplain-9-17-p 40 37
+eplain-10-17-p 42 37
+eplain-11-17-p 44 37
+eplain-12-17-s 46 37
+eplain-13-17-p 48 37
+eplain-14-17-p 50 37
+eplain-15-17-s 52 37
+eplain-16-17-p 54 37
+eplain-17-17-p 56 37
+eplain-18-17-p 58 37
+eplain-19-17-p 60 37
+eplain-20-17-p 62 37
+eplain-21-17-p 64 37
+eplain-22-17-m 66 37
+eplain-23-17-m 68 37
+eplain-24-17-m 70 37
+eplain-4-18-r 30 39
+eplain-5-18-1 32 39
+eplain-6-18-p 34 39
+eplain-7-18-p 36 39
+eplain-8-18-p 38 39
+eplain-9-18-p 40 39
+eplain-10-18-p 42 39
+eplain-11-18-p 44 39
+eplain-12-18-p 46 39
+eplain-13-18-p 48 39
+eplain-14-18-p 50 39
+eplain-15-18-s 52 39
+eplain-16-18-p 54 39
+eplain-17-18-p 56 39
+eplain-18-18-p 58 39
+eplain-19-18-p 60 39
+eplain-20-18-p 62 39
+eplain-21-18-p 64 39
+eplain-22-18-p 66 39
+eplain-23-18-p 68 39
+eplain-24-18-p 70 39
+eplain-25-18-m 72 39
+eplain-4-19-r 30 41
+eplain-5-19-1 32 41
+eplain-6-19-p 34 41
+eplain-7-19-p 36 41
+eplain-8-19-p 38 41
+eplain-9-19-p 40 41
+eplain-10-19-p 42 41
+eplain-11-19-p 44 41
+eplain-12-19-p 46 41
+eplain-13-19-p 48 41
+eplain-14-19-p 50 41
+eplain-15-19-p 52 41
+eplain-16-19-s 54 41
+eplain-17-19-p 56 41
+eplain-18-19-p 58 41
+eplain-19-19-s 60 41
+eplain-20-19-s 62 41
+eplain-21-19-p 64 41
+eplain-22-19-p 66 41
+eplain-23-19-p 68 41
+eplain-24-19-p 70 41
+eplain-25-19-p 72 41
+eplain-26-19-m 74 41
+eplain-4-20-1 30 43
+eplain-5-20-p 32 43
+eplain-6-20-p 34 43
+eplain-7-20-p 36 43
+eplain-8-20-p 38 43
+eplain-9-20-p 40 43
+eplain-10-20-p 42 43
+eplain-11-20-p 44 43
+eplain-12-20-p 46 43
+eplain-13-20-p 48 43
+eplain-14-20-p 50 43
+eplain-15-20-p 52 43
+eplain-16-20-p 54 43
+eplain-17-20-s 56 43
+eplain-18-20-s 58 43
+eplain-19-20-p 60 43
+eplain-20-20-p 62 43
+eplain-21-20-p 64 43
+eplain-22-20-R 66 43
+eplain-23-20-p 68 43
+eplain-24-20-p 70 43
+eplain-25-20-m 72 43
+eplain-4-21-V 30 45
+eplain-5-21-1 32 45
+eplain-6-21-p 34 45
+eplain-7-21-p 36 45
+eplain-8-21-p 38 45
+eplain-9-21-p 40 45
+eplain-10-21-p 42 45
+eplain-11-21-p 44 45
+eplain-12-21-p 46 45
+eplain-13-21-p 48 45
+eplain-14-21-p 50 45
+eplain-15-21-p 52 45
+eplain-16-21-p 54 45
+eplain-17-21-p 56 45
+eplain-18-21-p 58 45
+eplain-19-21-p 60 45
+eplain-20-21-p 62 45
+eplain-21-21-s 64 45
+eplain-22-21-p 66 45
+eplain-23-21-p 68 45
+eplain-24-21-p 70 45
+eplain-25-21-m 72 45
+ferryman_hut 28 47
+sstore 16 45
+sstorein 16 46
+river1 23 46
+river2 19 45
+river3 14 44
+eplain-4-22-r 30 47
+eplain-5-22-p 32 47
+eplain-6-22-1 34 47
+eplain-7-22-1 36 47
+eplain-8-22-p 38 47
+eplain-9-22-p 40 47
+eplain-10-22-p 42 47
+eplain-11-22-p 44 47
+eplain-12-22-p 46 47
+eplain-13-22-1 48 47
+eplain-14-22-1 50 47
+eplain-15-22-1 52 47
+eplain-16-22-p 54 47
+eplain-17-22-p 56 47
+eplain-18-22-p 58 47
+eplain-19-22-p 60 47
+eplain-20-22-p 62 47
+eplain-21-22-s 64 47
+eplain-22-22-p 66 47
+eplain-23-22-m 68 47
+eplain-24-22-m 70 47
+eplain-4-23-r 30 49
+eplain-5-23-p 32 49
+eplain-6-23-1 34 49
+eplain-7-23-p 36 49
+eplain-8-23-1 38 49
+eplain-9-23-1 40 49
+eplain-10-23-1 42 49
+eplain-11-23-1 44 49
+eplain-12-23-1 46 49
+eplain-13-23-p 48 49
+eplain-14-23-p 50 49
+eplain-15-23-p 52 49
+eplain-16-23-1 54 49
+eplain-17-23-p 56 49
+eplain-18-23-p 58 49
+eplain-19-23-p 60 49
+eplain-20-23-p 62 49
+eplain-21-23-p 64 49
+eplain-22-23-s 66 49
+eplain-23-23-m 68 49
+eplain-4-24-r 30 51
+eplain-5-24-p 32 51
+eplain-6-24-1 34 51
+eplain-7-24-p 36 51
+eplain-8-24-p 38 51
+eplain-9-24-p 40 51
+eplain-10-24-p 42 51
+eplain-11-24-p 44 51
+eplain-12-24-p 46 51
+eplain-13-24-p 48 51
+eplain-14-24-p 50 51
+eplain-15-24-p 52 51
+eplain-16-24-p 54 51
+eplain-17-24-1 56 51
+eplain-18-24-p 58 51
+eplain-19-24-p 60 51
+eplain-20-24-p 62 51
+eplain-21-24-1 64 51
+eplain-22-24-1 66 51
+eplain-23-24-T 68 51
+eplain-3-25-r 28 53
+eplain-4-25-p 30 53
+eplain-5-25-p 32 53
+eplain-6-25-S 34 53
+eplain-7-25-p 36 53
+eplain-8-25-p 38 53
+eplain-9-25-p 40 53
+eplain-10-25-p 42 53
+eplain-11-25-p 44 53
+eplain-12-25-p 46 53
+eplain-13-25-p 48 53
+eplain-14-25-p 50 53
+eplain-15-25-p 52 53
+eplain-16-25-p 54 53
+eplain-17-25-p 56 53
+eplain-18-25-1 58 53
+eplain-19-25-1 60 53
+eplain-20-25-1 62 53
+eplain-21-25-p 64 53
+eplain-22-25-p 66 53
+eplain-23-25-p 68 53
+::MAPDATA::
+
+                                    :      ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~
+                                   :     ~~~ ~~~ ::::::::::::::::::::: ~~
+                                  :   ~~~ ~~~ :::                     : ~~       
+                                 :   ~~~ ~~~ :                         : ~~      
+   ~ PLAINS OF                  :   ~~~ ~~~ :       o-o-o-o-o-o-o-o-o          
+     SOLAMNIA  ~               :   ~~~ ~~~ :       /          |      \        
+                               :  ~~~ ~~~ :       o           o     ' o       
+   F Ferry across river        :  ~~~ ~~~ :      /           /         \       
+                               :  ~~~ ~~~ :     o           o     ' '    to     
+                               :  ~~~ ~~~ :    /            |      /\  Kalaman       
+                               :  ~~~ ~~~ :   o             o ' ' '           
+                              :  ~~~ ~~~ :   /               \   /\ /\ _       
+                             :  ~~~ ~~~ :   o               ' o /\    / \      
+                            :  ~~~ ~~~ :   /                   \   /\/ ^ \     
+                           :  ~~~ ~~~ :   o                 '   o /   /'\ \      
+                              ~~~ ~~~ :   |      Nightlund   /\       \'/      
+                    Vingaard  ~~~ ~~~ :   o                 '       __|'|__     
+                      River   ~~~ ~~~ :   |                   /\   /|/[#]\|\       
+                              ~~~ ~~~ :   o       ^         ' '                
+                             ~~~ ~~~ :    |                    /\     Dargaard        
+                      : ~~~ ~~~ ::::: ~ ~ o                   '   /\    Keep        
+                     :  ~~~ ~~~ :        /                       / @\         
+                   : ~~~ ~~~ ::::       o ~               ~   '   '    /\      
+                 :  ~~~ ~~~ :           |   ~            ~ ~          /  \    
+                 :  ~~~ ~~ ,,         o-o    ~~~      ~~~   ~     '      /\   
+                 `` ~~~ ~~ ,,         |        ~     ~      ~         /\/  \  
+                 `` ~~~ ~~~ :         o         ~   ~       ~     '  /  \   \   
+                 :  ~~~ ~~~ :         |          ~ ~        ~                 
+                 :  ~~~ ~~~ :         o           ~         ~   ~~~~      /\     
+                 :  ~~~ ~~~ :          \                     ~ ~  ~~    /\    
+                 :  ~~~ ~~~ :           o                     ~    /\  /  \/\ 
+                :  ~~~ ~~~ :         ~ /                          /  \/   /  \
+                :  ~~ ~~~ :         ~ o ~~~                   '  /    \   
+                :  ~~~ ~~~ :       ~ /     ~                                  
+                    ~~~ ~~~ : ~~~~~ o       ~   ~~~     ^     ' '      
+                   ~~~ ~~~ :       /         ~ ~   ~                      /\    
+                   ~~ ~~~ :       o           ~     ~           ' ' ' '  /  \ 
+                   ~~~ ~~~ :     /                  ~                   /   /\  
+                 ~~ ~~~ ~~~ :   o                   ~                 ' '     
+                 ~~ ~~~ ~~~ :   |                    ~                        
+                 ~~ ~~~ ~~~ :   o                     ~     ~~~         ' '/\   
+             :   ~~ ~~~ ~~~ :  /                       ~   ~              /  \   
+              :  ~~ ~~~ ~~~ ' o                         ~~~             '/     
+               : ~~ ~~~ ~~~   |                                            /\   
+               :    ~~~ ~~~   F-o                               ~     ' ' /  \     
+                @:  ~~~ ~~  _/   \                              ~             
+                 :  ~~~ ~~ [_]    o-o           o-o-o           ~      @@@@@@@              
+                 :  ~~~ ~~        |  \         /     \           ~    @@@@@@@@       
+                 :  ~~~ ~~~ :     o   o-o-o-o-o       o           ~  @@                 
+                 :  ~~~ ~~~ :     |                    \             @ Forests        
+                 :  ~~~ ~~~ :     o                     o       o-o-o-   of          
+                :  ~~~ ~~~ :      |                      \     /     @ Throtl        
+               :  ~~~ ~~~ :       o                       o-o-o      @@
+              :  ~~~ ~~~ :  ' ' ' | ' ' ' ' ' ' ' ' ' ' '       ' ' ' @@@@@@@@
+                                                                       @@@@@@@
+                             to Solanthus

@@ -1,0 +1,130 @@
+main
+::MAPDATA::
+dock 11 16 sarnford
+dock2 11 16 sarnford
+eroad1 11 16 sarnford
+eroad2 11 16 sarnford
+eroad3 11 16 sarnford
+eroad4 11 16 sarnford
+fordeast 11 16 sarnford
+inn 11 16 sarnford
+inn2 11 16 sarnford
+trail1 11 16 sarnford
+trail2 11 16 sarnford
+track01 11 16 sarnford
+track02 11 16 sarnford
+track03 11 16 sarnford
+track04 11 16 sarnford
+track05 11 16 sarnford
+track06 11 16 sarnford
+track07 11 16 sarnford
+track08 11 16 sarnford
+track09 11 16 sarnford
+track10 11 16 sarnford
+track11 11 16 sarnford
+track12 11 16 sarnford
+track13 11 16 sarnford
+track14 11 16 sarnford
+tent01 11 16 sarnford
+tent02 11 16 sarnford
+tent03 11 16 sarnford
+tent04 11 16 sarnford
+tent05 11 16 sarnford
+tent06 11 16 sarnford
+tent07 11 16 sarnford
+tent08 11 16 sarnford
+tent09 11 16 sarnford
+tent10 11 16 sarnford
+tent11 11 16 sarnford
+tent12 11 16 sarnford
+tent13 11 16 sarnford
+tent14 11 16 sarnford
+::MAPDATA::
+
+    +---------+
+ ~  |THE SHIRE|
+ ~~ +---------+        Fornost
+  ~~                      o
+   ~~~                    |
+     ~~~                  |
+ \     ~~~                |
+  \      ~~~              |                                    Weathertop
+  |Frogmorton             |   BREE   Midgewater   /----------------*-\
+  o------===--------------+----O---\ Marshes/----/                    \------
+ /   |  Brandywine        |         \------/
+     |    Bridge          |
+     o   ~~~     Barrow   |
+  Whitfurrows     Downs   |
+        ~~~               |
+ ----- ~~~ o--------------\
+     ~~~  Sarn Ford        \
+   ~~~                      \
+ ~~~                         \   
+
+::NEWMAP::
+sarnford
+::MAPDATA::
+dock 23 17 
+dock2 21 15
+eroad1 63 13
+eroad2 54 13
+eroad3 45 13
+eroad4 36 13
+fordeast 27 13
+inn 27 17
+inn2 27 17
+trail1 54 17
+trail2 54 21
+track01 56 23
+track02 58 23
+track03 60 23
+track04 62 21
+track05 64 21
+track06 60 19
+track07 62 19
+track08 64 19
+track09 66 19
+track10 60 17
+track11 62 17
+track12 64 17
+track13 66 17
+track14 64 15
+tent01 56 23
+tent02 58 23
+tent03 60 23
+tent04 62 21
+tent05 64 21
+tent06 60 19
+tent07 62 19
+tent08 64 19
+tent09 66 19
+tent10 60 17
+tent11 62 17
+tent12 64 17
+tent13 66 17
+tent14 64 15
+::MAPDATA::
+
+                         ~~~~~~
+                        ~~~~~~                                           
+                      ~~~~~~                                         Towards     
+                      ~~~~~~                                      Shire / Bree
+ ~                     ~~~~~~~                                           
+ ~~~                    ~~~~~~~                                         |
+   ~~~                  ~~~~~~~                                         o
+     ~~                  ~~~~~~~                                        |
+  - - o - - - o - - - o~~~~~~~~~                                        |
+       ~~            ~~\~~~~~~                                          |
+        ~~          ~~~~\~~~~~                                      o - o -
+         ~~         ~~~~~\~~~                                           | /
+          ~~       ~~~~~~~ o  -  -  o  -  -  o  -  -  o  -  -  o  -  -  o
+           ~~    ~~~~~~~~~/ Sarn Ford                 |                   \
+            ~~~ ~~~~~o ~~/                            |         o           o
+             ~~~~~~~~~\~/                             |        /|\            \
+              ~~~~~~~~~o - o                          o     o-o-o-o
+            ~~~~~~~~~~    Inn                         |     |X|X|X|
+           ~~~~~~~~~~                                 |     o-o-o-o
+         ~~~~~~~~~~~                                  |      \|X|/
+        ~~~~~~~~~~                                    o       o-o
+       ~~~~~~~~~~                                      \     /
+     ~~~~~~~~~~                                         o-o-o

@@ -1,0 +1,45 @@
+main
+::MAPDATA::
+mtrail19 1 2
+mtrail20 3 4
+road01 5 6
+road02 7 8
+road03 9 10
+road04 11 12
+road05 13 14
+road06 15 16
+road07 17 18
+road08 19 20
+road09 21 22
+road10 23 20
+road11 25 18
+road12 27 16
+road13 29 14
+road14 31 12
+road15 33 10
+road16 37 10
+road17 41 10
+::MAPDATA::
+
+\
+ o
+  \
+   o
+    \                                        HHHH     HHHH
+     o                           /\  /\      [__]_____[__]
+      \                         /  \/  \     [  ___ ___  ]
+       o                       / ^  \   \    [ |   |   | ]
+        \                                    [ |  o|o  | ]
+         o                       o - o - o - [ |   |   | ]
+/\        \                     /                  
+  \        o                   o                Drakmere
+^  \/\      \                 /    /\
+ ^  \        o               o    /  \
+              \             /    / ^  \
+               o           o    / ^   ^\
+                \       \ /
+     /\/\        o       o
+      /  \        \     /         /\
+     /\   \/\      o   o     /\  /  \/\
+    /  \  /  \      \ /     /  \/   /  \/\
+                     o     /    \      /  \

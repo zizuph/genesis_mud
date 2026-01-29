@@ -1,0 +1,188 @@
+Dwarven Warriors Skill Tax
+==========================
+ 
+SKILL NAME      SKILL LVL     TAXABLE    TAX MOD    TAX PAID
+ss_wep_axe       100             70         1.5        1.75%
+ss_wep_club      100**            0         1.5        0.00%
+ss_defence       90              70         1.5        1.75%
+ss_parry         90              90         1.5        2.25%
+ss_blind_com.    75              45         2.0        1.50%
+ss_app_enemy     75              45         1.0        0.75%
+ss_app_value     60              30         1.0        0.50%
+ss_app_object    60              30         1.0        0.50%
+ss_trading       75              45         1.0        0.75%
+ss_awareness     60              30         1.0        0.50%
+Chop and Crush  100              0          0.0        0.00%
+Battlerage      100              0          0.0        0.00%
+==========================================================
+TOTAL:          535             455                   10.25%
+============================================================
+ 
+** Once a member reaches the level of warrior of the clan,
+   they have the option of specializing in club rather than axe
+   at their trainer. If this option is taken, all axe skill
+   levels are removed, and the member then only has up to 30
+   levels in axe to train. Their club skill may then be trained
+   up to 90(100). Note that since you can only train axe or club
+   we only tax for one of them.
+
+Tax calculation of skills: TAXABLE * TAX_MOD / 60 = TAX
+
+Chop / Crush Special Attack
+===========================
+Chop files located at :
+/d/Ansalon/guild/neidar/specials/chop.c
+
+The Chop/Crush special attack has the following attributes set:
+
+Chop/Crush Aid      : 45%
+Racial Hatred Bonus : 5%
+StatBonus           : SKILL_AVG { TS_STR, TS_DIS }
+Skills              : SS_GUILD_SPECIAL_SKILL
+Prep Time           : 10 seconds.
+Cool Down Time      : 10 seconds.
+Guild Stat Modifier : SS_OCCUP 20, 100
+Damage Type         : W_SLASH (axe) W_BLUDGEON (club)
+
+Tax for 50% aid     : 50 / 6 % = 8.33%
+ 
+Battlerage 
+==========
+Battlerage files located at :
+/d/Ansalon/guild/neidar/specials/battlerage.c
+/d/Ansalon/guild/neidar/specials/effects/battlerage_fierce_dam_mod.c
+/d/Ansalon/guild/neidar/specials/effects/battlerage_aggressive_dam_mod.c
+/d/Ansalon/guild/neidar/specials/effects/battlerage_stubborn_dam_mod.c
+
+Some dwarven warriors are trained to take hits far more
+effectively than other warriors. This tried and trained
+technique is often fearfully referred to as 'battlerage'
+by those who have seen such dwarves in battle.
+ 
+Battlerage has three forms, one raises the AC of the player,
+another increases the offensive ability (improves chop/crush)
+from the cost of losing some of their defensive powers.
+With the last form they show the true sense of stubbornness,
+standing their ground, focusing only on taking hits, doing
+no offensive damage.
+                         ---
+
+The first battlerage form is 'battlerage fiercely', where the dwarf shrugs
+off attack after attack while battling an opponent.
+
+This benefit transfers 10% of the combat aid from the chop/crush attack to
+a damage absorbtion effect offering extra 10% aid in defense. 
+This makes up 0% aid total, and 0% tax.
+
+The second battlerage form is 'battlerage aggressively', where the dwarf
+works himself up to a point where he only cares about hurting the enemy,
+and forget about protecting himself intensively.
+
+This benefit gives the dwarf an increase in combat aid for Chop/Crush with 10%,
+and make him more receptive to damage by -10%. 
+This gives a total of 0% aid, and 0% tax.
+The -10% loss is done by damage absorbtion but giving negative effect instead.
+
+The third and last battle rage form is 'battlerage stubbornly', where the
+dwarf plants his feet firmly in the ground, and put all his will power into 
+taking hits from the enemies, and do not cause any offensive damage.
+
+This benefit is meant to be used for 'super-tanking', where the dwarf himself
+loses the chop/crush attack special, their offensive powers swinging a weapon.
+For this they get 150% combat aid that goes to defending themselves.
+This yields 0% combat aid, and 0% tax.
+
+Combat Endurance
+================
+Tireless files located at :
+/d/Ansalon/guild/neidar/shadows/tireless_sh.c
+/d/Ansalon/guild/neidar/specials/effects/tireless_obj
+
+These dwarven warriors are not unfamiliar with hard labor, and are therefore
+uneffected by fatigue from combat.
+When they are not in combat they will feel the fatigue drain like everyone else.
+The combat aid for this ability is set to 0%.
+The tax for this ability is set to 1%.
+
+Neidar Stubborn
+================
+The Neidar Stubborn files are located at :
+/d/Ansalon/guild/neidar/specials/effects/stubborn_dam_mod.c
+
+This ability is always on.
+Every 5 seconds they are in combat, they get more power to this ability.
+The ability is a damage absortion, it doesn't prevent people to hit them 
+(like evade or ac), but it reduce the pen of the hit. (less damage).
+
+If they remain in combat for 90 seconds, they reach their full potential,
+ which is 15% combat aid to the damage absortion.
+15% Combat aid yields : 15/6% = 2.5% tax. 
+
+Defence Master
+==============
+/d/Ansalon/guild/neidar/specials/defence_master.c
+/d/Ansalon/guild/neidar/specials/effects/defence_master_evade.c
+
+The ability makes the dwarf able to boost his defence with 40% combat aid
+with an evade. This lasts for 30 seconds, after which there is a 4.5 minute cooldown.
+
+Since it lasts for 30 seconds, and have a cooldown of 4.5 minute, it yields a combat aid of:
+
+280 per 5 seconds = 100% aid.   (maybe not the correct numbers)
+
+280/5 = 56 hp per second. = 100 aid.
+
+56 / 100 * 40 = 22.4 hp per second = 40% aid.
+
+22.4hp * / second = 40% aid
+
+4.5 minute = 270 seconds.
+
+22.4 * 30 = 672 hp per 30 seconds.
+
+Average hitpoints damage over the 270 seconds:
+
+672 + 0 hp
+------------  = 2.49 hp / second.
+ 270 seconds
+
+Since 56 hp /s = 100 aid,
+
+Our aid is then: 100/56 * 2.49 = 4.45% aid.
+
+Tax : 4.45/6 = 0.74% tax.
+
+Neidar Block
+============
+Neidar Block files located at :
+/d/Ansalon/guild/neidar/specials/effects/neidarblock_evade.c
+/d/Ansalon/guild/neidar/specials/defend.c
+
+Neidar block is an evade that gives 20% combat aid.
+
+It can be used on the dwarf himself (20% aid) or to defend someone else 
+with 10% aid.
+
+20% aid yields: 20/6% = 3.33% tax.
+
+Full Armour Bonus Protection
+============================
+Armour bonus files located at : 
+/d/Ansalon/guild/neidars/specials/effects/armour_master_dam_mod.c
+
+The dwarven warriors gain a defensive bonus from wearing a full set of armours.
+A full set is defined as: helmet, body armour, leg protection, arm
+protection, and a shield.
+
+The bonus for wearing such as set is: 10% combat aid.
+
+10% aid yields: 10/6% = 1.67% tax.
+
+The neidars can obtain a maximum of: 50 + 15 + 4.45 + 20 + 10% combat aid = 99.45% ~ 100%
+
+Tax from Combat Aid : 16.67%
+Tax from Skills     : 10.25%
+Other Taxes         :  1.00% (Tireless).
+----------------------------------------
+Total Tax           : 27.92% ~ 28%.
+========================================

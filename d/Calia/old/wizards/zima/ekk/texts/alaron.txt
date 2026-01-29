@@ -1,0 +1,134 @@
+Message: 9
+From   : Kieryn
+Subject: Tomb Quest/Captured Souls Quest (forwarded) (forwarded)
+Date   : Jan 12 1997
+
+Author : Alaron
+Date   : Sep 18 1996
+
+Author : Alaron
+To     : Korat, Aridor, Maniac, Denis and Elessar
+CC     : Alaron
+Date   : Sep 18 1996
+
+
+Some of you may have already heard about this idea, but
+I'll spec it out in a little more detail here.
+
+Ok... little bit of a story... There are these seven 
+elven clerics who have been studying and worshipping
+in solitary places, as they have been striving for
+a very quiet place to carry out their work.. They
+find this old tomb in the graveyard (yes, the 
+graveyard the vamps used to hang out near) .. It
+seems like the perfect place.
+
+So, they work up a big stone altar in the middle of
+the old tomb. They start working on translating some
+ancient scrolls which they believe were written by
+prophets and avatars of the great God of light himself,
+Telan-Ri. The scrolls describe intricate rituals used
+in communing with the deities, namely Telan-Ri.
+
+It becomes apparent to them that it is required that
+seven people participate in each of the rituals, and they
+vow never to disclose the information they have found
+in the scrolls, as it would be too dangerous in the
+wrong hands.
+
+Well, a few years later, they've gotten into some very
+heavy magic and some very heavy rituals. One day,
+some drow elves were out in the graveyard looking
+for hunt and sport, when they noticed a strange light
+coming out of one of the tombs. They crept closer
+and managed to get to a crack in the stone wall
+big enough to allow them to view the ritual.
+
+There, before the eyes of the Drow, the God of Light
+appeared out of thin air and manifested himself before
+the Circle of Seven. The Circle asked Telan-Ri to do
+a favor for them , and with a wave of his hand, an
+enormous, long-dead forest within Emerald came
+to life. They thanked him and Telan-Ri was gone
+with a flash of light.
+
+Being very intelligent Drow, and having dabbled in
+the magical arts, they knew of a soul-stealing ritual
+which could trap and harness the magic of any creature
+with a soul. 
+
+Later that night, when the Circle of Seven had laid
+down for the night's rest, the Drow who had witnessed the
+summoning that afternoon plus several of their
+most well-armed friends snuck into the tomb.
+
+Within seconds, every member of the Circle of 
+Seven had been bound, gagged and thrown to the base
+of the altar they had erected in honor of Telan-Ri.
+
+What followed was an incredibly slow, agonizing 
+process of ritual killings where each member of
+the Circle of Seven was butchered, skinned alive, and
+hung from the ceiling with an ornamental dagger 
+imbedded in the spine. During this process, a wizard
+had been incanting ancient spells, storing the souls
+of the not quite departed into small, glowing
+blue spheres.
+
+When the wizard tried to utilize one of the souls to
+focus its magic.
+(woops) When the wizard tried to focus the magic of the
+soul contained within, nothing happened.
+He assumed that his magic was insufficient to control
+the soul within the sphere, and had the Drow seek
+out very well hidden places to safely store the
+spheres until such time as he could learn enough
+to harness their power.
+
+What he was unaware of was that the souls had no
+magic, and that they had been channeling all of
+their power from Telan-Ri, the God of Light, so he
+would never be able to control them.
+
+End Story.
+
+Player objective is to find the tomb in the emerald
+graveyard, read the tome which describes the
+horrible ritualistic killing of the Circle of
+Seven, and then go in search of the seven blue
+spheres. Once the player has found all seven spheres,
+the player must take the dagger that was used
+to rid the victim of life and break the sphere
+with it (note using the wrong dagger awakens big
+bad npc hanging out in coffin!). Once all seven
+are broken properly, the souls/spirits of the
+Circle of Seven are set free, and a token of
+their thanks (in addition to xp) is given 
+to the player... I haven't quite figured out what
+kind of autoloading item they'll get in return for
+this quest yet, though.
+
+What I'd like is for each of you to store one
+of the spheres in your domain, hidden somewhere
+nice and tidy or something ... I'll do the 
+coding for the spheres and for the npc in the 
+tomb and all that stuff. ... Also, we'll probably
+need to have some mention of the spheres somewhere
+in a library somewhere to lead the players to
+finding all seven.... thats up to you folks :)
+
+In any case, let me know what you think of the 
+idea... to view the tomb as it is now (without
+any quest functions in it), goto
+/d/Emerald/kroad/graveyard/atomb1.c
+
+Its got a pretty creepy feel to it, but I think
+it fits the quest pretty well...and its not
+an easy place to find, the player has to 
+'crawl through opening' in the room outside
+the tomb in the graveyard.
+
+Thanks for listening (reading?)
+
+/Alaron
+

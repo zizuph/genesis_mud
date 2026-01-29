@@ -1,0 +1,15 @@
+NAME
+        faq
+
+SYNOPSIS
+        This is not a command, simply information.
+
+DESCRIPTION
+        In order to eliminate confusion around various core game
+        concepts, several FAQs have been written.  These will
+        cover various questions that often come up.  Please look
+        through each of them.  If there are any questions that
+        are not covered, 
+
+SEE ALSO
+        faq_experience, faq_stats, faq_equipment, faq_combat

@@ -1,0 +1,46 @@
+
+     Spell name: Mirror portal
+                 dotonobsule
+         Effect: Restricted teleport
+           Type: Instant
+        Targets: Object (teleport object - mirror)
+        
+        Element: Water       / 20
+           Form: Divination  / 20
+    Spell power: Power 1 [cantrip spells]
+     Spell type: propchange spell
+     
+       Peaceful: No
+     Stationary: Yes
+          Vocal: Yes
+         Visual: Yes
+       
+     Components: none
+     
+   Casting time:  4s 
+                   
+      Mana cost: Standard, 30 mana
+     Difficulty: TASK_ROUTINE
+     Combat Aid: 0%
+
+            Tax:   0.1   
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x1.0   Routine difficulty
+                  x1.5   no material component
+                 ------
+                  0.15%  total tax
+   ------------------------------------------------------------
+   Comments: This is a cantrip accessible to WoHS. It allows
+     members to teleport between the Tower of High Sorcery  
+     (/d/Krynn/wayreth/tower/guestroom) and the School of High
+     Magic (/d/Krynn/solace/poolbottom/room/landing) via
+     magic mirror objects:
+
+          /d/Krynn/solace/poolbottom/obj/mirror.c
+          /d/Krynn/wayreth/tower/obj/mirror.c
+
+   This spell will also be used for WoHS to access rooms as
+   part of specific spell quests.
+   ------------------------------------------------------------

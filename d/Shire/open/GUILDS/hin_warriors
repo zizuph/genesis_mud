@@ -1,0 +1,166 @@
+************This guild was closed by Dunstable and Arwen on
+April 30, 1995. Replacing it are the Heralds of the Valar and the Tricksters*******
+Hin Warrior guild
+-----------------
+(Last updated on april 23rd, 1994)
+
+How, where, how much, why and what? In a moment. But first some background:
+
+
+The History of the guild of the Hin Warriors
+--------------------------------------------
+Several ages ago a simple hobbit by the name of Nob Nar made several trips
+to places outside the Shire. On his travels Nob made several friends who
+joined him as he travelled around, adventuring and searching for treasures.
+His friends were of all races: lightfooted elves, exellent building dwarves,
+bold gnomes, strong humans and of course pipe smoking hobbits.
+
+This smoking of the pipe-weed in pipes was taken over by all friends and the
+pipe became a symbol of the group that was lead by Nob Nar. They ventured to
+places that were still uncharted in those days and slayed quite a few beasts.
+None of the group was a great warrior, but it was the whole group that gave
+its members more fidelity, more fierceness, maybe even more strength when
+fighting an opponent.
+
+One day the group entered yellow vale, the ground burned and smelling like
+sulfur. It was here that the group fought a battle that lasted two nights
+and a day with the evil four-winged two-headed dragon Hqswrin, who was a
+burden on at least five gnome-villages. The people kindly referred to the
+group as the Hqswrin Warriors, even though noone of the group really was a
+warrior. Nob decided that he liked the idea of having a name for the group,
+so he took the name. Since virtually noone of the group could say the word
+Hqswrin, they took the name Hin Warriors upon them after a few weeks.
+
+Somehow, Nob Nar had an exceptionally long life-span. In his older years he
+settled down in the mountains near Hobbiton, in his favourite part of the
+world. There, in the mountains he founded a home for the members of his still
+growing group. Nob Nar died there of old age, and he was regarded as a god
+from thereon.
+
+
+Things to know about our guild
+------------------------------
+Main guild room:		/d/Shire/common/guild/rooms/hguild
+Library:			/d/Shire/common/guild/rooms/libr1
+				/d/Shire/common/guild/rooms/libr2
+
+Guild object:			/d/Shire/common/guild/pipe
+Joining object (in guildroom):	/d/Shire/common/guild/statue
+
+You can join our guild by typing "pledge allegiance" in our guild
+room. Being a member of the guild costs the tax that is calculated
+below. In return for that you get spells, a tell line, a bunch of new
+emoting-commands, the pipe of the Shire (our guilditem) and a brand
+new shadow that brightens your existence with a flashy title.
+
+Since people can start up in the guildroom, a post-office is around the
+corner. The libraries contain descriptions of the spells, and of the
+commands that are supplied by the pipe. There, you will also find the
+guild guidelines and cando's & candon'ts.
+
+This is what the "Commitment" book in the library says:
+
+   The Hin Warrior Guild is basically a brotherhood that offers
+   you something in return. There are a few basic rules that you
+   need to follow to become a great Hin Warrior:
+
+       (1) Only fight against worthy opponents, fight with honour.
+       (2) Help out other members of our guild.
+       (3) Help out newcomers, even if they are not a member.
+       (4) Do not disgrace yourself and thus the Hin Warriors.
+
+It is possible to leave our guild by sacrificing something valuable,
+a weapon or an armour. Leaving our guild also causes loss of money
+because skills which were raised above a certain level are truncated
+to a lower value.
+
+
+What the guild offers
+---------------------
+The Hin Warrior name might be a bit misleading, the guild has no offensive
+spells or commands. ONLY DEFENSIVE SPELLS ARE ALLOWED. The guild could
+be placed under the "social guilds", if only there was such a type.
+Officially it is a layman clerical guild, which is why the Shires can
+cast a few minor spells like "light", "tend" and "clairvoyance".
+
+The guild allows training of the following skills: DEFENCE, SPELLCRAFT,
+CONJURATION, ABJURATION, ENCHANTMENT, TRANSMUTATION, LIFE, EARTH, APPR_MON,
+APPR_OBJ, HERBALISM, LANGUAGE and LOC_SENSE. The six spellcrafting skills
+are closely connected; being high in one leaves less points for the other
+ones.
+
+The guild has a herbal shop sells a few herbs, but also several kinds
+of tobacco. The pipe enables people to smell the smoke in rooms where
+they have smoked some tobacco. This was designed to get out of mazes
+more easily, even the devious ones. Unfortunately, mazes have been
+banned from Genesis. *sigh*
+
+
+So, what is the amount of tax?
+------------------------------
+Ah, I thought you would never ask! Unfortunately I do not know enough
+about the tax on spells, all I know is that mortals find them to be
+funny, yet useless. Hence the low tax on the spells.
+
+Take a look at this:
+
+                      Max level  Untaxed  Tax levels   Tax in %
+- Combat aid(1):                                          0.00
+- Special places(2):                                      0.00
+- Member to member tell:                                  4.00
+- Harmless spells:
+   o peace                                                0.01
+   o tend                                                 0.01
+   o cure                                                 0.01
+   o adore                                                0.01
+   o candle                                               0.01
+   o clairvoyance                                         0.01
+   o protect                                              0.40
+   o hex                                                  0.01
+- Offered skills:
+   o spellcraft            50       20        30          0.50
+   o form_conjuration(3)   33        0         0          0.55
+   o form_abjuration(3)    33        0         0          0.55
+   o form_enchantment(3)   33        0         0          0.55
+   o form_transmutation(3) 33        0         0          0.55
+   o element_life(3)       33        0         0          0.55
+   o element_earth(3)      33        0         0          0.55
+   o appraise monsters     25       50         0          0.00
+   o appraise objects      27       50         0          0.00
+   o herbalism             44        0         0          0.73
+   o language              32       50         0          0.00
+   o location sense        18       50         0          0.00
+                          ---                            -----
+                          396                             9.00
+
+        (1) A defensive guild, remember?
+
+        (2) There is a shop around the corner, but it does not offer
+            special prices or something. It is just a place where
+            tobacco for the pipe is sold, along with some simple herbs.
+
+        (3) The maximum raise is actually 70%. Technically, a layman
+            guild may not offer more than 50% raise in any skill, but
+            by combining these 6 skills together, and limiting the total
+            raise to 200%, we end up offering an average raise of 33%
+            per skill. The maximum of 70% is still much below the 100%
+            an occupational guild may offer. This is completely within
+            the spirit of the law, methinks. 
+
+Future of the guild
+-------------------
+The future was very shaky. There were less and less Hin Warriors since
+mighty occupational guilds had been founded. Only very few players were
+prepared to pay the high tax (15%) for the little gain they got back
+from it. It is very hard for a layman guild (especially if you are not
+based on giving a big advantage in combat) to compete with an occupational
+guild.
+
+So, under the revitalizing lead of Dunstable we decided to throw out
+the talkline and save us a lot of tax. People are more willing now to
+join our guild. However, we probably need more interesting spells 
+and features to get their undivided interest again. The future may
+be bright, but at the moment it is a bit misty.
+
+				Tricky, Guildmaster of the Shires
+

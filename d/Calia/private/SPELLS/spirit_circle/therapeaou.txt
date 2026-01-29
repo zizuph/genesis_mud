@@ -1,0 +1,10 @@
+Cure Wounds -      This will be a fairly powerful healing spell. The 
+                   amount healed will depend on guild_stat and spell
+                   skills. This spell will be able to be cast upon
+                   themselves, or others that they choose to heal 
+                   (including npcs if they so choose). It may be cast
+                   in combat. It will not initiate combat. Requires a
+                   pearl. 100 mana. Min healed is 100, max is 600. It
+                   has a 1 in 1000 chance of doing a critical heal (max
+                   is 1200 pts). This spell is available to all level 
+                   1 Master members (guild level 4) and higher.

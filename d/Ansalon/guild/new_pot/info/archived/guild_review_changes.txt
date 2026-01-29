@@ -1,0 +1,249 @@
+For the review and recode of the Priests of Takhisis (PoT), the 
+following changes have been incorporated:
+
+SKILLS:
+Unchanged, with the exception of conjuration skill being increased
+from a maximum of 25 to a maximum of 70.
+
+TAX:
+Updated spells, and the inclusion of combat aid tax have resulted in
+tax increasing for the PoT from:
+
+                     CL       PR       HP
+Old tax:             13       20       22
+New tax:             15       32       35
+
+REMOVED FEATURES:
+battle maneuver - an ability in the PoT shadow that allowed priests to
+automatically move behind dragonarmy soldiers when in team with them.
+Has been replaced with a recoded pMirage (now a blink base spell).
+
+Mana-replenishing spells have been removed (pdrain) or recoded (pgem)
+to provide different benefits.
+
+NEW FEATURES:
+PoT now use the new magic system and inherit the magic mana shadow.
+
+When they reach PR rank a Priest may "specialise" in an aspect of the
+Queen of Darkness - either the aspect of the Dark Warrior - focused on 
+offensive abilities, or the  aspect of the Dark Lady - focused on 
+healing and debuffing abilities. See "aspects" doc for more details.
+
+** note - for opening all combat aid values listed below have been
+** reduced by 10%.
+
+SPELLS:
+Spells have been recoded into the new magic system templates where
+possible. The following is a summary of the changes to their spells:
+
+Spell name CL   PR   HP  ClassType  Tax      Elem.          Form
+
+pTell       *    *    *      1       0.1     AIR     10     DIV     10
+UPDATED - Unchanged.
+
+pAlign      *    *    *      1       0.2     LIFE    10     DIV     15
+UPDATED - Unchanged.
+
+pHearing    *    *    *      1     0.075     EARTH   14     ENCH    20
+UPDATED - No combat aid. Skill bonuses now show on skill list.
+
+pHammer     *    *    *      3  O  0.375     AIR     20     ENCH    20
+UPDATED - increases club and parry skill by up to 35, depending on priest
+level.  May change how much benefit it provides when working out spell
+orders etc.
+UPDATED - cannot be cast in Dark Lady aspect.
+
+Used to increase weapon hit/pen by between 5 to 15 and weapon skill. 
+*decrease variability of hit/pen*
+
+pScourge    *    *    *      3  O  0.75     LIFE    35     ENCH    20
+NEW - At will harm spell, 60% combat aid. Requires a club/mace wielded to cast.
+
+pEyes       *    *    *      2     0.25     LIFE    45     ENCH    30
+UPDATED - See in dark/invis max levels unchanged, although also now takes into
+account the spell power level. Can be cast on others in if Dark Lady aspect.
+UPDATED - Can only be cast on others under the aspect of the Dark Lady.
+
+pBless           *    *      3  D  0.375     LIFE    60     ENCH    40
+UPDATED - protection from good stoneskin base. 
+          50% combat aid default, 100% combat aid in Dark Lady aspect.
+          Affects attackers of -350 alignment or higher. 
+
+POST-REVIEW UPDATE
+          When combined with heal was found to make the priest too tanky.
+          Reduced benefit to 60% in Dark Lady aspect, 40% caid default.
+
+Original reduces damage by 2% to 12% depending on opponents DIS and PoT level
+
+pHeal            *    *      4 D    1.0      LIFE    50     TRANS   40
+UPDATED - 150% combat aid, uncapped.
+UPDATED - healing good aligned more difficult, gives standing penalty
+UPDATED - healing combat aid depends on standing
+UPDATED - incorporated aspect casting combat aid variation
+
+POST-REVIEW UPDATE
+         combat aid formula modified to:
+    // Dark Lady aspect heal combat aid formula:
+    //    * base c_aid is priest standing (max 1000) / 10 + 50.
+    //    * if the caster is not using pbless defensive spell, this is 
+    //    * increased further by 60 (equivalent pbless c_aid). 
+    //    * with pbless, combat aid between 30 and 150
+    //    * without pbless, combat aid between 30 and 210
+
+    // Dark Warrior and unaspected heal combat aid formula: 
+    //    * base c_aid is priest standing (max 1000) / 20, plus 20.
+    //    * combat aid between 30 and 70
+
+
+pTalon           *    *      4  O    0.75    LIFE    50     CONJ    20
+UPDATED - now based on harm spell, 70% base combat aid 
+UPDATED - combat aid changes depending on standing and location 
+          (Neraka x2/Krynn x1.5) and aspect
+
+          max combat aid for ptalon Dark Warrior aspect: 
+           (Neraka / Krynn / elsewhere)
+             250   /  200  /   150
+          max combat aid for ptalon unaspected / Dark Lady aspect:
+              90   /  70   /   50 
+
+UPDATED - Difficulty of spell harder (FORMIDABLE) if targeting evil targets.
+UPDATED - incorporate aspect casting combat aid variation
+
+POST-REVIEW UPDATE
+          max combat aid for ptalon Dark Warrior aspect: 
+           (Neraka / Krynn / elsewhere)
+             230   /  180  /   130
+
+Original a reasonable harm spell
+
+pRestore         *    *      2       0.1875  LIFE    55     TRANS   40
+UPDATED - now just cleanses poisons.
+
+Used to heal up to 500hp, chance of healing poisons
+
+pIdentify        *    *      1     0.075     LIFE    14     DIV     24
+UPDATED - Unchanged.
+
+pBlind           *    *      2  D 0.1875     AIR     40     ENCH    45
+UPDATED - changed to base blind spell, 20 heartbeat duration. 6 heartbeat cast
+for aspect of the Dark Lady, otherwise 8 heartbeat cast.
+
+Original blind for 6-45 seconds / with a 10-19 second period where they can't
+be blinded again.
+
+pScry            *    *      2     0.125     LIFE    45     DIV     30
+restrictive scry spell
+UPDATED - had to use centralized_spell as base rather than base scry
+to work as a restrictive scry
+
+pSlow            *    *      2  D    0.25     AIR     35     ENCH    40
+UPDATED - hampers movement as /d/Genesis/specials/std/spells/slow
+
+Used to be a quickness reduction spell.
+
+pCurse           *    *      2  D    0.25     LIFE    40     ENCH    45
+UPDATED - Up to 15% chance of a cursed foe missing
+
+Used to be a cosmetic spell
+
+pMirage               *      2      0.25     AIR     50     ENCH    40
+UPDATED - aura of temptation. Distracts foes with images of false
+grandeur and primal lusts, allowing the priest to step out of the fore
+of the battle behind a teammate.
+Blink-based spell. Unless aspected to the Dark Lady, a priest can only
+blink behind a dragonarmy soldier.
+
+Originally a stop fight spell. This will replace the ability battle 
+maneuvers the PoT originally had embedded in their guild shadow.
+
+pGem                  *      1       0.1     EARTH   15     TRANS   35
+UPDATED - create a soul gem that allows you to capture souls with it
+when it is held in a priest's hand upon death of a target. The souls
+can be used as charges to remove the spell component requirement for
+ptalon and pheal.
+
+Used to reduce mana cost of spells by 1/6.
+
+pPain                 *      4  D    0.8     DEATH   77     ENCH    77
+UPDATED - standard stun spell with a 90 combat aid
+UPDATED - incorporate aspect casting
+
+Was stun and paralysis 47-60 seconds with a 3 to 7 minute cooldown.
+Hindered all movement commands. Dismounts mounted players.
+
+POST-REVIEW UPDATE
+          was tested to be very weak compared to the original. However
+          there isn't any scope to increase duration to align with the
+          old ppain. 
+
+pplaneswalk           *     3        0.4     LIFE   45       DIV    30
+UPDATED - mirrors previous spell using new teleport base code
+
+REMOVED SPELLS
+------------------------------------------------------------------------
+pDrain           *    *      2    0.1875     LIFE    30     TRANS   24
+mana drain
+
+pImprecate
+Was a spell that reduces defence and parry of target
+------------------------------------------------------------------------
+
+SPELL ORDER:
+Priests receive their spells in a different progression order now. It provides
+functional spells at a lower level, making it a more playable guild from
+the beginning.
+
+Original:
+        /* High Priest */
+        level 15:
+        level 14:
+        level 13:  spells += PPLANESWALK;
+        level 12:  spells += PPAIN;
+        level 11:  spells += PGEM;
+        /* Priest */
+        level 10:  spells += PRESTORE;
+        level 9:   spells += PBLESS;
+                  spells += PSCRY;
+        level 8:   spells += PBLIND;
+                  spells += PTALON;
+        level 7:   spells += PIDENTIFY;
+                  spells += PHAMMER;
+                  spells += PIMPRECATE;
+        level 6:   spells += PDRAIN;
+        /* Cleric */
+        level 5:   spells += PSLOW;
+                   spells += PEYES;
+        level 4:   Q_VERMINAARD spells += PHEAL;
+                   spells += PHEARING;
+        level 3:   spells += PCURSE;
+        level 2:   Q_KALAMAN spells += PALIGN;
+        level 1:   spells += PTELL;
+
+Proposed spell progression:
+
+        /* High Priest */
+        level 15:
+        level 14:
+        level 13:  spells += PPLANESWALK;
+        level 12:  spells += PPAIN;
+        level 11:  spells += PGEM;
+                   spells += PMIRAGE
+        /* Priest */
+        level 10:  spells += PCURSE; (up from level 3)
+                   spells += PSLOW; (up from level 5)
+        level 9:   spells += PIDENTIFY; (up from level 7)
+                   spells += PSCRY;
+        level 8:   spells += PBLIND;
+                   spells += PRESTORE; (down from level 10)
+        level 7:   spells += PTALON; (down from level 8)
+                   spells += PHEAL   (up from level 4)
+        level 6:   spells += PBLESS; (down from level 9)  
+        /* Cleric */
+        level 5:   spells += PEYES;
+                   spells += PSCOURGE (new);
+        level 4:   Q_VERMINAARD spells += PHAMMER (down from level 7);
+        level 3:   spells += PHEARING (down from level 4);
+        level 2:   Q_KALAMAN spells += PALIGN_ID;
+        level 1:   spells += PTELL_ID;
+
+       (deleted PDRAIN, PIMPRECATE)

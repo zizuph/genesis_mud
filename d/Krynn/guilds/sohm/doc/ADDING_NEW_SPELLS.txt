@@ -1,0 +1,21 @@
+STEPS TO FOLLOW WHEN ADDING NEW SPELLS:
+
+1. Code spell based on spell templates at
+/d/Genesis/specials/std/spells/
+
+2. In ~guilds/sohm/remove_all_spells.h in the
+remove_all_spells function add:
+unmemorise_spell and 
+unsubscribe_spell_from_spellbook
+
+This will ensure the spell is removed when they leave the 
+guild (there is an exception to this for when they switch
+from SoHM to WoHS).
+
+3. In ~guilds/sohm/souls/common_spell_soul.c add spell to:
+query_cmdlist()
+query_ability_map()
+query_sohm_spell_level
+
+4. Add spell to spellbook at 
+~guilds/sohm/objs/spellbook_spells.h

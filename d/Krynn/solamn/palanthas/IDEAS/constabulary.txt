@@ -1,0 +1,36 @@
+/*  Criminal activity in the city can be monitored by
+the constabulary.  Their office can contain records on
+crimes, suspects, wanted lists, and arrests.  Such records
+could be available to those who've done all the good side
+of the quests for the city and the constabulary quests as
+well as available to Knights of Solamnia.
+   Hints of records could be available through the under-
+ground rumormills
+
+   The problem for thieves is that thief activity in Palanthas
+runs you the risk of being spotted in the act (daytime chances
+higher than night, etc.) not just by pcs but by npcs also.
+This could get you on the constabulary's suspects list.
+Getting caught can get you potentially arrested and given a
+criminal record in the constabulary or at least on their
+wanted list.  
+
+   There should also be a way to clear your record,
+perhaps by way of some good quests, penance tasks, 
+public humiliations, and/or time.  Questionings
+can potentially change records, also.
+
+   The constabulary can catch you a couple ways.  Once
+they are on to you, they should be hard to lose unless
+you can get somewhere they can't.  Once they catch you,
+they will either ask you to come with them (if you're
+just wanted for questioning) or throw you in chains (if
+you're wanted for a crime).  An idea after being captured
+could be to have suspects thrown in a cell where interrogators
+attempt to force a confession from you (confess/deny).
+If you are wanted for a bad enough crime, they may try to
+beat a confession out of you (automatic dmg from beatings
+could be 10% of current health so players think they might
+die but never have a real chance).
+
+Mortis 06.2005 */

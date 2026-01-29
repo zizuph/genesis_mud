@@ -1,0 +1,118 @@
+/* 	this is a door of the town Gelan
+
+    coder(s):   Merlin
+
+    history:    8/11/97     typos fixed                     Maniac
+                31.5.95     typo taken out                  Maniac
+                21. 2.93    path system                     Merlin
+                14. 1.93    towndoors.h -> door.h           Merlin
+                22.12.92    continued                       Merlin
+                21.12.92    created                         Merlin
+
+    purpose:	door to close male cabin
+    exits:      male to male cabin, leave back to lavatory.
+
+    quests:     none
+    special:    none
+
+    to do:      none
+    bug:        none known
+*/
+
+
+inherit "/std/door";
+#include "door.h"
+#include <stdproperties.h>
+
+/*
+ * Function name: pass_door
+ * Description:   called when passed door
+ * Arguments:     string with arguments
+ * Returns:       0 if passed, 1 for not
+ */
+
+int
+pass_door(string arg)
+{
+    object ob;
+
+    ob = find_object(GELAN_ROOMS + "lavatory_male");
+
+    if(!(open_status))
+        return ::pass_door(arg);
+
+    if(!(ob->pass_door(arg)))
+        return ::pass_door(arg);
+
+    return 1;
+
+}
+
+void
+create_door()
+{
+
+  ::create_door();                              /* get defaults */
+
+  set_door_id("men_door");                     /* id, must be unique in room */
+  set_door_name(({"blue door","men","men door","door"}));   /* name(s) for the door, first
+                                                   string is std desc */
+
+  /* commands */
+
+  set_pass_command(({ "leave", "blue", "men" }));                    /* command(s) to pass the door */
+
+  set_other_room(GELAN_ROOMS + "lavatory");             /* room on the other side */
+
+  /* state */
+
+  set_open(0);                                  /* 1 for open, 0 for closed, std 1 */
+  set_locked(0);                                /* 0 for unlocked, 1 for locked, std 1 */
+
+  /* lock */
+
+  set_lock_name("lock");                        /* name(s) of the lock */
+  set_lock_command("lock");                     /* command to open lock */
+  set_unlock_command("unlock");                 /* command(s) to unlock the lock */
+  set_lock_desc("@@exa_lock");                  /* desc of lock */
+  set_lock_mess(({"locks the door.\n",          /* msg when locking in this room */
+                BS("You hear the sound of a lock being locked.\n")}));
+                                                /* msg in the other room */
+  set_unlock_mess(({"unlocks the door.\n",      /* msg when unlocking in this room */
+                  BS("You hear the sound of a lock being unlocked.\n")}));
+                                                /* msg in the other room */
+
+  /* descs */
+
+  set_door_desc(BS("It's a freshly blue painted door.\n"));
+                                                /* description of the door */
+
+  /* properties */
+
+}
+
+/*
+ * Function name: exa_lock
+ * Description:   desciption of lock
+ * Arguments:     none
+ * Returns:       string with desc
+ */
+
+string
+exa_lock()
+{
+
+    if(lock_status)
+        return "The lock is closed.\n";
+    else
+        return "The lock is open.\n";
+
+}
+
+/*
+ * Function name: none
+ * Description:   none
+ * Arguments:     none
+ * Returns:       none
+ */
+

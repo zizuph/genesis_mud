@@ -1,0 +1,68 @@
+Staves, wands and daggers... plus iconic weapons, particularly
+clerical.
+
+KRYNN/ANSALON
+shiny wand: /d/Ansalon/balifor/flotsam_forest/obj/wand.c (spellpower 30) [DONE]
+/d/Krynn/common/warfare/rewards/masterwork_warfare_wand.c  (spellpower 35 / 40)
+/d/Krynn/tharkadan/obj/light_wand.c (spellpower 35) [DONE]
+/d/Krynn/throtyl/obj/petrified_stick.c  (spellpower 40) [DONE]
+/d/Krynn/turbidus_ocean/obj/wand_ice.c (spellpower 40) [DONE]
+
+bladed silver staff: /d/Krynn/haven/road/bladed_staff.c (spellpower 40-50 *scale by spellcraft*) [DONE]
+runed ironwood staff: /d/Krynn/tharkadan/weapon/magic_ironwood_staff.c (spellpower 55) [DONE]
+gnarled wooden staff: /d/Ansalon/balifor/flotsam_forest/obj/weapon/mag_staff.c (spellpower 40-50 by enchantment)
+bone staff: /d/Krynn/tharkadan/weapon/staff_of_skulls.c (to be created... spellpower 60?)
+/d/Krynn/common/warfare/rewards/weapons/masterwork_warfare_staff.c  (spellpower 50 / 55)
+gnarled wooden staff: /d/Ansalon/goodlund/nethosak/chislev_temple/obj/weapon/chislev_staff.c  (spellpower 45-60)
+
+three-headed iron flail: /d/Ansalon/balifor/flotsam_forest/obj/weapon/flail.c  (spellpower 45) [DONE]
+blackened-steel dagger: /d/Ansalon/balifor/flotsam/obj/weapon/draco_dagger.c  (spellpower 30) [DONE]
+black spiked mace: /d/Krynn/pax/weapon/nightbringer.c  (spellpower 50 *evil only*)
+holy blade: /d/Ansalon/dargaard/obj/weapon/mishakal_blade.c  (spellpower 35-43 *good only*)
+flaming black mace: /d/Ansalon/dargaard/obj/weapon/black_mace.c (spellpower 42)
+
+midnight-black orb: /d/Ansalon/balifor/flotsam_forest/obj/black_orb.c (spellpower 40 *evil only*) [DONE]
+leaf-green ioun stone: /d/Krynn/icewall/castle2/obj/green_ioun_stone.c (spellpower 35) [DONE]
+night-blue stone: /d/Krynn/icewall/castle2/obj/blue_ioun_stone.c (spellpower 35) [DONE]
+icy black stone: /d/Krynn/pax/obj/spirit_stone.c (spellpower 35) [DONE]
+
+KALAD
+twisted thin black wand: /d/Kalad/common/central/wep/councellor_wand.c (spellpower 45)
+long thin onyx wand: /d/Kalad/common/wild/pass/drow/obj/dhwand.c (spellpower 45)
+
+Drow weapons:
+/d/Kalad/common/wild/pass/drow/wep/*  (mix... mid-range values for the magical ones? 35 to 45?)
+
+RAUMDOR
+/d/Raumdor/common/drakmere/wep/dl_scepter.c  (spellpower 45 *good only*)
+
+GENESIS
+staff of the medusa: /d/Genesis/start/human/obj/ogre_magi_staff.c (spellpower 30) [DONE]
+
+SPARKLE
+/d/Sparkle/area/goblin_caves/equip/l2_shaman_staff.c (spellpower 25) [DONE]
+
+KHALAKHOR
+wand of healing: /d/Khalakhor/inisi/roke/obj/wand.c (spellpower 40)
+
+TEREL
+strange wand: /d/Terel/ribos/castle/obj/wand.c (spellpower 40) [DONE]
+
+AVENIR
+serpentine staff:  /d/Avenir/common/holm/obj/serpent_staff.c  (spellpower 46) [DONE]
+
+SHIRE
+gleaming short sword: /d/Shire/common/weapon/elfblade.c (spellpower 35) [DONE]
+/d/Shire/bombadil/wep/shortsword_udpated.c  (spellpower 40) [DONE]
+Thin Wooden Quarterstaff: /d/Shire/common/trollsh/weapon/oakstaff.c  (spellpower 44) [DONE]
+flaming whip: /d/Shire/moria/wep/whip.c (spellpower 50) [DONE]
+
+Maybe look at some of the items coded for the balrog that never
+made the game:  /d/Shire/moria/wep/new/
+
+GONDOR
+/d/Gondor/common/wep/nazgul_sword.c  (spellpower 55) [DONE]
+
+CALIA
+/d/Calia/argos/silent_forest/equipment/c_warhammer.c (spellpower 40) [DONE]
+

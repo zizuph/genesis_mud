@@ -1,0 +1,3 @@
+ help pipe                Print this message.
+ help slevels             List the Hin Warrior titles and levels
+

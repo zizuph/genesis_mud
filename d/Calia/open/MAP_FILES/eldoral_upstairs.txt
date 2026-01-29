@@ -1,0 +1,66 @@
+upstairs
+::MAPDATA::
+build1 11 17
+build1-build2 11 15
+build1-cath 15 17
+build2 11 13
+build2-build3 11 11
+build2-build4 15 13
+build3 7 11
+build4_e 23 13
+build4_w 19 13
+build6 15 9
+build6-build7_1 15 7
+build_6_u 11 9
+build7_1 15 5
+cath-build1 19 17
+cath-build4 23 15
+dining_hall 31 11
+hall-build4 19 11
+hall-nwalk 23 7
+kings_chamber 35 11
+main_hall_1 19 9
+main_hall_2 23 9
+main_hall_3 27 9
+main_hall_4 31 9
+main_hall_5 31 13
+main_stairs_s 31 14
+ne_alley 27 7
+ne_court_stairs 35 6
+ne_walk_1 27 1
+ne_walk_2 27 3
+ne_walk_3 27 5
+ne_walk_4 31 5
+ne_walk_5 35 5
+nwalk1 23 5
+nwalk2 23 4
+nwalk3 23 2
+nwalk4 23 0
+s_cathedral 23 17
+seer_tower 3 9
+sitting_room 35 13
+skywalk 7 9
+sw_court_stairs 4 15
+sw_wall_1 7 17
+sw_wall_2 7 15
+sw_wall_3 7 13
+throne_room 31 7
+::MAPDATA::
+                       o
+                       |   o
+                       o   |
+                       |   o
+                      [ ]  |
+               o      [ ]  o - o -[ ]
+               |       |   |      [ ]
+               o       o   o   o
+               |       |   |   |
+   o - o -[ ] [ ]- o - o - o -[ ]
+                   |           |
+       o - o       o           o   o
+           |       |           |   |
+       o   o - o - o - o      [ ] [ ]
+       |   |           |      [ ]
+   [ ][ ]  o           o
+       |   |           |
+       o - o - o - o - o 

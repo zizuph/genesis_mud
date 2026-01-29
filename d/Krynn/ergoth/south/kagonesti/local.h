@@ -1,0 +1,17 @@
+#define DEFS        "/d/Krynn/common/defs.h"
+#define BASEDIR     "/d/Krynn/ergoth/south/kagonesti/"
+#define STD         BASEDIR + "std/"
+#define OBJ         BASEDIR + "obj/"
+#define ARMOUR      BASEDIR + "armour/"
+#define LIVING      BASEDIR + "living/"
+#define WEAPONS     BASEDIR + "weapons/"
+#define ROOMS       BASEDIR + "rooms/"
+#define FOREST      ROOMS + "forest/"
+#define HUTS        ROOMS + "huts/"
+
+#define PLAYER_I_GOT_NIGHTBIRD_HUNT     "_player_i_got_nightbird_hunt"
+#define PLAYER_I_KILLED_NIGHTBIRD_HARE  "_player_i_killed_nightbird_hare"
+#define PLAYER_I_FAILED_NIGHTBIRD_QUEST "_player_i_failed_nightbird_quest"
+#define QUEST_ITEM_HARE_CORPSE          "_nightbird_hare_corpse_"
+#define PLAYER_I_GOT_NIGHTBIRD_GIFT     "_player_i_got_nightbird_gift"
+

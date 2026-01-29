@@ -1,0 +1,75 @@
+// ARMOUR:  splendid wig
+//      DOME_ARMOURS + splen_wig
+
+    /*  Calia Domain
+
+        HISTORY
+        19aug99 Created by Khon.
+
+        PURPOSE
+        This is a basic armour template of a silk
+        padded wig, reinforced for use as armour.
+
+        ARMOUR HISTORY
+        The wig was considered the most stylish
+        piece of headware, as Benobodrome had a
+        large bald spot.
+
+    */
+
+// INCLUSIONS AND DEFINITIONS
+
+inherit "/std/armour";
+
+#include <formulas.h>
+#include <stdproperties.h>
+#include <wa_types.h>
+#include "/sys/formulas.h"
+#include "/sys/macros.h"
+
+// WEAPON DEFINITION
+void
+create_armour()
+{
+    set_name(({"wig", "armour", "armor"}));
+    set_adj(({"splendid", "silver"}));
+    set_short("splendid silver wig");
+    set_pshort("splendid silver wigs"); 
+    set_long("A set of long silver curls, powdered " +
+        "and faintly perfumed. Padded silk lining " +
+        "on the inside allows it to breath, making " +
+        "this headpiece extremely light and " +
+        "comfortable as well as protective.\n");
+
+// ARMOUR VALUES
+    set_ac(
+
+// Armour value
+     7,
+
+// Set armour modifiers
+    set_am(({
+
+// vs impale damage
+    -1,
+
+// vs slash damage
+    -1,
+
+// vs bludgeon damage
+     2
+    }));
+
+// Where the armour protects
+    set_at(A_HEAD);
+
+// PROPERTIES
+    add_prop(OBJ_I_WEIGHT, F_WEIGHT_DEFAULT_ARMOUR(7, A_HEAD));
+    add_prop(OBJ_I_VOLUME, query_prop(OBJ_I_WEIGHT)/5);
+    add_prop(OBJ_I_VALUE, F_VALUE_ARMOUR(4)*5);
+
+// Starting Corrosion
+
+// Starting Damage
+
+}

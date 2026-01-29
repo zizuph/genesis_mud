@@ -1,0 +1,16 @@
+A skull - a mana-enforcing food.
+
+Properties:
+
+weight: 2kg
+volume: 2 liters
+value: 1000 cc
+
+Adjectives:
+strange repulsive
+
+Items: remains
+
+Actions:
+
+you can eat it, it will restore your mana FULLY

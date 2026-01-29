@@ -1,0 +1,31 @@
+Spell Name      Spell Element       Spell Description          CAID     Spell Form
+==================================================================================
+
+------------------------- LESSER SPELLS --------------------------------
+anemos          air                 guild member fartell                conjuration
+pyrofosti       fire                light spell                         enchantment
+elefrinisi      earth               relieve encumbrence spell           enchantment
+choma           all elements        summon familiar spell               conjuration
+apodosi         water               teleport home spell                 conjuration
+
+------------------------- DEFENSIVE SPELLS ----------------------------
+unteristi       all elements        spell resistance spell      25%     abjuration
+schirmo         all elements        elemental shield spell      25%     abjuration
+
+------------------------- GREATER SPELLS --------------------------------
+aleipso         water               heal self spell             30%/55% enchantment
+floga           fire                fire attack spell           30%/55% abjuration
+evimero         air                 haste self spell            30%/55% enchantment
+dynami          earth               stat boost spell            30%/55% enchantment
+
+* Note: Dynami/Evimero/Aleipso/Floga have dynamic combat aid. If the
+        caster only has one defensive spell (schirmo, unteristi), then
+        the combat aid will be 55%. Otherwise it will be 30%
+* Note: Dynami, Evimero, Aleipso, and Floga are considered power spells.
+        Only one can be active at any one point (ie. mutually exclusive)
+* Note: If Evimero or Dynami are active @ 55%, then only unteristi or schirmo
+        can be active, but not both.
+* Note: Lesser Spells obtained from 0-50 guild stat
+        Defensive Spells obtained at 60-70 guild stat
+        Greater Spells obtained from 80-100 guild stat
+        

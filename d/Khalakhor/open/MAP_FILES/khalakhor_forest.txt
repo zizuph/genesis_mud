@@ -1,0 +1,121 @@
+main
+::MAPDATA::
+tfor_c_16 63 1
+tfor_d_15 59 3
+tfor_d_16 63 3
+tfor_e_04 15 5
+tfor_e_05 19 5
+tfor_e_06 23 5
+tfor_e_13 51 5
+tfor_e_14 55 5
+tfor_e_15 59 5
+tfor_e_16 63 5
+tfor_f_03 11 7
+tfor_f_04 15 7
+tfor_f_05 19 7
+tfor_f_06 23 7
+tfor_f_07 27 7
+tfor_f_10 39 7
+tfor_f_11 43 7
+tfor_f_12 47 7
+tfor_f_13 51 7
+tfor_f_14 55 7
+tfor_f_15 59 7
+tfor_f_16 63 7
+tfor_g_03 11 9
+tfor_g_04 15 9
+tfor_g_05 19 9
+tfor_g_06 23 9
+tfor_g_07 27 9
+tfor_g_08 31 9
+tfor_g_09 35 9
+tfor_g_10 39 9
+tfor_g_11 43 9
+tfor_g_12 47 9
+tfor_g_13 51 9
+tfor_g_14 55 9
+tfor_g_15 59 9
+tfor_g_16 63 9
+tfor_h_02 7 11
+tfor_h_03 11 11
+tfor_h_04 15 11
+tfor_h_05 19 11
+tfor_h_06 23 11
+tfor_h_07 27 11
+tfor_h_08 31 11
+tfor_h_09 35 11
+tfor_h_10 39 11
+tfor_h_11 43 11
+tfor_h_12 47 11
+tfor_h_13 51 11
+tfor_h_14 55 11
+tfor_h_15 59 11
+tfor_h_16 63 11
+tfor_i_01 3 13
+tfor_i_02 7 13
+tfor_i_03 11 13
+tfor_i_04 15 13
+tfor_i_05 19 13
+tfor_i_06 23 13
+tfor_i_07 27 13
+tfor_i_08 31 13
+tfor_i_09 35 13
+tfor_i_10 39 13
+tfor_i_11 43 13
+tfor_i_12 47 13
+tfor_i_13 51 13
+tfor_i_14 55 13
+tfor_i_15 59 13
+tfor_i_16 63 13
+tfor_j_01 3 15
+tfor_j_02 7 15
+tfor_j_03 11 15
+tfor_j_04 15 15
+tfor_j_05 19 15
+tfor_j_06 23 15
+tfor_j_07 27 15
+tfor_j_08 31 15
+tfor_j_09 35 15
+tfor_j_10 39 15
+tfor_j_11 43 15
+tfor_j_12 47 15
+tfor_j_13 51 15
+tfor_j_14 55 15
+tfor_j_15 59 15
+tfor_j_16 63 15
+tfor_k_02 7 17
+tfor_k_03 11 17
+tfor_k_04 15 17
+tfor_k_05 19 17
+tfor_k_06 23 17
+tfor_k_07 27 17
+tfor_k_08 31 17
+tfor_k_09 35 17
+tfor_k_10 39 17
+tfor_k_11 43 17
+tfor_k_12 47 17
+tfor_k_13 51 17
+tfor_k_14 55 17
+tfor_k_15 59 17
+tfor_k_16 63 17
+::MAPDATA::
+        ^                                               OoOoOoOoOoOo    ^
+       /|\                                             OoOoO      oO   /|\
+      //|\\                  OoOoOoOoOoOoOoOoOoOoOoOoOoOoOo       Oo  //|\\
+        |    OoOoOoOoOoOoOoOoOo                                   oO    |
+  ^          o                                                    Oo
+ /|\       OoO                                                    oO
+//|\\    oOoOo                                                    Oo        ^
+  |   oOoO                                                        oO       /|\
+     oOoOo                                                        Oo      //|\\
+oOoOoOoOoO                                                        oO        |
+Oo                                                                Oo
+oO                                                                oO
+Oo                                                                Oo
+oO             o                                                  oO    ^
+Oo             |                                                  Oo   /|\
+oO             o                                   o              oO  //|\\
+Oo             |                                   |              Oo    |
+oO             o                                   o              oO
+             /                                     |
+ 

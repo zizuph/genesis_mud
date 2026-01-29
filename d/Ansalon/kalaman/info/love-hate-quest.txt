@@ -1,0 +1,17 @@
+Kalaman Love and Hate Qeuest 
+
+Items:
+
+~/Ansalon/kalaman/obj/thief_locket.c
+~/Ansalon/kalaman/obj/thief_map.c
+~/Ansalon/kalaman/obj/dungeon_key1.c
+~/Ansalon/kalaman/obj/dungeon_key2.c
+~/Ansalon/kalaman/obj/surrender.c
+
+This is a quest that can be done in two ways, either rescue the lad or kill him.
+
+The killing part will have easier ways into the dungeon but will give less experience.
+
+Doing some parts from both sides of the quest will result in less reward.
+
+Lunatari

@@ -1,0 +1,14 @@
+An outside room - a road across tundral forest.
+End rooms have additional "view of the end" description.
+
+Properties:
+none
+
+Items: trees, bushes, birds, ground
+
+Objects: a courier village <-> guild
+
+Actions: 
+none
+
+Exits: according to map.

@@ -1,0 +1,17 @@
+Name: Dark
+
+Object: /d/Sparkle/guilds/arcane/spells/dark.c
+
+Cost:
+
+Skills:
+
+Description: Tier 4 spell
+                 Targets: N/A
+		 Creates an orb of darkness around the caster,
+		 effective for a few levels of darkness.
+
+Requirements:
+    SS_ELEMENT_LIFE
+    SS_FORM_DIVINATION
+    Fig

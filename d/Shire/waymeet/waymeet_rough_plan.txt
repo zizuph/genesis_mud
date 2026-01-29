@@ -1,0 +1,83 @@
+
+
+
+          fields    house     fields
+         o - o - o   o - o   o - o - o
+         |   |   |   |   |   |   |   |
+         o - o - o   o - o   o - o - o
+         |   |   |   |   |   |   |   |
+         o - o - o - o - o - o - o - o
+                         |
+                         o path
+                         |
+                       - o - GER
+                         |
+                         o well
+                         |
+             peddler o - o - o move inn to here
+                         |
+              stable o - o - o wainwright
+                         |
+     delivery office o - o - o fireworks shop
+	 
+	 
+	 IDEAS
+	 ======
+	 6-10 smials 
+		--Ray
+	------------------	
+	A shop that sells physical parchments or scrolls. 
+	Notes that you can hand deliver instead of sending
+	as mail or pigeons. 
+	
+	The plan I have is to make players write the scroll
+	in the shop. They cannot just buy a bunch of blanks
+	and walk around.
+	
+	I'm considering placing the shop in a hidden entrance
+	beneath a hobbit smial (in the basement).
+	
+	Rough draft of the scroll is in :
+		/d/Shire/waymeet/obj/scroll_2.c
+	
+	issues:
+		There is no side border on the scroll (is that a problem? 
+		It might look funny if players don't format correctly).
+		
+		The scroll currently resets when it saves. It should not
+		reset (or else maybe it shouldn't save?).
+		
+		--Ray
+	-----------------------
+	
+	I see Farmer Maggot had 3 dogs that would scare off bad elements
+	or whatnot (didn't work on nazguls though). Maybe we can have
+	dogs or maybe the sherif(sp?) and dogs show up randomly when
+	people attack hobbits and the dogs and sherrif can hunt the 
+	players. It'd add a little spice to killing hobbits.
+	
+	--Ray
+	
+	---------------------------
+	
+	Also, if we're having dogs, we could get really out there and
+	code an uruk somewhere who's missing a hand. The story is
+	he tried to raid the waymeet and the dogs bit his hand off.
+	he wants his hand back!
+	
+	kill the dogs
+	cut them open
+	cut open the intestines or stomache
+	find the hand (random drop)
+	maybe the hand even has a diamon or a gold ring
+		but before you can sell the ring, you'd need to
+		wash it in the river (smells bad, having been inside the
+		dog).
+		
+	issues
+	------
+	is this too far out there for a shire quest? Don't wanna upset
+	the apple cart.
+	
+	--Ray
+	

@@ -1,0 +1,68 @@
+/*
+ *  faerun/underdark/upper/menzo/melee/first5.c
+ *
+ *   
+ *  Corridor on the first floor in the Melee-magthere.
+ *  Created by Midnight, 4-4-2004
+ */
+
+#include "defs.h"
+inherit P_MENZO_MELEE + "std/base_room";
+#define STUDENT6 P_MENZO_MELEE + "npc/student6"
+
+private object student6;
+public void
+reset_room()
+{
+   
+    
+    if(!objectp(student6))
+    {
+        student6 = clone_object(STUDENT6);
+        student6->move(this_object(), 1);
+        student6->command("emote takes a step out of the shadows.");
+    }
+    
+
+}
+/*
+ * Function name: create_melee_room
+ * Description  : Construct a room for the Melee-magthere
+ */
+void create_melee_room()
+{
+	set_short("A dark western corridor on the first floor");
+	set_long("You stand in a corridor in the " +
+                 "the Melee-magthere of Menzoberranzan. " +
+                 "The floors are swept clean to perfection " +
+                 "and a luminous trail of soft crimson red " +
+                 "light runs in the middle of the floor, like a " +
+                 "trail of blood guiding the way further into " +
+                 "the dark corridor. The walls of the corridor " +
+                 "are lost in the shadows, but the corridor " +
+                 "still feels quite roomy. \n");
+		 
+	add_item(({"corridor"}),
+        "This dark wide corridor on the first floor." +
+        "The walls and ceiling of the corridor are " +
+        "swallowed up by the shadows and lost in the darkness.\n");
+      
+        add_item(({"trail", "light","blood" }),
+        "There's a trail of soft crimson red light, " +
+        "in the middle of the floor, it runs like a trail " +
+        "of blood in the direction of the corridor.\n"); 
+
+        add_item(({"wall", "walls"}),
+        "The walls of the wide corridor are lost in the dark shadows.\n"); 
+    
+        add_item(({"floor","floors"}), 
+        "The floor has been swept clean to perfection, probably by " +
+        "one of the hardworking students. The soft crimson red " +
+        "light makes the shiny floor glow with a strange red hue " +
+        "near the trail of light in the middle of the floor.\n"); 
+        
+        add_exit("first7", "north");
+        add_exit("first3", "south");
+        add_exit("first6", "east");
+        reset_room();
+}

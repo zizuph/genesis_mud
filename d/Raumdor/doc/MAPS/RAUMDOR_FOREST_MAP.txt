@@ -1,0 +1,42 @@
+RAUMDOR FORESTS
+
+                                                                                nf55-nf56-nf57-nf58
+                                                                               /  | X  | X  | X  | \
+                                                       NF24                nf47-nf48-nf49-nf50-nf51-nf52-nf53-nf54
+                                                      /  | \              /  | X  | X  | X  | X  | X  | X  | X  | \
+                                                  NF20-NF21-NF22-NF23-nf37-nf38-nf39-nf40-nf41-nf42-nf43-nf44-nf45-nf46                (mtrail/mt01)
+                                                 /  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | \              /
+                                             NF16-NF17-NF18-NF19-nf25-nf26-nf27-nf28-nf29-nf30-nf31-nf32-nf33-nf34-nf35-nf36-ef52-ef53
+                                            /  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  |
+                              NF09-NF10-NF11-NF12-NF13-NF14-NF15-nf13-nf14-nf15-nf16-nf17-nf18-nf19-nf20-nf21-nf22-nf23-nf24-ef50-ef51
+                             /  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | \
+                         NF01-NF02-NF03-NF04-NF05-NF06-NF07-NF08-nf01-nf02-nf03-nf04-nf05-nf06-nf07-nf08-nf09-nf10-nf11-nf12-ef47-ef48-ef49
+                           | X  | X  | X  | X  | X  | X  | X  | /  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  |
+                         wf73-wf74-wf75-wf76-wf77-wf78-wf79-wf80-wf81-wf82-wf83-wf84-wf85-wf86-ef38-ef39-ef40-ef41-ef42-ef43-ef44-ef45-ef46
+                           | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  |
+                         wf59-wf60-wf61-wf62-wf63-wf64-wf65-wf66-wf67-wf68-wf69-wf70-wf71-wf72-ef29-ef30-ef31-ef32-ef33-ef34-ef35-ef36-ef37
+                           | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  |
+                  beach2 wf45-wf46-wf47-wf48-wf49-wf50-wf51-wf52-wf53-wf54-wf55-wf56-wf57-wf58-ef20-ef21-ef22-ef23-ef24-ef25-ef26-ef27-ef28
+                       |   | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | X  | /
+dock4-dock3-dock2-beach1-wf31-wf32-wf33-wf34-wf35-wf36-wf37-wf38-wf39-wf40-wf41-wf42-wf43-wf44-ef12-ef13-ef14-ef15-ef16-ef17-ef18-ef19
+                       |   | X  | X  | X  | X  | X  | X  | X  | X  | X  | /       :           \  | X  | X  | X  | X  | X  | X  | X  |
+                  beach3 wf21-wf22-wf23-wf24-wf25-wf26-wf27-wf28-wf29-wf30      crypt1         ef04-ef05-ef06-ef07-ef08-ef09-ef10-ef11
+                           | X  | X  | X  | X  | X  | X  | X  | X  | X  |         |                          \  | X  | X  | /
+                         wf11-wf12-wf13-wf14-wf15-wf16-wf17-wf18-wf19-wf20      crypt2                        ef01-ef02-ef03
+                           | X  | X  | X  | X  | X  | X  | X  | X  | X  |         |
+                         wf01-wf02-wf03-wf04-wf05-wf06-wf07-wf08-wf09-wf10      crypt3
+                             \  | X  | X  | X  | X  | X  | /                      |
+                              sf01-sf02-sf03-sf04-sf05-sf06                     crypt4
+                                       \  | X  | X  | X  |
+                                        sf07-sf08-sf09-sf10
+                                            \  | X  | /
+                                             sf11-sf12
+eforest/ef*
+nforest/nf*
+nflats/nf* (uppercase on map for readability)
+wforest/dock*
+wforest/beach*
+wforest/wf*
+wforest/crypt*
+sflats/sf*
+wf69 has access to Khiraa temple (temple/stairs1)

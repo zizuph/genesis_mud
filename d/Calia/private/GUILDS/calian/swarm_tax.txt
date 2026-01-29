@@ -1,0 +1,91 @@
+
+Combat aid for swarm
+====================
+For information on swarm background and how it fits into Calia's 
+history, see ~Calia/palace/texts/battle. 
+
+Swarm is an attacking skill that allows a player, when teamed 
+against an opponent who is fighting a fellow team member, to 
+attempt to sneak around its defences and deal it a blow. The 
+idea is to take advantage on the fact the opponent will be 
+concentrating on the other team member by hitting its exposed 
+undefended flank with a swift, deft strike. Swarm can only be 
+used in these circumstances. To use swarm one must also be 
+wielding a weapon that can impale. 
+
+Frequency
+---------
+Frequency of swarm is once every 10 seconds (3 secs preparation, 
+7 secs recovery), and given that there is one combat round 
+every 5 seconds, swarm frequency is 1/2. 
+
+Hit chance
+----------
+When deciding whether a hit attempt succeeds, swarm uses cb_tohit 
+with a tohit value as follows: 
+
+    min(max((tp->query_skill(SS_SWARM) / 2), 
+             tp->query_stat(SS_WIS) / 2), 
+        50) 
+    + ((25 * weapon->query_hit()) / 13), 
+
+This means that for a 40/40 weapon, a swarm skill of 100 and wisdom 
+of 100, the tohit value of swarm is 126, which gives a typical hit 
+chance of 94%, and a combat aid reduction of 6%. 
+
+
+
+Penetration
+-----------
+Penetration of swarm varies depending on the weapon's pen, player 
+DEX, and (a) if the weapon is a polearm and (b) if one has another 
+Calian in the team. 
+If one has both (a) and (b), penetration is: 
+          F_PENMOD((8*weapon_pen)/5 + max(DEX/12, OCC/12)), swarm_skill), 
+(This is also the minimum pen if there are four or more people in 
+ the team, regardless of weapon and other Calians in the team). 
+
+If one has either (a) or (b), but not both, penetration is: 
+          F_PENMOD((7*weapon_pen)/5 + max(DEX/12, OCC/12)), swarm_skill), 
+(This is also the minimum pen if there are 3 people in the team, 
+ regardless of weapon and other Calians in the team). 
+
+If one has neither (a) nor (b), penetration is: 
+          F_PENMOD((6*weapon_pen)/5 + max(DEX/12, OCC/12)), swarm_skill), 
+(It can only be this low if the team has two people). 
+
+
+Taking the weapon to be the best non-magical weapon with pen of 
+40, swarm skill 100, DEX of 100 and OCC of 100, this gives pen of 
+((7*weapon_pen)/5 + (100/12)) which yields F_PENMOD(64, 100) = 421. 
+Given that basic standard good penetration is F_PENMOD(40, 100) = 280, 
+relative penetration of swarm is 421 / 280. 
+Note: max(DEX/12, OCC/12) is capped at 16 so superstats don't make 
+things silly. 
+
+Mana/fatigue drawback
+---------------------
+Each swarm takes 2 fatigue and 1 mana when not fighting in a team 
+alongside a fellow Calian, but 1 fatigue and 0.5 mana on average 
+otherwise. 
+
+Usage drawback
+--------------
+Swarm is a very powerful attack in the right circumstances, i.e. 
+given a decent weapon and the right position in a team. Swarmers 
+are however ineffective alone when compared to the member of a 
+solo occupational fighter guild. Also, in situations where the 
+swarmer has to tank, for whatever reason, they may not use their 
+abilility. As these are strong disadvantages compared to fighters 
+who are good solo, the combat aid of swarm is multiplied by 11/20. 
+
+Calculation
+===========
+From the above information, combat aid of swarm is calculated to be: 
+
+  ( (1 / 2) * (94 / 100) * (421 / 280) * (11 / 20) * 100) % 
+
+  = 38.86% (rounding up) 
+
+Document by Maniac
+Last revision: 22/6/2001

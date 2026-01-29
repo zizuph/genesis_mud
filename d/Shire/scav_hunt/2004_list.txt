@@ -1,0 +1,88 @@
+These are the items for the 2004 Scavenger hunt. Any questions, please let me know. Thanks
+Finwe
+
+  item short name
+  file name
+  location in game
+  special notes
+
+/* These objects are specific to Shire
+- bad smelling black liquid
+/d/Shire/moria/obj/orcdrink.c
+Found in Moria and Evendim orc camps
+ 
+- huge smelly cowpie
+/d/Shire/common/obj/crap
+Found near Daisy
+
+- set of dirty white cubes, _shire_dice_
+/d/Shire/orcmaker/obj/bone
+Found on orcs
+
+*/ 
+
+/*  Items used by AoE
+-- old birds nest, _shire_birds_nest_
+/d/Shire/scav_hunt/birds_nest.c
+
+-- dark brown cigar, _shire_cigar_
+/d/Shire/scav_hunt/cigar.c
+
+-- golden tarnished hair comb, _shire_comb_
+/d/Shire/scav_hunt/comb.c
+
+-- ancient battered coronet, _shire_coronet_
+/d/Shire/scav_hunt/coronet.c
+
+-- tall chipped ewar, _shire_ewar_
+/d/Shire/scav_hunt/ewar.c
+
+-- dirty fish skeleton, _shire_fish_skeleton_
+/d/Shire/scav_hunt/fish_skeleton.c
+
+-- bent horseshoe, _shire_horseshoe_
+/d/Shire/scav_hunt/horseshoe.c
+
+-- golden leaf, _shire_leaf_
+/d/Shire/scav_hunt/leaf.c
+
+-- dirty picture, _shire_picture_
+/d/Shire/scav_hunt/portrait.c
+
+-- cast iron frying skillet, _shire_skillet_
+/d/Shire/scav_hunt/skillet.c
+
+-- delicate silk spiderweb, _shire_spiderweb_
+/d/Shire/scav_hunt/spiderweb.c
+
+-- round wooden duck whistle, _shire_duckwhistle_
+/d/Shire/scav_hunt/whistle.c
+
+*/
+
+-- dirty rag doll, _shire_ragdoll_
+/d/Shire/scav_hunt/ragdoll.c
+
+-- peacock feather, _shire_feather_
+/d/Shire/scav_hunt/feather.c
+
+-- feather duster, _shire_duster_
+/d/Shire/scav_hunt/feather.c
+
+-- beautiful silver harp, _shire_harp_
+/d/Shire/scav_hunt/harp.c
+
+-- exquisite cut crystal, _shire_crystal_
+/d/Shire/scav_hunt/crystal.c
+
+-- bent fork, _shire_fork_
+/d/Shire/scav_hunt/fork.c
+
+-- plain oval mirror, _shire_mirror_
+/d/Shire/scav_hunt/mirror.c
+
+-- small silk handkerchief, _shire_handkerchief_
+/d/Shire/scav_hunt/hanky.c
+
+-- priceless silver bracelet, _shire_bracelet_
+/d/Shire/scav_hunt/bracelet.c

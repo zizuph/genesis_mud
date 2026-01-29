@@ -1,0 +1,35 @@
+
+
+      future path to weather hills maybe connects to fornost?
+            ^ 
+            |
+          wh4.c
+          /   \                    1: exit to /d/Shire/eastroad/eastern/erb14n3
+        fp3.c  wh3.c              
+        /        \                  
+     fp2.c       wh2.c             /* Rooms marked with a '*' at the start 
+       |          |                 * can be viewed from *weathertop.c via 
+     fp1.c       wh1.c              * command <lookout> or <wtglance>
+       |         .  \               * 
+       v        /    \____          * SW exit from wh1.c to *hollow.c will 
+       1       .          \         * have to be discovered by a mortal with
+              /            \        * high enough awareness and tracking.
+             .   *hp2.c---*hp1.c    *  
+       *hollow.c    \               * 
+                     \____          * *hollow.c could have a hidden object
+                          \         * in this room for a quest. Maybe the 
+                           \        * Aradan in the Prancing Pony forgot
+                          *hp3.c    * his flint here?
+                            |       */ 
+                            |       
+                      *weathertop.c        great east road
+                                             /
+                                            /
+              *erb19.c-----*erb20.c-----*erb21.c
+                /
+               /
+       great east road
+
+ /* Of course all the room file names can be whatever they need to be
+  * to help with organization of the domain.
+  */

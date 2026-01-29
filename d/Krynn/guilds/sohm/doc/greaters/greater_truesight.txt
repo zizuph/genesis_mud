@@ -1,0 +1,67 @@
+
+     Spell name: True sight
+                 vistoma
+         Effect: A see invisibility/in darkness spell
+           Type: Maintained
+        Targets: One living target
+        
+        Element: Air            / 50
+           Form: Divination     / 60
+    Spell power: Power 4 [Advanced spell]
+     Spell type: darkvision spell
+     
+       Peaceful: No
+     Stationary: No
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: 2x eye leftovers, and vistoma potion (1728cc) [one charge]
+     
+   Casting time:  4s (standard)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_DIFFICULT
+     Combat Aid: unknown - going to tax at 20%
+                 (Fighting in darkness does provide noticeable
+                  benefits, in particular damage mitigation)
+
+            Tax:   1.0
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.5  Difficult difficulty
+                  x0.7   material component (>=1 pp value) 
+                 ------
+                  0.35%  total tax
+   ------------------------------------------------------------
+   Comments: A dark vision spell that offers between 1 and 5
+   levels of LIVE_I_SEE_DARK depending on spell power:
+   
+   darkness_sight = min(5, ftoi(itof(power) / 100.0)).
+
+   The spell also offers 10 levels of LIVE_I_SEE_INVIS, and up
+   to 30 levels of SS_AWARENESS depending on spell power:
+
+   awareness_bonus = min(MAX_AWARENESS_SKILL_GAIN,
+                     ftoi(itof(power) / 15.0));
+
+    // Int/wis of 100, spell skills 75 / 100
+    //             spell power:    302 / 317
+    //       dark vision bonus:      3 / 3
+    //        see invisibility:     10 / 10
+    //         awareness bonus:     20 / 21
+
+    // Int/wis of 200, spell skills  75 / 100
+    //             spell power:     364 / 384 
+    //       dark vision bonus:      3 / 3
+    //        see invisibility:     10 / 10
+    //         awareness bonus:     24 / 25
+
+   In most cases, the dark vision bonus will be between 2 and 3.
+
+   This spell can be cast on other livings.
+
+   Need 60 levels in Divination to cast, so without enhancement
+   items this can only be cast by a SoHM who has specialised
+   in Divination (base skill is 50, specialisation is +25).
+   ------------------------------------------------------------

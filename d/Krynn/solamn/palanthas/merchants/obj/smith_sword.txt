@@ -1,0 +1,25 @@
+ ________________________________________________
+|                                                |
+|  o      />          Swords                  o  |
+|        /<                                      |
+| [\\\\\(O):::<================================- |
+|        \<                                      |
+|         \>           20gc                      |
+|                                                |
+|      Styles                     Types          |
+|      ------                     -----          |
+|      basket-hilted              cutlass        |
+|      blackened                  rapier         |
+|      curved                     sabre          |
+|      folded-steel               scimitar       |
+|      heavy                      sword          |
+|      large                                     |
+|      light                                     |
+|      long                                      |
+|      polished        <order>                   |
+|      shining            <style1>               |
+|      short                 <style2>            |
+|                                <type>          |
+|                  <check type>                  |
+|  o                                          o  |
+|________________________________________________|

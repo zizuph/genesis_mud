@@ -1,0 +1,22 @@
+Quest:  Infidel Plans
+Exp:	3000
+Bit:	   9	Group: 	0
+Align:	   0
+Prestige:  0	
+
+Plans quest:
+If a player asks Jadestone for a quest, She will tell him or her 
+that she needs to know what the infidel plans are.
+
+This quest requires combat.
+The player must first slay the frightened infidel who is sneaking
+around, to get the key to the infidel hideout. Then he or she 
+must find the room in the hideout where the table is, and slay
+the people there before s/he can get the plans.
+
+If the player retuns the plans to Jadestone, she will give a reward.
+
+
+Related files:   
+                 /d/Avenir/common/bazaar/NPCS/jadestone.c
+                 /d/Avenir/common/bazaar/infidel/obj/plans.c

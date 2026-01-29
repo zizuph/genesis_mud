@@ -1,0 +1,23 @@
+
+
+ /************************************************
+ *              MAP OF EXAMPLE AREA              *
+ *            =======================            *
+ *                                               *
+ *   Naming standard for rooms is:               *
+ *   example_area_x-axelxy-axel                  *
+ *                                               *
+ *   The gates are uniquely named.               *
+ *                                               *
+ *   Example: example_area_02x03                 *
+ *                                               *
+ ************************************************/
+
+
+             05 f  f  f  f  f  f 05
+             04 f  f  f  f  f  f 04
+ west_gate - 03 R  R  f  f  R  R 03 - east_gate
+             02 f  f  R  R  f  f 02
+             01 f  f  f  f  f  f 01
+             00 f  f  f  f  f  f 00
+               00 01 02 03 04 05

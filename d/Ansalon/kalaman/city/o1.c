@@ -1,0 +1,39 @@
+#include "/d/Ansalon/common/defs.h"
+#include "../local.h"
+#include <macros.h>
+#include <stdproperties.h>
+
+inherit CITY_OUT;
+
+void
+reset_kalaman_room()
+{
+    return;
+}
+
+create_kalaman_room()
+{
+    set_long("@@long_descr");
+
+    set_short("To the south of the wall surrounding Kalaman");
+    add_item("wall","To your north rises the wall surrounding the city " +
+      "of Kalaman.\n");
+    add_item(({"city","kalaman"}),
+      "You can't see much of it. A wall is in the way.\n");
+    add_item(({"small path","path"}),
+      "A small path, hardly noticeable, follows the edge of the wall.\n");
+
+    add_exit(CITY + "outside_wall","west",0);
+    add_exit(CITY + "o2","east",0);
+    add_exit(PLAINS + "1b","south",0);
+
+    reset_kalaman_room();
+}
+
+string
+long_descr()
+{
+    return "You stand to the south of the wall surrounding the city of Kalaman. " +
+    tod_descr1() +
+    "A small path seems to follow the edge of the wall.\n";
+}

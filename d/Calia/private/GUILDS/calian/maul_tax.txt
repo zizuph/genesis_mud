@@ -1,0 +1,115 @@
+
+Combat aid for maul
+===================
+For information on maul background and how it fits into Calia's 
+history, see ~Calia/palace/texts/battle. 
+
+Maul is a combined attack and defence skill, i.e. it can do damage and 
+stun. A mauler is skilled at attacking the enemy using bladed weapons 
+with a ripping action, in an attempt to open especially painful gashes 
+and rents, sometimes resulting in a short stun. Where swarm is only 
+usable in the back line of a team, maul can be used in any situation, 
+although its effectiveness varies on a number of factors. It is less 
+effective solo because it intended to be co-ordinated with attacks on 
+the enemy's flank(s), less effective when the mauler is not taking the 
+hits since the distance to the enemy is greater, less effective 
+when not fighting with fellow Calians, who know the tactics better, 
+and less effective when not using a sword. Maul cannot be carried out 
+with a non-slashing weapon. 
+
+Hit chance
+----------
+When deciding whether a hit attempt succeeds, maul uses cb_tohit 
+with a tohit value as follows: 
+
+    min(max((tp->query_skill(SS_MAUL) / 2), 
+             tp->query_stat(SS_WIS) / 2), 
+        50) 
+    + ((25 * weapon->query_hit()) / 13), 
+
+This means that for a 40/40 weapon, a maul skill of 100 and wisdom 
+of 100, the tohit value of maul is 126, which gives a typical hit 
+chance of 94%, and a combat aid reduction of 6%. 
+
+
+Frequency
+---------
+Frequency of maul is once every 20 seconds (4 secs preparation on 
+average, 16 secs recovery on average), and given that there is one 
+combat round every 5 seconds, maul frequency is 1/4. 
+
+
+Penetration
+-----------
+Penetration of maul is calculated using the weapon pen averaged with a 
+quarter of the player's strength and a quarter of his/her occupational 
+guild stat. The result of this is capped at 65 (it also has a minimum, 
+which is 24) and then multiplied by a value determined by a number of 
+factors. 
+
+The multiplier is a sum of a number of values depending on the situation. 
+
+__Situation__                               __Addition__
+Any situation                                   0.5
+Taking the hits of the target                   0.1
+Using a sword                                   0.1
+Player is teamed with persons(s) 
+who are fighting his/her enemy                  0.35
+Player is teamed with Calian(s) 
+who are fighting his/her enemy                  0.1
+
+So with a 40/40 weapon, a strength and occ guild stat of 100, skills 
+100 and an average multiplier of 0.85, this gives: 
+
+F_PENMOD(2 + ((85 * ((40 + (100 / 4) + (100 / 4)) / 2)) / 100), maul_skill) = 
+F_PENMOD(40, 100) = 280 
+
+A typical good hit for references purposes is F_PENMOD(40, 100) = 280. 
+
+Relative penetration of maul damage is therefore 280/280 
+
+Mana/fatigue drawback: 
+--------------------- 
+Each maul takes 4 fatigue and 2 mana when not fighting in a team 
+alongside a fellow Calian, but 2 fatigue and 1 mana on average 
+otherwise. 
+
+Calculation for damage combat aid
+---------------------------------
+Remembering all of the above figures, this comes to: 
+(94 / 100) * (1 / 4) * (280 / 280) * 100 % = 23.5% 
+
+
+Calculation for stun combat aid 
+------------------------------- 
+A stun occurs only when the special does damage of at least 10% of the 
+total hp of the target. Given a target of CON 100 implies a maximum hp 
+of 1900. We ignore the last 100 hp because a the blow is likely to kill 
+the creature anyway making the stun useless. So take the average hp of the 
+target during combat to be half way between 100 and 1900, i.e. 1000. To 
+cause a stun in a situation in combat, one will on average have to do a 
+hit of at least 10% of 1000, which is 100 hp. This is an average of course, 
+early on combat it is much harder to stun, later much easier. The chance 
+of causing a stun using the figures above is the chance that 
+(random(280) - 20) is greater than 100, i.e. the chance that random(280) 
+is greater than 120 (20 would be the average reduction of good armour of 
+ac 40). This means a probability of 160 / 280 of a stun for a typical 
+maul when it hits. The period of stun lasts 5.0 seconds (1 combat round) 
+and is implemented using add_stun() (add_attack_delay() does not function 
+correctly for short stuns it seems). 
+
+Remembering that the chance of hitting is 94/100, frequency is 1/4, the 
+average % of fighting time that an enemy is stunned during combat, then, 
+is: 
+(94 / 100) * (1 / 4) * (160 / 280) * 100 % = 13.43% of the time. 
+
+Remembering mana/fatigue drawback, this means that the stun combat aid 
+is: 
+((100 / (100 - 13.43)) - 1) * 100 % = 15.52% 
+
+Total combat aid
+----------------
+23.5% + 15.52% = 39.02%
+
+Document by Maniac
+Last revision 22/6/2001

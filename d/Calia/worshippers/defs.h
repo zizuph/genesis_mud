@@ -1,0 +1,32 @@
+
+#include "/d/Calia/domain.h"
+#define WORSHIPDIR "/d/Calia/worshippers/"
+#define WOR_TEXTS        WORSHIPDIR+"texts/"
+#define WOR_OBJECTS      WORSHIPDIR+"objects/"
+#define WOR_SHRINE       WORSHIPDIR+"shrine/"
+#define WOR_TEMPLE       WORSHIPDIR+"temple/"
+#define WOR_NPCS         WORSHIPDIR+"npcs/"
+#define WOR_SPELLS       WORSHIPDIR+"spells/"
+#define WOR_LOGS         WORSHIPDIR+"logs/"
+
+#define WORSHIPPER_SHADOW "/d/Calia/worshippers/specials/worshipshadow"
+#define WORSHIPPER_CMDSOUL "/d/Calia/worshippers/specials/worshipsoul"
+#define WORSHIPPER_CODE "/d/Calia/worshippers/specials/code"
+
+#define ELEMENTAL_ROOM   WORSHIPDIR+"elemental_room"
+
+#define WOR_SPELLCASTING "/d/Calia/worshippers/spells/spellcasting" 
+#define WOR_MAGIC_OBJECT "/d/Calia/worshippers/spells/magic.object.c"
+#define COUNCIL_HEADER "/d/Calia/worshippers/specials/wcouncil.h"
+#define WORSHIP_HEADER "/d/Calia/worshippers/specials/worshipper.h"
+#define SPELLS_HEADER "/d/Calia/worshippers/spells/spells.h" 
+#define WORSHIPPER_OBJECT_ID "_worshipper_object_id_"
+#define I_CAN_CAST "_i_can_cast_"
+#define I_CAN_JOIN "_i_can_join_"
+#define WOR_CAN_PERMIT "_wor_can_permit_"
+#define SUMMONED_CREATURE "_summoned_creature"
+#define WOR_AIR_CREATURE "_wor_air_creature"
+#define WOR_EARTH_CREATURE "_wor_earth_creature"
+#define WOR_FIRE_CREATURE "_wor_fire_creature"
+#define WOR_WATER_CREATURE "_wor_water_creature"
+

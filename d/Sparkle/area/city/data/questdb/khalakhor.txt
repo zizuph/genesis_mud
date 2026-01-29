@@ -1,0 +1,30 @@
+domain,quest desc,group,bit,validation,arguments
+Khalakhor,Port Macdunn Introduction Tour,0,0,intro_tour.txt,default
+Khalakhor,Port Macdunn Inspection Tour,0,1,intro_tour.txt,default
+Khalakhor,Incense Quest,0,2,incense.txt,default
+Khalakhor,Post Office Tour,0,3,post_office.txt,default
+Khalakhor,Honeycombs,0,4,incense.txt,default
+Khalakhor,Blubber Oil,0,5,incense.txt,default
+Khalakhor,Eil-Galaith Entrance,0,6,galaith.txt,default
+Khalakhor,Job Outfit,0,7,job-outfit.txt,default
+Khalakhor,Patrol Equipment,0,8,patrol-equipment.txt,default
+Khalakhor,Feed Garrisons,0,9,feed-garrison.txt,default
+Khalakhor,Statue Quest,3,0,statues.txt,default
+Khalakhor,Scroll Quest,3,1,scroll.txt,default
+Khalakhor,Skeleton Quest,3,2,skeleton.txt,default
+Khalakhor,Feed Beggar,3,3,beggar.txt,default
+Khalakhor,Paper Quest,3,4,paper.txt,default
+Khalakhor,Grovel Quest,4,19,mayor.txt,reverse_sequential,3,5,8,1
+Khalakhor,Snail Quest,4,19,mayor.txt,reverse_sequential,3,5,8,2
+Khalakhor,Spy Camp,4,19,mayor.txt,reverse_sequential,3,5,8,3
+Khalakhor,Element Quest,4,19,mayor.txt,reverse_sequential,3,5,8,4
+Khalakhor,Transform Quest,4,19,mayor.txt,reverse_sequential,3,5,8,5
+Khalakhor,Noigo Maze,3,9,maze.txt,default
+Khalakhor,Cadu Rescue Girl,3,10,girl.txt,default
+Khalakhor,Spirit Quest,3,11,spirit.txt,default
+Khalakhor,Potion Quest,3,12,potion.txt,default
+Khalakhor,Paint Dragon,3,13,paint.txt,default
+Khalakhor,Blue Dragon,3,14,dragon.txt,default
+Khalakhor,Jabberwock,3,15,jabberwock.txt,default
+Khalakhor,True Name,3,16,maze.txt,default
+Khalakhor,Blademaster Membership,4,0,,always_false,4,0

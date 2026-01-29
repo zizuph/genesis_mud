@@ -1,0 +1,71 @@
+Hi
+
+This proposal for change of Sparkle goblin caves
+
+Overview
+Goblin caves is small rarely visited area that need reinnovation.
+My idea is to create multi-level area that will be challenging to 
+many levels of mortals: from newbies to teams of myths.
+
+Story
+Goblins are back to caves near Sparkle and reinnoviting their caves.
+There is a rumour goblin king is gathering an army to attack Sparkle
+and Faerie.
+
+Main purpose of first level
+First level of goblin caves will be area where low levels can 
+sharpen their combat skills on small skilless goblins.
+Also area will contain small quest.
+
+Layout of first level:
+    |
+a-b-c h k-l~m
+  |   | | |
+d-e-f-g~i-j  
+  |
+  
+a - sleeping room
+b - board room
+c - Entrance to level 2. There is a door that will be open when 
+knocked after three conditions done: Below mentioned quest done
+and mortal level of apprentice.
+d - storage room
+e - entrance room
+f - bare corridor
+g - training adventure guild
+h - shop
+i,j,k,l - goblin training cave
+m - goblin leader level 1
+"-" - obvious exit
+"~" - hidden exit
+
+Population:
+About 10 easy goblins in caves
+12 a bit tougher goblins in training cave
+Goblin leader - bigger mob with weak special and probably decent
+non-magic sword/armour
+  
+Quests of first level
+Find lost armour 
+Quest master: Goblin trainer
+Reward: minor XP, 1 platinum coin
+Story:
+Goblin trainer (room g) lost his armour somewhere in caves.
+Armour will be in one of following locations:
+chest near beds in sleeping room (room a)
+crates in storage room (room d)
+under a table of goblin leader (room m)
+Once quest is done at least once per reboot trainer will be
+able to train defence skill to superior layman.
+
+Challenge measurement
+novice - impossibly hard
+beginner, Cadet - challenge
+wanderer, Cadet - easy
+
+Future extensions
+Level two will be done for mortals: apprentice -> great 
+adventurer
+Level three will be done for mortals: great adventurer -> hero
+Level four will be done for mortals: hero -> legend
+Level five will be a challenge for team of two-three myths

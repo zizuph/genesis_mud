@@ -1,0 +1,115 @@
+*****************************************************************************
+         TAX INFORMATION FOR THE FREE MERCENARY GUILD (Occupational)
+*****************************************************************************
+
+=======
+SKILLS:
+=======
+
+AG = Adventures Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)
+
+Basic Skills:
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+SS_2H_COMBAT           75          0          75         2.0         2.50
+SS_BLIND_COMBAT        70         20          50         2.0         1.67
+SS_DEFENCE             75         30          45         1.5         1.13
+SS_PARRY               75          0          75         1.5         1.88
+SS_WEP_AXE             75         30          45         1.5         1.13
+SS_WEP_CLUB            75         30          45         1.5         1.13
+SS_WEP_KNIFE           70         30          40         1.0         0.67
+SS_WEP_POLEARM         75         30          45         1.5         1.13
+SS_WEP_SWORD           75         30          45         1.5         1.13
+SS_UNARM_COMBAT        70         30          40         1.5         1.00
+--------------------------------------------------------------------------
+Totals                735        230         550                    13.37
+
+
+Guild Skills:
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+SS_MERC_ADAPT_SKILL   100          0           0         1           0.00 
+SS_MERC_TACTICS_SKILL 100          0           0         1           0.00
+                                                                
+
+Taxable Slots Allowed: 550
+Actual Taxable Slots:  550
+
+Maximum AG Slots Allowed: 250
+Actual AG Slots Used:     230
+
+TOTAL TAX FOR SKILLS: 13.37%
+
+================
+COMBAT SPECIALS:
+================
+
+MATTACK (Uses skill SS_MERC_TACTICS_SKILL)
+
+    Mattack is an extremely fast, low yield damage special attack in
+    which the Mercenary senses an opportunity and makes use of it
+    in combat. The special is pretty standard, and has combat aid
+    of 68%.
+    
+    There is a 0.001% chance that the special will score a critical
+    hit and do x3 damage (the mudlib crits for normal combat do x5.)
+
+    Tax for combat aid: 68 / 6 = 11.66%
+    Tax for critical chance: 0.01% (we will round up)
+
+    Total Tax for Mattack: 11.67%
+
+TOTAL TAX FOR SPECIALS: 11.67%
+
+
+====================
+ADDITIONAL FEATURES:
+====================
+
+ADAPTABILITY (Uses skill SS_MERC_ADAPT_SKILL)
+
+    Adaptability gives the Mercenary a potential (once the guru quest
+    has been completed) 100 floating skill points to distribute however
+    they wish among their existing skills, thus boosting their normal
+    skill levels.
+
+    For taxation purposes, we consider the aid incease that a player
+    who has optimized combat skills:
+
+        Main weapon: 100 (+ 25 boost)
+        Defence    : 100 (+ 25 boost)
+        Parry      : 100 (+ 25 boost)
+        2-handed   : 100 (+ 25 boost)
+
+    Based on tests run by the AoB, this grants Mercenaries a gain of
+    18% combat aid which translates to 3% tax.
+
+    Tax for Adaptability: 3.0%
+
+FREE MEAL
+
+    Mercenaries get one free meal a day which completely fills
+    their stomachs to maximum stuffed.
+
+    Tax for Free Meal: 0.2%
+
+TOTAL TAX FOR ADDITIONAL FEATURES: 3.2%
+
+
+***************************************************************************
+             Taxation Summary
+***************************************************************************
+
+    Skill Tax Total        :  13.37 
+    Combat Specials        :  11.67
+    Additional Features    :   3.20 
+                              -----
+    Total Tax              :  28.24
+
+    Rounded Total Tax      :  29%
+
+*****************************************************************************
+
+Document by Gorboth, September 2009

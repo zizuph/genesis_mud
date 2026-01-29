@@ -1,0 +1,385 @@
+main
+::MAPDATA::
+street_1 35 14 wmout
+street_2 35 14 wmout
+street_3 35 14 wmout
+street_4 35 14 wmout
+street_5 35 14 wmout
+street_6 35 14 wmout
+street_7 35 14 wmout
+street_8 35 14 wmout
+street_9 35 14 wmout
+street_10 35 14 wmout
+firework_shop 35 14 wmout
+novelty_shop 35 14 wmout
+post 35 14 wmout
+foam_mug_2020 35 14 wmout
+foam_mug_up 35 14 wmout
+path_1 35 14 wmout
+path_2 35 14 wmout
+path_3 35 14 wmout_e_fields
+path_4 35 14 wmout_e_fields
+e_field01 35 14 wmout_e_fields
+e_field02 35 14 wmout_e_fields
+e_field03 35 14 wmout_e_fields
+e_field04 35 14 wmout_e_fields
+e_field05 35 14 wmout_e_fields
+e_field06 35 14 wmout_e_fields
+e_field07 35 14 wmout_e_fields
+e_field08 35 14 wmout_e_fields
+e_field09 35 14 wmout_e_fields
+e_field10 35 14 wmout_e_fields
+e_field11 35 14 wmout_e_fields
+e_field12 35 14 wmout_e_fields
+field01 35 14 wmout
+field02 35 14 wmout
+field03 35 14 wmout
+field04 35 14 wmout
+field09 35 14 wmout
+field10 35 14 wmout
+field11 35 14 wmout
+field12 35 14 wmout
+field17 35 14 wmout
+field18 35 14 wmout
+field19 35 14 wmout
+field20 35 14 wmout
+s_field01 1 1 wmout_s_fields
+s_field02 1 1 wmout_s_fields
+s_field03 1 1 wmout_s_fields
+s_field04 1 1 wmout_s_fields
+s_field05 1 1 wmout_s_fields
+s_field06 1 1 wmout_s_fields
+s_field07 1 1 wmout_s_fields
+s_field08 1 1 wmout_s_fields
+s_field09 1 1 wmout_s_fields
+s_field10 1 1 wmout_s_fields
+s_field11 1 1 wmout_s_fields
+s_field12 1 1 wmout_s_fields
+t_house 1 1 t_farmhouse
+t_shed 1 1 t_farmhouse
+back_yard 1 1 t_farmhouse
+h_1_1 35 14 wminh_1
+h_1_2 35 14 wminh_1
+h_1_3 35 14 wminh_1
+h_1_4 35 14 wminh_1
+h_1_5 35 14 wminh_1
+h_1_6 35 14 wminh_1
+h_1_7 35 14 wminh_1
+h_1_8 35 14 wminh_1
+h_2_1 1 1 h_2
+h_2_2 1 1 h_2
+h_2_3 1 1 h_2
+h_3_1 1 1 h_3
+h_3_2 1 1 h_3
+h_3_3 1 1 h_3
+h_3_4 1 1 h_3
+h_3_5 1 1 h_3
+h_3_6 1 1 h_3
+h_3_7 1 1 h_3
+h_4_1 35 14 wminh_4
+h_4_2 35 14 wminh_4
+h_4_3 35 14 wminh_4
+h_4_4 35 14 wminh_4
+h_4_5 35 14 wminh_4
+h_4_6 35 14 wminh_4
+h_4_7 35 14 wminh_4
+h_4_8 35 14 wminh_4
+h_5_1 1 1 h_5
+h_5_2 1 1 h_5
+h_5_3 1 1 h_5
+h_5_4 1 1 h_5
+h_5_5 1 1 h_5
+path_5 1 1 farm
+farmhouse 1 1 farm
+::MAPDATA::
+
+                                  Annuminas
+                                      O ~~
+                 Hills of Evendium    |  ~~   + -  -  - +
+                                      |   ~~  |THE SHIRE|
+                                       \   ~~ + -  -  - +        Fornost
+                             Greenfields\   ~~                      o
+                                    o - -\   ~~~                    |
+                                          \    ~~~                  |
+          ~~                       HOBBITON\     ~~~                |
+         ~~~          Greenholm       O     \      ~~~              |
+       ~~~~               o           |     |Frogmorton             |   BREE
+     GREY HAVENS       MICHEL DELVING |     o -  - === -  -  -  - --+ - -O - 
+   ~~~~~~O -  -  -  -  -  -  - O - +--+ - \/   |  Brandywine        |
+  ~~~~~~~                          o Waymeet   |    Bridge          |
+ ~~~~~~~       \                   |           o   ~~~     Barrow   |
+ ~~~~~          o                  \        Whitfurrows     Downs   |
+ ~~~    Rockfriends      Longbottom o             ~~~               |
+ ~~                                  \ -  -  - - ~~~ o -  -  -  - --\
+ ~                                             ~~~  Sarn Ford        \
+          Blue Mountains                     ~~~                      \
+                                           ~~~                         \
+
+
+::NEWMAP::
+wmout
+::MAPDATA::
+street_1 26 5
+street_2 26 3
+street_3 26 1
+street_4 30 1
+street_5 30 3
+street_6 30 5
+street_7 30 7
+street_8 30 11
+street_9 30 13
+street_10 30 16
+firework_shop 26 16
+novelty_shop 26 13
+post 34 16
+foam_mug_2020 34 13
+foam_mug_up 35 14
+::MAPDATA::
+                                                        
+                          o - o                                 
+                          |   |                         
+                          o - o                         
+                          |   |                         
+                          o - o                         
+                            \ |                         
+                              o                         
+                              |                         
+          To Grey Havens <- - o - -> To Bree            
+                              |                         
+                              o                         
+                              |                         
+             Novelty Shop o - o - o Inn                 
+                              |                         
+                              |                         
+           Fireworks Shop o - o - o PO   
+                              |
+
+                       *~~~~~~~~~~~~~~~*  
+                       | W A Y M E E T | 
+                       *~~~~~~~~~~~~~~~*
+
+::NEWMAP::
+wmout_fields
+::MAPDATA::
+path_1 18 5 
+path_2 22 5 
+field01 2 1 
+field02 6 1
+field03 10 1 
+field04 14 1 
+field09 2 3
+field10 6 3 
+field11 10 3 
+field12 14 3
+field17 2 5 
+field18 6 5 
+field19 10 5 
+field20 14 5
+::MAPDATA::
+                                                        
+  o - o - o - o           o - o                                 
+  |   |   |   |           |   |                         
+  o - o - o - o           o - o                         
+  |   |   |   |           |   |                         
+  o - o - o - o - o - o - o - o                         
+                            \ |                         
+                              o                         
+                              |                         
+          To Grey Havens <- - o - -> To Bree            
+                              |                         
+                              o                         
+                              |                         
+             Novelty Shop o - o - o Inn                 
+                              |                         
+                              |                         
+           Fireworks Shop o - o - o PO   
+      
+                       *~~~~~~~~~~~~~~~*  
+                       | W A Y M E E T | 
+                       *~~~~~~~~~~~~~~~*
+::NEWMAP::
+wmout_e_fields
+::MAPDATA::
+e_field01 42 5
+e_field02 46 5
+e_field03 50 5
+e_field04 54 5
+e_field05 42 3
+e_field06 46 3
+e_field07 50 3 
+e_field08 54 3 
+e_field09 42 1 
+e_field10 46 1
+e_field11 50 1 
+e_field12 54 1
+path_3 34 5
+path_4 38 5
+::MAPDATA::
+                                                        
+                          o - o           o - o - o - o                      
+                          |   |           |   |   |   |              
+                          o - o           o - o - o - o              
+                          |   |           |   |   |   |              
+                          o - o - o - o - o - o - o - o                       
+                            \ |                         
+                              o                         
+                              |                         
+          To Grey Havens <- - o - -> To Bree            
+                              |                         
+                              o                         
+                              |                         
+             Novelty Shop o - o - o Inn                 
+                              |                         
+                              |                         
+           Fireworks Shop o - o - o PO   
+      
+                       *~~~~~~~~~~~~~~~*  
+                       | W A Y M E E T | 
+                       *~~~~~~~~~~~~~~~*
+::NEWMAP::
+wminh_1
+::MAPDATA::
+h_1_1 10 7 
+h_1_2 10 5
+h_1_3 6 5 
+h_1_4 14 5 
+h_1_5 10 3 
+h_1_6 14 3 
+h_1_7 6 3 
+h_1_8 10 1 
+::MAPDATA::
+
+          o
+          |
+      o - o - o
+          |
+      o - o - o
+          |
+          o
+          |
+          V
+     To Waymeet
+
+::NEWMAP::
+wminh_4
+::MAPDATA::
+h_4_1 9 3
+h_4_2 5 3
+h_4_3 5 1
+h_4_4 5 5
+h_4_5 1 3
+h_4_6 1 1
+h_4_7 1 5
+h_4_8 9 5
+::MAPDATA::
+
+ o   o
+ |   |
+ o - o - o -> To Waymeet
+ |   |
+ o   O - o
+ 
+::NEWMAP::
+h_5
+::MAPDATA::
+h_5_1 9 3
+h_5_2 5 3 
+h_5_3 5 5 
+h_5_4 5 1 
+h_5_5 1 3
+::MAPDATA::
+
+     o
+     |
+ o - o - o -> To Waymeet
+     |
+     o
+	 
+::NEWMAP::
+h_3
+::MAPDATA::
+h_3_1 14 3 
+h_3_2 18 3 
+h_3_3 18 5 
+h_3_4 18 1 
+h_3_5 22 3 
+h_3_6 22 1 
+h_3_7 26 3 
+::MAPDATA::
+
+                  o   o
+                  |   |
+To Waymeet <- o - o - o - o
+                  |
+                  o
+				  
+::NEWMAP::
+h_2
+::MAPDATA::
+h_2_1 14 3
+h_2_2 14 1
+h_2_3 18 3
+::MAPDATA::
+
+              o
+              |
+To Waymeet <- o - o
+
+::NEWMAP::
+farm
+::MAPDATA::
+path_5 7 2
+farmhouse 7 6
+::MAPDATA::
+
+   ^   |   ^
+  / \  o  / \
+  /^\  |  /^\
+   |       |
+      / \
+      |o|
+::NEWMAP::
+wmout_s_fields
+::MAPDATA::
+s_field01 14 2
+s_field02 10 2
+s_field03 6 2
+s_field04 2 2
+s_field05 14 4
+s_field06 10 4
+s_field07 6 4
+s_field08 2 4
+s_field09 14 6
+s_field10 10 6
+s_field11 6 6
+s_field12 2 6
+::MAPDATA::
+
+               /
+  o - o - o - o 
+  |   |   |   |
+  o - o - o - o 
+  |   |   |   |
+  o - o - o - o 
+ /
+::NEWMAP::
+t_farmhouse
+::MAPDATA::
+t_house 4 6 
+t_shed  4 12 
+back_yard 4 8
+::MAPDATA::
+
+
+    /\
+   /  \
+  /____\
+  |    |
+  |____|
+    |
+    o
+    |
+    /\
+   /__\
+   |  |
+   ----

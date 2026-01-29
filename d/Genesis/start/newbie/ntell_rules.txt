@@ -1,0 +1,70 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+      IMPORTANT: Guidelines for the use of the <ntell> command
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Genesis doesn't allow chatlines. The <ntell> line, therefore, should *NOT*
+be used for:
+
+      * idle conversations               * greeting friends
+      * forming teams                    * guiding people around  
+      * full quest solutions             * asking about items
+        (general hints are okay          * role-playing 
+        as long as they are not           (role-playing is encouraged in all
+        too obvious)                       other parts of Genesis, but this 
+                                           is an out of character help line)
+
+Rather, this is the intended useage:
+
+   For newbies:  - asking questions about things you don't understand,
+                   specifically related to how to play the game, what
+                   commands do, how to get started, where to find more
+                   information, quest hints, etc.
+                 - thanking people for their answers
+
+   For helpers:  - answering questions that are asked, so long as they
+                   are about learning how to play the game.
+                 - greeting newbies (not friends) you see and letting
+                   them know you are listening should they have any
+                   questions.
+                 - politely correcting people who use the line improperly.
+                 - Also note that the line is for helping newbies only, 
+                   newbie helpers are NOT allowed to ask other helpers 
+                   questions.
+
+Examples of good ntell useage:
+  ---
+  <Newbie> Noobinia: I'm new, and not sure what I'm supposed to do.
+  <Newbie> Oldster: If you're in the Tutorial, be sure to <read> the signs
+  that are in most of the rooms. They teach you how to play.
+  <Newbie> Noobinia: Okay, thanks!
+  ---
+  <Newbie> Oldster: Hello to all new to the game. Don't hesistate to
+  ask us if you are confused about anything. We're here to help.
+
+Examples of things that will get you warned/banned:
+  ---
+  <Newbie> Wanderra: Why did the chicken cross the playground?
+  <Newbie> Champierre: Oh brother ...
+  <Newbie> Wanderra: To get to the other SLIDE.
+  <Newbie> Champierre: lol nice one!
+  <Newbie> Oldster: please stop abusing the line. [<---correct use!]
+  ---
+  <Newbie> Wanderra: Hey, anyone wanna take on the Balrog?
+  <Newbie> Champierre: Yeah, where should we meet?
+  <Newbie> Oldster: Sounds fun guys, but lets use the post office
+  instead. [<----correct use!]
+  ---
+  <Newbie> Wanderra: I can't find the key to the cellar door!
+  <Newbie> Champierre: w,w,e,e,up,search drawer,get key. [<---incorrect use!]
+  <Newbie> Oldster: I suggest you have a look where the owner of the
+  house lives. [<----correct use!] 
+  ---
+  <Newbie> Wanderra: What's a good fighter guild?
+  <Newbie> Champierre: Bestest guild in realm is Goblin Warriors! Other guilds 
+  be puny and useless. Come join mighty goblins! [<---incorrect use!]
+  <Newbie> Oldster: You can find information on all our guilds on the
+  Genesis website. [<----correct use!]    
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ Failure to adhere to these guidlines can result in being banned from ntell.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=

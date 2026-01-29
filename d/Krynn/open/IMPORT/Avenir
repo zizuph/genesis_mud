@@ -1,0 +1,10 @@
+Avenir IMPORTs into Krynn.
+--------------------------
+Last modified by:
+Teth, Feb 19, 1997
+
+Avenir herbs are spread throughout Krynn using the
+herb_master.c found in /d/Krynn/common/herbs.
+
+Care has been taken to place the herbs in appropriate environments.
+

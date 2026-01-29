@@ -1,0 +1,51 @@
+main
+::MAPDATA::
+maze1 38 31
+maze2 38 31
+maze3 38 31
+maze4 38 31
+maze5 38 31
+maze6 38 31
+maze7 38 31
+maze8 38 31
+maze9 38 31
+maze10 38 31
+maze11 38 31
+maze12 38 31
+maze13 38 31
+skull 38 31
+::MAPDATA::
+ 
+       ',                                                        ,'
+         ',                                                    ,'
+           :,                                                ,:
+           : :,____________________________________________,: :
+           : :-:       ..........        ..........       :-: :
+           : :-:                  `.    .'                :-: :
+           : :-:    dHHHHHHHHHHHb        dHHHHHHHHHHHb    :-: :
+           : :-:   dHHHHHHHHHHHHHb      dHHHHHHHHHHHHHb   :-: :
+           : :-:   HHHHHHHHHHHHHHH      HHHHHHHHHHHHHHH   :-: :
+           : :-:   `HHHHHHHHHHHHHF      "HHHHHHHHHHHHHF   :-: :
+           : :-:    `HHHHHHHHHF"".".oo.".""`HHHHHHHHHF    :-: :
+           : :-:".            ..".dHHHHb."..            .":-: :
+           : :-:  ""...   ..""   HHHF"HHH   ""..   ...""  :-: :
+           : :-:     / """/      "HF  "HF      \""" \     :-: :
+           : :-:    /  .    ..              ..    .  \    :-: :
+           : :/:    :." ".""/\"............"/\""." ".:    :\: :
+           : :/:     :   :\/::\/\/\/^^\/\/\/::\/:   :     :\: :
+           : :/:     :   ::::/^^^^^^^^^^^^^^\::::   :     :\: :
+           : :/:     :   :::/^^^^^^^^^^^^^^^^\:::   :     :\: :
+           : :/:     :   ::/^^^^^^^^^^^^^^^^^^\::   :     :\: :
+           : :/:     :   :/^^^^^^^^^^^^^^^^^^^^\:   :     :\: :
+           : :/:     `.  :AAAAAAAAAAAAAAAAAAAAAA:  .'     :\: :
+           : :/:     ::`:'                      `:' :     :\: :
+           : :/:     ::AAAAAAAAAAAAAAAAAAAAAAAAAAAA :     :\: :
+           : :/:_____:/                            \:_____:\: :
+           : :/:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA \: :
+           : ://                                          \\: :
+           : :/                                            \: :
+           :  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA  :
+           : /                                              \ :
+           :/                                                \:
+            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA     
+

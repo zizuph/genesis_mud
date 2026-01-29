@@ -1,0 +1,17 @@
+
+
+
+    <cairn> -- gibber_lair_1 -- gibber_lair_2
+                        \          /
+                         \        /
+                          \      /
+                       gibber_lair_3  gibber_lair_8
+                          /      \         /
+                         /        \       / 
+                        /          O     # 
+               gibber_lair_4    gibber_lair_6  O
+                       |       [gibber_lair_7] #
+                       |           #     O
+                       |          /       \
+                       |         /         \
+                     gibber_lair_5   gibber_lair_9

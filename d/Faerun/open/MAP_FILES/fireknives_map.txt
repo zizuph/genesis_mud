@@ -1,0 +1,618 @@
+main
+::MAPDATA::
+mountain_ft 15 12 mnt_foot
+mountain_ft_member 15 13 mnt_foot_member
+climb1 28 4 clmb1
+climb2 28 4 clmb2
+climb3 28 4 clmb3
+climb4 28 4 clmb4
+climb5 28 4 clmb5
+climb6 28 4 clmb6
+ledge 28 4 mnt_ledge
+rope6 28 4 rop6
+rope5 28 4 rop5
+rope4 28 4 rop4
+rope3 28 4 rop3
+rope2 28 4 rop2
+rope1 28 4 rop1
+rope_bottom 28 4 rop_bottom
+g0 30 9 cellar1
+br 32 11 cellar1
+c1 25 3 cellar2
+c2 27 5 cellar2
+c3 29 7 cellar2 
+sh 33 7 cellar_shops
+sm 31 5 cellar_shops
+o1 44 4 ground1
+o2 42 6 ground1
+o7 35 6 ground1
+o8 28 6 ground1
+o9 22 6 ground2
+sr1 22 4 ground2
+ra1 22 8 ground2
+o10 35 8 ground2
+o6 35 8 ground2
+ti 31 8 ground2
+o5 35 10 ground2
+lb 31 10 ground2
+po 35 12 ground2
+o4 42 10 ground2
+gen_shop 42 12 ground2
+mh 46 10 ground2
+o3 42 8 ground2
+herb 46 8 ground2
+h8 34 13 lvl2_1
+h5 34 11 lvl2_1
+h6 32 9 lvl2_1
+h7 32 7 lvl2_1
+h2 34 5 lvl2_1
+h1 34 3 lvl2_1
+h3 36 7 lvl2_1
+h4 36 9 lvl2_1
+sr 31 13 lvl2_2
+contracts 29 11 lvl2_2
+ft 29 9 lvl2_2
+mr 41 9 lvl2_2
+ra2 41 11 lvl2_2
+reception 34 7 lvl3
+conference 34 5 lvl3
+b1 41 8 lvl3
+b2 31 8 lvl3
+elder 34 3 lvl3_elder
+fist 26 8 lvl3_fist
+inquisitor 41 8 lvl3_inquisitor
+::MAPDATA::
+
+
+::NEWMAP::
+mnt_foot
+::MAPDATA::
+mountain_ft 14 15
+::MAPDATA::
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+.                                                   .
+.               SWORD MOUNTAINS                     .
+.               ---------------                     .
+.                                                   .
+.          _          _                             .
+.         / \        /@\                            .
+.        {_O_}      [_O_]                           .
+.        ___  \   /  ___                            .
+.       /_O_| - O - |_O_|                           .
+.               |                                   .
+.      /\     O-O   /\                  ^           .
+.     /  \   /     /  \                /|\          .
+.  /\/ ^  ^ O   /\/ ^  \/\            //|\\         .
+. /  \  /\  |  /  \/\^ /  \             |           .
+. ^   \/  ^ O-O /\/^ \/ ^  \                        .
+.   /\/^   /   /  \  /^     ^     ^                 .
+.  /^ \   O   / ^  \    ^   ^    /|\          ^     .
+. /  ^    %              ^      //|\\        /|\    .
+. ^   O - O -> Underdark   ^      |         //|\\   .
+.   ^  \     /\      /\                       |     .
+.  /\   O   /  \/\  /  \                            .
+. /  ^ /   / ^ /  \/ ^  \      Kryptgarden          .
+.     O   /^ /\ ^ /    ^                       ^    .
+.   ^ |  /  /^ \/\ ^ /\ ^          Forest     /|\   .
+. ^   O  ^ /   /  \ / ^\       ^             //|\\  .
+.  ^  |   / /\/  ^ / ^  \     /|\              |    .
+.   ^ O    / ^\     ^        //|\\         ^        .
+.  ^  |   /    \  ^            |          /|\       .
+.     O          ^                       //|\\      .
+.   /   \    ^                             |        .
+.                                                   .
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+::NEWMAP::
+mnt_foot_member
+::MAPDATA::
+mountain_ft_member 15 13
+::MAPDATA::
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+.                                                   .
+.               SWORD MOUNTAINS                     .
+.               ---------------                     .
+.                                                   .
+.          _          _                             .
+.         / \        /@\                            .
+.        {_O_}      [_O_]                           .
+.        ___  \   /  ___                            .
+.       /_O_| - O - |_O_|                           .
+.               |                                   .
+.      /\     O-O   /\                  ^           .
+.     /  \   /     /  \                /|\          .
+.  /\/ ^  ^ O--O/\/ ^  \/\            //|\\         .
+. /  \  /\  |  /  \/\^ /  \             |           .
+. ^   \/  ^ O ^ /\/^ \/ ^  \                        .
+.   /\/^   /   /  \  /^     ^     ^                 .
+.  /^ \   O   / ^  \    ^   ^    /|\          ^     .
+. /  ^    %              ^      //|\\        /|\    .
+. ^   O - O -> Underdark   ^      |         //|\\   .
+.   ^  \     /\      /\                       |     .
+.  /\   O   /  \/\  /  \                            .
+. /  ^ /   / ^ /  \/ ^  \      Kryptgarden          .
+.     O   /^ /\ ^ /    ^                       ^    .
+.   ^ |  /  /^ \/\ ^ /\ ^          Forest     /|\   .
+. ^   O  ^ /   /  \ / ^\       ^             //|\\  .
+.  ^  |   / /\/  ^ / ^  \     /|\              |    .
+.   ^ O    / ^\     ^        //|\\         ^        .
+.  ^  |   /    \  ^            |          /|\       .
+.     O          ^                       //|\\      .
+.   /   \    ^                             |        .
+.                                                   .
+. . . . . . . . . . . . . . . . . . . . . . . . . . .                     
+::NEWMAP::
+clmb1
+::MAPDATA::
+climb1 26 7
+::MAPDATA::
+      ---== Cliffside, Bottom ==---
+. . . . . . . . . . . . . . . . . . . .                   
+  /\/    \             |   |  |       .
+  '------'             |           |  .     
+                       |  |     |     .
+                       |        |     .
+                      /        |      .
+                     | |  o        |  .
+                      \       |       .
+                       \ |            .
+     0                 |    |   |    |.
+    /|\       0        | |  |     |   .
+    /|\      /|\        \       |     .
+     |       /|\        /   |     |   .
+____/\        |        |              .
+      \_______/\__#_()_/        |  |  .
+. . . . . . . . . . . . . . . . . . . .   
+::NEWMAP::
+clmb2
+::MAPDATA::
+climb2 26 7
+::MAPDATA::
+      ---== Steep Cliffside ==---
+. . . . . . . . . . . . . . . . . . . .                   
+     ____           |   |  |        | .
+  /\/    \          |              |  .     
+  '------'          |  |     |        .
+                    \   |        |    .
+                    /        |        .
+                   |      o      |    .
+                   |                  .
+                    \ |               .
+                    |    |   |    |   .
+                    | |  |     |      .
+                   /       |          .
+                   \   |     |        .
+                   /       |          .
+                   |  |    |  |       .
+. . . . . . . . . . . . . . . . . . . .   
+::NEWMAP::
+clmb3
+::MAPDATA::
+climb3 26 7
+::MAPDATA::
+      ---== Steep Cliffside ==---
+. . . . . . . . . . . . . . . . . . . .                   
+                   |   |  |        |  .
+     ____          \             |    .     
+  /\/    \          |  |     |        .
+  '------'          \   |        |    .
+                    /        |        .
+                    |     o       |   .
+                     \                .
+                      \ |             .
+                       |    |   |    |.
+                       | |  |     |   .
+                       |       |      .
+                       \   |     |    .
+                       /       |      .
+                       |  |    |  |   .
+. . . . . . . . . . . . . . . . . . . .   
+::NEWMAP::
+clmb4
+::MAPDATA::
+climb4 26 7
+::MAPDATA::
+      ---== Steep Cliffside ==---
+. . . . . . . . . . . . . . . . . . . .                   
+                  /   |  |         |  .
+                  \              |    .     
+     ____          \|  |     |        .
+  /\/    \          \   |        |    .
+  '------'          /        |        .
+                    |     o       |   .
+                    /           |     .
+                    \ |               .
+                     \    |   |      |.
+                      \ |  |     |   .
+                       |       |      .
+                       \   |     |    .
+                       /       |      .
+                       |  |    |  |   .
+. . . . . . . . . . . . . . . . . . . .   
+::NEWMAP::
+clmb5
+::MAPDATA::
+climb5 26 7
+::MAPDATA::
+      ---== Steep Cliffside ==---
+. . . . . . . . . . . . . . . . . . . .                   
+                       |  |        |  .
+                       \             |.     
+                        |  |     |    .
+     ____               \   |        |.
+  /\/    \              /        |    .
+  '------'             |  o       |   .
+                       |              .
+                        \ |           .
+                         |    |   |   .
+                         | |  |     | .
+                         |       |    .
+                        / |     |     .
+                       /       |      .
+                       |  |    |  |   .
+. . . . . . . . . . . . . . . . . . . .   
+::NEWMAP::
+clmb6
+::MAPDATA::
+climb6 26 7
+::MAPDATA::
+      ---== Steep Cliffside ==---
+. . . . . . . . . . . . . . . . . . . .                   
+                   |   |  |        |  .
+                   \             |    .     
+                    |  |     |        .
+                    \   |        |    .
+     ____           /        |        .
+  /\/    \          |     o       |   .
+  '------'           \                .
+                      \ |             .
+                       |    |   |    |.
+                       | |  |     |   .
+                       |       |      .
+                       \   |     |    .
+                       /       |      .
+                       |  |    |  |   .
+. . . . . . . . . . . . . . . . . . . .   
+::NEWMAP::
+mnt_ledge
+::MAPDATA::
+ledge 21 7
+::MAPDATA::
+      ---== Mountain Ledge ==---
+. . . . . . . . . . . . . . . . . . . .                   
+                   |   |  |        |  .
+                   \             |    .     
+                    |  |     |        .
+                    \_   |        |   .
+               _____/ \_     |        .
+               |\__  o  \_____   |    .
+     ____      |   \__________\__ .  ..    
+  /\/    \      \ |                |  .
+  '------'       |    |   |    |      .
+                 | |  |     |         .
+                 |       |       |    .
+                 \   |     |        | .
+                 /       |      |     .
+                 |  |    |  |      |  .
+. . . . . . . . . . . . . . . . . . . .                                                    
+::NEWMAP::
+rop1
+::MAPDATA::
+rope1 28 5
+::MAPDATA::
+             ---== Dark vertical shaft ==---
+
+
+                          ___
+                       /\/   \_/\
+                       \    o    |
+                        \/\  ___/
+                           \/
+
+::NEWMAP::
+rop2
+::MAPDATA::
+rope2 28 5
+::MAPDATA::
+             ---== Dark vertical shaft ==---
+
+                           _
+                          / \___
+                         /      \
+                         \  o   /
+                          \__/\/
+                           
+
+::NEWMAP::
+rop3
+::MAPDATA::
+rope3 28 5
+::MAPDATA::
+             ---== Dark vertical shaft ==---
+
+
+                          
+                         /\/\/\  
+                        /   o |  
+                        \  ___/
+                         \/
+
+::NEWMAP::
+rop4
+::MAPDATA::
+rope4 28 5
+::MAPDATA::
+             ---== Dark vertical shaft ==---
+
+
+                            __
+                         __/  \
+                         \  o /  
+                          \  /
+                           \/
+
+::NEWMAP::
+rop5
+::MAPDATA::
+rope5 28 5
+::MAPDATA::
+             ---== Dark vertical shaft ==---
+
+
+                          
+                       /\______
+                       \    o  |
+                        \/\  _/
+                           \/
+
+::NEWMAP::
+rop6
+::MAPDATA::
+rope6 28 5
+::MAPDATA::
+             ---== Dark vertical shaft ==---
+
+
+                          ___
+                          \  \_
+                           \o |   
+                           / /
+                           \/
+::NEWMAP::
+rop_bottom
+::MAPDATA::
+rope_bottom 28 5
+::MAPDATA::
+             ---== Narrow space in between rocks ==---
+
+
+                          ____
+                         /    \
+                         #--o |
+                         \____/
+                           
+::NEWMAP::
+cellar1
+::MAPDATA::
+g0 30 9
+br 32 11
+::MAPDATA::
+                   ---== Mountain Keep, Cellar ==---
+
+
+
+                   
+                   
+                   
+                   
+                             \
+                             #o
+                               \
+                                o          
+::NEWMAP::
+cellar2
+::MAPDATA::
+c1 24 3 
+c2 26 5 
+c3 28 7 
+::MAPDATA::
+                   ---== Mountain Keep, Cellar ==---
+
+                    
+                        o
+                         \                   
+                          o---
+                           \
+                            o---                           
+                             \
+                             #o
+                               \
+                                o                                                          
+::NEWMAP::
+cellar_shops
+::MAPDATA::
+sh 32 7 
+sm 30 5 
+::MAPDATA::
+                   ---== Mountain Keep, Cellar Shops ==---
+
+                  
+                        o
+                         \                   
+                          o---o Blacksmith
+                           \
+                            o---o Black Market Liaison                           
+                             \
+                             #o Keep Entrance
+                               \
+                                o
+                                  Application Board Room
+::NEWMAP::
+ground1
+::MAPDATA::
+o1 43 4 
+o2 41 6 
+o7 34 6 
+o8 27 6
+::MAPDATA::
+                   ---== Mountain Keep, Ground Floor ==---
+
+
+
+                                           o
+                                          /
+                          -o------o------o
+                                  |      |                      
+::NEWMAP::
+ground2
+::MAPDATA::
+o9 15 6 
+sr1 15 4 
+ra1 15 8 
+o10 9 6 
+o6 34 8 
+ti 30 8 
+o5 34 10 
+lb 30 10 
+po 34 12 
+o4 41 10 
+gen_shop 41 12 
+mh 45 10 
+o3 41 8 
+herb 45 8 
+::MAPDATA::
+                   ---== Mountain Keep, Ground Floor ==---
+                   
+                   
+       Trainee Startroom
+               o                           o
+               |           ^              /^
+         o-----o-----------o------o------o
+         ^     |                  |      |
+               o      Trainer o---o      o---o Herbalist
+ Trainee Rackroom                 |      |
+                      Library o---o------o---o Mess Hall
+                                  |      |
+                                  o      o
+                       Post office        General Shop
+::NEWMAP::
+lvl2_1
+::MAPDATA::
+h8 34 14 
+h5 34 12 
+h6 32 10 
+h7 32 8 
+h2 34 6 
+h1 34 4 
+h3 36 8 
+h4 36 10
+::MAPDATA::
+                   ---== Mountain Keep, 2nd Floor ==---
+
+
+                   
+                                  o
+                                  |
+                                  o
+                                 / \
+                               -o   o-
+                                |   |
+                               -o   o- 
+                                 \ /
+                                  o
+                                  |
+                                 -o
+                                 
+::NEWMAP::
+lvl2_2
+::MAPDATA::
+sr 30 14 
+contracts 28 10 
+ft 28 8 
+mr 40 8 
+ra2 40 10 
+::MAPDATA::
+                   ---== Mountain Keep, 2nd Floor ==---
+
+                   
+                                  ^
+                                  o
+                                  |
+                                  o
+                                 / \
+             Member Trainer o---o   o---o Member Lounge
+                                |   |
+             Contract Room  o---o   o---o Member Rackroom
+                                 \ /
+                                  o
+                                  |
+             Member Startroom o---o  
+                                  ^
+::NEWMAP::
+lvl3
+::MAPDATA::
+reception 34 8 
+conference 34 5 
+b1 38 8 
+b2 30 8 
+post 37 5
+::MAPDATA::
+                   ---== Mountain Keep, 3rd Floor ==---
+
+                   
+                   
+                                  |
+                 Conference Room  o  o Post Office
+                                  | /
+                                  |/
+                             -o---o---o- 
+                                   '.
+                                     '.Reception                                  
+::NEWMAP::
+lvl3_elder
+::MAPDATA::
+elder 34 3 
+::MAPDATA::
+                   ---== In the office of the Elder ==---
+
+                   
+                                  o Office of the Elder
+                                  |
+                 Conference Room  o  o Post Office
+                                  | /
+                                  |/
+                             -o---o---o-    
+                                   '.
+                                     '.Reception                                   
+::NEWMAP::
+lvl3_fist
+::MAPDATA::
+fist 26 8 
+::MAPDATA::
+                   ---== In the office of the Fist ==---
+
+                   
+                                   
+                                  |
+                 Conference Room  o  o Post Office
+                                  | /
+                                  |/
+       Office of the Fist o---o---o---o-     
+                                   '.
+                                     '.Reception                                   
+::NEWMAP::
+lvl3_inquisitor
+::MAPDATA::
+inquisitor 42 8 
+::MAPDATA::
+                   ---== In the office of the Inquisitor ==---
+
+                   
+                                   
+                                  |
+                 Conference Room  o  o Post Office
+                                  | /
+                                  |/
+                              o---o---o---o Office of the Inquisitor
+                                   '.
+                                     '.Reception         

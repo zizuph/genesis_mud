@@ -1,0 +1,53 @@
+The Noldor of Imladris
+-----------------------
+The Noldor are a racial elven guild located in Imladris. The guildhouse is in the northeast part of the valley next to the stone seat.
+
+The Noldor are one of the great families of elves Arda. Yet in the Third Age, they were less numerous than in the past. Yet some remained in ME, especially in Imladris. It was in the valley they dwelt with Elrond, protecting the area and keeping watch for Sauron.
+
+Because of their limited numbers, the guild is limited to the number of players that may join. Those who don't log in for an extended of time will be automtically removed when the game reboots.
+
+Before joining, players must be able to cross the ford of rivendell. Afterwards, players must remain at least neutral, or 0, to remain in the guild. Failure to remain neutral or better will result in expulsion from the guild.
+
+As a racial guild, Noldor may improve the following skills:
+
+                untaxed      tax       
+               (max lvl)    levels    tax    formula
+
+SS_CLIMB        30(50)        20      .33   (20/60)*1.0
+SS_TRADING      30(50)        20      .33   (20/60)*1.0
+SS_LANGUAGE     30(40)        10      .16   (10/60)*1.0 
+SS_APPR_MON     30(50)        20      .33   (20/60)*1.0
+SS_HERBALISM    20(30)        10      .16   (10/60)*1.0
+SS_AWARENESS    30(50)        20      .33   (20/60)*1.0
+SS_RIDING       30(50)        20      .33   (20/60)*1.0 
+SS_ACROBAT      20(30)        30      .25   (30/60)* .5
+SS_WEP_KNIFE    30(30)         0        0
+SS_DEFENCE      20(20)         0        0
+SS_ANI_HANDL    30(30)         0        0
+SS_FR_TRAP      20(20)         0        0 
+                ---------------------------------------------
+                 220(350)    150     2.22%
+
+
+
+Tax is rounded up to 3%.
+
+Rooms
+--------
+There are no special rooms, such as stores or shops, available to Noldor. Below are the rooms in the guild at /d/Shire/guild/noldor/:
+
+joining             foyer.c
+start room          start_rm.c
+training room       train.c
+discussion          board_rm
+common room         common.c
+resting room        rest_rm.c
+meditation room     med_rm.c
+
+Abilities
+-----------
+There are no special abilities. As Noldor, they may see more details in the murals and paintings in Rivendell, simply because these items will reflect their history. 
+
+It must be noted that Noldor can see the forest exits even if they haven't done Elrond's quest. This isn't a special ability because anyone will see the forest exits after doing Elrond's quest, whether regardless of their race.
+
+**

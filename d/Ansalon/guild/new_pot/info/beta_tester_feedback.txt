@@ -1,0 +1,940 @@
+Message: 1221
+From   : Cherek
+Subject: PoT review #2
+CC     : Gorboth and Carnak
+Date   : Mon Jan  2 04:39:01 2017
+Hi,
+Here follows my review of the somewhat nerfed PoTs. This review will be shorter
+and less detailed as I will only compare this version to the previous version
+in areas were the changes are likely to have a big impact.
+
+To summarize the changes for Carnak and Gorboth:
+pbless (DL tank ability) has been made less effective.
+pheal now costs a heart powder AND a chokecherry, instead of just the powder.
+ptalon (main damage) deals slightly less damage for DW.
+
+I of course used the same setup as in the previous test, same test player,
+same EQ, same standing, etc.
+ 
+As expected, with a less powerful pbless and more costly heal the DL 
+PoT is no longer a super-tank. They're still a good tank, but it will be
+far from certain the PoT will be the tank in a team. Actually, in most
+cases you're probably better off healing a melee teammate and let them
+tank, as it increases your healing powers when you do not need to have
+an active pbless. And with the less effectve pbless the PoTs are no longer
+as good, or better, tanks as a melee fighter which would have been quite
+likely before. I suspect PoTs will only be tanks in a team when there is
+no better option around.
+
+Grinding solo in Qualinost still works fine, and a solo PoT will be able
+to make good XP there, however with the new pbless you of course need to
+heal more, and since heal now costs a herb too, you will burn through your
+herb stock pretty quickly. Mana also becomes an issue and you may need to
+pause now and then. I used about 10 chokecherries / room, so to 
+sustain elf solo grind you will need a good herb supply, and of course
+spend a lot of time herbing. You can of course charge up on soul gems
+somewhere else, and then go elf-hunting, but even so, it's a big change
+compared to before the "nerf", as I believe the previous version could have
+killed elves basically 24/7. Now they will have to engage in other tasks
+and/or prepare themselves in order to grind an elite area like this solo.
+As it should be.
+
+So, this is the biggest change compared to the previous version, and a good
+one.
+
+I think you solved both the two main issues with the DL in the old version.
+Now, DL is no longer the clear tank in a team, and a solo DL is no longer the
+best solo-grinder in the game. Good still, absolutely, but in my opinion not
+too good.
+
+You also made grinding while attentive, compared to mindless botting/scripting,
+even more rewarding, since now I needed to experiement using pcurse as well
+to be successful, and more spell-juggling means you need to be more active to
+be successful, which I think is a good thing. And fun! New PoTs remind me of
+the good parts of the old mages, which also rewarded activity. Of course the
+old mages were totally OP, PoTs arent, but the need to juggle spells and be
+active was a lot of fun, and me and others were sad when that part of
+the MM guild was removed and turned into a guild that instead rewards  
+scripting. Mages were made a lot less OP, which was good, but a big part of the
+fun was lost in the process too. So I really really like this aspect with 
+the new PoTs. It's a rare thing in guilds, and something I would like to see
+a lot more of when designing guilds. So well done with that!
+ 
+However, and this is a big one (as I mentioned when we spoke), the availability
+of the chokecherry herb, as well as what you decide to do with the now static
+Abanasinian and Solamnian plains will have a big impact on the "XP/hour" rate
+a PoT can muster. Should the chokecherry be very rare, and/or the plains 
+changed from completely static to more random, it'll be much harder and more
+time consuming to keep large numbers. If it's fairly common and/or present in
+static areas, it'll be much easier to script it, and thus the DL grinding
+priest will be much better. Now, I know you dislike scripting, but remember
+that if you make it very hard for the PoTs to get their most important
+component, you leave them at a disadvantage vs other guilds who can easily
+script their main components and collect huge numbers. Things like this are
+probably not taken into consideration in the combat aid calculations, but they
+have a big impact on actual gameplay. Especially when grinding. Which is what
+players do most of the time of course.
+ 
+To make a comparison, the old (current) PoTs main herb are the willow herbs
+(beach willow, and grey willow are the varieties I think). Willow is used for
+the ptalon, and to herb it I ran a script to collect them on the Abanasinian
+plains. They don't grow in abundance, but the area is static so you can script
+it easily, and even if you don't script you can gather them fairly quickly 
+when you learn the locations of them. I found the number of willows to be
+pretty reasonable, they're neither rare or common, you can always find them in
+the same spots, but it still takes some time to gather a big supply. So, 
+willows might be used as some type of guideline if you want. Or you could of
+course just try it. Let Hollandjr herb chokecherries manually and/or using a
+script, and see how much he can gather in an hour or so, then compare it to an
+expected burn-rate of 10 chokecharrier per room for a legend PoT grinding in
+Qualinost. Which is probably the most heal-heavy task they would attempt.
+
+Now, moving on to the DW,
+Not much has changed for the DW, except a slight reduction in ptalon power,
+which I couldn't "feel". DW is still the obvious choice when you go out to
+grind stuff that can't hurt you, or you team. Like for a legend, Kalaman
+grinding.
+
+I think the biggest change here will be for teams, since with the reduced
+tanking abilities for the DL, the DW becomes a better choice for teams too, and
+teams can chose to use the PoT as DL healer, DL healer/tank, or DW damage
+dealer. This choice of course existed before the nerf too, but with DL no
+longer an obvious tank, I think the choice will much more depend on situation,
+what type of team you're in, and what you're grinding. DL is likely to be the
+better choice still in many teams as DW power is dependent on that the team
+only kills goodies. So for any type of Faerun, Avenir, Mithas or Terel troll
+grind, DW won't be very useful. For grinding goodies in Krynn, in popular
+areas like Kenders, Centaurs and Kalaman, the DW PoT is likely to be quite
+useful for a team.
+
+When it comes to boss-hunting, the DL remains the clear choice in most 
+situations for their superior ability to keep themselves healed. As you
+do not need the same amount of herbs for boss-killing as you do for 
+continous grind, the changes won't have much impact on this so my previous
+findings should still be good, except tanking will be slightly worse due
+to pbless being worse. The heal is the main thing though for hunting big
+stuff, not pbless, it it remains as good for this task even if you need some
+herbs now.
+
+Now, I haven't tested PVP after the change, but I do not think it is needed
+either, as the changes made do not really affect PVP much, and our old results
+should still be valid. A DL PoT is likely to outlast and beat most melee
+fighters thanks to their heal. The increased cost does not change this fact
+as long as the PoT keeps a reasonable supply of herbs. That change has the 
+most effect on grinding than anything else, as mentioned above. The pbless
+change is also unlikely to have much impact in a 1vs1 fight, just like in
+an NPC boss fight the heal is the main thing that wins it for the DL PoT.
+The DW PoT will most likely remain about as powerful in PVP as before, as the
+change to ptalon was very slight, and no other changes were made.
+
+Finally, I also compared the difference in damage output for the DW with
+700 standing and 1200 standing (max). I am sure there IS a difference, but
+it's not big enough to "feel" it. You'd have to time how long it takes
+to kill stuff, and compare it. I am not sure that type of extensive testing is
+needed. If the maths say higher standing does more damage, it does!
+
+I don't think the differences are big enough to be easily noticable by the
+players though, but I don't think that's bad. The current PoT players take
+pride in running experiments on their abilities and writing lengthy reports
+and books with statistical comparasions. I am sure they will enjoy trying
+to figure out exactly how much standing matters.
+
+So...
+I like it!
+
+I don't feel we need to do any major tweaks. Both DL and DW are useful, and
+DL are no longer super-tanks. Now I am not the AoB, but based on my tests the
+previous version really felt a bit OP, this one does not. It feels like a good
+guild, and it should be good, it's an OCC+LAY guild after all. I have no doubt
+the PoT players will love it, and have a lot of fun playing. I almost feel like
+waking up Xxxxxx. Almost!
+Cherek
+
+
+Message: 1175
+From   : Cherek
+Subject: PoT testing report
+CC     : Carnak and Gorboth
+Date   : Thu Dec 15 15:50:24 2016
+
+
+Hi,
+
+WARNING! LONG FILE! I DID AN EXTENSIVE REVIEW AND WANTED TO GIVE A
+DETAILED REPORT! READ ONLY WHEN YOU HAVE TIME!
+
+This report is for Arman, but I CC'ed Carnak as well since he also
+has tested PoTs. Feel free to agree or disagree with my findings Carnak.
+I also CC'ed Gorboth since... well he is Gorboth and probably is 
+interested in how the new guild is shaping up!:)
+
+I've spent a lot of time testing PoTs now, so here is my report. I have 
+decided to divide my test into three parts: Solo play PVE, Team play PVE, 
+and PVP, each part is also divided into Dark Lady and Dark Warrior testing.
+ 
+Test Setup
+----------
+
+Genea, human, Champion close to Legend. Which is about the size I was
+on average when I was a PoT as a player.
+
+Rank: High Priest for most of the test, then Nightmaster.
+Standing: Between Greatly guided, guided and favorable. Which is about
+the levels I used to have as a mortal too. It went up and down somewhat
+during testing, which of course is natural for a player.
+
+Avg stat: 170
+Mental stats: INT, 212, WIZ, 189.
+Guild XP: 82 million.
+Align: Around -600.
+
+EQ: Mightnight black platemail, black boots, great black skull, dragon
+turtle shell, double morning-star / heavy steel club.
+
+==================
+PART 1 - SOLO PLAY
+==================
+
+DARK LADY
+---------
+
+GRINDING
+
+Casual / Script-grinding, Kalaman
+---------------------------------
+
+Not using darkness, since it's not really needed for Kalaman,
+but a smaller PoT would of course benefit from that.
+
+Grinding in Kalaman using pscourge is quite nice. Not BDA-power
+but far better than old PoTs and quite enjoyable. 
+
+For the really casual slow-grind, simply doing pscourge is good
+enough to get you around, with an active pbless not much will
+be able to hurt you for sure.
+
+While ptalon doesnt seem to do more damage then pscourge when in
+Dark Lady form, you can still do ptalon, ptalon, pscourge, and repeat 
+to speed things up, which definitely works quite well, and makes
+grinding quite a bit quicker. Of course it consumes both mana and
+ingredients, so it will be hard to keep it up forever, but with the
+use of a soul gem it seems possible to sustain this type of grind
+for quite some time.
+
+War plains, Knights
+-------------------
+
+Without darkness:
+
+The biggest teams does provide some fight, but since you basically
+have unlimited heal as long as you got heart poweder, it does not 
+matter. It takes a little time if you only use pbless/pscourge, but it's 
+quite simple. To make it even easier/quicker killing off the rose
+knight with ptalon proved to be a good strategy.
+
+With darkness:
+
+Since the knights dont assist each other in darkness, this obviously
+is very easy. Even pretty small PoTs are likely to find success
+on the plains using darkness. It takes very little effort to clean
+the plains as a solo PoT using darkness.
+
+Serious grinding, Elves in Qualinost
+------------------------------------
+
+Elves see in darkness, so darkness is useless here.
+
+Solo-grinding in Qualinost is something a mage of this size
+under the new system can do, but not easily and there is a lot of
+pausing involved. (Unless the Nazguls got some super-spell I never
+got as a mage). The old mages could do this easily of course, but 
+they could kill anything easily really.
+
+Using pheal and pscourge only I managed to grind Qualinost solo
+quite successfully. Lots of healing, and it goes quite slowly, but
+as long as you got heart powder it's possible to keep it up pretty
+continously. Very few guilds could manage this solo at Champion
+level in my experience.
+
+Using pheal, pbless and pscourge it worked even better, the solo-grind 
+for a dakr lady PoT is very good. It's not that quick, but the ability
+to solo very large enemies makes them really good. I have a hard 
+time seeing ANY other guild manage Qualinost this well at Champion 
+level.
+
+Throwing in a ptalon here and there speeds things up as well, 
+although I found it better to focus the mana on healing and let
+pscourge do the damage.
+
+A BDA script grinding Kalaman/Centaurs etc _might_ do more XP/hour
+because of the speed they kill, but it's probably a close match with
+a PoT soloing Qualinost. It's possible the PoT wins too, their solo
+grind is pretty awesome. The fine part about PoTs is that your 
+success depend on being active (or having a very good script that
+switches between heal and scourge automatically when needed). Of
+course since humans arent tireless, but scripts are, the melee
+scripter might win the XP battle in the end, but the PoT probably had
+more fun! And I love things that promote active play.
+
+For me, I found PoT grinding a lot more fun than any other type of
+grinding I have tried. Except the old mages (and partly the new ones), 
+which also relied/rely on being active and managing different spells.
+
+Something weird though, when grinding in Qualinost, I became
+extremely panicky after a few rooms, which made me wimp around, 
+making it hard to actually sustain the grind without taking breaks
+to become more secure. The panicking was the only thing holding me
+back from cleaning out room after room with little or no breaks. Not 
+sure if it's related to spells, the area, or anything else? Any idea?
+I never noticed this as a "real" player in this area.
+
+As you said, this is most likely due to me missing so many normal 
+hits against these big enemies. Some time of calming spell might be a
+good idea, like you suggested. Although it makes no sense to start
+panicking at all since I am easiy winning the fight, even if I dont
+hit with my weapon. Perhaps a global issue with spellcasters, and
+panic is created with melee fighters in mind?
+
+Serious grinding, Terel trolls
+------------------------------
+
+Trolls see in darkness, so darkness is useless here.
+
+Having had success with basically every type of grind so far, I
+decided on a challenge. Killing evil creatures outside Krynn,
+something that should fit a PoT quite badly in theory.
+
+As expected, this proved to be more difficult. It IS doable to solo
+the Terel trolls as a PoT, which at champion level is really good,
+though since you get so much more benefits from fighting good-aligned
+creatures, it's unlikely PoTs would bother with fighting evils
+unless in a team. Which is good imho! 
+
+Pscourge, pcurse together with a lot of healing gets it done though,
+but it's slow, and you take a lot of damage since pbless doesnt work 
+on evils, so you will spend quite a bit of mana. It's definitely
+possible to grind through the troll caves alone though, so it's still not
+bad, just not as great as killing in for example Qualinost.
+
+Bonus test:
+
+Tried to grind undead zombies and skeletons using pheal
+-------------------------------------------------------
+
+pheal seems to have no effect on the undeads in Calia? It says they
+covulse in pain, but it does not seem to actually do any damage? 
+Perhaps you need to look into this and see if it actually works like
+it should? 
+
+As you know we tested this later, and it seems to work fine after
+all.
+
+GEAR HUNTING / BOSS-KILLING
+
+Orc Captain, Emerald
+--------------------
+
+Known to be quite tough for melee figthers, but easier for spellcasters.
+
+Killing the orc captain in Emerald solo was a simple matter as the
+great healing really made it easy. I only used pheal and pscourge and
+was able to kill him in about 5 minutes. For a player of champion
+level this is very good. Most melee fighters would struggle with this
+for sure.
+
+Yeti, Ice Wall
+--------------
+
+One of the hardest and most dangerous bosses in the game. The old mages
+could solo him (of course:)), and the new ones can too, although it comes
+with a risk for them as well as far as I know. Not sure if other guilds,
+and/or really huge players can do it solo. Most players definitely cannot,
+and would not dream to even try.
+
+First attempt using pheal, pcurse and pscourge I got him down to barely
+alive at best, but eventually my mana ran out, and had I been a real player
+I would have died. So, it's close! 
+
+With a friend it would definitley be doable. That is of course, unless a
+dragon arrives, then it might be tricky, but probably doable.
+
+Second attempt, using pheal, pcurse and loaded up with athly mana herbs
+and the knowledge from the first fight. Confident I was going to kill him
+this time a dragon arrives just minutes into the fights, which would have 
+meant certain death for a real player. Ouch.
+
+Third attempt, got him to death door. However, I became extremely panicky
+and tried to wimp (which isnt possible at the Yeti), but the effect was
+that I lost standing when trying to wimp, and eventually the yeti had healed
+up enough that it was not going to work, so I had to abort. Without the
+panicking I most likely would have killed it this time. I tried to use some
+ptalons this time too, but they almost always fail or have little effect
+so the best strategy seems to be to keep him cursed, heal yourself, and
+rely on pscourge doing more damage than the yeti can heal. Which will be
+a coin toss. And of course pray no dragons arrive.
+
+I did a final attempt using ppain, but since it lasts so short time
+and comes with a pretty long cooldown, I was not more successful this
+time around either. I actually died this time as the Yeti got in a
+series of hits in a row before I was able to heal myself, or save
+myself using wizard transport.
+
+So, a solo priest does better than most would agains the Yeti,
+and a more skilled player with more trinkets and tricks than just the
+PoT spells and "good but not great"-EQ would probably be able to do it, it's
+dangerous though, if a dragon arrives you're most likely toast. So PoTs stand 
+up very well against the Yeti, but lacks the firepower to realistically solo
+the Yeti without too much risk. 
+
+Onyx, Black Dragon on Mithas
+----------------------------
+
+Using soapweed and turtle shell for acid protection.
+
+Nope. No chance really. Got it to somewhat hurt, but the dragon was
+very good at resisting pcurse. Ptalon was useless since it's very evil,
+and pscourge hardly made a dent, only mildly irritating it at best.
+
+Not doable. It's possible to last quite long healing yourself, so in
+a team with a melee fighter doing damage this would be easy, alone with
+an evil dragon resisting your damage spells, not so much!
+
+Emerald, Green Dragon outside Flotsam
+-------------------------------------
+
+Again, this wasn't easy. Thankfully the dragon was not able to resist
+pcurse, which made it possible to kill it. It took a good 10 minutes 
+though, and a lot of healing and almost all mana. Doable solo but not
+easy.
+
+DARK WARRIOR
+------------
+
+GRINDING
+
+Casual / Script-grinding, Kalaman
+---------------------------------
+
+Not using darkness, since it's not really needed for Kalaman,
+but a smaller PoT would of course benefit from that.
+
+This type of grind is better in this form, as you have higher
+weapon skill using phammer, and ptalon does more damage so it's
+more useful to throw in a talon here and there between your
+pscourges. Healing is rarely needed, and the healing power you get 
+as dark warrior is enough for Kalaman, should you need it.
+
+You can't really match melee fighters in killing speed, but you're
+definitely closer to them than in dark lady form. It's a reasonable
+form of solo grind that I am sure many priest will enjoy, and definitely
+more fun than the old PoTs.
+
+War plains, Knights
+-------------------
+
+Without darkness:
+
+Hmm. Close call! With poor healing your health goes down quicker of course,
+but you make more damage too. I'd probably stick to Dark Lady if I dont have
+darkness though I think, since it's simpler and consumes less components
+and mana, and while you kill one room quicker as Dark Warrior, continued
+grind is better Dark Lady as you spend less mana and sustain your health
+better.
+
+With darkness:
+
+That's more like it. Without the ability to assist each other you
+take a lot less damage, and need your heal less. They do rescue each
+other even in darkness, but as Dark Warrior you do more damage quicker
+and once they rescue each other they're pretty hurt so you can finish
+them off fairly quick.
+
+So with darkness I'd probably pick Dark Warrior and do the "pscourge, 
+ptalon, ptalon" and repeat combo, of course with pbless active, and
+probably using a soul gem to keep component use lower, since using a lot
+of talons are pretty component-demanding. But if I don't feel like being
+super-active and/or want to save componentent when grinding I'd probably
+pick  Dark Lady for war plains even in darkness.
+
+Serious grinding, Elves in Qualinost
+------------------------------------
+
+It was quickly obvious that dark lady does a lot better here. While
+you do kill the elves quicker with the better ptalon, you take more
+damage with the weaker pbless, but it's the weaker pheal that does
+it, you simply can't sustain the grinding very long. And constantly
+using ptalon eats up your mana pretty quick too. Not a good idea to
+go here as a dark warrior.
+
+Serious grinding, Terel trolls
+------------------------------
+
+As expected, dark warrior is inferior to dark lady here as well.
+The lack of strong heal makes this a very hard task. Actually going
+here solo as dark warrior is pretty useless, you can kill a few
+trolls at best but will need to rest constantly and use your poor
+heal a lot, which uses up a lot of mana. Warrior PoTs do best
+staying away.
+
+GEAR HUNTING / BOSS-KILLING
+
+Orc Captain, Emerald
+--------------------
+
+No issues here. Just go in an ptalon/pscourge him to death. You suffer
+some damage, but you also kill him quicker. I'd prefer to be in Dark
+Warrior form since it's quicker.
+
+Yeti, Ice Wall
+--------------
+
+No chance at all as expected. Dark Lady is the only way to go here,
+without pcurse or a good heal, you don't stand a chance whatsoever.
+
+Onyx, Black Dragon on Mithas
+----------------------------
+
+No chance at all as expected. Dark Lady gives you at least a chance
+to tank some even if you do little damage, Dark Warrior is completely
+toothless.
+
+Emerald, Green Dragon outside Flotsam
+-------------------------------------
+
+No chance here either. See above.
+
+=================
+PART 2 - TEAM PVE
+=================
+
+Well, I think perhaps after our finding in grinding and PVP, it's
+obvious enough that Dark Lady PoT is the best tank in the game, and a 
+PoT would be highly popular in any team where a tank is needed. If all
+you need is pure firepower since nothing can hurt you, then PoT isn't
+your best teammate, but if you ever need tanking skills, which you often
+do for the better XP areas, get a PoT.
+
+I can test this too, but perhaps we should wait until you have made 
+some tweaks, that I think you're already planning?
+
+=================
+PART 3 - SOLO PVP
+=================
+
+Since you were present during our test I dont think I need to say much more
+here, and I also sent you a letter that explained what happened after you 
+left.
+
+For Gorboth and Carnak, I'll just briefly mention that i went up against
+Zignurjr (BDA / Blademaster, holy align) in Krynn, and beat him so badly
+he almost wanted to cry a bit and then apply to PoTs and kill everyone in
+the game. Which uhm, probably proves how good PoTs can be in PVP.
+
+CAN be that is. I beat him badly both as dark lady and dark warrior when
+he had no magic protection. When he used an armour with general magic
+protection, and an anti-life potion from Emerald, the fight way very even
+(and took forever) when I was dark warrior. I just barely won just before
+I had used up all my mana.
+
+As dark lady I kicked his butt badly still, it just took a bit longer when
+he had protection. He couldn't hurt me of course since I got pbless, pcurse
+and pheal.
+
+So warrior PoTs are super deadly against goodies who does not have magic
+protection, and evenly matched if they do. Dark lady PoTs aren't very
+deadly in PVP, but they basically can't lose either. 1vs1 against a knight
+the knight has absolutely ZERO chance to win, but they will probably be
+able to escape alive as dark lady PoTs are very strong, but not that lethal.
+
+===========================================
+END OF TESTING, ON TO CONCLUSIONS AND IDEAS
+===========================================
+
+SPELL THOUGHTS
+--------------
+
+Note that I will only mention the spells where I have something to
+say, for spells not mentioned, I think all is well.
+
+ppain
+
+I don't see anyone using this spell much. Even using a very good
+knife it lasts a very short time, and has a quite long cooldown.
+I don't really see where being able to stun something for 10-15
+seconds is useful. I think this spell could be removed. Or, it
+should be upgraded. For it could be made to last a minute or more,
+but come with a VERY long cooldown? Like, several hours? I don't
+know, but as it is now you're better off with pcurse, pbless and
+pheal and those 10-15 seconds of stun seems rather unneccessary.
+Possible in a team with 3+ High ranking priests it could be
+useful, but such teams are probably quite unlikely. 
+
+I also tried to use this in PVP after you had left, and sure enough
+it works, although since the duration is so slow, you're still better
+off just cursing.
+
+pbless
+
+This is a very good spell. However, since it's so very good it 
+turns priest into tanks. And I am not sure that was the intention?
+Or was it? Scops are tanks, which I've always found odd. Maybe it
+fits their theme (I know little of it), but in my eyes clerics 
+are not tanks. And since pmirage is a "move behind" ability I am
+thinking you did not see them as tanks either? With their superior
+heal and bless though, they will most likely end up being tanks in
+a team. And very good tanks too. Probably the best in the game. 
+
+If we don't want priests as tanks, perhaps pbless should be a spell
+that only can be cast on someone else? Of course limitation needs to
+be in place. For example the target must be evil, and be in a team
+with you. Also, only one pbless can be maintained, and it breaks if
+you leave the team, perhaps even if you or the target leaves the
+room.
+
+It might need to be downgraded though, if we make it possible to cast
+on others, as on someone with already superior tanking abilities it
+might just be too good. When cast on a priest it makes up for their
+poor fighting skills, but if you already have sup guru and another
+dodge/evade it might make them almost immortal with the current
+power level?
+
+Anyway, that's one idea. The main problem I see is thank priest will
+become tanks if it is released as it is now.
+
+pmirage
+
+Well it's nice, but if PoTs end up being the tank, it probably wont be
+used that much, at least not by big PoTs. Of course smaller PoTs teaming with
+bigger players and doesnt tank will find it useful, or if you're in the dark
+warrior form, or want to switch tank in PVP. So it's definitely a very useful
+spell in certain sitations even if PoTs are tanks, but it would become even
+more useful if PoTs tank less.
+
+ptalon
+
+I wonder if this one should simply be unavailable for Dark Lady? As
+it is I think Dark Lady is overall the better choice, but making talon
+Dark Warrior only might even things out?
+
+pslow
+
+If you dont want to make ptalon warrior only, perhaps pslow should be?
+Since it's a PVP ability, it would make warrior an even better choice when 
+a priest wants to kill someone. Since warrior is also more vulnerable, it
+would make sense. If you want to kill someone, you also need to risk 
+something, and playing warrior is riskier than playing dark lady, which
+almost makes you unkillable unless mega-ganked.
+
+pgem
+
+This is a fun spell. Balancing it right will be tough tho. I wonder
+if it's too powerful right now? Killing centaurs charges it pretty
+quickly saving me a lot of components. Without players actually using it
+for extended period in "real" play it's hard to know though. Perhaps
+it's one of those things we should start low, and upgrade if it's not
+used, instead of risk making it too powerful from the start?
+
+ADDITIONAL FINDINGS AND SUGGESTIONS
+-----------------------------------
+
+Generally I encountered very few issues. No bugs or anything major 
+really, and no typos spotted, although I have not looked for them
+especially. But here are some things:
+
+- When you type "spells", it would be good to see which spells you
+can cast in your current aspect. For example some type of * on spells 
+you can't cast when in Dark Lady, and likewise when in the Dark Warrior 
+aspect. I know you see it when you check detailed spell info, but it
+would be nice to see in the overview which ones are available and which
+ones are not. I kept forgetting that all the time.
+
+- When your pbless runs out you get the message that "You are no longer
+protected by the blessings of Takhisis" which is fine. However a person
+standing next to you also see that "Genea is longer protected by the blessings 
+of Takhisis", which seems illogical. How would a bystander know this?
+I think either the message for bystanders should be removed, or changed
+to something they COULD notice. Like a ripple in the air, an involuntarily
+shudder, or... well whatever you feel like.:)
+
+- Why do you have to do "phelp topics", cant just "phelp" lead to directly
+to the main help menu?
+
+- This is weird: 
+"You feel new health infusing your body."
+"The elf heart pumps one final beat before it crumbles.""
+
+What heart? It's heart powder, not a heart. A remnant of the old
+pre-powder spells I assume? Should probably remove or redo that
+message?
+
+- If you try to ptalon a knight NPC that is currently charging you get
+this message:
+
+"You feel a divine force protecting this being, your attack fails."
+
+That's an odd message to get? Should it not say something about
+them being too far away instead? I dont know if this is in Knight
+or PoT code, but it's an odd message. I think I've seen it when playing
+as a mortal too, and not as a PoT, so I suspect it's a thing with the
+NPCs.
+
+- Perhaps we could list the standings levels in the help files?
+Or should this be a mystery? I've forgotten the levels since
+I was in the guild, and now I struggle to know which order
+the standings are. Is favorable better than guided for examble?
+It's not always clear if you've gone down or up in standing, if
+you missed the message, which is quite easy to miss.
+
+- Do we really need the options to have NO aspect? I have not tried
+playing without aspect, but as I understand the difference is you get
+"decent" power in all spells? No clear strength or weakness. I kind
+of think two different aspects are hard enough to balance and make
+both playable, a third option will make it even harder to make sure
+they are all used, and it's more risky one, or two, will end up 
+being inferior to the others. I also like giving the player a choice
+which strangths and weaknesses they want to have, instead of giving
+them a "way out", not having to pick. I suggest remove the unaspected
+option, and let your choice "stick" between logins.
+
+Now, you explained to me after I wrote this that unaspected is weaker
+in all spells as I understood it? But it gives access to all spells.
+Still, I think it's better to now have it. I don't see why you would
+ever use it? In which cirucumstances would it be useful? I can't think
+of one.
+
+CONCLUSION AND DARK LADY vs DARK WARRIOR THOUGHTS
+-------------------------------------------------
+
+GRINDING SOLO
+
+If I were a PoT at champion or above size, and access to pheal and
+pscourge, I'd live in Qualinost, since I find it more fun than the
+casual/script type of grind. I'd definitely use the Dark Lady aspect.
+
+However, if I wanted to just lazily grind, while semi-attentive, for
+example at work (usually with the help of a script), like a lot of
+players enjoy, then I'd pick the Dark Warrior form and stick to stuff
+that does not require healing. In my case the popular Kalaman-Centaurs-
+Kendermore grinding route. You could of course script Qualinost too, but
+perhaps not something that many players would feel comfortable doing,
+since it would require a more advanced script. I like that for most
+players being active is promoted by providing the best XP rewards for
+non-scripting activities.
+
+PoTs may actually be unrivalled in the game (maybe together with mages) 
+when it comes to solo-grinding big stuff as Dark Lady. Fluffy/Zignur who 
+has more mage experience, especially the new mages, was pretty sure PoTs
+are better than mages, and he is probably right.
+
+So in short, if you're fighting stuff that does not hurt you much, pick
+Dark Warrior. If you're fighting stuff that probably is a little too
+big for you and can hurt you, it's still possible to grind in the Dark 
+Lady form and will be very rewarding.
+
+Which form is best will depend on the size of the player, and their
+preferred playstyle, and of course which enemies are in their reach, and
+gives the best benefit at your level. For solo grind I am pretty confident
+both Dark Lady and Dark Warrior will be used, depending on circumstances
+and style of play. Serious grinders would probably never use Dark Warrior
+though, but they will love Dark Lady.
+
+BOSSES / GEAR-HUNTING
+
+Dark Lady PoTs can fairly easily take down large bosses that have little
+magic protection, but struggle mightily with considerably smaller bosses 
+_with_ magic protection. Especially those of evil align. Just like it 
+should be. Thanks to the very good healing abilities it is possible
+to stay in the fight long enough to slowly but surely grind down most
+enemies. But not all.
+
+Dark Warrior PoTs can take down smaller bosses, and those with little or
+no magic protection quicker than Dark Lady, especially good-aligned
+bosses.
+
+Which is better? It depends. If you're looking to go on a big long EQ-
+hunt collecting as much as you can, I'd pick Dark Lady, as the increased
+healing makes you more versitile.
+
+If you on the other hand have only a limited amount of time to play and
+want to go on a quick hunt for a couple of bosses with little magic
+protection, I'd pick Dark Warrior, since you can take them down quicker
+and move on to the next one on your list.
+
+Dark Lady is clearly the best overall option for boss-killing though, and
+most likely the one that will be used most.
+
+SUMMARY
+-------
+
+Playing the new PoTs is a lot more fun than the old ones. Not only
+because they are A LOT more powerful, but also because it requires
+you to be active and juggle spells to really take advantage of their
+abilities. Skilled scripters can script anything of course, but for
+most players, activity is rewarded, which is great. I wish we had more
+such guilds. Old mages were the same, unfortunately the new ones are
+less about rewarding activity.
+
+Overall, I think  I would play Dark Lady more often than Dark Warrior, 
+but both are useful I think, and it depends on your playstyle, and how 
+much time/how attentive you can be, which one to use. I do think we
+might need to do some tweaks, as mentioned above, to make Dark Warrior
+a little more useful since I predict Dark Lady will be the "default"
+choice for most priests, and I think it would be better if there were
+more reasons to pick Dark Warrior, to make that choice a little harder.
+
+PoTs pretty much crushes knight in PVP no matter what. The only way
+it even becomes interesting is if the priest is Dark Warrior and the
+knight has magic resistance, especially life magic. Getting a few
+potions from Emerald to carry around in case you encounter a PoT is
+not hard though, so knights should actually be able to do pretty well
+against a dark warrior PoT after all. Of course, a Dark Lady pot is
+pretty much unkillable and would kick a knight's butt every time they
+fight, which probably won't be that fun for the knight... even if they
+the dark lady PoT will struggle to actually KILl the knight, it's still
+no fun to have no chance.
+
+As long as PoTs got healing though, that's how it's gonna be I think?
+Hard for someone without healing to beat someone who has, especially
+the powerful PoT heal. Rangers and Scops are also very hard to kill I 
+believe.
+
+When it comes to teaming I haven't actually tested, but as I said and
+Zignur confirmed there's no doubt. The priest will be the tank in the
+team, and will 99% of the time be in dark lady aspect, and a very
+valued member of any team.
+
+So...
+
+All in all. Dark Lady is awesome. A little too awesome probably. Of
+course mages are awesome too... and they are deemed balanced so... yeah.
+But this verion of PoTs might need some nerfing. Although, remember
+that PoTs are just awesome in certain situation, and quite poor in others.
+You have to fight something good, preferably in Krynn, to really be any
+good. You're pretty rubbish otherwise, but the nice heal saves you, and
+you can still be useful to your friends even outside Krynn, fighting
+evils, but powerful, no.
+
+So... that ends my short little review.:)
+
+Cherek
+
+Message: 1178
+From   : Carnak
+Reply  : PoT testing report
+To     : Arman, Cherek and Gorboth
+Date   : Fri Dec 16 02:29:45 2016
+
+Hey, Ive already stated most of my thoughts on the guild, but here
+goes.
+
+Test Parameters:
+----------------
+
+Geneb, legend gnome
+
+Ranks varied, most of the time played was as a High Priest.
+
+Guild Stat: 173
+Stat average: 174
+Stats: 158, 174, 177, 197, 196, 145
+
+Equipment: Midnight black platemail, flowing ermine-lined robe,
+great black skull, silvanesti tower shield and black spiked mace
+(verminaards midnight).
+
+Playability:
+------------
+
+The guild is loads of fun to play, if this entered the game, Im
+not sure I could contain myself from playing every now and then.
+
+As most of it has already been said, I feel like I can only sit
+here and agree or disagree. 
+
+The Dark Lady and Dark Warrior aspect choices are great, the
+middle ground should probably be removed, and the spell lists
+should be fixed to only show the spells of each aspect.
+
+I popped in with my own priest after having tested it to compare
+and the difference is like night and day. The scourge ability
+actually makes the guild useful to some degree in combat.
+
+I havent tested team based PvE and I didnt really find the need,
+soloing as a Dark Lady is simply too easy (as it often is for
+tanks). PvP also seemed out of the question as it would be
+difficult to set up a good simulation for it.
+
+My experienced with NPCs were much the same as Cherek, the 
+ones with resistance and evil alignment hampered the guild
+quite a bit. Those that are both evil and resistant were a
+pain, even closing in on impossible targets.
+
+The soul gems make the Dark Warrior a viable damage option and
+would likely not be overly useful for the Dark Ladies (as the
+heal doesnt use an abundance of herbs like the Talon). It is
+difficult to say if its overpowered without an extended test
+in team situations, it would however be used by people when
+they team, and then charged up again by going solo on the
+centaur/kender/rebel/kalaman (script) round.
+
+I didnt find any direct exploits, it seems all of the old ones
+have been removed when converting to the new system. (aside
+from already reported drop room in the planetravel)
+
+Changes:
+--------
+
+pPain: This really needs a proper improvement, either reducing
+the cooldown or upgrading the stun duration. Possible changes
+could also include removing the cooldown and reducing its future 
+effects on the same target. Like a stacking resistance or so.
+
+pBless: Its a good ability and I wouldnt say it is unbalanced
+per-se. The question is if we want PoTs to become tanks or not.
+If it remains, it may be worth considering increasing its mana
+drain or lowering its effects a bit. If the tank-ability is an
+unwanted side-effect, I'd say, use Chereks suggestion of being
+able to only cast it on others, or remove it as its difficult
+to balance casting it on others. (It could be replaced by my
+old suggestion of age-control buff, which lowers int/wis and
+distributes it to combats, or lowers combats and distributes
+it to mentals, depending if your target grows older or younger.
+There are likely a multitude of other options in case this isnt
+wanted.)
+
+pGem: Possible change, if its found to be overpowered, make it
+so that its charged while its in your amulet, instead of while
+being held and give it a %chance to be used instead of
+components.
+
+Conclusion:
+-----------
+
+I gave my insight at the beginning, before I began testing, it
+was a fairly accurate assessment. If I were to play this guild,
+I would have been a Dark Lady tank. Though something that did
+surprise me was that it felt like the mana drain was low. This
+may be due to the new system with which I am unfamiliar and
+the fact that I only used scourge, bless and heal most of the
+time.
+
+The heal + bless is a good combination, but honestly, I'd be
+a tank even if they didnt have the pBless.
+
+Aside from Tanking, I dont see any glaring balance issues with
+the guild. This may be due to the fact that they arent exactly
+globe trotters, their damage is at its best passable outside
+of Krynn.
+
+
+This was all of which I could think, and reading Chereks mail
+(which was ridiculously long) a third time to find more seems
+like a headache waiting to happen ;) So I will call it here,
+hoping its of use.
+
+Regards,
+Carnak
+
+
+
+

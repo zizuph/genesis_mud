@@ -1,0 +1,60 @@
+Holding file for formulas relating to how the property live_i_quickness
+applies to combat and combat aid:
+
+/*
+ * Old Haste formula:
+ *
+ * Haste spell formula adding quickness:
+ *
+ * aid = (aid * 85 / 100)
+ * haste = (500 * aid) / (100 + aid)
+ *
+ */
+
+2018-11-19: The formula has now been changed to the following:
+
+This formula does not use dimnishing return like the old formula, 
+meaning a caid value should equal what it is. The calculation is based
+on the assumption that the maximum caid a player can have is 250 (100
+white hits, 100 occ, 50 lay). This will differ for casters due to the
+penalties they suffer, like component and mana drain. We do not take
+this into account as faster casting equates to an equally increased
+penalty.
+
+The formula is: (caid * 250 / (250 - caid))
+
+Due to the current haste cap of 120% we have decided to set a cap on
+this haste formula, the cap is 150caid which would equal 100% increase
+in attack rate.
+
+Here is an example of how the formula is applied on actual numbers:
+Haste: 50caid * 250 / (250 - 50caid) = 62,5haste
+%Increase: 62,5 * 100 / 250 = 25% on all caid
+Total caid: 250 - 50 = 200 + 25% = 250 caid
+
+As haste doesnt follow a linear distribution, a formula is used to
+increase the haste value to match the percentage of the caid. In the
+above example, the 50caid would not have returned 62,5 haste, but an
+even 100 haste, which in turn would have applied in a non-linear
+fashion, resulting in a 25% increase in speed.
+
+Formula is:
+haste * ftoi(1.0 + (F_SPEED_MOD(haste) - 0.5) *
+            (1.9 * (F_SPEED_MOD(haste))))
+
+
+As demonstrated in the above formula, the player has 250 caid minus a
+50caid ability which is used for haste. The 50 caid ability equals a
+25% increase on all of his or her other abilities and white hits. This
+means he or she has a total of 200 caid to be affected by the haste.
+The effect of 25% on the remaining 200caid equates to 50caid, which was
+originally invested in the haste ability.
+
+At this point in time, no racial guild may utilize their 25 caid for
+combative purpose, if there comes a time when racial guilds utilize
+their caid, then we can easily alter the formula to take into account
+that caid, should this be seen as a desirable change.
+Example: (caid * 275 / (275 - caid))
+
+The formula is located in:
+   /d/Genesis/specials/calculations.c

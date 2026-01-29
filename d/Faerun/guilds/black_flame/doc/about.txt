@@ -1,0 +1,97 @@
+
+O R D E R    O F    T H E    B L A C K    F L A M E 
+
+
+The Order of the Black Flame enforces the will of    
+Kossuth in this realm. In doing the bidding of the  
+elders in the Order, A zealot serve Kossuth and help     
+prepare the world to receive the purifying fire of   
+Kossuth.                                             
+
+The Order is hierarchical in the meaning that those  
+who have reached a higher terrace of enlightenment   
+have come closer to total purification and           
+understanding of the will of Kossuth, and are worthy 
+of the service.                                     
+                                                              
+Through purification and service, the Zealots work   
+to bring themselves and the world closer to          
+Kossuth's fire so that the ultimate purification     
+of life may take place.                                    
+       
+The Order of the Black Flame has smoldered like      
+embers long enough. It is time to fan the flames     
+and rebuild the Order stronger than ever, for        
+Kossuth still lives, and through him the zealots will be      
+reforged in our ultimate form.
+
+
+
+
+A B O U T
+
+The Order of the Black Flame is originally an 
+assassin-order hailing from Thay. Post-spellplague,
+they vanished and resurfaced again at several spots
+in Faerun, and some hosted and trained by the 
+Fire Knives. 
+
+It's a laymanguild that functions as supplement to
+any, or most occ guilds is deemed fit to join. Joining
+is free to anyone, and is not regulated by a third party.
+
+Thematically, Fire Knives train the members, and serve
+as military advisors to the zealots. 
+
+Initially, the design was heading in the direction of
+using alchemy and potions to achieve effects, but since
+Genesis don't have the proper infrastructure to host it,
+the guild is flagged as 'ranger' since it both have melee
+components and spells.
+
+Way less versatile than a pure casterguild, but equally
+strong in terms of combat aid.
+
+
+
+
+S P E L L S   A N D   A B I L I T I E S
+
+Spy network
+-----------
+Members may purchase (or craft) "spy nodes" (limited to x
+per member, which are placed in rooms in Genesis. These nodes
+will register whoever is passing them, and store name, direction,
+time and name of node in a mapping.
+
+Any member of x rank can use a command to check if y player have
+passed any of the active nodes, and only the latest entry applies.
+
+Nodes only register persons it can see.
+
+This idea was suggested to Cherek instead of just a regular standard
+scry since it offers something new to the game.
+
+
+Combat special
+--------------
+The guild sports a 45 caid combat special. It requires the weapon
+to be engulfed in black flames (summoned by the member).
+
+
+Spells
+------
+The guild offers a limited set of spells.
+
+1. Frenzy          Regular 30 caid haste.
+2. Flamepurge      Regular cleanse
+3. Reconstitute    Regular fatigue regen.
+4. Medicate        Regular 50 caid heal
+5. Flashbang       Aoeblind (vs enemies that have
+                   active darkvision, either naturally
+                   or supernaturally)
+6. Polymorph       Change adjectives from random list. Limited
+                   polymorph
+
+All spells except the heal requires crafted components through
+alchemy.				   

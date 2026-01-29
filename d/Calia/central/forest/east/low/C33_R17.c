@@ -1,0 +1,8 @@
+//Room type {s}
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void create_room()
+    {
+    create_tree("C33_R17", "pine");
+    }

@@ -1,0 +1,24 @@
+/*
+ * EMERALD DOMAIN SKILL DEFINITIONS FOR GUILD AND DOMAIN
+ */
+
+#include <ss_types.h>
+
+#define SS_VAMP_THIRST    132001
+#define SS_VAMP_FOCUS     SS_SPELLCRAFT
+#define SS_VAMP_SLASH     132004
+#define SS_VAMP_CELERITY  132006
+
+#define SS_KEEPER_CASTE   132003
+#define SS_KEEPER_STITLE  132005
+
+#define SS_PROT_TACTICS    132008
+#define SS_PROT_LEADERSHIP 132009
+#define SS_PROT_2H_SWORD   132010
+#define SS_PROT_CLARITY    132011
+
+#define SS_ELEMENT_DARK   132012
+#define SS_ELEMENT_LIGHT  132013
+
+#define SS_PLAYER_ID      132014
+/* Grunts use skill number 132060 for kills counter. */

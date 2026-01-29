@@ -1,0 +1,15 @@
+     GLADIATOR CHARGE OBJECT
+Path:        /d/Cirath/athas/gladiator/obj/chargeob.c
+Obtained:    /d/Cirath/athas/gladiator/room/meditate.c
+Features:    Maintains the charge string chosen by a Gladiator.
+Restoration: None: A new string may be set in the meditation room.
+ 
+     GLADIATOR CUIRASSE
+  This is not an autoloading object, it is cloned into 
+  Gladiators at login by the guild manager object.
+ 
+     SKIN COLOUR OBJECT
+Path:        /d/Cirath/tyr/paint/colourob.c
+Obtained:    /d/Cirath/tyr/paint/bdpnt.c
+Features:    Maintains the skin colour subloc of a player.
+Restoration: None: A new one must be purchased.

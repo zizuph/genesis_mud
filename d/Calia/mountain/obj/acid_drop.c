@@ -1,0 +1,55 @@
+/* Drop of acid, for use in the polymorph quest.
+   Gets placed in the inventory of people who fight the polymorph beast
+   and become victim of its acid attack.
+
+   Coded by Maniac 29/8/95
+
+*/
+
+inherit "/std/object";
+
+#include <macros.h>
+#include <stdproperties.h>
+#include "obj.h"
+#include POLYMORPH_QUEST
+
+
+void
+create_object()
+{
+    set_name("drop");
+    set_adj("acid");
+    add_name(ACID_NAME);
+    set_long("A little drop of acid on your clothing, it seems to be " +
+             "quite a thick liquid, hence it doesn't simply get absorbed " +
+             "or run away, but sits there, smoking slightly. It looks " +
+             "rather unusual, perhaps magical.\n");
+    add_prop(OBJ_I_WEIGHT, 10);
+    add_prop(OBJ_I_VOLUME, 10);
+    add_prop(OBJ_I_VALUE, 0);
+    add_prop(OBJ_M_NO_GIVE, "This is not something that you can " +
+                            "really give to anyone.\n");
+    add_prop(OBJ_M_NO_INS, 1);
+    add_prop(MAGIC_AM_MAGIC, ({10, "enchantment"}));
+}
+
+
+void
+lose_msg(object tp)
+{
+    if (interactive(tp)) 
+        tp->catch_msg("Oops, looks like you lost sight of the " + 
+                       short() + ". Now it's gone!\n"); 
+    remove_object();
+}
+
+
+void
+leave_env(object old, object dest)
+{
+    if (!living(dest)) 
+        set_alarmv(1.0, 0.0, "lose_msg", ({old}));
+
+    ::leave_env(old, dest);
+}
+

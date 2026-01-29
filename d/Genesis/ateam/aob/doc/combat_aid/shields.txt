@@ -1,0 +1,23 @@
+
+In testing the recode of the Monks of the Dragon Order, wearing 
+2 shields seems to be equivalent to something around 50 combat 
+aid (i.e. ~33% damage reduction).
+
+A 40 AC standard shield reduces damage by 22-25%.
+
+So by the standard calculation, each shield should be 20-25 CAID
+benchmarked by the 40 AC shield. 
+
+> combatdata
+Living object: /d/Genesis/race/human_std#3739275 (Uid: ckrik, Euid: ckrik)
+Combat object: /std/combat/chumlock#3739276 (Uid: Genesis, Euid: Genesis)
+Offensive tohit:                  95
+Offensive pen:                   304
+Defensive tohit:                -124
+Damage Reduction (armour):     24.47%
+Damage Reduction (by armour)
+
+/d/Genesis/specials/guilds/test/armours/standard_shield_40#3740425 23.41%
+
+
+

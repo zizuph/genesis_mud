@@ -1,0 +1,5 @@
+The Genesis domain contains the code that makes up the basics of the game;
+the start locations, the races, the sequence for creating new characters etc.
+It is by default open for anyone to read and learn from.
+
+All code in /d/Genesis/ is copyrighted by Chalmers Computer Society. (aka CD)

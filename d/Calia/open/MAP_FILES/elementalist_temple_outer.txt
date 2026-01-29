@@ -1,0 +1,73 @@
+main
+::MAPDATA::
+gem_garden 9 6
+psuchae_start 17 6
+refectory 23 6
+herb_garden 25 6
+lapidary 7 8
+outer1 11 8
+outer1a 13 8
+outer2 15 8
+psuchae 17 8
+outer3 19 8
+outer3a 21 8
+outer4 23 8
+herbalist 27 8
+outer5 9 10
+outer6 25 10
+outer7 9 12
+outer8 25 12
+aeria_start 7 14
+aeria 9 14
+diabrecho 25 14
+diabrecho_start 27 14
+outer9 9 16
+meditation 23 16
+outer10 25 16
+outer11 9 18
+seeker_start 21 18
+outer12 25 18
+postoffice 7 20
+gu 11 20
+outer13a 13 20
+outer13 15 20
+greathall 17 20
+outer14 19 20
+outer14a 21 20
+pyros 23 20
+bank 27 20
+gu_start 9 22
+chapel 13 22
+entrance 17 22
+library 21 22
+pyros_start 25 22
+::MAPDATA::
+***********************************
+*                                 *     A - Lady Aeria
+*  A             B             C  *     B - Psuchae
+*   \            |            /   *     C - Lord Diabrecho
+*    o-o-o-o-o-o-o-o-o-o-o-o-o    *     D - Carving Room/Forge
+*    |                       |    *     E - Pavillion
+*    o   Q       R     J-S   o    *     F - Meditation Chamber
+*    |  /        |     |  \  |    *     G - Lady Gu
+*    o I   o-o-o-o-o-o-o   K o    *     H - Lord Pyros
+*    |  \ /      |      \ /  |    *     I - Lapidary
+*    o   o               o   o    *     J - Refectory
+*    |   |               |   |    *     K - Herbalist
+*    o   o               o   o    *     L - Post Office
+*    |   |               |   |    *     M - Chapel
+*  D-o T-o-             -o-U o-E  *     N - Library
+*    |   |               |   |    *     P - Bank
+*    o   o             F-o   o    *     Q - Gem Garden
+*    |   |               |   |    *     R - Psuchae Start
+*    o   o           Y   o   o    *     S - Herb Garden
+*    |  / \  |   |   |  / \  |    *     T - Lady Aeria Start
+*    o L   o-o-o-o-o-o-o   P o    *     U - Lord Diabrecho Start
+*    |    /  |   |   |  \    |    *     V - Lady Gu Start
+*    o   V   M   o   N   W   o    *     W - Lord Pyros Start
+*    |           |           |    *     Y - Seeker Start
+*    o-o-o-o-o-o-o-o-o-o-o-o-o    *
+*   /            |            \   *
+*  G             o             H  *
+*                                 *
+***********************************

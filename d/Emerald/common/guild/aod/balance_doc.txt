@@ -1,0 +1,403 @@
+             DOCUMENTATION FOR THE ABILITIES AND LIMITATIONS
+                    OF THE ARMY OF DARKNESS GUILD
+           FOR THE PURPOSE OF DETERMINING BALANCE AND TAXATION
+
+
+  * Relevant Files/functions listed below each item where necessary.
+
+Statement of Philosophy:
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Ogres are big, strong, and pitifully stupid. All follows from this
+premise. 15-foot-tall brutes with a propensity for drooling.
+
+
+Skills Trained:
+~~~~~~~~~~~~~~
+
+Unarmed Combat   : 90
+Defence          : 75
+Club             : 100
+Parry            : 75
+Two-Handed Combat: 100
+Crush            : 100 (offensive damage special)
+
+
+  * /d/Emerald/common/guild/aod/rooms/adv_off_train.c
+  * /d/Emerald/common/guild/aod/rooms/defensive_train.c
+  * /d/Emerald/common/guild/aod/rooms/elite_train.c
+  * /d/Emerald/common/guild/aod/rooms/offensive_train.c
+  * /d/Emerald/common/guild/aod/rooms/ogre_train.c
+  * /d/Emerald/common/guild/aod/lib/training_module.c
+
+
+Skill Modification:
+~~~~~~~~~~~~~~~~~~
+
+Strength    : 200% increase from base stat
+Dexterity   : 10% reduction from base stat
+Constitution: 150% increase from base stat
+Intelligence: wiped out! (see below)
+Wisdom      : 50% reduction from base stat
+Discipline  : unchanged
+
+  * /d/Emerald/common/guild/aod/aod_shadow.c
+        init_guild_member()
+        update_abilities()
+
+Unique Approach:
+~~~~~~~~~~~~~~~
+
+This guild bases most things on skull collecting. When players kill one
+of the five main races (excluding goblins) of Genesis, they may collect
+the skull. It must be they that got the killing blow to allow this.
+
+Heads that are collected allow the player to ingest the brain fluid
+from the skull, increasing their intelligence. 
+
+Numerous factors are affected:
+
+    - Upon joining, intelligence is set to 1 (yes, one!)
+      This is devastating to a player. 10 mana is not enough to cast
+      even the most basic magic (the zodiac gem, for instance).
+      A player's intelligence increases 1 point for each 1000 skulls
+      they collect. This is an incredibly slow process. Intelligence
+      for an Ogre is then capped at 10 regardless of skulls collected.
+
+        * /d/Emerald/common/guild/aod/aod_shadow.c
+              init_guild_member()
+
+    - Besides unarmed combat and defense (the natural animalistic
+      abilities of an ogre), training is not possible until a player
+      has collected sufficient skulls. At each of the 6 training rooms,
+      the max training level slowly increases as more skulls are
+      collected by the player. The top levels of skill are only
+      available once a player has collected huge amounts of skulls.
+      Guru levels require 10,000 skulls to have been collected, and
+      to achieve superior guru, a player must have 100,000 skulls!
+
+        * /d/Emerald/common/guild/aod/lib/training_module.c
+
+    - Guild leaders are not assigned until someone has been able
+      to collect 10,000 skulls. At this point, the top guild positions
+      are awarded to the players who have the most skulls collected
+      (top position) and the person who has the highest number of 
+      skulls collected per hour (second in command.) New leaders are
+      chosen by the code every 10 days from thereafter, building a
+      collecting competition into the guild. Leader benefits include
+      cheaper prices at the forge, a free meal once a day at the
+      mess hall, a morale bonus for rolls on team member specials,
+      and private chambers.
+
+    - The guild itself is only half complete at opening. Each type
+      of skull that is collected benefits the guild with a new addition
+      once 25,000 skulls of that type have been collected by the
+      combined efforts of all guild members, as follows:
+
+          25K elf skulls   : magic weapons are sold at the forge
+          25K dwarf skulls : magic armours are sold at the forge
+          25K human skulls : the guild gets a shop
+          25K gnome skulls : the guild gets a bank
+          25K hobbit skulls: the guild gets an eatery (mess hall)
+
+      * /d/Emerald/common/guild/aod/obj/master.c
+          - Note, this is the master file for the guild, controlling
+            much functionality. It is a database of sorts, keeping
+            track of the number of skulls each player has collected.
+            Though complex, it is hopefully well-documented enough
+            to make sense to experienced folks. If not, please ask!
+
+
+Other Ogre Modifications:
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Ogres are unable to sneak or hide. Big, clumsy, and stupid are they.
+
+  * /d/Emerald/common/guild/aod/cmdsoul.c
+        aod_sneak()
+        aod_hide()
+
+Ogres are unable to whisper without being overheard.
+
+Ogres are unable to wield one-handed weapons. This is a huge
+problem, as most of the best weapons in the game have been created for
+the many many one-handed specialists in the game. 
+
+  * /d/Emerald/common/guild/aod/aod_shadow.c
+        wield()
+
+Ogres are unable to wear shields. This is also a drastic disadvantage
+because shields have become so powerful in factoring in the amount of
+damage received through combat.
+
+  * /d/Emerald/common/guild/aod/aod_shadow.c
+        wear_arm()
+
+Ogres are unable to wear normal armour. Every piece of armour in the
+game is too small for ogres to wear. This is a huge disadvantage,
+obviously. Too huge, in fact. So, the ogres have a smith in their guild
+who can melt down scavenged items to create ogre-sized armour of varying
+qualities. This will be described in a separate section below.
+
+  * Same as above
+
+Ogres are able to wield two-handed weapons in a single hand. This is
+a very great advantage, hopefully well balanced by the above factors.
+The game has never given much favor to two-handed weapons. Though there
+are a number of very high-quality ones in the game, they are few and
+far between when compared to the massive proliferation of one-handers.
+Given that Ogres are only skilled in club, this means that ogres are
+(essentially) limited to wielding two-handed clubs as one-handed clubs.
+The above mentioned forge also is able to make these.
+
+  * /d/Emerald/common/guild/aod/aod_shadow.c
+        enter_inv()
+        leave_inv()
+
+Ogres have naturally thick hide which (to compensate for their lack of
+ability to wear normal armour) is also based on their con, and gets
+capped at 40.
+
+  * /d/Emerald/common/guild/aod/aod_shadow.c
+        init_guild_member()
+
+
+Combat Specials:
+~~~~~~~~~~~~~~~
+
+Crush - Similar in premise to the Gladiator "charge", this does not take
+~~~~~   weapons into account, but rather bases its damage on the idea
+        that an ogre is slamming either huge fists or weapons down
+        on their opponent. Stength, rather than dex, is the main
+        factor in determining success. Damage potential is meant to
+        have a high minimum and a relatively mid-range maximum.
+
+  * /d/Emerald/common/guild/aod/special_attacks.c
+  * /d/Emerald/common/guild/aod/cmdsoul.c
+        aod_crush()
+  * /d/Emerald/common/guild/aod/race_shadow.c
+        leave_env() (prevention of bouncing tactics)
+
+Ogrestomp - This idea is similar to the Tauren Warstomp from World of
+~~~~~~~~~   Warcraft. The Ogre can smash the ground with his foot,
+            creating a room effect (earthquake) that prevents players
+            from using room exits for a brief period of time.
+
+   Comments:
+  
+     The idea here is to allow the Ogres this nice special to help
+     prevent their prey from running away all the time. However, this
+     could be disastrous if it were allowed to be abused. So ... the
+     implementation includes diminishing returns for repeated use
+     as follows:
+  
+         - A player can only perform an <ogrestomp> once every five
+           minutes. A prop is added to the player that guarantees
+           this.
+         - When an <ogrestomp> is performed, a prop is also added to the
+           room in which it was performed that lasts for 2 minutes.
+         - When an <ogrestomp> is performed for the  FIRST* time in a
+           room, it inserts the effect object into that room. The
+           object is set to last for 15 seconds.
+         - If,  WHILE THE OBJECT IS YET PRESENT IN THE ROOM* another
+           <ogrestomp> is performed, the duration of the effect object
+           is extended by half of the current duration. In this way,
+           the absolute maximum duration for any effect is 30 seconds,
+           regardless of how many Ogres you have in the room stomping.
+         - Each additional <ogrestomp> increases the value of the room
+           prop by one.
+         - So, after the final <ogrestomp> is performed, there are always
+           two minutes before the prop is removed from the room.
+         - While the prop persists in the room, any new ogrestomp
+           effects added to the room are set to only 5 seconds.
+         - Once the room prop is removed from the room, new ogrestomps
+           will again last for 15 seconds in duration.
+  
+     Lets imagine a scenareo to paint this more clearly. Lets imagine
+     That a team of 5 Ogres, A, B, C, D, and E, each decide to use
+     their <ogrestomp> ten seconds apart to trap their prey in the
+     room.
+  
+       00:00 - Ogre A stomps, creating effect that lasts 15 seconds.
+       00:10 - Ogre B stomps, extending the effect to 22.5 seconds.
+       00:20 - Ogre C stomps, extending the effect to 26.25 seconds.
+       00:27 - stomp effect disappears.
+       00:30 - Ogre D stomps, creating effect that lasts 5 seconds.
+       00:35 - stomp effect disappears.
+       00:40 - Ogre E stomps, creating effect that lasts 5 seconds.
+       00:45 - stomp effect disappears.
+       
+     At this point, no new stomps would be able to be done for another
+     4 minutes and 15 seconds.
+
+     But, as always, in balance, we must assume the optimal scenareo.
+     The question must be asked, is it possible to permenantly fix
+     a room so that a player will not be able to flee? The answer,
+     of course, is yes ... but let us look at what it would take:
+
+       00:00 - Ogre A stomps, creating effect that lasts 15 seconds.
+       00:10 - Ogre B stomps, extending the effect to 22.5 seconds.
+       00:23 - Ogre C stomps, creating effect that lasts 5 seconds.
+
+       At this point, there are still 277 seconds before
+       Ogre A can repeat the stomp, and any additional stomps will
+       only extend the effect by 5 seconds. So ... we would need
+       56 more ogres to achieve this effect. Thus, we must conclude,
+       that unless there is a team of 60 Ogres (at the writing of
+       this document, it is rare to see more than 50 players,
+       including wizards, logged in at any given time) there will
+       never be anything even remotely close to a total area block.
+       A more realistically large team of 5 Ogres, as displayed
+       above, can, at optimal performance, only hope to achieve
+       15 + 7 + 5 + 5 + 5 = 37 seconds of effect, followed by
+       4 minutes and 23 seconeds before the effect can again
+       be activated. In essence, this effect is a minor combat
+       advantage, even with fairly large teams of Ogres.
+
+  * /d/Emerald/common/guild/aod/cmdsoul.c
+        ogrestomp()
+        remove_stomp_prop()
+        allow_stomp()
+  * /d/Emerald/common/guild/aod/obj/stomp_effect.c
+
+
+The Forge:
+~~~~~~~~~
+
+In discussion of the forge, we must keep in mind:
+
+    1. Ogres are unable to wear armour. (It does not fit them.)
+    2. Ogres are unable to wield one-handed weapons. (their hands are too
+       big)
+    3. Ogres only train weapon skill for clubs and unarmed combat.
+    4. Ogres may not use shields. (it is pointless in their culture)
+
+The ramifications of the above are fairly stifling for a fighter guild.
+Being able to wear effective armour, and find useful weapons is of utmost
+importance to any fighter guild. These stipulations mean that no armours
+that a guild member finds in shops or on npcs around Genesis can be used.
+Also, it means that the only weapons in the game that they can find to
+wield are two-handed clubs, which at present in the game are relatively
+poorly represented.
+
+With this in mind, the guild has its own forge and blacksmith. Using the
+forge, guild members may take armours or weapons they find in the game and
+turn them in to the forge to be melted down. In doing this, they earn
+"credit" at the forge. Turn-ins result in credits by the following rule:
+
+    1. Armours or one-handed weapons melted down earn 1 credit.
+    2. Two-handed weapons melted down earn 2 credits.
+    3. Non-magical items melted down yield "normal" credits.
+    4. Magical items melted down yield "magical" credits.
+
+  * /d/Emerald/common/guild/aod/rooms/forge.c
+
+Once players have earned credit by turning in weapons and armours to be
+melted down at the forge, they may then order weapons and armours that the
+blacksmith knows how to make. In addition to spending their earned credits,
+the guild members must also spend money - for the highest level armours and
+weapons, as many as 200 platinum coins for a single purchase. Here follow
+the lists of available weapons and armours, with their credit and coin
+cost included. I will follow each list with a list of the hit/pen ratio
+as well as the ac for armours.
+
+         .-------------------------------------------------------.
+        |       Weapons Available for Purchase at the Forge       | Hit&Pen
+        |                                                         |(random by
+        | Weapon Name:                  Credit Cost:   Pc  Gc  Sc | 3 points)
+        | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ |
+        | Twisted sheet of scrap iron |            5|   0   0   5 | 28 - 30
+        | Crude iron post             |           10|   0   1   0 | 31 - 33
+        | Heavy iron bar              |           15|   0   5   0 | 34 - 36
+        | Huge iron rod               |           20|   1   0   0 | 38 - 40
+        | Great iron hammer           |           25|   5   0   0 | 41 - 43
+        | Colossal spiked morningstar |           30|  10   0   0 | 44 - 46
+        | Darksteel face mallet       |(magical)  35|  25   0   0 | 48 - 50
+        | Darksteel head spiker       |(magical)  40|  50   0   0 | 51 - 53
+        | Darksteel death stick       |(magical)  45| 100   0   0 | 54 - 56
+        | Sledgehammer of the colossus|(magical)  50| 200   0   0 | 58 - 60
+        | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ |
+         '-------------------------------------------------------'
+
+  * /d/Emerald/common/guild/aod/wep/forgeclub*.c
+
+All of the above weapons are two handed for non-ogres. One handed for Ogres.
+
+         .-------------------------------------------------------.
+        |       Armour Available for Purchase at the Forge        | Armour AC
+ Tool   |                                                         |(random by
+ slot   | Armour Name:                  Credit Cost:   Pc  Gc  Sc | 3 points)
+        | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ |
+ CHEST  | Crude slab of scrap iron    |           20|   0   5   0 | 28 - 30
+ HEAD   | Upturned metal basin        |           10|   0   5   0 | 28 - 30
+ LEGS   | Dented iron cylinders       |           15|   0  10   0 | 28 - 30
+ CHEST  | Enormous curtain of ringmail|           35|   2   0   0 | 38 - 40
+ HEAD   | Monstrous iron helm         |           20|   1   0   0 | 38 - 40
+ LEGS   | Gigantic ringmail leggings  |           30|   3   0   0 | 38 - 40
+ CHEST  | Darksteel ogre breastplate  |(magical)  40|  10   0   0 | 48 - 50
+ ARMS   | Darksteel troll bracers     |(magical)  25|  75   0   0 | 51 - 53
+ HEAD   | Darksteel goliath helm      |(magical)  35| 100   0   0 | 54 - 56
+ ALL    | Fullplate of the behemoth   |(magical)  75| 200   0   0 | 58 - 60
+(not    | ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ |
+ head)   '-------------------------------------------------------'
+
+All of the above armours can be worn exclusively be Ogres.
+
+  * /d/Emerald/common/guild/aod/arm/forgearm*.c
+
+Some considerations:
+
+ - Because 60/60 weapons and ac 60 armours are extremely powerful, it is
+   necessary to make them very difficult to obtain. Players in other guilds
+   have the opportunity to earn weapons of such quality by fighting the
+   various creatures in the realm who wield/wear them. That opportunity is
+   not afforded to Ogres, who are too big to fit in such weapons/armours.
+   Therefore, we give them the opportunity here, but it comes at a steep
+   cost.
+
+   I am treating the fact that players must earn credits by turning in
+   magical weapons and armour that they find as a type of "quest" which
+   must be completed to obtain these items. The man page on weapons and
+   armour stipulates that weapons and armours with numbers above 40 may not
+   be sold in shops without some sort of quest. Moreover, the elite forge
+   items cost huge platinum fees. For instance, to obtain two 60/60 weapons
+   and a full set of top armour would require 700 platinum coins, and 110
+   forge credits. Platinum coins are not terribly hard to come by for the
+   Genesis elite. However, even the best players will be hard pressed to earn
+   110 magical credits very quickly. If I discover that they are, I will take
+   steps to increase these requirements.
+
+ - The theme of the guild stipulates that Ogres are *terribly* low in
+   intelligence and wisdom. The idea behind the guild is that the Ogres
+   are trying to raise their intelligence to increase their capacity to
+   master more complex skills and arts. The way that they can raise their
+   intelligence is by drinking the mind fluid that is rendered from the
+   skulls of their decapitated victims when they turn them in to the guild
+   headquarters. The items listed above are not all available when the guild
+   first opens - the idea being that the blacksmith is too stupid at first to
+   make anything better than hunks of scrap iron. It turns out that elves are
+   the masters of metalurgical arts (in our theme.) Therefore, as elf skulls
+   are collected by the guild, the blacksmith learns how to forge new items.
+   Not until the guild has collected 25,000 elf skulls can the will the
+   blacksmith be able to forge the "magical" armours and weapons.
+
+ - I have no idea what impact the above guild feature should have on the
+   tax. Only guild members may earn forge credits and buy items. However,
+   it is important to remember that they can only wear armour that is made
+   by this forge. Also, there is (currently) low support for two-handed
+   club weapons in the game. Also worth considering is the fact that
+   non-guild members are able to use all the weapons sold here, though
+   wielding them two-handed since they are not Ogres. One type of thinking
+   suggests that the limitations of the guild balance out against the
+   benefits of the forge, cancelling out a tax increase. I'm perfectly
+   willing, however, to add some tax based on this, if it is deemed
+   appropriate
+
+Final Thought:
+~~~~~~~~~~~~~
+
+A big thanks to all who helped make this guild a possibility, and to those
+who now put their time into reviewing it! It has and will continue to be
+my pleasure to work with such fine people.
+
+Gorboth, April 2007

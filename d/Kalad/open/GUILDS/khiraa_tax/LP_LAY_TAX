@@ -1,0 +1,57 @@
+This file will provide you with information on the tax of the layman part
+of the lich priesthood, the fighter part.
+
+Skills:
+
+skill    - max level - levels taxed - rate - tax
+
+SS_WEP_KNIFE  - 50  - 20  - .025 - 0.50
+SS_WEP_SWORD  - 50  - 20  - .025 - 0.50
+SS_DEFENSE    - 50  - 30  - .025 - 0.75
+SS_PARRY      - 50  - 50  - .025 - 1.25
+SS_GOUGE      - 100 - 100 -  0   - 0 (used for special, see tax bellow)
+SS_TRACKING   - 50  - 20  - .016 - 0.32
+SS_AWARENESS  - 60  - 10  - .016 - 0.16
+SS_APPR_MON   - 60  - 30  - .016 - 0.48
+SS_APPR_VALUE - 75  - 45  - .016 - 0.72
+
+total skill levels: 415
+total skill levels above 'man skills': 195
+total skill tax:                            4.68 
+
+
+special tax
+
+   The lich's have a special 'gouge' special which will work on any
+weapon they might be wielding, except bludgeon only weapons. The lich will
+wait for a break in the enemy's defenses, then lunge out and try to
+disembowl the enemy with their weapon. Depending on their skill and how
+well the weapon hurts, they will do damage. The damage done is by using
+the F_PENMOD formula. The weapon's pen is multilpied by 5/4. To hit
+value is the hit value of the weapon. Thus, using assuming a skill of 100
+and a weapon hit and pen of 40, it will do this: 
+F_PENMOD(50,100) = 336. So againts the normal 280, we calculate tax with
+336/280 = 1.2 
+Its chance of success is 5/4 the hit value of the weapon being used. Thus,
+against a normal hit attack of 40, 50/40 = 1.25
+It can be done once every 4 rounds or 20 seconds.
+So tax comes out like this: 1.2 * 1.25 * .25 = 37.5% combat aid.
+This is under the max of 50% for lay guilds. The tax is computed by
+dividing by 6, getting the value 6.25%. Since it is skill dependent, we
+divide by two, and get 3.2% tax total.
+
+direct knight
+   This is similar to the move behind manuver of the calians. Only, it can
+only be used on knights of the khiraa. so a lich can 'direct' a knight to
+move in front of them while they move behind, and their enemies will
+attack them instead. It can be used very 1/5 combat round. The combat aid
+calculated from the calian guild move behind was 12%, so I will use this.
+12/6 = 2% tax. Since It can only be used with other knights, I will give a
+reduction of .5%, bringing it to 1.5%.
+
+skills   = 4.68 
+specials = 3.2 + 1.5%
+
+3.2 + 5.18  + 1.5% = 9.38 %
+
+total    = 9.38 -> 10%

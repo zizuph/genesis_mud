@@ -1,0 +1,37 @@
+
+
+
+
+
+
+        
+                             1-A
+                              /|\
+                           2-B-C-D 9
+                             | | | |
+                           3-E-F-G-H-I-8
+                             | | | | |
+                           4-J-K-L-M-N
+                            /  |   |
+                           O   5   6
+                           |
+                           P
+                           |
+                           Q
+                          /
+                   /d/Gondor/dunland/road/r25
+
+1 = house01.c      A = field01.c     O = road01.c
+2 = house02.c      B = field02.c     P = road02.c
+3 = house03.c      C = field03.c     Q = road03.c
+4 = house04.c      D = field04.c
+5 = house05.c      E = field05.c
+6 = house06.c      F = field06.c
+7 = house07.c      G = field07.c
+8 = house08.c      H = field08.c
+9 = house09.c      I = field09.c
+                   J = field10.c
+                   K = field11.c 
+                   L = field12.c
+                   M = field13.c
+                   N = field14.c

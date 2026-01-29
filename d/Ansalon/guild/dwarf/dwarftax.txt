@@ -1,0 +1,148 @@
+DWARVEN WARRIORS SKILL TAX
+==========================
+ 
+SKILL NAME      SKILL LVL     TAXABLE    TAX MOD    TAX PAID
+Ss_wep_axe      90            60         1.5        1.5%
+Ss_wep_club     30**          0          1.5        0%
+Guru axe option 10            10         1.5        0.25%
+Ss_defence      90            70         1.5        1.75%
+Ss_parry        60            60         1.5        1.5%
+Ss_blind_com.   60            40         2.0        1.33%
+App_enemy       60            30         1.0        0.5%
+App_value       60            30         1.0        0.5%
+App_object      60            30         1.0        0.5%
+Trading         75            45         1.0        0.75%
+==========================================================
+TOTAL:          535                                 8.58%
+==========================================================
+ 
+*Note: At the moment the maximum a clan member can improve
+his axe skill is to superior master. I am not too keen on
+giving them a higher axe skill, but have decided to have
+that option open to me if my mind changes later.
+ 
+** Once a member reaches the level of warrior of the clan,
+they have the option of specializing in club rather than axe
+at their trainer. If this option is taken, all axe skill
+levels are removed, and the member then only has up to 30
+levels in axe to train. Their club skill may then be trained
+up to 90 (100).
+ 
+Following the new tax system of multiple weapon styles, with
+100/30 axe/club skill, the guild is taxed as follows:
+ 
+     (70 / 60 * 1.5) + (0 / 60 * 0.5) * 2
+               = 1.75 (which is what it is anyway)
+ 
+-Arman
+ 
+CHOP SPECIAL ATTACK
+====================
+
+For all conditions, the cb_tohit value is 85 (78% chance to hit).
+ 
+When under normal conditions, the dwarfs chop special is:
+PENMOD((str/2 + wep_pen * 2) /2, chop_special_skill)
+with the dwarf being able to do this approx once every 5 combat rounds.
+ 
+    With a strength of 100, max-pen axe, and max chop skill, it would
+    have a PENMOD(65, 100)
+    = 426 penetration.
+    combat aid: (20% * 426/280) * 78% = 23.73% combat aid. 
+ 
+
+    Under conditions where the target is a racial enemy (eg goblin, troll,
+     giant)
+    the PENMOD changes to:
+              
+    PENMOD((str + wep_pen *2) /2, chop_special_skill)
+    which with str->100, pen->40(max non magical axe pen), and chop skill->100
+    
+    PENMOD(90, 100) = 596 penetration.
+    combat aid: (20% * 596/280) * 78% = 33.2% combat aid.
+ 
+    For taxing this special we use the larger combat aid value of 33.2%,
+    with the tax coming out as 33.2 /6 = 5.53 % tax
+
+ 
+BATTLERAGE
+==========
+ 
+Some dwarven warriors are trained to take hits far more
+effectively than other warriors. This tried and trained
+technique is often fearfully referred to as 'battlerage'
+by those who have seen such dwarves in battle.
+ 
+Battlerage has two forms, one raises the AC of the player,
+the other increases the offensive ability of the player
+while decreasing their defensive capacity.
+ 
+                        ---
+ 
+The first is 'battlerage fiercely', where the dwarf shrugs
+off attack after attack while battling an opponent. This
+ benefit gives the dwarf an AC raise of:
+ 
+((special_skill + constitution) /2) /20 + shield(if any)/10. With the 
+highest (non-magical) ac value for shields being 40, and with maxed
+skills, and 100 con, this gives an average raise of AC of 9.
+This lasts 30 seconds, and it takes the warrior 10 seconds
+to recover.
+ 
+Tax for this:  with an increase of 9, and taking 40 as the
+average ac, this gives the warrior a 22.5% combat bonus
+(9/40). As it lasts for 30 seconds and takes 10 seconds to
+recover this bonus is reduced to 16.88% (22.5 * 30/40). 
+ 
+This works out to be 2.82% tax.
+ 
+                        ---
+ 
+A third battlerage option has been added:
+'battlerage aggressively'.
+When used, the dwarf takes a fully offensive posture,
+throwing himself into the battle with a wild abandon. This
+in effect decreases the time it takes to reset a chop from once 
+every 5 rounds to once every 5 - (battlerage/50) rounds, so with
+a maxxed battlerage skill, it drops to once every 3 rounds.
+
+This changes the maximum combat aid of chop to:
+(33% * 596/ 280) * 78% = 55.2% combat aid
+                       = 9.21% tax
+
+The increase in tax is 5.53% to 9.21%, an increase by 3.68% 
+
+ 
+Only a battlerager or above may use this special (~90 guild
+stat), and by using it they cannot make use of the defensive
+abilities of the other battlerages. On the contrary, by
+battleraging aggressively, their defence skill drops by
+battlerage skill /3.  For this disadvantage, i have reduced
+the tax of this special by 1%, making the tax 2.68%.
+ 
+Note: Every time this special is used, the dwarf is drained
+con/6 fatigue points.
+ 
+The total tax for the battlerage specials is 5.50%
+
+As only one of the two battlerage options can be used at once,
+I have reduced the total tax for these specials by 1%, it
+totalling at 4.50% tax.
+ 
+DISADVANTAGES:
+The specials are designed so that members of this guild use
+axe (or club) and shields. As such this guild is disadvantaged
+ if the members wants to use a two-handed axe (battlerage
+become less effective), or the member wants to use a weapon
+other than axe or club (unable to use chop/crush). Members
+are thus restricted to the equipment they can use.
+ 
+Another disadvantage of this guild is that they will be unable
+to join any lay or racial guilds classified as magic-users
+(note: This does not include clerical guilds).
+ 
+TOTAL TAX:
+Skill tax + chop special tax + battlerage =
+8.58% + 5.53% + 4.50% = 18.61%
+Clan member tax payed = 19%
+ 

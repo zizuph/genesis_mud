@@ -1,0 +1,34 @@
+ /==========================================================================\
+||                                                                          ||
+||                                                                          ||
+||            ~   The Mer-Cantile's Fresh Offerings of the Day   ~          ||
+||                                                                          ||
+||   Flavours           Drinks                  Mer-licious Edibles         ||
+||   --------           ------                  -------------------         ||
+||                                                                          ||
+||   Aromatic           Apple-cider             Apricot currant scone       ||
+||   Black              Cafe-Misto              Black and white cookie      ||
+||   Caramel            Cappuccino              Blueberry muffin            ||
+||   Chocolate          Espresso                Butter croissant w/apricot  ||
+||   Cinnamon           Latte                   Caramel pecan sticky roll   ||
+||   Dark                                       Choc. cream cheese muffin   ||
+||   Eggnog             Coffees                 Choc. hazelnut biscotti     ||
+||   Fresh              -------                 Cinnamon chip scone         ||
+||   Hazelnut           Harad                   Cinnamon roll               ||
+||   Hot                Mer-Cafe                Cranberry orange muffin     ||
+||   Iced               Shoikan                 Crumb cake                  ||
+||   Light              Tantallon-Peaberry      Dark choc. graham cookie    ||
+||   Mocha              Tradewind               Oatmeal raisin cookie       ||
+||   Peppermint                                 Rasp. cream cheese muffin   ||
+||   Plain              Teas                    Raspberry scone             ||
+||   Pumpkin            ----                    Shortbread cookie           ||
+||   Steaming           Black                   Spice apple torte           ||
+||   Toffeenut          Green                   Vanilla almond biscotti     ||
+||   Vanilla            Herbal                  White choc. macadamia nut   ||
+||                                                                          ||
+||               ~   All drinks are only 24 silver coins!   ~               ||
+||               ~   All edibles are only 8 silver coins!   ~               ||
+||                                                                          ||
+||    [] To order a drink:  try/order  <flavour1>  <flavour2>  <name> []    ||
+||                                                                          ||
+ \==========================================================================/

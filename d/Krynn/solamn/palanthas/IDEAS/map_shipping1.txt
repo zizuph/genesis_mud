@@ -1,0 +1,43 @@
+/*
+Shipping
+--------
+Piers, ships, etc
+Merchant offices
+Fine dining in NE
+Mil. Ship in bay
+
+                                                          
+                 S                                        
+             S    `P                                    P 
+           /     /  `S                      S          / \ 
+          0    P                             `P       S   0
+           \  /  S                           / `S         |
+             0    `P--S                    P              |
+              \   /                       / `S            |
+                0-----0-----0           P              2  0
+                             \         /                `/
+             o                 0     P              3  0        o
+             |                  \   /                `/         |
+             |                    0                 0           |
+             |                      \              /            |
+             O                       0-----0-----0              O
+           /   \                     |                          |
+         ,'     `,       w     w     |     w     w              o
+        /         \      |     |     |     |     |                \
+       O     T     o-----O-----o-----O-----o-----O-----o     1     O
+     /      /     / \    |     |    /|     |     |    / \     \   /  \
+   .'     o     ,'   `,  w     w  ,' |     w     o  ,'   `,     o     `,
+  /      / \   /       \         /   |           | /       \   / \      \
+ O     T     o           O-----O     o     O-----O           o     4     O
+            /            |     |     |    /       \           \
+          ,'             M     M     |  ,'          M          `,
+         /                           | /                         \
+       o                             O                             o
+
+1.  Crab Shack        3.  
+2.  Fine Dining       4. 
+
+w - Warehouse         P - Pier
+M - Merchant House    S - Ship Landing
+T - City Guard Tower
+Mortis 07.2005 */

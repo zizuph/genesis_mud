@@ -1,0 +1,274 @@
+RACES ON GENESIS
+
+	Races on Genesis have of late become a rather popular
+topic of code. Specifically, altering them for race guilds,
+for example. While such innovations are often rewarding, care
+should be taken of some rather obscure problems that have
+arisen because the people modifying races were unaware of the
+intricacies in the previously undocumented field.
+
+CODING OF RACES:
+	There are three main race-related functions in the
+Genesis mudlib (version 1.0). query_race(), set_race_name(),
+and query_race_name(). There are others that deal with the
+way races hear other races when they speak, but those are
+irrelevant to this document at the moment.
+
+Set_race_name() & query_race_name():
+	These are the 'dynamic' race functions on Genesis.
+There is a 'race_name' variable in all living objects.
+set_race_name("foo") would set any living's race_name var
+to "foo". Npc's or players, it doesn't matter.
+query_race_name() simply returns whatever the current value
+of the race_name variable. Things like player descriptions
+and titles are generated from query_race_name(), allowing
+modified races to appear in a visual sense.
+
+	set_race_name() can be called anytime in any object,
+(yes, you can turn yourself into a tie-clip, if you really
+wanted to), but there are some things you should be careful
+of. In npc's, you use set_race_name() to set the race of your
+npc. This can be anything you want, but please don't code any
+of the above mentioned tie-clips, it could be disastrous to
+a mudder's mental health to be critted by a piece of jewelry.
+The query_race_name() function will then return the race name
+of your creature. Also, set_race_name() will add the race
+name to the npc automatically, meaning if you create a human
+npc, there's no need to do 'add_name("human");' after you've
+set the race name.
+
+	Players are a different matter. As a rule of thumb,
+NEVER call set_race_name() in a player object. It could have
+really bad consequences, including demotion if you mess up
+badly enough. If you think you have to do it, talk to someone
+with more experience with races. It's far safer to simply
+create a shadow to give the appearance of having changed the
+player's race name without ever touching any of the player's
+internal variables. Plus, it will probably create
+catastrophic loss if the player dies with a non-standard race
+name. See below, in the section on Races and Death for
+details. Set_race_name() is called in just one place when a
+player logs in, from their player object. I.e. the player
+object /d/Genesis/race/dwarf_std.c executes the line
+set_race_name("dwarf"); in its startup routine. Remember what
+I said earlier that set_race_name also added the race as an
+optional name to the player? That's why you can 'examine
+dwarf' whenever one walks in the room.
+
+Query_race():
+	This function is never set. There is no 'race' var
+in player objects. The function itself is defined in the
+different race player objects. For example. in 
+/d/Genesis/race/human_std.c, it appears as
+
+    nomask string
+    query_race()
+    {
+        return "human";
+    }
+
+This code prevents query_race from _ever_ being masked, and
+means that it will always return 'human' for anyone using
+this player object. Thus, query_race() returns the TRUE race
+of a player. The only way to change it is by changing player
+objects. Note that query_race() also exists in /std/living.c.
+There, however, it is defined to return the value set by
+set_race_name(). This part may take a few minutes for new
+wizards to understand, so I'll go into a bit of detail.
+
+	As players and wizards, we use what are called
+'player objects', i.e. the previous human_std.c file for 
+human players. That file inherits, among other things, 
+/std/living.c, so that all the functions in /std/living.c 
+are also in the player objects for the different races. 
+Those functions are therefore common to almost all races. 
+I say almost because certain functions, like query_race()
+will obviously be different. Therefore, it has been
+'overwritten', or masked, in the player objects, to only
+ever return the true race of that object.
+
+	Therefore, players might have different values return
+for query_race() (their 'true' race) and query_race_name().
+Npc's, however, do not possess the masked version of 
+query_race(). They use the version defined in /std/living.c.
+In the case of npc's and npc's only, query_race() and 
+query_race_name() return identical values always, no matter
+what you change their race_name to be. 
+ 
+	One thing that coders should be aware of regarding
+the use of query_race(), is its use in dead players. Pay
+close attention to that section below; Races and Death.
+
+RACES AND DEATH:
+	Death is a rather frequent theme for bugs related to
+dying. When a player dies, there's a sequence of events that
+occur, and different 'levels' of death. First, a player makes
+the mistake of attacking something bigger than they are, and
+gets killed. A ghost variable in them is set, and they're
+whisked away to visit Death and Lars. Once Death finishes
+preaching, the player becomes a 'full' ghost and goes to pick
+a new body. Full ghosts have a different player object than
+a normal player. Rather than one of the races in ~Genesis/race,
+ghost players inhabit /d/Genesis/login/ghost_player.c. This
+is the only player object which can 'enter' a new one. Once
+here, the player enters a new body, and is on his or her 
+merry way. During these events, there are a couple places
+where race-related bugs appear.
+
+	The first one happens occasionally because 
+query_race() is defined in the ghost player object to return
+"ghost", identical to the way a human player object returns
+"human". A number of guilds have race restrictions as to who
+can belong to the guild, and make the check when the shadow
+is initiated in the player. The problem is that if you have
+a guild shadow that checks query_race(), it can boot the
+player out of the guild inadvertently. For example, say a
+hobbit dies, and a guild he belongs to has the following line
+of code in its shadow, that's checked on initilizing:
+
+    if (shadow_who->query_race() != "hobbit")
+        expel_me_from_guild();
+
+Then every member who dies is gonna get booted out. The
+reason is that autoshadows are re-initialized when a player
+dies (they literally re-enter the game when they move to a 
+full ghost body). Since query_race() in a full ghost returns
+"ghost", it always will expel. A good way to avoid this is
+either hard-code your shadow to not consider ghosts, or, if
+query_race() doesn't return the required race, make sure the
+player's current race is a valid one before kicking them out
+of the guild. One way to do this is to compare it against 
+the RACES array defined in /d/Genesis/login/login.h. For
+example (and this shadow would have to include the login.h
+file):
+
+    myrace = shadow_who->query_race();
+    if (myrace != "hobbit")
+    {
+        if (member_array(myrace, RACES) >= 0))
+            expel_me_from_guild();
+    }
+
+	Now, the second biggest thing to be careful of, is
+proper use of set/query_race_name(). When a player becomes a
+full ghost, their query_race() becomes "ghost", as hopefully
+you understand by now. But, their race_name variable remains
+intact. I.e. when the above hobbit dies, his query_race()
+will return 'ghost', but his query_race_name() will still
+return 'hobbit', as the race_name variable is remembered.
+If fact, it is this variable that is used to determine if 
+the player is changing races when he enters a new body. In
+the case of our luckless hobbit, to make sure he's entering
+the body of a hobbit. If the player is _not_ entering a body
+of the same race he was, there's a skill penalty. If you've
+messed with set_race_name and changed a player's race_name
+variable, chances are pretty good he won't have any choice
+but to change races. Fictional case in point:
+
+	Joe is a dwarf. He joins a race guild of hill dwarves.
+Now in order to be special, the guildmaster, Bob, wants all of 
+the members to have 'hill dwarf' for a race. Bob, being the
+brainless fool that he is, decides the best way is to call
+set_race_name("hill dwarf") in members who join. Joe becomes
+a hill dwarf. Joe dies a horrible death. When he gets to the
+bodies room, he finds no 'hill dwarf' bodies to enter, and
+logically enters a dwarf body. 'dwarf' != 'hill dwarf', room
+thinks Joe changed bodies and slashes his skills in half. Joe
+hunts Bob down in RL and bludgeons him to death.
+
+	However, if you simply must customize the races of
+people in your guild, there's an easy and fairly safe way to
+do it. Simply have the guild shadow redefine
+query_race_name() in much the same way a player object 
+redefines query_race(). For the above example, Bob could have
+saved himself a great deal of pain by including this in his
+guild shadow:
+
+    public string
+    query_race_name()
+    {
+        if (shadow_who->query_race() == "dwarf")
+            return "hill dwarf";
+        else
+            return shadow_who->query_race_name();
+    }
+
+This means that Joe would only be a hill dwarf when he was a
+dwarf. Any other time (as in death) he'd be a normal dwarf.
+This is a required check if you redefine query_race_name()
+in an autoshadow only. If you've got it in a temporary 
+shadow (i.e. a spell to turn someone into a frog that goes
+away as soon as they quit), the query_name() check isn't
+necessary, and the shadow will be removed when they become
+full ghosts. Only autoloading shadows remain on a full ghost.
+
+So, to review:
+set_race_name(): Players: Never set it in a player object.
+                 Npcs: Use it all you like.
+query_race_name(): Players: Returns race_name variable.
+                            Can be changed with shadows.
+                            Be sure to include a check in
+                            autoloading shadows to make sure
+                            it only returns the 'new' race
+                            name if the player is alive.
+                            Normal shadows don't require it.
+                   Npcs: Can be redefined with no problems.
+query_race(): Players: Defined in player objects, and cannot
+                       be redefined or masked in any way.
+              Npcs: Returns the same as query_race_name(),
+                    and can be modified in any way you like.
+
+ETHICS OF NEW RACES IN THE GAME:
+	The biggest thing on your mind if you're thinking
+about tinkering with new player races (particularly race
+guilds) is "How will it influence the game?". Genesis is
+based on a rather rudimentry set of races. Currently human,
+dwarf, goblin, hobbit, elf and gnome. If you plan on changing
+a race name due to a guild, or something permanent, keep in
+mind that it should be a sub-race of one of these. Drows,
+for example, are still elves. Orcs are easily goblins. You
+could turn a gnome into a leprechaun probably easily. Any
+of these races could be a vampire. Don't do anything silly
+like turning a human into a cyborg, or a hobbit into a
+dragon, and you should be fine. If it's something temporary
+like a spell, anything from a toadstool to a balrog is fine,
+so long as it's done with a good shadow (just changing the
+race name wouldn't be enough in those cases, remember.)
+
+	If you're thinking of a new player race (as in a
+complete new race with player objects), chances are you're
+wasting your time. There's a lot of work involved to it,
+and most of the time it's not a practical suggestion. 
+Minotaurs or Draconians might be interesting as players, but
+highly impractical. Just the introduction of goblins has 
+created a lot of problems, so if you're considering something
+along these lines, remember it's probably not going to
+happen.
+
+DEALING WITH RACES IN CODE:
+	There's only a couple of times when there are any
+questions raised about dealing with the different races in
+your code. Here's the main ones:
+
+Q: Should I use query_race() or query_race_name() to find a 
+   living's race?
+A: Use query_race_name(). If someone has been turned into a
+   frog by a spell, query_race() still returns their true
+   race, and chances are your code shouldn't be able to 
+   recognize their true race, so it would look rather odd to
+   have a guard say 'Get lost, human scum!' to a frog that
+   was trying to get past him. There are, of course,
+   exceptions. A guild restriction against elves, for
+   example, should use query_race() to keep out elves of any
+   possible sub-race. Most of the time you'll be wanting to
+   use query_race_name() for obvious appearance, query_race()
+   for absolute appearance.
+
+Q: The races all sound different, how can I get an npc to
+   trig to something they're saying?
+A: That's what 'ask' is largely used for. But you can also
+   use '* to you:' as a pattern, which will catch players
+   'whisper'ing to your npc, as well as players using the
+   'say to <who>' format for the say command.
+
+Khail - December 14/96

@@ -1,0 +1,272 @@
+
+Morgul Mage review proposal, Arman Kharas (AoB) - December 2018
+==========================================================================
+
+CONTEXT:
+========
+The Morgul Mages are currently an evil spellcaster guild that occupies the
+occupational and layman guild slot. Thematically based on the Nazgul of
+Tolkien's Lord of the Rings trilogy, and conceptually positioned to be
+powerful and feared undead spellcasters capable of vastly destructive 
+capabilities.
+
+They were the first guild to be transferred over to the standardised magic
+system, and currently suffer from an immature structural set up that 
+doesn't reflect the intent of changes made to the guild.
+
+The primary issue is due to the importance element magic skills play in 
+determining damage output of harm spells. The morgul mages are set up to
+leverage an at-will fire spell to support them in their apprentice ranks
+and for their higher level mages to use while regaining mana. Fire is not
+their primary element, capping out at level 50 for full mages and level 20
+for apprentices, resulting in a gross reduction in the damage output for
+the combat aid applied to the at-will spell.
+
+Another primary issue is damage output for mana cost. While on paper the
+Morgul Mages have an incredibly powerful harm spell, its fast cast time
+results in a good damage-per-second output but a really poor perceived
+damage output for its static mana cost. Harm spells scale damage upwards
+as cast time increases, so the most mana efficient harm spells are those
+that have a long cast time. The Morgul Mages have no variability in harm
+spell duration, and have a spell duration that is comparatively inefficient
+to other magic guilds. This is compounded due to their skills (spellcraft,
+a major contributor to mana regeneration, is capped at superior master)
+and their undead detriment of being unable to consume herbs that could
+regenerate mana.
+
+A secondary issue is that a large proportion of caid sits with one offensive
+spell, morthul. For those yet to achieve that spell, they are very limited
+in what they are capable of doing. For apprentices, combined with their
+poor skilling, they are less effective and self sufficient than a cadet.
+
+So some proposed changes are outlined below to improve the player experience
+of the Morgul Mages, with a particular focus on the playability at the lower
+levels, and to bring the Morgul Mages in line with the more recently
+coded magic guilds in Genesis.
+
+SUMMARY CHANGES:
+================
+
+* Update skill levels to support spell effectiveness within the 
+  standardised spell system
+* Revise spell acquisition to better support apprentice mages
+* Apprentice mages are converted to occupational only
+* Full mages are occ + lay
+* With death resistance stacking making MM spell countering overly simple,
+  provide alternate harm spell options that apply different damage resists.
+* Remove transmutation skills (no spells use it)
+* Some illusion spells convert over to enchantment (gostangwedh, faugoroth)
+* Remove spell gorothnatha.
+* NEW SPELL Mortirio - standard see in dark spell (team support).
+* NEW SPELL Thunaur Harm, 2.5 cast time, caid range from 140 - 240, damage 
+  type fire.
+* NEW SPELL Mordonaer Harm, 1.5 cast time, caid mirrors morthul, damage 
+  type illusion.
+* UPGRADE Ringurth from 50 caid to 80 caid, change from conjuration to 
+abjuration.
+* REVISE Dramalgos Harm, 0.75 cast time, caid range from 140 - 240.
+* REVISE Naro spells to be split out into three separate spells and 
+  standardised:
+  - drego nin: based on the turn spell base
+  - libo makil: based on disarm spell base (40 caid?)
+  - maetho: keep as is.. not sure what caid to apply.
+* Can't cast an alternative naro while another is in effect.
+* REVISE Morthul to be castable with ringurth, with cast time changed from 
+  1x to 1.5x
+* Propose making the undead shadow a global shadow rather than guild
+  specific. So would apply to all 'undead' player types and guilds.
+
+
+Specific changes and new skills list:
+======================================
+=======================================================================
+SKILLS
+=======================================================================
+SKILL TAX                   Full Mages              Apprentices  Change
+Name                        Level Adv Mult  Tax     Level  Tax   Mage  App
+--------------------------- ----- --- ---- -----    ----- -----  ---- ----
+Spellcraft (w/guru quest)    100   20  1.0   80       75    55   +10  +35
+Death spells (w/guru quest)  100   20  1.0   80       50    30   +10  +10
+Fire spells                   90   20  1.0   70       60    40   +40  +40
+Air spells                    85   20  1.0   65       75    55   +10  +35
+Illusion spells               85   20  1.0   65       35    15   +35  -
+Transformation spells                                            -40  -10     
+Conjuration spells            90   20  1.0   70       60    40   +10  +20
+Enchantment spells            80   20  1.0   60       50    30   -    +10
+Divination spells             40   20  1.0   20       40    20   -    -
+Abjuration spells             75   20  1.0   55       40    20   +35  +40
+Herbalism                     70   20  1.0   50       60    40   -    -
+Alchemy                       50   20  1.0   30       30    10   +20  -
+Awareness                     50   30  1.0   20        -     -   -    -
+Sword (fighter)               50   30  1.5   30       50    30   -    +20
+x2 alien skill                               30        -    30
+Knife (fighter)               40   30  1.0   10        -     -   -    -
+x2 alien skill                               10        -     -         
+Defence (fighter)             60   30  1.5   45       50    30   -    +10
+x2 alien skill                               45             30
+--------------------------- ----- --- ---- -----    ----- -----
+TOTAL                                       835            470
+--------------------------- ----- --- ---- -----    ----- -----
+Apprentice max (Occ): 550 
+Mage max (Occ+Lay):   900 
+
+Total: 835 / 60 = 13.91% (Full Mage)     470 / 60 = 7.83%
+
+=======================================================================
+COMBAT AID TAX
+=======================================================================
+1% of tax will be charged for every 25% combat aid.
+
+MAX COMBAT AID FOR APPRENTICE = 250 = 10% tax.
+MAX COMBAT AID FOR MAGE = 325 = 13% tax.
+
+=======================================================================
+SPELL TAX
+=======================================================================
+* SPELL TAX       Full     Apprentice
+Naro Drego Nin    0.5       0.5     
+Naro Libo Makil   0.5       -       
+Naro Maetho       0.5       -        
+Ringurth          0.56      0.56     
+Crabandir         0.28      0.28
+Yalarochrama      0.375      -
+Sulambar          0.75       -
+Palanquendo       0.15      0.15
+Artirith          0.75       -
+Nifarist          0.19       -
+Arhalgul          0.25      0.25
+Narusse           0.5       0.5
+Narkirisse        0.75      0.75 
+Turniawath        0.56       -
+Faugoroth         0.56       -
+Dramalgos         1.0       1.0
+Gostangwedh       0.75       -
+Mordonaer         1.125      -
+Morthul           1.125      -
+Mortirio          0.35?     0.35?
+Thunaur           1.0       1.0
+                  -----
+                  11.4%      5.34%
+=======================================================================
+TOTAL TAX
+=======================================================================
+  Skill tax:       13.91     7.83
+  Spell tax:       12.53     5.34
+  Combat aid tax:  13        10
+                   ------    -----
+                   39.44%    23.17%   (originally 35% / 23%)
+  Tax change:      +5%       +0%
+
+
+=======================================================================
+PROPOSED MORGUL MAGE SPELL LIST:
+=======================================================================
+&& = new
+# = reordered up (^) or down (v)
+@ = skill change
+
+=======================================================================
+TITLE:                  | SPELL NAME:      | SPELL ELEMENT  |COMBAT   |
+                        |                  | AND FORM:      |AID:     |
+=======================================================================
+APPRENTICE              |                  |                |
+=======================================================================
+Tuvale                  | palanquendo      | (air/con)      | -
+Dark Servant            | mortirio &&      | (air/enchant)  | 20%
+High Servant            | arhalgul #v      | (air/div)      | -
+Conjurer                | narusse          | (fire/enchant) | 20%
+Dark Conjurer           | narkirisse#^     | (fire/con)     | 60%
+High Conjurer           | naro drego nin #v| (death/illus)  | 0%
+Grand Conjurer          | -                |                | -
+Master Conjurer         | dramalgos #v     | (air/con)      | 140-240%
+Sorcerer                | ringurth @ #^    |(death/abj)     | 80%
+Dark Sorcerer           | -                |                | -
+High Sorcerer           | crabandir #^     |(death/con)     | -
+Grand Sorcerer          | thunaur &&       |  (fire/con)    | 140-240%
+Master Sorcerer         | -                |                | -
+=======================================================================
+HIGHEST COMBINED AID = mortirio (20) + ringurth (80)
++ highest harm spell (thunaur/dramalgos) (140), noting the benefit
+from narusse is nullified as white damage from weapons can't be done 
+while casting offensive harm spells.
+
+Thunaur / dramalgos have a max caid dependent on whether ringurth (80)
+and mortirio (20) is active or not.
+
+=======================================================================
+FULL MAGE               |                  |                |
+=======================================================================
+Warlock                 | morthul  #^      | (death/con)    | 120-245%
+Dark Warlock            | naro libo makil  | (death/enchant)| 55?
+High Warlock            | artirith #^ @    | (air/illus)    | -
+Grand Warlock           | turniawath #v    | (fire/abjur)   | 80%
+Master Warlock          | faugoroth@ #v    | (death/enchant)| 50%
+Wraith of Morgul        | nifarist #v      | (air/abjur)    | -
+Black Wraith            | naro maetho  #v  |(death/illus)   | ?
+Lord Wraith             | gostangwedh@     |(death/enchant) | 0%
+Necromancer             | mordonaer &&     |(death/illus)   | 120-245%
+Black Necromancer       | -                |                | -
+Lord Necromancer        | sulambar         | (air/con)      | FEATURE
+Lieutenant              | yalarochrama     | (death/con)    | -
+=======================================================================
+Max caid is 325 for occ+lay.
+
+Morthul has a max caid dependent on whether mortirio (20), naro (55), and 
+faugoroth (50) are active.
+
+Thunaur / dramalgos have a max caid dependent on whether ringurth (80)
+and mortirio (20) is active or not.
+
+Only one 'naro' type spell can be maintained at any one time.
+
+Ringurth or turniawath can be maintained at any one time.
+
+Sulambar is a restricted 'feature' spell, which is not included in the 
+caid calculations.
+
+HIGHEST COMBINED AID = 
+morthul (245) + ringurth/turniawath (80)
+thunaur/dramalgos (240) + naro (55) + faugoroth (50)
+
+
+Morgul mages are undead, adding the 'undead' shadow to them with the 
+benefits and disadvantages that come with it. This is viewed as a global 
+feature in the same way race is and does not count towards caid caps.
+
+=======================================================================
+Undead benefits:
+=======================================================================
+* UNDEAD 
+In addition to the normal spells and skills, the mages are also proper
+undead, which means they suffer some drawbacks as well as positive benefits,
+that largely cancel each other out. As such, no additional tax is payed for
+the undead effect.
+   Positive
+   - Cannot drown (Avenir and Calia drown objects)
+     Implemented by the MAGIC_I_BREATH_WATER property
+   - Immunity to poisons (100% resistance to poison element)
+   - Natural Darkvision
+   - No fatigue
+   - Healing from Death Spells (negative energy heals undeads)
+   - Cannot be stunned (implemented in mudlib)
+ 
+   Negative
+   - Damage from Healing Spells (healing harms undeads)
+   - Cannot eat or drink (or at least not gain the effects of
+     either, herbs included)
+   - Vulnerability to Life spells (effect amplification, 10-20%)
+
+CAID
+   - Cannot drown (0 caid)
+   - Immunity to poisons (100 caid)
+   - Perma darkvision (20 caid+)
+   - Healing from death spells (0 caid)
+   - Does not fatigue
+   - Cannot be stunned (? caid?)
+
+   - Vulnerability to life spells (-20 caid)
+   - Damage from healing spells (0 caid)
+   - Cannot eat (caid detriment as that they don't benefit from herbs)
+   - Cannot drink (~-14 caid healing disadvantage)
+
+

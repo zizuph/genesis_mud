@@ -1,0 +1,83 @@
+main
+::MAPDATA::
+p01 53 6 elfpath
+p02 54 6 elfpath
+p03 55 6 elfpath
+p04 56 6 elfpath
+p05 57 6 elfpath
+p06 58 6 elfpath
+p07 59 6 elfpath
+p08 60 6 elfpath
+p09 61 6 elfpath
+p10 62 6 elfpath
+p11 63 6 elfpath
+p12 64 6 elfpath
+p13 65 6 elfpath
+p14 66 6 elfpath
+p15 67 6 elfpath
+::MAPDATA::
+
+            /   ^ \/ \   ^  \           ~~~~         oOOOOOOoOoOOoOOOoOoOOoOOOO
+               / \/   \ / \              ~~~~        OOOOOOOOoOOOoOOOOoOOOoOOOO
+              Misty Mountains            ~~~~        OoOOOoOOOOOOOOoOOOOOOOOoOO
+             /  ^  / \/ / \ \             ~~~~       oOOOOOOoOoOOoOOOoOoOOoOOOO
+               / \/   \/   \              ~~~~       OOOOOOoOOOOOOOOoOOOOOOOOo/
+              /   \  ^/   ^ \            ~~~~        ---- Elf Path --\oOoOO/-/O
+             /   ^ \/ \  / \ \           ~~~~         OoOOOOOoOOoOOOOO\---/OOOO
+                / \/   \/   \             ~~~~         OooOoOOooOooOoOOooOooOoO
+               /   \  ^/     \            ~~~~            ooOOoOoOOooOOoOoOooOO
+              /   ^ \/ \   ^  \            ~~~~             OoOOoOOOOOoOOoOOOOO
+                 / \/   \ / \              ~~~~             OOooOooOoOOooOOOOoO
+                /   \ ^  / ^ \              ~~~~            OOoOoOOo+----------
+               /  ^  / \/ / \ \             ~~~~            OoOOoOOO| MIRKWOOD
+                 / \/   \/   \              ~~~~            OOooOooO+----------
+                /   \  ^/     \             ~~~~            OOoOooOooOOoOoOooOO
+               /   ^ \/ \   ^  \             ~~~~           OoOOoOOOOOoOOoOOOOO
+                  / \/   \ / \               ~~~~           OOooOOoOooOooOooOo^
+          ~~~~~~ /   \ ^  /   \              ~~~~           OOoOoOOoOoOoOoOOo^^
+      ~~~~      /  ^  / \/ ^   \             ~~~~           OoOOoOOOOOOOOo^^^^^
+  ~~~~            / \/   \/ \                 ~~~~          OOoooOoOooOooOooOoO
+ ~               /   \    \  \                ~~~~         oOOoOOoOoOoOoOoOOooO
+
+::NEWMAP::
+elfpath
+::MAPDATA::
+p01 15 6
+p02 19 6
+p03 23 6
+p04 27 6
+p05 31 6
+p06 35 6
+p07 39 6
+p08 43 6
+p09 47 6
+p10 51 6
+p11 55 6
+p12 59 6
+p13 63 6
+p14 67 6
+p15 71 6
+::MAPDATA::
+
+ ~~~~         oOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOO
+ ~~~~         OOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoO
+  ~~~~~~       oOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOO
+    ~~~~~~     oOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOo
+    ~~~~~~
+     ~~~~~-    o - o - o - o - o - o - o - o - o - o - o - o - o - o - o - o -
+     ~~~~~
+     ~~~~~         OOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOo
+     ~~~~~           OOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOo
+    ~~~~~~             OOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOO
+    ~~~~~~                       OOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOo
+    ~~~~~~                         OoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOO
+     ~~~~~                               OoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOo
+     ~~~~~                                oOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOo
+     ~~~~~                                 OOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOO
+     ~~~~~                                 oOOOooOOOOOooOOOooOOOOOooOOOooOOOOOo
+      ~~~~~                                OOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOO
+      ~~~~~                                OOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOo
+      ~~~~~                               oOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOo
+     ~~~~~                                OOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOO
+     ~~~~~                                ooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOo
+

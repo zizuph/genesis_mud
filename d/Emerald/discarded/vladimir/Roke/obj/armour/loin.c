@@ -1,0 +1,51 @@
+inherit "/std/armour";
+ 
+#include "/sys/wa_types.h"
+#include <ss_types.h>
+#include <formulas.h>
+#include <stdproperties.h>
+#include <macros.h>
+#define TO this_object()
+#define TP this_player()
+
+create_armour()
+{
+    set_name("cloth");
+   set_adj("smelly");
+   add_adj("loin");
+    set_long("This is a huge, raunchy loin cloth.\n");
+
+set_af(TO);
+    set_default_armour(10, A_WAIST, ({-2,2,0}), 0);
+
+   add_prop(OBJ_I_WEIGHT,2000);
+   add_prop(OBJ_I_VOLUME,3000);
+    add_prop(OBJ_I_VOLUME,2000);
+}
+
+
+mixed
+wear(object what)
+{
+   if (!interactive(TP))
+   if (TP->query_base_stat(SS_STR) > 180)
+      {
+      write("You grudgingly wear the smelly loin cloth.\n");
+      return 0;
+   }
+   TP->add_fatigue(-random(200)-10);
+   return "You try to pull the huge cloth around your body, "+
+          "you give up though, deciding it is just too large.\n";
+
+
+}
+
+mixed
+remove(object what)
+{
+   return 0;
+}
+
+
+
+

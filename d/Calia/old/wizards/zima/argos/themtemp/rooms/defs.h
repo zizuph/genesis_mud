@@ -1,0 +1,1 @@
+#include "../areadefs.h"

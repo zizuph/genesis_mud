@@ -1,0 +1,84 @@
+//=====================================
+// Event Name:  event_mortal_level
+// Description: This event is triggered by check_last_stats() in
+//              /std/player/stats_sec.c. It will indicate that there
+//              is a new mortal level (up or down).
+// Data:        "old_level"     : the name of the old mortal level
+//              "new_level"     : the name of the new mortal level
+//              "timestamp"     : the value from time()
+//=====================================
+//=====================================
+// Event Name:  event_stat_level
+// Description: This event is triggered by check_last_stats() in
+//              /std/player/stats_sec.c. It will indicate that the
+//              stat has changed to a new description (up or down).
+// Data:        "stat"          : stat id
+//              "old_level"     : the name of the old stat level
+//              "new_level"     : the name of the new stat level
+//              "timestamp"     : the value from time()
+//=====================================
+//=====================================
+// Event Name:  event_skill_train
+// Description: This event is triggered by sk_do_train in 
+//              /lib/skill_raise.c. It will indicate the new skill
+//              level that the player has attained.
+// Data:        "skill"         : skill number
+//              "level"         : the skill that has been trained to
+//              "timestamp"     : the value from time()
+//=====================================
+//=====================================
+// Event Name:  event_guild_join
+// Description: 
+//=====================================
+//=====================================
+// Event Name:  event_quest_complete
+// Description: shadow add_exp_quest?
+//=====================================
+//====================================================================
+// Event Name:  event_enemy_kill
+// Description: This event is triggered by the shadowed 
+//              notify_you_killed_me function. It will
+//              also trigger for all team-mates in the same
+//              location.
+// Data:        "enemy"     : the name of player or enemy filename
+//              "stat_avg"  : stat average of the enemy
+//              "timestamp" : the value from time()
+//====================================================================
+//=====================================
+// Event Name:  event_team_lead
+// Description: shadow team_join
+//=====================================
+//=====================================
+// Event Name:  event_team_disband
+// Description: shadow team_leave
+//=====================================
+//=====================================
+// Event Name:  event_bin_donation
+// Description: 
+//=====================================
+//====================================================================
+// Event Name:  event_location_checkin
+// Description: This is triggered by the bracelet itself when a user
+//              "checks in" at a particular location.
+// Data:        "location"  : the room object
+//              "timestamp" : the value from time()
+//====================================================================
+//====================================================================
+// Event Name:  event_christmas_2013_event_collect
+// Description: This is triggered by the bracelet itself when a user
+//              collects an item
+// Data:        "location"     : the room object
+//              "object_id"    : the ID of the object collected 
+//              "timestamp"    : the value from time()
+//====================================================================
+//====================================================================
+// Event Name:  event_christmas_2013_event_smoke
+// Description: This is triggered by the bracelet itself when a user
+//              collects an item
+// Data:        "location"     : the room object
+//              "ham_id"       : the ID of the ham object being smoked
+//              "chips_id"     : the ID of the chips object offered
+//              "ham_player"   : the player who has the ham
+//              "chips_player" : the player who has the chips
+//              "timestamp"    : the value from time()
+//====================================================================

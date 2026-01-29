@@ -1,0 +1,107 @@
+main
+::MAPDATA::
+valen4w7 51 4 vale
+valen4w6 52 4 vale
+valen4w5 53 4 vale
+valen4w4 54 4 vale
+valen4w3 55 4 vale
+valen4w2 56 4 vale
+valen4w1 57 4 vale
+valen3w7 51 5 vale
+valen3w6 52 5 vale
+valen3w5 53 5 vale
+valen3w4 54 5 vale
+valen3w3 55 5 vale
+valen3w2 56 5 vale
+valen3w1 57 5 vale
+valen2w7 51 6 vale
+valen2w6 52 6 vale
+valen2w5 53 6 vale
+valen2w4 54 6 vale
+valen2w3 55 6 vale
+valen2w2 56 6 vale
+valen2w1 57 6 vale
+valen1w7 51 7 vale
+valen1w6 52 7 vale
+valen1w5 53 7 vale
+valen1w4 54 7 vale
+valen1w3 55 7 vale
+valen1w2 56 7 vale
+valen1w1 57 7 vale
+::MAPDATA::
+
+          ~~~~~~ /   \ ^  /   \              ~~~~           OOoOoOOoOoOoOoOOo
+      ~~~~      /  ^  / \/ ^   \             ~~~~           OoOOoOOOOOOOOo^^^
+  ~~~~            / \/   \/ \                 ~~~~          OOoooOoOooOooOooO
+ ~               /   \    \  \                ~~~~         oOOoOOoOoOoOoOoOOo
+                / Misty Mountains              ~~~~        OOoOOoOOOOOoOOoOOO
+               /                               ~~~~        oOOooOooOoOOooOooO
+                                              ~~~~         oOOoOoOOooOOoOoOOo
+           /----------------------------+-----====-------------- The Old Fore
+          / ~~~~~~~~ ^                  |     ~~~~        OOoOOOoOOOOoOOOoOOO
+ lshaws  /~~~~~ ^   / \  ^              |      ~~~~       OoOOoOOOoOoOOoOOOoO
+        /~~~   / \ /   \/ \             |   A N D U I N   OOOOoOOOOoOOOoOOOOo
+       /~~    /   \     \  \            |      ~~~~       OOOOOOoOOOOOOOOoOOO
+ -----/~~         Misty Mountains       |       ~~~~      OoOOoOOOoOoOOoOOOoO
+     ~~~           ^    ^               |       ~~~~      OOOOoOOOOoOOOoOOOOo
+   ~~~         ^  / \  / \              |      ~~~~       OOOOOOoOOOOOOOOoO+-
+ ~~~          / \/   \/   \             |      ~~~~       OoOOoOOOoOoOOoOOO|
+ ~           /   \  ^/     \            |      ~~~~       OOOOoOOOOoOOOoOOO+-
+            /   ^ \/ \   ^  \           |      ~~~~       OOOOOOoOOOOOOOOoOOO
+               / \/   \ / \             |      ~~~~       OoOOoOOOoOoOOOOoOOO
+              /   \ ^  /   \            |       ~~~~      OOOOoOOOOoOOOOOOOoO
+
+::NEWMAP::
+vale
+::MAPDATA::
+valen4w7 11 4 
+valen4w6 15 4 
+valen4w5 19 4 
+valen4w4 23 4 
+valen4w3 27 4 
+valen4w2 31 4 
+valen4w1 35 4 
+valen3w7 11 6 
+valen3w6 15 6 
+valen3w5 19 6 
+valen3w4 23 6 
+valen3w3 27 6 
+valen3w2 31 6 
+valen3w1 35 6 
+valen2w7 11 8 
+valen2w6 15 8 
+valen2w5 19 8 
+valen2w4 23 8 
+valen2w3 27 8 
+valen2w2 31 8 
+valen2w1 35 8 
+valen1w7 11 10 
+valen1w6 15 10 
+valen1w5 19 10 
+valen1w4 23 10 
+valen1w3 27 10 
+valen1w2 31 10 
+valen1w1 35 10 
+::MAPDATA::
+
+      ~~~~~                               OOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoO
+     ~~~~~                                OOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOO
+     ~~~~~                               ooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOoo
+     ~~~~~                             OOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOo
+     ~~~~~                            OOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOO
+      ~~~~~                           OOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoO
+      ~~~~~                          OOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOO
+     ~~~~~                           oOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOoo
+     ~~~~~                            OOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOo
+     ~~~~~                             OOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOO
+     ~~~~~
+ - o ..... o - o - o - o - o - o - o - o - o - o - o - o - o - o - o - o - o -
+   | ~~~~~
+   o ~~~~~                         oOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOO
+   | ~~~~~                        OOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOO
+   o ~~~~~                        oOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOo
+   | ~~~~~                        oOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOO
+   o ~~~~~                        OOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOo
+   | ~~~~~                         oOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOO
+   o ~~~~~                        OOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOO
+   | ~~~~~                       OoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOo

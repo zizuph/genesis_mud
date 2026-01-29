@@ -1,0 +1,106 @@
+NPC         Other Names Size*   Where       Moves?  Armours         Weapons
+===============================================================================
+banker**    none        40R10   bank        No      e_tunic         e_dagger
+                                                    e_robe
+-------------------------------------------------------------------------------
+bard        bard        10R20   forest      Yes     lbreastplate    e_lsword
+            minstrel            road                i_greaves
+            troubadour                         
+            balladeer                          
+-------------------------------------------------------------------------------
+dogcow      none        16      orchard     Yes     none            none
+-------------------------------------------------------------------------------
+elfmaker    adult       40      Green Oaks  Yes     e_tunic         e_ssword
+                                                    e_robe          e_dagger
+-------------------------------------------------------------------------------
+elfmaker    elder       30      Green Oaks  Yes     e_tunic         e_spear
+                                                    e_robe          e_lsword
+                                                                    e_2lsword
+-------------------------------------------------------------------------------
+elfmaker    guard       50      Green Oaks  Yes     e_robe          e_spear
+                                                    e_chainmail     e_lsword
+                                                                    e_2lsword
+-------------------------------------------------------------------------------
+elfmaker    young       20      Green Oaks  Yes     e_tunic         e_dagger
+                                                    e_robe          e_knife
+-------------------------------------------------------------------------------
+gibberer    none        17      caves       No      none            dagger
+-------------------------------------------------------------------------------
+half_elf    half-elf    5R10    forest      Yes     lbreastplate    e_lsword
+                                road                i_greaves
+-------------------------------------------------------------------------------
+herbalist** none        40R10   herb shop   No      e_tunic         e_dagger
+                                                    e_robe
+-------------------------------------------------------------------------------
+orc         orc         21      forest      Yes     lbreastplate    longsword
+            orc-spy                                 i_greaves
+-------------------------------------------------------------------------------
+pubmaker**              40R10   pub         No                      e_dagger
+-------------------------------------------------------------------------------
+settler     settler     21      forest      Yes     lbreastplate    e_knife
+            farmer              road                i_greaves
+            homsteader                         
+            pioneer                            
+-------------------------------------------------------------------------------
+skeleton    none        10R20   grave-      Yes     burlap_shirt    lar_wep
+                                middle              burlap_pants
+-------------------------------------------------------------------------------
+spirit      none        30R10   grave-low   Yes     burlap_shirt    lar_wep
+                                                    burlap_pants
+-------------------------------------------------------------------------------
+traveller   traveller   20      forest      Yes     jacket          e_spear
+            vagabond            road                l_pants
+            adventurer                         
+            explorer                           
+-------------------------------------------------------------------------------
+vintner**               40R10   wine shop   No      e_tunic         e_dagger
+                                                    e_robe
+-------------------------------------------------------------------------------
+zombie                  2R10    grave-top   Yes     burlap_shirt    low_wep
+                                                    burlap_pants
+===============================================================================
+*   R = random(xx)
+**  Is a village NPC and non-killable
+
+These are the rooms that load NPCs in Faerie
+
+Green Oaks
+----------
+/d/Sparkle/area/faerie/rooms/greenoaks/park05    3 elder elves
+/d/Sparkle/area/faerie/rooms/greenoaks/park07    3 elder elves
+/d/Sparkle/area/faerie/rooms/greenoaks/road03    3 adult elves
+/d/Sparkle/area/faerie/rooms/greenoaks/road05    3 guard elves
+/d/Sparkle/area/faerie/rooms/greenoaks/road07    3 guard elves
+/d/Sparkle/area/faerie/rooms/greenoaks/road08    3 young elves
+/d/Sparkle/area/faerie/rooms/greenoaks/road11    3 adult elves
+/d/Sparkle/area/faerie/rooms/greenoaks/road13    3 young elves
+/d/Sparkle/area/faerie/rooms/greenoaks/road14    3 guard elves
+/d/Sparkle/area/faerie/rooms/greenoaks/road15    3 adult elves
+/d/Sparkle/area/faerie/rooms/greenoaks/road20    3 elder elves
+/d/Sparkle/area/faerie/rooms/greenoaks/road22    3 guard elves
+
+Mountain roads, West of Green Oaks
+----------------------------------
+/d/Sparkle/area/faerie/rooms/forest/mtroad01     1 settler
+/d/Sparkle/area/faerie/rooms/forest/mtroad04     1 traveller
+/d/Sparkle/area/faerie/rooms/forest/mtroad05     1 bard
+/d/Sparkle/area/faerie/rooms/forest/mtroad07     1 orc
+/d/Sparkle/area/faerie/rooms/forest/mtroad09     1 settler
+/d/Sparkle/area/faerie/rooms/forest/mtroad12     1 half-elf
+/d/Sparkle/area/faerie/rooms/forest/mtroad17     1 traveller
+/d/Sparkle/area/faerie/rooms/forest/mtroad15     1 orc
+/d/Sparkle/area/faerie/rooms/forest/mtroad19     1 orc
+/d/Sparkle/area/faerie/rooms/forest/mtroad20     1 bard
+/d/Sparkle/area/faerie/rooms/forest/mtroad22     1 settler
+/d/Sparkle/area/faerie/rooms/forest/mtroad24     1 half-elf
+
+Forest Road, Northeast of Greenoaks
+/d/Sparkle/area/faerie/rooms/forest/road02       1 traveller
+/d/Sparkle/area/faerie/rooms/forest/road06       1 half elf        
+/d/Sparkle/area/faerie/rooms/forest/road07       1 orc
+/d/Sparkle/area/faerie/rooms/forest/road08       1 bard
+/d/Sparkle/area/faerie/rooms/forest/road10       1 settler
+/d/Sparkle/area/faerie/rooms/forest/road12       1 traveller
+/d/Sparkle/area/faerie/rooms/forest/road17       1 bard
+/d/Sparkle/area/faerie/rooms/forest/road18       1 settler
+/d/Sparkle/area/faerie/rooms/forest/ledge01      1 orc

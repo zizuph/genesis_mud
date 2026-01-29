@@ -1,0 +1,52 @@
+Thanar Cathedral                           62 Mirandus    Arch     2 Jul 2019
+Balance Review Request Submission
+---------------------------------
+Request Date: <July 2, 2019>
+1. What are you requesting to be reviewed?
+Thanar Cathedral. A higher level grinding area that will also include
+a quest to summon the Deity Thanar (not yet complete).
+
+2. Please list all files for review, as well as the location of any
+documentation describing the submission.
+Standard Files - /d/Kalad/common/guilds/new_thanar/std
+Rooms - /d/Kalad/common/guilds/new_thanar/rooms
+
+NPCs - /d/Kalad/common/guilds/new_thanar/npc
+Caster Priest - /d/Kalad/common/guilds/new_thanar/npc/caster_priest.c
+Melee Priest - /d/Kalad/common/guilds/new_thanar/npc/mpriest.c
+Priest Standard File - /d/Kalad/common/guilds/new_thanar/npc/std_priest.c
+
+Common Priest - /d/Kalad/common/guilds/new_thanar/npc/cpriest.c
+Armour - /d/Kalad/common/guilds/new_thanar/arm
+Weapons - /d/Kalad/common/guilds/new_thanar/wep
+Spells - /d/Kalad/common/guilds/new_thanar/spells
+
+3. Describe the benefits that players receive by interacting with your
+submission.
+This submission is an experience area for larger players that
+will eventually include a quest to summon Thanar (under development).
+I want to open this area as it is complete and will provide the
+underlay for the "return of Thanar" to a position of power in
+the city.
+
+4. Describe the thematic justification for the benefits that the player
+will receive.
+I have reworked the thematics of Kalad to bring Thanar into a
+position of more repute. They have changed their message and
+are looking to "rebrand" so they can gather more followers.
+/d/Kalad/common/guilds/new_thanar/thanar_lore_info
+
+5. Describe the downsides that the player will experience that justify
+the balance of the submission.
+Difficult combat. Constant switching of targets, spells and
+Melee.
+
+6. How has the submission been tested to ensure that balance is maintained?
+If no testing has been done, how can the AoB team help with this
+testing?
+A lot of personal testing with Juniors as well as assistance
+from Cedivar and his junior. Cedivar is a good grinder and was
+helpful in determining the difficulty of the area.
+I am just unsure if the exp/reward is on target for challenge.
+
+7. Other Comments / Questions

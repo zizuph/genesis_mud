@@ -1,0 +1,202 @@
+The Necronisi of Sybarus: Isle of the Dead.
+   /d/Avenir/common/dead/*
+Iylian (Cirion) made the surface areas of the Necronisi in 1995, and the 
+Catacombs languished for 26 years for lack of ideas/interest. I've never 
+been particularly excited about catacombs and undead, so I let it lie,
+but more and more, the Undead Army on the Isle of the Dead, and Mascarvin 
+the Goddess of Death and Rebirth, have become an important part of the Lore 
+of Sybarus. And so it is that after returning from a long hiatus, I 
+committed to completing the implementation of this major area.
+
+There are 3 ways in to the Catacombs and 4 ways out. 
+In: 1-From the cairn where the banshee is--pray to the guardian of the hour 
+  and the banshee will drop you in a random spot in the catacombs. Or you
+  can piss her off and she will drop you in the pit of despair.
+    2-Through the gate/gatekeeper.
+	3-Through the BOGL barrow encampment. 
+Out:1-Through the gate/gatekeeper.
+    2-Up the chute to the BOGL barrow
+	3-Through 5 pools located in the Catacombs.
+	4-Sair Walls mostly open into other crypt rooms but there is a 30%
+	  chance of getting out of the catacombs by using one.
+      	
+AREAS
+Added: ~150 rooms in the /dead/catacombs/* dir, filled with revenants,
+  rats, spiders, and other insects.
+Added: ~20 rooms to the /dead/barrow/* dir, which is where the goblins
+  who live and work in the catacombs live (BOGL).
+Added: ~20 rooms in the /dead/mascarvin/* dir for the Meet Mascarvin Quest.
+Base room files:
+     /d/Avenir/common/dead/barrow_base.c
+     /d/Avenir/common/dead/crypt_base.c
+Cloning of npcs and objects to the areas are controlled by these files:
+     /d/Avenir/common/dead/catacombs/crypt_placer.c
+	 /d/Avenir/common/dead/barrow/barrow_placer.c
+Updated: the /d/Avenir/common/dead/dead.h file with defs for relative paths
+  and props for quests, etc.  
+Updated: the cairn.c room in the dead/hill/* dir. Added functionality to this
+  room such that interacting with the monoliths (Guardians of the Hours) 
+  there, players can be dropped randomly into the catacombs in order to
+  solve the quests there (4) and gain ingress and egress through the 
+  Gate on the NE side of the island.
+Updated: the marsh70.c room in the dead/marsh/* dir. This is the hidden 
+access point to the barrow area for the BOGL goblins.
+
+New NPCS: 
+Banshee                 /d/Avenir/common/dead/mon/banshee.c
+   This npc was made by Ilyian but had no purpose so I gave her one. She is 
+   the first indication to players that there is more to the Necronisi. Those
+   with quickness > 25 can interact with her, ask questions, etc. She has a
+   quest (Banshee Mask) and gives hints about other quests in the Catacombs.
+   If you are rude to her or you abuse the Guardians she will attack and then
+   drop you into the deepest part of the catacombs--the pit of despair.
+   She can be attacked but is not meant to be killed. She has no loot.
+Bogl                    /d/Avenir/common/dead/mon/bogl.c 
+  Players have met a few other the Brotherhood of Goblin Laborers in other
+  parts of Sybarus but this is the first chance to see them as they live.
+  These npcs have low stats and little in the way of loot. They have 
+  randomized descriptions and are cloned to the barrow rooms.
+Bogl Cook               /d/Avenir/common/dead/mon/bogl_cook.c
+  The cook for the BOGL camp. She sells seafood dishes under the premise that
+  Hizarbin showed the goblins of Sybarus that be eating seafood they could
+  improve their temperment and their body odor. Sybarite goblins are more
+  socially acceptable than most goblins. 
+Bogl Workers            /d/Avenir/common/dead/mon/bogl_on_duty
+  These are the goblins at work, collecting the corpses dropped off by
+  Horowitz the ferry goblin and dropping them down a chute in the barrow
+  to be collected and interred in the catacombs.
+Bogl Smith              /d/Avenir/common/dead/mon/bogl_smith
+  The blacksmith for the BOGL camp.  He sharpens and waxes weapons.
+Bogl Wise Woman         /d/Avenir/common/dead/mon/bogl_wisewoman
+  The herbalist for the camp.
+Chatelaine              /d/Avenir/common/dead/mon/chatelaine.c
+  The gatekeeper for the Catacombs. She has a small quest reward for    
+  finding her. If you go through the proper channel (Banshee/Guardians) to
+  get to her and give her a sybarun coin, she will allow permanent access
+  to the Catacombs via the gate.  Unkillable.
+Cthulujr                /d/Avenir/common/dead/mon/cthulujr
+  This is a nod to the original Lovecraftian theme of the Necronisi. The
+  creature is an "eldritch abomination" with a stat av of 220. It has stat
+  based attacks, poisonous bite, and pushes players out of the room. It 
+  lives inone of the pools in the catacombs. It has some alexandrite gems 
+  for loot. Waiting for AoB ok for the eldritch_cloak.
+Hegemon's Ghost          /d/Avenir/common/dead/mon/hegemon_ghost
+  This is the ghost of a Hegemon who is documented in the Sybarus Lore.
+  He is a quest npc. His scepter was stolen from his sarcophagus and when it
+  is returned tlm, he gives hints for access to the area for the Meet
+  Mascarvin Quest.  Unkillable.
+Hellbender              /d/Avenir/common/dead/mon/hellbender.c
+   This is a white salamander with some fire resistance living in the 
+   Catacombs. It can be picked up.  I tried making it so it will give 
+   a bit of fire resistance (5) if you have one, but I don't think it 
+   works. It will make an interesting "pet" if nothing else. It is present
+   where there are pools of water that are enterable and lead to the sea of
+   Sybarus/surface. 
+Revenant                /d/Avenir/common/dead/mon/revenant
+  Populates the catacombs with undead. This file has 3 different settings, 
+  cloning npcs on a distribution of sizes from stat av 100 to 160 +random25. 
+  The native armor and the unarmed attacks scale up based on the size of the 
+  npcs. There's no weapons or armours of special note. Loot is 2 silver or gold
+  coins, depending on the size of the mob.  
+  Special attack (bite) has a low chance of cloning a simple poison.
+Revenant Myth            /d/Avenir/common/dead/mon/revenant_m
+  Populates the catacombs with mythic undead (7 clones). Stat av 190+random35.
+  The native armor is 60-80 and the combat skills are 100. The unarmed combat
+  is 100 + 50 skill_extra. Special attack scales up based on the size of the 
+  npcs. There's no weapons or armours of special note. Loot is 2 plats, one
+  coin for each eye. Special attack has a 1 in 7 chance of cloning a simple 
+  poison.
+Skeleton                /d/Avenir/common/dead/mon/skeleton 
+  When using exits, people can randomly knock over bones that form into 
+  skeletons that randomly block players from using that exit. The block
+  can be broken by trying to use the exit a time or two, so this isn't a 
+  death-trap. Loot is two silver coins (that were over eyes) and a random ring.
+Mascarvin              /d/Avenir/common/dead/mascarvin/mascarvin.c
+  This is the Goddess of Death and Rebirth herself. She cannot be killed, but
+  a player who gets overly familiar or insulting toward her will be 
+  poisoned and dropped in the pit of despair to die. A player who steals from 
+  her table will be robbed, poisoned and paralyzed, and dropped in the pit of 
+  despair to die. 
+  
+There is a boss npc (Spectral Guardian) and its gear that are still being
+worked on and will be submitted for review at a later time.
+ 
+New OBJECTS of note:
+Death Mask             /d/Avenir/common/dead/obj/death_mask
+  This is a non-magical item, a funeral mask placed over the faces of the High
+  Lords and Ladies of Sybarus when they die, made of precious metals and gems.
+  When worn this mask adds a prop to players that allows them to walk on to the
+  ferry to the Necronisi (so they don't have to ride in coffins) and get into
+  the catacombs via the gate even if they haven't done the Chatelaine's quest.
+Kesoit Death Mask       /d/Avenir/common/dead/obj/kesoit_mask
+  This is a magical death mask specifically for the Hegemons. It is intended  
+  to "sustain" the spirit of the Hegemon and speed his "rebirth". As such this
+  mask grants the following to those who wear it: MAGIC_I_RES_DEATH 30,
+  LIVE_M_NO_SCRY, and it blocks the wearer from feeling "hunger" until it
+  is removed, at which time the player feels the impacts of not eating again.
+    see also /d/Avenir/common/dead/mon/kesoit_mask_sh.c
+Eldritch Cloak          /d/Avenir/common/dead/obj/eldritch_cloak.c
+  This cloak is the skin of the eldritch abomination, cut from its corpse.
+  It is magical, having high AC. It is heavy and voluminous, gives some
+  magic res and some acrobat, and makes players panicky. Requires DIS to
+  wear it.  
+Fire Rose               /d/Avenir/common/dead/obj/rose_fire.c
+  This magical rose is cloned (along with other flowers) to a vase on a table 
+  in Mascarvin's room. This is a player's one and only chance to get one and I
+  wouldn't be surprised if most of them miss grabbing it entirely. I created
+  this rose 25 years ago and never implemented it. What makes this rose special 
+  is that the 5 petals can be pulled off and tossed toward an exit to block it
+  with fire for 15-30 seconds. The tosser and those with high illusion can walk 
+  through.  It cannot be dropped or given away. It checks for global disable
+  of block.
+  see also /d/Avenir/common/dead/obj/rose_petal and rose_flames
+Mascarvin's Table       /d/Avenir/common/dead/obj/table_goddess.c
+  This is a table laden with goodies. It is a honeypot. If players try to 
+  take from it w/o invitation, they get a scary smackdown from Mascarvin and
+  they screw up their quest exp reward (stealing is blasphemy in Sybarus). If
+  they wait until she offers, they can take what they want. This is the only
+  time they will ever get access to this table.  
+  Items cloned to it will include the fire rose, the kesoit mask, and the 
+  naiad's necklace, as well as foods, gems, and sybarus coins.
+  
+QUESTS:
+Catacombs Gate Quest:  QEXP: 3500
+     Give the Chatelaine a token of the God's Grace to Open The Way.
+   Sounds simple enough. But. Player is dropped randomly into an area with 150 
+   rooms, with dozens of mobs that can be agressive and can block progress. So 
+   you've got to talk to the Banshee who will attack you if you ask her too many
+   annoying questions, then fight your way through the catacombs to the exit 
+   (unmarked), then talk to the Chatelaine to figure out what she wants in order 
+   to let you pass.
+			  
+Banshee's Mask: QEXP: 7000
+   Bring the Banshee the death mask of her Beloved.
+   You've got to find the right death mask (1 in 16 possible varations) cloned 
+   in just 7 of 150 rooms with hostile mobs and then find your way out of the 
+   catacombs with it. Will probably take multiple ventures into the crypts
+   to find one.
+   
+Hegemon's Ghost Quest: QEXP 3400
+   Someone stole the Hegemon's scepter and awakened him from his rest. Kill the
+   thief and bring back the pieces of the scepter to him. 
+
+Meet Mascarvin Quest:  QEXP 20000
+   Once you've helped the Hegemon Ghost, he provides hints to help players 
+   start this quest. They've got to find the entrance, solve a puzzle to open
+   a door, find the way into a maze and solve the maze (keeping track of the 
+   names on the threshold along the way or go back and do the maze over again), 
+   then polish the crystalline skulls with these names in the right order to 
+   unlock the door to meet Mascarvin.
+   The puzzles are unique and reset, and only one player at a time can be
+   in the puzzle rooms.
+   Once player arrives, Mascarvin must leave to gather a dying Sybarite, 
+   leaving them in the room with a table full of goodies. If player steals, 
+   she gives less experience, takes everything away from them, and leaves them
+   with a poison in the pit of despair. Those players who minded their manners
+   are rewarded with full qexp and access to the goodies on her table. 
+   A major quest with two unique puzzles, a 12 room maze, plus risk of losing
+   all their inventory and/or dying. There is no combat in the quest area itself 
+   but player will have to fight their way through the catacombs to get to it. 
+   This quest will be a significant investment of time. I have made it so players 
+   can solve it in stages and not lose their "place".   
+

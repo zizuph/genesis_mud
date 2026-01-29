@@ -1,0 +1,28 @@
+Spell tax documentation    (Spir = Spirit Spells)
+
+Spell Name    Description          Guild    Tax
+-----------   -----------          -----    ---
+anagnorizo    True Identity        Occ      0.28%
+anakalo       Travel               Occ      1.13%
+apergo        Soul Strike          Occ      1.14%
+elefrinisi    Relieve Encumberment Occ      0.28%
+exevrisko     Detect Alignment     Occ      0.50%
+fos           Light                Occ      0.20%
+giatreou      Neutralize Poison    Occ      0.38%
+magikos       Identify Magic       Occ      0.57%
+metaballo     Convert Weapon       Occ      1.20%
+niktamati     Night Eyes           Occ      0.28%
+oneiro        Dreamwalk            Occ      0.75%
+psychi        Psychic Speech       Occ      0.40%
+sfyri         Spiritual Hammer     Occ      2.25%
+siopi         Silence              Occ      0.57%
+skiamati      Shadow Eyes          Occ      0.57%
+skiamorfi     Shadow Form          Layman   2.25%
+syskotisi     Confusion            Occ      0.57%
+tharos        Reduce Panic         Occ      0.57%
+therapeaou    Cure Wounds          Occ      2.25%
+tihosskias    Shadow Wall          Occ      0.75%
+vekpos        Turn Undead          Occ      1.13%
+-------------------------------------------------
+Occ    Tax...............................: 15.77%
+Layman Tax...............................:  2.25%

@@ -1,0 +1,141 @@
+main
+::MAPDATA::
+gateway 17 9 gateway
+gateway2 15 8 gateway
+wroad1 15 8 gateway 
+wroad2 16 9 gateway 
+wroad3 16 9 gateway
+xroad 15 7 gateway
+bridge 16 7 gateway
+road1 14 7 gateway
+road2 14 7 gateway
+road3 14 7 gateway
+road4 13 6 gateway
+road5 13 6 gateway
+road6 13 6 gateway
+road7 12 5 gateway
+road8 11 5 gateway
+road9 11 5 gateway
+forest1 14 6 gateway
+forest2 14 6 gateway
+forest3 14 6 gateway
+forest4 14 6 gateway
+forest5 14 6 gateway
+forest6 13 8 gateway
+forest7 13 8 gateway
+forest8 13 8 gateway
+forest9 13 8 gateway
+forest10 13 8 gateway
+forest11 13 8 gateway
+forest12 14 6 gateway 
+path1 13 5 gateway
+path2 13 5 gateway
+path3 13 5 gateway
+shore1 13 5 gateway
+shore2 13 5 gateway
+cave1 11 4 gateway 
+trail1 13 8 gateway
+::MAPDATA::
+            CRYSTALMIR                 [ ]                '   ~~ 
+            ~~ LAKE   /\              Tantallon        Xak  ~~ ~~
+    /\_     ~~~~    /\                                  Tsaroth ~
+   /   \_/\ ~~~@  /\                        /\  /\      [ ] ~~ ~~
+  /\/\ /\ /\~~~@@@    /\ Que-Kiri             /\_ /\      '  ~~ ~
+     @  @ @@@~~ @@       { }         Que-Shu/\_/ \   v ' v: ~~ ~~
+    @ @@/\@  @[ ] Solace              { }    /\ /\\  ' v ''  ~~ ~
+   @ @@@@/\@@@                              ```````` v ' v: ~~ ~~
+   @@@ DARKEN @    /\       PLAINS OF      /\_/\ /\  ' v ',  ~~ ~
+     @ WOOD @@              ABANASINIA      /\ /\        ,' ~~ ~~
+    [ ]@@@@@  [ ]                         /\__    @@@@  '  ~~ ~~
+  Haven/\   Gateway      { }             / /\ \ @@@@@@ '  ~~ ~~ ~
+        /\ ~~~~~~         Que-Teh               @@@@@@'  ~~ ~~ ~~
+      ~~~~~@@@@@@~~~~~~                         @@@ :' ~~ ~~  ~~ 
+  @@@@@@@@@@@@ ~~ @@   ~   ,____,__,__          @ :'  ~~ ~~ ~~ ~~
+  @@     @@ ~~ @@@      :'' ~~ ~~ ~~ ~~`  ,__    '  ~~ ~~ ~~ ~~ ~
+  @@     @@@@@@@@    [ ]' ~~ ~~ ~~ ~~ ~~ `~~ ~`''  ~~ ~~ ~~ ~~ ~~
+  @ QUALINESTI @@  New Ports ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@        @@@    ,'~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@       @@@    :   ~~ ~~ ~~ ~~  NEW SEA ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+  @@       @@     `, ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@@@@@@@@@      '   ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+                  '
+       To Pax Tharkas and
+         Thorbardin
+
+::NEWMAP::
+gateway
+::MAPDATA::
+gateway 37 34
+gateway2 35 36
+wroad1 31 26
+wroad2 31 28
+wroad3 34 31
+xroad 31 24
+bridge 34 24
+road1 28 21
+road2 25 18
+road3 22 15
+road4 19 12
+road5 16 9
+road6 13 6
+road7 10 6
+road8 7 3
+road9 4 3
+forest1 28 15
+forest2 25 12
+forest3 22 9
+forest4 19 6
+forest5 16 3
+forest6 22 21
+forest7 19 18
+forest8 16 15
+forest9 13 12
+forest10 10 9
+forest11 7 6
+forest12 25 6 
+path1 25 2
+path2 25 3
+path3 22 6
+shore1 27 3
+shore2 25 1
+cave1 23 1 
+trail1 13 15
+::MAPDATA::
+              /\_/\    ^  .~~ ~~ ~~ ~~        ~ .
+   @@@@@@@@@@/ /   \  /@\ .~~ ~~ ~~ ~~       ~~ .
+Road  @@@@@@@@@@@@@ @@@    .~~ ~~ ~~ ~~       ~ .  /\
+to -o--o @@@@@@   @@@@@@    .~~ ~~ ~~ ~~       .
+Haven  @\ @    @@@@@@@@@@@@.~~ ~~ ~~ ~~      . 
+       @@\ @@@@@          @@.~~ ~~ ~~ ~~    .   /\/\
+        @ o--o @@@         @@.~~ ~~ ~~ ~~ .    /  \ \
+  @    @@@@@  \ @@@       @@   Crystalmir  .  /    \
+    /\ @@@@@@  \  @@      @@.     Lake   .
+   /  \ @    @  o  @@    @@.~~ ~~ ~~ ~~.
+  /    \ @   @@  \  @@   @@.~~ ~~ ~~ ~~.         Road to
+ /\  /\ @@@@@@@@@ \ @@     @.~~ ~~ ~~ .    @@@   Tantallon
+   \/  \_ @@   @@  o @@@   @@.~~ ~~  .    @@@  /
+   /     \@@    @@  \  @@   @.~~ ~  &&&  @@@  /
+   @@@@@@@@@     @@  \ @@   @@. ~~ &\|&&     /
+   @@@@@@@        @@  o @@   @.~~  &\|/&    /   /\
+   @@@@@@@ /\     @@@  \ @@@@  .~   }}{        /  \    /\
+   @@@  __/  \     @@@  \ @@           &&&    /   /\  /  \
+   @@  /  \   \      @@  o    SOLACE  &\|&&      /  \
+   @  /    \   \     @@@  \           &\|/&            /\
+     /   /\ Prayers  @@@@  \    &&&  | }}{          /\/  \
+        /  \Eye Peak   @@   o  &\|&& o             /  \   \
+   @@@@@@@@  __        @@@@  \ &\|/& |   &&&      
+   @@@@@@@@ /  \        @@@@  \ }}{  |  &\|&&         
+   @@@@@@  /    \        @@@@  o--o--o  &\|/&
+   @@@          /\ @@@@ @@@@   |         }}{       /\
+   @@@  DARKEN @@ \ @@@@ @@@@  o                  /  \ 
+   @@@   WOOD  @@@@@@@@@@ /\   |    
+   @@@                   /  \  o           /\
+   @@@      /\ @@@@@@@@@@       \         /  \          
+   @@@     / /\  @@@@@@@@@@/\    \    /\              
+   @@@    / /  \          /  \    o  /  \    @@@@
+   @@@@@@@@    @@@@@@@@@@    /\    \           @@@
+                            /  \    \
+                                     o--- Sageway ---
+                                    /                 \
+                                  %%%                  \
+                            Ruins of Gateway       to New Ports                                 

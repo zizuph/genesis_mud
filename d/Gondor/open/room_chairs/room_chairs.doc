@@ -1,0 +1,196 @@
+
+Documentation for /d/Gondor/open/room_chairs/room_chairs.c
+
+Copyright (C) 1998 by Nancy L. Mintz (Gnadnar)
+
+/d/Gondor/open/room_chairs/room_chairs provides general purpose seating
+for rooms.  The name of the things in/on/at/upon which one sits may vary
+(e.g., chair, couch, desk, bench), but for simplicity I'm going to call
+them "chairs" in the following discussion.
+
+The ideas and much of the code are based on Mercade's workroom -- thanks,
+Mercade!!
+
+room_chairs.c handles the state of the chairs and all player verbs; the
+inheriting rooms must handle descriptions. Typically, descriptions are
+handled via VBFC, since the descriptions vary with the occupants of the
+chairs.
+
+See /d/Gondor/open/room_chairs/room_chairs_example.c for an example.
+
+It's really pretty simple and you probably can get your chairs set up 
+by just following the example.  However, a step-by-step description
+follows ...
+
+First -- the critical points:
+    You must inherit room_chairs after /std/room (or whatever base room
+	you use), so that the room long and short that can deal with 
+	seated players is used. If you don't do this, seated players 
+	will be semi-invisible.
+    You must call leave_inv_room_chairs(ob,dest) from the room's leave_inv();
+	if you omit this, departing players who were seated will still
+	appear to be seated, and in their new environment they will
+	be semi-invisible.
+    You must explicitly describe who's sitting in chairs in the item
+	descriptions for the chairs; if you omit this, seated players 
+	will be semi-invisible.
+
+   By semi-invisible, I mean they will have no_show_composite set
+   and so they won't show up in the room's inventory.
+
+
+1) Inherit and include the standard files, and provide a prototype 
+   for the VBFC:
+
+	inherit "/std/room";	/* or whatever base room you use */
+	inherit "/d/Gondor/open/room_chairs/room_chairs"; /* last */
+
+	include "/d/Gondor/open/room_chairs/room_chairs.h"
+
+	public string	look_at(string arg);	/* VBFC for chairs */
+
+
+2) In create_room() (or whatever your base room's creator function is):
+
+   Call add_chair() to create the chair. For example,
+   to create a couch, you'd do something like:
+
+	add_chair("shabby couch",
+	          "[down] [on] / [in] [the] [shabby] "couch", 6);
+
+	The args to add_chair() are:
+	    string name -- the name of the chair.
+	 	This will be used in default messages, so "comfy
+	 	armchair" would be a better choice than just
+		"chair".  If you have multiple chairs in the
+		room, the name given to add_chair() must be
+		unique.
+	    string parse_pattern -- a pattern for use with 
+		parse_command() when a player tries to sit down.
+		For example, "[down] [on] / [in] [the] [comfy]
+		'chair' / 'armchair'" would allow both "sit
+		chair" and "sit down in the comfy armchair".
+		Plain "sit" and "sit down" will always work, and
+		you don't have to try to cover them in your
+		pattern.
+	    int capacity -- how many people can sit in this chair.
+	    string prep -- (optional) preposition.
+		The default messages will say "You sit on the "+
+		name.  If the "chair" is a desk, "You sit at
+		the desk." would certainly look better, so you'd
+		pass a prep arg "at" to add_chair().
+	    int mentioned -- (optional) whether the chair is
+		mentioned in the room long desc. default is 1.
+
+    If you do not want a list of seated players to be automatically
+    appended to the room description after the exits message, call:
+	set_no_sitting_in_desc(1);)
+    Be careful with this -- if you do this, you need to use VBFC
+    to generate the room long and describe seated players yourself;
+    otherwise, they'll be semi-invisible.
+    
+
+    Set the descriptions of any chairs to use the VBFC routine:
+
+	add_item(({"shabby couch", "couch"}), &look_at("shabby couch"));
+
+	Notice that for add_item(), you pass an argument to look_at()
+	telling it what was examined.  This argument must be the same
+	as the name given to add_chair().
+
+    In calls to add_exit(), pass check_sitting as the 3rd (efunc)
+    argument.  This will cause seated players to stand up before
+    taking the exit:
+
+	add_exit(NEXT_ROOM, "east", check_sitting, 1, 0);
+
+3) in init():
+
+    Call
+	init_room_chairs();
+    to add the chair verbs.
+
+4) in leave_inv(object ob, object dest):
+	
+    You must call
+	leave_inv_room_chairs(ob, dest);
+    to remove departing seated players from the chairs.
+    The exit efunc check_sitting() will catch those who leave by
+    normal exits, but this call to leave_inv_room_chairs(ob, dest)
+    is necessary to catch people who leave by quitting, going
+    netdead, teleporting, etc.
+
+5) in your VBFC routine (named "look_at" in the example above):
+	
+    Here you need to describe the chairs.  Append to the normal
+    description of the chair the string returned by sitting_on_chair()
+    describing its occupants.
+
+    If look_at() is called to describe a chair, its arg will be the 
+    name of that chair, and you'd return something like:
+
+	return "... text describing the chair ...\n" +
+	       sitting_on_chair("comfy armchair", this_player(), 0);
+
+    Args to sitting_on_chair() are:
+	string name -- the name of the chair you're interested in
+	object for_obj -- who's doing the looking
+	int namesonly -- by default, this is false and the string
+	    returned looks like: "Foo, Bar and you are sitting on
+	    the couch.\n".  If namesonly is true, then only the list
+	    of names plus " is" or " are" is returned; you would
+	    set namesonly if you wanted to customize the is-sitting
+	    text.
+
+   /d/Gondor/open/room_chairs/room_chair_example.c has a complete
+   example of look_at().
+
+6) if you want to do your own messages for "You sit down ..."/ "Foo sits
+   down", then you need to mask the do_sit_msgs(pl, prep, name, definite)
+   routine.
+
+   Args passed to do_sit_msgs() are:
+	object pl -- the person doing the sitting
+	string prep -- the preposition for the chair
+	string name -- the name of the chair
+	int definite -- if set, use definite article "the";
+			if not, use "a/an".  default is set.
+
+   So you might do something like:
+	public void
+	do_sit_msgs(object pl, string prep, string name)
+	{
+	   if ( name == "comfy couch" )
+	   {
+	        write("You sink into the soft, comfy couch.\n");
+	        say(QCTNAME(pl)+" sinks into the soft, comfy couch.\n");
+	   }
+	   else
+	   {
+		::do_sit_msgs(pl, prep, name);
+	   }
+	}
+
+7) if you want to do your own messages for "You stand"/ "Foo stands",
+   then you need to mask the do_stand_msgs(pl, name) routine.
+
+   Args passed to do_stand_msgs() are:
+	object pl -- the person doing the sitting
+	string name -- the name of the chair
+
+   So you might do something like:
+	public void
+	do_stand_msgs(object pl, string name)
+	{
+	   if ( name == "comfy couch" )
+	   {
+	        write("You struggle up from the depths of the comfy couch.\n");
+	        say(QCTNAME(pl)+
+		   " struggles up from the depths of the comfy couch.\n");
+	   }
+	   else
+	   {
+		::do_stand_msgs(pl, name);
+	   }
+	}
+

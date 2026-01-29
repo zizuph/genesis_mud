@@ -1,0 +1,9 @@
+AUTOLOADING - Autoloading Items
+-------------------------------
+This file gives details of all autoloading objects in the domain which may have to be restored when players lose their inventories due to bugs. The items might, for instance, be quest rewards or special guild items. Details should include the following:
+
+    * Path of the item
+    * How the item was obtained
+    * Any special features they offer the owner and any special information about restoration. 
+
+It is preferable for the domain to provide a means for players to restore themselves, thus saving time and effort for others. Since this info may possibly give away quest details, you may move it elsewhere. 

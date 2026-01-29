@@ -1,0 +1,65 @@
+main
+::MAPDATA::
+gairent2 61 20 village
+gairent_tavern 61 20 village
+gairent_adv 61 20 village
+gairent_herb 61 20 village
+gairent_forge 61 20 village
+yard 61 20 village
+tree 61 20 village
+::MAPDATA::
+
+          ~~~~~~ /   \ ^  /   \              ~~~~           OOoOoOOoOoOoOoOOo
+      ~~~~      /  ^  / \/ ^   \             ~~~~           OoOOoOOOOOOOOo^^^
+  ~~~~            / \/   \/ \                 ~~~~          OOoooOoOooOooOooO
+ ~               /   \    \  \                ~~~~         oOOoOOoOoOoOoOoOOo
+                / Misty Mountains              ~~~~        OOoOOoOOOOOoOOoOOO
+               /                               ~~~~        oOOooOooOoOOooOooO
+                                              ~~~~         oOOoOoOOooOOoOoOOo
+           /----------------------------+-----====-------------- The Old Fore
+          / ~~~~~~~~ ^                  |     ~~~~        OOoOOOoOOOOoOOOoOOO
+ lshaws  /~~~~~ ^   / \  ^              |      ~~~~       OoOOoOOOoOoOOoOOOoO
+        /~~~   / \ /   \/ \             |   A N D U I N   OOOOoOOOOoOOOoOOOOo
+       /~~    /   \     \  \            |      ~~~~       OOOOOOoOOOOOOOOoOOO
+ -----/~~         Misty Mountains       |       ~~~~      OoOOoOOOoOoOOoOOOoO
+     ~~~           ^    ^               |       ~~~~      OOOOoOOOOoOOOoOOOOo
+   ~~~         ^  / \  / \              |      ~~~~       OOOOOOoOOOOOOOOoO+-
+ ~~~          / \/   \/   \             |      ~~~~       OoOOoOOOoOoOOoOOO|
+ ~           /   \  ^/     \            |      ~~~~       OOOOoOOOOoOOOoOOO+-
+            /   ^ \/ \   ^  \           |      ~~~~       OOOOOOoOOOOOOOOoOOO
+               / \/   \ / \             |      ~~~~       OoOOoOOOoOoOOOOoOOO
+              /   \ ^  /   \            |       ~~~~      OOOOoOOOOoOOOOOOOoO
+
+::NEWMAP::
+village
+::MAPDATA::
+gairent2 34 13
+gairent_tavern 34 15
+gairent_adv 38 15
+gairent_herb 38 13
+gairent_forge 34 11
+yard 38 11
+tree 38 11
+::MAPDATA::
+
+ OOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoO
+ OOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOO
+ OOoo +------------------------+ OooOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOoo
+ OOOo | The Village of Gairent | OOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOo
+ OOOO +------------------------+ OoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOO
+ OOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoO
+ OOOOOoOOOOOOOOOOOoOOOOOOOOO              oOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOO
+ OOooOOOOOooOOOooOOOOOooOOO ..---------...__    OOOooOOOOOooOOOooOOOOOooOOOoo
+ OOOoOOooOOOOOOOoOOooOOOOOO |               `'-.._  oOOooOOOOOOOoOOooOOOOOOOo
+ OOOOOoOOOoOOOOOOOoOOOoOOOO |   Smith             `._  OOOoOOOOOOOoOOOoOOOOOO
+ OOoOOOOOOoOOOOoOOOOOOoOOOO |     o - o              \  OOoOOOOoOOOOOOoOOOOoO
+ OOOOOoOOOOOOOOOOOoOOO      |     |                   `.  OOOOOOOOoOOOOOOOOOO
+ OOooOOOOOooOOOooOOOOO ---------- o - o Herbalist      |  ooOOOooOOOOOooOOOoo
+ OOOoOOooOOOOOOOoOOooO      |     | \                  / OOOOOOOoOOooOOOOOOOo
+ OOOOOoOOOoOOOOOOOoOOOoOOO  |     o   o Adventurers  ,' OOoOOOOOOOoOOOoOOOOOO
+ OOoOOOOOOoOOOOoOOOOOOoOOO  |  Tavern   Guild     _,' OOOOoOOOOoOOOOOOoOOOOoO
+ OOOOOoOOOOOOOOOOOoOOOOOOO  |                 _,,'   OoOOOOOOOOOOOoOOOOOOOOOO
+ OOooOOOOOooOOOooOOOOOooOOO  ._________...--''    OooOOOOOooOOOooOOOOOooOOOoo
+ OOOoOOooOOOOOOOoOOooOOOOOOOo                 OOOOOOoOOooOOOOOOOoOOooOOOOOOOo
+ OOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOO
+ OOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoO

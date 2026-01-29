@@ -1,0 +1,15 @@
+Name: gigantic steel broadsword
+File: /d/Earthsea/roke/thwil/wep/gigantic_sword.c
+Hit/Pen: 58/60
+Special:
+    The weapon hits hard at the expense of -MAX(200 - ST_STR, 75) 
+    quickness and -5 defence/-5 parry. AC modifier is set to -5
+    as well because it is too heavy to parry well with.
+    Require 90+ SS_STR
+    It also weighs 45 kg!!!
+Props:
+    OBJ_I_IS_MAGIC_WEAPON, OBJ_S_WIZINFO, MAGIC_AM_ID_INFO, 
+    MAGIC_AM_MAGIC
+Obtainability: 
+    Obtained from a difficult to kill traveller that wanders around Roke
+    and Gont.

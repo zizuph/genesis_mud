@@ -1,0 +1,1826 @@
+/*
+  cmd/live/things.c
+
+  General commands for manipulating things.
+
+*/
+#pragma save_binary
+
+inherit "/cmd/std/command_driver";
+
+#include <macros.h>
+#include <formulas.h>
+#include <ss_types.h>
+#include <std.h>
+#include <stdproperties.h>
+#include <filter_funs.h>
+
+#include <composite.h>
+#include <cmdparse.h>
+#include <language.h>
+#include <subloc.h>
+
+#define ENV (environment(this_player()))
+#define PREV_LIGHT CAN_SEE_IN_ROOM(this_player()) 
+
+/*
+ * Prototypes
+ */
+int visibly_hold(object ob);
+int manip_set_dest(string prep, object *carr);
+
+/*
+ * Global variables
+ */
+static int silent;           /* silent flag if person did 'get/drop all' */
+static object gDest;	     /* destination use for put and give */
+static object *gContainers;  /* array of containers to try */
+static object *gFrom;	     /* array of objects where player did get things */
+static object gHolder;
+static string gItem;	     /* string to hold pseudoitem from look command */
+
+create()
+{
+    seteuid(getuid(this_object())); 
+}
+
+/* **************************************************************************
+ * Return a proper name of the soul in order to get a nice printout.
+ */
+string
+get_soul_id()
+{
+    return "things";
+}
+
+/* **************************************************************************
+ * This is a command soul.
+ */
+int
+query_cmd_soul()
+{
+    return 1;
+}
+
+/* **************************************************************************
+ * The list of verbs and functions. Please add new in alfabetical order.
+ */
+mapping
+query_cmdlist()
+{
+    return ([
+	     "appraise":"appraise",
+
+	     "count":"count",
+
+	     "drop":"put",
+
+	     "examine":"examine",
+	     "exa":"examine",
+
+	     "get":"get",
+	     "give":"give",
+
+	     "hide2":"hide",
+
+	     "inventory":"inventory",
+	     "i":"inventory",
+
+	     "look":"look",
+	     "l":"look",
+
+	     "peek":"peek",
+	     "pick":"get",
+	     "put":"put",
+
+	     "reveal":"reveal",
+
+	     "search":"search",
+	     "sneak":"sneak",
+
+	     "take":"get",
+	     "track":"track",
+
+	     ]);
+}
+
+/*
+ * Function name: using_soul
+ * Description:   Called once by the living object using this soul. Adds
+ *		  sublocations responsible for extra descriptions of the
+ *		  living object.
+ */
+public void 
+using_soul(object live)
+{
+/*
+    live->add_subloc(SUBLOC_MISCEXTRADESC, file_name(this_object()));
+    live->add_textgiver(file_name(this_object()));
+*/
+}
+
+/* **************************************************************************
+ * Here follows some support functions. 
+ * **************************************************************************/
+
+/*
+ * We fail to do something because it is dark
+ */
+varargs int
+light_fail(string str)
+{
+    string s;
+
+    if (!str)
+	str = query_verb() + " things";
+    if (!stringp(s = environment(this_player())->query_prop(ROOM_S_DARK_MSG)))
+	notify_fail("It is too dark to " + str + ".\n");
+    else
+	notify_fail(s + " " + str + ".\n");
+    return 0;
+}
+
+/*
+ * Function name: move_err_short
+ * Description:   Translate move error code to message and prints it.
+ * Arguments:	  ierr: move error code
+		  ob:   object
+ * Outputs:	  Message string.
+ *
+ * Error message examples:
+	"The bag is too heavy."
+	"The bird can not be dropped."
+	"The pearl can not be removed."
+	"The ankheg refuses."
+	"The chest is full."
+	"The river can not be taken."
+ *
+ * Ref: 	  see /std/object.c for the move function 
+ */
+varargs void 
+move_err_short(int ierr, object ob, object dest)
+{
+    mixed str, str2;
+    string shortdesc;
+
+    if (silent || ierr <= 0 || ierr >= 11 || !objectp(ob))
+	return;
+
+    if (!stringp(ob->short()))
+	shortdesc = ob->query_name();
+    else
+	shortdesc = ob->short();
+
+    str = "   The " + shortdesc;
+
+    switch (ierr)
+    {
+    case 1:
+	if (ob->query_prop(HEAP_I_IS) && ob->num_heap() > 1)
+	    str += " are too heavy.\n";
+	else
+	    str += " is too heavy.\n";
+	break;
+    case 2:
+	str2 = ob->query_prop(OBJ_M_NO_DROP);
+	if (!stringp(str2))
+	    str += " can not be dropped.\n";
+	else
+	    str = str2;
+	break;
+    case 3:
+	if (dest)
+	    str2 = environment(ob)->query_prop(CONT_M_NO_REM);
+	if (!stringp(str2))
+	    str += " can not be removed.\n";
+	else
+	    str = str2;
+	break;
+    case 4:
+	str2 = ob->query_prop(OBJ_M_NO_INS);
+	if (!stringp(str2))
+	    str += " resists.\n";
+	else
+	    str = str2;
+	break;
+    case 5:
+	if (dest)
+	    str2 = dest->query_prop(CONT_M_NO_INS);
+	if (!dest->query_prop(CONT_I_IN))
+	    str += " can not be put there.\n";
+	else
+	    str = str2;
+	break;
+    case 6:
+	str2 = ob->query_prop(OBJ_M_NO_GET);
+	if (!stringp(str2))
+	    str += " can not be taken.\n";
+	else
+	    str = str2;
+	break;
+    case 7:
+        str += " refuses.\n";
+	break;
+    case 8:
+        str += " is too big.\n";
+	break;
+    case 9:
+	str += " can't be taken from a closed container.\n";
+	break;
+    case 10:
+	str += " can't be put in a closed container.\n";
+    	break;
+    }
+
+    write(str);
+}
+   
+/*
+ * Function name: manip_drop_access
+ * Description:   Test if player carries an object
+ * Arguments:	  ob: object
+ * Returns:       1: caried object
+                  0: otherwise
+ *
+ */
+int
+manip_drop_access(object ob)
+{
+    if (!objectp(ob))
+	return 0;
+    return (environment(ob) == this_player());
+}
+
+int
+manip_give_access(object ob)
+{
+    if (!objectp(ob))
+    {
+	return 0;
+    }
+
+    return (environment(ob) == this_player());
+}
+
+/*
+ * Function name: manip_relocate_to
+ * Description:   Test if an object can be moved to another one and do it.
+ * Arguments:	  item_o: object to be moved
+		  to: object to move to
+ * Returns:       1: object moved
+                  0: otherwise
+ * Outputs:	  move error messages
+ * Notify_fail:   ""  (no notify fail because of output of error messages)
+ *
+*/
+varargs int
+manip_relocate_to(object item_o, object to)
+{
+    object dest;	/* receiver */
+    int ierr;
+    string destmsg;
+    
+    if (!objectp(item_o))
+	return 0;
+    if (!to)
+    {
+	dest = environment(this_player());
+	destmsg = "";
+    }
+    else
+    {
+	dest = to;
+	destmsg = (query_verb() == "give" ? " to " : " in ") + QSHORT(dest);
+    }
+    
+    if (item_o == dest)
+	return 0;		/* not into itself */
+    if (item_o == this_player())
+	return 0;	        /* not him self */
+
+    find_player("rastlin")->catch_msg(sprintf("%O\n", item_o));
+
+    if ((ierr = (int) item_o->move(dest)) == 0)
+	return 1;
+
+    if (!silent)
+	say(QCTNAME(this_player()) + " tries to " + query_verb() +
+		" " + (stringp(item_o->short()) ? QSHORT(item_o) : 
+		item_o->query_name()) + destmsg + " but fails.\n");
+
+    move_err_short(ierr, item_o, dest);
+    notify_fail("");
+    return 0;
+}
+
+
+int
+manip_put_dest(object item) 
+{ 
+    return manip_relocate_to(item, gDest); 
+}
+
+int
+manip_set_dest(string prep, object *carr)
+{ 
+    string vb;
+
+    vb = query_verb();
+
+    if (!carr || sizeof(carr) == 0)
+    {
+	notify_fail(capitalize(vb) + prep + " what?\n");
+	return 0;
+    }
+    if (sizeof(carr) > 1)
+    {
+	notify_fail("Please be specific, where do you want to " + 
+		    query_verb() + " put them?\n");
+	return 0;
+    }
+    gDest = carr[0];
+
+    if (living(gDest))
+    {
+	notify_fail(gDest->query_the_name(this_player()) +
+		" will not stand for that.\n");
+	return 0;
+    }
+
+    if (parse_command(prep, ({0}), "'in' / 'into' / 'inside'"))
+    {
+	notify_fail(query_verb() + " what " + prep + " " +
+		    gDest->short() + "?\n");
+	return 1;
+    }
+    else
+    {
+	notify_fail("I do not understand what you mean by put " + prep +".\n");
+	return 0;
+    }
+}
+
+
+int
+manip_ch_prep(string ptext)
+{
+    return parse_command(ptext, ({0}), "'in' / 'inside' / 'from'");
+}
+
+   
+/*
+ * Function name: manip_relocate_from
+ * Description:   tries to transfer object to player
+ * Arguments:	  item_o: object
+ * Returns:       1: transfered the object
+                  0: some obstruction
+ * Outputs:       Messages on failed transfer.
+ * Notify_fail    Is set to 0 to hide access failure.
+ * Ex:               get item(s), get item(s) from container(s)
+ *
+ */
+int
+manip_relocate_from(object item_o)
+{
+    int ierr;
+    object env;
+    string tmp;
+    
+    if (!objectp(item_o))
+	return 0;
+    if (item_o == this_player())
+	return 0;
+    env = environment(item_o);
+    if (env == this_player())
+	return 0;
+
+    if (env->query_prop(CONT_I_HIDDEN) || env->query_prop(CONT_I_CLOSED))
+    {
+        tmp = " to " + query_verb() + " " + QSHORT(item_o) + " from ";
+	if (living(env))
+	    env->catch_msg(QCNAME(this_player()) + " tries" + tmp + " you.\n");
+	say(QCNAME(this_player()) + " tries" + tmp + QNAME(env) + ".\n", 
+	    ({env, this_player()}) );
+	this_player()->catch_msg("You fail" + tmp + QSHORT(env) + ".\n");
+	if (env->query_prop(CONT_I_CLOSED))
+	    write(capitalize(LANG_THESHORT(env)) + " is closed.\n");
+	notify_fail("");
+	return 0;
+    }
+
+    if ((ierr = item_o->move(this_player())) == 0)
+    {
+	gFrom = gFrom + ({env});
+	return 1;
+    }
+
+    if (!silent)
+	say(QCNAME(this_player()) + " tries to " + query_verb() +
+		" the " + (stringp(item_o->short()) ? QSHORT(item_o) : 
+		item_o->query_name()) + " but fails.\n");
+    move_err_short(ierr, item_o, this_player());
+    notify_fail("");    /* to hide the failed access one  */
+    return 0;
+}
+
+
+int
+manip_put_whom(object item) 
+{ 
+    if (environment(item) != this_player())
+    {
+	return 0;
+    }
+
+    return manip_relocate_to(item, gDest); 
+}
+
+
+int
+manip_set_whom(string prep, object *carr)
+{ 
+    mixed tmp;
+    int i;
+
+    if (!carr || sizeof(carr) == 0)
+	return 0;
+
+    if (sizeof(carr) > 1)
+    {
+	notify_fail("Please be specific, to whom do you want to give them?\n");
+	return 0;
+    }
+
+    gDest = carr[0];
+    if (parse_command(prep, ({0}), "'to'"))
+    {
+	if (gDest->query_npc() && (tmp = gDest->query_prop(NPC_M_NO_ACCEPT_GIVE)))
+	{
+	    if (stringp(tmp))
+            notify_fail(capitalize(gDest->query_the_name(this_player())) + tmp);
+	    return 0;
+	}
+
+	notify_fail(query_verb() + " what " + prep + " " +
+		    gDest->short() + "?\n");
+	return 1;
+    }
+    else
+    {
+	notify_fail("I do not understand what you mean by give " +
+		    prep + ".\n");
+	return 0;
+    }
+}
+
+/*
+ * Function name: in_gContainers
+ * Description:   test if object is in one of a set of containers
+ * Arguments:	  ob: object
+ * Returns:       1: is in the conatiner
+                  0: not in the container
+ * globals        gContainers: the array of containers
+ *
+ */
+in_gContainers(object ob) 
+{
+    mixed res;
+
+    if (!objectp(ob))
+	return 0;
+    if (environment(ob) != gContainers[0] &&
+		environment(ob) != gContainers[0]->query_room())
+	return 0;
+
+    if ((gContainers[0]->query_prop(CONT_I_CLOSED) &&
+	    !gContainers[0]->query_prop(CONT_I_TRANSP)) ||
+	    gContainers[0]->query_prop(CONT_I_HIDDEN))
+	return 0;
+
+    return 1;
+}
+
+/*
+ * To remove a property, used by call_out
+ */
+void 
+remove_temp_prop(mixed arr)
+{
+    if (objectp(arr[0]))
+	arr[0]->remove_prop(arr[1]);
+}
+
+/*
+ * Here are some functions with the looks command.
+ */
+
+void
+show_contents(object cobj)
+{
+    object *obarr, linked;
+    string str;
+
+    if (linked = (object)cobj->query_room())
+	obarr = all_inventory(linked);
+    else
+    	obarr = all_inventory(cobj);
+    obarr = filter(obarr, "visible", this_object(), cobj);
+    if (sizeof(obarr) > 0)
+    {
+	str = COMPOSITE_DEAD(obarr);
+	write(break_string("The " + cobj->short() + " contains " + str + ".\n",
+			   70, 2) );
+    } else {
+	write("  " + "The " + cobj->short() + " is empty.\n");
+    }
+}
+
+nomask void
+look_living_exec(mixed plr)
+{
+    write(plr->long());
+}
+
+/*
+ * Function name: show_exec
+ * Description:   Shows an item depending on its position, normally the long
+		  description, but short description for items carried or
+		  inside other items.
+ * Arguments:	  object ob
+ *
+*/
+nomask void 
+show_exec(object ob)
+{
+    object env;
+    string str;
+    
+    env = environment(ob); str = 0;
+
+    if (env == this_player() || env == environment(this_player()))
+	write(ob->long());
+    
+    /* objects inside transparent objects */
+    while (env != this_player() && env != environment(this_player()))
+    {
+	if (!str)
+	    str = "You see " + LANG_ASHORT(ob);
+	if (living(env))
+	    str += " carried by " + env->short(this_player());
+	else
+	    str += " inside the " + env->short();
+	env = environment(env);
+    }
+
+    if (str) {
+	str += ".\n";
+	write(break_string(str, 76));
+    }
+}
+
+/*
+ * Function name: item_access
+ * Description:   test if an object contains (pseudo) item description gItem
+ * Arguments:	  object ob
+ * Returns:       1: found gItem
+                  0: failed to find gItem
+ * Globals:       string gItem
+ *
+*/
+int 
+item_access(object ob)
+{
+    if (!objectp(ob))
+	return 0;
+    return (int) ob->item_id(gItem);
+}
+
+int
+inside_visible(object cobj)
+{
+    object env;
+
+    if (!objectp(cobj) || cobj->query_no_show())
+	return 0;
+
+    /* Properties stop us from seing the inside
+     */
+    if (!cobj->query_prop(CONT_I_IN) || cobj->query_prop(CONT_I_HIDDEN) ||
+		(cobj->query_prop(CONT_I_CLOSED) &&
+	 	!cobj->query_prop(CONT_I_TRANSP) &&
+	 	!cobj->query_prop(CONT_I_ATTACH)))
+	return 0;        
+
+    env = environment(cobj);
+    if (env == this_player() || env == environment(this_player()) ||
+		visibly_hold(cobj))
+	return 1;
+
+    while (env && (!env->query_prop(CONT_I_CLOSED) ||
+	    env->query_prop(CONT_I_TRANSP)) && !env->query_no_show())
+    {
+        if (visibly_hold(env))
+	    return 1;
+	env = environment(env);
+	if (env == this_player() || env == environment(this_player()))
+	    return 1;
+    }
+    return 0;
+}
+
+varargs int
+visible(object ob, object cobj)
+{
+    object env;
+
+    if (!objectp(ob))
+	return 0;
+
+    if (cobj && (env = (object)cobj->query_room()) &&
+		(cobj->query_prop(CONT_I_TRANSP) ||
+		!cobj->query_prop(CONT_I_CLOSED)))
+	return ((env->query_prop(OBJ_I_LIGHT) >
+		-(this_player()->query_prop(LIVE_I_SEE_DARK))) && 
+		CAN_SEE(this_player(), ob));
+	
+    env = environment(ob);
+    if (env == this_player() || env == environment(this_player()))
+	return CAN_SEE(this_player(), ob);
+
+    while (objectp(env) && !living(env) && (env->query_prop(CONT_I_TRANSP) ||
+		!env->query_prop(CONT_I_CLOSED)))
+    {
+	env = environment(env);
+	if (env == this_player() || env == environment(this_player()))
+	    return CAN_SEE(this_player(), ob);
+    }
+    return 0;
+}
+
+/* 
+ * Is 
+ */
+int
+visibly_hold(object ob)
+{
+    object env;
+    if (!objectp(ob))
+	return 0;
+ 
+    env = environment(ob);
+    while (objectp(env))
+    {
+	if (env == gHolder)
+	    return 1;
+
+	if (env->query_prop(CONT_I_HIDDEN) ||
+	    (!env->query_prop(CONT_I_TRANSP) &&
+	     !env->query_prop(CONT_I_ATTACH) &&
+	     env->query_prop(CONT_I_CLOSED)))
+	    return 0;
+	else
+	    env = environment(env);
+    }
+    return 0;
+}
+
+/* 
+ * Look ended here.
+ */
+
+/* **************************************************************************
+ * Here follows the actual functions. Please add new functions in the 
+ * same order as in the function name list.
+ * **************************************************************************/
+
+/*
+ * appraise - Appraise something
+ */
+int appraise(string str)
+{
+    object *ob;
+    int i;
+
+    if (PREV_LIGHT <= 0)
+	return light_fail("appraise");
+
+    notify_fail("Appraise what did you say?\n");
+    if (!str) return 0;
+    ob = FIND_STR_IN_OBJECT(str, this_player());
+    if (sizeof(ob) == 0)
+	ob = FIND_STR_IN_OBJECT(str, environment(this_player()));
+
+    if (sizeof(ob) == 0)
+	return 0;
+
+    for (i = 0; i < sizeof(ob); i++)
+    {
+	if (living(ob[i]))
+	    this_player()->catch_msg("\nYou study " +
+			QTNAME(ob[i]) + " carefully.\n");
+	else
+	    this_player()->catch_msg("\nYou study the " +
+			ob[i]->short() + " carefully.\n");
+	ob[i]->appraise_object();
+    }
+
+    return 1;
+}
+
+/*
+ * Function name: count
+ * Description:   Let the players count stuff other than coins (heaps)
+ * Arguments:	  str - the string describing what players want to count
+ */
+int
+count(string str)
+{
+    object *ob;
+
+    if (!str)
+    {
+        notify_fail("Count what?\n");
+        return 0;
+    }
+
+    ob = FIND_STR_IN_OBJECT(str, this_player());
+    if (!sizeof(ob))
+        ob = FIND_STR_IN_OBJECT(str, environment(this_player()));
+
+    if (sizeof(ob))
+    {
+ 	/* Heaps (coins) have their own routines for countind */
+	if (ob[0]->query_prop(HEAP_I_IS))
+	    return 0;
+
+        write("You count " + LANG_WNUM(sizeof(ob)) + " " +
+            str + ".\n");
+	return 1;
+    }
+
+    notify_fail("You don't find any " + str + " here.\n");
+    return 0;
+}
+
+/*
+ * get - get something
+ */
+/*
+ * Function name: get, pick, take
+ * Description:   get items from environment or containers
+ * Arguments:	  str: tail of command string
+ * Returns:       1: did get something
+                  0: 
+ * Globals:	  gFrom: sources of items
+ *		  gContainers: containers 
+ * Notify_fail:   Get what?
+ *                Get from what?
+ *
+ * Ex:               get item(s), get item(s) from container(s)
+ *
+*/
+int
+get(string str)
+{
+    object *itema, *cont, linked, *obarr;
+    string vb, prep, items;
+    int i;
+    
+    if (!PREV_LIGHT) return light_fail();
+
+    vb = query_verb();
+    
+    notify_fail(capitalize(vb) + " what?\n");  /* access failure */
+
+    if (!str)
+	return 0;
+
+    gFrom = ({});
+
+    /* This is done to avoid all those stupid messages 
+       when you try 'get all' 
+    */
+    silent = 0;
+    if (str == "all")
+        silent = 1;
+
+    if (parse_command(str, environment(this_player()), "%i", itema))
+    {
+	itema = NORMAL_ACCESS(itema, 0, 0);
+	itema = filter(itema, "manip_relocate_from", this_object());
+	if (sizeof(itema) == 0)
+	{
+            if (silent)
+                notify_fail("Nothing taken.\n");
+	    return 0;
+	} 
+	if (sizeof(itema) > 0)
+	{
+	    for (i = 0 ; i < sizeof(itema) ; i++)
+	        itema->remove_prop(OBJ_I_HIDE);
+	    write("You " + vb + " " + COMPOSITE_DEAD(itema) + ".\n");
+	    say(QCNAME(this_player()) + " " + vb + "s " + QCOMPDEAD + ".\n");
+	    return 1;
+	}
+    }
+
+    if (silent)
+    {
+        notify_fail("Nothing taken.\n");
+        return 0;
+    }
+
+    gFrom = ({});
+
+    if (parse_command(str, environment(this_player()),
+		      "%s 'in' / 'inside' / 'from' %i", items, cont))
+    {
+        gContainers = NORMAL_ACCESS(cont, 0, 0);
+        gContainers = FILTER_DEAD(gContainers);
+        if (sizeof(gContainers) == 0)
+	{
+            notify_fail(capitalize(vb) + " from what?\n");
+            return 0;
+        }
+
+	if (linked = gContainers[0]->query_room())
+	    obarr = all_inventory(linked);
+	else
+	    obarr = deep_inventory(gContainers[0]);
+
+        if (!parse_command(items, obarr, "%i", itema))
+            return 0;
+
+        itema = NORMAL_ACCESS(itema, "in_gContainers", this_object());
+        if (sizeof(itema) == 0) 
+            return 0;
+
+        itema = filter(itema, "manip_relocate_from", this_object());
+        if (sizeof(itema) == 0)
+            return 0;
+
+	for (i = 0 ; i < sizeof(itema) ; i++)
+	   itema->remove_prop(OBJ_I_HIDE);
+	write("You " + vb + " " + COMPOSITE_DEAD(itema) + " from the " +
+	    gContainers[0]->short() + ".\n");
+	say(QCTNAME(this_player()) + " " + vb + "s " + QCOMPDEAD +
+	    " from the " + QSHORT(gContainers[0]) + ".\n");
+	return 1;
+    }
+
+    if (environment(this_player())->item_id(str))
+    {
+	notify_fail("The " + str + " cannot be taken.\n");
+	return 0;
+    }
+
+    return 0;
+}
+
+/* 
+ * give - Give something to someone
+ */
+/*
+ * Function name: give
+ * Description:   tries to move object to another living
+ * Arguments:	  str: tail of command string
+ * Returns:       1: manage to give something
+                  0: failed
+ * Notify_fail:   * "Give what to whom?"
+                  * 
+ * Ex:            give item(s) to player
+ *
+*/
+int
+give(string str)
+{
+    object *a;
+
+    if (!PREV_LIGHT)
+        return light_fail();
+
+    notify_fail(capitalize(query_verb()) + " what to whom?\n");
+
+    if (!str)
+        return 0;
+
+    silent = 0;
+
+    a = (object *)CMDPARSE_STD->do_verb_with(str, "manip_set_whom",
+	"manip_put_whom", "manip_give_access", 0, this_object());
+    if (sizeof(a) > 0)
+    {
+    	if (living(gDest))
+    	{
+	    write("You give " + COMPOSITE_DEAD(a) + " to " +
+		gDest->query_the_name(this_player()) + ".\n");
+	    gDest->catch_msg(QCTNAME(this_player()) +
+		" gives you " + QCOMPDEAD + ".\n");
+    	    say(QCTNAME(this_player()) + " gives " + QCOMPDEAD
+		 + " to " + QNAME(gDest) + ".\n",
+			({gDest, this_player()}) );
+    	} else {
+	    write("You give " + COMPOSITE_DEAD(a) + " to ");
+	    say(QCTNAME(this_player()) + " gives " + QCOMPDEAD + " to ");
+	    write(COMPOSITE_DEAD(gDest) + ".\n");
+	    say(QCOMPDEAD + ".\n");
+    	}
+
+    	return 1;
+    }
+
+    return 0;
+}
+
+/*
+ * hide - Hide something.
+ */
+hide(string str)
+{
+    object *itema, *cont;
+    string prep, vb, *args;
+    int hiding, i, val, bval;
+    
+    vb = query_verb(); 
+    notify_fail(capitalize(vb) + " what?\n");
+
+    if (strlen(str))
+    {
+	args = explode(str, " ");
+	if (args[sizeof(args) - 1] == "poorly")
+	{
+	    str = "";
+	    for (i = 0 ; i < sizeof(args) - 1 ; i++)
+		str += args[i];
+	}
+    }
+    
+    if (this_player()->query_prop(OBJ_I_LIGHT) &&  
+	(this_player()->query_prop(OBJ_I_LIGHT) > 
+	environment(this_player())->query_prop(OBJ_I_LIGHT)))
+    {
+	notify_fail("You can't hide here, shining like that!\n");
+	return 0;
+    }
+
+    hiding = environment(this_player())->query_prop(ROOM_I_HIDE);
+    bval = this_player()->query_skill(SS_HIDE);
+    if (hiding < 0 || hiding > bval)
+    {
+	notify_fail("It's far too hard to hide anything here.\n");
+	return 0;
+    }
+
+    bval = (bval - hiding) / 2;
+    val = bval + random(bval);
+
+    if (!str || str == "myself")
+    {
+	cont = all_inventory(environment(this_player()));
+	itema = FILTER_LIVE(cont);
+	itema = FILTER_IS_SEEN(this_player(), itema);
+	if (sizeof(itema) > 1)
+	{
+	    notify_fail("You can't hide yourself while others are watching!\n");
+	    return 0;
+	}
+
+	if (this_player()->query_attack())
+	{
+	    notify_fail("You can't hide yourself while in combat!\n");
+	    return 0;
+	}
+
+	if (this_player()->query_prop(OBJ_I_HIDE))
+	{
+	    notify_fail("You can't hide any better than this!\n");
+	    return 0;
+	}
+	else
+	{
+	    say(QCTNAME(this_player()) + " suddenly disappears out of sight.\n");
+	    write("You hide yourself as best you can.\n");
+	    if (this_player()->query_prop(OBJ_I_INVIS))
+		this_player()->add_prop(OBJ_I_HIDE, val / 2);
+	    else
+		this_player()->add_prop(OBJ_I_HIDE, val);
+	}
+	return 1;
+    }	
+
+    silent = 0;
+    if (str == "all")
+        silent = 1;
+    
+    if (parse_command(str, environment(this_player()), "%i", itema)) {
+	
+	itema = CMDPARSE_STD->normal_access(itema, "manip_drop_access",
+		this_object(), 1);
+	find_player("rastlin")->catch_msg(sprintf("CMD_STD: %O\n", itema));
+	if (sizeof(itema) == 0) {
+            if (silent)
+                notify_fail("Nothing hidden.\n");
+	    return 0;
+	}
+	itema = filter(itema, "manip_relocate_to", this_object());
+	find_player("rastlin")->catch_msg(sprintf("MANIP: %O\n", itema));
+	if (args[sizeof(args) - 1] == "poorly")
+	{
+	    bval = this_player()->query_skill(SS_AWARENESS) / 2;
+	    val = val > bval * 2 ? bval + random(bval) : val;
+	}
+
+	if (sizeof(itema) > 0)
+	{
+	find_player("rastlin")->catch_msg(sprintf("TEXT: %O\n", itema));
+	    write("You " + vb + " " + COMPOSITE_DEAD(itema) + ".\n");
+	    say(QCTNAME(this_player()) + " " + vb + "s something.\n");
+	for (i = 0 ; i < sizeof(itema) ; i++){
+	find_player("rastlin")->catch_msg(sprintf("PROP: %O\n", itema[i]));
+	itema[i]->add_prop(OBJ_I_HIDE, val);}
+	    return 1;
+	}
+    }
+
+    if (!PREV_LIGHT)
+	return light_fail("see");
+
+    if (silent)
+    {
+        notify_fail("Nothing hidden.\n");
+        return 0;
+    }
+    
+    if (!parse_command(str, environment(this_player()), "%i %w %i",
+		       itema, prep, cont)) 
+	return 0;
+    cont = NORMAL_ACCESS(cont, 0, 0);
+    if (!manip_set_dest(prep, cont))
+    {
+        notify_fail(capitalize(vb) + " " + prep + " what?\n");
+	return 0;
+    }
+
+    itema = NORMAL_ACCESS(itema, "manip_drop_access", this_object());
+    if (sizeof(itema) == 0)
+    {
+	notify_fail(capitalize(vb) + " what?\n");
+	return 0;
+    }
+
+    itema = filter(itema, "manip_put_dest", this_object());
+    if (sizeof(itema) > 0)
+    {
+	write("You " + vb + " " + COMPOSITE_DEAD(itema) + " in the " +
+	    gDest->short() + ".\n");
+	say(QCTNAME(this_player()) + " " + vb + "s something in the " +
+	    QSHORT(gDest) + ".\n");
+        for (i = 0 ; i < sizeof(itema) ; i++)
+	    itema[i]->add_prop(OBJ_I_HIDE, this_player()->query_skill(SS_HIDE) / 2 + random(this_player()->query_skill(SS_HIDE)));
+	return 1;
+    }
+    
+  return 0;
+}
+
+/*
+ * inventory - List things in my inventory
+ */
+int
+inventory()
+{
+    object *obarr;
+    string str;
+
+    if (PREV_LIGHT <= 0)
+	return light_fail("see");
+
+    this_player()->add_prop(TEMP_SUBLOC_SHOW_ONLY_THINGS, 1);
+    call_out("remove_temp_prop", 1, ({ this_player(),
+				       TEMP_SUBLOC_SHOW_ONLY_THINGS }));
+    write(this_player()->show_sublocs(this_player()));
+    this_player()->remove_prop(TEMP_SUBLOC_SHOW_ONLY_THINGS);
+    obarr = (object*)this_player()->subinventory(0);
+    obarr = FILTER_SHOWN(obarr);
+    if (sizeof(obarr) > 0)
+    {
+	str = COMPOSITE_DEAD(obarr);
+	write(break_string("You are carrying " + str + ".", 74, 2) +"\n");
+    } else {
+	write("  You do not carry anything.\n");
+    }
+    return 1;
+}
+
+/*
+ * look - Look at something
+ */
+/*
+ * Function name: look
+ * Description:   glances around, examines objects, or looks at pseudo items
+ * Arguments:	  str: tail of look command
+ * Returns:       1: found something to look at
+ *                0: failed to find object
+ * Notify_fail:   several
+ * 
+ * Globals:       gItem:  
+ *                gHolder:
+ * Ex:            look, look at orcs, look inside chest
+ *
+   Documentation of look
+   
+   The look at (in, inside) command has the following features.
+
+   look	
+   	Shows long description of the room and short description of
+   	all visible items in the environment (see do_glance() ).
+
+   look at 'multiple objects'
+     	Show the long description of several objects, carried or in the
+	environment and the short description of object inside transparent
+	objects.
+	
+   look at 'multiple living'
+     	Show the long description of several living in the environment.
+
+   look at 'single living'
+   	Show the long description of one living in the environment and
+	the objects carried by this being.
+
+   look in 'containers'
+     	Show the long description of the containers and short descriptions 
+	their contents.
+
+   look at 'single object'
+     	Shows the long description of the object and if the object is open
+	and a container, shows short descriptions of it contents.
+   
+   look at 'object' carried by 'living'
+   	Shows the short description of the object and if the object is
+	an open or transparent container shows short descriptions of
+	it contents.
+   
+ */
+int 
+look(string str)
+{
+    string          prp,
+                    prplc,
+		    *tmp,
+                    name;
+    int             i;
+    object          *obarr,
+                    *obd,
+                    *obl;
+
+    if (PREV_LIGHT <= 0)
+	return light_fail("see");
+
+    if (!str)
+	return this_player()->do_glance(0);
+    
+    str = lower_case(str);
+    tmp = explode(str, " ");
+    if (sizeof(tmp) > 1 && tmp[1][0] == '0')
+	return 0;
+	
+    /* look at object carried by something non living */
+    /* We shouldn't be able to look at objects inside players presently
+    if (parse_command(str, environment(this_player()), 
+		      "'at' / 'in' / 'inside' %i 'on' / 'carried' [by] %i", 
+		      obarr, obl))
+    {
+	obl = NORMAL_ACCESS(obl, 0, 0);
+	if (pointerp(obl))
+	{
+	    if (sizeof(obl) != 1)
+	    {
+	  	notify_fail("Be specific, who do you want to look at.\n");
+	 	return 0;
+	    }
+	    gHolder = obl[0];
+	    obarr = NORMAL_ACCESS(obarr, "visibly_hold", this_object());
+	    if (sizeof(obarr) == 1 && inside_visible(obarr[0]))
+	    {
+		show_exec(obarr[0]);
+		show_contents(obarr[0]);
+	    } else {
+		map(obarr, "show_exec", this_object());
+	    }
+	    return 1;
+	}
+    }
+    */
+
+    /* test for preposition */
+    if (sscanf(str, "%s %s", prp, name) < 2)
+    {
+	notify_fail("Look needs a preposition with an object.\n");
+	return 0;
+    }
+    prplc = lower_case(prp);
+    if (prplc != "at" && prplc != "in" && prplc != "inside" &&
+	prplc != "prp_examine")
+    {
+	notify_fail("Look at or in something.\n");
+	return 0;
+    }
+    /* through, under, behind, .. ? */
+
+    gItem = lower_case(name);
+
+    if (!parse_command(str, ENV, "%w %i", prp, obarr) ||
+	!sizeof(obarr = NORMAL_ACCESS(obarr, "visible", this_object())))
+    {
+	/* No objects found */
+	/* Test for pseudo item in the environment */
+	if (environment(this_player())->item_id(gItem) &&
+		CAN_SEE(this_player(), ENV))
+	{
+	    write(environment(this_player())->long(gItem));
+	    return 1;
+	}
+	else
+	{
+	    obarr = deep_inventory(environment(this_player()));
+	    obarr = filter(obarr, "visible", this_object());
+	    obarr = filter(obarr, "item_access", this_object()); 
+	    if (sizeof(obarr) > 0) {
+		for (i = 0; i < sizeof(obarr); i++)
+		    write(obarr[i]->long(gItem));
+		return 1;
+	    } else {
+		if (name == "me" || name == "myself")
+		{
+		    write(this_player()->long(this_player()));
+		    return 1;
+		}
+		if (name == "enemy" && this_player()->query_attack())
+		{
+		    write(this_player()->query_attack()->long(this_player()));
+		    return 1;
+		}
+		notify_fail("You find no " + name + ".\n");
+		return 0;
+	    }
+	}
+    }
+
+    if (sizeof(obarr) == 0)
+    {
+	notify_fail("You find no " + name + ".\n");
+	return 0;
+    }
+
+    /* Tries to see the inside of one or sevral containers (non living) */
+    if (prplc == "in" || prplc == "inside")
+    {
+	/* test for not locked */
+	obarr = filter(obarr, "inside_visible", this_object());
+	if (sizeof(obarr) > 0)
+	{
+	    for (i = 0; i < sizeof(obarr); i++)
+	    {
+		show_exec(obarr[i]);
+		show_contents(obarr[i]);
+	    }
+	    return 1;
+	}
+	else if (prplc != "prp_examine")
+	{
+	    notify_fail("You can't see the inside of " + capitalize(name) +
+		".\n");
+	    return 0;
+	}
+    }
+
+    if (prplc == "at" || prplc == "prp_examine")
+    {
+	obd = FILTER_DEAD(obarr);
+	obl = FILTER_LIVE(obarr);
+	if (sizeof(obd) == 0 && sizeof(obl) == 0)
+	{
+	    notify_fail("You find no " + name + ".\n");
+	    return 0;
+	}
+
+	/* if single container we show the contents */
+	if (sizeof(obd) == 1 && inside_visible(obd[0]))
+	{
+	    show_exec(obd[0]);
+	    show_contents(obd[0]);
+	} else
+	    map(obd, "show_exec", this_object());
+
+	/* if a single living being we show carried items */
+	if (sizeof(obl) == 1)
+	    look_living_exec(obl[0]);
+	else
+	    map(obl, "show_exec", this_object());
+
+        /* if we are looking at many dead objects perhaps such an object 
+	 * exists in the room too? If gItem has another singular form then
+	 * we suspect player gave a plural word to look for. Should work
+	 * in most cases. */
+	if (LANG_SWORD(gItem) != gItem &&
+		environment(this_player())->item_id(gItem))
+	    write(environment(this_player())->long(gItem));
+
+	return 1;
+    }
+}
+
+
+/*
+ * examine - Examine something
+ */
+/*
+ * Function name: examine
+ * Description:   pseudonym for  look at, look in, etc
+ * Arguments:	  string str: tail of examine command or exa command
+ * Returns:       1: found something to look at
+                  0: failed to found object
+ * Ex:            examine("knife")
+ *
+*/
+int examine(string str)
+{
+    if (!str || str[0] == '0')
+    {
+	notify_fail("Examine what?\n");
+	return 0;
+    }
+
+    return this_object()->look("prp_examine " + str);
+}
+
+int 
+peek_access(object ob)
+{
+    if (!living(ob) || ob->query_ghost() || ob == this_player())
+	return 0;
+    else
+	return 1;
+}
+
+/*
+ * peek - Peek into someone's inventory, part of someone's inventory.
+ */
+int
+peek(string str)
+{
+    string vb;
+    object *p, *inv;
+    int i, pp_skill;
+
+    vb = query_verb();
+    notify_fail(capitalize(vb) + " at whom?\n");
+
+    if (!str)
+	return 0;
+
+    p = CMDPARSE_ONE_ITEM(str, "peek_access", "peek_access");
+
+    if (!sizeof(p))
+	return 0;
+
+    pp_skill = this_player()->query_skill(SS_PICK_POCKET) / 2;
+    for (i = 0 ; i < sizeof(p) ; i++)
+    {
+	if ((pp_skill + random(pp_skill) > p[i]->query_skill(SS_AWARENESS)) &&
+            (!p[i]->query_wiz_level()))
+	{
+	    inv = all_inventory(p[i]);
+	    p[i]->add_prop(TEMP_SUBLOC_SHOW_ONLY_THINGS, 1);
+	    call_out("remove_temp_prop", 1, ({ p[i],
+				       TEMP_SUBLOC_SHOW_ONLY_THINGS }));
+	    write(p[i]->show_sublocs(p[i]));
+	    p[i]->remove_prop(TEMP_SUBLOC_SHOW_ONLY_THINGS);
+	    inv = (object*)p[i]->subinventory(0);
+	    inv = FILTER_SHOWN(inv);
+	    if (sizeof(inv))
+		write(p[i]->query_The_name(this_player()) +
+                    " is currently in possession of: " +
+                    COMPOSITE_DEAD(inv) + ".\n");
+	    else
+		write(p[i]->query_The_name(this_player()) +
+                    " does not own anything.\n");
+	}
+	else
+	{
+	    tell_object(p[i], "You catch " +
+                this_player()->query_the_name(p[i]) +
+                " rifling through your private belongings!\n");
+	    write("Ooops! " + p[i]->query_the_name(this_player()) +
+                " seems to have caught on to you!\n");
+	}
+    }
+
+    return 1;
+}
+
+/*
+ * put - Put something
+ */
+/*
+ * Function name: put, drop
+ * Description:   put items in environment or cointainers
+ * Arguments:	  str: tail of command string
+ * Returns:       1: did get something
+                  0: failedd to get anything
+ * Notify_fail:   * "Put what?"
+                  * 
+ * Ex:               drop item(s), put item(s) in container
+ *
+ */
+int
+put(string str)
+{
+    object *itema;
+    object *cont;
+    string prep, vb;
+    
+    vb = query_verb(); 
+    notify_fail(capitalize(vb) + " what?\n");
+    
+    if (!str)
+	return 0;
+
+    /* This is done to avoid all those stupid messages 
+       when you try 'drop all' 
+     */
+    silent = 0;
+    if (str == "all")
+        silent = 1;
+    
+    if (parse_command(str, environment(this_player()), "%i", itema)) {
+	
+	itema = CMDPARSE_STD->normal_access(itema, "manip_drop_access",
+		this_object(), 1);
+	if (sizeof(itema) == 0) {
+            if (silent)
+                notify_fail("Nothing moved.\n");
+	    return 0;
+	}
+	itema = filter(itema, "manip_relocate_to", this_object());
+
+	if (sizeof(itema) > 0)
+	{
+	    write("You " + vb + " " + COMPOSITE_DEAD(itema) + ".\n");
+	    say(QCTNAME(this_player()) + " " + vb + "s " + QCOMPDEAD + ".\n");
+	    return 1;
+	}
+    }
+
+    if (!PREV_LIGHT)
+	return light_fail("see");
+
+    if (silent)
+    {
+        notify_fail("Nothing dropped.\n");
+        return 0;
+    }
+    
+    if (!parse_command(str, environment(this_player()), "%i %w %i",
+		       itema, prep, cont)) 
+	return 0;
+    cont = NORMAL_ACCESS(cont, 0, 0);
+    if (!manip_set_dest(prep, cont))
+    {
+        notify_fail(capitalize(vb) + " " + prep + " what?\n");
+	return 0;
+    }
+
+    itema = NORMAL_ACCESS(itema, "manip_drop_access", this_object());
+    if (sizeof(itema) == 0)
+    {
+	notify_fail(capitalize(vb) + " what?\n");
+	return 0;
+    }
+
+    itema = filter(itema, "manip_put_dest", this_object());
+    if (sizeof(itema) > 0)
+    {
+	write("You " + vb + " " + COMPOSITE_DEAD(itema) + " in the " +
+	    gDest->short() + ".\n");
+	say(QCTNAME(this_player()) + " " + vb + "s " + QCOMPDEAD + " in the " +
+	    QSHORT(gDest) + ".\n");
+	return 1;
+    }
+    
+  return 0;
+}
+
+/*
+ * reveal - Reveal something hidden
+ */
+int
+reveal(string str)
+{
+    object *itema, *cont, linked, *obarr;
+    string vb, prep, items;
+    int i;
+    
+    if (!PREV_LIGHT) return light_fail();
+
+    vb = query_verb();
+    
+    notify_fail(capitalize(vb) + " what?\n");  /* access failure */
+
+    if (!str)
+	return 0;
+
+    gFrom = ({});
+
+    /* This is done to avoid all those stupid messages 
+       when you try 'get all' 
+    */
+
+    if (str == "myself" || str == "me")
+    {
+	if (this_player()->reveal_me(1))
+	    return 1;
+	else
+	{
+	    notify_fail("You are already in plain sight.\n");
+	    return 0;
+        }
+    }
+
+    silent = 0;
+    if (str == "all")
+        silent = 1;
+
+    if (parse_command(str, environment(this_player()), "%i", itema))
+    {
+	itema = NORMAL_ACCESS(itema, 0, 0);
+	itema = filter(itema, "hidden_stuff", this_object());
+	if (sizeof(itema) == 0)
+	{
+            if (silent)
+                notify_fail("Nothing revealed.\n");
+	    return 0;
+	} 
+	if (sizeof(itema) > 0)
+	{
+	    for (i = 0 ; i < sizeof(itema) ; i++)
+	        itema->remove_prop(OBJ_I_HIDE);
+	    write("You " + vb + " " + COMPOSITE_DEAD(itema) + ".\n");
+	    say(QCNAME(this_player()) + " " + vb + "s " + QCOMPDEAD + ".\n");
+	    return 1;
+	}
+    }
+
+    if (silent)
+    {
+        notify_fail("Nothing revealed.\n");
+        return 0;
+    }
+
+    gFrom = ({});
+
+    if (parse_command(str, environment(this_player()),
+		      "%s 'in' / 'inside' %i", items, cont))
+    {
+        gContainers = NORMAL_ACCESS(cont, 0, 0);
+	gContainers = filter(gContainers, "hidden_stuff", this_object());
+        gContainers = FILTER_DEAD(gContainers);
+        if (sizeof(gContainers) == 0)
+	{
+            notify_fail(capitalize(vb) + " from what?\n");
+            return 0;
+        }
+
+	if (linked = gContainers[0]->query_room())
+	    obarr = all_inventory(linked);
+	else
+	    obarr = deep_inventory(gContainers[0]);
+
+        if (!parse_command(items, obarr, "%i", itema))
+            return 0;
+
+        itema = NORMAL_ACCESS(itema, "in_gContainers", this_object());
+        if (sizeof(itema) == 0) 
+            return 0;
+
+	for (i = 0 ; i < sizeof(itema) ; i++)
+	   itema->remove_prop(OBJ_I_HIDE);
+	write("You " + vb + " " + COMPOSITE_DEAD(itema) + " from the " +
+	    gContainers[0]->short() + ".\n");
+	say(QCTNAME(this_player()) + " " + vb + "s " + QCOMPDEAD +
+	    " in the " + QSHORT(gContainers[0]) + ".\n");
+	return 1;
+    }
+
+    if (environment(this_player())->item_id(str))
+    {
+	notify_fail("The " + str + " cannot be revealed.\n");
+	return 0;
+    }
+
+    return 0;
+}
+
+int
+hidden_stuff(object obj)
+{
+   if (obj->query_prop(OBJ_I_HIDE))
+	return 1;
+   return 0;
+}
+
+/*
+ * search - Search something
+ */
+int
+search(string str)
+{
+    object *ob, obj;
+    int time;
+    string item, rest;
+
+    if (!str)
+    {
+	notify_fail("Search what?\n");
+	return 0;
+    }
+
+    if (this_player()->query_attack())
+    {
+	write("But you are in the middle of a fight!\n");
+	return 1;
+    }
+
+    if (sscanf(str, "%s for %s", item, rest) != 2)
+	item = str;
+    if (item == "here")
+	ob = ({ environment(this_player()) });
+    else
+	if (!sizeof(ob = FIND_STR_IN_OBJECT(item, this_player())))
+	    if (!sizeof(ob = FIND_STR_IN_OBJECT(item, 
+			environment(this_player()))))
+	        if (!sizeof(ob) && environment(this_player())->item_id(item))
+		    ob = ({ environment(this_player()) });
+
+    notify_fail("You don't find any " + item + " to search.\n");
+    if (!sizeof(ob))
+	return 0;
+
+    obj = ob[0];
+
+    if (obj == environment(this_player()))
+    {
+	write("You start to search " + (item == "here" ? "" : "the ") +
+	    str + ".\n");
+	say(QCTNAME(this_player()) + " starts to search " +
+	    (item == "here" ? "" : "the ") + str + ".\n");
+    } else {
+	if (living(obj))
+	{
+	    this_player()->catch_msg("You start to search " +
+		QTNAME(obj) + ".\n");
+	    obj->catch_msg(QCTNAME(this_player()) + " starts to search YOU!\n");
+	    say(QCTNAME(this_player()) + " starts to search " + QTNAME(obj) + 
+		".\n", ({ obj, this_player() }));
+   	} else {
+            write("You start to search " + COMPOSITE_DEAD(obj) + ".\n");
+            say(QCTNAME(this_player()) + " starts to search " + QSHORT(obj) +
+		".\n");
+	}
+    }
+
+    obj->search_object(str);
+    return 1;
+}
+
+/*
+ * sneak - sneak somewhere.
+ */
+sneak(str)
+{
+    int hiding, *dirs, i, val, bval;
+    string str2;
+
+    if (!strlen(str))
+    {
+	notify_fail("Sneak where?\n");
+	return 0;
+    }
+
+    str2 = SECURITY->modify_command(str, environment(this_player()));
+    if (strlen(str2))
+	str = str2;
+	
+    dirs = environment(this_player())->query_exit_cmds();
+    if (member_array(str, dirs) < 0)
+    {
+	notify_fail("Sneak where?\n");
+	return 0;
+    }
+
+    if (this_player()->query_prop(OBJ_I_LIGHT) &&  
+	(this_player()->query_prop(OBJ_I_LIGHT) > 
+	environment(this_player())->query_prop(OBJ_I_LIGHT)))
+    {
+	notify_fail("You sneak shining like that!\n");
+	return 0;
+    }
+
+    if (objectp(this_player()->query_attack()))
+    {
+	notify_fail("You can't sneak off somewhere while fighting!\n");
+	return 0;
+    }
+
+    hiding = environment(this_player())->query_prop(ROOM_I_HIDE);
+    bval = this_player()->query_skill(SS_SNEAK) * 2 + this_player()->query_skill(SS_HIDE) / 3;
+    bval = (bval - hiding) / 2;
+
+    if (hiding < 0 || bval <= 0)
+    {
+        notify_fail("It's too difficult to sneak from here.\n");
+        return 0;
+    }	
+
+    val = bval + random(bval);
+    this_player()->add_prop(OBJ_I_HIDE, val);
+
+    this_player()->add_prop(LIVE_I_SNEAK, 1);
+    this_player()->command(str);
+
+    hiding = environment(this_player())->query_prop(ROOM_I_HIDE);
+    bval = this_player()->query_skill(SS_HIDE);
+    bval = (bval - hiding) / 2;
+
+    if (hiding < 0 || bval <= 0)
+    {
+        write("It's too difficult to hide in here, you're visible again.\n");
+	this_player()->reveal_me(0);
+	return 1;
+    }	
+
+    if (this_player()->query_prop(OBJ_I_LIGHT) &&  
+	(this_player()->query_prop(OBJ_I_LIGHT) > 
+	environment(this_player())->query_prop(OBJ_I_LIGHT)))
+    {
+	write("You can't hide here, shining like that!\n");
+	this_player()->reveal_me(1);
+	return 1;
+    }
+
+    val = bval + random(bval);
+    this_player()->add_prop(OBJ_I_HIDE, val);
+    return 1;
+}
+
+/*
+ * Function name: track
+ * Description:   look for tracks
+ * Argument:      str - the string given to the command
+ * Returns:       0 - failure
+ */
+int
+track(string str)
+{
+    object  room = ENV;
+
+    if (this_player()->query_attack())
+    {
+        notify_fail("But you are in the middle of a fight!\n");
+        return 0;
+    }
+
+    if (strlen(str) && str != "here")
+    {
+        notify_fail("Track where?\n");
+        return 0;
+    }
+
+    if (!room->query_prop(ROOM_I_IS))
+    {
+        notify_fail("You cannot look for tracks here!\n");
+        return 0;
+    }
+
+    if (room->query_prop(ROOM_I_INSIDE))
+    {
+        notify_fail("You cannot look for tracks inside a room!\n");
+        return 0;
+    }
+
+    if (this_player()->query_mana() < 2*F_TRACK_MANA_COST)
+    {
+        notify_fail("You are mentally too exhausted to look for tracks.\n");
+        return 0;
+    }
+
+    write("You kneel down to examine the ground closely, looking for tracks.\n");
+    say(QCTNAME(this_player()) + " kneels down to examine the ground closely.\n");
+
+    this_player()->add_prop(LIVE_S_EXTRA_SHORT, ", kneeling on the ground");
+    this_player()->add_mana(-F_TRACK_MANA_COST);
+
+    room->track_room();
+    return 1;
+}
+

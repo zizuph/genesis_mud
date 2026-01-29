@@ -1,0 +1,35 @@
+E = entrance.c
+1 = camp1.c
+2 = camp2.c
+a = campa.c
+etc.
+Each room 1-8, and letters a-q has a tent with same number or letter.
+For example in room camp1.c you can 'enter tent' and get to 'tent1.c'.
+In room camp2.c you can 'enter tent' and get to 'tent2.c'.
+
+              
+     \
+     -o
+      |
+      E
+      |
+      1
+     /|\
+    2-3-4        
+   /|x|x|\         
+  a-5-6-7-b
+ /|x|x|x|x|\
+c-d-e-f-g-h-i
+ \|x|x|x|x|/
+  j-k-l-m-n
+   \|x|x|/
+    o-p-q
+     \|/       
+      8
+      |
+      10      
+              
+              
+              
+              
+              

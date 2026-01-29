@@ -1,0 +1,80 @@
+main
+::MAPDATA::
+ksanct4 17 4
+ksanct1 13 6
+ksanct2 17 6
+ksanct3 21 6
+home6 5 8
+kpriory 13 8
+courtk 17 8
+kabbey 21 8
+home1 29 8
+home5 1 10
+court4 5 10
+home7 9 10
+street6n 13 10
+street5n 17 10
+street4n 21 10
+home8 25 10
+court5 29 10
+home9 33 10
+street9 1 12
+street8 5 12
+street7 9 12
+street6 13 12
+green 17 12
+street4 21 12
+street3 25 12
+street2 29 12
+street1 33 12
+proad1 37 12
+pierhouse 55 12
+post 1 14
+court3 5 14
+shop 9 14
+street6s 13 14
+street5s 17 14
+street4s 21 14
+home4 25 14
+court1 29 14
+home2 33 14
+proad2 39 14
+proad3 43 14
+proad6 51 14
+proad7 55 14
+pier 59 14
+pub 5 16
+guardhouse 13 16
+court2 17 16
+school 21 16
+home3 29 16
+proad4 45 16
+proad5 49 16
+pier-mariners 55 16
+townhall1 13 18
+townhall 17 18
+townhall2 21 18
+::MAPDATA::
+                          /\
+                          ||      +
+                          ||______|
+   _____                 /\        \
+  /\    \        o      /  \____^___\             @
+ /  \____\     / | \    |  |   / \  |           @
+ |[]| [] |   o - o - o  |  |   | |  |         @
+                 |                       __[]_
+     o       o - o - o       o          /\  _ \
+     |           |           |         /  \____\
+ o - o - o   o - o - o   o - o - o     |[]| [] |
+     |       | \   / |       |
+ o - o - o - o   o   o - o - o - o - o                 o   ~~~~~~~~~~~~~~~~~~
+     |       | /   \ |       |        \                |      ~~~~~~~~~~~~~~~~
+PO - o - S   o - o - o   o - o - o     o - o       o - o - o    ~~~~~~~~~~~~~
+     |           |           |              \     /    |    Port Macdunn  ~~~~
+    Pub      o - o - o       o               o - o     o    ~~~~~~~~~~~~~~~~
+                 |
+             o - o - o      ___[]_
+                           /\     \
+   =============          /  \_____\
+   Baile Ashlagh          |[]|  [] |
+   =============

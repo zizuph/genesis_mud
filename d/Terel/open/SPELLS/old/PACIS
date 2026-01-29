@@ -1,0 +1,9 @@
+Name:		Pacis
+Object:		/d/Terel/mecien/valley/guild/spells/pacis.c
+Cost:		25 mana, no components
+Skills:		Conjuration, Life, Intelligence, Spellcraft
+Description:	Conjures a spirit of peace, stopping and preventing any
+		fighting in the room.  
+		Duration is random(SS_INT)/2 + random(SS_SPELLCRAFT)/3 + 45
+Requirements:	Wis > 50
+

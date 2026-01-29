@@ -1,0 +1,148 @@
+main
+::MAPDATA::
+t1 18 12 kalaman_city
+t2 18 12 kalaman_city
+t3 18 12 kalaman_city
+t4 18 12 kalaman_city
+n1 18 12 kalaman_city
+n2 18 12 kalaman_city
+n3 18 12 kalaman_city
+n4 18 12 kalaman_city
+n5 18 12 kalaman_city
+n6 18 12 kalaman_city
+n7 18 12 kalaman_city
+n8 18 12 kalaman_city
+e1 18 12 kalaman_city
+e2 18 12 kalaman_city
+e3 18 12 kalaman_city
+e4 18 12 kalaman_city
+e5 18 12 kalaman_city
+g1 18 12 kalaman_city
+g2 18 12 kalaman_city
+g3 18 12 kalaman_city
+g4 18 12 kalaman_city
+g5 18 12 kalaman_city
+g6 18 12 kalaman_city
+w1 18 12 kalaman_city
+w2 18 12 kalaman_city
+w3 18 12 kalaman_city
+w4 18 12 kalaman_city
+w5 18 12 kalaman_city
+w6 18 12 kalaman_city
+w7 18 12 kalaman_city
+s1 18 12 kalaman_city
+s2 18 12 kalaman_city
+s3 18 12 kalaman_city
+s4 18 12 kalaman_city
+s5 18 12 kalaman_city
+s6 18 12 kalaman_city
+s7 18 12 kalaman_city
+s8 18 12 kalaman_city
+s9 18 12 kalaman_city
+s10 18 12 kalaman_city
+::MAPDATA::
+~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~ ,   ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~   ; '', ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~  ;     ',  ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+~~ ~~    ,     ~~ ~~ ~~ ~~ ~~ :        ',  ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~ , ,
+ ~~ ~ ,'' '`\ ~~ ~~ ~~ ~~ ~~,'          : ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~  ,' " '',
+  ~~ :       '; ~~ ~~ ~~ ~    NORDMAAR   ': ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ .'    ,  ;
+ ~~  ;       '   ~~ ~~ ,', '              ;  ~~ ~~ ~~ ~~ ~~ ~    ~~  '[ ]" ';:
+~~  '         '`` ~~  ;   '                '  ~~ ~~ ~~ ~~    ;'': ~~ Winston's
+    ;            '`: ~ ',       /\         : ~~ ~~      ,~ ;'  ' ',  Tower ~~
+ "''                :~~ ,     @/\        [ ]  ~~ ~~  ;"',~ `,SAIFHUM
+            ~~~~~~~,' ~~:     @@/\      Jennison  ~ ,   ;~ ',   ; ~ ~~  :'"'';
+          ~'     [ ],~  ,'    @/\          ; ~~  ,'"    : ~  ',' ~ ~~   ,   :
+ SOLAMNIA      Kalaman `     @/\          , ~~ ,'     ,' ~~ ~~ ~~ ~~ ~ MITHAS,
+     ~                      @/\         ,' ~~ ;      ,' ~~ ~~ ~~ ~~ ~~  :    ;  
+    ~                                 ,'  ~~ :       ; ~ ~         ~ ~~ ,  ,,
+   ~      /\_     ESTWILDE  /\     /\  `,  ,'      :' ~ ~           ~ ~  "" ~
+  ~      /\  \  ^  PLAINS         /\     `'  KERN ; ~ ~              ~ ~~ ~~
+         [#]/\            ^      /\      /\     ,' ~ ~ ~  Blood Sea ~ ~~:'"''; 
+        Dargaard    ^        /\         /\    /\ :  ~ ~   of Istar  ~ ~~`   ;
+        Keep /\               /\       /\ @@@/\   ;  ~ ~ ~         ~ ~~ `,  ,
+         /\            [^]   /\       /\_ @@@/\  ; ~ ~ ~ ~ ~      ~ ~~ ~~ ""
+           /\         Iron           /\  \@@/\  ;  ~~ ~~ ~~ ~~ ~~ ~~ ~ KOTHAS
+         @/\ /\       Delving            /\/\    '   ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+        @/\_
+
+::NEWMAP::
+kalaman_city
+::MAPDATA::
+t1 40 3
+t2 50 17
+t3 40 3
+t4 50 17
+n1 38 3
+n2 36 1
+n3 34 1
+n4 32 1
+n5 30 3
+n6 28 5
+n7 26 7
+n8 24 9
+e1 38 5
+e2 38 7
+e3 38 9
+e4 45 17
+e5 47 17
+g1 39 11
+g2 41 13
+g3 43 15
+g4 20 16
+g5 22 14
+g6 24 12
+w1 28 33
+w2 26 31
+w3 24 29
+w4 22 27
+w5 20 25
+w6 20 22
+w7 20 19
+s1 50 19
+s2 50 21
+s3 48 23
+s4 42 29
+s5 40 31
+s6 38 33
+s7 36 33
+s8 34 33
+s9 32 33
+s10 30 33
+::MAPDATA::
+
+                                o-o-o           
+ -= Battlements of             /     \
+    Kalaman city =-           o       o-u   
+                             /        |/
+                            o         o
+                           /          |
+                          o           o
+                         /            |
+                        o             o
+                        |             \
+         Solamnian      |             [d]
+         Plains        [d]              \ 
+                       /                 o     
+                      o                   \    
+                     /      Kalaman       [d]     
+                   [d]       City           \   
+                    |                        o-o--u
+                    |                           \ |
+                    o                             o
+                    |                             |
+                    |                             o
+                    o                            /
+                    |                           o
+                    |                          /
+                    o                         /
+                     \                       /
+                      o                     /
+                       \                   /
+                        o                 o
+                         \               /
+                          o             o
+                           \           /
+                            o-o-o-o-o-o
+

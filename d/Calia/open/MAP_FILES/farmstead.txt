@@ -1,0 +1,28 @@
+Farmstead along Alpharon road
+::MAPDATA::
+aroad17 11 14
+aroad18 16 14
+barn 36 10
+farmhouse 12 6
+farmyard 20 6
+field 29 3
+toolshed 16 3
+trail 20 10
+::MAPDATA::
+
+    ^        Shed            Field
+   /|\        ___        @@@@@@@@@
+              ||o|       @@@ o @@@   ^
+         _____   .       @@@@@@@@@  / \  ^
+        /\    \   .   .              |  / \
+        | | o | ... o                    |
+                    | .      _______  
+     Farmhouse      |  .    /   \   \_
+    ^               |   .   |   |     \_/|
+   /|\              o    . .|   |   o    |
+    |              /
+                  /        Partially collapsed barn
+                 /
+     < ----o----o---- > Alpharon road
+ To the City
+  of Argos

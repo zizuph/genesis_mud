@@ -1,0 +1,151 @@
+
+LOGS
+
+* Logs for each event are in 
+  /d/Gondor/private/events/events/logs/<exp>_<wizard>.log
+* Log for rewards is in 
+  /d/Gondor/private/events/events/logs/reward.log
+* Log for mortal comments (in some cases we give the ability
+  to comment to mortals after an event.)
+  /d/Gondor/private/events/events/logs/comments.log
+* Other comments from mortals are collected in:
+  /d/Gondor/private/events/events/logs/comments_other.log
+* Log for event_tool moving is in 
+  /d/Gondor/private/events/events/logs/tool.log
+* Logs for event_tool creations is in 
+  /d/Gondor/private/events/events/logs/creations.log
+
+EXPERIMENTS
+
+Exp Date    Begin  End  Event       Wizards    Mortals    Reward
+----------------------------------------------------------------------------
+001 02oct00 16:00 16:31 01_find     Stern      Fili     
+                                               Mim
+                                               Bosmar     25K(gen)    
+                                               Leopold
+002 02oct00 20:00 21:00 01_find     Stern      Miclo
+                                               Morpheus
+                                               Melbo
+                                               Tauron     25K(gen)
+                                               Elsach
+003 02oct00 21:01 21:40 01_find     Stern      Miclo
+                                               Morpheus
+                                               Tauron         
+                                               Elsach     25K(gen)
+004 02oct00 21.41 22:00 02_team     Stern      Elsach     15K(gen)
+                                               Miclo
+                                               Morpheus
+                                               Krillin    2.5K(gen)
+                                               Varilion   2.5K(gen)
+005 03oct00   1 hour    05_rp       Stern      Sylke      15K(gen) + 6 attanar
+                                               Elsach
+                                               Vanessa
+006 06oct00   30 min    05_rp       Stern      Sylke      5K(gen) 
+                                               Artamir
+                                               Vilraen
+007 07oct00   30 min    05_rp       Stern/Gwyn Fili       failed.
+008 07oct00 18:00 18:40 01_find     Stern      Birder
+                                               Karpath    25K(gen)
+                                               Willie
+                                               Zap
+008 07oct00 18:50       01_find     Stern      Birder     failed
+                                               Karpath  
+                                               Willie
+                                               Zap
+009 08oct00 30 min      05_rp       Stern      Nitramin   7k(gen)
+                                               Elsach
+                                               Rugogold
+                                               Vanessa
+010 08oct00 1 hour      06_q_key    Stern      Eldior     3K(q)
+                                    Gwyneth    Vilraen    3K(q)
+011 08oct00 30 min      07_q_stone  Gwyneth    Elsach     3K(q)
+                                    Stern      Imrazor    3K(gen) + 500 (q)
+                                               Eldior     3K(gen) + 500 (q)
+                                               Hannes     3K(gen) + 500 (q)
+                                               Leimgraill 3K(gen) + 500 (q)
+012 09oct00 1 hour      01_find     Stern      Lysander   25K(gen)
+                                               Mim
+                                               Sylke
+                                               Vanessa
+013 10oct00 15 min      05_rp       Stern/Gwyn Trout      failed miserably
+014 13oct00 90 min      05_rp       Stern/Gwyn Eldior     5K(gen) + 5K(gen)
+                                               Lysander   5K(gen) + 10K(gen)
+015 16oct00 30 min      05_rp       Stern/Gwyn Vanessa    1K(gen) not impressed
+016 19oct00 15 min      05          Stern      Smokey     1K(gen)
+017 21oct00 4 hours     03_q_kidnap Stern/Gwyn Eldior     10K(q)  + 25K(gen)
+                                               Deagol     5K(q)   + 12.5K(gen)
+                                               Vanessa
+018 28oct00 60 min      06_q_key    Stern/Gwyn Armitace   3k(q)
+                                               Vanessa    3k(q)
+                                               Valdar     3k(q)
+                                               Porcelio   3k(gen)
+019 12nov00 60 min      08_g_leaves Stern/Gwyn all mortals
+                                               Lindros    25K(gen)
+                                               Swan       25K(gen)
+                                               Budwise    25K(gen)
+                                               Amberlee   25K(gen)
+                                               Eldior     25K(gen) 
+                                               Belnop     25K(gen)
+020 12nov00             01_find     Stern      Budwise    25K(gen)
+                                               Lindros 
+                                               Swan 
+                                               Zedar 
+                                               Mariuz 
+                                               Losfindel 
+                                               Eldior 
+                                               Nellnight    
+021 12nov00 20 min      02_team     Stern      Budwise
+                                               Trax       10k(gen)
+                                               Nellnight  2.5K(gen)
+022 15nov00 10 min :(   08_g_leaves Stern/Gwyn Losfindel  25K(gen)
+                                               Hawkwood   25K(gen)
+                                               Ithenok    25K(gen)
+From now on we will give some quest exp with any event.
+Even if its just 100 points or so, it will be something permanent.
+
+023 16nov00 60 min      09_g_nuts   Stern/Gwyn all mortals
+(Aborted halfway due to global bug)            Achdram   25K(gen) + 500(q)
+                                               Deagol    15K(gen) + 200(q)
+                                               Nitramin  10K(gen) + 100(q)
+024 17nov 60 min        09_g_nuts   Stern/Gwyn all mortals
+                                               Achdram   25K(gen) + 500(q)
+                                               Etanukar  15K(gen) + 200(q)
+                                               Eldior    10K(gen) + 100(q)
+025 24nov00 60 min      08_g_leaves Stern      all mortals
+                                               Morbo     25K(gen) + 500(q)
+                                               Lysander  15K(gen) + 200(q)
+                                               Ceres     5K(gen)  + 50(q)
+                                               Adriel    5K(gen)  + 50(q)
+026 24nov00 60 min      09_g_nuts   Stern      all mortals
+                                               Malach    25K(gen) + 500(q)
+                                               Ceres     15K(gen) + 200(q)
+027 11dec00 60 min      06_q_key   Stern/Gwyn  Deran     15K(gen) + 3k(q)
+                                               Lysander  15K(gen) + 3k(q)
+                                               Kheldor   15K(gen) + 3k(q)
+028 24/25dec00             santa      Stern/Gwyn  santa gives a toy bug.
+                                               Deagol, Rhynox, Rumper, Ararauna
+                                               Zedar, Ceres, Willy, Solgaemi
+                                               Losfindel, Earth, Borderux,Kavia
+                                               Adriel, Nika, Algavins, Akhan
+                                               Pur, Auin, Sarenkir, Gengar
+                                               Smog,Sophie,Kunitoki,Taz
+                                               Mersereau,verena,sprocket
+                                               Eagledraco, Abeni, Jason,
+                                               Razzoo, Grampal, Murdock,
+                                               Barleycorn Giltanas, Blob
+                                               Nomm, Falkor, Toby, Valandir
+                                               Rugogold, Hulk,Xerxes,Zip,
+                                               Ladindell,Orca,Mim, Lysander
+                                               Ketan, Jediondo
+029 28dec00 150 min     03_q_kidnap Stern/Gwyn Belnop    6k(q) + 20k(gen)
+                                               Morpheus  3k(q) + 10k(gen)
+                                               Lysander  3k(q) + 10k(gen)
+                                               Lancej    4k(q) + 15k(gen)
+                                               Galadur   3k(q) + 10k(gen)
+                                               Sylke     1k(q) + 5k(gen)
+030 29dec00  60 min     05_rp       Stern/Gwyn Sunui (Son He) 100(q) + 5k(gen)
+031 09jan01             lostranger  Stern/Gwyn Ladindell 2k(q)+ 10k(gen)
+                                               Zedar     1k(q) + 5kgen)
+                                               Lysander  1k(q) + 5kgen)
+                                               Alexus    1k(q) + 5kgen)
+                                               (Deran, Daeron)

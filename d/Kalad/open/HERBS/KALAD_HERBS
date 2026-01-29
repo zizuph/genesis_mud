@@ -1,0 +1,28 @@
+herb files in /d/Kalad/common/herbs/
+Feel free to use the ones that don't have a '%' in the comments. Those
+with the '%' are Raumdor-specific only.
+
+
+Kalad:                       str  id find decay value comment terrain
+blade          SPECIAL skill  40  60   12  1200  3600         forest,swamp
+bloodweed      HEAL    hp   -100  25    6  1000    80       * forest,swamp
+dajla          HEAL    hp   -400  35    3  1000   100      %* forest
+darfern        none               15    3  2500     6      %* forest,swamp
+drudgeworth    ENHANCE dex    -8  35    4   600    30       * forest,swamp
+flameroot      ENHANCE fire    4  35    9  2300  1000       * forest
+fungari        CURE    poi   100  50   18  1200  4000         swamp
+glowshroom     SPECIAL light  #2  35    4  1000   700         forest,swamp
+kuko           SPECIAL skill  20  30    6  2800  1500         forest,jungle
+lore           ENHANCE int    20  35    5  1900  1800         forest
+numbis         ENHANCE poison 10  40    8  2000  2000      %* forest
+mandrake       HEAL    mana   30  45    5  4000   750         forest,swamp
+mindleech      HEAL    mana -500  35    5  1200    15       * forest
+nightshade     POISON  hp     #1  50    8  1000    80       * forest,swamp
+redeye         HEAL    hp     10  30    5  2000   100      %* forest
+vinerot        HEAL    fat  -500  30    5  1500    20      %* forest,swamp
+
+#1 poison -> str = 50; interval = 1; hp = -100; time = 500;
+#2 herb glows light level 1: when eaten, makes eater glow 1 level for 
+   120-179 seconds long.
+* Used as a spell component for the Khiraa
+

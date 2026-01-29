@@ -1,0 +1,105 @@
+/* File:          /d/Khalakhor/common/domain_office.c
+ * Coder:         Teth
+ * Date:          March 26, 1997
+ * Modifications:
+ * Purpose:       The domain office is Khalakhor's public relations
+ *                room with mortals and other wizards.
+ * Related Files: /d/Khalakhor/open/project/
+ * Comments:      
+ */
+
+#include "/d/Genesis/start/human/town/tower.h"
+
+inherit TOWER_OFFICE;
+
+create_tower_office()
+{
+    set_short("A battlefield in Khalakhor");
+
+    set_long("The acrid stench of death permeates the air. Mist born of " +
+      "spilled blood veils the highland, obscuring vision and dampening " +
+      "sound. The keening wail of bagpipes echoes through the fog, " +
+      "however, playing a hymn of mourning. Corpses of humans, goblins " +
+      "and dwarves, all wearing tartan, mar the patches of blooming " +
+      "thistle and heather. Barely noticeable through the fog, several " +
+      "people are blessing and burying the dead some distance away. " +
+      "A piece of tattered sheepskin hangs from an upright claymore. " +
+      "A large, IMPORTANT-LOOKING banner hangs suspended from the remains "+
+      "of a broken pike embedded in the ground, waving slowly in wind.\n");
+
+    add_item(({"stench","acrid stench","stench of death"}), "The " +
+      "stiffened corpses surrounding you are the contributing factor.\n");
+    add_item(({"mist","fog"}),"It lends a grey pall to this scene of " +
+      "recent war.\n");
+    add_item(({"blood","spilled blood"}),"A crimson hue is added to the " +
+      "soil it has stained.\n");
+    add_item("soil","The soil is stained crimson from blood.\n");
+    add_item("scene","@@query_long");
+    add_item(({"wail","keening wail"}),"BBLLLLLLEEEEEEUUUUUUUUUUURRR" +
+      "UUUUUUUURRRRRRRRRRR!\n");
+    add_cmd_item(({"to bagpipes","to wail","to keening wail"}),"listen",
+      "BBLLLLLLEEEEEEUUUUUUUUUUUUUUUUUURRRRUUUUUUUUUUUURRRRRRRRRRR!\n");
+    add_item(({"hymn","hymn of mourning","song"}),"The song is obviously " +
+      "in honour of the fallen.\n");
+    add_item("tartan","The tartan appears to symbolize some form of clan " +
+      "membership.\n");
+    add_item(({"corpses","human corpses","goblin corpses","dwarf corpses",
+      "dwarven corpses","corpses of humans","corpses of goblins",
+      "corpses of dwarves","stiffened corpses"}),"The corpses " +
+      "dot the war-ravaged scene, a reminder that battles are grim " +
+      "and violent.\n");
+    add_item(({"banner","large banner"}), "A flowing script is " +
+        "emblazoned across the banner, which can probably be read.\n");
+    add_item("corpse","No specific corpse deserves any attention.\n");
+    add_item(({"patches of thistle","thistle","blooming thistle",
+      "thistles"}),"The patches of thistle are stained with the blood " +
+      "of the combatants, the blood flecks spoiling the purple of the " +
+      "flowers.\n");
+    add_item(({"patches of heather","heather","blooming heather"}),
+      "The small blossoms of heather support drying blood, that has " +
+      "sprayed onto them from the battle of the day before.\n");
+    add_item(({"people","several people"}),"You are unable to see much " +
+      "detail, but it seems that they are magic users of sorts, perhaps " +
+      "clerics.\n");
+    add_item(({"claymore","upright claymore"}),"The blade of the " +
+      "claymore is embedded in the ground.\n");
+    add_item("blade","It is sharp, and covered with blood.\n");
+    add_cmd_item(({"claymore","upright claymore"}),({"take","get"}),
+      "The claymore is too firmly embedded in the ground.\n");
+    add_item(({"piece of sheepskin","sheepskin","skin",
+      "tattered sheepskin"}),"The sheepskin bears marks scrawled in " +
+      "blood.\n");
+    add_item(({"marks","scrawled marks"}),"The scrawled marks seem to " +
+      "be readable.\n");
+    add_cmd_item(({"marks","scrawled marks"}),"read","@@skin");
+    add_cmd_item(({"piece of sheepskin","sheepskin","skin",
+      "tattered sheepskin"}),({"get","take"}),"As you get close enough " +
+      "to take the sheepskin, the mists surround you and you find " +
+      "yourself grasping nothing. The claymore with the sheepskin is " +
+      "now three meters away.\n");
+    add_cmd_item(({"banner","large banner","script"}), "read",
+        "@@banner");
+
+    add_tower_link("tower");
+
+    set_project_dir("/d/Khalakhor/open/project/");
+
+    disable_logged_in_display();
+
+//  add_exit("/d/Genesis/start/human/town/tfloor4", "out");
+}
+
+string
+skin()
+{
+    return "The scrawled marks on the sheepskin read:\n\n" +
+    "wizards : Lists the wizards of the Khalakhor domain.\n" +
+    "projects <domain/wizard> : The projects of the domain/wizard.\n\n";
+}
+
+string
+banner()
+{
+    return "Khalakhor is currently accepting applications " +
+        "from mortals for wizhood.\n";
+}

@@ -1,0 +1,56 @@
+       ______________________________________________________________________
+     ,`--------------------------------------------------------------------,--
+    .                                                                     .
+    :  |0|                                                           |0|  :
+    |                          HELPERS NEEDED:                            |
+    |        TRAPPED SOULS MUST BE RELEASED FROM IMBUED OBJECTS           |
+    |                                                                     |
+    | In your travels, you may find items that are "unusual", "peculiar", |
+    | or even "exotic". Many adventurers might feel compelled to equip    |
+    | such objects, due to the fact that they have been imbued with       |
+    | strange and sometimes very powerful magic due to the melding of     |
+    | spirit and matter.                                                  |
+    |                                                                     |
+    | It is of supreme importance to me, however, that all such objects   |
+    | be disenchanted, for the spirits within are the torn and fragmented |
+    | souls of innocent victims. Thus, I offer the following services to  |
+    | any who would bring me such objects:                                |
+    |                                                                     |
+    | <identify>       I will tell you detailed information about the     |
+    |                  powers this item has gained (cost: 2 platinum)     |
+    |                                                                     |
+    | <disenchant>     I will release the trapped spirit, destroying the  |
+    |                  object in the process (you receive: 5 platinum)    |
+    |                                                                     |
+    | <transmogrify>   Using complex methods of enchanting craft, I will  |
+    |                  release the trapped spirits in such a way that the |
+    |                  powers they possessed do not disperse, but are     |
+    |                  stored for future use in your own crafting work.   |
+    |                  (no cost, but one or more nullstones are required) |
+    |                                                                     |
+    | <buy nullstone>  I will sell you a nullstone, the reagent needed    |
+    |                  to capture powers released during the process of   |
+    |                  transmogrification (cost: 25 platinum)             |
+    |                                                                     |
+    | <buy lapidarium> Purchase a storage device for the various stones   |
+    |                  you may collect for crafting enchantments. It will |
+    |                  protect stones as a bank protects your coins.      |
+    |                  (cost: 10 platinum)                                |
+    |                                                                     |
+    | <buy amulet>     Purchase an amulet of diminution. This object will |
+    |                  allow powerful individuals to enter the orc        |
+    |                  dungeons undetected. (cost: scales to individual)  |
+    |                                                                     |
+    | <imbue>          Using some of the unstable excess stores of power  |
+    |                  I have collected from disenchantments, I will      |
+    |                  imbue an object of your choosing. The results are  |
+    |                  entirely uncertain. (cost: 1000 platinum)          |
+    |                                                                     |
+    |  Those of you who wish to pursue the art of enchantment craft will  |
+    |  first be required to assist me with the problems which have led    |
+    |  to this situation in the first place. You may <ask> me about       |
+    |  "tasks" if you wish to learn more of these matters.                |
+    |        _.-.__                                                       |
+    |   .---'      `-----.__       ______.--------.__                     |
+    | /                      \  .-'                   ---.___          _  |
+    ,'                        \;                              `-._____; `.|

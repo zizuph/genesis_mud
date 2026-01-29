@@ -1,0 +1,9 @@
+Name:         Vocare
+Object:       /d/Terel/mecien/valley/guild/spells/vocare.c
+Cost:         10 mana, only in certain locations
+Skills:       Conjuration, Life, Death, Wisdom
+Description:  Conjures certain spirits to teach players certain skills.
+              Can only be used in certain locations to summon specific
+              entities.  Duration of the entity is 60 + Wis.
+Requirements: Wis > 15
+

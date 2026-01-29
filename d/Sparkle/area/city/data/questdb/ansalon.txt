@@ -1,0 +1,38 @@
+domain,quest desc,group,bit,hint,validation,arguments
+Ansalon,Ballista Tour,0,0,ballista.txt,default
+Ansalon,Free Sanction Slave,0,1,free_sanction.txt,default
+Ansalon,Return Rat to Kendermore Dwarf,0,2,rat.txt,default
+Ansalon,Recover Hacchak,0,4,hacchak.txt,default
+Ansalon,Discover Ferret Name,0,5,ferret.txt,default
+Ansalon,Venerate Nature,0,6,venerate_nature.txt,default
+Ansalon,Return Sword to Wounded Knight,0,10,wounded_knight.txt,default
+Ansalon,Recover Sword for Fermammon,0,11,fermammon.txt,default
+Ansalon,Job for Satania,0,12,satania.txt,default
+Ansalon,Return Handkerchief to Princess,0,13,handkerchief.txt,default
+Ansalon,Free Slave Girl,0,14,slave_girl.txt,default
+Ansalon,Free and Help Merchant,0,15,merchant.txt,default
+Ansalon,Dougan Redhammer,0,16,redhammer.txt,default
+Ansalon,Recover Solamnian Armour,0,17,armour.txt,default
+Ansalon,Bloodsea Treasure Hunt,0,18,treasure.txt,default
+Ansalon,Export Brewer's Quest,1,0,brewery1.txt,default
+Ansalon,Brew Champion Quest,1,1,brewery2.txt,default
+Ansalon,Dragonarmy Guru Quest,3,0,,is_dragonarmy
+Ansalon,Guild Related Bit,3,1,,always_false,3,1
+Ansalon,Guild Related Bit,3,2,,always_false,3,2
+Ansalon,Guild Related Bit,3,3,,always_false,3,3
+Ansalon,Guild Related Bit,3,4,,always_false,3,4
+Ansalon,Neidar Guru Quest,3,5,,is_neidar
+Ansalon,Guild Related Bit,3,6,,always_false,3,6
+Ansalon,Guild Related Bit,3,7,,always_false,3,7
+Ansalon,Guild Related Bit,3,8,,always_false,3,8
+Ansalon,Guild Related Bit,3,9,,always_false,3,9
+Ansalon,Guild Related Bit,3,10,,always_false,3,10
+Ansalon,Guild Related Bit,3,11,,always_false,3,11
+Ansalon,Guild Related Bit,3,12,,always_false,3,12
+Ansalon,Guild Related Bit,3,13,,always_false,3,13
+Ansalon,Guild Related Bit,3,14,,always_false,3,14
+Ansalon,Guild Related Bit,3,15,,always_false,3,15
+Ansalon,Guild Related Bit,3,16,,always_false,3,16
+Ansalon,Guild Related Bit,3,17,,always_false,3,17
+Ansalon,Guild Related Bit,3,18,,always_false,3,18
+Ansalon,Guild Related Bit,3,19,,always_false,3,19

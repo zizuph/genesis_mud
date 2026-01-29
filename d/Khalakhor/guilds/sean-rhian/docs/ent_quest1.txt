@@ -1,0 +1,225 @@
+------------------------------------------------------------------------
+                ENTRANCE QUEST FOR THE ORDER OF SEAN-RHIAN
+------------------------------------------------------------------------
+General Description:
+   The entrance quest is designed to allow the "aspirant" to show his
+   "worthiness" to enter the guild through perserverance and to allow
+   him to offer worship to the three levels of diety in the faith,
+   namely the Solsheyderi (demi-gods/"saints"), the Archangel (minion
+   of Order of Triad) and Ardaugh (Order of Triad). It involves the
+   player thoroughly investigating the entire domain, finding clues
+   and materials as to what to do.
+   The quest is divided into 4 parts, an intro and then 3 rites. Each
+   part may be done individual (like 4 subquests, though XP isn't added
+   until the last part is completed.) The primary clue for the entire
+   quest is a book called "The Revelation to Ossian" found in the kirk.
+   The aspirant must be given a shamrock pendant (an autoloading object)
+   which activates many parts of the quest and gets him cooperation
+   from manachs when necessary. It also saves his current level of progress.
+ 
+Skill Requirements:
+   SS_AWARENESS:       10
+   SS_ANIMAL_HANDLING: 10
+   SS_HERBALISM:       never checked, but useful for finding herbs
+   SS_ALCHEMY:
+   SS_LANGUAGE:
+ 
+Steps:
+I. Initial Start
+   1. The aspirant is "chosen" according to the guild rules.
+   2. He is given the copper shamrock pendant. An inscription written on
+      the pendant is the first clue, "Seek Wisdom in the Mysteries of Ossian."
+      Having the pendant in his possession is what defines the player
+      as an aspirant for the purposes of the quest.
+ 
+      obj: sr/armour/shampend.c (autoloading - saves current level, init 0)
+ 
+   3. The aspirant finds the book "Ashlish Ossian - The Revelations to
+      Ossian" by searching the bookshelf in the manach's "living room"
+      This book is a highly symbolic story of Ossian, an ancient Oracle
+      of the Order, to whom visions were given. The visions symbollically
+      describe the rites the aspirant must perform and are thus the major
+      clue for the entire quest. The book can be found by anyone, but
+      can only be read by an aspirant.
+ 
+      room:  kirk/room/kcham1.c
+      skill: SS_AWARENESS>=10
+      cmd:   'search bookshelf'
+      obj:   sr/book/ossian.c
+ 
+II. Prayer for wisdom
+    The first "sign" of Ossian describes an angel who kneels before the
+    sun with the tricircum icon on its face and says a prayer for
+    wisdom. This symbolizes the monstrance (which looks like the sun
+    described) in the tabernacle of the kirk. The clue to the exact
+    wording of the prayer is found on a window in the Tabor Sogh kirk,
+    which has a sun with a tricircum on it.
+ 
+    1. Find the clue to the wording of the prayer.
+       room:  tabor/room/kirk1.c
+       cmd:   'exa south window', 'read inscription'
+    2. Find the monstrance on the small altar in the tabernacle.
+       room:  kirk/room/ktabernacle
+    3. 'kneel'
+    4. 'pray for wisdom in the mysteries of ardaugh'
+    5. The aspirant receives a little "good job, move to next step"
+       vision and the pendant changes from copper to silver.
+ 
+III. Praise of the Solheyderi
+   This major step requires the aspirant to do many things in preparation
+   for a rite of praise to the Solsheyderi in the kirk sanctuary.
+   A. Collect ingredients for making of 9 colored candles:
+      1. Getting the beeswax
+         a. Find the beekeeper's hives in Tabor Sogh. Must 'climb tree'
+            in a bk_groveX room to get into the tree, bk_treeX room.
+            Attempts at getting the honeycombs without a beekeeper's suit
+            results in NO honeycombs plus angry stinging poisonous bees
+            attacking. About 10 bees fly out of the hive with each attempt
+            and auto-attack. Stings "hurt" and poison causes weariness.
+            Bees will chase an enemy as far as the ends of the trail
+            leading from the plains into the village. The bees get tired
+            and "go home" after about 3 minutes of attacking.
+ 
+            room:  tabor/room/bk_tree1-5.c, bk_grove1-5.c
+            cmd:   'take comb from hive' (doesn't really want to do this)
+            npc:   tabor/npc/bee.c
+ 
+         b. Get a beekeepers suit (hopefully before trying 'take comb
+            from hive' in previous step) from the shop in Tabor Sogh.
+            1. 'exa shelves' -> list of items for sale + "an old dirty box"
+            2. 'exa box' -> an old leater suit, prolly garbage.
+            3. 'ask conner suit' -> he puts one up for sale
+            4. 'buy suit'/'wear suit' (over entire body)
+ 
+            room:  tabor/room/shop.c
+            npc:   tabor/npc/shopkeeper.c
+            obj:   tabor/arm/bk_suit.c
+ 
+         c. Get nine honeycombs - go back to trees.
+            1. 'take comb from hive' - while wearing suit
+               Bees fly out, but don't attack or chase. They are agressive,
+               and so will attack anyone in the room not wearing a suit.
+               If the player removes the suit in their presence, the bees
+               will attack. If the player rewears the suit, the bees
+               continue to attack and follow, but can't sting the player.
+ 
+            obj:  tabor/obj/honeycomb.c
+ 
+            2. player must eventually dry the honeycombs before they can
+               be used.
+               'suck honey from comb' - player "eats" honey
+               'squeeze comb'         - honey runs on ground, disappears
+ 
+      2. Getting the candle wicks
+         a. Find the shepherd's farm on the plains and ask his wife for
+            shears to shear the sheep. For a small price, he gets shears.
+            'ask wife to borrow shears' -> for 12cc, wife "lends" shears
+ 
+            room:  plains/room/home_27_9.c
+            npc:   plains/npc2/shep_wife.c
+            obj:   plains/wep/sheep_shears.c
+ 
+         b. Find a sheep in the pasture and shear it to get a bale of wool.
+            Wife warns player to return shears to her and threatens
+            evil magic if he doesn't, but nothing really happens.
+            'wield shears'
+            'shear sheep with shears'
+            ('give shears to wife' back in home, not req.)
+ 
+            room:  plains/room/plains_28_7 - 30_9 (nine square - pasture)
+            npc:   plains/npc2/sheep.c
+            skill: SS_ANIMAL_HANDLING 10
+            obj:   plains/obj/wool_bale.c
+ 
+         c. Spin the wool into a spool of candle wick using the spinning
+            wheel found in a home in Tabor Sogh.
+            'switch wick'               -> can spin thread, wick, rope
+            'load bin with wool'        -> bale of wool removed from player
+            'spin wheel' 10 times
+            'remove spool from spindle' -> get spool of candle wick.
+ 
+            room:  tabor/room/home_9.c
+            obj:   tabor/obj/spinning_wheel.c
+                   tabor/obj/spool_wick
+ 
+      3. Collect the needed herbs.
+         Certain herbs are used to color the candles. Clues to which herb
+         to use are found in the windows of the kirks. Though some herbs
+         can be found in several places, the following rooms ensure a
+         ready supply for an aspirant, if they find them. Unless otherwise
+         noted, the command to get the herb is 'search here for herbs'
+ 
+         plains_24_9:       hawthorn     shrub next to river
+         plains_26_9:       dandelion    yard of shepherd's home
+         plains_2_2:        fireweed     old burnt-out campfire on plains
+         plains/tfor_a_5:   hazelnut     growing in forest
+         kirk/kgarden7:     shamrock     growing on graves of martyrs
+         ashlagh/green:     holly        holly tree growing in town square
+         tabor/bk_grove3:   blueberry    'pick berry from bush' in grove
+         plains_28/29/30_9: honeysuckle* 'pick flower from vine' on fence
+         kirk/kgarden1:     lilac*       'pick flower from shrub' in garden
+         * - same herbs used in incense quest
+ 
+   B. Make the candles
+      1. Find a mortar and pestle in the kirk apothecary on the workbench.
+         Instructions on use with 'help mortar'
+ 
+         room:  kirk/kapothecary
+         obj:   sr/tool/cmortar.c pestle.c
+ 
+      2. Find the candlewraught in the candle shop of the kirk. Instructions
+         on use are on the machine. For each candle:
+         'cut wick from spool with <knife>' - with any knife & spool of wick
+         'thread wick through hole in mold'
+         'drop honeycomb in vat'
+         'light coals'           -  wait for wax to melt
+         'put herb in mortar'
+         'grind herb into powder with pestle'
+         'take powder from mortar'
+         'drop powder in vat'    - add herbal powder for color
+         'open spiggot'          - drain hot colored wax into mold with wick
+         'extinguish coals'      - allow to cool; wait till wax hardens
+         'take candle from mold'
+ 
+         room:  kirk/kcandles.c
+         obj:   sr/tool/cwraught.c,    cmortar.c, pestle.c
+                tabor/obj/honeycomb.c, wick.c,    spool_wick.
+                sr/objects/powder.c,   hmcandle.c
+                any knife
+                herbs listed above.
+         skill: SS_ALCHEMY             needed to use mortar/pestle
+ 
+   C. Perform the rite.
+      1. Get a book of canticles needed from the manachs in Tabor Sogh.
+         The book is on the altar, and the manachs won't let anyone
+         but an aspirant disturb the altar. Occassionally, a manach
+         picks up the book and goes around chanting canticles from the
+         book to the windows in the village kirk. Major hint on how
+         player is to use the book. 'take book from altar'
+ 
+         room:  tabor/room/kirk5
+         obj:   sr/book/canticles.c
+ 
+      2. With the nine colored candles and the book of canticles, the
+         player is ready to perform the rite. For each window in the
+         (main) kirk sanctuary, there is a pedestal. Which candle and
+         which canticle for each window determined by hints in window.
+         In ksanct1 and 3, there are 2 pedestals/windows each, so
+         the player must specify "west/south/east" pedestal for those.
+         For each window, the player does:
+ 
+         'light <color> candle'
+         'put <color> candle on [which] pedestal'
+         'turn page <p#>' - for correct canticle/oran
+         'chant canticle' - aspirant "cants" lines of the canticle
+ 
+         The candle "reponds" by flickering brightly if the correct
+         candle and chant were used. Candle blows out if not.
+ 
+         room:  kirk/ksanctX.c
+         obj:   sr/book/canticles.c
+                sr/objects/hmcandle.c (9 from prev. step)
+ 
+      3. As soon as the ninth chant is done (order doesn't matter),
+         player receives a "good job" vision and the pendant turns
+         from silver to gold.

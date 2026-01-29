@@ -1,0 +1,132 @@
+main
+::MAPDATA::
+gate 6 6 main
+thornhold_road_09 6 8 main
+thornhold_road_03 20 8 main
+thornhold_road_02 24 8 main
+thornhold_road_08 6 10 main
+thornhold_road_05 14 10 main
+thornhold_road_04 18 10 main
+thornhold_road_01 24 11 main
+thornhold_road_07 8 12 main
+thornhold_road_06 12 12 main
+cliffside 1 6 cliff
+bunkhouse 1 6 hold
+provisions 6 6 hold
+storehouse 11 6 hold
+alehouse 1 6 hold
+courtyard_north 6 6 hold
+farrier 11 6 hold
+guardroom 1 6 hold
+courtyard_south 6 6 hold
+stables 11 6 hold
+west_tower 1 4 towers
+battlement 6 4 towers
+east_tower 11 4 towers
+::MAPDATA::
+                   -=  The Road to Thornhold  =-    
+    _\!/_                
+            Mere     \   
+.,,.     .,,.  of     O      H
+| '|,,,,,| '| Dead   / \      I
+|' | '_  |' |    Men    O      G
+|__._/#\_.__|       _\!/_\ /    H
+     | |     _\!/_  _____ O      
+.    |o|           /o__ o\ \       R
+ |   | |      ____/ /  | |/ O       O
+'.   \o\     /o___o/   | / / \       A
+  :,  \ \___/ /        |o /   O-O     D
+   :   \o___o/         |_/       \    
+    \,                            O--O--        
+ Sea  \,                           \         
+  of     :.'.                       O
+   Swords  :.,'|                       
+                '\.                     
+
+::NEWMAP::
+hold
+::MAPDATA::
+bunkhouse 10 7
+provisions 28 7
+storehouse 46 7
+alehouse 10 14
+courtyard_north 28 14
+farrier 45 14
+guardroom 10 21
+courtyard_south 28 21
+stables 46 21
+::MAPDATA::
+               -=   T H O R N H O L D  =-
+
+.------------------------------------------------------.
+| ---------------------------------------------------  |
+| |               |                  |               | |
+| |               |     Durlar's     |               | |
+| |  Bunkhouse    |    Provisions    |   Storehouse  | |
+| |               |                                  | |
+| |               |                  |               | |
+| |               |                  |               | |
+| |______   ______|_______    _______|_______________| |
+| |               |                  |               | |
+| |               |                  |               | |
+| |   Alehouse    |                  |    Farrier    | |
+| |                                  |               | |
+| |               |                  |               | |
+| |               |                  |               | |
+| |_______________|    Courtyard     |______   ______| |   
+| |               |                  |               | |
+| |               |                  |               | |
+| |   Guardroom   |                  |    Stables    | | 
+| |                                                  | |
+| |   _| Tower    |                  |               | |
+| | _|   Stairs   |                  |               | |
+| |_______________|^^^^^^^     ^^^^^^|_______________| |
+|_________________||||||||     |||||||_________________|
+
+
+::NEWMAP::
+towers
+::MAPDATA::
+west_tower 10 9
+battlement 28 9
+east_tower 47 9
+::MAPDATA::
+
+
+           -= T H O R N H O L D    T O W E R S =-
+
+ ______________________________________________________
+| ____________________________________________________ |
+| |               |                  |               | |
+| |   The West    |                  |    The East   | |
+| |    Tower      |    Battlement    |     Tower     | |
+| | _                                                | |
+| |  |_ Tower     |                  |               | |
+| |    |_ Stairs  |                  |               | |
+| |_______________|__________________|_______________| |   
+|______________________________________________________|
+
+::NEWMAP::
+cliff
+::MAPDATA::
+cliffside 17 8
+::MAPDATA::
+
+            -= LEDGE OVERLOOKING the SEA of SWORDS =-
+       
+                   |                     |
+                   |                     | 
+                   |                     |
+                 _,|                     |
+              ,--'  '"..                _|
+            /"          '""''..,,,.^,.^  '.       
+            '..,_  ._                      ".__           
+                  |  "'".. ,--\_  
+                  |       \     `:_,
+__________________|      :|         \/'.
+ ~~~~~~~~~~~~     |       |         |  `:_
+         ~~~~~~~~ |       |:        |     `:_
+ ~~~~~~~~~~       |:      |         |
+    ~~~~~~~~~     |       |
+                  |
+

@@ -1,0 +1,23 @@
+main
+::MAPDATA::
+start 11 2
+post 11 4
+library 14 4
+board 11 6
+train 8 8
+herb 11 8
+::MAPDATA::
+                         @@@
+                        @@@@@@
+          [ ] Start   @@@@@@@@@@
+           |         @@@@@@@@@@@@
+       PO [ ] o Lib @@@@@@@@@@@@@@ 
+           | /       @@@@@@@@@@@@
+          [ ] BB        |    |/
+         / |            |    |
+  Train o [ ] Herb      |    |
+                       /      \
+
+   ====================
+   Heralds of the Valar
+   ====================

@@ -1,0 +1,575 @@
+
+WoHS will be a seperate guild to the SoHM, although to join the WoHS you 
+need to have first reached a certain level of competence in the SoHM.
+
+The base code for the WoHS can be found in /d/Krynn/guilds/wohs/
+
+==========================================================================
+Wizards of High Sorcery
+==========================================================================
+
+JOINING THE WIZARDS OF HIGH SORCERY:
+
+An occupational SoHM will be able to take the Test to become a Wizard of 
+High Sorcery (WoHS) from level 9 (top level, Aspirant of High Sorcery). 
+At this point they will be able to access the Tower of Wayreth south of 
+Haven. They will also need to have been invited to take the Test by one
+of the three Conclave guild leaders to be able to access the Hall of Mages,
+where the High Mage of the Tower Par-Salian administers the Test.
+
+The Test involves several things: A test of a mage's knowledge of 
+magic, problems that demand the casting of key spells that an initiate 
+knows, a test that cannot be solved by merely using magic, combat against 
+someone or something considerably more powerful than the initiate. 
+
+The aspirant is a solo quest, with failure resulting in death.
+
+Successfully completing the Test allows the SoHM becoming a WoHS, and also 
+dictates what branch of the WoHS they join - the White (good; alignment 
+trustworthy+ (> 190) the Red (neutral - can't be damned or holy; 909 > 
+alignment < -929) or the Black (Evil; alignment unsympathetic or less 
+(alignment < -240)). 
+
+The Test is graded, with those performing exceptionally well provided
+with enough guild experience to start at second level (Wizard of the
+Ninth Circle).
+
+The actions of the Aspirant will also determine which Order they initially
+join, with their alignment changed to reflect that Order - White (good) 
+Red (neutral) or the Black (Evil). 
+
+The Test is the guild's guru quest, and the code for it can be found at
+/d/Krynn/guilds/wohs/test/
+
+GUILD SLOTS:
+
+WoHS will take up the occupational and layman class slots. 
+
+LEVELS AND TITLES:
+
+Guild level is reset upon becoming a WoHS.
+
+1.  Lesser <colour> Wizard  [successful Test at level 9 SoHM]
+2.  Wizard of the Ninth <colour> Circle
+3.  Wizard of the Eighth <colour> Circle
+4.  Wizard of the Seventh <colour> Circle 
+5.  Wizard of the Sixth <colour> Circle
+6.  Wizard of the Fifth <colour> Circle
+7.  Wizard of the Fourth <colour> Circle
+8.  Wizard of the Third <colour> Circle
+9.  Wizard of the Second <colour> Circle
+10  Wizard of the First <colour> Circle
+11  Greater <colour> Wizard
+12  <Colour> High Wizard
+13  High Mage of the Order of the [colour] Robes
+
+Guild levels will be gained through combat and general experience, 
+although will be accrued outside of the brutality system. It should be a 
+considerably slower experience gaining levels in the WoHS compared to the 
+SoHM. 'Experience' points are added to Krynn domain skill 
+(WOHS_GUILD_STAT 108701) through the guild shadow. Combat guild xp is 
+modified depending on the phases of the Krynn moons (see moon phase 
+details below):
+
+    int guild_stat = WOHS_GUILD_STAT_FORMULA(query_shadow_who());
+
+    WOHS_GUILD_STAT_FORMULA(x):  
+    (x)->exp_to_stat((x)->query_skill(WOHS_GUILD_STAT))
+
+    // 37 million guild exp or 240 guild stat for top level
+    return MIN(MAX_GUILD_LEVEL, guild_stat / 20);
+
+	/* Combat experience applied to a base max brute factor and
+           a guild tax of 38%.    Base brute modifier set to 95%
+           Base brute will be modified based on spell casting behaviour */
+
+        masking add_exp_combat(int exp):
+
+        new_exp = ftoi(itof(exp) * (0.05 + moon_mod) * 0.38);
+
+        moon_phase == "night of the eye", moon_mod = 0.10;
+        moon_phase == "maximum", moon_mod = 0.05;
+        moon_phase == "partial", moon_mod = 0.02;
+        otherwise moon_mod = 0.00;
+
+It is possible to change Orders, although the penalty is having a large 
+proportion of your guild stat removed.
+
+Council titles: 
+Guild leader - Grand Master of the Tower of Wayreth 
+               [currently an npc, Par-Salian, who runs the Test]
+Order leaders - Master/Mistress of the Order of the [colour] Robes
+              - Order leaders may invite aspirants to take the Test as well
+                as manage the library and access to training/storage rooms.
+
+Other additional titles:
+Renegade, Exile of the Tower of Wayreth - the greatest punishment an Order 
+                                          leader can give out to a member 
+                                          is exiling them and declaring 
+                                          themRenegade. They cannot kick 
+                                          out members,however exiled 
+                                          members can no longer enter the 
+                                          Tower of Wayreth, cast spells 
+                                          with maximum moon penalty, and 
+                                          get booted from the guild if they 
+                                          die.
+
+Renegade Hunter - additional titles can be applied to Wizards who have 
+                  personally got the killing blow on a Renegade. This 
+                  promotes active hunting of those exiled :).
+
+ABILITIES
+Apart from slightly more skill levels in Arcane Study, and access to more 
+spells, advanced WoHS spells are impacted by the phases of the Krynn moons.
+
+There are three moons of magic - Solinari, the White Moon; Lunitari the Red 
+Moon; and Nuitari the Black Moon (whose aspect only Black Robe wizards can
+see).
+
+Moon phases are dictated by the Krynn clock (/d/Krynn/common/clock/clock.c). 
+A "Krynn day" is approximately 48 minutes. There are 8 moon phases, with 
+each moon taking differing lengths of time to complete a phase.
+
+Phases are:
+#define MOON_PHASES      ({"full", \
+                           "waning gibbous", \
+			   "waning half",  \
+			   "waning crescent", \
+                           "new", \
+			   "waxing crescent", \
+			   "waxing half", \
+			   "waxing gibbous"})
+
+Solinari takes 36 Krynn days to complete the 8 phase moon cycle (4.5 Krynn
+days, or 216 minutes, per phase); Lunitari takes 28 Krynn days to complete
+the 8 phase moon cycle (3.5 Krynn days, 168 minutes, per phase); Nuitari 
+takes 8 Krynn days to complete the cycle (1 Krynn day, or 48 minutes, per 
+phase).
+
+When a Wizard's moon is at High Sanction (i.e. full), they gain a combat 
+aid bonus to some of their spells. They get a partial bonus when their moon
+is gibbous. If new or crescent they get a combat aid penalty. Overall the 
+benefit over time balances out. 
+
+When all three moons are at high sanction (full), known as the "Night of 
+the Eye", all WoHS get a big combat aid bonus. This event happens 
+approximately every 504 Krynn days (i.e. every 4 days) for 48 minutes.
+
+Moon phase bonuses (advanced spells only):
+Night of the Eye (all three moons full): 40% bonus
+
+Maximum benefit (25%): full
+partial benefit (10%): waxing 3/4, waning 3/4
+no benefit: waxing half, waning half, waning quarter, waxing quarter
+partial penalty (-10%): waning crescent, waxing crescent
+Full penalty (-25%): new 
+
+If a WoHS falls outside of their alignment range then they suffer a 
+negative penalty as if their moon was permanently "new", and the title 
+"Grey Wizard / Lesser Grey Wizard / Grey High Wizard".
+
+A Grey Wizard may apply to join a different Order from the head of their 
+respective Conclave. The Grey Wizard will have their guild stat skill 
+reduced by 75%, reducing their level considerably!
+
+Skills:
+            
+Spellcraft         100
+Defence            60
+Knife              60 #
+Herbalism          90
+Alchemy            70
+
+Transmutation      65*          
+Illusion           65*      
+Divination         65*      
+Enchantment        65*    
+Conjuration        65*    
+Abjuration         65*     
+Earth              75**  
+Air                75**     	
+Water              75**     		
+Fire               75**    
+'Arcane Focus'     100       
+
+* Can specialise in a form up to 100 with an extra 35 points
+** Can specialise in an element up to 100 with an extra 25 points
+
+# wizards have been allowed to carry daggers in rememberence
+of the sacrifice of the Mage Magius, who assisted Huma in 
+banishing the Queen of Darkness from Krynn.
+
+Spell slots:
+
+Level   Spell-lvl-0   Spell-lvl-1   Spell-lvl-2   Spell-level-3  Spell-level-4  
+         (cantrip)       (minor)     (lesser)       (greater)      (advanced)       
+           
+1.            4		     4           2              1              -              
+2.*           4		     4           2              1              1!
+3.*           5!	     4           2              1              1
+4.*           5		     4           3!             1              1
+5.            6!	     4           3              1              1   
+6.*           7!	     4           3              1              1
+7.*           7		     5!          3              1              1
+8.*           7		     5           3              2!             1
+9.            8!	     5           3              2              1
+10*           9!	     5           3              2              1
+11*           9		     6!          3              2              1
+12*           10!	     6           3              2              1
+13*           14!	     6           3              2              2!          
+
+! Additional spell granted at this level
+
+TAX TOTAL
+=========
+Skill tax + spell tax + Caid tax = 
+           15% + 9.3125% + 13.2% = 37.5125%
+
+SKILL TAX 
+=========               
+Name                        Level Adv Mult  Tax     
+--------------------------- ----- --- ---- ----- 
+Spellcraft                   100   20  1.0   80    80 sps
+
+Transmutation spells          65*  20  1.0   45      
+Illusion spells               65*  20  1.0   45      
+Divination spells             65*  20  1.0   45    
+Enchantment spells            65*  20  1.0   45      
+Conjuration spells            65*  20  1.0   45       
+Abjuration spells             65*  20  1.0   45   
+*specialisation               35   -   1.0   35    305 sps
+       
+Fire spells                   75** 20  1.0   55       
+Air spells                    75** 20  1.0   55
+Water spells                  75** 20  1.0   55
+Fire spells                   75** 20  1.0   55
+**specialisation              25   -   1.0   25    245 sps
+       
+Herbalism                     90   20  1.0   70      
+Alchemy                       70   20  1.0   30    120 sps
+    
+Defence                       60   30  1.5   45 [90] (x2 foreign skill) 
+Knife                         60   30  1.0   30 [60] (x2 foreign skill)  150 sps
+
+Total: 900 / 60 = 15%  
+
+Max occupational skill levels = 550
+Max layman skill levels = 350
+Max total levels = 900
+
+  Skills which are alien to the guild style should be offered only in
+  a very limited way. So for example a thief guild might offer defence
+  or parry up to level 30, or a fighter guild could offer two magic
+  skills up to level 20. Skills alien to the guild style count twice
+  towards the sum of levels which the guild may offer *above* the
+  limits in 'man skills' (you do not apply this penalty to the
+  taxation of the skills which are alien).
+
+
+SPELLS TAX
+==========
+At maximum level a WoHS will be able to cast 22 spells:
+
+14 (+10) 'cantrips' - spells of class 0 or class 1 spell type
+6 (+2) 'minor spells' - spells of class 2 or class 3 spell type
+3 (+1) 'lesser spells' - spells of class 3
+2 (+1) 'greater spells' - spells of class 3 or class 4 type
+2 (+2) 'advanced spells' - spells of class 4
+
+Bracket number indicates how many additional spell slots they can 
+potentially have over what the maximum number the SoHM offer.
+
+For taxation purposes we'll use the highest taxed spell for each 
+spell level (see ~guilds/sohm/doc/tax_doc.txt for full spell list):
+
+Cantrips: 	0.15% + 0.15% + 0.15% + 0.15% + 0.15% + 0.15% + 0.15% + 0.1% + 
+                0.1% + 0.1% + 0.05% + 0% + 0% + 0% (1.4)
+Minors:		0.5625% + 0.5625% + 0.5625% + 0.5625% + 0.5625% + 0.375% (3.1875)
+Lessers:	0.375% + 0.375% + 0.375% (1.125)
+Greater:	0.75% + 0.6% (1.35)
+Advanced:       1.125% + 1.125% (2.25)
+
+Total spell tax = 9.3125%
+
+COMBAT AID
+==========
+1% of tax will be charged for every 25% combat aid.
+
+Max combat aid at any one time for an occupational + layman caster is 
+330 Caid.
+
+Maximum combat aid scenarios our outlined below (SPELL TIER AND INDIVIDUAL 
+SPELL COMBAT AID table).
+
+Total max potential combat aid: 330 (325 under AoB revision for occ+lay guilds)
+Total max potential combat aid tax: 13.2% (13.0%)
+
+
+Occ + layman, Caster | 330 Caid (325 Caid)
+
+
+NOTE: Mindful WoHS have a max SS_DEFENCE of 60 (~0.8 caid benefit from defensive
+skills), and that melee guilds tend to have at least 180 defensive skills
+across defence/parry/acrobatics that provide 120+ caid of defensive benefit, it
+is proving to be a massive balance issue for these magic guilds since the
+changes to white hit damage in 2021.
+
+Taking this in to consideration, the spell blur (kadenadon) and greater magic
+shield (jennufethos) may be cast without the usual spell stacking restrictions 
+other defensive spells have. This equates to a 'bonus' 72 and 36 caid that does 
+not count towards their combat aid cap, however the spellcaster will still need 
+to include it as one of their three lesser and one of their two advanced
+spell slots respectively.
+
+             			 Element /	Spell level    Component
+ABJURATION   		         (form skill)
+Abjurers are the masters of spells that protect, ward, and banish.
+--------------------------------------------------------------------------------
+Protection from Dragonfear      Fire            Minor          tooth, mint
+Blink                           Air             Minor          hazelnut
+Magic Shield $                  Air            	Minor          chokecherry
+Minor protection - fire         Fire            Lesser         fireweed
+Minor protection - acid         Water           Lesser         soapweed
+Minor protection - lightning    Air             Lesser         elidross
+Minor protection - poison       Earth           Lesser         alfirin
+Minor protection - cold         Water           Lesser         frostheal
+Retributive ward (reflect)      Earth (60)      Greater        sphagnum, chicory
+
+^Rune of welcome                Earth           Cantrip       none
+^Protection - divination        Water           Minor         chantrelle
+^Minor protection - Magic       Water           Advanced      solinaith
+^Greater magic shield           Air             Advanced      chokecherry, chantrelle
+
+ENCHANTMENT (all coded)
+Enchanters focus on mind altering spells - charming, beguiling and dominating 
+their foes with their magic.
+--------------------------------------------------------------------------------
+Scare (fatigue/panic)           Air             Minor          snake fang, salt wart
+Curse (illfortunate)            Earth           Minor          myrtleberry
+Psychic blast                   Water          	Lesser         special / potion (alc/locoweed)
+Dominate (stun)                 Water (60)      Greater        potion (alc/hemlock/lady slipper)
+
+^Dazzle (slow)			Air		Minor	       none
+^Arcane vulnerability           Water           Advanced       moonstone_shard, potion (alc/solinaith)
+
+DIVINATION (all coded)
+Diviners focus on seeing the future and the hidden.
+--------------------------------------------------------------------------------
+Read Magic *                    Fire           	Cantrip        none
+Divine wizards *                Water		Cantrip	       none
+Detect magic @                  Earth          	Cantrip        none
+Speak with Dead #               Earth          	Cantrip        a skull
+Wind Whisper *                  Air            	Cantrip        copper coin
+Scry                            Water          	Lesser         sargassum, bull kelp
+Truesight (see invis/dark)      Air (60)        Greater        potion (crocus), eye x2
+
+^Mirror portal                  Water           Cantrip        none
+^Identify **                    Water          	Minor          glass of water
+^Detect resistance **		Air		Minor	       kuko
+^Portents and omens             Air (60)        Greater        elidross, poison ivy
+
+TRANSMUTATION 
+Transmuters have spells that modify the world around them, allowing them to  
+change the properties of themselves, their items, and their surroundings.
+--------------------------------------------------------------------------------
+Wand light *                    Fire            Cantrip        special
+Light                           Fire            Minor          none 
+Enchant weapon                  Earth           Lesser         cattail, tuo
+Mage strength                   Earth           Lesser         potion (minotaur blood)
+Stoneskin			Earth (60)	Greater        cladina
+
+^Shatter                        Earth           Cantrip        none
+^Water breathing		Water		Minor          surf grass
+^Featherweight                  Air             Minor          fiddlehead
+^Flaming fist                   Fire            Lesser         fireweed
+^Gravity                        Earth (60)      Greater        breadroot, tangleshoot
+^Polymorph self                 Earth           Advanced       shard_diamond, grey willow
+
+
+CONJURATION 
+Conjurers are the masters of spells that create and summon, as well as 
+destructive magics.
+--------------------------------------------------------------------------------
+Magic Missile #	                Air		Minor          none
+Fire dart *#                    Fire            Minor          none
+Acid arrow                      Water           Minor          none
+Lightning Bolt                  Air             Lesser         special / potion (alc/bur reed)
+Flame lance                     Fire            Lesser         special / potion (alc/hawthorn)
+Ice strike                      Water           Lesser         special / potion (alc/salt wort)
+
+^Dimensional rift               Wind            Cantrip        brown slime
+^Wind gust                      Wind            Cantrip        bur reed
+^Ballistic spray                Earth           Minor          none
+^Geyser                         Water           Lesser         sargassum
+^Scouring wind                  Air             Lesser         seaside grass
+^Teleport                       Air (60)        Greater        breadroot, pearl
+^Team teleport                  Air             Advanced       breadroot, black pearl
+^Fireball                       Fire            Advanced       potion (alc/hawthorn)
+^Chain lightning                Air             Advanced       potion (alc/bur reed)
+^Meteor storm                   Earth           Advanced       potion (alc/beaked sedge)
+^Storm fury                     Water           Advanced       potion (alc/salt wort)
+^Detonate                       Fire            Advanced       gem shard, potion (alc/hawthorn)
+^Eruption                       Earth           Advanced       gem shard, potion (alc/beaked sedge)
+
+
+ILLUSION 
+Illusionists are creators of tricks and falsehoods, and masters of deception.
+--------------------------------------------------------------------------------
+Fool's curse                    Water           Cantrip        glass of water
+Prismatic spray #               Water           Minor          none
+Blur                            Water          	Lesser         cattail, vallenwood blossom
+Invisibility                    Air             Lesser         snake skin, blung 
+Gloom (darkness)                Air (60)        Greater        skullcap
+
+^Shadowy veil                   Air             Lesser         onyx shard, brown slime
+^Haste                          Air  (60)       Greater        topaz shard, smooth camas
+
+
+New learnable spells (~28) for introduction of WoHS:
+
+CANTRIP: (4 new)
+*Rune of welcome - allows access through the forest of Wayreth
+*Mirror portal - ability to take advantage of mirrors to teleport back to 
+ the Tower of Wayreth or school
+*Wind gust - allows a mage to control gloom... either to follow the caster 
+ or push it in a certain direction.
+*Shatter - breaks gems down to shards
+
+MINOR: (6 new)
+*Ballistic spray - earth-based at will damage spell
+*Detect resistances
+*Water breathing
+*Featherweight
+*Protection - divination - provides protection from scrying
+*Dazzle - slow spell
+
+LESSER: (4 new)
+*Geyser - lesser offensive spells with faster cast time.
+*Scouring wind - lesser offensive spells with faster cast time.
+*Shadowy veil - increase in backstab and stealth skills
+*Flaming fist - unarmed combat increased, plus reflect damage.
+
+GREATER: (4 new)
+*Gravity (opposite of haste)
+*Haste
+*Teleport
+*Portents and omens - an evade spell, where the caster is able to foresee
+ the future and react accordingly.
+
+ADVANCED: (10 new)
+*Team teleport
+*Arcane vulnerability - reduces targets resistance to an element type (or 
+ magic if lvl high enough)
+*Magic resistance - provides magic resistance buff
+*Fireball - AoE fire spell
+*Chain lightning - AoE air spell
+*Meteor storm - AoE earth spell
+*Storm fury - AoE water spell
+*Eruption - high caid earth harm
+*Detonate - high caid fire harm
+*Greater magic shield [stoneskin, allows casting of lesser spells and 
+ retributive ward / blur]
+
+
+SPELL TIER AND INDIVIDUAL SPELL COMBAT AID (OUTSIDE 80 STRING FORMAT!)
+=========================================================================================================
+Name			C.Aid	Type          Exclusions                ScenA   ScenB  ScenC  ScenD ScenE  
+=========================================================================================================
+              ---------------  Cantrips [8]  ---------------
+Read Magic		0%	
+Divine Wizard		0%	
+Speak with dead		0%	
+Wind whisper		0%	
+Fool's curse		0%	
+Detect magic		0%	
+Wand light		0%
+*^Dimensional rift      0%
+*^Shatter               0%
+*^Rune of welcome	0%
+*^Mirror portal         0%
+*^Wind gust 		0%
+
+              ---------------   Minors [5]   ---------------
+Identify		0%	      
+Scare			0%	
+Blink			0%	
+Light spell		0%
+*^Water breathing       0%	
+*^Dazzle		0%
+*^Detect resistance	0%
+*^Featherweight 	0%
+*^Protection-divination 0%
+Protect from dragonfear	0%	                                      
+Curse [C]		27%	Maintained  [Can't be cast with other C type]              
+Magic shield [D]	36%	Maintained  [Can't be cast with D /GL O-type]
+Magic Missile		36%	Offensive   [Can't be cast with other O-type]
+Fire Dart    		36%	Offensive   [Can't be cast with other O-type]
+Acid Arrow   		36%	Offensive   [Can't be cast with other O-type]
+Prismatic spray		36%	Offensive   [Can't be cast with other O-type] *
+*^Ballistic spray 	36%	Offensive   [Can't be cast with other O-type]
+
+=========================================================================================================
+                                                                 Combat aid:  36  /  0 /  0  /  0 /  0
+=========================================================================================================
+
+              ---------------   Lessers [3]  ---------------
+Scry			0%	 
+Invisibility		0%
+Protection - fire 	24%	Maintained  [Caid only applied for 1 protect]
+Protection - acid 	24%	Maintained  [Caid only applied for 1 protect]
+Protection - lightning 	24%	Maintained  [Caid only applied for 1 protect]
+Protection - cold 	24%	Maintained  [Caid only applied for 1 protect]              
+Protection - poison	24%	Maintained  [Caid only applied for 1 protect]  
+*^Shadowy veil          25%     Maintained  [can't be cast with lesser prots] *           *     *     *
+Mage strength		29%	Maintained                                    *     *     *     *     *
+Enchant weapon		40%	Maintained  [Can't be cast with flaming fist] *     *     *     *     *
+*^Flaming fist		40%	Maintained  [Can't be cast with enchant weap]
+Blur [D]		72%	Maintained  [Can't be cast with D /GL O-type]                    
+Psychic blast [L O]	113%	Offensive   [Can't be cast with other O-type]       *
+Lightning bolt [L O]	113%	Offensive   [Can't be cast with other O-type]
+Flame lance [L O]	113%	Offensive   [Can't be cast with other O-type]
+Ice strike [L O]	113%	Offensive   [Can't be cast with other O-type]
+*^Geyser [L O]	        113%	Offensive   [Can't be cast with other O-type]
+*^Scouring wind [L O]	113%	Offensive   [Can't be cast with other O-type]
+
+=========================================================================================================
+                                                                 Combat aid:  89 / 178 / 89 /  89 /  89
+=========================================================================================================
+
+              ---------------   Greater [2]  ---------------
+Gloom			0%
+*^Teleport 		0%	
+Truesight		20%     Maintained                                          *     *     *     *
+*^Gravity [C]      	45%	Maintained  [Can't be cast with other C type]
+Dominate [C]		45%	Maintained  [Can't be cast with other C type]  
+*^Haste  [C]            45%	Maintained  [Can't be cast with other C type] *     *     *     *     *                          
+*^Portents and omens[D] 90%	Maintained  [Can't be cast with D /GL O-type]
+Reflect damage [D]      90%	Maintained  [Can't be cast with D /GL O-type]  
+Stoneskin [D]		90%	Maintained  [Can't be cast with D /GL O-type] *
+
+=========================================================================================================
+                                                                 Combat aid:  135 / 65 /  65 /  65 /  65
+=========================================================================================================
+
+              ---------------  Advanced [2]  ---------------   
+*^Stellar Alignment      0%     Maintained                 
+*^Team teleport		 0%     
+*^Arcane vulnerability   30%    Maintained                                    *
+*^Protection - Magic     30%	Maintained                                    *     *     *
+*^Greater magic shield   36%	Maintained [Can't be cast with D,G O 140 caid]      *           *     *
+*^Fireball [G O]         113%    Offensive   [Can't be cast with other O-type]                  *     *      
+*^Chain lightning [G O]  113%    Offensive   [Can't be cast with other O-type]
+*^Meteor storm [G O]     113%    Offensive   [Can't be cast with other O-type]
+*^Storm fury [G O]       113%    Offensive   [Can't be cast with other O-type]
+*^Detonate [G O]         140%    Offensive   [Can't be cast with other O-type]            *
+*^Eruption [G O]         140%    Offensive   [Can't be cast with other O-type] 
+*^Doom Blast [G O]       140%    Offensive   [Can't be cast with other O-type]
+
+=========================================================================================================
+                                                                 Combat aid:  60 /  66 / 170 / 149 / 149
+=========================================================================================================
+
+=========================================================================================================
+                                                       TOTAL     Combat aid: 320 / 309 / 324 / 303 / 303
+=========================================================================================================
+

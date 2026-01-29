@@ -1,0 +1,533 @@
+/*                                                                   */
+/* An Introduction to the domain of the Shire.			     */
+/*                                                                   */
+/* Created:  20-Jan-1994					     */
+/* Author:   Olorin                                                  */
+/* Version:  0.2                                                     */
+/* Last Mod: 25-Jan-1994 by Olorin                                   */
+/*                                                                   */
+/*								     */
+/* This file originally was drafted by Olorin for Gondor, but	     */
+/* changed by me to suit the Shire standards instead.		     */
+/*								     */
+/* Sir Rogon.							     */
+/* Date: Sat Feb 12 21:39:00					     */
+
+
+This file is for wizards of the domain Shire.
+If you are new to the domain, reading this file should be one of 
+the first things you do.
+
+This file is rather long, and is full of rules, talk of
+demotion, and other unpleasant topics. Nevertheless, in spite of
+all this is not meant to intimidate you, but to help you find
+your way around in Genesis and Shire.
+
+It was put together drawing on the experience of helping other
+wizards into the domain, with valuable contributions from these
+wizards. You, too, are invited to comment on this file, to
+assist us improving it.
+
+If you in the course of the next weeks come to a point where you
+tell yourself, 'This is stupid, they should have *told* me!',
+talk to Rogon or Dunstable and suggest including a corresponding
+paragraph into this file. (Perhaps you should check first if it
+is already included, and if it is, you might prefer not to tell
+us that you didn't read this file. ;-))
+
+Most wizards, and all wizards in Shire will help you if you
+have questions or problems. It is preferably to ask a Shire
+wizard, before asking an arch or on the wizline.
+
+We have a close cooperation with the Domains Gondor and Rhovanion,
+and thus - if you have a question of any kind, direct it first to
+Shire wizards, then Gondor or Rhovanion wizards and lastly you use
+the wiz-line. Note, that the wiz-line is supposed to be a line for
+discussing coding matters, not to harassment or other 'chats'.
+
+The domain Shire abides by all rules in the mud, written or
+unwritten!
+The fact that one or more other domains might or might not do the 
+same is irrelvant as far as your coding for this domain is 
+concerned. The main aim of the domain is to produce interesting 
+and balanced code.
+
+The Shire is based on the books of JRR Tolkien.
+While this does not mean that we have to follow Tolkien in each and
+every detail, or that everything in the Shire has to be mentioned in
+the books, it does mean that everything must fit into the framework 
+defined by the books.
+
+This is a summary of rules which you are required to follow. It is 
+far from comprehensive, but it should contain the most important 
+ones:
+
+- Read the wiz scroll. If you are a madwand, or don't have the scroll
+  for some reason, type:
+> clone /d/Genesis/obj/init_scroll
+> read scroll
+
+- Read the introductory files for wizards. You will find them by 
+  typing:
+> man INTRO_RULES
+> man GENESIS
+
+- Re-read the rules file for mortals, read it from your now changed
+  perspective!
+
+- The game is over, you are a wizard!
+  Interaction between your wizard character and mortals should be
+  kept to a minimum.
+  The following actions are illegal and can be punished by demotion:
+  - Helping mortals in combat or with quests.
+  - Giving hints to mortals, except general info about available
+    commands. This means, hints will in most cases be just: 
+    'read help topics'!
+  - Restoring anything a mortal lost in a crash. That is for
+    arches only!
+  - Helping a mortal in case of a bug, eg by transfering the 
+    player to another room, unless the mortal otherwise cannot
+    continue to play. If a room has no exits due to a bug, and 
+    you know that it is not a trap, you may bring the mortal to
+    a room closeby. Resetting a room so a mortal can finish a
+    quest might be your last command as a wizard.
+  - If you are a madwand, you are not allowed to play with a
+    second mortal character. If you do, you will be demoted back
+    to mortal.
+  - If you have a second character, do not interact with your two
+    characters. Your second character ideally shouldn't even know
+    the solutions to quests your wizard character solved! ;-)
+    It is illegal to tell other mortals that your mortal
+    character is the second of a wizard.
+    Giving cash to a npc with your wizard character, and retrieving 
+    this later with your mortal character can lead to deletion of 
+    both characters.
+    Reading up quest solutions with your wizard character so your 
+    mortal character can solve the quests, can lead to demotion.
+    (I suggest you do not play with your mortal character in Gondor
+    or the Shire at all, but that's my personal opinion, Rogon)
+  - Giving a mortal any information on his or her character is in
+    almost all cases illegal. This includes but is not restricted
+    to telling stat values, skill values, fatigue values, weapon
+    and armour classes and so on. It is not illegal to tell a
+    mortal, 'If you want to know if that morning star is a club,
+    why don't you appraise it?'
+  - Your opinion on anything regarding the mud should not be
+    discussed with mortals. This includes but is not limited to
+    your opinion on the behaviour of mortals, on posts on boards
+    that can be read by mortals, on the balance or imbalance of
+    guilds, weapons, domains, and on the positive or negative sides
+    of your fellow wizards.
+    You should as a rule not post on boards open to mortals
+    outside the domain Shire. You should post on the wizard
+    boards of other domains only if there is a valid reason to
+    do so.
+
+- Important commands:
+  - allcmd: gives you a list of all commands available to you.
+            It is a very good idea to spend a few hours to get
+            familar with your commands.
+  - sman: A very powerful tool for coders.
+          'sman' enables you to find the function name of almost
+          every function in the mudlib.
+          An experienced user can answer almost every question
+          concerning the mudlib using 'sman'.
+          Do not start coding before you have made yourself
+          acquainted with this tool. The 'help sman' file is a must!
+          If you have a problem finding the information you want
+          using 'sman', ask someone more experienced:
+          'I tried to find <topic> using sman, but for some reason I
+          didn't manage. Can you please tell me what I did wrong?'
+          instead of asking on the wizline:
+          'What's <topic> and how does it work?'
+          Examples for the use of 'sman' at the end of this file.
+  - man: Similar to 'sman', but gives info on efuns (external
+         functions, ie gamedriver funcitons), rules, properties,
+         and more. Try 'man -c' to see the available chapters.
+         The most important chapter is 'man general'.
+  - tracer: The tracer is another powerful tool. With it you can
+            do get information about objects in the mud and call
+            functions in the objects.
+            Reading 'help tracer', 'help Call', and 'help Dump'
+            is absolutely required. If you have problems, ask a
+            helpful wizard to explain it to you.
+
+- In general, any code for the exclusive use of wizards (wizard 
+  tools) is considered unnecessary. Think twice before you code
+  another skill setter, wiz line, or whatever.
+  Wizard toolsouls are illegal unless declared legal by the
+  admin. Legal toolsouls are:
+  /d/Wiz/caution/open/extra_soul,
+  /d/Terel/mortricia/open/kit,
+  /d/Immortal/mrpr/mbs/mbs,
+  /d/Immortal/mrpr/ka/ka.
+  'mbs' is a tool to read the boards in Genesis, it is highly
+  recommended. 'ka' contains the command 'dtell', a domain
+  tell. This is also highly useful, especially for the beginner,
+  since it enables you to ask you fellow Shire wizards before
+  putting a question onto the wizline.
+
+- /doc/man/general contains files with rules on many different
+  topics. You can access these files using 'man <topic>'.
+  You are expected to know everything in those files, if it
+  concerns your coding.
+  To learn eg about weapons and armours type:
+> man weapon
+> man armour
+> man weapon_guide
+> man armour_guide
+  and read those files.
+
+- The files
+> man LPC
+> man INTRO
+  give an introduction to LPC. 
+
+- There are many rules in Genesis, not all of them are written
+  down. Therefore, if you have a fantastic novel idea, ask
+  someone more experienced first. You might not be the first
+  one, and it might be illegal.
+
+- The Liege is responsible for every object in the
+  domain. Therefore, s/he alone has the right to decide
+  which new code is made available to the mortals in the mud.
+  This means especially that a quest or an area may only be
+  opened by the Liege of a domain, or by a wizard who
+  has the explicite permission to do so.
+
+- Every object in the domain must conform to the rules,
+  including code not yet available to mortals. Weapons with
+  WC 100 are illegal, even if they were meant just for your
+  personal amusement.
+
+- Do not 'update' an object (including rooms!) in areas open
+  to mortals, unless you know exactly what will happen when
+  you do this, and that it will not interfere with any mortal.
+  This means, that you should never update a room outside the
+  domain Shire, and inside only if you have read and
+  understood the code!
+
+- Use 'Call' extremely cautiosly in areas open to mortals.
+  Be certain that you know what you are doing, and that it will
+  not interfere with mortals.
+
+- It is consider to be polite to use the command "audience <name>"
+  to contact another wizard. Just transporting to the wizard
+  with 'trans <name>' without asking if you are welcome is
+  considered highly impolite.
+
+- If you have a Jr character, the same restrictions for 
+  interaction with mortals apply as for your wizard character. 
+  Moreover, it is illegal to socialize with mortals using the
+  Jr character. This includes introducing the Jr character
+  to other mortals. If you want to be polite, move your Jr
+  character to another room, and then explain the circumstances
+  to the mortals concerned using your wizard character.
+
+- The Shire has a few domain specific rules.
+  You can find them in /d/Shire/common/doc/shire_rules
+  You are welcome to suggest changes to these rules.
+  If you encouter an unwritten domain rule, please suggest
+  that it is included in the qc file to the Lord.
+
+- Check the file /d/Shire/status for a hopefully
+  up to date overview over the plans and projects of the domain.
+  If the file is not up to date, please ask your fellow wizards
+  to update it.
+
+- Update the file /d/Shire/common/domain_entr.c
+  Add your name and title to those of the other wizards of the
+  domain. Add a short description of your project.
+
+- Coding
+  The one most important rule concerning coding:
+  Use 'inherit'.
+  Understand 'inherit' before you start coding. If you have
+  problems, make a fellow wizard explain it to you.
+  Use 'include' only if it is impossible to use 'inherit'.
+  Copy functions only if it is impossible to use 'include'.
+  Never copy a file of 100 lines just to modify 3 or 4 of them!
+  If you have files which differ only in a few lines
+  (eg two neighbouring rooms, a large and a small orc, ... )
+  you should consider making one common file, and then
+  configuring or inheriting this common file. 
+  (Examples at the end of this file.)
+  If you have more than 3 of those files, you should be prepared
+  to produce an excellent reason to explain why you didn't
+  create a common file. 'I didn't know how.' will not be an
+  acceptable reason.
+
+- Examples
+  Check /doc/examples/.
+  If you want to use existing code as an example, please talk to
+  the coder or someone more experienced first.
+  One reason is that a lot of the code in Shire is not up-to-date.
+  If you use exisiting code as an example, I suggest you add a line
+  mentioning this in the header. If the example is taken from
+  outside the domain, you are required to do so.
+
+-------------------- Appendix ---------------------------------------
+
+NOTE: You will find that a lot of existing code does not follow
+      these examples. This does not mean that the examples are wrong,
+      it just shows that we all are still learning.
+      In doubt, ask a domain wizard.
+
+1.- Examples for 'sman':
+
+> sman -k *race*
+--- /secure/master:
+valid_trace
+
+--- /std/guild/guild_race_sh:
+init_race_shadow                      query_guild_style_race
+query_guild_member_race               query_guild_tax_race
+query_guild_name_race                 remove_guild_race
+query_guild_not_allow_join_race
+
+--- /std/living:
+query_race_name    set_race_name
+
+* This gives you the sman directory and function name of every function
+* in the mudlib which matches to '*race*'. Only leading and trailing
+* wildcards!
+> sman /std/object query_name
+File: /doc/sman/std/object/query_name
+960:/std/object.c (/std/object.c)
+(varargs public mixed) query_name(int arg)
+/*
+ * Function name: query_name
+ * Description:   Gives the name(s) of the object.
+ * Arguments:     arg: If true then the entire list is returned.
+ * Returns:       A string or an array as described above.
+ */
+
+* This gives the info on the function query_name() in /std/object.c
+* Just '> sman query_name' would give the info on query_name() in
+* /std/living.c.
+> sman -s query_name
+File: /std/living/description.c Line: 88
+
+ * Returns:         The name
+ */
+public string
+query_name()
+{
+    return capitalize(::query_name());
+}
+
+....
+* This will 'more' the file in which the searched function is starting
+* with the function itself.
+
+
+2. Examples for configuring, inheriting, include.
+
+- configuring -
+You can call a function in object A from object B using
+call_other(). A shortcut is the -> construct.
+
+    A->set_name("A");
+
+will call the function set_name in object A with the
+argument "A".
+Now assume you want to create two orcs, but with different
+descriptions. You can do this from the object which is supposed
+to clone the orcs, in most cases a room, like this:
+
+/* An example room */
+inherit "/std/room";
+
+/* All Shire rooms should include this file */
+#include "/d/Shire/common/defs.h"
+
+/* global variables */
+object  orc1,
+        orc2;
+
+void create_room()
+{
+    set_short("An example room");
+    set_long("This is just an example room.\n");
+
+    reset_room();
+}
+
+void reset_room()
+{
+    if (!objectp(orc1))
+    {
+        orc1 = clone_object("/std/monster");
+        orc1->set_name("orc");
+        orc1->set_adj(({"large", "black"}));
+        orc1->set_long(
+            "This is a large black orc, quite deadly.\n");
+        orc1->default_config_npc(14);
+    }
+    if (!objectp(orc2))
+    {
+        orc2 = clone_object("/std/monster");
+        orc2->set_name("orc");
+        orc2->set_adj(({"small", "timid"}));
+        orc2->set_long(
+            "This is a small timid orc, easy prey.\n");
+        orc2->default_config_npc(8);
+    }
+}
+/* end of file */
+
+Note that I did not create a special file for the orcs,
+I just use the /std/monster supplied by the mudlib, and
+then set the parameters using call_other() ( -> ).
+Note also that the orcs do not have weapons or armour.
+
+- inheriting -
+To supply monsters with weapons and armour, one usually
+creates a monster file. If you want to create 
+for example large, medium, and small orcs of the Red Eye
+army, you should first create a common file, a so called 
+master.
+
+/* the orc master for the Red Eye army */
+/* /d/Shire/monster/redeye_orc.c	 */
+inherit "/std/monster";
+
+#include <language.h>
+#include "/d/Gondor/defs.h"
+
+/* this is a dummy routine */
+public void create_redeye_orc()
+{
+    set_short("X");
+    ::create_monster();
+}
+
+void add_stuff()
+{
+    clone_object("/d/Gondor/common/wep/dagger")->move(TO);
+}
+
+nomask void create_monster()
+{
+    set_name("orc");
+
+    create_redeye_orc();
+
+    set_long(CAP(LANG_ADDART(query_adj()) +
+        "orc of the Red Eye Army.\n");
+    add_stuff();
+}
+/* here you add other functions common to all of the orcs */
+
+/* end of file */
+
+Then you would create the orc files:
+/* the small orc */
+/* now you inherit the master */
+inherit "/d/Shire/common/monster/redeye_orc";
+
+/* this will supersede the function of the same name in the master */
+void create_redeye_orc()
+{
+    set_adj(({"small"}));
+}
+/* add more stuff specific to the small orcs */
+/* end of file */
+
+/* the large orc */
+/* now you inherit the master */
+inherit "/d/Shire/common/monster/redeye_orc";
+
+/* this will supersede the function of the same name in the master */
+void create_redeye_orc()
+{
+    set_adj(({"large"}));
+}
+/* add more stuff specific to the large orcs */
+/* end of file */
+
+- including -
+All commands starting with # are commands for the preprocessor.
+Check 'man LPC' for details.
+#include is used for the following purposes:
+- to define mud wide abbreviations, macros and to declare definitions.
+  eg /sys/ss_types defines all number for skills.
+  Instead of having to remember the number for the skill awareness,
+  you just do:
+
+#include <ss_types.h>
+....
+    int awareness;
+
+    awareness = TP->query_skill(SS_AWARENESS);
+....
+
+where SS_AWARENESS is defined in /sys/ss_types.h as
+#define SS_AWARENESS 110
+
+  An example for a macro: (out of /sys/macros.h)
+#define MAX(a,b) ((a) > (b) ? (a) : (b))
+
+- to define pathnames for files:
+  To add an exit to a room, you use the function add_exit().
+  (Try 'sman add_exit' to learn more about it.)
+  As one of the arguments you specify the path name of the
+  room into which the exit should lead.
+  This path name should almost never be given as eg
+  /d/Shire/bree/crossing. Instead, you should use a definition
+  from /d/Shire/common/defs.h:
+#define STAND_PARENT "/d/Shire/common/"
+  and using this in a defs.h file in your directory:
+
+File: /d/Shire/common/bree/defs.h
+
+#include "/d/Shire/common/defs.h"
+#define STAND_DIR STAND_PARENT + "bree/"
+
+File: /d/Shire/common/bree/crossing.c
+
+#include "defs.h"
+....
+    add_exit(STAND_DIR + "eroad2", "west");
+....
+
+  One reason is that thus it will be much easier to move directories,
+  it also increases the readablility of your code. We have also defined
+  some standard exit macros in /d/Shire/common/defs.h:
+
+    WEST("eroad2");  /* This is equivalent of the above. */
+
+- To define pieces of functions which are used in more than one file:
+  For example:
+
+/* example.h */
+#include "/d/Shire/common/defs.h"
+#define TREES add_item(({"tree","trees"}), BSN( \
+    "Large and mighty trees are growing all around you. " + \
+    "Too bad that the lowest branches are too high to reach them."));
+/* end of file */
+
+  If you now have eg two rooms in which it should be possible to
+  examine 'tree' and 'trees', you would do:
+
+/* room */
+inherit "/d/Shire/common/room";
+
+#include "/d/Shire/defs.h"
+#include "/d/Shire/<dir>/<subdir>/example.h"
+
+void create_room()
+{
+    ....
+
+    TREES
+
+    ....
+}
+/* end of file */
+
+  Thus you have to write (and change, when necessary) the add_item()
+  statement only once, and you can then include it into all files
+  including example.h by just adding TREES.
+  Note that you must not put a ';' behind TREES, since in this case
+  the statement as it is defined in example.h already ends with a ';'.

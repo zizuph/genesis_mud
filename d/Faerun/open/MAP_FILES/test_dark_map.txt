@@ -1,0 +1,14 @@
+main
+::MAPDATA::
+test_n 34 5
+test_s 34 8
+::MAPDATA::
+
+                         ===================
+                           Test Dark Rooms
+                         ===================
+
+                                  o
+                                  |
+                                  |
+                                  o

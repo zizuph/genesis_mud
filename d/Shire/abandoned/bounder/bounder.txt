@@ -1,0 +1,74 @@
+Bounders of the Shire
+
+Domain:       Shire
+Slot:         Layman
+Style:        Ranger
+Homebase:     Green Dragon Inn, Bywater
+Purpose:      To protect the Shire and Breelands by patrolling
+              the outer regions for orcs and other nuisances,
+              and assisting The Watch in policing the Shire.
+Comments:     A simple layman fighter/ranger guild offering
+              members basic skills and abilities with little
+              restrictions. Members are essentially scout
+              militia, mainly hobbits although the hobbits are
+              known to accept other races (no goblins of course)
+              which may be their downfall (scouring of the shire).
+Restrictions: No goblins, no alignment below zero, each member
+              must bring in a quota of orc scalps or wolf hides.
+Council:      No council, members may be expelled by a majority
+              vote within 4 days, the expulsion must have 3
+              secondings from members of 50 guildstat or higher.
+              Same applies for application to the guild, it must
+              be submitted by a member of 50+ gStat, and seconded
+              by 3 of the same.
+
+
+Skills:       Name       Level   Base   Calc'd
+
+Fighting:
+              Defence     50      30     30
+              Parry       50      30     30
+              Polearm     50      30     30
+              Dagger      50      30     20
+
+Thief:
+              Sneak       50      30     20
+              Hide        50      30     20
+              Backstab    50      20     45
+
+General:
+              Tracking    50      30     20
+              Loc. Sense  60      30     15
+              Awareness   50      30     20
+
+Totals                   510     260    250   250/60 = 4.16% tax
+
+Guild Skills:
+              Sweep      100       0      0
+              Ambush     100       0      0
+
+Guild Specials:
+              Sweep - sweep is a polearm specific combat special,
+              giving the bounder the ability to trip-up or knock
+              down an opponent where are are disadvantaged in
+              defending themselves.
+              Sweep will add a negative skill adjustment to the
+              victim's defence skill for a short period, until
+              able to get to his/her feet.
+
+              Ambush - ambush is a non-combat special, allowing
+              Bounders to set themselves up in hiding, waiting
+              for an intruder into Shire boundaries. This ability
+              has come from instruction by odd grey-cloaked men
+              who are sometimes seen assisting the Watch and
+              their Bounders in ridding the lands of pestillence.
+              Ambush special raises the effectiveness of the
+              Bounder's hide as if they were of level 70 profic-
+              iency, 20 levels above their trained level.
+              The hide doesnt activate until 30 seconds after
+              issuing the command, and is removed if the player
+              moves or is revealed or attacked.
+
+
+EOF
+

@@ -1,0 +1,38 @@
+                     Council Punishment Commands
+
+  Unpunish  - Removes a punishment that is currently pending.
+              Will not undo rank punishments, but will cancel punishments
+              that block the use of skills, spells, trading or training.
+  Notrade   - Prevents from trading in the hideouts shops and pubs.
+              Will not prevent trade in non-Ranger shops or pubs.
+  Notrain   - Prevents from training skills in Ranger hideouts.
+              Will not prevent training in other guilds or adventurers halls.
+  Noaccess  - Prevents entering the Ranger hideouts.
+  Noskills  - Lowers the ability to use special Ranger skills.
+               Will not block normal skills or totally prevent Ranger skills.
+  Nospells  - Will lower the ability to use Ranger magic.
+               NOT IMPLEMENTED YET
+  Noabilities - Will work as Nospells and Noskills combined.
+                NOT FULLY IMPLEMENTED YET - see Nospells
+  Degrade   - Will lower the rank of the Ranger.
+              Affects title and Ranger-skills in general.
+  Reward    - Will raise the rank of the Ranger.
+              Affects title and Ranger-skills in general.
+  Commend   - Smaller version of Reward.
+  Pupilize  - Will make the Ranger a pupil again.
+              Throws the Ranger out of the Company, decreasing some skills,
+              and lowering the rank. Only for members of your Company.
+  Expel     - Will throw the person out of the Rangers.
+              Person will lose skills as when leaving, but can rejoin.
+  Ban       - Will throw the person out of the Rangers, and ban him.
+              Person will lose skills as when leaving, and cannot rejoin.
+  Outlaw    - Will throw the person out of the guild, and outlaw him.
+              Leads to loss of skills, and the reputation of outlaw in Gondor.
+              NOT IMPLEMENTED YET
+
+
+       The punishment is done by: '<command> <who> for <reason>'
+     It will be executed immediately if the Ranger is logged in,
+     or it will be pending for next time the Ranger logs in.
+     The punishment will be logged, and the log can be accessed by:
+     'read punishlog'.  Only one punishment/reward can be stored at a time.

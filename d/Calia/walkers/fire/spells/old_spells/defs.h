@@ -1,0 +1,26 @@
+#include "../defs.h"
+#define AKOUTARI_OB "/d/Calia/walkers/fire/spells/akoutari_obj"
+#define AKOUTARI_DURATION 180
+#define ANTHISTO_OB "/d/Calia/walkers/fire/spells/anthisto_obj"
+#define ASPIDA_ARM "/d/Calia/walkers/fire/spells/aspida_arm"
+#define ASPIDA_OBJ "_aspida_arm_"
+#define PHOTITSO_OB "/d/Calia/walkers/fire/spells/photitso_ob"
+#define PHOTITSO_OBJ "_photitso_obj_"
+#define PHOTOSTEPSANOS_OB "/d/Calia/walkers/fire/spells/photostepsanos_obj"
+#define PYRONERO_OB "/d/Calia/walkers/fire/spells/pyronero_ob"
+#define STOIECHEIO_OB "/d/Calia/walkers/fire/spells/stoiecheio_ob"
+#define STOIECHEIO_OBJ "_stoiecheio_object_"
+#define STOIECHEIO_SH "/d/Calia/walkers/fire/spells/stoiecheio_sh"
+#define TUPHLONO_OB "/d/Calia/walkers/fire/spells/tuphlono_obj"
+#define NVISION_OBJ "_optasia_obj_"
+#define OPTASIA_OBJ "/d/Calia/walkers/fire/spells/optasia_obj"
+#define AEMERA_OB "/d/Calia/walkers/fire/spells/aemera_ob"
+#define AEMERA_OBJ "_aemera_obj_"
+#define AEMERA_SHADOW "/d/Calia/walkers/fire/spells/aemera_shadow"
+#define PHLOGAPHULO_SH "/d/Calia/walkers/fire/spells/phlogaphulo_sh"
+#define PHLOGAPHULO_PROP "_phlogaphulo_prop"
+#define PHLOGAPHULO_TIMES "_phlogaphulo_times"
+#define PHLOGAPHULO_HIT 10
+#define PHLOGAPHULO_PEN 10
+#define PHLOGAPHULO_DURATION 240.0
+#define PHLOGAPHULO_OLD_SHORT "_phlogaphulo_old_short"

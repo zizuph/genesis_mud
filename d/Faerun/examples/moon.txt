@@ -1,0 +1,27 @@
+public string
+query_moon_phase(void)
+{
+    switch(query_day())
+    {
+    case 1:
+        return "full moon";        
+    case 2..5:
+        return "waning gibbous moon";     
+    case 6..10:
+        return "waning half moon";           
+    case 11..15:
+        return "waning crescent moon";              
+    case 16:
+        return "new moon";         
+    case 17..21:
+        return "waxing crescent moon";           
+    case 22..25:
+        return "waxing half moon";             
+    case 26..29:
+        return "waxing gibbous moon";             
+    case 30:
+        return "full moon";             
+    default:
+        return "full moon";
+    }
+}

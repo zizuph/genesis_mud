@@ -1,0 +1,31 @@
+  Commands available when leading your horse:
+  ------------------------------------------
+    unlead horse   Release a horse and leave it alone.
+    mount horse    Unlead horse and then get on the horse
+    hhome          Send your horse back to Imladris.
+    hdrink         Make your horse drink.
+    hgallop on     Make your horse gallop.
+    hgallop off    Make your horse walk.
+    automount      Enable/disable automount function.
+    autodismount   Enable/disable autodismount function.
+    hnice on/off   Make your horse react when people touch it.
+
+  Commands available when riding your horse:
+  -----------------------------------------
+    dismount       Dismount your horse.
+    hgallop on     Make your horse gallop.
+    hgallop off    Make your horse walk.
+    automount      Enable/disable automount function.
+    autodismount   Enable/disable autodismount function.
+    hnice on/off   Make your horse react when people touch it.
+    hdrink         Make your horse drink. (hrdink from river etc.)
+    hboard         Buy a ticket for you and your horse and board ship.
+
+  Emotes available for a rider or leader of a horse
+  ---------------------------------------
+
+    Those emotes marked '*' may be used with adverbs.
+
+    hsnort         Make your horse snort.
+   *hscrape        Make your horse scrape its hooves through the ground.
+   *hnuzzle who    Make your horse nuzzle someone.

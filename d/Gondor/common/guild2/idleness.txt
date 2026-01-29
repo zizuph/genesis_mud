@@ -1,0 +1,58 @@
+The idle nazgul project.
+The orginal concept and implementation by Chmee.
+
+Files:
+idleness.c       - main system
+idleness.o       - mainly nazgul roster
+idleness.txt     - this file
+ticker.c         - simple sort of clock
+ticker.o         - value of clock
+
+    Main idea.
+    The idle nazgul system consists of a bunch of functions that
+measure and track the activity of the nazgul. The system can relegate
+a nazgul whose performance falls below certain level.
+Whenever a nazgul performs an action the function increase_activity()
+can be called adding a desired amount of points to that nazgul roster
+(array Nazgul_records). Immediately after reboot the amount of points,
+accumulated during the last game (between previous reboot and armageddon or
+crash),is divided by the length of the previous game and the mean value of
+points per hour is calculated for each nazgul. The roster keeps track of
+the activity of any Nazgul for (GAMES-1) most recent games. Well,
+usualy one idleness game usualy coresponds to one real game but not
+always. If the uptime of a Genesis game is shorter then 24h, then
+an idleness game will consist of more Genesis games. In other words one
+idleness game is not shorter then 24h and it will never be much longer then
+a length of an average Genesis game + 24h.
+Finally the system calculates for each councilmember the mean amount of
+activity points per 24h averaging the full cycle of GAMES-1 games.
+Nota bene. It's GAMES-1 because one record is always devoted to keep the
+most current data.
+
+    How does it work?
+    The function start_idling() is being caled from
+MORGUL_MASTER which is preloaded during reboot. Function increase_activity()
+should be called whenever an action we consider worthy is performed by
+a mage. The function will check whether it is a nazgul or not. The value of
+each and every action is a field for discussion and tuning. As a point of
+reference I decided that a decent, useful though maybe not particulary active
+nazgul should be able to gather 1000 points during one, typical game. Such
+a nazgul can make a two weeks break (more or less) every 14 days (or games,
+as lately one game lasts typicaly 30 hours). Now we need to consider what is
+the minimum activity, and assign values to paricular actions.
+    Every loging on nazgul is evaluated and if his or her performace
+falls below choosen level (s)he loses the ring. Function screen_nazgul()
+is called from init_occ_shadow() in morgul shadow. Here is a little place
+for a user interface. I did it the way mages are appraised by the Nine:
+namely using sublocation in the desctiption. Every nazgul can appraise
+himself (herself). The King of Morgul can appraise any other nazgul.
+
+    A bit about time measurement.
+    Since I needed the uptime of the previous Genesis game regardles of
+whether it was closed by Armageddon or crash I deployed a simple device.
+All it does is saving via alarm a value of a variable that is being
+increased every TICKER_LENGTH seconds. The description of the functionality
+of that device may take more place then its code so, please, just take
+a look into the source.
+
+Regards;                                                   Chmee

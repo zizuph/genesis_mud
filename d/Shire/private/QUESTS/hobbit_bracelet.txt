@@ -1,0 +1,28 @@
+Group:      2
+
+Bit:        2
+
+Name:       Find the Hobbit's Bracelet
+
+Programmed: Dunstable, 9/11/94
+
+Problem:    Petunia the hobbit has lost her bracelet. Find it
+
+Solution:   Player must go and find trolls who have the bracelet.
+            The player must either assist or kill trolls with the 
+            bracelet
+
+Skills:     none
+
+Risks:      none
+
+XP-Scale:   10,000
+
+Remarks:    Player must assist or kill trolls to have the prop 
+            i_killed_trollshaw_trolls set in them.
+
+Relavent
+Files:      Petunia's House - /d/Shire/common/hobbiton/in_house
+            Petunia - /d/Shire/common/hobbiton/npc/petunia
+
+

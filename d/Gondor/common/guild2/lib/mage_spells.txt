@@ -1,0 +1,94 @@
+Mage Spells
+-----------
+
+Thanks to Dauron for writing this up!
+
+-- Finwe
+September 2005
+===============================================================================
+
+palanquendo  Far tell.                               
+             ingredient: copper coin
+
+mortirio     Grant someone (or self) vision in darkness. 
+             ing: black potato (herb)
+
+naro         Command others to do your bidding.          
+             three forms of the spell...
+             drego nin! - flee me..  target flees.
+             libo makil! - break weapon
+             maetho - attack other <someone> maetho <someone>
+             ing: skull, knife or sumac (the more ingredients
+             the better the effect, in some cases might be cast
+             without any ingredient, if high guildstat
+
+arhalgul     Attempt to reveal the secrets of an object.    
+             simple indetif. spell
+             ing: arhal potion quaffed
+
+dramalgos    Stormwind.
+             windbolt
+             ing: part of a corpse and oregano or basil or
+             tarragon or chervil
+
+faugoroth    Choking horror.  
+             A stun spell, target stops fighting
+             ing: mint
+
+sauthacuith  Drain the lifeforce of a living.               
+             drain spell, plus it grants some con
+             ing: nenamarth potion and attanar
+             notes: Rarely used.
+
+ringurth     Conjure a protective shroud of death.           
+             grants extra ac, magic aura
+             ing: berichelk potion and fennel or ginger
+
+narusse      Summon the fires of Orodruin upon a blade. 
+             flame blade, grants some extra flame damage at
+             every hit, plus increases wielder weapon skill
+             ing: red pepper plus bragollach potion
+
+dollost      Emptyhead.                                    
+             mana drains from victim, portion is given to caster
+             ing: dollost potion and garlic
+
+ephessul     Summon the protection of Windfence for someone.
+             depending on the spell result it grants protection
+             from poison, fire, cold and magic (that is a complete
+             immunity to so called statcloud)
+             ing: foxglove
+
+thunaur      Flames of Destruction.    
+             flamebreath
+             ing: nennaur potion (lasts about 10 minutes)
+                  when a potion is quaffed then with each flamebreath
+                  you will use one part of a corpse
+
+nifarist     Make someone forget who you are.
+             as easy as it says :)
+             ing: platinum coin, handasse
+
+gostangwedh  Chains of Terror.
+             raises encumberance of the targer
+             ing: an item must be designated as an ingredient plus 
+             some herb
+
+artirith     Enter the realm of shadows.
+             invis
+             ing: lominen potion
+
+crabandir    Summon a craban to spy on someone.
+             craban
+             ing: corcosunk potion and holly berry
+
+morthul      Black Breath.  
+             ing: morgurth potion and morgurth herb
+
+sulambar     Summon the Wind of Doom.                     
+             statcloud
+             ing: nenamarth potion and hemlock
+
+yalarochrama Summon a winged steed. 
+             beast
+             ing: corcosunk potion and any gem

@@ -1,0 +1,228 @@
+*****************************************************************************
+          TAX INFORMATION FOR THE CALIAN WARRIORS GUILD (Occ)
+*****************************************************************************
+AG = Adventures Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)
+
+Calians have three branches. The free join branch is called the Followers
+of Caliana. When one is accepted into the ranks, one becomes a Calian
+Trainee. Finally, when the training is complete, one becomes a full Calian
+Warrior. I have listed the skill differences below.
+
+Warrior Skills:
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+General
+--------------------------------------------------------------------------
+SS_WEP_SWORD          100*        30          70         1.5         1.750  
+SS_WEP_POLEARM         75*        30          45         1.5         1.125
+SS_2H_COMBAT           65          0          65         2.0         2.167 
+SS_PARRY               75          0          75         1.5         1.875
+SS_DEFENCE             75         20          55         1.5         1.375
+--------------------------------------------------------------------------
+Totals                390         80         310                     8.29%
+
+--------------------------------------------------------------------------
+Guild Specific Skills
+--------------------------------------------------------------------------
+SS_SWARM_KNOWLEDGE    100          0           0         0.0         0.000
+SS_MOVE_BEHIND        100          0           0         0.0         0.000
+SS_RIPOSTE            100          0           0         0.0         0.000
+--------------------------------------------------------------------------
+         
+ * The combined 175 levels of sword and polearm may be divided up between
+   the two however the player wants. this gives 25 levels of alternatively
+   allocated levels, producing an extra tax of 25 / 60 * 0.5 = 0.21%
+
+Taxable Slots Allowed   : 550
+Actual Taxable Slots    : 310
+
+Maximum AG Slots Allowed: 250
+Actual AG Slots Used    :  80
+
+TOTAL TAX FOR SKILLS (Warriors) : 8.5%
+        
+Trainee Skills:
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+SS_WEP_SWORD           65         30          35         1.5         0.875  
+SS_WEP_POLEARM         65         30          35         1.5         0.875
+SS_2H_COMBAT           45          0          45         2.0         1.500 
+SS_PARRY               55          0          55         1.5         1.375
+SS_DEFENCE             55         20          35         1.5         0.875
+--------------------------------------------------------------------------
+Totals                285         80         205                     5.50%
+
+--------------------------------------------------------------------------
+Guild Specific Skills
+--------------------------------------------------------------------------
+SS_SWARM_KNOWLEDGE     70          0           0         0.0         0.000
+SS_MOVE_BEHIND         70          0           0         0.0         0.000
+SS_RIPOSTE             70          0           0         0.0         0.000
+--------------------------------------------------------------------------
+         
+Taxable Slots Allowed   : 550
+Actual Taxable Slots    : 205
+
+Maximum AG Slots Allowed: 250
+Actual AG Slots Used    :  80
+
+TOTAL TAX FOR SKILLS (Trainees) : 5.5%
+
+Follower Skills:
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+SS_WEP_SWORD           50         30          20         1.5         0.500
+SS_WEP_POLEARM         50         30          20         1.5         0.500
+SS_2H_COMBAT           40          0          40         2.0         1.333 
+SS_PARRY               40          0          40         1.5         1.000
+SS_DEFENCE             50         20          30         1.5         0.750
+--------------------------------------------------------------------------
+Totals                230         80         150                     4.083%
+
+--------------------------------------------------------------------------
+Guild Specific Skills
+--------------------------------------------------------------------------
+SS_SWARM_KNOWLEDGE     50          0           0         0.0         0.000
+SS_MOVE_BEHIND         50          0           0         0.0         0.000
+SS_RIPOSTE             50          0           0         0.0         0.000
+--------------------------------------------------------------------------
+         
+Taxable Slots Allowed   : 550
+Actual Taxable Slots    : 150
+
+Maximum AG Slots Allowed: 250
+Actual AG Slots Used    :  80
+
+TOTAL TAX FOR SKILLS (Followers): 4.083%
+
+================
+COMBAT SPECIALS:
+================
+
+SWARM (Uses skill SS_SWARM_KNOWLEDGE)
+    ~ relevant doc: /d/Calia/guilds/calians/doc/swarm.txt ~
+
+    Swarm is an attacking skill that allows a player, when teamed 
+    against an opponent who is fighting a fellow team member, to 
+    attempt to sneak around its defences and deal it a blow. 
+    
+    Swarm also possesses a defensive part when used with other Calians.
+    Whenever a Calian is in a team, the tanker receives 20% evade.
+    Additionally, for each additional Calian teammate one has, the
+    tanker will receive an extra 10% evade. 
+
+    How much combat aid the Calian receives for swarm depends on whether
+    there are other Calians in the team or not. It roughly breaks down
+    to this:
+
+    Warriors:
+        Calian with no other Calians: 105%
+        Calian with other Calians:    120%
+    
+    Trainees:
+        Calian with no other Calians:  74%
+        Calian with other Calians:     84%
+    
+    Followers:
+        Calian with no other Calians:  53%
+        Calian with other Calians:     70%
+    
+    For their tax, we use the max when they are teamed along with a 
+    discount because of their severely hampered soloing capability. 
+    The discount is given at 11 / 20. Because they always have 30% 
+    combat aid when solo, the first 30% is fully taxed. The next 90% 
+    is discounted.
+
+    For a more complete explanation, see:
+
+        /d/Calia/guilds/calians/doc/swarm.txt
+
+    Tax for swarm: (30 / 6) + (90 * (11 / 20) / 6) = 13.25% (Warrior)
+                   (30 / 6) + (54 * (11 / 20) / 6) = 9.95   (Trainee)
+                   (30 / 6) + (40 * (11 / 20) / 6) = 8.66%  (Follower)
+
+MOVE BEHIND (Uses skill SS_MOVE_BEHIND)
+
+    Move behind is a skill that allows a player, when in a team 
+    and being attacked by an opponent or opponents, to move behind 
+    a team-mate who then faces the opponent(s) attacks. 
+
+    Because moving behind actually does not have any real combat aid,
+    we came up with the value of 1% to tax the ability itself.
+    
+    For a more complete explanation, see:
+
+        /d/Calia/guilds/calians/doc/move_behind.txt
+
+    Tax for move behind: 1% (arbitrarily set, since no real combat aid)
+
+RIPOSTE (Uses skill SS_RIPOSTE)
+
+    Riposte is the only ability that Calians are able to use when solo.
+    It is essentially a tanker ability, allowing them to parry incoming
+    attacks and immediately launch a counter attack. The attack itself is
+    quite weak, but when in a Calian team, the riposte attack becomes
+    much stronger.
+    
+    For a more complete explanation, see:
+
+        /d/Calia/guilds/calians/doc/riposte.txt
+    
+    Tax for riposte: 0% (none, since already included in swarm calculation)
+    
+TOTAL TAX FOR SPECIALS: 14.25% (Warrior)
+                        10.95% (Trainee)
+                         9.66% (Follower)
+
+
+====================
+ADDITIONAL FEATURES:
+====================
+
+Calian Project (Member-to-member Tell)
+
+    This ability allows Calians to speak with each other using the their
+    medallion. Because they are a fighter guild, this ability is taxed
+    quite heavily.
+    
+    Tax for project: 4%
+
+TOTAL TAX FOR ADDITIONAL FEATURES: 4%
+
+
+***************************************************************************
+             Taxation Summary
+***************************************************************************
+Warriors:
+    Skill Tax Total        :  8.50    
+    Combat Specials        : 14.25  
+    Additional Features    :  4.00   
+                             ----
+    Total Tax              : 26.75
+
+    Rounded Total Tax      : 27%
+
+Trainees:
+    Skill Tax Total        :  5.50    
+    Combat Specials        : 10.95  
+    Additional Features    :  4.00   
+                             ----
+    Total Tax              : 20.45
+
+    Rounded Total Tax      : 21%
+
+Followers:
+    Skill Tax Total        :  4.08    
+    Combat Specials        :  9.66
+    Additional Features    :  0.00   
+                             ----
+    Total Tax              : 13.74
+
+    Rounded Total Tax      : 14%
+
+Total Tax allowed occupational  35%
+*****************************************************************************
+
+Document by Petros

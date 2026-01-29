@@ -1,0 +1,89 @@
+main
+::MAPDATA::
+barn 34 14 east
+bedroom 34 10 east
+coop 26 12 east
+garden01 30 6 east
+garden02 34 8 east
+great 30 10 east
+hayloft 34 12 east
+kitchen 30 8 east
+orch01 30 3 east
+rd01 28 20 east
+rd02 28 18 east
+rd03 30 16 east
+yard 30 14 east
+::MAPDATA::
+. . . . . . . . . . . . . . . . . . . .
+.                                     .
+.         FARMS AND FARMLAND          .
+.         ------------------          .
+
+.         O - O   _ ___               .
+.         |   |  / \___\      O       .
+.     O - O   O  |o|n_n|        \     .
+.         |                   O - O   .
+.     O   O                   |       .
+.    ||   |                   O - O   .
+.     O   |                   |       .
+.       \ |   _           O   |   O   .
+.         O  | | _____ __   \ |  ||   .
+.         |  | |/     /  \    O - O   .
+.         O  | |_____| "" |   |       .
+.         |  |_|_[X]_|__o_|   O       .
+.         O                  /        .
+.       /                   O         .
+.     H                     |         .
+.       I                   O         .
+.         G                /          .
+.           H     R O A D             .
+.                                     .
+. . . . . . . . . . . . . . . . . . . .
+::NEWMAP::
+east
+::MAPDATA::
+barn 38 18
+bedroom 38 12
+coop 20 15
+garden01 27 6
+garden02 38 9
+great 27 13
+hayloft 38 15
+kitchen 27 9
+orch01 29 3
+rd01 21 27
+rd02 21 24
+rd03 27 21
+yard 27 18
+::MAPDATA::
+. . . . . . . . . . . . . . . . . . . . . . .
+.                                           .
+.             E A S T  F A R M              .
+.             ----------------              .
+.                                           .
+.                       garden              .
+.                         [ ] \             .
+.                               \           .
+.                       kitchen -- garden   .
+.                         [ ]        [ ]    .
+.                          |                .
+.                        great --- bedroom  .
+.                        room        [ ]    .
+.               chicken   [ ]               .
+.                 coop     |       hayloft  .
+.                  [ ]     |         [ ]    .
+.                      \   |         ||     .
+.                        yard ----- barn    .
+.                         [ ]        [ ]    .
+.                          |                .
+.                        road               .
+.                         [ ]               .
+.                       /                   .
+.                  road                     .
+.                   [ ]                     .
+.                    |                      .
+.                  road                     .
+.                   [ ]                     .
+.                 /                         .
+.            High Road                      .
+. . . . . . . . . . . . . . . . . . . . . . .

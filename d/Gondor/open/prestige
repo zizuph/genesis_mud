@@ -1,0 +1,96 @@
+Documentation on the implementation of prestige in Gondor.
+
+All Solemnian knights get prestige if they kill something. This prestige
+is more than just alignment... Their guild future is based upon it.
+If they kill something without set prestige they won't get as much prestige
+as when they kill something with prestige.
+
+Prestige is set with the following command:
+
+query_knight_prestige() {return x;}
+
+in which x is the amount of prestige someone gets.
+
+Some prestige levels:
+
+object         alignment prestige
+
+dragon highlord     -900    3000
+evil priest         -400      900
+draconians          -350      900
+evil humans         -150      450
+black rider                  2500
+
+Be ware of good things... If you give prestige lower than -15 you will ruin
+the prestige a knight has... Prestige -70 will reset all prestige from 90%
+of the knights (quote Percy).
+
+If you have something with alignment 1000 give it presige -15
+A normal guard (alignment 500) should have prestige -7 / -8
+a child or something (aligment 100) should have prestige -1
+
+SO BE WARE with negative prestige... It is very powerful.
+
+prestige awarded in Anorien:
+
+object                     alignment  prestige
+Eagle                      100...300       - 5
+Troll                           -200       250
+Troll                     -200..-300       250
+
+Minas Tirith:
+Cityguard at Gate          250...500       - 8
+Drunk                     - 50...100       - 2
+Shades' guard             -150..-250       300
+Arindel                   -250..-400       400
+Calmacil                         100       - 5
+Brandir                     50...150       - 5
+Hunthor                          600       -10
+
+prestige awarded in Rohan:
+
+object                     alignment  prestige
+Borderguard                250...500       - 8
+Roadwarden                 250...500       - 8
+Standard orc (plains)     -100..-300       400
+Uruk-hai (West Emnet)     -400..-650       800
+Dunlending Captain        -300..-500      1000
+Dunlending (Farm)         -150..-350       750
+Dunlending scout          -100..-200       300
+Wolf (plains)             -100..-250       250
+
+Edoras:
+Theoden King                     900       -20
+Eomer                      500...750       -12
+Elfhelm                    400...600       -10
+Hama                       400...600       -10
+Mearas                     300...400       - 8
+Funohed                    300...400       - 7
+Harding                    200...400       - 7
+Bendar                     100...300       - 5
+Fastred                    100...200       - 4
+Guard (Meduseld)           300...400       - 6
+Guard (Inn, Gate, Lookout) 150...300       - 6
+Citizen                    125...175       - 5
+Child                            100       - 5
+Drunk                             15       - 1
+
+prestige awarded in Ithilien
+
+object                     alignment  prestige
+Haradrim Captain (Army)   -350..-600      1200
+Haradrim Warrior (Army)   -200..-400       800
+Mordor Orc                -100..-300       575
+Mordor Orc Captain        -200..-450       800
+
+Camp:
+Uruk                      -200..-400       600
+Orc                       -100..-300       370
+Haradrim                  -200..-440       500
+Cook                      -250..-406       500
+
+Damrod, Ranger             600...650       -10
+Meneldil, Ranger           500...550       - 9
+
+Minas Morgul
+Ithil Orc                 -250..-550  400..700

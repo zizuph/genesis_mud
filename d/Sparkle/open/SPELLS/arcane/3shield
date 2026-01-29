@@ -1,0 +1,19 @@
+Name: Shield
+
+Object: /d/Sparkle/guilds/arcane/spells/shield.c
+
+Cost: 
+
+Skills: 
+
+Description: Tier 3 spell
+                 Targets: 1, unspecified defaults to caster
+		 Temporarily creates a magic shield around the target.
+		 Shield will occasionally take hits and provide a slight
+		 AC boost for the target. Greater effect for the caster
+		 than for a third party target.
+		 
+Requirements: 
+    SS_ELEMENT_EARTH   
+    SS_FORM_ENCHANTMENT    
+    Pebble

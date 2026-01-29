@@ -1,0 +1,63 @@
+The Ranger guild is truly tricky to implement since the lore
+on the subject is relatively vague. There are Rangers of the
+North like Aragorn, mostly solitary types who are on the
+lookout for danger and Rangers of Ithilien, who fight guerilla
+warfare against enemies of Gondor.
+
+Technically they're just commandos and special forces of
+Gondor military. Should we treat them as a fighter guild or
+rather a ranger type? Even the name suggests ranger and them
+being generalists who specialize in stealth and ambushes.
+
+With all that in mind I think that they should be a ranger
+style guild with higher emphasis on combat. Currently they
+have some magic and alchemy but nothing in the lore really
+supports that.
+
+If it were up to me I would remove their spells and potions
+entirely. Perhaps in favour of opening the alchemist craft
+guild (see the ApothecaryIdea file I've attached) and just
+giving them better combat options.
+
+All Rangers should get a basic damaging special and another
+one depending on which branch they belong to. Ithilien should
+get ambush special to initiate combat and flanking maneuvers
+when in team (similar to swarm but without move behind and
+only working when you're not the one being attacked) while
+North should retain brawl in some form (them being more
+loner type that would serve more supportive/disruptive role).
+Not sure what to do with hearing, it's thematically strong
+for scouts but practically unused ability.
+
+Proposed skills:
+sword/axe/polearm/bow (mutually exclusive) 90-100
+defence 75-90
+parry 75-90
+blindfighting 70
+appraise enemy 70
+tracking 70
+hunting 70*
+location sense 70
+sneak 75
+hide 75
+awareness 90
+
+*hunting skill is not used in the game apart from maybe
+one or two quests. I support Finwe on the idea that Rangers
+could utilize it somehow. I also don't think it should
+really count towards the limit of skills in the guild or
+be taxed.
+
+With removal of spells and potions we can move the remaining
+combat aid to specials and additional skills.
+
+The above skillset would support the "remote troops" type of
+organization that the Rangers were in the lore as opposed
+to being regular soldiers or just scouts. If someone would
+like to play the Ranger as they are used to they can just
+join the Heralds of the Valar to get their healing and
+cleansing spells (most of the spells are currently redundant
+between Heralds and Rangers).
+
+That's how I see it.
+

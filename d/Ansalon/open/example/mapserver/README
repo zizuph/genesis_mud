@@ -1,0 +1,12 @@
+This directory contains example of area created using my mapserver.
+Files:
+entry.c			- room out of area to start in
+ex_map.c		- map of the area
+ex_base.c		- basefile of the area
+ex-x.c			- basefile for x rooms
+ex-p.c			- basefile for p rooms
+
+rooms/			- rooms of the area (MUST be in subdir)
+rooms/ex-5-0-p.c	- entry/leaving point in area
+
+Milan

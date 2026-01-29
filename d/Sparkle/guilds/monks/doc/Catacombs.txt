@@ -1,0 +1,72 @@
+The catacombs are a place of arcane beauty, visible only to monks and of those,
+more to the monks that met more of their kin. Originally, the cave where the
+catacombs reside was made by dragons, the first occupants of the Dragon
+Mountains. Although the purpose is now forgotten, the setting suggests a meeting
+hall of sorts, with perches arranged in concentric circles around a dais.
+
+Now, the dragons are naturally long gone, but the essence of the dragon life
+force still permeates the area. This helped the ancient priests remake the cave
+into a shrine, one that celebrates the variety of the dragons. Each perch is now
+dedicated to a specific dragon that is present elsewhere in the realms, but only
+those monks who met the dragon and claimed him as kin will feel his presence on
+the perch.
+
+The perches are connected by rope bridges, both tangentially and radially, but
+not all bridges can be walked by all players. The radial bridges leading towards
+the center of the shrine do not start directly at each perch, but some way
+downwards along its base column, and the material of the column is too slippery
+to climb for all except those who are favored by the dragon whose perch they are
+climbing.
+
+A player is favored by a dragon if he is a monk who claimed the dragon as kin
+and if the sequential number of the dragon on the given concentric circle is a
+residue of dividing the name_to_random of the player and the circle by the
+number of dragons in that circle, or the same holds for a dragon with a
+sequential number half the size of the circle higher. This way, each player has
+a unique path to follow to the dais in the center of the shrine, but each player
+also has a choice of two dragons to befriend and thus does not get stuck in case
+he does not know one of them.
+
+For an added effect, a player who claimed all dragons as kin climbs everywhere.
+
+
+ o First Circle (Getting started, easy dragons)
+
+    - Black Dragon (Terel)
+    - Empty
+    - New Dragon (Mithas)
+    - Empty
+    - Green Dragon (Krynn)
+
+ o Second Circle (After start, still easy dragons)
+
+    - Sleet (Ice Wall)
+    - Empty
+    - Cave Drake (Avenir)
+    - Empty
+    - Faery Dragon (Krynn)
+
+ o Third Circle (Medium, somewhat difficult dragons)
+
+    - Red Dragon (Terel, Dangerous)
+    - Empty
+    - Old Red Dragon (Krynn)
+    - Empty
+    - Blue Dragon (Cadu)
+
+ o Fourth Circle (Difficult, dragons that are quest or dangerous)
+
+    - Ice Dragon (Calia, Quest)
+    - Empty
+    - Evil Dragon (Ribos, Quest)
+    - Empty
+    - Huge Red Dragon (Krynn, Dangerous)
+
+ o Fifth Circle (Difficult, dragons that are quest or dangerous)
+
+    - Shadowgloom (Kalad, Quest, Dangerous)
+    - Empty
+    - Firestorm (Calia, Quest)
+    - Empty
+    - Khisanth (Krynn, Quest)
+

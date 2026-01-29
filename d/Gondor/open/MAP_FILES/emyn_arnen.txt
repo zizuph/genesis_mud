@@ -1,0 +1,77 @@
+main
+::MAPDATA::
+house3b 21 8
+ruin2 18 10
+house3 21 10
+house4 24 10
+cellar4 27 10
+hid_cellar 27 10
+vrdn 21 13
+ruin3 25 13
+cellar2 14 14
+house2 17 14
+ruin1 15 16
+house1b 27 16
+vrd8 3 18
+mp1 17 18
+mp2 21 18
+house1 27 18
+path1 31 18
+vrd7 5 20
+vrd6 9 20
+vrd5 13 20
+vrd4 17 20
+vrd3 21 20
+vrd2 27 20
+vrd1 31 20
+bank1 5 22
+bank2 9 22
+sqcorr 13 22
+hall1 17 22
+larder 25 22
+rrd1 27 22
+srd3 33 22
+rivr3 7 23
+pass1 13 24
+ghall 17 24
+kitchen 25 24
+rivr2 9 26
+cellar 20 26
+well_room 25 26
+in_well 25 26
+pass2 13 27
+sthall 17 27
+::MAPDATA::
+
+             ==========
+             Emyn Arnen
+             ==========
+
+          _____           _____
+         /\    \         /\    \
+        /  \____\       /  \____\
+        |[]| [] |    o  |[]| [] |
+                     |
+                  o  o [ ][ ]
+                   \ | /
+                    \|/
+                     o - o
+             [ ][ ]  |
+                 |   |
+ \|/           o |   |     o
+                \|   |     |    /
+   o             o - o     o   o
+    \            |   |     |   |
+     o - o - o - o - o --- o - o
+     |   |       |         |    \
+     o  [ ]  o - o       o o     o -
+    ~~~      |   |       |/
+     ~~~     o   o -----[ ]
+  \|/  ~~~   |   |
+        ~~~  |   |  o - [ ]
+         ~~~ o - o
+          ~~~~        ______
+            ~~~~     /     /\
+                    /     / /
+                   /_____/ /
+                   \_____\/

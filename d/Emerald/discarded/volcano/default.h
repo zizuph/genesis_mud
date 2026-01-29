@@ -1,0 +1,5 @@
+#include "/d/Emerald/defs.h"
+#define NPC_DIR VOLCANO_DIR + "npc/"
+#define OBJ_DIR VOLCANO_DIR + "obj/"
+#define ARM_DIR VOLCANO_DIR + "arm/"
+#define WEP_DIR VOLCANO_DIR + "wep/"

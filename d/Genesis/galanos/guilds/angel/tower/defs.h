@@ -1,0 +1,6 @@
+#define TOWER_DIR  "/d/Genesis/galanos/guilds/angel/tower/"
+#define FI_DIR    TOWER_DIR + "first_floor/"
+#define SE_DIR    TOWER_DIR + "second_floor/"
+#define TH_DIR    TOWER_DIR + "third_floor/"
+#define FO_DIR    TOWER_DIR + "fourth_floor/"
+#define BA_DIR    TOWER_DIR + "basement/"

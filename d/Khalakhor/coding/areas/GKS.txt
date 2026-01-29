@@ -1,0 +1,218 @@
+Khalakhor Global Knowledge System
+
+Copyright August 12/1997 by Khail (Mike Henderson)
+
+Acknowledgements to Maniac & Morrigan for cosmetic and
+technical suggestions.
+
+********************************************************
+The Khalakhor global knowledge system is a series of
+routines designed to give npc's in the domain more of
+a global awareness to the events and geography around
+them. As of the time of this document, the functionality
+is rather limited to minimuze cpu cost, but as more
+efficient means are discovered, new routines may be added.
+
+Currently the system involves 4 main files.
+/d/Khalakhor/std/npc/knowledge_npc.c:
+    This is the base npc which should be inherited into
+    npc's (replacing /std/monster) which provides the
+    knowledge functionality to them. It will allow (as
+    of version 1.0) them to respond to questions regarding
+    the location of certain places and any player.
+/d/Khalakhor/std/obj/information_base.c:
+    This is the base template for information modules.
+    Each area in the domain (such as a village or ruin)
+    that is supported by this system should have an
+    information module that provides local coords of
+    places in that area, the area's global coords, and
+    the area's name. These modules inherit this base
+    and simply define the necessary variables. Everything
+    else is taken care of by this template.
+/d/Khalakhor/<area>/information.c
+    This is an information module. Any area which we want
+    to be recognized by the GKS must have one to provide
+    information to the information master. It simply
+    provides info about global coords, local coords, and
+    the name of the area.
+/d/Khalakhor/common/obj/information_master.c:
+    This is the information master. All queries by npc's
+    regarding geographic locations in the domain are
+    handled by this object. It determines the npc's 
+    proximity to the location in question, and returns
+    the appropriate response for the npc to use (ideally
+    the direction the desired location is in, how far
+    away it is, and in what village if not in the npc's
+    current location).
+
+How it works:
+Basically it allows npc's to respond to a wide variety
+of questions that are mainly there just to give the npc's
+an appearance of intelligence. There are currently three
+different question types than an npc can respond to using
+this system.
+1: Normal questions 
+    Normal questions via add_ask work virtually the same
+    as with normal npc's, in order to ensure ease of
+    implementation and customization.
+2: General knowledge questions
+    GKS-supported npc's can respond to a variety of
+    general knowledge info, such as responding to a
+    question like 'ask man humans', or 'ask guard about
+    goblins'. THis general info can be customized to
+    individual npc's or different local npc's by masking
+    the function new_answer_question() with the relevant
+    information. This could be to allow citizens of a
+    village to respond to questions about their mayor,
+    for example, or to change the way an npc feels about
+    a specific race.
+3: 'Where is' questions
+    The GKS provides npc's with the means to respond to
+    questions regarding the locations of players and 
+    places. The responses vary greatly depending on the
+    situation. In the case of players, if you ask an npc
+    'where is khailjr', and that npc has khailjr remembered,
+    he will tell you how long it's been since he's seen
+    Khailjr walk by. If he doesn't, he'll make up a random
+    rumour about Khailjr's location based on Khailjr's
+    age and alignment.
+    In the case of locations (where is a shop? for example)
+    the npc will refer to the information master for the
+    coordinates of the nearest shop, and provide the
+    general direction and distance. If the shop is in a
+    different village, he'll also provide the village
+    name. In the event of a village with two shops, he'll
+    ask which one you want to visit before generating
+    directions. This only works, however, for duplicate
+    places in the npc's current village. If you're looking
+    for a smith in a village that doesn't have one, and
+    the next village has 2, the npc will simply tell you
+    where the next village is.
+
+Implementation:
+There are three stages to implementation, the area,
+the npc's, and the master.
+1: The area - In order to add GKS support to an area,
+    you must first determine the global coordinates
+    for the area, and the local coordinates for the
+    places in the area. Global coordinates is the
+    coordinate grid for areas across the domain, so
+    it's rather coarse. Values for these can be
+    'guesstimated' off of existing areas, as there's
+    no hard-set scale at this level. Local coordinates
+    are really only necessary in areas that have
+    distinct places (like the shops in a village). They
+    are rather pointless in something like a wooded
+    area, and aren't necessary.
+    The coordinate system has it's origin at the top
+    left corner of an area, positive-x increases to the
+    right, positive-y increases downwards.
+    Locals coordinates are usually done on a room-by-room
+    basis in a grid pattern. However, in the case of large
+    buildings which occupy several rooms in the grid,
+    (such as the town hall or kirk in Port Macdunn),
+    you may want to set all the local coords for each room
+    to be the actual coords for the entrance to the
+    building (or nearest entrance). This is because the
+    GKS can only recognize one set of coords as the location
+    of a building, so you could have npc's telling you
+    to leave a building to get to it otherwise.
+    Adding coords to a room are as simple as defining two
+    functions:
+    public int *query_local_coords() { return ({x,y}); }
+    public int *query_global_coords() { return ({x,y}); }
+    Into each room. The global coords query can frequently
+    be placed into a base room so you don't have to cut and
+    paste it, and the actual coords themselves can be a 
+    #define in the area defs.h file.
+    Once the coords are laid out, there's nothing else to
+    be done in a room (the operation usually takes an extra
+    1 or 2 minutes per room if you've got a good layout).
+
+    Once the rooms are done, an information module must
+    be created for the area. This is done by creating a
+    file (in any directory with any name, though a good
+    standard is 'information.c' in the area's root dir)
+    which inherits the information base. In this file,
+    you simply define the function create_info() which
+    sets the following variables:
+
+    options: Options is a mapping variable. It contains
+        values which represent individual places to which
+        general names (the indexes) could apply to. For
+        example:
+        options = (["guild": ({"adventurers guild",
+                               "warrior crafthall"})]);
+
+    aliases: Aliases is a mapping variable which contains
+        values that describe alternate names for specific
+        locations (the indexes).
+        aliases = (["shop": ({"store","provisioner","shop"})]);
+
+    coords: Coords is another mapping that contains the
+        local coords for each specific location in the
+        city. For efficiency reasons, use indexes that
+        have been resolved by the aliases mapping. For
+        example using the above aliases mapping, when
+        providing the coords of the shop, use:
+        coords = (["shop": ({23,1})]);
+        instead of
+        coords = (["store": ({23,1})]);
+
+    area_name: This one is pretty straight forward, it's
+        simply a string that names the area. Used mainly
+        for npc's to name the area if they're in a different
+        one.
+        area_name = "Port Macdunn";
+
+    global_coords: Simply a 2-element int array that
+        contains the global coords for the area this
+        module controls.
+        global_coords = ({4,3});
+
+That's it, your information module is done.
+
+2: The npcs - Adding GKS support to npc's is as simple
+    as inheriting the GKS base npc instead of /std/monster.
+    Unless you want to do some customizing, you can stop
+    here, because that's enough for basic functionality.
+    Customizing options exist, however. The function
+    new_answer_question() is defined in teh base npc with
+    some responses to standard, domain-trivia type questions
+    like 'ask guard about humans' if a player wants info
+    on the human race in Khalakhor. This function can
+    be masked to do nothing if no general info is wanted,
+    or to change the general info returns, or to add
+    more general info to an npc or group of npc's.
+    You can also add as many 'add_ask()' as you want,
+    this functionality isn't disturbed by the GKS.
+
+    IMPORTANT: The routines which allow the npc's to
+    remember the last time they saw a player they have
+    remembered, it was necessary to use add_introduced()
+    in the base npc. You can still use it yourself with
+    a little care, however. First, if you mask it, be
+    sure to do ::add_introduced() so the npc's 'last seen'
+    memory will function (unless you want to disable it
+    intentionally). The base npc's intro response is
+    simply command("introduce myself to <whoever>"), but
+    this can also be changed by defining the function
+    hook_return_intro(string who). Doing this will allow
+    you to customize how your npc's returns introductions,
+    including any special memory routines you want to add
+    to your npc, while also allowing the last seen memory
+    to work perfectly. Return 1 from this function if you
+    give the npc a special way to return intro's, or return
+    0 if you want the default return intro routine to
+    run.
+3: The information master - This part is easy. Simply
+    add the filepath to your area's information module
+    to the 'modules' mapping defined in the info masters
+    create_object() function. The filepath will be a value
+    indexed off the area's name. For example:
+
+    modules = (["Port_Macdunn":
+        ({"/d/Khalakhor/se_speir/port/information"})]);
+
+    Just remember that mappings won't accept blank spaces
+    in index strings.   

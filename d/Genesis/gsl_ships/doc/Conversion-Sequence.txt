@@ -1,0 +1,94 @@
+I. Interdomain lines [only from Sparkle]
+
+* Sparkle - Palanthas (use Cove ship, unused now)
+* Sparkle - Kalaman (use Newports ship, confirm with Navarre)
+* Sparkle - Sanction (use Flotsam ship, confirm with Navarre)
+
+* Sparkle - Grey Havens (use existing ship)
+* Sparkle - Pelargir    (use existing ship)
+
+* Sparkle - Avenir Outpost Port (use existing ship)
+
+* Sparkle - Gont City (use existing ship)
+
+* Sparkle - Kabal (use Gelan-Kalad ship)
+
+* Sparkle - Cadu (* uses old ship)
+
+* Sparkle - Last (use Gelan-Last ship)
+
+* Sparkle - Telberin (* uses old ship)
+
+* Sparkle - Gelan (* uses old ship)
+
+* Sparkle - Faerun (use existing line)
+
+* Sparkle - Tyr (airborne, use roc)
+
+II. Intradomain lines [suggestions]
+
+* Sparkle - Golden Island (* use existing line)
+* Sparkle - Faerie (* coded new ship)
+
+* Cadu - Eil Galaith (use Sa Morgan - Eil Galaith line)
+* Cadu - Port Macdunn (* uses Port Macdunn - Grey Havens line)
+* Cadu - Sa Morgan (use Port Macdunn - Sa Morgan line)
+
+* Port Macdunn - Tabor Sogh (use Port Macdunn - Kalaman line)
+* Port Macdunn - Baile Ashlaigh (use existing line)
+
+* Last - Enchanted Garden (use Dabaay - Enchanted Garden line)
+* Last - Dabaay (use existing line)
+
+* Telberin - Northern Shore Outpost (use existing line)
+* Telberin - Grunts Lake (use some spare line?)
+
+* Calian Northern Shore - Eldoral (no conversion)
+
+[Below is just suggestion to Eowul]
+* Grey Havens - Tharbad (use Grey Havens - Gont line)
+* Grey Havens - Pelargir (use Grey Havens - Kalad line)
+* Grey Havens - Poros (use Grey Havens - Gelan line)
+* Poros - Tharbad (use existing line)
+* Poros - Pelargir (use Pelargir - Gont line)
+* Pelargir - Minas Tirith (use existing line)
+
+[Navarre shall reshuffle his ships]
+* Palanthas - Kalaman - Sanction
+* Palanthas - Mithas
+* Palanthas - Newports
+* Palanthas - Icewall
+* Palanthas - Flotsam
+* Palanthas - Solace
+* Sanction - Icewall
+* Sanction - Balifor
+* Sanction - Kurinost
+* Sanction - Flotsam
+* Flotsam - Mithas
+* Balifor - Kurinost
+* Balifor - Icewall
+* Kalaman - Vingaard
+* Kalaman - Mithas
+* Kalaman - Flotsam
+
+* Avenir Outpost - Sybarus (no conversion)
+* Sybarus - Isle of the Dead (no conversion)
+
+* Gont - Thwil (use existing line)
+
+* Kabal - Tyr (vehicle, new)
+* Kabal - Raumdor (use existing line)
+
+III. Thematic interdomain non-Sparkle lines:
+
+* Kalaman - Harlond - Gelan (use Faerie-VK line)
+* Poros - Sanction - Telberin (use a ship from Gont)
+
+IV. Newbie circle lines (free passage, up to stat av. N (TBD))
+
+* Sparkle - Gelan - Solace(Newports?) - Pelargir (use a ship from Pelargir)
+* Gelan - Sparkle - Port Macdunn - Grey Havens (use Gelan - PortMacdunn line)
+* Sparkle - Gelan - Cadu - Enchanted Garden (Terel) (use Sparkle - PM line)
+* Gelan - Sparkle - Gont - Kabal (use a Gont line)
+
+The lines marked with (*) have been implemented.

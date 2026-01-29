@@ -1,0 +1,6 @@
+domain,quest desc,group,bit,validation,arguments
+Faerun,Collect Eggs,1,1,default
+Faerun,Find Flowers,1,2,default
+Faerun,Find the Fruit,1,3,default
+Faerun,Dwarf King,1,4,default
+

@@ -1,0 +1,85 @@
+
+       Tax summary for Cadets of Gelan layman fighter guild 
+       ===================================================== 
+
+Skills 
+====== 
+Cadets may chose two offensive fighting skills (i.e. any two of 
+sword, polearm, axe, knife, club, unarmed combat), one as their 
+primary skill trainable 50 levels and the other as their secondary 
+skill trainable 45 levels. Unchosen offensive skills may then only 
+be trained 30 levels as in adventurer guilds. All other skills may 
+be trained to the maximum levels listed. For the primary skill, at 
+50 levels, there are 20 taxable levels, plus the tax for having 
+another five alternatives. 
+
+So, primary combat skill taxation is: 
+
+(20/60 * 1.5) + (5 * 20/60 * 0.5) = 0.5 + 0.834 = 1.334% 
+
+For the secondary skill, at 45, there are 15 taxable levels, plus 
+the tax for another four alternatives (the fifth, the primary skill, 
+at 50 levels, is already taken and taxed). 
+
+So, secondary combat skill taxation is:
+
+(15/60 * 1.5) + (4 * 15/60 * 0.5) = 0.375 + 0.5 = 0.875%
+
+
+Other skills:
+
+Skill           Level         Tax calculation
+-----           -----         ---------------
+SS_PARRY         40        40/60 * 1.5 = 1.0%
+SS_DEFENCE       50        30/60 * 1.5 = 0.75%
+SS_2H_COMBAT     40        40/60 * 2.0 = 1.334%
+SS_BLIND_COMBAT  50        30/60 * 2.0 = 1.0%
+SS_LOC_SENSE:    30                      0.0%
+SS_SNEAK:        20                      0.0%
+SS_HIDE          20                      0.0%
+
+
+Total skill tax: 1.334 + 0.875 + 1.0 + 0.75 + 1.234 + 1.0 = 6.293 
+
+
+Combat Aid 
+========== 
+Cadets have a damage special called "donk". The special has no 
+guild-specific skills but uses standard mudlib ones according 
+to the attack type being used (e.g. SS_SWORD if they are using 
+sword etc.) The special may be used once every 16 seconds 
+(every 3.125 combat rounds), hits using a tohit value 25% 
+better than a mudlib combat hit, which assuming a 40/40 weapon 
+gives a "to hit" value of 50, so the relevant entry in the 
+combat aid reduction table ("man cb_tohit") is 48%. The damage 
+is obtained as: F_PENMOD(weapon pen * 1.45, weapon skill * 1.8), 
+which for a 40/40 weapon and weapon skill of 50 (the max a 
+cadet can have) yields F_PENMOD(58, 90) i.e. 366. The hit 
+they could normally expect would be F_PENMOD(40, 50) i.e. 
+205. The penetration advantage is therefore 366 / 205. There 
+is no special skill for donk, so combat aid is increased by 
+50%. 
+
+Combat aid is therefore: 
+
+((5 / 16) * (48 / 100) * (366/205) * (150/100)) * 100 % = 40.171% 
+
+The taxation of donk is: 
+
+40.171 / 6.0 = 6.695% 
+
+Cadet rack: 
+=========== 
+Cadets have a (non-saving) rack, taxed at 1%. 
+
+Tax reductions: 
+=============== 
+Cadets are not allowed to be in an occupational guild. 
+This is a very strong restriction so tax is reduced by 2%. 
+
+Final tax: 
+========== 
+(6.293 + 6.695 + 1 - 2)% = 11.988% = 12% rounding up 
+
+Document by Maniac 
+Last revision: 4/7/2001 

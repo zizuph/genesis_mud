@@ -1,0 +1,471 @@
+main
+::MAPDATA::
+cave1 7 8 caverns_hobgob
+cave2 7 8 caverns_hobgob
+cave01 7 8 caverns_hobgob
+cave02 7 8 caverns_hobgob
+cave03 7 8 caverns_hobgob
+cave04 7 8 caverns_hobgob
+cave05 7 8 caverns_hobgob
+cave06 7 8 caverns_hobgob
+cave07 7 8 caverns_hobgob
+cave08 7 8 caverns_hobgob
+cave09 7 8 caverns_hobgob
+cave10 7 8 caverns_hobgob
+cave11 7 8 caverns_hobgob
+cave12 7 8 caverns_hobgob
+cave13 7 8 caverns_hobgob
+cave14 7 8 caverns_hobgob_upper
+cave15 7 8 caverns_hobgob_upper
+cave16 7 8 caverns_hobgob_upper
+cave17 7 8 caverns_hobgob_upper
+cave18 7 8 caverns_hobgob_upper
+cave19 7 8 caverns_hobgob_upper
+cave20 7 8 caverns_hobgob_upper
+wall 6 5 inside_wall
+turning_a 9 7 caverns_entry
+pal2 9 7 caverns_entry
+pal3 9 7 caverns_entry
+pal4 9 7 caverns_entry
+pal5 9 7 caverns_entry
+pal6 9 7 caverns_entry 
+pal7 9 7 caverns_entry
+pass4 9 7 caverns_ground
+pass5 9 7 caverns_ground
+waterfall 9 7 caverns_ground
+a5 9 7 caverns_ground
+r1 9 7 caverns_ground
+r2 9 7 caverns_ground
+r3 9 7 caverns_ground
+r4 9 7 caverns_ground
+r5 9 7 caverns_ground
+r6 9 7 caverns_ground
+r7 9 7 caverns_ground  
+r8 9 7 caverns_ground
+r9 9 7 caverns_ground
+r10 9 7 caverns_ground
+r28 9 7 caverns_ground
+pass2 9 7 caverns_one
+pass3 9 7 caverns_one
+turning_b 9 7 caverns_one
+b1 9 7 caverns_one
+b2 9 7 caverns_one
+b3 9 7 caverns_one
+b4 9 7 caverns_one
+b5 9 7 caverns_one
+b6 9 7 caverns_one
+b7 9 7 caverns_one
+b9 9 7 caverns_one 
+r11 9 7 caverns_one 
+r12 9 7 caverns_one
+r13 9 7 caverns_one
+r14 9 7 caverns_one
+r15 9 7 caverns_one
+r16 9 7 caverns_one
+r17 9 7 caverns_one
+r18 9 7 caverns_one
+r19 9 7 caverns_one
+r20 9 7 caverns_one
+r21 9 7 caverns_one
+r22 9 7 caverns_one
+r23 9 7 caverns_one
+r24 9 7 caverns_one
+r25 9 7 caverns_one
+r26 9 7 caverns_one
+r31 9 7 caverns_one
+cave3 9 7 caverns_two
+hall2 9 7 caverns_two
+hall1 9 7 caverns_two
+c2 9 7 caverns_two
+c4 9 7 caverns_two
+c5 9 7 caverns_two
+c6 9 7 caverns_two
+c7 9 7 caverns_two
+r27 9 7 caverns_two
+r29 9 7 caverns_two
+r30 9 7 caverns_two
+r32 9 7 caverns_two
+r33 9 7 caverns_two
+r34 9 7 caverns_two
+r35 9 7 caverns_two
+r36 9 7 caverns_two
+r37 9 7 caverns_two
+r38 9 7 caverns_two
+turning_c 9 7 caverns_two
+pass1 9 7 caverns_two
+a1 9 7 caverns_lower
+a2 9 7 caverns_lower
+a4 9 7 caverns_lower
+a6 9 7 caverns_lower
+pal1 9 7 caverns_thief
+har1 9 7 caverns_thief
+har2 9 7 caverns_thief2
+har3 9 7 caverns_thief2
+har4 9 7 caverns_thief2
+har5 9 7 caverns_thief2
+har6 9 7 caverns_thief2
+har7 9 7 caverns_thief2
+chapel 9 7 caverns_thief
+start 9 7 caverns_thief
+post 9 7 caverns_thief
+shop 9 7 caverns_thief
+train 9 7 caverns_thief
+join 9 7 caverns_one
+cave1 7 8 caverns_hobgob
+cave2 7 8 caverns_hobgob
+cave01 7 8 caverns_hobgob
+cave02 7 8 caverns_hobgob
+cave03 7 8 caverns_hobgob
+cave04 7 8 caverns_hobgob
+cave05 7 8 caverns_hobgob
+cave06 7 8 caverns_hobgob
+cave07 7 8 caverns_hobgob
+cave08 7 8 caverns_hobgob
+cave09 7 8 caverns_hobgob
+cave10 7 8 caverns_hobgob
+cave11 7 8 caverns_hobgob 
+cave12 7 8 caverns_hobgob
+cave13 7 8 caverns_hobgob
+cave14 7 8 caverns_hobgob_upper
+cave15 7 8 caverns_hobgob_upper
+cave16 7 8 caverns_hobgob_upper
+cave17 7 8 caverns_hobgob_upper
+cave18 7 8 caverns_hobgob_upper
+cave19 7 8 caverns_hobgob_upper
+cave20 7 8 caverns_hobgob_upper
+::MAPDATA::
+
+~~ ~~ ~~ ~~ ~~ '
+ `"`:~~ ,"`,`"`        
+ /\ ; ~~:         /\       Hinterlund
+  /\`,~,'        /\
+     [ ] /\ /\ /\                   ~~~ ~~
+ Palanthas/\ /\  /\             ~~~~~  ~~
+     /\_   /\ /\               ~~~
+    /   \/\                    ~
+  /\ /\ /\                    ~~     /\_ 
+   /\  /\      PLAINS OF      ~     /\  \
+     /\[ ]     SOLAMNIA      ~~    [#]/\ 
+ High Clerist               ~      Dargaard
+     Tower\                ~~      Keep /\
+   /\      \____________[ ]~        /\    
+    /\                Vingaard        /\    
+   /\                 Keep          /\   
+  /\   Heartlund        ~           @/\ /\ 
+ /\                   ~~           @/\_
+
+::NEWMAP::
+inside_wall
+::MAPDATA::
+wall 18 3
+::MAPDATA::
+                                     /\
+              ____/:    /:      /\  /  \
+ Palanthas   /:  :     /:/     /  \/    \
+            /:     ___/:/     /    \     \
+           /:    /:___:/                  \
+          /     :/             Vingaard Mountains
+
+
+::NEWMAP::
+caverns_entry
+::MAPDATA::
+turning_a 27 15
+pal2 29 13
+pal3 27 11
+pal4 25 9
+pal5 23 7
+pal6 20 5 
+pal7 16 5
+::MAPDATA::
+                          /\
+                     /\  /  \
+Palanthas   /:      /  \/    \
+        ___/:/     /    \     \
+      /:___:/                  \
+      /         o---o--@
+                      \      Vingaard  
+                       o     Mountains
+                        \
+           /\ __         o
+          /  \  \_        \
+         /    \   \        o
+                            \
+                             o
+                            /|
+                           o @ 
+
+::NEWMAP::
+caverns_ground
+::MAPDATA::
+pass4 22 5
+pass5 24 3
+waterfall 26 5
+a5 18 9
+r1 16 11
+r2 19 11
+r3 19 13
+r4 16 15
+r5 16 17
+r6 13 19
+r7 16 21  
+r8 11 21
+r9 11 17
+r10 22 13
+r28 8 15
+::MAPDATA::
+
+    exit to Palanthas                     
+             \
+              o         o
+               \       / \   
+                o     u   o waterfall
+                 \   /
+                  o @
+                 /|
+                o @
+                |
+             d  o--o
+                   |
+                   o--o   Dwarven caverns
+                 /
+        o       u
+         \      |
+           o    u
+            \ / 
+             o  
+            / \ 
+           o    o
+                 \
+                  #
+
+::NEWMAP::
+caverns_one
+::MAPDATA::
+join 16 3
+pass2 22 5
+pass3 22 3
+turning_b 16 7
+b1 13 5
+b2 16 5
+b3 19 5
+b4 13 7
+b5 19 7
+b6 13 9
+b7 16 9
+b9 19 9 
+r11 22 25 
+r12 19 23
+r13 19 21
+r14 16 21
+r15 13 21
+r16 13 19
+r17 13 17
+r18 16 17
+r19 16 19
+r20 19 19
+r21 19 17
+r22 19 15
+r23 16 15
+r24 13 13
+r25 16 13
+r26 19 13
+r31 19 11
+::MAPDATA::
+
+                          Dwarven caverns
+
+               [o] @  d
+                |  |  |
+             o  o  o  u
+             |  !  | 
+             o==u==o
+                !
+             d  o  d
+                 
+                   o--@
+                   |
+             u--d  o
+                 /
+                d  a               a - accessory store
+                 \ |               s - smithy
+             o  o  o
+               \|/ |
+             o--o  s
+               /|
+             o  o--o
+                 \
+                   o
+                    \
+                      o
+                       \  the great
+                          mountain gate  
+
+::NEWMAP::
+caverns_two
+::MAPDATA::
+cave3 8 12
+hall2 10 10
+hall1 10 8
+c2 16 6
+c4 13 8
+c5 19 8
+c6 13 10
+c7 16 10
+r27 22 10
+r29 22 8
+r30 25 6
+r32 25 4
+r33 13 14
+r34 16 14
+r35 19 16
+r36 19 12
+r37 19 10
+r38 10 14
+turning_c 16 8
+pass1 22 6
+::MAPDATA::
+
+                          Dwarven caverns
+
+
+                         o
+                         |
+                o     d  o
+                !   /  /
+          o--o==d==o  o
+          |     !     |
+          o  d--o--o  o
+         /         |/                   H - to hobgoblin hideout
+        H          o
+                 /
+          o--d--o
+                 \
+                   o
+              
+::NEWMAP::
+caverns_lower
+::MAPDATA::
+a1 13 3
+a2 16 3
+a4 13 5
+a6 13 7
+::MAPDATA::
+
+                          Dwarven caverns (LG)
+
+             o--o
+             |
+             o
+             |
+             u
+
+::NEWMAP::
+caverns_thief
+::MAPDATA::
+pal1 9 13
+har1 12 13
+chapel 12 15
+start 15 15
+post 15 13
+shop 18 15
+train 15 17
+join 15 19
+::MAPDATA::
+
+            Guildhall of the Cabal of Hiddukel
+
+                  o
+                 /
+            o--o
+            |
+            o
+            |
+            o
+            |             
+            u
+            |
+       --o  o  o      
+           \|  |   /
+            o--u--o  
+               |/
+               o  
+               |
+               o  
+               |
+::NEWMAP::
+caverns_thief2
+::MAPDATA::
+har2 12 11
+har3 12 9
+har4 12 7
+har5 12 5
+har6 15 5
+har7 18 3 
+::MAPDATA::
+
+            Underground bay
+
+             ~~   o  ~~
+        ~~       /  ~~
+       ~~   o--o   ~~
+            |
+            o
+            |
+            o
+            |             
+            u
+            |
+            @
+
+::NEWMAP::
+caverns_hobgob
+::MAPDATA::
+cave1 3 9
+cave2 12 7
+cave01 6 9
+cave02 9 9
+cave03 6 7
+cave04 3 7
+cave05 6 5
+cave06 6 3
+cave07 3 3
+cave08 3 5
+cave09 9 5
+cave10 9 3
+cave11 12 3 
+cave12 12 5
+cave13 9 7
+::MAPDATA::
+
+Hobgoblin hideout
+
+   o--o  o  o
+    \ |  | /
+   o--o--o  .
+      |  |
+   .  o  o--o
+      |
+   o--o--o
+
+::NEWMAP::
+caverns_hobgob_upper
+::MAPDATA::
+cave14 12 5
+cave15 9 5
+cave16 9 7
+cave17 6 7
+cave18 6 9
+cave19 3 9
+cave20 9 9
+::MAPDATA::
+
+Hobgoblin hideout
+
+
+
+         o--d
+         |
+      o--o
+      |/ |
+   o--o  o

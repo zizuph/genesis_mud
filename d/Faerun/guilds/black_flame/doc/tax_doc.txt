@@ -1,0 +1,100 @@
+﻿*****************************************************************************
+     TAX INFORMATION FOR THE ORDER OF THE BLACK FLAME (Layman, ranger)
+*****************************************************************************
+
+All guilds are 
+
+occ  = 550 taxable slots       (and 100 caid)
+lay  = 350 taxable slots       (and 50 caid)
+race = 150 taxable slots       (and 25 caid) (N/A)
+
+
+*****************************************************************************
+SKILLS
+*****************************************************************************
+AG = Adventurers Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)	 
+			 
+ ¤- Information will be inserted here.
+ 
+ *  = Primary skill, 0.5x towards skill cap.
+ *** = Guildspecific skill. 0 vs cap.
+    
+    
+    
+Style: Ranger   
+------------------------------------------------------------------------------
+Layman skills    maxlvl  taxed(AG)   taxable  mod  tax      skillcap
+------------------------------------------------------------------------------
+SS_ELEMENT_FIRE  60      30          30       1.0  0.500    30         Mag/Cle    
+SS_FORM_CONJUR.  60      30          30       1.0  0.500    30         Mag/Cle    
+SS_FORM_TRANS.   60      30          30       1.0  0.500    30         Mag/Cle    
+SS_FORM_ENCH.    60      30          30       1.0  0.500    30         Mag/Cle    
+SS_FORM_ILLUSION 60      30          30       1.0  0.500    30         Mag/Cle    
+SS_SPELLCRAFT    60      30          30       1.0  0.500    30         Mag/Cle   
+SS_HERBALISM     50      30          20       1.0  0.333    20         Mag/Cle   
+
+SS_WEP_KNIFE     60      30          30       1.0  0.500    30         Fig/Thief  
+
+*SS_SNEAK        60      30          15       1.0  0.25     15         Ran/Thief  
+*SS_HIDE         60      30          15       1.0  0.25     15         Ran/Thief  
+
+SS_WEP_KNIFE     50      30          20       1.5  1.125    20         Figther
+
+SS_ALCHEMY       50      30          20       1.5  1.125    20         Ran/Thief
+
+SS_APPR_VAL      50      30          20       1.0  0.333    20         General   
+
+SS_TRACKING      60      30          30       1.0  0.500    30         General   
+
+**SS_ANATOMY   100       0           0        0.0  0.000    --   
+..............................................................................
+SUBTOTAL                            300           7.416    350/350
+
+
+
+Layman Spellname    Tax       Caid  Class  Task  Component
+=================================================================================
+
+Frenzy              0.375 %  30       3    DIFF   Yes    (Haste)                       
+
+Polymorph           0.375 %   0       3    DIFF   Yes    (Alter appearance)
+
+Flamepurge          0.375 %   0       3    DIFF   Yes    (Cleanse)
+
+Reconstitute       0.1875 %   0       3    DIFF   Yes    (Fatigue regen)
+
+Flashbang          0.3750 %  50       3    DIFF   Yes    (Aoe blind)
+
+Medicate            1.500 %  50       3    DIFF   No     (Heal)
+
+==================================================================================
+                   3.1875 %
+==================================================================================
+
+
+
+Ability Name                          
+====================================================================
+Flame                     8.3 %     
+(45 caid combat special)
+
+
+
+Combat aid will be taxed for the entire guild's maximum of 50%
+
+TOTAL TAX FOR COMBAT AID:           
+           |skills       |spells       |combat aid   |    TOTAL
+-----------|-------------|-------------|-------------|---------
+TOTAL TAX: |7.416%   +   |3.1875%  +   |8.3%         | =  18.90%
+                                                     |
+                                                     |    19% rounded up.
+                                                          =================
+                                                         
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+
+
+NEW SYSTEM
+
+Scenario 1: (no spell power item, max skills, 250 stat average)
+Total spell weapon class: 22 [249 (mental average) 100 (skill average of element, form,
+and spellcraft), 0 item spellpower].
+Spell difficulty: TASK_HARD
+Resistance: 0
+Pen result: 490
+
+Scenario 2: (capped spell power item, max skills, 250 stat average)
+Total spell weapon class: 60 [249 (mental) 100 (skill average of element, form,
+and spellcraft), 40 item spellpower].
+Spell difficulty: TASK_HARD
+Resistance: 0
+Pen result: 1049
+
+Scenario 3a: (no spell power item, max skills, 100 stat average)
+Total spell weapon class: 15 [(mental) 100 (skill average of element, form,
+and spellcraft), 15 item spellpower].
+Spell difficulty: TASK_HARD
+Resistance: 0
+Pen result: 250
+
+Scenario 3b: (no spell power item, 75 skill levels, 100 stat average)
+Total spell weapon class: 12 [(mental) 100 (skill average of element, form,
+and spellcraft), 12 item spellpower].
+Spell difficulty: TASK_HARD
+Resistance: 0
+Pen result: 231
+
+Scenario 4a: (capped spell power item, max skills, 100 stat average)
+Total spell weapon class: 60[(mental) 100 (skill average of element, form,
+and spellcraft), 60 item spellpower].
+Spell difficulty: TASK_HARD
+Resistance: 0
+Pen result: 659
+
+Scenario 4b: (capped spell power item, 75 skill levels, 100 stat average)
+Total spell weapon class: 60[(mental) 100 (skill average of element, form,
+and spellcraft), 60 item spellpower].
+Spell difficulty: TASK_HARD
+Resistance: 0
+Pen result: 659
+
+OLD SYSTEM
+
+
+
+Scenario 3a: (max skills, 100 stat average)
+Spell weapon class total: 349 [150 (int*1.5) 100 (form) 100 (element), 
+scaled by 100 (spellcraft)].
+Spell difficulty: TASK_HARD
+Resistance: 0
+Pen result: 520
+
+Scenario 3b: (75 skill levels, 100 stat average)
+Spell weapon class total: 300 [150 (int*1.5) 75 (form) 75 (element), 
+scaled by 75 (spellcraft)].
+Spell difficulty: TASK_HARD
+Resistance: 0
+Pen result: 490

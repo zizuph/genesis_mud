@@ -1,0 +1,57 @@
+This document outlines the adventurer guilds found in Khalakhor.
+ 
+SOUTHEAST:
+-----------------------------------------------------------------
+Port Macdunn Adventurer's Guild.
+Path: "/d/Khalakhor/se_speir/port/room/adv_guild"
+ 
+Skills                  Trainable to
+Unarmed Combat              30
+Defence                     20
+Sword                       25
+Knife                       30
+Club                        25
+Appraise Object             30
+Appraise Value              30
+Climb                       30
+Awareness                   30
+                          ----
+Total Training:            250
+ 
+Kirk of Port Macdunn, Monk's "Public Academy of the Arcane Arts"
+Path: "/d/Khalakhor/guilds/sean-rhian/macdunnkirk/rooms/kclassrm"
+ 
+Skills                  Trainable to
+Language                    30
+Spellcraft                  20
+Alchemy                     20
+Herbalism                   20
+                           ---
+Total Training:             90
+
+-----------------------------------------------------------------
+Adventurer's Guild in Cadu.
+Path: "/d/Khalakhor/inisi/roke/nyreese/cadu_guild"
+
+Skills                  Trainable to
+
+Appraise Monster            30
+Appraise Object             30
+Tracking                    30
+Climb                       30
+Animal Handling             30
+Awareness                   30
+Location Sense              30
+Swim                        30
+Defence                     10
+                           ---
+Total Training:            250
+
+Removed following slots - total allowed is 250
+Spellcraft                  20
+Herbalism                   20 
+Language                    30
+-----------------------------------------------------------------
+Last modified:
+Glindor, January 12, 2002
+Damaris, 01/2005

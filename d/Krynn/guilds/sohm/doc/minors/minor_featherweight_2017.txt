@@ -1,0 +1,38 @@
+
+     Spell name: Featherweight
+                 nasirmitne
+         Effect: Reduces weight impact on target
+           Type: Maintained
+        Targets: Living
+        
+        Element: Air             / 40
+           Form: Transmutation   / 40
+    Spell power: Power 2 [Minor spell]
+     Spell type: featherweight spell 
+     
+       Peaceful: No
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: fiddlehead (herb, 142 cc)
+     
+   Casting time:  4s (less than 5 heartbeats standard)
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_ROUTINE
+     Combat Aid: 0% 
+
+            Tax:  0.25
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x1.0   routine difficulty
+                  x1.0   material component < 1 gp value 
+                 ------
+                   0.25%  total tax
+   ------------------------------------------------------------
+   Comments: Provides the target of the casting reduced weight
+             factor of 40% (set_weight_factor(140)).
+
+   ------------------------------------------------------------

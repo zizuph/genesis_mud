@@ -1,0 +1,23 @@
+A goblin villager - generic npc
+
+Skills:
+Knife, unarmed combat, defence
+
+Stats:
+[circa] 80,60,70,30,30,50
+
+Adjectives:
+[random] dirty, sweaty, sunken, ugly, long-armed, sad, tired
+
+Name:
+none
+
+Actions:
+none
+
+Objects:
+[random set of]
+a shirt
+a knife
+a breeches
+

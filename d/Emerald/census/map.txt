@@ -1,0 +1,9 @@
+main
+::MAPDATA::
+census_room 6 2 main
+::MAPDATA::
+  ---------
+  |       |
+  |   o   |
+  |_______|
+

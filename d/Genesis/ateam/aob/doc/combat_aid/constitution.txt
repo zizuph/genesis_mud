@@ -1,0 +1,39 @@
+Holding file for formulas relating to how constitution applies to combat
+and combat aid:
+
+========================
+OGRE STAT MODIFICATIONS:
+========================
+All stats are flatlined to human levels, and then special ogre
+modifications are applied. Those that benefit the ogre are listed
+below with combat aid/tax calculations applied:
+
+Con:      100 increases to 130. Hitpoints increase from 1900 to 2500
+          (32% increase). Thus, a player taking 100 hitpoints of damage
+          loses 1/25 (4%) rather than 1/19 (5.3%) of their hitpoints.
+
+          According to Cotillion, the fight becomes 32% longer, which
+          we translate into combat aid.
+          Combat aid : 32%
+
+
+BERSERK (Uses skills SS_BERSERK)
+    Berserk is a special that enhances the Strength, Constitution, and
+    Discipline of the Gladiator. Each is boosted so that the F_STR_FACTOR
+    adjustment will equal an increase of 6% for a short
+    time. The berserk lasts approximately 50 seconds, with a 5 second
+    preparation time, and a 10 second cooldown. That means that the
+    boost only lasts for 50/65 of the time. So the actual boost over
+    time is should be reduced by the 50/65 percentage..
+    
+    With all three stats boosted, the charge special as well as normal
+    attacks are boosted. Using the F_STR_FACTOR formula, we can
+    see that boosted stats are granting a 4.6% combat aid.
+    (6% aid * 50 / 65)
+
+    Additionally, boosting con gives approx 15% temporary increase in
+    hit points. This translates to approximately a 13% combat aid.
+    (100 / ((100 - 15% increase) * 50 / 65))
+    
+    Therefore, Berserk grants the gladiator an approximate 17.6%
+    combat aid.

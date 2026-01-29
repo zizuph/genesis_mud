@@ -1,0 +1,279 @@
+main
+::MAPDATA::
+trail 54 4 xak_swamp 
+marshend 54 4 xak_swamp
+marsh7 54 4 xak_swamp
+marsh4 54 4 xak_swamp
+marsh2 54 4 xak_swamp
+marsh8 54 4 xak_swamp
+marsh11 54 4 xak_swamp
+marsh3 54 4 xak_swamp
+marsh6 54 4 xak_swamp
+marsh12 54 4 xak_swamp
+marsh5 54 4 xak_swamp
+marsh9 54 4 xak_swamp
+marsh1 54 4 xak_swamp
+obelisk 54 4 xak_swamp
+entrance 54 4 xak_swamp
+square 54 4 xak_swamp
+outtemple 54 4 xak_swamp
+tempentry 57 3 xak_temple_upper
+temphall 57 3 xak_temple_upper
+tempchamber 57 3 xak_temple_upper
+tempstairs 57 3 xak_temple_upper
+tempnwr 57 3 xak_temple_upper
+tempswr 57 3 xak_temple_upper
+tempnorth 57 3 xak_temple_upper
+tempsouth 57 3 xak_temple_upper
+northcrypt1 57 3 hall_of_ancestors
+northcrypt2 57 3 hall_of_ancestors
+northcrypt3 57 3 hall_of_ancestors
+northcrypt4 57 3 hall_of_ancestors
+stairs 57 3 hall_of_ancestors
+entry 57 3 hall_of_ancestors
+middlecrypt1 57 3 hall_of_ancestors
+middlecrypt2 57 3 hall_of_ancestors
+southcrypt1 57 3 hall_of_ancestors
+southcrypt2 57 3 hall_of_ancestors
+southcrypt3 57 3 hall_of_ancestors
+southcrypt4 57 3 hall_of_ancestors
+lifttop 57 3 hall_of_ancestors
+deadtmpl 57 3 secret_hall
+northtmpl 57 3 secret_hall
+southtmpl 57 3 secret_hall
+flourroom 57 3 xak_ruins
+highstreet1 57 3 xak_ruins
+highstreet2 57 3 xak_ruins
+vinetop 57 3 xak_ruins
+sage1 57 3 xak_ruins
+sage2 57 3 xak_ruins
+larder 57 3 xak_lower_ruins
+fall 57 3 xak_lower_ruins
+liftbottom 57 3 xak_lower_ruins
+street1 57 3 xak_lower_ruins
+vinebottom 57 3 xak_lower_ruins
+plaza 57 3 xak_lower_ruins
+street2 57 3 xak_lower_ruins
+tunnel 57 3 xak_dragon
+cavernentry 57 3 xak_dragon
+cavern 57 3 xak_dragon
+::MAPDATA::
+            CRYSTALMIR                 [ ]                '   ~~ 
+            ~~ LAKE   /\              Tantallon        Xak  ~~ ~~
+    /\_     ~~~~    /\                                  Tsaroth ~
+   /   \_/\ ~~~@  /\                        /\  /\      [ ] ~~ ~~
+  /\/\ /\ /\~~~@@@    /\ Que-Kiri             /\_ /\      '  ~~ ~
+     @  @ @@@~~ @@       { }         Que-Shu/\_/ \   v ' v: ~~ ~~
+    @ @@/\@  @[ ] Solace              { }    /\ /\\  ' v ''  ~~ ~
+   @ @@@@/\@@@                              ```````` v ' v: ~~ ~~
+   @@@ DARKEN @    /\       PLAINS OF      /\_/\ /\  ' v ',  ~~ ~
+     @ WOOD @@              ABANASINIA      /\ /\        ,' ~~ ~~
+    [ ]@@@@@  [ ]                         /\__    @@@@  '  ~~ ~~
+  Haven/\   Gateway      { }             / /\ \ @@@@@@ '  ~~ ~~ ~
+        /\ ~~~~~~         Que-Teh               @@@@@@'  ~~ ~~ ~~
+      ~~~~~@@@@@@~~~~~~                         @@@ :' ~~ ~~  ~~ 
+  @@@@@@@@@@@@ ~~ @@   ~   ,____,__,__          @ :'  ~~ ~~ ~~ ~~
+  @@     @@ ~~ @@@      :'' ~~ ~~ ~~ ~~`  ,__    '  ~~ ~~ ~~ ~~ ~
+  @@     @@@@@@@@    [ ]' ~~ ~~ ~~ ~~ ~~ `~~ ~`''  ~~ ~~ ~~ ~~ ~~
+  @ QUALINESTI @@  New Ports ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@        @@@    ,'~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@       @@@    :   ~~ ~~ ~~ ~~  NEW SEA ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+  @@       @@     `, ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@@@@@@@@@      '   ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+                  '
+       To Pax Tharkas and
+         Thorbardin
+
+::NEWMAP::
+xak_swamp
+::MAPDATA::
+trail 21 14
+marshend 23 12
+marsh7 26 12
+marsh4 29 12
+marsh2 32 12
+marsh8 29 14
+marsh11 32 14
+marsh3 29 10
+marsh6 26 10
+marsh12 26 8
+marsh5 29 8
+marsh9 32 8
+marsh1 32 10
+obelisk 35 10
+entrance 35 8
+square 35 6
+outtemple 35 4
+::MAPDATA::
+
+                            -= The ruins of 
+                               Xak Tsaroth  =-
+ 
+                                   o
+                                   |       
+                  _                o     
+               __/ \               |
+              /     \     o  o--o  o
+             /       \    |  |     |
+                          o--o--o--o   
+               __            |  |
+              /  \     o--o--o--o
+                      /      |
+   to Plains of   ---o       o--o
+    Abanasinia
+                            The Cursed 
+                              Lands
+
+::NEWMAP::
+xak_temple_upper
+::MAPDATA::
+tempentry 21 6
+temphall 24 6
+tempchamber 27 6
+tempstairs 30 6
+tempnwr 24 4
+tempswr 24 8
+tempnorth 27 4
+tempsouth 27 8
+::MAPDATA::
+
+
+                  Temple of Mishakal
+
+                        o, o 
+                          \|
+   Ruined city of  --o--o--o--o
+   Xak Tsaroth            /|
+                        o' o
+                        
+
+::NEWMAP::
+hall_of_ancestors
+::MAPDATA::
+northcrypt1 6 4
+northcrypt2 10 4
+northcrypt3 14 4
+northcrypt4 18 4
+stairs 2 6
+entry 6 6
+middlecrypt1 14 6
+middlecrypt2 18 6
+southcrypt1 6 8
+southcrypt2 10 8
+southcrypt3 14 8
+southcrypt4 18 8
+lifttop 18 10
+::MAPDATA::
+
+
+    Hall of the Ancestors
+
+      o - o - o - o
+      |
+ [ ]- o       o - o
+      |       |   |
+      o - o - o - o 
+                  | 
+                 [ ]  
+
+
+::NEWMAP::
+secret_hall
+::MAPDATA::
+deadtmpl 22 6
+northtmpl 22 4
+southtmpl 22 8
+::MAPDATA::
+
+
+    Hall of the Ancestors
+
+      o - o - o - o  [ ]
+      |               |
+ [ ]- o       o - o   o
+      |       |   |   |
+      o - o - o - o   o 
+                  | 
+                 [ ]  
+
+::NEWMAP::
+xak_ruins
+::MAPDATA::
+flourroom 22 4
+highstreet1 27 4
+highstreet2 27 6
+vinetop 27 8
+sage1 31 6
+sage2 31 8
+::MAPDATA::
+
+       The ruined city of Xak Tsaroth
+                
+     
+            Bakery   [ ] - o
+                           |
+                           o - o
+                           |   |
+                           o   o
+                
+                
+::NEWMAP::
+xak_lower_ruins
+::MAPDATA::
+larder 23 5
+liftbottom 23 7
+street1 23 9
+vinebottom 27 9
+fall 15 11
+plaza 19 11
+street2 23 11
+::MAPDATA::
+
+       The ruined city of Xak Tsaroth
+
+
+
+                       o
+                       |
+                      [ ]
+                       |
+                       o - o
+                       |
+               o - o - o
+
+::NEWMAP::
+xak_dragon
+::MAPDATA::
+tunnel 11 11
+cavernentry 11 13
+cavern 11 15
+::MAPDATA::
+
+              The lair of Khisanth
+
+
+
+                       o
+                       |
+                      [ ]
+                       |
+                       o - o
+                       |
+           o   o - o - o
+           |
+           o
+           |
+           o
+
+           
+    _________,---------.____------.___
+   /_______    `--._______  `--.____ \\
+    /__.-' `-----.____    `--.____\\`_/_
+    ,'       ___      `---.___ ___//    `-.
+   /     _.-'   )'           ``---'     \  \
+  |     /       |           . '             |
+ /    /     /   |          '    ___  )   |  |
+ |   |     |  _/` _        ` _,' _ `/) '    |
+  \_  `--._\__`--'_\-___ _,-'   '-`  ___   _/
+    `---.____ `--.__-_  /_)____,  __/  ,`-'
+             `------__>  `-------(/(/-'-\)\)

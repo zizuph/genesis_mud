@@ -1,0 +1,55 @@
+/*
+                  /           
+                 O           
+               /              
+             ,'           o      
+            /           /        
+           O    T      O          
+         /        \   / \      
+       ,'           o-----4     o
+      /            /|     | \  /
+     O   T       O  |     |  O
+   /       \    /   |     |/
+  o           o-----o-----o
+  |           |   *****   |
+  |           | ********* |
+  |           | ********* |
+  O-----o-----O **     ** O
+  |     |     |\ *        |
+  |  5--o--7  | o---2     |
+  |     |  |  |/ *        |
+  o     6  8  o **     ** o
+  |           | ********* |
+  |     3     | ********* |
+  |     |     |   *****   |
+  G-----o-----O-----o-----O
+  |    /      |     |
+  |  10       | ****1****
+  |           |*****|*****
+  o-h         o*** / \ ***
+  |           |*** \_/ ***
+  |           | *********
+  O-h         O-----o     
+  |           |      \
+  |           |  o    `,  h
+  |           | / \     \ |
+  o-h         o     o     o-----o
+   \         / `hhh' \          |\
+    `,  9  o     hhh   o--o--o  | `.
+      \ | /  hhh  hhh     |  |  |   \
+        O   hhhhh  hhh  hhhh |  O     
+         \    hhhh  hhh  hhh | /       
+           o   hhhh hhhh  hh o     
+            \  /    |       /  
+              O-----o-----O
+               \            \
+                `,  
+1.  Entrance, Shoikan Grove  6.  Bank
+    South is death.          7.  Restaurant
+    South of death is ToHS.  8.  Inn, standard
+2.  Temple of Paladine       9.  Body Piercer
+3.  Robemaker                10. Leiden's Inn
+4.  Tower of Arms (KoS)
+5.  City Shop
+
+Mortis 06.2005 */

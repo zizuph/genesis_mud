@@ -1,0 +1,86 @@
+Map of the village north of Loch Rannoch
+By Darragh, 00-10-23
+
+R = Road
+G = Gate
+M = Marketplace
+W = Waterfall
+P = Pier                                                              /
+T = Hilltop                                                    o-o-o-G
+                                                              /| | |/|\
+                                                             o-o-o-o-o-o
+                                                            /| | |/| | |
+                                                         o-o-o-o-o-o-o-o
+                                                          /| | |/
+                                                         o-o-o-o o-o-o
+                                                        /| | |/ /    |
+                                                       o-o-o-o o o-o-o
+                                                       | |/| |  /| | |\
+                                         o-o-o o o-o   o-o-o-o-o-o-o-o-o
+                                        /| | | | | |   |/| |       |    \
+                                       o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o
+                                      /| | |\|/| | |   |     |     |    /
+         o-o-o-o-o-o-o-o         o-o o-o-o o-M-o-o-o   o-o-o-o-o-o-o-o o  
+        /               \       /  | | | | |/|\| |/     \| | |     | | |
+       o R-R-R-R o o o o o     o o R-G-o-o o-o-o-o       o o-o o-o o-o o
+       |/       \         \   /   /| | | | | |            \   /  | |  /
+       R o o o o R-R-R R o o o o R o o-o-o-o-o             o-o   o o o
+       |                \       / /      | | |    ~~~             \  |
+       o o o o o o o o o R-R-R-R o       P P P                     o-o
+       |                         |         |
+       o o o o o o o o o o o o o o    ~~~  P
+       |                         |
+       o o o o o o o o o o o o o o          ~~~             ~~~
+       |                        /
+       o o o o o o T o o o o o o
+       |                       |    ~~~
+       o o o o o o o o o o o o o 
+        \                     /
+         o o o o o o o o o o o               ~~~                 ~~~
+         |                  /
+         o o o o o o o o o o
+          \               /
+           o o o o o o o o    ~~~                    ~~~
+           |             |
+           o o o o o o o o 
+           |              \
+           o o o o o o o o o-P      ~~~
+            \               \
+             o o o o o o o o o                  ~~~                 ~~~
+             |               |
+             o o o o o o o o o
+             |              /
+             o o o o o o o-o      ~~~       ~~~
+             |          / 
+             o o o o o o                                ~~~
+              \       /
+               o o o-o              ~~~                        ~~~
+               |     |
+               o o o o
+              /       \
+             o o o o o o     ~~~
+             |         |
+             o o o o o o                         ~~~
+             |         |
+             o o o o o o
+              \         \
+               o-o o o o o-o-o         ~~~               ~~~
+                  \           \
+                   o o o o o o o 
+                   |            \          
+                   o o o o o o o o 
+                   |             |
+                   o o o o o o o o         ~~~
+                    \            |
+                     o o o o o o o              
+                      \         /                    ~~~
+                       o o o o o
+                       |       |
+                       o o o o o
+                       |      /
+                       o o o o
+                       |    /
+                       o o-o
+                       |/
+                       W
+

@@ -1,0 +1,51 @@
+domain,quest desc,group,bit,hint,validation,arguments
+Calia,Sword of Light,0,0,swordoflight.txt,default
+Calia,Calian Warriors Entrance Quest,0,1,,false_unless_done
+Calia,Obelisk Quest,0,2,obelisk.txt,default
+Calia,Wolf Quest,0,3,wolf.txt,default
+Calia,Spear Tour,0,4,spear.txt,default
+Calia,Mermaid Sea Quest,0,5,mermaid.txt,default
+Calia,Lucky Lure Quest,0,6,luckylure.txt,default
+Calia,Gourmet Club #1,1,0,,always_false,1,0
+Calia,Gourmet Club #2,1,1,,always_false,1,1
+Calia,Gourmet Club #3,1,2,,always_false,1,2
+Calia,Gourmet Club #4,1,3,,always_false,1,3
+Calia,Gelan Sightseeing Tour,1,4,sightseeing.txt,default
+Calia,Gingerbread Quest,1,5,gingerbread.txt,default
+Calia,Gelan Gopheroo,1,8,gopheroo.txt,default
+Calia,Gelan Number Game,1,9,numbergame.txt,default
+Calia,Gelan Alchemist Potion,1,10,alchemist.txt,default
+Calia,Gelan Polymorph,1,11,polymorph.txt,default
+Calia,Garden Quest,1,12,garden.txt,default
+Calia,Fireball: Defeat Hailrocks,1,13,fireball_hailrocks.txt,default
+Calia,Fireball: Defeat Poison Arrows,1,14,fireball_poisonarrows.txt,default
+Calia,Fireball: Defeat Tiger Sharks,1,15,fireball_tigersharks.txt,default
+Calia,Fireball: Defeat War Eagles,1,16,fireball_wareagles.txt,default
+Calia,Fireball: Defeat All Scums,1,17,fireball_allscum.txt,default
+Calia,Dephonian Temple,2,0,dephonian.txt,default
+Calia,Satyr Quest,2,1,satyr.txt,default
+Calia,Frog Quest,2,2,frog.txt,default
+Calia,Argos City Tour #1,4,19,argostour.txt,sequential_bits,2,3,5,1
+Calia,Argos City Tour #2,4,19,argostour.txt,sequential_bits,2,3,5,2
+Calia,Argos City Tour #3,4,19,argostour.txt,sequential_bits,2,3,5,3
+Calia,Argos City Tour #4,4,19,argostour.txt,sequential_bits,2,3,5,4
+Calia,Argos City Tour #5,4,19,argostour.txt,sequential_bits,2,3,5,5
+Calia,Farmstead Widow,2,16,farmstead.txt,default
+Calia,Grotto Entrance,2,6,grotto.txt,default
+Calia,Thalassian Gate,2,7,gate.txt,default
+Calia,Thalassian Administrator West,2,8,thalassia_west.txt,default
+Calia,Thalassian Administrator East,2,9,thalassia_east.txt,default
+Calia,Return Steering Wheel,2,10,wheel.txt,default
+Calia,SCoP Guru Quest,2,11,,in_guild,Spirit Circle of Psuchae
+Calia,Thalassian Aeria Staff Quest,2,12,staff.txt,default
+Calia,Thalassian Diabrecho Staff Quest,2,13,,false_unless_done
+Calia,Thalassian Gu Staff Quest,2,14,,false_unless_done
+Calia,Thalassian Pyros Staff Quest,2,15,,false_unless_done
+Calia,Cadets Join,3,0,,always_false,3,0
+Calia,Cadets Rejoin,3,1,,always_false,3,1
+Calia,Eldoral Horn,4,0,horn.txt,default
+Calia,Seer and the Lord,4,1,eldoral_seer.txt,default
+Calia,Sword in the Stone,4,2,eldoral_sword.txt,default
+Calia,Eye of the Beast,4,3,eldoral_eye.txt,default
+Calia,Calian Guru Quest,4,4,,in_guild,Calian warrior's guild
+Calia,Secret Tunnel Bit,4,5,,always_false,4,5

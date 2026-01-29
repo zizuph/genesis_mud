@@ -1,0 +1,293 @@
+*****************************************************************************
+          TAX INFORMATION FOR THE KNIGHTS OF SOLMANIA (Occupational)
+*****************************************************************************
+AG = Adventures Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)
+
+Legend
+------
+*  - Knights can choose either Polearms or Clubs to train up to 90
+** - Up to 25 defence is granted from being mounted. They can actually only
+     train up to 75.
+
+Squires of Solamnia
+
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+General
+--------------------------------------------------------------------------
+SS_WEP_SWORD           50         30          20          1.5        0.500
+SS_WEP_POLEARM         50(30)*    30          20(0)*      1.5        0.500
+SS_WEP_CLUB            30(50)*    30           0(60)*     1.5        0.000
+SS_2H_COMBAT           50          0          50          2.0        1.667
+SS_BLIND_COMBAT        30         20          10          2.0        0.333
+SS_DEFENCE             50         20          30          1.5        0.750
+SS_PARRY               50          0          50          1.5        1.250
+SS_LANGUAGE            30         30           0          1.0        0.000
+SS_AWARENESS           50         30          20          1.0        0.333
+SS_RIDING              30         30           0          1.0        0.000
+--------------------------------------------------------------------------
+Totals                420        220         200                    5.333%
+
+Crown Order Knights
+
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+General
+--------------------------------------------------------------------------
+SS_WEP_SWORD          100         30          70          1.5        1.750
+SS_WEP_POLEARM         90(30)*    30          60(0)*      1.5        1.500
+SS_WEP_CLUB            30(90)*    30           0(60)*     1.5        0.000
+SS_2H_COMBAT           75          0          75          2.0        2.500
+SS_BLIND_COMBAT        60         20          40          2.0        1.333
+SS_DEFENCE            100**       20          80**        1.5        2.000
+SS_PARRY              100**        0         100          1.5        2.500
+SS_LANGUAGE            35         30           5          1.0        0.083
+SS_AWARENESS           50         30          20          1.0        0.333
+SS_MOUNTED_COMBAT     100          0         100          1.0        1.250
+SS_RIDING              40         30          10          1.0        0.167
+--------------------------------------------------------------------------
+Totals                775        220         550                   13.416%
+
+Sword Order Knights
+
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+General
+--------------------------------------------------------------------------
+SS_WEP_SWORD          100         30          70          1.5        1.750
+SS_WEP_POLEARM         90(30)*    30          60(0)*      1.5        1.500
+SS_WEP_CLUB            30(90)*    30           0(60)*     1.5        0.000
+SS_2H_COMBAT           60          0          60          2.0        2.000
+SS_BLIND_COMBAT        40         20          20          2.0        0.667
+SS_DEFENCE            100**       20          80**        1.5        2.000
+SS_PARRY              100**        0         100          1.5        2.500
+SS_LANGUAGE            55         30          25          1.0        0.417
+SS_AWARENESS           60         30          30          1.0        0.500
+SS_MOUNTED_COMBAT     100          0         100          1.0        1.250
+SS_RIDING              40         30          10          1.0        0.167
+--------------------------------------------------------------------------
+Totals                765        220         545                   12.751%
+
+Rose Order Knights
+
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+General
+--------------------------------------------------------------------------
+SS_WEP_SWORD          100         30          70          1.5        1.750
+SS_WEP_POLEARM         90(30)*    30          60(0)*      1.5        1.500
+SS_WEP_CLUB            30(90)*    30           0(60)*     1.5        0.000
+SS_2H_COMBAT           60          0          60          2.0        2.000
+SS_BLIND_COMBAT        40         20          20          2.0        0.667
+SS_DEFENCE            100**       20          80**        1.5        2.000
+SS_PARRY              100**        0         100          1.5        2.500
+SS_LANGUAGE            60         30          30          1.0        0.500
+SS_AWARENESS           60         30          30          1.0        0.500
+SS_MOUNTED_COMBAT     100          0         100          1.0        1.250
+SS_RIDING              40         30          10          1.0        0.167
+--------------------------------------------------------------------------
+Totals                770        220         550                   12.834%
+     
+--------------------------------------------------------------------------
+Guild Specific Skills
+--------------------------------------------------------------------------
+SS_RESCUE    100          0           0         0.0         0.000
+SS_BLOCK     100          0           0         0.0         0.000
+SS_KATTACK   100          0           0         0.0         0.000
+--------------------------------------------------------------------------
+             
+Taxable Slots Allowed   : 550
+
+TOTAL TAX FOR SKILLS:  Squires      -  5.333%
+                       Crown        - 13.416%
+                       Sword        - 12.751%
+                       Rose         - 12.834%
+                       
+================
+COMBAT SPECIALS:
+================
+
+KATTACK SPECIAL (Uses skill SS_KATTACK)
+
+    Kattack is the basic damage special for Knights. The combat aid
+    for this ability has been set to be 80%. It can never be used at
+    the same time as charge. Squires have half the combat aid.
+    
+    Tax for kattack: All Knights - 80 / 6 = 13.33%
+                     Squires     - 40 / 6 =  6.67%
+
+CHARGE SPECIAL (Uses skill SS_MOUNTED_COMBAT)
+
+    Charge is a damage special available to Knights when they are
+    mounted on their warhorse. It can never be used at the same time
+    as kattack. The combat aid has been set to be the same as kattack.
+    Squires have half the combat aid.
+        
+    Tax for charge: All Knights - 80 / 6 = 13.33%
+                    Squires     - 40 / 6 =  6.67%
+                    
+MOUNTED DAMAGE ABSORBTION
+
+    A Knight has the ability to absorb damage while mounted, set at
+    10 caid. Squires do not have access to this passive ability. The
+    aid benefit is dependent on SS_MOUNTED_COMBAT skill, with 1 caid
+    per 10 levels of SS_MOUNTED_COMBAT.
+
+    Tax for charge: All Knights - 10 / 6 = 1.66%
+                    Squires     - 0 / 6 =  0.00%
+
+//HEROISM SPECIAL
+//
+//    Heroism has replaced kdie as a special ability. Based on the 
+//    calculations of the haste and stat adjustments, it has been
+//    determined (see balance_doc.txt) that Sword Knights have 9% combat
+//    aid and all other Knights have 2.1%.
+//    
+//    Tax for Heroism (Sword): 15% / 6 = 2.5%
+//    Tax for Heroism (Other): 4.5% / 6 = 0.75%
+
+RESCUE SPECIAL
+
+    Rescue is the ability for Knights to retarget enemies upon themselves
+    from their allies. This technically has no combat aid since someone
+    is still being attacked.
+    
+    Tax for rescue: 0 / 6 = 0.00%
+
+BLOCK_SPECIAL
+
+    Block is the ability for Knights to block their opponents from leaving
+    the room. This ability doesn't actually contribute any combat aid, but
+    can be a useful tool in PvP. The original Knight documentation set
+    block to be 4% combat aid. 
+    
+    As of December 21, 2013, I've reduced the Block Special to 0% aid.
+    This is a unique ability that became global. Even though one can
+    argue they should pay the global skills tax for this, Knights will
+    get this benefit as part of what makes them unique in the game.
+
+    Tax for block: 0 / 6 = 0.00%
+    
+TOTAL CAID TAX FOR SPECIALS (Full knight / squire): 
+              kattack / charge:  80 caid / 40 caid (13.33% / 6.67%)
+     mounted damage absorbtion:  10 caid /  0 caid (1.66% / 0.00%)
+                       heroism:   * caid /  * caid (0.00% / 0.00%)
+                        rescue:   0 caid /  0 caid (0.00% / 0.00%)
+                         block:   0 caid /  0 caid (0.00% / 0.00%)
+
+                         TOTAL:  90 caid / 40 caid (14.990% / 7.503%)
+
+====================
+ADDITIONAL FEATURES:
+====================
+
+Observe:
+--------
+With this command, a Knight of level 6 and above may <observe target>;
+enabling them to determined who the if the target is leading a team, if
+the target is on a team, and if so, who the target's leader is. It is 
+based on appraise enemy skill and wisdom, and is never 100% accurate. 
+Minor ability, charged .25%.
+
+High Armoury:
+-------------
+Knights of level 9 and above may use the rebootable high armoury. Items
+from this high armoury are stored over reboots, and borrowed by use of
+charity points. Donating to the high armoury raises charity points.
+Level 9 Knights and above are charged 2% tax for this ability. (This tax
+was negotiated with Tintin)
+
+As of December 21, 2013, this is now 0% given that saving racks are
+freely available in all guilds.
+
+Dragonfear Immunity:
+--------------------
+Dragons of Krynn emit dragonfear to mortals who behold them. This is a
+mixture of magical terror and awe at the sight of a magnificent beast.
+Knights of the Sword of level 5 and higher have learned to supress the
+magical terror that sweeps over beholders of dragons, and put aside all
+concern for personal well being. Because of this, dragonfear does not
+effect them. Not taxed, as it is Krynn-specific.
+
+Leadership:
+-----------
+Knights of the Rose are renowned as leaders, even among the Knighthood.
+As such, all Knights of the Rose may lead all other players, regardless
+of dis requirements usually imposed. Note that the dis of the player is
+NOT increased, and the player gains no other advantage based on dis.
+Minor ability, charged .25%.
+
+Due to a change in the lib, everyone now has this option, therefore the
+tax is set back to 0%. ~Aridor, 06/29/98
+
+Block
+-----
+This is a global skill, so is untaxed.
+
+Rescue
+------
+While this provides no combat aid, it is a substantially useful ability
+for tank rotation. Taxed at 2% (1% for squires).
+
+TOTAL TAX FOR ADDITIONAL FEATURES: Knights - 2.250%
+
+***************************************************************************
+             Taxation Summary
+***************************************************************************
+
+TOTAL TAX FOR SKILLS:               Squires         -  5.333%
+                                    Crown           - 13.416%
+                                    Sword           - 12.751%
+                                    Rose            - 12.834%
+TOTAL TAX FOR SPECIALS:             Squires         -  7.503%
+                                    Knights         - 14.990%
+TOTAL TAX FOR ADDITIONAL FEATURES:  Squires         -  1.250%
+                                    Knights         -  2.250%
+
+Squires
+                       
+    Skill Tax Total        :  5.33    
+    Combat Specials        :  7.503  
+    Additional Features    :  1.25   
+                              ----
+    Total Tax              : 14.083
+
+    Rounded Total Tax      : 14%
+
+Crown Knights
+
+    Skill Tax Total        : 13.416    
+    Combat Specials        : 14.990  
+    Additional Features    :  2.25   
+                              ----
+    Total Tax              : 30.656
+
+    Rounded Total Tax      : 31%
+
+Sword Knights
+
+    Skill Tax Total        : 12.751    
+    Combat Specials        : 14.990  
+    Additional Features    :  2.25   
+                              ----
+    Total Tax              : 29.991
+
+    Rounded Total Tax      : 30%
+
+Rose Knights
+
+    Skill Tax Total        : 12.834    
+    Combat Specials        : 14.990  
+    Additional Features    :  2.25   
+                              ----
+    Total Tax              : 30.074
+
+    Rounded Total Tax      : 30%
+
+*****************************************************************************
+
+Document by Petros, November 2008
+Updated by Petros, December 2013
+Updated by Arman and Carnak, November 2018

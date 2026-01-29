@@ -1,0 +1,41 @@
+
+     Spell name: Geyser
+                 skaerenpab
+         Effect: Harm spell
+           Type: Instant
+        Targets: Single target
+        
+        Element: Water         / 40
+           Form: Conjuration   / 40
+    Spell power: Power 3 [Intermediate spell]
+     Spell type: harm spell 
+     
+       Peaceful: No
+     Stationary: Yes
+         Verbal: Yes
+        Somatic: Yes
+       
+     Components: sargassum (544cc)
+     
+   Casting time:  4s 
+                   
+      Mana cost: Standard, 30 mana 
+     Difficulty: TASK_HARD
+     Combat Aid: 113%
+
+            Tax:  0.5
+                  x1.0   casting time < 5 heartbeats
+                  x1.0   verbal component
+                  x1.0   somatic component
+                  x0.75   Hard difficulty
+                  x1.0   material component 
+                 ------
+                  0.375%  total tax
+   ------------------------------------------------------------
+   Comments: A standard harm spell, requiring a wand or staff
+   held/wielded to cast.
+
+   Identical to Scouring Wind, however a faster cast time than
+   the four other lesser harm spells [physic blast, lightning bolt, 
+   flame lance, ice strike]
+   ------------------------------------------------------------

@@ -1,0 +1,193 @@
+This is the document detailing the pets, tax modifier for skills
+can be found in: /d/Genesis/doc/rules/wizard/guilds/skills
+
+--Pet maturity: The pets gain maturity based on the actual age of the
+pet and guild xp. The maturity ranges from 1-8 and scales the stats
+of the pets. When a pet reaches 5 maturity the pet is considered an
+adolescent and it gains access to scouting and messaging, when it
+reaches 7 maturity it gains access to mounting and is at that time
+considered an adult.
+
+--Animal armour: The armour of a pet is determined by 3 factors,
+first factor is the maturity. This is something we can call the
+natural AC. Second modifier is the armours that can be purchased,
+they vary in 5 stages. The third modifier is the pet race AC,
+which varies depending on hitloc.
+Formulas:
+    natural ac: (maturity * 2) - 1
+    overall ac: natural ac + (armour quality * 7)
+    modified ac: (overall ac * race modifier) / 100
+
+--Animal Stats: The stats are based on the tamers average, scaling
+according to the following formula (maturity is capped at 8):
+    player_avg / (9 - maturity) * pet_race_mod / 100
+
+Tax should amount to roughly 0.41% in the following:
+
+(Formula: SkillLevel * Penalty * SkillMod / 60)
+(Always assume ranger penalty on non-general skills)
+
+~~ * ~~ * ~~ * ~~ * ~~ * Ursidae * ~~ * ~~ * ~~ * ~~ * ~~
+
+Current Race Names:
+   bear, panda, grizzly bear, polar bear
+
+-- Skills:
+   Herbalism       + 5 = (( 5 * 4 * 1.0) / 60) = 0.33
+   Swim            + 5 = (( 5 * 1 * 1.0) / 60) = 0.08
+
+   Tax: 0.41%
+
+>>> We will need to have a think about how we justify the various
+>>> stat modifiers. I am assuming they all add up to 600, and the
+>>> special attack is based on the average of all 6 stats, so it
+>>> ends up being largely cosmetic, except if the pets provide
+>>> white damage.
+
++++ The stats are largely cosmetic, as there is no "white damage".
++++ The combat stats that affect fatigue and carry load will be
++++ balanced out by either slight general skill loss in the pet,
++++ or an increase in dexterity which offers a very slight reduction
++++ in the fatigue penalty that the specials utilize.
+
+-- Stats:
+   Strength:      150%
+   Dexterity:     100%
+   Constitution:  130%
+   Intelligence:   60%
+   Wisdom:         60%
+   Discipline:    100%
+
+-- Hitlocs       Armour Struck
+   head:          100%   20%
+   body:          100%   40%
+   right foreleg: 100%   10%
+   left foreleg:  100%   10%
+   right hindleg:  90%   10%
+   left hindleg:   90%   10%
+
+~~ * ~~ * ~~ * ~~ * ~~ * Canidae * ~~ * ~~ * ~~ * ~~ * ~~
+
+Possible Race Names:
+   wolf, direwolf, arctic wolf, arctic fox, coyote
+
+>>> Does this include the common canine? Man's best friend?
++++ Yes, any race is possible, if you can dream it and it has
++++ a suitable location in the game, it can be added :)
+
+-- Skills:
+   Tracking        +15 = ((15 * 1 * 1.0) / 60) = 0.25
+   Hunting         +15 = ((15 * 1 * 0.5) / 60) = 0.12
+   Location Sense  + 5 = (( 5 * 1 * 0.5) / 60) = 0.04
+
+   Tax: 0.41%
+
+~~ * ~~ * ~~ * ~~ * ~~ * Felidae * ~~ * ~~ * ~~ * ~~ * ~~
+
+Possible Race Names:
+   snow leopard, bobcat, mountain lion
+
+>>> For the Drizzt wannabes you need the black panther
+>>> added :)
++++ Just need a proper location for it, and it will be added
+
+-- Skills:
+   Sneak           + 5 = (( 5 * 4 * 1.0) / 60) = 0.33
+   Awareness       + 5 = (( 5 * 1 * 1.0) / 60) = 0.08
+
+   Tax: 0.41%
+
+~~ * ~~ * ~~ * ~~ * ~~ * Araneae * ~~ * ~~ * ~~ * ~~ * ~~
+
+Possible Race Names:
+   spider, scorpion
+
+>>> These would need to be of the giant variety.
+>>> Damage type could be interesting... i am guessing
+>>> these are of the non-venomous variety?
++++ Yes, everything follows the same special, so all are
++++ non-poisonous varieties.
+
+
+-- Skills:
+   Climb           +15 = ((15 * 1 * 1.0) / 60) = 0.25
+   Hunting         +15 = ((15 * 1 * 0.5) / 60) = 0.12
+   Acrobat         + 5 = (( 5 * 1 * 0.5) / 60) = 0.04
+   
+   Tax: 0.41%
+
+~~ * ~~ * ~~ * ~~ * ~~ * Amphibia * ~~ * ~~ * ~~ * ~~ * ~~
+
+Possible Race Names:
+   toad, frog, salamander
+
+>>> As with araneae, we'd need these to be of a fantastical
+>>> nature or of the giant variety. Can't see a normal
+>>> frog doing 50 combat aid damage ;).
++++ Ye, this is just if we find a place to put them.
+
+-- Skills:
+   Swim            +15 = ((15 * 1 * 1.0) / 60) = 0.25
+   Climb           +10 = ((10 * 1 * 1.0) / 60) = 0.16
+
+~~ * ~~ * ~~ * ~~ * ~~ * Cervidae * ~~ * ~~ * ~~ * ~~ * ~~
+
+Possible Race Names:
+   caribou, elk, moose, mule deer
+
+-- Skills:
+   Herbalism       + 5 = (( 5 * 4 * 1.0) / 60) = 0.33
+   Location Sense  +10 = ((10 * 1 * 0.5) / 60) = 0.08
+
+   Tax: 0.41%
+
+~~ * ~~ * ~~ * ~~ * ~~ * Mustelidae * ~~ * ~~ * ~~ * ~~ * ~~
+
+Possible Race Names:
+   wolverine, badger
+
+>>> honey badger!!!
++++ Keep the races coming, great to have options!
+
+-- Skills:
+   Awareness       +15 = ((15 * 1 * 1.0) / 60) = 0.25
+   Tracking        +10 = ((10 * 1 * 1.0) / 60) = 0.16
+
+~~ * ~~ * ~~ * ~~ * ~~ * Reptilia * ~~ * ~~ * ~~ * ~~ * ~~
+
+Possible Race Names:
+   lizard, turtle
+
+>>> giant varieties!!!
++++ Much like some of the other ideas, they would need to
++++ be bigger than real life.
+
+-- Skills:
+   Block           +15 = (??)
+
+>>> This moves into the combat space. May have to think of
+>>> some other skill option?
++++ Ye, true, no skill should be counted towards combat
++++ space, so will have to think of something else.
+
+~~ * ~~ * ~~ * ~~ * ~~ * Suidae * ~~ * ~~ * ~~ * ~~ * ~~
+
+Possible Race Names:
+   boar, pig, swine
+
+-- Skills:
+   Riding          +15 = ((15 * 1 * 1.0) / 60) = 0.25
+   Appraise Enemy  +10 = ((10 * 1 * 1.0) / 60) = 0.16
+
+>>> Interesting choice with riding. I like it, although
+>>> how does that impact the special attack?
++++ Does not affect special.
+
+   Tax: 0.41%
+
+
+
+>>> Nice race options, but i didn't see any bird options.
+>>> I think hawks, ravens, kestrels, eagles could be cool
+>>> tameables. Ravens for magi would be cool ;).
++++ Avian varieties are planned, but just not mapped out.

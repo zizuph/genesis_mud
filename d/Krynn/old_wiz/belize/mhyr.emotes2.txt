@@ -1,0 +1,40 @@
+Message: 48
+From   : Mhyrmarius
+Subject: emote suggestions
+Date   : Apr 30 1997
+
+wcurse target
+
+'Would be nice if it compared for example guild stat with DIS
+'or something and then had special results like.
+'
+'target laughs at Mhyrmarius' pathetic powers.
+'target remains calm and completely undisturbed
+'target squirms, feeling a bit uncomfortable.
+'target goes pale, obviously fearstruck by Mhyrmarius' powers.
+'target collapses, trembling with fear of Mhyrmarius'
+'' powers, begging for forgiveness.
+
+wcautious target
+'
+'Mhyrmarius looks around or at target  with caution,
+'ready to use his powers'at the first sign of danger.
+''
+wclean (spell ? )
+
+'Mhyrmarius waves his hands in a cryptical pattern,
+'while uttering a wooshing sound, and suddenly he and
+'his clothing is impeccably clean.
+'
+'Work against Kabal sweat and dirt, shire puddle dirt,
+'goblin dung.
+
+wdry (spell ? )
+'
+'Mhyrmarius utters a word in the spidery language of magic,
+'and suddenly all water on his body disappears in a cloud of
+'steam.
+'
+'Works to remove Icewall wetness.
+L
+

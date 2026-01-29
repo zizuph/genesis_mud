@@ -1,0 +1,137 @@
+School of High Magic
+--------------------
+
+“A mage’s soul is forged in the crucible of magic. You choose to go voluntarily 
+into the fire. the blaze might well destroy you. but if you survive, every blow 
+of the hammer will serve to shape your being. every drop of water wrung from you 
+will temper and strengthen your soul.” — Antimodes, Soulforge
+
+BACKGROUND
+This is the magic school in Solace that Raistlin attended prior to him
+taking the Test to become a Wizard of High Sorcery. This is planned to 
+be the precursor guild for the Wizard of High Sorcery.
+
+This guild will be occupational, although there is scope for offering a layman 
+option for "dabblers" in the Art (like the elf Gilthanas).
+
+According to the novels, the School of High Magic in Solace was called 
+Poolbottom,and was run by a Master Theobald. The Poolbottom guildhall can be found
+at /d/Krynn/solace/poolbottom/ .
+
+Allowed races - Elves, drow, humans, gnomes, half-elves, hobbits (non-kender)
+
+LEVELS
+There are 9 levels for occupational Students of High Magic (SoHM).
+
+    Occupational titles			
+========================================
+1.  Fresh Tyro of Sorcery               
+2.  Minor Student of Sorcery            
+3.  Student of Sorcery                  
+4.  Lesser Apprentice of Sorcery         
+5.  Apprentice of Sorcery                           
+6.  Lesser Novitiate of Sorcery          
+7.  Novitiate of Sorcery                 
+8.  Devoted Novitiate of Sorcery         
+9.  Experienced Novitiate of Sorcery        
+
+At level 9 an occupational SoHM title depends on their spell form
+specialisation:
+
+Abjurer of Ansalon, Aspirant of High Sorcery (Abjuration)
+Conjurer of Ansalon, Aspirant of High Sorcery   (Conjuration)
+Enchanter / Enchantress of Ansalon, Aspirant of High Sorcery  (Enchantment)
+Evoker of Ansalon, Aspirant of High Sorcery (Evocation)
+Illusionist of Ansalon, Aspirant of High Sorcery (Illusion)
+Transmuter of Ansalon, Aspirant of High Sorcery (Transmutation)
+Diviner of Ansalon, Aspirant of High Sorcery (Divination)
+
+If they haven't specialised by top level (unlikely!) they will default to 
+Experienced Novitiate title.
+
+ABILITIES
+SoHM are able to scribe spells they find in to their spellbook.
+
+Spell categories:
+CANTRIP - cosmetic skills that provide no combat aid and minor in-game utility. 
+This would include such spells as 'read magic', 'speak with dead' 
+(chance to find out how a corpse died), 'fools curse' (adds prop to stop 
+shopkeepers from buying an item), tell, and restricted light spell. These are
+taxed as either class 0 or class 1 spells.
+
+MINOR SPELLS - basic combat spells (such as magic missile), and simple utility 
+spells (detect magic, water breathing). These are taxed as class 2 or class 3
+spells.
+
+LESSER SPELLS - your average spell, decent damage and protection spells 
+(lightning bolt, shield and resistance spells) and utility spells such as 
+mend item or identify magical objects. Class 2 or class spells.
+
+GREATER SPELLS - powerful spells that do good damage, with useful utility 
+spells such as nightvision. Class 3 or class 4 spells.
+
+ADVANCED SPELLS - extremely powerful spells, accessible only to experienced 
+Wizards of High Sorcery. These spell are unavailable to SoHM.
+
+A SoHM (and WoHS) gains spell 'slots' as they increase in level. These slots 
+are quite limited (3 to 11), however a SoHM will be able to 'study' the spells 
+they have collected and stored in their spellbook into a slot, allowing them 
+to change the spells they have memorised depending on their spell requirements.
+
+A spell memorised can be cast as often as the SoHMs mana allows.
+
+How often a SoHM can change the spells in their memorised slots will depend on 
+a special guild skill, "Arcane Focus" and the spell category:
+
+Cantrip - a base 3 hours cooldown to unmemorise a cantrip.
+Minor spells - a base 6 hours cooldown to unmemorise a minor spell.
+Lesser spells - a base 12 hours cooldown to unmemorise a lesser spell.
+Greater spells - a base 24 hours cooldown to unmemorise a greater spell.
+Advanced spells - can't be cast by SoHM members (exclusively for WoHS members).
+
+This base is modified by * (100 / max(10,arcane_focus_skill)), meaning the base
+time to be able to again unmemorise a spell can potentially be as high as 10x
+for a magus unskilled in Arcane Focus.
+
+Members of the SoHM can learn Arcane Focus up to level 75, meaning all base times
+above are increased by a third.
+
+Spell slots for SoHM:
+
+Level     Spell-lvl-0   Spell-lvl-1   Spell-lvl-2   Spell-level-3  Spell-level-4  
+          (cantrip)       (minor)     (lesser)       (greater)      (advanced)        
+1.            2		     1           -              -              -             
+2.            3		     1           -              -              -             
+3.            3		     2           -              -              -                         
+4.            4		     2           -              -              -            
+5.            4		     3           -              -              -                      
+6.            4		     4           -              -              -             
+7.            4		     4           1              -              -                         
+8.            4		     4           2              -              -             
+9.            4		     4           2              1              -             
+
+Skills:
+            
+Spellcraft         75        
+Transmutation      50*       
+Illusion           50*      
+Divination         50*       
+Enchantment        50*      
+Conjuration        50*       
+Abjuration         50*      
+Earth              50**     
+Air                50**     	
+Water              50**     	
+Fire               50**    
+Herbalism          60  
+Alchemy            50     
+Defence            45      
+'Arcane Focus'     75        
+
+* Can specialise in a form with an extra 25 points
+** Can specialise in an element with an extra 25 points
+
+The key drawcard of being a SoHM is flexibility to choose ones spell reportoire. 
+
+See the spell_list.doc for the list of proposed spells and their levels.
+See tax_doc for the guild tax summary.

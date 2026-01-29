@@ -1,0 +1,68 @@
+main
+::MAPDATA::
+val05 26 2
+val04 26 4
+val03 26 6
+val02 24 8
+val01 24 10
+path04 10 12
+path03 14 12
+path02 18 12
+path01 22 12
+path07 22 14
+path05 7 15
+rm_pent 19 15
+path08 22 16
+path06 7 17
+rm_main 11 17
+rm_hall01 15 17
+rm_hall02 19 17
+path15 1 19
+path09 5 19
+path11 7 19
+rm_kitchen 15 19
+rm_cellar 15 19
+path10 19 19
+path12 9 21
+oak1 9 21
+oaktop 9 21
+path13 14 21
+path14 19 21
+withy03 14 23
+withy02 18 23
+withy01 22 23
+withy06 4 25
+withy05 8 25
+withy04 12 25
+withy07 2 27
+::MAPDATA::
+
+                           /
+                          o
+                          |
+                          o
+                          |
+                          o
+                         /
+                        o
+                        |
+                        o
+     _                 /
+    { }   o - o - o - o
+  ^  |   /  _         |
+ /|\    /  { }        o
+//|\\  o    |      o  |
+  |    |           |  o     ==============
+       o - o - o -[ ]/      The Old Forest
+      /|       |    /       ==============
+ o - o o      [ ]- o   _
+        \          |  { }
+  ^     [ ] - o -- o   |
+ /|\          |
+//|\\         o - o - o
+  |          /          ~~~~~~~~~~
+    o - o - o      ~~~~~~~~~~~
+   /    ~~~~~~~~~~~~~~~~~~~
+  o  ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~  Withywindle

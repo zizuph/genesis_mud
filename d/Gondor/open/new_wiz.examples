@@ -1,0 +1,276 @@
+-------------------- Appendix ---------------------------------------
+
+NOTE: You will find that a lot of existing code does not follow
+      these examples. This does not mean that the examples are wrong,
+      it just shows that we all are still learning.
+      In doubt, ask a domain wizard.
+
+1.- Examples for 'sman':
+
+* This gives you the sman directory and function name of every function
+* in the mudlib which matches to '*race*'. Only leading and trailing
+* wildcards!
+
+    > sman -k *race*
+    --- /secure/master:
+    valid_trace
+
+    --- /std/guild/guild_race_sh:
+    init_race_shadow                      query_guild_style_race
+    query_guild_member_race               query_guild_tax_race
+    query_guild_name_race                 remove_guild_race
+    query_guild_not_allow_join_race
+
+    --- /std/living:
+    query_race_name    set_race_name
+
+* This gives the info on the function query_name() in /std/object.c
+* Just '> sman query_name' would give the info on query_name() in
+* /std/living.c.
+
+    > sman /std/object query_name
+    File: /doc/sman/std/object/query_name
+    960:/std/object.c (/std/object.c)
+    (varargs public mixed) query_name(int arg)
+    /*
+     * Function name: query_name
+     * Description:   Gives the name(s) of the object.
+     * Arguments:     arg: If true then the entire list is returned.
+     * Returns:       A string or an array as described above.
+     */
+
+* This will 'more' the file in which the searched function is starting
+* with the function itself.
+
+    > sman -s query_name
+    File: /std/living/description.c Line: 88
+
+     * Returns:         The name
+     */
+    public string
+    query_name()
+    {
+        return capitalize(::query_name());
+    }
+    ....
+
+
+
+2. Examples for configuring, inheriting, include.
+
+- configuring -
+You can call a function in object A from object B using
+call_other(). A shortcut is the -> construct.
+
+    A->set_name("C");
+
+will call the function set_name in object A with the
+argument "C".
+Now assume you want to create two orcs, but with different
+descriptions. You can do this from the object which is supposed
+to clone the orcs, in most cases a room, like this:
+
+    /* An example room */
+    #pragma strict_types
+    inherit "/d/Gondor/std/room";
+
+    /* All Gondor rooms should include this file */
+    #include "/d/Gondor/defs.h"
+
+    /*
+     *	Prototypes
+     */
+    public void    create_gondor();
+    public void    reset_room();
+
+    /*
+     *	Global variables
+     */
+    static object  Orc1,
+                   Orc2;
+
+    /*
+     * Function name:	create_gondor
+     * Description  :	set up the example room
+     */
+    public void
+    create_gondor()
+    {
+        set_short("an example room");
+        set_long("This is just an example room.\n");
+
+        reset_room();
+    }
+
+    /*
+     * Function name:	reset_room
+     * Description  :	clone up orcs at reset
+     */
+    public void
+    reset_room()
+    {
+        if (!objectp(Orc1))
+        {
+            Orc1 = clone_object("/std/monster");
+            Orc1->set_name("orc");
+            Orc1->set_adj(({"large", "black"}));
+            Orc1->set_long(
+                "This large black orc looks quite deadly.\n");
+            Orc1->default_config_npc(14);
+            Orc1->move_living("into the game", TO);
+        }
+        if (!objectp(Orc2))
+        {
+            Orc2 = clone_object("/std/monster");
+            Orc2->set_name("orc");
+            Orc2->set_adj(({"small", "timid"}));
+            Orc2->set_long(
+                "This small timid orc looks like easy prey.\n");
+            Orc2->default_config_npc(8);
+            Orc2->move_living("into the game", TO);
+        }
+    }
+    /* end of file */
+
+Note that I did not create a special file for the orcs,
+I just use the /std/monster supplied by the mudlib, and
+then set the parameters using call_other() ( -> ).
+Note also that the orcs do not have weapons or armour.
+
+- inheriting -
+To supply monsters with weapons and armour, one usually
+creates a monster file. If you want to create 
+for example large, medium, and small orcs of the Red Eye
+army, you should first create a common file, a so called 
+master.
+
+    /*
+     * /d/Gondor/mordor/npc/redeye_orc.c
+     *
+     * the orc master for the Red Eye army
+     */
+    #pragma strict_types
+    inherit "/d/Gondor/std/monster";
+
+    #include <language.h>
+    #include "/d/Gondor/defs.h"
+
+    /* prototypes */
+    public void create_redeye_orc();
+    nomask void	create_gondor_monster();
+
+    /*
+     * Function name:	create_redeye_orc
+     * Description  :	used by inheriting monsters to customize orc
+     */
+    public void
+    create_redeye_orc()
+    {
+    }
+
+    /*
+     * Function name:	create_gondor_monster
+     * Description  :	set up the orc
+     */
+    nomask void
+    create_gondor_monster()
+    {
+        set_name("orc");
+	/* specify the default equipment for the orc */
+	set_equipment( ({ (WEP_DIR + "dagger") }) );
+
+        create_redeye_orc();
+
+        set_long(CAP(LANG_ADDART(query_adj()) +
+            "orc of the Red Eye Army.\n");
+    }
+    /* here you add other functions common to all of the orcs */
+
+    /* end of file */
+
+
+Then you would create the orc files:
+    /*
+     * /d/Gondor/mordor/npc/small_redeye_orc.c
+     *
+     * a small orc in the Red Eye army
+     */
+
+    /* now you inherit the master */
+    inherit "/d/Mordor/common/npc/redeye_orc";
+
+    /* this will supersede the function of the same name in the master */
+    /*
+     * Function name:	create_redeye_orc
+     * Description  :	customize this orc
+     */
+    public void
+    create_redeye_orc()
+    {
+        set_adj( ({ "small", }) );
+    }
+    /* add more stuff specific to the small orcs */
+    /* end of file */
+
+    /*
+     * /d/Gondor/mordor/npc/large_redeye_orc.c
+     *
+     * a large orc in the Red Eye army
+     */
+    /* now you inherit the master */
+    inherit "/d/Mordor/common/npc/redeye_orc";
+
+    /* this will supersede the function of the same name in the master */
+    /*
+     * Function name:	create_redeye_orc
+     * Description  :	customize this orc
+     */
+    public void
+    create_redeye_orc()
+    {
+        set_adj( ({ "large", }) );
+    }
+    /* add more stuff specific to the large orcs */
+    /* end of file */
+
+- including -
+All commands starting with # are commands for the preprocessor.
+Check 'man LPC' for details.
+#include is used for the following purposes:
+- to define mud wide abbreviations, macros and to declare definitions.
+  eg /sys/ss_types defines all number for skills.
+  Instead of having to remember the number for the skill awareness,
+  you just do:
+
+    #include <ss_types.h>
+    ....
+        int awareness;
+
+        awareness = TP->query_skill(SS_AWARENESS);
+    ....
+
+where SS_AWARENESS is defined in /sys/ss_types.h as
+    #define SS_AWARENESS 110
+
+An example for a macro: (out of /sys/macros.h)
+    #define MAX(a,b) ((a) > (b) ? (a) : (b))
+
+- to define pathnames for files:
+  To add an exit to a room, you use the function add_exit().
+  (Try 'sman add_exit' to learn more about it.)
+  As one of the arguments you specify the path name of the
+  room into which the exit should lead.
+  This path name should almost never be given as eg
+  /d/Gondor/minas/gate1. Instead, you should use a definition
+  from /d/Gondor/defs.h:
+    #define MINAS_DIR "/d/Gondor/minas/"
+  and using this:
+
+    #include "/d/Gondor/defs.h"
+    ....
+        add_exit(MINAS_DIR + "gate1", "west");
+    ....
+
+  One reason is that thus it will be much easier to move directories,
+  it also increases the readablility of your code.
+

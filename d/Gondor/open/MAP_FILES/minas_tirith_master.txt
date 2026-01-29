@@ -1,0 +1,820 @@
+main
+::MAPDATA::
+alleycrc2 0 0 second_circle
+alleycrc4 0 0 fourth_circle
+apa 0 0
+citad 0 0
+din 0 0
+doo 0 0
+e1crc1 0 0 first_circle
+e1crc2 0 0 second_circle
+e1crc3 0 0 third_circle
+e1crc4 0 0 fourth_circle
+e1crc5 0 0 fifth_circle
+e1crc6 0 0 sixth_circle
+e2crc1 0 0 first_circle
+e2crc2 0 0 second_circle
+e2crc3 0 0 third_circle
+e2crc4 0 0 fourth_circle
+e2crc5 0 0 fifth_circle
+e2crc6 0 0 sixth_circle
+e3crc1 0 0 first_circle
+e3crc2 0 0 second_circle
+e3crc3 0 0 third_circle
+e3crc4 0 0 fourth_circle
+e3crc5 0 0 fifth_circle
+e3crc6 0 0 sixth_circle
+gate1 0 0 first_circle
+gate2 0 0 second_circle
+gate3 0 0 third_circle
+gate4 0 0 fourth_circle
+gate5 0 0 fifth_circle
+gate6 0 0 sixth_circle
+gate7 0 0
+harlo 0 0
+hom 0 0
+hous 0 0
+ingate1 0 0 first_circle
+ingate1.c.b 0 0
+l 0 0
+n1crc1 0 0 first_circle
+n1crc2 0 0 second_circle
+n1crc3 0 0 third_circle
+n1crc4 0 0 fourth_circle
+n1crc5 0 0 fifth_circle
+n1crc6 0 0 sixth_circle
+n2crc1 0 0 first_circle
+n2crc2 0 0 second_circle
+n2crc3 0 0 third_circle
+n2crc4 0 0 fourth_circle
+n2crc5 0 0 fifth_circle
+n2crc6 0 0 sixth_circle
+n3crc1 0 0 first_circle
+n3crc2 0 0 second_circle
+n3crc4 0 0 fourth_circle
+n3crc6 0 0 sixth_circle
+n 0 0
+o 0 0
+que 0 0
+roo 0 0
+s1crc1 0 0 first_circle
+s1crc2 0 0 second_circle
+s1crc3 0 0 third_circle
+s1crc4 0 0 fourth_circle
+s1crc5 0 0 fifth_circle
+s1crc6 0 0 sixth_circle
+s2crc1 0 0 first_circle
+s2crc2 0 0 second_circle
+s2crc3 0 0 third_circle
+s2crc4 0 0 fourth_circle
+s2crc5 0 0 fifth_circle
+s2crc6 0 0 sixth_circle
+s3crc1 0 0 first_circle
+s3crc3 0 0 third_circle
+s3crc5 0 0 fifth_circle
+s3crc6 0 0 sixth_circle
+sew 0 0
+shad 0 0
+tcrc2 0 0 second_circle
+tcrc3 0 0 third_circle
+tcrc4 0 0 fourth_circle
+tcrc5 0 0 fifth_circle
+tcrc6 0 0 sixth_circle
+tcrc7 0 0
+w1crc6 0 0 sixth_circle
+w2crc6 0 0 sixth_circle
+w3crc6 0 0 sixth_circle
+wa 0 0
+-----ROOMS_DIR 0 0
+adoffice 0 0 third_circle
+antiques 0 0
+armoury 0 0 second_circle
+armsstore 0 0
+carpentry 0 0 first_circle
+carpentry2 0 0 first_circle
+common 0 0 third_circle
+herb_shop 0 0 fifth_circle
+herb_storage 0 0
+herb_store 0 0
+innroom 0 0 first_circle
+jewel_shop 0 0 fourth_circle
+jewel_store 0 0
+mt_paint_shop 0 0 second_circle
+mtarms 0 0 second_circle
+mtbakery 0 0 third_circle
+mtbank 0 0 first_circle
+mtbank2 0 0 first_circle
+mtclibrary 0 0 fifth_circle
+mtguild 0 0 second_circle
+mtoffice 0 0 third_circle
+mtpost 0 0 first_circle
+mtshop 0 0 second_circle
+mttavern 0 0 second_circle
+mttavern.c.b 0 0
+mttransport 0 0 first_circle
+old_guesthouse 0 0 first_circle
+oldattic 0 0 first_circle
+oldcellar 0 0 first_circle
+oldhouse 0 0 first_circle
+paint_gon 0 0
+potion_shop 0 0 fifth_circle
+potion_storage 0 0
+potion_store 0 0
+prison 0 0
+prison 0 0
+stonemason 0 0 fourth_circle
+store 0 0
+wsmithy 0 0 fourth_circle
+wtpub 0 0 third_circle
+-----WALL_DIR 0 0
+battlement1 0 0 first_circle
+nguard1 0 0 first_circle
+ninwall1 0 0 first_circle
+ninwall2 0 0 first_circle
+sguard1 0 0 first_circle
+sinwall1 0 0 first_circle
+sinwall2 0 0 first_circle
+topnwall1 0 0 first_circle
+topswall1 0 0 first_circle
+-----CITIZENS 0 0
+h1r1sn2crc1 0 0 first_circle
+h1r2 0 0 first_circle
+h2r1sn3crc1 0 0 first_circle
+h2r2 0 0 first_circle
+h3r1ss2crc1 0 0 first_circle
+h3r2 0 0 first_circle
+h4r1salleycrc2 0 0 second_circle
+h4r2 0 0 second_circle
+h4r3 0 0 second_circle
+h5r1sn3crc2 0 0 second_circle
+h5r2 0 0 second_circle
+h5r3 0 0 second_circle
+h6r1sn1crc3 0 0 third_circle
+h6r2 0 0 third_circle
+h6r3 0 0 third_circle
+h7r1ss3crc3 0 0 third_circle
+h7r2 0 0 third_circle
+h7r3 0 0 third_circle
+h8r1salleycrc4 0 0 fourth_circle
+h8r2 0 0 fourth_circle
+h8r3 0 0 fourth_circle
+h8r4 0 0 fourth_circle
+house 0 0
+suspect_home 0 0
+-----SHADES 0 0
+corr1 0 0 shades
+corr2 0 0 shades
+hall1 0 0 shades
+hall2 0 0 shades
+hall3 0 0 shades
+loot1 0 0 shades
+loot2 0 0 shades_secret
+office 0 0 shades
+privroom 0 0 shades
+shadeentr 0 0 shades
+sleep1 0 0 shades
+sleep2 0 0 shades
+-----HOUSES 0 0
+b_garden 0 0 fifth_circle
+b_house 0 0 fifth_circle
+citize 0 0
+deskkey 0 0
+dinen1 0 0
+dinen2 0 0
+dinen3 0 0
+fen_hollen 0 0 sixth_circle
+g1ncrc4 0 0 fourth_circle
+g2ncrc4 0 0 fourth_circle
+g3ncrc4 0 0 fourth_circle
+g4ncrc4 0 0 fourth_circle
+h1ncrc4 0 0 fourth_circle
+h2ncrc4 0 0 fourth_circle
+h3ncrc4 0 0 fourth_circle
+h4ncrc4 0 0 fourth_circle
+h4ncrc4.c.sav 0 0
+hallows1 0 0
+heali 0 0
+horses 0 0
+horseshop 0 0
+horseshop 0 0
+house_kings 0 0
+house_stewards 0 0
+icourt 0 0
+ihall 0 0
+istair 0 0
+king_list.t 0 0
+kings1 0 0
+kings2 0 0
+kings3 0 0
+kings4 0 0
+kings5 0 0
+kings6 0 0
+kings7 0 0
+kings_porch 0 0
+pedoorin 0 0
+pedoorout 0 0
+peentryhall 0 0
+pehall2 0 0
+pekitchen 0 0
+pelivroom 0 0
+peoffice 0 0
+peyard 0 0
+questmas 0 0
+rath_dinen 0 0
+ 0 0
+stable 0 0
+stable1 0 0
+stable2 0 0
+stable3 0 0
+stable4 0 0
+stewards1 0 0
+stewards2 0 0
+stewards3 0 0
+stewards4 0 0
+stewards5 0 0
+stewards6 0 0
+stewards7 0 0
+stewards_porch 0 0
+wqhouse1 0 0 second_circle
+wqhouse2 0 0 second_circle
+-----SEWER 0 0
+c1c4 0 0
+d2c4 0 0
+d3c4 0 0
+d4c4 0 0
+d5c4 0 0
+d6c4 0 0
+d7c4 0 0
+d8c4 0 0
+d9c4 0 0
+dnc4 0 0
+dsc4 0 0
+gatec4 0 0
+gatec5 0 0
+lrat 0 0
+mts1 0 0
+n1c4 0 0
+n1c5 0 0
+n2c4 0 0
+n3c4 0 0
+n4c4 0 0
+n5c4 0 0
+n 0 0
+o 0 0
+r1c4 0 0
+r2c4 0 0
+r3c4 0 0
+r4c4 0 0
+r5c4 0 0
+s1c4 0 0
+s2c4 0 0
+s3c4 0 0
+s4c4 0 0
+sewer 0 0
+stairc4 0 0
+test 0 0
+upc4 0 0 fourth_circle
+::MAPDATA::
+-----------------------------------------------------------------------
+|           Future large map of Minas Tirith Area will be here         |
+|______________________________________________________________________|
+::NEWMAP::
+first_circle
+::MAPDATA::
+battlement1 60 24
+carpentry 11 2
+carpentry2 11 3
+e1crc1 57 32
+e2crc1 57 28
+e3crc1 57 18
+gate1 57 24
+h1r1sn2crc1 25 1
+h1r2 25 0
+h2r1sn3crc1 18 1
+h2r2 18 0
+h3r1ss2crc1 25 50
+h3r2 25 51
+ingate1 65 24
+innroom 37 6
+mtpost 55 28
+mttransport 53 18
+n1crc1 37 8
+n2crc1 25 2
+n3crc1 18 2
+mtbank 25 47
+mtbank2 23 47
+nguard1 59 19
+ninwall1 59 18
+ninwall2 59 17
+oldattic 18 48
+oldcellar 18 48
+old_guesthouse 37 6
+oldhouse 18 48
+s1crc1 37 43
+s2crc1 25 49
+s3crc1 18 49
+sguard1 59 27
+sinwall1 59 28
+sinwall2 59 29
+topnwall1 60 18
+topswall1 60 28
+::MAPDATA::
+                  o      o
+                  o      o Residences
+           o------o------o
+           o              `.
+        Carpenter           `.
+                              `.
+                                `.   o Inn
+                                  `. |
+                                    `o
+                                      `.
+                                        `.
+                                          `.
+                                            `.
+                                              `.
+                                                `.
+                                                  `.
+                                                    `.
+                                                      `.   o  Guard
+                                                     o--`o-o  Houses
+                                              Carriage   | o
+                                               to Edoras |
+                          ================               |
+                           The Great City                |
+                           of Minas Tirith               |  Main Gate
+                           (first circle)                o-------o
+                          ================               |
+                                                         |
+                                                         | o
+                                                 Post  o-o-o  Guard
+                                                Office   | o  Houses
+                                                         |
+                                                         |
+                                                         o
+                                                        .'
+                                                      .'
+                                                    .'
+                                                  .'
+                                                .'
+                                              .'
+                         Gate to the        .'
+                          Second Circle   .'
+                                 `.     .'
+                                   `. .'
+                                    .o
+                      City        .'
+                      Bank      .'
+                              .'                    
+                       o-o  .'
+         Alleyway o      |.'
+                  o------o
+                         o Residence
+                         o
+::NEWMAP::
+second_circle
+::MAPDATA::
+armoury 16 46
+alleycrc2 10 45
+e1crc2 48 31
+e2crc2 48 28
+e3crc2 48 19
+gate2 32 40
+h4r1salleycrc2 10 46
+h4r2 10 47
+h4r3 8 46
+h5r1sn3crc2 16 5
+h5r2 16 4
+h5r3 14 5
+mtarms 16 7
+mtguild 22 43
+mt_paint_shop 16 47
+mtshop 46 28
+mttavern 50 31
+n1crc2 32 11
+n2crc2 22 6
+n3crc2 16 6
+s1crc2 16 45
+s2crc2 22 45
+tcrc2 48 24
+wqhouse1 22 5
+wqhouse2 22 4
+::MAPDATA::
+                  o      o
+                  o      o
+           o------o------o------o
+           o              `.
+  Private       o     o     `.
+   Residences o-o     o       `.
+                o-----o         `.   o
+                o      `.         `. |
+          Arms           `.         `o
+            Shoppe         `.         `.
+                             `.         `.
+                               `o         `.
+                              .' `.         `.
+                            .'     `.         `.
+                      Gate to the    `.         `.
+                       Third Circle    `.         `.
+                                         `.         `.
+                                           `.         `.   o
+                                             `.      o--`o-o
+                                               `o        | o
+                                                |        |
+                   ================             |        |
+                    The Great City              |        |
+                    of Minas Tirith             |        |
+                    (second circle)             o        o-------o
+                   ================             |        |
+                                                |        |
+                                                |        |
+                                      General o-o      o-o-o
+                                        Store   |        | o
+                                                |Tavern  | o
+                                                o-o      |
+                                               .'        o
+                                             .'         .'
+                                           .'         .'
+                                         .'         .'
+                                       .'         .'
+                                     .'         .'
+                                   .'         .'
+                                 .'         .'
+                               .o         .'
+              Adventurer's   .'  `.     .'
+                 Guild     .'      `. .'
+  Private             o  .'         .o
+    Home              |.'         .'
+          o-----o-----o         .'
+        o-o     o Armoury     .'                    
+          o     o           .'
+            Paint Shop    .'
+                  o------o
+                         o
+                         o
+::NEWMAP::
+third_circle
+::MAPDATA::
+adoffice 12 9
+common 14 8
+e3crc3 39 20
+e2crc3 39 27
+e1crc3 39 30
+gate3 27 14
+h6r1sn1crc3 19 9
+h6r2 19 8
+h6r3 17 9
+h7r1ss3crc3 9 41
+h7r2 9 42
+h7r3 9 40
+n1crc3 19 10
+n2crc3 14 10
+mtbakery 41 27
+mtoffice 14 9
+s1crc3 27 37
+s2crc3 19 41
+s3crc3 14 41
+tcrc3 39 24
+wtpub 19 43
+::MAPDATA::
+                  o      o
+                  o      o
+           o------o------o
+           o              `.
+                o     o     `.
+              o-o     o       `.
+       Common   o-----o         `.   o
+        Board          `.         `. |
+              o    o Private        `o
+            o-o  o-o  Residence       `.
+              o----o         `.         `.
+        City        `.         `o         `.
+   Administration     `.      .' `.         `.
+       Offices          `.  .'     `.         `.
+                          `o         `.         `.
+                            `.         `.         `.
+                              `.         `.         `.
+                                `.         `.         `.   o
+                                  `.         `.      o--`o-o
+                                    `.         `o        | o
+                                      `o        |        |
+                                       |        |        |
+            ================           |        |        |
+             The Great City            |        |        |
+             of Minas Tirith           o        o        o-------o
+              (third circle)           |        |        |
+            ================           |Bakery  |        |
+                                       o-o      |        | o
+                                       |      o-o      o-o-o
+                                       |        |        | o
+                                       o        |        |
+                                      .'        o-o      |
+                                    .'         .'        o
+               Gate to the        .'         .'         .'
+                Fourth Circle   .'         .'         .'
+                       `.     .'         .'         .'
+                         `. .'         .'         .'
+                          .o         .'         .'
+                        .'         .'         .'
+                      .'         .'         .'
+ Private o          .'         .o         .'
+ Mansion o----o----o         .'  `.     .'
+         o         |       .'      `. .'
+                   o  o  .'         .o
+                  Pub |.'         .'
+          o-----o-----o         .'
+        o-o     o             .'                    
+          o     o      o-o  .'
+                  o      |.'
+                  o------o
+                         o
+                         o
+::NEWMAP::
+fourth_circle
+::MAPDATA::
+alleycrc4 8 37
+e1crc4 30 29
+e2crc4 30 27
+e3crc4 30 21
+gate4 22 34
+h1ncrc4 16 12
+h2ncrc4 14 12
+h3ncrc4 16 11
+h4ncrc4 16 12
+h8r1salleycrc4 8 38
+h8r2 6 38
+h8r3 8 39
+h8r4 8 38
+g1ncrc4 16 13
+g2ncrc4 17 11
+g3ncrc4 17 11
+g4ncrc4 17 11
+jewel_shop 12 39
+n1crc4 22 17
+n2crc4 16 14
+n3crc4 12 14
+s1crc4 16 37
+s2crc4 12 37
+stonemason 12 36
+tcrc4 30 24
+upc4 28 24
+wsmithy 16 39
+::MAPDATA::
+                  o      o
+                  o      o
+           o------o------o
+           o              `.
+                o     o     `.
+              o-o     o       `.
+                o-----o         `.   o
+                o      `.         `. |
+              o    o     `.         `o
+            o-o  o-o       `.         `.
+              o----o         `.         `.
+                o   `.         `o         `.
+              o-o     `.      .' `.         `.
+                o       `.  .'     `.         `.
+            o---o         `o         `.         `.
+                 `.         `.         `.         `.
+                   `.         `.         `.         `.
+                     `o         `.         `.         `.   o
+                    .' `.         `.         `.      o--`o-o
+                  .'     `.         `.         `o        | o
+           Gate to the     `.         `o        |        |
+            Fifth Circle     `o        |        |        |
+                              |        |        |        |
+                        Sewers|        |        |        |
+                            o:o        o        o        o-------o
+                              |        |        |        |
+       ================       |        |        |        |
+        The Great City        o        o-o      |        | o
+        of Minas Tirith       |        |      o-o      o-o-o
+        (fourth circle)       o        |        |        | o
+       ================      .'        o        |        |
+                           .'         .'        o-o      |
+                         .'         .'         .'        o
+                       .'         .'         .'         .'
+          Stone      .o         .'         .'         .'
+          Mason    .'  `.     .'         .'         .'
+            o    .'      `. .'         .'         .'
+ Home   o---o---o         .o         .'         .'
+      o-o   |   | Weapon.'         .'         .'
+        o   o   o Smith'         .'         .'
+         Jeweler    .'         .o         .'
+         o----o----o         .'  `.     .'
+         o         |       .'      `. .'
+                   o  o  .'         .o
+                      |.'         .'
+          o-----o-----o         .'
+        o-o     o             .'                    
+          o     o      o-o  .'
+                  o      |.'
+                  o------o
+                         o
+                         o
+::NEWMAP::
+fifth_circle
+::MAPDATA::
+b_garden 10 34
+b_house 10 35
+e1crc5 21 28
+e2crc5 21 26
+e3crc5 21 22
+herb_shop 23 26
+gate5 17 20
+mtclibrary 10 16
+potion_shop 21 30
+n1crc5 13 18
+n2crc5 10 18
+s1crc5 17 31
+s2crc5 13 33
+s3crc5 10 33
+tcrc5 21 24
+::MAPDATA::
+                  o      o
+                  o      o
+           o------o------o
+           o              `.
+                o     o     `.
+              o-o     o       `.
+                o-----o         `.   o
+                o      `.         `. |
+              o    o     `.         `o
+            o-o  o-o       `.         `.
+              o----o         `.         `.
+                o   `.         `o         `.
+              o-o     `.      .' `.         `.
+                o       `.  .'     `.         `.
+            o---o         `o         `.         `.
+      Library    `.         `.         `.         `.
+          o        `.         `.         `.         `.
+          |          `o         `.         `.         `.   o
+          o--o      .' `.         `.         `.      o--`o-o
+              `.  .'     `.         `.         `o        | o
+================`o         `.         `o        |        |
+ The Great City   `.         `o        |        |        |
+ of Minas Tirith    `o        |        |        |        |
+ (fifth circle)      |        |        |        |        |
+================     o      o-o        o        o        o-------o
+                     |   Herb |        |        |        |
+                     o-o Shop |        |        |        |
+    Gate to the      |        o        o-o      |        | o
+     Sixth Circle    o        |        |      o-o      o-o-o
+             `.     .|        o        |        |        | o
+               `. .' o       .'        o        |        |
+                .o Alchemist'         .'        o-o      |
+              .'         .'         .'         .'        o
+          o--o         .'         .'         .'         .'
+          o          .o         .'         .'         .'
+          o        .'  `.     .'         .'         .'
+            o    .'      `. .'         .'         .'
+        o---o---o         .o         .'         .'
+      o-o   |   |       .'         .'         .'
+        o   o   o     .'         .'         .'
+         o          .'         .o         .'
+         o----o----o         .'  `.     .'
+         o         |       .'      `. .'
+                   o  o  .'         .o
+                      |.'         .'
+          o-----o-----o         .'
+        o-o     o             .'                    
+          o     o      o-o  .'
+                  o      |.'
+                  o------o
+                         o
+                         o
+::NEWMAP::
+sixth_circle
+::MAPDATA::
+e1crc6 14 27
+e2crc6 14 26
+e3crc6 14 24
+fen_hollen 2 24
+gate6 12 28
+n1crc6 12 23
+n2crc6 10 22
+n3crc6 6 22
+s1crc6 10 29
+s2crc6 8 29
+s3crc6 6 29
+tcrc6 14 25
+w1crc6 4 28
+w2crc6 2 27
+w3crc6 4 23
+::MAPDATA::
+                  o      o
+                  o      o
+           o------o------o
+           o              `.
+                o     o     `.
+              o-o     o       `.
+                o-----o         `.   o
+                o      `.         `. |
+              o    o     `.         `o
+            o-o  o-o       `.         `.
+              o----o         `.         `.
+                o   `.         `o         `.
+              o-o     `.      .' `.         `.
+                o       `.  .'     `.         `.
+            o---o         `o         `.         `.
+                 `.         `.         `.         `.
+          o        `.         `.         `.         `.
+          |          `o         `.         `.         `.   o
+          o--o      .' `.         `.         `.      o--`o-o
+ The Royal    `.  .'     `.         `.         `o        | o
+  Stables o     `o         `.         `o        |        |
+        o-o-o     `.         `o        |        |        |
+      o---o         `o        |        |        |        |
+    o'     `o        |        |        |        |        |
+-:o'         `o      o      o-o        o        o        o-------o
+  |  Citadel  o      |        |        |        |        |
+  |       o-o-o      o-o      |        |        |        |
+  o           o      |        o        o-o      |        | o
+   `o       o'       o        |        |      o-o      o-o-o
+     `o-o-o' `.     .|        o        |        |        | o
+               `. .' o       .'        o        |        |
+                .o         .'         .'        o-o      |
+              .'         .'         .'         .'        o
+          o--o         .'         .'         .'         .'
+          o          .o         .'         .'         .'
+          o        .'  `.     .'         .'         .'
+            o    .'      `. .'         .'         .'
+        o---o---o         .o         .'         .'
+      o-o   |   |       .'         .'         .'
+        o   o   o     .'         .'         .'
+         o          .'         .o         .'
+         o----o----o         .'  `.     .'
+         o         |       .'      `. .'
+                   o  o  .'         .o
+                      |.'         .'
+          o-----o-----o         .'
+        o-o     o             .'                    
+          o     o      o-o  .'
+                  o      |.'
+                  o------o
+                         o
+                         o
+::NEWMAP::
+shades
+::MAPDATA::
+corr1 24 11
+corr2 16 11
+hall1 8 11
+hall2 8 14
+hall3 8 8
+loot1 15 5
+office 32 5
+privroom 26 5
+shadeentr 32 11
+sleep1 8 5
+sleep2 8 17
+::MAPDATA::
+                                       
+  .--.--.--.--.--.--.--.--.--.--.--.--.
+ | .---------------------------------. |\
+  .|\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_|. \
+ | |\                                | |\
+  .|\   o     .o          o -:- o    |. \
+ | |\   |   .'                  |    | |\
+  .|\   | .'                    |    |. \
+ | |\   o'                      |    | |\
+  .|\   |                       |    |. \
+ | |\   |                       |    | |\
+  .|\   o - - - o - - - o - - - o    |. \
+ | |\   |                       |    | |\
+  .|\   |                       |    |. \
+ | |\   o                       |    | |\
+  .|\   |                       |    |. \
+ | |\   |                       |    | |\
+  .|\   o                       |    |. \
+ | |\___________________________|____| |\
+  `--^--^--^--^--^--^--^--^--'``|``'--' \
+    \\_\\_\\_\\_\\_\\_\\_\\_\\| |   \\_\/
+
+::NEWMAP::
+shades_secret
+::MAPDATA::
+loot2 12 14
+::MAPDATA::
+                                       
+  .--.--.--.--.--.--.--.--.--.--.--.--.
+ | .---------------------------------. |\
+  .|\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_|. \
+ | |\                                | |\
+  .|\   o     .o          o -:- o    |. \
+ | |\   |   .'                  |    | |\
+  .|\   | .'                    |    |. \
+ | |\   o'                      |    | |\
+  .|\   |                       |    |. \
+ | |\   |                       |    | |\
+  .|\   o - - - o - - - o - - - o    |. \
+ | |\   |                       |    | |\
+  .|\   |_____                  |    |. \
+ | |\   o : o |                 |    | |\
+  .|\   |-----                  |    |. \
+ | |\   |                       |    | |\
+  .|\   o                       |    |. \
+ | |\___________________________|____| |\
+  `--^--^--^--^--^--^--^--^--'``|``'--' \
+    \\_\\_\\_\\_\\_\\_\\_\\_\\| |   \\_\/
+    

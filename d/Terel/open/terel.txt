@@ -1,0 +1,43 @@
+domain,quest desc,group,bit,hint,validation,arguments
+Terel,Orc Fire,0,0,orc_fire.txt,default
+Terel,Balance Coins,0,1,balance_coins.txt,default
+Terel,Red Death,0,2,red_death.txt,default
+Terel,Maze and Box,0,3,maze_and_box.txt,default
+Terel,Lost Child,0,4,lost_child.txt,default
+Terel,Jester's Hat,0,5,jesters_hat.txt,default
+Terel,Bearded Woman,0,6,jesters_hat.txt,default
+Terel,Wrestler's Belt,0,7,jesters_hat.txt,default
+Terel,Juggling,0,8,jesters_hat.txt,default
+Terel,Tight Rope Walking,0,9,jesters_hat.txt,default
+Terel,Magician's Treasure,0,10,magicians_treasure.txt,default
+Terel,Release Spectre,0,11,no_info.txt,false_unless_done
+Terel,Rescue Virgin,0,12,rescue_virgin.txt,default
+Terel,Porcia Riddle,0,13,porcia_riddle.txt,default
+Terel,Tear Tapestry,0,14,tear_tapestry.txt,default
+Terel,Kill Dark Presence,0,15,kill_dark_presence.txt,default
+Terel,Mystics Entrance,0,16,no_info.txt,false_unless_done
+Terel,Zodiac Gem,0,17,zodiac.txt,default
+Terel,Mine Gem,0,18,mine_gem.txt,default
+Terel,Witch's Ring,0,19,witch_ring.txt,default
+Terel,Lost Cat,1,0,lost_cat.txt,default
+Terel,Lost Bracelet,1,1,lost_bracelet.txt,default
+Terel,Kill Bug Queen,1,2,kill_bug_queen.txt,default
+Terel,Kill Evil Dragon,1,3,kill_evil_dragon.txt,default
+Terel,Rescue Prisoner,1,4,no_info.txt,false_unless_done
+Terel,Dungeon,1,5,no_info.txt,false_unless_done
+Terel,Obelisk Puzzle,1,6,obelisk_puzzle.txt,default
+Terel,Missing Sandal,1,7,missing_sandal.txt,default
+Terel,Missing Flower,1,8,missing_flower.txt,default
+Terel,Batdung for Witch,1,9,batdung.txt,default
+Terel,Sign Register,1,10,no_info.txt,false_unless_done
+Terel,Accuse Criminal,1,11,accuse_criminal.txt,default
+Terel,Gardeners Gloves,1,12,gardeners_gloves.txt,default
+Terel,Bandits Treasure,1,13,bandits_treasure.txt,default
+Terel,Defend Caravan,1,14,defend_caravan.txt,default
+Terel,Kill Assassin,1,15,kill_assassin.txt,default
+Terel,Killer banned from Calathin,2,0,no_info.txt,always_false,2,0
+Terel,Ghastly Keep,1,16,ghastly_keep.txt,default
+Terel,Cottage Chest,1,17,cottage_chest.txt,default
+Avenir,Labal's Ring,2,0,labal_ring.txt,default
+Avenir,Berion's Letter,2,1,berions_letter.txt,default
+Avenir,Trout Fishing,2,2,trout_fishing.txt,default

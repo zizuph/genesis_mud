@@ -1,0 +1,170 @@
+Too long message. More automatically invoked!
+Message: 54
+From   : Arman
+Subject: Waymeet preliminary review
+To     : Raymundo and Finwe
+CC     : Cotillion, Ckrik, Arman, Carnak, Gorboth and Cherek
+Date   : Sat Apr  4 08:32:32 2020
+Hi Raymundo and Finwe,
+I've had a preliminary review of Waymeet and have a few comments. Primarily
+there is a lot of incorrect indentation throughout all the code... some
+makes me think the code was created in the game editor?
+I have a feeling the hobbitmaker.c for Waymeet isn't working as intended.
+A lot of the hobbit npcs are spawning as the default with no equipment,
+regardless of what type of hobbit they are set as. You should look into
+that.
+The other thing that was missing was quest documentation. That definitely
+needs to be provided before we can open this area.
+Anyway, the following is some more specific feedback:
+/d/Shire/waymeet/arms/
+diaper.c
+Some weird format indentation throughout. Needs to be tightened up to align
+with
+'man code_standards'
+****
+DONE
+****
+
+h_anklet.c
+-- More -- 30/123 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+Indentation for add_name needs fixing.
+****
+DONE
+****
+
+h_bracelet.c
+Descriptor header says it is a diaper, not a bracelet.
+Rather than use TP->query_gender() == 0 in the wear function, can we please
+inherit <const.h> and replace the above with TP->query_gender() == G_MALE
+Again, some weird format indentation. Needs to be fixed up.
+****
+DONE
+****
+wolf_pelt.c
+Indentation for set_af needs fixing.
+****
+DONE
+****
+
+/d/Shire/waymeet/food/apple_pie.c
+Indentation for add_adj needs fixing.
+****
+DONE
+****
+
+/d/Shire/waymeet/lib/
+In general fine, although throughout the lib files the indentation needs
+to be fixed to align with 'man code_standards'
+***
+The issue with indenting appears to be that i didn't check the box
+that said use spaces (or whatever exactly it is) in preferences in 
+the tab settings in Notepad++. It's fixed, and a search/replace
+seems to have fixed the issue. DONE
+***
+
+base_field.c
+pick_vegetable function is missing a full stop when you complete the
+command:
+"You reach out and pick a large carrot from the field"
+***
+DONE
+***
+waymeet_hobbitmaker.c
+Curious what the reason is for the customised hobbitmaker? Is that
+for the dog summoning code?
+****
+Yes, exactly. I copied and adjusted the hobbitmaker so that I 
+could add dogs to waymeet and not the whole shire. 
+****
+
+/d/Shire/waymeet/npcs/
+boso.c
+Can we make sure we provide some detail in the code header that
+this is a quest npc, direct to where the quest documentation is
+kept? (probably /d/Shire/private/QUESTS/)
+1000 quest xp seems reasonable
+****
+DONE
+****
+
+dippity.c
+Typo in the long description ("which seem slike")
+****
+DONE
+****
+
+
+/d/Shire/waymeet/obj/
+chandelier_cone.c
+References a quest, but I can't find any documentation on the Foaming Mug
+Inn quest? Or quest bits?
+****
+/d/Shire/private/QUESTS/fix_still.txt
+documentation updated.
+
+Also, the foam_mug_quest.txt will be removed as soon as the quest goes live. It was a reference file for me so I didn't forget where everything was stashed as we worked through the quest.
+***
+
+scroll_2.c
+Typo in the do_destroy function. "You destory"
+****
+DONE
+****
+
+novel_wheel.c
+Extra space in long description "see a slot  on the"
+****
+DONE
+****
+
+token.c
+Needs a "\n" at the end of set_long
+****
+DONE
+****
+
+
+/d/Shire/waymeet/rooms/
+In a number of the smials and rooms, the hobbits spawn without equipment. Is
+that deliberate? I have the feeling they aren't spawning properly..
+they all seem to default with a stat average of 50 regardless of their
+type setting.
+*****
+FIXED the hobbitmaker
+*****
+-- More -- 90/123 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+path_1.c
+Has an invisible exit for the southwest. Is there a reason it is
+non-obvious?
+****
+This exit is part of a joint quest between Waymeet and Cairn Andross (did I spell that right?) and the non-obvious exit seems to add just a little more challenge to the quest. Did you have long description on? did you read the add_items?
+
+The majority of the quest is handled in C.A. Here, the player brings a letter and leaves with a crate of tobacco. Everything else is in C.A.
+****
+
+h_1_8.c
+Has an extreme level of darkness set for this room... -100? That is
+excessive for magical darkness, let alone normal darkness.
+Please reduce. I would suggest inheriting /sys/const.h and have
+it set to DARKNESS_PASSIVE
+****
+Set darkness to -1.
+DONE
+****
+
+
+foam_mug_2020.c
+fix_still quest doesn't seem to be showing on
+"Call /d/Shire/sys/global/quest_master list bits"
+As mentioned above, quests need to be documented. It isn't clear the
+reward for this quest (or even if it works?)
+For Finwe to action:
+/d/Shire/open/QUEST needs to be updated. Currently doesn't direct
+to where quest documentation is stored.
+/d/Shire/private/QUESTS/ needs the LIST file updated, as well as
+documentation added for all live quests, including the Waymeet wolves
+quest and Fix Still quest.
+Can you stress test the quests please and provide confirmation they
+work as intended?
+
+A.K

@@ -1,0 +1,31 @@
+MAGIC items of Genesis domain
+=============================
+Last modified by:
+Arman, January 2021
+
+Weapons:
+--------
+staff of the medusa    (/d/Genesis/start/human/obj/ogre_magi_staff.c)
+
+   Creator: Arman
+
+      This staff has captured the spirit of a maternal medusa. In the 
+      hands of a young adventurer, this staff may 'petrify' enemies 
+      with a blast of earth magic. Superior amateur skill in earth 
+      magic and spellcraft is required to use the magic of the staff.
+
+      It is designed to allow new and small players to experience 
+      basic magical spell items, and is restricted to those with stats 
+      defined as SD_IS_NEWBIE or lower.
+
+      'Petrify' activates an at_will_harm spell,
+      /d/Genesis/start/human/obj/ogre_magi_staff_spell.c, and if an
+      enemy's death is caused by petrify a unique death corpse is
+      created through /d/Genesis/start/human/obj/petrify_corpse_sh.c
+
+      Petrify requires SS_SPELLCRAFT and SS_ELEMENT_EARTH to be of
+      skill level 20 (superior amateur) to activate.
+
+      Wielded by: ogre magi (/d/Genesis/start/human/obj/ogre_mage.c) 
+
+      (Values: hit 30, pen 20). It is a two handed W_POLEARM weapon.

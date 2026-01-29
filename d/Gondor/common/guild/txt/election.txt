@@ -1,0 +1,17 @@
+
+Topic: election
+
+Commands:
+
+- resign
+    Resign as a Captain of the Rangers.
+    The resignation will automatically call for an election of a new Captain.
+
+- nominate
+    Nominate a ranger as candidate in the election for a new Captain of that
+    ranger's company.
+    If no election has yet been called for that company, this command will call
+    the election for the ranger's company.
+    It is impossible to nominate a ranger while there is a Captain of that 
+    ranger's company.
+

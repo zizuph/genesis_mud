@@ -1,0 +1,298 @@
+Spirit Circle, Elemental Worshippers, and Elemental Seekers Proposal
+====================================================================
+
+Currently the theology in Calia is based very much on Greek concepts
+of the Elementals. There are four main Elementals. Lord Pyros (fire),
+Lord Diabrecho (water), Lady Aeria (air), and Lady Gu (earth). Then
+there is a fifth elemental that binds them together, Psuchae the
+Elemental of Spirit and Shadows. The basic story of creation is that
+the Four Prime Elementals created everything, but in order to bind
+things together (called the Quickening), Psuchae had to get involved.
+All life is bound together by the forces of the Elementals and the
+Quickening of Psuchae.
+
+This is important because part of Psuchae's domain is the Cycle of
+Life, which involves Birth, Death, and Rebirth. This is a cycle that
+cannot be disrupted. The theology continues to talk about how the
+Undead break out of this Cycle of Life, causing unbalance to the
+Cycle. The souls which were supposed to continue onwards to Death
+or Rebirth (depending on how you look at it) have been corrupted.
+The Clerics of Psuchae work to right the unbalance in the Cycle by
+cleansing the world of the undead.
+
+For the recode of the Spirit Circle, the idea is to bring the themes
+of the Elementals together as they should. All are worshippers of
+the Elementals and all should be under one Temple. The Spirit Circle
+by serving Psuchae also are in close contact with the other
+Elementals. The Elemental Worshippers are guided by the Spirit Circle
+in learning the ways of the Elementals. The Spirit Circle are the
+only ones who dedicate themselves fully and completely to this work.
+
+In order to flesh out the theme, I am making SCoP a racial + occ
+guild. Also, I am forcing SCoP to have the EW as their only possible
+layman guild. They are also to be completely neutral, just like the
+Elemental Worshippers are today. Along with this, I'm introducing
+a free join guild called the Elemental Seekers. Below you will find
+the proposed abilities for each of these branches.
+
+One thing that will also need to be addressed is the lack of grinding
+available for Clerics if their focus is on undead. One of the
+requirements for making this work will be either upgrade or create
+new areas within Calia which will afford Clerics the opportunity to
+grind and grow.
+ 
+Elemental Seekers (Layman)
+--------------------------
+Seekers are a free join layman caster guild. It provides very basic
+spells and an introduction to the Elementals of Calia. They obtain the
+ability to harness the power of the elementals. They obtain these
+powers by praying and seeking out the Elementals. Like the Calian
+Followers, the guild is not designed to be remained in. It is
+designed to be a thematic introduction into the Elemental Worshippers,
+the real layman full powered branch. People who are Seekers will be
+able to interact with not just Elemental Seekers, but also those
+Clerics of the Spirit Circle (OCC members).
+
+  Elemental Spells
+  ----------------
+   Light (Fire)
+       Provides one level of light.
+   Lesser Heal (Water)
+       Minimal healing abilities. Probably similar to consuming herbs.
+   Summon Messenger (Air)
+       A pretty standard messenger object to send messages
+   Reduce Fatigue (Earth)
+       Reduce fatigue for self. Similar to consuming herbs.
+
+  General Spells
+  --------------
+   Guild Tell
+       Allows members to send tells to other members
+
+
+Elemental Worshippers (Layman)
+------------------------------
+Elemental Worshippers are their own layman guild. They also at the same
+time will serve as the only layman branch that those of the Spirit
+Circle can join. They possess all the abilities that the Elemental
+Seekers have, but in a greater degree. Whereas Seekers merely call
+upon the power of the Elementals, the Worshippers actually have a
+way to summon the agents of the Elementals to do their bidding.
+
+Elemental Worshippers have three types of spells. They are listed
+below.
+ 
+  General Spells
+  --------------
+   General spells are those basic spells that every Elemental Worshipper
+   will possess.
+
+   Teleport:             Teleport back to Elemental Worshippers temple
+   Relieve Encumberance: Allows one to carry more things. This will be
+                         pretty much the same spell that SCoP has been
+                         using called "elefrinisi"
+   Elemental Resistance: Grants resistance to the elements that are
+                         related to the elementals. Most likely level
+                         will be around 25%. Cannot be stacked.
+                         (fire, cold, poison, acid)
+
+  Summon Elementals
+  -----------------
+    The second class class of spells that the Worshippers have are called
+    Elemental Summoning spells. Each of the Elementals that they summon
+    has a special capability, listed below. Along with the special
+    capability, each elemental can be used as a shield. These shields
+    also possess different capabilities. Some are higher in AC, some
+    cover more. The actual AC's and details are to be determined. They
+    currently seem to give too much aid to the EW, and my goal is to
+    bring this guild in line with what a layman caster guild should be.
+   
+    NOTE:
+    Combined aid for summoning elemental, elemental resistance, and
+    elemental special (see below) should not exceed the max for a layman
+    caster guild.
+
+   Earth: Summon golem, it can look into next room, carry things.
+   Water: Summon water weird. It can bring water or alcohol. Ice shield.
+   Fire:  Summon fire djinni, will create light for the caster. Shield
+          harms attackers.
+   Air:   Air elemental, It can be used as a scry spell.
+
+  Elemental Special (no longer limited to one per person)
+  -------------------------------------------------------
+  Elemental Specials are the greatest power granted by each Elemental. They
+  are so powerful, that they cannot be combined with other Elemental
+  specials. This means that if you are using one Elemental special, you
+  cannot use the others at the same time.
+   
+    NOTE:
+    Combined aid for summoning elemental, elemental resistance, and
+    elemental special should not exceed the max for a layman
+    caster guild.
+
+   Heal (Water)
+     This is to be their main healing spell. It will provide a decent
+     amount of aid. It will be scaled in such a way that
+   Fire:  Attack spell
+     This is the main offensive capability of the guild. It will deal
+     approximately 50% combat aid. 
+   Air:   Haste spell
+     This spell will give the same amount of aid as heal or attack.
+     While in use, one cannot use heal or fire attack.
+   Earth: Increase Str, Con, and Dis
+     This spell will increase Str, Con, and Dis to give the same amount
+     of aid as the others. While in use, however, one cannot use haste,
+     heal or attack spells.
+
+
+Ethereal (Racial, SCoP only)
+----------------------------
+From the Elementals to the Spirit Circle and the Elemental Worshippers, an
+ancient apparition of a kyrullian loremaster has appeared.
+  "Spirit Circle, seperated you were, to study the ancient ways of the "
+  "Kyrullians, to become entangled in the mysteries of Spirit, to become "
+  "the Enlightened. Following your enlightenment, we changed you, you "
+  "studied our ancient way of protecting the Cycle from the Abominations. "
+  "Although much of the ancient kyrullian way is lost, much lore is yet "
+  "to unravel, you have now mastered what only an elect few of the "
+  "Kyrullians. You can infuse yourself wholly, become the conduit between "
+  "the physical plane and the spiritual, you may now as sentient and true "
+  "entities commune with It and act as Its servants in the prime planes. "
+  "You can become, the ethereals. Ascend with this new responsibility, "
+  "rejoin with your brothers and sisters, the Worshippers, learn and "
+  "perfect their understanding of the Prime Elementals, and imbue it with "
+  "your conduit of the Quickening. Become the Wardens of Creation, "
+  "Clerics of the Elementals, and the Guardians of the Cycle, "
+  "Ethereals of Psuchae. "
+
+When a person devotes their life fully to Psuchae, Psuchae transforms
+their body into an Ethereal, a spiritual being with a spark of the
+essence of Psuchae. The Cleric thus leaves behind all that has defined
+them in the secular world, and is thus free to devote themselves fully
+to the work of Psuchae.
+
+  Race:
+   Ethereal - a divine creation of Psuchae
+
+  Special Racial Ability:
+   Ability to sense undead when entering a room. This will function very
+   much like Gardener's lfind. Even if the ethereal cannot see the
+   undead, he/she will get a message that there is one in the room.
+
+  Spells:
+   Evade: Spell to add 10% evasion to the shadow form
+   Normal Form: Spell to temporarily revert to normal form
+
+Spirit Circle (Occupational)
+----------------------------
+A Cleric will play two roles. In the world of the living, he is a
+life guide, and one who is a team support. He provides aid to his team
+in a fashion that allows them to fight faster, better, and more
+efficiently. He can even keep them from dying. The second and more
+important role that the cleric plays is that of an agent of the
+SoulWarden. He is to liberate the corrupt bodies of the undead that
+their souls may be returned to the Cycle of Life.
+
+SCoP have access to all the layman abilities as well.
+
+General Spells
+--------------
+Blink: Within a domain, transport to various locations. The idea is that
+       this will replace walking, saving fatigue. However, it will use
+       up mana.
+Greater Teleport:
+       Remember locations to teleport to. This spell will allow a
+       cleric to travel between domains. It will start out at 1
+       remembered location, and will grow in number as guild stat
+       goes up. This is very similar to the PoT.
+Confusion:
+       Confuses enemies, makes target do random movements. Spell is
+       currently called "syskotisi". I do not plan on making many
+       changes, if any, to this spell. It is mainly used for
+       defensive purposes.
+Silence:
+       Silence enemies for short time. Defensive spell against casters.
+       Will be identical to current spell.
+Cure Poison:
+       Neutralize poisons. No changes planned for this spell.
+Steal Identity:
+       Steal names. necessary for dream scry. No changes planned.
+Identify Item:
+       Identify information for eq. No changes planned for spell.
+Greater guild tell:
+       Can talk to non-guild members also. No changes planned.
+Greater Scry:
+       No changes planned for this spell. A cleric can use dreamwalk
+       to scry others.
+
+Enhancements upon EW Spells for use in teams or others
+------------------------------------------------------
+Haste Others:
+   The haste benefit from the Layman guild can be cast on others. Since
+   it is the same spell, no stacking will be allowed, meaning casting it
+   on another EW will not net any benefits. This spell will be the main
+   team buff to be used for others.
+Elemental Resistance:
+   The EW also has resistance spells. These same spells will be able to
+   be cast on others. Since clerics also serve another Elemental, Psuchae,
+   they will also get death magic resistance and general magic
+   resistance added to their list.
+Heal Others:
+   This healing spell should be the best healing spell in the Realms.
+Reduce Encumberance for Others:
+   This will be the same as the EW spell, except that you can cast it on
+   others.
+
+Other Team Buffs
+----------------
+Reduce panic - Same as current SCoP
+See Invis    - Same as current SCoP
+Dark Vision  - Same as current SCoP
+Death Ward:
+     Gives a person protection from death for 30 minutes
+Resurrection:
+     resurrects a person who died while with a death ward within
+     30 minutes. Very costly to both caster and resurrected
+     person.
+
+Undead Focused Spells
+---------------------
+Shadow Wall: 
+    Create a wall that when undead walk through, con drain,
+    panic, fatigue. No changes planned except for removing alignment
+    focus.
+Slow Undead:
+    Reduces haste, slows ability for undead to flee. Will behave
+    like a one second block per each attempted exit. Small
+    clerics can use it to flee, while larger ones can use it
+    to ensure the undead do not flee.
+Protection from Undead:
+    Damage originating from undead will be reduced. Because shadow form
+    evade is now a racial ability, it is significantly less than what
+    it is currently. Meaning, clerics will be less able to tank living
+    things. However, they will be better able to tank undead things
+    using this spell. This spell will enhance their shadow form.
+Turn Undead:
+    Con poison and undead fear aura in presence of cleric. The actual
+    logistics have to be worked out still regarding how to do the fear
+    effect. Nav has suggested using the Necro model of forcing them
+    to go away 5 exits. I would like to maintain the theme of an
+    undead being unable to be in the presence of a powerful cleric.
+    ie. aura. but at the same time, don't want the undead to be unable
+    to do anything.
+Heal Undead:
+    Actually causes great harm to the undead through magical aid. This
+    is currently and will be the main damage spell against undead.
+Spiritual Hammer:
+    Essentially the sfyri hammer. However, the hammer is now limited to
+    fighting undead only. It is held and thrown dealing great damage to
+    undead. Main melee ability against undead and only way they can
+    really grind.
+See Undead: Life Aura ensures undead can be seen. Essentially acts as
+            a counter to undead invisibility and darkness.
+
+Issues to be to discussed
+=========================
+1. How can we make Resurrection non-abusable for quests, PvP, etc?
+2. How should the fear for Turn Undead actually work?
+

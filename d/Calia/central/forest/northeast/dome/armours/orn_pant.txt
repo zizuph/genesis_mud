@@ -1,0 +1,75 @@
+// ARMOUR:  ornate silk pantaloons
+//      DOME_ARMOURS + orn_pant
+
+    /*  Calia Domain
+
+        HISTORY
+        19aug99 Created by Khon.
+
+        PURPOSE
+        This is a basic armour template of a pair of
+        padded silk pantaloons.
+
+        WEAPON HISTORY
+        Stock padded silk pantaloons.
+
+    */
+
+// INCLUSIONS AND DEFINITIONS
+
+inherit "/std/armour";
+
+#include <formulas.h>
+#include <stdproperties.h>
+#include <wa_types.h>
+#include "/sys/formulas.h"
+#include "/sys/macros.h"
+
+// WEAPON DEFINITION
+void
+create_armour()
+{
+    set_name(({"pantaloons", "armour", "armor"}));
+    set_adj(({"silk","padded", "ornate"}));
+    set_short("ornate white pantaloons");
+    set_pshort("ornate white pantaloons"); 
+    set_long("A pair of baggy white pantaloons made " +
+        "of the finest silk, ornately decorated with " +
+        "silver thread. They've been reinforced with " +
+        "additional " +
+        "lightweight but very strong layers of silk. " +
+        "These pantaloons are extremely light and "+
+        "comfortable.\n");
+
+// ARMOUR VALUES
+    set_ac(
+
+// Armour value
+     8,
+
+// Set armour modifiers
+    set_am(({
+
+// vs impale damage
+    -1,
+
+// vs slash damage
+     2,
+
+// vs bludgeon damage
+    -1
+    }));
+
+// Where the armour protects
+    set_at(A_LEGS);
+
+// PROPERTIES
+    add_prop(OBJ_I_WEIGHT, F_WEIGHT_DEFAULT_ARMOUR(8, A_LEGS)/2);
+    add_prop(OBJ_I_VOLUME, query_prop(OBJ_I_WEIGHT)/5);
+    add_prop(OBJ_I_VALUE, F_VALUE_ARMOUR(8)*5);
+
+// Starting Corrosion
+
+// Starting Damage
+
+}

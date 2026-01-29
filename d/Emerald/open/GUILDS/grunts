@@ -1,0 +1,118 @@
+                             
+                             The Grunts Guild
+                             ----------------
+
+This is a race guild for goblins. It was initially kept as simple as possible, 
+but inevitably extra features were added as time passed. The guild first
+opened to mortals a few years ago (it was the first race guild), and but
+for a brief spell when Emerald was closed down, has been open ever since.
+Guild members get the following:
+
+1) A lovely new set of emotions to annoy the other races, who have not got
+   them. These emotions are the whole basis of the guild, and have been
+   toned down slightly to meet with arch-wizard approval.
+   Member have the ability to 'crap'. This leaves them with a pile of dung,
+   which can be left in busy places so that other players slip over in it,
+   or alternatively can be thrown. Not useful in combat, but fun....
+   Members also get a 'warcry' of their own choosing, to scream at people
+   as appropriate.
+
+2) An auto-loading collar as a guild item. This adds the guild soul, and
+   provides members the ability to do a 'who' list of guild members currently 
+   logged on. It has been written as armour with ac of 0 and set A_NECK 
+   which is not a current hit location for humanoids.
+
+3) As with the other guilds, this one has a start location, which has a few
+   limited services to offer. They do not confer any special advantages to
+   guild members, and are usable by other races. These facilities are a shop, 
+   a library, a bulletin board, a common board, an alcove for meditation, 
+   a bank, a bar (exquisite menu), and at the main guild room you can list 
+   your guilds. A training room is also available, for anyone to train.
+
+4) The members get new additional titles. As goblins are generally smelly,
+   I thought it would be nice to have titles related to smells. The titles
+   start at 'fragraced Grunt' through 'toxic Grunt' and through a few more
+   until the top title, 'Lethal Grunt'. Wizards get to keep their old
+   titles naturally.
+   The title that you get is based on your average dex, str & con, and is
+   now also based on the number of significant living things you have killed.
+   The guild shadow contains the code for titles, and also contains the
+   code for recording any significant kills made by the player.
+   The guild member will be seen to add another notch on his/her collar when
+   a kill is made. It is possible to 'count' the notches by examining them.
+   The number of kills made by the player is stored as skill number 132060.
+
+The guild itself is located in the caves of Emerald. As the caves are dark,
+there is a secret passage leading from the start location to the cave entrance,
+which is lit along its route by torches that cannot be taken. (This was done
+so no-one will be starting in the dark, unlike those poor Gnomes in Padermud)
+
+All guild rooms are contained in /d/Emerald/common/guild/grunts/room/
+The most significant rooms are listed below:
+
+    Function       Path
+    --------       ----
+    join/leave     /d/Emerald/common/guild/grunts/room/main.c
+    training       /d/Emerald/common/guild/grunts/room/train.c
+    bank           /d/Emerald/common/guild/grunts/room/bank.c
+    bar            /d/Emerald/common/guild/grunts/room/bar.c
+    shop           /d/Emerald/common/guild/grunts/room/shop.c
+
+All guild objects are contained in /d/Emerald/common/guild/grunts/obj/
+The most significant objects are listed below:
+
+    Object         Path
+    ------         ----
+    shadow         /d/Emerald/common/guild/grunts/obj/grunts_shadow.c
+    soul           /d/Emerald/common/guild/grunts/obj/grunts_soul.c
+    collar         /d/Emerald/common/guild/grunts/obj/grunts_collar.c
+    dung(!)        /d/Emerald/common/guild/grunts/obj/grunts_crap.c
+
+There is currently no entrance quest. It is quite possible that this may
+change in the future.
+
+                                 Skills
+                                 ------
+
+The Grunts trainer teaches skills in the same way as a normal adventurers
+guild does, using <learn> and <improve>.
+
+The path for the Grunts trainer: /d/Emerald/common/guild/grunts/npc/trainer.c
+He teaches skills in the room:   /d/Emerald/common/guild/grunts/room/train.c
+
+The skills that are taught in by the trainer are not taught above the levels
+found in other adventurers guild. Also, the trainer is not fussy who he 
+teaches (as long as they have the cash!), thus avoiding any nasty taxes. 
+He teaches the following skills:
+
+    Skill            Max Level
+    -----            ---------
+    
+    club                 30
+    polearm              30
+    unarmed combat       30
+    defence              20
+    blindfighting        20
+
+    awareness            30
+    appraise enemy       30
+    climb                30
+    swim                 30
+                        ---
+    Total:              250  (150 less than the maximum allowed of 400)
+
+Thats about it, really. Many thanks to the people who have contributed to this
+guild, who include (not in any order, and I've probably forgotten some) Quis,
+Plugh, Nick, Tricky, Napture, Charon, Shiva and many others. Thank you all for 
+your help and expertise!
+
+This data is correct as of 01/04/96. As with most guilds, small modifications
+and minor improvements are made continuously. Please ask Tulix if you have any
+questions about what is currently implemented/being planned.
+
+Tulix, the Original Grunt.
+
+------------------------------------------------------------------------------
+
+Modified by Karath Feb 19 1997 (skill changes)
+Modified by Tulix 15/12/99 in line with latest policies

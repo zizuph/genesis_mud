@@ -1,0 +1,23 @@
+Name: Earthquake
+
+Object: /d/Sparkle/guilds/arcane/spells/earthquake.c
+
+Cost:
+
+Skills:
+
+Description: Tier 5 spell
+                 Targets: N/A
+		 This is a damaging and stunning spell. This spell is
+		 very inaccurate, and as such, the caster is unable
+		 to target any specific enemy. Rather, the spell calls
+		 forth an earthquake that damages and stuns (briefly)
+		 anyone within the immediate area of the caster (in
+		 the same room), that includes any enemies, _and_
+	         friends or bystanders. Can not be cast outside of
+		 combat.
+
+Requirements:
+    SS_ELEMENT_EARTH
+    SS_FORM_CONJURATION
+    Amber

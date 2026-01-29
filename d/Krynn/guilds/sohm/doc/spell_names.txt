@@ -1,0 +1,85 @@
+SPELL NAME			DESCRIPTION
+=======================================================================                
+[apianak]			Fire dart 
+[arcanfethos]			Magic Shield 
+[arcanisvaes]			Magic Missile
+[arcanossalur]                  Teleport
+[bakmadaingis]			Prismatic spray 
+[chikohk]			Curse (illfortunate)
+[dotonobsule]                   Mirror portal
+[edarjikmada]                   Foreshock
+[edarmolik]			Stoneskin
+[edarvirednith]                 Eruption
+[ehtahhewa]			Divine wizards
+[ehtahxiekiv]			Scry 
+[ganimshochraos]                Chain lightning
+[haddross]                      Gravity
+[hexlithdrevab]                 Doom Blast
+[hewavers]			Mage strength
+[ickrakarcanis]			Detect magic
+[ickrakfethos]                  Detect resistance 
+[iniksuaco]                     Scouring wind
+[ixenchasid]                    Flaming fist
+[ixengarmth]                    Fireball
+[ixenner]			Flame lance
+[jennufethos]                   Greater magic shield
+[jikmadakethend]                Shatter
+[kadenadon]			Blur 
+[kampiunarcanis]		Read Magic 
+[kepeskwiivai]                  Storm fury
+[levexlaraek]			Enchant weapon
+[nasirmitne]                    Featherweight
+[nuadealdoer]                   Rune of welcome
+[odenarcanis]			Identify 
+[okiai]				Dazzle (slow)
+[pabfrahrir]                    Water breathing
+[plythusuiaerl]                 Arcane vulnerability
+[reelojawa]			Dominate (stun) 
+[ricindenthanus]		Psychic blast 
+[ripeidronik]			Blink
+[riyitchikohk]			Fool's curse 
+[skaerenpab]                    Geyser
+[shirak]			Light
+[shochraos]			Lightning Bolt 
+[sjachbuala]                    Shadow veil
+[suacodrevab]                   Cyclonic blast
+[suacotrekis]                   Wind gust
+[suacovisp]			Wind Whisper 
+[svihossalur]                   Teleport team
+[talkarpas]			Wand light 
+[temep]                         Haste
+[thirkusio]                     Polymorph self
+[tonashingis]                   Ballistic spray
+[tonashkepesk]                  Meteor storm
+[trotharcanis]                  Protection from magic
+[trothdraconis] 		Protection from dragon fear
+[trothixen]			Minor protection - fire 
+[trothocuir]                    Protection from divination     
+[trothuvelucal]			Minor protection - acid         
+[trothshochraos]		Minor protection - lightning    
+[trothweyog]			Minor protection - poison       
+[trothgul]			Minor protection - cold  
+[ukrisrivek]			Speak with Dead        
+[uvelucavaes]			Acid arrow  
+[viraxregpos]			Retributive ward (reflect damage)
+[virednith]                     Detonate
+[vistoma]			Truesight (see invis/dark)   
+[whedabra]			Gloom (darkness)   
+[wievaixen]			Faerie Fire 
+[wintektor]			Scare (fatigue/panic)           
+[xarzithnar]			Ice strike   
+[xarzithinloilfrey]             Ice shards
+[xiekxilunwai]                  Portents and omens                   
+[zhinpersvek]			Invisibility                    
+               
+COMMANDS			DESCRIPTION
+=======================================================================
+burn				burn spellbook, leaves the guild
+help				help menu
+s<emote>			SoHM emotes
+bleed or sbleed			A command for those that use mage strength
+				to collect minotaur blood component.
+memorise			adds a spell from spellbook to spell list
+unmemorise			removes spell from spell list.
+steleport / wteleport           Allows for the setting and removing of
+                                teleport locations

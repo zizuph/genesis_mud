@@ -1,0 +1,65 @@
+There are three tour-level quests in SaMorgan:
+
+1. A girl (Lynet) needs an outfit for her job. She lists it when you
+ask for a task. The adventurer can buy everything at Arinia's dress
+shop. The list is random per player per login session. The location is
+slightly randomized per reboot.
+
+NPC: /d/Khalakhor/sw_speir/samorgan/npc/lynet.c
+LOCATION (one of): /d/Khalakhor/sw_speir/samorgan/room/house0[34]*
+SHOP: /d/Khalakhor/sw_speir/samorgan/room/dshop.c
+ITEMS:
+  /d/Khalakhor/sw_speir/samorgan/arm/ftunic.c
+  /d/Khalakhor/sw_speir/samorgan/arm/fbelt.c
+  /d/Khalakhor/sw_speir/samorgan/arm/boots2.c
+
+Reward: a valuable gem + 450XP.
+
+2. A boy (Fearghal) needs a set of armours and weapons for his patrol
+duty. The equipment can be bought at the SaMorgan shops or provided,
+although they must be mediocre and non-magical. The location is
+slightly randomized per reboot.
+
+NPC: /d/Khalakhor/sw_speir/samorgan/npc/fearghal.c
+LOCATION (one of): /d/Khalakhor/sw_speir/samorgan/room/house0[12]*
+SHOP: /d/Khalakhor/sw_speir/samorgan/room/wshop.c
+ITEMS (can be replaced with ones with similar name/quality):
+  /d/Khalakhor/sw_speir/samorgan/wep/rapier.c
+SHOP: /d/Khalakhor/sw_speir/samorgan/room/ashop.c
+ITEMS (can be replaced with ones with similar name/quality):
+  /d/Khalakhor/sw_speir/samorgan/arm/mail.c
+  /d/Khalakhor/sw_speir/samorgan/arm/shield.c
+  /d/Khalakhor/sw_speir/samorgan/arm/helm.c
+
+Reward: a valuable gem + 450XP.
+
+3. A lieutenant at the board room needs someone to go around four
+guard towers of Sa Morgan and buy food and drinks for the guards and
+the sergeants. Each sergeant and each guardroom make their own random
+order. The food is from Sa Morgan's tavern.
+
+NPC:
+  /d/Khalakhor/sw_speir/samorgan/npc/lieutenant.c
+  /d/Khalakhor/sw_speir/samorgan/npc/sergeant.c
+  /d/Khalakhor/sw_speir/samorgan/npc/guard.c
+LOCATIONS:
+  /d/Khalakhor/sw_speir/samorgan/room/board.c (L)
+  /d/Khalakhor/sw_speir/samorgan/room/tower-??.c (S)
+  /d/Khalakhor/sw_speir/samorgan/room/tower-??-up.c (G)
+SHOP:
+  /d/Khalakhor/sw_speir/samorgan/room/sakeller.c
+ITEMS (randomly out of):
+  /d/Khalakhor/sw_speir/samorgan/obj/fooddrink/oyster.c
+  /d/Khalakhor/sw_speir/samorgan/obj/fooddrink/clams.c
+  /d/Khalakhor/sw_speir/samorgan/obj/fooddrink/bmilk.c
+  /d/Khalakhor/sw_speir/samorgan/obj/fooddrink/corncake.c
+  /d/Khalakhor/sw_speir/samorgan/obj/fooddrink/smilk.c
+  /d/Khalakhor/sw_speir/samorgan/obj/fooddrink/beef.c
+  /d/Khalakhor/sw_speir/samorgan/obj/fooddrink/eggs.c
+  /d/Khalakhor/sw_speir/samorgan/obj/fooddrink/egsign.c
+  /d/Khalakhor/sw_speir/samorgan/obj/fooddrink/ale.c
+  /d/Khalakhor/sw_speir/samorgan/obj/fooddrink/dale.c
+  /d/Khalakhor/sw_speir/samorgan/obj/fooddrink/bmuffin.c
+
+Reward: 10pc + 900XP.
+

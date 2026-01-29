@@ -1,0 +1,179 @@
+Horses of Imladris Help File
+
+Last Updated Jan 17, 2003
+
+
+Your horse will have a different set of commands and emotes, depending on whether you are leading or riding the horse. Typing 'hhelp' while leading or mounted will give you a list of commands and emotes.
+
+
+Riding and Leading Your Horse
+-----------------------------
+To mount your horse, simply use:
+     mount horse
+
+To get off your horse:
+     dismount
+or
+     dismount horse
+
+
+To lead your horse use the same format:
+     lead horse
+
+To stop leading your horse:
+     unlead horse
+
+If you are leading your horse you may also:
+     mount horse
+
+ 
+In general you will want to stay mounted, as opposed to leading your horse, in most situations. Your horse is not very fond of water, so you must be mounted to cross rivers. In some cases, you may have to unlead your horse, cross the water, then summon your horse. The ford of Bruniun is one such place.
+
+
+Boarding Ships
+--------------
+When you board a ship you must be mounted, not leading. The horses don't particularly enjoy water so they won't be led onto a ship.
+
+Your horse does not ride for free (Except the Circle Line). To make boarding and purchasing tickets easier, you have the <hboard> command. This simply buys two tickets and boards the ship. You must be mounted, not leading when using <hboard>.
+
+Disembarking a ship with your horse works the same as if you had no horse. Simply <disembark> or <leave ship>.
+
+Feeding and Watering Your Horse
+-------------------------------
+A happy horse is a well-fed and watered horse. Your horse is a hearty eater and enjoys hay, oats, apples and of course sugar cubes. To feed your horse, simply:
+     feed horse with <food>
+
+Example:
+     feed horse with apple
+
+To make your horse drink, simply:
+     hdrink from <water source>
+
+Basically, any room that has a water source that you can drink from, your horse can too. So if you can <drink from river> yourself, you can make your horse drink too with <hdrink from river>.
+
+
+Using the Saddlebags
+--------------------
+Your new horse isn't just your best friend, it's also a fantastic pack animal. With the saddlebags available in the Tack Shop you can carry quite a load on your horse.
+
+After purchasing a saddlebag you'll want to put it on your horse:
+     strap saddlebag on horse
+
+To take the saddlebag off your horse:
+     unstrap saddlebag on horse
+
+To fill your saddlebag with whatever is in your inventory:
+     fill saddlebag on horse
+
+To empty the contents of the saddlebag:
+     empty saddlebag on horse
+
+To close your saddlebag on the horse:
+     close saddlebag on horse
+
+To open your saddlebag on the horse:
+     open saddlebag on horse
+
+To view the contents of the saddlebag:
+     hpack
+
+NOTE: To unfasten the pack or empty the pack you must be leading or mounted. This is to prevent others from walking off with your pack or its contents. You may only view the contents of the saddlebag ("hpack") while leading or mounted.
+
+
+Automount / Autodismount
+-------------------------
+Some indoor rooms allow horses inside, but you have to be leading, not mounted. In this case, if you have typed 'autodismount', you will dismount your horse and lead it into the room.
+
+If you have 'automount' turned on, you will automatically mount your horse when you lead it back outside.
+
+Some indoor rooms do not allow horses at all and autodismount will not help you. You will have to manually dismount or unlead your horse.
+
+
+Galloping or Trotting
+---------------------
+You can make your horse gallop or walk.
+
+To make your horse gallop:
+> hgallop on
+
+To make your horse walk:
+ > hgallop off
+
+
+Horse Behavior
+--------------
+You can set your horses agressiveness towards others with the hnice command:
+
+To make your horse friendly:
+     hnice on
+
+To make your horse bite people when touched:
+     hnice off
+
+
+Sending Your Horse Away or Summoning It
+---------------------------------------
+When your travels are complete for the day, your horse can be sent back to the stables of Imladris stables on its own. To send your horse home, simply tell it:
+     hhome
+
+Be forewarned that if you lose your horse or someone kills it, you will not be able to rent another until the next Armageddon.
+
+When you are ready to begin your journies again, or your horse has been grazing, simply say:
+     nosummon
+
+This will call your horse from either the stables where it has been resting or where ever it has been grazing.
+
+If you need to send your horse away while you go indoors, or for whatever reason, you may send it to graze by saying:
+     nograze
+
+You must be dismounted and your horse will automatically leave your presence.
+
+Emotes
+------
+
+List of emotes:
+hsnort
+hscrape <adverb>
+hnuzzle <adverb> <player>
+
+Other Notes
+-----------
+If you go somewhere where your horse cannot follow, such as indoors, and will be away for some time, be sure to send your horse to graze. You will usually be able to call it back immediately. Horses left to wander have a good chance of running off for good or being killed by enemies.
+
+You may also use your horse's name instead of 'horse' in the appropriate commands.
+
+
+Quick List of Commands
+----------------------
+mount/dismount horse        - mount and ride or dismount horse
+lead/unlead horse           - lead or stop leading horse
+hboard                      - buy ship ticket for yourself and horse
+
+feed horse with <food>      - feed horse food, including hay, oats, apples, and sugar cubes.
+hdrink from <water source>  - let horse drink from river, lake, etc.
+
+automount on                - enable automount when you go outdoors
+autodismount                - enable autodismount when entering indoors
+
+hgallop on                  - turns galloping on
+hgallop off                 - returns horse to trotting
+
+hnice on                    - makes horse friendly
+hnice off                   - horse unfriendly towards others
+
+hhome                       - send horse to stables
+hgraze                      - send horse to graze
+nosummon                    - call for horse
+
+hsnort
+hscrape <adverb>
+hnuzzle <player>
+
+Saddlebag Commands
+------------------
+strap saddlebag on horse    - put saddlebag on horse
+unstrap saddlebag on horse  - remove saddlebag
+fill saddlebag on horse     - put items in saddlebag
+empty saddlebag on horse    - retrieve items from saddlebag
+close saddlebag on horse    - closes saddlebag
+hpack                       - see contents of saddlebag

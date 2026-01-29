@@ -1,0 +1,39 @@
+domain,quest desc,group,bit,validation,arguments
+Kalad,Beggar Quest,0,0,default
+Kalad,Trader Quest,0,1,default
+Kalad,Tablet Quest,0,2,default
+Kalad,Kid Quest,0,3,default
+Kalad,Knife Quest,0,4,default
+Kalad,Beer Quest,0,5,default
+Kalad,Ledger Quest,0,6,default
+Kalad,Prisoner Quest,0,7,default
+Kalad,Locket Quest,0,9,default
+Kalad,Bounty Quest,0,10,default
+Kalad,Goblin Quest,0,11,default
+Kalad,Scale Quest,0,12,default
+Kalad,Holy Quest,0,13,default
+Kalad,Tower Quest,0,14,default
+Kalad,Oracle Quest,0,15,default
+Kalad,Water Quest,0,16,default
+Kalad,Mara Quest,0,17,default
+Kalad,Kilsek Quest,0,18,default
+Kalad,Claddath Quest,0,19,default
+Kalad,Coffee Quest,1,0,default
+Kalad,Beggars Club Quest,1,1,default
+Kalad,Taskmaster Quest #1,1,2,default
+Kalad,Taskmaster Quest #2,1,3,default
+Kalad,Taskmaster Quest #3,1,4,default
+Kalad,Taskmaster Quest #4,1,5,default
+Kalad,Taskmaster Quest #5,1,6,default
+Kalad,Park Quest,1,7,default
+Kalad,Museum Quest,1,8,default
+Kalad,Minotaur Gem Quest,1,9,default
+Kalad,Assassins Quest #1,1,10,default
+Kalad,Assassins Quest #2,1,11,default
+Kalad,Assassins Quest #3,1,12,default
+Kalad,Spy Quest,1,13,default
+Kalad,Red Fang Goblin Quest,1,14,default
+Kalad,Priest's Dagger (moved to Raumdor),3,0,always_false,3,0
+Kalad,Drakmere Holy Scriptures (moved to Raumdor),3,1,always_false,3,1
+Kalad,Khiraa Entrance (moved to Raumdor),3,2,always_false,3,2
+Kalad,Maze Quest (moved to Raumdor),3,3,always_false,3,3

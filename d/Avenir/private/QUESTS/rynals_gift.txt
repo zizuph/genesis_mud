@@ -1,0 +1,42 @@
+Quest Name:  Ry'nal's Gift
+     Group:  1
+       Bit:  10
+       Exp:  3000
+     Align:  0
+  Prestige:  0
+
+
+Ry'nal's Gift:
+-------------
+
+As part of his plan to woo Lyrelle, Ry'nal has commissioned a 
+prety diadem for her. In an attempt to keep her from finding it,
+he asked Cahor to hide it from site. She did so, making it 
+invisible, but then Ry'nal dropped it somewhere. Oh no! The
+player's mission is to find the diadem and bring it back to 
+Ry'nal.
+
+The player gets the quest from Ry'nal. S/He must then find
+the altar to Cahor and recieve her blessing in order to 
+be able to see the diadem. The diadem is invisible and 
+Cahor's blessing will temporarily give the player the 
+ability to see it.
+
+Finding the altar is a challenge. The player must first
+figure out to pass through the illusionary wall on the
+second level of the Ziggurat and then find the incantation
+writen on a brick on the wall which will reveal the altar.
+The player must have sufficient language skill to read 
+the incantation.
+
+Once the altar is revealed, they must worship to obtain
+Cahor's blessing. With the blessing, they can find the
+diadem placed at a random position somewhere in the
+ziggurat. They can then pick it up and take it to
+Rynal for a small reward.
+
+Related files:   /d/Avenir/common/city/zigg/mon/rynal.c
+                 /d/Avenir/common/city/zigg/mon/cahor.c
+                 /d/Avenir/common/city/zigg/obj/diadem.c
+                 /d/Avenir/common/city/zigg/obj/diashad.c
+

@@ -1,0 +1,22 @@
+This is a small quest. Player finds the temple entrance lich, urgana. They
+ask her about the khiraa, and eventually she will talk about a task that
+they may do if they want to enter further into the temple. They must go to
+the blood sacrifice room, ~raum/cdlair1/cd12, and search, where they will
+find the bloody demon horn, ~raum/cdlair1/obj/horn, and take it to
+drakmere, where they will find the bloody skeleton hidden in a manhole,
+~raum/npc/bloody_skeleton. They give it the horn, he talks about a symbol
+in the flats, and hits at giving blood to it. The player then must find
+the symbol room in the flats, ~raum/nflats/nf10. There, they can cut
+themselves with the horn, and the blood will go in the mouth, and they
+finish the quest.
+xp = 500.
+
+/Sarr of Kalad
+
+2018-03-08 Malus:
+Detais of this quest were changed without updating this document. It is now
+undergoing further changes. In the meantime, the critical files are below.
+Quest Horn:     common/obj/horn.c
+Found In:       common/temple/temple13.c
+Given To:       common/npc/bloody_skeleton.c
+Used/Reward In: common/nflats/nf10.c

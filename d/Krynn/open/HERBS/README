@@ -1,0 +1,24 @@
+Krynn Herbs README
+------------------
+by Teth, March 4, 1996
+Last Modified by:
+Teth, Feb 19, 1997
+
+Krynn/Ansalon now has a list of 66 herbs, all of which are currently
+implementable. A list of all the effects of the herbs can be found in
+/d/Krynn/open/HERBS/KRHERBS, and the herb locations of the Krynn
+/herbs can be found in /d/Krynn/open/HERBS/KRherb_locs. I stress it here
+and in KRherb_locs, please ensure that the right herb is found in the 
+right place. :-)
+
+Any ideas or suggestions for Krynnish herbs are welcome. Please mail
+them to me, and I'll check them against the herbfiles of other
+domains (at least the lists I have access to) to eliminate any
+duplication. Any herbs specifically from any of the books or 
+available reference manuals are especially good, and please include
+the book title, and page number or reference of event.
+
+Any herbs needed for quests or spells should also go here, so again
+contact me. Please keep in mind that this is the database for both Krynn 
+and Ansalon herbs.
+

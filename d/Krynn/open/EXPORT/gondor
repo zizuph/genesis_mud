@@ -1,0 +1,19 @@
+From   : Gnadnar
+Subject: poison ivy ?
+CC     : Gorboth
+Date   : Feb 25 1998
+
+greetings, aridor!
+
+i would like to make gondor's poison sumac behave as krynn's poison ivy
+does -- if picked without gloves, it should give itching fits. :-)
+would you have any objections to my using krynn's 
+/d/Krynn/common/poisons/ivyp for this?  the effects of ivyp seem
+quite general, and i think it would be suitable for use with the sumac
+too.
+
+if there's some reason it won't work, of course, i can roll my own
+but i'd like to avoid duplicating existing code if possible.
+
+thanks!
+	gnad

@@ -1,0 +1,175 @@
+ghastly_keep
+::MAPDATA::
+gkeep1 30 16 gkeep_outdoor
+gkeep_ent 34 16 gkeep_outdoor
+gkeep_ent2 38 16 gkeep_outdoor
+gkeep5 25 9 gkeep_level1
+gkeep4 29 9 gkeep_level1
+gkeep2 33 9 gkeep_level1
+gkeep3 37 9 gkeep_level1
+gkeep6 27 11 gkeep_level1
+gkeep7 31 11 gkeep_level1
+gkeep8 41 11 gkeep_level1
+gkeep9 27 13 gkeep_level1
+gkeep10 31 13 gkeep_level1
+gkeep11 35 13 gkeep_level1
+gkeep12 39 13 gkeep_level1
+gkeep13 29 15 gkeep_level1
+gkeep14 33 15 gkeep_level1
+gkeep15 31 17 gkeep_level1
+gkeep16 35 17 gkeep_level1
+gkeep17 26 8 gkeep_level2
+gkeep18 30 8 gkeep_level2
+gkeep19 34 8 gkeep_level2
+gkeep20 38 8 gkeep_level2
+gkeep21 22 10 gkeep_level2
+gkeep22 26 10 gkeep_level2
+gkeep23 34 10 gkeep_level2
+gkeep24 38 10 gkeep_level2
+gkeep25 26 12 gkeep_level2
+gkeep26 30 12 gkeep_level2
+gkeep27 34 12 gkeep_level2
+gkeep28 22 14 gkeep_level2
+gkeep29 26 14 gkeep_level2
+gkeep30 33 14 gkeep_level2
+gkeep31 37 14 gkeep_level2
+gkeep32 35 16 gkeep_level2
+gkeep34 37 18 gkeep_level2
+::MAPDATA::
+###########################
+###########################
+####  Ghastly Keep ########
+###########################
+###########################
+::NEWMAP::
+gkeep_outdoor
+::MAPDATA::
+gkeep1 30 16
+gkeep_ent 34 16
+gkeep_ent2 38 16
+::MAPDATA::
+  ________________________________________________________
+ / \                                                      \
+|\_/___-_______-____/|_____--___|\_____-______-______/\___/
+|                                                        |
+|         ____                                           |
+|        (____)                                          |
+|        /____\               "Ghastly                   |
+|        |___.-~-.-~-.              Keep"                |
+|        |__(  __|__  )_                                 |
+|        |/ \/\_/^\._)/ \                                |
+|        (  (__{(@)}\_)  )                               |
+|        |\_/ (/(_)\_))_/                                |
+|  ______|_(  (__)_)_/ )                                 |
+| /_________\_/  |  \_/                                  |
+||/   /' |\  /'-~'~-'\|                                  |
+|    |  (| \/ |                                          |
+|    |   `\   |               o - o - o                  |
+|     `\  `\  |    ___                  \                |
+|       `\  `\|  /' ..'>                 \               |
+|      ___`\  `\: ,' /'               Ice Mountains      |
+|    /' _ /''`\  '__'                                    |
+|   < .'./'   |  |                                       |
+|    `~' |    |  |                                       |
+|        |    |/'   "There are traitors in the castle,   |
+|        |    |        hypocrites and liars.             |
+|        |    |               Conspiring behind walls.   |
+|        |    |        Betraying flesh and blood not     |
+|        |    |              feeling any shame."         |
+|         \  /                                           |
+|          \/                                            |
+| ___ ____  ________ _________________  _____________ ___|
+|/\  -    |/        -                 |/          -       \
+\\_|                                                       |
+ \/_______________________________________________________/
+::NEWMAP::
+gkeep_level1
+::MAPDATA::
+gkeep5 25 9
+gkeep4 29 9
+gkeep2 33 9
+gkeep3 37 9
+gkeep6 27 11
+gkeep7 31 11
+gkeep8 41 11
+gkeep9 27 13
+gkeep10 31 13
+gkeep11 35 13
+gkeep12 39 13
+gkeep13 29 15
+gkeep14 33 15
+gkeep15 31 17
+gkeep16 35 17
+::MAPDATA::
+                            /   \       
+                    )      ((   ))     (
+ _                 /|\      ))_((     /|\                 _
+(@)               / | \    (/\|/\)   / | \               (@)
+| |--------------/--|-v0V---\`|'/--V0v-|--\--------------| |
+|-|"Ghastly           '^`   (0 0)  '^`                   |-|
+| |    Keep"                `\Y/'                        | |
+|-|                                                      |-|
+| |#Level 1                                              | |
+|-|                      o - o - o - o                   |-|
+| |                         / \                          | |
+|-|                        o   o         o               |-|
+| |                        |   |        /                | |
+|-|                        o   o   o - o                 |-|
+| |                         \ /   /                      | |
+|-|                          o - o                       |-|
+| |                               \                      | |
+| |                            o - o	                 |-|
+|-|                                                      | |
+|_|______________________________________________________|_|
+(@)              l   /\ /         ( (       \ /\   l     (@)
+                 l /   V           \ \       V   \ l        
+                 l/                _) )_          \I
+                                   `\ /'
+				     ` 
+::NEWMAP::
+gkeep_level2
+::MAPDATA::
+gkeep17 26 8
+gkeep18 30 8
+gkeep19 34 8
+gkeep20 38 8
+gkeep21 22 10
+gkeep22 26 10
+gkeep23 34 10
+gkeep24 38 10
+gkeep25 26 12
+gkeep26 30 12
+gkeep27 34 12
+gkeep28 22 14
+gkeep29 26 14
+gkeep30 33 14
+gkeep31 37 14
+gkeep32 35 16
+gkeep34 37 18
+::MAPDATA::
+                            /   \       
+                    )      ((   ))     (
+ _                 /|\      ))_((     /|\                 _
+(@)               / | \    (/\|/\)   / | \               (@)
+| |--------------/--|-v0V---\`|'/--V0v-|--\--------------|-|
+|-|"Ghastly           '^`   (0 0)  '^`                   | |
+| |    Keep"                `\Y/'                        |-|
+|-|                                                      | |
+| |#Level 2               o - o - o - o                  |-|
+|-|                       | /   \   /                    | |
+| |                   o - o       o - o                  |-|
+|-|                   |     \   /                        | |
+| |                   |   o - o - o                      |-|
+|-|                   |     /   \                        | |
+| |                   o - o      o - o                   |-|
+|-|                               \                      | |
+| |                                o                     |-|
+|-|                                 \                    | |
+| |                                  o                   |-|
+|-|                                                      | |
+|_|______________________________________________________|_|
+(@)              l   /\ /         ( (       \ /\   l     (@)
+                 l /   V           \ \       V   \ l        
+                 l/                _) )_          \I
+                                   `\ /'
+				     `  

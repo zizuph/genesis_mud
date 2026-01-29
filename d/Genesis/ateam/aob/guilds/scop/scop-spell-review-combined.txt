@@ -1,0 +1,44 @@
+s correct, it seems this one is unusually incorrect
+    as it looks stacked in the favour of the player. Especially when the stats
+    increase beyond 100. There is also a missing , before SKILL_END which increases
+    it even further in the favour of the SCoP.
+    I know this is very tricky but i'd like to see new calculations for this.
+    Also 100 in stats and skill must always be used for calculations, even if it's not offered
+    that high.
+
+syskotisi     Confusion            Occ      0.57%
+l - Do not set player to wimpy brave.
+l - Combat aid needs to be calculated.
+c - This needs checks to see if the player can actually see the target etc before he 
+    does things.
+
+tharos        Reduce Panic         Occ      0.57%
+ - Needs to describe exactly how much panic it effects.  Which is 225, which is a
+   very large chunk of the total possible panic of a 100 stat player.  For a class 3
+   spell, that seems ok I suppose - it should just be documented.
+
+therapeaou    Cure Wounds          Occ      2.25%
+ - It shouldn't heal exactly the max hps, if it's being compared to PEN.  PEN isn't
+   always the max number, it's often lower due the bell curve - the heal should reflect
+   that, if it's being based as if it's doing 700 PEN.
+ - The damage needs (like the other combat spells) to be based on PEN, not on hps.
+   If it's balanced for 700 PEN, it needs to have a max of 700 PEN - period.
+ - The 1/4 bonus, even if only on a random(1000) chance, needs to be in the combat aid calcs.
+
+tihosskias    Shadow Wall          Occ      0.75%
+l - Documentation needs to describe exactly what effects are (adding 150 panic to non-undead
+    evils, or by lowering the CON of undead by 1/5).
+l - Despite a player having to walk through the wall, there should be combat aid
+    calculated for this and then reduced based on the fact that a player has to walk
+    through the wall.  Reducing such an important stat as CON is a pretty big combat bonus.
+l - I think the fact that SCOP can make undeads panic means this wall might have people
+    running through it more often :)
+c - Drain effect needs to be a magic effect. 
+    Combat aid?
+
+vekpos        Turn Undead          Occ      1.13%
+l - The documentation should specify what the spell really does - 560 PEN damage to undead,
+    and makes them flee from the caster for 45 seconds.
+l - This spell is a bit convenient with the shadow wall, I think?  With two (non-combat)
+    spells a SCOP can lower any undeads hps by 1/5.
+c - Spell does 840 pen damage always. 

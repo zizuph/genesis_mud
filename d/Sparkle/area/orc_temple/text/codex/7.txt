@@ -1,0 +1,36 @@
+
+  The Enchanter's Forge is a construct that replicates the most basic
+  and low-level acts of Conduction and Imbuement for students of the
+  art. Using the forge, students will be able to create their own
+  "unusual" items. Items of "peculiar" or "exotic" nature are beyond
+  the means of the forge, and can only be crafted by a true master.
+
+  To use the forge, one must <fit> a particular imbuement stone in the
+  socket atop the device, and then <insert> the host object. This will
+  result in either a successful imbuement, or one of the following:
+
+    the stone turns red   - the host object cannot accept the type of
+                            power contained in this imbuement stone
+
+    the stone turns black - the host object cannot accept powers of any
+                            kind.
+
+    the stone hisses      - the power within the stone has somehow been
+                            temporarily disabled by the immortals. You
+                            might want to ask them about it, or just
+                            wait and try again in the future.
+
+  The power of the enchantment crafted successfully into a host will
+  increase with the quality of the stone. Cracked and blemished stones
+  are not powerful enough to craft imbuements, and will first need to
+  be combined and upgraded to sufficient levels of quality.
+
+  Final note: While an imbuement will always increase the power of its
+              host object, objects that are already supremely powerful
+              may experience a less dramatic increase in their power
+              than items that are less formidable to begin with.
+
+  I bid you fortune in your crafting endeavors.
+
+  Signed,
+  Karkadelt

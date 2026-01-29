@@ -1,0 +1,229 @@
+main
+::MAPDATA::
+aragorn_rm 22 14 rivendell
+arwen_rm 22 14 rivendell
+balcony01 22 14 rivendell
+balcony02 22 14 rivendell
+bank 22 14 rivendell
+bilbo_rm 22 14 rivendell
+bowery 22 14 rivendell
+bridge 22 14 rivendell
+d_cor01 22 14 rivendell
+d_cor03 22 14 rivendell
+d_cor04 22 14 rivendell
+d_cor05 22 14 rivendell
+d_cor06 22 14 rivendell
+d_cor07 22 14 rivendell
+d_cor08 22 14 rivendell
+d_cor09 22 14 rivendell
+dir_room 22 14 rivendell
+e_porch 22 14 rivendell
+elrond_bdrm 22 14 rivendell
+elrond_hall 22 14 rivendell
+elrond_study 22 14 rivendell
+fire 22 14 rivendell
+garden01 22 14 rivendell
+garden02 22 14 rivendell
+garden03 22 14 rivendell
+garden04 22 14 rivendell
+garden05 22 14 rivendell
+garden06 22 14 rivendell
+garden07 22 14 rivendell
+garden08 22 14 rivendell
+garden09 22 14 rivendell
+garden10 22 14 rivendell
+garden11 22 14 rivendell
+herbshop 22 14 rivendell
+kitchen 22 14 rivendell
+library 22 14 rivendell
+music_rm 22 14 rivendell
+n_path01 22 14 rivendell
+n_path02 22 14 rivendell
+n_path03 22 14 rivendell
+new_forge 22 14 rivendell
+path01 22 14 rivendell
+path02 22 14 rivendell
+path03 22 14 rivendell
+post 22 14 rivendell
+shop 22 14 rivendell
+smith 22 14 rivendell
+sq_farm 22 14 rivendell
+stable 22 14 rivendell
+stairs02 22 14 rivendell
+stone_seat 22 14 rivendell
+t_path01 22 14 rivendell
+t_path02 22 14 rivendell
+t_path03 22 14 rivendell
+t_path04 22 14 rivendell
+t_path05 22 14 rivendell
+t_path06 22 14 rivendell
+t_path07 22 14 rivendell
+t_path08 22 14 rivendell
+t_path09 22 14 rivendell
+t_path09a 22 14 rivendell
+t_path10 22 14 rivendell
+t_path11 22 14 rivendell
+t_path12 22 14 rivendell
+t_path13 22 14 rivendell
+t_path14 22 14 rivendell
+tack_shop 22 14 rivendell
+u_cor01 22 14 rivendell
+u_cor02 22 14 rivendell
+u_cor03 22 14 rivendell
+u_cor04 22 14 rivendell
+u_cor05 22 14 rivendell
+u_cor06 22 14 rivendell
+u_gr01 22 14 rivendell
+u_gr02 22 14 rivendell
+v_path01 22 14 rivendell
+v_path02 22 14 rivendell
+v_path03 22 14 rivendell
+v_path04 22 14 rivendell
+v_path05 22 14 rivendell
+v_path06 22 14 rivendell
+v_path07 22 14 rivendell
+v_path08 22 14 rivendell
+v_path09 22 14 rivendell
+v_path10 22 14 rivendell
+v_path11 22 14 rivendell
+w_porch 22 14 rivendell
+yard 22 14 rivendell
+::MAPDATA::
+
+        The Great East Road
+        ===================
+
+                     ~~~~~~
+                 ~~~~         ^  /
+             ~~~~            / \/
+           ~~               /   \
+         ~~                / Misty
+       ~~                 /
+      ~               /-----------
+      ~              / ~~~~~~~~ ^
+--\   ~ Trollshaws  /~~~~~ ^   / \
+   \  ~            /~~~   / \ /
+    \-=-\         /~~    /   \
+      ~  \-------/~~    /    Misty
+      ~         ~~~    /      ^
+     ~~       ~~~         ^  / \
+
+::NEWMAP::
+rivendell
+::MAPDATA::
+aragorn_rm 75 26
+arwen_rm 75 22
+balcony01 75 24
+balcony02 67 28
+bank 39 6
+bilbo_rm 39 20
+bowery 31 4
+bridge 19 16
+d_cor01 35 14
+d_cor03 31 16
+d_cor04 35 16
+d_cor05 39 16
+d_cor06 43 16
+d_cor07 35 18
+d_cor08 39 18
+d_cor09 43 18
+e_porch 47 16
+elrond_bdrm 67 26
+elrond_hall 31 18
+elrond_study 63 26
+fire 31 14
+garden01 43 12
+garden02 47 12
+garden03 47 14
+garden04 47 18
+garden05 47 20
+garden06 47 22
+garden07 43 22
+garden08 39 22
+garden09 35 22
+garden10 31 22
+garden11 31 20
+herbshop 39 8
+kitchen 35 20
+library 63 22
+music_rm 35 12
+n_path01 35 8
+n_path02 35 6
+n_path03 35 4
+path01 7 18
+path02 11 16
+path03 15 16
+post 43 20
+shop 31 6
+smith 39 4
+sq_farm 47 8
+stable 31 8
+stairs02 3 20
+stone_seat 67 10
+t_path01 23 18
+t_path02 27 20
+t_path03 27 22
+t_path04 31 24
+t_path05 35 24
+t_path06 39 24
+t_path07 43 24
+t_path08 47 24
+t_path09 51 22
+t_path09a 51 22
+t_path10 51 20
+t_path11 51 18
+t_path12 55 16
+t_path13 59 14
+t_path14 63 12
+tack_shop 27 8
+u_cor01 67 22
+u_cor02 71 22
+u_cor03 63 24
+u_cor04 67 24
+u_cor05 71 24
+u_cor06 71 26
+u_gr01 67 20
+u_gr02 71 20
+v_path01 23 16
+v_path02 23 14
+v_path03 27 12
+v_path04 31 10
+v_path05 35 10
+v_path06 39 10
+v_path07 43 10
+v_path08 47 10
+v_path09 51 12
+v_path10 51 14
+v_path11 51 16
+w_porch 27 16
+::MAPDATA::
+
+                               Valley of Imladris
+                              ====================
+
+$ = Shop                       b - o - S
+B = Bank                           |
+b = Bowery                     $ - o - B
+h = Herb Shop                      |
+H = Horses/Stables         T - H - o - h       M
+K = Kitchen                        |           |
+M = Messengers                 o - o - o - o - o                   o
+P = Post Office              /                   \               /
+S = Smith                  o       o       o - o   o           o
+T = Tack Shop            /         |           |   |         /  ~~~~~~
+                ~~~    o       o   o           o   o       o  ~~~~~~~~~~~~
+                 ~~~~  |       |   |  [ ]      |   |     /   ~~~~      ~~~~~~~
+           o - o - o - o - o - o - o   o - o - o - o - o   ~~~~~~       ~~~~~~
+         /      ~~~~~  |       |   |   |       |   |     ~~~~~
+       o         ~~~~~ o       o   o - o - o   o   o   ~~~~~     Upstairs
+  [ ]/           ~~~~~   \         |   |   |   |   |  ~~~~~    =============
+   o             ~~~~~     o   o   K   o   P   o   o  ~~~~~        o   o
+                   ~~~~~   |   |       |       |   |  ~~~~~        |   |
+                    ~~~~~  o   o - o - o - o - o   o  ~~~~     o   o - o - o
+                      ~~~~   \                   /   ~~~~~     |       |   |
+                       ~~~~    o - o - o - o - o    ~~~~       o - o - o[] o
+                         ~~~~~                    ~~~~         |       |   |
+                            ~~~~~~~~~~~~~~~~~~~~~~~~~~         o - o   o - o
+                               ~~~~~~~~~~~~~~~~~~~~~               |
+                                 ~~~~~~~~~~~~~~~~~                 o
+                                   Bruinen River

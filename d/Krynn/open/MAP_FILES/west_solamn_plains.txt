@@ -1,0 +1,204 @@
+main
+::MAPDATA::
+road1 10 13 west_solamn_plains
+road1a 10 13 west_solamn_plains
+road2 11 14 west_solamn_plains
+road3 11 14 west_solamn_plains
+road4 13 14 west_solamn_plains
+road5 14 14 west_solamn_plains
+road6 15 14 west_solamn_plains
+road7 17 14 west_solamn_plains
+road8 19 14 west_solamn_plains
+bridge 22 14 west_solamn_plains
+under_bridge 22 14 west_solamn_plains
+in_water6 22 14 west_solamn_plains
+xroad 22 14 west_solamn_plains
+landing1 25 14 west_solamn_plains
+road9 25 14 west_solamn_plains
+ferry 25 14 west_solamn_plains
+newsea16 25 14 west_solamn_plains
+pier 25 14 west_solamn_plains
+pier1 25 14 west_solamn_plains
+mount1 12 9 west_solamn_plains
+mount2 12 9 west_solamn_plains
+mount3 12 9 west_solamn_plains
+mount4 8 15 west_solamn_plains
+mount5 8 15 west_solamn_plains
+river1 19 12 west_solamn_plains
+river2 19 12 west_solamn_plains
+river3 19 12 west_solamn_plains
+river4 19 12 west_solamn_plains
+river5 19 12 west_solamn_plains
+river6 19 12 west_solamn_plains
+river7 19 12 west_solamn_plains
+plain18 19 12 west_solamn_plains
+plain19 19 12 west_solamn_plains
+plain20 19 12 west_solamn_plains
+plain1 19 12 west_solamn_plains
+plain2 19 12 west_solamn_plains
+plain3 19 12 west_solamn_plains
+plain21 19 12 west_solamn_plains
+plain5 19 12 west_solamn_plains
+plain6 19 12 west_solamn_plains
+plain7 19 12 west_solamn_plains
+plain8 19 12 west_solamn_plains
+plain12 19 12 west_solamn_plains
+plain13 19 12 west_solamn_plains
+plain14 19 12 west_solamn_plains
+plain4 14 16 west_solamn_plains
+plain23 14 16 west_solamn_plains
+plain9 14 16 west_solamn_plains
+plain10 14 16 west_solamn_plains
+river18 14 16 west_solamn_plains
+plain15 14 16 west_solamn_plains
+plain16 14 16 west_solamn_plains
+plain17 14 16 west_solamn_plains
+plain28 14 16 west_solamn_plains
+plain29 14 16 west_solamn_plains
+plain30 14 16 west_solamn_plains
+plain31 14 16 west_solamn_plains
+plain32 14 16 west_solamn_plains
+plain33 14 16 west_solamn_plains
+river9 14 16 west_solamn_plains
+river8 14 16 west_solamn_plains
+river17 14 16 west_solamn_plains
+plain34 14 16 west_solamn_plains
+plain35 14 16 west_solamn_plains
+river13 14 16 west_solamn_plains
+river12 14 16 west_solamn_plains
+plain22 14 16 west_solamn_plains
+river10 14 16 west_solamn_plains
+river16 14 16 west_solamn_plains
+river15 14 16 west_solamn_plains
+river14 14 16 west_solamn_plains
+river11 14 16 west_solamn_plains
+::MAPDATA::
+
+~~ ~~ ~~ ~~ ~~ '
+ `"`:~~ ,"`,`"`        
+ /\ ; ~~:         /\       Hinterlund
+  /\`,~,'        /\
+     [ ] /\ /\ /\                   ~~~ ~~
+ Palanthas/\ /\  /\             ~~~~~  ~~
+     /\_   /\ /\               ~~~
+    /   \/\                    ~
+  /\ /\ /\                    ~~     /\_ 
+   /\  /\      PLAINS OF      ~     /\  \
+     /\[ ]     SOLAMNIA      ~~    [#]/\ 
+ High Clerist               ~      Dargaard
+     Tower\                ~~      Keep /\
+   /\      \____________[ ]~        /\    
+    /\                Vingaard        /\    
+   /\                 Keep          /\   
+  /\   Heartlund        ~           @/\ /\ 
+ /\                   ~~           @/\_
+
+::NEWMAP::
+west_solamn_plains
+::MAPDATA::
+road1 20 11
+road1a 23 13
+road2 26 15
+road3 29 17
+road4 32 17
+road5 35 17
+road6 38 17
+road7 41 17
+road8 44 17
+bridge 47 17
+under_bridge 47 17
+in_water6 47 16
+xroad 50 17
+landing1 53 17
+road9 50 19
+ferry 50 21
+newsea16 50 23
+pier 53 19
+pier1 53 21
+mount1 23 9
+mount2 26 7
+mount3 29 5
+mount4 17 13
+mount5 14 15
+river1 32 5
+river2 32 7
+river3 32 9
+river4 35 11
+river5 38 15
+river6 41 15
+river7 44 15
+plain18 29 7
+plain19 26 9
+plain20 29 9
+plain1 23 11
+plain2 26 11
+plain3 29 11
+plain21 32 11
+plain5 26 13
+plain6 29 13
+plain7 32 13
+plain8 35 13
+plain12 29 15
+plain13 32 15
+plain14 35 15
+plain4 20 13
+plain23 17 15
+plain9 20 15
+plain10 23 15
+river18 17 17
+plain15 20 17
+plain16 23 17
+plain17 26 17
+plain28 20 19
+plain29 23 19
+plain30 26 19
+plain31 29 19
+plain32 32 19
+plain33 35 19
+river9 38 19
+river8 44 19
+river17 20 21
+plain34 23 21
+plain35 26 21
+river13 29 21
+river12 32 21
+plain22 35 21
+river10 38 21
+river16 20 23
+river15 23 23
+river14 26 23
+river11 35 23
+::MAPDATA::
+                        /\
+              Vingaard    \_
+   /\      ^  Mountains /\  \                  
+  /~~\    /'\       _  /~~\    ~~             Vingaard
+ /    \   \'/      / \/    \     ~              Keep
+ /\       |'|                "    ~          ~           ~
+/  \  ,__/'@'\__,      /\         ~         |           |
+      |''['|']''|   /\    "       ~        /_\ /\ _ /\ /_\       ~~~~
+                                  ~~       |'|_||/_\||_|'|      ~~~~
+      High Clerist     "          ~~       |'''''|'|'''''|      ~~~~
+         Tower     \      Plains of  ~~    \| '' !~! '' |/     ~~~~              
+             _      o                 ~~    |____|_|____|     ~~~~
+     /\__   / \      \    Solamnia    ~~          |         ~~~~
+    /  \ \       "    'o              ~~~~~~~~~   o       ~~~~
+   /    \ \             \                     ~~~ | ~~~~~~~~~
+              "          'o                    ~  o ~~~~~~~ Vingaard
+           ~~              \                   ~  |     ~~~ River
+            ~               'o--o--o--o--o--o--o--o--o  ~~~    
+             ~~                                ~  |  |  ~~~       
+              ~                          ~  '  ~  o  K  ~~~        
+               ~~                       ~~~~~~~~  | /|  ~~~        
+                ~   '           '     ' ~~     ~  V  F  ~~         
+                ~~           ~~~~       ~      ~  |    ~~            
+                 ~     '     ~~~~  '  ~~       ~  o  ~~           
+                 ~~~~~~~~~~~~~~~~~~~~~~         ~~~~~~~ 
+                   ~~~~~~~~~~~~~~~~~~           ~~~~
+
+                                             -=======================-
+                                             K Ferry to Kalaman
+                                             F Ship to Faerie
+                                             V Ferry across Vingaard
+                                               River
+                                             -=======================-

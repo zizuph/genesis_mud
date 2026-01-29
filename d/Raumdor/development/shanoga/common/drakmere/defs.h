@@ -1,0 +1,11 @@
+#include "../defs.h"
+
+#define DRAKMERE_ARM_DIR    DRAKMERE_DIR + "arm/"
+#define DRAKMERE_NPC_DIR    DRAKMERE_DIR + "npc/"
+#define DRAKMERE_OBJ_DIR    DRAKMERE_DIR + "obj/"
+#define DRAKMERE_SHOP_DIR   DRAKMERE_DIR + "shop/"
+#define DRAKMERE_WEP_DIR    DRAKMERE_DIR + "wep/"
+#define FELIX_DIR           DRAKMERE_DIR + "felix/"
+#define HOUSE_ROOM          DRAKMERE_DIR + "house_room"
+#define KEEP_DIR            DRAKMERE_DIR + "keep/"
+#define ROAD_ROOM           DRAKMERE_DIR + "road_room"

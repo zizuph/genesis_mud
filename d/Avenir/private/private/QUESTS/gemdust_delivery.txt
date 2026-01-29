@@ -1,0 +1,33 @@
+Quest Name:  Gemdust Delivery
+     Group:  1
+       Bit:  12
+       Exp:  1000
+     Align:  0
+  Prestige:  0    
+
+Gemdust Delivery:
+
+Lyrelle is in urgent need of gemdust to make her famous body
+lotions. However, her sole supplier, Imlis of the lapidary in
+the bazaar, is running behind on his deliveries because of the
+popular demand for his brand new gem-laden money purses.
+
+Player can either learn of the quest from Lyrelle or from Imlis.
+It is intended they learn from Imlis at first as a sort of intro
+to the fact that the Ziggurat is now partially available for
+exploration.
+
+Upon asking about 'quest' or 'task', Imlis will give the player
+a pouch of various varieties of dust, they must then bring this
+to Lyrelle in the ziggurat for a reward.
+
+This quest may be done multiple times, they though will only
+ever receive one gemdust pouch at a time, and subsequent solvings
+will yield only a 25% chance of a sybarun token as reward.
+Only the first time yields experience, of course.
+
+
+Related files:   /d/Avenir/common/city/zigg/mon/lyrelle.c
+                 /d/Avenir/common/city/zigg/obj/dust.c
+                 /d/Avenir/common/bazaar/NPCS/imlis.c
+

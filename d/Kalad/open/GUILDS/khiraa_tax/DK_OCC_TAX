@@ -1,0 +1,69 @@
+This file will provide you with information on the tax of the occupasional
+part of the Death Knights of the Khiraa, which is the fighter sect.
+
+Skills:
+
+skill    - max level - levels taxed - rate - tax
+
+SS_SWORD     -*90  - 60  - .025 - 1.5
+SS_DEFENSE   - 80  - 60  - .025 - 1.5
+SS_2H_COMBAT - 80  - 80  - .025 - 2
+SS_PARRY     - 90  - 90  - .025 - 2.25
+SS_WHIRLWIND - 100 - 100 -  0   - 0 (used for special, see tax bellow)
+SS_BASH      - 100 - 100 -  0   - 0 (used for special, see tax bellow)
+SS_APPR_MON  - 65  - 35  - .016 - .58
+SS_TRACKING  - 55  - 25  - .016 - .42
+
+
+total skill levels: 460
+total skill tax:                            8.25(8.50) 
+
+
+* can go to 100 with guru quest, +.25%
+
+------------------------- specials tax ---------------------------------
+
+whirlwind -
+  Occurs 1/4 combat rounds(1/20 seconds). Requires two swords to perform.
+The attacker's sword's pen values are averaged, then multiplied by 2. Then
+we use the formula F_PENMOD(2*(ave of wep pens),whirlwind skill). Thus, if
+I had maxed skill, and two of the best non-magical one-handed swords, I
+would have F_PENMOD(2*(35),100), which is 460. The best non-magical
+weapon pen, 40, is F_PENMOD(40,100), 280. Hit chance is dependant on the
+average of the two weapon hit values times 1.5. Thus, we compuate the tax like
+this: 25.0%(1/4) * 460/280 * 131.3 ((35*1.5)/40), which is 53.9% combat
+aid.
+
+stun bash -
+  Occurs 1/8 combat rounds(1/40 seconds). It hits the target with a stun.
+The stun duration is from 6-30 seconds, with the average being 18 seconds.
+The chance of success it 50%. Thus, the stun chance calc is:
+   .50 (hit) * 18/40 (round stuns/round reset) = 22.5%
+   The hit chance is taken as bashskill / 2, so at 100 we get 50% chance.
+To figure the combait aid, we do (100/ (100 - 22.5) - 1) * 100, and get
+the value: 29.0% combat aid.
+
+Combining the two specials, whirl and stun, we use this formula:
+  129.0 (combat advantage of stun) + ( 53.9% of 129), and get a total
+combat advantage of 198.6, mintues 100, and get 98.6 total combat aid.
+Divided by 6, and we get the tax 16.43, and since a skill is required to
+get the maximum beneift of both attacks, we can divide by 2, and get the
+total tax as 8.2%
+
+
+
+------------------- extras -----------------------
+
+1% for a guild 'rack' to store weapons in.
+4% for tell line (spell)
+
+
+
+--- Totals ----
+
+skills   = 8.50%
+specials = 8.2%
+extras   = 5%
+
+total: 21.7% -> 22% 
+

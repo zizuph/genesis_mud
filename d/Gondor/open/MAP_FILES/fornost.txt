@@ -1,0 +1,112 @@
+main
+::MAPDATA::
+nroad07 26 6 road
+nr3 26 6 road
+nr4 26 5 road
+nr5 26 5 road
+swamp 26 5 road
+dike 26 4 road
+gate 26 4 road
+street 26 4 road
+l_tower 26 4 road
+plaza 26 4 road
+s_square 26 4 road
+l_building 26 4 road
+outer_wall 26 4 road
+hill_top 26 4 watchtower
+north_ridge 26 4 watchtower
+middle_ridge 26 4 watchtower
+south_ridge 26 4 watchtower
+on_hill 26 4 watchtower
+ins_g_tow 26 4 watchtower
+look_out 26 4 watchtower
+::MAPDATA::
+
+    +---------+
+ ~  |THE SHIRE|
+ ~~ +---------+        Fornost
+  ~~                      o
+   ~~~                    |
+     ~~~                  |
+ \     ~~~                |
+  \      ~~~              |                                    Weathertop
+  |Frogmorton             |   BREE   Midgewater   /----------------*-\
+  o------===--------------+----O---\ Marshes/----/                    \------
+ /   |  Brandywine        |         \------/
+ ing |    Bridge          |
+     o   ~~~     Barrow   |
+  Whitfurrows     Downs   |
+        ~~~               |
+       ~~~                |
+     ~~~                   \
+   ~~~                      \
+ ~~~                         \
+
+::NEWMAP::
+road
+::MAPDATA::
+nroad07 15 16
+nr3 15 14
+nr4 11 12
+nr5 11 10
+swamp 15 10
+dike 11 8
+gate 11 6
+street 11 4
+l_tower 15 4
+plaza 15 2
+s_square 11 2
+l_building 7 2
+outer_wall 19 2
+::MAPDATA::
+
+         \
+       o - o - o -[ ]
+           |   |
+           o   o
+           | /
+           o
+           |  Fornost
+           o
+           |
+           o - o
+           |
+           o
+             \
+               o
+               |
+               o       o - o - o - o
+               |     /     | \
+               o - o       o  \
+               |         /
+               o       o
+               |       |
+
+::NEWMAP::
+watchtower
+::MAPDATA::
+hill_top 16 7
+north_ridge 16 9
+middle_ridge 12 11
+south_ridge 12 13
+on_hill 12 15
+ins_g_tow 18 15
+look_out 24 15
+::MAPDATA::
+
+
+   +---------+
+   | Fornost |
+   +---------+
+
+
+                o
+                |
+                o
+              /
+            o
+            |
+            o
+            |
+           [ ] : [ ] : [ ]
+

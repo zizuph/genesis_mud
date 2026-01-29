@@ -1,0 +1,270 @@
+
+Arman's AoB vision for magic and mana, 11 November 2021.
+
+
+VISION: Spellcasting in Genesis provides a unique experience distinct
+from melee combat, allowing players to the opportunity to access
+fantastical magical abilities that while conforms with combat 
+balance standards is still enjoyable to play.
+
+We want spellcasting to feel epic, but not at the expense of other
+play styles. The benefits spellcasting provides in versatility
+needs to come at a cost that requires players to manage their
+mana pool at all mortal levels.
+
+MECHANICS:
+Functionally, spellcasting draws from the standardised specials
+code as outlined in /d/Genesis/specials/new/, ensuring ability power
+across all guild classes is easily comparable and transparent.
+
+Spellcasting does have a unique requirement for a player to use
+these specials - spells have a mana cost that is drawn from a mana
+pool determined by the players intelligence. This mana pool regenerates
+over time, with the amount regenerated dependent on a player's
+spellcraft, wisdom and intoxication (negatively in the latters case).
+
+How mana is used and regenerated - mana management - is a critical
+element in the experience of being a spellcaster. And it is critical
+that the underlying mechanics of how mana works is balanced to allow
+a player to engage in magic combat in a sustained way at any mortal
+level if they have devoted appropriate attention to their mental stats 
+and spell skills.
+
+This can be achieved through a dynamic mana cost system that scales mana 
+cost based on the quantum of the spell benefit, specifically:
+* combat aid, and 
+* scaling by the stat that influences the effectiveness of the spell 
+
+
+PROPOSAL:
+
+An occupational magic guild should be able to sustain casting and maintenance
+of spells up to the standard guild CAID cap, caveated based on the attention the
+caster has put in to their mental stats. 
+
+Currently the caid cap for an occ guild is 200 (100 special caid + 100 white damage).
+
+Currently, occ magic guilds allow up to 250 caid of concurrent maintained/
+casting.  Occ+lay allow up to 330 caid.
+
+
+As spellcasters can potentially burst above the sustained caid cap (depending
+on guild spell structures) we propose spellcasters can sustain 80% caid of what
+a melee counterpart can sustain.
+
+So sustained caid of:
+* Occ+lay magic guilds - 200 sustained caid
+* occ magic guilds - 160 sustained caid
+* lay magic guilds - 40 sustained caid
+
+
+PROPOSED FORMULA:
+
+Factors:
+* proportional spell caid modifier (caid of spell / max sustained caid)
+
+* mana cost per 20 seconds. This will be a value that aligns to the 
+  mana regeneration formula F_MANA_HEAL_FORMULA, so mana cost will
+  scale similarly to mana heal: F_DYNAMIC_SPELL_COST 
+
+  F_DYNAMIC_SPELL_COST(stat) would be:
+  (3 + ((stat) * (100 - (INTOX) / 2) * SPELLCRAFT_MOD) / 50000)
+
+  'stat' would be the attribute/s that influences the effectiveness of
+  the spell output. So in the case of most harm spells intelligence...
+  but could be for guild thematic reasons wisdom (for clerics) or 
+  even dexterity/discipline for minstrels.
+
+  the pintox variable of F_MANA_HEAL_FORMULA will default to 50 in
+  F_DYNAMIC_SPELL_COST, mirroring the (100 - (pintox) / 2)
+  element of F_MANA_HEAL_FORMULA 
+  50% intoxication meaning those who are heavily intoxicated 
+  will have a mana cost deficit vs mana heal, while those 
+  who are sober will have a mana cost surplus by comparison.
+  INTOX = 50;
+
+  SPELLCRAFT_MOD mirrors the spellcraft skill level in
+  F_MANA_HEAL_FORMULA, and will default to 75, meaning those with
+  skills above 75 will have a mana surplus vs mana heal in comparison
+  to those below 75 spellcraft will have a mana deficit. 
+  SPELLCRAFT_MOD = 75;
+
+* mana cost is based around casting cost per 20 seconds. Where the
+  cast time is less than 20 seconds, the mana cost is proportioned
+  accordingly.
+
+
+For maintained spells, the formula for mana cost would be:
+(caid / sustained caid max) * (F_DYNAMIC_SPELL_COST)
+
+For harm spells, the formula for mana cost would be:
+(caid / sustained caid max) * (F_DYNAMIC_SPELL_COST) x (casting time / 20)
+
+For non-caid spells, their proportional spell modifier cost TBD, 
+but likely to substitute a value based on qualitative classification:
+
+Class 0  -- Cantrips: modifier cost ~0.1 (10% of max sustained mana)
+Class 1  -- Very minor spells  ~0.2
+Class 2  -- Minor spells ~0.3
+Class 3  -- Intermediate Spells ~0.4 
+Class 4  -- Advanced spells  ~0.5  (50% of max sustained mana)
+
+
+SCENARIOS
+
+---------------------------------------------------------------------------
+Scenario 1 example:
+A spellcaster with 100 spellcraft and 100 int has a mana pool of 423.
+A sober spellcaster with 100 wis currently regenerates 23 mana per 20 seconds.
+A 100% intoxed spellcaster with 100 wis currently regenerates 13 mana per 20 seconds.
+
+This occ-only spellcaster with a maintained spell of 100 caid would have a 
+mana cost of maintenance of 8.75 every 20 seconds.
+
+*** So (caid / sustained caid max) * (F_DYNAMIC_SPELL_COST)
+***     (100 / 160) * (14)
+
+This spellcaster's 100 caid harm spell (damage is based on int) that can be 
+cast every 4 seconds would have a mana cost of 1.75.
+
+*** So (caid / sustained caid max) * (F_DYNAMIC_SPELL_COST) x castings/20s
+***    (100 / 160) * (14) * (4 / 20)
+
+Mana cost for these two spells is 17.5 / 20 seconds... meaning they can sustain 
+casting sober, while being at a deficit at maximum intoxication (13.5 mana
+per minute, meaning they run out of mana after 31 minutes).
+
+---------------------------------------------------------------------------
+
+This spellcaster's 50 caid harm spell (damage is based on int) that can be 
+cast every 8 seconds would have a mana cost of 1.75. etc etc
+
+*** So (caid / sustained caid max) * (mana regen/20s) x (castings/20s)
+***    (50 / 160) * (14) * (8 / 20) 
+
+---------------------------------------------------------------------------
+
+This spellcaster's 50 caid harm spell (damage is based on int) that can be 
+cast every 4 seconds would have a mana cost of 0.875 mana. etc etc
+
+*** So (caid / sustained caid max) * (mana regen/20s) x (castings/20s)
+***    (50 / 160) * (14) * (4 / 20) 
+
+---------------------------------------------------------------------------
+
+If this spellcaster used a higher caid harm spell of same cast speed,
+let's say 150 caid, this would result in a mana cost deficit and a
+gradual depletion of the mana pool.
+
+This spellcaster's 150 caid harm spell (damage is based on int) that can be 
+cast every 4 seconds would have a mana cost of 2.625.
+
+*** So (caid / sustained caid max) * (mana regen/20s) x castings/20s
+***    (150 / 160) * (14) * (4 / 20)
+
+With sustained 100 caid spell, the two spells would have a mana drain of
+21.875 per 20 seconds, meaning they can sustain casting sober, while being 
+at a deficit at maximum intoxication (26.625 mana loss per minute, 
+resulting in running out of mana after 15 minutes).
+
+---------------------------------------------------------------------------
+Scenario 2 example:
+A spellcaster with 100 int has a mana pool of 423.
+A spellcaster with 50 wis currently regenerates 13 mana per 20 seconds sober.
+A spellcaster with 50 wis currently regenerates 8 mana per 20 seconds full 
+intoxicated.
+
+This occ-only spellcaster with a maintained spell of 100 caid would have a 
+mana cost of maintenance of 8.75 every 20 seconds.
+
+*** So (caid / sustained caid max) * (F_DYNAMIC_SPELL_COST)
+***     (100 / 160) * (14)
+
+This spellcaster's 100 caid harm spell (damage is based on int) that can be 
+cast every 4 seconds would have a mana cost of 1.75.
+
+*** So (caid / sustained caid max) * (F_DYNAMIC_SPELL_COST) x castings/20s
+***    (100 / 160) * (14) * (4 / 20)
+
+Mana cost for these two spells is 17.5 / 20 seconds... meaning they will
+run a mana cost deficit sober (13.5 mana per minute, running out of mana
+in 31 minutes) and a mana cost deficit at maximum intoxication (28.5 mana
+per minute, meaning they run out of mana after 14 minutes).
+
+---------------------------------------------------------------------------
+
+Scenario 5 example (current MM set up.. caveated with a guru quest):
+A morgul mage with 250 int has a mana pool of 923.
+A morgul mage with 250 wis currently regenerates 53 mana per 20 seconds.
+They have a max sustained caid of 225.
+
+This MM has a maintained spell of 80 caid would have a mana cost of 
+maintenance of 12.4 every 20 seconds.
+
+*** So (caid / sustained caid max) * (F_DYNAMIC_SPELL_COST)
+***     (80 / 200) * (31)
+
+The MM has a morthul harm spell of 245 caid (damage based on int) that can
+be cast every 6 seconds. Would have a mana cost of 11.4.
+
+*** So (caid / sustained caid max) * (mana regen/20s) x (castings/20s) x mod
+***    (245 / 200) * (31) * (6 / 20)
+ 
+So 10 casts in 60 seconds with maintained spell burns 114 mana per minute, 
+so a total mana cost of 151.18 per minute. Caster mana regen over a minute
+is 159 mana, so a sustainable cost.
+
+---------------------------------------------------------------------------
+
+Scenario 6 example (ogre warlock, 60 spellcraft):
+An ogre with 11 int has a mana pool of 126.
+A sober ogre with 100 wis currently regenerates 15 mana per 20 seconds.
+A fully intoxed ogre with 100 wis currently regenerates 9 mana per 20 seconds.
+
+Maintaining a 30 caid quickness buff costs 3.0 mana per 20 seconds.
+
+*** So (caid / sustained caid max) * (F_DYNAMIC_SPELL_COST)
+***     (30 / 40) * (4)
+
+Maintaining a 30 caid quickness buff would be 3.0 mana per 20 seconds...
+comfortably sustainable either drunk or sober.
+
+*** The spell would need to be suitably scaled down for 11 int effectiveness!
+
+Also maintaining a 15 caid evade costs 1.5 mana per 20 seconds.
+
+*** So (caid / sustained caid max) * (F_DYNAMIC_SPELL_COST)
+***     (15 / 40) * (4)
+
+Maintaining a 30 caid quickness buff and the evade buff would be 4.5 mana per 
+20 seconds...comfortably sustainable either drunk or sober. Mindful that
+these two protective spells would be very ineffective with scaling!
+
+---------------------------------------------------------------------------
+
+Scenario 7 example (warlock, 60 spellcraft):
+A warlock with 100 int has a mana pool of 423.
+A warlock with 100 wis currently regenerates 15 mana per 20 seconds sober.
+A warlock with 100 wis currently regenerates 9 mana per 20 seconds drunk.
+
+Maintaining a 30 caid quickness buff.
+
+*** So (caid / sustained caid max) * (F_DYNAMIC_SPELL_COST)
+***     (30 / 40) * (14)
+
+Maintaining a 35 caid quickness buff would be 10.5 mana per 20 seconds...
+sustainable sober, deficit completely drunk (out of mana after
+40 minutes).
+
+Also maintaining a 15 caid evade costs 5.25 mana per 20 seconds.
+
+*** So (caid / sustained caid max) * (F_DYNAMIC_SPELL_COST)
+***     (15 / 40) * (14)
+
+Maintaining a 30 caid quickness buff and the 15 caid evade buff would be 
+15.75 mana per 20 seconds... a very slight deficit sober (out of mana
+in 188 minutes) while a solid deficit fully intoxicated (20.25 mana
+drain per minute, being out of mana in 21 minutes).
+
+---------------------------------------------------------------------------
+

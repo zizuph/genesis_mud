@@ -1,0 +1,42 @@
+Calia, Elementalist Clerics Guild Review   47 Jaacar      Liege    1 Jun 2017
+
+Balance Review Request Submission
+---------------------------------
+
+Request Date: June 1, 2017
+
+1. What are you requesting to be reviewed?
+   Elemental Clerics guild spells/tax (Spirit Circle recode,
+   combining into one 'family' with the Elemental Worshippers.
+
+2. Please list all files for review, as well as the location of any
+   documentation describing the submission.
+   /d/Calia/guilds/elementalists/docs/cleric_tax_spells_doc.txt
+   /d/Calia/guilds/elementalists/spells/ec_*
+   /d/Calia/guilds/elementalists/spells/objs
+
+3. Describe the benefits that players receive by interacting with your
+   submission.
+   The Spirit Circle guild will be recoded to fit with new guild and
+   spell standardizations.
+
+4. Describe the thematic justification for the benefits that the player
+   will receive.
+   The Elementalist guilds will be one family instead of the separate
+   guilds they are now. They will all be living in one temple instead
+   of two separately.
+
+5. Describe the downsides that the player will experience that justify
+   the balance of the submission.
+   None if all goes well?
+
+6. How has the submission been tested to ensure that balance is maintained?
+   If no testing has been done, how can the AoB team help with this
+   testing?
+   Player testing is currently in progress with the approval of the AoD.
+   Testing with my jr took place before that (and continues to take place
+   during the player testing). 
+
+7. Other Comments / Questions
+   In the /d/Calia/guilds/elementalists/docs/reference directory is a
+   copy of the magic rules I was directed to use (petros_magic_proposal.txt).

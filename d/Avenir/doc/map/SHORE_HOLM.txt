@@ -1,0 +1,31 @@
+R = Rocks  W = Obsidian Wall  & = selkie.c  @ = seamonster.c
+*sh27* = Wolf Song Quest (imprint.c)
+
+             sh6  -- sh5                               N
+             /   R    \                                |
+            /    RR    sh4        ~~~~~~                -- E
+          sh7    RRRR    |     ~~~~ sea ~~~~
+~~~~~~~~    \    RRRR   sh3      ~~~~~~~
+  ~~~~~~   sh8   RRRRRR  \   
+ ~~ sea ~~~   \   RRRR   sh2  -- sh1  RRRRR
+  ~~~~~~~~     sh9  RRRRRRR \  WWWWWWWWWWWW        
+   ~~~~~         \    RRRRRR \ WWWWWWWWWWWW
+                sh10 -- sh11 - sh12 -- lf1#
+               /     WWWWWWWWWWWWW            
+             sh13   WWWWWWWWWWW            
+             /   WWWWWWWWWWW 
+            /      WWWWWWWW          /holm/jungle/*
+           sh14 -- sh15   WWW
+           /   RRR   |   WWW         
+         @sh16 RR  sh17  WWW
+           \   RRRR  |  WWWW                      W --
+           sh18 -- sh19   WWW                        |
+             |   X   |     WW                        S
+            sh20 -- sh21  WWWWWWWW
+~~~~~~~~~~   /  RRRRR  \       WWWWWWWWW
+ ~~~~~~~   sh22 RR RR sh23 -- *sh27* -- ???? 
+~~~ sea ~~   |  RRRRR   |  /   
+  ~~~~~~~  sh24 RR RR  sh25 
+              \ RRRR  u 
+                sh26& 
+              

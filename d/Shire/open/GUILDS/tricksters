@@ -1,0 +1,69 @@
+Information on the Trickster layman guild.
+
+This guild has its roots in the old Shire guild originally
+coded by Tricky but basically abandonded in 1994 and 1995.
+I took the guild's emotes and put them here, and split the
+spells and other things with the Heralds of the Valar (q.v.)
+and the Adventuresome Hobbits race guild (q.v.).
+The guild embodies the happy go lucky mentality of the Hins,
+while keeping them out of the realm of clerical magic.
+These are to be magicians, who earn their living by hook or
+by crook or even by an honest day's work if they must. :)
+They practice legerdemain (to be implemented), not 'magic' aswe know it.
+They have an alignment restriction of +/- 600.
+This is in keeping with their 'fun is the ultimate goal' theme.
+They have no time for those who serve others than themselves.
+Basically, anything goes as long as you don't get caught up in some
+kind of idealogical war. :)
+
+Key files and places of interest:
+/d/Shire/trickster/join.c -> This is the joining, leaving, and expelling
+room (via shadow).
+/d/Shire/trickster/shadow.c -> this mainly gives a title and keeps up
+with who has joined a crusade and who hasn't.
+/d/Shire/trickster/trick_soul.c -> The command soul.
+/d/Shire/trickster/start -> Their starting location.
+
+The guild has few special advantages as it is set under the village of
+Bree.
+Please forward questions to Igneous.
+
+
+Tax draft for the Trickster layman guild:
+
+Mudlib skills trained:    Taxable levels     Tax          Maxium trained
+             SS_SNEAK     30 + (10 * 4)      0.5    (1.0)      60 
+             SS_HIDE           20            0.333  (1.0)      40
+             SS_WEP_CLUB       20            0.5    (1.5)      50
+             SS_AWARENESS 30 + (10 * 4)      0.5    (1.0)      60
+             SS_PARRY          30            0.75   (1.5)      30
+             SS_TRADING        30            0.5    (1.0)      60
+             SS_FR_TRAPS       10            0.167  (1.0)      30
+             SS_LOC_SENSE      20            0.167  (0.5)      50
+             SS_LANGUAGE       20            0.333  (1.0)      50
+             SS_ALCHEMY         0            0.0    (1.0)      20 
+=========================================================================
+                              290            3.75
+
+Tax for mudlib skills:  3.75%
+
+Guild defined skills trained:            Taxable levels    |    Total
+             disguise                           0                 74
+             shinkick                           0                100
+
+Other helps:
+A shop where members receive various alchemical items used for making mischief
+these items are found in /d/Shire/trickster/obj directory and they are taxxed 
+for the smokebomb item since it creates darkness for short period of time.
+1% for the smokebomb (/d/Shire/trickster/obj/smokebomb.c)
+
+1.6% for thier disgusie ability:
+shadow found (/d/Shire/trickster/obj/disguise.c)
+and disguise kit (/d/Shire/trickster/obj/disguise_kit.c)
+
+Total tax:               6.35%
+Actually charged:        7.0%
+
+Dunstable, April 30, 1995
+
+Updated    January 18th, 2000 by Igneous

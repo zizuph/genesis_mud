@@ -1,0 +1,61 @@
+main
+::MAPDATA::
+b5tent1 21 7
+b5tent2 21 11
+b5tent3 13 7
+b5tent4 9 7
+b5tent5 9 9
+b5tent6 17 11
+b5tent7 17 13
+b6tent1 29 7
+b6tent2 29 11
+b6tent3 33 11
+b6tent4 37 11
+b6tent5 33 7
+b6tent6 37 5
+b6tent7 41 7
+courtyrd 5 17
+for14 9 5
+for15 13 5
+mroad1 25 7
+mroad2 25 9
+npath1 17 7
+npath2 21 5
+npath3 25 5
+npath4 29 5
+npath5 33 5
+npath6 37 3
+nroad1 13 9
+nroad2 17 9
+nroad3 21 9
+nroad4 29 9
+nroad5 33 9
+nroad6 37 9
+nroad7 41 9
+nroad8 37 7
+tdpath1 5 7
+tdpath2 5 9
+tdpath3 9 11
+tdpath4 9 13
+tdpath5 5 15
+wroad1 13 11
+wroad2 13 13
+::MAPDATA::
+                    V/ ,           V Y y
+  , V,             .'*V             \|/
+ `/,. y              Y               i ,
+ ,\  V'.             l               o
+   ||   .                          /
+   ii    o - o       o - o - o - o   o
+       /       \   /     |           |
+     o   o   o   o   o   o   o   o - o - o
+     |   |   |       |   |   |       |
+     o   o - o - o - o - o - o - o - o - o
+       \     |       |   '   |   |   |
+         o   o - o   o       o   o   o
+         |   |
+         o   o - o    /` ,     v . ,
+       /           * \ / .*  ,_\ y_}
+     o             ;*\` y_.     V 
+     |               ~ V ,      i
+     =                 i

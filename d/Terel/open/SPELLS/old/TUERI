@@ -1,0 +1,8 @@
+Name:		Tueri
+Object:		/d/Terel/mecien/valley/guild/spells/tueri.c
+Cost:		30 on caster, 40 on other, no components
+Skills:		Conjuration, Life, Spellcraft
+Description:	Summons guardians around player who provide AC 10.
+		Duration is random(SS_WIS)/3 + random(SS_SPELLCRAFT)/2 + 50
+Requirements:	Wis > 50
+

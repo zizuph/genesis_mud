@@ -1,0 +1,171 @@
+main
+::MAPDATA::
+r1 44 16 neraka_outer_north
+r2 44 16 neraka_outer_north
+r3 44 16 neraka_outer_north
+r4 44 16 neraka_outer_north
+r5 44 16 neraka_outer_north
+r6 44 16 neraka_outer_north
+r7 44 16 neraka_outer_north
+r8 44 16 neraka_outer_north
+ware 44 16 neraka_outer_north
+gh1 44 16 neraka_outer_north
+abovegate 44 16 neraka_outer_north
+gatehouse 44 16 neraka_outer_north
+scarfs 44 16 neraka_outer_north 
+t1 44 16 neraka_outer_north
+t2 44 16 neraka_outer_north
+t3 44 16 neraka_outer_north
+t4 44 16 neraka_outer_north
+t5 44 16 neraka_outer_north
+t6 44 16 neraka_outer_north
+t7 44 16 neraka_outer_north
+tow1 44 16 neraka_outer_north
+w1 44 16 neraka_outer_north
+w2 44 16 neraka_outer_north
+w3 44 16 neraka_outer_north
+w4 44 16 neraka_outer_north
+w5 44 16 neraka_outer_north 
+w6 44 16 neraka_outer_north
+w7 44 16 neraka_outer_north
+w10 44 16 neraka_outer_north
+w11 44 16 neraka_outer_north
+w12 44 16 neraka_outer_north 
+w13 44 16 neraka_outer_north
+w14 44 16 neraka_outer_north
+w15 44 16 neraka_outer_north
+w17 44 16 neraka_outer_north
+w18 44 16 neraka_outer_north
+w19 44 16 neraka_outer_north
+w20 44 16 neraka_outer_north
+w21 44 16 neraka_outer_north
+w22 44 16 neraka_outer_north
+w23 44 16 neraka_outer_north
+w24 44 16 neraka_outer_north
+w25 44 16 neraka_outer_north
+w26 44 16 neraka_outer_north
+w27 44 16 neraka_outer_north
+w28 44 16 neraka_outer_north
+w29 44 16 neraka_outer_north
+ware1 44 16 neraka_outer_north
+::MAPDATA::
+                        
+                                                                            
+      N                 
+      ^                                         
+      |                                       _                    _____      
+   <--o-->                                  ,/ \                  /    /      
+      |                              __     |   \,    ,     ,    `\_^_\       
+      =                            _/  \  _/`    |  _/|    /|__     _ '       
+                        __      __/    / |       / /  |   /_  /    / \_       
+                        \ \    /^    [] _|      / /  /`     |/     \   \      
+             ,_          \ |  |^  Kalaman`     /_/  /       '       []Mithas  
+             | \         /^ [] ^           ^        |              /___/      
+             |^@\    Palanthas^      ^    ^        /'              ____       
+             | ^@\       |  ^        ^    ^   ^^  /                \  /       
+     __     /`  ^@|      | ^  []Vingaard     ^^   |                /__\       
+    /^^\    \  ^@ |      | ^    Keep     ^^ Neraka|/\              `  '       
+   /^^^^\    \___/       | ^           ^^^^[ ]    '  \                      
+   \^^^^^|                \ ^      @  ^  ^           |           ,            
+  |\|@__/    _____,        |    ^  @   ,[ ]^^^       |        __/|            
+  |@_/      /     |        |   ^  @@ __|Sanction_  _ `\  _/\_/   |            
+  |/       /@ ^   |        |____/\__/   _/` ^^ | \/ |  []`       |            
+           |@^|\_/                     /   ^^^ |__  \ Flotsam,/| |            
+           | @|___           ____      |  ^^^   ,/   \       | | |            
+           '\_@  /          /    \ { } |  ^ ^   |Port []    /   \|            
+              \_/         ,/  ^  |     '\ ^  ^  Balifor\___/     '            
+                     Solace []   |   _   |^  ^    \                 
+                         / @@   /   | \  \         \         { }   
+                     New Ports[]    |  |_|          \__     
+                        | @@@  \  ,/'           Kurinost[]            
+                       / @@@@@  \_|                 @@@@@@@\                  
+     
+
+::NEWMAP::
+neraka_outer_north
+::MAPDATA::
+r1 34 8
+r2 34 6
+r3 36 6
+r4 38 6
+r5 30 4
+r6 32 4
+r7 34 4
+r8 34 2
+ware 32 2
+gh1 36 10
+abovegate 24 16
+gatehouse 24 16
+scarfs 18 12
+t1 6 12
+t2 8 10
+t3 10 8
+t4 10 18
+t5 10 16
+t6 12 18
+t7 14 12
+tow1 28 8
+w1 28 6
+w2 26 8
+w3 24 10
+w4 22 10
+w5 20 12 
+w6 20 14
+w7 22 16
+w10 18 16
+w11 16 18
+w12 16 20 
+w13 18 22
+w14 18 24
+w15 22 14
+w17 18 14
+w18 16 14
+w19 14 14
+w20 12 14
+w21 12 12
+w22 12 10
+w23 10 12
+w24 10 14
+w25 8 14
+w26 8 16
+w27 12 16
+w28 6 18
+w29 6 20
+ware1 20 10
+::MAPDATA::
+
+                                  |
+                                w-W
+                                  |
+                              o-o-o
+    WHITE DRAGONARMY         /    |
+       ENCAMPMENT           o     o-o-o   T 
+                           /|     |    \ /   BLACK DRAGONARMY
+          ^               o T     o     o       ENCAMPMENT
+           \             /        |\     \
+        ^   o       w o-o   /::::[x]T::\  o         ^
+         \  |       |/     :::        :::  \       /
+      ^   o o ^   s o     /::          ::\  o     o
+       \   \|/     \|    /::            :::  \   /
+        o-o-o-o-o-o-o-o  ::              ::   o o S   ^ ^ ^
+         /  |/     /|\   ::              ::    \|/    |/ /
+        o ^-o     o t o-T::              ::   o-o     o-o
+       / \  |    /     \ ::              ::  /   \   /  |
+      o   ^ ^   o       [x]    NERAKA   [x]-o     o-o-o-o-P
+      |         |       ::     INNER    :: / \   /|  \| |
+      o         o       ::     CITY     ::T   o o o-i o-o
+                 \      ::              ::    |/   \  |\|
+                  o     ::              ::    o     h ^ o-^
+                  |     ::              ::    |         |
+                  o     ::              ::    o         ^
+                  |     \::             ::/   | 
+                 
+                        
+
+                      ~= City of Neraka =~
+
+     h  stable				S  shop
+     i  Black Ship Inn			s  scarf seller's shack
+     P  slave pen                       w  warehouse
+     T  guard tower			W  wagon to Sanction
+     t  closed tavern			x  Neraka gate

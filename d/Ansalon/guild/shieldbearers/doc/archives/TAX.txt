@@ -1,0 +1,98 @@
+ /* In previous formula there was 2/3 of STR taken, now I take full STR
+    and I made it more dependent on the shield quality. */
+
+ SHIELDSLAM (SPECIAL)
+ --------------------
+
+  Cb_tohit value for the special is 80 (75% chance to hit) and according
+  to  'man cb_tohit'  a total combat aid in  further calculations may be 
+  reduced by 25%.
+
+  Damage formula for the shieldslam:
+  ---------------------------------
+  penet =   SS_STR + SHIELD_AC + ( SS_APPRAISE_ENEMY * 100 ) / 60
+  penet += MIN( MAX_GUILD_STAT_MOD, SS_LAYMAN )
+  penet = ( penet * 5 ) / 3
+  penet = ( penet * SHIELDSLAM_SKILL ) / 100
+  penet = MIN( 800, penet )
+
+  Where:    MAX_GUILD_STAT_MOD = 150,
+            SHIELDSLAM_SKILL   = 100 max for Neidars,
+                               = 85  max for non Neidars
+            SHIELD_AC          - armour class of a worn shield.
+
+  The special may be used approximately every seven combat rounds.
+  
+  For Neidars:
+  ------------
+  With strength of 100, shield of 40 AC, max shieldslam skill, 
+  layman stat of 100 and APPRAISE_ENEMY of 100, penet would be:
+  
+  penet = ((100 + 167 + 100 + 40) * 5) / 3 = 678
+  
+  Combat aid:
+  Stun part  :   2 / 7 * 75% = 21.43%
+  Damage part:   ((1 / 7) * (678 / 280)) * 75% = 25.94%
+  
+  Combat aid:                  21.43% + 25.94%       = 47.37%
+  Total combat aid (reduced):  47.37% - 25% * 47.37% = 35.53%
+
+  This gives 5.9% but since this special can not be used with the
+  Neidar  offensive special  at the same time, I have reduced the 
+  total tax by 0.5%.
+
+  TAX: 5.4%
+  
+  For non Neidars:
+  ----------------
+  With strength of 100, shield of 40 AC, max shieldslam skill (85),
+  layman stat of 100 and APPRAISE_ENEMY of 100, penet would be:
+  
+  penet = (((100 + 167 + 100 + 40) * 5) / 3) * 85 / 100 = 577
+  
+  Combat aid:
+  Stun part  :  2 / 7 * 75% = 21.43%
+  Damage part:  ((1 / 7) * (577 / 280)) * 75% = 22.08%
+  
+  Combat aid:                  21.43% + 22.08%       = 43.51% 
+  Total combat aid (reduced):  43.51% - 25% * 43.51% = 32.63%
+
+  TAX: 5.4%
+  
+  MAXIMUM COMBAT AID
+  ------------------
+  Stun part  :  21.4%
+  Damage part: ((1 / 7) * (800 / 280)) * 75% = 30.61%
+
+  Maximum combat aid:                 21.4%  + 30.61%       = 52.01%
+  Total maximum combat aid (reduced): 52.01% - 25% * 52.01% = 39.00%
+  and it does not exceed the maximum 50% combat aid allowed.
+    
+
+ SKILLS
+ --------------------
+
+ ===========================================================
+ SKILL NAME     SKILL LVL     TAXABLE     TAX MOD    TAX
+ -----------------------------------------------------------
+ SS_WEP_AXE     30            0           1.5        0%
+ SS_APPR_MON    60            30          1.0        0.5%
+ -----------------------------------------------------------
+ Total: 30 taxable skills.                           0.5%
+ ===========================================================
+
+ Comments:
+ =========
+ Shieldslam can not be used  at the same time  with Neidar offensive
+ special so it can not be used at constant rate.  This limitation do
+ not apply for non Neidars. However, their special will stun enemies
+ after they reach 75 in guild stat, and is a bit weaker.
+
+ TOTAL TAX:
+ ==========
+ For Neidars    : 5.4% + 0.5% = 5.9%
+ For non Neidars: 5.4% + 0.5% = 5.9%
+
+ I set in both cases TAX of 8%, however.
+ 
+ ==========================================================================

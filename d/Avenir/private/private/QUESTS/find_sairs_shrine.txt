@@ -1,0 +1,48 @@
+Find Sair's Shrine -- by Lilith Sep 2021
+Exp   500
+Group 1
+Bit   14
+
+This is a simple "tour" type quest in the Port area.
+No one gives it out, but a few npcs will drop hints.
+Find the shrine to Sair and make an offering, and she may bless you.
+But this is more challenging than it sounds, of course.
+
+Sair is the Goddess of the First Hour (She shares this Hour with Salilus).
+Sair is the Goddess of Walls and Obstacles. She is worshipped/placated in
+Sybarus to keep walls from crumbling/collapsing, and as someone who can
+place or remove obstacles from one's path. Sair is a giantess of sorts,
+massive and lumpy and stone-like, incredibly strong, with fire-opals for 
+eyes. (For more info on her, see the Avenir doc dir).
+
+When the Port was being built, a giant octagonal crystal was discovered. 
+Such things are considered Sacred to Sair, and so a shrine was chiseled out
+around it. People wanting to appease Sair or seek her blessings will go to
+this remote little shrine and pray or make offerings of fire opals (sacred
+to Sair). Her blessing is +5 STR and +5 Earth spell for 30-45 mins.
+
+Throughout Avenir, octagons (symbol of Sair) have be etched/carved/chiseled 
+into the tunnel walls and built walls, a way of dedicating them to Sair and 
+asking her blessing to strengthen them. Some of these octagons can be activated
+usinf fire opals, and when activated, Sair grabs the player and pulls them 
+through the wall into another place. Sometimes there is just one possible 
+destination, sometimes there are many. 
+
+There are some of these Sair Walls scattered in the Port area. The room with
+the Sair Shrine is only accessible through activating a Sair Wall, and that
+room can only be accessed by a Sair Wall that has more than one destination 
+in the area, so players are going to have to keep trying various combinations
+until they get lucky. They will be moved by Sair to other places within the 
+Port/Ledge area, where there isn't anything particularly dangerous to smaller
+players.
+
+Files involved:
+Shrine/altar: /d/Avenir/common/port/obj/sair_altar.c
+Blessing:     /d/Avenir/common/port/obj/sair_blessing.c
+Shrine Room:  /d/Avenir/common/port/port5.c
+Room that has Sair Wall that accesses port5 is port4, and port4 can be
+accessed via the Sair Wall in port2.
+
+
+ 
+

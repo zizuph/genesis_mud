@@ -1,0 +1,104 @@
+Holding file for formulas relating to how dexterity applies to combat
+and combat aid:
+
+Statboost spell formula for boosting dex:
+dex = ((stat * ((aid * 100) / (aid + 100))) / 100)
+
+
+Dexterity impacts on chance to hit or be hit in cb_tohit through
+the following function:
+
+/*
+ * Function name: cb_update_tohit_val
+ * Description:   Update the tohit value for some object. Changing ones
+ *                encumberance while fighting will not have any effect
+ *                unless this function is called, but I think it's worth
+ *                it since we save cpu.
+ * Arguments:     ob - The object we shall try to hit
+ *                weight - If the formula should be weighted any way.
+ */
+varargs void
+cb_update_tohit_val(object ob, int weight)
+{
+    tohit_val = 2 * fixnorm(me->query_stat(SS_DEX), ob->query_stat(SS_DEX)) -
+        (((me->query_encumberance_weight() +
+              me->query_encumberance_volume()) -
+            (ob->query_encumberance_weight() +
+                ob->query_encumberance_volume())) / 4);
+    tohit_val += weight + tohit_mod;
+}
+
+So assuming no encumberance influences for attacker or defender, the hit
+chance is modified by:
+
+    2 * fixnorm(attacker SS_DEX, defender SS_DEX)
+
+    2 * (((100 * attacker SS_DEX) / (attacker SS_DEX + defender SS_DEX)) - 50);
+
+The benefit doesn't scale as stats increase. 
+
+For an attacker with 110 dex vs a defender of 10 dex (or vice versa), the benefit
+to hit is 83.3%.
+
+For an attacker with 210 dex vs a defender of 110 dex (or vice versa), the benefit
+to hit is 31.2%
+
+The combat aid benefit of hit% is outlined in 'man cb_tohit':
+
+tohit value  hit %    combat aid reduction
+   0          0%           100%   (will never hit)
+   5          4%            96%
+  10          9%            91%
+  15          14%           86%
+  20          18%           82%
+  25          23%           77%
+  30          28%           72%
+  35          33%           67%
+  40          37%           63%
+  45          42%           58%
+  50          48%           52%
+  55          52%           48%
+  60          57%           43%
+  65          62%           38%
+  70          66%           34%
+  75          71%           29%
+  80          75%           25%
+  85          78%           22%
+  90          82%           18%
+  95          84%           16%
+ 100          87%           13%
+ 105          89%           11%
+ 110          90%           10%
+
+A dex increase of 50 at 100 stat would be a hit or dodge benefit against a similar 
+size foe of 20%. Which equates to approximately 20 caid.  A reduction of 50 dex
+at this size is a hit or dodge penalty of approximately 34%, which is around 34 caid.
+
+A dex increase of 50 at 250 stat would be a hit or dodge benefit against a similar 
+size foe of 9%. Which equates to approximately 9 caid.  A reduction of 50 dex
+at this size is a hit or dodge penalty of approximately 28%, which is around 28 caid.
+
+
+How does the reality compare to the dex formula? 
+
+100 dex stat, 20 caid:
+ dex bonus = ((stat * ((aid * 100) / (aid + 100))) / 100)
+ dex bonus = ((100 * ((20 * 100) / (20 + 100))) / 100)
+           = 16.7
+ to hit/dodge% benefit against same sized foe: 7%.
+
+200 dex stat, 20 caid:
+ dex bonus = 32
+ to hit/dodge% benefit against same sized foe: 7%.
+
+100 dex stat, 50 caid:
+ dex bonus = 33
+ to hit/dodge% benefit against same sized foe: 14%.
+
+200 dex stat, 50 caid:
+ dex bonus = 66
+ to hit/dodge% benefit against same sized foe: 14%.
+
+If you factor in both the hit and dodge benefit of SS_DEX, the formula probably
+is costing more in caid than the combat benefit actually is.
+

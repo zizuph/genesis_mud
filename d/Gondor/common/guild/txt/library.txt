@@ -1,0 +1,19 @@
+
+Topic: library
+
+Commands:
+
+- list
+    List the titles that have been submitted for inclusion into the library.
+
+- read <title>
+    Read one of the submitted titles.
+
+- reject <title>
+    Reject one of the submitted titles.
+    The book will be destroyed and cannot be recovered.
+
+- add <title> to shelf <shelf>
+    Add a submitted title to the library.
+    A shelf has to be specified, the shelf has to exist in the library.
+

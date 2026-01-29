@@ -1,0 +1,25 @@
+#pragma strict_types
+
+#include "../defs.h"
+
+inherit TEMPLE + "std_store.c";
+
+void
+create_temple_room()
+{
+    ::create_temple_room();
+
+     set_short("In a small storeroom");
+
+    set_long("This is a small storeroom deep down in the temple. Boxes, " +
+        "and crates are piled on eachother and in a corner you see some " +
+        "barrels.\n");
+
+    add_item("corner", "There are some barrels standing there.\n");
+    add_item("barrels", "They are all of the same size, stacked " +
+        "on top of each other in rows of three.\n");
+    add_item(({"boxes, crates"}), "They are of various sizes, most " +
+        "made of wood with the stray metal one.\n");
+
+    add_exit( DUNGONE  + "corr1.c", "north" );
+}

@@ -1,0 +1,22 @@
+[AR] Argentina         [GR] Greece            [PE] Peru
+        [AT] Austria           [HK] Hong Kong         [PH] Philippines
+        [AU] Australia         [HR] Croatia           [PK] Pakistan
+        [BE] Belgium           [HU] Hungary           [PL] Poland
+        [BO] Bolivia           [ID] Indonesia         [PR] Puerto Rico
+        [BR] Brazil            [IE] Ireland           [PT] Portugal
+        [CA] Canada            [IL] Israel            [RO] Romania
+        [CH] Switzerland       [IN] India             [RU] Russia
+        [CL] Chile             [IQ] Iraq              [SE] Sweden
+        [CN] China             [IR] Iran              [SG] Singapore
+        [CO] Columbia          [IS] Iceland           [SK] Slovak Republic
+        [CR] Costa Rica        [IT] Italy             [TR] Turkey
+        [CU] Cuba              [JP] Japan             [TW] Taiwan
+        [CZ] Czech Republic    [KR] Korea, South      [UA] Ukraine
+        [DE] Germany           [LV] Latvia            [US] United States
+        [DK] Denmark           [LU] Luxembourg        [UY] Uruguay
+        [EC] Ecuador           [MY] Malaysia          [VE] Venezuela
+        [EG] Egypt             [MC] Monaco            [VN] Vietnam
+        [ES] Spain             [MX] Mexico            [YU] Yugoslavia
+        [FI] Finland           [NL] Netherlands       [ZA] South Africa
+        [FR] France            [NO] Norway
+        [GB] Great Britain     [NZ] New Zealand       [XX] Other (not listed)

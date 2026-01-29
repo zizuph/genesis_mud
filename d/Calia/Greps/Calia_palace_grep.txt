@@ -1,0 +1,76 @@
+./glykron/palace/objects/calian_medallion.c:        clone_object("/d/Calia/palace/objects/calian_medallion")->move(e); 
+./glykron/palace/objects/calian_medallion2.c:        clone_object("/d/Calia/palace/objects/calian_medallion")->move(e); 
+./glykron/palace/rooms/light/guild.c:    ob->move_living("M", "/d/Calia/palace/rooms/light/guild"); 
+./glykron/palace/rooms/light/guild.c:        ob->set_default_start_location("/d/Calia/palace/rooms/light/guild"); 
+./glykron/palace/rooms/light/guild2.c:    ob->move_living("M", "/d/Calia/palace/rooms/light/guild"); 
+./glykron/palace/rooms/light/guild2.c:        ob->set_default_start_location("/d/Calia/palace/rooms/light/guild"); 
+./glykron/palace/specials/calian_shadow.c:            "/d/Calia/palace/specials/calian_shadow:\n" + 
+./glykron/palace/specials/calian_shadow.c:            "/d/Calia/palace/specials/calian_cmdsoul\n"); 
+./glykron/palace/specials/calian_shadow2.c:            "/d/Calia/palace/specials/calian_shadow:\n" + 
+./glykron/palace/specials/calian_shadow2.c:            "/d/Calia/palace/specials/calian_cmdsoul\n"); 
+./glykron/palace/defs.h:#define CALIAN_HEADER         "/d/Calia/palace/specials/calian.h"
+./glykron/palace/defs.h:#define COUNCIL_HEADER        "/d/Calia/palace/specials/council.h"
+./glykron/palace/defs.h:#define RECRUITER_HEADER      "/d/Calia/palace/specials/recruiter.h"
+./glykron/palace/defs.h:#define CALIAN_TAUNT_OBJECT "/d/Calia/palace/specials/olde_insulte"
+./glykron/palace/defs.h:                 "/d/Calia/palace/specials/calian_info_handler"
+./glykron/palace/defs.h:#define WARNING_SIGNAL_OBJECT "/d/Calia/palace/specials/warning_sig"
+./glykron/palace/defs.h:#define CALIAN_TITLE_HANDLER "/d/Calia/palace/specials/title_handler"
+./gelan/specials/attitude.c:#include "/d/Calia/palace/specials/calian.h"
+./gelan/tattoos/tattoo_data.h:    "Calians": ({"/d/Calia/palace/specials/calian_cmdsoul",
+./gelan/tattoos/tattoo_data.h:    "Calians2": ({"/d/Calia/palace/specials/calian_cmdsoul",
+./gelan/tattoos/tattoo_data.h:    "Calians3": ({"/d/Calia/palace/specials/calian_cmdsoul",
+./guilds/scop/objects/log_book.c:inherit "/d/Calia/palace/objects/log_book";
+./guilds/scop/objects/council_log_book.c:inherit "/d/Calia/palace/objects/log_book";
+./guilds/calians/objects/riposte_testob.c:    shadow = clone_object("/d/Calia/palace/specials/riposte_test");
+./guilds/calians/rooms/light/trainroom.c:        clone_object("/d/Calia/palace/objects/drop_box")->move(this_object());
+./guilds/calians/specials/calian.h:#define MAUL_SAVE "/d/Calia/palace/texts/maul_save"
+./guilds/calians/specials/calian.h:#define MAUL_CONTROL "/d/Calia/palace/rooms/light/maul_room"
+./guilds/calians/specials/calian_info_handler.c:#define CALIAN_FILE_DIR "/d/Calia/palace/texts/calian_player_info/"
+./guilds/calians/specials/calian_utility.c: * /d/Calia/palace/specials/calian_utility.c
+./guilds/calians/specials/council.h:#define COUNCIL "/d/Calia/palace/texts/council"
+./guilds/calians/specials/council.h:#define COUNCIL_CODE "/d/Calia/palace/specials/council_code"
+./guilds/calians/specials/council_code.c:#define ENEMY_INFO_DIR "/d/Calia/palace/texts/enemy_info/"
+./guilds/calians/specials/warning_sig.c:#include "/d/Calia/palace/specials/calian.h" 
+./guilds/calians/specials/calian_specials_utility.c: * /d/Calia/palace/specials/calian_specials_utility.c
+./guilds/calians/defs.h:#define OLD_CALIAN_SHADOW     "/d/Calia/palace/specials/calian_shadow"
+./guilds/calians/defs.h:#define OLD_CALIAN_CMDSOUL    "/d/Calia/palace/specials/calian_cmdsoul"
+./guilds/calians/defs.h:#define OLD_CALIAN_START_ROOM   "/d/Calia/palace/rooms/light/guild"
+./guilds/calians/defs.h:#define OLD_FOLLOWER_START_ROOM "/d/Calia/palace/rooms/light/white"
+./mountain/cr_tunnel/rooms/tunnels.h:#include "/d/Calia/palace/defs.h"
+./mountain/croad/doors/crystalline.c:#include "/d/Calia/palace/defs.h"
+./mountain/croad/doors/crystalline2.c:#include "/d/Calia/palace/defs.h"
+./mountain/monsters/guard.h:#include "/d/Calia/palace/defs.h"
+./mountain/monsters/guard.h:#define TRAINROOM "/d/Calia/palace/rooms/light/trainroom.c"
+./mountain/monsters/hurn.c:#include "/d/Calia/palace/specials/calian.h"
+./mountain/special/check_out.c:#define COUNCIL_CODE "/d/Calia/palace/specials/council_code"
+./mountain/special/check_out.c:#define RECRUITER_CODE "/d/Calia/palace/specials/recruiter_code"
+./mountain/defs.h:#define PALACE_WEAPONS "/d/Calia/palace/weapons/"
+./old/lasayr/e_hall.c:    add_exit("/d/Calia/palace_raid_room", "east", 0);
+./palace/objects/riposte_testob.c:    shadow = clone_object("/d/Calia/palace/specials/riposte_test");
+./palace/rooms/light/trainroom.c:        clone_object("/d/Calia/palace/objects/drop_box")->move(this_object());
+./palace/rooms/light/trainroom2.c:#define HELP_FILE_DIR "/d/Calia/palace/texts/"
+./palace/specials/calian.h:#define MAUL_SAVE "/d/Calia/palace/texts/maul_save"
+./palace/specials/calian.h:#define MAUL_CONTROL "/d/Calia/palace/rooms/light/maul_room"
+./palace/specials/calian_info_handler.c:#define CALIAN_FILE_DIR "/d/Calia/palace/texts/calian_player_info/"
+./palace/specials/calian_specials.c: * /d/Calia/palace/specials/calian_specials.c 
+./palace/specials/council.h:#define COUNCIL "/d/Calia/palace/texts/council"
+./palace/specials/council.h:#define COUNCIL_CODE "/d/Calia/palace/specials/council_code"
+./palace/specials/council_code.c:#define ENEMY_INFO_DIR "/d/Calia/palace/texts/enemy_info/"
+./palace/specials/warning_sig.c:#include "/d/Calia/palace/specials/calian.h" 
+./palace/specials/council_code2.c:#define ENEMY_INFO_DIR "/d/Calia/palace/texts/enemy_info/"
+./palace/specials/calian_utility.c: * /d/Calia/palace/specials/calian_utility.c
+./palace/defs.h:#define CALIAN_HEADER         "/d/Calia/palace/specials/calian.h"
+./palace/defs.h:#define COUNCIL_HEADER        "/d/Calia/palace/specials/council.h"
+./palace/defs.h:#define RECRUITER_HEADER      "/d/Calia/palace/specials/recruiter.h"
+./sea/beach/hardware_store.c:#include "/d/Calia/palace/defs.h"
+./sea/beach/hardware_store2.c:#include "/d/Calia/palace/defs.h"
+./sea/creatures/defs.h:#define GLYKDEF "/d/Calia/palace/monsters/defs.h"
+./special/palace_raid.c:#include "/d/Calia/palace/defs.h"
+./std/creature_statue.c:#include "/d/Calia/palace/specials/council.h"
+./sys/files.h:#define CALIA_PALACE_DEFS "/d/Calia/palace/defs.h"
+./sys/kroug.h:#define PALACE_RAID_ROOM "/d/Calia/palace_raid_room"
+./worshippers/objects/council_log_book.c:inherit "/d/Calia/palace/objects/log_book";
+./worshippers/shrine/store.c:    ({ "create_pack", "/d/Calia/palace/objects/backpack",3}),\
+./yuleware/candy_cane.c:            || wildmatch("/d/Calia/palace*", room_name)
+./workroom.c:    add_exit("/d/Calia/palace/rooms/light/trainroom","palace",0);
+./workroom.c:  add_exit("/d/Calia/palace_raid_room", "raid", 0);

@@ -1,0 +1,21 @@
+#include "../sforest.h"
+inherit SFOREST + "sforest";
+
+void
+create_room()
+{
+	::create_room();
+	config_room("northern");
+	
+	add_exit("sf63", "north");	
+	add_exit("sf52", "south");	
+	add_exit("sf58", "east");
+	add_exit("sf56", "west");	
+	add_exit("sf64", "northeast");
+	add_exit("sf62", "northwest");	
+	add_exit("sf53", "southeast");
+	add_exit("sf51", "southwest");
+	
+	add_fail("auto", "The trees are too thick to go "+
+	"in that direction.\n");
+}

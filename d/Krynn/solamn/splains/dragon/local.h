@@ -1,0 +1,15 @@
+/* The local.h file for the dragon betwen Solace and Vingaard Keep */
+
+#include "/d/Krynn/common/defs.h"
+#define DRAGON_DIR  "/d/Krynn/solamn/splains/dragon/"
+#define LANDING1    DRAGON_DIR + "landing1"
+#define LANDING2    DRAGON_DIR + "landing2"
+#define CONNECTION1a "/d/Krynn/solamn/splains/room/xroad"
+#define DIRECTION1a "west"
+#define CONNECTION1b "/d/Krynn/solamn/splains/room/pier"
+#define DIRECTION1b "south"
+#define CONNECTION2 "/d/Krynn/solace/new_village/small_road5"
+#define DIRECTION2  "south"
+#define DRAGON_ROOM DRAGON_DIR + "dragon_room"
+#define THE_DRAGON  DRAGON_DIR + "bronze_dragon"
+#define STD_DRAGON  "/d/Krynn/std/dragon/"

@@ -1,0 +1,715 @@
+mail carnak and arman --
+want to remove shield restriction on fling so they can go into tanking mode as needed (this was added punitively by
+Lucius because of a specific player) SU are willing to give up 2-handed bonus on whitehits&specials in order to tank as needed.
+fix error in formula that was giving too much benefit to slash
+want remove weapons cks on the specials and just use the special skill like most other special attazcks do.
+don't really like DIS check for specials, players don't focus on it is this something that all 
+guilds are going to be required to do? it's artifically weakening the special attacks.
+make speed for specials low for prep, longer for recovery. Similar times for both. 
+
+-- union eventually: make fling require a knife wielded. allow one shield or two knives.
+         make slash work with any combination of sword or knife as long as there are two wielded.	
+--bring intox benefit back-check intox level before impure penalty or require a blessing.
+ elves w/o intox for regen are way too squishy.
+RAELLE wants YOU FEEL HUNGRY, uAloof missing/broken. 
+LOSS vision is bugged, it take forever to complete and players are frozen in place.
+need to do update to slash and fling add a:
+case: -3 acrobatic dodge   fail attack due to opponent's acrobatic dodge
+in Slash and fling     line 596 fling and line ?? slash
+--sip, swig, gulp, chug, == drink alcohol from a container of kahve or fruit punch
+who was vyasa the wizard?
+/
+DONT forget to add maze rooms to the maze file and the preload file. Load new marsh70.c
+
+/*
+ * The Bosom of Mascarvin, resting place for the souls of Those Who Served
+ *
+ * Player has found & fixed the watch from the port (Fix Watch quest), 
+ * ridden in a coffin from the Bazaar to the Island of the Dead, 
+ * found the Banshee in the circle of standing stones, 
+ * spoken to her while hasted to match time with her
+ * gotten dropped down into the catacombs, 
+ * helped the Hegemon's ghost get his scepter back so he lets them 
+ * solved the dots puzzle to open the doorway to the maze
+ * solved the Maze and learned the order of the names assigned to the exits, 
+ * located the room of the crystalline skulls & activated them correctly, 
+ * all to get to this room and the rewards.
+ */
+
+ mascarvin's table: 
+ +healing potion 
+ + fire rose 
+ + kesoit mask 
+ + random magical weapons/armours from Avenir.
+ + gems and coins 
+ -- porters and litter-bearers for Avenir
+ -use rotted cloth from burial shrouds + long bone from undead skeleton to make
+  torches that generate darkness.
+--add pools with exits to wash up on shore. crypt 11, 18, 88, 101, 108,
+
+climb up to get to goblin cryptkeeper camp inside the cairn, alternate way out.
+marsh70 would be a good place to have the entrance to the gobbo camp.
+--alreday added eit from marsh70 into the barrow.
+
+
+// chatelaine chain - woman's ornamental chain worn around the waist, with keys, a purse, 
+--hire a goblin porter? It will carry stuff on the island but no where else--will find you when separated?
+
+--make a seller with pack animal/small boat on the isle? (goblins live/work on the island, in the cairn/barrow?
+--undead guardian / spectral guardian (glowing green vapor)-- undead aglyna or phrynos?
+guardian doesn't attack those with low mentals, it doesn't see them as a threat (dunce cap very useful here)
+resists all magic casting including dispell, but vulnerable to magical weapons.
+vanishes when defeated / deals x amt of psychic damage.
+-spectral dagger: bone hilt, blade made of glowing energy. magic armor piercing can only be wielded
+    for certain length of time and then it becomes just a bone hilt for a while.
+-spectral orb (eyeball of guardians) when "held" gives magical dark sight
+bridle of spectral steed  -- "holding" it summons aglyna? plane-shifting?
+-spectral shield to help with acrobat/unarmed/in this place has already passed.s damage, when energy is used up all 
+that is left is a thick strap of leather(OBJ_I_AIDS_ACROBATIC) strap with a bit of source crystal
+for a period of time.    have it bump up acrobat since wearing one reduces acrobat by half.
+
+s-pectral chestplate -- when energy is used up, just a harness is left with a bit of source crystal in the center of the harness.
+
+crystal cave with vein of the source and crystals that can be mined, used as impaling knives or holdable items.
+different colors of quartz crystals have different regenerative properties. maybe off room 106/107
+which should be underneath the cairn area.
+
+underground ossuary with stored bones stacked up. walls made of bones. bones removed from 
+niches and put in ossuaries to make room for new corpses. 
+flip/rotate sarcophagus?
+bones stacked with ends pointing outward. Skulls in a row balancing on the ends.
+
+MAYBE LATER?
+???special exit down into the subtunnels where there is a batch of goblins
+who live and work in the catacombs. Getting down there sets a skill. Skill
+allows secret access into and out of the tunnels from various places in Sybarus.
+
+	
+// There very few unarmed/acrobatic aids in-game. Will need to reduce the
+// aid this item gives as more come online.
+// OBJ_I_AIDS_ACROBATIC +100
+// temp boost to acrobat 
+// temp boost to unarmed
+// temp boost to defense
+// temp poost to parry
+
+
+
+    set_long("These boots are from the hide of a pahloor, a "+
+      "creature of minor magical ability which is exceptionally "+
+      "talented at evading notice. The leather is rather thick and "+
+      "has been treated with a hardening agent. These boots have "+
+      "been polished to a fine sheen.\n");
+    add_item(({"fur", "lining", "fur-lining"}), "The fur is mottled "+
+      "brown and cream, short, and very thick. It makes the boots "+
+      "very comfortable to wear.\n");
+	  
+Cahor's Cats  == pahloor? 
+Displacer beast (casts illusion)  A displacer beast is a rare feline creature 
+best known for its illusory ability to appear to be several feet away from its 
+actual position, making it difficult to pinpoint in combat.
+it somewhat resembles a puma - if that puma had six legs and two tentacles 
+growing from its shoulders. Its entire body is covered in a short black fur,
+ and its eyes glow a hellish green.
+ a wise and terrifyingly evil creature, black as night 
+ with cat-like features and barbed tentacles. 
+ The Displacer Beast’s magical resistance is high, equalling that of a 12th level fighter.
+ This is the 2nd highest tier available for saving throws in this edition of the game, 
+ meaning that the Displacer Beast is extremely resistance to magic. You can only get better 
+ if you were a level 13+ Fighting Man or a level 11+ Magic User, so that should put it into 
+ some sort of perspective as to how good they are against magic.
+ Both of the tentacles on the displacer beast have sharp spikes covering them,
+ slows enemy? (slowing poison) it is fast
+  Displacer Beast has a layer of skin that vibrates so incredibly fast that it can bend or refract light. It is through this natural ability that the Displacer Beast can ‘cast’ an illusion of itself up to 3 feet away from its actual location. Something important that is mentioned is that this ability is considered a natural magical property that can be controlled by the beast and even after they die, you can fashion their hide into a displacer cloak.
+Before we jump to the next edition, one last tidbit is revealed for these murder-cats. Magic users and alchemists value the hides of the Displacer Beast for certain magical preparations and you would think they’d mention Displacement Cloaks, but sadly nothing. One thing that is mentioned is that thieves see the eyes of Displacer Beasts as lucky and will collect them, believing that these glowing green eyes will protect them from being detected… 
+which is interesting, as these eyes still glow green even after the creature who originally was using them is dead.
+Displacement  ✦  Illusion  All melee and ranged attacks have a 50% chance to mis the displacer beast. 
+the effect ends when the displacer beast is hit by an attack, but it recharges as soon as the displacer beast 
+move 2 or more squares on outs turn. 
+https://dumpstatadventures.com/blog/deep-dive-the-displacer-beast
+green eyes glowing with awful malevolence
+pelt gives partial evade
+tentacles as barbed whips
+
+
+// solve the puzzles, meet Mascarvin, get your just reward.
+// SS_MASQ_STAGE to track quest progress
+    STATSERV_LOG_EVENT("crypt", "Entered Crypt Gate ");
+    STATSERV_LOG_EVENT("crypt, "Left by Crypt Gate ");
+	STATSERV_LOG_EVENT("crypt", "Quest: Meet Mascarvin done");
+	STATSERV_LOG_EVENT("crypt", "Entered Mascarvin area");
+	
+-use cotillions mapper obj in my inventory to help with mapping
+
+-ckrik -- 
+A couple of things...
+
+So, what you've done with acrobat is neat. Its a third defensive factor.
+There's defence, there's parry/unarmed, and there is acrobat. Nifty.
+
+What you didn't mention, and I could be misunderstanding the code, but, 
+it looks to me like encumberance rather seriously degrades acrobat
+regardless of whether or not a player has a weapon or shield in their 
+hands. In armed combat, encumberance is factored in once on the offensive
+side and once on the defensive side. But it looks to me like encumberance 
+is being taken into account three times for the defensive side of unarmed 
+combat, and I think this could be a significant mistake.  
+
+Realistically, the more encumbered you are, the less effective you should
+be at all defensive moves: parry/unarmed, defense, and acrobatic moves-- 
+but with regards to playability it makes sense to sacrifice that realism. 
+Parry is not affected by encumberance and neither is Defense. But Unarmed
+and Acrobat are. Why does it make sense to place a significant emphasis 
+on encumberance for unarmed and acrobat and not for parry and defense? 
+And if not for parry and defense, why for acrobat and unarmed?  (I'm not 
+advocating making that change to parry and defense, I'm just noting an 
+inconsistency). 
+
+Unarmed combat isn't considered useful by most players because it is 
+perceived to be too low damage--too little combat-exp reward to time-in-
+combat ratio. But, in adding fuctionality to acrobat, you're giving all 
+players, and especially unarmed players, a bit of a boost on one hand
+--but you're taking it away with two hands. One, by significantly 
+reducing the effectiveness of acrobat when hands are occupied, and two 
+by immediately and heavily penalizing them for wearing protective armors 
+to help them withstand all the white-hit damage they take because they 
+are in combat longer that those fighting using weapons. 
+(Even with Karma, it takes unarmed players longer to kill opponents, 
+so they take more white-hits, and if they take more white-hits
+without much armor, they take more damage--or--if they want to reduce their
+damage, they can wear armour, which radically reduces the effectiveness of
+their acrobat and to some extent their unarmed -- which means they 
+take more damage. It also means they are paying for the skill and they 
+aren't able to get full use of when they need it most (when in tough 
+combat situations).
+
+On top of this, wizards have coded most npcs with special attacks that 
+bypass checking defensive skills/abilities, so if unarmed players aren't 
+wearing armors for white-hits protection like their armed counterparts, 
+they're really taking a beating. I'm not alone in thinking that the shield 
+and encumberance penalties on acrobat are too steep and you might want to
+consider not having them kick in until a player is at least 1/3 encumbered.
+
+I understand that you are telling Monks to be patient until unarmed
+and acrobatic aids are available in game, but that can take months if not
+years to come to fruition. 
+ 
+
+
+unarmed is analogous to parry
+unarmed and acrobat get penalized for encumberance and parry and defence do not.
+armed combat has a 
+
+to hit:to hit= 4 random(40) typcially 160-200 over sum of parry/unarmed +defense+ acrobat) 
+                                                          no-e   e-aff      no-e   e-aff
+then other modifiers dex v dev encumb v weight and v volume
+in unambed encumberance is factored in 3x and just the once in armed
+directly in to-hit
+one penalty on offence and one on defence for armed combat
+one penalty on offence and 3 on defence for unarmed combat.
+
+														  
+mention to him that shields penelty is too steep on acrobat, which is the func eq
+of parry. Shouldn't parry be affected by encumberance as well, and if not, why have acrobat
+affected? In Genesis, in cases like this it makes sense when "realism" sacrificed for 
+functionality.
+
+--glads fatigue cost does not match docs
+
+// anchorite temple / temple of the hours -- a grove of kesoit trees planted in a circle
+// with soft grass in the center
+
+
+white minerals/stones
+limestone 
+dolomite/dolostone(white, pearly luster) gypsum: alabaster(sugary/crystalline, white) selenite (crystalline gypsum transparent to translucent
+calcite (translucent/transparent/white) 
+feldspar (white, pearly luster)
+quartz
+white granite
+
+
+    add_ask(({ "lyrelle" }), &ask_seq(({
+      "say Lyrelle is a decent apprentice, but she needs to learn "+
+      "that Cahor's blessings are more appropriate for this craft.",
+      "say Still her...", "emote seems to searching for the right word.", 
+      "say talents can be... quite enjoyable.", "say And her family may "+
+      "be ranked soon: a good opportunity for someone who knows how to "+
+      "take advantage of it."})), 0);
+	  
+	  
+/*  Zielia and Lucius put this in Rynal in the Ziggurat and I find it really
+ *  useful so I'm importing it.
+ *
+ *  It works like this:
+ *  add_ask(({"gods", "god"}), &ask_sequence (({
+ *      "say Of which one do you speak?",
+ *      "emote sighs impatiently.",
+ *      "emote grumbles: Pick a god, any god, and ask me about that one.",
+ *      "say Otherwise stop wasting my time."})), 0);
+ */
+public string
+ask_seq(string *ask, int count = 0, object tp = TP)
+{
+    set_this_player(tp);  
+  
+    if (count == 0 && am_busy)
+    {
+        command("emote is too busy to answer right now.");
+        return "";
+    }
+        
+    am_busy = 0;
+
+    if (ENV(TO) != ENV(tp))
+        return "";
+        
+    command(ask[count]);
+    
+    if (++count != sizeof(ask))
+        am_busy = set_alarm(2.5, 0.0, &ask_seq(ask, count, tp));
+    
+    return "";
+}
+
+
+
+/*
+ * NAME_TO_RANDOM
+ *
+ * This will return an almost random number within 0 to (range - 1),
+ * based on the (lower case) name of a player. This way, for instance for
+ * quests or other hints, each combination of name, seed and range will
+ * result in the same number and you can use it to generate individual
+ * hints for individual players.
+ *
+ * Arguments: string name  - the lower case name of the player
+ *            int    seed  - a large, unique number. You should select a
+ *                           number of 7 or 8 digits for each different
+ *                           situation you use the macro for.
+ *            int    range - the range of the number [ 0 .. (range - 1) ]
+ */
+#define NAME_TO_RANDOM(name, seed, range) \
+    ((int)MATH_FILE->name_to_random((name), (seed), (range)))
+
+
+/* The quest number for a particular player */
+#define QNUM(x)         (NAME_TO_RANDOM((x)->query_name(), 104, 6) + 1)
+#define QUEST_OB        "_Union_i_qob_num"
+#define QUEST_OB_NAME   "_Union_quest_ob"
+
+
+public int
+solve(string str)
+{
+    int pr;
+    object qob, ob;
+
+    if (!strlen(str) ||
+        !parse_command(str, TP, "[the] %o [back] [to] [the] %s", ob, str))
+    {
+        return NF(CAP(query_verb())+" what?\n");
+    }
+
+    if (TP->test_bit("Avenir", GUILD_GROUP, QUEST_BIT))
+    {
+        write("You have already passed the test.\n");
+        return 1;
+    }
+
+    if (!(pr = ob->query_prop(QUEST_OB)) || (pr != QNUM(TP)))
+    {
+        write("It is not accepted.\n");
+        return 1;
+    }
+
+    write("You hold out "+ LANG_THESHORT(ob) +" to the mist, and "+
+        "a long tedril of white fog wraps around it and takes it.\n");
+    say(QCTNAME(TP) +" holds something out to the mist, and "+
+        "shifting movements can be seen all around.\n");
+
+    ob->remove_object();
+    reward_quest("Union entrance Quest", TP, GUILD_GROUP, QUEST_BIT, 500);
+    LOG_EVENT(TP->query_name() +" solved the entrance quest.");
+    return 1;
+}
+
+public int
+join_guild(string str)
+{
+    int result, qnum;
+    object shadow, qob;
+    string guild, *badguild;
+
+    if (!strlen(str) || !parse_command(str, ({}),
+            "[with] [my] [hand] 'within' [the] 'stone' / 'pendentive'"))
+        return NF("Reach where?\n");
+
+    if (!STATE)
+        return NF("The broken stone is hard and unyielding.\n");
+
+    if (GUILD_CLOSED)
+    {
+        write("Problems have arisen with the Union, making it "+
+            "currently impossible to do that.\nPlease try again "+
+            "later, and perhaps the problem will have been fixed.\n");
+        return 1;
+    }
+    // Player is an enemy of the guild!
+    if (ENEMY(TP))
+    {
+        write("You reach out to touch the stone.\n"+
+            "All you see is a flash of blinding light, and "+
+            "you are thrown to the ground in agony.\n");
+        say(QCTNAME(TP)+" reaches out a hand to touch the stone, "+
+            "and without warning a blast of light from "+
+            "nowhere knocks "+ HIM(TP) +" to the ground.\n");
+
+        TP->add_prop(LIVE_I_BLIND,
+            TP->query_prop(LIVE_I_BLIND) + 10); // blind him...
+
+        set_alarm(100.0, 0.0, &remove_blind(TP));
+        TP->add_fatigue(10000);
+        TP->heal_hp(-1500); // hurt him, but don't kill him
+        LOG_EVENT(NM(TP) +" tried to join, but was an enemy of the guild.");
+        return 1;
+    }
+
+    if (TP->test_bit("Avenir", GUILD_GROUP, PROHIBIT))
+    {
+        if (FRIEND(TP))
+            TP->clear_bit(GUILD_GROUP, PROHIBIT);
+        if (LIST->query_hopeful(TP->query_real_name()))
+            TP->clear_bit(GUILD_GROUP, PROHIBIT);
+        if (LIST->query_accepted(TP->query_real_name()))
+            TP->clear_bit(GUILD_GROUP, PROHIBIT);
+
+        write("The shadows breathe: What you wish has yet to "+
+            "be decided. Your renewed quest for oneness begins with the "+
+            "Elders.\n");
+
+        LOG_EVENT(NM(TP)+" tried to join, but had once been a member.");
+        return 1;
+    }
+
+    if (IS_MEMBER(TP))
+    {
+        write("You are already one with Us.\n");
+        return 1;    }
+
+    if (member_array(TP->query_race(), DENY_RACES) != -1)
+    {
+#ifdef VERBOSE
+        LOG_EVENT(NM(TP)+" tried to join, but was a "+
+          TP->query_race());
+#endif
+        write("The "+ TP->query_race_name() +" is a graceless "+
+            "creature.\nYou are denied.\n");
+        return 1;
+    }
+
+    if (TP->query_guild_member(OCC_TYPE))
+    {
+#ifdef VERBOSE
+        LOG_EVENT(NM(TP)+" tried to join, but already had an occ guild:"+
+            TP->query_guild_name_occ());
+#endif
+        write("You already belong to another guild of this type.\n");
+        return 1;
+    }
+
+    badguild = ({ });
+    guild = TP->query_guild_name_race();
+    if (member_array(guild, DENY_GUILDS) != -1)
+        badguild += ({ guild });
+    guild = TP->query_guild_name_lay();
+    if (member_array(guild, DENY_GUILDS) != -1)
+        badguild += ({ guild });
+    guild = TP->query_guild_name_occ();
+    if (member_array(guild, DENY_GUILDS) != -1)
+        badguild += ({ guild });
+
+    if (sizeof(badguild))
+    {
+        guild = COMPOSITE_WORDS(badguild);
+        write("The "+ OCC_NAME +" forbids members of "+ guild +
+            " from joining.\n");
+        LOG_EVENT(NM(TP)+" tried to join, but was a member of "+
+            guild);
+        return 1;
+    }
+
+    if (!LIST->query_accepted(TP->query_real_name()))
+    {
+        write("You must first be chosen.\n");
+        LOG_EVENT(NM(TP)+" tried to join but was not chosen.");
+        return 1;
+    }
+
+    if (!TP->test_bit("Avenir", GUILD_GROUP, QUEST_BIT) &&
+        !TP->query_wiz_level())
+    {
+        if (TP->query_prop("heard_the_union_quest"))
+        {
+            write("A hollow voice screeches from the shadows: "+
+                "You know what you must do! Begone!\n");
+            return 1;
+        }
+
+        qnum = QNUM(TP);
+        write("A hollow voice whispers from the shadows: You must "+
+            "first prove yourself.\n");
+
+        switch(qnum)
+        {
+        case 1: str = "Return the shard that was lost in "+
+                "the tunnels. Within the element of Hizarbin "+
+                    "shall it be found.\n";
+                break;
+        case 2: str = "A sliver of gemstone was lost upon "+
+                "the high place, beneath which the dead walk. "+
+                    "Return it to us.\n";
+                break;
+        case 3: str = "A forgotten Elder lost his token "+
+                "in a distant garden. Bring it back to us.\n";
+                break;
+        case 4: str = "The ashes of the first Elect have been "+
+                "lost within the green island. Return them to us.\n";
+                break;
+        case 5: str = "The green stone of the flame was lost "+
+                "deep beneath the waters of the winds. Return this.\n";
+                break;
+        case 6: str = "Along sorrowful times the ring of the "+
+                "mighty Elder was lost. It lies deep in the water "+
+                "surrounded by the stone.\n";
+                break;
+        default: str = "A sallow light of forgotten lore you must "+
+                 "return to us, else all be lost.\n";
+                 LOG_ERR(TP->query_name() +" had a bad quest number: "+
+                     qnum);
+                 break;
+        }
+        write("The voice speaks: "+ str);
+        TP->add_prop("heard_the_union_quest", 1);
+        return 1;
+    }
+
+    /* ******* SUCCESS ******* */
+    write("You reach out to the stone, and find that "+
+        "your hand passes right into it.\n");
+    say(QCTNAME(TP) +" reaches "+ HIS(TP) +" hand into the stone.\n");
+    LOG_EVENT(NM(TP) +" joined the guild.");
+
+    foreach(object who : users())
+    {
+        if (!IS_MEMBER(who))
+            continue;
+
+        who->catch_tell("You feel strengthened, for "+
+            TP->query_the_name(who) +" has become one with shadow.\n");
+    }
+
+    shadow = clone_object(OCC_SHADOW);
+    result = shadow->shadow_me(TP, OCC_TYPE, OCC_STYLE, OCC_NAME);
+
+    if (result != 1)
+    {
+        LOG_ERR("ERR "+ TP->query_name() + " failed to have the "+
+            "shadow added. Result code was "+ result);
+
+        shadow->remove_shadow();
+        write("Something has gone wrong!\nYour shadow quivers and "+
+            "seems to fade slightly.\n");
+        return 1;
+    }
+
+    write("Something enters your soul and you feel strengthened.\n");
+    TP->set_union_sphere(SPH_TRAINING);
+    set_alarm(0.5, 0.0, &(TP)->init_occ_shadow());
+
+    if (TP->query_wiz_level())
+    {
+        write("Since you are a wizard, you will need to do the following:\n"+
+            "Call me add_autoshadow /d/Avenir/union/shadow.c:\n"+
+            "Call me add_cmdsoul /d/Avenir/union/occ_soul\n"+
+            "newhooks\n");
+    }
+
+    write("'help union' gives some commands available.\n"+
+        "A small obsidian sphere materializes from the mist "+
+        "in your hand.\nThe cold grey mist parts for a moment, "+
+        "revealing an exit to the north.\n");
+
+    clone_object(TOKEN_OBJ)->move(TP, 1);
+
+    TP->add_cmdsoul(OCC_SOUL);
+    TP->update_hooks();
+
+    TP->clear_guild_stat(SS_OCCUP);
+    TP->set_guild_pref(SS_OCCUP, OCC_TAX);
+    TP->set_skill(OCC_LEVEL, NOVICE);
+
+    /* Make sure the other skills are clear */
+    TP->remove_skill(SS_SWAY);
+    TP->remove_skill(SS_SLASH);
+    TP->remove_skill(SS_FLING);
+
+    LIST->add_member(TP);
+
+    /* Now add some initial restrictions to the new member.  */
+    set_alarm(0.5, 0.0, &restrict_me(TP));
+    return 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SKULLS BLOCKING EXITS
+add_item that checks for room i blocked in the rooms and describes where the skulls
+have fallen
+use add cmd item to point to clearing function
+once the skulls are cleared remove the prop pointing to that exit on both sides 
+via query_exit (returns file name and dir)
+remove skulls prop / function 
+remove add_item and add_cmd item for the fallen skulls.
+
+
+public string
+skulls_desc(void)
+{
+    string str;
+
+    switch(ishard)
+    {
+    case 0:
+	str = "The hollows are completely dark and empty.\n";
+	break;
+    case 1..5:
+	str = "Most of the hollows are empty, but there are a "+
+	    "some which still give off light and contain "+
+	    "shards of glowing crystal.\n";
+	break;
+    case 6..8:
+	str = "Half of the hollows are dark and empty, but the "+
+	    "rest contain small shards of glowing crystal.\n";
+	break;
+    case 9..12:
+	str = "Light shines from most of the hollows. They "+
+	    "contain small shards of glowing crystal.\n";
+	break;
+    case 13..15:
+	str = "The hollows are all giving off light, filled as "+
+	    "they are with small, glowing shards of crystal.\n";
+	break;
+    default:
+	str = "The hollows give off a glowing light which comes "+
+	    "from small shards of crystal.\n";
+	break;
+    }
+
+    return "Hollows have been carved into the white granite. They "+
+	"are located just above eye-level, so as not to cause "+
+	"a glare. "+ str;
+}
+
+public int
+do_move_skulls(string str)
+{
+    int isk; // counter for the skulls that need moving
+
+    notify_fail("Move skulls from which exit?\n");
+    if (!strlen(str))
+	return 0;
+
+    if (!parse_command(str, ({ }),
+	    "[[the] [pile] [of] 'skull' / 'skulls' "+
+	    "[from] [the] "))
+	return 0;
+
+    if (!isk--)
+    {
+    	write("There aren't any skulls left to be moved.\n");
+	    return 1;
+    }
+
+    write("You start moving skulls.\n");
+    say(QCTNAME(TP) + " starts moving the pile of skulls.\n");
+
+    shard = clone_object(HOLM + "obj/shard");
+    shard->set_volume(random(5) + 1);
+    shard->move(TP, 1);
+
+    return 1;
+}
+
+
+
+
+
+/*  This section is causing loading errors.
+ *  Commenting out until work is done
+ 
+string skull_pile_descriptions()
+{
+	string * skull_blocked_directions;
+	for (string prop : TO->query_props())
+	{
+		// If the prop is skull block, add the string to skull_blocked_directions
+	}
+	if (len(skull_blocked_direction))
+	{
+		return "There are skulls blocking the " + COMPOSITE_DEAD(skull_blocked_directions) + "exits.\n";
+	}
+	
+	return "You find no skulls.";
+}
+
+int blocked_with_skulls(string locus, string dir)
+{
+	if (TO->query_prop(ROOM_I_SKULL_BLOCKED _ +_+ " + dir)) 
+	{
+		write("That path is blocked by a pile of skulls.\n");
+		return 1;
+	}
+	if (!random(10)) {
+		write("As you move through the exit, you bump a pile of skulls and they fall down.\n");
+		TO->add_prop(ROOM_I_SKULL_BLOCKED + "_" +dir), 1);
+		object other_room = MASTER_OB(CRYPT+"crypt"+locus);
+		add_item("skulls", skull_pile_descriptions);
+		string this_room = MASTER_OB(TO);
+		if (objectp(other_room))
+		{
+			for (mixed exit : other_room->query_exits())
+			{
+				if (exit[0] == this_room)
+				{
+					other_room->add_prop(ROOM_I_SKULL_BLOCKED + "_" + exit[1], 1);
+					other_room->tell_room("A pile of skulls falls in from the " + exit[1] + ".\n");
+		            other_room->add_item("skulls", skull_pile_descriptions);
+				}
+			}
+		}
+		return 0;
+	}
+	return 0;
+}
+
+
+*
+*   End of commented section
+*/

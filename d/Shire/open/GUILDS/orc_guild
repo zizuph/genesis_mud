@@ -1,0 +1,61 @@
+                      _
+                     / /
+            _______ / /_/--^^^^^^^^ORCS^^^^^^^^^^^^^^^^\
+           {_______| |__>-----------OF------------------>
+                    \ \ \------MIDDLE-EARTH------------/
+                     \_\
+O=======================================================================O
+
+                  Created: May 2005, Altrus the crackpot
+                       /d/Shire/guild/orc_guild/
+
+This guild offers players the chance to become an orc, a previously
+unavailable playable race. Through 'dark sorcery' an elf body can be
+changed into the twisted orcish form, provided that elf is evil enough.
+Although theme-wise it would make sense to have this guild allied with 
+the dark tower, these orcs are more like a lawless pack of lowlifes from 
+all corners of Middle Earth, holding no allegiance other than whatever 
+the individual member claims.
+
+Features:
+One of the neat features is that, while all the possible titles for the
+guild have the same format, the player is given the choice on what it is.
+During the joining process, they are given a list of adjectives, titles,
+and locations to choose from. To join, they 'claim <adj>, <title>, <loc>'.
+For example: 'Altrus the Tenacious Marauder of Lugburz'
+This method was chosen to give the player a greater sense of control, as
+well as allowing these players who want to be orcs the chance to roleplay
+an orc from a number of differnt regions of Middle Earth, instead of 
+locking them into one specific role.
+One other special feature is that orcs (and their uruk-hai brothers) can
+speak in the black tongue. Only the orcs and uruk-hai of Middle Earth
+can understand this foul language (and wizards too of course). 
+
+Taxation:
+SKILL                MAX         UNTAXED      TAXED          TAX%
+=================================================================
+sword                50            30           20(1.5)      0.50
+knife                30            30            0           0.00
+defence              20            20            0           0.00
+blindfighting        50            20           30(2.0)      1.00
+appraise enemy       50            30           20(1.0)      0.33
+climb                40            30           10(1.0)      0.17
+awareness            40            30           10(1.0)      0.17
+location sense       40            30           10(0.5)      0.08
+tracking             50            30           20(1.0)      0.33
+
+taxable slots: 120 
+total tax: 2.58 (round up)-> 3%
+
+Rooms(/d/Shire/guild/orc_guild/rooms):
+Public       Private
+-entry1      -passage1(board)
+-entry2      -passage2
+-food        -start
+-join        -racks
+             -train
+
+The food room offers food and drink to all travellers; there are no 
+special prices for guild members, so no extra tax. The rack room has 
+one crate in it for storing things; there is nothing special about 
+the crate, so no extra tax.

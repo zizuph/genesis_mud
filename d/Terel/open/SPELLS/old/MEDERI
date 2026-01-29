@@ -1,0 +1,7 @@
+Name:               Mederi
+Object:             /d/Terel/mecien/valley/guild/spells/mederi.c
+Cost:               40 mana for yourself, 30 someone else, no components
+Skills:             Life, Abjuration
+Description:        Heals (SS_ELEMENT_LIFE/10 + 10) damage
+Requirements:       Wis > 20
+

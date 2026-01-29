@@ -1,0 +1,14 @@
+
+Topic: read
+
+Commands:
+
+- read ideas
+    Read the ideas written by Rangers in the office outside.
+
+- clear ideas
+    Clear the ideas.
+
+- read kills
+   Read the log of rangers who have killed rangers or other players.
+

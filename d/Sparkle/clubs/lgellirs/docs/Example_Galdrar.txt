@@ -1,0 +1,152 @@
+
+-------------------------------------------------------------------------------
+COMMENT 1A: Dots (.) and other
+non-letter characters must be
+used to space out the words so
+that the one's own name is spelt
+correctly along a vertical line.
+
+COMMENT 1B: At least one kraftord
+('power word' = approved adjective)
+must be somewhere, *anywhere*, in
+the plain text of the galdr. The
+rareness of the rarest kraftord 
+in the galdr determines its score.
+
+EXAMPLE 1:
+(name: vitwitchjr)
+(kraftord: just)
+
+#@!!#@!!#@!!#@!!@#!!@#
+#@!!...revenge....!!@#
+#@!!.....is.......!!@# 
+#@!!...often......!!@#
+#@!!.....weighed..!!@#
+#@!!.....in.......!!@#
+#@!!.....the......!!@#
+#@!!.....centre...!!@#
+#@!!.of.the.heart.!!@#
+#@!!..as.just.....!!@#
+#@!!.....reward...!!@#
+#@!!#@!!#@!!#@!!@#!!@#
+
+
+-------------------------------------------------------------------------------
+COMMENT 2A: Non-letter characters can
+be used as ascii-art in the galdr, which
+can add to its style, but does not affect
+its validity or scoring. Be careful NOT
+to include letters in the ascii-art.
+
+COMMENT 2B: Having more than one kraftord
+can be good because it is not clear how
+rare each one may be. Only the rarest
+kraftord scores for the galdr.
+
+EXAMPLE 2:
+(name: volvaskr)
+(kraftords: relieved,mortal,familiar,cold)
+
+.....................................
+.......................(       ).....
+.....................(      )    )...
+....................(   (         )..
+......................(          )... 
+........................'--\ `\--`...        
+.......Relieved.again......_\ _\.....
+............of.............`\ \......
+.......Mortal.form...........\ \.....
+.........as.victim.over......_\_\....
+......familiar.to.the.touch..`\\.....
+.....of.the.Scythe.so.cold.....\\....
+.......I.seek.Your.favour.and..`\....
+........power.on.my.Return.......\|..
+................................`\|/'
+----------------------------------*--
+
+
+-------------------------------------------------------------------------------
+COMMENT 3: Not every line needs to
+have words which form part of one's
+own name. Be careful that no additional
+letters are placed immediately above or
+below the vertical name.
+
+EXAMPLE 3:
+(name: finwe)
+(kraftords: esteemed,first,high)
+.........................
+...||,...................
+.\.`',/..................
+.= ,. =...Esteemed....... 
+./.||.\..................
+...||.....First..........
+...||....High.King.of....
+...||.the.Noldor...then..
+...||.....Wizard.in.this.
+...||...Age.of.Men.......
+...||....................
+...||....................
+.........................
+
+-------------------------------------------------------------------------------
+COMMENT 4: One's own name can be used
+up to three times in the plain text,
+to fill in letters that may be a
+bit harder to find in words.
+
+EXAMPLE 4:
+(name: vitwitjr)
+(kraftords: obvious,hot,still)
+
+..............................................
+.....Not.obvious................^^^^....^^^^..
+........is.it.that..............|  |....|  |..
+.......creation.by.............^|   ^^^^   |^
+...Men.and.Women.of.Walls.....| |          | |
+.of.Stone.will.still..........| |          | |
+.....the.hot.goblin.passion.to.Rock.the.World;
+..so.Vitwitjr.stands.to.for...................
+......the.breaches.to.come....................
+........  ====)-------------  ................
+..............................................
+
+-------------------------------------------------------------------------------
+COMMENT 5: A galdr can be very simple but
+still perfectly valid. It does not need
+to form a sentence, or even make any
+sense.
+
+EXAMPLE 5:
+(name: arman)
+(kraftord: magic)
+
+.all
+.rabbits
+.magic  
+tavern
+.now
+
+-------------------------------------------------------------------------------
+COMMENT 6: One can't always muse the words one would
+like and often a substitution is needed to get the
+job done. For example, in the galdr below, the wanted
+word was 'Keeper', but it couldn't be found, so
+'King' was used instead.
+
+EXAMPLE 6:
+(name: cherek)
+(kraftords: constant,real)
+ 
+~~~~~~~~~~~~~~~~~~~~~
+......Constant.......
+..is.the.............
+.....tension.between.
+lives.real...........
+.and.realms.for.the..
+......King...........
+~~~~~~~~~~~~~~~~~~~~~
+
+-------------------------------------------------------------------------------
+
+

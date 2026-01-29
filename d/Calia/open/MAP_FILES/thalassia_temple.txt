@@ -1,0 +1,29 @@
+main
+::MAPDATA::
+temple1 23 7
+temple2 19 7
+temple3 15 7
+temple4 15 5
+temple5 15 3
+temple6 19 3
+temple7 23 3
+temple8 27 3
+temple9 31 3
+temple10 31 5
+temple11 31 7
+temple12 27 7
+
+::MAPDATA::
+
+          /|==========   ==========|\
+         / |           |           | \
+        /  |   o - o - o - o - o   |  \
+       /   |   |               |   |   \
+      (    |   o  ===========  o   |    )
+       \   |   |               |   |   /
+        \  |   o - o - o - o - o   |  /
+         \ |           |           | /   @~~~~~~~~~~~~~~~@
+          \|==========   ==========|/     ) Royal Palace )
+                                         (      of      (
+                                          )  Thalassia   )
+                                         @~~~~~~~~~~~~~~~@

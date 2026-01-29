@@ -1,0 +1,27 @@
+
+I make polearms of the types, metals, lengths and decorations listed below.
+To order an item, use the command "porder" followed by the type, metal,
+length and decoration. Here are some possible examples: 
+
+    "porder halberd silver medium fiery"
+or 
+    "porder fauchard steel long runed"
+or
+    "porder trident bronze short sleek"
+
+
+Here are the possible types, metals, lengths and decorations: 
+
+Weapon types (all have equal effectiveness):
+halberd, fauchard, trident 
+
+Metals (from best down for quality of weapon):
+steel, silver, bronze
+
+Lengths (the longer the more effective, though the short polearms 
+         are the only ones that may be wielded in one hand) :
+long, medium, short
+
+Decorations (on the haft, purely decorative):
+fiery, sleek, runed
+

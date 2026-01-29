@@ -1,0 +1,17 @@
+  This is the public training hall of the city of Tyr.
+The actual training is handled by an npc: Vrena.
+ 
+Room File  : /d/Cirath/tyr/merchant/trainhll.c
+NPC Trainer: /d/Cirath/tyr/npc/trainer.c
+ 
+        Skills        Maximum
+         SS_WEP_KNIFE    25   
+         SS_WEP_CLUB     20   
+         SS_WEP_SWORD    15
+         SS_WEP_AXE      10   
+         SS_APPR_MON     30  
+         SS_ANI_HANDL    20   
+         SS_HUNTING      30  
+         SS_AWARENESS    40
+         SS_TRADING      30   
+                 Total  220

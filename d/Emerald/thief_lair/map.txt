@@ -1,0 +1,136 @@
+The Bandits Lair. Proposed Map.
+Casimir, March 1999.
+
+
+          
+	    	
+     11	 store_inventory 	
+       \ /
+   10 - 9
+        |
+        8
+        |
+        7          4
+	v	 /
+	6 - 5 - 3 
+		|	
+		2
+		|
+		1
+		|
+		B
+		^
+		A 
+
+
+A - The base of a cliff along some path or other. Climbing the cliff
+    (requiring decent climbing skill) will lead to B.
+
+B - A ledge along the cliff where some large bushes have managed to
+    grow. The bushes conceal the stout entrance to a cave. Tall
+    inviduals may have to to stoop to enter.
+
+1 - The small mouth of the cave.
+
+2 - Passage which widens (and becomes taller) as one progresses along
+    it.
+
+3 - Large Cavern.
+
+4 - Dead end of Large Cavern.
+
+5 - Large Cavern.
+
+6 - Top level of the large cavern ends at a cliff face, which leads
+    down to a stream, below. A rope ladder leads down, and a platform
+    can be found to allow one to lower ones equipment down , as well.
+
+7 - Base of the rope ladder/platform. 7 concealed bandits guard this
+    location. A stream runs along the ground here. As one enters
+    the chamber, the bandits reveal themselves. There will be 3
+    "thieves" and 3 "thugs" here, and one who can be considered
+    lieutenant level figure. This later will welcome friends of
+    the bandits, allowing them to pass further into the cavern.
+ 
+    Individuals known to be unfriendly to the bandits will be 
+    attacked on sight. Individuals whom the bandits do not know
+    will be questioned regarding their intent:
+
+    The bandit asks: "What are you doing here?" You get the impression
+    that he wishes you to RESPOND to his question with a single
+    word.
+
+    Any of a number of standard responses will allow one to head
+    further into the cave. Other responses will illicit only a
+    stony-glare, and an order to be gone. Individuals who do not
+    respond appropriatly within a given length of time (2 minutes
+    seems reasonable) will be attacked.
+
+    Should the bandits attack, one of the thieves will head north,
+    to "warn" the rest of the group. The thugs and lieutenant
+    will engage individuals in melee, concentrating on foes who
+    seem most easily struck down first. (Probably a check for
+    defence skill). They will use their specials to best effect,
+    but will flee if reduced to a BAD SHAPE or worse. They will
+    not allow any to pass while fighting them. The two thieves
+    who remain will not engage in melee, but will shoot crossbow
+    bolts at their foes at regular intervals, for devestating
+    results. The other bandits will prevent anyone from attacking
+    those thieves, as long as they do not flee. The thieves flee
+    if engaged in melee. Fleeing bandits all end up at 9.
+
+    The bandits will lower the platform (and anything placed on
+    it) to this level, for friends only.
+
+8 - Along the stream. I may conceal two thieves who will backstab
+    enemies who fought their way past 7, then flee to 9.
+
+9 - Main bandit camp. A large cavern, with a fissure in the ceiling
+    allow the egress of smoke from the campfire. I would say
+    about 16 bandits would be here, mostly human, with perhaps
+    an elf or two, led by a leader who will give out the quest,
+    if approached about how they can help him, etc.
+
+    Players may purchase food from the the bandits (there is some 
+    meat roasting over the fire), though
+    the price will be exhorbitant. The bandits will not willingly
+    part with their limited supplies of alcohol. ;)
+
+    The bandits will not allow access to 10, or 11. Enemies who
+    make it as far as this cavern face almost certain death, as 
+    the bandits will not allow any one to leave until several
+    of their number are slain.
+
+    There is also a "shopkeeper" here, who will deal with PCs
+    who are known to be friendly, allowing them to sell the
+    goods stolen from the elvish patrols. The inventory for
+    the shop is store_inventory. (naturally)
+
+10  Supply room. Supplies useful to the bandits (specifically,
+    food and drink - maybe some other trinkets) are kept here. 
+
+11  Should anything like my proposed hostage quest be coded, this
+    alcove of the cavern is where the hostage will be kept.
+
+store_inventory - Will actually be accessible to players who 
+	can fight their way into it. Attacking the burly
+	shopkeeper will result in the players being forced
+	into cave9 where they will be set upon by the whole
+	troop of bandits. Not recommended if you want a high
+	life expectancy. 
+
+	Since players can obtain the store inventory, it will be
+	limited to ten items at a time. (The bandits have quick
+	turn around times for the goods they buy).
+ 
+	
+          
+    
+
+
+
+
+
+
+
+

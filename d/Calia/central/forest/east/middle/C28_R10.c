@@ -1,0 +1,9 @@
+//Room type {x}
+
+inherit "/d/Calia/central/forest/baserooms/base_interior";
+
+void create_room()
+    {
+    create_tree("C28_R10", ({"C28_R09", "C29_R09", "C29_R10",
+        "C29_R11", "C28_R11", "C27_R11", "C27_R10", "C27_R09"}), "cedar");
+    }

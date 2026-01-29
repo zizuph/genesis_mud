@@ -1,0 +1,69 @@
+        Elven Archers of Ansalon PROPOSED SKILL CHANGES
+
+SKILL NAME      SKILL LVL     TAXABLE    TAX MOD    TAX PAID 
+============================================================
+--OCC--
+SS_WEP_MISSILE    90 (100)       60 (70)
+SS_WEP_SWORD      75             45          
+SS_DEFENCE        75             45
+SS_SNEAK          85             65         
+SS_HIDE           85             65         
+SS_TRACKING       75             45         
+SS_HUNTING        75             45        
+SS_AWARENESS      85             55         
+
+SS_SPELLCRAFT     40             20        
+SS_ELEMENT_LIFE   40             20        
+SS_FORM_CONJURATION 40           20  
+SS_FORM_TRANSMUTATION 40         20                    
+
+SPECIAL: AMBUSH   100
+
+============================================================
+TOTAL     
+============================================================        
+
+--LAY--
+SS_WEP_MISSILE    60             30        1.0       0.50% 
+SS_SNEAK          60             40        1.0       0.67%
+SS_HIDE           60             40        1.0       0.67% 
+SS_TRACKING       50             20        1.0       0.33%
+SS_HUNTING        50             20        0.5       0.17%
+SS_AWARENESS      60             30        1.0       0.50%
+
+SS_SPELLCRAFT     40             20        1.0       0.33%
+SS_ELEMENT_LIFE   40             20        1.0       0.33%
+SS_FORM_CONJURATION 40           20        1.0       0.33% 
+SS_FORM_TRANSMUTATION 40         20        1.0       0.33% 
+SS_HERBALISM      40             20        1.0       0.33%
+
+SPECIAL: AMBUSH   60
+
+============================================================
+TOTAL            540            280                  4.49%
+============================================================
+
+TODO Special attack:
+Ambush, bow initiating atack based on mudlib backstab functions
+/cmd/live/thief.c
+
+
+Proposed spells are:
+SUMMON FALCON (~elven_archers/spells/messenger.c): 
+TODO - Updated to the new magic system
+/d/Genesis/specials/std/spells/summon.c
+
+Minor class 1 spell allows the summoner to call a
+peregrine falcon to him to act as his messenger. 
+
+ELF VISION (~elven_archers/spells/darkvision.c):
+TODO - Updated to the new magic system
+/d/Genesis/specials/std/spells/summon.c
+TODO - extend duration based on spell power.
+
+FAST SHOT
+TODO - create a haste based spell that works while wielding
+a bow
+
+REGROWTH (~elven_archers/spells/herbgrowth.c): 
+TODO- Remove spell

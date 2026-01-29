@@ -1,0 +1,174 @@
+bite                                    Bite
+bite in the knee-cap                    Bite
+deep bite                               Bite
+bloody teeth                            Bite, Teeth
+teeth                                   Bite, Teeth
+brutal head butt                        Head Butt                
+devastating head butt                   Head Butt
+hammering head butt                     Head Butt
+head butt                               Head Butt
+knobby head                             Head Butt
+mohawk-haired head butt                 Head Butt
+skull-crushing head butt                Head Butt
+skull-shattering head butt              Head Butt
+skull-splitting head butt               Head Butt
+deadly head crunch                      Head Butt, Crunch
+large, unyielding forehead              Head Butt, Forehead
+granite skull                           Head Butt, Skull
+pile driver                             Hold
+crush                                   Hold, Crush
+grim crush                              Hold, Crush
+shoulder flip                           Hold, Flip
+death grip                              Hold, Grip
+bear hug                                Hold, Hug
+bone-breaking bear hug                  Hold, Hug                
+body slam                               Hold, Slam
+grim body slam                          Hold, Slam
+aerial spinning wheel kick              Kick
+crescent kick                           Kick
+deadly spinning back kick               Kick
+devastating drop kick                   Kick
+flash kick                              Kick
+front kick                              Kick
+kick                                    Kick
+mule kick                               Kick
+shin kick                               Kick
+snap kick                               Kick
+spinning back kick                      Kick
+spinning hook kick                      Kick
+spinning reverse kick                   Kick
+vicious groinkick                       Kick
+violent kick                            Kick
+jumping kick                            Kick, Jumping
+powerful jumping kick                   Kick, Jumping
+knee                                    Kick, Knee
+reverse kick                            Kick, Reverse
+flying side kick                        Kick, Side
+side kick                               Kick, Side
+leg sweep                               Kick, Sweep
+lethal Athasian sweep                   Kick, Sweep
+bone-breaking double punch              Punch                   
+deadly power punch                      Punch
+lightning-quick thorax punch            Punch
+nose-breaker punch                      Punch
+one-inch punch                          Punch
+powerful belly-punch                    Punch
+rabbit punch                            Punch
+straight punch                          Punch
+sudden punch                            Punch
+backhand                                Punch, Backhand
+devastating spinning backfist           Punch, Backhand
+vicious backhand                        Punch, Backhand
+vicious backhand                        Punch, Backhand
+critical blow                           Punch, Blow
+crushing death blow                     Punch, Blow
+extremely violent blow                  Punch, Blow
+killing blow                            Punch, Blow
+lethal forceful blow                    Punch, Blow
+series of merciless blows               Punch, Blow
+skull-crushing blow                     Punch, Blow
+bone-cracking elbow                     Punch, Elbow
+elbow smash                             Punch, Elbow
+leaping elbow smash                     Punch, Elbow
+lethal elbow smash                      Punch, Elbow
+nose-crushing elbow smash               Punch, Elbow
+finger jab                              Punch, Finger
+bleeding fists                          Punch, Fist
+bloody fists                            Punch, Fist
+fist between the eyes                   Punch, Fist
+hammer fist                             Punch, Fist
+hardened fist                           Punch, Fist
+iron fist                               Punch, Fist
+mighty fists                            Punch, Fist
+bloodied forearms                       Punch, Forearm
+forearm                                 Punch, Forearm
+forearm smash                           Punch, Forearm
+sinewy forearms                         Punch, Forearm
+powerful forearms                       Punch, Forearms
+eye gouge                               Punch, Gouge
+axe hand                                Punch, Hand
+knife hand                              Punch, Hand
+under-belt hit                          Punch, Hit
+left jab                                Punch, Jab
+right jab                               Punch, Jab
+bloody palm                             Punch, Palm
+callused palm                           Punch, Palm
+palm                                    Punch, Palm
+vicious poke                            Punch, Poke
+back-handed head slap                   Punch, Slap
+ear-ringing slap                        Punch, Slap
+hammering overhead smash                Punch, Smash
+two-handed smash                        Punch, Smash
+pulverizing adam strike                 Punch, Strike
+bone-shattering uppercut                Punch, Uppercut
+fierce uppercut                         Punch, Uppercut
+haymaker                                Punch, Uppercut          
+left uppercut                           Punch, Uppercut
+right uppercut                          Punch, Uppercut
+uppercut                                Punch, Uppercut
+excellent roundhouse                    Roundhouse
+extremely powerful roundhouse           Roundhouse
+lightning quick roundhouse              Roundhouse
+roundhouse                              Roundhouse
+spinning roundhouse                     Roundhouse
+backpack                                Special, Backpack
+shackles                                Special, Chains
+last victim's corpse                    Special, Corpse
+dance of death                          Special, Dance
+keg of tasty brew                       Special, Drink
+bowl of piping hot soup                 Special, Food
+huge catfish                            Special, Food
+leg of mutton                           Special, Food
+necklace                                Special, Jewelry
+statue of The High Overseer             Special, Statue
+full weight                             Special, Weight
+blinding flurry of attacks              Special, Whirlwind
+whirlwind of attacks                    Special, Whirlwind
+bone-crushing shoulder tackle           Tackle               
+crushing tackle                         Tackle
+devastating tackle                      Tackle
+tackle                                  Tackle
+vicious tackle                          Tackle
+hurling, screaming body                 Tackle, Body
+Athasian berserker charge               Tackle, Charge
+bone-crushing charge                    Tackle, Charge
+charge                                  Tackle, Charge
+courageous charge                       Tackle, Charge
+insane gladiator charge                 Tackle, Charge
+mighty charge                           Tackle, Charge
+strong charge                           Tackle, Charge
+vicious charge                          Tackle, Charge
+bellybutt                               Tackle, Rush
+bull rush                               Tackle, Rush
+bum rush                                Tackle, Rush             
+frenzied rush                           Tackle, Rush
+bloodied shoulder                       Tackle, Shoulder
+crushing shoulder-slam                  Tackle, Shoulder
+devastating shoulder bash               Tackle, Shoulder
+granite shoulder                        Tackle, Shoulder
+right shoulder                          Tackle, Shoulder
+rock-hard shoulder bash                 Tackle, Shoulder
+shoulder                                Tackle, Shoulder
+shoulder bash                           Tackle, Shoulder
+battle slam                             Tackle, Slam
+power slam                              Tackle, Slam
+pulverizing full-body slam              Tackle, Slam
+devastating smash                       Tackle, Smash
+vicious smash                           Tackle, Smash
+grim trample                            Tackle, Trample
+"borrowed" weapon                       Weapon
+deathly sharp spike                     Weapon
+hidden shinai                           Weapon
+improvised weapon                       Weapon
+weapon                                  Weapon
+spiked shoulder armor                   Weapon, Armor
+rain of arrows                          Weapon, Arrows
+axe haft smash                          Weapon, Axe
+bone-cutting axe throw                  Weapon, Axe
+power axe thrust                        Weapon, Axe
+boot to the head                        Weapon, Boot
+spiked mithril fist                     Weapon, Gauntlet
+wrist-razors                            Weapon, Razor
+razor slash                             Weapon, Slash
+wicked backhand slash                   Weapon, Slash
+END

@@ -1,0 +1,125 @@
+~forest/std/o_room_base	-following text messages should be fixed up for tod_descr:
+				case MIDNIGHT - It's should be 'It is'
+				case NIGHT - 'casts dark shadows' rather than 'draws dark..'
+				cast AFTERNOON - doesn't make sense if it is winter. You 
+				wouldn't feel the heat.
+			
+
+~forest/room/forest1	-the long description needs a bit of fixing up.  '..Through the 
+			three trunks you notice...'  Shouldn't three be tree?
+			-following add_items are missing: (tree trunks, trunks), (sea)
+			-the description of the forest needs a space between 'forest'
+			and 'floor' (you spelt it forestfloor)
+
+~forest/room/forest2	-needs add_item (tree trunks, trunks) and (pier, Nethosak pier)
+			-the description of the forest needs a space between 'forest'
+			and 'floor' (you spelt it forestfloor). Looks like all outdoor rooms
+			have this problem.. 
+
+~forest/room/forest3	-You could probably change the add_item for underbrush to show 
+			you can go northeast.
+			-the description of the forest needs a space between 'forest'
+			and 'floor' (you spelt it forestfloor). You may also want to add 
+			in this description that you can make your way through the 
+			underbrush to the northeast.
+
+~forest/room/forest4, forest5, forest6	- It would probably be a good idea to show somewhere
+					(either the long description or in an add item)
+					directions of where you can go through the underbrush.
+
+~forest/room/forest7	- As above with the hidden exit.
+			-There should be an add_item for 'clearing'
+			-in the long description, there should be no s at the end of 'blocks'
+			-in the add item for 'peaks' there should be no , after isle
+			-in the add item for 'peaks', you have an extra space after 'mountain peaks '
+			so it doesn't allow you to examine mountain peaks.
+
+~forest/room/forest9	-no add_item for clouds
+
+~forest/room/forest20	-no add_item for tall oak trees
+			-As with forest4,5,6 with hidden exits.
+
+~forest/room/forest21	- this room isn't on the map
+			-Long description says the path stretches away in many directions, but
+			you can only go in one.  
+
+~forest/room/forest22	-this is a gloomy part of the forest.. you may want to change the 
+			add item to reflect this.
+			-in long description, no , after thin mist of rain.
+			-needs an add_item for (mist of rain, mist, rain, thin mist)
+			
+~forest/room/forest23, forest 25	-as above
+
+~forest/room/forest24	- Its still too hard to find the hut.  Have an add_item for 'shadows'
+			Saying 'The shadows of the forest could contain anything. It could do
+			with a thorough search.'  That way at least the players have a clue
+			that the hut is around here.
+			-as above about the gloomy forest.
+
+~forest/npc/boar	-Why on earth is its file name 'boar' when it is a wolf?
+			-Its stats are way too high.  Drop all of them by around 50.
+			-You may also want to make it that you can cut wolf skins from
+			them, and that you can sell them for a decent price in Mithas.
+			-Do a cbs on them.. they have a wierd bug with their hit areas.
+			I think it is because you haven't made the %hit and %use add up
+			to 100%
+
+~forest/room/hut	-No , after hut in the first line of the long description.
+
+~forest/npc/deer	-As with wolf (er boar) the stats are too high, and there is a bug
+			with the %hit and %use. Plz fix.
+			-As with wolf, you may want to make it you can cut off antlers and
+			sell them.
+
+~forest/room/forest19	-The add_item 'mountain peaks' needs to be fixed up as above.
+
+~forest/npc/fox		-As with deer and wolf, too high stats, %hit and %use bug.
+
+~forest/room/forest15	-No add_item for clearing.
+			-The add_item 'mounain peaks' needs to be fixed up as above.
+
+~forest/room/forest14	-No add_item for clouds
+
+~forest/room/forest11	-In long description, need a space before Thin sun
+			-Some hint that there is an exit east would be good.
+
+~forest/room/forest12	-In long description, it says that the path leads in a number of
+			directions.. there is only one exit out to the west.
+
+
+
+
+
+         ...ooOO     The Forest of Mithas    OOoo...
+-------------------------------------------------------------
+ 
+    Nethosak
+       |
+       o
+       |                                    Nethosak --o
+       o   o--o                                        |
+        \ /   |                                        o
+         o    o                               o        |
+          \                                  /|\   o-o-o
+        o--o--o                          o--o o o  |  /
+           |   \                         |      /\ o-o
+           o    o--o--o                  o-o-o-o  \ /
+           |    |  |                     |         o
+           o--o o  o--o Nethosak  o      o         /
+           |     \           |    |     /         /
+           o      o    o-o   o    o--o-o   1 o-o-o
+            \    / \   | |   |   /   |  \ /  |   |
+             o--o   o--o o-o-o--o--o o   o   o-o-o
+-- More -- 20 -- (<cr> t b r n a <num> q x !<cmd> h ?) --
+                 \  |   \    |  |   /    |  /
+                  o o o-o-o  o  o  o     o 1
+         \  \    /  |   |    |     |    / \
+          \  \  o   o   o    o--o--o-o o   o
+           \  \    / \ /    /   |   \ /
+            \  \  o   o    o    o    o
+             |  \      \  /    /
+             |  | o--o--o     o--o
+     Stream  |  |
+             |  |
+             \   \
+ 

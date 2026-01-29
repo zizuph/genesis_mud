@@ -1,0 +1,1503 @@
+====================================
+ELEMENTAL CLERICS SPELLS SUMMARY
+====================================
+
+Spell Name         Spell Description                   CAID            Branch
+=============================================================================
+---------------------------- CHILD SPELLS -----------------------------------
+anemos             fartell                                             All
+apodosi            teleport spell                                      All
+elefrinisi         relieve encumbrence spell                           All
+pyrofosti          light                                               All
+choma              summon familiar spell                               All
+schirmo            elemental shield spell          25% Layman          All
+unteristi          spell resistance spell          25% Layman          All
+aleipso            heal spell                      55% Occ             All
+dynami             stat boost spell                30% or 60% Occ      All
+evimero            haste spell                     30% or 60% Occ      All
+thafloga           fire attack spell               40% Occ             All
+magikos            identify magic                                      All
+siopi              emote silence                                       All
+-------------------------- MASTER SPELLS -------------------------------------
+enkav              burn - at will spell            50% Occ             Fire
+astrapi            lightning - at will spell       45% Occ             Air
+kryo               frostbite - at will spell       40% Occ             Water
+oxy                acid spray - at will spell      40% Occ             Earth
+ousia              essence shatter - at will       45% Occ             Spirit
+aleipso            greater heal spell             F65/A70/W80/E80/S70  All
+anagnorizo         true identity                                       All
+skiamorfi          elemental form                                      All
+viloda             fireball                        85% Occ             Fire
+ripi               air gust                        75% Occ             Air
+krystallos         frost bolt                      70% Occ             Water
+onkolithos         boulder                         70% Occ             Earth
+diochetevo         soul drain                      75% Occ             Spirit
+anavo              ignite mana                     45% Occ             Fire
+afoplizo           disarm target                   45% Occ             Air
+dilitirio          health poison target            45% Occ             Water
+livra              pound armour/body               60% Occ             Earth
+tihosskias         shadow wall                     45% Occ             Spirit
+tromazo            alarm                                               Fire
+paradido           teleport to player                                  Air
+kinisi             delivery item                                       Water
+diakopi            break gem                                           Earth
+thesi              scry                                                Spirit
+teichos            fire wall                       40% Occ             Fire
+apofevgo           evade damage                    50% Occ             Air
+pano               raise elemental resistance      50% Occ             Water
+aspida             regen health                    25% Occ             Earth
+kato               lower elemental resistance      50% Occ             Spirit
+-------------------------- MASTER GURU SPELLS --------------------------------
+enkav              burn - at will spell            70% Occ             Fire
+astrapi            lightning - at will spell       60% Occ             Air
+kryo               frostbite - at will spell       50% Occ             Water
+oxy                acid spray - at will spell      50% Occ             Earth
+ousia              essence shatter - at will       60% Occ             Spirit
+aleipso            major heal spell              F85/A90/W100/E100/S90 All
+giatreou           neutralize poison                                   All
+viloda             fireball                       100% Occ             Fire
+ripi               air gust                        95% Occ             Air
+krystallos         frost bolt                      90% Occ             Water
+onkolithos         boulder                         90% Occ             Earth
+diochetevo         soul drain                      95% Occ             Spirit
+fragmos            slow player                    F60/A60/W60/E60/S60  All
+seira              detect alignment/killer                             Fire
+metafora           enhanced teleport                                   Air
+treximo            blink behind target                                 Water
+diasosi            blink target behind caster                          Earth
+aorato             invisibility                                        Spirit
+panikos            reduce panic                                        Fire
+trefo              summon food/water                                   Air
+antistasi          detect resistances                                  Water
+kourasi            reduce fatigue                                      Earth
+vekpos             turn undead                                         Spirit   
+-------------------------- FINAL MASTER SPELLS -------------------------------
+syndyasmos         see table below                F60/A60/W60/E60/S60  see table
+
+
+(sorry for the non-conformed formatting on the table below)
+
+       |    FIRE         |      AIR        |     WATER      |     EARTH      |   SPIRIT      |
+==============================================================================================
+       | viloda/viloda   |  disarm all     | poison (health/| pound armour/  | blind (stun)  |
+FIRE   | mass harm all   |  enemies in     | mana) on all   | body (all      | all enemies   |
+       | enemies in room |  room (possible | enemies in room| armours on one | in room       |
+       |                 |  break weapon)  |                | target)        |               |
+==============================================================================================
+       | viloda/ripi     | disarm all      | plague (stat)  | pound armour/  | knock down    |
+AIR    | mass harm all   | enemies in room | poison on all  | body (all      | (stun) all    |
+       | enemies in room | (possible break | enemies in room| armours on one | enemies in    |
+       |                 | weapon)         |                | target)        | room          |
+==============================================================================================
+       | viloda/krystall |  disarm all     | health poison  | pound armour/  | freeze (stun) |
+WATER  | mass harm all   |  enemies in     | on all enemies | body (all      | all enemies   |
+       | enemies in room |  room (possible | in room        | armours on one | in room       |
+       |                 |  break weapon)  |                | target         |               |
+==============================================================================================
+       | viloda/onkolith |  disarm all     | burden poison  | pound armour/  | paralyze      |
+EARTH  | mass harm all   |  enemies in     | on all enemies | body (all      | (stun) all    |
+       | enemies in room |  room (possible | in room        | armours on one | enemies in    |
+       |                 |  break weapon)  |                | target)        | room          |
+==============================================================================================
+       | viloda/diochet  |  disarm all     | mana poison    | pound armour/  | bind (stun)   |
+SPIRIT | mass harm all   |  enemies in     | on all enemies | body (all      | all enemies   |
+       | enemies in room |  room (possible | in room        | armours on one | in room       |
+       |                 |  break weapon)  |                | target)        |               |
+==============================================================================================
+
+
+==================================================
+ELEMENTAL CLERICS SPELLS DESCRIPTION AND BREAKDOWN
+==================================================
+
+============
+Child Spells
+============
+
+Anemos (Fartell)
+================
+Effect              : Communicate with known players
+Element             : Air
+Form                : Conjuration
+Acquire Level       : Child/1 Guildstat
+Area of effect      : One Target Anywhere
+Spell Class Level   : Power 1 - Very Minor Spells
+Components          : None
+CAID                : None
+Tax                 : 0.15%
+
+Apodosi (Teleport Home/Saved Location)
+======================================
+Effect              : Transports caster back to the Elemental Temple for all
+                      branches (or to a saved location after a delay for air
+                      branch only).
+Element             : Air
+Form                : Conjuration
+Acquire Level       : Child / 1 guild stat
+Area of effect      : Self
+Spell Class Level   : Power 2 - Minor Spell
+Components          : None
+CAID                : None
+Tax                 : 0.375%
+    
+Elefrinisi (Featherweight)
+==========================
+Effect              : Reduces the overall weight of the user's carrying
+                      capacity. Based on the featherweight spell. Factor of
+                      140 set (means caster can carry 40% more things).
+Element             : Earth
+Form                : Enchantment
+Acquire Level       : Child / 1 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 2 - Minor Spell
+Components          : None
+CAID                : None
+Tax                 : 0.375%
+					  
+Pyrofosti (Light)
+======================
+Effect              : Provides one level of magical light
+Element             : Fire
+Form                : Abjuration
+Acquire Level       : Child / 1 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 1 - Very Minor Spell
+Components          : None
+CAID                : None
+Tax                 : 0.15%
+
+Choma (Summon Elemental)
+========================
+Effect              : Summons an elemental to help carry things. It's
+                      mostly a thematic part of the guild.
+Element             : Life
+Form                : Conjuration
+Acquire Level       : Child / 1 guild stat
+Area of effect      : Self
+Spell Class Level   : Power 2 - Minor Spell
+Components          : None
+CAID                : None
+Tax                 : 0.375%
+
+Schirmo (Elemental Shield)
+==========================
+Effect              : Summons one of five different Elemental Shields.
+Element             : Depends (Earth, Fire, Air, Water or Spirit)
+Form                : Abjuration
+Acquire Level       : Child / 1 guild stat
+Area of effect      : Caster
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 25% (Layman)
+Tax                 : 0.75%
+					  
+Unteresti (Elemental Resistance)
+================================
+Effect              : Adds 25% combat aid worth of elemental resistance for
+                      fire, earth, water, air, and death.
+Element             : Primary Element (Earth, Fire, Air, Water, Spirit)
+Form                : Abjuration
+Acquire Level       : Child / 1 guild stat
+Area of effect      : Caster
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 25% (Layman)
+Tax                 : 0.75%
+
+Aleipso (Lesser Heal)
+=====================
+Effect              : Restores lost HP or damage Undead
+Element             : Water
+Form                : Enchantment
+Acquire Level       : Child / 1 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 55% (Occupational)
+Tax                 : None - Taxed based on full power below (see Aleipso 
+                      (Major Heal) below)
+Special Description : This spell is replaced by greater versions of itself as 
+                      the player progresses in the guild.
+
+Dynami (Stat Boosts)
+====================
+Effect              : Adds boost to Strength (10%/20%), Constitution (10%/20%), 
+                      and Discipline (7.5%/15%).
+Element             : Earth
+Form                : Enchantment
+Acquire Level       : Child / 1 guild stat
+Area of effect      : Caster
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 30% or 60% (Layman)
+Tax                 : 0.75%
+Special Description : This spell has a 30% CAID (Strength 10%/Constitution 10%
+                      /Discipline 7.5%) or 60% CAID (Strength 20%/Constitution
+                      20%/Discipline 15%) - it scales depending on the
+                      combination of the other buff spell (Evimero). If 
+                      only this spell is active it is 60% CAID. If Evirmero 
+                      spell is active they are each 30% CAID.
+
+Evimero (Haste)
+===============
+Effect              : Adds boost to haste (25%/50%) ability.
+Element             : Earth
+Form                : Enchantment
+Acquire Level       : Child / 1 guild stat
+Area of effect      : Self
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 30% or 60% (Layman)
+Tax                 : 0.75%
+Special Description : This spell has a 30% CAID (25% haste boost)
+                      or 60% CAID (50% haste boost) - it scales 
+                      depending on the combination of the other buff spell
+                      (Dynami). If only this spell is active it is 60% CAID. 
+                      If Dynami spell is active they are each 30% CAID.
+
+Thafloga (Fire Tendrils At-Will)
+================================
+Effect              : Attacks a single enemy with fire-based tendril attacks
+                      Combat aid of 40% given for an at-will based spell.
+Element             : Fire
+Form                : Abjuration
+Acquire Level       : Child / 1 guild stat
+Area of effect      : One opponent in same room
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 40% (Occupational)
+Tax                 : None - Taxed based on full power below (see Enkav/Astrapi
+                      /Kryo/Oxy/Ousia below)
+Special Description : This spell is replaced by Enkav/Astrapi/Kryo/Oxy/Ousia 
+                      below once player has reached Master Cleric rank and 
+                      has selected a branch.
+					  
+Magikos (Detect Magic)
+======================
+Effect              : Detects magical attributes of item
+Element             : Life
+Form                : Divination
+Acquire Level       : Child / 20 guild stat
+Area of effect      : One present item
+Spell Class Level   : Power 2 - Minor Spell
+Components          : None
+CAID                : None
+Tax                 : 0.375%
+
+Siopi (Emote Silence)
+=====================
+Effect              : Silences target
+Element             : Air
+Form                : Enchantment
+Acquire Level       : Child / 30 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 2 - Minor Spell
+Components          : None
+CAID                : None
+Tax                 : 0.375%
+Special Description : NOTE: Cannot be cast in combat
+    
+=============
+Master Spells
+=============
+
+Enkav (Burn at-will)
+====================
+Effect              : Burns target
+Element             : Fire
+Form                : Abjuration
+Acquire Level       : Master / 41 guild stat
+Area of effect      : One opponent in same room
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 50% (Occupational)
+Tax                 : None - Taxed based on full power below (see Enkav below)
+Special Description : This spell is fire branch only.    
+
+Astrapi (Lightning at-will)
+===========================
+Effect              : Strikes target with lightning
+Element             : Air
+Form                : Abjuration
+Acquire Level       : Master / 41 guild stat
+Area of effect      : One opponent in same room
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 45% (Occupational)
+Tax                 : None - Taxed based on full power below (see Astrapi 
+                      below)
+Special Description : This spell is air branch only. 
+
+Kryo (Frostbite at-will)
+========================
+Effect              : Frostbites target
+Element             : Water
+Form                : Abjuration
+Acquire Level       : Master / 41 guild stat
+Area of effect      : One opponent in same room
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 40% (Occupational)
+Tax                 : None - Taxed based on full power below (see Kryo below)
+Special Description : This spell is water branch only. 
+
+Oxy (Acid Spray at-will)
+========================
+Effect              : Acid Sprays target
+Element             : Earth
+Form                : Abjuration
+Acquire Level       : Master / 41 guild stat
+Area of effect      : One opponent in same room
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 40% (Occupational)
+Tax                 : None - Taxed based on full power below (see Oxy below)
+Special Description : This spell is earth branch only. 
+
+Ousia (Essence Shatter at-will)
+===============================
+Effect              : Essence Shatters target
+Element             : Life
+Form                : Abjuration
+Acquire Level       : Master / 41 guild stat
+Area of effect      : One opponent in same room
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 45% (Occupational)
+Tax                 : None - Taxed based on full power below (see Ousia below)
+Special Description : This spell is spirit branch only. 
+
+Aleipso (Greater Heal)
+======================
+Effect              : Restores lost HP or damage Undead
+Element             : Water
+Form                : Enchantment
+Acquire Level       : Master / 41 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : Fire 65% (Occupational), Air 70% (Occupational), Water 
+                      80% (Occupational), Earth 80% (Occupational), Spirit 70%
+                      (Occupational)
+Tax                 : None - Taxed based on full power below (see Aleipso 
+                      (Major Heal) below)
+Special Description : This spell is replaced by greater versions of itself 
+                      as the player progresses in the guild.
+
+Anagnorizo (True Identity)
+==========================
+Effect              : Reveals true name of target
+Element             : Life
+Form                : Divination
+Acquire Level       : Master / 50 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : None
+Tax                 : 0.750%
+
+Skiamorfi (Elemental Form)
+==========================
+Effect              : Turn into elemental form
+Element             : Depends (Earth, Fire, Air, Water or Spirit)
+Form                : Transmutation
+Acquire Level       : Master / 60 guild stat
+Area of effect      : Self
+Spell Class Level   : Power 2 - Minor Spell
+Components          : None
+CAID                : None (Optional 10 from Racial guild)
+Tax                 : 0.875%
+Special Description : This turns the caster into elemental form. This gives a 
+                      minor aid to the caster in that their inventory of 
+                      items is hidden from view (thieves can still steal from 
+                      them though). It also has a chance to give them a small 
+                      evade ability and possibly a small magical resistance
+                      ability. If they are a member of the optional Racial 
+                      guild, it also gives them the ability to see invisible 
+                      creatures as well as change the "form" they take. Taxing
+                      extra 0.500% for the evade/resistance although they 
+                      aren't guaranteed when it is cast that they will get 
+                      them.
+
+Viloda (Fireball)
+=================
+Effect              : Fire attack spell
+Element             : Fire
+Form                : Conjuration
+Acquire Level       : Master / 60 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 85% (Occupational)
+Tax                 : None - Taxed based on full power below (see Viloda below)
+Special Description : This spell is replaced by a greater version of itself as
+                      the player progresses in the guild. This spell is fire 
+                      branch only.
+
+Ripi (Air Gust)
+===============
+Effect              : Air attack spell
+Element             : Air
+Form                : Conjuration
+Acquire Level       : Master / 60 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 75% (Occupational)
+Tax                 : None - Taxed based on full power below (see Ripi below)
+Special Description : This spell is replaced by a greater version of itself as 
+                      the player progresses in the guild. This spell is air 
+                      branch only.
+
+Krystallos (Frostbolt)
+======================
+Effect              : Water attack spell
+Element             : Water
+Form                : Conjuration
+Acquire Level       : Master / 60 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 70% (Occupational)
+Tax                 : None - Taxed based on full power below (see Krystallos 
+                      below)
+Special Description : This spell is replaced by a greater version of itself 
+                      as the player progresses in the guild. This spell is 
+                      water branch only.
+
+Onkolithos (Boulder Throw)
+==========================
+Effect              : Earth attack spell
+Element             : Earth
+Form                : Conjuration
+Acquire Level       : Master / 60 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 70% (Occupational)
+Tax                 : None - Taxed based on full power below (see Onkolithos 
+                      below)
+Special Description : This spell is replaced by a greater version of itself as 
+                      the player progresses in the guild. This spell is earth 
+                      branch only.
+
+Diochetevo (Essence Drain)
+==========================
+Effect              : Spirit attack spell
+Element             : Life
+Form                : Conjuration
+Acquire Level       : Master / 60 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 75% (Occupational)
+Tax                 : None - Taxed based on full power below (see Diochetevo 
+                      below)
+Special Description : This spell is replaced by a greater version of itself 
+                      as the player progresses in the guild. This spell is 
+                      spirit branch only.
+
+Anavo (Ignite Mana)
+==============
+Effect              : Mana poison spell
+Element             : Fire
+Form                : Conjuration
+Acquire Level       : Master / 60 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 45% (Occupational)
+Tax                 : 0.750%
+Special Description : This spell is fire branch only. Must be in elemental 
+                      form.
+
+Afoplizo (Disarm)
+=================
+Effect              : Disarm weapon
+Element             : Air
+Form                : Conjuration
+Acquire Level       : Master / 60 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 45% (Occupational)
+Tax                 : 0.750%
+Special Description : Un-equips target current weapon(s), small delay for 
+                      them to re-equip it/them. This spell is air branch 
+                      only. 
+
+Dilitirio (Poison)
+==================
+Effect              : Poison health
+Element             : Water
+Acquire Level       : Master / 60 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 45% (Occupational)
+Tax                 : 0.750%
+Special Description : This spell is water branch only. 
+
+Livra (Pound armour/body)
+=========================
+Effect              : Pound armour (hurt/break it) or body (if no armour worn)
+Element             : Earth
+Form                : Conjuration
+Acquire Level       : Master / 60 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 60% (Occupational)
+Tax                 : 0.750%
+Special Description : This spell pounds (damages) the target's armour with 
+                      a possibility it breaks (if it gets damaged enough). 
+                      It also does damage to the target. This spell is 
+                      earth branch only. 
+
+Tihosskias (Shadow Wall)
+========================
+Effect              : Block an exit with a shadow wall.
+Element             : Life
+Form                : Conjuration
+Acquire Level       : Master / 60 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 45% (Occupational)
+Tax                 : 0.75%
+Special Description : This spell summons a shadow wall that blocks a single 
+                      exit. Undeads cannot move through this wall, anyone 
+                      else can. It blocks the exit for a maximum of 54 
+                      seconds. The actual time is calculated by the 
+                      casters SS_SPELLCRAFT, SS_ELEMENT_LIFE and 
+                      SS_FORM_CONJURATION skills 
+                      (MIN(54, SS_SPELLCRAFT + SS_ELEMENT_FIRE + 
+                      SS_FORM_CONJURATION)).
+					  The caster cannot cast this spell for 30 seconds once
+					  it is cast and they cannot cast it if an existing 
+					  wall is still in place. This spell is spirit branch 
+					  only.
+
+Tromazo (Alarm)
+===============
+Effect              : Places an alarm that notifies caster if triggered
+Element             : Fire
+Form                : Divination
+Acquire Level       : Master / 70 guild stat
+Area of effect      : Self - current room
+Spell Class Level   : Power 2 - Minor Spell
+Components          : None
+CAID                : None
+Tax                 : 0.375%
+Special Description : This spell is fire branch only.
+
+Paradido (Teleport to player)
+=============================
+Effect              : Teleports caster to known player
+Element             : Air
+Form                : Conjuration
+Acquire Level       : Master / 70 guild stat
+Area of effect      : One known target anywhere that caster is allowed
+Spell Class Level   : Power 2 - Minor Spell
+Components          : None
+CAID                : None
+Tax                 : 0.375%
+Special Description : This spell can have a blacklist of rooms that players 
+                      can't teleport to (namely guild halls, places they 
+                      shouldn't be, etc...). Right now it uses the base
+                      teleport spell which takes a lot of that into 
+                      consideration already. This spell is air branch only.
+
+Kinisi (Deliver Item)
+=====================
+Effect              : Delivers an item to known player
+Element             : Water
+Form                : Conjuration
+Acquire Level       : Master / 70 guild stat
+Area of effect      : One known target anywhere
+Spell Class Level   : Power 2 - Minor Spell
+Components          : None
+CAID                : None
+Tax                 : 0.375%
+Special Description : This spell delivers a previously summoned water
+                      globe to a known player of the caster. The water
+                      globe is summoned by a command that only the water
+                      cleric has (eglobe) and they can only have one of
+                      them. They can insert small items into the globe up
+                      to the maximum volume of the globe (currently set
+                      at 25000 grams). This spell is water branch only.
+    
+Diakopi (Break Gem)
+=========================
+Effect              : Breaks a gem into six shards that are used for spell 
+                      components
+Element             : Earth
+Form                : Conjuration
+Acquire Level       : Master / 70 guild stat
+Area of effect      : Self - One gem in the caster's inventory
+Spell Class Level   : Power 2 - Minor Spell
+Components          : None
+CAID                : None
+Tax                 : 0.375%
+Special Description : This spell will smash gems that are used by the 
+                      Elementalist guilds as components into gem shards. 
+                      This spell is earth branch only.
+    
+Thesi (Scry)
+============
+Effect              : Discern a player's location.
+Element             : Life
+Form                : Divination
+Acquire Level       : Master / 70 guild stat
+Area of effect      : One target anywhere
+Spell Class Level   : Power 2 - Minor Spell
+Components          : None
+CAID                : None
+Tax                 : 0.375%
+Special Description : This spell is spirit branch only.
+
+Teichos (Fire Wall)
+===================
+Effect              : Block an exit with a fire wall.
+Element             : Fire
+Form                : Conjuration
+Acquire Level       : Master / 80 guild stat
+Area of effect      : One exit in caster room
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None 
+CAID                : 40% (Occupational)
+Tax                 : 0.75%
+Special Description : This spell summons a fire wall that blocks a single 
+                      exit. Players cannot move through this wall. It 
+                      blocks the exit for a maximum of 36 seconds. The 
+                      actual time is calculated by the casters SS_SPELLCRAFT,
+                      SS_ELEMENT_LIFE and SS_FORM_CONJURATION skills
+					  (MIN(54, SS_SPELLCRAFT + SS_ELEMENT_FIRE + 
+					  SS_FORM_CONJURATION)).
+					  The caster cannot cast this spell for 30 seconds once
+					  it is cast and they cannot cast it if an existing wall 
+					  is still in place. This spell is fire branch only. 
+
+Apofevgo (Evade)
+====================================
+Effect              : Evade damage.
+Element             : Air
+Form                : Abjuration
+Acquire Level       : Master / 80 guild stat
+Area of effect      : Self
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None 
+CAID                : 50% (Occupational)
+Tax                 : 0.75%
+Special Description : This spell allows the cleric to evade some attacks. This 
+                      spell is air branch only. 
+
+Pano (Raise elemental resistance)
+=================================
+Effect              : Raises elemental resistance (selectable - fire/air/
+                      water/earth/life/magic) of target.
+Element             : Water
+Form                : Abjuration
+Acquire Level       : Master / 80 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None 
+CAID                : 50% (Occupational)
+Tax                 : 0.75%
+Special Description : This spell is water branch only. 
+
+Aspida (Regenerate Health)
+==========================
+Effect              : Regenerate health for caster. 
+Element             : Earth
+Form                : Abjuration
+Acquire Level       : Master / 80 guild stat
+Area of effect      : Caster
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None 
+CAID                : 25% (Occupational)
+Tax                 : 0.75%
+Special Description : This spell is earth branch only. 
+
+Kato (Lower elemental resistance)
+=================================
+Effect              : Lowers elemental resistance (selectable - fire/air/
+                      water/earth/life/magic) of target.
+Element             : Spirit
+Form                : Abjuration
+Acquire Level       : Master / 80 guild stat
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 50% (Occupational)
+Tax                 : 0.75%
+Special Description : This spell is spirit branch only. 
+
+==================
+Master Guru Spells
+==================
+
+Enkav (Burn at-will)
+====================
+Effect              : Burns target
+Element             : Fire
+Form                : Abjuration
+Acquire Level       : Master / 41 guild stat + guru quest completed
+Area of effect      : One opponent in same room
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 70% (Occupational)
+Tax                 : 0.75%
+Special Description : This spell is fire branch only.    
+
+Astrapi (Lightning at-will)
+===========================
+Effect              : Strikes target with lightning
+Element             : Air
+Form                : Abjuration
+Acquire Level       : Master / 41 guild stat + guru quest completed
+Area of effect      : One opponent in same room
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 60% (Occupational)
+Tax                 : 0.75%
+Special Description : This spell is air branch only. 
+
+Kryo (Frostbite at-will)
+========================
+Effect              : Frostbites target
+Element             : Water
+Form                : Abjuration
+Acquire Level       : Master / 41 guild stat + guru quest completed
+Area of effect      : One opponent in same room
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 50% (Occupational)
+Tax                 : 0.75%
+Special Description : This spell is water branch only. 
+
+Oxy (Acid Spray at-will)
+========================
+Effect              : Acid Sprays target
+Element             : Earth
+Form                : Abjuration
+Acquire Level       : Master / 41 guild stat + guru quest completed
+Area of effect      : One opponent in same room
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 50% (Occupational)
+Tax                 : 0.75%
+Special Description : This spell is earth branch only. 
+
+Ousia (Essence Shatter at-will)
+===============================
+Effect              : Essence Shatters target
+Element             : Life
+Form                : Abjuration
+Acquire Level       : Master / 41 guild stat + guru quest completed
+Area of effect      : One opponent in same room
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 60% (Occupational)
+Tax                 : 0.75%
+Special Description : This spell is spirit branch only. 
+
+Aleipso (Major Heal)
+======================
+Effect              : Restores lost HP or damage Undead
+Element             : Water
+Form                : Enchantment
+Acquire Level       : Master / 41 guild stat + guru quest completed
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : Fire 85% (Occupational), Air 90% (Occupational), 
+                      Water 100% (Occupational), Earth 100% (Occupational),
+                      Spirit 90% (Occupational)
+Tax                 : 0.75%
+Special Description : This spell is replaced by greater versions of itself 
+                      as the player progresses in the guild.
+
+Giatreou (Neutralize Poison)
+============================
+Effect              : Cleanse Poison
+Element             : Water
+Form                : Abjuration
+Acquire Level       : Master / 60 guild stat + guru quest
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : Ritual - chicory (218c) + sapphire shard 
+                     (2345c/6=391c) / 6 = 101c
+CAID                : None
+Tax                 : 0.375%
+Special Description : Must be in elemental form.
+
+Viloda (Fireball)
+=================
+Effect              : Fire attack spell
+Element             : Fire
+Form                : Conjuration
+Acquire Level       : Master / 60 guild stat + guru quest completed
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 100% (Occupational)
+Tax                 : 0.75%
+Special Description : This spell is the highest version of itself as the 
+                      player progresses in the guild. This spell is fire 
+                      branch only.
+
+Ripi (Air Gust)
+===============
+Effect              : Air attack spell
+Element             : Air
+Form                : Conjuration
+Acquire Level       : Master / 60 guild stat  + guru quest completed
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 95% (Occupational)
+Tax                 : 0.75%
+Special Description : This spell is the highest version of itself as the 
+                      player progresses in the guild. This spell is air 
+                      branch only.
+
+Krystallos (Frostbolt)
+======================
+Effect              : Water attack spell
+Element             : Water
+Form                : Conjuration
+Acquire Level       : Master / 60 guild stat + guru quest completed
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 90% (Occupational)
+Tax                 : 0.75%
+Special Description : This spell is the highest version of itself as the 
+                      player progresses in the guild. This spell is water 
+                      branch only.
+
+Onkolithos (Boulder Throw)
+==========================
+Effect              : Earth attack spell
+Element             : Earth
+Form                : Conjuration
+Acquire Level       : Master / 60 guild stat + guru quest completed
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 90% (Occupational)
+Tax                 : 0.75%
+Special Description : This spell is the highest version of itself as the 
+                      player progresses in the guild. This spell is earth 
+                      branch only.
+
+Diochetevo (Essence Drain)
+==========================
+Effect              : Spirit attack spell
+Element             : Life
+Form                : Conjuration
+Acquire Level       : Master / 60 guild stat + guru quest completed
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : None
+CAID                : 95% (Occupational)
+Tax                 : 0.75%
+Special Description : This spell is the highest version of itself as the 
+                      player progresses in the guild. This spell is spirit
+                      branch only.
+
+Fragmos (Slow Player)
+=====================
+Effect              : Slow player so they can't run away so fast
+Element             : Earth
+Form                : Conjuration
+Acquire Level       : Master / 80 guild stat + guru quest
+Area of effect      : One present target
+Spell Class Level   : Power 3 - Intermediate Spell
+Components          : Ritual - flameroot (1000c) + black pearl shard 
+                      (1728c/6=288c) / 6 = 215c
+CAID                : Fire 50% (Occupational), Air 60% (Occupational), 
+                      Water 60% (Occupational), Earth 60% (Occupational),
+                      Spirit 60% (Occupational)
+Tax                 : 0.375%
+
+Seira (Detect Alignment/Killer)
+===============================
+Effect              : Detect the alignment of the target (if alive) or 
+                      the killer (if dead)
+Element             : Fire
+Form                : Abjuration
+Acquire Level       : Master / 90 guild stat + guru quest
+Area of effect      : One present target
+Spell Class Level   : Power 2 - Minor Spell
+Components          : Ritual - Eye, Ruby Shard
+CAID                : None
+Tax                 : 0.1875%
+Special Description : This spell is fire branch only.
+
+Metafora (Enhanced teleport)
+============================
+Effect              : Teleports caster + team to known (by caster) player
+Element             : Air
+Form                : Conjuration
+Acquire Level       : Master / 90 guild stat + guru quest
+Area of effect      : One known target anywhere
+Spell Class Level   : Power 2 - Minor Spell
+Components          : Ritual - Eye, Diamond Shard
+CAID                : None
+Tax                 : 0.1875%
+Special Description : This spell can have a blacklist of rooms that players 
+                      can't teleport to (namely guild halls, places they 
+                      shouldn't be, etc...). Right now it uses the base
+                      teleport spell which takes a lot of that into 
+                      consideration already. This spell is air branch only.
+
+Treximo (Blink behind target)
+=============================
+Effect              : Blink (move behind) the target
+Element             : Water
+Form                : Conjuration
+Acquire Level       : Master / 90 guild stat + guru quest
+Area of effect      : One present target
+Spell Class Level   : Power 2 - Minor Spell
+Components          : Ritual - Eye, Sapphire Shard
+CAID                : None
+Tax                 : 0.1875%
+Special Description : This spell is water branch only.
+
+Diasosi (Blink target behind caster)
+====================================
+Effect              : Blink target (move behind) to behind the caster
+Element             : Earth
+Form                : Conjuration
+Acquire Level       : Master / 90 guild stat + guru quest
+Area of effect      : One present target
+Spell Class Level   : Power 2 - Minor Spell
+Components          : Ritual - Eye, Emerald Shard
+CAID                : None
+Tax                 : 0.1875%
+Special Description : This spell is earth branch only.
+
+Aorato (Invisibility)
+=====================
+Effect              : Turn caster invisible
+Element             : Spirit
+Form                : Transmutation
+Acquire Level       : Master / 90 guild stat + guru quest
+Area of effect      : Caster
+Spell Class Level   : Power 2 - Minor Spell
+Components          : Ritual - Eye, Alexandrite Shard
+CAID                : None
+Tax                 : 0.1875%
+Special Description : This spell is spirit branch only.
+
+Panikos (Reduce panic)
+======================
+Effect              : Reduce panic of target
+Element             : Fire
+Form                : Abjuration
+Acquire Level       : Master / 90 guild stat + guru quest
+Area of effect      : One present target
+Spell Class Level   : Power 2 - Minor Spell
+Components          : Ritual - Skull, Ruby Shard
+CAID                : None
+Tax                 : 0.1875%
+Special Description : This spell is fire branch only.
+
+Trefo (Summon food/water)
+=========================
+Effect              : Summon food/water from the Elemental Temple kitchen
+Element             : Air
+Form                : Conjuration
+Acquire Level       : Master / 90 guild stat + guru quest
+Area of effect      : Caster
+Spell Class Level   : Power 2 - Minor Spell
+Components          : Ritual - Skull, Diamond Shard
+CAID                : None
+Tax                 : 0.1875%
+Special Description : This spell will a basket containing a small number
+                      of random fruits from Gelan and a flagon of water.
+                      This spell is air branch only.
+
+Antistasi (Detect resistances)
+==============================
+Effect              : Detect elemental resistances in target
+Element             : Water
+Form                : Divination
+Acquire Level       : Master / 90 guild stat + guru quest
+Area of effect      : One present target
+Spell Class Level   : Power 2 - Minor Spell
+Components          : Ritual - Skull, Sapphire Shard
+CAID                : None
+Tax                 : 0.1875%
+Special Description : This spell is water branch only.
+
+Kourasi (Reduce fatigue)
+========================
+Effect              : Reduce fatigue in the target
+Element             : Earth
+Form                : Abjuration
+Acquire Level       : Master / 90 guild stat + guru quest
+Area of effect      : One present target
+Spell Class Level   : Power 2 - Minor Spell
+Components          : Ritual - Skull, Emerald Shard
+CAID                : None
+Tax                 : 0.1875%
+Special Description : This spell is earth branch only.
+
+Vekpos (Turn Undead)
+====================
+Effect              : Makes undead target run away
+Element             : Life
+Form                : Abjuration
+Acquire Level       : Master / 90 guild stat + guru quest
+Area of effect      : One present target
+Spell Class Level   : Power 2 - Minor Spell
+Components          : Ritual - Skull, Alexandrite Shard
+Tax                 : 0.1875%
+Special Description : This spell causes the target (if they are undead) 
+                      to flee from the caster. If the caster isn't in 
+					  combat with the target, this spell will initiate it.
+					  The target takes no damage or penalties other than
+					  they will flee from the caster. This spell is spirit 
+					  branch only.
+
+===================
+Final Master Spells
+===================
+    
+Syndyasmos (Combination)
+=========================
+Effect              : See chart below - each player gets 9 spells 
+                      (see special description)
+Element             : See chart above/descriptions below
+Form                : See chart above/descriptions below
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : See chart above/descriptions below
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Ritual - blade (5000c) + alexandrite gem shard 
+                      (4321c/6=720c) / 6 = 953c
+Tax                 : 1.125%
+Special Description : Each player gets 9 spells, the five of their 
+                      element directly (e.g. fire/fire, fire/air,
+                      fire/water, fire/earth, fire/spirit) plus the 
+                      four from the opposing elements (e.g. air/fire, 
+                      water/fire, earth/fire, spirit/fire). This really 
+                      isn't a *spell*, it is a command that will be 
+                      interpreted by the soul and determine which actual
+                      *spell* (below) will be cast.
+    
+Syndyasmos (Fire/Fire)
+=========================
+Effect              : Viloda/Viloda mix mass harm spell
+Element             : Fire/Fire
+Form                : Conjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Fire 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This will be an area of effect version of the Viloda 
+                      spell to all enemies present in the room.
+    
+Syndyasmos (Fire/Air)
+=========================
+Effect              : Viloda/Ripi mix mass harm spell
+Element             : Fire/Air
+Form                : Conjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Fire 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This will be an area of effect version of a 
+                      combination of the Viloda and Ripi spells to all 
+                      enemies present in the room.
+
+Syndyasmos (Fire/Water)
+=========================
+Effect              : Viloda/Krystallos mix mass harm spell
+Element             : Fire/Water
+Form                : Conjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Fire 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This will be an area of effect version of a 
+                      combination of the Viloda and Krystallos spells to 
+                      all enemies present in the room.
+
+Syndyasmos (Fire/Earth)
+=========================
+Effect              : Viloda/Onkolithos mix mass harm spell
+Element             : Fire/Earth
+Form                : Conjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Fire 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This will be an area of effect version of a 
+                      combination of the Viloda and Onkolithos spells to 
+                      all enemies present in the room.
+
+Syndyasmos (Fire/Spirit)
+=========================
+Effect              : Viloda/Diochetevo mix mass harm spell
+Element             : Fire/Spirit
+Form                : Conjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Fire 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This will be an area of effect version of a 
+                      combination of the Viloda and Diochetevo spells to 
+                      all enemies present in the room.
+
+Syndyasmos (Air/Fire)
+=========================
+Effect              : Disarm all enemies in room with delay for re-equipping
+Element             : Air/Fire
+Form                : Abjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Air 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This will disarm all enemies in the room with a 
+                      delay added to them for re-equipping their weapons.
+
+Syndyasmos (Air/Air)
+=========================
+Effect              : Disarm all enemies in room (possibility of dropping 
+                      them and breaking them) with delay for re-equipping
+Element             : Air/Air
+Form                : Abjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Air 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This will disarm all enemies in the room (with the 
+                      possibility of dropping them and breaking them) 
+                      with a delay added to them for re-equipping their 
+                      weapons.
+
+Syndyasmos (Air/Water)
+=========================
+Effect              : Disarm all enemies in room with delay for re-equipping
+Element             : Air/Water
+Form                : Abjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Air 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This will disarm all enemies in the room with a 
+                      delay added to them for re-equipping their weapons.
+
+Syndyasmos (Air/Earth)
+=========================
+Effect              : Disarm all enemies in room with delay for re-equipping
+Element             : Air/Earth
+Form                : Abjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Air 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This will disarm all enemies in the room with a 
+                      delay added to them for re-equipping their weapons.
+
+Syndyasmos (Air/Spirit)
+=========================
+Effect              : Disarm all enemies in room with delay for re-equipping
+Element             : Air/Spirit
+Form                : Abjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Air 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This will disarm all enemies in the room with a 
+                      delay added to them for re-equipping their weapons.
+
+Syndyasmos (Water/Fire)
+=========================
+Effect              : Poison (minor health and mana) on all enemies in room
+Element             : Water/Fire
+Form                : Abjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Water 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This spell does a health/mana based poison on all 
+                      enemies in the room.
+
+Syndyasmos (Water/Air)
+=========================
+Effect              : Plague (stat) poison on all enemies in room
+Element             : Water/Air
+Form                : Conjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest +
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID:               : Water 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This spell does a strength stat based poison on all 
+                      enemies in the room.
+
+Syndyasmos (Water/Water)
+=========================
+Effect              : Poison (health) on all enemies in room
+Element             : Water/Water
+Form                : Conjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest +
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID:               : Water 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This spell does a health poison on all enemies in 
+                      the room.
+    
+Syndyasmos (Water/Earth)
+=========================
+Effect              : Burden (increase fatigue/lower dexterity) on 
+                      all enemies in room
+Element             : Water/Earth
+Form                : Conjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest +
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID:               : Water 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This spell increases the fatigue and decreases the 
+                      dexterity on all enemies in the room.
+    
+Syndyasmos (Water/Spirit)
+=========================
+Effect              : Mana (drain mana) poison on target
+Element             : Water/Life
+Form                : Conjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest +
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID:               : Water 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This spell does a mana poison on all enemies in the 
+                      room.
+
+Syndyasmos (Earth/Fire)
+=========================
+Effect              : Pound (damage) all armours/body on one enemy
+Element             : Earth/Fire
+Form                : Abjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Earth 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This spell pounds (damages) all of one enemy's armour.
+                      It also does damage to the enemies.
+
+Syndyasmos (Earth/Air)
+=========================
+Effect              : Pound (damage) all armours/body on one enemy
+Element             : Earth/Air
+Form                : Abjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Earth 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This spell pounds (damages) all of one enemy's armour. 
+                      It also does damage to the enemies.
+
+Syndyasmos (Earth/Water)
+=========================
+Effect              : Pound (damage) all armours/body on one enemy
+Element             : Earth/Water
+Form                : Abjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Earth 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This spell pounds (damages) all of one enemy's armour. 
+                      It also does damage to the enemies.
+
+Syndyasmos (Earth/Earth)
+=========================
+Effect              : Pound (damage) all armours/body on one enemy. If 
+                      does enough damage, it can break the armour.
+Element             : Earth/Fire
+Form                : Abjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Earth 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This spell pounds (damages) all of one enemy's armour. 
+                      It also does damage to the enemies. If armour is 
+                      damaged enough, the armour can break.
+
+Syndyasmos (Earth/Spirit)
+=========================
+Effect              : Pound (damage) all armours/body on one enemy
+Element             : Earth/Spirit
+Form                : Abjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Earth 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This spell pounds (damages) all of one enemy's armour. 
+                      It also does damage to the enemies.
+
+Syndyasmos (Spirit/Fire)
+=========================
+Effect              : Blind all enemies in room
+Element             : Spirit/Fire
+Form                : Abjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Spirit 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This spell blinds all enemies in the room.
+
+Syndyasmos (Spirit/Air)
+=========================
+Effect              : Whirlwind arms (stun) on all enemies in room
+Element             : Spirit/Air
+Form                : Abjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Spirit 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This spell puts whirlwinds on (stuns) on the arms of
+                      all enemies in the room. This greatly hampers their
+                      ability to attack but doesn't stop them from moving.
+
+Syndyasmos (Spirit/Water)
+=========================
+Effect              : Freeze arms (stun) on all enemies in room
+Element             : Spirit/Water
+Form                : Abjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Spirit 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This spell freezes (stuns) the arms of all enemies in 
+                      the room. This greatly hampers their ability to 
+                      attack but doesn't stop them from moving.
+
+Syndyasmos (Spirit/Earth)
+=========================
+Effect              : Quicksand arms (stun) on all enemies in room
+Element             : Spirit/Earth
+Form                : Abjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Spirit 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This spell puts quicksand (stuns) in the arms of all 
+                      enemies in the room. This greatly hampers their
+                      ability to attack but doesn't stop them from moving.
+                      
+Syndyasmos (Spirit/Spirit)
+=========================
+Effect              : Bind arms (stun) on all enemies in room
+Element             : Spirit/Spirit
+Form                : Abjuration
+Acquire Level       : Full Master / 100 guild stat + guru quest + 
+                      final master ceremony
+Area of effect      : All present enemies
+Spell Class Level   : Power 4 - Advanced Spell
+Components          : Syndyasmos component (953c)
+CAID                : Spirit 60 (Occupational) (Optional 15 from Racial for 
+                      a total of 75)
+Tax                 : 0.125%
+Special Description : This spell binds (stuns) the arms of all enemies in 
+                      the room. This greatly hampers their
+                      ability to attack but doesn't stop them from moving.

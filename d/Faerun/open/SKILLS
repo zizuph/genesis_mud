@@ -1,0 +1,30 @@
+/*
+ * This document contains the skillnumbers of each guild in the 
+ * Faerun-domain.
+ * Faerun is the domain number 52 and thus have 1000
+ * skill-slots to use on different guilds and features in
+ * the 152000-152999 range.
+ *
+ * 10/7/04 - Tilorop.
+ *
+ */
+ 
+ 
+ //         GUILDS
+ 
+ 
+ // Necromancers of Velsharoon :
+ 
+    1525001
+    1525002
+    1525003
+    1525004
+    1525005
+    1525006
+    1525007
+    1525008
+    1525009
+    
+    
+    
+    

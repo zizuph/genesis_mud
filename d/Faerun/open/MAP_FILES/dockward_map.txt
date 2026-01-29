@@ -1,0 +1,752 @@
+main
+::MAPDATA::
+bakery 0 0 bakery
+bakery2 0 0 bakery
+bel_s1 25 5 docks
+bel_s2 29 5 docks
+bel_s3 33 5 east
+bwatch1 29 2 bel
+bwatch2 29 2 bel
+bwatch3 29 2 bel
+bwatch4 29 2 bel
+ca1 0 0 axe
+ca2 0 0 axe
+ca3 0 0 axe
+ca4 0 0 axe
+ca5 0 0 axe2
+caapt1_1 0 0 apartment
+caapt1_2 0 0 apartment
+caapt1_3 0 0 apartment
+caapt1_4 0 0 apartment
+caapt2_1 0 0 apartment
+caapt2_2 0 0 apartment
+caapt2_3 0 0 apartment
+caapt3_1 0 0 apartment
+caapt3_2 0 0 apartment
+catunnel1 0 0 tunnel
+catunnel2 0 0 tunnel
+catunnel3 0 0 tunnel
+catunnel4 0 0 tunnel 
+catunnel5 0 0 tunnel 
+caup1 0 0 apartment
+caup2 0 0 apartment
+caup3 0 0 apartment
+coin_a1 10 7 docks
+distillery 0 0 distillery
+dock_s1 27 21 docks
+dock_s2 25 19 docks
+dock_s3 23 17 docks
+dock_s4 23 15 docks
+dock_s5 23 13 docks
+dock_s6 23 11 docks
+dock_s7 21 7 docks
+dock_s8 21 5 docks
+falley1 0 0 falley
+falley2 0 0 falley
+fishgut1 26 9 docks
+fishgut2 30 9 docks
+fishgut3 35 11 east
+fishgut4 35 13 east
+fishgutbank 0 0 bank
+fishgutpo 0 0 po
+fishgutsmith 0 0 smith
+grog 14 11 grog
+grog_d 14 11 grog
+gutter1 0 0
+hope 33 15 east
+jail 0 0
+k_store 0 0
+lantern1 35 5 east
+mermaid1 31 17 docks
+net_1 31 19 docks
+net_2 35 19 east
+net_3 39 19 east
+net_4 43 19 east
+nuts 0 0 nuts
+pearls1 18 5 pearls
+pickle 14 7 pickle
+redsails1 29 7 redsails
+redsails2 29 7 redsails
+s_smile1 30 11 docks
+sail_s1 10 9 docks
+sail_s2 14 9 docks
+sail_s3 18 9 docks
+sail_s4 22 9 docks
+sign_up 0 0 docks
+snail_1 39 5 east
+snail_2 39 7 east
+snail_3 39 9 east
+snail_4 39 11 east
+snail_5 39 13 east
+snail_6 39 15 east
+snail_7 39 17 east
+snail_lot_1 0 0
+snwatch1 0 0 snwatch
+snwatch10 0 0 snwatch 
+snwatch2 0 0 snwatch
+snwatch3 0 0 snwatch
+snwatch4 0 0 snwatch
+snwatch5 0 0 snwatch
+snwatch6 0 0 snwatch
+snwatch7 0 0 snwatch
+snwatch8 0 0 snwatch
+snwatch9 0 0 snwatch
+sparkle 25 14
+sooth_s1 35 3 east
+sooth_s2 39 3 east
+sooth_s3 43 3 east
+tr1 0 0 axe
+tr2 0 0 axe3
+tr3 0 0 axe3
+xoblob 37 13 xoblob
+xoblob_pillar 37 13 xoblob
+::MAPDATA::
+.............................................................
+.                                                           .
+.  W A T E R D E E P            Soothsayer Street           .                                                                .                
+.  -----------------   Belnimbra   o - o - o -> to          .  
+.   -= Dock Ward =      Street    /|   |        South       .
+.                 o  o - o - o - o o   o        Ward        .
+.                  \ |       |         |  S                 .
+.         o          o       o         o  n                 .
+.         |  Sail   /                  |  a                 .
+.         o - o - o - o - o - o -      o  i                 .  
+.          Street     \       |   \   /|  l                 .
+.                      o D    o    o   o                    .
+.  DOCKS TO:           | o         |   |  S                 .
+.     Pelagrir  [||||- o c         o   o  t                 .
+.                      | k        /    |  r                 .
+.     Palanthas [||||- o         o     o  e                 .
+.                      | S             |  e                 .
+.       Calia   [||||- o t.    o       o  t                 .
+.                       \      |       |        to          .
+.         Sparkle [||||- o     o - o - o - o -> South       .
+.                         \  / Net Street       Ward        .      
+.                          o                                . 
+.                                                           .
+.............................................................
+::NEWMAP::
+docks
+::MAPDATA::
+bel_s1 25 4 
+bel_s2 29 4 
+coin_a1 10 7
+dock_s1 27 21
+dock_s2 25 19
+dock_s3 23 17
+dock_s4 23 15
+dock_s5 23 13
+dock_s6 23 11
+dock_s7 21 7
+dock_s8 21 4
+fishgut1 26 9 
+fishgut2 30 9 
+mermaid1 31 17
+net_1 31 19
+sail_s1 10 9
+sail_s2 14 9
+sail_s3 18 9
+sail_s4 22 9
+sign_up 25 19
+s_smile1 30 11 
+
+::MAPDATA::
+..................................
+.  D O C K W A R D               .
+. ==================             .
+.  The Docks                     .
+.                o   o - o - o - .
+.                 \  |       |   . 
+.                  \ |       o   .
+.         o          o           .
+.         |  Sail   /            .
+.         o - o - o - o - o - o  .  
+.          Street    \        | \.
+.                      o D    o  .
+.  DOCKS TO:           | o       .
+.     Pelagrir  [||||- o c       .
+.                      | k       .
+.     Palanthas [||||- o         .
+.                      | S       .
+.       Calia   [||||- o t.    o .
+.                       \      | .
+.         Sparkle [||||- o     o-.
+.                         \  /   .      
+.                          o     .
+..................................
+                                                         
+::NEWMAP::
+roof
+::MAPDATA::
+roof_1 0 0
+::MAPDATA::
+
+
+::NEWMAP::
+soothsayer
+::MAPDATA::
+sooth_s1 0 0
+sooth_s2 0 0
+sooth_s3 0 0
+::MAPDATA::
+
+::NEWMAP::
+pearls
+::MAPDATA::
+pearls1 4 3
+::MAPDATA::
+...................................................................
+.                                                                 .
+. +-------------------------------------------------------------+ .
+. | X                                                         X | .
+. |               T H E   T H R E E   P E A R L S               | .
+. |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~              | .
+. |    Where you can't unsee it                                 | .
+. |                              No matter how hard you try.    | .
+. |                                                             | .
+. +-------------------------------------------------------------+ .
+...................................................................
+
+::NEWMAP::
+smith
+::MAPDATA::
+fishgutsmith 32 8 
+::MAPDATA::
+
+..................................
+.  D O C K W A R D               .
+. ==================             .
+.  West Dockward                 .
+.                o   o - o - o - .
+.                 \  |       |   . 
+.                  \ |       o   .
+.         o          o          o.
+.         |  Sail   /          / .
+.         o - o - o - o - o - o  .  
+.          Street    \        | \.
+.                      o D    o  .
+.  DOCKS TO:           | o       .
+.     Pelagrir  [||||- o c       .
+.                      | k       .
+.     Palanthas [||||- o         .
+.                      | S       .
+.       Calia   [||||- o t.    o .
+.                       \      | .
+.         Sparkle [||||- o     o-.
+.                         \  /   .      
+.                          o     .
+..................................
+
+::NEWMAP::
+nuts
+::MAPDATA::
+nuts 42 8 
+::MAPDATA::
+...........................................................
+.                                                         .
+.           ---                                           .
+.          / | \             +-----------------------+    .
+.          .....             |                       |    .
+.          *****             |          Dock Street  |    .
+.         /     \            |              o        |    .
+.       /   `  '  \          |             /         |    .
+.     /  ,    ,  `  \        |            o          |    .
+.    {  K H O S T A L }      |       Khostal         |    .
+.   {    H A N N A S  }      |        Hannas         |    .
+.    {   '    `    ,   }     |         Very          |    .
+.   {  Taste our Nuts! }     |          Fine         |    .
+.    \    `  `  `  ,  /      |           Nuts        |    .
+.     ~~~~~~~~~~~~~~~~       +-----------------------+    .
+...........................................................
+
+::NEWMAP::
+redsails
+::MAPDATA::
+redsails1 24 7 
+redsails2 24 10 
+::MAPDATA::
+..................................................
+.    /---------------------------------------/   .                                        .
+.   +---------------------------------------+ |  .
+.   | R E D   S A I L S   W A R E H O U S E | |  .
+.   |=======================================| |  .
+.   |                                       | |  .
+.   |          #####    |    #####          | |  .
+.   |          #####    o    #####          | |  .
+.   |          #####    |    #####          | |  .
+.   |          #####    |    #####          | |  .
+.   |          #####    o    #####          | |  .
+.   |          ////          ////           | /  .
+.   +---------------------------------------+    .
+..................................................
+
+::NEWMAP::
+distillery
+::MAPDATA::
+distillery 17 6
+::MAPDATA::
+
+..............................
+.                            .
+.      The Salty Turkey      .
+.                            .
+.   Dock                     .
+.   Street o --- o  <0 ___ / .
+.                     \==    .
+.                      _/    .
+..............................
+
+::NEWMAP::
+bakery
+::MAPDATA::
+bakery 22 22
+bakery2 24 22
+::MAPDATA::
+
+..................................
+.  D O C K W A R D               .
+. ==================             .
+.  West Dockward                 .
+.                o   o - o - o - .
+.                 \  |       |   . 
+.                  \ |       o   .
+.         o          o          o.
+.         |  Sail   /          / .
+.         o - o - o - o - o - o  .  
+.          Street    \        | \.
+.                      o D    o  .
+.  DOCKS TO:           | o       .
+.     Pelagrir  [||||- o c       .
+.                      | k       .
+.     Palanthas [||||- o         .
+.                      | S       .
+.       Calia   [||||- o t.    o .
+.                       \      | .
+.         Sparkle [||||- o     o-.
+.                      /  \  /   .      
+.                     o-o   o    .
+..................................
+
+::NEWMAP::
+east
+::MAPDATA::
+bel_s3 4 6
+lantern1 6 6
+fishgut3 6 12
+fishgut4 6 14
+hope 4 16
+net_2 6 20
+net_3 10 20
+net_4 14 20
+snail_1 10 6 
+snail_2 10 8
+snail_3 10 10
+snail_4 10 12
+snail_5 10 14
+snail_6 10 16
+snail_7 10 18 
+sooth_s1 6 4
+sooth_s2 10 4
+sooth_s3 14 4
+::MAPDATA::
+
+................................
+.                              .
+.  Soothsayer Street           .                                                                .                
+.     o - o - o -> to          .  
+.    /|   |        South       .
+. - o o   o        Ward        .
+.         |  S                 .
+.         o  n                 .
+.         |  a                 .
+.         o  i   **********    .  
+.    \  / |  l   *  East  *    .
+.     o   o      *  Dock  *    .
+.     |   |  S   *  Ward  *    .
+.     o   o  t   **********    .
+.    /    |  r                 .
+.   o     o  e                 .
+.         |  e                 .
+.         o  t                 .
+.         |        to          .
+.  -  o - o - o -> South       .
+. Net Street       Ward        .      
+.                              . 
+................................
+
+::NEWMAP::
+xoblob
+::MAPDATA::
+xoblob 8 14
+xoblob_pillar 8 14
+::MAPDATA::
+
+................................
+.                              .
+.  Soothsayer Street           .                                                                .                
+.     o - o - o -> to          .  
+.    /|   |        South       .
+. - o o   o        Ward        .
+.         |  S                 .
+.         o  n                 .
+.         |  a                 .
+.         o  i   **********    .  
+.    \  / |  l   *  East  *    .
+.     o   o      *  Dock  *    .
+.     |   |  S   *  Ward  *    .
+.     o-o o  t   **********    .
+.    /    |  r                 .
+.   o     o  e                 .
+.         |  e                 .
+.         o  t                 .
+.         |        to          .
+.  -  o - o - o -> South       .
+. Net Street       Ward        .      
+.                              . 
+................................
+
+::NEWMAP::
+po
+::MAPDATA::
+fishgutpo 8 11
+::MAPDATA::
+................................
+.                              .
+.  Soothsayer Street           .                                                                .                
+.     o - o - o -> to          .  
+.    /|   |        South       .
+. - o o   o        Ward        .
+.         |  S                 .
+.         o  n                 .
+.         |  a                 .
+.         o  i   **********    .  
+.    \  / |  l   *  East  *    .
+.     o-o o      *  Dock  *    .
+.     |   |  S   *  Ward  *    .
+.     o   o  t   **********    .
+.    /    |  r                 .
+.   o     o  e                 .
+.         |  e                 .
+.         o  t                 .
+.         |        to          .
+.  -  o - o - o -> South       .
+. Net Street       Ward        .      
+.                              . 
+................................
+
+::NEWMAP::
+bank
+::MAPDATA::
+fishgutbank 4 11
+::MAPDATA::
+................................
+.                              .
+.  Soothsayer Street           .                                                                .                
+.     o - o - o -> to          .  
+.    /|   |        South       .
+. - o o   o        Ward        .
+.         |  S                 .
+.         o  n                 .
+.         |  a                 .
+.         o  i   **********    .  
+.    \  / |  l   *  East  *    .
+.   o-o   o      *  Dock  *    .
+.     |   |  S   *  Ward  *    .
+.     o   o  t   **********    .
+.    /    |  r                 .
+.   o     o  e                 .
+.         |  e                 .
+.         o  t                 .
+.         |        to          .
+.  -  o - o - o -> South       .
+. Net Street       Ward        .      
+.                              . 
+................................
+
+::NEWMAP::
+falley
+::MAPDATA::
+falley1 13 2
+falley2 6 2
+::MAPDATA::
+....................
+.                  .
+.     o  -   o     .
+.                  .
+....................
+
+::NEWMAP::
+apartment
+::MAPDATA::
+caapt1_1 10 17
+caapt1_2 10 19
+caapt1_3 10 15
+caapt1_4 14 17
+caapt2_1 10 13
+caapt2_2 13 15
+caapt2_3 12 11
+caapt3_1 10 9
+caapt3_2 10 7
+caup1 6 17
+caup2 6 13
+caup3 6 9
+::MAPDATA::
+
+........................
+.    C H I P P E D     .
+.   V I L L I A G E    .
+.     Luxury Flats     .
+.    ~~~~~~~~~~~~~~    .
+.                      .
+.         o            .
+.         |            .
+.     o - o            .
+.     |                .
+.     |     o          .
+.     |    /           .
+.     o - o            .
+.     |     \          .
+.     |   o  o         .
+.     |   |            .
+.    -o - o - o        .
+.         |            .
+.         o            .
+.                      .
+.    enquire in the    .
+.      tavern for      .
+.     availability     .
+........................
+
+::NEWMAP::
+axe
+::MAPDATA::
+ca1 9 14
+ca2 13 14
+ca3 17 14
+ca4 20 16
+tr1 4 14
+::MAPDATA::
+
+....................................................
+.  _________________.---.______                    .
+. (_(______________(_o o_(____()      T H E        .
+.              .___.'. .'.___.    C H I P P E D    .
+.              \ o    Y    o /        A X E        .
+.               \ \__   __/ /                      .
+.                '.__'-'__.'      __________       .
+.                                |__  __  __|      .
+.                            .---|  ::  ::  |      .
+.                           |  __|__;:__;:__|      .
+.                           | |  |  __  __  |      .    
+.                           | |  |::  ::  ::|      .
+.                           | |  |::__;:__;:|      .
+.   o -  o - o - o          | |  |__  __  __|      .
+.                  +         . `.|  ::  ::  |      .
+.                   o         `..|  ::  ::  |      . 
+.                                 \ ::  :: /       .
+.                                  \;:  ;:/        .
+.                                   """"""         .
+.                                                  .
+....................................................
+
+::NEWMAP::
+axe2
+::MAPDATA::
+ca5 20 18
+::MAPDATA::
+
+....................................................
+.  _________________.---.______                    .
+. (_(______________(_o o_(____()      T H E        .
+.              .___.'. .'.___.    C H I P P E D    .
+.              \ o    Y    o /        A X E        .
+.               \ \__   __/ /                      .
+.                '.__'-'__.'      __________       .
+.                                |__  __  __|      .
+.                            .---|  ::  ::  |      .
+.                           |  __|__;:__;:__|      .
+.                           | |  |  __  __  |      .    
+.                           | |  |::  ::  ::|      .
+.                           | |  |::__;:__;:|      .
+.   o -  o - o - o          | |  |__  __  __|      .
+.                  +         . `.|  ::  ::  |      .
+.                   o         `..|  ::  ::  |      . 
+.                   |             \ ::  :: /       .
+.                   o              \;:  ;:/        .
+.                                   """"""         .
+.                                                  .
+....................................................
+
+::NEWMAP::
+axe3
+::MAPDATA::
+tr2 6 11
+tr3 10 11
+::MAPDATA::
+....................................................
+.  _________________.---.______                    .
+. (_(______________(_o o_(____()      T H E        .
+.              .___.'. .'.___.    C H I P P E D    .
+.              \ o    Y    o /        A X E        .
+.               \ \__   __/ /                      .
+.                '.__'-'__.'      __________       .
+.                                |__  __  __|      .
+.                            .---|  ::  ::  |      .
+.                           |  __|__;:__;:__|      .
+.                           | |  |  __  __  |      .    
+.     o + o                 | |  |::  ::  ::|      .
+.    /                      | |  |::__;:__;:|      .
+.   o -  o - o - o          | |  |__  __  __|      .
+.                  +         . `.|  ::  ::  |      .
+.                   o         `..|  ::  ::  |      . 
+.                                 \ ::  :: /       .
+.                                  \;:  ;:/        .
+.                                   """"""         .
+.                                                  .
+....................................................
+
+::NEWMAP::
+snwatch1
+::MAPDATA::
+snwatch1 6 7
+snwatch10 37 7
+snwatch2 4 5
+snwatch3 4 9
+snwatch4 10 7
+snwatch5 29 7
+snwatch6 25 7
+snwatch7 29 5
+snwatch8 29 9
+snwatch9 33 7
+::MAPDATA::
+.........................................
+.       S N A I L   S T R E E T         .
+.         W A T C H P O S T             .
+.=======================================.
+.                 |                     .
+.   o             |          o          .
+.    \            |          |          .
+.   - + - o + o   |      o - + - o      .
+.    /            |          |          .
+.   o             |          o          .
+.                 |                     .
+.........................................
+
+::NEWMAP::
+bel
+::MAPDATA::
+bwatch1 20 7
+bwatch2 18 5
+bwatch3 18 9
+bwatch4 24 7
+::MAPDATA::
+.........................................
+.   B E L N I M B R A   S T R E E T     .
+.         W A T C H P O S T             .
+.=======================================.
+.                                       .
+.                 o                     .
+.                  \                    .
+.                 - o - o               .
+.                  /                    .
+.                 o                     .
+.........................................
+
+
+::NEWMAP::
+pickle
+::MAPDATA::
+pickle 5 6
+::MAPDATA::
+
+.........................................
+.  T H E   P I C K L E D   S A I L O R  .
+.       Who needs a liver anyway?       .
+.=======================================.
+.                                       .
+.    o                  (\_             .
+.    |                  /o'.            .
+.  Sail                 \ O \           .
+.  Street                |  o|          .
+.                       .'o  /          .
+.                    .-'o  O/           .
+.                   ( o  O.'            .
+.                    `"""`              .
+.                                       .
+.........................................
+
+
+::NEWMAP::
+grog
+::MAPDATA::
+grog 9 10
+grog_d 9 10
+::MAPDATA::
+
+............................................
+.                  ( _ _ _)                .
+.                   |_ _ |                 .
+.                  (_ _ _ )                .
+.                   |    |                 .
+.                   |____|                 .
+.      Sail         |/  \|                 .
+.      Street       (2019)                 .
+.        |          |\__/|                 .
+.        o          |    |                 .
+.                   |    |                 .
+.                  / .--. \                .
+.               .-' :(..): `-.             .
+.           _.-'    `-..-'    `-._         .
+.         .'                      `.       .
+.         |___                  ___|       .
+.         |   `````--....--'''''   |       .
+.         |  |`````--....--'''''|  |       .
+.         |  |        $%#       |  |       .
+.         |  |        `'"       |  |       .
+.         |  |       THE        |  |       .
+.         |  |       GROG       |  |       .
+.         |  |       HOUSE      |  |       .
+.         |  |                  |  |       .
+.         |  |  _____####_____  |  |       .
+.         |  |  ___RAYMUNDO___  |  |       .
+.        .'  |                  |  `.      .
+.       (  `-.`````--....--'''''.-'  )     .
+.        ``-.._``--.._.._..:._.:.--''      .
+.               ``--.._  _..--''           .
+.                                          .
+............................................
+
+::NEWMAP::
+tunnel
+::MAPDATA::
+catunnel1 25 14
+catunnel2 23 12
+catunnel3 23 10
+catunnel4 21 8
+catunnel5 17 8
+::MAPDATA::
+
+.......................................
+.             ) _     _               .
+.            ( (^)-~-(^)              .
+.  ________,-.\_( 6 6 )__,-.________  .
+.  +       'M'   \   /   'M'       +  .
+.  |              >o<              |  .
+.  |                               |  .
+.  |           + o - o             |  .
+.  |                  \            |  .
+.  |                   o           |  .
+.  |                   |           |  .
+.  |                   o           |  .
+.  |                    \          |  .
+.  |                   - o         |  .
+.  |                               |  .
+.  +-------------------------------+  .
+.......................................
+
+
+
+
+
+
+

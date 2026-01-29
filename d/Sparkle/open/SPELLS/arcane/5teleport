@@ -1,0 +1,30 @@
+Name: Teleport
+
+Object: /d/Sparkle/guilds/arcane/spells/teleport.c
+
+Cost:
+
+Skills:
+
+Description: Tier 5 spell
+                 Targets: N/A
+		 This spell is used to transport the caster back to the
+		 Seeker's guild hall. It is a fickle and unreliable spell at
+		 best. It can be cast from anywhere, but the results
+		 are varied, and sometime dangerous. The caster may
+		 end up transported right to the very entrance of the
+		 guild, or to various locations in the Sparkle domain if
+		 he is powerful and lucky. However, there is a chance
+		 that the caster will only transport himself to some
+		 other location within the lands from which he is casting,
+		 or may even be transported a completely different
+		 domain! He may even find that he fails miserably and
+		 is transported no where. For any cast, failure or
+		 success, there is a chance that the caster will have
+		 his life force drained from him, most likely more so
+		 with a grievous failure.
+
+Requirements:
+    SS_ELEMENT_AIR
+    SS_FORM_CONJURATION
+    Kumquat

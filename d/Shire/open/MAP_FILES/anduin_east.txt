@@ -1,0 +1,63 @@
+main
+::MAPDATA::
+eford 50 8 road
+rd01 51 8 road
+rd02 53 8 road
+rd03 54 8 road
+rd04 55 8 road
+rd05 56 8 road
+::MAPDATA::
+
+          ~~~~~~ /   \ ^  /   \              ~~~~           OOoOoOOoOoOoOoOOo
+      ~~~~      /  ^  / \/ ^   \             ~~~~           OoOOoOOOOOOOOo^^^
+  ~~~~            / \/   \/ \                 ~~~~          OOoooOoOooOooOooO
+ ~               /   \    \  \                ~~~~         oOOoOOoOoOoOoOoOOo
+                / Misty Mountains              ~~~~        OOoOOoOOOOOoOOoOOO
+               /                               ~~~~        oOOooOooOoOOooOooO
+                                              ~~~~         oOOoOoOOooOOoOoOOo
+           /----------------------------+-----====-------------- The Old Fore
+          / ~~~~~~~~ ^                  |     ~~~~        OOoOOOoOOOOoOOOoOOO
+ lshaws  /~~~~~ ^   / \  ^              |      ~~~~       OoOOoOOOoOoOOoOOOoO
+        /~~~   / \ /   \/ \             |   A N D U I N   OOOOoOOOOoOOOoOOOOo
+       /~~    /   \     \  \            |      ~~~~       OOOOOOoOOOOOOOOoOOO
+ -----/~~         Misty Mountains       |       ~~~~      OoOOoOOOoOoOOoOOOoO
+     ~~~           ^    ^               |       ~~~~      OOOOoOOOOoOOOoOOOOo
+   ~~~         ^  / \  / \              |      ~~~~       OOOOOOoOOOOOOOOoO+-
+ ~~~          / \/   \/   \             |      ~~~~       OoOOoOOOoOoOOoOOO|
+ ~           /   \  ^/     \            |      ~~~~       OOOOoOOOOoOOOoOOO+-
+            /   ^ \/ \   ^  \           |      ~~~~       OOOOOOoOOOOOOOOoOOO
+               / \/   \ / \             |      ~~~~       OoOOoOOOoOoOOOOoOOO
+              /   \ ^  /   \            |       ~~~~      OOOOoOOOOoOOOOOOOoO
+
+::NEWMAP::
+road
+::MAPDATA::
+eford 11 12
+rd01 15 12
+rd02 19 12
+rd03 23 12
+rd04 27 12
+rd05 31 12
+::MAPDATA::
+
+      ~~~~~                               OOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoO
+     ~~~~~                                OOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOO
+     ~~~~~                               ooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOoo
+     ~~~~~                             OOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOo
+     ~~~~~                            OOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOO
+      ~~~~~                           OOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoO
+      ~~~~~                          OOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOO
+     ~~~~~                           oOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOoo
+     ~~~~~                            OOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOo
+     ~~~~~                             OOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOO
+     ~~~~~
+ - o ..... o - o - o - o - o - o - o - o - o - o - o - o - o - o - o - o - o -
+   | ~~~~~
+   o ~~~~~                         oOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOO
+   | ~~~~~                        OOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOO
+   o ~~~~~                        oOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOo
+   | ~~~~~                        oOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOOOOOoOOOOoOOO
+   o ~~~~~                        OOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOoOOOOOOOOOOOo
+   | ~~~~~                         oOOOooOOOOOooOOOooOOOOOooOOOooOOOOOooOOOooOO
+   o ~~~~~                        OOOOOOoOOooOOOOOOOoOOooOOOOOOOoOOooOOOOOOOoOO
+   | ~~~~~                       OoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOoOOOoOOOOOOOo

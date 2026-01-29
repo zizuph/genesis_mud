@@ -1,0 +1,65 @@
+ Earth spell list.
+
+Tier 1:
+
+-Tell line. 5 mana.
+-Skin of earth. Defensive spell. AC improvement between 20
+and 40, depending on skills. 15-20 minutes duration. 40 mana.
+-Dust cloud. Reveals the invisible creatures in the room, up to an
+invis level of 3-5. Duration: 10 minutes.
+
+Tier 2:
+-Weakness. Target is sapped of strength. Strength is reduced by 25-40%. 
+This spell can be cast many times on a single target, though with less 
+benefit for each casting of course. (Earth is the element of strength, 
+and thus of removing strength - as I see it.) Duration 5-6 minutes. 
+Mana cost 60.
+-Wall of stone. Blocks an exit, no way to get through. The caster and
+characters with high earth magic can pass through it. Duration: 5 minutes. 
+95 mana.
+-Enchant stone. A player casts this spell on a precious gem. Low-value gems
+won't work. As long as this gem remains in the inventory of the caster, 
+and the caster is at full mana, the gem will slowly recharge at the same rate
+the caster would gain mana. If the caster is not at full mana, the game will
+discharge mana, at a rate proportional to the value of the gem.. till the gem
+is empty. It begins with no mana inside, of course. Duration permanent, but
+the gem does not save over armageddon. Spell cost: 100 mana.
+-Fountain of Earth. The earth erupts in a fountain of earth under a target,
+sending him flying up to five rooms away. Only works in an outdoor room,
+and the target may only land in an outdoor room. Minor damage is inflicted
+(100-200). 100 mana. 
+
+
+Tier 3:
+-Pebble to boulder. Caster throws a pebble at a target, which grows into a
+boulder in midair and slams into its target. Maximum penetration 800, mana
+cost 150. 
+-Stoneskin. Defensive spell. Will cause a percentage of blows that would
+otherwise hit, to bounce off. The maximum percentage would probably be
+around 80%. Can't be combined with earthskin. 15-20 minutes. 150 mana. 
+-Dust to dust. Cause a magical item to return to dust. Chance of success is
+inversely proportional with the strength of the items enchantment, as defined
+by its MAGIC_AM_MAGIC prop. Can target items in someone else inventory.
+160 mana.
+-Earthwalk. Caster sinks into the ground, and resurfaces at a previously
+marked location in the same domain. Both room travelled from and target
+room must be outdoors. 160 mana. (All Walkers have an emote to closely
+study a location they're at.. and can store up to 3 locations this way,
+that save over armageddon.) 
+
+
+
+Tier 4:
+-Forcefield. An impenetrable field of force forms around the caster. Caster
+can't be attacked, nor can he attack anyone. 10 minutes, 200 mana.
+-Flesh to stone. Target is turned into a stone statue, paralysis in game
+terms. If attacked, he is treated as if he has the stoneskin spell
+cast upon him. 3-5 minutes. 220 mana.
+-Earthen wave. The earth ripples and a huge wave of earth travels outward
+in a direction specified by the caster. It will keep going in that direction,
+room after room, weakening with each step. Anyone in the rooms the wave passes
+through are sent sprawling, stunned, a little damaged and possibly missing a 
+piece or two of equipment. Loose items on the ground are also liable to travel
+with the wave. Stun is in the order of 20-30 seconds, weakening as
+the wave weakens, and damage 300-400 going down. Very large or massive targets
+will be unaffected, and the wave cannot start nor travel indoors. Mana 230.

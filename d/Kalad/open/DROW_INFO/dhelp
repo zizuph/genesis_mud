@@ -1,0 +1,45 @@
+The following commands are available to you as a member of the Drow
+race guild of Undraeth, within Kalad:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dhelp.....This menu.
+dlanguage.A brief glossary of Drow words.
+dtitles...A list of all the titles of the Drow guild.
+dlist.....Call on the power of Lolth to see which other Drow are on.
+dsay......Speak in the ancient tongue of the Drow.
+ds........Sneer something at someone.
+dsight....Use your Lolth-given power to see in the darkness.
+dsmile....Smile as only a drow could.
+dbow......Bow with incredible grace and ease.
+dcurtsey..Curtsey with feline grace and poise.
+drespect..Show respect to someone you deem worthy.
+dsneer....Sneer in contempt of the surface dwellers.
+dmalice...Glare at someone maliciously.
+danger....Look at someone with intense, burning anger.
+dstoic....Look at someone without emotion.
+dglare....Glare at someone coldly and haughtily.
+doath.....Declare an oath to Lolth and Undraeth.
+ddeath....Promise someone a slow and painful death.
+dlaugh....Laugh at someone with malicious glee.
+dlust.....Gaze at someone lustfully.
+dpain.....Cringe in pain at something.
+dsign.....Relate a message via the Drow sign language.
+dgreet....Greet someone in the manner of the Drow.
+kill......Scream out a battle-cry as you attack someone.
+drude.....Point at someone and convey something rude.
+dsnarl....Clench your jaw and curl your lip in a feral snarl.
+dhowl.....Throw your head back and let out a howl of triumph.
+dcurse....Curse bitterly in drowish.
+dnarrow...Regard someone with scrutiny. (Try 'dnarrow <subject> <adv>')
+dgaze.....Level your gaze at someone.
+droar.....Roar at someone with uncontained wrath.
+dwatch....Watch someone out of the corner of your eye.
+dgrimace..Grimace in frustration and spit out a phrase. ('dgrimace Die!')
+dfare.....Bid someone farewell.
+dpray.....Whisper a silent prayer to Lolth.
+dscream...Let loose a scream of unbridled rage.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* Note: After performing certain emotes, said emotes will show up in
+        your description.
+* Note: To pass by the gate guarding the entrance to Undraeth, simply
+        say (using 'dsay') open and close while at the gate, and the
+        invisible guardians shall do your bidding.

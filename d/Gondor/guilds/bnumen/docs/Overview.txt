@@ -1,0 +1,78 @@
+
+           _________________________________________________________
+
+_________//========== The Black Numenoreans, and overview ==========\\__________
+          ___________________________________________________________
+
+
+A member joins the guild at the Captain of the black ship. He/she will remain 
+without a house until he reaches the title Envoy. At this point the player can 
+enter a house, without a Lord/Lady, at the Captain or talk to the Lord/Lady of 
+the desired house to join.
+
+A houseless player never reach further then to Envoy and a Lord/Lady can not 
+kick a player from the guild as a whole, only from the House.
+(Add 'disgraced' to the title for kicked players for a set time, or perhaps
+ability to kick a player in three degrees? Ban <member> light/medium/heavy
+this would set a different timer on disgraced title and a random of course.)
+
+Once a player advances up to Baron/Baroness of Numenor he/she is eligible to
+try to become a Lord/Lady of a house. To reach this title there is a small 
+task and for each level up this shall be the case.
+
+The title is based on guildstat (15%) and on eligible kills (85%) in Middle Earth
+and rare kills outside Middle Earth.
+When joining a house the kill count for next title will be set to 0 and the value
+it was saved in the player file (bnumen.o). Since once in a house the players
+rank can not fall below Envoy. (Here some fine tunement might be needed, reset or
+keep the score when the player joined and then count the difference?)
+
+In effect of above a player only mindlessly killing for rank will never reach 
+the title of Envoy and those who do understand the system will spend more
+time in Middle Earth. Hints of this should be found in the guild from NPC and
+in help files for the guild.
+
+The skill setup is as follows:
+  Black Numenorean Skills/Tax computation					
+  Adv. Guild       Max.		        multiplier		
+  SS_SNEAK  20    (50 levels)  20  30  1.00    30.000  0.50
+  SS_HIDE  20     (50 levels)  20  30  1.00    30.000  0.50
+  SS_BACKSTAB  0  (50 levels)   0  50  1.50    75.000  1.25
+  SS_WEP_KNIFE 30 (50 levels)  30  20  1.00    20.000  0.33
+  SS_AWARENESS 30 (50 levels)  30  20  1.00    20.000  0.33
+                                  150	               2.92
+
+  Some additional Adventurer level skills              0.00
+  
+  Special dock for Numenorean ship                     1.00
+  Total                                                3.92
+ 
+  Adventurer's guild level skills                      0.00
+
+Thoughts on skills:
+SS_WEP_KNIFE (50)
+SS_WEP_SWORD (50)
+SS_APPR_MON  (norm)
+SS_ACROBAT   (a little above norm)
+SS_SWIM      (60)
+SS_LOC_SENSE (norm)
+SS_AWARENESS (norm)
+SS_TRADING   (norm)
+
+SS_2H_COMBAT
+SS_PARRY
+SS_DEFENCE
+SS_UNARM_COMBAT
+
+Can not offer:
+
+/* Specialized fighting skills */
+#define SS_2H_COMBAT            20
+#define SS_UNARM_COMBAT         21
+#define SS_BLIND_COMBAT         22
+#define SS_PARRY                23
+#define SS_DEFENCE              24
+
+
+
+

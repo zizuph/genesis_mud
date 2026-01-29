@@ -1,0 +1,67 @@
+
+~city/obj/fountain.c - Can't drink from it.  You may want to add that option.
+                  If you need an example, look at the pools in the centaur
+                  glades.
+
+~city/obj/beer.c - Typo: famost should be famous
+	    - Doesn't have a very high intox level for its description or
+	      function. You may want to up it.
+
+~city/obj/drink/beer.c - Doesn't load the booze_object properly.
+
+~city/obj/weapon/wound_halberd.c - Typo: long desc "made out of a smoothe wooden.." smoothe should be smooth
+				   Typo: long desc "into to staff, as you look" , should be a . and as should be capitalised
+				-I don't think we need another polearm that increases
+				 speed. I'd remove that ability, and just leave it with the wounding.
+                                -You'll have to fix up the grammar of the wield message
+				-Remove the do_die if someone fails to wield it.  That way people get really
+				 damaged, but don't die. Death is a bit harsh for anyone who doesn't have epic
+				 con or more.
+
+~city/obj/weapon/crystalAxe.c    - Too powerful. Hit and pen are too high for a one-handed weapon.
+                                 - A bit nasty not allowing dwarves to wield it.
+                                 - I don't understand why you have the did_hit function in there.
+				 - I haven't checked who wields this, but if it was anything less than something
+				   really powerful and it was unique, or it was a quest item, i don't think i'd allow it.
+
+~city/obj/weapon/minotaurAxe.c   - Nice, although I don't think the best one should be called mithril-edged.
+				   Mithril is pretty much a Middle-Earth concept, and i have never heard of 
+				   such a material in Krynn. Can you describe the best weapon in another way?
+				 - You may want to add an add_name in the form of "axe"
+
+
+~city/obj/weapon/runedAxe.c	 - You may want to add an add_name in the form of "axe"	
+
+~city/obj/weapon/stunAxe.c	 - You may want to add an add_name in the form of "axe"
+				 - Its pen is too high for a non-magical one-handed weapon
+
+~city/npc/cGuard.c		 - Nice.
+
+~city/npc/captainGuard.c	 - The rest of the minotaurs have a natural ac of 40. I don't see why this guy
+				   shouldn't have at least the same.  That would make him pretty kick arse.
+				 - If you really want to keep the crystalAxe, make it clone no more than twice by
+				   using clone_unique.  The captain currently clones two axes, so it shouldn't be a
+				   problem.
+
+~city/npc/highPriest.c		 - Rather than having it in the description, maybe have it so that this priest actually
+				   has a pouch and herbs on his possession?
+				 - In the long description, instead of having it 'A member of the Priests of Sargonnas',
+				   perhaps change it to "A priest of the Dark Order of Sargonnas' or something similar.
+
+~city/npc/rat.c			 - Change the text at the beginning describing it as a citizen.
+
+~city/npc/rilak.c		 - Add ask doesn't check for any arguement after 'sharpen'
+
+~city/npc/sarul.c		 - As above, but for 'fix'
+
+~city/obj/armour/crimsonrobe.c	 - In the long description it should be 'sign of _a_ red fist'
+
+~city/obj/armour/harness.c	 - For studded leather armour, its ac is a little too high
+
+~city/obj/armour/captainsTabard.c- Considering the ac with the set_am makes the total ac at around ac 28, you may want
+				   to make it magical.  (28 is about as good as quality chainmail)
+
+~city/obj/armour/silverrobe.c    - In the long description it should be 'sign of _a_ red fist'
+
+~city/obj/armour/skirt.c	 - ac is a too high
+

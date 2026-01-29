@@ -1,0 +1,76 @@
+main
+::MAPDATA::
+stewards7 46 2
+stewards6 46 4
+dinen11a 5 5
+dinen10 13 5
+dinen7 17 5
+dinen6 21 5
+dinen3 25 5
+dinen2 29 5
+dinen1 33 5
+stewards4 42 6
+stewards3 46 6
+stewards5 50 6
+dinen11b 1 7
+dinen11 9 7
+dinen9 17 7
+dinen8 21 7
+dinen5 25 7
+dinen4 29 7
+dinen19a 33 7
+dinen19b 37 7
+stewards2 46 8
+dinen12b 1 9
+dinen12 9 9
+dinen14 17 9
+dinen15 21 9
+dinen18 25 9
+dinen19 29 9
+dinen19c 33 9
+stewards1 46 9
+dinen12a 5 11
+dinen13 13 11
+dinen16 17 11
+dinen17 21 11
+dinen20 25 11
+dinen21 29 11
+dinen22 33 11
+dinen23 37 11
+hallows1 46 11
+kings1 46 13
+kings2 46 14
+kings4 42 16
+kings3 46 16
+kings5 50 16
+kings6 46 18
+kings7 46 20
+::MAPDATA::
+
+                ===========
+                The Hallows                   o
+                ===========                   |
+                                              o
+     o       o   o - o   o - o - o -          |
+   /   \   /   \   \   \   \              o - o - o
+ o       o       o - o   o - o   o - o        |
+         |         /   /   /   /   /         [ ]
+ o       o       o - o   o - o   o           [ ]
+   \   /   \   /   /   /   /   /              |
+     o       o   o - o   o - o - o - o ------ o
+                                              |
+                                             [ ]
+                ..---..                      [ ]
+              .`   |   `.                     |
+            .`     |     `.               o - o - o
+           /  _   | |   _  \                  |
+          |  / \  | |  / \  |                 o
+          | |   | | | |   | |                 |
+          | |   | | | |   | |                 o
+          | |___| | | |___| |
+         /________|_|________\
+        |         | |         |
+        |         | |         |
+        |         | |         |
+        |         | |         |
+        |_________|_|_________|

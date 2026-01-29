@@ -1,0 +1,49 @@
+main
+::MAPDATA::
+mining.18 2 4
+mining.17 6 4
+mining.16 10 4
+mining.15 14 4
+mining.19 2 6
+mining.14 16 6
+mining.20 2 7
+mining.13 16 7
+mining.12 19 9
+treasure_room 15 11
+mining.11 21 11
+dead_end 15 13
+mining.10 21 13
+mining.7 11 15
+mining.8 15 15
+mining.9 19 15
+mining.6 9 17
+mining.5 9 18
+mining.4 7 20
+mining.3 5 22
+mining.2 5 24
+::MAPDATA::
+                     .  /\  .
+                    //`-||-'\\ 
+                   (| -=||=- |)
+                    \\,-||-.//
+  o - o - o - o      `  ||  `
+  |            \        ||
+ [ ]           [ ]      ||
+ [ ]           [ ]      ||
+                  \     ||
+                   o    ||
+                    \   ()
+                     o
+                     |
+               o     o
+               |    /
+           o - o - o
+          /
+        [ ]   . . /\. .
+        [ ]   . . \/. .
+        /         ||
+       o       ___||__(~\
+      /        \______/
+     o
+     |
+    [ ]

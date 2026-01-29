@@ -1,0 +1,120 @@
+main
+::MAPDATA::
+mpath6 22 11 road
+mpath7 22 11 road
+misty_link 23 10 road
+er_link 23 10 road
+p1 23 10 road
+p2 24 9 road
+p3 24 9 road
+p18 25 9 mountains
+p4 27 9 mountains
+p5 28 9 mountains
+p6 29 9 mountains
+p7 30 9 mountains
+p8 31 9 mountains
+p9 32 9 mountains
+p10 33 9 mountains
+p11 34 9 mountains
+p12 36 9 mountains
+p13 38 9 mountains
+rd06 40 9 mountains
+rd05 42 9 mountains
+rd04 44 9 mountains
+::MAPDATA::
+
+                               / \/   \ / \               ~~~~           OOooOO
+                       ~~~~~~ /   \ ^  /   \              ~~~~           OOoOoO
+                   ~~~~      /  ^  / \/ ^   \             ~~~~           OoOOoO
+               ~~~~            / \/   \/ \                 ~~~~          OOoooO
+             ~~               /   \    \  \                ~~~~         oOOoOOo
+           ~~                / Misty Mountains              ~~~~        OOoOOoO
+         ~~                 /                               ~~~~        oOOooOo
+        ~                                                  ~~~~         oOOoOoO
+        ~               /----------------------------+-----====-------------- T
+        ~              / ~~~~~~~~ ^                  |     ~~~~        OOoOOOoO
+ ---\   ~ Trollshaws  /~~~~~ ^   / \  ^              |      ~~~~       OoOOoOOO
+     \  ~            /~~~   / \ /   \/ \             |   A N D U I N   OOOOoOOO
+      \-=-\         /~~    /   \     \  \            |      ~~~~~      OOOOOOoO
+        ~  \-------/~~         Misty Mountains       |       ~~~~      OoOOoOOO
+        ~         ~~~           ^    ^               |       ~~~~      OOOOoOOO
+       ~~       ~~~         ^  / \  / \              |      ~~~~       OOOOOOoO
+      ~~      ~~~          / \/   \/   \             |      ~~~~       OoOOoOOO
+     ~~   ~~~~~           /   \  ^/     \            |      ~~~~       OOOOoOOO
+    ~~~~~~~~             /   ^ \/ \   ^  \           |      ~~~~       OOOOOOoO
+  ~~~~~                     / \/   \ / \             |      ~~~~       OoOOoOOO
+ ~~~                       /   \ ^  /   \            |       ~~~~      OOOOoOOO
+
+::NEWMAP::
+road
+::MAPDATA::
+mpath6 6 14
+mpath7 10 12
+misty_link 14 10
+er_link 18 8
+p1 22 8
+p2 26 8
+p3 30 6
+::MAPDATA::
+
+                                  /   \    \  \/   \  /   \    \  \/   \    \
+                                              /     \             /     \
+
+                                  o - o - o          o                o - o
+                                / |         \      /   \           /        \
+                              o - o          o - o       o       o
+                            /                :             \   /
+                  o - o - o            ^                     o
+                /                 ^   / \  ^       ^    ^
+              o   ~~~~~~~~~~     / \ /   \/ \  ^  / \  / \
+            /    ~~             /   \     \   / \/   \/   \
+          o     ~~~            /    Misty Mountains ^/     \
+        /      ~~~            /                   \/ \      \
+      o      ~~~~
+      |     ~~~~
+      o     ~~~~
+      |     ~~~~
+      o     ~~~~
+    /       ~~~~
+  o       ~~~~
+  |     ~~~~
+
+::NEWMAP::
+mountains
+::MAPDATA::
+p18 15 12
+p4 15 10
+p5 19 10
+p6 23 10
+p7 27 12
+p8 31 12
+p9 35 10
+p10 39 12
+p11 43 14
+p12 47 12
+p13 51 10
+rd06 55 10
+rd05 59 12
+rd04 63 12
+::MAPDATA::
+
+
+                              ^                   ^
+                             / \                 / \
+                     ^      /   \ ^      ^      /   \ ^
+                 ^  / \  ^ /  ^  / \ ^  / \  ^ /  ^  / \
+                / \/   \/ \  / \/   / \/   \/ \  / \/   \
+               /   \    \  \/   \  /   \    \  \/   \    \
+                           /     \             /     \
+
+               o - o - o           o               o - o
+             / |         \       /   \           /       \
+           o - o           o - o       o       o           o - o - o - o - o -
+         /                 :             \   /
+ - o - o            ^                      o
+               ^   / \  ^       ^    ^
+ ~~~~~~~~     / \ /   \/ \  ^  / \  / \
+             /   \     \   / \/   \/   \
+            /    Misty Mountains ^/     \
+           /                   \/ \      \
+

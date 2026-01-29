@@ -1,0 +1,58 @@
+This file will provide you with information on the tax of the layman part
+of the Death Knights of the Khiraa, which is the magical part.
+
+Since the old magical system will be replaced soon (or so I hear), I
+decided to use the rules rules and tax suggested for it.
+
+
+Skills:
+
+skill                  - max level - levels taxed - rate - tax
+
+SS_SPELLCRAFT              50            30         .016   .48
+SS_ELEMENT_DEATH           50            30         .016   .48
+SS_ELEMENT_FIRE            30            10         .016   .16
+SS_FORM_TRANSMUTATION      50            50         .016   .80
+SS_FORM_ENCHANTMENT        50            50         .016   .80
+SS_HERBALISM               50            30         .016   .48
+SS_LANGUAGE                65            15         .016   .24
+
+
+skill level total: 345
+skill total: 3.44
+
+name             lvl       elem/form          tax
+
+---- Lesser Knights ----------------
+
+crow               1 -   death/conjur          0.4
+night vision       2 -   death/enchant         0.6
+create darkness    2 -   death/trans           0.6
+rotting food       2 -   death/trans           0.6
+fire arrow         3 -   fire/trans            1.0
+tax:                                           3.2
+
+---- Greater Knights ---------------
+
+death blade        3 -   death/enchant         1.0
+unholy armour      3 -   death/enchant         1.0
+fear               3 -   death/trans           1.0
+bones              3 -   death/trans           1.0
+
+tax:                                           4.0
+
+# of spells total: 9
+# of attack spells: 1
+# of defense spells: 2
+
+Total spell tax: 7.2
+Total skill tax: 3.44
+
+
+Total tax for guild: 
+lesser: 6.64% -> 7%
+greater: 10.64% -> 11%
+(I will take the tax difference into account in the occ shadow tax )
+
+
+

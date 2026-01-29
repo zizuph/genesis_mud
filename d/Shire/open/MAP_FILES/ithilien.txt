@@ -1,0 +1,57 @@
+main
+::MAPDATA::
+wbs4 47 4 road
+wbs5 47 10 road
+gondorlink2 47 16 road
+::MAPDATA::
+
+                 / \  ^  /   \^  ^             |       ~~~~      OOOOOOOOoOOO
+             ^  /   \/ \/    / \/ \            |        ~~~~      oOoOOoOOOoO
+            / \/    /  /    /   \  \           |        ~~~~       oOOOoOOOOo
+           /   \   /       /     \             |         ~~~~      OOOOOOoOOO
+             Misty Mountains    ^  ^           |         ~~~~      OoOOoOOOoO
+           ^   ^      ^        / \/ \          |         ~~~~       OOOoOOOOo
+          / \ / \  ^ / \   ^  /   \  \         |        ~~~~        OOOOOoOOO
+         /   \ ^ \/ \   \^/ \/     \           |        ~~~~         OOoOOOoO
+     MORIA    / \/   \  / \  \  ^   \          |        ~~~~         OOoOOOOo
+       O ^   /   \  ^ \/   \  \/ \             |         ~~~~         OOOoOOO
+ ~~~~~~ / \ /     \/ \/     \ /   \            |         ~~~~         OoOOOoO
+       /   \      /  /       /     \           |         ~~~~          oOOOOo
+      /     \    /  /    ^  /       \          |          ~~~~         OOoOOO
+        Misty Mountains / \      ^             |      A N D U I N      oOOOoO
+           ^        ^  /   \^   / \            |         ~~~~           OOOOo
+          / \   ^  / \/    / \ /   \           |         ~~~~              OO
+         /   \ / \/   \   /   /     \           \       ~~~~            OOOoO
+        /     /   \    \                         \      ~~~~           oOOOOo
+         ^   /     \^                             \    ~~~~           OOOoOOO
+        / \ /      / \                             \   ~~~~         oOOoOOOoO
+
+::NEWMAP::
+road
+::MAPDATA::
+wbs4 41 4
+wbs5 41 6
+gondorlink2 41 8
+::MAPDATA::
+
+                                         |
+                                         o
+                                         |
+                                         o
+                                         |
+                                         o
+                                         |
+                                         o
+                                           \
+                                             o
+                                               \
+                                                 o
+                                                   \
+                                                     o
+                                                     |
+                                                     o
+                                                     |
+                                                     o
+                                                     |     /
+                                                     o   o
+                                                       \ |

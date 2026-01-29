@@ -1,0 +1,33 @@
+main
+::MAPDATA::
+pier 18 12 main
+::MAPDATA::
+
+~~~~~~~~~~~~~~~~~~~~~~~~~            The Gates of Gelan
+~~~~~~~~~~~~~~~~~~~~~~~~~                     |
+~~~~~~~~~~~~~~~~~~~~~~~~                      |            ================
+~~~~~~~~~~~~~~~~~~~~~~~                      ,o             SOUTH OF GELAN
+~~~~~~~~~~~~~~~~~~~~~                      ,  | `              IN CALIA
+~~~~~~~~~~~~~~~~~ o - o                  ,    |   `        ================
+~~~~~~~~~~~~~~~~      |                ,      |     ` 
+~~~~Port of~~~~ 7 o - o              ,        |       ` 
+~~~~~Gelan~~~~~       |            ,    o     |         ` 
+~~~~(docks)~~~~ 6 o - o          ,  Adv. `.   |  The      ` 
+~~~~~~~~~~~~~~~       |        ,    Guild  `. | Roundabout  ` 
+~~~~~~~~~~~~~~~ 5 o - o - - - o - - - - - - - o - - - - - - - o 
+  1   2   3   4     ,'         `  Carriage ,' |             ,   ` 
+  o   o   o   o   ,'             `  Ride ,'   |           ,       ` 
+  |   |   |   | ,'                 `    o  to |         ,           ` 
+  o - o - o - o                      `   Argos|       ,             Road to
+                                       `      |     ,                Argos
+   .====================.                `    |   , 
+  |    SHIPPING LANES    |    Road to      `  | , 
+  |======================|  the coastal - - - o
+  |1-Circle Line(newbies)| fishing village  , |` 
+  |2-Circle Line(newbies)|                ,   |  ` 
+  |3-Circle Line(newbies)|              ,     |    ` 
+  |4-Circle Line(newbies)|            ,       |      ` 
+  |5-Sparkle Line        |          ,         |        ` 
+  |6-Circle Line(newbies)| Moorlands     Road to the     Moorlands
+  |7-Palanthas Line      |           Crystalline Palace
+   `===================='

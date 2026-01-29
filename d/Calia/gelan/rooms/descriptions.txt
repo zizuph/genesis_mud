@@ -1,0 +1,243 @@
+/* These are some descriptions for the rooms in Gelan. Just copy the things you 
+   can use. Don't include this file, 'cause it will use too much mem. 
+ 
+   If you think some items should be changes, please make the changes here and 
+   inform all domain members of the change. All domain members should then 
+   change the appropriate code. 
+ 
+    coder(s):   Merlin 
+ 
+    history:    20.12.92    created                         Merlin 
+                21.12.92    modified                        Merlin 
+                27.12.92    modified                        Merlin 
+ 
+    to do:      make the descs better 
+ 
+ 
+ 
+All descriptions are for items: 
+ 
+ 
+road - outside town 
+    add_item(({"road","floor","ground","walk","street"}),BS("It's " 
+          + "something like a gravel walk, made with a lot of small pieces " 
+          + "of broken white marble. This road must be very well kept, " 
+          + "because there isn't the faintest trace of dirt anywhere.\n")); 
+ 
+road - inside town 
+    add_item(({"road","floor","ground"}), BS("The road consists of white " 
+          + "marble. It is shining white, but despite its look, its not " 
+          + "slippery at all. The road is very well kept here, not the " 
+          + "faintest sign of litter.\n")); 
+ 
+gate - from the south 
+    add_item("gate",BS("It is huge, even from this distance. In front of " 
+          + "the gate you can see a drawbridge. On both sides of the gate " 
+          + "is a giant sandstone tower, followed by white shimmering walls, " 
+          + "stretching east and west as far as you can see.\n")); 
+ 
+gate - south near 
+    add_item("gate", BS("The gate is impressive. Not only it's height but " 
+          + "also it's strenght. It seems impossible to overcome it. To " 
+          + "the left and right side of the gate you see huge towers. They " 
+          + "are engraved with magical symbols meant to ward off all evil. " 
+          + "East and west big white walls stretch out as far as you can see.\n")); 
+ 
+gate- north near 
+    add_item("gate", BS("The gate, as you see it from here, consists of a " 
+          + "long tunnel with huge columns on either side, all built out of " 
+          + "sandstone. You can't see the top of the tunnel though it " 
+          + "could be open to the sky as well.\n")); 
+ 
+gate - north far 
+    add_item("gate", BS("The gate is huge from this side too. It's " 
+          + "bordered with two huge sandstone towers.\n")); 
+ 
+gate - just in it 
+    add_item("gate", BS("The gate is really huge. There is no door or real " 
+          + "gate here, only the drawbridge serves to close the town. The " 
+          + "gate is this big that you aren't sure if it's open to the sky " 
+          + "or not. Somehow you feel small and vulnerable. Better be " 
+          + "carefull here.\n")); 
+ 
+palace - from north 
+    add_item("palace",BS("It's about 6 stories heigh and octogonal shaped. " 
+          + "It consists of some clear crystalline material, wonderfully " 
+          + "glittering and sparkling in the sunlight.\n")); 
+ 
+palace - from far north 
+    add_item("palace", BS("The palace is already some way back, but even " 
+          + "from this distance it's wonderfull to see how it glitters in " 
+          + "the sun.\n")); 
+ 
+gelan - from outside 
+    add_item(({"gelan","Gelan"}),BS("You sure know Gelan, don't you. If " 
+          + "not, you'd better have a look there.\n")); 
+ 
+gelan - in it 
+    add_item(({"town","gelan","Gelan"}),BS("Well, your here, just look " 
+          + "around to see it. Isn't it great ?\n")); 
+ 
+towers 
+    add_item(({"tower","towers"}),BS("The Towers are really huge. They are " 
+          + "made out of sandstone and you notice some strange magical " 
+          + "symbols on them.\n")); 
+ 
+town walls 
+    add_item(({"wall","walls"}),BS("The walls are shining in a bright " 
+          + "white. You wonder if there exists some sort of white lava rock.\n")); 
+ 
+square - far 
+    add_item("square", BS("This square is really big. To see more you have " 
+          + "to go closer.\n")); 
+square - on it 
+    add_item("square", BS("The big square is encircled with a lot of " 
+          + "different buildings of differnt shape and color.\n")); 
+ 
+statue - far 
+    add_item("statue", BS("It's a huge statue of a woman and a dragon. You " 
+          + "can't see more from this distance.\n")); 
+ 
+statue - see from square near 
+    add_item("statue", BS("The statue is standing in the middle of a giant " 
+          + "fountain. The statue shows the fight between a huge woman in " 
+          + "gold and an evil black dragon.\n")); 
+ 
+armoury - near 
+    add_item("armoury",BS("The guards armoury is a cube shaped house made " 
+          + "of sandstone. In order to do their duty and fight the ever " 
+          + "lurking evil the guardians renounced to have a door. The " 
+          + "building has quite a lot of windows so the guardians can " 
+          + "control the surroundings. Whenever there's trouble in town " 
+          + "you can be sure there's someone to handle it.\n")); 
+ 
+armoury - entrance 
+    add_item("entrance", BS("There is no door in the entrance, just a big " 
+          + "hole. On the wall left to the entrance is a sign.\n")); 
+ 
+armoury - sign 
+    add_item("sign",BS("The sign is written in big golden letters.\n") 
+                     + "            GUARDS ENTRANCE, NO ENTRY\n" 
+                  + BS("Below the letters is the golden sign of Gelan.\n")); 
+ 
+sky in gate 
+    add_item("sky",BS("Well, your not sure if you can see it or not. " 
+          + "Perhaps the gate make some sort of roof here.\n")); 
+ 
+columns in gate 
+    add_item("column", BS("The columns are round and apparently about two " 
+          + "miles high (hobbit perspective ...). They are made, or at " 
+          + "least the part you can see, is made out of sandstone.\n")); 
+ 
+gorcery - near 
+    add_item(({"grocery","tomati","Tomati","empire","Empire"}), BS("The house " 
+          + "is overgrown with all kinds of plants and veggies. You can't " 
+          + "recognize neither it's color nor shape.\n")); 
+ 
+grocery - entrance 
+    add_item("entrance", BS("The entrance is rather hard to see under all " 
+          + "those plants. However, it looks friendly and inviting, why " 
+          + "not go in ?\n")); 
+ 
+grocery - plants, veggies 
+    add_item(({"plants","plant","veggy","veggies"}), BS("There are this much " 
+          + "different plants and veggies that you can't determine which " 
+          + "plants there are. You would have to go close to see more, but " 
+          + "it's far to dangerous to climb up these plants.\n")); 
+ 
+fountain - near 
+    add_item("fountain",BS("The fountain is a large hexagonal shaped pool, " 
+          + "filled with crystal-clear, blue water. In the middle of the " 
+          + "pool is a magnificent golden statue with a black dragon.\n")); 
+ 
+bakery - near 
+    add_item(({"house","bakery"}),BS("The bakery is a little gingerbread " 
+          + "house. On the steep roof is a painting made of cand, " 
+          + "representing a giant jelly-filled donut. The windows are made " 
+          + "of frosting and break easily. Even out here you think to " 
+          + "smell something wonderfull.\n")); 
+ 
+sign of bakery 
+    add_item("sign",BS("It's a large croissant with the letters 'Donut " 
+          + "McCroissant: Bakery' under it\n")); 
+ 
+blacksmith - near 
+    add_item(({"house","smithy","forge"}),BS("The house is blackend and " 
+          + "doesn't seem to be as clean as the other houses are. It has a " 
+          + "large chimney emitting filtered smoke. Over the door is a sign.\n")); 
+ 
+sign of blacksmith 
+    add_item("sign",BS("It's a huge black hammer. Beneath it are the words " 
+          + "'Bubba Hammerhead, Smithy'.\n")); 
+ 
+chimney of blacksmith 
+    add_item("chimney",BS("The chimney is emitting filtered smoke, it " 
+          + "seems to be rather hot in the house.\n")); 
+ 
+lavatory - near 
+    add_item(({"lavatory","building"}),BS("It's a well cleaned and fresh " 
+          + "painted blue simple cube shaped building. On the top of its " 
+          + "front side is painted with bright white paint 'Public Lavatory of " 
+          + "Gelan'. Beneath the words is the golden sign of Gelan.\n")); 
+ 
+hairdresser - near 
+    add_item(({"house","bottle","shampoo","hairdresser"}),BS("The house " 
+          + "has the shape of a giant shampoo bottle. There's a sign over " 
+          + "the entrance door.\n")); 
+ 
+sign of hairdresser 
+    add_item("sign",BS("The sign consists of a large brush with the words " 
+          + "'Bigoudi Angora, Hairdresser' beneath it.\n")); 
+ 
+bank - near 
+    add_item(({"building","bank"}), BS("The building is cube-shaped and " 
+          + "made of sandstone. The windows are barred. The scent of money " 
+          + "lingers in the air. Over the entrance is written in large " 
+          + "golden letters 'Bank of Calia'.\n")); 
+ 
+map of gelan (you have to change the 'you position' point ('*') !) 
+ 
+    add_item(({"map","plan"}), 
+    "This is a map of Gelan:     Legend:\n\n" 
+  + "         |-|  |---|\n" 
+  + "   \     |#|  |  %|   / /   Roads:                 Official Buildings:\n" 
+  + "  \ \    |-|  |-| |  / /     1) Palace Road         @) Stable of Gelan\n" 
+  + "   \ \/\ |c|  |C|-/\/ /      2) Calia Street        #) Guards Armoury\n" 
+  + "    \ \D\|-| 5|-|/!/ /       3) Maple Street        %) Guards Headquarters\n" 
+  + "    /\6\/        \/4/\       4) Parliament Street   !) Jail\n" 
+  + "    \d\            / /       5) Castle Road\n" 
+  + "     \/     $$     \/        6) High Street\n" 
+  + "   ---              ---      7) Surgery Street\n" 
+  + "   |e|              |B|\n" 
+  + "------              -----   Commerce:              Special Points:\n" 
+  + "    7              3        a) McCroissant bakery  $) Pillory of Gelan\n" 
+  + "------              -----    b) Angora Hairdresser  +) Fountain of Gelan\n" 
+  + "   |E|      ++      |b|      c) Brandybug Inn       &) Gate of Gelan\n" 
+  + "   ---     ++++     ---      d) Goliloon Alchemy\n" 
+  + "     /\     ++     /\        e) Miser Shop          *) your position\n" 
+  + "    /f/            \A\       f) Hammerhead Smithy\n" 
+  + "    \/ /\        /\2\/       g) Tomati Empire\n" 
+  + "    / /g/|-|*1|-|\a\ \\n" 
+  + "   / /\/ |@|  |@| \/\ \     Public Buildings:\n" 
+  + "  / /    |-|  |-|    \ \     A) public lavatory\n" 
+  + " / /     |#|  |#|     \ \    B) Public School of Gelan\n" 
+  + "  /      |-|  |-|      \     C) Tourist Office\n" 
+  + "          |  |              D) Post Office of Gelan\n" 
+  + "          |&|-              E) Bank of Calia, Gelan branch \n" 
+  + "          | |\n\n"); 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+*/ 
+ 

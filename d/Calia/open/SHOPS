@@ -1,0 +1,136 @@
+Here are the details of commercial rooms in Calia
+* denotes shop code was partially adapted from another Domain's sources
+
+Name: bakery   Location: Gelan   Coder(s):  Maniac*      
+Path:   ~Calia/gelan/rooms/bakery.c
+Details: Sells various pastry based foods, wide range of food values. 
+         Food items stocked in ~Calia/gelan/objects.
+         Npc: ~Calia/gelan/monsters/baker.c
+
+
+Name: grocery   Location: Gelan   Coder(s): Maniac
+Path: ~Calia/gelan/rooms/grocery.c
+Details: Sells special food (fruit and veg) that can recuperate small amounts
+         of mana/fatigue/hp in the player who eats it. The fruit is in
+         ~Calia/gelan/objects. The inheritable fruit code, and doc, is in
+         ~Calia/std.
+
+
+Name: bank     Location: Palace  Coder(s):  Glykron     
+Path: ~Calia/palace/rooms/light/bank.c
+Bank ID: NONE (not in use)
+Details: Ordinary vanilla bank  
+
+
+Name: bank  Location: Gelan    Coder(s):  Glykron/Maniac  
+Path: ~Calia/gelan/rooms/bank.c
+Bank ID: Gnomes of Genesis Bank ID = 1401
+Details: Enhanced bank (for npc banker) plus gnome money deposit. Also
+         there's a small quest at this site (see ~Calia/private/QUESTS). 
+         Npc: ~Calia/gelan/monsters/ska.c
+
+
+Name: blacksmith   Location: Gelan   Coder(s) Maniac*         
+Path: ~Calia/gelan/rooms/blacksmith.c
+Details: Major revision of Gondor blacksmith code including forging polearms,
+         now resides in the npc code, ~Calia/gelan/monsters/bubba.c 
+
+
+Name: hairdresser  Location: Gelan  Coder(s) Glykron/Maniac 
+Path: ~Calia/gelan/rooms/hairdresser.c,
+Details: Sells haircuts, where player gets a hair shadow that displays
+         hair of the chosen style, and a cmdsoul that gives some hair 
+         emotes (both are found in ~Calia/gelan/specials). 
+         Also sells "eye washes", eye shadow similar in principle 
+         to the hair shadow. These are found in ~Calia/gelan/specials. 
+         Npc: ~Calia/gelan/monsters/bigoudi.c
+
+
+Name: inn  Location: Gelan  Coder(s) Deinonychus*    
+Path: ~Calia/gelan/rooms/inn.c
+Details: Sells alco in "bottles" of various sizes (see 
+         ~Calia/gelan/objects)  
+         Npc: ~Calia/gelan/monsters/orgulas.c
+         
+
+Name: shop   Location: Palace   Coder(s):  Glykron         
+Path: ~Calia/palace/rooms/light/shop.c
+Details: Ordinary vanilla shop.
+
+
+Name: shop   Location: Palace   Coder(s):  Maniac*   
+Path: ~Calia/palace/rooms/light/hardware_shop.c
+Details: Sells backpacks and sacks, torches, rope, and a couple of quest
+         items (cloth and chisels).
+
+
+Name: shop   Location: Gelan   Coder(s):  Maniac*         
+Path: ~Calia/gelan/rooms/shop.c
+Details: Enhanced shop (Npc, found in ~Calia/gelan/monsters/coiney.c).
+
+
+Name: tattoo parlour  Location: Gelan  Coder(s): Stexx/Digit     
+Path: ~Calia/gelan/rooms/t_par.c          
+Details: Tattoo shop connected to the hairdresser, has a big range
+         of tattoos that players can purchase, with flexibility (players  
+         can select from a range of adjectives to go in the tattoo 
+         description). Most of the code is in ~Calia/gelan/tattoos.
+         Npc code is in ~Calia/gelan/monsters/budda.c
+
+
+Name: fish market   Location: seaside village    Coder(s): Maniac & Jaacar
+Path: ~Calia/sea/beach/village8.c
+Details: A shop that deals only in fish caught in the local sea,  
+         they pay special prices for them and sell them on for a profit. 
+Npc: ~Calia/sea/creatures/mar_iella.c 
+
+
+Name: The Leaping Dolphin (pub)  Location: seaside vilage   
+Coder(s) Maniac & Jaacar
+Path:  ~Calia/sea/beach/village2.c
+Details: A simple pub, sells some simple food and drinks. 
+Npc: ~Calia/sea/creatures/bier_nut.c 
+
+
+Name: kroug shop    Location: cave near beach    Coder(s): Maniac & Jaacar
+Path: ~Calia/sea/beach/sea_cave.c 
+Details: A `secret' shop for evil players to sell the stuff they loot from 
+         the villagers. 
+Npc: ~Calia/sea/creatures/ripper.c  
+
+Name: Thalassian Shop  Location: Thalassia    Coder(s): Jaacar
+Path: ~Calia/sea/thalassia/major/shop.c
+Details: An underwater shop in the city of Thalassia.
+Npc: none
+
+Name: Thalassian Blacksmith   Location: Thalassia    Coder(s): Jaacar & Sarr
+Path: ~Calia/sea/thalassia/major/smith.c
+Details: A basic smithy that allows player to sharpen/wax weapons and 
+         Mend armours (not broken ones).
+Npc: ~Calia/sea/creatures/smithy.c
+
+Name: Thalassian Bank   Location: Thalassia    Coder(s): Jaacar
+Path: ~Calia/sea/thalassia/lesser/bank.c
+Bank ID: Gnomes of Genesis Bank ID = 1402
+Details: Unknown
+
+Name: Thalassian Hospital    Location: Thalassia    Coder(s): Jaacar
+Path: ~Calia/sea/thalassia/lesser/hospital.c
+Details: The hospital gives players a chance to remove those ugly scars
+         That they have gotten from getting killed.
+Npc: none
+
+Name: Royal Bank of Argos   Location: Argos
+Path: ~Calia/argos/metro/rooms/bank.c
+Bank ID: Gnomes of Genesis Bank ID = 1403
+Details: Unknown
+
+Name: Elemental Temple Bank   Location: Elemental Temple
+Path: ~Calia/guilds/elementalists/temple/bank.c
+Bank ID: Gnomes of Genesis Bank ID = 1404
+Details: The Elemental Temple is the guild home of the Elemental Clerics,
+         Worshippers, and Seekers.
+
+shop(outdoor)   Zima            ~zima/argos/nwterr/tentcourt.c
+pub/inn         Zima            ~zima/argos/nwterr/tentinn.c
+

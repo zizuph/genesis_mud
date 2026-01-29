@@ -1,0 +1,290 @@
+main
+::MAPDATA::
+5zb 63 6 bloodsea_north
+6zb 63 6 bloodsea_north
+7zb 63 6 bloodsea_north
+8zb 63 6 bloodsea_north
+6zc 63 6 bloodsea_north
+7zc 63 6 bloodsea_north
+8zc 63 6 bloodsea_north
+6zd 63 6 bloodsea_north
+7zd 63 6 bloodsea_north
+8zd 63 6 bloodsea_north
+6ze 63 6 bloodsea_north
+7ze 63 6 bloodsea_north
+8ze 63 6 bloodsea_north
+6zf 63 6 bloodsea_north
+7zf 63 6 bloodsea_north
+8zf 63 6 bloodsea_north
+5zg 63 6 bloodsea_north
+6zg 63 6 bloodsea_north
+7zg 63 6 bloodsea_north
+9i 69 12 bloodsea_north
+9j 69 12 bloodsea_north
+9k 69 12 bloodsea_north
+9l 69 12 bloodsea_north
+9m 69 12 bloodsea_north
+9n 69 12 bloodsea_north
+9o 69 12 bloodsea_north
+9p 69 12 bloodsea_north
+9q 69 12 bloodsea_north
+9r 69 12 bloodsea_north
+9s 69 12 bloodsea_north
+8i 69 12 bloodsea_north
+8j 69 12 bloodsea_north
+8k 69 12 bloodsea_north
+8l 69 12 bloodsea_north
+8m 69 12 bloodsea_north
+8n 69 12 bloodsea_north
+8o 69 12 bloodsea_north
+8p 69 12 bloodsea_north
+8q 69 12 bloodsea_north
+8r 69 12 bloodsea_north
+7i 69 12 bloodsea_north
+7j 69 12 bloodsea_north
+7k 69 12 bloodsea_north
+7l 69 12 bloodsea_north
+7m 69 12 bloodsea_north
+7n 69 12 bloodsea_north
+7o 69 12 bloodsea_north
+7p 69 12 bloodsea_north
+7q 69 12 bloodsea_north
+7r 69 12 bloodsea_north
+6i 69 12 bloodsea_north
+6j 69 12 bloodsea_north
+6k 69 12 bloodsea_north
+6l 69 12 bloodsea_north
+6m 69 12 bloodsea_north
+6n 69 12 bloodsea_north
+6o 69 12 bloodsea_north
+6p 69 12 bloodsea_north
+6q 69 12 bloodsea_north
+6r 69 12 bloodsea_north
+5i 69 12 bloodsea_north
+5k 69 12 bloodsea_north
+5l 69 12 bloodsea_north
+5m 69 12 bloodsea_north
+5n 69 12 bloodsea_north
+5o 69 12 bloodsea_north
+5p 69 12 bloodsea_north
+5q 69 12 bloodsea_north
+5r 69 12 bloodsea_north
+5s 69 12 bloodsea_north
+4l 69 12 bloodsea_north
+4m 69 12 bloodsea_north
+4n 69 12 bloodsea_north
+4o 69 12 bloodsea_north
+4p 69 12 bloodsea_north
+4q 69 12 bloodsea_north
+4r 69 12 bloodsea_north
+3m 69 12 bloodsea_north
+3n 69 12 bloodsea_north
+3o 69 12 bloodsea_north
+3p 69 12 bloodsea_north
+3q 69 12 bloodsea_north
+2o 69 12 bloodsea_north
+2n 69 12 bloodsea_north
+2m 69 12 bloodsea_north
+9g 69 12 bloodsea_south
+9f 69 12 bloodsea_south
+9e 69 12 bloodsea_south
+9d 69 12 bloodsea_south
+9c 69 12 bloodsea_south
+9b 69 12 bloodsea_south
+8h 69 12 bloodsea_south
+8g 69 12 bloodsea_south
+8f 69 12 bloodsea_south
+8e 69 12 bloodsea_south
+8d 69 12 bloodsea_south
+8c 69 12 bloodsea_south
+8b 69 12 bloodsea_south
+7h 69 12 bloodsea_south
+7g 69 12 bloodsea_south
+7f 69 12 bloodsea_south
+7e 69 12 bloodsea_south
+7d 69 12 bloodsea_south
+7c 69 12 bloodsea_south
+7b 69 12 bloodsea_south
+6h 69 12 bloodsea_south
+6g 69 12 bloodsea_south
+6f 69 12 bloodsea_south
+6e 69 12 bloodsea_south
+6d 69 12 bloodsea_south
+5h 69 12 bloodsea_south
+5g 69 12 bloodsea_south
+5f 69 12 bloodsea_south
+5e 69 12 bloodsea_south
+4h 69 12 bloodsea_south
+4g 69 12 bloodsea_south
+4f 69 12 bloodsea_south
+4e 69 12 bloodsea_south
+4d 69 12 bloodsea_south
+4c 69 12 bloodsea_south
+4b 69 12 bloodsea_south
+3h 69 12 bloodsea_south
+3g 69 12 bloodsea_south
+3f 69 12 bloodsea_south
+3e 69 12 bloodsea_south
+3d 69 12 bloodsea_south
+3c 69 12 bloodsea_south
+3b 69 12 bloodsea_south
+3a 69 12 bloodsea_south
+2g 69 12 bloodsea_south
+2f 69 12 bloodsea_south
+2e 69 12 bloodsea_south
+2d 69 12 bloodsea_south
+2c 69 12 bloodsea_south
+2b 69 12 bloodsea_south
+2a 69 12 bloodsea_south
+1f 69 12 bloodsea_south
+1e 69 12 bloodsea_south
+1d 69 12 bloodsea_south
+1c 69 12 bloodsea_south
+1b 69 12 bloodsea_south
+1a 69 12 bloodsea_south
+::MAPDATA::
+~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~ ,   ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~   ; '', ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~  ;     ',  ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+~~ ~~    ,     ~~ ~~ ~~ ~~ ~~ :        ',  ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~ , ,
+ ~~ ~ ,'' '`\ ~~ ~~ ~~ ~~ ~~,'          : ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~  ,' " '',
+  ~~ :       '; ~~ ~~ ~~ ~    NORDMAAR   ': ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ .'    ,  ;
+ ~~  ;       '   ~~ ~~ ,', '              ;  ~~ ~~ ~~ ~~ ~~ ~    ~~  '[ ]" ';:
+~~  '         '`` ~~  ;   '                '  ~~ ~~ ~~ ~~    ;'': ~~ Winston's
+    ;            '`: ~ ',       /\         : ~~ ~~      ,~ ;'  ' ',  Tower ~~
+ "''                :~~ ,     @/\        [ ]  ~~ ~~  ;"',~ `,SAIFHUM
+            ~~~~~~~,' ~~:     @@/\      Jennison  ~ ,   ;~ ',   ; ~ ~~  :'"'';
+          ~'     [ ],~  ,'    @/\          ; ~~  ,'"    : ~  ',' ~ ~~   ,   :
+ SOLAMNIA      Kalaman `     @/\          , ~~ ,'     ,' ~~ ~~ ~~ ~~ ~ MITHAS,
+     ~                      @/\         ,' ~~ ;      ,' ~~ ~~ ~~ ~~ ~~  :    ;  
+    ~                                 ,'  ~~ :       ; ~ ~         ~ ~~ ,  ,,
+   ~      /\_     ESTWILDE  /\     /\  `,  ,'      :' ~ ~           ~ ~  "" ~
+  ~      /\  \  ^  PLAINS         /\     `'  KERN ; ~ ~              ~ ~~ ~~
+         [#]/\            ^      /\      /\     ,' ~ ~ ~  Blood Sea ~ ~~:'"''; 
+        Dargaard    ^        /\         /\    /\ :  ~ ~   of Istar  ~ ~~`   ;
+        Keep /\               /\       /\ @@@/\   ;  ~ ~ ~         ~ ~~ `,  ,
+         /\            [^]   /\       /\_ @@@/\  ; ~ ~ ~ ~ ~      ~ ~~ ~~ ""
+           /\         Iron           /\  \@@/\  ;  ~~ ~~ ~~ ~~ ~~ ~~ ~ KOTHAS
+         @/\ /\       Delving            /\/\    '   ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+        @/\_
+
+::NEWMAP::
+bloodsea_north
+::MAPDATA::
+5zb 6 10 
+6zb 6 8
+7zb 6 6
+8zb 6 4
+6zc 11 8
+7zc 11 6
+8zc 11 4
+6zd 16 8
+7zd 16 6
+8zd 16 4
+6ze 21 8
+7ze 21 6
+8ze 21 4
+6zf 26 8
+7zf 26 6
+8zf 26 4
+5zg 31 10
+6zg 31 8
+7zg 31 6
+9i 36 28
+9j 36 26
+9k 36 24
+9l 36 22
+9m 36 20
+9n 36 18
+9o 36 16
+9p 36 14
+9q 36 12
+9r 36 10
+9s 36 8
+8i 41 28
+8j 41 26
+8k 41 24
+8l 41 22
+8m 41 20
+8n 41 18
+8o 41 16
+8p 41 14
+8q 41 12
+8r 41 10
+7i 46 28
+7j 46 26
+7k 46 24
+7l 46 22
+7m 46 20
+7n 46 18
+7o 46 16
+7p 46 14
+7q 46 12
+7r 46 10
+6i 51 28
+6j 51 26
+6k 51 24
+6l 51 22
+6m 51 20
+6n 51 18
+6o 51 16
+6p 51 14
+6q 51 12
+6r 51 10
+5i 56 28
+5k 56 24
+5l 56 22
+5m 56 20
+5n 56 18
+5o 56 16
+5p 56 14
+5q 56 12
+5r 56 10
+5s 56 8
+4l 61 22
+4m 61 20
+4n 61 18
+4o 61 16
+4p 61 14
+4q 61 12
+4r 61 10
+3m 66 20
+3n 66 18
+3o 66 16
+3p 66 14
+3q 66 12
+2o 71 16
+2n 71 18
+2m 71 20
+::MAPDATA::
+  ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~
+ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~     ,'''-,/\,---/\   /\ ~~~ ~~~
+  ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~    ,;''   /\/\ /\ /  \'/  \/\/\`,
+ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~  ;''  /\  /  \ / /\ /\ /\ /\/\`/\:
+ ~ ~~   ~~   ~~   ~~   ~~   ~~~ ~~~   ,,'' /\   /\    ISLE OF KARTHAY /\  ; 
+ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~  , '' /\/\                            /\; 
+ ~ ~~   ~~   ~~   ~~   ~~   ~~   `',  /\       Winston's Tower  /\ /\  ,' ~~      
+ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~~ ~~~   ``:           [^]'===-,    /  \   ', ~~~      
+ ~ ~~   ~~   ~~   ~~   ~~   ~~   ~~    ``==:        ,'~   ~;            `- ~    
+  ~~~ ~~~ ~~~ ,'`, ~~ ,--, ~~~ ~~~ ~~~ ~~~  ' ``'--' ~~~ ~~ `,_           `,
+ ~ ~~   ~~~ ,'    ',,'    '`,    ~~   ~~   ~~   ~~   ~~   ~~    `:         ;    
+  ~~~ ~~~  ;     SAIFHUM     '`, ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~  ``,      :
+ ~ ~~~ ~ ;'                    ; ~~   ~~   ~~   ~~   ~~   ~~   ~~   :     :     
+ ~~~ ~~~ :     [ ] Sea      ,'' ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ',   ,
+  ~~~ ~~~ '`--'   'Reach ,''~~~ ~~~   ~~   ~~   ~~   ~~   ~~   ~~     `--'      
+ ~~~ ~~~ ~~~ ~~~ ~~ :   : ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~
+  ~~~ ~~~ ~~~ ~~~ ~ :    ;  ~~~ ~~~   ~~   ~~   ~~   ~~   ~~   ~~   ~~   ~~~    
+ ~~                  ````  ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~
+ ~   BLOOD SEA OF ISTAR      ~~~ ~~   ~~   ~~   ~~   ~~   ~~   ~~   ~~   ~~~    
+ ~%%~ ~%%~         ~%%~  ~%%~  ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~     
+    /     /        \     \       ~~   ~~   ~~   ~~   ~~   ~~   ~~   ~~   ~~~    
+%/%     %/%          %\%   \%\%   ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~
+         ~%%~  ~%%~     %\%  \    ~   ~~   ~~   ~~   ~~   ~~    ,--  _ _ ~~~    
+ /%  /      ~%%~         %\%      ~~~ ~~~ ~~~ ~~~ ~~~ ~~~    ,''    ' ' `''`
+       /            \       %\%       ~~   ~~   ~~   ~~    ,'     MITHAS              
+ /        MAELSTROM    \      %|%   ~~~ ~~~ ~~~ ~~~ ~~~   :        /\/\  
+   ~The Heart of Darkness~   %|%      ~~   ~~   ~~     ,''        /\/  \/\ 
+ %|%                        %|%  ~~ ~~~ ~~~ ~~~ ~~~ ~~~ `,     /\/  \   /\ 
+    \                   /  %/%  ~~~   ~~   ~~   ~~   ~~   `,  /  \ 
+ 

@@ -1,0 +1,6 @@
+#include "../defs.h"
+#define MEAT "/d/Calia/sea/objects/oyster_meat.c"
+#define SHELL "/d/Calia/sea/objects/oyster_shell.c"
+#define PEARL "/d/Calia/sea/objects/pearl.c"
+#define BLACK_PEARL "/d/Calia/sea/objects/black_pearl.c"
+#define SEA_APPLE "/d/Calia/sea/objects/sea_apple.c"

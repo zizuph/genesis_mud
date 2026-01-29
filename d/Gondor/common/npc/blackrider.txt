@@ -1,0 +1,33 @@
+Calians: presently no check against swarm possible
+           Glykron, 19-sep-1993
+
+Solamnian Knights:
+from Krynn domain board:
+
+The note is titled 'About the Knight's Bash and Ckick (Elessar, Feb  4)':
+
+Hi!
+I am working on a few special monsters right now, and I want them
+to take less damage from the Solamnic Knights ckick and bash than
+a normal monster would do. Is there any hope for a property to set,
+or any other simple way of doing this?
+These are undead, magically protected creatures, who can
+only be hurt with special magical weapons, and although the
+Knights doubtless are strong and all that, I don't want normal
+hitting to do any damage.
+
+//Elessar.
+
+
+The note is titled 'Re: elessar (Nick, Feb 10)':
+
+hit_me() - The function is no longer nomask. So you can redefine it in your
+           mobiles (ghosts) and test if you will allow the attack a true hit.
+           All attacks not generated from weapons (all special one's) should
+           have the forth argument, att_id, set to -1. If the att_id is set
+           you can use it to see if a weapon is there, and then check the
+           weapon to see if it's one that you allow to hit this mobile. If
+           you set the damage type to MAGIC_DT (wa_types.h) then no armour
+           will help against this type of attack. (Typically attack spells).
+
+/Nick

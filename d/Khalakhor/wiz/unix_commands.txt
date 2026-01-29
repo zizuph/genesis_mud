@@ -1,0 +1,11 @@
+ls -f - list out directories and files
+cd <directory>  - change your directory
+rm <filename> - remove a file.
+rm -rf <directory/filename> forcefully remove a directory
+       or file.
+rmdir <directory> - remove an empty directory
+cp <filename> <new path and filename> - copy a file
+mv <directory/filename> <new directory or filename> move
+   a file or directory. Use this command to rename a
+   directory or filename as well.
+mkdir <directory> - creates a directory.

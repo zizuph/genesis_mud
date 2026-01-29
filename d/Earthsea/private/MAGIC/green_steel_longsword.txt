@@ -1,0 +1,13 @@
+Name: green steel longsword
+File: /d/Earthsea/gont/gont_city/wep/msword.c
+Hit/Pen: 39/40
+Special:
+    A green steel longsword. It adds 5 to SS_DIS when wielded.
+    To wield, one needs SS_SWORD > 40, SS_WIS > 50, and 
+    SS_DEX > 50.
+Props:
+    OBJ_I_IS_MAGIC_WEAPON, OBJ_S_WIZINFO, MAGIC_AM_ID_INFO,
+    MAGIC_AM_MAGIC
+Obtainability: Obtained from the marshal of Gont or a
+    wandering mercenary, both are quite nasty characters.
+

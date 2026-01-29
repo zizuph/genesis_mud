@@ -1,0 +1,63 @@
+Guild Tax Calculation for the Disciples of Dark Song Guild
+
+COMBAT 
+
+The Disciples have no special attacks, or combat ariented skills.  
+There is an attack spell, as well as a spell which starts an attack, 
+but does not actually reduce HP  (it reduces DEX for no more than
+20 seconds before restoring it).  As the minstrels are taxed, I will 
+tax this under the 'Additional Features' category.
+
+SKILLS
+
+                 <109> language:  75 
+
+I will consider this to be worth 1% tax. This is conservative, 
+if anything.  The rules imply that this should be about 0.25% tax
+
+The following skills are guild-specific and serve only to qualify
+the abilities of novice Disciples, so I do not tax them. Or, put
+another way, I calculate the guild tax based on the assumption that
+the Disciples has maxed each of these skills.
+
+                  <130051> sing: 100      = 100
+<130053> tune/repair instrument: 100      = 100 
+            <130052> read music: 100      = 100
+       <130050> play instrument: 100      = 100
+
+
+SPECIAL ABILITIES
+
+Inherent telepathic abilities:
+
+Members are notifed when another member logs on but they do not know
+which guildmember it was unless they have that guildmember remembered.
+There is no tell line but the members have the ability to play certain 
+songs (Ballads); all listening disciples will hear the ballad title and 
+the name of the performer.  I do not think this qualifies as a tell line
+but is certainly worth something. Since a full-blown member-to-member tell 
+costs 2% tax, I charge 1% tax for the Ballads.
+
+Special bargains:
+
+There is a post offce and a tavern inside the guild.  The shop does
+not offer any special bargains however.
+
+Weapon racks:
+
+None
+
+Magic spells:
+
+Songs of power:
+screech:  attack spell                                    2.0%
+patch:    healing spell                                   2.0%
+shroud:   temp. decrease dex stat of opponent             1.5%
+refresh:  improves fatigue                                0.5%
+                                                          -----
+TOTAL                                                     4.0%
+
+Total Tax:                                                6.0%
+
+
+

@@ -1,0 +1,419 @@
+main
+::MAPDATA::
+forest1 12 20 pax_forest
+forest2 12 20 pax_forest
+forest3 12 20 pax_forest
+forest4 12 20 pax_forest
+forest5 12 20 pax_forest
+forest6 12 20 pax_forest
+forest7 12 20 pax_forest
+forest8 12 20 pax_forest 
+forest9 12 20 pax_forest
+o_entrance 12 20 pax_forest
+entrance 14 21 sla_mori_entrance
+tunnel01 14 21 sla_mori_entrance
+tunnel02 14 21 sla_mori_entrance
+crossroad 14 21 sla_mori_entrance
+e_tunnel01 14 21 sla_mori_entrance
+e_tunnel02 14 21 sla_mori_entrance
+e_tunnel03 14 21 sla_mori_entrance
+e_tunnel04 14 21 sla_mori_entrance
+w_tunnel01 14 21 sla_mori_entrance
+w_tunnel02 14 21 sla_mori_entrance
+tunnel07 14 21 sla_mori_entrance
+tunnel03 14 21 sla_mori_entrance
+tunnel04 14 21 sla_mori_entrance
+tunnel05 14 21 sla_mori_entrance
+tunnel06 14 21 sla_mori_entrance
+doom_chamber 14 21 sla_mori_entrance  
+tunnel08 14 21 sla_mori_entrance
+tunnel09 14 21 sla_mori_entrance
+tunnel10 14 21 sla_mori_entrance
+tunnel11 14 21 sla_mori_entrance
+tunnel12 14 21 sla_mori_entrance
+tunnel13 14 21 sla_mori_entrance
+tunnel14 14 21 sla_mori_entrance
+tunnel15 14 21 sla_mori_entrance
+tomb01 14 21 undead_tomb
+tomb02 14 21 undead_tomb
+tomb03 14 21 undead_tomb
+tomb04 14 21 undead_tomb
+crypt01 14 21 undead_tomb
+crypt02 14 21 undead_tomb
+crypt03 14 21 undead_tomb
+crypt04 14 21 undead_tomb
+crypt05 14 21 undead_tomb
+crypt06 14 21 undead_tomb
+crypt07 14 21 undead_tomb
+crypt08 14 21 undead_tomb
+hall_col01 14 21 chain_room
+hall_col02 14 21 chain_room
+fine_tunnel01 14 21 chain_room
+fine_tunnel02 14 21 chain_room
+fine_tunnel03 14 21 chain_room
+fine_tunnel04 14 21 chain_room
+fine_tunnel05 14 21 chain_room
+fine_tunnel06 14 21 chain_room
+chainroom 14 21 chain_room
+final_tunnel01 14 21 chain_room 
+final_tunnel02 14 21 chain_room
+final_tunnel03 14 21 chain_room
+final_tunnel04 14 21 chain_room
+chamber_aghar 11 21 lower_level
+corridor1 11 21 lower_level
+corridor2 11 21 lower_level
+corridor3 11 21 lower_level
+corridor4 11 21 lower_level
+corridor5 11 21 lower_level
+corridor6 11 21 lower_level
+guard_room 11 21 lower_level
+m_prison 11 21 lower_level
+rubbles1 11 21 lower_level
+rubbles2 11 21 lower_level
+rubbles_entr 11 21 lower_level
+store_room1 11 21 lower_level
+store_room2 11 21 lower_level
+w_prison1 11 21 lower_level
+w_prison2 11 21 lower_level
+stair_to_gl 11 21 lower_level_stairs
+::MAPDATA::
+
+  /\/\ /\ /\~~~@@@    /\ Que-Kiri             /\_ /\      '  ~~ ~
+     @  @ @@@~~ @@       { }         Que-Shu/\_/ \   v ' v: ~~ ~~
+    @ @@/\@  @[ ] Solace              { }    /\ /\\  ' v ''  ~~ ~
+   @ @@@@/\@@@                              ```````` v ' v: ~~ ~~
+   @@@ DARKEN @    /\       PLAINS OF      /\_/\ /\  ' v ',  ~~ ~
+     @ WOOD @@              ABANASINIA      /\ /\        ,' ~~ ~~
+    [ ]@@@@@  [ ]                         /\__    @@@@  '  ~~ ~~
+  Haven/\   Gateway      { }             / /\ \ @@@@@@ '  ~~ ~~ ~
+        /\ ~~~~~~         Que-Teh               @@@@@@'  ~~ ~~ ~~
+      ~~~~~@@@@@@~~~~~~                         @@@ :' ~~ ~~  ~~ 
+  @@@@@@@@@@@@ ~~ @@   ~   ,____,__,__          @ :'  ~~ ~~ ~~ ~~
+  @@     @@ ~~ @@@      :'' ~~ ~~ ~~ ~~`  ,__    '  ~~ ~~ ~~ ~~ ~
+  @@     @@@@@@@@    [ ]' ~~ ~~ ~~ ~~ ~~ `~~ ~`''  ~~ ~~ ~~ ~~ ~~
+  @ QUALINESTI @@  New Ports ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@        @@@    ,'~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@       @@@    :   ~~ ~~ ~~ ~~  NEW SEA ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+  @@       @@     `, ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+  @@@@@@@@@@      '   ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+                  '  ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+   /\ /\      /\   '  ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~
+          [ ]   /\   ` ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~
+      Pax Tharkas     `  ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~ 
+
+::NEWMAP::
+pax_forest
+::MAPDATA::
+forest1 21 11
+forest2 13 13
+forest3 17 13
+forest4 21 13
+forest5 25 13
+forest6 13 15
+forest7 17 15
+forest8 21 15 
+forest9 25 15
+o_entrance 17 17
+::MAPDATA::
+
+
+
+                               
+                            .'         ^
+                          o'          /|\
+                       .'            //|\\
+                     o'                |
+                   .'         
+                 o'  |           ^
+               .'               /|\     ^
+         o - o'      o         //|\\   /|\  
+       .'            | \         |    //|\\
+      '      o   o - o - o              |
+        ^    |   |       |     
+       /|\   o - o - o   o         ^
+        |        |      ____      /|\     ______
+      _________  o  ___/    /__  //|\\   /      \___
+     /    /   /    /    /  /  /    |    /
+
+::NEWMAP::
+sla_mori_entrance
+::MAPDATA::
+entrance 38 2
+tunnel01 38 4
+tunnel02 38 6
+crossroad 38 8
+e_tunnel01 43 8
+e_tunnel02 48 8
+e_tunnel03 53 8
+e_tunnel04 58 8
+w_tunnel01 33 8
+w_tunnel02 28 8
+tunnel07 28 6
+tunnel03 22 11
+tunnel04 28 11
+tunnel05 33 14
+tunnel06 33 18
+doom_chamber 33 22  
+tunnel08 22 14
+tunnel09 17 14
+tunnel10 12 14
+tunnel11 7 11
+tunnel12 7 14
+tunnel13 7 18
+tunnel14 12 18
+tunnel15 17 18
+::MAPDATA::
+ 
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@/  |  \@@@@@@@@@@@@@@@@@@@@@@@@
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   o   @@@@@@@@@@@@@@@@@@@@@@@@ 
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   |   @@@@@@@@@@@@@@@@@@@@@@@@ 
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   o   @@@@@@@@@@@@@@@@@@@@@@@@
+   @@@@@@@@@@@@@@@@@@@@@@@     @@@@   |   @@@@@@@@@@@@@@@@@@@@@@@@
+   @@@@@@@@@@@@@@@@         o  @@@@   o   @@@@@@@@@@@@@@@@@@@@@@@@
+   @@@@@@@@@@@@@@@@@@@@@@@  |         |                       @@@@
+   @@@@@@@@@@@@@@@@@@@@@@   o -- o -- o -- o -- o -- o -- o   @@@@
+   @@@@@@@@@@@@@@@@@@@@  .'                                   @@@@
+   @@     @@@@@@@@@@@  .'  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@
+   @@  o   @@@@@@@@   o --- o   @@@@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@
+   @@  |\   @@@@@@@   |      \    @@@@@@@@@@@@@@@@@@@@@@@@ @@@@@@@
+   @   | `\           |  @@   `\    @@@@@@@@@@@@@@@@@@@@@@ @@@@@@@
+   @   o @  o -- o -- o  @@@@    o   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+   @   | @@      |       @@@@    |   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+   @   | @@@@@@  |  @@@@@@@@@@   |   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+   @   |         |  @@@@@@@@@@   |   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+   @   o -- o -- o  @@@@@@@@@@   o   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+   @                @@@@@@@@@@   |   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@ | @@@@@@@@@@@@@@                 
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@   |   @@@@@@@@@@@@     SLA MORI                
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@   o   @@@@@@@@@@@@                 
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@       @@@@@@@@@@@@     The tomb                 
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@      of the               
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    elven king               
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    Kith-Kanan                        
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@                                                                  
+
+::NEWMAP::
+hall_of_ancients
+::MAPDATA::
+hall01 30 9
+hall02 30 12
+hall03 30 15
+corridor01 30 20
+corridor02 25 20
+corridor03 20 20
+corridor04 15 20
+::MAPDATA::
+
+           
+                    ~ Hall of the Ancients ~
+
+
+               @@@@@@@@@@@@@@   @@@@@@@@@@@@@@@@@@
+                ___________@@   @@________________                
+               ' ][   ][   ][   ][   ][   ][   ][ `  
+              |                                   |
+              |               o           ________|
+              |                          |:       |
+              |                          |:|   ==%|
+              |               o          |:|     ||
+              |                          |:|   ==%|
+              |                          |:_______|
+              |               o                   |
+              |                                   |
+              |  ][   ][   ][ _ ][   ][   ][   ][ |
+               `------------[} {]-----------------'
+                              |
+               o -- o -- o -- o
+
+::NEWMAP::
+undead_tomb
+::MAPDATA::
+tomb01 39 12
+tomb02 33 12
+tomb03 27 12
+tomb04 21 12
+crypt01 39 8
+crypt02 39 16
+crypt03 33 8
+crypt04 33 16
+crypt05 27 8
+crypt06 27 16
+crypt07 21 8
+crypt08 21 16
+::MAPDATA::
+
+
+             ~ Tomb of Kith-Kanan's elite guard ~
+
+
+            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+            @@@@@@                         @@@@@@
+            @@@@@@   o     o     o     o   @@@@@@
+            @@@@@@   |     |     |     |   @@@@@@
+            @@@@@@  [x]   [x]   [x]   [x]  @@@@@@
+             ||      |     |     |     |   @@@@@@
+             ||  --- o --- o --- o --- o     @@@@
+             ||      |     |     |     |   @@@@@@
+            @@@@@@  [x]   [x]   [x]   [x]  @@@@@@
+            @@@@@@   |     |     |     |   @@@@@@
+            @@@@@@   o     o     o     o   @@@@@@
+            @@@@@@                         @@@@@@
+            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+            @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+::NEWMAP::
+chain_room
+::MAPDATA::
+hall_col01 38 3
+hall_col02 38 6
+fine_tunnel01 32 3
+fine_tunnel02 32 6
+fine_tunnel03 32 9
+fine_tunnel04 32 12
+fine_tunnel05 38 12
+fine_tunnel06 38 15
+chainroom 38 19
+final_tunnel01 38 23 
+final_tunnel02 38 26
+final_tunnel03 32 26
+final_tunnel04 26 26
+::MAPDATA::
+                         ________________
+                        '                 `@@@@@@
+                       |                    ||
+                       |        o --- o --- ||
+                       |        |     |     ||
+                       |        |     |    @@@@@@
+                       |        o     o    @@@@@@
+                       |        |          @@@@@@ 
+                       |        |          @@@@@@ 
+                       |        o          @@@@@@    
+                       |        |          @@@@@@
+                       |        |          ' @@@@
+                       |        o --- o    | @@@@        
+                       |              |    | @@@@
+                       |______        |    | @@@@
+                              '       o    | @@@@
+                              |       |    | @@@@
+                              |      [ ]   | @@@@
+                              |       |    | @@@@
+                              |       o    | @@@@
+                              |       |    | @@@@
+                              |      [ ]   | @@@@
+                              |       |    | @@@@
+                     _________,       o    | @@@@
+                                      |    | @@@@
+                                      |    | @@@@
+                      --- o --- o --- o    | @@@@
+                                           | @@@@
+                     _____________________' @@@@@
+                                            @@@@@
+                     @@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+
+::NEWMAP::
+treasure_room
+::MAPDATA::
+treasure_vault 46 19
+::MAPDATA::
+                         ________________
+                        '                 `@@@@@@
+                       |                    ||
+                       |        o --- o --- ||
+                       |        |     |     ||
+                       |        |     |    @@@@@@
+                       |        o     o    @@@@@@
+                       |        |          @@@@@@ 
+                       |        |          @@@@@@ 
+                       |        o          @@@@@@    
+                       |        |          @@@@@@
+                       |        |          ' @@@@
+                       |        o --- o    | @@@@        
+                       |              |    | @@@@
+                       |______        |    | @@@@
+                              '       o    | @@@@
+                              |       |    | @@@@
+                              |      [ ]   |_____
+                              |       |          |
+                              |       o       o  |
+                              |       |     _____|
+                              |      [ ]   | @@@@
+                              |       |    | @@@@
+                     _________,       o    | @@@@
+                                      |    | @@@@
+                                      |    | @@@@
+                      --- o --- o --- o    | @@@@
+                                           | @@@@
+                     _____________________' @@@@@
+                                            @@@@@
+                     @@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+
+::NEWMAP::
+lower_level
+::MAPDATA::
+chamber_aghar 26 19
+corridor1 32 10
+corridor2 26 10
+corridor3 20 10
+corridor4 26 13
+corridor5 20 13
+corridor6 26 16
+guard_room 32 13
+m_prison 20 6
+rubbles1 38 10
+rubbles2 38 13
+rubbles_entr 44 10
+store_room1 14 10
+store_room2 14 13
+w_prison2 26 6
+w_prison1 32 6
+::MAPDATA::
+ 
+              ~ cellars of Pax Tharkas ~ 
+
+                               @@@@@@@@@@@@@@@@@@@
+                  _________________@@@@@@@@@@@@@@@
+                 |     |     |     |@@@@@@@@@@@@@@
+                 |  o  |  o  |  o  |@@@@@@@@@@@@@@
+            _____|  |  |  |  |  |  |@@@@@@@@@@@@__,      
+           |      '[ ]' '[ ]' '[ ]'  @@@@@@@@    
+           |        |     |     |       @@    
+           |  o --- o --- o --- o --- o --- o ---       
+           |  |     |     |           |   ,'   @
+           |  |  |  |  |  |           | ,'   @@@__
+           |  o  |  o  |  o --- o --- o    @@@@@@@
+           |     | ^=^ |  |             __@@@@@@@@
+           |_____|_____|  |   _________|@@@@@@@@@@
+                       |  o  |@@@@@@@@@@@@@@@@@@@@
+                       |  |  |@@@@@@@@@@@@@@@@@@@@        
+                     @@'  |    @@@@@@@@@@@@@@@@@@@           
+                    @@@   o       @@@@@@@@@@@@@@@@
+                  @@@             @@@@@@@@@@@@@@@@
+                  @@@           @@@@@@@@@@@@@@@@@@
+                   @@@@@     @@@@@@@@@@@@@@@@@@@@@
+                     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+::NEWMAP::
+lower_level_stairs
+::MAPDATA::
+stair_to_gl 20 13
+::MAPDATA::
+ 
+              ~ cellars of Pax Tharkas ~ 
+
+                   
+                  
+                 
+                 
+            
+        
+           
+                
+                  _____  
+                 | v=v |   
+                 |  o  |   
+                 | ^=^ |   
+                 |_____|   
+                        
+                       

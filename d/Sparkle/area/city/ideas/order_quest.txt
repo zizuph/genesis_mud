@@ -1,0 +1,194 @@
+From   : Gorboth
+Subject: Sparkle Quest
+To     : Styles
+CC     : Gorboth and Tapakah
+Date   : Fri Jan 11 20:08:20 2008
+
+Heya Styles,
+
+I've been working on the "backstory" for Sparkle, and I've come up with the
+following quest. Comments welcome!
+
+Concepts for: "The Quest of the Order"
+Location    : Sparkle
+
+Within the large and multipurpose city of Sparkle exist many iterests, some
+for good, others for evil, and yet others which skirt the boundary between
+the two. Though the majority of the populace are little more than peaceful
+merchants and tradesfolk who thrive on the large amount of traffic the
+City receives, all have knowledge of the operation of an order in their
+-- More -- 20/188 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+midst known as "The Order of Compassion."
+
+This secret organization is thought by most to act as a benevolent watch
+over the City, its people, and its interests. Though always acting in
+secret, the Order is widely believed to be the reason that the citizens
+of the city enjoy relative peace and safety. Most citizens of the town
+regularly make donations to the Order through its one and only open public
+representative - an old woman who is the resident healer for the City,
+acting out of the First Church of Sparkle. It is to her that most of the
+businesses in the city make donasions which are then passed on, via hidden
+hands, to the leaders of the Order. Businesses who make such donations are
+granted additional protection from evil by the Order, a fact that has 
+greatly increased the number of proprietors who are interested in becoming
+contributors to this "benevolent" organization.
+
+What few in the city realize is that the Order is a complex facade - a cover
+for a Guild of Thieves and Extortionists who seek to ensnare all of Sparkle
+in their web of treachery and lies. This Guild, calling themselves "The
+Order of the Pearl" reveal themselves only to those who they feel are
+potentially worthy of becoming one of their own, and are swift to try to
+-- More -- 40/188 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+kill or destroy any who they feel are a threat to their affairs. It is,
+in fact, they who have caused the very harm to the City that their cover
+operation, "the Order of Compassion" is presumed to safeguard against.
+So complete has been the design of this operation that numerous of the
+members of the "Order of Compassion" are unaware that they are actually
+doing good works in the name of evil.
+
+But there is another, even greater Order within the City who refer to
+themselves only as "The Caretakers." This ultra-secret order knows the
+truth of The Order of the Pearl, and constantly works to keep them from
+their evil goals. Though the Pearl is aware that there is some cooperative
+effort at work which is undermining their efforts, they do not yet know
+the potency of their competition. The Caretakers have actually been
+operating from within the ranks of the Order of the Pearl, keeping tabs
+on which citizens are sympathetic to the darker causes the Order has
+stood for. The Order is becoming more and more suspicious that their ranks
+have been breached, and are seeking ways to root the problem out.
+
+Thus, the player enters the drama. Sparkle is the stage, and all places
+and people within it potential characters in the story.
+-- More -- 60/188 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+
+The first quests the player will encounter are small quests which various
+merchants and store owners will ask the player to complete. These are all
+of the "gather x amount of y" quests. Some involve combat, others involve
+locating things. In each instance, the player has gathered some useful
+resource for one of the townsfolk for a monetary and experience reward.
+
+Various townsfolk within the city will mention that they have heard things
+on the roof at night. This will clue the player in to the fact that if they
+look carefully, they can find their way onto the rooftops of the city.
+Every citizen of the city will have a bedroom or study that can be accessed
+via the rooftops. Within these rooms will be many opportunities to discover
+things about the Order of Compassion. 
+
+Among the things that players can discover by reading documents in these
+"back rooms" of the city are the following facts or items:
+
+    1. Mennan - the Apothecary who runs the "Poteons and Cultures" shop is
+       a main contact person for the Order of the Pearl.
+    2. Pearl Order members all have the same brand upon their left
+-- More -- 80/188 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+       breast - a teardrop surrounded by a circle.
+    3. Members who have proven themselves in some fashion have additional
+       markings tattooed around the brand - one pearl for each deed of
+       merit. To know one's rank within the Order, one need see how many
+       such pearls surround the teardrop on their breast.
+    4. The Order of the Pearl has been specifically targetting those
+       townsfolk who do not may their "dues" to the Order of Compassion
+       for theft and vandalism.
+    5. The brand itself can be found in one of the rooms (the one used to
+       mark one's left breast.)
+    6. The Order has learned that there is some organization in the town
+       working against their purposes. They are intent on destroying this
+       organization.
+
+All of these clues allow the player to begin working on the much larger
+quest that the city contains - "The Quest of the Order."
+
+The quest need not be completely linear in its solution, but the basic
+steps the player must take are as follows:
+
+-- More -- 100/188 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+    1. Find the branding iron for the Order in one of the "back rooms."
+    2. Bring the iron to the tattoo parlor and pay the artist there
+       to burn it onto your left breast.
+    3. Go to Mennan, and reveal your brand to him. Once this is done,
+       Mennan gives you a task - you are to find the five main members
+       of the Pearl Order within the town. Each will give you a token to
+       return to him having proven your worth.
+    4. The player must then go around the town, revealing the brand to
+       various npcs. Most will have no clue what it means. Some, however,
+       will then give the player a task - they are to break into the
+       homes of the npcs they had previously done a "get x number of y"
+       quest for and steal those items and return them to this npc. The
+       npcs mention that if the player is having too much trouble, that
+       they might seek out the "expert" who is thought to reside in the
+       sewer systems.
+    5. The player must then find the master thief in the sewers. The thief
+       will sell lockpicks to the player.
+    6. The player must then go into the back room of each of the npcs he
+       had formerly solved a "get it" quest for, and pick their room safe
+       with the lockpick. Lockpicks break upon use for each safe, so the
+-- More -- 120/188 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+       player will need to buy a new one each time.
+    7. Returning the sought-after item to each npc, the npc will then give
+       the player a token, and ask them to return it to Mennan.
+    8. Upon receiving each token, Mennan will give the player a special
+       note to take to the tattoo parlor. At the tattoo parlor, the player
+       is able to recieve an additional rank insignia around their brand.
+    9. Once all five of the tokens have been returned to Mennan, the
+       player is informed that all of these items that have been collected
+       will be used to make a powerful magic potion - a "purity serum."
+       Since the Order of the Pearl knows that there is some organization
+       for good in the city, and they fear that it has infiltrated their
+       ranks, they will create this potion that, when imbibed, allows the
+       drinker to sense the good or evil in any person they encounter.
+       Once completed, the serum will be given to the Leader of the guild
+       who will then be able to determine the true nature of all members
+       of the Order. Any found to be pure of heart will be killed.
+   10. Mennan tells the player that there is one final test for them to
+       pass in order to gain access to the highest ranks of the Order. The
+       final ingredient the Apothecary needs for the purity serum is the
+       blood of an innocent child. Mennan leads the player into a back
+-- More -- 140/188 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+       room where a child lies on a table asleep. Mennan explains that this
+       child has been very ill, and he, being the town Apothecary, has been
+       working on a formula to cure his disease, from which he will soon
+       die. Mennan informs the player that he has just recently completed
+       a potion which would, indeed, cure the boy. However, this is also
+       the perfect opportunity to get the final ingredient for the stone -
+       the blood from this young, innocent child. Mennan tells the player
+       that if he is truly ready to embrace the Order, that they must
+       slit the child's throat while he sleeps so that the blood might
+       be collected to use as the final reagent for the serum. Mennan then
+       says something like, "Pity about the boy, of course. The cure for
+       his disease is right there on the counter, after all." Mennan then
+       leaves the room. The choice is now upon the player. Cure the boy,
+       or kill him for the blood.
+   11. If the player chooses to kill the boy, Mennan reenters, gives the
+       player a final note for the tattoo artist, and explains that they
+       will now be considered a full-member of the Order of the Pearl. They
+       will be given half-prices at all five shops run by the Pearl members.
+       The player then goes and gets the final tatoo, and the quest is
+       solved.
+-- More -- 160/188 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+   12. If, however, the player chooses instead to cure the boy, Mennan
+       reenters and is extremely pleased. At the wave of his hand, the boy
+       and table disappear - they were merely an illusion to test the
+       the player. Knowing now that the player is not the sort of evil
+       wretch that the rest of the Order are, Mennan offers the player
+       status as one of the "Caretakers" of Sparkle. Mennan himself is
+       obviously the one who has infiltrated the ranks of the Pearl. He
+       explains to the player that he and his five fellow Caretakers keep
+       tabs on the workings of the Pearl Order, and constantly work to thwart
+       their plans. He indicates that the leader of the Pearl Order has
+       gained knowledge of the Caretakers, and is very close to discovering
+       that Mennan, the "official" second in command of the Pearl Order,
+       is actually a double-agent. Mennan asks the player to bring the
+       "Purity Serum" to the Leader. He indicates that he has actually
+       brewed a potion of forgetfulness that will erase all memory of the
+       Caretakers from the Leader's memory. The player is then informed that
+       the leader is the old healer in the church.
+   13. The player gives the potion to the healer, and the quest is solved.
+       The player now pays half-price at all five stores run by the five
+       Caretakers of Sparkle.
+-- More -- 180/188 -- (<cr> t b r n a <num> q x !<cmd> h ?) -- 
+
+At this point, all I need to do is decide which npcs are involved on both
+sides.
+
+What do you think?
+G.

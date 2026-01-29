@@ -1,0 +1,53 @@
+Group 0:
+  Bit 0: Sword of light quest in the palace.
+  Bit 1: Calian warriors occupational guild entrance quest
+  Bit 2: Obelisk quest (on west Calia moor)
+  Bit 3: Wolf quest (on west Calia moor)
+  Bit 4: Spear tour (on Mount Kyrus)
+  Bit 5: Mermaid sea quest.
+  Bit 6: Lucky Lure quest.
+
+Group 1:
+  Bits 0-3 reserved for Gourmet Club quests (Uhclem)
+  Bit 4: Sightseeing tour in Gelan
+  Bit 5: Gingerbread quest (Yule season only)
+  Bit 8: Gelan gopheroo quest 
+  Bit 9: Gelan number game quest
+  Bit 10: Gelan alchemist potion quest
+  Bit 11: Gelan polymorph quest
+  Bit 12: Gelan/palace garden quest
+  Bit 13: Fireball: defeat Hailrocks
+  Bit 14: Fireball: defeat Poison Arrows 
+  Bit 15: Fireball: defeat Tiger Sharks
+  Bit 16: Fireball: defeat War Eagles 
+  Bit 17: Fireball: defeat All Scums 
+
+Group 2:
+  Bit  0: Dephonian Temple quest (Argos)
+  Bit  1: Satyr quest (Argos)
+  Bit  2: Frog quest (Argos)
+  Bits 3-5: Argos city tours
+  Bit  6: Grotto entrance quest
+  Bit  7: Thalassian Gate Quest
+  Bit  8: Thalassian Administrator West Quest
+  Bit  9: Thalassian Administrator East Quest
+  Bit 10: Return steering wheel to shipwreck
+  Bit 11: Spirit Circle Sup. Guru Quest (Thalassia/Menisca)
+  Bit 12: Thalassian Aeria Staff Quest
+  Bit 13: Thalassian Diabrecho Staff Quest
+  Bit 14: Thalassian Gu Staff Quest
+  Bit 15: Thalassian Pyros Staff Quest
+  Bit 16: Farmstead Widow Quest (Argos)
+
+Group 3:
+  Bit 0: set to 1 for players who joined the Cadets of Gelan. 
+  Bit 1: set to 1 for players who re-joined the Cadets of Gelan. 
+
+Group 4:
+  Bit 0: Sound the Horn Quest (Eldoral)
+  Bit 1: Seer And The Lord Quest (Eldoral)
+  Bit 2: Sword In The Stone Quest (Eldoral)
+  Bit 3: Eye Of The Beast Quest (Eldoral)
+  Bit 4: Calian Sup. Guru Quest (Eldoral)
+  Bit 5: True if players have discovered the secret tunnel to
+         Eldoral Isle.

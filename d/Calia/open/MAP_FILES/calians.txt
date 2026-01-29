@@ -1,0 +1,95 @@
+main
+::MAPDATA::
+boardroom 13 3
+guild 13 5
+private_library 13 9
+rack 17 5
+recruiter 13 1
+sanctuary 21 5
+trainee_boardroom 9 7
+::MAPDATA::
+
+             o
+             |
+           - o
+             |
+             o - o - o
+           / | \
+         o   |   
+             |
+             o
+
+::NEWMAP::
+secret
+::MAPDATA::
+councilroom1 9 3
+councilroom2 9 5
+keyroom 17 7
+scribes 17 9
+::MAPDATA::
+
+             o
+             |
+         o - o
+         |   |
+         o   o - o - o
+           / | \
+         o   |  [ ]
+             |
+             o - o
+
+::NEWMAP::
+tunnel1
+::MAPDATA::
+chute 21 7
+den 29 15
+elevator 21 12
+hallway 21 1
+hallway2 21 1
+guard_room_E 29 18
+guard_room_S 21 17
+guard_room_W 5 1
+tunnel1 25 1
+tunnel2 25 3
+tunnel3 25 5
+tunnel4 25 7
+tunnel5 25 9
+tunnel6 25 11
+tunnel7 25 13
+tunnel8 25 15
+tunnel9 25 17
+tunnel10 25 19
+tunnel11 29 19
+tun0 5 2
+tun1 5 4
+tun2 5 6
+tun3 9 8
+tun4 13 10
+tun11 17 12
+tun12 17 14
+tun13 17 16
+tun14 21 18
+::MAPDATA::
+
+    [ ]             [ ] [ ]
+    [ ]             | |  |
+     |              | |  o
+     o              | |  |
+     |              | |  o
+     o              | |  |
+       \            | |  o
+         o          | |  |
+           \        | |  o
+             o      | |  |
+               \    | |  o
+                [ ] [ ]  |
+                 |       o    
+       _         o       |   ~~
+    ,'` `',      |       o  ~ ~
+   |   Q   |     o       |   ~~
+   |       |       \[ ]  o    
+   |       |        [ ]  |  [ ]
+   |       |             o -[ ]
+   |       |
+
+

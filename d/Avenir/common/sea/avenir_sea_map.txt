@@ -1,0 +1,20 @@
+          1     
+012345678901234
+iiiiii----           
+ieieiiii----+--
+ieeeeeeerrrddd-  
+eeeeeeeec------
+eeeeeeeec-
+eeeeeeeeec-
+xeeeeeeeeec-
+xeeeeeeeeec-
+
+
+x - exit room to Toroid High Seas
+c - Coastline
+e - Eastern Ocean
+d - Docks
+i - Sea Ice
+r - Rift of Sybarus
+- - land
++ - Mariner jetty (port14)

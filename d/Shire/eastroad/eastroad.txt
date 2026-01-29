@@ -1,0 +1,34 @@
+Eastroad east of Bree:
+	oer1.c 	- A bit east of the south gate into Bree.
+	oer2.c	- South of Staddle on the Bree-hill.
+	oer2b.c	- The south-western edge of Chetwood, where the road 
+				leads into Chetwood, an opening there.
+	oer3.c	- Inside Chetwood.
+	oer4.c	- Inside Chetwood. From here you can enter into the forest.
+	oer4b.c	- Southeastern side of Chetwood, an opening, where the 
+				forest ends.
+	oer5.c	- At the forsaken Inn, which is mainly used by thieves
+				and scoundrels as a hideout. Functional, selling
+				drinks of various sorts.
+	oer5b.c	- On the eastern side of the Forsaken Inn, where there
+				is some bushes you can enter inorder to find your
+				way into the Forsaken Inn.
+	oer6.c	- In the middle of the Midgewater Marshes.
+	oer7.c	- Middle between the Marshes and the Weathertop.
+	oer8.c	- At the Weathertop, here is a road leading northwards
+				to the Weathertop. From here Dain will connect with
+				his path towards the Trollshaws/Rivendell.
+
+	chetw1.c
+	chetw2.c
+	chetw3.c
+	chetw4.c
+	chetw5.c
+	chetw6.c	inside chetwood someplace you will find the hideout of some nasty 
+	chetw7.c	scoundrels. There will be found a couple of quests, where you are 
+	chetw8.c	supposed to steal some things from butterbur in the prancing poney,
+	chetw9.c	or from somewhere upon the Bree-hill.
+	chetw10.c
+	chetw11.c
+	chetw12.c
+	chetw13.c

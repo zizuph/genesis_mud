@@ -1,0 +1,30 @@
+ 0123456789abcdef
+0................0
+1..C.....G*G.....1
+2.CCC...GGG......2
+3..C...GGGGG.....3
+4...*...*GGGGG...4
+5.......GGGNEE*..5
+6......FFFNNNEE..6
+7.....FFFFFNEEE..7
+8......FFFEEEEEE.8
+9.BB...FF..E*.EE.9
+aBBB....*......E.a
+bBBB..........*E.b
+c.B*...........,.c
+d......DDD..H....d
+e.*....*D...H*...e 
+f.A..............f
+ 0123456789abcdef
+
+. - Water
+* - Landing points
+A - Carisca
+B - Cadu
+C - Leprechaun Isle
+D - Eil Galaith
+E - Port Macdunn/Tabor Sogh
+F - Sa Morgan
+G - Daenbraigh (North Speir)
+H - Baile Ashlagh
+N - Nexus

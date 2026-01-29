@@ -1,0 +1,122 @@
+main
+::MAPDATA::
+erb2 32 10 midgewater
+erb3 33 10 midgewater
+erb4 33 10 midgewater
+erb4n1 34 10 midgewater
+erb5 35 10 midgewater
+erb5n1 35 10 midgewater
+erb6 36 11 midgewater
+erb6n1 36 10 midgewater
+erb7 36 11 midgewater
+erb7n1 36 10 midgewater
+erb7n2 36 10 midgewater
+erb8 37 11 midgewater
+erb8n1 37 10 midgewater
+erb8n2 37 10 midgewater
+erb9 38 11 midgewater
+erb9n1 38 10 midgewater
+erb9n2 38 10 midgewater
+erb10 39 11 midgewater
+erb10n1 39 10 midgewater
+erb10n2 39 10 midgewater
+erb11 40 11 midgewater
+erb11n1 40 10 midgewater
+erb11n2 40 10 midgewater
+erb12 41 11 midgewater
+erb12n1 41 10 midgewater
+erb12n2 41 10 midgewater
+erb13 42 11 midgewater
+erb13n1 42 10 midgewater
+erb13n2 42 10 midgewater
+erb13n3 42 10 midgewater
+erb14 43 11 midgewater
+erb14n1 43 10 midgewater
+erb14n2 43 10 midgewater
+erb14n3 43 10 midgewater
+erb15 44 11 midgewater
+erb15n1 44 10 midgewater
+erb15n2 44 10 midgewater
+erb16 44 10 midgewater
+erb17 46 10 midgewater
+erb18 48 10 midgewater
+::MAPDATA::
+
+    +---------+
+ ~  |THE SHIRE|
+ ~~ +---------+        Fornost
+  ~~                      o
+   ~~~                    |
+     ~~~                  |
+ \     ~~~                |
+  \      ~~~              |                                    Weathertop
+  |Frogmorton             |   BREE   Midgewater   /----------------*-\
+  o------===--------------+----O---\ Marshes/----/                    \------
+ /   |  Brandywine        |         \------/
+ ing |    Bridge          |
+     o   ~~~     Barrow   |
+  Whitfurrows     Downs   |
+        ~~~               |
+ ----- ~~~ o--------------\
+     ~~~  Sarn Ford        \
+   ~~~                      \
+ ~~~                         \   
+
+::NEWMAP::
+midgewater
+::MAPDATA::
+erb2 7 6
+erb3 11 6
+erb4 15 6
+erb4n1 15 4
+erb5 19 6
+erb5n1 19 4
+erb6 23 8
+erb6n1 23 4
+erb7 27 8
+erb7n1 27 6
+erb7n2 27 4
+erb8 31 10
+erb8n1 31 8
+erb8n2 31 6
+erb9 35 10
+erb9n1 35 8
+erb9n2 35 6
+erb10 39 10
+erb10n1 39 8
+erb10n2 39 6
+erb11 43 10
+erb11n1 43 8
+erb11n2 43 6
+erb12 47 10
+erb12n1 47 8
+erb12n2 47 6
+erb13 51 12
+erb13n1 51 10
+erb13n2 51 8
+erb13n3 51 6
+erb14 55 10
+erb14n1 55 8
+erb14n2 55 6
+erb14n3 55 4
+erb15 59 10
+erb15n1 59 8
+erb15n2 59 6
+erb16 63 8
+erb17 67 8
+erb18 71 8
+::MAPDATA::
+
+
+
+
+               o   o   o - o    Midgewater Marshes     o                 Weathe
+               |   | /     |                         / | \
+       o - o - o - o       o - o - o - o - o - o - o - o - o               o -
+     /               \     |   |   |   |   |   |   |   |   | \           /
+ - o                   o - o   o - o - o - o - o - o - o - o - o - o - o
+   |                         \ |   |       |       |   |     /
+   o                           o - o - o - o - o   o   o - o
+   |                                             \ | /
+ - o                                               o
+

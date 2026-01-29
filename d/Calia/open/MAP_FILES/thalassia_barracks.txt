@@ -1,0 +1,30 @@
+main
+::MAPDATA::
+barrack_e_1 42 5
+barrack_e_2 46 5
+barrack_e_3 50 5
+barrack_e_4 42 7
+barrack_e_5 46 7
+barrack_e_6 50 7
+barrack_e_7 42 3
+barrack_e_8 46 3
+barrack_e_9 50 3
+barrack_w_1 12 5
+barrack_w_2 8 5
+barrack_w_3 4 5
+barrack_w_4 4 3
+barrack_w_5 8 3
+barrack_w_6 12 3
+barrack_w_7 4 7
+barrack_w_8 8 7
+barrack_w_9 12 7
+::MAPDATA::
+
+  |===============|                 |===============|
+  | West Barracks |                 | East Barracks |
+  | o - o - o     |                 |     o - o - o |
+  |     |         |     Lesser      |         |     |
+  | o - o - o - - -      Zone       - - - o - o - o |
+  |     | ========|                 |======== |     |
+  | o - o -   Pub |                 | Pub   - o - o |
+  |===============|                 |===============|

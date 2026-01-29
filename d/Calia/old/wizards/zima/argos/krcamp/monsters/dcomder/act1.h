@@ -1,0 +1,15 @@
+   set_act_time(10);
+   add_act("shout Spread out along the road! Kill anything that moves!");
+   add_act("say Where is that scout? He should be here by now.");
+   add_act("say No one will pass along this stretch of road alive!");
+   add_act("say Ensign, look sharp!");
+   add_act("emote paces impatiently.");
+   add_act("say I need a messenger to return to Kretos.");
+   set_cact_time(5);
+   add_cact("emote swings his weapon over his head triumphantly.");
+   add_cact("shout You shall die for your intrusion, infidel!");
+   add_cact("shout I shall crush your head like a melon, infidel!");
+   add_cact("emote cackles maniacally with an evil glare.");
+   add_cact("say Your corpse on a pole shall be a warning to others, intruder!");
+   add_cact("say Your kind will be crushed by the heel of Kretos, infidel!");
+   add_cact("emote yells a shrill battle cry!");

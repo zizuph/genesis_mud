@@ -1,0 +1,169 @@
+main
+::MAPDATA::
+girpath1 0 0 road1
+girpath2 0 0 road1
+girpath3 0 0 road1
+underbridge 0 0 road1
+wbrpath1 0 0 road1
+wbrpath2 0 0 road1
+isle1 0 0 road1
+isle2 0 0 road1
+isle3 0 0 road1
+isle4 0 0 road1
+ev4 0 0 road1
+am1 0 0 annuminas
+am2 0 0 annuminas
+am3 0 0 annuminas
+am4 0 0 annuminas
+am5 0 0 annuminas
+am6 0 0 annuminas
+am7 0 0 annuminas
+am8 0 0 annuminas
+am9 0 0 annuminas
+am10 0 0 annuminas
+am11 0 0 annuminas
+am12 0 0 annuminas
+am13 0 0 annuminas
+am14 0 0 annuminas
+am2c1 0 0 annuminas
+am16 0 0 annuminas
+am18 0 0 annuminas
+am19 0 0 annuminas
+am17 0 0 annuminas
+am15 0 0 annuminas
+amc1 0 0 annuminas
+amc2 0 0 annuminas
+amc3 0 0 annuminas
+amc4 0 0 annuminas
+amc5 0 0 annuminas
+pub 0 0 annuminas
+amc6 0 0 annuminas
+amc7 0 0 annuminas
+amc8 0 0 annuminas
+amc9 0 0 annuminas
+amc10 0 0 annuminas
+amc12 0 0 annuminas
+amc13 0 0 annuminas
+amc11 0 0 annuminas
+::MAPDATA::
+    +---------+
+ ~  |THE SHIRE|
+ ~~ +---------+        Fornost
+  ~~                      o
+   ~~~                    |
+     ~~~                  |
+ \     ~~~                |
+  \      ~~~              |                                    Weathertop
+  |Frogmorton             |   BREE   Midgewater   /------------------\
+  o------===--------------+----O---\ Marshes/----/                    \------
+ /   |  Brandywine        |         \------/
+ ing |    Bridge          |
+     o   ~~~     Barrow   |
+  Whitfurrows     Downs   |
+        ~~~               |
+ ----- ~~~ o--------------\
+     ~~~  Sarn Ford        \
+   ~~~                      \
+ ~~~                         \   
+::NEWMAP::
+road1
+::MAPDATA::
+girpath1 10 19
+girpath2 8 19
+girpath3 7 19
+underbridge 12 19
+wbrpath1 14 19
+wbrpath2 16 19
+isle1 7 25
+isle2 3 25
+isle3 3 33
+isle4 7 33
+ev4 7 13
+::MAPDATA::
+                                      
+                         _       _
+                        / \     / \           
+                       | o |---| o |       
+                        \_/     \_/
+                         |       |    
+                        / \     / \                                       
+             o-----o --| o |---| o |        
+                   |    \_/     \_/  
+                   o                
+                   |                      
+                   o                              
+                   |                          
+				   o
+				   |
+				   o
+				   |
+                   o
+::NEWMAP::
+annuminas
+::MAPDATA::
+am1 29 30
+am2 27 0
+am3 25 0
+am4 23 0
+am5 21 0
+am6 19 0
+am7 17 0
+am8 15 0
+am9 13 0
+am10 11 0
+am11 9 0
+am12 9 0
+am13 7 0
+am14 7 22
+am2c1 7 24
+am16 5 26
+am18 3 28
+am19 1 30
+am17 3 0
+am15 3 0
+amc1 0 0
+amc2 0 0
+amc3 0 0
+amc4 0 0
+amc5 0 0
+pub 0 0
+amc6 0 0
+amc7 0 0
+amc8 0 0
+amc9 0 16
+amc10 0 18
+amc12 0 20
+amc13 0 0
+amc11 0 0
+::MAPDATA::
+                                                   
+                              o             o                
+                             / \            |                  
+                            o   o        o--o--o               
+                            |   |        |     |               
+                            o   o  o     o     o                
+                            |   |  |           |                
+                            o   o--o--o--o--o--o                             
+                            |   |        |                     
+                            o   o        o                     
+                            |   |                             
+                            o   o                      
+                             \ /                              
+                              o                              
+                              |                              
+                              o                              
+                              |                              
+                              o                              
+                             /                               
+                            o                               
+                             \                              
+                              o                               
+                             /                               
+                            o                                
+                            |                                
+                            o                               
+                             \                              
+                              o                              
+                              |                               
+                              o                              
+                              |                              

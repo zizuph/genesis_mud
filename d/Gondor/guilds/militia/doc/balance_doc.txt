@@ -1,0 +1,229 @@
+             DOCUMENTATION FOR THE ABILITIES AND LIMITATIONS
+                    OF THE THORNLIN MILITIA GUILD
+           FOR THE PURPOSE OF DETERMINING BALANCE AND TAXATION
+
+
+  * Relevant Files/functions listed below each item where necessary.
+
+Guild Overview and Purpose (Taken from original draft proposal)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+We have all seen Thornlin on a newbie tour, and gone to their militia
+house.  Yet the area has remained fairly non-descript, and little-used
+by other than herbalists, and with some reason.  Neither Tolkien has
+ever really had anything to say about the area, so we will have to use
+a bit of imagination to give the place any detail or character.  The 
+militia, the pig and the araw are what we associate Thornlin with, 
+and nobody wants a guild based on livestock.
+
+With no real statements from the Tolkiens about the area, I am filling
+in the gaps a little as follows: several generations ago, when the area
+was less populated, a bell would be used to call together volunteers
+who would grab whatever weapon-like things might be handy and run to
+the village marketplace, to ward off wolves or other troublemakers.
+By the stewardship of Mardil, the village had become a fairly prosperous
+town, but the lenghtening absence of the King was a cause for worry.
+An official, said by the locals to be a member of the steward's
+household, stopped by on his way towards Pelargir to talk to the locals
+about the gravity of the situation, the growing dangers of the countryside,
+and the inability of the Gondorian army to keep watch far from the walled
+cities.  From this speech was born the Thornlin militia.
+
+Like the militias of townsmen and free farmers in Europe (e.g the Swiss,
+the Scots), they use polearms so as to be able to defend themselves
+from whatever comes along, whether it be a wild boar or a band of
+brigands on horseback.  The spear is also a popular weapon for hunting,
+so many are already comfortable with it.  They tend to wear light armour
+because it impedes their speed and mobility little, and is quite adequate
+against their usual foes -- not that they could afford platemail and 
+warhorses if they wanted them.  If they encounter a better-equipped fighting
+force, they can still retreat into a defensive circle and do reasonably
+well (assuming no archers).  Should the force be overwhelming, they
+will retreat into the mountains that encircle them, where no horseman
+may attack them uphill with any confidence.
+
+Because they are a town militia and not a branch of the army of Gondor,
+they do not have anything much in the way of hierarchy or internal
+politics.  Only a few rules, and no officers.  One must not fall under
+the influence of Sauron (maintain alignment sufficient to enter Minas
+Tirith, it would seem totally wrong to me for the Militia to be
+attacked at the gates), no orcs, hobgoblins, trolls or other foul
+races need apply, none who have ever attacked the town may apply,
+and attacking Rangers, Gondorian soldiers, Heralds of the Valar, or
+guildmates will not be tolerated.  Neither will protracted
+association with Sauron's servants.  This is, after all, a small,
+voluntary association whose only real interest is the town's safety.
+(I may have overlooked something that will need to be added to this
+list, but I have no intention of getting involved in things like
+whether or not they are outlawed by any guild, get in fights
+with members of guilds outside of ME, etc.)
+
+Now to say a little bit about why I want to code this... since the
+closing of the AA, there has been rather a lack of appealing lay
+guild options of the fighter type.  Monks have an application
+process that can be lengthy, and roleplaying them harmoniously
+along with an occupational guild can be very hard.  The Smiths
+offer only mild combat advantages, and the Blademasters are not
+an option for most characters.
+
+Many have complained about guilds taking forever to join, being
+highly politicized, drawn into permanent wars, etc.  They would
+like to be able to go out and have fun without being hunted, or
+trying to follow their council's latest strange ruling, or being
+killed in one's start room as a suspected chest looter, etc.
+This is meant to be useful for those who belong to occupational
+guilds with weak combat skills, as well as those who do not
+forsee (or want) joining an occupational guild soon.  It should
+be easy to roleplay for those who are so inclined, and not in
+conflict with roleplaying any occ guild, since outlandish types
+are generally acceptable as hired reinforcements... a monk/militia
+would be no stranger than the Vikings hired by Byzantium, or the
+Goths working for the Roman Empire.
+
+Because this guild is meant to be relatively safe and carefree,
+I am intending to give it fairly strong defensive capabilities,
+but only enough offense to allow the otherwise guildless to
+be able to grow some -- and not enough to make it a very 
+attractive choice for pfighters.
+
+Branches
+~~~~~~~~
+One can join the Thornlin Militia as a layman, or fully devote oneself
+as an occupational member.
+
+Skills Trained:
+~~~~~~~~~~~~~~
+
+Both Occupational Members and Layman Members get the same skill sets
+and levels trained.
+
+    Polearm          :  50
+    Defence          :  50
+    Parry            :  50
+    Language         :  50
+    Awareness        :  50
+    Trading          :  50
+    Militia Impale   :  50
+    Militia Tactics  :  50
+
+    
+Combat Specials:
+~~~~~~~~~~~~~~~
+
+  Jab
+  ~~~
+    Files: /d/Gondor/guilds/militia/specials/jab.c
+    
+    Jab is a fairly standard damage special for a layman. Thematically,
+    because the Thornlin Militia uses farmer tools (polearms) to fight,
+    they are able to effective jab at their opponents using the training
+    that they've received while in the militia.
+            
+    Combat Aid
+    ----------
+    Using the Genesis Specials system, we simply set the combat aid
+    and all other calculations are set. Jab has been set to be at
+    combat aid of 42%.
+
+    ** Modified to 40% caid following global balance review
+    ** -Arman Kharas (AoB) August 2019
+        
+    Frequency
+    ---------
+    Jab is a fairly fast special, with a internal of 14 seconds. 
+    The actual time is randomized when using the Genesis specials library.
+    
+    Hit chance
+    ----------
+    Tohit is set to be 110. This is calculated to be 90% hit chance
+    according to 'man cb_tohit'.
+    
+    Penetration
+    -----------
+    Penetration is calculated using the person's strength, dexterity, and
+    wisdom for the stats portion, and the Militia Tactics skill for the
+    skill portion of it. Of course, penetration also depends on the
+    weapon's pen.
+
+    Everything else is calculated by the Genesis Specials system.
+    
+    Drawbacks
+    ---------
+    Jab cannot be used at the same time as the Militia Evade.
+    
+  Militia Evade
+  ~~~~~~~~~~~~~
+    Files: /d/Gondor/guilds/militia/specials/militia_evade.c
+    
+    Militia evade uses the new Genesis Evade Special. A person in the
+    militia during battle can choose to focus on evading incoming
+    attacks. This is a useful ability, but since it takes so much 
+    focus and concentration, the person evading cannot focus on
+    an attack such as jab at the same time. Each evade attempt lasts
+    for average of 18 seconds, after which the Militia person has
+    to either restart his evade, or jab instead. I kept this model
+    from the original guild since I felt that this would help to
+    enhance playability when one has to make constant decisions
+    on what to do next, rather than an automatic evade ability
+    like other occupational guilds.
+            
+    Combat Aid
+    ----------
+    Using the Genesis Specials system, we simply set the combat aid
+    and all other calculations are set. Evade has been set to be at
+    combat aid of 42%.
+
+    ** Modified to 40% caid following global balance review
+    ** -Arman Kharas (AoB) August 2019
+        
+    Frequency
+    ---------
+    The evade ability lasts for average of 18 seconds upon each
+    invocation. The actual time is random, similar to other abilities
+    based on the central library.
+    
+
+  Impale
+  ~~~~~~
+    File: /d/Gondor/guilds/militia/specials/impale_attack.c
+    
+    The impale ability is an instant special that is executed when
+    a person of the militia is attacked and they are wielding a
+    polearm and trained in the Impale skill. The instant special
+    has a cooldown period of 2 minutes. It has a combat aid of 3%
+    based on this long cooldown period (24 rounds). This translates
+    to 72% combat aid being set in the combat special impale_attack.c
+    
+    The purpose of this special is more as a way to deter attacks on
+    militia since in general, those in the Militia have lower combat
+    abilities than real fighters. The idea is very similar to the Red 
+    Dragonarmy auto-impale, where an attacker will get impaled for 
+    a limited time when attacking. The difference is that it only does 
+    damage, and does not do any stunning.
+    
+    Combat Aid
+    ----------
+    Using the Genesis Specials system, we simply set the combat aid
+    and all other calculations are set. Impale has been set to be at
+    combat aid of 3%.
+
+    Frequency
+    ---------
+    Impale is an instant special, with no preparation time. It has a
+    cooldown period of 120 seconds, during which it cannot be used
+    again.
+    
+    Hit chance
+    ----------
+    Tohit is set to be 110. This is calculated to be 90% hit chance
+    according to 'man cb_tohit'.
+    
+    Penetration
+    -----------
+    Penetration is calculated using the person's strength, dexterity, and
+    wisdom for the stats portion, and the Militia Impale skill for the
+    skill portion of it. Of course, penetration also depends on the
+    weapon's pen.
+
+    Everything else is calculated by the Genesis Specials system.
+
+Petros, July 2008

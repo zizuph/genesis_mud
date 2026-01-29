@@ -1,0 +1,15 @@
+#include "/d/Krynn/common/defs.h"
+
+/* Pathname aliases */
+#define PARENT          "/d/Krynn/solamn/pal_gully/"
+//#define PARENT            "/w/mirandus/ideas/dewargully/"
+#define LOG_DIR           PARENT + "logs/"
+#define RDIR              PARENT + "rooms/"
+#define ARM               PARENT + "arm/"
+#define WEP               PARENT + "wep/"
+#define LIV               PARENT + "npc/"
+#define AGHAR_BASE        PARENT + "npc/aghar_base"
+#define PAL_GULLY_BASE    PARENT + "rooms/pal_gully_roombase"
+#define PAL_DEWAR_BASE    PARENT + "rooms/pal_dewar_roombase"
+#define PAL_ROAD_BASE     PARENT + "rooms/pal_road_roombase"
+#define PAL_CONNECT_BASE  PARENT + "rooms/pal_connecting_roombase"

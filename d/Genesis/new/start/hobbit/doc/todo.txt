@@ -1,0 +1,49 @@
+TODO list hobbit startloc
+
+- Smithy features to Sheena (waiting for example)
+- Herbalist features (trade/training) to Zagarn (awaiting example)
+X 4-5 guard strolling around the villagehall.
+X make the guards be named properly.
+- Underearthlings in wood and swamp (awaiting aproval)
+- Sound of anvil and bell. (awaiting review of sound proposal)
+- Ships at the piers. (awaiting destinations)
+X hobbit in the shipping office
+- hobbit in the villagehall.
+- animals and other creatures in the wood and swamp
+- making seagulls accepting to be hit (once?) only when sitting.
+X making seagulls examine a room specific property for a landing place.
+- stuff and livinghouses.
+- quests (awaiting examples)
+- Trade items (candy, spade, beer, food, gauntlets, pouches)
+- weapons, armours and tools
+- crop fields outside village
+X update map
+- 'climb bridge' and rooms along the creek.
+- A dark room
+- Toll the bell features (guard navigation and teaming)
+- Add chat and ask for all NPC:s to support story (awaiting aproval)
+- Code review
+- More herbs! & new newbie herbs? (awaiting herbalist features)
+X Long and short descriptions for wood area.
+- 2-3 adventurers for the Pub
+- A singing bard for the Pub
+X Fix the villageboard
+- Items review for all rooms.
+
+Items for all areas:
+--------------------
+Portroad
+Villageroad
+Woodpath
+Canal
+Piers (east and west)
+Gate & Gateroad
+Swamppath
+Wood
+
+Quest idéas
+------------
+1 - a) Kill/Hit seagull that is sitting with fish in the beak.
+       It will drop the fishes on the ground. (Hint by shipping
+       officer and by examining the seagulls)
+    b) Sell the fish to Tan, the pubowner. (Hint at note in Pub)

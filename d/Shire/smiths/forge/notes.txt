@@ -1,0 +1,47 @@
+Since each blacksmith is different throughout the world, the forge, rooms, and npcs have been developed to be as diverse as possible. As such, the attributes for each item can be set to reflect their area. You may set any or all the attributes fo each item. Those attributes you choose not set them, the code will use defaults.
+
+Some features of the guild are not available in these satelite forges, primarily joining/leaving functions, and necklace routines. These functions must be done at the guildhouse in Bree.
+
+The four most important files are the Forge room, the Master's room, the leather shop, and the handles shop.
+
+Some features of the guild are not available in these satelite forges, primarily joining/leaving functions, and necklace routines. These functions must be done at the guildhouse in Bree.
+
+Forge room - The room where Smiths may forge, repair items, and sharpen items. This room calls three separate items: the forge itself, the forging tools, and the forge npc.
+
+Master's Room - This is where Smiths may purchase metal bars from the npc. The npc also gives details about the guild. S/he will not permit players to forge the joining necklace, join, or replace their missing necklace. These functions must be done in Bree.
+Leather shop - Here, Smiths may have the npc tan leathers or purchase leathers for their craft.
+Handles shop - This shop sells wooden poles to be used in handles for weapons.
+
+To see hwo to implement each file, see their respective 
+
+What follows are a listing of all files and their respective routines:
+
+Forge npc 
+====================================
+void set_npc_forge_name(string str)
+/* default = "perin" */
+
+void set_npc_forge_race (string str)
+/* "human" */
+
+void set_npc_forge_adj1(string str)
+/* "strong" */
+
+void set_npc_forge_adj2(string str)
+/* "tanned" */
+
+void set_npc_forge_title(string str)
+/* "Master Blacksmith" */
+
+void set_npc_forge_gender(int integer)
+/* G_MALE */
+
+void set_npc_forge_long(string str)
+/* "This is the Master Blacksmith. He is experienced in forging a 
+ *  wide variety of items and oversees the great forge. His 
+ *  understanding of forging items is unsurpassed and greatly 
+ *  admired by all." 
+ */
+
+
+

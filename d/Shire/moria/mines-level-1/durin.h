@@ -1,0 +1,10 @@
+#include <stdproperties.h>
+#include <macros.h>
+#include "../defs.h"
+
+#define THIS_DIR LEVEL1_DIR
+/* We must know what the standard directory is. */
+#define CONSTRUCT_ROOM CreateMines()
+#define RESET_ROOM reset_room()
+
+inherit "/d/Shire/moria/lib/durins-way";

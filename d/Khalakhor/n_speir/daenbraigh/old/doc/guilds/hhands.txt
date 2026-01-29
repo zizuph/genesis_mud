@@ -1,0 +1,94 @@
+Hammerhands guild.
+
+Version 2 - After a small Cotillion's revision.
+
+This layman fighter guild is a sort of alternative for Blademasters.
+It is a guild enhancing club fighting techniques for evil-aligned
+goblins and dwarves.
+
+Membership:
+
+Goblins and Dwarves of evil align may join.
+The members MUST NOT be in a magical or clerical occ. guild.
+Members are given a tattoo, open to everyone, that indicates their
+membership.
+The members must stay negatively aligned. If a member falls into
+positive alignment, he/she must return to negative one within 43200
+heartbeats or until his/her next return to the guildhall.
+Leaving the guild costs all the gained skills and the money spent on
+training in the guild (once again!) . Members who are forced out of
+the guild lose 1/10th of their combat experience.
+Members have to have club skill at confident veteran or higher to join
+or stay in the guild.
+
+Skills:
+
+Parry - superior craftsman
+Appraise enemy - superior journeyman
+Appraise object - superior acolyte
+Blindfighting - superior layman
+Climb - superior acolyte
+Hunting - superior acolyte
+Trading - superior journeyman
+Mending weapons and armours - confident journeyman
+
+Abilities:
+Diverse club attacks -
+* Jab - an attempt to hit the enemy in the abdomen/plexus
+	maximal damage, function of strength and armour A_BODY of the
+	opponent. 
+* Joint - an attempt to hit the enemy in the arms/legs
+	medium damage, function of strength and armour A_ARMS/LEGS of
+	the opponent.
+* Hook - an attempt to hit the enemy's head or side with a concealed
+	 hit, small damage, function of dexterity and strength, and
+	 armour A_HEAD/A_BODY of the opponent. When connects with the
+	 head causes mana loss of the opponent.
+* Whirlwind - an attempt to concentrate on parrying the hits with the
+	 club. The club wears out faster.
+
+All attacks are function of skill "club". Whirlwind is also function
+of skill parry. Blindfighting penalties apply.
+Members improve their sp. attacks by either sparring it in the training
+room, or in combat. Each success raises the sp. attack by 6, each
+failure by 2 in sparring, success by 2, failure by 0. Two members may
+spar together in the training room. Max value of sp. attack is at
+100000. When untrained, special attack starts decreasing by 6 points
+in 1000 heartbeats of player's life.
+
+Repair clubs in guild forge, just like smiths. Can't forge new ones.
+Members can use whetstones but can't find them.
+
+When in the guild one can see what members are in the game at a room.
+
+Guildhall:
+* Pub with food and drink
+* Rack for clubs ONLY.
+* Shop with lamps, backpacks, torches, whetstones
+* Training room (skills + spar)
+* Forge
+* Dormitory
+* Join Board room
+* Common Board connection
+* Guild board.
+
+Titles:
+[unconcealable]
+
+The Fresh Hammerhand
+The Amateur Hammerhand
+The Aspiring Hammerhand
+The Practiced Hammerhand
+The Able Hammerhand
+The Steady Hammerhand
+The Stalwart Hammerhand
+The Weighty Hammerhand
+The Skilled Hammerhand
+The Impressive Hammerhand
+The Famous Hammerhand
+The Powerful Hammerhand
+The Superior Hammerhand
+The Titanic Hammerhand
+The Crushing Hammerhand
+The Hammermaster
+The Legendary Hammermaster

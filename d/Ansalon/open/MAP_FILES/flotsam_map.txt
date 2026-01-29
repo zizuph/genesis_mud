@@ -1,0 +1,336 @@
+main
+::MAPDATA::
+street05 26 5 flotsam_docks
+street08 26 5 flotsam_docks
+street22 26 5 flotsam_docks
+street23 26 5 flotsam_docks
+street24 26 5 flotsam_docks
+street04 26 5 flotsam_docks
+street07 26 5 flotsam_docks
+street09 26 5 flotsam_docks
+street10 26 5 flotsam_docks
+rock_pool1 26 5 flotsam_docks
+rock_pool2 26 5 flotsam_docks
+bay1 26 5 flotsam_docks
+bay2 26 5 flotsam_docks
+ship_wreck 26 5 flotsam_docks
+blood_sea1 26 5 flotsam_swim
+blood_sea2 26 5 flotsam_swim
+ware01 26 5 flotsam_docks
+street12 26 5 flotsam_docks
+street11 26 5 flotsam_docks
+street16 26 5 flotsam_docks
+street17 26 5 flotsam_docks
+fish_shop 26 5 flotsam_docks
+guard01 26 5 flotsam_docks
+ware02 26 5 flotsam_docks
+street13 26 5 flotsam_docks
+street14 26 5 flotsam_docks
+street15 26 5 flotsam_docks
+street18 26 5 flotsam_docks
+street19 26 5 flotsam_docks
+street20 26 5 flotsam_docks
+street21 26 5 flotsam_docks
+upper_inn01 26 5 flotsam_docks
+upper_inn02 26 5  flotsam
+upper_inn03 26 5 flotsam
+ledge 26 5 flotsam_cbd
+inn_room1 26 5 flotsam_cbd
+inn02 26 5 flotsam_cbd
+ware03 26 5 flotsam_docks
+street40 26 5 flotsam_docks
+street39 26 5 flotsam_docks
+inn01 26 5 flotsam_docks
+street27 26 5 flotsam_docks
+street26 26 5 flotsam_docks
+street25 26 5 flotsam_docks
+guard02 26 5 flotsam_docks
+rooftop1 26 5 flotsam_cbd
+rooftop2 26 5 flotsam_cbd
+attic 26 5 flotsam_cbd
+street44 26 5 flotsam_cbd
+street43 26 5 flotsam_cbd
+street41 26 5 flotsam_cbd
+tavern02 26 5 flotsam_cbd
+street30 26 5 flotsam_cbd
+street28 26 5 flotsam_cbd
+street32 26 5 flotsam_cbd
+f_board 26 5 flotsam_cbd
+f_guild 26 5 flotsam_cbd
+landing 26 5 flotsam_cbd
+p_office 26 5 flotsam_cbd
+street42 26 5 flotsam_cbd
+street38 26 5 flotsam_cbd
+street31 26 5 flotsam_cbd
+street35 26 5 flotsam_cbd
+street34 26 5 flotsam_cbd
+street33 26 5 flotsam_cbd
+store 26 5 flotsam_cbd
+street36 26 5 flotsam_cbd
+tavern01 26 5 flotsam_cbd
+gstreet1 26 5 flotsam_cbd
+gstreet2 26 5 flotsam_cbd
+gstreet3 26 5 flotsam_cbd
+gstreet4 26 5 flotsam_cbd
+guard03 26 5 flotsam_cbd
+street37 26 5 flotsam_cbd
+guard04 26 5 flotsam_cbd
+alley 26 5 flotsam_cbd
+street29 26 5 secretroom
+cellar 26 5 cellar
+passage1 26 5 cellar
+passage2 26 5 cellar
+passage3 26 5 cellar
+passage4 26 5 cellar 
+passage5 26 5 cellar
+passage6 26 5 cellar
+passage7 26 5 cellar
+passage8 26 5 cellar
+::MAPDATA::
+                     / ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                    : ~~~~~~~~~~Blood Bay ~~~~~~~~~~~~~~   ;:  ~~
+             ^     ' ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ,.--_--' /  ~~
+                  : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ :        :'  ~~
+              @    ` ~~~ Flotsam ~~~~~~~~~~~~~~~ .'         '. ~~
+       &      @@    ` ~ '[o].  ~~ :\_.'. ~~ ,..,/    ___/    / ~~
+     .         @@    `_`  |  `   .      \..'    ,_. /       : ~~~
+     ~`:        @@@       |   ._'                  V  Dairy `: ~~
+     ~~ ._        @@@ @@@ |\_ @@@@@@@@@@@@@@@@@    :\ Plains ' ~~
+     ~~~  '          @@@@ | @\_ @@@@@@@@@@@@@@@@   '~`      : ~~~
+     ~~~~  `  -       @@@ | @@ \@ Kendermore @@@@ :~~~`:    ': ~~
+     ~~~~  '             /  @@@ \___[o] @@@@@@@@ / ~~~ /    , ~~~
+     ~~~~~  `   -  -  o /     @@@@@@@@@@@@@@@@@ ' ~~~  :    : ~~~
+     ~~~~~  '          |         @@@@@@@@@     /~~~~~~ `._.'.~~~~
+     ~~~~   :  -  -    |        __  @@@@@     / ~~~~~~~~~~~~~~~~~
+     ~~~~   ,         /   - -     \\  @@@      ~~~~~~~~~~~~~~~~~~
+     ~~~~~   `   -   /             |\ @     .' ~~~~~~~~~~~~~~~~~~
+     ~~~~~~   :     /       -      |~\   ,,. ~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~    [o] Port          ;~~:_ .' ~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~   .   Balifor         ~~   ~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~   '                 ' ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~   :    ,__ .      ..' ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~  '`--  ~~ ` ...'  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~~~~~  ~~~~~~~   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~~~ Bay of Balifor ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                  
+::NEWMAP::
+secretroom
+::MAPDATA::
+street29 9 5
+::MAPDATA::
+
+   &&&&&&&&&&&&&&&& 
+   &&&&&&&&&&&&&&&&
+   &&            &&
+   &&   ___  \   &&   Secret room in a 
+   %%  |   \  |  &&   deserted house, Flotsam
+   %%  |  {d} |  &&
+   &&   \_____|  &&
+   &&            &&
+   &&&&&&&&&&&&&&&&
+   &&&&&&&&&&&&&&&&
+
+::NEWMAP::
+cellar
+::MAPDATA::
+cellar 14 7
+passage1 14 10
+passage2 22 10
+passage3 6 10
+passage4 22 7 
+passage5 6 7
+passage6 6 4
+passage7 14 4
+passage8 22 4
+::MAPDATA::
+   
+   &&&&&&&&&&&&&&&&&&&&&&& 
+   &&&&&&&&&&&&&&&&&&&&&&&
+   &&                   &&
+   && o - - - o - - - o &&
+   && |               | &&  Cellar under a 
+   && |               | &&  deserted house, Flotsam
+   && o       u       o &&
+   && |       |       | &&
+   && |       |       | &&
+   && o - - - o - - - o &&
+   &&                   &&
+   &&&&&&&&&&&&&&&&&&&&&&&
+   &&&&&&&&&&&&&&&&&&&&&&&
+
+::NEWMAP::
+flotsam_docks
+::MAPDATA::
+street05 17 8
+street08 23 8
+street09 29 8
+street22 45 10
+street23 51 10
+street24 57 10
+street04 17 12
+street07 23 12
+street10 29 12
+rock_pool1 15 12
+rock_pool2 19 12
+bay1 10 12
+bay2 7 12
+ship_wreck 2 12
+ware01 17 16
+street12 23 16
+street11 29 16
+street16 35 16
+street17 41 16
+fish_shop 47 16
+guard01 59 18
+ware02 17 20
+street13 23 20
+street14 29 20
+street15 35 20
+street18 41 20
+street19 47 20
+street20 53 20
+street21 59 20
+upper_inn01 28 23
+inn_room1 28 23
+ware03 11 24
+inn01 28 24
+street27 35 24
+street26 41 24
+street25 47 24
+guard02 59 22
+street40 17 24
+street39 23 24
+::MAPDATA::
+  ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~    .======================.
+                                                  | 1 Sparkle dock         |
+  ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   | 2 Kalaman dock         |
+ ~    ~    ~       Blood Sea of Istar  ~          | 3 Mithas dock          |
+~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~ | i  Inn                 |
+ ~    ~    ~      ~    ~    ~    ~      ~    ~    | G  Guard post          | 
+   ~    ~   ~    ~   ~    ~   ~    ~   ~    ~   ~  .======================.
+          ~ ~                       ~ ~                               ~
+        ~  ~     1  ~  2 === 3  ~           .  .  .  .  ^  ^     ~
+ /!       ~   ^. |     | ~       ~  .^,^^ '           '      ^  ~  ~
+/%!++      ~  ^^ |~    |          ,^^^^ ^^   o --- o --- o   ^^        ~
+~ '`~    ~   ^^. |    ~|   ~    ,. ^^#^'   .'                  ^^
+             ~^^ o === o --- o .."''^^   .'   ^^`^^,^^ ^^,^ ^ ^ /||
+    ~     ~ ^^.              |         .'   ,^^ ,"^ , "# ^ ^ ^ //||^^ .
+           ^^.^      .    .  |       .'          ^     ^  ^    | ||     ^^
+..   ,   ..'   /%%%\         |     .'        /%%%\   ^   ^  ^  |/||
+" `"" '''' "   | w |-- o --- o --- o --- o --| x |             | ||
+^ "#'"##" ..           |     |                                 |/||
+^ ^  #^ ^^#^           |     |   -== FLOTSAM DOCKS ==-   [ G ] | ||
+^ ^ ^^^# ^  ^  /%%%\   |     |                             |   |//
+# ^^  ^^  ^^   | w |   o --- o --- o --- o --- o --- o --- o --- cliff road
+                 |     |   .^.     |   ,===,   |           |     __
+                 |     |  /%%%\    |  | n   |  |         [ G ]  /||
+         /%%%\   |     |  |^u^|    |           |    .-^-.      //||
+         | w |-- o --- o  | i |--  o --- o --- o   | x   |     | ||
+                 |  ,===,  .. . .. .     .--.  |    '---'      |/||
+                 | | n   |    ,===,  ,--/ %% \ |               | ||
+                 |           | n   | |n || n|| |               |/||
+
+::NEWMAP::
+flotsam_swim
+::MAPDATA::
+blood_sea1 57 5
+blood_sea2 63 3
+::MAPDATA::
+  ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~
+                                                   
+  ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~    
+ ~    ~    ~       Blood Sea of Istar  ~    ~    ~    ~     ~    ~    ~        
+~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~   ~  
+ ~    ~    ~      ~    ~    ~    ~      ~    ~      ~    ~    ~    ~  ~
+   ~    ~   ~    ~   ~    ~   ~    ~   ~    ~   ~    ~   ~    ~   ~    ~   
+          ~ ~                       ~ ~            
+        ~  ~     1  ~  2 === 3  ~           .  .  .  .  ^  ^     ~
+ /!       ~   ^. |     | ~       ~  .^,^^ '           '      ^  ~  ~
+/%!++      ~  ^^ |~    |          ,^^^^ ^^   o --- o --- o   ^^
+~ '`~    ~   ^^. |    ~|   ~    ,. ^^#^'   .'                  ^^
+             ~^^ o === o --- o .."''^^   .'   ^^`^^,^^ ^^,^ ^ ^ /||
+    ~     ~ ^^.              |         .'   ,^^ ,"^ , "# ^ ^ ^ //||^^ .
+           ^^.^      .    .  |       .'          ^     ^  ^    | ||     ^^
+..   ,   ..'   /%%%\         |     .'        /%%%\   ^   ^  ^  |/||
+" `"" '''' "   | w |-- o --- o --- o --- o --| x |             | ||
+^ "#'"##" ..           |     |                                 |/||
+^ ^  #^ ^^#^           |     |   -== FLOTSAM DOCKS ==-   [ G ] | ||
+^ ^ ^^^# ^  ^  /%%%\   |     |                             |   |//
+# ^^  ^^  ^^   | w |   o --- o --- o --- o --- o --- o --- o --- cliff road
+                 |     |   .^.     |   ,===,   |           |     __
+                 |     |  /%%%\    |  | n   |  |         [ G ]  /||
+         /%%%\   |     |  |^u^|    |           |    .-^-.      //||
+         | w |-- o --- o  | i |--  o --- o --- o   | x   |     | ||
+                 |  ,===,  .. . .. .     .--.  |    '---'      |/||
+                 | | n   |    ,===,  ,--/ %% \ |               | ||
+                 |           | n   | |n || n|| |               |/||
+
+::NEWMAP::
+flotsam_cbd
+::MAPDATA::
+ledge 29 4
+inn_room1 28 4
+inn02 5 7
+upper_inn02 5 5 
+upper_inn03 5 5
+rooftop1 32 7
+rooftop2 41 6
+attic 43 7
+street44 5 9
+street43 11 9
+street41 17 9
+tavern02 23 9
+street30 28 6
+street28 35 6
+street32 47 9
+f_board 54 9
+f_guild 54 11
+landing 5 13
+p_office 11 13
+street42 17 13
+street38 23 13
+street31 29 13
+street35 35 13
+street34 41 13
+street33 47 13
+store 23 17
+street36 35 17
+tavern01 41 17
+gstreet1 47 14 
+gstreet2 47 15 
+gstreet3 47 16 
+gstreet4 47 18 
+guard03 29 21
+street37 35 21
+guard04 41 21
+alley 11 17
+::MAPDATA::
+                      to Flotsam docks
+
+                 |     |   .^.     |   ,===,   |               |/||
+    .!.          |     |  /%%%\    |  | n   |  |               | ||
+    /=\  /%%%\   |     |  |^u^|    |           |    .-^-.      |/||
+   | o | | w |-- o --- o  | i |--  o --- o --- o   | x   |     | ||
+   |   |         |  ,===,  .. . .. .     .--.  |    '---'      |/||
+   | i |         | |_%%__| .  ,===,  ,--/ %% \ |               | ||
+     |           |   ,===,  .| n   | |n || n|| |    .---.      |/||
+     o --- o --- o--|  t  |.                   o --| ag  |     | ||
+     |     |     | .--.   .  ,===,    ,===,    |   |  |  |     |/||
+     |     |     | |% |    .|_%%__|  | n   |   |   | ag  |     | ||
+     |  /%%%%%\  |          .                  |    '---'      |/||
+    [&] | po  |  o --- o --- o --- o --- o --- o  ,===,        | ||
+               .'      |     .--.  |     |     . | n   |       |/||
+             .'        |     |% |  |     |     .     .======================.
+           .'        ,===,         |   ,===,   .    | -- PORT OF FLOTSAM --  |
+        {  o  }     |  s  |        o  |  t  |       | G  Guard post          |
+                                   |         { o }  | w  Warehouse           |
+                                   |                | i  Inn                 |
+---^---^---^---^---^---^-!^        |        ^!-^---^| ag Adventurer's guild  |
+_|_ _|_ _|_ _|_ _|_ _|_ _|_[ G ]-- o --[ G ]_|_ _|_ | t  Tavern              |
+_ _|_ _|_ _|_ _|_ _|_ _|_|_  _ |   |   | _  _|_|_ _|| PO Post office         |
+                                   |                | s  Shop                |
+                            To Port Balifor         | &  Dragonarmy landing  |
+                                  and                .======================.
+                               Kendermore

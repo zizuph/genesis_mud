@@ -1,0 +1,53 @@
+These are the Shiplines of the Shire.
+
+Modified last by Igneous, April 7th 1997
+
+Shiplines originating in the Shire:
+==================================================
+
+SHIRE - GENESIS
+From:    /d/Shire/common/greyhaven/shore.c
+To:      /d/Genesis/start/human/town/pier3.c
+Ship:    /d/Shire/common/ship/ship.c
+Captain: /d/Shire/common/ship/riondir.c
+Decks:   /d/Shire/common/ship/deck.c
+Price:   20 cc (0 if your a newbie! (stat_avg <20))
+
+SHIRE - ROKE
+From:    /d/Shire/common/greyhaven/pier2.c
+To:      /d/Roke/varl/atun/cape/pier1.c    
+Ship:    /d/Shire/common/ship/oldship/ship.c
+Captain: /d/Shire/common/ship/oldship/iarwain.c
+Decks:   /d/Shire/common/ship/oldship/deck.c
+Price:   20 cc (0 if your a newbie! (stat_avg <20))
+
+SHIRE - SYBARUS
+From:    /d/Shire/common/greyhaven/pier5.c
+To:      /d/Anvenir/common/port/port12.c
+Ship:    /d/Shire/common/ship/ship3.c
+Captain: /d/Shire/common/ship/captain.c
+Decks:   /d/Shire/common/ship/deck.c
+Price:   20 cc (0 if your a newbie! (stat_avg <20))
+
+
+Shiplines originating from other domains:
+==================================================
+
+SHIRE - KRYNN
+From:   /d/Krynn/solamn/palan/ship2/pier.c
+To:     /d/Shire/common/greyhaven/pier1.c
+Price:  28 cc
+
+SHIRE - KALAD
+Docks:     /d/Shire/common/greyhaven/pier3.c
+
+SHIRE - CIRCLELINE
+Docks:     /d/Shire/common/greyhaven/pier4.c
+
+SHIRE - CALIA
+Docks:     /d/Shire/common/greyhaven/pier6.c
+
+SHIRE - KHALAKHOR
+Docks:     /d/Shire/common/greyhaven/pier7.c
+
+

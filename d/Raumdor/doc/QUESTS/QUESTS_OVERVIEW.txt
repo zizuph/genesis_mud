@@ -1,0 +1,39 @@
+
+This document will keep track on the various quests in the domain,
+their bits and their rewards.
+
+
+
+
+Current quests:
+---------------
+
+
+Sacrificial knife quest   /d/Raumdor/common/npc/kpriest2.c     
+                          test_bit("Raumdor",3,0) 
+                          add_exp_quest(500)
+                            
+Holy Scripture quest      /d/Raumdor/common/drakmere/npc/drakmere.c  
+                          test_bit("Raumdor",3,1)  
+                          add_exp_quest(25000)
+              
+Khiraa entrance quest     /d/Raumdor/common/nflats/nf10.c      
+                          test_bit("Raumdor",3,2)
+                          add_exp_quest(500)
+                        
+Beast quest               /d/Raumdor/common/plains/under_maze_home.c
+                          test_bit("Raumdor",3,3)
+                          add_exp_quest(2500)
+
+// Closed, under review.                          
+Spectre medallion quest   /d/Raumdor/common/npc/kpriest2.c
+                          test_bit("Raumdor",3,4)
+                          add_exp_quest(15000)
+                    
+Black book quest          /d/Raumdor/common/npc/kpriest2.c     
+                          test_bit("Raumdor",3,5)  
+                          add_exp_quest(15000)
+                        
+                          Total questxp reward obtainable in Raumdor
+----------------------------------------------------------------------
+                        = 58500,-

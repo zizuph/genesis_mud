@@ -1,0 +1,19 @@
+Name: Acid splash
+
+Object: /d/Sparkle/guilds/arcane/spells/acid_splash.c
+
+Cost:
+
+Skills:
+
+Description: Tier 0 spell (default)
+                 Targets: 1, unspecified defaults to current enemy (if
+		         currently in combat)
+		 Dowses the target with a brief splash of acid. Minimal
+		 initial damage. Clones a spell effect object in the target
+		 which causes residual damage, also very minimal.
+
+Requirements:
+    SS_ELEMENT_EARTH
+    SS_FORM_CONJURATION
+    Coral

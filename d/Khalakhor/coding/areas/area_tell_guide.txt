@@ -1,0 +1,98 @@
+	This is a guide to how to use the file ~Khalakhor/lib/area_tell.c
+for a large area.
+
+Firstly you must create an object which controls the tells for your area.
+This object will inherit ~Khalakhor/lib/area_tell.c and have two functions
+(generate_messages_hook and filter_for_messages_hook) defined in it.
+Here is an example:
+
+inherit "/d/Khalakhor/lib/area_tell";
+
+public string
+generate_messages_hook()
+{
+    // This function is just used to generate some simple text
+    // for players to receive while in our area.
+    switch(random(3))
+    {
+    case 0:
+        return "You hear a wolf howl in the distance.\n";
+    case 1:
+        return "The leaves rustle gently in the wind.\n";
+    case 2:
+        return "You hear a twig snap nearby.\n";
+    }
+}
+
+public int
+filter_for_messages_hook(object player)
+{
+    // In my base room or in all the rooms I want to generate these
+    // tells for I have a function, query_in_my_forest (which returns 1)
+    // defined in it.  If the player is in my room.. I tell this function
+    // to return a 1 (I want to keep this player) otherwise we return a 0
+    // telling the filter we aren't interested in this player.
+    if (environment(player)->query_in_my_forest())
+        return 1;
+
+    return 0;
+}
+
+end of example.
+
+Now that you have the object configured and set up you have to make sure
+a few things are set up in the rooms you want this area_tell to produce
+messages in. The best way to do this is to have it set up in your base
+room so you don't have to do this in _every_ room you want the last object
+to generate tells for.
+Example:
+
+#include "local.h"
+
+inheirt "/d/Khalakhor/std/room";
+
+// THIS_DIR this the same directory as this file would be found in.
+#define AREA_TELL (THIS_DIR + "area_tell")
+
+void create_forest() {}
+
+nomask void
+create_khalakhor_room()
+{
+    set_short("within a evergreen forest");
+    set_long("Tall trees stretch upwards, towards the sky, blocking "+
+       "out all but a faintest ray of sunlight.\n");
+    // contine configuring your forest base room.
+    create_forest();
+}
+
+// This function here is used to figure out if a player is
+// within a room which inherits this file.  It will determine
+// if the player will recieve a message or not, so try to make it
+// as unique as possible.
+int
+query_in_my_forest()
+{
+    return 1;
+}
+
+// You must do this so that the area tell starts up when someone
+// enters the room/area for the first time
+void
+enter_inv(object ob, object from)
+{
+    ::enter_inv(ob, from);
+    // Only start up the area tells for interactive players.
+    if (interactive(ob))
+        AREA_TELL->start_area_tells();
+}
+
+end of example.
+
+If you have any more questions on how the area tell library works please
+direct your questions to the Liege of Khalakhor, as he or she should know
+how this thing works.
+
+Created by:         Igneous April 1st 1999
+Last modified by:   igneous April 1st 1999
+

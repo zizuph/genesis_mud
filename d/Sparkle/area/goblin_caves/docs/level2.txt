@@ -1,0 +1,91 @@
+Level 2 - Cave lake
+
+
+        a1  a2  a3      
+        |   |   |      
+        |   |   |       |
+b1      b2--b3--b4      b5
+  \    /    |     \    /
+   \  /     |      \  /
+    c1      |       c2          j2
+    |       |       |          /  \
+    |       |       |         /    \
+d1--d2      r3      d3--d4..j1--j3--j5..j6
+    |       | .     |         \    /
+    |       |  r6   |          \  /
+e1--e2      r2      e3--e4      j4
+    |       | .     |
+    |       |  r5   |
+f1--f2      r1      f3--f4
+    |       | .     |
+    |       |  r4   |
+    g1      |       g2
+   /  \     |      /  \
+  /    \    |     /    \
+h1      h2--h3--h4      h5 
+        |   |   |      
+        |   |   |      
+        i1  i2  i3 
+       
+       
+i2 - Entrance from level 1
+b5 - Entrance to level 3
+f4 - Inn. With darts board
+r1,2,3 - Rope bridge. Player can tie rope from rope shop (e4) 
+and climb to under the bridge room (r4,5,6). Only one rope can be tied. 
+Looking under bridge will show what room you will climb down.
+r4,5,6 - Under rope bridge. One of rooms will have flower for quest. 
+Another will be empty. Third one will have BIG spider in it. 
+Spider will block player to "climb up". Spider will be hard challenge for 
+legend players, and totally unkillable for less than legend. 
+It will have poison and special. After killing the spider, player will
+be able to cut its mandible (good dagger).
+Special syntax of "cut web" will be given to drop spider into water. Then
+player will be able to climb up.
+
+d1,e1,f1,h1,b1 - Goblin living caves with kids and women.
+a1,a2,a3 - Rack rooms. Rooms with racks that randomly generates low quality EQ. Racks are protected by guards.
+i1,i3 - guard rooms
+e4 - Shop
+h5 - empty cave with moss (part of quest of level 3)
+
+In room d4 there is player can clear rubble and jump into appeared hole and get into hidden part of cave (rooms j*).
+
+j1 is room with strange mosaic of black, white and gray tiles. tiles of the same colour unites and goes to different rooms:
+black to j2, gray to j3, white to j4.
+In j2,3,4 there are goblin shamans with different auras (the same colour as tiles):
+Black aura blocks all blows/specials from players whose alignment is lower than evil.
+Gray aura blocks all blows/specials from players whose alignment is between evil to good.
+White aura blocks all blows/specials from players whose alignment is higher than good.
+Aura spell will hold 20 seconds with recharge of 10 seconds.
+j5 - Shaman leader room. 
+Shaman leader will cast aura of alignment of tank and will have damage special.
+Shaman leader will have rare good armour.
+In room there will be wardrobe that can be moved/pushed and reveal trapdoor that leads to j6.
+j6 - Shaman treasury chest guarded by team of four dogs. Chest will content some gold coins and gems.
+
+Level 2 quests:
+Goblin in love:
+In room d1 there is young goblin boy that has passion on young goblin girl from another family (room h1).
+He wants to pass her a letter, flower (blue lotus) and cake.
+Letter - boy gives it to player
+Flower - In every room around lake player can cut/tear flower from water to get lotus of different colour (pink, blue, white).
+         In room r4 (under rope bridge) player can reach water for blue lotus. 
+Black diamond - regular rare gem.
+On giving all three items to girl, player gets qxp.
+Reward: 5000XP
+
+Lets play darts:
+In Inn there is a darts board.
+Like in RL. Player must hit score of 501.
+There is a note that explains exact syntax.
+Player must complete the game in 20 attempts
+Success of a dart throw depends on stats and number of previously thrown darts (stats save through reboots)
+Reward: 3000XP
+
+Nine-dart finish:
+In case player succeeds to score 501 in only 9 attempts (theoretical minimum)
+he gets even bigger reward.
+Reward: 10000XP
+
+

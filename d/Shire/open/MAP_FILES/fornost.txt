@@ -1,0 +1,76 @@
+main
+::MAPDATA::
+nroad07 26 6 road
+nr3 26 6 road
+nr4 26 5 road
+nr5 26 5 road
+swamp 26 5 road
+dike 26 4 road
+gate 26 4 road
+street 26 4 road
+l_tower 26 4 road
+plaza 26 4 road
+s_square 26 4 road
+l_building 26 4 road
+outer_wall 26 4 road
+::MAPDATA::
+
+    +---------+
+ ~  |THE SHIRE|
+ ~~ +---------+        Fornost
+  ~~                      o
+   ~~~                    |
+     ~~~                  |
+ \     ~~~                |
+  \      ~~~              |                                    Weathertop
+  |Frogmorton             |   BREE   Midgewater   /----------------*-\
+  o------===--------------+----O---\ Marshes/----/                    \------
+ /   |  Brandywine        |         \------/
+ ing |    Bridge          |
+     o   ~~~     Barrow   |
+  Whitfurrows     Downs   |
+        ~~~               |
+ ----- ~~~ o--------------\
+     ~~~  Sarn Ford        \
+   ~~~                      \
+ ~~~                         \   
+
+::NEWMAP::
+road
+::MAPDATA::
+nroad07 15 16
+nr3 15 14
+nr4 11 12
+nr5 11 10
+swamp 15 10
+dike 11 8
+gate 11 6
+street 11 4
+l_tower 15 4
+plaza 15 2
+s_square 11 2
+l_building 7 2
+outer_wall 19 2
+::MAPDATA::
+
+         \
+       o - o - o -[ ]
+           |   |
+           o   o
+           | /
+           o
+           |  Fornost
+           o
+           |
+           o - o
+           |
+           o
+             \
+               o
+               |
+               o       o - o - o - o
+               |     /     | \
+               o - o       o  \
+               |         /
+               o       o
+               |       |

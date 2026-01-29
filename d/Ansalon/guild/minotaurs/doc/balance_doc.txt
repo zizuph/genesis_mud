@@ -1,0 +1,66 @@
+             DOCUMENTATION FOR THE ABILITIES AND LIMITATIONS
+                         OF THE BLOODSEA MINOTAURS
+           FOR THE PURPOSE OF DETERMINING BALANCE AND TAXATION
+
+
+  * Relevant Files/functions listed below each item where necessary.
+
+Guild Overview and Purpose
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Bloodsea minotaurs are a layman guild that provides a standard
+damage special called gore, which attacks their enemies using their
+minotaur horns. It has a decent array of skills, and also allows
+them to wield certain two-handed weapons in one hand, such as
+the spiked steel tessto.
+
+TRAINING
+=======================
+The minotaurs are very combat oriented. As such, they have a set
+of skills which help them achieve mastery in various areas.
+
+    Axe              :  50
+    Club             :  50
+    Defence          :  50
+    Parry            :  50
+    Blind Combat     :  50
+    Appraise Enemy   :  50
+    Location Sense   :  60
+    Swim             :  60
+    Gore:            : 100
+    
+Combat Specials:
+~~~~~~~~~~~~~~~
+
+  Gore
+  ~~~~~~~~~~
+    Files: /d/Ansalon/guild/minotaurs/specials/gore.c
+
+    Gore is a very standard combat special that uses the minotaur
+    horns to deal damage.
+        
+    Combat Aid
+    ----------
+    Using the Genesis Specials system, we simply set the combat aid
+    and all other calculations are set. Gore has been set to a combat
+    aid of 45%.
+        
+    Frequency
+    ---------
+    Gore has a frequency of an average of 25 seconds.
+        
+    Hit chance
+    ----------
+    Tohit is set to be 85. This is calculated to be 78% hit chance
+    according to 'man cb_tohit'.
+    
+    Penetration
+    -----------
+    Penetration is calculated using the person's strength, and
+    guild stat stats portion, and the Gore skill for the
+    skill portion of it. Of course, penetration also depends on the
+    weapon's pen. 
+
+    Everything else is calculated by the Genesis Specials system.
+    
+
+Petros, September 2008

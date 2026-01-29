@@ -1,0 +1,62 @@
+main
+::MAPDATA::
+shirelink2 52 2 road
+path5 53 3 road
+path4 55 5 road
+path3 59 9 road
+path2 60 10 road
+::MAPDATA::
+
+            /   \ / \/   \   /   /     \           \       ~~~~            OOOo
+           /     /   \    \                         \      ~~~~           oOOOO
+            ^   /     \^                             \    ~~~~           OOOoOO
+           / \ /      / \                             \   ~~~~         oOOoOOOo
+          /   \  ^   /   \                             \ ~~~~       OOoOOOoOOOO
+       ^ /  ^  \/ \ /     \                             \~~~~     OoOOOOOOOOoOO
+      / \  / \ /   \ ^  ^                               ~\~~    OoOOOoOoOOoOOOo
+     /   \/   /     / \/ \                             ~~~\      oOOOOoOOOOOOOO
+    /     \  /     /   \  \                           ~~~~ \       oOOOOOOOOoOO
+    Misty Mountains     \                            ~~~~   \        oOOOOoOOOo
+      ^   ^                                         ~~~~     \          OOoOOOO
+     / \ / \  ^                                    ~~~~       \             oOO
+    /   \   \/ \                                  ~~~~         \
+    ISENGARD \  \                                ~~~~           \
+ ------O       Fangorn Forest                   ~~~~             \
+   ~~~~ \                                      ~~~~               \  Dead
+ ~~~     \                ~                   ~~~~                 \ Marshes
+          \                ~                 ~~~~                   \
+           \   West Emnet   ~               ~~~~                     \
+     Helms o\                ~~~~         ~~~~                        \ Moranno
+     Deep    \                   ~       ~~~~                         | o
+
+::NEWMAP::
+road
+::MAPDATA::
+shirelink2 45 10
+path5 49 12
+path4 53 14
+path3 53 16
+path2 53 18
+::MAPDATA::
+
+                                         |
+                                         o
+                                         |
+                                         o
+                                         |
+                                         o
+                                         |
+                                         o
+                                           \
+                                             o
+                                               \
+                                                 o
+                                                   \
+                                                     o
+                                                     |
+                                                     o
+                                                     |
+                                                     o
+                                                     |     /
+                                                     o   o
+                                                       \ |

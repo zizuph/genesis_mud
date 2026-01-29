@@ -1,0 +1,53 @@
+main
+::MAPDATA::
+battlement9 34 2
+battlement10 38 2
+battlement11 42 2
+battlement8 34 3
+battlement7 34 4
+battlement5 30 5
+battlement6 34 5
+north_lane5 10 5
+north_lane4 14 5
+north_lane3 18 5
+battlement4 30 6
+north_lane6 6 7
+north_lane2 22 7
+battlement3 30 7
+battlement2 30 8
+north_lane7 2 9
+north_lane1 26 9
+battlement1 30 9
+tower3 10 11
+tower2 14 11
+tower1 18 11
+tower_entrance 22 11
+fountain 26 11
+gate7 30 11
+tcrc7 34 11
+south_lane6 6 13
+south_lane1 26 13
+south_lane2 22 15
+south_lane5 10 17
+south_lane4 14 17
+south_lane3 18 17
+::MAPDATA::
+
+         ===========
+         The Citadel             [ ]- o - o
+         ===========             [ ]
+                                 [ ]
+          o - o - o          [ ]-[ ]
+        /           \        [ ]
+      o               o      [ ]            v .   ._, |_  .,        
+    /                   \    [ ]         `-._\/  .  \ /    |/_
+  o                       o  [ ]             \\  _\, y | \//   
+   \      |               | /          _\_.___\\, \\/ -.\||     
+    \     o - o - o - o - o - o - o -   `7-,--.`._||  / / ,    
+     \                    |             /'     `-. `./ / |/_.'     
+      o                   o                       |    |//  
+       \                /                         |_    /   
+        \             o                           |-   |  
+         \          /                             |   =|    
+          o - o - o                               |    |
+                             ____________________/ ,  . \__________

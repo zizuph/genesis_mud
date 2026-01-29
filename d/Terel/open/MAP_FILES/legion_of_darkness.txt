@@ -1,0 +1,424 @@
+Legion of Darkness
+::MAPDATA::
+corr1 58 16 lod1
+corr2 58 16 lod1
+corr3 58 16 lod1
+corr4 58 16 lod1
+corr5 58 16 lod1
+corr6 58 16 lod1
+corr17 58 16 lod1
+corr18 58 16 lod1
+corr19 58 16 lod1
+guard_room1 58 16 lod1
+hall 58 16 lod1
+quart2e 58 16 lod1
+quart2w 58 16 lod1
+quart3e 58 16 lod1
+quart3w 58 16 lod1
+quart4e 58 16 lod1
+quart4w 58 16 lod1
+quart5e 58 16 lod1
+quart5w 58 16 lod1
+quart6e 58 16 lod1
+quart6w 58 16 lod1
+quart17n 58 16 lod1
+quart17s 58 16 lod1
+quart18s 58 16 lod1
+room19n 58 16 lod1
+room19s 58 16 lod1
+stairs2 58 16 lod1
+tunnel1 58 16 lod1
+tunnel2 58 16 lod1
+tunnel3 58 16 lod1
+tunnel4 58 16 lod1
+tunnel5 58 16 lod1
+tunnel6 58 16 lod1
+tunnel7 58 16 lod1
+tunnel8 58 16 lod1
+tunnelr1 58 16 lod1
+tunnelr2 58 16 lod1
+tunnelr2a 58 16 lod1
+war1 58 16 lod1
+war1e 58 16 lod1
+war1w 58 16 lod1
+war2 58 16 lod1
+corr7 58 16 lod2
+corr8 58 16 lod2
+corr9 58 16 lod2
+corr10 58 16 lod2
+corr11 58 16 lod2
+corr12 58 16 lod2
+corr13 58 16 lod2
+corr14 58 16 lod2
+corr15 58 16 lod2
+corr16 58 16 lod2
+quart7e 58 16 lod2
+quart7w 58 16 lod2
+quart8e 58 16 lod2
+quart8w 58 16 lod2
+quart9e 58 16 lod2
+quart9w 58 16 lod2
+quart10e 58 16 lod2
+quart10w 58 16 lod2
+quart11e 58 16 lod2
+quart11w 58 16 lod2
+quart12e 58 16 lod2
+quart12w 58 16 lod2
+quart13e 58 16 lod2
+quart13w 58 16 lod2
+quart14e 58 16 lod2
+quart14w 58 16 lod2
+quart15e 58 16 lod2
+quart15w 58 16 lod2
+quart16e 58 16 lod2
+quart16w 58 16 lod2
+tunnel9 58 16 lod2
+tunnel10 58 16 lod2
+tunnel10a 58 16 lod2
+tunnel10b 58 16 lod2
+tunnel10c 58 16 lod2
+tunnel10d 58 16 lod2
+tunnel10e 58 16 lod2
+tunnel10f 58 16 lod2
+tunnel10g 58 16 lod2
+tunnel11 58 16 lod2
+tunnelr2b 58 16 lod2
+tunnelr3 58 16 lod2
+tunnelr4 58 16 lod2
+tunnelr4a 58 16 lod2
+tunnelr4b 58 16 lod2
+tunnelr5 58 16 lod2
+tunnelr5a 58 16 lod2
+tunnelr5b 58 16 lod2
+tunnelr6 58 16 lod2
+guard_room2 58 16 lod3
+guard_room3 58 16 lod3
+corr20 58 16 lod3
+corr21 58 16 lod3
+corr22 58 16 lod3
+corr23 58 16 lod3
+corr24 58 16 lod3
+corr25 58 16 lod3
+corr26 58 16 lod3
+corr27 58 16 lod3
+corr28 58 16 lod3
+corr29 58 16 lod3
+quart20e 58 16 lod3
+quart20w 58 16 lod3
+quart21e 58 16 lod3
+quart21w 58 16 lod3
+quart22e 58 16 lod3
+quart22w 58 16 lod3
+quart23e 58 16 lod3
+quart23w 58 16 lod3
+quart24e 58 16 lod3
+quart24w 58 16 lod3
+quart25e 58 16 lod3
+quart25w 58 16 lod3
+quart26e 58 16 lod3
+quart26w 58 16 lod3
+quart27e 58 16 lod3
+quart27w 58 16 lod3
+quart28e 58 16 lod3
+quart28w 58 16 lod3
+quart29e 58 16 lod3
+quart29s 58 16 lod3
+quart29w 58 16 lod3
+tunnelr6a 58 16 lod3
+tunnelr6b 58 16 lod3
+tunnelr7 58 16 lod3
+tunnelr7a 58 16 lod3
+tunnelr7b 58 16 lod3
+tunnelr8 58 16 lod3
+::MAPDATA::
+ ___________________________________________________________________________ 
+|  . . . . . . . . . . . . . . . . . . . . . . . .                          |
+|  .                   .            Northern     .                          |
+|  . North West        .         #               .                          |
+|  .                   .         #    Calathin   .                          |
+|  .                   .         #               .                          |
+|  .                   .       #                 .                          |
+|  .                   .     #                   . . . . . . . . . .        |
+|  . . . . . . . . . . . . . . . . . . . . . . . .                 .        |
+|  .                   .     #                   .     Farm        .        |
+|  .                   .     Town Square         .                 .        |
+|  .                   .    _ # _ _ _            .                 .        |
+|  . Western           .   |  \ \_ _  |          . . . . . . . . . .        |
+|  .          # # #    .   | |  %   | |          .                 .        |
+|  .    # # #       #  .   | |   _ _| |          .  Great Mansion  .        |
+|  .                   .#       |_ _ _|     # #  .                 .        |
+|  .                   .  #  #            #      .                 .        |
+|  . . . . . . . . . . .        #       #        . . . . . . . . . .        |
+|                      .           # # # # #     .                          |
+|                      .           #         # # . #  #                     |
+|                      . . . . . . . . . . . . . .       # #                |
+|                      .           #             .                          |
+|                      .  Southern Road          .                          |
+|                      .            #            .                          |
+|                      . . . . . . . . . . . . . .                          |
+|                      .               #         .                          |
+|                      .     Gypsy Camp  #       .                          |
+|                      . . . . . . . . . . . . . .                          |
+|___________________________________________________________________________|
+
+::NEWMAP::
+lod1
+::MAPDATA::
+corr1 28 11
+corr2 28 14
+corr3 28 18
+corr4 28 22
+corr5 28 26
+corr6 28 30
+corr17 51 34
+corr18 59 34
+corr19 69 34
+guard_room1 28 8
+hall 28 34
+quart2e 38 14
+quart2w 18 14
+quart3e 38 18 
+quart3w 18 18
+quart4e 38 22
+quart4w 18 22
+quart5e 38 26
+quart5w 18 26
+quart6e 38 30
+quart6w 18 30
+quart17n 51 30
+quart17s 51 38 
+quart18s 59 38
+room19n 69 30
+room19s 69 38
+stairs2 28 4
+tunnel1 59 30
+tunnel2 59 27
+tunnel3 59 24 
+tunnel4 59 21
+tunnel5 59 18
+tunnel6 59 15
+tunnel7 59 12
+tunnel8 59 9
+tunnelr1 21 34
+tunnelr2 14 34
+tunnelr2a 7 34
+war1 28 38
+war1e 38 38
+war1w 18 38
+war2 28 43
+::MAPDATA::
+ ____________________________________________________________________________ 
+|                    _ _ _ _ _ _ _ _                                         |
+|                   |    [[[[[      |                                        |
+|                   |               |                          Legion of     |
+|                   |       o       |                             Darkness   |
+|                   |_ _ _. | ._ _ _|                                        |
+|                   |     ` | `     |                                        |
+|                   |       |       |                    _ | _               |
+|                   |       o       |                   |  |  |              |
+|                   |_ _ _  |  _ _ _|                   |  o  |              |
+|                         | | |                         |  |  |              |
+|            _ _ _ _ _ _ _| o |_ _ _ _ _ _ _            |  |  |              |
+|           |             | | |             |           |  o  |              |
+|           |             | | |             |           |  |  |              |
+|           |     o---------o---------o     |           |  |  |              |
+|           |             | | |             |           |  o  |              |
+|           |- - - - - - -| | |- - - - - - -|           |  |  |              |
+|           |             | | |             |           |  |  |              |
+|           |     o---------o---------o     |           |  o  |              |
+|           |             | | |             |           |  |  |              |
+|           |- - - - - - -| | |- - - - - - -|           |  |  |              |
+|           |             | | |             |           |  o  |              |
+|           |     o---------o---------o     |           |  |  |              |
+|           |             | | |             |           |  |  |              |
+|           |- - - - - - -| | |- - - - - - -|           |  o  |              |
+|           |             | | |             |           |  |  |              |
+|           |     o---------o---------o     |           |  |  |              |
+|           |             | | |             |           |  o  |_ _ _ _ _ _   |
+|           |- - - - - - -| | |- - - - - - -|- - - - - -|  |  |           |  |
+|           |             | | |             |           |  |  |           |  |
+|           |     o---------o---------o     |      o    |  o  |      o    |  |
+|           |          _ _| | |_ _          |      |    |  |  |      |    |  |
+|_ _ _ _ _ _|_ _ _ _ _|     |     |_ _ _ _ _|_ _ _ | _ _|_ | _|_ _ _ | _ _|  |
+|                           |                      |       |         |    |  |
+|------o------o------o------o----------------------o-------o---------o    |  |
+|_ _ _ _ _ _ _ _ _ _ _      |      _ _ _ _ _ _ _ _ | _ _ _ | _ _ _ _ | _ _|  |
+|           |         |_ _  |  _ _|         |      |    |  |    |    |    |  |
+|           |         |     |     |         |      |    |  |    |    |    |  |
+|           |     o---------o---------o     |      o    |  o    |    o    |  |
+|           |         |           |         |           |       |         |  |
+|           |_ _ _ _ _|-- --+-- --|_ _ _ _ _|_ _ _ _ _ _|_ _ _ _|_ _ _ _ _|  |
+|           |               |               |                                |
+|           |               |               |                                |
+|           |               o               |                                |
+|           |                               |                                |
+|           |_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _|                                |
+|____________________________________________________________________________|
+
+::NEWMAP::
+lod2
+::MAPDATA::
+corr7 58 23
+corr8 58 19
+corr9 58 15
+corr10 58 11
+corr11 58 7
+corr12 24 23
+corr13 24 19
+corr14 24 15
+corr15 24 11
+corr16 24 7
+quart7e 68 23
+quart7w 48 23
+quart8e 68 19
+quart8w 48 19
+quart9e 68 15
+quart9w 48 15
+quart10e 68 11
+quart10w 48 11
+quart11e 68 7
+quart11w 48 7
+quart12e 34 23
+quart12w 14 23
+quart13e 34 19
+quart13w 14 19
+quart14e 34 15
+quart14w 14 15
+quart15e 34 11
+quart15w 14 11
+quart16e 34 7
+quart16w 14 7
+tunnel9 4 24
+tunnel10 4 22
+tunnel10a 4 20
+tunnel10b 4 18
+tunnel10c 4 16
+tunnel10d 4 14
+tunnel10e 4 12
+tunnel10f 4 10
+tunnel10g 4 8
+tunnel11 4 6
+tunnelr2b 72 27
+tunnelr3 65 27
+tunnelr4 58 27
+tunnelr4a 48 27
+tunnelr4b 36 27
+tunnelr5 24 27
+tunnelr5a 17 27
+tunnelr5b 11 27
+tunnelr6 4 27
+::MAPDATA::
+ ____________________________________________________________________________ 
+|                                                                            |
+|                                                              Legion of     |
+|                                                                 Darkness   |
+|  _ _   _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _   _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _   |
+| |   | |             |   |             | |             |   |             |  |
+| | o | |             |   |             | |             |   |             |  |
+| | | | |     o---------o---------o     | |     o---------o---------o     |  |
+| | o | |             | | |             | |             | | |             |  |
+| | | | |- - - - - - -| | |- - - - - - -| |- - - - - - -| | |- - - - - - -|  |
+| | o | |             | | |             | |             | | |             |  |
+| | | | |     o---------o---------o     | |     o---------o---------o     |  |
+| | o | |             | | |             | |             | | |             |  |
+| | | | |- - - - - - -| | |- - - - - - -| |- - - - - - -| | |- - - - - - -|  |
+| | o | |             | | |             | |             | | |             |  |
+| | | | |     o---------o---------o     | |     o---------o---------o     |  |
+| | o | |             | | |             | |             | | |             |  |
+| | | | |- - - - - - -| | |- - - - - - -| |- - - - - - -| | |- - - - - - -|  |
+| | o | |             | | |             | |             | | |             |  |
+| | | | |     o---------o---------o     | |     o---------o---------o     |  |
+| | o | |             | | |             | |             | | |             |  |
+| | | | |- - - - - - -| | |- - - - - - -| |- - - - - - -| | |- - - - - - -|  |
+| | o | |             | | |             | |             | | |             |  |
+| | | | |     o---------o---------o     | |     o---------o---------o     |  |
+| | o | |             | | |             | |             | | |             |  |
+|_| | |_|_ _ _ _ _ _ _| | |_ _ _ _ _ _ _| |_ _ _ _ _ _ _| | |_ _ _ _ _ _ _|_ |
+|   |                   |                                 |                  |
+|---o------o-----o------o-----------o-----------o---------o------o------o----|
+|_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ |
+|                                                                            |
+|____________________________________________________________________________|
+
+::NEWMAP::
+lod3
+::MAPDATA::
+guard_room2 56 10
+guard_room3 22 10
+corr20 56 15
+corr21 56 19
+corr22 56 23
+corr23 56 27
+corr24 56 31
+corr25 22 15
+corr26 22 19
+corr27 22 23
+corr28 22 27
+corr29 22 31
+quart20e 66 15
+quart20w 46 15
+quart21e 66 19
+quart21w 46 19
+quart22e 66 23
+quart22w 46 23
+quart23e 66 27
+quart23w 46 27
+quart24e 66 31
+quart24w 46 31
+quart25e 32 15
+quart25w 12 15
+quart26e 32 19
+quart26w 12 19
+quart27e 32 23
+quart27w 12 23
+quart28e 32 27
+quart28w 12 27
+quart29e 32 31
+quart29s 22 35
+quart29w 12 31
+tunnelr6a 72 6
+tunnelr6b 65 6
+tunnelr7 56 6
+tunnelr7a 48 6
+tunnelr7b 36 6
+tunnelr8 22 6
+::MAPDATA::
+ ____________________________________________________________________________ 
+|                                                                            |
+|                                                              Legion of     |
+|                                                                 Darkness   |
+|                  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _   |
+|                 |                                                          |
+|                 |   o-------------o-----------o-------o--------o------o----|
+|      _ _ _ _ _ _|_  |  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _  |  _ _ _ _ _ _ _     |
+|     |               |               | |               |               |    |
+|     |               |               | |               |               |    |
+|     |               o               | |               o               |    |
+|     |               |               | |               |               |    |
+|     |_ _ _ _ _      |      _ _ _ _ _| |_ _ _ _ _      |      _ _ _ _ _|    |
+|               |     |     |                     |     |     |              |
+|               |_ _  |  _ _|                     |_ _  |  _ _|              |
+|                   | o |                             | o |                  |
+|      _ _ _ _ _ _ _| | |_ _ _ _ _ _ _   _ _ _ _ _ _ _| | |_ _ _ _ _ _ _     |
+|     |             | | |             | |             | | |             |    |
+|     |             | | |             | |             | | |             |    |
+|     |     o---------o---------o     | |     o---------o---------o     |    |
+|     |             | | |             | |             | | |             |    |
+|     |- - - - - - -| | |- - - - - - -| |- - - - - - -| | |- - - - - - -|    |
+|     |             | | |             | |             | | |             |    |
+|     |     o---------o---------o     | |     o---------o---------o     |    |
+|     |             | | |             | |             | | |             |    |
+|     |- - - - - - -| | |- - - - - - -| |- - - - - - -| | |- - - - - - -|    |
+|     |             | | |             | |             | | |             |    |
+|     |     o---------o---------o     | |     o---------o---------o     |    |
+|     |             | | |             | |             | | |             |    |
+|     |_ _ _ _ _ _ _| | |_ _ _ _ _ _ _| |_ _ _ _ _ _ _| | |_ _ _ _ _ _ _|    |
+|     |             | | |             | |             | | |             |    |
+|     |     o---------o---------o     | |     o---------o---------o     |    |
+|     |             | | |             | |             |   |             |    |
+|     |_ _ _ _ _ _ _|_|_|_ _ _ _ _ _ _| |_ _ _ _ _ _ _|_ _|_ _ _ _ _ _ _|    |
+|               |     |     |                                                |
+|               |     o     |                                                |
+|               |           |                                                |
+|               |_ _ _ _ _ _|                                                |
+|____________________________________________________________________________|

@@ -1,0 +1,597 @@
+Last modification: April 8, 2000 by Stern.
+
+
+
+0.	Preface
+
+Gondor is one of the first domains of Genesis. It was founded by
+Elessar before Genesis 3.0 opened for mortals in January 1992. Much of
+the code in it is therefore obsolete and does not conform to the rules
+in this document. New code however must conform to these rules. If old
+code is revised, it should be updated so it conforms to these rules,
+too, in so far as that is possible.
+
+
+1.	General
+
+
+1.1	File structure
+
+None of the code accessible to mortals may be in a wizard's directory
+(/d/Gondor/<wizard>/), all open code has to be in public directories
+so that all members of the domain can modify it.
+
+There are the following subdirectories:
+
+/d/Gondor/open/		- General information on the domain.
+
+/d/Gondor/info/		- General information on the domain that needs more
+                          protection.
+
+/d/Gondor/common/	- Files that can be cloned and used either everywhere
+			  in the domain, or files that are used in more than
+			  one area of the domain. The file header has tell to 
+			  which category the files belong and if they belong
+			  to the second category where the files are used.
+			  The following subdirectories exist:
+
+			  /d/Gondor/common/arm/		- armours
+			  /d/Gondor/common/herbs/	- herbs
+			  /d/Gondor/common/npc/		- monsters
+			  /d/Gondor/common/obj/		- non-living objects
+			  /d/Gondor/common/poison/	- poison effects
+			  /d/Gondor/common/potions/	- potions
+			  /d/Gondor/common/wep/		- weapons
+
+/d/Gondor/std/		- Files that are to be inherited instead of the
+			  corresponding files in /std/. The corresponding 
+			  files in /std/ are always inherited by the files 
+			  in this directory.
+
+/d/Gondor/common/lib/	- Files of general interest that can be inherited.
+			  For example, files that contain standard functions
+			  for shops, inns, pubs, post offices, etc., often 
+			  inheriting and extending corresponding files in
+			  /lib/ or /d/Genesis/lib/.
+
+			  This directory contains the standard room files for
+			  outdoor rooms.
+
+/d/Gondor/common/doc/ 	- Text files. Maps, drafts for quests, guilds, areas,
+/d/Gondor/common/ideas/	  etc.
+/d/Gondor/common/maps/
+
+/d/Gondor/common/dunedain/	- The Houses of the Dunedain.
+/d/Gondor/common/guild/		- The Rangers of the Westlands.
+/d/Gondor/common/guild2/	- Society of Morgul Mages.
+/d/Gondor/common/dwarf_guild/	- The Rockfriends.
+
+/d/Gondor/<area>	- The area directories.
+
+			  Usually, each area is the responsibility of one
+			  wizard to code and to maintain.
+
+			  For details see below.
+
+/d/Gondor/<wizard>/	- Wizard directories containing the workrooms, test
+			  code, never any open code.
+
+
+1.2	/d/Gondor/std/
+
+To allow domain wide changes to standard objects like rooms and monsters, in
+the directory /d/Gondor/std/ there are standard files to inherit instead of
+the corresponding file in the mudlib directory /std/.
+
+Unless there are specific reasons, files in the domain Gondor should always
+inherit a file from /d/Gondor/std/ instead of the corresponding file from
+/std/ if the domain specific file exists.
+
+Great care has to be used when modifying files in /d/Gondor/std/, as a single
+typo in one of those files can temporarily wreck the whole domain.
+
+
+1.3	/d/Gondor/defs.h
+
+/d/Gondor/defs.h is a global domain header file defining many useful macros
+and pathnames to directories in the domain.
+
+Every file in the domain should include this header file.
+
+Mudlib header files should be included only if they are required. Including
+all header files from /sys/ by default is not acceptable.
+
+
+1.4	The area directories
+
+Area directories are directories that contain the code for a part of the 
+domain, most frequently, but not necessarily in a geographical sense.
+
+Examples for area directories are:
+/d/Gondor/anorien/
+/d/Gondor/morgul/
+/d/Gondor/rohan/
+
+For each area directory, there has to be one responsible wizard.
+
+Each area directory has to contain a file /d/Gondor/<area>/README with
+information about the area: Who coded it, who maintains it, what are the
+current projects in the area.
+
+Each area subdirectory that corresponds to one project should have
+a MAP file (e.g., /d/Gondor/rohan/entwash/MAP) and an OBJECTS file 
+(e.g., /d/Gondor/lebennin/sirith/farms/OBJECTS). The MAP file contains
+an ascii map of the area; the OBJECTS file lists each object/npc found
+in the area, how many are created per reset, and where they are created.
+
+The main area directory should only contain room files and subdirectories,
+either for sub-areas, or for npcs, weapons, armours that are specific to this
+one area, and for other things, eg doors.
+
+Objects that can be used in more than one area have to be in the corresponding
+subdirectory in /d/Gondor/common/.
+
+Files from one area may not be used in another area. If you wish to do so,
+copy the file from the area directory to the corresponding subdirectory in
+/d/Gondor/common/, replace the file in the area directory by a file that 
+only contains the line:
+
+inherit "/d/Gondor/common/<sub>/<filename>.c";
+
+and use the file in common in the other area.
+
+Add a suitable header to the file in common, including a list of areas in 
+which the file is used.
+
+
+1.5	File and function headers
+
+Every file has to begin with a header using this format:
+
+   /*
+    *	/d/Gondor/<filename>
+    *
+    *	<Short description of the file, one line for simple rooms,
+    *	 never more than 5 lines.>
+    *
+    *	Copyright (C) <your name and year>
+    *
+    *	Revision history:
+    *	<name>	<date>	: <changes>
+    *	....
+    */
+
+
+Every function that is defined in a file has to have a header. The format of
+the header has to be this:
+
+   /* 
+    * Function name: <Function name>
+    * Description:   <Short description of what the function does,
+    *                 no more than three lines.
+    * Arguments:     <A list of all arguments, one per line
+    *                   arg1 - description no longer than the line.
+    *                   arg2 - next argument, etc. >
+    * Returns:       <What the function returns>
+    * Usage:         <An example to show how to call this function>
+    */
+
+If the function does not take any arguments, or does not return anything,
+simply remove those lines in the header to reduce its size. 
+
+The line 'Usage:' is optional.
+
+No headers are required if you redefine a function that was defined in an
+inherited file. Most frequent examples: create_room(), create_monster(), etc.
+
+
+1.6	Typecasting
+
+Start all files with the statement:
+
+#pragma strict_types
+
+This enforces typecasting of all functions.
+
+Consider also if your functions have to be public. Functions that are
+only called internally can be static, functions that are only called
+internally from within one object and not from shadows and inheriting
+objects can be private. Use nomask where appropriate.
+
+Even if you do not define access_classes for functions in your code,
+do you still need to understand what they do. If you do not understand
+this, read 'man access_classes' and ask or experiment if you still
+have questions. 
+
+
+1.7     Coding conventions
+
+All files have to follow the coding conventions in 'man code_standards',
+unless this file specifies something different.
+
+
+1.8	Style
+
+The language used in writing descriptions is British English, as close to the
+style used by J.R.R.Tolkien in 'The Lord of the Rings' as we can make it.
+
+It makes a difference whether you write a descriptive prose, eg in the long
+description of a room, or a spoken text, eg in a dialogue between a player 
+and a monster. In descriptive prose there should be no contractions 
+("there's" instead of "there is", "doesn't" instead of "does not", etc).
+There should be little use of the pronoun "you". Write the descriptions
+as neutral as possible.
+
+In contrast, when you write text that will be printed in response to actions
+of a player, make the text personal.
+
+--------------------------------------------------------------------------------
+
+
+2.	Coding rooms
+
+2.1	/d/Gondor/std/room.c
+
+Always inherit /d/Gondor/std/room.c instead of /std/room.c for rooms in the
+domain Gondor. /d/Gondor/std/room.c inherits /std/room.c.
+
+/d/Gondor/std/room.c defines the 'time' command as well as several useful
+functions.
+
+
+2.2	Style
+
+The long description of a room should not be too long. Five lines (with 80
+characters per line) are a good design value. If the length exceeds ten lines,
+think about shortening it.
+
+The details of the room description should be in the description of items 
+added using the add_item() command. Ideally, it should be possible to examine
+everything that is mentioned in the long description of the room or in a
+description of an item.
+
+
+2.3	Herbs
+
+Use the standard function set_up_herbs() defined in
+/d/Gondor/common/lib/herbsearch.c.
+
+Remember that herbsearch.c defines a reset_room() function, so if the 
+inheriting room defines a reset_room() function, too, add the call to 
+reset_room() in the inherited file (here herbsearch.c):
+
+    ::reset_room();
+
+Use HERB_MASTER->query_herbs() to get a list of herbs, and
+ONE_OF_LIST_WITH_SEED() to get a specific herb form the list for the
+room. A good choice for the seed can be found by executing 
+'exec return random(1000000);' for each seed you need. Just copy the
+return value of the exec command into your room file. That way each
+room gets a random herb, but reboots will not change to herbs in a
+room. To get different herbs for each reboot, use ONE_OF_LIST().
+
+HERB_MASTER, ONE_OF_LIST, and ONE_OF_LIST_WITH_SEED are defined in
+/d/Gondor/defs.h. 
+
+--------------------------------------------------------------------------------
+
+
+3.	Coding monsters
+
+3.1	/d/Gondor/std/monster.c
+
+Always inherit /d/Gondor/std/monster.c instead of /std/monster.c.
+/d/Gondor/std/monster.c inherits /std/monster.c.
+
+
+3.2	set_short()
+
+If the global variable obj_short in the living is set using set_short(), the
+met/nonmet system will not work for this living.
+
+Therefore, if set_short() is called in a living, the property 
+LIVE_I_NEVERKNOWN has to be set in the living.
+
+
+3.3	Cloning monsters
+
+/d/Gondor/std/room.c defines the functions clone_npc() and
+clone_npcs() that can (and should) be used to clone npcs.
+
+/d/Gondor/std/monster.c defines a standard arm_me() function that
+clones and moves all objects given as argument of the set_equipment()
+function. Weapons will be wielded, armours will be worn.
+
+
+--------------------------------------------------------------------------------
+
+
+4.	Coding weapons and armours and other objects.
+
+4.1	weapon_guide, armour_guide
+
+The contents of these files are binding rules. For non-magical weapons and
+armours, deviations of up to four points in the WC or AC are acceptable. If
+a weapon or armour deviates from the standard values in the guides, the
+description of the weapon or armour should indicate this.
+
+4.2	Magical weapons and armours
+
+Every magical items has to be special and in some way unique.
+
+Adding the properties that designate a weapon or armour as a magical object is
+always necessary, but never sufficient when creating a legal magical object.
+
+
+4.3	Magical objects
+
+Magical objects have to be described in /d/Gondor/private/MAGIC.
+To add magical resistance to a living from an object, read 'man
+resistance'. 
+
+
+4.4	Poisonous objects
+
+Poisonous objects, ie objects that can poison a living, must be 
+described in /d/Gondor/private/POISON.
+
+
+--------------------------------------------------------------------------------
+
+
+5.	Miscellaneous
+
+5.1	Wizard checks
+
+When blocking exits for mortals in add_exit(), please do:
+
+int
+check_exit()
+{
+    if (this_player()->query_wiz_level())
+    {
+        write("\nThis area is still closed to mortals, Wizards!\n\n");
+        return 0;
+    }
+    return 1;
+}
+
+The reason is that otherwise the road block may be forgotten or it may
+prove difficult to find for a wizard that wishes to open the area.
+
+
+5.2	Alignment
+
+There is little room for neutrality in Middle Earth. Thus, no monster should
+have a neutral alignment in Gondor.
+
+Creatures (ie, animals) may have a neutral alignment, though.
+
+
+5.3	Extra features
+
+[This used to describe creating leftovers for the Roke tailor.
+ The tailor is no more. Gnadnar June 1998]
+
+
+5.4	add_ask
+
+Any monster with an ask keyword added with add_ask(), should also have
+set_default_answer() set, and should have 
+
+    add_ask(({"help","about help","for help",}), VBFC_ME("ask_help"));
+
+defined.
+
+
+5.5	Signs
+
+The text on signs should be read with both the command
+
+> read sign
+
+and
+
+> examine sign
+
+Check /d/Gondor/open/typecast.c for a way to do this.
+
+A sign with the description "It has readable words on it." is simply bad style.
+
+
+5.6	Doors
+
+When a room has a door, leading eg "north", add a non-obvious exit leading
+north to that room. Use the fifth argument of add_exit() to do so. Do not
+add an obvious exit, since the door is that obvious exit. Do not forget
+adding the exit, because if you do, the exit created by the door will not
+be listed by functions like query_exit() and query_exit_rooms() which are
+frequently used to determine neighbouring rooms.
+
+
+5.7	Herbs
+
+Herbnames must be unique and must be one word.
+
+If you code a new herb, you must make sure that the herbname is not yet
+used anywhere in the game. So you must check with all other domains that
+they are not using the name for a herb!
+
+Show common sense and some restraint when creating new herbs. If we already
+have strawberries, do not introduce big strawberries as a new herb.
+
+
+--------------------------------------------------------------------------------
+
+
+6.	Obsolete Code
+
+6.1	Master objects
+
+Objects that are to be inherited should define a new create_ function
+and declare the create_ function of the inherited object nomask:
+
+	#pragma strict_types
+
+	inherit "/d/Gondor/std/dom_master.c";
+
+	/*
+         * Function name: create_area_master
+         * Description:   Dummy creator, to be redefined in
+         *                inheriting object.
+         */
+	public void
+	create_area_master()
+	{
+	    ::create_dom_master();
+	}
+
+	public nomask void
+	create_dom_master()
+	{
+	    // Set default values:
+	    ...
+
+	    // Call the create_ function in the inheriting object:
+	    create_area_master();
+
+	    // Set values that should not be changed in the inheriting
+            // object:
+	    ...
+	}
+
+Specifically, all outdoor room masters defining a function called
+make_the_room() are obsolete and should be updated as soon as
+possible. 
+
+
+6.2	/d/Gondor/common/room.c
+
+This file has been replaced by /d/Gondor/std/room.c.
+Note that /d/Gondor/std/room.c defines create_room() as nomask and
+defines create_gondor().
+
+
+6.3	/d/Gondor/elessar/lib/goodkill.h
+	/d/Gondor/elessar/lib/evilkill.h
+
+These files have been replaced by /d/Gondor/common/lib/logkill.c.
+/d/Gondor/std/monster.c inherits logkill.c.
+
+
+6.4	/d/Gondor/elessar/lib/herbsearch.h
+	/d/Gondor/common/lib/herbsearch.h
+
+These files have been replaced by /d/Gondor/common/lib/herbsearch.c,
+which is inherited by /d/Gondor/common/lib/area_room.c.
+
+
+6.5	/d/Gondor/elessar/lib/clock.c
+
+This file has been replaced by /d/Gondor/common/obj/clock.c. Note that
+/d/Gondor/std/room.c defines functions like tod(), so to query the
+time of day in a room inheriting /d/Gondor/std/room.c, it is not
+necessary to add a call to the clock by hand. Any calls to the clock
+should be made like this (note the use of the definition CLOCK!):
+
+	object  clock = find_object(CLOCK);
+
+
+6.6	/d/Gondor/common/lib/make_money.h
+
+This file has been replaced by /d/Gondor/common/lib/make_money.c.
+
+
+6.7	Including files
+
+Do not include files that contain code. Header files should only
+contain macros and definitions. If you find a *.h file containing
+code, check if there is a corresponding *.c file. If not, consider
+creating that *.c file, so it can replace the *.h file.
+
+
+6.8	Function variables
+
+Use them where possible instead of
+"@@function_name[:file_name][|arg1][|arg2|][...][@@]". But be careful
+and test your code since not all relevant mudlib function support
+function variables yet. If you find such to be the case, report this
+to the AoM.
+
+
+6.9	add_item in header files
+
+For some cases, item descriptions that are used in several rooms were
+put into definitions in header files (*.h). This coding style is not
+only out of date, it is also atrocious and shows how little I
+understood of good coding two years ago. 
+
+So this is wrong:
+
+#define WALL add_item( ({ "wall", "walls", }), BSN( \
+	"The walls are hewn from dark rock and have been polished " + \
+	"until they gleam in the light of your light source."));
+
+Correct is:
+static varargs void
+add_wall(string colour, string extra = 0)
+{
+    string  desc = "The wall are hewn from "+colour+" rock and have " +
+	"been polished until they gleam in the shine of your " +
+	"light source.";
+
+    if (strlen(extra))
+	desc += " " + extra;
+
+    add_item( ({ "wall", "walls", }), BSN(desc));
+}
+
+Define this function in a file that is inherited, not included, in the
+room files, then call 
+    add_wall("dark", "Water is trickling down the northern wall.");
+from the room creator. Note that the function is declare static since
+it is only called from the inheriting room file in an internal call,
+and not by a call_other.
+
+
+6.10	Triggers and sequences
+
+Old npc code often uses seq_new() in the creator to call arm_me() (or
+a similar function). This is bad coding style. By default, all Gondor
+npcs are equipped from the function arm_me(). This function is called
+after cloning and before moving the npc. This is done automatically in
+clone_npc().
+
+Triggers are often used in old code to make npcs introduce themselves
+when a player introduces himself to the npc. This is bad coding
+style. When a player introduces himself, add_introduced() is called in
+all livings in the room, even in npc. (Re)-Define this function to
+make the npc react to the player.
+
+Triggers are often used in old code to make npcs react to emotes used
+by players. This does not work anymore, since emote messages are not
+written to non-interactive livings, if /cmd/std/command_driver.c and
+the default functions defined by it are used. Use emote_hook()
+instead. It is much easier to use, and a lot more efficient.
+
+Take care that you never make a npc react to another npc. Otherwise,
+if two npcs with complementary triggers meet, there will be an
+infinite loop which may, if no or only a short delay is used, slow
+down, lock up or crash the mud.
+
+To make a npc follow a player, in hot pursuit from combat or
+otherwise, do not use triggers, but rather use
+/d/Gondor/common/lib/follow_shadow.c, which redefines move_living() in
+the followed player. This is much more efficient than triggers.
+
+
+6.11	Examples
+
+If you choose existing code as example to base your new code on it,
+first check that the example code is up to date or that you are at
+least aware what aspects are out of date. I will ruthlessly demand
+that you update your new code until it is up to date even if you style
+dozens of objects after outdated code.
+
+
+--------------------------------------------------------------------------------

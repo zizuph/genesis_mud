@@ -1,0 +1,49 @@
+TURBIDUS OCEAN MAP (connecting to Courrain in the West)
+=======================================================
+
+
+         | | | | | | | | |x| | | | | | | | | | | | | | | | | | | | | | | | | | | | | 
+13      -%-%-%-%-%-%-%-%-%x%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-O-O-O-O-O-O-O-r-O-O-O-O-X-
+         | | | | | | | | |x| | | | | | | | | | | | | | | | | | | | | | | | | | | | | 
+12      -%-%-%-%-%-%-%-%-%x%-%-%-%-%-%-%-%-%-%-%-%-%-%-r-%-O-O-O-O-O-O-O-O-O-O-O-O-X-
+         | | | | | | | | |x| | | | | | | | | | | | | | | | | | | | | | | | | | | | | 
+11      -O-O-O-O-O-O-O-O-OxO-O-O-O-O-O-O-O-O-O-O-O-O-O-O-O-o-o-o-o-o-o-o-o-o-o-o-o-X-
+         | | | | | | | | |x| | | | | | | | | | | | | | | | | | | | | | | | | | | | | 
+10      -O-O-O-O-O-O-O-O-OxO-r-O-O-O-O-O-O-O-O-O-O-O-O-O-O-o-o-o-o-o-o-o-o-o-o-o-o-X-
+         | | | | | | | | |x| | | | | | | | | | | | | | | | | | | | | | | | | | | | | 
+9       -O-O-O-O-O-O-O-O-OxO-O-O-O-O-O-O-r-O-O-O-O-O-O-O-O-o-o-o-o-o-o-o-o-o-o-o-o-r-
+         | | | | | | | | |x| | | | | | | | | | | | | | | | | | |/     \| | | | | | | 
+8       -o-o-o-o-o-o-o-o-oxo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o       o-o-o-o-o-o-X-
+         | | | | | | | | |x| | | | | | | | | | | | | | | | | | |          \| | | | | 
+7       -o-o-o-o-o-o-o-o-oxo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o           o-o-o-o-X-
+         | | | | | | |      \| | | | | | | | | | | | | | | | | |              \| | | 
+6       -o-o-o-o-o-o-o       o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o               o-o-X-
+         | | | | | |  \       \| | |/ %%%%%%% \| | | | |/ \| |/                | | | 
+5                      o       o-o-o-%%%%%%%%%-o-o-o-o-o   B-B                 o-o-X-
+                        \       \| |\| | | | |/|/                               \| | 
+4                        o       o-o-o-o-o-o-o-o=R                               o-X-
+                         |          \| | |                                        \| 
+3                      o-o           o-o-o                                         X-
+                      /              | | |                                         | 
+2                    o               P-P-P                                         X-
+                    /                                                             /|/     
+1                  o                                                       K-X-s-X-X       
+                    \                                                        | | |/ 
+x                                                                          K-X-X-C   
+                                                                                                                 
+
+
+         A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Z Z Z Z Z Z Z Z Z Z Z 
+                                                             a b c d e f g h i j k
+***************************************************************************
+
+KEY:
+
+K - Kalaman (harbour chained)
+J - Jennison (linking with ~nordmaar/jennison/city/pier?)
+s - fishing boat
+M - Mariner ship
+r - random
+B - Beach access, expedition, sands of fire with fire giants, efreetis,
+% - extremely challenging waters to sail (76+ sailing skill)
+O - challenging waters to sail (51+ sailing skill)

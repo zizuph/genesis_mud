@@ -1,0 +1,75 @@
+Use of cb_tohit() in guild specials        73 Khail       Liege      May 28
+
+Difference between cb_tohit() and cb_hit_me().
+
+Recent events have caused me to observe a trend in guild
+specials probably caused by the rather 'brief' examples in
+man guilds2 on calculating combat aid. That is to neglect
+considering the chance to hit when launching a special. This
+is a _big_ factor in the combat advantage of specials, and
+moreso if you don't use it at all. In fact I'd have never
+considered it myself if I hadn't noticed Maniac's use of it
+in the Cadets of Gelan guild and asked Akeisha if it's 
+something that should be considered for combat advantage.
+It was, and here's why.
+
+Yes, cb_hit_me() (it's called by the hit_me() function defined
+in living objects, and does the 'guts' of the damage calculations)
+is basically there only for damage calculations. Yes is can
+produce a failure, but that failure is produced only by things
+such as the target being a ghost, a wizard, or the target's armour
+completely absorbs all the damage. Basically, if the target
+is a player, the only thing that'll produce a fail is if
+random(attack pen) - random(target's armour class) is less than
+0.
+
+Cb_tohit(), on the the other hand, is the function that handles
+consideration such as defense and parry skills, unarmed combat
+skill if the target isn't wielding a weapon, if the room is
+dark, if the target's invis, if the target's hidden, if the
+attacker or target can see in the dark (if the room's dark),
+as well as taking weight, height, etc. into consideration. By
+coding a special that doesn't use cb_tohit(), you've made an
+attack that _greatly_ increases the combat advantage, as you
+negate the target's defensive abilities, as well as penalties
+for fighting in the dark or targets like dragon's etc, that
+are very big (if the properties properly reflect the target's
+weight, height, etc.).
+
+Just using cb_hit_me() will only reflect how well the target
+deals with the damage inflicted, not how well the target can
+avoid the damage.
+
+Now, for balance considerations, the easiest way to generate
+a modifier is on the second argument for cb_tohit(). In a 
+normal attack, this argument is the query_hit() value of the
+weapon involved in the attack, or the calculated query_hit()
+for an unarmed attack. Using the usual balance considerations
+of a weapon with a WC of 40, this means that you can consider
+the base tohit chance as 40. The easiest way to implement this
+in code that doesn't (short of jacking up the tax, which nobody
+wants to do), is just insert a couple lines of code into the
+special.
+
+    object cbo = attacker->query_combat_object();
+    if (cbo->cb_tohit(-1, 40, target))
+    {
+        tell_object(attacker, "You missed!\n");
+        return 1;
+    }
+
+If you just hard code a 40 in there, you've got an 'average' chance
+of hitting. Alternately you can use the query_hit() of a weapon
+used in the attack and from a balance perspective have the same
+advantage.
+
+There's never been an agreement on what kind of combat advantage
+_not_ using cb_tohit() provides, the numbers are a little thick
+to properly calculate, but considering all the possible blocks
+that it doesn't take into consideration (how many occ guilds
+_don't_ offer defense and/or parry to a reasonable level, for
+example), personally I say that's 100% combat aid right there.
+That number's open to debate, of course, but it gives you an
+idea of the advantage gained.
+
+Khail, the caped cb_tohit() crusader.

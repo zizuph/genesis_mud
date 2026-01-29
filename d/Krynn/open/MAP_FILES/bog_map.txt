@@ -1,0 +1,130 @@
+main
+::MAPDATA::
+bog_1 49 11 main
+bog_2 47 15 main
+bog_3 45 19 main
+bog_4 39 19 main
+bog_5 33 19 main
+bog_6 31 15 main
+bog_7 29 11 main
+bog_8 34 9 main
+bog_9 39 7 main
+bog_10 44 9 main
+bog_11 47 4 main
+bog_12 52 6 main
+bog_13 58 15 main
+bog_14 55 19 main
+bog_15 42 25 main
+bog_16 36 25 main
+bog_17 23 19 main
+bog_18 20 15 main
+bog_19 26 6 main
+bog_20 31 4 main
+bog_a 31 2 main
+bog_c 39 5 main
+bog_cc 39 21 main
+bog_b 35 4 main
+bog_d 43 4 main
+bog_e 47 2 main
+bog_f 56 6 main
+bog_aa 55 17 main
+bog_aegis 39 31 main
+bog_bb 49 17 main
+bog_dd 29 17 main
+bog_ee 23 17 main
+bog_ff 20 17 main
+bog_g 54 8 main
+bog_gg 24 15 main
+bog_h 58 13 main
+bog_horde 24 1 main
+bog_i 62 15 main
+bog_j 55 21 main
+bog_k 47 21 main
+bog_l 46 25 main
+bog_m 44 27 main
+bog_n 34 27 main
+bog_o 32 25 main
+bog_onslaught 10 19 main
+bog_p 31 21 main
+bog_q 23 21 main
+bog_r 16 15 main
+bog_s 20 13 main
+bog_t 25 11 main
+bog_u 24 8 main
+bog_v 22 6 main
+bog_w 32 7 main
+bog_x 46 7 main
+bog_y 54 15 main
+bog_z 58 17 main
+bog_souls 54 1 main
+bog_stratagem 68 19 main
+narthex 39 15 cathedral
+::MAPDATA::
+                      ,-=-.                         ,-=-.
+                     |  o  |          %            |  o  |   
+                      `-=-'    %               %    '-=-'   
+   =================                                            %
+    The Sunken City      .     o   %       %   o     .         
+        of the                    .    %    .                   
+    Cult of Chemosh   %   o                         o   %        
+   =================            %      o      %                   %
+                        %  .         .'=`.         .  %              
+      %                           o//"   "\\o                       
+               %            .   .'"         "`.   .                  
+                         %   o //"           "\\ o --- --- o --- --- o ---
+                             .||"             "||.                    
+        %           %   .     ||   Cathedral   ||     .   %           
+                              .|.             .|.                 
+                %  .o   %      o|             |o      %   o.  % 
+                               .|            .|.                 
+              .     %  %     %  ||._       _.||  %     %  %     .        
+        ,-=-.                   .======|======.                   ,-=-.
+       |  o  | .   .   o   .   . o .   o   . o .   .   o   .   . |  o  |
+        `-=-'                    .           .                    `-=-' 
+                       %       %       %       %       %         
+                                  .         .                     
+               %                                                 
+                                   .       .                % 
+                                %   o     o   %            
+                      %             .     .                 
+                                  %         %            
+        %                            .   .            %
+                                             
+                                     ,-=-.   
+                                    |  o  |     
+                                     `-=-'  
+
+::NEWMAP::
+cathedral
+::MAPDATA::
+narthex 40 24
+::MAPDATA::
+
+      ==============                   / \
+        The Sunken                   /     \
+         Cathedral                /           \
+      ==============            /       o       \
+                             /        .' `.        \
+                           /        .'     `.        \
+                        /        .' Sacristy `.        \
+                      /        .'               `.        \
+                   /        .'                     `.        \
+                 /        .'                         `.        \
+              /        .'          _.-"""""-._          `.        \
+            /        o'          ,'           `.          `o        \
+            \         |Cloister /               \         |Library  /
+             \        .        |       The       |        .        /
+              \        |      |       Great       |      |        /
+              \        .      |      Archives     |      .        /
+               \        |      |                 |      |        /
+                \       .       \               /       .       /
+                \        |       `.           ,'       |        /
+                 \       .         `-..___..-'         .       /
+                  \       |            =|=            |       /
+                  \       .            =|=            .       /
+                   \       |           =|=           |       /
+                    \      o - - - - - -o- - - - - - o      /
+                    \    Post           |Narthex      Font  /
+                     \                  |                  /
+                      \_________________|_________________/
+                                        |

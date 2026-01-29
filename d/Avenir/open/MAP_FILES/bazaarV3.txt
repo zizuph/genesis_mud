@@ -1,0 +1,410 @@
+main
+::MAPDATA::
+k_landing 15 2
+d_landing 38 19 ferry
+d_str3 19 4
+d_str2 23 4
+d_str1 23 6
+dead_ware 28 6
+clubroom 39 6
+center 45 6
+library 19 8
+str2 23 8
+bank 28 8
+alcove 39 8
+house 11 10
+armr 19 10
+str3 23 10
+post 28 10
+office 31 10
+butcher_shop 34 10
+gogo 39 10
+str4 11 12
+str5 17 12
+main_menshop 17 12
+mens_shop 17 12
+str6 23 12
+str7 28 12
+silkshop 28 12
+str8 34 12
+pub 39 12
+gallery1 45 12
+float 2 13
+pier 2 14
+str10 6 14
+str11 11 14
+flower_stall 11 14
+str12 17 14
+hatshop 17 14
+centr 23 14
+hill 23 14
+str13 28 14
+str14 34 14
+sackshop 34 14
+str15 39 14
+str16 45 14
+guild 6 16
+common 6 16
+str17 11 16
+str18 17 16
+str19 23 16
+str20 28 16
+junk 28 16
+str21 34 16
+locket_shop 34 16
+grdrm 39 16
+str25 45 16
+green3 2 18
+green2 6 18
+green1 11 18
+shop 17 18
+str22 23 18
+bakery 28 18
+lapidary 34 18
+str26 45 18
+green6 2 20
+green5 6 20
+green4 11 20
+str23 23 20
+relate 49 20
+green10 2 22
+green9 6 22
+green8 11 22
+green7 15 22
+str24 23 22
+apoth 27 22
+apoth1 31 22
+b1 37 22
+a2 41 22
+a1 45 22
+a3 49 22
+green14 2 24
+green13 6 24
+green12 11 24
+green11 15 24
+b3 33 24
+b2 37 24
+a4 41 24
+a5 45 24
+a6 49 24
+b8 53 24
+green18 2 26
+green17 6 26
+green16 11 26
+green15 15 26
+b5 33 26
+b6 37 26
+a7 41 26
+fount 45 26
+a8 49 26
+b7 37 28
+a9 41 28
+a10 45 28
+a11 49 28
+b9 53 28
+a12 41 30
+a13 45 30
+a14 49 30
+t1 45 32
+t2 42 34
+t3 45 34
+t4 48 34
+::MAPDATA::
+                    SYBARUS BAZAAR                  
+                ____                                     
+           ~~  |____    o                                
+     ~~~~~~     ||  ~~~ |                                
+       ~~~~~~~~    ~~   o - o                            
+         ~~~~~~~~~          |                          MUSEUM
+           ~~~~~~~~~        o --- o           o           o    
+              ~~~~~         |                 |           |       
+            ~~~~      Lib - o --- B           Q           o - Road to  
+         ~~~~               |                 |          /    Village          
+       ~~~~     o      A -- o -- [P][ ] BU    o         o   & Garment        
+    ~~~~        |           |           |     |        /     District                
+         IC --- o -- [1] -- o -- [2] -- o -- Pub      o                      
+   [ ]          |     |     |     |     |            /                                    
+   [ ] -- o -- [3] - [4] - [C] -- o -- [5] -- o --- o                                       
+                |     |     |     |     |           |                                        
+        [AG] -- o --- o --- o -- [6] - [7] -- o --- o {-} to Tribunal 		
+                |     |     |           |           |        and the                                       
+    o     o --- o    [S] -- o -- Baker  Gems        o       Forbidden                                       
+    |     |     |    __     |       __              |         City                                     
+    o     o     o   /\ \    o      /\ \             o                                           
+    |     |     |           |                       |                                          
+    o --- o --- o --- o     o --- H -- [8]          o                                         
+    |     |     |           |                       |                                    
+    o     o     o     o     o                       o                                   
+    |     |     |     |     |                       |                                  
+    o     o     o --- o     o --- o --- o --- o --- o {-} to Tribunal                           
+         {|}                                                                    
+     to the Holm                                                         
+															   
+=========================   =============
+ Goods & Services           Tent Shops
+ AG. Adv Guild              1. Men's         
+  A. Smithy-Armoury         2. Silks   
+  B. Bank                   3. Flowers
+Lib. Library                4. Hats
+  L. Lapidary               5. Sacks
+ BU. Butcher                6. Junk
+ IC. Ice Cream              7. Lockets
+  S. General Store          8. Apothecary
+  P. Post Office            =============
+  H. Herbalist
+  C. Center/Quest Master
+=========================
+::NEWMAP::
+ferry
+::MAPDATA::
+d_landing 38 19
+::MAPDATA::
+                                     _._
+                                   _/,__\,
+                                __/ _/o'o
+                              /  '-.___'/  __
+                             /__   /\  )__/_))\
+  /_/,   __,____             // '-.____|--'  \\
+ e,e / //  /___/|           |/     \/\        \\
+ 'o /))) : \___\|          /   ,    \/         \\
+  -'  \\__,_/|             \/ /      \          \\
+          \_\|              \/        \          \\
+          | ||              <    '_    \          \\
+          | ||             /    ,| /   /           \\
+          | ||             |   / |    /\            \\
+          | ||              \_/  |   | |             \\
+          | ||_______________,'  |__/  \              \\
+           \|/_______________\___/______\_             \\
+            \________________________     \__           \\        ___
+               \________________________    _\_____      \\ _____/
+                  \________________________               \\
+            ~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~~  ~~ ~~~~\\~~~~
+                 ~~~~~~~~~~~~~~    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~    
+		   
+		   
+
+                      
+                         KESTARES of SYBARUS
+                                             
+                                  /`. 											 
+								 /   `.		 
+                                /      /\
+							   /_/`.__/ /           
+							   \_\  \_\/ 
+                                Registry of Cynredes
+      .                       o   o                     
+  ___/_\__                    |   |        /\/\____/\/\
+ |\       \           o - o - o - o       /            \
+ | \       \          |   | X | X |      /  [] ^^^^ []  \
+ |  \       \     o - o   o - o - o - o  |      __      |                
+ |[+]\    .  \        |   | X | X |      | --  /  \  -- |
+  \[+]\__/_\__\   o - o   o - o - o -->  | || |    | || |
+   \[+]|      |       |   | X | X |      | || |    | || |
+    \  | [++] |       o - o - o - o - o  | || |    | || |
+     \ | [++] |           | X | X |      | -- |    | -- |
+      \|______|       o{-}o - o - o      |    |    |    |             
+   Questioning Place          |                 to   
+                              o           Forbidden City         
+                            / | \                   
+                           o  o  o                    		   
+                     Tribunal    Building					   
+                          ____/\____                  
+                         |\         \             
+                         | \         \               
+                         |  \_________\                 
+                          \  |         |___                
+                           \ | [][][][]|___\
+                            \|_________|___|
+    
+
+
+
+	 
+							 
+							 
+							 
+                    SYBARUS BAZAAR                             o-o-o-o
+           ____                                                | | | |
+      ~~  |____    o           __                            o-o o-o-o-o
+~~~~~~     ||  ~~~ |          /  \                             | | | |
+ ~~~~~~~~~    ~~   o - o     /|  |\                          o-o o-o-o--City
+  ~~~~~~~~~~~          |                                       | | | |   
+      ~~~~~~~~~        o --- o           o           o         o-o-o-o-o    
+         ~~~~~~~~      |        /\/\     |           |           | | |     
+       ~~~~~~    Lib - o --- B /|  |\    Q           o-o-o-o-o-o-o-o-o
+     ~~~~~    __       |                 |          /          |   |
+   ~~~~~   o /\ \  A - o -- [P][ ] BU    o         o   o-o-o   o   o
+ ~~~~      |           |           |     |        /   /     \  |  /|\
+      IC - o -- [1] -- o -- [2] -- o -- Pub      o   o       o-o o-o-o
+ [ ]       |     |     |     |     |            /   /         \|
+ [ ]- o - [3] - [4] - [C] -- o -- [5] -- o --- o   o  Prot     o-o-o-o-o-o-o-o-o-o-o- 
+           |     |     |     |     |           |    \         /     \         /     \
+    [AG] - o --- o --- o -- [6] - [7] -- o --- o     o       o       o       o       o   
+           |     |     |           |           |      \     /  Temple \     /  Elvish \
+  o   o -- o    [S] -- o --- Bake  L     _     o       o-o-o           o-o-o
+  |   |    |    __     |       __       / \           /  |  \         /     \         /
+  o   o    o   /\ \    o      /\ \      | |          o       o       o       o       o
+  |   |    |           |                            / Merch   \     /         \     /
+  o - o -- o - o       o --- H -- [8]              o           o-o-o           o-o-o    
+  |   |    |           |                            \         /     \         /    
+  o   o    o   o                                     o       o       o       o     
+  |   |    |   |                                      \  |  /  Prax   \     /     
+  o   o    o - o                                      -o-o-o           o-o-o
+     {|}                                                    \         /
+      o                                                      o       o      
+                                                              \     /
+	HOLM                                                       o-o-o
+	
+
+			    ________
+      ~~       |____       
+                 | |  o      -> to Goblin Soke and Village
+~~~~~~     ~~~        |    /                            __    __    __ 
+ ~~~~~~~~~    ~~      o - o                            (  )  (  )  (  )
+  ~~~~~~~~~~~             |                           {    }{____}{    } 
+      ~~~~~~~~~           o -- o          o          (______)[][](______) 
+         ~~~~~~~~         |       /\/\    |          |[][][]|[][]|[][][]|     
+       ~~~~~~       Lib - o -- B /|  |\   Q    :_:_:_|[][][]|[  ]|[][][]|_:_:_:
+     ~~~~~                |               |  ================:  :==============
+   ~~~~~     [o]    S  -- o - [P][ ] BU   o                 Museum
+ ~~~~         |           |          |    |        /    
+        IC -- o -- [1] -- o - [2] -- o -- Pub     /   
+              |     |     |    |     |           /    
+ [ ]--- o -- [3] - [4] - [ ] - o -- [5] - o --- o -> to the Garment District
+ [ ]          |     |     |    |     |          |      & Sybarus Village
+       [AG] - o --- o --- o - [6] - [7] - o --- o                     
+              |     |     |          |   __     |
+  o     o --- o    [9] -- o -- Bake  L  /  \    o                 
+  |     |     |    __     |      __     |  |    |                        
+  o     o     o   /\ \    o     /\ \           \|/                         
+  |     |     |           |     | | |           '                 
+  o --- o --- o --- o     o - H -[8]         to Kestares        
+  |     |     |           |              Registry of Cynredes              
+  o     o     o     o <-> o                  Forbidden City                                     
+  |     |     |     |      ==============                                                       
+  o     o     o --- o      Sybarus Bazaar                                                    
+        |                  ==============
+  _ to HOLM_                                                       
+ { }      { }                                                             
+  |    _   |   _                                   
+      { }     { }                        =============
+       |       |                         Shops
+=========================                1. Men's
+ AG. Adv Guild                           2. Women's
+  S. Smithy-Armoury                      3. Flowers
+  B. Bank                                4. Hats
+Lib. Library                             5. Sacks
+  L. Lapidary                            6. Junk
+ BU. Butcher                             7. Lockets
+  B. Bank                                8. Apothecary
+  P. Post                                9. General Store 
+  H. Herbalist                           =================  
+ IC. Ice Cream
+  Q. Qalita / Dancers
+=========================   	
+
+Village Streets
+
+VILLAGE STREETS -- old
+                                              Bazaar
+                                                /
+                                    01 - 02 - 03
+                                    /           \
+                                  00             04           Tribunal
+                                  /  MERCHANTILE  \            /
+                      33 - 34 - 35      PALE       05 - 06 - 07
+                      /           \               /           \
+                    32            36            40             08
+                    /   EMBASSY     \     |     /               \
+                  31     PALE        37 - 38 - 39   TEMPLE PALE  09
+                    \             \ /     |     \ /             /
+                    30             53           41             10
+                      \           /  \ CENTER  /  \           /
+           TO THE <-- 29 - 52 - 51                 42 - 43 - 11
+            SOKES     /           \ /   PALE   \  /           \        
+                    28            50            44             12     
+                    /  (RACIAL)  /  \     |     /  \            \     
+                  27    HOSTELRY    48 - 47 - 45        PRAX     13
+                    \     PALE      /     |     \       PALE     /
+                    26            49             46            14
+                      \           /               \           /  
+          TO THE  <-- 25 - 24 - 23    PROTECTORS   17 - 16 - 15    
+           SOKES                  \      PALE     /                          
+                                  22             18                             
+                                    \ /       \ /               N                                           
+                                    21 - 20 - 19               W+E                                               
+                                   \\\        ///               S
+                                   O            54
+                                  /               \
+                       O -- O -- O                 55 - 56 - 57
+                      /           \               /           \
+                     O             O            66             58
+                    /               \           /               \
+                   O   GOBLIN SOKE   O        65    SLAVE PALE   59
+                    \               /           \               /
+                     O             O            64             60
+                      \           /               \           /
+                       O -- O -- O                 43 - 62 - 61             
+					   
+					   
+					   
+					   
+VILLAGE STREETS NEWMAP
+human
+half elf
+gnome
+dwarf
+goblin
+
+
+
+
+
+
+
+                                                 
+                                                             
+                                                    
+                                                   
+                      00 - 00 - 00                               
+                      /    |     \                 
+                    00            00       shoreline
+                   /                \                Syb Sea
+                  00 -dwarf soke  - 00 - 00 - 00
+                   \                /    |      \
+                   00             00            00    
+			         \     |      /               \              
+                      00 - 00 - 00 -  human soke - 00 - 00 - 00
+                      /    |      \                /    |     \           
+                    00            00             00            00                                                   
+                    /               \     |     /                \  
+    to bazaar <-- 00 - gnome soke - 00 - 00 - 00 - half elf    - 00
+    shore near      \               / \       / \      SOKE      /
+    morgue &        00            00             00            00     
+    goblin soke       \    |      /    TEMPLE     \     |     /             
+                      00 - 00 - 00      PALE       00 - 00 - 00
+                      /    |      \               /     |     \
+                    00            00            00  syb guilds 00
+                    /   EMBASSY     \ /       \ /               \
+                  00 -   PALE      - 00 - 00 - 00 -  PRAX PALE - 00
+                    \     inns      /     |     \     library   /
+                    00  Houses?    00           00             00
+                      \    |      /    CENTER     \     |     /
+                      00 - 00 - 00 -   entertain  -00 - 00 - 00
+                      /    |      \     PALE      /           \        
+                    00            00            00  slave      00     
+                    /               \     |     /    pale       \     
+                  00 -   Merch    - 00 - 00 - 00                 00
+                    \    Pale       /     |     \                /
+                    00            00             00            00
+                      \    |      /               \  /        /  
+          TO THE  <-- 00 - 00 - 00 -  Protectors - 00 - 00 - 00    
+           Bazaar                 \    Pale       /  \                       
+                                  00             00   Dock                        
+                                    \     |     /       \                                                   
+                                    00 - 00 - 00         Dock                                                    
+                                                                   
+									                              
+                                                                
+                                                                
+                                                  

@@ -1,0 +1,302 @@
+NAME:-		
+FILENAME:-	
+HIT:-		
+PEN:-	
+AC:-	
+SPECIAL:-	
+
+PROPS:-		
+
+OBTAINABILITY:-	
+
+
+----- These items need adding to the MAGIC doc -----
+
+/d/Emerald/blackwall/delrimmon/obj/wep/r_axe 
+/d/Emerald/blackwall/delrimmon/obj/arm/midnight
+/d/Emerald/blackwall/delrimmon/obj/wep/wraith_bane
+/d/Emerald/blackwall/delrimmon/obj/wep/osword 
+/d/Emerald/blackwall/delrimmon/obj/wep/d_sword
+/d/Emerald/blackwall/delrimmon/obj/wep/wraith_bane_polearm
+/d/Emerald/blackwall/delrimmon/obj/wep/wr_sword
+/d/Emerald/blackwall/delrimmon/obj/arm/black_skull
+/d/Emerald/common/guild/aod/arm/*
+/d/Emerald/common/guild/aod/wep/*
+/d/Emerald/torque/torque
+/d/Emerald/north_shore/outpost/wep/magic_sabre
+
+----- The items below the line are no longer in the game ------
+
+NAME:-		Half Moon Polearm
+FILENAME:-	/d/Emerald/lake/wep/half-moon.c
+HIT:-		37
+PEN:-		48
+SPECIAL:-	Wielder must be elf w/ >= 50 polearm skill, and
+		90-110 wisdom. Failure to wield will drain 1/6th
+		of the attempters mana. The weapon also has rewritten
+		combat messages.
+
+PROPS:-		OBJ_M_NO_BUY, OBJ_I_IS_MAGIC_WEAPON, MAGIC_AM_MAGIC,
+		MAGIC_AM_ID_INFO, OBJ_S_WIZINFO
+
+OBTAINABILITY:-	Very difficult. Must defeat the Guardian of the Gates
+		of Emerald (190, 210, 190, 190, 190, 140) stats.
+
+
+
+NAME:-		Emerald-Studded Gilded Plate Armour
+FILENAME:-	/d/Emerald/lake/wep/gilded_plate.c
+AC:-		45
+SPECIAL:-	None other than requirment of wearer being elf and
+		having 90-110 wisdom. Drains 1/6th of mana on an
+		unsuccessful wear.
+
+PROPS:-		OBJ_M_NO_BUY, OBJ_I_IS_MAGIC_WEAPON, MAGIC_AM_MAGIC,
+		MAGIC_AM_ID_INFO, OBJ_S_WIZINFO
+
+OBTAINABILITY:-	Very difficult. Must defeat the Guardian of the Gates
+		of Emerald (190, 210, 190, 190, 190, 140) stats.
+
+
+
+NAME:-		Emerald-Studded Gilded Helm
+FILENAME:-	/d/Emerald/lake/wep/gilded_helm.c
+AC:-		45
+SPECIAL:-	None other than requirment of wearer being elf and
+		having 90-110 wisdom. Drains 1/6th of mana on an
+		unsuccessful wear.
+
+PROPS:-		OBJ_M_NO_BUY, OBJ_I_IS_MAGIC_WEAPON, MAGIC_AM_MAGIC,
+		MAGIC_AM_ID_INFO, OBJ_S_WIZINFO
+
+OBTAINABILITY:-	Very difficult. Must defeat the Guardian of the Gates
+		of Emerald (190, 210, 190, 190, 190, 140) stats.
+
+
+NAME:-		Foresters Dagger
+FILENAME:-	/d/Emerald/lake/wep/fdagger.c
+HIT:-		17
+PEN:-		20
+SPECIAL:-	Increases hunting and tracking 5 + (current skill/10)
+
+PROPS:-		OBJ_I_IS_MAGIC_WEAPON, MAGIC_AM_MAGIC,
+		MAGIC_AM_ID_INFO, OBJ_S_WIZINFO
+
+OBTAINABILITY:-	Rather difficult. Must defeat the Forest Guide of
+		the Gates of Emerald (120, 190, 120, 150, 150, 120) stats.
+
+
+NAME:-		Massive Raven-Beaked Warhammer
+FILENAME:-	/d/Emerald/mountains/mines/wep/rb-warhammer.c
+MAXHIT:-	33
+MAXPEN:-	54
+HIT:-		base: 27 (+1 for 50 axe skill, up to +6 for 100+ axe skill)
+PEN:-		base: 54 (only if str > 124) goes down by 5/10 str below
+			  down to a str of 84 where it is unwieldable)
+
+SPECIAL:-	The warhammer has a command called 'flipgrip' where the
+		wielder flips the grip 180 degrees and swings at their
+		enemy with the beaked end of the hammer. It will do a
+		check to see for a successful hit based on:
+
+		hurtchance = 100 + (random(whacker->query_stat(SS_DEX)) +
+		random(whacker->query_skill(SS_WEP_AXE)) +
+		random(whacker->query_skill(SS_WEP_CLUB))) -
+		random(whackee->query_stat(SS_DEX)) -
+		random(whackee->query_stat(SS_WIS)) -
+		random(whackee->query_skill(SS_DEFENCE)) -
+		random(whackee->query_skill(SS_AWARENESS)) -
+		random(whackee->query_skill(SS_ACROBAT));
+
+                The hurtval (which is passed to hit_me as the wpen if
+		there are no valid armours to hit on the enemy)
+
+ hurtval = (warhammer->query_pen() + ((whacker->query_stat(SS_STR))/4));
+
+		Any magical prop strength on the target armour is subtracted
+		from the hurtvalue.
+
+                If the magic type of the target armour is anything other
+		than enchantment, and the enchantment value is greater
+		than the enchantment value of the warhammer (45), the
+		hit bounces off harmlessly in a shower of magic.
+
+                Here is the code for determining how badly the special has
+		damaged the hit armour.
+
+     new_cond = old_cond + (((5 * power) - (2 * targarm->query_ac())) /
+	 (targarm->query_likely_break() + targarm->query_likely_cond()));
+     if(new_cond < old_cond)
+       new_cond = old_cond + 1;
+
+		It then calls a set_alarm to do the armour_break (which
+		is a random chance based on how badly damaged the armour
+		is)
+
+ 		The special costs 40 fatigue (if they wait the full
+		80 seconds after doing it before) and 80 + the number
+		of seconds left until the full recover timer (must wait
+		a minimum of 20 seconds to even try it again)
+
+PROPS:-		OBJ_I_IS_MAGIC_ARMOUR, MAGIC_AM_MAGIC,
+		MAGIC_AM_ID_INFO, OBJ_S_WIZINFO
+
+OBTAINABILITY:-	Quite difficult. Must defeat the Blackfist Clan Troll Hero
+		 (400, 190, 190, 100, 100, 100) stats. At the time of
+		writing, he's a little too easy, and will be bumped up.
+
+MISC:-		Only wieldable by Humans, Elves, and Dwarves with a combined
+		value of 81 or higher on Axe and Club skill and a str of
+		85 + random(5). The Warhammer is 40Kg, twohanded, and the
+		specials are quite fatigue-draining and are not very
+		effective as just an extra-damage tool.
+
+
+NAME:-		Half Moon Polearm
+FILENAME:-	/d/Emerald/lake/wep/half-moon.c
+HIT:-		37
+PEN:-		48
+SPECIAL:-	Wielder must be elf w/ >= 50 polearm skill, and
+		90-110 wisdom. Failure to wield will drain 1/6th
+		of the attempters mana. The weapon also has rewritten
+		combat messages.
+
+PROPS:-		OBJ_M_NO_BUY, OBJ_I_IS_MAGIC_WEAPON, MAGIC_AM_MAGIC,
+		MAGIC_AM_ID_INFO, OBJ_S_WIZINFO
+
+OBTAINABILITY:-	Very difficult. Must defeat the Guardian of the Gates
+		of Emerald (190, 210, 190, 190, 190, 140) stats.
+
+
+NAME:-		Laensword
+FILENAME:-	/d/Emerald/telberin/wep/laensword.c
+		/d/Emerald/telberin/wep/leansword_sh.c
+
+MAXHIT:-	52
+MAXPEN:-	50
+
+SPECIAL:-	There are 5 classes of wielders:
+
+	"Worthy"
+		Not Undead, align => 900, average stat of 120+,
+		WIS and DIS => 80
+
+		"Worthy" wielders recieve the following benefits:
+		52 hit, 50 pen, the sword glows when an undead or
+		a very evil creature/person ( align <= -500) enters
+		the environment of the wielder. (Note: this also
+		reveals the wielder if they are hidden) The sword
+		also protects the body as well as both arms (via
+		query_protects()) and heals 18 hp/minute
+
+	"good"
+		Align >= 100 and one of the above stat or align
+		requirements not met and not undead. These wielders
+		get 52 hit, 50 pen, and no other bonuses.
+
+	"neutral"
+		Align -99 to 99 and not undead.
+		20 hit, 15 pen
+
+	"evil"
+		align -899 to -100
+		-100 hit/pen, impossible to hit with if align <= -900
+		possible severe magic damage in combat (hit_me w/pen
+		 of 500) and drop the weapon
+		
+		
+PROPS:-		OBJ_M_NO_BUY, OBJ_I_IS_MAGIC_WEAPON, MAGIC_AM_MAGIC,
+		MAGIC_AM_ID_INFO, OBJ_S_WIZINFO, OBJ_M_NO_STEAL
+
+OBTAINABILITY:-	Very, very, very difficult. Must defeat Curan
+		/d/Emerald/telberin/npc/curan.c
+
+
+-------These items below the line are in the game at the moment--------
+
+NAME:-          Onyx Sword
+FILENAME:-      /d/Emerald/mine/wep/osword.c
+HIT:-           40
+PEN:-           45
+SPECIAL:-       no special attack
+PROPS:-         MAGIC_AM_MAGIC; MAGIC_AM_ID_INFO; OBJ_I_IS_MAGIC_WEAPON;
+                OBJ_S_WIZINFO
+
+
+NAME:-          Sardonyx Katana
+FILENAME:-      /d/Emerald/mylos/obj/d_sword.c
+HIT:-           44
+PEN:-           52
+SPECIAL:-       no special attack
+PROPS:-         MAGIC_AM_MAGIC; MAGIC_AM_ID_INFO; OBJ_I_IS_MAGIC_WEAPON;
+                OBJ_S_WIZINFO
+
+
+NAME:-          Onyx Dagger
+FILENAME:-	/d/Emerald/mine/wep/odag.c
+HIT:-		17
+PEN:-		16
+SPECIAL:-	no special attack
+PROPS:-		MAGIC_AM_MAGIC; MAGIC_AM_ID_INFO; OBJ_I_IS_MAGIC_WEAPON;
+		OBJ_S_WIZINFO
+
+
+NAME:-		Spirit Sword
+FILENAME:-	/d/Emerald/mylos/obj/wr_sword.c
+HIT:- 		42
+PEN:-		40
+SPECIAL:-	This sword has two emotes on it, 'indicate' and 'cover'
+		which bestow nothing on the wielder. It's just for fun!
+PROPS:-		MAGIC_AM_MAGIC; MAGIC_AM_ID_INFO; OBJ_I_IS_MAGIC_WEAPON;
+		OBJ_S_WIZINFO
+
+
+NAME:-		Shadow Axe
+FILENAME:-	/d/Emerald/mylos/obj/shad_axe.c
+HIT:-		36
+PEN:-		49
+SPECIAL:-	Has a special attack which removes hp's from the opponent
+		and removes mana from the wielder at the same time. This 
+		would be pretty costly to the wielder in some situations.
+PROPS:-		MAGIC_AM_MAGIC; MAGIC_AM_ID_INFO; OBJ_I_IS_MAGIC_WEAPON;
+		OBJ_S_WIZINFO
+
+
+NAME:-          Runed Axe
+FILENAME:-	/d/Emerald/mylos/obj/r_axe.c
+HIT:-		33
+PEN:-		44
+SPECIAL:-	This has a special attack which once let off, doesn't
+		happen again until the axe is recharged, which is acheived
+		by smearing the axe on corpses 6 times. The special
+		attack takes into account the enemies SS_ELEMENT_AIR and 
+		the wielders SS_SPELLCRAFT and SS_STR
+PROPS:-		MAGIC_AM_MAGIC; MAGIC_AM_ID_INFO; OBJ_I_IS_MAGIC_WEAPON;
+		OBJ_S_WIZINFO
+
+
+NAME:-	        Transparent Scale
+FILENAME:-       /d/Emerald/south_shore/obj/scale.c
+AC:-	        40
+SPECIAL:-	In combat, the player slams the scale into the                      
+		enemy to deal some extra damage.
+
+PROPS:-		None.
+
+OBTAINABILITY:-  Very difficult. Dropped by Demerga with stats at
+                 approximately (400, 400, 500, 400, 150, 450).
+
+
+NAME:-	        Pearlescent Serrated Fang
+FILENAME:-	/d/Emerald/south_shore/obj/fang.c
+HIT:-		40
+PEN:-	        35
+SPECIAL:-	Increases the wielder's spellcraft and knife skill
+                 by 5 levels each.
+
+PROPS:-		OBJ_I_IS_MAGIC_WEAPON, MAGIC_AM_MAGIC, 
+                 MAGIC_AM_ID_INFO, OBJ_S_WIZINFO,
+
+OBTAINABILITY:-	Very difficult. Dropped by Demerga with stats at
+                 approximately (400, 400, 500, 400, 150, 450).
+

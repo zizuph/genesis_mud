@@ -1,0 +1,100 @@
+ 
+Novo's auction house
+====================
+
+Purpose:  Trading items is a very important aspect to Genesis, and up until
+now there has been no effective way of doing so.  Many guilds try to set up
+trading routes for hard-to-obtain items, and money is never the currency 
+used.  As well, casual gamers do not have a chance to use much of this
+equipment, and an auction would allow them the chance to bid on things that
+they normally never see.
+
+How it works:  The player recieves an autoloading paddle when they enter 
+the auction house.  This is the item that allows them to see auctions 
+remotely, as well as be informed on what is available to buy.  The player 
+can also give an item to the auctioneer, to set up an auction to sell that 
+item.
+
+The auction takes platinum coins only.  The seller chooses a starting 
+price, and a maximum price (buy it now, in Ebay terms).  They choose an 
+auction time (1-72 hours), and whether the buyer and seller are anonymous.  
+At the end, 10% of the selling price is kept by the auctioneer.  If the 
+initial price is too high (a player is trying to use the auction as a drop 
+room), they must deposit 50% of the starting price, which will only be 
+refunded if the item is sold.
+
+The paddle will hum whenever an auction is started, and players anywhere 
+can see the list of items for auction, as well as any details.  They can 
+place a bid remotely, with the paddle, if they have enough platinum on 
+them.  
+
+At the conclusion of the auction, the seller must return to the auction 
+house to get his money, and the buyer to get his item.  If a player is 
+outbid, they must also go to the auction house to get their money back.  
+The auction house will keep track of how much credit they are owed.
+
+The auction house will continue auctions at armageddon, but only if the 
+item recovers.  Similarly, the buyer can pick up their item after 
+armageddon, if it saved.  The item is cloned immediately, so there will be 
+no worry about unique counts being off.
+
+There is also a quest, initiated by standing at the podium.  The player
+takes part as an auctioneer, selling an item of value, while the auctioneer 
+is out.  If the player makes a mistake, or takes too long, they will fail 
+in completing the quest.  Upon successful completion (even with a few 
+minor mistakes), they will also get a small reward (1-2 platinum) for their 
+5-10 minutes of work.  This is repeatable, whether they have done the
+quest or not.
+
+Gorboth's comments, with my comments added below:
+
+From   : Gorboth
+Subject: thoughts on the auction doc
+Date   : Wed Mar 26 21:13:43 2008
+
+Comments on the Auction House:
+
+1. I think that we should have the quest be optional rather than an entry
+   requirement for the Auction House. I would fear that there would be a
+   rather unnatural log jam of players trying to do the quest when we
+   first open.
+
+> I've made the quest optional - perhaps we can even open before the
+> quest is in place.
+
+2. I'm not sure I understand the "maximum" price idea.
+
+> This allows casual buyers to get an item immediately, instead of waiting
+> for the end of the auction.  If I auction a sword with a maximum price
+> of 5 platinum - when a 5 platinum bid is accepted, the auction ends
+> immediately.  I'm open to suggestions on a better explanation by the
+> dwarf.  
+
+3. I'm a little concerned that players could still use the auction house
+   as a droproom if they use two characters, passing it back and forth
+   through the auction house to each character for prohibitively high
+   prices. We can at least incorporate code that checks to see if the
+   seller and buyer are registered as belonging to the same player, and
+   if so, prevent the trade.
+   
+> I increased the auction fee to 10% - so 1000 platinum 'protection' would
+> still cost them 100 platinum in fees.  I am concerned that the registered
+> user list should not be accessible to non-admin, and so I would not want 
+> to have access to it in the auction house.
+
+4. I love your decisions regarding what can be done remotely and what
+   must be done in person. :-)
+
+> Thanks!  I think this is pretty effective.
+
+5. Banning Kender? Funny idea, but not so fun for the poor Kender players.
+   What if for Kender alone the quest is a requirement, and then they are
+   trusted by the auctioneer who feels endebted?
+
+> I am concerned about potential for abuse (a kender is able to steal from
+> superior guru awareness players).  I will take it out, but reserve the
+> right to block kenders if I find them abusing the auction house to pay
+> for their training and such.
+
+
+

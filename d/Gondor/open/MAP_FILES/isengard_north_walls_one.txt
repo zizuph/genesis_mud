@@ -1,0 +1,53 @@
+main
+::MAPDATA::
+nt11 26 1
+nt10 31 1
+nt9 35 1
+nt8 39 1
+nt7 43 1
+nt6 47 1
+nt5 51 1
+nt4 55 1
+nt3 59 1
+nt2 63 1
+nt1 67 1
+nwt1 23 3
+nt_gate1 47 3
+nwt2 21 5
+nt_guardrm1 43 5
+nt_gate2 47 5
+nt_guardrm2 51 5
+nwt3 19 7
+nwt4 17 9
+nwt5 15 11
+nwt_guardrm2 19 11
+nwt6 13 13
+nwt_gate1 17 13
+nwt7 11 15
+nwt_guardrm1 15 15
+nwt8 9 17
+nwt9 7 19
+nwt10 5 21
+::MAPDATA::
+
+                         [ ] - o - o - o - o - o - o - o - o - o - o
+                        /                      |                    \
+                       o                       o
+                      /                        |
+                     o                     o - o - o
+                    /                         ___
+                   o                         / | \
+                  /                         |  |  |
+                 o                          |  |  |
+                /
+               o   o
+              / \ /
+             o   o   ___
+            /   /   / | \
+           o   o   |  |  |
+          /        |  |  |
+         o
+        /
+       o
+      /
+     o

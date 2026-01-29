@@ -1,0 +1,18 @@
+Name: Dark sight
+
+Object: /d/Sparkle/guilds/arcane/spells/dark_sight.c
+
+Cost:
+
+Skills:
+
+Description: Tier 3 spell
+                 Targets: 1, unspecified defaults to caster
+		 Temporarily grants the caster (or target) a few levels
+		 of dark vision. Grants the caster more levels than would
+		 be granted for a third party target.
+
+Requirements:
+    SS_ELEMENT_FIRE
+    SS_FORM_DIVINATION
+    Orange

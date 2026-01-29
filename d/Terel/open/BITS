@@ -1,0 +1,47 @@
+Terel domain quest bits:
+
+Group  Bit  Description
+----   ---  ---------------------------------------
+  0     0   Orc Fire             (Zodiac - Orange)
+  0     1   Green Balance        (Zodiac - Green)
+  0     2   Red Death            (Zodiac - Red)
+  0     3   Maze and Box         (Zodiac - Violet)
+  0     4   Lost Child           (Ribos/Calathin)
+  0     5   Jester's Hat         (Gypsy 1)
+  0     6   Shave Beardy Woman   (Gypsy 2)
+  0     7   Wrestler's Belt      (Gypsy 3)
+  0     8   Go Juggling          (Gypsy 4)
+  0     9   Walk Tight Rope      (Gypsy 5)
+  0    10   Magician's Treasure  (Gypsy 6)
+  0    11   Release Spectre      (Gypsy 7)
+  0    12   Rescue Virgin        (Mansion)
+  0    13   Porcia Riddle        (Zodiac - Yellow)
+  0    14   Tear Tapestry        (Thane)
+  0    15   Dead DarkOne         (Thane)
+  0    16   Mystic Entrance      (Mumon)
+  0    17   Final Zodiac         (Mansion)
+  0    18   Mine Blue Gem        (Zodiac - Blue)
+  0    19   Witch's Ring         (Garden/Mansion)
+
+  1     0   Lost cat             (Enchanted garden)
+  1     1   Lost bracelet        (Enchanted garden)
+  1     2   Kill the bug queen   (Enchanted garden)
+  1     3   Kill the evil dragon (Ribos)
+  1     4   Rescue the prisoner  (Mansion/dungeons)
+  1     5   Dungeon 2            (Dungeons)
+  1     6   Vote room puzzle     (Tomb)
+  1     7   Missing sandal       (Tomb/Road_s)
+  1     8   Missing Flower quest (Town/Enchanted Garden)
+  1     9   Pick Batdung         (Forest/Caves)
+  1    10   Sign Register        (Elnoven)
+  1    11   Sacrifice wreath     (Elnoven)
+  1    12   Gardner Gloves       (Tomas)
+  1    13   Bandit Treasure      
+  1    14   Protect Caravan       
+  1    15   Hunt Assassin 
+  1    16   Merchant quest       (Ghastly Keep)
+  1    17   Cottage Chest        (Cottage/Moors)
+  
+  
+  
+  

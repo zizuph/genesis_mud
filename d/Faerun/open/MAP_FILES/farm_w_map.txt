@@ -1,0 +1,82 @@
+main
+::MAPDATA::
+barn 6 11 west
+bedroom 6 7 west
+garden01 10 5 west
+garden02 14 5 west
+garden03 14 7 west
+great 10 9 west
+hayloft 6 9 west
+kitchen 10 7 west
+rd01 10 17 west
+rd02 10 15 west
+yard 10 13 west
+::MAPDATA::
+. . . . . . . . . . . . . . . . . . . .
+.                                     .
+.         FARMS AND FARMLAND          .
+.         ------------------          .
+.                                     .
+.         O - O   _ ___               .
+.         |   |  / \___\      O       .
+.     O - O   O  |o|n_n|        \     .
+.         |                   O - O   .
+.     O   O                   |       .
+.    ||   |                   O - O   .
+.     O   |                   |       .
+.       \ |   _           O   |   O   .
+.         O  | | _____ __   \ |  ||   .
+.         |  | |/     /  \    O - O   .
+.         O  | |_____| "" |   |       .
+.         |  |_|_[X]_|__o_|   O       .
+.         O                  /        .
+.       /                   O         .
+.     H                     |         .
+.       I                   O         .
+.         G                /          .
+.           H     R O A D             .
+.                                     .
+. . . . . . . . . . . . . . . . . . . .
+::NEWMAP::
+west
+::MAPDATA::
+barn 8 15
+bedroom 6 9
+garden01 16 6
+garden02 26 6
+garden03 26 9
+great 16 13
+hayloft 7 12
+kitchen 16 9
+rd01 16 24
+rd02 16 21
+yard 16 18
+::MAPDATA::
+. . . . . . . . . . . . . . . . . . . . . . .
+.                                           .
+.             W E S T   F A R M             .
+.             -----------------             .
+.                                           .
+.            garden -- garden               .
+.              [ ]       [ ]                .
+.               |         |                 .
+. bedroom -- kitchen   garden               .
+.    [ ]       [ ]       [ ]                .
+.               |                           .
+.   hayloft   great                         .
+.     [ ]     room                          .
+.      ||      [ ]                          .
+.     barn      |                           .
+.      [ ]      |                           .
+.          \    |                           .
+.             yard                          .
+.              [ ]                          .
+.               |                           .
+.             road                          .
+.              [ ]                          .
+.               |                           .
+.             road                          .
+.              [ ]                          .
+.           /                               .
+.      High Road                            .
+. . . . . . . . . . . . . . . . . . . . . . .

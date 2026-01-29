@@ -1,0 +1,22 @@
+
+<= <= <= <= <= <= Defenders of Black Boar => => => => => =>
+-----------------------------------------------------------
+
+Guild name: Defenders of Great Boar
+Style: Fighter
+Type: Layman
+Location: Outskirts of the Meidh of Khalakhor
+Restrictions: None
+Requirements: None
+Alignment: Neutral
+Rooms: board.c
+       blade.c
+       cboard.c
+       entrance.c
+       join.c
+       library.c
+       post.c
+       start.c
+
+This document is a work in progress.
+Damaris@Geneiss 09/2005

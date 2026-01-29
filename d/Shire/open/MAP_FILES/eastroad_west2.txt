@@ -1,0 +1,104 @@
+main
+::MAPDATA::
+er21d 7 12 part3
+er21e 8 12 part3
+stonebows 10 12 part3
+er22 12 12 part3
+er23 14 12 part3
+er24 16 12 part3
+er25 18 12 part3
+er26 20 12 part3
+er27 22 12 part3
+er28 24 12 part3
+er29 25 12 part3
+er22n 12 12 part3
+er23n 14 12 part3
+er24n 16 12 part3
+er25n 18 12 part3
+er26n 20 12 part3
+er27n 22 12 part3
+er28n 24 12 part3
+er29n 25 12 part3
+er23s 14 12 part3
+er24s 16 12 part3
+er25s 18 12 part3
+er26s 20 12 part3
+er27s 22 12 part3
+er28s 24 12 part3
+er29s 25 12 part3
+::MAPDATA::
+
+
+
+    +---------+
+ ~  |THE SHIRE|
+ ~~ +---------+        Fornost
+  ~~                      o
+   ~~~                    |
+     ~~~                  |
+ \     ~~~                |
+  \      ~~~              |                                    Weathertop
+  |Frogmorton             |   BREE   Midgewater   /----------------*-\
+  o------===--------------+----O---\ Marshes/----/                    \------
+ /   |  Brandywine        |         \------/
+ ing |    Bridge          |
+     o   ~~~     Barrow   |
+  Whitfurrows     Downs   |
+        ~~~               |
+ ----- ~~~ o--------------\
+     ~~~  Sarn Ford        \
+   ~~~                      \
+ ~~~                         \   
+
+::NEWMAP::
+part3
+::MAPDATA::
+er21d 11 8 
+er21e 15 8
+stonebows 19 8
+er22 23 8
+er23 27 8
+er24 31 8
+er25 35 8
+er26 39 8
+er27 43 8
+er28 47 8
+er29 51 8
+er22n 23 6
+er23n 27 6
+er24n 31 6
+er25n 35 6
+er26n 39 6
+er27n 43 6
+er28n 47 6
+er29n 51 6
+er23s 27 10
+er24s 31 10
+er25s 35 14
+er26s 39 10
+er27s 43 10
+er28s 47 10
+er29s 51 10
+::MAPDATA::
+
+                    ~~~                                |       |
+                   ~~~                                 o       o
+                  ~~~                                  |       |
+                   ~~~                                 o       o
+                   ~~~                                 |       |
+                  ~~~                                  o       o
+                  ~~~                                  |       |
+ - o - o - o - o = o = o - o - o - o - o - o - o - o - o - o - o -     B R E E
+       |          ~~~              |                   |       |
+       o         ~~~               |                   |       o
+       |        ~~~             Barrow                 |       |
+       o       ~~~               Downs                 |       o
+       |      ~~~                  |                   |         \
+       o     ~~~                   o                   |           o
+       |     ~~~                   |                   |             \
+       o - o ~~~                   o                   o               o
+       |     ~~~                   |                   |                 \
+       o    ~~~                                                            o -
+       |    ~~~                                     Tharbad /
+       o    ~~~                                       Rohan
+       |                                                Gondor

@@ -1,0 +1,35 @@
+MECKLENBERG DAY and the SEASON OF FOOLS
+
+The Story:
+
+Mecklenberg Herbert, a member of the Herberts Guild (not yet coded; described in the wizard Chronicles), is the crustiest, stiffest, most humourless old hobbit in Genesis.  An old tradition in Gelan is the town population's attempt to make him laugh at least once a year, purely for the fun of it.  As Mecklenberg has gotten accustomed to their tricks, he's become more and more difficult to amuse.  Therefore, the mayor of Gelan (Boxy Ballot, known locally but never actually coded) will issue the Season of Fools proclamation to people in all lands:  come to Gelan, and if you can bring a smile to old Mecklenberg's face, you will be rewarded!
+
+Timing:
+
+Mecklenberg Day, the day on which the locals traditionally try their tricks, is technically April 1 on the real-world calendar, but to allow travellers some flexibility, the Season of Fools - as it will henceforth be known by mayoral decree - will last from mid-March through the first week of April.
+
+Fool Tools:
+
+A variety of toys, costumes, and gadgets will be made available to players.  The amusement effect of these items is cumulative; that is, a player juggling toy gopheroos while dressed as a giant banana is more amusing than a player in drab garb doing the same juggling.  I'll have to work out a system of assessing the amusement factor, but you can leave that to me for now.  What I'm particularly soliciting is suggestions (and volunteers to create) a wide variety of these tools.  Use your imaginations:  the more ridiculous, wacky, and foolish, the better!
+
+Quest Objective:
+
+As stated, the object is to bring a smile - better yet, a laugh - to old Mecklenberg.  He'll be available somewhere in the public spaces of Gelan during the entire season.  Making him smile or laugh is the only required element of the quest, and the amount of xp gained (probably capped at 5000) varies according to how well the player performs.  This quest is intended to be completed during a single session and can be performed at maximum level in one hour of play.
+
+Quest Performance:
+
+A player can't simply acquire some of the fool equipment, cavort in front of Mecklenberg, and then expect any reward.  In fact, he'll probably receive a blistering stream of verbal abuse instead.  Mecklenberg participates because he's duty-bound by some ancient pact between himself and the mayor, not because he's happy about it.  No, the only way to acquire the necessary skill is to practice.  A player must acquire the fool tools and go amuse other players and npc's before attempting Mecklenberg, Genesis's toughest audience.
+
+A property will be added to the player that accumulates value as he amuses people.  A base humour value, derived from his combination of equipment, use of adverbs, intoxication, and other factors will be added for each player or npc he amuses.  Repeatedly amusing the same person or using the same adverb accrues rapidly diminishing points.  An object in the player's inventory will invoke responses from npc's; as he gathers more points (that is, practices and perfects his technique), the responses become more favourable.  Similarly, the messages broadcast to players who witness the performance will become more impressive as he improves his technique.  Eventually, he should realize that he has reached his peak level of performance (although he can continue to practice and increase his chances of winning the fool's crown - see below), at which point he can begin his assault on Mecklenberg.  He may be surprised when at first his capers evoke only more bile - Mecklenberg is not easily moved, even by the best - but a player who is confident in his abilities will succeed with repeated attempts.
+
+Quest Reward:
+
+I haven't worked out the exact figures yet, but I estimate that a player should reach peak ability - that is, be able to max the quest - after amusing 100 other players and npc's.  Bonus points for performing in different domains or before players who have distinctly different alignments or guild affiliations should reduce this requirement, but I don't expect it to ever be cut by more than half.  When the player finally performs for Mecklenberg, he'll need a good combination of fool tools as well as high ability to get the max xp.  Many players will probably achieve this goal.  The closer to perfection the player gets, the bigger smile or laugh he evokes from Mecklenberg (and probably praise from other local npc's).
+
+On Mecklenberg Day itself, the player who has maxed the quest (or is in the top ten if nobody has actually gotten it perfect) and has acquired the highest ability will be named King or Queen of Fools, a title that stays with the player for the ensuing week.  During this week more players can complete the quest and may even acquire higher ability levels, but there will be no change in the King or Queen's status.
+
+Work Plan:
+
+Anyone who wants to create a piece of this, let me know.  I'll send you technical details when I work them out.
+
+Uhclem

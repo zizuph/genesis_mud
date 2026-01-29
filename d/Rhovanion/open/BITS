@@ -1,0 +1,21 @@
+Group 0:        0-3     Bits for tours/miniquests Thranduil, binary coded
+			 1. 50xp  2. 50xp  3. 500xp  4. 7500xp  5. 3600xp
+                4       Bit for climbing quest   1500xp
+                5-9     Bits for rescuing prisoner from the goblins
+                5         Giving armour+weapon to prisoner (optional) 5000xp
+                6         Solving first part 10000xp
+                7         Food part (optional) 500xp
+                8         Drink part (optional) 500xp 
+                9         Finished quest!!!!!!!!  10000-25000xp
+                10      Torch quest        max 200xp
+                11      Catch rats quest   max 200xp
+                12-13
+                14-16   Esgaroth Quests, binary coded
+                17-19   Rhun quests, binary coded
+                         1. 150xp  2. 300xp  3. 150xp
+Group 1:        0-19
+Group 2:        0-19
+Group 3:        0-19
+Group 4:        0-19
+
+

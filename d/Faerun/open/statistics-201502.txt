@@ -1,0 +1,49 @@
+NUMBER OF PLAYERS
+
+    Number of characters logged in :  3594
+    Of those are wizards           :    46
+    Players less than 12 hours old :  2809    (not counted in the statistics)
+    Total of active players in July:   739
+
+REGISTERED PLAYING AGE
+
+                         (Mortal players)       (Wizards)
+    Less than 1 week      271    36%              6    14%
+    Less than 2 weeks      52     7%              2     5%
+    Less than 1 month      79    10%              2     5%
+    Less than 2 months     75    10%              1     3%
+    Less than 100 days     59     8%              0     1%
+    Less than 150 days     56     7%              4     9%
+    Less than 200 days     43     5%              6    14%
+    Less than 300 days     50     6%              7    16%
+    More than 300 days     54     7%             18    40%
+
+PLAYER LEVELS & WIZARD RANKS
+
+    Novice              11     1%               Mortal        0
+    Greenhorne          54     7%               Apprentice    0
+    Beginner            95    12%               Pilgrim       0
+    Apprentice          39     5%               Retired      12
+    Wanderer            29     3%               Wizard       15
+    Adventurer          25     3%               Mage          9
+    Adept               35     4%               Steward       0
+    Great adventurer    36     4%               Liege         4
+    Veteran             43     5%               Arch          5
+    Expert              44     6%               Keeper        1
+    Rising hero         51     6%                             0
+    Hero                59     8%                             0
+    Titan               48     6%                             0
+    Champion            59     8%                             0
+    Legend              43     5%                             0
+    Myth                68     9%                             0
+
+RACE and GENDER (male / female)
+
+                       (Mortals)         (Wizards)
+    human              262  /  72  45%     20  /   2
+    elf                105  /  55  21%      5  /   4
+    dwarf               57  /   7   8%      5  /   0
+    hobbit              33  /  22   7%      3  /   1
+    gnome               14  /   4   2%      1  /   0
+    goblin              98  /  10  14%      5  /   0
+

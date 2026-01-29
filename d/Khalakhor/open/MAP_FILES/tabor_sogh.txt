@@ -1,0 +1,73 @@
+main
+::MAPDATA::
+trail_1 24 3
+bk_grove2 26 3
+bk_grove3 30 3
+trail_2 24 5
+bk_grove5 28 5
+trail_3 22 7
+bk_grove1 26 7
+bk_grove4 30 7
+trail_5 16 9
+trail_4 20 9
+bk_yard 24 9
+trail_6 14 11
+home_bk 24 11
+trail_7 14 13
+road_1_1 14 15
+home_1 18 15
+road_1_2 14 17
+home_2 18 17
+kirk2 22 17
+road_1_3 14 19
+kirk1 18 19
+kirk5 22 19
+kirk3 26 19
+road_1_4 14 21
+kpriory 18 21
+kirk4 22 21
+pier2 6 23
+pier 10 23
+road_1_5 14 23
+shop 18 23
+road_1_6 14 25
+home_6 18 25
+road_1_7 14 27
+home_7 18 27
+road_1_8 14 29
+pub 18 29
+road_1_9 14 31
+home_9 18 31
+::MAPDATA::
+
+
+                        |
+          ==========    o o   o
+          Tabor Sogh    |  \ /
+          ==========    o   o
+                       /   / \
+                      o   o   o
+                     / \ /
+                o - o   o
+               /        |
+              o         o
+              |           __[]_
+              o          /\    \
+              |         /  \____\
+              o - o     |[]| [] |
+              |                        +
+         ~~~  o - o   o        ________|
+          ~~~ |       |       /\        \
+         ~~~  o - o - o - o  /  \____^___\
+          ~~  |       |      |  |   | |  |
+           ~~ o - o   o      |  |   | |  |
+  Port Mcd    |
+      o - o - o - o Shop
+         ~~~  |
+         ~~~~ o - o
+          ~~  |             _____
+          ~~~ o - o        /\    \
+          ~~  |           /  \____\
+              o - o Pub   |[]| [] |
+              |
+              o - o

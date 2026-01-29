@@ -1,0 +1,13 @@
+Spell Name      Spell Element       Spell Description
+=====================================================
+cheiropoto      focus element       elemental at-will harm spell
+pyrofosti       fire                light spell
+numastomo       air                 guild member fartell
+hydrokine       water               ice shards elemental attack
+lithodermu      earth               stone skin protective spell
+petifrago       earth               gem shatter spell
+
+* focus element is the element that the guild member has chosen
+  to focus their studies on. Dependin on their focus, the spell
+  will take on different effects.
+

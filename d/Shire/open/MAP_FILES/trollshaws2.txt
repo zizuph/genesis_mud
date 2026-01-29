@@ -1,0 +1,282 @@
+main
+::MAPDATA::
+money_room 35 12 trollshaws
+shop 35 12 trollshaws
+ta01 35 12 trollshaws
+ta02 35 12 trollshaws
+ta03 35 12 trollshaws
+ta04 35 12 trollshaws
+ta05 35 12 trollshaws
+ta06 35 12 trollshaws
+ta07 35 12 trollshaws
+ta08 35 12 trollshaws
+ta09 35 12 trollshaws
+ta10 35 12 trollshaws
+ta11 35 12 trollshaws
+ta11a 35 12 trollshaws
+ta12 35 12 trollshaws
+ta13 35 12 trollshaws
+ta14 35 12 trollshaws
+ta15 35 12 trollshaws
+ta16 35 12 trollshaws
+ta16a 35 12 trollshaws
+ta17 35 12 trollshaws
+ta18 35 12 trollshaws
+ta19 35 12 trollshaws
+ta20 35 12 trollshaws
+ta21 35 12 trollshaws
+ta22 35 12 trollshaws
+ta23 35 12 trollshaws
+ta24 35 12 trollshaws
+ta24a 35 12 trollshaws
+ta25 35 12 trollshaws
+ta26 35 12 trollshaws
+ta27 35 12 trollshaws
+tag01 35 12 trollshaws
+tag02 35 12 trollshaws
+tag03 35 12 trollshaws
+tag04 35 12 trollshaws
+tb01 35 12 trollshaws
+tb02 35 12 trollshaws
+tb03 35 12 trollshaws
+tb04 35 12 trollshaws
+tb05 35 12 trollshaws
+tb06 35 12 trollshaws
+tb07 35 12 trollshaws
+tb08 35 12 trollshaws
+tb09 35 12 trollshaws
+tb10 35 12 trollshaws
+tb11 35 12 trollshaws
+tb11a 35 12 trollshaws
+tb12 35 12 trollshaws
+tb13 35 12 trollshaws
+tb14 35 12 trollshaws
+tb15 35 12 trollshaws
+tb16 35 12 trollshaws
+tb17 35 12 trollshaws
+tb18 35 12 trollshaws
+tb19 35 12 trollshaws
+tb20 35 12 trollshaws
+tb21 35 12 trollshaws
+tb22 35 12 trollshaws
+tb23 35 12 trollshaws
+tb24 35 12 trollshaws
+tb25 35 12 trollshaws
+tb26 35 12 trollshaws
+tb27 35 12 trollshaws
+tb28 35 12 trollshaws
+tb29 35 12 trollshaws
+tb30 35 12 trollshaws
+tb31 35 12 trollshaws
+tbg01 35 12 trollshaws
+tbg03 35 12 trollshaws
+tbg04 35 12 trollshaws
+tbg05 35 12 trollshaws
+tbg06 35 12 trollshaws
+tbg07 35 12 trollshaws
+tc01 35 12 trollshaws
+tc02 35 12 trollshaws
+tc03 35 12 trollshaws
+tc04 35 12 trollshaws
+tc05 35 12 trollshaws
+tc06 35 12 trollshaws
+tc07 35 12 trollshaws
+tc08 35 12 trollshaws
+tc09 35 12 trollshaws
+tc10 35 12 trollshaws
+tc11 35 12 trollshaws
+tc12 35 12 trollshaws
+tc13 35 12 trollshaws
+tc14 35 12 trollshaws
+tc15 35 12 trollshaws
+tc16 35 12 trollshaws
+tc17 35 12 trollshaws
+tc18 35 12 trollshaws
+tcg01 35 12 trollshaws
+tcg02 35 12 trollshaws
+tunnel1 35 12 trollshaws
+empty 35 12 tunnels
+guardroom1 35 12 tunnels
+guardroom2 35 12 tunnels
+hall_room 35 12 tunnels
+n_groom1 35 12 tunnels
+s_groom1 35 12 tunnels
+tunnel2 35 12 tunnels
+tunnel3 35 12 tunnels
+tunnel4 35 12 tunnels
+tunnel5 35 12 tunnels
+tunnel6 35 12 tunnels
+tunnel7 35 12 tunnels
+w_hall 35 12 tunnels
+::MAPDATA::
+
+                                                                 /      ~~~
+                                                               o      ~~~~
+                      ~~~                                      |     ~~~~
+                     ~~~                   o - o - o - o       o     ~~~~
+                      ~~~                  | x   x   x |       |     ~~~~
+                     ~~~                   o - o - o - o       o     ~~~~
+                     ~~~           Troll       |   |   |     /       ~~~~
+ - o                ~~~            Shaws   o - o - o - o   o       ~~~~
+     \               ~~~                   | / |   |   |   |     ~~~~
+       o - o        ~~~                    o   o - o - o   o     ~~~~
+             \      ~~~                  / | / |           |     ~~~~
+               o   ~~~             o - o   o   o           o     ~~~~
+                 \  ~~~            |   | /                 |     ~~~~
+                  =o=              o - o       o           o     ~~~~
+                ~~~  \             |   |       |         /       ~~~
+               ~~~     o           o - o       o - o - o       ~~~~
+             ~~~         \       /           /             ~~~~
+            ~~~            o - o           o           ~~~~
+             ~~~                 \       /          ~~~~
+            ~~~                    o - o         ~~~~
+           ~~~                               ~~~~~
+::NEWMAP::
+trollshaws
+::MAPDATA::
+money_room 2 8
+shop 22 6
+ta01 6 14
+ta02 10 14
+ta03 14 16
+ta04 18 18
+ta05 22 16
+ta06 22 14
+ta07 26 14
+ta08 30 14
+ta09 30 16
+ta10 30 18
+ta11 34 18
+ta12 38 20
+ta13 42 20
+ta14 46 18
+ta15 50 16
+ta16 54 16
+ta17 58 18
+ta18 62 18
+ta19 66 16
+ta20 70 14
+ta21 38 14
+ta22 38 16
+ta23 42 14
+ta24 50 14
+ta24a 54 14
+ta25 58 14
+ta26 62 14
+ta27 66 14
+tag01 22 20
+tag02 38 18
+tag03 58 16
+tag04 66 18
+tb01 6 8
+tb02 10 10
+tb03 10 12
+tb04 14 12
+tb05 18 12
+tb06 30 12
+tb07 34 12
+tb08 38 12
+tb09 42 12
+tb10 46 12
+tb11 50 12
+tb11a 54 12
+tb12 62 12
+tb13 66 12
+tb14 74 12
+tb15 18 10
+tb16 22 10
+tb17 30 10
+tb18 38 10
+tb19 50 10
+tb20 54 10
+tb21 58 10
+tb22 66 10
+tb23 70 10
+tb24 74 10
+tb25 26 8
+tb26 30 8
+tb27 42 8
+tb28 46 8
+tb29 50 8
+tb30 62 8
+tb31 74 8
+tbg01 6 10
+tbg03 58 12
+tbg04 70 12
+tbg05 34 8
+tbg06 54 8
+tbg07 66 8
+tc01 10 6
+tc02 14 6
+tc03 30 6
+tc04 34 6
+tc05 46 6
+tc06 54 6
+tc07 58 6
+tc08 62 6
+tc09 74 6
+tc10 18 4
+tc11 22 4
+tc12 26 4
+tc13 38 4
+tc14 42 4
+tc15 58 4
+tc16 62 4
+tc17 66 4
+tc18 70 4
+tcg01 30 4
+tcg02 46 4
+tunnel1 46 14
+::MAPDATA::
+
+                               Inside the Trollshaws
+                               ---------------------
+
+                  o - o - o   o       o - o   o           o - o - o - o
+                /     |     \ |     /       \ |         /               \
+          o - o       $       o - o           o       o - o - o           o
+        /                   / |               |     /         |           |
+  o - o                   o   o - o       o - o - o - o       o - o       o
+      | \               /     |         /         |             \         |
+      o   o       o - o       o       o           o - o - o       o - o   o
+          |     /             |       |                     \       /     |
+          o - o - o           o - o - o - o - o - o - o   o   o   o   o - o
+        /           \                 |                 \ |     \ |     /
+      o - o           o - o - o       o - o - * - o - o - o - o - o   o
+            \           /     |       |      [ ]      |   |         /
+              o       o       o       o           o - o   o       o
+                \   /         |     /           /       \       /
+                  o           o - o - o       o           o - o - o
+                    \               \       /
+                      o               o - o
+
+::NEWMAP::
+tunnels
+::MAPDATA::
+empty 8 6
+guardroom1 16 8
+guardroom2 16 4
+hall_room 16 6
+n_groom1 12 4
+s_groom1 12 8
+tunnel2 28 12
+tunnel3 28 10
+tunnel4 24 6
+tunnel5 20 6
+tunnel6 20 8
+tunnel7 24 8
+w_hall 12 6
+::MAPDATA::
+
+        Under the Trollshaws
+        --------------------
+
+            o   o
+            |   |
+        o - o - o - o - o
+            |   |   | / |
+            o   o   o   o
+                          \
+                            o
+                            |
+                            o [ ]

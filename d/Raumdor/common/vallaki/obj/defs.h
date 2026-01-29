@@ -1,0 +1,8 @@
+#include "../defs.h"
+#define DRAKMERE_GATE           DRAKMERE_OBJ_DIR + "gate_base.c"
+#define DRAKMERE_GATE_INNER     DRAKMERE_OBJ_DIR + "gate_inner.c"
+#define DRAKMERE_GATE_OUTER     DRAKMERE_OBJ_DIR + "gate_outer.c"
+#define DRAKMERE_GATE_WEST_OUT  DRAKMERE_DIR + "wgate"
+#define DRAKMERE_GATE_WEST_IN   DRAKMERE_DIR + "road12"
+#define DRAKMERE_GATE_SOUTH_OUT DRAKMERE_DIR + "sgate"
+#define DRAKMERE_GATE_SOUTH_IN  DRAKMERE_DIR + "road11"

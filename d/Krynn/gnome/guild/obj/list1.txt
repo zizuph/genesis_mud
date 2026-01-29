@@ -1,0 +1,1 @@
+if (!this_player()->query_wiz_level() && playersindex->query_wiz_level() && playersindex->query_invis())

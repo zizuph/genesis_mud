@@ -1,0 +1,638 @@
+MAGIC ARMOURS IN THE DOMAIN FAERUN
+==================================
+As required, all magical armours will be listed here. 
+However, if any questions remain, contact the 
+coder, the Liege or Steward of Faerun, or any 
+other member of the domain on at the time.
+
+
+Magical armours throughout Faerun
+----------------------------------
+    ARMOURS:
+----------------------------------
+
+Item: Ancient Ribbed Platemail
+Coder: Finwe
+Path: /d/Faerun/mere/arm/li_m_plate.c
+Skill/Stat enhancements: None
+Type: 
+    AC: 47
+    Locs: Body and arms
+    Wear: Torso
+    Extra: None
+Magic: 
+Resistance: Poison and Fire
+Specials: None
+Location: 
+
+
+Magical Armours of Dockward
+-------------------------------------
+     Path: /d/Faerun/waterdeep/dockward/arm/
+-------------------------------------
+Item: City Watch Greaves (poor)
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/c_greaves_poor
+Skill/Stat Enhancement:
+Type:
+    AC: 20
+    Locs: A_LEGS
+    Wear:
+    Extra:
+Magic:
+Resistance:
+Specials: Not technically magical, but the wearer is injured (heal_hp(-500)) when
+            he/she bangs his/her shins on the huge dents left in the poorly
+            maintained greaves.
+Location: City Watch Guards
+            /d/Faerun/waterdeep/dockward/npcs/city_watch.c
+            /d/Faerun/waterdeep/dockward/npcs/city_watchwoman.c
+
+********
+
+Item: slim gold bracelet
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/c_bracelet_d_magic.c
+Skill/Stat Enhancement: 
+Type:
+    AC: 1
+    Locs: A_ANY_WRIST
+    Wear:
+    Extra:
+Magic:
+Resistance:
+Specials: LIVE_I_QUICKNESS + 100
+Location: City Watch Guards
+            /d/Faerun/waterdeep/dockward/npcs/city_watch.c
+            /d/Faerun/waterdeep/dockward/npcs/city_watchwoman.c
+
+*****
+
+Item: horn-rimmed silver spectacles
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/b_glasses_magic.c
+Skill/Stat Enhancement:
+Type:
+    AC: 5
+    Locs: A_EYES
+    Wear: Eyes
+    Extra:
+Magic:
+Resistance:
+Specials: see invisible
+Location: City Watch Guards
+            /d/Faerun/waterdeep/dockward/npcs/city_watch.c
+            /d/Faerun/waterdeep/dockward/npcs/city_watchwoman.c
+
+*****
+
+Item: dull-white rusted-steel bracers
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/c_bracers_poor_magic.c
+Skill/Stat Enhancement:
+Type:
+    AC: 15
+    Locs: A_ARMS
+    Wear: arms
+    Extra:
+Magic:
+Resistance:
+Specials: LIVE_I_QUICKNESS -100
+            These bracers are in such poor condition they make you move
+            slower. Due to the fact that these are the worst bracers, 
+            they will be quite common, an oddity for a magical item I know.
+Location: City Watch Guards
+            /d/Faerun/waterdeep/dockward/npcs/city_watch.c
+            /d/Faerun/waterdeep/dockward/npcs/city_watchwoman.c
+
+*****
+
+Item: pure-white platinum-trimmed sash
+Coder: Raymundo
+File Name:/d/Faerun/waterdeep/dockward/arm/c_sash_magic.c
+Skill/Stat Enhancement:
+Type:
+    AC: 20 
+        This is VERY high for a belt, I know. That's why it's magic.
+    Locs: A_WAIST
+    Wear:
+    Extra:
+Magic:
+Resistance:
+Specials:
+Location: City Watch Guards
+            /d/Faerun/waterdeep/dockward/npcs/city_watch.c
+            /d/Faerun/waterdeep/dockward/npcs/city_watchwoman.c
+
+*****
+
+Item: black chainmail -> black spider chainmail (when Drows wear it)
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/drow_magic_chainmail
+Skill/Stat Enhancement:
+Type:
+    AC: 45 (for drows), -10 (for everyone else)
+    Locs: A_BODY | A_ARMS
+    Wear:
+    Extra:
+Magic:
+Resistance:
+Specials: The weight drops from 25kg to 4kg when worn by drows.
+            The AC goes from 25 to 45 for drows, or 25 to -10 for
+            non drows.
+Location: Chaz, a Drow hiding in the sewers of Dockward.
+            /d/Faerun/waterdeep/dockward/npcs/chaz.c
+            
+
+*****
+
+Item: revealing studded-leather foundation-garmet
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/h_corset_4_magic.c
+Skill/Stat Enhancement: SS_PARRY + 10 (for females)
+Type:
+    AC: 25 (40 for females)
+    Locs: A_TORSO | A_ARMS
+    Wear:
+    Extra:
+Magic:
+Resistance:
+Specials:
+Location: Prostitues in Dockward   
+            /d/Fearun/waterdeep/dockward/npcs/hooker.c
+
+*****
+
+Item: gold jade-studded earring
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/h_earring_2_magic.c
+Skill/Stat Enhancement:
+Type:
+    AC: 1
+    Locs: A_ANY_EAR
+    Wear:
+    Extra:
+Magic:
+Resistance: MAGIC_I_RES_POISON +10
+Specials: Costs 500 mana. Will set mana to 0 if you don't have enough.
+Location: Prostitutes in Dockward
+            /d/Fearun/waterdeep/dockward/npcs/hooker.c
+            
+*****
+
+Item: mithril black-onyx-studded barbell-earring
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/h_earring_3_magic.c
+Skill/Stat Enhancement:
+Type:
+    AC: 1
+    Locs: A_ANY_EAR
+    Wear:
+    Extra:
+Magic:
+Resistance: MAGIC_I_RES_DEATH +10
+Specials: Costs 500 mana. Will set mana to 0 if you don't have enough.
+Location: Prostitutes in Dockward
+            /d/Fearun/waterdeep/dockward/npcs/hooker.c
+            
+*****
+
+Item: silver sapphire-studded hoop-earring
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/h_earring_4_magic.c
+Skill/Stat Enhancement:
+Type:
+    AC: 1
+    Locs: A_ANY_EAR
+    Wear:
+    Extra:
+Magic:
+Resistance: MAGIC_I_RES_WATER +10
+Specials: Costs 500 mana. Will set mana to 0 if you don't have enough.
+Location: Prostitutes in Dockward
+            /d/Fearun/waterdeep/dockward/npcs/hooker.c
+            
+*****
+
+
+Item: glass tourmaline-studded ear-spike
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/h_earring_5_magic.c
+Skill/Stat Enhancement:
+Type:
+    AC: 1
+    Locs: A_ANY_EAR
+    Wear:
+    Extra:
+Magic:
+Resistance: MAGIC_I_RES_AIR +10
+Specials: Costs 500 mana. Will set mana to 0 if you don't have enough.
+Location: Prostitutes in Dockward
+            /d/Fearun/waterdeep/dockward/npcs/hooker.c
+            
+*****
+
+Item:
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/magic_shield.c
+Skill/Stat Enhancement: SS_CON + 15
+Type:
+    AC: 40
+    Locs: (::query_shield_slots() + ({ A_BODY, A_LEGS, A_HEAD}));
+    Wear:
+    Extra: Shield increases AC to 40 and adds 15 Con if align is 
+            above 950 or below -950
+Magic:
+Resistance:
+Specials:
+Location: Boss Ruffian
+            /d/Faerun/waterdeep/dockward/npcs/belendithas.c
+
+*****
+
+Item: antique emerald brooch
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/pin_magic.c
+Skill/Stat Enhancement:
+Type:
+    AC: 1
+    Locs: A_ANY_SHOULDER
+    Wear:
+    Extra:
+Magic:
+Resistance:
+Specials: Increases light by 3 (if good aligned) or darkness by 1 (if evil).
+            This brooch has exactly the same description as the common brooch.
+            Players need to <hold gem [up] [to] [the] light> in a room that's 
+            light in order to see which brooch they have.
+Location:
+
+*****
+
+Item: black metal-spiked eyepatch
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/r_eyepatch1
+Skill/Stat Enhancement:
+Type:
+    AC:10
+    Locs:A_EYES
+    Wear:
+    Extra:
+Magic:
+Resistance:
+Specials: There are a couple cute emotes.
+            It's not much for magic, but it'll make a nice bit of extra armour
+            to round out your helmet.
+Location: Sailors
+            /d/Faerun/waterdeep/dockward/npcs/sailor.c
+
+
+Item: grey leather jaurabs
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/r_greaves_magic_1.c
+Skill/Stat Enhancement: + 10 sword, -10 defence
+Type:
+    AC: 10
+    Locs: A_LEGS
+    Wear:
+    Extra:
+Magic:
+Resistance:
+Specials: This is one of several armours with the same description. In order
+            to know which armour you have, you need to look at the insignia,
+            which can only been seen if the jaurabs are unworn.
+Location: Any ruffian around Dock Ward
+            /d/Fearun/waterdeep/dockward/ruffian*
+            (There are a few different ruffians, but only because of movement
+             or description requirements. They have the same stats, skills, and
+             abilities.)
+
+*****
+
+Item: grey leather jaurabs
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/r_greaves_magic_2.c
+Skill/Stat Enhancement: + 10 axe, -10 defence
+Type:
+    AC: 10
+    Locs: A_LEGS
+    Wear:
+    Extra:
+Magic:
+Resistance:
+Specials: This is one of several armours with the same description. In order
+            to know which armour you have, you need to look at the insignia,
+            which can only been seen if the jaurabs are unworn.
+Location: Any ruffian around Dock Ward
+            /d/Fearun/waterdeep/dockward/ruffian*
+            (There are a few different ruffians, but only because of movement
+             or description requirements. They have the same stats, skills, and
+             abilities.)
+
+*****
+
+Item: grey leather jaurabs
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/r_greaves_magic_3.c
+Skill/Stat Enhancement: + 10 polearm, -10 defence
+Type:
+    AC: 10
+    Locs: A_LEGS
+    Wear:
+    Extra:
+Magic:
+Resistance:
+Specials: This is one of several armours with the same description. In order
+            to know which armour you have, you need to look at the insignia,
+            which can only been seen if the jaurabs are unworn.
+Location: Any ruffian around Dock Ward
+            /d/Fearun/waterdeep/dockward/ruffian*
+            (There are a few different ruffians, but only because of movement
+             or description requirements. They have the same stats, skills, and
+             abilities.)
+
+*****
+
+Item: grey leather jaurabs
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/r_greaves_magic_4.c
+Skill/Stat Enhancement: + 10 knife, -10 defence
+Type:
+    AC: 10
+    Locs: A_LEGS
+    Wear:
+    Extra:
+Magic:
+Resistance:
+Specials: This is one of several armours with the same description. In order
+            to know which armour you have, you need to look at the insignia,
+            which can only been seen if the jaurabs are unworn.
+Location: Any ruffian around Dock Ward
+            /d/Fearun/waterdeep/dockward/ruffian*
+            (There are a few different ruffians, but only because of movement
+             or description requirements. They have the same stats, skills, and
+             abilities.)
+*****
+
+Item: grey leather jaurabs
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/r_greaves_magic_5.c
+Skill/Stat Enhancement: + 10 unarmed combat, -10 defence
+Type:
+    AC: 10
+    Locs: A_LEGS
+    Wear:
+    Extra:
+Magic:
+Resistance:
+Specials: This is one of several armours with the same description. In order
+            to know which armour you have, you need to look at the insignia,
+            which can only been seen if the jaurabs are unworn.
+Location: Any ruffian around Dock Ward
+            /d/Fearun/waterdeep/dockward/ruffian*
+            (There are a few different ruffians, but only because of movement
+             or description requirements. They have the same stats, skills, and
+             abilities.)
+*****
+
+Item: grey leather jaurabs
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/r_greaves_magic_6.c
+Skill/Stat Enhancement: + 10 club, -10 defence
+Type:
+    AC: 10
+    Locs: A_LEGS
+    Wear:
+    Extra:
+Magic:
+Resistance:
+Specials: This is one of several armours with the same description. In order
+            to know which armour you have, you need to look at the insignia,
+            which can only been seen if the jaurabs are unworn.
+Location: Any ruffian around Dock Ward
+            /d/Fearun/waterdeep/dockward/ruffian*
+            (There are a few different ruffians, but only because of movement
+             or description requirements. They have the same stats, skills, and
+             abilities.)
+
+*****
+
+Item: rusty plate helm / well-oiled plate helm
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/r_helmet_1
+Skill/Stat Enhancement:
+Type:
+    AC: 20 (30 if oiled)
+    Locs: A_HEAD
+    Wear:
+    Extra:
+Magic:
+Resistance:
+Specials: This is not magical per se. The helm is rusty. If you have a 
+            flask of oil, you can <oil> the helmet and clean the rust
+            away. At that point, you have a well-oiled plate helmet and
+            the AC is 30 instead of 20.
+            
+          I placed it in the documentation just in case someone thought
+            something was weird with it.
+            
+Location:
+
+*****
+
+Item: red reinforced_mail jerkin
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/s_chainmail_magic.c
+Skill/Stat Enhancement:
+Type:
+    AC: 30
+    Locs: A_TORSO
+    Wear: you feel a bump inside the jerkin
+    Extra:
+Magic:
+Resistance:
+Specials: if you <take a closer look at the jerkin> you'll notice some lips. 
+    If you kiss the lips, you get a /d/Faerun/waterdeep/dockward/obj/present.c
+    for the cost of 100 mana. Inside the present you find a shot of rum. You could
+    kiss the lips as often as you want for as many rums as you have mana for.
+Location: Sailors in dockward
+            /d/Faerun/waterdeep/dockward/npcs/sailor.c 
+
+
+*****
+
+Item:
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/r_eyebrow_[number]
+            The only difference is the gem available.
+Skill/Stat Enhancement:
+Type:
+    AC:1
+    Locs:A_BROW
+    Wear: heal_hp(-500) *
+            * The stud won't kill you even if your HP is zero. How could you 
+              die from wearing an eyebrow piercing? That's dumb. It does, 
+              however, hurt to wear, because you're jamming a hole in your
+              eyebrow.
+    Extra:
+Magic:
+Resistance:
+Specials: The stud is non-magical. But you can pry out the gem from it 
+            (different studs have different gems). If you do, you'll get 
+            the gem, but discard the now useless stud.
+Location: Sailors in dockward
+            /d/Faerun/waterdeep/dockward/npcs/sailor.c 
+
+
+*****
+
+Item: [adjective] [adjective] mawashi
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/t_mawashi1 (any #)
+Skill/Stat Enhancement:
+Type:
+    AC: 3
+    Locs: A_WAIST
+    Wear: gives a message about the possible emotes.
+    Extra:
+Magic:
+Resistance:
+Specials:   A mawashi is a sumo wrestler's traditional garb.
+
+            This is not a magical item, per se. But, wearing this allows
+            you to <wrestle> people. Wrestling makes this_player() 
+            add_fatigue(-10), and targ->add_fatigue(-5). 
+            
+            It's possible this could result in some PVP advantage if
+            enough people had mawashis and wrestled the same opponent. As a
+            result, it should be reviewed by AoB for balance.
+            
+Location: City Watch Trainees
+            /d/Faerun/waterdeep/dockward/npcs/city_f_trainee.c
+            /d/Faerun/waterdeep/dockward/npcs/city_trainee.c
+ *****
+
+Item: white nearly-modest mawashi
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/t_mawashi1_magic
+Skill/Stat Enhancement: SS_DEX +5
+Type:
+    AC: 3
+    Locs: A_WAIST
+    Wear: gives a message about the possible emotes, increases dex by 5.
+    Extra:
+Magic:
+Resistance:
+Specials:   A mawashi is a sumo wrestler's traditional garb.
+
+            Wearing this mawashi allows
+            you to <wrestle> people. Wrestling makes this_player() 
+            add_fatigue(-10), and targ->add_fatigue(-5). 
+            
+            It's possible this could result in some PVP advantage if
+            enough people had mawashis and wrestled the same opponent. As a
+            result, it should be reviewed by AoB for balance.
+            
+Location: City Watch Trainees
+            /d/Faerun/waterdeep/dockward/npcs/city_f_trainee.c
+            /d/Faerun/waterdeep/dockward/npcs/city_trainee.c
+
+*****            
+
+Item:
+Coder: Raymundo
+File Name: /d/Faerun/waterdeep/dockward/arm/
+Skill/Stat Enhancement:
+Type:
+    AC:
+    Locs:
+    Wear:
+    Extra:
+Magic:
+Resistance:
+Specials:
+Location:
+----------------------------------------
+    TEMPLATES: USE THIS FOR NEW ARMOURS
+----------------------------------------
+ARMOUR:
+Item: 
+Coder: 
+Path: 
+Skill/Stat enhancements: 
+Type: 
+    AC: 
+    Locs: 
+    Wear: 
+    Extra: 
+Magic: 
+Resistance: 
+Specials: 
+Location: 
+
+
+
+
+
+
+
+
+
+
+OLDER ITEMS THAT MAY OR MAY NOT BE RELEASED CONTENT.
+DO NOT USE THIS FORMAT FOR NEW OBJECTS.
+-------------------------------------------------------------
+dark nightscale vest	    
+
+Path: /d/Faerun/underdark/upper/menzo/sorcere/arm/ns_vest
+
+Creator: Midnight			AC: 30
+
+Light armour, made of snakeskin and treated with 
+alchemical mixtures to increase the protection 
+level while keeping the low weight.
+
+Worn by: the students of Sorcere
+
+(/d/Faerun/underdark/upper/menzo/sorcere/npc/student_acid.c)
+(/d/Faerun/underdark/upper/menzo/sorcere/npc/student_fire.c)
+
+The students reside in the various rooms 
+on the lower level of the sorcere tower.
+-------------------------------------------------------------
+
+dark nightscale armband  
+(faerun/underdark/upper/menzo/sorcere/arm/ns_armband)
+
+Creator: Midnight			AC: 30
+
+Light armour, made of snakeskin and treated 
+with alchemical mixtures to increase the 
+protection level while keeping the low weight.
+
+Worn by: the students of Sorcere
+
+(/d/Faerun/underdark/upper/menzo/sorcere/npc/student_acid.c)
+(/d/Faerun/underdark/upper/menzo/sorcere/npc/student_fire.c)
+
+The students reside in the various rooms on 
+the lower level of the sorcere tower.
+-------------------------------------------------------------
+
+dark nightscale greaves	    
+(faerun/underdark/upper/menzo/sorcere/arm/ns_greaves)
+
+Creator: Midnight			AC: 30
+
+Light armour, made of snakeskin and treated with 
+alchemical mixtures to increase the protection 
+level while keeping the low weight.
+
+Worn by: the students of Sorcere
+
+(/d/Faerun/underdark/upper/menzo/sorcere/npc/student_acid.c)
+(/d/Faerun/underdark/upper/menzo/sorcere/npc/student_fire.c)
+
+The students reside in the various rooms on the 
+lower level of the sorcere tower.
+

@@ -1,0 +1,13 @@
+#define MNT "/d/Calia/mountain/path/"
+#define GELAN "/d/Calia/overlord/gelan/"
+#define PALACE "/d/Calia/tmp/glykron/palace/"
+#define DOBJ "/d/Calia/mountain/obj/"
+#define CROAD "/d/Calia/mountain/croad/"
+#define ROAD "/d/Calia/mountain/road/"
+#define CAVE "/d/Calia/mountain/cave/"
+#define TUN "/d/Calia/mountain/lower_tunnel/"
+#define NPCS "/d/Calia/mountain/monsters/"
+#define TP this_player()
+#define TO this_object()
+#define THIS this_object()
+#define NF(x) notify_fail(x)

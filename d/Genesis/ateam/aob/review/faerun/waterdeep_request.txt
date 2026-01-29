@@ -1,0 +1,70 @@
+===========================================================================
+Balance Review Request Submission
+---------------------------------
+
+Request Date: 6-10-2019
+1. What are you requesting to be reviewed?
+
+The Dock Ward neighborhood of Waterdeep, as well as a little bit of South Ward.
+
+2. Please list all files for review, as well as the location of any
+documentation describing the submission.
+
+/d/Faerun/waterdeep/dockward/*
+/d/Faerun/waterdeep/southward/wod2.c, wod1.c, waymoot.c, southgate.c, hwy*,
+pet_shop.c
+/d/Faerun/waterdeep/southward/npcs
+/d/Faerun/waterdeep/southward/obj
+
+Documentation:
+/d/Faerun/info/magic/armours.txt
+/d/Faerun/info/magic/weapons.txt
+/d/Faerun/info/magic/objects.txt
+/d/Faerun/info/quests/quests.txt
+
+3. Describe the benefits that players receive by interacting with your
+submission.
+
+I'm hoping this will be some fun end game content for players. The NPCs are
+large, hopefully large enough to get people out of GK once in a while. There
+are some new quests, for those who like questing, as well as some new weapons
+and armours. Eventually, I'll open other neighborhoods in Waterdeep and maybe,
+just maybe, Waterdeep will finally come to Genesis.
+
+4. Describe the thematic justification for the benefits that the player
+will receive.
+
+Waterdeep is a major part of Faerun. Dockward itself is the most famous
+(infamous?) neighborhood in the City. Hopefully I've done it justice. It is a
+gritty area, on the docks, in a major city. As you'd expect, things can get a
+bit crude.
+
+5. Describe the downsides that the player will experience that justify
+the balance of the submission.
+I'm hoping there won't be too many downsides.
+
+6. How has the submission been tested to ensure that balance is maintained?
+If no testing has been done, how can the AoB team help with this
+testing?
+
+Tomas and I have played around with our juniors. Things seem to be in order.
+However, the numbers should be looked at. Are NPCs too big (or for that matter
+too small) for end game content? Are items too powerful/weak? Are there too
+many items? Too few? Are the quest rewards balanced for the effor the quests
+take? (We did compare the rewards of these quests to ones in the Shire and
+tried to keep things consistent.) I'm ammenable to making changes as needed.
+
+7. Other Comments / Questions
+A) Cotillion was kind enough to give some feedback
+(/d/Faerun/waterdeep/dockward/cotillion_notes.md). I have made a | where I have
+fixed the issues he noticed.
+
+B) You probably already know, but this is my first area (and the first code
+I've written since 1998), so hopefully I didn't mess anything up too badly.
+
+C) It's summer and I'll be on the road for a while. I'm not sure how much I'll
+log in over the next month or two. I will respond as soon as I'm able to any
+questions or concerns. I did, however, want to get this submitted before my
+trip.
+
+--Raymundo

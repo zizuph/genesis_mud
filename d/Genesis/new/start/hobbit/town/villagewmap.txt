@@ -1,0 +1,47 @@
+  Map for wizards
+===================
+          CREEK
+            <
+             <  MOUNTAIN PASS
+             >      [ ]
+              <      |
+               >    [ ]
+               <     |
+               >[M]-[ ]-[M]-[M]
+               < |   |   | X |
+      WOOD    > [M]-[ ]-[M]-[M]   WOOD
+               < |   |   | X |
+               >[M]-[ ]-[M]-[M]         A - Village gate
+                <    |                  B - Pub
+                 >  [ ]                 C - Adv Guild
+                 <   |                  D - Village hall/Crypt(d)
+                 >  [ ]     [E]         E - Bank
+                 <   |     /            F - Bridge
+        [H]-[ ]-[F]-[ ]-[ ]-[J]         G - Shop
+             |   >   |   |   |          H - Bakery
+        [I]-[ ]-[F]-[D]-[ ]-[C]         I - Tobacco Shop
+             |   <   |   |   |          J - Village residences
+            [ ]-[F]-[ ]-[ ]-[B]         K - Canal
+           / |   <       | \            L - Warehouses
+        [G] [ ]  >      [J] [J]         M - Wood
+             |   <                      N - Shipping office
+            [ ]  > PORT [N]
+             |   <       |
+        [ ]-[ ]-[F]-[ ]-[ ]
+       /       CREEK       \
+[L]-[ ]    ~ ~              [ ]-[L] [M]
+     |               ~ ~     |       |
+    [ ]      POND      ~~   [ ]-[L]-[M]
+     |  ~~         ~         |       |
+[L]-[ ]                     [ ]     [M]
+           ~~        ~ ~           /
+                         <> [M]-[M]
+                         <>  |     
+                  REED   <> [M]
+        LAND             <>  |     LAND
+                         <> [M]
+                  REED   <>
+~ ~  ~ ~ ~ ~ ~  ~ ~ ~  CANAL ~ ~  ~ ~ ~ ~ ~  ~ ~ ~ 
+   ~ ~  ~ ~ ~ ~ ~  ~ ~ ~ ~ ~  ~ ~ ~ ~ ~  ~ ~ ~               
+~ ~  ~ ~ ~ SEA ~ ~  ~ ~ ~ ~ ~  ~ ~ ~ ~ ~  ~ ~ ~ 
+~ ~  ~ ~ ~ ~ ~  ~ ~ ~ ~ ~  ~ ~ ~ ~ ~  ~ ~ ~ ~ ~  

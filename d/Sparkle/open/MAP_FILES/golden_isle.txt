@@ -1,0 +1,37 @@
+main
+::MAPDATA::
+path4 5 8
+path3 7 10
+path2 7 12
+park1 1 14
+path1 5 14
+private1 5 16
+private2 8 16
+private3 11 16
+private4 16 16
+joining 5 17
+gnomes 1 19
+pier 5 19
+::MAPDATA::
+
+                          |>
+                         /\
+ ===============        /  \
+ The Golden Isle       /    \
+ ===============      /      \
+                     /        \
+                    /__________\
+     o              [  []  []  ]
+      \             [__________]
+       o              |      |
+       |              | []   |
+       o              |      |
+      /               |   [] |
+ o - o                |      |
+     |             ___|      |
+    [ ][ ][ ] - o /___|      |
+    [ ]           |   |  /\  |
+     |            |   | |  | |
+ B - o Sparkle    |___|_|  |_|
+  ~~~~~~~
+   ~~~~~~~~

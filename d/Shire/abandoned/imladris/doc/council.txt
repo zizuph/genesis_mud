@@ -1,0 +1,45 @@
+Ok, her kommer en del problem stillinger som jeg har angaaende council
+til guilden.
+Jeg skriver det paa engelsk, da det er lettest aa faa skrevet det jeg vil
+si ;-)
+
+To be able to join the guild, you would have to apply for it. The first member
+one of the guildmasters (Rogon, odin) or dunstable can approve the first application
+but those who come after that should be approved by the council.
+Ok, the player applies for the guild. His name would be written into an application
+file, an array with application names. Then either one of us mentioned above can
+do 'list guild applies' f.eks. and get the names of those who have applied, later which 
+the council should do. We should then either approve the apply, or deny the apply where
+in both cases the name would be removed from the array, and a message be written to the 
+player when he comes to check his application in the room where this is done. If the 
+apply is approved a property could be set in the player to let him join the guild in 
+the join room, so that the room where you join checks for this prop. When he/she has
+joined the prop is removed, proper bits set, if they are to be used, and he/she can 
+start training or whatever the player wants to.
+
+So, conclusion:
+	The first problem I have is how to handle the application system, with writing the
+	name of the applier into an array, check to see if the player already is applying,
+	deny/accept the apply and removeing the name from the array, and giving the council
+	or guildmasters a 'list guild apply' command to see who is applying for the guild.
+	The last i think is rather easy to do.
+
+Second problem:
+	
+New council members should be elected with voting, and only replacing one with a majority
+of votes. Should only council members vote, or should all be able to?
+
+Third problem:
+
+The council should be able to ban players not obeying the rules, killing newbies, or
+acting against what the council seems fit and is written in the rules. The ban might
+either be training banishment, or banishment against using spell lists, either all, or
+specific spell lists. The last banishment is a complete guild banishment which will
+forever ban the player from the guild, never being able to join it again, forever and
+ever!
+
+Hmm, thats all i could come up with now for the council, if you have anything to add, 
+please notify me about it :-)
+
+Odin.
+

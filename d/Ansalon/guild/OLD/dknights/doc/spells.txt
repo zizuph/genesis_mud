@@ -1,0 +1,129 @@
+Name : Detect Magic 
+Mana : 50 
+Targets : One item. 
+Casting time : 3 sec. 
+Duration time : - 
+Damage: - 
+Tax : 0.15 % 
+Description: This spell will give the magic properties 
+of an item depending on the cast success of the spell. 
+The higher the success the more information. 
+
+--------------------------------------------------------- 
+
+Name : Cause Fear 
+Mana : 30 
+Targets : One target. 
+Casting time : 1 sec. 
+Duration time : - 
+Damage: - 
+Tax : 0.20 % 
+Description: When cast this spell will force a target 
+to flee from the room. The effect can be resisted if 
+the targets Dis is higher then the 
+casters (Int + (Dis / 2)). 
+
+--------------------------------------------------------- 
+
+Name : Symbol of Pain 
+Mana : 250 
+Targets : One location. 
+Casting time : 5 sec. 
+Duration time : 3 min. 
+Damage: 101-200 every 3. min. 
+Tax : 0.25 % 
+Description: Once cast this spell will create a 
+symbol that will float in the middle of the room, 
+everytime anyone enters the room they will sense 
+the symbol and they will be affected. This effect 
+will cause 101-200 damage, and lower their Str and 
+Con with 15%. 
+
+--------------------------------------------------------- 
+
+Name : Symbol of Fear 
+Mana : 250 
+Targets : One location. 
+Casting time : 5 sec. 
+Duration time : 3 min. 
+Damage: - 
+Tax : 0.25 % 
+Description: Once cast this spell will create a 
+symbol that will float in the middle of the room, 
+everytime anyone enters the room they will have a 
+chance equal to (100 - target Dis / 6 ) to be 
+overcome by fear and flee from the room. 
+
+--------------------------------------------------------- 
+
+Name : Fireball 
+Mana : 300 
+Targets : One target. 
+Casting time : 2 sec. 
+Duration time : - 
+Damage: 150-750 
+Tax : 0.60 % 
+Description: This spell will cause a burning ball 
+of fire to strike an enemy, causing serious fire 
+damage, if the target resists the effect the 
+damage to reduced by 50%. 
+
+--------------------------------------------------------- 
+
+Name : Wall of Ice 
+Mana : 350 
+Targets : One exit 
+Casting time : 6 sec. 
+Duration time : 2 min. 
+Damage: - 
+Tax : 0.50 % 
+Description: Once cast this spell will create a 
+massive wall of ice on any exit to the room. Noone 
+will be able to get past it until it has melted 
+away. 
+
+--------------------------------------------------------- 
+
+Name : Power word blind 
+Mana : 500 
+Targets : One target 
+Casting time : 6 sec. 
+Duration time : 30 sec. 
+Damage: - 
+Tax : 1.0 % 
+Description: This spell will blind an enemy for 
+the duration time. The higher magic resistance 
+the target has, the greater the chance there is 
+that the effect will be resisted, the chance of 
+getting blinded is (100 - enemy magic resistance). 
+
+--------------------------------------------------------- 
+
+Name : Power word stun 
+Mana : 600 
+Targets : One target 
+Casting time : 6 sec. 
+Duration time : 30 sec. 
+Damage: - 
+Tax : 1.0 % 
+Description: This spell will stun an enemy for 
+the duration time. The higher magic resistance 
+the target has, the greater the chance there is 
+that the effect will be resisted, the chance of 
+getting stunned is (100 - enemy magic resistance). 
+
+--------------------------------------------------------- 
+
+Name : Power word kill 
+Mana : 700 
+Targets : One target 
+Casting time : 6 sec. 
+Duration time : - 
+Damage: 1000 
+Tax : 1.5 % 
+Description: This spell will harm an enemy for 
+1000 hp. The higher magic resistance the target 
+has, the greater the chance there is that the 
+effect will be resisted and lowed by 50%, the 
+chance of getting harmed is 
+(100 - enemy magic resistance). 

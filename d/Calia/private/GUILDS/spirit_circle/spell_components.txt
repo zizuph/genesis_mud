@@ -1,0 +1,41 @@
+=========================================================================
+ Spell   | Spell        | Spell |      |     |   Spell     | Component(s)
+  Name   | Description  | Form  | Mana | Tax | Component(s)|    Value
+=========+==============+=======+======+=====+=============+=============
+Psychi   | Tell Line    |  Div  |  10  | 0.5 | None        |  N/A
+Exevrisko| Det. Align.  |  Div  |  15  | 0.1 | Skull       |  N/A
+Magikos  | Det. Magic   |  Div  |  20  | 0.1 | Rib/Thigh   |  N/A
+Fos      | Light        |  Enc  |  20  | 0.5 | Quartz      | 12 copper
+Synithis | Sum. Familiar|  Con  |  20  | 0.1 | Rib/Intest  |  N/A
+=========+==============+=======+======+=====+=============+=============
+Siopi    | Silence      |  Enc  |  45  | 0.5 | Lapis       | 576 copper
+Gsechon  | Name Forget  |  Div  |  25  | 0.5 | Amber       | 144 copper
+Vekpos   | Turn Undead  |  Div  |  25  | 0.25| Skull       |  N/A
+=========+==============+=======+======+=====+=============+=============
+Eirini   | Peace        |  Div  |  40  | 0.75| Carnelian   | 288 copper
+Skiamorfi| Shadow Form  |  Tra  | 100  | 0.75| Skia Comp   | 390 copper
+=========+==============+=======+======+=====+=============+=============
+Therapeao| Heal         |  Enc  | 100  | 1.0 | Pearl       | 432 copper
+Giatreou | Cure Poison  |  Enc  | 100  | 1.0 | Yellow Topaz| 1728 copper
+=========+==============+=======+======+=====+=============+=============
+Skiamati | Shadow Eyes  |  Div  |  70  | 1.0 | Amethyst    | 428 copper
+=========+==============+=======+======+=====+=============+=============
+Apergo   | Soul Strike  |  Enc  | 100  | 1.5 | Ruby        | 3456 copper
+Anakalo  | Word/Recall  |  Tra  | 100  | 1.0 | Anak Comp   | 769 copper
+=========+==============+=======+======+=====+=============+=============
+Anagnoriz| True Identity|  Div  | 100  | 1.0 | Bk. Diamond | 6048 copper
+Energia  | Energy Drain |  Div  | 175  | 1.5 | Ener Comp   | 2565 copper
+=========+==============+=======+======+=====+=============+=============
+Metaballo| Con. Weapon  |  Tra  | 200  | 1.5 | Meta Comp   | 2562 copper
+=========================================================================
+
+
+
+ 
+
+
+
+
+
+
+

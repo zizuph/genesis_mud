@@ -1,0 +1,14 @@
+
+
+SKILL NUMBER    DEFINE NAME       DESCRIPTION
+=============================================
+
+142000          SS_BERSERK        Gladiator special skill.
+142001          SS_CHARGE         Gladiator special attack.
+142002          SS_GLAD_LEVEL     Not used yet.
+142003          SS_GLAD_COMPARE   Not used yet.
+142004          SS_MIL_SHIELD     Tyrian Militia shield defence.
+142005          SS_IMPALE         Tyrian Militia special attack.
+
+
+   File last edited by Decius, March 15 1997.

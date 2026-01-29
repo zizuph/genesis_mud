@@ -1,0 +1,41 @@
+main
+::MAPDATA::
+forest1 2 4
+oldroad1 6 4
+forest2 10 4
+rangerpath1 6 6
+oldroad2 10 6
+forest15 18 6
+forest16 22 6
+forest12 26 6
+forest13 30 6
+rangerpath3 2 8
+rangerpath2 6 8
+oldroad3 10 8
+forest3 14 8
+forest5 18 8
+forest7 22 8
+forest9 26 8
+garden 30 8
+hut 30 8
+forest14 10 10
+forest4 14 10
+forest6 18 10
+forest8 22 10
+forest10 26 10
+forest11 30 10
+thicket_entrance 34 10
+::MAPDATA::
+
+        Druedain Forest
+o00oo00oo0o0o00o00oo0oo00o00oo0o0o000
+0o0oo   oo00oo0o0oo00oo0o0oo0oo00oo0o
+0ooo0 o  000o000oo0o0oo0o0oo0o0o0o0o0
+0o0o0   \   o0o00o00o00o0ooo0o00o0o0o
+oo0o0oo0  o 0o00oo00oo0o0o0o00oo0o0o0
+0o0o00o0o | 0o0o00o0o0o00ooo0o0o00oo0
+oo0oo0o0o o o0o0o00o0o0oo00o00o00o0oo
+0o0o0oo0o   00oo00o0o0o00ooo0o00o0o0o
+oo00o0o0o00oo0o0o0oo00oo00oo00oo00o0o
+00o0o0o0o0o0o0o0o0oo0o0o0o0oo0o0o0oo0
+ooo00oo0o0o0o00oo0o0oo00o000ooo00oo0o

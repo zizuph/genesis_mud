@@ -1,0 +1,49 @@
+Here are a list of the magical items in the Dunlending Forest, 
+along with any special properties. The intention is for this 
+document to make it easy for an AOB review and, upon approval, 
+to be added to the domain-wide magical items list.
+
+FOOD ITEMS
+**********
+
+Magic Chicory Loaf
+Food value: 350
+effect: Fatigue increases by 70 
+            the equivalent of 2
+            chicories.
+Drop rate:  1% chance of dropping in any of 26 chests.
+Location: /d/Gondor/rohan/farm/farm/camp/obj/food/magic_chicory.c
+
+Magic Suranie Loaf
+Food Value: 350
+Effect:     add_mana(100), the 
+            equivalent of eating 2
+            suranies.
+Drop rate   1% chance of dropping in any of 26 chests.
+Location:   /d/Gondor/rohan/farm/farm/camp/obj/food/magic_suranie.c
+
+
+
+ARMOURS
+*******
+
+[adjective] blackened platemail
+AC:                 50
+Slots:              A_BODY
+Magic Properties:   adds 20 resistance to acid, air, electricity, 
+                        earth, water, OR illusion magic. The 
+                        [adjective] changes with the type of 
+                        magic resistance.
+Location:           /d/Gondor/rohan/farm/farm/camp/arm/d_platemail_magic.c
+
+
+WEAPONS
+*******
+[adective] mithril-inlaid [weapon]
+**This weapon will clone as axe, sword, knife, polearm, or club**
+Hit:                45 (40 for dagger) max
+Pen:                45 (40 for dagger) max
+Magic Properties:   Gives up to 3 levels of light depending on the player's dis.
+                    Has a special attack that's dependent on dis.
+                    Reduces weight when wielded by player's dis * 10.
+Location:           /d/Gondor/rohan/farm/farm/camp/wep/weapon_magic.c

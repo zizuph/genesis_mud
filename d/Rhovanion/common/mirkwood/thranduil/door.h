@@ -1,0 +1,2 @@
+#define SILVER 12343211
+#define IRON 21324356

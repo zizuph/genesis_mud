@@ -1,0 +1,7 @@
+
+ pirates                    Lists active pirates.       [p]
+
+ help eyepatch              This message.         [help ep]
+ help pirate emotes         Lists emotes.         [help pe]
+ help pirate levels         Lists guild levels.   [help pl]
+

@@ -1,0 +1,131 @@
+
+
+                         The Keepers of Telberin
+                         -----------------------
+
+   The Keepers of Telberin are a basically religious elven racial guild. They
+are followers of the elven God of Light, Telan-Ri. According to the history
+available in the Castle Telberin, Telan-Ri revealed himself to the ancient
+elves and told them to seek shelter and make a colony in the forests of 
+Emerald. Once here, the Keepers were charged with ridding the lands of Emerald
+of the creatures of darkness which inhabited the dark lands beyond Telberin,
+claiming those areas for Telan-Ri.  Those who took up the cause were granted
+special blessings to give them abilities to aid them in combat and healing.
+Two castes emerged from this battle, Warriors and Clerics. The warriors began
+using their magic to enhance their combat abilities, the clerics dashed to the
+battlefield, shielding the warriors and healing the wounded. The battle was
+long and the air full of the smell of the dead and dying, but in the end, the
+elves prevailed. Thus was the beginning of the First of the Keepers. From
+among these brave soldiers and clerics were chosen a king and queen. The
+rest dubbed themselves the Keepers of Telberin; Their duty to uphold their
+values and protect the city, as well as ensuring the citizens of the city
+upheld the values of Telan-Ri.  Over the centuries that have passed, much of
+the magical knowledge of the Keepers of Telberin has been lost, but their
+pride and spirit lives on.
+
+The Keepers of Telberin recieve the following as part of their membership:
+
+1) Guild items
+     A white sash, worn about the waist.
+
+2) An extensive set of common and caste-specific emotions. There are quite
+   a few emotions available to the Keepers of Telberin. Each caste has a set
+   of emotions which are specific to the Clerics or Warriors, such as tending
+   one's wounds (warriors), or praying (clerics). For a full list of these
+   emotes, see the file /d/Emerald/common/guild/newkot/doc/emotions.help
+
+3) Start location. The guild provides a start location room in the top floor
+   of Castle Telberin. This room can only be reached by guild members and
+   provides no facility such as a drop room or anything of that sort. Only
+   guild members may start there.
+
+4) Bulletin Board. A simple bulletin board is provided in the start room
+   to aid in communication between members of the Keepers.
+
+5) Titles. The Keepers of Telberin are provided with additional titles.
+   The formula for determining the rank within the guild depends on the
+   caste of the player. If the player is a warrior, then it is the highest
+   weapon skill of the player combined with a weighted racial guild stat
+   to produce an index into an array of titles. The clerics have the
+   same functionality, only in place of the highest weapon skill, spellcraft
+   is used.
+
+The Keepers of Telberin guild is located on the third floor of Castle 
+Telberin, which can be reached at the center of Telberin, in Northeast
+Emerald. The following is a list of all of the rooms that are important
+to the guild and their function:
+
+       Function               Path
+       --------               ----
+       Joining Room           /d/Emerald/telberin/castle/th5.c
+       Vilgurn/Blessing       /d/Emerald/telberin/castle/3k1.c
+       Foyer                  /d/Emerald/telberin/castle/3k2.c
+       Library/Info on Join   /d/Emerald/telberin/castle/3k5.c
+       Guild Hall Foyer       /d/Emerald/common/guild/kot/room/kot_hq1.c
+       Cleric Training Room   /d/Emerald/common/guild/kot/room/kot_hq2.c
+       Start/Board Room       /d/Emerald/common/guild/kot/room//kot_common.c
+       Warrior Training Room  /d/Emerald/common/guild/kot/room/kot_hq3.c
+
+The following is a list of all guild objects/souls/files important
+to the guild's functionality, their use and pathname:
+
+       Object            Path
+       ------            ----
+       Guild Shadow      /d/Emerald/common/guild/kot/kot_shadow.c
+       Warrior Soul      /d/Emerald/common/guild/kot/warrior_soul.c
+       Cleric Soul       /d/Emerald/common/guild/kot/cleric_soul.c
+       Common Soul       /d/Emerald/common/guild/kot/kot_soul.c
+       Sash              /d/Emerald/common/guild/kot/obj/sash.c
+       Guild Manager     /d/Emerald/common/guild/kot/log/manager.c
+       (Help Files)      /d/Emerald/common/guild/kot/help/*.help
+       Vilgurn           /d/Emerald/telberin/castle/npc/vilgurn.c
+       Queen             /d/Emerald/telberin/castle/npc/queen.c
+       King              /d/Emerald/telberin/castle/npc/king.c
+
+                    Joining the Keepers of Telberin
+                    -------------------------------
+
+	Joining the Keepers of Telberin is not as simple as it is in
+most guilds. The joining is more of a ritual than anything else. According
+to information available in the study on the third floor of Castle Telberin,
+the player must ask Vilgurn for his blessing. This can only be done if the
+player is polite enough to introduce to him and to sit at his desk before
+asking for the blessing. The blessing will only be given to positively
+aligned elves.
+	Once the player has the blessing (the leather belt described 
+above), the player can then go down to the throne room (th5.c). Depending
+on whether the player wants to be a cleric or warrior, the player can
+then type 'show belt to queen' or 'show belt to king', respectively. This
+completes the ritual, and the royal member then gives the player the
+dagger, while the guild_server.c takes care of the dirtywork of adding
+the soul/shadow to the player. At this point the player is a member of
+the Keepers of Telberin.
+
+
+			GUILD TAX BREAKDOWN
+			-------------------
+
+The Keepers of Telberin have a 2% Guild Tax.
+
+/d/Emerald/common/guild/kot/room/kot_hq2.c (Cleric Training Room)
+
+skill             max trained           taxed levels         % tax
+==================================================================
+location sense        50                     20               0.33333334
+herbalism             50                     30               0.5
+spellcraft            50                     30               0.5
+unarmed combat        33                      3               0.075000003
+knife                 42                     12               0.30000001
+------------------------------------------------------------------------
+                     225                                      1.7083335
+/d/Emerald/common/guild/kot/room/kot_hq3.c (Warrior Training Room)
+
+skill             max trained           taxed levels         % tax
+==================================================================
+herbalism             50                     30               0.5
+sword                 36                      6               0.15000001
+defence               27                      7               0.175
+tracking              50                     20               0.33333334
+knife                 50                     20               0.5
+------------------------------------------------------------------------
+                     213                                      1.6583333

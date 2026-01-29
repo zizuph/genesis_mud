@@ -1,0 +1,48 @@
+Message: 51
+From   : Shiva
+Reply  : 2 speels
+Date   : Mar  4 1998
+
+lp_med.c
+
+- Wouldn't it be nicer to use set_spell_conc_message() rather than
+  using this switch() in query_spell_mess() ?
+
+- setup_my_spells() seems rather wasteful.  Is that Spells array
+  used elsewhere?  If not, it seems like a waste of memory and
+  cpu.
+
+- Why not just reset the long desc when mana is stored rather
+  than using a VBFC in the long (query_mana_stored()) ?
+
+terror_sh.c
+
+- Why use LIVE_I_CASTING_TERROR?  Can't you simply set a flag
+  in the shadow?  Prop lookups aren't cheap.
+
+- Perhaps put a living() check in not_khiraa().  No sense in
+  doing two filters, one for livings and one for members, when
+  you can do just one and check for both.
+
+- spell resistance is never negative
+
+- I'm not sure I like the idea of moving npcs back after they
+  flee.  If an npc needs to stay in one place, they should
+  have NPC_I_NO_RUN_AWAY.
+
+- always use "$command" when using command() on players
+
+- Use OB_NAME() to target someone with command()
+
+ltouch.c
+
+- The stun object should be done as a spell effect object, I
+  think.
+
+ghoul_stun.c
+
+- Why add OBJ_I_INVIS to a no_show object?
+
+- The stop_object is going to be the medal, right?  If so,
+  where is "my_stop"?
+

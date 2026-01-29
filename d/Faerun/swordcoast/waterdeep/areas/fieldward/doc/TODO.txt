@@ -1,0 +1,14 @@
+- proper indoor std room
+- link rooms
+- map
+- less "magical knowledge" of names of streets and places in room descs
+- waystation outside
+- waystation inside
+- north gate and gatehouse
+- guards rank lieutenant and captain
+- wall west
+- wall east
+- trollgate and trollfort
+- cliffguard keep
+- guards rank commander and specific file for commander
+- city gate

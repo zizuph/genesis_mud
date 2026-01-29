@@ -1,0 +1,23 @@
+The following items have magical properties as of 2021-09-29. Please see the
+individual files for details:
+
+common/arm/kbbracers.c
+common/arm/kdgreavs.c
+common/arm/pen_robe.c
+common/drakmere/arm/dl_greaves.c
+common/drakmere/arm/ring_of_vigor.c
+common/drakmere/arm/dl_helm.c
+common/drakmere/arm/dl_plate.c
+common/drakmere/arm/shim_plate.c
+common/drakmere/wep/dl_scepter.c
+common/drakmere/wep/h_sword.c
+magical_armours/skullplate.c
+magical_misc/bloodstone_medallion.c
+magical_weapons/2h_beast_weapon_base.c
+common/arm/fiery_platemail.c
+common/arm/doomguard_robe.c
+/common/beach/bountiful/chest_rewards/dis_choker.c
+/common/beach/bountiful/chest_rewards/magic_scythe.c
+/common/beach/bountiful/chest_rewards/shadowy_platemail.c
+/common/beach/bountiful/chest_rewards/sight_ring.c
+/common/drakmere/arm/ring_of_vigor.c

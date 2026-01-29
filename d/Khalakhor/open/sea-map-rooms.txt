@@ -1,0 +1,64 @@
+  1111111---------          11111111
+  6543210987654321012345678901234567
+16CCCCCTTTCCCCCCCCCCCCSSSSSCCCCCCCCC
+15CCCCTTlTTCCCCCCCCCSSSnnnSSCCCCCCCC
+14CCCTTl-lTTCCCCCCCSSSn---nSSCCCCCCC 
+13CCCTl---lTTCCCCCSSSn-	  -nSSCCCCCC  
+12CCCTTl-llTTCCCCCSSn- 	--nSSCCCCCCC
+11CCCCTTl--lTTCCCSSn-  	-nSSSCCCCCCC
+10CCCCCTTllTTCCCSSn-   	 -nSSSCCCCCC
+-9CCCCCCTTTTCCCCSSn-   	  -nSSCCCCCC
+-8CCCCCCCCCCCCCCSSn-   	 -nSSCCCCCCC
+-7CCCCCCCCCCCCCCFFn-   	  -nDDCCCCCC
+-6CCCCggCCCCCCCCCFFn-    -nDDDDDCCCC
+-5CCCg--gCCCCCCCCFFFn- 	  -nDDDDDCCC
+-4CCg---gCCCCCCCFFFww- N -eeeeDDDCCC 
+-3CCCg-gCCCCCCFFFww--  	  ----eDDDCC
+-2CCCCgCCCCCCFFww--    	-     -eDDCC
+-1CCCCCCCCCCFFw--     --e-     -eDDC  
+ 0CCCCCCCCCFFw-	   ---wwee-    -eDDC  
+ 1CCCCCCCCCMMw-   -wwwMMe- --  	-eDC
+ 2OOOOOOOCCMMw-	  -wMMMMLe-ee---eDDC   
+ 3OOOOccOOCCMMw- --wMMMCLLeLLee-eDCC         
+ 4OOOc--cOOCCMMw-wMMMCCCLLLLLLe-eLCC      
+ 5OOc-  -cOOCCMMwMMMCCCCCLLLCLLeLLCC
+ 6OOOc-  -cOOCCMMMMCCCCCCCCCCCLLLLCC
+ 7OOc-  -cOOCCCCMMCCCCCCCEEECCCLLCCC
+ 8OOOc-  -cOOCCCCCCCCCCCEbbbECCCCCCC
+ 9OOc- Z -cOOOCCCCCCCCCEbb-bbECECCCC
+10OOOc-   -cOOOOOCCCCCEbb- -bEEEEECC
+11OOOOc----cOOOOOOOOCCEb-  -bbEbbEEC           
+12OOOOssssssOOOOOOOOCCEbb----bb--bEC  
+13OOOOOr--rOOOOOOOOOOCCEEbbbb--bbEEC 
+14OOOOOr---rOOOOOOOOOOCCEEEEEbbEEECC
+15OOOOOrrrrrOOOOOOOOOOOCCCCEEEEECCCC
+16OOOOOOOOOOOOOOOOOOOOOOCCCCCCCCCCCC
+
+Oceans:
+C - Cuan Siorruidh (Outer Ocean)
+O - Okiyan (Nyreese Sea)
+
+Seas:
+L - Lear Min (Port Macdunn Sea)
+M - Miath Rae (Sa Morgan Sea)
+T - Farraige T'adh (Leprechaun Sea, Lucky Sea)
+S - Farraige Scanthe (North Sea, Cracked Sea)
+E - Lear Eahdomhain (Baile Ashlagh, Shallow Sea)
+F - Farraige Tradalah (Trade Sea)
+D - Lear Dorcha (Darkening Sea)
+
+Shorelines:
+
+n - north speir (Daenbraigh)
+w - sw speir (Sa Morgan)
+e - se speir (Port Macdunn)
+b - baile ashlagh
+g - eil galaith
+l - leprechauns
+c - nyreese
+r - carisca
+s - straight between Nyreese and Carisca
+
+- - land contour
+N - Khalakhor Nexus
+Z - Cadu on Nyreese

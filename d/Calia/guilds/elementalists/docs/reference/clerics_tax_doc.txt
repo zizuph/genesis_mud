@@ -1,0 +1,160 @@
+*****************************************************************************
+   TAX INFORMATION FOR THE ELEMENTAL CLERICS OF CALIA (Occupational/Layman)
+*****************************************************************************
+AG = Adventures Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)
+
+Occupational Skills
+                   max level | taxed(AG) | taxable | modifier | tax 
+--------------------------------------------------------------------
+General
+--------------------------------------------------------------------
+SS_ELEMENT_AIR      90*        20          70*        1.0        1.167* (0.917)
+SS_ELEMENT_FIRE     90*        20          70*        1.0        1.167* (0.917)
+SS_ELEMENT_WATER    90*        20          70*        1.0        1.167* (0.917)
+SS_ELEMENT_EARTH    90*        20          70*        1.0        1.167* (0.917)
+SS_ELEMENT_LIFE     90*        20          70*        1.0        1.167* (0.917)
+SS_SPELLCRAFT      100         20          80         1.0        1.333
+SS_WEP_CLUB         60         30          30(60)**   1.5        0.750
+SS_PARRY            55         25 &        30(60)**   1.5        0.750
+SS_DEFENCE          75         45 &        30(60)**   1.5        0.750
+--------------------------------------------------------------------------
+Totals             720*                   550*                   8.418%
+
+*  - Only one skill out of 5 elements can be 90 (70 taxed). All others are 75 
+     (55 taxed).
+** - Counted as double because they are alien skills.
+
+Taxable Slots Allowed   : 550/550
+TOTAL TAX FOR OCCUPATIONAL SKILLS: 8.418%
+
+Layman Skills
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+General
+--------------------------------------------------------------------------
+SS_LOCATION_SENSE      50         20          30          1.0        0.500
+SS_AWARENESS           50         20          30          1.0        0.500
+SS_HERBALISM           60         20          40          1.0        0.667
+SS_FORM_ABJURATION     50         20          30          1.0        0.500
+SS_FORM_CONJURATION    50         20          30          1.0        0.500
+SS_FORM_ENCHANTMENT    50         20          30          1.0        0.500
+SS_FORM_TRANSMUTATION  50         20          30          1.0        0.500
+SS_FORM_DIVINATION     50         20          30          1.0        0.500
+SS_PARRY               25          0          25(50)&&    1.5        1.250
+SS_DEFENCE             45         20          25(50)&&    1.5        1.250
+--------------------------------------------------------------------------
+Totals                410         60         350                     6.667%
+
+Taxable Slots Allowed   : 350/350
+TOTAL TAX FOR LAYMAN SKILLS: 6.667%
+
+&  - These skills are in addition to those trainable in the lay section 
+     of the guild and therefore taxed only as an addition amount of skill 
+     points beyond that level.
+
+&& - Counted as double because they are alien skills or above 60 skill points.
+
+Racial Skills
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+General
+--------------------------------------------------------------------------
+SS_LOCATION_SENSE      60 &       50 &        10 &        1.0        0.167
+SS_AWARENESS           60 &       50 &        10 &        1.0        0.167
+SS_HERBALISM           80 &       60 &        20(40)&&    1.0        0.333
+SS_WEP_CLUB            75 &       60 &        15(30)&&    1.5        0.375
+SS_PARRY               70 &       55 &        15(30)&&    1.5        0.375
+SS_DEFENCE             90 &       75 &        15(30)&&    1.5        0.375
+--------------------------------------------------------------------------
+Totals                480 &                  150 &                   1.792%
+
+&  - These skills are in addition to those trainable in the occ/lay section 
+     of the guild and therefore taxed only as an addition amount of skill 
+     points beyond that level.
+&& - Counted as double because they are alien skills or above 60 skill points.
+
+Taxable Slots Allowed   : 150/150
+TOTAL TAX FOR RACIAL SKILLS: 1.792%
+
+TAX SUMMARY FOR SPELLS (sorry for the non-conformed formatting on the 
+                        table below)
+
+Fire                 | Air                  | Water                | Earth                | Spirit               |
+                     |                      |                      |                      |                      |
+Spell Name    Tax    | Spell Name    Tax    | Spell Name    Tax    | Spell Name    Tax    | Spell Name    Tax    |
+==================================================================================================================
+anemos        0.150% | anemos        0.150% | anemos        0.150% | anemos        0.150% | anemos        0.150% |
+apodosi       0.375% | apodosi       0.375% | apodosi       0.375% | apodosi       0.375% | apodosi       0.375% |
+elefrinisi    0.375% | elefrinisi    0.375% | elefrinisi    0.375% | elefrinisi    0.375% | elefrinisi    0.375% |
+pyrofosti     0.150% | pyrofosti     0.150% | pyrofosti     0.150% | pyrofosti     0.150% | pyrofosti     0.150% |
+choma         0.375% | choma         0.375% | choma         0.375% | choma         0.375% | choma         0.375% |
+schirmo       0.750% | schirmo       0.750% | schirmo       0.750% | schirmo       0.750% | schirmo       0.750% |
+unteristi     0.750% | unteristi     0.750% | unteristi     0.750% | unteristi     0.750% | unteristi     0.750% |
+aleipso       ****** | aleipso       ****** | aleipso       ****** | aleipso       ****** | aleipso       ****** |
+dynami        0.750% | dynami        0.750% | dynami        0.750% | dynami        0.750% | dynami        0.750% |
+evimero       0.750% | evimero       0.750% | evimero       0.750% | evimero       0.750% | evimero       0.750% |
+thefloga      ****** | thafloga      ****** | thafloga      ****** | thafloga      ****** | thafloga      ****** |
+magikos       0.375% | magikos       0.375% | magikos       0.375% | magikos       0.375% | magikos       0.375% |
+siopi         0.375% | siopi         0.375% | siopi         0.375% | siopi         0.375% | siopi         0.375% |
+==================================================================================================================
+enkav         ****** | astrapi       ****** | kryo          ****** | oxy           ****** | ousia         ****** |
+aleipso       ****** | aleipso       ****** | aleipso       ****** | aleipso       ****** | aleipso       ****** |
+anagnorizo    0.750% | anagnorizo    0.750% | anagnorizo    0.750% | anagnorizo    0.750% | anagnorizo    0.750% |
+skiamorfi     0.875% | skiamorfi     0.875% | skiamorfi     0.875% | skiamorfi     0.875% | skiamorfi     0.875% |
+viloda        ****** | ripi          ****** | krystallos    ****** | onkolithos    ****** | diochetevo    ****** |
+anavo         0.750% | afoplizo      0.750% | dilitirio     0.750% | livra         0.750% | tihosskias    0.750% |
+tromazo       0.375% | paradido      0.375% | kinisi        0.375% | diakopi       0.375% | thesi         0.375% |
+teichos       0.750% | apofevgo      0.750% | pano          0.750% | aspida        0.750% | kato          0.750% |
+==================================================================================================================
+enkav         0.750% | astrapi       0.750% | kryo          0.750% | oxy           0.750% | ousia         0.750% |
+aleipso       0.750% | aleipso       0.750% | aleipso       0.750% | aleipso       0.750% | aleipso       0.750% |
+giatreou      0.375% | giatreou      0.375% | giatreou      0.375% | giatreou      0.375% | giatreou      0.375% |
+viloda        0.750% | ripi          0.750% | krystallos    0.750% | onkolithos    0.750% | diochetevo    0.750% |
+fragmos       0.375% | fragmos       0.375% | fragmos       0.375% | fragmos       0.375% | fragmos       0.375% |
+seira         0.1875%| metafora      0.1875%| treximo       0.1875%| diasosi       0.1875%| aorato        0.1875%|
+panikos       0.1875%| trefo         0.1875%| antistasi     0.1875%| kourasi       0.1875%| vekpos        0.1875%|
+==================================================================================================================
+syndyasmos    1.125% | syndyasmos    1.125% | syndyasmos    1.125% | syndyasmos    1.125% | syndyasmos    1.125% |
+==================================================================================================================
+Fire total   13.1750%| Air total    13.1750%| Water total  13.1750%| Earth total  13.1750%| Spirit total 13.1750%|
+
+
+TOTAL TAX FOR SPELLS: 13.1750%
+
+Combat aid will be taxed for the entire guild's maximum of 325% (out of a maximum
+of 330% allowable)
+Debuff Spells -  85% (highest combination of debuffs going)
+Attack Spells - 100% (highest other spell that could be cast while debuffs on)
+Combo Spells  -  60% (maximum of combo spell)
+See Invis     -  10% (optional racial guild ability in skiamorfi prayer)
+Synd Racial   -  15% (optional Syndyasmos CAID for racial members)
+
+TOTAL TAX FOR RACIAL COMBAT AID: 25% / 25        = 1.000%
+TOTAL TAX FOR LAYMAN COMBAT AID: 80% / 25        = 3.200%
+TOTAL TAX FOR OCCUPATIONAL COMBAT AID: 245% / 25 = 9.800%
+
+
+***********************************************
+             Taxation Summary
+***********************************************
+TOTAL TAX FOR LAYMAN SKILLS:            6.667%
+TOTAL TAX FOR OCCUPATIONAL SKILLS:      8.418%
+TOTAL TAX FOR SPELLS:                  13.175%
+TOTAL TAX FOR LAYMAN COMBAT AID:        3.200%
+TOTAL TAX FOR OCCUPATIONAL COMBAT AID:  9.800%
+
+TOTAL TAX FOR RACIAL SKILLS:            1.792%
+TOTAL TAX FOR RACIAL COMBAT AID:        1.000%
+===============================================                       
+Total Tax Occ/Lay                      41.260% 
+Total Tax with optional Racial         44.052%                    
+
+Rounded Total Tax                      41%
+Rounded Total Tax with optional Racial 44%
+
+Racial Guild Tax set at                 3%
+Layman Guild Tax set at                11%
+Occupational Guild Tax set at          30%
+************************************************

@@ -1,0 +1,38 @@
+_Main guild files_
+
+  guild rooms     ~Calia/palace/rooms/light/guild.c 
+                                            trainroom.c 
+                                            recruiter.c
+                                            sanctuary.c
+                                            boardroom.c
+                                            rack.c
+                                            councilroom1.c
+                                            councilroom2.c
+                                            keyroom.c
+                                            private_library.c
+                                              
+  main guild object:
+                  ~Calia/palace/objects/calian_medallion.c
+
+  other guild-related objects:
+                  ~Calia/palace/objects/*rack*
+                                        *book*
+                                        *poster*
+
+
+  specials        ~Calia/palace/specials/calian_cmdsoul.c 
+                                         emotes1/2/3.c, 
+                                         team_emotes.c, 
+                                         calian_specials.c, 
+                                         help.c
+                                         calian_shadow.c
+                                         council_code.c
+                                         recruiter_code.c
+                                         calian_code.c
+                                         title_handler.c 
+                                         calian.h, council.h, 
+                                         recruiter.h, soulconst.h
+
+  docs            ~Calia/palace/texts/*
+                  In particular look at the file called "battle" as it 
+                  relates closely to the two Calian special attacks. 

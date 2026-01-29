@@ -1,0 +1,30 @@
+Fysix' projects
+------------------------------------
+last modified: 19 Sept 1997
+
+First project:
+        coding steeds that can be ridden.
+Date:   May 1997
+Dir:    /d/Gondor/std/steed/
+Status: steeds that can have one single rider are currently in the
+        game. The Krynn knights (Morrigan) and
+        some transportation creature in Avenir uses it (Cirion).
+        I'm now working on getting multiple rider steeds to work.
+        There were some troubles with teaming and riding at the
+        same time. Also I should look into paying the fee when
+        boarding ships when mounted.
+
+Second project:
+        boats used for transport in Gondor.
+Date:   July 1997
+Dir:    /d/Gondor/std/boat/
+Status: boats are working. They haven't been used yet, so some
+        details might have to be worked out.
+
+Third project:
+        Riders of Rohan.
+Date:   September 1997
+Dir:    /d/Gondor/rohan/edoras/?
+Status: The ideas are there. I'll be coding it along while I get
+        the multiple rider steeds fixed.
+

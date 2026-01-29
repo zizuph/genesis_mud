@@ -1,0 +1,93 @@
+The Thieves guild implements the following commands which are used
+on NPCs all over Genesis. It may therefore be necessary to make a
+few considerations regarding the thief skills when coding an NPC:
+
+- steal
+- backstab
+
+STEAL:
+======
+
+The property
+
+LIVE_M_ATTACK_THIEF (value: "_live_m_attack_thief")
+-------------------
+is evaluated after a theft. This will be sufficient for most cases,
+and only in some very rare occurances will you need to use one of
+the hook functions below.
+Here is how LIVE_M_ATTACK_THIEF works, both for the victim and for
+onlookers:
+
+prop value     | effect if i'm the victim          | effect if i'm an onlooker
+===============+===================================+============================
+a string       | call a function with the name given in the string. the function
+               | is given these arguments:
+               | victim->function(thief,victim,stolenobject)
+               | You can check if you're the victim with (victim==this_object())
+---------------+-----------------------------------+----------------------------
+a number > 0   | attack the thief if i'm currently not in a fight
+---------------+-----------------------------------+----------------------------
+a number < 0   | attack the thief if i'm currently | don't attack the thief
+               | not in a fight                    |
+---------------+-----------------------------------+----------------------------
+a number == 0  | don't attack the thief. You must specifically use
+               | add_prop(LIVE_M_ATTACK_THIEF,0) for this. Not setting the prop
+               | (even though this will result in a 0 as well) will NOT work!!
+---------------+-----------------------------------+----------------------------
+prop not set(!)| attack the thief if i'm currently | don't attack the thief
+(the DEFAULT)  | not in a fight                    |
+---------------+-----------------------------------+----------------------------
+
+
+These hook functions are called when a theft occurs:
+
+Victim:
+-------
+Before the steal
+victim->hook_victim_no_steal_bonus(object to steal)
+---------------------------------------------------
+is called to see if the victim gets a bonus against stealing. If
+you use this, I want to see a special reason for it, (like a
+MAGIC_* property or similar) otherwise set an appropriate
+AWARENESS value. For guilds (guild shadows) this hook should
+also have a good motivation.
+
+If the steal was successful
+victim->hook_victim_stolen_object(stolen object, thief, place)
+--------------------------------------------------------------
+is called. The place is usually identical to the thief, except when the
+object was stolen out of a bag or backpack.
+
+
+Onlookers:
+----------
+Onlookers to the theft may react somehow, too:
+onlooker->hook_onlooker_stolen_object(thief, victim)
+----------------------------------------------------
+Don't ask me why the onlooker cannot see the object ;-) If there's a need
+for either the place or the object itself, it can be added, though.
+
+
+Thief:
+------
+These hooks can be defined in the thief (typically via guild shadows):
+thief->hook_thief_steal_bonus(victim, place, object)
+----------------------------------------------------
+Does the thief get a bonus for stealing? A favor of the Gods, maybe?
+thief->hook_thief_stolen_object(object, victim, place)
+------------------------------------------------------
+After a successful theft, we can do some recording for the thief, like
+accumulate how much was stolen so far, and therefore let the thief
+receive an increased favor of the Gods the next time :)
+
+
+
+BACKSTAB:
+=========
+
+There are no hooks defined for backstab. If you think hooks are necessary,
+let me know.
+
+
+
+ ~Aridor 06/16/1999

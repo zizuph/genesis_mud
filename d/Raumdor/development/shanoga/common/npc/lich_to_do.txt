@@ -1,0 +1,55 @@
+To-Do:
+
+******
+fix the corpses not disappearing!
+******
+
+
+
+Review and add equipment
+   3 magical items? [Book, Robes, Staff/Scepter/Focus]
+   3 mundane items? [Book, Robes, Staff/Scepter/Focus]
+   -adjust the book to have the additional features in the comments at
+    the top of the object comment block?
+   -magical ring that converts damage received into mana damage
+    instead of hp damage? [[WORKING ON THIS ANOTHER TIME]]
+   -mundane version of each item so the player doesn't know what they
+    are going to get as loot until after the lich is killed
+	
+   
+Add movement so that lich can follow/hunt
+   What about illusions?
+
+
+
+To-Done:
+
+Illusions grant 0 xp!
+	
+Change stun to paralyze
+
+Set spell descriptions to be illusions if caster is illusion
+
+Set all spells to check for illusion and do no damage
+
+Trigger illusions at or below 50% health
+
+Set condition to not create illusions if illusions already exist
+
+Destroy illusions if main one is dead
+
+Make sure that ALL code meets the    <man general/code_standards>
+   Lich done
+   Spells done? (only a top level comment, the rest is standard)
+
+Change Ice_Storm to a GROUP spell so it is distinguished from Frost Ray
+
+Change Paralyze to target whoever/whatever has done the most damage in the X duration
+
+Focus damage on enemy with lowest health (looking to create more undeads)
+
+Fix paralyze
+   -need to fix the biggest_threat so that 
+   -to have casting messages (concentrate, cast, result)
+   
+Change poison to plague, turn off for spell to do no damage

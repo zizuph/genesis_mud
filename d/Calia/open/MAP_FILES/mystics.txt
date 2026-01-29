@@ -1,0 +1,52 @@
+main
+::MAPDATA::
+path1 3 7
+path2 7 5
+path3 12 5
+path4 17 5
+post 16 11
+shbellt1 33 7
+shconcon 12 13
+shconent 12 15
+shconlib 12 11
+shconsac 16 13
+shgardnw 25 3
+shgardsw 25 7
+shoak1 33 1
+shoak2 37 3
+shoak3 37 5
+shoak4 37 7
+shoak5 33 9
+shoak6 29 9
+shoak7 25 9
+shoak8 21 7
+shoak9 21 5
+shoak10 21 3
+shoak11 25 1
+shoak12 29 1
+shsanct 33 5
+shtemple 29 5
+shvestn 29 3
+shvests 29 7
+shvestw 25 5
+start 8 13
+::MAPDATA::
+    
+                         o - o - o
+                       /     |     \
+                     o   o - o       o
+                     |   |   |       |
+       o - [ ] - o - o - o - o - o   o
+     /               |   |   |   _   |
+   o                 o   o - o |(@)  o 
+   '                   \     |   ~ /
+                         o - o - o
+                                     
+                                  ,_~ 
+            | /                  =~_~= 
+         --- ---    ^'~~'-~=~-,.|~-_-~I
+            |      |  _   ,*.   |   ,.|
+                   |    ~ | |   |`    |
+                 ,.|,.,.,.| |.,.'~,..-``'
+              .'`          =    
+           ,.'             =   

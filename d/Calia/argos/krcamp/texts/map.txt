@@ -1,0 +1,52 @@
+===========================================================================
+                             KRETAN CAMP - PHASE I
+===========================================================================
+Map: All rooms found in argos/krcamp/rooms/*
+ 
+            f                                         np6          d
+            . (Dark Forest - SWTERR)                 /    .**    /
+            .                                      /        .  / Dirt
+            f------f          np2----np3--np4---np5    T6    d   Road
+          /          \ **    /       ||                ||      \ (SWTERR)
+        /              \   /         ||                ||        \
+       p     T4    T3   np1    T1    M1    T1    T5----X-----T7    d
+       |     |     |           |     ||    |           ||          |
+       |     |     |           |     ||    |           ||          |
+       p     T5----N1====N2====N3====M2====N4====N5====N6=====N7   d
+        \          ||          |     ||    |     |     |           |
+  Path    \        ||          |           |     |     |           |
+  to        \p     X-----T6    T2          T2    T3    T4          d
+  Dephonian  |     ||                                              |  South
+  Temple     |     ||                                              |  Gate
+  (DEPHTEMP) p     X-----T7       (Future Expansion of Camp)       d-----B
+           /                                                          (METRO)
+ 
+ 
+Key:
+   Mx  = mroadX.c = main road through center of camp
+   npX = npathX.c = path on north side of camp
+   Nx  = nroadX.c = road through north side of camp
+   Tx  = b5tentX.c = batallion 5 tents (west of mroad)
+       = b6tentX.c = batallion 6 tents (east of mroad)
+ 
+   p   = Path to Dephonian Temple (already open)
+   f   = dark forest of SW Terr (already open)
+   d   = dirt road across river from east side of town (already open)
+   B   = south bridge/gate into town (already open)
+   ... = Hidden exits (crawl through branches)
+   **  = new exits to be added to link new area to old areas
+ 
+General Distribution of Kretans:
+On path and at gate: 4 sentries, 2 soldiers, 1 Triterion
+In tents and on roads : 1 Statarch, 2 Deuterians, 2 Triterians, 7 Warriors
+                        5 Soldiers, 8 sentries, 1 cook
+                        (per batallion; currently 2 batallions)
+ 
+Stew Pots: (2)
+player must have a spoon to eat from pot, can kill cook to get spoon.
+5 "bites" may be taken from the pot; pot is filled at reset_room
+each "bite" gives 20 HP to player.
+ 
+Currently, the stew does not poison. Later, after players get used to
+a little free healing, the random heal/poison will be added.
+ 

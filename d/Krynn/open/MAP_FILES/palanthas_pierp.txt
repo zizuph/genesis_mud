@@ -1,0 +1,65 @@
+main
+::MAPDATA::
+pier 6 5 palanthas_docks
+::MAPDATA::
+
+~~ ~~ ~~ ~~ ~~ '
+ `"`:~~ ,"`,`"`        
+ /\ ; ~~:         /\       Hinterlund
+  /\`,~,'        /\
+     [ ] /\ /\ /\                   ~~~ ~~
+ Palanthas/\ /\  /\             ~~~~~  ~~
+     /\_   /\ /\               ~~~
+    /   \/\                    ~
+  /\ /\ /\                    ~~     /\_ 
+   /\  /\      PLAINS OF      ~     /\  \
+     /\[ ]     SOLAMNIA      ~~    [#]/\ 
+ High Clerist               ~      Dargaard
+     Tower\                ~~      Keep /\
+   /\      \____________[ ]~        /\    
+    /\                Vingaard        /\    
+   /\                 Keep          /\   
+  /\   Heartlund        ~           @/\ /\ 
+ /\                   ~~           @/\_
+
+::NEWMAP::
+palanthas_docks
+::MAPDATA::
+pier 35 9
+::MAPDATA::
+
+                                      
+                                                           
+          ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~6 ~~                                                
+           ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~ ~~\~                                              
+           o  ~~ ~~ ~~ ~~ ~~ ~~ ~  5  ~~ ~~ ~~ ~~ ~~ ~~    o
+            \    ~~ ~~ ~~ ~~ ~~    |  ~~ ~~ ~~ ~~ ~~ ~~    |
+              o  ~~ ~~ ~~ ~~ ~~  3 4  ~~ ~~ ~~ ~~ ~~ ~~    |
+               \                  \|  ~~ ~~ ~~ ~~ ~~ ~~    |
+              -- o-----o-----o   2 p  ~~ ~~ ~~ ~~ ~~ ~~    o
+           To Western         \   \|  ~~ ~~ ~~ ~~ ~~ ~~   /    
+             Moors              o  1  ~~ ~~ ~~ ~~ ~~    o     
+                                 \ |  ~~ ~~ ~~ ~~ ~~   /      
+                       t           o     ~~ ~~ ~~    o        
+                        \            \              /          
+                          o-----o     o-----o-----o'          
+                        /        `\   |                       
+                 t    ,' [w]   [w] `, |    [w]   [w]       
+                  \  /    |     |    \|     |     |       
+                    o-----o-----o-----o-----o-----o-----o
+                   / \    |     |    /|     |     .    /  \
+                      `, [w]   [w] ,' |    [w]    .  ,'    
+                        \         /   |           . /    
+           Merchant       o-----o'    o     o-----o     Noble  
+           Quarter        |     | .   |    /       \    Quarter
+                         [M]   [T] .  |  ,'         
+                                  .   | /             
+
+
+                             --= Palanthas docks =--
+                  1 Grey Havens shipline   5 Icewall shipline
+                  2 Newports shipline      6 Sparkle shipline
+                  3 Calia shipline         p unused pier
+                  4 Kalaman shipline       T Trusq merchant estate
+                  M Merchant estate        w warehouse  
+                  t Guard tower                     

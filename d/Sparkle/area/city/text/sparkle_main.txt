@@ -1,0 +1,208 @@
+main
+
+center_a 30 14 center
+center_b 26 14 center
+center_c 26 16 center
+center_d 26 18 center
+center_e 26 20 center
+center_f 30 20 center
+center_g 34 20 center
+corset_square 42 12 east
+east_1a 46 12 east
+east_1b 50 12 east
+east_1c 54 12 east
+east_1d 58 12 east
+east_1e 62 12 east
+east_2a 46 20 east
+east_2b 50 20 east
+east_2c 54 20 east
+east_2d 58 20 east
+east_2e 62 20 east
+east_2f 66 20 east
+east_2g 70 20 east
+east_3a 42 18 east
+east_3b 42 16 east
+east_3c 42 14 east
+lars_square 38 16 east
+market_square 38 20 center
+market_square2 42 20 east
+memory_lane 26 28 south
+north_a 22 8 north
+north_b 22 6 north
+north_c 22 4 north
+north_d 22 2 north
+north_e 26 2 north
+north_f 30 2 north
+north_g 34 2 north
+north_h 38 2 north
+north_i 38 4 north
+north_j 38 6 north
+north_jetty1 66 12 east
+north_jetty2 66 14 east
+north_k 38 8 north
+north_l 34 8 north
+north_m 30 8 north
+north_n 26 8 north
+northeast_1a 42 4 northeast
+northeast_1b 46 4 northeast
+northeast_2a 50 10 east
+northeast_2b 50 8 northeast
+northeast_2c 50 6 northeast
+northeast_2d 50 4 northeast
+northeast_2e 50 2 northeast
+northeast_2f 54 2 northeast
+northeast_3a 58 2 northeast
+northeast_3b 62 2 northeast
+northeast_4a 58 4 northeast
+northeast_4b 58 6 northeast
+northeast_4c 62 6 northeast
+northeast_4d 66 6 northeast
+northwest_a 14 14 west
+northwest_b 14 12 northwest
+northwest_c 14 10 northwest
+northwest_d 14 8 northwest
+northwest_e 18 8 northwest
+south_1a 34 26 south
+south_1b 30 26 south
+south_1c 26 26 south
+south_1d 22 26 south
+south_1e 18 26 south
+south_2a 38 28 southeast
+south_2b 38 30 southeast
+south_2c 38 32 southeast
+south_jetty1 74 20 east
+south_jetty2 74 18 east
+south_jetty3 74 16 east
+southeast_a 46 22 east
+southeast_b 46 24 southeast
+southeast_c 46 26 southeast
+southeast_d 42 26 southeast
+southeast_e 38 26 southeast
+southwest_1a 10 24 southeast
+southwest_1b 6 24 southeast
+southwest_1c 6 22 southeast
+southwest_1d 6 20 southeast
+southwest_1e 10 20 southeast
+southwest_2a 14 26 southeast
+southwest_2b 14 24 southeast
+southwest_2c 14 22 southeast
+southwest_2d 14 20 southeast
+southwest_2e 14 18 west
+southwest_3a 18 22 southeast
+southwest_3b 22 22 southeast
+west_a 22 16 west
+west_b 18 16 west
+west_c 14 16 west
+west_d 10 16 west
+west_e 6 16 west
+white_sands1 70 6 northeast
+white_sands2 70 4 northeast
+circulation 30 20 lib
+clubs_craft_guilds 30 20 lib
+domains 30 20 lib
+entrance 30 20 lib
+guides_tutorials 30 20 lib
+headoffice 30 20 lib
+layman_guilds 30 20 lib
+map_reference 30 20 lib
+ne_stairwell 30 20 lib
+nw_stairwell 30 20 lib
+occ_guilds 30 20 lib
+poetry 30 20 lib
+racial_guilds 30 20 lib
+restore 30 20 lib
+theology 30 20 lib
+upper_ne_stairwell 30 20 lib
+upper_nw_stairwell 30 20 lib
+waiting_room 30 20 lib
+
+                   . . . . . . . . . . . . 
+                   .                     . . . . . . . . . . .|. . . . . . .
+                   .  o - o - o - o - o  .        o - o - o - o            .
+                   .  |               |  .        |       |  Northeastern  .
+                   .  o   Northern    o -.o - o - o       o   Sparkle o    .
+   . . . . . . . . .  |    Sparkle    |  .        |       |           |    .
+   .               .  o               o  .        o       o - o - o - o    .
+   . Northwestern  .  |               |  .        |                        .
+   .  Sparkle o - o.- o - o - o - o - o  .        o                        .
+   .          |    .                 . . . . . . .|. . . . . . . . . . . . . .
+   .          o    .                 .            o                          .
+   .          |    .                 .            |                          .
+   .          o    . . . . . . . . . .    o - o - o - o - o - o - o          .
+ . . . . . . .|. . .   .             .    |                       |          .
+ .            o        .  o - o      .    o                       o          .
+ .  Western   |        .  |          .    |      Eastern                     .
+-.o - o - o - o - o - o.- o  Town    .o - o        Sparkle                o  .
+ .  Sparkle   |        .  | Center   .    |                               |  .
+ .            o        .  o          . .  o                               o  .
+ . . . . . . .|. . . . .  |            .  |                               |  .
+   .  o - o - o        .  o - o - o - o.- o - o - o - o - o - o - o - o - o  .
+   .  |       |        .               .      |                              .
+   .  o       o - o - o. . . . . . . . .      o                              .
+   .  |       |        .           .   . . . .|. . . . . . . . . . . . . . . .
+   .  o - o - o  . . . .           .          o                    .
+   . South    |  .                 .          |                    .
+   .  Western o -.o - o - o - o - o.- o - o - o                    .
+   .   Sparkle   .        |        .  |                            .
+   . . . . . . . .        o        .  o        Southeastern        .
+                 .    Southern     .  |          Sparkle           .
+                 .      Sparkle    .  o                            .
+                 .                 .  |                            .
+                 . . . . . . . . . .  o                            .
+                                   . .|. . . . . . . . . . . . . . .  
+
+
+center
+
+market_square 14 6
+center_g 10 6
+center_f 6 6
+center_e 2 6
+
+  o - o
+  |
+  o  Center
+  |    of
+  o   Town
+  |
+  o - o - o - o
+
+
+lib
+
+circulation 12 5
+clubs_craft_guilds 8 11
+domains 16 7
+entrance 12 3
+guides_tutorials 16 5
+headoffice 40 8
+layman_guilds 8 9
+map_reference 16 9
+ne_stairwell 20 5
+nw_stairwell 4 5
+occ_guilds 8 7
+poetry 12 11
+racial_guilds 8 5
+restorer 28 8
+theology 16 11
+upper_ne_stairwell 44 6
+upper_nw_stairwell 28 6
+waiting_room 40 6
+
+. . . . . . . . . . . . . . . . . . . . . . . . .
+.      Ground Floor                             .
+. +---------|---------+         2nd Floor       .
+. |         o         |   +-------------------+ .
+. |         |         |   |                   | .
+. | o - o - o - o - o |   |                   | .
+. |     |       |     |   | o           o - o | .
+. |     o       o     |   | |           |     | .
+. |     |       |     |   | o           o     | .
+. |     o       o     |   |                   | .
+. |     |       |     |   |                   | .
+. |     o - o - o     |   |                   | .
+. +-------------------+   |                   | .
+.                         +-------------------+ .
+.                                               .
+.            Genesis Library of Sparkle         .
+. . . . . . . . . . . . . . . . . . . . . . . . .

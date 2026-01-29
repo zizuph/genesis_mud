@@ -1,0 +1,33 @@
+
+Steeds and boarding ships, Fysix@Genesis, Sep 1997
+--------------------------------------------------
+
+I have made the following adjustments to /d/Genesis/ship/ship.c:
+
+* Tickets are needed for the steed and all its riders. The driver
+  of the steed has to buy all the tickets. The number of riders is
+  determined via the int query_riders() function in the steed object.
+  The adjusted function in the ship is the int board(string str)
+  function. Since query_riders() might not be defined in all steeds
+  in the game a check is made if the steed inherits Gondor's 
+  standard steed by calling the int is_steed() function.
+
+* There is the possibility to not allow any steeds on the ship. For this
+  I created the module prevent_steed.c containing the functions 
+    public void set_no_allow_steed(int dont_allow);
+     and
+    public int query_steed_allowed();
+
+  To prevent steeds from boarding your ship just inherit prevent_steed.c
+  and call set_no_allow_steed(1) in your create_ship() function.
+
+* A check is done if the steed itself can board the ship before the
+  boarding is done, in order to prevent the taking of tickets and giving
+  silly boarding messages when the boarding does not succeed. For this
+  the new hook int query_cannot_board_ship(object player, mixed
+  destination); is used. This hook makes a call to the function
+  int query_cannot_board_ship(mixed destination); in the player object.
+  When the player cannot board, this function should be giving messages
+  itself.
+
+  Same goes for disembarking using query_cannot_disembark_ship function.

@@ -1,0 +1,21 @@
+ ___________________________________________________________________
+|\._________________________________________________________________\.
+| |                                                                  |
+| | o                                                              o |
+| |                       Shop of Palanthas                          |
+| |                                                                  |
+| |                                                                  |
+| |            You may try the following to use the shop.            |
+| |                                                                  |
+| |   <list>         -  List all items for sale in the shop.         |
+| |   <buy object>   -  Buy an item for sale in the <list>.          |
+| |   <sell object>  -  Sell an item in your inventory that is not   |
+| |                     worn, wielded, or protected.                 |
+| |   <sell all>     -  Sell all items in your inventory that are    |
+| |                     not worn, wielded, or protected.             |
+| |   <sell all!>    -  Sell all items in your inventory, period.    |
+| |   <value>        -  Find the value of an item of yours.          |
+| |   <show>         -  Check out an item in stock more closely.     |
+| |                                                                  |
+| | o                                                              o | 
+ \|__________________________________________________________________|

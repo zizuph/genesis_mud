@@ -1,0 +1,65 @@
+Sparkle: /d/Sparkle/area/city/rooms/streets/center_f
+Green Oaks: /d/Sparkle/area/faerie/rooms/greenoaks/road02
+Faerie: /d/Sparkle/area/faerie/rooms/forest/landing
+
+Grey Havens: /d/Shire/common/greyhaven/shore
+Bree: /d/Shire/bree/rooms/road/broad02
+Minas Tirith: /d/Gondor/minas/gate1
+Rivendell: /d/Shire/rivendell/room/valley/w_porch
+Army of Angmar: /d/Shire/guild/AA/rooms/train
+Goblin Caves: /d/Shire/misty/p19
+Minas Morgul: /d/Gondor/morgul/city/o_ngate
+Haradrim Camp: /d/Gondor/ithilien/forest/haradcamp8n
+Edoras: /d/Gondor/rohan/edoras/stairs1
+Pelargir: /d/Gondor/pelargir/streets/belfalas09
+
+Gelan: /d/Calia/gelan/rooms/palace_road_nw
+Argos: /d/Calia/argos/metro/rooms/trroad13
+Crystalline Palace of Caliana: /d/Calia/guilds/calians/rooms/light/entrance
+
+Gont: /d/Earthsea/gont/gont_city/rooms/city_street/city_road17
+Ten Alders: /d/Earthsea/gont/tenalders/village/witch_path
+
+Newports: /d/Krynn/que/newports/village
+Solace: /d/Krynn/solace/new_village/bridge_walk12
+Tantallon: /d/Krynn/neraka/city19
+Xak Tsaroth: /d/Krynn/xak/marsh7
+Vingaard Keep: /d/Krynn/guilds/knights/guildhall/rooms/courtyard
+Plains of Solomnia: /d/Krynn/solamn/eplains/rooms/eplain-9-19-
+Palanthas: /d/Krynn/solamn/palanthas/nobles/er3
+Icewall: /d/Krynn/icewall/outside/bottom_of_ice
+
+Telberin: /d/Emerald/telberin/artisans_way05
+
+Terel: /d/Terel/last/lroad4
+Calathin: /d/Terel/calathin/square2_4
+
+Fort: /d/Avenir/common/outpost/fort2
+Bazaar: /d/Avenir/common/bazaar/extr/str10
+Hobgoblin Camp: /d/Avenir/common/dark/hob/entrance
+Utterdark: /d/Avenir/common/dark/l1/center
+
+Flotsam: /d/Ansalon/balifor/flotsam/room/street35
+Port Balifor: /d/Ansalon/balifor/port_balifor/room/city11
+Green Dragonarmy Camp: /d/Ansalon/silvanesti/kurinost/room/road2
+Sanction: /d/Ansalon/taman_busuk/sanction/room/city/street11
+Neraka: /d/Ansalon/taman_busuk/neraka/outer/main/r2
+Kalaman: /d/Ansalon/kalaman/city/r2
+Plains of Estwilde: /d/Ansalon/estwilde/plains/4d
+Iron Delving: /d/Ansalon/estwilde/iron_delving/r8
+Kendermore: /d/Ansalon/goodlund/kendermore/room/street24
+
+
+Kabal Port District: /d/Kalad/common/port/s61
+Kabal: /d/Kalad/common/central/plaza/sq_mon
+
+Cadu: /d/Khalakhor/inisi/roke/nyreese/cadu_q5
+
+Faerun: /d/Faerun/highroad/rooms/srd01
+Underdark: /d/Faerun/underdark/dark_dom/rooms/tu20
+Kryptgarden Forest: /d/Faerun/kryptg/rooms/forest/kr20
+
+Golden Isle: /d/Sparkle/clubs/rmc/room/joining
+
+Raumdor Docks: /d/Raumdor/common/wforest/dock3
+Drakmere: /d/Raumdor/common/drakmere/r15

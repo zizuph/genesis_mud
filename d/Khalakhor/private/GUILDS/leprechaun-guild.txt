@@ -1,0 +1,45 @@
+The Leprechauns - Race Guild for gnomes and dwarves
+
+1. General
+
+The Leprechauns are a race guild for gnomes and dwarves. They are
+cobblers who are also a bit luckier than others.
+
+2. Location
+
+An island shared between gnomes and dwarves - between two small
+villages.
+
+3. Cobblery
+
+If a leprechaun has a 'leather' item in his or her inventory, they can
+make a pair of shoes out of it. The resulting shoes can be worn on
+A_FEET, sold to stores or given to other players. The better shoes
+last longer. Cobblery can be trained.
+
+4. Luck
+
+Leprechauns can 'search here for coins' in any room. The more
+experienced members can find the coins more frequently. In addition
+the evasion in combat is aided slightly. Luck cannot be trained.
+
+5. Join/Leave
+
+Any gnome or dwarf, regardless of alignment or allegiance can
+join. The guild item is a wearable loose green vest. The leaving can
+cause an unlucky event, but not death.
+
+6. Skills:
+
+* Awareness: Conf. Journeyman
+* Cobblery: Sup. Craftsman
+* Trading: Conf. Journeyman
+* Acrobat: Sup. Layman
+* Knife: Sup. Journeyman
+* Tracking: Conf. Journeyman
+* Pick pocket: Sup. Layman
+* Sneak: Sup. Layman
+* Hide: Sup. Layman
+* FR traps: Sup. Layman
+
+

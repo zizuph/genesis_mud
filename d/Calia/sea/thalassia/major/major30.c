@@ -1,0 +1,51 @@
+
+/* 	Major Zone of Thalassia
+
+    coder(s):   Jaacar
+
+    history:    15. 7.03    room coded                      Jaacar
+
+*/
+
+#pragma save_binary
+#pragma strict_types
+
+#include <stdproperties.h>
+#include <macros.h>
+#include "/d/Calia/sys/water.h"
+#include "defs.h"
+
+inherit "/d/Calia/std/water_room";
+
+
+void
+create_water_room()
+{
+    set_short("Major Zone of Thalassia");
+    set_long("You are swimming around in the Major Zone of "+
+        "Thalassia. This is the largest area of the "+
+        "entire city and is almost entirely decorated with "+
+        "white marble and bronze. There are roads leading off to "+
+        "the west, southwest, south and southeast. Surrounding "+
+        "you on the northern side you see the bronze wall that "+
+        "encompasses the entire Major Zone. It shines brightly in "+
+        "the light giving everything around an almost bronze tint.\n");
+
+    add_item(({"wall","bronze wall","north","northeast",
+        "north wall","northeast wall"}),"This shiny metal surrounds the "+
+        "wall that encompasses the entire Major Zone, except where the "+
+        "bridges pass through it.\n"); 
+
+    add_item(({"road","roads"}),"The roads are constructed of "+
+        "polished white marble and have been carefully placed so "+
+        "no vegitation grows between where the slabs have been "+
+        "placed. The slabs themselves are a perfectly square, "+
+        "measuring at least a bodies length on each side. The "+
+        "road leads off to the west, southwest, south "+
+        "and southeast.\n");
+
+    add_swim_exit(THALM+"major28","west",0,1);
+    add_swim_exit(THALM+"major29","southwest",0,1);
+    add_swim_exit(THALM+"major31","south",0,1);
+    add_swim_exit(THALM+"major32","southeast",0,1);
+}

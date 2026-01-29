@@ -1,0 +1,80 @@
+main
+::MAPDATA::
+r02 40 10 southeast
+r03 36 10 southeast
+r04 31 10 southeast
+r22 25 10 southeast
+r23 19 10 southeast
+r24 18 9 southeast
+r25 16 7 southeast
+r26 14 5 southeast
+r27 12 3 southeast
+f01 10 1 southeast
+pier1 10 1 southeast
+pier2 10 1 southeast
+pier3 10 1 southeast
+pier4 10 1 southeast
+::MAPDATA::
+
+          \                               ^ /  ^  \/ \ /     \
+           \                             / \  / \ /   \ ^  ^
+            \                           /   \/   /     / \/ \
+             \                         /     \  /     /   \  \
+              \                        Misty Mountains     \
+               \                         ^   ^
+                \                       / \ / \  ^
+                 \                     /   \   \/ \
+                  \                    ISENGARD \  \
+                   -----------------------O       Fangorn Forest
+                                      ~~~~ \
+                                  ~~~~~     \                ~
+                             ~~~~~~          \                ~
+                       ~~~~~~~                \   West Emnet   ~
+          ~~~~~~~~~~~~~~                Helms o\                ~~~~         ~~
+ ~~~~~~~~~~                             Deep    \                   ~       ~~~
+                                                 \-----+------       ~~~~~~~~~~
+                                                       |      \            ~~~~
+                                        +-----+        O       \             ~~
+                                        |ROHAN|      EDORAS     \
+                                        +-----+                  \
+
+::NEWMAP::
+southeast
+::MAPDATA::
+r02 66 18
+r03 62 18
+r04 58 16
+r22 54 14
+r23 54 12
+r24 54 10
+r25 54 8
+r26 50 6
+r27 46 4
+f01 42 2
+pier1 38 4
+pier2 34 6
+pier3 30 8
+pier4 26 10
+::MAPDATA::
+
+                        ~~~~~~~~~~~~~   \                                    /
+                        ~~~~~~~~~~~~~     o                                 /
+                     ~~~~~~~~~~~~~      /   \                            ^ /
+                 ~~~~~~~~~~~~~~~~     o       o                         / \  /
+              ~~~~~~~~~~~~~~~~      /           \                      /   \/
+            ~~~~~~~~~~~~~~~~      o               o                   /     \
+           ~~~~~~~~~~~~~~~~     /                   \                   ^   ^
+          ~~~~~~~~~~~~~~~~    o                       o                / \ / \
+       ~~~~~~~~~~~~~~~~     /    Docks                |               /   \
+     ~~~~~~~~~~~~~~~~~~~  o                           o
+                                                      |
+                                                      o
+                                                      |            Isengard
+                                                      o
+                                                        \             |
+                                                          o           o
+                                                            \         |
+                                                              o - o   o
+                                                                    \ |
+                                                                      o
+                                                                        \

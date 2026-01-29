@@ -1,0 +1,131 @@
+main
+::MAPDATA::
+road27 11 4
+road28 17 4
+road29 21 4
+road30 25 4
+road01 29 4
+road31 33 4
+road32 37 4
+road33 41 4
+road34 45 4
+road35 49 4
+road26 11 6
+house01 17 6
+house02 21 6
+house03 25 6
+road02 29 6
+house06 33 6
+house09 37 6
+house10 41 6
+house11 45 6
+road36 49 6
+road25 11 8
+road24 11 10
+road23 11 12
+road13 11 14
+road37 49 8
+road38 49 10
+road39 49 12
+road21 49 14
+road14 16 14
+road15 21 14
+road16 25 14
+road06 29 14
+road17 33 14
+road18 37 14
+road19 41 14
+road20 45 14
+house12 45 8
+house13 45 10
+eshop 37 12
+road05 29 12
+road04 29 10
+house04 25 8
+road03 29 8
+froom 33 8
+archives 16 12
+d_po 21 12
+road12 7 14
+road22 7 16
+wtower 7 12
+wtower2 7 11
+wgate 3 14
+mh1 16 15
+d_bank 21 16
+road07 29 16
+gshop 37 16
+road40 49 16
+house14 45 16
+road41 49 18
+road42 49 20
+road43 49 22
+wise_hut 52 22
+keep03 7 22
+keep02 11 22
+keep01 17 22
+road49 21 22
+road48 25 22
+road10 29 22
+road47 33 22
+road46 37 22
+road45 41 22
+road44 45 22
+house15 45 20
+house16 41 20
+house17 37 20
+road09 29 20
+road08 29 18
+smith 25 18
+inn 33 18
+inn2 37 18
+road11 29 24
+stower 34 24
+stower2 37 24
+sgate 29 26
+keep06 7 24
+keep05 12 24
+keep04 17 24
+keep07 17 20
+keep10 17 18
+keep11 11 18
+keep08 11 20
+keep09 7 20
+keep12 7 18
+::MAPDATA::
+                     ====================              
+ _      _            The City of Drakmere              ______
+[ |-||-| ]           ====================             /     /|
+[________]                                           /_____/ |
+ \      /  o --- o - o - o - o - o - o - o - o - o  |      | |
+  |    |   |     |   |   |   |   |   |   |   |   |  |      | /
+  | [] |   o     o   o   o   o   o   o   o   o   o  |__[]__|/
+  |    |   |                 |                   |
+  |    |   o             o - o - o AP        o - o    ____
+ /______\  |                 | /                 |   /   /\
+           o            GC - o               o - o  /___/\/
+      [ ]  |    A    PO      |                   |  \___\/
+      [ ]  o    o    o       o - LC  o Shop      o
+       |   |    |    | \   / | \   / |           |
+ - o - o - o - [ ] - o - o - o - o - o - o - o - o
+       |       [ ]   | /   \ | /   \ |           |
+       o             o       o       o Shop  o - o
+                   Bank    / | \                 |    ____
+       o - o -- [ ]      o   o   o - o           o   /   /\
+       |   |     |     Smith |  Inn              |  /___/\/
+       o - o     o           o       o   o   o   o  \___\/
+       |         |           |       |   |   |   |
+       o - o --- o - o - o - o - o - o - o - o -[ ][ ]
+       |         |           |
+      [ ] - o -- o           o - [ ][ ]
+                             |
+    _   _____   _            o
+   [ |--|   |--| ]           |
+   [_____________]
+    \_\| |_| |/_/
+     |         |
+     |  []     |
+     |         |
+     |     []  |
+     |         |
+    /___________\

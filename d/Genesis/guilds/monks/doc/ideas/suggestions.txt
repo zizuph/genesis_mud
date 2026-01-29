@@ -1,0 +1,799 @@
+Message: 50
+From   : Lothmar
+Subject: balancing Kaheda
+To     : Mona, Mccram, Amelia, Finwe, Flippyjoe, Thundor, Plugh and Marisol
+Date   : Aug 26 1997
+
+Greetings! I was just going to suggest a few things that I think most 
+Kahedans will agree with, and perhaps they can help to balance the guild.
+
+First off, having backflips, axekick, roundhouse and maegeri for occupational
+monks seems to be a bit much.  Perhaps removing backflips and axekick could
+help to lower tax, or maybe maegeri only for layman members?  There is no need
+for so many different specials when most times monks only use one, not including
+plexus.
+
+Another idea is the choice of a primary weapon.  If you choose to have polearm
+to sup master or sup guru, then you can only learn unarmed to confident veteran.
+Likewise, if you have sup master unarmed combat, polearm can only be raised to
+confident veteran.  Something similar to what the Calians have/had.
+Perhaps then we can decrease the number of weapon skills we have, bringing
+us more into balance, while not taking big skills away from one's main weapon
+skill.
+
+On a side note, the fact that we have no parry skills shows that we do not
+have the ability to defend as well as other guilds, so good defence is still
+very important, even if tax goes up because of it.
+
+Thank you for your time.
+Lothmar
+
+Message: 46
+From   : Akeisha
+Subject: Monks
+To     : Mona, Mccram, Amelia, Finwe, Flippyjoe, Thundor, Plugh and Marisol
+CC     : Akeisha, Maniac, Olorin, Karath, Mercade, Glaurung, Khail, Morrigan,
+         Louie and Shiva
+Date   : Aug 24 1997
+
+I have currently disabled the Monks' halo. I have also sent an extensive
+mail to Mona, Mccram, Plugh. If you have other questions/problems 
+regarding this issue, come speak to me.
+
+Akeishas
+
+Message: 47
+From   : Akeisha
+Reply  : Monks (forwarded)
+Date   : Aug 25 1997
+
+Author : Akeisha
+To     : Mona
+CC     : Plugh, Mccram and Akeisha
+Date   : Aug 24 1997
+
+As you know, I've been looking over the monks. I'm not sure how
+much Mona has told you as of yet, or whether she has indeed mailed
+either one of you on this situation. This guild is going to be 
+reviewed as it currently is. The original projected date for opening
+the new version of the guild was third week of July. I'm sure you
+are aware that we are in the late August, and it looks as though
+it will in the least be about a month and a half in the shortest
+time frame for this new version to be released. Hence, I have 
+decided to require the necessary changes now. This will give you
+a good idea of what I expect for the second version of the guild
+also. 
+
+The fixes I have in mind are going to be very quick and to the
+point. I expect this to be done within a week. 
+
+First, I wanted to talk about plexus. It is severely undertaxed.
+Stunning your opponent 50% of the time is 100% combat aid. That
+it itself is about 16.7% tax. Since you are utilizing skills, 
+plexus alone should be costing about 8-9%. Your opponent is disabled
+50% of the time. This doubles the time a player spends in combat.
+Hence, the reason why it's 100% combat aid. The other specials
+seem a bit more reasonable.
+
+Second, the level of training of polearm, unarmed combat, defence,
+and blindfighting. I understand the nature of the guild and why it 
+is necessary for the high level of unarmed combat and defence. In
+the next couple of weeks, there will be a change to the maximum 
+level in offense and defence/parry allowed for all guilds. The max
+in any primary offense skill (this included unarmed, blindfighting
+and any weapons skill) is 100. You only get one. The 100 level is
+based on the fact that the guild has a suitable guru quest. The
+second offense skill (this is not including specials) will be 75.
+
+Thirdly, I am greatly concerned about the combination of blindfighting
+and the dark halo with the monks and to my surprise, there was no
+mention of it in the tax document, nor have they been charged for this
+spell. No mention of it in the "extras" in the tax document. Considering
+that most npc's do not have a level of blindfighting and the fact that
+monks can create darkness and fight proficiently in the dark, I find 
+this very disturbing and greatly unbalancing. Not to mention that this
+has not been taxed unless I take the liberty of interpreting the tax
+document's of "overtaxing" a 1.1%. Not to mention, this spell costs a
+measily 5 mana and that there is no cap on this spell. Not to mention
+that its current duration time is overly generous to begin with. I have
+disabled this spell for now. I understand that this is not of your original
+coding and that you have been recoding the guild. This is not acceptable.
+Do not return it into the game until you have my approval first.
+
+Anyhow, this is my first impression. I expect that the tax problems be
+fixed asap. The levels of skills, I expect that there will be a bit
+more discussion on. I may go up as high as 80 on blindfighting, but
+not in the current situation in combination with this dark halo. On
+halo, it should be treated as a spell, whether light or dark. I would
+suggest on enlarging your garden to include ingredients for this spell,
+should you choose to keep it. Also, in my opinion, mtell costs ridiculously
+low at 10 mana. It is a spell nonetheless. I can't say that I'm pleased 
+with what I have found. I know that inheriting someone else's work is difficult.
+I hope that this does not discourage you from the task you have ahead.
+This is not something I with to permanently delay however. Fix this now
+and it can be put aside and you can concentrate and take as much time
+in recoding this guild as you wish. I figure the changes should not 
+require more than a week. If you have any more questions, don't hesitate
+to contact me.
+
+
+Akeisha
+
+
+Message: 51
+From   : Darien
+Subject: Having a lot of concerns...
+To     : Mccram, Amelia, Rowan and Nogard
+CC     : Darien
+Date   : Aug 27 1997
+
+And a lot of fears down here... I was just wondering if you were
+recoding the guild objects as you went, or if you were making new
+files first, then presenting it to Balance for approval?
+As you can tell from the board, right now people are taking the
+slightest change in msneeze.  *grin*  So it would be nice if either
+we or you could tell them IF their decrease in very stunneds is their
+own fear getting to them, or if there is something actually to it.
+
+I understand if you can't reveal it, but I think it would be quite
+helpful (and probably best coming from you).
+
+Thank you for listening, and thank you for being there. :)
+
+Darien
+
+Message: 33
+From   : Akeisha
+Subject: Monk balance issues (forwarded)
+Date   : Jun 17 1997
+
+Author : Lilith
+To     : Mona, Akeisha, Maniac, Olorin, Karath, Teth, Mercade, Glaurung,
+         Khail, Shiva, Alaron, Quetzl, Sorgum and Rastlin
+CC     : Lilith and Lilith
+Date   : Jun 14 1997
+
+Greetings,
+It seems I write a note regarding the monks every few months or
+so. Once again I will write, pointing out problems and possible 
+solutions.
+
+The doc in Roke/open/GUILDS does not provide a break-down of 
+the guild's taxes in skills, spells, or specials. This should 
+be remedied ASAP, to be in compliance with the information
+required under GUILDS in man domain_info and man guilds.
+
+Plex needs to be recoded to use add_stun or add_attack_delay.
+The time of effectiveness should to be shortened, as I believe
+it is giving too great combat aid. Additionally, checks for 
+plex efficiency should be added for weight and volume of the 
+opponent, or at the very least, a check for a prop which wizards
+may add to monsters which should not be plex-able.
+
+Obviously, I think 4 skills to 90 is unwarranted in any guild.
+
+The mtell spell and the halo spell are a bit of a stretch of
+'fighter guild' reality...but then so is the Calian 'project'.
+I expect that they are being appropriately taxed; however, there
+should be a chance of failure the mtell...as far as I can tell,
+it is much too reliable.
+
+Monks have the best of both worlds as I mentioned in my note on
+the guild board. They can fight well in dark and light, both 
+with the help of such high blindfighting and a light/dark spell.
+Additionally, they have the excuisite ability to toggle between
+high unarmed and high polearm ability. --->I f the monks are 
+to continue to be proficient with weapons and unarmed combat, 
+I think they should not be able to use their unarmed specials 
+(ie plex) when wielding a weapon or with unarmed option turned off. 
+
+The monks are extra-ordinarily well-equipped fighters with few,
+if any, drawbacks to go along with their myriad advantages. I
+think this guild requires both recoding and rebalancing.
+
+Yours,
+Lilith
+
+
+Message: 41
+From   : Lilith
+Subject: Monk balance issues (forwarded)
+CC     : Lilith
+Date   : Jul 19 1997
+
+Author : Lilith
+To     : Mona, Akeisha, Maniac, Olorin, Karath, Teth, Mercade, Glaurung,
+         Khail, Shiva, Alaron, Quetzl, Sorgum and Rastlin
+CC     : Lilith and Lilith
+Date   : Jun 14 1997
+
+Greetings,
+It seems I write a note regarding the monks every few months or
+so. Once again I will write, pointing out problems and possible 
+solutions.
+
+The doc in Roke/open/GUILDS does not provide a break-down of 
+the guild's taxes in skills, spells, or specials. This should 
+be remedied ASAP, to be in compliance with the information
+required under GUILDS in man domain_info and man guilds.
+
+Plex needs to be recoded to use add_stun or add_attack_delay.
+The time of effectiveness should to be shortened, as I believe
+it is giving too great combat aid. Additionally, checks for 
+plex efficiency should be added for weight and volume of the 
+opponent, or at the very least, a check for a prop which wizards
+may add to monsters which should not be plex-able.
+
+Obviously, I think 4 skills to 90 is unwarranted in any guild.
+
+The mtell spell and the halo spell are a bit of a stretch of
+'fighter guild' reality...but then so is the Calian 'project'.
+I expect that they are being appropriately taxed; however, there
+should be a chance of failure the mtell...as far as I can tell,
+it is much too reliable.
+
+Monks have the best of both worlds as I mentioned in my note on
+the guild board. They can fight well in dark and light, both 
+with the help of such high blindfighting and a light/dark spell.
+Additionally, they have the excuisite ability to toggle between
+high unarmed and high polearm ability. --->I f the monks are 
+to continue to be proficient with weapons and unarmed combat, 
+I think they should not be able to use their unarmed specials 
+(ie plex) when wielding a weapon or with unarmed option turned off. 
+
+The monks are extra-ordinarily well-equipped fighters with few,
+if any, drawbacks to go along with their myriad advantages. I
+think this guild requires both recoding and rebalancing.
+
+Yours,
+Lilith
+
+
+Message: 49
+From   : Akeisha
+Reply  : Monks (forwarded)
+CC     : Mccram
+Date   : Aug 25 1997
+
+Author : Mona
+To     : Akeisha, Maniac, Olorin, Karath, Teth, Mercade, Glaurung, Khail,
+         Morrigan and Louie
+Date   : Aug  7 1997
+
+    Hey there.  I said when I next logged in I'd mail you.  Also I've 
+been wanting to discuss drawbacks for the monks with you.  The first and 
+primary drawback I intend to give the monks is along the lines of 
+playerkilling.  As I see it some of the monks special abilities are 
+justified by the fact that "monks don't playerfight."  However, nice as 
+that is in theory, it isn't a drawback because we all know they do 
+whatever they damn well feel like. :)  So firstly I intend to install a 
+feature whereby this is measured and effects specials.  Each monk's 
+aura/nature/attitude (name not important) will be affected If he: 
+attacks another monk, attacks a player, or steals from an fellow monk.  
+Monks will still be able to attack for one of the three reasons 
+currently allowed:  Defending one's loot, Defending one's spouse if 
+one's spouse is attacked, and Defending one's self against attack.  
+However, all attacks will affect the 'aura' and if the attack falls 
+under one of the three exceptions then with full council investigation 
+the blemish on the arua can be removed.  An attack on a fellow monk will 
+cut the operation of a players specials by one half, an attack on a 
+player will cut it by a quarter.  When a players aura reaches zero his 
+specials will be totally inoperational.  "You try to Plexus, but you 
+feel too guilty to concentrate on that."  *grin*  
+    Other aspects of balance I have considered are how high polearm is 
+considering unarmed.  I don't know exactly what I wish to do there yet.  
+There has been talk of having Monk's choose to specialize in one or the 
+other.  Though I am still a bit unhappy with that because I don't want 
+to encourage the use of polearm from a thematic standpoint.  I am 
+thinking that I'd like to make the polearm option considerably less 
+attractive (if it is to remain).  An aspect that is due consideration, 
+however, is that unarmed combat does considerably less damage than 
+fighting with weapons.  Give a player an Excellent Halberd, BSA, Flaming 
+Black Broadsword, or so on and he can do considerably more damage than 
+his unweaponed opponent.  Without a weapon skill there is a distinct 
+disadvantage.  Granted, it is a plus as a monk to be able to start the 
+game without weapons, yet most with weapon skills also start the game 
+with a droproom.  So it remains that, in general fighting, those with 
+weapons will do better.  If the option of polearm remains (in some form) 
+and unarmed is a primary option I would like to make it so that those 
+who focus on unarmed (and do not train polearm) would be get some bonus 
+if they fight in the way of true kahedan, without the weight of armours 
+etc.  There would be a small allowance for things to be worn, such as 
+various cloaks medailions and guild items, but not a whole lot else.  I 
+was thinking along the lines of allowing for an AC of 15 or less, with 
+no one item being allowed that is greater than 8.  If the AC is above 
+those qualifications they fight normally, without bonus. 
+    Additionally, with the lower unarmed combat skill of a player who 
+trains polearm, the guild specials the effectiveness of Plex and other 
+specials is decreased.  With respect to unarmed: while fighting unarmed 
+and naked would give a bonus, the player is also naked and will take 
+more damage when hit.  
+    Also, the playerfighting rules are fairly strict and as far I know 
+would be the only guild code in the game in which playerkills affect 
+directly the formula for specials.  Also, since it is a well known fact 
+that mortals live to find their way around such things, such as by 
+avoiding getting a killing blow etc. playerkills will be measured not by 
+wether a monk getts the killing blow, but by wether that monk was in 
+combat with the individual who died.  If the Bob, the monk, is in combat 
+with a player, stops fighting, and his friend and co-conspiritor *wink* 
+or even a neighboring NPC, get's the killing blow within a few minutes 
+of when Bob stopped fighting... Bob will still feel really guilty, 
+knowing he is responsible for the death *wink*.
+    Let me know what you think.  
+Oh, on alien skills, and acrobat... I dropped climb, and the adjustment 
+to polearm will certainly help that...  Though I will give you a better 
+report later.
+Mona
+
+Message: 48
+From   : Akeisha
+Reply  : Monk special attacks (including Plexus) (forwarded)
+Date   : Aug 25 1997
+
+Author : Plugh
+CC     : Mccram and Mona
+Date   : Aug 25 1997
+
+I have changed all the monk specials so that they now get a negative bonus
+of between 0 and 100% depending on how well armoured they are and how
+good weapons they are wielding.
+
+The better armour / weapons they are currently wearing or wielding, the
+less effective their specials will be, up to the point where they do not
+work at all.
+
+I am assuming, and hoping, that this will bring that part of the monks
+guild within guidelines, and if it does not that you let me know what
+parts of the special attacks still need to adjusted, or if the tax does.
+
+Plugh
+
+Message: 25
+From   : Teth
+Subject: Kaheda board note.
+To     : Mona, Mccram, Skaro, Mekare, Katanya, Amelia, Finwe and Akeisha
+CC     : Teth
+Date   : Jun  1 1997
+
+Hello,
+
+I thought before I get flamed on the monk board by a wizard, I'd
+explain the reason (and calculations) behind my note on the
+Kaheda board.
+
+The sum of skills that the monks offer, is 627 levels. This, on first glance, seems to be
+within the rules as outlined in the guild documents. However, the
+calcualtion does not take into consideration the skill levels that
+should be calculated as alien skills (meaning they count two times
+towards the total of 700). Alien skills for the monks, as defined
+by the categorization of skills elsewhere, are herbalism, acrobat,
+and hide. Since these can all be trained to 50 levels, they should
+all be considered trained to 100 levels in a fighter guild,
+as herbalism is a magicusing skill, and acrobat and hide are thief skills. So, in essence,
+the monks train 777 skill levels, 77 more than the maximum allowed for
+an occ guild.
+
+Army of Angmar and Shadow Union guild masters have all rolled back skill
+levels when I pointed out their miscalculations promptly, so I expect
+the same would occur here.
+
+Teth
+
+Message: 15
+From   : Arman
+Subject: Monk ideas
+To     : Mona, Mccram, Amelia, Finwe, Flippyjoe, Thundor, Plugh and Marisol
+Date   : Aug 28 1997
+
+
+Hi Rokels!
+
+I've been keeping a fairly close eye on the 'monk affair', and am very pleased that the Kahedian monks are going to be updated.
+After talking to Mona a while back, I have thought of a possible idea that will make monks a little more fun to play rolewise.
+
+The idea involves monks spurning armours in general. As martial artistists, armour only gets in the way of their abilities, and thus would theoretically be avoided by most monks...
+The thing is this puts them at a great disadvantage in game terms, so I was thinking that an unburdened monk not wearing any armours heavier than say robes or leather armour, would have their speed property increased.
+For those who remember the wiz days, the avatars of wizards came down with pretty ordinary stats and no specials, but with their speed property doubled. That made a _huge_ difference in their fighting ability.
+In this case, the increase in the monks martial speed could depend on their unarmed ability.
+
+Anyway, just an idea that I think would fit quite nicely into any new plans for the monks :).
+
+On another point... I really don't think halo should be returned as it is. For starters, with basically two different types of halos, it makes a distinctive division in the guild, which I think is bad.
+I remember (this would be when Amelia was a monk/Hin warrior, so it goes back a while ;) ) when people  were afraid of attacking monks because if they did the whole monk guild would get behind that monk and basically slam the attacker...
+to me I think its a shame it is no longer like that, and I think halo is one reason for that.
+I think halo only has a place in the monks _if_ you decide to make different groups within the monks (eg guardian, sage, hermit etc.. a division which I strongly approve of).
+Halo could be an advantage for that part of the branch that doesn't make use of the polearm skill (ie not guardians, but perhaps sage or hermit).
+Also, that the type of halo can be chosen by the individual, and that perhaps spell components are needed? (make a practical use of the herbalism skill)
+
+Anyway, these are just some ideas of my own. I hope you don't feel I have stepped over any boundaries in sharing them with you :)
+
+Arman of Ansalon.
+
+Message: 17
+From   : Darien
+Subject: Suggestions...
+To     : Rowan, Nogard, Mona, Mccram, Amelia and Akeisha
+CC     : Darien
+Date   : Aug 28 1997
+
+I was asked to mail if I had any suggestions, so here it the
+suggestions come.  I didn't break things down into a tax doc
+because I'm in mortal form. ;)  I just gave things a nice
+gloss over and hope you can take what you want (if anything)
+from it all....
+Now here it is:
+
+Specials:
+axekick    -- Nearly useless now, and it could be recoded,
+              but why worry about taxing us for extra
+              combat specials?  Let's focus on two of them
+              and let it be at that.
+backflips  -- Don't worry about a recode.  Cute idea, but
+              not worth the tax even if you allow us to
+              strike at an opponent while flipping around.
+              Let's focus our tax into two combat specials
+              and get leaner but meaner.
+halo       -- Recode it so that perhaps it is an expression
+              of our "ki"... our energy.  Increase mana for
+              it by a goodly amount, add a viable ability
+              for it while neutral in addition to good and
+              evil.  Keep this for both occupational and
+              layman members.
+maegiri    -- Leave it as a lesser combat special for the
+              layman members.  Maegiri is a fast special
+              that doesn't commit lots of damage but does
+              reset quickly.  Drop it for occupational
+              members, though.  We have better things to
+              put our tax into.
+mtell      -- Increase mana cost of our mtelling by a good
+              amount, but keep it.  Mtell is a practically
+              a Kahedan institution.  Keep this for both
+              occupational and layman members.
+plexus     -- Another Kahedan institution, plexus is truly
+              what makes us monks.  Recode to acceptable
+              standards, but keep the effects at present
+              levels if possible and simply up tax to what
+              percentage is necessary for balance.  As now,
+              only occupational members would have plexus.
+roundhouse -- Good combat special and well worth the tax.
+              Keep it as is (if the code is acceptable) and
+              just set appropriate tax on it.  As now, only
+              occupational members would have plexus.
+
+There are the specials....
+
+Darien
+
+Message: 18
+From   : Darien
+Subject: Suggestions, cont.
+To     : Rowan, Nogard, Mona, Mccram, Amelia and Akeisha
+CC     : Darien
+Date   : Aug 28 1997
+
+And here are the skills:
+
+SKILL              LAYMAN                OCCUPATIONAL
+focus              sup jour              sup guru
+katas              sup jour              sup guru
+blindfighting      sup jour              sup master
+unarmed combat     sup jour              sup master/guru*
+defense            sup jour              sup master/guru*
+awareness          sup jour              sup craft/vet
+herbalism          sup jour              sup craft/vet
+acrobat            sup jour              sup jour
+
+You will notice in the above list that I remove polearm
+and add an additional skill named katas.  This new skill
+would be something used in interaction with unarmed to
+increase the chances to hit and the damage of our unarmed
+strikes.  Named katas (or whatever) it would reflect our
+advanced study of unarmed martial styles.  In essence,
+unarmed combat would be made fully into our 'weapon' by
+augmenting what can be done with it in our specific case.
+This skill would also be used with roundhouse and plexus.
+Unarmed combat would recieve a quest that could increase
+it to superior guru, as would defense.  Appropriately
+themed quests would be made for each, of course.
+I suggest raising awareness to superior craftsman (or
+even to superior veteran) for the same reasons Ghenna
+suggested a raise: we're supposed to be more aware of our
+environment and of existence in general.  So let's prove
+our enlightenment. ;)
+Herbalism is increased to reflect a non-magical healing
+focus, as well as a general knowledge of the natural
+environment which comes from our learning and studies.
+With higher herbalism we will be able to gather and
+identify more herbs.
+Hide and sneak are stripped... while it could be thematic
+if we stretched it, I think if we have specializations
+later on, perhaps the hermit specialization could have
+sneak or hide to assist in their separation from the
+outside world.  But other than that, I don't believe we
+have any thematic need for it now.
+
+Well, that's all that.  I have other suggestions for the
+individual specializations if we ever get to that, but here
+is what I have for suggestions for the current situation.  I
+hope any of it can be useful.  We have a lot of good ideas
+going around out there, and I'm trying to get people to mail
+or at least post on the board.  But there's a lot of worry and
+disheartened spirit out there unfortunately.  Hopefully we'll
+be able to find a good way through all this.
+I don't envy the job you all have, and I hope you know that at
+least some of us players appreciate the work and time you're
+putting in to make our playing experience better.
+Thank you for that! :)
+
+Take care, all!
+
+Warmly thine,
+
+Darien (Frank)
+
+Message: 12
+From   : Kellendil
+Subject: idea
+Date   : Aug 27 1997
+
+
+
+considering roke is primarily monkish.. especially
+re albi, why does Refnas have such a lousy polearm?
+I suggest that since he has been recoded he should also
+get a decent polearm.. it could be something one handed
+still, but give it the damage and accy of a bubba
+polearm.  That will also make reffy do a bit more damage
+and make him tough to take solo.
+
+
+K.
+
+
+P.S.  Did you get my idea about increasing the dependency
+of wis on monk abilities?
+
+Message: 25
+From   : Bonk
+Subject: suggestions to kaheda change.
+To     : Mona, Amelia, Finwe, Flippyjoe, Thundor, Plugh, Marisol and Mccram
+Date   : Aug 29 1997
+
+Greetings all. I know that u are probably busy so I will try to make this note as short as I can and at the same time bring forth my ideas.
+
+We all know that there are changes going on in kaheda guild. Though we dont what it will be and we dont for certain know what the players really wanna have for changes. After having analyzed the board discussed with a couple of players e.t.c this is what I would like the future should be like. I have read about other ideas ( like dividinig the guild in different sections) and I must say that some I like and I hope that the wizards snaps up the best part from the notes.
+
+What I REALLY wanna to make us unable to stun non-human creatures. That would be realistic and would most certainly help us to get the taxe down.
+That should also satisfy the AoB and the other arches. Many would of course leave the guild if they dont get compensated somehow.
+Further I would like to make an UNARMED PARRY and maybe acrobatic should be coded as an unarmed parry. Though the definition between an parry and defence is rather dull ( if we would have an unarmed parry) but I like the idea. We would have more use by unarmed combat with it. Then I would like us to be able to have sup journeyman at least in blindfighting/polearm/acrobatic. And from that let us be able to spend 80 steps on these three skills. 
+For example I would have sup journeyman in blindfighting sup master in polearm and sup master in acrobatic. Observe unarmed parry can not be used with a weapon.
+Well that is all I think...I would gladly volounteer as a test char and evaluate any changes in monk guilds if u wanted me to.
+
+Bonk, Enlighted priest of kaheda.
+
+Message: 27
+From   : Darien
+Subject: Unarmed combat...
+To     : Rowan, Nogard, Amelia, Mccram, Mona and Akeisha
+CC     : Darien
+Date   : Aug 30 1997
+
+I'm going to be frank, since almost everyone here has coded,
+or at least been around coders.  So I'll not mince words when
+I say that unarmed combat, especially now that the stat changes
+have occurred, is pretty useless against most creatures your own
+size, let alone larger.
+The reason?  Well, someone with sup guru unarmed combat and only
+immortal strength will yet be paled by the hit and penetration of
+probably a splendid sword... maybe even that of a sharp sword (I'm
+expecting high 20s on hit and pen).
+Since having immortal is quite the rarity nowadays, it effectively
+nullifies unarmed combat as a useful "weapon" against any opponent
+larger than yourself, especially if they have weapons appropriate to
+their size.  An adventurer fighting a GA sized creature will probably
+be facing also a weapon of 10+ hit and pen, which will probably make
+their hit/pen from unarmed rather little.
+Likewise, once you hit champ size, you begin fighting creatures with
+weaponry that exceeds the 30s in hit and pen.
+Therefore I beg that regardless of tax, either specials or some mask
+to our unarmed combat be put into the guild that will increase our
+fighting effectiveness, especially if our polearm (which doesn't
+truly fit thematically, but oh, well...) is taken away.
+Balance means we must pay more tax for greater ability, and unarmed
+combat is powerful... it means we need no armour and no weaponry to go
+forth and adventure.  But unarmed combat likewise has its (very great)
+limitations.  And those limitations very obviously need to be
+considered during the recode.  Otherwise we may have only a tax of
+20% or so, but we will be ineffectual in combat, and thereby gutted as
+a guild.
+
+(Just my experiences after playing around with various levels of
+unarmed and stats on another MUD, as well as my own here playing.)
+
+Sorry for the length, all....
+
+Message: 33
+From   : Igneous
+Subject: Ancient Kahedan Order Ideas
+To     : Mona, Amelia, Finwe, Flippyjoe, Thundor, Plugh, Marisol and Mccram
+CC     : Igneous
+Date   : Sep  3 1997
+
+	Hullo!  Having been once an OCC monk and a Layman monk of the 
+kahedan order I thought I'd throw in my ideas for future skill levels and 
+some ideas on how to revise the monks specials.
+
+OCC SKILLS:
+
+SS_UNARMED_COMBAT  100 (*This is very important... anything less than
+			*this level of unarmed will make the guild a laughable
+			*sham IMHO*)
+SS_DEFENCE          94 (*Slight increase to compensate for loss of polearm*)
+SS_BLIND_COMBAT     90 
+SS_WEP_POLEARM      65 (*Encourage unarmed combat and live within the 
+			*semi-planned restriction of 75 for secondary weapon
+			*skills *)
+SS_HERBALISM        65 * 2 (Alien skill)  (*Represents the monks healing 
+					   *ability using the herbs found 
+					   *in nature*) 
+SS_AWARENESS        60 (*Reflects the monks training to be one his/her
+			*surroundings*)
+SS_LANGUAGE         60 (*Reflects a monks studies*)
+SS_ACROBAT          50 * 2 (Alien skill)  (*Used in preforming kicks flips
+					   *etc.....)
+
+Total skills       699 out of 700 possible.
+Tax for skills     7.642
+
+LAYMAN SKILLS:
+SS_UNARMED_COMBAT   50
+SS_BLIND_COMBAT     50
+SS_DEFENCE          50
+SS_WEP_POLEARM      40
+SS_HERBALISM        50 * 2 (Alien skill)
+SS_ACROBAT          40 * 2 (Alien skill)
+
+Total skills:      370 of 400
+Tax for skills:     3.083
+
+Tell-line for both OCC and LAY parts of guild. 4%
+
+Public herb garden, Private Herbalist within the guild hall that will 
+deal herbs at _cost_ (i.e. he'll make no money on the deal and give
+monks full value for the herbs)  (1% because its deal available only to
+guild members.)  (If you need help with the herbalist Shire has a lib you
+can gladly borrow)
+
+Working tax without specials:
+OCC	12.642
+LAY	 8.083
+
+Now here is the My ideas on specials.
+Skills:
+2 special skills will be offered to be trained Focus used for the unarmed 
+attacks throw and strike.  Kata for armed strikes.  There will be a set 
+limit of 160 skill levels to be divided between the 2 so a member can 
+choose what type of special he/she would like to specialize in. Layman 
+members would have 80 levels available to them with a maxium set to 60 since
+layman versions of OCC guilds specials can only be 60% as effective and 
+setting the skill max to 60 is the easiest way to do this. Layman members 
+would not have access to the throw special which replaces the old plexus.
+
+Plexus: Change it to a throw, the more heavily loaded a person is the 
+harder they fall thus increasing the stun. 
+Restrictions:: Can not preform this while wielding a weapon or wearing
+a shield... your hands must be free to do this throw.  Size difference
+between the monk and the object being thrown is checked if the 
+volume/weight ratio is greater than a set number or a number dependant on 
+a monks skill or stats, they can not preform the throw. (This is to make it
+impossible to throw dragons etc...)  Special based off the focus skill.
+
+Strike:  A merging of all the previous special attacks into one.  
+Desriptions should be varied and the forms should be vastly different.
+No lame ("You preform a stike on the <enemy>.\nHe seems unarmed.\n") like 
+the previous ones. Something more to this effect 
+("You hit "+QCTNAME(enemy)+"'s "+hitloc+" with a powerful roundhouse 
+kick, "+(enemy->query_prop(LIVE_I_UNDEAD) ? ("cracking the bone") : 
+("leaving a deep bruise")) +".\n") 
+I'm sure people can come up with better ideas than that if they put some more 
+thought into it *grin*
+
+Kata: A armed weapon strike using the weapon as an extension of your 
+unarmed strikes... basically you'll be using the flat of a bladed weapon 
+or a shaft of a polearm to injure your enemy.  This attack should be 
+slower than the strike since it is more unwieldly and harder to preform
+than an unarmed attack.
+
+Tax for specials:
+This will up to whomever creates this and whatever AoB approves of..
+you'll probably want to keep OCC tax around 20% and layman under 12%.
+
+I had some numbers and ideas of pen values and prep times etc.. for these
+specials... if you wish to hear my thoughts on thoose please mail me and
+I'll gladly mail them to you.
+
+Igneous
+
+
+Message: 44
+From   : Darien
+Subject: Elder Monks (forwarded)
+To     : Amelia and Mccram
+Date   : Sep 20 1997
+
+Author : Darien
+To     : Rowan, Nogard and Mona
+CC     : Darien
+Date   : Aug  9 1997
+
+Rowan brought up the idea of requiring "elder" monks for the two
+recommendations applicants must acquire.  So I was thinking how
+to establish what an elder monk would be.
+Do we have logged incept dates on joining?  I'd think we would,
+just because most guilds do and it's an excellent log to have.
+So... if we do, we could have a file compiling those monks who
+have been members for three or six or however many months we may
+choose are "elder".
+Then downstairs near the Council plaque we could have a listing
+of all current Elder Monks so that applicants could see who would
+qualify for the formal recommendations.
+What do people think of that?  It wouldn't be that difficult to code,
+and, as Nogard pointed out, the code is mostly there already from
+the dinner list.  We could even add "Elder" into the titles of
+monks just to give a little more recognition for the older members.
+
+Well, I hope you're enjoying Mexico, Mona.  Take care, all!
+
+D.
+
+Message: 37
+From   : Spazbar
+Subject: Guild Improvement Ideas
+Date   : Oct  4 1997
+
+Greetings Amelia,
+ I'm sorry I can't make the Town Hall Meeting but I still would
+like to forward my comments on guild improvements.
+ As for skills, as long as all race guilds have a weapon to superior
+journeyman I wouldn't mind giving up polearm for say alchemy or spell
+casting to superior journeyman. As long as the occupational specials
+are balanced with other guilds, I see no problem here.
+ Second I'd like to see more guild specific alchemy, potions that
+can only be mixed by monks, but can be used my all. The Rangers
+have already set this guild precedent. Some suggestions follow:
+Halo potion         reflects the quaffers alignment like spell.
+Mana potion         restores mana perhaps like eating 3/5 suraine.
+Infravision potion  like elf race guild ability.
+Dexterity potion    boost dex stat and/or acrobat skill.
+Stealth potion      boost ability to sneak and hide.
+Headache potion  Intense and bigger headaches will lower stats, being
+                 dwarven and fond of hard drink, I have searched the
+                 world over for hangover cures and still no relief!
+ Some improvements might be made to our grounds, like expand the herb
+garden to 9 rooms and fix the well so we can (fill bottle with water)
+in that location.
+ Access for all players to an herb shop, an alchemy shop with vials,
+mortars, buy/sell potions, like the one in Minas Tirith.
+ Access for all to a grocery healthy foods shop, like the apples,
+oranges, celery, etc. found in Gelan, while I'm on Gelan how about
+selling some refillable bottles in this part of the world!
+ Rebuild the library and restrict access to members only or perhaps
+players teamed with members can enter. Put the join info in one book.
+ I would also like to see more guild specific quests!
+ These additions to our guild would not be out of character for any
+monk guild themes, past, present or future.
+ Be Well, Live Long and Prosper, Spazbar
+
+Message: 44
+From   : Bromen
+Subject: suggestions
+Date   : Oct 11 1997
+
+hello my fair wizard lady, i would like to see our guild have different styles for our martial arts. darien has communicated with me that he likes them, and so told me to speak with you. here is my suggestion:  Our guild needs something new, and i would like to see our guild focus on three (or more) different fighting styles. everywhere i look, is ee that martial arts has to do with style more than anything, and the cool ones always seem to come with the monks.  i propose a Crane, Tiger, and Dragon techniq
+   crane : plexus, and backflips (which would be fixed) and maybe a hold which effectivly stops the enemy from using his/her arms.
+  Tiger: mae-geri, sweep, and jump kick
+  Dragon : roundhouse, axe kick, chi punch (uses mana) and flip (throwing the enemy)
+well, those are my suggestions, if you need a little bit more detail, feel free to mail me. i love this guild.
+
+brother bromen
+

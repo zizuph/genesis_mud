@@ -1,0 +1,11 @@
+True Identity -    This will reveal the name of the target. It will only
+                   work on other players, NOT npcs. This spell will then
+                   allow the caster to remember that player as if they
+                   had been introduced to them (if they have enough slots
+                   in their memory to do so). The caster will have to
+                   manually remember the target. This spell will not
+                   start combat and cannot be cast during combat.
+                   Requires a black diamond. 100 mana. This spell is only
+                   available to level 7 members (Master) and above.
+                   NOTE: This spell will leave the caster paralyzed for
+                         30 + random(60) seconds as well.

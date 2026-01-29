@@ -1,0 +1,71 @@
+Message: 74
+From   : Udana
+Reply  : Bounty Hunters (review)
+Date   : Wed Aug 16 13:32:48 2006
+
+Hey, thanks for going through the code.
+
+About..
+
+ ..bugs:
+ Thanks for help. I didn't think you would actually read it all. I haven't
+finished the code yet. (You also might notice a few differences between
+code and docs). I assure you the final version will be checked very
+carefully.
+
+ ..blood coins:
+ I could improve the current system, by relying on date instead of
+armageddon and limiting the amount that can be stacked or come up
+with another way of limiting number of traps in game (Like making
+them all collapse in time, possibly also restricting some of the traps
+for high ranked members). You're right about the heap of course.
+
+ ..static trap effects:
+ Ok, sounds reasonable.
+
+ ..gaining rank:
+ I was thinking about adding mini-questes that could be used for advancing
+in case there were no (or too few) rewards in the office.
+
+ ..triggering traps:
+ There are npc that walk around - patrolling or hunting. I don't really
+like the idea about npcs 'wandering' into trap in same room in time.
+
+ ..shock trap:
+ The battery is 'magic';] Yeah I know it's lame, I'll try come up with
+something else;]
+
+ ..too long blind/too much mana:
+ I'd have no problem with reducing effects power, if blood coins was changed
+too. It would be hard to get someone cought, and then to start a fight
+immidetly, so I made trap effects accordingly powerfull. If it was easier
+to restock components, they could be downgraded.
+
+ ..poison/stuns/blocking:
+ If any of the effects are illeagal I'll remove them. Just let me know
+which execly. (Please, please allow stuns again;])
+
+ ..remove_component in the shadow:
+ Yeah, you right, I don't know what was I thinking. It must have been late.
+
+ ..infinite stun/instant kill:
+ Bug of course.
+
+ ps
+ I don't cc it to Tomas, just to avoid spamming him. If he should read it
+too, please forward it to him.
+
+ ..poison/stuns/blocking:
+ If any of the effects are illeagal I'll remove them. Just let me know
+which execly. (Please, please allow stuns again;])
+
+ ..remove_component in the shadow:
+ Yeah, you right, I don't know what was I thinking. It must have been late.
+
+ ..infinite stun/instant kill:
+ Bug of course.
+
+ ps
+ I don't cc it to Tomas, just to avoid spamming him. If he should read it
+too, please forward it to him.
+

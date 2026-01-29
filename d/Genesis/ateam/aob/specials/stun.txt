@@ -1,0 +1,36 @@
+Ckrik - 8/29/2021
+
+Stun prevents the stun victim from attacking and invoking specials.
+The standard special lib stun prevents attacks during some interval
+and the victim cannot be re-stunned by the standard lib stun
+objects while the standard stun effect is in cooldown.
+
+Different effects can stack and the library code handles the
+stacking.
+
+Like evade the CAID is calculated via the amount of potential
+damage prevented.
+
+caid = 100 / (100 - stun percentage of cycle interval) * 100 - 100
+
+For example:
+
+A 25% CAID stun with a 60 second cycle time, should incapacitate
+the victim 20% of the time (12 seconds) every 60 seconds.
+
+A 65% CAID stun with a 60 second cycle time, should incapacitate
+the victim 39% of the time (23 seconds) every 60 seconds.
+
+If the stun attempt can miss, we would adjust the percentage to
+account for the CAID difference.
+
+While one-on-one, stun is roughly equivalent to evade at preventing
+attacks, because stun is an active ability rather than passive
+ability it is not as effective as evade at preventing attacks when
+tanking multiple enemies. We usually have setup and cooldown
+periods in the special. For example Monks plexus, we can
+only actively administer up to 4 stuns overlapping stuns on 4
+different enemies simultaneously. Whereas evade would apply to
+all enemy attacks at all times no matter how many enemies and
+does not incur a start up cost. However, unlike evade stun prevents
+special damage including magic (for stunnable casters).

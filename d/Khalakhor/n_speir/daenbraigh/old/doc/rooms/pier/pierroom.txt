@@ -1,0 +1,12 @@
+An outside room where ships can land.
+
+Properties:
+ROOM_I_TYPE - ROOM_BEACH
+
+Items: pier, boards, water/ocean
+
+Objects: none
+
+Actions: swim
+
+Exits: between piers, one also leads into the village.

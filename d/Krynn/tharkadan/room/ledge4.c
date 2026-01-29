@@ -1,0 +1,126 @@
+#include "/d/Krynn/common/defs.h"
+#include "../local.h"
+#include <macros.h>
+#include <ss_types.h>
+#include <stdproperties.h>
+#include "/d/Krynn/common/clock/clock.h"
+
+inherit THARK_OUT;
+inherit HERBSEARCHNEW
+
+string *herbs = HERB_MASTER->query_herbs(({"mountains",}));
+
+void
+reset_tharkadan_room()
+{
+    set_searched(0);
+}
+
+create_tharkadan_room()
+{
+    set_short("@@short_descr");
+    set_long("@@long_descr");
+
+    add_exit(ROOM + "ledge5","east",0);
+
+    add_item(({"valley","vale","wide vale","protected vale",
+         "isolated valley", "floor","centre","forested valley"}),
+         "You stand on the side of a towering peak overlooking a wide " +
+         "vale rimmed by mountains. Aspens and firs grow in abundance, " +
+         "although the most notable feature of this valley is the " +
+         "towering peak you currently stand on.\n");
+    add_item(({"mountains"}),"Mountains rim the valley beneath you.\n");
+    add_item(({"aspen","aspen trees","aspens"}), "You see aspen trees " +
+         "growing in large numbers in the valley below.\n");
+    add_item(({"fir","fir trees","firs"}), "You see large fir trees " +
+         "growing in the valley below.\n");
+    add_item(({"trees","tree"}), "Aspens and firs grow in abundance " +
+         "below in the valley.\n");
+    add_item(({"snow","snow-covered","snow-covered ground",
+	 "white","snow-covered land","winters snow","winter's snow"}),
+         "@@add_item_snow");
+    add_item(({"towering peak","peak","ancient volcano","volcano",
+         "mountain","ledge"}), "You are standing on a ledge on the side " +
+         "of a towering peak, likely once an ancient volcano. Below you " +
+         "can see this mountain stands alone amongst a sea of aspen and " +
+         "fir trees.\n");
+    add_item(({"cracks","deep cracks"}),"Deep cracks run up the side of " +
+         "the peak here towards the summit. You could probably attempt " +
+         "to climb them.\n");
+    add_item(({"summit"}),"You look up towards the summit, and estimate " +
+         "you are getting close to the top.\n");
+
+    add_cmd_item(({"cracks","deep cracks","down","down cracks"}), "climb",
+         "@@climb_cracks");
+
+    seteuid(getuid(TO));
+
+    set_up_herbs( ({ ONE_OF(herbs), ONE_OF(herbs), ONE_OF(herbs),
+       ONE_OF(herbs), ONE_OF(herbs) }), ({ "canyon","ground" }), 3);
+
+    reset_tharkadan_room();
+}
+
+string
+short_descr()
+{
+    return "a ledge high on the side of a towering peak in the " +
+        "Tharkadan mountain range";
+}
+
+string
+mountain_desc()
+{
+    string str;
+    switch (GET_SEASON)
+    {
+    case SPRING:
+    case SUMMER:
+	str = "The ledge starts here, running steeply upwards to your " +
+            "east. Cracks running down the side of the peak here look " +
+            "deep enough to climb, if you have the confidence! ";
+	break;
+    case AUTUMN:
+    case WINTER:
+	str = "The snow-covered ledge starts here, running steeply " +
+            "upwards to your east. Cracks run down the side of the " +
+            "peak here, largely protected from the snow, and look deep " +
+            "enough to allow you to climb if you have the confidence! ";
+	break;
+    }
+    return str;
+}
+
+string
+long_descr()
+{
+    return "You stand high on a ledge running along the side of a " +
+        "towering peak that sits in the centre of a forested valley. " +
+        mountain_desc()+ "\n";
+}
+
+string
+climb_cracks()
+{
+      if(TP->query_skill(SS_CLIMB) < 35)
+      {
+        write("You start climbing down the cracks along the side of the " +
+            "peak. You reach a point where the crux of the climb is too " +
+            "difficult and you slip, sliding down to the ledge below.\n");
+        say(QCTNAME(TP) + " starts climbing down the cracks along the " +
+            "side of the peak. " +C(HE(TP))+" reaches a point where the " +
+            "crux of the climb is too difficult and "+HE(TP)+" slips, " +
+            "sliding down to the ledge below.\n");
+        TP->move_living("sliding down the cracks", ROOM + "ledge3", 1, 0);
+        TP->heal_hp(-400);
+        return "";
+      }
+
+      write("You confidently start climbing down the cracks along the " +
+          "side of the peak, easily making your way to the ledge " +
+          "below.\n");
+      say(QCTNAME(TP) + " confidently starts climbing down the cracks " +
+          "along the side of the peak.\n");
+      TP->move_living("climbing down the cracks", ROOM + "ledge3", 1, 0);
+      return "";
+}

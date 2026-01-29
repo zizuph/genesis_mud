@@ -1,0 +1,14 @@
+wastelands
+::MAPDATA::
+landing-30-2 7 3
+::MAPDATA::
+          ~~~~~~~
+        ~~~~~~~~~~~
+	 ^^^ ~~~ ^^^  
+	   \^ o ^/   @@
+	      |      v 
+	     { #$%$ / \ 
+	   #%&} #%#/   \
+	     {  Wastelands
+    To	      }
+    Cold Hills

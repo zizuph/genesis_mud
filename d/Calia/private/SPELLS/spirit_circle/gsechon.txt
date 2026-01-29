@@ -1,0 +1,6 @@
+Name Forget -      This spell will erase the memory of the caster's 
+                   name from the target, causing them to no longer
+                   "know" the caster and to have forgotten them. This
+                   will not initiate combat. It will not be able to be
+                   cast in combat. Requires an amber. 25 mana. This spell
+                   is available to all level 2 guild members and above.

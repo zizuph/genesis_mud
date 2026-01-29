@@ -1,0 +1,33 @@
+The Kalad domain has some interesting challenges when creating maps
+
+The largest challenge is duplicate room names.  Every street in Kabal 
+starts with s1 and goes up.  An extreme example is the area around the
+High-Harvest interstection.  Here we have five rooms called s1 and three 
+called s2.
+
+Mapped rooms are separated by the directories to avoid linking issues.
+
+/d/Kalad/common/central/arena/     -   kabal_arena.txt
+/d/Kalad/common/central/citadel/   -   kabal_citadel.txt
+/d/Kalad/common/central/gladiator/ -   kabal_arena.txt
+/d/Kalad/common/central/high/      -   kabal_central_high.txt
+/d/Kalad/common/central/market/    -   kabal_central_market.txt
+/d/Kalad/common/central/plaza/     -   kabal_central_plaza.txt
+/d/Kalad/common/central/promenade/ -   kabal_central_promenade.txt
+/d/Kalad/common/central/caravan/   -   kabal_central_caravan.txt
+
+/d/Kalad/common/caravan/beggar/    -   kabal_caravan_beggar.txt
+/d/Kalad/common/caravan/caravan/   -   kabal_caravan_caravan.txt
+/d/Kalad/common/caravan/harvest/   -   kabal_caravan_harvest.txt
+/d/Kalad/common/caravan/wayfar/    -   kabal_caravan_wayfar.txt
+
+/d/Kalad/common/noble/end/         -   kabal_noble_end.txt
+/d/Kalad/common/noble/farmer/      -   kabal_noble_farmer.txt
+/d/Kalad/common/noble/gateway/     -   kabal_noble_gateway.txt
+/d/Kalad/common/noble/market/      -   kabal_noble_market.txt
+
+/d/Kalad/common/port/              -   kabal_port.txt
+
+The ascii maps are shared between each of the map files.  When updating
+ascii maps, multiple files will need to updated.
+

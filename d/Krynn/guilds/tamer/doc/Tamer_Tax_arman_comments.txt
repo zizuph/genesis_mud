@@ -1,0 +1,201 @@
+﻿
+@@ At the beginning of the doc can we summarise what the guild is,
+@@ how you join the guild, and any restrictions (i.e any racial
+@@ or alignment restrictions, which i don't believe there are any).
+
+Skills:
+=======
+
+>>> SS_RIDING is listed below as a generic skill... however not
+>>> all pets will be rideable? Also noted the pet special checks
+>>> for SS_MOUNTED_COMBAT which doesn't seem to be provided 
+>>> anywhere.
+
++++ Yes riding is listed as a generic skill, should we count
++++ this as a loss or compensate players that have non-ridable
++++ pets with a .5% tax boost in the pet presence skill boost?
+
+@@ Yeah I think that is probably a good idea unless you can think
+@@ of an alternative skill that could be boosted for non-riders, like
+@@ tracking or hunting?
+
+Skills in this guild are not trained through a guildhall, they are an
+arduous process of actually using the skills in order to acquire them.
+The cost of increasing skills remains, as the pet requires food. While
+it can eat alot of different foods, only food that actually cost you
+money will be awarded with growth potential. This is indicated by the
+pet showing its satisfaction.
+
+@@ Can we add the cost it takes to train using food vs cost for
+@@ if training in a standard adventurers guild. I am sure that will
+@@ be a question asked.
+
+                     Skill   Un-
+                     level   taxed taxed  pen   mod     tax[%]
+SS_ANI_HANDL           60     30    30          0.5      0.250
+SS_RIDING              60     30    30          1.0      0.500
+--------------------------------------------------------------
+Sum:                  120           60      0            0,750
+--------------------------------------------------------------
+
+Skills Tax: 0,75%
+
+Special abilities:
+==================
+
+The maximum capability of pet_attack and reduce damage is 50% combat aid,
+so tax for specials is maxed.
+
+Special Tax: 8.3%
+
+Miscellaneous Specials Perks:
+=============================
+
+-- Mount / (Messenger + Scry):
+   The guild is based around a mount and therefore the mount is not taxed.
+   The guild has two other abilities (Messenger + Scry):
+   Messenger:      1.0%
+   Scout:          2.0%
+
+
++++ The scout ability now takes 15 seconds, the cost is minimum 10% of the
++++ pets max fatigue, based on max fatigue and dexterity. The pet is unable
++++ to scry in waters unless waterdweller, unable to scry on or from boats
++++ unless it can fly.
+
+@@ Can the details such as this be added to the two perks descriptions. Always
+@@ good to outline the limitations.  Also, can we check for the room prop
+@@ ROOM_IN_AIR for those pets that can't fly in the same way we check for 
+@@ underwater.  Not many of those rooms, but they do exist :)
+
+   Tax: 3%
+
+
+-- Pet_Attack:
+   Having an external special ability would mean it ignores stun to the
+   player, this would be quite powerful, but as this ability comes with the 
+   negative aspect of having a chance of actually not being there, and being
+   able to accumulate wounds. I have decided to set this as a low taxing perk.
+
+   The ability starts has a guild xp modifier of 60/150, while it starts at
+   a high value, it has a penalty of requiring alot of time and work for it
+   to raise its skill. This should not be taxed.
+
+@@ Is the xp modifier still 60/150 considering the formula change below? 
+
+   Tax: 0.4%
+
+>>> I really hate the reliance on guild xp for the special attack, but can't
+>>> be helped. Seems like it is built in to the standard special base.
++++ This has been changed, formula for gaining skill for the pet attack
++++ is currently !random(((skill * skill) / 3) / maturity)
+
+@@ Can we add the formula to the pet attack summary, and also a description
+@@ of how it works... how often is this formula called? When something is slain?
+@@ Or when their ability is used?  So is it low skill and high maturity results
+@@ in a fast gain of skill?  Can we add an estimate of how long it would take
+@@ to max the skill?
+
+>>> apply_costs_to_player(object player) .. am fine that the player
+>>> doesn't get fatigued by the special, but can we figure out a way
+>>> for it to be applied to the creature? I think the standard is -2 fatigue
+>>> per special attack (add_fatigue(-2)).
++++ The cost for the ability is 3 fatigue or 6 health if the pet is too
++++ fatigued to use the pet_attack.
+
+@@ Can we add the penalty to the pet attack summary
+
+>>> query_combat_aid_modifier() checks for SS_MOUNTED_COMBAT, however
+>>> according to the tax doc and animal balance doc only SS_RIDING is 
+>>> trained?
+>>>
+>>> Also in the config_ability function it has set_skills(({ SS_MOUNTED_COMBAT }));
+>>> How does that impact on the special?
+>>>
++++ SS_MOUNTED_COMBAT is checked in the pet, not the player, as the
++++ pet is the one executing the special. The pet can get 100 in the skill.
+
+@@ make note of this is the notes of this special.
+
+
+-- Presence:
+   The animal increases your skills with its presence, the skills increased
+   are based on the animal, but all are non-combat and capped by the caid
+   this ability costs, or 15 if the ability is cheap.
+   (For further details look in the Animal_Balance file)
+
+   Tax: 0.41%
+
+@@ Are the presence skill level bonuses also influenced by how much a pet
+@@ has been fed (i.e. a proxy skill training)? If so highlight that the 
+@@ bonuses are paid for and scale depending on how much the pet has been
+@@ fed.
+
+-- TManeuver:
+   Being able to save your pet from harm seems as a basic ability, but I
+   have decided to tax it, as I have stated wounds as a negative aspect
+   of the pet_attack being a low taxing perk.
+
+   Tax: 0.1%
+
+-- TArmour:
+   Being able to equip your pet with armour, while costly, reduces the
+   chances of the pet dying.
+
+   Tax: 0.04%
+
+-- TCalm / TAssist / TKill:
+   All players can stop a fight between another player, I see no reason to
+   tax the player for this ability. The same with attacking a target.
+
+-- Skill Training:
+   They dont have a guildhall, but skills are trained when the pet uses
+   them. The cost of the skills is based on how much money the user has
+   spent feeding the pet, so no tax is required for this.
+
+>>> Can you provide an example with animal handling maybe? How does a new
+>>> Tamer improve their animal handling from zero?
++++ Feeding pets, and anything in game that checks for animal handling has
++++ a chance !random((skill * skill / 3) / maturity)
+
+>>> I had a quick look at pet_menu.c and thought it may be a good idea to 
+>>> check LANG_IS_OFFENSIVE(x) when creating a name for the pet. Its in
+>>> <language.h> ... 
++++ Added!
+
+Overall Tax:
+    Skills:      0.75%
+    Specials:    8.30%
+    Perks:       2.95%
+    ------------------
+                12.00%
+
+
+>>> Overall looks really good. I like it. A few things I am not clear on:
+
+>>> releasing pets... if a player does release his pet, what does that mean. 
+>>> They leave the guild? If not, what is the penalty for pet swapping?? We
+>>> don't want it to be a common thing, so a decent penalty would be in order?
++++ Releasing a pet to the wilds leaves the guild. If you tame a new pet when
++++ already having a pet, you start over with the new pet. At the moment, this
++++ means your special starts from 0 aswell.. too harsh?
+
+@@ No, i think the penalty is appropriate. How many pets can you have/train? 
+@@ I was thinking just one... but sounds like you thinking along the lines 
+@@ of more than one potential pet?
+
+>>> I didn't find a guild object. How do players figure out what their help
+>>> menu is?
++++ When the tamer examines the pet, s/he will see the following:
++++ You may 'help tamers' for further information on the guild.
++++ He can eat quite a lot more, is extremely alert and unencumbered.
++++ He seems to be feeling very well.
++++
++++ Do we need more? Could add a reminder when logging in?..
+
+@@ If the pet isn't summoned, that could be an issue. How about the initial 
+@@ 'rescuing' of the pet involves the removing of an arrow head or something
+@@ like that (can be a selection of items maybe) that can be turned into a 
+@@ pendant or necklace or earring or something... but doubles as a guild object?
+@@ Just an idea. If you think it is ok without it, it may not be a big deal.
+@@ Something we can beta test.

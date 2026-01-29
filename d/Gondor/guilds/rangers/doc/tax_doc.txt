@@ -1,0 +1,228 @@
+*****************************************************************************
+          TAX INFORMATION FOR THE RANGERS OF THE WESTLAND (Occupational)
+*****************************************************************************
+AG = Adventures Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)
+
+Ranger Pupil Skill Tax
+======================
+
+                    max level   taxed(AG)    taxable    modifier      tax 
+    --------------------------------------------------------------------------
+    General
+    --------------------------------------------------------------------------
+    SS_WEP_SWORD           50         30          20         1.5         0.000
+    SS_WEP_POLEARM          0         30           0         1.0         0.000  
+    --------------------------------------------------------------------------
+    Totals                 XX         XX          XX                     0.XX%
+
+    --------------------------------------------------------------------------
+    Guild Specific Skills
+    --------------------------------------------------------------------------
+    BRAWL                 100          0           0         0.0         0.000
+    --------------------------------------------------------------------------
+                
+    Taxable Slots Allowed               : XXX
+    Actual Taxable Slots                :  XX
+
+    TOTAL TAX FOR SKILLS (Ranger Pupil) : 0.XX%
+
+
+Full Ranger (Ithilien Company) Skill Tax
+========================================
+
+                    max level   taxed(AG)    taxable    modifier      tax 
+    --------------------------------------------------------------------------
+    General
+    --------------------------------------------------------------------------
+    SS_WEP_SWORD           50         30          20         1.5         0.000
+    SS_WEP_POLEARM          0         30           0         1.0         0.000  
+    --------------------------------------------------------------------------
+    Totals                 XX         XX          XX                     0.XX%
+
+    --------------------------------------------------------------------------
+    Guild Specific Skills
+    --------------------------------------------------------------------------
+    BRAWL                 100          0           0         0.0         0.000
+    --------------------------------------------------------------------------
+                
+    Taxable Slots Allowed               : XXX
+    Actual Taxable Slots                :  XX
+
+    TOTAL TAX FOR SKILLS (Ranger Pupil) : 0.XX%
+
+
+Full Ranger (North Company) Skill Tax
+=====================================
+
+                    max level   taxed(AG)    taxable    modifier      tax 
+    --------------------------------------------------------------------------
+    General
+    --------------------------------------------------------------------------
+    SS_WEP_SWORD           50         30          20         1.5         0.000
+    SS_WEP_POLEARM          0         30           0         1.0         0.000  
+    --------------------------------------------------------------------------
+    Totals                 XX         XX          XX                     0.XX%
+
+    --------------------------------------------------------------------------
+    Guild Specific Skills
+    --------------------------------------------------------------------------
+    BRAWL                 100          0           0         0.0         0.000
+    --------------------------------------------------------------------------
+                
+    Taxable Slots Allowed               : XXX
+    Actual Taxable Slots                :  XX
+
+    TOTAL TAX FOR SKILLS (Ranger Pupil) : 0.XX%
+
+================
+COMBAT SPECIALS:
+================
+
+BRAWLING (Uses skills X and Y)
+
+    MAX_TIME_TO_RECOVER       35
+    MIN_TIME_TO_RECOVER       15
+    MAX_TIME_BRAWL            22
+    MIN_TIME_BRAWL             7
+    TIME_BEFORE_ACTUAL_BRAWL   6
+
+    It takes max 41 seconds between each brawl, and minimum 21 seconds,
+    based on the brawl-skill. The effect of a brawl lasts between 7
+    seconds and 22 seconds, also depending on the brawl-skill. A drawback
+    implemented in brawling is that the victim of a brawl will a little by
+    little 'learn' how to avoid being brawled, and so the effectiveness
+    decreases after some fighting. 
+    The chance of a successful brawl is ~50%, but then decreasing as the
+    victim 'learns' to avoid it. Disarming will happen about 30% of the
+    time, and the chance for a total disarm (i.e. dropping of weapon) is
+    ~25%. 
+
+    A calculation based on how these effects work on combat, using a lot
+    of common sense and help from statistical experts (Milan of Rhovanion)
+    was made, judging brawling to give a combat aid of about 80%. Being
+    blinded means a decreased combat ability for the victim, as does being
+    disarmed. But the 'learning' part weighs this out a little, and an
+    agreement with the AoB Olorin decreased the combat aid with 10% for
+    this drawback. 
+
+    Brawling is also dependant on a guild-specific skill, no 118200, which
+    then halves the combat aid to 35%.
+    According to the rules, this will mean a tax of 35% / 6 = 5.83%
+    
+    Tax for brawling: 35% / 6 = 5.83%
+
+LISTEN (Uses skills X and Y)
+
+    The 'listen'-ability is based on a guild-specific skill, no 118209.
+    It allows the Ranger a chance to hear if there are any livings in the
+    next room. As a special ability with relatively minor effect, this was 
+    taxed to 0.5% for full rangers who can train the ability to sup guru,
+    and 0.25% for pupils.
+
+TOTAL TAX FOR SPECIALS: 5.83%
+
+
+====================
+ADDITIONAL FEATURES:
+====================
+
+None
+
+TOTAL TAX FOR ADDITIONAL FEATURES: 0%
+
+
+***************************************************************************
+             Taxation Summary
+***************************************************************************
+
+    Skill Tax Total        :  0.50    
+    Combat Specials        :  8.33  
+    Additional Features    :  0.00   
+                             ----
+    Total Tax              :  8.83
+
+    Rounded Total Tax      : 9%
+
+*****************************************************************************
+
+Document by Petros, May 2020
+
+
+
+OLD CONTENT
+                   Pupils     Gondor   Ithilien      North
+Skill-name      max (tax)  max (tax)  max (tax)  max (tax)
+SS_WEP_SWORD     50 ( 20)   75 ( 45)   80 ( 50)   75 ( 45)
+SS_WEP_POLEARM    0 (  0)    0 (  0)   70 ( 40)    0 (  0)
+SS_DEFENCE       35 ( 15)   55 ( 35)   70 ( 50)   55 ( 35)
+SS_PARRY         15 ( 15)   25 ( 25)   50 ( 50)   25 ( 25)
+  sum           100 ( 50)  155 (105)  270 (190)  155 (105)
+
+SS_SNEAK         50 ( 20)   70 ( 50)   70 ( 50)   90 ( 70)
+SS_HIDE          50 ( 20)   70 ( 50)   70 ( 50)   90 ( 70)
+SS_AWARENESS     70 ( 20)   80 ( 30)   80 ( 30)   85 ( 35)
+(SS_FR_TRAP       0 (  0)    0 (  0)    0 (  0)    0 (  0))
+  sum           170 ( 60)  220 (130)  220 (130)  265 (175)
+
+SS_HERBALISM     35 ( 15)   70 ( 50)   45 ( 25)   45 ( 25)
+(SS_ALCHEMY       0 (  0)    0 (  0)    0 (  0)    0 (  0))
+SS_SPELLCRAFT    30 ( 10)   65 ( 45)   40 ( 20)   40 ( 20)
+SS_ELEMENT_LIFE  30 ( 10)   50 ( 30)   40 ( 20)   40 ( 20)
+SS_CONJURATION   10 ( 10)   50 ( 50)   20 ( 20)   20 ( 20)
+SS_ABJURATION     0 (  0)   30 ( 30)    0 (  0)    0 (  0)
+  sum           105 ( 45)  265 (205)  145 ( 85)  145 ( 85)
+
+SS_TRACKING      40 ( 10)   60 ( 30)   65 ( 35)   85 ( 55)
+SS_LOC_SENSE      0 (  0)    0 (  0)    0 (  0)   50 ( 20)
+SS_HUNTING        0 (  0)    0 (  0)    0 (  0)    0 (  0)
+(SS_ANI_HANDL     0 (  0)    0 (   )    0 (  0)    0 (  0))
+  sum            40 ( 10)   60 ( 30)   65 ( 35)  135 ( 75)
+
+  total         415 (165)  700 (470)  700 (440)  700 (440)
+Tax levels including
+factor 1.5 for combat
+and weapon skills:      (190)      (523)      (535)      (493)  
+Tax:           3.16%       8.71%       8.91%       8.21%
+
+
+RANGER SPECIFIC SKILLS
+    SS_BRAWLING
+    SS_HEARING
+    SS_REWARDED
+    SS_RANGER_SPELL_LIST
+    SS_RANGER_DISFAVOUR
+    SS_RANGER_TEAM
+
+Spell taxes:
+See the documents on spells and potions in /d/Gondor/open/SPELLS/rangers/.
+
+Spells:
+            Class      Tax  Level
+    whistle        1    0.1 %      5
+    nightvision    1    0.1 %      5
+    rest           2    0.25%     10
+    elbereth       2    0.25%     10
+    heal           3    0.5 %     15
+    cleanse        3    0.5 %     20
+                        1.7 %
+
+A ranger can only learn a limited number of spells, according to his
+or her company and the levels of the spells. Pupils can learn up to 20
+levels, Rangers of Gondor up to 100 levels, and Rangers of the North
+and Rangers of Ithilien up to 60 levels.
+
+Thus the tax for pupils is 0.5 %, for Rangers of Gondor 1.7 %, and for
+Rangers of the North and of Ithilien, it is 1.6 %.
+
+
+Potions:
+Ranger potions have direct effects, and can be mixed successfully only
+by rangers. Therefore, they are taxed like spells.
+
+                Class    Tax
+    avarywalme        2  0.25%
+    este              2  0.25%
+    wenya             2  0.25%
+                        0.75%

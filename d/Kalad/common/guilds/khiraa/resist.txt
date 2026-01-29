@@ -1,0 +1,58 @@
+Hello,
+
+Here's some thoughts I have on the spell_resistance code. In my
+opinion the spellcasting success shouldn't be a factor in the
+resistance though it looks tempting.
+
+When you cast a spell, you might want to calculate the total
+effect like this:
+
+Let's say you have a spell with a number of targets:
+First you cast the spell, which results in a spellcasting_success
+number between 0 and 100. Now you know the general power the spell
+has. After this you check which resistances the targets have.
+When you're done with that you want to calculate the total effect
+of the spell for each target with a formula something like this:
+
+total_spell_effect = spellcasting_success * (100 - resistance) / 100;
+
+In the resistance of the target the spellcasting_success is already
+factored in, hence you get some kind of second order dependence of
+the total_spell_effect on the spellcasting_success, while it should
+be linear. I think the resistance of a target to a spell should just
+depend on skills and properties of the target and the spell itself.
+This way you keep things separated and very clear:
+* the spellcasting_success is something that you have influence on
+  as a spell caster,
+* the resistance to a spell depends only on the target and the spell
+  itself (nomatter how well it was cast).
+
+Right now the spellcasting_success is just added to the task difficulty
+in e.g. spell_resist like this:
+   difficulty - (100 - spellcasting_success), or written differently:
+   difficulty + spellcasting_success - 100
+In this form the formula isn't very good anyway, difficult has the
+range 0..1400, while spellcasting_success is only in the range of 0..100.
+
+So, I'd just get rid of the spellcasting_success in the resistance
+calculation. But if it's gonna stay I'd use a formula something like
+   difficulty * spellcasting_success / 100
+so that the spellcasting_success would actually do something when
+having a high spell resistance difficulty.
+
+
+Fysix
+
+PS Just a little comparison with how the combat system works:
+In the combat system the total effect of one hit is defined by 2 things:
+
+- the tohit value: the chance of hitting depending on dex,
+  defensive skills, volume and encumberance of the 2 fighters compared
+  to eachother.
+- how hard you hit: mainly depending on offensive skills, weapon
+  penetration values of the attacker and armour class of the target.
+
+Notice that these 2 factors are calculated using different properties,
+basically here the separation offensive <-> defensive can be made too.
+The wrong thing to do here would be using how hard you're hitting in
+the chance of hitting, though it might seem tempting.

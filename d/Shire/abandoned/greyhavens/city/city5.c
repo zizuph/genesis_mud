@@ -1,0 +1,24 @@
+#pragma save_binary
+#pragma strict_types
+
+#include "local.h"
+
+inherit GREY_HAVENS;
+
+void
+create_gh_room()
+{
+    area = "heart of";
+    areaname = "the City of Mithlond";
+    land = "Eriador";
+    areatype = 8;
+    areadesc = "city";
+
+    extraline = " " +
+        "\n";
+
+    add_exit(CITY_DIR +  "city1.c", "southwest");
+    add_exit(CITY_DIR +  "city6.c", "east");
+    add_exit(CITY_DIR +  "city63.c", "north");
+
+}

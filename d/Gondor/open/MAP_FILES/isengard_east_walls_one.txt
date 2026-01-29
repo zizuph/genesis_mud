@@ -1,0 +1,116 @@
+main
+::MAPDATA::
+net9 20 3
+net8 22 5
+net7 24 7
+net6 26 9
+net_guardrm1 24 11
+net5 28 11
+net_gate1 26 13
+net4 30 13
+net_guardrm2 28 15
+net3 32 15
+net2 34 17
+net1 36 19
+et11 38 21
+et10 38 23
+et9 38 25
+et8 38 27
+et_guardrm1 30 29
+et7 38 29
+et_gate2 30 31
+et_gate1 34 31
+et6 38 31
+et_guardrm2 30 33
+et5 38 33
+et4 38 35
+et3 38 37
+et2 38 39
+et1 38 41
+set9 36 43
+set8 34 45
+set_guardrm2 28 47
+set7 32 47
+set_gate1 26 49
+set6 30 49
+set_guardrm1 24 51
+set5 28 51
+set4 26 53
+set3 24 55
+set2 22 57
+1_archroom_1 2 59
+set1 20 59
+1_archroom_2 2 61
+st1 6 61
+st2 10 61
+st3 14 61
+st4 18 61
+1_archroom_3 2 63
+1_archroom_4 2 65
+::MAPDATA::
+
+
+                   \
+                    o
+                     \
+                      o
+                       \
+                        o
+                         \
+                          o
+                           \
+                        o   o
+                         \ / \
+                    ___   o   o
+                   / | \   \   \
+                  |  |  |   o   o
+                  |  |  |        \
+                                  o
+                                   \
+                                    o
+                                     \
+                                     [ ]
+                                      |
+                                      o
+                                      |
+                                      o
+                                      |
+                                      o
+                        ___           |
+                       / | \  o       o
+                      |  |  | |       |
+                      |  |  | o - o - o
+                              |       |
+                              o       o
+                                      |
+                                      o
+                                      |
+                                      o
+                                      |
+                                      o
+                                      |
+                                      o
+                                     /
+                                    o
+                                   /
+                   ___            o
+                  / | \          /
+                 |  |  |    o   o
+                 |  |  |   /   /
+                          o   o
+                         / \ /
+                        o   o
+                           /
+                          o
+                         /
+                        o 
+                       /
+                      o 
+                     /
+  o                 o
+  |                /
+  o - o - o - o -[ ]
+  |
+  o
+  |
+  o

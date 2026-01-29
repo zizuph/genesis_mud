@@ -1,0 +1,11 @@
+
+Topic: council
+
+Commands:
+
+- council
+    See the names of the current Captains and Lieutenants of the Companies.
+
+- call council
+    Call for a meeting with all the Captains, Lieutenants, and the Chieftain.
+

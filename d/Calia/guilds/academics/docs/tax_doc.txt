@@ -1,0 +1,99 @@
+*****************************************************************************
+          TAX INFORMATION FOR THE ACADEMY OF ELEMENTAL ARTS (layman)
+*****************************************************************************
+AG = Adventures Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)
+
+Red Dragonarmy
+
+                   max level   taxed(AG)    taxable    modifier      tax 
+--------------------------------------------------------------------------
+General
+--------------------------------------------------------------------------
+SS_DEFENCE             45         20          20          1.5       0.500%
+SS_FORM_ABJURATION     40         20          20          1.0       0.333%
+SS_FORM_TRANSMUTATION  40         20          20          1.0       0.333%
+SS_FORM_ENCHANTMENT    30         20          10          1.0       0.167%
+SS_FORM_DIVINATION     30         20          10          1.0       0.167%
+SS_ELEMENT_FIRE        40         20          20          1.0       0.333%
+SS_ELEMENT_WATER       40         20          20          1.0       0.333%
+SS_ELEMENT_AIR         40         20          20          1.0       0.333%
+SS_ELEMENT_EARTH       40         20          20          1.0       0.333%
+SS_HERBALISM           40         20          20          1.0       0.333%
+SS_SPELLCRAFT          50         20          30          1.0       0.500%
+SS_LANGUAGE            40         30          10          1.0       0.167%
+SS_APPR_MON            40         30          10          1.0       0.167%
+Primary Element       +10         0          +10          1.0       0.167%
+--------------------------------------------------------------------------
+Totals                510        200         310                    4.166%
+                       
+Taxable Slots Allowed   : 350
+
+TOTAL TAX FOR SKILLS: 4.166%
+                               
+======
+SPELLS
+======
+
+NUMASTOMO
+
+Power 1 Magical Layman - 0.25% tax
+
+PYROFOSTI
+
+Power 1 Magical Layman - 0.25% tax
+    
+HYDROKINE
+   
+Power 3 Magical Layman - 1.00% tax
+ 
+CHEIROPOTO
+
+Power 2 Magical Layman - 0.50% tax
+ 
+LITHODERMU
+
+Power 3 Magical Layman - 1.00% tax
+ 
+Total Tax for Spells: 3.00% tax         
+
+Spell Combat Aid
+----------------
+For the first time, spells will be taxed for their combat aid in
+addition to the per spell tax costs. Because of magic's potentially
+higher combat aid yield, this can quickly grow to unreasonable
+levels. Additionally, caster guilds "pay" for their spells in
+terms of components already. According to the proposal for the
+new magic system, 1% of tax will be charged for every 25% combat
+aid.
+
+Hydrokine (50%) + Cheiropoto (15%) stacked using the formula:
+
+                                   4 * Normal Aid
+          (AWS AID + Normal Aid) - --------------
+                                         11
+
+will yield ~48%. Since this is less 50%, we take 50% as the
+combined aid amount.
+
+Lithodermu grants 25% combat aid.
+    
+Total Tax for Spell Combat Aid:     75% combat aid / 25 = 3.00%
+                                 
+***************************************************************************
+             Taxation Summary
+***************************************************************************
+        
+    Skill Tax Total        :  4.17%
+    Spells Tax             :  3.00%
+    Spells Combat Aid Tax  :  3.00%  
+                              -----
+    Total Tax              :  10.17%
+
+    Rounded Total Tax      :  10%
+
+*****************************************************************************
+
+Document by Petros, December 2009
+Changed by Jaacar, August 2017 - adjusted based on new SS_FORM tax rules.

@@ -1,0 +1,21 @@
+domain,quest desc,group,bit,validation
+Earthsea,Find Special Moss,1,0,default
+Earthsea,Corral Sheep,2,0,default
+Earthsea,Weather Worker,0,12,default
+Earthsea,Find Parchment,0,3,default
+Earthsea,Headache Cure,0,8,default
+Earthsea,Find Teddy Bear,0,10,default
+Earthsea,Remove Goat from Roof,0,5,default
+Earthsea,Find Treat for Cat,0,1,default
+Earthsea,Gather Clams,0,9,default
+Earthsea,Find Apple,0,7,default
+Earthsea,Karg Eye,1,6,default
+Earthsea,Drum,1,7,default
+Earthsea,Gather Ginseng,2,2,default
+Earthsea,Find Blue Seashell,0,6,default
+Earthsea,Find Herb for Harbour Master,0,16,default
+Earthsea,Gather Lucky Items,0,4,default
+Earthsea,Return Bird to Nest,0,2,default
+Earthsea,Find Carving Wood,1,5,default
+Earthsea,Gather Honeycomb,0,11,default
+Earthsea,Find Sandal,0,13,default

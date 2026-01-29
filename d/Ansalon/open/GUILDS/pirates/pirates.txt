@@ -1,0 +1,158 @@
+Name : Pirates of the Bloodsea.
+Style: Fighter.
+Type : Layman.
+Tax  : 10%
+
+(For precise calculation of the tax and skills,
+ and what resolve tasks are used, look in:
+ /d/Ansalon/guild/pirates/docs/pirate_calculations.txt
+
+INTRODUCTION
+============
+The Pirates of the Bloodsea is a small society that
+has taken up residence in an underground cave system
+on the Isle of Mithas. The pirates can, from their
+headquarters, spread their corrupted operations
+further into the Lands of Ansalon, plundering and
+killing as they move forward. The pirates ultimate
+goal is to completely gain control of the Bloodsea
+and the port cities that surrounds the sea.
+
+
+BECOMING A PIRATE
+=================
+Becoming a pirate is fairly easy. One must be voted
+into the society by the pirate King/Queen or one of
+the recruiters, also known as Press Gangers.
+If one of these persons think you are worthy, you'll
+be invited to join.
+The pirates are considered neutral since they both
+attack dragonarmy ships and innocent merchant 
+ships. This means that it's up to the persons 
+OCC guild to decide whether he or she can join 
+(There are of course some guilds that you could 
+imagine will not allow their members to join, such
+as the shadow union that can not drink alcohol,
+but the code doesn't prohibit them joining if they
+seek a roleplay challenge.)
+
+TITLES
+======
+Since the Pirates don't really care about age or
+wisdom, but instead respect brute force, their
+titles in the society depends purely on your layman
+guild stat. However the guild leader will get the
+special title 'Legendary Pirate King/Queen of the Bloodsea',
+and the recruiters get "Press Ganger".
+
+
+LOCATION (/d/Ansalon/guild/pirates)
+===================================
+The guild is hidden. In order to find it one must
+first search the floor of an old warehouse. The player
+will then notice a way down, that'll take him to the
+sea beneth the pier of Nethosak. The rooms below the
+pier, consists of 2 rooms only. In one of the rooms,
+the player can examine some stones or rocks, and 
+he'll discover a small cave, that he can enter,
+which will take him to the underground pirate cave.
+A non-pirate player will only have access to the
+first two rooms of the pirate cave. Once he becomes
+a member, they will be allowed to enter the rest of
+the cave system. This will give them access to a 
+droproom, a board, a shop, a training room and a
+shop where they can purchase monkeys and parrots
+(like in Neraka).
+
+SKILLS AND TAX
+==============
+Stagger is dependant on a skill: SS_SPECIAL_STAGGER,
+which teaches the pirates about the alcohol lore.
+
+The skill is reserved as: SS_SPECIAL_STAGGER 132341
+
+The complete set of skills are:
+
+ Skill Name    (type)   Untaxed Taxed     Mod  Total TotalAgainstLayLimit
+ +---------------------------------------------------------+
+ SS_TRADING      (g)       30     15(30)   1.0   45      15           
+ SS_ACROBAT      (t)       20     40(20)   0.5   60      20
+ SS_DEFENCE      (f)       20     30(20)   1.5   50      45
+ SS_PARRY        (f)        0     50(0)    1.5   50      75
+ SS_SWIM         (g)       30     10(30)   1.0   40      10
+ SS_2H_COMBAT    (f)        0     50(0)    2.0   50     100
+ SS_WEP_KNIFE    (f)       30     30(30)   1.0   60      30
+ SS_AWARENESS    (g)       30     20(30)   1.0   50      20
+ SS_WEP_SWORD    (f)       30     20(30)   1.5   50      30
+ SS_LANGUAGE     (g)       30     15(30)   1.0   45      15
+                          ----                   ----    ----
+                          220                    500     280 (max = 350)
+
+ Tax is (Taxable Skills / 60): 280/60 = 4.67% Tax for skills.
+
+ The guild specific skill SS_SPECIAL_STAGGER trains to 100.
+
+ABILITIES
+=========
+
+Stagger:
+--------
+The stagger special is the only combat aid the pirates has.
+It was originally coded by Elmore who decided to give pirates an
+ability to stagger and dodge the hits.
+
+It's common knowledge that pirates drink alot, and when they
+do, they begin to stagger. Stagger is added to
+the guild shadow, and yields a change to dodge on 1-1 fight of 20%.
+Stagger is only possible if the pirate is more then 50%
+intoxicated. If he's not, nothing will happen.
+
+For fighting more than 1 enemy, this change of dodging is distributed
+over the amount of enemies, thereby ensuring correct combat aid at 
+all times.
+
+For smaller players, the resolve task doesn't work too good, for
+players with <100 in avg and <100 dex, will gain a small +15 in success
+bonus.
+
+Dodging 20% of the time requires a tax of: 20% / 6 = 3.33% Tax.
+
+Pbash, attack special with bottle
+---------------------------------
+Pbash is an attack special that adds some atmosphere to the pirates.
+It makes their combat even more pirate like than with the stagger.
+Pirates who are always drinking, are running around with a bottle of booze,
+they are now able to bash their enemy over the head with their bottle
+in combat. Thereby adding a lot of atmosphere to the pirate.
+
+The attack special uses cb_tohit as instructed, and uses a to_hit value of
+75. "man cb_tohit" tells that using a tohit value of 75 results 
+in a combat aid reduction of 29%.
+
+The attack special is dependant among other things on the SS_SPECIAL_STAGGER skill.
+
+F_PENMOD((100/4 + 100/2 + 200/2)/6, 100/2) = F_PENMOD(29, 50) = 154.
+
+The attack has a preparation time of: 1 + random(4) = 3.
+The reset time is: 15 + random(4) = 17.
+1 round = 6 seconds.
+20 seconds means it is used every 4 rounds = 25% use.
+Standard PEN is 280.
+
+Calculation:
+    154 / 280 * 25% = 13.75% combat aid.
+
+
+Applying reduction:
+
+Combat aid = 13.75% - (0.29*13.75)% = 9.77%
+
+6% combat aid = 1% tax.
+
+9.77% / 6% = 1.63%
+
+
+Which leaves the guild with a total of: 4.57% + 3.33% + 1.63% = 9.6%.
+
+Rounded up, the final tax of Pirates is: 10%.
+

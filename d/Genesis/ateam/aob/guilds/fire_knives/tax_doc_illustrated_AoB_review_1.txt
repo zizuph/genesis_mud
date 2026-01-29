@@ -1,0 +1,529 @@
+﻿*****************************************************************************
+             TAX INFORMATION FOR THE FIRE KNIVES IN FAERUN (Occupational)
+*****************************************************************************
+
+
+*****************************************************************************
+SKILLS
+*****************************************************************************
+AG = Adventurers Guild
+Tax formula: (max level - taxed(AG)) = taxable
+             taxable / 60 * modifier = tax)
+
+>>> AoB comments (Arman May 2019):
+>>> Just a reminder, guru weapon skills need a guru quest. The training
+>>> rooms need to have a check in place, otherwise shouldn't train above
+>>> level 90 in knife.			 
+			 
+ ¤- Information will be inserted here.
+    
+
+                     max level   taxed(AG)  taxable   modifier  tax   skillcap
+------------------------------------------------------------------------------------
+Thief primary skills (half count towards skill cap)
+------------------------------------------------------------------------------------
+SS_SNEAK               100       20          80       1.0       1.333   40  (80, 0.5x)
+SS_HIDE                100       20          80       1.0       1.333   40  (80, 0.5x)
+SS_WEP_KNIFE           100       30          70       1.0       1.166   35  (70, 0.5) 
+SS_AWARENESS           100       30          70       1.0       1.166   35  (70, 0.5x)
+....................................................................................
+SUBTOTAL                                                        4.998   150
+
+------------------------------------------------------------------------------------
+Thief secondary skills (no alien skill penalty up to 75)
+------------------------------------------------------------------------------------      
+SS_PARRY                75        0          75       1.5       1.875   75 (75, 1x) 
+SS_DEFENSE              75       20          55       1.5       1.375   55 (55, 1x) 
+SS_2H_COMBAT            75        0          75       2.0       2.250   75 (75, 1x) 
+SS_ALCHEMY              40       20          20       1.0       0.333   20 (20, 1x) 
+SS_HERBALISM            50       20          30       1.0       0.500   30 (30, 1x) 
+....................................................................................
+SUBTOTAL                                                        6.333   255
+
+------------------------------------------------------------------------------------
+General skills
+------------------------------------------------------------------------------------
+SS_APPR_MON             60       20          40       1.0       0.666   40 (40, 1x) 
+....................................................................................
+SUBTOTAL                                                        0.666   40
+
+------------------------------------------------------------------------------------
+Alien skill penalty (x2 towards skill cap)
+------------------------------------------------------------------------------------
+SS_PARRY                10        0          10       1.5       0.250   20 (10, 2x)
+SS_2H_COMBAT            25        0          25       2.0       0.833   50 (25, 2x)
+....................................................................................
+SUBTOTAL                                                        1.083   70
+                                                                                                                                                               
+------------------------------------------------------------------------------------                         550
+Guild Special Skills (Art of Assassination and SS_BACKSTAB)
+------------------------------------------------------------------------------------
+SS_ARTS                100        0           0       0.0       0.000   -
+SS_BACKSTAB            100        0        *100       1.5       2.500   -
+....................................................................................
+SUBTOTAL                                                        2.500   -
+
+====================================================================================
+TOTAL                                                           15.580%  515
+
+Taxable Skill Slots Allowed: 550. Used: 515.
+
+* While backstab is a mudlib skill it is, for skill cap purposes, the equivalent
+  of a special attack skill and doesn't count towards the skill cap.
+
+
+TOTAL TAX FOR SKILLS:                                              15.580%
+
+*****************************************************************************
+COMBAT AID
+*****************************************************************************
+As the Fire Knives are restricted to using a sub-optimal weapon type 
+(SS_KNIFE) that has a maximum hit/pen of 40/40 compared to the maximum of 
+50/50 for other one-handed weapons and no two-handed knife options that can
+reach a hit/pen of 60/60, the AoB team determined this disadvantage equated 
+to roughly a 13 caid penalty to the guild in 'white damage' only (the 
+Genesis special system takes into account and scales for knives). 
+
+The Fire Knives can include an additional 13 caid in to their caid cap.
+
+This means the Fire Knives may have a total caid of up to 113 at any point
+in time.
+
+Combat aid will be taxed for the entire guild's maximum allowable cap of 100.
+
+TOTAL TAX FOR COMBAT AID:           Fire Knives CAID:  100 / 6 =  16.66%
+
+*****************************************************************************
+TOTAL TAX
+*****************************************************************************
+           |skills       |spells       |combat aid   |    TOTAL
+-----------|-------------|-------------|-------------|---------
+TOTAL TAX: |15.580%  +   |0.000%  +    |16.666%      | =  32.246%
+                                                     |
+                                                     |    32% rounded down.
+                                                          =================
+                                                          =================
+
+>>> Scenarios:
+>>> 
+>>> DAMAGE:
+>>> In a team, they can do a 90 caid backstab plus 33 caid envenom.
+>>> This provides a solid 123 (should be max 113) team caid damage output.
+>>> Considering the Calian swarm is in the territory of 105 to 120 caid,
+>>> this makes the Fire Knives a very comparable evil non-tank damage dealer.
+>>> 
+>>> Solo, they have a backstab starter of 169 caid and can rotate eviscerate 
+>>> (caid 70) and envenom (caid 33) for a total of 103 caid damage output.
+>>> I think this is too high. It provides the Fire Knives with far better
+>>> dps than any of the solo fighter guilds. 
+>>>
+>>> And considering the comparable non-tank damage benefits with the Calians
+>>> and noting the Fire Knives have greater defensive skills (overall
+>>> defence + parry is 165 vs Calians of 150) and the calians have a solo
+>>> offensive special (riposte) that provides up to 25 caid, I feel it is
+>>> positioned as being too good at all combat scenarios.
+>>>
+>>> I think a maximum solo caid of 70-75 between evisercate and envenom 
+>>> would be appropriate.
+>>> Mindful that the team combo of backstab and envenom is over the cap by
+>>> 10 caid, I think envenom can be reduced by 10 down to a 23 caid special
+>>> attack, and eviscerate reduced to 52 caid, providing a solid solo
+>>> damage output.
+>>>
+>>> I think this set up would make players consider using the more powerful
+>>> debuffs (blinding powder or cheap shot) in rotation more as well.
+
+
+
+========================================
+FIRE KNIVES ABILITIES DESCRIPTION
+========================================
+Assassins have an array of tools in their arsenal which is refered to 
+as the "Arts of Assassination". Most require sometimes crafted 
+components, and most share same global cooldown.
+
+
+  Backstab
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+>>> This special needs to inherit /d/Genesis/specials/std/backstab.c
+>>> with the messaging etc masked. It shouldn't be a copy of the
+>>> special.
+
+  Files: /d/Faerun/guilds/fire_knives/specials/backstab.c
+  The Generic backstab available for all except for
+  custom descriptors for added atmosphere and appearance, and
+  sport a 90 caid when not tanking (and useless when tanking). 
+  Opening caid is 169 is unseen by target.
+  
+    Combat Aid
+    ----------
+    90/169%
+    
+    Frequency
+    ---------
+    Backstab can be performed on average same as normal global variant. 
+    
+    Hit chance
+    ----------
+    Same as global variant.
+    
+    Penetration
+    -----------
+    Penetration is calculated using the person's strength and dex 
+    weighted twice, and their wisdom. The backstab skill
+    is also used. Of course, penetration also depends on the weapon's 
+    pen.
+    
+    Everything else is calculated by the Genesis Specials system
+  
+  
+
+    Envenom
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Files: /d/Faerun/guilds/fire_knives/specials/envenom.c
+    Quick left hand dps special. Requires a wielded dagger or
+    knife in the left hand that is coated with a alchemical weapon 
+    oil.
+ 
+    *This special shares NO global cooldown with other guild
+     specials.
+
+    An assassin at max rank can apply these simutaniously:
+
+    *Envenom + One of these (Backstab, Eviscerate, Stun, Blind, Garotte or 
+     Evade), which totals max 113 caid regardless of composition and combination.
+ 
+>>> The problem we have is that envenom and the 90 caid backstab 
+>>> combined goes over the caid cap of 113 (90 + 33 = 123). There
+>>> are no checks in either envenom or backstab that modifies either
+>>> of their caid to take into account this.
+    
+    *Envenom requires the right coated alchemical weapon oil for the right
+     kind of creature (else it will not fire). Oils are crafted by alchemy set 
+     and a proper herb. The list of the following 
+     craftable weapon oils are:
+     --------------------------
+     Manslayer      (humans and half-elves)
+     Eldarbane      (elves, drows, half-elves etc)
+     Dwarfbane      (dwarves)
+     Gnomeslayer    (gnomes)
+     Halflingbane   (kenders, hobbits, halflings)
+     Giantsbane     (minotaurs, giants, ogres etc)
+     Dragonbane     (dragons and dragonkind)
+     Greenslayer    (goblins, orcs, uruks etc)
+     Deathbane      (undeads)
+     Naturebane     (wisps, efreets, elementals etc)
+    
+>>> I like this system... its very Witcher-like! 
+
+    Rank-locked
+    -----------
+    Yes. Requires x promoted only rank to unlock.
+    
+    Required Ingredient
+    -------------------
+    Dagger with alchemical weapon oil applied.
+    
+    Combat Aid
+    ----------
+    33%
+    
+    Frequency
+    ---------
+    Envenom can be performed on average once every 13 seconds. There
+    is a 8 second preparation time, followed by a 5 second cooldown
+    time. It uses the Genesis Specials, so the timings of these are
+    randomized.
+    
+    Hit chance
+    ----------
+    Tohit is set to be 95. This is calculated to be 84% hit chance
+    according to 'man cb_tohit'.
+    
+    Penetration
+    -----------
+    Penetration is calculated using the person's strength and dex 
+    weighted twice, and their wisdom. The art of assassination skill
+    is also used. Penetration also depends on the weapon's 
+    pen.
+
+    
+    
+    
+  Eviscerate
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+>>> Eviscerate inherits this, which it really shouldn't:
+>>> "/d/Ansalon/guild/dragonarmy/specials/dragonarmy_utility"
+>>>
+>>> It has a function in your query_combat_aid_modifier() which will
+>>> gimp this special's caid, as players will never be a Dragonarmy
+>>> Officer.
+>>>
+>>> I'd suggest removing the query_combat_aid_modifier() entirely 
+>>> from this special, as you aren't reducing the caid for any
+>>> specific purpose. 
+
+    Files: /d/Faerun/guilds/fire_knives/specials/eviscerate.c
+    Quick right hand dps special. Requires a wielded dagger or
+    knife in the right hand.
+ 
+    *This special shares same global cooldown with all other guild
+     specials except envenom.
+
+>>> Do the cooldown checks actually work? I need to probably test
+>>> with a junior.
+ 
+    Rank-locked
+    -----------
+    Yes. Requires x promoted only rank to unlock.
+    
+    Required Ingredient
+    -------------------
+    Dagger with alchemical weapon oil applied.
+    
+    Combat Aid
+    ----------
+    70%
+    
+    Frequency
+    ---------
+    Eviscerate can be performed on average once every 9 seconds. There
+    is a 4 second preparation time, followed by a 5 second cooldown
+    time. It uses the Genesis Specials, so the timings of these are
+    randomized.
+    
+    Hit chance
+    ----------
+    Tohit is set to be 95. This is calculated to be 84% hit chance
+    according to 'man cb_tohit'.
+    
+    Penetration
+    -----------
+    Penetration is calculated using the person's strength and dex 
+    weighted twice, and their wisdom. The art of assassination skill
+    is also used. Penetration also depends on the weapon's 
+    pen.
+ 
+ 
+ 
+ 
+  Blind
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Files: /d/Faerun/guilds/fire_knives/specials/blind.c
+    Quick action using an alchemical compound (blinding powder) that 
+    affects the eyes of most living creatures through searing
+    pain and irritation.
+    
+    *This special shares same global cooldown with all other guild
+     specials except envenom.
+     
+     
+    Rank-locked
+    -----------
+    Yes. Requires x promoted only rank to unlock.
+    
+    Required Ingredient
+    -------------------
+    Blinding powder.
+    
+    Combat Aid
+    ----------
+    80%
+    
+    Frequency
+    ---------
+    Blind can be performed on average once every 30 seconds. There
+    is a 2 second preparation time, followed by a 28 second cooldown
+    time. It uses the Genesis Specials, so the timings of these are
+    randomized.
+    
+    Hit chance
+    ----------
+    task = actor->resolve_task(TASK_ROUTINE, 
+           ({ SKILL_AVG, TS_OCC, TS_WIS, SKILL_END, SS_ART }),
+           enemy, ({ SKILL_AVG, TS_DIS, TS_INT, SKILL_END }));
+           
+    task = min(task, 100) / 3;
+
+    If task is larger than 0, then blinding powder hits.    
+    
+    Penetration
+    -----------
+    N/A
+    
+ 
+ 
+
+  Stun
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Files: /d/Faerun/guilds/fire_knives/specials/stun.c
+    Dirty as it comes. A solid groin kick to the jewels will
+    usually stun even the most formidable living opponent through
+    temporary nerval paralyzis.
+    
+    *This special shares same global cooldown with all other guild
+     specials except envenom.
+     
+     
+    Rank-locked
+    -----------
+    Yes. Requires x promoted only rank to unlock.
+    
+    Required Ingredient
+    -------------------
+    None
+    
+    Combat Aid
+    ----------
+    80%
+    
+    Frequency
+    ---------
+    Stun can be performed on average once every 19 seconds. There
+    is a 5 second preparation time, followed by a 5 second cooldown
+    time. It uses the Genesis Specials, so the timings of these are
+    randomized.
+    
+    Hit chance
+    ----------
+    task = actor->resolve_task(TASK_ROUTINE, 
+           ({ SKILL_AVG, TS_OCC, TS_WIS, SKILL_END, SS_ART }),
+           enemy, ({ SKILL_AVG, TS_DIS, TS_INT, SKILL_END }));
+           
+    task = min(task, 100) / 3;
+
+    If task is larger than 0, then stun lands properly.    
+    
+    Penetration
+    -----------
+    N/A 
+
+
+
+
+  Garotte
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Files: /d/Faerun/guilds/fire_knives/specials/garotte.c
+    Pesky casters often rely on their chanted spells. Naturally,
+    sometimes it's hard to cast magic that requires verbal 
+    components when the throat is closed and the air is trapped
+    in living lungs.
+    
+    *This special shares same global cooldown with all other guild
+     specials except envenom.
+     
+     
+    Rank-locked
+    -----------
+    Yes. Requires x promoted only rank to unlock.
+    
+    Required Ingredient
+    -------------------
+    Garotte wire
+    
+    Combat Aid
+    ----------
+    80%
+    
+    Frequency
+    ---------
+    Garotte can be performed on average once every 30 seconds. There
+    is a 5 second preparation time, followed by a 25 second cooldown
+    time. It uses the Genesis Specials, so the timings of these are
+    randomized.
+    
+    Hit chance
+    ----------
+    task = actor->resolve_task(TASK_ROUTINE, 
+           ({ SKILL_AVG, TS_OCC, TS_WIS, SKILL_END, SS_ART }),
+           enemy, ({ SKILL_AVG, TS_DIS, TS_INT, SKILL_END }));
+           
+    task = min(task, 100) / 3;
+
+    If task is larger than 0, then garotte lands properly.    
+    
+    Penetration
+    -----------
+    N/A     
+    
+    
+
+
+  Evade
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Files: /d/Faerun/guilds/fire_knives/specials/evade.c
+    In exchange of frontload dps, an assassin can focus on evading
+    incoming attacks instead. The effect is plain and straight
+    forward, and must be replentished like all other specials.
+    
+    *This special shares same global cooldown with all other guild
+     specials except envenom.
+     
+     
+    Rank-locked
+    -----------
+    Yes. Requires x promoted only rank to unlock.
+    
+    Required Ingredient
+    -------------------
+    N/A
+    
+    Combat Aid
+    ----------
+    80%
+    
+    Frequency
+    ---------
+    Evade can be performed on average once every 30 seconds. 
+    
+    Hit chance
+    ----------
+    N/A - Self only.
+    
+    Penetration
+    -----------
+    N/A         
+    
+
+
+    
+  Vanish - TO BE ADDED!!
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Files: /d/Faerun/guilds/fire_knives/specials/vanish.c
+    With a rare and exotic alchemical compound, assassins may
+    create a smokey diversion that puts them back in hidden
+    state.
+    
+    *This special shares same global cooldown with all other guild
+     specials except envenom.
+     
+    *This special is applicable once per 30 minutes.
+    
+    *This special blocks them from ambushing somebody with backstab
+     for the next 10 minutes.
+     
+     
+    Rank-locked
+    -----------
+    Yes. Requires x promoted only rank to unlock.
+    
+    Required Ingredient
+    -------------------
+    N/A
+    
+    Combat Aid
+    ----------
+    ??%
+    
+    Frequency
+    ---------
+    Vanish can be performed once every 30 minutes. 
+    
+    Hit chance
+    ----------
+    N/A - Self only.
+    
+    Penetration
+    -----------
+    N/A           
+    

@@ -1,0 +1,122 @@
+main
+::MAPDATA::
+path1 64 7 vale
+path2 64 7 vale
+path 64 7 vale
+path4 64 7 vale
+straight_bottom 64 7 vale
+straight1 64 7 vale
+straight1 64 7 vale
+straight2 64 7 vale
+straight3 64 7 vale
+straight4 64 7 vale
+straight5 64 7 vale
+straight_half 64 7 vale
+straight6 64 7 vale
+straight7 64 7 vale
+straight8 64 7 vale
+straight9 64 7 vale
+straight10 64 7 vale
+straight_top 64 7 vale
+winding1 64 7 winding
+winding2 64 7 winding
+winding3 64 7 winding
+winding4 64 7 winding
+winding5 64 7 winding
+winding6 64 7 winding
+winding7 64 7 winding
+winding8 64 7 winding
+winding9 64 7 winding
+winding10 64 7 winding
+winding11 64 7 winding
+::MAPDATA::
+
+                   \              ~~~~~                    |  Mountains
+                    --------\      ~~~~~                   |     of
+                       MINAS \      ~~~~~                  |   Shadow  +------+
+   White Mountains     TIRITH \  OSGILIATH                 |           |MORDOR|
+                            O-+----O=====------------------+--\ MINAS  +------+
+               +------+       |   / ~~~~~                  |   \MORGUL
+               |GONDOR|       |  / ~~~~~                   |    O
+               +------+       | / ~~~~~     Southern       |
+                              L/ ~~~~~      Ithilien       |
+                             / ~~~~~~                      |
+                            / ~~~~~~            Emyn Arnen |
+                           / ~~~~~~               o--------+
+                          / ~~~~~~                         |
+                         / ~~~~~~                          |
+                        / ~~~~~~                           |
+                       /~~~~~~~~                          / \
+                      O~~~~~~~~                        ~~o~~ \
+ ~~~~~           PELARGIR~~~~~~~                 ~~~~~~Poros  |
+ ~~~~~~~~           ~~~~~~~~~~~            ~~~~~~             |
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~   ~     ~~~~~~                   | Haronder
+ ~~~~~~~~~~~~~~~~~~~~~~~~~      ~~~~~                         |
+
+::NEWMAP::
+vale
+::MAPDATA::
+path1 26 9
+path2 30 7
+path3 34 5
+path4 38 7
+straight_bottom 42 7
+straight1 42 5
+straight1 42 5
+straight2 42 5
+straight3 42 5
+straight4 42 5
+straight5 42 5
+straight_half 42 5
+straight6 42 5
+straight7 42 5
+straight8 42 5
+straight9 42 5
+straight10 42 5
+straight_top 42 5
+::MAPDATA::
+
+                             -----------
+                             Morgul Vale
+                             -----------
+
+                                  o      [ ]
+                                /   \     :
+                              o       o - o
+                            /
+                          o
+                          |
+
+::NEWMAP::
+winding
+::MAPDATA::
+winding1 28 16
+winding2 32 16
+winding3 36 14
+winding4 40 14
+winding5 36 12
+winding6 40 10
+winding7 45 10
+winding8 45 8
+winding9 50 8
+winding10 50 6
+winding11 45 6
+::MAPDATA::
+
+                            -------------
+                            Winding Stair
+                            -------------
+
+                                                    
+                                             o -- o  
+                                                  :      
+                                             o - [o] -   
+                                             :
+                                        o - [o]                       
+                                      /                               
+                                    o                                 
+                                      \                               
+                                    o - o                             
+                                  /                                   
+                      [o] - o - o                                     
+ 
