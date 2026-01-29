@@ -1,0 +1,24 @@
+Directories for the Priests of Takhisis
+=======================================
+
+Further information on spells:
+~Ansalon/info/SPELLS/pot/
+
+Guild code
+~Ansalon/taman_busuk/neraka/guild/ (and subdirs)
+
+Guildhome (Temple of Takhisis)
+~Ansalon/taman_busuk/neraka/temple/ (and subdirs)
+
+Guild NPC's (together with other NPC's in Neraka):
+~Ansalon/taman_busuk/neraka/npc/
+especially for the guild/the temple:
+    alister.c       [trainer]
+    erdin.c         [trainer]
+    gruzz.c         [trainer]
+    priest.c        [guard]
+    servant.c       
+    templeguard.c   [guard]
+    terwed.c        [trainer]
+
+

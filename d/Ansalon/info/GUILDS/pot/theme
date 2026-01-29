@@ -1,0 +1,76 @@
+Theme for the Priests of Takhisis
+=================================
+
+The guild is based on the Dragonlance mythos, and is formed
+as a priesthood serving the Queen of Darkness, Takhisis.
+
+Leadership
+----------
+
+The guild is stricly hierarchical, and is divided into
+three levels, designated Initiate, Priest and High Priest.
+Each level has five sublevels, to distinguish rank.
+
+The guild is ruled by the Nightlord, which is the person
+who has chosen to assume that title. The leader rules
+on the sufferance of the Queen herself, and the leader
+will be deposed if he/she...
+1) resigns from the position
+2) is killed by another guildmember (political assassination)
+3) is absent from his/her duties for more than a (RL) fortnight
+4) is deposed by the High Priest Council (see below)
+
+In each case, the previous leader is unable to attempt to gain
+the position of leadership for 5 (RL) days.
+
+Working under the leader is the High Priest Council (HPC), which
+consists of 5 High Priests. The HPC members are nominated by
+the leader, and the leader may also demote any member from the HPC.
+
+
+The leader can...
+1) assign and demote members to/from the HPC
+2) reprimand any guild member, including punishment of
+   guild status dropping
+3) reward any guild member, including reward of guild
+   status increase
+
+The HPC can with a simple majority... (highest voting result)
+1) together with the leader temporarily banish any guild member
+2) together with the leader force a guild member to leave the guild
+
+The HPC can with a absolute majority... (at least 4 positive votes)
+1) depose a guild leader
+
+
+The leader is the one responsible for forming guild policies.
+Disobeying the leader is a punishable offence.
+Note: No member is required to obey a superior, though it is
+the superiors full right to discipline the lesser member if
+not obeyed. The punishment of the leader shall only be used
+in cases where the guild rules, or the guild policies are
+not followed. (Guild rules are builtin, guild policies are
+formed by the leader.)
+
+
+Leaving and Joining
+-------------------
+
+Leaving the guilds lead to the loss of "up to the equivalent of
+death", in most cases 1/4 of the combat exp, aswell as any special
+skills trained in the guild (none at the moment)
+When a guildmember is forced to leave, the punishment may vary,
+max 1/3 of the combat exp.
+
+Joining the guild requires the approval of two members of Priest
+or higher level. One of these will recommend the prospective member,
+the other will perform the actual initiation ritual.
+To join one must be evil (<0 in align), not a member of any
+occupational guild (naturally) and at least wanderer level.
+
+
+Abilities
+---------
+
+For abilities, spells, skills, etc, see the tax documentation.
+For further information on spells, see ~Ansalon/info/SPELLS/pot/

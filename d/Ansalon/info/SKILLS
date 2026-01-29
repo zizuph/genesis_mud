@@ -1,0 +1,45 @@
+
+The skill numbers for Ansalon range from between 143000 and 143999
+
+
+The Warriors of the Dragonarmy
+===============================
+
+/*
+These skills are not in use in the 
+occupational dragonarmies. The guild using
+these skills hould not be opened in its
+present state (if ever).
+143000 : Dragonarmy special (strategy and tactics)
+143001 : Dragonarmy special (warcry)
+*/
+
+143001 : Dwarven Clan skill check-> 0(axe) : 1(club)
+143002 : Dwarven Clan special (chop)
+143003 : Dwarven Clan special (slam)
+
+143004 : Priests of Takhisis guild level
+143005 : Priests of Takhisis spells bitmapping
+143006 : Priests of Takhisis skill points counter
+143007 : Priests of Takhisis Standing
+143008 : Priests of Takhisis Skill Points (overlapping with DA)
+
+143008 : Dragonarmy generic damage special (dattack/slash)
+143009 : Dragonarmy Funds 
+
+
+143010 : Kender combat tactics special
+143011 : Kender taunt special
+143012 : Kender rack tally
+143013 : Kender hoopak alteration
+
+143014 : Shieldbearers slam special
+
+143015 : Minotaur gore attack
+
+143016 : Neidar clan title level
+
+143020 : Mariner sailing skill
+
+143021 : Dragonarmy Promotion Skill
+143030 : Pirates Stagger Skill.

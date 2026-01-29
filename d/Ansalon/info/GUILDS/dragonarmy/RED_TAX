@@ -1,0 +1,40 @@
+Note that skill training is dependant on SS_OCCUP. That means there will
+be no instant maxing skills after joining as SS_OCCUP is reset to 0.
+
+
+TAX CALCULATION FOR THE RED DRAGONARMY
+=======================================
+
+SKILL NAME     SKILL LVL     TAXABLE     TAX MOD     TAX PAID
+Polearm        85            55          1.5         1.375%
+Ss_defence     85            65          1.5         1.625%
+Ss_parry       75            75          1.5         1.875%
+App_enemy      60            30          1.0         0.5%
+Awareness      60            10          1.0         0.167%
+Animal Handl.  70            40          1.0         0.667%
+----------------------------------------------------------
+TOTAL          435                                   6.209%
+Polearm: 1      +5            5          1.5        +0.125%
+Polearm: 2     +10           10          1.5        +0.25%
+Polearm: 3,4   +15           15          1.5        +0.375%
+
+
+Auto Impale special attack : 0.4%
+(See autoimpale_doc)
+
+Impale special attack : 4.52%
+(See impale_doc)
+
+Dragonarmy steed : +3.0% for promotion levels 2,3,4
+(See dragonsteed_doc)
+
+Dragonfear ability : + 6.344%  for promotion levels 3
+                     +10.092%  for promotion levels 4
+(See dragonfear_doc)
+
+TOTAL TAX:
+promotion level 0   11.129%     TAXED:   14.0%
+promotion level 1   11.254%     TAXED:   16.0%
+promotion level 2   14.379%     TAXED:   18.0%
+promotion level 3   20.848%     TAXED:   22.0%
+promotion level 4   24.596%     TAXED:   25.0%

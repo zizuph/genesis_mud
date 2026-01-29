@@ -1,0 +1,144 @@
+Kender of Ansalon Occupational Guild Tax Calculations
+=====================================================
+ 
+Skills:  Total:  Modifier:  Taxable:  Total:
+Sneak         90         1         70      70       (superior master)
+Hide          90         1         70      70       (superior master)
+Awareness     80         1         50      50       (superior veteran)
+Polearm       80         1.5       50(75)  50       (superior veteran)
+Alien penalty                              50
+Defence       70         1.5       50(75)  50       (superior professional)
+Alien penalty                              60
+Open Lock     80         1         60      60       (superior veteran)
+Pick Pocket   80         1         60      60       (superior veteran)
+Find/Rem Trap 30         1         10      10       (superior layman)
+Guru option   +10        1         10      10
+---------------------------------------------------
+Total Skills: 580                  480     540
+ 
+Formula is : (((max level - max adventurer guild level)
+                * modifier) /60) = tax level
+Skill Tax  : 480 / 60 = 8.0
+ 
+Special Combat Abilities:
+=========================
+-- Taunt:
+   Because combat skills are valued at 1% tax per 40 levels of skill,
+   and because 1% tax translates into 6% combat aid, every level of
+   a combat skill is worth 0.15% combat aid.  Since 3 skills are
+   lowered by a maximum of 33 levels each, combat aid works out to
+   33 * 0.15 * 3, or 14.85% combat aid.  The special takes 5 seconds
+   to prepare, then works for 90 seconds, or 94.74% of the time.
+   This lowers combat aid to 14.0685%.  Tax = 14.0685/6, or 2.345%.
+
+-- Dodge:
+ 
+   Assuming average stats and special skill of 100, versus enemy of the
+   same, we have: resolve_task(500 + burdened percentage(0-100) - 
+   hoopak bonus(50), ({average of (dodge skill(100) and guild stat(100)), 
+   dex(100)}), enemy ({dex(100), (average of int(100) and wis(100))})). 
+   According to man tasks, this winds up being a 49.9% chance of dodging. 
+   The special lasts for 30 seconds and resets for 8 seconds, allowing a 
+   kender to be dodging 78.94% of the time: 78.94% of 49.9% the time is: 
+   39.39% of the time.
+ 
+   For every 6% of combat aid, 1% tax has to be charged: 39.39%/6 = 6.565%
+
+-- Sling:
+   With the usual assumed maximums (40/40 weps, 100 stats and guildstat, etc.): 
+   weaponstat = ((hit + pen)/2) * 1.25
+             (40 + 40)/2  * 1.25
+                  (50)
+   stats = ((dex * 2) + guildstat)/8;
+        ((100 * 2) + 100)/8
+             (43.75)
+   total = (weaponstat + stats)/2
+             (93.75 / 2)
+               (43.75)
+   hitres = F_PENMOD(total, guild_skill_level);
+         F_PENMOD(44, 100) = 302.
+ 
+   Since kender are limited to 80 weapon skill, their normal F_PENMOD is
+   (40, 80) = 250.  302/250 = 1.208.  Because the special causes 3 seconds
+   where the slinger is effectively stunned and can't fight while preparing,
+   and the cycle runs prepare(3 seconds), sling(11 seconds), for a 14-second
+   total, they are 100% disabled for 21.4% of the time the special's in use.
+   Or, to put it another way, they are getting 78.6% of 1.208 so far (.95).
+   Frequency is every 14 seconds, or 35.7% of the time.  And .95 * .357
+   gives us 33.9% combat aid.  33.9/6 makes our tax rate 5.66 percent
+   (rounding up).
+
+-- N.B. Dodge and sling can be treated as one special of combat tactics,
+   since sling can't be used when taking any hits or when dodging or dodge
+   is resetting, and dodge can't be used while slinging or sling is resetting.
+   The highest taxed one should be counted only, which is dodge at 6.56%
+
+Miscellaneous Specials Abilities that don't necessarily need tax but may:
+========================================================================
+ 
+-- Borrow:
+   Uses the thief steal code, just with a different command.
+   Every once in a while, a kender will be forced to borrow
+   something from someone beside them, or peek in their inventory.
+   No tax, mudlib skill.
+ 
+-- Tiptoe:
+   Autosneak (not taxed in thieves guild)
+ 
+-- Wander:
+   The ability to wander out of a room without the bystanders noticing which
+   direction you went. Check on sneak skill which is taxed already. No tax.
+ 
+-- No Fear:
+   NPC_I_NO_FEAR prop set (With Mercade's permission). Enables kender to attack   
+   anything. As far as the advantages of being able to attack things that you
+   probably can't do more than tickle, there aren't many. This is mainly meant
+   to go along with the idea that kender are immune to fear.
+   I'll assign a small tax of 0.2%. However, going along with the theme of
+   no fear, dodge is almost incapacitated with a scaled wimpy according to
+   size from hurt for very tiny newbies to death's door for the largest.
+   I think that nicely balances out the no fear tax to 0.
+ 
+-- Sorting rack:
+   A kender can "sort <item(s)>" from their accessible inventory. Those that
+   recover will be placed into the rack. Those that don't will stay in the
+   inventory. Also, an equipment point system is in place to keep equipment
+   looting down. No tax, as it's just a time saving device so players can
+   get more pleasure out of the game in the time they have.
+ 
+-- Titles:
+   Kender start with no visible title. They can then set it to their normal
+   guild title, change it to a title from a set list, or change it back to
+   being hidden. No tax.
+ 
+-- Collect pebbles:
+   Allows a kender to collect up to 9 pebbles in each outdoor room. Pebbles
+   are necessary for the sling special. No tax.
+ 
+-- Guru quest:
+   Allows for the possibility of a guru quest for sneak or hide, which
+   would add 0.166% tax.
+ 
+-- Faerie messengers:
+   Faerie messengers that can be called like Ranger pigeons. The Ranger
+   whistle spell is charged 0.1% tax, but faeries are more convenient to
+   use, being able to go inside. tax 0.2%
+
+-- Alter ability:
+   Kender can alter polearms into hoopaks. However, many weapon specials 
+   are lost this way, and the hoopak is often less in hit/pen when altered.
+   The availability of hoopaks is very low, and kender must use hoopaks
+   for sling, so we'll give this a 0.2% tax.
+
+-- Tax Summary:
+   Taxable Skills : 8.000%
+   Taunt          : 2.345%
+   Sling          : 0.000%
+   Dodge          : 6.565%
+   Faeries        : 0.200%
+   Alter          : 0.200%
+   Guru option    : 0.166%
+   ---------------
+   Total          : 17.476%
+   Round up       : 18%
+

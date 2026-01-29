@@ -1,0 +1,149 @@
+The following is an extensive list of shops/inns/smiths/banks 
+and such, that can be found throughout the domain of Ansalon.
+
+
+Shops.
+------
+'Non descr store'   : /d/Ansalon/balifor/flotsam/room/store.c
+                          A standard shop, defaults with 3 torches.
+
+     'Eorls store'   : /d/Ansalon/balifor/port_balifor/room/shop.c
+                           A standard shop, defaults with 3 torches.
+
+    'a dark shop'    : /d/Ansalon/taman_busuk/neraka/outer/black/shop.c
+                           A standard shop, defaults with nothing.
+
+    'small store'    : /d/Ansalon/taman_busuk/neraka/outer/blue/shop.c
+                           A standard shop, defaults with 3 torches.
+
+    'a large warehouse' : /d/Ansalon/taman_busuk/neraka/outer/green/ware1.c
+                           A shop, defaults with 3 torches.
+
+    'Lute's Loot'  :  /d/Ansalon/taman_busuk/neraka/outer/red/store1.c
+                           A shop, defaults with 3 torches.
+
+    'Ogdil's Armours'  :  /d/Ansalon/taman_busuk/neraka/inner/ashop.c
+                          A shop that sells and buys armours and clothes.
+                          Defaults with some clothes.
+
+    'Neraka Weapon Emporium' : /d/Ansalon/taman_busuk/neraka/inner/wshop.c
+                          A shop that trades in weapons, defaults with some
+                          weapons.
+
+    'Neraka General Store' : /d/Ansalon/taman_busuk/neraka/inner/gshop.c
+                          A shop that trades in general items. Defaults
+                          with 3 torches.
+
+    'fancy shop' : /d/Ansalon/taman_busuk/neraka/inner/shop.c
+                        A standard shop. Defaults with nothing.
+
+     'backpack seller' : /d/Ansalon/kalaman/living/backpack_seller.c
+                    A npc in the Kalaman market place selling backpacks
+
+     'Pigeon seller' : /d/Ansalon/kalaman/living/pigeon_seller.c
+                    A npc in the Kalaman market that sells pigeons
+
+     'Torch seller' :/d/Ansalon/kalaman/living/torch_seller.c
+                    I think you can guess what he sells.
+
+     'Snak man' : /d/Ansalon/kalaman/living/food_vendor.c
+                    Sells huge meat rolls for people to eat.
+
+     ''Pawn shop' : /d/Ansalon/kalaman/city/vendor1.c
+                    A standard shop that buys anything except Kalaman militia armours.
+
+     'Alister' : /d/Ansalon/taman_busuk/neraka/npc/alister.c
+           /d/Ansalon/taman_busuk/neraka/temple/herb_store.c
+          Buys and sells herbs.
+
+Inns.
+-----
+    'Hawkstones Taproom': /d/Ansalon/balifor/flotsam/room/tavern01.c
+                          A standard Inn that offer a variety of drinks.
+
+    'The Tanked Troll'  : /d/Ansalon/balifor/flotsam/room/tavern02.c
+                          A standard Inn offering a variety of drinks.
+
+    'The Jetties Inn'   : /d/Ansalon/balifor/flotsam/room/inn01.c
+                          A standard Inn offering a variety of foods.
+                          Here, the players have the option to rent a
+                          room for the price of 1 gold coin, and start
+                          at this inn at next login. Temp start loc:
+                          /d/Ansalon/balifor/flotsam/room/upper_inn01.c
+
+    'Saltbreeze Inn'    : /d/Ansalon/balifor/flotsam/room/inn02.c
+                          A standard Inn, presently offering nothing.
+
+     'Pig and Whistle Inn'     : /d/Ansalon/balifor/port_balifor/room/inn.c
+                           A standard Inn, offering food and drink.
+
+    'The Black Ship Inn' : /d/Ansalon/taman_busuk/neraka/outer/black/inn.c
+                          A standard inn, serving food and drink.
+
+    'The Hanged Knight'  : /d/Ansalon/taman_busuk/neraka/outer/blue/pub1.c
+                          A pub, serving drinks.
+
+    'The Queen's Heads'  : /d/Ansalon/taman_busuk/neraka/outer/green/bar1.c
+                          A pub, serving drinks.
+
+    'The Little Red Rooster'  :  /d/Ansalon/taman_busuk/neraka/outer/red/pub1.c
+                          A pub, serving drinks.
+
+    'The Red Dragon Tavern' : /d/Ansalon/taman_busuk/neraka/inner/pub1.c
+                          A pub, serving drinks.
+
+    'The Swan and Hedgehog Inn' : /d/Ansalon/taman_busuk/neraka/inner/inn1.c
+                          An inn, serving food and drinks.
+
+,
+Adv. Guilds.
+------------
+    'Flotsam adv. Guild': /d/Ansalon/balifor/flotsam/room/f_guild.c
+                          A standard adventureres guild offering a few
+                          simple skills.
+     'Balifor adv. Guild' : /d/Ansalon/balifor/port_balifor/room/adv_guild.c
+                           A standard adventurers guild offering a few simple skills.
+
+Smiths.
+-------
+
+    'smithy' : /d/Ansalon/taman_busuk/neraka/outer/red/smith.c
+                Sharpens and waxes weapons.
+
+    'The Dragon Smithy' : /d/Ansalon/taman_busuk/neraka/inner/smith.c
+                Sharpens and waxes weapons.
+
+     'Open-air smithy' : /d/Ansalon/kalaman/city/m7.c
+                    Sharpens/waxes weapons.
+
+Banks.
+------
+
+     'Moneylenders of Flotsam' : /d/Ansalon/balifor/flotsam/room/bank.c
+                          A typical bank, offering minimizing and depositing features.
+     'Bank of Balifor' : /d/Ansalon/balifor/port_balifor/room/bank.c
+                           A typical bank, offering minimizing and depositing features.
+    'moneychangers' : /d/Ansalon/taman_busuk/neraka/outer/blue/bank.c
+                        Offers changing of money, no depositing.
+                        
+    'Bank of Neraka' : /d/Ansalon/taman_busuk/neraka/inner/bank.c
+                        A standard bank, offering changing and depositing.
+
+   'Gnome deposit' : /d/Ansalon/kalaman/city/m6.c
+                    A standard gnome depository.
+
+Other.
+------
+
+     'a well-kept stable'  :  /d/Ansalon/taman_busuk/neraka/outer/black/stable.c
+                          A stable where one can stable a horse for a silver coin.
+                          
+     'scarf maker' : /d/Ansalon/taman_busuk/neraka/outer/white/scarfs.c
+                        Sells scarfs that can be customized in colour and pattern.
+                        
+
+      'corrupt officers' : /d/Ansalon/taman_busuk/neraka/outer/black/t1.c
+                    Sells passes to gain entrance to the inner city of Neraka.
+
+       'animal salesman' : /d/Ansalon/taman_busuk/neraka/outer/red/animals.c
+                   Sells parrots

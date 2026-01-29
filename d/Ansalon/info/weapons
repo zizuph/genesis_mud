@@ -1,0 +1,550 @@
+MAGIC items in Ansalon.
+=======================
+
+
+Weapons:
+--------
+
+Draco Dagger (/d/Ansalon/balifor/flotsam/obj/weapon/draco_dagger.c)
+    Creator : Arman
+        This is a very powerful dagger. It has been magically
+        enchanted/enhanced by the evil clerics of Takhisis, to
+        make it penetrate even the best armour, thus giving it
+        a high pen (and hit) value for a dagger(knife).
+        (This weapon is unique. There will be only one per reboot)
+        (Hit: 32, Pen: 28)
+        This weapon can be wielded in any hand.
+        Wielded by : This dagger is wielded by Gakhan the draconian.
+                     (/d/Ansalon/balifor/flotsam/living/gakhan.c)
+
+Spiked Steel Tessto (/d/Ansalon/balifor/flotsam/obj/weapon/tessto.c)
+    Creator : Arman
+        The tessto is a large six foot long club. It is fairly
+        highly enchanted. Tesstos are traditionally weapons
+        wielded by the minotaurs of the Bloodsea, and are thus
+        quite powerful and large. This tessto has been altered
+        into a steel form and enchanted for greater hit and 
+        penetration, as well as to decrease what woudl be an
+        extremely heavy weapon. Even with this enchantment, a
+        titanic strength is needed to wield it. Its size
+        also restricts what sort of race can wield it. It is
+        far too large for the likes of hobbits, dwarves, 
+        goblins and gnomes to wield.
+        (Hit: 44 Pen: 49)
+        This weapon must be wielded in both hands.
+        Wielded by: Half-ogre bodyguard.
+                   (/d/Ansalon/balifor/flotsam/living/half_ogre.c)
+
+        Note: This is not an easy club to get. Apart from taking
+              a hard fight to get the weapon, getting to the
+              wielder of this weapon is equally difficult, having
+              to break into an Inns appartment.(This involves
+              the use of open locks, climb and acrobatics.)
+        Limited to 5 in the realms.
+
+
+ Mighty dwarven cleaver (/d/Ansalon/balifor/flotsam_forest/obj/weapon/cleaver.c)
+     Creator : Arman
+
+         The mighty dwarven cleaver is a very sharp and well
+         balanced axe. This weapon was forged long ago before
+         the cataclysm by dwarven priests of Reorx and is an 
+         item treasured by the dwarven nations. During the
+         Kinslayer, or Dwarfgate, Wars, weapons like this were
+         used by the great soldiers of the Daewar clan, and thus
+         many still lye with their dead owners near the site of
+         the ruins of Skullcap.
+         It is a one handed weapon, but its enchantment allows
+         it to the damage of the finest two-handed axe. Its
+         enchantment also prevents those of goblinkind to wield
+         it.
+         (Hit: 40, Pen: 40)
+         Wielded by Shale the hill dwarf.
+         Limited to 10 in the realms.
+
+ Solamnian broadsword (~flotsam/obj/weapon/ksword.c)
+      Creator : Arman
+
+          This weapon was crafted long ago during the Age of
+          Right, after the formation of the order known as the
+          Knights of Solamnia. One was crafted for each of Vinas
+          Solamnus's generals, this particular blade probably
+          coming from the Trueheart or Solanius lines, whose
+          family swords were lost during the Third Dragonwar.
+          This blade has been enchanted so that when it is wielded
+          by a knight of honour, its hit/pen is increased from
+          35/35 to 42/42.
+          (Hit 35/42 : Pen 35/42)
+          One handed, wielded in any hand.
+          Wielded by Kernan, the Dragonarmy officer (~flotsam/living/
+          da_officer.c)
+          Limited to 7 in the realms.
+ 
+
+ Green-tinted longsword (~flotsam_forest/obj/weapon/g_slayer.c)
+      Creator : Arman
+
+          Known in ancient times as Goblinbane, this green-tinted
+          longsword is made of an unusual emerald coloured steel.
+          It was crafted
+          long ago for a noble warrior in the goblin wars, and
+          has been enchanted to slay those of goblin heritage.
+          Most goblins cannot thus wield it. The blade does
+          grudgingly allow those goblins of high morals to use
+          it though. The blades hit/pen increases against goblinoids.
+          (Hit 34/48 : Pen 30/48)
+          Found in the dragons lair.  Limited to 5 in the realms
+          as it can be quite a powerful weapon in the right hands.
+
+  Frost giant's waraxe (~estwilde/obj/weapon/frost_axe.c)
+       Creator : Arman
+
+          These axes are wielded by two frost giants
+          who once a blue moon attack the clan halls of Iron
+          Delving in a revenge raid. Thus the axes are also
+          quite rare (probably on average <1 per arma).
+          Frost giants are pretty tough. The axe is two-handed.
+          (Hit : 44, Pen: 50)
+          (note: the frost giant's warhammer is identical to this axe
+          however is a club instead ~weapon/frost_club.c)
+
+ ancient dwarven battleaxe (~estwilde/obj/weapon/teregul_axe.c)
+       Creator : Arman
+
+          This battleaxe was forged long ago by dwarven smiths
+          and blessed by priests of Reorx under the glow of his
+          red star during the Age of Dreams. As far as weapons
+          go, this one is extremely heavily enchanted, with the
+          ability to hit and do damage well beyond even the finest
+          of forged weapons. Many heroes have carried this axe, the
+          latest of which was the dwarven hero Teregul Skybolt of the
+          hill dwarves. This axe is rewarded to the dwarf who 
+          completes the Neidar guru quest. A player can only do this
+          quest once, so it is very rare.
+          (Hit : 45, Pen : 50)
+          One-handed, quest reward. 
+
+ Flaming two-handed longsword (~flotsam_forest/obj/weapon/rev_sword.c)
+       Creator : Arman
+
+          This is a weapon consisting only of a two-handed
+          hilt. Its blade consists totally of a deep red flame
+          that is as affective as a normal bastard sword.
+          The blades enchantment effectively is a level 1
+          light source.
+          (Hit: 26, Pen: 22)
+          Is a sword wielded in both hands.
+
+
+  Half-moon bladed waraxe (~flotsam/obj/weapon/moon_axe.c)
+        Creator : Arman
+
+           This axe has been crafted by a very good weapon
+           smith, but its magical abilities come from a
+           curse laid upon the one who first wielded it.
+           That warrior had his spirit trapped inside the
+           weapon. The curse enchants the axe to do greater
+          damage (the axe being strenghtened to keep the 
+           spirit within), but the main benefit of it comes
+           when the axe is wielded by a female. The spirit
+            of the warrior will randomly come to the 
+           warrioress' aid, draining life force from her
+           enemies (hp draining special).
+           (Hit: 30, Pen: 37)
+           Wielded by the minotaur firstmate on the ship
+           that travels between Sparkle and Flotsam.
+           (~flotsam/living/minotaur.c)
+           It can be wielded in any hand.
+
+
+   black double-bladed dagger (~flotsam/obj/weapon/carnage.c)
+         Creator : Arman
+
+            This powerfully endowed magical dagger is the love child
+            of the evil elven sorcerer Satania. Being sentient, this
+            blade only allows those of -300 alignment to wield it. Its
+            forging makes it as fine as any non-magical dagger to hit,
+            while its enchantments makes it as damaging as a finely
+            forged broadsword.
+            This daggers damage messages have been modified.
+            It can be found on Satania, who can be found in one
+            of the quarters of the ship the Golden Lion
+            (~flotsam/living/satania.c).
+            (Hit: 20, Pen: 34)
+            It can be wielded in any hand.
+            Limited to 5 in the realms.
+
+   runed scimitar (~flotsam/obj/weapon/sat_scimitar.c)
+         Creator : Arman
+
+            The runed scimitar is of strange and exotic make. Consisting
+            of a huge curved blade and a small one-handed
+            hiltless handle, it looks almost unwieldable. That
+            is where the enchantment comes into play, balancing
+            the blade so that it can be easily wielded in one hand.
+            This blade penetrates armour as any heavy scimitar
+            would, but strikes with amazing accuracy.
+            (Hit: 39, Pen: 27) 
+            It is found on Satania of the Golden Lion (as above)
+            It can be wielded in any hand.
+            Limited to 5 in the realms.
+
+   gnarled wooden staff (~flotsam_forest/obj/weapon/mag_staff.c)
+          Creator : Arman.
+
+          This is the staff of Fermammon the Wise, a renegade
+          wizard of reasonable power (~flotsam_forest/living/ferm.c)
+          When wielded by someone with 70+ SS_FORM_ENCHANTMENT
+          skill, they may, by chanting a certain command word,
+          call upon its powers, which include an increase in
+          polearm skill (up to superior journeyman),
+          and a minor damaging special. The pen is also increased
+          for the duration of the enchantment (10 minutes). Calling
+          this ability costs 200 mana points.
+          (Hit: 40, Pen: 20/42-45)
+          It is two-handed.
+
+   impressive bronzed partisan (~kalaman/obj/weapon/br_spear.c)
+          Creator : Arman
+
+          This polearm is wielded by the gatemaster who guards
+          the Harbour gates of Kalaman. This weapon has been
+          enchanted mainly for the defence of the city, thus
+          offering the wielder added ability to parry (raised
+          by 7 levels). This weapon also has an increased ability
+          to do damage, while its hit is rather standard for
+          a well-crafted two-handed polearm.
+          (Hit: 35, Pen: 47)
+          It must be wielded in both hands.
+
+   golden sceptre (~kalaman/obj/weapon/sceptre.c)
+          Creator : Arman
+
+          This mace like weapon has been enchanted so that it
+          is easier to wield, making it easier to strike at 
+          targets. It is wielded by the Lord of Kalaman
+          It has been altered so that it cannot be
+          forceably removed from the wielders hand. Only 3 can
+          exist in the realms at any time.
+          (~kalaman/living/calof.c).
+          (Hit: 40, Pen: 35)
+          It can be wielded in any hand.
+
+    nordmaarian warhammer (~kalaman/obj/weapon/enforcer.c)
+          Creator : Arman
+
+          This warhammer, 'Enforcer', has an enchantment that makes
+          it far more effective for people who wield it who fight
+          for a cause (ie one side of the alignment spectrum or the
+          other).  It has a base hit/pen of 34/34, however this
+          increases by (absolute value (alignment / 100). It has 
+          an aversion to chaos, so kender, dwarves, and minotaurs
+          (children of the Graygem of Gargath) cannot wield it.
+          It is the other optional weapon for Calof.
+          (Hit: 34/46, Pen 34/46)
+          It can be wielded in any hand.           
+        
+
+     kestrel-marked longsword (~balifor/steppe/obj/longsword.c)
+          Creator : Arman
+
+          This longsword is the weapon wielded by Viridian,
+          The master swordsman from Valkinord. (~steppe/living/warrior)
+          Its enchantment gives it higher hit and pen for a one
+          handed weapon, as well as being strengthened so that its
+          set_likely_dull and set_likely_break are set at 0.
+          (hit: 44, pen: 39)
+          Wielded with the right hand.
+          Limited to 5 in the realms.
+
+   silver-tipped ironwood hoopak (~flotsam_forest/obj/weapon/mag_hoopak.c)
+          Creator : Arman
+
+          This hoopak is the one that was once
+          wielded by the famous Uncle Trapspringer.
+          It was blessed by a friendly mage, giving it a bonus
+          to any kender wielding it in pen/hit.
+          (hit: 33/52, pen 25/42)
+          Wielded in both hands.
+          Found in a troll lair in the flotsam forest.
+          Guarded by a nasty river troll.
+          (~flotsam_forest/living/troll.c)
+
+     life-stealer blade (~taman_busuk/sanction/obj/weapon/baksword.c)
+          Creator : Alustrial (fixed up by Arman)
+
+          This unholy blade was enchanted by dark priests
+          long ago, and given into the service of Bakaris,
+          lieutenant of the Blue Dragonarmy (~sanction/
+          npc/bakaris.c)
+          The enchantment drains life, giving it an increased 
+          hit/pen. Only those of less than 100 alignment
+         can wield it, otherwise they suffer 800 + random(200)
+         damage.
+         Hit: 50, pen: 47/50 two-handed sword.
+
+     heavy spiked mace (~goodlund/kendermore/obj/ogreclub.c)
+          Creator : Gwyneth
+
+          This very heavy club has been enchanted to strike
+          deadly blows on the enemy, giving it an increased
+          pen. It is wielded by the Ogre Trainer, Vincint
+          in Kendermore (~goodlund/kendermore/npc/vincint.c).
+
+          Hit: 28, pen: 48, one-handed club.
+
+
+     ancient dragon-coiled halberd (~common/wep/pole/aurak_halberd.c)
+          Creator : Elmore
+
+        Forged by the smiths of Takhisis in the Abyss this
+        weapon was crafted for each of the officers in the
+        Red Dragonarmy, as a gift from their General. 
+        The halberd is affective against an mounted enemy.
+        And if wielded by a dragonarmy member the halberd
+        will become more effectively in battle. It also
+        has a commandword, and once it is spoken it'll add
+        some speed to the wielder. The commandword can only
+        be spoken if the wielder has max mana, if he has the
+        polearm will drain 1000 mana.
+
+        Normal                   : Hit: 40, pen: 40 halberd.
+        RDA/Draconian            : Hit: 40, pen: 42 halberd.
+        Normal vs Mounted        : Hit: 45, pen: 40 halberd.
+        RDA/Draconian vs Mounted : Hit: 45, pen: 42 halberd.
+
+     dragon-bladed roncone (~common/wep/pole/roncone.c)
+        Creator : Torqual
+
+        Weapon of might, has been blessed by Queen herself for her
+        beloved children - auraks. Everyone else who will try to use
+        it and the weapon becomes cursed. Also the more skilled in
+        using the weapon you are, the more dangerous it will become
+        (to wielder ofcourse). The weapon also looses its quality
+        the more skilled you are.
+
+        Base			: Hit: 45, pen: 45
+        Auraks			: Hit: 50, pen: 50
+        Modification	 	: Per each 20 skill points in polearm 1
+				  hit/pen is reduced (see code for details)
+        Minimal			: Hit: 40, pen: 40
+        Side note		: limited to 5, wielded only by aurak
+				  leader in flotsam (flotsam/living/aurak_leader)
+
+     ornate hacchak (~goodlund/nethosak/forest/obj/weapon/seeker.c)
+        Creator : Elmore
+
+        This kender weapon is a quest reward for solving the hacchak
+        quest in Mithas. The weapon is quite amazing since the wielder
+        can change the grip around it, to either a polearm, club or
+        axe. IF the wielder is a kender the weapons stats will
+        improve.
+
+        Base			: Hit: 49, pen: 39
+        Kenders			: Hit: 55, pen: 45
+        Side note               : Restricted to 2.
+
+    carved quickwood hoopak (~goodlund/nethosak/forest/obj/weapon/hoopak.c)
+        Creator : Elmore/Belnop
+
+        This polearm gives any kender a 200% speed bonus and raises the     
+        hit and pen to: 47,47. It also uses non-stadard combat messages and 
+        if examined closely the wielder might find out that it has 4 emotes 
+        aswell, namely: 'hswing', 'hrun', 'hspin' and 'hfire'.              
+        Because of the number of smaller items that can be examined on the  
+        weapon. I've made a different Examine procedure. One must study the 
+        item to get a description, like: 'study second cat' to get the      
+        description of the second cat. The hoopak is extremely hard to
+        get, first a team my be gathered to kill an ancient black dragon.
+        If they succeed, they will have to remove some roots from within
+        it's lair(Must have a decent strength to do this). Once this is
+        done a player with no more then 70 in Con can enter a small crack
+        and retrieve the hoopak from the corpse of a kender.
+
+        Base			: Hit: 39, pen: 39
+        Kenders			: Hit: 52, pen: 47
+        Modification	 	: +200% in speed if wielder is kender.
+        Side note		: limited to 2
+
+    serrated obsidian halberd (~goodlund/nethosak/forest/obj/weapon/wound_halberd.c)
+        Creator : Elmore
+
+        This polearm was once created by the High Priests of Istar to aid 
+        them and their guards in battle. However this one has been blessed
+        by the evil god Sargonnas, thus no good-aligned persons can wield
+        this weapon. The blade is serrated and this makes it very hard to
+        dull. Suranir, the priest of the village of Nethosak, has 
+        furthermore enchated the halberd giving it an improved combat 
+        speed. This weapon can cause wounds on people, which bleeds and 
+        hurts the player. It also improves the wielders speed.
+
+        Base			: Hit: 49, pen: 44
+        Modification	 	: +100% in speed. Can't be wielded by goodaligned.
+        Side note		: limited to 2
+
+
+   black mace/flaming black mace (~dargaard/obj/weapon/black_mace.c)
+       Creator : Arman
+       This is the darkly enchanted mace wielded by the skeletal warrior that
+       once every few weeks leads an attack on the Neidar Clan guildhall.
+       It is darkly enchanted, with higher hit/pen than normal, as well as its
+       description changing to flaming black mace when wielded.
+       (hit: 42  pen: 42)
+       Wielded any hand
+
+   holy blade (~dargaard/obj/weapon/mishakal_blade.c)
+       Creator: Arman
+       This is a holy blade once wielded in the Age of Dreams by a disciple of
+       the old goddess, Mishakal. During the Cataclysm the blade was broken, 
+       and all that survived was its blue-steel hilt (~dargaard/obj/hilt.c)
+       This hilt is in the possession on an undead warrior who haunts the
+       entry of Dargaard Keep.  Players who recover the hilt and take it to
+       Mishakal's temple in Xak Tsaroth (/d/Krynn/xak/tempchamber.c) have the
+       sword restored to its former glory. The enchantment of this blade
+       is such that it becomes more powerful when wielded by warriors of good.
+       Its normal hit/pen is 35/35, with an pen increase of alignment / 150
+       and hit increased by alignment / 100 (max of 47/43).
+       The blade glows with a holy light that can disperse some of the 
+       deepest darkness (light property set at 6). It also does not dull or break.
+
+       (Hit/Pen:  35 + (alignment/100) / 35 + (alignment/150))
+       Wielded in the right hand.
+
+   three-headed iron flail (~balifor/flotsam_forest/obj/weapon/flail.c)
+       Orginally made by a blacksmith in old Istar who gave it as a gift
+       for the priesthood who noticed it got dented much too quickly
+       and enchanted it with powerful blessings as to not dull so
+       quickly. Spikes on the heads will cause more damage on unarmoured
+       enemies.
+
+       Hit 38 + random(4), pen 33 + random(3) that will remain constant
+       throughout armageddons, should the flail survive it.
+
+   blackened bastardsword (~kalaman/obj/weapon/bastardsword.c)
+       Enchanted with magic to withstand corrosion better than normal
+       swords. If hitting an unarmoured bodypart of an enemy the damage
+       done will increase with 7%. Due to its length, this bastardsword 
+       is a bit difficult to handle. Not only must the wielder be
+       proficient in swords to be able to wield it, he must also be
+       strong enough. It can thus be wielded either as a singlehanded
+       weapon (if even stronger) or doublehanded.
+
+       Hit 42 + random(4), pen 41 + random(4) that will remain constant
+       throughout armageddons, should the sword survive it.
+
+       If wielded doublehandedly, hit will decrease by 5 and pen will
+       increase with 5.
+       Limited to 3 in the realms.
+
+   golden-hued bastardsword (~kalaman/obj/weapon/g_bastardsword.c)
+       Enchanted with magic to withstand corrosion better than normal
+       swords. While not as sharp as its brother, that has been
+       weighed up by its sleekness giving its wielder better
+       manouverebility in battle (LIVE_I_QUICKNESS + 15). Not only must
+       the wielder be proficient in swords to be able to wield it, he
+       must also be strong enough. Due to being a true bastardsword
+       it can be wielded either as a singlehanded weapon (if even stronger)
+       or doublehanded. To be able to wield two bastardswords
+       (single handedly) would require a master warrior, skilled both
+       in swordsmanship and two handed combat.
+
+       Hit 46 + random(2), pen 37 + random(2) that will remain constant
+       throughout armageddons, should the sword survive it.
+
+       If wielded doublehandedly, it will decrease by 5 and pen will
+       increase with 5.
+       Limited to 5 in the realms.
+
+
+    elaborately-carved greatsword (~taman_busuk/mountains/obj/greatsword.c)
+       Creator: Arman
+       This weapon is a massive two-handed blade with enchantments
+       that make it even more powerful. It is extremely effective
+       against creatures that fear fire (undead, trolls, frost giants,
+       yetis, and thanoi). It is quite heavy (20kg) and is limited to 3.  
+       It requires a reasonable strength to wield (strength of 90).
+       It is wielded by a powerful ex-knight of Solamnia        
+       (~taman_busuk/mountains/living/fallen_knight)
+
+       Hit:  50 (58)
+       Pen:  50 (58)
+       Limited to 3 in the realms.
+
+   
+     flaming crystal axe (~goodlund/nethosak/forest/obj/weapon/crystalAxe.c)
+       Creator: Elmore
+       A powerful artifact from Ergoth. It is sensitive to alignment, changing
+       its description depending on its wielder (holy/flaming/unholy crystal
+       axe).  The holy and flaming versions give out 1 level of light.
+       1 in 5 of its hits is a special attack, which heals the wielder (if good)
+       or further damages the target (if evil).
+       Dwarves have a harder time to wield this weapon. They need a wisdom of
+       135 to wield it. Further, one must have an axe skill of 75 to wield it.
+       It is occasionally wielded by the troll shaman in the forest outside of
+       Nethosak.
+       One handed.
+       Hit:  40
+       Pen:  50
+       Limited to 1 in the game.
+
+     granite war maul (~goodlund/nethosak/forest/obj/weapon/war_maul.c)
+       Creator: Elmore
+       A heavy granite war maul, enchanted by the troll Shaman on the isle
+       of Mithas to do more damage to targets. For those strong enough, they
+       may be able to wield this weapon in one hand.
+       Two handed*
+       Hit:  40
+       Pen:  45
+       Limited to 3 in the game.  
+
+     elaborate sabre (~goodlund/bloodsea/obj/sea_slayer.c)
+       Creator: Arman
+       A heavy sabre, enchanted by the sea wizards of Saifhum. It has been enchanted
+       to be particularly deadly to sea monsters, particularly minotaurs, sea serpents
+       sea-elves, sea dragons, and sharks (increased hit/pen for those creatures).
+       One-handed
+       Hit:  34 (48)
+       Pen:  30 (48)
+       Limited to 7 in the game.
+
+     azure-steel spear (~goodlund/bloodsea/obj/azure_spear.c)
+       Creator: Arman
+       A spear crafted by elves during the Kinslayer War, it was heavily enchanted as
+       a bane to humans, its pen being increased significantly against them.
+       Wielded by a sea-elf prince (~bloodsea/living/sea_elf_prince), one needs good
+       swimming skill to reach him, and probably be able to kill him quickly enough
+       so that they do not drown.
+       Two handed
+       Hit:  45 (45 vs humans)
+       Pen:  40 (55 vs humans)
+       Limited to 9 in the game.
+
+     darkened leather whip (~bloodsea/obj/whip.c)
+       Creator: Arman
+       A whip that has been enhanced through dark ogre rituals.  It is very easy to 
+       hit creatures with it, however its pen value depends on the wielders race,
+       alignment, and strength.
+
+       Hit: 50
+       Pen: 6 to 50 (str/8 for good aligned; str/4 for evil goblinoid; str/6 for
+                     other evils)
+       Limit of 7 per game.
+
+    blunted long-handled axe (~bloodsea/obj/chemosh_axe.c)
+       Creator: Arman
+
+       This axe is embued with the unholy blessings of Chemosh, Lord of Death. 
+       It has the power to draw the souls from the newly eparted when commanded 
+       to (up to 10), empowering its hit and pen in the process and making 
+       the wielder deceptively quick with the big weapon. 
+       With enough slain souls captured within it, the wielder may 'feed' upon 
+       the souls, healing themselves 2000 hp, however this results in a drop of
+       alignment each time by 100 and will reduce the souls stored by 3 (the max
+       number of souls that can be stored is 10).
+
+       Only someone of evil alignment (-300 or less) may use the feed and draw 
+       souls abilities.  The speed bonus is 75, and is for anyone who wields the
+       axe. This is a two handed axe, of which there can be around 4 per armageddon.
+
+       Hit : 15 (4 souls raises to 35; 6 souls 45; 8 souls+ 50)
+       Pen : 15 (4 souls raises to 45; 6 souls 55; 8 souls+ 60)

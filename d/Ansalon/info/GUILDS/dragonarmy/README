@@ -1,0 +1,8 @@
+The docs to the Dragonarmy are kept in /d/Ansalon/guild/dragonarmy/info directory.
+The guild object may be found in ~guild/dragonarmy/obj/horn.c
+
+Thematic information may be found in :
+/d/Ansalon/taman_busuk/sanction/room/city/archive.c
+and ~sanction/npc/clerk.c
+
+Arman & Milan.

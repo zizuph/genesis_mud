@@ -1,0 +1,17 @@
+Skills:       Total:   Modifier:    Taxable:   Total:
+SS_WEP_KNIFE       50          1.0         20       20
+SS_PICK_POCKET     40          1.0         20       20
+SS_CLIMB           50          1.0         20       20
+SS_LANGUAGE        60          1.0         30       30
+Alien penalty                                       30 
+SS_TRACKING        50          1.0         20       20
+------------------------------------------------------
+                   300                     110      140
+Formula is : (((max level - max adventurer guild level)
+                * modifier) /60) = tax level
+Skill Tax  : 110 / 60 = 1.83%
+
+Slip - Slip things into a container without notice depending
+on pick pocket or hide skill. Let's make the tax 0.17% to
+make an even 2% total tax.
+

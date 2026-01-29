@@ -1,0 +1,109 @@
+Guild         : Kender of Ansalon
+Type          : Occupational
+Style         : Thief
+Alignment     : Neutral - Good
+
+=======
+Purpose
+=======
+The opening of the kender race guild was very exciting. Several
+people rushed to become one of these mischievous folk, but were
+soon to find out that they weren't welcome in many places. Their
+occupational guild choices: Gladiator (Interesting for a few days,
+but no kender would remain a slave after they became bored.),
+Kahedan (Hmmm, a serious kender??), Calian (Finally, a guild that
+they can fit into, but it still didn't give them the abilities
+they needed to fully play a kender). I thought it
+was time to create a guild which gave kender a definite place to
+belong to that allowed them to be themselves: carefree, mischief-
+making handlers. They would be trained in combat (but not focus
+their lives on it) in a way suitable to the acrobatic kender,
+stealthiness, lock-picking and things typically learned by widely
+travelled people.
+
+=======
+General
+=======
+
+- Those kender who became evil would be thrown out. 
+- No thieves allowed. Kender who became thieves after
+  joining would be thrown out.
+- Must complete a quest, and be voted in.
+- A majority vote (2/3 of all voting?) can expel a kender
+  from the guild. Being kicked out would result in being
+  banished from the guild until a successful vote to unbanish
+  them. 
+- Voting: A kender can call a vote to do one of six things to
+  any existing character -- banish someone from joining the 
+  guild, remove a banishment from someone, expel (and banish)
+  someone from the guild, declare someone an enemy of the
+  guild (and expel/banish them if needed), pardon someone as
+  an enemy of the guild (but not remove the banishment), and
+  invite someone to join the guild. A person can also request
+  an invitation, in which case, the vote will be called
+  automatically. An enemy cannot be unbanished until they are 
+  pardoned. An enemy of the guild will be further developed, 
+  possibly to include the kender npcs of Kendermore giving them 
+  a hard time, attacking stealing more, being refused shop 
+  services, etc.
+- Sorting rack/Equipment tallies: A kender can "sort <item(s)>" 
+  from their accessible inventory. Those that recover will be
+  placed into the rack. Those that don't will stay in the inventory.
+  Each item that is placed into the rack will count towards a
+  tally (skill). Taking it out will lower the tally skill. At
+  armageddon, the tally will be 3/4 of the non-armageddon tally
+  to encourage saving of the rack. Also, people without a tally
+  enough to take items out at Armageddon will be able to take
+  things out.
+- Acquiring: A kender will not be able to resist the desire to
+  borrow things. At a random time, they will borrow something
+  from the people around them, or peek into their inventory.
+- Guru quest option: Option to make a guru quest for sneak or
+  hide in the future.
+
+=========
+Abilities
+=========
+
+Pebbles : Collect up to nine pebbles in outdoor rooms for use
+          with the sling special.
+No fear : Kender have the NPC_I_NO_FEAR prop set. Wimpy is 
+          encouraged to be low by crippling dodge greatly
+          the higher the wimpy. 
+Quiet   : Autosneak
+Wander  : A kender can choose to wander into/out of the room,
+          leaving those in the room bewildered as to which
+          direction he/she came from/went to.
+Titles  : In addition to the standard guild exp based titles,
+          a Kender can choose a title from a set list to exchange
+          with until he gets bored with that title. Titles
+          will give no special abilities. A kender also has the
+          also has the option of no title at all.
+Borrow  : The ability to borrow items from another, from the ground,
+          from containers. Uses the thief steal code.
+Taunt   : The ability to taunt temporarily decreases the defence of
+          the opponent based on the guild stat of the kender, his
+          combat tactics skill and wisdom all versus the dis and 
+          int of the target.
+Sling   : The ability to fire a pebble from a hoopak to a foe to
+          start a fight, or throughout a fight as long as the kender
+          wasn't taking direct hits from any creature. Chance to
+          hit and damage based on dex, guild stat, polearm skill and 
+          combat tactics skill. A pebble and wielded hoopak are required.
+Dodge   : The ability to dodge hits in combat, based on the dexterity
+          dodge skill, guild stat and wisdom of the kender versus the
+          int and wis of the target. Sling and dodge can never be
+          used together.
+
+======
+Skills
+======
+
+Sneak         90  superior master
+Hide          90  superior master
+Awareness     80  superior veteran
+Polearm       80  superior veteran 
+Defence       70  superior professional
+Open Lock     80  superior veteran
+Pick Pocket   80  superior veteran
+Find/Rem Trap 30  superior layman

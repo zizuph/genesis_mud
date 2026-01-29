@@ -1,0 +1,52 @@
+
+ SHIELDSLAM (SPECIAL)
+ --------------------
+
+  Cb_tohit value for the special is 80 (75% chance to hit).
+
+  For Neidars:
+  ------------
+
+  Total combat aid:  35.53%
+
+  This gives 5.9% but since this special can not be used with the
+  Neidar  offensive special  at the same time, I have reduced the 
+  total tax by 0.5%.
+
+  TAX: 5.4%
+  
+  For non Neidars:
+  ----------------
+
+  Total combat aid:  32.63%
+
+  TAX: 5.4%
+  
+
+ SKILLS
+ --------------------
+
+ ===========================================================
+ SKILL NAME     SKILL LVL     TAXABLE     TAX MOD    TAX
+ -----------------------------------------------------------
+ SS_WEP_AXE     30            0           1.5        0%
+ SS_APPR_MON    60            30          1.0        0.5%
+ -----------------------------------------------------------
+ Total: 30 taxable skills.                           0.5%
+ ===========================================================
+
+ Comments:
+ =========
+ Shieldslam can not be used  at the same time  with Neidar offensive
+ special so it can not be used at constant rate.  This limitation do
+ not apply for non Neidars. However, their special will stun enemies
+ after they reach 75 in guild stat, and is a bit weaker.
+
+ TAX:
+ ==========
+ For Neidars    : 5.4% + 0.5% = 5.9%
+ For non Neidars: 5.4% + 0.5% = 5.9%
+
+ I set in both cases TAX of 8%, however.
+
+ ===========================================================================

@@ -1,0 +1,18 @@
+
+/* Last edited by Blizzard on 17.08.2003  */
+
+AUTOLOADING ITEMS OF ANSALON
+=================================
+
+The crimson kestrel insignia (~balifor/steppe/obj/insignia.c)
+It is basically an autoloading item for those of high sword skill. It can be simply regained by displaying ones sword skill (if they have a swordskill in the masters or above) to Viridian, who can be found at (~balifor/steppe/room/camp.c)
+
+_pot_honour_ob (~/guild/pot/obj/honour_ob.c)
+An item that adds a shadow to a player, giving him an extra title. The object keeps track of for how long it should continue to do so and will self destruct if the time has passed. There should never be any need to restore this object.
+
+The dwarven rune of friendship (~anasalon/estwilde/obj/dwarf_rune.c)
+This piece of black obsidian is formed into the angular form of a dwarven
+rune and it is given out by Chieftains, Elders or Thane of the Neidar Clan
+as a token of their friendship towards the person who bears it. The rune
+will send messages about the attacks on Iron Delving to the bearer.
+

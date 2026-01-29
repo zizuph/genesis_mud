@@ -1,0 +1,105 @@
+Priests of Takhisis TAX calculation          Ashlar, 21 Jun 98
+
+The Priests of Takhisis are split into three levels,
+Initiate (IN), Priest (PR) and High Priest (HP).
+
+                    Skill levels    Un-  Tax Taxed levels
+Spell skills         IN   PR   HP  taxed mod  IN   PR   HP
+
+SS_SPELLCRAFT          50   70   70   20    1   30   50   50
+SS_ELEMENT_AIR         50   70   70   20    1   30   50   50
+SS_ELEMENT_LIFE        50   60   60   20    1   30   40   40
+SS_ELEMENT_DEATH        0    0   30   20    1    0    0   10
+SS_FORM_ENCHANTMENT    40   60   70    0    1   40   60   70
+SS_FORM_DIVINATION     30   30   30    0    1   30   30   30
+SS_FORM_TRANSMUTATIO   30   40   40    0    1   30   40   40
+SS_FORM_CONJURATION     0    0   15    0    1    0    0   15
+SS_FORM_ILLUSION        0   20   20    0    1    0   20   20
+
+Sum:                  250  350  405            190  290  325
+
+Spell skill tax:                              3.17 4.83 5.42
+
+
+                    Skill levels    Un-  Tax Taxed levels
+Misc skills          IN   PR   HP  taxed mod  IN   PR   HP
+
+SS_HERBALISM           55   55   55   20    1   35   35   35
+SS_WEP_CLUB            60   60   60   30  1.5   45   45   45
+alien skill penalty    60   60   60
+SS_DEFENCE             60   60   60   20  1.5   60   60   60
+alien skill penalty    60   60   60
+
+Sum:                  295  295  295            140  140  140
+
+Misc skill tax:                               2.33 2.33 2.33
+
+
+Skill summary:       IN   PR   HP             IN   PR   HP
+Total levels trained  545  645  700     Tax:  5.50 7.17 7.75
+
+
+
+Spell name IN   PR   HP  ClassType  Tax      Elem.          Form
+
+pAlign      *    *    *      1       0.1     LIFE    10     DIV     20
+pBless           *    *      3  D    0.5     LIFE    60     ENCH    60
+pBlind           *    *      2  D   0.25     AIR     40     ENCH    45
+pCurse      *    *    *      1       0.1     LIFE    10     ENCH    15
+pEyes       *    *    *      2      0.25     LIFE    45     ENCH    30
+pGem                  *      1       0.1     EARTH   20     TRANS   20
+pHeal       *    *    *      1       0.1     LIFE    20     TRANS   25
+pIdentify        *    *      1       0.1     LIFE    14     DIV     24
+pMirage          *    *      2      0.25     AIR     45     ILL     20
+pPain                 *      3  D    0.5     DEATH   30     ENCH    45
+pRestore         *    *      2      0.25     LIFE    50     TRANS   35
+pScry            *    *      2      0.25     LIFE    50     DIV     30
+pSlow       *    *    *      2  D   0.25     AIR     35     ENCH    40
+pTell       *    *    *      1         4     AIR     10     DIV     10
+
+
+Spell tax: 4.8  6.4   7
+
+
+                     IN   PR   HP
+Total spells          6   12   14
+% Defensive spells    17%  25%  29%     Limit: 33%
+% Offensive spells     0%   0%   0%     Limit: 33%
+
+Special: Soul gems.
+A priest has the ability to use soul gems to reduce mana usage of spells.
+The gem must be created by a High Priest with the spell pGem, then it can
+be used by any member. To charge the gem, it must be wielded when killing
+a foe. At the moment of death, the soul is trapped in the gem and charges
+it with enemy->query_average_stat() CU (charge units). A gem has typically
+a maximum storage capability of 300 CU, though it varies from gem to gem.
+
+A charged gem can be inserted into the spell object, the medallion,
+and it will then automatically discharge itself upon a successful spell
+cast, replacing 1/6 of the mana used for the spell with as many
+discharged CU's.
+
+This will effectively reduce mana usage for the priest by 1/6th as
+long as he has charged soul gems.
+
+To calculate the tax for this ability, I started by counting it as combat
+aid, for in a way, it can be said to be. 1/6th combat aid would be taxed
+at 2,78%. Disadvantage for this is that the gem must be recharged, and
+for it to be recharged it must be wielded, therefore it precludes the use
+of two hand weapons and weapon / shield combo.
+For this reason, I round the tax downwards, to 2%
+
+
+Finally, I add a 3% room for extra add-ons, tax recalculations and such.
+
+
+Additional taxes:
+
+* Soul gem ability                2
+* Reserved for future use         3
+
+Sum:                              5
+
+                     IN   PR   HP
+TOTAL TAXES:         15.3 18.6 19.8
+Rounded off:           16   19   20

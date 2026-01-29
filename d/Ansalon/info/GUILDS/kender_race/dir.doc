@@ -1,0 +1,16 @@
+/*
+Directory locations of importance for the kender racial guild.
+
+Arman 5/7/98
+*/
+
+DIRECTORIES OF NOTE FOR THE KENDER RACIAL GUILD.
+
+The soul and shadow is included with the Krynn racial guild, which can be found in:
+/d/Krynn/raceguild
+
+Joinroom: /d/Ansalon/guild/kender/room/joinroom.c
+(Leaving the guild can be done at the joinroom)
+Boardroom: /d/Ansalon/guild/kender/room/board.c
+Start location: /d/Ansalon/guild/kender/room/sleep.c
+Training: /d/Ansalon/guild/kender/room/train_room.c
