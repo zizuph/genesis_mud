@@ -14,7 +14,7 @@ Standard weapon attack code is located in [cbase.c](std/combat/cbase.c).
 
 Formulas for translating weapon pen and skill are located [here](sys/formulas.h).
 
-Guild abilities are all based on the [specials library](d/Genesis/specials/new/ability.h).
+Guild abilities are all based on the [specials library](d/Genesis/specials/new/ability.c).
 
 Each guild ability inherits a core version maintained by the
 balance team, swapping out the various messages for their own
