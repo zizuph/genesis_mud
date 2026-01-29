@@ -23,7 +23,7 @@ guild version, leading to each ability potentially having a
 very different net effect depending on the combat aid given.
 
 Guild code resides in various directories throughout the
-game, most commonly in /d/<Domain>/guild or /d/<Domain>/guilds/.
+game, most commonly in /d/&lt;Domain&gt;/guild or /d/&lt;Domain&gt;/guilds/.
 Tax documents specify the skills and combat aid that each has
 assigned to them.
 
