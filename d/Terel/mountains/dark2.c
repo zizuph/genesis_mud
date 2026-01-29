@@ -1,0 +1,28 @@
+
+
+/* room2.c
+   Mort 911004 */
+
+inherit "/std/room";
+
+/*
+ * Function name: create_room()
+ * Description  : Create the room.
+ * In this function, we declare everything that should be fixed
+ * when the room is started, and not changed in resets.
+ */
+
+create_room() {
+
+    set_short("Dark Mountains");
+    set_long("This pass winds up and down the dark mountains, dug into\n" +
+             "it like a channel. There are foul smells in the air.\n");
+        add_exit("/d/Terel/mountains/dark1", "down",0);
+        add_exit("/d/Terel/mountains/dark3", "up", 0);
+}
+
+/*
+ * Function name:
+ * Description  :
+ */
+

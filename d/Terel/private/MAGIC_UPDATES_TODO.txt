@@ -1,0 +1,340 @@
+Terel magic enhancers:
+strange wand, grimoire, blackened steel stiletto, obsidian longsword,
+sickle-shaped dagger, sword of mergula, and frost club.
+
+Search "MAGIC_AM_MAGIC" (155 hits in 139 files of 13453 searched)
+  W:\mud\Localmud\d\Terel\calathin\armour\stud_armourm.c (1 hit)
+	Line 28:     add_prop(MAGIC_AM_MAGIC,({55,"enchantment"}));
+
+  W:\mud\Localmud\d\Terel\calathin\houses\armour\herb_gloves.c (1 hit)
+	Line 51:     add_prop(MAGIC_AM_MAGIC,({50,"enchantment"}));
+
+  W:\mud\Localmud\d\Terel\calathin\houses\weapon\abbasi.c (1 hit)
+	Line 40:     add_prop(MAGIC_AM_MAGIC, ({ 20, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\calathin\houses\weapon\isabre.c (1 hit)
+	Line 51:    add_prop(MAGIC_AM_MAGIC, ({ 40, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\calathin\weapon\mdagger.c (1 hit)
+	Line 29:     add_prop(MAGIC_AM_MAGIC, ({"enchantment", 25}));
+
+  W:\mud\Localmud\d\Terel\calathin\weapon\silver_spear.c (1 hit)
+	Line 29:     add_prop(MAGIC_AM_MAGIC, ({"enchantment", 60}));
+
+  W:\mud\Localmud\d\Terel\common\frost\weapon\frost_club.c (1 hit)
+	Line 68:     add_prop (MAGIC_AM_MAGIC,({ 40, "enchantment" }));
+
+
+  W:\mud\Localmud\d\Terel\common\moor\obj\safe_ring.c (1 hit)
+	Line 57:     add_prop(MAGIC_AM_MAGIC,({ 40, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\common\moor\tcaves\armour\kalth_shield.c (1 hit)
+	Line 17:     add_prop(MAGIC_AM_MAGIC,({ 40, "enchantment"}));
+
+  W:\mud\Localmud\d\Terel\common\moor\tcaves\armour\tbracers.c (1 hit)
+	Line 28:   add_prop(MAGIC_AM_MAGIC,({55,"enchantment"}));
+
+  W:\mud\Localmud\d\Terel\common\swamp\dirty_sword.c (1 hit)
+	Line 30:     add_prop(MAGIC_AM_MAGIC, ({55,"enchantment"}));
+
+  W:\mud\Localmud\d\Terel\dabaay\armour\ogre_chain.c (1 hit)
+	Line 37:     add_prop(MAGIC_AM_MAGIC,({55,"enchantment"}));
+
+  W:\mud\Localmud\d\Terel\dabaay\obj\eyepatch.c (2 hits)
+	Line 37:     add_prop(MAGIC_AM_MAGIC,({60,"enchantment"}));
+	Line 55:     add_prop(MAGIC_AM_MAGIC, ({ 40, "conjuration" }));
+
+  W:\mud\Localmud\d\Terel\dabaay\weapon\ddagger.c (1 hit)
+	Line 60:    add_prop(MAGIC_AM_MAGIC, ({ 62, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\dabaay\weapon\dmace.c (1 hit)
+	Line 60:    add_prop(MAGIC_AM_MAGIC, ({ 62, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\dabaay\weapon\dscythe.c (1 hit)
+	Line 46:    add_prop(MAGIC_AM_MAGIC, ({ 62, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\dabaay\weapon\dshort.c (1 hit)
+	Line 60:    add_prop(MAGIC_AM_MAGIC, ({ 62, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\dabaay\weapon\jstaff.c (1 hit)
+	Line 53:    add_prop(MAGIC_AM_MAGIC, ({ 62, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\dabaay\weapon\ssickle.c (1 hit)
+	Line 29:     add_prop(MAGIC_AM_MAGIC, ({ 40, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\dark\ARCHIVED\obj\evil_spear.c (1 hit)
+	Line 31:    add_prop(MAGIC_AM_MAGIC,({55,"enchantment"}));
+  W:\mud\Localmud\d\Terel\dark\ARCHIVED\obj\silver_spear.c (1 hit)
+	Line 32:     add_prop(MAGIC_AM_MAGIC, ({"enchantment", 60}));
+  W:\mud\Localmud\d\Terel\docs\code_examples\q_bolt.c (1 hit)
+	Line 90:         if( clothing_hit->query_prop(MAGIC_AM_MAGIC) ) return;
+
+  W:\mud\Localmud\d\Terel\dust\magic_gem.c (1 hit)
+	Line 109:     add_prop(MAGIC_AM_MAGIC, ({ 30, "enchanted" }));
+
+  W:\mud\Localmud\d\Terel\enchanted\obj\pearl.c (1 hit)
+	Line 39:     add_prop(MAGIC_AM_MAGIC, ({ 30, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\enchanted\weapon\eg_sword.c (1 hit)
+	Line 52:     add_prop(MAGIC_AM_MAGIC, ({ 30, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\guilds\minstrels\obj\change_orb.c (1 hit)
+	Line 26:     add_prop(MAGIC_AM_MAGIC, ({ 10, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\guilds\vamp\spells\delve.c (1 hit)
+	Line 140:     if (target->query_prop(MAGIC_AM_MAGIC) ||
+
+  W:\mud\Localmud\d\Terel\janus\garden\pfork.c (1 hit)
+	Line 26:   add_prop(MAGIC_AM_MAGIC,({60,"enchantment"}));
+
+  W:\mud\Localmud\d\Terel\janus\garden\potion.c (1 hit)
+	Line 37:   add_prop(MAGIC_AM_MAGIC,({90,"alteration"})); 
+
+  W:\mud\Localmud\d\Terel\janus\garden\tfruit.c (1 hit)
+	Line 31:   add_prop(MAGIC_AM_MAGIC, ({90, "alteration"})); 
+
+  W:\mud\Localmud\d\Terel\last\armour\ring_of_protection.c (1 hit)
+	Line 36:     add_prop(MAGIC_AM_MAGIC, ({ 50, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\last\armour\sboots.c (1 hit)
+	Line 33:     add_prop(MAGIC_AM_MAGIC,({55,"enchantment"}));
+
+  W:\mud\Localmud\d\Terel\last\armour\thbracers.c (1 hit)
+	Line 39:     add_prop(MAGIC_AM_MAGIC,({55,"enchantment"}));
+
+  W:\mud\Localmud\d\Terel\last\armour\trev_boots.c (1 hit)
+	Line 33:     add_prop(MAGIC_AM_MAGIC,({55,"enchantment"}));
+
+  W:\mud\Localmud\d\Terel\last\armour\trev_bracers.c (1 hit)
+	Line 38:     add_prop(MAGIC_AM_MAGIC,({55,"enchantment"}));
+
+  W:\mud\Localmud\d\Terel\last\weapon\sp_dagger.c (1 hit)
+	Line 44:     add_prop(MAGIC_AM_MAGIC,({55,"enchantment"}));
+
+  W:\mud\Localmud\d\Terel\LoD\armour\battle_chainmail.c (1 hit)
+	Line 44:    add_prop(MAGIC_AM_MAGIC, ({ 40, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\LoD\armour\devils_chainmail.c (1 hit)
+	Line 37:     add_prop(MAGIC_AM_MAGIC, ({50,"enchantment"}));
+
+  W:\mud\Localmud\d\Terel\LoD\armour\ogre_helmet.c (1 hit)
+	Line 52:     add_prop(MAGIC_AM_MAGIC, ({ 30, "conjuration" }));
+
+  W:\mud\Localmud\d\Terel\LoD\armour\suit_armour.c (1 hit)
+	Line 66:     add_prop(MAGIC_AM_MAGIC,({"enchantment",50}));
+
+  W:\mud\Localmud\d\Terel\LoD\armour\thief_glove.c (1 hit)
+	Line 49:     add_prop(MAGIC_AM_MAGIC, ({ 30, "conjuration" }));
+
+  W:\mud\Localmud\d\Terel\LoD\armour\wolf_coat.c (1 hit)
+	Line 48:     add_prop(MAGIC_AM_MAGIC, ({ 30, "conjuration" }));
+
+
+  W:\mud\Localmud\d\Terel\LoD\obj\goblet.c (1 hit)
+	Line 102:     add_prop(MAGIC_AM_MAGIC, ({ 50, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\LoD\obj\necklace.c (1 hit)
+	Line 217:    add_prop(MAGIC_AM_MAGIC, ({ 30, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\LoD\weapon\devils_stiletto.c (1 hit)
+	Line 45:     add_prop(MAGIC_AM_MAGIC, ({ 45, "enchantment" }) );
+
+  W:\mud\Localmud\d\Terel\LoD\weapon\devils_sword.c (1 hit)
+	Line 57:     add_prop(MAGIC_AM_MAGIC, ({ 45, "enchantment" }) );
+
+  W:\mud\Localmud\d\Terel\LoD\weapon\staff.c (1 hit)
+	Line 37:     add_prop(MAGIC_AM_MAGIC, ({ 40, "enchantment" }) );
+
+  W:\mud\Localmud\d\Terel\LoD\weapon\z_knife.c (1 hit)
+	Line 49:     add_prop(MAGIC_AM_MAGIC, ({ 20, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\mecien\mace.c (1 hit)
+	Line 18:    add_prop(MAGIC_AM_MAGIC, ({ 20, "conjuration"}));
+
+  W:\mud\Localmud\d\Terel\mecien\open\br.c (2 hits)
+	Line 335:    mag_arr = weapon->query_prop(MAGIC_AM_MAGIC);
+	Line 341:         log_file("npcs", file_name(weapon) + " has MAGIC_AM_MAGIC prop set "
+
+  W:\mud\Localmud\d\Terel\mecien\private\satchel.c (1 hit)
+	Line 21:    add_prop(MAGIC_AM_MAGIC, ({"enchantment", 15}));
+
+  W:\mud\Localmud\d\Terel\mecien\torque.c (1 hit)
+	Line 33:     add_prop(MAGIC_AM_MAGIC, ({ 10, "divination" }));
+
+  W:\mud\Localmud\d\Terel\mecien\valley\city\garland.c (1 hit)
+	Line 15:    add_prop(MAGIC_AM_MAGIC, ({ 20, "enchantment"}));
+
+  W:\mud\Localmud\d\Terel\mecien\valley\city\wreath.c (1 hit)
+	Line 18:    add_prop(MAGIC_AM_MAGIC, ({ 20, "enchantment"}));
+
+  W:\mud\Localmud\d\Terel\mecien\valley\guild\obj\dagger.c (1 hit)
+	Line 34:     add_prop(MAGIC_AM_MAGIC, ({5, "conjuration"}));
+
+  W:\mud\Localmud\d\Terel\mecien\valley\guild\obj\dagger2.c (1 hit)
+	Line 37:    add_prop(MAGIC_AM_MAGIC, ({ 50, "conjuration" }));
+
+  W:\mud\Localmud\d\Terel\mecien\valley\guild\obj\hpot.c (1 hit)
+	Line 22:     add_prop(MAGIC_AM_MAGIC, ({ 50, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\mecien\valley\guild\obj\icon.c (1 hit)
+	Line 99:    add_prop(MAGIC_AM_MAGIC, ({50, "conjuration"}));
+
+  W:\mud\Localmud\d\Terel\mecien\valley\guild\obj\satchel.c (1 hit)
+	Line 25:   add_prop(MAGIC_AM_MAGIC, ({"enchantment", 15}));
+
+  W:\mud\Localmud\d\Terel\mecien\valley\guild\obj\sword2.c (1 hit)
+	Line 38:    add_prop(MAGIC_AM_MAGIC, ({ 20, "conjuration" }));
+
+  W:\mud\Localmud\d\Terel\mecien\valley\guild\obj\sword3.c (1 hit)
+	Line 33:    add_prop(MAGIC_AM_MAGIC, ({ 30, "conjuration"}));
+
+  W:\mud\Localmud\d\Terel\mecien\valley\guild\quest\hrobe.c (1 hit)
+	Line 16: add_prop(MAGIC_AM_MAGIC, ({ "enchantments", 30 }));
+
+  W:\mud\Localmud\d\Terel\mortricia\weapons\eg_sword.c (1 hit)
+	Line 52:     add_prop(MAGIC_AM_MAGIC, ({ 30, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\mountains\ghastly_keep\arm\gkeep_spellbook.c (1 hit)
+	Line 63:     add_prop(MAGIC_AM_MAGIC, ({70,"enchantment"}) );
+
+  W:\mud\Localmud\d\Terel\mountains\ghastly_keep\arm\gkeep_wizhat.c (1 hit)
+	Line 80:     add_prop(MAGIC_AM_MAGIC,({70,"enchantment"}));
+
+  W:\mud\Localmud\d\Terel\mountains\ghastly_keep\obj\g_spyglass.c (1 hit)
+	Line 67:     add_prop(MAGIC_AM_MAGIC, ({ 40, "enchantment" }));
+  W:\mud\Localmud\d\Terel\mountains\ghastly_keep\obj\g_spyglass_test.c (1 hit)
+	Line 64:     add_prop(MAGIC_AM_MAGIC, ({ 40, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\mountains\ghastly_keep\obj\g_steed_summon.c (1 hit)
+	Line 43:     add_prop(MAGIC_AM_MAGIC, ({ 50, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\mountains\ghastly_keep\obj\g_stone.c (1 hit)
+	Line 30:     add_prop(MAGIC_AM_MAGIC,( {20,"enchantment"} ));
+
+  W:\mud\Localmud\d\Terel\mountains\ghastly_keep\obj\g_throw_cooldown.c (1 hit)
+	Line 59:     add_prop(MAGIC_AM_MAGIC, ({"enchantment", 50}));
+  W:\mud\Localmud\d\Terel\mountains\ghastly_keep\obj\g_throw_cooldown2.c (1 hit)
+	Line 59:     add_prop(MAGIC_AM_MAGIC, ({"enchantment", 50}));
+
+  W:\mud\Localmud\d\Terel\mountains\ghastly_keep\obj\g_wart.c (1 hit)
+	Line 68:     add_prop(MAGIC_AM_MAGIC, ({50, "enchantment"}) );
+
+  W:\mud\Localmud\d\Terel\mountains\ghastly_keep\obj\hatred_brew.c (1 hit)
+	Line 60:     add_prop(MAGIC_AM_MAGIC, ({ "enchantment", 20 }));
+
+  W:\mud\Localmud\d\Terel\mountains\ghastly_keep\obj\icy_brew.c (1 hit)
+	Line 76:     add_prop(MAGIC_AM_MAGIC, ({ "enchantment", 20 }));
+
+  W:\mud\Localmud\d\Terel\mountains\obj\mace.c (1 hit)
+	Line 18:    add_prop(MAGIC_AM_MAGIC, ({ 20, "conjuration"}));
+
+  W:\mud\Localmud\d\Terel\mountains\obj\rd_amulet.c (1 hit)
+	Line 25:     add_prop(MAGIC_AM_MAGIC,({100,"enchantment"}));
+
+  W:\mud\Localmud\d\Terel\mountains\path\furrobe.c (1 hit)
+	Line 37:     add_prop(MAGIC_AM_MAGIC, ({ 40, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\mountains\redlair\weapon\dtooth.c (1 hit)
+	Line 47:     add_prop(MAGIC_AM_MAGIC,({ 100, "enchantment"}));
+
+  W:\mud\Localmud\d\Terel\mountains\stronghld\armour\commander_scalemail.c (1 hit)
+	Line 37:     add_prop(MAGIC_AM_MAGIC, ({ 40, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\mountains\stronghld\weapon\warhammer.c (1 hit)
+	Line 47:    add_prop(MAGIC_AM_MAGIC, ({ 40, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\orc_cave\weapon\dtooth.c (1 hit)
+	Line 37:     add_prop(MAGIC_AM_MAGIC,({ 100, "enchantment"}));
+
+  W:\mud\Localmud\d\Terel\orc_cave\weapon\sword.c (1 hit)
+	Line 44:     add_prop(MAGIC_AM_MAGIC, ({ 20, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\ribos\castle\quest\catspaw_m.c (1 hit)
+	Line 48:     add_prop (MAGIC_AM_MAGIC,({ 80, "life" }));
+
+  W:\mud\Localmud\d\Terel\ribos\castle\quest\removed\broom_m.c (1 hit)
+	Line 39:     add_prop (MAGIC_AM_MAGIC,({ 80, "air" }));
+
+  W:\mud\Localmud\d\Terel\ribos\castle\quest\removed\chalice2_m.c (1 hit)
+	Line 42:     add_prop (MAGIC_AM_MAGIC,({ 80, "enchantment" }));
+  W:\mud\Localmud\d\Terel\ribos\castle\quest\removed\dagg_m.c (1 hit)
+	Line 40:     add_prop (MAGIC_AM_MAGIC,({ 80, "death" }));
+
+  W:\mud\Localmud\d\Terel\silver\hag\bluebolt.c (1 hit)
+	Line 47:     add_prop(MAGIC_AM_MAGIC, ({ 40, "enchantment" }) );
+  W:\mud\Localmud\d\Terel\silver\hag\blue_sword.c (1 hit)
+	Line 27:     add_prop(MAGIC_AM_MAGIC, ({ 33, "enchantment" }) );
+
+  W:\mud\Localmud\d\Terel\silver\obj\lamp.c (1 hit)
+	Line 20:     add_prop(MAGIC_AM_MAGIC, 1);
+
+  W:\mud\Localmud\d\Terel\silver\weapon\dwarf_axe.c (1 hit)
+	Line 47:    add_prop(MAGIC_AM_MAGIC, ({ 40, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\silver\weapon\flamberge.c (7 hits)
+	Line 62:     add_prop(MAGIC_AM_MAGIC, ({MAGIC_STRENGTH, "enchantment"}));
+
+  W:\mud\Localmud\d\Terel\silver\weapon\mbattleaxe.c (1 hit)
+	Line 43:     add_prop(MAGIC_AM_MAGIC, ({ 10, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\silver_old\cottage\bluebolt.c (1 hit)
+	Line 77:     add_prop(MAGIC_AM_MAGIC, ({ 40, "enchantment" }) );
+  W:\mud\Localmud\d\Terel\silver_old\cottage\blue_sword.c (1 hit)
+	Line 27:     add_prop(MAGIC_AM_MAGIC, ({ 33, "enchantment" }) );
+  W:\mud\Localmud\d\Terel\silver_old\obj\lamp.c (1 hit)
+	Line 20:     add_prop(MAGIC_AM_MAGIC, 1);
+  W:\mud\Localmud\d\Terel\silver_old\weapon\dwarf_axe.c (1 hit)
+	Line 47:    add_prop(MAGIC_AM_MAGIC, ({ 40, "enchantment" }));
+  W:\mud\Localmud\d\Terel\silver_old\weapon\mbattleaxe.c (1 hit)
+	Line 43:     add_prop(MAGIC_AM_MAGIC, ({ 10, "enchantment" }));
+
+  W:\mud\Localmud\d\Terel\sorgum\torque.c (1 hit)
+	Line 33:    add_prop(MAGIC_AM_MAGIC, ({ 10, "divination" }));
+
+  W:\mud\Localmud\d\Terel\sorgum\weapon\corpse_knife.c (1 hit)
+	Line 36:    add_prop(MAGIC_AM_MAGIC, ({50, "enchantment"}));
+
+  W:\mud\Localmud\d\Terel\unique\ew_mboots.c (1 hit)
+	Line 66:     add_prop(MAGIC_AM_MAGIC, ({40, "enchantment"}));
+  W:\mud\Localmud\d\Terel\unique\ew_mgloves.c (2 hits)
+	Line 62:     add_prop(MAGIC_AM_MAGIC, ({40, "conjuration"}));
+	Line 78:     remove_prop(MAGIC_AM_MAGIC);
+  W:\mud\Localmud\d\Terel\unique\ew_mhelmet.c (1 hit)
+	Line 54:     add_prop(MAGIC_AM_MAGIC, ({50, "enchantment"}));
+  W:\mud\Localmud\d\Terel\unique\ew_mmail.c (2 hits)
+	Line 55:     add_prop(MAGIC_AM_MAGIC, ({50, "enchantment"}));
+	Line 130:     remove_prop(MAGIC_AM_MAGIC);
+  W:\mud\Localmud\d\Terel\unique\ew_sword.c (1 hit)
+	Line 70:     add_prop(MAGIC_AM_MAGIC, ({ 60, "enchantment" }) );
+  W:\mud\Localmud\d\Terel\unique\furrobe.c (1 hit)
+	Line 57:     add_prop(MAGIC_AM_MAGIC, ({ 40, "enchantment" }));
+  W:\mud\Localmud\d\Terel\unique\sword_w_darkness.c (1 hit)
+	Line 80:     add_prop(MAGIC_AM_MAGIC, ({ 20, "enchantment" }));
+  W:\mud\Localmud\d\Terel\unique\tanto.c (1 hit)
+	Line 99:     add_prop(MAGIC_AM_MAGIC, ({50,"death"}));
+  W:\mud\Localmud\d\Terel\unique\wasp.c (1 hit)
+	Line 103: 	add_prop(MAGIC_AM_MAGIC, ({50,"enchantment"}));
+
+  W:\mud\Localmud\d\Terel\zodiac\magic_gem.c (1 hit)
+	Line 113:     add_prop(MAGIC_AM_MAGIC, ({ 30, "enchanted" }));
+
+
+TEREL 7
+strange wand: /d/Terel/ribos/castle/obj/wand.c (spellpower 40) [DONE]
+blackened-steel stiletto: /d/Terel/LoD/weapon/devils_stiletto.c (spellpower 40) [DONE]
+obsidian longsword: /d/Terel/unique/sword_w_darkness.c (spellpower 45) [DONE]
+sickle-shaped dagger: /d/Terel/dabaay/weapon/ssickle.c (spellpower 35) [DONE]
+sword of Mergula: /d/Terel/unique/ew_sword.c (spellpower 55) [DONE]
+heavy frost club: /d/Terel/common/frost/weapon/frost_club.c (spellpower 42, air
+water) [DONE]
+dark grimoire: /d/Terel/mountains/ghastly_keep/arm/gkeep_spellbook (spellpower 48) DONE
+
+AVENIR 6
+serpentine staff:  /d/Avenir/common/holm/obj/serpent_staff.c  (spellpower 46) [DONE]
+bronze-headed kesoit crozier: /d/Avenir/common/city/obj/wep/crozier.c (spellpower 40) [DONE]
+shintor: /d/Avenir/common/bazaar/Obj/wield/shintor.c (spellpower 45) [DONE]
+sybarun falcata: /d/Avenir/common/dead/obj/falcata.c (spellpower 46) [DONE]
+numinous blade: /d/Avenir/common/dark/obj/gavriels_blade.c (spellpower 40) [DONE]
+sacred silver lamp: /d/Avenir/common/dark/obj/gavriels_lamp.c (spellpower 45) [DONE]
+
+

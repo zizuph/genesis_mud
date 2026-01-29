@@ -1,0 +1,60 @@
+	The Horses of Terel
+
+This document is a description of Terel's implementation of the Genesis
+standard steed.  The code for the standard steed, by Fysix, is found in 
+/d/Genesis/steed/* and is also used for the warhorses of the Knighthood
+and wolves of the Red Fang.
+
+The files for the project are all under /d/Terel/calathin, as follows:
+
+./npc/terel_horse.c		  The horse object
+./npc/terel_horse_saddlebag.c	  a special saddlebag
+./npc/jonas.c			  the stablemaster
+./stable.c			  The stable
+./stable_corral.c		  horses for sale are cloned here
+./stable_map.o			  mapping file for user-owned horses
+./stable_stall.c		  user-owned horses are stored here
+./stable_yard.c			  the exterior(has a cool water trough)
+
+Available types of horses are pony, mare, stallion, gelding, and mule.
+Stats vary according to the horse type.  Each horse gets one random
+adjective and its race name is the same as the type.  This produces
+names like "strong stallion" and "grey mare".  
+
+Terel horses may be bought by any player.  The price ranges from 15 
+platinum coins for a pony to 50 platinum for a stallion.  The player
+can store their horse over reboot in the stable, for the 
+cost of 1 platinum per storage.  If the horse is killed, lost or
+otherwise not stabled, it is gone forever.
+
+Horses are stabled at the cost of one platinum coins per rl day. The
+first day's rent is paid at stabling, the rest upon retrieval.  Horses
+can be stabled only for a maximum of seven days.  After that, the 
+stablemaster cannot afford to keep them anymore and sells them off 
+for his expenses. (destroys them).
+
+No combat or skill advantage is given to the player by riding a
+Terel horse.  However, there is a special saddlebag that allows the
+steed to carry items for the player.  The saddlebag must be purchased
+separately and cannot be stored over boot.  The horse cannot carry
+any items into the stable, nor can it store any item over reboot.
+
+The stable has several other features that can also be used by other
+horses.  Any standard horse can be stabled there, not just Terel horses.
+Stabling your horse feeds and waters them completely.  Steeds, as
+well as players, can drink their fill at the water trough in the
+stableyard.
+
+There is some racial variation in player interaction with the steeds.
+Goblins cannot buy, lead or ride any Terel horse.  All other races
+can buy or lead them.  Gnomes and Hobbits can only ride ponies, and
+Dwarves can only ride ponies and mules.
+
+I think the horses serve three main purposes.  One, they add atmosphere
+to the game, status for the character and gameplay for the player.
+Two, they can provide a small advantage to the hard-working small 
+player who saves up enough cash to buy a workhorse.  Three, they can
+provide a considerable money drain to the player who buys
+and stables horses for status, without working them as pack animals.
+
+Trofast of Terel
