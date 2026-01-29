@@ -1,0 +1,24 @@
+Enchantments:
+-------------
+
+Note: Enchantments can be attached to any type of object, as long as they
+      are non-magical. However, individual enchantments may have other
+      requirements on what manner of object it is attached to.
+
+    Dark Touch (~neraka/obj/darktouch.c)
+        Creator : Ashlar
+            This enchantment works on slashing and impaling weapons. On
+            impact, the weapon spreads the dark touch, doing damage
+            to all but undeads and the most evil creatures.
+            However, the more good the creature is, the more damage it
+            does, spreading corruption and evil in the wound.
+            A weapon enchanted thus cannot be wielded by creatures above
+            400 in alignment.
+
+    Trueblade (~neraka/obj/trueblade.c)
+        Creator : Ashlar
+            This enchantment works on all types of weapons. It raises
+            the to_hit of the weapon by 1-20 units, depending on the
+            success of the enchanting.
+    
+            

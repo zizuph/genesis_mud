@@ -1,0 +1,165 @@
+Armours:
+--------
+
+ plate armour of Solamnus (~flotsam_forest/obj/armour/vin_armour.c)
+       Creator: Arman
+
+          Of all the armours in Ansalon, this is by far the
+          finest. It consists of a breastplate, shoulder guards
+          and arm fittings, all made of the finest steel and
+          beautifully tooled with the markings of the three
+          Solamnic Orders. This armour was forged when the Knights
+          of Solamnia were newly formed. Enchanted by the White
+          Robed Wizards of High Sorcery, and blessed by the 
+          High Priests of Paladine, it offers great protection.
+          The wearers of such armours include the founder Vinas
+          Solamnus, and the hero Huma Dragonsbane. It is thus
+          greatly prized by knights and warriors alike.
+          (ac: 50+random(9), at: TORSO, ARMS and LEGS
+          (was 65 originally, then somehow got to be 80, and now
+           fixed to valid number).
+          It is an item that is to be found for a task of 
+          Quest proportions, and thus its location shall not
+          be specified here. Lets just say it is _very_ hard
+          to get :-). Think of it like the Holy Grail. *grin*
+
+  elven cloth (~flotsam/obj/armour/elven_cloth.c)
+        Creator : Arman
+
+           This fine, black silk cloth was crafted by 
+           the Silvanesti nations elven wizards. It bestows
+           the ability to see in the dark (lvl 3) when
+           worn.
+           When worn it offers an AC of 3 to the head.
+
+   elven chainmail (~flotsam/obj/armour/elven_chain.c)
+         Creator : Arman
+
+            This is a suit of elven chainmail, fashioned by skilled
+            elven armourers of Silvanesti. The nature
+            of the crafting makes it magical, allowing the wearer 
+            to move silently and hide more like an elven
+            tracker. This armour offers a +5 bonus to hide and
+            sneak. It weighs 10 kgs, and when worn offers a
+            protection to the body of AC 33.
+
+
+   dazzling expensive robe (~kalaman/obj/armour/robe.c)
+         Creator : Arman
+
+            This robe has been enchanted to change its colour as the wearer
+            moves, impressing friends and confusing enemies.
+            It's enchantment in code terms gives the robe an AC of 10.
+
+   pair of black leather gloves (~kalaman/obj/armour/magic_gloves.c)
+         Creator : Arman
+
+           This pair of gloves has been enchanted to
+            enchance ones thieving abilities. If the one
+            who wears these gloves has at least some knowledge
+            of the skill, these gloves give them the benefit
+            of +10 skill to pick pockets, open locks, f/r traps,
+            and +5 to backstab.
+            It can be found in the storeroom of the rich merchant
+            of Kalaman, ~kalaman/room/storeroom.c
+
+    ring of protection (~neraka/arm/ring1.c)
+        Creator : Ashlar
+
+            This ring is enchanted with a shield spell, adding
+            AC 10 to all hitlocations on the wearer. The downside
+            is that it drains mana while worn.
+            It is found on the Slavemaster of Neraka,
+            ~neraka/npc/slavemaster.c.
+
+            
+     ornamented golden platemail (~kalaman/obj/armour/gold_platemail.c)
+          Creator : Arman
+
+          This platemail has been enchanted to offer
+          better protection from hits. It is worn by
+          The Lord of Kalaman (~kalaman/living/calof).
+          AC : 47 at body location.
+
+     heavy golden shield (~kalaman/armour/obj/g_shield.c)
+          Creator : Arman
+
+          This shield has been enchanted to offer
+          better protection from hits. It also offers
+          two emotes for the wearer. It is found on the
+          Lord of Kalaman (~kalaman/living/calof)
+          AC: 45, type shield, weight 10 kg.
+
+     pair of gray leather boots (~flotsam_forest/obj/armour/mag_bootsc)
+          Creator : Arman
+
+          A pair of enchanted boots that will only fit
+          the smaller races (except hobbits, they hate
+          shoes). This set of boots raises the wearers
+          dex by 10 while they are worn. If the wearers
+          dex is epic or greater (136 +) the boot rejects
+          the wearer in a fit of jealousy, not allowing
+          the extremely agile to wear them.
+          It is guarded by the river troll
+          (~flotsam_forest/living/troll.c).
+
+     intricately woven silvery thorns (~goodlund/kendermore/obj/thorns.c)
+          Creator : Gwyneth
+
+          This circlet of thorns was enchanted by a red robe mage.
+          It drains 400-500 hit points upon wearing. Every 30
+          seconds after wearing, it drains 100-200 hps, adds 30-50
+          mana, and adds 20-30 panic. It can be found hidden in a secret
+          panel in a statue in (~goodlund/kendermore/room/street33.c).
+          When searched, it falls out, but is grabbed up by a kender
+          who drops it in one of ten random rooms around Kendermore.
+          Once gotten, the thorns cannot be given directly to anyone
+          due to their sharp thorns.
+
+     sparkly red mask (~gwyneth/private/entrance/obj/mask.c)
+          Creator : Gwyneth
+
+          This mask is given out by Merldon for the Kender entrance
+          quest. It allows the wearer to see invisible. It cannot
+          be dropped or given away to anyone but Merldon.
+
+     flaming-red pelt (~Ansalon/dargaard/obj/armour/pelt.c)
+          Creator : Elmore (altered by Arman)
+
+          This cloak can be cut from the corpse of a hellhound - a 
+          creature that is summoned by an undead knight that 
+          infrequently leads assaults upon the Neidar Clan (see 
+          ~dargaard/npc/hound.c).  This cloak offers greater than
+          normal protection (ac 30, mod (-1,2,-1)), as well as 25%
+          protection from fire.
+
+     pair of knee-high brown boots (~taman_busuk/mountains/obj/boots.c)
+          Creator : Stralle
+
+          This is a pair of enchanted Nordmaarian walking boots. They
+          increase the speed of the wearer (20) and increases the rate
+          fatigue is restored.  They cover both the legs and feet (ac 30)
+          Hobbits cannot wear them.
+     
+    steel spiked helm (~Ansalon/goodlund/kendermore/obj/merchelm.c)
+        Creator : Navarre
+
+        This helm is occassionally worn by the mercenary (Jaine).
+        It will hurt anyone hitting the wearer on the head from the
+        spikes with a hit_me(50+random(100)).
+        The head is not targeted very often, and its even less hit.
+        So this is not occuring very often.
+
+    blackend leather champron (~Ansalon/goodlund/bloodsea/obj/blackened_champron.c)
+        Creator: Navarre
+ 
+        This head piece is worn by Minotaurs only. 
+        It does not offer any protection, but it does offer dark vision of 1 level,
+        paid by mana drain. 
+        This armour corresponds to the black bandana on the sparkle-flotsam boat,
+        that also gives 1 darkness levels, but that minotaurs cannot wear.
+        Now they have another interesting head piece to go for. 
+
+  
+
+

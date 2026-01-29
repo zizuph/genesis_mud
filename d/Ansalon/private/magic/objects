@@ -1,0 +1,231 @@
+Living.:
+--------
+
+
+Other..:
+--------
+
+ black-gem ring (~flotsam_forest/obj/armour/ring1.c)
+       Creator : Arman
+
+          This is a silver banded ring with a small black
+          gem adorning it. Carved along
+          the band is the spidery language of the Magi. It
+          was enchanted long ago by wizards now long forgotten
+          with the ability to suck the light from the wearers
+          surroundings when worn, effectively a -1 light. This is 
+          negated when the ring is removed.
+          It is occasionally found in the dragons lair, and there are
+          only 3 ever in the game.
+
+  shiny/dull wand (~flotsam_forest/obj/wand.c)
+
+        Creator : Arman
+
+          This wand is a wand of teleportation. It is designed
+          to teleport players to a certain point in the
+          domain of Ansalon. It has one charge, but can be
+          recharged if the player has a spellcraft skill of
+          40 + and knows the proper chant to recharge it.
+          Recharging it drains the player of 100-150 mana.
+
+          It is found at the start of the minotaur maze.
+          Another is also found in the Flotsam area.
+
+   blue-tinged crystal (~kalaman/obj/scry_crystal.c)
+
+         Creator : Arman
+
+           This crystal has an enchantment on it allowing the holder
+           to scry on any other player in the game. The number of times a
+           crystal may be used depends highly on ones spellcraft and divination
+           skills (spellcraft + divination skills have to be greater than
+           random 200, otherwise the crystal shatters after a use.
+           This object may only be found after the completion
+           of the Kalaman Merchant Quest.
+
+     foul_smelling liquid (~estwilde/obj/dwarf_potion.c)
+          Creator : Arman
+
+          This potion increases ones resistance to poison when
+          quaffed, the potent brew slowing down the effect
+          of poisons by a certain amount depending on ones
+          race.
+          The effect alters ones _magic_i_res_poison prop
+          for 10-12 minutes. The level of effect on each race:
+          dwarf - 20%
+          hobbit/gnome/goblin - 10%
+          human - 5%
+          This brew is too potent for elves. It makes them sick,
+            literally emptying their stomach.
+          This potion can be bought in Iron Delving after
+          doing a small quest for the local brewer (have to
+          do the quest each time to buy from him). One can
+          buy a maximun of 3 of these potions per armageddon.
+          The effects of this potion are not additive.
+          This potion when quaffed also sets ones intox level
+          to the players maximum level, due to its potency.
+          Can be found in the tomb of the dwarven guru quest guy, and
+          in a chest within a cave network between Neraka and Sanction.
+
+    Medallion of the Istarian Merchant (~kalaman/obj/merc_medallion)
+          Creator : Arman
+
+          This medallion is a quest object that needs to be returned in
+           the Kalaman Merchant Quest. When worn, it gives
+           the wearer an increase in the skills SS_TRADING,
+           SS_APPR_OBJ and SS_APPR_VAL (10,20,20 respectively).
+
+    Slimy eye (~goodlund/nethosak/forest/obj/beholder_eye)
+          Creator : Elmore
+
+          This eye comes from a beholder in the forest of Mithas.
+          The player can cut out this eye and hold it, giving him or
+          her 25 in magic resistance.
+
+    midnight-black orb (~balifor/flotsam_forest/obj/black_orb)
+          Creator : Arman
+          
+          This magic orb is an artifact of the dark god of magic,
+          Nuitari.  When held by a player with spellcraft skill greater
+          than 80 and alignment less than -200, the orb has the property
+          OBJ_I_LIGHT set to -1.  If held by a player of alignment greater
+          than 500 there is no beneficial affect, although the weight of the
+          orb increases by a factor of 100 (from 235 to 23,500).
+          
+    silver braided circlet (~kalaman/obj/armour/circlet)
+          Creator : Arman
+
+          This circlet was once owned by an elven archer-mage who enchanted
+          the circlet to enhance his hunting skills. The wearer of this circlet
+          has enhanced perceptions (+10 awareness) and missile skills (+10).
+          If the black diamond that sits in the center of the circlet is removed,
+          the enchantment is lost.  The circlet is worn on the head, offering
+          5 AC protection.
+
+    sea-green potion (~goodlund/bloodsea/obj/swim_potion.c)
+          Creator : Arman? Navarre?
+
+          This potion has been brewed by the sea-elves. It is used to provide 
+          their friends living on land a way to visit them in their home.
+
+          Can also be made by alchemists with a mortar and vial with some
+          water and the heart of a sea lion.
+          (/d/Krynn/south_courrain/obj/sealion_heart.c)
+          (/d/Krynn/south_courrain/living/sealion.c)
+
+          When quaffed it provides +40 swim skill, with the effect lasting
+          20 minutes.
+
+
+    ethereal vessel (~estwilde/iron_delving/obj/brewcraft_beervessel_rare0.c)
+          Creator: Vitwitch
+
+          ***teleportation object -- between preset fixed locations
+
+          This is a regular crystal brew vessel that has been changed by
+          a lightning strike.  Regular brew vessels transit between Worlds
+          (from ancient Sumer to Krynn) carrying only brew.  As a result of
+          the lightning strike, this vessel has no brew, but will now
+          teleport its owner and teammates between Realms.
+
+          The teleport locations are restricted to GSL and non-GSL
+          shipping piers. Teleportation only occurs along the existing
+          shipping routes. Some piers are excluded from service to
+          respect club/guild restrictions.
+
+          There is a 1% chance of this object vanishing after each use --
+          giving an average of 50 uses before it is gone.
+
+          This object recovers. It cannot be put, sold nor given. It has
+          no mana cost nor spellcraft requirement. It is a ~50-use
+          'prepaid' divine conjuration object -- the product of the
+          Sumerian god Neti and a freak lightning strike.
+
+          It occurs at a rate of 1% of all regular brew vessels served in
+          the barrelhole (~estwilde/iron_delving/brewery5.c). Note that players
+          cannot hold multiple brew vessels, they must drink what they get
+          before they can get another. So limits on alcohol consumption
+          apply to how often it is encountered.
+
+    blistered vessel (~estwilde/iron_delving/obj/brewcraft_beervessel_rare1.c)
+          Creator: Vitwitch
+
+          ***area effect intoxication object 
+
+          This is a regular crystal brew vessel that has been changed by
+          a lightning strike.  Regular brew vessels transit between worlds
+          (from ancient Sumer to Krynn) carrying only brew. As a result of
+          the lightning strike, this vessel has its brew trapped within a
+          large crystal blister -- making it not directly drinkable.
+
+          To get the effect of the alcohol within, it must be shattered. 
+          When it is shattered, it is destroyed, but causes all players
+          in the room to be extremely obliviated by a divine shockwave. 
+
+          This object recovers. It cannot be put, sold nor given. It has
+          no mana cost nor spellcraft requirement. It is a one-use
+          'prepaid' divine conjuration object -- the product of the
+          Sumerian god Ninkasi and a freak lightning strike.
+
+          (Shadow Union guild members are protected by Jazur who 
+           intercedes on their behalf. Dead and Un-dead are affected
+           by the wave since they are not imbibing alcohol, they are
+           being intoxiacted by the power of the goddess Ninkasi.)
+
+          Since the liquid trigger inside the blister is still a 'drink'
+          it can and will be destroyed by time spent in Raumdor.
+
+          It occurs at a rate of 2% of all regular brew vessels served in
+          the barrelhole (/d/Ansalon/estwilde/iron_delving/brewery5.c).
+          Note that players cannot hold multiple brew vessels, they must
+          drink what they get before they can get another. So limits on
+          alcohol consumption apply to how often it is encountered.
+
+
+    Robe of the Darkling Sea
+    Robe of Zeboim
+    Robe of Woven Worms (/d/Krynn/turbidus_ocean/obj/zebrobe.c)
+
+          Creator: Vitwitch
+
+          ***appearance_offset rest object
+
+            INTENT:
+             The purpose of this object is to counteract the permanent change
+             made to appearance_offset by Sateela's Robe.
+                (/d/Ansalon/goodlund/kendermore/obj/wrobe.c)
+             Sateela's robe makes female wearers attractive while they wear the
+             robe, but hideous forever after. This has caused some agst among
+             female players. 
+
+             This object offers a method to return to the default setting.
+
+            LONG DESCRIPTION:
+            "This 'robe' is a wearable mass of giant tubeworms. Perhaps they
+             wove themselves together in the darkness of the ocean deeps and
+             perished in one another's embrace. The robe is soaking wet and
+             deep-ocean cold besides. It clings hideously to the touch. It
+             possesses a curious aura of divine magicality."
+
+            WHEN TRYING TO PUT or DROP:
+            "Having picked it up, the robe of woven worms clings wetly to you.
+             Wearing it or burning it should dry it out.
+
+            WHEN WORN:
+            "You slip on the robe of woven worms. It clings hideously to
+             your body. In it you are as attractive as a rotten fish on a
+             platter at your name-day banquet... ugh!"
+
+            EFFECT: 
+             While worn, it sets the player's appearance_offset to 50 -- enough
+             to make someone appear hideous.
+
+             If worn for an hour of game time, it will dry out and fall off.
+             When this happens, it resets the player's appearance_offset to 0,
+             no matter what it was before, which is the neutral setting.
+
+             Twenty times over the course of the hour of game time, the robe
+             will tell the room in which the player stands "Something hideous
+             this way came..."
+
