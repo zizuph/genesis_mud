@@ -1,0 +1,226 @@
+
+Minstrel Venue Performances - Arman October 2019
+================================================
+A new concept developed as part of the recode of the
+Minstrel layman guild is to allow them to perform 
+their Mundanes and Ballards at specific venues, allowing
+them to gain an element of musical fame through
+'performance reputation', as well as gain a small amount
+of coin and general experience in the process.
+
+How does performing work?
+=========================
+Minstrels may 'offer to perform' at locations listed in
+the ~minstrels/lib/performance_manager.c under the
+query_perform_location function.
+
+The sort locations suitable for inclusion are those
+places where bards and minstrels would typically play
+to a crowd... pubs, inns, and taverns usually. It could
+also work for auditoriums and such.
+
+The venue file location needs to be listed within the
+function, returning an integer ranging between
+1 to 3 indicating the profile/patronage of the location:
+
+1: Drinking Hole - e.g out of the way towns, low patronage
+   e.g. Flotsam's Hawkstones Taproom
+
+2: Small Pub / Small Inn - standard establishments, 
+   average patronage
+   e.g. Port Balifors Pig and Whistle Inn, 
+   Solace Inn of the Last Home.
+
+3: Large Pub / Large Inn - prominent establishment, high profile 
+   patronage e.g. Sparkle inn, Bree 'Dancing Pony', Palanthas
+
+Also within  ~minstrels/lib/performance_manager.c you can set
+the name of the venue in query_perform_location_name, otherwise 
+the performance location defaults to the location's short().
+
+To perform in a location size 3 establishment a minstrel must
+have a reputation of at least 6 (well-known).
+
+The higher the establishment level, the more unique song 
+renditions a minstrel must play to complete the performance.
+
+For a level 1 establishment, only one Mundane or Ballard is
+required to be played. For a level 2, two unique renditions, and
+for a level 3 three unique renditions.
+
+A performance can only occur in a location once every 15 minutes,
+and a minstrel can only perform in the same location once every
+20 hours.
+
+What is reputation?
+===================
+Reputation is a ranking system that reflects the musical fame 
+of a minstrel, which is increased by performing Mundanes and 
+Ballards at performance locations.
+
+There are 20 reputation levels, based on the AD&D 2nd edition
+Bard performance levels:
+
+0 Unsung
+1 Accepted
+2 Known
+3 Noted
+4 Established
+5 Liked
+6 Well-known
+7 Admired
+8 Prominent
+9 Distinguished
+10 Popular
+11 Reputable
+12 Honored
+13 Celebrated
+14 Illustrious
+15 Eminent
+16 Acclaimed
+17 Prestigious
+18 Famous/Infamous
+19 Renowned
+20 Revered
+
+The chance of advancing a reputation level depends on a number
+of factors, namely:
+* the venue profile/patronage level (between 1 and 3)
+* the minstrel's singing skill
+* the minstrel's performing skill
+* the minstrel's current reputation
+
+The formula for an increase in reputation is if:
+
+                 chance > difficulty
+
+where:
+
+chance = random(100 * establishment level) + 
+             singing skill (SG_VOCAL) + 
+             performing skill (SG_INSTRUMENTAL)
+
+and:
+
+difficulty = (current reputation * 10) + random(300)
+
+With layman minstrel's having their singing and performing
+skills capped at superior craftsman, progressing in reputation
+relies more and more heavily on good performances at the most
+prestigious venues.
+
+Why is reputation important?
+============================
+While reputation largely is to allow for a new playstyle and 
+an option for players to roleplay a bard more effectively,
+it has a functional element to it as well.
+
+Under the new magic system, SS_SPELLCRAFT plays a large role
+in the effectiveness of all magic. Minstrels traditionally 
+haven't had that skill, so it will be offered by invitation
+from the elves of the Telberin College of Music to those who 
+have reached reputation rank 9 ('distinguished').
+
+Other benefits of performing
+============================
+Performing also provides a small amount of coin and general
+experience, based on the success of their performance (decided
+by the sum of the 'chance' variable in the performance formula 
+for each rendition played).
+
+                         Payout influenced by performer's skills
+                    Sup craftsman skills:     Superior guru skills:
+1. Drinking Hole:       120cc - 219cc             200cc - 299cc
+2. Average venue:       240cc - 438cc             400cc - 598cc 
+3. Prominent venue:     480cc - 657cc             800cc - 1196cc 
+
+So the maximum payout for a layman member with max lay skills 
+(superior craftsman) is around:
+* 1 gold, 6 silver, 3 copper in level 1 venue
+* 3 gold 6 copper in a level 2 venue
+* 4 gold 6 silver in a level 3 venue
+
+
+General experience is also provided to the player for each
+performance, with the performance xp formula being:
+
+F_EXP_PERFORM = (250 + (25 * (sum of rendition chance values)))
+
+For a minstrel with superior craftsman in SG_INSTRUMENTAL and
+SG_VOCAL the maximum rendition chance value is 417. In a level 3
+venue where three renditions are required this would mean a
+maximum possible experience gain of 31,525gxp. 
+
+                         Maxium Gxp by performer's skills
+                   Sup craftsman skills:     Superior guru skills:
+1. Drinking Hole:          10,675 gxp                12,425 gxp   
+2. Average venue:          21,100 gxp                25,100 gxp
+3. Prominent venue:        31,525 gxp                37,525 gxp
+
+Noting these are maximum values and are highly reliant on random 
+values, the likely average gxp would be around half the values 
+outlined above.
+
+What locations are being considered as performance venues?
+===========================================================
+The intent is for all appropriate locations across Genesis
+to be included as options to perform in, with the list
+stored in  ~minstrels/lib/performance_manager.c
+
+Performers can currently perform in approximately 74 locations.
+
+There are approximately 30 'Drinking Holes' in Genesis:
+* 8 in Krynn/Ansalon
+* 6 in Shire/Gondor
+* 5 in Terel
+* 4 in Khalakhor
+* 3 in Earthsea
+* 2 in Sparkle/Genesis
+* 1 in Calia
+* 1 in Faerun
+* 1 in Kalad
+
+There are approximately 32 'Small Pubs/Inns' in Genesis:
+* 10 in Krynn/Ansalon
+* 9 in Shire/Gondor
+* 4 in Terel
+* 2 in Sparkle
+* 2 in Calia
+* 2 in Cirath
+* 1 in Avenir
+* 1 in Kalad
+* 1 in Khalakhor
+
+There are 12 'prominent' locations in Genesis:
+* 3 in Krynn/Ansalon
+* 2 in Shire/Gondor
+* 2 in Kalad
+* 1 in Khalakhor
+* 1 in Sparkle
+* 1 in Avenir
+* 1 in Calia
+* 1 in Raumdor.
+
+
+Where can I find the performance code?
+======================================
+The commands for offering to perform and performing are found
+within the guild's soul:
+/d/Terel/guilds/minstrels/soul/soul.c
+ - do_offer function
+ - do_perform function
+
+The performance code is an object cloned from:
+/d/Terel/guilds/minstrels/obj/performance_obj.c
+
+The saving of performance information and locations that can
+be performed in is managed through:
+/d/Terel/guilds/minstrels/lib/performance_manager.c
+
+and saved in:
+/d/Terel/guilds/minstrels/data/
+
+Standard values are in the guild's def.h file:
+/d/Terel/guilds/minstrels/guild_def.h
+
+

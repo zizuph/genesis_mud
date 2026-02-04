@@ -1,0 +1,59 @@
+
+
+Celerity
+====================
+Guild type          : Occupational
+Effect              : Celerity increases LIVE_I_QUICKNESS by 100.  In 
+                      addition, for each enemy, there is a percent chance 
+                      that they will not be able to perform normal attacks 
+                      on the player.  The chance is determined by the 
+                      standard evade formula, using SS_DEFENCE as the
+                      skill, and avg(TS_OCC/TS_DEX) as the stat, and 33 
+                      combat aid.
+
+                      Itemized Combat aid:
+                      LIVE_I_QUICKNESS aid: 5.0/(5.0-(100/100))= 25%
+                         *2 for cumulative/stacking aid = 50%
+                      Dodge/Evade: 33%
+                      
+                      
+                      
+Spell Time          : Default (6 seconds/1 heartbeat)
+Mana cost           : 60
+Min Vamp Stat       : 120
+Difficulty          : TASK_ROUTINE 
+Peaceful            : No
+Stationary          : No
+Spell Class Level   : Class 3  -- Advanced
+Area of effect      : Caster
+Duration            : up to 10 minutes
+Somatic Component   : Blood (2 units)
+Material Component  : Blood (Mana / 4) = 15 blood
+Vocal Component     : Yes
+Tax                 : 1.00%
+Combat Aid          : 83%
+
+Files:              : spells/celerity.c
+                      spells/obj/celerity_obj.c
+
+
+Tax calculation:
+----------------
+Base tax for class 3 is 0.50% for occ spell.
+Double tax for half mana
+
+Tax: (0.50) * 2.0             = 1.00 %
+                                =====                         
+Mana calculation:
+Base mana for class 3 is 120-159.  
+Element skill: 60 points of SS_ELEMENT_AIR
+Form skill:    60 points of SS_FORM_CONJURATION
+
+Base Mana cost is 120.
+
+Area of Effect - One object................................ x1
+Casting Time < 5 heartbeats................................ x1
+Difficulty (Routine )...................................... x1
+Half mana.................................................. x0.5
+
+120 * 1.0 * 1.0 * 1.0 * 0.5 = 60

@@ -1,0 +1,258 @@
+Abilities
+==========
+
+    Please keep in mind when you are lookng at this guild that it is 
+   intended on an RP level to be the guild of the ultimate predator, and 
+   that is takes all three guild slots, race, lay and occ.  The latter is 
+   done partly to optimize the guild, and partly to control the power of 
+   the players so as to prevent 'balance issues' as a result of the players 
+   joinining lay guilds that might provide too much advantage when combined 
+   with the Vampires (say Thieves and Necros).
+
+- bite: abilities/bite.c
+    
+    The vampire's main attack.  This is a standard attack which allows
+    selection of the specific hit location.  
+    
+    This uses the standard damage library, with combat aid set to 80.
+    
+    When a vampire bites their opponent, they open up a wound which
+    starts to bleed.  When the vampire bites that location once again,
+    they are able to drain a unit of blood - as long as the enemy has
+    blood to drink.  
+    
+    When drinking blood from a foe, the vampire absorbs some of their
+    traits on a temporary basis.  They borrow skills, atural
+    magic resistance, and haste, all of which decay along with the 
+    vampire's natural blood loss.
+    
+    A vampire chooses the skills which they drain, picking a major and
+    minor skill from each of the 4 categories (fighter, magic, thief,
+    general), and they can acquire up to 25 and 10 points of skill in
+    those areas.  This skill selection is configured prior to combat,
+    and drain automatically uses this.
+    
+    Natural resistance is borrowed, up to 25%, in the various categories.
+       
+    None of these drains reduce the enemy's skills or abilities.
+    
+    Combat aid:
+    
+    100% for bite damage using standard damage library (80% occ and 20% lay)
+    
+    22% for fighter-related skill drain.  
+    
+    This benefit can be calculated a few ways.  
+    
+    By combat aid:
+    
+       +25 weapon skill:  F_PENMOD(40,100)= 280
+                          F_PENMOD(40,75) = 241
+                          
+                          Improvement=16%
+       
+       +10 weapon skill:  F_PENMOD(40,85) = 256
+                          F_PENMOD(40,75) = 241
+                          
+                          Improvement=6%
+       
+       +25 defense:  cb_hit improved by 16% (based on 40 to_hit)
+       
+       This nets 22% combat aid, best case.
+       
+    By skill cost:
+    
+       +35 skill * 1.5 max fighter modifier * 4.0 max alien penalty
+       (2-handed and blindfighting would be * 2.0 modifier * 1.0 alien)
+       
+       210 skill points = 3.5% (the cost of 21% combat aid)
+   
+    We'll take the most expensive of the two.
+       
+    25% for magical resistances.  This only applies to magical combat, 
+       and is therefore only in effect when the fighter skills are not 
+       in effect, so the greater of (25%) and (22%) is applied, rather 
+       than (22%+25%).
+       
+       Magic resistance is taken using the doing query_prop(OBJ_I_RES_XXX) 
+       rather than using query_magic_res, so that only inherent magic 
+       resistance is borrowed (and not resistance from worn equipment).
+    
+   
+    +35 mage skills:  35 pts * max 1.0 modifier * 4.0 max alien penalty
+       120 taxable skill points = 2.0% tax
+    
+    +35 thief skills: 35 pts * max 1.0 modifier * 1.0 max alien penalty
+       35 taxable skill pts = 0.59% tax
+    
+    +35 general skills: 35 pts * max 1.0 modifier * 1.0 max alien penalty
+       35 taxable skill pts = 0.59% tax
+    
+   Total aid:  80% + 45% combat (13.33% + 7.5% tax), 3.18% non-combat 
+        
+      NB: The skill borrow/resistance borrow is paid for by the racial slot. 
+       This is treated as a vampiric trait, which makes the most sense as its 
+       racial ability.  This accounts for 7.35% of the tax. 
+      NB: The haste drain of 21% caid was initially paid for in the layman slot.  
+       As haste drain was removed, this caid was applied directly to bite instead,
+       with tax continuing to be applied in the lay slot.
+       Occ tax: 13.33 (occ) + (3.33 layman) + 7.35 (race) = 24.01
+
+
+    For the bloodguards, instead of borrowing 25 + 10 skills from each 
+    category, the bloodguard can use up to 10 + 6 skills.
+    
+    Their bite skill is trainable to 50 points, but the function reduces
+    damage to 40% combat aid.
+    
+    Shown above, 10 points of figher transate to 6% combat aid.  6 more 
+    will be roughly 3%, so we will charge 10% combat aid for this.
+    
+    For the other skills:
+    
+    16 mage: 16 * max 1.0 modifier * 4.0 max alien penalty
+    
+      64 taxable skill points = 1.1% tax
+    
+    16 thief: 16 * max 1.0 modifier * 1.0 max alien penalty
+
+      16 taxable skill points = 0.27% tax
+
+    16 general: 16 * max 1.0 modifier * 1.0 max alien penalty
+
+      16 taxable skill points = 0.27% tax
+    
+    10% for magical resistances.  This only applies to magical
+       combat, and is therefore only in effect when the fighter skills
+       are not in effect, so the greater of (10%) and 
+       (10%) is applied, rather than (10%+10%).
+    
+    Layman tax: 8.33% + 1.64% = 9.97%
+
+- flurry: abilities/flurry.c
+
+    Unleashes a string of 4 attacks to a single target with the weapon in 
+    hand.  This does 100% combat aid, and is occupational only.  It cannot 
+    be used at the same time as bite.
+
+
+- accelerated healing (hps): shadow/heal.c
+    Vampires heal at an accelerated rate provided that they are at < 50% thirst.
+
+    healing rate: F_HEAL_FORMULA((blood) / 2, vstat)
+
+    Also, 15% inherent poison resistance is included, as vampires are 
+    resistant to poison damage
+
+    Healing per 20 secs:
+
+        vstat       non-vampire   0% thirst     49% thirst
+    ======================================================================
+           1            5           10            7
+           6            7           11            8
+          11            9           12            9
+          16           12           13           10
+          21           14           14           10
+          26           16           15           11
+          31           18           16           12
+          36           21           18           13
+          41           23           19           14
+          46           25           20           14
+          51           27           21           15
+          56           30           22           16
+          61           32           23           17
+          66           34           24           18
+          71           36           25           18
+          76           39           27           19
+          81           41           28           20
+          86           43           29           21
+          91           45           30           22
+          96           48           31           23
+         101           50           32           23
+         106           52           33           24
+         111           54           34           25
+         116           57           36           26
+         121           59           37           27
+         126           61           38           27
+         131           63           39           28
+         136           66           40           29
+         141           68           41           30
+         146           70           42           31
+
+
+
+
+    tax: none, because this provides less than a normal player would get.
+
+    Note that these healing rates are well below those attainable
+    through alcohol, which provide no benefit to vampires.  They can
+    drink alcohol, or drinks, but it provides no benefit, and costs them
+    blood.
+
+- accelerated healing (fatigue): shadow/heal.c
+    Vampires heal fatigue at an accelerated rate provided that they are at < 50% thirst
+
+    healing rate: F_FATIGUE_FORMULA(base_thirst * 2, max_thirst)
+        
+    Healing per 60 sec:
+
+    thirst                Vampire        Normal Player
+    =================================================================================
+       1                     94             50                 
+       6                     89             50
+      11                     85             50
+      16                     80             50
+      21                     76             50
+      26                     71             50
+      31                     67             50
+      36                     62             50
+      41                     58             50
+      46                     53             50
+      51                     49             50
+      56                     44             50
+      61                     40             50
+      66                     35             50
+      71                     31             50
+      76                     26             50
+      81                     22             50
+      86                     17             50
+      91                     13             50
+      96                      8             50
+     100                      5             50
+
+    tax: 1.0
+
+    Note that these healing rates are well below those attainable
+    through food, which provide no benefit to vampires.  They can eat food,
+    but it will not fill their stomach, and this will cost them blood.
+
+
+-meld
+    The vampire melds with the ground, hiding from the sun.  They are moved 
+    into a temporary room underground where they are not burned.  This is
+    the same as the meld ability from the old guild, and is needed to keep 
+    players from being instantly killed by the sun, which can burn for upwards 
+    of 60 minutes straight in Middle Earth and DragonLance domains.
+    
+    A vampire cannot meld while in combat, and they cannot meld while moving.  
+    They must wait to be relaxed from combat before using this.
+    
+    tax: 0.75
+   
+- cling: 
+    Cling allows a vampire to automatically follow a living.  This is done
+    by shadowing move_living() on the target.  Whenever the target moves and
+    the follower is in the same room, a fairly complex calculation is done
+    (see the shadow listed above) which determines the delay between the
+    target's move and the follower's move.  If the follower loses track of
+    the target, he/she has 30 seconds to find the target again before the
+    cling ability is disabled.
+
+    difficulty:   TASK_DIFFICULT + 50  (if target is sneaking)
+                                 + 100 (for each person fighting the
+                                        vampire other than the target)
+    skill list:   (60% tracking, 40% Awareness), 50% Int, 50% dex
+    fatigue cost: 3 fatigue per move
+    tax:          1.25
+   
+    

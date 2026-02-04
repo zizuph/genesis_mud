@@ -1,0 +1,46 @@
+                     How to handle the horses. 
+        After you bought the horse you should name it by 
+           name horse <my_name> 
+        since then it will be a lot more difficult for others to steal it. 
+        You mount the horse with 
+           mount <my_name>|horse 
+        It is wise to use the name you gave to the horse because it will  
+        recognise you easier. It also helps if you are skillful of dealing  
+        with animals. When mounted you dismount with 
+           dismount 
+        You command the horse (when mounted) in certain directions with 
+           cmd <dir> 
+        The horse will then move one step in the (exit) direction <dir>. 
+        To make the horse run you use 
+           cmd <dir> <how> 
+        where <dir> is a direction and <how> is either 
+           slowly, gently, quickly, or rapidly 
+        which indicates the pace. The horse will then start to move, 
+        at the selected pace, in the direction <dir>. If the exit <dir> 
+        doesn't exist, it will try to move in neighbouring directions. 
+        For instance; 'cmd n gently' will also try ne and nw. The horse 
+        will stop when no exits are available. 
+        Moreover, it is usually impossible to ride the horse in an indoor 
+        room; this stable is one exception. 
+        Some other commands are: 
+           cmd halt                  will stop the horse from running 
+           cmd enter mist            may also work if allowed by the room 
+           board ship with horse     for ships (soon to be implemented) 
+           cmd disembark             for ships (soon to be implemented) 
+        Certain commands, i.e. shout and say, will be heard outside the 
+        horse. In its present version no emotional commands will be heard, 
+        but the rider will hear and see everything from the horse back. 
+
+        The 'cmd' part is not necessary now if the next argument is a 
+        direction or halt. Thus, the commands 
+           w quickly 
+           halt 
+        will work. Moreover, it is now possible to ride through gates, 
+        like the one up at the northern port. Also, if you happen to fall 
+        off the horse you may want to try 
+           halt <my_name> | horse 
+        when standing next to it. 
+
+        Cheers, The horse keeper 
+
+        PS. The use of bug/idea in this room will be most appreciated.

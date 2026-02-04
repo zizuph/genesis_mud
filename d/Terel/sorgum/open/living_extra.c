@@ -1,0 +1,143 @@
+/* This comment tells emacs to use c++-mode  -*- C++ -*- */
+
+/*
+ * Extra functionality for npcs
+ *
+ */
+
+#include "/d/Terel/include/Terel.h"
+
+/*
+ * Function name: query_object_list
+ * Description:   return list of objects to clone.
+ */
+public string*
+query_object_list()
+{
+    return ({ });
+}
+
+/*
+ * Function name: equip_me
+ * Description:   Give me some equipment.
+ */
+public void
+equip_me()
+{
+    int i;
+    string *list;
+    
+    FIX_EUID;
+
+    list = TO->query_object_list();
+    for (i = 0; i < sizeof(list); i++)
+	clone_object(list[i])->move(TO);
+}
+
+/*
+ * Function name: equip_actions
+ * Description:   Initial commands (e.g. wield sword)
+ */
+public void
+equip_actions()
+{
+    TO->command("wield all");
+    TO->command("wear all");
+}
+
+/*
+ * Function name: berate_wankers
+ * Description: Berate the spnking Solamnian Knights
+ */
+
+public string
+berate_wankers()
+{
+    object *oblist;
+    int i;
+    int wankers_here = 0;
+
+    oblist = all_inventory(ETO);
+    for (i = 0; i < sizeof(oblist); i++) {
+	if ((oblist[i]->query_guild_name_occ() == "Solamnian Knights") ||
+	    (oblist[i]->query_guild_name_lay() == "Solamnian Knights")) {
+	    wankers_here = 1;
+	    break;
+	}
+    }
+
+    if (wankers_here)
+	return "You spanking knights can take your Oath and your Measure " +
+	    "and shove 'em right up yer ass, where the sun ain't shining!";
+    else
+	return "I destroy those pitiful worshippers of Paladine!";
+}
+
+/*
+ * Function name: query_knight_prestige
+ * Description:   Prestige is used by Solamnian knights in Krynn.  We use the
+ *                formula suggested by Aridor.
+ * Returns:       the prestige value.
+ */
+public int
+query_knight_prestige()
+{
+    int stat_ave;
+
+    if (TO->query_alignment() < -10) {
+	stat_ave = TO->query_average_stat();
+	return (stat_ave * stat_ave) / 10;
+    }
+
+    return 0;
+}
+
+void
+set_spell_prop(object ob)
+{
+    TO->add_prop(LIVE_O_SPELL_ATTACK, ob);
+}
+
+/*
+ * query_my_enemies(): written by Mortricia
+ */
+
+public object *
+query_my_enemies()
+{
+    int i;
+    object *all, *enemies;
+
+    all = all_inventory(environment(TO));
+
+    enemies = ({ });
+    for (i=0; i<sizeof(all); i++) {
+	if (living(all[i]) && all[i] != TO &&
+	    member_array(TO, all[i]->query_enemy(-1)) >= 0) {
+	    enemies += ({ all[i] });
+        }
+    }
+    return enemies;
+}
+
+public mixed
+query_smallest_enemy()
+{
+    int i;
+    object *enemies;
+    object wuss;
+
+    enemies = TO->query_my_enemies();
+
+    if (sizeof(enemies) == 0) {
+	ME("No enemies");
+	return 0;
+    }
+
+    wuss = enemies[0];
+    for (i = 1; i < sizeof(enemies); i++)
+	if (wuss->query_average_stat() > enemies[i]->query_average_stat())
+	    wuss = enemies[i];
+
+    return wuss;
+}

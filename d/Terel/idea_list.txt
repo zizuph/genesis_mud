@@ -1,0 +1,91 @@
+Troll caves: /d/Terel/mountains/tcaves/
+ - on each spider add:  One gland = 1 dose of poison that can be used on a weapon
+ - Add a special corpse object for the behemoth that can be milked for hag quest
+ - add cocoons with killed adventurers
+ - You say: lets add a cave in at the entrance to the spiders                          
+      something not to obvious unless you examine the wall                          
+      then allow the adventurer to dig it clear                                     
+      then put a reset on it, to hide it after he/she leaves                        
+      'as you exit east, the ceiling falls sealing the cave'
+ - spiderkill.o file. when a player dies from a spider, a cocoon with
+    their descripton is added to the room.
+ - Add a silver,iron or gold mine?
+
+Weapons:
+ - very shiny shield (various magical effects when hit, blindness)
+
+Misc: 
+ - roving adventurer groups - campsites, inns', etc.
+ - wagon/caravan code
+ - random treasure generation system for Terel
+
+Old code review:
+
+/d/Terel/mountains/icetops/monster/adragon.c  -- possible recode of an ice
+dragon.
+
+/d/Terel/mountains/refuse.c - dig through bones clones:
+/d/Terel/mountains/obj/rd_amulet  -- possible red dragon quest?
+
+Mar  7 2006 /d/Terel/mountains/goblincave/cave22 (Tomas)
+add emote function to default monster and creature
+to query for combat and fail.
+
+Eldar should be more magical 'voodoo' than physical combat
+maybe poisonous dust blown onto attacker
+nasty stuff mainly.
+
+Perhaps necromancy could be used here. Eldar summons an undead skeleton
+who wields the obsidian longsword..
+
+
+PROJECTS:
+
+We have several projects in Terel that need work. I'll attempt
+to list them here.
+
+The first project that I would like to see added right away
+would be the new silver forest.
+
+Silver Forest: /d/Terel/silver_new/
+The Silver forest is rather huge but isn't random like the old
+version, which every once in awhile would load add_exits
+to the same room putting the player into an infinate loop. Very
+bad.. The forest still needs to be trimmed. When I created the
+map I created a rectangle on graph paper, so i'd like to remove
+some of the edges and create more of a valley shaped map
+with a well kept road passing from the northern Calathin gates
+to the cornerstone. I recoded Regata the witch and her cottage
+(the frog Azure place). And Rhyn added a randomly cloning
+exit to her new hovel so she'll move around throughout rooms
+in the forest (see the silver_new/include/defs.h file for details.)
+
+I also need a bandit grouping added to the forest, and guards
+both mounted and infantry patrolling the road along with wagons
+of merchants travelling from Calathin to Last and on up
+to the new Northern Terel area.
+
+Elderwood Forest: /d/Terel/mountains/elderwood
+The next area is another large forest beginning just north
+of the current tomb area and moors. I created this area a long
+time ago, but then left the domain and never finised it.
+The Elderwood leads to the plains which are home to refugee's
+from the Vale. The Vale is a small uncoded area north of Stone
+Keep overrun by the hoarde. The Hoarde would be various
+mountain critters such as frost giants, yeti things that
+are basically staving and have wandered down into the
+Vale looking for food. They basically have overrun the lands
+north of Stone keep.
+
+Stone Hold: /d/Terel/mountains/stronghld/
+Stone Hold is basically a Dwarven outpost or fort blocking
+the northern area of Terel from the south. Envision a large
+sheer sided mountain pass divided by massive walls north
+and south built by the dwarves.
+
+Maskyr Keep: (uncoded)
+Maskyr keep will be the new home of the LoD and the
+return of Mergula. Located on the sea coast out the east gate
+of Calathin, south of last and north of Dabaay long the coast.
+I big multi level tower full of quests and killing areas.
+

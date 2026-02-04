@@ -1,0 +1,63 @@
+
+
+Scry
+====================
+Guild type          : Occupational
+Effect              : Use the powers of telepathy to locate the blood of 
+                      a known prey.
+                      
+                      A vampire must have tasted the blood of the one they
+                      wish to scry. They can recall 1 to 10 people 
+                      (depending on guild stat), which is kept when they
+                      log out.  
+                      
+                      To taste the blood, they must use vlick on the target
+                      while they are either bleeding, or bad shape or 
+                      lower.
+                      
+                      A vampire can control who they recall using the 
+                      vrecall command, and a scry will make the target most 
+                      recently tasted.
+                      
+Spell Time          : Default (6 seconds/1 heartbeat)
+Mana cost           : 74
+Min Vamp Stat       : 70
+Difficulty          : TASK_ROUTINE 
+Peaceful            : No
+Stationary          : No
+Spell Class Level   : Class 2  -- Minor spells
+Area of effect      : One Living
+Duration            : Instant
+Somatic Component   : Blood (2 blood)
+Material Component  : Blood (Mana cost / 8)  = 9 blood
+Vocal Component     : Yes
+Tax                 : 0.50% (1.00% for layman)
+Combat Aid          : 0%
+Files               : spells/scry.c
+                      shadow/stalk.c
+
+
+Tax calculation:
+----------------
+Base tax for class 2 is 0.25% for occ spell.
+Double tax for half mana cost
+
+Tax: (0.25% ) * 2.0       = 0.50 %
+                            ===== 
+                           
+Mana calculation:
+Base mana for class 2 is 60-119.  
+Element skill: 30 points of SS_ELEMENT_AIR
+Form skill:    40 points of SS_FORM_DIVINATION
+
+Base Mana cost is 70
+
+Area of Effect - One object................................ x1
+Casting Time < 5 heartbeats................................ x1
+Difficulty (Routine )...................................... x1
+Duration instant (non-attack spell)........................ x0.7
+Area of Effect - Object in another room.................... x3
+Half mana cost............................................. x0.5
+
+
+70 * 1 * 1 * 1 * 0.7 * 3 * 0.5 = 74

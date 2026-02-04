@@ -1,0 +1,105 @@
+/*
+   /doc/examples/poison/spider.c
+   A demonstration of poison use in monsters.   The example is a spider
+   which has paralysis venom only -- the venom will fatigue, not kill.
+   Quis, 920620
+   Hehe not anymore with my version of this spider
+   Janus 921008
+*/
+/* Revisions: Lilith Oct 2021: Player notified me that these are way too 
+ *                    tough after the white hits change. I've reduced the 
+ *                    damage of the attack.
+ */
+
+#include "/d/Terel/include/Terel.h"
+inherit STDMONSTER;
+inherit "/std/combat/unarmed";
+
+#include <ss_types.h>
+#include <wa_types.h>
+#include <macros.h>
+#include <stdproperties.h>
+#include <poison_types.h>
+
+#define A_BITE  0
+
+#define H_BODY 0
+#define H_LEGS 1
+#define H_EYES 2
+#define H_HEAD 3
+
+create_monster() {
+
+     if (!IS_CLONE)return;
+    set_name(({"spider"}));
+    set_short("spider");
+    set_long(break_string("A enormous brown hairy spider. Black ichor drips "+
+    "from it's huge mandibles. You can see your reflection in several of the "+
+    "spider's eight eyes.\n",70));
+    set_adj(({"brown","hairy"}));
+    set_race_name("spider");
+    set_alignment(-35);
+    set_stats(({110,90,110,10,10,70}));
+    set_hp(4900);
+    set_gender(1);
+    set_skill(SS_CLIMB,random(25)+70);
+    set_skill(SS_DEFENCE,random(15)+50);
+    add_prop(OBJ_I_WEIGHT, 200000);
+    add_prop(OBJ_I_VOLUME, 200000);
+    add_prop(CONT_I_MAX_WEIGHT, 400000);
+    add_prop(CONT_I_MAX_VOLUME, 400000);
+    set_whimpy(1);
+    add_prop(LIVE_I_NEVERKNOWN, 1);
+    add_prop(OBJ_I_NO_INS, 1);
+    /* Wep_type,   to_hit,   pen,   Dam_type,   %usage,   attack_desc */
+	// Reducing damage due to white-hits changes.-Lilith
+    // set_attack_unarmed(A_BITE,   88, 60, W_IMPALE, 100, "jaws");
+    set_attack_unarmed(A_BITE,   30, 30, W_IMPALE, 100, "jaws");
+    /* Hit_loc,   *Ac (impale/slash/bludgeon),   %hit,   hit_desc */
+    set_hitloc_unarmed(H_BODY, ({  35,  35, 15 }), 60, "body");
+    set_hitloc_unarmed(H_EYES,({ 5, 5, 1 }), 10, "eyes");
+    set_hitloc_unarmed(H_HEAD,({ 20, 20, 10 }), 15, "head");
+    set_hitloc_unarmed(H_LEGS,({ 35, 35, 35 }), 15, "legs");
+    AGGRESSIVE;
+}
+/*
+ * Function name: cr_did_hit
+ * Description:   This function is called from the combat object to give
+ *                appropriate messages.  We shall remain content to let 
+ *                the default messages be sent, but we will give poison 
+ *                to the hit creature.
+ * Arguments:     aid:   The attack id
+ *                hdesc: The hitlocation description.
+ *                phurt: The %hurt made on the enemy
+ *                enemy: The enemy who got hit
+ *                dt:    The current damagetype
+ *                phit:  The %success that we made with our weapon
+ *                       If this is negative, it indicates fail
+ */
+
+int
+cr_did_hit(int aid, string hdesc, int phurt, object enemy, int dt, int phit)
+{
+    object poison;
+
+/* I believe the spider poisons the player each bite. it should of course
+ * be harder to poison the player again and again, Nick */
+
+    if(aid==A_BITE) {
+        write("Your fangs bite deep!\n");
+        tell_object(enemy, "The spider's fangs bite deep!\n");
+        
+        poison = clone_object("/std/poison_effect");
+        if(poison) {
+            poison->move(enemy);
+            poison->set_time(1000);
+            poison->set_interval(100);
+            poison->set_strength(100);
+            poison->set_damage(({POISON_FATIGUE, 100, POISON_STAT, SS_CON }));
+            poison->start_poison();
+
+        }
+    }
+
+    return 0;
+}

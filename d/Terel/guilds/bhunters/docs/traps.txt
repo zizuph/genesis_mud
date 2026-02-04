@@ -1,0 +1,132 @@
+Traps ideas:
+
+  Only one trap can be placed per room. Laying a trap
+checks special 'traps' skill on bounty hunter.
+  Avoiding the trap checks find/remove traps on victim,
+difficulty of that test is determined on score hunter
+got in his when placing it.
+  All trap elements must be carried with hunter to
+lay it. Elements can be bought at guild shop, but
+for special coins rather then normal currency.
+Those special coins can be earned for bounties
+(one coin for every 50pc of reward), they are also
+given to each guild member periodicaly in small
+amount (like 10 per reboot).
+Prices in those special coins are listed in square 
+brackets below.
+
+  Every trap takes from 2 to 5 minutes to set.
+
+ - brear trap -
+
+A simple snare. Like hunters used to use for animals.
+Trap is chained to heavy iron ball.
+
+Effects:
+o Very heavy (50k-200k) iron ball enters victim's inventory
+ and can't be dropped.
+o Every move couse damage according to balls weight.
+
+Elements: 
+o Iron ball (comes in various sizes) [1-4]
+o Chain [1]
+o Snare [2]
+
+Way of removing:
+o Command added to traget, takes 3-5 minutes of standing
+ still to remove it using it.
+
+  ---
+
+ - pepper spray -
+
+Victim triggers a mechanism that sprays pepper into
+air, blinding everyone in the location.
+
+Effects:
+o 0-2 minutes of blind, based on 'saving-throw' on
+  dex and defence.
+
+Elemets:
+o Pepper [2]
+o Trigger mechanism [1]
+
+ ---
+
+
+ - pitfall -
+
+Not to deep, comuflaged, hole in the ground.
+
+Effects:
+o If victim is mounted:
+ Cousing mount to collpase, making it run away afterwards.
+o 5-10 seconds of stun otherwise.
+
+Elements:
+o Shovel [1] //can be used more then once.
+
+ ---
+
+ 
+ - poisoned dartgun - 
+
+A hidden dartgun, triggered by enemy passing by.
+
+Effects:
+o Poison effects.
+
+Elements:
+o Dartgun [2]
+o Poison [1-4]
+o Trigger mechanism [1]
+
+ ---
+
+ - elctricic shock -
+
+A wire with electric current, shocking victim.
+
+Effects:
+o Small damage
+o Makes casting spell harder for a victim for next
+ 3-5 minutes.
+
+Elemets:
+o Wire [1]
+o Charge (something magical I guess) [3]
+
+ ---
+
+ - paint trap -
+
+A bucket of bright coloured paint of intensive smell
+falling on passing victim.
+
+Effects:
+o Practical joke ;]
+o Makes sneaking/hiding much harder. for enemy
+o Makes going invis impossible for enemy.
+
+Elemets:
+o Backet of paint [1]
+o Trigger mechanism [1]
+
+Way of removing:
+Cleaning oneself in current water. (instant)
+
+ ---
+
+ - alarm -
+
+A magical alarm informing hunter someone enter that
+location. It can be set in a room with another trap.
+
+Effects:
+o Informs bounty hunter.
+
+Elemets:
+o Alarm [1]
+o Trigger mechanism [1]
+
+ ---

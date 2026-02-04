@@ -1,0 +1,51 @@
+/* This comment tells emacs to use c++-mode -*- C++ -*- */
+
+/*
+ * square3_1
+ *
+ * Town square, Mid-South side
+ * Goldberry October 13, 1999 
+ */
+
+#include "/d/Terel/include/Terel.h"
+#define DAB_TOWN DABAAY_DIR + "town/"
+
+inherit DAB_TOWN + "town_room";
+
+/*
+ * Function name: create_room
+ * Description:   Default constructor
+ */
+public void
+create_room()
+{
+    ::create_room();
+    set_short("In the middle of a fishing village");
+    set_long(
+        "You are in the middle of a small fishing village. "+
+        "Directly to your west is the local post office. "+
+        "Out to the east, you can see a deep blue ocean. "+
+        "Near by to the north and east, is what appears to "+
+        "be a large bay.\n");
+    
+    add_item(({"post office","post","office"}),
+        "To your west is a building that is the local post "+
+        "office. You can check to see if they have any letters "+
+        "waiting there for you, or you can send out your own.\n");
+
+    add_item(({"ships"}),	
+        "They are a bit too far away to make out any details, but "+
+        "some appear to be docked along the boardwalk.\n");
+
+    add_item(({"boardwalk","wooden boardwalk"}),
+        "A wooden walkway, bustling with the activities of a fishing "+
+        "port.\n");
+
+    add_exit(DAB_TOWN + "square2_5", "north", 0);
+    add_exit(DAB_TOWN + "square3_4", "south", 0);
+    add_exit(DAB_TOWN + "square3_2", "east", 0);
+    add_exit(DAB_TOWN + "dpost", "west", 0);
+    add_exit(DAB_TOWN + "square2_6", "northeast", 0);
+    add_exit(DAB_TOWN + "square2_4", "northwest", 0);
+    add_exit(DAB_TOWN + "square3_5", "southeast", 0);
+}

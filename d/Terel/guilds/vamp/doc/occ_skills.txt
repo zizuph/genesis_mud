@@ -1,0 +1,49 @@
+
+Occupational (ranger)
+
+  -skills:        max level   untaxed   tax levels    taxable levels
+
+  o flurry           100        100           0            0
+  o savage           100        100           0            0
+  
+  o sword             75         30          45           63
+  o unarmed           75         30          45           63
+  o club              75         30          45           63
+  o polearm           75         30          45           63
+  o axe               75         30          45           63
+
+  o defence           75         20          55           83
+  o parry             75          0          75           113
+  o blindfighting     50         20          30           60
+
+  o awareness         75         30          45           45
+  o tracking          75         30          45           45
+  
+  o spellcraft        75         20          55           55
+
+  Sum               1000        470         530          716 (12.0%) 
+
+  Layman (ranger)
+
+  o air               60         20          40           40
+  o death             40         20          20           20
+  o divination        40          0          40           40
+  o enchantment       40          0          40           40
+  o illusion          60          0          60           60
+  o conjuration       60          0          60           60
+  o language          60         30          30           30
+  o knife             60         30          30           30
+  
+  Sum                420        100         320          320 (5.4%)
+
+  Race (generic)
+  
+  o app monster       50         30          20           20
+  o location sense    50         30          20           20 
+  o climb             50         30          20           20
+  o swim              50         30          20           20
+  o trading           50         30          20           20
+  
+  Sum                250        150         100          100 (1.67%)
+
+Total skills:  950 out of 1050 allowed  (19.07%)

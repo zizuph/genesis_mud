@@ -1,0 +1,88 @@
+Penalties
+==========
+
+- sunlight: shadow/sunlight.c
+
+    The vampire takes damage from sunlight in two forms - both as a CON
+    drain and also physical damage.  
+    
+    A typical room in Middle Earth and Krynn adds 30 levels of sunlight
+    at noon - some add 40.
+    
+    The potential CON drain to the vampire is (sunlight * 2) % - meaning
+    that a vampire potentially takes a 60-80% CON drain while in the
+    sun at noon.  They lose CON at a speed of 1 point per 5 seconds.
+    
+    The sunlight also does damage every 5 seconds as well.  30 sunlight
+    will cause 12 points of damage every 5 seconds.
+    
+    The vampire has two ways to mitigate this effect.  First, they get
+    (vamp stat/10)% resistance - meaning an 100 avg vampire will only
+    take 50% CON drain. Even the strongest vampires at 300 ag will
+    still take 30% CON drain.
+    
+    Second, local darkness on a vampire can mitigate some of the effects.
+    Every level of darkness that a vampire carries can reduce the
+    effects by 5 levels of sunlight.  This means for a vampire carrying
+    one level of darkness, they would receive a 40% CON drain at noon.
+    
+    Due to the fact that the potential CON drain is often in the 40-50%
+    range, I have applied a 2% tax reduction.  50% CON drain is certainly
+    more of a penalty than the 12% combat aid that 2% tax would pay for.
+    
+    
+- blood: shadow/blood.c
+
+    Every ability that the vampire uses will cost blood.  This is 
+    typically at a rate of (mana / 4) for each spell they cast.  There
+    are af few exceptions which charge mana / 8.
+    
+    A vampire has a maximum of 40 + guild stat worth of blood that they
+    can hold at any time.  Compared to mana, they only get 1/10 as much
+    blood as they do mana - meaning the blood cost for all abilities is
+    more taxing bloodwise than manawise.
+    
+    A lack of blood will cause several effects.  First, they must have
+    blood to pay for their abilities.   Second, their fatigue and health
+    regeneration rates are tied directly to their blood level.  Third,
+    if their blood drops below 0, they will experience torpor.  In torpor,
+    ALL their skills (save bite) will be drained by one point per missing 
+    point of blood.  Deep enough torpor can potentially push their entire
+    skills to novice.
+    
+    A vampire also pays blood for 3 more things - moving, being in combat
+    and being in the sun.  Every (vamp stat*2) seconds, the vampire is
+    checked whether they are in combat, in the sun, or have moved since
+    last checked.  For each of these, one point of blood is drained.  If
+    they have not moved, they have a 1 in 15 chance of also randomly 
+    losing a unit of blood.  Drained abilities (skills/resistance/etc)
+    will also vanish at a rate of one point, if they experienced this blood
+    loss.
+    
+    Blood loss is prevented in a few select locations (in meld, and in the
+    coffin), as to allow vampires to idle without being wiped dry.
+    
+    Blood is gained through the use of the bite ability.  They must first
+    make a bite wound, and then bite that spot again to gain a point of
+    blood.  If they kill an enemy with bite, they recover 3 units of blood.
+    
+    Due to the fact that the vampires are heavily dependant on blood, and
+    the risk of torpor could drop all their skills to novice, I have 
+    applied a 2% tax reduction to the layman slot.
+    
+- undead:
+
+    Vampires are undead, which for many areas of Genesis carry along
+    extra penalties.  Many artifacts specifically harm undead, and there
+    are large areas of the game that are inaccessible to undead.
+    
+    Vampires do not get to enjoy the benefits of intoxication or having
+    a full stomach, as well.
+    
+    This is not as heavy a penalty as the blood requirement or sunlight,
+    so I am taking a tax reduction of 1% to the race slot.
+    
+    
+    
+    
+    

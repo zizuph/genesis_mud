@@ -1,0 +1,80 @@
+
+Obfuscate
+====================
+Guild type          : Occupational
+Effect              : Obfuscate allows a vampire to hide their presence 
+                      through mental prowess.  When active, every living 
+                      creature that comes into contact with them has a 
+                      resolve_task based on opposing mental abilities.  
+                      Bonuses are given for invisibility sight, and non-
+                      humanoid nature. If success, the vampire is seen as 
+                      usual, but if failure, the vampire is hidden for up 
+                      to 5 minutes from that target. A vampire can cast 
+                      this spell again, with a specific single target, if 
+                      they wish to try harder to hide from that target.
+    
+                      This effect is blocked in combat - anyone fighting 
+                      the vampire will always see through the effect.  
+                      There is therefore no blindfighting bonus from this 
+                      skill.
+
+                      The mental test is presently:
+                      if (player->resolve_task(TASK_SIMPLE, 
+                      ({SS_AWARENESS, TS_INT, TS_WIS, SS_FORM_ILLUSION }),
+                      vampire,
+                      ({SS_AWARENESS, TS_INT, TS_WIS, SS_FORM_ILLUSION }))
+                      > vampire->query_vamp_stat()/2) 
+
+                      The resolve_task is reduced by 50 points when the
+                      player has invis sight, and 100 points when the
+                      player is not humanoid.  This leads to roughly an
+                      75% chance of seeing through the illusion, given
+                      equal stats, skills, and 0 vamp stat, and 42% at
+                      100 vamp stat.
+
+                      
+Spell Time          : Default (6 seconds/1 heartbeat)
+Mana cost           : 45
+Min Vamp Stat       : 100
+Difficulty          : TASK_DIFFICULT
+Peaceful            : Yes
+Stationary          : No
+Spell Class Level   : Class 3  -- Advanced
+Area of effect      : One object
+Duration            : > 10 minutes
+Somatic Component   : Blood (2 units)
+Material Component  : Blood (mana / 4) (13 units)
+Vocal Component     : Yes  // Petros changed this to No in Feb 2009 I've NO IDEA WHY!! - Lilith
+Tax                 : 1.00%  (layman 2.0%)
+Combat Aid          : 0%
+
+Files               : spells/obfuscate.c
+                      spells/obj/obfuscate_obj.c
+                      shadow/stalk.c
+
+
+Tax calculation:
+----------------
+Base tax for class 3 is 0.50% for occ spell.
+Base tax for class 3 is 1.00% for lay spell.
+
+Modifier x2 for reducing mana.
+
+Occ Tax: (0.50% ) * 2.0                 = 1.00 %
+                             
+                                     
+Mana calculation:
+Base mana for class 3 is 120-159.  
+Element skill: 60 points of SS_ELEMENT_AIR
+Form skill:    60 points of SS_FORM_ILLUSION
+
+Base Mana cost is 120
+                                     
+Area of Effect - caster.................................... x1
+Casting Time < 5 heartbeats................................ x1
+Duration > 10 minutes...................................... x1.5
+Difficulty (Difficult)..................................... x0.5
+Reduction by increased x2 tax.............................. x0.5 
+
+120 * 1 * 1 * 1.5 * 0.5 * 0.5 = 45
+

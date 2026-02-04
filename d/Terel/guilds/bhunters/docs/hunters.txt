@@ -1,0 +1,48 @@
+Bounty Hunters
+
+ Theme:
+
+Guild members dedicate themselves to hunting and
+killing players for bounty. There are no rules
+or guildlines of behavior for them, altough those
+who don't claim rewards often enough will be limited
+in using guild abilities. Only players who recieved
+at least one reward in bounty hunters office are
+allowed to join. (That include those who achieved
+that before the guild is opened)
+
+
+ Guild abilities:
+
+Members are able to buy special items in guild shop,
+those can be used to set various traps listed and
+described in separate document. Trap elements can't be
+bought for ordinary money but for special coins.
+Each member can get small amount of those coins periodicaly
+in guild startloc (10 per reboot). More of them are
+given to player every time he claims a reward in
+bounty hunters office (1 coin for every 50 pc of bounty
+claimed).
+
+  Other:
+
+Few special effects will apply to bounty hunters at the
+office in Last (/d/Terel/last/bounty_office.c)
+
+- guild members can't place rewards.
+- guild member can 'declare hunt' there, so given wanted
+ poster is removed and none else interferes.
+- guild members can view a list of bounties in any location.
+- at the tavern in town of Last bounty hunters can 'ask
+ for rumors' about specific player with reward for, and will
+ get name of the domain that player is currently in.
+
+For tax calculations see:
+/d/Terel/guilds/bhunters/docs/tax.txt
+For traps list see:
+/d/Terel/guilds/bhunters/docs/traps.txt
+(tax document doesn't include calculations for traps, at the
+moment I don't which of them and in what form will be accepted
+by AoB office)
+
+ Udana 05/06

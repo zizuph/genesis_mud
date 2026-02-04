@@ -1,0 +1,14 @@
+
+  -skills:        max level   untaxed   tax levels    taxable levels
+
+  Layman (fighter)
+
+  o savage           100        100           0            0
+
+  o awareness         60         30          30           30
+  o tracking          60         30          30           30
+  o location sense    60         30          30           30 
+  o appraise monster  60         30          30           30
+  Sum                340        220         120          120 (2.0%)
+
+Total skills:  120 out of 350 allowed  (2.0%)

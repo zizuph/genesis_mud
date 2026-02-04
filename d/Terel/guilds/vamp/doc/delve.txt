@@ -1,0 +1,54 @@
+
+
+Delve
+====================
+Guild type          : Occupational
+Effect              : The caster casts identify on an item to learn of
+                      its properties. It will give an appraisal of the
+                      item, and show whether the object is magical or not.
+                      No further details are given - these are left to full
+                      Mage guilds.
+                      
+Spell Time          : 10 seconds
+Mana cost           : 32
+Min Vamp Stat       : 80
+Difficulty          : TASK_ROUTINE 
+Peaceful            : Yes
+Stationary          : Yes
+Spell Class Level   : Class 2  -- Basic
+Area of effect      : One object
+Duration            : instant (non-attack spell)
+Somatic Component   : Blood (2 blood)
+Material Component  : Blood (Mana / 4) (8 blood)
+Vocal Component     : Yes
+Tax                 : 0.25% (layman 0.50%)
+Combat Aid          : 0%
+Files               : spells/delve.c
+
+
+Tax calculation:
+----------------
+Base tax for class 2 is 0.25% for occ spell.
+Base tax for class 2 is 0.50% for lay spell.
+
+Occ Tax: (0.25% )                    = 0.25 %
+                                     ======                         
+
+Lay Tax: (0.50% )                    = 0.50 %
+                                      ======                         
+
+Mana calculation:
+----------------
+Base mana for class 2 is 60-119.  
+Element skill: 40 points of SS_ELEMENT_AIR
+Form skill:    40 points of SS_FORM_DIVINATION
+
+Base Mana cost is 80
+
+Area of Effect - One object................................ x1
+Casting Time < 5 heartbeats................................ x1
+Difficulty (Difficult)..................................... x0.5
+Duration instant (non-attack spell)........................ x0.7
+
+80 * 1 * 1 * 0.5 * 0.8 = 32
+

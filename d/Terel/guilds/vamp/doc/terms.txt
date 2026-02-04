@@ -1,0 +1,100 @@
+Terms
+======
+
+missing blood         Measure of a vampire's need to drink blood.
+                      Thirst increases normally at a rate of one per
+                      1100 seconds, but is increased when the vampire
+                      moves or engages in combat.  Thirst is reduced
+                      by drinking blood.
+
+max blood             Max blood is the level of blood which the vampire
+                      can store before becoming thirsty.  When this reaches 
+                      zero, vampire abilities will fail, and vampire skills 
+                      will fall - entering torpor.
+                      A vampire's max blood is calculated with
+                      the following formula:
+
+                      vstat + 40
+
+thirst                max blood -missing blood / max blood * 100
+
+torpor                A vampire in torpor is paralyzed, unable to
+                      use vampire abilities, and all skills are 
+                      reduced by one point per point of thirst.
+                      The only way to come out of torpor is
+                      to reduce thirst.
+
+sunlight              Levels of sunlight in a lit room is determined
+                      by checking the "_room_i_sunlight" prop in the
+                      room.  In the prop is absent, sunlight is determined
+                      using the ROOM_I_LIGHT prop in outside rooms.  Indoor
+                      rooms without the "_room_i_sunlight" prop are assumed
+                      to have no sunlight.
+
+sunlight damage       The base amount of damage being applied to a 
+                      vampire per 5 second interval as a result of
+                      sunlight exposure.  Sunlight damage is calculated 
+                      using the following formula:
+
+                      sunlight * 2 
+                      
+                      This has two effects:
+                      
+                      CON drain: The vampire's con will decrease by one
+                      point every 5 seconds until (sunlight damage)% * CON
+                      has been removed.  When out of the sun, the CON
+                      returns at a rate of 1 point per 5 seconds.
+                      
+                      Direct damage:  The vampire will take (sunlight 
+                      damage)/5 damage as well.
+                      
+                      eg:  30 levels of sunlight can reduce a vampire by
+                      60% con, and does 12 HP of damage every 5 seconds.
+                      
+
+sunlight resistance   The amount of sunlight damage a vampire can ignore.
+                      This value is subtracted from the sunlight damage
+                      to find the con drain and direct damage actually
+                      given by sunlight.  Sunlight resistance is calculated
+                      using the following formula:
+
+                      vstat /10 
+
+                      where vstat is the vampire's vamp stat.
+                      
+                      Also, a vampire carrying darkness can ignore a 
+                      portion of the sunlight.  The formula for this is:
+                      
+                      (local darkness level)/(room light level) *
+                      (sunlight damage)
+
+sunlight modifier     A value representing negative effects of
+                      sunlight in general.  This is generally applied
+                      as a negative modifier on various vampire ability
+                      tests when he/she is exposed to sunlight.  Sunlight
+                      modifier is calculated using the following formula:
+
+                      (sunlight damage)
+
+effective vamp stat   This value is used for most ability tests.  It
+                      is calculated using the following formula:
+
+                      bvstat - sunmod - thirst
+
+                      where bvstat is the guild stat, sunmod is the 
+                      current sunlight modifier, and thirst is the 
+                      vampire's thirst modifier.
+
+power check           When a vampire tries to use a vampire ability,
+                      the resolve_task on the ability is modified by the
+                      power level.  The power level is in essence the
+                      minimum vamp stat required to use the ability.  When
+                      the vampire does not have the requirement, they will 
+                      fail to start the ability.  The resolve_task for the 
+                      spell is reduced by 1 point per point of missing vamp 
+                      stat, translating into roughly 5 points of 
+                      effectiveness reduction per point of missing stat.
+
+power level           The level of the power check required to use a vampire
+                      ability successfully.
+

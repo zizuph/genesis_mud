@@ -1,0 +1,164 @@
+TOTAL TAX: 1.9 + 5 = 6.9 ~ 7
+
+
+
+ - mudlib skills:   max level   untaxed   tax levels    tax in %
+
+ G awareness         60         30          30           0.5
+ T f/r traps         60         20          40           0.6
+ G loc sense         50         30          20           0.1
+ G climb             40         30          10           0.1
+ G tracking          60         30          30           0.5
+ G hunting           50         30          20           0.1
+
+ Sum                320                    150           1.9
+
+
+traps:
+
+Instead of taxing particular traps I decided to tax the
+required skill (with 4.0 modifier):
+
+ set traps	     75		0	    75		5.0			
+
+
+Traps cost, to reduce number of traps in game I designed trap
+components system. Traps are built from components, that
+are available in guild shop (Only those components are there, so
+I added no tax for that shop). Traps can't be bounght for
+money but special tokens.
+
+Each member gets 20 of those tokens plus twice his
+rank in guild, once an arma (only if he logs on during it).
+(Rank can only be gained by collecting bounties
+in office in Last - one rank per one killed player)
+
+For example, characted who killed 2 players for rewards,
+will get 24 tokens each arma, which is enough for 
+compliting 4-12 traps.
+
+Traps' effects are powerfull, but also very hard to use
+Guild member would have to predict where victim is going,
+and be sure no third person would trigger the trap.
+
+To make it slightly easier to use traps, I've added alarm
+(costs one token in guild shop) that, when attached to the
+trap will notify it's owner when trap is triggered. 
+
+
+
+foothold trap:
+
+ Trap have 3 variants, each have different cost and effects
+strength.
+ The trap burdens victim components are accordingly heavy.
+
+Cost: 4/5/6
+
+
+chance of seting: task(650, avg(100, 100, 100), 100) ~ 75%
+chance of avoiding: task(900, 50, 100, 50) ~ task(800, 100, 100) ~ 67%
+chance of catching = 75% * 33% ~ 25%
+
+trap does: 
+	-20/40/80 hp for move_living call
+	30/60/90 kg item that can't be droppen given to victim
+
+	effects ends after using added action, that can't
+	be performed in combat.
+
+					
+
+pepper-spray trap:
+
+Cost: 3
+
+Chance of seting: task(600, 100, 100) ~	85%
+Chance of avoiding: task(800, 50, 100, 50) ~ task(700, 100, 100) ~ 70%
+chance of catching: 85% * 30% ~ 25%
+
+
+trap does:
+	blinds everyone in the room
+	blind lasts: ~ 100 seconds. 
+
+	Effects apply to every person in the room, including player
+	who set the trap if he's there.
+
+					
+
+poisoned dartgun trap:
+
+Cost: 4
+
+Chance of seting: task(600, 100, 100) ~	85%
+Chance of avoiding: task(800, 50, 100, 50) ~ task(700, 100, 100) ~ 70%
+chance of catching: 85% * 30% ~ 25%
+
+trap does:
+	poisons victim (interval: 20, time: 1500, fatigue: 200, hp: 50, strength: 50)
+	makes victim unable to eat and drink while poison is active.
+
+
+					
+
+
+paint trap:
+
+Cost: 2
+
+Chance of seting: task(600, 100, 100) ~	85%
+Chance of avoiding: task(900, 50, 100, 50) ~ task(800, 100, 100) ~ 67%
+Chance of catching: ~ 28%
+
+trap does:
+	reduces to 0 target sneak and hide
+	makes target unable to become invisible
+
+	victim can end effects by cleaning him/herself using
+	running water.
+	
+					
+
+electric shock trap:
+
+Cost: 3
+
+Chance of seting: task(600, 100, 100) ~	85%
+Chance of avoiding: task(800, 50, 100, 50) ~ task(700, 100, 100) ~ 70%
+chance of catching: 85% * 30% ~ 25%
+
+trap does:
+	reduces victim's mana by 50% (minus electric resistance)
+	reduces victim's spellcraft by 25
+	lasts ~ 100 seconds
+
+					
+	
+
+					
+pitfall trap:
+
+Cost: 2 (can be digged multiple time with same components, 
+	disappears by itself after certain amount of time.)
+
+Chance of seting: task(500, 100, 100) ~	98%%
+Chance of avoiding: task(800, 50, 100, 50) ~ task(700, 100, 100) ~ 70%
+chance of catching: 98% * 30% ~ 30%
+ca reduction: 70%
+
+trap does:
+	if victim isn't mounted:
+		25 seconds stun
+	if victim is mounted:
+		40 seconds stun
+		-210 hp
+
+					
+			
+								
+
+	
+
+			
+	

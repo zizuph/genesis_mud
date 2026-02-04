@@ -1,0 +1,54 @@
+
+
+Dash
+====================
+Guild type          : Occupational
+Effect              : Dash allows a vampire to leave a room with such 
+                      speed as to seem invisible.  This is achieved by 
+                      giving the set_no_see for a moment while he/she exits 
+                      a room.  For effect, the vampire turns to mist during 
+                      this process.  The vampire exits the room, leaving no 
+                      footprints and masking their exit as a cloud of mist.
+                      
+                      The vampire returns to being visible in the next 
+                      room.
+                      
+Spell Time          : 1 second
+Mana cost           : 30
+Minimum Vamp Stat   : 45
+Difficulty          : TASK_ROUTINE 
+Peaceful            : No
+Stationary          : No
+Spell Class Level   : Class 1  -- Basic
+Area of effect      : One Living
+Duration            : 1 second
+Somatic Component   : Blood (2 blood)
+Material Component  : Blood (Mana / 4) = 8 blood
+Vocal Component     : No
+Tax                 : 0.30%
+Combat Aid          : 0%
+Files               : spells/dash.c
+
+Tax calculation:
+----------------
+Base tax for class 1 is 0.10% for occ spell.
+Missing 1 component:   150% normal cost.
+Modifier x2 for reducing mana.
+
+Tax: (0.10% * 1.5) * 2.0      = 0.30 %
+                                =====                         
+
+Mana calculation:
+Base mana for class 1 is 20-59.  
+Element skill: 10 points of SS_ELEMENT_AIR
+Form skill:    10 points of SS_FORM_CONJURATION
+
+Base Mana cost is 20.
+
+Area of Effect - One object................................ x1
+Difficulty (Routine )...................................... x1
+Components (no verbal)..................................... x1.5
+Cast time <1 heartbeat......................................x2.0
+Reduction by increased x2 tax.............................. x0.5 
+
+20 * 1 * 1 * 1.5 * 2.0 * 0.5 = 30

@@ -1,0 +1,591 @@
+/* modified by Lilith, 23 Oct 2008
+ *   fixed bug  if (member_array(skill,ALLOWED_SKILLSgeneral)) (line 288) 
+ *   to    if (member_array(skill,ALLOWED_SKILLSgeneral)>=0) 
+ *  Lilith 10 Nov 2008
+ *   -fixed bug in load drains that created negative resistances.
+ *  Balance Team February 2009
+ *   -moved skill and resistance drain out of shadow, into object.
+ *  Petros November 2009
+ *   -made it so that drain is equal. blood does not multiply. 100% chance
+ *    of loss of blood when someone is draining. Some minor changes to make
+ *    drain better.
+ */
+#include <tasks.h>     /* For difficulty and stat defines */
+#include <ss_types.h>  /* For skill defines */
+#include <stdproperties.h> /* For standard properties */
+#include <macros.h> /* For macros */
+#include <filter_funs.h> /* For easy filters */
+
+#include "../defs.h"
+
+#define DRINK_HP        25
+#define DRINK_MANA       5
+#define DRINK_FATIGUE    2
+#define DRINK_INTERVAL 2.0
+
+#define LIVE_M_NO_DRAIN "_live_m_no_drain"
+
+#define DRAINER_SUBLOC "drainer_subloc"
+#define DRAINEE_SUBLOC "drainee_subloc"
+
+string * Current_vision;
+int Vision_index;
+int Vision_alarmid;
+
+static int drain_alarm, times;
+static object drainee;
+
+// Added February 2009 as part of Balance Review
+static object drain_object;
+#define DRAIN_OBJECT        (OBJ_DIR + "drain_object")
+
+void do_vamp_drink();
+void release_vamp_drainee(int silent);
+void desc_vamp_drink();
+
+/*
+ * Drain Skill and Resistance has been moved to an object and calculations
+ * redone as part of Balance Review. February 2009
+ * Rationale:
+     Contrary to the documentation, it is possible (and advantageous)
+     for a Vampire to make use of drained skills and drained resistances
+     at the same time. The documentation states that since they cannot
+     be used simultaneously, that only the higher of the two (resistance)
+     will be taxed. Tax calculations will be changed to tax these two
+     aspects of drain separately, which will result in either a reduction
+     of aid elsewhere in their abilities, or a reduction of the power
+     of these types of drain.
+
+     The Vampire resistance drain is currently done additively, which
+     results in much more aid than the correct multiplicative
+     method would provide. Resistance drain will therefore be changed
+     to be done multiplicatively, which will provide the correct amount
+     of aid and synch properly with other drained resistances and/or
+     resistances from outside objects they may acquire.
+  */
+
+public void
+ensure_drain_object()
+{    
+    drain_object = present("_hidden_vamp_drain_object", QSW);
+    if (!objectp(drain_object))
+    {
+        setuid();
+        seteuid(getuid());        
+        drain_object = clone_object(DRAIN_OBJECT);
+        drain_object->move(QSW, 1);
+    }
+}
+
+public void 
+set_drain_focus(string type, int * val)
+{
+    mapping drain_focus;
+    
+    drain_focus = query_manager()->query_drain_focus(QSW);
+    if (!drain_focus)
+    {
+        // Focus was never set in the first place
+        drain_focus = ([ ]);    
+    }
+    switch (type)
+    {
+        case "martial":
+        case "mental":
+        case "rogue":
+        case "general":
+           break;
+        default:
+            return;
+    }
+    drain_focus[type] = val;
+    query_manager()->set_drain_focus(QSW, drain_focus);
+    
+    ensure_drain_object();    
+    if (objectp(drain_object))
+    {
+        drain_object->update_skill_extras();
+    }
+}
+
+public int * 
+query_drain_focus(string type)
+{
+    mapping drain_focus;
+    
+    drain_focus = query_manager()->query_drain_focus(QSW);
+    if (IN_ARRAY(type, m_indices(drain_focus)))
+    {
+        return drain_focus[type];
+    }    
+    return ({ });
+}
+
+public void 
+load_drains()
+{
+    // To load the drains, we clone the drain object and move it
+    // to the vampire.
+    ensure_drain_object();
+}
+
+public void drain_blood(object enemy)
+{
+    if (!objectp(enemy))
+    {
+        return;
+    }
+    
+    TO->add_blood(1+random(2));
+    if (interactive(enemy) && !enemy->query_wiz_level())
+    {
+        TO->add_tasted_blood(enemy->query_real_name());
+    }
+   
+    ensure_drain_object();
+    if (objectp(drain_object))
+    {
+        // The drain object handles all the skills and resistance changes
+        drain_object->add_blood_drains(enemy);
+    }
+}
+
+/*
+ * Function name: reduce_blood_skills
+ * Description:   reduces all borrowed skills and resistances
+ */
+public void 
+reduce_blood_skills()
+{
+    ensure_drain_object();
+    if (objectp(drain_object))
+    {
+        // Simply call the object and have it take care of everything.
+        drain_object->reduce_blood_drains();
+    }        
+}
+
+/*
+ * Removed masked call as part of Balance Review, February 2009.
+ * Rationale:
+ *  An undocumented feature exists which sends a useful messages to
+ *  Vampires when magic resistance is being checked against them.
+ *  Similarly, a message is generated by the obfuscate spell when
+ *  check_seen is called against them. Player knowledge of such calls
+ *  from the mudlib are inappropriate, and will be removed.
+ *
+ */
+/*
+public mixed query_magic_res(string prop)
+{
+    if (Drained_resistances[PRE_OBJ_MAGIC_RES+prop]>random(100) && 
+            strlen(prop)>14)
+    {
+        QSW->catch_msg("You feel the power of " + prop[13..] + " tingle "+
+        "your senses.\n");
+    }
+    
+    return QSW->query_magic_res(prop);
+    
+}
+*/
+
+string query_guild_skill_name(int i)
+{
+    if (i==VAMP_SKILL_BITE)
+    {
+        return "savage";
+    }
+    if (i==VAMP_SKILL_FLURRY)
+    {
+        return "flurry";
+    }
+    return ::query_guild_skill_name(i);
+}
+
+public object
+query_vamp_drain()
+{
+    return drainee;
+}
+
+public int query_active_vision()
+{
+    return (Current_vision && sizeof(Current_vision));
+}
+
+public int stop_vision()
+{
+    remove_alarm(Vision_alarmid);
+    Vision_alarmid=0;
+    Vision_index=0;
+    Current_vision=0;
+}
+
+public void run_vision()
+{
+    if (Vision_index>=sizeof(Current_vision))
+    {
+        stop_vision();
+        return;
+    }
+    object target=query_vamp_drain();
+    if (!target)
+    {
+        target=QSW;
+    }
+    string prefix=one_of_list(
+    ({
+        "You are entranced as you watch:\n",
+        "You watch as if through new eyes:\n",
+        "Deep in your mind you see:\n",
+        "A vision presses in your thoughts:\n",
+        "Pictures unfold as you watch:\n",
+        "",
+    }));
+    
+    target->catch_msg("\n\n"+prefix+Current_vision[Vision_index]+"\n");
+    Vision_index++;
+}
+
+
+public void play_vision(string * vision)
+{
+    Vision_index=0;
+    Current_vision=vision;
+    Vision_alarmid=set_alarm(5.0,5.0,run_vision);
+    
+}
+
+
+int
+can_vamp_drink(object drainer, object drainee)
+{
+    mixed prop;
+    object *livings;
+    int i;
+  
+    if (prop = drainer->query_prop(LIVE_M_MOUTH_BLOCKED))
+    {
+        drainer->catch_msg(stringp(prop) ? prop : "Your mouth is blocked\n");
+        return 0;
+    }
+  
+    if (prop = drainee->query_prop(LIVE_M_NO_DRAIN))
+    {
+        drainer->catch_msg(stringp(prop) ? prop : "You can't seem to manage " +
+            "to drain " + drainee->query_the_name(drainee) + ".\n");
+        return 0;
+    }
+  
+    /* We can't drain if anyone other than the target
+     * is currently attacking us.
+     */
+    livings = FILTER_OTHER_LIVE(all_inventory(drainer) - ({ drainee, drainer }));
+    for (i = 0; i < sizeof(livings); i++)
+    {
+        if (livings[i]->query_attack() == drainer)
+        {
+            drainer->catch_msg("You can't drain from " + 
+            drainee->query_the_name(drainer) + " while others are fighting " +
+                "you.\n");
+            return 0;
+        }
+    }
+  
+    /* Don't continue if the target is in combat */
+    for (i = 0; i < sizeof(livings); i++)
+    {
+        if (livings[i]->query_attack() == drainee)
+        {
+            drainer->catch_msg("You can't drain from " + 
+                drainee->query_the_name(drainer) +
+                " while others are fighting " + OBJ(drainee) + ".\n");
+            return 0;
+        }
+    }
+
+    // We check to make sure the drainee has all the qualifications
+    // to be drained.
+    if (drainee->query_hp() < DRINK_HP
+        || drainee->query_mana() < DRINK_MANA
+        || drainee->query_fatigue() < DRINK_FATIGUE)
+    {
+        drainer->catch_msg(QCTNAME(drainee) + " is on the verge of "
+            + "collapse and you cannot drain "
+            + drainee->query_objective() + ".\n");
+        return 0;
+    }
+    
+    return 1;
+}
+
+void
+start_vamp_drink(object who)
+{
+    who->add_prop(LIVE_O_VAMP_DRAINER, QSW);
+    who->remove_prop(LIVE_O_OFFERED_BLOOD);
+    drainee = who;
+ 
+    if (drain_alarm)
+    {
+        remove_alarm(drain_alarm);
+    }
+
+    drain_alarm = set_alarm(DRINK_INTERVAL, DRINK_INTERVAL, do_vamp_drink);
+
+    setuid();
+    seteuid(getuid());
+
+    drainee->add_subloc(DRAINEE_SUBLOC, this_object());
+    QSW->add_subloc(DRAINER_SUBLOC, this_object());
+
+    /* paralyze drainer and drainee */
+    clone_object(OBJ_DIR + "bitten_paralysis")->move(drainee,1);
+    clone_object(OBJ_DIR + "biter_paralysis")->move(QSW,1);
+    
+}
+
+public void
+do_vamp_drink()
+{
+    object drainer = QSW;
+
+    if (!drainer || !drainee || 
+        (environment(drainer) != environment(drainee)))
+    {
+        release_vamp_drainee(1);
+        return;
+    }
+
+    if (!can_vamp_drink(drainer, drainee))
+    {
+        release_vamp_drainee(0);
+        return;
+    }
+
+    if (drainee->query_prop(LIVE_I_NO_BODY) ||
+        drainee->query_prop("_live_i_no_blood"))
+    {
+        drainer->catch_tell(drainee->query_The_name(drainer) +
+          " doesn't seem to have any blood!\n");
+        release_vamp_drainee(0);
+        return;
+    }
+
+    if (drainee->query_prop(LIVE_I_UNDEAD) && !IS_VAMP(drainee))
+    {    
+        drainer->catch_msg(QCTNAME(drainee) + "'s blood tastes " +
+            "bitter in your mouth.  You try to swallow it down, but your " +
+            "stomache churns and rejects it.\n");
+        release_vamp_drainee(0);
+
+        drainer->command("$spit");
+
+        return;
+    }
+
+    if (times++ > (3 + random(3)))
+    {
+        times = 0;
+    }
+
+    if (!times)
+    {
+        desc_vamp_drink();
+    }
+
+    drainer->add_blood(1);
+
+    drainee->heal_hp(-DRINK_HP);
+    drainee->add_mana(-DRINK_MANA);
+    drainee->add_fatigue(-DRINK_FATIGUE);
+
+    /*
+     * Removed November 2009 - Draining skills from other vampires
+     *                         by drinking their blood is not allowed.
+     *                         Must obtain through combat.
+       TO->drain_blood(drainee);
+    */
+    
+    drainer->hook_blood_added(drainee);
+    drainee->hook_blood_removed(drainer);
+
+    if (IS_VAMP(drainee) || IS_BG(drainee))
+    {
+        // Blood cannot multiply. We lose one blood for every
+        // blood gained by the drainer. November 2009 - Petros
+        drainee->add_blood(-1);
+    }
+}
+
+public void
+desc_vamp_drink()
+{
+    object drainer = QSW;
+    string blood_desc;
+
+    switch (drainee->query_hp() / 30)
+    {
+        case 0:
+            blood_desc = "barely trickles onto your tongue";
+            break;
+        case 1..2:
+            blood_desc = "flows slowly into your mouth";
+            break;
+        case 3..5:
+            blood_desc = "streams steadily into your mouth";
+            break;
+        default:
+            blood_desc = "gushes in a torrent down your throat";
+            break;
+    }
+      
+    drainee->catch_tell(({
+        "Your vision fades, and you are momentarily plunged " +
+            "into darkness.\nYour vision suddenly returns " +
+            "with perfect clarity.\n",
+        "Bright colors swirl before your eyes.\n",
+        "The sound of " + drainer->query_the_name(drainee) +
+            "'s heart beating in sync with your own echos " +
+            "through your mind.\n",
+        "You feel " + drainer->query_the_name(drainee) + 
+            "'s hot breath blasting against your neck like " +
+            "flames licking at your skin.\n",
+        "Your skin tingles with energy.\n",
+        "With each slowing heartbeat you are tossed from " +
+            "perfect clarity of mind to an utter stupor..." + 
+            "from " +
+            "extreme to extreme with seemingly no median.\n",
+        "Adrenaline pumps through your body, electrifying " +
+            "and exhilarating you.\n",
+        "Violent chills race through your bones.\n",
+        "You break out in a sweat as you are ravaged by " +
+            "intense hot flashes.\n",
+        "Images pass through your thoughts...memories dear " +
+            "and long forgotten.\n",
+        })[random(10)]);
+    tell_room(({
+        "A thin stream of blood trickles down " + QTNAME(drainee) +
+            "'s neck.\n",
+        QCTNAME(drainer) + " looks up for a moment, licks the blood " +
+            "from his lips, and continues to feed on " + QTNAME(drainee) + 
+            ".\n",
+        QCTNAME(drainee) + " lets out a soft moan of ecstacy.\n",
+        QCTNAME(drainee) + " clutches at " + QTNAME(drainer) + "'s " +
+            "clothing, pulling " + POSS(drainer) + " closer.\n",
+        QCTNAME(drainee) + " opens " + POSS(drainee) + " eyes for a "+
+        "moment, apparently lost in overwhelming sensations.\n",
+        QCTNAME(drainee) + "'s eyelids flutter.\n",
+        })[random(6)], ({ drainer, drainee }));
+
+    drainer->catch_tell(LANG_POSS(drainee->query_The_name(drainer)) +
+        " blood " + blood_desc + ".\n");
+}
+
+void
+release_vamp_drainee(int silent)
+{
+    object ob, drainer = QSW;
+
+    drainer->remove_subloc(DRAINER_SUBLOC);
+    
+    while (ob = present("_vamp_biter_paralysis", drainer))
+    {
+        ob->remove_object();
+    }
+
+    if (drainee)
+    {
+        drainee->remove_prop(LIVE_O_VAMP_DRAINER);
+        drainee->remove_subloc(DRAINEE_SUBLOC);
+    
+        while (ob = present("_vamp_bitten_paralysis", drainee))
+        {
+            ob->remove_object();
+        }
+    }
+
+    remove_alarm(drain_alarm);
+    drain_alarm = 0;
+
+    if (!silent && drainee)
+    {
+        set_this_player(drainer);
+        actor("You release", ({ drainee }), " from your embrace.");
+        target(" releases you from " + POSS(drainer) + " embrace.", 
+            ({ drainee }));
+       
+        all2actbb(" releases", ({ drainee }), " from " + POSS(drainer) + 
+                " embrace.");
+        
+        object shadow=clone_object(OBJ_DIR+"blood_shadow");
+        
+        shadow->shadow_me(drainee);
+        
+        int neck=drainee->query_id_for_hitloc_name("head");
+        if (neck>=0)
+        {
+            drainee->bite_location(neck);
+        }
+    }
+    drainer->hook_drainer_released(drainee);
+    if (drainee)
+    {
+        drainee->hook_drainee_released(drainer);
+    }
+    drainee=0;    
+    stop_vision();
+}
+
+
+void
+desc_vamp_drain()
+{
+    object drainer = QSW;
+    string blood_desc;
+
+    switch (drainee->query_hp() / 30)
+    {
+        case 0:
+            blood_desc = "barely trickles onto your tongue";
+            break;
+        case 1..2:
+            blood_desc = "flows slowly into your mouth";
+            break;
+        case 3..5:
+            blood_desc = "streams steadily into your mouth";
+            break;
+        default:
+            blood_desc = "gushes in a torrent down your throat";
+            break;
+    }
+      
+    drainee->catch_tell(({
+        "You break out in a sweat as you are ravaged by " +
+            "intense hot flashes.\n",
+        "You feel " + drainer->query_the_name(drainee) + 
+            "'s hot breath blasting against your neck like " +
+            "flames licking at your skin.\n",
+        "Violent chills race through your bones.\n",
+        })[random(3)]);
+    drainer->tell_watcher(({
+        "A thin stream of blood trickles down " + QTNAME(drainee) +
+            "'s neck.\n",
+        QCTNAME(drainee) + " struggles to break free from " + 
+            QTNAME(drainer) + "'s embrace, but is unable to free " +
+            OBJ(drainee) + "self.\n",
+        QCTNAME(drainee) + " lets out a barely audible whimper.\n",
+        QCTNAME(drainer) + " looks up for a moment, licks the blood " +
+            "from " + POSS(drainer) + " lips, and tears back into " +
+            QTNAME(drainee) + ".\n",
+        "You hear a low, weak moan from " + QTNAME(drainee) + ".\n",
+        QCTNAME(drainee) + "'s eyelids flutter.\n",
+        QCTNAME(drainee) + " gasps for air.\n",
+        })[random(7)], drainee);
+    
+    drainer->catch_tell(LANG_POSS(drainee->query_The_name(drainer)) +
+        " blood " + blood_desc + ".\n");
+
+}
+

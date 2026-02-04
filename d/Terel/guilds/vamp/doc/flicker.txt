@@ -1,0 +1,59 @@
+
+Flicker
+====================
+Guild type          : Occupational
+Effect              : The caster invokes a wind which extinguishes the
+                      torches and lamps in the room.  They will go out
+                      and stay out while in the presence of the vampire,
+                      but can be relit when outside the room, or when
+                      the spell is gone.
+                      
+                      Unlike the constrict spell, the gem is not eaten
+                      here.
+                      
+Spell Time          : Default (6 seconds/1 heartbeat)
+Mana cost           : 81
+Min Vamp Stat       : 90
+Difficulty          : TASK_DIFFICULT 
+Peaceful            : No
+Stationary          : No
+Spell Class Level   : Class 2  -- Basic
+Area of effect      : One object
+Duration            : > 1 minute (max 500 sec)
+Somatic Component   : Blood (2 units)
+Material Component  : Topaz
+Vocal Component     : No
+Tax                 : 0.29%
+Combat Aid          : 0%
+
+Files:              : spells/flicker.c
+                      spells/obj/flicker_obj.c
+                      spells/obj/torch_sh.c
+
+
+
+Tax calculation:
+----------------
+Base tax for class 2 is 0.25% for occ spell.
+Component cost is >=1 gp        : -25%
+missing 1:                        150% 
+
+Tax: (0.25% ) * 1.5 * 0.75         = 0.29 %
+                                     ======       
+                                     
+Mana calculation:
+Base mana for class 2 is 60-119.  
+Element skill: 50 points of SS_ELEMENT_AIR
+Form skill:    40 points of SS_FORM_CONJURATION
+
+Base Mana cost is 90                                     
+                                                       
+Area of Effect - Object in another living's inventory...... x1.5
+Area of Effect - All objects in room....................... x1.5
+Duration > 1 minute........................................ x1
+Casting Time < 5 heartbeats................................ x1
+Difficulty (Difficult)..................................... x0.5
+Components (>=1 gp value).................................. x0.8
+
+90 * 1.5 * 1.5 * 1 * 1 * 0.5 * 0.8 = 81
+

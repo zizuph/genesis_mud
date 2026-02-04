@@ -1,0 +1,34 @@
+It will be inevitable players will come up with inappropriate songs.
+
+To remove them follow the following steps.
+
+1. CHECK NAME OF SONG
+Firstly, check what the song name is via:
+
+Call /d/Terel/cedric/guild/log/songbook_manager.c query_mundane_songs <player name>
+
+This will return a list of songs of the player, such as:
+
+Array of size 2
+(Array)
+[0] = (string) "king_of_mine.song"
+[1] = (string) "queen_of_hearts_gone_too_soon.song"
+[2] = (string) "when_hitler_took_over.song"
+
+2. REMOVE SONG FILE
+
+Call /d/Terel/cedric/guild/log/songbook_manager.c remove_mundane_songs <player name>%%"when_hitler_took_over.song"
+
+3. REMOVE FROM TOP 20 LIST ON GENESIS WEBSITE
+
+If the song is listed in the top 20 List, you will need to manually 
+remove it via:
+
+Call /d/Terel/guilds/minstrels/lib/performance_manager.c remove_minstrel_mundane "When Hitler Took Over"
+
+You can check if it was appropriately removed through:
+
+Call /d/Terel/guilds/minstrels/lib/performance_manager.c query_top_minstrel_mundanes
+
+If the song is no longer in that array then after around 10 minutes
+it will be removed from https://www.genesismud.org/rankings.php

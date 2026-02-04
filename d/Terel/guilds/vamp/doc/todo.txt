@@ -1,0 +1,35 @@
+add vcompel command for dominated NPCs
+store list of dominated NPCs in shadow
+write summon spell
+write flight spell, find domain locations
+write incognito spell+shadow
+code all vamp rooms
+finish statue description/desires
+code coffins
+code destroy vamp functions
+add statue visions
+add vocal component to relevant spells
+add new emotes
+add vamp specific adverbs
+change trainer to use gems?  Favor?
+
+add help files
+confirm training levels vs docs
+recheck all spells vs docs
+validate all messages for all spells
+
+**add WC/AC approximate calc to delve spell
+**add embrace logic
+**add vamp converter to statue
+**add vleave
+**add visions
+**add BG title control for CM
+**add death to shadow - leave dust behind
+**add temp vamp stat bonus/penalty - Decided against
+**add sublocs  Did BG, not sure which vamp ones apply
+**write scry spell
+**add swallow diamond command for vconstrict
+**create descriptions for vconstrict
+
+
+

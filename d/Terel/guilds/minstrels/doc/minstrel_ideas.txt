@@ -1,0 +1,593 @@
+CONCEPTS FOR REFINEMENT:
+
+Inclusion of performance reputation
+===================================
+Reputation from performing is based on the 2nd edition Bard performance
+levels:
+
+0 Unsung
+1 Accepted
+2 Known
+3 Noted
+4 Established
+5 Liked
+6 Well-known
+7 Admired
+8 Prominent
+9 Distinguished
+10 Popular
+11 Reputable
+12 Honored
+13 Celebrated
+14 Illustrious
+15 Eminent
+16 Acclaimed
+17 Prestigious
+18 Famous/Infamous
+19 Renowned
+20 Revered
+
+All existing Minstrels have a base reputation up to level 6 (well-known) based 
+on their guild stat (guild level / 7). 
+
+[guildstat / 21].
+
+Non-minstrels may also use this system to perform with instruments and gain
+reputation. They start at unsung and are likely to progress more slowly
+through the ranks, as they do not benefit from having a performing or singing
+skill.
+
+To advance beyond that level they need to perform in locations that have 
+the property "_minstrel_performance_location" added to the room. These rooms 
+tend to be inns, taverns, auditoriums.
+
+The property format is:
+
+          Property name,                     LOCATION NAME, LOCATION SIZE
+add_prop("_minstrel_performance_location", ({ "hawkstones taproom", 1 }) );
+
+Location name is checked for repeat performances. One can only perform for
+reputation once every 20 hours at the same location.
+
+Location size is a number ranging from 1 to 3, indicating the size of the
+establishment and the likelihood for a reputation increase:
+
+1. Drinking Hole - e.g out of the way towns, low patronage
+   e.g. Flotsam's Hawkstones Taproom
+2. Small Pub / Small Inn - standard establishments, average patronage
+   e.g. Port Balifors Pig and Whistle Inn, Solace Inn of the Last Home.
+3. Large Pub / Large Inn - prominent establishment, high profile patronage
+e.g. Sparkle inn, Bree 'Dancing Pony', Palanthas
+
+When performing a mundane or ballard at such an establishment there is a 
+chance of a reputation increase:
+
+Chance based on:
+* current reputation title 
+* Establishment level
+* singing and playing skills.
+
+INCREASE IF: chance > difficulty
+
+chance = random(100 * establishment level) + singing skill + performing skill
+             [value between 0 and 219 for superior craftsman skills, tier 1 venue]
+             [value between 0 and 318 for superior craftsman skills, tier 2 venue]
+             [value between 0 and 417 for superior craftsman skills, tier 3 venue]
+difficulty = (current title * 10) + random(300) 
+             [value between 0 - 489]
+
+These are managed in the performance_manager.c as
+
+    chance = PERFORM_MANAGER->check_performance_chance(minstrel, loc_size);
+    difficulty = PERFORM_MANAGER->check_performance_difficulty(minstrel);
+
+
+
+
+PERFORMANCE PAYOUT
+==================
+The number of musical renditions you need to give before the performance
+is complete depends on the size of the establishment... between one to
+three. The owner of the establishment pays the performer at the end of a 
+successful performance for each rendition based on how well they performed,
+measured by the 'chance' value returned for each rendition:
+
+                         Payout influenced by performer's skills
+                     Sup craftsman skills:     Superior guru skills:
+1. Drinking Hole:       120cc - 219cc             200cc - 299cc
+2. Average venue:       240cc - 438cc             400cc - 598cc 
+3. Prominent venue:     480cc - 657cc             800cc - 1196cc 
+
+So the maximum payout for a layman member with max lay skills (superior
+craftsman) is around:
+* 1 gold, 6 silver, 3 copper in a dive/drinking hole
+* 3 gold 6 copper in an average venue
+* 4 gold 6 silver in a prominent venue
+
+// Can only increase your reputation once every 20 hours.
+
+Code checks:
+Command for performing mundanes and ballards are in the guild soul. From 
+here:
+- check whether room is a reputation establishment
+- check minstrel admin.c file to see if minstrel has performed in the 
+establishment in the last 20 hours
+- check minstrel admin.c for chance of reputation increase.
+
+Decrease in reputation
+======================
+High reputation has a chance of decaying if you don't regularly perform.
+
+Those minstrels above a reputation of 10 who haven't performed in the last
+week have a chance of their reputation decaying upon logging in based on
+a x% chance based on 'days of having not performed' + current level.
+
+The amount of decay is equals the number of weeks having not performed,
+reducing at most to a reputation level of 10.
+
+
+New ability: Minstrel auras
+===========================
+Upon reaching reputation 10, a Minstrel is invited to the College of
+Music in Telberin, where they learn more about the history of the Muses
+as well as how to potentially generate a 'minstrel aura' that provides
+beneficial effects to the Minstrel's team or debuffs to non-team
+members.
+
+Specific details to be determined.
+
+
+Top 100
+=======
+
+
+
+CLUB
+=====
+For a minstrel club, they'll need elements of the soul for performing... (do_performance etc)
+be able to create mundane songs
+Have elements of the shadow (like query_instrument) for it to work
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    In days of ancient lore, the muses who brought joy to the world where known
+    as Melete, Mneme, and Aoide which loosely translates to Practice, Memory, 
+    and Song.  Music was very beautiful and very uniform.  Its sole purpose 
+    was to enlighten and please the listener.  Through the ages, while styles
+    have progressed, musics main purpose has never changed.
+
+    At the end of the days of ancient lore, nine muses came to us bringing 
+    with them the different styles of music being epic, historic, lyric, 
+    comedic, tragic, lively, heartfelt, sacred, and mystic.  This music was 
+    created using the diatonic scale to fill the land with joy.  
+
+    A century later music changed when Thamyris started creating songs with 
+    the root note being the second note of the diatonic scale.  This Dorian 
+    scale led to the next revolution of music.  From this came songs of 
+    darkness and sadness.  The nine muses cultivated this style as it 
+    increased their power two fold.  Thamyris, known as the greatest minstrel 
+    in the land challenged them to a singing contest.  He was no competition 
+    for the muses and as punishment for his presumption, they cut out his 
+    tongue and took his instruments so he may never please another mortal 
+    again.  The unjust punishment and fear of the dark songs brought the wraith 
+    of the other gods and a battle in the heavens fill the night sky.  
+    Five muses were never seen again.
+
+    The four remaining muses led our ancestors in the exodus of the old land.
+    While only four muses could be seen, it is said that we would not have 
+    survived the journey without the three sets of three muses that guided 
+    us to Terel.
+
+    While their names may not be known to us, we know that muses always work in
+    threes.  When you feel their effects, it is the combined power of all three.
+
+
+    Proposed Minstrel Changes
+    The below proposal should add many original concepts to the Minstrels guild
+    and increase role playing on the donut.  The changes will give minstrels
+    hours of game play entertainment and increase the minstrels value in a team.
+    Minstrel joining requirements:
+    The joining requirements for minstrels will be removed and the black list 
+    cleared.  Player who wish to be added back can go on a killing spree in
+    the Minstrel Palace for the quickest results.  Dark title options will also
+    be selectable for minstrels who wish their stage persona to emphasize the 
+    bad boy/girl image.  A percussion instrument or two will be added for players
+    who don't look good playing a wind or string instrument.
+    Minstrel Skills
+    Perform - superior guru - Merged from Play Instrument, Sing and Read Music
+    Tune/Repair Instrument - reduce to superior journeyman
+    Language - superior craftsman
+    New Skills 
+    Spellcraft - superior craftsman
+    pick pocket - superior acolyte
+    acrobat - superior acolyte
+    appraise skills - superior acolyte
+    New Anybody Skill
+    Heckling Skill - superior amateur -  Heckling is a new skill that anyone 
+    can obtain that allows the heckler a % chance to disrupt a minstrels 
+    mundane song. The affect is cumulative for all members in a mob. This skill 
+    can be temporarily affected by pax.
+    In the same room as a heckler heckling, all living can heckle the minstrel 
+    at the skill level of 10% of the hecklers skill.
+    Cheering action 
+    New action for all living in the area to cheer a minstrel when a mundane song
+    is being playing. Cheering for a minstrel subtracts the current heckler 
+    disruption chance and votes up their song.
+    Genesis Top 100 Songs
+    The Genesis Top 100 songs list is decided by the genesis players and NPCs.
+    Every time a song is played and finished in an accredited venue the song 
+    ranking is given a boost based upon the venue size.  Any time a minstrel plays
+    in the presence of a players or NPCs, the players and NPCs can cast their vote 
+    by cheering or boo'ing the minstrel.  Some NPCs can be quite the critics.
+    Every four hours, the top 100 song's rankings are updated.  176 songs that
+    were longer than 750 character were selected and ranked.  Several existing 
+    players already have songs in the top 100.  One who is currently on the 
+    Minstrels black list has 6 in the top 50.  When joining the Minstrels, if you
+    have a song on the list, it will be automatically added to your songbook.
+    Minstrel Achievements - Reputation
+    The achievement tasks for the minstrels falls along two different paths.  
+    The first is playing mundane songs at venues and the second is promoting 
+    an original song through the top 10 on the Genesis top 100 list.
+    Minstrels Gig at venues across the Donut.
+    To successfully complete a gig, the player must arrive at the venue location
+    and start the gig no more than 30 minutes late.  Gigs cannot start early.  
+    The minstrel must sing the required number of sets with each set being at 
+    least 10 minutes long and consisting of a minimum of 5 songs.  A break of 
+    2-5 minutes is to be taken between sets.  If food or drink are provided by 
+    the publican, the minstrel must consume it during the break.  At smaller 
+    venues, the minstrel is paid by the publican and must pay the agent his fee 
+    from the gig to get the achievement and to get the next gig.  
+    The minstrel may sing Pax between each song.
+    There a 6 different levels of venues where a minstrel can play.  Each level
+    requires the minstrel to know more and more popular songs and have a higher
+    minimum performance skill.  Minstrel achievements are awarded for:
+    Minstrel Achievement:   Played 1 gig at a <venue type>
+                            Played 5 gigs at different <venue type>
+                            Played 10 gigs at <venue type>
+                            Played a gig in all <venue type>
+                            Played 25 gigs at <venue type>
+                            Played 50 gigs at <venue type>
+                            Played 100 gigs at <venue type>
+    Venue Types:    Drinking Hole - Unnamed drinking establishments
+                    Small Pub - drink only
+                    Small Inn - food and usually drink
+                    Large Pub - drink only
+                    Large Inn - food and drink
+                    Festival - Minstrels play 1 set of 20 minutes. 
+                               Minimum levels apply.
+                               Act 1,2     - Laymen 
+                               Act 3,4     - Journeymen 
+                               Act 5,6,8   - Craftsmen 
+                               Act 7       - Professionals Only
+    Minstrels Get their song in the top 10
+    Minstrel achievements are awarded by the Minstrel Agent the first time
+    the player visits the agent and has a song in the charts at the achievement
+    level.  
+    minimum skill: veteran
+    Minstrel Achievement:   Song in the top 25 of the Genesis 100 top songs
+                            Song in the top 10 of the Genesis 100 top songs
+    minimum skill: master
+    Minstrel Achievement:   Song at #5 in the Genesis 100 top songs
+                            Song at #4 in the Genesis 100 top songs
+                            Song at #3 in the Genesis 100 top songs
+                            Song at #2 in the Genesis 100 top songs
+                            Song at #1 in the Genesis 100 top songs
+    Guru Quest - Minstrel plays the heckle room and gets a standing ovation.
+    minimum skill: guru
+    song requirements:      4 in the top 10, 8 more in top 25, encore in top 10
+    required achievement:   Minstrel has headlined a festival venue
+    number of sets:         4 sets - 40 minutes performance + breaks + encore
+                            encore song goes directly to #1
+    impediments:            the audience contains hecklers who can disrupt a song   
+    Minstrel Achievement:   Standing Ovation at Heckle Room, Quest XP
+    Minstrel Achievements affect the minstrels reputation and offer general xp.
+    Minstrel Auras
+    Minstrel auras consist of the aura of the muse they selected when receiving 
+    an instrument and the additional aura of two changing muses which are randomly
+    selected once per Armageddon.  The aura has a chance to activated when the 
+    minstrel sings a mundane song.  When the aura is activated, it contains the 
+    combined effect from all three muses.  Each time a minstrel performs a 
+    stanza of a mundane song, there is a chance the aura may activate.  The 
+    aura lasts for period of time and once ended, and after a short cool off
+    period the aura can be activated again.  If the minstrel is only singing or 
+    playing instead of performing, the chance of triggering the aura drops in 
+    half per stanza.  Playing an instrument while engaged in combat greatly
+    increases the chance of instrument damage.
+    Each unique song on the top 100 list can trigger an aura effect when being 
+    played only if the song hasn't been sung by the minstrel and triggered an 
+    aura effect in the last two hours.  Minstrels must have a varied and popular
+    repertoire to constantly received the aura. 
+    The strength of the aura is determined by the ranking of the song in the 
+    Genesis top 100 songs list.  Songs outside the top 100 provide no aura effect.
+    The effect of the muse aura is given below
+    Four permanent muses - Primary muse was selected when instrument was chosen
+                           Muse does not change for a minstrel
+    *Calliope    (epic poetry)                 Slow - Limits non team members moves 
+                                                      to 1 room per second
+    *Clio        (history)                     Extra AC
+    *Thalia      (comedy and pastoral poetry)  Deception - Lowers non team members
+                                                           awareness 
+    *Melpomene   (tragedy)                     Extra Damage
+     -
+    Changing Muses - These Muses are randomly selected once per Armageddon
+     Euterpe     (flutes and lyric poetry)     Discipline Boost
+     Terpsichore (dance)                       Dexterity Boost
+     Erato       (love poetry)                 Strength Boost
+     Polyhymnia  (sacred poetry)               Health Regen
+     Urania      (astronomy)                   Mana Regen
+
+    Minstrel NPCs
+    Minstrel Agent - The achievement master hands out the gigs and ticket books 
+                     to minstrels and awards minstrel achievements for 
+                     completing gigs.  He doesn't care if a minstrel didn't make
+                     it to a gig, he wants his 15% if he gave out the gig.
+    Wandering Minstrel - Teaches mundane songs to players for a cost.
+                         Can learn songs from a minstrel to add to his songbook.
+                         Knows the #1 song from last Armageddon.
+                         Randomly knows 3 others from the top 10, 5 more songs 
+                         between the top 10 and the top 25, and 16 more up to #200
+                         Provides hints about the current muse auras.
+                         Accepts gigs from the agent, uses the venue guide to 
+                         travels to the venue, plays the gig, and returns. 
+    Minstrel Groupies - Accepts tickets to gigs and will use the venue guide 
+                        to be in the audience at the show.  Groupies will follow
+                        artists with songs in the top 10 if they don't have
+                        gig to go to.  Groups also try to go to all of the 
+                        festivals.
+    Hospitality Workers - food and drink workers for the festival
+    The Hecklers - Mainly found in the heckle room.  A small group stalk the 
+                   groupies.  If given a ticket to a show, they will attend 
+                   to practice their favourite skill.  Anyone can give a heckler
+                   any ticket and they will attend the next show they have a 
+                   ticket for.
+    Comments and Feedback welcome.
+
+
+Proposed performing locations. Conceptually, we
+want to limit the number of 'prominent' locations
+for each domain... making minstrels travel good
+distances to go to the best performing locations.
+
+==================================================
+KRYNN / ANSALON (14)
+
+Drinking Holes
+Merchants Tavern - Kalaman - Krynn
+/d/Ansalon/kalaman/caravan/inside
+Tanked Troll - Flotsam - Ansalon
+/d/Ansalon/balifor/flotsam/room/tavern02
+
+Small Pubs
+Dwarvern Tavern - Iron Delving - Krynn
+/d/Ansalon/estwilde/iron_delving/tavern
+Mer-Cantile's Cafe - Palanthas - Krynn
+/d/Krynn/solamn/palanthas/nobles/best_cafe
+Guardians Pub - Tantallon - Krynn
+/d/Krynn/neraka/tent4
+Hawkstones Taproom - Flotsam Ansalon
+/d/Ansalon/balifor/flotsam/room/tavern01
+
+Small Inns
+Green Twitch Inn - Palanthas
+/d/Krynn/solamn/palanthas/merchants/green_twitch
+Inn of the Last Home - Solace - Krynn
+/d/Krynn/solace/new_village/inn
+Scorched Scorpion Inn - Kendermore - Ansalon
+/d/Ansalon/goodlund/kendermore/room/inn01
+Jetty's Inn - Flotsam - Ansalon
+/d/Ansalon/balifor/flotsam/room/inn02
+
+Large Pubs
+Templar Bar - Tantallon - Krynn
+/d/Krynn/neraka/tent9
+
+Large Inns
+Bronze Dragon Inn - Vingaard Keep - Krynn
+/d/Krynn/guilds/knights/guildhall/rooms/inn
+Silver Dragon Inn - Palanthas
+/d/Krynn/solamn/palanthas/merchants/inn1
+
+Other areas: Neraka, Sanction, Port Balifor
+
+==================================================
+TEREL / AVENIR (10)
+
+Drinking Holes
+Gypsy Pub - Gypsy Camp
+/d/Terel/mortricia/camp/tent_pub
+
+Small Pubs
+Big Rock Pub - Calathin
+/d/Terel/calathin/pubs/big_pub
+Snowhouse Tavern - Last
+/d/Terel/last/snowhouse
+Ribos Pub - Ribos
+/d/Terel/ribos/inn
+
+Small Inns
+Stumble Inn - Dabaay
+/d/Terel/dabaay/town/stumble
+White Dragon Inn - Last
+/d/Terel/last/whdragon
+Stormy Haven Inn - Sybarus - Avenir
+/d/Avenir/common/port/pub
+
+Large Pubs
+Panchos - Dabaay
+/d/Terel/dabaay/town/panchos
+Dragon Claw Club - Calathin
+/d/Terel/calathin/pubs/drag_pub
+
+Large Inns
+Inn of Calathin - Calathin
+/d/Terel/calathin/pubs/cal_inn
+
+Other locations: Avenir pubs?
+
+==================================================
+GONDOR / SHIRE
+
+Drinking Holes
+Proud Staf Pub - Edoras
+/d/Gondor/rohan/edoras/pspub
+
+Small Pubs
+White Tree Pub - Minas Tirith - Gondor
+/d/Gondor/minas/rooms/wtpub
+Man in the moon pub - Thornlin - Gondor
+/d/Gondor/lebennin/thornlin/tavern
+Broken Oar Tavern - Pelargir
+/d/Gondor/pelargir/misc/sailor_pub
+
+Small Inns
+The Floating Log - Frog Morton
+/d/Shire/frogmorton/inn
+The Bounder
+/d/Shire/eastroad/western/villages/greenholm/inn
+
+Large Pubs
+Sword and Shield Tavern - Minas Tirith - Gondor
+/d/Gondor/minas/rooms/mttavern
+
+Large Inns
+Prancing Pony Inn - Bree
+/d/Shire/common/bree/inn
+Sleeping Fisherman Inn - Sarn Ford
+/d/Shire/sarnford/inn
+
+Other locations: Rivendell, Minas Morgul
+
+==================================================
+CALIA
+
+Drinking Holes
+Pub - Argos
+/d/Calia/argos/metro/rooms/pub
+
+Small Pubs
+-
+
+Small Inns
+Inn - Argos
+/d/Calia/argos/metro/rooms/inn
+
+
+Large Pubs
+Calian Inn of Gelan
+/d/Calia/gelan/rooms/inn
+
+
+Large Inns
+-
+
+==================================================
+SPARKLE
+
+Drinking Holes
+Pub - Green Oaks
+/d/Sparkle/area/faerie/rooms/greenoaks/pub
+
+Small Pubs
+-
+
+Small Inns
+-
+
+Large Pubs
+Pub - Sparkle
+/d/Sparkle/area/city/rooms/inside/sparkle_pub
+Calian Inn of Gelan
+
+
+Large Inns
+The Silver Swan Inn - Sparkle
+/d/Sparkle/area/city/rooms/inside/inn
+
+==================================================
+EARTHSEA
+
+Drinking Holes
+Pub - Ten Alders
+/d/Earthsea/gont/tenalders/village/pub_room
+Tavern - Gont
+/d/Earthsea/gont/gont_city/rooms/tavern
+
+Small Pubs
+-
+
+Small Inns
+-
+
+Large Pubs
+-
+
+Large Inns
+-
+
+==================================================
+FAERUN
+
+Drinking Holes
+-
+
+Small Pubs
+-
+
+Small Inns
+Food Hut - Sword Mountain - Faerun
+/d/Faerun/highroad/rooms/hut_food
+Jolly Rancher Inn - Halfling Village - Faerun
+????
+
+Large Pubs
+-
+
+Large Inns
+-
+
+==================================================
+KALAD / ATHAS / RAUMDOR
+
+Drinking Holes
+-
+
+Small Pubs
+-
+
+Small Inns
+Kabal Resturant - Kabal
+/d/Kalad/common/trade/restaurant
+
+Large Pubs
+Royal Pub - Kabal
+/d/Kalad/common/noble/pub
+
+Large Inns
+Jenns Inn - Kalad
+/d/Kalad/common/caravan/shop/jeinn
+
+Other locations: Raumdor city, Athas city.
+
+==================================================
+KHALAKHOR
+
+==================================================
+
+
+
+

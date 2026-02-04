@@ -1,0 +1,38 @@
+1   17  Cottage Chest Quest 
+
+        Designer: Sorgum in 1994, implemented by Lilith in 2022.
+		Problem:  The treasure chest in the cottage cellar is rusted shut. 
+		Solution: Make thermite to melt the lock.
+                  The recipe for thermite is 3 parts iron oxide (rust) 
+                  to 1 part powdered aluminium. 
+                  The player must find the flowerpot in the garden, figure 
+                  out which powders to use from the ones available in the 
+                  toolshed, and scrape rust off the stove in the kitchen.
+                  Mix them together in the pot, and if its the wrong mixture,
+                  it makes a gooey mess. If its the right mixture, they get
+                  thermite.
+                  If they try igniting the thermite as-is, they're going to 
+                  get burned. Instead, a search of the mattresses in the 
+                  bedrooms will turn up ribbons of magnesium. Put the pot
+                  on the safe, put the magnesium ribbon in with the thermite,
+                  ignite the ribbon, and the thermite burns down through the 
+                  top of the chest and melts the lock.
+        Skills:  None needed.
+        Risks:   Player risks taking 25% - 50% hp damage if they blow the
+                  thermite up.
+        EXP:     500 Quest experience
+        Reward:  Gold coins, some gems, a goblet, and the ring of the ancients.
+		
+        Notes:   This is a repeatable quest so players can get the ring.	
+				  
+        Paths:   /d/Terel/common/moor/cottage/cellar.c is where the safe is.
+                 /d/Terel/common/moor/obj/al_powder
+                 /d/Terel/common/moor/obj/flower_pot
+                 /d/Terel/common/moor/obj/rust_flakes
+                 /d/Terel/common/moor/obj/ribbon				 
+                 /d/Terel/common/moor/obj/thermit
+                 /d/Terel/common/moor/obj/safe
+                 /d/Terel/common/moor/obj/cracked_safe
+                
+                 /d/Terel/common/moor/obj/safe_ring
+                 /d/Terel/common/moor/obj/goblet				 

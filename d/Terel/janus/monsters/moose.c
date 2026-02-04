@@ -1,0 +1,67 @@
+ /* large moose.c */
+ /* janus 920621 */
+ 
+inherit "/std/creature";
+inherit "/std/combat/unarmed";
+
+inherit "/std/act/domove";
+inherit "/std/act/action";
+inherit "/std/act/attack";
+
+#include <wa_types.h>
+#include <ss_types.h>
+#include "/sys/macros.h"
+#include "/sys/stdproperties.h"
+
+create_creature()
+{
+  int alig;
+  if (!IS_CLONE) return;
+  alig=random(100)-40;
+  set_name(({"moose"}));
+  set_short("light brown moose");
+  set_long("From the large antlers you recognize this animal as a moose.\n");
+  set_adj(({"brown","large"}));
+  set_race_name("animal");
+  set_alignment(alig);
+  set_stats(({35,25,40,4,4,20}));
+  set_aggressive(0);
+  set_hp(1600);
+  set_gender(random(1));
+  set_act_time(21);
+  add_act(({"strut","glare"}));
+  set_skill(SS_DEFENCE,random(15));
+  add_prop(OBJ_I_WEIGHT, 600000);
+  add_prop(OBJ_I_VOLUME, 600000);
+  add_prop(CONT_I_MAX_WEIGHT, 700000);
+  add_prop(CONT_I_MAX_VOLUME, 700000);
+  set_whimpy(0);
+}
+
+#define A_BUTT  0
+#define A_TRAM  1
+
+#define H_HEAD 0
+#define H_BODY 1
+#define H_LEGS 2
+
+public void
+cr_configure()
+{
+    add_attack(40,50,W_BLUDGEON,75,A_BUTT);
+    add_attack(45,45,W_BLUDGEON,25,A_TRAM);
+
+    add_hitloc( ({ 17, 17, 17 }), 35, "head", H_HEAD);
+    add_hitloc( ({ 6, 6, 6 }), 45, "body", H_BODY);
+    add_hitloc( ({ 6, 6, 6 }), 20, "legs", H_LEGS);
+}
+
+public string
+cr_attack_desc(int aid)
+{
+    switch(aid)
+    {
+    case A_BUTT:return "head butt";
+    case A_TRAM:return "trample";
+    }
+}

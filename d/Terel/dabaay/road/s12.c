@@ -1,0 +1,65 @@
+/* This comment tells emacs to use c++-mode -*- C++ -*- */
+
+/*
+ * s12.c
+ * Road from Dabaay
+ *
+ * Goldberry August 23, 1999 
+ */
+
+#include "/d/Terel/include/Terel.h"
+#define  DAB_ROAD DABAAY_DIR + "road/"
+#define  DAB_NPC DABAAY_DIR + "npc/"
+#define  JENGLEA_LOC DABAAY_DIR + "obj/jenglea_loc"
+
+inherit DAB_ROAD + "road";
+
+public string*
+query_moving_object_list()
+{
+    object jenglea_logger;   
+    mixed  log_there = find_object(JENGLEA_LOC);
+    if(objectp(log_there)) 
+      jenglea_logger = find_object(JENGLEA_LOC);
+    else
+      jenglea_logger = clone_object(JENGLEA_LOC);
+
+    if (jenglea_logger->query_locale("s12"))
+    {
+        return (({DAB_NPC + "jenglea"}));
+    }
+}
+
+
+/*
+ * Function name: create_room
+ * Description:   Default constructor
+ */
+public void
+create_room()
+{
+    ::create_room();
+    set_short("On a dirt road in a dense forest");
+    set_long(
+        "You are on a tree-lined dirt road that curves from the northwest "+ 
+        "to the south. A variety of trees and shrubs line the road on the "+
+        "sides. The forest looks a bit darker to the northwest.\n");
+    
+    add_item(({"forest","forests"}),
+        "Trees and shrubs of various species, line the road on all "+
+        "sides.\n");
+
+    add_item(({"tree","trees"}),
+        "You can see several different varieties of trees. From conifers "+
+        "and pines, to old oaks and cedars, the forests seem to thrive with "+
+        "ancient life.\n");
+
+    add_item(({"shrub","shrubs","bush","bushes"}),
+        "Various evergreens and leafy vines contend for the remaining "+
+        "soil among the trees.\n");
+
+    
+    add_exit(DAB_ROAD + "s11", "northwest", 0);
+    add_exit(DAB_ROAD + "s13", "south", 0);
+    reset_room();
+}

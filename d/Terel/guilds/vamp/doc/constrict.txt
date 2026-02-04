@@ -1,0 +1,49 @@
+
+
+Constrict
+====================
+Guild type          : Occupational
+Effect              : Harm a living through crushing telekinetic attack
+                      
+Spell Time          : Default (6 seconds/1 heartbeat)
+Mana cost           : 36
+Min Vamp Stat       : 80
+Difficulty          : TASK_ROUTINE 
+Peaceful            : No
+Stationary          : No
+Spell Class Level   : Class 3  -- Intermediate Spells
+Area of effect      : One Living
+Duration            : Instant Attack spell
+Somatic Component   : Blood (2 blood)
+Material Component  : Diamond (swallowed, 4 + random(6) charges per)
+Vocal Component     : No
+Tax                 : 1.13%
+Combat Aid          : F_PENMOD(60,100) = 396 (41% aid after subtracting 
+                      lost weapon swings)
+Files:              : spells/constrict.c
+
+Tax calculation:
+----------------
+Base tax for class 3 is 0.5% for occ spell.
+Missing verbal component:            150% normal cost.
+Component cost is >=1 gp           : -25%
+Modifier x2 for reducing mana.
+
+Tax: (0.5% * 1.5) * 0.75 * 2 = 1.13 %
+                               =====              
+                               
+Mana calculation:
+Base mana for class 3 is 120-159.  
+Element skill: 60 points of SS_ELEMENT_AIR
+Form skill:    60 points of SS_FORM_CONJURATION
+
+Base Mana cost is 120
+                               
+Area of Effect - One object................................ x1
+Difficulty (Routine )...................................... x1
+Components (no verbal)..................................... x1.5
+Components (>=1 gp value).................................. x0.8
+Reduction by increased x2 tax.............................. x0.5 
+Duration instant (attack spell)............................ x0.5
+
+120 * 1 * 1 * 1.5 * 0.8 * 0.5 * 0.5 = 36

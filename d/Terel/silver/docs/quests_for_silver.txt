@@ -1,0 +1,71 @@
+	CARAVAN DEFENCE
+
+Defines: nothing yet
+Programmed: Udana (and possibly Pasqua)
+Problem:  Defend the caravan. The caravan is travelling through the road, the
+	bandits attack it few times in small groups (capable of killing one
+	or two guards) and in large group with good leader once. On the big
+	attack they also set a trap on the road (a log crossing the road). 
+	The quest is considered solved when the caravan reaches its
+	destination (north gate of calathin or cornerstone depending on its
+	direction). The bandits want attack the caravan unless there is a
+	player involved.
+Solution: Go with the caravan through the forest and kill bandits attacking
+	it. The less guards will die in small attacks the more will be there
+	on the main one.
+Skills: Combat skills and stats for fighting. Average strength for moving the
+	log, so the caravan can go pass the trap.
+Risks:  Death during the attacks. The leader will be equpied with those nasty
+	arrows I mentioned before.
+XP-Scale: The quest will take some amount of time, and will be quite dangerous. 
+	I suggest fair reward for it.
+Remark:   The quests has two sides - see below.
+
+
+	CARAVAN ATTACK
+
+Defines: nothing yet
+Programmed: Udana (and possibly Pasqua)
+Problem: Attack the caravan (see above). Bandits will attack with player only
+	at one spot (the location with log blocking the road), but he's free 
+	to attack caravan as many times as he likes before it. The quest is
+	considered solved if the caravan doesn't goes past the log room.
+Solution: Kill all the caravan members in the log room without leaving the 
+	log unprotected (if neither player nor living bandit is in the room
+	caravan guards will move the log). Optionally player can weaken caravan
+	before it reaches the trap.
+Skills: Combat skills and stats for fighting.
+Risks: 	Death during the fight, caravan guards has no powerfull leader though.
+XP-Scale: Simillar to one above.
+Remark: Both sides can be attempted at the same time. Moving the log becomes a
+	competetive task then.
+
+
+	BANDIT TREASURE ROOM
+
+Defines: nothing yet
+Programmed: Udana (it's changed quest I have planned for Krynn)
+Problem: Gain access to the treasure room of bandit group in the silver forest. 
+	The room with an entrance is randomly placed in the forest, to open the 
+	secret door player must collect a password and an ecryption code.
+	
+	- The password is in possession on bandit leader (the same one that 
+	appears in good align version of caravan quest), he can be found on the
+	road during the caravan defence quest, or in bandit hideout 
+	(to be coded soon)
+	
+	- The encryption code is scraped on a rock in other location in the forest.
+
+	Player will be hinted on where too look for both pieces, and about the
+	encryption method (Cesar encryption) but he has to decode the password
+	himself.
+Solution: Kill the bandit lord, find the rock with the key, decrypt the passowrd,
+	utter it in the treasure hold entrance room, enter.
+Skills: Fighting skills and stats for defeating the lord and his minions defending
+	him.
+Risks:	Death during the fight with the lord, frustration from not beeing able to
+	decode the passowrd. ;)
+XP-Scale: No only player have to defeat a powerfull enemy but also solve a puzzle,
+	reward should be remarkable.
+Remark: If you need any further information on decryption method, drop me a mail.
+	

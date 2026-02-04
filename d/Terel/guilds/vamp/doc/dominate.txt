@@ -1,0 +1,66 @@
+
+
+Dominate
+====================
+Guild type          : Occupational
+Effect              : The caster takes limited control of an NPC.  The
+                      caster can command the NPC to do simple things
+                      like speak and bow.  Also, if a PC enters the
+                      room, the caster will be remotely informed of the 
+                      race and potentially up to one word of the PC's
+                      description.  The NPC can only be commanded to do 
+                      emotes and speech, and the vampire must be in the
+                      room to do so.
+                      
+                      So basicly this is just a thematic spell, which can
+                      also let the vampire know some vague details if some 
+                      player has passed by the dominated creature.
+                      
+                      This cannot be cast on players.
+                      
+                      
+Spell Time          : Default (6 seconds/1 heartbeat)
+Mana cost           : 105
+Minimum Vamp Stat   : 110
+Difficulty          : TASK_ROUTINE 
+Peaceful            : Yes
+Stationary          : No
+Spell Class Level   : Class 2  -- Basic
+Area of effect      : One Living
+Duration            : > 1 hour (3 hours max)
+Somatic Component   : Blood (2 blood)
+Material Component  : Blood (Mana / 8) (13 blood)
+Vocal Component     : Yes
+Tax                 : 0.50%
+Combat Aid          : 0%
+
+Files:              : spells/dominate.c
+                      spells/obj/dominate_obj.c
+                      shadow/occ_shadow.c
+                      soul/compel.c
+
+
+Tax calculation:
+----------------
+Base tax for class 2 is 0.50% for occ spell.
+Double tax for half mana cost
+
+Tax: (0.25% ) * 2.0              = 0.50 %
+                                   =====                         
+
+Mana calculation:
+Base mana for class 2 is 60-119.  
+Element skill: 30 points of SS_ELEMENT_DEATH
+Form skill:    40 points of SS_FORM_ILLUSION
+                                  
+Base Mana cost is 70.
+              
+Area of Effect - One object................................ x1
+Casting Time < 5 heartbeats................................ x1
+Difficulty (Difficult)..................................... x0.5
+Duration > 1 hour.......................................... x2
+Area of Effect - Object in another room.................... x3
+Half mana cost............................................. x0.5
+
+70 * 1.0 * 1.0 * 0.5 * 2.0 * 3.0 * 0.5 = 70
+

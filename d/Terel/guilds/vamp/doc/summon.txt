@@ -1,0 +1,44 @@
+
+
+Summon
+====================
+Guild type          : Layman
+Effect              : The vampire summons a wolf/bat/rat messenger
+                      
+Spell Time          : Default (6 seconds/1 heartbeat)
+Mana cost           : 28
+Minimum vamp stat   : 30
+Difficulty          : TASK_ROUTINE 
+Peaceful            : Yes
+Stationary          : Yes
+Spell Class Level   : Class 1  -- Very minor spells
+Area of effect      : Caster
+Duration            : Instant
+Somatic Component   : Blood (2 blood)
+Material Component  : Blood (Mana cost / 4)  = 7 blood
+Vocal Component     : Yes
+Tax                 : 0.25%
+Combat Aid          : 0%
+Files               : spells/summon.c
+                      spells/obj/messenger.c
+
+Tax calculation:
+----------------
+Base tax for class 1 is 0.25% for lay spell.
+
+Tax: (0.25% )            = 0.25 %
+                           =====                         
+Mana calculation:
+Base mana for class 1 is 20-59.  
+Element skill: 20 points of SS_ELEMENT_DEATH
+Form skill:    20 points of SS_FORM_CONJURATION
+
+Base Mana cost is 40.
+
+Area of Effect - One object................................ x1
+Casting Time < 5 heartbeats................................ x1
+Difficulty (Routine )...................................... x1
+Duration instant (non-attack spell)........................ x0.7
+
+
+40 * 1 * 1 * 1 * 0.7 = 28

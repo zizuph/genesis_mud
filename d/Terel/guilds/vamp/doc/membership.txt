@@ -1,0 +1,96 @@
+
+Membership
+==========
+
+Any player that is not undead is able to join the Bloodguards.  To do so,
+they must offer their blood to the statue, who will then give them the
+chance to drink a bit of blood in return.  They will grow fangs and then
+be able to use the bite special.
+
+Once a member is a Bloodguard, they should find a master.  This is a 
+vampire who they guard - a vampire may have as many bloodguards as they
+wish, though a Bloodguard will have no master, or one master.  Some of
+the magic spells of the Bloodguard cannot be used without a master.
+
+The Bloodguard cannot gain access to the rooms beyond the statue unless
+they either have a master, or have been explicitly allowed in by any
+vampire.  This restricts access to the start room, racks, library and
+post office, which are intended for those who the Coven trusts.  At any
+time a vampire can reject or accept a present Bloodguard to change their
+status.
+
+As a Bloodguard, they have a subset of the vampire emotes, mostly
+involving their fangs. 
+
+The Bloodguard may willingly leave the layman guild, though the statue
+will kill them for doing so. They are warned that death is the only
+way out before they joined the guild.
+
+Vampires can come from one of two sources - first, they can be converted
+by the statue from the old vampire guild. They will retain their old
+guild stat, but must leave any racial guild they have joined before they
+can do so. Most other relevant information (age, sire, generation) is
+copied over automatically, and the Covenmaster maintains that role in
+the new guild.
+
+Any vampire can also turn a Bloodguard into a vampire - but the new one
+must have been a vampire for a minimum period of time. The Bloodguard
+will die for this, as this is the usual cost of joining the guild.  Upon
+doing so, they will be converted from a Bloodguard into a Vampire, with
+their guild stat being moved from layman to occupational slot. Their
+Sire must have been the Bloodguard's current master.
+
+A vampire may willingly leave the Coven at any time.  They do not take
+a second death, as they have already had the penalty of dying.
+
+A vampire may be expelled, which requires two steps.  First, a vote must
+take place (described below) to remove them. Second, they must be killed,
+or have their coffin destroyed while they sleep in it. In the case of 
+'coffin death' there is no actual death - they are simply removed from the 
+guild. Any vampire who wakes to a destroyed coffin will start in the
+statue room, at barely alive, or back in Sparkle, if they were voted out.
+
+Any vampire that is in the process of being voted out, will fail to have
+new children - embraced bloodguards will simply die.  Similarly, if
+the vampire has lost the vote of expulsion, they cannot take new
+children, or flood the guild with members in an attempt to spoil it.
+They will still be a vampire until killed through coffin or death.
+
+
+Council
+==========
+
+All vampires of a certain age in the guild have the ability to vote on
+two issues - to expel a vampire, and to vote in a new Covenmaster.  The
+Covenmaster may also willingly hand their position to another vampire.
+
+The Covenmaster has a few responsibilities.  First, they control the
+title systems for both the Bloodguards and Vampires.  They can create
+the exp-based titles and the honorary titles for any of these.
+
+Second, the Covenmaster's vote carries more weight in any vote - this 
+will likely be 1/4 to 1/3 of all votes on an issue.
+
+Voting
+==========
+
+Any vampire may start a vote. There are two things that they may vote on -
+to take control of the Coven as Covenmaster, and to expel another member.
+These votes are started in the statue room.  Every member, when they
+login, is given the chance to vote on outstanding issues.  If the 
+Covenmaster's rule is challenged, they will automatically vote against it,
+and a vampire to be expelled will similarly vote in their own best
+interest.  Neither will be made aware that the vote is taking place.
+
+Each vote will run for 4 weeks - a long time, but suitable since the
+guild members are often asleep for long periods of time.
+
+Any vampire that starts a vote must risk their life - if the vote fails,
+they will be killed for sowing dissent within the Coven.  In order for
+the vote to succeed, at least 3 vampires must vote for it, as well as
+the majority count.  As mentioned above, the Covenmaster's vote will
+carry more weight, as they have greater responsibility within the guild.
+This will likely translate to 1/4 or 1/3 of the total count - meaning
+that the large majority of the guild will have to disagree in order for
+the Covenmaster's vote to be overridden.
+

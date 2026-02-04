@@ -1,0 +1,49 @@
+
+
+Mesmerize
+====================
+Guild type          : Occupational
+Effect              : This spell causes a 10 second stun for the
+                      enemy affected.  The opponent is NOT paralyzed.
+                      
+Spell Time          : Default (6 seconds/1 heartbeat)
+Mana cost           : 144
+Min Vamp Stat       : 140
+Difficulty          : TASK_ROUTINE 
+Peaceful            : No
+Stationary          : No
+Spell Class Level   : Class 3  -- Advanced
+Area of effect      : Caster
+Duration            : < 1 minute
+Somatic Component   : Blood (2 units)
+Material Component  : Blood (Mana / 8) = 18 blood
+Vocal Component     : No
+Tax                 : 0.75%
+Combat Aid          : 0%
+
+Files:              : spells/mesmerize.c
+                      spells/obj/mesmerize_obj.c
+
+
+Tax calculation:
+----------------
+Base tax for class 3 is 0.50% for occ spell.
+No vocal component: 150% cost
+
+Tax: (0.50% ) * 1.5          = 0.75 %
+                               =====                         
+Mana calculation:
+Base mana for class 1 is 20-59.  
+Element skill: 60 points of SS_ELEMENT_AIR
+Form skill:    60 points of SS_FORM_ILLUSION
+
+Base Mana cost is 120.
+
+Area of Effect - One object................................ x1
+Casting Time < 5 heartbeats................................ x1
+Duration < 1 minute........................................ x0.8
+Difficulty (Routine )...................................... x1
+Components (no verbal)..................................... x1.5
+
+
+120 * 1 * 1 * 0.8 * 1 * 1.5 = 144

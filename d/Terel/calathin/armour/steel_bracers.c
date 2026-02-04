@@ -1,0 +1,25 @@
+/*
+ * A bracers for the arena of Calathin.
+ * Coded by Shinto 7-20-99
+ *
+ */
+
+#include <wa_types.h>
+#include "/d/Terel/include/Terel.h"
+
+inherit STDARMOUR;
+
+public void
+create_terel_armour()
+{
+    set_name("bracers");
+    set_short("pair of steel bracers");
+    set_adj(({"steel", "plate"}));
+    set_long("A pair of steel bracers. Light armour providing "+
+                  "some protection.\n");
+
+    set_default_armour(30, A_ARMS, 0, 0);
+    
+    add_prop(OBJ_I_VALUE,            200);
+    add_prop(OBJ_I_WEIGHT,          800);
+}

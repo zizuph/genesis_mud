@@ -1,0 +1,48 @@
+
+
+Doll
+====================
+Guild type          : Occupational
+Effect              : Create an illusionary clone of another vampire.
+                      This doll follows the caster around until
+                      dispelled.
+                      
+                      The doll is nothing more than an image to simulate
+                      the vampire hunting in a pack.
+                      
+Spell Time          : Default (6 seconds/1 heartbeat)
+Mana cost           : 80
+Minimum Vamp Stat   : 75
+Difficulty          : TASK_DIFFICULT
+Peaceful            : Yes
+Stationary          : Yes
+Spell Class Level   : Class 2  -- Basic
+Area of effect      : One Living
+Duration            : Permanent (until attacked or dispelled)
+Somatic Component   : Blood (2 blood)
+Material Component  : Blood (Mana / 4) (20 blood)
+Vocal Component     : Yes
+Tax                 : 0.25%
+Combat Aid          : 0%
+Files               : spells/doll.c
+                      spells/obj/doll_obj.c
+                      shadow/move.c
+
+Tax calculation:
+----------------
+Base tax for class 2 is 0.25% for occ spell.
+Tax: (0.25%                  = 0.25%
+                               =====                         
+
+Base mana for class 2 is 60-119.  
+Element skill: 40 points of SS_ELEMENT_AIR
+Form skill:    40 points of SS_FORM_DIVINATION
+
+Base Mana cost is 80
+
+Area of Effect - One object................................ x1
+Casting Time < 5 heartbeats................................ x1
+Difficulty (Difficult)..................................... x0.5
+Duration > 1 hour.......................................... x2
+
+Cost: 80 * 1 * 1 * 0.5 * 2.0 = 80
