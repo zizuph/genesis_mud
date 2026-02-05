@@ -1,0 +1,39 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 22: Using Weapons                                | |
+|                                                                           | |
+| Weapons are one of the most important things you can own in Genesis as    | |
+| they make a huge difference in the amount of damage you can deal in       | |
+| combat. They are often available for purchase in shops, but can also be   | |
+| fairly easily found by killing enemies and taking their loot. Obviously,  | |
+| the more skill you have trained in a certain weapon type, the more damage | |
+| you do with that kind of weapon. Once you own a weapon, you can use these | |
+| commands:                                                                 | |
+|                                                                           | |
+|   <wield>    - Equip the weapon for combat. Some weapons are designed to  | |
+|                be wielded in just one hand, while others will require two.| |
+|   <unwield>  - Unequip the weapon you are currently wielding.             | |
+|   <appraise> - Display the properties of a weapon, and try to judge its   | |
+|                value. Do <help appraise> for more details.                | |
+|   <compare>  - Using this command you can sometimes get useful insight    | |
+|                into which of two weapons is better. Beware, however, that | |
+|                low skill levels in "appraise object" can result in very   | |
+|                wrong information when you use <compare>. When in doubt,   | |
+|                the more expensive weapon is typically the best. (note:    | |
+|                you can't compare weapons listed in the shop, only those   | |
+|                in your inventory or on the ground.)                       | |
+|                                                                           | |
+| Warning: Wielding two weapons at the same time REDUCES your effectiveness | |
+|          in combat unless you have two-handed combat skill, which is not  | |
+|          offered in the tutorial.                                         | |
+| Also:    Know that at beginner levels, unarmed combat tends to do more    | |
+|          damage than low-level weapons. It is recommended that you max    | |
+|          your unarmed combat skill and fight without wielding anything at | |
+|          first.                                                           | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |
+

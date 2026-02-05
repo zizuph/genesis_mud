@@ -1,0 +1,40 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 14: Skill Training                               | |
+|                                                                           | |
+| In an Adventurer Guild such as this, the available commands are:          | |
+|                                                                           | |
+| <learn> - You must first learn a skill before you are able to improve it. | |
+|           Simply typing <learn> will give you a list of available skills  | |
+|           you have yet to learn here. <learn skillname> will learn a      | |
+|           specific skill for the cost of a single copper coin.            | |
+|                                                                           | |
+| <improve> Once you have learned a skill, you can increase your level of   | |
+|           mastery with this command. Simply typing <improve> will give    | |
+|           you a list of skills you are able to improve here. To improve a | |
+|           specific skill type <improve skillname>. You may also type      | |
+|           <improve skillname x> where x is the number of levels you wish  | |
+|           to improve it all at once (e.g. <improve unarmed combat 5).     | |
+|           As skills increase in level, they become more expensive to      | |
+|           train.                                                          | |
+|                                                                           | |
+| To see a list of the skills you have learned, you can type <skills> from  | |
+| anywhere in the game. You can also ask for a list of just a specific      | |
+| branch of the skills (e.g. <skills fighting>.)                            | |
+|                                                                           | |
+| It is recommended that you train defence and unarmed combat as high as    | |
+| you can to aid you in fighting through the rest of the tutorial.          | |
+|                                                                           | |
+| Here, you can <ask> the trainer about any of the skills offered here for  | |
+| a brief description of the skill in question.                             | |
+|                                                                           | |
+| Also, should you ever "fail to adopt" what is being taught, it means you  | |
+| will need to go gain a bit more experience through combat, questing, or   | |
+| searching for herbs before you can train further in that skill.           | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |
+

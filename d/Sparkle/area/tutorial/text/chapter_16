@@ -1,0 +1,35 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 16: Food and Fatigue                             | |
+|                                                                           | |
+| When using the <v> command to check your vital statistics, you are given  | |
+| a list of many important aspects of your current condition. The "fatigue" | |
+| and "stuffed" levels appear on the second and third line of the list,     | |
+| respectively.                                                             | |
+|                                                                           | |
+| "Fatigue" - This vital statistic tells you how tired you are. Travelling  | |
+|             between rooms in the game will gradually tire you out. Also,  | |
+|             combat can quickly increase your fatigue level. Having a      | |
+|             higher constitution can help this, but the most important     | |
+|             cure for fatigue is to keep yourself well-fed by eating food. | |
+| "Stuffed" - This vital statistic tells you how much more you can eat      | |
+|             before becoming too full to eat another bite. The more full   | |
+|             you are, the greater the rate at which you recover from       | |
+|             fatigue will be.                                              | |
+|                                                                           | |
+|            "Stuffed" Levels:               "Fatigue" Levels:              | |
+| ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ | |
+|             eat quite a lot more            alert                         | |
+|             eat a lot more                  weary                         | |
+|             eat some more                   tired                         | |
+|             eat a little more               exhausted                     | |
+|             barely eat more                                               | |
+|                                                                           | |
+| In inns such as this, you can usually <read menu> to buy some food.       | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |
+

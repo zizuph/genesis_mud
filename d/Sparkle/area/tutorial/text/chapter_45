@@ -1,0 +1,36 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 45: Quicktyper Commands                          | |
+|                                                                           | |
+| The game has some built-in functionality intended to help players conserve| |
+| keystrokes. These Quicktyper commands mean you have to type less. The     | |
+| first of these is the alias command. It allows you to create a shortcut   | |
+| so that you don't have to type the entire command:                        | |
+|                                                                           | |
+|   <alias>         - show a list of your shortcuts                         | |
+|   <alias x>       - show the current definition of shortcut x             | |
+|   <alias x cmd>   - assign a command to alias x                           | |
+|   <unalias x>     - remove the x alias from your list of shortcuts        | |
+|                                                                           | |
+| An example of such usage works well for herb searching. For instance you  | |
+| could type <alias he search here for herbs> which would mean that in the  | |
+| future, every time you type <he> the game will think you typed <search    | |
+| here for herbs.> It really cuts down on typing time.                      | |
+|                                                                           | |
+| The second command we'll discuss is the do command. It allows you to      | |
+| execute a series of commands in sequence, separated by a slight pause:    | |
+|                                                                           | |
+|   <do cmd1, cmd2, cmd3> - execute cmd1, cmd2, and cmd 3 in sequence.      | |
+|                                                                           | |
+| Used in conjunction with the alias functionality, it can make travelling  | |
+| much easier. For example, typing the following will create an alias that  | |
+| takes you from the hilltop to the crossroads:                             | |
+|                                                                           | |
+|   <alias hill2cross do n,n,n,e,ne,n,n,n,n,n>                              | |
+|   <help quicktyper> - get a full list of the quicktyper commands.         | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |

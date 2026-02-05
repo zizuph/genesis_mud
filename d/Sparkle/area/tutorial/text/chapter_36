@@ -1,0 +1,31 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 36: Combat!                                      | |
+|                                                                           | |
+| Combat is one of the most integral parts of adventuring in Genesis. Once  | |
+| battle is begun, you automatically use your wielded weapon and begin      | |
+| trying to kill your opponent. Important commands:                         | |
+|                                                                           | |
+|   <kill>                Try to attack something, or change your target.   | |
+|   <health all>          Check the health levels of everyone in the room.  | |
+|   <stop fighting>       Try to stop the fight. Both parties must do this. | |
+|   <get all from corpse> Take the spoils of battle to keep or sell.        | |
+|                                                                           | |
+| And then, in the options menu:                                            | |
+|                                                                           | |
+|   <options unarmed on/off>   Toggle whether to fight with weapon or fists.| |
+|   <options gagmisses on/off> Toggle whether you wish to see misses while  | |
+|                              in combat.                                   | |
+|                                                                           | |
+| After you have killed your opponents, they will fall to the ground dead,  | |
+| and become a corpse. Eventually, these corpses will rot away, leaving     | |
+| an empty room. After some time has passed, the enemies will usually       | |
+| come back to the room. In other words, once you clean out an area, wait a | |
+| while, and then try back later for more kills.                            | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |
+

@@ -1,0 +1,32 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 23: Using Armours                                | |
+|                                                                           | |
+| Much like weapons, armours are extremely important in Genesis as they     | |
+| make an important difference in the amount of damage you receive in       | |
+| combat. Armours are often available for purchase in shops, but can also   | |
+| be fairly easily found by killing enemies and taking their loot. Once you | |
+| own a piece of armour, you can use these commands:                        | |
+|                                                                           | |
+|   <wear>     - Equip the armour for combat.                               | |
+|   <remove>   - Unequip a piece of armour you are currently wearing.       | |
+|   <appraise> - Display the properties of any armour, and try to judge its | |
+|                value. Do <help appraise> for more details.                | |
+|   <compare>  - Using this command you can sometimes get useful insight    | |
+|                into which of two armours is better. Beware, however, that | |
+|                low skill levels in "appraise object" can result in very   | |
+|                wrong information when you use <compare>. When in doubt,   | |
+|                the more expensive armour is typically the best. (note:    | |
+|                you can't compare armours listed in the shop, only those   | |
+|                in your inventory or on the ground.)                       | |
+|                                                                           | |
+| Armours cover specific locations of the body which are vulnerable in      | |
+| combat. The four hit-locations include head, body, arms, and legs.        | |
+| Shields can occupy a fifth slot so long as one has a hand free to hold    | |
+| them.                                                                     | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |

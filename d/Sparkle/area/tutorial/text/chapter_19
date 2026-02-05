@@ -1,0 +1,32 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 19: The Help Command and the Rules               | |
+|                                                                           | |
+| The library of greenhollow is dedicated to knowledge, and much knowledge  | |
+| can be gained with the <help> command:                                    | |
+|                                                                           | |
+|  <help>         Brings up a page on the useage of the help command.       | |
+|  <help topics>  Brings up a list of topics on which you can get more      | |
+|                 information using the <help command>.                     | |
+|  <help x>       Brings up a help page detailing the usage on topic x.     | |
+|                                                                           | |
+| As you read help files, you will often see a line that looks like so:     | |
+|                                                                           | |
+|  -- More -- 30/82 -- (<cr> t b r n a <num> q x !<cmd> h ?)                | |
+|                                                                           | |
+| This is invoked when the amount of information exceeds the amount we want | |
+| to display all at once, so you don't scroll your screen. To continue      | |
+| reading, simply hit 'enter' each time you are ready to continue until all | |
+| of the information has been presented.                                    | |
+|                                                                           | |
+| ** IMPORTANT! ** Genesis, like any game, has rules that need to be        | |
+| followed. You should do <help rules> to familiarize yourself with the     | |
+| policies that govern player behavior. Failure to follow the rules of the  | |
+| game can lead to deletion of your character. Ignorance is not an excuse.  | |
+|                                                                           | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |

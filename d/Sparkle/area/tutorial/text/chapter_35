@@ -1,0 +1,22 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 35: Dealing with Quest NPCs                      | |
+|                                                                           | |
+| One of the tricky things about quests is dealing with the syntax that is  | |
+| required to complete tasks. Because Genesis has been created by many      | |
+| wizards, each with their own ideas, you will need to experiment with what | |
+| makes sense. This being said, there are some fairly standard ways in      | |
+| which quests tend to operate. First and foremost, quests are often given  | |
+| to players by specific NPCs. These NPCs often respond to being <ask>ed    | |
+| keywords such as "quest", "task", or "help". All three of those words     | |
+| will function with Farmer Brown's wife here. Try talking to her about     | |
+| the quests she gives out, using the <ask> command:                        | |
+|                                                                           | |
+|     <ask woman help> - Ask the NPC a keyword to trigger quest progress.   | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |
+

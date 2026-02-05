@@ -1,0 +1,35 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 31: Save, Armageddon, and Recovery               | |
+|                                                                           | |
+| Saving is an important thing to do if you have just done something in the | |
+| game that you feel is important and needs to be immediately saved to disk.| |
+| Typically, it is a good idea to type <save> when you complete a quest.    | |
+|                                                                           | |
+| The room you are standing in is a special room for your race that can be  | |
+| selected as a start location. There are a few special circumstances about | |
+| start locations that are worth noting. Once in a while, a being named     | |
+| Armageddon will restart the game. When he does, you will be forced to log | |
+| out after a short period of time. Armageddon will give you the option to  | |
+| be teleported back to your start location when he arrives. From your      | |
+| start location, you can use the <save> command for another purpose. In    | |
+| your start location typing <save> will give you a list of which items in  | |
+| your inventory are "glowing." Glowing items will stay with you if you     | |
+| type <quit> when you are at your start location. Then, when you log       | |
+| back in, you will recover the glowing items that were in                  | |
+| your inventory when you quit. Be sure to sell any non-glowing items       | |
+| before you quit to get some much-needed money.                            | |
+|                                                                           | |
+|   <start here>    - set this room to be your start location from now on.  | |
+|   <save>          - Save to disk your current character. If typed from a  | |
+|                     start location, print a list of your glowing items.   | |
+|   <help recover>  - Get comprehensive information on item recovery.       | |
+|   <help armageddon> Get comprehensive information on Armageddon.          | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |
+
+

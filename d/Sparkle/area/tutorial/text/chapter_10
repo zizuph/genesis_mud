@@ -1,0 +1,29 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 10: NPCs and Conversation                        | |
+|                                                                           | |
+| As you might expect, you aren't the only person in Genesis. Aside from    | |
+| the many real players like yourself who wander the realm, Genesis is      | |
+| populated by many non-player characters (NPCs) as well. Interaction with  | |
+| other people is a big part of the game. You can use the commands:         | |
+|                                                                           | |
+| <say>     - to speak to everyone in the room.                             | |
+| <rsay>    - to speak in your racial tongue (understood by your race)      | |
+| <whisper> - to speak privately to one person in the room.                 | |
+| <ask>     - to ask a private question to one person in the room.          | |
+| <shout>   - to shout loudly enough to be heard even in adjacent rooms.    | |
+|                                                                           | |
+| The friendly old elf who is standing here is actually an NPC. While many  | |
+| NPCs in the game will not respond to you, some are capable of carrying    | |
+| on a conversation. The <ask> command is often useful when trying to talk  | |
+| to an NPC. If you stand here for a short time, you will hear this elf     | |
+| speak. Often, a good way to get a conversation going is to use a key word | |
+| that the NPC has mentioned, and <ask npcname keyword>.                    | |
+|                                                                           | |
+| Try talking with this NPC. If you get stuck, you can type <hint>.         | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |

@@ -1,0 +1,21 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 1: Moving Around                                 | |
+|                                                                           | |
+| Genesis is a game of exploration. The first basic principle of exploring  | |
+| the MUD is knowing how to get from place to place. In the game, we do     | |
+| this by typing direction commands (north, southwest, up, down, etc.) You  | |
+| can see below any room description the obvious exits available. To go     | |
+| in any of these directions, you can simply type <north>, <west>, <east>   | |
+| or <south> as a command. The game also accepts abbreviations for all      | |
+| of the compass directions - n, ne, e, se, s, sw, w, nw, u, d. If you try  | |
+| to go a direction that is not one of the obvious exits, the game will     | |
+| usually tell you that you cannot go in that direction. Moving around is   | |
+| one of the primary things to do in the game. Go forth - explore!          | |
+|                                                                           | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |

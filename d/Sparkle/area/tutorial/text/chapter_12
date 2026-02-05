@@ -1,0 +1,32 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 12: Adventurer Guilds - Meditation               | |
+|                                                                           | |
+| Adventurer Guilds are where players can come to improve their skills and  | |
+| set preferences as to which stats they wish to advance more than others.  | |
+| This Adventurer Guild has two floors each dedicated to different aspects  | |
+| of character improvement and modification. Climbing the stairs will take  | |
+| you to rooms in which you can improve your skills.                        | |
+|                                                                           | |
+| Meditation is available in most adventurers guilds. Typically, a rug or   | |
+| carpet on the floor will allow a player to <meditate>. During meditation, | |
+| a player has numerous opportunities: (during meditation)                  | |
+|                                                                           | |
+|   <set> - allows a player to set a primary and secondary stat to improve  | |
+|           at a rate higher than all others. You may also flatline your    | |
+|           stat preferences so that all stats rise at an equal rate.       | |
+|   <restrict> - Big test coming up? Deadline at work? Sometimes we need    | |
+|                a way to "assist" our ability to stay away from the game   | |
+|                for a while. This command gives you that power.            | |
+|   <rise> - This command ends the meditation.                              | |
+|                                                                           | |
+| Also during meditation, you are given a list of all of your statistics,   | |
+| and an indication as to how close you are to reaching the next level in   | |
+| that attribute. Additionally, you are told in what way your statistics    | |
+| are currently <set> in terms of preferences.                              | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |

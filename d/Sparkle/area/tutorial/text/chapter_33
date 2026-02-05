@@ -1,0 +1,37 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 33: Health and Wimpying                          | |
+|                                                                           | |
+| When you type <v>itals, the first description you see is your current     | |
+| health level. The levels of health are as follows:                        | |
+|                                                                           | |
+|        feeling very well                 very hurt                        | |
+|        feeling well                      in a bad shape                   | | 
+|        sore                              in agony                         | |
+|        slightly hurt                     in a very bad shape              | |
+|        somewhat hurt                     terribly hurt                    | |
+|        aching                            barely alive                     | |
+|        hurt                              at death's door                  | |
+|        suffering                                                          | |
+|                                                                           | |
+| Outside of Greenhollow, you are subject to physical harm, and will find   | |
+| yourself dropping in health levels through combat. Health returns over    | |
+| time, speeded by your level of intoxication.                              | |
+|                                                                           | |
+| Wimpying occurs when your health level drops below a certain level,       | |
+| causing you to automatically flee from combat. It is a good idea to set   | |
+| your wimpy level fairly low until you are more familiar with the game.    | |
+| If your health should fall below death's door, you will die. To set your  | |
+| wimpy level, use the options command:                                     | |
+|                                                                           | |
+|       <options wimpy very hurt> - This will set you to flee when roughly  | |
+|                                   half of your hitpoints are gone. You    | |
+|                                   can use any of the other levels, too.   | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |
+
+

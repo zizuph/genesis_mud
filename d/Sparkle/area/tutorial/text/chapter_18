@@ -1,0 +1,37 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 18: Introductions and the Who List               | |
+|                                                                           | |
+| Genesis is a social game, and sooner or later you will encounter other    | |
+| human players like yourself. When you do, you will not know their names   | |
+| at first. Rather, you will see their description (e.g. "a tall blue-eyed  | |
+| male gnome"). Likewise, they will not know your name. Here are some       | |
+| important commands to use when you meet other players:                    | |
+|                                                                           | |
+| <introduce myself>       Show your name to everyone in the room.          | |
+| <introduce myself to x>  Show your name only to person x.                 | |
+| <introduce x>            Introduce person x to the everyone in the room.  | |
+| <introduce x to y>       Introduce person x only to person y.             | |
+| <introduced>             A list of people you have introduced yourself to.| |
+|                                                                           | |
+| <remember x>  Add the name of person x to your list of remembered people. | |
+|               By doing this, you will always see that player's name rather| |
+|               than their description, and they will always appear on your | |
+|               <who> list if they are online.                              | |
+| <remembered>  Show a list of people you have remembered. The higher your  | |
+|               intelligence stat, the more names your brain can handle.    | |
+| <forget x>    Remove the name of person x from your remembered list.      | |
+| <who>         Show a list of all the people currently playing the game.   | |
+|               The list is split to show both those you have remembered    | |
+|               and those you have yet to remember.                         | |
+| <who f>       The Who List, but with full titles for each player who you  | |
+|               have been introduced to or remembered.                      | |
+|                                                                           | |
+| You can <introduce myself> here to see how NPCs in Silverdell react.      | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |
+

@@ -1,0 +1,32 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 28: Bulletin Boards                              | |
+|                                                                           | |
+| Throughout Genesis, you will find public forums for discussion. Bulletin  | |
+| boards allow players and wizards to post notes for everyone who comes by  | |
+| to read. This Town Hall has such a board, with which you can use the      | |
+| following commands:                                                       | |
+|                                                                           | |
+|   <note x>    - Write a note with the title "x". Beginning a note will    | |
+|                 take you into an in-game editor which will allow you to   | |
+|                 write your note line-by-line just like writing mail. Once | |
+|                 within the editor, you can use the tilda(~) key to use    | |
+|                 in-editor-commands which you can get a list of by typing  | |
+|                 <~?> within the editor.                                   | |
+|   <!command>  - The exclamation point (!) is a special character you can  | |
+|                 use as an "escape" command while within the note editor.  | |
+|                 For example, if you are in the process of creating a note | |
+|                 and someone walks into the room and asks you a question,  | |
+|                 you could type <!say Busy writing, one sec.> to perform   | |
+|                 that command outside the editor.                          | |
+|   <exa board> - Shows you a list of the board and the notes posted there. | |
+|   <read #>    - Read the note specified by #.                             | |
+|   <read next> - Read the next note (assuming you have read one already)   | |
+|   <help boards> Display comprehensive information on using boards.        | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |
+

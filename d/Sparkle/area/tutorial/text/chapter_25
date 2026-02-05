@@ -1,0 +1,38 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 25: Banks and Money                              | |
+|                                                                           | |
+| There are four types of coins in Genesis. In order of value, they are     | |
+| copper, silver, gold, and platinum. They are based in 12. 12 copper coins | |
+| are worth one silver coin, and so on. In this way, 1 platinum coin is     | |
+| worth 1,728 copper coins (a very valuable coin!)                          | |
+|                                                                           | |
+| Money has a special status in your <i>nventory. Unlike other items, money | |
+| will remain in your inventory even if you type quit. The only time money  | |
+| can be "lost" is if you drop it on the ground and forget to pick it up    | |
+| again, or if you die. Banks can be important if you do die, because then  | |
+| your money is safely stored rather than on your dead body in some hostile | |
+| location. Here, in the bank you can use the following commands:           | |
+|                                                                           | |
+|   <deposit>  - Create an account, or put coins into an existing account.  | |
+|   <withdraw> - Transfer money from your account into your inventory.      | |
+|   <account>  - See what is in your account, currently.                    | |
+|   <change>   - Make change from coins in your inventory (e.g. change      | |
+|                silver to copper coins)                                    | |
+|   <minimize> - Reduce the number of coins you carry by converting to the  | |
+|                largest possible coin type.                                | |
+|   <count>    - You can count anything you own (e.g. <count copper>).      | |
+|                                                                           | |
+| For more specific examples and instructions, you can:                     | |
+|                                                                           | |
+|   <read terms>        - The terms by which the bank operates.             | |
+|   <read instructions> - Get more info on the above commands and useage.   | |
+|   <read plaque>       - Get examples of how to make change.               | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |
+
+

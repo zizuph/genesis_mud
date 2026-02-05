@@ -1,0 +1,30 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 37: The Options Commands                         | |
+|                                                                           | |
+| It is important to determine the ways in which you interface              | |
+| with the world. Using the <options> command, you can set up your          | |
+| preferences. Lets start with these important ones:                        | |
+|                                                                           | |
+|  <options>               - Displays a list of your current preferences.   | |
+|  <options more x>        - Sets the number of lines to display when you   | |
+|                            read a long note, mail, or tutorial sign.      | |
+|  <options screenwidth x> - Sets the screenwidth by number of columns. If  | |
+|                            you have your client maximized, perhaps        | |
+|                            you will want this larger than the default 80. | |
+|  <options echo off/on>   - Determines whether you see your commands echo  | |
+|                            back to you on the screen.                     | |
+|  <options fights on/off> - Determines whether you want to see messages    | |
+|                            printed when combat is taking place around you.| |
+|  <options gagmisses on/off>If combat is too spammy for you, you can elect | |
+|                            to only see successful blows, and not misses.  | |
+|                                                                           | |
+| For information on these and other preferences you can set using the      | |
+| <options> command. Type <help options>.                                   | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |
+

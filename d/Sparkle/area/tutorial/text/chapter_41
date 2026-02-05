@@ -1,0 +1,26 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 41: Teaming                                      | |
+|                                                                           | |
+| Genesis is a game in which you can cooperate with other players. For      | |
+| instance, there is a creature in this room too difficult for most people  | |
+| to defeat alone. When you create a team of players, all who are on the    | |
+| team share in the experience reward when the creature is killed, rather   | |
+| than just the person who got the last stroke. Commands are:               | |
+|                                                                           | |
+|    <invite x>    Invite player x to be on your team.                      | |
+|    <join x>      Join a team to which you have been invited.              | |
+|    <team>        See information about the team you are on.               | |
+|    <leave team>  Disband the team you are leading.                        | |
+|    <leave>       Leave a team you are a member of.                        | |
+|    <assist>      Assist someone who is in combat.                         | |
+|                                                                           | |
+|    There are numerous other options. Type <help team> for a list.         | |
+|                                                                           | |
+| Note: Joining a team switches you to "brief mode" in your <options> menu. | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |

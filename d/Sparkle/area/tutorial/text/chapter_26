@@ -1,0 +1,30 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 26: Mail                                         | |
+|                                                                           | |
+| Because Genesis is a thriving world of real people, it naturally has its  | |
+| own built-in mail system. There will be a Post Office in just about any   | |
+| major city you visit in the game. Within each, you can send a letter to   | |
+| or receive a letter from any other player or wizard in the game. Here are | |
+| a few useful commands:                                                    | |
+|                                                                           | |
+|   <from>      - List all your mails.                                      | |
+|   <read x>    - Read a mail with number x. For example to read the first  | |
+|                 mail in your list of mails, type <read 1>.                | |
+|   <mail x>    - Send mail to person x using the post office. This command | |
+|                 will prompt you to create a title (subject), and list any | |
+|                 additional recipients to whom you'd like to CC (carbon-   | |
+|                 copy) the mail. Then you will enter the mail editor       | |
+|                 itself. Once within the editor, you can use the tilde(~)  | |
+|                 key to use in-editor-commands which you can get a list of | |
+|                 by typing <~?> within the editor.                         | |
+|   <exa mail   - This command works in any post office and displays        | |
+|    reader>      comprehensive information on how to use the post office.  | |
+|                                                                           | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |
+

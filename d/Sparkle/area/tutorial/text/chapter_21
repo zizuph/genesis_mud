@@ -1,0 +1,37 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 21: Shops - Buying and Selling                   | |
+|                                                                           | |
+| The following commands are typical throughout Genesis, and will work in   | |
+| most shops that you encounter. Below are commands which you can use here. | |
+| To use the commands, replace the word "bag" from these examples with      | |
+| the name of whatever item you are actually trying to buy or sell.         | |
+|                                                                           | |
+|  <buy bag>   - Buys the bag for the listed price.                         | |
+|  <sell all>  - Sells all items in your inventory that are not worn or     | |
+|                wielded. There is a limit on how many items can be         | |
+|                processed in a single transaction, so you may have to      | |
+|                type this command a few times if you are selling a huge    | |
+|                number of items.                                           | |
+|  <sell all!> - The same as above, but this time selling worn and wielded  | |
+|                items as well.                                             | |
+|  <sell bag>      --.                                                      | |
+|  <sell second bag> |- These commands will help you distinguish            | |
+|  <sell bag 2>      |- which item(s) you actually wish to sell.            | |
+|  <sell two bags> --'                                                      | |
+|                                                                           | |
+|  <value bag> - Show the value of the item before you decide to sell it.   | |
+|  <show bag>  - Appraise one of the items in stock before you buy it.      | |
+|  <list>      - This command displays the items that are available to      | |
+|                be purchased in the store. You can also list by category,  | |
+|                i.e. <list weapon> <list armour> <list axe> <list shield>  | |
+|  <keep/unkeep> These commands allow you to set the 'kept' status of       | |
+|                certain items in your inventory. That way, when you type   | |
+|                <sell all> the 'kept' items will not be sold.              | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |
+

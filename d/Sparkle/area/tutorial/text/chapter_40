@@ -1,0 +1,29 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 40: Corpses and Leftovers                        | |
+|                                                                           | |
+| When creatures are killed in combat, they produce a corpse. These corpses | |
+| contain anything that was in the inventory of the creature before it was  | |
+| killed. Some useful commands with regards to corpses:                     | |
+|                                                                           | |
+|     <exa corpse>          - See what can be looted from the corpse.       | |
+|     <get all from corpse> - Get everything from a corpse.                 | |
+|     <get x from corpse>   - Get just one thing from the corpse.           | |
+|     <search corpse>       - See if the corpse has any leftovers.          | |
+|                                                                           | |
+| Leftovers are a special category of item that only corpses can produce.   | |
+| Leftovers are basically pieces of the carcass that can be cut or torn off | |
+| for various uses. For instance, the corpses of the wolves in the Sterling | |
+| Woods produce intestines when searched. Some types of leftovers require   | |
+| you to be wielding a sharp-bladed weapon in order to retrieve them. The   | |
+| commands to do so are:                                                    | |
+|                                                                           | |
+|     <cut/tear leftovername from corpse> - Try to harvest the leftover.    | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |
+
+

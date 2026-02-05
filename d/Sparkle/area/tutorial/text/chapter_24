@@ -1,0 +1,37 @@
+                                     _____
+                                    |     |`.
+ ___________________________________|_____|_|_______________________________
+|                                                                           `.
+| Genesis Tutorial Chapter 24: Logging Out and Linkdeath                    | |
+|                                                                           | |
+| By now, you've probably been playing the game for a little bit of time.   | |
+| Its probably good to go over what happens when you need to quit playing   | |
+| for a while. There are two main ways to end your session:                 | |
+|                                                                           | |
+| 1. QUITTING - If you are truly done playing for the day, you are able to  | |
+|               log out by typing <quit>. It is important to realize a few  | |
+|    things about quitting in Genesis. Unlike some games, in Genesis, you   | |
+|    do not start from the same room in which you quit playing. Rather, you | |
+|    are assigned a start location which is where your character always     | |
+|    begins when you log in to the game (the hilltop is the default for new | |
+|    players). Most items in the game are saved in your inventory, and will | |
+|    re-appear when you next log in. A small number of items in the game,   | |
+|    however, do not recover if you quit. To be sure, you can type <save>   | |
+|    to see which items will "glow". Those that fail to glow do not save    | |
+|    you quit. Also, be aware that it is not possible to quit while in      | |
+|    combat.                                                                | |
+|                                                                           | |
+| 2. LINKDEATH - Linkdeath occurs when your connection to the game is       | |
+|                broken for any reason. A computer crash, a poor connection | |
+|    to the game, or closing the program you are using without typing       | |
+|    <quit> are all examples of situations which result in linkdeath. While | |
+|    you are linkdead you are still technically in the game. It is not a    | |
+|    safe way to escape combat - quite to the contrary! If you have lost    | |
+|    your link, and log back in your session can resume as normal, and you  | |
+|    will "revive" from linkdeath. Linkdeath is not intended to be a way    | |
+|    for players to idle in the game. If you are done playing for a while,  | |
+|    it is best to log out using <quit>.                                    | |
+|___________________________________________________________________________| |
+`.__________________________________________________________________________`.|
+                                    |     | |
+                                    |     | |
